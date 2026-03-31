@@ -13,3 +13,5 @@ Wie bei jedem hierarchischen System erfolgt die Pflege prinzipiell von „oben n
 <p class="siehe-auch">Siehe auch:</p>
 
 - [Bedienerstamm](bedienerstamm/index.md)
+- [Bedienerklassen](bedienerklassen/index.md)
+- [Erfasserstamm](erfasserstamm/index.md)

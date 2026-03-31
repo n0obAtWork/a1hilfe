@@ -21,6 +21,11 @@ details {
     margin-bottom: 1.2rem;
 }
 
+/* details[open] {
+    border: 2px solid var(--amic-color-yellow);
+    padding: 0.5rem;
+} */
+
 details > p.answer {
     color: var(--amic-color-yellow);
     font-weight: bold;

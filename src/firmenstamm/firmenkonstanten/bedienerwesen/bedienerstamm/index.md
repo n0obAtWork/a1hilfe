@@ -1,6 +1,8 @@
 # Bedienerstamm
 
-Hauptmenü > Administration > Firmenkonstanten > Bediener oder Direktsprung **[BD]**
+Hauptmenü > Administration > Firmenkonstanten > Bediener
+
+oder Direktsprung **[BD]**
 
 In dieser Variante können Sie A.eins-Bediener definieren.
 
@@ -56,3 +58,6 @@ In dieser Variante können Sie A.eins-Bediener definieren.
 <p class="siehe-auch">Siehe auch:</p>
 
 - [Bedienerstamm: Pfleger](bed_pfleger.md)
+- [Bediener clonen](bed_clonen.md)
+- [Bediener - Codepage](bed_codepage.md)
+- [Der Bediener „AMIC“](bed_amic.md)

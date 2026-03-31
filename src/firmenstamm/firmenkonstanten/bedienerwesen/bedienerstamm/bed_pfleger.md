@@ -152,4 +152,95 @@ Dieser Pfleger dient zur Änderung und Erstellung von Bedienern
 
 <p class="just-emphasize">Funktion:</p>
 
-### TO BE CONTINUED
+<details>
+  <summary>Bedienerstamm Pfleger Funktionen</summary>
+
+  | Funktionen | Beschreibung |
+  | :--------- | :----------- |
+  | <p>Speichern **(F9)**</p><p>Neu **(F8)**</p><p>Speichern unter **(Shift + F9)**</p> ||
+  | Kundenindiv. SQL Anpassung | Kundenindiviuelle SQL Anpassung |
+  | Anschrift | Ruft den Anschriftenpfleger für diesen Bediener auf. |
+  | Bediener aktivieren | Setzt den Status auf aktiv. Nur möglich, wenn der Status auf inaktiv steht. |
+  | Bediener deaktivieren | Setzt den Status auf inaktiv. Nur möglich, wenn der Status auf aktiv steht. |
+  | Passwort zurücksetzten | Setzt das Passwort für diesen Bediener zurück. |
+  | Auswahlliste zurücksetzen | <p>Hier werden die Einstellungen des Anwenders wieder auf Standard zurückgesetzt. Dazu gehören folgende Einstellungen:</p><ul><li>Sortierung</li><li>Ein oder ausgeblendete Spalten</li><li>Spaltenbreit und Position</li><li>Schriftart (nur AW 2.0)</li><li>Design (nur AW 2.0)</li><li>Excelaugabe (nur AW 2.0)</li><li>Gruppieren und Filterzeile</li> |
+</details>
+
+# Kundenindividuelle SQL Anpassung
+
+Hauptmenü > Administration > Firmenkonstanten > Bediener oder Direktsprung **[BD]**
+
+Öffnet man die Maske für einen Bediener, dann findet man in der Option Box die Funktion Kundenindiv. SQL Anpassung, die die Auswahlliste zur kundenindividuellen SQL Anpassung öffnet. Für den jeweiligen Bediener sieht man dann die Einstellungen der bisherigen Variablen.
+
+Mit der Ändern Funktion kann man den Ausdruck für die jeweilige Variable ändern.
+
+Mit Hilfe des Feldes für alle Bediener übernehmen? kann man diesen Ausdruck für die jeweilige Variable beim Speichern für alle Bediener eintragen lassen.
+
+Mit der Löschen Funktion kann man den Ausdruck für die jeweilige Variable löschen.
+
+Beim Bestätigen des Löschens wird man immer gefragt, ob man die Variable auch für alle anderen Bediener löschen möchte. Die Antwort auf diese Frage ist mit ‚Nein’ vorbelegt.
+
+Die Vorbelegung dieser Variablen für einen Bediener bewirkt eine Eingrenzung von SQL Texten wie z.B. Itemboxen oder Auswahllisten oder eine Vorbelegung bei der Neuanlage eines Vorganges.
+
+<p class="just-emphasize">Die bisher möglichen Variablen:</p>
+
+Wo diese Variablen aktuell eingesetzt werden, kann man z.B. mit Hilfe von OSQL überprüfen. Es ist möglich, dass sich der Einsatz der Variablen im Laufe der Zeit erweitert. Hier wird der zurzeit aktuelle Stand dargestellt.
+
+(gesucht über OSQL und einem Befehl wie diesem):
+
+```sql
+select * from sql_text where sql_texttext like '%WWW_IB_KUNDEN%'
+```
+
+<details>
+  <summary>WWW_IB_KUNDEN</summary>
+
+  Diese Variable kommt in folgenden Itemboxen vor und bewirkt dort eine Eingrenzung auf den jeweiligen Ausdruck:
+
+  ![Variablen](image8_15.png "Variablen")
+</details>
+
+<details>
+  <summary>WWW_IB_ARTIKEL</summary>
+
+  Diese Variable kommt in folgenden Itemboxen vor und bewirkt dort eine Eingrenzung auf den jeweiligen Ausdruck:
+
+  ![Variablen](image8_16.png "Variablen")
+</details>
+
+<details>
+  <summary>WWW_V_KUNDNUMMER</summary>
+
+  Vorbelegung der Kundennummer für die Neuanlage eines Vorgangs. Im Programmcode svmain.jpl
+</details>
+
+<details>
+  <summary>WWW_AW_LIEFERUNG</summary>
+
+  Diese Variable kommt in folgenden Auswahllisten vor und bewirkt dort eine Eingrenzung auf den jeweiligen Ausdruck:
+
+  ![Variablen](image8_17.png "Variablen")
+</details>
+
+<details>
+  <summary>WWW_V_LAGERNUMMER</summary>
+
+  <p>Vorbelegung der Lagernummer für die Neuanlage eines Vorgangs.</p><p>Im Programmcode svmain.jpl</p>
+</details>
+
+<details>
+  <summary>WWW_AW_PARTIESTAMM</summary>
+
+  Diese Variable kommt in folgenden Auswahllisten vor und bewirkt dort eine Eingrenzung auf den jeweiligen Ausdruck:
+
+  ![Variablen](image8_18.png "Variablen")
+</details>
+
+<details>
+  <summary>WWW_IB_LAGERSTAMM</summary>
+
+  Diese Variable kommt in folgenden Auswahllisten vor und bewirkt dort eine Eingrenzung auf den jeweiligen Ausdruck:
+
+  ![Variablen](image8_19.jpg "Variablen")
+</details>
+

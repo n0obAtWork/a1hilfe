@@ -21,8 +21,19 @@
 
     - [Bedienerwesen: Bediener, Bedienerklassen und Erfasser](firmenstamm/firmenkonstanten/bedienerwesen/index.md)
       
-      - [Bedienerstamm](firmenstamm/firmenkonstanten/bedienerwesen/bedienerstamm/index.md)        
+      - [Bedienerstamm](firmenstamm/firmenkonstanten/bedienerwesen/bedienerstamm/index.md)
         - [Bedienerstamm: Pfleger](firmenstamm/firmenkonstanten/bedienerwesen/bedienerstamm/bed_pfleger.md)
+        - [Bediener clonen](firmenstamm/firmenkonstanten/bedienerwesen/bedienerstamm/bed_clonen.md)
+        - [Bediener - Codepage](firmenstamm/firmenkonstanten/bedienerwesen/bedienerstamm/bed_codepage.md)
+        - [Der Bediener „AMIC“](firmenstamm/firmenkonstanten/bedienerwesen/bedienerstamm/bed_amic.md)
+      
+      - [Bedienerklassen](firmenstamm/firmenkonstanten/bedienerwesen/bedienerklassen/index.md)
+        - [Bedienerklasse: Pfleger](firmenstamm/firmenkonstanten/bedienerwesen/bedienerklassen/bedklasse_pfleger.md)
+        - [Standard Bedienerklassen](firmenstamm/firmenkonstanten/bedienerwesen/bedienerklassen/bedklasse_standard.md)
+
+      - [Erfasserstamm](firmenstamm/firmenkonstanten/bedienerwesen/erfasserstamm/index.md)
+        - [Erfasser: Pfleger](firmenstamm/firmenkonstanten/bedienerwesen/erfasserstamm/erfasser_pfleger.md)
+        - [Erfasserwechsel](firmenstamm/firmenkonstanten/bedienerwesen/erfasserstamm/erfasser_wechsel.md)
 
   - [Wirtschaftsjahre und Perioden](firmenstamm/wirtschaftsjahre_und_perioden/index.md)
     
