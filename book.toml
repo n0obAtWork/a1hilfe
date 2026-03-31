@@ -1,0 +1,26 @@
+[book]
+title = "A.eins"
+authors = []
+language = "de"
+
+[output.html]
+additional-css = ["custom.css"]
+no-section-label = true
+
+[output.html.fold]
+enable = true
+level = 0
+
+[output.html.search]
+enable = true
+
+# using mdbook-pandoc
+#[output.pandoc.profile.pdf]
+#output-file = "output.pdf"
+#to = "latex"
+#number-sections = false
+
+# using mdbook-pdf
+[output.pdf]
+
+

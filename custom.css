@@ -1,0 +1,64 @@
+:root {
+    --amic-color-yellow: #f39200;
+    --amic-color-green: #007674;
+}
+
+.menu-title {
+    font-weight: bolder;
+    color: var(--amic-color-green);
+}
+
+/* .sub-header-1 {
+    font-size: 1.8rem;
+} */
+
+summary {
+    font-weight: bold;
+    color: var(--amic-color-green);
+}
+
+details {
+    margin-bottom: 1.2rem;
+}
+
+details > p.answer {
+    color: var(--amic-color-yellow);
+    font-weight: bold;
+}
+
+.chapter li a.active {
+    color: var(--amic-color-yellow)
+}
+
+a:hover {
+    color: var(--amic-color-yellow);
+}
+
+li.chapter-item a:not(.active):hover {
+    color: var(--amic-color-yellow);
+}
+
+.chapter a.current-header {
+    color: var(--amic-color-yellow);
+}
+
+.system-req, .siehe-auch, .just-emphasize {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.siehe-auch  + ul {
+    list-style-type: none;
+}
+
+.table-wrapper table {
+    width: 100%;
+}
+
+td p:first-of-type {
+    margin-top: 0;
+}
+
+td p:last-of-type {
+    margin-bottom: 0;
+}
