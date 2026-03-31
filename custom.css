@@ -21,10 +21,15 @@ details {
     margin-bottom: 1.2rem;
 }
 
-/* details[open] {
-    border: 2px solid var(--amic-color-yellow);
+details[open] {
+    border: 1px solid var(--amic-color-green);
     padding: 0.5rem;
-} */
+    border-radius: 10px;
+}
+
+details[open] > summary:has(+ div.table-wrapper) {
+    margin-bottom: 1rem;
+}
 
 details > p.answer {
     color: var(--amic-color-yellow);
