@@ -1,7 +1,7 @@
 # Allgemeine Programmfunktionen
 
 <details>
-  <summary>Frage: Was passiert, wenn man einen Bediener löscht? Erhält er lediglich ein Kennzeichen?</h3></summary>
+  <summary>Frage: Was passiert, wenn man einen Bediener löscht? Erhält er lediglich ein Kennzeichen?</summary>
   
   <p class="answer">Antwort:</p>
 

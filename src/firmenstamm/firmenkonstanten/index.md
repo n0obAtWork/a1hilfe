@@ -6,3 +6,4 @@ Im Firmenstamm werden übergreifende Steuerungsinformationen verwaltet:
 
 - [Mandantenstamm](mandantenstamm.md)
 - [Bedienerwesen: Bediener, Bedienerklassen und Erfasser](bedienerwesen/index.md)
+- [Zuordnung von Funktionen zu Bedienerklassen (Rollen)](fkt_zu_bdkl/index.md)

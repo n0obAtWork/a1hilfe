@@ -35,9 +35,22 @@
         - [Erfasser: Pfleger](firmenstamm/firmenkonstanten/bedienerwesen/erfasserstamm/erfasser_pfleger.md)
         - [Erfasserwechsel](firmenstamm/firmenkonstanten/bedienerwesen/erfasserstamm/erfasser_wechsel.md)
 
+    - [Zuordnung von Funktionen zu Bedienerklassen (Rollen)](firmenstamm/firmenkonstanten/fkt_zu_bdkl/index.md)
+      - [Rollenstamm](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenstamm/index.md)
+        - [Rollenstamm: Pfleger](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenstamm/pfleger.md)
+        - [Rollen tauschen](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenstamm/rollen_tauschen.md)
+        - [Rollen vereinigen](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenstamm/rollen_vereinigen.md)
+
   - [Wirtschaftsjahre und Perioden](firmenstamm/wirtschaftsjahre_und_perioden/index.md)
     
     - [Anlegen eines neuen Wirtschaftsjahres (WJ) am Beispiel 2012](firmenstamm/wirtschaftsjahre_und_perioden/anlegen_neuer_wirtschaftsjahr.md)
     - [Geschäftsjahre / Buchungsperioden](firmenstamm/wirtschaftsjahre_und_perioden/geschaeftsjahre_buchung.md)
+
+- [Kunden und Lieferanten](kunden_lieferanten/index.md)
+  
+  - [Konstanten / Bearbeitung](kunden_lieferanten/konstanten_bearbeitung/index.md)
+    - [Oberkunden](kunden_lieferanten/konstanten_bearbeitung/oberkunden.md)
+    - [Zahlungspflichtige Kunden](kunden_lieferanten/konstanten_bearbeitung/zahlungspflichtige_kunden.md)
+    - [Auslandskunden](kunden_lieferanten/konstanten_bearbeitung/auslandskunden.md)
 
 

@@ -36,7 +36,7 @@ Hier erfolgen die Benennung des Mandanten (Bezeichnung der Firma), seine datenba
   | Kasse/DSFin_V-K Taxonomie-Version | Die in A.eins implementierte Version der DSFinV-K |
   | Kasse/DSFin_V-K Taxonomie-Dtd | Die in A.eins implementierte Version der DSFinV-K benötigt diese mit A.eins bereitgestellte Dokument-Type-Definition-Datei. |
   | Programm läuft in | <p>Sprache in der das A.eins grundsätzlich läuft. Diese Sprache wird von AMIC gepflegt und man kann sie mit **F3** auswählen. Die Sprachen Englisch, Dänisch, Niederländisch und Französisch sind Lizenzpflichtig. Wenn eine dieser Sprachen das erste Mal ausgewählt wird, so muss man die Aktivierung bestätigen. Es wird erst dann die aktuelle Sprache eingespielt und der Benutzer kann ohne Lizenz für 60 Tage diese Sprache nutzen. Danach muss die Lizenz erworben werden.</p><p>Ohne Aktivierung wird die Spracheinstellung ignoriert.</p> |
-  | Systemkundennummer | <p>Kunde des Mandanten</p><p>Nachhaltigkeit</p></p>Um für einen Mandanten die Nachhaltigkeitsinformationen zu hinterlegen, muss hier der Systemkunde hinterlegt werden. An diesem können dann die Zertifikate vom Typ 5 gepflegt werden.</p> |
+  | Systemkundennummer | <p>Kunde des Mandanten</p><p>Nachhaltigkeit</p><p>Um für einen Mandanten die Nachhaltigkeitsinformationen zu hinterlegen, muss hier der Systemkunde hinterlegt werden. An diesem können dann die Zertifikate vom Typ 5 gepflegt werden.</p> |
   | Handelsregister | Nummer des Eintrags im Handelsregister. |
   | Handelsname | Vom Firmennamen abweichender Handelsname. |
   | Electronic Address | Die für die elektronische Zustellung von eRechnung verwendete Absendeadresse |
@@ -57,7 +57,7 @@ Hier erfolgen die Benennung des Mandanten (Bezeichnung der Firma), seine datenba
   | Fehlerkostenstelle | Wurde in einem Beleg keine Kostenstelle angegeben, so wird bei GuV-Konten automatisch diese Kostenstelle verwendet. |
   | Fehlerkostenträger | Wurde in einem Beleg kein Kostenträger angegeben, so wird bei GuV-Konten automatisch dieser Kostenträger verwendet. |
   | Fehlerkostenobjekt | Wurde in einem Beleg kein Kostenobjekt angegeben, so wird bei GuV-Konten automatisch dieses Kostenobjekt verwendet. |
-  | Zinsbasis | <p>Hier kann man angeben, wie bei der Zinsabrechnung gerechnet werden soll. Möglicher Werte sind:</p><ul><li>Monat / 365</li><li>30 / 360</li><li>Monat / 360</li><ul> |
+  | Zinsbasis | <p>Hier kann man angeben, wie bei der Zinsabrechnung gerechnet werden soll. Möglicher Werte sind:</p><ul><li>Monat / 365</li><li>30 / 360</li><li>Monat / 360</li></ul> |
   | Bundesland | Das Bundesland wird für die Umsatzsteuervoranmeldung / Elster gebraucht. |
   | Nummer des Finanzamtes | Ist mit F3 auswählbar. Wird für die Umsatzsteuervoranmeldung / Elster benötigt. |
   | Name | Wird für die Umsatzsteuervoranmeldung / Elster benötigt |

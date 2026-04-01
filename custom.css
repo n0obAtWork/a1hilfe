@@ -14,26 +14,57 @@
 
 summary {
     font-weight: bold;
-    color: var(--amic-color-green);
+    color: white;
+    background-color: var(--amic-color-green);
+    border-radius: 10px;
+    padding: 0.7rem 1.5rem;
 }
+
+/* summary::marker {
+    content: "";
+} */
 
 details {
     margin-bottom: 1.2rem;
+    border-radius: 10px;
+    border-left: 1px solid rgba(0, 0, 0, 0);
+    border-right: 1px solid rgba(0, 0, 0, 0);
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 
 details[open] {
-    border: 1px solid var(--amic-color-green);
-    padding: 0.5rem;
-    border-radius: 10px;
+    /* border: 1px solid var(--amic-color-green); */
+    border-left: 1px solid var(--amic-color-green);
+    border-right: 1px solid var(--amic-color-green);
+    border-bottom: 1px solid var(--amic-color-green);
 }
 
+details[open] > summary {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+
 details[open] > summary:has(+ div.table-wrapper) {
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+details > *:not(summary) {
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 details > p.answer {
     color: var(--amic-color-yellow);
     font-weight: bold;
+}
+
+details > ul > li {
+    margin-left: 1.3rem;
+}
+
+details > ol > li {
+    margin-left: 1.3rem;
 }
 
 .chapter li a.active {
@@ -61,6 +92,10 @@ li.chapter-item a:not(.active):hover {
     list-style-type: none;
 }
 
+.table-wrapper:last-of-type {
+    margin-bottom: 5px;
+}
+
 .table-wrapper table {
     width: 100%;
 }
@@ -72,3 +107,4 @@ td p:first-of-type {
 td p:last-of-type {
     margin-bottom: 0;
 }
+
