@@ -47,6 +47,7 @@
       
       - [Rollenkontext](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenkontext/index.md)
         - [Rollenkontext: Pfleger](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenkontext/pfleger.md)
+        - [Informationen](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenkontext/informationen.md)
 
   - [Wirtschaftsjahre und Perioden](firmenstamm/wirtschaftsjahre_und_perioden/index.md)
     

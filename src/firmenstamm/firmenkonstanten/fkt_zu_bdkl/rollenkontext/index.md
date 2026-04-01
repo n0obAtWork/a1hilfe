@@ -257,3 +257,4 @@ Einführende Erläuterungen finden sich unter Zugriffsrechte Funktionen.
 <p class="siehe-auch">Siehe auch:</p>
 
 - [Rollenkontext: Pfleger](pfleger.md)
+- [Informationen](informationen.md)
