@@ -9,3 +9,4 @@ Das Schutzsystem für Funktionen wird über die Zuordnung von Bedienerklassen zu
 <p class="siehe-auch">Siehe auch:</p>
 
 - [Rollenstamm](rollenstamm/index.md)
+- [Rollenklasse](rollenklasse/index.md)

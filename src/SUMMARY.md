@@ -36,10 +36,14 @@
         - [Erfasserwechsel](firmenstamm/firmenkonstanten/bedienerwesen/erfasserstamm/erfasser_wechsel.md)
 
     - [Zuordnung von Funktionen zu Bedienerklassen (Rollen)](firmenstamm/firmenkonstanten/fkt_zu_bdkl/index.md)
+      
       - [Rollenstamm](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenstamm/index.md)
         - [Rollenstamm: Pfleger](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenstamm/pfleger.md)
         - [Rollen tauschen](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenstamm/rollen_tauschen.md)
         - [Rollen vereinigen](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenstamm/rollen_vereinigen.md)
+
+      - [Rollenklasse](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenklasse/index.md)
+        - [Rollenklassen: Pfleger](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenklasse/pfleger.md)
 
   - [Wirtschaftsjahre und Perioden](firmenstamm/wirtschaftsjahre_und_perioden/index.md)
     
