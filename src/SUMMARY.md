@@ -49,6 +49,10 @@
         - [Rollenkontext: Pfleger](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenkontext/pfleger.md)
         - [Informationen](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenkontext/informationen.md)
         - [Funktionsarten](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenkontext/funktionsarten.md)
+        - [Dieses Menü](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenkontext/dieses_menue.md)
+        - [Dieses Hauptmenü](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenkontext/dieses_hauptmenue.md)
+        - [Diese Verbindungen](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenkontext/diese_verbindungen.md)
+        - [Rollenantrag](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenkontext/rollenantrag.md)
 
   - [Wirtschaftsjahre und Perioden](firmenstamm/wirtschaftsjahre_und_perioden/index.md)
     
