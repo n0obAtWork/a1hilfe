@@ -258,3 +258,4 @@ Einführende Erläuterungen finden sich unter Zugriffsrechte Funktionen.
 
 - [Rollenkontext: Pfleger](pfleger.md)
 - [Informationen](informationen.md)
+- [Funktionsarten](funktionsarten.md)
