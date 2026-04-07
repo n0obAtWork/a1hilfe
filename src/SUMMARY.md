@@ -54,6 +54,10 @@
         - [Diese Verbindungen](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenkontext/diese_verbindungen.md)
         - [Rollenantrag](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenkontext/rollenantrag.md)
 
+      - [Rollenmapping](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenmapping/index.md)
+        - [Rollenmapping: Pfleger](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenmapping/pfleger.md)
+        - [Stapenzuordnung aus Optionbox](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenmapping/stapelzuordnung_aus_optionbox.md)
+
   - [Wirtschaftsjahre und Perioden](firmenstamm/wirtschaftsjahre_und_perioden/index.md)
     
     - [Anlegen eines neuen Wirtschaftsjahres (WJ) am Beispiel 2012](firmenstamm/wirtschaftsjahre_und_perioden/anlegen_neuer_wirtschaftsjahr.md)
