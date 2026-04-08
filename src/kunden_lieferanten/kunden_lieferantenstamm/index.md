@@ -13,3 +13,4 @@ Direktsprung **[LF]**
 <p class="siehe-auch">Siehe auch:</p>
 
 - [Hauptmaske](hauptmaske/index.md)
+- [Krediterfassung](krediterfassung/index.md)

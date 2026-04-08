@@ -92,4 +92,7 @@
       - [Kreditlimit](kunden_lieferanten/kunden_lieferantenstamm/hauptmaske/kreditlimit.md)
       - [Zolldaten (Kundenstamm)](kunden_lieferanten/kunden_lieferantenstamm/hauptmaske/zolldaten_kundenstamm.md)
 
+    - [Krediterfassung](kunden_lieferanten/kunden_lieferantenstamm/krediterfassung/index.md)
+      - [Eingabe Kundenkredit](kunden_lieferanten/kunden_lieferantenstamm/krediterfassung/eingabe_kreditlimit.md)
+
 
