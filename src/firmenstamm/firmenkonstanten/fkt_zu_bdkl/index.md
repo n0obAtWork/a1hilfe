@@ -14,3 +14,4 @@ Das Schutzsystem für Funktionen wird über die Zuordnung von Bedienerklassen zu
 - [Rollenmapping](rollenmapping/index.md)
 - [Rollenanalyse](rollenanalyse.md)
 - [Rollenpflegerstamm](rollenpflegerstamm.md)
+- [Rollenpfleger](rollenpfleger.md)

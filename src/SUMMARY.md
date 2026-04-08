@@ -62,6 +62,8 @@
 
       - [Rollenpflegerstamm](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenpflegerstamm.md)
 
+      - [Rollenpflege](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenpflege.md)
+
   - [Wirtschaftsjahre und Perioden](firmenstamm/wirtschaftsjahre_und_perioden/index.md)
     
     - [Anlegen eines neuen Wirtschaftsjahres (WJ) am Beispiel 2012](firmenstamm/wirtschaftsjahre_und_perioden/anlegen_neuer_wirtschaftsjahr.md)
