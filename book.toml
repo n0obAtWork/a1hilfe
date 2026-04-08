@@ -21,6 +21,6 @@ enable = true
 #number-sections = false
 
 # using mdbook-pdf
-[output.pdf]
+#[output.pdf]
 
 

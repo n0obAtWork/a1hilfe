@@ -57,6 +57,8 @@
       - [Rollenmapping](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenmapping/index.md)
         - [Rollenmapping: Pfleger](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenmapping/pfleger.md)
         - [Stapenzuordnung aus Optionbox](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenmapping/stapelzuordnung_aus_optionbox.md)
+      
+      - [Rollenanalyse](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenanalyse.md)
 
       - [Rollenpflegerstamm](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenpflegerstamm.md)
 
