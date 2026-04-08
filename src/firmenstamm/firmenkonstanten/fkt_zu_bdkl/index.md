@@ -11,3 +11,4 @@ Das Schutzsystem für Funktionen wird über die Zuordnung von Bedienerklassen zu
 - [Rollenstamm](rollenstamm/index.md)
 - [Rollenklasse](rollenklasse/index.md)
 - [Rollenkontext](rollenkontext/index.md)
+- [Rollenpflegerstamm](rollenpflegerstamm.md)
