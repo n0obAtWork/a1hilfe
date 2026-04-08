@@ -2,9 +2,13 @@
 
 - [Allgmeine Programmfunktionen](index.md)
 
-  - [Programmupdates und Releaseänderungen Versionen 64bit](allgemeine_programmfunktionen/versionen/index.md)
+  - [Generelle Programmbedienung](allgemeine_programmfunktionen/generelle_programmbedienung/index.md)
+    - [Der A.eins Startbildschirm](allgemeine_programmfunktionen/generelle_programmbedienung/startbildschirm.md)
+  
+  - [Hinweis Auswahlliste](allgemeine_programmfunktionen/hinweis_auswahlliste.md)
+<!--   - [Programmupdates und Releaseänderungen Versionen 64bit](allgemeine_programmfunktionen/versionen/index.md)
     - [9.0.2401.1](allgemeine_programmfunktionen/versionen/9.0.2401.1.md)
-    - [9.0.2401.2](allgemeine_programmfunktionen/versionen/9.0.2401.2.md)
+    - [9.0.2401.2](allgemeine_programmfunktionen/versionen/9.0.2401.2.md) -->
     
 - [A.eins FAQ](faq/index.md)
     
@@ -79,5 +83,13 @@
     - [Oberkunden](kunden_lieferanten/konstanten_bearbeitung/oberkunden.md)
     - [Zahlungspflichtige Kunden](kunden_lieferanten/konstanten_bearbeitung/zahlungspflichtige_kunden.md)
     - [Auslandskunden](kunden_lieferanten/konstanten_bearbeitung/auslandskunden.md)
+
+  - [Kunden- und Lieferantenstamm](kunden_lieferanten/kunden_lieferantenstamm/index.md)
+
+    - [Hauptmaske](kunden_lieferanten/kunden_lieferantenstamm/hauptmaske/index.md)
+      - [Funktion Löschen / Wiederherstellen](kunden_lieferanten/kunden_lieferantenstamm/hauptmaske/fkt_loeschen_wiederherstellen.md)
+      - [Sharepoint](kunden_lieferanten/kunden_lieferantenstamm/hauptmaske/sharepoint.md)
+      - [Kreditlimit](kunden_lieferanten/kunden_lieferantenstamm/hauptmaske/kreditlimit.md)
+      - [Zolldaten (Kundenstamm)](kunden_lieferanten/kunden_lieferantenstamm/hauptmaske/zolldaten_kundenstamm.md)
 
 

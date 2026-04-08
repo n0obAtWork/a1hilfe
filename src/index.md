@@ -15,3 +15,9 @@ Die vollständigen Systemvoraussetzungen und Empfehlungen für Sie entnehmen Sie
 > Windows Server 2012 mit einer Extended Security Updates (ESU) Lizenzierung wird nicht mehr unterstützt.
 >
 > Fremdsoftware und deren Anbindung wird ausschließlich auf Basis gewarteter Versionen unterstützt. Drittanbietersoftware, die nicht mehr der Wartung des Anbieters untersteht, kann nicht von A.eins® unterstützt werden.
+
+<p class="siehe-auch">Siehe auch:</p>
+
+<!-- - [Programmupdates und Releaseänderungen Versionen 64bit](allgemeine_programmfunktionen/versionen/index.md) -->
+- [Generelle Programmbedienung](allgemeine_programmfunktionen/generelle_programmbedienung/index.md)
+- [Hinweis Auswahlliste](allgemeine_programmfunktionen/hinweis_auswahlliste.md)
