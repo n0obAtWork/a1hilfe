@@ -63,6 +63,10 @@
       - [Rollenpflegerstamm](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenpflegerstamm.md)
 
       - [Rollenpflege](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenpflege.md)
+    
+    - [Zugriffsrechte Funktionen](firmenstamm/firmenkonstanten/zugriffsrechte_funktionen.md)
+
+    - [Schutzwort](firmenstamm/firmenkonstanten/schutzwort.md)
 
   - [Wirtschaftsjahre und Perioden](firmenstamm/wirtschaftsjahre_und_perioden/index.md)
     
