@@ -16,8 +16,8 @@ summary {
     font-weight: bold;
     color: white;
     background-color: var(--amic-color-green);
-    border-radius: 10px;
-    padding: 0.7rem 1.5rem;
+    border-radius: 8px;
+    padding: 0.7rem 0.5rem;
 }
 
 /* summary::marker {
@@ -27,21 +27,13 @@ summary {
 details {
     margin-bottom: 1.2rem;
     border-radius: 10px;
-    border-top: 1px solid var(--amic-color-green);
-    border-right: 1px solid var(--amic-color-green);
-    border-bottom: 1px solid rgba(0, 0, 0, 0);
-    border-left: 1px solid var(--amic-color-green);
+    border: 1px solid var(--amic-color-green);
 }   
-
-details[open] {
-    border-bottom: 1px solid var(--amic-color-green);
-}
 
 details[open] > summary {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
 }
-
 
 details[open] > summary:has(+ div.table-wrapper) {
     margin-bottom: 1.2rem;
