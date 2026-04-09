@@ -1,1 +1,0 @@
-# Der A.eins Startbildschirm

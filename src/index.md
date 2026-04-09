@@ -19,5 +19,5 @@ Die vollständigen Systemvoraussetzungen und Empfehlungen für Sie entnehmen Sie
 <p class="siehe-auch">Siehe auch:</p>
 
 <!-- - [Programmupdates und Releaseänderungen Versionen 64bit](allgemeine_programmfunktionen/versionen/index.md) -->
-- [Generelle Programmbedienung](allgemeine_programmfunktionen/generelle_programmbedienung/index.md)
+- [Generelle Programmbedienung](allgemeine_programmfunktionen/generelle_programmbedienung.md)
 - [Hinweis Auswahlliste](allgemeine_programmfunktionen/hinweis_auswahlliste.md)

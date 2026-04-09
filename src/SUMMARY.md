@@ -2,9 +2,7 @@
 
 - [Allgmeine Programmfunktionen](index.md)
 
-  - [Generelle Programmbedienung](allgemeine_programmfunktionen/generelle_programmbedienung/index.md)
-    - [Der A.eins Startbildschirm](allgemeine_programmfunktionen/generelle_programmbedienung/startbildschirm.md)
-  
+  - [Generelle Programmbedienung](allgemeine_programmfunktionen/generelle_programmbedienung.md)
   - [Hinweis Auswahlliste](allgemeine_programmfunktionen/hinweis_auswahlliste.md)
 <!--   - [Programmupdates und Releaseänderungen Versionen 64bit](allgemeine_programmfunktionen/versionen/index.md)
     - [9.0.2401.1](allgemeine_programmfunktionen/versionen/9.0.2401.1.md)
@@ -95,4 +93,6 @@
     - [Krediterfassung](kunden_lieferanten/kunden_lieferantenstamm/krediterfassung/index.md)
       - [Eingabe Kundenkredit](kunden_lieferanten/kunden_lieferantenstamm/krediterfassung/eingabe_kreditlimit.md)
 
+- [Zusatzprogramme](zusatzprogramme/index.md)
+  - [Auswahlliste 2.0](zusatzprogramme/auswahlliste20/index.md)
 
