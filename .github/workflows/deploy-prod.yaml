@@ -33,5 +33,13 @@ jobs:
       - name: Build Hilfe
         run: mdbook build
       # TODO - need something to upload generated pdf for distribution
-      - name: Deploy 
+      #- name: Build Docker image
+      #  run: docker build -t spike-a1hilfe-mdbook:latest .
+      #- name: Deploy Onlinehilfe
+      #  run: >
+      #    docker run -d
+      #    --name a1hilfe-mdbook
+      #    --network ipvlan16
+      #    --ip 172.19.16.10
+      #    spike-a1hilfe-mdbook
         
