@@ -1,7 +1,5 @@
 # Allgemeine Programmfunktionen
 
-Letzter Hilfebau : 09.01.2026 10:38:49
-
 <p class="system-req">Systemvoraussetzungen für A.eins:</p>
 
 - Client: Alle von Microsoft supporteten Betriebssysteme.

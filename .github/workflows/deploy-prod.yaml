@@ -1,0 +1,28 @@
+name: Deploy A.eins Hilfe
+
+on:
+  push:
+    branches: [main]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: Linux
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+        fetch-depth: 0
+      - name: Setup Rust
+        uses: actions-rust-lang/setup-rust-toolchain@v1
+      - name: Install mdbook and needed extensions
+        run: |
+          cargo install mdbook
+          cargo install mdbook-pdf
+          cargo install mdbook-gitinfo
+      - name: Setup Chrome
+        uses: browser-actions/setup-chrome@v2
+      - name: Run tests
+        run: mdbook test
+        
