@@ -1,6 +1,6 @@
 # spike-a1hilfe-mdbook
 
-Libs for Rust
+Needs Rust, therefore following libs are needed:
 
 - gcc
 - openssl / libssl-dev
