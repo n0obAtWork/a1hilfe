@@ -18,15 +18,15 @@ jobs:
         uses: actions-rust-lang/setup-rust-toolchain@v1
       - name: Install mdbook and needed extensions
         run: |
-          cargo install mdbook
-          cargo install mdbook-pdf
-          cargo install mdbook-gitinfo
-      - name: Setup Chrome
-        uses: browser-actions/setup-chrome@v2
-      - name: Run tests
-        run: mdbook test
-      - name: Build Hilfe
-        run: mdbook build
+          cargo uninstall mdbook-gitinfo
+          cargo uninstall mdbook-pdf
+          cargo uninstall mdbook
+      #- name: Setup Chrome
+      #  uses: browser-actions/setup-chrome@v2
+      #- name: Run tests
+      #  run: mdbook test
+      #- name: Build Hilfe
+      #  run: mdbook build
       # TODO - need something to upload generated pdf for distribution
       #- name: Build Docker image
       #  run: docker build -t spike-a1hilfe-mdbook:latest .
