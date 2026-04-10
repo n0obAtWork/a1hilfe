@@ -18,7 +18,6 @@ jobs:
         uses: actions-rust-lang/setup-rust-toolchain@v1
       - name: Install mdbook and needed extensions
         run: |
-          cargo uninstall mdbook-gitinfo
           cargo uninstall mdbook-pdf
           cargo uninstall mdbook
       #- name: Setup Chrome
