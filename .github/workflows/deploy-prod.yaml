@@ -15,6 +15,7 @@ jobs:
         with:
           fetch-depth: 0
       - run: |
+          rustc --version
           cargo --help
       #- name: Setup Chrome
       #  uses: browser-actions/setup-chrome@v2
