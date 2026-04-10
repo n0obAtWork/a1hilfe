@@ -14,6 +14,11 @@ jobs:
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
+      - name: Set up GCC
+        uses: egor-tensin/setup-gcc@v2
+        with:
+          version: latest
+          platform: x64
       - name: Setup Rust
         uses: actions-rust-lang/setup-rust-toolchain@v1
       - name: Install mdbook and needed extensions
@@ -25,4 +30,8 @@ jobs:
         uses: browser-actions/setup-chrome@v2
       - name: Run tests
         run: mdbook test
+      - name: Build Hilfe
+        run: mdbook build
+      # TODO - need something to upload generated pdf for distribution
+      - name: Deploy 
         
