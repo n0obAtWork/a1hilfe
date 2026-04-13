@@ -6,6 +6,7 @@ language = "de"
 [output.html]
 additional-css = ["custom.css"]
 no-section-label = true
+site-url = "/hilfe/"
 
 [output.html.fold]
 enable = true
