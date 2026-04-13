@@ -5,6 +5,10 @@ Ubuntu:
 - install a cargo binary with --root parameter
 - add the above cargo/bin to PATH globally
 
+### For mdbook-pdf
+
+Puppeteer uses Chrome, following dependes are needed to set up Chrome properly:
+
 - unzip
 - libnspr4
 - libnss3
