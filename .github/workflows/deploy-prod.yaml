@@ -19,6 +19,8 @@ jobs:
       #    cargo --help
       #- name: Setup Chrome
       #  uses: browser-actions/setup-chrome@v2
+      - name: Add mdbook to path
+        run: "/opt/cargo/bin" >> $GITHUB_PATH
       - name: Run tests
         run: mdbook test
       - name: Build Hilfe
