@@ -14,7 +14,7 @@ Die vollständigen Systemvoraussetzungen und Empfehlungen für Sie entnehmen Sie
 >
 > Fremdsoftware und deren Anbindung wird ausschließlich auf Basis gewarteter Versionen unterstützt. Drittanbietersoftware, die nicht mehr der Wartung des Anbieters untersteht, kann nicht von A.eins® unterstützt werden.
 
-<a href="Aeins.pdf" down>Die Onlinehilfe als PDF herunterladen</a>
+<a href="Aeins.pdf" download>Die Onlinehilfe als PDF herunterladen</a>
 
 <p class="siehe-auch">Siehe auch:</p>
 
