@@ -26,7 +26,9 @@ jobs:
       # following is a naive happy path approach
       # for production a better check is mandatory!
       - name: Handle old container
-        run: ./handle-old-container.sh          
+        run: |
+          chmod +x ./handle-old-container.sh
+          ./handle-old-container.sh          
       - name: Remove old container
         run: |
           docker stop spike-a1hilfe-mdbook
