@@ -93,6 +93,8 @@
     - [Krediterfassung](kunden_lieferanten/kunden_lieferantenstamm/krediterfassung/index.md)
       - [Eingabe Kundenkredit](kunden_lieferanten/kunden_lieferantenstamm/krediterfassung/eingabe_kreditlimit.md)
 
+- [Finanzbuchhaltung](finanzbuchhaltung/index.md)
+
 - [Zusatzprogramme](zusatzprogramme/index.md)
   - [Auswahlliste 2.0](zusatzprogramme/auswahlliste20/index.md)
 
