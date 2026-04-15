@@ -3,7 +3,7 @@
 container_name="spike-a1hilfe-mdbook"
 
 # Check if the container exists
-if docker inspect "$container_name" > /dev/null 2>&1; then
+if docker container inspect "$container_name" > /dev/null 2>&1; then
     echo "The container $container_name exists."
     
     # Check if the container is running
