@@ -16,7 +16,7 @@ jobs:
           fetch-depth: 0
       - name: Setup Chrome
         uses: browser-actions/setup-chrome@v2
-      - name: Add mdbook to path
+      - name: Add mdbook and extensions to path
         run: echo "/opt/cargo/bin" >> $GITHUB_PATH
       - name: Run tests
         run: mdbook test

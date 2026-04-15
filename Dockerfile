@@ -1,3 +1,3 @@
-FROM nginx:1.29.8-trixie
+FROM ghcr.io/static-web-server/static-web-server:2.42-debian
 
-COPY book/html /usr/share/nginx/html
+COPY ./book /public/hilfe
