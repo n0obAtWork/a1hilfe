@@ -14,6 +14,8 @@ Die vollständigen Systemvoraussetzungen und Empfehlungen für Sie entnehmen Sie
 >
 > Fremdsoftware und deren Anbindung wird ausschließlich auf Basis gewarteter Versionen unterstützt. Drittanbietersoftware, die nicht mehr der Wartung des Anbieters untersteht, kann nicht von A.eins® unterstützt werden.
 
+<a href="output.pdf">PDF</a>
+
 <p class="siehe-auch">Siehe auch:</p>
 
 <!-- - [Programmupdates und Releaseänderungen Versionen 64bit](allgemeine_programmfunktionen/versionen/index.md) -->

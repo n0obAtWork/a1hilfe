@@ -22,6 +22,8 @@ jobs:
         run: mdbook test
       - name: Build Hilfe
         run: mdbook build
+      - name: Copy PDF file
+        run: cp book/pdf book/html
       # TODO - need something to upload generated pdf for distribution
       - name: Handle old container
         run: |
