@@ -49,6 +49,10 @@ details > p.answer {
     font-weight: bold;
 }
 
+details > ul, details > ol {
+    margin-left: 0.5rem;
+}
+
 details > ul > li {
     margin-left: 1.3rem;
 }
@@ -104,4 +108,8 @@ td p:first-of-type {
 
 td p:last-of-type {
     margin-bottom: 0;
+}
+
+.table-wrapper td > ul, .table-wrapper td > ol {
+    margin-left: -2.5rem;
 }
