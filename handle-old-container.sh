@@ -8,10 +8,12 @@ if docker inspect "$container_name" > /dev/null 2>&1; then
     
     # Check if the container is running
     if $(docker inspect -f '{{.State.Status}}' "$container_name" | grep -q "running"); then
-        echo "The container $container_name is running - stopping it now"
+        echo "The container $container_name is running - stopping it now."
         docker stop "$container_name"
     fi
 
     echo "Removing container $container_name"
     docker rm "$container_name"
+else
+    echo "The container $container_name does not exist."
 fi

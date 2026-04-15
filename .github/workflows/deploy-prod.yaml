@@ -23,16 +23,10 @@ jobs:
       - name: Build Hilfe
         run: mdbook build
       # TODO - need something to upload generated pdf for distribution
-      # following is a naive happy path approach
-      # for production a better check is mandatory!
       - name: Handle old container
         run: |
           chmod +x ./handle-old-container.sh
           ./handle-old-container.sh          
-      - name: Remove old container
-        run: |
-          docker stop spike-a1hilfe-mdbook
-          docker rm spike-a1hilfe-mdbook
       - name: Build Docker image
         run: docker build -t spike-a1hilfe-mdbook:latest .
       - name: Deploy Onlinehilfe
