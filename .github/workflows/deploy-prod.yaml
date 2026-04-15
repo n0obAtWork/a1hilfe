@@ -25,6 +25,8 @@ jobs:
       # TODO - need something to upload generated pdf for distribution
       # following is a naive happy path approach
       # for production a better check is mandatory!
+      - name: Handle old container
+        run: ./handle-old-container.sh          
       - name: Remove old container
         run: |
           docker stop spike-a1hilfe-mdbook
