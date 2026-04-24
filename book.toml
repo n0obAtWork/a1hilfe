@@ -28,19 +28,19 @@ enable = true
 enable = true
 
 # choose placement(s)
-header = false   # default: false
-footer = true    # default: true
+header = false # default: false
+footer = true  # default: true
 
 # common formatting
-font-size   = "0.9em"
-separator   = " • "
+font-size = "0.9em"
+separator = " • "
 date-format = "%Y-%m-%d"
 time-format = "%H:%M:%S"
-branch      = "main"
-hyperlink   = true  # make hash/branch clickable when possible
+branch = "main"
+hyperlink = false        # make hash/branch clickable when possible
 
 # optional timezone handling
-timezone = "local"   # "local" (default) | "utc" | "source" | "fixed:+02:00"
+timezone = "local" # "local" (default) | "utc" | "source" | "fixed:+02:00"
 
 [preprocessor.gitinfo.message]
 footer = "Stand {{date}}{{sep}}commit: {{hash}}"
