@@ -9,13 +9,18 @@ A general gist with Hyper-V:
 - create a VM - Windows or Linux, your choice
 - [install Rust](https://rust-lang.org/tools/install/) - depends on your VM, don't follow the one below which is designed to do pipeline work!
 - install mdbook and its extensions - hint, for dev machine the --root parameter ist not needed
+  ```sh
+  cargo install mdbook
+  cargo install mdbook-pdf
+  cargo install mdbook-gitinfo
+  ```
 - additionally for PDF generation:
   - if you are using Linux, install Chromium - the open-source version of Chrome!
   - if you are using Windows most likely Edge is already installed, so probably nothing to do here
 
 If you want to run the website with a container - assuming we are using a VM described above
 
-- on windows install Podman, on linux either Podman or Docker works
+- on Windows install Podman, on Linux either Podman or Docker works
 
 **Caution** - in our case, Docker for Windows requires a license!
 
