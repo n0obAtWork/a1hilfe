@@ -24,6 +24,8 @@ If you want to run the website with a container - assuming we are using a VM des
 
 **Caution** - in our case, Docker for Windows requires a license!
 
+Limitations: when in homeoffice servers like `los-angeles` are not accessible with the VM out of the box!
+
 There are other ways that includes a local setup or WSL2, but those need to be approved and prepared.
 
 When a setup is decided, a detailed instruction / notification will be released.
