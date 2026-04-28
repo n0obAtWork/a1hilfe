@@ -1,5 +1,7 @@
 # spike-a1hilfe-mdbook
 
+A.eins Onlinehilfe with [mdBook](https://rust-lang.github.io/mdBook/)
+
 ## Dev machine
 
 Currently we don't have a reference workstation with a prefered setup. There are several options to get this running. But for now, the one with less friction with our administration involves Hyper-V. Go ahead, give it a try.
