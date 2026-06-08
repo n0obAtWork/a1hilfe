@@ -1,4 +1,4 @@
-# Stapenzuordnung aus Optionbox
+# Stapelzuordnung aus Optionbox
 
 | Felder |    |
 | :----- | :- |

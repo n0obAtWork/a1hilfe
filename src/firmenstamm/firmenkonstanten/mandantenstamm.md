@@ -184,7 +184,7 @@ Hier erfolgen die Benennung des Mandanten (Bezeichnung der Firma), seine datenba
   Auf der Registerkarte „Zugangsdaten“ werden Zugangsdaten hinterlegt, die für externe gebraucht werden.
 
   |    | e-Mailgruppen |
-  | :- | :------------ |
+  | :--- | :------------ |
   | Bereich | Für welchen Bereich soll die Mailadresse gelten. Die Bereiche können mit F3 ausgewählt werden. Der F3-Auswahl liegt das Anwendungsformat AF_MANDMAIL zugrunde. Es können ab der Nummer 100 eigene Bereiche definiert werden. |
   | Mailadresse | Hier kann eine Mailadresse bzw. mehrere durch Semikolon getrennte Mailadressen hinterlegt werden. |
 
@@ -201,7 +201,7 @@ Hier erfolgen die Benennung des Mandanten (Bezeichnung der Firma), seine datenba
   Auf der Registerkarte „GeoDaten“ werden Einstellungen für Geodatendienste gemacht. Für die Verwendung benötigen Sie eine separate Lizenz.
 
   |    | GeoDaten |
-  | :- | :------- |
+  | :--- | :------- |
   | Adressprozedur | Diese Prozedur liefert für eine regelmäßige Abfrage von Anschriften ohne GeoDaten die AdressId zurück. Als Beispiel wurde die Prozedur „AMIC_DEMO_GeoDataAnschriften“ ausgeliefert. |
   | Google API Key | Dies ist der API-Key für die Ermittlung von Entfernungen zwischen Wegpunkten sowie den Geodaten bei der MapsTourenplanung. Zum Diensteanbieter. |
 </details>
@@ -214,7 +214,7 @@ Hier erfolgen die Benennung des Mandanten (Bezeichnung der Firma), seine datenba
   Wenn das Feld „Adresse“ leer ist, dann liegt das daran, dass der Datenbankserver nicht mit der Option „-xs“ (akzeptierbare Webprotokolle) gestartet wurde.
 
   | Webdienst |    |
-  | :-------- | :- |
+  | :-------- | :--- |
   | Adresse | Mit dieser Adresse ist der Webservice im lokalen Netzwerk ansprechbar. |
   | Name | Dies ist der Name des Webdienstes |
   | Status | Zeigt den momentanen Status des Webdienstes an. |

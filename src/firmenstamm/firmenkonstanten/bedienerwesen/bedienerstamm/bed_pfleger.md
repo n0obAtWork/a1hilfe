@@ -5,7 +5,7 @@ Dieser Pfleger dient zur Änderung und Erstellung von Bedienern
 <p class="just-emphasize">Kopfdaten:</p>
 
 |    | Kopfdaten |
-| :- | :-------- |
+| :--- | :-------- |
 | Nummer | Bedienernummer. Diese wird händisch vergeben und muss eindeutig sein. |
 | Kurzname | Eindeutiger Login–Name beim Programmstart. |
 | Status | <p>**Aktiv**: Bediener ist im Bedienerstamm und in der Datenbank angelegt. Mit diesem Bediener ist  eine A.eins-Anmeldung möglich.</p><p>**Inaktiv**: Bediener ist im Bedienerstamm und in der Datenbank angelegt. Jedoch ist eine A.eins-Anmeldung nicht möglich.</p><p>**Gelöscht**: Bediener ist nur noch im Bedienerstamm aber nicht mehr in der Datenbank. Eine A.eins-Anmeldung ist nicht möglich.</p><p>**Neu**: Neuanlage des Bedieners. Nach dem Speichern wird dieser auf aktiv gesetzt.</p> |
@@ -16,7 +16,7 @@ Dieser Pfleger dient zur Änderung und Erstellung von Bedienern
   <summary>Allgemein</summary>
 
   |    | Allgemein | 
-  | :- | :-------- |
+  | :--- | :-------- |
   | Bedienerklasse | F3 Zuordnung einer übergeordneten Abteilung; der Bediener erhält damit die Rechte der Bedienerklasse. |
   | Betriebsstätte | Betriebsstätte des Bedieners, so wie er auf Listen und Ausdrucken erscheint. |
   | Name | Name des Bedieners. |
@@ -51,7 +51,7 @@ Dieser Pfleger dient zur Änderung und Erstellung von Bedienern
   <summary>Farben</summary>
 
   |    | Farben | 
-  | :- | :----- |
+  | :--- | :----- |
   | Hauptmenü Hintergrund | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit F3) |
   | Hauptmenü Schrift | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit F3) |
   | Auswahlmenü Hintergrund | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit F3) |

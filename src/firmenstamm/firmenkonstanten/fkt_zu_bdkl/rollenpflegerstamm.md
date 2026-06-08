@@ -71,7 +71,7 @@ Besteht keine Autorisierung durch den bestimmenden Rollenkontext wird das Laufze
   <summary>Suchmöglichkeiten Rollenpflegerstamm</summary>
 
   | Suchkriterien |    |
-  | :------------ | :- |
+  | :------------ | :--- |
   | Suchen | Sucht in den Feldern<ul><li>Pflegerstamm</li><li>Optionbox</li><li>Funktion</li><li>Rolle</li></ul> |
   | Methode | Sucht im Feld „Methode“ |
 </details>
@@ -80,7 +80,7 @@ Besteht keine Autorisierung durch den bestimmenden Rollenkontext wird das Laufze
   <summary>Funktionen:</summary>
 
   | Funktionen |    |
-  | :--------- | :- |
+  | :--------- | :--- |
   | Funktion Informationen **(F9)** | Aufruf eines Informationsdialoges zur Funktion. |
   | Funktion ansehen/bearbeiten **(F11)** | Aufruf des Anwendfunktions-Pflegers. |
   | Kontext … **(F10)** | Aufruf des Optionbox-Pflegers (steht ausschließlich der Entwicklung zur Verfügung) |

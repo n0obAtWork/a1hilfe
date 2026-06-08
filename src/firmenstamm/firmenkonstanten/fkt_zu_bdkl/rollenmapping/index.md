@@ -65,7 +65,7 @@ Diese werden hier hinterlegt und auf Kundensystemen nach einem Programm-Update z
   <summary>Suchmöglichkeiten des Rollenmapping</summary>
 
   | Suchkriterien |    |
-  | :------------ | :- |
+  | :------------ | :--- |
   | Suchen | Suchen in den Optionbox- und Funktionsfeldern |
   | Quelle sichtbar? | <p>Suchen im Feld „Quelle sichtbar?“</p><P>Möglich sind Ja, Nein und Egal.</p> |
 </details>
@@ -74,7 +74,7 @@ Diese werden hier hinterlegt und auf Kundensystemen nach einem Programm-Update z
   <summary>Funktionen des Rollingmapping</summary>
 
   | Funktionen |    |
-  | :--------- | :- |
+  | :--------- | :--- |
   | Ändern, Löschen, Neu **(F5,F7,F8)** | Stehen ausschließlich der Entwicklung zur Verfügung |
   | Ansehen **(F6)** | Ansehen |
   | Funktion Informationen **(F9)** | Aufruf eines Informationsdialoges zur Funktion. |
@@ -84,4 +84,4 @@ Diese werden hier hinterlegt und auf Kundensystemen nach einem Programm-Update z
 <p class="siehe-auch">Siehe auch:</p>
 
 - [Rollenmapping: Pfleger](pfleger.md)
-- [Stapenzuordnung aus Optionbox](stapelzuordnung_aus_optionbox.md)
+- [Stapelzuordnung aus Optionbox](stapelzuordnung_aus_optionbox.md)

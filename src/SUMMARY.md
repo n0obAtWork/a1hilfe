@@ -2,6 +2,7 @@
 
 - [Allgmeine Programmfunktionen](index.md)
 
+  - [Abgekündigte Programm Module](allgemeine_programmfunktionen/abgekuendigte_proramm_module.md)
   - [Generelle Programmbedienung](allgemeine_programmfunktionen/generelle_programmbedienung.md)
   - [Hinweis Auswahlliste](allgemeine_programmfunktionen/hinweis_auswahlliste.md)
 <!--   - [Programmupdates und Releaseänderungen Versionen 64bit](allgemeine_programmfunktionen/versionen/index.md)
@@ -58,7 +59,7 @@
 
       - [Rollenmapping](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenmapping/index.md)
         - [Rollenmapping: Pfleger](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenmapping/pfleger.md)
-        - [Stapenzuordnung aus Optionbox](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenmapping/stapelzuordnung_aus_optionbox.md)
+        - [Stapelzuordnung aus Optionbox](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenmapping/stapelzuordnung_aus_optionbox.md)
       
       - [Rollenanalyse](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenanalyse.md)
 
@@ -74,6 +75,16 @@
     
     - [Anlegen eines neuen Wirtschaftsjahres (WJ) am Beispiel 2012](firmenstamm/wirtschaftsjahre_und_perioden/anlegen_neuer_wirtschaftsjahr.md)
     - [Geschäftsjahre / Buchungsperioden](firmenstamm/wirtschaftsjahre_und_perioden/geschaeftsjahre_buchung.md)
+
+  - [Erlöskennziffern](firmenstamm/erloeskennziffern/index.md)
+
+    - [Erlöskennziffer / Kontozuordnung](firmenstamm/erloeskennziffern/kontozuordnung/index.md)
+      - [Erlöskennziffer Kontozuordnung bei Steuersatzänderung](firmenstamm/erloeskennziffern/kontozuordnung/steuersatzaenderung.md)
+
+  - [Steuerparameter](firmenstamm/steuerparameter/index.md)
+
+    - [Vorgangsbearbeitung Umwandlung](firmenstamm/steuerparameter/vorgangsbearbeitung_umwandlung/index.md)
+      - [Quellbelegreaktivierung bei Stornieren / Löschen von Warenbelegen - SPA 987](firmenstamm/steuerparameter/vorgangsbearbeitung_umwandlung/spa_987.md)
 
 - [Kunden und Lieferanten](kunden_lieferanten/index.md)
   
@@ -93,7 +104,29 @@
     - [Krediterfassung](kunden_lieferanten/kunden_lieferantenstamm/krediterfassung/index.md)
       - [Eingabe Kundenkredit](kunden_lieferanten/kunden_lieferantenstamm/krediterfassung/eingabe_kreditlimit.md)
 
+- [Vorgangsabwicklung](vorgangsabwicklung/index.md)
+
+  - [Vorgangsbearbeitung allgemein](vorgangsabwicklung/vorgangsbearbeitung_allgemein/index.md)
+
+  - [Standard-Teildisposition / Mehrfachteildisposition](vorgangsabwicklung/disposition/index.md)
+
+  - [Vorgangsbearbeitung](vorgangsabwicklung/vorgangsbearbeitung/index.md)
+    - [Änderung der Kundennummer](vorgangsabwicklung/vorgangsbearbeitung/aenderung_der_kundennummer/index.md)
+      - [Behandlungsschema](vorgangsabwicklung/vorgangsbearbeitung/aenderung_der_kundennummer/behandlungsschema.md)
+
+  - [Formularzuordnung](vorgangsabwicklung/formularzuordnung/index.md)
+    - [Abwicklung](vorgangsabwicklung/formularzuordnung/abwicklung.md)
+
 - [Finanzbuchhaltung](finanzbuchhaltung/index.md)
+
+  - [Stammdaten der Fibu](finanzbuchhaltung/stammdaten_der_fibu/index.md)
+    - [Sachkonten](finanzbuchhaltung/stammdaten_der_fibu/sachkonten.md)
+
+  - [Umsatzsteuer](finanzbuchhaltung/umsatzsteuer/index.md)
+    - [Steuersätze einrichten](finanzbuchhaltung/umsatzsteuer/steuersaetze_einrichten/steuersatzaenderung.md)
+    - [Umsatzsteuervoranmeldung](finanzbuchhaltung/umsatzsteuer/umsatzsteuervoranmeldung.md)
+    - [Steuerkonten bebuchen](finanzbuchhaltung/umsatzsteuer/steuerkonten_bebuchen.md)
 
 - [Zusatzprogramme](zusatzprogramme/index.md)
   - [Auswahlliste 2.0](zusatzprogramme/auswahlliste20/index.md)
+  - [Menü](zusatzprogramme/menue/index.md)

@@ -26,7 +26,7 @@ Jedem Bediener müssen seine Erfasser explizit zugewiesen werden. Diese Zuordnun
   <summary>Suchmöglichkeiten des Erfasserstamm</summary>
 
   |    | Suchkriterien |
-  | :- | :------------ |
+  | :--- | :------------ |
   | Nummer | von … bis … |
 </details>
 

@@ -1,0 +1,3 @@
+# Steuersatzänderung
+
+Es kommt hin und wieder vor, dass sich die Steuersätze ändern und es somit notwendig wird, die Stammdaten daraufhin anzupassen. Anhand der zum 01.07.2020 anstehenden Änderung des Steuersatzes von 19% auf 16 % werden hier beispielhaft die einzelnen Schritte gezeigt, die für die Änderung der Steuer notwendig sind, damit sie auf den Umsatzsteuerformularen erscheinen. Da die Vordruckkommissionssitzung entschieden hat, dass die Umsätze zu den neuen Steuersätzen (16 % und 5 %) gesammelt in den Kennzahlen für Umsätze zu anderen Steuersätzen eingetragen werden, werden keine neuen Auswertungspositionen benötigt. Es wird daher auch keine neue Version von Elster geben.

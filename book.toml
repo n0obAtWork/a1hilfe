@@ -14,15 +14,8 @@ level = 0
 [output.html.search]
 enable = true
 
-# using mdbook-pandoc
-#[output.pandoc.profile.pdf]
-#output-file = "output.pdf"
-#to = "latex"
-#number-sections = false
-
 # using mdbook-pdf
 [output.pdf]
-
 
 [preprocessor.gitinfo]
 enable = true

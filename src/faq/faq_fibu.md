@@ -7,10 +7,10 @@
   
   Bei einer Steuersatzänderung müssen mehrere Faktoren berücksichtigt werden. Dazu stehen 2 Anleitungen bereit:
   
-  - Steuersatz (ändern)
-  - Erlöskennziffer Kontozuordnung
+  - [Steuersatz (ändern)](../finanzbuchhaltung/umsatzsteuer/steuersaetze_einrichten/steuersatzaenderung.md)
+  - [Erlöskennziffer Kontozuordnung](../firmenstamm/erloeskennziffern/kontozuordnung/steuersatzaenderung.md)
 
-  Information für alle A.eins-Nutzer, die ihre Daten über die Datevschnittstelle exportieren: https://apps.datev.de/dnlexka/document/1018040
+  Information für alle A.eins-Nutzer, die ihre Daten über die Datevschnittstelle exportieren: <https://apps.datev.de/dnlexka/document/1018040>
 
   Eine grobe Übersicht der wichtigsten Konten:
   
@@ -125,7 +125,7 @@
 
   <p class="answer">Antwort:</p>
 
-  Als Steuerkonten definierte Konten sind für die Direkterfassung in A.eins gesperrt, damit Sie die zusätzlichen Auswertungsanforderungen erfüllen. https://www.amic.de/hilfe/#!_fibu_stammdaten_sachkonten.htm
+  Als Steuerkonten definierte Konten sind für die Direkterfassung in A.eins gesperrt, damit Sie die zusätzlichen Auswertungsanforderungen erfüllen. Siehe [Sachkonten](../finanzbuchhaltung/stammdaten_der_fibu/sachkonten.md)
 
   Muss Steuer tatsächlich direkt erfasst werden, z. B. Einfuhrumsatzsteuer oder im Zusammenhang mit einem Versicherungsfall, dann ist ein spezieller Steuerschlüssel für die Buchung zu verwenden.
 
@@ -135,5 +135,5 @@
 
   Weitere Hilfe:
 
-  - Steuerkonten bebuchen
+  - [Steuerkonten bebuchen](../finanzbuchhaltung/umsatzsteuer/steuerkonten_bebuchen.md)
 </details>

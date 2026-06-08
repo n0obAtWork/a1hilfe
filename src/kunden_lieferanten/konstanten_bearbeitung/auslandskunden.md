@@ -11,7 +11,7 @@ Besonderes Augenmerk ist hierbei auch auf die jeweilige Steuerpflicht im Hinblic
 In der Stammdatenmaske können folgende Daten eingegeben werden.
 
 |    | Felder |
-| :- | :----- |
+| :--- | :----- |
 | Kunde | Nummer des Kunden, bei Neuanlage mit F8 kann mit F3 eine Kundenauswahl aus dem Kundenstamm mittels einem sich öffnenden Auswahlbildschirm getroffen und übernommen werden. |
 | Währung | Eingabe der Währungsnummer, mit F3 kann wiederum eine Auswahl hier aus dem Währungsstamm getroffen werden |
 | DTA | Hier kann ein Format für den Datenträgeraustausch eingegeben und mit F3 ausgewählt werden |

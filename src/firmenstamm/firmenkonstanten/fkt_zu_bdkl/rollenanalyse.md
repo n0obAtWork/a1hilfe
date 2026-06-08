@@ -56,34 +56,19 @@ Es kann eventuell vorkommen, dass sich Rollen in den Tabellen Rollenklasse bzw. 
 <details>
   <summary>Suchmöglichkeiten der Rollenanalyse</summary>
 
-  | Suchkriterien |    |
-  | :- | :- |
-  | Relation | Like |
-  | Problem | Like |
-  | Rolle | Like |
+| Suchkriterien |      |
+| :--- | :--- |
+| Relation      | Like |
+| Problem       | Like |
+| Rolle         | Like |
+
 </details>
 
 <details>
   <summary>Funktionen der Rollenanalyse</summary>
 
-  | Funktionen |    |
-  | :- | :- |
-  | Problem beheben **(F9)** | Behebt die markierten Probleme. |
-</details>
+| Funktionen               |                                 |
+| :--- | :--- |
+| Problem beheben **(F9)** | Behebt die markierten Probleme. |
 
-### Alternative
-
-<details>
-  <summary>Funktionen der Rollenanalyse</summary>
-
-  <div class="table-wrapper">
-    <table>
-      <tbody>
-        <tr>
-          <td>Problem beheben <strong>(F9)</strong></td>
-          <td>Behebt die markierten Probleme.</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
 </details>

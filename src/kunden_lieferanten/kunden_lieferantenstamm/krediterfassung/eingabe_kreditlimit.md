@@ -25,7 +25,7 @@ Wird für einen Kunden ein Kreditlimit gespeichert, so wird dieses gleichzeitig 
 Wie dieser Wert bestimmt wird, lässt sich mit dem Steuerparameters 503 – „Alle Kredite als Summe übernehmen“ – festlegen. Ist keine Summierung erwünscht, so ist das Feld „Kreditlimit“ in den Kunden-/Lieferantenstammdaten änderbar. Das hier direkt erfasste Kreditlimit wird dann beim Speichern in die Auflistung der aktiven Kreditlimits unter der als Standard angegeben Limitart übernommen.
 
 | Feld | Bechreibung |
-| :- | :- |
+| :--- | :--- |
 | Kunde | Kundennummer des Kunden |
 | Name | Vor- und Nachname des Kunden |
 | Straße | Straße und Hausnummer des Kunden |

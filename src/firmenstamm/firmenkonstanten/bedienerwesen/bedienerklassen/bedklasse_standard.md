@@ -10,7 +10,7 @@ In A.eins gibt es mehre Standardklassen, welche genutzt werden können.
   Momentan sind folgende Bedienerklassen technisch notwendig:
   
   |    | Technische Bedienerklassen |   
-  | :- | :------------------------- |
+  | :--- | :------------------------- |
   | -1 | Defaultklasse Kunden |
   | -9999 | Defaultklasse AMIC |
 </details>

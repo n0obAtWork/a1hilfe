@@ -27,7 +27,7 @@ Bedienerklassen fassen Mitarbeiter mit gleichen Rechten zusammen; sie dienen als
   <summary>Suchmöglichkeiten der Bedienerklasse:</summary>
 
   |    | Suchkriterien |
-  | :- | :------------ |
+  | :--- | :------------ |
   | Bedienerklasse | von … bis … |
 </details>
 

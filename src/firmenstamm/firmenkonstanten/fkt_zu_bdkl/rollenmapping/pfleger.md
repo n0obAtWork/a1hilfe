@@ -4,7 +4,7 @@
   <summary>Felder:</summary>
 
   | Felder |    |
-  | :----- | :- |
+  | :----- | :--- |
   | Optionbox | <p>Die Optionbox des Zielkontextes.</p><p>Auswahl per Funktion „Optionbox wählen … (F3)“</p> |
   | Funktion | <p>Die Funktion des Zielkontextes.</p><p>Auswahl per Funktion „Funktion wählen … (F3)“</p> |
   | Rolle | Die Rolle des Zielkontextes (informatorisch). |
@@ -18,7 +18,7 @@
   <summary>Funktionen:</summary>
 
   | Funktionen |    |
-  | :--------- | :- |
+  | :--------- | :--- |
   | Funktion wählen … **(F3)** | Auf den Feldern „Funktion“ und „Quelle-Funktion“ steht eine Funktionsauswahl innerhalb des Kontextes zur Verfügung. |
   | Optionbox wählen … **(F3)** | Auf den Feldern „Optionbox“ und „Quelle-Optionbox“ steht eine Optionboxauswahl innerhalb des Kontextes zur Verfügung. |
 </details>

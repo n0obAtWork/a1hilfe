@@ -28,7 +28,7 @@ jobs:
       - name: Handle old container
         run: |
           chmod +x ./handle-old-container.sh
-          ./handle-old-container.sh          
+          ./handle-old-container.sh spike-a1hilfe-mdbook      
       - name: Build Docker image
         run: docker build -t spike-a1hilfe-mdbook:latest .
       - name: Deploy Onlinehilfe

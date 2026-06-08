@@ -24,7 +24,7 @@ Zum schnellen Anmelden: Die Tastenkombination: **(Alt + A)** benutzen.
 
 ## Der A.eins Grundbildschirm
 
-A.eins unterstützt mehrere Hauptmenü-Varianten
+A.eins unterstützt mehrere [Hauptmenü-Varianten](../zusatzprogramme/menue/index.md)
 
 ## Programmstart
 
@@ -145,7 +145,7 @@ Folgende Funktionstasten werden in A.eins eingesetzt:
 <p class="just-emphasize">Allgemeine Bedienungsfunktionen</p>
  
 | Taste | Beschreibung |
-| :- | :- |
+| :--- | :--- |
 | **ESC** | Abbruch eines Vorganges |
 | **ALT** | Umschalten zwischen Bildschirmarbeitsbereich und Menüzeile |
 | **F1** | Aufruf der Online-Hilfe |
@@ -184,7 +184,7 @@ Wenn sich die F3-Auswahl öffnet, ist die erste Spalte leicht eingefärbt. Die F
 Man kann die Spalte mit der TAB-Taste (Shift-Tab springt in die andere Richtung) oder mit der Maus wechseln. In der so markierten Spalte kann direkt gesucht werden. Die eingegebenen Werte erscheinen in der Statusleiste unten links. Dabei steht vor der Eingabe der Name der Spalte, in der gerade gesucht wird. Bei der Suche wird unterschieden, ob es sich um Texte, Zahlen oder um Datumsfelder handelt. Bei Texten werden immer alle Daten ausgewählt, die den eingegebenen Text enthalten. Bei Zahlen und Datum werden immer die Daten ausgegeben, die größer oder gleich dem eingegebenen Wert sind. Dies kann aber geändert werden. Um die Art zu bestimmen, wie bei Zahlen und Datum gesucht werden soll stehen folgende Tasten zur Verfügung:
 
 | Symbol | Bedeutung |
-| :- | :- |
+| :--- | :--- |
 | > | größer oder gleich |
 | < | kleiner oder gleich |
 | = | gleich |
@@ -215,7 +215,7 @@ Um die Parameter für alle Bedienerklassen zu übernehmen, kann man die Funktion
 Nachdem die Auswahl für die entsprechenden Bedienerklassen auf „Ja“ gestellt wurde, können die Parameter mit der Funktion „Für Bedienerklasse übernehmen“ endgültig übernommen werden.
 
 | Felder | Beschreibung |
-| :- | :- |
+| :--- | :--- |
 | Übernehmen | Legt fest ob die Parameter für die Bedienerklasse übernommen werden sollen. |
 | Bedienerklasse | Zeigt die Nummer der Bedienerklasse an. |
 | Bezeichnung | Zeigt die Bezeichnung der Bedienerklasse an. |
@@ -242,7 +242,7 @@ Jedes Funktionsmenü > Dieses Menü > Private Sortierung/Tasten
 Es öffnet sich ein Dialog, in dem die in blau hinterlegten Feldern die Standardeinstellungen von A.eins angezeigt werden. Zusätzlich gibt es Spalten, in denen man die Gestaltung der Funktionsmenüs teilweise individuell anpassen kann. Damit die Änderungen wirksam werden, ist nach dem Speichern die entsprechende Auswahlliste oder Maske neu aufzurufen.
 
 | Felder | Beschreibung |
-| :- | :- |
+| :--- | :--- |
 | Sortierung | Die Sortierung wird mit Hilfe einer aufsteigenden Zahl festgelegt. Ändert man die Sortierung wird diese sofort im unteren Bereich dargestellt. |
 | Funktionstaste | Die zulässigen Funktionstasten können mittels der F3-Auswahl ausgewählt werden. Wird eine Funktionstaste, die bereits in diesem Menü verwendet wurde, vergeben, so überschreibt die private Funktionstaste die Standardfunktionstaste. |
 | Doppelklick (nur für die Auswahlliste) | In Auswahllisten kann man eine Zeile mit Doppelklick anwählen. Welche Funktion dann ausgelöst wird, kann hier eingestellt werden. Dabei wird eine Zahl angegeben, die die Priorität der Funktionen festlegt. Steht die Funktion, bei der eine 1 hinterlegt wurde z.B. wegen Rechtevergabe nicht zur Verfügung, wird bei Doppelklick auf die Zeile die Funktion mit der 2 ausgeführt usw. Wenn man also die Funktion ***Ändern*** **F5** mit einer 1 versehen hat und ***Ansehen*** **F6** mit einer 2, so haben automatisch alle Anwender, die zwar Daten nicht ändern dürfen, aber sich die Daten Anzeigen lassen können, die Funktion ***Ansehen*** auf der Doppelklickfunktionalität. |
@@ -258,7 +258,7 @@ A.eins öffnet bei Betätigen der F1-Taste die Aeins-Hilfe.
 Das A.eins-Arbeitstationssetup richtet standardmäßig das Szenario „Standard“ ein.
 
 | Mögliche Szenarien |    |
-| :- | :- |
+| :--- | :--- |
 | Bin-Verzeichnis | A.eins sucht im Bin-Verzeichnis nach der Datei aeins.chm und öffnet diese zur Ansicht. |
 | Standard | <p>Wird in dem durch Windows vorgesehenen Ordner für „CommonProgramFiles“ (\*) und dort im Ordner Aeins eine Datei *aeins.chm* gefunden, so präferiert A.eins diese.</p><p>(\*) der Ordner kann von Rechner zu Rechner anders lauten; ist abhängig vom Betriebssystem und etwaigen Updates der Systeme.</p><p>Weitere Programmunterstützung bzw. Hinweise sind unter Besondere Systemordner verfügbar.</p> |
 | Online | <p>Durch den Steuerparameter 921 („Onlinehilfe“) kann konfiguriert werden das die A.eins-Onlinehilfe unter [www.amic.de/hilfe](https://www.amic.de/hilfe) verwendet wird.</p><p>Die Szenarien „Standard“ und „Lokal“ sind nicht aktiv, wenn die Online-Hilfe aktiviert ist.</p> |

@@ -25,7 +25,7 @@ Es ist möglich für jeden Kontext eine eigene Rolle anzulegen, da aber für den
   <summary>Suchfunktionen des Rollenstamm</summary>
 
   |    | Suchkriterien |
-  | :- | :------------ |
+  | :--- | :------------ |
   | Rolle | Suchbegriff |
 </details>
 
@@ -33,7 +33,7 @@ Es ist möglich für jeden Kontext eine eigene Rolle anzulegen, da aber für den
   <summary>Funktionen des Rollenstamm</summary>
 
   |    | Funktionen |
-  | :- | :--------- |
+  | :--- | :--------- |
   | Neu **(F8)** | <p>Anlage einer neuen Rolle.</p><p>Für Details siehe Rollenpfleger.</p> |
   | Ändern **(F5)** | <p>Ändern einer Rolle</p><p>Als Besonderheit beinhaltet diese Funktion auch das „Umbenennen einer Rolle, sowie über „Speichern unter“ das Erzeugen einer neuen Rolle mit Vorgabe der Bedienerklassenzuordnung der Vorlage.</p><p>Für Details siehe Rollenpfleger.</p> |
   | Ansehen **(F6)** | <p>Ansehen der Bedienerklassenzuordnung.</p><p>Für Details siehe Rollenpfleger.</p> |
@@ -41,106 +41,6 @@ Es ist möglich für jeden Kontext eine eigene Rolle anzulegen, da aber für den
   | Rollen tauschen **(F9)** | <p>Hiermit lassen sich von zwei Rollen die Bedienerklassenzuordnung und/oder die Rollenkontexte austauschen.</p><p>Für Details siehe „Rollen tauschen“.</p> |
   | Rollen vereinigen **(Shift+F9)** | <p>Vereinigt ausgewählte Rolle in einer Ziel-Rolle. Die Ziel-Rolle kann dabei entweder eine neue oder eine der beteiligten Rollen sein. Nach der Operation besitzt die Ziel-Rolle die Vereinigung aller Bedienerklassen der beteiligten Rollen und alle betroffenen Rollenkontexte der involvierten Rollen sind der Zielrolle zugeordnet.</p><p>Für Details siehe „Rollen vereinigen“.</p> |
   | Rollenkontexte **(F10)** | Ruft die Anwendung „Diese Funktionen“ auf, die eine Spezialisierung einer Variante der Rollenkontexte ist und nur die Mitglieder dieser Rolle anzeigt. |
-</details>
-
-## Alternatives
-
-<details>
-  <summary>Funktionen des Rollenstamm</summary>
-
-  Neu *(F8)*
-  : <p>Anlage einer neuen Rolle.</p>
-    <p>Für Details siehe Rollenpfleger.</p>
-  
-  Ändern *(F5)*
-  : <p>Ändern einer Rolle</p>
-    <p>Als Besonderheit beinhaltet diese Funktion auch das „Umbenennen einer Rolle, sowie über „Speichern unter“ das Erzeugen einer neuen Rolle mit Vorgabe der Bedienerklassenzuordnung der Vorlage.</p>
-    <p>Für Details siehe Rollenpfleger.</p>
-  
-  Ansehen *(F6)*
-  : <p>Ansehen der Bedienerklassenzuordnung.</p>
-    <p>Für Details siehe Rollenpfleger.</p>
-
-  Löschen *(F7)*
-  : <p>Löscht eine Rolle.</p>
-    <p>Allerdings nicht die Controller-Rolle und ebenso keine Rolle die zugeordnete Rollenkontexte hat!</p>
-    <p>Für Details siehe Rollenpfleger.</p>
-  
-  Rollen tauschen *(F9)*
-  : <p>Hiermit lassen sich von zwei Rollen die Bedienerklassenzuordnung und/oder die Rollenkontexte austauschen.</p>
-    <p>Für Details siehe „Rollen tauschen“.</p>
-
-  Rollen vereinigen *(Shift+F9)*
-  : <p>Vereinigt ausgewählte Rolle in einer Ziel-Rolle. Die Ziel-Rolle kann dabei entweder eine neue oder eine der beteiligten Rollen sein. Nach der Operation besitzt die Ziel-Rolle die Vereinigung aller Bedienerklassen der  beteiligten Rollen und alle betroffenen Rollenkontexte der involvierten Rollen sind der Zielrolle zugeordnet.</p>
-    <p>Für Details siehe „Rollen vereinigen“.</p>
-  
-  Rollenkontexte *(F10)*
-  : Ruft die Anwendung „Diese Funktionen“ auf, die eine Spezialisierung einer Variante der Rollenkontexte ist und nur die Mitglieder dieser Rolle anzeigt.
-</details>
-
-<details>
-  <summary>Funktionen des Rollenstamm - with html table</summary>
-
-  <div class="table-wrapper">
-    <table>
-      <thead>
-        <tr>
-          <!-- this is a reason to choose html-table because markdown can't do col-/rowspan -->
-          <th colspan="2">Funktionen</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Neu <strong>(F8)</strong></td>
-          <td>
-            <p>Anlage einer neuen Rolle.</p>
-            <p>Für Details siehe Rollenpfleger.</p>
-          </td>
-        </tr>
-        <tr>
-          <td>Ändern <strong>(F5)</strong></td>
-          <td>
-            <p>Ändern einer Rolle</p>
-            <p>Als Besonderheit beinhaltet diese Funktion auch das „Umbenennen einer Rolle, sowie über „Speichern unter“ das Erzeugen einer neuen Rolle mit Vorgabe der Bedienerklassenzuordnung der Vorlage.</p>
-            <p>Für Details siehe Rollenpfleger.</p>
-          </td>
-        </tr>
-        <tr>
-          <td>Ansehen <strong>(F6)</strong></td>
-          <td>
-            <p>Ansehen der Bedienerklassenzuordnung.</p>
-            <p>Für Details siehe Rollenpfleger.</p>
-          </td>
-        </tr>
-        <tr>
-          <td>Löschen <strong>(F7)</strong></td>
-          <td>
-            <p>Löscht eine Rolle.</p>
-            <p>Allerdings nicht die Controller-Rolle und ebenso keine Rolle die zugeordnete Rollenkontexte hat!</p>
-            <p>Für Details siehe Rollenpfleger.</p>
-          </td>
-        </tr>
-        <tr>
-          <td>Rollen tauschen <strong>(F9)</strong></td>
-          <td>
-            <p>Hiermit lassen sich von zwei Rollen die Bedienerklassenzuordnung und/oder die Rollenkontexte austauschen.</p>
-            <p>Für Details siehe „Rollen tauschen“.</p>
-          </td>
-        </tr>
-        <tr>
-          <td>Rollen vereinigen <strong>(Shift+F9)</strong></td>
-          <td>
-            <p>Vereinigt ausgewählte Rolle in einer Ziel-Rolle. Die Ziel-Rolle kann dabei entweder eine neue oder eine der beteiligten Rollen sein. Nach der Operation besitzt die Ziel-Rolle die Vereinigung aller Bedienerklassen der beteiligten Rollen und alle betroffenen Rollenkontexte der involvierten Rollen sind der Zielrolle zugeordnet.</p>
-            <p>Für Details siehe „Rollen vereinigen“.</p>
-          </td>
-        </tr>
-        <tr>
-          <td>Rollenkontexte <strong>(F10)</strong></td>
-          <td>Ruft die Anwendung „Diese Funktionen“ auf, die eine Spezialisierung einer Variante der Rollenkontexte ist und nur die Mitglieder dieser Rolle anzeigt.</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
 </details>
 
 <p class="siehe-auch">Siehe auch:</p>
