@@ -81,6 +81,7 @@
     - [Einrichtung von Nummernkreisen](firmenstamm/nummernkreise_ware_fibu/einrichtung.md)
 
   - [Erlöskennziffern](firmenstamm/erloeskennziffern/index.md)
+    - [Erlösklasse](firmenstamm/erloeskennziffern/erloesklasse.md)
     - [Erlöskennziffer / Kontozuordnung](firmenstamm/erloeskennziffern/kontozuordnung/index.md)
       - [Erlöskennziffer Kontozuordnung bei Steuersatzänderung](firmenstamm/erloeskennziffern/kontozuordnung/steuersatzaenderung.md)
 
