@@ -10,3 +10,4 @@ Folgende Programmteile sind einzurichten:
 
 - [Anlegen eines neuen Wirtschaftsjahres (WJ) am Beispiel 2012](anlegen_neuer_wirtschaftsjahr.md)
 - [Geschäftsjahre / Buchungsperioden](geschaeftsjahre_buchung.md)
+- [Perioden](perioden.md)

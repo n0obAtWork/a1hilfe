@@ -1,7 +1,6 @@
 # Summary
 
 - [Allgmeine Programmfunktionen](index.md)
-
   - [Abgekündigte Programm Module](allgemeine_programmfunktionen/abgekuendigte_proramm_module.md)
   - [Generelle Programmbedienung](allgemeine_programmfunktionen/generelle_programmbedienung.md)
   - [Hinweis Auswahlliste](allgemeine_programmfunktionen/hinweis_auswahlliste.md)
@@ -9,21 +8,16 @@
     - [9.0.2401.1](allgemeine_programmfunktionen/versionen/9.0.2401.1.md)
     - [9.0.2401.2](allgemeine_programmfunktionen/versionen/9.0.2401.2.md) -->
     
-- [A.eins FAQ](faq/index.md)
-    
+- [A.eins FAQ](faq/index.md)    
   - [Allgemeine Programmfunktionen](faq/faq_allg_prog.md)
   - [Finanzbuchhaltung](faq/faq_fibu.md)
   - [Artikel](faq/faq_artikel.md)
   - [Vorgang](faq/faq_vorgang.md)
 
-- [Firmenstamm](firmenstamm/index.md)
-  
-  - [Firmenkonstanten](firmenstamm/firmenkonstanten/index.md)
-    
+- [Firmenstamm](firmenstamm/index.md)  
+  - [Firmenkonstanten](firmenstamm/firmenkonstanten/index.md)    
     - [Mandantenstamm](firmenstamm/firmenkonstanten/mandantenstamm.md)
-
-    - [Bedienerwesen: Bediener, Bedienerklassen und Erfasser](firmenstamm/firmenkonstanten/bedienerwesen/index.md)
-      
+    - [Bedienerwesen: Bediener, Bedienerklassen und Erfasser](firmenstamm/firmenkonstanten/bedienerwesen/index.md)      
       - [Bedienerstamm](firmenstamm/firmenkonstanten/bedienerwesen/bedienerstamm/index.md)
         - [Bedienerstamm: Pfleger](firmenstamm/firmenkonstanten/bedienerwesen/bedienerstamm/bed_pfleger.md)
         - [Bediener clonen](firmenstamm/firmenkonstanten/bedienerwesen/bedienerstamm/bed_clonen.md)
@@ -38,8 +32,7 @@
         - [Erfasser: Pfleger](firmenstamm/firmenkonstanten/bedienerwesen/erfasserstamm/erfasser_pfleger.md)
         - [Erfasserwechsel](firmenstamm/firmenkonstanten/bedienerwesen/erfasserstamm/erfasser_wechsel.md)
 
-    - [Zuordnung von Funktionen zu Bedienerklassen (Rollen)](firmenstamm/firmenkonstanten/fkt_zu_bdkl/index.md)
-      
+    - [Zuordnung von Funktionen zu Bedienerklassen (Rollen)](firmenstamm/firmenkonstanten/fkt_zu_bdkl/index.md)      
       - [Rollenstamm](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenstamm/index.md)
         - [Rollenstamm: Pfleger](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenstamm/pfleger.md)
         - [Rollen tauschen](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenstamm/rollen_tauschen.md)
@@ -62,39 +55,32 @@
         - [Stapelzuordnung aus Optionbox](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenmapping/stapelzuordnung_aus_optionbox.md)
       
       - [Rollenanalyse](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenanalyse.md)
-
       - [Rollenpflegerstamm](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenpflegerstamm.md)
-
       - [Rollenpflege](firmenstamm/firmenkonstanten/fkt_zu_bdkl/rollenpflege.md)
     
     - [Zugriffsrechte Funktionen](firmenstamm/firmenkonstanten/zugriffsrechte_funktionen.md)
-
     - [Schutzwort](firmenstamm/firmenkonstanten/schutzwort.md)
 
-  - [Wirtschaftsjahre und Perioden](firmenstamm/wirtschaftsjahre_und_perioden/index.md)
-    
+  - [Wirtschaftsjahre und Perioden](firmenstamm/wirtschaftsjahre_und_perioden/index.md)    
     - [Anlegen eines neuen Wirtschaftsjahres (WJ) am Beispiel 2012](firmenstamm/wirtschaftsjahre_und_perioden/anlegen_neuer_wirtschaftsjahr.md)
     - [Geschäftsjahre / Buchungsperioden](firmenstamm/wirtschaftsjahre_und_perioden/geschaeftsjahre_buchung.md)
+    - [Perioden](firmenstamm/wirtschaftsjahre_und_perioden/perioden.md)
 
   - [Erlöskennziffern](firmenstamm/erloeskennziffern/index.md)
-
     - [Erlöskennziffer / Kontozuordnung](firmenstamm/erloeskennziffern/kontozuordnung/index.md)
       - [Erlöskennziffer Kontozuordnung bei Steuersatzänderung](firmenstamm/erloeskennziffern/kontozuordnung/steuersatzaenderung.md)
 
   - [Steuerparameter](firmenstamm/steuerparameter/index.md)
-
     - [Vorgangsbearbeitung Umwandlung](firmenstamm/steuerparameter/vorgangsbearbeitung_umwandlung/index.md)
       - [Quellbelegreaktivierung bei Stornieren / Löschen von Warenbelegen - SPA 987](firmenstamm/steuerparameter/vorgangsbearbeitung_umwandlung/spa_987.md)
 
-- [Kunden und Lieferanten](kunden_lieferanten/index.md)
-  
+- [Kunden und Lieferanten](kunden_lieferanten/index.md)  
   - [Konstanten / Bearbeitung](kunden_lieferanten/konstanten_bearbeitung/index.md)
     - [Oberkunden](kunden_lieferanten/konstanten_bearbeitung/oberkunden.md)
     - [Zahlungspflichtige Kunden](kunden_lieferanten/konstanten_bearbeitung/zahlungspflichtige_kunden.md)
     - [Auslandskunden](kunden_lieferanten/konstanten_bearbeitung/auslandskunden.md)
 
   - [Kunden- und Lieferantenstamm](kunden_lieferanten/kunden_lieferantenstamm/index.md)
-
     - [Hauptmaske](kunden_lieferanten/kunden_lieferantenstamm/hauptmaske/index.md)
       - [Funktion Löschen / Wiederherstellen](kunden_lieferanten/kunden_lieferantenstamm/hauptmaske/fkt_loeschen_wiederherstellen.md)
       - [Sharepoint](kunden_lieferanten/kunden_lieferantenstamm/hauptmaske/sharepoint.md)
@@ -105,11 +91,8 @@
       - [Eingabe Kundenkredit](kunden_lieferanten/kunden_lieferantenstamm/krediterfassung/eingabe_kreditlimit.md)
 
 - [Vorgangsabwicklung](vorgangsabwicklung/index.md)
-
   - [Vorgangsbearbeitung allgemein](vorgangsabwicklung/vorgangsbearbeitung_allgemein/index.md)
-
   - [Standard-Teildisposition / Mehrfachteildisposition](vorgangsabwicklung/disposition/index.md)
-
   - [Vorgangsbearbeitung](vorgangsabwicklung/vorgangsbearbeitung/index.md)
     - [Änderung der Kundennummer](vorgangsabwicklung/vorgangsbearbeitung/aenderung_der_kundennummer/index.md)
       - [Behandlungsschema](vorgangsabwicklung/vorgangsbearbeitung/aenderung_der_kundennummer/behandlungsschema.md)
@@ -118,7 +101,6 @@
     - [Abwicklung](vorgangsabwicklung/formularzuordnung/abwicklung.md)
 
 - [Finanzbuchhaltung](finanzbuchhaltung/index.md)
-
   - [Stammdaten der Fibu](finanzbuchhaltung/stammdaten_der_fibu/index.md)
     - [Sachkonten](finanzbuchhaltung/stammdaten_der_fibu/sachkonten.md)
 
