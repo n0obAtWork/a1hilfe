@@ -77,6 +77,9 @@
     - [Vorgangsdruckklassen](firmenstamm/druckereinrichtung/vorgangsdruckklassen.md)
     - [Schachtverwendung beim Druck](firmenstamm/druckereinrichtung/schachtverwendung.md)
 
+  - [NUmmernkreise für Ware und FiBu](firmenstamm/nummernkreise_ware_fibu/index.md)
+    - [Einrichtung von Nummernkreisen](firmenstamm/nummernkreise_ware_fibu/einrichtung.md)
+
   - [Erlöskennziffern](firmenstamm/erloeskennziffern/index.md)
     - [Erlöskennziffer / Kontozuordnung](firmenstamm/erloeskennziffern/kontozuordnung/index.md)
       - [Erlöskennziffer Kontozuordnung bei Steuersatzänderung](firmenstamm/erloeskennziffern/kontozuordnung/steuersatzaenderung.md)

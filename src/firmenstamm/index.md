@@ -6,3 +6,5 @@ Hier finden sich Themen um Einrichtung und Pflege von organisatorischen Daten ei
 
 - [Firmenkonstanten](firmenkonstanten/index.md)
 - [Wirtschaftsjahre und Perioden](wirtschaftsjahre_und_perioden/index.md)
+- [Druckereinrichtung](druckereinrichtung/index.md)
+- [Nummernkreise für Ware und FiBu](nummernkreise_ware_fibu/index.md)

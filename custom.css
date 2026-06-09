@@ -130,6 +130,8 @@ td p:last-of-type {
     margin-bottom: 0;
 }
 
-.pseudo-header+p {
+.pseudo-header+p,
+div.table-wrapper,
+table {
     margin-top: 0;
 }
