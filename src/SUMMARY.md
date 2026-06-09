@@ -87,6 +87,8 @@
       - [Erlöskennziffer Kontozuordnung bei Steuersatzänderung](firmenstamm/erloeskennziffern/kontozuordnung/steuersatzaenderung.md)
     - [FiBu-Übertrag und EKZ](firmenstamm/erloeskennziffern/fibu_uebertrag_und_ekz.md)
 
+  - [Abteilungen](firmenstamm/abteilungen.md)
+
   - [Steuerparameter](firmenstamm/steuerparameter/index.md)
     - [Vorgangsbearbeitung Umwandlung](firmenstamm/steuerparameter/vorgangsbearbeitung_umwandlung/index.md)
       - [Quellbelegreaktivierung bei Stornieren / Löschen von Warenbelegen - SPA 987](firmenstamm/steuerparameter/vorgangsbearbeitung_umwandlung/spa_987.md)
