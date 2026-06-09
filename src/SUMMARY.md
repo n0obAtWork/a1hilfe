@@ -82,8 +82,10 @@
 
   - [Erlöskennziffern](firmenstamm/erloeskennziffern/index.md)
     - [Erlösklasse](firmenstamm/erloeskennziffern/erloesklasse.md)
+    - [Erlöskennziffer Stamm](firmenstamm/erloeskennziffern/stamm.md)
     - [Erlöskennziffer / Kontozuordnung](firmenstamm/erloeskennziffern/kontozuordnung/index.md)
       - [Erlöskennziffer Kontozuordnung bei Steuersatzänderung](firmenstamm/erloeskennziffern/kontozuordnung/steuersatzaenderung.md)
+    - [FiBu-Übertrag und EKZ](firmenstamm/erloeskennziffern/fibu_uebertrag_und_ekz.md)
 
   - [Steuerparameter](firmenstamm/steuerparameter/index.md)
     - [Vorgangsbearbeitung Umwandlung](firmenstamm/steuerparameter/vorgangsbearbeitung_umwandlung/index.md)

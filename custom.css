@@ -105,6 +105,10 @@ li.chapter-item a:not(.active):hover {
     width: 100%;
 }
 
+td {
+    vertical-align: top;
+}
+
 td p:first-of-type {
     margin-top: 0;
 }
