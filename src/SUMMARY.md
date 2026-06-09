@@ -67,6 +67,15 @@
     - [Perioden](firmenstamm/wirtschaftsjahre_und_perioden/perioden.md)
     - [Buchungsadministratoren](firmenstamm/wirtschaftsjahre_und_perioden/buchungsadministrator/index.md)
       - [Buchungsadministratoren: Pfleger](firmenstamm/wirtschaftsjahre_und_perioden/buchungsadministrator/pfleger.md)
+    
+  - [Druckereinrichtung](firmenstamm/druckereinrichtung/index.md)
+    - [Druckertypen](firmenstamm/druckereinrichtung/druckertypen.md)
+    - [Druckerstamm](firmenstamm/druckereinrichtung/druckerstamm/index.md)
+      - [Druckerstamm: Pfleger](firmenstamm/druckereinrichtung/druckerstamm/pfleger.md)
+    - [Druckerzuordnung](firmenstamm/druckereinrichtung/druckerzuordnung.md)
+    - [Druckumleitung](firmenstamm/druckereinrichtung/druckumleitung.md)
+    - [Vorgangsdruckklassen](firmenstamm/druckereinrichtung/vorgangsdruckklassen.md)
+    - [Schachtverwendung beim Druck](firmenstamm/druckereinrichtung/schachtverwendung.md)
 
   - [Erlöskennziffern](firmenstamm/erloeskennziffern/index.md)
     - [Erlöskennziffer / Kontozuordnung](firmenstamm/erloeskennziffern/kontozuordnung/index.md)

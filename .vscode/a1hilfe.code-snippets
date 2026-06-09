@@ -58,7 +58,7 @@
 		"scope": "markdown",
 		"prefix": "tab-2",
 		"body": [
-			"|  |  |",
+			"|  | Beschreibung |",
 			"| :--- | :--- |"
 		],
 		"description": "Insert a two-tabbed interface"

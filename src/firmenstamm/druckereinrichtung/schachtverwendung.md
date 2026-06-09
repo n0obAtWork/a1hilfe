@@ -1,0 +1,33 @@
+# Schachtverwendung beim Druck
+
+Moderne Drucker haben unter Umständen mehrere Papierzufuhreinrichtungen mit Vorratsbehältern für Papier. Diese sogenannten Schächte können dafür verwendet werden, Papier mit unterschiedlichen Maßen, Farben oder Vordrucken aufzunehmen.
+
+Das kann hilfreich sein, wenn z.B. für das erste Blatt ein Papier mit vorgedrucktem Briefkopf verwendet werden soll oder der Zweitdruck mit einem andersfarbigen Papier gekennzeichnet werden soll.
+
+<p class="just-emphasize pseudo-header">Hardwarevoraussetzungen</p>
+
+Für die Verwendung von Schächten ist es zunächst notwendig, dass der Drucker mehrere Schächte hat und diese sich über den Druckertreiber gezielt ansteuern lassen.
+
+<p class="just-emphasize pseudo-header">Einrichtung im Druckerstamm</p>
+
+Im Druckerstamm [DRST] kann eingestellt werden, dass und welche Schächte verwendet werden sollen und welcher Schacht verwendet werden soll, wenn keine der Steuerungen dies angibt.
+
+<p class="just-emphasize pseudo-header">Schachtdefinition im Formular</p>
+
+Im Formular [FRM] kann festgelegt werden, ob ein bestimmter (von der Druckerstammeinstellung abweichender) Schacht verwendet werden soll.
+
+Es kann sogar definiert werden, dass die erste Seite auf einem von den folgenden Seiten abweichenden Schacht gedruckt werden soll.
+
+<p class="just-emphasize pseudo-header">Vorgangsdruckklassen-Einstellungen</p>
+
+In der Vorgangsdruckklasse [VRGD] kann festgelegt werden, ob ein bestimmter (von der Druckerstammeinstellung abweichender) Schacht verwendet werden soll.
+
+Es kann sogar definiert werden, dass die erste Seite auf einem von den folgenden Seiten abweichenden Schacht gedruckt werden soll. Das kann hilfreich sein, wenn für das erste Blatt ein Papier mit vorgedrucktem Briefkopf verwendet werden soll.
+
+<p class="just-emphasize pseudo-header">Reihenfolge der Entscheidungsfindung bei widersprüchlichen Einstellungen</p>
+
+Zunächst ist zwingend notwendig, dass im Druckerstamm [DRST] Schächte definiert sind und ein Standardschacht angegeben wurde. Ohne diese Einstellung gibt es keine Schachtverwendung!
+
+- Beim Druck wird zunächst die Einstellung im Formular [FRM] gelesen.
+- Anschließend wird - wenn anwendbar – die Schachteinstellung der verwendeten Vorgangsdruckklasse [VRGD] berücksichtigt und diese überschreibt - wenn vorhanden – die bisherigen Einstellungen.
+- Ist bisher keine Einstellung erfolgt, wird der Standardschacht aus dem Druckerstamm [DRST] verwendet.
