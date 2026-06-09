@@ -65,6 +65,8 @@
     - [Anlegen eines neuen Wirtschaftsjahres (WJ) am Beispiel 2012](firmenstamm/wirtschaftsjahre_und_perioden/anlegen_neuer_wirtschaftsjahr.md)
     - [Geschäftsjahre / Buchungsperioden](firmenstamm/wirtschaftsjahre_und_perioden/geschaeftsjahre_buchung.md)
     - [Perioden](firmenstamm/wirtschaftsjahre_und_perioden/perioden.md)
+    - [Buchungsadministratoren](firmenstamm/wirtschaftsjahre_und_perioden/buchungsadministrator/index.md)
+      - [Buchungsadministratoren: Pfleger](firmenstamm/wirtschaftsjahre_und_perioden/buchungsadministrator/pfleger.md)
 
   - [Erlöskennziffern](firmenstamm/erloeskennziffern/index.md)
     - [Erlöskennziffer / Kontozuordnung](firmenstamm/erloeskennziffern/kontozuordnung/index.md)
