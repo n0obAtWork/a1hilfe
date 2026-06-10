@@ -11,3 +11,4 @@ Innerhalb der Vertreterdaten können alle Daten erfasst werden, um die Berechnun
 - [Vertreter Provision](vertreterprovision.md)
 - [Vertretergruppen](vertretergruppen/index.md)
 - [Vertreterprovisionsgruppen (Provisionstypen)](vertreterprovisionsgruppen/index.md)
+- [Vertreterprovisionsstaffeln](vertreterprovisionsstaffeln/index.md)

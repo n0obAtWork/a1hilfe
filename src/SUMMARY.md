@@ -109,6 +109,9 @@
     - [Vertreterprovisionsgruppen (Provisionstypen)](firmenstamm/vertreterdaten/vertreterprovisionsgruppen/index.md)
       - [Vertreterprovisionsgruppen Variante 1](firmenstamm/vertreterdaten/vertreterprovisionsgruppen/variante_1.md)
       - [Vertreterprovisionsgruppen: Pfleger](firmenstamm/vertreterdaten/vertreterprovisionsgruppen/pfleger.md)
+    - [Vertreterprovisionsstaffeln](firmenstamm/vertreterdaten/vertreterprovisionsstaffeln/index.md)
+      - [Vertreterprovisionsstaffeln Variante 2](firmenstamm/vertreterdaten/vertreterprovisionsstaffeln/variante_2.md)
+      - [Vertreterprovisionsstaffeln: Pfleger](firmenstamm/vertreterdaten/vertreterprovisionsstaffeln/pfleger.md)
 
   - [Steuerparameter](firmenstamm/steuerparameter/index.md)
     - [Vorgangsbearbeitung Umwandlung](firmenstamm/steuerparameter/vorgangsbearbeitung_umwandlung/index.md)
