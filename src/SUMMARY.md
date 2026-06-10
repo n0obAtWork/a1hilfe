@@ -96,6 +96,8 @@
       - [Vertreterstamm Variante 2 (Fehlerhafte / unvollständige Vertreter)](firmenstamm/vertreterdaten/vertreterstamm/variante_2.md)
       - [Vertreterstamm: Pfleger](firmenstamm/vertreterdaten/vertreterstamm/pfleger/index.md)
         - [Vertreterprovisionstabellen](firmenstamm/vertreterdaten/vertreterstamm/pfleger/vertreterprovisionstabellen.md)
+    - [Vertreterklasse](firmenstamm/vertreterdaten/vertreterklasse/index.md)
+      - [Vertreterklasse: Pfleger](firmenstamm/vertreterdaten/vertreterklasse/pfleger.md)
 
   - [Steuerparameter](firmenstamm/steuerparameter/index.md)
     - [Vorgangsbearbeitung Umwandlung](firmenstamm/steuerparameter/vorgangsbearbeitung_umwandlung/index.md)
