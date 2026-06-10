@@ -112,6 +112,12 @@
     - [Vertreterprovisionsstaffeln](firmenstamm/vertreterdaten/vertreterprovisionsstaffeln/index.md)
       - [Vertreterprovisionsstaffeln Variante 2](firmenstamm/vertreterdaten/vertreterprovisionsstaffeln/variante_2.md)
       - [Vertreterprovisionsstaffeln: Pfleger](firmenstamm/vertreterdaten/vertreterprovisionsstaffeln/pfleger.md)
+    - [Vertreterabrechnung](firmenstamm/vertreterdaten/vertreterabrechung/index.md)
+      - [Vertreterabrechnung Variante 1(noch zu provisionierende Belege)](firmenstamm/vertreterdaten/vertreterabrechung/variante_1.md)
+      - [Vertreterabrechnung Variante 2(Provisionierte unabgerechnete Bewegungen)](firmenstamm/vertreterdaten/vertreterabrechung/variante_2.md)
+      - [Vertreterabrechnung Variante 3(Belege ohne provisionierte Warenbewegung)](firmenstamm/vertreterdaten/vertreterabrechung/variante_3.md)
+      - [Vertreterabrechnung Variante 4(Provi., unabgerechnete Beweg. (je Vert.))](firmenstamm/vertreterdaten/vertreterabrechung/variante_4.md)
+      - [Vertreterabrechnung Variante 5(Abgerechnete Listen)](firmenstamm/vertreterdaten/vertreterabrechung/variante_5.md)
 
   - [Steuerparameter](firmenstamm/steuerparameter/index.md)
     - [Vorgangsbearbeitung Umwandlung](firmenstamm/steuerparameter/vorgangsbearbeitung_umwandlung/index.md)
