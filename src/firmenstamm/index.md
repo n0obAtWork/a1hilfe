@@ -10,4 +10,5 @@ Hier finden sich Themen um Einrichtung und Pflege von organisatorischen Daten ei
 - [Nummernkreise für Ware und FiBu](nummernkreise_ware_fibu/index.md)
 - [Erlöskennziffern](erloeskennziffern/index.md)
 - [Abteilungen](abteilungen.md)
+- [Vertreterdaten](vertreterdaten/index.md)
 - [Steuerparameter](steuerparameter/index.md)

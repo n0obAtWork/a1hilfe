@@ -89,6 +89,14 @@
 
   - [Abteilungen](firmenstamm/abteilungen.md)
 
+  - [Vertreterdaten](firmenstamm/vertreterdaten/index.md)
+    - [Vertreterinformationen „außerhalb“ des eigentlichen Vertreterstammes](firmenstamm/vertreterdaten/vertreterinformationen.md)
+    - [Vertreterstamm](firmenstamm/vertreterdaten/vertreterstamm/index.md)
+      - [Vertreterstamm Variante 1](firmenstamm/vertreterdaten/vertreterstamm/variante_1.md)
+      - [Vertreterstamm Variante 2 (Fehlerhafte / unvollständige Vertreter)](firmenstamm/vertreterdaten/vertreterstamm/variante_2.md)
+      - [Vertreterstamm: Pfleger](firmenstamm/vertreterdaten/vertreterstamm/pfleger/index.md)
+        - [Vertreterprovisionstabellen](firmenstamm/vertreterdaten/vertreterstamm/pfleger/vertreterprovisionstabellen.md)
+
   - [Steuerparameter](firmenstamm/steuerparameter/index.md)
     - [Vorgangsbearbeitung Umwandlung](firmenstamm/steuerparameter/vorgangsbearbeitung_umwandlung/index.md)
       - [Quellbelegreaktivierung bei Stornieren / Löschen von Warenbelegen - SPA 987](firmenstamm/steuerparameter/vorgangsbearbeitung_umwandlung/spa_987.md)
