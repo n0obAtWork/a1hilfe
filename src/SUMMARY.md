@@ -118,6 +118,7 @@
       - [Vertreterabrechnung Variante 3(Belege ohne provisionierte Warenbewegung)](firmenstamm/vertreterdaten/vertreterabrechung/variante_3.md)
       - [Vertreterabrechnung Variante 4(Provi., unabgerechnete Beweg. (je Vert.))](firmenstamm/vertreterdaten/vertreterabrechung/variante_4.md)
       - [Vertreterabrechnung Variante 5(Abgerechnete Listen)](firmenstamm/vertreterdaten/vertreterabrechung/variante_5.md)
+    - [Provisionsstaffelungen](firmenstamm/vertreterdaten/provisionsstaffelungen.md)
 
   - [Steuerparameter](firmenstamm/steuerparameter/index.md)
     - [Vorgangsbearbeitung Umwandlung](firmenstamm/steuerparameter/vorgangsbearbeitung_umwandlung/index.md)
