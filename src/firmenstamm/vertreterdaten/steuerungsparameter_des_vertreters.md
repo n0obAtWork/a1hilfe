@@ -6,7 +6,7 @@
 
 Mit diesem SPA kann eingestellt werden, welcher Typ zur Provisionsberechnung als Standardprovisionsberechnungstyp herangezogen werden soll.
 
-```
+```txt
 -1  = Standard Provisionsberechnung
 0   = keine Provision
 1   = prozentuale Provision vom Nettobetrag
