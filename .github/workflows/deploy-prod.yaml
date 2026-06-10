@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: Linux
+    runs-on: spike-a1hilfe-mdbook
     steps:
       - name: Checkout
         uses: actions/checkout@v6
