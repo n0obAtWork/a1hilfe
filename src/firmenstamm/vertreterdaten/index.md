@@ -7,3 +7,4 @@ Innerhalb der Vertreterdaten können alle Daten erfasst werden, um die Berechnun
 - [Vertreterinformationen „außerhalb“ des eigentlichen Vertreterstammes](vertreterinformationen.md)
 - [Vertreterstamm](vertreterstamm/index.md)
 - [Vertreterklasse](vertreterklasse/index.md)
+- [Vertreteranteile](vertreteranteile.md)

@@ -98,6 +98,7 @@
         - [Vertreterprovisionstabellen](firmenstamm/vertreterdaten/vertreterstamm/pfleger/vertreterprovisionstabellen.md)
     - [Vertreterklasse](firmenstamm/vertreterdaten/vertreterklasse/index.md)
       - [Vertreterklasse: Pfleger](firmenstamm/vertreterdaten/vertreterklasse/pfleger.md)
+    - [Vertreteranteile](firmenstamm/vertreterdaten/vertreteranteile.md)
 
   - [Steuerparameter](firmenstamm/steuerparameter/index.md)
     - [Vorgangsbearbeitung Umwandlung](firmenstamm/steuerparameter/vorgangsbearbeitung_umwandlung/index.md)
