@@ -8,3 +8,4 @@ Innerhalb der Vertreterdaten können alle Daten erfasst werden, um die Berechnun
 - [Vertreterstamm](vertreterstamm/index.md)
 - [Vertreterklasse](vertreterklasse/index.md)
 - [Vertreteranteile](vertreteranteile.md)
+- [Vertreter Provision](vertreterprovision.md)

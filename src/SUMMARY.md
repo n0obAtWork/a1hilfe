@@ -99,6 +99,7 @@
     - [Vertreterklasse](firmenstamm/vertreterdaten/vertreterklasse/index.md)
       - [Vertreterklasse: Pfleger](firmenstamm/vertreterdaten/vertreterklasse/pfleger.md)
     - [Vertreteranteile](firmenstamm/vertreterdaten/vertreteranteile.md)
+    - [Vertreter Provision](firmenstamm/vertreterdaten/vertreterprovision.md)
 
   - [Steuerparameter](firmenstamm/steuerparameter/index.md)
     - [Vorgangsbearbeitung Umwandlung](firmenstamm/steuerparameter/vorgangsbearbeitung_umwandlung/index.md)
