@@ -100,6 +100,12 @@
       - [Vertreterklasse: Pfleger](firmenstamm/vertreterdaten/vertreterklasse/pfleger.md)
     - [Vertreteranteile](firmenstamm/vertreterdaten/vertreteranteile.md)
     - [Vertreter Provision](firmenstamm/vertreterdaten/vertreterprovision.md)
+    - [Vertretergruppen](firmenstamm/vertreterdaten/vertretergruppen/index.md)
+      - [Vertretergruppen Variante 1](firmenstamm/vertreterdaten/vertretergruppen/variante_1.md)
+      - [Vertretergruppen Variante 2 (Offene Aufträge nach Vertretergruppen)](firmenstamm/vertreterdaten/vertretergruppen/variante_2.md)
+      - [Vertretergruppen Variante 3 (Fehlerhafte Vertretergruppen)](firmenstamm/vertreterdaten/vertretergruppen/variante_3.md)
+      - [Vertretergruppen Variante 4 (Unvollständige Vertretergruppen)](firmenstamm/vertreterdaten/vertretergruppen/variante_4.md)
+      - [Vertretergruppen: Pfleger](firmenstamm/vertreterdaten/vertretergruppen/pfleger.md)
 
   - [Steuerparameter](firmenstamm/steuerparameter/index.md)
     - [Vorgangsbearbeitung Umwandlung](firmenstamm/steuerparameter/vorgangsbearbeitung_umwandlung/index.md)
