@@ -14,3 +14,4 @@ Innerhalb der Vertreterdaten können alle Daten erfasst werden, um die Berechnun
 - [Vertreterprovisionsstaffeln](vertreterprovisionsstaffeln/index.md)
 - [Vertreterabrechnung](vertreterabrechung/index.md)
 - [Provisionsstaffelungen](provisionsstaffelungen.md)
+- [Steuerungsparameter des Vertreters](steuerungsparameter_des_vertreters.md)

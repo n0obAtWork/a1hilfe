@@ -119,6 +119,7 @@
       - [Vertreterabrechnung Variante 4(Provi., unabgerechnete Beweg. (je Vert.))](firmenstamm/vertreterdaten/vertreterabrechung/variante_4.md)
       - [Vertreterabrechnung Variante 5(Abgerechnete Listen)](firmenstamm/vertreterdaten/vertreterabrechung/variante_5.md)
     - [Provisionsstaffelungen](firmenstamm/vertreterdaten/provisionsstaffelungen.md)
+    - [Steuerungsparameter des Vertreters](firmenstamm/vertreterdaten/steuerungsparameter_des_vertreters.md)
 
   - [Steuerparameter](firmenstamm/steuerparameter/index.md)
     - [Vorgangsbearbeitung Umwandlung](firmenstamm/steuerparameter/vorgangsbearbeitung_umwandlung/index.md)
