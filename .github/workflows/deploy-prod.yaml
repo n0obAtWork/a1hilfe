@@ -3,6 +3,10 @@ name: Deploy A.eins Hilfe
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - 'README.md'
+      - '.gitignre'
+      - '.prettierignore'
 
   workflow_dispatch:
 
@@ -22,20 +26,20 @@ jobs:
         run: mdbook test
       - name: Build Hilfe
         run: mdbook build
-      # - name: Copy PDF file
-      #   run: cp book/pdf/output.pdf book/html/Aeins.pdf
-      # # TODO - need something to upload generated pdf for distribution
-      # - name: Handle old container
-      #   run: |
-      #     chmod +x ./handle-old-container.sh
-      #     ./handle-old-container.sh spike-a1hilfe-mdbook      
-      # - name: Build Docker image
-      #   run: docker build -t spike-a1hilfe-mdbook:latest .
-      # - name: Deploy Onlinehilfe
-      #   run: >
-      #     docker run -d
-      #     --restart always
-      #     --name spike-a1hilfe-mdbook
-      #     -p 8181:80
-      #     spike-a1hilfe-mdbook:latest
+      - name: Copy PDF file
+        run: cp book/pdf/output.pdf book/html/Aeins.pdf
+      # TODO - need something to upload generated pdf for distribution
+      - name: Handle old container
+        run: |
+          chmod +x ./handle-old-container.sh
+          ./handle-old-container.sh spike-a1hilfe-mdbook      
+      - name: Build Docker image
+        run: docker build -t spike-a1hilfe-mdbook:latest .
+      - name: Deploy Onlinehilfe
+        run: >
+          docker run -d
+          --restart always
+          --name spike-a1hilfe-mdbook
+          -p 8181:80
+          spike-a1hilfe-mdbook:latest
         
