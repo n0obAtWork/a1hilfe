@@ -40,6 +40,7 @@ jobs:
           docker run -d
           --restart always
           --name spike-a1hilfe-mdbook
+          --network dev
           -p 8181:80
           spike-a1hilfe-mdbook:latest
         
