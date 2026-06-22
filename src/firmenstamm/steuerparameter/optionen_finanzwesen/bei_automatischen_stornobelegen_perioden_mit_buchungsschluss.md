@@ -1,0 +1,9 @@
+# Bei automatischen Stornobelegen Perioden mit Buchungsschluss zulassen (SPA 1134)
+
+<!-- source: https://amic.de/hilfe/_SPA_1134.htm -->
+
+Beim Zurücksetzen von Auszifferungen werden für einige Belegarten (z.B. Restposten, Skonto) automatisch Stornobelege erstellt. Steht die Periode auf Buchungsschluss oder ist sie bereits abgeschlossen, dann wird die Periode abgefragt, in die der Stornobeleg gebucht werden soll. Dieser SPA steuert, wie bei Perioden mit Buchungsschluss behandelt werden sollen.
+
+Hinweis: Da [Buchungsadministratoren](../../wirtschaftsjahre_und_perioden/buchungsadministratoren/index.md) in Perioden mit Buchungsschluss buchen dürfen, hat dieser SPA für sie keine Auswirkung.
+
+<table class="MsoTable15Plain4" style="WIDTH: 100%; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="100%" border="0"><tbody><tr><td style="WIDTH: 42.15pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="56">Ja</td><td style="WIDTH: 891.85pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="1189"><b>Das Periodenabfragefenster öffnet sich und die Periode ist vorbelegt. In dem Hinweistext steht, dass die Periode des Ursprungsbeleges bereits auf Buchungsschluss gesetzt wurde, man sie aber trotzdem verwenden kann. Ansonsten muss man sie auf eine noch offene Periode ändern.</b><br><b></b>&nbsp;</td></tr><tr><td style="WIDTH: 42.15pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="56">Nein</td><td style="WIDTH: 891.85pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="1189">Das Periodenabfragefenster öffnet sich und die nächste mögliche Periode wird vorbelegt. Im Hinweistext steht, dass die Periode des Urspungsbelegs nicht mehr verwendet werden darf.</td></tr></tbody></table>

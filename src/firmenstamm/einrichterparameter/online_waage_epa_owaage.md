@@ -1,0 +1,160 @@
+# Online Waage (EPA OWAAGE)
+
+<!-- source: https://amic.de/hilfe/_EPA_OWAAGE.htm -->
+
+| Bezeichnung | Standardwert | Erklärung |
+| --- | --- | --- |
+| Wiegenummer bei manuellen Wiegungen ausblenden | Ja | Die Wiegenummer kann zur Vereinfachung der Bedienung bei manuellen Wiegungen ausgeblendet werden. |
+| Sollen die Aufträge komplett storniert werden (sonst ausbuchen)? | Nein | Wirksam für die Vorgangskopie.  
+Hat man sich hier für Ja entschieden, dann wird der Auftrag storniert (das bedeutet, er verschwindet aus dem System; es kann in keiner Form mehr auf ihn zugegriffen werden.).  
+Bei Nein wird die Menge des Auftrages auf Null gesetzt. Er bleibt im System erhalten. |
+| Basiskategorie bei Auswahl nach Art/Sorte | 0 |   
+    
+ |
+| Plan-, und Lieferdatum aus Waage ziehen | Nein | Bei der Vorgangserzeugung aus der Waage wird das Plandatum, so wie das Lieferdatum auf das Datum der Wiegung gesetzt. |
+| Vorgang erzeugen: Belegdatum der Waage als Lieferdatum anstatt des Tagesdatums | Nein | Bei der Waage-Anwendung „Vorgang erzeugen“ wird im Lieferschein als Lieferdatum das Tagesdatum (Datum der Vorgangserzeugung) eingetragen. Es gibt die Möglichkeit, das Datum des Waagenbeleges auch als Lieferdatum im Lieferschein zu übernehmen. Dazu muss der EPA „Vorgang erzeugen: Belegdatum als Lieferdatum anstatt des Tagesdatums“ auf ‚JA’ gesetzt werden. Das ist vor allem dann sinnvoll, wenn aus Wiegungen erst einige Wochen später Vorgänge erzeugt werden. |
+| Belegdatum bearbeiten | Nein | Setzt man diesen Einrichterparameter auf Ja, besteht die Möglichkeit, das Datum zu ändern.  
+   
+Das Belegdatum wird mit dem aktuellen Datum (heute) vorbelegt. Es ist nicht das Tagesdatum/Vorbelegungsdatum welches man über den Direktsprung [DAT] setzen kann bzw. welches beim Start von A.eins mit dem Rechnerdatum vorbelegt wird. Dieses Tagesdatum ändert sich nämlich nicht, wenn man über Nacht in A.eins eingeloggt bleibt bzw. ist falsch belegt, wenn die Rechnereinstellungen nicht stimmen. Deshalb wird als Datum der Wert von TODAY(\*) über SQL abgefragt und als Belegdatum verwendet. |
+| Belegnr bearbeiten | Nein | Setzt man diesen Einrichterparameter auf Ja, dann hat man die Möglichkeit die Belegnr. zu ändern. Die Belegnr. wird vorbelegt und man kann sie dann editieren. |
+| Darf gleiche Partie mit Belegnummer vorkommen | Ohne Abfrage | |
+| Vorlage/Wiegetyp wird im ÄndernFall auf der Maske deaktiviert | Ja | Obsolet wird jetzt im [Wiegeprozess](../../waagenanbindung/waagenanbindung_online_waage/prozess_einrichten/index.md) auf der Registerkarte [Bildschirm](../../waagenanbindung/waagenanbindung_online_waage/prozess_einrichten/registerkarte_bildschirm.md) im Feld Prozessverhalten gepflegt. |
+| Entwicklerausgaben | Nein | |
+| Darf eine Belegnummer doppelt vorkommen | Ja | |
+| Artikel muss für die erste Wiegung angegeben werden | Nein | Der Einrichterparameter zwingt den Bediener zur Artikel Eingabe bei der ersten Wiegung. Standartmäßig ist der Einrichterparamter auf Nein gestellt, dies bedeutet, dass zur erst Wiegung kein Artikelzwang besteht |
+| Erntejahr = Kalenderjahr, sonst Wirtschaftsjahr | Nein | Es werden für die Auswahl alle Daten aus dem Kalenderjahr oder dem Wirtschaftsjahr angezeigt. |
+| Soll eingetragener Fahrer gespeichert werden. | Mit Abfrage | |
+| Nummer des Qualitätfeldes steuert Feuchteproz. | | Hier kann man festlegen mit welchem Qualitätsfeldinhalt das Feld Feuchteprozent gefüllt werden soll.  
+Beispiel: Wir haben die Nummer 4 in den Einrichterparameter eingetragen. Im 4. Qualitätsfeld auf der Waagenmaske tragen wir danach 12,00 ein. Der Einrichterparameter bewirkt dann, dass in dem Feld Feuchteprozent sofort die 12 % eingetragen werden. |
+| Analysewertnr. aus Waage Feuchteproz. | 61 | Vorbelegt mit 61  
+Hier legt man fest, unter welcher Nummer der Wert für die Feuchte (in Prozent) in den Analysewerten des Rohwarebeleges [RWWE] wieder zu finden ist.  
+Beim Öffnen der Waagenmaske findet eine Prüfung statt, ob Analysewertnummern doppelt vergeben wurden. Falls ja erhält man eine Warnung.  
+Im Beispiel unten sind es 12 %. |
+| Feuchte muss zum Erzeugen von Rohwarenbelegen angegeben werden | Ja | Wenn man Rohwarenbelege auch erzeugen möchte, wenn die Feuchte nicht eingegeben wurde, dann stellt man diesen Parameter auf Nein ein. |
+| Numerisches Format für Gewichtsanzeige | N2 | Hier bestimmt man die Nachkommastellen für die 3 Gewichtsanzeigefelder auf der Maske.  
+Auswahl von N0-N6  
+Vorbelegt mit N2 |
+| Analysewertnr. aus Waage Frachtkennzeichen | 60 | Hier legt man fest, unter welcher Nummer der Wert fürs Frachtkennzeichen in den Analysewerten des Rohwarebeleges [RWWE] / [RWWV] wieder zu finden ist.  
+Beim Öffnen der Waagenmaske findet eine Prüfung statt, ob Analysewertnummern doppelt vergeben wurden. Falls ja, erhält man eine Warnung. |
+| Analysewertnr. aus Waage Fremdfeuchte | 63 | Hier legt man fest, unter welcher Nummer der Wert für die Fremdfeuchte in den Analysewerten des Rohwarebeleges [RWWE] wieder zu finden ist.  
+Beim Öffnen der Waagenmaske findet eine Prüfung statt, ob Analysewertnummern doppelt vergeben wurden. Falls ja, erhält man eine Warnung. |
+| Nur Hinweis bei gesperrten Aufträgen (sonst Sperre) | Nein | Wenn bei Aufträgen das Sperrkennzeichen für die Weiterverarbeitung, Umwandlung oder Bearbeitung gesetzt ist, dann erhält man eine Fehlermeldung bei Auswahl des Auftrages auf dem Feld Kunde. Man ist gezwungen, einen nicht gesperrten Auftrag auszuwählen.  
+Mit diesem Einrichterparameter kann man die harte Auswahlsperre in einen Warnhinweis wandeln. Damit sind auch gesperrte Aufträge auf dem Feld Kunde auswählbar. Es ist aber zu bedenken, dass die Vorgangserzeugung bei gesperrten Aufträgen nicht möglich ist. |
+| Kontrakt anschließen | Nein | Setzt man diesen Einrichterparameter auf Ja hat man die Möglichkeit, einen Kontrakt auszuwählen. Beim Übernehmen eines Kontraktes füllen sich dann die Felder Kunde, Artikel, Lager usw. mit den Daten aus dem Kontrakt. Bei der Vorgangserzeugung wird eine gewogene Menge von diesem Kontrakt heruntergebucht.  
+Bei Nein ist das Feld Kontrakt auf der Maske ausgeblendet.  
+   
+Kontrakt bei Vorgang verwenden auch wenn nicht ausdrücklich angegeben  
+Vorbelegt mit Nein  
+Bei Nein wird bei der Vorgangserzeugung kein evtl vorhandener Kontrakt (für den in der Waage angegebenen Kunden und Artikel) in den Positionsteil übernommen und es wird auch keine Menge von diesem Kontrakt heruntergebucht.  
+Bei Ja verwendet die Vorgangserzeugung einen vorhandenen Kontrakt und bucht die gewogene Menge von ihm herunter, obwohl in der Waagenmaske nicht ausdrücklich ein Kontrakt angegeben wurde.  
+Ist ein Kontrakt in der Waagenmaske ausdrücklich ausgewählt worden, wird dieser bei der Vorgangserzeugung verwendet. |
+| Kontrakt bei Vorgang verwenden auch wenn nicht ausdrücklich angegeben | Nein | Zieht bei der Vorgangserzeugung automatisch einen Kontrakt, obwohl dieser nicht angegeben worden ist. |
+| Vorbelegung Lagerplatz (Standard=0) | 0 | Belegt den Lagerplatz vor |
+| Lagerplatzabfrage aktiv | Nein | Ja aktiviert die Lagerplatzabfrage. Das Feld Lagerplatz auf der Waagenmaske wird dadurch editierbar.  
+Man kann dann die Vorbelegung des Feldes auf der Waagenmaske durch den Einrichterparameter Vorbelegung Lagerplatz ändern. |
+| Vorbelegung Lager aus Auftrag (sonst VKons) | Nein | Belegt das Lager mit dem Lager aus dem beim Kunden gewählten Auftrag vor. Sonst wird als Vorbelegung das Lager aus [VKONS] genommen. |
+| Textlabel zum Bemerkung1 Feld | | Hier besteht die Möglichkeit die Bezeichnung des Bemerkungsfeldes eins zu individualisieren. |
+| Textlabel zum Bemerkung2 Feld | | Hier besteht die Möglichkeit die Bezeichnung des Bemerkungsfeldes zwei zu individualisieren. |
+| Textlabel zum Bemerkung3 Feld | | Hier besteht die Möglichkeit die Bezeichnung des Bemerkungsfeldes drei zu individualisieren. |
+| Soll eingetragene LKW Nummer gespeichert werden | Mit Abfrage | |
+| LKW zieht Spedition | Ja | Hier kann man festlegen, ob die Spedition in Abhängigkeit vom LKW gefüllt werden soll.  
+Die Felder auf der Maske wechseln ihre ursprüngliche Reihenfolge von Spedition – LKW auf LKW – Spedition. Das Feld Spedition ist nicht mehr editierbar. |
+| Vorbelegung des Matchcodes für neue Partie | Artikelnummer | Vorbelegt mit Artikelnummer.  
+Hier wird hinterlegt womit der Matchcode vorbelegt werden soll, wenn man eine neue Partie anlegt. |
+| Artikelauswahl nach Art/Sorte statt Artikel (Vermehrer) | Nein | Man kann sich bei der Artikelauswahl die Artikel nach Art/Sorte anzeigen lassen. |
+| Vorbelegung der Partiebezeichnung | Anlieferungsnummer | Hier wird hinterlegt, womit die Partiebezeichnung vorbelegt werden soll, wenn man eine neue Partie anlegt. |
+| Makro zur Vorbelegung der Partiebezeichnung | | Der Name des Makros, das ausgeführt wird, wenn eine neue Partie angelegt wird und der EPA „Vorbelegung der Partiebezeichnung“ den Wert „per Makro“ hat. Siehe auch [Neue Partie anlegen](../../waagenanbindung/waagenanbindung_online_waage/funktionen_auf_der_waagenmaske/neue_partie_anlegen_f8.md). |
+| Abfrage für Profilkontrolle aktivieren | Nein | Stellt man diesen Einrichterparameter auf Ja, dann wird vor jeder Wiegung eine Sicherheitsabfrage gemacht, die den Bediener auffordert zu überprüfen, ob er auch die Waage verwendet, die zum angegebenen Waagenprofil auf der Waagenmaske gehört.  
+Dies ist vor allem für Betriebe mit mehreren Waagen interessant, da es dort in der Hektik mal zu Verwechslungen kommen kann. |
+| Format Qualitätsmerkmal 1 | N2 | Hier legt man das Format für das Eingabefeld des Qualitätsmerkmales 1 fest |
+| Label Qualitätsmerkmal 1 | | Bezeichnung des Qualitätsfeldes Nummer 1. |
+| Analysewertnr. aus Waage Qualitätsmerkmal 1 | | Qualitätsmerkmal 1. Das Merkmal wird im Rohwarenbeleg als Analysewert angezeigt. Beim Öffnen der Waagenmaske findet eine Prüfung statt, ob Analysewertnummern doppelt vergeben wurden. Falls ja, erhält man eine Warnung. |
+| Format Qualitätsmerkmal 10 | N2 | Hier legt man das Format für das Eingabefeld des Qualitätsmerkmales 10 fest |
+| Label Qualitätsmerkmal 10 | | Bezeichnung des Qualitätsfeldes Nummer 10. |
+| Analysewertnr. aus Waage Qualitätsmerkmal 10 | | Qualitätsmerkmal 10. Das Merkmal wird im Rohwarenbeleg als Analysewert angezeigt. Beim Öffnen der Waagenmaske findet eine Prüfung statt, ob Analysewertnummern doppelt vergeben wurden. Falls ja, erhält man eine Warnung. |
+| Format Qualitätsmerkmal 11 | N2 | Hier legt man das Format für das Eingabefeld des Qualitätsmerkmales 11 fest |
+| Label Qualitätsmerkmal 11 | | Bezeichnung des Qualitätsfeldes Nummer 11. |
+| Analysewertnr. aus Waage Qualitätsmerkmal 11 | | Qualitätsmerkmal 11. Das Merkmal wird im Rohwarenbeleg als Analysewert angezeigt. Beim Öffnen der Waagenmaske findet eine Prüfung statt, ob Analysewertnummern doppelt vergeben wurden. Falls ja, erhält man eine Warnung. |
+| Format Qualitätsmerkmal 12 | N2 | Hier legt man das Format für das Eingabefeld des Qualitätsmerkmales 12 fest |
+| Label Qualitätsmerkmal 12 | | Bezeichnung des Qualitätsfeldes Nummer 12. |
+| Analysewertnr. aus Waage Qualitätsmerkmal 12 | | Qualitätsmerkmal 12. Das Merkmal wird im Rohwarenbeleg als Analysewert angezeigt. Beim Öffnen der Waagenmaske findet eine Prüfung statt, ob Analysewertnummern doppelt vergeben wurden. Falls ja, erhält man eine Warnung. |
+| Format Qualitätsmerkmal 13 | N2 | Hier legt man das Format für das Eingabefeld des Qualitätsmerkmales 13 fest |
+| Label Qualitätsmerkmal 13 | | Bezeichnung des Qualitätsfeldes Nummer 13. |
+| Analysewertnr. aus Waage Qualitätsmerkmal 13 | | Qualitätsmerkmal 13. Das Merkmal wird im Rohwarenbeleg als Analysewert angezeigt. Beim Öffnen der Waagenmaske findet eine Prüfung statt, ob Analysewertnummern doppelt vergeben wurden. Falls ja, erhält man eine Warnung. |
+| Format Qualitätsmerkmal 14 | N2 | Hier legt man das Format für das Eingabefeld des Qualitätsmerkmales 14 fest |
+| Label Qualitätsmerkmal 14 | | Bezeichnung des Qualitätsfeldes Nummer 14. |
+| Analysewertnr. aus Waage Qualitätsmerkmal 14 | | Qualitätsmerkmal 14. Das Merkmal wird im Rohwarenbeleg als Analysewert angezeigt. Beim Öffnen der Waagenmaske findet eine Prüfung statt, ob Analysewertnummern doppelt vergeben wurden. Falls ja, erhält man eine Warnung. |
+| Format Qualitätsmerkmal 15 | N2 | Hier legt man das Format für das Eingabefeld des Qualitätsmerkmales 15 fest |
+| Label Qualitätsmerkmal 15 | | Bezeichnung des Qualitätsfeldes Nummer 15. |
+| Analysewertnr. aus Waage Qualitätsmerkmal 15 | | Qualitätsmerkmal 15. Das Merkmal wird im Rohwarenbeleg als Analysewert angezeigt. Beim Öffnen der Waagenmaske findet eine Prüfung statt, ob Analysewertnummern doppelt vergeben wurden. Falls ja, erhält man eine Warnung. |
+| Format Qualitätsmerkmal 16 | N2 | Hier legt man das Format für das Eingabefeld des Qualitätsmerkmales 16 fest |
+| Label Qualitätsmerkmal 16 | | Bezeichnung des Qualitätsfeldes Nummer 16. |
+| Analysewertnr. aus Waage Qualitätsmerkmal 16 | | Qualitätsmerkmal 16. Das Merkmal wird im Rohwarenbeleg als Analysewert angezeigt. Beim Öffnen der Waagenmaske findet eine Prüfung statt, ob Analysewertnummern doppelt vergeben wurden. Falls ja, erhält man eine Warnung. |
+| Format Qualitätsmerkmal 17 | N2 | Hier legt man das Format für das Eingabefeld des Qualitätsmerkmales 17 fest |
+| Label Qualitätsmerkmal 17 | | Bezeichnung des Qualitätsfeldes Nummer 17. |
+| Analysewertnr. aus Waage Qualitätsmerkmal 17 | | Qualitätsmerkmal 17. Das Merkmal wird im Rohwarenbeleg als Analysewert angezeigt. Beim Öffnen der Waagenmaske findet eine Prüfung statt, ob Analysewertnummern doppelt vergeben wurden. Falls ja, erhält man eine Warnung. |
+| Format Qualitätsmerkmal 18 | N2 | Hier legt man das Format für das Eingabefeld des Qualitätsmerkmales 18 fest |
+| Label Qualitätsmerkmal 18 | | Bezeichnung des Qualitätsfeldes Nummer 18. |
+| Analysewertnr. aus Waage Qualitätsmerkmal 18 | | Qualitätsmerkmal 18. Das Merkmal wird im Rohwarenbeleg als Analysewert angezeigt. Beim Öffnen der Waagenmaske findet eine Prüfung statt, ob Analysewertnummern doppelt vergeben wurden. Falls ja, erhält man eine Warnung. |
+| Format Qualitätsmerkmal 19 | N2 | Hier legt man das Format für das Eingabefeld des Qualitätsmerkmales 19 fest |
+| Label Qualitätsmerkmal 19 | | Bezeichnung des Qualitätsfeldes Nummer 19. |
+| Analysewertnr. aus Waage Qualitätsmerkmal 19 | | Qualitätsmerkmal 19. Das Merkmal wird im Rohwarenbeleg als Analysewert angezeigt. Beim Öffnen der Waagenmaske findet eine Prüfung statt, ob Analysewertnummern doppelt vergeben wurden. Falls ja, erhält man eine Warnung. |
+| Format Qualitätsmerkmal 2 | N2 | Hier legt man das Format für das Eingabefeld des Qualitätsmerkmales 2 fest |
+| Label Qualitätsmerkmal 2 | | Bezeichnung des Qualitätsfeldes Nummer 2. |
+| Analysewertnr. aus Waage Qualitätsmerkmal 2 | | Qualitätsmerkmal 2. Das Merkmal wird im Rohwarenbeleg als Analysewert angezeigt. Beim Öffnen der Waagenmaske findet eine Prüfung statt, ob Analysewertnummern doppelt vergeben wurden. Falls ja, erhält man eine Warnung. |
+| Format Qualitätsmerkmal 20 | N2 | Hier legt man das Format für das Eingabefeld des Qualitätsmerkmales 20 fest |
+| Label Qualitätsmerkmal 20 | | Bezeichnung des Qualitätsfeldes Nummer 20. |
+| Analysewertnr. aus Waage Qualitätsmerkmal 20 | | Qualitätsmerkmal 20. Das Merkmal wird im Rohwarenbeleg als Analysewert angezeigt. Beim Öffnen der Waagenmaske findet eine Prüfung statt, ob Analysewertnummern doppelt vergeben wurden. Falls ja, erhält man eine Warnung. |
+| Format Qualitätsmerkmal 3 | N2 | Hier legt man das Format für das Eingabefeld des Qualitätsmerkmales 3 fest |
+| Label Qualitätsmerkmal 3 | | Bezeichnung des Qualitätsfeldes Nummer 3. |
+| Analysewertnr. aus Waage Qualitätsmerkmal 3 | | Qualitätsmerkmal 3. Das Merkmal wird im Rohwarenbeleg als Analysewert angezeigt. Beim Öffnen der Waagenmaske findet eine Prüfung statt, ob Analysewertnummern doppelt vergeben wurden. Falls ja, erhält man eine Warnung. |
+| Format Qualitätsmerkmal 4 | N2 | Hier legt man das Format für das Eingabefeld des Qualitätsmerkmales 4 fest |
+| Label Qualitätsmerkmal 4 | | Bezeichnung des Qualitätsfeldes Nummer 4. |
+| Analysewertnr. aus Waage Qualitätsmerkmal 4 | | Qualitätsmerkmal 4. Das Merkmal wird im Rohwarenbeleg als Analysewert angezeigt. Beim Öffnen der Waagenmaske findet eine Prüfung statt, ob Analysewertnummern doppelt vergeben wurden. Falls ja, erhält man eine Warnung. |
+| Format Qualitätsmerkmal 5 | N2 | Hier legt man das Format für das Eingabefeld des Qualitätsmerkmales 5 fest |
+| Label Qualitätsmerkmal 5 | | Bezeichnung des Qualitätsfeldes Nummer 5. |
+| Analysewertnr. aus Waage Qualitätsmerkmal 5 | | Qualitätsmerkmal 5. Das Merkmal wird im Rohwarenbeleg als Analysewert angezeigt. Beim Öffnen der Waagenmaske findet eine Prüfung statt, ob Analysewertnummern doppelt vergeben wurden. Falls ja, erhält man eine Warnung. |
+| Format Qualitätsmerkmal 6 | N2 | Hier legt man das Format für das Eingabefeld des Qualitätsmerkmales 6 fest |
+| Label Qualitätsmerkmal 6 | | Bezeichnung des Qualitätsfeldes Nummer 6. |
+| Analysewertnr. aus Waage Qualitätsmerkmal 6 | | Qualitätsmerkmal 6. Das Merkmal wird im Rohwarenbeleg als Analysewert angezeigt. Beim Öffnen der Waagenmaske findet eine Prüfung statt, ob Analysewertnummern doppelt vergeben wurden. Falls ja, erhält man eine Warnung. |
+| Format Qualitätsmerkmal 7 | N2 | Hier legt man das Format für das Eingabefeld des Qualitätsmerkmales 7 fest |
+| Label Qualitätsmerkmal 7 | | Bezeichnung des Qualitätsfeldes Nummer 7. |
+| Analysewertnr. aus Waage Qualitätsmerkmal 7 | | Qualitätsmerkmal 7. Das Merkmal wird im Rohwarenbeleg als Analysewert angezeigt. Beim Öffnen der Waagenmaske findet eine Prüfung statt, ob Analysewertnummern doppelt vergeben wurden. Falls ja, erhält man eine Warnung. |
+| Format Qualitätsmerkmal 8 | N2 | Hier legt man das Format für das Eingabefeld des Qualitätsmerkmales 8 fest |
+| Label Qualitätsmerkmal 8 | | Bezeichnung des Qualitätsfeldes Nummer 8. |
+| Analysewertnr. aus Waage Qualitätsmerkmal 8 | | Qualitätsmerkmal 8. Das Merkmal wird im Rohwarenbeleg als Analysewert angezeigt. Beim Öffnen der Waagenmaske findet eine Prüfung statt, ob Analysewertnummern doppelt vergeben wurden. Falls ja, erhält man eine Warnung. |
+| Format Qualitätsmerkmal 9 | N2 | Hier legt man das Format für das Eingabefeld des Qualitätsmerkmales 9 fest |
+| Label Qualitätsmerkmal 9 | | Bezeichnung des Qualitätsfeldes Nummer 9. |
+| Analysewertnr. aus Waage Qualitätsmerkmal 9 | | Qualitätsmerkmal 9. Das Merkmal wird im Rohwarenbeleg als Analysewert angezeigt. Beim Öffnen der Waagenmaske findet eine Prüfung statt, ob Analysewertnummern doppelt vergeben wurden. Falls ja, erhält man eine Warnung. |
+| Prozentzahl der Menge bei deren Unterschreiten Auftrag Storno/Ausbuchung | \-100.00 | Entscheidet man sich beim Einrichterparameter **Teildisposition/Vorgangskopie aus Auftrag** oder in der Vorlage für Vorgangskopie, dann wird dieser Parameter wirksam und bestimmt die Größe der Restmenge ab der ein Auftrag, von dem die Wiegung abgebucht wurde, storniert (das bedeutet er verschwindet aus dem System; es kann in keiner Form mehr auf ihn zugegriffen werden.) oder ausgebucht wird.  
+Dieser Einrichterparameter ist interessant für den Fall , dass man die Abfrage nicht aktiviert hat. Hier kann man dann festlegen, ab welcher prozentualen Restmengengröße ein Auftrag immer storniert/ausgebucht werden soll.  
+Gibt man eine negative Prozentzahl an, dann wird der Auftrag nie storniert/ausgebucht.’ |
+| Belegerzeugung bei einer Lohnwiegung in Abhängigkeit der Rohwarenunterklasse | Nein | Es ist wurde ein neuer EPA zur Waage hinzugefügt Belegerzeugung bei einer Lohnwiegung in Abhängigkeit der Rohwarenunterklasse“. Steht der EPA auf Ja so kann nur ein Rohwarenbeleg bei einer Lohnwiegung erzeugt werden, wenn explizit die Unterklasse 9999 in der Waagenvorlage angegeben wird. Steht der EPA auf Nein, so kann der Rohwarenbeleg trotzdem erzeugt werden. |
+| Sorte anschalten | Nein | |
+| Soll eingetragene Spedition gespeichert werden. | Mit Abfrage | |
+| Abfrage ob Auftrag storniert/ausgebucht werden soll | Ja | Entscheidet man sich beim Einrichterparameter **Teildisposition/Vorgangskopie aus Auftrag** oder in der Vorlage für Vorgangskopie, dann wird dieser Parameter wirksam.  
+Wenn er auf Ja steht, dann kommt eine Abfrage, ob man den Auftrag stornieren/ausbuchen möchte. Was genau bei Antwort Ja auf diese Frage passiert, entscheidet der Einrichterparameter ‚**Sollen die Aufträge komplett storniert werden (sonst ausbuchen)?**’. Beantwortet man die Abfrage mit Nein, bleibt der Auftrag mit der entsprechenden Restmenge im System stehen.  
+Mit Nein deaktiviert man diese Abfrage.  
+Dann entscheidet der Einrichterparameter **‚Vorgangskopie:Prozentzahl der Menge bei deren Unterschreiten Auftrag Storno’** ob storniert/ausgebucht werden soll, oder ob der Auftrag mit einer entsprechenden Restmenge erhalten bleibt. Ist die Restmenge kleiner als der angegebene Grenzwert, dann entscheidet der Einrichterparameter ‚**Sollen die Aufträge komplett storniert werden (sonst ausbuchen)?**’ ob storniert oder ausgebucht wird. |
+| Teildisposition/Vorgangskopie aus Auftrag | Nein | Man kann wählen zwischen Nein, Teildispo und Vorgangskopie.  
+Man sollte sich für die neuere Alternative der Vorgangskopie entscheiden  
+Wählt man nicht Nein, dann kann man auf dem Feld Kunde einen Auftrag mit F3 wählen, für den die Daten dann in die Waagemaske übernommen werden. Welche Auswahl man mit F3 erhält, wird über den EPA Itembox für Teildispo aus Auftrag festgelegt.  
+Wird jetzt z.B. eine Teilmenge eines Auftrages gewogen, dann wird die Menge im Auftrag dementsprechend angepasst. |
+| Itembox für Teildispo/Vorgangskopie aus Auftrag | IB_KU_MIT_AUFTRAG_WAAGE | Hier kann man festlegen, welche Auswahl erscheinen soll, wenn man auf dem Feld Kunde F3 drückt. Ist nur wirksam, wenn der EPA Teildisposition/Vorgangskopie aus Auftrag nicht auf Nein steht. |
+| Vermehrungsanlieferung | Nein | Die Auswahl mit F3 beim Kunden ist die Auswahl ‚Kundenauswahl im Vertrag’, wenn dieser EPA auf Ja gesetzt wird. Die Artikelauswahl wird deaktiviert. Man wählt über das Feld Sorte aus. |
+| Bei Verwendung mehrerer Waagen: Wechsel des Profils möglich | Nein | Obsolet wird jetzt im [Wiegeprozess](../../waagenanbindung/waagenanbindung_online_waage/prozess_einrichten/index.md) auf der Registerkarte [Bildschirm](../../waagenanbindung/waagenanbindung_online_waage/prozess_einrichten/registerkarte_bildschirm.md) im Feld Terminalverhalten gepflegt. |
+| Lagerumbuchung ME Nummer des Einkaufs anstatt der ME Nummer des Profils ziehen | Nein | Wenn der Einrichter auf ja gestellt wird, dann wird die Mengeneinheitsnummer des Artikels gezogen |
+| Soll eine Meldung erscheinen wenn die Auftragsposition überbucht wird. | Nein | Wenn dieser Einrichterparameter auf Ja gestellt wird, so entscheidet der Anwender ob die Position überbucht, aufgeteilt oder abgebrochen werden soll. Wird der Einrichterparameter auf Nein gestellt, so kommt die Abfrage nicht und die Einstellung des Einrichterparameters (Verhalten bei größer gewogener Menge als Positionsmenge) greift. |
+| Verhalten bei größer gewogener Menge als Positionsmenge. | Aufteilen | Hier kann Eingestellt werden wie die Vorgangserzeugung reagieren soll wenn eine Position überwerden soll. |
+| Ab wie viel Menge gilt einen Position als Überbucht. | 10,00 % | |
+| Beim Abschließen einer Wiegung muss ein Ladeträger eingegeben werden. | Nein | Eine Wiegung kann erst abgeschlossen werden wenn ein Ladeträger eingegeben worden ist. |
+| Soll die zweite Registerkarte ausgeblendet werden? | Nein | Mit dieser Einstellung kann die zweite Registerkarte ausgeblendet werden. |
+| Kontraktzuordnung beim Wiegen gegen einem Vorgang wenn nicht explizit angegeben | Ja | Mit diesem Einrichterparameter kann eingestellt werden, ob bei der Wiegung gegen ein Auftrag in dem daraus resultierenden Lieferschein oder Rechnung ein Kontrakt zu geordnet werden soll. Obwohl dem Auftrag kein Kontrakt zugeordnet worden ist. Der Einrichterparameter „[Kontrakt bei Vorgang verwenden auch wenn nicht ausdrücklich angegeben](./online_waage_epa_owaage.md#WAAGE_KONTRAKT_BEI_VORGANG)“ wurde an dieser Stelle nicht ausgewertet. Steht dieser Einrichterparameter auf ja, so wird das bisherige Verhalten nicht verändert. |
+| Keine Automatische Kontraktzuordnung mehr, trotz gesetztem EPA „Kontrakt bei Vorgang verwenden | Nein | Mit diesem Einrichterparameter kann eingestellt werden, ob bei der Erstellung eines Vorganges aus der Waage heraus die automatische Kontraktfindung ausgeschaltet wird. Der Einrichterparameter „[Kontrakt bei Vorgang verwenden …](./online_waage_epa_owaage.md#WAAGE_KONTRAKT_BEI_VORGANG)“ hat die automatische Kontraktfindung ausgestellt: Wurde der Vorgang mit einem Kontroll- oder Nachlaufmakro auf Positionsebene bearbeitet, so konnte es passieren, das die automatische Kontraktfindung wieder angestoßen wurde. Steht der Einrichterparameter auf „Nein“, so bleibt das bisherige Verhalten bestehen. |
+| Soll die Registerkarte Qualitäten ausgeblendet werden | Ja | Mit diesem Einrichterparameter kann eingestellt werden, ob die Registerkarte Qualitäten angezeigt werden soll. Alle Qualitätsfelder 1 bis 20 wurden auf diese Registerkarte verschoben. Bei vorhandenen Waageninstallationen sollten die Qualitätsfelder nicht auf dieser Registerkarte angezeigt werden, sondern an Ihrer ursprünglichen Position.  
+Bei Neuinstallationen von Waagen im Zusammenhang mit Rohware und Qualitäten muss dieser Einrichterparameter auf Ja gestellt werden. |
+| Quartalsabschluss auch nach Abschluss zulassen | Nein | Mit diesem Einrichterparameter kann eingestellt werden, ob nach Abschluss der Wiegung die Qualitäten nachgetragen werden soll |
+| Alternativprozedur zur Speicherung der Qualitäten | | Hier kann eine Prozedur hinterlegt werden, die beim Erzeugen des Rohwarenbeleges das Eintragen der Qualitäten übernimmt. |
+| Alternativartikel im Kontrakt zulassen | Nein | Mit diesem Einrichterparameter kann eingestellt werden, ob das Artikelfeld nach der Kontrakteingabe entsperrt wird. Dann kann im Feld Artikel ein neuer Artikel hinterlegt werden, welcher beim Speichern der Wiegedaten dann an den Kontrakt angefügt wird. |
+| Kontrakt-Mengeneinheitsnummer | 1 | Die Kontraktmengeneinheit |
+| Kontraktmengentyp als Bruttomengenkontrakt. | Nein | |

@@ -1,0 +1,27 @@
+# Periodenerfolgsauswertung
+
+<!-- source: https://amic.de/hilfe/periodenerfolgsauswertung.htm -->
+
+Periodenerfolgsauswertungen gibt es in unterschiedlichen Sortierungen und Gruppierungen.
+
+Die Erfolgsauswertungen liefern das Betriebsergebnis für ein Wirtschaftsjahr, das bis zu einer vorgegebenen Periode aufgelaufen ist. Es bedient sich ausschließlich fakturierter Summen.
+
+Man macht sich schnell klar, dass hinsichtlich der Umsätze das Ergebnis nur endgültig ist, wenn man ausschließlich abgeschlossene Buchungsperioden betrachtet. Die Einschätzung des ausgewiesenen Rohgewinns ist zusätzlich von der gewählten Methode zur Bestandsbewertung abhängig. Die von AMIC empfohlenen Methoden (s.o.) stellen sicher, dass sich Betriebsergebnisse für abgeschlossene Perioden nicht mehr dynamisch ändern können. Das gilt übrigens auch für den durchschnittlichen Jahreseinkaufspreis, der passend konstruiert ist und ebenfalls stets den Durchschnitt bis zu einer vorzugebenden Periode liefert. Im Gegensatz dazu würde das übliche empirische Mittel über alle Einkäufe eines Wirtschaftsjahres auch Aussagen über den Rohgewinn bereits abgeschlossener Perioden dynamisch verändern.
+
+Die Aussagekraft des ausgewiesenen Rohgewinns hängt überdies von weiteren Faktoren ab:
+
+| Faktor | Beschreibung |
+| --- | --- |
+| Zeitnah | Je nach der gewählten Bewertungsmethode spielt es eine mehr oder weniger starke Rolle, ob alle Warenbewegungen gemäß ihrem Lieferdatum erfasst werden. Denn nur die Lieferchronologie kann das Maß sein, die Entwicklung einer Bestandsbewertung fortzuschreiben. Wichtig in diesem Zusammenhang ist auch, dass die dem Lieferdatum entsprechenden Wirtschaftsperioden auch bebuchbar sind. Zu späte Periodeneröffnung und zu früher Abschluss (bzw. Buchungsschluss) können hinderlich sein. Die Zeitnähe muss sich auch etwa in der Erfassung von Frachtrechnungen niederschlagen. Sorgfalt bei der Erfassung unterstützt durch entsprechende organisatorische Maßnahmen ist also gefragt. |
+| Bewertungsmethode | Welcher Artikel ist mit welcher Methode zu bewerten? In der Tat wird man das je Artikel zu entscheiden haben. Es kann je nach Umfang der Lagerhaltung unzweckmäßig, eine starken Preisschwankungen unterliegende Ware mit dem gewogenen Einkaufspreis zu bewerten. Umgekehrt empfiehlt es sich z.B., von der Sache her zeitnahe Bewertungen zu verwenden, wenn Ware einer starken (saisonalen) Preistendenz unterliegt. In der Tat verlangt A.eins nicht die generelle Festlegung auf ein Bewertungsverfahren, sondern eröffnet die Möglichkeit der Artikel-spezifischen Bewertung. |
+| Vergütungen | Eine wichtige Frage ist die Behandlung periodenfremder Vergütungen wie etwa Jahresvergütungen eines Herstellers. Hier wird es in aller Regel nicht möglich sein, eine Zeitnähe zur Lieferung der Ware herzustellen. Man hat die Alternative, derartige Vergütungen von vornherein auf Sonderkonten zu buchen, um eine Verfälschung der Bestandsbewertung mit der Erfassung dieses Beleges zu verhindern. Andererseits möchte man möglicherweise ausdrücklich, dass sich diese Vergütung direkt im Rohgewinn niederschlägt. In welcher Form sich die Vergütung in der Bestandsbewertung ausdrückt, hängt dann wiederum von der gewählten Bewertungsmethode ab: bewertet man mit dem Durchschnittspreis, so „verteilt“ man die Vergütung auf die vorangehenden Perioden des Wirtschaftsjahres. Man erhält einen „realistischen“ Bewertungspreis bis zu der betreffenden Periode, in der die Vergütung gebucht wird. Die Bewertungen der Vorperioden verändern sich nicht. Bewertet man im Vergleich dazu mit dem gewogenen Einkaufspreis, so schlägt sich die ganze Vergütung direkt im aktuellen Bestand nieder. Der scheinbar „unglaubwürdige“ Bewertungspreis relativiert sich erst in der Folge wieder durch Abverkauf der Lagerware und durch erneute Mischpreisbildungen der folgenden Einkäufe. Beide hier verglichenen Verfahren liefern ordnungsgemäße Ergebnisse, setzen jedoch eine gewisse Erfahrung mit der Lesart der Auswertungen voraus. Vielfach versucht man, diese Probleme mit nicht Schnittpreis-gebundenen Bewertungsverfahren zu umgehen, wie etwa mit dem letzten Einkaufspreis. Zwar drückt sich dann die Vergütung als 100% Rohgewinn aus, nur eine Umbewertung der Ware erfolgt nicht.  
+   
+Analog zu betrachten sind Naturalrabatte von Lieferanten, die sich auf die Bestandsbewertung entsprechend auswirken.  
+   
+Vergütungen und Naturalrabatte, die Kunden gewährt werden, wirken sich naturgemäß nicht auf die Bestandsbewertung aus, wohl aber rohertragsmindernd. Insbesondere Jahresvergütungen müssen in der Lesart der Statistik berücksichtigt werden. |
+
+A.eins bietet also die Methoden für eine flexible und genaue Analyse der Rohgewinne. Eine sorgfältige Festlegung der Bewertungskriterien und eine geeignete Organisation von Belegerfassung und Buchungsperioden sind allerdings Voraussetzung.
+
+Hinweis zur Spalte Vortrag:
+
+Die Spalte zeigt den Inventurbestand einer eingespielten Jahreswechselinventur. In der Spalte „Wert vor Inventur“ wird der Vorjahresendbestand vor Inventur ausgewiesen, so dass aus dieser Auswertung auch die Inventurdifferenz der Jahreswechselinventur hervorgeht. Erfolgt der Jahreswechsel ohne Inventur oder ist diese noch nicht eingespielt, wird als Vortrag der Vorjahresendbestand gezeigt, die Spalte „Wert vor Inventur“ bleibt frei. Zwischeninventuren (soweit eingespielt) werden nicht gesondert ausgewiesen, ihre Ergebnisse schlagen sich in der Spalte „Bestand“ nieder (i.a. bereits in fortgeschriebener Form).

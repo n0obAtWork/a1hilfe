@@ -1,0 +1,35 @@
+# Trennkriterien Umwandlung
+
+<!-- source: https://amic.de/hilfe/_steupa_TrennkriterienUmwandlung.htm -->
+
+<p class="siehe-auch">Siehe auch:</p>
+
+- [Rechnungstrennung durch Filialnummer(SPA 78)](./rechnungstrennung_durch_filialnummer_spa_78.md)
+- [Rechnungstrennung durch Zentralenummer(SPA 79)](./rechnungstrennung_durch_zentralenummer_spa_79.md)
+- [Rechnungstrennung durch Abteilung(SPA 80)](./rechnungstrennung_durch_abteilung_spa_80.md)
+- [Rechnungstrennung durch Unterabteilung(SPA 81)](./rechnungstrennung_durch_unterabteilung_spa_81.md)
+- [Rechnungstrennung durch Sprache(SPA 84)](./rechnungstrennung_durch_sprache_spa_84.md)
+- [Rechnungstrennung durch Steuergruppe(SPA 85)](./rechnungstrennung_durch_steuergruppe_spa_85.md)
+- [Rechnungstrennung durch Vertretergruppe(SPA 86)](./rechnungstrennung_durch_vertretergruppe_spa_86.md)
+- [Rechnungstrennung durch Verkaufsgebiet(SPA 87)](./rechnungstrennung_durch_verkaufsgebiet_spa_87.md)
+- [Rechnungstrennung durch Absendergebiet(SPA 88)](./rechnungstrennung_durch_absendergebiet_spa_88.md)
+- [Rechnungstrennung durch Empfängergebiet(SPA 89)](./rechnungstrennung_durch_empfaengergebiet_spa_89.md)
+- [Rechnungstrennung durch Versandart(SPA 90)](./rechnungstrennung_durch_versandart_spa_90.md)
+- [Rechnungstrennung durch Zahlungsart(SPA 91)](./rechnungstrennung_durch_zahlungsart_spa_91.md)
+- [Rechnungstrennung durch Versandadresse(SPA 92)](./rechnungstrennung_durch_versandadresse_spa_92.md)
+- [Rechnungstrennung durch Fakturiergruppe(SPA 93)](./rechnungstrennung_durch_fakturiergruppe_spa_93.md)
+- [Rechnungstrennung durch LKW (Motorwagen)(SPA 94)](./rechnungstrennung_durch_lkw_motorwagen_spa_94.md)
+- [Rechnungstrennung durch LKW (Anhänger)(SPA 95)](./rechnungstrennung_durch_lkw_anhaenger_spa_95.md)
+- [Rechnungstrennung durch Fahrernummer(SPA 96)](./rechnungstrennung_durch_fahrernummer_spa_96.md)
+- [Rechnungstrennung durch Zahlungsbed.(SPA 126)](./rechnungstrennung_durch_zahlungsbed_spa_126.md)
+- [Rechnungstrennung durch Währungskurs(SPA 169)](./rechnungstrennung_durch_waehrungskurs_spa_169.md)
+- [Rechnungstrennung durch Parität(SPA 181)](./rechnungstrennung_durch_paritaet_spa_181.md)
+- [Rechnungstrennung durch Objekt(SPA 218)](./rechnungstrennung_durch_objekt_spa_218.md)
+- [Rechnungstrennung durch Strecke(SPA 230)](./rechnungstrennung_durch_strecke_spa_230.md)
+- [Periode/Jahr bei Einzelumwandlung(SPA 552)](./periode_jahr_bei_einzelumwandlung_spa_552.md)
+- [Periode/Jahr bei Sammelumwandlung(SPA 553)](./periode_jahr_bei_sammelumwandlung_spa_553.md)
+- [Rechnungstrennung durch Zahlbednummer(SPA 568)](./rechnungstrennung_durch_zahlbednummer_spa_568.md)
+- [Ladeschein zu Lieferschein/Rechnung trennt nach Ursprungsbeleg (SPA 991)](./ladeschein_zu_lieferschein_rechnung_trennt_nach_ursprungsbel.md)
+- [Vorbelegung Trennung bei Eingangslieferschein zu Sammelrechnungs-Umwandlung (SPA 1123)](./vorbelegung_trennung_bei_eingangslieferschein_zu_sammelrechn.md)
+- [Vorbelegung Trennung bei Sammelumwandlung von Bestellungen zu Lieferscheinen SPA 1137)](./vorbelegung_trennung_bei_sammelumwandlung_von_bestellungen_z.md)
+- [Vorbelegung Trennung bei Sammelumwandlung von Bestellungen zu Eingangsrechnungen (SPA 1138)](./vorbelegung_trennung_bei_sammelumwandlung_von_bestellungen_z_2.md)

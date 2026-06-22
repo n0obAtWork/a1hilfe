@@ -1,0 +1,5 @@
+# Standardgebindefaktoren auf Artikelmaske (SPA 764)
+
+<!-- source: https://amic.de/hilfe/_SPA_764.htm -->
+
+Sind in der dem Artikelstamm eines Artikels zugeordneten Mengeneinheitsgruppe die Mengeneinheiten für Verkauf und Einkauf identisch und vom Typ Gebinde, so bewirkt die Einstellung ‚Ja‘ dieses Steuerparameters, dass die Gebinde-Faktoren jener Gebinde-Mengeneinheit auf der Artikel-Bearbeitungsmaske angezeigt und, in Abhängigkeit von der im Gebinde-Stamm eingestellten Herkunft der Faktoren, auch erfasst bzw. geändert werden können. Ist die Faktor-Herkunft mit ‚aus Mengeneinheit‘ angegeben, so können diese hier nicht geändert werden. Bei der Einstellung ‚aus Artikelstamm‘ ist eine Erfassung nur bei der Anlage eines neuen Artikelstammsatzes möglich. Bei eingestellter Variante ‚aus dem Artikel‘ können die Faktoren hier auch im Änderungs-Modus bearbeitet werden. Die hier angegeben Faktoren gelten dann für alle Bereiche (Einkauf, Verkauf und Lager) und werden entsprechend in den Relationen für Artikel-Gebinde-Faktoren bzw. Artikelstamm-Gebinde-Faktoren eingetragen.
