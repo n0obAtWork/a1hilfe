@@ -10,49 +10,27 @@ Globale Waagenparameter
 
 | **Feldname** | **Wert** |
 | --- | --- |
-| Liefernummer | 0. Aus Waage  
-1. Aus Nummernkreis(Standard) |
-| Lieferdatum | 0. Aus Waage (Standard)  
-1. Tagesdatum |
-| Sortennummer | 0. Aus Waage (Standard)  
-1. Default Waagensorte |
-| Lagernummer | 0. Aus Waage (Standard)  
-1. Aus Vorgangskonstanten (Standardlager des Bedieners) |
-| Lagerplatznummer | 0.Immer Lagerplatz 0 (Standard)  
-1. Aus Waage |
-| Filialnummer | 0. Aus Waage (Standard)  
-1. Aus Vorgangskonstanten (Filiale des Bedieners) |
-| Fakturiergruppe | 0. Entsprechend Sorte (Standard)  
-1. Aus Waage |
-| Vertretergruppe | 0. Entsprechend Sorte (Standard)  
-1. Aus Waage |
-| Versandart | 0. Entsprechend Sorte (Standard)  
-1. Aus Waage |
-| Verkaufsgebiet | 0. Entsprechend Sorte (Standard)  
-1. Aus Waage |
+| Liefernummer | 0. Aus Waage<br>1. Aus Nummernkreis(Standard) |
+| Lieferdatum | 0. Aus Waage (Standard)<br>1. Tagesdatum |
+| Sortennummer | 0. Aus Waage (Standard)<br>1. Default Waagensorte |
+| Lagernummer | 0. Aus Waage (Standard)<br>1. Aus Vorgangskonstanten (Standardlager des Bedieners) |
+| Lagerplatznummer | 0.Immer Lagerplatz 0 (Standard)<br>1. Aus Waage |
+| Filialnummer | 0. Aus Waage (Standard)<br>1. Aus Vorgangskonstanten (Filiale des Bedieners) |
+| Fakturiergruppe | 0. Entsprechend Sorte (Standard)<br>1. Aus Waage |
+| Vertretergruppe | 0. Entsprechend Sorte (Standard)<br>1. Aus Waage |
+| Versandart | 0. Entsprechend Sorte (Standard)<br>1. Aus Waage |
+| Verkaufsgebiet | 0. Entsprechend Sorte (Standard)<br>1. Aus Waage |
 
 Abrechnungsschema Waagenparameter
 
 | **Parametername** | **Einstellungsmöglichkeiten** |
 | --- | --- |
-| Kontrakt | 0. Ohne Kontrakt  
-1. Aus Waage  
-2. Automatische Kontraktfindung  
-3. Aus Waage, bei 0 automatische Kontraktzuordnung |
-| Partie | 0. Ohne Partie  
-1. Aus Waage  
-2. Automatische Partiezuordnung  
-3. Automatische Partieanlage |
+| Kontrakt | 0. Ohne Kontrakt<br>1. Aus Waage<br>2. Automatische Kontraktfindung<br>3. Aus Waage, bei 0 automatische Kontraktzuordnung |
+| Partie | 0. Ohne Partie<br>1. Aus Waage<br>2. Automatische Partiezuordnung<br>3. Automatische Partieanlage |
 | Einlagerungsabrechnungsschema | Abrechungsschema für die Einlagerung |
 | Kontraktlaufzeit Einlagerung in Tagen | Hier wird die Laufzeit des Einlagerungskontraktes in Tagen eingetragen |
 | Kontraktunterklasse Einlagerung | Kontraktunterklasse für die Anlage bei eines Einlagerungskontraktes |
-| Einlagerungs-Abrechnungs Verknüpfung | Hier wird die Abrechnungsart für den Rohwarenbeleg hinterlegt, welcher bei der Einlagerung angelegt wird.  
-0 (-) wenn 0 dann wird die 1 gewählt  
-1 Referenznummer  
-2 Erfassungsnummer  
-3 Abrechnungsnummer  
-4 Auswertungsnummer  
- |
+| Einlagerungs-Abrechnungs Verknüpfung | Hier wird die Abrechnungsart für den Rohwarenbeleg hinterlegt, welcher bei der Einlagerung angelegt wird.<br>0 (-) wenn 0 dann wird die 1 gewählt<br>1 Referenznummer<br>2 Erfassungsnummer<br>3 Abrechnungsnummer<br>4 Auswertungsnummer<br> |
 | Steuergruppe Einlagerung | Hier wird die Steuergruppe hinterlegt, welche bei der Erzeugung einer Rechnung in der Einlagerung gesetzt werden soll. |
 
 Rohwarenvorgang gegen eine Bestellung / einen Auftrag buchen

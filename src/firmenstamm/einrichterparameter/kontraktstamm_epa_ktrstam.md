@@ -6,19 +6,11 @@
 | --- | --- | --- |
 | Startreiter im Änderungsmodus | \-- | Hier kann die Registerkarte festgelegt werden, auf der man im Änderungsmodus steht. |
 | Vorbelegung, ob Artikel Zu-/Abschläge erlaubt sind | Nein | Hier kann die Vorbelegung für das Feld „Artikel-Zu-/Ab“ festgelegt werden. |
-| Vorbelegung Ausgangsrechnung oder Ausgangsgutschrift | Ausgangsrechnung | Dieser Einrichterparameter steht im Zusammenhang mit Einrichterparameter „[Umwandlung nach Fremdware/Fremdlager](./kontraktstamm_epa_ktrstam.md#epa_ktrstam_umwandlung_fremdware)“.  
-Mit diesem Parameter wird festgelegt, was für ein Beleg bei der Umwandlung von einem Verkaufskontrakt erzeugt wird. |
-| Vorbelegung Eingangsrechnung oder Eingangsgutschrift | Eingangsrechnung | Dieser Einrichterparameter steht im Zusammenhang mit Einrichterparameter „[Umwandlung nach Fremdware/Fremdlager](./kontraktstamm_epa_ktrstam.md#epa_ktrstam_umwandlung_fremdware)“.  
-Mit diesem Parameter wird festgelegt, was für ein Beleg bei der Umwandlung von einem Einkaufskontrakt erzeugt wird. |
+| Vorbelegung Ausgangsrechnung oder Ausgangsgutschrift | Ausgangsrechnung | Dieser Einrichterparameter steht im Zusammenhang mit Einrichterparameter „[Umwandlung nach Fremdware/Fremdlager](./kontraktstamm_epa_ktrstam.md#epa_ktrstam_umwandlung_fremdware)“.<br>Mit diesem Parameter wird festgelegt, was für ein Beleg bei der Umwandlung von einem Verkaufskontrakt erzeugt wird. |
+| Vorbelegung Eingangsrechnung oder Eingangsgutschrift | Eingangsrechnung | Dieser Einrichterparameter steht im Zusammenhang mit Einrichterparameter „[Umwandlung nach Fremdware/Fremdlager](./kontraktstamm_epa_ktrstam.md#epa_ktrstam_umwandlung_fremdware)“.<br>Mit diesem Parameter wird festgelegt, was für ein Beleg bei der Umwandlung von einem Einkaufskontrakt erzeugt wird. |
 | Vorbelegung für die Abbuchungsmengen bei Rohwarekontrakten | \--- | Hier kann die Vorbelegung für das Feld Abbuchungsmenge angegeben werden. Bei 0 (---) wird der Standardwert „Netto“ verwendet. |
 | Bausteine im Korrekturmodus automatisch auflösen? | Nein | |
-| Name der Funktion für die Bezeichnung | | Hier kann eine Funktion hinterlegt werden, in der die Bezeichnung des Kontraktes geändert werden kann.  
-Übergabeparameter sind  
-\- Kontraktklasse  
-\- Kontraktunterklasse  
-\- Kundennummer  
-\- Kontraktnummer  
-\- Kontrakt ID |
+| Name der Funktion für die Bezeichnung | | Hier kann eine Funktion hinterlegt werden, in der die Bezeichnung des Kontraktes geändert werden kann.<br>Übergabeparameter sind<br>\- Kontraktklasse<br>\- Kontraktunterklasse<br>\- Kundennummer<br>\- Kontraktnummer<br>\- Kontrakt ID |
 | Sollen die Kontraktdatumfelder auf dem Reiter Konditionen angezeigt werden? | Nein | Hiermit kann festgelegt werde auf welcher Registerkarte sich die Kontraktdatumsfelder befinden. |
 | Dispokennzeichen Feldstatus | aktiv | |
 | Benutzer des Hedgeaccounts | TESTACC | Wird benötigt für VAX |

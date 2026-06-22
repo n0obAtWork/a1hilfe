@@ -31,8 +31,7 @@ Makro-Programme mit dem „Scriptbesitzer“ 0 (=AMIC) werden ausgeliefert.
 
 | Funktionen | |
 | --- | --- |
-| ***Filter / bereichsauswahl***  
-***F2*** | |
+| ***Filter / bereichsauswahl***<br>***F2*** | |
 | **bearb./ausführen F5** | Ruft Pflege-Dialog für ein bestehendes Makro auf. |
 | **Neu F8** | Ruft Pflege-Dialog für ein neu zu erfassendes Makro auf |
 | **Script Export** | Exportiert ein Makro in eine vorgebbare Sql-Datei. |

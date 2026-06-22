@@ -30,8 +30,7 @@ UFLD-Felder, die für die Vorerfassungsdaten-Übernahme von Bedeutung sind:
 | 1774 | Bemerktext4 | Wird als **Bemerktext4** bei Vorerfassungs-Übernahme übernommen, ist aber nur bei Druck des Zielbelegs sichtbar |
 | 1775 | Bemerktext5 | Wird als **Bemerktext5** bei Vorerfassungs-Übernahme übernommen, ist aber nur bei Druck des Zielbelegs sichtbar |
 | 1034 | VersandartId | Wird bei Vorerfassungs-Übernahme übernommen |
-|   
- | | |
+| <br> | | |
 
 Die Ware wird im **Positionsteil [F5]** des Belegs mit der Funktion **Artikel [F4**] durch Angabe von **Lagernummer, Artikelnummer, Lagerplatz, Menge und Mengeneinheit** erfasst.
 

@@ -34,7 +34,6 @@ Datentabelle mit den Verbindungsparametern
 | DB-Server | Datenbankserver |
 | Datenbank | Name der Datenbank |
 | Commlinks | Hier muss **tcpip** eingetragen werden |
-| Extras | Verbindungsspezifische Parameter wie z.B. idle=60;lto=30;  
-Werden immer mit einem „;“ abgetrennt |
+| Extras | Verbindungsspezifische Parameter wie z.B. idle=60;lto=30;<br>Werden immer mit einem „;“ abgetrennt |
 | Logische IP-Adresse | In diesem Feld kann eine X Beliebige Bezeichnung oder IP-Adresse eingetragen werden. Diese wird bei der Kommunikation mit der Datenbank benutzt um die erfassten Daten zu einem Scanner zuzuordnen zu können und zum Auslesen der Steuerparameter die für diesen Scanner gelten soll, da diese pro Scanner zum eingerichtet werden. Wird in diesem Feld keine Adresse oder Bezeichnung eingetragen, so wird die Hardware IP-Adresse des Scanners benutzt. Wird der Scanner an verschiedenen Standorten benutzt, so lohnt es sich hier ein Wert einzutragen, da dann die Steuerparameter für diesen Scanner nur einmal eingerichtet werden müssen. |
 | Connectionstring | Wird in diesem Feld ein Connectionstring eingetragen, so wird dieser benutzt um die Verbindung zum A.eins System herzustellen. |

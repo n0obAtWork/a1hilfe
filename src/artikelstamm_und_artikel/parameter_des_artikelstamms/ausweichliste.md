@@ -6,8 +6,7 @@ In der Auswahlliste werden Alternativartikel rein informatorisch zu diesem Artik
 
 | Feld | Beschreibung |
 | --- | --- |
-| Priorität | Nicht weiter spezifizierbar.  
-Wird befüllt mit der Itembox IB_FS_AF_LVSAKTTYP. |
+| Priorität | Nicht weiter spezifizierbar.<br>Wird befüllt mit der Itembox IB_FS_AF_LVSAKTTYP. |
 | Bezeichnung (Priorität) | Zugehörige Bezeichnung der Priorität. |
 | Artikelnummer | Nummer des Artikels. |
 | Bezeichnung (Artikel) | Bezeichnung des Artikels. |

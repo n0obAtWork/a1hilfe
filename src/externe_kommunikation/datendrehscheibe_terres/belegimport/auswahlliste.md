@@ -17,9 +17,7 @@ Aeins-Art.
 | --- | --- |
 | ![\*](../../../ImagesExt/image8_1556.jpg "*") Rot | ![\*](../../../ImagesExt/image8_1556.jpg "*") Der Artikel ist A.eins Pool nicht vorhanden |
 | ![\*](../../../ImagesExt/image8_1556.jpg "*") Gelb | ![\*](../../../ImagesExt/image8_1556.jpg "*") Der Artikel ist nicht auf dem A.eins Lager vorhanden. |
-| ![\*](../../../ImagesExt/image8_1556.jpg "*") Weiß | 1. Der Artikel ist auf dem Lager vorhanden.  
-2. Der Terres Artikel ist nicht im A.eins Artikelpool(Gruppenartikel) vorhanden wurde aber in diverse A.eins Artikel aufgeteilt.  
-3. Der Artikel ist im A.eins Artikelpool oder nicht vorhanden wurde aber einem andern Artikel zugeordnet. |
+| ![\*](../../../ImagesExt/image8_1556.jpg "*") Weiß | 1. Der Artikel ist auf dem Lager vorhanden.<br>2. Der Terres Artikel ist nicht im A.eins Artikelpool(Gruppenartikel) vorhanden wurde aber in diverse A.eins Artikel aufgeteilt.<br>3. Der Artikel ist im A.eins Artikelpool oder nicht vorhanden wurde aber einem andern Artikel zugeordnet. |
 
 A.eins Lager
 

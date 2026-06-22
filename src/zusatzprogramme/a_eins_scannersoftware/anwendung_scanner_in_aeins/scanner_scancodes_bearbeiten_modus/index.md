@@ -39,10 +39,8 @@ Registerkarte AI Zuordnung
 | 1 | EAN Nummer der Handelseinheit | 1 | Inventur-Start | Nein |
 | 2 | EAN der Verpackung | 1 | Inventur-Start | Nein |
 | 10 | Charge/Partie | 3 | Inventur-Start | Nein |
-| 30 | Menge in Stück  
-(EAN128) | 2 | Inventur-Start | Nein |
-| 37 | Menge in Stück  
-(EAN128) | 2 | Inventur-Start | Nein |
+| 30 | Menge in Stück<br>(EAN128) | 2 | Inventur-Start | Nein |
+| 37 | Menge in Stück<br>(EAN128) | 2 | Inventur-Start | Nein |
 | 3101 | Nettogewicht in Kilogramm (EAN128) | 2 | Inventur-Start | Nein |
 | 3102 | Nettogewicht in Kilogramm (EAN128) | 2 | Inventur-Start | Nein |
 | 3103 | Nettogewicht in Kilogramm (EAN128) | 2 | Inventur-Start | Nein |

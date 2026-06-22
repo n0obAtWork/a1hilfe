@@ -45,6 +45,5 @@ Folgende Parameter werden erwartet.
 
 | Parameter | Bedeutung des Rückgabewertes |
 | --- | --- |
-| Fehler | 0. Das Kreditlimit stimmt die Wiegung kann weiter durchgeführt werden  
-1. Das Kreditlimit ist überschritten und es soll die Meldung angezeigt werden |
+| Fehler | 0. Das Kreditlimit stimmt die Wiegung kann weiter durchgeführt werden<br>1. Das Kreditlimit ist überschritten und es soll die Meldung angezeigt werden |
 | Fehlertext | Meldungstext der auf dem Bildschirm ausgegeben werden soll. |

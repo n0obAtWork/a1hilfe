@@ -10,50 +10,18 @@ Anwendung:
 
 | | |
 | --- | --- |
-| (F3) Arbeitsverzeichnis  
-(F3) Dateinamenserweiterung  
-(F3) Zuletzt verwendete Datei | Diese Einstellungen beziehen sich auf die Dialogmaske, die man über die Funktion ***SQL ausführen*** **F3** erreicht. |
-| (F9) Arbeitsverzeichnis  
-(F9) Datei  
-(F9) Dateinamenserweiterung | Diese Einstellungen beziehen sich auf die Dialogmaske, die man über die Funktionen ***Sichern Eingabe*** **SCF9,** ***Ausführen Statement*** **CF9** und ***Editieren Statement*** **SF9** erreicht. |
-| Ausgabedatei | Dieser Dateiname wird dort als Vorbelegung verwendet, wo OSQL Daten in eine Datei schreiben soll.  
- |
-| Bei TAB Tabellennamen ergänzen  
- | Es wird, wenn man die TAB-Taste drückt, der nächste Tabellenname – bei Shift-TAB der vorherige – ergänzt.  
-Beispiel:  
-   
-Ergibt  
-   
-Beim erneuten drücken von Tab  
-   
- |
-| Dateityp …. | Die Dateitypen, die in den Dateiauswahldialogen angeboten werden sollen. Der Syntax dazu ist wie folgt:  
-("Text", "Suchkriterium")  
-Wobei der Text die Beschreibung enthält, wie z.B. „SQL-Skript (\*.SQL)“. Der gesamte Test müsste folgendermaßen lauten:  
-(SQL-Skript (\*.SQL)“, „\*.sql“)  
- |
-| Trotz Fehler Skripte weiter ausführen  
- | Im Normalfall werden SQL-Skripte trotz Fehler weiter ausgeführt. Trägt man hier FALSE ein, so wird die Ausführung des Skripts sofort beendet. |
-| Fehlermeldungen  
- | Man kann OSQL dazu bringen, dass keine Fehlermeldungen angezeigt werden. Dazu trägt man hier den Wert FALSE ein. |
-| Warnungen anzeigen  
- | Sybase unterscheidet zwischen Fehlern und Warnungen. Warnungen der Datenbank werden von A.eins im Normalfall nicht ausgegeben. Unter OSQL werden Warnungen jedoch angezeigt (TRUE). Stellt man hier FALSE ein, so verhält sich OSQL wie der Rest des Programms.  
- |
-| Spaltentitel  
- | TRUE => Es wird immer der gesamte Spaltentitel angezeigt und die Spalte ggf. verbreitert.  
-FALSE => Die Spalte wird in der Standardbreite des Feldes angezeigt. Will man hier den kompletten Spaltentitel sehen, kann man auf den Titel klicken und die Spalte wird dann ggf. verbreitert.  
- |
-| Vollbild (ZOOM) | Hiermit wird voreingestellt, ob die Maske den gesamten Bildschirm ausfüllt (TRUE) oder nur einen Teil des Bildschirms(FALSE)  
- |
-| Max. Zeilen  
-(0=Bildschirm füllen,  
-\-1=alles Lesen)  
- | Hier existieren zwei Modi:  
-0 Es wird immer nur der Bildschirm gefüllt. Wenn man mehr Daten haben will, so muss man mit den Blättern-Tasten „Bild rauf“ und „Bild runter“ weiterblättern. Man erkennt, ob man alle Daten gelesen hat, an der Statuszeile. Dort steht dann „Gelesene Datensätze 99999“.  
-\-1 Es werden alle Daten geladen. Während der Ladephase kann bereits das nächste Stamement erfasst werden. Sobald eine Funktion aufgerufen wird, bricht das laden ab.  
- |
-| Max. Spalten (bis 200). | Anzahl der Spalten die angezeigt werden. Wenn nicht bereits anders eingestellt, wird hier 49 vorgeschlagen.  
- |
+| (F3) Arbeitsverzeichnis<br>(F3) Dateinamenserweiterung<br>(F3) Zuletzt verwendete Datei | Diese Einstellungen beziehen sich auf die Dialogmaske, die man über die Funktion ***SQL ausführen*** **F3** erreicht. |
+| (F9) Arbeitsverzeichnis<br>(F9) Datei<br>(F9) Dateinamenserweiterung | Diese Einstellungen beziehen sich auf die Dialogmaske, die man über die Funktionen ***Sichern Eingabe*** **SCF9,** ***Ausführen Statement*** **CF9** und ***Editieren Statement*** **SF9** erreicht. |
+| Ausgabedatei | Dieser Dateiname wird dort als Vorbelegung verwendet, wo OSQL Daten in eine Datei schreiben soll.<br> |
+| Bei TAB Tabellennamen ergänzen<br> | Es wird, wenn man die TAB-Taste drückt, der nächste Tabellenname – bei Shift-TAB der vorherige – ergänzt.<br>Beispiel:<br> <br>Ergibt<br> <br>Beim erneuten drücken von Tab<br> <br> |
+| Dateityp …. | Die Dateitypen, die in den Dateiauswahldialogen angeboten werden sollen. Der Syntax dazu ist wie folgt:<br>("Text", "Suchkriterium")<br>Wobei der Text die Beschreibung enthält, wie z.B. „SQL-Skript (\*.SQL)“. Der gesamte Test müsste folgendermaßen lauten:<br>(SQL-Skript (\*.SQL)“, „\*.sql“)<br> |
+| Trotz Fehler Skripte weiter ausführen<br> | Im Normalfall werden SQL-Skripte trotz Fehler weiter ausgeführt. Trägt man hier FALSE ein, so wird die Ausführung des Skripts sofort beendet. |
+| Fehlermeldungen<br> | Man kann OSQL dazu bringen, dass keine Fehlermeldungen angezeigt werden. Dazu trägt man hier den Wert FALSE ein. |
+| Warnungen anzeigen<br> | Sybase unterscheidet zwischen Fehlern und Warnungen. Warnungen der Datenbank werden von A.eins im Normalfall nicht ausgegeben. Unter OSQL werden Warnungen jedoch angezeigt (TRUE). Stellt man hier FALSE ein, so verhält sich OSQL wie der Rest des Programms.<br> |
+| Spaltentitel<br> | TRUE => Es wird immer der gesamte Spaltentitel angezeigt und die Spalte ggf. verbreitert.<br>FALSE => Die Spalte wird in der Standardbreite des Feldes angezeigt. Will man hier den kompletten Spaltentitel sehen, kann man auf den Titel klicken und die Spalte wird dann ggf. verbreitert.<br> |
+| Vollbild (ZOOM) | Hiermit wird voreingestellt, ob die Maske den gesamten Bildschirm ausfüllt (TRUE) oder nur einen Teil des Bildschirms(FALSE)<br> |
+| Max. Zeilen<br>(0=Bildschirm füllen,<br>\-1=alles Lesen)<br> | Hier existieren zwei Modi:<br>0 Es wird immer nur der Bildschirm gefüllt. Wenn man mehr Daten haben will, so muss man mit den Blättern-Tasten „Bild rauf“ und „Bild runter“ weiterblättern. Man erkennt, ob man alle Daten gelesen hat, an der Statuszeile. Dort steht dann „Gelesene Datensätze 99999“.<br>\-1 Es werden alle Daten geladen. Während der Ladephase kann bereits das nächste Stamement erfasst werden. Sobald eine Funktion aufgerufen wird, bricht das laden ab.<br> |
+| Max. Spalten (bis 200). | Anzahl der Spalten die angezeigt werden. Wenn nicht bereits anders eingestellt, wird hier 49 vorgeschlagen.<br> |
 
 Datenbank:
 

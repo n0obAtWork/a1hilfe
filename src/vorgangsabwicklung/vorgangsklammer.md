@@ -12,11 +12,8 @@ Kopffelder
 | --- | --- |
 | Klammernummer | Nummer der Klammer |
 | Bezeichnung | Bezeichnung der Klammer |
-| Container | Hier kann eine Containernummer hinterlegt werden.  
-Zusätzlich kann hier auch eine Itembox zur Verfügung stehen. Diese wird im [Streckenerfassungsprofil](../zusatzprogramme/streckenerfassung/profile/index.md#ProfileStreckenerfassung) unter „Itembox für Container“ eingetragen. Bei mehreren Profilen wird die erste gefundene Itembox verwendet.  
-Wenn in der Itembox ein Rückgabefeld mit dem Namen „retBezeichnung“ zurückgegeben wird, so erscheint dieser Wert in dem Anzeigefeld hinter dem Containerfeld. |
-| Abw. Adresse | Hier kann eine Abweichende Adresse angegeben werden.  
-Siehe [unten](./vorgangsklammer.md#Adresszuordnung) für weitere Adressenpflege und Zuordnung. |
+| Container | Hier kann eine Containernummer hinterlegt werden.<br>Zusätzlich kann hier auch eine Itembox zur Verfügung stehen. Diese wird im [Streckenerfassungsprofil](../zusatzprogramme/streckenerfassung/profile/index.md#ProfileStreckenerfassung) unter „Itembox für Container“ eingetragen. Bei mehreren Profilen wird die erste gefundene Itembox verwendet.<br>Wenn in der Itembox ein Rückgabefeld mit dem Namen „retBezeichnung“ zurückgegeben wird, so erscheint dieser Wert in dem Anzeigefeld hinter dem Containerfeld. |
+| Abw. Adresse | Hier kann eine Abweichende Adresse angegeben werden.<br>Siehe [unten](./vorgangsklammer.md#Adresszuordnung) für weitere Adressenpflege und Zuordnung. |
 
 Registerkarte „Vorgänge“
 
@@ -28,16 +25,11 @@ Registerkarte „Vorgänge“
 | Packer | Bediener dieser Klammer |
 | Status | Status der Klammer, zulässige Werte können im Anwenderformat „AF_KLSTATUS“ gepflegt werden. |
 | Lokalität | Lokalität aus dem Lagerverwaltungssystem |
-| Abweichende Zieladresse | Über den zugehörigen Button mit dem Fragezeichen kann man eine alternative Adresse aus dem Anschriftstamm auswählen.  
-Wählt man den Button mit dem Stift kann man die abweichende Zieladresse neu eingeben oder ändern. |
-| Abweichende Herkunftsadresse | Über den zugehörigen Button mit dem Fragezeichen kann man eine alternative Adresse aus dem Anschriftstamm auswählen.  
-Wählt man den Button mit dem Stift kann man die abweichende Herkunftsadresse neu eingeben oder ändern. |
-| Spedition | Über den zugehörigen Button mit dem Fragezeichen kann man eine Speditionsadresse aus dem Anschriftstamm auswählen.  
-Wählt man den Button mit dem Stift kann man die Speditionsadresse neu eingeben oder ändern. |
-| Kontrolleur | Über den zugehörigen Button mit dem Fragezeichen kann man eine Kontrolleuradresse aus dem Anschriftstamm auswählen.  
-Wählt man den Button mit dem Stift kann man die Kontrolleuradresse neu eingeben oder ändern. |
-| Löschkontrolleur | Über den zugehörigen Button mit dem Fragezeichen kann man eine Löschkontrolleuradresse aus dem Anschriftstamm auswählen.  
-Wählt man den Button mit dem Stift kann man die Löschkontrolleuradresse neu eingeben oder ändern. |
+| Abweichende Zieladresse | Über den zugehörigen Button mit dem Fragezeichen kann man eine alternative Adresse aus dem Anschriftstamm auswählen.<br>Wählt man den Button mit dem Stift kann man die abweichende Zieladresse neu eingeben oder ändern. |
+| Abweichende Herkunftsadresse | Über den zugehörigen Button mit dem Fragezeichen kann man eine alternative Adresse aus dem Anschriftstamm auswählen.<br>Wählt man den Button mit dem Stift kann man die abweichende Herkunftsadresse neu eingeben oder ändern. |
+| Spedition | Über den zugehörigen Button mit dem Fragezeichen kann man eine Speditionsadresse aus dem Anschriftstamm auswählen.<br>Wählt man den Button mit dem Stift kann man die Speditionsadresse neu eingeben oder ändern. |
+| Kontrolleur | Über den zugehörigen Button mit dem Fragezeichen kann man eine Kontrolleuradresse aus dem Anschriftstamm auswählen.<br>Wählt man den Button mit dem Stift kann man die Kontrolleuradresse neu eingeben oder ändern. |
+| Löschkontrolleur | Über den zugehörigen Button mit dem Fragezeichen kann man eine Löschkontrolleuradresse aus dem Anschriftstamm auswählen.<br>Wählt man den Button mit dem Stift kann man die Löschkontrolleuradresse neu eingeben oder ändern. |
 
 Registerkarte „Tour“
 

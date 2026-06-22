@@ -11,9 +11,7 @@ Hiermit besteht die Möglichkeit Rollen zu hinsichtlich ihrer Rollenklasse und i
 | Felder |
 | --- |
 | Folgende Rollen | Die in der Auswahlliste vorselektierten Rollen zur Vereinigung |
-| In dieser Rolle zusammenführen | Die Zielrolle, in der die obigen Rollen zusammengefasst werden.  
-Die Zielrolle kann entweder eine der vorselektierten Rollen sein oder eine ganz neue.  
-Als Ergebnis der Vereinigung erhält die Zielrolle die Vereinigung aller Bedienerklassen-Zuordnungen der beteiligten Rollen, sowie wird allen Kontexten der beteiligten Rollen die Ziel-Rolle zugeordnet. |
+| In dieser Rolle zusammenführen | Die Zielrolle, in der die obigen Rollen zusammengefasst werden.<br>Die Zielrolle kann entweder eine der vorselektierten Rollen sein oder eine ganz neue.<br>Als Ergebnis der Vereinigung erhält die Zielrolle die Vereinigung aller Bedienerklassen-Zuordnungen der beteiligten Rollen, sowie wird allen Kontexten der beteiligten Rollen die Ziel-Rolle zugeordnet. |
 
 | Funktionen |
 | --- |

@@ -10,26 +10,10 @@ Wird ein Report gedruckt, so ist es möglich diesen auch zu archivieren. Wenn de
 
 | Feld | Bedeutung |
 | --- | --- |
-| Archivierungsmerkmal | Wie soll archiviert werden. Es lassen sich hier mit F3 folgende Einstellungen auswählen:  
-• nicht archivieren  
-• archivieren und Probleme immer melden  
-• archivieren und Probleme nur einmal melden  
-• archivieren und Nachricht im Fehler-/Ereignisprotokoll  
- |
-| Archiv Belegklasse | Für Report ist die Belegklasse bisher immer nur CRW-Report(6000) gewesen. Jetzt kann hier bei privaten Reporten eine Belegklasse hinterlegt werden.  
- |
-| Archivierungsgruppe | Hier steht ein Anwenderformat zur Verfügung. Folgende Werte sind von AMIC vorgegeben:  
-• keine Gruppe  
-• Streckengeschäft  
-• Führender Beleg  
-    
-    
-Weitere Gruppen können individuell erfasst werden.  
-    
- |
-| Ausgabeformat | Im Normalfall werden die Reporte im PDF-Format archiviert. Es ist jedoch auch möglich, den Report im Word-Format zu archivieren  
-    
- |
+| Archivierungsmerkmal | Wie soll archiviert werden. Es lassen sich hier mit F3 folgende Einstellungen auswählen:<br>• nicht archivieren<br>• archivieren und Probleme immer melden<br>• archivieren und Probleme nur einmal melden<br>• archivieren und Nachricht im Fehler-/Ereignisprotokoll<br> |
+| Archiv Belegklasse | Für Report ist die Belegklasse bisher immer nur CRW-Report(6000) gewesen. Jetzt kann hier bei privaten Reporten eine Belegklasse hinterlegt werden.<br> |
+| Archivierungsgruppe | Hier steht ein Anwenderformat zur Verfügung. Folgende Werte sind von AMIC vorgegeben:<br>• keine Gruppe<br>• Streckengeschäft<br>• Führender Beleg<br><br><br>Weitere Gruppen können individuell erfasst werden.<br><br> |
+| Ausgabeformat | Im Normalfall werden die Reporte im PDF-Format archiviert. Es ist jedoch auch möglich, den Report im Word-Format zu archivieren<br><br> |
 
 Je nach Einstellung der Gruppe werden unterschiedliche Verweise auf Kunden im Archiv hinterlegt:  
     
@@ -42,24 +26,11 @@ Um einen Report zu archivieren, der eigentlich die Daten mehrerer Konten enthäl
 
 | Feld | Bedeutung |
 | --- | --- |
-| Select für Archivtrennung | SQL-Statement, für die Schleife.  
- |
-| Archivfeld Kundennummer | Feldname aus dem SQL-Statement, der den Wert für die Kundennummer im Archiv liefert.  
- |
-| Archivfeld Belegnummer | Feldname aus dem SQL-Statement, der den Wert für die Belegnummer im Archiv liefert.  
- |
-| Archivfeld Belegdatum | Feldname aus dem SQL-Statement, der den Wert für das Belegdatum im Archiv liefert.  
- |
-| Datensatzauswahlformel  
-(Crystal-Report ) | Es muss jetzt noch dem Report mitgeteilt werden, dass er nur einen Teil darstellen soll. Dazu muss hier die Eingrenzung eingegeben werden. Der Syntax ist dabei so, wie sie im Formeleditor von Crystal Report stehen. Dabei werden die Felder wie folgt in geschweiften Klammern angegeben:  
-   
-   
-![](../../../ImagesExt/image8_1155.png)  
-    
-Beispiel für die Fibuv_id:  
-   
-Die Werte der Felder werden über Platzhalter (%s) in der Reihenfolge Kundennummer, Belegnummer, Belegdatum an die Formel übergeben.  
- |
+| Select für Archivtrennung | SQL-Statement, für die Schleife.<br> |
+| Archivfeld Kundennummer | Feldname aus dem SQL-Statement, der den Wert für die Kundennummer im Archiv liefert.<br> |
+| Archivfeld Belegnummer | Feldname aus dem SQL-Statement, der den Wert für die Belegnummer im Archiv liefert.<br> |
+| Archivfeld Belegdatum | Feldname aus dem SQL-Statement, der den Wert für das Belegdatum im Archiv liefert.<br> |
+| Datensatzauswahlformel<br>(Crystal-Report ) | Es muss jetzt noch dem Report mitgeteilt werden, dass er nur einen Teil darstellen soll. Dazu muss hier die Eingrenzung eingegeben werden. Der Syntax ist dabei so, wie sie im Formeleditor von Crystal Report stehen. Dabei werden die Felder wie folgt in geschweiften Klammern angegeben:<br> <br> <br>![](../../../ImagesExt/image8_1155.png)<br><br>Beispiel für die Fibuv_id:<br> <br>Die Werte der Felder werden über Platzhalter (%s) in der Reihenfolge Kundennummer, Belegnummer, Belegdatum an die Formel übergeben.<br> |
 
 Beispiel:
 

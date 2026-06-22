@@ -24,8 +24,7 @@ Diese werden hier hinterlegt und auf Kundensystemen nach einem Programm-Update z
 | Quelle Rolle | Ursprungsrolle die als Vorlage der Rolle für die Funktion gelten soll. |
 | Quelle Optionbox | Optionbox des Quellen-Rollenkontextes. |
 | Quelle Funktion | Funktion des Quellen-Rollenkontextes. |
-| Quelle sichtbar? | Bestimmt ob der Quell-Kontext „sichtbar“ bleibt.  
-Dies wird benötigt, wenn eine Funktion in der Quelle nicht mehr in der Quellen- Optionbox vom System angezeigt werden soll. |
+| Quelle sichtbar? | Bestimmt ob der Quell-Kontext „sichtbar“ bleibt.<br>Dies wird benötigt, wenn eine Funktion in der Quelle nicht mehr in der Quellen- Optionbox vom System angezeigt werden soll. |
 
 </details>
 
@@ -35,8 +34,7 @@ Dies wird benötigt, wenn eine Funktion in der Quelle nicht mehr in der Quellen-
 | Suchkriterien | |
 | --- | --- |
 | Suchen | Suchen in den Optionbox- und Funktionsfeldern |
-| Quelle sichtbar? | Suchen im Feld „Quelle sichtbar?“  
-Möglich sind Ja, Nein und Egal. |
+| Quelle sichtbar? | Suchen im Feld „Quelle sichtbar?“<br>Möglich sind Ja, Nein und Egal. |
 
 </details>
 

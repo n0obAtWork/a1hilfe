@@ -7,7 +7,4 @@ Der SPA 1171 steht per Default auf „Nein“.
 | Wert | Beschreibung |
 | --- | --- |
 | Nein | Keine Auswirkung |
-| Ja | Bei der Kontrakterfassung wird die Zahlungsbedingung nach der Wahl eines Hauptkunden zur Kontraktklasse (EK/VK) passend vorbelegt.  
-    
-    
- |
+| Ja | Bei der Kontrakterfassung wird die Zahlungsbedingung nach der Wahl eines Hauptkunden zur Kontraktklasse (EK/VK) passend vorbelegt.<br><br><br> |

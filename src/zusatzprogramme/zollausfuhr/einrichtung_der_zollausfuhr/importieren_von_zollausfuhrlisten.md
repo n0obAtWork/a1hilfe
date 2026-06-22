@@ -8,8 +8,7 @@ Mit diesem Einspieler werden die Zollausfuhrlisten in das A.eins System eingespi
 | --- | --- |
 | Import Verzeichnis | In diesem Feld wird das Verzeichnis hinterlegt, in dem sich die Zollausfuhrlisten befinden. Der Pfad muss relative zum Datenbank Server liegen. |
 | Import Funktion | In diesem Feld wird die Datenbankprozedur hinterlegt, welche die Zollausfuhrlisten in die Datenbank einspielt. Diese Prozedur kann privatisiert werden. |
-| Statustext | Zeigt den Status nach dem Export an. Tritt die Meldung  
-„Fehler beim Einspielen der Daten“ auf so steht im Fehlerprotokoll nähere Informationen zu der Meldung |
+| Statustext | Zeigt den Status nach dem Export an. Tritt die Meldung<br>„Fehler beim Einspielen der Daten“ auf so steht im Fehlerprotokoll nähere Informationen zu der Meldung |
 
 In der Tabelle werden alle eingespielten Zollausfuhrlisten angezeigt.
 

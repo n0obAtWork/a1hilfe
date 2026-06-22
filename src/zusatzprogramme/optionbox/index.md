@@ -12,15 +12,13 @@ Private Optionboxes sind konventionsgemäß solche, deren Identifikation mit „
 
 | **Felder** | Dialog „Option Boxes“ |
 | --- | --- |
-| OptionBox Id. | Identifikation der Optionbox  
-Mit [**F3**] lässt sich eine Optionbox auswählen. |
+| OptionBox Id. | Identifikation der Optionbox<br>Mit [**F3**] lässt sich eine Optionbox auswählen. |
 
 | **Funktionen** | |
 | --- | --- |
 | Neu | Nach Eingabe der „OptionBox Id.“ erfolgt der Wechsel in den Optionbox-Pfleger, falls es die Optionbox noch nicht gibt. |
 | Ändern | Nach Eingabe der „OptionBox Id.“ erfolgt der Wechsel in den Optionbox-Pfleger, falls es die Optionbox gibt. |
-| Löschen | Löscht die Optionbox ohne Rückfrage.  
-Steht nur Entwicklung zur Verfügung. |
+| Löschen | Löscht die Optionbox ohne Rückfrage.<br>Steht nur Entwicklung zur Verfügung. |
 
 <p class="siehe-auch">Siehe auch:</p>
 

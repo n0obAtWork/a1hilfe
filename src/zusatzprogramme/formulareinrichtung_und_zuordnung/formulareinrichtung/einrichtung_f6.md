@@ -84,17 +84,11 @@ Hier kann man weitere Einstellungen zur aktuell markierten Druckposition vornehm
 | Länge | Wie lang erstreckt sich der Druck dieser Position, in logischen Einheiten |
 | Dezimalstellen | Diese Einstellung legt bei numerischen Angaben die Anzahl der Nachkommastellen fest. |
 | Blocklänge und Zeilenabstand mm | Für mehrzeilige Druckaufbereitungen (z.B. Adressen, Textblöcke etc.) wird hier die Zeilenanzahl festgelegt. Optional kann für den Druck im Windowsformat der Zeilenabstand in mm hinterlegt werden. |
-| Attribut | Der Schriftstil wird durch folgende Attribute verändert:  
-Normal: Standardeinstellung der Schrift  
-Compress: die Schrift wird kleiner und enger ausgegeben  
-Fett: die Zeichen werden fetter/kräftiger dargestellt  
-Unterstrichen: Alle Zeichen werden unterstrichen  
-Sperr: der Zeichenabstand wird deutlich erhöht |
+| Attribut | Der Schriftstil wird durch folgende Attribute verändert:<br>Normal: Standardeinstellung der Schrift<br>Compress: die Schrift wird kleiner und enger ausgegeben<br>Fett: die Zeichen werden fetter/kräftiger dargestellt<br>Unterstrichen: Alle Zeichen werden unterstrichen<br>Sperr: der Zeichenabstand wird deutlich erhöht |
 | Schriftfarbe | Nur bei Windowsdruck: die Farbe der Schrift wird in RGB (Rot / Grün/ Blau) Notation eingestellt. Per F3 –Taste kann der Farbton ermittelt werden |
 | Parameter | Viele Druckpositionen erfordern einen zusätzlichen numerischen Parameter zu Identifizierung des Inhalts. Häufig handelt es sich hierbei um mehrfach auftretende Informationen, wie etwa mehrere Steuersätze oder mehrere Gebindeinformationen. |
 | Festtext | Häufig werden Druckpositionen durch eine Textangabe parametrisiert, die hier eingegeben wird. |
-| Referenzzeile und Referenzspalte | Hier kann man optional die Koordinaten einer verknüpften Druckposition hinterlegen. Wird in der verknüpften Position kein signifikanter Wert gedruckt, so unterbleibt auch der eigene Druck.  
-Beispiel: Die verknüpfte Druckposition weist die Menge eines Artikels aus. Die eigene Druckposition ist die Beschriftung ‘Gelieferte Menge‘. Ist die Menge 0 wird auch der Text ‚Gelieferte Menge‘ nicht gedruckt. |
+| Referenzzeile und Referenzspalte | Hier kann man optional die Koordinaten einer verknüpften Druckposition hinterlegen. Wird in der verknüpften Position kein signifikanter Wert gedruckt, so unterbleibt auch der eigene Druck.<br>Beispiel: Die verknüpfte Druckposition weist die Menge eines Artikels aus. Die eigene Druckposition ist die Beschriftung ‘Gelieferte Menge‘. Ist die Menge 0 wird auch der Text ‚Gelieferte Menge‘ nicht gedruckt. |
 | Archivgruppetest | Eine nicht allgemein gültige Spezialität! |
 | Sprachnr.Textums | Wenn ungleich 0 wird der Text in die hier hinterlegte Sprache umgesetzt |
 

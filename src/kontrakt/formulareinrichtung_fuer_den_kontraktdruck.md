@@ -129,12 +129,9 @@ Da der Kontraktdruck eine sehr viel allgemeinere Formularverwaltung verwendet al
 | Zahlungsbedingungsnummer (ggf. des Hauptkunden) | ZahlBedNummer | 4 |
 | Zahlungsbedingungsbezeichnung | ZahlBedBezeich | 3 |
 | Anschrift des Hauptkunden (bzw. manuelle Kontraktanschr.) | AdressId | 6 |
-| Ktr_Versandadresse oder Hauptadresse  
- | | 3210 |
-| Ktr_Versandadresse oder Hauptadresse  
- | | 3211 |
-| Anschrift der Filiale   
- | AdressIdFiliale | 6 |
+| Ktr_Versandadresse oder Hauptadresse<br> | | 3210 |
+| Ktr_Versandadresse oder Hauptadresse<br> | | 3211 |
+| Anschrift der Filiale <br> | AdressIdFiliale | 6 |
 | Identifikation des erfassenden Bedieners | BedienerIdNeu | 4 |
 | Kurzbezeichnung des erfassenden Bedieners | BedienerKurzNeu | 3 |
 | Langbezeichnung des erfassenden Bedieners | BedienerNameNeu | 3 |

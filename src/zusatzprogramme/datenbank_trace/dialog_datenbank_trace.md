@@ -10,21 +10,13 @@ Die Aeins-Trace-Funktionalitäten unterstützen eine Analyse der aeins-seitig ge
 
 | Felder | Dialog „Datenbank Trace“ |
 | --- | --- |
-| Dateiname | Textdatei mit den ermittelten Daten.  
-Diese Textdatei stellt ein OSQL-Einspielskript in die Relation „amic_tracefile“ dar. ([Aufbau der Datenbank-Tracedatei](./aufbau_der_datenbank_tracedatei.md)) |
-| wie öffnen | Überschreiben  
-Anhängen |
-| Status | Aus  
-An  
-Genau |
-| Hochkomma umwandeln | Ja  
-Nein |
-| Insert am Ende | Ja  
-Nein |
-| Stammdateninterface protokollieren | Ja  
-Nein |
-| Menüaktivitäten protokollieren | Ja  
-Nein |
+| Dateiname | Textdatei mit den ermittelten Daten.<br>Diese Textdatei stellt ein OSQL-Einspielskript in die Relation „amic_tracefile“ dar. ([Aufbau der Datenbank-Tracedatei](./aufbau_der_datenbank_tracedatei.md)) |
+| wie öffnen | Überschreiben<br>Anhängen |
+| Status | Aus<br>An<br>Genau |
+| Hochkomma umwandeln | Ja<br>Nein |
+| Insert am Ende | Ja<br>Nein |
+| Stammdateninterface protokollieren | Ja<br>Nein |
+| Menüaktivitäten protokollieren | Ja<br>Nein |
 
 | Funktionen | Dialog „Datenbank Trace“ |
 | --- | --- |

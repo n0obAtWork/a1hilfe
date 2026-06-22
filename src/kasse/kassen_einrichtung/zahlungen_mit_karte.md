@@ -30,10 +30,7 @@ Die Bestätigung soll also nicht voreilig gegeben werden! Wenn es doch passiert,
 
 | Einstellmöglichkeiten POS Kasse / Empfohlene Einstellungen |
 | --- |
-| | EC Cash Lastschrift mit Kartenleser ohne manuellen Eingriff \*\*\* | EC Cash Lastschrift mit Kartenleser oder wahlweise Eingabe der Daten \*\*\* | EC Cash Lastschrift ohne Kartenleser, nur Eingabe der Daten EC Cash Lastschrift ohne Kartenleser, nur Eingabe der Daten \*\*\* | EC Cash Pin über sep. Bankterminal  
-(nicht widerrufbar) | EC Cash Pin über sep. Bankterminal  
-(widerrufbar)  
- |
+| | EC Cash Lastschrift mit Kartenleser ohne manuellen Eingriff \*\*\* | EC Cash Lastschrift mit Kartenleser oder wahlweise Eingabe der Daten \*\*\* | EC Cash Lastschrift ohne Kartenleser, nur Eingabe der Daten EC Cash Lastschrift ohne Kartenleser, nur Eingabe der Daten \*\*\* | EC Cash Pin über sep. Bankterminal<br>(nicht widerrufbar) | EC Cash Pin über sep. Bankterminal<br>(widerrufbar)<br> |
 | SPA Manuelle Erfassung von EC-Karten | unterbunden | Manuell | Manuell | Kennz. ZA | Kennz. ZA |
 | SPA Gekennzeichnete EC Zahlung stornierbar | \--- | \--- | \--- | Ja | Ja |
 | Kasseneinstellung EC-Karte manuell erfassen | Nein | Nein | Ja | Nein | Nein |

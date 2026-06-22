@@ -7,47 +7,16 @@
 | 1 | Festtext | |
 | 2 | SQL Statement | |
 | 3 | Text-Variable | |
-| 22 | Bitmap aus Datei/Archiv | Angabe eines Pfades auf eine bmp-Datei.  
-Angabe einer JVAR aus der zur Laufzeit der Pfad ermittelt wird. Die Angabe erfolgt über JVAR, Owner.  
-Achten Sie hierbei das der Pfad so gewählt sein muss das die in Frage kommenden A.eins-Clienten diesen auch erreichen können.  
-In jedem Falle wird die Extension des so erhaltenen „Pfades“ bestimmt. **Ist diese nicht „bmp“, dann wird die Angabe aus „Beleg-Referenz“ des Archives interpretiert und dort mit der Belegklasse 8800 recherchiert**. Das dort hinterlegte bmp-Dokument wird dann gedruckt.  
-Kommt es im Rahmen der Druckaufbereitung der Bitmap zu Problemen, dann erfolgt ein Fehlerprotokoll/Systemmeldungs-Eintrag und es wird eine Ersatzgrafik aus dem Aeins\\bin-Verzeichnis bitmapnotavailable.bmp gezogen. Dieses Verfahren soll helfen durch optische Kontrolle der Belege solche Umstände aufzudecken.  
-In der Spalte „Text“ ist F3 möglich, dieses öffnet die Dokumenten Verwaltung für Dokumente mit der Belegklasse 8800. Sie können dort einen Eintrag auswählen und die Belegreferenz wird dann in das Feld übernommen.  
-Sie haben innerhalb der Dokumenten-Verwaltung die Möglichkeit eine Bitmap z.B. per Drag&Drop hinzufügen und auch die Referenz-Nummer entsprechend zu gestalten. Im Idealfall ist diese Referenznummer angegeben und eindeutig innerhalb der Belegklasse 8800. |
-| 36 | JVars-Text-Variable | Bietet die Möglichkeit den Inhalt von JVARS ausdrucken.  
-Angabe ist  
- NameDerJVar,OwnerDerJVar  
-(Angabe also durch Komma getrennt) |
-| 41 | Bitmap aus Etidr | Übernimmt eine durch den AMIC Etikettendruck erzeugte Bitmap in den Windowsdruck.  
-Der Name des AMIC Etikettendruck ist unter Text einzutragen.  
-Unter Direktsprung ETIDR ist ein gleichlautender AMIC Etikettendruck einzurichten. Die Datenherkunft ist „Procedure“.  
-Die Parameter der Procedure sind wie folgt in der Einrichtung anzugeben:  
-(:!JVARS_41_QV_ID, :!JVARS_41_V_ID, :!JVARS_41_WABEWID )  
-und in der Procedure entsprechend auszuprägen.  
-Die Drucksteuerung übermittelt mit Hilfe der obigen JVARS, dann die Quell-Id, die Vorgangs-Id und die WabewId an die Etidr-BMP-Aufbereitung. |
-| 44 | Datenbankprozedur mit Resultset  
- | Der Name der Datenbankprozedur - inclusive Klammern -, sämtliche Parameter und das Ergebnisfeld sind unter Text anzugeben. Beispielsweise könnte es wie folgt aussehen:  
-    
-    
-P_Mittelwert(1) Mittelwert  
-   
-Intern wird dann ein Select ausgeführt:  
-   
-Select Mittelwert from p_Mittelwert(1)  
-   
-Innerhalb der Datenbankprozedur kann auf Datenbankvariablen zugegriffen werden, die in der Tabelle FormPositionDBVars gepflegt werden. Der Rückgabewert muss vom Typ Character sein. |
-| 51 | Einfache Linie | Hiermit lässt sich eine senkrechte Linie, oder eine waagerechte Linie oder gar ein Rahmen definieren.  
-Die waagerechte Ausprägung erreicht man über die Angabe einer Länge (Lg), die senkrechte Ausprägung über die Angabe einer Blocklänge (Bloc).  
-Einen Rahmen ergibt sich durch Kombination der beiden Angaben.  
-    
-    
-Hinweis: Über die „Details“ lässt sich bei einem Rahmen im Feld „Parameter“ der gemeinsame Rundungsgrad der 4 Ecken in Prozent hinterlegen. 0% bzw. keine Angabe ist die Ecke 90 Grad, ansonsten entsprechend abgerundet, in Zwischenstufen bis zum Kreis. |
+| 22 | Bitmap aus Datei/Archiv | Angabe eines Pfades auf eine bmp-Datei.<br>Angabe einer JVAR aus der zur Laufzeit der Pfad ermittelt wird. Die Angabe erfolgt über JVAR, Owner.<br>Achten Sie hierbei das der Pfad so gewählt sein muss das die in Frage kommenden A.eins-Clienten diesen auch erreichen können.<br>In jedem Falle wird die Extension des so erhaltenen „Pfades“ bestimmt. **Ist diese nicht „bmp“, dann wird die Angabe aus „Beleg-Referenz“ des Archives interpretiert und dort mit der Belegklasse 8800 recherchiert**. Das dort hinterlegte bmp-Dokument wird dann gedruckt.<br>Kommt es im Rahmen der Druckaufbereitung der Bitmap zu Problemen, dann erfolgt ein Fehlerprotokoll/Systemmeldungs-Eintrag und es wird eine Ersatzgrafik aus dem Aeins\\bin-Verzeichnis bitmapnotavailable.bmp gezogen. Dieses Verfahren soll helfen durch optische Kontrolle der Belege solche Umstände aufzudecken.<br>In der Spalte „Text“ ist F3 möglich, dieses öffnet die Dokumenten Verwaltung für Dokumente mit der Belegklasse 8800. Sie können dort einen Eintrag auswählen und die Belegreferenz wird dann in das Feld übernommen.<br>Sie haben innerhalb der Dokumenten-Verwaltung die Möglichkeit eine Bitmap z.B. per Drag&Drop hinzufügen und auch die Referenz-Nummer entsprechend zu gestalten. Im Idealfall ist diese Referenznummer angegeben und eindeutig innerhalb der Belegklasse 8800. |
+| 36 | JVars-Text-Variable | Bietet die Möglichkeit den Inhalt von JVARS ausdrucken.<br>Angabe ist<br> NameDerJVar,OwnerDerJVar<br>(Angabe also durch Komma getrennt) |
+| 41 | Bitmap aus Etidr | Übernimmt eine durch den AMIC Etikettendruck erzeugte Bitmap in den Windowsdruck.<br>Der Name des AMIC Etikettendruck ist unter Text einzutragen.<br>Unter Direktsprung ETIDR ist ein gleichlautender AMIC Etikettendruck einzurichten. Die Datenherkunft ist „Procedure“.<br>Die Parameter der Procedure sind wie folgt in der Einrichtung anzugeben:<br>(:!JVARS_41_QV_ID, :!JVARS_41_V_ID, :!JVARS_41_WABEWID )<br>und in der Procedure entsprechend auszuprägen.<br>Die Drucksteuerung übermittelt mit Hilfe der obigen JVARS, dann die Quell-Id, die Vorgangs-Id und die WabewId an die Etidr-BMP-Aufbereitung. |
+| 44 | Datenbankprozedur mit Resultset<br> | Der Name der Datenbankprozedur - inclusive Klammern -, sämtliche Parameter und das Ergebnisfeld sind unter Text anzugeben. Beispielsweise könnte es wie folgt aussehen:<br><br><br>P_Mittelwert(1) Mittelwert<br> <br>Intern wird dann ein Select ausgeführt:<br> <br>Select Mittelwert from p_Mittelwert(1)<br> <br>Innerhalb der Datenbankprozedur kann auf Datenbankvariablen zugegriffen werden, die in der Tabelle FormPositionDBVars gepflegt werden. Der Rückgabewert muss vom Typ Character sein. |
+| 51 | Einfache Linie | Hiermit lässt sich eine senkrechte Linie, oder eine waagerechte Linie oder gar ein Rahmen definieren.<br>Die waagerechte Ausprägung erreicht man über die Angabe einer Länge (Lg), die senkrechte Ausprägung über die Angabe einer Blocklänge (Bloc).<br>Einen Rahmen ergibt sich durch Kombination der beiden Angaben.<br><br><br>Hinweis: Über die „Details“ lässt sich bei einem Rahmen im Feld „Parameter“ der gemeinsame Rundungsgrad der 4 Ecken in Prozent hinterlegen. 0% bzw. keine Angabe ist die Ecke 90 Grad, ansonsten entsprechend abgerundet, in Zwischenstufen bis zum Kreis. |
 | 52 | Doppelte Linie | Wie bei 51, nur sind die Linien dicker. |
 | 53 | Einfache Linie 2 | Wie bei 51. Druckposition ermöglicht den Start-Punkt einer „Linie“ im Formulareinrichter doppelt zu nutzen. Zum Beispiel als Start einer waagerechten Linie und als Start einer senkrechten Linie. |
 | 54 | Doppelte Linie 2 | Wie bei 53, nur mit dickeren Linien. |
 | 55 | Druckfeld | Liefert zu einem einrichtbaren Namen einen einrichtbaren Wert. |
-| 455 | Bruttopreis | Für die Warenpositionszeile gibt es nun die „Druckposition Bruttopreis“ (interne Nummer 455). Diese Position bewirkt, dass bei der Erfassung von Nettobelegen automatisch der Bruttopreis errechnet und ausgedruckt wird. Die Berechnung des Bruttopreises pro Warenpositionszeile erfolgt aus dem Nettopreis (inklusive verdeckter Rabatte und Zu/Abschläge).  
-**ACHTUNG****:** Bei der automatischen Berechnung der Bruttopreise kann es in den einzelnen Warenpositionszeilen zu Rundungsproblemen kommen. Dadurch kann nicht gewährleistet werden, dass Menge \* Bruttopreis mit dem Bruttowert der Zeile übereinstimmt! Die Gesamtbruttosumme am Schluss des Beleges ist jedoch wieder korrekt! |
+| 455 | Bruttopreis | Für die Warenpositionszeile gibt es nun die „Druckposition Bruttopreis“ (interne Nummer 455). Diese Position bewirkt, dass bei der Erfassung von Nettobelegen automatisch der Bruttopreis errechnet und ausgedruckt wird. Die Berechnung des Bruttopreises pro Warenpositionszeile erfolgt aus dem Nettopreis (inklusive verdeckter Rabatte und Zu/Abschläge).<br>**ACHTUNG****:** Bei der automatischen Berechnung der Bruttopreise kann es in den einzelnen Warenpositionszeilen zu Rundungsproblemen kommen. Dadurch kann nicht gewährleistet werden, dass Menge \* Bruttopreis mit dem Bruttowert der Zeile übereinstimmt! Die Gesamtbruttosumme am Schluss des Beleges ist jedoch wieder korrekt! |
 
 Im Belegfuß besteht nun auch die Möglichkeit, bei Bedarf die Versandadresse auszudrucken.
 

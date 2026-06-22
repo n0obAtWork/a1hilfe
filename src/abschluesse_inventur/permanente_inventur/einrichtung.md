@@ -42,7 +42,6 @@ o AF_Vorgang
 
 Für die Vorgangsklassen
 
-| Klassen-nummer | Name | Kürzel  
-(Vorschlag) | Bedeutung |
+| Klassen-nummer | Name | Kürzel<br>(Vorschlag) | Bedeutung |
 | --- | --- | --- | --- |
 | 5055 | Inventurdifferenzbeleg | IVD | Unter dieser Vorgangsklasse können Inventurbelege eingegeben werden. Diese enthalten sowohl eine Mengen- als auch eine Wertkorrekturen. |

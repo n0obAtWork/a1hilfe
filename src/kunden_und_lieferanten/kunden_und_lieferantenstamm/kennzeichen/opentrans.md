@@ -10,9 +10,7 @@ Gibt an, ob es sich um einen Kunden handelt, dessen Vorgänge beim Drucken als o
 | --- | --- | --- |
 | 0 | Nein | Es wird kein Belegversand verwendet |
 | 1 | Mit Rechnungsdruck | Der openTRANS-Export erfolgt analog zum Rechnungsdruck |
-| 2 | Statt Rechnungsdruck | Der openTRANS-Export erfolgt anstelle des Rechnungsdrucks  
-Hinweis:  
-Bitte beachten Sie, dass diese Einstellung „Statt Rechnungsdruck“ unter Umständen die Einstellung „mit Rechnungsdruck“ im Bereich Belegversand überschreibt. Ist eine dieser Einstellungen auf „statt Rechnungsdruck“ gestellt, so entfällt der Druck! |
+| 2 | Statt Rechnungsdruck | Der openTRANS-Export erfolgt anstelle des Rechnungsdrucks<br>Hinweis:<br>Bitte beachten Sie, dass diese Einstellung „Statt Rechnungsdruck“ unter Umständen die Einstellung „mit Rechnungsdruck“ im Bereich Belegversand überschreibt. Ist eine dieser Einstellungen auf „statt Rechnungsdruck“ gestellt, so entfällt der Druck! |
 
 **PDF Signierung**
 

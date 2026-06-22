@@ -29,8 +29,7 @@ In der Variante „[internationale Mengeneinheiten](../../../../artikelstamm_und
 | UN-Mengeneinheit | Auswahl aus Mengeneinheitsangaben der vereinten Nationen gemäß [Recommendation N°. 20 - Codes for Units of Measure Used in International Trade](http://www.unece.org/cefact/recommendations/rec_index.htm) |
 | Mengeneinheit A.eins | Mengeneinheit in A.eins |
 | Faktor UN zu A.eins | Umrechnungsfaktor Beispiel: eine Tonne (A.eins zu Kilogramm/KGM international) = 1000 |
-| Voreinstellung | Wählen Sie Ja, wenn diese Zuordnung bevorzugt beim Export verwendet werden soll.  
-Andere Zuordnungen können beim Import verwendet werden |
+| Voreinstellung | Wählen Sie Ja, wenn diese Zuordnung bevorzugt beim Export verwendet werden soll.<br>Andere Zuordnungen können beim Import verwendet werden |
 
 Eine erste Vorbelegung können Sie mit Hilfe der Funktion „Basiseinrichtung“ erstellen. Diese sucht nach gängigen Bezeichnern für Maßeinheiten wie z.B. „m“, „mtr“ oder „meter“ und erstellt daraus eine Zuordnung zur UN-Mengeneinheit – hier im Beispiel MTR mit den entsprechenden Faktoren.
 

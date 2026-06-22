@@ -35,9 +35,7 @@ Sonstige Sperren
 
 | Maskenfeld | Vorbelegung | Bedeutung |
 | --- | --- | --- |
-| Bearbeitungssperre auch bei Folgebelegen  
- | Nein | Die Sperre legt fest, ob Folgebelege aus einem Quellbeleg dieser Vorgangsklasse geändert oder gelöscht werden können, wenn der Quellbeleg eine Bearbeitungssperre gesetzt hat.  
- |
+| Bearbeitungssperre auch bei Folgebelegen<br> | Nein | Die Sperre legt fest, ob Folgebelege aus einem Quellbeleg dieser Vorgangsklasse geändert oder gelöscht werden können, wenn der Quellbeleg eine Bearbeitungssperre gesetzt hat.<br> |
 | Korrektur mit Doppelklick verbieten | Nein | Die Sperre legt fest, ob ein Doppelklick auf eine Positionszeile den Bearbeitungsmodus aufruft. Dies gilt nicht für Rohwarenbelege. |
 
 Ladescheine
@@ -51,8 +49,7 @@ Teildisposition
 | Maskenfeld | Vorbelegung | Bedeutung |
 | --- | --- | --- |
 | Mengenüberziehung zulassen bei Teildisposition aus dieser Unterklasse | Nein | Hier kann eingestellt werden, ob bei der Erzeugung von Vorgangspositionen per Teildisposition aus Positionen eines anderen Vorgangs dieser Unterklasse die aus der Quellposition abzubuchende Menge größer als die noch vorhandene Restmenge sein darf. |
-| Mengenüberziehung erledigt Beleg | Ja | Wird hier „Nein“ angewählt, wird der Beleg bei Überziehung der Quell-Menge nicht als vollständig gekennzeichnet, so dass eine nachträgliche Änderung mittels [AUK] möglich wird.  
-Ein „Ja“ setzt den Beleg bei Überziehung auf erledigt |
+| Mengenüberziehung erledigt Beleg | Ja | Wird hier „Nein“ angewählt, wird der Beleg bei Überziehung der Quell-Menge nicht als vollständig gekennzeichnet, so dass eine nachträgliche Änderung mittels [AUK] möglich wird.<br>Ein „Ja“ setzt den Beleg bei Überziehung auf erledigt |
 | Teildisponierte Position editierbar | Nein | Wurde eine Position im Quellbeleg teildisponiert, so ist sie im Standard nicht mehr editierbar. Dieser Schalter erlaubt das nachträgliche Editieren einer teildisponierten Position |
 
 **Achtung!**
@@ -63,8 +60,7 @@ UlsatzSteuerid
 
 | Maskenfeld | Vorbelegung | Bedeutung |
 | --- | --- | --- |
-| druckbar  
- | Wenn UStId geprüft | Ist eine UStId nicht erfolgreich geprüft worden, so kann ein Beleg nicht gedruckt werden, wenn Intrastat lizensiert ist und der [Steuerparameter 1062 – UmsatzSteuerId im Vorgang](../../firmenstamm/steuerparameter/vorgangsbearbeitung_allg/ustid_pruefung_im_vorgang_spa_1062.md) gesetzt ist |
+| druckbar<br> | Wenn UStId geprüft | Ist eine UStId nicht erfolgreich geprüft worden, so kann ein Beleg nicht gedruckt werden, wenn Intrastat lizensiert ist und der [Steuerparameter 1062 – UmsatzSteuerId im Vorgang](../../firmenstamm/steuerparameter/vorgangsbearbeitung_allg/ustid_pruefung_im_vorgang_spa_1062.md) gesetzt ist |
 | An Fibu übertragbar | Wenn UStId geprüft | .Ist eine UStId nicht erfolgreich geprüft worden, so kann ein Beleg nicht an die FiBu übertragen werden, wenn Intrastat lizensiert ist und der [Steuerparameter 1062 – UmsatzSteuerId im Vorgang](../../firmenstamm/steuerparameter/vorgangsbearbeitung_allg/ustid_pruefung_im_vorgang_spa_1062.md) gesetzt ist |
 
 Hier gibt es jeweils drei Abstufungen

@@ -5,11 +5,4 @@
 | Bezeichnung | Standardwert | Erklärung |
 | --- | --- | --- |
 | ArchivAnzeige | Ja | Wird hier Nein eingeben wird die Uhr dargestellt |
-| ArchivAnzeigeFunktion | AMIC_MENU_ARCHIVANZEIGE | Diese Datenbank-Procedure gibt die fa_id, fa_mndnr zurück, dessen Bild-Dokument im Menülogobereich dargestellt werden soll.  
-Signatur ist  
-CREATE PROCEDURE AMIC_MENU_ARCHIVANZEIGE( IN in_bedienerklasse integer )  
-RESULT  
-(  
- fa_id integer,  
- fa_mndnr integer  
-) |
+| ArchivAnzeigeFunktion | AMIC_MENU_ARCHIVANZEIGE | Diese Datenbank-Procedure gibt die fa_id, fa_mndnr zurück, dessen Bild-Dokument im Menülogobereich dargestellt werden soll.<br>Signatur ist<br>CREATE PROCEDURE AMIC_MENU_ARCHIVANZEIGE( IN in_bedienerklasse integer )<br>RESULT<br>(<br> fa_id integer,<br> fa_mndnr integer<br>) |

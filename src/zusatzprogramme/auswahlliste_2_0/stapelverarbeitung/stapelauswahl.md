@@ -12,18 +12,10 @@ In diesem Menü befindet sich mindestens die Funktion „***(Neu)***“ und spä
 
 | | **Bedeutung** |
 | --- | --- |
-| aktivieren (**F9**) | Die Änderungen werden gespeichert, der Stapel wird zum aktiven Stapel und er wird links im Menüband angezeigt (statt „Kein Stapel ausgewählt“). Die Funktionen „***zu Stapel hinzufügen***“ **Strg+F8** und „***aus Stapel entfernen***“ **Strg+F7** beziehen sich dann auf diesen Stapel.  
- |
-| löschen (**F7**) | Der Stapel wird komplett gelöscht und alle Datensätze aus ihm entfernt. Bei Neuanlage eines Stapels ist dieses Feld erst einmal deaktiviert. Steht man im Stapel – auf dem Register steht „Stapelverarbeitung (Bearbeitungsmodus)“ - und löscht einen Stapel, so wird der Stapel gelöscht und der Bearbeitungsmodus verlassen.  
- |
-| Bezeichnung | Vergabe einer Bezeichnung. Diese Bezeichnung erscheint dann im Menü „Stapelauswahl“.  
-![](../../../ImagesExt/image8_1304.png)  
- |
-| Beschreibung / Tooltip | Hier kann man einen beliebigen Text hinterlegen. Dieser erscheint dann als Tooltip, wenn man in der Stapelauswahl mit der Maus über dem entsprechenden Eintrag steht.  
- |
-| Verfalldatum | Datum, nach dem dieser Stapel automatisch gelöscht wird.  
- |
-| Angelegt von/Besitzer | Name des Bedieners, der den Stapel erstellt hat oder den Stapel als „Privat“ gekennzeichnet hat. Dieses Feld wird nur angezeigt und kann nicht geändert werden.  
- |
-| Privat | Wenn hier ein Haken gesetzt wird, so hat nur derjenige auf diesen Stapel Zugriff, der das Kennzeichen gesetzt hat. Derjenige, der den Stapel als privat markiert wird also automatisch Besitzer des Stapels.  
- |
+| aktivieren (**F9**) | Die Änderungen werden gespeichert, der Stapel wird zum aktiven Stapel und er wird links im Menüband angezeigt (statt „Kein Stapel ausgewählt“). Die Funktionen „***zu Stapel hinzufügen***“ **Strg+F8** und „***aus Stapel entfernen***“ **Strg+F7** beziehen sich dann auf diesen Stapel.<br> |
+| löschen (**F7**) | Der Stapel wird komplett gelöscht und alle Datensätze aus ihm entfernt. Bei Neuanlage eines Stapels ist dieses Feld erst einmal deaktiviert. Steht man im Stapel – auf dem Register steht „Stapelverarbeitung (Bearbeitungsmodus)“ - und löscht einen Stapel, so wird der Stapel gelöscht und der Bearbeitungsmodus verlassen.<br> |
+| Bezeichnung | Vergabe einer Bezeichnung. Diese Bezeichnung erscheint dann im Menü „Stapelauswahl“.<br>![](../../../ImagesExt/image8_1304.png)<br> |
+| Beschreibung / Tooltip | Hier kann man einen beliebigen Text hinterlegen. Dieser erscheint dann als Tooltip, wenn man in der Stapelauswahl mit der Maus über dem entsprechenden Eintrag steht.<br> |
+| Verfalldatum | Datum, nach dem dieser Stapel automatisch gelöscht wird.<br> |
+| Angelegt von/Besitzer | Name des Bedieners, der den Stapel erstellt hat oder den Stapel als „Privat“ gekennzeichnet hat. Dieses Feld wird nur angezeigt und kann nicht geändert werden.<br> |
+| Privat | Wenn hier ein Haken gesetzt wird, so hat nur derjenige auf diesen Stapel Zugriff, der das Kennzeichen gesetzt hat. Derjenige, der den Stapel als privat markiert wird also automatisch Besitzer des Stapels.<br> |

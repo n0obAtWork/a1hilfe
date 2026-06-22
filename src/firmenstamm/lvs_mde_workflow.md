@@ -24,9 +24,7 @@ So kann z.B. in Status 0 eine NVE (erkennbar an der Länge 20, numerisch, beginn
 
 Der Folgestatus bestimmt, welcher Status nach dem Scannen dieses Typs gesetzt wird. So kann eine Reihenfolge der Eingabe festgelegt werden.
 
-|   
-Workflow Beispiel  
-WARENEINGANG – WARENBEWEGUNG – NVE + MENGE |
+| <br>Workflow Beispiel<br>WARENEINGANG – WARENBEWEGUNG – NVE + MENGE |
 | --- |
 | Status | Sort | Feldtyp | Feldname | Feldbezeichnung | Prüf-u. Anzeigepr. | Folgest. |
 | 0 | 1 | WARENEINGANG | &lt;null> | &lt;null> | P_WE | 100 |

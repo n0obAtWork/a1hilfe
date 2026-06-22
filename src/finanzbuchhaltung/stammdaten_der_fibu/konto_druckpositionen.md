@@ -12,23 +12,9 @@ In dem Erfassungsbildschirm können die nachfolgenden Felder bearbeitet werden.
 
 | Feld | Beschreibung |
 | --- | --- |
-| Nummer  
- | Identifikation der Druckposition. Diese wird im Sachkontenstamm bzw. bei den Obersachkonten abgefragt. Sie dient gleichzeitig als Sortierungskriterium auf den Listen.  
- |
-| Gruppe  
- | Dieses Feld kann dazu dienen, die Druckpositionsbereiche zu gliedern. Hinter der Gruppe steht das Anwenderformat AF_SAKOPOGRU. Es kann direkt über **F3** und dort **F8** (Stammdatenpflege) erweitert werden. Es wird von A.eins nicht für Auswertungen herangezogen.  
- |
-| Bezeichnung | Bezeichnung der Druckposition für Auswahllisten etc.  
-Ist der Steuerungsparameter 34 "Mehrsprachigkeit aktiv“ in A.eins gesetzt, so hat man auf diesem Feld die Möglichkeit mit F3 [sprachabhängige Bezeichnungen](../../firmenstamm/a_eins_sprache/sprachabhaengige_bezeichnung_in_den_stammdaten.md) zu pflegen.  
- |
-| Überschrift  
- | Text für den Druck einer Überschrift in Standardsprache.  
-Ist der Steuerungsparameter 34 "Mehrsprachigkeit aktiv“ in A.eins gesetzt, so hat man auf diesem Feld die Möglichkeit mit F3 [sprachabhängige Bezeichnungen](../../firmenstamm/a_eins_sprache/sprachabhaengige_bezeichnung_in_den_stammdaten.md) zu pflegen.  
- |
-| Summenzeile  
- | Beschreibung Text für die Beschriftung einer Summenzeile in Standardsprache.  
-Ist der Steuerungsparameter 34 "Mehrsprachigkeit aktiv“ in A.eins gesetzt, so hat man auf diesem Feld die Möglichkeit mit F3 [sprachabhängige Bezeichnungen](../../firmenstamm/a_eins_sprache/sprachabhaengige_bezeichnung_in_den_stammdaten.md) zu pflegen.  
- |
-| Ober-Position  
- | Die Ergebnisse einer Summenzeile können in eine übergeordnete Position, die **"Oberposition"**, übertragen werden. Hierdurch wird eine schrittweise Verdichtung des Kontenplans zu Gesamtzahlen ermöglicht. Ein ähnliches Ergebnis kann auch mit den Oberkonten erreicht werden. Welches Verfahren im Einzelfall vorzuziehen ist oder ob beide eingesetzt werden, muss von Fall zu Fall entschieden werden.  
- |
+| Nummer<br> | Identifikation der Druckposition. Diese wird im Sachkontenstamm bzw. bei den Obersachkonten abgefragt. Sie dient gleichzeitig als Sortierungskriterium auf den Listen.<br> |
+| Gruppe<br> | Dieses Feld kann dazu dienen, die Druckpositionsbereiche zu gliedern. Hinter der Gruppe steht das Anwenderformat AF_SAKOPOGRU. Es kann direkt über **F3** und dort **F8** (Stammdatenpflege) erweitert werden. Es wird von A.eins nicht für Auswertungen herangezogen.<br> |
+| Bezeichnung | Bezeichnung der Druckposition für Auswahllisten etc.<br>Ist der Steuerungsparameter 34 "Mehrsprachigkeit aktiv“ in A.eins gesetzt, so hat man auf diesem Feld die Möglichkeit mit F3 [sprachabhängige Bezeichnungen](../../firmenstamm/a_eins_sprache/sprachabhaengige_bezeichnung_in_den_stammdaten.md) zu pflegen.<br> |
+| Überschrift<br> | Text für den Druck einer Überschrift in Standardsprache.<br>Ist der Steuerungsparameter 34 "Mehrsprachigkeit aktiv“ in A.eins gesetzt, so hat man auf diesem Feld die Möglichkeit mit F3 [sprachabhängige Bezeichnungen](../../firmenstamm/a_eins_sprache/sprachabhaengige_bezeichnung_in_den_stammdaten.md) zu pflegen.<br> |
+| Summenzeile<br> | Beschreibung Text für die Beschriftung einer Summenzeile in Standardsprache.<br>Ist der Steuerungsparameter 34 "Mehrsprachigkeit aktiv“ in A.eins gesetzt, so hat man auf diesem Feld die Möglichkeit mit F3 [sprachabhängige Bezeichnungen](../../firmenstamm/a_eins_sprache/sprachabhaengige_bezeichnung_in_den_stammdaten.md) zu pflegen.<br> |
+| Ober-Position<br> | Die Ergebnisse einer Summenzeile können in eine übergeordnete Position, die **"Oberposition"**, übertragen werden. Hierdurch wird eine schrittweise Verdichtung des Kontenplans zu Gesamtzahlen ermöglicht. Ein ähnliches Ergebnis kann auch mit den Oberkonten erreicht werden. Welches Verfahren im Einzelfall vorzuziehen ist oder ob beide eingesetzt werden, muss von Fall zu Fall entschieden werden.<br> |

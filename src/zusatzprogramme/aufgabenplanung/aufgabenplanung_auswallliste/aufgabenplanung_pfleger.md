@@ -10,12 +10,9 @@
 | Aufgenommen von | Kürzel des Erstellers |
 | Aufgenommen am | Datum an dem der Datensatz erstellt wurde |
 | Verantwortlicher | Kürzel des ToDo Inhabers |
-| Status | 0: offen  
-1: erledigt |
-| Termin von | Datum  
-Uhrzeit |
-| Termin bis | Datum  
-Uhrzeit |
+| Status | 0: offen<br>1: erledigt |
+| Termin von | Datum<br>Uhrzeit |
+| Termin bis | Datum<br>Uhrzeit |
 | Für Kunde | Kunden ID (**F3**) |
 | Betreff | Betreff des ToDos |
 | Beschreibung | Text zum ToDo |
@@ -27,8 +24,6 @@ Uhrzeit |
 
 | Funktion | Beschreibung |
 | --- | --- |
-| Neu (**F8**),  
-Speichern (**F9**) | Erstellt neuen Datensatz  
-Speichert aktuellen Datensatz |
+| Neu (**F8**),<br>Speichern (**F9**) | Erstellt neuen Datensatz<br>Speichert aktuellen Datensatz |
 
 </details>

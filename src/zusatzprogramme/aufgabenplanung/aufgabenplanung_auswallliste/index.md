@@ -16,8 +16,7 @@ oder Direktsprung **[TODO]**
 | Kundennummer | ID des Kunden |
 | Kundenbezeichnung | Bezeichnung des Kunden |
 | Verantwortlicher | Kürzel des ToDo Inhabers |
-| Status | 0: offen  
-1: erledigt |
+| Status | 0: offen<br>1: erledigt |
 | Termin von | Datum Start |
 | Termin bis | Datum Ende |
 | Betreff | Betreff des ToDos |
@@ -29,8 +28,7 @@ oder Direktsprung **[TODO]**
 
 | Suchen | Beschreibung |
 | --- | --- |
-| Status | 0: offen  
-1: erledigt |
+| Status | 0: offen<br>1: erledigt |
 | Verantwortlicher | Kürzel des ToDo Inhabers |
 | Termin | Von… Bis… |
 | Kunde | ID des Kunden |
@@ -44,13 +42,7 @@ oder Direktsprung **[TODO]**
 
 | Funktion | Beschreibung |
 | --- | --- |
-| Ändern (**F5**),  
-Ansehen (**F6**),  
-Löschen (**F7**),  
-Neu (**F8**) | Datensatz wird zum bearbeiten geöffnet  
-Datensatz wird angezeigt  
-Ausgewählter Datensatz wird gelöscht  
-Erstellt neuen Datensatz |
+| Ändern (**F5**),<br>Ansehen (**F6**),<br>Löschen (**F7**),<br>Neu (**F8**) | Datensatz wird zum bearbeiten geöffnet<br>Datensatz wird angezeigt<br>Ausgewählter Datensatz wird gelöscht<br>Erstellt neuen Datensatz |
 
 </details>
 

@@ -10,15 +10,12 @@ oder Direktsprung **[BCS]**
 | --- | --- |
 | Ident | Interne laufende Nummer der Definition |
 | Bezeichnung | Bezeichnung dieser Barcode-Schema-Definition |
-| Kennung | Präfix des Barcodes. Dieser muss mit 2 beginnen und kann zwischen 1 und 3 Ziffern lang sein. Bitte beachten Sie, dass es keine Überschneidungen geben darf. Richten Sie ausschließlich zweistellige Kennungen ein, so sind maximal 10 Kombinationen möglich.  
-Die Position der Kennung sollte immer 1 sein. |
+| Kennung | Präfix des Barcodes. Dieser muss mit 2 beginnen und kann zwischen 1 und 3 Ziffern lang sein. Bitte beachten Sie, dass es keine Überschneidungen geben darf. Richten Sie ausschließlich zweistellige Kennungen ein, so sind maximal 10 Kombinationen möglich.<br>Die Position der Kennung sollte immer 1 sein. |
 | Artikelnummer | Geben Sie hier die Position und die Länge der Artikelnummer ein. |
 | Menge | Geben Sie hier die Position, die Länge und die Anzahl der darin enthaltenen Nachkommastellen der Menge an. |
 | Mengeneinheit | Geben Sie hier die Position und die Länge der Mengeneinheit an. |
 | Preis | Geben Sie hier die Position, die Länge und die Anzahl der darin enthaltenen Nachkommastellen des Preises an. |
-| Kommando | Geben Sie hier die Position und die Länge eines Kommandocodes ein. Dieser Code kann in einem Makro interpretiert und der restliche Barcode zu einem Funktionsaufruf gewandelt werden.  
-Diese Barcodes können nur in der Marktkasse ausgewertet werden.  
-Siehe auch [Kommandos in Barcodes](./barcode_schema_einrichter.md#Einrichten_Barcodes_Kommandos). |
+| Kommando | Geben Sie hier die Position und die Länge eines Kommandocodes ein. Dieser Code kann in einem Makro interpretiert und der restliche Barcode zu einem Funktionsaufruf gewandelt werden.<br>Diese Barcodes können nur in der Marktkasse ausgewertet werden.<br>Siehe auch [Kommandos in Barcodes](./barcode_schema_einrichter.md#Einrichten_Barcodes_Kommandos). |
 
 Wenn Sie eine Angabe nicht machen wollen, so setzen Sie bitte die zugehörigen Werte auf 0.
 

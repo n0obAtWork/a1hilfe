@@ -56,8 +56,7 @@ Die Feldnamen für das Warenbewegungsaddon sind festvorgegeben und können nicht
 | Warenbewegungsfeldname | Bedeutung |
 | --- | --- |
 | CircleMinPreis | In diesem Feld wird der Preis des Circlegeschäfts hinterlegt |
-| CircleMinPreisEinh | In diesem Feld wird die Preiseinheit hinterlegt.  
-z.B. Preis \* 1,5 pro Kilogramm |
+| CircleMinPreisEinh | In diesem Feld wird die Preiseinheit hinterlegt.<br>z.B. Preis \* 1,5 pro Kilogramm |
 | CircleMinPreisME | In diesem Feld wird die Preismengeneinheit hinterlegt. |
 
 <p class="just-emphasize">Einrichtung in Aeins</p>
@@ -81,11 +80,8 @@ Für Washout und Circle wurden dreizehn Steuerparameter eingestellt.
 | 817 | Mit diesem Steuerparameter kann eingestellt werden, welche Zahlungsbedingung für den Lieferanten beim Washout gilt. |
 | 818 | Mit diesem Steuerparameter kann eingestellt werden, welche Zahlungsbedingung für den Kunden beim Circle gilt. |
 | 819 | Mit diesem Steuerparameter kann eingestellt werden, welche Zahlungsbedingung für den Lieferanten beim Circle gilt. |
-| 821 | Mit diesem Steuerparameter kann eingestellt werden, ob mit Preis \* Preiseinheit in der Abschluss Rechnung/Gutschrift gerechnet werden soll, oder ob der Differenz Betrag gebucht werden soll.  
- |
-| 837 | Anhand dieses Steuerparameters kann eingestellt werden, ob alle Washout oder Circle Vorgänge über ein bestimmtes Lager laufen sollen.  
-Wenn Parameter „Bestimmtes Lager verwenden“ auf „Ja“ gestellt wird, so muss in das Feld Lagernummer das Lager eingetragen werden, auf den die Washout und Circle Vorgänge gebucht werden sollen.  
-Wird der Parameter auf „Nein“ gestellt, so wird das Lager des jeweiligen Kontraktes gezogen. |
+| 821 | Mit diesem Steuerparameter kann eingestellt werden, ob mit Preis \* Preiseinheit in der Abschluss Rechnung/Gutschrift gerechnet werden soll, oder ob der Differenz Betrag gebucht werden soll.<br> |
+| 837 | Anhand dieses Steuerparameters kann eingestellt werden, ob alle Washout oder Circle Vorgänge über ein bestimmtes Lager laufen sollen.<br>Wenn Parameter „Bestimmtes Lager verwenden“ auf „Ja“ gestellt wird, so muss in das Feld Lagernummer das Lager eingetragen werden, auf den die Washout und Circle Vorgänge gebucht werden sollen.<br>Wird der Parameter auf „Nein“ gestellt, so wird das Lager des jeweiligen Kontraktes gezogen. |
 
 <p class="just-emphasize">Voraussetzungen</p>
 

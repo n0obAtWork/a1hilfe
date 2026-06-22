@@ -20,12 +20,10 @@ Folgende Funktionstasten werden in A.eins eingesetzt:
 | Shift+F2 | Anzeige und Änderungsmöglichkeit für die dieser Maske zugrunde liegenden Erfassungsparameter (EPA, siehe dort) Positionieren in einer Datei oder einem Zeichensatz |
 | Ende | Steht man in einem Eingabefeld, wird die Schreibmarke ans Ende des Textes positioniert. |
 | Shift+Ende | Steht man in einem Eingabefehl, dann wird die Schreibmarke ans Ende des Textes positioniert und der Text markiert. |
-| Strg+Ende | In der Auswahlliste wird in die letzte Zeile gesprungen.  
-In einem Stammdatenpfleger wird der letzte markierte Datensatz aufgerufen. |
+| Strg+Ende | In der Auswahlliste wird in die letzte Zeile gesprungen.<br>In einem Stammdatenpfleger wird der letzte markierte Datensatz aufgerufen. |
 | Pos1 | Setzt die Schreibmarke an die erste Stelle des Eingabefeldes |
 | Shift+Pos1 | Steht man in einem Eingabefeld, wird die Schreibemarke an den Anfang positioniert und alle Zeichen ab der letzten Position der Schreibmarke werden markiert. |
-| Strg+Pos1 | In der Auswahlliste wird in die erste Zeile gesprungen.  
-In einem Stammdatenpfleger wird der erste markierte Datensatz aufgerufen. |
+| Strg+Pos1 | In der Auswahlliste wird in die erste Zeile gesprungen.<br>In einem Stammdatenpfleger wird der erste markierte Datensatz aufgerufen. |
 | TAB | Vorwärts bewegen in einer Tabelle, z.B. den Feldern des Kundenstamms |
 | Shift+TAB | Rückwärts bewegen in einer Tabelle, z.B. den Feldern des Kundenstamms |
 | Strg+TAB | Wenn auf einer Maske ein Register vorhanden ist, wird mit Strg+TAB von einer Registerkarte zur nächsten geblättert. |
@@ -34,7 +32,5 @@ In einem Stammdatenpfleger wird der erste markierte Datensatz aufgerufen. |
 | Strg+← | Wenn man sich in einem Stammdatenpfleger befindet, so kann man mit Strg + Pfeiltaste Aufwärts in den in der Auswahlliste markierten Daten rückwärts blättern. |
 | Strg+A | In der Auswahlliste werden alle Datensätze markiert oder entmarkiert. |
 | Strg+E | Wenn die Schreibmarke in einer Datentabelle steht, dann können die Daten schnell mit Strg+E so wie sie in A.eins zu sehen sind, nach Excel bzw. dem mit CSV-Dateien verbundenem Programm übertragen werden. Diese Funktion muss erst im Schutzsystem freigeschaltet werden. Die Funktion lautet „GRIDDATATOCSV“. |
-| Shift+Strg+Einfg | Zeilenbedienung in Datentabellen:  
-fügt eine neue leere Zeile in einer Datentabelle ein |
-| Shift+Strg+Entf | Zeilenbedienung in Datentabellen:  
-löscht die aktuelle Zeile (in welcher der Cursor steht) in einer Datentabelle |
+| Shift+Strg+Einfg | Zeilenbedienung in Datentabellen:<br>fügt eine neue leere Zeile in einer Datentabelle ein |
+| Shift+Strg+Entf | Zeilenbedienung in Datentabellen:<br>löscht die aktuelle Zeile (in welcher der Cursor steht) in einer Datentabelle |

@@ -7,20 +7,5 @@
 | Kassensystem: | Hardware-Arbeitsplatz | gemäß Kassensystemverwaltung |
 | Kasse | logischer Arbeitsplatz | gemäß Kassenverwaltung |
 | Kassenkonto: | Anwendung für Kostenkonten bei Verteilung je nach Zahlungsart Kassenkonto in der Kassenverwaltung, auf das gebucht wird |
-| Finanzvorgang | Folgende Belegarten werden Finanzvorgänge genannt:  
-10 Zahlungsmeldung  
-11 Einzahlung  
-12 Geldübernahme von einer anderen Kasse  
-14 Geldentnahme mit Zuordnung Sachkonto  
-15 Auszahlung  
-16 Geldübergabe an eine andere Kasse  
-17 Abschöpfung / Einreichung  
-18 Sortenwechsel  
-20 Kassensturz |
-| Barvorgang | Folgende Belegarten werden Barvorgang genannt:  
-2 Barverkauf  
-4 Barverkauf Gutschrift  
-6 Bareinkauf  
-23 Storno Barverkauf  
-24 Storno Barverkauf-Gutschrift  
-25 Storno Bareinkauf |
+| Finanzvorgang | Folgende Belegarten werden Finanzvorgänge genannt:<br>10 Zahlungsmeldung<br>11 Einzahlung<br>12 Geldübernahme von einer anderen Kasse<br>14 Geldentnahme mit Zuordnung Sachkonto<br>15 Auszahlung<br>16 Geldübergabe an eine andere Kasse<br>17 Abschöpfung / Einreichung<br>18 Sortenwechsel<br>20 Kassensturz |
+| Barvorgang | Folgende Belegarten werden Barvorgang genannt:<br>2 Barverkauf<br>4 Barverkauf Gutschrift<br>6 Bareinkauf<br>23 Storno Barverkauf<br>24 Storno Barverkauf-Gutschrift<br>25 Storno Bareinkauf |

@@ -14,18 +14,11 @@ Bevor man die Vorschläge erstellt, werden folgende Daten abgefragt:
 
 | | Bedeutung |
 | --- | --- |
-| Bereich | Da im Zuge von BilMoG eine Trennung nach Handels- und Steuerrecht möglich ist, kann man auch die Abschreibungsvorschläge getrennt erstellen.  
- |
-| Stichtag | Er wird mit dem aktuellen Tagesdatum vorbelegt und beim Buchen der Abschreibung als Belegdatum herangezogen.  
- |
-| Bis Periode/Jahr | Die Werte werden an Hand des Stichtages vorbelegt. Sie dienen zur Abgrenzung des Abschreibungsintervalls. Stichtag, Periode und Jahr werden in die Anlagenposition übernommen. Es wird daher geprüft, ob das Datum innerhalb der Periode liegt und ggf. die Hinweismeldung  
-„Das Datum 26.03.2008 und die Periode 2/2008 passen nicht zusammen!“  
-ausgegeben.  
- |
-| Bezeichnung | Dieser Text dient zur Identifikation. Er wird später beim Buchen des Vorschlags als Text in das Protokoll der Veränderungen des Anlagegutes übernommen.  
- |
-| Inventarnummer | Gibt man hier etwas ein, so werden nur für die Anlagegüter AfA-Vorschläge erstellt, die dieser Inventarnummer entsprechen. Intern erfolgt die Auswahl mit dem SQL-Befehl „like“. Das hat den Vorteil, dass man so – bei entsprechender Vergabe der Inventarnummer – eine Gruppe von Anlagegütern verarbeiten kann. Man gibt z.B. nur die ersten Stellen der Inventarnummer gefolgt von einem Prozentzeichen an. Dadurch weiß das System, dass alle so beginnenden Anlagegüter verarbeitet werden sollen. Lässt man das Prozentzeichen weg, wird nach genau dieser Nummer gesucht. Lässt man das Feld leer, werden alle Anlagegüter verarbeitet.  
- |
+| Bereich | Da im Zuge von BilMoG eine Trennung nach Handels- und Steuerrecht möglich ist, kann man auch die Abschreibungsvorschläge getrennt erstellen.<br> |
+| Stichtag | Er wird mit dem aktuellen Tagesdatum vorbelegt und beim Buchen der Abschreibung als Belegdatum herangezogen.<br> |
+| Bis Periode/Jahr | Die Werte werden an Hand des Stichtages vorbelegt. Sie dienen zur Abgrenzung des Abschreibungsintervalls. Stichtag, Periode und Jahr werden in die Anlagenposition übernommen. Es wird daher geprüft, ob das Datum innerhalb der Periode liegt und ggf. die Hinweismeldung<br>„Das Datum 26.03.2008 und die Periode 2/2008 passen nicht zusammen!“<br>ausgegeben.<br> |
+| Bezeichnung | Dieser Text dient zur Identifikation. Er wird später beim Buchen des Vorschlags als Text in das Protokoll der Veränderungen des Anlagegutes übernommen.<br> |
+| Inventarnummer | Gibt man hier etwas ein, so werden nur für die Anlagegüter AfA-Vorschläge erstellt, die dieser Inventarnummer entsprechen. Intern erfolgt die Auswahl mit dem SQL-Befehl „like“. Das hat den Vorteil, dass man so – bei entsprechender Vergabe der Inventarnummer – eine Gruppe von Anlagegütern verarbeiten kann. Man gibt z.B. nur die ersten Stellen der Inventarnummer gefolgt von einem Prozentzeichen an. Dadurch weiß das System, dass alle so beginnenden Anlagegüter verarbeitet werden sollen. Lässt man das Prozentzeichen weg, wird nach genau dieser Nummer gesucht. Lässt man das Feld leer, werden alle Anlagegüter verarbeitet.<br> |
 
 Nachdem man diesen Vorgang mit **F9** gestartet hat, werden im unteren Bereich der Abfragemaske die gerade bearbeiteten Anlagegüter angezeigt. Wenn noch AfA-Vorschläge existieren, die noch nicht freigegeben wurden, so erscheint die Meldung:
 

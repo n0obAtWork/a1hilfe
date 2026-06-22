@@ -15,12 +15,8 @@ Von der mitgelieferten Ladeprozedur **HoleIndividuellePreiseKunde** werden nachf
 | ab Menge | ArtiIndAbMenge | numeric(15,4) | Ab welcher Menge der Preis für den Artikel gilt |
 | pro Menge | PreisEinheit | numeric(15,4) | Preiseinheit: für wie viele Einheiten des Artikels der Preis gilt |
 | Preis zum Datum 1 (individuelles Datum) | Preis1 | numeric(15,4) | Preis zum im Spaltenkopf angegebenen Datum |
-| Preis zum Datum 2 (individuelles Datum) | Preis2 | numeric(15,4) | Preis zum im Spaltenkopf angegebenen Datum  
-Standard: nächster folgender Montag  
-Kann individuell eingerichtet werden. |
-| Preis zum Datum 3 (individuelles Datum) | Preis3 | numeric(15,4) | Preis zum im Spaltenkopf angegebenen Datum  
-Standard: übernächster folgender Montag  
-Kann individuell eingerichtet werden. |
+| Preis zum Datum 2 (individuelles Datum) | Preis2 | numeric(15,4) | Preis zum im Spaltenkopf angegebenen Datum<br>Standard: nächster folgender Montag<br>Kann individuell eingerichtet werden. |
+| Preis zum Datum 3 (individuelles Datum) | Preis3 | numeric(15,4) | Preis zum im Spaltenkopf angegebenen Datum<br>Standard: übernächster folgender Montag<br>Kann individuell eingerichtet werden. |
 | individuelles gültig bis Datum | IndivPrBisDatum | date | Erlaubt das Gültig-Bis Datum für einen kompletten Gültigkeitszeitraum in Form eines Mengenänderns zu überschreiben. Wird hier ein neues gültig bis Datum eingetragen, ersetzt es das gültig bis Datum des kompletten Preisbandes. So können Preisbänder verlängert werden, wenn ein zusätzlicher Preispunkt aufgenommen werden soll. |
 | ME-Nr. Menge | MENummerAbMenge | integer | Mengeneinheitsnummer und Bezeichnung der ab-Menge. Muss für alle Einträge mit dem gleichen Gültig-Ab Datum identisch sein. |
 | ME-Bezeichnung | MENumAbMenBez | char(40) | Bezeichnung der ab-Menge. |

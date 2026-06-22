@@ -24,12 +24,9 @@ Benötigte JVARS
 
 | JAVR | Funktion | Bedeutung |
 | --- | --- | --- |
-| VORGANGHANDLE | Lesend  
- | Mit dieser JVAR wird der Vorgangshandel des aktiven Vorgangs übergeben. |
-| POSITIONHANDLE | Lesend  
- | Mit dieser JVAR wird das aktuelle Positionshandle übergeben. Über den Positionshandle kann der Typ der Positionszeile bestimmt werden. |
-| PARAM | Lesend  
- | Diese JVAR ist nicht immer versorgt. Enthält diese JVAR ein Wert, so ist es der Zeilentyp. |
+| VORGANGHANDLE | Lesend<br> | Mit dieser JVAR wird der Vorgangshandel des aktiven Vorgangs übergeben. |
+| POSITIONHANDLE | Lesend<br> | Mit dieser JVAR wird das aktuelle Positionshandle übergeben. Über den Positionshandle kann der Typ der Positionszeile bestimmt werden. |
+| PARAM | Lesend<br> | Diese JVAR ist nicht immer versorgt. Enthält diese JVAR ein Wert, so ist es der Zeilentyp. |
 
 Beispiel Prozedur des Makro für die SVPOSI
 

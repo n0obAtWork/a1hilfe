@@ -10,26 +10,11 @@ Die aus den einzelnen Rechnungen / Offenen Posten eines Personenkontos resultier
 
 | Feld | Beschreibung |
 | --- | --- |
-| Nummer  
- | Identifikation der Forderungsgruppe. Diese wird als Verweis im Kunden-/Lieferantenstamm hinterlegt.  
- |
-| Bezeichnung  
- | Die Bezeichnung dient lediglich zur textlichen Beschreibung der Forderungsgruppe und hat keine Programmfunktion. Sie wird in Auswahllisten bzw. Reporten zur Anzeige verwendet.  
-Ist der Steuerungsparameter 34 "Mehrsprachigkeit aktiv“ in A.eins gesetzt, so hat man auf diesem Feld die Möglichkeit mit F3 [sprachabhängige Bezeichnungen](../../firmenstamm/a_eins_sprache/sprachabhaengige_bezeichnung_in_den_stammdaten.md) zu pflegen.  
- |
-| Konto Forderungen/ Konto Verbindlichkeiten  
- | In A.eins können Personenkonten sowohl Forderungen als auch Verbindlichkeiten ausweisen (Kontokorrent- Kunden). Daher ist es notwendig in der Forderungsgruppe sowohl ein Forderungs- als auch Verbindlichkeitskonto anzugeben. Die Konten können mit **F3** ausgewählt werden. In dieser F3-Auswahl werden nur Bilanzkonten angeboten, deren Erfassungssperre gesetzt ist, die kein Steuerkonto sind und die nicht als Erlöskonto verwendet werden.  
-**ACHTUNG: Forderungs- und Verbindlichkeitskonten dürfen nicht direkt bebucht werden.**  
-Wie die Forderungs- und Verbindlichkeitskonten eingerichtet werden sollten, hängt zum einen von der Firmeneigenen Struktur und zum anderen von dem Steuerungsparameter „Methode der Forderungs-Verb-Zuordnung“ ab.  
- |
-| Ersatzkonto DATEV | Dieses Feld erscheint nur, wenn das DATEV-Modul aktiv ist und man im DATEV-Firmenstamm angegeben hat, dass man ein Ersatzkonto aus der Forderungsgruppe verwenden will. Dieses Ersatzkonto wurde aus zwei Gründen eingeführt.  
-1. Die Personenkonten wurden eingerichtet, bevor man sich im Unternehmen entschieden hatte, die DATEV-Schnittstelle zu verwenden und die Nummern der Personenkonten nicht DATEV-konform eingerichtet worden sind.  
-2. Man hat sich entschieden, dem Steuerberater keine genauen Informationen über die Personenkonten mitzugeben.  
- |
-| Gesperrt | Forderungsgruppe sperren. Gesperrte Forderungsgruppen werden in der F3-Auswahl von der Anzeige ausgeschlossen. So können gesperrte Forderungsgruppen nicht im Kundenstamm ausgewählt werden.  
-   
-Vorbelegung: Nein.  
- |
+| Nummer<br> | Identifikation der Forderungsgruppe. Diese wird als Verweis im Kunden-/Lieferantenstamm hinterlegt.<br> |
+| Bezeichnung<br> | Die Bezeichnung dient lediglich zur textlichen Beschreibung der Forderungsgruppe und hat keine Programmfunktion. Sie wird in Auswahllisten bzw. Reporten zur Anzeige verwendet.<br>Ist der Steuerungsparameter 34 "Mehrsprachigkeit aktiv“ in A.eins gesetzt, so hat man auf diesem Feld die Möglichkeit mit F3 [sprachabhängige Bezeichnungen](../../firmenstamm/a_eins_sprache/sprachabhaengige_bezeichnung_in_den_stammdaten.md) zu pflegen.<br> |
+| Konto Forderungen/ Konto Verbindlichkeiten<br> | In A.eins können Personenkonten sowohl Forderungen als auch Verbindlichkeiten ausweisen (Kontokorrent- Kunden). Daher ist es notwendig in der Forderungsgruppe sowohl ein Forderungs- als auch Verbindlichkeitskonto anzugeben. Die Konten können mit **F3** ausgewählt werden. In dieser F3-Auswahl werden nur Bilanzkonten angeboten, deren Erfassungssperre gesetzt ist, die kein Steuerkonto sind und die nicht als Erlöskonto verwendet werden.<br>**ACHTUNG: Forderungs- und Verbindlichkeitskonten dürfen nicht direkt bebucht werden.**<br>Wie die Forderungs- und Verbindlichkeitskonten eingerichtet werden sollten, hängt zum einen von der Firmeneigenen Struktur und zum anderen von dem Steuerungsparameter „Methode der Forderungs-Verb-Zuordnung“ ab.<br> |
+| Ersatzkonto DATEV | Dieses Feld erscheint nur, wenn das DATEV-Modul aktiv ist und man im DATEV-Firmenstamm angegeben hat, dass man ein Ersatzkonto aus der Forderungsgruppe verwenden will. Dieses Ersatzkonto wurde aus zwei Gründen eingeführt.<br>1. Die Personenkonten wurden eingerichtet, bevor man sich im Unternehmen entschieden hatte, die DATEV-Schnittstelle zu verwenden und die Nummern der Personenkonten nicht DATEV-konform eingerichtet worden sind.<br>2. Man hat sich entschieden, dem Steuerberater keine genauen Informationen über die Personenkonten mitzugeben.<br> |
+| Gesperrt | Forderungsgruppe sperren. Gesperrte Forderungsgruppen werden in der F3-Auswahl von der Anzeige ausgeschlossen. So können gesperrte Forderungsgruppen nicht im Kundenstamm ausgewählt werden.<br> <br>Vorbelegung: Nein.<br> |
 
 Wird in einer Forderungsgruppe das Forderungs- oder Verbindlichkeitskonto geändert und existieren in **nicht abgeschlossenen** Perioden Belege, in denen Personenkonten mit dieser Gruppe vorkommen, so wird ein Kennzeichen gesetzt, dass eine [Reorganisation](../fibu_reorganisator/reorganisation_starten.md) notwendig ist. Das Ändern von Forderungsgruppen, für die bereits in **abgeschlossenen** Perioden Belege existieren, ist nicht mehr möglich.
 

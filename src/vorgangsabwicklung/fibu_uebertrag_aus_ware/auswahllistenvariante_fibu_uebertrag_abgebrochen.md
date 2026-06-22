@@ -22,25 +22,16 @@ Die Funktion ‚*Fibu-Kennzeichen zurücksetzen‘* setzt, wenn möglich, den Fi
 
 | Feld | Beschreibung |
 | --- | --- |
-| Belegnr. | Vorgangsnummer,  
-bei Rohwaresammeldruck die Sammeldrucknummer |
-| Belegdatum | Belegdatum des Vorgang,  
-bei Rohwaresammeldruck die Sammeldrucknummer |
+| Belegnr. | Vorgangsnummer,<br>bei Rohwaresammeldruck die Sammeldrucknummer |
+| Belegdatum | Belegdatum des Vorgang,<br>bei Rohwaresammeldruck die Sammeldrucknummer |
 | Datum Buchungsauftrag | Datum der Erstellung des Übertragungsauftrags für den Mandantenserver |
 | Kontonr. | Kunden-/Lieferantennummer = Kontonummer |
 | Kunde | Bezeichnung des Kunden/Lieferanten |
 | Typ | Vorgangsklassenkürzel des Belegs |
 | Unterklasse | Nummer der Vorgangsunterklasse |
-| Rohware | Rohware-Kennung:  
- --: kein Rohwarevorgang  
- RW-Beleg: Rohware-Einzelbeleg  
-..RW-Sammeldruck: Rohware-Sammeldruck |
-| RW-Stufe | Rohware-Abrechnungsstufe:  
-Abschlag, F-Abschlag, Finale |
-| Fib | ‚--': Beleg ist noch nicht übertragen  
-i.B.: Übertragungsauftrag an Mandantenserver erteilt  
-Ja: Beleg ist an Fibu übertragen  
-NN: Beleg ist nicht übertragbar (z.B. Stornobeleg zu nicht übertragenem Originalbeleg) |
+| Rohware | Rohware-Kennung:<br> --: kein Rohwarevorgang<br> RW-Beleg: Rohware-Einzelbeleg<br>..RW-Sammeldruck: Rohware-Sammeldruck |
+| RW-Stufe | Rohware-Abrechnungsstufe:<br>Abschlag, F-Abschlag, Finale |
+| Fib | ‚--': Beleg ist noch nicht übertragen<br>i.B.: Übertragungsauftrag an Mandantenserver erteilt<br>Ja: Beleg ist an Fibu übertragen<br>NN: Beleg ist nicht übertragbar (z.B. Stornobeleg zu nicht übertragenem Originalbeleg) |
 | Periode. | Warenwirtschaftsperiode des Vorgangs |
 | Jahr | Warenwirtschaftsjahr des Vorgangs |
 | PeriodeFibu | Fibuperiode des Vorgangs |

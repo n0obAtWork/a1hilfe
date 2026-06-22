@@ -11,35 +11,27 @@
 | \-7 | *LlPrint[G|S]etOption[String](), LlPrintResetProjectState()*. Der Druckjob ist noch nicht gestartet |
 | \-10 | *LlPrint[WithBox]Start()*: Es existiert kein Objekt mit dem angegebenen Dateinamen. |
 | \-11 | *LlPrint[WithBox]Start()*: Druckerjob konnte nicht gestartet werden, da kein Drucker-Device geöffnet werden konnte. |
-| \-12 | Während des Druckens trat ein Fehler auf. Häufigste Ursache:  
-Druckspooler voll, bzw. der vom Druckspooler benötigte Platz ist auf dem Laufwerk auf das TEMP zeigt nicht mehr vorhanden (Pro Seite kann je nach Druckauflösung und verwendeter Grafik ein Platzbedarf von einigen MB entstehen. Abhilfe schafft meist auch die Einstellung des Direktdrucks ohne Spooler). Mögliche Ursache bei Direktdruck: allg. Druckerfehler, Papierstau, etc. |
+| \-12 | Während des Druckens trat ein Fehler auf. Häufigste Ursache:<br>Druckspooler voll, bzw. der vom Druckspooler benötigte Platz ist auf dem Laufwerk auf das TEMP zeigt nicht mehr vorhanden (Pro Seite kann je nach Druckauflösung und verwendeter Grafik ein Platzbedarf von einigen MB entstehen. Abhilfe schafft meist auch die Einstellung des Direktdrucks ohne Spooler). Mögliche Ursache bei Direktdruck: allg. Druckerfehler, Papierstau, etc. |
 | \-13 | Beim Exportieren ist ein Fehler aufgetreten (z.B. keine Zugriffsrechte auf Zielpfad, zu exportierende Datei schon vorhanden und schreibgeschützt,...) |
 | \-14 | Diese DLL-Version benötigt Visual Basic. |
 | \-15 | Bei Druckoptionen: kein Drucker verfügbar. |
 | \-16 | Preview-Funktionen: bei *LlPrint[WithBox]Start()* wurde kein Preview-Mode eingestellt. |
 | \-17 | *LlPreviewDisplay()*: Keine Preview-Dateien gefunden. |
-| \-18 | NULL Zeiger als Parameter ist hier nicht gestattet, möglicherweise auch andere Parameter-Fehler. Bitte benutzen  
-Sie den Debug-Modus zur Bestimmung des Fehlers. |
+| \-18 | NULL Zeiger als Parameter ist hier nicht gestattet, möglicherweise auch andere Parameter-Fehler. Bitte benutzen<br>Sie den Debug-Modus zur Bestimmung des Fehlers. |
 | \-19 | Neuer Expression-Modus: Ein Ausdruck in *LlExprEvaluate()* konnte nicht interpretiert werden. |
 | \-20 | Unbekannter Ausdrucks-Modus in *LlSetOption()*. |
 | \-22 | *LlPrint[WithBox]Start()*: Projektdatei wurde nicht gefunden. |
-| \-23 | *LlPrint[WithBox]Start()*: Einer der verwendeten Ausdrücke hat einen Fehler. Verwenden Sie *LlExprError()*, um den  
-Fehler zu finden. |
+| \-23 | *LlPrint[WithBox]Start()*: Einer der verwendeten Ausdrücke hat einen Fehler. Verwenden Sie *LlExprError()*, um den<br>Fehler zu finden. |
 | \-24 | *LlPrint[WithBox]Start()*: Projektdatei hat falsches Format oder ist defekt. |
 | \-25 | *LlPrintEnableObject()*: Der Objektname ist nicht korrekt. |
 | \-27 | *LlPrintEnableObject()*: Es existiert kein Objekt mit diesem Objektnamen. |
-| \-28 | wird von *LlPrintStart()* und *LlPrintWithBoxStart()* zurückgegeben, wenn ein Listen-Projekt gestartet werden soll, das  
-kein Listenobjekt enthält. Wird nur im neuen Expression-Modus zurückgegeben. |
+| \-28 | wird von *LlPrintStart()* und *LlPrintWithBoxStart()* zurückgegeben, wenn ein Listen-Projekt gestartet werden soll, das<br>kein Listenobjekt enthält. Wird nur im neuen Expression-Modus zurückgegeben. |
 | \-29 | *LlPrint[WithBox]Start()*: Das Projekt besitzt keine Objekte,und leere Seiten kann man auch anders drucken! |
 | \-30 | *LlPrintGetTextCharsPrinted()*: Kein Textobjekt in diesemProjekt. |
-| \-31 | *LlPrintIsVariableUsed(), LlPrintIsFieldUsed()*: Die angegebene Variable gibt es nicht. *LlGetUsedIdentifiers()*: Das  
-Projekt wurde noch nicht mit AMIC Etikettendruck 11 oder neuer gespeichert und enthält daher keine Informationen über  
-verwendete Variablen uind Felder. |
+| \-31 | *LlPrintIsVariableUsed(), LlPrintIsFieldUsed()*: Die angegebene Variable gibt es nicht. *LlGetUsedIdentifiers()*: Das<br>Projekt wurde noch nicht mit AMIC Etikettendruck 11 oder neuer gespeichert und enthält daher keine Informationen über<br>verwendete Variablen uind Felder. |
 | \-32 | Feld-Funktionen wurden benutzt, obgleich das Projekt kein Tabellenprojekt ist. |
-| \-33 | *LlPrint[WithBox]Start(), LlDefineLayout()*: Der Ausdruck-Modus der Projektdatei ist der neue Modus, eingestellt ist  
-jedoch der alte Modus (siehe *LlSetOption()*). |
-| \-34 | Funktion ist nur anwendbar, wenn der OneTable-Modus gewählt wurde (*LL_OPTION_ ONLYONETABLE*) (siehe  
-*LlSetOption()*). |
+| \-33 | *LlPrint[WithBox]Start(), LlDefineLayout()*: Der Ausdruck-Modus der Projektdatei ist der neue Modus, eingestellt ist<br>jedoch der alte Modus (siehe *LlSetOption()*). |
+| \-34 | Funktion ist nur anwendbar, wenn der OneTable-Modus gewählt wurde (*LL_OPTION_ ONLYONETABLE*) (siehe<br>*LlSetOption()*). |
 | \-35 | Die bei *LlGetVariableType()* oder *LlGetVariableContents()* angegebene Variable wurde nicht definiert. |
 | \-36 | Das bei *LlGetFieldType()* oder *LlGetFieldContents()* angegebene Feld wurde nicht definiert. |
 | \-37 | Die über die ID bei den Gruppierungs-Funktionen angegebene Sortierreihenfolge wurde nicht definiert. |
@@ -63,6 +55,5 @@ jedoch der alte Modus (siehe *LlSetOption()*). |
 | \-101 | Die benötigte Sprach-DLL wurde nicht gefunden, und auch CMLL11@@.LNG ist nicht vorhanden. |
 | \-102 | Zu wenig freier Speicher |
 | \-104 | Ein GPF ist innerhalb der Funktion aufgetreten. AMIC Etikettendruck könnte bei der weiteren Ausführungen instabil sein |
-| \-105 | Es wurde versucht, eine Funktion aufzurufen, die durch den Lizenzumfang nicht gedeckt ist (z.B. Designeraufruf  
-auf Endkundenrechner mit Standardversion) |
+| \-105 | Es wurde versucht, eine Funktion aufzurufen, die durch den Lizenzumfang nicht gedeckt ist (z.B. Designeraufruf<br>auf Endkundenrechner mit Standardversion) |
 | \-996 | In einem hierarchischen Layout ändert sich der Tabellenname. s. Kap. "4. Unterberichte und mehrere Tabellen" |

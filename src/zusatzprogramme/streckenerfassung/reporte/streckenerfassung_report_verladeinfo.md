@@ -26,8 +26,7 @@ Sprachabhängige Textfelder in diesem Report
 | Mfg | Mit freundlichen Grüßen |
 | BL_Datum | B/L Datum |
 | Bemerkungen | Bemerkungen (wird ausgeblendet, wenn in den Streckentexten nichts eingegeben wurde) |
-| Bitte_unbedingt | Bitte unbedingt den beigefügten Lieferschein bei jeder Lieferung verwenden!  
-(wird nur angezeigt, wenn es in den Streckentexten angehakt wurde) |
+| Bitte_unbedingt | Bitte unbedingt den beigefügten Lieferschein bei jeder Lieferung verwenden!<br>(wird nur angezeigt, wenn es in den Streckentexten angehakt wurde) |
 | Sitz1 | Sitz1 |
 | Sitz2 | Sitz2 |
 | Sitz3 | Sitz3 (wird ausgeblendet, wenn das Druckfeld nicht gepflegt wird) |

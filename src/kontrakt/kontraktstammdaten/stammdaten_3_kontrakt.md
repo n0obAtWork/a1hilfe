@@ -9,8 +9,7 @@ Folgende Felder stehen auf der Registerkarte „Stammdaten 3“ zur Verfügung.
 | Filialnummer | Hier kann die Filialnummer, für welche Filiale der Kontrakt gelten soll, eingetragen werden. |
 | Mahntage erste Mahnung | Anzahl der Tage, ab denen bei Überschreitung der Laufzeit automatisch Erinnerungsschreiben erstellt werden. |
 | Mahntage zweite Mahnung | Anzahl der Tage, ab denen bei Überschreitung der Laufzeit automatisch Erinnerungsschreiben erstellt werden. |
-| Mahnstufe | Anzeige, wie oft gemahnt wurde.  
-Als weitere Informationen werden geführt, wer den Kontrakt erfasst hat, wann Kontraktbestätigung, -erledigungsschreiben und -mahnung gedruckt wurden und wann ein Stornobeleg erzeugt wurde. |
+| Mahnstufe | Anzeige, wie oft gemahnt wurde.<br>Als weitere Informationen werden geführt, wer den Kontrakt erfasst hat, wann Kontraktbestätigung, -erledigungsschreiben und -mahnung gedruckt wurden und wann ein Stornobeleg erzeugt wurde. |
 | Bediener Neuerzeugung | Bediener der den Kontrakt erzeugt hat. |
 | Bediener letzte Änderung | Bediener der die letzte Änderung am Kontrakt gemacht hat. |
 | Kontrakt-Bestätigung | Kennzeichnet ob der Kontrakt gedruckt wurde. |
@@ -19,13 +18,7 @@ Als weitere Informationen werden geführt, wer den Kontrakt erfasst hat, wann Ko
 | Maximale Überschreitung % | Der Prozentsatz, um das das vereinbarte Kontraktvolumen (Menge oder Wert) maximal über- bzw. unterschritten werden darf. |
 | Maximale Unterschreitung % | Der Prozentsatz, um das das vereinbarte Kontraktvolumen (Menge oder Wert) maximal über- bzw. unterschritten werden darf. |
 | Zahlungsbedingung | Für den Kontrakt kann eine spezielle Zahlungsbedingung hinterlegt werden, die dann statt der Standardbedingung des Kunden herangezogen wird. Bei Zahlungsbedingungen vom Typ 7 kann auch ein festes Valutadatum eingetragen werden. Vorbelegung 0 = Zahlungsbedingung aus Deb./Kred.-Stamm. |
-| Zahlungsziel  
-• Abweichende Zieltage  
-• Tag des Folgemonats  
-• Tag des jew. Monats  
-• Nächster x.  
-• Fixes Fälligkeitsdatum | In Abhängigkeit der Zahlungsbedingung können der Text des Zahlungsziels und die Eingabe variieren.  
-Damit lassen sich die Zieltage der Zahlungsbedingung ändern. |
+| Zahlungsziel<br>• Abweichende Zieltage<br>• Tag des Folgemonats<br>• Tag des jew. Monats<br>• Nächster x.<br>• Fixes Fälligkeitsdatum | In Abhängigkeit der Zahlungsbedingung können der Text des Zahlungsziels und die Eingabe variieren.<br>Damit lassen sich die Zieltage der Zahlungsbedingung ändern. |
 | Abweichende Skontotage | Skontotage abweichend von der Zahlungsbedingung festlegen. |
 | Satz | Skontoprozentsatz der Zahlungsbedingung festlegen. |
 | Archiv-Referenz | Hier wird automatisch bei eingeschalteter Archivierung die Nummer eingetragen, die als Referenz für alle mit diesem Kontrakt archivierten Dokumente steht. |

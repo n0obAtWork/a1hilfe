@@ -27,22 +27,14 @@ Alle aus der Waage oder mit der Offline-Waage erzeugten Rohwarenbelege werden in
 
 | Funktion | Bedeutung |
 | --- | --- |
-| RW-Waage Import Shift + F12  
- | Mit dieser Funktion werden Waagenbelege in die Schnittstelle importiert. Einrichtung der Scriptparameter finden Sie [hier](../waagenimport/index.md). |
-| Waage Qualitäten Shift +F7  
- | Mit dieser Funktion können Qualitäten zu einem Satz nach erfasst werden. |
-| FEHL: Belerz Rücksetzten Shift +F8  
- | Mit dieser Funktion kann der Status auf – zurückgesetzt, wenn bei der Belegerzeugung ein Fehler aufgetreten ist. |
-| Ganze Überna. Löschen F7  
- | Mit dieser Funktion werden markierte Belege komplett aus der Schnittstelle gelöscht. Erzeugte Belege und Wiegungen belieben aber bestehen. |
-| Aufräumen  
- | Mit dieser Funktion werden alle Belege aus der Schnittstelle gelöschte erzeugte Beleg bleiben aber bestehen. |
-| Ändern F5  
- | Mit dieser Funktion kann ein Satz vorm Erzeugen einer Lieferung noch korrigiert werden. |
-| Ansehen F6  
- | Mit dieser Funktion kann ein Satz zur Ansicht geöffnet werden. |
-| Lieferungen erzeugen F9  
- | Diese Funktion erzeugt aus einem markierten Datensatz einen Rohwarenbeleg. |
+| RW-Waage Import Shift + F12<br> | Mit dieser Funktion werden Waagenbelege in die Schnittstelle importiert. Einrichtung der Scriptparameter finden Sie [hier](../waagenimport/index.md). |
+| Waage Qualitäten Shift +F7<br> | Mit dieser Funktion können Qualitäten zu einem Satz nach erfasst werden. |
+| FEHL: Belerz Rücksetzten Shift +F8<br> | Mit dieser Funktion kann der Status auf – zurückgesetzt, wenn bei der Belegerzeugung ein Fehler aufgetreten ist. |
+| Ganze Überna. Löschen F7<br> | Mit dieser Funktion werden markierte Belege komplett aus der Schnittstelle gelöscht. Erzeugte Belege und Wiegungen belieben aber bestehen. |
+| Aufräumen<br> | Mit dieser Funktion werden alle Belege aus der Schnittstelle gelöschte erzeugte Beleg bleiben aber bestehen. |
+| Ändern F5<br> | Mit dieser Funktion kann ein Satz vorm Erzeugen einer Lieferung noch korrigiert werden. |
+| Ansehen F6<br> | Mit dieser Funktion kann ein Satz zur Ansicht geöffnet werden. |
+| Lieferungen erzeugen F9<br> | Diese Funktion erzeugt aus einem markierten Datensatz einen Rohwarenbeleg. |
 | Analysewerte korrigieren F11 | Mit dieser Funktion können die Analysewerte korrigiert werden. |
 
 <p class="siehe-auch">Siehe auch:</p>

@@ -135,14 +135,10 @@ NotImplementedException();
 
 | Methode | Bedeutung |
 | --- | --- |
-| Dispose | Mit der Dispose Methode können Objekte der Hardware die beim Schließen der Software nicht mehr gebraucht werden geschlossen werden.  
-In dem Beispiel Anhand des Datalogic Scanners ist dass das Imager Objekt. |
+| Dispose | Mit der Dispose Methode können Objekte der Hardware die beim Schließen der Software nicht mehr gebraucht werden geschlossen werden.<br>In dem Beispiel Anhand des Datalogic Scanners ist dass das Imager Objekt. |
 | DoBeep | Falls der Scanner einen eigenen Beeper hat und nicht auf den beep aus dem Compact Framework anspricht kann dieser hier eingebunden werden. Der Methode wird Hertz Frequenz und die Länge in ms übergeben |
-| ScannerEnabled | Mit der Methode wird abgefragt ob das Scannermodul aktiv oder nicht aktiv ist.  
-Des Weiteren muss die Funktionalität Implementiert sein, dass das Scannermodul von der Software aus zu deaktiviert oder aktiviert werden kann. |
-| isVerbunden | Gibt einen boolschen Wert zurück.  
-1. True wenn WLAN verbunden ist  
-2. False wenn WLAN nicht verbunden ist. |
+| ScannerEnabled | Mit der Methode wird abgefragt ob das Scannermodul aktiv oder nicht aktiv ist.<br>Des Weiteren muss die Funktionalität Implementiert sein, dass das Scannermodul von der Software aus zu deaktiviert oder aktiviert werden kann. |
+| isVerbunden | Gibt einen boolschen Wert zurück.<br>1. True wenn WLAN verbunden ist<br>2. False wenn WLAN nicht verbunden ist. |
 | Das Event OnRead | 
 ```csharp
 Dieses Event wird ausgelöst, wenn ein Barcode

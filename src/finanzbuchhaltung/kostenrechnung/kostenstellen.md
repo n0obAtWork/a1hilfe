@@ -39,33 +39,13 @@ Folgende Felder können in dem folgenden Eingabebildschirm erfasst werden
 
 | | Beschreibung |
 | --- | --- |
-| Kostenstelle  
-    
- | Nummer der Kostenstelle. Es ist zwar möglich eine Kostenstelle mit der Nummer 0 zu erfassen, jedoch wird diese nicht als Kostenstelle ausgewertet. 0 bedeutet immer „Keine Kostenstelle“  
- |
-| Bezeichnung | Bezeichnung der Kostenstelle (sprechende und eindeutige Namen erleichtern hier die spätere Suche (Bsp.: KFZ-KI-QM-12345).  
- |
-| Matchcode | Kurzbezeichnung der Kostenstelle  
- |
-| Erfassungssperre  
-    
- | Diese Sperre gilt für die Belegerfassung der Finanzbuchhaltung. Steht diese auf **Ja**, so kann die Kostenstelle dort nicht mehr verwendet werden. Auch ist es nicht mehr möglich diese Kostenstelle als Verteilkostenstelle oder in den Kostenstellengruppen zu verwenden. Ist sie bereits in irgendeiner Verteilkostenstelle eingetragen, so erscheint die Meldung:  
-![](../../ImagesExt/image8_680.png)  
-Die hier angesprochenen Arbeitsschritte müssen manuell durchgeführt werden.  
-Wird in einem Beleg eine gesperrte Kostenstelle verwendet - dies ist z.B. dann möglich, wenn die Sperre erst nach der Verwendung der Kostenstelle gesetzt wurde -, so wird der Beleg nicht gebucht. Es erscheint die Meldung „**Kostenstelle … ist gesperrt!**“ im Buchungsprotokoll.  
-    
- |
-| Druckpositionen | Im Feld Druckposition muss eine Kostenstellen-Druckposition (Direktsprung ist **[FIDRK]**) eingetragen werden, die den Ausdruck der Kostenstellenauswertung steuert.  
-Kostenstellen mit gleicher Kostenstellen-Druckposition werden gemeinsam mit einer Zwischensumme ausgedruckt.  
- |
-| Externe Aw. Positionen  
-    
- | Hier können für eigene Auswertungen Druckpositionen hinterlegt werden. Es ist jedoch möglich, eigene Itemboxen zu hinterlegen. Dafür muss man die Einrichterparameter „Itembox für externe Auswertungsposition 1-5“ und (optional) „Bezeichnungsfeld für ext. Auswertungsposition 1-5“ und (auch optional) „Label für externe Auswertungsposition 1-5“ hinterlegen. Beispielsweise könnte man als Itembox für ext. Auswertungsposition 1 „IB_LAGERSTAMM“ hinterlegen. Um dann hinter der externen Auswertungsposition die Bezeichnung zu sehen, muss man das Bezeichnungsfeld aus der Itembox in „Bezeichnungsfeld für ext. Auswertungsposition 1“ angeben. Dies wäre dann in diesem Fall „Lagerbezeich“.  
-   
-In der GuV nach Kostenstellen werden die externen Auswertungspositionen dann mit abgefragt, wenn man in den Einrichterparametern beim Label Einträge vorgenommen hat.  
- |
-| Bemerkungen | Hier kann ein wahlfreier Text zu der jeweiligen Kostenstelle erfasst werden.  
- |
+| Kostenstelle<br><br> | Nummer der Kostenstelle. Es ist zwar möglich eine Kostenstelle mit der Nummer 0 zu erfassen, jedoch wird diese nicht als Kostenstelle ausgewertet. 0 bedeutet immer „Keine Kostenstelle“<br> |
+| Bezeichnung | Bezeichnung der Kostenstelle (sprechende und eindeutige Namen erleichtern hier die spätere Suche (Bsp.: KFZ-KI-QM-12345).<br> |
+| Matchcode | Kurzbezeichnung der Kostenstelle<br> |
+| Erfassungssperre<br><br> | Diese Sperre gilt für die Belegerfassung der Finanzbuchhaltung. Steht diese auf **Ja**, so kann die Kostenstelle dort nicht mehr verwendet werden. Auch ist es nicht mehr möglich diese Kostenstelle als Verteilkostenstelle oder in den Kostenstellengruppen zu verwenden. Ist sie bereits in irgendeiner Verteilkostenstelle eingetragen, so erscheint die Meldung:<br>![](../../ImagesExt/image8_680.png)<br>Die hier angesprochenen Arbeitsschritte müssen manuell durchgeführt werden.<br>Wird in einem Beleg eine gesperrte Kostenstelle verwendet - dies ist z.B. dann möglich, wenn die Sperre erst nach der Verwendung der Kostenstelle gesetzt wurde -, so wird der Beleg nicht gebucht. Es erscheint die Meldung „**Kostenstelle … ist gesperrt!**“ im Buchungsprotokoll.<br><br> |
+| Druckpositionen | Im Feld Druckposition muss eine Kostenstellen-Druckposition (Direktsprung ist **[FIDRK]**) eingetragen werden, die den Ausdruck der Kostenstellenauswertung steuert.<br>Kostenstellen mit gleicher Kostenstellen-Druckposition werden gemeinsam mit einer Zwischensumme ausgedruckt.<br> |
+| Externe Aw. Positionen<br><br> | Hier können für eigene Auswertungen Druckpositionen hinterlegt werden. Es ist jedoch möglich, eigene Itemboxen zu hinterlegen. Dafür muss man die Einrichterparameter „Itembox für externe Auswertungsposition 1-5“ und (optional) „Bezeichnungsfeld für ext. Auswertungsposition 1-5“ und (auch optional) „Label für externe Auswertungsposition 1-5“ hinterlegen. Beispielsweise könnte man als Itembox für ext. Auswertungsposition 1 „IB_LAGERSTAMM“ hinterlegen. Um dann hinter der externen Auswertungsposition die Bezeichnung zu sehen, muss man das Bezeichnungsfeld aus der Itembox in „Bezeichnungsfeld für ext. Auswertungsposition 1“ angeben. Dies wäre dann in diesem Fall „Lagerbezeich“.<br> <br>In der GuV nach Kostenstellen werden die externen Auswertungspositionen dann mit abgefragt, wenn man in den Einrichterparametern beim Label Einträge vorgenommen hat.<br> |
+| Bemerkungen | Hier kann ein wahlfreier Text zu der jeweiligen Kostenstelle erfasst werden.<br> |
 
 Löschen der Kostenstellen
 

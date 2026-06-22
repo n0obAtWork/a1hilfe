@@ -18,8 +18,7 @@ Wird hier jedoch Bezug auf eine Kontraktgruppe mit mehreren Kunden genommen, so 
 | Nummer | Nummer der Kontraktgruppe (üblicherweise die Nummer des Hauptkunden) |
 | Bezeichnung | Bezeichnung der Kontraktgruppe (üblicherweise der Name des Hauptkunden) |
 | Matchcode | Matchcode der Kontraktgruppe |
-| Einzelgruppe | Bei „Ja“ kann nur ein Kunde in die Datentabelle Kunde eingetragen werden. Der Kunde ist dann auch automatisch der Hauptkunden.  
-Bei „Nein“ können in die Datentabelle Kunde mehrere Kunden eingetragen werden. |
+| Einzelgruppe | Bei „Ja“ kann nur ein Kunde in die Datentabelle Kunde eingetragen werden. Der Kunde ist dann auch automatisch der Hauptkunden.<br>Bei „Nein“ können in die Datentabelle Kunde mehrere Kunden eingetragen werden. |
 | Konzern | Konzern dieser Kontraktgruppe |
 
 Neben den Kopffeldern der Kontraktgruppe kann dann noch die Datentabelle Kunden gepflegt werden.

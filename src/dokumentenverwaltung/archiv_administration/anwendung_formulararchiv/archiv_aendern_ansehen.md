@@ -6,34 +6,19 @@ In diesem Dialog besteht die Möglichkeit folgende Daten zu ändern bzw. einzuse
 
 | Felder | |
 | --- | --- |
-| ***Belegreferenz*** | Die Kern-Identität des Archives.  
-Die Beleg-Referenz verknüpft u.a. den Archiv – Eintrag mit einem Archiv-Fakt (siehe auch [Archiv Fakt-Tabellen](../../technisches_zum_formulararchiv/archivdatenbank_extern_einrichten/archiv_fakt_tabellen.md))  
-Die Beleg-Referenz kann eine Art Klammer für „gleiche“ Archiv-Belege darstellen. Dieses Vorgehen wird auch empfohlen.  
-Für die Archiv – Fakten stehen Beleg-Generatoren (privatisierbare Datenbank-Funktionen) zur Verfügung (siehe [Referenz](../../archiv_manager/referenz/index.md)).  
-Obwohl die Beleg-Referenz im Einzelfall frei wählbar ist, ist aber auch zum Beispiel in Hinblick auf die Funktion ***Archiv anzeigen*** (siehe [Archiv Ansehen](../../archiv_ansehen/index.md)) eine gewisse Organisation der Referenzen anzuraten. Auch nehmen einige Programm-Module sehr wohl auf die konkrete Beleg-Referenz Bezug, so dass im Einzelfall von einer zu freizügigen Abänderung der Beleg-Referenz abgeraten wird. |
+| ***Belegreferenz*** | Die Kern-Identität des Archives.<br>Die Beleg-Referenz verknüpft u.a. den Archiv – Eintrag mit einem Archiv-Fakt (siehe auch [Archiv Fakt-Tabellen](../../technisches_zum_formulararchiv/archivdatenbank_extern_einrichten/archiv_fakt_tabellen.md))<br>Die Beleg-Referenz kann eine Art Klammer für „gleiche“ Archiv-Belege darstellen. Dieses Vorgehen wird auch empfohlen.<br>Für die Archiv – Fakten stehen Beleg-Generatoren (privatisierbare Datenbank-Funktionen) zur Verfügung (siehe [Referenz](../../archiv_manager/referenz/index.md)).<br>Obwohl die Beleg-Referenz im Einzelfall frei wählbar ist, ist aber auch zum Beispiel in Hinblick auf die Funktion ***Archiv anzeigen*** (siehe [Archiv Ansehen](../../archiv_ansehen/index.md)) eine gewisse Organisation der Referenzen anzuraten. Auch nehmen einige Programm-Module sehr wohl auf die konkrete Beleg-Referenz Bezug, so dass im Einzelfall von einer zu freizügigen Abänderung der Beleg-Referenz abgeraten wird. |
 | ***Belegnummer*** | Beim Vorgangsdruck und anderen Archivierungen wo eine Zuordnung der Belegnummer möglich ist die Beleg-Nr. |
 | ***Kundennummer*** | Zugeordnete Kundennummer |
-| ***Belegklasse*** | Klassifizierung des Archiv-Eintrages nach Herkunft bzw. Wesen.  
-Beim Vorgangsdruck findet sich hier die Vorgangsklasse (400=Auftrag, 600=Lieferschein, 700=Rechnung, usw.).  
-Importe hinterlegen hier meist spezielle Belegklassen, z.B. 9000.  
-Für eigene Klassifizierungen stehen innerhalb der Belegklassen die Nummern 10000 bis 10003 zur Verfügung (User1 - User4). |
+| ***Belegklasse*** | Klassifizierung des Archiv-Eintrages nach Herkunft bzw. Wesen.<br>Beim Vorgangsdruck findet sich hier die Vorgangsklasse (400=Auftrag, 600=Lieferschein, 700=Rechnung, usw.).<br>Importe hinterlegen hier meist spezielle Belegklassen, z.B. 9000.<br>Für eigene Klassifizierungen stehen innerhalb der Belegklassen die Nummern 10000 bis 10003 zur Verfügung (User1 - User4). |
 | ***Kontierung*** | Kennzeichen ob ein Beleg schon kontiert und das Ergebnis akzeptiert wurde. |
 | ***Klassifizierung*** | Bietet neben der Belegklasse erweiterte private Klassifizierungsmöglichkeiten. |
 | ***Barcode*** | Ähnlich der Beleg-Referenz bietet der Barcode eine Gruppierung des Archivs. Der Barcode hat aber spezialisierte Anwendungen, siehe hierzu [Archiv Barcode](../../archiv_barcode.md) |
-| ***Mandant*** | Der Mandant des Archiv-Eintrages.  
-Wird gemäß der Regeln unter Archivieren (Mandant-Herkunft) vergeben. Das Feld ist nicht pflegbar. |
+| ***Mandant*** | Der Mandant des Archiv-Eintrages.<br>Wird gemäß der Regeln unter Archivieren (Mandant-Herkunft) vergeben. Das Feld ist nicht pflegbar. |
 | ***Bedienerklasse*** | Zugeordnete Bedienerklasse |
-| ***Datei*** | Beim „Dokument hinzufügen“ lässt sich hier der zu importierende Dateiname einpflegen.  
-Eine Dateiauswahlbox steht mit F3 zur Verfügung. |
+| ***Datei*** | Beim „Dokument hinzufügen“ lässt sich hier der zu importierende Dateiname einpflegen.<br>Eine Dateiauswahlbox steht mit F3 zur Verfügung. |
 | ***Belegfluss*** | |
 | ***Belegtyp*** | Belegtyp |
-| ***Betreff,***  
-***Kategorie,***  
-***Stichwörter,***  
-***Kommentar,***  
-***Titel,***  
-***Autor*** | Merkmale, die zur Verschlagwortung eines Archiv-Eintrages dienen können.  
- |
+| ***Betreff,***<br>***Kategorie,***<br>***Stichwörter,***<br>***Kommentar,***<br>***Titel,***<br>***Autor*** | Merkmale, die zur Verschlagwortung eines Archiv-Eintrages dienen können.<br> |
 | ***Gruppe*** | [Formulararchiv Gruppe](../formulararchiv_gruppe.md) |
 | ***Gruppentyp*** | [Formulararchiv Gruppe](../formulararchiv_gruppe.md) |
 | ***Gruppentext*** | [Formulararchiv Gruppe](../formulararchiv_gruppe.md) |
@@ -102,8 +87,7 @@ Folgende Funktionen stehen zur neben der eigentlichen Recherche zur Verfügung:
 | Archivtext-Funktion | | |
 | --- | --- | --- |
 | Volltext anzeigen | Anzeige des Volltextes im Notepad | Dient zur Einsicht und Überprüfung des erzeugten Archivtextes. |
-| Volltext aktualisieren | Initiiert die Volltext-Aktualisierung für den gewählten Archiveintrag.  
-Dabei können in aller Regel auch mehrere verarbeitet werden. (\*) | Bietet die Möglichkeit neben oder statt der automatischen Aktualisierung Archivtexte zu aktualisieren. |
+| Volltext aktualisieren | Initiiert die Volltext-Aktualisierung für den gewählten Archiveintrag.<br>Dabei können in aller Regel auch mehrere verarbeitet werden. (\*) | Bietet die Möglichkeit neben oder statt der automatischen Aktualisierung Archivtexte zu aktualisieren. |
 | Volltext editieren | Anzeige und Änderungsmöglichkeit des Archivtextes im Notepad. (\*) | Es könnte von Nöten sein das Ergebnis der Aktualisierung zu ändern bzw. zu korrigieren. |
 | Volltext löschen | Löscht den Archivtext und ggf. Hinweise in „ArchivtextBad“ | Damit wird u.a. dieser Eintrag für die Neubearbeitung durch die automatische Aktualisierung verfügbar |
 

@@ -40,37 +40,13 @@ Folgende Felder können in dem folgenden Eingabebildschirm erfasst werden
 
 | | Beschreibung |
 | --- | --- |
-| Kostenträger | Nummer des Kostenträgers. Es ist zwar möglich einen Kostenträger mit der Nummer 0 zu erfassen, jedoch wird dieser nicht als Kostenträger ausgewertet. 0 bedeutet immer „Kein Kostenträger“  
-    
- |
-| Bezeichnung  
-    
- | Bezeichnung des Kostenträgers (sprechende und eindeutige Namen erleichtern hier die spätere Suche (Bsp.: KFZ-KI-QM-12345).  
- |
-| Matchcode  
-    
- | Kurzbezeichnung des Kostenträgers  
- |
-| Erfassungssperre  
-    
- | Diese Sperre gilt für die Belegerfassung der Finanzbuchhaltung. Steht diese auf Ja, so kann der Kostenträger dort nicht mehr verwendet werden. Auch ist es nicht mehr möglich diesen Kostenträger als Verteilkostenträger bzw. in den Kostenträgergruppen zu verwenden. Ist sie bereits in irgendeinem Verteilkostenträger eingetragen, so erscheint die Meldung:  
-![](../../ImagesExt/image8_686.png)  
-Die hier angesprochenen Arbeitsschritte müssen manuell durchgeführt werden.  
-Wird in einem Beleg ein gesperrter Kostenträger verwendet - dies ist z.B. dann möglich, wenn die Sperre erst nach der Verwendung des Kostenträgers gesetzt wurde oder ein gesperrter Kostenträger in einem nicht gesperrten Verteilkostenträger verwendet wird -, so wird der Beleg nicht gebucht. Es erscheint die Meldung „**Kostenträger … ist gesperrt!**“ im Buchungsprotokoll.  
- |
-| Druckpositionen  
-    
- | Im Feld Druckposition muss eine Kostenträger-Druckposition (Direktsprung **[KSTRP]**) eingetragen werden, die den Ausdruck der Kostenträgerauswertung steuert.  
-Kostenträger mit gleicher Kostenträger-Druckposition werden gemeinsam mit einer Zwischensumme ausgedruckt.  
- |
-| Externe Aw. Pos.  
-    
- | Hier können für eigene Auswertungen Druckpositionen hinterlegt werden. A.eins verwendet diese Felder nicht. Es ist jedoch möglich, eigene F3-Auswahlen/Itemboxen zu hinterlegen. Dafür muss man die Einrichterparameter „Itembox für externe Auswertungsposition 1-3“ und (optional) „Bezeichnungsfeld für ext. Auswertungsposition 1-3“ hinterlegen. Beispielsweise könnte man als Itembox für ext.Auswertungsposition 1 „IB_LAGERSTAMM“ und (auch optional) „Label für externe Auswertungsposition 1-3“ hinterlegen. Um dann hinter der externen Auswertungsposition die Bezeichnung zu sehen, muss man das Bezeichnungsfeld aus der Itembox in „Bezeichnungsfeld für ext. Auswertungsposition 1“ angeben. Dies wäre dann in diesem Fall „Lagerbezeich“.  
- |
-| Bemerkungen  
-    
- | Hier kann ein wahlfreier Text zu dem jeweiligen Kostenträger erfasst werden.  
- |
+| Kostenträger | Nummer des Kostenträgers. Es ist zwar möglich einen Kostenträger mit der Nummer 0 zu erfassen, jedoch wird dieser nicht als Kostenträger ausgewertet. 0 bedeutet immer „Kein Kostenträger“<br><br> |
+| Bezeichnung<br><br> | Bezeichnung des Kostenträgers (sprechende und eindeutige Namen erleichtern hier die spätere Suche (Bsp.: KFZ-KI-QM-12345).<br> |
+| Matchcode<br><br> | Kurzbezeichnung des Kostenträgers<br> |
+| Erfassungssperre<br><br> | Diese Sperre gilt für die Belegerfassung der Finanzbuchhaltung. Steht diese auf Ja, so kann der Kostenträger dort nicht mehr verwendet werden. Auch ist es nicht mehr möglich diesen Kostenträger als Verteilkostenträger bzw. in den Kostenträgergruppen zu verwenden. Ist sie bereits in irgendeinem Verteilkostenträger eingetragen, so erscheint die Meldung:<br>![](../../ImagesExt/image8_686.png)<br>Die hier angesprochenen Arbeitsschritte müssen manuell durchgeführt werden.<br>Wird in einem Beleg ein gesperrter Kostenträger verwendet - dies ist z.B. dann möglich, wenn die Sperre erst nach der Verwendung des Kostenträgers gesetzt wurde oder ein gesperrter Kostenträger in einem nicht gesperrten Verteilkostenträger verwendet wird -, so wird der Beleg nicht gebucht. Es erscheint die Meldung „**Kostenträger … ist gesperrt!**“ im Buchungsprotokoll.<br> |
+| Druckpositionen<br><br> | Im Feld Druckposition muss eine Kostenträger-Druckposition (Direktsprung **[KSTRP]**) eingetragen werden, die den Ausdruck der Kostenträgerauswertung steuert.<br>Kostenträger mit gleicher Kostenträger-Druckposition werden gemeinsam mit einer Zwischensumme ausgedruckt.<br> |
+| Externe Aw. Pos.<br><br> | Hier können für eigene Auswertungen Druckpositionen hinterlegt werden. A.eins verwendet diese Felder nicht. Es ist jedoch möglich, eigene F3-Auswahlen/Itemboxen zu hinterlegen. Dafür muss man die Einrichterparameter „Itembox für externe Auswertungsposition 1-3“ und (optional) „Bezeichnungsfeld für ext. Auswertungsposition 1-3“ hinterlegen. Beispielsweise könnte man als Itembox für ext.Auswertungsposition 1 „IB_LAGERSTAMM“ und (auch optional) „Label für externe Auswertungsposition 1-3“ hinterlegen. Um dann hinter der externen Auswertungsposition die Bezeichnung zu sehen, muss man das Bezeichnungsfeld aus der Itembox in „Bezeichnungsfeld für ext. Auswertungsposition 1“ angeben. Dies wäre dann in diesem Fall „Lagerbezeich“.<br> |
+| Bemerkungen<br><br> | Hier kann ein wahlfreier Text zu dem jeweiligen Kostenträger erfasst werden.<br> |
 
 Erfassung der Planzahlen
 

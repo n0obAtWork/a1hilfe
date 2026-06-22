@@ -8,13 +8,8 @@ Die im Windows Verzeichnis hinterlegte Datei kann verschiedenste Abschnitte enth
 
 | Abschnitte | |
 | --- | --- |
-| AeinsRoot | Hier sollten nur zwei Punkte oder die AeinsRoot eingetragen sein, also ..  
-    
- |
-| Database_Connect | Hier wird eingetragen, wo die Datenbank zu finden ist, im Mehrplatzfall als  
-eng=aeins;dbf=d:\\aeins\\daten\\awed.db  
-oder im Einplatzfall als  
-dbf=c:\\aeins\\daten\\xxx.db |
+| AeinsRoot | Hier sollten nur zwei Punkte oder die AeinsRoot eingetragen sein, also ..<br><br> |
+| Database_Connect | Hier wird eingetragen, wo die Datenbank zu finden ist, im Mehrplatzfall als<br>eng=aeins;dbf=d:\\aeins\\daten\\awed.db<br>oder im Einplatzfall als<br>dbf=c:\\aeins\\daten\\xxx.db |
 | User | Hier kann die Vorbelegung des Usernamens eingetragen sein |
 | Passwort | Hier kann die Vorbelegung des Kennwortes eingetragen sein |
 

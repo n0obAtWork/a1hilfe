@@ -33,23 +33,12 @@ Mit Hilfe der Funktion ***Formulare / Drucker zuordnen F5*** definieren Sie, auf
 | Nr | Laufende Nummer |
 | Formular | Formularnummer |
 | | Formularbezeichnung |
-| Schacht | Druckerschacht. Dieser kann z.B. zur Verwendung von Papieren unterschiedlicher Farben oder Briefköpfe verwendet werden.  
-0) Keine Schachtauswahl  
-1) Schacht 1  
-2) Schacht 2  
-3) Erste Seite auf Schacht 1 weitere auf Schacht 2  
-4) Erste Seite auf Schacht 2 weitere auf Schacht 1 |
+| Schacht | Druckerschacht. Dieser kann z.B. zur Verwendung von Papieren unterschiedlicher Farben oder Briefköpfe verwendet werden.<br>0) Keine Schachtauswahl<br>1) Schacht 1<br>2) Schacht 2<br>3) Erste Seite auf Schacht 1 weitere auf Schacht 2<br>4) Erste Seite auf Schacht 2 weitere auf Schacht 1 |
 | Drucker | Druckernummer |
 | | Druckerbezeichnung |
-| Effektsteuerung | Es stehen drei Möglichkeiten zur Auswahl:  
-1 keine Effektsteuerung  
-2 Ladeliste (im Standard keine Auswertung)  
-3 Lagerabholschein  
-„keine Effektsteuerung“ ist hier die Vorbelegung für das Feld.  
-Lagerabholschein bewirkt, dass dieses Formular nur dann gedruckt wird, wenn es unter den Artikeln mindestens einen Artikel gibt, der als Lagerartikel gekennzeichnet ist. Siehe dazu [weitere Funktionen der Tresenkasse](../../kasse/das_barverkaufssystem/erfassung_mit_den_verschiedenen_kassensystemen/tresenkasse/weitere_funktionen_der_tresenkasse.md). |
+| Effektsteuerung | Es stehen drei Möglichkeiten zur Auswahl:<br>1 keine Effektsteuerung<br>2 Ladeliste (im Standard keine Auswertung)<br>3 Lagerabholschein<br>„keine Effektsteuerung“ ist hier die Vorbelegung für das Feld.<br>Lagerabholschein bewirkt, dass dieses Formular nur dann gedruckt wird, wenn es unter den Artikeln mindestens einen Artikel gibt, der als Lagerartikel gekennzeichnet ist. Siehe dazu [weitere Funktionen der Tresenkasse](../../kasse/das_barverkaufssystem/erfassung_mit_den_verschiedenen_kassensystemen/tresenkasse/weitere_funktionen_der_tresenkasse.md). |
 | Raffung | |
-| Makro | Makro welches vor dem Druck ausgeführt wird. Übergabe von bis zu 4 Parameter. Makroname und Parameter müssen mit einem Leerzeichen getrennt sein.  
-Beispiel: Makroname Parameter1 Parameter3 Parameter3 Parameter4 |
+| Makro | Makro welches vor dem Druck ausgeführt wird. Übergabe von bis zu 4 Parameter. Makroname und Parameter müssen mit einem Leerzeichen getrennt sein.<br>Beispiel: Makroname Parameter1 Parameter3 Parameter3 Parameter4 |
 | openTRANS | Gibt an, ob das PDF dieses Drucks eine openTRANS-Datei angehängt bekommen soll (nur wenn openTRANS aktiv) |
 | Belegversand | Gibt an, ob dieser Druck jener ist, das zum Versand verwendet wird (ggf. wird eine Kopie des Drucks nicht erstellt, wenn die Einstellung „statt Rechnungsdruck“ aktiv ist (siehe unten) |
 | Anzahl | Anzahl der auf diesem Drucker/Schacht auszudruckenden Kopien |
@@ -60,7 +49,6 @@ Für den Belegversand gibt es drei verschiedene Einstellungsmöglichkeiten.
 | --- | --- |
 | 0 – Nein | Dieser Druck wird nicht für den Belegversand verwendet |
 | 1 – Ja | Dieser Druck wird für den Belegversand verwendet. Ist im Kunden „statt Rechnungsdruck“ eingestellt, dann wird ein Exemplar weniger als angegeben physikalisch gedruckt. |
-| 2 – Exklusiv | Dieser Druck wird für den Belegversand verwendet. Jedoch wird dieses Formular nur gedruckt, wenn im Kunden „mit Rechnungsdruck“ angegeben ist. Bei Kunden ohne Belegversand wird dieses Formular nie gedruckt.  
-Dies ist vorgesehen für Formulare mit Briefkopf, der auf dem physikalischen Drucker bereits auf dem Druckerpapier vorhanden ist. |
+| 2 – Exklusiv | Dieser Druck wird für den Belegversand verwendet. Jedoch wird dieses Formular nur gedruckt, wenn im Kunden „mit Rechnungsdruck“ angegeben ist. Bei Kunden ohne Belegversand wird dieses Formular nie gedruckt.<br>Dies ist vorgesehen für Formulare mit Briefkopf, der auf dem physikalischen Drucker bereits auf dem Druckerpapier vorhanden ist. |
 
 </details>

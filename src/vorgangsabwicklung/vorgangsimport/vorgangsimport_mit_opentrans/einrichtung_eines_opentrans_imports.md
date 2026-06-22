@@ -19,5 +19,4 @@ In der Variante Importprofile finden Sie die Einstellungsmöglichkeiten für die
 | Kunde | Kundennummer, die für die Interpretation der Artikelnummern und anderer Absenderspezifischen Bezeichner im Mapping verwendet werden soll, wenn sich nicht durch ein Makro eine andere Semantik-basierte Kundennummer ergibt. |
 | Präprozessor-Makro | C#-Makro, das der Interpretation der zu importierenden Daten dient. |
 | Postprozessor-Makro | C#-Makro, das nach dem erfolgreichen Import aufgerufen wird. |
-| Stylesheets | Liste von Stylesheets, deren Anwendung für den Import der Dateien dieses Profils in Frage kommt.  
-So können z.B. Bestellungen eines externen Systems in openTRANS-Aufträge, Rechnungen in Rechnungen und Lieferavise in Bestellungen gewandelt werden. |
+| Stylesheets | Liste von Stylesheets, deren Anwendung für den Import der Dateien dieses Profils in Frage kommt.<br>So können z.B. Bestellungen eines externen Systems in openTRANS-Aufträge, Rechnungen in Rechnungen und Lieferavise in Bestellungen gewandelt werden. |

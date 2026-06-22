@@ -22,23 +22,13 @@ Für die Erstellung des Testmandanten stehen folgende Felder zur Verfügung. Nac
 
 | Feldname | Beschreibung |
 | --- | --- |
-| Profil | Hier kann ein Profilname eingetragen oder ausgewählt werden. Mit diesem lassen sich gespeicherte Einstellungen schnell wieder laden.  
-Des Weiteren wird der Profilname auch für die „AmicConf.ini“ als Section und Datenbankname verwendet.  
- |
-| Aktueller Datenbankpfad | Hier wird der aktuelle Datenbankpfad angezeigt.  
- |
-| Zielverzeichnis | Hier kann das Zielverzeichnis des Testmandanten eingetragen werde.  
- |
-| Datenbankpräfix | Hier kann ein Präfix für die Datenbank eingetragen werden.  
- |
-| Verzeichnis leeren | Hiermit kann eingestellt werden, ob das Zielverzeichnis gelöscht werden soll.  
- |
-| Nachlaufprozedur | Hier kann eine Nachlaufprozedur eingetragen werden, mit der bestimmte Einstellungen geändert werden könnten. Standardmäßig wird die Prozedur „*createTestmandantVorlage*“ aufgerufen, in der die unter „Wichtiger Hinweis“ eingetragenen Einstellungen durchgeführt werden.  
-**WICHTIG:** *Wenn man eine eigene Nachlaufprozedur angibt, sollte die Prozedur „createTestmandantVorlage“ als Vorlage verwendet werden, da sonst die unter „Wichtiger Hinweis“ aufgelisteten Arbeitsschritte nicht gemacht werden*  
- |
-| Lokales A.eins | Hier kann eingestellt werden, dass die Nachlaufprozedur mit einem lokalen A.eins gestartet wird. Dafür muss die Section richtig eingerichtet sein.  
-Verwenden sollte man diese Einstellung, wenn der Aufruf der Nachlaufprozedur auf dem Server nicht gestartet werden kann.  
- |
+| Profil | Hier kann ein Profilname eingetragen oder ausgewählt werden. Mit diesem lassen sich gespeicherte Einstellungen schnell wieder laden.<br>Des Weiteren wird der Profilname auch für die „AmicConf.ini“ als Section und Datenbankname verwendet.<br> |
+| Aktueller Datenbankpfad | Hier wird der aktuelle Datenbankpfad angezeigt.<br> |
+| Zielverzeichnis | Hier kann das Zielverzeichnis des Testmandanten eingetragen werde.<br> |
+| Datenbankpräfix | Hier kann ein Präfix für die Datenbank eingetragen werden.<br> |
+| Verzeichnis leeren | Hiermit kann eingestellt werden, ob das Zielverzeichnis gelöscht werden soll.<br> |
+| Nachlaufprozedur | Hier kann eine Nachlaufprozedur eingetragen werden, mit der bestimmte Einstellungen geändert werden könnten. Standardmäßig wird die Prozedur „*createTestmandantVorlage*“ aufgerufen, in der die unter „Wichtiger Hinweis“ eingetragenen Einstellungen durchgeführt werden.<br>**WICHTIG:** *Wenn man eine eigene Nachlaufprozedur angibt, sollte die Prozedur „createTestmandantVorlage“ als Vorlage verwendet werden, da sonst die unter „Wichtiger Hinweis“ aufgelisteten Arbeitsschritte nicht gemacht werden*<br> |
+| Lokales A.eins | Hier kann eingestellt werden, dass die Nachlaufprozedur mit einem lokalen A.eins gestartet wird. Dafür muss die Section richtig eingerichtet sein.<br>Verwenden sollte man diese Einstellung, wenn der Aufruf der Nachlaufprozedur auf dem Server nicht gestartet werden kann.<br> |
 
 Profil / Profil löschen
 

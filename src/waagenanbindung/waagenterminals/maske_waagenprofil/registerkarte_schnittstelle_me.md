@@ -6,27 +6,18 @@ Hier wird der technische Anschluss eines Wägesystems abgehandelt.
 
 | Schnittstelle / ME | |
 | --- | --- |
-| Typ | Typ des Waagen-Anschlusses  
-[Mögliche Anschlussarten](./registerkarte_schnittstelle_me.md#Typ_moeglicheAnschlussarten) |
-| Knopf „Editieren“ | Wird die Anschlussart „XML“ verwendet, so ist dieser Knopf aktiviert und ermöglicht das Editieren eines im Archiv abgelegten XML-Dokuments.  
-Im Neu-Fall sorgt dieser Knopf für die Erstellung eines XML-Templates, welches dann auch zum Editieren geöffnet wird. |
+| Typ | Typ des Waagen-Anschlusses<br>[Mögliche Anschlussarten](./registerkarte_schnittstelle_me.md#Typ_moeglicheAnschlussarten) |
+| Knopf „Editieren“ | Wird die Anschlussart „XML“ verwendet, so ist dieser Knopf aktiviert und ermöglicht das Editieren eines im Archiv abgelegten XML-Dokuments.<br>Im Neu-Fall sorgt dieser Knopf für die Erstellung eines XML-Templates, welches dann auch zum Editieren geöffnet wird. |
 | XML kopieren von… | Wird die Anschlussart „XML“ verwendet, hat man an dieser Stelle die Möglichkeit, ein bereits in einem anderen Waagenprofil verwendetes XML-Dokument in das gerade bearbeitete Waagenprofil zu übernehmen. |
 | Parameter | Siehe [Parameter](./registerkarte_schnittstelle_me.md#Waagenprofil_parameter) |
 | Prozedur | Name der SQL-Prozedur zur Auswertung der Wiegeergebnisse |
-| Zusatzversuche | Maximal-Anzahl der Wiederholungsversuche  
-Standard ist 0, das bedeutet mindestens eine Wiegung |
-| Status | Verfügbarkeit des ausgewählten Ports.  
-Sind die Angaben unter Port und Parameter gemacht worden kann man nun mit der Funktion „Test Port“ die Einstellungen testen.  
-Es erfolgt eine technische Status-Überprüfung im Rahmen des Möglichen und das Ergebnis wird hier repräsentiert.  
-Die Prüfung bedeutet noch nicht, dass man Kontakt zur Waage hat, sondern nur, dass die technischen Möglichkeiten auch so gehalten sind, dass eine Kontaktaufnahme physikalisch sinnvoll wäre …  
-Gibt es hier einen „Status“ „NICHT OK“, dann sollte geprüft werden, ob z.B. der verlangte COM-Port am administrierenden Host auch vorhanden ist, oder im Falle des UDP-Systems auch der angegebene Host kontaktierbar ist. |
+| Zusatzversuche | Maximal-Anzahl der Wiederholungsversuche<br>Standard ist 0, das bedeutet mindestens eine Wiegung |
+| Status | Verfügbarkeit des ausgewählten Ports.<br>Sind die Angaben unter Port und Parameter gemacht worden kann man nun mit der Funktion „Test Port“ die Einstellungen testen.<br>Es erfolgt eine technische Status-Überprüfung im Rahmen des Möglichen und das Ergebnis wird hier repräsentiert.<br>Die Prüfung bedeutet noch nicht, dass man Kontakt zur Waage hat, sondern nur, dass die technischen Möglichkeiten auch so gehalten sind, dass eine Kontaktaufnahme physikalisch sinnvoll wäre …<br>Gibt es hier einen „Status“ „NICHT OK“, dann sollte geprüft werden, ob z.B. der verlangte COM-Port am administrierenden Host auch vorhanden ist, oder im Falle des UDP-Systems auch der angegebene Host kontaktierbar ist. |
 | ME-Nummer | Hier hinterlegt man die Grundmengen-Einheit der Waage |
 | Host/IP | Durch die Angabe eines expliziten Hostnamens kann bewirkt werden, dass das Waagenprofil nur an dem hier angegebenen Host zur Verfügung steht |
 | Hostport | Hier wird der Port des Hosts hinterlegt |
-| Knopf „Öffnen“ | Sofern Host oder IP angegeben wurden, kann man hiermit eine http-Verbindung zu dieser Adresse öffnen.  
-Standardbrowser wird verwendet |
-| Flusskontrolle | Einige COM-Port-Waagen benötigen eine „Flusskontrolle“. Eine mir bekannte ist „Escape“. Bei Bedarf wird das Format implementiert und freigegeben.  
-In aller Regel kann man hier die Grundeinstellung „Keine“ verwenden! |
+| Knopf „Öffnen“ | Sofern Host oder IP angegeben wurden, kann man hiermit eine http-Verbindung zu dieser Adresse öffnen.<br>Standardbrowser wird verwendet |
+| Flusskontrolle | Einige COM-Port-Waagen benötigen eine „Flusskontrolle“. Eine mir bekannte ist „Escape“. Bei Bedarf wird das Format implementiert und freigegeben.<br>In aller Regel kann man hier die Grundeinstellung „Keine“ verwenden! |
 | Protokoll | Hier kann ein ausführliches Logging für DEBUG-Zwecke aktiviert werden. |
 | | |
 | **Zusatz** | |

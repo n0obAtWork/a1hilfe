@@ -34,17 +34,13 @@ Zu-/Abschlagsformel
 | --- | --- |
 | proz. v. Warenw. Abz. Vorh. Rabatte | Hier wird der Rabatt als prozentualer Wert des Warenwerts berechnet. Vorhandene Rabatte werden abgezogen, damit sich nicht beide Rabatte addieren |
 | proz. v. reinen Warenwert | Wie oben, Vorhandene Rabatte werden jedoch NICHT abgezogen. Es kann zu einer Addition von Rabatten kommen. |
-| proz. m. Preisrundung abz. Vorh. Rabatte | Hier wird der Rabatt als prozentualer Wert des Warenwerts berechnet.  
-Hier findet nach der Rabattberechnung eine Rundung der Einzelbeträge statt, so dass diese stimmig sind.  
-Vorhandene Rabatte werden abgezogen, damit sich nicht beide Rabatte addieren |
+| proz. m. Preisrundung abz. Vorh. Rabatte | Hier wird der Rabatt als prozentualer Wert des Warenwerts berechnet.<br>Hier findet nach der Rabattberechnung eine Rundung der Einzelbeträge statt, so dass diese stimmig sind.<br>Vorhandene Rabatte werden abgezogen, damit sich nicht beide Rabatte addieren |
 | proz. mit Preisrundung | Wie oben, Vorhandene Rabatte werden jedoch NICHT abgezogen. Es kann zu einer Addition von Rabatten kommen |
 | Satz entspricht Einzelpreis | Es wird ein fester Rabatt auf die Warenposition gegeben. Z.B. 5€ für jeden Kauf eines Gerätes |
 | Satz je Mengeneinheit | Es wird ein fester Rabattbetrag pro Mengeneinheit gegeben. Wird z.B. in Tonnen fakturiert, so wird der Rabatt pro Tonne berechnet. |
 | Satz je Gebindeeinheit | Es wird ein fester Rabattbetrag pro Gebindeeinheit gegeben. Werden also z.B. 10 Paletten Steine gekauft, so wird 10x der Rabattbetrag berechnet. |
-| Satz je Gewichtseinheit | Es wird ein fester Rabattbetrag pro Gewichtseinheit gegeben. Der Artikel wird in einer Mengeneinheit fakturiert, die nicht unbedingt das Gewicht beinhalten muss. Im Artikel kann jedoch ein Artikelgewicht hinterlegt werden.  
-So kann z.B. ein Einkauf von 10 Säcken (à 50kg) |
-| Betrag manuell | Hier kann ein fester Betrag für einen Einkauf eingetragen werden. So kann z.B. stets 10€ für den Kauf mindestens eines bestimmten Artikels gegeben werden.  
-Die Einstellung „manuell“ bedeutet nicht, dass eine Rabattbetragseingabe in Verbindung mit der Warenposition erfolgen muss oder erzwungen wird oder werden kann. Sie ist vielmehr ein Kennzeichen, dass dieser Betrag nicht berechnet wurde. |
+| Satz je Gewichtseinheit | Es wird ein fester Rabattbetrag pro Gewichtseinheit gegeben. Der Artikel wird in einer Mengeneinheit fakturiert, die nicht unbedingt das Gewicht beinhalten muss. Im Artikel kann jedoch ein Artikelgewicht hinterlegt werden.<br>So kann z.B. ein Einkauf von 10 Säcken (à 50kg) |
+| Betrag manuell | Hier kann ein fester Betrag für einen Einkauf eingetragen werden. So kann z.B. stets 10€ für den Kauf mindestens eines bestimmten Artikels gegeben werden.<br>Die Einstellung „manuell“ bedeutet nicht, dass eine Rabattbetragseingabe in Verbindung mit der Warenposition erfolgen muss oder erzwungen wird oder werden kann. Sie ist vielmehr ein Kennzeichen, dass dieser Betrag nicht berechnet wurde. |
 
 Prozent/Preis
 

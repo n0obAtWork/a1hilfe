@@ -14,8 +14,7 @@
 
 | **Funktionen** | |
 | --- | --- |
-| Pflege-Funktionen | Neu, Ändern, Ansehen, Löschen  
-[Steuerung der Transaktions-Dateien](./steuerung_der_transaktions_dateien.md) |
+| Pflege-Funktionen | Neu, Ändern, Ansehen, Löschen<br>[Steuerung der Transaktions-Dateien](./steuerung_der_transaktions_dateien.md) |
 | Datenbank extrahieren | Legt im Verzeichnis „**\\Aeins\\dbrexp**“ ein weiteres Verzeichnis für die ausgewählte Betriebsstätte an und legt dort die Extrakt-Datei der Datenbank ab. Weiterhin befindet sich dort die durch den Dienst **dbxtract** erstellte **Reload SQL Datei** mit entsprechender Betriebsstättenkennzeichnung. |
 
 <p class="siehe-auch">Siehe auch:</p>

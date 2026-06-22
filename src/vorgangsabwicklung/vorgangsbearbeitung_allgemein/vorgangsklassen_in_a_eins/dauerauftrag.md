@@ -7,32 +7,14 @@ Hierbei handelt es sich um einen spezielle Form des Auftrages: Im Vorgangskopf w
 | Feld | Beschreibung |
 | --- | --- |
 | DA Anfang | Startdatum für den Dauerauftrag |
-| DA nächster Termin | nächste Fälligkeit  
-Nächster Termin an dem der Dauerauftrag ausgeführt werden soll |
-| DA Periode | Angabe der Periodizität:  
-1,2..,12 – alle .. Monate  
- (z.B. 1 = monatlich, 3 = vierteljährlich, 12 = jährlich)  
-mehrfach im Monat  
- Angabe der Termintage per Funktion ‚Dauerauftrag-Fälligkeit‘  
-wöchentlich  
- einmal pro Woche am Wochentag des Startdatums  
-alle 2 Wochen  
- am Wochentag des Startdatums  
-alle 3 Wochen  
- am Wochentag des Startdatums  
-alle 4 Wochen  
- am Wochentag des Startdatums  
-mehrfach pro Woche  
- Angabe der Wochentage per Funktion ‚Dauerauftrag-Fälligkeit‘ |
+| DA nächster Termin | nächste Fälligkeit<br>Nächster Termin an dem der Dauerauftrag ausgeführt werden soll |
+| DA Periode | Angabe der Periodizität:<br>1,2..,12 – alle .. Monate<br> (z.B. 1 = monatlich, 3 = vierteljährlich, 12 = jährlich)<br>mehrfach im Monat<br> Angabe der Termintage per Funktion ‚Dauerauftrag-Fälligkeit‘<br>wöchentlich<br> einmal pro Woche am Wochentag des Startdatums<br>alle 2 Wochen<br> am Wochentag des Startdatums<br>alle 3 Wochen<br> am Wochentag des Startdatums<br>alle 4 Wochen<br> am Wochentag des Startdatums<br>mehrfach pro Woche<br> Angabe der Wochentage per Funktion ‚Dauerauftrag-Fälligkeit‘ |
 | DA Ende | Datum an dem der Dauerauftrag nicht mehr wirksam sein soll |
 
 | Funktion | Bedeutung |
 | --- | --- |
 | ***Dauerauftrag erfassen*** **F8** | Erfassung eines neuen Dauerauftrages |
-| ***Dauerauftrag starten*** **SF9** | Erstellt eine Rechnung aus dem Dauerauftrag.  
-   
-Es öffnet sich die Maske ‚Rechnung aus Dauerauftrag‘. Zur Erläuterung der Felder auf dieser Maske siehe [Umwandeln und Kopieren](../../umwandeln_und_kopieren/index.md).  
-Umwandlung starten F9 erzeugt dann die Rechnung und setzt die nächste Fälligkeit des Dauerauftrages neu. |
+| ***Dauerauftrag starten*** **SF9** | Erstellt eine Rechnung aus dem Dauerauftrag.<br> <br>Es öffnet sich die Maske ‚Rechnung aus Dauerauftrag‘. Zur Erläuterung der Felder auf dieser Maske siehe [Umwandeln und Kopieren](../../umwandeln_und_kopieren/index.md).<br>Umwandlung starten F9 erzeugt dann die Rechnung und setzt die nächste Fälligkeit des Dauerauftrages neu. |
 | ***Dauerauftrag ändern*** **F5** | Ändern der markierten von Daueraufträge, z.B. um den als nächstes vorgeschlagenen Fälligkeitstermin zu ändern |
 | ***Anschriften aktualisieren*** | [Anschriften im Dauerauftrag manuell aktualisieren](../../vorgangsbearbeitung/dauerauftrag_anschrift_aktualisieren.md). |
 

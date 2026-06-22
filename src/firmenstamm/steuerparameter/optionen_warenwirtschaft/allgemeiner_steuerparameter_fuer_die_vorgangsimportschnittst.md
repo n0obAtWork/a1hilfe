@@ -13,8 +13,5 @@ Folgende Optionen sind verfügbar:
 | UNTERKLASSEUNBEKANNTERBELEG | Hier kann eine Unterklasse für einen undefinierten Vorgang hinterlegt werden. Beim Einspielen der Daten in die Relation ImportVorgStamm muss der Steuerparameter ausgewertet werden. Die Unterklasse muss dann mit dem Wert aus dem Steuerparameter gepflegt werden. Diese Option wird vom Standard nicht ausgewertet. |
 | KLASSEUNBEKANTERBELEG | Hier kann eine Klasse für einen undefinierten Vorgang hinterlegt werden. Beim Einspielen der Daten in die Relation ImportVorgStamm muss der Steuerparameter ausgewertet werden. Die Klasse muss dann mit dem Wert aus dem Steuerparameter gepflegt werden. . Diese Option wird vom Standard nicht ausgewertet. |
 | UMSCHLUESSELKUNDEDATEIIMPORT | Hier kann eine Umschlüsselungsklasse für den Kunden hinterlegt werden. Diese Option wird vom Standard nicht bedient. |
-| BESTELLVORSCHLAEGELAGERTRENNUNG | Mit diesem Steuerparameter kann eingestellt werden, ob bei der Erzeugung von Bestellungen aus Bestellvorschlägen die Bestellungen nach Lägern getrennt werden sollen.  
-0 - Es findet keine Trennung nach Lägern statt  
-1 - Es findet eine Trennung nach Lägern statt  
-Ist dieser Steuerparameter nicht gesetzt, so findet keine Trennung nach Lägern statt. |
+| BESTELLVORSCHLAEGELAGERTRENNUNG | Mit diesem Steuerparameter kann eingestellt werden, ob bei der Erzeugung von Bestellungen aus Bestellvorschlägen die Bestellungen nach Lägern getrennt werden sollen.<br>0 - Es findet keine Trennung nach Lägern statt<br>1 - Es findet eine Trennung nach Lägern statt<br>Ist dieser Steuerparameter nicht gesetzt, so findet keine Trennung nach Lägern statt. |
 | GLOBALEAENDERUNGSPROZEDUR | Hier kann eine private Prozedur / Funktion hinterlegt werden, mit dieser können die Daten im Vorgangsimport vor der Erzeugung eines Vorgangs noch verändert werden. |

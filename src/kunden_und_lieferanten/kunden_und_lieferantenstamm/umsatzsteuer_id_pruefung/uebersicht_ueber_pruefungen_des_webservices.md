@@ -23,14 +23,12 @@ Die Auswahlliste enthält die folgenden Informationen:
 | Kunde | Kundennummer des zu prüfenden Kunden |
 | Vorgang | Vorgangsnummer, wenn Vorgangsanfrage |
 | Zeitstempel | Zeitstempel der letzten Änderung des Eintrags |
-| Status | • Neu – ein noch nicht verarbeiteter Auftrag  
-• Erledigt – ein bearbeiteter Auftrag |
+| Status | • Neu – ein noch nicht verarbeiteter Auftrag<br>• Erledigt – ein bearbeiteter Auftrag |
 | Name | Prüfergebnis zum Namen \*) |
 | Straße | Prüfergebnis zur Straße \*) |
 | PLZ | Prüfergebnis zur Postleitzahl \*) |
 | Ort | Prüfergebnis zum Ort \*) |
-| Code | Ergebniscode des Webservices  
-Mehr dazu auf der Webseite [https://evatr.bff-online.de/eVatR/xmlrpc/codes](https://evatr.bff-online.de/eVatR/xmlrpc/codes) |
+| Code | Ergebniscode des Webservices<br>Mehr dazu auf der Webseite [https://evatr.bff-online.de/eVatR/xmlrpc/codes](https://evatr.bff-online.de/eVatR/xmlrpc/codes) |
 | Info | Eine Zusatzinfo, die ggf. angibt, ob der Kunden oder der Vorgang (noch) nicht existieren – dies sollte i.d.R. leer sein |
 | Prüfauftrag | Eine Prüfauftrags-Guid kann optional angezeigt werden. Diese dient dem Support zur Identifikation des Eintrags in der Datenbank bei einer Datenrecherche. |
 

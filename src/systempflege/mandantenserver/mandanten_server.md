@@ -8,36 +8,14 @@ Direktsprung **[MS]**
 
 | Dialog-Felder | Mandantenserver |
 | --- | --- |
-| Startzeit | Zeit an dem der Mandantenserver aufgerufen wurde  
-    
- |
-| Lfd.Nr. | Nummer des bearbeiteten Prozesses  
-    
- |
-| Zeit | Zeit der Erstellung des Prozesses  
-    
- |
-| Bediener | Zum Prozess gehöriger Bediener  
-    
- |
-| Vorgang | Beschreibung des bearbeiteten Prozesses  
-    
- |
-| Status | Status der Verarbeitung  
-    
- |
-| Mandant | Mandant des Mandantenservers  
-    
- |
-| erledigt | Anzahl der erledigten Prozesse  
-    
- |
-| fehlerhaft | Anzahl der fehlerhaften Prozesse  
-    
- |
-| Zeit letzter Beleg | Zeit die die Verarbeitung des letzten Beleges gedauert hat  
-    
- |
-| Zeit im Durchschnitt | Durchschnittlich benötigte Zeit für die Verarbeitung der Prozesse  
-    
- |
+| Startzeit | Zeit an dem der Mandantenserver aufgerufen wurde<br><br> |
+| Lfd.Nr. | Nummer des bearbeiteten Prozesses<br><br> |
+| Zeit | Zeit der Erstellung des Prozesses<br><br> |
+| Bediener | Zum Prozess gehöriger Bediener<br><br> |
+| Vorgang | Beschreibung des bearbeiteten Prozesses<br><br> |
+| Status | Status der Verarbeitung<br><br> |
+| Mandant | Mandant des Mandantenservers<br><br> |
+| erledigt | Anzahl der erledigten Prozesse<br><br> |
+| fehlerhaft | Anzahl der fehlerhaften Prozesse<br><br> |
+| Zeit letzter Beleg | Zeit die die Verarbeitung des letzten Beleges gedauert hat<br><br> |
+| Zeit im Durchschnitt | Durchschnittlich benötigte Zeit für die Verarbeitung der Prozesse<br><br> |

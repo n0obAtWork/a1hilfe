@@ -17,24 +17,16 @@
 | Label | Beschriftung |
 | Bezeichnung | |
 | FT | Feste definierte Funktionstaste, übersteuert Eintrag „Taste“ |
-| Taste | Taste die dieser Funktion in dieser Optionbox zugewiesen wird.  
-Mit [**F3**] erhält man die Auswahl der möglichen Zuordnungen. |
-| Gruppe | Gruppierungsmerkmal für Funktionen in der Optionbox.  
-Gängige Gruppen sind 0,1,2,3.  
-Die Gruppe 0 und 1 stellen in aller Regel Basisfunktionalitäten zur Verfügung.  
-Gruppe 2 und Gruppe 3 erlangen besondere Bedeutung in Auswahllisten.  
-Gruppen wie z.B. 100 oder 1000 werden beispielsweise oft per Software (OB_ADD, OB_REMOVE) zur Laufzeit dazu addiert bzw. entfernt. |
-| EA | Einzelauswahl  
-Nur für „Gruppe 3-Funktionen“ in Auswahllisten  
-(Funktion wird nur aufgeführt, wenn mindestens eine Zeile markiert wurde) |
+| Taste | Taste die dieser Funktion in dieser Optionbox zugewiesen wird.<br>Mit [**F3**] erhält man die Auswahl der möglichen Zuordnungen. |
+| Gruppe | Gruppierungsmerkmal für Funktionen in der Optionbox.<br>Gängige Gruppen sind 0,1,2,3.<br>Die Gruppe 0 und 1 stellen in aller Regel Basisfunktionalitäten zur Verfügung.<br>Gruppe 2 und Gruppe 3 erlangen besondere Bedeutung in Auswahllisten.<br>Gruppen wie z.B. 100 oder 1000 werden beispielsweise oft per Software (OB_ADD, OB_REMOVE) zur Laufzeit dazu addiert bzw. entfernt. |
+| EA | Einzelauswahl<br>Nur für „Gruppe 3-Funktionen“ in Auswahllisten<br>(Funktion wird nur aufgeführt, wenn mindestens eine Zeile markiert wurde) |
 | Maus | Bestimmt ob die Funktion bei Doppelklick auf einen Auswahllisteneintrag ausgeführt werden soll. |
 | Untermenü | Bestimmt das Untermenü in das die Funktion einsortiert werden soll. |
 | Sort. | Bestimmt die Sortierung innerhalb der Optionbox. |
 
 | **Tabelle 2** | Vorkommen der Optionbox |
 | --- | --- |
-| Anwendung | Ist keine Variante angegeben, dann ist die Optionbox dieser Anwendung zugeordnet.  
-Zusätzlich werden hier alle Source-Fundstellen der Optionbox angelistet. |
+| Anwendung | Ist keine Variante angegeben, dann ist die Optionbox dieser Anwendung zugeordnet.<br>Zusätzlich werden hier alle Source-Fundstellen der Optionbox angelistet. |
 | Variante | Ist die Variante angegeben dann ist die Optionbox dieser Variante zugeordnet, die wiederum der obigen Anwendung untergeordnet ist |
 
 | **Funktionen** | |

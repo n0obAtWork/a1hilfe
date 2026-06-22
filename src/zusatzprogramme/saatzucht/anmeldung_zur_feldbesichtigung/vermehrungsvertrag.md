@@ -10,54 +10,29 @@ Direktsprung **[SAATV]**
 
 | Name | Bedeutung |
 | --- | --- |
-| Vertragsnummer | Die eindeutige Vertragsnummer für diesen Datensatz.  
- |
-| Erntejahr | Das Jahr der Ernte. Es wird nicht gespeichert, sondern steuert die Anzeige in der Datentabelle.  
-Wird hier 0 eingetragen, so werden alle Vorhandenen Schläge angezeigt, ansonsten nur die des Erntejahres.  
-Mit dem Einrichterparameter „**Aktuelles Jahr als Erntejahr verwenden, sonst Geschäftsjahr**“ kann die Vorbelegung des Erntejahrs eingestellt werden.  
- |
-| Vermehrer | Hier wird die Vermehrernummer - dies ist die Kundennummer aus dem Kundenstamm - eingetragen. Mit der F3-Taste kann hier eine Auswahl aufgerufen werden.  
- |
-| Plz/Ort | Die Postleitzahl und der Ort des Vermehrers werden hier angezeigt.  
- |
-| Vertreter | Der Vertreter zum Vermehrer wird hier angezeigt.  
- |
-| LWK offiziell | Landwirtschaftskammer offiziell/Anerkennungsstelle. Mit der Taste **F3** kann hier eine Auswahl (**IB_Anerkennungsstelle**) aufgerufen werden**.**  
- |
-| VMKz. | Die Vermehrerkennziffer  
- |
-| Registriernummer |   
- |
-| Vertragsart | Die Vertragsart. Mit der Taste **F3** kann hier eine Auswahl (**AF_VERTART**) aufgerufen werden.  
- |
-| Auftragsnummer | Die Auftragsnummer  
- |
-| Sortennummer | Die Sorte kann hier ausgewählt werden. Mit der Taste **F3** kann hier eine Auswahl (IB_SGALLESORTEN) aufgerufen werden.  
- |
-| Kategorie | Die Kategorie der Saatsorte kann hier eingetragen werden. Mit der Taste **F3** kann hier eine Auswahl (IB_SGKATEGORIE) aufgerufen werden.  
- |
-| Artikel | Der Artikel kann hier ausgewählt werden. Mit der Taste **F3** kann hier eine Auswahl (IB_ARTIKEL_FRUSORKAT) aufgerufen werden.  
- |
-| Aussaat | Der Zeitpunkt der Aussaat.  
- |
-| Laufzeit von bis | Die Laufzeit dieses Vermehrungsvertrages.  
- |
-| VO-Firma | Identifikation zum Kundenstammsatz der VO - Firma (Vemehrerorganisation). Mit der F3-Taste kann hier eine Auswahl aufgerufen werden.  
- |
-| UVO-Firma | Identifikation zum Kundenstammsatz der UVO - Firma (Untervemehrerorganisation).  
- |
-| Aufbereiter | Die bundesweite gültige Aufbereiterkennziffer. Mit der F3-Taste kann hier eine Auswahl aufgerufen werden.  
- |
-| Öko | Das Ökokennzeichen. Mit der Taste **F3** kann hier eine Auswahl (**AF_OEKO**) aufgerufen werden.  
- |
-| OECD | OECD-Eignung. Mit der Taste **F3** kann hier eine Auswahl (**AF_OECD**) aufgerufen werden.  
- |
-| P.Feldbesichtigung | Private Feldbesichtigung  
- |
-| NoB | Hier kann angegeben werden, ob eine „nicht obligatorische Beschaffenheitsprüfung“ durchgeführt werden soll.  
- |
-| Ackerschläge (Grid) | In diesem Grid werden die Ackerschläge zu diesem Vermehrungsvertrag angezeigt. Via Doppelklick auf eine Zeile öffnet sich der entsprechende Datensatz zur Bearbeitung im Pfleger Feldbearbeitung.  
- |
+| Vertragsnummer | Die eindeutige Vertragsnummer für diesen Datensatz.<br> |
+| Erntejahr | Das Jahr der Ernte. Es wird nicht gespeichert, sondern steuert die Anzeige in der Datentabelle.<br>Wird hier 0 eingetragen, so werden alle Vorhandenen Schläge angezeigt, ansonsten nur die des Erntejahres.<br>Mit dem Einrichterparameter „**Aktuelles Jahr als Erntejahr verwenden, sonst Geschäftsjahr**“ kann die Vorbelegung des Erntejahrs eingestellt werden.<br> |
+| Vermehrer | Hier wird die Vermehrernummer - dies ist die Kundennummer aus dem Kundenstamm - eingetragen. Mit der F3-Taste kann hier eine Auswahl aufgerufen werden.<br> |
+| Plz/Ort | Die Postleitzahl und der Ort des Vermehrers werden hier angezeigt.<br> |
+| Vertreter | Der Vertreter zum Vermehrer wird hier angezeigt.<br> |
+| LWK offiziell | Landwirtschaftskammer offiziell/Anerkennungsstelle. Mit der Taste **F3** kann hier eine Auswahl (**IB_Anerkennungsstelle**) aufgerufen werden**.**<br> |
+| VMKz. | Die Vermehrerkennziffer<br> |
+| Registriernummer | <br> |
+| Vertragsart | Die Vertragsart. Mit der Taste **F3** kann hier eine Auswahl (**AF_VERTART**) aufgerufen werden.<br> |
+| Auftragsnummer | Die Auftragsnummer<br> |
+| Sortennummer | Die Sorte kann hier ausgewählt werden. Mit der Taste **F3** kann hier eine Auswahl (IB_SGALLESORTEN) aufgerufen werden.<br> |
+| Kategorie | Die Kategorie der Saatsorte kann hier eingetragen werden. Mit der Taste **F3** kann hier eine Auswahl (IB_SGKATEGORIE) aufgerufen werden.<br> |
+| Artikel | Der Artikel kann hier ausgewählt werden. Mit der Taste **F3** kann hier eine Auswahl (IB_ARTIKEL_FRUSORKAT) aufgerufen werden.<br> |
+| Aussaat | Der Zeitpunkt der Aussaat.<br> |
+| Laufzeit von bis | Die Laufzeit dieses Vermehrungsvertrages.<br> |
+| VO-Firma | Identifikation zum Kundenstammsatz der VO - Firma (Vemehrerorganisation). Mit der F3-Taste kann hier eine Auswahl aufgerufen werden.<br> |
+| UVO-Firma | Identifikation zum Kundenstammsatz der UVO - Firma (Untervemehrerorganisation).<br> |
+| Aufbereiter | Die bundesweite gültige Aufbereiterkennziffer. Mit der F3-Taste kann hier eine Auswahl aufgerufen werden.<br> |
+| Öko | Das Ökokennzeichen. Mit der Taste **F3** kann hier eine Auswahl (**AF_OEKO**) aufgerufen werden.<br> |
+| OECD | OECD-Eignung. Mit der Taste **F3** kann hier eine Auswahl (**AF_OECD**) aufgerufen werden.<br> |
+| P.Feldbesichtigung | Private Feldbesichtigung<br> |
+| NoB | Hier kann angegeben werden, ob eine „nicht obligatorische Beschaffenheitsprüfung“ durchgeführt werden soll.<br> |
+| Ackerschläge (Grid) | In diesem Grid werden die Ackerschläge zu diesem Vermehrungsvertrag angezeigt. Via Doppelklick auf eine Zeile öffnet sich der entsprechende Datensatz zur Bearbeitung im Pfleger Feldbearbeitung.<br> |
 
 Um Flächen zur Besichtigung durch die Kammer anmelden zu können, müssen einige Stammdaten gepflegt werden:
 

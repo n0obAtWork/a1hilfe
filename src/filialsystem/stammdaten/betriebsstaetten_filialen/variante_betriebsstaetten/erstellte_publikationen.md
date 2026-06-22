@@ -6,9 +6,7 @@
 | --- | --- |
 | Betrieb | Filialnummer der ausgewählten Betriebsstätte. Dahinter dessen Bezeichnung. |
 | Publikationsname | Name der Publikationen |
-| Eigenschaft | Zeigt die Eigenschaft einer Publikation:  
-\- Amic-Standard  
-\- benutzerdefiniert |
+| Eigenschaft | Zeigt die Eigenschaft einer Publikation:<br>\- Amic-Standard<br>\- benutzerdefiniert |
 
 | **Funktionen** | |
 | --- | --- |

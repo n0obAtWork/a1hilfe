@@ -27,9 +27,7 @@ Mögliche Werte für den Linktyp
 | Wert | ID | Bedeutung |
 | --- | --- | --- |
 | 0 | VORGLINKTYP_NIX | Kein gültiger Linktyp |
-| 1 | VORGLINKTYP_PROD_INVENTUR | Hier werden Produktionen und Inventuren verknüpft. Diese Art der Verknüpfung bedeutet:  
-• Die Stornierung einer der beiden Belege verursacht automatisch die Stornierung des anderen.  
-• Die Korrektur beider Belege ist jeweils gesperrt. |
+| 1 | VORGLINKTYP_PROD_INVENTUR | Hier werden Produktionen und Inventuren verknüpft. Diese Art der Verknüpfung bedeutet:<br>• Die Stornierung einer der beiden Belege verursacht automatisch die Stornierung des anderen.<br>• Die Korrektur beider Belege ist jeweils gesperrt. |
 
 <p class="just-emphasize">Verknüpfung Produktion und Inventur</p>
 

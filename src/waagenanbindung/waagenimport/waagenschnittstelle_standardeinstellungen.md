@@ -19,8 +19,7 @@ Durch die Einrichtung der Waage nach untenstehenden Vorgaben wird kann die Stand
 | Datenimport wird nur akzeptiert, wenn alle Daten fehlerfrei sind | Ja | |
 | interne Zwischendatei | C:\\TEMP\\WAAGE.DAT | |
 | Wiegenummer | aus Waage | |
-| Default-Mengeneinheit | 1  
-(ME_Nummer für „kg“ in Basis-Datenbank) | |
+| Default-Mengeneinheit | 1<br>(ME_Nummer für „kg“ in Basis-Datenbank) | |
 | | | |
 | Aufbau der Importdatei | Position | Länge |
 | 

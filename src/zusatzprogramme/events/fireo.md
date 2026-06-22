@@ -57,14 +57,4 @@ end
 | in_exe | Name der Exe unter der das Fireo laufen soll |
 | in_dsn | DSN Eintrag |
 | in_dauer | Parameter Timeout nach dem der Prozess beendet wird |
-| in_fireo_aufruf | Welcher Test soll ausgeführt werden. Dabei sind folgende Schlüsselwörter möglich:  
-• Stammdaten  
-• Bewegungsdaten  
-• Jahreswechsel PK  
-• Jahreswechsel BK  
-• Zinssaldo  
-• Waehrung ( Achtung: Währung nicht mit Umlaut )  
-• Fragmente  
-Diese Schlüsselwörter können - durch Komma getrennt - beliebig kombiniert werden. So würde die Kombination in_fireo_aufruf =“Bewegungsdaten,Waehrung“ den Test Bewegungsdaten und den „Test Währung“ durchführen.  
-   
-Wird kein Wert angegeben, so werden nur der Test Stammdaten und der Test Bewegungsdaten ausgeführt. |
+| in_fireo_aufruf | Welcher Test soll ausgeführt werden. Dabei sind folgende Schlüsselwörter möglich:<br>• Stammdaten<br>• Bewegungsdaten<br>• Jahreswechsel PK<br>• Jahreswechsel BK<br>• Zinssaldo<br>• Waehrung ( Achtung: Währung nicht mit Umlaut )<br>• Fragmente<br>Diese Schlüsselwörter können - durch Komma getrennt - beliebig kombiniert werden. So würde die Kombination in_fireo_aufruf =“Bewegungsdaten,Waehrung“ den Test Bewegungsdaten und den „Test Währung“ durchführen.<br> <br>Wird kein Wert angegeben, so werden nur der Test Stammdaten und der Test Bewegungsdaten ausgeführt. |

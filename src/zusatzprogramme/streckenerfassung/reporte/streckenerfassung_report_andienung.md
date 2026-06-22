@@ -20,20 +20,16 @@ Sprachabhängige Textfelder in diesem Report
 | vom | vom |
 | via | via |
 | an | an: |
-| Textinfo_Andienung1 | Hiermit dienen wir u.ü.V. in1  
-(dazwischen liegt Text3 / Erfüllung aus den Streckentexten) |
-| Textinfo_Andienung2 | 1des oben genannten Kontraktes wie folgt an :  
- |
+| Textinfo_Andienung1 | Hiermit dienen wir u.ü.V. in1<br>(dazwischen liegt Text3 / Erfüllung aus den Streckentexten) |
+| Textinfo_Andienung2 | 1des oben genannten Kontraktes wie folgt an :<br> |
 | Ladestelle | Ladestelle |
 | Loeschstelle | Löschstelle |
 | Mfg | Mit freundlichen Grüßen |
 | Menge2 | Menge |
 | BL_Datum | B/L Datum |
 | Termin | Termin |
-| Bitte_arrangieren | Bitte arrangieren Sie alles für eine ordnungsgemäße Entladung.  
-(wird nur angezeigt, wenn es in den Streckentexten angehakt wurde) |
-| Hiermit_garantieren | Hiermit garantieren wir, dass die Fracht für o.g. Kontrakt bezahlt wird und dass die Charter Party den Kontraktbedingungen nicht widerspricht.  
-(wird nur angezeigt, wenn es in den Streckentexten angehakt wurde) |
+| Bitte_arrangieren | Bitte arrangieren Sie alles für eine ordnungsgemäße Entladung.<br>(wird nur angezeigt, wenn es in den Streckentexten angehakt wurde) |
+| Hiermit_garantieren | Hiermit garantieren wir, dass die Fracht für o.g. Kontrakt bezahlt wird und dass die Charter Party den Kontraktbedingungen nicht widerspricht.<br>(wird nur angezeigt, wenn es in den Streckentexten angehakt wurde) |
 | Befrachter | Befrachter (wird ausgeblendet, wenn in den Streckentexten nichts eingegeben wurde) |
 | Kontrolle_Andienung | Kontrolle (wird ausgeblendet, wenn in den Streckentexten nichts eingegeben wurde) |
 | Bemerkungen | Bemerkungen (wird ausgeblendet, wenn in den Streckentexten nichts eingegeben wurde) |

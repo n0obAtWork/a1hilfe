@@ -15,8 +15,7 @@ Es müssen Ladeträgertypen eingerichtet werden. Es empfiehlt sich folgende Einr
 | Typ | Typ | Breite |
 | 2 | EUR1 | 2 – 80x120 (für EURO-Paletten) |
 | 3 | EUR3 | 3 – 120x120 (für BigBags) |
-| 99 | Linie  
-(siehe auch [Einrichtung SPA 1037](./einrichtung_lvs.md#LVS_Einrichtung_SPA)) | undefiniert |
+| 99 | Linie<br>(siehe auch [Einrichtung SPA 1037](./einrichtung_lvs.md#LVS_Einrichtung_SPA)) | undefiniert |
 
 Lokalitäten
 
@@ -32,9 +31,7 @@ Die Lokalitätsnummer 999.999 ist als Leerpaletten-Lokalität anzulegen!
 
 **Lokalitätstyp**
 
-| **Lokalitätstyp**  
-Bei der Anlage der Lokalitäten muss ein Typ angegeben werden.  
-Die folgende Enumeration ist dabei zu verwenden: |
+| **Lokalitätstyp**<br>Bei der Anlage der Lokalitäten muss ein Typ angegeben werden.<br>Die folgende Enumeration ist dabei zu verwenden: |
 | --- |
 | **Nr** | **Bezeichnung** | **Bemerkung** |
 | 10 | Wareneingang | Ankommende Waren |

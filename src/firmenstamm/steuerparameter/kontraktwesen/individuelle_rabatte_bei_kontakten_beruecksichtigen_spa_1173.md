@@ -10,6 +10,5 @@ Verhalten des Steuerparameters:
 
 | Einstellung | Bedeutung |
 | --- | --- |
-| Ja (Defautl) | Es wird die am Artikel hinterlegte individuelle Rabattgruppe verwendet.  
- |
+| Ja (Defautl) | Es wird die am Artikel hinterlegte individuelle Rabattgruppe verwendet.<br> |
 | Nein | Auch wenn am Artikel eine Individuelle Rabattgruppe hinterlegt worden ist, so wird diese nicht berücksichtigt. Stattdessen wird der im Kontrakt hinterlegte Rabattgruppe angewendet |

@@ -6,8 +6,7 @@
 | --- | --- |
 | Die Funktionen aus der Ziel-Optionbox | Die Optionbox in der die „neuen“ Funktionen sind, die die „alten“ Rechte übernehmen sollen |
 | erben die rechte aus der Quell-Optionbox | Die Optionbox die die Rechte zum Mapping zur Verfügung stellt |
-| Gridanzeige | Listet die in Frage kommenden Funktionen an.  
-Das sind genau diejenigen nicht-privaten Funktionen aus der Ziel-Optionbox, die es auch in der Quell-Optionbox gibt und für die es keinen Eintrag in Rollenkontextmapping gibt. |
+| Gridanzeige | Listet die in Frage kommenden Funktionen an.<br>Das sind genau diejenigen nicht-privaten Funktionen aus der Ziel-Optionbox, die es auch in der Quell-Optionbox gibt und für die es keinen Eintrag in Rollenkontextmapping gibt. |
 
 | Funktionen | |
 | --- | --- |

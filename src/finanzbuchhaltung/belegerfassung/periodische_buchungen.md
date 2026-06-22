@@ -24,20 +24,13 @@ Tabelle für Gegenpositionen:
 
 | | Beschreibung |
 | --- | --- |
-| Konto | Gegenkonto.  
- |
-| Kostenstelle | [Kostenstellen](../kostenrechnung/kostenstellen.md) werden so vorgeschlagen, wie sie für das Gegenkonto im Sachkontenstamm hinterlegt sind. Ist die Kostenstelle im Sachkontenstamm gesperrt oder handelt es sich beim Gegenkonto um ein Personenkonto, ist hier keine Erfassung möglich.  
- |
-| Kostenträger | [Kostenträger](../kostenrechnung/kostentraeger.md) werden so vorgeschlagen, wie sie für das Gegenkonto im Sachkontenstamm hinterlegt sind. Ist der Kostenträger im Sachkontenstamm gesperrt oder handelt es sich beim Gegenkonto um ein Personenkonto, ist hier keine Erfassung möglich.  
- |
-| Kostenobjekt | [Kostenobjekte](../kostenrechnung/kostenobjekte/index.md) werden so vorgeschlagen, wie sie für das Gegenkonto im Sachkontenstamm hinterlegt sind. Ist das Kostenobjekt im Sachkontenstamm gesperrt oder handelt es sich beim Gegenkonto um ein Personenkonto, ist hier keine Erfassung möglich.  
- |
-| Betrag | Der dem Gegenkonto zuzuordnende Betrag. Er wird je nach Steuerklasse als brutto oder Nettobetrag interpretiert.  
- |
-| Klasse/Schlüssel | Steuerklasse und Steuerschlüssel werden so vorgeschlagen, wie sie für das Gegenkonto im Sachkontenstamm hinterlegt sind. Sind Steuerklasse und Steuerschlüssel im Sachkontenstamm gesperrt oder handelt es sich beim Gegenkonto um ein Personenkonto, ist auch hier keine Erfassung möglich.  
- |
-| Text | Belegtext, der beim Erstellen dem jeweiligen Gegenkonto zugeordnet wird  
- |
+| Konto | Gegenkonto.<br> |
+| Kostenstelle | [Kostenstellen](../kostenrechnung/kostenstellen.md) werden so vorgeschlagen, wie sie für das Gegenkonto im Sachkontenstamm hinterlegt sind. Ist die Kostenstelle im Sachkontenstamm gesperrt oder handelt es sich beim Gegenkonto um ein Personenkonto, ist hier keine Erfassung möglich.<br> |
+| Kostenträger | [Kostenträger](../kostenrechnung/kostentraeger.md) werden so vorgeschlagen, wie sie für das Gegenkonto im Sachkontenstamm hinterlegt sind. Ist der Kostenträger im Sachkontenstamm gesperrt oder handelt es sich beim Gegenkonto um ein Personenkonto, ist hier keine Erfassung möglich.<br> |
+| Kostenobjekt | [Kostenobjekte](../kostenrechnung/kostenobjekte/index.md) werden so vorgeschlagen, wie sie für das Gegenkonto im Sachkontenstamm hinterlegt sind. Ist das Kostenobjekt im Sachkontenstamm gesperrt oder handelt es sich beim Gegenkonto um ein Personenkonto, ist hier keine Erfassung möglich.<br> |
+| Betrag | Der dem Gegenkonto zuzuordnende Betrag. Er wird je nach Steuerklasse als brutto oder Nettobetrag interpretiert.<br> |
+| Klasse/Schlüssel | Steuerklasse und Steuerschlüssel werden so vorgeschlagen, wie sie für das Gegenkonto im Sachkontenstamm hinterlegt sind. Sind Steuerklasse und Steuerschlüssel im Sachkontenstamm gesperrt oder handelt es sich beim Gegenkonto um ein Personenkonto, ist auch hier keine Erfassung möglich.<br> |
+| Text | Belegtext, der beim Erstellen dem jeweiligen Gegenkonto zugeordnet wird<br> |
 
 Beleg erstellen
 

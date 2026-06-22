@@ -22,12 +22,8 @@ Neben den üblichen Pflege-Funktionen stehen folgende Spezial-Funktionen bereit:
 
 | |
 | --- |
-| ***Details …*** **F5** | Wechselt in die Archiv-Ansichten-Details.  
-[Ansichten Details](./archiv_ansichten_details.md) |
-| Duplizieren | Dupliziert eine Archiv-Ansichts-Definition samt ihrer Details.  
-Dabei wird vorher eine Bedienerklasse abgefragt, die dem Duplikat dann zugewiesen wird.  
-Die Bedienerklasse -1 bedeutet „alle Bedienerklassen“.  
-*Das Duplikat ist in jedem Fall eine Archiv-Ansichts-Definition die Besitzer „Privat“ hat.* |
+| ***Details …*** **F5** | Wechselt in die Archiv-Ansichten-Details.<br>[Ansichten Details](./archiv_ansichten_details.md) |
+| Duplizieren | Dupliziert eine Archiv-Ansichts-Definition samt ihrer Details.<br>Dabei wird vorher eine Bedienerklasse abgefragt, die dem Duplikat dann zugewiesen wird.<br>Die Bedienerklasse -1 bedeutet „alle Bedienerklassen“.<br>*Das Duplikat ist in jedem Fall eine Archiv-Ansichts-Definition die Besitzer „Privat“ hat.* |
 | Export | Exportiert eine Archiv-Ansichten-Definition. |
 
 <p class="siehe-auch">Siehe auch:</p>

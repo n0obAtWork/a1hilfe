@@ -25,8 +25,7 @@ Es werden folgende Standard System Scancodes angelegt:
 | KEYRIGHT | Schaltet die eigentliche Itembox wieder in den Vordergrund |
 | KEYDOWN | Blättern in der Itembox nach unten wenn mehr als eine Position erfasst wurden |
 | KEYUP | Blättern in der Itembox nach oben wenn mehr als eine Position erfasst wurden |
-| STORNO | Mit diesem Befehl können rückwärts die letzten Positionen gelöscht werden. Beim ersten STORNO Scannen wird eine Itembox mit den zu stornierenden Befehlen angezeigt. Beim zweiten Scannen von STORNO wird die letzte Position gelöscht, mit jedem weiteren Scannen von STORNO wird eine Position gelöscht. Wurden alle falschen Positionen gelöscht so kann mit der Erfassung fortgefahren werden.  
-Soll erneut storniert werden so beginnt das Prozedere wieder von vorne. |
+| STORNO | Mit diesem Befehl können rückwärts die letzten Positionen gelöscht werden. Beim ersten STORNO Scannen wird eine Itembox mit den zu stornierenden Befehlen angezeigt. Beim zweiten Scannen von STORNO wird die letzte Position gelöscht, mit jedem weiteren Scannen von STORNO wird eine Position gelöscht. Wurden alle falschen Positionen gelöscht so kann mit der Erfassung fortgefahren werden.<br>Soll erneut storniert werden so beginnt das Prozedere wieder von vorne. |
 | | | |
 
 ###### Standard Einrichtung Inventur / Inventur LVS
@@ -56,10 +55,8 @@ Die Standard AI-Zuordnung ist in beiden Erfassungsvorgängen gleich.
 | 1 | EAN Nummer der Handelseinheit | 1 | Inventur-Start / LVS Inventur | Nein |
 | 2 | EAN der Verpackung | 1 | Inventur-Start / LVS Inventur | Nein |
 | 10 | Charge/Partie | 3 | Inventur-Start / LVS Inventur | Nein |
-| 30 | Menge in Stück  
-(EAN128) | 2 | Inventur-Start / LVS Inventur | Nein |
-| 37 | Menge in Stück  
-(EAN128) | 2 | Inventur-Start / LVS Inventur | Nein |
+| 30 | Menge in Stück<br>(EAN128) | 2 | Inventur-Start / LVS Inventur | Nein |
+| 37 | Menge in Stück<br>(EAN128) | 2 | Inventur-Start / LVS Inventur | Nein |
 | 3101 | Nettogewicht in Kilogramm (EAN128) | 2 | Inventur-Start / LVS Inventur | Nein |
 | 3102 | Nettogewicht in Kilogramm (EAN128) | 2 | Inventur-Start / LVS Inventur | Nein |
 | 3103 | Nettogewicht in Kilogramm (EAN128) | 2 | Inventur-Start / LVS Inventur | Nein |

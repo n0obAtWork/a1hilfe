@@ -14,38 +14,19 @@ In dem Dialog „Dauerauftrag: Anschriften aktualisieren“ kann die Hauptanschr
 
 | Feld | Beschreibung |
 | --- | --- |
-| Kundennummer | Der Kunde des Dauerauftrags.  
- |
-| Belegnummer | Die Belegnummer des Dauerauftrags.  
- |
-| AdressId des Vorgangs | Die ID der Hauptanschrift, die im Dauerauftrag hinterlegt ist.  
- |
-| Manuell | Kennzeichen, ob es sich bei der Hauptanschrift des Dauerauftrags um eine manuelle Vorgangsanschrift handelt.  
-• „Ja“: Hauptanschrift des Vorgangs ist eine manuelle Vorgangsanschrift.  
-• „Nein“: Hauptanschrift des Vorgangs ist keine manuelle Vorgangsanschrift.  
- |
-| Name | Name und Vorname, die in der Hauptanschrift des Dauerauftrags angegeben sind.  
- |
-| AdressId des Kunden | Die ID der Kundenhauptanschrift.  
- |
-| Name | Name und Vorname, die in der Kundenhauptanschrift angegeben sind.  
- |
-| Aktualisieren? | Hier kann mithilfe der **F3**\-Taste bestimmt werden, ob die Anschrift des jeweiligen Dauerauftrags beim Aufruf der Funktion ***Anschriften aktualisieren*** aktualisiert werden soll:  
-• „Ja“: Die Anschrift des Dauerauftrags soll aktualisiert werden.  
-• „Nein“: Die Anschrift des Dauerauftrags soll nicht geändert werden.  
-Die Vorbelegung ist „Nein“.  
- |
+| Kundennummer | Der Kunde des Dauerauftrags.<br> |
+| Belegnummer | Die Belegnummer des Dauerauftrags.<br> |
+| AdressId des Vorgangs | Die ID der Hauptanschrift, die im Dauerauftrag hinterlegt ist.<br> |
+| Manuell | Kennzeichen, ob es sich bei der Hauptanschrift des Dauerauftrags um eine manuelle Vorgangsanschrift handelt.<br>• „Ja“: Hauptanschrift des Vorgangs ist eine manuelle Vorgangsanschrift.<br>• „Nein“: Hauptanschrift des Vorgangs ist keine manuelle Vorgangsanschrift.<br> |
+| Name | Name und Vorname, die in der Hauptanschrift des Dauerauftrags angegeben sind.<br> |
+| AdressId des Kunden | Die ID der Kundenhauptanschrift.<br> |
+| Name | Name und Vorname, die in der Kundenhauptanschrift angegeben sind.<br> |
+| Aktualisieren? | Hier kann mithilfe der **F3**\-Taste bestimmt werden, ob die Anschrift des jeweiligen Dauerauftrags beim Aufruf der Funktion ***Anschriften aktualisieren*** aktualisiert werden soll:<br>• „Ja“: Die Anschrift des Dauerauftrags soll aktualisiert werden.<br>• „Nein“: Die Anschrift des Dauerauftrags soll nicht geändert werden.<br>Die Vorbelegung ist „Nein“.<br> |
 
 | Funktion | Bedeutung |
 | --- | --- |
-| ***Anschriften aktualisieren*** **F9** | Beim Aufruf der Funktion werden die Hauptanschriften aller Daueraufträge aktualisiert, die zuvor ausgewählt wurden. Dabei wird die Hauptanschrift des Dauerauftrags mit der Hauptanschrift des Kunden aktualisiert.  
-Versandanschriften werden nicht aktualisiert. Die Anschrift des Rechnungsempfängers und die Anschrift des Zahlungspflichtigen werden nur dann aktualisiert, wenn sie mit der Hauptanschrift des Dauerauftrags übereinstimmen. Ansonsten werden sie nicht geändert.  
- |
-| ***Alte Anschrift ansehen*** | Funktion zum Ansehen der Hauptanschrift, die im Dauerauftrag hinterlegt ist.  
- |
-| ***Neue Anschrift ansehen*** | Funktion zum Ansehen der Kundenhauptanschrift.  
- |
-| ***Alle auswählen*** | Wählt alle Daueraufträge in der Datentabelle zum Aktualisieren aus.  
- |
-| ***Alle abwählen*** | Alle bereits ausgewählten Daueraufträge können mithilfe dieser Funktion abgewählt werden.  
- |
+| ***Anschriften aktualisieren*** **F9** | Beim Aufruf der Funktion werden die Hauptanschriften aller Daueraufträge aktualisiert, die zuvor ausgewählt wurden. Dabei wird die Hauptanschrift des Dauerauftrags mit der Hauptanschrift des Kunden aktualisiert.<br>Versandanschriften werden nicht aktualisiert. Die Anschrift des Rechnungsempfängers und die Anschrift des Zahlungspflichtigen werden nur dann aktualisiert, wenn sie mit der Hauptanschrift des Dauerauftrags übereinstimmen. Ansonsten werden sie nicht geändert.<br> |
+| ***Alte Anschrift ansehen*** | Funktion zum Ansehen der Hauptanschrift, die im Dauerauftrag hinterlegt ist.<br> |
+| ***Neue Anschrift ansehen*** | Funktion zum Ansehen der Kundenhauptanschrift.<br> |
+| ***Alle auswählen*** | Wählt alle Daueraufträge in der Datentabelle zum Aktualisieren aus.<br> |
+| ***Alle abwählen*** | Alle bereits ausgewählten Daueraufträge können mithilfe dieser Funktion abgewählt werden.<br> |

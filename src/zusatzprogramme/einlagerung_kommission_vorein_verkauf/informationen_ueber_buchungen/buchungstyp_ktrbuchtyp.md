@@ -8,8 +8,7 @@ Um unterscheiden zu können, auf welche Bestände eine Buchung wirken soll, gibt
 
 Der Buchungstyp findet sich in der Tabelle Warenbewegung als Feld KtrBuchTyp.
 
-| Buchungstypen  
- |
+| Buchungstypen<br> |
 | --- |
 | 0 | Eigenwarebuchung | Diese Buchung verändert nur die Bestände der Eigenware |
 | 1 | Vorverkauf | Diese Buchung verändert Fremdware |

@@ -12,13 +12,8 @@ In A.eins werden der Begünstigungszeitraum und der AfA-Satz in einem separaten 
 
 | | Bedeutung |
 | --- | --- |
-| Nummer | Nummer, die die Sonder-AfA eindeutig kennzeichnet. Diese Nummer wird im Anlagenstamm eingetragen  
- |
-| Bezeichnung | Bezeichnung zur Identifikation des Sonder-AfA  
- |
-| AfA-Konto | Die Sonder-AfA muss auf einem Separaten AfA-Konto vermerkt werden. Ist hier kein Konto angegeben, so wird beim Buchen der AfA das AfA-Konto verwendet, welches in den Stammdaten des Anlagegutes hinterlegt ist.  
- |
-| Begünstigungszeitraum | Zeitraum in Jahren, für den sich die Bemessungsgrundlage nicht ändert. In diesem Beispiel wird erst nach weiteren vier Jahren ( Jahr der Anschaffung nicht mitgerechnet ) auf Restwert-AfA umgestellt.  
- |
-| AfA-Satz | Hier erfasst man den Prozentsatz zur Berechnung der Sonder-AfA  
- |
+| Nummer | Nummer, die die Sonder-AfA eindeutig kennzeichnet. Diese Nummer wird im Anlagenstamm eingetragen<br> |
+| Bezeichnung | Bezeichnung zur Identifikation des Sonder-AfA<br> |
+| AfA-Konto | Die Sonder-AfA muss auf einem Separaten AfA-Konto vermerkt werden. Ist hier kein Konto angegeben, so wird beim Buchen der AfA das AfA-Konto verwendet, welches in den Stammdaten des Anlagegutes hinterlegt ist.<br> |
+| Begünstigungszeitraum | Zeitraum in Jahren, für den sich die Bemessungsgrundlage nicht ändert. In diesem Beispiel wird erst nach weiteren vier Jahren ( Jahr der Anschaffung nicht mitgerechnet ) auf Restwert-AfA umgestellt.<br> |
+| AfA-Satz | Hier erfasst man den Prozentsatz zur Berechnung der Sonder-AfA<br> |

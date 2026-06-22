@@ -6,11 +6,7 @@
 | --- | --- |
 | Profil | Waagenprofilname zur eindeutigen Identifikation des Waagenprofils. Dahinter folgt die Waagenprofil-ID ( wp_id ) des Waagenprofils. |
 | Bediener | Hier kann explizit das Waagenprofil für einen Bediener festgelegt werden. |
-| Aktiv | Hiermit legt man fest, ob ein Profil für den Produktivbetrieb freigegeben ist.  
-(Es bedeutet also nicht, dass eine Waage gerade aktiv ist!)  
-   
-Vorbelegung im Neu-Fall ist „Ja“  
- |
+| Aktiv | Hiermit legt man fest, ob ein Profil für den Produktivbetrieb freigegeben ist.<br>(Es bedeutet also nicht, dass eine Waage gerade aktiv ist!)<br> <br>Vorbelegung im Neu-Fall ist „Ja“<br> |
 
 | Funktionen | |
 | --- | --- |

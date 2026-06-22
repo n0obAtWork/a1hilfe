@@ -52,39 +52,16 @@ Sto= FibuKonto zur Umbuchung des Bargeldes aus Stornobelegen
 
 ZK=FibuKonto zur Umbuchung unbarer Zahlungsmittel (je Zahlungsmittelart)
 
-| UK/  
-HK | SPA  
-Zami | SPA  
-Abschöpfung | Kassensturz | Aut. Einreichungen | Kassenbericht  
-Vortrag |
+| UK/<br>HK | SPA<br>Zami | SPA<br>Abschöpfung | Kassensturz | Aut. Einreichungen | Kassenbericht<br>Vortrag |
 | --- | --- | --- | --- | --- | --- |
-| UK | Nein | Nein | UK->Diff | \-- keine -- | Bar= Barsoll  
-Zami=ZamiSoll |
-| UK | Nein | Ja | UK->Diff | UK->HK(Barsoll)  
-UK->HK(Zami) | Bar=0  
-Zami=0 |
-| UK | Ja | Nein | Bar->Diff | UK->Bar(Barzugang)  
-UK->Bar(Barabgang)  
-UK->Sto(Sto-Belege)  
-UK->ZK(Zami) | Bar= Barsoll  
-Zami=0 |
-| UK | Ja | Ja | UK->Diff | UK->HK (Barsoll)  
-UK->ZK(Zami) | Bar=0  
-Zami=0 |
-| HK | Nein | Nein | HK->Diff | \-- keine -- | Bar= Barsoll  
-Zami=ZamiSoll |
-| HK | Nein | Ja | HK->Diff | \-- keine -- | Bar= Barsoll  
-Zami=ZamiSoll |
-| HK | Ja | Nein | Bar->Diff | HK->Bar(Barzugang)  
-HK->Bar(Barabgang)  
-HK->Sto(Sto-Belege)  
-HK->ZK(Zami) | Bar= Barsoll  
-Zami=0 |
-| HK | Ja | Ja | Bar->Diff | HK->Bar(Barzugang)  
-HK->Bar(Barabgang)  
-HK->Sto(Sto-Belege)  
-HK->ZK(Zami) | Bar= Barsoll  
-Zami=0 |
+| UK | Nein | Nein | UK->Diff | \-- keine -- | Bar= Barsoll<br>Zami=ZamiSoll |
+| UK | Nein | Ja | UK->Diff | UK->HK(Barsoll)<br>UK->HK(Zami) | Bar=0<br>Zami=0 |
+| UK | Ja | Nein | Bar->Diff | UK->Bar(Barzugang)<br>UK->Bar(Barabgang)<br>UK->Sto(Sto-Belege)<br>UK->ZK(Zami) | Bar= Barsoll<br>Zami=0 |
+| UK | Ja | Ja | UK->Diff | UK->HK (Barsoll)<br>UK->ZK(Zami) | Bar=0<br>Zami=0 |
+| HK | Nein | Nein | HK->Diff | \-- keine -- | Bar= Barsoll<br>Zami=ZamiSoll |
+| HK | Nein | Ja | HK->Diff | \-- keine -- | Bar= Barsoll<br>Zami=ZamiSoll |
+| HK | Ja | Nein | Bar->Diff | HK->Bar(Barzugang)<br>HK->Bar(Barabgang)<br>HK->Sto(Sto-Belege)<br>HK->ZK(Zami) | Bar= Barsoll<br>Zami=0 |
+| HK | Ja | Ja | Bar->Diff | HK->Bar(Barzugang)<br>HK->Bar(Barabgang)<br>HK->Sto(Sto-Belege)<br>HK->ZK(Zami) | Bar= Barsoll<br>Zami=0 |
 
 Hinweise zum Verständnis:
 

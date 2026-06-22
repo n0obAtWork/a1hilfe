@@ -13,19 +13,15 @@ Folgende Informationen können im Lagerstamm auf dem hinterlegt werden.
 | Kopfdaten und Registerkarte „Allgemein“ |
 | --- |
 | Lager-Nummer | Nummer des Lagers |
-| Lager gesperrt | Einstellung „Nein“: Lagerlöschkennzeichen wird auf „0“ gesetzt. Lager nicht gesperrt.  
-Einstellung „Ja“: Lagerlöschkennzeichen wird auf „1“ gesetzt. Lager ist gesperrt. |
+| Lager gesperrt | Einstellung „Nein“: Lagerlöschkennzeichen wird auf „0“ gesetzt. Lager nicht gesperrt.<br>Einstellung „Ja“: Lagerlöschkennzeichen wird auf „1“ gesetzt. Lager ist gesperrt. |
 | Bezeichnung | Bezeichnung des Lagers |
 | Lagertyp | In dem Feld Lagertyp kann über die **F3**\-Auswahl angegeben werden, ob es sich um ein Bestandslager, Streckenlager, Pufferlager, Kundenlager oder Sortimentslager handelt. |
 | Betriebsstätte Filialsystem | Zuordnung zu einer Filiale (nur im Zusammenhang mit dem Filialsystem) |
 | Preisklasse Zugang | Preisklasse für den Lagerzugang (dient bei Lagerumbuchung als Vorschlagswert) |
 | Preisklasse Abgang | Preisklasse für den Lagerabgang (dient bei Lagerumbuchung als Vorschlagswert) |
-| Vorbelegung Kostenstellen Gruppe | Kostenstellengruppe gilt als Vorschlagswert bei Artikelanlage  
-Dieses Erfassungsfeld steht nur zur Verfügung, wenn der Steuerparameter **Kostenstellen-Lizenz** aktiviert ist. |
-| Kostenträger Gruppe | Kostenträgergruppe gilt als Vorschlagswert bei Artikelanlage  
-Dieses Erfassungsfeld steht nur zur Verfügung, wenn der Steuerparameter **Kostenträgerrechnung angeschlossen** aktiviert ist. |
-| Kostenobjekt Gruppe | Kostenobjektgruppe gilt als Vorschlagswert bei Artikelanlage  
-Dieses Erfassungsfeld steht nur zur Verfügung, wenn der Steuerparameter **Kostenobjekt-Lizenz** aktiviert ist. |
+| Vorbelegung Kostenstellen Gruppe | Kostenstellengruppe gilt als Vorschlagswert bei Artikelanlage<br>Dieses Erfassungsfeld steht nur zur Verfügung, wenn der Steuerparameter **Kostenstellen-Lizenz** aktiviert ist. |
+| Kostenträger Gruppe | Kostenträgergruppe gilt als Vorschlagswert bei Artikelanlage<br>Dieses Erfassungsfeld steht nur zur Verfügung, wenn der Steuerparameter **Kostenträgerrechnung angeschlossen** aktiviert ist. |
+| Kostenobjekt Gruppe | Kostenobjektgruppe gilt als Vorschlagswert bei Artikelanlage<br>Dieses Erfassungsfeld steht nur zur Verfügung, wenn der Steuerparameter **Kostenobjekt-Lizenz** aktiviert ist. |
 | Kundezuordnung | In dem Feld Kundenzuordnung kann angegeben werden, wo sich das Lager befindet. Das Lager kann einem bestimmten Kunden gehören und hier kann die Zuordnung festgehalten werden. |
 | Telefon | . |
 | Fax | |

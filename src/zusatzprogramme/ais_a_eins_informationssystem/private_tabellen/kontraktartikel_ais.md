@@ -26,10 +26,6 @@ Hier eine kleine Erläuterung zum Anlegen des Fremdschlüssels.
 
 | Statement | Beschreibung |
 | --- | --- |
-| foreign Key (ktrid, ktrartiposit) | Hiermit wird angegeben aus welchen Spalten der Fremdschlüssel besteht.  
- |
-| References kontraktartikel ( ktrid, ktrartiposit ) | Dieser Teil legt fest auf welche Tabelle der Fremdschlüssel zeigt und um welche Spalten es sich hierbei handelt. Die Reihenfolge der Spalten muss die gleich wie im „foreign key“ Teil sein.  
- |
-| ON DELETE CASCADE CHECK ON COMMIT | “ON DELETE CASCADE” bedeutet, dass beim Löschen die Abhängigen Daten dieser Tabelle auch gelöscht werden.  
-Der “CHECK ON COMMIT” Teil sagt aus, dass die Überprüfung erst beim COMMIT erfolgen soll.  
- |
+| foreign Key (ktrid, ktrartiposit) | Hiermit wird angegeben aus welchen Spalten der Fremdschlüssel besteht.<br> |
+| References kontraktartikel ( ktrid, ktrartiposit ) | Dieser Teil legt fest auf welche Tabelle der Fremdschlüssel zeigt und um welche Spalten es sich hierbei handelt. Die Reihenfolge der Spalten muss die gleich wie im „foreign key“ Teil sein.<br> |
+| ON DELETE CASCADE CHECK ON COMMIT | “ON DELETE CASCADE” bedeutet, dass beim Löschen die Abhängigen Daten dieser Tabelle auch gelöscht werden.<br>Der “CHECK ON COMMIT” Teil sagt aus, dass die Überprüfung erst beim COMMIT erfolgen soll.<br> |

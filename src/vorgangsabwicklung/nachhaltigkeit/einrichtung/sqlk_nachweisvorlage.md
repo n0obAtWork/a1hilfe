@@ -14,18 +14,10 @@ Diese Methode liefert einen einzeiligen Resultset zur Warenbewegung:
 | Text5 | '(§ 8 u. Anlage 2 der Nachhaltigkeitsverordnungen). ' |
 | Zertifizierung | Text lt. af_zertmeth |
 | Zertifikatsbemerkung | Eingerichteter Bemerkungstext |
-| Zertifikat_BLE | Normierte Zertifikatsausgabe gemäß BLE:  
-DE-B-BLE-BM-10-100-20100009-00000001  
-Stehend für Deutschland-Bund-BLE-Biomasse-  
-Zertifizierungssystem(10=ISCC)-  
-Zertifizierungsstelle-Zertifikatsnummer-Liefernummer;  
-Zur Nutzung dieses Formats trägt man bitte alles bis zur Liefernummer in das Textfeld zum Zertifikat ein |
+| Zertifikat_BLE | Normierte Zertifikatsausgabe gemäß BLE:<br>DE-B-BLE-BM-10-100-20100009-00000001<br>Stehend für Deutschland-Bund-BLE-Biomasse-<br>Zertifizierungssystem(10=ISCC)-<br>Zertifizierungsstelle-Zertifikatsnummer-Liefernummer;<br>Zur Nutzung dieses Formats trägt man bitte alles bis zur Liefernummer in das Textfeld zum Zertifikat ein |
 | Zustand | Integer Codierung entsprechend Format NACHHSTAT |
 | THG Wert | Ermittelter THG Wert |
-| THG Herkunft | 1= Kontrakt  
-2=Warenbewegung  
-3=Erzeuger (EK) / Mandant (VK)  
-4=Artikel |
+| THG Herkunft | 1= Kontrakt<br>2=Warenbewegung<br>3=Erzeuger (EK) / Mandant (VK)<br>4=Artikel |
 
 Das Label wird zur Darstellung in der Auswahlliste „Bewegungsübersicht“ verwendet.
 
@@ -108,26 +100,10 @@ Nicht alle Kombinationen von Eingabeparametern sind sinnvoll. Anwendungsbereiche
 | Notation | Datenquelle; Verwendung |
 | --- | --- |
 | Ist_nachhaltig(in_wabewid=###) | Nachhaltigkeitsstatus für eine Warenbewegung; Formulardruck auf Basis gespeicherter Daten |
-| Ist_nachhaltig(in_wabewid=NULL,  
- in_artikelid=###,  
- in_klasse=0) | Standard Nachhaltigkeit des Artikels im Verkauf;  
-Info-Bildschirm, Formulardruck auf Basis nicht gespeicherter Daten |
-| Ist_nachhaltig(in_wabewid=NULL,  
- in_artikelid=###,  
- in_klasse=1000,  
- in_KundId=###) | Standard Nachhaltigkeit des Artikels im Einkauf bei anzugebendem Lieferanten;  
-Info-Bildschirm, Formulardruck auf Basis nicht gespeicherter Daten |
-| Ist_nachhaltig(in_wabewid=NULL,  
- in_artikelid=###,  
- in_klasse=0,  
- in_ktrid=###) | Bestimmung der Nachhaltigkeit aus Kontrakt, ersatzweise Bestimmung Standard Verkauf;  
-Info-Bildschirm, Formulardruck auf Basis nicht gespeicherter Daten |
-| Ist_nachhaltig(in_wabewid=NULL,  
- in_artikelid=###,  
- in_klasse=1000,  
- in_KundId=###,  
- in_ktrid=###) | Bestimmung Nachhaltigkeit aus Kontrakt, ersatzweise Bestimmung Standard Lieferant;  
-Info-Bildschirm, Formulardruck auf Basis nicht gespeicherter Daten |
+| Ist_nachhaltig(in_wabewid=NULL,<br> in_artikelid=###,<br> in_klasse=0) | Standard Nachhaltigkeit des Artikels im Verkauf;<br>Info-Bildschirm, Formulardruck auf Basis nicht gespeicherter Daten |
+| Ist_nachhaltig(in_wabewid=NULL,<br> in_artikelid=###,<br> in_klasse=1000,<br> in_KundId=###) | Standard Nachhaltigkeit des Artikels im Einkauf bei anzugebendem Lieferanten;<br>Info-Bildschirm, Formulardruck auf Basis nicht gespeicherter Daten |
+| Ist_nachhaltig(in_wabewid=NULL,<br> in_artikelid=###,<br> in_klasse=0,<br> in_ktrid=###) | Bestimmung der Nachhaltigkeit aus Kontrakt, ersatzweise Bestimmung Standard Verkauf;<br>Info-Bildschirm, Formulardruck auf Basis nicht gespeicherter Daten |
+| Ist_nachhaltig(in_wabewid=NULL,<br> in_artikelid=###,<br> in_klasse=1000,<br> in_KundId=###,<br> in_ktrid=###) | Bestimmung Nachhaltigkeit aus Kontrakt, ersatzweise Bestimmung Standard Lieferant;<br>Info-Bildschirm, Formulardruck auf Basis nicht gespeicherter Daten |
 
 Verwendungsbeispiel als SQLK:
 

@@ -349,22 +349,12 @@ Siehe auch oben (Beleginformationen Finanzbuchhaltung) 
 
 | ID | Bezeichnung | Typ | Nummer | Bedeutung |
 | --- | --- | --- | --- | --- |
-| ID_KKD_SOLLBETRAG | Sollbetrag  
- | Numerisch | 4 | Betrag, wenn soll sonst leer |
-| ID_KKD_FIBUVP_SOLLHABEN | FiBuVP_SollHaben  
- | Numerisch | 4 | Soll Haben in der Fibuvorgangsposition |
-| ID_KKD_HABENBETRAG  
- | Habenbetrag  
- | Numerisch | 4 | Der Haben Betrag |
-| ID_KKD_FIBUVP_BETRAG  
- | FiBuVP_Betrag  
- | Numerisch | 4 | Nettobetrag |
-| ID_KKD_KONTONUMMER  
- | KontoNummer  
- | Text | 3 | Kontonummer |
-| ID_KKD_KONTOBEZEICH  
- | KontoBezeich  
- | Text | 3 | Die Kontobezeichnung |
+| ID_KKD_SOLLBETRAG | Sollbetrag<br> | Numerisch | 4 | Betrag, wenn soll sonst leer |
+| ID_KKD_FIBUVP_SOLLHABEN | FiBuVP_SollHaben<br> | Numerisch | 4 | Soll Haben in der Fibuvorgangsposition |
+| ID_KKD_HABENBETRAG<br> | Habenbetrag<br> | Numerisch | 4 | Der Haben Betrag |
+| ID_KKD_FIBUVP_BETRAG<br> | FiBuVP_Betrag<br> | Numerisch | 4 | Nettobetrag |
+| ID_KKD_KONTONUMMER<br> | KontoNummer<br> | Text | 3 | Kontonummer |
+| ID_KKD_KONTOBEZEICH<br> | KontoBezeich<br> | Text | 3 | Die Kontobezeichnung |
 
 <p class="just-emphasize">Formularbereich 608. Summen nach Forderungsgruppen</p>
 

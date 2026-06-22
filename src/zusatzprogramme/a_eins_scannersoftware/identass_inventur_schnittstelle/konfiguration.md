@@ -11,8 +11,7 @@ Klicken Sie auf dem Desktop des Scanners auf „**MyDevice**“, anschließend a
 | Feld | Funktion |
 | --- | --- |
 | Dropdown-Menü | Auswahl der Verbindungsdaten |
-| Großer, leerer Knopf dahinter | Öffnet Eingabe für die Namen oder IP des Rechners, zu dem verbunden werden soll.  
-\- Eingeben und anschließend OK klicken |
+| Großer, leerer Knopf dahinter | Öffnet Eingabe für die Namen oder IP des Rechners, zu dem verbunden werden soll.<br>\- Eingeben und anschließend OK klicken |
 | : Zahl | Angabe des zu verwendenden Ports 8591 |
 | Knopf „Add“ | Die Angaben auf dem großen Knopf und des Ports werden zusammengeführt und in die Liste zur Auswahl im Dropdown-Menü hinzugefügt. |
 | Test | Testet die ausgewählte Verbindung. |
@@ -36,12 +35,8 @@ Mittig finden sich die Eigenschaften der links ausgewählten Verbindung. Diese l
 | Feld | Wert |
 | --- | --- |
 | Connectionstring | |
-| ConnectionString | DSN=Name der ODBC-Verbindung  
-oder  
-einen Connectionstring |
-| ConnectionStringParameter | True oder False  
-Gibt an, ob Werte im ConnectionString ersetzt werden sollen. Die Werte würden auf  
-ScannerSeite der Eigenschaft ConnectionStringParameter angegeben. Die Konvention entsprichtdem des Haispeed.CF20.Utils.Arguments Objekt. (--parameter=Wert) |
+| ConnectionString | DSN=Name der ODBC-Verbindung<br>oder<br>einen Connectionstring |
+| ConnectionStringParameter | True oder False<br>Gibt an, ob Werte im ConnectionString ersetzt werden sollen. Die Werte würden auf<br>ScannerSeite der Eigenschaft ConnectionStringParameter angegeben. Die Konvention entsprichtdem des Haispeed.CF20.Utils.Arguments Objekt. (--parameter=Wert) |
 | FeldAnfangKenner | { |
 | FeldEndKenner | } |
 | Konfiguration | |
@@ -57,14 +52,7 @@ Mittig unter den Verbindungseigenschaften, unter Sonstiges können die Datenbank
 | Feld | Wert |
 | --- | --- |
 | Sonstiges | |
-| Befehl | Verschiedene Datenbankbefehle möglich:  
-Select \* from IhrFunktionsname('@Artikel',@Menge,'Scanner1') für unsere Inventur-Prozedur (IhrFunktionsname ist entsprechend zu ersetzen!)  
-Aktuelles Beispiel:  
-Select \* from IdentassScannerInventurTest ( {0},{1},‘{2}‘ )  
-{0}: EAN-Code (wird gescannt)  
-{1}: Menge  
-{2}: ScannerID  
- |
+| Befehl | Verschiedene Datenbankbefehle möglich:<br>Select \* from IhrFunktionsname('@Artikel',@Menge,'Scanner1') für unsere Inventur-Prozedur (IhrFunktionsname ist entsprechend zu ersetzen!)<br>Aktuelles Beispiel:<br>Select \* from IdentassScannerInventurTest ( {0},{1},‘{2}‘ )<br>{0}: EAN-Code (wird gescannt)<br>{1}: Menge<br>{2}: ScannerID<br> |
 | CommandTimeout | Setzt die Zeit, die gewartet werden soll, bis der Versuch einer Befehlsausführung beendet und ein Fehler generiert wird. -1 lässt den Default-Wert der Datenbankverbindung bestehen. |
 | Name | Name, unter dem der SQL-Befehl ausgeführt werden soll. |
 | Type | Definiert den Typ des Befehls (z.B. Select) |

@@ -11,13 +11,11 @@ Die Kasseneinstellungen werden in Vorlagen gegliedert, die wiederum in der Kasse
 
 | Allgemein |
 | --- |
-| EC-Karte manuell erfassen | Nein=EC-Kartenleser ist aktiv, nur dort Eingabe möglich  
-Ja=Keine Steuerung über EC Kartenleser. Siehe auch [Zahlungen mit Karte](./zahlungen_mit_karte.md) |
+| EC-Karte manuell erfassen | Nein=EC-Kartenleser ist aktiv, nur dort Eingabe möglich<br>Ja=Keine Steuerung über EC Kartenleser. Siehe auch [Zahlungen mit Karte](./zahlungen_mit_karte.md) |
 | BV-Abschluss erzwingen | |
 | Tagesabschluss erzwingen | Eine Erfassung kann bei Einstellung „Ja“ nur erfolgen, wenn die Kassensitzung am gleichen Tag eröffnet wurde. Ggf. Muss die laufende Sitzung erst geschlossen und dann neu eröffnet werden. |
 
-| Barverkauf  
-Nicht in POS-Kasse |
+| Barverkauf<br>Nicht in POS-Kasse |
 | --- |
 | Max Skontosatz | Maximaler Skontosatz in Prozent, der in der Kasse mit dieser Vorlage verwendet werden kann. |
 

@@ -24,19 +24,15 @@ Direktsprung **[VBA]**
 | Suchen | |
 | --- | --- |
 | Id | Von – bis |
-| Suchen … | Sucht in den Feldern  
-Name, Thema und dem VBA-Script-Text. |
+| Suchen … | Sucht in den Feldern<br>Name, Thema und dem VBA-Script-Text. |
 
 | Funktionen | |
 | --- | --- |
-| ***Filter / bereichsauswahl***  
-***F2*** | |
-| ***Duplizieren***  
-**Shift + F10** | Bietet die Möglichkeit ein Duplikat des Scriptes anzulegen. |
+| ***Filter / bereichsauswahl***<br>***F2*** | |
+| ***Duplizieren***<br>**Shift + F10** | Bietet die Möglichkeit ein Duplikat des Scriptes anzulegen. |
 | ***Export*** | Exportiert ein Script |
 | ***Ändern, Ansehen, Löschen, Neu*** | Standard-Pflege-Operationen |
-| Ausführen  
-**F9** | Führt das VBA-Script aus. |
+| Ausführen<br>**F9** | Führt das VBA-Script aus. |
 
 VBA bedient folgende interne Schnittstelle:
 

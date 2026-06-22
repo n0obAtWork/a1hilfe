@@ -146,14 +146,7 @@ Auf dem Tabreiter „Privatisierbares Addon“ kann man sich eigene Felder mit A
 | Mengenzeitr. **(F10)** | Öffnet die Maske Objektverwaltung mit den Werten aus den tabreiterübergreifenden Feldern. Es kann der Zeitraum und die Zu - und Abgänge verwaltet werden. |
 | Anschriften **(SF6)** | [Anschriften](../kunden_und_lieferanten/kunden_und_lieferantenstamm/anschriften/registerkarten_in_anschriften/allgemein.md) |
 | Bemerkung **(F2)** | [Kontraktbemerkungen](../kontrakt/kontraktvarianten/bereiche.md) |
-| Rabatt/Preise **(SF12)** | Öffnet die Maske Objektverwaltung mit den Werten aus den tabreiterübergreifenden Feldern.  
-Es können für Artikel und Warengruppen bis zu 3 Rabatte verwaltet werden.  
-Wenn in den Rabattfeldern jeweils 0,00 steht, dann würde - sofern angelegt - der Standardrabatt (allgemeiner/individueller Rabatt) gezogen werden.   
-Ein ¨Ja¨ im Feld ¨Null¨ verhindert, dass die Standard-Rabattierung stattfindet. Typ der Behandlung, wenn alle drei Rabattsätze 0 sind:  
-\- 0 (Ja) = es gibt keine Rabatte.  
-\- 1 (Nein) = es sollen die Standardrabatte verwendet werden.  
-Das Feld Ausschluss gibt an, dass alle außer der ausgewählten (Haupt-/Ober-)Warengruppe ausgewählt werden. Wenn also ein Ja in Aus steht, wird diese (Haupt-/Ober-)Warengruppe ausgeschlossen.  
- |
+| Rabatt/Preise **(SF12)** | Öffnet die Maske Objektverwaltung mit den Werten aus den tabreiterübergreifenden Feldern.<br>Es können für Artikel und Warengruppen bis zu 3 Rabatte verwaltet werden.<br>Wenn in den Rabattfeldern jeweils 0,00 steht, dann würde - sofern angelegt - der Standardrabatt (allgemeiner/individueller Rabatt) gezogen werden. <br>Ein ¨Ja¨ im Feld ¨Null¨ verhindert, dass die Standard-Rabattierung stattfindet. Typ der Behandlung, wenn alle drei Rabattsätze 0 sind:<br>\- 0 (Ja) = es gibt keine Rabatte.<br>\- 1 (Nein) = es sollen die Standardrabatte verwendet werden.<br>Das Feld Ausschluss gibt an, dass alle außer der ausgewählten (Haupt-/Ober-)Warengruppe ausgewählt werden. Wenn also ein Ja in Aus steht, wird diese (Haupt-/Ober-)Warengruppe ausgeschlossen.<br> |
 | DSGVO-Liste | Öffnet die DSGVO-Maske mit den Daten aus der Anschriftenmaske. Man kann die Daten mit F7 anonymisieren. |
 | Archiv anzeigen **(CF12)** | [Archiv](../dokumentenverwaltung/archiv_dokumente_hinzufuegen.md) |
 | Duplizieren **(F4)** | Öffnet die Duplizierenmaske mit der man entscheiden kann, welche Daten von einem vorhandenen Projekt in ein neues Projekt dupliziert werden sollen. |

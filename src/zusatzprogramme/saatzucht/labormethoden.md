@@ -10,43 +10,23 @@ In diesem Stammdatenpfleger werden die Labormethoden gepflegt. Labormethoden die
 
 | Name | Bedeutung |
 | --- | --- |
-| Nummer | Eindeutige Nummer dieser Methode, wie sie in den Labordaten verwendet wird.  
- |
-| Bezeichnung | Die Methodenbezeichnung  
- |
-| Fruchtart |   
- |
-| Zweck (Probentyp) | Hier wird die Norm angezeigt. Aus dem Format „AF_QUALART“ **kann** **eine Auswahl** via Taste **F3** **aufgerufen werden**.  
-Ist hier der Einrichterparameter ‚Methodenauswahl auf Probentyp eingeschränkt‘ der Labordaten-Maske (Probensatzbearbeitung) mit dem Wert ‚Ja‘ versehen, so wird die Methodenauswahl im LABOR-Modul bei der Erstellung eines Probensatzes nach dem dort angegebenen Probentyp (Satzart, Zweck) eingeschränkt.  
- |
-| Nummernkreis | Die Nummer des Nummernkreis, der für die Vergabe der Probenummer in den Labordaten verwendet wird.  
- |
-| Verfahren (Grid) | Hier werden alle [Verfahren](./laborverfahren.md) die zu einer Methode gehören eingetragen. Die Verfahren werden einer Probe im Labor zugeordnet, sobald die Methode ausgewählt wurde.  
- |
+| Nummer | Eindeutige Nummer dieser Methode, wie sie in den Labordaten verwendet wird.<br> |
+| Bezeichnung | Die Methodenbezeichnung<br> |
+| Fruchtart | <br> |
+| Zweck (Probentyp) | Hier wird die Norm angezeigt. Aus dem Format „AF_QUALART“ **kann** **eine Auswahl** via Taste **F3** **aufgerufen werden**.<br>Ist hier der Einrichterparameter ‚Methodenauswahl auf Probentyp eingeschränkt‘ der Labordaten-Maske (Probensatzbearbeitung) mit dem Wert ‚Ja‘ versehen, so wird die Methodenauswahl im LABOR-Modul bei der Erstellung eines Probensatzes nach dem dort angegebenen Probentyp (Satzart, Zweck) eingeschränkt.<br> |
+| Nummernkreis | Die Nummer des Nummernkreis, der für die Vergabe der Probenummer in den Labordaten verwendet wird.<br> |
+| Verfahren (Grid) | Hier werden alle [Verfahren](./laborverfahren.md) die zu einer Methode gehören eingetragen. Die Verfahren werden einer Probe im Labor zugeordnet, sobald die Methode ausgewählt wurde.<br> |
 
 Folgende Felder werden zusätzlich angezeigt, sobald der Einrichterparameter „[Erweiterte Einstellungen](../../firmenstamm/einrichterparameter/labormethoden_epa_labormethoden.md)“ auf „Ja“ gestellt wird.
 
 | Name | Bedeutung |
 | --- | --- |
-| Norm | Hier wird die Norm angezeigt. Aus dem Format „BF_QUALKL“ **kann** **eine Auswahl** mit **F3** **aufgerufen werden**.  
-Ist hier ein Eintrag vorhanden, so wird die Methodenauswahl im LABOR-Modul bei der Erstellung eines Probensatzes nach der dort angegebenen Norm eingeschränkt.  
- |
-| Kategorie | Hier wird die Kategorie angezeigt. Aus dem Saatgutstammdatenbereich Kategorien kann mit **F3** **eine Auswahl aufgerufen werden**.  
-Ist hier ein Eintrag vorhanden, so wird die Methodenauswahl im LABOR-Modul bei der Erstellung eines Probensatzes nach der dort angegebenen Kategorie eingeschränkt, wenn diese größer 0 ist.  
- |
-| Anbauart | Hier wird die Anbauart angezeigt. Aus dem Format „AF_ANBAUART“ **kann** **eine Auswahl** mit **F3** **aufgerufen werden**.  
-Ist hier ein Eintrag vorhanden, so wird die Methodenauswahl im Labor-Modul bei der Erstellung eines Probensatzes nach der dort aus dem zugehörigen Artikelstamm (Sinfosdaten) ermittelten Anbauart eingeschränkt, wenn diese nicht NULL ist.  
- |
-| Sortentyp | Hier wird der Sortentyp angezeigt. Aus dem Format „AF_SORTENTYP“ **kann** **eine Auswahl** mit **F3** **aufgerufen werden**.  
-Ist hier ein Eintrag vorhanden, so wird die Methodenauswahl im Labor-Modul bei der Erstellung eines Probensatzes nach dem dort aus der zugehörigen Sorte ermittelten Sortentyp eingeschränkt, wenn dieser nicht NULL ist.  
- |
-| Behandlung | Hier wird die Laborbehandlung angezeigt. Aus dem Format „AF_BEHANDLUN“ **kann** mit **F3** **eine Auswahl aufgerufen werden**.  
-Ist hier ein Eintrag vorhanden, so wird die Methodenauswahl im Labor-Modul bei der Erstellung eines Probensatzes nach dem dort eingetragenen Wert für die Behandlung eingeschränkt, wenn dieser größer als 0 ist.  
-   
-In der Tabelle „Zusätzliche Behandlung“ können weitere Behandlungen erfasst werden, damit diese Methode auch bei diesen Behandlungen im Labor-Modul herangezogen wird.  
- |
-| Gültig ab | Hier kann ein Gültigkeitsabdatum eingetragen werden. Dies Datum wird benötigt, wann die Labormethode im Prüfauftrag oder im Labormodul automatisch gesucht wird.  
- |
+| Norm | Hier wird die Norm angezeigt. Aus dem Format „BF_QUALKL“ **kann** **eine Auswahl** mit **F3** **aufgerufen werden**.<br>Ist hier ein Eintrag vorhanden, so wird die Methodenauswahl im LABOR-Modul bei der Erstellung eines Probensatzes nach der dort angegebenen Norm eingeschränkt.<br> |
+| Kategorie | Hier wird die Kategorie angezeigt. Aus dem Saatgutstammdatenbereich Kategorien kann mit **F3** **eine Auswahl aufgerufen werden**.<br>Ist hier ein Eintrag vorhanden, so wird die Methodenauswahl im LABOR-Modul bei der Erstellung eines Probensatzes nach der dort angegebenen Kategorie eingeschränkt, wenn diese größer 0 ist.<br> |
+| Anbauart | Hier wird die Anbauart angezeigt. Aus dem Format „AF_ANBAUART“ **kann** **eine Auswahl** mit **F3** **aufgerufen werden**.<br>Ist hier ein Eintrag vorhanden, so wird die Methodenauswahl im Labor-Modul bei der Erstellung eines Probensatzes nach der dort aus dem zugehörigen Artikelstamm (Sinfosdaten) ermittelten Anbauart eingeschränkt, wenn diese nicht NULL ist.<br> |
+| Sortentyp | Hier wird der Sortentyp angezeigt. Aus dem Format „AF_SORTENTYP“ **kann** **eine Auswahl** mit **F3** **aufgerufen werden**.<br>Ist hier ein Eintrag vorhanden, so wird die Methodenauswahl im Labor-Modul bei der Erstellung eines Probensatzes nach dem dort aus der zugehörigen Sorte ermittelten Sortentyp eingeschränkt, wenn dieser nicht NULL ist.<br> |
+| Behandlung | Hier wird die Laborbehandlung angezeigt. Aus dem Format „AF_BEHANDLUN“ **kann** mit **F3** **eine Auswahl aufgerufen werden**.<br>Ist hier ein Eintrag vorhanden, so wird die Methodenauswahl im Labor-Modul bei der Erstellung eines Probensatzes nach dem dort eingetragenen Wert für die Behandlung eingeschränkt, wenn dieser größer als 0 ist.<br> <br>In der Tabelle „Zusätzliche Behandlung“ können weitere Behandlungen erfasst werden, damit diese Methode auch bei diesen Behandlungen im Labor-Modul herangezogen wird.<br> |
+| Gültig ab | Hier kann ein Gültigkeitsabdatum eingetragen werden. Dies Datum wird benötigt, wann die Labormethode im Prüfauftrag oder im Labormodul automatisch gesucht wird.<br> |
 
 Prüfbericht
 

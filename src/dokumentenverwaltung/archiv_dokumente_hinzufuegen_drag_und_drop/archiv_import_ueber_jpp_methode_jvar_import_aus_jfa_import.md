@@ -10,8 +10,7 @@ Diese Methode wird im Rahmen des Integrationstestes amic_test_jarchivexport_tofi
 | --- |
 | Owner | Pflichtfeld | Gibt den JVAR-Owner vor, in dem die folgenden dynamischen Parameter gesucht werden. |
 | $file | Pflichtfeld | Dateipfad |
-| $delete | Optional | Löschen der Datei nach Import  
-Standard 0 = Nein |
+| $delete | Optional | Löschen der Datei nach Import<br>Standard 0 = Nein |
 | fa_mandant | Optional | |
 | fa_kundenummer | Optional | |
 | fa_belegtyptext | Optional | |

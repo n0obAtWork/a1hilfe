@@ -4,12 +4,9 @@
 
 | Funktionen |
 | --- |
-| Kasse deaktivieren | ACHTUNG! Bitte verwenden Sie diese Funktion nur mit Bedacht. Eine einmal vergebene Kassenseriennummer sollte zugewiesen bleiben.  
-Wenn diese Seriennummer ausnahmsweise aus guten Gründen einer anderen Kasse zugewiesen werden soll, so wird diese Kasse fortan nicht wieder verwendet werden können und auch nicht mit einer neuen Seriennummer versehen werden dürfen.  
-Die Zuweisung der Seriennummer an eine neue Kasse müssen Sie in jedem Fall an die Finanzbehörden melden. |
+| Kasse deaktivieren | ACHTUNG! Bitte verwenden Sie diese Funktion nur mit Bedacht. Eine einmal vergebene Kassenseriennummer sollte zugewiesen bleiben.<br>Wenn diese Seriennummer ausnahmsweise aus guten Gründen einer anderen Kasse zugewiesen werden soll, so wird diese Kasse fortan nicht wieder verwendet werden können und auch nicht mit einer neuen Seriennummer versehen werden dürfen.<br>Die Zuweisung der Seriennummer an eine neue Kasse müssen Sie in jedem Fall an die Finanzbehörden melden. |
 | Kassensystem bearbeiten | ruft die [Bearbeitungsmaske des verbundenen Kassensystems](./kassensystemverwaltung_hardware/index.md) auf. |
-| Standard Anzeigeschema einrichten | richtet ein Anzeigeschema für ein [externes Display](./einrichtung_der_marktkasse/einrichtung_des_externen_kassendisplays.md) nach AMIC-Vorlage ein.  
- |
+| Standard Anzeigeschema einrichten | richtet ein Anzeigeschema für ein [externes Display](./einrichtung_der_marktkasse/einrichtung_des_externen_kassendisplays.md) nach AMIC-Vorlage ein.<br> |
 | Ext. Display testen | Führt Sie durch den Test eines [externen Kassendisplay](./einrichtung_der_marktkasse/einrichtung_des_externen_kassendisplays.md) |
 | AnyBill einrichten | Öffnet die Profil-Liste für [AnyBill-Profile](./einrichtung_der_marktkasse/qr_code.md), in der diese eingerichtet werden können |
 
@@ -34,13 +31,11 @@ Die Zuweisung der Seriennummer an eine neue Kasse müssen Sie in jedem Fall an d
 | Wechselgeld | Anzeige Wechselgeldmenge |
 | Vorlage | Einstellungen der Kasse aus den Kasseneinstellungen |
 | TSE-ID | Die Id der [TSE](../kassensicherungsverordnung/kassensicherungsverordnung_einrichtung/tse_auswahlliste/index.md) |
-| Kassenseriennummer | Eine vom Hersteller (AMIC) vergebene Seriennummer der Kasse.  
-Dieses Feld ist nur editierbar, solange noch keine Seriennummer zu dieser Kasse zugewiesen wurde. Die Kassenseriennummern werden automatisch aus der Lizenz bereitgestellt. |
+| Kassenseriennummer | Eine vom Hersteller (AMIC) vergebene Seriennummer der Kasse.<br>Dieses Feld ist nur editierbar, solange noch keine Seriennummer zu dieser Kasse zugewiesen wurde. Die Kassenseriennummern werden automatisch aus der Lizenz bereitgestellt. |
 | Inaktiv seit | Angabe eines Datums ab dem diese Seriennummer dieser Kasse nicht mehr zugewiesen ist |
 | Ks-Betriebsstätte | In diesem Feld wird die Kassenbetriebstätte hinterlegt. Die Kassenbetriebsstätte wird nur für den DSFinV-K Export benötigt. |
 
-| Registerkarte Formulare  
-Wird hier kein Formular eingerichtet, (Wert 0), so wird hier das nebenstehende Standardvorlageformular (mit neg. Nummer) genommen. |
+| Registerkarte Formulare<br>Wird hier kein Formular eingerichtet, (Wert 0), so wird hier das nebenstehende Standardvorlageformular (mit neg. Nummer) genommen. |
 | --- |
 | Barverkauf | |
 | Barverkauf Gutschrift | |
@@ -73,24 +68,15 @@ Wird hier kein Formular eingerichtet, (Wert 0), so wird hier das nebenstehende S
 
 | Hardware externes Display |
 | --- |
-| Ausprägung | In diesem Feld geben Sie an, ob das externe Display als Bildschirmdisplay, als Bildschirmdisplay mit zusätzlichem Zeilendisplay oder nur zur Ansteuerung eines Zeilendisplays verwendet wird.  
-• Kein – Es gibt keine Kundendarstellung  
-• Nur Zeilendisplay – Es wird ausschließlich die Darstellung an das Zeilendisplay gesendet  
-• Nur Bildschirm – Es wird ausschließlich die Darstellung an das Bildschirmdisplay gesendet  
-• Bildschirm und Zeilendisplay – Es werden beide Darstellungen gesendet |
-| Server | Pfad auf dem der Server Daten zur Anzeige auf dem externen Display ablegt  
-Siehe auch [Einrichtung externes Kassendisplay](./einrichtung_der_marktkasse/einrichtung_des_externen_kassendisplays.md) |
-| Client | Pfad auf dem der Client Daten zur Anzeige auf dem externen Display liest.  
- |
+| Ausprägung | In diesem Feld geben Sie an, ob das externe Display als Bildschirmdisplay, als Bildschirmdisplay mit zusätzlichem Zeilendisplay oder nur zur Ansteuerung eines Zeilendisplays verwendet wird.<br>• Kein – Es gibt keine Kundendarstellung<br>• Nur Zeilendisplay – Es wird ausschließlich die Darstellung an das Zeilendisplay gesendet<br>• Nur Bildschirm – Es wird ausschließlich die Darstellung an das Bildschirmdisplay gesendet<br>• Bildschirm und Zeilendisplay – Es werden beide Darstellungen gesendet |
+| Server | Pfad auf dem der Server Daten zur Anzeige auf dem externen Display ablegt<br>Siehe auch [Einrichtung externes Kassendisplay](./einrichtung_der_marktkasse/einrichtung_des_externen_kassendisplays.md) |
+| Client | Pfad auf dem der Client Daten zur Anzeige auf dem externen Display liest.<br> |
 | AnyBill | Das AnyBill-Profil, das für diese Kasse gelten soll. Siehe auch [Einrichtung externes Kassendisplay](./einrichtung_der_marktkasse/einrichtung_des_externen_kassendisplays.md) |
 
 | Serielles Display |
 | --- |
-| Typ | • \--- = Nichts  
-• EPSON = Epson Zeilendisplay |
+| Typ | • \--- = Nichts<br>• EPSON = Epson Zeilendisplay |
 | Zeilenlänge | Länge der Zeilen im Display |
 
-| Registerkarte Anzeige  
-Wird ein externes Kassendisplay verwendet, kann dies hier eingerichtet werden.  
-[Siehe Einrichtung externes Kassendisplay](./einrichtung_der_marktkasse/einrichtung_des_externen_kassendisplays.md) |
+| Registerkarte Anzeige<br>Wird ein externes Kassendisplay verwendet, kann dies hier eingerichtet werden.<br>[Siehe Einrichtung externes Kassendisplay](./einrichtung_der_marktkasse/einrichtung_des_externen_kassendisplays.md) |
 | --- |

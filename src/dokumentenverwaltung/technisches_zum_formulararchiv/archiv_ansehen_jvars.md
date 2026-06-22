@@ -56,8 +56,7 @@ Somit werden mit Hilfe der [Archiv-Ansichts-Definition](../archiv_ansehen/archiv
 | --- | --- |
 | JVAR_FAARCHIV_VIEW_FAVP_ANWID | Technische ID der [Archiv-Ansichts-Definition](../archiv_ansehen/archiv_ansicht_definition/index.md) |
 | JVAR_FAARCHIV_VIEW_FAVP_BESITZER | Besitzer |
-| JVAR_FAARCHIV_VIEW_UMGEBUNG | Textuelle Aufbereitung: Profilname, Id und Besitzer  
-z.B. Profil: AMIC_KUNDE, Anischts-ID: 32, Besizer: 0 |
+| JVAR_FAARCHIV_VIEW_UMGEBUNG | Textuelle Aufbereitung: Profilname, Id und Besitzer<br>z.B. Profil: AMIC_KUNDE, Anischts-ID: 32, Besizer: 0 |
 | JVAR_FAARCHIV_VIEW_START | ["Durchstart"](../archiv_ansehen/archiv_ansicht_definition/index.md#ueb_Archiv_Durchstart) der Archiv-Ansichts-Definition |
 
 | **Temporäre Sql-JVars des Owners 5001** |

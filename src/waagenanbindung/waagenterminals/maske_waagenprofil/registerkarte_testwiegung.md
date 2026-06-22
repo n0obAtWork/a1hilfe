@@ -8,9 +8,7 @@
 | Wann | Datum und Zeit von Testwiegungen |
 | Inhalt | Ergebnis der Testwiegung |
 | | |
-| Rückgabe/Textfeld | Ausgabe von Rückmeldungen  
-Nicht druckbare Steuerzeichen werden hier durch ein „x“ ersetzt.  
-Es ist möglich den Rückgabetext zu markieren und weiterzuverarbeiten. |
+| Rückgabe/Textfeld | Ausgabe von Rückmeldungen<br>Nicht druckbare Steuerzeichen werden hier durch ein „x“ ersetzt.<br>Es ist möglich den Rückgabetext zu markieren und weiterzuverarbeiten. |
 | | |
 | Prozedur | Name der SQL-Prozedur zur Auswertung der Wiegeergebnisse |
 | Editieren | Möglichkeit zum Editieren dieser SQL-Prozedur |

@@ -12,18 +12,9 @@ Die Funktion ***Wiedervorlage Outlook*** macht einen Eintrag im Kalender von Mic
 
 | Felder |
 | --- |
-| Notiz | Hier trägt man sich einen Text ein, damit man weiß was bei Wiedervorlage zu tun ist.  
- |
-| Wiedervorlage | Hier kann man ein Häkchen setzen, wenn man eine Wiedervorlage mit genaueren Angaben wünscht.  
-Nur wenn das Häkchen gesetzt ist sind die folgenden Felder auf der Maske sichtbar und verwendbar.  
-Ist das Häkchen nicht gesetzt wird beim Verwenden der Wiedervorlage-Funktionen ein Eintrag mit den Standardwerten Tagesdatum und 00:00 Uhr gemacht.  
- |
-| Datum | Hier trägt man das Datum für die Wiedervorlage ein. Das Feld ist mit dem aktuellen Tagesdatum vorbelegt. Mit **F3** kann man ein anderes Datum aus dem Kalender auswählen.  
- |
-| Uhrzeit (HH:MM) | Hier trägt man die Uhrzeit für die Wiedervorlage im Format HH:MM ein.  
- |
-| Erinnerung vorher | Mit dem Häkchen wählt man aus, ob man eine Erinnerung möchte. Hat man das Häkchen gesetzt ist ein Feld sichtbar in dem man eintragen kann wann (wie viele Stunden/Minuten vorher) man an den Termin erinnert werden möchte. Das Format für dieses Feld ist HH:MM  
- |
-| Termin /  
-Aufgabe | Hier wählt man die Art der Wiedervorlage aus. Termin ist vorbelegt  
- |
+| Notiz | Hier trägt man sich einen Text ein, damit man weiß was bei Wiedervorlage zu tun ist.<br> |
+| Wiedervorlage | Hier kann man ein Häkchen setzen, wenn man eine Wiedervorlage mit genaueren Angaben wünscht.<br>Nur wenn das Häkchen gesetzt ist sind die folgenden Felder auf der Maske sichtbar und verwendbar.<br>Ist das Häkchen nicht gesetzt wird beim Verwenden der Wiedervorlage-Funktionen ein Eintrag mit den Standardwerten Tagesdatum und 00:00 Uhr gemacht.<br> |
+| Datum | Hier trägt man das Datum für die Wiedervorlage ein. Das Feld ist mit dem aktuellen Tagesdatum vorbelegt. Mit **F3** kann man ein anderes Datum aus dem Kalender auswählen.<br> |
+| Uhrzeit (HH:MM) | Hier trägt man die Uhrzeit für die Wiedervorlage im Format HH:MM ein.<br> |
+| Erinnerung vorher | Mit dem Häkchen wählt man aus, ob man eine Erinnerung möchte. Hat man das Häkchen gesetzt ist ein Feld sichtbar in dem man eintragen kann wann (wie viele Stunden/Minuten vorher) man an den Termin erinnert werden möchte. Das Format für dieses Feld ist HH:MM<br> |
+| Termin /<br>Aufgabe | Hier wählt man die Art der Wiedervorlage aus. Termin ist vorbelegt<br> |

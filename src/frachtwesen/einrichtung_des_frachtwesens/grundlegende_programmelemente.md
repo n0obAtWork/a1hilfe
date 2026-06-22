@@ -82,8 +82,7 @@ In den **Frachttabellen** werden die entscheidenden Parameter der Frachtkosten­
 
 Verschiedene Frachtbezüge:
 
-| Übersicht Frachtbezug  
-Der Frachtbezug gibt an, welche Größe zum Suchen in den Frachtsätzen (Bezug) herangezogen wird. |
+| Übersicht Frachtbezug<br>Der Frachtbezug gibt an, welche Größe zum Suchen in den Frachtsätzen (Bezug) herangezogen wird. |
 | --- |
 | 1 | Warenwert | Ein Prozentsatz des Warenwertes wird als Fracht berechnet |
 | 2 | Positionsanzahl | Ein pauschaler Satz wird pro Lieferung berechnet |
@@ -111,8 +110,7 @@ Mit F5 werden die Frachtsätze eingegeben:
 
 ![](../../ImagesExt/image8_293.jpg)
 
-| Frachtformel  
-Die Frachtformel gibt an, wie die Fracht berechnet wird |
+| Frachtformel<br>Die Frachtformel gibt an, wie die Fracht berechnet wird |
 | --- |
 | 1 | % vom Warenwert | Ein Prozentsatz des Warenwertes wird als Fracht berechnet |
 | 2 | Pausch. / Lieferung | Ein pauschaler Satz wird pro Lieferung berechnet |

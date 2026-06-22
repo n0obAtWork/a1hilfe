@@ -14,21 +14,9 @@ Es stehen folgende Eingabefelder und Eingabemöglichkeiten zur Verfügung.
 
 | Name | Bedeutung |
 | --- | --- |
-| Merkmalsnummer | Eindeutige Nummer des Merkmals.  
- |
-| Merkmalstyp | Hier wird der Typ des Merkmals angezeigt. Mit **F3** kann eine Auswahl getroffen werden. Zurzeit stehen folgende Typen zur Verfügung:  
-• \- kein Typ  
-• Fremdbesatz  
-• Mutterkorn  
-• Genotyp Merkmale dieses Typs können in den Laborverfahren in den Merkmalen für Markeranalyse verwendet werden.  
-• Phänotyp Merkmale dieses Typs können in den Laborverfahren in den Merkmalen für Feldversuche verwendet werden.  
- |
-| Bezeichnung | Die Bezeichnung des Merkmals.  
- |
-| Formatauswahl | Mithilfe der Taste **F3** können hier Eingabeformate ausgewählt werden. Dieses Format wird verwendet, um in den Labordaten die Ausprägung des Merkmals anzuzeigen.  
- |
-| Einheit | Die Einheit des Merkmals.  
-Steht der Einrichterparameter „Erweiterte Einstellungen“ auf „Ja“, so kann mit der Taste **F3** eine Auswahl über die Mengeneinheiten aufgerufen werden.  
- |
-| Druckkennzeichen | Hier kann das Druckkennzeichen angegeben werden.  
- |
+| Merkmalsnummer | Eindeutige Nummer des Merkmals.<br> |
+| Merkmalstyp | Hier wird der Typ des Merkmals angezeigt. Mit **F3** kann eine Auswahl getroffen werden. Zurzeit stehen folgende Typen zur Verfügung:<br>• \- kein Typ<br>• Fremdbesatz<br>• Mutterkorn<br>• Genotyp Merkmale dieses Typs können in den Laborverfahren in den Merkmalen für Markeranalyse verwendet werden.<br>• Phänotyp Merkmale dieses Typs können in den Laborverfahren in den Merkmalen für Feldversuche verwendet werden.<br> |
+| Bezeichnung | Die Bezeichnung des Merkmals.<br> |
+| Formatauswahl | Mithilfe der Taste **F3** können hier Eingabeformate ausgewählt werden. Dieses Format wird verwendet, um in den Labordaten die Ausprägung des Merkmals anzuzeigen.<br> |
+| Einheit | Die Einheit des Merkmals.<br>Steht der Einrichterparameter „Erweiterte Einstellungen“ auf „Ja“, so kann mit der Taste **F3** eine Auswahl über die Mengeneinheiten aufgerufen werden.<br> |
+| Druckkennzeichen | Hier kann das Druckkennzeichen angegeben werden.<br> |

@@ -25,11 +25,9 @@ Im Variantenbereich werden alle allgemeinen Informationen zum Bereich hinterlegt
 | Variantenbereich |
 | --- |
 | Lfd. Nummer in Variante | Die lfd. Nummer bestimmt die Reihenfolge (aufsteigend nach Nummer) im Ausdruck. |
-| Formularbereich | Hier wird der Bezug zum Formular (siehe “Formulareinrichter”) hergestellt.  
-Damit wird im Programmablauf sichergestellt, dass die hier gemachten Angaben sich (z.B.) auf die “Artikelposition” des Formulars beziehen. Welche Informationen aus der “Artikelposition” ausgedruckt werden, ist im Formular selbst hinterlegt. |
+| Formularbereich | Hier wird der Bezug zum Formular (siehe “Formulareinrichter”) hergestellt.<br>Damit wird im Programmablauf sichergestellt, dass die hier gemachten Angaben sich (z.B.) auf die “Artikelposition” des Formulars beziehen. Welche Informationen aus der “Artikelposition” ausgedruckt werden, ist im Formular selbst hinterlegt. |
 | Bezeichnung | Dies ist wieder ein freier Text zur besseren Beschreibung eines Bereiches. |
-| Maximale Anzahl im Druck | Gibt an, wie oft der Bereich maximal gedruckt werden soll. Wenn eine 0 eingegeben wird, so wird der Bereich bis zu maximal 50 Zeilen gedruckt.  
-Wird eine Zahl größer als 0 eingegeben, so wird der Bereich genauso oft gedruckt, wie die eingegebene Anzahl vorgibt. |
+| Maximale Anzahl im Druck | Gibt an, wie oft der Bereich maximal gedruckt werden soll. Wenn eine 0 eingegeben wird, so wird der Bereich bis zu maximal 50 Zeilen gedruckt.<br>Wird eine Zahl größer als 0 eingegeben, so wird der Bereich genauso oft gedruckt, wie die eingegebene Anzahl vorgibt. |
 | Maximale Anzahl Folgezeilen | Maximale Anzahl von Folgezeilen, bei der Eingabe von 0 wird auch keine Folgezeile gedruckt. |
 | Bereichsüberschrift | Der auszudruckende Bereich kann eine Überschrift erhalten. |
 | Beschriftung 1. Zeile | Beschriftung für die erste Zeile des Bereiches. Sie ersetzt praktisch die Bereichsüberschrift, wenn die Bereichsbeschreibung (z.B. “Qualität”) in der ersten Spalte des Formulars erfolgt. |

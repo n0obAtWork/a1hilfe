@@ -26,8 +26,7 @@ Mit dem Funktionsaufruf für den Identass Inventur Test starten Sie eine neue Ma
 | Artikel EAN | Eingabe einer Artikel EAN über ein geeignetes Eingabegerät (Scanner, Tastatur, usw.). |
 | Menge | Angegebene Menge |
 | Fehlercode | Zeigt eine Fehlernummer an. Die Null (0) steht für OK. |
-| Fehlertext | Zeigt den Fehlertext zur Fehlernummer an. Bei Fehlercode Null (0) erscheint hier die Artikelnummer und dessen Bezeichnung.  
-Diese Daten können je nach Verwendung privater Prozeduren abweichen! |
+| Fehlertext | Zeigt den Fehlertext zur Fehlernummer an. Bei Fehlercode Null (0) erscheint hier die Artikelnummer und dessen Bezeichnung.<br>Diese Daten können je nach Verwendung privater Prozeduren abweichen! |
 
 Öffnen Sie nun zunächst die Einrichterparameter und geben für den Parameter „Scanner-ID“ den passenden Wert ein, den Sie auch in das Feld **Externer Name** und in den Steuerparametern verwenden.
 

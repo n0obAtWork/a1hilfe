@@ -10,5 +10,4 @@ Sie können u.U. nicht immer 1:1 zu einer bestehenden Mengeneinheit umgerechnet 
 | --- |
 | UN-Mengeneinheit | Bis zu 3-stelliges Kürzel für den internationalen Warenverkehr |
 | Mengeneinheit A.eins | Mengeneinheit in A.eins |
-| Faktor UN zu A.eins | Umrechnungsfaktor zwischen der internationalen und der internen Mengeneinheit.  
-So ist z.B. das internationale CMT (Zentimeter) 100fach in der lokalen Mengeneinheit „meter“ enthalten. |
+| Faktor UN zu A.eins | Umrechnungsfaktor zwischen der internationalen und der internen Mengeneinheit.<br>So ist z.B. das internationale CMT (Zentimeter) 100fach in der lokalen Mengeneinheit „meter“ enthalten. |

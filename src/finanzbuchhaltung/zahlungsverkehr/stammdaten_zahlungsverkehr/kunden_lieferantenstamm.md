@@ -12,40 +12,9 @@ Im [Kunden-/Lieferantenstamm](../../../kunden_und_lieferanten/kunden_und_liefera
 
 | | Beschreibung |
 | --- | --- |
-| **Zahlungsempfänger/  
-Zahlungspflichtiger**  
- | Beim automatischne Zahlungsverkehr wird der Name des Zahlungspflichtigen bzw. des Zahlungsempfängers benötig. Hierbei gilt folgende Regel.  
-    
-    
-4) Ist in der Kundenbank ein Empfänger eingetragen, so wird dieser verwendet und sofort in den Zahlungsvorschlägen vermerkt.  
-5) Ist der Empfänger in den Kundenbanken leer, dann wird dieses Feld verwendet. Die Bestimmung erfolgt erst beim DTA.  
-6) Ist dieses Feld Leer, dann wird die Kundenbezeichnung verwendet.  
- |
-| **Zahlsperre**  
- | Mit **Ja** ist der Kunde für Zahlungen gesperrt.  
- |
-| Verrechnung Gutschriften  
- | Für die Erstellung von Zahlvorschlägen kann mit diesem Kennzeichen bestimmt werden, ob debitorische und kreditorische Vorgänge miteinander verrechnet werden sollen:  
-• Keine Verrechnung: Es erfolgt auch dann eine Zahlung, wenn der Kunde einen negativen Saldo hat  
-• Alle Belegarten: Es wird nur der Saldo zur Zahlung gestellt  
-• Trennung Ein- und Verkauf: Es wird der Saldo aus den Einkäufen zur Zahlung gestellt  
- |
-| Zahlungsart Eingang (Debitor)  
- | Die Standardzahlungsart, wenn der Kunde bezahlt:  
-• Scheck  
-• Datenträgeraustausch  
-    
-Die Zahlungsart kann bei der Vorgangserfassung für den konkreten Vorgang überschrieben werden.  
- |
-| Zahlungsart Ausgang (Kreditor)  
- | Die Standardzahlungsart, wenn an den Kreditor bezahlt wird:  
-• Scheck  
-• Datenträgeraustausch  
-    
-Die Zahlungsart kann bei der Vorgangserfassung für den konkreten Vorgang überschrieben werden.  
- |
-| OP-Typ | Der OP-Typ hat drei Ausprägungen  
-• Standard hat keine Besonderheiten.  
-• OP-Raffung bei Kokoreerstellung: Bei der Erstellung des Kokores werden alle offenen Posten, die in dem Kokore aufgelistet werden, zu einem Restposten zusammengefasst. Als Auszifferungsdatum wird das Kontoblattdatum und als Belegdatum das Datum, welches bei „Bis Belegdatum“ eingegeben wurde, verwendet.  
-• Automatik bei DTA-Import gesperrt: Im Modul e-Clearing wird dieser Kunde nicht automatisch ausgeziffert.  
- |
+| **Zahlungsempfänger/<br>Zahlungspflichtiger**<br> | Beim automatischne Zahlungsverkehr wird der Name des Zahlungspflichtigen bzw. des Zahlungsempfängers benötig. Hierbei gilt folgende Regel.<br><br><br>4) Ist in der Kundenbank ein Empfänger eingetragen, so wird dieser verwendet und sofort in den Zahlungsvorschlägen vermerkt.<br>5) Ist der Empfänger in den Kundenbanken leer, dann wird dieses Feld verwendet. Die Bestimmung erfolgt erst beim DTA.<br>6) Ist dieses Feld Leer, dann wird die Kundenbezeichnung verwendet.<br> |
+| **Zahlsperre**<br> | Mit **Ja** ist der Kunde für Zahlungen gesperrt.<br> |
+| Verrechnung Gutschriften<br> | Für die Erstellung von Zahlvorschlägen kann mit diesem Kennzeichen bestimmt werden, ob debitorische und kreditorische Vorgänge miteinander verrechnet werden sollen:<br>• Keine Verrechnung: Es erfolgt auch dann eine Zahlung, wenn der Kunde einen negativen Saldo hat<br>• Alle Belegarten: Es wird nur der Saldo zur Zahlung gestellt<br>• Trennung Ein- und Verkauf: Es wird der Saldo aus den Einkäufen zur Zahlung gestellt<br> |
+| Zahlungsart Eingang (Debitor)<br> | Die Standardzahlungsart, wenn der Kunde bezahlt:<br>• Scheck<br>• Datenträgeraustausch<br><br>Die Zahlungsart kann bei der Vorgangserfassung für den konkreten Vorgang überschrieben werden.<br> |
+| Zahlungsart Ausgang (Kreditor)<br> | Die Standardzahlungsart, wenn an den Kreditor bezahlt wird:<br>• Scheck<br>• Datenträgeraustausch<br><br>Die Zahlungsart kann bei der Vorgangserfassung für den konkreten Vorgang überschrieben werden.<br> |
+| OP-Typ | Der OP-Typ hat drei Ausprägungen<br>• Standard hat keine Besonderheiten.<br>• OP-Raffung bei Kokoreerstellung: Bei der Erstellung des Kokores werden alle offenen Posten, die in dem Kokore aufgelistet werden, zu einem Restposten zusammengefasst. Als Auszifferungsdatum wird das Kontoblattdatum und als Belegdatum das Datum, welches bei „Bis Belegdatum“ eingegeben wurde, verwendet.<br>• Automatik bei DTA-Import gesperrt: Im Modul e-Clearing wird dieser Kunde nicht automatisch ausgeziffert.<br> |

@@ -6,10 +6,8 @@ In Variante Fehlerprotokoll werden Fehlernummern angezeigt. Diese können unter 
 
 | **Felder** | |
 | --- | --- |
-| Define | Alphanumerische Entsprechung der Nummer.  
-[(Fehlernummern)](./index.md) |
-| Nr | Fehlernummer  
-Die Fehlernummern sind von Aeins vordefiniert. |
+| Define | Alphanumerische Entsprechung der Nummer.<br>[(Fehlernummern)](./index.md) |
+| Nr | Fehlernummer<br>Die Fehlernummern sind von Aeins vordefiniert. |
 
 | **Bereich/Profile** | |
 | --- | --- |

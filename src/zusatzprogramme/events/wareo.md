@@ -63,40 +63,21 @@ Unterstützte Funktionen für die Warenreorganisation:
 
 | Nummer | Reorganisation Funktion |
 | --- | --- |
-| 1 | Gesamte Reorganisation (Standard)  
-Es werden die wesentlichen Reorganisationen der Daten durchgeführt:  
-• **Korrekturfelder zurücksetzen**  
-• **Vorgangstapelpositionen bereinigen**  
-• **Bestandsreorganisation und Nachkalkulation**  
-• **Teildisposition reorganisieren**  
-• **Kontraktbestände reorganisieren**  
-• **Partiebestände reorganisieren**  
- |
+| 1 | Gesamte Reorganisation (Standard)<br>Es werden die wesentlichen Reorganisationen der Daten durchgeführt:<br>• **Korrekturfelder zurücksetzen**<br>• **Vorgangstapelpositionen bereinigen**<br>• **Bestandsreorganisation und Nachkalkulation**<br>• **Teildisposition reorganisieren**<br>• **Kontraktbestände reorganisieren**<br>• **Partiebestände reorganisieren**<br> |
 | 2 | Bestandsreorganisation und Nachkalkulation |
 | 3 | Konsistenz Artikel |
 | 4 | Korrekturfelder zurücksetzen |
 | 5 | Kontraktbestände reorganisieren |
 | 6 | Partiebestände reorganisieren |
 | 7 | Teildisposition reorganisieren |
-| 8 | Wareo-Kombinations-Element:  
-Bestandsreorganisation und Nachkalkulation (ohne vorhergehende Löschung) |
-| 16 | Wareo-Kombinations-Element:  
-Bestandsreorganisation und Nachkalkulation mit  
-Löschen der Summen aller Artikel (fakturierte Summen, Lagerplatzsummen, Bestandssummen), ermöglicht die komplette Neuberechnung durch  
-Bestandsreorganisation und Nachkalkulation |
-| 32 | Wareo-Kombinations-Element:  
-Teildisposition reorganisieren |
-| 64 | Wareo-Kombinations-Element:  
-Kontraktbestände reorganisieren und fehlende Kontraktbewegungen nachtragen |
-| 128 | Wareo-Kombinations-Element:  
-Kontrakbewegungen löschen und Kontraktbestände und Bewegungen reorganisieren |
-| 256 | Wareo-Kombinations-Element:  
-Partiebestände reorganisieren |
-| 512 | Wareo-Kombinations-Element:  
-Kundensummen reorganisieren |
-| 1024 | Wareo-Kombinations-Element:  
-Leergut reorganisieren |
-| 2048 | Wareo-Kombinations-Element:  
-Baustellen reorganisieren |
+| 8 | Wareo-Kombinations-Element:<br>Bestandsreorganisation und Nachkalkulation (ohne vorhergehende Löschung) |
+| 16 | Wareo-Kombinations-Element:<br>Bestandsreorganisation und Nachkalkulation mit<br>Löschen der Summen aller Artikel (fakturierte Summen, Lagerplatzsummen, Bestandssummen), ermöglicht die komplette Neuberechnung durch<br>Bestandsreorganisation und Nachkalkulation |
+| 32 | Wareo-Kombinations-Element:<br>Teildisposition reorganisieren |
+| 64 | Wareo-Kombinations-Element:<br>Kontraktbestände reorganisieren und fehlende Kontraktbewegungen nachtragen |
+| 128 | Wareo-Kombinations-Element:<br>Kontrakbewegungen löschen und Kontraktbestände und Bewegungen reorganisieren |
+| 256 | Wareo-Kombinations-Element:<br>Partiebestände reorganisieren |
+| 512 | Wareo-Kombinations-Element:<br>Kundensummen reorganisieren |
+| 1024 | Wareo-Kombinations-Element:<br>Leergut reorganisieren |
+| 2048 | Wareo-Kombinations-Element:<br>Baustellen reorganisieren |
 
 Die Funktionen 8 bis 2048 sind per Addition der Funktionswerte kombinierbar. In einem extra dafür vorgesehenem Feld wird der Kombinationswert angezeigt. Bei der Neuanlage eines WAREO-Events können diese durch Aktivierung der entsprechenden Merkmale vor der Eingabe des Wertes ‚*Ja*‘ im Feld **Wareo** ausgewählt werden. Bei der Erzeugung der Verarbeitungsroutine wird der somit ermittelte Wert automatisch berücksichtigt. Bei Änderungen muss der Funktionskombinationswert als Wert des Parameters **in_wareo_aufruf** manuell eingetragen werden.

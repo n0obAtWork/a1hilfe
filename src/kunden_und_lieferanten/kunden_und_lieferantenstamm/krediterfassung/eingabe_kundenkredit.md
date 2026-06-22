@@ -38,15 +38,10 @@ Wie dieser Wert bestimmt wird, lässt sich mit dem [Steuerparameters 503](../../
 | Ansprechpartner | Ansprechpartner aus Anschrift |
 | Zusatz1 | Zusatz 1 aus Anschrift |
 | OP-Saldo | OP-Saldo des Kunden |
-| Summierung | Steht auf Ja oder Nein.  
-Ja zeigt an, dass diese Zeile zur Berechnung des gesamten Kreditlimits herangezogen wird.  
-Das Feld wird berechnet mit Hilfe folgender Informationen:  
-der Angabe beim Kredittyp, dem Löschkennzeichen, dem ‚Gültig bis‘-Datum, dem ‚Genehmigt ab‘-Datum und dem [Steuerparameter 503](../../../firmenstamm/steuerparameter/kundenstammdaten/alle_kredite_als_summe_uebernehmen_spa_503.md) (Alle Kredite als Summe übernehmen?) |
+| Summierung | Steht auf Ja oder Nein.<br>Ja zeigt an, dass diese Zeile zur Berechnung des gesamten Kreditlimits herangezogen wird.<br>Das Feld wird berechnet mit Hilfe folgender Informationen:<br>der Angabe beim Kredittyp, dem Löschkennzeichen, dem ‚Gültig bis‘-Datum, dem ‚Genehmigt ab‘-Datum und dem [Steuerparameter 503](../../../firmenstamm/steuerparameter/kundenstammdaten/alle_kredite_als_summe_uebernehmen_spa_503.md) (Alle Kredite als Summe übernehmen?) |
 | Limitart | **F3** Funktion zur Auswahl oder Angabe des Kredittypen |
 | Bezeichnung | Bezeichnung des Kredittypen |
-| Status | Aktiv: wird zur Berechnung des gesamten Kreditlimits herangezogen  
-Abgelaufen: wird **nicht** zur Berechnung des gesamten Kreditlimits herangezogen und kann über einen Einrichterparameter (Nur aktive Datensätze anzeigen) ausgeblendet werden. Die Standard Vorbelegung für diesen Einrichterparameter ist Nein.  
-Gelöscht: wird **nicht** zur Berechnung des gesamten Kreditlimits herangezogen und kann über einen Einrichterparameter (Nur aktive Datensätze anzeigen) ausgeblendet werden. Die Standard Vorbelegung für diesen Einrichterparameter ist Nein. |
+| Status | Aktiv: wird zur Berechnung des gesamten Kreditlimits herangezogen<br>Abgelaufen: wird **nicht** zur Berechnung des gesamten Kreditlimits herangezogen und kann über einen Einrichterparameter (Nur aktive Datensätze anzeigen) ausgeblendet werden. Die Standard Vorbelegung für diesen Einrichterparameter ist Nein.<br>Gelöscht: wird **nicht** zur Berechnung des gesamten Kreditlimits herangezogen und kann über einen Einrichterparameter (Nur aktive Datensätze anzeigen) ausgeblendet werden. Die Standard Vorbelegung für diesen Einrichterparameter ist Nein. |
 | Referenznummer | Frei zu vergebene Nummer als Referenz der Kreditlimitart |
 | Beantragt | Enthält den beatragten Wert des Kreditlimits |
 | Beantragt am | Enthält das Datum der Beantragung |

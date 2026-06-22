@@ -16,22 +16,12 @@ Folgende Parameter stehen zur Auswahl:
 | --- | --- |
 | Profilname | Name des für den Kunden gespeicherten Profils. Wurde dem Kunden bislang noch kein Profil zugeordnet, wird Profil „Standard“ gezeigt. |
 | Kunde | Kundennummer und Bezeichnung des Kunden. |
-| Warengruppe von / bis | F3 Auswahl  
-Von: ab welcher Warengruppe die individuellen Preise bearbeitet werden sollen.  
-Bis: bis zu welcher Warengruppe die individuellen Preise bearbeitet werden sollen.  
-Standardeinstellung ist „0“ ohne Warengruppe |
-| Lager von / bis | F3 Auswahl  
-Von: ab welcher Lagernummer sollen Artikel verwendet werden.  
-Bis: bis zu welchem Lager sollen Artikel verwendet werden |
-| Verwendete Daten-Prozedur | F3 Auswahl privater Prozeduren  
-Die Prozedur, welche für das Laden der Daten in die Preisbearbeitungsmaske verwendet werden soll.  
-Standard-Prozedur ist die „HoleIndividuellePreiseKunde“. |
-| Kalkulations-Prozedur | F3 Auswahl privater Prozeduren  
-Die Prozedur, welche eine Preiskalkulation durchführen kann oder soll.  
-Standard-Prozedur ist die „Beispiel_Einstieg_IndiPrKalk“. |
+| Warengruppe von / bis | F3 Auswahl<br>Von: ab welcher Warengruppe die individuellen Preise bearbeitet werden sollen.<br>Bis: bis zu welcher Warengruppe die individuellen Preise bearbeitet werden sollen.<br>Standardeinstellung ist „0“ ohne Warengruppe |
+| Lager von / bis | F3 Auswahl<br>Von: ab welcher Lagernummer sollen Artikel verwendet werden.<br>Bis: bis zu welchem Lager sollen Artikel verwendet werden |
+| Verwendete Daten-Prozedur | F3 Auswahl privater Prozeduren<br>Die Prozedur, welche für das Laden der Daten in die Preisbearbeitungsmaske verwendet werden soll.<br>Standard-Prozedur ist die „HoleIndividuellePreiseKunde“. |
+| Kalkulations-Prozedur | F3 Auswahl privater Prozeduren<br>Die Prozedur, welche eine Preiskalkulation durchführen kann oder soll.<br>Standard-Prozedur ist die „Beispiel_Einstieg_IndiPrKalk“. |
 | Button Edit | Bietet die Möglichkeit zum Bearbeiten der im Feld **Verwendete Prozedur** angegebenen Prozedur. |
-| Kalkulations-Prozedur | F3 Auswahl  
-Die Prozedur, welche für die Kalkulation der Preise verwendet werden soll. |
+| Kalkulations-Prozedur | F3 Auswahl<br>Die Prozedur, welche für die Kalkulation der Preise verwendet werden soll. |
 | Button Edit | Bietet die Möglichkeit zum Bearbeiten der im Feld **Kalkulations-Prozedur** angegebenen Prozedur. |
 | Datum 1 | Erstes Preisdatum (Voreinstellung ist das aktuelle Tagesdatum) |
 | Datum 2 | Zweites Preisdatum (Voreinstellung ist immer der nächste Montag) |

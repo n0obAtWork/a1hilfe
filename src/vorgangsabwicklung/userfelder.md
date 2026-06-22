@@ -24,11 +24,7 @@ Maskenfelder
 
 | Feld | Bedeutung |
 | --- | --- |
-| Feldgruppe | Folgende Gruppen stehen zur Verfügung  
-1. Strecke  
-2. Text1  
-3. Umbuchung  
-4. Vorgang |
+| Feldgruppe | Folgende Gruppen stehen zur Verfügung<br>1. Strecke<br>2. Text1<br>3. Umbuchung<br>4. Vorgang |
 | Bed.Klasse | In diesem Feld wird die Bedienerklasse hinterlegt, welche die zugordneten Userfelder bei der Vorgangserfassung sehen darf. |
 | Vorg.Klasse | Folgende UFLD Felder werden bei dieser Vorgangsklasse angezeigt |
 | Unterklasse | Folgende UFLD Felder werden bei dieser Vorgangsunterklasse angezeigt |
@@ -39,17 +35,9 @@ Gridbeschreibung
 | --- | --- |
 | Bezeichnung | In diesem Feld steht die Bezeichnung des UFLD Feldes |
 | Feld | ID Nummer des UFLD Feldes |
-| Schnellerfassung | Zur Auswahl stehen  
-1. Ja  
-2. Nein |
-| Erfassungslevel | Hier kann angeben werden, wann UFLD Feld auf der Maske nagezeigt werden soll.  
-Zur Auswahl stehen  
-• Ersterfassung  
-• Neuerfassung mit Positionsteil  
-• Belegkorrektur  
-• Keine Änderung |
-| Folgetaste | Hier kann eine Folgetaste hinterlegt werden, die nach der Eingabe des UFLD Feldes ausgeführt werden soll.  
-z.B. F5 in der SVMAIN für den Positionsteil |
+| Schnellerfassung | Zur Auswahl stehen<br>1. Ja<br>2. Nein |
+| Erfassungslevel | Hier kann angeben werden, wann UFLD Feld auf der Maske nagezeigt werden soll.<br>Zur Auswahl stehen<br>• Ersterfassung<br>• Neuerfassung mit Positionsteil<br>• Belegkorrektur<br>• Keine Änderung |
+| Folgetaste | Hier kann eine Folgetaste hinterlegt werden, die nach der Eingabe des UFLD Feldes ausgeführt werden soll.<br>z.B. F5 in der SVMAIN für den Positionsteil |
 | Reihenfolge | Für die Sortierung im Grid |
 | Zeile-Bezeichnung. | In welcher Zeile soll die Bezeichnung stehen |
 | Spalte-Bezeichnung | In welcher Spalte soll die Bezeichnung stehen |
@@ -83,8 +71,7 @@ select vs.V_VersAdressId from amic_v_vorgaenge vs
       where v_id = :ID_V_ID
 ```
 
- | IB_VERS_ANSCHRIFT_ZUM_KUNDEN  
- | | |
+ | IB_VERS_ANSCHRIFT_ZUM_KUNDEN<br> | | |
 | 110 | ID_V_WIEGENUMMER | Wiegenummer | 
 
 ```sql
@@ -168,8 +155,7 @@ join amic_v_vorgaenge
 where vs.v_id = :ID_V_ID
 ```
 
- | ib_rohwaresorte  
- | ssc_rohwareSorteNummer | RohSorteBezeich |
+ | ib_rohwaresorte<br> | ssc_rohwareSorteNummer | RohSorteBezeich |
 | 428 | ID_ABW_ROHW_KUNDNUMMER | AbwRohwKunde | 
 
 ```sql
@@ -181,8 +167,7 @@ join amic_v_vorgaenge
 where vs.v_id = :ID_V_ID
 ```
 
- | IB_KU  
- | SSC_KundenStamm | Kundbezeich |
+ | IB_KU<br> | SSC_KundenStamm | Kundbezeich |
 | 430 | ID_ROHWAREVORERFASSUNG | RohwVorerfass | 
 
 ```sql
@@ -201,8 +186,7 @@ select vs.ArbeitsRegel from amic_v_vorgaenge vs where v_id =
       :ID_V_ID
 ```
 
- | IB_WORKFLOW  
- | ssc_workflowbezeich | wfs_name |
+ | IB_WORKFLOW<br> | ssc_workflowbezeich | wfs_name |
 | 450 | ID_ABW_ROHW_LAGERKENNZID | Lager ändern | 
 
 ```sql
@@ -1319,8 +1303,7 @@ select vs.ArbeitsRegel from amic_v_vorgaenge vs where v_id =
       :ID_V_ID
 ```
 
- | IB_WORKFLOW  
- | ssc_workflowbezeich | |
+ | IB_WORKFLOW<br> | ssc_workflowbezeich | |
 | 457 | ID_VERFAHRENSART | Verfahrensart | 
 
 ```sql

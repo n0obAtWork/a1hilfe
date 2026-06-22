@@ -15,9 +15,7 @@ Folgende Pflichtfelder werden zurzeit unterstützt.
 | Bezeichnung | Betroffene Felder |
 | --- | --- |
 | Private Prozedur | Selbst bestimmbar |
-| Silo Lagerverwaltungssystem | 1. Silo/Träger  
-2. Lokalität/Standort  
-3. Datentabelle Ladeträger/Silo |
+| Silo Lagerverwaltungssystem | 1. Silo/Träger<br>2. Lokalität/Standort<br>3. Datentabelle Ladeträger/Silo |
 
 Private Prozedur
 

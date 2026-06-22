@@ -4,9 +4,7 @@
 
 | Felder |
 | --- |
-| Partie-Nummer  
- | Laufende Nummer der Partie, in die der Kontrakt aufgeteilt ist.  
- |
+| Partie-Nummer<br> | Laufende Nummer der Partie, in die der Kontrakt aufgeteilt ist.<br> |
 | Partiebezeichnung | Nähere Bezeichnung der Partie |
 | Partiegröße | Größe der Partie |
 | Parität | Parität dieser Partie |

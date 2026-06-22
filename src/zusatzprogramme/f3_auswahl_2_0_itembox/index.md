@@ -54,24 +54,15 @@ Funktionen:
 
 | | **Beschreibung** |
 | --- | --- |
-| Liste aktualisieren | Lädt die Daten erneut.  
- |
-| CSV-Export | Export der geladenen Daten in eine CSV-Datei. Diese Datei wird anschließend gleich mit dem verbundenen Programm geöffnet,  
- |
-| PDF-Export | Export in ein PDF-Dokument, welches sofort geöffnet wird.  
- |
-| Einstiegsvariante  
- | Beim Aufruf einer F3-Auswahl wird mit der vom Entwickler vorgegebenen Variante gestartet. Mit dieser Funktion wird die Einstiegsvariante auf die gerade aktive Variante gesetzt. |
-| Zeige SQL  
- | Zeigt das aufbereitete SQL-Statement inclusive des Datenbank Zugriffsplans an. |
-| Private Variante  
- | Erstellen einer privaten Ableitung dieser F3-Auswahl oder bearbeiten einer bereits privaten Ableitung. |
-| SQL-text pflegen | Bearbeiten des SQL-Textes dieser Variante.  
- |
-| Originaleinstellung | Breite und Positionen der Spalten können geändert werden. Mit dieser Funktion wird die Originaleinstellung wiederhergestellt.  
- |
-| Über diese F3-Auswahl | Zeigt zusätzliche Informationen an.  
- |
+| Liste aktualisieren | Lädt die Daten erneut.<br> |
+| CSV-Export | Export der geladenen Daten in eine CSV-Datei. Diese Datei wird anschließend gleich mit dem verbundenen Programm geöffnet,<br> |
+| PDF-Export | Export in ein PDF-Dokument, welches sofort geöffnet wird.<br> |
+| Einstiegsvariante<br> | Beim Aufruf einer F3-Auswahl wird mit der vom Entwickler vorgegebenen Variante gestartet. Mit dieser Funktion wird die Einstiegsvariante auf die gerade aktive Variante gesetzt. |
+| Zeige SQL<br> | Zeigt das aufbereitete SQL-Statement inclusive des Datenbank Zugriffsplans an. |
+| Private Variante<br> | Erstellen einer privaten Ableitung dieser F3-Auswahl oder bearbeiten einer bereits privaten Ableitung. |
+| SQL-text pflegen | Bearbeiten des SQL-Textes dieser Variante.<br> |
+| Originaleinstellung | Breite und Positionen der Spalten können geändert werden. Mit dieser Funktion wird die Originaleinstellung wiederhergestellt.<br> |
+| Über diese F3-Auswahl | Zeigt zusätzliche Informationen an.<br> |
 
 <p class="siehe-auch">Siehe auch:</p>
 

@@ -17,13 +17,7 @@
 | Feld | Bedeutung |
 | --- | --- |
 | Verkaufsgebiet | Verkaufsgebiet des Vertreters |
-| Abrechart(\*) | Periode der Provisionsabrechnung als numerischer Schlüssel:  
-0 = keine Vertreterabrechnung  
-1 = monatlich  
-2 = zweimonatlich  
-12 = jährlich  
-14 = wöchentlich  
-15 = vierzehntägig |
+| Abrechart(\*) | Periode der Provisionsabrechnung als numerischer Schlüssel:<br>0 = keine Vertreterabrechnung<br>1 = monatlich<br>2 = zweimonatlich<br>12 = jährlich<br>14 = wöchentlich<br>15 = vierzehntägig |
 | Anrede | Anrede des Vertreters |
 | Vorname | Vorname des Vertreters |
 | Name | Nachname des Vertreters |

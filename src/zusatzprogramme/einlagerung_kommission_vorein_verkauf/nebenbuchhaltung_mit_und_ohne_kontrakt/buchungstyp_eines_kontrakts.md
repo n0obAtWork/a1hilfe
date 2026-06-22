@@ -10,8 +10,7 @@ Bitte beachten Sie, dass bei der Verwendung bestehender privater Auswahllisten, 
 
 Der Buchungstyp ist im Kontraktstamm auf der Registerkarte „Zusätze“ eingetragen. Er wird jedoch nur durch Setzen des EPA sichtbar.
 
-| Buchungstypen  
- |
+| Buchungstypen<br> |
 | --- |
 | 0 | Eigenwarebuchung | Diese Buchung verändert nur die Bestände der Eigenware |
 | 1 | Vorverkauf | Diese Buchung verändert Fremdware |

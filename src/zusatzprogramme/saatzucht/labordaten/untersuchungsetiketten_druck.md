@@ -22,27 +22,12 @@ Ist das Feld Druckanzahl gelb markiert, so ist dem Verfahren kein Report zugeord
 
 | Maskenfeld | Bedeutung |
 | --- | --- |
-| Qualitätsid | Qualitätsid  
- |
-| Satzid | Laborsatz  
- |
-| Ohne Druckerauswahl | Der Druck wird sofort auf dem Standard Drucker des Bedieners ausgeführt.  
- |
-| Mit Druckerauswahl | Die Druckerauswahlmaske öffnet sich im Vorfeld.  
- |
-| Nachdrucken | Mit diesem Schalter kann eingestellt werden, ob die Untersuchungsetiketten des jeweiligen Verfahrens bei der Funktion Auswahl Drucken ausgedruckt werden soll.  
-Die Vorbelegung des Schalters ist „Nein“.  
- |
-| Druckanzahl | In diesem Feld kann eingetragen werden, wie oft die Etiketten des jeweiligen Verfahrens ausgedruckt werden sollen.  
-**Achtung:** *Im Verfahren kann unter Druckoptionen eine Anzahl von Kopien eingestellt werden. Ist die Druckanzahl größer als 1, so wird die Anzahl der Kopien jedes Etikett welches in dem Verfahren hinterlegt worden ist mit der Druckanzahl multipliziert.*  
-Beispiel:  
-Druckanzahl = 2  
-Kopie eines Etiketts = 2  
-Es werden dann 4 Etiketten ausgedruckt.  
- |
-| Verfahren | Mit einem Doppelklick auf das Verfahren öffnet sich automatisch die Pfleger zu dem Verfahren.  
- |
-| Alle Drucken | Wird dieser Knopf gedrückt, so werden alle Untersuchungsetiketten, die zu den dargestellten Verfahren gehören, ausgedruckt. Der Schalter Nachdrucken wird dabei nicht berücksichtigt.  
- |
-| Auswahl Drucken | Wird dieser Knopf gedrückt, so werden nur die Etiketten ausgedruckt, bei den der Schalter Nachdrucken auf Ja steht.  
- |
+| Qualitätsid | Qualitätsid<br> |
+| Satzid | Laborsatz<br> |
+| Ohne Druckerauswahl | Der Druck wird sofort auf dem Standard Drucker des Bedieners ausgeführt.<br> |
+| Mit Druckerauswahl | Die Druckerauswahlmaske öffnet sich im Vorfeld.<br> |
+| Nachdrucken | Mit diesem Schalter kann eingestellt werden, ob die Untersuchungsetiketten des jeweiligen Verfahrens bei der Funktion Auswahl Drucken ausgedruckt werden soll.<br>Die Vorbelegung des Schalters ist „Nein“.<br> |
+| Druckanzahl | In diesem Feld kann eingetragen werden, wie oft die Etiketten des jeweiligen Verfahrens ausgedruckt werden sollen.<br>**Achtung:** *Im Verfahren kann unter Druckoptionen eine Anzahl von Kopien eingestellt werden. Ist die Druckanzahl größer als 1, so wird die Anzahl der Kopien jedes Etikett welches in dem Verfahren hinterlegt worden ist mit der Druckanzahl multipliziert.*<br>Beispiel:<br>Druckanzahl = 2<br>Kopie eines Etiketts = 2<br>Es werden dann 4 Etiketten ausgedruckt.<br> |
+| Verfahren | Mit einem Doppelklick auf das Verfahren öffnet sich automatisch die Pfleger zu dem Verfahren.<br> |
+| Alle Drucken | Wird dieser Knopf gedrückt, so werden alle Untersuchungsetiketten, die zu den dargestellten Verfahren gehören, ausgedruckt. Der Schalter Nachdrucken wird dabei nicht berücksichtigt.<br> |
+| Auswahl Drucken | Wird dieser Knopf gedrückt, so werden nur die Etiketten ausgedruckt, bei den der Schalter Nachdrucken auf Ja steht.<br> |

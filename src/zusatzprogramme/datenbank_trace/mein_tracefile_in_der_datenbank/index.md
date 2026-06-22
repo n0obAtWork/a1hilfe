@@ -15,12 +15,8 @@ Zum jetzigen Zeitpunkt muss dazu über [OSQL] das entsprechende Tracefile eingel
 | CurNo | |
 | Maske | Aeins-Maske |
 | Verbrauch | Anweisungsdauer in Millisekunden |
-| Err | Rückgabe-Status der Anweisung  
-   
-So bedeutet „100“ z.B. dass der selektierte Datensatz nicht gefunden wurde. Es kommt sehr auf den jeweiligen Kontext an um zu beurteilen ob das ein Fehler ist oder nicht! |
-| SQL Ausdruck | Informatorisch die SQL-Anweisung  
-   
-Achtung, die wirkliche SQL-Anweisung kann wesentlich länger sein als das was in der Auswahlliste aus technischen Gründen maximal angezeigt werden kann! |
+| Err | Rückgabe-Status der Anweisung<br> <br>So bedeutet „100“ z.B. dass der selektierte Datensatz nicht gefunden wurde. Es kommt sehr auf den jeweiligen Kontext an um zu beurteilen ob das ein Fehler ist oder nicht! |
+| SQL Ausdruck | Informatorisch die SQL-Anweisung<br> <br>Achtung, die wirkliche SQL-Anweisung kann wesentlich länger sein als das was in der Auswahlliste aus technischen Gründen maximal angezeigt werden kann! |
 | Plan | Datenbank-Ausführungsplan der Anweisung |
 | Status | Technischer Aeins-Status |
 | Id | Technischer Schlüssel |

@@ -48,35 +48,9 @@ Hierbei handelt es sich um einen Programmfehler. Mit der Konsistenzfunktion ****
 
 | Fehler | Fehlermöglichkeiten | Lösungsmöglichkeiten |
 | --- | --- | --- |
-| Die Summe Erlöse /Aufwand ist in der Ware höher als in der Fibu | Fehler im Fehlerprotokoll Fibu-Übertrag (falsche EKZZ)  
-Fibu-Übertrag nicht gestartet  
-nicht alle Belege übertragen  
-Mandantenserver nicht gelaufen | Fehlerprotokoll prüfen  
-Mandantenserver starten  
-Auswahlbereiche überprüfen  
- |
-| Unterschiedliche Periodenführung in der Ware und der Fibu | SPA-Einstellung: Variante Periodenermittlung für FIBU = Datum  
-SPA-Einstellung: Rechnungstrennung durch Periode = NEIN  
-Abweichende Einrichtung Fibu- / Warenperioden | Konsistenzprüfung: Belege mit abweichenden Perioden  
-Wenn Unstimmigkeit, dann in **[WAREO]****:**  
-Perioden angleichen  
-Gesamtreorganisation  
- |
-| Fehlerhafte Einträge im Mandanten | Absturz, während der Mandantenserver lief  
-Kaputter Eintrag vom AMIC-Support zurückgestellt (DS_STATUS = 2)  
- | Konsistenzprüfung: ***Zurückgestellte Mandantenservereinträge***  
-Konsistenzprüfung: ***Redundante Mandantenservereinträge löschen***  
-Konsistenzprüfung: ***Mandantenserver Status 3 freigeben***  
-alle Prüfungen mit Mandantenserver checken |
-| Warenbelegsumme und Artikelsummen stimmen nicht überein | Stammdateneinrichtung (Mengeneinheiten / Gebinde / etc.) | Stammdaten korrigieren  
-AMIC-Support |
-| Es fehlen Belege in der Ware, die aber in der Fibu vorhanden sind | Programmfehler  
-Fehler durch AMIC-Support oder Anwender (gelöscht mit OSQL) | Storno-Buchung in der Fibu erzeugen (AR - Betrag)  
-Beleg in der Ware neu erfassen und dann Fibu-Übertrag  
-Fibu-Beleg per OSQL löschen (Nur durch den AMIC-SUPPORT!!) |
-| Warenbewegung / Vorgangsdifferenzen | Programmfehler | Konsistenzprüfung: ***Warenbewegung / Vorgangsdifferenzen***  
-Konsistenzprüfung: ***Vorgänge mit doppelten Beträgen***  
-WAREO: ***Mandanten Server Einträge nachtragen***  
-WAREO: ***Abgleich Warenbuch***  
-WABST  
-AMIC-Support |
+| Die Summe Erlöse /Aufwand ist in der Ware höher als in der Fibu | Fehler im Fehlerprotokoll Fibu-Übertrag (falsche EKZZ)<br>Fibu-Übertrag nicht gestartet<br>nicht alle Belege übertragen<br>Mandantenserver nicht gelaufen | Fehlerprotokoll prüfen<br>Mandantenserver starten<br>Auswahlbereiche überprüfen<br> |
+| Unterschiedliche Periodenführung in der Ware und der Fibu | SPA-Einstellung: Variante Periodenermittlung für FIBU = Datum<br>SPA-Einstellung: Rechnungstrennung durch Periode = NEIN<br>Abweichende Einrichtung Fibu- / Warenperioden | Konsistenzprüfung: Belege mit abweichenden Perioden<br>Wenn Unstimmigkeit, dann in **[WAREO]****:**<br>Perioden angleichen<br>Gesamtreorganisation<br> |
+| Fehlerhafte Einträge im Mandanten | Absturz, während der Mandantenserver lief<br>Kaputter Eintrag vom AMIC-Support zurückgestellt (DS_STATUS = 2)<br> | Konsistenzprüfung: ***Zurückgestellte Mandantenservereinträge***<br>Konsistenzprüfung: ***Redundante Mandantenservereinträge löschen***<br>Konsistenzprüfung: ***Mandantenserver Status 3 freigeben***<br>alle Prüfungen mit Mandantenserver checken |
+| Warenbelegsumme und Artikelsummen stimmen nicht überein | Stammdateneinrichtung (Mengeneinheiten / Gebinde / etc.) | Stammdaten korrigieren<br>AMIC-Support |
+| Es fehlen Belege in der Ware, die aber in der Fibu vorhanden sind | Programmfehler<br>Fehler durch AMIC-Support oder Anwender (gelöscht mit OSQL) | Storno-Buchung in der Fibu erzeugen (AR - Betrag)<br>Beleg in der Ware neu erfassen und dann Fibu-Übertrag<br>Fibu-Beleg per OSQL löschen (Nur durch den AMIC-SUPPORT!!) |
+| Warenbewegung / Vorgangsdifferenzen | Programmfehler | Konsistenzprüfung: ***Warenbewegung / Vorgangsdifferenzen***<br>Konsistenzprüfung: ***Vorgänge mit doppelten Beträgen***<br>WAREO: ***Mandanten Server Einträge nachtragen***<br>WAREO: ***Abgleich Warenbuch***<br>WABST<br>AMIC-Support |

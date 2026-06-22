@@ -39,14 +39,8 @@ Hier können allgemeine Einstellungen der Streckenerfassung definiert werden.
 | Maskenbreite | Die Breite der Maske Streckenerfassung |
 | AIS – Breite | Befindet sich die Maske nicht im Vollbildmodus, kann hiermit die Breite der Maske vergrößert werden. Dadurch ist es möglich zusätzliche Informationen über das [AIS-System](../../ais_a_eins_informationssystem/index.md) anzuzeigen. |
 | Vollbild | Hiermit kann eingestellt werden, dass die Maske im Vollbildmodus angezeigt wird. |
-| Registerkarte (Zeile / Spalte) | Hiermit kann die Position der Registerkarte festgelegt werden. Default mäßig stehen die beiden Wert auf 0.  
-Nur wenn in beiden Feldern ein Wert größer 0 eingetragen ist, wird die Registerkarte verschoben. |
-| Abhängigkeit | Hier kann die Abhängigkeit der Daten festgelegt werden.  
-\- Artikelabhängig  
-Die Daten werden bei dieser Einstellung abhängig von der ersten Datentabelle ermittelt. D.h. für die zweite und dritte Datentabelle sind die Artikel aus der ersten Datentabelle ausschlaggebend.  
-Befindet sich ein passender Artikel in der ersten Datentabelle wird der Vorgang in der zweiten Datentabelle angezeigt, ansonsten in der dritten. (dies gilt nicht bei Kontrakten)  
-\- Datentabellenabhängig  
-Bei dieser Einstellung werden die Daten entsprechend ihrer Eingabe angezeigt. D.h. Daten die in der zweiten Datentabelle angelegt wurden, werde auch dort angezeigt, unabhängig der Artikel in der ersten Datentabelle. |
+| Registerkarte (Zeile / Spalte) | Hiermit kann die Position der Registerkarte festgelegt werden. Default mäßig stehen die beiden Wert auf 0.<br>Nur wenn in beiden Feldern ein Wert größer 0 eingetragen ist, wird die Registerkarte verschoben. |
+| Abhängigkeit | Hier kann die Abhängigkeit der Daten festgelegt werden.<br>\- Artikelabhängig<br>Die Daten werden bei dieser Einstellung abhängig von der ersten Datentabelle ermittelt. D.h. für die zweite und dritte Datentabelle sind die Artikel aus der ersten Datentabelle ausschlaggebend.<br>Befindet sich ein passender Artikel in der ersten Datentabelle wird der Vorgang in der zweiten Datentabelle angezeigt, ansonsten in der dritten. (dies gilt nicht bei Kontrakten)<br>\- Datentabellenabhängig<br>Bei dieser Einstellung werden die Daten entsprechend ihrer Eingabe angezeigt. D.h. Daten die in der zweiten Datentabelle angelegt wurden, werde auch dort angezeigt, unabhängig der Artikel in der ersten Datentabelle. |
 | Ladeprozedur | Bezeichnung der Ladeprozedur (Standard: DISPO_VORGAENGE). Diese Prozedur lädt die Daten in die Maske. |
 | Nummernkreis Strecke | Nummer des zu verwendenden Nummernkreises. |
 | Nummernkreis Positionsstammsatz | Dieser Nummernkreis wird verwendet, wenn [Positionsstammsätze](../positionsstammsatz.md) angelegt werden. |
@@ -67,15 +61,11 @@ Bei dieser Einstellung werden die Daten entsprechend ihrer Eingabe angezeigt. D.
 | Label Nummerntext | Beschriftung für das Feld Streckennummer. |
 | Vorgangsklammer aktiv | Steht die Einstellung auf „Ja“, wird auf der Maske eine Schaltfläche zum Bearbeiten der [Vorgangsklammer](../../../vorgangsabwicklung/vorgangsklammer.md#uebVorgangsklammer) angezeigt. |
 | Positionsstammsatz kopieren | Hiermit kann bestimmt werden, ob beim Anlegen des Positionsstammsatzes die Daten aus dem Stammsatz kopiert werden sollen. |
-| Rohwaredatum änderbar | Hiermit kann bestimmt werden, ob ein Rohwaredatum geändert werden kann. Dies gilt jedoch nur bei Belegklassen von 0-600 und 1000-1600.  
-*Des Weiteren ist zu beachten, dass für die Korrektur der Ursprüngliche Beleg storniert und ein neuer Beleg mit dem neuen Datum angelegt wird. Dabei werden nur die Daten übernommen die auch auf der Maske stehen.* |
+| Rohwaredatum änderbar | Hiermit kann bestimmt werden, ob ein Rohwaredatum geändert werden kann. Dies gilt jedoch nur bei Belegklassen von 0-600 und 1000-1600.<br>*Des Weiteren ist zu beachten, dass für die Korrektur der Ursprüngliche Beleg storniert und ein neuer Beleg mit dem neuen Datum angelegt wird. Dabei werden nur die Daten übernommen die auch auf der Maske stehen.* |
 | Funktionsansicht | Steht die Einstellung auf „Ja“, werden die Zusatzfunktionen (Doppelklick / linke Maustaste) nur zur Ansicht geöffnet, ansonsten zum Bearbeiten. |
-| Mengenvorausberechnung aktiv | Steht die Einstellung auf „Nein“, wird die Mengenvorausberechnung im zweiten Grid unterdrückt.  
-Bei „Ja“ erfolgt eine Mengenvorausberechnung. Bei den Lieferungen werden stornierte Belege und die dazugehörigen Ursprungsbelege nicht mit einberechnet.  
-*Um die Mengen richtig zuzuweisen gilt grundsätzlich: Eine Zeile mit eingetragenem Kunden ist keine Vorausberechnungszeile.* |
+| Mengenvorausberechnung aktiv | Steht die Einstellung auf „Nein“, wird die Mengenvorausberechnung im zweiten Grid unterdrückt.<br>Bei „Ja“ erfolgt eine Mengenvorausberechnung. Bei den Lieferungen werden stornierte Belege und die dazugehörigen Ursprungsbelege nicht mit einberechnet.<br>*Um die Mengen richtig zuzuweisen gilt grundsätzlich: Eine Zeile mit eingetragenem Kunden ist keine Vorausberechnungszeile.* |
 | Vorausberechnungszeile anzeigen | Steht diese Einstellung auf „Ja“, wird bei der Mengenvorausberechnung in der mittleren Datentabelle in die unterste Zeile gescrollt, damit diese immer sichtbar ist. |
-| Mengensummenklasse / 0:alle | In diesem Grid können die Klassen eingetragen werden, welche bei der Mengenvorausberechnung mit einbezogen werden sollen.  
-Sind keine Klasse eingetragen, werden alle Klassen mit einbezogen. |
+| Mengensummenklasse / 0:alle | In diesem Grid können die Klassen eingetragen werden, welche bei der Mengenvorausberechnung mit einbezogen werden sollen.<br>Sind keine Klasse eingetragen, werden alle Klassen mit einbezogen. |
 | Welche Partie zieht bei Übermenge | Diese Einstellung sagt aus, welche Partie bei einer Mengenerhöhung entsprechend angepasst wird. (Format „[Partie bei Übermenge](./formate.md#formatPartiebeiUebermenge)“ ) |
 | Lademittel aktiv | Steht die Einstellung auf „Ja“, wird ein spezieller Ausdruck von Lademitteln (auf dem dritten Grid) ausgeführt. |
 | Storno- und Ursprungsbeleg | Steht diese Einstellung auf „Ja“, werden in diesem Profil auch Vorgänge und die dazugehörigen Stornobelege angezeigt. |
@@ -112,8 +102,7 @@ Container
 
 | Feld | Beschreibung |
 | --- | --- |
-| Containerbezeichnung | Hier kann die Containerbezeichnung eingegeben werden. Diese Bezeichnung wird dann in der Streckenerfassung für das Containerfeld angezeigt.  
-Wenn keine Containerbezeichnung angegeben wird, befindet sich auch kein Eingabefeld auf der Streckenerfassung. |
+| Containerbezeichnung | Hier kann die Containerbezeichnung eingegeben werden. Diese Bezeichnung wird dann in der Streckenerfassung für das Containerfeld angezeigt.<br>Wenn keine Containerbezeichnung angegeben wird, befindet sich auch kein Eingabefeld auf der Streckenerfassung. |
 | Itembox für Container | Für das Containerfeld lässt sich hier eine Itembox festlegen. Wenn eine Itembox hinterlegt wird, muss der eingegebene Wert in der Itembox vorhanden sein, ansonsten kann jeder numerische Wert eingetragen werden. |
 
 Die Itembox „IB_DISPO_KONTRAKTSTAMM“ / „IB_DISPO_KONTRAKTSTAMM_BEZ“ kann als Standarditembox für Kontrakte verwendet werden. (siehe dazu auch „[Itemboxparameter](./allgemeine_informationen.md#allgemein_info_Itembox_Parameter)“)
@@ -141,10 +130,8 @@ In diesem Bereich lässt sich die Vorbelegung innerhalb der Streckenerfassung fe
 | Feld | Beschreibung |
 | --- | --- |
 | Prozedur | Hier kann eine private Prozedur hinterlegt werden, welche die Vorbelegungswerte zurückgibt. |
-| Feldname  
-*(Datentabelle „Übergabefelder“)* | In dieser Datentabelle kann der Feldname eines Übergabeparameterfeldes hinterlegt werden. Auf die Werte kann man innerhalb der privaten Prozedur zugreifen. *(exakte Schreibweise beachten)* |
-| Feldname  
-*(Datentabelle „Ausführungsfelder“)* | In dieser Datentabelle stehen die Felder, welche beim Verlassen des Feldes die Vorbelegungsprozedur aufrufen. *(exakte Schreibweise beachten)* |
+| Feldname<br>*(Datentabelle „Übergabefelder“)* | In dieser Datentabelle kann der Feldname eines Übergabeparameterfeldes hinterlegt werden. Auf die Werte kann man innerhalb der privaten Prozedur zugreifen. *(exakte Schreibweise beachten)* |
+| Feldname<br>*(Datentabelle „Ausführungsfelder“)* | In dieser Datentabelle stehen die Felder, welche beim Verlassen des Feldes die Vorbelegungsprozedur aufrufen. *(exakte Schreibweise beachten)* |
 
 Neben den „Ausführungsfeldern“ wird die Prozedur auch beim ersten Betreten einer neuen Zeile aufgerufen.
 
@@ -215,8 +202,7 @@ Auf dieser Registerkarte können die Voreinstellungen für Kontrakte vorgenommen
 | Zeiteinheit | Diese Einstellung legt fest um was für eine Kontraktzeitraumaufteilung es sich handelt. (Format „[Zeitintervall eines Kontrakts](./formate.md#formatZeitIntervalleinesKontraktes)“) |
 | Plandatum als Bis-Datum | Hier kann eingestellt werden, ob das Plandatum bei der Kontraktneuanlage als Bis-Datum des Kontrakts verwendet werden soll. Als Voraussetzung ist, dass die Einstellung „Anzahl Zeiteinheiten“ den Wert „0“ hat. |
 | Tag des aktuellen Monats | Mit dieser Einstellung kann der Starttag des Kontrakts vorbelegt werden. |
-| Kontraktwährung übernehmen | Wird bei der Belegerfassung ein Kontraktausgewählt, kann hiermit festgelegt werden, dass die Kontraktwährung übernommen wird.  
-Dafür muss das „[UFLD-Feld](./index.md#registerbenutzerfelder)“ für die [Währung (1453)](./ufld_feldliste.md#verwendbareUFLDFelder) angezeigt werden. |
+| Kontraktwährung übernehmen | Wird bei der Belegerfassung ein Kontraktausgewählt, kann hiermit festgelegt werden, dass die Kontraktwährung übernommen wird.<br>Dafür muss das „[UFLD-Feld](./index.md#registerbenutzerfelder)“ für die [Währung (1453)](./ufld_feldliste.md#verwendbareUFLDFelder) angezeigt werden. |
 | Immer vor Laufzeit buchen | Hier kann eingestellt werden, dass ein Kontrakt auch vor der Laufzeit gebucht werden kann, unabhängig vom Steuerparameter [150](../../../firmenstamm/steuerparameter/kontraktwesen/vor_anfang_der_laufzeit_bebuchbar_spa_150.md). |
 
 <p class="just-emphasize">Registerkarte Kopiervorlagen ![](../../../ImagesExt/image8_1357.png)</p>
@@ -257,10 +243,7 @@ Damit die Daten auch in der Streckenerfassungsmaske geladen werden muss die Lade
 | Feld | Beschreibung |
 | --- | --- |
 | Addonfelder aktivieren | Aktiviert oder deaktiviert die Anzeige der Addonfelder. |
-| Herkunftsdaten-View (Grid 1) | Hier kann eine View hinterlegt werden, mit der die Felder und Daten für der Addonfelder ermittelt werden. Sollte keine View angegeben worden sein, wird die Tabelle „WARENBEWEGUNGADDON“ verwendet.  
-Um für eine bestimmte Datentabelle keine Addonfelder anzulegen, kann die View „STRECKE_EMPTY_WABEWADDON_VIEW“ verwendet werden.  
-   
-Weitere Informationen für die Felder können in den Tabellenaddons für die Tabelle „WARENBEWEGUNGADDON“ gepflegt werden. |
+| Herkunftsdaten-View (Grid 1) | Hier kann eine View hinterlegt werden, mit der die Felder und Daten für der Addonfelder ermittelt werden. Sollte keine View angegeben worden sein, wird die Tabelle „WARENBEWEGUNGADDON“ verwendet.<br>Um für eine bestimmte Datentabelle keine Addonfelder anzulegen, kann die View „STRECKE_EMPTY_WABEWADDON_VIEW“ verwendet werden.<br> <br>Weitere Informationen für die Felder können in den Tabellenaddons für die Tabelle „WARENBEWEGUNGADDON“ gepflegt werden. |
 | Herkunftsdaten-View (Grid 2) | Siehe „Herkunftsdaten-View (Grid 1)“ |
 | Herkunftsdaten-View (Grid 3) | Siehe „Herkunftsdaten-View (Grid 1)“ |
 

@@ -38,23 +38,17 @@ Auch diese Daten sind bis zum Versenden der Ausfuhr änderbar.
 | Ort | Ort, an dem die Beladung der Ware auf das Transportmittel stattfindet |
 | Postleitzahl | Postleitzahl des Ortes, an dem die Beladung der Ware auf das Transportmittel stattfindet |
 | Ausfuhrzollstelle | Deutsche Zollstelle, welche den Transport der Ware verwaltet |
-| Ausgangszollstelle | Zollstelle, über welche die Ware die EU verlässt  
-Die Vorbelegung erfolgt aus den Zolldaten zur Anschrift (Versandanschrift oder Hauptanschrift) des Vorgangs/Kunden |
+| Ausgangszollstelle | Zollstelle, über welche die Ware die EU verlässt<br>Die Vorbelegung erfolgt aus den Zolldaten zur Anschrift (Versandanschrift oder Hauptanschrift) des Vorgangs/Kunden |
 
 Der Abschnitt „**Transport**“ enthält wichtige Angaben zum Warentransport.
 
 | Parameter | Bedeutung |
 | --- | --- |
-| Verkehrszweig Inland | Verkehrszweig, welcher für den Transport der Ware im Inland verwendet wird  
-Die Vorbelegung erfolgt aus den Zolldaten zur Anschrift (Versandanschrift oder Hauptanschrift) des Vorgangs/Kunden |
-| Verkehrszweig Grenze | Verkehrszweig, welcher für den Transport der Ware ab dem Überschreiten einer EU-Grenze verwendet wird  
-Die Vorbelegung erfolgt aus den Zolldaten zur Anschrift (Versandanschrift oder Hauptanschrift) des Vorgangs/Kunden |
-| Beförderungsmittel Grenze | Art des Beförderungsmittels, welches für den Transport der Ware ab dem Überschreiten einer EU-Grenze verwendet wird  
-Die Vorbelegung erfolgt aus den Zolldaten zur Anschrift (Versandanschrift oder Hauptanschrift) des Vorgangs/Kunden |
-| Nat. Beförderung Grenze | Nationalität des Beförderungsmittels, welches für den Transport der Ware ab dem Überschreiten einer EU-Grenze verwendet wird  
-Die Vorbelegung erfolgt aus den Zolldaten zur Anschrift (Versandanschrift oder Hauptanschrift) des Vorgangs/Kunden |
-| Beförderungsmittel Grenze Kennz. | Kennzeichen des Beförderungsmittels, welches für den Transport der Ware ab dem Überschreiten einer EU-Grenze verwendet wird  
-Die Vorbelegung erfolgt aus den Zolldaten zur Anschrift (Versandanschrift oder Hauptanschrift) des Vorgangs/Kunden |
+| Verkehrszweig Inland | Verkehrszweig, welcher für den Transport der Ware im Inland verwendet wird<br>Die Vorbelegung erfolgt aus den Zolldaten zur Anschrift (Versandanschrift oder Hauptanschrift) des Vorgangs/Kunden |
+| Verkehrszweig Grenze | Verkehrszweig, welcher für den Transport der Ware ab dem Überschreiten einer EU-Grenze verwendet wird<br>Die Vorbelegung erfolgt aus den Zolldaten zur Anschrift (Versandanschrift oder Hauptanschrift) des Vorgangs/Kunden |
+| Beförderungsmittel Grenze | Art des Beförderungsmittels, welches für den Transport der Ware ab dem Überschreiten einer EU-Grenze verwendet wird<br>Die Vorbelegung erfolgt aus den Zolldaten zur Anschrift (Versandanschrift oder Hauptanschrift) des Vorgangs/Kunden |
+| Nat. Beförderung Grenze | Nationalität des Beförderungsmittels, welches für den Transport der Ware ab dem Überschreiten einer EU-Grenze verwendet wird<br>Die Vorbelegung erfolgt aus den Zolldaten zur Anschrift (Versandanschrift oder Hauptanschrift) des Vorgangs/Kunden |
+| Beförderungsmittel Grenze Kennz. | Kennzeichen des Beförderungsmittels, welches für den Transport der Ware ab dem Überschreiten einer EU-Grenze verwendet wird<br>Die Vorbelegung erfolgt aus den Zolldaten zur Anschrift (Versandanschrift oder Hauptanschrift) des Vorgangs/Kunden |
 
 Der Abschnitt „**Beförderungsroute**“ enthält die Angaben zur Route des Warentransports.  
 Unter Berücksichtigung von Ausfuhrland, Ausgangszollstelle und Bestimmungsland kann die Beförderungsroute mit der Funktion „Beförderungsroute initialisieren“ berechnet werden.
@@ -62,6 +56,5 @@ Unter Berücksichtigung von Ausfuhrland, Ausgangszollstelle und Bestimmungsland 
 | Parameter | Bedeutung |
 | --- | --- |
 | Ausfuhrland | Das Ausfuhrland wird mit DE für Deutschland vorbelegt und kann zurzeit nicht geändert werden. |
-| Bestimmungsland | Das Bestimmungsland der Sendung.  
-Die Vorbelegung erfolgt aus den Zolldaten zur Anschrift (Versandanschrift oder Hauptanschrift) des Vorgangs/Kunden |
+| Bestimmungsland | Das Bestimmungsland der Sendung.<br>Die Vorbelegung erfolgt aus den Zolldaten zur Anschrift (Versandanschrift oder Hauptanschrift) des Vorgangs/Kunden |
 | Tabelle der Beförderungsroute | Liste der Staaten auf der Beförderungsroute |

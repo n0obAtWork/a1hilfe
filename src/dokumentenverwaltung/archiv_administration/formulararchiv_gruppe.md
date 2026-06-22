@@ -16,8 +16,7 @@ Innerhalb der Formulararchiv-gruppen spielen folgende Begrifflichkeiten eine Rol
 
 | Begriffe | |
 | --- | --- |
-| Gruppentyp | Abbildung des Anwenderformates „af_fa_gruppe“.  
-Diese bietet eine programmatische Klammerung von Archiv-Einträgen über die Belegreferenz hinaus und ist in einigen A.eins-Modulen im Einsatz. |
+| Gruppentyp | Abbildung des Anwenderformates „af_fa_gruppe“.<br>Diese bietet eine programmatische Klammerung von Archiv-Einträgen über die Belegreferenz hinaus und ist in einigen A.eins-Modulen im Einsatz. |
 | Gruppentext | Ein bis zu 20 Zeichen langer Freitext. |
 | Gruppennr | Eine Zahl |
 | Sortierung | Sortierung |

@@ -14,19 +14,14 @@
 
 | **Funktionen** | |
 | --- | --- |
-| Pflege-Funktionen | Stammsatz neu, Stammsatz ändern, Stammsatz löschen  
-[Replikationsadressen](./replikationsadressen.md) |
-| Partner | Bearbeiten von zugeordneten Betriebsstätten der ausgewählten Betriebsstätte  
-[Replikationsadressen Partner](./replikationsadressen_partner.md) |
-| Publikationen | Hinzufügen oder entfernen von Publikationen für die ausgewählte Betriebsstätte.  
-[Erstellte Publikationen](./erstellte_publikationen.md) |
+| Pflege-Funktionen | Stammsatz neu, Stammsatz ändern, Stammsatz löschen<br>[Replikationsadressen](./replikationsadressen.md) |
+| Partner | Bearbeiten von zugeordneten Betriebsstätten der ausgewählten Betriebsstätte<br>[Replikationsadressen Partner](./replikationsadressen_partner.md) |
+| Publikationen | Hinzufügen oder entfernen von Publikationen für die ausgewählte Betriebsstätte.<br>[Erstellte Publikationen](./erstellte_publikationen.md) |
 | Datenempfänger | [Berechtigungen](./berechtigungen.md) |
 
 | **Bereiche/Profile** | |
 | --- | --- |
-| Filialnummer | Ermöglicht Bereichssuche nach Filialnummern  
-\- von  
-\- bis |
+| Filialnummer | Ermöglicht Bereichssuche nach Filialnummern<br>\- von<br>\- bis |
 
 <p class="siehe-auch">Siehe auch:</p>
 

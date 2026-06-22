@@ -8,16 +8,8 @@ Folgende Einstellungen sind möglich. Ist dieser Steuerparameter nicht eingereic
 
 | Feld | Bedeutung |
 | --- | --- |
-| Datentyp | Auf diesem Feld wirkt das Anwenderformat AF_REKLMASS. Mit diesem Format wird das Verhalten der einzelnen Felder gesteuert.  
-0(keine): Das dazugehörige eingebbare Feld wird nicht angezeigt  
-1(Text): Das Feld ist ein Textfeld  
-2(Datum): Das Feld ist ein Datumsfeld  
-3(Integer): Das Feld ist ein ganz Zahl Feld  
-4(Numeric): Das Feld ist ein numerisches Feld  
-5(JaNein): Das Feld ist ein FS-Format mit den Werten Ja und Nein  
-Ab 100: Hier können eigene FS- und AF-Formate genutzt werden. Eintrag erfolgt analog zu Nr. 5 |
-| Feldnummer | In diesem Feld wird die Feldnummer angeben.  
-Bislang werden die Zahlen von 1 bis 45 unterstützt. |
+| Datentyp | Auf diesem Feld wirkt das Anwenderformat AF_REKLMASS. Mit diesem Format wird das Verhalten der einzelnen Felder gesteuert.<br>0(keine): Das dazugehörige eingebbare Feld wird nicht angezeigt<br>1(Text): Das Feld ist ein Textfeld<br>2(Datum): Das Feld ist ein Datumsfeld<br>3(Integer): Das Feld ist ein ganz Zahl Feld<br>4(Numeric): Das Feld ist ein numerisches Feld<br>5(JaNein): Das Feld ist ein FS-Format mit den Werten Ja und Nein<br>Ab 100: Hier können eigene FS- und AF-Formate genutzt werden. Eintrag erfolgt analog zu Nr. 5 |
+| Feldnummer | In diesem Feld wird die Feldnummer angeben.<br>Bislang werden die Zahlen von 1 bis 45 unterstützt. |
 | Text | In diesem Feld wird der anzuzeigende Text für die jeweilige Auswahlbox eingetragen. |
 
 Ansicht der Nummerierten Felder:

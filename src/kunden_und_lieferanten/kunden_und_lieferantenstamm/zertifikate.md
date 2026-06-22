@@ -20,8 +20,7 @@ Für die Verwaltung der Zertifikate eines Kunden steht eine Datentabelle zur Ver
 
 | Feld | Beschreibung |
 | --- | --- |
-| **Zertifikate** | Hier kann der Typ des Zertifikats eingetragen werden.  
-Für die [Nachhaltigkeit](../../vorgangsabwicklung/nachhaltigkeit/index.md) gelten nur bestimmte Typen, die im Format [AF_NAHA_ZERT](../../vorgangsabwicklung/nachhaltigkeit/stammdaten/formate.md) nachgelesen werden können. |
+| **Zertifikate** | Hier kann der Typ des Zertifikats eingetragen werden.<br>Für die [Nachhaltigkeit](../../vorgangsabwicklung/nachhaltigkeit/index.md) gelten nur bestimmte Typen, die im Format [AF_NAHA_ZERT](../../vorgangsabwicklung/nachhaltigkeit/stammdaten/formate.md) nachgelesen werden können. |
 | **Bemerkung** | Eigene Bemerkung / Beschreibung des Zertifikats oder z.B. die Nummer des Zertifikats. |
 | **Gültig ab** | Ab wann das Zertifikat gilt, wird nichts eingetragen ist das Ab Datum unbegrenzt gültig. |
 | **Gültig bis** | Bis wann das Zertifikat gilt, wird nichts eingetragen ist das Bis Datum unbegrenzt gültig. |
@@ -54,8 +53,7 @@ Bei Eintragungen in dieser Datentabelle sollte beachtet werden, dass die Lizenz 
 | **Indiv. THG-Werte** | Ja/Nein Feld. Standardmäßig Nein. Bei Nein lassen sich die kundenindividuellen THG-Werte nicht pflegen und sie werden in der Zeile rausgelöscht, wenn vorher welche drinstanden. Bei Ja werden die kundenindividuellen THG-Werte pflegbar. |
 | **NUTS Nummer** | Darstellung der NUTS Nummer des Anbaulandes. |
 | **Anbaulandbezeichnung** | Darstellung von Bezeichnung und Land des Anbaulandes. |
-| **Auswahl** | Existieren zu diesem Kunden Nachhaltigkeitseinträge die keinem Zertifikat zugeordnet sind, können diese hier ausgewählt werden.  
-Beim Speichern werden die ausgewählten Werte dann dem aktuellen Zertifikat zugeordnet. |
+| **Auswahl** | Existieren zu diesem Kunden Nachhaltigkeitseinträge die keinem Zertifikat zugeordnet sind, können diese hier ausgewählt werden.<br>Beim Speichern werden die ausgewählten Werte dann dem aktuellen Zertifikat zugeordnet. |
 
 Die Meldung „**Es existieren … nicht zugeordnete Nachhaltigkeiten.**“ bedeutet, dass Nachhaltigkeiten existieren, die keinem Zertifikat zugeordnet sind.
 

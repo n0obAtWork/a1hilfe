@@ -34,27 +34,17 @@ Um einen neuen Steuerparameter einzurichten, verwendet man in der Auswahlliste e
 | Nummer | Nummer des Steuerparameters wird automatisch gesetzt |
 | Bezeichnung | Bezeichnung des Steuerparameters |
 | Gruppe | F3 Auswahl zur Wahl der Gruppe für den Steuerparameter |
-| Sortierung in der Gruppe | ES wird eine Nummer vorgeschlagen, die der letzte stelle in der Gruppe entspricht. Diese kann angepasst werden.  
- Es ist nur eine Nummer zwischen 0 und 32767 gültig. |
-| Ausprägung | F3 Auswahl  
-einfach (ohne Schlüssel): Gibt an, das der Steuerparameter nur über das Gültigkeitsdatum und ein Abfrageformat verfügt  
-komplex(mit Schlüssel und Option): Gibt an, das auch ein Schlüssel und ein weiterer Wert angegeben werden kann  
-zweidimensional(mit Schlüssel): Hier können zu einem Datum mehrere Werte erfasst werden. |
-| **Überschrift Schlüsselfeld** | Nur bei komplexer und zweidimensionaler Ausprägung.  
-Zur individuellen Überschriftengestaltung des Feldes Schlüssel. Bleibt die Zeile leer, wird davon ausgegangen, dass das Feld nicht verwendet wird. |
-| Schlüsselfeld Vorlage | F3 Auswahl  
-Hier kann eine Itembox oder ein FS Format angegeben werden. |
+| Sortierung in der Gruppe | ES wird eine Nummer vorgeschlagen, die der letzte stelle in der Gruppe entspricht. Diese kann angepasst werden.<br> Es ist nur eine Nummer zwischen 0 und 32767 gültig. |
+| Ausprägung | F3 Auswahl<br>einfach (ohne Schlüssel): Gibt an, das der Steuerparameter nur über das Gültigkeitsdatum und ein Abfrageformat verfügt<br>komplex(mit Schlüssel und Option): Gibt an, das auch ein Schlüssel und ein weiterer Wert angegeben werden kann<br>zweidimensional(mit Schlüssel): Hier können zu einem Datum mehrere Werte erfasst werden. |
+| **Überschrift Schlüsselfeld** | Nur bei komplexer und zweidimensionaler Ausprägung.<br>Zur individuellen Überschriftengestaltung des Feldes Schlüssel. Bleibt die Zeile leer, wird davon ausgegangen, dass das Feld nicht verwendet wird. |
+| Schlüsselfeld Vorlage | F3 Auswahl<br>Hier kann eine Itembox oder ein FS Format angegeben werden. |
 | Anfangswert Schlüssel ab | Startwert |
-| **Überschrift Option Feld** | Nur bei komplexer Ausprägung.  
-Zur individuellen Überschriftengestaltung des Feldes Option. Bleibt die Zeile leer, wird davon ausgegangen, dass das Feld nicht verwendet wird. |
-| Optionfeld Vorlage | F3 Auswahl  
-Hier kann eine Itembox oder ein FS Format angegeben werden. |
+| **Überschrift Option Feld** | Nur bei komplexer Ausprägung.<br>Zur individuellen Überschriftengestaltung des Feldes Option. Bleibt die Zeile leer, wird davon ausgegangen, dass das Feld nicht verwendet wird. |
+| Optionfeld Vorlage | F3 Auswahl<br>Hier kann eine Itembox oder ein FS Format angegeben werden. |
 | Anfangswert Option ab | Startwert |
-| **Überschrift Bezeichnungsfeld** | Nur bei zweidimensionaler Ausprägung.  
-Wird unter Schlüsselfeld „Vorlage“ eine Itembox ausgewählt, dann kann in der hier definierten Spalte ein Bezeichnungsfeld mit angezeigt werden. Hier steht die individuelle Überschrift. Wenn leer, steht über der Spalte „Bezeichnung“ |
+| **Überschrift Bezeichnungsfeld** | Nur bei zweidimensionaler Ausprägung.<br>Wird unter Schlüsselfeld „Vorlage“ eine Itembox ausgewählt, dann kann in der hier definierten Spalte ein Bezeichnungsfeld mit angezeigt werden. Hier steht die individuelle Überschrift. Wenn leer, steht über der Spalte „Bezeichnung“ |
 | Name Bezeichnungsfeld in IB | Wird unter Schlüsselfeld „Vorlage“ eine Itembox ausgewählt, dann kann hier der Name eines Feldes aus der Itembox eingetragen werden, dessen Inhalt in dieser Spalte als Information angezeigt werden soll. |
-| **Überschrift Wertfeld** | Nur bei einfacher oder komplexer Ausprägung.  
-Zur individuellen Überschriftengestaltung des Feldes Wert. Bleibt die Zeile leer, wird davon ausgegangen, dass das Feld nicht verwendet wird. |
+| **Überschrift Wertfeld** | Nur bei einfacher oder komplexer Ausprägung.<br>Zur individuellen Überschriftengestaltung des Feldes Wert. Bleibt die Zeile leer, wird davon ausgegangen, dass das Feld nicht verwendet wird. |
 | Abfrageformat für Wert | F3 Auswahl zur Wahl eines Abfrageformates (z.B. JANEIN) |
 | Anfangswert ab | Zunächst ist das Standard Gültigkeitsdatum 01.01.1901 angegeben. Anschließend kann der Startwert angegeben werden |
 
@@ -74,12 +64,9 @@ Wurde komplex (mit Schlüssel) verwendet, so öffnet sich ein Dialogfenster mit 
 | Steuerparameternummer | Steuerparameternummer |
 | Steuerparameterbezeichnung | Steuerparameterbezeichnung |
 | Gültigkeit ab | Datum der Gültigkeit. S.h., ab wann die Einstellungen gültig sind. |
-| Erste Spalte | Überschrift individuell.  
-Enthält den Wert des eingerichteten Steuerparameters und ist optional eingerichtet. Wird die Spalte nicht benötigt, so ist diese geschützt. Es können mehrere Schlüssel eingerichtet werden, zu denen je nachdem andere Werte und/oder Optionen angegeben werden können. |
-| Zweite Spalte | Überschrift individuell.  
-Enthält den Schlüssel des eingerichteten Steuerparameters und ist optional eingerichtet. Wird die Spalte nicht benötigt, so ist diese geschützt. |
-| Dritte Spalte | Überschrift individuell.  
-Enthält die Option des eingerichteten Steuerparameters und ist optional eingerichtet. Wird die Spalte nicht benötigt, so ist diese geschützt. |
+| Erste Spalte | Überschrift individuell.<br>Enthält den Wert des eingerichteten Steuerparameters und ist optional eingerichtet. Wird die Spalte nicht benötigt, so ist diese geschützt. Es können mehrere Schlüssel eingerichtet werden, zu denen je nachdem andere Werte und/oder Optionen angegeben werden können. |
+| Zweite Spalte | Überschrift individuell.<br>Enthält den Schlüssel des eingerichteten Steuerparameters und ist optional eingerichtet. Wird die Spalte nicht benötigt, so ist diese geschützt. |
+| Dritte Spalte | Überschrift individuell.<br>Enthält die Option des eingerichteten Steuerparameters und ist optional eingerichtet. Wird die Spalte nicht benötigt, so ist diese geschützt. |
 
 <p class="just-emphasize">Gültigkeiten ansehen</p>
 

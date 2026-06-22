@@ -14,17 +14,11 @@ Der Anlagenspiegel liefert anschließend den aktuellen Stand.
 
 | | Bedeutung |
 | --- | --- |
-| Name der Importdatei | Dort muss der Name der zu importierenden Datei angegeben werden.  
- |
-| Name der Importprozedur | hier steht der Name der verwendeten Prozedur. Die Prozedur AMIC_ANKA_QUADRIGA_IMPORT wird von AMIC zur Verfügung gestellt. Sie kann jedoch durch eine Private Prozedur ersetzt werden. Dieser Prozedur werden zwei Parameter übergeben, das Konto und das Datum der letzten AfA:  
- |
-| AfA-Konto  
-    
- | Dieses Konto wird als AfA-Konto in den Stammsatz eingetragen. |
-| Datum letzte AfA | Die kumulierte AfA sowie Zugänge und Abgänge werden diesem Datum und der sich daraus ergebenden Periode zugeordnet.  
- |
-| Arbeitsschritt | Hier werden die Arbeitsschritte, die gerade durchgeführt werden, angezeigt.  
- |
+| Name der Importdatei | Dort muss der Name der zu importierenden Datei angegeben werden.<br> |
+| Name der Importprozedur | hier steht der Name der verwendeten Prozedur. Die Prozedur AMIC_ANKA_QUADRIGA_IMPORT wird von AMIC zur Verfügung gestellt. Sie kann jedoch durch eine Private Prozedur ersetzt werden. Dieser Prozedur werden zwei Parameter übergeben, das Konto und das Datum der letzten AfA:<br> |
+| AfA-Konto<br><br> | Dieses Konto wird als AfA-Konto in den Stammsatz eingetragen. |
+| Datum letzte AfA | Die kumulierte AfA sowie Zugänge und Abgänge werden diesem Datum und der sich daraus ergebenden Periode zugeordnet.<br> |
+| Arbeitsschritt | Hier werden die Arbeitsschritte, die gerade durchgeführt werden, angezeigt.<br> |
 
 Als Datengrundlage wird eine Excel-Datei (\*.xls) erwartet. Die Daten werden erst ab Zeile drei eingelesen. Folgenden Spalten werden ausgewertet:
 
@@ -34,11 +28,7 @@ Als Datengrundlage wird eine Excel-Datei (\*.xls) erwartet. Die Daten werden ers
 | B | Bezeichnung des Anlagengutes | A |
 | C | Anschaffungsdatum. | D (tt.mm.jjjj) |
 | E | Lebensdauer in Jahren. | N |
-| F | Dies gibt die AFA-Art wieder. Es werden die Buchstaben „L“ „R“ „S“ „G“ „K“ und „D“ ausgewertet.  
-L,R,S ⇨ Lineare Abschreibung  
-G ⇨ GWG  
-K ⇨ Manuelle Abschreibung  
-D ⇨ Degressive Abschreibung | A |
+| F | Dies gibt die AFA-Art wieder. Es werden die Buchstaben „L“ „R“ „S“ „G“ „K“ und „D“ ausgewertet.<br>L,R,S ⇨ Lineare Abschreibung<br>G ⇨ GWG<br>K ⇨ Manuelle Abschreibung<br>D ⇨ Degressive Abschreibung | A |
 | G | Anfangsbestand in Euro. Steht hier ein Wert ungleich 0 wird eine Zeile des Typs AHK generiert. | N (15,4) |
 | H | Zugänge. Steht hier ein Wert ungleich 0, so wird eine Zeile des Typs Zugang generiert. | N (15,4) |
 | I | Teilabgänge. Ist Anfangsbestand und Teilabgang gleich, so handelt es sich um einen Totalabgang. | N (15,4) |

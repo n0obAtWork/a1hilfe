@@ -11,9 +11,6 @@ Hier kann festgelegt werden, ob der Wechsel diskontierfähig ist.
 
 | | Beschreibung |
 | --- | --- |
-| Portefeuille Nr | Laufende Nummer, die als Verweis in anderen Tabellen verwendet wird.  
- |
-| Diskontierbar | Ob für einen Wechsel dieser Gruppe eine Diskontabrechnung erstellt werden darf.  
- |
-| Bezeichnung | Ausführliche Bezeichnung  
- |
+| Portefeuille Nr | Laufende Nummer, die als Verweis in anderen Tabellen verwendet wird.<br> |
+| Diskontierbar | Ob für einen Wechsel dieser Gruppe eine Diskontabrechnung erstellt werden darf.<br> |
+| Bezeichnung | Ausführliche Bezeichnung<br> |

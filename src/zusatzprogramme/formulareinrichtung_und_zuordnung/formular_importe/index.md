@@ -24,23 +24,15 @@ Bei den normalen Importen können nur Bereiche auf gleiche Bereiche kopiert werd
 | --- |
 | Funktion | Beschreibung |
 | Hilfe | Öffnet die Hilfe zum Register Importe |
-| Import Variante | Importiert die Quellvariante aus dem Quellbereich des Quellformulars.  
-Diese drei Werte müssen entsprechend bei „Quellformular für Funktion Import:“ angegeben sein!  
-[Einrichtungen kopieren](../fontverwaltung_beim_formulardruck/einrichtungen_kopieren.md) |
-| Import Bereich | Importiert den Quellbereich des Quellformulars.  
-Diese zwei Werte müssen entsprechend bei „Quellformular für Funktion Import:“ angegeben sein!  
-[Einrichtungen kopieren](../fontverwaltung_beim_formulardruck/einrichtungen_kopieren.md) |
-| Import Formular | Importiert alle Bereiche und Varianten des Quellbereichs.  
-Dieser Wert muss entsprechend bei „Quellformular für Funktion Import:“ angegeben sein!  
-[Einrichtungen kopieren](../fontverwaltung_beim_formulardruck/einrichtungen_kopieren.md) |
-| Wilde Importe | Importieren von Formulartyp-Fremden Bereichen und/oder Varianten  
-[Einrichtungen kopieren](../fontverwaltung_beim_formulardruck/einrichtungen_kopieren.md) |
+| Import Variante | Importiert die Quellvariante aus dem Quellbereich des Quellformulars.<br>Diese drei Werte müssen entsprechend bei „Quellformular für Funktion Import:“ angegeben sein!<br>[Einrichtungen kopieren](../fontverwaltung_beim_formulardruck/einrichtungen_kopieren.md) |
+| Import Bereich | Importiert den Quellbereich des Quellformulars.<br>Diese zwei Werte müssen entsprechend bei „Quellformular für Funktion Import:“ angegeben sein!<br>[Einrichtungen kopieren](../fontverwaltung_beim_formulardruck/einrichtungen_kopieren.md) |
+| Import Formular | Importiert alle Bereiche und Varianten des Quellbereichs.<br>Dieser Wert muss entsprechend bei „Quellformular für Funktion Import:“ angegeben sein!<br>[Einrichtungen kopieren](../fontverwaltung_beim_formulardruck/einrichtungen_kopieren.md) |
+| Wilde Importe | Importieren von Formulartyp-Fremden Bereichen und/oder Varianten<br>[Einrichtungen kopieren](../fontverwaltung_beim_formulardruck/einrichtungen_kopieren.md) |
 | Export Formular | [Einrichtungen transportieren](../fontverwaltung_beim_formulardruck/einrichtungen_transportieren.md) |
 | Import aus Datei | [Einrichtungen transportieren](../fontverwaltung_beim_formulardruck/einrichtungen_transportieren.md) |
 | Exportdatei leeren | Löscht den Inhalt der unter „Dateipfad“ angegebenen Datei |
 | Datei editieren | Öffnet die unter „Dateipfad“ angegebene Datei in einem Editor |
-| Archiv anzeigen | **CTRL+F12**  
-Öffnet das Archiv für das angegebene Formular |
+| Archiv anzeigen | **CTRL+F12**<br>Öffnet das Archiv für das angegebene Formular |
 
 <p class="siehe-auch">Siehe auch:</p>
 

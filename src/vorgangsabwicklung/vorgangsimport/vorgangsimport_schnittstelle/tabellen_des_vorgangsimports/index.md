@@ -6,34 +6,19 @@ Folgende Relationen müssen für das Importieren von Vorgängen befüllt werden.
 
 | Pflicht Relationen | |
 | --- | --- |
-| [ImportVorgStamm](../vorgangsimport_anwendung/funktionen_des_vimp_pflegers.md#Tab_ImpoprtVorgStamm) | In dieser Relation müssen alle Daten eingefügt welche für den Vorgangskopf benötigt werden.  
-z.B. Kundennummer, Vorgangsklasse, Vorgangsunterklasse |
-| [ImportVorgPosition](../vorgangsimport_anwendung/funktionen_des_vimp_pflegers.md#Tab_ImportVorgPosition)  
- | In dieser Relation müssen alle Daten gespeichert die auf Positionsebene benötigt werden.  
-z.B. Artikelnummer, Menge, Mengeinheit |
+| [ImportVorgStamm](../vorgangsimport_anwendung/funktionen_des_vimp_pflegers.md#Tab_ImpoprtVorgStamm) | In dieser Relation müssen alle Daten eingefügt welche für den Vorgangskopf benötigt werden.<br>z.B. Kundennummer, Vorgangsklasse, Vorgangsunterklasse |
+| [ImportVorgPosition](../vorgangsimport_anwendung/funktionen_des_vimp_pflegers.md#Tab_ImportVorgPosition)<br> | In dieser Relation müssen alle Daten gespeichert die auf Positionsebene benötigt werden.<br>z.B. Artikelnummer, Menge, Mengeinheit |
 
 | Optionale Relationen | |
 | --- | --- |
-| [ImportVorgTextPosition](../vorgangsimport_anwendung/funktionen_des_vimp_pflegers.md#Tab_ImportVorgTextPosition) | In dieser Relation können Texte zu einer Position gespeichert werden.  
-Mit dem Feld Textposition kann bestimmt werden, wenn es sich um eine Textposition handelt, ob der Text vor oder nach einer Position angezeigt werden soll.  
-• 0 Vor der Position  
-• 1 Nach der Position  
-0 ist der Defaultwert  
-Die Reihenfolge bestimmt der Zeilenzähler.  
-Folgende Texttypen können gesetzt werden  
-• 0 Positionstext  
-0 ist der Defaultwert des Feldes.  
-Die Textlänge ist auf 255 Zeichen Begrenzt. |
-| ImportVorgPositionAddon | Veraltet !!! Bitte [ImportVorgPosiAddOn](./importvorgposiaddon.md) verwenden!  
-In dieser Relation können Daten für die Addonfelder gespeichert werden. |
-| [ImportVorgPosiAddOn](./importvorgposiaddon.md) | In dieser Relation werden Daten gespeichert, die später in der Tabelle WarenbewegungAddon zur Position hinterlegt werden sollen.  
-Der Name des gegebenen AddOn-Feldes muss mit dem Feldnamen in der Tabelle übereinstimmen, da sonst keine Daten gespeichert werden können. |
+| [ImportVorgTextPosition](../vorgangsimport_anwendung/funktionen_des_vimp_pflegers.md#Tab_ImportVorgTextPosition) | In dieser Relation können Texte zu einer Position gespeichert werden.<br>Mit dem Feld Textposition kann bestimmt werden, wenn es sich um eine Textposition handelt, ob der Text vor oder nach einer Position angezeigt werden soll.<br>• 0 Vor der Position<br>• 1 Nach der Position<br>0 ist der Defaultwert<br>Die Reihenfolge bestimmt der Zeilenzähler.<br>Folgende Texttypen können gesetzt werden<br>• 0 Positionstext<br>0 ist der Defaultwert des Feldes.<br>Die Textlänge ist auf 255 Zeichen Begrenzt. |
+| ImportVorgPositionAddon | Veraltet !!! Bitte [ImportVorgPosiAddOn](./importvorgposiaddon.md) verwenden!<br>In dieser Relation können Daten für die Addonfelder gespeichert werden. |
+| [ImportVorgPosiAddOn](./importvorgposiaddon.md) | In dieser Relation werden Daten gespeichert, die später in der Tabelle WarenbewegungAddon zur Position hinterlegt werden sollen.<br>Der Name des gegebenen AddOn-Feldes muss mit dem Feldnamen in der Tabelle übereinstimmen, da sonst keine Daten gespeichert werden können. |
 | [ImportVorgPositionPartie](./importvorgpositionpartie.md) | In dieser Relation werden Informationen der Partie(n) einer Position abgelegt. Eine Partie, die hier eingetragen ist, jedoch im System noch nicht existiert, wird angelegt werden. |
 | [ImportVorgStammZusatzTexte](../vorgangsimport_anwendung/funktionen_des_vimp_pflegers.md#Tab_ImportVorgStammZusatzTexte) | In dieser Relation können Zusatztexte zum Vorgang gespeichert werden. Diese lassen sich dann später mit SQLK auf bestimmten Dokumenten andrucken. Diese Texte sind nicht zu verwechseln mit den Vorgangstexten! |
 | [ImportVorgStammAddon](./importvorgstammaddon.md) | Hier werden Addon-Daten zum Vorgang hinterlegt. |
 | [ImportVorgStammUFLD](../vorgangsimport_anwendung/funktionen_des_vimp_pflegers.md#Tab_ImportVorgStammUFLD) | Hier werden die Werte von UFLD-Feldern mit deren ID hinterlegt, die für den zu importierenden Vorgang gesetzt werden sollen. |
-| [ImportVorgPositionLVS](../vorgangsimport_anwendung/funktionen_des_vimp_pflegers.md#Tab_ImportVorgPositionLVS) | Diese Relation beherbergt Informationen zu LVS-Ladeträgern, die zu dieser Position gehören.  
- |
+| [ImportVorgPositionLVS](../vorgangsimport_anwendung/funktionen_des_vimp_pflegers.md#Tab_ImportVorgPositionLVS) | Diese Relation beherbergt Informationen zu LVS-Ladeträgern, die zu dieser Position gehören.<br> |
 | [ImportVorgStammZuAb](../vorgangsimport_anwendung/funktionen_des_vimp_pflegers.md#Tab_ImpoprtVorgStammZuAb) | Link zwischen ImportVorgStamm und ImportVorgZuAbDef |
 | [ImportVorgPositionZuAb](../vorgangsimport_anwendung/funktionen_des_vimp_pflegers.md#Tab_ImpoprtVorgPositionZuAb) | Link zwischen ImportVorgPosition und ImportVorgZuAbDef |
 | [ImportVorgZuAbDef](./importvorgzuabdef.md) | Definition eines Zu/Abschlags, eines Rabattes oder einer Fracht |

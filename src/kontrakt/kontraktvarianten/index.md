@@ -33,15 +33,7 @@ Folgende Felder stehen auf der Erfassungsmaske zur Verfügung.
 | Feld | Beschreibung |
 | --- | --- |
 | Kontrakt-Varianten-Nummer | Nummer der Variante |
-| Kontrakt-Varianten-Typ | Typ der Kontrakt-Variante, d. h. ob es sich um eine Variante für den Kontraktdruck, den Erledigungsdruck, den Stornodruck, Andienung etc. handelt:  
-1. Kontrakt  
-2. Kontrakt-Storno  
-3. Kontrakt-Erledigung  
-4. Andienung  
-5. Freistellung  
-6. Andienung mit Freistellung  
-7. Kontrakt-Erinnerung  
-Hiermit wird dann gesteuert, welches Formular bei der Auslösung z.B. des Erledigungsschreibens gewählt wird. |
+| Kontrakt-Varianten-Typ | Typ der Kontrakt-Variante, d. h. ob es sich um eine Variante für den Kontraktdruck, den Erledigungsdruck, den Stornodruck, Andienung etc. handelt:<br>1. Kontrakt<br>2. Kontrakt-Storno<br>3. Kontrakt-Erledigung<br>4. Andienung<br>5. Freistellung<br>6. Andienung mit Freistellung<br>7. Kontrakt-Erinnerung<br>Hiermit wird dann gesteuert, welches Formular bei der Auslösung z.B. des Erledigungsschreibens gewählt wird. |
 | Bezeichnung | Vergabe eines freien Textes zur Beschreibung der Variante. |
 | Formular-Zuordnung | Im Formulareinrichter sind (möglicherweise) für unterschiedliche Anforderungen Standards festgelegt worden. Das für den Ausdruck dieser Kontraktvariante gewünschte Grundformular wird hier ausgewählt. Anschließend werden für die eingerichteten Bereiche dieses Grundformulars, z.B. den Bereich “Qualitäten”, die variablen Druckpositionen festgelegt. |
 

@@ -47,27 +47,12 @@ Nach Start und Eingabe der Verbindungsdaten stellt sich das Ganze nun so da:
 | Server | Die IP-Adresse des Disomat Tersus |
 | --- | --- |
 | Port | Der entsprechende Port zu NW1 |
-| Protokoll | Das verwendete Protokoll zur Kommunikation mit dem Disomat Tersus  
-Standard sollte „Schenck DDP 8672“ sein.  
-   
-Weiterhin möglich sind  
-Schenck DDP 8785 ( Poll-Prozedur )  
-Sowie die Schenck-MiniProz  
-bei der es sich um eine 1:1 – Umsetzung ohne Prüfsummenverfahren handelt. |
+| Protokoll | Das verwendete Protokoll zur Kommunikation mit dem Disomat Tersus<br>Standard sollte „Schenck DDP 8672“ sein.<br> <br>Weiterhin möglich sind<br>Schenck DDP 8785 ( Poll-Prozedur )<br>Sowie die Schenck-MiniProz<br>bei der es sich um eine 1:1 – Umsetzung ohne Prüfsummenverfahren handelt. |
 | Einmalig verbinden | Macht UDP nur einmal auf. Unterstützt somit direkt die Schenck-UDP-Implementierung ( 45 Sekunden – Regel! ) |
-| Wartezeit | Solange wird maximal auf eine Antwort gewartet, wenn der Client eigentlich eine gemäß Protokoll-Spezifikation erwartet.  
-   
-10 Sekunden erscheinen mir momentan angemessen und das wird auch als Standard vorgegeben. |
-| Schritt | Die Zeit die nach Dateneingang noch gewartet wird bis das System annimmt das die Übertragung abgeschlossen ist.  
-   
-Der Wert ist sicherlich abhängig vom Netzverhalten insgesamt, bei meinen Tests denke ich das 100 ms ein guter Wert sein könnte. |
-| Neuverbindung | Für die Installations- und Einrichtungsphase kann es sehr hilfreich sein wenn der Client einem geeignet hilft die 45-Sekunden-Regel  
-zu beachten. |
-| Telegramm | Das Daten-Telegramm der eigentlichen Anforderung. Die Telegramme entnimmt man den Schenck-Handbüchern. Ebenso was genau die einzelnen Telegramme bewirken.  
-   
-Für den Test dieser Anwendung habe ich das Telegramm verwendet um eine Eichwiegung zu veranlassen.  
-   
-Das ist ja auch genau das Einsatzgebiet dieser Applikation. |
+| Wartezeit | Solange wird maximal auf eine Antwort gewartet, wenn der Client eigentlich eine gemäß Protokoll-Spezifikation erwartet.<br> <br>10 Sekunden erscheinen mir momentan angemessen und das wird auch als Standard vorgegeben. |
+| Schritt | Die Zeit die nach Dateneingang noch gewartet wird bis das System annimmt das die Übertragung abgeschlossen ist.<br> <br>Der Wert ist sicherlich abhängig vom Netzverhalten insgesamt, bei meinen Tests denke ich das 100 ms ein guter Wert sein könnte. |
+| Neuverbindung | Für die Installations- und Einrichtungsphase kann es sehr hilfreich sein wenn der Client einem geeignet hilft die 45-Sekunden-Regel<br>zu beachten. |
+| Telegramm | Das Daten-Telegramm der eigentlichen Anforderung. Die Telegramme entnimmt man den Schenck-Handbüchern. Ebenso was genau die einzelnen Telegramme bewirken.<br> <br>Für den Test dieser Anwendung habe ich das Telegramm verwendet um eine Eichwiegung zu veranlassen.<br> <br>Das ist ja auch genau das Einsatzgebiet dieser Applikation. |
 | Datei | Pfad und Name des Wiegeergebnis zur späteren Auswertung in A.eins |
 | Empfang | Die Rückgabe des Wiegeergebnisses des Wiegeterminals. |
 
@@ -91,10 +76,7 @@ Für die Ansteuerung aus dem AMIC-Standardwaagenprofil heraus unterstützt der A
 | PORT | Angabe des Server-Portes | 350 |
 | OUTPUT | Datei Pfad und Name des Wiegeergebnisses | a1waagenclient.txt |
 | SEND | Das Anforderungstelegramm | |
-| Modus | Das Protokoll. Hierbei gilt  
-0 = Ohne Protokoll  
-1 = Schenck DDP 8785  
-2 = Schenck DDP 8672 | 0 |
+| Modus | Das Protokoll. Hierbei gilt<br>0 = Ohne Protokoll<br>1 = Schenck DDP 8785<br>2 = Schenck DDP 8672 | 0 |
 | Timeout | Wartezeit | 10000 |
 | Wait | Schritt | 100 |
 | Newconnect | Neuverbindung | 45000 |

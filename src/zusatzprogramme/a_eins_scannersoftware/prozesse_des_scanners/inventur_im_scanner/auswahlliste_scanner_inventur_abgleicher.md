@@ -22,8 +22,7 @@ Das Feld Partienummer hat noch weitere Bedeutungen.
 | Farbe | Bedeutung |
 | --- | --- |
 | Rot | Die Partie ist nicht mit in den Inventurbeleg übernommen worden, obwohl diese mit dem Scanner erfasst worden ist und ein Eintrag im Inventurbeleg für diese Position existiert. |
-| Weiß | 1. Die Partie ist Ordnungsgemäß erfasst worden und im Inventurbeleg vorhanden.  
-2. Die Position ist noch nicht komplett in die Inventur eingespielt worden. |
+| Weiß | 1. Die Partie ist Ordnungsgemäß erfasst worden und im Inventurbeleg vorhanden.<br>2. Die Position ist noch nicht komplett in die Inventur eingespielt worden. |
 
 Inventurgruppe
 

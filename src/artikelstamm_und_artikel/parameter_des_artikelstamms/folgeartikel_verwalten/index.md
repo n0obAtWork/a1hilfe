@@ -31,20 +31,12 @@ Hierfür stehen folgende Felder auf der Folgeartikelmaske zur Verfügung.
 | Gültig ab | Folgeartikel werden nur dann gezogen, wenn das Abgrenzdatum (in der Regel das Lieferdatum) in der Vorgangserfassung innerhalb des durch *gültig ab* und *gültig bis* bestimmten Zeitraums liegt. |
 | Gültig bis | Folgeartikel werden nur dann gezogen, wenn das Abgrenzdatum (in der Regel das Lieferdatum) in der Vorgangserfassung innerhalb des durch *gültig ab* und *gültig bis* bestimmten Zeitraums liegt. |
 | EK / VK | Hier kann festgelegt werden, ob der Folgeartikel in den Bereichen Einkauf / Verkauf / Lagerumbuchung heranzuziehen ist. |
-| Mengenkennzeichen | Das Mengenkennzeichen bestimmt, ob sich anschließend die Menge des Folgeartikels mittels eines Faktors oder Divisors aus der Menge des Hauptartikels ergibt oder aber der Wert hier festgelegt wird.  
-*Beispiel:*  
-*Faktor, Wert = 2* ⇨ *Menge* *des Hauptartikels = 1 so ist die Menge des Folgeartikels = 2*  
-*Divisor, Wert = 2* ⇨ *Menge des Hauptartikels = 1 so ist die Menge des Folgeartikels = 0,5*  
-*Menge, Wert = 4* ⇨ *Unabhängig vom Hauptartikel: Die Menge des Folgeartikels = 4* |
+| Mengenkennzeichen | Das Mengenkennzeichen bestimmt, ob sich anschließend die Menge des Folgeartikels mittels eines Faktors oder Divisors aus der Menge des Hauptartikels ergibt oder aber der Wert hier festgelegt wird.<br>*Beispiel:*<br>*Faktor, Wert = 2* ⇨ *Menge* *des Hauptartikels = 1 so ist die Menge des Folgeartikels = 2*<br>*Divisor, Wert = 2* ⇨ *Menge des Hauptartikels = 1 so ist die Menge des Folgeartikels = 0,5*<br>*Menge, Wert = 4* ⇨ *Unabhängig vom Hauptartikel: Die Menge des Folgeartikels = 4* |
 | Mengenbezug | |
 | Wert | Wert oder Faktor / Divisor des Folgeartikels |
 | Sperre | Hier kann z.B. vorübergehend die Verwendung des Folgeartikels gesperrt werden. |
 | Wertartikel | Die Mengenbuchung des Folgeartikels kann durch die Kennzeichnung als Wertartikels an dieser Stelle unterdrückt werden. |
-| Hauptartikelbezug | Die Verwendung des Folgeartikels kann hinsichtlich der im Hauptartikel verwendeten Mengeneinheit bestimmt werden:  
-*Immer* ⇨ Keine Einschränkung hinsichtlich der Hauptartikelmengeneinheit  
-*Nur bei Gebinde* ⇨ Der Folgeartikel wird nur gezogen, wenn es sich bei der Mengeneinheit des Hauptartikels um ein Gebinde handelt  
-*Nicht bei Gebinde* ⇨ Der Folgeartikel wird nur gezogen, wenn es sich bei der Mengeneinheit des Hauptartikels nicht um ein Gebinde handelt  
-*Nur bei Mengeneinheit* ⇨ Der Folgeartikel wird nur gezogen, wenn es sich bei der Mengeneinheit des Hauptartikels um die in der Spalte *bei ME* angegebene Einheit handelt |
+| Hauptartikelbezug | Die Verwendung des Folgeartikels kann hinsichtlich der im Hauptartikel verwendeten Mengeneinheit bestimmt werden:<br>*Immer* ⇨ Keine Einschränkung hinsichtlich der Hauptartikelmengeneinheit<br>*Nur bei Gebinde* ⇨ Der Folgeartikel wird nur gezogen, wenn es sich bei der Mengeneinheit des Hauptartikels um ein Gebinde handelt<br>*Nicht bei Gebinde* ⇨ Der Folgeartikel wird nur gezogen, wenn es sich bei der Mengeneinheit des Hauptartikels nicht um ein Gebinde handelt<br>*Nur bei Mengeneinheit* ⇨ Der Folgeartikel wird nur gezogen, wenn es sich bei der Mengeneinheit des Hauptartikels um die in der Spalte *bei ME* angegebene Einheit handelt |
 | bei ME | Hier ist die Mengeneinheit zur Einstellung ‚*Nur bei Mengeneinheit‘* in der Spalte *Hauptartikelbezug* anzugeben |
 | [Kundenbezug](./kundenbezug_einrichten.md) | Soll ein Kundenbezug zu diesem Artikel hergestellt werden, muss hier ein ja eingetragen werden. |
 

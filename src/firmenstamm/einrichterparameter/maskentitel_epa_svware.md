@@ -6,9 +6,7 @@
 | --- | --- | --- |
 | Bildschirm für Addon aufbauen | Nein | |
 | Artikel/Artikelstamm immer im Zusammenhang anlegen | Ja | |
-| Bei Baustelle nur Baustellenartikel in IB anzeigen | Nein | Bei NEIN steigt man in die Itembox „Nach Nummern“ intern „IB_ARTIKEL_BAUSTELLE“ ein.  
-Bei JA steigt man in die Itembox „nur Objektartikel“ intern „IB_ARTIKEL_BAUSTELLE_LANGSAM“ ein.  
-Die Itembox „IB_ARTIKEL_BAUSTELLE_LANGSAM“ zeigt nur die Artikel an, welche in dem Objektstamm eingetragen wurden. |
+| Bei Baustelle nur Baustellenartikel in IB anzeigen | Nein | Bei NEIN steigt man in die Itembox „Nach Nummern“ intern „IB_ARTIKEL_BAUSTELLE“ ein.<br>Bei JA steigt man in die Itembox „nur Objektartikel“ intern „IB_ARTIKEL_BAUSTELLE_LANGSAM“ ein.<br>Die Itembox „IB_ARTIKEL_BAUSTELLE_LANGSAM“ zeigt nur die Artikel an, welche in dem Objektstamm eingetragen wurden. |
 | Beim Drücken von RETURN im Feld Menge wird in die nächste Spalte gesprungen | Nein | |
 | Folgezeilen sofort rekalkulieren | Ja | |
 | Gebindemaske ohne Abfrage weiterschalten | Ja | |
@@ -20,8 +18,7 @@ Die Itembox „IB_ARTIKEL_BAUSTELLE_LANGSAM“ zeigt nur die Artikel an, welche 
 | Die Artikelnummer wird im NEU Fall IMMER mit dem letzten Artikel vorbelegt | Nein | |
 | Lagerplatz und Lagerplatzort durch die Bezeichnung auswählbar | Nein | |
 | Nachkommastellen der Warenmenge(höchstens 4) | 3 | |
-| Merkmalsleisten Neuartikelprozedur | | Wird ein Artikel über die [Merkmalsleiste](../../artikelstamm_und_artikel/merkmalsleiste/artikeleingabe_in_der_vorgangserfassung.md) neu angelegt, so wird bei gesetztem EPA (Prozedurname) diese Prozedur vor Aufruf der eigentlichen Artikelanlage gestartet. Signatur der Prozedur ist:  
-( ':ArtikelNummer$', :LagerNummer$ ) |
+| Merkmalsleisten Neuartikelprozedur | | Wird ein Artikel über die [Merkmalsleiste](../../artikelstamm_und_artikel/merkmalsleiste/artikeleingabe_in_der_vorgangserfassung.md) neu angelegt, so wird bei gesetztem EPA (Prozedurname) diese Prozedur vor Aufruf der eigentlichen Artikelanlage gestartet. Signatur der Prozedur ist:<br>( ':ArtikelNummer$', :LagerNummer$ ) |
 | Gebinde ohne Folgeabfragen | Ja | |
 | Verschiebung der Warenerfassung | 12 | |
 | Preisänderungen verbieten, F3 Auswahl ist aber erlaubt. | Nein | |

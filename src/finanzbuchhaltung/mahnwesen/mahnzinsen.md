@@ -44,10 +44,8 @@ Die Bereiche 301,303,305,306
 | MahnungSumme | Numerisch | 4 | Betrag + Gebühr + Zinsen |
 | MahnungSaldoZinsen | Numerisch | 4 | Zinsen dieser Mahnung ( mit Verrechnung Soll und Haben ) |
 | MahnungSaldoSumme | Numerisch | 4 | Saldo + Zinsen |
-| MahnungWSaldoZinsen | Numerisch | 4 | Zinsen in Fremdwährung dieser Mahnung (mit Verrechnung Soll und Haben)  
-Keine Gruppierung nach Währung! |
-| MahnungWSaldoSumme | Numerisch | 4 | Saldo + Zinsen in Fremdwährung  
-keine Gruppierung nach Währung! |
+| MahnungWSaldoZinsen | Numerisch | 4 | Zinsen in Fremdwährung dieser Mahnung (mit Verrechnung Soll und Haben)<br>Keine Gruppierung nach Währung! |
+| MahnungWSaldoSumme | Numerisch | 4 | Saldo + Zinsen in Fremdwährung<br>keine Gruppierung nach Währung! |
 | GesamtMahnZinsen | Numerisch | 4 | Zinsen |
 | GesamtMahnSumme | Numerisch | 4 | GesamtMahnBetrag+Zinsen+Gebühr |
 

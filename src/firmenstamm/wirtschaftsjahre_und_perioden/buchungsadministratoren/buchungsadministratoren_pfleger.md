@@ -11,11 +11,8 @@ Um bei der Neuanlage eine Periode auszuwählen, wird zuvor den Periodenbereich u
 | **Bezeichnung** | **Beschreibung** |
 | --- | --- |
 | Periodenbereich | Hier wird festgelegt, ob eine Periode aus der Warenbuchhaltung (Ware) oder aus der Finanzbuchhaltung (FiBu) gewählt werden soll. Der Bereich kann mithilfe von **F3** bestimmt werden. |
-| Wirtschaftsjahr | In diesem Feld wird das Wirtschaftsjahr eingetragen, auf das sich die Periode bezieht.  
-Via **F3** - Taste kann hier eine Auswahl über alle Wirtschaftsjahre getroffen werden.  
-Im ***Neu***\-Fall wird das Feld mit dem aktuellen Wirtschaftsjahr vorbelegt. |
-| Periode | Hier wird die Periode eingetragen.  
-Mit der Taste **F3** werden alle geöffneten und gesperrten Perioden angezeigt, die zu dem gewählten Periodenbereich und dem Wirtschaftsjahr gehören. |
+| Wirtschaftsjahr | In diesem Feld wird das Wirtschaftsjahr eingetragen, auf das sich die Periode bezieht.<br>Via **F3** - Taste kann hier eine Auswahl über alle Wirtschaftsjahre getroffen werden.<br>Im ***Neu***\-Fall wird das Feld mit dem aktuellen Wirtschaftsjahr vorbelegt. |
+| Periode | Hier wird die Periode eingetragen.<br>Mit der Taste **F3** werden alle geöffneten und gesperrten Perioden angezeigt, die zu dem gewählten Periodenbereich und dem Wirtschaftsjahr gehören. |
 
 <p class="just-emphasize">Datentabelle</p>
 

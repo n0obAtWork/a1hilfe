@@ -16,13 +16,9 @@
 | --- |
 | Funktion | Beschreibung |
 | Hilfe | Ruft die Hilfe zum Register „Fonts“ auf |
-| Speichern  
-**F9** | Speichert die vorgenommenen Änderungen. |
-| [Ersetze Font](./ersetze_font_f6.md)  
-**F6** | Öffnet einen Anwendungsdialog zum Ändern der Schriftart für das gesamte Formular oder nur für den Bereich.  
-Dort besteht auch die Möglich ALLEN Formularen die ausgewählte Schriftart zuzuweisen! |
-| Archiv anzeigen  
-**CTRL-F12** | Öffnet das Archiv für das angegebene Formular |
+| Speichern<br>**F9** | Speichert die vorgenommenen Änderungen. |
+| [Ersetze Font](./ersetze_font_f6.md)<br>**F6** | Öffnet einen Anwendungsdialog zum Ändern der Schriftart für das gesamte Formular oder nur für den Bereich.<br>Dort besteht auch die Möglich ALLEN Formularen die ausgewählte Schriftart zuzuweisen! |
+| Archiv anzeigen<br>**CTRL-F12** | Öffnet das Archiv für das angegebene Formular |
 
 <p class="siehe-auch">Siehe auch:</p>
 

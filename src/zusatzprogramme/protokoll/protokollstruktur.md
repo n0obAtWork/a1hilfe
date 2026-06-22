@@ -102,9 +102,7 @@ Erklärung der XML-Tags
 | &lt;root> | Dieser Tag kennzeichnet nur den Start der XML-Struktur. |
 | &lt;mode> | Der „Mode“ sagt aus, wodurch die Daten entstanden sind. In dem Beispiel sind die Daten durch ein „Update“ entstanden. |
 | &lt;Felder> | Dies ist der Start-Tag unter dem sich alle mitprotokollierten Felder befinden. |
-| &lt;Field> | Der „Field“ Tag ist ein Tag für eine einzelne Spalte. Innerhalb des Tags existieren noch der „id“ und „label“ Parameter.  
-*ID = Der Spaltenname aus der Tabelle.*  
-*LABEL = Die Bezeichnung die in dem Stammdaten hinterlegt werden kann.* |
+| &lt;Field> | Der „Field“ Tag ist ein Tag für eine einzelne Spalte. Innerhalb des Tags existieren noch der „id“ und „label“ Parameter.<br>*ID = Der Spaltenname aus der Tabelle.*<br>*LABEL = Die Bezeichnung die in dem Stammdaten hinterlegt werden kann.* |
 | &lt;alt> | Der Tag enthält den alten Wert. |
 | &lt;neu> | Der Tag enthält den neuen Wert. |
 

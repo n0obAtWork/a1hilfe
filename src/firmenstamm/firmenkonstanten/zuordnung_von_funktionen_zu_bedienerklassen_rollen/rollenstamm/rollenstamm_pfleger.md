@@ -16,13 +16,10 @@ Die Bedienerklassen und ihre Zustände bzgl. der Rolle werden vollständig im Gr
 | Felder |
 | --- |
 | Rolle | Eindeutiger bis zu 255 Zeichen langer Bezeichner. |
-| Ist | Ja/Nein  
-Gibt die Zugehörigkeit der Bedienerklasse zur Rolle an. |
+| Ist | Ja/Nein<br>Gibt die Zugehörigkeit der Bedienerklasse zur Rolle an. |
 | Bedienerklasse | [Bedienerklasse](../../bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerklassen/bedienerklasse_pfleger.md) |
-| Soll | Ja/Nein  
-Änderungen zu „Ist“ werden farblich abgegrenzt, um die Übersichtlichkeit zu unterstützen. |
-| Bedienerklassen-Bezeichnung | Die Bezeichnung der Bedienerklassen.  
-Ein vorangestellter Stern (\*) bedeutet das die Bedienerklasse eine Controller-Klasse ist, somit die Bedienerklasse Mitglied der Controller-Rolle ist. |
+| Soll | Ja/Nein<br>Änderungen zu „Ist“ werden farblich abgegrenzt, um die Übersichtlichkeit zu unterstützen. |
+| Bedienerklassen-Bezeichnung | Die Bezeichnung der Bedienerklassen.<br>Ein vorangestellter Stern (\*) bedeutet das die Bedienerklasse eine Controller-Klasse ist, somit die Bedienerklasse Mitglied der Controller-Rolle ist. |
 | Bediener | Informatorische auf max. 255 Zeichen begrenzte Liste der Bediener der Bedienerklasse. |
 
 </details>

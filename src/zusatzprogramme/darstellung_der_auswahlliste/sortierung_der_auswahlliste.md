@@ -14,15 +14,10 @@ Folgende Felder werden in der Sortierungsmaske angezeigt:
 
 | | **Bedeutung** |
 | --- | --- |
-| Spaltenname | Titel der Spalte in der Auswahlliste  
- |
-| Gruppierung | Die hier ausgewählten Spalten werden automatisch in die Gruppierung-Zeile der Auswahlliste 2.0 in Reihenfolge des Aufsteigenden Indexes übernommen. Der Index für eine Gruppierung muss eine positive Zahl größer 0 sein und kann für eine Sortierung nur einmal verwendet werden. Zur Gruppierung kann auch eine Richtung angegeben werden.  
-Die alte Auswahlliste ignoriert die hier angegebenen Werte.  
- |
-| Sortierung | Index für das Feld bei der Sortierung. Felder, die bereits in der Gruppierung verwendet werden, werden für die Sortierung ignoriert. Die Auswahlliste oder F3-Auswahl wird nach den Feldern in der Reihenfolge des aufsteigenden Index sortiert. Felder ohne Index werden bei der Sortierung nicht berücksichtigt. Der Index für eine Sortierung muss eine positive Zahl größer 0 sein und kann für eine Sortierung nur einmal verwendet werden.  
- |
-| Richtung | Richtung der Sortierung und Gruppierung für die Spalte.  
- |
+| Spaltenname | Titel der Spalte in der Auswahlliste<br> |
+| Gruppierung | Die hier ausgewählten Spalten werden automatisch in die Gruppierung-Zeile der Auswahlliste 2.0 in Reihenfolge des Aufsteigenden Indexes übernommen. Der Index für eine Gruppierung muss eine positive Zahl größer 0 sein und kann für eine Sortierung nur einmal verwendet werden. Zur Gruppierung kann auch eine Richtung angegeben werden.<br>Die alte Auswahlliste ignoriert die hier angegebenen Werte.<br> |
+| Sortierung | Index für das Feld bei der Sortierung. Felder, die bereits in der Gruppierung verwendet werden, werden für die Sortierung ignoriert. Die Auswahlliste oder F3-Auswahl wird nach den Feldern in der Reihenfolge des aufsteigenden Index sortiert. Felder ohne Index werden bei der Sortierung nicht berücksichtigt. Der Index für eine Sortierung muss eine positive Zahl größer 0 sein und kann für eine Sortierung nur einmal verwendet werden.<br> |
+| Richtung | Richtung der Sortierung und Gruppierung für die Spalte.<br> |
 
 <p class="just-emphasize">Sortierung/Gruppierung löschen</p>
 

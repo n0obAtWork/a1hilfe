@@ -6,22 +6,14 @@ In dieser Relation werden Kopfdaten des Vorgangs hinterlegt.
 
 | Feld | Pflicht | Bedeutung |
 | --- | --- | --- |
-| UebernahmeId | Ja | Ident des Stammsatzes dieser muss mit in die Tabelle ImportVorgPosition für die dazugehörigen Positionen geschrieben werden.  
-Der Ident wird mit der Prozedur  
-Amic_dbx_ident(‘ImportVorgStamm‘,1) gezogen |
+| UebernahmeId | Ja | Ident des Stammsatzes dieser muss mit in die Tabelle ImportVorgPosition für die dazugehörigen Positionen geschrieben werden.<br>Der Ident wird mit der Prozedur<br>Amic_dbx_ident(‘ImportVorgStamm‘,1) gezogen |
 | SatzId | Ja | In diesem Feld ist eine 1 einzutragen. |
-| Status | Ja | Der Status des Stammsatzes muss auf 2 gesetzt werden, ansonsten wird der Beleg nicht verarbeitet.  
-Ausnahme bildet hier die Umwandlung eines Ladescheins zu einem Lieferschein. Hier muss der Status 5 sein ! |
-| V_KlassNummer | Ja | Klassennummer des Typs  
-Siehe [Vorgangsklassen](../importierbare_vorgaenge/index.md#Vorgangsliste) |
+| Status | Ja | Der Status des Stammsatzes muss auf 2 gesetzt werden, ansonsten wird der Beleg nicht verarbeitet.<br>Ausnahme bildet hier die Umwandlung eines Ladescheins zu einem Lieferschein. Hier muss der Status 5 sein ! |
+| V_KlassNummer | Ja | Klassennummer des Typs<br>Siehe [Vorgangsklassen](../importierbare_vorgaenge/index.md#Vorgangsliste) |
 | V_UKlassNummer | Ja | Unterklasse des Vorgangs |
 | V_Unternummer | Ja – sonst 0 | 0 |
 | Jahrnummer | Ja | Jahr des Beleges |
-| ImportTyp | Ja | Dies wird nur bislang beim Ladeschein und Produktion ausgewertet.  
-• [0 Ist Auftrag -> Ladeschein -> Lieferschein / Rechnung](../importierbare_vorgaenge/ladeschein_aus_auftrag_zu_lieferschein_rechnung.md)  
-• 1 Normaler Ladeschein  
-• [10 Ändern einer Produktion](../importierbare_vorgaenge/produktion.md)  
-[• 11 Explizite Änderung einer Produktion](../importierbare_vorgaenge/produktion.md) |
+| ImportTyp | Ja | Dies wird nur bislang beim Ladeschein und Produktion ausgewertet.<br>• [0 Ist Auftrag -> Ladeschein -> Lieferschein / Rechnung](../importierbare_vorgaenge/ladeschein_aus_auftrag_zu_lieferschein_rechnung.md)<br>• 1 Normaler Ladeschein<br>• [10 Ändern einer Produktion](../importierbare_vorgaenge/produktion.md)<br>[• 11 Explizite Änderung einer Produktion](../importierbare_vorgaenge/produktion.md) |
 | Belegdatum | Ja – sonst aktuelles Datum | Wird das Datum des Beleges |
 | Bedieneridneu | Ja | Erfasser des Beleges |
 | IVS_GUID | Auto | Wird automatisch pro Satz erzeugt wird als Primary Key für abhängige Relation vom Stammsatz benötigt wie z.B. bei der Relation ImportVorgStammUFLD. Dies bedeutet, dass beim Einspielen der Daten das Feld ausgelesen werden muss. |
@@ -29,9 +21,7 @@ Siehe [Vorgangsklassen](../importierbare_vorgaenge/index.md#Vorgangsliste) |
 | KundId | Bei EK/VK | KundID – Kunde/Lieferanten-ID des Vorgangs alternativ zur Kundennummer |
 | ExterneReferenz | Nein | Wird als EDI_KU_Auftragsnummer im Beleg geführt – So kann die externe Belegreferenz im Beleg angezeigt werden. |
 | V_NumNummer | Nein | Belegnummer – ist die gegebene Belegnummer bereits vorhanden und handelt es sich nicht um den Importtyp 1 – (Umwandlung Ladeschein zu Lieferschein/Rechnung) so wird eine neue Belegnummer aus dem Nummernkreis verwendet. |
-| BuchTyp | Nur bei Umbuchung | 0 = Vorgemerkt (AG)  
-1 = dispositiv (AU)  
-2 = gebucht (RE) |
+| BuchTyp | Nur bei Umbuchung | 0 = Vorgemerkt (AG)<br>1 = dispositiv (AU)<br>2 = gebucht (RE) |
 | Druckernummer | Nein | Wenn der Beleg nach dem Import gedruckt werden soll, kann hier ein Drucker dafür angegeben werden. |
 | TCPIP_Adresse | Nein | Hinweis auf die IP-Adresse des erfassenden MDE-Geräts – wird nicht in den Vorgang übernommen. |
 | V_id | Ausgabe | Dieses Feld wird nach dem Import mit der V_ID des Vorgangs befüllt und ggf. bei Weiterverarbeitungen mitgepflegt, so dass stets eine Verbindung dieses Quellsatzes zum Zielbeleg bestehen bleibt. |

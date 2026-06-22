@@ -21,36 +21,16 @@ Der für Belege aus der Eingangsmappe verwendete Nummernkreis wird in den Einric
 
 | Feld | Beschreibung |
 | --- | --- |
-| Belegdatum  
-    
- | Datum des Beleges. Wird bei der Übernahme der Daten in die Belegerfassung mit übernommen. In den Einrichterparametern lässt sich einstellen, wie - und ob das Datum vorbelegt werden soll. Dazu muss man bei dem Einrichterparameter „Vorbelegung Belegdatum: 0=Tagesdatum; 1 - …. = Tage zurück; -1=leer; -2 wie 0 bei Einstieg“ einen entsprechenden Wert eintragen. Vorbelegt wird das Belegdatum, wenn man nichts ändert mit dem Tagesdatum.  
- |
-| Belegnummer | Die Belegnummer setzt wird über den Nummernkreis bestimmt und ist hier nicht änderbar. Der Nummernkreis ist als Einrichterparameter „Standard Nummernkreisvorbelegung“ zu hinterlegen.  
- |
-| Referenz | Entspricht der Referenznummer in der Belegerfassung. In den Einrichterparametern lässt sich einstellen, ob bei der Erfassung geprüft werden soll, ob die Referenznummer Daten enthalten muss oder nicht. Dazu muss man bei „Referenznummer muss Daten enthalten“ ein **Ja** eintragen.  
-Ist in den Einrichterparametern der Belegerfassung eingetragen, dass die Referenznummer eindeutig sein muss, so bezieht sich dies auch auf die Referenznummer, die im der Eingangsmappe erfasst wird.  
- |
-| Archivreferenz  
-    
- | Das Feld hinter der Referenznummer ist die Archivreferenz. Es wird später als Paginiernummer in die Finanzbuchhaltung übernommen. Dieses Feld kann mit dem Einrichterparameter „Archivreferenz/Paginiernummer abfragen?“ abgeschaltet werden. Der Einrichterparameter „Archivreferenz/Paginiernummer muss Daten enthalten?“ bestimmt, ob dieses Feld Daten enthalten muss oder nicht. Wenn es auf **Ja** steht, so wird nach dem Löschen des Inhaltes wieder ein Wert vorbelegt. Eine Leereingabe ist somit nicht möglich.  
- |
-| Kontonummer  
-    
- | Welchem Personenkonto ist die Eingangsrechnung zugeordnet. In den Einrichterparametern kann man hinterlegen, welcher Kundentyp in der F3-Auswahl zugelassen ist.  
- |
-| OP-Text | Dieser Text wird in das Textfeld der Belegerfassung übernommen. Der Text kann wie in der Belegerfassung aus den [Textvorbelegungen](../../stammdaten_der_fibu/textvorbelegungen.md#Textvorbelegung) (Direktsprung [FITXT]) Mit Nummer + **F2** bzw. mit **F3** gezogen werden.  
- |
-| Zab./SkoDat/Valutadatum/Skontosatz | Es wird die Zahlungsbedingung abgefragt. Sämtliche hier eingetragenen Werte werden so in den Beleg in der Finanzbuchhaltung übernommen, wie sie sind, ohne noch einmal nachgerechnet zu werden.  
- |
-| Betrag  
-    
- | Dieser Betrag wird bei der Übernahme oben rechts in der Belegerfassung angezeigt. Direkt darunter steht die Differenz zu den in den Positionen erfassten Beträgen. Das Sollhabenkennzeichen gibt an, ob es sich um eine Rechnung oder eine Gutschrift handelt. Dies wird im Textfeld hinter dem Währungsfeld angezeigt.  
- |
-| Sachbearbeiter | Hier kann der Sachbearbeiter eingetragen werden. Über **F3** bekommt man eine Liste der Bediener.  
- |
-| Proj./Bez.  
-    
- | Hinweis für den Sachbearbeiter. |
+| Belegdatum<br><br> | Datum des Beleges. Wird bei der Übernahme der Daten in die Belegerfassung mit übernommen. In den Einrichterparametern lässt sich einstellen, wie - und ob das Datum vorbelegt werden soll. Dazu muss man bei dem Einrichterparameter „Vorbelegung Belegdatum: 0=Tagesdatum; 1 - …. = Tage zurück; -1=leer; -2 wie 0 bei Einstieg“ einen entsprechenden Wert eintragen. Vorbelegt wird das Belegdatum, wenn man nichts ändert mit dem Tagesdatum.<br> |
+| Belegnummer | Die Belegnummer setzt wird über den Nummernkreis bestimmt und ist hier nicht änderbar. Der Nummernkreis ist als Einrichterparameter „Standard Nummernkreisvorbelegung“ zu hinterlegen.<br> |
+| Referenz | Entspricht der Referenznummer in der Belegerfassung. In den Einrichterparametern lässt sich einstellen, ob bei der Erfassung geprüft werden soll, ob die Referenznummer Daten enthalten muss oder nicht. Dazu muss man bei „Referenznummer muss Daten enthalten“ ein **Ja** eintragen.<br>Ist in den Einrichterparametern der Belegerfassung eingetragen, dass die Referenznummer eindeutig sein muss, so bezieht sich dies auch auf die Referenznummer, die im der Eingangsmappe erfasst wird.<br> |
+| Archivreferenz<br><br> | Das Feld hinter der Referenznummer ist die Archivreferenz. Es wird später als Paginiernummer in die Finanzbuchhaltung übernommen. Dieses Feld kann mit dem Einrichterparameter „Archivreferenz/Paginiernummer abfragen?“ abgeschaltet werden. Der Einrichterparameter „Archivreferenz/Paginiernummer muss Daten enthalten?“ bestimmt, ob dieses Feld Daten enthalten muss oder nicht. Wenn es auf **Ja** steht, so wird nach dem Löschen des Inhaltes wieder ein Wert vorbelegt. Eine Leereingabe ist somit nicht möglich.<br> |
+| Kontonummer<br><br> | Welchem Personenkonto ist die Eingangsrechnung zugeordnet. In den Einrichterparametern kann man hinterlegen, welcher Kundentyp in der F3-Auswahl zugelassen ist.<br> |
+| OP-Text | Dieser Text wird in das Textfeld der Belegerfassung übernommen. Der Text kann wie in der Belegerfassung aus den [Textvorbelegungen](../../stammdaten_der_fibu/textvorbelegungen.md#Textvorbelegung) (Direktsprung [FITXT]) Mit Nummer + **F2** bzw. mit **F3** gezogen werden.<br> |
+| Zab./SkoDat/Valutadatum/Skontosatz | Es wird die Zahlungsbedingung abgefragt. Sämtliche hier eingetragenen Werte werden so in den Beleg in der Finanzbuchhaltung übernommen, wie sie sind, ohne noch einmal nachgerechnet zu werden.<br> |
+| Betrag<br><br> | Dieser Betrag wird bei der Übernahme oben rechts in der Belegerfassung angezeigt. Direkt darunter steht die Differenz zu den in den Positionen erfassten Beträgen. Das Sollhabenkennzeichen gibt an, ob es sich um eine Rechnung oder eine Gutschrift handelt. Dies wird im Textfeld hinter dem Währungsfeld angezeigt.<br> |
+| Sachbearbeiter | Hier kann der Sachbearbeiter eingetragen werden. Über **F3** bekommt man eine Liste der Bediener.<br> |
+| Proj./Bez.<br><br> | Hinweis für den Sachbearbeiter. |
 
 <p class="siehe-auch">Siehe auch:</p>
 

@@ -67,12 +67,8 @@ Folgende Variablen sind in allen Teilen (Kopf, Fuß und Zeilentyp) verfügbar. F
 | ABS_ZahlPosSkonto | | | Skonto auf obigen Betrag, jedoch immer mit positivem Betrag |
 | BelegPosSaldo | | | Beleg Betrag - Beleg Skonto |
 | ABS_BelegPosSaldo | | | abs (Beleg Betrag - Beleg Skonto), jedoch immer mit positivem Betrag |
-| ZahlPosSH | | | Sollhabenkennzeichen dargestellt als ‘-‘ für Haben und ‘ ‘ für Soll,  
-kann jedoch per Einrichtungsparameter eingestellt werden. Mögliche Formate wären: MINUSPLUS, SH, SOLLHABEN |
-| ABS_ZahlPosSH | | | Sollhabenkennzeichen dargestellt als ‘-‘ für Haben und ‘ ‘ für Soll,  
-kann jedoch per Einrichtungsparameter einstellbar. Bei negativen Beträgen (S.o.) werden diese Kennzeichen gedreht. Also:  
-\-1.000,00 S è 1.000,00 H bzw.  
-\-1.000,00 H è 1.000,00 S |
+| ZahlPosSH | | | Sollhabenkennzeichen dargestellt als ‘-‘ für Haben und ‘ ‘ für Soll,<br>kann jedoch per Einrichtungsparameter eingestellt werden. Mögliche Formate wären: MINUSPLUS, SH, SOLLHABEN |
+| ABS_ZahlPosSH | | | Sollhabenkennzeichen dargestellt als ‘-‘ für Haben und ‘ ‘ für Soll,<br>kann jedoch per Einrichtungsparameter einstellbar. Bei negativen Beträgen (S.o.) werden diese Kennzeichen gedreht. Also:<br>\-1.000,00 S è 1.000,00 H bzw.<br>\-1.000,00 H è 1.000,00 S |
 | FiBuV_Nummer | | | Interne Belegnummer |
 | FiBuV_FremdNr | | | Externe Belegnummer ( Belegnummer des Lieferanten) |
 | FiBuV_Datum | | | Belegdatum |

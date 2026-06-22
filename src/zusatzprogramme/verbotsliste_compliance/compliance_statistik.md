@@ -10,24 +10,5 @@ Diese Auswahlliste dient lediglich zur Übersicht und hat keine Suchfunktion ode
 
 | Felder | Beschreibung |
 | --- | --- |
-| Typ | \- ***Anfragen:***  
-Anfragen, die vom Webservice beantwortet wurden  
-\- ***Vorgangs-Detail-Anzeige:***  
-Prüfungen, die von der Vorgangsdetails-Anzeige aus gestartet wurden  
-\- ***Zyklische Anfrage:***  
-Prüfungen, die von der Funktion „definierte Anschriften prüfen“ ausgelöst wurden  
-\- ***Goodguy-Definition:***  
-Anzahl der Good-Guy-Definitionen  
-\- ***Auswahlliste:***  
-Prüfungen, die von der Auswahlliste (**[KU]**, **[ANSCH]**, **[VORG]**) ausgelöst wurden  
-\- ***Änderung:***  
-Prüfungen, die nach der Änderung einer Anschrift ausgelöst wurden  
-\- ***Neuerfassung:***  
-Prüfungen, die von der Neuerfassung einer Anschrift ausgelöst wurden  
-\- ***Vorgangserfassung:***  
-Prüfungen, die von der Erfassung eines Vorgangs ausgelöst wurden  
-\- ***Unbekannt:***  
-Tests  
-\- ***Vorhandene:***  
-Prüfungen, die nicht an den Webservice weitergeleitet wurden, weil das Ergebnis innerhalb des im SPA824 definierten Zeitraums bereits ermittelt wurde |
+| Typ | \- ***Anfragen:***<br>Anfragen, die vom Webservice beantwortet wurden<br>\- ***Vorgangs-Detail-Anzeige:***<br>Prüfungen, die von der Vorgangsdetails-Anzeige aus gestartet wurden<br>\- ***Zyklische Anfrage:***<br>Prüfungen, die von der Funktion „definierte Anschriften prüfen“ ausgelöst wurden<br>\- ***Goodguy-Definition:***<br>Anzahl der Good-Guy-Definitionen<br>\- ***Auswahlliste:***<br>Prüfungen, die von der Auswahlliste (**[KU]**, **[ANSCH]**, **[VORG]**) ausgelöst wurden<br>\- ***Änderung:***<br>Prüfungen, die nach der Änderung einer Anschrift ausgelöst wurden<br>\- ***Neuerfassung:***<br>Prüfungen, die von der Neuerfassung einer Anschrift ausgelöst wurden<br>\- ***Vorgangserfassung:***<br>Prüfungen, die von der Erfassung eines Vorgangs ausgelöst wurden<br>\- ***Unbekannt:***<br>Tests<br>\- ***Vorhandene:***<br>Prüfungen, die nicht an den Webservice weitergeleitet wurden, weil das Ergebnis innerhalb des im SPA824 definierten Zeitraums bereits ermittelt wurde |
 | Anzahl | Gibt die Anzahl des jeweiligen Typen wieder |

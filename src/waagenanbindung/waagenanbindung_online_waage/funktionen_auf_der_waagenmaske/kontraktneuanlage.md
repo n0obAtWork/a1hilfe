@@ -13,10 +13,7 @@ Ist der Wiegung schon ein Kontrakt zugeordnet, so werden die Kontraktinformation
 | Sollmenge | Sollmenge des Kontraktes |
 | Variante | Kontraktvariante |
 | Lager | Wird aus der Waage vorbelegt |
-| Preisart | Anwenderformat af_Pricing. Folgende Standardwerte werden ausgeliefert.  
-• 0 Basis  
-• 1 DP  
-• 2 HTA |
+| Preisart | Anwenderformat af_Pricing. Folgende Standardwerte werden ausgeliefert.<br>• 0 Basis<br>• 1 DP<br>• 2 HTA |
 | Bemerkung | Bemerkungsfeld |
 
 Artikel

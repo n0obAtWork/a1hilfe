@@ -14,28 +14,14 @@ Daraufhin öffnet sich ein weiterer Dialog, in dem man angibt, wann der Report e
 
 | **Feld** | **Bedeutung** |
 | --- | --- |
-| Name | Der Name der Aufgabe wird mit der Bezeichnung des Reports vorbelegt. Dieser Name erscheint in Aufgabenplanung von Windows im Ordner A.eins. Damit dieser Name auf jeden Fall eindeutig ist, wird noch „Task 123“ an den Text angerhängt, wobei die Zahl jeweils weitergezählt wird. Diese Zahl entspricht der Ident des Eintrags in der Tabelle ANWENDREPORTXML. Dort werden die Einstellungen, die man im Profil vorgenommen hat, gespeichert.  
- |
-| Report | Bezeichnung des Reports, den man gerade bearbeitet.  
- |
-| Profil | Name des Profils – dieses Feld ist vorbelegt mit dem Namen des Profils, mit dem der Report aufgerufen wurde. Man kann hier noch ein anderes Profil angeben, welches jedoch schon existieren muss.  
- |
-| Ziel | • Formulararchiv  
-• Drucker  
-• Webseite  
- |
-| Drucker | (nur wenn Ziel Drucker) der Name der Printerqueue, auf der gedruckt werden soll  
- |
-| Plantyp | • Einmalig  
-• Täglich  
-• Wöchentlich  
-• Monatlich  
-    
- |
-| Startzeit | Hier wird angegeben, an welchem Tag und um wieviel Uhr diese Aufgabe ausgeführt werden soll.  
- |
-| Erweiterte Optionen | Unter den erweiterten Optionen kann noch der Wochentag ausgewählt werden, an dem die Aufgabe laufen soll. Diese Option steht nur zur Verfügung, wenn als Plantyp „wöchentlich“ oder „monatlich“ ausgewählt wurde.  
- |
+| Name | Der Name der Aufgabe wird mit der Bezeichnung des Reports vorbelegt. Dieser Name erscheint in Aufgabenplanung von Windows im Ordner A.eins. Damit dieser Name auf jeden Fall eindeutig ist, wird noch „Task 123“ an den Text angerhängt, wobei die Zahl jeweils weitergezählt wird. Diese Zahl entspricht der Ident des Eintrags in der Tabelle ANWENDREPORTXML. Dort werden die Einstellungen, die man im Profil vorgenommen hat, gespeichert.<br> |
+| Report | Bezeichnung des Reports, den man gerade bearbeitet.<br> |
+| Profil | Name des Profils – dieses Feld ist vorbelegt mit dem Namen des Profils, mit dem der Report aufgerufen wurde. Man kann hier noch ein anderes Profil angeben, welches jedoch schon existieren muss.<br> |
+| Ziel | • Formulararchiv<br>• Drucker<br>• Webseite<br> |
+| Drucker | (nur wenn Ziel Drucker) der Name der Printerqueue, auf der gedruckt werden soll<br> |
+| Plantyp | • Einmalig<br>• Täglich<br>• Wöchentlich<br>• Monatlich<br><br> |
+| Startzeit | Hier wird angegeben, an welchem Tag und um wieviel Uhr diese Aufgabe ausgeführt werden soll.<br> |
+| Erweiterte Optionen | Unter den erweiterten Optionen kann noch der Wochentag ausgewählt werden, an dem die Aufgabe laufen soll. Diese Option steht nur zur Verfügung, wenn als Plantyp „wöchentlich“ oder „monatlich“ ausgewählt wurde.<br> |
 
 Wenn man dann die Aufgabe mit der Funktion „***Speichern***“ **F9** erstellt, so öffnet sich ein Fenster in dem angezeigt wird, dass die neue Aufgabe erfolgreich erstellt wurde.
 

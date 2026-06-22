@@ -28,11 +28,7 @@ Benötigt die Lizenz „CO2-Kostenaufteilung-Lizenz“.
 
 | Feld | Bedeutung |
 | --- | --- |
-| CO2-Artikel | Nur wenn dieser Wert auf „Ja“ steht, wird im Formular etwas angedruckt  
- |
-| Heizwert | Heizwert in Gj/t  
- |
-| Emissionsfaktor | Emissionsfaktor in kg(CO2)/kWh  
- |
-| Gewicht pro Me | Um eine Berechnung sicherzustellen, muss hier das Gewicht in kg pro Grundmengeneinheit eingegeben werden.  
- |
+| CO2-Artikel | Nur wenn dieser Wert auf „Ja“ steht, wird im Formular etwas angedruckt<br> |
+| Heizwert | Heizwert in Gj/t<br> |
+| Emissionsfaktor | Emissionsfaktor in kg(CO2)/kWh<br> |
+| Gewicht pro Me | Um eine Berechnung sicherzustellen, muss hier das Gewicht in kg pro Grundmengeneinheit eingegeben werden.<br> |

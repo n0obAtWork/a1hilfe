@@ -24,9 +24,7 @@ Direktsprung **[HINW]**
 | Bezeichnung | Hier kann ein Kurztext eingetragen werden, der auf der Information Anzeigemaske angezeigt werden soll. |
 | Bedienerklasse | Bestimmt für welche Bedienerklasse die Information gelten soll. |
 | Priorität | Hier kann zwischen „Normal“ und „Hoch“ gewählt werden. Informationen, die eine hohe Priorität haben, stehen oben auf der Anzeigemaske. |
-| Bedingt durch Prozedur | Gibt eine Datenbank-Prozedur an, die entscheidet, ob der Hinweis angezeigt werden soll.  
-Die Prozedur kann einen oder zwei Rückgabewerte haben. Der Rückgabewert mit Namen „**result**“ ist vom Typ Integer und muss in jedem Fall zurückgeliefert werden. Ist der Wert größer 0, so wird der Hinweis angezeigt.  
-Der zweite optionale Rückgabewert mit dem Name „**result_text**“ ist vom Typ char(255) und liefert einen Variablen Text zurück, der den unter **Bezeichnung** angegebenen Text überschreibt. |
+| Bedingt durch Prozedur | Gibt eine Datenbank-Prozedur an, die entscheidet, ob der Hinweis angezeigt werden soll.<br>Die Prozedur kann einen oder zwei Rückgabewerte haben. Der Rückgabewert mit Namen „**result**“ ist vom Typ Integer und muss in jedem Fall zurückgeliefert werden. Ist der Wert größer 0, so wird der Hinweis angezeigt.<br>Der zweite optionale Rückgabewert mit dem Name „**result_text**“ ist vom Typ char(255) und liefert einen Variablen Text zurück, der den unter **Bezeichnung** angegebenen Text überschreibt. |
 
 <p class="just-emphasize">Typ</p>
 

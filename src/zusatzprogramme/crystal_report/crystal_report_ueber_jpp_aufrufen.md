@@ -6,44 +6,24 @@ Um einen Report programmgesteuert aufzurufen, existiert ein JPP Objekt mit dem N
 
 | Methode | Parameter | Bedeutung |
 | --- | --- | --- |
-| **Read** | m_AnwRptId | Die Reportdefinition des Reports mit der über m_AnwRptId angegebenen Ident wird gelesen. Liefert FALSE (0) wenn das Einlesen schiefgegangen ist. Muss als erste Anweisung erfolgen!  
- |
-| **FeldFormat** | | Übergibt die Werte der Formelfelder an den Report.  
- |
-| CreatViews | | Alle definierten Views werden angelegt  
- |
-| SetFileName | Filename | Dateinamen überschreiben. Parameter ist FILENAME. Dieser enthält Pfad und Dateiname des Reports.  
- |
-| SetPrinterByNumber | Printernumber | Holt sich anhand der Druckernummer den Drucker, auf dem der Report gedruckt werden soll  
- |
-| GetSelectedPrinter | Feldname | Liefert den Drucker in das durch Feldname bezeichnete Feld zurück.  
- |
-| SetVon | IDX | Überschreibt den Vonwert des Auswahlbereichs. IDX ist dabei der Index, der in der Spalte Idx des Auswahlbereichs steht.  
- |
-| SetBis | IDX | Überschreibt den Biswert des Auswahlbereichs. IDX ist dabei der Index.  
- |
-| SetWaehrung | Waehrung | Überschreibt die Währung, in der der Report ausgegeben wird. Dies gilt nur für bestimmte dafür vorgesehene Reporte.  
- |
-| SetExportPfad | Exportpfad | Überschreibt das in den Stammdaten hinterlegte [Export-Verzeichnis](./crystal_report_definieren/basisdaten.md).  
- |
-| **ListenStart** | | Startet den Report.  
- |
-| Device | Siehe nächste Tabelle.  
- |
-| NurArchivieren  
- | Der Parameter NurArchivieren ist optional. Gibt man hier eine 1 an, wird der Report nicht gedruckt, sondern sofort ins Archiv gestellt.  
- |
-| ASK | Dieser Parameter gibt an, ob vor dem Druck der Drucker abgefragt werden soll. Gibt man 0 an, so erscheint die Druckerabfrage nicht.  
- |
-| FA_Kundnummer | Kundennummer für das Formulararchiv.  
-**HINWEIS:** *Wird dieser oder einer der folgenden drei Parameter angegeben, so werden die CRW-Archivdefinitionen nicht mehr ausgewertet*  
- |
-| FA_Belegnummer | Belegnummer für das Formulararchiv.  
- |
-| FA_Belegdatum | Belegdatum für das Formulararchiv.  
- |
-| FA_Belegreferenz | Belegreferenz (Paginiernummer in der Fibu) für das Formulararchiv. Wenn leer, wird wie bisher die RRPTID eingetragen.  
- |
+| **Read** | m_AnwRptId | Die Reportdefinition des Reports mit der über m_AnwRptId angegebenen Ident wird gelesen. Liefert FALSE (0) wenn das Einlesen schiefgegangen ist. Muss als erste Anweisung erfolgen!<br> |
+| **FeldFormat** | | Übergibt die Werte der Formelfelder an den Report.<br> |
+| CreatViews | | Alle definierten Views werden angelegt<br> |
+| SetFileName | Filename | Dateinamen überschreiben. Parameter ist FILENAME. Dieser enthält Pfad und Dateiname des Reports.<br> |
+| SetPrinterByNumber | Printernumber | Holt sich anhand der Druckernummer den Drucker, auf dem der Report gedruckt werden soll<br> |
+| GetSelectedPrinter | Feldname | Liefert den Drucker in das durch Feldname bezeichnete Feld zurück.<br> |
+| SetVon | IDX | Überschreibt den Vonwert des Auswahlbereichs. IDX ist dabei der Index, der in der Spalte Idx des Auswahlbereichs steht.<br> |
+| SetBis | IDX | Überschreibt den Biswert des Auswahlbereichs. IDX ist dabei der Index.<br> |
+| SetWaehrung | Waehrung | Überschreibt die Währung, in der der Report ausgegeben wird. Dies gilt nur für bestimmte dafür vorgesehene Reporte.<br> |
+| SetExportPfad | Exportpfad | Überschreibt das in den Stammdaten hinterlegte [Export-Verzeichnis](./crystal_report_definieren/basisdaten.md).<br> |
+| **ListenStart** | | Startet den Report.<br> |
+| Device | Siehe nächste Tabelle.<br> |
+| NurArchivieren<br> | Der Parameter NurArchivieren ist optional. Gibt man hier eine 1 an, wird der Report nicht gedruckt, sondern sofort ins Archiv gestellt.<br> |
+| ASK | Dieser Parameter gibt an, ob vor dem Druck der Drucker abgefragt werden soll. Gibt man 0 an, so erscheint die Druckerabfrage nicht.<br> |
+| FA_Kundnummer | Kundennummer für das Formulararchiv.<br>**HINWEIS:** *Wird dieser oder einer der folgenden drei Parameter angegeben, so werden die CRW-Archivdefinitionen nicht mehr ausgewertet*<br> |
+| FA_Belegnummer | Belegnummer für das Formulararchiv.<br> |
+| FA_Belegdatum | Belegdatum für das Formulararchiv.<br> |
+| FA_Belegreferenz | Belegreferenz (Paginiernummer in der Fibu) für das Formulararchiv. Wenn leer, wird wie bisher die RRPTID eingetragen.<br> |
 
 Folgende Ausgabemöglichkeiten (Device) können bei Listenstart angegeben werden:
 

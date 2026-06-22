@@ -38,9 +38,7 @@ In der 1. Variante sind alle Belege zu sehen, die innerhalb des gewählten Profi
 | Station | Von… Bis… |
 | Periode | Von… Bis… (Monatszahl) |
 | Unterklasse | Von… Bis… |
-| EK/VK | 0: Alles  
-1: Verkauf  
-2: Einkauf |
+| EK/VK | 0: Alles<br>1: Verkauf<br>2: Einkauf |
 | Kundengruppe | % |
 | Oberkunde | Von… Bis… |
 

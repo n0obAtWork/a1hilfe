@@ -22,14 +22,8 @@ Besteht keine Autorisierung durch den bestimmenden Rollenkontext wird das Laufze
 | Felder |
 | --- |
 | Pflegerstamm | [Pflegerstamm](../../../zusatzprogramme/pflegerstamm.md) |
-| Besitzer | Dieses Feld wird z.Z. nicht angezeigt.  
-Momentan sind keine anderen Besitzer von Pflegerstämmen als AMIC vorgesehen. |
-| Methode | Pflegerstamm-Methode  
-Mögliche Ausprägungen sind  
-• Neu  
-• Ändern  
-• Ansehen  
-• Löschen |
+| Besitzer | Dieses Feld wird z.Z. nicht angezeigt.<br>Momentan sind keine anderen Besitzer von Pflegerstämmen als AMIC vorgesehen. |
+| Methode | Pflegerstamm-Methode<br>Mögliche Ausprägungen sind<br>• Neu<br>• Ändern<br>• Ansehen<br>• Löschen |
 | Optionbox | Die Optionbox des bestimmenden Kontextes |
 | Funktion | Die Funktion des bestimmenden Kontextes |
 | Rolle | Die Rolle des bestimmenden Kontextes |
@@ -41,11 +35,7 @@ Mögliche Ausprägungen sind
 
 | Suchkriterien | |
 | --- | --- |
-| Suchen | Sucht in den Feldern  
-• Pflegerstamm  
-• Optionbox  
-• Funktion  
-• Rolle |
+| Suchen | Sucht in den Feldern<br>• Pflegerstamm<br>• Optionbox<br>• Funktion<br>• Rolle |
 | Methode | Sucht im Feld „Methode“ |
 
 </details>

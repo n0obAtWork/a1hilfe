@@ -94,13 +94,9 @@ Funktionalität der Maske
 
 | Funktion | Ansteuerung | Funktionalität |
 | --- | --- | --- |
-| Prozedur bearbeiten | Button (ausgewählte Zeile)  
-Doppelklick auf Prozedur | Sollte eine private Prozedur hinterlegt sein, so wird diese zum bearbeiten geöffnet.  
-Sollte eine AMIC-Prozedur ausgewählt sein, kann (nach Abfrage) automatisch eine Kopie zum bearbeiten angelegt werden. Diese Kopie wird nach dem Speichern automatisch auf der Maske eingetragen. |
-| Prozedur testen | Button (ausgewählte Zeile) | Im unteren Grid werden die Daten angezeigt, welche auch in der EDI-Nachricht erscheinen sollten (dies ersetzt keine Testnachrichten). Als Parameter dient die passende eingetragene Test-Id.  
-Nicht eingetragene Segmente werden automatisch mit der Standardprozedur vorbelegt. |
-| View bearbeiten | Button (ausgewählte Zeile)  
-Doppelklick auf View | Analog zu „Prozedur bearbeiten“. |
+| Prozedur bearbeiten | Button (ausgewählte Zeile)<br>Doppelklick auf Prozedur | Sollte eine private Prozedur hinterlegt sein, so wird diese zum bearbeiten geöffnet.<br>Sollte eine AMIC-Prozedur ausgewählt sein, kann (nach Abfrage) automatisch eine Kopie zum bearbeiten angelegt werden. Diese Kopie wird nach dem Speichern automatisch auf der Maske eingetragen. |
+| Prozedur testen | Button (ausgewählte Zeile) | Im unteren Grid werden die Daten angezeigt, welche auch in der EDI-Nachricht erscheinen sollten (dies ersetzt keine Testnachrichten). Als Parameter dient die passende eingetragene Test-Id.<br>Nicht eingetragene Segmente werden automatisch mit der Standardprozedur vorbelegt. |
+| View bearbeiten | Button (ausgewählte Zeile)<br>Doppelklick auf View | Analog zu „Prozedur bearbeiten“. |
 | View testen | Button (ausgewählte Zeile) | Im unteren Grid werden die Daten angezeigt, welche die View zurück gibt. Als Parameter dient die jeweils eingetragene Test-Id. |
 
 Segment-Prozeduren im EDI-Profil eintragen
@@ -113,8 +109,5 @@ Funktionalität der Maske
 
 | Funktion | Ansteuerung | Funktionalität |
 | --- | --- | --- |
-| Prozedur bearbeiten | Button (ausgewählte Zeile)  
-Doppelklick auf Prozedur | Sollte eine private Prozedur hinterlegt sein, so wird diese zum bearbeiten geöffnet.  
-Sollte eine AMIC-Prozedur ausgewählt sein, kann (nach Abfrage) automatisch eine Kopie zum bearbeiten angelegt werden. Diese Kopie wird nach dem Speichern automatisch auf der Maske eingetragen. |
-| Prozedur testen | Button (ausgewählte Zeile)  
-Doppelklick auf Segment | Im rechten Grid werden die Daten angezeigt, welche auch in der EDI-Nachricht erscheinen. Der in-Parameter in_variante,in_unterposition und die passende Id holt sich das System aus allen eingetragenen Abschnitts-Prozeduren. |
+| Prozedur bearbeiten | Button (ausgewählte Zeile)<br>Doppelklick auf Prozedur | Sollte eine private Prozedur hinterlegt sein, so wird diese zum bearbeiten geöffnet.<br>Sollte eine AMIC-Prozedur ausgewählt sein, kann (nach Abfrage) automatisch eine Kopie zum bearbeiten angelegt werden. Diese Kopie wird nach dem Speichern automatisch auf der Maske eingetragen. |
+| Prozedur testen | Button (ausgewählte Zeile)<br>Doppelklick auf Segment | Im rechten Grid werden die Daten angezeigt, welche auch in der EDI-Nachricht erscheinen. Der in-Parameter in_variante,in_unterposition und die passende Id holt sich das System aus allen eingetragenen Abschnitts-Prozeduren. |

@@ -252,9 +252,7 @@ Rückgabewerte der Prozedur
 
 | Parameter | Bedeutung |
 | --- | --- |
-| retval | Gibt an, ob das Feld validiert werden darf  
-1. 0 False  
-2. 1 True |
+| retval | Gibt an, ob das Feld validiert werden darf<br>1. 0 False<br>2. 1 True |
 | retvaltext | Hier kann noch ein Fehlertext angegeben werden, der im False-Fall mit ausgegeben werden soll. |
 
 Beispiel Einer privaten Prozedur, diese gibt immer ein TRUE zurück.
@@ -400,8 +398,7 @@ Rückgabewerte der Prozedur
 | Hinweis | Char(1000) | Auszugebender Text |
 | Farbe | Char(20) | Hintergrundfarbe |
 | Schriftfarbe | Char(40) | Farbe der Schrift |
-| Bitmap | integer | • 0 zeigt das Ampelbild nicht an  
-• 1 zeigt das Ampelbild an |
+| Bitmap | integer | • 0 zeigt das Ampelbild nicht an<br>• 1 zeigt das Ampelbild an |
 
 Private Prozedur Verkaufsbeschränkung
 

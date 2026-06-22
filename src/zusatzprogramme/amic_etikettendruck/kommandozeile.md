@@ -12,23 +12,13 @@ welcome entw pda=lila ID1=LILAID ID2=1 ProcedureCall="...(...)"
 
 | Parameter | Beschreibung |
 | --- | --- |
-| PDA | Weist A.eins an, die folgende Maske direkt zu starten. Wird als Maske ETIDR angegeben, so wird versucht, den unter ID1 ausgewählte Report direkt zu drucken.  
- |
-| ID1 | Funktionsident des zu startenden Reports  
- |
-| ID2 | Besitzer des Reports. Bei privaten Reporten immer 1  
- |
-| PrinterConfig  
-*(veraltet)* | Dieser Parameter wird nicht mehr unterstütz. Wird er noch verwendet, so führt er zu einem Eintrag im Fehlerprotokoll. Der Report/ das Etikett wird trotzdem gedruckt. |
-| PrinterProfil  
-(Optional) | Löst den Parameter PrinterConfig ab. Man gibt hier einfach das [Profil](./definition_in_a_eins.md#Druckerprofile) an, dass man bei der Bearbeitung der Definitionen in A.eins erstellt hat.  
- |
-| ProcedureCall | Dieser Parameter gibt an, was überhaupt gedruckt werden soll. Das Format muss so sein, wie bei Prozeduren der [Aufruf für bearbeiten](./definition_in_a_eins.md#AufrufZumBearbeiten) eingetragen wurde.  
- |
-| BelegVId  
-*(Optional)* | Mit diesem Parameter kann die „V_ID“ eines Vorgangs übergeben werden. Der Report wird dann erst gedruckt, wenn die Verarbeitung des Beleges durch den Mandantenserver erfolgt ist.  
-Der Parameter darf nicht verwendet werden, wenn der Aufruf durch den Mandantenserver erfolgt. Denn Mandantenserver würde sich selbst blockieren.  
- |
+| PDA | Weist A.eins an, die folgende Maske direkt zu starten. Wird als Maske ETIDR angegeben, so wird versucht, den unter ID1 ausgewählte Report direkt zu drucken.<br> |
+| ID1 | Funktionsident des zu startenden Reports<br> |
+| ID2 | Besitzer des Reports. Bei privaten Reporten immer 1<br> |
+| PrinterConfig<br>*(veraltet)* | Dieser Parameter wird nicht mehr unterstütz. Wird er noch verwendet, so führt er zu einem Eintrag im Fehlerprotokoll. Der Report/ das Etikett wird trotzdem gedruckt. |
+| PrinterProfil<br>(Optional) | Löst den Parameter PrinterConfig ab. Man gibt hier einfach das [Profil](./definition_in_a_eins.md#Druckerprofile) an, dass man bei der Bearbeitung der Definitionen in A.eins erstellt hat.<br> |
+| ProcedureCall | Dieser Parameter gibt an, was überhaupt gedruckt werden soll. Das Format muss so sein, wie bei Prozeduren der [Aufruf für bearbeiten](./definition_in_a_eins.md#AufrufZumBearbeiten) eingetragen wurde.<br> |
+| BelegVId<br>*(Optional)* | Mit diesem Parameter kann die „V_ID“ eines Vorgangs übergeben werden. Der Report wird dann erst gedruckt, wenn die Verarbeitung des Beleges durch den Mandantenserver erfolgt ist.<br>Der Parameter darf nicht verwendet werden, wenn der Aufruf durch den Mandantenserver erfolgt. Denn Mandantenserver würde sich selbst blockieren.<br> |
 
 Beispiel:
 

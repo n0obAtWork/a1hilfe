@@ -10,13 +10,8 @@ Wechselgruppen dienen der Festlegung, ob es sich um einen Besitz- oder Schuldwec
 
 | | Beschreibung |
 | --- | --- |
-| Wechselgruppe | lfd. Nummer  
- |
-| Bezeichnung | ausführliche Bezeichnung  
- |
-| Wechselart | Auswahl mit **F3** zwischen Besitz- und Schuldwechsel  
- |
-| Wechselkl. Abr. | Auswahl mit F3 aus vorher eingerichteten [Wechselkosten](./wechselkosten.md) für die Abrechnung  
- |
-| Wechselkl. Einr. | Auswahl mit F3 aus vorher eingerichteten [Wechselkosten](./wechselkosten.md) für die Weitergabe  
- |
+| Wechselgruppe | lfd. Nummer<br> |
+| Bezeichnung | ausführliche Bezeichnung<br> |
+| Wechselart | Auswahl mit **F3** zwischen Besitz- und Schuldwechsel<br> |
+| Wechselkl. Abr. | Auswahl mit F3 aus vorher eingerichteten [Wechselkosten](./wechselkosten.md) für die Abrechnung<br> |
+| Wechselkl. Einr. | Auswahl mit F3 aus vorher eingerichteten [Wechselkosten](./wechselkosten.md) für die Weitergabe<br> |

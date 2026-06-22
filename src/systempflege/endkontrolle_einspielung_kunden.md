@@ -12,14 +12,10 @@ Mit **F5** können Datensätze, die über den Stammdatenimport ins System gekomm
 
 | Eingabefelder | Bedeutung |
 | --- | --- |
-| Satznummer | Automatisch generierte Zahl  
- |
-| Kundennummer | Gewünschte Kundennummer. Rechts davon ein Feld für die gewünschte Kundenbezeichnung  
- |
-| Kundentyp | Mittels F3 kann der Kundentyp ausgewählt werden.  
- |
-| Musterkunde | Mittels F3 kann ein Musterkunde ausgewählt werden.  
- |
+| Satznummer | Automatisch generierte Zahl<br> |
+| Kundennummer | Gewünschte Kundennummer. Rechts davon ein Feld für die gewünschte Kundenbezeichnung<br> |
+| Kundentyp | Mittels F3 kann der Kundentyp ausgewählt werden.<br> |
+| Musterkunde | Mittels F3 kann ein Musterkunde ausgewählt werden.<br> |
 
 Die Kundennummer ist ein Pflichtfeld. Wird eine schon vorhandenen Kundennummer angegeben, so wird durch den Import der Kunde mit den Daten aus dem Import aktualisiert.
 
@@ -37,78 +33,47 @@ Musterkunden werden in **[KU]** **der Variante Musterkunde angelegt.**
 
 | Eingabefelder | Bedeutung |
 | --- | --- |
-| Anrede | Anrede des Kunden  
- |
-| Vorname | Vorname des Kunden  
- |
-| Name | Nachname des Kunden  
- |
-| Staat | Staat des Kunden  
- |
-| Postleitzahl | Postleitzahl des Kunden  
- |
-| Ort | Ort des Kunden  
- |
-| Ortsteil | Ortsteil des Kunden  
- |
-| Straße | Straße des Kunden  
- |
-| Telefon | Telefonnummer des Kunden  
- |
-| Telefax | Telefaxnummer des Kunden  
- |
+| Anrede | Anrede des Kunden<br> |
+| Vorname | Vorname des Kunden<br> |
+| Name | Nachname des Kunden<br> |
+| Staat | Staat des Kunden<br> |
+| Postleitzahl | Postleitzahl des Kunden<br> |
+| Ort | Ort des Kunden<br> |
+| Ortsteil | Ortsteil des Kunden<br> |
+| Straße | Straße des Kunden<br> |
+| Telefon | Telefonnummer des Kunden<br> |
+| Telefax | Telefaxnummer des Kunden<br> |
 
 <p class="just-emphasize">Tabreiter Zusatzinfo/Bank</p>
 
 | Eingabefelder | Bedeutung |
 | --- | --- |
-| Kurzname | Kurzname des Kunden  
- |
-| Matchcode | Matchcode des Kunden  
- |
-| Zusatz | Zusatzinformation zum Kunden  
- |
-| Partner1 | Partner1 des Kunden  
- |
-| Partner2 | Partner2 des Kunden  
- |
-| Bankleitzahl | Bankleitzahl des Kunden  
- |
-| Bankname | Mittels F3 kann der Bankname des Kunden ausgewählt werden.  
- |
-| Bankkonto | Bankkonto des Kunden  
- |
+| Kurzname | Kurzname des Kunden<br> |
+| Matchcode | Matchcode des Kunden<br> |
+| Zusatz | Zusatzinformation zum Kunden<br> |
+| Partner1 | Partner1 des Kunden<br> |
+| Partner2 | Partner2 des Kunden<br> |
+| Bankleitzahl | Bankleitzahl des Kunden<br> |
+| Bankname | Mittels F3 kann der Bankname des Kunden ausgewählt werden.<br> |
+| Bankkonto | Bankkonto des Kunden<br> |
 
 <p class="just-emphasize">Tabreiter FiBu-Daten</p>
 
 | Eingabefelder | Bedeutung |
 | --- | --- |
-| Mahnsperre | Mittels F3 kann eine Mahnsperre eingerichtet werden.  
- |
-| Zinssperre | Mittels F3 kann eine Zinssperre eingerichtet werden.  
- |
-| Kokore-Kennz | Mittels F3 kann eingerichtet werden, ob der Kunde Kontokorrent ist.  
- |
-| Erlösklasse | Mittels F3 kann die Erlösklasse des Kunden ausgewählt werden.  
- |
-| Ford.grp. | Mittels F3 kann die Forderungsgruppe des Kunden ausgewählt werden.  
- |
-| Mahngruppe | Mittels F3 kann die Mahngruppe des Kunde ausgewählt werden.  
- |
-| ZahlartDebitor | Mittels F3 kann der ZahlartDebitor des Kunden ausgewählt werden.  
- |
-| ZahlartKredit | Mittels F3 kann der ZahlartKredit des Kunden ausgewählt werden.  
- |
-| Zinsgruppe | Mittels F3 kann die Zinsgruppe des Kunden ausgewählt werden  
- |
-| OP Art | Mittels F3 kann die OP Art des Kunden ausgewählt werden.  
- |
-| Kredit | Kreditlimit des Kunden  
- |
-| SollZins Bagatell | Sollzins des Kunden  
- |
-| HabenZins Bagate | Habenzins des Kunden  
- |
+| Mahnsperre | Mittels F3 kann eine Mahnsperre eingerichtet werden.<br> |
+| Zinssperre | Mittels F3 kann eine Zinssperre eingerichtet werden.<br> |
+| Kokore-Kennz | Mittels F3 kann eingerichtet werden, ob der Kunde Kontokorrent ist.<br> |
+| Erlösklasse | Mittels F3 kann die Erlösklasse des Kunden ausgewählt werden.<br> |
+| Ford.grp. | Mittels F3 kann die Forderungsgruppe des Kunden ausgewählt werden.<br> |
+| Mahngruppe | Mittels F3 kann die Mahngruppe des Kunde ausgewählt werden.<br> |
+| ZahlartDebitor | Mittels F3 kann der ZahlartDebitor des Kunden ausgewählt werden.<br> |
+| ZahlartKredit | Mittels F3 kann der ZahlartKredit des Kunden ausgewählt werden.<br> |
+| Zinsgruppe | Mittels F3 kann die Zinsgruppe des Kunden ausgewählt werden<br> |
+| OP Art | Mittels F3 kann die OP Art des Kunden ausgewählt werden.<br> |
+| Kredit | Kreditlimit des Kunden<br> |
+| SollZins Bagatell | Sollzins des Kunden<br> |
+| HabenZins Bagate | Habenzins des Kunden<br> |
 
 Die Forderungsgruppe ist ein Pflichtfeld beim Kunden und muss ausgefüllt sein, damit der Import funktioniert. Ansonsten gibt es beim Import den Fehler, dass die Daten nicht plausibel sind.
 
@@ -116,20 +81,13 @@ Die Forderungsgruppe ist ein Pflichtfeld beim Kunden und muss ausgefüllt sein, 
 
 | Eingabefelder | Bedeutung |
 | --- | --- |
-| Steuergruppe | Mittels F3 kann die Steuergruppe des Kunden ausgewählt werden.  
- |
-| Fakturiergruppe | Mittels F3 kann die Fakturiergruppe des Kunden ausgewählt werden.  
- |
-| Vertretergruppe | Mittels F3 kann die Vertretergruppe des Kunden ausgewählt werden.  
- |
-| Zahlbed. EK | Mittels F3 kann die Zahlungsbedingung im Einkauf für den Kunden ausgewählt werden.  
- |
-| Zahlbed. VK | Mittels F3 kann die Zahlungsbedingung im Verkauf für den Kunden ausgewählt werden.  
- |
-| UST-Kennz | Umsatzsteuerkennzeichen des Kunden  
- |
-| Waehrung | Mittels F3 kann die Währung des Kunden ausgewählt werden.  
- |
+| Steuergruppe | Mittels F3 kann die Steuergruppe des Kunden ausgewählt werden.<br> |
+| Fakturiergruppe | Mittels F3 kann die Fakturiergruppe des Kunden ausgewählt werden.<br> |
+| Vertretergruppe | Mittels F3 kann die Vertretergruppe des Kunden ausgewählt werden.<br> |
+| Zahlbed. EK | Mittels F3 kann die Zahlungsbedingung im Einkauf für den Kunden ausgewählt werden.<br> |
+| Zahlbed. VK | Mittels F3 kann die Zahlungsbedingung im Verkauf für den Kunden ausgewählt werden.<br> |
+| UST-Kennz | Umsatzsteuerkennzeichen des Kunden<br> |
+| Waehrung | Mittels F3 kann die Währung des Kunden ausgewählt werden.<br> |
 
 Die Steuergruppe ist ein Pflichtfeld beim Kunden und muss ausgefüllt sein, damit der Import funktioniert. Ansonsten gibt es beim Import den Fehler, dass die Daten nicht plausibel sind.
 

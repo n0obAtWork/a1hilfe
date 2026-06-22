@@ -12,37 +12,15 @@ Um eine Kostenstelle als Verteilkostenstelle einzurichten, müssen folgende Eing
 
 | | Beschreibung |
 | --- | --- |
-| Verteilkostenstellen  
-    
- | Nummer der Verteilkostenstelle |
-| Bezeichnung | Bezeichnung der Kostenstelle (sprechende und eindeutige Namen erleichtern hier die spätere Suche (Bsp.: KFZ-KI-QM-12345).  
- |
-| Matchcode | Kurzbezeichnung der Kostenstelle  
- |
-| Erfassungssperre  
-    
- | Diese Sperre gilt für die Belegerfassung der Finanzbuchhaltung. Steht diese auf „Ja“, so kann diese Verteilkostenstelle dort nicht mehr verwendet werden. Auch ist es nicht mehr möglich diese Kostenstelle erneut in einer Verteilkostenstelle oder in den Kostenstellengruppen zu verwenden. Ist sie bereits in irgendeiner Verteilkostenstelle eingetragen, so erscheint die Meldung:  
-![](../../ImagesExt/image8_680.png)  
-Die hier angesprochenen Arbeitsschritte müssen manuell durchgeführt werden.  
-Wird in einem Beleg eine gesperrte Kostenstelle verwendet - dies ist z.B. dann möglich, wenn die Sperre erst nach der Verwendung der Kostenstelle gesetzt wurde -, so wird der Beleg nicht gebucht. Es erscheint die Meldung „**Kostenstelle … ist gesperrt!**“ im Buchungsprotokoll.  
- |
-| Verteilung 100% | Bei Anwahl dieses Punktes wird überprüft, ob die hier eingegebene Verteilung 100% ergibt. Ist das Kennzeichen „Manuell änderbar“ gesetzt, so wird auch bei Änderung der Werte in der Belegerfassung auf 100% geprüft.  
-   
- |
-| Manuell änderbar  
-    
- | Bei Einstellung dieser Option können bei der Belegerfassung noch Einstellungen vorgenommen werden.  
- |
-| Kostenstelle  
-    
- | Hier werden die Kostenstellen erfasst, auf die sich die Verteilkostenstelle aufteilt. Mit F3 kann hierbei aus den im Kostenstellenstamm erfassten ausgewählt werden. Die Bezeichnung wird dann mit der aus dem Kostenstellenstamm belegt. Die Anteile werden dann in der gewünschten Prozentzahl eingegeben.  
- |
-| Periode  
-    
- | Periode, in der die Kostenstelleneinstellungen gelten. Es gibt eine Standard-Einstellung, die solange gilt, wie keine extra Perioden eingerichtet sind. Man kann hier also z.B. für Saisongeschäfte andere Verteilungen angeben.  
- |
-| Gültigkeitsbereich | Datum, ab dem die Kostenstelleneinstellungen gelten sollen.  
- |
+| Verteilkostenstellen<br><br> | Nummer der Verteilkostenstelle |
+| Bezeichnung | Bezeichnung der Kostenstelle (sprechende und eindeutige Namen erleichtern hier die spätere Suche (Bsp.: KFZ-KI-QM-12345).<br> |
+| Matchcode | Kurzbezeichnung der Kostenstelle<br> |
+| Erfassungssperre<br><br> | Diese Sperre gilt für die Belegerfassung der Finanzbuchhaltung. Steht diese auf „Ja“, so kann diese Verteilkostenstelle dort nicht mehr verwendet werden. Auch ist es nicht mehr möglich diese Kostenstelle erneut in einer Verteilkostenstelle oder in den Kostenstellengruppen zu verwenden. Ist sie bereits in irgendeiner Verteilkostenstelle eingetragen, so erscheint die Meldung:<br>![](../../ImagesExt/image8_680.png)<br>Die hier angesprochenen Arbeitsschritte müssen manuell durchgeführt werden.<br>Wird in einem Beleg eine gesperrte Kostenstelle verwendet - dies ist z.B. dann möglich, wenn die Sperre erst nach der Verwendung der Kostenstelle gesetzt wurde -, so wird der Beleg nicht gebucht. Es erscheint die Meldung „**Kostenstelle … ist gesperrt!**“ im Buchungsprotokoll.<br> |
+| Verteilung 100% | Bei Anwahl dieses Punktes wird überprüft, ob die hier eingegebene Verteilung 100% ergibt. Ist das Kennzeichen „Manuell änderbar“ gesetzt, so wird auch bei Änderung der Werte in der Belegerfassung auf 100% geprüft.<br> <br> |
+| Manuell änderbar<br><br> | Bei Einstellung dieser Option können bei der Belegerfassung noch Einstellungen vorgenommen werden.<br> |
+| Kostenstelle<br><br> | Hier werden die Kostenstellen erfasst, auf die sich die Verteilkostenstelle aufteilt. Mit F3 kann hierbei aus den im Kostenstellenstamm erfassten ausgewählt werden. Die Bezeichnung wird dann mit der aus dem Kostenstellenstamm belegt. Die Anteile werden dann in der gewünschten Prozentzahl eingegeben.<br> |
+| Periode<br><br> | Periode, in der die Kostenstelleneinstellungen gelten. Es gibt eine Standard-Einstellung, die solange gilt, wie keine extra Perioden eingerichtet sind. Man kann hier also z.B. für Saisongeschäfte andere Verteilungen angeben.<br> |
+| Gültigkeitsbereich | Datum, ab dem die Kostenstelleneinstellungen gelten sollen.<br> |
 
 Löschen der Verteilkostenstellen
 

@@ -10,16 +10,10 @@ Das Design und die Eingrenzung der Daten der Reporte werden in A.eins vom Progra
 
 | Feld | Bedeutung |
 | --- | --- |
-| Ident | Die eindeutige Identifikation des Reports. Diese ist vierzig Stellen lang. Bei der Erfassung wird geprüft, ob ein Report mit dieser Ident existiert und ggf. eine Meldung ausgegeben.  
-Mit der Funktion aw_list kann der Report dann aufgerufen werden. Man gibt dazu diese Ident als ersten Parameter an.  
-Private Reporte müssen mit **PR_** beginnen.  
- |
-| Name/Titel | Titel des Reports, wie er in der Auswahlliste erscheint. Dieser Titel wird über die Formel „TITEL“ an den Report übergeben und kann dort z.B. als Überschrift verwendet werden.  
- |
-| Aktiver Report | Dies ist nur ein Anzeigefeld. Der unter **Reportdateien** aktivierte Report wird hier angezeigt.  
- |
-| NICHT übersetzen | Reporte, die nicht in die Übersetzung mit einfließen sollen ( z.B. technische Reporte ), können hier von der Übersetzung ausgenommen werden. Dazu ein **Ja** eintragen.  
- |
+| Ident | Die eindeutige Identifikation des Reports. Diese ist vierzig Stellen lang. Bei der Erfassung wird geprüft, ob ein Report mit dieser Ident existiert und ggf. eine Meldung ausgegeben.<br>Mit der Funktion aw_list kann der Report dann aufgerufen werden. Man gibt dazu diese Ident als ersten Parameter an.<br>Private Reporte müssen mit **PR_** beginnen.<br> |
+| Name/Titel | Titel des Reports, wie er in der Auswahlliste erscheint. Dieser Titel wird über die Formel „TITEL“ an den Report übergeben und kann dort z.B. als Überschrift verwendet werden.<br> |
+| Aktiver Report | Dies ist nur ein Anzeigefeld. Der unter **Reportdateien** aktivierte Report wird hier angezeigt.<br> |
+| NICHT übersetzen | Reporte, die nicht in die Übersetzung mit einfließen sollen ( z.B. technische Reporte ), können hier von der Übersetzung ausgenommen werden. Dazu ein **Ja** eintragen.<br> |
 
 <p class="siehe-auch">Siehe auch:</p>
 

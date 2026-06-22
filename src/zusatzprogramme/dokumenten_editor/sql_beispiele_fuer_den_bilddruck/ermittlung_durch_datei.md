@@ -17,8 +17,7 @@
 | emf | | Windows Enhanced Metafile |
 | png | | Portable Network Graphics |
 | ico | | Windows-Format für Icons |
-| tif | tiff | Tagged Image File Format  
-TIF und TIFF sind genau dasselbe. TIF wird in älteren Dateisystemen verwendet, die die 8.3-Namenskonvention verwenden, während TIFF in neueren Dateisystemen verwendet wird, die lange Dateinamen erlauben. |
+| tif | tiff | Tagged Image File Format<br>TIF und TIFF sind genau dasselbe. TIF wird in älteren Dateisystemen verwendet, die die 8.3-Namenskonvention verwenden, während TIFF in neueren Dateisystemen verwendet wird, die lange Dateinamen erlauben. |
 
 <details>
 <summary>Beispiel für Codetype 'File'</summary>

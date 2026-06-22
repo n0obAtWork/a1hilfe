@@ -28,13 +28,7 @@ Einrichterparameter:
 
 | | Beschreibung |
 | --- | --- |
-| Betragsrundung bei Sollbelegen / Habenbelegen | Hier lässt sich einstellen, auf wie viel Stellen nach dem Komma der Zahlungsbetrag gerundet werden soll. Die Differenz wird dann dem Skontobetrag zugerechnet. Diese Einstellung kann getrennt für Soll und Habenbelege vorgenommen werden.  
-    
- |
-| Skonto trotz Datumsüberschreitung festlegen | Diese Option sorgt dafür, ob der Skonto auch bei abgelaufenem Skontodatum angezeigt wird oder nicht.  
-    
- |
-| Mehrfache Belegauswahl zulassen?" | Hier kann festgelegt werden, ob man gleichzeitig einen oder mehrere Belege auswählen will.  
- |
-| Stichtag und Periode prüfen | Wird hier eine Art der Prüfung angegeben, die mit **F3** ausgewählt werden kann, so wird beim Betreten der Erfassungsmaske zuerst die Periode abgefragt. Das Datum, welches man anschließend als Stichtag angibt wird dann entsprechend der Einstellung getestet.  
- |
+| Betragsrundung bei Sollbelegen / Habenbelegen | Hier lässt sich einstellen, auf wie viel Stellen nach dem Komma der Zahlungsbetrag gerundet werden soll. Die Differenz wird dann dem Skontobetrag zugerechnet. Diese Einstellung kann getrennt für Soll und Habenbelege vorgenommen werden.<br><br> |
+| Skonto trotz Datumsüberschreitung festlegen | Diese Option sorgt dafür, ob der Skonto auch bei abgelaufenem Skontodatum angezeigt wird oder nicht.<br><br> |
+| Mehrfache Belegauswahl zulassen?" | Hier kann festgelegt werden, ob man gleichzeitig einen oder mehrere Belege auswählen will.<br> |
+| Stichtag und Periode prüfen | Wird hier eine Art der Prüfung angegeben, die mit **F3** ausgewählt werden kann, so wird beim Betreten der Erfassungsmaske zuerst die Periode abgefragt. Das Datum, welches man anschließend als Stichtag angibt wird dann entsprechend der Einstellung getestet.<br> |

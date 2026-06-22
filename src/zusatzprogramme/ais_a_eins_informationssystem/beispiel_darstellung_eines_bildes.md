@@ -17,24 +17,12 @@ Um ein Bild des Artikels darzustellen, sind einige Einträge Notwendig. Der Name
 
 | | Beschreibung |
 | --- | --- |
-| Feldname  
- | Auch für Label, die nicht aus der Datenbank gefüllt werden, müssen Feldnamen vergeben werden. Hier muss der Label den Namen des Feldes aus der Tabelle Artikel erhalten, der die Imageid enthält: **Artikelimage**  
- |
-| Feldtyp  
- | Der Feldtyp für die Imageid muss natürlich **Label** sein.  
- |
-| Datenformat  
- | **Image**  
- |
-| Zeile und Spalte  
- | Die Position kann entweder über ein Raster oder pixelgenau angegeben werden. Sollen es Pixel sein, so ist ein kleines p an die Zahl anzuhängen (z.B.: 125p). In unserem Beispiel sollen die Felder sich am Raster orientieren, also Spalte 1 und Zeile 1.  
- |
-| Länge  
- | Wie viel Zeichen darf der Label lang sein. Die Länge ist relativ unwichtig, da das Bild immer so groß dargestellt wird, wie es ist. |
-| Tipptext  
- | Ist ein Hinweistext, der erscheint, wenn der Mauszeiger über diesem Feld steht. Wenn er leer gelassen wird, so wird der Text  
-„Mit Doppelklick zum Bild bearbeiten…“  
-eingeblendet. |
+| Feldname<br> | Auch für Label, die nicht aus der Datenbank gefüllt werden, müssen Feldnamen vergeben werden. Hier muss der Label den Namen des Feldes aus der Tabelle Artikel erhalten, der die Imageid enthält: **Artikelimage**<br> |
+| Feldtyp<br> | Der Feldtyp für die Imageid muss natürlich **Label** sein.<br> |
+| Datenformat<br> | **Image**<br> |
+| Zeile und Spalte<br> | Die Position kann entweder über ein Raster oder pixelgenau angegeben werden. Sollen es Pixel sein, so ist ein kleines p an die Zahl anzuhängen (z.B.: 125p). In unserem Beispiel sollen die Felder sich am Raster orientieren, also Spalte 1 und Zeile 1.<br> |
+| Länge<br> | Wie viel Zeichen darf der Label lang sein. Die Länge ist relativ unwichtig, da das Bild immer so groß dargestellt wird, wie es ist. |
+| Tipptext<br> | Ist ein Hinweistext, der erscheint, wenn der Mauszeiger über diesem Feld steht. Wenn er leer gelassen wird, so wird der Text<br>„Mit Doppelklick zum Bild bearbeiten…“<br>eingeblendet. |
 
 <p class="just-emphasize">Register Datenbeschreibung:</p>
 
@@ -62,7 +50,6 @@ Nun fehlt noch die Zuweisung der Gruppe zur Maske. Dazu wechselt man in die Vari
 | Maske | **DHARTNEU** |
 | Gruppe | **Artikelbild** |
 | Haupttabelle | Bleibt in diesem Fall leer. |
-| Ident Masken-Feldname/Wert | **h.ArtikelId$**  
-**ACHTUNG:** *Auf Groß- und Kleinschreibung achten!* |
+| Ident Masken-Feldname/Wert | **h.ArtikelId$**<br>**ACHTUNG:** *Auf Groß- und Kleinschreibung achten!* |
 | Darstellung | **auf dem Register** |
 | Bezeichnung/Register | **Grafik** |

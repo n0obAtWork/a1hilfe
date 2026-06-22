@@ -17,6 +17,4 @@
 
 | **Bereiche/Profile** | |
 | --- | --- |
-| Filialnummer | Ermöglicht Bereichssuche nach Filialnummern  
-\- von  
-\- bis |
+| Filialnummer | Ermöglicht Bereichssuche nach Filialnummern<br>\- von<br>\- bis |

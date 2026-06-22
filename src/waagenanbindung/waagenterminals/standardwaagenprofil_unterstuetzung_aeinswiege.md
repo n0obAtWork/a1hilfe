@@ -62,82 +62,18 @@ XML-Session-Beschreibung:
 
 | Session-Attribut | Beispiel | Anmerkung |
 | --- | --- | --- |
-| PortName | COM1 | Legt den Anschluss für die Kommunikation fest, einschließlich  
-aller verfügbaren COM-Anschlüsse, aber nicht beschränkt auf diese.  
-   
-Ausnahmen:  
- System.ArgumentException:  
-Die System.IO.Ports.SerialPort.PortName-Eigenschaft wurde auf einen Wert mit einer Länge von 0 festgelegt.  
-\- oder -  
-Die System.IO.Ports.SerialPort.PortName-Eigenschaft wurde auf einen Wert festgelegt, der mit "\\\\" beginnt.  
-\- oder -  
-Der Anschlussname war nicht gültig.  
-   
-System.ArgumentNullException:  
- Die System.IO.Ports.SerialPort.PortName-Eigenschaft wurde auf null festgelegt.  
-   
-System.InvalidOperationException:  
- Der angegebene Anschluss ist offen. |
-| BaudRate | 9600 | Legt die serielle Baudrate fest.  
-   
-Ausnahmen:  
- System.ArgumentOutOfRangeException:  
-Die angegebene Baudrate ist kleiner oder gleich 0 oder größer als die maximal für das Gerät zulässige Baudrate.  
- System.IO.IOException:  
-Der Anschluss befindet sich in einem ungültigen Zustand.  
-\- oder -  
-Fehler beim Versuch, den Zustand des zugrunde liegenden Anschlusses festzulegen.  
-Beispielsweise waren die von diesem System.IO.Ports.SerialPort-Objekt übergebenen Parameter ungültig. |
-| DataBits | 8 | Legt die Standardlänge der Datenbits pro Byte fest.  
-   
-Ausnahmen:  
- System.IO.IOException:  
-Der Anschluss befindet sich in einem ungültigen Zustand.  
-\- oder -  
-Fehler beim Versuch, den Zustand des zugrunde liegenden Anschlusses festzulegen. Beispielsweise waren die von diesem System.IO.Ports.SerialPort-Objekt übergebenen Parameter ungültig.  
-   
- System.ArgumentOutOfRangeException:  
-Der Datenbitwert ist kleiner als 5 oder höher als 8. |
-| StopBits | 1 | Legt die Standardanzahl von Stoppbits pro Byte fest.  
-   
-Ausnahmen:  
- System.ArgumentOutOfRangeException:  
-Der System.IO.Ports.SerialPort.StopBits-Wert ist keiner der Werte aus der System.IO.Ports.StopBits-Enumeration.  
-   
- System.IO.IOException:  
-Der Anschluss befindet sich in einem ungültigen Zustand.  
-\- oder -  
-Fehler beim Versuch, den Zustand des zugrunde liegenden Anschlusses festzulegen.  
-Beispielsweise waren die von diesem System.IO.Ports.SerialPort-Objekt übergebenen Parameter ungültig. |
-| Parity  
-   
-(Parität) | 2  
-   
-   
-0-None  
-1-Odd  
-2-Even  
-3-Mark  
-4-Space | Legt das Paritätsprüfungsprotokoll fest.  
-   
-Ausnahmen:  
- System.IO.IOException:  
-Der Anschluss befindet sich in einem ungültigen Zustand.  
-\- oder -  
-Fehler beim Versuch, den Zustand des zugrunde liegenden Anschlusses festzulegen. Beispielsweise waren die von diesem System.IO.Ports.SerialPort-Objekt übergebenen Parameter ungültig.  
- System.ArgumentOutOfRangeException:  
-Der übergebene System.IO.Ports.SerialPort.Parity-Wert ist kein gültiger Wert in der System.IO.Ports.Parity-Enumeration. |
+| PortName | COM1 | Legt den Anschluss für die Kommunikation fest, einschließlich<br>aller verfügbaren COM-Anschlüsse, aber nicht beschränkt auf diese.<br> <br>Ausnahmen:<br> System.ArgumentException:<br>Die System.IO.Ports.SerialPort.PortName-Eigenschaft wurde auf einen Wert mit einer Länge von 0 festgelegt.<br>\- oder -<br>Die System.IO.Ports.SerialPort.PortName-Eigenschaft wurde auf einen Wert festgelegt, der mit "\\\\" beginnt.<br>\- oder -<br>Der Anschlussname war nicht gültig.<br> <br>System.ArgumentNullException:<br> Die System.IO.Ports.SerialPort.PortName-Eigenschaft wurde auf null festgelegt.<br> <br>System.InvalidOperationException:<br> Der angegebene Anschluss ist offen. |
+| BaudRate | 9600 | Legt die serielle Baudrate fest.<br> <br>Ausnahmen:<br> System.ArgumentOutOfRangeException:<br>Die angegebene Baudrate ist kleiner oder gleich 0 oder größer als die maximal für das Gerät zulässige Baudrate.<br> System.IO.IOException:<br>Der Anschluss befindet sich in einem ungültigen Zustand.<br>\- oder -<br>Fehler beim Versuch, den Zustand des zugrunde liegenden Anschlusses festzulegen.<br>Beispielsweise waren die von diesem System.IO.Ports.SerialPort-Objekt übergebenen Parameter ungültig. |
+| DataBits | 8 | Legt die Standardlänge der Datenbits pro Byte fest.<br> <br>Ausnahmen:<br> System.IO.IOException:<br>Der Anschluss befindet sich in einem ungültigen Zustand.<br>\- oder -<br>Fehler beim Versuch, den Zustand des zugrunde liegenden Anschlusses festzulegen. Beispielsweise waren die von diesem System.IO.Ports.SerialPort-Objekt übergebenen Parameter ungültig.<br> <br> System.ArgumentOutOfRangeException:<br>Der Datenbitwert ist kleiner als 5 oder höher als 8. |
+| StopBits | 1 | Legt die Standardanzahl von Stoppbits pro Byte fest.<br> <br>Ausnahmen:<br> System.ArgumentOutOfRangeException:<br>Der System.IO.Ports.SerialPort.StopBits-Wert ist keiner der Werte aus der System.IO.Ports.StopBits-Enumeration.<br> <br> System.IO.IOException:<br>Der Anschluss befindet sich in einem ungültigen Zustand.<br>\- oder -<br>Fehler beim Versuch, den Zustand des zugrunde liegenden Anschlusses festzulegen.<br>Beispielsweise waren die von diesem System.IO.Ports.SerialPort-Objekt übergebenen Parameter ungültig. |
+| Parity<br> <br>(Parität) | 2<br> <br> <br>0-None<br>1-Odd<br>2-Even<br>3-Mark<br>4-Space | Legt das Paritätsprüfungsprotokoll fest.<br> <br>Ausnahmen:<br> System.IO.IOException:<br>Der Anschluss befindet sich in einem ungültigen Zustand.<br>\- oder -<br>Fehler beim Versuch, den Zustand des zugrunde liegenden Anschlusses festzulegen. Beispielsweise waren die von diesem System.IO.Ports.SerialPort-Objekt übergebenen Parameter ungültig.<br> System.ArgumentOutOfRangeException:<br>Der übergebene System.IO.Ports.SerialPort.Parity-Wert ist kein gültiger Wert in der System.IO.Ports.Parity-Enumeration. |
 | Technik | Seriell | Standard! Schaltet in den seriellen Modus, d.h. die Kommunikation geht über serielle Ports |
 | Technik | Tcpip | Verwendet stattdessen TCPIP-Methoden |
 | ServerIP | 192.168.241.19 | Ip des Hostes |
 | ServerPort | 4711 | Port des Hostes |
-| ReceiveTimeout | 0 | Gleichnamiges Socket-Property.  
-Timeout-Wert in Millisekunden (Standard ist 0, das ist gleichbedeutend mit unendlicher Wartezeit – ebenso wie -1)  
-Siehe auch [Socket.ReceiveTimeout Property](https://msdn.microsoft.com/en-us/library/system.net.sockets.socket.receivetimeout%28v=vs.110%29.aspx). |
-| Continue | | Standard ist false  
-Globale Setzung hier überschreibt gleichnamiges Sequence-Feature [Continue](./standardwaagenprofil_unterstuetzung_aeinswiege.md#xmlcontinue) |
-| Result | | Standard ist false  
-Globale Setzung hier überschreibt gleichnamiges Sequence-Feature [Result](./standardwaagenprofil_unterstuetzung_aeinswiege.md#xmlresult) |
+| ReceiveTimeout | 0 | Gleichnamiges Socket-Property.<br>Timeout-Wert in Millisekunden (Standard ist 0, das ist gleichbedeutend mit unendlicher Wartezeit – ebenso wie -1)<br>Siehe auch [Socket.ReceiveTimeout Property](https://msdn.microsoft.com/en-us/library/system.net.sockets.socket.receivetimeout%28v=vs.110%29.aspx). |
+| Continue | | Standard ist false<br>Globale Setzung hier überschreibt gleichnamiges Sequence-Feature [Continue](./standardwaagenprofil_unterstuetzung_aeinswiege.md#xmlcontinue) |
+| Result | | Standard ist false<br>Globale Setzung hier überschreibt gleichnamiges Sequence-Feature [Result](./standardwaagenprofil_unterstuetzung_aeinswiege.md#xmlresult) |
 
 XML-Sequence-Beschreibung
 
@@ -145,46 +81,19 @@ XML-Sequence-Beschreibung
 | --- | --- | --- |
 | Send | [SOH]A[STX](WA[ETX])%BCC%[ENQ] | Hier Beispiel für abgehende BCC-Berechnung |
 | Expect | [EOT] | Antwort der Waage |
-| Retry | [ACK] | Wenn der Wert für **Expect** nicht empfangen wurde, dann besteht die Möglichkeit einer Wiederholung der Sequenz bei der vorher nochmal der Wert von **Retry** gesendet wird.  
-   
-Standard ist leer.  
-   
-In diesem Beispiel bedeutet das, wenn das erwartete [**EOT**] nicht kam, dann wird [**ACK**] gesendet und danach nochmal der Inhalt von Send.  
-   
-Dieses wird **Tries**\-Mal wiederholt bevor abgebrochen wird. |
-| Tries | 10 | Siehe Erläuterungen bei **Retry**.  
-   
-Standard ist 10. |
-| Wait | 10000 | Anzahl der Millisekunden, die gewartet werden, soll bis ein Ergebnis aufgelaufen ist.  
-Es kann sein das eine Waage nur einen Teil der "Expected" schickt bis zum Timeout, oder gar nichts, was fast dasselbe ist. Dann ist die Wiegung fehlgeschlagen.  
-Es kann sein, das weit vor dem Timeout die Waagenrückgabe schon anders als erwartet ist, dann ist auch fehlgeschlagen …  
-Genauso gut kann es aber sein das die Waage schon erheblich früher die erwartete Antwort gesendet hat, dann ist ja alles gut und es geht sofort weiter.  
-(Standard ist 100 Millisekunden) |
+| Retry | [ACK] | Wenn der Wert für **Expect** nicht empfangen wurde, dann besteht die Möglichkeit einer Wiederholung der Sequenz bei der vorher nochmal der Wert von **Retry** gesendet wird.<br> <br>Standard ist leer.<br> <br>In diesem Beispiel bedeutet das, wenn das erwartete [**EOT**] nicht kam, dann wird [**ACK**] gesendet und danach nochmal der Inhalt von Send.<br> <br>Dieses wird **Tries**\-Mal wiederholt bevor abgebrochen wird. |
+| Tries | 10 | Siehe Erläuterungen bei **Retry**.<br> <br>Standard ist 10. |
+| Wait | 10000 | Anzahl der Millisekunden, die gewartet werden, soll bis ein Ergebnis aufgelaufen ist.<br>Es kann sein das eine Waage nur einen Teil der "Expected" schickt bis zum Timeout, oder gar nichts, was fast dasselbe ist. Dann ist die Wiegung fehlgeschlagen.<br>Es kann sein, das weit vor dem Timeout die Waagenrückgabe schon anders als erwartet ist, dann ist auch fehlgeschlagen …<br>Genauso gut kann es aber sein das die Waage schon erheblich früher die erwartete Antwort gesendet hat, dann ist ja alles gut und es geht sofort weiter.<br>(Standard ist 100 Millisekunden) |
 | Pause | 10000 | So viele Millisekunden werden **nach Ausführung einer Sendung und eines Empfangs** pausiert. (Standard ist 0 Millisekunden) |
 | Delay | 500 | So viele Millisekunden werden nach Senden gewartet, bevor Empfang abgefragt wird. (Standard: 500 Millisekunden) |
-| Result | 1 | Eine so ausgewiesene Sequence liefert Daten der Wiegung.  
-   
-Dabei können mehrere Sequencen mit Result=1 gekennzeichnet werden. Die Daten werden dann aneinandergereiht (konkateniert).  
-   
-(Standard: 0 ) |
-| Continue | 1 | Es gibt Fälle in denen Waagen/Wiegesysteme kein Ende-Kennzeichen bzw. Begrenzer senden, aber trotzdem noch eine abschließende Quittung benötigen. Mit Hilfe der Continue-Anweisung und dem DATA-Konstrukt lässt sich so ein Workaround schaffen, indem man die DATA-Anweisung so formuliert das sie die zu erwartende Rückgabe aufnimmt und Continue=1 AeinsWiege anweist weiter zu machen.  
-   
-Beispiel:  
-([DATA]X)  
-   
-Wobei man sicherstellen muss das das X nicht vorkommt. AeinsWiege wird bis zum Timeout versuchen das X zubekommen – was aber nicht kommen kann und normalerweise mit einem nicht erfolgreichen Abbruch quittiert wird.  
-Mit Continue=1 wird dann aber weiter gemacht! |
+| Result | 1 | Eine so ausgewiesene Sequence liefert Daten der Wiegung.<br> <br>Dabei können mehrere Sequencen mit Result=1 gekennzeichnet werden. Die Daten werden dann aneinandergereiht (konkateniert).<br> <br>(Standard: 0 )<br> |
+| Continue | 1 | Es gibt Fälle in denen Waagen/Wiegesysteme kein Ende-Kennzeichen bzw. Begrenzer senden, aber trotzdem noch eine abschließende Quittung benötigen. Mit Hilfe der Continue-Anweisung und dem DATA-Konstrukt lässt sich so ein Workaround schaffen, indem man die DATA-Anweisung so formuliert das sie die zu erwartende Rückgabe aufnimmt und Continue=1 AeinsWiege anweist weiter zu machen.<br> <br>Beispiel:<br>([DATA]X)<br> <br>Wobei man sicherstellen muss das das X nicht vorkommt. AeinsWiege wird bis zum Timeout versuchen das X zubekommen – was aber nicht kommen kann und normalerweise mit einem nicht erfolgreichen Abbruch quittiert wird.<br>Mit Continue=1 wird dann aber weiter gemacht! |
 
 | Kommandozeilen-parameter | |
 | --- | --- |
-| 0 | 0: Normalmodus  
-1: Gui-Modus (dieser Modus ist noch Entwicklung und wird bei Anschluss neuer  
-Waagensysteme über dieses Programm entsprechend weiterentwicklet)  
-Beispiel für Start im Analyse-Modus: Aeinswiege 1  
-Beispiel für Start im Aeins-Modus: |
+| 0 | 0: Normalmodus<br>1: Gui-Modus (dieser Modus ist noch Entwicklung und wird bei Anschluss neuer<br>Waagensysteme über dieses Programm entsprechend weiterentwicklet)<br>Beispiel für Start im Analyse-Modus: Aeinswiege 1<br>Beispiel für Start im Aeins-Modus: |
 | 1 | Location der Aeinswiege.xml. Ist keine angegeben, dann ist es standardmäßig Aeinswiege.xml |
-| 2 | Location der Aeinswiege.txt. Ist keine angegeben, dann ist es standardmäßig  
-Aeinswiege.txt |
+| 2 | Location der Aeinswiege.txt. Ist keine angegeben, dann ist es standardmäßig<br>Aeinswiege.txt |
 
 Beispiel-Sitzung:
 

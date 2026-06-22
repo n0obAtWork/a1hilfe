@@ -19,12 +19,9 @@ Diese können in der Auswahlliste markiert und mit F5 oder der Funktion „Ände
 | Feld | Wert |
 | --- | --- |
 | Beleg | Enthält die Belegnummer der Auswahl. |
-| Artikelnummer | F3 Feld.  
-Enthält die Artikelnummer des gescannten Artikels. Fehlt dieser Wert, so kann er über F3, welches eine Eingrenzung auf die Artikel-EAN vornimmt, ausgewählt werden. |
+| Artikelnummer | F3 Feld.<br>Enthält die Artikelnummer des gescannten Artikels. Fehlt dieser Wert, so kann er über F3, welches eine Eingrenzung auf die Artikel-EAN vornimmt, ausgewählt werden. |
 | Menge | Enthält die gescannte oder angegebene Menge. Kann an dieser Stelle auch korrigiert werden. |
-| Status | Enthält den Status der Auswahl.  
-Wird ein Datensatz mit dem Status „verarbeitet“ ausgewählt, so können keine Änderungen vorgenommen werden.  
-Der Status wird beim Speichern und bei korrekter Angabe der Daten von „fehlerhaft“ auf „unverarbeitet“ gesetzt. |
+| Status | Enthält den Status der Auswahl.<br>Wird ein Datensatz mit dem Status „verarbeitet“ ausgewählt, so können keine Änderungen vorgenommen werden.<br>Der Status wird beim Speichern und bei korrekter Angabe der Daten von „fehlerhaft“ auf „unverarbeitet“ gesetzt. |
 | EAN | Enthält die gescannte Artikel-EAN. |
 | Lager | Enthält die Lagernummer. Fehlt diese in der Auswahl, wird sie bei der Auswahl der Artikelnummer vom ausgewählten Artikel übernommen. |
 

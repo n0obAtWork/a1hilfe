@@ -10,8 +10,7 @@ Sind alle Kennzeichen korrekt eingerichtet, so wird beim ersten Druck des für V
 
 Definition Parameter
 
-| Definition Parameter  
- |
+| Definition Parameter<br> |
 | --- |
 | FA_ID | enthält die FormulararchivId des zu versendenden Belegs |
 | FA_MNDNR | enthält die Mandantennummer im Mehrmandantsystem in A.eins. |
@@ -19,5 +18,4 @@ Definition Parameter
 | FA_HTMLBODY | enthält den aus A.eins erzeugten HTML-Body. Dieser wird im Mailtext verwendet. |
 | SUBJECT | enthält den Betreff der Mail |
 | VPST | enthält die Nummer des heranzuziehenden Versandprofilstamms [VPST] |
-| ANHAENGE | enthält in XML-Notation eine Liste von FormulararchivIds, die als Anhänge mit gesendet werden sollen.  
-Hinweis: Hier ist ggf. auch die Liste der zugehörigen eRechnungen enthalten |
+| ANHAENGE | enthält in XML-Notation eine Liste von FormulararchivIds, die als Anhänge mit gesendet werden sollen.<br>Hinweis: Hier ist ggf. auch die Liste der zugehörigen eRechnungen enthalten |

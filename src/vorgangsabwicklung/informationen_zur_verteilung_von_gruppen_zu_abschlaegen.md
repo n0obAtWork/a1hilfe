@@ -8,41 +8,19 @@ Die einzelnen Datenbankfelder der Relation sind:
 
 | Feld | Beschreibung |
 | --- | --- |
-| V_Id | Die ID des Vorgangs.  
- |
-| V_PosiZaehler_GrZuAb | Positionsnummer des zugehörigen Gruppen-Zu/Abschlagsatzes.  
- |
-| V_PosiZaehler_Ware. | Positionsnummer des zugehörigen Warenpositionssatzes.  
- |
-| V_GrZuAbInf_Typ | Der Typ des Zu-/Abschlags:  
- 1 - Rabatt  
-11 – individueller Rabatt  
- 2 – Zu-/Abschlag  
-12 – infividueller Zu-/Abschlag  
- 3 – Fracht  
-13 – individuelle Fracht  
- 4 – Verpackung  
- |
-| V_GrZuAbInf_Kalk | 1: kalkulatorischer Zu-/Abschlag  
-Sonst: nicht kalkulatorisch  
- |
-| V_GrZuABInf_Anteil | Der auf die Warenposition entfallende Nettobetrag.  
- |
-| V_GrZuABInf_SAnteil l | Der auf die Warenposition entfallende Steuerbetrag.  
- |
-| V_GrZuABInf_Bezug. | Die Bezugsgröße der Warenposition für diesen Zu-/Abschlag.  
- |
-| V_GrZuABInf_WaehrAnteilert | Der auf die Warenposition entfallende Nettobetrag in Währung.  
- |
-| V_GrZuABInf_WaehrSAnteil | Der auf die Warenposition entfallende Steuerbetrag in Währung.  
- |
-| V_GrZuAbInf_WaehrBezug | Die Bezugsgröße der Warenposition für diesen Zu-/Abschlag in Währung.  
- |
-| V_GrZuAbInf_StSchluessel | Der zugehörige Steuerschlüssel.  
- |
-| V_GrZuAbInf_StKlasse | Die zugehörige Steuerklasse.  
- |
-| V_GrZuAbInf_StSatz | Der zugehörige Steuersatz.  
- |
+| V_Id | Die ID des Vorgangs.<br> |
+| V_PosiZaehler_GrZuAb | Positionsnummer des zugehörigen Gruppen-Zu/Abschlagsatzes.<br> |
+| V_PosiZaehler_Ware. | Positionsnummer des zugehörigen Warenpositionssatzes.<br> |
+| V_GrZuAbInf_Typ | Der Typ des Zu-/Abschlags:<br> 1 - Rabatt<br>11 – individueller Rabatt<br> 2 – Zu-/Abschlag<br>12 – infividueller Zu-/Abschlag<br> 3 – Fracht<br>13 – individuelle Fracht<br> 4 – Verpackung<br> |
+| V_GrZuAbInf_Kalk | 1: kalkulatorischer Zu-/Abschlag<br>Sonst: nicht kalkulatorisch<br> |
+| V_GrZuABInf_Anteil | Der auf die Warenposition entfallende Nettobetrag.<br> |
+| V_GrZuABInf_SAnteil l | Der auf die Warenposition entfallende Steuerbetrag.<br> |
+| V_GrZuABInf_Bezug. | Die Bezugsgröße der Warenposition für diesen Zu-/Abschlag.<br> |
+| V_GrZuABInf_WaehrAnteilert | Der auf die Warenposition entfallende Nettobetrag in Währung.<br> |
+| V_GrZuABInf_WaehrSAnteil | Der auf die Warenposition entfallende Steuerbetrag in Währung.<br> |
+| V_GrZuAbInf_WaehrBezug | Die Bezugsgröße der Warenposition für diesen Zu-/Abschlag in Währung.<br> |
+| V_GrZuAbInf_StSchluessel | Der zugehörige Steuerschlüssel.<br> |
+| V_GrZuAbInf_StKlasse | Die zugehörige Steuerklasse.<br> |
+| V_GrZuAbInf_StSatz | Der zugehörige Steuersatz.<br> |
 
 **Hinweis:** Für ältere Vorgänge, für die diese Einträge noch nicht erzeugt wurden, werden diese auch beim Öffnen des jeweiligen Vorgangs im *Ansehen-Modus* nachgetragen.

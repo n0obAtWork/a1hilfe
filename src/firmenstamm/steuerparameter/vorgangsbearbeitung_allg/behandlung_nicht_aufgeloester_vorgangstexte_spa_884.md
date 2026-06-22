@@ -14,9 +14,7 @@ Die gleiche Behandlung wird bei der Erstellung eines Vorgangs mit Makro durchgef
 | --- |
 | 0 – nichts ändern | Diese Einstellung ist die voreingestellte Behandlung wie bisher. Es findet keinerlei Aktion statt. |
 | 1 – nur warnen | Eine Warnung weist bei Umwandlung darauf hin, dass nicht aufgelöste Texte vorhanden sind. |
-| 2 – Auflösen und warnen | Platzhalter werden bei Umwandlung durch Leerzeichen ersetzt.  
-Eine Warnung weist darauf hin. |
+| 2 – Auflösen und warnen | Platzhalter werden bei Umwandlung durch Leerzeichen ersetzt.<br>Eine Warnung weist darauf hin. |
 | 3 – Auflösen | Platzhalter werden durch Leerzeichen ersetzt. |
-| 4 – Löschen und warnen | Nicht aufgelöste Textzeilen werden bei Umwandlung entfernt.  
-Eine Warnung weist darauf hin. |
+| 4 – Löschen und warnen | Nicht aufgelöste Textzeilen werden bei Umwandlung entfernt.<br>Eine Warnung weist darauf hin. |
 | 5 – Löschen | Nicht aufgelöste Textzeilen werden entfernt. |

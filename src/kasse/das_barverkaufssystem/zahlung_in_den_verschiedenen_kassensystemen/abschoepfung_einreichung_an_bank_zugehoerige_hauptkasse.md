@@ -19,8 +19,7 @@ Es werden die noch einzureichenden Zahlungsmittel angezeigt. Bargeldbeträge kö
 | Zahlungsart | EC Karte oder Gutschein |
 | Betrag | Der eingezahlte Betrag zu dem Zahlungsmittel |
 | Sitzung | Die Kassensitzungsnummer in der der Beleg erstellt wurde |
-| Kasse | Die Kassennummer an der der Beleg erfasst wurde.  
-Es können nur Belege eingereicht werden, die zu der geöffneten Kasse gehören. |
+| Kasse | Die Kassennummer an der der Beleg erfasst wurde.<br>Es können nur Belege eingereicht werden, die zu der geöffneten Kasse gehören. |
 | Einreichen | Ja / Nein: Auswahl, ob dieser Beleg eingereicht werden soll. |
 | Datum | Erstellungsdatum des Zahlungsmittelbeleges |
 | KartenNr / GutscheinNr | Die EC Kartennummer bzw. die Gutscheinnummer |

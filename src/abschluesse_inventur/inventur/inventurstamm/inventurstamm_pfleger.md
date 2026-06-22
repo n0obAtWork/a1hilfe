@@ -25,8 +25,7 @@ Erhebung am: Erhebungsdatum
 
 | Feld | Beschreibung |
 | --- | --- |
-| Gruppe | Hier wird bestimmt, für welche Inventurgruppe die Inventur erfolgen soll.  
-Z. B. 1 = Hauptinventur JW, 10 = Teilinventur WG 10, 20 = Teilinventur WG 20 |
+| Gruppe | Hier wird bestimmt, für welche Inventurgruppe die Inventur erfolgen soll.<br>Z. B. 1 = Hauptinventur JW, 10 = Teilinventur WG 10, 20 = Teilinventur WG 20 |
 | Stichtag | Datum, zu dem die Inventur erfolgen soll. |
 
 </details>
@@ -51,17 +50,11 @@ Z. B. 1 = Hauptinventur JW, 10 = Teilinventur WG 10, 20 = Teilinventur WG 20 |
 | Feld | Beschreibung |
 | --- | --- |
 | Bezeichnung | Freier Text für die Beschreibung der Inventur |
-| Typ der Inventur | **1** – Jahreswechselinventur  
-Es werden Bestandsbuchungen (mengen u. wertmäßige Ein- / Ausbuchungen) erzeugt, und für das neue Wirtschaftsjahr vorgetragen.  
-**2** – Zwischeninventur  
-Durch die Aufnahme kann der Inventurbestand mit dem Buchbestand abgeglichen und eventuelle Differenzen ermittelt werden. Auch die Zwischeninventur muss abgeschlossen u. eingespielt werden. |
-| Art der Inventur | **1** – Erhebung am Stichtag (“Normal-Inventur“)  
-**2** – Erhebung und Stichtag versetzt (verschobene Inventur)  
-Die Inventuraufnahme kann vor oder nach dem Stichtag erfolgen. Die Inventurmenge / Wert wird dann fortgeschrieben / zurückgerechnet. |
+| Typ der Inventur | **1** – Jahreswechselinventur<br>Es werden Bestandsbuchungen (mengen u. wertmäßige Ein- / Ausbuchungen) erzeugt, und für das neue Wirtschaftsjahr vorgetragen.<br>**2** – Zwischeninventur<br>Durch die Aufnahme kann der Inventurbestand mit dem Buchbestand abgeglichen und eventuelle Differenzen ermittelt werden. Auch die Zwischeninventur muss abgeschlossen u. eingespielt werden. |
+| Art der Inventur | **1** – Erhebung am Stichtag (“Normal-Inventur“)<br>**2** – Erhebung und Stichtag versetzt (verschobene Inventur)<br>Die Inventuraufnahme kann vor oder nach dem Stichtag erfolgen. Die Inventurmenge / Wert wird dann fortgeschrieben / zurückgerechnet. |
 | Nummernkreis | Dies ist der Nummernkreis der Inventurbelegnummer. Es muss ein Belegkreis mit dem Vorgangstyp “Inventur” sein. Natürlich muss er vom Datum her auch gültig sein (in der Basis-DB = Nr.-Kreis 130). |
 | Erhebung am | Datum, zu dem die Bestände aufgenommen werden. |
-| Automatische Inventurbelegnummer | Die einzelnen Inventuraufnahmen werden, wenn hier auf “**Ja**” geschaltet, automatisch durchnummeriert.  
-Die Lückenlosigkeit der Erfassung kann damit sichergestellt und überwacht werden. |
+| Automatische Inventurbelegnummer | Die einzelnen Inventuraufnahmen werden, wenn hier auf “**Ja**” geschaltet, automatisch durchnummeriert.<br>Die Lückenlosigkeit der Erfassung kann damit sichergestellt und überwacht werden. |
 | Automatische Positionsnummer | Bei der Erfassung werden, wenn “**Ja**”, automatisch Zeilennummern je erfasster Position vergeben. |
 | Bewertung abfragen | Kennzeichen, ob die Bestandsbewertung belegweise (anderenfalls nur je Gesamtbestand) erfolgen soll. |
 | Vortrag | Permanente Inventur vorgetragen |
@@ -73,7 +66,6 @@ Die Lückenlosigkeit der Erfassung kann damit sichergestellt und überwacht werd
 
 | Funktion | Beschreibung |
 | --- | --- |
-| Neu(Alle Inventurgruppen) **(Shift + F8)**  
-[Nur im „***Ändern***“-Modus aufrufbar] | Legt für diesen Stichtag alle Inventurgruppen an. |
+| Neu(Alle Inventurgruppen) **(Shift + F8)**<br>[Nur im „***Ändern***“-Modus aufrufbar] | Legt für diesen Stichtag alle Inventurgruppen an. |
 
 </details>

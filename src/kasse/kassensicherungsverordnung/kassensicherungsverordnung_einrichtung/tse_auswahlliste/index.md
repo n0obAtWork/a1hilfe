@@ -10,11 +10,7 @@ In der TSE-Auswahlliste, Hauptmenü > Barvorgänge > TSE Pflegen, oder Direktspr
 | Feld | Beschreibung |
 | --- | --- |
 | TSE-ID | Gibt die TSE-ID an. |
-| Ab Datum | Gibt an, ab wann die TSE-Einstellung gelten soll.  
-Es kann zu einer gleichen TSE-ID mehrere Einträge mit verschiedenen **Ab Datum** geben.  
-In Bezug auf das aktuelle Tagesdatum ergibt sich aber logischerweise immer eine einzige TSE-Einstellung, die dann **aktiv** ist. Diese wird auch im Standard ***grün*** gekennzeichnet. (Siehe auch Aktiv-Datum)  
-Mehrere **Ab Datum** -Konfigurationen können immer dann eingesetzt werden, wenn Einstellungen vom Datum abhängen.  
-(Erzeugen kann man eine TSE-ID mit mehreren **Ab Datum** über **F5** und **Speichern unter.**) |
+| Ab Datum | Gibt an, ab wann die TSE-Einstellung gelten soll.<br>Es kann zu einer gleichen TSE-ID mehrere Einträge mit verschiedenen **Ab Datum** geben.<br>In Bezug auf das aktuelle Tagesdatum ergibt sich aber logischerweise immer eine einzige TSE-Einstellung, die dann **aktiv** ist. Diese wird auch im Standard ***grün*** gekennzeichnet. (Siehe auch Aktiv-Datum)<br>Mehrere **Ab Datum** -Konfigurationen können immer dann eingesetzt werden, wenn Einstellungen vom Datum abhängen.<br>(Erzeugen kann man eine TSE-ID mit mehreren **Ab Datum** über **F5** und **Speichern unter.**) |
 | Bezeichnung | Zeigt die eingetragene Bezeichnung der TSE an, dient zur leichteren Identifizierung durch den Anwender. |
 | TSE-Typ | Gibt an, um welche Art von TSE es sich handelt. |
 | Client ID | Gibt die Client ID an, mit dem die TSE initialisiert wurde. |

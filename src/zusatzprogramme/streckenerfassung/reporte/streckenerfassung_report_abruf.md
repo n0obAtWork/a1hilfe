@@ -14,8 +14,7 @@ Sprachabhängige Textfelder in diesem Report
 | Name Druckfeld | Standard Text im Report |
 | --- | --- |
 | Ueberschrift_Abruf | Abruf Nr.: |
-| Anrede  
- | Sehr geehrte Damen und Herren, |
+| Anrede<br> | Sehr geehrte Damen und Herren, |
 | an | an: |
 | zurLieferung_Abruf | gegen oben genannten Kontrakt stellen wir wie folgt zur Lieferung frei: |
 | Unbedingt_angeben | (bitte unbedingt im Lieferschein angeben) |

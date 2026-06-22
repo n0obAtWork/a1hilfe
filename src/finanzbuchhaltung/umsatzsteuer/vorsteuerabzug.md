@@ -36,10 +36,8 @@ Für die in der Anwendung „Abzugsfähige Vorsteuer“ aufgeführten Beträge/S
 
 | | Periode/Jahr | Belegdatum | Eingangsdatum | Steuer | |
 | --- | --- | --- | --- | --- | --- |
-| Eingangsrechnung | 12/2020  
- | 29.12.2020 | 04.01.2020 | 1.200,00 S | |
-| Steuer ausbuchen (SO-Beleg) | 12/2020  
- | 29.12.2020 | | 1.200,00 H | Steuersatz mit der Steuerformel 100% verwenden. |
+| Eingangsrechnung | 12/2020<br> | 29.12.2020 | 04.01.2020 | 1.200,00 S | |
+| Steuer ausbuchen (SO-Beleg) | 12/2020<br> | 29.12.2020 | | 1.200,00 H | Steuersatz mit der Steuerformel 100% verwenden. |
 | Steuer in die Periode des Rechnungseingangs buchen | 01/2021 | 04.01.2020 | | 1.200,00 S | Steuersatz mit der Steuerformel 100% verwenden. |
 
 Die Steuersätze 100% müssen über dieselben Kennziffern verfügen wie die Steuersätze der betroffenen Eingangsrechnungen.

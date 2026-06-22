@@ -40,9 +40,7 @@ Einstellungen
 | Bezug | Berechnung des Bezugsdatums der Zahlungsbedingung. (Format „[Bezug](./formate_der_zahlungsbedingungen.md#zabed_format_bezug)“) |
 | Valutabestimmung | (Format „[Valutabestimmung](./formate_der_zahlungsbedingungen.md#zabed_format_valutabestimmung)“) |
 | Zieltage / max. | Zahlungsziel, in Abhängigkeit vom vorher gewählten Zahlungstyp. Bei manuellen Än­de­rungen während der Vorgangserfassung kann der Maximalwert nicht über­schritten werden. |
-| Skontotage / max. | Zieltage bei Skontoabzug.  
-Bei manuellen Änderungen während der Vorgangserfassung kann der Maximalwert nicht überschritten werden.  
-Wird das Skontodatum aus dem Fälligkeitsdatum berechnet, so werden diese Tage vom Fälligkeitsdatum rückwärts gerechnet und die Max-Eingabe ist nicht möglich. |
+| Skontotage / max. | Zieltage bei Skontoabzug.<br>Bei manuellen Änderungen während der Vorgangserfassung kann der Maximalwert nicht überschritten werden.<br>Wird das Skontodatum aus dem Fälligkeitsdatum berechnet, so werden diese Tage vom Fälligkeitsdatum rückwärts gerechnet und die Max-Eingabe ist nicht möglich. |
 | Skontosatz / max. | Skonto Satz bei Skontoabzug. Bei manuellen Änderungen während der Vorgangserfassung kann der Maximalbetrag nicht überschritten werden. |
 | Festes Datum | Festes Stichtagsdatum an der die Zahlung fällig ist. |
 | Zielverlängerung | Wird der Wert auf „Ja“ gesetzt, erscheint beim Erfassen der Zahlungsbedingung eines Vorgangs (Ware) ein Feld für Zielverlängerungstage. |

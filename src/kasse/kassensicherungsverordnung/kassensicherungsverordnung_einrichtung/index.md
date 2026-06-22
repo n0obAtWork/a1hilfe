@@ -23,12 +23,9 @@ Die Einrichtungsparameter sind:
 
 | Feld | Beschreibung |
 | --- | --- |
-| Steuerparameter | Nummer des SPA  
-Name des SPA |
-| SPA-Gruppe | Nummer der SPA-Gruppe  
-Name der SPA-Gruppe |
-| Lizenz | Nummer der Lizenz  
-Name der Lizenz |
+| Steuerparameter | Nummer des SPA<br>Name des SPA |
+| SPA-Gruppe | Nummer der SPA-Gruppe<br>Name der SPA-Gruppe |
+| Lizenz | Nummer der Lizenz<br>Name der Lizenz |
 
 </details>
 

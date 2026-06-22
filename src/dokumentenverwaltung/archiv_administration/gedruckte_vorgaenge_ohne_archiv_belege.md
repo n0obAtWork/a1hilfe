@@ -48,8 +48,7 @@ an.
 | F2 | Filter / Bereichsauswahl | |
 | F10 | Archiv-Beleg erzeugen | Führt eine Nacharchivierung des(der) selektierten Vorgangs(Vorgänge) durch. |
 | F11 | Vorschau | Vorschau des Vorgangs. |
-| CF12 | Referenzen anzeigen | Recherchiert im Archiv Dokumente gleicher Referenz.  
-Zwar wird dann nicht unbedingt „der Druck“ gefunden, aber möglichweise Dokumente mit gleicher Beleg-Referenz. |
+| CF12 | Referenzen anzeigen | Recherchiert im Archiv Dokumente gleicher Referenz.<br>Zwar wird dann nicht unbedingt „der Druck“ gefunden, aber möglichweise Dokumente mit gleicher Beleg-Referenz. |
 
 | Filter/Bereichsauswahl | | |
 | --- | --- | --- |

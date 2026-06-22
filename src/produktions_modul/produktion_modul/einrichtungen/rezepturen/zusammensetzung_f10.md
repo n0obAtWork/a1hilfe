@@ -8,16 +8,12 @@
 | Rezepturnummer | Nummer der Rezeptur für die die Zusammensetzung angezeigt wird. |
 | Mengenanteil Hauptprodukt | Nur sichtbar und eingebbar bei NzuM-Produktion |
 | Wertanteil Hauptprodukt | Nur sichtbar und eingebbar bei NzuM-Produktion |
-|   
-**Tabellenfelder** |   
-Nur für NzuM-Produktion und Vermahlung sichtbar |
+| <br>**Tabellenfelder** | <br>Nur für NzuM-Produktion und Vermahlung sichtbar |
 | Abgang/Zugang | Über die F3-Auswahl kann zwischen Zugang und Abgang für die einzelne Komponente gewählt werden. |
 | Anteil Abgang | In diesem Feld ist der Anteil für den Abgang einzugeben, wenn beim Feld ‚Abgang/Zugang‘ Abgang gewählt wurde. |
 | Anteil Zugang | In diesem Feld ist der Anteil für den Zugang einzugeben, wenn beim Feld ‚Abgang/Zugang‘ Zugang gewählt wurde. |
 | Wertanteil Zugang | Nicht sichtbar für Vermahlung |
-|   
-**Summen** |   
-Nur für NzuM-Produktion und Vermahlung sichtbar |
+| <br>**Summen** | <br>Nur für NzuM-Produktion und Vermahlung sichtbar |
 | Anteile Abgang | Anzeigefeld |
 | Anteile Zugang | Anzeigefeld |
 | Wertanteile Zugang | Anzeigefeld, nur bei NzuM-Produktion sichtbar |

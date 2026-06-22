@@ -44,12 +44,9 @@ Folgende Funktionen stehen in der Auswahlliste zur Verfügung
 
 | Funktion | Taste | Bedeutung |
 | --- | --- | --- |
-| Ändern | F5 | Ruft die Maske Etikettendruck zum Bearbeiten auf. Auf dieser Maske ist es möglich Individuelle Texte zu pflegen, diese abzuspeichern und den Datensatz zu drucken.  
- |
-| Ansehen | F6 | Ruft die Maske Etikettendruck im Ansehen Modus auf.  
- |
-| Wiederhohldruck | STRG+F9 | Mit dieser Funktion können die Etiketten der ausgewählten Datensätze erneut ausgedruckt werden. Es können nur Etiketten mit einer Zuweisung zu einem Probensatz ausgedruckt werden.  
- |
+| Ändern | F5 | Ruft die Maske Etikettendruck zum Bearbeiten auf. Auf dieser Maske ist es möglich Individuelle Texte zu pflegen, diese abzuspeichern und den Datensatz zu drucken.<br> |
+| Ansehen | F6 | Ruft die Maske Etikettendruck im Ansehen Modus auf.<br> |
+| Wiederhohldruck | STRG+F9 | Mit dieser Funktion können die Etiketten der ausgewählten Datensätze erneut ausgedruckt werden. Es können nur Etiketten mit einer Zuweisung zu einem Probensatz ausgedruckt werden.<br> |
 
 Maske Etikettendruck
 

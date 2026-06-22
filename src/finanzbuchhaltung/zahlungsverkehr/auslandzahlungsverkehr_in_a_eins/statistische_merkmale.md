@@ -24,39 +24,17 @@ Zahlungen im Transithandel sollen gesammelt mit Vordruck Z4 bzw. mit entsprechen
 
 | | Beschreibung |
 | --- | --- |
-| Warenbezeichnung  
- | der eingekauften Transithandelsware  
- |
-| Kapitelnummer  
- | des Warenverzeichnisses für die eingekaufte Transithandelsware gemäß Warenverzeichnis für Außenhandelsstatistik  
- |
-| Land  
- | beinhaltet die Kurzbezeichnung gemäß Länderverzeichnis für die Zahlungsbilanzstatistik. Siehe Stammdaten Staatstamm.  
- |
-| Einkaufspreis  
- | ohne Nachkommastellen. Angabe in Auftragswährung, bei Euro- Gegenwertzahlung in Euro.  
-Steht **Verkauf an Gebietsfremde** auf **Ja**, werden die alle Felder bis auf "Name/sitz des Nachkäufers" im Bereich Verkauf aktiviert.  
-Steht **Verkauf an Gebietsansässige** auf **Ja**, wird Name wird das Feld "Name/sitz des Nachkäufers" aktiviert  
- |
-| Unverkauft auf Lager im Ausland  
- | |
-| Warenbezeichnung  
- | der verkauften Transithandelsware. Nur zu belegen bei Verkauf an Gebietsfremde. Wird vorbelegt mit der Bezeichnung im Einkaufsbereich.  
- |
-| Kapitelnummer | des Warenverzeichnisses für die verkaufte Transithandelsware gemäß Warenverzeichnis für Außenhandelsstatistik  
- |
-| Fälligkeit Verkaufserlös  
- | Transithandel  
- |
-| Land  
- | beinhaltet die Kurzbezeichnung gemäß Länderverzeichnis für die Zahlungsbilanzstatistik. Siehe Stammdaten Staatstamm.  
- |
-| Verkaufspreis  
- | ohne Nachkommastellen. Angabe in Auftragswährung, bei Euro- Gegenwertzahlung in Euro.  
- |
-| Name und Sitz des Nachkäufers  
- | ist nur bei gebrochenem Transithandel (Verkauf an Gebietsfremde) anzugeben.  
- |
+| Warenbezeichnung<br> | der eingekauften Transithandelsware<br> |
+| Kapitelnummer<br> | des Warenverzeichnisses für die eingekaufte Transithandelsware gemäß Warenverzeichnis für Außenhandelsstatistik<br> |
+| Land<br> | beinhaltet die Kurzbezeichnung gemäß Länderverzeichnis für die Zahlungsbilanzstatistik. Siehe Stammdaten Staatstamm.<br> |
+| Einkaufspreis<br> | ohne Nachkommastellen. Angabe in Auftragswährung, bei Euro- Gegenwertzahlung in Euro.<br>Steht **Verkauf an Gebietsfremde** auf **Ja**, werden die alle Felder bis auf "Name/sitz des Nachkäufers" im Bereich Verkauf aktiviert.<br>Steht **Verkauf an Gebietsansässige** auf **Ja**, wird Name wird das Feld "Name/sitz des Nachkäufers" aktiviert<br> |
+| Unverkauft auf Lager im Ausland<br> | |
+| Warenbezeichnung<br> | der verkauften Transithandelsware. Nur zu belegen bei Verkauf an Gebietsfremde. Wird vorbelegt mit der Bezeichnung im Einkaufsbereich.<br> |
+| Kapitelnummer | des Warenverzeichnisses für die verkaufte Transithandelsware gemäß Warenverzeichnis für Außenhandelsstatistik<br> |
+| Fälligkeit Verkaufserlös<br> | Transithandel<br> |
+| Land<br> | beinhaltet die Kurzbezeichnung gemäß Länderverzeichnis für die Zahlungsbilanzstatistik. Siehe Stammdaten Staatstamm.<br> |
+| Verkaufspreis<br> | ohne Nachkommastellen. Angabe in Auftragswährung, bei Euro- Gegenwertzahlung in Euro.<br> |
+| Name und Sitz des Nachkäufers<br> | ist nur bei gebrochenem Transithandel (Verkauf an Gebietsfremde) anzugeben.<br> |
 
 Meldedatensatz für Dienstleistung/Kapitaltransaktion
 
@@ -66,33 +44,9 @@ Bei meldepflichtigen Zahlungen für Dienstleistungen, Übertragungen, Kapitalver
 
 | | Beschreibung |
 | --- | --- |
-| Belegart  
- | Kann folgende Werte annehmen:  
-• 2 Dienstleistungen, Übertragungen  
-• 4 Kapitaltransaktionen und Kapitalerträge  
- |
-| Kennzahl  
- | Für sie gilt das Leistungsverzeichnis (Anlage LV zur AWV) sowie das Verzeichnis über die erweiterten Kennzahlen. Hinweise finden Sie in der Homepage der Deutschen Bundesbank ([http://www.Bundesbank.de](http://www.Bundesbank.de) \->Meldewesen ->Außenwirtschaft -> Schlüsselverzeichnisse \-> Spezielles Verzeichnis ausgewählter Kennzahlen für die Statistik des Zahlungsverkehrs mit fremden Wirtschaftsgebieten für ausgehende Zahlungen im DTAZV). Gepflegt werden die Kennzahlen in A.eins in den [Stammdaten für Zahlungsverkehr](./stammdaten_des_auslandszahlungsverkehrs.md#KennzahlenDTAZV).  
-Falls keine zutreffende Kennzahl (Leistungsart) gefunden wird, kann hier die Sammelkennzahl 900 eingetragen werden und die zugrunde liegende Leistung im Feld "nähere Angaben" detailliert beschrieben werden.  
- |
-| Land  
- | Beinhaltet die Kurzbezeichnung gemäß Länderverzeichnis für die Zahlungsbilanzstatistik. Siehe Stammdaten Staatstamm.  
-In der Regel ist hier anzugeben:  
-• Land, in dem der Gläubiger der Zahlung ansässig ist; davon abweichend gilt:  
-• bei ausländischen Wertpapieren: Land des Emittenten;  
-• bei ausländischen Finanzderivaten: Land des Börsensitzes bzw. des Stillhalters;  
-• bei Darlehensauszahlung und Ankauf von Auslandsforderungen: Land des Schuldners;  
-• bei Direktinvestitionen im Ausland: Land, in dem sich das Investitionsobjekt befindet;  
-• bei Grundstücken im Ausland: Land, in dem sich das Grundstück befindet;  
-• bei Zahlungen für Objekt(e) im Ausland: Land des Objektes  
-• bei unentgeltlichen Zuwendungen (Schenkungen): Land des Begünstigten.  
- |
-| Anlageland  
- | Beinhaltet die Kurzbezeichnung gemäß Länderverzeichnis für die Zahlungsbilanzstatistik. Siehe Stammdaten Staatstamm.  
- |
-| Betrag  
- | Für Dienstleistungen, Kapitalverkehr, Sonstiges. Angabe in Auftragswährung, bei Euro- Gegenwertzahlung in Euro.  
- |
-| Nähere Angaben  
- | Die Leistungen, die der Zahlung zugrunde liegen, sind in diesem Feld ausführlich und aussagefähig zu beschreiben. Bei Wertpapiergeschäften ist die genaue Wertpapierbezeichnung, möglichst mit der Wertpapier-Kenn-Nummer oder ISIN(laut Verlag Wertpapier-Mitteilung), anzugeben.  
- |
+| Belegart<br> | Kann folgende Werte annehmen:<br>• 2 Dienstleistungen, Übertragungen<br>• 4 Kapitaltransaktionen und Kapitalerträge<br> |
+| Kennzahl<br> | Für sie gilt das Leistungsverzeichnis (Anlage LV zur AWV) sowie das Verzeichnis über die erweiterten Kennzahlen. Hinweise finden Sie in der Homepage der Deutschen Bundesbank ([http://www.Bundesbank.de](http://www.Bundesbank.de) \->Meldewesen ->Außenwirtschaft -> Schlüsselverzeichnisse \-> Spezielles Verzeichnis ausgewählter Kennzahlen für die Statistik des Zahlungsverkehrs mit fremden Wirtschaftsgebieten für ausgehende Zahlungen im DTAZV). Gepflegt werden die Kennzahlen in A.eins in den [Stammdaten für Zahlungsverkehr](./stammdaten_des_auslandszahlungsverkehrs.md#KennzahlenDTAZV).<br>Falls keine zutreffende Kennzahl (Leistungsart) gefunden wird, kann hier die Sammelkennzahl 900 eingetragen werden und die zugrunde liegende Leistung im Feld "nähere Angaben" detailliert beschrieben werden.<br> |
+| Land<br> | Beinhaltet die Kurzbezeichnung gemäß Länderverzeichnis für die Zahlungsbilanzstatistik. Siehe Stammdaten Staatstamm.<br>In der Regel ist hier anzugeben:<br>• Land, in dem der Gläubiger der Zahlung ansässig ist; davon abweichend gilt:<br>• bei ausländischen Wertpapieren: Land des Emittenten;<br>• bei ausländischen Finanzderivaten: Land des Börsensitzes bzw. des Stillhalters;<br>• bei Darlehensauszahlung und Ankauf von Auslandsforderungen: Land des Schuldners;<br>• bei Direktinvestitionen im Ausland: Land, in dem sich das Investitionsobjekt befindet;<br>• bei Grundstücken im Ausland: Land, in dem sich das Grundstück befindet;<br>• bei Zahlungen für Objekt(e) im Ausland: Land des Objektes<br>• bei unentgeltlichen Zuwendungen (Schenkungen): Land des Begünstigten.<br> |
+| Anlageland<br> | Beinhaltet die Kurzbezeichnung gemäß Länderverzeichnis für die Zahlungsbilanzstatistik. Siehe Stammdaten Staatstamm.<br> |
+| Betrag<br> | Für Dienstleistungen, Kapitalverkehr, Sonstiges. Angabe in Auftragswährung, bei Euro- Gegenwertzahlung in Euro.<br> |
+| Nähere Angaben<br> | Die Leistungen, die der Zahlung zugrunde liegen, sind in diesem Feld ausführlich und aussagefähig zu beschreiben. Bei Wertpapiergeschäften ist die genaue Wertpapierbezeichnung, möglichst mit der Wertpapier-Kenn-Nummer oder ISIN(laut Verlag Wertpapier-Mitteilung), anzugeben.<br> |

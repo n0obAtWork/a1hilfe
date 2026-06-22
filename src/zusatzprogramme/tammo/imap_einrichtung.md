@@ -43,10 +43,8 @@ Für GMAIL sind eventuell noch folgende Kontoeinstellungen nötig.
 
 | Einstellung | Wert |
 | --- | --- |
-| IMAP-Zugriff | *Gmail -> Einstellungen -> Weiterleitung und POP/IMAP*  
-Der Haken muss bei „IMAP aktivieren“ gesetzt sein. |
-| Weniger sichere Apps zulassen | *Mein Konto -> Verbundene Apps und Webseiten*  
-Dort muss die Option „Weniger sichere Apps zulassen“ auf „An“ stehen. |
+| IMAP-Zugriff | *Gmail -> Einstellungen -> Weiterleitung und POP/IMAP*<br>Der Haken muss bei „IMAP aktivieren“ gesetzt sein. |
+| Weniger sichere Apps zulassen | *Mein Konto -> Verbundene Apps und Webseiten*<br>Dort muss die Option „Weniger sichere Apps zulassen“ auf „An“ stehen. |
 
 Beispiel KERIO
 

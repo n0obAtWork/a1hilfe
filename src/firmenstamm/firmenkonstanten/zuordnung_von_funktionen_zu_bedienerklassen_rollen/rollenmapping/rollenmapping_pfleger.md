@@ -7,18 +7,13 @@
 
 | Felder | |
 | --- | --- |
-| Optionbox | Die Optionbox des Zielkontextes.  
-Auswahl per Funktion „Optionbox wählen … (F3)“ |
-| Funktion | Die Funktion des Zielkontextes.  
-Auswahl per Funktion „Funktion wählen … (F3)“ |
+| Optionbox | Die Optionbox des Zielkontextes.<br>Auswahl per Funktion „Optionbox wählen … (F3)“ |
+| Funktion | Die Funktion des Zielkontextes.<br>Auswahl per Funktion „Funktion wählen … (F3)“ |
 | Rolle | Die Rolle des Zielkontextes (informatorisch). |
-| Quelle-Optionbox | Die Optionbox des Quell-Kontextes.  
-Auswahl per Funktion „Optionbox wählen … (F3)“ |
-| Quelle-Funktion | Die Funktion des Quell-Kontextes.  
-Auswahl per Funktion „Funktion wählen … (F3)“ |
+| Quelle-Optionbox | Die Optionbox des Quell-Kontextes.<br>Auswahl per Funktion „Optionbox wählen … (F3)“ |
+| Quelle-Funktion | Die Funktion des Quell-Kontextes.<br>Auswahl per Funktion „Funktion wählen … (F3)“ |
 | Quelle-Rolle | Die Rolle des Quellkontextes (informatorisch). |
-| Quelle sichtbar | Bestimmt ob der Quellen-Kontext „sichtbar“ beleibt, d.h. ob die Quellen-Funktion in der Quellen-Optionbox aufgelistet wird.  
-Bei „Nein“ ist der Inhalt der Quellen-Rolle unerheblich. |
+| Quelle sichtbar | Bestimmt ob der Quellen-Kontext „sichtbar“ beleibt, d.h. ob die Quellen-Funktion in der Quellen-Optionbox aufgelistet wird.<br>Bei „Nein“ ist der Inhalt der Quellen-Rolle unerheblich. |
 
 </details>
 

@@ -25,13 +25,7 @@ Zu Kontroll-Zwecken werden im unteren Bereich der Maske die aktuelle Gesamtsumme
 | Feld | Beschreibung |
 | --- | --- |
 | Zeitraum | Beginn des Kontraktmengen-Zeitraums |
-| Gesamtmenge | Sollmenge des Artikels im Kontrakt-Zeitraum.  
-Bei Gesamtmengen-Kontrakten wird hier die gesamte Sollmenge des Kontrakt-Zeitraums dargestellt.  
-Bei Freimengen-Kontrakten ist die Sollmenge immer mit 0 dargestellt. |
-| Restmenge | Aktuelle Restmenge des Artikels im Kontrakt-Zeitraum  
-Bei Gesamtmengen-Kontrakten wird hier die gesamte Restmenge des Kontrakt-Zeitraums dargestellt.  
-Bei Freimengen-Kontrakten ist die Restmenge immer mit 0 dargestellt. |
-| Rest>0 | Negativer Rest wird mit 0 dargestellt, aktueller Rest ist um negativen Rest des vorhergehenden Zeitraums reduziert.  
-(Nur bei eingestellter Option [Steuerungsparameter](../../../firmenstamm/steuerparameter/kontraktwesen/ratierliche_einstellungen_spa_846.md) 846 „Ratierliche Einstellungen“ „Ktr-Anzeige Minusrest in Folgezeitraum“ mit dem Wert **Ja**). |
-| Rest kumuliert | Summe der Werte aus vorhergehender Restspalte (Restmenge, Rest>0) bis einschließlich dem aktuellen Zeitraum  
-(Nur bei eingestellter Option [Steuerungsparameter](../../../firmenstamm/steuerparameter/kontraktwesen/ratierliche_einstellungen_spa_846.md) 846 „Ratierliche Einstellungen“ „Ktr-Anzeige Kumulierte Zeitraum-Reste“ mit dem Wert **Ja**). |
+| Gesamtmenge | Sollmenge des Artikels im Kontrakt-Zeitraum.<br>Bei Gesamtmengen-Kontrakten wird hier die gesamte Sollmenge des Kontrakt-Zeitraums dargestellt.<br>Bei Freimengen-Kontrakten ist die Sollmenge immer mit 0 dargestellt. |
+| Restmenge | Aktuelle Restmenge des Artikels im Kontrakt-Zeitraum<br>Bei Gesamtmengen-Kontrakten wird hier die gesamte Restmenge des Kontrakt-Zeitraums dargestellt.<br>Bei Freimengen-Kontrakten ist die Restmenge immer mit 0 dargestellt. |
+| Rest>0 | Negativer Rest wird mit 0 dargestellt, aktueller Rest ist um negativen Rest des vorhergehenden Zeitraums reduziert.<br>(Nur bei eingestellter Option [Steuerungsparameter](../../../firmenstamm/steuerparameter/kontraktwesen/ratierliche_einstellungen_spa_846.md) 846 „Ratierliche Einstellungen“ „Ktr-Anzeige Minusrest in Folgezeitraum“ mit dem Wert **Ja**). |
+| Rest kumuliert | Summe der Werte aus vorhergehender Restspalte (Restmenge, Rest>0) bis einschließlich dem aktuellen Zeitraum<br>(Nur bei eingestellter Option [Steuerungsparameter](../../../firmenstamm/steuerparameter/kontraktwesen/ratierliche_einstellungen_spa_846.md) 846 „Ratierliche Einstellungen“ „Ktr-Anzeige Kumulierte Zeitraum-Reste“ mit dem Wert **Ja**). |

@@ -28,10 +28,7 @@ Die Standard-Auslieferungen sind so konstruiert, dass sie auch noch auf sehr gro
 | ZW1 | AL Return | v_id |
 | REFERENZ | SQL | select fa_belegreferenz wert from vorgangstamm where v_id = :ZW1 |
 | KUNDNUMMER | SQL | select KUNDNUMMER wert from vorgangstamm where v_id = :ZW1 |
-| Freies UND | Konstante | fa.fa_belegreferenz &lt;> '' and fa.fa_belegreferenz in (select fa_belegreferenz from vorgangstamm where v_id=:!jvars_5001_ZW1  
-union select ktr.fa_belegreferenz from v_posikontrakt vpktr join kontraktstamm ktr on ktr.ktrid = vpktr.ktrid where vpktr.v_id=:!jvars_5001_ZW1  
-union select p.fa_belegreferenz from v_posipartie vpp join partiestamm p on p.partieid = vpp.partieid where vpp.v_id=:!jvars_5001_ZW1  
-) |
+| Freies UND | Konstante | fa.fa_belegreferenz &lt;> '' and fa.fa_belegreferenz in (select fa_belegreferenz from vorgangstamm where v_id=:!jvars_5001_ZW1<br>union select ktr.fa_belegreferenz from v_posikontrakt vpktr join kontraktstamm ktr on ktr.ktrid = vpktr.ktrid where vpktr.v_id=:!jvars_5001_ZW1<br>union select p.fa_belegreferenz from v_posipartie vpp join partiestamm p on p.partieid = vpp.partieid where vpp.v_id=:!jvars_5001_ZW1<br>) |
 
 Signifikante Geschwindigkeitsvorteile konnten mit folgender Ableitung festgestellt werden:
 

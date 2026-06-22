@@ -27,8 +27,7 @@ Die Dimensionsfelder können per Einrichterparameter vorbelegt werden. Sollte f�
 
 | Feldname | Bedeutung |
 | --- | --- |
-| [Dimension 1 / Wert](./lokalitaetsdimensionen.md) | Die Dimension wird entweder durch den EPA vorbelegt oder kann eingegeben werde.  
-Als Wert für die Dimension kann ein Text eingegeben werden. |
+| [Dimension 1 / Wert](./lokalitaetsdimensionen.md) | Die Dimension wird entweder durch den EPA vorbelegt oder kann eingegeben werde.<br>Als Wert für die Dimension kann ein Text eingegeben werden. |
 | Dimension 2 / Wert | s. Dimension 1 |
 | Dimension 3 / Wert | s. Dimension 1 |
 | Dimension 4 / Wert | s. Dimension 1 |
@@ -67,12 +66,7 @@ Die Einstellungen auf dieser Registerkarte sind nur für Spezialanwendungen im L
 | Rezeptvariante | Wird an der Maschine ein Artikel, gereinigt oder Abgesackt, so kann hier die Rezeptvariante für den Produktartikel eingetragen werden. |
 | Unterklasse | Wird an der Maschine eine Produktion erfasst, z.B. eine Reinigung, so kann hier die Unterklasse für die Produktion hinterlegt werden |
 | Buchungsautomat | Buchungsautomatik für Maschinen im Lagerverwaltungssystem bezüglich der Produktionsbuchung |
-| Maschine | Ist die Lokalität eine Maschine, so kann hier der Typ hinterlegt werden.  
-0. Keine Maschine  
-1. Reinigung  
-2. Mischung  
-3. Trocknung  
-4. Absackung |
+| Maschine | Ist die Lokalität eine Maschine, so kann hier der Typ hinterlegt werden.<br>0. Keine Maschine<br>1. Reinigung<br>2. Mischung<br>3. Trocknung<br>4. Absackung |
 
 Wird der Maschine ein Typ zugeordnet, so können in der Datentabelle bislang zwei Artikel hinzugefügt werden. Es stehen zwei Typen zur Auswahl.
 

@@ -9,20 +9,14 @@ Hier finden Sie die Erklärung der einzelnen Maskenfelder
 | Eingabefelder | Bedeutung |
 | --- | --- |
 | Grid (TCP/IP Adressen) | In dem Grid werden alle aktiven und jemals aktiven Scanner-IP’s angezeigt |
-| Serverfehler | In dem Feld Serverfehler wird der Datenbank Fehler angezeigt falls es zu einem Fehler mit dem Scanner kommt.  
- |
-| Port | In dem Feld Port wird der Port der Datenbank eingegeben.  
- |
-| Updatezyklus | In dem Feld Updatezyklus wird die Updatezeit eingegeben.  
- |
+| Serverfehler | In dem Feld Serverfehler wird der Datenbank Fehler angezeigt falls es zu einem Fehler mit dem Scanner kommt.<br> |
+| Port | In dem Feld Port wird der Port der Datenbank eingegeben.<br> |
+| Updatezyklus | In dem Feld Updatezyklus wird die Updatezeit eingegeben.<br> |
 | Vorgangsprotokoll | In das Feld Vorgangsprotokoll kann eingetragen werden, ob während der Verarbeitung eines Scanvorganges in das Vorgangsprotokoll geschrieben werden soll. Dies ist nützlich bei einer eventuellen Fehlersuche. |
-| Aufräumen | Hier kann entschieden werden, ob die gescannten Daten nach erfolgreicher Vorgangserzeugung aus den Scannertabellen geleert werden.  
- |
-| Testumgebung | Hier kann entschieden werden, ob die Testumgebung genutzt werden soll.  
- |
+| Aufräumen | Hier kann entschieden werden, ob die gescannten Daten nach erfolgreicher Vorgangserzeugung aus den Scannertabellen geleert werden.<br> |
+| Testumgebung | Hier kann entschieden werden, ob die Testumgebung genutzt werden soll.<br> |
 | Testvorgang | |
-| Belegdruckernummer | Verwendet den Drucker der standardmäßig unter Windows für den Scannerbenutzer eingetragen worden ist. Wird in dem Feld Ja ausgewählt so wird nach der Erstellung des Vorgangs der Beleg automatisch ausgedruckt. Steht ein Nein in diesem Feld so wird der Beleg manuell gedruckt.  
- |
+| Belegdruckernummer | Verwendet den Drucker der standardmäßig unter Windows für den Scannerbenutzer eingetragen worden ist. Wird in dem Feld Ja ausgewählt so wird nach der Erstellung des Vorgangs der Beleg automatisch ausgedruckt. Steht ein Nein in diesem Feld so wird der Beleg manuell gedruckt.<br> |
 
 <p class="just-emphasize">Registerkarte Allgemein</p>
 
@@ -48,8 +42,7 @@ Auf der Registerkarte Allgemein finden Sie noch weitere Einstellungen, die für 
 
 | Eingabefelder | Bedeutung |
 | --- | --- |
-| Mehrpartie | Ist Mehrpartie nicht gesetzt, wird nur Wabewinfo überschrieben  
- |
+| Mehrpartie | Ist Mehrpartie nicht gesetzt, wird nur Wabewinfo überschrieben<br> |
 | Fixpartie änderbar | Hiermit kann eingestellt werden, ob eine Partie die Fix ist doch noch abgeändert werden darf. |
 | Warenbewegungsaddonfeld | Als Sonderfunktion steht die Möglichkeit bereit, die Originalmenge des Beleges vor Korrektur zu sichern, hierbei kann ein beliebiges Feld in dem Warenbewegungsaddon definiert werden. |
 | Prozentabweichung der Menge | Durch die Angabe eines Prozentwertes kann weiterhin gesteuert werden, ob die Menge, die durch den Scanner in den Vorgang eingefügt wird, überhaupt so akzeptiert wird. Liegt der Wert prozentual oberhalb des festgelegten Prozentwertes, so wird die eingescannte Menge nicht verarbeitet, es wird ein entsprechender Eintrag im Protokoll erzeugt. |
@@ -71,8 +64,7 @@ Auf der Registerkarte Allgemein finden Sie noch weitere Einstellungen, die für 
 | Section in der Aeins.ini | Section für das A.eins System |
 | Automatische Boxen Anlage | Sollen Automatische Boxen angelegt werden, wenn diese nicht vorhanden sind. |
 | Ladeträgertyp Auto Anlage | Der Ladeträgertyp bei der Automatischen Boxen Anlage. |
-| Lokalitätsnummer | Ist keine Lokalität eingescannt worden oder der Scanner hat keine gültige Lokalität so kann hier ein Default Wert gesetzt werden. Diese Funktion wird für die Lagerverwaltung benötigt.  
- |
+| Lokalitätsnummer | Ist keine Lokalität eingescannt worden oder der Scanner hat keine gültige Lokalität so kann hier ein Default Wert gesetzt werden. Diese Funktion wird für die Lagerverwaltung benötigt.<br> |
 | Menge automatisch bei EL | Bei Ja wird die Menge die im Füllen oder Wiegen Kommando eingeben worden ist automatisch an die Warenposition geschrieben. Bei muss die Menge nach dem Erfassen der Warenposition gespeichert werden. |
 | Private Mengenbehandlung Umpacken | Hier kann eine Private Prozedur hinterlegt werden, die beim Kommando Umpacken anstelle der Standard Mengenbehandlung aufgerufen wird. |
 | Abweichung in Prozent beim Umpacken | Hier kann hinterlegt werden, wie viel % Verlust beim Umpacken auftreten darf. Diese Einstellung gilt nur für den Standard Fall. |

@@ -13,10 +13,8 @@ Die Einrichterparameter umfassen momentan folgende Bereiche:
 | Vorgangsunterklasse | Im Standardfall (Knopf OK) wird diese Unterklasse als Vorbelegung genommen. |
 | Vorgangsklasse, bei der keine Preise gezogen werden | |
 | Preise nachladen aus der Liste bei Umwandlung und 0 Preisen | |
-| Itembox Kunde | In diesem EPA muss die ITEM Boxen festgelegt werden, die zum Anzeigen der Auswahlinformationen genutzt werden sollen.  
-IB_KU ist die Vorbelegungen den Kunden. |
-| Itembox Artikel | In diesem EPA muss die ITEM Boxen festgelegt werden, die zum Anzeigen der Auswahlinformationen genutzt werden sollen.  
-IB_ARTIKEL_NU ist die Vorbelegungen den Artikelfall. |
+| Itembox Kunde | In diesem EPA muss die ITEM Boxen festgelegt werden, die zum Anzeigen der Auswahlinformationen genutzt werden sollen.<br>IB_KU ist die Vorbelegungen den Kunden. |
+| Itembox Artikel | In diesem EPA muss die ITEM Boxen festgelegt werden, die zum Anzeigen der Auswahlinformationen genutzt werden sollen.<br>IB_ARTIKEL_NU ist die Vorbelegungen den Artikelfall. |
 | Itembox Zusatz | In diesem EPA muss die ITEM Boxen festgelegt werden, die zum Anzeigen der Auswahlinformationen genutzt werden sollen. |
 | Listenpreisklassenliste 1 (mit Komma trennen) | An dieser Stelle wird mit Komma getrennt, eingetragen, welche Kundenpreisklassen welche Preise (1 bis 4) zu sehen bekommen. |
 | Listenpreisklassenliste 2 (mit Komma trennen) | An dieser Stelle wird mit Komma getrennt, eingetragen, welche Kundenpreisklassen welche Preise (1 bis 4) zu sehen bekommen. |
@@ -52,15 +50,12 @@ IB_ARTIKEL_NU ist die Vorbelegungen den Artikelfall. |
 | Liste der ME-Nummern, bei denen im Umw. Fall die Menge zu 0 wird (mit Komma tr.) | |
 | Vorgangsklassenliste, für die zusätzlich Leergut abgefragt werden soll | |
 | Preiseinheit abfragen in folgenden Klassen (s.0.) | |
-| [Sortiervariante der Warenpositionen](./sortiervariante_der_warenpositionen_format_vorgpossort.md) | Dieser Einrichterparameter erlaubt eine Auswahl von Sortiermöglichkeiten innerhalb derer die Belegpositionen sortiert werden.  
-Als Besonderheit besteht die Möglichkeit, die Sortierung nach EAN (3) vorzunehmen. Wird diese Sortierung gewählt, so werden statt der EAN Nummern im Vorgang die Sortierpositionen aus der MSA Liste in das Feld EAN im Vorgang eingetragen.  
-Ein weiterer Sonderfall stellt hier das Leergut dar, für Leergut wird der EAN Code aus dem Artikelstamm in den Vorgang übernommen, so dass entschieden werden kann, ob das Leergut am Anfang oder am Ende des Beleges eingetragen werden soll. |
+| [Sortiervariante der Warenpositionen](./sortiervariante_der_warenpositionen_format_vorgpossort.md) | Dieser Einrichterparameter erlaubt eine Auswahl von Sortiermöglichkeiten innerhalb derer die Belegpositionen sortiert werden.<br>Als Besonderheit besteht die Möglichkeit, die Sortierung nach EAN (3) vorzunehmen. Wird diese Sortierung gewählt, so werden statt der EAN Nummern im Vorgang die Sortierpositionen aus der MSA Liste in das Feld EAN im Vorgang eingetragen.<br>Ein weiterer Sonderfall stellt hier das Leergut dar, für Leergut wird der EAN Code aus dem Artikelstamm in den Vorgang übernommen, so dass entschieden werden kann, ob das Leergut am Anfang oder am Ende des Beleges eingetragen werden soll. |
 | Im Umwandlungsfall eine ¨polnische¨ Korrekturrechnung erstellen | |
 | Darstellung Wertartikel | |
 | Artikel in die MSA-Liste übernehmen | |
 | Preise in die MSA-Liste übernehmen | |
-| Anzeige des Bruttowertes nach dem Speichern (Ja/Nein) | Nach Abschluss eines Beleges wird standardmäßig der Bruttowert angezeigt, diese Anzeige kann hiermit unterdrückt werden.  
- |
+| Anzeige des Bruttowertes nach dem Speichern (Ja/Nein) | Nach Abschluss eines Beleges wird standardmäßig der Bruttowert angezeigt, diese Anzeige kann hiermit unterdrückt werden.<br> |
 
 <p class="siehe-auch">Siehe auch:</p>
 

@@ -8,8 +8,7 @@ Hinweis:
 
 Einige davon sind ausschließlich lesbar, wenn das Kennzeichen „useCS“ im ImportVorgStamm auf 1 steht.
 
-| Vorgang | Vorgangs-  
-klasse | Anlegen | Bearbeiten |
+| Vorgang | Vorgangs-<br>klasse | Anlegen | Bearbeiten |
 | --- | --- | --- | --- |
 | Angebot | 100 | **ü** | **ü** |
 | Dauerauftrag | 300 | **ü****\*** | û |

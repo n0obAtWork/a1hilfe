@@ -9,14 +9,11 @@ Für die Gefahrgutabwicklung können im Artikelstamm-Pflege-Modul diverse Angabe
 | UN-Nummer | UN-Nummer nach ADR Teil 3 Tabelle A |
 | Verpackungsgruppe | Verpackungsgruppe nach ADR Teil 3 Tabelle A |
 | Gefahrgut-Klasse | Nummer der [Gefahrgut-Klassen-Definition](../../konstanten_der_artikelverwaltung/parameter_der_gefahrgutabwicklung/index.md#Gefahrgutklasse) |
-| Brand-Klasse | Nummer der [Brand-Klassen-Definition](../../konstanten_der_artikelverwaltung/parameter_der_gefahrgutabwicklung/index.md#Brandklasse)  
-Die Brand-Klasse ist entgegen früheren Verordnungen nach ADR nicht mehr erforderlich. Aus historischen Gründen wird diese in A.eins jedoch zur individuellen Nutzung weiterhin angeboten. |
-| Toxizitäts-Klasse | Nummer der [Toxizitäts-Klassen-Definition](../../konstanten_der_artikelverwaltung/parameter_der_gefahrgutabwicklung/index.md#Toxiklasse)  
-Die Toxizitäts-Klasse ist entgegen früheren Verordnungen nach ADR nicht mehr erforderlich. Aus historischen Gründen wird diese in A.eins jedoch zur individuellen Nutzung weiterhin angeboten. |
+| Brand-Klasse | Nummer der [Brand-Klassen-Definition](../../konstanten_der_artikelverwaltung/parameter_der_gefahrgutabwicklung/index.md#Brandklasse)<br>Die Brand-Klasse ist entgegen früheren Verordnungen nach ADR nicht mehr erforderlich. Aus historischen Gründen wird diese in A.eins jedoch zur individuellen Nutzung weiterhin angeboten. |
+| Toxizitäts-Klasse | Nummer der [Toxizitäts-Klassen-Definition](../../konstanten_der_artikelverwaltung/parameter_der_gefahrgutabwicklung/index.md#Toxiklasse)<br>Die Toxizitäts-Klasse ist entgegen früheren Verordnungen nach ADR nicht mehr erforderlich. Aus historischen Gründen wird diese in A.eins jedoch zur individuellen Nutzung weiterhin angeboten. |
 | Postversand zulässig | Kennzeichen (Ja/Nein): Hinweis für die Zulässigkeit des Gefahrgut-Versands per Post. |
 | Merkblatt | Der UN-Merkblatt-Verweis ist entgegen früheren Verordnungen nach ADR nicht mehr erforderlich. Aus historischen Gründen wird diese in A.eins jedoch zur individuellen Nutzung weiterhin angeboten. |
-| Gefahrgutmenge pro einer Anzahl von Grundmengeneinheiten  
- | Zur Berechnung von Volumen beziehungsweise der Bruttomasse oder Nettomasse nach ADR ist es erforderlich, diesen Bezug in Grundmengeneinheiten der Mengeneinheitsgruppe des Artikelstamms zu hinterlegen. Die Interpretation in Litern oder Kilogramm ergibt sich aus der Art des Gefahrguts. Beispiel: 10 (Liter bzw. Kilogramm) pro 5 Stück. |
+| Gefahrgutmenge pro einer Anzahl von Grundmengeneinheiten<br> | Zur Berechnung von Volumen beziehungsweise der Bruttomasse oder Nettomasse nach ADR ist es erforderlich, diesen Bezug in Grundmengeneinheiten der Mengeneinheitsgruppe des Artikelstamms zu hinterlegen. Die Interpretation in Litern oder Kilogramm ergibt sich aus der Art des Gefahrguts. Beispiel: 10 (Liter bzw. Kilogramm) pro 5 Stück. |
 | Beförderungskategorie | Nummer der Beförderungskategorie nach ADR Teil 3 Tabelle A |
 | Kategoriefaktor | Faktor zur Beförderungssummen-Berechnung nach ADR 1.1.3.6.4 |
 | Kategoriegrenzmenge | Informatorisch zur Aufnahme der maximalen Beförderungssumme nach ADR 1.1.3.6.4 |

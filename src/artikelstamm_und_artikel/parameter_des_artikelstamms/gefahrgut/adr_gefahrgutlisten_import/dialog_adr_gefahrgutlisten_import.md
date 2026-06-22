@@ -10,8 +10,6 @@ In der Anwendung ADR-Gefahrgutliste kann über die Funktion „**Import aus ADR-
 
 | Feld | Beschreibung |
 | --- | --- |
-| **ADR-Listen Datei …** | **F3** Auswahl öffnet den Datei-Explorer.  
-Pfadangabe zur ADR-Importdatei. **Diese Datei MUSS eine durch Tab-Stopp getrennte Textdatei sein**. Sie wird entweder beim Erwerb der BAM-Lizenz von der Bundesanstalt für Materialforschung und –Prüfung in dieser Form oder als Excel-Datei geliefert.  
-Im Falle einer Excel-Datei kann Excel aus den enthaltenen Daten eine Tab-Stopp getrennte Datei erzeugen. |
+| **ADR-Listen Datei …** | **F3** Auswahl öffnet den Datei-Explorer.<br>Pfadangabe zur ADR-Importdatei. **Diese Datei MUSS eine durch Tab-Stopp getrennte Textdatei sein**. Sie wird entweder beim Erwerb der BAM-Lizenz von der Bundesanstalt für Materialforschung und –Prüfung in dieser Form oder als Excel-Datei geliefert.<br>Im Falle einer Excel-Datei kann Excel aus den enthaltenen Daten eine Tab-Stopp getrennte Datei erzeugen. |
 | **Schaltfläche „Ordner“** | Hierüber kann der Datei-Explorer geöffnet und zur Suche nach der entsprechenden Datei verwendet werden. |
 | **Importieren** | Wenn eine Datei angegeben wurde, können die Daten über diese Schaltfläche nach A.eins importiert werden. Dabei werden auch bereits vorhandene Daten gelöscht, bevor die neuen eingefügt werden. |

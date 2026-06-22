@@ -15,16 +15,12 @@ Datentabellenbeschreibung Kontraktaufteilung
 | Feldname | Bedeutung |
 | --- | --- |
 | Kontraktnummer | In diesem Feld wird die Kontraktnummer eingetragen. |
-| Menge | In diesem Feld wird die Menge eingetragen. Sie wird immer in die Mengeneinheit des Kontraktes umgerechnet. Ist die eingegeben Menge kleiner als die Wiegemenge, so wird automatisch eine Position mit der Restmenge angefügt. Die Restmenge wird in der Mengeneinheit der Wiegung dargestellt.  
-Falls die automatische Kontraktaufteilung aktiviert ist und ein zweiter aktiver Kontrakt existiert, welcher die Übermenge fassen kann, wird die Übermenge automatisch auf diesen gebucht.  
-Sollte kein Kontrakt existieren, welcher die komplette Übermenge aufnehmen kann, aber zumindest noch ein Kontrakt der einen Teil hiervon aufnehmen kann, so wird dieser bebucht. Der dann noch verbliebene Rest wird auf den Tagespreis gebucht (Kontrakt 0).  
-Bei einer abweichenden Einheit von Kontrakt 1 zu Kontrakt 2 kann es zu Rundungsfehlern kommen. |
+| Menge | In diesem Feld wird die Menge eingetragen. Sie wird immer in die Mengeneinheit des Kontraktes umgerechnet. Ist die eingegeben Menge kleiner als die Wiegemenge, so wird automatisch eine Position mit der Restmenge angefügt. Die Restmenge wird in der Mengeneinheit der Wiegung dargestellt.<br>Falls die automatische Kontraktaufteilung aktiviert ist und ein zweiter aktiver Kontrakt existiert, welcher die Übermenge fassen kann, wird die Übermenge automatisch auf diesen gebucht.<br>Sollte kein Kontrakt existieren, welcher die komplette Übermenge aufnehmen kann, aber zumindest noch ein Kontrakt der einen Teil hiervon aufnehmen kann, so wird dieser bebucht. Der dann noch verbliebene Rest wird auf den Tagespreis gebucht (Kontrakt 0).<br>Bei einer abweichenden Einheit von Kontrakt 1 zu Kontrakt 2 kann es zu Rundungsfehlern kommen. |
 | ME-Bezeich | Mengeneinheit des Kontraktes |
 | Laufzeitab | Begin der Laufzeit des Kontraktes |
 | Laufzeitbis | Ende der Laufzeit des Kontraktes |
 | Kontraktmenge | Kontraktmenge |
-| Kontraktrestmenge | In diesem Feld wird die Restmenge des Kontraktes angezeigt. Mit einberechnet werden auch alle Wiegungen, die diesem Kontrakt zugeordnet worden sind, aber aus denen noch kein Vorgang erzeugt worden ist, sowie die eingegebene Menge.  
-Insbesondere wird hier die gewogene Bruttomenge vor Abzug der Qualitäten genutzt. Dies sorgt bei der automatischen Kontraktaufteilung für einen negativen Wert. |
+| Kontraktrestmenge | In diesem Feld wird die Restmenge des Kontraktes angezeigt. Mit einberechnet werden auch alle Wiegungen, die diesem Kontrakt zugeordnet worden sind, aber aus denen noch kein Vorgang erzeugt worden ist, sowie die eingegebene Menge.<br>Insbesondere wird hier die gewogene Bruttomenge vor Abzug der Qualitäten genutzt. Dies sorgt bei der automatischen Kontraktaufteilung für einen negativen Wert. |
 | Kontraktmengeneinheit | Mengeneinheit des Kontraktes |
 | Kontraktbezeichnung | Bezeichnung des Kontraktes |
 

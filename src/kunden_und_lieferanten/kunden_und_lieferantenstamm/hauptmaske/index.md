@@ -53,10 +53,8 @@ Der Kundentyp kann unter bestimmten Voraussetzungen nachträglich geändert werd
 | Interessent | Kunde | zulassen | Nummernkreis neu ziehen, existierende Vorgänge werden passend umgeändert |
 | Interessent | Lieferant | zulassen | Nummernkreis neu ziehen, existierende Vorgänge werden passend umgeändert |
 | Interessent | Kontokorrent | zulassen | Nummernkreis neu ziehen, existierende Vorgänge werden passend umgeändert |
-| Kontokorrent | Kunde | Die Kundennummer ändert sich nicht.  
-Es existieren keine Einkaufsbelege zu dieser Kundennummer. | keine Nummernänderung möglich |
-| Kontokorrent | Lieferant | Die Kundennummer ändert sich nicht.  
-Es existieren keine Verkaufsbelege zu dieser Kundennummer. | keine Nummernänderung möglich |
+| Kontokorrent | Kunde | Die Kundennummer ändert sich nicht.<br>Es existieren keine Einkaufsbelege zu dieser Kundennummer. | keine Nummernänderung möglich |
+| Kontokorrent | Lieferant | Die Kundennummer ändert sich nicht.<br>Es existieren keine Verkaufsbelege zu dieser Kundennummer. | keine Nummernänderung möglich |
 | Kontokorrent | Interessent | Es sind keine Belge zu dieser Kundennummer vorhanden | Nummernkreis neu ziehen |
 | Lieferant | Kunde | Es sind keine Belge zu dieser Kundennummer vorhanden | Nummernkreis neu ziehen |
 | Lieferant | Kontokorrent | Die Kundennummer ändert sich nicht | Nummernkreis neu ziehen |

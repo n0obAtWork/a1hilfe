@@ -21,8 +21,7 @@ Variante: *Kontrakte*
 | Pricing | Pricing-Angabe eines Kontraktartikels |
 | Sollmenge | Summe aller Zeitraum-Sollmengen des Kontrakts |
 | Waagemenge | Summe der per Kontraktzuordnung in der Onlinewaage zugordneten Mengen zum Kontrakt |
-| Restmenge | Summe aller Zeitraum-Restmengen des Kontrakts  
-**Zu beachten:** Steuerungsparameter zur Berücksichtigung von Restmengen erledigter Kontrakte |
+| Restmenge | Summe aller Zeitraum-Restmengen des Kontrakts<br>**Zu beachten:** Steuerungsparameter zur Berücksichtigung von Restmengen erledigter Kontrakte |
 | gebuchte Menge | Summe aller gebuchten Mengen des Kontrakts |
 | Mengeneinheit Menge | Mengeneinheit der Mengendarstellungen |
 | Kontraktpreis | Der angegeben Preis im Kontrakt |
@@ -31,11 +30,9 @@ Variante: *Kontrakte*
 | disponiert | Summe aller disponierten Mengen des Kontrakts |
 | Hauptkunde | Nummer des Hauptkunden der dem Kontrakt zugeordneten [Kontraktgruppe](../kontraktgruppen.md) nebst dessen Bezeichnung |
 | Staat | ISO-Bezeichnung des Staats der Kontrakt-Versandanschrift beziehungsweise Haupanschrift |
-| Ort  
- | Ort der Kontrakt-Versandanschrift beziehungsweise Haupanschrift |
+| Ort<br> | Ort der Kontrakt-Versandanschrift beziehungsweise Haupanschrift |
 | Ernte | Das dem Kontrakt zugeordnete Erntejahr |
-| Start  
- | Das Startdatum der Gültigkeit des Kontrakts |
+| Start<br> | Das Startdatum der Gültigkeit des Kontrakts |
 | Ende | Das reguläre Enddatum Gültigkeit des Kontrakts |
 | Disp. Gruppe | Dispositionsgruppe des Kontrakts |
 | beteiligte Kunden | Liste der Kundennummern der der Kontraktgruppe zugeordneten Kunden |
@@ -55,8 +52,7 @@ Variante: *Kontrakte*
 | Buchungstyp | Buchungstyp des Kontrakts (normal, Vorverkauf, Voreinkauf, Einlagerung, Kommission) |
 | Betrag | Nettosumme des Kontrakts |
 | Erledigt | Erledigungskennzeichen des Kontrakts |
-| individuelle Nachhaltigkeit | Nur bei vorhandener Nachhaltigkeit-Lizenz:  
-Im Kontraktartikel angegebenes Nachhaltigkeitskennzeichen eines im Artikelstamm als nachhaltig gekennzeichneten Kontraktartikels |
+| individuelle Nachhaltigkeit | Nur bei vorhandener Nachhaltigkeit-Lizenz:<br>Im Kontraktartikel angegebenes Nachhaltigkeitskennzeichen eines im Artikelstamm als nachhaltig gekennzeichneten Kontraktartikels |
 | Gruppe | Nummer der Kontraktgruppe |
 | Gruppenbezeichnung | Bezeichnung der Kontraktgruppe |
 

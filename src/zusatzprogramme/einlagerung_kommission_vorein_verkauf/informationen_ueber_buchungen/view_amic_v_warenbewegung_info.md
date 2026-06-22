@@ -6,8 +6,7 @@ Zuweilen wollen Sie sicher zusätzliche Informationen zu den Warenbewegungen bek
 
 Diese View kann mit dem Feld wabew_id an die Tabelle Warenbewegung oder andere Views gejoint werden, die die wabew_id enthalten.
 
-| AMIC_V_Warenbewegung_Info  
-Gibt zusätzliche Informationen zu Warenbewegungen |
+| AMIC_V_Warenbewegung_Info<br>Gibt zusätzliche Informationen zu Warenbewegungen |
 | --- |
 | Feld | Typ | Bezeichnung |
 | wabew_id | Integer | ID der Warenbewegung |
@@ -47,20 +46,15 @@ Gibt zusätzliche Informationen zu Warenbewegungen |
 | wbc_BewArt | smallint | Siehe unten |
 | wbc_BewCode | smallint | Siehe unten |
 
-| Bewegungsart  
-Ist wbc_BewArt gleich 0, so handelt es sich um eine reine buchhalterische Buchung, bei der keine Ware physisch bewegt wird (Ausnahme reiner Einkauf, reiner Verkauf). Dies kann das bisherige Kennzeichen WaBewBestTyp der Warenbewegung ersetzen. |
+| Bewegungsart<br>Ist wbc_BewArt gleich 0, so handelt es sich um eine reine buchhalterische Buchung, bei der keine Ware physisch bewegt wird (Ausnahme reiner Einkauf, reiner Verkauf). Dies kann das bisherige Kennzeichen WaBewBestTyp der Warenbewegung ersetzen. |
 | --- |
-| 0 | Alle Buchungen, die buchhalterisch relevante Bestände berühren (EK, VK, Vereinnahmung und Kommissionsverkauf)  
-Diese Bewegungsart wurde in früheren Versionen auch als Eigenbewegung bezeichnet. |
-| 1 | Buchung, die nur einen physikalischen Bestand berührt – Vorverkauf Abholung  
-Diese Bewegungsart wurde in früheren Versionen auch als FremdwareVerkauf bezeichnet |
-| 2 | Buchung, die nur einen physikalischen Bestand berührt – Voreinkauf Anlieferung  
-Diese Bewegungsart wurde in früheren Versionen auch als Fremdlager Einkauf bezeichnet |
+| 0 | Alle Buchungen, die buchhalterisch relevante Bestände berühren (EK, VK, Vereinnahmung und Kommissionsverkauf)<br>Diese Bewegungsart wurde in früheren Versionen auch als Eigenbewegung bezeichnet. |
+| 1 | Buchung, die nur einen physikalischen Bestand berührt – Vorverkauf Abholung<br>Diese Bewegungsart wurde in früheren Versionen auch als FremdwareVerkauf bezeichnet |
+| 2 | Buchung, die nur einen physikalischen Bestand berührt – Voreinkauf Anlieferung<br>Diese Bewegungsart wurde in früheren Versionen auch als Fremdlager Einkauf bezeichnet |
 | 3 | Buchung, die nur einen physikalischen Bestand berührt – Einlagerung und Abholung |
 | 4 | Buchung, die nur einen physikalischen Bestand berührt – Kommission und Rücknahme |
 
-| Bewegungscode  
-Der wbc_BewCode beschreibt die Herkunft der Warenbewegung. Während Codes kleiner 10 die eigentliche Tätigkeit beschreiben, kennzeichnen Codes zwischen 11 und 19 die jeweiligen Folgeschritte. Die Codes zwischen 21 und 29 sind für die Rückabwicklungen reserviert. Die Codes 10 und 20 stehen für Einkauf bzw. Verkauf. |
+| Bewegungscode<br>Der wbc_BewCode beschreibt die Herkunft der Warenbewegung. Während Codes kleiner 10 die eigentliche Tätigkeit beschreiben, kennzeichnen Codes zwischen 11 und 19 die jeweiligen Folgeschritte. Die Codes zwischen 21 und 29 sind für die Rückabwicklungen reserviert. Die Codes 10 und 20 stehen für Einkauf bzw. Verkauf. |
 | --- |
 | 1 | Vorverkauf |
 | 2 | Voreinkauf |

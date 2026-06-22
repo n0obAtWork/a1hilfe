@@ -18,30 +18,21 @@ Nach ausführen der Funktion „Private Ableitung“ öffnet sich ein weiterer D
 
 | | **Beschreibung** |
 | --- | --- |
-| Bezeichnung | Die Bezeichnung, wie sie später in der Anwendung zu sehen ist.  
- |
-| Sortierung | Hier kann man angeben, an welcher Stelle in der Varianten-Auswahl diese private Variante stehen soll. Vorbelegt wird der Wert immer so, dass die private Variante am Ende einsortiert wird,  
- |
-| Markieren erlaubt | Wenn hier ein **Nein** eingetragen wird, dann ist das Markieren einzelner Zeilen nicht mehr möglich und es gilt für alle Funktionen immer die Gesamtauswahl.  
- |
+| Bezeichnung | Die Bezeichnung, wie sie später in der Anwendung zu sehen ist.<br> |
+| Sortierung | Hier kann man angeben, an welcher Stelle in der Varianten-Auswahl diese private Variante stehen soll. Vorbelegt wird der Wert immer so, dass die private Variante am Ende einsortiert wird,<br> |
+| Markieren erlaubt | Wenn hier ein **Nein** eingetragen wird, dann ist das Markieren einzelner Zeilen nicht mehr möglich und es gilt für alle Funktionen immer die Gesamtauswahl.<br> |
 | Option Box | Sollen in dieser Variante andere Funktionen angeboten werden, so kann man eine eigen Optionbox hinterlegen, in der man die Funktionen zur Verfügung stellen kann. |
 
 Funktionen:
 
 | | **Beschreibung** |
 | --- | --- |
-| Speichern | Speichert die Änderungen.  
- |
-| Zugehöriger SQL-Text | Hier kann der SQL-Text bearbeitet werden. Eine Liste der Schlüsselwörter findet an hier.  
- |
-| SQL-Text vergleichen mit | Es öffnet sich eine F3-Auswahl, in der alle Varianten der aktiven Anwendung zu Auswahl angeboten werden. Anschließend öffnet sich ein Tool, in dem der private SQL-Text mit dem SQL-Text der ausgewählten Variante verglichen wird.  
- |
-| Zugehöriger Bereich | Zu jeder Variante gehört auch eine eigene [Bereichsauswahl](../auswahlliste_2_0/anwendungsregister/f2_bereichsauswahl/index.md). Die zu dieser privaten Variante gehörende Bereichsauswahl lässt sich hier bearbeiten.  
- |
-| Zugehörige Optionbox | Mit dieser Funktion lässt sich die die hinterlegte Optionbox(s.o.) bearbeiten.  
- |
-| Export | Entlädt die private Variante in eine Textdatei, die so über OSQL auf einer anderen Datenbank wieder eingespielt werden kann.  
- |
+| Speichern | Speichert die Änderungen.<br> |
+| Zugehöriger SQL-Text | Hier kann der SQL-Text bearbeitet werden. Eine Liste der Schlüsselwörter findet an hier.<br> |
+| SQL-Text vergleichen mit | Es öffnet sich eine F3-Auswahl, in der alle Varianten der aktiven Anwendung zu Auswahl angeboten werden. Anschließend öffnet sich ein Tool, in dem der private SQL-Text mit dem SQL-Text der ausgewählten Variante verglichen wird.<br> |
+| Zugehöriger Bereich | Zu jeder Variante gehört auch eine eigene [Bereichsauswahl](../auswahlliste_2_0/anwendungsregister/f2_bereichsauswahl/index.md). Die zu dieser privaten Variante gehörende Bereichsauswahl lässt sich hier bearbeiten.<br> |
+| Zugehörige Optionbox | Mit dieser Funktion lässt sich die die hinterlegte Optionbox(s.o.) bearbeiten.<br> |
+| Export | Entlädt die private Variante in eine Textdatei, die so über OSQL auf einer anderen Datenbank wieder eingespielt werden kann.<br> |
 
 <p class="siehe-auch">Siehe auch:</p>
 

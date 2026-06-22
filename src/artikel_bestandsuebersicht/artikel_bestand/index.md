@@ -25,10 +25,8 @@ Die Hauptvariante **Artikelbestände** weist pro Artikel und Lager alle wesentli
 | FremdesLager | Siehe Definition von [Fremdlager](../../abschluesse_inventur/waren_lager_und_eigentumsbegriffe/begriffsdefinitionen.md#Fremdlager) |
 | EigeneWare | Siehe Definition von [Eigene Ware](../../abschluesse_inventur/waren_lager_und_eigentumsbegriffe/begriffsdefinitionen.md#EigeneWare) |
 | EigenesLager | Siehe Definition von [Eigenes Lager](../../abschluesse_inventur/waren_lager_und_eigentumsbegriffe/begriffsdefinitionen.md#EigenesLager) |
-| Nachhaltig | Nur bei gültiger Nachhaltigkeit-Lizenz:  
-nachhaltige Menge |
-| Nicht Nachhaltig | Nur bei gültiger Nachhaltigkeit-Lizenz:  
-nicht nachhaltige Menge |
+| Nachhaltig | Nur bei gültiger Nachhaltigkeit-Lizenz:<br>nachhaltige Menge |
+| Nicht Nachhaltig | Nur bei gültiger Nachhaltigkeit-Lizenz:<br>nicht nachhaltige Menge |
 
 | **Bereichsauswahl** | |
 | --- | --- |
@@ -36,11 +34,7 @@ nicht nachhaltige Menge |
 | Lagernummer | Hier kann der Bereich der berücksichtigten Läger eingeschränkt werden. |
 | Artikel-Pool | Hier kann die Auswahl auf einen Artikel-Pool-Bereich eingeschränkt werden. |
 | Warengruppe | Hier kann die Auswahl auf einen Warengruppenbereich eingeschränkt werden. |
-| Fremdbestand | Optionen:  
-\- Alle Artikel  
-\- Artikel mit Fremdlagerbestand  
-\- Artikel mit Fremdwarebestand  
-\- Artikel mit Fremdlager- oder Fremdwarebestand |
+| Fremdbestand | Optionen:<br>\- Alle Artikel<br>\- Artikel mit Fremdlagerbestand<br>\- Artikel mit Fremdwarebestand<br>\- Artikel mit Fremdlager- oder Fremdwarebestand |
 | Ohne 0-Mengen | Bei dem Wert **‚Ja‘** in diesem Auswahlfeld werden nur Artikel berücksichtigt, die einen Eigenbestand aufweisen, der nicht 0 ist. . |
 
 | **Funktionen** | |

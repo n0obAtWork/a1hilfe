@@ -33,11 +33,7 @@
 | Wertartikel | |
 | Ltz. VK Prozedur | |
 | Partieitembox | |
-| Entryprozedur Preisbezug | Hier wird der Name einer Prozedur angegeben, die anhand der gegebenen Werte eine Vorbelegung für den Preisbezug errechnet (sofern relevant)  
-Beispiel:  
-   
-Als Vorbelegung bekommt die Prozedur über eine Dreisatzberechnung den Wert „in_PreisBezugCurr„ gegeben.  
- |
+| Entryprozedur Preisbezug | Hier wird der Name einer Prozedur angegeben, die anhand der gegebenen Werte eine Vorbelegung für den Preisbezug errechnet (sofern relevant)<br>Beispiel:<br> <br>Als Vorbelegung bekommt die Prozedur über eine Dreisatzberechnung den Wert „in_PreisBezugCurr„ gegeben.<br> |
 | Ltz. VK Bezeichnung | |
 | Folgeartikel Prozedur | |
 | Wertberechnungsprozedur | |

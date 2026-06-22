@@ -9,7 +9,5 @@
 | Festen Wert erzwingen | Wenn hier ein Ja eingetragen wird, wird das Lager aus dem Prozess als Vorbelegung des Waagenlagers genommen. |
 | Klasse | Die Vorgangsklasse kann nur in Abhängigkeit des Wiegetyps gesetzt werden. |
 | Unterklasse | Unterklasse der Vorgangsklasse |
-| Warenausgang (Kunde) | automatische Zuordnung Kunde/Lieferant zur Partie:  
-Beim Abschließen einer Wiegung im Warenausgang wird bei einer ausgewählten Partie, der Kunde im Partiestamm eingetragen. Dieses Verhalten kann hier ein-/ausgeschaltet werden. |
-| Wareneingang (Lieferant) | automatische Zuordnung Kunde/Lieferant zur Partie:  
-Beim Abschließen einer Wiegung im Wareneingang wird bei einer ausgewählten Partie, der Lieferant im Partiestamm eingetragen. Dieses Verhalten kann hier ein-/ausgeschaltet werden. |
+| Warenausgang (Kunde) | automatische Zuordnung Kunde/Lieferant zur Partie:<br>Beim Abschließen einer Wiegung im Warenausgang wird bei einer ausgewählten Partie, der Kunde im Partiestamm eingetragen. Dieses Verhalten kann hier ein-/ausgeschaltet werden. |
+| Wareneingang (Lieferant) | automatische Zuordnung Kunde/Lieferant zur Partie:<br>Beim Abschließen einer Wiegung im Wareneingang wird bei einer ausgewählten Partie, der Lieferant im Partiestamm eingetragen. Dieses Verhalten kann hier ein-/ausgeschaltet werden. |

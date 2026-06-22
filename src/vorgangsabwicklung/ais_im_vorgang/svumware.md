@@ -35,8 +35,6 @@ Benötigte JVARS
 | JAVR | Funktion | Bedeutung |
 | --- | --- | --- |
 | VORGANGHANDLE | Lesend | Mit dieser JAVR wird der aktuelle Handle des Vorgangs übergeben |
-| UMBUCHUNGHANDLE | Lesend  
- | Mit dieser JVAR wird der Handle der Umbuchung übergeben. |
-| ID | Lesend  
- | Mit dieser JVAR wird die Nummer der ID übergeben |
+| UMBUCHUNGHANDLE | Lesend<br> | Mit dieser JVAR wird der Handle der Umbuchung übergeben. |
+| ID | Lesend<br> | Mit dieser JVAR wird die Nummer der ID übergeben |
 | FELDNAME | Lesend | Diese JVAR enthält den Namen des aufrufenden Feldes. Das Feld kann aber auch eine Funktion sein. Es wird der Feldname aus der Spalte Maskenfeld von der Tabelle drüber an das Makro übermittelt. |

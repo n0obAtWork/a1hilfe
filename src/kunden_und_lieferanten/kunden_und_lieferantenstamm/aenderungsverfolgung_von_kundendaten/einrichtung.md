@@ -4,19 +4,10 @@
 
 | Feld | Beschreibung |
 | --- | --- |
-| Tabellenname | Auswahl der zu Überwachenden Tabelle.  
-Bei gesperrten oder geblockten Tabellen, ist die jeweilige Zeile rot gekennzeichnet.  
-Es gibt zwei Besonderheiten bei den Tabellen:  
-1) Wenn man die Tabelle „Kundenkredit“ überwacht, muss man auch das Feld KundKredit im Kundenstamm überwachen.  
-2) Wenn man die Tabelle „KundForderGruppe“ überwacht, so muss man auch das Feld ForGrupNummer im Kundenstamm überwachen.  
-Es erscheinen bei der Einrichtung entsprechende Meldungen.  
- |
-| Tabellenfeld | Zeigt die Felder der ausgewählten Tabelle.  
- |
-| Überwachen? | Hier kann entschieden werden, ob das Feld überwacht werden soll oder nicht.  
- |
-| Hinweisfeld (unten links) | Es wird geprüft ob Tabellen aktuell für eine Bearbeitung durch einen Mitarbeiter gesperrt sind. Ist dies der Fall, so wird hier ein Hinweis mit der gesperrten Tabelle, sowie dem Benutzer, der die Sperre verursacht angezeigt.  
- |
+| Tabellenname | Auswahl der zu Überwachenden Tabelle.<br>Bei gesperrten oder geblockten Tabellen, ist die jeweilige Zeile rot gekennzeichnet.<br>Es gibt zwei Besonderheiten bei den Tabellen:<br>1) Wenn man die Tabelle „Kundenkredit“ überwacht, muss man auch das Feld KundKredit im Kundenstamm überwachen.<br>2) Wenn man die Tabelle „KundForderGruppe“ überwacht, so muss man auch das Feld ForGrupNummer im Kundenstamm überwachen.<br>Es erscheinen bei der Einrichtung entsprechende Meldungen.<br> |
+| Tabellenfeld | Zeigt die Felder der ausgewählten Tabelle.<br> |
+| Überwachen? | Hier kann entschieden werden, ob das Feld überwacht werden soll oder nicht.<br> |
+| Hinweisfeld (unten links) | Es wird geprüft ob Tabellen aktuell für eine Bearbeitung durch einen Mitarbeiter gesperrt sind. Ist dies der Fall, so wird hier ein Hinweis mit der gesperrten Tabelle, sowie dem Benutzer, der die Sperre verursacht angezeigt.<br> |
 
 <p class="just-emphasize">Hilfe F1</p>
 

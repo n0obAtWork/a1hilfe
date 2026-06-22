@@ -10,21 +10,11 @@ Innerhalb des Eingabebildschirms werden die Eingrenzungen vorgenommen, mit deren
 
 | | Beschreibung |
 | --- | --- |
-| **Kontoart**  
- | Sachkonto, Personenkonto, Debitoren, Kreditoren oder Kontokorrent  
- |
-| **bis Periode/Jahr**  
- | Eingabe Periode Jahr bis zu der/den Buchungen berücksichtigt werden  
- |
-| **bis Belegdatum**  
- | Eingabe des Datums bis zu den Buchungen berücksichtigt werden Bei der Erstellung von Kontoblättern für Forderungs-/Verbindlichkeitskonten für die Methode „Saldo Stichtag“ wird das Belegdatum nicht berücksichtig.  
- |
-| **Bemerkung**  
- | Eingabe Wahlfreier Text  
- |
-| **Kontobereich von ... bis ...**  
- | Eingrenzung der Konten  
- |
+| **Kontoart**<br> | Sachkonto, Personenkonto, Debitoren, Kreditoren oder Kontokorrent<br> |
+| **bis Periode/Jahr**<br> | Eingabe Periode Jahr bis zu der/den Buchungen berücksichtigt werden<br> |
+| **bis Belegdatum**<br> | Eingabe des Datums bis zu den Buchungen berücksichtigt werden Bei der Erstellung von Kontoblättern für Forderungs-/Verbindlichkeitskonten für die Methode „Saldo Stichtag“ wird das Belegdatum nicht berücksichtig.<br> |
+| **Bemerkung**<br> | Eingabe Wahlfreier Text<br> |
+| **Kontobereich von ... bis ...**<br> | Eingrenzung der Konten<br> |
 | | | |
 
 Ist als Kontoart Personenkonto bzw. Debitor/Kreditor oder Kontokorrent angewählt, so kann man auch die auf der Abbildung deaktivierten Felder zur Eingrenzung verwenden.

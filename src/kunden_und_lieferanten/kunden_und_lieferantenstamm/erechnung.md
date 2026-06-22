@@ -53,7 +53,5 @@ Für den Import mit anschließender Verarbeitung im Belegfluss können hier Proz
 
 | Bezeichnung | Bedeutung |
 | --- | --- |
-| **eRechnung ArtikelInfo** | Diese Prozedur ermittelt anhand einer InvoiceLineId in der eRechnung eine Artikelnummer und eine Artikelbezeichnung.  
-Als Standard-Auslieferung und Vorlage für eigene Prozeduren wurde die Demo-Prozedur „AMIC_STD_XRE_ImportLine“ erstellt. |
-| **eRechnung ArtikelDetails** | Diese Prozedur ermittelt anhand einer InvoiceLineId in der eRechnung weitere Inforationen zum Abgleich z.B. Mengeneinheiten, Umrechnungsfaktoren etc. und stellt diese den Werten aus der erfassten Quell-Position gegenüber.  
-Als Standard-Auslieferung und Vorlage für eigene Prozeduren wurde die Demo-Prozedur „AMIC_STD_XRE_ImportLineDetails“ erstellt. |
+| **eRechnung ArtikelInfo** | Diese Prozedur ermittelt anhand einer InvoiceLineId in der eRechnung eine Artikelnummer und eine Artikelbezeichnung.<br>Als Standard-Auslieferung und Vorlage für eigene Prozeduren wurde die Demo-Prozedur „AMIC_STD_XRE_ImportLine“ erstellt. |
+| **eRechnung ArtikelDetails** | Diese Prozedur ermittelt anhand einer InvoiceLineId in der eRechnung weitere Inforationen zum Abgleich z.B. Mengeneinheiten, Umrechnungsfaktoren etc. und stellt diese den Werten aus der erfassten Quell-Position gegenüber.<br>Als Standard-Auslieferung und Vorlage für eigene Prozeduren wurde die Demo-Prozedur „AMIC_STD_XRE_ImportLineDetails“ erstellt. |

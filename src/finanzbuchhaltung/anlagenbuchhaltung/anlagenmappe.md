@@ -18,18 +18,10 @@ Der Punkt NEU sorgt dafür, dass eine neue Mappe angelegt wird. Es öffnet sich 
 
 | | Bedeutung |
 | --- | --- |
-| Bezeichnung  
- | Hier trägt man einen eindeutigen Text ein, der die Identifizierung erleichtert.  
- |
-| Angelegt am / von  
- | Hier steht das Datum, an dem die Mappe erstellt wurde bzw. der Benutzer, der sie angelegt hat. Beide werden vom System eingetragen und sind nicht änderbar.  
- |
-| Wiedervorlage am / bei  
- | Hier wird ein Datum eingetragen, an dem die Mappe bei dem Kollegen der unter “bei“ eingetragen wurde vorgelegt wird. An dem Datum erscheint dann, wenn dieser Anwender sich neu anmeldet unter dem Menü Favoriten ein Punkt „Wiedervorlage vorhanden“. Ist kein Anwender unter „bei“ eingetragen, wird keine Funktion ausgelöst.  
- |
-| Hinweistext  
- | Hier trägt man ein, was zu klären ist.  
- |
+| Bezeichnung<br> | Hier trägt man einen eindeutigen Text ein, der die Identifizierung erleichtert.<br> |
+| Angelegt am / von<br> | Hier steht das Datum, an dem die Mappe erstellt wurde bzw. der Benutzer, der sie angelegt hat. Beide werden vom System eingetragen und sind nicht änderbar.<br> |
+| Wiedervorlage am / bei<br> | Hier wird ein Datum eingetragen, an dem die Mappe bei dem Kollegen der unter “bei“ eingetragen wurde vorgelegt wird. An dem Datum erscheint dann, wenn dieser Anwender sich neu anmeldet unter dem Menü Favoriten ein Punkt „Wiedervorlage vorhanden“. Ist kein Anwender unter „bei“ eingetragen, wird keine Funktion ausgelöst.<br> |
+| Hinweistext<br> | Hier trägt man ein, was zu klären ist.<br> |
 
 Nachdem man diese Mappe gespeichert hat, kann man sie unter dem Menüpunkt „Anlagenmappen“ bearbeiten. Dort erscheint dann wieder das bekannte Fenster, nur dass jetzt eine weitere Registerkarte mit den Anlagegütern erscheint.
 

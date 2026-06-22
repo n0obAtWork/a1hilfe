@@ -18,8 +18,7 @@ Direktsprung **[BB]**
 | Nachkomma 1-5 | Eingabefelder mit Nachkommastellen (Label über Einrichterparameter einstellbar) |
 | Datum 1-3 | Eingabefelder fürs Datum (Label über [Einrichterparameter](../../firmenstamm/firmenkonstanten/bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/bedienerstamm_pfleger.md#Einrichterparameter) einstellbar) |
 | Rollbox | Box zum Scrollen (Label über [Einrichterparameter](../../firmenstamm/firmenkonstanten/bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/bedienerstamm_pfleger.md#Einrichterparameter) einstellbar) |
-| Anlagen | Die Anlagenverwaltung in den Besuchsberichten ist veraltet. Bitte das Archiv verwenden.  
- |
+| Anlagen | Die Anlagenverwaltung in den Besuchsberichten ist veraltet. Bitte das Archiv verwenden.<br> |
 
 <p class="just-emphasize">Einrichterparameter für Besuchsberichte</p>
 
@@ -47,19 +46,14 @@ Direktsprung **[BB]**
 | Formatstring für Feld 3 | | |
 | Formatstring für Feld 4 | | |
 | Formatstring für Feld 5 | | |
-| Itembox für Feld 1 | F3-Auswahl für das Feld  
-z.B. IB_KU | |
+| Itembox für Feld 1 | F3-Auswahl für das Feld<br>z.B. IB_KU | |
 | Itembox für Feld 2 | F3-Auswahl für das Feld | |
 | Itembox für Feld 3 | F3-Auswahl für das Feld | |
 | Itembox für Feld 4 | F3-Auswahl für das Feld | |
 | Itembox für Feld 5 | F3-Auswahl für das Feld | |
 | Itembox für Feld 6 (Text) | F3-Auswahl für das Feld | |
 | Itembox für Feld 7 (Text) | F3-Auswahl für das Feld | |
-| Geben Sie hier die Größe der Registerkarte an: Breite mal Höhe | Hiermit kann man die Größe des Registers Allgemein verändern. Sollte man z.B. nur sehr wenige Felder eingeblendet haben ist es netter wenn auch die Maske kleiner ist.  
-Syntax ist  
-**Breite,Höhe**  
-Trennzeichen zwischen den Werten ist ein Komma.  
-Bleibt das Feld leer, dann hat das Register die Standardgröße. | |
+| Geben Sie hier die Größe der Registerkarte an: Breite mal Höhe | Hiermit kann man die Größe des Registers Allgemein verändern. Sollte man z.B. nur sehr wenige Felder eingeblendet haben ist es netter wenn auch die Maske kleiner ist.<br>Syntax ist<br>**Breite,Höhe**<br>Trennzeichen zwischen den Werten ist ein Komma.<br>Bleibt das Feld leer, dann hat das Register die Standardgröße. | |
 
 <p class="just-emphasize">Anlagen</p>
 

@@ -7,11 +7,7 @@
 | Betrieb | Filialnummer der ausgewählten Betriebsstätte. Dahinter dessen Bezeichnung. |
 | Empfänger Betriebsstätte | Filialnummer der Betriebsstätte des Empfängers |
 | Von Daten aus der Publikation | Name der Publikation deren Daten an den Empfänger übertragen werden sollen. |
-| Teilmenge | Der hier angegebene stellt den Vergleichswert dar. Dieser wird mit dem Inhalt der in der *„subscribe by“*\-Klausel angegebenen Tabellenfeld, eines Artikels dieser Publikation verglichen. Nur Zeilen bzw. Datensätze, die diesen Vergleich erfüllen werden für die Replikation an den Datenempfänger berücksichtigt.  
-**Beispiel:**  
-***Feld Teilmenge****: 2*  
-***„subscribe by“-Klausel****: subscribe by filialnummer*  
-***Ergebnis****: es werden alle Datensätze dieses Artikels repliziert die im Tabellenfeld Filialnummer den Wert 2 stehen haben!* |
+| Teilmenge | Der hier angegebene stellt den Vergleichswert dar. Dieser wird mit dem Inhalt der in der *„subscribe by“*\-Klausel angegebenen Tabellenfeld, eines Artikels dieser Publikation verglichen. Nur Zeilen bzw. Datensätze, die diesen Vergleich erfüllen werden für die Replikation an den Datenempfänger berücksichtigt.<br>**Beispiel:**<br>***Feld Teilmenge****: 2*<br>***„subscribe by“-Klausel****: subscribe by filialnummer*<br>***Ergebnis****: es werden alle Datensätze dieses Artikels repliziert die im Tabellenfeld Filialnummer den Wert 2 stehen haben!* |
 
 | **Funktionen** | |
 | --- | --- |

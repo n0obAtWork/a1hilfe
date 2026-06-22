@@ -22,18 +22,10 @@ In dieser Variante werden Produktions- und Umbuchungs-Vorgänge dargestellt
 | Belegnr. | Nummer des Vorgangs |
 | Typ | Vorgangsklassenkürzel des Belegs |
 | Datum | Belegdatum |
-| Dru | --: Beleg ist nicht gedruckt  
-Ja: Beleg ist gedruckt |
-| Fib | --: Beleg ist noch nicht übertragen  
-i.B.: Übertragungsauftrag an Mandantenserver erteilt  
-Ja: Beleg ist an Fibu übertragen  
-NN: Beleg ist nicht übertragbar (z.B. Stornobeleg zu nicht übertragenem Originalbeleg) |
-| RAB | --: Beleg ist noch nicht im Rechnungsaugangsbuch  
-i.B.: Übertragungsauftrag an Mandantenserver erteilt  
-Ja: Beleg ist im Rechnungsausgangsbuch |
-| Verarb. | --: Beleg ist nicht weiterverarbeitet  
-teilweise: Beleg ist teildisponiert  
-ganz: Beleg ist weiterverarbeitet |
+| Dru | --: Beleg ist nicht gedruckt<br>Ja: Beleg ist gedruckt |
+| Fib | --: Beleg ist noch nicht übertragen<br>i.B.: Übertragungsauftrag an Mandantenserver erteilt<br>Ja: Beleg ist an Fibu übertragen<br>NN: Beleg ist nicht übertragbar (z.B. Stornobeleg zu nicht übertragenem Originalbeleg) |
+| RAB | --: Beleg ist noch nicht im Rechnungsaugangsbuch<br>i.B.: Übertragungsauftrag an Mandantenserver erteilt<br>Ja: Beleg ist im Rechnungsausgangsbuch |
+| Verarb. | --: Beleg ist nicht weiterverarbeitet<br>teilweise: Beleg ist teildisponiert<br>ganz: Beleg ist weiterverarbeitet |
 | Warenwert | Netto-Warenwert des Vorgangs |
 | Netto. | Netto-Betrag des Vorgangs |
 | Steuer | Steuer-Betrag des Vorgangs |
@@ -51,15 +43,7 @@ ganz: Beleg ist weiterverarbeitet |
 | --- | --- |
 | Belegnummer | Selektion der Belege mit Belegnummer (von/bis) |
 | Datum | Selektion der Belege mit Belegdatum (von/bis) |
-| Vorgangsklasse | Selektion der Belege mit Vorgangsklassen:  
-alle Umbuchungen:  
- Lagerumbuchungen (5110),  
- Artikelumbuchungen (5120),  
- Produktion (5220)  
-Lagerplatzumbuchungen (5100)  
-Lagerumbuchungen (5110)  
-Artikelumbuchungen (5120)  
-Produktion (5220) |
+| Vorgangsklasse | Selektion der Belege mit Vorgangsklassen:<br>alle Umbuchungen:<br> Lagerumbuchungen (5110),<br> Artikelumbuchungen (5120),<br> Produktion (5220)<br>Lagerplatzumbuchungen (5100)<br>Lagerumbuchungen (5110)<br>Artikelumbuchungen (5120)<br>Produktion (5220) |
 
 </details>
 

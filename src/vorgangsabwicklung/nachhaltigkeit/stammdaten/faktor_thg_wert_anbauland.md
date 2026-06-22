@@ -14,10 +14,8 @@ Für die THG-Werte können Faktoren hinterlegt werden, dafür stehen im Pfleger 
 | --- | --- |
 | Nummer | Nummer des Faktors |
 | Bezeichnung | Bezeichnung des Faktors |
-| Einheit | Textliche Beschreibung der Einheit  
-*(Z.B. kg CO2-eq/kg N-Dünger)* |
-| Quelle | Herkunft der Informationen  
-*(Z.B. IFEU / TREMOD)* |
+| Einheit | Textliche Beschreibung der Einheit<br>*(Z.B. kg CO2-eq/kg N-Dünger)* |
+| Quelle | Herkunft der Informationen<br>*(Z.B. IFEU / TREMOD)* |
 | Wert | Wert des Faktors |
 
 THG-Werte
@@ -35,33 +33,22 @@ Im Artikelstamm wird dann auf diese Werte Bezug genommen. Dadurch kann man für 
 | Konversionsfaktor | Fruchtartspezifische Konstante laut BLE |
 | Teilstandardwert | Fruchtartspezifische Konstante laut BLE |
 | Texte aktiv | Aktiviert die individuellen Texte für alle Artikel, die diesen THG-Wert hinterlegt haben. |
-| Label | Individueller Text für den LABEL  
-(Ursprünglicher Text: „aus nachhaltigem Anbau.“) |
-| Text1 | Individueller Text für den TEXT1  
-(Ursprünglicher Text: „Zertifizierungssystem für Nachhaltigkeit: &lt;ZERTIFIZIERUNGSMETHODETEXT>“) |
-| Text2 | Individueller Text für den TEXT2  
-(Ursprünglicher Text: „&lt;ZERTIFIZIERUNGSMETHODETEXT>, Zertifikatsnummer: &lt;ZERTIFIKATBEMERKUNG>“) |
-| Text3 | Individueller Text für den TEXT3  
-(Ursprünglicher Text: „Die Ware entspricht den Nachhaltigkeitsverordnungen (BioSt-NachV u. Biokraft-NachV)!“) |
-| Text4 | Individueller Text für den TEXT4  
-(Ursprünglicher Text: „Für die Berechnung der Treibhausgasbilanzierung soll der Standardwert verwendet werden“) |
-| Text5 | Individueller Text für den TEXT5  
-(Ursprünglicher Text: „(§ 8 u. Anlage 2 der Nachhaltigkeitsverordnungen)“) |
+| Label | Individueller Text für den LABEL<br>(Ursprünglicher Text: „aus nachhaltigem Anbau.“) |
+| Text1 | Individueller Text für den TEXT1<br>(Ursprünglicher Text: „Zertifizierungssystem für Nachhaltigkeit: &lt;ZERTIFIZIERUNGSMETHODETEXT>“) |
+| Text2 | Individueller Text für den TEXT2<br>(Ursprünglicher Text: „&lt;ZERTIFIZIERUNGSMETHODETEXT>, Zertifikatsnummer: &lt;ZERTIFIKATBEMERKUNG>“) |
+| Text3 | Individueller Text für den TEXT3<br>(Ursprünglicher Text: „Die Ware entspricht den Nachhaltigkeitsverordnungen (BioSt-NachV u. Biokraft-NachV)!“) |
+| Text4 | Individueller Text für den TEXT4<br>(Ursprünglicher Text: „Für die Berechnung der Treibhausgasbilanzierung soll der Standardwert verwendet werden“) |
+| Text5 | Individueller Text für den TEXT5<br>(Ursprünglicher Text: „(§ 8 u. Anlage 2 der Nachhaltigkeitsverordnungen)“) |
 
 Für die individuellen Texte stehen Variablen zur Verfügung, die bei der Ermittlung der Texte ersetzt werden.
 
 | Variable | Erläuterung |
 | --- | --- |
-| &lt;ZERTIFIZIERUNGSMETHODETEXT> | Text der Zertifizierungsmethode (Format: AF_ZERTMETH)  
-(Bsp.: „REDcert“) |
-| &lt;ZERTIFIZIERUNGSMETHODE> | Nummer der Zertifizierungsmethode  
-(Bsp.: „11“) |
-| &lt;ZERTIFIKAT_BLE> | Bemerkung des Zertifikats und Nummer der Warenbewegung hintereinander  
-(Bsp.: „DE-100-200-300-400-500-600-34888“) |
-| &lt;ZERTIFIKATBEMERKUNG> | Bemerkung des Zertifikats  
-(Bsp.: „DE-100-200-300-400-500-600“) |
-| &lt;WABEWLIEFNUMMER> | Belegnummer  
-(Bsp.: „34888“) |
+| &lt;ZERTIFIZIERUNGSMETHODETEXT> | Text der Zertifizierungsmethode (Format: AF_ZERTMETH)<br>(Bsp.: „REDcert“) |
+| &lt;ZERTIFIZIERUNGSMETHODE> | Nummer der Zertifizierungsmethode<br>(Bsp.: „11“) |
+| &lt;ZERTIFIKAT_BLE> | Bemerkung des Zertifikats und Nummer der Warenbewegung hintereinander<br>(Bsp.: „DE-100-200-300-400-500-600-34888“) |
+| &lt;ZERTIFIKATBEMERKUNG> | Bemerkung des Zertifikats<br>(Bsp.: „DE-100-200-300-400-500-600“) |
+| &lt;WABEWLIEFNUMMER> | Belegnummer<br>(Bsp.: „34888“) |
 
 Anbauland
 
@@ -70,8 +57,7 @@ Für jedes Anbauland lassen sich individuelle THG-Werte hinterlegen. Für die al
 | Feld | Beschreibung |
 | --- | --- |
 | Nummer | Nummer des Anbaulands |
-| NUTS Nummer | Die NUTS Nummer (*Nomenclature des unités territoriales statistiques*) ist eine eindeutige Identifizierung eines Gebietes in den Mitgliedsstaaten der Europäischen Union.  
-Nach Speichern des Anbaulands lässt sich die NUTS-Nummer nicht mehr ändern. |
+| NUTS Nummer | Die NUTS Nummer (*Nomenclature des unités territoriales statistiques*) ist eine eindeutige Identifizierung eines Gebietes in den Mitgliedsstaaten der Europäischen Union.<br>Nach Speichern des Anbaulands lässt sich die NUTS-Nummer nicht mehr ändern. |
 | Land | Nummer des Landes aus den hinterlegten Staaten. |
 | Region | Textliche Darstellung um welche Region es sich bei diesem Anbauland handelt. |
 

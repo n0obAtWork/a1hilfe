@@ -10,39 +10,16 @@ Der Einrichtungsbildschirm einer Regel gliedert sich in folgende Bereiche:
 
 | | |
 | --- | --- |
-| Arbeitsregel | Hier wird die Nummer der Arbeitsregel angegeben.  
-Nummer 0 darf nicht vergeben oder verändert werden.  
-Diese Nummer der Arbeitsregel wird beim Anlegen eines Vorgangs im Vorgangstamm gespeichert und ist unter [FRZ] für die entsprechende Vorgangsklasse einzurichten. |
+| Arbeitsregel | Hier wird die Nummer der Arbeitsregel angegeben.<br>Nummer 0 darf nicht vergeben oder verändert werden.<br>Diese Nummer der Arbeitsregel wird beim Anlegen eines Vorgangs im Vorgangstamm gespeichert und ist unter [FRZ] für die entsprechende Vorgangsklasse einzurichten. |
 | Name | Hier kann der Name für die Arbeitsregel festgelegt werden. |
 | Kurzbezeichnung | Kurzname für die Arbeitsregel |
 
 | Sperren | |
 | --- | --- |
 | Code | Nummer der Funktionalität für die Belege mit dieser Arbeitsregel gesperrt werden können |
-| Sperre für … | Belege, die diese Arbeitsregel enthalten, können für folgende Funktionalitäten gesperrt werden:  
-1 – Druck  
-2 – Fibu-Übertrag  
-3 – Korrektur  
-4 – Ansehen  
-5 – Storno  
-6 – Umwandlung  
-7 – Artikel löschen  
-8 – Artikel neu erfassen  
-9 – Menge korrigieren  
-10 – Preis korrigieren  
-11 – Regel setzen  
-12 – Regel korrigieren |
-| Typ | Die Art wie der Beleg für die entsprechende Funktionalität behandelt werden soll, wenn er diese Arbeitsregel enthält  
-F3- Auswahl:  
-\-keine  
-\-Datenbank Funktion: Eine Funktion, deren Name im nächsten Feld anzugeben ist, regelt das Verhalten für den Beleg der diese Arbeitsregel enthält.  
-\-SQL-Text: Ein SQL-Text regelt das Verhalten für den Beleg  
-\-immer sperren: Belege die diese Arbeitsregel enthalten sind immer gesperrt für die jeweilige Funktionalität, z.B. Druck, wird trotzdem versucht den Beleg zu drucken erhält man eine entsprechende Fehlermeldung mit Hinweis auf die Arbeitsregel  
-    
- |
-| SQL / Funktion | Hier wird der Name der Funktion angegeben die für die entsprechende Funktionalität wirken soll.  
-Gibt man hier einen Namen ein kann über die Funktion **Editieren/Neu F5** in den Pfleger gewechselt und die Funktion bearbeitet oder angelegt werden.  
-Diese Funktion muss 1 (gesperrt) oder 0 (nicht gesperrt) zurückliefern. |
+| Sperre für … | Belege, die diese Arbeitsregel enthalten, können für folgende Funktionalitäten gesperrt werden:<br>1 – Druck<br>2 – Fibu-Übertrag<br>3 – Korrektur<br>4 – Ansehen<br>5 – Storno<br>6 – Umwandlung<br>7 – Artikel löschen<br>8 – Artikel neu erfassen<br>9 – Menge korrigieren<br>10 – Preis korrigieren<br>11 – Regel setzen<br>12 – Regel korrigieren |
+| Typ | Die Art wie der Beleg für die entsprechende Funktionalität behandelt werden soll, wenn er diese Arbeitsregel enthält<br>F3- Auswahl:<br>\-keine<br>\-Datenbank Funktion: Eine Funktion, deren Name im nächsten Feld anzugeben ist, regelt das Verhalten für den Beleg der diese Arbeitsregel enthält.<br>\-SQL-Text: Ein SQL-Text regelt das Verhalten für den Beleg<br>\-immer sperren: Belege die diese Arbeitsregel enthalten sind immer gesperrt für die jeweilige Funktionalität, z.B. Druck, wird trotzdem versucht den Beleg zu drucken erhält man eine entsprechende Fehlermeldung mit Hinweis auf die Arbeitsregel<br><br> |
+| SQL / Funktion | Hier wird der Name der Funktion angegeben die für die entsprechende Funktionalität wirken soll.<br>Gibt man hier einen Namen ein kann über die Funktion **Editieren/Neu F5** in den Pfleger gewechselt und die Funktion bearbeitet oder angelegt werden.<br>Diese Funktion muss 1 (gesperrt) oder 0 (nicht gesperrt) zurückliefern. |
 
 Grundgerüst für eine Datenbankfunktion zur Auswertung einer Regelsperre:
 
@@ -53,15 +30,9 @@ Mit der globalen Datenbankvariablen DB_REGEL_INFO kann man einen Informationstex
 
 | Nachfolgeregel | |
 | --- | --- |
-| Hier stellt man ein, dass es eine Vorschrift gibt wie die Regel automatisch verändert wird, wenn ein Beleg korrigiert oder die Regel neu gesetzt wird.  
-    
-Im oberen großen Feld dieses Registers wird der Programmcode der ausgewählten Funktion als Vorschau angezeigt. Für ‚kein Nachfolger‘ bleibt das Feld leer. |
-| Typ | F3-Auswahl:  
-kein Nachfolger  
-Datenbank Funktion  
-Privater SQL |
-| SQL / Funktion | Hier wird der Name der Funktion angegeben die für die Nachfolgeregel wirken soll.  
-Gibt man hier einen Namen ein kann über die Funktion **Editieren/Neu F5** in den Pfleger gewechselt und die Funktion bearbeitet oder angelegt werden. |
+| Hier stellt man ein, dass es eine Vorschrift gibt wie die Regel automatisch verändert wird, wenn ein Beleg korrigiert oder die Regel neu gesetzt wird.<br><br>Im oberen großen Feld dieses Registers wird der Programmcode der ausgewählten Funktion als Vorschau angezeigt. Für ‚kein Nachfolger‘ bleibt das Feld leer. |
+| Typ | F3-Auswahl:<br>kein Nachfolger<br>Datenbank Funktion<br>Privater SQL |
+| SQL / Funktion | Hier wird der Name der Funktion angegeben die für die Nachfolgeregel wirken soll.<br>Gibt man hier einen Namen ein kann über die Funktion **Editieren/Neu F5** in den Pfleger gewechselt und die Funktion bearbeitet oder angelegt werden. |
 
 Beispiel für eine Datenbankfunktion zur Ermittlung einer Nachfolgeregel:
 
@@ -71,9 +42,7 @@ Hier wird beim Speichern des Lieferscheins (der mit der Arbeitsregel 600 angeleg
 
 | Gültigkeit | |
 | --- | --- |
-| Diese Regel darf nur durch eine andere Regel ersetzt werden, die in mindestens einer der hier aufgeführten Bereiche liegt.  
-Wird kein Bereich festgelegt, gibt es keine Einschränkung.  
-Bereiche mit leeren Einträgen werden nicht gespeichert! |
+| Diese Regel darf nur durch eine andere Regel ersetzt werden, die in mindestens einer der hier aufgeführten Bereiche liegt.<br>Wird kein Bereich festgelegt, gibt es keine Einschränkung.<br>Bereiche mit leeren Einträgen werden nicht gespeichert! |
 | von Regel | Hier wird die Nummer der Arbeitsregel eingetragen mit der der Bereich beginnen soll. |
 | bis Regel | Hier wird die Nummer der Arbeitsregel eingetragen mit der der Bereich enden soll. |
 | nur größere Regel zulässig | Hier kann festgelegt werden, dass Arbeitsregeln nur in Regeln mit einer größeren Nummer geändert werden können. |

@@ -14,10 +14,8 @@ Die Übersicht enthält folgende Elemente:
 
 | Feld | Beschreibung |
 | --- | --- |
-| Nummer | Nummer des Moduls  
-Ist keine Nummer angegeben, ist der Text nicht für das Modul gespeichert. Es existiert dann auch kein Ersetzungstext. |
-| Bezeichnung | Bezeichnung des Moduls  
-Siehe Modulnummer |
+| Nummer | Nummer des Moduls<br>Ist keine Nummer angegeben, ist der Text nicht für das Modul gespeichert. Es existiert dann auch kein Ersetzungstext. |
+| Bezeichnung | Bezeichnung des Moduls<br>Siehe Modulnummer |
 | Originaltext | Originaltext der ausgewählten Anwendung zu der Alternativtexte gespeichert werden sollen. |
 | Ersetzungstext | Der alternative Ersetzungstext |
 

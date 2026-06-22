@@ -19,15 +19,7 @@ oder Direktsprung **[SQLPP]**
 
 | Funktionen | Bedeutung |
 | --- | --- |
-| Neu (F8) | Es öffnet sich ein Dialog in dem sich ein privater Arbeitsname unter „Sql-Text“ angeben lässt. Empfohlen ist privaten Arbeitsnamen ein **p_** voranzustellen.  
-Mittels „Template“ lässt sich als Vorlage der Text einer bestehenden privaten Datenbank-Prozedure auswählen.  
-    
-Wird das Feld „Template“ leer gelassen öffnet sich der Editor mit einem Vorschlag.  
-    
-Als Beispiel für die fiktive private Datenbank-Funktion „P_Beispiel“:  
-    
-    
- |
+| Neu (F8) | Es öffnet sich ein Dialog in dem sich ein privater Arbeitsname unter „Sql-Text“ angeben lässt. Empfohlen ist privaten Arbeitsnamen ein **p_** voranzustellen.<br>Mittels „Template“ lässt sich als Vorlage der Text einer bestehenden privaten Datenbank-Prozedure auswählen.<br><br>Wird das Feld „Template“ leer gelassen öffnet sich der Editor mit einem Vorschlag.<br><br>Als Beispiel für die fiktive private Datenbank-Funktion „P_Beispiel“:<br><br><br> |
 | Editieren (F5) | Der Editor öffnet sich mit dem Text der Datenbank-Prozedure (siehe „Source“) |
 | Löschen (F7) | Entfernt die Datenbank-Prozedure aus dem System-. |
 | Create (F10) | Legt das Datenbank-Objekt gemäß der „Source“ an. |

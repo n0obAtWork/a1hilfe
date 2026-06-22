@@ -14,23 +14,13 @@ Hier kann man nun die Dimensionen erfassen. Dabei sollte man aber von vornherein
 
 | | Beschreibung |
 | --- | --- |
-| Label  
-    
- | Vor den eigentlichen Eingabefeldern muss zur Identifikation der Dimension eine Bezeichnung stehen. Diese wird hier eingetragen  
- |
-| Tabelle | Auf welche Tabelle soll sich diese Dimension beziehen. Es ist hier auch möglich, private Tabellen anzugeben. Diese Tabellen müssen eine Integer Feld zur eindeutigen Identifikation und ein Bezeichnungsfeld besitzen.  
- |
-| Feldname | Der Name des Integerfeldes zur eindeutigen Identifikation des Datensatzes. Eine Auswahl der Felder vom Typ Integer ist mit **F3** möglich.  
- |
-| Name Bezeichnungsfeld  
-    
- | Hier muss man den Namen des Feldes aus der Tabelle angeben, das die Bezeichnung enthält. Eine Auswahl der Felder vom Typ Character ist mit **F3** möglich. Dieses Feld wird in allen zugehörigen Erfassungsbildschirmen als Bezeichnung neben der Nummer angezeigt.  
- |
-| Itembox | Dem Feld muss eine Itembox zugeordnet werden.  
- |
+| Label<br><br> | Vor den eigentlichen Eingabefeldern muss zur Identifikation der Dimension eine Bezeichnung stehen. Diese wird hier eingetragen<br> |
+| Tabelle | Auf welche Tabelle soll sich diese Dimension beziehen. Es ist hier auch möglich, private Tabellen anzugeben. Diese Tabellen müssen eine Integer Feld zur eindeutigen Identifikation und ein Bezeichnungsfeld besitzen.<br> |
+| Feldname | Der Name des Integerfeldes zur eindeutigen Identifikation des Datensatzes. Eine Auswahl der Felder vom Typ Integer ist mit **F3** möglich.<br> |
+| Name Bezeichnungsfeld<br><br> | Hier muss man den Namen des Feldes aus der Tabelle angeben, das die Bezeichnung enthält. Eine Auswahl der Felder vom Typ Character ist mit **F3** möglich. Dieses Feld wird in allen zugehörigen Erfassungsbildschirmen als Bezeichnung neben der Nummer angezeigt.<br> |
+| Itembox | Dem Feld muss eine Itembox zugeordnet werden.<br> |
 | Parameter | Bei den Dimensionen kann es sein, dass eine Dimension sich auf eine andere Dimension bezieht: Beispiel: In Abteilung A gibt es die Unterabteilung 1, 2 und 3 und in Abteilung B gibt es die Unterabteilung 1 und 2. Damit nun die Itembox zur Unterabteilung nur die Werte anzeigt, die der bereits angegebenen Abteilung zugehören, gibt es hier die Felder Parameter und Parameterwert. In Parameter muss der Parameter aus der Itembox stehen, der für diese Einschränkung gültig ist. In der Itembox IB_ABTUNTER lautet diese z.B.: PAR1. |
-| Parameterwert | Welcher Wert soll dem Parameter zugeordnet sein? Um sich auf eine bestimmte Kostenstellendimension zu beziehen, muss man als Feldname:h.KostStelDimension1$ eingeben. Die Zahl vor dem $ (hier 1) gibt die Zeile an, aus der der Wert geholt werden soll (hier also der Wert der ABTEILUNGID aus ABTEILSTAMM). In dieser Itembox (IB_ABTUNTER) muss nur der Feldname eingetragen werden (Doppelpunkt nicht vergessen!).  
- |
+| Parameterwert | Welcher Wert soll dem Parameter zugeordnet sein? Um sich auf eine bestimmte Kostenstellendimension zu beziehen, muss man als Feldname:h.KostStelDimension1$ eingeben. Die Zahl vor dem $ (hier 1) gibt die Zeile an, aus der der Wert geholt werden soll (hier also der Wert der ABTEILUNGID aus ABTEILSTAMM). In dieser Itembox (IB_ABTUNTER) muss nur der Feldname eingetragen werden (Doppelpunkt nicht vergessen!).<br> |
 
 Bei der Anzeige der Kostenstellen in diversen Erfassungsmasken werden nach wie vor die ursprüngliche Kostenstellennummer und der Text angezeigt. Um nun vom Text auf die Dimensionen schließen zu können, ist es sinnvoll, dass dieser sich auf die einzelnen Dimensionen bezieht. So kann man sich vorstellen, dass man einfach die numerische Darstellung der Dimensionen abbildet oder die Bezeichnung so definiert, dass aus den ersten Stellen ein eindeutiger Code generiert wird. Damit bei der Generierung der Kostenstellen-Stammdaten dann auch sofort der einmal definierte Text vorbelegt wird ist es möglich, eine Datenbankfunktion anzugeben. Von AMIC wird eine einfache Datenbankfunktion vorgegeben, die die Nummern der Dimensionen zu einem Textstring zusammenfasst und zurückgibt. Diese Funktion kann durch eine eigene ***Datenbankfunktion*** **F10** ersetzt werden.
 

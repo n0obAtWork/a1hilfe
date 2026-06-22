@@ -46,14 +46,9 @@ In der Optionbox zu dieser Variante steht eine weitere Funktion „Zinsen erneut
 
 | | Beschreibung |
 | --- | --- |
-| Abrechnungsdatum | Dies ist der Tag, an dem die Zinsabrechnung erstellt wird. Es wird mit dem Tagesdatum vorbelegt. Dieses Datum wird später das Belegdatum der automatisch generierten Zinsbelege.  
- |
-| Periode Zinsstorno  
- | Dieser Periode werden eventuell zu erstellende Stornobeleg zugeordnet.  
- |
-| Bemerkung  
- | Diese Bemerkung wird in der Relation Zinsliste gespeichert.  
- |
+| Abrechnungsdatum | Dies ist der Tag, an dem die Zinsabrechnung erstellt wird. Es wird mit dem Tagesdatum vorbelegt. Dieses Datum wird später das Belegdatum der automatisch generierten Zinsbelege.<br> |
+| Periode Zinsstorno<br> | Dieser Periode werden eventuell zu erstellende Stornobeleg zugeordnet.<br> |
+| Bemerkung<br> | Diese Bemerkung wird in der Relation Zinsliste gespeichert.<br> |
 
 Startet man diese Funktion, so werden folgende Schritte nacheinander abgearbeitet:
 

@@ -17,6 +17,4 @@ Folgende Felder stehen dabei zur Verfügung.
 | Nummer | Vorschlag einer automatischen Systemnummer, die überschrieben werden kann. |
 | Bezeichnung | Bezeichnung der Partiegruppe |
 | Matchcode | Matchcode der Partiegruppe |
-| Nummernkreis | Bei einer Verwaltung der Partien über Partiegruppen können die Partienummern aus dem hier hinterlegten Nummernkreis geholt werden (zur Einrichtung siehe **[NKS]**, **[NKZ]**). Bei Eingabe Null, werden die Partienummern aus einem allgemeinen Partienummernkreis **[MNDNK]** geladen.  
-• 51 = Partien manuelle Anlage  
-• – 56 = Partien automatisch |
+| Nummernkreis | Bei einer Verwaltung der Partien über Partiegruppen können die Partienummern aus dem hier hinterlegten Nummernkreis geholt werden (zur Einrichtung siehe **[NKS]**, **[NKZ]**). Bei Eingabe Null, werden die Partienummern aus einem allgemeinen Partienummernkreis **[MNDNK]** geladen.<br>• 51 = Partien manuelle Anlage<br>• – 56 = Partien automatisch |

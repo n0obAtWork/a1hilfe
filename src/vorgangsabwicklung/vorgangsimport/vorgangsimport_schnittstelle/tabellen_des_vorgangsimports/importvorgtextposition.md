@@ -12,11 +12,8 @@ In dieser Relation werden Textpositionen hinterlegt, die entweder vor oder nach 
 | SatzId | SatzId aus ImportVorgPosition |
 | PositionId | Positionsid aus ImportVorgPosition |
 | Zeilenzaehler | Zähler der Textzeile |
-| Texttyp | Texttyp  
-0. Positionstext |
-| TextPosition | Beim TextTyp 0 (Positionstext) an welche Stelle soll der Text geschrieben werden  
-0 Vor der Position  
-1 Nach der Position |
+| Texttyp | Texttyp<br>0. Positionstext |
+| TextPosition | Beim TextTyp 0 (Positionstext) an welche Stelle soll der Text geschrieben werden<br>0 Vor der Position<br>1 Nach der Position |
 | VorgText | Inhalt des Textes |
 | IVP_GUID | Guid der Position aus der Relation ImportVorgPosition |
 

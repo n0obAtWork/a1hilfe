@@ -57,10 +57,8 @@ Folgende Variablen sind in allen Teilen (Kopf, Fuß und Zeilentyp) verfügbar. F
 | MahnungSaldo | Numerisch | 4 | Saldo aller in dieser Mahnung enthaltenen fälligen Beleg ( mit Verrechnung Soll und Haben) |
 | MahnungSaldoZinsen | Numerisch | 4 | Zinsen dieser Mahnung ( mit Verrechnung Soll und Haben ) |
 | MahnungSaldoSumme | Numerisch | 4 | Saldo + Zinsen |
-| MahnungWBetrag | Numerisch | 4 | Mahnbarer Betrag in Fremdwährung.  
-Keine Gruppierung nach Währung! |
-| MahnungWSaldo | Numerisch | 4 | Saldo in Fremdwährung aller in dieser Mahnung enthaltenen fälligen Beleg (mit Verrechnung Soll und Haben)  
-Keine Gruppierung nach Währung! |
+| MahnungWBetrag | Numerisch | 4 | Mahnbarer Betrag in Fremdwährung.<br>Keine Gruppierung nach Währung! |
+| MahnungWSaldo | Numerisch | 4 | Saldo in Fremdwährung aller in dieser Mahnung enthaltenen fälligen Beleg (mit Verrechnung Soll und Haben)<br>Keine Gruppierung nach Währung! |
 | GesamtMahnBetrag | Numerisch | 4 | Betrag aller auf der Mahnung ausgewiesenen Posten, also nicht nur die mahnbaren (siehe Mahnbetrag). |
 | GesamtMahnZinsen | Numerisch | 4 | Zinsen |
 | GesamtMahnGebuehr | Numerisch | 4 | Gebühr |
@@ -78,8 +76,7 @@ Keine Gruppierung nach Währung! |
 | MahnKreis | Numerisch | 4 | NummernKreisnummer der Zinsen |
 | MahnText | Block | 8 | Mahntext wie in den Stammdaten Mahntext unter besagter MahnGruppe und -stufe hinterlegt unter Mahntextnummer **1** |
 | MahnTextkopf | | | S.o |
-| MahnTextFuss | Block | 8 |   
-Mahntext wie in den Stammdaten Mahntext unter besagter MahnGruppe und -stufe hinterlegt unter Mahntextnummer **2** |
+| MahnTextFuss | Block | 8 | <br>Mahntext wie in den Stammdaten Mahntext unter besagter MahnGruppe und -stufe hinterlegt unter Mahntextnummer **2** |
 | MahntextKopf2 | Block | 8 | Mahntext wie in den Stammdaten Mahntext unter besagter Mahngruppe und -stufe hinterlegt unter Mahntextnummer **3** |
 | MahnTextfuss2 | Block | 8 | Mahntext wie in den Stammdaten Mahntext unter besagter Mahngruppe und -stufe hinterlegt unter Mahntextnummer **4** |
 | MandSteuerNummer | Normal | 3 | Steuernummer aus dem Mandantenstamm |

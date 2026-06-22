@@ -82,19 +82,13 @@ Sprachabhängige Textfelder in diesem Report
 
 | Name Druckfeld | Standard Text im Report |
 | --- | --- |
-| Ueberschrift_Transportauftrag | Transportauftrag Nr.  
- |
-| Anrede  
- | Sehr geehrte Damen und Herren, |
+| Ueberschrift_Transportauftrag | Transportauftrag Nr.<br> |
+| Anrede<br> | Sehr geehrte Damen und Herren, |
 | an | an: |
 | von | von: |
 | nach | nach: |
-| Bestaetigung_Transportauftrag  
- | hiermit bestätigen wir den Transportauftrag für folgende Relation:  
- |
-| Logistic_Transportauftrag  
- | Die Vorgaben nach GMP+ sind zu beachten und einzuhalten! Für Speditionsgeschäfte gelten die ADSp neueste Fassung.  
- |
+| Bestaetigung_Transportauftrag<br> | hiermit bestätigen wir den Transportauftrag für folgende Relation:<br> |
+| Logistic_Transportauftrag<br> | Die Vorgaben nach GMP+ sind zu beachten und einzuhalten! Für Speditionsgeschäfte gelten die ADSp neueste Fassung.<br> |
 | Mfg | Mit freundlichen Grüßen |
 | Warenart | Warenart |
 | Menge | Menge ca. |

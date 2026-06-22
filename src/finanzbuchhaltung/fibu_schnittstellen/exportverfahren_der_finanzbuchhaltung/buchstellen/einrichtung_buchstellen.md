@@ -18,8 +18,7 @@ Bevor die Daten übermittelt werden können, bedarf es einiger Einstellungen im 
 | --- | --- |
 | Nummer | Identifizierende Nummer die der Buchstellenstamm haben soll. |
 | Bezeichnung | Bezeichnung für den Buchstellenstamm |
-| Nummernkreis | Hier muss ein Nummernkreis eingetragen werden, der **nur** von diesem Buchstellenstamm aus verwendet wird.  
-Der Grund dafür ist, dass beim Versenden der Daten eine fortlaufende Nummer gesendet wird. Anhand dieser kann erkannt werden, ob beim übertragen Daten verloren gegangen sind. |
+| Nummernkreis | Hier muss ein Nummernkreis eingetragen werden, der **nur** von diesem Buchstellenstamm aus verwendet wird.<br>Der Grund dafür ist, dass beim Versenden der Daten eine fortlaufende Nummer gesendet wird. Anhand dieser kann erkannt werden, ob beim übertragen Daten verloren gegangen sind. |
 | Verschlüsselungscode | Der Verschlüsselungscode wird zum verschlüsseln der Daten verwendet. Dieser Code muss bei AMIC bekannt sein, damit die Daten wieder entschlüsselt werden. |
 
 <p class="just-emphasize">Sendeeinstellungen</p>

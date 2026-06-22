@@ -21,29 +21,17 @@ Mit diesem Format wird der Typ einer Zahlungsbedingung festgelegt. *(Formatname 
 | Nr. | Bezeichnung | Beschreibung |
 | --- | --- | --- |
 | 1 | Fälligkeit in n Tagen | Fälligkeit der Zahlung beginnt nach der Zeitspanne von n Tagen abhängig vom Bezugsdatum |
-| 2 | Fällig am Tag X des Folgemonats (Skto auf Bezug) | Fälligkeit der Zahlung zum genauen Stichtag im Folgemonat abhängig vom Bezugsdatum  
-Skonto berechnet sich in Tagen nach dem Belegdatum |
-| 3 | Fällig am Tag X dieses Monats (Skto auf Bezug) | Fälligkeit der Zahlung am Stichtag des laufenden Monats abhängig vom Bezugsdatum  
-Skonto berechnet sich in Tagen nach dem Belegdatum |
-| 4 | Fällig zum nächstmöglichen Tag X (Skto auf Bezug) | Wenn das Bezugsdatum der Fälligkeit **vor** dem Tag **X** des Monats liegt, wird der Betrag fällig am Tag **X** des **laufenden Monats**.  
-Wenn das Bezugsdatum der Fälligkeit **nach** dem Tag **X** liegt, wird der Betrag fällig am Tag **X** des **nächsten Monats**.  
-Skonto berechnet sich in Tagen nach dem Belegdatum |
+| 2 | Fällig am Tag X des Folgemonats (Skto auf Bezug) | Fälligkeit der Zahlung zum genauen Stichtag im Folgemonat abhängig vom Bezugsdatum<br>Skonto berechnet sich in Tagen nach dem Belegdatum |
+| 3 | Fällig am Tag X dieses Monats (Skto auf Bezug) | Fälligkeit der Zahlung am Stichtag des laufenden Monats abhängig vom Bezugsdatum<br>Skonto berechnet sich in Tagen nach dem Belegdatum |
+| 4 | Fällig zum nächstmöglichen Tag X (Skto auf Bezug) | Wenn das Bezugsdatum der Fälligkeit **vor** dem Tag **X** des Monats liegt, wird der Betrag fällig am Tag **X** des **laufenden Monats**.<br>Wenn das Bezugsdatum der Fälligkeit **nach** dem Tag **X** liegt, wird der Betrag fällig am Tag **X** des **nächsten Monats**.<br>Skonto berechnet sich in Tagen nach dem Belegdatum |
 | 5 | Fällig Monatsende Folgemonat | Fälligkeit der Zahlung zum Monatsende des Folgemonats abhängig vom Bezugsdatum |
 | 6 | Fällig Monatsende aktueller Monat | Fälligkeit der Zahlung zum Monatsende des aktuellen Monats |
 | 7 | Datum manuell eingebbar | Manuelles Fälligkeitsdatum |
-| 8 | Fällig am Tag X der nächsten Woche (Skto auf Bezug) | Fälligkeit der Zahlung am Wochentag X in der nächsten Kalenderwoche  
-Skonto berechnet sich in Tagen nach dem Belegdatum  
-Als Wochentag wird hier Sonntag= 1, Montag = 2 usw. gerechnet |
-| 9 | Fällig am Tag X des Folgemonats (Skto auf Fälligkeit) | Fälligkeit der Zahlung zum genauen Stichtag im Folgemonat abhängig vom Bezugsdatum  
-Skonto berechnet sich in Tagen vor dem Fälligkeitsdatum |
-| 10 | Fällig am Tag X dieses Monats (Skto auf Fälligkeit) | Fälligkeit der Zahlung am Stichtag des laufenden Monats abhängig vom Bezugsdatum  
-Skonto berechnet sich in Tagen vor dem Fälligkeitsdatum |
-| 11 | Fällig zum nächstmöglichen Tag X (Skto auf Fälligkeit) | Wenn das Bezugsdatum der Fälligkeit **vor** dem Tag **X** des Monats liegt, wird der Betrag fällig am Tag **X** des **laufenden Monats**.  
-Wenn das Bezugsdatum der Fälligkeit **nach** dem Tag **X** liegt, wird der Betrag fällig am Tag **X** des **nächsten Monats**.  
-Skonto berechnet sich in Tagen vor dem Fälligkeitsdatum |
-| 12 | Fällig am Tag X der nächsten Woche (Skto auf Fälligkeit) | Fälligkeit der Zahlung am Wochentag X in der nächsten Kalenderwoche  
-Als Wochentag wird hier Sonntag= 1, Montag = 2 usw. gerechnet  
-Skonto berechnet sich in Tagen vor dem Fälligkeitsdatum |
+| 8 | Fällig am Tag X der nächsten Woche (Skto auf Bezug) | Fälligkeit der Zahlung am Wochentag X in der nächsten Kalenderwoche<br>Skonto berechnet sich in Tagen nach dem Belegdatum<br>Als Wochentag wird hier Sonntag= 1, Montag = 2 usw. gerechnet |
+| 9 | Fällig am Tag X des Folgemonats (Skto auf Fälligkeit) | Fälligkeit der Zahlung zum genauen Stichtag im Folgemonat abhängig vom Bezugsdatum<br>Skonto berechnet sich in Tagen vor dem Fälligkeitsdatum |
+| 10 | Fällig am Tag X dieses Monats (Skto auf Fälligkeit) | Fälligkeit der Zahlung am Stichtag des laufenden Monats abhängig vom Bezugsdatum<br>Skonto berechnet sich in Tagen vor dem Fälligkeitsdatum |
+| 11 | Fällig zum nächstmöglichen Tag X (Skto auf Fälligkeit) | Wenn das Bezugsdatum der Fälligkeit **vor** dem Tag **X** des Monats liegt, wird der Betrag fällig am Tag **X** des **laufenden Monats**.<br>Wenn das Bezugsdatum der Fälligkeit **nach** dem Tag **X** liegt, wird der Betrag fällig am Tag **X** des **nächsten Monats**.<br>Skonto berechnet sich in Tagen vor dem Fälligkeitsdatum |
+| 12 | Fällig am Tag X der nächsten Woche (Skto auf Fälligkeit) | Fälligkeit der Zahlung am Wochentag X in der nächsten Kalenderwoche<br>Als Wochentag wird hier Sonntag= 1, Montag = 2 usw. gerechnet<br>Skonto berechnet sich in Tagen vor dem Fälligkeitsdatum |
 
 <p class="just-emphasize">Bezug</p>
 

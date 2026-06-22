@@ -62,24 +62,14 @@ Mit der Darstellung wird festgelegt, welchem Zweck dieser Eintrag dient. Es sind
 | 1 | Sichtbar | Dieses Feld ist sichtbar, kann jedoch nicht editiert werden |
 | 2 | Eingebbar | Dieses Feld ist sichtbar und kann editiert werden |
 | 3 | betretbar | Dieses Feld kann betreten, jedoch der Inhalt nicht abgeändert werden. |
-| 4 | Knoten | Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.  
-Dieses Element wird als Knoten angezeigt. Es beinhaltet einen anzuzeigenden Inhalt wie einen Text oder eine Nummer |
-| 5 | Blatt | Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.  
-Dieses Element ist eine Information am Ende des Baumes. Deshalb wird sie Blatt genannt. Die Information wird auf der rechten Seite neben dem Blatt dargestellt, während die oben erwähnte Überschrift als Bezeichner im Baum steht. Diese Information kann nicht editiert werden. |
-| 6 | Tooltipp | Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.  
-Wird die Maus über ein Element bewegt, das den gleichen Level hat, wie dieser Eintrag, so wird ein Hinweistext im HTML-Format dargestellt, der in diesem Feld steht. So sind für jede Spalte auch zusätzliche Informationen anzeigbar, die erst beim Ansteuern des Knotens mit der Maus sichtbar werden. |
-| 7 | Blatt mit Darstellung | Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.  
-Hier handelt es sich um ein Blatt, dessen Anklicken auf den Zielframes eine Anzeige auslöst. Dies ist zum Beispiel verwendbar, wenn im Zielframe ein Dokument dargestellt werden soll. |
-| 8 | Unsichtbare ID | Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.  
-Hier handelt es sich um eine ID, die im Fall einer Aktion an eine Prozedur übergeben wird. Die ID wird nicht angezeigt. |
-| 9 | Blatt Abfrage | Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.  
-Im Prinzip wie ein Blatt in 5, jedoch lässt sich dieser Wert nachträglich mit einem Doppelklick editieren. |
-| 10 | MIME-Inhalt | Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.  
-Der Inhalt des Feldes, das hier benannt wird, soll in einem Browser statt in einem Baum dargestellt werden.  
-In der Beschreibungsstruktur ist außer diesem Eintrag nur EIN weiterer Eintrag mit dem MIME-Typ zulässig. |
-| 11 | MIME-Typ | Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.  
-Der Inhalt des Feldes, das hier benannt wird, gibt an, von welchem Typ der Inhalt ist, der in einem Browser dargestellt werden soll.  
-In der Beschreibungsstruktur ist außer diesem Eintrag nur EIN weiterer Eintrag mit dem MIME-Inhalt zulässig. |
+| 4 | Knoten | Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.<br>Dieses Element wird als Knoten angezeigt. Es beinhaltet einen anzuzeigenden Inhalt wie einen Text oder eine Nummer |
+| 5 | Blatt | Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.<br>Dieses Element ist eine Information am Ende des Baumes. Deshalb wird sie Blatt genannt. Die Information wird auf der rechten Seite neben dem Blatt dargestellt, während die oben erwähnte Überschrift als Bezeichner im Baum steht. Diese Information kann nicht editiert werden. |
+| 6 | Tooltipp | Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.<br>Wird die Maus über ein Element bewegt, das den gleichen Level hat, wie dieser Eintrag, so wird ein Hinweistext im HTML-Format dargestellt, der in diesem Feld steht. So sind für jede Spalte auch zusätzliche Informationen anzeigbar, die erst beim Ansteuern des Knotens mit der Maus sichtbar werden. |
+| 7 | Blatt mit Darstellung | Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.<br>Hier handelt es sich um ein Blatt, dessen Anklicken auf den Zielframes eine Anzeige auslöst. Dies ist zum Beispiel verwendbar, wenn im Zielframe ein Dokument dargestellt werden soll. |
+| 8 | Unsichtbare ID | Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.<br>Hier handelt es sich um eine ID, die im Fall einer Aktion an eine Prozedur übergeben wird. Die ID wird nicht angezeigt. |
+| 9 | Blatt Abfrage | Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.<br>Im Prinzip wie ein Blatt in 5, jedoch lässt sich dieser Wert nachträglich mit einem Doppelklick editieren. |
+| 10 | MIME-Inhalt | Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.<br>Der Inhalt des Feldes, das hier benannt wird, soll in einem Browser statt in einem Baum dargestellt werden.<br>In der Beschreibungsstruktur ist außer diesem Eintrag nur EIN weiterer Eintrag mit dem MIME-Typ zulässig. |
+| 11 | MIME-Typ | Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.<br>Der Inhalt des Feldes, das hier benannt wird, gibt an, von welchem Typ der Inhalt ist, der in einem Browser dargestellt werden soll.<br>In der Beschreibungsstruktur ist außer diesem Eintrag nur EIN weiterer Eintrag mit dem MIME-Inhalt zulässig. |
 | | | | |
 
 Die Darstellungsangabe ist ein Pflichtfeld. Eine andere Auswahl als die aus der obigen Liste führt dazu, dass dieses Feld nicht ausgewertet wird.

@@ -33,40 +33,15 @@ Die Felder haben folgende Bedeutung:
 
 | Feld | Besonderheiten |
 | --- | --- |
-| Umsatz | Beinhaltet zwei nachkommastellen ohne Dezimalpunkt. Enthält S bzw. H also:  
-800 H ⇨ 8,00 Haben | |
-| Frei |   
-    
- | |
-| Gegenkonto |   
-    
- | |
-| Belegfeld1 | Hier steht Jahr und Periode in der Form YYYYPP.  
-Die Jahrnummer wird ins Datum übernommen.  
-Beispiel: 200607  
-    
- | |
-| Frei |   
-    
- | |
-| Datum | Belegdatum in der Form TTMM. Beispiel: 3007  
-    
- | |
-| Konto | Hauptkonto  
-    
- | |
-| KostFeld1 | Kostenstelle. Muss in A.eins so existieren.  
-    
- | |
-| KostFeld2 | Wird nicht ausgewertet  
-    
- | |
-| KostMenge | Wird nicht ausgewertet  
-    
- | |
-| Frei |   
-    
- | |
-| Buchungstext | Buchungstext wird dem Gegenkonto zugeordnet  
-    
- | |
+| Umsatz | Beinhaltet zwei nachkommastellen ohne Dezimalpunkt. Enthält S bzw. H also:<br>800 H ⇨ 8,00 Haben<br><br> | |
+| Frei | <br><br> | |
+| Gegenkonto | <br><br> | |
+| Belegfeld1 | Hier steht Jahr und Periode in der Form YYYYPP.<br>Die Jahrnummer wird ins Datum übernommen.<br>Beispiel: 200607<br><br> | |
+| Frei | <br><br> | |
+| Datum | Belegdatum in der Form TTMM. Beispiel: 3007<br><br> | |
+| Konto | Hauptkonto<br><br> | |
+| KostFeld1 | Kostenstelle. Muss in A.eins so existieren.<br><br> | |
+| KostFeld2 | Wird nicht ausgewertet<br><br> | |
+| KostMenge | Wird nicht ausgewertet<br><br> | |
+| Frei | <br><br> | |
+| Buchungstext | Buchungstext wird dem Gegenkonto zugeordnet<br><br> | |

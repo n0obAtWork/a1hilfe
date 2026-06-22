@@ -134,10 +134,8 @@ result (path varchar(50))
 | Parameter |
 | --- |
 | in_v_id | ID des Vorgangs, für den UDX-Felder angegeben werden sollen |
-| in_v_posizaehler | Zähler der Warenposition im Vorgang  
-Beim Aufruf für einen Header steht hier eine 0 |
-| in_otzaehler | Zähler der Position im openTRANS  
-Beim Aufruf für einen Header steht hier eine 0 |
+| in_v_posizaehler | Zähler der Warenposition im Vorgang<br>Beim Aufruf für einen Header steht hier eine 0 |
+| in_otzaehler | Zähler der Position im openTRANS<br>Beim Aufruf für einen Header steht hier eine 0 |
 | Path | Ausgabe eines Pfades zur Ausgabe von UDX-Elementen |
 
 Soll ein Wert in dem tag stehen, so ist diesem ein „#“ voranzustellen
@@ -190,8 +188,7 @@ varchar(1000))
 | Parameter |
 | --- |
 | in_v_id | ID des Vorgangs, für den UDX-Felder angegeben werden sollen |
-| in_v_posizaehler | Zähler der Warenposition im Vorgang  
-Beim Aufruf für einen Header steht hier eine 0 |
+| in_v_posizaehler | Zähler der Warenposition im Vorgang<br>Beim Aufruf für einen Header steht hier eine 0 |
 | bezeichner | Ausgabe des Names der Eigenschaft |
 | wert | Ausgabe des Wertes der Eigenschaft |
 

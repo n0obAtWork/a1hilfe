@@ -16,11 +16,11 @@ Dabei werden die gesetzlichen Anforderungen aus der **EN16931** berücksichtigt.
 
 Dabei wird folgendes Format unterstützt für Export und Import: 
 
-- **UBL-XML** - Dateien – Universal Business Language. Entwickelt von OASIS (Organization for the Advancement of Structured Information Standards), ist ein auf XML basierender Standard für den Austausch von elektronischen Dokumenten wie Rechnungen, Bestellungen und Lieferscheinen.
+è **UBL-XML** - Dateien – Universal Business Language. Entwickelt von OASIS (Organization for the Advancement of Structured Information Standards), ist ein auf XML basierender Standard für den Austausch von elektronischen Dokumenten wie Rechnungen, Bestellungen und Lieferscheinen.
 
 Für den Import wird dazu das folgende Format unterstützt: 
 
-- **ZUGFeRD** Zentraler User Guide des Forums elektronische Rechnung Deutschland, das gemäß der Richtlinie EU/2014/55 und des Standards EN16931 UN/CEFACT-**XML** in **PDF**/A-3-Dateien einbettet.
+è **ZUGFeRD** Zentraler User Guide des Forums elektronische Rechnung Deutschland, das gemäß der Richtlinie EU/2014/55 und des Standards EN16931 UN/CEFACT-**XML** in **PDF**/A-3-Dateien einbettet.
 
 <p class="just-emphasize">Überblick eRechnung-Modulpakete</p>
 

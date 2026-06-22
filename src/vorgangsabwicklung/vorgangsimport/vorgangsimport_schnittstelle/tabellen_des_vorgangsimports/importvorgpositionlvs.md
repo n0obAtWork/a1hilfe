@@ -18,5 +18,4 @@ Diese Relation beherbergt Informationen zu LVS-Ladeträgern, die zu dieser Posit
 | LadetraegerExtNummer | Externe Nummer des Ladeträgers (z.B. eine NVE) |
 | Menge | Menge auf dem Ladeträger |
 | ME_Nummer | Mengeneinheit der Menge auf dem Ladeträger |
-| IVP_GUID | Guid der dazugehörigen Position der Relation  
-ImportVorgPosition |
+| IVP_GUID | Guid der dazugehörigen Position der Relation<br>ImportVorgPosition |

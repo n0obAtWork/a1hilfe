@@ -13,8 +13,7 @@ Es kann eventuell vorkommen, dass sich Rollen in den Tabellen Rollenklasse bzw. 
 
 | Felder |
 | --- |
-| Relation | Welche Relation ist beteiligt.  
-Zurzeit kommen in „Rollenkontext“ und „Rollenklasse“ in Betracht. |
+| Relation | Welche Relation ist beteiligt.<br>Zurzeit kommen in „Rollenkontext“ und „Rollenklasse“ in Betracht. |
 | Problem | Nähere Beschreibung des Problems. |
 | mit Rolle | Die betroffene Rolle. |
 | Anzahl Bedienerklassen | Informatorische Anzahl der Bedienerklassen der betroffenen Rolle. |

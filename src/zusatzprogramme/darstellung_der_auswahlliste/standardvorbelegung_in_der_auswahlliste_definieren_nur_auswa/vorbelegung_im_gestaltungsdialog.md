@@ -10,24 +10,9 @@ Dort werden die selbst definierten Vorbelegungen angezeigt. Diese Vorbelegungen 
 
 | | **Bedeutung** |
 | --- | --- |
-| Feld | Name des Feldes, welches vorbelegt werden kann. Eine Auswahl ist mit ***F3*** möglich.  
- |
-| Aktiv | Wenn ein Feld momentan nicht verwendet werden soll, aber die Arbeit, die in die Formulierung gesteckt wurde, nicht über den Haufen geworfen werden soll, so kann man hier die Vorbelegung für das Feld einfach deaktivieren. Sie wird dann komplett ignoriert.  
- |
-| Vorbelegung | Hier steht der Wert, der auf der Erfassungsmaske bei Neuerfassung dem Feld zugewiesen werden soll. Dies kann sein:  
-1. Eine Konstante:  
-ein Beispiel wäre, dass man die Belegklasse vorgibt:  
-![](../../../ImagesExt/image8_1323.png)  
-2. Der neue Befehl GETVALUE. Vor dem Schlüsselwort muss ein Doppelpunkt stehen:  
-• GETVALUE (**IDENT**,fibuv_id) : Holt aus der Auswahlliste, aus der das Archiv aufgerufen wurde, den unter IDENT angegebenen Wert. In diesem Beispiel wäre es die Fibuv_id.  
-• GETVALUE (**RETURN**,kundnummer): Holt sich den Wert eines Feldes aus der Auswahlliste, aus dem das Archiv aufgerufen wurde. Er muss nicht unbedingt mit „RETURN“ definiert sein, aber dann als Spalte – diese kann auch versteckt (FIELD,,,,HIDDEN) sein - in der Auswahl existieren. Ist das Feld in der RETURN-Liste angegeben, braucht man keine verstecke Spalte.  
-• GETVALUE (**FELD**,k.KontoNummer$): Wird das Archiv aus einer Erfassungsmaske heraus aufgerufen, so kann man auf die Felder dieser Maske zugreifen. Beim Namen des Feldes ist Groß- und Kleinschreibung zu beachten.  
-• GETVALUE (**SVMAIN**,ID_FA_BELEGREFERENZ) bzw.  
-GETVALUE (**CEMAIN**,ID_KUNDNUMMER): Holt sich die Werte aus dem Warenwirtschaftskontext.  
-![](../../../ImagesExt/image8_1324.png)  
-   
-3. Ein vollständiges SQL-Statement. Dabei kann natürlich mit GETVALUE auf Werte zugegriffen werden.  
-![](../../../ImagesExt/image8_1325.png) |
+| Feld | Name des Feldes, welches vorbelegt werden kann. Eine Auswahl ist mit ***F3*** möglich.<br> |
+| Aktiv | Wenn ein Feld momentan nicht verwendet werden soll, aber die Arbeit, die in die Formulierung gesteckt wurde, nicht über den Haufen geworfen werden soll, so kann man hier die Vorbelegung für das Feld einfach deaktivieren. Sie wird dann komplett ignoriert.<br> |
+| Vorbelegung | Hier steht der Wert, der auf der Erfassungsmaske bei Neuerfassung dem Feld zugewiesen werden soll. Dies kann sein:<br>1. Eine Konstante:<br>ein Beispiel wäre, dass man die Belegklasse vorgibt:<br>![](../../../ImagesExt/image8_1323.png)<br>2. Der neue Befehl GETVALUE. Vor dem Schlüsselwort muss ein Doppelpunkt stehen:<br>• GETVALUE (**IDENT**,fibuv_id) : Holt aus der Auswahlliste, aus der das Archiv aufgerufen wurde, den unter IDENT angegebenen Wert. In diesem Beispiel wäre es die Fibuv_id.<br>• GETVALUE (**RETURN**,kundnummer): Holt sich den Wert eines Feldes aus der Auswahlliste, aus dem das Archiv aufgerufen wurde. Er muss nicht unbedingt mit „RETURN“ definiert sein, aber dann als Spalte – diese kann auch versteckt (FIELD,,,,HIDDEN) sein - in der Auswahl existieren. Ist das Feld in der RETURN-Liste angegeben, braucht man keine verstecke Spalte.<br>• GETVALUE (**FELD**,k.KontoNummer$): Wird das Archiv aus einer Erfassungsmaske heraus aufgerufen, so kann man auf die Felder dieser Maske zugreifen. Beim Namen des Feldes ist Groß- und Kleinschreibung zu beachten.<br>• GETVALUE (**SVMAIN**,ID_FA_BELEGREFERENZ) bzw.<br>GETVALUE (**CEMAIN**,ID_KUNDNUMMER): Holt sich die Werte aus dem Warenwirtschaftskontext.<br>![](../../../ImagesExt/image8_1324.png)<br> <br>3. Ein vollständiges SQL-Statement. Dabei kann natürlich mit GETVALUE auf Werte zugegriffen werden.<br>![](../../../ImagesExt/image8_1325.png) |
 
 In diesem Auswahldialog werden neben den Feldern für das Archiv auch zusätzliche Information für den Report angeboten.
 

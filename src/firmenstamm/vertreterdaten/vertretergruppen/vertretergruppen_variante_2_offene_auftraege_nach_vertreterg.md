@@ -27,30 +27,14 @@
 | Namesanfang | % |
 | Vertreter | Von… Bis… |
 | Fakturiergruppe | Von… Bis… |
-| Druckstatus | 0: ungedruckt  
-1: gedruckt  
-2: egal |
-| Erledigung | 0: unbearbeitet  
-1: teilerledigt  
-2: abgeschlossen  
-3: egal  
-4: nicht abgeschlossen |
-| Dispositionsstatus | 0: undisponiert  
-2: disponiert  
-3: egal |
-| Bepreisung | 0: vollständig  
-1: unvollständig  
-2: egal |
-| Umwandlungssperre | 0: ungesperrt  
-1: gesperrt  
-2: egal |
-| Bearbeiterwahl | 0: alle Belege  
-1: nur eigene Belege |
-| Formular | 0: alle Formulare … Nummer  
-1: nur Formular Nr … Nummer |
-| Aufträge/Storno | 0: Aufträge  
-1: Storno-Aufträge  
-2: egal |
+| Druckstatus | 0: ungedruckt<br>1: gedruckt<br>2: egal |
+| Erledigung | 0: unbearbeitet<br>1: teilerledigt<br>2: abgeschlossen<br>3: egal<br>4: nicht abgeschlossen |
+| Dispositionsstatus | 0: undisponiert<br>2: disponiert<br>3: egal |
+| Bepreisung | 0: vollständig<br>1: unvollständig<br>2: egal |
+| Umwandlungssperre | 0: ungesperrt<br>1: gesperrt<br>2: egal |
+| Bearbeiterwahl | 0: alle Belege<br>1: nur eigene Belege |
+| Formular | 0: alle Formulare … Nummer<br>1: nur Formular Nr … Nummer |
+| Aufträge/Storno | 0: Aufträge<br>1: Storno-Aufträge<br>2: egal |
 
 </details>
 

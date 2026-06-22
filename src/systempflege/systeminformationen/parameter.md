@@ -6,13 +6,8 @@ In der Parameter-Übersicht werden alle Parameter mit Wert, Zugriffen und Herkun
 
 | Felder | Beschreibung |
 | --- | --- |
-| Nr | Nummer des Parameters  
- |
-| Parameter | Name des Parameters  
- |
-| Wer | Wert des Parameters  
- |
-| Zugriffe | Anzahl der Zugriffe auf diesen Parameter  
- |
-| Herkunft |   
- |
+| Nr | Nummer des Parameters<br> |
+| Parameter | Name des Parameters<br> |
+| Wer | Wert des Parameters<br> |
+| Zugriffe | Anzahl der Zugriffe auf diesen Parameter<br> |
+| Herkunft | <br> |

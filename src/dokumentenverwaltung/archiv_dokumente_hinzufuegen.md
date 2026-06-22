@@ -8,16 +8,9 @@ Beim Erststart wird ein Dateiauswahl-Dialog zum Auswählen des hinzuzufügenden 
 
 | Folgende Felder stehen zusätzlich zur Eingabe zur Verfügung: |
 | --- |
-| Datei | Pflichtfeld | Wählen Sie per **F3** mit Hilfe des Dateiauswahldialoges das hinzuzufügende Dokument aus.  
- |
-| Datei löschen nach Import | | Bestimmt ob die importierte Datei gelöscht werden soll.  
-   
-Die Einstellung wird sich sitzungsübergreifend gemerkt. |
-| Dokument als Anlage hinzufügen | | Bestimmt ob beim Hinzufügen das Dokument als Anlage hinzugefügt wird. Damit verbunden ist eine Eingruppierung.  
-   
-Nach der Auswahl der Datei lässt sich die Einstellung noch vor dem Speichern ändern.  
-   
-Die Einstellung wird sich sitzungsübergreifend gemerkt. |
+| Datei | Pflichtfeld | Wählen Sie per **F3** mit Hilfe des Dateiauswahldialoges das hinzuzufügende Dokument aus.<br> |
+| Datei löschen nach Import | | Bestimmt ob die importierte Datei gelöscht werden soll.<br> <br>Die Einstellung wird sich sitzungsübergreifend gemerkt. |
+| Dokument als Anlage hinzufügen | | Bestimmt ob beim Hinzufügen das Dokument als Anlage hinzugefügt wird. Damit verbunden ist eine Eingruppierung.<br> <br>Nach der Auswahl der Datei lässt sich die Einstellung noch vor dem Speichern ändern.<br> <br>Die Einstellung wird sich sitzungsübergreifend gemerkt. |
 
 Die Funktion ***Speichern*** löst das Hinzufügen aus.
 

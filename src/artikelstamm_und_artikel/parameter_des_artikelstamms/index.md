@@ -20,20 +20,10 @@ Folgende Felder stehen zur Verfügung:
 
 | Feld | Bedeutung |
 | --- | --- |
-| Artikelstammnummer | Dies ist die logische, also für den Anwender sichtbare und durch ihn zu pflegende, Artikelstamm-Identifikation.  
-Je nach Auslegung des Systems handelt es sich hierbei um einen alphanumerischen oder numerischen Schlüssel.  
-Auf Organisationsprinzipien zur Vergabe von Artikelnummern wird an anderer Stelle eingegangen.  
-Wichtig ist hier jedoch, dass bei der Vergabe der Nummer keine über die Identifikation hinausgehenden Bedeutungen in den Schlüssel eingebaut werden müssen, da zahlreiche Felder im Artikelstamm hierfür zur Verfügung stehen. |
-| Artikeltext | Bezeichnung des Artikels. Der Aufruf erfolgt über die Funktion Texterfassung in der Funktions-Box.  
-Der Text kann mehrere Zeilen umfassen; er wird in dem Artikeltexterfassungsbildschirm eingetragen.  
-Mit Beendigung der Erfassung gelangt man mit **ESC** wieder in die Artikelmaske zurück.  
-Über diese Erfassung hinaus besteht die Möglichkeit, Artikeltexte in verschiedenen Sprachen zu erfassen.  
-Hierzu wird die Funktion ***andere Sprache*** **SF5** angewählt, danach die gewünschte Sprache ausgewählt und der Text eingegeben.  
-Dieser Text wird z.B. bei der Fakturierung automatisch in Verbindung mit dem Sprachkennzeichen des Kunden gezogen. Ähnlich verhält es sich mit der Artikeltextvariante. Innerhalb der Sprachen kann der Artikeltext in ***andere Variante*** **F5** mit z.B. unterschiedlichem Umfang angelegt werden.  
-Auf diese wird dann wiederum in der Fakturierung etc. zugegriffen. |
+| Artikelstammnummer | Dies ist die logische, also für den Anwender sichtbare und durch ihn zu pflegende, Artikelstamm-Identifikation.<br>Je nach Auslegung des Systems handelt es sich hierbei um einen alphanumerischen oder numerischen Schlüssel.<br>Auf Organisationsprinzipien zur Vergabe von Artikelnummern wird an anderer Stelle eingegangen.<br>Wichtig ist hier jedoch, dass bei der Vergabe der Nummer keine über die Identifikation hinausgehenden Bedeutungen in den Schlüssel eingebaut werden müssen, da zahlreiche Felder im Artikelstamm hierfür zur Verfügung stehen. |
+| Artikeltext | Bezeichnung des Artikels. Der Aufruf erfolgt über die Funktion Texterfassung in der Funktions-Box.<br>Der Text kann mehrere Zeilen umfassen; er wird in dem Artikeltexterfassungsbildschirm eingetragen.<br>Mit Beendigung der Erfassung gelangt man mit **ESC** wieder in die Artikelmaske zurück.<br>Über diese Erfassung hinaus besteht die Möglichkeit, Artikeltexte in verschiedenen Sprachen zu erfassen.<br>Hierzu wird die Funktion ***andere Sprache*** **SF5** angewählt, danach die gewünschte Sprache ausgewählt und der Text eingegeben.<br>Dieser Text wird z.B. bei der Fakturierung automatisch in Verbindung mit dem Sprachkennzeichen des Kunden gezogen. Ähnlich verhält es sich mit der Artikeltextvariante. Innerhalb der Sprachen kann der Artikeltext in ***andere Variante*** **F5** mit z.B. unterschiedlichem Umfang angelegt werden.<br>Auf diese wird dann wiederum in der Fakturierung etc. zugegriffen. |
 | Kurzbezeichnung | Die Kurzbezeichnung wird z.B. in Listen benötigt, da häufig der Artikeltext zu viel Platz benötigt. |
-| Matchcode | Kurzbegriff für die Artikelsuche. Hier wird der Hauptbegriff erfasst, bis zu 90 weitere können unter  
-"Sekundärschlüssel" eingegeben werden. |
+| Matchcode | Kurzbegriff für die Artikelsuche. Hier wird der Hauptbegriff erfasst, bis zu 90 weitere können unter<br>"Sekundärschlüssel" eingegeben werden. |
 | EAN-Nummer | Hier kann die EAN-Nummer für die Artikelsuche eingegeben werden. |
 
 <p class="just-emphasize">Registerkarte „Allgemein“</p>
@@ -41,18 +31,13 @@ Auf diese wird dann wiederum in der Fakturierung etc. zugegriffen. |
 | Feld | Bedeutung |
 | --- | --- |
 | Warengruppe | Zuordnung einer Warengruppennummer für z.B. Auswertungen. |
-| Erlöskennziffer | Zuordnung der Erlöskennziffer für die automatische Verbuchung in der Finanzbuchhaltung.  
-Hiervon abweichend kann im Artikel eine individuelle EKZ vergeben werden. Die Zuordnung hier dient dann als Vorschlag. |
+| Erlöskennziffer | Zuordnung der Erlöskennziffer für die automatische Verbuchung in der Finanzbuchhaltung.<br>Hiervon abweichend kann im Artikel eine individuelle EKZ vergeben werden. Die Zuordnung hier dient dann als Vorschlag. |
 | Steuerschlüssel | Der Steuerschlüssel zur Ermittlung der Umsatzsteuer von der Artikelseite her. Zusammen mit dem Steuerschlüssel des Kunden/Lieferanten ergibt sich bei der Vorgangs­er­fassung der Steuersatz. |
-| Mengeneinheitsgruppe | Angabe der Mengeneinheitsgruppe, die diesem Artikel zugeordnet ist.  
-In Abhängigkeit von der Funktionalität der Mengen­ein­hei­ten­gruppe, z.B. Gebindefakturierung oder nicht, werden unter „Gebindefaktoren" weitere Eingaben erwartet. |
+| Mengeneinheitsgruppe | Angabe der Mengeneinheitsgruppe, die diesem Artikel zugeordnet ist.<br>In Abhängigkeit von der Funktionalität der Mengen­ein­hei­ten­gruppe, z.B. Gebindefakturierung oder nicht, werden unter „Gebindefaktoren" weitere Eingaben erwartet. |
 | Preisauszeichnung Grundeinheit | |
 | Gewicht / Grundmengeneinheit | Gewicht des Artikels je Mengengrundeinheit. Die Eingabe kann hier mit 4 Nachkommastellen erfolgen. Muss gepflegt werden für nachhaltige Artikel. |
 | Bruttogewicht | Hier wird das Gewicht inkl. Verpackung je Mengen­grund­einheit eingetragen. Die Eingabe kann hier mit 4 Nach­komma­stellen erfolgen. |
-| Verpackungsgewicht | Hier wird das Gewicht der Verpackung und anschließend die Mengeneinheit festgehalten  
-Die Mengeneinheit für das Verpackungsgewicht wird entsprechend dem SPA "Standard-Mengeneinheit-Gewicht" vorbelegt.  
-Hier sollte also ein passender Mengeneinheitsschlüssel hinterlegt sein (z.B. kg oder g).  
-Ist der SPA "Verpackungsgewicht aut. = Brutto - Netto" auf " ja " gesetzt, so wird das Verpackungsgewicht nicht manuell eingegeben, sondern aus Brutto- und Nettogewicht ermittelt. |
+| Verpackungsgewicht | Hier wird das Gewicht der Verpackung und anschließend die Mengeneinheit festgehalten<br>Die Mengeneinheit für das Verpackungsgewicht wird entsprechend dem SPA "Standard-Mengeneinheit-Gewicht" vorbelegt.<br>Hier sollte also ein passender Mengeneinheitsschlüssel hinterlegt sein (z.B. kg oder g).<br>Ist der SPA "Verpackungsgewicht aut. = Brutto - Netto" auf " ja " gesetzt, so wird das Verpackungsgewicht nicht manuell eingegeben, sondern aus Brutto- und Nettogewicht ermittelt. |
 | Mengeneinheit Verpackungsgewicht | |
 | Etikettentyp | |
 | Archiv-Referenz | |

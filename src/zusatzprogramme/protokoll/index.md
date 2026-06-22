@@ -34,8 +34,7 @@ Datentabelle zum Erfassen der Spalten.
 
 | Feld | Bedeutung |
 | --- | --- |
-| PK | Das Feld gibt an, ob es sich um ein Primärschlüsselfeld handelt.  
-Diese Felder dürfen nicht entfernt werden und werden bei jedem speichern der Tabelle wieder hinzugefügt. |
+| PK | Das Feld gibt an, ob es sich um ein Primärschlüsselfeld handelt.<br>Diese Felder dürfen nicht entfernt werden und werden bei jedem speichern der Tabelle wieder hinzugefügt. |
 | Feldliste | Name der Spalte die überwacht werden soll. |
 | Bezeichnung | Hier kann eine Bezeichnung für die Spalte hinterlegt werden. Verwendet wird dieses Feld jedoch nur, wenn die Tabelle im XML-Modus protokoliert wird. |
 

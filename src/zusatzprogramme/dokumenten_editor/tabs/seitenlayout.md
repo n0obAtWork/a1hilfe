@@ -8,8 +8,7 @@
 | Funktion | Beschreibung |
 | --- | --- |
 | Seitenränder | Öffnet die Einstellungen der Seitenränder |
-| Ausrichtung | Hochvormat  
-Querformat |
+| Ausrichtung | Hochvormat<br>Querformat |
 | Größe | Ändert das Layout (Größenverhältnisse) des Dokumentes |
 
 </details>
@@ -20,11 +19,7 @@ Querformat |
 | Funktion | Beschreibung |
 | --- | --- |
 | Spalten | Fügt Spalten in das Dokument ein |
-| Umbrüche | Seite  
-Spalte  
-Textumbruch  
-Nächste Seite  
-Fortlaufend |
+| Umbrüche | Seite<br>Spalte<br>Textumbruch<br>Nächste Seite<br>Fortlaufend |
 
 </details>
 

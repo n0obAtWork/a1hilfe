@@ -22,8 +22,7 @@ Die Kennzahlen Bemessungsgrundlage und Steuer müssen die den Zeilen zugeordnete
 
 | | Kennziffern |
 | --- | --- |
-| Zeile | Bezeichnung | Oberp | Bem.  
-Grund. | Steuer |
+| Zeile | Bezeichnung | Oberp | Bem.<br>Grund. | Steuer |
 | 210 | EU Lief. an Abnehmer mit Ust-IdNr. | 0 | 41 | 0 |
 | 220 | EU Lief. neuer Fahrzeuge ohne Ust-IdNr. | 0 | 44 | 0 |
 | 230 | EU Lief. n. Fahrz. außerh. Unternehmen | 0 | 49 | 0 |

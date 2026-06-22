@@ -54,7 +54,6 @@ Folgende Service-Funktionen sind dort verfügbar:
 
 | Funktion | |
 | --- | --- |
-| ODBC testen | Es wird eine Verbindung via ODBC aufgebaut.  
-Mögliche Ausnahmen werden in einer Notepad-Übersicht dargestellt. |
+| ODBC testen | Es wird eine Verbindung via ODBC aufgebaut.<br>Mögliche Ausnahmen werden in einer Notepad-Übersicht dargestellt. |
 | ODBC erstellen | Erstellt gemäß den obigen Spezifikationen den ODBC-Client-Anschluss. Dabei werden die unter (\*\*\*) angegebenen Restriktionen nicht beachtet! |
 | ODBC Administrator | Öffnet den ODBC-Datenquellen-Administrator |

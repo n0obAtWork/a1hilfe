@@ -23,8 +23,7 @@ Anrufliste
 
 | Feld | Beschreibung |
 | --- | --- |
-| **Nr.** | Nummer der Anrufliste  
-F3-Auswahl aus allen vorhandenen Anruflisten |
+| **Nr.** | Nummer der Anrufliste<br>F3-Auswahl aus allen vorhandenen Anruflisten |
 | **Bezeichnung** | Bezeichnung der Anrufliste |
 | **Tag** | Wochentag |
 | **Uhr** | Hier kann die Uhrzeit angegeben werden. |

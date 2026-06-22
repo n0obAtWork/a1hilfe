@@ -30,10 +30,7 @@ Bei der Auswahl sollte deswegen beachtet werden, dass möglichst kleine Strecken
 | Mengendifferenz | |
 | Enthält Belegdatum | Die Strecke muss das angegebene Belegdatum enthalten. |
 | Nur eigene Belege | |
-| Von Streckenstatus  
-Bis Streckenstatus | Hiermit kann die Strecke nach dem [Status](../../vorgangsabwicklung/vorgangsklammer.md) eingegrenzt werden. Wird dabei nur der „Von“ oder „Bis“ Status angegeben gilt nur der angegebene Status.  
-Werden beide Felder angegeben, wird eine Bereichsauswahl ausgeführt. (z.B. vom Status 1 bis zum Status 5)  
-Bei nicht funktionieren dieser Kriterien sollte zuerst geprüft werden, ob das Format richtig gepflegt wurde. Das Feld „Kommentar / Schnippsel“ muss dafür die Nummer des Status enthalten. |
+| Von Streckenstatus<br>Bis Streckenstatus | Hiermit kann die Strecke nach dem [Status](../../vorgangsabwicklung/vorgangsklammer.md) eingegrenzt werden. Wird dabei nur der „Von“ oder „Bis“ Status angegeben gilt nur der angegebene Status.<br>Werden beide Felder angegeben, wird eine Bereichsauswahl ausgeführt. (z.B. vom Status 1 bis zum Status 5)<br>Bei nicht funktionieren dieser Kriterien sollte zuerst geprüft werden, ob das Format richtig gepflegt wurde. Das Feld „Kommentar / Schnippsel“ muss dafür die Nummer des Status enthalten. |
 
 Streckendisposition
 

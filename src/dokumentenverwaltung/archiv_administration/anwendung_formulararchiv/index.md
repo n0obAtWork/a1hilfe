@@ -18,12 +18,7 @@ Im Gegensatz zu [Formulararchiv-Administration](../formulararchiv_administration
 
 | Felder | |
 | --- | --- |
-| KndNr. | Zuordnung des Beleges zu einer Kundennummer.  
-Die Versorgung der Kundennummer erfolgt je nach Ursprung des Beleges durch das System bzw. den Anwender.  
-Dabei können je nach Zulieferung (Druck, Import, Manuell, sonstige Programmteile, Fremdsoftware) eine 0 bzw. eine datentechnische NULL ins System eingestellt werden.  
-**Die KndNr. wird nicht länger durch fa_kundennummer (char 10) abgebildet, sondern intern durch fa_kundnummer (int).**  
-Fa_kundnummer kann technisch die -1 annehmen im Sinne von „Dokument hat keine Kundenzuordnung“. Dieses wird sowohl in den Auswahllisten als auch in Strg-F12 „Archiv anzeigen“ als Null dargestellt.  
-Somit ist es nun möglich in Strg-F12 bei der Spalteneingrenzung nach „null“ zu selektieren, die Auswahllisten haben eine Extra-Möglichkeit bekommen nach Dokumenten zu suchen denen keine Kundennummer zugeordnet ist. |
+| KndNr. | Zuordnung des Beleges zu einer Kundennummer.<br>Die Versorgung der Kundennummer erfolgt je nach Ursprung des Beleges durch das System bzw. den Anwender.<br>Dabei können je nach Zulieferung (Druck, Import, Manuell, sonstige Programmteile, Fremdsoftware) eine 0 bzw. eine datentechnische NULL ins System eingestellt werden.<br>**Die KndNr. wird nicht länger durch fa_kundennummer (char 10) abgebildet, sondern intern durch fa_kundnummer (int).**<br>Fa_kundnummer kann technisch die -1 annehmen im Sinne von „Dokument hat keine Kundenzuordnung“. Dieses wird sowohl in den Auswahllisten als auch in Strg-F12 „Archiv anzeigen“ als Null dargestellt.<br>Somit ist es nun möglich in Strg-F12 bei der Spalteneingrenzung nach „null“ zu selektieren, die Auswahllisten haben eine Extra-Möglichkeit bekommen nach Dokumenten zu suchen denen keine Kundennummer zugeordnet ist. |
 | Klassifizierung | Vom Anwender vorgegebene Klassifizierung des Beleges. |
 | Beleg-Typ | Beleg-Typ |
 | Beleg-Nr | Beleg-Nummer |
@@ -60,17 +55,13 @@ Zudem können sich in dieser Variante Funktionen - die über [Archiv Import](../
 | Suchen | |
 | --- | --- |
 | Kundennummer | |
-| Mit Kundennummer | Nein [Standard], Ja  
-Bei Nein werden die Dokumente gelistet, die im Selektionsbereich keine Kundennummernzuordnung haben.  
-Die in der Regel nicht existente Kundennummer 0 wird außen vorgelassen, da es in den Programm-Modulen und externen Anwendungen unüberschaubare Verwendungen für „0“ gibt. |
+| Mit Kundennummer | Nein [Standard], Ja<br>Bei Nein werden die Dokumente gelistet, die im Selektionsbereich keine Kundennummernzuordnung haben.<br>Die in der Regel nicht existente Kundennummer 0 wird außen vorgelassen, da es in den Programm-Modulen und externen Anwendungen unüberschaubare Verwendungen für „0“ gibt. |
 | Archivdatum | |
 | Archivdatum Tage zurück | Da das Archiv u.U. sehr viele Einträge enthält besteht hier die Möglichkeit die Anzahl über eine Rückschau einzugrenzen. |
 | Belegnummer | |
 | Belegdatum | |
 | Beleg-Referenznr. | |
-| Herkunft | • Intern  
-• Extern  
-• Manuell |
+| Herkunft | • Intern<br>• Extern<br>• Manuell |
 | Anleger | |
 | Belegklasse | |
 | Mandant | |

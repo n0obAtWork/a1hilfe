@@ -12,8 +12,7 @@ Folgende Felder stehen zur Verfügung.
 
 | Feld | Beschreibung |
 | --- | --- |
-| Auswahllistennummer | Angabe der Listennummer, unter der die Auswahl gespeichert werden soll.  
- |
+| Auswahllistennummer | Angabe der Listennummer, unter der die Auswahl gespeichert werden soll.<br> |
 | Bezeichnung | Vergabe einer Bezeichnung |
 | Fixpreis-Kennzeichen | Wenn ja, werden für die Artikel dieser Liste feste Preise vergeben, die bei der Kontraktansprache ziehen. |
 | Zu-/Abschläge | Kennzeichen, ob die Zu- und Abschläge der Kontraktverwaltung auch bei den Listenartikeln gelten sollen. |

@@ -9,9 +9,7 @@ Bei neuen Systemen muss der Datenbankdienst eingerichtet werden, hierbei ist im 
 
 | Parameter | Bedeutung |
 | --- | --- |
-| \-n | gibt den Maschinennamen an (eng=....)  
- |
+| \-n | gibt den Maschinennamen an (eng=....)<br> |
 | \-c | gibt die Hauptspeicherbereich an, der genutzt werden darf |
-| \-ti  
- | Ist die Zeit in Minuten bis ein User aus dem System geloggt wird |
+| \-ti<br> | Ist die Zeit in Minuten bis ein User aus dem System geloggt wird |
 | \-tl | gibt die Lebenszeit an, die verstreichen muss, bis ein nicht mehr existenter User aus dem System geworfen wird. |

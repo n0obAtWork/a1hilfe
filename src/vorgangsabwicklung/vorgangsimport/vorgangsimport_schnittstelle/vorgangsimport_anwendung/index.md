@@ -28,19 +28,11 @@ Folgende Bedeutung haben die farblich markierten Felder
 
 | Feld | Farben Bedeutung |
 | --- | --- |
-| Status Stamm | 1. Weiß Bereit Vorgang kann erzeugt werden  
-2. Grün Belegerzeugung oder Einspielung läuft  
-3. Rot Es sind Fehler bei der Einspielung, beim Erzeugen aufgetreten oder der Stammsatz ist gelöscht worden.  
- |
-| Kundnr./ Kunde | 1. Weiß Kunde kann gewählt werden  
-2. Rot der Lieferant hat eine Bestellsperre für diesen Artikel |
-| Artikel / Artikelnummer | 1. Artikel kann Bestellt werden  
-2. Rot der Artikel hat eine Bestellsperre |
+| Status Stamm | 1. Weiß Bereit Vorgang kann erzeugt werden<br>2. Grün Belegerzeugung oder Einspielung läuft<br>3. Rot Es sind Fehler bei der Einspielung, beim Erzeugen aufgetreten oder der Stammsatz ist gelöscht worden.<br> |
+| Kundnr./ Kunde | 1. Weiß Kunde kann gewählt werden<br>2. Rot der Lieferant hat eine Bestellsperre für diesen Artikel |
+| Artikel / Artikelnummer | 1. Artikel kann Bestellt werden<br>2. Rot der Artikel hat eine Bestellsperre |
 | Artikellieferant / Artikellieferant | |
-| Status Position | 1. Weiß Bereit Vorgang kann erzeugt werden  
-2. Grün Belegerzeugung oder Einspielung läuft  
-3. Rot Es sind Fehler bei der Einspielung, beim Erzeugen aufgetreten oder der Positionssatz ist gelöscht worden.  
- |
+| Status Position | 1. Weiß Bereit Vorgang kann erzeugt werden<br>2. Grün Belegerzeugung oder Einspielung läuft<br>3. Rot Es sind Fehler bei der Einspielung, beim Erzeugen aufgetreten oder der Positionssatz ist gelöscht worden.<br> |
 
 Gleiche Funktionen in den Varianten „Vorgangsimport“ und „Importierte Positionen bearbeiten“
 

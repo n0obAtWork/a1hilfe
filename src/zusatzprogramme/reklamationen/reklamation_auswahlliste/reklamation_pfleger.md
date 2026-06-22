@@ -24,8 +24,7 @@
 | Felder | Beschreibung |
 | --- | --- |
 | Konto-Nr. | Kunden/Lieferantennummer |
-| Vorgang | Hier wird der betreffende Eingangslieferschein oder die betreffende Eingangsrechnung zu diesem Lieferanten / Verursacher ausgewählt.  
-Hier wird der betreffende Lieferschein oder die betreffende Rechnung zu diesem Kunden / Reklamierer ausgewählt. |
+| Vorgang | Hier wird der betreffende Eingangslieferschein oder die betreffende Eingangsrechnung zu diesem Lieferanten / Verursacher ausgewählt.<br>Hier wird der betreffende Lieferschein oder die betreffende Rechnung zu diesem Kunden / Reklamierer ausgewählt. |
 | Datum | Belegdatum |
 | Vorgangsklasse | Vorgangsklasse des ausgewählten Vorgangs |
 | Unterklasse | Unterklasse des ausgewählten Vorgangs |
@@ -38,12 +37,8 @@ Hier wird der betreffende Lieferschein oder die betreffende Rechnung zu diesem K
 | Button: Vorgang erzeugen | Erzeugt den Vorgang. |
 | Vorgang | Vorgang des von hier aus erzeugtem Vorgang. |
 | Datum | Belegdatum. |
-| Vorgangsklasse | Hier kann vor dem Erstellen des Vorgangs die gewünschte Vorgangsklasse eingetragen werden.  
-Nach dem Erstellen wird hier die Vorgangsklasse des erzeugten Vorgangs angezeigt  
-(Vorbelegung kann im SPA 1036 gesetzt werden). |
-| Unterklasse | Hier kann vor dem Erstellen des Vorgangs die gewünschte Unterklasse eingetragen werden.  
-Nach dem Erstellen wird hier die Vorgangsklasse des erzeugten Vorgangs angezeigt  
-(Vorbelegung kann im SPA 1036 gesetzt werden). |
+| Vorgangsklasse | Hier kann vor dem Erstellen des Vorgangs die gewünschte Vorgangsklasse eingetragen werden.<br>Nach dem Erstellen wird hier die Vorgangsklasse des erzeugten Vorgangs angezeigt<br>(Vorbelegung kann im SPA 1036 gesetzt werden). |
+| Unterklasse | Hier kann vor dem Erstellen des Vorgangs die gewünschte Unterklasse eingetragen werden.<br>Nach dem Erstellen wird hier die Vorgangsklasse des erzeugten Vorgangs angezeigt<br>(Vorbelegung kann im SPA 1036 gesetzt werden). |
 | Button: Bleistift hinter Vorgang | Öffnet den Vorgang im Editier-Modus. |
 | Button: Lupe hinter Vorgang | Öffnet das Archiv des Vorgangs (Lizenz für das Formulararchiv ist notwendig). |
 
@@ -54,13 +49,10 @@ Nach dem Erstellen wird hier die Vorgangsklasse des erzeugten Vorgangs angezeigt
 
 | Felder | Beschreibung |
 | --- | --- |
-| Artikelnummer | In diesem Feld kann ein Artikel aus einem zugeordneten hinzugefügt werden.  
-Die ItemBox bietet eine Variante, welche nur Artikel aus dem Vorgang anzeigt und eine, welche alle Artikel anzeigt.  
-Die Daten der Tabelle sind die Grundlage für den erzeugten Beleg. |
+| Artikelnummer | In diesem Feld kann ein Artikel aus einem zugeordneten hinzugefügt werden.<br>Die ItemBox bietet eine Variante, welche nur Artikel aus dem Vorgang anzeigt und eine, welche alle Artikel anzeigt.<br>Die Daten der Tabelle sind die Grundlage für den erzeugten Beleg. |
 | Rek bzw. Ver | Gibt an, ob der Artikel beim Erstellen eines Vorgangs berücksichtigt wird. |
 | Wert | Gibt an, ob es sich um einen Wertartikel handelt. |
-| Menge | In diesem Feld wird die Reklamationsmenge eingetragen.  
-Die Menge bezieht sich falls vorhanden auf die Gebinde-ME. Anderenfalls auf die reguläre ME. |
+| Menge | In diesem Feld wird die Reklamationsmenge eingetragen.<br>Die Menge bezieht sich falls vorhanden auf die Gebinde-ME. Anderenfalls auf die reguläre ME. |
 | ME | Mengeneinheit des Artikels. Hier können keine Gebinde erfasst werden. |
 | Preis | Wird mit dem Preis aus der dazu gehörigen Warenposition vorbelegt. |
 | Pr. Einh | Wird mit der Preiseinheit der dazu gehörigen Warenposition vorbelegt. |
@@ -73,8 +65,7 @@ Die Menge bezieht sich falls vorhanden auf die Gebinde-ME. Anderenfalls auf die 
 
 | Funktion | Beschreibung |
 | --- | --- |
-| Archiv | Zeigt die Reporte an, welche gedruckt wurden. (Muss möglicherweise unter **[ANWR]** eingerichtet werden)  
-Außerdem können hier sonstige Dateien der Reklamation zugeordnet werden wie beispielsweise Bilder (Lizenz für das Formulararchiv ist notwendig). |
+| Archiv | Zeigt die Reporte an, welche gedruckt wurden. (Muss möglicherweise unter **[ANWR]** eingerichtet werden)<br>Außerdem können hier sonstige Dateien der Reklamation zugeordnet werden wie beispielsweise Bilder (Lizenz für das Formulararchiv ist notwendig). |
 | Maßnahmen (F5) | Maßnahmen für die Reklamation, welche für den Report Druck nötig sind. |
 
 ###### Maßnahmen (Report Druck)

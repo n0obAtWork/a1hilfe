@@ -128,17 +128,11 @@ Beispiele:
 
 | Formel | Feldinhalt | Ergebnis |
 | --- | --- | --- |
-| Feld1$ / Feld2$ | Feld1$ = 30  
-Feld2$ = 20 | 1 Wenn das Feld Ergebnis vom Typen Integer oder N0 ist,  
-1,5 bei den anderen numerischen Feldtypen |
-| Feld1$ / Feld2$ | Feld1$ oder Feld2$ hat den Wert null.  
- | Ergebnis ist immer null, wenn eines der Felder den Wert Null hat.  
-![](../../../ImagesExt/image8_1024.png) |
+| Feld1$ / Feld2$ | Feld1$ = 30<br>Feld2$ = 20 | 1 Wenn das Feld Ergebnis vom Typen Integer oder N0 ist,<br>1,5 bei den anderen numerischen Feldtypen |
+| Feld1$ / Feld2$ | Feld1$ oder Feld2$ hat den Wert null.<br> | Ergebnis ist immer null, wenn eines der Felder den Wert Null hat.<br>![](../../../ImagesExt/image8_1024.png) |
 | Isnull(Feld1$,0) + isnull(Feld2$,0) | Ist Feld1$ oder Feld2$ null, so wird stattdessen mit der 0 gerechnet. Es könne hier also auch beliebige Datenbankfunktionen verwendet werden. | Ist eins der Felder null kommt das Ergebnis so heraus, als ob man mit 0 gerechnet hätte. |
-| Feld1$ / Feld2$ | Feld1$ = 123  
-Feld2$ = 0 | ![](../../../ImagesExt/image8_1025.png) |
-| Feld1$ \* FELD2$ | FELD2$ ist falsch geschrieben und existiert nicht auf der Maske. | Im Testmodus wird eine Fehlermeldung mit Bezeichnung des falsch geschriebenen Feldes ausgegeben. Das Ergebnisfeld sieht wie folgt aus:  
-![](../../../ImagesExt/image8_1026.png) |
+| Feld1$ / Feld2$ | Feld1$ = 123<br>Feld2$ = 0 | ![](../../../ImagesExt/image8_1025.png) |
+| Feld1$ \* FELD2$ | FELD2$ ist falsch geschrieben und existiert nicht auf der Maske. | Im Testmodus wird eine Fehlermeldung mit Bezeichnung des falsch geschriebenen Feldes ausgegeben. Das Ergebnisfeld sieht wie folgt aus:<br>![](../../../ImagesExt/image8_1026.png) |
 
 <p class="just-emphasize">99\. keine</p>
 

@@ -26,11 +26,7 @@ Im Inventurstamm wird die Inventur im Detail definiert.
 | Abgeschlossen | Kennzeichnung, ob die Inventur abgeschlossen ist. Nur als abgeschlossene, gekennzeichnete Inventuren können endgültig eingespielt oder (bei Zwischeninventuren) gelöscht werden. |
 | Vorläufig eingespielt | Kennzeichnung für Inventuren, die bereits vorläufig eingespielt worden sind. Dies ist auch für noch nicht abgeschlossene Inventuren möglich. |
 | Löschkennzeichen | Kennzeichnung für gelöschte Inventuren; Sämtliche Inventurbelege sind dann beseitigt, nur der Inventur-Stammsatz bleibt als Nachweis, dass es diese Inventur mal gegeben hat, erhalten. |
-| Typ | Typ der Inventur:  
-1 = Hauptinventur mit Jahreswechsel  
-2 = nicht aktiv  
-3 = Zwischeninventur  
-4 = Kontrollinventur (ohne Buchung) |
+| Typ | Typ der Inventur:<br>1 = Hauptinventur mit Jahreswechsel<br>2 = nicht aktiv<br>3 = Zwischeninventur<br>4 = Kontrollinventur (ohne Buchung) |
 
 </details>
 

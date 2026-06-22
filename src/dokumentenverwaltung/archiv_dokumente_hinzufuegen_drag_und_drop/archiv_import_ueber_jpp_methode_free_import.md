@@ -11,10 +11,7 @@ Im Mandantenserver-Betrieb werden automatisch die Schalter „Protokoll“ und �
 | Parameter: |
 | --- |
 | fai_id | Pflichtfeld | „Schlüssel“ der Relation fa_import |
-| fai_pfad | Optional | Standard: …  
-Ist dieser Pfad angegeben und ungleich …, so überschreibt dieser Wert die Profil-Vorgabe fai_pfad.  
-Unterstützt werden hier JVARS, d.h. es wird zur Laufzeit der Methode der Inhalt einer JVAR herangezogen. Ein Beispiel für die Syntax ist: @jvars(5004,userpath) |
+| fai_pfad | Optional | Standard: …<br>Ist dieser Pfad angegeben und ungleich …, so überschreibt dieser Wert die Profil-Vorgabe fai_pfad.<br>Unterstützt werden hier JVARS, d.h. es wird zur Laufzeit der Methode der Inhalt einer JVAR herangezogen. Ein Beispiel für die Syntax ist: @jvars(5004,userpath) |
 | receiver | Optional | Standard: … |
 | mandser | Optional | Standard: FALSE |
-| olderas | Obsolete | Versorgung über das Feld „Wartezeit in Minuten“  
-Siehe im gleichen Zusammenhang auch die nun mögliche Parametrisierung „Max. Anzahl pro Durchlauf“ |
+| olderas | Obsolete | Versorgung über das Feld „Wartezeit in Minuten“<br>Siehe im gleichen Zusammenhang auch die nun mögliche Parametrisierung „Max. Anzahl pro Durchlauf“ |

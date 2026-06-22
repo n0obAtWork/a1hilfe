@@ -101,15 +101,9 @@ Mit Bearbeitung wird festgelegt, wie ob und wie Felder vom Endanwender zu bearbe
 
 | | Beschreibung |
 | --- | --- |
-| Eingabefeld | Die Daten werden angezeigt und können geändert werden.  
- |
-| Versteckt | Die Daten werden gelesen und stehen auch als wert zur Verfügung, werden jedoch nicht angezeigt. Dadurch ist es möglich Interne Idents zwar zu laden und somit für SQL bzw. Makros zur Verfügung zu stellen, jedoch für den Endanwender unsichtbar zu machen  
- |
-| Anzeigefeld | Die Daten werden nur angezeigt, können jedoch **NICHT** geändert werden. Ist ein Control (s.u.) hinterlegt, kann das Feld mit der Maus ausgewählt bzw. ein Doppelklick auf diesem Feld ausgeführt werden.  
-    
-    
-**Achtung:** *Ist die* [*Datenherkunft*](./datenbeschreibung.md) ***Relation**, so wird das Feld trotzdem mit gespeichert.*  
- |
+| Eingabefeld | Die Daten werden angezeigt und können geändert werden.<br> |
+| Versteckt | Die Daten werden gelesen und stehen auch als wert zur Verfügung, werden jedoch nicht angezeigt. Dadurch ist es möglich Interne Idents zwar zu laden und somit für SQL bzw. Makros zur Verfügung zu stellen, jedoch für den Endanwender unsichtbar zu machen<br> |
+| Anzeigefeld | Die Daten werden nur angezeigt, können jedoch **NICHT** geändert werden. Ist ein Control (s.u.) hinterlegt, kann das Feld mit der Maus ausgewählt bzw. ein Doppelklick auf diesem Feld ausgeführt werden.<br><br><br>**Achtung:** *Ist die* [*Datenherkunft*](./datenbeschreibung.md) ***Relation**, so wird das Feld trotzdem mit gespeichert.*<br> |
 
 <p class="just-emphasize">Control</p>
 

@@ -10,10 +10,7 @@ Mit Beginn der Einlagerung laufen diese Kontrakte aus. Es wird ein zusätzliches
 
 | Felder aus der Tabelle Kontraktstamm |
 | --- |
-| **Kontraktklasse**  
-**KtrKlasse** | **Buchungstyp**  
-**KtrBuchTyp** | **Alte**  
-**Kontraktklasse** | **Beschreibung** |
+| **Kontraktklasse**<br>**KtrKlasse** | **Buchungstyp**<br>**KtrBuchTyp** | **Alte**<br>**Kontraktklasse** | **Beschreibung** |
 | 1 | 0 | 1 | Verkaufskontrakt |
 | 1 | 1 | 2 | Vorverkaufskontrakt (Fremdware Verkauf) |
 | 1 | 4 | \--- | Kommission Verkauf |

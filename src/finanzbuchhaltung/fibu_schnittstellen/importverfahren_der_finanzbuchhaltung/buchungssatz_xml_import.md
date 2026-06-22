@@ -153,8 +153,7 @@ Bei einer privaten Prozedur müssen immer diese drei Übergabeparameter angegebe
 
 | Parameter | Bedeutung |
 | --- | --- |
-| in_GUID | GUID für das Suchen der Datei in der Tabelle amic_datei  
-4F160BB2-810F-4D83-94DA-0CF5205DE060 |
+| in_GUID | GUID für das Suchen der Datei in der Tabelle amic_datei<br>4F160BB2-810F-4D83-94DA-0CF5205DE060 |
 | in_NumkreisNummer | Nummernkreis für das Einspielen der Buchungssätze |
 | In_ImportSchluessel | Die Schlüsselklasse des Import Umsetzers |
 

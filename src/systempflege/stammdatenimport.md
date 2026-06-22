@@ -11,12 +11,9 @@ Mit dieser Anwendung können Importe für Kunde, Artikel und Artikelpreise durch
 
 | Felder | Bedeutung |
 | --- | --- |
-| Bezeichnung | Bezeichnung des Imports  
- |
-| Import Typ | Art des Importes  
- |
-| Datei | Pfad zur Datei, welche die zu Importierenden Daten enthält.  
- |
+| Bezeichnung | Bezeichnung des Imports<br> |
+| Import Typ | Art des Importes<br> |
+| Datei | Pfad zur Datei, welche die zu Importierenden Daten enthält.<br> |
 
 </details>
 
@@ -27,10 +24,8 @@ Mit dieser Anwendung können Importe für Kunde, Artikel und Artikelpreise durch
 
 | Funktionen | Bedeutung |
 | --- | --- |
-| Ändern **(F5)**, Ansicht **(F6)**, Neu **(F7)**, Löschen **(F8)** | Ruft den Pfleger auf  
- |
-| Ausführen **(F9)** | Führt den Import aus  
- |
+| Ändern **(F5)**, Ansicht **(F6)**, Neu **(F7)**, Löschen **(F8)** | Ruft den Pfleger auf<br> |
+| Ausführen **(F9)** | Führt den Import aus<br> |
 
 </details>
 
@@ -50,20 +45,12 @@ Es gibt drei Arten des Imports
 
 | Eingabefelder | Bedeutung |
 | --- | --- |
-| Name | Hier wird der Name des Imports hinterlegt z.B. Artikelimport  
- |
-| Import Typ | Art des Importes  
- |
-| Datei | Pfad zur Datei welche die zu Importierenden Daten enthält.  
- |
-| Scriptdatei | Die Scriptdatei wird in Abhängigkeit des Importtyps gesetzt. Soll nicht die Standard-Importdatei genutzt werden, so kann hier ein eigenes SQL oder Makro eingetragen werden.  
- |
-| Scripttyp | Hier wird der Scripttyp eingetragen zur Auswahl stehen.  
-1. SQL Script  
-2. A.eins Makro  
- |
-| Importdatei löschen | Soll die Importdatei nach dem erfolgreichen Import gelöscht werden.  
- |
+| Name | Hier wird der Name des Imports hinterlegt z.B. Artikelimport<br> |
+| Import Typ | Art des Importes<br> |
+| Datei | Pfad zur Datei welche die zu Importierenden Daten enthält.<br> |
+| Scriptdatei | Die Scriptdatei wird in Abhängigkeit des Importtyps gesetzt. Soll nicht die Standard-Importdatei genutzt werden, so kann hier ein eigenes SQL oder Makro eingetragen werden.<br> |
+| Scripttyp | Hier wird der Scripttyp eingetragen zur Auswahl stehen.<br>1. SQL Script<br>2. A.eins Makro<br> |
+| Importdatei löschen | Soll die Importdatei nach dem erfolgreichen Import gelöscht werden.<br> |
 
 <p class="just-emphasize">Endkontrolle für den Stammdatenimport</p>
 

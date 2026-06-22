@@ -4,7 +4,4 @@
 
 | Bezeichnung | Standardwert | Erklärung |
 | --- | --- | --- |
-| Vorbelegung Lastschriftverfahren | Verkürzte Vorlauffrist | Hier kann man einstellen, wie das Feld für Lastschriftverfahren im Neu-Fall vorbelegt wird:  
-• Basislastschrift  
-• Verkürzte Vorlauffrist  
-• Firmenlastschrift |
+| Vorbelegung Lastschriftverfahren | Verkürzte Vorlauffrist | Hier kann man einstellen, wie das Feld für Lastschriftverfahren im Neu-Fall vorbelegt wird:<br>• Basislastschrift<br>• Verkürzte Vorlauffrist<br>• Firmenlastschrift |

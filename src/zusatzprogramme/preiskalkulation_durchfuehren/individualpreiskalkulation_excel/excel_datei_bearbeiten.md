@@ -14,20 +14,12 @@ Diese Felder können editiert werden:
 
 | Feldname | Funktion |
 | --- | --- |
-| Ab Menge | Die Menge, ab der der Individualpreis gilt. Bei Veränderung des Feldes wird dem ausgewählten Individualpreis keine neue Menge zugewiesen, sondern ein neuer Individualpreis als Kopie des ausgewählten Preises mit der neuen Menge erstellt. Der ausgewählte Individualpreis mit seiner Menge bleibt bestehen.  
- |
-| Preis | Der Individualpreis, der ab der Menge pro Mengeneinheit gilt. Dieser kann hier gepflegt werden.  
- |
-| Je | Faktor zwischen Individualpreis und Mengeneinheit. Dieser kann hier gepflegt werden.  
- |
-| Preis ab | Definiert den Beginn des Gültigkeitszeitraums für den Individualpreis. Bei Veränderung des Feldes wird dem ausgewählten Individualpreis kein neuer Beginn des Gültigkeitszeitraums zugewiesen, sondern ein neuer Individualpreis als Kopie des ausgewählten Preises mit dem neuen Datum erstellt.  
-**Wichtig**: Unabhängig davon, bei welchem Individualpreis das Feld bearbeitet wird, ist stets auch der Datensatz mit der Menge 0 mit einzubeziehen. Das Feld kann auch als Teil der Vorbelegung ([Exportprofil einrichten](./exportprofil_einrichten.md)) gepflegt werden.  
- |
-| Preis bis | Definiert das Ende des Gültigkeitszeitraums für den Individualpreis. Dieses gilt für alle Mengen des Preises. Es kann hier oder als Teil der Vorbelegung ([Exportprofil einrichten](./exportprofil_einrichten.md)) gepflegt werden.  
- |
-| Löschen | Ein Individualpreis kann gelöscht werden. Hierfür muss dieses Feld auf „Ja“ gesetzt werden.  
-**Wichtig**: wenn die Menge 0 gelöscht wird, werden auch alle anderen Mengen im selben Gültigkeitszeitraum gelöscht.  
- |
+| Ab Menge | Die Menge, ab der der Individualpreis gilt. Bei Veränderung des Feldes wird dem ausgewählten Individualpreis keine neue Menge zugewiesen, sondern ein neuer Individualpreis als Kopie des ausgewählten Preises mit der neuen Menge erstellt. Der ausgewählte Individualpreis mit seiner Menge bleibt bestehen.<br> |
+| Preis | Der Individualpreis, der ab der Menge pro Mengeneinheit gilt. Dieser kann hier gepflegt werden.<br> |
+| Je | Faktor zwischen Individualpreis und Mengeneinheit. Dieser kann hier gepflegt werden.<br> |
+| Preis ab | Definiert den Beginn des Gültigkeitszeitraums für den Individualpreis. Bei Veränderung des Feldes wird dem ausgewählten Individualpreis kein neuer Beginn des Gültigkeitszeitraums zugewiesen, sondern ein neuer Individualpreis als Kopie des ausgewählten Preises mit dem neuen Datum erstellt.<br>**Wichtig**: Unabhängig davon, bei welchem Individualpreis das Feld bearbeitet wird, ist stets auch der Datensatz mit der Menge 0 mit einzubeziehen. Das Feld kann auch als Teil der Vorbelegung ([Exportprofil einrichten](./exportprofil_einrichten.md)) gepflegt werden.<br> |
+| Preis bis | Definiert das Ende des Gültigkeitszeitraums für den Individualpreis. Dieses gilt für alle Mengen des Preises. Es kann hier oder als Teil der Vorbelegung ([Exportprofil einrichten](./exportprofil_einrichten.md)) gepflegt werden.<br> |
+| Löschen | Ein Individualpreis kann gelöscht werden. Hierfür muss dieses Feld auf „Ja“ gesetzt werden.<br>**Wichtig**: wenn die Menge 0 gelöscht wird, werden auch alle anderen Mengen im selben Gültigkeitszeitraum gelöscht.<br> |
 
 Hinweis!
 
@@ -41,21 +33,12 @@ Grundlegend können alle gelb markierten Felder gepflegt werden. Das Verhalten b
 
 | Feldname | Funktion |
 | --- | --- |
-| Mengeneinheitsnummer | Nummer der Mengeneinheit, die für das Feld **Ab Menge** benutzt wird. Diese kann hier gepflegt werden, muss aber eine Ableitung der Lagermengeneinheit des Artikels sein.  
- |
-| Preis  
-Mengeneinheitsnummer | Nummer der Mengeneinheit, für die der Individualpreis berechnet wird. Diese kann gepflegt werden, muss aber eine Ableitung der Lagermengeneinheit des Artikels sein.  
- |
-| Kundennummer,  
-Artikelnummer | Die Werte Können hier gepflegt werden: Es wird eine Kopie des Individualpreis für die neue Auswahl angelegt. Der Individualpreis, der in der Excel-Datei verändert wird, bleibt so bestehen.  
- |
-| Lagernummer | Der Wert kann hier gepflegt werden: Es wird eine Kopie des Individualpreis für die neue Auswahl angelegt.  
-**Wichtig**: Bei Preisveränderung wird der Preis für alle Lager immer einheitlich gesetzt.  
- |
-| Kennzeichen  
-(Brutto, …, Verpackung) | Diese Werte können hier gepflegt werden. |
-| Sperre | Dieser Wert kann hier gepflegt werden.  
- |
+| Mengeneinheitsnummer | Nummer der Mengeneinheit, die für das Feld **Ab Menge** benutzt wird. Diese kann hier gepflegt werden, muss aber eine Ableitung der Lagermengeneinheit des Artikels sein.<br> |
+| Preis<br>Mengeneinheitsnummer | Nummer der Mengeneinheit, für die der Individualpreis berechnet wird. Diese kann gepflegt werden, muss aber eine Ableitung der Lagermengeneinheit des Artikels sein.<br> |
+| Kundennummer,<br>Artikelnummer | Die Werte Können hier gepflegt werden: Es wird eine Kopie des Individualpreis für die neue Auswahl angelegt. Der Individualpreis, der in der Excel-Datei verändert wird, bleibt so bestehen.<br> |
+| Lagernummer | Der Wert kann hier gepflegt werden: Es wird eine Kopie des Individualpreis für die neue Auswahl angelegt.<br>**Wichtig**: Bei Preisveränderung wird der Preis für alle Lager immer einheitlich gesetzt.<br> |
+| Kennzeichen<br>(Brutto, …, Verpackung) | Diese Werte können hier gepflegt werden. |
+| Sperre | Dieser Wert kann hier gepflegt werden.<br> |
 | | | |
 
 Zudem können Excel-spezifische Funktionen auf den Individualpreisen ausgeführt werden:

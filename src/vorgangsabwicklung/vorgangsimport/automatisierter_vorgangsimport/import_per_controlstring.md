@@ -14,11 +14,8 @@ vimperzeugebelege <VorgangsKlasse> <VorgangsArt> <Automatik>
 | Parameter | Typ | Bemerkung |
 | --- | --- | --- |
 | VorgangsKlasse | Integer | Die Vorgangsklasse, die importiert werden soll |
-| VorgangsArt | integer | 0 = Neu (Standard)  
-1= Bearbeitung  
-Dieser Wert hat bei useCS=1 keine Bedeutung |
-| Automatik | integer | 0 – manueller Aufruf mit GUI  
-1 – automatischer Aufruf ohne GUI (Empfohlen für Aufrufe aus dem Mandantenserver oder anderer Automatismen) |
+| VorgangsArt | integer | 0 = Neu (Standard)<br>1= Bearbeitung<br>Dieser Wert hat bei useCS=1 keine Bedeutung |
+| Automatik | integer | 0 – manueller Aufruf mit GUI<br>1 – automatischer Aufruf ohne GUI (Empfohlen für Aufrufe aus dem Mandantenserver oder anderer Automatismen) |
 | UebernahmeId | integer | Übernahmeid, die importiert werden soll |
 | SatzId | integer | Satzid, die importiert werden soll |
 | Test | Integer | Immer 0 – nur für interne Zwecke |

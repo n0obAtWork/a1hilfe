@@ -5,13 +5,9 @@
 | **Parameter** | **Bedeutung** |
 | --- | --- |
 | Kundennummer: | Nummer des Kunden auf den die Ausfuhranmeldung ausgestellt wird. |
-| Teilnehmeridentifikation: | Teilnehmeridentifikation (TIN) des Empfängers der Ausfuhr.  
-Beispiel: EORI, EORI-Nummer, ggf. Niederlassungsnummer  
-oder: TCUI, TCUI-Nummer  
-Die Vorbelegung erfolgt aus den Zolldaten zur Anschrift (Versandanschrift oder Hauptanschrift) des Vorgangs/Kunden |
+| Teilnehmeridentifikation: | Teilnehmeridentifikation (TIN) des Empfängers der Ausfuhr.<br>Beispiel: EORI, EORI-Nummer, ggf. Niederlassungsnummer<br>oder: TCUI, TCUI-Nummer<br>Die Vorbelegung erfolgt aus den Zolldaten zur Anschrift (Versandanschrift oder Hauptanschrift) des Vorgangs/Kunden |
 | Kennnummer der Sendung: | Optionale Kennnummer der Sendung |
-| Interne Bemerkung: | Feld zur Aufnahme einer internen Bemerkung  
-Die Vorbelegung erfolgt aus den Zolldaten zur Anschrift (Versandanschrift oder Hauptanschrift) des Vorgangs/Kunden |
+| Interne Bemerkung: | Feld zur Aufnahme einer internen Bemerkung<br>Die Vorbelegung erfolgt aus den Zolldaten zur Anschrift (Versandanschrift oder Hauptanschrift) des Vorgangs/Kunden |
 
 Sie erhalten eine Maske mit drei Registerkarten:
 

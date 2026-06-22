@@ -17,10 +17,8 @@ Sprachabhängige Textfelder in diesem Report
 | --- | --- |
 | Ueberschrift_Anlieferavis | Anlieferavis |
 | an | an: |
-| Info_disponiert  
- | folgende Partie wurde für die Belieferung des u.g. Kontraktes auf Ihr Werk disponiert: |
-| Anrede  
- | Sehr geehrte Damen und Herren, |
+| Info_disponiert<br> | folgende Partie wurde für die Belieferung des u.g. Kontraktes auf Ihr Werk disponiert: |
+| Anrede<br> | Sehr geehrte Damen und Herren, |
 | Transport_durch | Transport durch: |
 | von_Ladestelle | von Ladestelle: |
 | Termin | Termin |

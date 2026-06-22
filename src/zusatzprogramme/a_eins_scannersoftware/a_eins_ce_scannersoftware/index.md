@@ -85,11 +85,7 @@ Maskenfelder
 | User-ID | Benutzer zur Anmeldung |
 | Password | Passwort für den Benutzer |
 | CommLinks | Verbindungsart (tcpip) |
-| Extra | Setzen z.B. des IDLE oder der Liveness Timeout(lto=30)  
-1. Setzen von lto=30  
-2. Setzen von idle=60  
-3. Setzen von pooling=false  
-Beispiel lto=30;idle=60;pooling=false; |
+| Extra | Setzen z.B. des IDLE oder der Liveness Timeout(lto=30)<br>1. Setzen von lto=30<br>2. Setzen von idle=60<br>3. Setzen von pooling=false<br>Beispiel lto=30;idle=60;pooling=false; |
 | Remote | Pfad zum Ordner in dem sich die Datenbank + dbremote.exe befinden |
 | IP-Adresse | Hier wird die IP-Adresse die der Scanner im Offlinebetrieb verwenden soll angegeben, oder eine Alibi IP Adresse. Eine in diesem Feld hinterlegte IP-Adresse überschreibt, die eigentliche IP Adresse des Scanners. Dies ist vom Vorteil, wenn der Scanner in unterschiedlichen Netzen eingesetzt werden soll. Damit müssen die Steuerparameter für den Scanner nur einmal eingerichtet werden. |
 | Standard | Mit setzten des Haken, wird dies das aktive Profil |
@@ -181,12 +177,9 @@ Spezielle Tasten
 | KeyDown | Blättern in der Ansicht der erfassten Daten nach unten |
 | KeyLeft | Alternative Itembox falls eine eingerichtet worden ist |
 | KeyRight | Rücksprung zur eigentlicher Itembox wenn eine Alternative Itembox eingerichtet worden ist |
-| F1 | Sondertaste kann in einer privaten Funktion abgefangen werden.  
-Diese wird mit dem AI-Code -1 und den Wert KEYF1 übermittelt |
-| F2 | Sondertaste kann in einer privaten Funktion abgefangen werden.  
-Diese wird mit dem AI-Code -1 und den Wert KEYF2 übermittelt |
-| TAB | Mit der Taste kann ein manuell eingegebener Scancode an das System übergeben werden.  
-Dies wird nicht mehr benötigt, da die Entertaste das Verhalten jetzt übernimmt. |
+| F1 | Sondertaste kann in einer privaten Funktion abgefangen werden.<br>Diese wird mit dem AI-Code -1 und den Wert KEYF1 übermittelt |
+| F2 | Sondertaste kann in einer privaten Funktion abgefangen werden.<br>Diese wird mit dem AI-Code -1 und den Wert KEYF2 übermittelt |
+| TAB | Mit der Taste kann ein manuell eingegebener Scancode an das System übergeben werden.<br>Dies wird nicht mehr benötigt, da die Entertaste das Verhalten jetzt übernimmt. |
 
 <p class="siehe-auch">Siehe auch:</p>
 

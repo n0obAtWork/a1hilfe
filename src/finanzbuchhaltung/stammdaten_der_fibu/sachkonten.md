@@ -25,72 +25,27 @@ Bei Anwahl der Funktionen „***Neu***“, „***Ändern***“ oder „***Ansehe
 
 | | Beschreibung |
 | --- | --- |
-| **Kontonummer**  
- | Die Kontonummer des Sachkontos mit maximal 8 Stellen. Sie ist ein eindeutiger Suchschlüssel. Hat man einmal die Kontonummer vergeben, kann diese nicht mehr geändert werden. Man kann jedoch über die Funktion „***Speichern unter***“ alle Einstellungen unter einer anderen Kontonummer speichern und dann ggf. die alte Kontonummer löschen.  
-In der Finanzbuchhaltung ist es Sinnvoll, die Nummern für Sach-, Personen- und Oberkonten in getrennten Bereichen zu haben. Diese Bereiche können in A.eins selber festgelegt werden. Dies geschieht über Nummernkreise und deren Ober- und Untergrenzen. Die Nummernkreise für die Kontogruppen werden in der „**Allgemeinen Nummernkreiszuordnung**“ (Direktsprung **[MNDNK])** festgelegt.  
-Ist kein Nummernkreis in der **Allgemeinen Nummernkreiszuordnung**“ festgelegt, können keine Sachkonten erfasst werden. Dieses Verhalten lässt sich per Einrichterparameter „**Nummernkreiszuordnung ignorieren**“ ändern, indem man den Wert auf **Ja** ändert. Es findet dann kein Bereichstest statt.  
- |
-| **Kontotyp**  
- | Hier wird angegeben, ob es sich um ein Bilanz-, GuV – oder Statistikkonto handelt. Dieses Kennzeichen wird später in den Auswertungen behandelt (Bilanzerstellung u.a.) und wird bei der Belegerfassung auf sachliche Richtigkeit geprüft. Das Feld neben dem Kontotyp enthält die genauere Einteilung Erlöskonto/Aufwandskonto für GuV-Konten bzw. Aktiva/Passiva für Bilanzkonten. Dieses Kennzeichen wird zurzeit nur von externen Auswertungswerkzeugen, wie z.B. dem [financeManager](http://www.finmanager.de/) der Firma PCC Consulting GmbH, verwendet.  
- |
-| **Matchcode**  
- | Alphanumerischer Suchbegriff.  
- |
-| **Bezeichnung**  
- | Freier Text für das Konto. Dieser Text erscheint in den Listen und **F3**\-Auswahlboxen.  
-Ist der Steuerungsparameter 34 "Mehrsprachigkeit aktiv“ in A.eins gesetzt, so hat man auf diesem Feld die Möglichkeit mit F3 [sprachabhängige Bezeichnungen](../../firmenstamm/a_eins_sprache/sprachabhaengige_bezeichnung_in_den_stammdaten.md) zu pflegen.  
- |
+| **Kontonummer**<br> | Die Kontonummer des Sachkontos mit maximal 8 Stellen. Sie ist ein eindeutiger Suchschlüssel. Hat man einmal die Kontonummer vergeben, kann diese nicht mehr geändert werden. Man kann jedoch über die Funktion „***Speichern unter***“ alle Einstellungen unter einer anderen Kontonummer speichern und dann ggf. die alte Kontonummer löschen.<br>In der Finanzbuchhaltung ist es Sinnvoll, die Nummern für Sach-, Personen- und Oberkonten in getrennten Bereichen zu haben. Diese Bereiche können in A.eins selber festgelegt werden. Dies geschieht über Nummernkreise und deren Ober- und Untergrenzen. Die Nummernkreise für die Kontogruppen werden in der „**Allgemeinen Nummernkreiszuordnung**“ (Direktsprung **[MNDNK])** festgelegt.<br>Ist kein Nummernkreis in der **Allgemeinen Nummernkreiszuordnung**“ festgelegt, können keine Sachkonten erfasst werden. Dieses Verhalten lässt sich per Einrichterparameter „**Nummernkreiszuordnung ignorieren**“ ändern, indem man den Wert auf **Ja** ändert. Es findet dann kein Bereichstest statt.<br> |
+| **Kontotyp**<br> | Hier wird angegeben, ob es sich um ein Bilanz-, GuV – oder Statistikkonto handelt. Dieses Kennzeichen wird später in den Auswertungen behandelt (Bilanzerstellung u.a.) und wird bei der Belegerfassung auf sachliche Richtigkeit geprüft. Das Feld neben dem Kontotyp enthält die genauere Einteilung Erlöskonto/Aufwandskonto für GuV-Konten bzw. Aktiva/Passiva für Bilanzkonten. Dieses Kennzeichen wird zurzeit nur von externen Auswertungswerkzeugen, wie z.B. dem [financeManager](http://www.finmanager.de/) der Firma PCC Consulting GmbH, verwendet.<br> |
+| **Matchcode**<br> | Alphanumerischer Suchbegriff.<br> |
+| **Bezeichnung**<br> | Freier Text für das Konto. Dieser Text erscheint in den Listen und **F3**\-Auswahlboxen.<br>Ist der Steuerungsparameter 34 "Mehrsprachigkeit aktiv“ in A.eins gesetzt, so hat man auf diesem Feld die Möglichkeit mit F3 [sprachabhängige Bezeichnungen](../../firmenstamm/a_eins_sprache/sprachabhaengige_bezeichnung_in_den_stammdaten.md) zu pflegen.<br> |
 
 Register „Auswertungskennzeichen/Druckpositionen“
 
 | | Bedeutung |
 | --- | --- |
-| **Oberkonto**  
- | Diesem Oberkonto wird beim Buchen dieses Kontos der Betrag zusätzlich zugewiesen.  
- |
-| **Oberkontentrennung nach Soll und Haben**  
- | Im Normalfall wird für ein Sachkonto nur ein Oberkonto verwendet. Will man jedoch eine Bilanz auf Basis der Oberkonten erstellen, wird es schwierig, dies vernünftig abzubilden. Als Beispiel hierfür lassen sich die Bankkonten anführen, die je nach Saldo auf der Aktiv- bzw. auf der Passivseite der Bilanz erscheinen. Hat man nun mehrere Bankkonten, bei denen ein und dasselbe Oberkonto eingerichtet ist, ist eine Trennung innerhalb der Oberkonten so einfach nicht möglich.  
-Um nun ein weiteres Oberkonto definieren zu können, kann man den SPA "Oberkontentrennung S/H (externe Ausw.)" in der Parametergruppe Optionen Finanzwesen auf **Ja** stellen. Dann hat man im Sachkontenstamm die Möglichkeit, zwei Oberkonten zu pflegen. Beim Buchen wird jedoch nach wie vor nur ein Oberkonto bebucht (Oberkonto Soll). Für die Verwendung des zweiten Oberkontos steht im Menü Bilanz/GuV eine Auswahlliste "Externe Oberkontenauswertung" zur Verfügung. Die Zuordnung der Beträge auf die Oberkonten erfolgt hier über eine vorherige Berechnung. Es wird je nach Sollhabenstellung des Periodensaldos des bebuchten Sachkontos dieser Saldo entweder dem Oberkonto Soll oder dem Oberkonto Haben zugeordnet. In der Relation Kontosummen werden die Felder KontoSumextsoll und Kontosumexthaben gefüllt.  
- |
-| **Bilanz/GuV laut** | Da die Handelsbilanz von der Steuerbilanz abweichen kann, muss es eine Möglichkeit geben bestimmte Konten einer Bilanzart zuzuordnen. Je nachdem, wie dieses Kennzeichen gesetzt wird, wird das Konto ausgewertet. Es hat folgende Ausprägungen:  
-• Steuerbilanz  
-• Handelsbilanz  
-• Alle Bilanzarten ( Standardeinstellung )  
-Es wird in der e-Bilanz, alle Bilanz- und G&V-Reporten ausgewertet. Dort findet man in der Bereichsauswahl eine Zeile mit der Beschriftung „Bilanz laut“ bzw. „GuV laut“. Man muss hier dann angeben, ob die Auswertung nach Handels- oder nach Steuerrecht – also ob zusätzlich zu den Konten mit dem Kennzeichen „Alle Bilanzarten“ auch diejenigen erscheinen sollen, die mit „Steuerbilanz“ oder mit „Handelsbilanz gekennzeichnet sind.  
- |
-| **Druckposition Summen und Saldenliste** | Hier erfolgt die Eingabe der Druckposition für die Summen- und Saldenliste. Konten mit gleicher Druckposition werden in den Auswertungen in einem Block zusammengefasst und innerhalb des Blocks in der Reihenfolge der Kontonummer ausgegeben.  
- |
-| **Druckposition Bilanz/GuV Soll/Haben**  
- | Je nachdem, ob es sich um einen Soll- oder Haben Saldo handelt, kann die Druckposition sich unterscheiden.  
-So z.B., ob es sich um Forderungen an Kreditinstitute oder um Verbindlichkeiten handelt.  
-    
- |
-| Druckposition IFRS-Bilanz/GuV Soll/Haben  
- | Gemäß einer EU-Verordnung von 2002 sind **börsennotierte Unternehmen** mit Sitz in einem EU-Mitgliedstaat dazu verpflichtet, neben der Bilanz nach HGB auch die internationalen Rechnungslegungsstandards (IAS/ IFRS) einzuhalten. Da man in der Lage sein muss, eine Steuerbilanz auf Basis des HGB-Abschlusses und eine IFRS – Bilanz vorzulegen, existiert hier eine Möglichkeit parallel zur Bilanz nach HGB auch Druckpositionen für eine IFRS-Bilanz zu hinterlegen.  
- |
-| Druckpositionen US-GAAP-Bilanz**/****GuV Soll/Haben**  
- | Die **U**nited **S**tates **G**enerally **A**ccepted **A**ccounting **P**rinciples (US-GAAP) ist die allgemeine Bezeichnung für die US-amerikanischen Vorschriften der Rechnungslegung, die die Buchführung sowie den Jahresabschluss der Unternehmen regeln. Innerhalb der USA spricht man nur von GAAP, entsprechend etwa dem deutschen Sprachgebrauch den GOB’s. Um zusätzlich zu der Steuerbilanz auf HGB – Basis eine Bilanz auf US-GAAP-Basis erstellen zu können, existieren im Sachkontenstamm diese Druckpositionen.  
- |
-| **Druckposition Kostenträgern / BAB**  
- | Hier erfolgt die Eingabe der Druckposition für Crystal-Listen BAB Einzel-Kst. und BAB Verdichtet. Konten mit gleicher Druckposition werden in den Auswertungen in einem Block zusammengefasst und innerhalb des Blocks in der Reihenfolge der Konten ausgegeben.  
- |
-| **Chefauswertung**  
- | Diese Felder sind für Konten vom Typ GuV betretbar. Jedes GuV Konto kann einer Druckposition zugeordnet werden. Auf diese Weise aggregiert man den Kontenstamm für die Chefliste.  
-Im ersten Feld kann eine Gruppe für den Druck der Chefliste aus dem folgenden Format ChefAuswGrup (Gruppe (fibu-orient.) der Chefliste) ausgewählt werden:  
-1 - Erlöse (nicht auswertungsrelevant)  
-2 - Wareneinkauf (nicht auswertungsrelevant)  
-3 – Kosten  
-4 - neutrales Ergebnis  
-Im zweiten Feld kann dann die entsprechende Nummer der Druckposition innerhalb der jeweiligen Gruppe ausgewählt werden. Das Feld dahinter zeigt die Bezeichnung der ausgewählten Druckposition an. |
-| **Auswertungspositionen A bis C**  
- | In den drei Feldern "Auswertungsposition" können frei vorgebbare Selektionsmerkmale eingetragen werden.  
-Auf sie kann für Auswertungszwecke zugegriffen werden. Über **F3** kann die Liste der vom Anwender voreingestellten Auswertungspositionen abgerufen werden |
-| ROI-Kennzahlen  
- | Die ROI-Kennzahlen (Return of Investment) dienen dazu, Sachkonten einem ROI-Baum zuzuordnen. Siehe dazu Chefcockpit.  
- |
-| **Liquiditätsgruppen**  
- | **Die Liquiditätsgruppen dienen zur Strukturierung der Sachkonten nach Liquiditätsgesichtspunkten. Der Pfleger für diese Gruppen ist unter dem Direktsprung** **[LIQ]** **zu erreichen.**  
- |
+| **Oberkonto**<br> | Diesem Oberkonto wird beim Buchen dieses Kontos der Betrag zusätzlich zugewiesen.<br> |
+| **Oberkontentrennung nach Soll und Haben**<br> | Im Normalfall wird für ein Sachkonto nur ein Oberkonto verwendet. Will man jedoch eine Bilanz auf Basis der Oberkonten erstellen, wird es schwierig, dies vernünftig abzubilden. Als Beispiel hierfür lassen sich die Bankkonten anführen, die je nach Saldo auf der Aktiv- bzw. auf der Passivseite der Bilanz erscheinen. Hat man nun mehrere Bankkonten, bei denen ein und dasselbe Oberkonto eingerichtet ist, ist eine Trennung innerhalb der Oberkonten so einfach nicht möglich.<br>Um nun ein weiteres Oberkonto definieren zu können, kann man den SPA "Oberkontentrennung S/H (externe Ausw.)" in der Parametergruppe Optionen Finanzwesen auf **Ja** stellen. Dann hat man im Sachkontenstamm die Möglichkeit, zwei Oberkonten zu pflegen. Beim Buchen wird jedoch nach wie vor nur ein Oberkonto bebucht (Oberkonto Soll). Für die Verwendung des zweiten Oberkontos steht im Menü Bilanz/GuV eine Auswahlliste "Externe Oberkontenauswertung" zur Verfügung. Die Zuordnung der Beträge auf die Oberkonten erfolgt hier über eine vorherige Berechnung. Es wird je nach Sollhabenstellung des Periodensaldos des bebuchten Sachkontos dieser Saldo entweder dem Oberkonto Soll oder dem Oberkonto Haben zugeordnet. In der Relation Kontosummen werden die Felder KontoSumextsoll und Kontosumexthaben gefüllt.<br> |
+| **Bilanz/GuV laut** | Da die Handelsbilanz von der Steuerbilanz abweichen kann, muss es eine Möglichkeit geben bestimmte Konten einer Bilanzart zuzuordnen. Je nachdem, wie dieses Kennzeichen gesetzt wird, wird das Konto ausgewertet. Es hat folgende Ausprägungen:<br>• Steuerbilanz<br>• Handelsbilanz<br>• Alle Bilanzarten ( Standardeinstellung )<br>Es wird in der e-Bilanz, alle Bilanz- und G&V-Reporten ausgewertet. Dort findet man in der Bereichsauswahl eine Zeile mit der Beschriftung „Bilanz laut“ bzw. „GuV laut“. Man muss hier dann angeben, ob die Auswertung nach Handels- oder nach Steuerrecht – also ob zusätzlich zu den Konten mit dem Kennzeichen „Alle Bilanzarten“ auch diejenigen erscheinen sollen, die mit „Steuerbilanz“ oder mit „Handelsbilanz gekennzeichnet sind.<br> |
+| **Druckposition Summen und Saldenliste** | Hier erfolgt die Eingabe der Druckposition für die Summen- und Saldenliste. Konten mit gleicher Druckposition werden in den Auswertungen in einem Block zusammengefasst und innerhalb des Blocks in der Reihenfolge der Kontonummer ausgegeben.<br> |
+| **Druckposition Bilanz/GuV Soll/Haben**<br> | Je nachdem, ob es sich um einen Soll- oder Haben Saldo handelt, kann die Druckposition sich unterscheiden.<br>So z.B., ob es sich um Forderungen an Kreditinstitute oder um Verbindlichkeiten handelt.<br><br> |
+| Druckposition IFRS-Bilanz/GuV Soll/Haben<br> | Gemäß einer EU-Verordnung von 2002 sind **börsennotierte Unternehmen** mit Sitz in einem EU-Mitgliedstaat dazu verpflichtet, neben der Bilanz nach HGB auch die internationalen Rechnungslegungsstandards (IAS/ IFRS) einzuhalten. Da man in der Lage sein muss, eine Steuerbilanz auf Basis des HGB-Abschlusses und eine IFRS – Bilanz vorzulegen, existiert hier eine Möglichkeit parallel zur Bilanz nach HGB auch Druckpositionen für eine IFRS-Bilanz zu hinterlegen.<br> |
+| Druckpositionen US-GAAP-Bilanz**/****GuV Soll/Haben**<br> | Die **U**nited **S**tates **G**enerally **A**ccepted **A**ccounting **P**rinciples (US-GAAP) ist die allgemeine Bezeichnung für die US-amerikanischen Vorschriften der Rechnungslegung, die die Buchführung sowie den Jahresabschluss der Unternehmen regeln. Innerhalb der USA spricht man nur von GAAP, entsprechend etwa dem deutschen Sprachgebrauch den GOB’s. Um zusätzlich zu der Steuerbilanz auf HGB – Basis eine Bilanz auf US-GAAP-Basis erstellen zu können, existieren im Sachkontenstamm diese Druckpositionen.<br> |
+| **Druckposition Kostenträgern / BAB**<br> | Hier erfolgt die Eingabe der Druckposition für Crystal-Listen BAB Einzel-Kst. und BAB Verdichtet. Konten mit gleicher Druckposition werden in den Auswertungen in einem Block zusammengefasst und innerhalb des Blocks in der Reihenfolge der Konten ausgegeben.<br> |
+| **Chefauswertung**<br> | Diese Felder sind für Konten vom Typ GuV betretbar. Jedes GuV Konto kann einer Druckposition zugeordnet werden. Auf diese Weise aggregiert man den Kontenstamm für die Chefliste.<br>Im ersten Feld kann eine Gruppe für den Druck der Chefliste aus dem folgenden Format ChefAuswGrup (Gruppe (fibu-orient.) der Chefliste) ausgewählt werden:<br>1 - Erlöse (nicht auswertungsrelevant)<br>2 - Wareneinkauf (nicht auswertungsrelevant)<br>3 – Kosten<br>4 - neutrales Ergebnis<br>Im zweiten Feld kann dann die entsprechende Nummer der Druckposition innerhalb der jeweiligen Gruppe ausgewählt werden. Das Feld dahinter zeigt die Bezeichnung der ausgewählten Druckposition an. |
+| **Auswertungspositionen A bis C**<br> | In den drei Feldern "Auswertungsposition" können frei vorgebbare Selektionsmerkmale eingetragen werden.<br>Auf sie kann für Auswertungszwecke zugegriffen werden. Über **F3** kann die Liste der vom Anwender voreingestellten Auswertungspositionen abgerufen werden |
+| ROI-Kennzahlen<br> | Die ROI-Kennzahlen (Return of Investment) dienen dazu, Sachkonten einem ROI-Baum zuzuordnen. Siehe dazu Chefcockpit.<br> |
+| **Liquiditätsgruppen**<br> | **Die Liquiditätsgruppen dienen zur Strukturierung der Sachkonten nach Liquiditätsgesichtspunkten. Der Pfleger für diese Gruppen ist unter dem Direktsprung** **[LIQ]** **zu erreichen.**<br> |
 
 Register „Vorbelegung Belegerfassung“
 
@@ -100,54 +55,22 @@ Register „Weitere Optionen“
 
 | | Bedeutung |
 | --- | --- |
-| **Vortragskonto**  
- | Es ist in A.eins möglich, mehrere unterschiedliche Konten als Eröffnungs- bzw. Abschlussbilanzkonto beim Jahreswechsel zu verwenden. Diese Konten müssen hier mit **Ja** gekennzeichnet werden.  
- |
-| Ist Unterkonto von  
- | Zu den Abschlussarbeiten gehört unter anderem der Abschluss der Unterkonten über die entsprechenden Hauptkonten. Als Beispiel wäre hier der Abschluss der Privatkonten auf das Eigenkapitalkonto zu nennen. Man würde dann bei dem Privatkonto in dem Feld „Ist Unterkonto von“ das Eigenkapitalkonto eintragen. Beim Jahreswechsel wird dann in die letzte Normalperiode automatisch ein entsprechender SO-Beleg erzeugt. Es wird hier empfohlen, eine 13. Normalperiode einzurichten, damit die Werte der Bilanz für die Periode 12 nicht durch den Jahreswechsel geändert werden.  
-   
-**Hinweis**: *Es wird keine Verschachtelung unterstützt. Ein Konto, bei dem also schon ein Hauptkonto eingetragen wurde, kann nicht selber als Hauptkonto verwendet werden.*  
- |
-| **Steuerkonto**  
- | Steuerkonten führen automatische Berechnungen durch **(Steuerberechnung)** und unterliegen zusätzlichen Auswertungsanforderungen. Mit **Ja** werden diese Funktionen aktiviert. Ist ein Konto als Steuerkonto gekennzeichnet, wird automatisch die Erfassungssperre gesetzt.  
- |
-| **Wechselkonto**  
- | Um die Automatismen der Wechselbuchhaltung in A.eins richtig verwenden zu können, müssen alle Wechselkonten mit **Ja** gekennzeichnet sein.  
- |
-| **Zinskonto**  
- | Die Salden auf einem Konto können in Zusammenhang mit dem Modul "Zinsbuchhaltung" banküblich verzinst werden. Ist dies gewünscht, muss der Parameter auf **Ja** geschaltet werden.  
-Wird ein Sachkonto als Zinskonto ausgewiesen, so sind noch weitere Angaben erforderlich.  
- |
-| **Zinsgruppe**  
- | Nummer der [Zinsgruppe](../zinswesen/stammdaten_zinswesen/zinsgruppen.md), die Informationen über Zinssätze, Abrechnungsformular etc. enthält.  
- |
-| **Sockelbetrag**  
- | Zinsfreier Sockelbetrag, bis zu dem keine Zinsen berechnet werden.  
- |
-| **OP-Konto**  
- | Sachkonten können als "Offene-Posten" - Konten geführt werden. Ein Anwendungsbereich stellt das Verrechnungskonto für Schecks dar. Alle aus- und eingehenden Schecks werden hier sofort erfasst und einzeln als OP gebucht. Mit dem Bankauszug werden sie dann ausgebucht.  
-Auf dem Verrechnungskonto hat man sowohl einen Überblick über den Gesamtstand der Ein- und Ausgangsschecks als auch darüber, welche Schecks noch im Umlauf sind.  
-Wird dieses Kennzeichen geändert, so werden alle bereits erfasste Belege abhängig von dem Datum im Feld „OP’s bilden ab“ angepasst.  
- |
-| **OP’s bilden ab** | Dieses Feld wird eingeblendet, wenn das Kennzeichen OP-Konto auf **Ja** steht. Dieses Datum kann leer gelassen werden, dann werden zu allen bestehenden Belegen die OP-Einträge erstellt. Wird hier ein Datum eingegeben, so werden alle Belege in Buchwährung, die vor diesem Datum liegen zu einem Restposten zusammengeführt. Es ist nicht möglich ein Datum anzugeben, dass in einer abgeschlossenen Periode liegt.  
- |
-| **Währung führen?** | Dieses Feld wird eingeblendet, wenn das Kennzeichen OP-Konto auf **Ja** steht. Nur wenn hier **Ja** eingetragen wurde, werden Währungsinformationen für dieses Konto im Beleg hinterlegt.  
- |
-| **Anlagenkonto**  
- | **Bilanzkonten können als Anlagenkonten geführt werden. Bisher wird dieses Kennzeichen nur bei der Gewährung von Skonto ausgewertet, da Skonto auf Anlagegüter den Anschaffungswert mindern. Wird also eine Rechnung, die ein Anlagegut – also ein Konto, das als Anlagenkonto gekennzeichnet ist - betrifft, bezahlt, so wird das Skontokonto nicht über den Steuersatz ermittelt. Der Skonto wird direkt auf dieses Anlagenkonto gebucht.**  
- |
-| **Erfassungssperre**  
- | **Bei Konten, die nicht in der Belegerfassung erfasst werden dürfen, muss hier ein** **Ja** **eingetragen werden. Solche Konten wären z.B. Steuerkonten oder Forderungs- und Verbindlichkeitskonten.** |
-| **Beleg-Bearbeitungskennz.** | **Hier kann eine** [Bearbeitungssperre](../op_verwaltung/einzelbeleganzeige.md#Bearbeitungssperre) **für Belege festgelegt werden. Wird für das Sachkonto eine Beleg-Bearbeitungssperre gesetzt, so wird für alle nachfolgenden Belege die im Sachkonto eingetragene Bearbeitungssperre angewendet. Dies gilt nur dann, wenn das Sachkonto im Beleg als Hauptkonto verwendet wird.**  
-**Soll das Sachkonto über keine Beleg-Bearbeitungssperre verfügen, so ist hier der Wert „Änderbar“ einzutragen. Der Standardwert ist „Änderbar“.**  
- |
-| **Auflösungskonto**  
- | **In den Anwendungen Belegmappe und Währungsabgrenzungen können Abgrenzungsbuchungen automatisch aufgelöst werden. Wenn aus Auswertungsgründen bei der Auflösung ein anderes Konto verwendet werden soll als bei der Abgrenzung, so kann dieses hier eingetragen werden.**  
- |
-| **Zugehöriges Statistikkonto** | **Hier kann einem Sachkonto ein festes Statistikkonto zugewiesen werden. Wird hier ein Konto eingetragen, dann wird - bei gesetztem** [Steuerparameter 720](../../firmenstamm/steuerparameter/optionen_warenwirtschaft/mengenbuchung_bei_fibu_uebertrag_spa_720.md) „Mengenbuchung bei dem Übertrag in die Finanzbuchhaltung“ - **beim Speichern des Datensatzes gleichzeitig für alle Erlöskennziffer-Kontozuordnungen, die dieses Sachkonto als Erlös- oder Aufwandskonto haben, das zugehörige Bestandskonto auf das hier eingetragene Statistikkonto gesetzt. Im Pfleger der Erlöskennziffer- Kontozuordnungen kann gleichzeitig dieses Bestandskonto nicht mehr manuell geändert werden.**  
- |
-| **Artikelnummer**  
- | Wird die Zinsabrechnung **per** [OpenTRANS](../../zusatzprogramme/ehemalige_addins_uebersicht/n_a/opentrans_thebe/index.md) **übermittelt, so müssen den Konten, auf die die Zinsen gebucht werden fiktive Artikelnummern zugeordnet werden.** |
+| **Vortragskonto**<br> | Es ist in A.eins möglich, mehrere unterschiedliche Konten als Eröffnungs- bzw. Abschlussbilanzkonto beim Jahreswechsel zu verwenden. Diese Konten müssen hier mit **Ja** gekennzeichnet werden.<br> |
+| Ist Unterkonto von<br> | Zu den Abschlussarbeiten gehört unter anderem der Abschluss der Unterkonten über die entsprechenden Hauptkonten. Als Beispiel wäre hier der Abschluss der Privatkonten auf das Eigenkapitalkonto zu nennen. Man würde dann bei dem Privatkonto in dem Feld „Ist Unterkonto von“ das Eigenkapitalkonto eintragen. Beim Jahreswechsel wird dann in die letzte Normalperiode automatisch ein entsprechender SO-Beleg erzeugt. Es wird hier empfohlen, eine 13. Normalperiode einzurichten, damit die Werte der Bilanz für die Periode 12 nicht durch den Jahreswechsel geändert werden.<br> <br>**Hinweis**: *Es wird keine Verschachtelung unterstützt. Ein Konto, bei dem also schon ein Hauptkonto eingetragen wurde, kann nicht selber als Hauptkonto verwendet werden.*<br> |
+| **Steuerkonto**<br> | Steuerkonten führen automatische Berechnungen durch **(Steuerberechnung)** und unterliegen zusätzlichen Auswertungsanforderungen. Mit **Ja** werden diese Funktionen aktiviert. Ist ein Konto als Steuerkonto gekennzeichnet, wird automatisch die Erfassungssperre gesetzt.<br> |
+| **Wechselkonto**<br> | Um die Automatismen der Wechselbuchhaltung in A.eins richtig verwenden zu können, müssen alle Wechselkonten mit **Ja** gekennzeichnet sein.<br> |
+| **Zinskonto**<br> | Die Salden auf einem Konto können in Zusammenhang mit dem Modul "Zinsbuchhaltung" banküblich verzinst werden. Ist dies gewünscht, muss der Parameter auf **Ja** geschaltet werden.<br>Wird ein Sachkonto als Zinskonto ausgewiesen, so sind noch weitere Angaben erforderlich.<br> |
+| **Zinsgruppe**<br> | Nummer der [Zinsgruppe](../zinswesen/stammdaten_zinswesen/zinsgruppen.md), die Informationen über Zinssätze, Abrechnungsformular etc. enthält.<br> |
+| **Sockelbetrag**<br> | Zinsfreier Sockelbetrag, bis zu dem keine Zinsen berechnet werden.<br> |
+| **OP-Konto**<br> | Sachkonten können als "Offene-Posten" - Konten geführt werden. Ein Anwendungsbereich stellt das Verrechnungskonto für Schecks dar. Alle aus- und eingehenden Schecks werden hier sofort erfasst und einzeln als OP gebucht. Mit dem Bankauszug werden sie dann ausgebucht.<br>Auf dem Verrechnungskonto hat man sowohl einen Überblick über den Gesamtstand der Ein- und Ausgangsschecks als auch darüber, welche Schecks noch im Umlauf sind.<br>Wird dieses Kennzeichen geändert, so werden alle bereits erfasste Belege abhängig von dem Datum im Feld „OP’s bilden ab“ angepasst.<br> |
+| **OP’s bilden ab** | Dieses Feld wird eingeblendet, wenn das Kennzeichen OP-Konto auf **Ja** steht. Dieses Datum kann leer gelassen werden, dann werden zu allen bestehenden Belegen die OP-Einträge erstellt. Wird hier ein Datum eingegeben, so werden alle Belege in Buchwährung, die vor diesem Datum liegen zu einem Restposten zusammengeführt. Es ist nicht möglich ein Datum anzugeben, dass in einer abgeschlossenen Periode liegt.<br> |
+| **Währung führen?** | Dieses Feld wird eingeblendet, wenn das Kennzeichen OP-Konto auf **Ja** steht. Nur wenn hier **Ja** eingetragen wurde, werden Währungsinformationen für dieses Konto im Beleg hinterlegt.<br> |
+| **Anlagenkonto**<br> | **Bilanzkonten können als Anlagenkonten geführt werden. Bisher wird dieses Kennzeichen nur bei der Gewährung von Skonto ausgewertet, da Skonto auf Anlagegüter den Anschaffungswert mindern. Wird also eine Rechnung, die ein Anlagegut – also ein Konto, das als Anlagenkonto gekennzeichnet ist - betrifft, bezahlt, so wird das Skontokonto nicht über den Steuersatz ermittelt. Der Skonto wird direkt auf dieses Anlagenkonto gebucht.**<br> |
+| **Erfassungssperre**<br> | **Bei Konten, die nicht in der Belegerfassung erfasst werden dürfen, muss hier ein** **Ja** **eingetragen werden. Solche Konten wären z.B. Steuerkonten oder Forderungs- und Verbindlichkeitskonten.<br><br>** |
+| **Beleg-Bearbeitungskennz.** | **Hier kann eine** [Bearbeitungssperre](../op_verwaltung/einzelbeleganzeige.md#Bearbeitungssperre) **für Belege festgelegt werden. Wird für das Sachkonto eine Beleg-Bearbeitungssperre gesetzt, so wird für alle nachfolgenden Belege die im Sachkonto eingetragene Bearbeitungssperre angewendet. Dies gilt nur dann, wenn das Sachkonto im Beleg als Hauptkonto verwendet wird.**<br>**Soll das Sachkonto über keine Beleg-Bearbeitungssperre verfügen, so ist hier der Wert „Änderbar“ einzutragen. Der Standardwert ist „Änderbar“.**<br> |
+| **Auflösungskonto**<br> | **In den Anwendungen Belegmappe und Währungsabgrenzungen können Abgrenzungsbuchungen automatisch aufgelöst werden. Wenn aus Auswertungsgründen bei der Auflösung ein anderes Konto verwendet werden soll als bei der Abgrenzung, so kann dieses hier eingetragen werden.**<br> |
+| **Zugehöriges Statistikkonto** | **Hier kann einem Sachkonto ein festes Statistikkonto zugewiesen werden. Wird hier ein Konto eingetragen, dann wird - bei gesetztem** [Steuerparameter 720](../../firmenstamm/steuerparameter/optionen_warenwirtschaft/mengenbuchung_bei_fibu_uebertrag_spa_720.md) „Mengenbuchung bei dem Übertrag in die Finanzbuchhaltung“ - **beim Speichern des Datensatzes gleichzeitig für alle Erlöskennziffer-Kontozuordnungen, die dieses Sachkonto als Erlös- oder Aufwandskonto haben, das zugehörige Bestandskonto auf das hier eingetragene Statistikkonto gesetzt. Im Pfleger der Erlöskennziffer- Kontozuordnungen kann gleichzeitig dieses Bestandskonto nicht mehr manuell geändert werden.**<br> |
+| **Artikelnummer**<br> | Wird die Zinsabrechnung **per** [OpenTRANS](../../zusatzprogramme/ehemalige_addins_uebersicht/n_a/opentrans_thebe/index.md) **übermittelt, so müssen den Konten, auf die die Zinsen gebucht werden fiktive Artikelnummern zugeordnet werden.<br><br>** |
 
 Register „Taxonomien“
 
@@ -155,12 +78,8 @@ Register „Taxonomien“
 
 | | Bedeutung |
 | --- | --- |
-| Version | Die Taxonomien liegen bisher in zwei Version vor: Version 5.0 für alle Wirtschaftsjahre die nach dem 31.12.2011 beginnen und Version 5.1 für alle Wirtschaftsjahre, die mach dem 31.12.2012 beginnen. Ist zu der höheren Version bereits ein Datensatz erfasst worden, wird diese Version vorgeschlagen. Sie kann jedoch jederzeit geändert werden. Die Version wird nicht im Sachkonto gespeichert, sondern bestimmt zu welcher Version die Konzepte gehören.  
-    
- |
-| Konzept | Hier werden alle [Konzepte](../ebilanz_online/index.md) aufgelistet, die diesem Konto und dieser Version zugeordnet sind. Es können hier weitere Zuordnungen erfolgen.  
-    
- |
+| Version | Die Taxonomien liegen bisher in zwei Version vor: Version 5.0 für alle Wirtschaftsjahre die nach dem 31.12.2011 beginnen und Version 5.1 für alle Wirtschaftsjahre, die mach dem 31.12.2012 beginnen. Ist zu der höheren Version bereits ein Datensatz erfasst worden, wird diese Version vorgeschlagen. Sie kann jedoch jederzeit geändert werden. Die Version wird nicht im Sachkonto gespeichert, sondern bestimmt zu welcher Version die Konzepte gehören.<br><br> |
+| Konzept | Hier werden alle [Konzepte](../ebilanz_online/index.md) aufgelistet, die diesem Konto und dieser Version zugeordnet sind. Es können hier weitere Zuordnungen erfolgen.<br><br> |
 
 ADDON
 

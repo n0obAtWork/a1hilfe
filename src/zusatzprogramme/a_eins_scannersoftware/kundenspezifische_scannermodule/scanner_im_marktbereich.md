@@ -41,10 +41,7 @@ Meldungen die beim Starten oder Beenden eines Vorgangs auf dem Scanner erscheine
 
 | Meldung | Bedeutung |
 | --- | --- |
-| Der erfasste Befehl:  
-z.B. Inventur Ende  
-passt nicht zum aktuellem Vorgang des Scanners: Bestellung  
-Scannung wird verworfen | Dies bedeutet, dass mittels Scancode probiert wurde eine Inventur zu beenden, obwohl der sich der Scanner in der Bestellerfassung befindet. Mit den Pfeil Tasten nach oben oder unten wird die eigentliche Ansicht wieder geladen. |
+| Der erfasste Befehl:<br>z.B. Inventur Ende<br>passt nicht zum aktuellem Vorgang des Scanners: Bestellung<br>Scannung wird verworfen | Dies bedeutet, dass mittels Scancode probiert wurde eine Inventur zu beenden, obwohl der sich der Scanner in der Bestellerfassung befindet. Mit den Pfeil Tasten nach oben oder unten wird die eigentliche Ansicht wieder geladen. |
 | Es existiert kein offener Vorgang am Scanner. Der erfasste Befehl z.B. Bestellung Enden kann nicht verarbeitet werden. | Dies bedeutet, dass probiert wurde ein Vorgang am Scanner abzuschließen, obwohl kein offener Scanvorgang vorhanden ist. |
 | Der Scanner befindet sich gerade im z.B. Eingangslieferschein Modus. Zum Starten des Vorgangs z.B. Inventur bitte IV erneut Scannen.' | Dies bedeutet, dass probiert wurde einen neuen Vorgang auf dem Scanner zu eröffnen, obwohl noch ein Vorgang offen ist. Durch erneutes erfassen des Scancodes oder Auswahl im Menü wird der alte Vorgang abgebrochen und der neue gestartet. |
 

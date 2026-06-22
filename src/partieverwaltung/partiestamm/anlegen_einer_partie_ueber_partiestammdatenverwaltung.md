@@ -18,10 +18,8 @@ oder Direktsprung **[PAR]**
 | Bestandsprüfung aussetzen | Wird die Bestandsprüfung ausgesetzt, dann wird beim Zuordnen der Partie nicht überprüft ob genügend Bestand vorhanden ist. |
 | Qualitaetsstatus | Hier wird festgelegt, ob noch eine Qualitätsuntersuchung der Partie sinnvoll ist oder nicht. |
 | Erledigung | Die Partie wird nicht zur Auswahl angeboten bzw. berücksichtigt. |
-| Kundenbereich (Verkauf) | alle: alle Kunden können aus dieser Partie beliefert werden  
-Liste: Es kann eine Liste derjenigen Kunden aufgebaut werden die aus dieser Partie beliefert werden dürfen. Diese Eingabemaske wird per Knopf ***Kunden*** in der Optionbox geöffnet. |
-| Lieferantenbereich (Eink) | alle: alle Lieferanten können dieser Partie liefern  
-Liste: Es kann eine Liste derjenigen Lieferanten aufgebaut werden die diese Partie liefern dürfen. Diese Eingabemaske wird per Knopf ***Lieferanten*** in der Optionbox geöffnet. |
+| Kundenbereich (Verkauf) | alle: alle Kunden können aus dieser Partie beliefert werden<br>Liste: Es kann eine Liste derjenigen Kunden aufgebaut werden die aus dieser Partie beliefert werden dürfen. Diese Eingabemaske wird per Knopf ***Kunden*** in der Optionbox geöffnet. |
+| Lieferantenbereich (Eink) | alle: alle Lieferanten können dieser Partie liefern<br>Liste: Es kann eine Liste derjenigen Lieferanten aufgebaut werden die diese Partie liefern dürfen. Diese Eingabemaske wird per Knopf ***Lieferanten*** in der Optionbox geöffnet. |
 | Warengruppenbereich | Es können Warengruppen dieser Partie zugeordnet werden, deren Artikel aus dieser Partie beliefert werden dürfen. |
 | Fremdartikel zulässig | deaktiv |
 | Fixpreise im Verk./Eink. | Es können Preise in den Partien hinterlegt werden, die bei der Vorgangserfassung für den Einkauf sowie den Verkauf automatisch vorgeschlagen werden. |
@@ -36,9 +34,6 @@ Liste: Es kann eine Liste derjenigen Lieferanten aufgebaut werden die diese Part
 | ***Speichern*** **F9** | Speichern der erfassten Partie |
 | ***Anschrift*** **F4** | Hinterlegung der Partieanschrift (evtl. als Hilfsmittel für Formulareinrichtung) |
 | ***Bewegungen*** **SF9** | Übersicht der Partiebewegungen in Menge, Wert, Artikel und Belegnummern |
-| ***Artikel*** **F2** | Nachdem diese Partie mit ***Speichern*** **F9** gesichert wurde, erscheint eine weitere Funktion ***Artikel*** **F2**. Über diese Funktion können dieser Partie der/die Artikel zugeordnet werden. Die Vorbelegung „Typ der Zuordnung“ wird über den Steuerungsparameter 9 (siehe Steuerungsparameter [SPA] Partieverwaltung) gesteuert.  
-Ist die Zuordnung erfolgt, können weitere Funktionen für die Artikel angewendet werden:  
-• Mengen: Erfassung der Sollmengen- und Werte  
-• Bewegungen: Informationen über die bereits vorhandenen Bewegungen des markierten Partieartikels |
+| ***Artikel*** **F2** | Nachdem diese Partie mit ***Speichern*** **F9** gesichert wurde, erscheint eine weitere Funktion ***Artikel*** **F2**. Über diese Funktion können dieser Partie der/die Artikel zugeordnet werden. Die Vorbelegung „Typ der Zuordnung“ wird über den Steuerungsparameter 9 (siehe Steuerungsparameter [SPA] Partieverwaltung) gesteuert.<br>Ist die Zuordnung erfolgt, können weitere Funktionen für die Artikel angewendet werden:<br>• Mengen: Erfassung der Sollmengen- und Werte<br>• Bewegungen: Informationen über die bereits vorhandenen Bewegungen des markierten Partieartikels |
 | ***Kunden*** | Erscheint im Menü erst, wenn im Feld Kundenbereich „Liste“ ausgewählt wurde. Öffnet die Maske Partiekunden. |
 | ***Lieferanten*** | Erscheint im Menü erst, wenn im Feld Lieferantenbereich „Liste“ ausgewählt wurde. Öffnet die Maske Partielieferanten. |

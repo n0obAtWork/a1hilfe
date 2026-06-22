@@ -10,5 +10,4 @@ Herkunft und Aufbau dieser Variante basieren auf [Excel-Import](../index.md). Ha
 
 | **Funktionen** | |
 | --- | --- |
-| Variante aktualisieren [**F10**] | Führt den Excel-Import, der dieser Variante zugrunde liegt durch und aktualisiert diese Variante.  
- |
+| Variante aktualisieren [**F10**] | Führt den Excel-Import, der dieser Variante zugrunde liegt durch und aktualisiert diese Variante.<br> |

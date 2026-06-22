@@ -14,8 +14,7 @@ Hinweis:
 
 Bitte beachten Sie, dass die Angaben des Schemas stets für alle Anzeigen gelten, die das gleiche Schema verwenden!!!
 
-| Registerkarte Anzeige Name  
-Folgende Namen können eingerichtet werden |
+| Registerkarte Anzeige Name<br>Folgende Namen können eingerichtet werden |
 | --- |
 | BON | Hier wird der laufende Bon dargestellt |
 | LDC | In dieses Feld wird das Währungskennzeichen geschrieben. \*) |
@@ -30,8 +29,7 @@ Folgende Namen können eingerichtet werden |
 
 Wird kein Zeilendisplay und kein Feld mit dem Namen LINEDISPLAY verwendet, so können diese Felder entfallen.
 
-| Positionen  
-In den nachfolgenden Spalten werden die Positionen der Objekte eingerichtet. Alle Angaben sind in Pixel anzugeben. |
+| Positionen<br>In den nachfolgenden Spalten werden die Positionen der Objekte eingerichtet. Alle Angaben sind in Pixel anzugeben. |
 | --- |
 | TOP | Position relativ vom oberen Rand |
 | LEFT | Position vom linken Rand |

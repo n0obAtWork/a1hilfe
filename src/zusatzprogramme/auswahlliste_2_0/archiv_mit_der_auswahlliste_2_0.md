@@ -8,51 +8,22 @@ Zusätzlich entfallen für die neuen Archivanwendungen die Funktionen „Druck/Q
 
 | Funktion | Beschreibung |
 | --- | --- |
-| ![](../../ImagesExt/image8_1308.png)  
-Archiv anzeigen | Öffnet den für den Mime-Typen vom Windows-System vorgesehenen Viewer.  
-Das kann für PDF-Dateien z.B. der Adobe Acrobat-Reader sein, für Mails z.B. Outlook.  
-Eine detaillierte Aufstellung welche Mimetypen für die Vorschau vorgesehen bzw. implementiert sind findet sich unter [Mimetypen in A.eins](../../dokumentenverwaltung/technisches_zum_formulararchiv/mimetypen_in_a_eins.md) |
-| ![](../../ImagesExt/image8_1309.png)  
-Anlagen | Listet die zugehörigen Anlagen zu einem Dokument in einer eigenen Auswahlliste auf. |
-| ![mail\_forward](../../ImagesExt/image8_822.png "mail_forward")  
-Senden an | Ruft den Dialog „Archiv Mail Versand“ auf.  
-Im Kundenstamm gibt es diese Funktion ebenfalls als „Email senden“.  
-[Archiv Mail Versand](../../dokumentenverwaltung/archiv_manager/archiv_mail_versand/index.md) |
-| ![](../../ImagesExt/image8_1310.png)  
-Speichern unter | Speichert die selektierten Dokumente in einen vorgebbaren Ordner. Die Dokumente erhalten die Standard-Namen bei Archiv-Export – außer es ist ein Dateiname in den Stammdaten vorgegeben.  
-Bei erfolgreichem Export der Dokumente wird sich das Export-Verzeichnis sitzungsübergreifend gemerkt.  
- |
-| ![](../../ImagesExt/image8_1311.png)  
-Signierung  
-PDF | Signieren eines PDF-Dokumentes.  
-Unterstützt PDF-Signierung durch Signotec-System.  
-Siehe [Signature Pad einrichten](../../dokumentenverwaltung/archiv_manager/signature_pad_einrichten/index.md) |
-| ![](../../ImagesExt/image8_1312.png)  
-Volltext-Menü | Bietet Schnellzugriffsmöglichkeiten auf Volltext-Funktionalitäten.  
-[Archiv-Volltext](../../dokumentenverwaltung/archiv_administration/anwendung_formulararchiv/archiv_aendern_ansehen.md#ueb_archivvolltext)  
-Das Feature „Volltext“ ist in A.eins Lizenz-geschützt, mit diesen Funktionen lassen sich aber die Funktion bis maximal 10 Einträge „ausprobieren“.  
-Siehe Suchbereich „Volltext“, eine Aktualisierung des Datenbank-Volltext-Indexes kann manuell über [VTRU] durchgeführt werden. |
-| ![](../../ImagesExt/image8_1313.png)  
-Archiv-PDF-Druck | PDF-Dokument drucken  
-Übergibt die selektierten Dokumente zum [PDF-Drucken](../../dokumentenverwaltung/dokumentenverwaltung_archiv_anzeigen/dokumentenverwaltung_multifunktionsleiste/pdf_drucken.md) |
-| Hinzufügen | Ist in Stammdatenpfleger-Funktion übergegangen.  
-[Dokumente hinzufügen](../../dokumentenverwaltung/archiv_dokumente_hinzufuegen.md) |
-| ![](../../ImagesExt/image8_1314.png)  
-Belegfluss | Die Belegfluss-Integration ist archivseitig angebunden. |
-| Normales Druck-Icon der Auswahlliste, aber mit Archiv-Druckfunktionalität.  
-Archiv-Druck | Formulararchiv drucken  
-Übergibt das Dokument an Windows zum Drucken. So wird beispielsweise für PDF-Dokumente der Adobe-Reader aufgerufen der wiederum das Dokument an den Windows-Standarddrucker delegiert.  
-Für PDF-Dokumente gibt es die Alternative auf der PDF-Vorschau via Kontext-Menü (rechte Maustaste) und der Funktion „Print“ das PDF an einen auswählbaren Drucker zu übergeben.  
-***Hinweis: Das Drucken von PDF-Dokumenten wird mit dieser Funktion nicht mehr unterstützt da Windows die Art und Weise nicht mehr unterstützt.***  
-***Für PDF-Dokumente ist daher z.B. die Funktion „Archiv-PDF-Druck“ zu verwenden.*** |
+| ![](../../ImagesExt/image8_1308.png)<br>Archiv anzeigen | Öffnet den für den Mime-Typen vom Windows-System vorgesehenen Viewer.<br>Das kann für PDF-Dateien z.B. der Adobe Acrobat-Reader sein, für Mails z.B. Outlook.<br>Eine detaillierte Aufstellung welche Mimetypen für die Vorschau vorgesehen bzw. implementiert sind findet sich unter [Mimetypen in A.eins](../../dokumentenverwaltung/technisches_zum_formulararchiv/mimetypen_in_a_eins.md) |
+| ![](../../ImagesExt/image8_1309.png)<br>Anlagen | Listet die zugehörigen Anlagen zu einem Dokument in einer eigenen Auswahlliste auf. |
+| ![mail\_forward](../../ImagesExt/image8_822.png "mail_forward")<br>Senden an | Ruft den Dialog „Archiv Mail Versand“ auf.<br>Im Kundenstamm gibt es diese Funktion ebenfalls als „Email senden“.<br>[Archiv Mail Versand](../../dokumentenverwaltung/archiv_manager/archiv_mail_versand/index.md) |
+| ![](../../ImagesExt/image8_1310.png)<br>Speichern unter | Speichert die selektierten Dokumente in einen vorgebbaren Ordner. Die Dokumente erhalten die Standard-Namen bei Archiv-Export – außer es ist ein Dateiname in den Stammdaten vorgegeben.<br>Bei erfolgreichem Export der Dokumente wird sich das Export-Verzeichnis sitzungsübergreifend gemerkt.<br> |
+| ![](../../ImagesExt/image8_1311.png)<br>Signierung<br>PDF | Signieren eines PDF-Dokumentes.<br>Unterstützt PDF-Signierung durch Signotec-System.<br>Siehe [Signature Pad einrichten](../../dokumentenverwaltung/archiv_manager/signature_pad_einrichten/index.md) |
+| ![](../../ImagesExt/image8_1312.png)<br>Volltext-Menü | Bietet Schnellzugriffsmöglichkeiten auf Volltext-Funktionalitäten.<br>[Archiv-Volltext](../../dokumentenverwaltung/archiv_administration/anwendung_formulararchiv/archiv_aendern_ansehen.md#ueb_archivvolltext)<br>Das Feature „Volltext“ ist in A.eins Lizenz-geschützt, mit diesen Funktionen lassen sich aber die Funktion bis maximal 10 Einträge „ausprobieren“.<br>Siehe Suchbereich „Volltext“, eine Aktualisierung des Datenbank-Volltext-Indexes kann manuell über [VTRU] durchgeführt werden. |
+| ![](../../ImagesExt/image8_1313.png)<br>Archiv-PDF-Druck | PDF-Dokument drucken<br>Übergibt die selektierten Dokumente zum [PDF-Drucken](../../dokumentenverwaltung/dokumentenverwaltung_archiv_anzeigen/dokumentenverwaltung_multifunktionsleiste/pdf_drucken.md) |
+| Hinzufügen | Ist in Stammdatenpfleger-Funktion übergegangen.<br>[Dokumente hinzufügen](../../dokumentenverwaltung/archiv_dokumente_hinzufuegen.md) |
+| ![](../../ImagesExt/image8_1314.png)<br>Belegfluss | Die Belegfluss-Integration ist archivseitig angebunden. |
+| Normales Druck-Icon der Auswahlliste, aber mit Archiv-Druckfunktionalität.<br>Archiv-Druck | Formulararchiv drucken<br>Übergibt das Dokument an Windows zum Drucken. So wird beispielsweise für PDF-Dokumente der Adobe-Reader aufgerufen der wiederum das Dokument an den Windows-Standarddrucker delegiert.<br>Für PDF-Dokumente gibt es die Alternative auf der PDF-Vorschau via Kontext-Menü (rechte Maustaste) und der Funktion „Print“ das PDF an einen auswählbaren Drucker zu übergeben.<br>***Hinweis: Das Drucken von PDF-Dokumenten wird mit dieser Funktion nicht mehr unterstützt da Windows die Art und Weise nicht mehr unterstützt.***<br>***Für PDF-Dokumente ist daher z.B. die Funktion „Archiv-PDF-Druck“ zu verwenden.*** |
 
 Folgende Funktionen sind noch nicht implementiert:
 
 | Funktion | Noch nicht implementiert |
 | --- | --- |
-| ![barcode\_into](../../ImagesExt/image8_835.png "barcode_into")  
-Barcode zuweisen | Barcode zuweisen  
-[Archiv-Barcode](../../dokumentenverwaltung/archiv_barcode.md) |
+| ![barcode\_into](../../ImagesExt/image8_835.png "barcode_into")<br>Barcode zuweisen | Barcode zuweisen<br>[Archiv-Barcode](../../dokumentenverwaltung/archiv_barcode.md) |
 
 Die Umstellung der Dokumentenverwaltung in die Auswahlliste erfolgt über [Archiv-Ansichten ff.](../../dokumentenverwaltung/archiv_ansehen/archiv_ansicht_definition/index.md) [**FAA**]. Dort erkennt man an der grünen Markierung, ob schon entsprechende System-Varianten integriert sind.
 

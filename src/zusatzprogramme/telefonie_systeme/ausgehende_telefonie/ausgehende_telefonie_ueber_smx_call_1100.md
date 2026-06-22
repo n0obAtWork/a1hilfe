@@ -8,18 +8,8 @@ Dazu ist es in den meisten Fällen notwendig an den betreffenden Stellen eine pr
 
 | Parameter ^smx_call 1100 Modus Param1 Param2 | |
 | --- | --- |
-| Modus=0 („Auswahlliste“) | Wenn Param1 angeben ist, dann dieser als Name der Auswahllisten-Spalte interpretiert und der dortige Wert als **Telefonnummer** verwendet.  
-Wenn Param1 nicht angeben ist, dann wird die **Telefonnummer** vom System wie folgt ermittelt:  
-Es wird die KundId aus der Returnliste gesucht, sollte das nicht gehen wird die KundNummer versucht zu ermitteln und daraus die KundId. Letztlich dann mit der KundId aus dem Adressstamm das AdressTelefon.  
-   
-Als Vereinfachung kann die A.eins-Funktion  
-Kundenanruf_Aufruf verwendet werden, der Controlstring lautet ^jpl Kundenanruf_Aufruf.  
- |
-| Modus=1 („Maskenmodus“) | In Param2 wird der Name des Maskenfeldes übertragen.  
-Param1=1:Das Maskenfeld enthält die **KundNummer**  
-Param1=2:Das Maskenfeld enthält die **Kundid**  
-(bei 1 und 2 wird wie oben das Adresstelefon ermittelt)  
-Param1=3: Das Maskenfeld enthält die **Telefonnummer**. |
+| Modus=0 („Auswahlliste“) | Wenn Param1 angeben ist, dann dieser als Name der Auswahllisten-Spalte interpretiert und der dortige Wert als **Telefonnummer** verwendet.<br>Wenn Param1 nicht angeben ist, dann wird die **Telefonnummer** vom System wie folgt ermittelt:<br>Es wird die KundId aus der Returnliste gesucht, sollte das nicht gehen wird die KundNummer versucht zu ermitteln und daraus die KundId. Letztlich dann mit der KundId aus dem Adressstamm das AdressTelefon.<br> <br>Als Vereinfachung kann die A.eins-Funktion<br>Kundenanruf_Aufruf verwendet werden, der Controlstring lautet ^jpl Kundenanruf_Aufruf.<br> |
+| Modus=1 („Maskenmodus“) | In Param2 wird der Name des Maskenfeldes übertragen.<br>Param1=1:Das Maskenfeld enthält die **KundNummer**<br>Param1=2:Das Maskenfeld enthält die **Kundid**<br>(bei 1 und 2 wird wie oben das Adresstelefon ermittelt)<br>Param1=3: Das Maskenfeld enthält die **Telefonnummer**. |
 
 Beispiele:
 

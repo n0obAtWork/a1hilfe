@@ -8,9 +8,7 @@ Die Scanner Software kann auch per Kommandozeile gestartet werden. Beim Start de
 
 | Parameter | Wert |
 | --- | --- |
-| conn= | Wird eine Verbindungszeichenekette(Connectionstring) übergeben, so verbindet sich der Scanner mit der angegebenen Datenbank. Die Verbindungsdaten aus der dbconfig.xml werden nicht berücksichtig.  
-Beispiel:  
-eng=dbserver;dbn=datenbankname;uid=USER;pwd=PASSWORD;links=tcpip{HOST=ServerIp};pooling=false;idle=60;lto=30; |
+| conn= | Wird eine Verbindungszeichenekette(Connectionstring) übergeben, so verbindet sich der Scanner mit der angegebenen Datenbank. Die Verbindungsdaten aus der dbconfig.xml werden nicht berücksichtig.<br>Beispiel:<br>eng=dbserver;dbn=datenbankname;uid=USER;pwd=PASSWORD;links=tcpip{HOST=ServerIp};pooling=false;idle=60;lto=30; |
 | cf= | Mit dem Parameter kann ein Pfad zu einer alternativen Datei mit Verbindungsparameter angegeben werde. |
 | scans= | An diesem Parameter kann ein Pfad zu einer XML Datei mit [Scanbefehlen](./beispiel_xml_datei.md) angegeben werden, die beim Starten der Software automatisch ausgeführt wird |
 | scip= | Mit diesem Parameter kann dem Scanner eine IP-Adresse zugewiesen werden. Anhand dieser IP-Adresse werden die Steuerparameter aus dem A.eins System geladen. Diese IP-Adresse wird auch dazu verwendet um die erfassten Daten einem Scanner zuzuweisen. |

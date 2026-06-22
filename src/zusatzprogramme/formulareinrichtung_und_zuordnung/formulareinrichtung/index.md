@@ -25,8 +25,7 @@ Das Register „Formularbereiche“, zeigt alle dem Formular zugeordneten Bereic
 | Hilfe | Öffnet die Hilfe zum Register „Formularbereiche“ |
 | Speichern | Speichert die vorgenommenen Änderungen |
 | [Einrichtung](./einrichtung_f6.md) | Startet den Formulareinrichter für den ausgewählten Bereich und Variante |
-| Variantenzuordnung | Zeigt die fürs Formular eingerichteten Varianten zu dem in der Maske angegebenem Bereich an. Hier hat man die Möglichkeit Varianten verschiedenen Kriterien zuzuweisen.  
-Die Funktion Variantenzuordnung löschen bietet die Möglichkeit die aktuelle Variantenzuordnung zu löschen |
+| Variantenzuordnung | Zeigt die fürs Formular eingerichteten Varianten zu dem in der Maske angegebenem Bereich an. Hier hat man die Möglichkeit Varianten verschiedenen Kriterien zuzuweisen.<br>Die Funktion Variantenzuordnung löschen bietet die Möglichkeit die aktuelle Variantenzuordnung zu löschen |
 | Bereich löschen | Löscht den gewählten Bereich mit all seinen Varianten |
 | Variante löschen | Löscht die für den Bereich gewählte Variante |
 | Archiv anzeigen | Öffnet das Archiv für das angegebene Formular |

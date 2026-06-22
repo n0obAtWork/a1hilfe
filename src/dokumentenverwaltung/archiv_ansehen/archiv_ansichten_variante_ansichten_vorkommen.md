@@ -17,23 +17,16 @@ Sie verschafft eine Übersicht darüber, in welcher Optionbox (der dazugehörige
 | Optionbox | Optionbox innerhalb der sich die Funktion befindet |
 | Zugehörige Anwendung | Ermittlung der Anwendung des Kontextes |
 | bzw. Variante | Ermittlung der Variante des Kontextes |
-| Ausliefer-Grundlage | Mögliche Einsatzgebiete:  
-1) Dialog  
-2) Auswahlliste  
-3) Frei  
-4) Keine Angabe |
+| Ausliefer-Grundlage | Mögliche Einsatzgebiete:<br>1) Dialog<br>2) Auswahlliste<br>3) Frei<br>4) Keine Angabe |
 | Ansicht | Der Name der Archiv-Ansicht |
 | EA | |
 | Gruppe | Siehe Gruppe |
-| Taste | Die zugeordnete Funktionstaste im Kontext.  
-Standard ist **CF12**. |
-| SteuPa | Steuerparameter  
-Lizenzspa für Archiv ist SPA 508 |
+| Taste | Die zugeordnete Funktionstaste im Kontext.<br>Standard ist **CF12**. |
+| SteuPa | Steuerparameter<br>Lizenzspa für Archiv ist SPA 508 |
 
 | Suchen | |
 | --- | --- |
-| Suchen … | Sucht in den Feldern  
-Funktion, Beschriftung, Optionbox, „Zugehörige Anwendung“, „bzw. Variante“ , Ansicht |
+| Suchen … | Sucht in den Feldern<br>Funktion, Beschriftung, Optionbox, „Zugehörige Anwendung“, „bzw. Variante“ , Ansicht |
 
 | Funktionen | |
 | --- | --- |
@@ -41,7 +34,5 @@ Funktion, Beschriftung, Optionbox, „Zugehörige Anwendung“, „bzw. Variante
 | ***Ansicht ansehen*** **F6** | Archiv-Ansichtsdefinition ansehen |
 | ***Ansicht bearbeiten*** **F5** | Archiv-Ansichtsdefinition bearbeiten |
 | ***Funktion Informationen*** **F9** | Funktionsinformationen |
-| Kontext … | Optionbox-Pfleger  
-(nur für Entwicklung) |
-| Starte Anwendung … | Startet die Anwendung  
-(nur für Entwicklung) |
+| Kontext … | Optionbox-Pfleger<br>(nur für Entwicklung) |
+| Starte Anwendung … | Startet die Anwendung<br>(nur für Entwicklung) |

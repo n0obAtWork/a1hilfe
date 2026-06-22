@@ -38,10 +38,5 @@ Die Namenskonvention gebietet hier den Präfix „AF_“.
 | Nr | Interne Nummer z.B. einer Enumeration (c#Enum) |
 | Textersetzung | Dargestellter Text für diesen Wert |
 | Kommentar, Schnipsel | Wird dieses Format in einem Auswahllistenfilter verwendet, so muss hier ein Schnipsel hinterlegt werden, der bestimmt, wie dieser Wert im SQL gefiltert werden soll. |
-| Aktiv | Hier wird entschieden, ob der Eintrag überhaupt angezeigt und verwendet werden soll.  
-• Ja = uneingeschränkt verwendbar  
-• Nein = nicht verwendbar  
-• Kann nur angezeigt, aber nicht ausgewählt werden. (z.B. um einen interims-Status anzuzeigen) |
-| ENUM | Sofern dieses Format von AMIC ausgeliefert wird, so ist für c#-Implementationen eine Enumeration mit dem Namen FS_&lt;Formatname> im Namespace A.eins verfügbar, die die eingetragenen ENUM-Werte beinhaltet.  
-Dies gilt für immer mehr Systemformate und den vorausgelieferten Teil der Anwendungsformate.  
-Der Bediener selbst kann diese Spalte nicht verwenden. |
+| Aktiv | Hier wird entschieden, ob der Eintrag überhaupt angezeigt und verwendet werden soll.<br>• Ja = uneingeschränkt verwendbar<br>• Nein = nicht verwendbar<br>• Kann nur angezeigt, aber nicht ausgewählt werden. (z.B. um einen interims-Status anzuzeigen) |
+| ENUM | Sofern dieses Format von AMIC ausgeliefert wird, so ist für c#-Implementationen eine Enumeration mit dem Namen FS_&lt;Formatname> im Namespace A.eins verfügbar, die die eingetragenen ENUM-Werte beinhaltet.<br>Dies gilt für immer mehr Systemformate und den vorausgelieferten Teil der Anwendungsformate.<br>Der Bediener selbst kann diese Spalte nicht verwenden. |

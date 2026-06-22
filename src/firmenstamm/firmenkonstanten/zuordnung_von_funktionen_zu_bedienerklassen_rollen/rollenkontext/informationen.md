@@ -31,13 +31,7 @@ Dieser Dialog zeigt je nach [Funktionsart](./funktionsarten.md) zusätzliche Inf
 | Maske | Wenn die Funktion einen Dialog aufruft, der Maskenname |
 | Titel | Wenn die Funktion einen Dialog aufruft, der Titel der Maske |
 | Menü/Favorit | Wenn die Funktion einem Menü-Favoriten zugeordnet ist. |
-| Menü-Überschrift | Wenn es bei der Funktion sich einen Hauptmenü-Eintrag handelt, dann wird hier der „Pfad“ aufgelistet.  
-Zum Beispiel für OSQL:  
-Administration->Werkzeuge->AMIC SQL Zugriff |
-| Menü-Aufrufer | Gibt den „Weg“ im Haupt-Menü an, um von ganz links nach rechts zu gelangen.  
-Zum Beispiel für OSQL:  
-MENU_2/Firmenstamm  
-menu_14/MENU_3_9786_AMIC  
-Das bedeutet der Kontext MENU_2 ruft durch die Funktion „Firmenstamm“ den Kontext „menu_14“ auf, wo wiederum die Funktion „MENU_3_9786_AMIC“ den Kontext „menu_41“ aufruft in dem sich die Menü-Funktion „MENU_AMIC_SQL“ befindet. |
+| Menü-Überschrift | Wenn es bei der Funktion sich einen Hauptmenü-Eintrag handelt, dann wird hier der „Pfad“ aufgelistet.<br>Zum Beispiel für OSQL:<br>Administration->Werkzeuge->AMIC SQL Zugriff |
+| Menü-Aufrufer | Gibt den „Weg“ im Haupt-Menü an, um von ganz links nach rechts zu gelangen.<br>Zum Beispiel für OSQL:<br>MENU_2/Firmenstamm<br>menu_14/MENU_3_9786_AMIC<br>Das bedeutet der Kontext MENU_2 ruft durch die Funktion „Firmenstamm“ den Kontext „menu_14“ auf, wo wiederum die Funktion „MENU_3_9786_AMIC“ den Kontext „menu_41“ aufruft in dem sich die Menü-Funktion „MENU_AMIC_SQL“ befindet. |
 
 </details>

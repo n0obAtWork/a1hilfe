@@ -41,17 +41,11 @@
 
 | Funktion | Beschreibung |
 | --- | --- |
-| Tabellen-Rasterlinien | Ausblenden  
-Anzeigen |
-| Textmarken | Ausblenden  
-Anzeigen |
-| Textrahmenbegrenzungslinien | Ausblenden  
-Anzeigen |
-| Form-Begrenzungslinien | Ausblenden  
-Anzeigen |
-| Kontrollzeichen | Ausblenden  
-Anzeigen |
-| Textanker für Objekte | Ausblenden  
-Anzeigen |
+| Tabellen-Rasterlinien | Ausblenden<br>Anzeigen |
+| Textmarken | Ausblenden<br>Anzeigen |
+| Textrahmenbegrenzungslinien | Ausblenden<br>Anzeigen |
+| Form-Begrenzungslinien | Ausblenden<br>Anzeigen |
+| Kontrollzeichen | Ausblenden<br>Anzeigen |
+| Textanker für Objekte | Ausblenden<br>Anzeigen |
 
 </details>

@@ -8,17 +8,9 @@ Folgende Steuerparameter Einstellungen müssen für das Modul Webservice eingeri
 | --- | --- | --- |
 | Mailplugin | Webservice | |
 | Benutzername / E-Mail | | Benutzername des Benutzers für den die Mails abgerufen werden sollen. |
-| Passwort | | Hier muss das Passwort des Benutzers eingetragen werden, wenn es sich nicht um den gleichen Benutzer handelt unter dem der Dienst läuft.  
-Ansonsten kann der Wert frei bleiben. |
+| Passwort | | Hier muss das Passwort des Benutzers eingetragen werden, wenn es sich nicht um den gleichen Benutzer handelt unter dem der Dienst läuft.<br>Ansonsten kann der Wert frei bleiben. |
 | Domain / Host | | Domain des Benutzers |
-| Webservice Exchange Version | | Bezeichnung der Exchange Version, aktuell stehen folgende Versionen zur Verfügung.  
-• Exchange2007_SP1  
-• Exchange2010  
-• Exchange2010_SP1  
-• Exchange2010_SP2  
-Für SP3 wird auch diese Einstellung verwendet.  
-• Exchange2013  
-• Exchange2013_SP1 |
+| Webservice Exchange Version | | Bezeichnung der Exchange Version, aktuell stehen folgende Versionen zur Verfügung.<br>• Exchange2007_SP1<br>• Exchange2010<br>• Exchange2010_SP1<br>• Exchange2010_SP2<br>Für SP3 wird auch diese Einstellung verwendet.<br>• Exchange2013<br>• Exchange2013_SP1 |
 | Webservice Autosicover Url | | E-Mailadresse des Benutzers |
 
 Beispiel

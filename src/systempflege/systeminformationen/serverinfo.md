@@ -6,9 +6,6 @@ Hier erhält man eine Übersicht mit Informationen zum Server.
 
 | Felder | Beschreibung |
 | --- | --- |
-| Property | Name der Property  
- |
-| Wert | Wert der Property  
- |
-| Beschreibung | Beschreibung der Property  
- |
+| Property | Name der Property<br> |
+| Wert | Wert der Property<br> |
+| Beschreibung | Beschreibung der Property<br> |

@@ -19,10 +19,6 @@ Die Funktion ***Mitglied Teilübertragung SF5*** öffnet folgende Eingabefelder:
 | --- |
 | Zielmitgl. KndNr. | Hier wird die Kundennummer des Zielkunden angegeben. |
 | Zieldatum | Das Datum zu dem die Anteile übertragen werden sollen. |
-| Anzahl Übertrag | Hier gibt man die Zahl der zu übertragenen Anteile an.  
-Beim Bestätigen der eingetragenen Anzahl öffnen sich zwei weitere Felder.  
-In diesen kann man angeben wie viele Anteile von den zu übertragenen Anteilen beim Zielmitglied zu Pflichtanteilen oder zu freiwilligen Anteilen werden.  
-Die Felder werden so vorbelegt wie die ursprüngliche Funktionalität war: Im Ziel werden die übertragenen Anteile zu Pflichtanteilen.  
-Ändert man die Anzahl in einem der Felder passt sich das andere Feld entsprechend zu der Gesamtanzahl der zu übertragenen Anteile an. |
+| Anzahl Übertrag | Hier gibt man die Zahl der zu übertragenen Anteile an.<br>Beim Bestätigen der eingetragenen Anzahl öffnen sich zwei weitere Felder.<br>In diesen kann man angeben wie viele Anteile von den zu übertragenen Anteilen beim Zielmitglied zu Pflichtanteilen oder zu freiwilligen Anteilen werden.<br>Die Felder werden so vorbelegt wie die ursprüngliche Funktionalität war: Im Ziel werden die übertragenen Anteile zu Pflichtanteilen.<br>Ändert man die Anzahl in einem der Felder passt sich das andere Feld entsprechend zu der Gesamtanzahl der zu übertragenen Anteile an. |
 | Übertragungswert | Hier gibt man den Gesamtwert der zu übertragenen Anteile an. |
 | Bemerkung zum Vorgang | Hier kann eine Bemerkung zum Vorgang eingetragen werden. (60 Zeichen) |

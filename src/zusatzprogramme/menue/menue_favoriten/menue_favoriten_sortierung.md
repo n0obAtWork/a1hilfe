@@ -19,7 +19,4 @@ Bietet die Möglichkeit die Favoriten zu sortieren.
 
 | Funktionen | Dialog Favoriten-Sortierung |
 | --- | --- |
-| Sortierung speichern  
-[**F9**] | Speichert die Sortierung.  
-   
-Eine Aktualisierung im Hauptmenü findet beim Programm-Neustart statt. |
+| Sortierung speichern<br>[**F9**] | Speichert die Sortierung.<br> <br>Eine Aktualisierung im Hauptmenü findet beim Programm-Neustart statt. |

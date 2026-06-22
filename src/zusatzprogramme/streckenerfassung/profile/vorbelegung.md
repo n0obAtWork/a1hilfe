@@ -24,8 +24,7 @@ Folgende IN-Parameter werden beim Aufruf der Prozedur übergeben.
 | in_Profil | Name des aktuell verwendeten Profils. |
 | in_Spalte | Name der Spalte, durch die die Prozedur aufgerufen wird. |
 | in_Wert | Wert der übergebenen Spalte. |
-| in_OccChange | 0 Die Prozedur wurde durch ein „Ausführungsfeld aufgerufen.  
-1 Die Prozedur wurde durch eine neue Zeile aufgerufen. |
+| in_OccChange | 0 Die Prozedur wurde durch ein „Ausführungsfeld aufgerufen.<br>1 Die Prozedur wurde durch eine neue Zeile aufgerufen. |
 
 <p class="just-emphasize">Übergabefelder![](../../../ImagesExt/image8_1357.png)</p>
 
@@ -62,8 +61,7 @@ Die „RESULT-Klausel“ ist die Beschreibung, welche Daten zurückgegeben werde
 | --- | --- |
 | Spalte | Name der Spalte für die die Vorbelegung erfolgen soll. |
 | Wert | Wert der Vorbelegung |
-| Ueberschreiben | 0 Befindet sich in der Spalte bereits ein Wert, so wird dieser nicht überschrieben.  
-1 Der zurückgegebene Wert wird immer in die Spalte übernommen. |
+| Ueberschreiben | 0 Befindet sich in der Spalte bereits ein Wert, so wird dieser nicht überschrieben.<br>1 Der zurückgegebene Wert wird immer in die Spalte übernommen. |
 
 Da es sich um eine RESULT-Klausel handelt, können mehrere Spalten zur gleichen Zeit zurückgegeben werden. Entweder kann dafür eine lokale Tabelle oder ein „UNION“-Statement verwendet werden.
 

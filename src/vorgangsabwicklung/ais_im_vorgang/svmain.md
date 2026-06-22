@@ -25,10 +25,7 @@ Folgende JVARS werden an das Makro Übermittelt
 | --- | --- | --- |
 | UFLDID | Lesend | Mit dieser JAVR wird die UFLD ID des Feldes übergeben, welches geändert worden ist. Dieses Feld ist leer, wenn eine Aktualisierung der manuellen Versandadresse vorgenommen wird. |
 | VORGANGHANDLE | Lesend | Mit dieser JVAR wird der Vorgangshandel des aktiven Vorgangs übergeben. |
-| GLOBALREFRESH | Schreibend  
- | Diese JAVR kann aus dem Makro gesetzt werden, damit die Globale AIS Aktualisierung ausgeschaltet werden kann, wenn das UFLD-Feld den Wert „Update Mask“ auf ja stehen hat. Im Standard steht der Wert dieser JAVR auf 0  
-• 0 bedeutet Global Refresh  
-• 1 bedeutet Eigenes Refresh |
+| GLOBALREFRESH | Schreibend<br> | Diese JAVR kann aus dem Makro gesetzt werden, damit die Globale AIS Aktualisierung ausgeschaltet werden kann, wenn das UFLD-Feld den Wert „Update Mask“ auf ja stehen hat. Im Standard steht der Wert dieser JAVR auf 0<br>• 0 bedeutet Global Refresh<br>• 1 bedeutet Eigenes Refresh |
 | ID | Lesend | Ist der Wert der JVAR größer als 0, enthält die JVAR eine ID des Vorgangs, wie z.B. Die ID_VERSANDADRESSID |
 
 Folgende User Felder lösen ein Globales Aktualisieren des AIS aus
@@ -54,10 +51,8 @@ Folgende User Felder lösen ein Globales Aktualisieren des AIS aus
 
 | Maskenfeld | ID | Nummer | Event |
 | --- | --- | --- | --- |
-| Kein Maskenfeld | ID_VERSANDADRESSID | 108 | Änderung der Versandadresse /  
-Änderung der Adresse |
-| Kein Maskenfeld | ID_KUNDNUMMER | 106 | Änderung der Versandadresse /  
-Änderung der Adresse |
+| Kein Maskenfeld | ID_VERSANDADRESSID | 108 | Änderung der Versandadresse /<br>Änderung der Adresse |
+| Kein Maskenfeld | ID_KUNDNUMMER | 106 | Änderung der Versandadresse /<br>Änderung der Adresse |
 | FraKlassNummer$ | ID_FRAKLASSNUMMER | 1067 | Wenn das Ändern des Wertes funktioniert hat. Wird das AIS Refresh aufgerufen |
 | FraVariNummer$ | ID_FRACHTVARIANTE | 1095 | Wenn das Ändern des Wertes funktioniert hat. Wird das AIS Refresh aufgerufen |
 | VersArtId$ | ID_VERSANDARTID | 1034 | Wenn das Ändern des Wertes funktioniert hat. Wird das AIS Refresh aufgerufen |

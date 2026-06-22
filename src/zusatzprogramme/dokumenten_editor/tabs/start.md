@@ -43,25 +43,13 @@ Der A.eins Dokumenten Editor bietet vielfältige Möglichkeiten das Dokument anz
 | Funktion | Beschreibung |
 | --- | --- |
 | Aufzählungen | Erstellt eine Auflistung |
-| Absatzeinrückung **(TAB)** | Rückt den Text ein:  
-Vor  
-Zurück |
-| Textrichtung | Stellt die Textrichtung ein  
-Links  
-Rechts |
+| Absatzeinrückung **(TAB)** | Rückt den Text ein:<br>Vor<br>Zurück |
+| Textrichtung | Stellt die Textrichtung ein<br>Links<br>Rechts |
 | Tabulatoren | Stellt die Tabulatoren ein |
 | Kontrollzeichen | Zeigt Umbrüche und Leerzeichen an |
-| Bündigkeit | Stellt die ausrichtung ein  
-Links  
-Zentriert  
-Rechts  
-Block |
+| Bündigkeit | Stellt die ausrichtung ein<br>Links<br>Zentriert<br>Rechts<br>Block |
 | Zeilenabstand | Stellt den Zeilenabstand ein |
-| Rahmen | Erstellt/bearbeitet einen Rahmen  
-Erstellen  
-Hintergrundfarbe  
-Rahmenfarbe  
-Rahmenbreite |
+| Rahmen | Erstellt/bearbeitet einen Rahmen<br>Erstellen<br>Hintergrundfarbe<br>Rahmenfarbe<br>Rahmenbreite |
 
 </details>
 

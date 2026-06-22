@@ -36,12 +36,7 @@ Die Felder in der Standard-Auslieferung der Archiv-Anzeige ohne Vorschau sind wi
 | Ansehen | [Archiv-Stammdatenpfleger](../../../archiv_stammdatenpfleger.md) |
 | Hinzufügen | [Archiv – Dokumente hinzufügen](../../../archiv_dokumente_hinzufuegen.md) |
 | Barcode zuweisen … | [Archiv Barcode](../../../archiv_barcode.md) |
-| Drucken | Es wird ein Druck des Archiv-Inhaltes über das Windows-System eingeleitet.  
-   
-Technische Erläuterung:  
-Dabei wird von A.eins eine temporäre Datei im Temp-Verzeichnis erstellt und diese dem Windows-System zum Drucken über die Methode „print“ übergeben.  
-Über Systemsteuerung > Programme > Standardprogramme können Sie mittels ![](../../../../ImagesExt/image8_908.png)   
-auf Ihrem System nachverfolgen welche Applikation mit der Extension verbunden ist. |
+| Drucken | Es wird ein Druck des Archiv-Inhaltes über das Windows-System eingeleitet.<br> <br>Technische Erläuterung:<br>Dabei wird von A.eins eine temporäre Datei im Temp-Verzeichnis erstellt und diese dem Windows-System zum Drucken über die Methode „print“ übergeben.<br>Über Systemsteuerung > Programme > Standardprogramme können Sie mittels ![](../../../../ImagesExt/image8_908.png) <br>auf Ihrem System nachverfolgen welche Applikation mit der Extension verbunden ist. |
 | Ansicht Information | Diese Funktion teilt in einem Dialog mit, welche [Archiv-Ansicht-Definition](../../archiv_ansicht_definition/index.md) zum Aufbau dieser Auswahlliste verwendet wurde. |
 | Archiv Eintrag löschen | [Archiveinträge löschen](../../../archiv_administration/index.md) |
 
@@ -215,9 +210,7 @@ desc</OrderBy>
 | Limitation | | Sql-Anweisung für eine optionale Limitierung des Resultsets. | |
 | From | | Sql-Anweisung für From | |
 | Join | | Optionale Erweiterung des obigen „From“ | Bei der Erst-Initialisierung einer Ableitung belegt A.eins diese mit dem Resultat der Archiv-Ansicht vor! |
-| Where | | Where-Klausel des Sql-Statements | Bei der Erst-Initialisierung einer Ableitung belegt A.eins diese mit dem Resultat der Archiv-Ansicht vor!  
-Beachten Sie unbedingt das Sie bei Änderungen hinsichtlich **fa_progintern** und dem Sichtschutz-Konzept über **formulararchivbediener** alleinverantwortlich  
-handeln. |
+| Where | | Where-Klausel des Sql-Statements | Bei der Erst-Initialisierung einer Ableitung belegt A.eins diese mit dem Resultat der Archiv-Ansicht vor!<br>Beachten Sie unbedingt das Sie bei Änderungen hinsichtlich **fa_progintern** und dem Sichtschutz-Konzept über **formulararchivbediener** alleinverantwortlich<br>handeln. |
 | GroupBy | | Optionale GroupBy-Klausel des Sql-Statements | |
 | OrderBy | | Optionale OrderBy-Klausel des Sql-Statements | |
 

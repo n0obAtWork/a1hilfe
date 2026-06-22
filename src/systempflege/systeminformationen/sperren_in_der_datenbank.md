@@ -6,15 +6,8 @@ In der Übersicht Systemlocks wird angezeigt welche Benutzer welche Tabellen blo
 
 | Spalten |
 | --- |
-| Wer | Kürzel des Benutzers  
- |
-| Name | Voller Name des Benutzers, wie im Bedienerstamm hinterlegt  
- |
-| Tabelle | Tabelle die gesperrt ist  
- |
-| Typ | Art der Sperre:  
-Shared – Tabelle kann noch bearbeitet werden  
-Intent – Tabellenzeilen sind gesperrt  
- |
-| Verbindung | Hier steht die Verbindungsnummer  
- |
+| Wer | Kürzel des Benutzers<br> |
+| Name | Voller Name des Benutzers, wie im Bedienerstamm hinterlegt<br> |
+| Tabelle | Tabelle die gesperrt ist<br> |
+| Typ | Art der Sperre:<br>Shared – Tabelle kann noch bearbeitet werden<br>Intent – Tabellenzeilen sind gesperrt<br> |
+| Verbindung | Hier steht die Verbindungsnummer<br> |

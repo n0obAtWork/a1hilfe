@@ -10,23 +10,12 @@ Direktsprung **[JAHRW]**
 
 | | Beschreibung |
 | --- | --- |
-| Abschlussjahr | Hier werden die Informationen für den Beleg, der die Abschlussbuchungen enthält hinterlegt. Hat man das Jahr angegeben, werden die Abschlussperiode und das Belegdatum laut Stammdaten vorgeschlagen.  
- |
-| Eröffnungsjahr | Das Jahr wird als Abschlussjahr + 1 vorgeschlagen. Eröffnungsperiode und Belegdatum ergeben sich aus den Stammdaten.  
- |
-| BK/Belegnummer | Hier wird der Nummernkreis vorgeschlagen wie er unter „[Fibu-Vorgangszuordnung](./stammdaten_jahreswechsel.md)“ (Direktsprung NKF) hinterlegt ist.  
- |
-| Eröffnungsbilanzkonto | Kontonummer des zu verwendenden Kontos für die Eröffnungsbuchung. Wird aus dem [Mandantenstamm](./stammdaten_jahreswechsel.md) vorbelegt.  
- |
-| Schlussbilanzkonto | Kontonummer des zu verwendenden Kontos für die Abschlussbuchung. Wird aus dem [Mandantenstamm](./stammdaten_jahreswechsel.md) vorbelegt.  
- |
-| Kontenbereich | Hier kann man den Bereich angeben, für den der Jahreswechsel durchgeführt werden soll. Folgende Bereiche sind möglich:  
-• Bilanzkonten  
-• Debitoren  
-• Kreditoren  
-• Kontokorrent  
-• Personen- und Bilanzkonten  
- |
+| Abschlussjahr | Hier werden die Informationen für den Beleg, der die Abschlussbuchungen enthält hinterlegt. Hat man das Jahr angegeben, werden die Abschlussperiode und das Belegdatum laut Stammdaten vorgeschlagen.<br> |
+| Eröffnungsjahr | Das Jahr wird als Abschlussjahr + 1 vorgeschlagen. Eröffnungsperiode und Belegdatum ergeben sich aus den Stammdaten.<br> |
+| BK/Belegnummer | Hier wird der Nummernkreis vorgeschlagen wie er unter „[Fibu-Vorgangszuordnung](./stammdaten_jahreswechsel.md)“ (Direktsprung NKF) hinterlegt ist.<br> |
+| Eröffnungsbilanzkonto | Kontonummer des zu verwendenden Kontos für die Eröffnungsbuchung. Wird aus dem [Mandantenstamm](./stammdaten_jahreswechsel.md) vorbelegt.<br> |
+| Schlussbilanzkonto | Kontonummer des zu verwendenden Kontos für die Abschlussbuchung. Wird aus dem [Mandantenstamm](./stammdaten_jahreswechsel.md) vorbelegt.<br> |
+| Kontenbereich | Hier kann man den Bereich angeben, für den der Jahreswechsel durchgeführt werden soll. Folgende Bereiche sind möglich:<br>• Bilanzkonten<br>• Debitoren<br>• Kreditoren<br>• Kontokorrent<br>• Personen- und Bilanzkonten<br> |
 
 Hat man alle Angaben gemacht, kann man mit **F9** den Jahreswechsel starten. Es werden vor dem Start noch Test vom Programm vorgenommen, damit nicht versehentlich Fehler beim Jahreswechsel auftreten:
 

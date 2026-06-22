@@ -28,14 +28,7 @@ Event Anlagen: Hier wird der Ereignis angelegt, der das Abändern von einzelnen 
 | Klasse | Hier wird die ODBC Klasse eingegeben entweder SAODBC oder ASAODBC. SAODBC für einen Connection String oder die ASAODBC für eine ODBC Verbindung, die auf dem Server läuft. Es ist zu empfehlen eine SAODBC Verbindung zu benutzen. |
 | individuellername | Hier bitte mmsxml eintragen |
 | Proxy Server | Hier wird der Name des Untermandanten eingetragen |
-| Proxy Tabelle | Hier wird der Alias Name für die Proxy Tabelle auf dem Zentral Server eingetragen.  
-Achtung jede Proxy Tabelle hat ein eigene Namen.  
-z.B.:  
-mms_transfer_1 wird abgebildet auf Server 1  
-mms_transfer_2 wird abgebildet auf Server 2  
-usw. |
-| Proxy Tabelle Alias | Hier wird der Alias Name für den Proxy Server eingegeben, dies ist ganz wichtig, wenn nicht alle Artikel an alle Untermandanten übertragen werden sollen. Dieser Name wird für die privaten Views benötigt.  
-z.B. Server 1 hat als Alias UM1 |
-| Verbindungseingabe | Hier wird entweder die ODBC Verbindung eingetragen oder die Verbindungsconnection. Beispiel eines Connection Strings  
-Driver=sql anywhere 10;eng=ServerName;links=tcpip;dbn=DatenbankName; |
+| Proxy Tabelle | Hier wird der Alias Name für die Proxy Tabelle auf dem Zentral Server eingetragen.<br>Achtung jede Proxy Tabelle hat ein eigene Namen.<br>z.B.:<br>mms_transfer_1 wird abgebildet auf Server 1<br>mms_transfer_2 wird abgebildet auf Server 2<br>usw. |
+| Proxy Tabelle Alias | Hier wird der Alias Name für den Proxy Server eingegeben, dies ist ganz wichtig, wenn nicht alle Artikel an alle Untermandanten übertragen werden sollen. Dieser Name wird für die privaten Views benötigt.<br>z.B. Server 1 hat als Alias UM1 |
+| Verbindungseingabe | Hier wird entweder die ODBC Verbindung eingetragen oder die Verbindungsconnection. Beispiel eines Connection Strings<br>Driver=sql anywhere 10;eng=ServerName;links=tcpip;dbn=DatenbankName; |
 | Ziel Tabelle | |

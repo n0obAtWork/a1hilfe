@@ -44,10 +44,7 @@ Ein Wort noch zu den „Wartezeiten“. Auf das obige Beispiel bezogen bedeutet 
 | Modus | 2 | Protokoll ( für TCP-Verwendung wahrscheinlich immer erstmal 0, also ohne logisches Protokoll! ) |
 | Techprot | 0 | 0 = UDP, 1 = TCP |
 | Newconnect | 45000 | Nicht unterstützt |
-| Logfile | | Standardmäßig ist der Default-Wert LEER was bedeutet das der Client die Ausgabedatei hernimmt und da ein .txt dranhängt für den Namen der Protokolldatei, Wenn Sie keine Protokolldatei schrieben möchten verwenden sie  
-   
-logfile=-  
- |
+| Logfile | | Standardmäßig ist der Default-Wert LEER was bedeutet das der Client die Ausgabedatei hernimmt und da ein .txt dranhängt für den Namen der Protokolldatei, Wenn Sie keine Protokolldatei schrieben möchten verwenden sie<br> <br>logfile=-<br> |
 | Wait | 100 | Der „Fortschritt“ ( richtige Wert muss empirsich gewonnen werden, in aller Regel reicht 100, oft ist es 500 ) |
 | Replace | 0 | Berücksichtigung der Spezialzeichen aktivieren. |
 | Autostart | 0 | \=1 fürht Programm automatisch Abfrage mit den gewählten Parametern durch und beendet sich anschließend automatisch wieder |

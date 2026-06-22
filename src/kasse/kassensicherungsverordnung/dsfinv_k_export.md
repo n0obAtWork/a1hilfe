@@ -42,13 +42,8 @@ DSFinV-K
 | Feld | Beschreibung |
 | --- | --- |
 | Kassennummer | Die A.eins-Kassennummer mit Bezeichnung |
-| Filialnummer | Die Kassennummer ist immer die Nummer des aktuellen Mandanten.  
-Die Filialnummer gibt in Replikationsumgebungen die aktuelle Filialnummer an. Diese ist durch den Mandanten vorgegeben und an dieser Stelle auch nicht frei auswählbar.  
-Die Kassennummer- und die Filialnummer-Datenherkunft stammt aus der replizierten bzw. einzelgepflegten Tabelle ***AcshStammDatenLink.***  
-Die Tabelle ***AcashStammdatenLink*** ist notwendig, da der Kassenstamm ***AcashStdKsse*** noch nie in einer Replikation war. |
-| Kassenseriennummer | Die Kassenseriennummer, die für die Kasse verwendet wird.  
-Die Kassenseriennummer wird von AMIC in Abhängigkeit der gekauften Kassenlizenzen generiert.  
-Bei Meldung der Kasse an das Finanzamt, wird diese Seriennummer benötigt. |
+| Filialnummer | Die Kassennummer ist immer die Nummer des aktuellen Mandanten.<br>Die Filialnummer gibt in Replikationsumgebungen die aktuelle Filialnummer an. Diese ist durch den Mandanten vorgegeben und an dieser Stelle auch nicht frei auswählbar.<br>Die Kassennummer- und die Filialnummer-Datenherkunft stammt aus der replizierten bzw. einzelgepflegten Tabelle ***AcshStammDatenLink.***<br>Die Tabelle ***AcashStammdatenLink*** ist notwendig, da der Kassenstamm ***AcashStdKsse*** noch nie in einer Replikation war. |
+| Kassenseriennummer | Die Kassenseriennummer, die für die Kasse verwendet wird.<br>Die Kassenseriennummer wird von AMIC in Abhängigkeit der gekauften Kassenlizenzen generiert.<br>Bei Meldung der Kasse an das Finanzamt, wird diese Seriennummer benötigt. |
 | Kassensitzungsnummer | Die zur Kassennummer passende und gewählte Kassensitzungsnummer. |
 | Filialnummer | Die hinterlegte Filialnummer der Kassensitzungsnummer. |
 | Kassenabschluss | Der Kassenabschluss-Zeitpunkt der Kassensitzungsnummer. |
@@ -91,10 +86,8 @@ Zu beachten ist, dass bei einem Programmupdate die Privatisierung Vorrang hat (d
 
 | Feld | Beschreibung |
 | --- | --- |
-| Anzahl Privatisierungen | Auf der Registerkarte **Aufbereitung** sind die möglichen Privatisierungen der Aufbereitungsprozeduren der CSV-Tabellen pflegbar.  
-Auf dieser Registerkarte haben Sie schnell eine Übersicht, ob und wie viele Privatisierungen vorliegen. |
-| Taxonomie-Version | Die offizielle Taxonomie-Version, die durch den in A.eins implementierten SDFin-V_K-Export realisiert wird.  
-Diese Nummer wird durch das jeweilige A.eins-Release bestimmt, lässt sich durch die private Aufbereitungsprozedure ***p_DSFinV_K_cashpoint_closing_Load*** anpassen, wenn notwendig. |
+| Anzahl Privatisierungen | Auf der Registerkarte **Aufbereitung** sind die möglichen Privatisierungen der Aufbereitungsprozeduren der CSV-Tabellen pflegbar.<br>Auf dieser Registerkarte haben Sie schnell eine Übersicht, ob und wie viele Privatisierungen vorliegen. |
+| Taxonomie-Version | Die offizielle Taxonomie-Version, die durch den in A.eins implementierten SDFin-V_K-Export realisiert wird.<br>Diese Nummer wird durch das jeweilige A.eins-Release bestimmt, lässt sich durch die private Aufbereitungsprozedure ***p_DSFinV_K_cashpoint_closing_Load*** anpassen, wenn notwendig. |
 
 </details>
 
@@ -103,21 +96,7 @@ Diese Nummer wird durch das jeweilige A.eins-Release bestimmt, lässt sich durch
 
 | Kopfdaten | Beschreibung |
 | --- | --- |
-| Export Erzeugen **(F10)** | Generiert die Dateien und öffnet den Explorer.  
-   
-**Das Export-Verzeichnis ist fest vorgegeben. Vor jedem Export wird das Verzeichnis komplett gelöscht.** |
-| Export TAR Zeitraum … | Hinweis:  
-Diese Funktion sollte nach der ***Export Erzeugen***\-Funktion aufgerufen werden, da das Verzeichnis gelöscht wird.  
-    
-Die Vorbelegung für die Zeiträume ist wie folgt:  
-**Von:** 1 Minute vor der zugehörigen Kasseneröffnung  
-**Bis:** 1 Minute nach dem zugehörigen Kassenabschluss.  
-    
-Die erzeugte Tar-Datei enthält dann die zum Export-Zeitraum der Buchungen zugehörigen Transaktionen.  
-In welchen Umfang das Programm bei TSE unterstützen kann, die nicht mehr im Zugriff sind (**Speichern unter**\-**Historie**) steht noch nicht fest, dafür werden u. U. organisatorische Maßnahmen notwendig sein.  
-    
-Das Verzeichnis ist mit dem des DSFinV-K-Exports identisch (..\\export\\dsfinv-k).  
-    
- |
+| Export Erzeugen **(F10)** | Generiert die Dateien und öffnet den Explorer.<br> <br>**Das Export-Verzeichnis ist fest vorgegeben. Vor jedem Export wird das Verzeichnis komplett gelöscht.** |
+| Export TAR Zeitraum … | Hinweis:<br>Diese Funktion sollte nach der ***Export Erzeugen***\-Funktion aufgerufen werden, da das Verzeichnis gelöscht wird.<br><br>Die Vorbelegung für die Zeiträume ist wie folgt:<br>**Von:** 1 Minute vor der zugehörigen Kasseneröffnung<br>**Bis:** 1 Minute nach dem zugehörigen Kassenabschluss.<br><br>Die erzeugte Tar-Datei enthält dann die zum Export-Zeitraum der Buchungen zugehörigen Transaktionen.<br>In welchen Umfang das Programm bei TSE unterstützen kann, die nicht mehr im Zugriff sind (**Speichern unter**\-**Historie**) steht noch nicht fest, dafür werden u. U. organisatorische Maßnahmen notwendig sein.<br><br>Das Verzeichnis ist mit dem des DSFinV-K-Exports identisch (..\\export\\dsfinv-k).<br><br> |
 
 </details>

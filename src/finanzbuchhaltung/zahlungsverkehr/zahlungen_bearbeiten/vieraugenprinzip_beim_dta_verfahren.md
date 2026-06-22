@@ -38,23 +38,7 @@ Auf der sich öffnenden Maske stehen folgende Funktionen zur Verfügung:
 
 | **Funktion** | **Beschreibung** |
 | --- | --- |
-| Verzeichnis ändern | Der Speicherort der DTA-Datei kann geändert werden. Bei Betätigung wird dieses Feld freigegeben. Mit F3 kann man den Dateiauswahldialog aufrufen.  
-Die Änderung wird zwischengespeichert und jedes Mal wieder vorgeschlagen.  
-    
-    
-**Achtung**:  
-1) *Die Dateiausgabe ist für Daten, die per Datenbankprozedur erstellt werden, relativ zum Datenbankserver*.  
-2) *Für die Verfahren ohne private Datenbankprozedur arbeiten (SEPA,DTA,DTINT) wird weiterhin die unter* “Prozedur zur Anpassung des Dateinamens“ *hinterlegte Prozedur aufgerufen(*[Siehe DTA](./dta.md)*).*  
- |
-| Zahlung übertragen | Diese Funktion steht nur für noch nicht übertragene Dateien zur Verfügung. Die DTA-Datei wird auf das ausgewählte Verzeichnis neu geschrieben und je nach Einstellung in den Einrichterparametern im Explorer angezeigt oder per VBA / VBS Script übertragen.  
- |
-| Übertragung zurücksetzten | Diese Funktion steht dann zur Verfügung, wenn die Daten bereits als übertragen gekennzeichnet wurden. Es wird der Eintrag aus der Tabelle Vieraugenprinzip_zahlungen gelöscht und die Übertragung kann noch einmal gestartet werden. Aus sicherheitstechnischen Gründen sollte diese Funktion nur für eine bestimmte Bedienerklasse zugänglich sein.  
- |
-| Rücksetzung beantragen | Hier wird eine Mail an die Bediener der in den Einrichterparametern hinterlegten Bedienerklasse gesendet. Für den Mail-Versand wird die Prozedur aus dem [Einrichterparameter](../../../firmenstamm/einrichterparameter/vieraugenprinzip_zahlungsverkehr_epa_zahlungen_vieraugenprin.md) „Prozedur zum Beantragen des Rücksetzens der Zahlungsnummer“ verwendet. Vorbelegt ist hier die Standard Prozedur „ZahlungRueckBeantragen“. Diese kann durch eine private Prozedur ersetzt werden.  
-   
-Als Eingangs Parameter werden die Zahlungsnummer, Bedienerklasse und der SMTP Server übergeben.  
-Als Ergebnis liefert die Prozedur den Mailstatus zurück.  
-• 0 für Mail-Versand hat funktioniert.  
-• 1 für Mail-Versand hat nicht funktioniert  
-   
- |
+| Verzeichnis ändern | Der Speicherort der DTA-Datei kann geändert werden. Bei Betätigung wird dieses Feld freigegeben. Mit F3 kann man den Dateiauswahldialog aufrufen.<br>Die Änderung wird zwischengespeichert und jedes Mal wieder vorgeschlagen.<br><br><br>**Achtung**:<br>1) *Die Dateiausgabe ist für Daten, die per Datenbankprozedur erstellt werden, relativ zum Datenbankserver*.<br>2) *Für die Verfahren ohne private Datenbankprozedur arbeiten (SEPA,DTA,DTINT) wird weiterhin die unter* “Prozedur zur Anpassung des Dateinamens“ *hinterlegte Prozedur aufgerufen(*[Siehe DTA](./dta.md)*).*<br> |
+| Zahlung übertragen | Diese Funktion steht nur für noch nicht übertragene Dateien zur Verfügung. Die DTA-Datei wird auf das ausgewählte Verzeichnis neu geschrieben und je nach Einstellung in den Einrichterparametern im Explorer angezeigt oder per VBA / VBS Script übertragen.<br> |
+| Übertragung zurücksetzten | Diese Funktion steht dann zur Verfügung, wenn die Daten bereits als übertragen gekennzeichnet wurden. Es wird der Eintrag aus der Tabelle Vieraugenprinzip_zahlungen gelöscht und die Übertragung kann noch einmal gestartet werden. Aus sicherheitstechnischen Gründen sollte diese Funktion nur für eine bestimmte Bedienerklasse zugänglich sein.<br> |
+| Rücksetzung beantragen | Hier wird eine Mail an die Bediener der in den Einrichterparametern hinterlegten Bedienerklasse gesendet. Für den Mail-Versand wird die Prozedur aus dem [Einrichterparameter](../../../firmenstamm/einrichterparameter/vieraugenprinzip_zahlungsverkehr_epa_zahlungen_vieraugenprin.md) „Prozedur zum Beantragen des Rücksetzens der Zahlungsnummer“ verwendet. Vorbelegt ist hier die Standard Prozedur „ZahlungRueckBeantragen“. Diese kann durch eine private Prozedur ersetzt werden.<br> <br>Als Eingangs Parameter werden die Zahlungsnummer, Bedienerklasse und der SMTP Server übergeben.<br>Als Ergebnis liefert die Prozedur den Mailstatus zurück.<br>• 0 für Mail-Versand hat funktioniert.<br>• 1 für Mail-Versand hat nicht funktioniert<br> <br> |

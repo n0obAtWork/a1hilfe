@@ -6,14 +6,8 @@
 | --- | --- | --- |
 | Volltext-Lizenz (914) | Ja/Nein | Lizenzspa „Volltextrecherche“ |
 | Archivtext-Einträge | Anzahl der Einträge der Relation „Archivtext“ | Informatorisch |
-| Archivtext-Index | Name des Volltext-Index | Informatorisch, Standard: „ArchivTextIndex“  
-   
-Der Name ist auch in der JVar 2014, „JVAR_ARCHIV_VOLLTEXT_NAME“ verfügbar |
-| Aktualisierungsfunktion | Name der Aktualisierungsfunktion | Standard: „volltextrecherche_progress“  
-***Hinweis:***  
-***Hier bei dieser Datenbank-Funktion geht es lediglich darum den nächsten Kandidaten für die Erzeugung des Archivtextes anzugeben!***  
-***Die eigentliche Volltext-Index-Aktualisierung erfolgt immer durch A.eins-Programmcode bzw. durch interne Sybase-Routinen.***  
- |
+| Archivtext-Index | Name des Volltext-Index | Informatorisch, Standard: „ArchivTextIndex“<br> <br>Der Name ist auch in der JVar 2014, „JVAR_ARCHIV_VOLLTEXT_NAME“ verfügbar |
+| Aktualisierungsfunktion | Name der Aktualisierungsfunktion | Standard: „volltextrecherche_progress“<br>***Hinweis:***<br>***Hier bei dieser Datenbank-Funktion geht es lediglich darum den nächsten Kandidaten für die Erzeugung des Archivtextes anzugeben!***<br>***Die eigentliche Volltext-Index-Aktualisierung erfolgt immer durch A.eins-Programmcode bzw. durch interne Sybase-Routinen.***<br> |
 | Letzte Aktualisierung | Zeitstempel der letzten System-Volltext-Index-Aktualisierung | |
 | Volltext-Index-Einträge | Anzahl der in den Volltext-Index einfließenden Dokumente | |
 

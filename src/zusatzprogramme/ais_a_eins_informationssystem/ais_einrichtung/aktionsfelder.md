@@ -94,14 +94,11 @@ aisload KUI2 Aendern [Ident] [Seite] [Maske IDFeld] [IDFeld2] [Ident2] [IDFeld3]
 
 | Parameter | Beschreibung |
 | --- | --- |
-| KUI2 | ist der Gruppenname. Wenn die Maske (Parameter 5) AESADDONT1-AEZADDONT22 lautet, so muss die Gruppe leer bleiben, wenn man der Maske mehrere Gruppen zuordnen will. Ansonsten wird auch nur diese Gruppe aufgerufen und imemr nur ein Tabreiter dargestellt.  
- |
-| Aendern | ist die Art, wie auf diese Gruppe zugegriffen werden soll. Hier kann auch „Ansehen“ oder „Einfuegen“ stehen, je nachdem, welche Aktion man ausführen möchte.  
- |
+| KUI2 | ist der Gruppenname. Wenn die Maske (Parameter 5) AESADDONT1-AEZADDONT22 lautet, so muss die Gruppe leer bleiben, wenn man der Maske mehrere Gruppen zuordnen will. Ansonsten wird auch nur diese Gruppe aufgerufen und imemr nur ein Tabreiter dargestellt.<br> |
+| Aendern | ist die Art, wie auf diese Gruppe zugegriffen werden soll. Hier kann auch „Ansehen“ oder „Einfuegen“ stehen, je nachdem, welche Aktion man ausführen möchte.<br> |
 | Ident | ist der Wert des Identfeldes der aktiven Maske. Wird hier nichts angegeben, so wird entweder der Wert aus h.Ident$ -Identfeld der Maske AEZADDON und AEADDOND – bzw. wenn diese nicht da ist, die erste ID aus der Auswahlliste genommen. |
 | Seite | wird nur ausgewertet, wenn die Gruppe KUINOTIZ heißt. Dann wird dort diese Seite angezeigt. |
 | Maske und IDFeld | müssen immer gemeinsam angegeben werden. Wir keine Maske angegeben wird automatisch die Maske AEZADDON verwendet und das Feld IDFeld lautet „Ident“. Wie immer ist auf Groß und Kleinschreibung zu achten. |
-| IDFeld2 und Ident2 bis IDFeld4 und Ident4 | wie Ident und IDFeld  
- |
+| IDFeld2 und Ident2 bis IDFeld4 und Ident4 | wie Ident und IDFeld<br> |
 
 Die Controlstrings für die Blätterbuttons bzw. für einen Speicherbutton findet man unter [Tipps und Tricks](../tipps_und_tricks/index.md).

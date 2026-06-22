@@ -114,16 +114,11 @@ Hier lassen sich auch einige Werte ändert:
 
 | | Beschreibung |
 | --- | --- |
-| Mahnstufe | Hier kann die Mahnstufe geändert werden. Die Änderung wird auch in den Mahnvorschlägen berücksichtigt.  
- |
-| Mahndatum | Das letzte Mahndatum lässt sich ändern, solange der OP nicht in einem aktuellen Mahnlauf berücksichtigt ist.  
- |
-| Mahnsperre | Einzelne OP’s können mit Mahnsperren versehen werden, damit sie nicht mehr auf Mahnungen erscheinen.  
- |
-| Zahlsperre | Man kann einzelne OP’s für den automatischen Zahlungsverkehr sperren. Sie erscheinen dann nicht in Zahlungsvorschlägen bzw. werden aus der Zahlungsvorschlagsliste gelöscht. OP’s die schon im automatischen Zahlungsverkehr gedruckt oder per DTA versandt wurden, können nicht mehr gesperrt werden.  
- |
-| Auslands-OP | Wenn eine Lizenz für den Auslandszahlungsverkehr vorliegt und der OP noch nicht im automatischen Zahlungsverkehr bearbeitet wurde.  
- |
+| Mahnstufe | Hier kann die Mahnstufe geändert werden. Die Änderung wird auch in den Mahnvorschlägen berücksichtigt.<br> |
+| Mahndatum | Das letzte Mahndatum lässt sich ändern, solange der OP nicht in einem aktuellen Mahnlauf berücksichtigt ist.<br> |
+| Mahnsperre | Einzelne OP’s können mit Mahnsperren versehen werden, damit sie nicht mehr auf Mahnungen erscheinen.<br> |
+| Zahlsperre | Man kann einzelne OP’s für den automatischen Zahlungsverkehr sperren. Sie erscheinen dann nicht in Zahlungsvorschlägen bzw. werden aus der Zahlungsvorschlagsliste gelöscht. OP’s die schon im automatischen Zahlungsverkehr gedruckt oder per DTA versandt wurden, können nicht mehr gesperrt werden.<br> |
+| Auslands-OP | Wenn eine Lizenz für den Auslandszahlungsverkehr vorliegt und der OP noch nicht im automatischen Zahlungsverkehr bearbeitet wurde.<br> |
 
 • ***OP-Bemerkungen:*** Hier können zu einem offenen Posten Bemerkungen erfasst werden. Diese verschwinden jedoch, wenn der Beleg ausgeziffert wird. Diese Bemerkungen werden in der Einzelbeleganzeige unterhalb der OP-Zeile angezeigt. In dem Beispiel oben wurde „Die Höhe des Betrages muss mit Herrn W. noch abgestimmt werden.“ als Bemerkung zum OP erfasst.  
     

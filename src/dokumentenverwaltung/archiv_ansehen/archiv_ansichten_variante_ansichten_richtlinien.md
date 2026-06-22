@@ -21,8 +21,7 @@ Mit Hilfe der Richtlinien lassen sich nun auch größere Installationen mit sehr
 | Detailbezeichnung | Bezeichnung eines Details |
 | Richtlinie | Aktiviert/Nicht aktiviert |
 | Detailname | Technische Identifikation der Richtlinie |
-| Detailwert | Der Wert der Richtlinie.  
-Hinweis: Es sind hier je nach Richtlinie andere Typen. |
+| Detailwert | Der Wert der Richtlinie.<br>Hinweis: Es sind hier je nach Richtlinie andere Typen. |
 
 | Funktionen | |
 | --- | --- |
@@ -38,6 +37,5 @@ Hinweis: Es sind hier je nach Richtlinie andere Typen. |
 | --- | --- |
 | Detailname | Technische Identifikation der Richtlinie |
 | Detailbezeichnung | Bezeichnung eines Details |
-| Detailwert | Der Wert der Richtlinie.  
-Hinweis: Es sind hier je nach Richtlinie andere Typen. |
+| Detailwert | Der Wert der Richtlinie.<br>Hinweis: Es sind hier je nach Richtlinie andere Typen. |
 | Richtlinie | Aktiviert/Nicht aktiviert |

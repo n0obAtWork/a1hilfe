@@ -20,46 +20,26 @@ Für Kostenobjekte wird eine Lizenz benötigt.
 
 | **Feld** | |
 | --- | --- |
-| Nummer | Die Nummer des Kostenobjektes.  
- |
-| Matchcode | Die Kurzbezeichnung des Kostenobjektes.  
- |
-| Bezeichnung | Die Bezeichnung des Kostenobjektes.  
- |
-| Gesperrt | Gibt an, ob das Kostenobjekt für die Belegerfassung in der Finanzbuchhaltung gesperrt ist.  
- |
+| Nummer | Die Nummer des Kostenobjektes.<br> |
+| Matchcode | Die Kurzbezeichnung des Kostenobjektes.<br> |
+| Bezeichnung | Die Bezeichnung des Kostenobjektes.<br> |
+| Gesperrt | Gibt an, ob das Kostenobjekt für die Belegerfassung in der Finanzbuchhaltung gesperrt ist.<br> |
 
 **Suchmöglichkeiten der Kostenobjekte**
 
 | **Feld** | |
 | --- | --- |
-| Nummer | Von … Bis …  
- |
+| Nummer | Von … Bis …<br> |
 
 **Funktionen in der Auswahlliste**
 
 | **Funktion** | |
 | --- | --- |
-| Ändern **(F5)** | Ändern des Kostenobjektes.  
- |
-| Ansehen **(F6)** | Ansehen des Kostenobjektes.  
- |
-| Löschen **(F7)** | Mit der ***Löschen***\-Funktion werden Kostenobjekte nicht physikalisch gelöscht, sondern sie werden mit einem Löschkennzeichen versehen. Gelöschte Kostenobjekte sind für weitere Belegerfassungen gesperrt bis sie wiederhergestellt werden.  
-Alle gelöschten Kostenobjekte werden in der 2.Variante „Gelöschte Kostenobjekte“ angezeigt.  
-Bedingung: Bevor ein Kostenobjekt gelöscht werden kann, wird überprüft, ob dieses noch verwendet wird. Solange Einträge des Kostenobjektes in den folgenden Punkten vorhanden sind, kann die Löschung nicht erfolgen:  
-• [Sachkontenstamm](../../stammdaten_der_fibu/sachkonten.md)  
-• [Mandantenstamm](../../../firmenstamm/firmenkonstanten/mandantenstamm.md#MND_FIBU) (als Fehlerkostenobjekt)  
-• [Mahnsatz](../../mahnwesen/mahnsaetze_einrichten.md)/[Mahnzinsen](../../mahnwesen/mahnzinsen.md)  
-• [Zinsgruppen](../../zinswesen/stammdaten_zinswesen/zinsgruppen.md)  
-• [Periodische Buchungen](../../belegerfassung/periodische_buchungen.md)  
-• [Kostenobjektgruppen](../kostenobjektgruppe.md)  
-Bei bereits bebuchten Kostenobjekten erscheint ein Hinweis mit Abfrage, ob tatsächlich gelöscht werden soll.  
- |
-| Wiederherstellen **(F7)** | Beim Wiederherstellen eines gelöschten Kostenobjektes wird sein Löschkennzeichen entfernt und es kann wieder in der Belegerfassung verwendet werden.  
-Das wiederhergestellte Kostenobjekt wird in der 1.Variante „Kostenobjekte“ angezeigt.  
- |
-| Neu **(F8)** | Anlage eines neuen Kostenobjektes.  
- |
+| Ändern **(F5)** | Ändern des Kostenobjektes.<br> |
+| Ansehen **(F6)** | Ansehen des Kostenobjektes.<br> |
+| Löschen **(F7)** | Mit der ***Löschen***\-Funktion werden Kostenobjekte nicht physikalisch gelöscht, sondern sie werden mit einem Löschkennzeichen versehen. Gelöschte Kostenobjekte sind für weitere Belegerfassungen gesperrt bis sie wiederhergestellt werden.<br>Alle gelöschten Kostenobjekte werden in der 2.Variante „Gelöschte Kostenobjekte“ angezeigt.<br>Bedingung: Bevor ein Kostenobjekt gelöscht werden kann, wird überprüft, ob dieses noch verwendet wird. Solange Einträge des Kostenobjektes in den folgenden Punkten vorhanden sind, kann die Löschung nicht erfolgen:<br>• [Sachkontenstamm](../../stammdaten_der_fibu/sachkonten.md)<br>• [Mandantenstamm](../../../firmenstamm/firmenkonstanten/mandantenstamm.md#MND_FIBU) (als Fehlerkostenobjekt)<br>• [Mahnsatz](../../mahnwesen/mahnsaetze_einrichten.md)/[Mahnzinsen](../../mahnwesen/mahnzinsen.md)<br>• [Zinsgruppen](../../zinswesen/stammdaten_zinswesen/zinsgruppen.md)<br>• [Periodische Buchungen](../../belegerfassung/periodische_buchungen.md)<br>• [Kostenobjektgruppen](../kostenobjektgruppe.md)<br>Bei bereits bebuchten Kostenobjekten erscheint ein Hinweis mit Abfrage, ob tatsächlich gelöscht werden soll.<br> |
+| Wiederherstellen **(F7)** | Beim Wiederherstellen eines gelöschten Kostenobjektes wird sein Löschkennzeichen entfernt und es kann wieder in der Belegerfassung verwendet werden.<br>Das wiederhergestellte Kostenobjekt wird in der 1.Variante „Kostenobjekte“ angezeigt.<br> |
+| Neu **(F8)** | Anlage eines neuen Kostenobjektes.<br> |
 
 <p class="siehe-auch">Siehe auch:</p>
 

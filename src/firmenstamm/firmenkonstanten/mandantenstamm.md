@@ -14,8 +14,7 @@ Hier erfolgen die Benennung des Mandanten (Bezeichnung der Firma), seine datenba
 | --- | --- |
 | Kurztext | Kurzbezeichnung des Mandanten (erscheint in der Windowskopfleiste) in der Datenbank = Basis |
 | Nummer | Laufende Nummer des Mandanten (1) |
-| Aktiv | 0: Nein  
-1: Ja |
+| Aktiv | 0: Nein<br>1: Ja |
 | Name | Bezeichnung der Firma |
 | Buchwährung | Zeigt die aktive Buchwährung des Mandanten an. Solange noch keine Belege erfasst wurden, wird im Menü eine Funktion zum Setzen der Buchwährung angeboten. |
 | Testmandant | Zeigt an, ob der aktuelle Datensatz ein Testmandant ist. |
@@ -38,15 +37,10 @@ Für die allgemeinen Informationen stehen folgende Felder zur Verfügung
 | Selektionsprozedur | Name der privaten Prozedur zur Eingrenzung der zu meldenden Fehlernummern. Standard-SQL-Funktion ist hier „FehlerprotokollMailselektion“. Private Ableitungen bitte von dieser Funktion! ([SQLP]) |
 | Sende ILN | Nummer die beim EDIFACT Datenaustausch eingesetzt wird |
 | Terres Bestellnummer | Nummer die bei der Bestellung von Artikeln bei Terres angegeben werden muss. Diese Nummer wird von Terres vergeben. |
-| Kasse/DSFin_V-K  
-Taxonomie-Version | Die in A.eins implementierte Version der DSFinV-K |
-| Kasse/DSFin_V-K  
-Taxonomie-Dtd | Die in A.eins implementierte Version der DSFinV-K benötigt diese mit A.eins bereitgestellte Dokument-Type-Definition-Datei. |
-| Programm läuft in | Sprache in der das A.eins grundsätzlich läuft. Diese Sprache wird von AMIC gepflegt und man kann sie mit **F3** auswählen. Die Sprachen Englisch, Dänisch, Niederländisch und Französisch sind Lizenzpflichtig. Wenn eine dieser Sprachen das erste Mal ausgewählt wird, so muss man die Aktivierung bestätigen. Es wird erst dann die aktuelle Sprache eingespielt und der Benutzer kann ohne Lizenz für 60 Tage diese Sprache nutzen. Danach muss die Lizenz erworben werden.  
-Ohne Aktivierung wird die Spracheinstellung ignoriert. |
-| Systemkundennummer | Kunde des Mandanten  
-[Nachhaltigkeit](../../vorgangsabwicklung/nachhaltigkeit/index.md)  
-Um für einen Mandanten die Nachhaltigkeitsinformationen zu hinterlegen, muss hier der Systemkunde hinterlegt werden. An diesem können dann die [Zertifikate](../../kunden_und_lieferanten/kunden_und_lieferantenstamm/zertifikate.md) vom Typ 5 gepflegt werden. |
+| Kasse/DSFin_V-K<br>Taxonomie-Version | Die in A.eins implementierte Version der DSFinV-K |
+| Kasse/DSFin_V-K<br>Taxonomie-Dtd | Die in A.eins implementierte Version der DSFinV-K benötigt diese mit A.eins bereitgestellte Dokument-Type-Definition-Datei. |
+| Programm läuft in | Sprache in der das A.eins grundsätzlich läuft. Diese Sprache wird von AMIC gepflegt und man kann sie mit **F3** auswählen. Die Sprachen Englisch, Dänisch, Niederländisch und Französisch sind Lizenzpflichtig. Wenn eine dieser Sprachen das erste Mal ausgewählt wird, so muss man die Aktivierung bestätigen. Es wird erst dann die aktuelle Sprache eingespielt und der Benutzer kann ohne Lizenz für 60 Tage diese Sprache nutzen. Danach muss die Lizenz erworben werden.<br>Ohne Aktivierung wird die Spracheinstellung ignoriert. |
+| Systemkundennummer | Kunde des Mandanten<br>[Nachhaltigkeit](../../vorgangsabwicklung/nachhaltigkeit/index.md)<br>Um für einen Mandanten die Nachhaltigkeitsinformationen zu hinterlegen, muss hier der Systemkunde hinterlegt werden. An diesem können dann die [Zertifikate](../../kunden_und_lieferanten/kunden_und_lieferantenstamm/zertifikate.md) vom Typ 5 gepflegt werden. |
 | Handelsregister | Nummer des Eintrags im Handelsregister. |
 | Handelsname | Vom Firmennamen abweichender Handelsname. |
 | Electronic Address | Die für die elektronische Zustellung von eRechnung verwendete Absendeadresse |
@@ -64,15 +58,11 @@ Hier werden für die Finanzbuchhaltung benötigen Informationen festgelegt.
 | Eröffnungsbilanzkonto | Dieses Konto wird beim Jahreswechsel als Konto für die Eröffnungsbuchung vorgeschlagen. |
 | Schlussbilanzkonto | Dieses Konto wird beim Jahreswechsel als Konto für die Abschlussbuchungen vorgeschlagen. |
 | Um-/Nullbuchungskonto | Dies ist ein technisches Konto. Es hat immer den Saldo 0! |
-| Konto Bilanzgewinn | Dies ist ein fiktives Konto für den Ausweis des Jahresüberschusses/Fehlbetrages auf der Bilanz. Es muss zwar im Sachkontenstamm angelegt sein, darf jedoch nicht bebucht werden. Die Daten werden aus dem aus dem GuV-Ergebnis bestimmt.  
-Ist hier kein Konto eingetragen, wird die Differenz zwischen Aktiva und Passiva am Ende der Bilanz als Jahresüberschuss/Fehlbetrag dargestellt. |
+| Konto Bilanzgewinn | Dies ist ein fiktives Konto für den Ausweis des Jahresüberschusses/Fehlbetrages auf der Bilanz. Es muss zwar im Sachkontenstamm angelegt sein, darf jedoch nicht bebucht werden. Die Daten werden aus dem aus dem GuV-Ergebnis bestimmt.<br>Ist hier kein Konto eingetragen, wird die Differenz zwischen Aktiva und Passiva am Ende der Bilanz als Jahresüberschuss/Fehlbetrag dargestellt. |
 | Fehlerkostenstelle | Wurde in einem Beleg keine [Kostenstelle](../../finanzbuchhaltung/kostenrechnung/kostenstellen.md) angegeben, so wird bei GuV-Konten automatisch diese Kostenstelle verwendet. |
 | Fehlerkostenträger | Wurde in einem Beleg kein [Kostenträger](../../finanzbuchhaltung/kostenrechnung/kostentraeger.md) angegeben, so wird bei GuV-Konten automatisch dieser Kostenträger verwendet. |
 | Fehlerkostenobjekt | Wurde in einem Beleg kein [Kostenobjekt](../../finanzbuchhaltung/kostenrechnung/kostenobjekte/index.md) angegeben, so wird bei GuV-Konten automatisch dieses Kostenobjekt verwendet. |
-| Zinsbasis | Hier kann man angeben, wie bei der Zinsabrechnung gerechnet werden soll. Möglicher Werte sind:  
-• Monat / 365  
-• 30 / 360  
-• Monat / 360 |
+| Zinsbasis | Hier kann man angeben, wie bei der Zinsabrechnung gerechnet werden soll. Möglicher Werte sind:<br>• Monat / 365<br>• 30 / 360<br>• Monat / 360 |
 | Bundesland | Das Bundesland wird für die Umsatzsteuervoranmeldung / Elster gebraucht. |
 | Nummer des Finanzamtes | Ist mit **F3** auswählbar. Wird für die Umsatzsteuervoranmeldung / Elster benötigt. |
 | Name | Wird für die Umsatzsteuervoranmeldung / Elster benötigt |
@@ -82,10 +72,8 @@ Ist hier kein Konto eingetragen, wird die Differenz zwischen Aktiva und Passiva 
 | Voranmeldezeitraum | Wird für die Umsatzsteuervoranmeldung / Elster benötigt |
 | Ust-IdNr. | Wird für die Zusammenfassende Meldung benötigt |
 | Gläubiger-ID | Die [Gläubiger-ID](./mandantenstamm.md) wird für das SEPA-Lastschriftverfahren benötigt. |
-| Unternehmensform | Diese Informationen werden für die [e-Bilanz](../../finanzbuchhaltung/ebilanz_online/index.md) benötigt. Eine Auswahl der laut Taxonomie möglichen Werte ist mit **F3** möglich.  
-(Wird zurzeit in A.eins nicht genutzt) |
-| Rechtsform | Diese Informationen werden für die [e-Bilanz](../../finanzbuchhaltung/ebilanz_online/index.md) benötigt. Eine Auswahl der laut Taxonomie möglichen Werte ist mit **F3** möglich.  
-(Wird zurzeit in A.eins nicht genutzt) |
+| Unternehmensform | Diese Informationen werden für die [e-Bilanz](../../finanzbuchhaltung/ebilanz_online/index.md) benötigt. Eine Auswahl der laut Taxonomie möglichen Werte ist mit **F3** möglich.<br>(Wird zurzeit in A.eins nicht genutzt) |
+| Rechtsform | Diese Informationen werden für die [e-Bilanz](../../finanzbuchhaltung/ebilanz_online/index.md) benötigt. Eine Auswahl der laut Taxonomie möglichen Werte ist mit **F3** möglich.<br>(Wird zurzeit in A.eins nicht genutzt) |
 | SEPA Information | Siehe [SEPA-Kennzeichen im Mandantenstamm](../../finanzbuchhaltung/zahlungsverkehr/sepa/sepa_kennzeichen_im_mandantenstamm.md) |
 
 </details>
@@ -111,17 +99,12 @@ Der Mandantenstamm-Eintrag einer WebPortal-Datenbank muss im Feld ‚*Datenbank 
 
 | Signal | Bedeutung |
 | --- | --- |
-| Frequenz (in Minuten) | Frequenz in Minuten innerhalb der das Signal erzeugt für die Remote-User erzeugt wird.  
-Beispiel: 5 Minuten |
-| Schwellenwert | Schwellenwert in Minuten ab dem ein Signal als nicht bestätigt von den Remote-User(n) angesehen wird.  
-Beispiel: 10 Minuten  
-D.h. wenn ein Replikationspartner innerhalb von 10 Minuten nicht auf ein angefordertes Signal geantwortet hat, dann hat die Replikation in der Übertragungsstrecke bzw. dem DBRemote-Wesen ein Problem und muss genauer begutachtet werden. |
+| Frequenz (in Minuten) | Frequenz in Minuten innerhalb der das Signal erzeugt für die Remote-User erzeugt wird.<br>Beispiel: 5 Minuten |
+| Schwellenwert | Schwellenwert in Minuten ab dem ein Signal als nicht bestätigt von den Remote-User(n) angesehen wird.<br>Beispiel: 10 Minuten<br>D.h. wenn ein Replikationspartner innerhalb von 10 Minuten nicht auf ein angefordertes Signal geantwortet hat, dann hat die Replikation in der Übertragungsstrecke bzw. dem DBRemote-Wesen ein Problem und muss genauer begutachtet werden. |
 
 | WebPortal | Bedeutung |
 | --- | --- |
-| Datenbank ist WebPortal-Datenbank? | Ja: Es handelt sich bei der Datenbank dieses Mandanten um eine WebPortal-Datenbank.  
-Nein: Diese Datenbank ist nicht die Datenbank des WebPortals.  
-Dieses Feld ist nur bei einer Replikations-Datenbank sichtbar, die keine konsolidierte Datenbank ist. |
+| Datenbank ist WebPortal-Datenbank? | Ja: Es handelt sich bei der Datenbank dieses Mandanten um eine WebPortal-Datenbank.<br>Nein: Diese Datenbank ist nicht die Datenbank des WebPortals.<br>Dieses Feld ist nur bei einer Replikations-Datenbank sichtbar, die keine konsolidierte Datenbank ist. |
 
 </details>
 
@@ -142,10 +125,8 @@ In der Registerkarte Zollausfuhr werden wichtige Informationen zur Abwicklung de
 | Passwort | hallo2008 | Passwort für den Zugang beim Webanbieter. Dies ist der dritte von drei Teilen der Zugangsdaten beim Webanbieter. |
 | Mail Ankunft Dokumente | a@b.de | Mailadresse, an der mit Prozeduren automatisch abgeholte Ausfuhrbegleitdokumente signalisiert werden |
 | Mail Ablehnung | a@b.de | Mailadresse, an der mit Prozeduren automatisch empfangene Ablehnungen signalisiert werden |
-| Zugangsart | 1.) Testzugang  
-2.) Operativer Zugang | Operativer Zugang NUR mit Zugangsdaten von AEB! |
-| Webanbieter | 1.) Test: https://rz3.aeb.de/test2aae  
-2.) Operativ: https://rz3.aeb.de/prod2aae | Hier kann die Webadresse für den Zugriff über die vom Anbieter zur Verfügung gestellte Oberfläche eingegeben werden. Beim Betätigen des Buttons Anzeigen wird ein neues Fenster geöffnet, in dem ein Browser-Element enthalten ist, welches die Anzeige ermöglicht. |
+| Zugangsart | 1.) Testzugang<br>2.) Operativer Zugang | Operativer Zugang NUR mit Zugangsdaten von AEB! |
+| Webanbieter | 1.) Test: https://rz3.aeb.de/test2aae<br>2.) Operativ: https://rz3.aeb.de/prod2aae | Hier kann die Webadresse für den Zugriff über die vom Anbieter zur Verfügung gestellte Oberfläche eingegeben werden. Beim Betätigen des Buttons Anzeigen wird ein neues Fenster geöffnet, in dem ein Browser-Element enthalten ist, welches die Anzeige ermöglicht. |
 | Servicename | AUSFUHR||XPRESS plus | Default-Wert |
 | Zertifikat | C:\\AEBZertifikat.cer | Festplattenpfad, unter dem das Zertifikat des Webservice-Anbieters abgespeichert ist. Das Zertifikat muss immer auf dem gleichen Rechner abgelegt sein, auf dem auch die Datenbank läuft. |
 
@@ -189,8 +170,7 @@ Standard SMTP Informationen
 
 | Feld | Bedeutung |
 | --- | --- |
-| Versand Profil | Über F3 wird hier ein Profil aus dem Versandprofilstamm ausgewählt. Anschließend werden alle folgenden für SMTP-Informationen bestimmten Felder mit den Daten aus dem Versandprofilstamm gefüllt.  
-Bleibt das Feld leer werden die Daten aus den Feldern des Mandantenstamm angezeigt. |
+| Versand Profil | Über F3 wird hier ein Profil aus dem Versandprofilstamm ausgewählt. Anschließend werden alle folgenden für SMTP-Informationen bestimmten Felder mit den Daten aus dem Versandprofilstamm gefüllt.<br>Bleibt das Feld leer werden die Daten aus den Feldern des Mandantenstamm angezeigt. |
 | Absender-E-Mailadresse | Absender-E-Mailadresse für den Versand |
 | SMTP-Server | IP-Adresse oder Servername des SMTP-Servers. |
 | SMTP-Port | Port des SMTP-Servers |
@@ -222,10 +202,8 @@ Auf der Registerkarte „Zugangsdaten“ werden Zugangsdaten hinterlegt, die fü
 
 | e-Mailgruppen |
 | --- |
-| Bereich | Für welchen Bereich soll die Mailadresse gelten. Die Bereiche können mit F3 ausgewählt werden. Der F3-Auswahl liegt das Anwendungsformat **AF_MANDMAIL** zugrunde. Es können ab der Nummer 100 eigene Bereiche definiert werden.  
- |
-| Mailadresse | Hier kann eine Mailadresse bzw. mehrere durch Semikolon getrennte Mailadressen hinterlegt werden.  
- |
+| Bereich | Für welchen Bereich soll die Mailadresse gelten. Die Bereiche können mit F3 ausgewählt werden. Der F3-Auswahl liegt das Anwendungsformat **AF_MANDMAIL** zugrunde. Es können ab der Nummer 100 eigene Bereiche definiert werden.<br> |
+| Mailadresse | Hier kann eine Mailadresse bzw. mehrere durch Semikolon getrennte Mailadressen hinterlegt werden.<br> |
 
 Für den Zugriff auf die Mailgruppen existiert die Funktion MandMailAdresse(Bereich). Um also z.B. auf die Mailadresse unter „e-Mailgruppe 3“ zuzugreifen schreib man:
 

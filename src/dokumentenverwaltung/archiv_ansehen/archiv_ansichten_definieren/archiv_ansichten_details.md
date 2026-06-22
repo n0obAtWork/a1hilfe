@@ -62,17 +62,11 @@ Hiermit sagt man dem Programm, woher und wie die Daten ermittelt werden sollen.
 | Konstante | Fester Wert, Anwendung z.B. feste Belegklasse |
 | ItemValue | Der Wert kommt aus der Returnliste |
 | Maskenfeld | Der Wert soll aus einem Maskenfeld genommen werden. Klassisch in der Dialog-Situation |
-| SQL | Der Wert wird per SQL ermittelt.  
-   
-Beispiel und Konvention:  
-Der Ergebnis-Wert des SQL muss per Alias „Wert“ ausgezeichnet sein!  
-![](../../../ImagesExt/image8_934.jpg) |
+| SQL | Der Wert wird per SQL ermittelt.<br> <br>Beispiel und Konvention:<br>Der Ergebnis-Wert des SQL muss per Alias „Wert“ ausgezeichnet sein!<br>![](../../../ImagesExt/image8_934.jpg) |
 | AL_Ident | Wieder aus Auswahlliste, diesmal die IDENT-Klausel |
 | SV_MAIN | Programmtechnisch, der SVWARE-Kontext |
 | CE_MAIN | Programmtechnisch, der Rohware-Kontext |
-| OWNER | Unterstützt die Vorgabe eines Owner um dann aus diesen die verabredeten JVars zu ziehen.  
-Ein Beispiel für einen Controlstring ist  
- |
+| OWNER | Unterstützt die Vorgabe eines Owner um dann aus diesen die verabredeten JVars zu ziehen.<br>Ein Beispiel für einen Controlstring ist<br> |
 
 Bereich
 

@@ -8,15 +8,9 @@ Dieser Pfleger dient zur Änderung und Erstellung von Bedienern
 
 | Kopfdaten |
 | --- |
-| Nummer | Bedienernummer. Diese wird händisch vergeben und muss eindeutig sein.  
- |
-| Kurzname | Eindeutiger Login–Name beim Programmstart.  
- |
-| Status | **Aktiv**: Bediener ist im Bedienerstamm und in der Datenbank angelegt. Mit diesem Bediener ist eine A.eins-Anmeldung möglich.  
-**Inaktiv**: Bediener ist im Bedienerstamm und in der Datenbank angelegt. Jedoch ist eine A.eins-Anmeldung nicht möglich.  
-**Gelöscht**: Bediener ist nur noch im Bedienerstamm aber nicht mehr in der Datenbank. Eine A.eins-Anmeldung ist nicht möglich.  
-**Neu**: Neuanlage des Bedieners. Nach dem Speichern wird dieser auf aktiv gesetzt.  
- |
+| Nummer | Bedienernummer. Diese wird händisch vergeben und muss eindeutig sein.<br> |
+| Kurzname | Eindeutiger Login–Name beim Programmstart.<br> |
+| Status | **Aktiv**: Bediener ist im Bedienerstamm und in der Datenbank angelegt. Mit diesem Bediener ist eine A.eins-Anmeldung möglich.<br>**Inaktiv**: Bediener ist im Bedienerstamm und in der Datenbank angelegt. Jedoch ist eine A.eins-Anmeldung nicht möglich.<br>**Gelöscht**: Bediener ist nur noch im Bedienerstamm aber nicht mehr in der Datenbank. Eine A.eins-Anmeldung ist nicht möglich.<br>**Neu**: Neuanlage des Bedieners. Nach dem Speichern wird dieser auf aktiv gesetzt.<br> |
 
 <p class="just-emphasize">Register:</p>
 
@@ -25,64 +19,28 @@ Dieser Pfleger dient zur Änderung und Erstellung von Bedienern
 
 | Allgemein |
 | --- |
-| Bedienerklasse | **F3** Zuordnung einer übergeordneten Abteilung; der Bediener erhält damit die Rechte der [Bedienerklasse](../bedienerklassen/bedienerklasse_pfleger.md).  
- |
-| Betriebsstätte | Betriebsstätte des Bedieners, so wie er auf Listen und Ausdrucken erscheint.  
- |
-| Name | Name des Bedieners.  
- |
+| Bedienerklasse | **F3** Zuordnung einer übergeordneten Abteilung; der Bediener erhält damit die Rechte der [Bedienerklasse](../bedienerklassen/bedienerklasse_pfleger.md).<br> |
+| Betriebsstätte | Betriebsstätte des Bedieners, so wie er auf Listen und Ausdrucken erscheint.<br> |
+| Name | Name des Bedieners.<br> |
 | Name extern | Für Listen, Ausdrucke, etc. |
-| Windows Login | Ein in einem Windows Umfeld gestartetes A.eins fragt bisher immer noch einmal Bedienername und Kennwort ab, obwohl ja schon bei der Windows Anmeldung alle notwendigen Sicherheitsüberprüfungen abgewickelt worden sind.  
-Durch das einfache Setzen der Feldes „Windows Login“ innerhalb des Bedienerstammes auf den Windows – Kontonamen (also den Windows Anmeldenamen) des entsprechenden Bedieners kann jetzt erreicht werden, dass dieser angemeldete Windows Bediener direkt auf den entsprechenden A.eins Bediener innerhalb von A.eins angemeldet wird, wenn A.eins gestartet wird. Es gibt nur eine 1 zu 1 Zuordnung zwischen einem Windows Benutzer und einem A.eins Bediener.  
-   
-Bei dieser Verwendung der Windows Authentifizierung wird A.eins sofort durchgestartet. Die A.eins Anmeldung müssen Sie in jedem Fall dann beibehalten, wenn unter ein und derselben Windows Anmeldung unterschiedliche Bediener tätig werden sollen.  
-   
-Ist der [SPA 769](../../../steuerparameter/optionen_global/name_sicherheit_login_aktivieren_spa_769.md) „Name Sicherheit Login aktivieren“ auf **Ja** dann gilt zusätzlich, dass A.eins nach Einrichtung eines Bedieners mit angegebenem „Windows Login“ nun auch keinem Bediener ohne eingetragenen Namen Zugang zum System gewährt.  
-   
-Die Bedienerklasse des Bedieners bestimmt die Filialzugehörigkeit, damit ist es möglich über den „Windows Login“ den gleichen Windows-Kontonamen verschiedenen Aeins-Benutzern in verschiedenen Filialen zuzuordnen.  
-Anwender in Nicht-Replikationsumgebungen oder Teil-Replikationen, die das Filialwesen anders als in Voll-Replikationen vorgesehen nutzen und trotzdem das über „Windows Login“ erreichbare AUTOLOGIN nutzen wollen, müssen den Aeins-Parameter FILIALLOGIN=FALSE setzen.  
- |
+| Windows Login | Ein in einem Windows Umfeld gestartetes A.eins fragt bisher immer noch einmal Bedienername und Kennwort ab, obwohl ja schon bei der Windows Anmeldung alle notwendigen Sicherheitsüberprüfungen abgewickelt worden sind.<br>Durch das einfache Setzen der Feldes „Windows Login“ innerhalb des Bedienerstammes auf den Windows – Kontonamen (also den Windows Anmeldenamen) des entsprechenden Bedieners kann jetzt erreicht werden, dass dieser angemeldete Windows Bediener direkt auf den entsprechenden A.eins Bediener innerhalb von A.eins angemeldet wird, wenn A.eins gestartet wird. Es gibt nur eine 1 zu 1 Zuordnung zwischen einem Windows Benutzer und einem A.eins Bediener.<br> <br>Bei dieser Verwendung der Windows Authentifizierung wird A.eins sofort durchgestartet. Die A.eins Anmeldung müssen Sie in jedem Fall dann beibehalten, wenn unter ein und derselben Windows Anmeldung unterschiedliche Bediener tätig werden sollen.<br> <br>Ist der [SPA 769](../../../steuerparameter/optionen_global/name_sicherheit_login_aktivieren_spa_769.md) „Name Sicherheit Login aktivieren“ auf **Ja** dann gilt zusätzlich, dass A.eins nach Einrichtung eines Bedieners mit angegebenem „Windows Login“ nun auch keinem Bediener ohne eingetragenen Namen Zugang zum System gewährt.<br> <br>Die Bedienerklasse des Bedieners bestimmt die Filialzugehörigkeit, damit ist es möglich über den „Windows Login“ den gleichen Windows-Kontonamen verschiedenen Aeins-Benutzern in verschiedenen Filialen zuzuordnen.<br>Anwender in Nicht-Replikationsumgebungen oder Teil-Replikationen, die das Filialwesen anders als in Voll-Replikationen vorgesehen nutzen und trotzdem das über „Windows Login“ erreichbare AUTOLOGIN nutzen wollen, müssen den Aeins-Parameter FILIALLOGIN=FALSE setzen.<br> |
 | Systemadmin | Systemadministrator (Ja/Nein). Wird hier **Ja** eingetragen, erhält der Nutzer in entsprechenden Bereichen angepasste Rechte. |
-| Sperre | Bedienersperre (Ja/Nein). Wird hier **Ja** eingetragen, so bleibt der Benutzer zwar im System, kann sich aber nicht mehr an A.eins anmelden.  
- |
-| Protokollkontr. | Der Bediener ist für die Kontrolle der Fehlerprotokolle zuständig (Ja/Nein). Es erfolgt ein Hinweis beim Einloggen des Bedieners.  
- |
-| Newsvorlage | Gibt an, ob die [News](../../../../zusatzprogramme/newsticker.md) angezeigt werden oder nicht:  
- |
-| Ausw.Listenadmin | Steht hier ein „Ja“, so kann der Bediener die Anzeige in den Auswahllisten anpassen. Dazu gehört die Sortierung, Feldauswahl, Größe und Reihenfolge der Felder sowie die Farbdarstellung. Weiterhin werden diesen Bedienern auch Fehler in privaten Auswahllisten und der F3-Auswahl angezeigt.  
- |
-| Ausw.Strg fest | Dadurch, dass die Bedienung der Auswahlliste auf das unter Windows übliche Verfahren umgestellt wurde (z.B. mehrere Markieren durch Strg + Markieren) ist die einhändige Bedienung fast unmöglich. Wenn man hier ein **Ja** einträgt, so wird angenommen, dass die Steuerungstaste (Strg) immer gedrückt ist.  
- |
-| Klassenadministr. |   
- |
-| Ausw.Einstieg | Standard Vorbelegung des Einstiegsverhalten bei Auswahllisten. Diese Einstellung wird verwendet, wenn die Auswahlliste das erste mal ausgewählt wird.  
- |
-| Version F3-Auswahl | Hie kann pro Bediener eingestellt werden, welche Variante der F3-Auswahl verwendet werden soll. Es existieren drei Auswahlmöglichkeiten:  
-• Standard Programmvorgabe. Diese kann eine der beiden folgenden sein:  
-• Feste Fensterdefinition , neues Design. Diese Einstellung entspricht der dokumentierten F3-Auswahl.  
-• Verschiebbare F3-Auswahl, altes Design.  
-Mit dem A.eins-Startparameter ITEMBOX=FALSE wird die Standard-Programmvorgabe auf „Verscheibbare F3-Auswahl gesetzt. Ansonsten ist der Standard die neue Version der Itembox.  
-    
- |
-| Großer Font | Ist unter Desktopeigenschaften ein großer Font eingestellt kann es passieren, dass die Auswahlliste nur zur Hälfte dargestellt wird. Wird hier ein **Ja** eingestellt, so wird eine spezielle Maske für die Auswahlliste verwendet, die die größere Schrift berücksichtigt.  
- |
-| Form. Kurzliste | wird hier kein Eintrag vorgenommen (0) wird standardmäßig das Formular 111 für den Ausdruck der Auswahllisten **F4** benutzt.  
-**Wichtig:** Je Bediener muss die korrekte Seitenlänge für den verwendeten Drucker eingestellt werden.  
- |
-| Sprache | Auswahl der [Sprache](../../../a_eins_sprache/index.md) in der A.eins für diesen Anwender erscheinen soll. Diese Sprache wird von AMIC gepflegt und man kann sie mit **F3** auswählen. Die Sprachen Englisch, Dänisch, Niederländisch und Französisch sind Lizenzpflichtig. Wenn eine dieser Sprachen das erste Mal ausgewählt wird, so muss man die Aktivierung bestätigen. Es wird erst dann die aktuelle Sprache eingespielt und der Benutzer kann ohne Lizenz für 60 Tage diese Sprache nutzen. Danach muss die Lizenz erworben werden.  
-Ohne Aktivierung wird die Spracheinstellung ignoriert.  
-    
- |
-| Sprache der Dokumentation | Auswahl der Sprache in der die Hilfe für diesen Anwender erscheinen soll. Ist hier eine andere Sprache als Deutsch hinterlegt, so wird geprüft, ob die entsprechende Hilfedatei existiert. Ist dies nicht der Fall, so wird versucht, die englische Hilfe zu lesen, ansonsten die deutsche.  
- |
-| Mail Typ | Auswahl des Mail-Typs  
- |
-| Mail Adresse | Eingabe der Mail-Adresse  
- |
-| Mail Postfach | Eingabe des Mail Postfaches  
- |
-| Per.Kennzeichen | Eingabe des persönlichen Kennzeichens  
- |
+| Sperre | Bedienersperre (Ja/Nein). Wird hier **Ja** eingetragen, so bleibt der Benutzer zwar im System, kann sich aber nicht mehr an A.eins anmelden.<br> |
+| Protokollkontr. | Der Bediener ist für die Kontrolle der Fehlerprotokolle zuständig (Ja/Nein). Es erfolgt ein Hinweis beim Einloggen des Bedieners.<br> |
+| Newsvorlage | Gibt an, ob die [News](../../../../zusatzprogramme/newsticker.md) angezeigt werden oder nicht:<br> |
+| Ausw.Listenadmin | Steht hier ein „Ja“, so kann der Bediener die Anzeige in den Auswahllisten anpassen. Dazu gehört die Sortierung, Feldauswahl, Größe und Reihenfolge der Felder sowie die Farbdarstellung. Weiterhin werden diesen Bedienern auch Fehler in privaten Auswahllisten und der F3-Auswahl angezeigt.<br> |
+| Ausw.Strg fest | Dadurch, dass die Bedienung der Auswahlliste auf das unter Windows übliche Verfahren umgestellt wurde (z.B. mehrere Markieren durch Strg + Markieren) ist die einhändige Bedienung fast unmöglich. Wenn man hier ein **Ja** einträgt, so wird angenommen, dass die Steuerungstaste (Strg) immer gedrückt ist.<br> |
+| Klassenadministr. | <br> |
+| Ausw.Einstieg | Standard Vorbelegung des Einstiegsverhalten bei Auswahllisten. Diese Einstellung wird verwendet, wenn die Auswahlliste das erste mal ausgewählt wird.<br> |
+| Version F3-Auswahl | Hie kann pro Bediener eingestellt werden, welche Variante der F3-Auswahl verwendet werden soll. Es existieren drei Auswahlmöglichkeiten:<br>• Standard Programmvorgabe. Diese kann eine der beiden folgenden sein:<br>• Feste Fensterdefinition , neues Design. Diese Einstellung entspricht der dokumentierten F3-Auswahl.<br>• Verschiebbare F3-Auswahl, altes Design.<br>Mit dem A.eins-Startparameter ITEMBOX=FALSE wird die Standard-Programmvorgabe auf „Verscheibbare F3-Auswahl gesetzt. Ansonsten ist der Standard die neue Version der Itembox.<br><br> |
+| Großer Font | Ist unter Desktopeigenschaften ein großer Font eingestellt kann es passieren, dass die Auswahlliste nur zur Hälfte dargestellt wird. Wird hier ein **Ja** eingestellt, so wird eine spezielle Maske für die Auswahlliste verwendet, die die größere Schrift berücksichtigt.<br> |
+| Form. Kurzliste | wird hier kein Eintrag vorgenommen (0) wird standardmäßig das Formular 111 für den Ausdruck der Auswahllisten **F4** benutzt.<br>**Wichtig:** Je Bediener muss die korrekte Seitenlänge für den verwendeten Drucker eingestellt werden.<br> |
+| Sprache | Auswahl der [Sprache](../../../a_eins_sprache/index.md) in der A.eins für diesen Anwender erscheinen soll. Diese Sprache wird von AMIC gepflegt und man kann sie mit **F3** auswählen. Die Sprachen Englisch, Dänisch, Niederländisch und Französisch sind Lizenzpflichtig. Wenn eine dieser Sprachen das erste Mal ausgewählt wird, so muss man die Aktivierung bestätigen. Es wird erst dann die aktuelle Sprache eingespielt und der Benutzer kann ohne Lizenz für 60 Tage diese Sprache nutzen. Danach muss die Lizenz erworben werden.<br>Ohne Aktivierung wird die Spracheinstellung ignoriert.<br><br> |
+| Sprache der Dokumentation | Auswahl der Sprache in der die Hilfe für diesen Anwender erscheinen soll. Ist hier eine andere Sprache als Deutsch hinterlegt, so wird geprüft, ob die entsprechende Hilfedatei existiert. Ist dies nicht der Fall, so wird versucht, die englische Hilfe zu lesen, ansonsten die deutsche.<br> |
+| Mail Typ | Auswahl des Mail-Typs<br> |
+| Mail Adresse | Eingabe der Mail-Adresse<br> |
+| Mail Postfach | Eingabe des Mail Postfaches<br> |
+| Per.Kennzeichen | Eingabe des persönlichen Kennzeichens<br> |
 
 </details>
 
@@ -109,11 +67,9 @@ Diese Funktion wird in A.eins nicht mehr genutzt, sondern nur noch supportet. Be
 | Statusleiste Hintergrund | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit **F3**) |
 | Statusleiste Schrift | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit **F3**) |
 | F3-Auswahl(Itembox) Hintergrund | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit **F3**) |
-| Aktuelles Eingabefeld einfärben | Auswahl, ob das aktuelle Eingabefeld, dass den Focus hat, eingefärbt dargestellt wird (Ja/Nein). Standardfarbe ist gelb (250/255/177) kann jedoch individuell angepasst werden.  
-(Eingabe RGB-Code oder Auswahl mit **F3**) |
+| Aktuelles Eingabefeld einfärben | Auswahl, ob das aktuelle Eingabefeld, dass den Focus hat, eingefärbt dargestellt wird (Ja/Nein). Standardfarbe ist gelb (250/255/177) kann jedoch individuell angepasst werden.<br>(Eingabe RGB-Code oder Auswahl mit **F3**) |
 | Auf AMIC Farben zurücksetzen | Standard Farben einstellen (Ja/Nein) |
-| Farben für alle Bediener übernehmen | Übernahme der Farbeinstellungen für alle Bediener (Ja/Nein)  
-Dieses Feld ist deaktiviert, wenn bisher noch keine Bediener für die aktuelle Betriebsstätte (Filialnummer im Mandantenstamm) eingerichtet wurden. Standardeinstellung ist „Nein“. |
+| Farben für alle Bediener übernehmen | Übernahme der Farbeinstellungen für alle Bediener (Ja/Nein)<br>Dieses Feld ist deaktiviert, wenn bisher noch keine Bediener für die aktuelle Betriebsstätte (Filialnummer im Mandantenstamm) eingerichtet wurden. Standardeinstellung ist „Nein“. |
 
 </details>
 
@@ -129,8 +85,7 @@ Hier können der Toolbar die Funktionen aus den eigenen Favoriten aus dem Hauptm
 
 | Formulararchiv |
 | --- |
-| Hier kann man festlegen welche Formulare im Formulararchiv ein Bediener einer bestimmten Bedienerklasse einsehen darf. Die Formulare im Formulararchiv sind nach Bedienerklassen geschützt.  
-Im Standard sind allen Bedienerklassen erst mal alle Bedienerklassen zugeordnet. Man kann für die Bedienerklasse eines Bedieners im Register Formulararchiv bestimmte Bedienerklassen abwählen. |
+| Hier kann man festlegen welche Formulare im Formulararchiv ein Bediener einer bestimmten Bedienerklasse einsehen darf. Die Formulare im Formulararchiv sind nach Bedienerklassen geschützt.<br>Im Standard sind allen Bedienerklassen erst mal alle Bedienerklassen zugeordnet. Man kann für die Bedienerklasse eines Bedieners im Register Formulararchiv bestimmte Bedienerklassen abwählen. |
 
 </details>
 
@@ -139,10 +94,8 @@ Im Standard sind allen Bedienerklassen erst mal alle Bedienerklassen zugeordnet.
 
 | Büro | Beschreibung |
 | --- | --- |
-| **Telefonieeinrichtung** |   
- |
-| MSN-Anschluss Telefonanlage |   
- |
+| **Telefonieeinrichtung** | <br> |
+| MSN-Anschluss Telefonanlage | <br> |
 
 </details>
 
@@ -153,8 +106,7 @@ Im Standard sind allen Bedienerklassen erst mal alle Bedienerklassen zugeordnet.
 
 | Internet | Beschreibung |
 | --- | --- |
-| Signatur-Datei | Dateiname der Datei mit einem PK12-Schlüssel zur Signierung von PDF-Dateien.  
- |
+| Signatur-Datei | Dateiname der Datei mit einem PK12-Schlüssel zur Signierung von PDF-Dateien.<br> |
 
 </details>
 
@@ -172,10 +124,8 @@ Hier können für den Bediener Versandstandards hinterlegt werden mehr dazu unte
 
 | Erfasser | Beschreibung |
 | --- | --- |
-| Standarderfasser | Hier kann ein Standarderfasser eingestellt werden, der beim Einloggen des Bedieners automatisch eingeloggt wird.  
- |
-| Bediener-Erfasser-Zuordnung | Jedem Bediener müssen seine Erfasser explizit zugewiesen werden. Dabei kann ein Erfasser auch mehreren Bedienern zugewiesen werden.  
- |
+| Standarderfasser | Hier kann ein Standarderfasser eingestellt werden, der beim Einloggen des Bedieners automatisch eingeloggt wird.<br> |
+| Bediener-Erfasser-Zuordnung | Jedem Bediener müssen seine Erfasser explizit zugewiesen werden. Dabei kann ein Erfasser auch mehreren Bedienern zugewiesen werden.<br> |
 
 </details>
 
@@ -192,23 +142,16 @@ Es können insgesamt dreißig Kombinationen für den [Wareneingang](../../../../
 
 | Rubrik | Position |
 | --- | --- |
-| Eingangswiegungen | 1 bis 12  
- |
-| Ausgangswiegungen | 21 bis 32  
- |
-| Lohnwiegungen/Lagerumbuchung | 41 bis 46  
- |
+| Eingangswiegungen | 1 bis 12<br> |
+| Ausgangswiegungen | 21 bis 32<br> |
+| Lohnwiegungen/Lagerumbuchung | 41 bis 46<br> |
 
 | Waage | Beschreibung |
 | --- | --- |
-| Position | In diesem Feld wird die Positionsnummer hinterlegt. Diese kann sich von der Zeilen Zahl der Tabelle Unterscheiden. Die Positionsnummer ist wichtig, wenn eine Private Funktion erstellt werden soll. Der Privaten Funktion wird die Positionsnummer als Übergabeparameter mitgegeben. Diese sucht sich dann an der Nummer die aktuelle Kombination von Waagenterminal und [Waageprozesse](../../../../waagenanbindung/waagenanbindung_online_waage/prozess_einrichten/index.md) des Bedieners raus und Starten damit dann die Online Waage. Die Positionsnummer bestimmt die Anzeige. Für jeden Bediener kann an der Position eine Unterschiedliche Kombination von Terminal (Waagenprofil) und Prozess([Wagenvorlage](../../../../waagenanbindung/waagenanbindung_online_waage/prozess_einrichten/index.md)) existieren.  
- |
-| Prozess(Vorlage) | In diesem Feld wird der Prozess(Waagenvorlage) hinterlegt.  
- |
-| Aktiv | Mit diesem Feld kann der Datensatz aktiv gestellt werden. Ist hier ein Nein eingetragen, so kann auch kein Aufruf per Private Funktion erfolgen.  
- |
-| Terminal | In diesem Feld wird das Terminal (Waagenprofil) hinterlegt.  
- |
+| Position | In diesem Feld wird die Positionsnummer hinterlegt. Diese kann sich von der Zeilen Zahl der Tabelle Unterscheiden. Die Positionsnummer ist wichtig, wenn eine Private Funktion erstellt werden soll. Der Privaten Funktion wird die Positionsnummer als Übergabeparameter mitgegeben. Diese sucht sich dann an der Nummer die aktuelle Kombination von Waagenterminal und [Waageprozesse](../../../../waagenanbindung/waagenanbindung_online_waage/prozess_einrichten/index.md) des Bedieners raus und Starten damit dann die Online Waage. Die Positionsnummer bestimmt die Anzeige. Für jeden Bediener kann an der Position eine Unterschiedliche Kombination von Terminal (Waagenprofil) und Prozess([Wagenvorlage](../../../../waagenanbindung/waagenanbindung_online_waage/prozess_einrichten/index.md)) existieren.<br> |
+| Prozess(Vorlage) | In diesem Feld wird der Prozess(Waagenvorlage) hinterlegt.<br> |
+| Aktiv | Mit diesem Feld kann der Datensatz aktiv gestellt werden. Ist hier ein Nein eingetragen, so kann auch kein Aufruf per Private Funktion erfolgen.<br> |
+| Terminal | In diesem Feld wird das Terminal (Waagenprofil) hinterlegt.<br> |
 
 | Einrichterparameter | Beschreibung |
 | --- | --- |
@@ -223,11 +166,8 @@ In diesem Register können Ausnahmen für die Ansicht einer spezifischen Auswahl
 
 | Rubrik | Position |
 | --- | --- |
-| [Auswahlliste 2.0](../../../../zusatzprogramme/auswahlliste_2_0/index.md) | 0: folgende Anwendungen mit der neuen Auswahlliste darstellen  
-1: folgende Anwendung NICHT mit der neuen Auswahlliste darstellen  
- |
-| Anwendungen | Hier werden die Ausnahmen der Auswahllisten hinzugefügt.  
- |
+| [Auswahlliste 2.0](../../../../zusatzprogramme/auswahlliste_2_0/index.md) | 0: folgende Anwendungen mit der neuen Auswahlliste darstellen<br>1: folgende Anwendung NICHT mit der neuen Auswahlliste darstellen<br> |
+| Anwendungen | Hier werden die Ausnahmen der Auswahllisten hinzugefügt.<br> |
 
 </details>
 
@@ -240,31 +180,13 @@ In diesem Register können Ausnahmen für die Ansicht einer spezifischen Auswahl
 
 | Funktionen | Beschreibung |
 | --- | --- |
-| Speichern **(F9)**,  
-Neu **(F8)**,  
-Speichern unter **(shift + F9)  
-    
-** | |
-| Kundenindiv. SQL Anpassung | [Kundenindiviuelle SQL Anpassung](./bedienerstamm_pfleger.md#KundenindiSQL)  
-    
- |
-| Anschrift | Ruft den Anschriftenpfleger für diesen Bediener auf.  
- |
-| Bediener aktivieren | Setzt den Status auf aktiv. Nur möglich, wenn der Status auf inaktiv steht.  
- |
-| Bediener deaktivieren | Setzt den Status auf inaktiv. Nur möglich, wenn der Status auf aktiv steht.  
- |
-| Passwort zurücksetzten | Setzt das Passwort für diesen Bediener zurück.  
- |
-| Auswahlliste zurücksetzen | Hier werden die Einstellungen des Anwenders wieder auf Standard zurückgesetzt. Dazu gehören folgende Einstellungen:  
-• Sortierung  
-• Ein oder ausgeblendete Spalten  
-• Spaltenbreit und Position  
-• Schriftart (nur AW 2.0)  
-• Design (nur AW 2.0)  
-• Excelaugabe (nur AW 2.0)  
-• Gruppieren und Filterzeile  
- |
+| Speichern **(F9)**,<br>Neu **(F8)**,<br>Speichern unter **(shift + F9)<br><br>** | |
+| Kundenindiv. SQL Anpassung | [Kundenindiviuelle SQL Anpassung](./bedienerstamm_pfleger.md#KundenindiSQL)<br><br> |
+| Anschrift | Ruft den Anschriftenpfleger für diesen Bediener auf.<br> |
+| Bediener aktivieren | Setzt den Status auf aktiv. Nur möglich, wenn der Status auf inaktiv steht.<br> |
+| Bediener deaktivieren | Setzt den Status auf inaktiv. Nur möglich, wenn der Status auf aktiv steht.<br> |
+| Passwort zurücksetzten | Setzt das Passwort für diesen Bediener zurück.<br> |
+| Auswahlliste zurücksetzen | Hier werden die Einstellungen des Anwenders wieder auf Standard zurückgesetzt. Dazu gehören folgende Einstellungen:<br>• Sortierung<br>• Ein oder ausgeblendete Spalten<br>• Spaltenbreit und Position<br>• Schriftart (nur AW 2.0)<br>• Design (nur AW 2.0)<br>• Excelaugabe (nur AW 2.0)<br>• Gruppieren und Filterzeile<br> |
 
 </details>
 

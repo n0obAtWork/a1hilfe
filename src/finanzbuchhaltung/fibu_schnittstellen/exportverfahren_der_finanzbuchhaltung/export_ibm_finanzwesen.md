@@ -114,11 +114,9 @@ Die Daten sind durch Komma getrennt und stehen in Hochkomma. Die Daten bestehen 
 | 28 | Sortierfeld 4 | A | 20 | | Wird nicht versorgt |
 | 29 | KontoArt | A | 10 | | SQLK : KontoArt |
 | 30 | Mahnungstyp | A | 3 | | SQLK : Mahnungtyp |
-| 31 | Mahnsperre | A | 1 | | SQLK: MahnSperre  
-( J = gesperrt, N = nicht gesp.) |
+| 31 | Mahnsperre | A | 1 | | SQLK: MahnSperre<br>( J = gesperrt, N = nicht gesp.) |
 | 32 | Kreditlimit | N | 13 | 2 | SQLK : KundKredit |
-| 33 | Währung | A | 3 | | SQLK : Waehrung  
-Für Kreditlimit z.B. DEM,EUR |
+| 33 | Währung | A | 3 | | SQLK : Waehrung<br>Für Kreditlimit z.B. DEM,EUR |
 
 Das SQLK könnte folgendermaßen aussehen:
 
@@ -243,11 +241,9 @@ temp_IBMDebitor enthält alle in den Belegen vorkommenden Kunden exakt einmal. D
 | 28 | Leeres Feld | A | | | |
 | 29 | KontoArt | A | 10 | | SQLK : KontoArt |
 | 30 | Zahlungstyp | A | 3 | | SQLK : Zahlungtyp |
-| 31 | Zahlsperre | A | 1 | | SQLK: ZahlSperre  
-( J = gesperrt, N = nicht gesp.) |
+| 31 | Zahlsperre | A | 1 | | SQLK: ZahlSperre<br>( J = gesperrt, N = nicht gesp.) |
 | 32 | Kreditlimit | N | 13 | 2 | SQLK : KundKredit |
-| 33 | Währung | A | 3 | | SQLK : Waehrung  
-Für Kreditlimit z.B. DEM,EUR |
+| 33 | Währung | A | 3 | | SQLK : Waehrung<br>Für Kreditlimit z.B. DEM,EUR |
 
 Das SQLK könnte folgendermaßen aussehen:
 

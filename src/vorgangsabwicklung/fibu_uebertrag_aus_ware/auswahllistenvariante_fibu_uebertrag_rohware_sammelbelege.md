@@ -23,18 +23,13 @@ Aufgrund der notwendigen Trennkriterien für den Fibu-Übertrag kann es vorkomme
 | Kl. | Vorgangsklassenkürzel des Belegs |
 | SBel.Datum | Druckdatum (Belegdatum) des Sammeldruckbelegs |
 | Drucknr. | Sammeldrucknummer (Belegnummer) des Sammeldruckbelegs |
-| Dru | \--: Beleg ist nicht gedruckt  
-Ja: Beleg ist gedruckt |
-| Fib | --: Beleg ist noch nicht übertragen  
-i.B.: Übertragungsauftrag an Mandantenserver erteilt  
-Ja: Beleg ist an Fibu übertragen  
-NN: Beleg ist nicht übertragbar (z.B. Stornobeleg zu nicht übertragenem Originalbeleg) |
+| Dru | \--: Beleg ist nicht gedruckt<br>Ja: Beleg ist gedruckt |
+| Fib | --: Beleg ist noch nicht übertragen<br>i.B.: Übertragungsauftrag an Mandantenserver erteilt<br>Ja: Beleg ist an Fibu übertragen<br>NN: Beleg ist nicht übertragbar (z.B. Stornobeleg zu nicht übertragenem Originalbeleg) |
 | Kontonr. | Kunden-/Lieferantennummer = Kontonummer |
 | Kunde/Lieferant | Bezeichnung des Kunden/Lieferanten |
 | Kontrakt | Hier wird eine Liste der Kontraktnummern aller Anlieferungspositionen der Einzelbelege des Sammeldruckbelegs dargestellt |
 | Filiale | Nummer der Filiale des Sammeldruckbelegs |
-| Status | Abrechnungsstufe:  
-Abschlag, F-Abschlag, Finale |
+| Status | Abrechnungsstufe:<br>Abschlag, F-Abschlag, Finale |
 | Belege | Anzahl der zugehörigen Einzelabrechnungen |
 | VFKtr. | Anzahl der beteiligten Vorverkaufs-/Voreinkaufs-Kontrakte |
 | Währung | Währungsnummer zum Sammeldruckbeleg |
@@ -45,10 +40,8 @@ Abschlag, F-Abschlag, Finale |
 | Übertragungsdatum. | Datum des Fibu Übertrags |
 | PeriodeFibu | Fibuperiode des Vorgangs |
 | JahrFibu | Fibujahr des Vorgangs |
-| Erstbediener | Nur bei aktiviertem Vieraugenprinzip:  
-Erster Bediener |
-| Zustimmungsbediener | Nur bei aktiviertem Vieraugenprinzip:  
-Zweiter Bediener |
+| Erstbediener | Nur bei aktiviertem Vieraugenprinzip:<br>Erster Bediener |
+| Zustimmungsbediener | Nur bei aktiviertem Vieraugenprinzip:<br>Zweiter Bediener |
 | Erfasser | Erfasser/Ersteller des Vorgangs |
 | Abrplan über Jahrwechsel | Kennzeichen für geplanter jahresübergreifender Abrechnung |
 | Ist Proforma | Kennzeichen für Proforma-Abrechnung bei jahresübergreifender Abrechnung |
@@ -65,32 +58,10 @@ Zweiter Bediener |
 | Filiale | Selektion der Sammeldruck-Belege mit Filialnummer (von/bis) |
 | Druckdatum | Selektion der Sammeldruck-Belege mit Druckdatum (Sammeldruck-Belegdatum) (von/bis) |
 | Drucknummer | Selektion der Sammeldruck-Belege mit Sammeldrucknummer (Sammeldruck-Belegnummer) (von/bis) |
-| Fibustatus | Selektion der Belege bezüglich des FibuStatus  
-nicht in Fibu:  
- Belege mit FibuStatus = ‚—' oder ‚NN‘  
-in Fibu:  
- Belege mit FibuStatus = ‚Ja‘  
-egal:  
- keine Filterung  
-nicht in Fibu ohne nn::  
- Belege mit FibuStatus = ‚__‘‘ |
-| Einkauf/Verkauf | Selektion der Belege mit Vorgangsklassen:  
-Einkauf & Verkauf:  
- (700,790,1700,1790)  
-Verkauf:  
- (700,790)  
-Einkauf:  
- (1700,1790)  
-Rechnungen EK/VK:  
- (700,790,1700,1790) |
-| Bearbeitungsstatus | Selektion der Sammeldruck-Belege nach Abrechnungsstufe:  
-alle  
-Abschlag  
-Folgeabschlag  
-Finale |
-| Druck-Bearbeiterwahl | Selektion der Sammeldruck-Belege mit Bediener der Sammeldruckbeleg-Erstellung:  
-\- alle Belege  
-\- nur selbst gedruckte Belege |
+| Fibustatus | Selektion der Belege bezüglich des FibuStatus<br>nicht in Fibu:<br> Belege mit FibuStatus = ‚—' oder ‚NN‘<br>in Fibu:<br> Belege mit FibuStatus = ‚Ja‘<br>egal:<br> keine Filterung<br>nicht in Fibu ohne nn::<br> Belege mit FibuStatus = ‚__‘‘ |
+| Einkauf/Verkauf | Selektion der Belege mit Vorgangsklassen:<br>Einkauf & Verkauf:<br> (700,790,1700,1790)<br>Verkauf:<br> (700,790)<br>Einkauf:<br> (1700,1790)<br>Rechnungen EK/VK:<br> (700,790,1700,1790) |
+| Bearbeitungsstatus | Selektion der Sammeldruck-Belege nach Abrechnungsstufe:<br>alle<br>Abschlag<br>Folgeabschlag<br>Finale |
+| Druck-Bearbeiterwahl | Selektion der Sammeldruck-Belege mit Bediener der Sammeldruckbeleg-Erstellung:<br>\- alle Belege<br>\- nur selbst gedruckte Belege |
 | Jahrnummer | Selektion der Sammeldruck-Belege mit dem angegebenem Warenwirtschaftsjahr |
 | Erstunterschrift | Selektion nach dem Kürzel des Erstbedieners bei Vieraugenprinzip |
 | Ersteller | Selektion der Belege mit dem Kürzel des Erfassers/Erstellers der Belege |

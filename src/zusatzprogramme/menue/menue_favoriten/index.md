@@ -17,15 +17,11 @@ In dieser Anwendung werden die Favoriten der Anwender aufgelistet, und man erhä
 | Beschriftung | Beschriftung des Favoriten |
 | Funktion | Funktions-Identifikation |
 | Funktionsart | Funktionsart |
-| Rollenerlaubnis | Ja/Nein  
-Die Funktion, die den Favoriten kennzeichnet, kann durchaus in mehreren Kontexten vorkommen. Damit ein Favorit auch angezeigt wird benötigt er in mindesten einem dieser Kontexte eine Erlaubnis per zugeordneter Rolle!  
-Die Rollenerlaubnis wird rot hinterlegt, wenn keine Rollenerlaubnis mehr vorliegen sollte. |
+| Rollenerlaubnis | Ja/Nein<br>Die Funktion, die den Favoriten kennzeichnet, kann durchaus in mehreren Kontexten vorkommen. Damit ein Favorit auch angezeigt wird benötigt er in mindesten einem dieser Kontexte eine Erlaubnis per zugeordneter Rolle!<br>Die Rollenerlaubnis wird rot hinterlegt, wenn keine Rollenerlaubnis mehr vorliegen sollte. |
 
 | Suchen | Auswahlliste Favoriten |
 | --- | --- |
-| Kurzname | Kurzname des Bedieners  
-Mit [**F3**] kann ein Kurzname ausgewählt werden.  
-Vorbelegung ist der Kurzname des aktuellen Aeins-Bedieners. |
+| Kurzname | Kurzname des Bedieners<br>Mit [**F3**] kann ein Kurzname ausgewählt werden.<br>Vorbelegung ist der Kurzname des aktuellen Aeins-Bedieners. |
 | Beschriftung | Like |
 | Funktion | Like |
 | Funktionsart | Gleich |

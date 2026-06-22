@@ -5,18 +5,13 @@
 | Anforderung | |
 | --- | --- |
 | ID | |
-| [Art](./registerkarte_anforderung.md#Anforderung_art) | Folgende Arten gibt es:  
-0 = GA (Gewichtsanforderung)  
-1 = VL |
-| Senden | Hiermit kann man einstellen, ob eine GA oder VL auch wirklich gesendet werden soll.  
-Sehr interessant für Entwicklungs- und Debug-Zwecke. Andernfalls müsste man evtl. ein schwer erarbeitetes VL löschen … |
-| Anforderung | Hier gilt das im Wesentlichen schon unter „[Art](./registerkarte_anforderung.md#Anforderung_art)“ Gesagte.  
-&lt;WAIT> wartet eine Sekunde, bevor es fortfährt. Dieses Feature ist für „träge“ Waagen-Systeme unverzichtbar. Eventuell muss man mehre &lt;WAIT>-Sequenzen absenden |
+| [Art](./registerkarte_anforderung.md#Anforderung_art) | Folgende Arten gibt es:<br>0 = GA (Gewichtsanforderung)<br>1 = VL |
+| Senden | Hiermit kann man einstellen, ob eine GA oder VL auch wirklich gesendet werden soll.<br>Sehr interessant für Entwicklungs- und Debug-Zwecke. Andernfalls müsste man evtl. ein schwer erarbeitetes VL löschen … |
+| Anforderung | Hier gilt das im Wesentlichen schon unter „[Art](./registerkarte_anforderung.md#Anforderung_art)“ Gesagte.<br>&lt;WAIT> wartet eine Sekunde, bevor es fortfährt. Dieses Feature ist für „träge“ Waagen-Systeme unverzichtbar. Eventuell muss man mehre &lt;WAIT>-Sequenzen absenden |
 | Antwort | ??? |
 | [Wandlung](./registerkarte_anforderung.md#Anforderung_wandlung) | Beeinflusst mögliche Transformationen der Anforderungszeichenketten |
 | Wartezeit | Vorgabe einer Zeit in Millisekunden, nach dessen Ablauf die Übertragung der Anforderungszeichenkette als gescheitert gelten darf. Es sind in aller Regel kurze Zeiten zu erwarten (>= 100 Millisekunden); man sollte mit kleineren Zeiten vorsichtig umgehen, und sich diese durch die Praxis bestätigen lassen … |
-| Pos | Sortierungskriterium für die Reigenfolge der VL.  
-Da es höchstens eine GA geben darf, wird diese wenn auch immer erst am Ende der VL verschickt. Sollte es in Zukunft Waagensysteme geben, die noch einen „Nachlauf“ benötigen, muss das noch implementiert werden! |
+| Pos | Sortierungskriterium für die Reigenfolge der VL.<br>Da es höchstens eine GA geben darf, wird diese wenn auch immer erst am Ende der VL verschickt. Sollte es in Zukunft Waagensysteme geben, die noch einen „Nachlauf“ benötigen, muss das noch implementiert werden! |
 
 <p class="just-emphasize">Art</p>
 

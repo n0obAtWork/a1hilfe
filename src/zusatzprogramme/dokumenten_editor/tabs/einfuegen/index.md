@@ -34,10 +34,7 @@
 | Funktion | Beschreibung |
 | --- | --- |
 | Hyperlink | Fügt einen Hyperlink ein. |
-| Textmarke | Einfügen  
-Bearbeiten  
-Löschen  
-Anzeigen |
+| Textmarke | Einfügen<br>Bearbeiten<br>Löschen<br>Anzeigen |
 
 </details>
 

@@ -24,39 +24,25 @@ Da nicht auszuschließen ist, dass der Steuersatz sich ändern wird, kann man hi
 
 | | Beschreibung |
 | --- | --- |
-| Kontonummer | Auf dieses Konto wird die errechnetet Kapitalertragssteuer gebucht.  
- |
-| Prozent  
- | Von den errechneten Zinsen wird mit diesem Prozentsatz die Kapitalertragssteuer errechnet.  
- |
-| Text  
- | Dieser Text wird bei der ***„Übernahme in die Primanota“*** als Text für die Belegposition verwendet.  
- |
+| Kontonummer | Auf dieses Konto wird die errechnetet Kapitalertragssteuer gebucht.<br> |
+| Prozent<br> | Von den errechneten Zinsen wird mit diesem Prozentsatz die Kapitalertragssteuer errechnet.<br> |
+| Text<br> | Dieser Text wird bei der ***„Übernahme in die Primanota“*** als Text für die Belegposition verwendet.<br> |
 
 **Zinsabschlag:**
 
 | | Beschreibung |
 | --- | --- |
-| Kontonummer | Auf dieses Konto wird der errechnetet Zinsabschlag gebucht.  
- |
-| Prozent  
- | Von den errechneten Zinsen wird mit diesem Prozentsatz der Zinsabschlag errechnet.  
- |
-| Text  
- | Dieser Text wird beim ***„Übernahme in die Primanota“*** als Text für die Belegposition verwendet.  
- |
+| Kontonummer | Auf dieses Konto wird der errechnetet Zinsabschlag gebucht.<br> |
+| Prozent<br> | Von den errechneten Zinsen wird mit diesem Prozentsatz der Zinsabschlag errechnet.<br> |
+| Text<br> | Dieser Text wird beim ***„Übernahme in die Primanota“*** als Text für die Belegposition verwendet.<br> |
 
 **Anrechenbarer Solidaritätszuschlag:**
 
 | | Beschreibung |
 | --- | --- |
-| Kontonummer | Auf dieses Konto wird der errechnetet Solidaritätszuschlag gebucht.  
- |
-| Prozent  
- | Von dem errechneten Zinsabschlag wird mit diesem Prozentsatz ( zur Zeit 5,5 %) der Solidaritätszuschlag errechnet. |
-| Text  
- | Dieser Text wird beim ***„Übernahme in die Primanota“*** als Text für die Belegposition verwendet.  
- |
+| Kontonummer | Auf dieses Konto wird der errechnetet Solidaritätszuschlag gebucht.<br> |
+| Prozent<br> | Von dem errechneten Zinsabschlag wird mit diesem Prozentsatz ( zur Zeit 5,5 %) der Solidaritätszuschlag errechnet. |
+| Text<br> | Dieser Text wird beim ***„Übernahme in die Primanota“*** als Text für die Belegposition verwendet.<br> |
 
 **Kirchensteuer auf Zinsabschlag:**
 

@@ -29,8 +29,7 @@ Die openTRANS-Dokumente können aus verschiedenen Quellen gewonnen werden. Je na
 | Belegklassen für openTRANS im Formulararchiv |
 | --- |
 | Typ | Belegklasse | Verarbeitung |
-| E-Mail mit Anhang | 8031 – openTRANS unbearbeitet  
- | Mit Extraktion |
+| E-Mail mit Anhang | 8031 – openTRANS unbearbeitet<br> | Mit Extraktion |
 | PDF mit openTRANS-Anhang |
 | openTRANS-XML-Datei | 8032 – openTRANS extrahiert | |
 

@@ -30,8 +30,7 @@ Folgende Punkte sind besonders hervorzuheben:
 | ***Barcode zuweisen …*** **SF8** | [Archiv Barcode](../../archiv_barcode.md) |
 | Referenzieren | [Referenzieren](./referenzieren.md) |
 | Drucken | Druckt Archiv-Einträge – insoweit das möglich ist. |
-| ***Löschen rückgängig*** **SF7** | Stellt gelöschte Archiv-Einträge wieder her.  
-[Archiveinträge löschen](../index.md) |
+| ***Löschen rückgängig*** **SF7** | Stellt gelöschte Archiv-Einträge wieder her.<br>[Archiveinträge löschen](../index.md) |
 | ***Volltext ansehen*** | [Volltext Funktionen](../anwendung_formulararchiv/archiv_aendern_ansehen.md) |
 | ***Volltext aktualisieren*** | [Volltext Funktionen](../anwendung_formulararchiv/archiv_aendern_ansehen.md) |
 | ***Volltext editieren*** | [Volltext Funktionen](../anwendung_formulararchiv/archiv_aendern_ansehen.md) |

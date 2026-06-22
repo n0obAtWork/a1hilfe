@@ -10,8 +10,7 @@ oder Direktsprung [**EXCELI**]
 
 | **Feld** | |
 | --- | --- |
-| Name | Die eindeutige Bezeichnung des Excelimportes. Der Name dient gleichzeitig als Beschriftung der privaten Variante.  
- |
+| Name | Die eindeutige Bezeichnung des Excelimportes. Der Name dient gleichzeitig als Beschriftung der privaten Variante.<br> |
 
 **Register „Allgemein“**
 
@@ -25,24 +24,15 @@ Unter dem Register „Sonstiges“ werden technische Informationen zu der Varian
 
 | **Feld** | |
 | --- | --- |
-| Tabelle | Name der Relation, in der die Daten des Excel-Arbeitsblattes gespeichert werden.  
- |
-| Variante | Identifikation der Variante.  
- |
-| Besitzer | Besitzer der Variante. Der Besitzer ist immer „Privat“.  
- |
-| Variantentext | Identifikation des „SQL-Textes“ der Variante.  
- |
-| Bereich/Profil | Identifikation der Bereichsauswahl der Variante.  
- |
-| Optionbox | Identifikation des Funktionsmenüs der Variante.  
- |
+| Tabelle | Name der Relation, in der die Daten des Excel-Arbeitsblattes gespeichert werden.<br> |
+| Variante | Identifikation der Variante.<br> |
+| Besitzer | Besitzer der Variante. Der Besitzer ist immer „Privat“.<br> |
+| Variantentext | Identifikation des „SQL-Textes“ der Variante.<br> |
+| Bereich/Profil | Identifikation der Bereichsauswahl der Variante.<br> |
+| Optionbox | Identifikation des Funktionsmenüs der Variante.<br> |
 
 | **Funktionen** | |
 | --- | --- |
-| Speichern **[F9]** | Beim Speichern wird – sofern nicht schon geschehen – eine private Variante erstellt. Hierbei wird noch kein Excelimport durchgeführt, sondern es wird eine „[Standardvariante](./uebernahme_eines_excel_arbeitsblattes_in_eine_private_varian/private_variante.md)“ angelegt.  
- |
-| Datei öffnen | Mithilfe dieser Funktion kann die Exceldatei von hier aus direkt bearbeitet werden.  
- |
-| Datenbankprozedur bearbeiten  
- | Über diese Funktion kann die private Datenbankprozedur bearbeitet werden. |
+| Speichern **[F9]** | Beim Speichern wird – sofern nicht schon geschehen – eine private Variante erstellt. Hierbei wird noch kein Excelimport durchgeführt, sondern es wird eine „[Standardvariante](./uebernahme_eines_excel_arbeitsblattes_in_eine_private_varian/private_variante.md)“ angelegt.<br> |
+| Datei öffnen | Mithilfe dieser Funktion kann die Exceldatei von hier aus direkt bearbeitet werden.<br> |
+| Datenbankprozedur bearbeiten<br> | Über diese Funktion kann die private Datenbankprozedur bearbeitet werden. |

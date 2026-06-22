@@ -22,8 +22,7 @@ Des Weiteren muss beim Artikel das Gewicht eingerichtet sein. Dies richtet man a
 | --- | --- |
 | Nummer | Nummer der Massebilanz |
 | Bezeichnung | Bezeichnung für die Massebilanz |
-| Festgeschrieben | Solange die Massebilanz nicht festgeschrieben ist, können Warenbewegungen hinzugefügt und entfernt werden.  
-Über der Funktion „Festschreiben“ wird die Massebilanz geschlossen. Änderungen sind dann nicht mehr möglich. |
+| Festgeschrieben | Solange die Massebilanz nicht festgeschrieben ist, können Warenbewegungen hinzugefügt und entfernt werden.<br>Über der Funktion „Festschreiben“ wird die Massebilanz geschlossen. Änderungen sind dann nicht mehr möglich. |
 | Netto / Bruttomengen | Einstellung, ob die Rohwarenmengen Netto oder Brutto gerechnet werden sollen. |
 
 Netto/Brutto-Unterscheidung ist nur relevant für Rohwarebelege.

@@ -12,8 +12,7 @@ Mit Hilfe dieser Variante lassen sich die besonderen Systemordner des A.eins-Cli
 
 | Felder | Auswahlliste |
 | --- | --- |
-| Name | Logischer Name des Verzeichnisses  
-Die besonderen Systemordner sind von Microsoft vorgeben und [dokumentiert](https://msdn.microsoft.com/query/dev11.query?appId=Dev11IDEF1&l=DE-DE&k=k%28System.Environment.SpecialFolder%29;k%28TargetFrameworkMoniker-.NETFramework,Version%3Dv3.5%29;k%28DevLang-csharp%29&rd=true). |
+| Name | Logischer Name des Verzeichnisses<br>Die besonderen Systemordner sind von Microsoft vorgeben und [dokumentiert](https://msdn.microsoft.com/query/dev11.query?appId=Dev11IDEF1&l=DE-DE&k=k%28System.Environment.SpecialFolder%29;k%28TargetFrameworkMoniker-.NETFramework,Version%3Dv3.5%29;k%28DevLang-csharp%29&rd=true). |
 | Verzeichnis | Das resultierende Verzeichnis auf dem laufenden A.eins-Client. |
 
 | Auswahlbedingungen | |

@@ -35,10 +35,8 @@ Inhalt und Anwendungsbereich der Funktionen werden im Folgenden beschrieben.
 | Fehlerhafte Vorgänge aus der Ware entf. | Wird ein Beleg während der Erfassung abgebrochen (Absturz), bleiben unter Umständen Teile des Beleges erhalten (Belegkopf ohne Positionen oder Positionen ohne Belegkopf), was zu Fehlinterpretationen führt. |
 | Fehlende Mandantenservereinträge | Es werden hier alle Belege auf korrekte Verarbeitung durch den Mandantenserver geprüft und evtl. fehlende Einträge in den Datenstrom eingestellt. Voraussetzung ist der Stopp des Mandantenservers ohne anstehende Aufträge. |
 | Perioden angleichen | Ausgehend von der Buchungsperiode Fibu wird die Belegperiode und anschließend die Periode der Bewegung gesetzt, falls Abweichung vorhanden. Hiermit wird nachträglich der Gleichstand der Periodenzuordnung eines Beleges erzwungen. |
-| Rech.Gut.Perioden laut Belegdatum | Periodenzuordnung wird zwingend zum Datum des Beleges gesetzt.  
-ACHTUNG!!! Dies ist nicht in allen Betrieben so gewünscht. |
-| Warenbuch reorganisieren | Ermittelt Abweichungen zwischen Summe der Einzelpositionswerte und dem  
-Belegwert und bereinigt evtl. Abweichungen. |
+| Rech.Gut.Perioden laut Belegdatum | Periodenzuordnung wird zwingend zum Datum des Beleges gesetzt.<br>ACHTUNG!!! Dies ist nicht in allen Betrieben so gewünscht. |
+| Warenbuch reorganisieren | Ermittelt Abweichungen zwischen Summe der Einzelpositionswerte und dem<br>Belegwert und bereinigt evtl. Abweichungen. |
 | Problemfälle VorgReservierung | Bearbeitung von Problemfällen in der Vorgangsreservierung. |
 
 Die Reorganisation kann jetzt auch per Event gestartet werden. Mehr dazu unter [Wareo](../../zusatzprogramme/events/wareo.md).

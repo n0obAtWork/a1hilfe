@@ -17,8 +17,7 @@
 | **Funktionen** | |
 | --- | --- |
 | F2 | |
-| Löschen | Pfleger zum Löschen von Protokoll-Einträgen.  
-Wird der Eintrag nicht gelöscht dann wird Leser und Zeitpunkt in „gelesen wer“ und „gelesen von“ vermerkt. |
+| Löschen | Pfleger zum Löschen von Protokoll-Einträgen.<br>Wird der Eintrag nicht gelöscht dann wird Leser und Zeitpunkt in „gelesen wer“ und „gelesen von“ vermerkt. |
 
 | **Bereich/Profile** | |
 | --- | --- |

@@ -50,8 +50,7 @@ Mögliche Status sind :
 | PROD_DTCHANGE | Änderung des Plandatums |
 | PROD_BEGIN | Beginn einer Produktion |
 | PROD_END | Produktionsfertigstellung |
-| PROD_INFO | Eingang von Qualitätsdaten  
-Änderung von Daten (außer Plandatum) |
+| PROD_INFO | Eingang von Qualitätsdaten<br>Änderung von Daten (außer Plandatum) |
 
 | Weitere Kopfinformationen |
 | --- |
@@ -68,12 +67,10 @@ Komponenten und Produktionsprodukte werden in dieser Itemliste gleichrangig beha
 | --- |
 | Artikelnummer | PRODUCT_ID/SUPPLIER_PID bzw. BUYER_PID |
 | Artikeltext | PRODUCT_ID/DESCRIPTION_LONG |
-| Kennzeichen Komp./Prod. | PRODUCT_ID/ITEM_UDX/UDX.ITEM_TYPE  
-Werte „PRODUCT“ oder „COMPONENT“ möglich. |
+| Kennzeichen Komp./Prod. | PRODUCT_ID/ITEM_UDX/UDX.ITEM_TYPE<br>Werte „PRODUCT“ oder „COMPONENT“ möglich. |
 | Menge | PRODUCT_ID/QUANTITY |
 | Mengeneinheit (KGM/UN/C62) | PRODUCT_ID/ORDER_UNIT |
-| Qualitätsdaten oder weitere Individuelle Positionsinformationen\*\*\* | PRODUCT_FEATURES/FEATURE/FNAME  
-PRODUCT_FEATURES/FEATURE/FVALUE |
+| Qualitätsdaten oder weitere Individuelle Positionsinformationen\*\*\* | PRODUCT_FEATURES/FEATURE/FNAME<br>PRODUCT_FEATURES/FEATURE/FVALUE |
 
 \*\*\* Eine Feature-Definition
 

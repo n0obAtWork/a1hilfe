@@ -13,18 +13,12 @@ Ist die Option [Steuerungsparameter](../../firmenstamm/steuerparameter/kontraktw
 | --- | --- |
 | Angangsdatum | Beginn des Kontraktmengen-Zeitraums |
 | Enddatum | Ende des Kontrakt-Zeitraums. |
-| Gesamtmenge | Sollmenge des Kontrakt-Zeitraums  
-(nur bei Mengen-Kontrakt). |
-| Restmenge | Aktuelle Restmenge des Kontrakt-Zeitraums  
-(Nur bei Mengen-Kontrakt). |
-| Gesamtwert | Sollwert des Kontrakt-Zeitraums  
-(nur bei Wert-Kontrakt). |
-| Restwert | Aktueller Restwert des Kontrakt-Zeitraums  
-(Nur bei Wert-Kontrakt). |
-| Rest>0 | Negativer Rest wird mit 0 dargestellt, aktueller Rest ist um negativen Rest des vorhergehenden Zeitraums reduziert.  
-(Nur bei eingestellter Option [Steuerungsparameter](../../firmenstamm/steuerparameter/kontraktwesen/ratierliche_einstellungen_spa_846.md) 846 „Ratierliche Einstellungen“ „Ktr-Anzeige Minusrest in Folgezeitraum“ mit dem Wert **Ja**). |
-| KumRest | Summe der Werte aus vorhergehender Restspalte (Restmenge, Restwert, Rest>0) bis einschließlich dem aktuellen Zeitraum  
-(Nur bei eingestellter Option [Steuerungsparameter](../../firmenstamm/steuerparameter/kontraktwesen/ratierliche_einstellungen_spa_846.md) 846 „Ratierliche Einstellungen“ „Ktr-Anzeige Kumulierte Zeitraum-Reste“ mit dem Wert **Ja**). |
+| Gesamtmenge | Sollmenge des Kontrakt-Zeitraums<br>(nur bei Mengen-Kontrakt). |
+| Restmenge | Aktuelle Restmenge des Kontrakt-Zeitraums<br>(Nur bei Mengen-Kontrakt). |
+| Gesamtwert | Sollwert des Kontrakt-Zeitraums<br>(nur bei Wert-Kontrakt). |
+| Restwert | Aktueller Restwert des Kontrakt-Zeitraums<br>(Nur bei Wert-Kontrakt). |
+| Rest>0 | Negativer Rest wird mit 0 dargestellt, aktueller Rest ist um negativen Rest des vorhergehenden Zeitraums reduziert.<br>(Nur bei eingestellter Option [Steuerungsparameter](../../firmenstamm/steuerparameter/kontraktwesen/ratierliche_einstellungen_spa_846.md) 846 „Ratierliche Einstellungen“ „Ktr-Anzeige Minusrest in Folgezeitraum“ mit dem Wert **Ja**). |
+| KumRest | Summe der Werte aus vorhergehender Restspalte (Restmenge, Restwert, Rest>0) bis einschließlich dem aktuellen Zeitraum<br>(Nur bei eingestellter Option [Steuerungsparameter](../../firmenstamm/steuerparameter/kontraktwesen/ratierliche_einstellungen_spa_846.md) 846 „Ratierliche Einstellungen“ „Ktr-Anzeige Kumulierte Zeitraum-Reste“ mit dem Wert **Ja**). |
 
 Unterhalb der Datentabelle wird die aktuelle Gesamtsumme sowie die aktuelle Restsumme ausgewiesen.  
 Die bei Aufruf des Kontrakts im Änderungsmodus sowie im Neu-Anlagefall beim ersten Speichern vorhandene Gesamt- und Restsumme wird ebenfalls ausgewiesen wie auch die Differenz zu den ursprünglichen Werten. So ist bei Umverteilungen von Mengen-/Werten eine Kontrolle über noch nicht oder zu viel verteilte Werte möglich.
@@ -45,26 +39,12 @@ Bei Freimengen-Kontrakten werden Sollmengen in beiden Datentabellen immer mit 0 
 | --- | --- |
 | Zeitraum | Beginn des Kontraktmengen-Zeitraums |
 | Artikelnummer | Artikelnummer des Artikels der Kontraktartikelposition. |
-| Lager | Artikelnummer des Artikels der Kontraktartikelposition  
-(Nur bei eingestelltem Wert des [Steuerungsparameter](../../firmenstamm/steuerparameter/kontraktwesen/ratierliche_einstellungen_spa_846.md)s 44 „Variante Kontrakt-Auswahl“ mit dem Wert **mit Lager**). |
-| Gesamtmenge | Nur bei Mengen-Kontrakt:  
-\- Sollmenge des Kontrakt-Zeitraums des Artikels bei Einzelmengen-Kontrakt,  
-\- Sollmenge des Kontrakt-Zeitraums bei Gesamtmengen-Kontrakt  
-\- immer 0 bei Freimengen-Kontrakt. |
-| Tender | Nur bei Mengen-Kontrakt der Kontraktklasse *Verkaufskontrakt Hedge (4)* oder *Einkaufskontrakt Hedge (14)*:  
-Tendermenge des Kontrakt-Zeitraums des Artikels im Kontrakt-Zeitraum. |
-| Restmenge | Nur bei Mengen-Kontrakt:  
-\- Aktuelle Restmenge des Kontrakt-Zeitraums des Artikels bei Einzelmengen-Kontrakt,  
-\- Aktuelle Restmenge des Kontrakt-Zeitraums bei Gesamtmengen-Kontrakt  
-\- immer 0 bei Freimengen-Kontrakt. |
-| Gesamtwert | Nur bei Wert-Kontrakt:  
-\- Sollwert des Kontrakt-Zeitraums des Artikels bei Einzelwert-Kontrakt  
-\- Sollwert des Kontrakt-Zeitraums bei Gesamtwert-Kontrakt  
-\- immer 0 bei Freiwert-Kontrakt. |
-| Restwert | Nur bei Wert-Kontrakt:  
-\- Aktueller Restwert des Kontrakt-Zeitraums des Artikels bei Einzelwert-Kontrakt,  
-\- Aktueller Restwert des Kontrakt-Zeitraums bei Gesamtwert-Kontrakt  
-\- immer 0 bei Freiwert-Kontrakt. |
+| Lager | Artikelnummer des Artikels der Kontraktartikelposition<br>(Nur bei eingestelltem Wert des [Steuerungsparameter](../../firmenstamm/steuerparameter/kontraktwesen/ratierliche_einstellungen_spa_846.md)s 44 „Variante Kontrakt-Auswahl“ mit dem Wert **mit Lager**). |
+| Gesamtmenge | Nur bei Mengen-Kontrakt:<br>\- Sollmenge des Kontrakt-Zeitraums des Artikels bei Einzelmengen-Kontrakt,<br>\- Sollmenge des Kontrakt-Zeitraums bei Gesamtmengen-Kontrakt<br>\- immer 0 bei Freimengen-Kontrakt. |
+| Tender | Nur bei Mengen-Kontrakt der Kontraktklasse *Verkaufskontrakt Hedge (4)* oder *Einkaufskontrakt Hedge (14)*:<br>Tendermenge des Kontrakt-Zeitraums des Artikels im Kontrakt-Zeitraum. |
+| Restmenge | Nur bei Mengen-Kontrakt:<br>\- Aktuelle Restmenge des Kontrakt-Zeitraums des Artikels bei Einzelmengen-Kontrakt,<br>\- Aktuelle Restmenge des Kontrakt-Zeitraums bei Gesamtmengen-Kontrakt<br>\- immer 0 bei Freimengen-Kontrakt. |
+| Gesamtwert | Nur bei Wert-Kontrakt:<br>\- Sollwert des Kontrakt-Zeitraums des Artikels bei Einzelwert-Kontrakt<br>\- Sollwert des Kontrakt-Zeitraums bei Gesamtwert-Kontrakt<br>\- immer 0 bei Freiwert-Kontrakt. |
+| Restwert | Nur bei Wert-Kontrakt:<br>\- Aktueller Restwert des Kontrakt-Zeitraums des Artikels bei Einzelwert-Kontrakt,<br>\- Aktueller Restwert des Kontrakt-Zeitraums bei Gesamtwert-Kontrakt<br>\- immer 0 bei Freiwert-Kontrakt. |
 | Bezeichnung | Bezeichnung des Kontrakt-Artikels. |
 
 Unterhalb der Datentabelle wird die aktuelle Gesamtsumme sowie die aktuelle Restsumme der Artikel im ausgewiesenen Zeitraum dargestellt.  

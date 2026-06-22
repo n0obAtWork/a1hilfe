@@ -14,10 +14,8 @@ Sollten Differenzen auftreten, stehen unter ***Konsistenz prüfen*** Analysefunk
 
 | Beschriftung | Funktion |
 | --- | --- |
-| ***Belegtyp wechseln*** | Wechsel der Datenbereiche:  
-Die Spaltenwerte werden je Einstellung mit den unterschiedlichen Datenbereichen gefüllt. Es ist also eine Vergleichsmöglichkeit je erwarteter Fragestellung möglich. |
-| ***+*** / ***\-*** | Blättern Jahre und Perioden:  
-Es kann hiermit zwischen den jeweiligen Zeiträumen gewechselt werden. |
+| ***Belegtyp wechseln*** | Wechsel der Datenbereiche:<br>Die Spaltenwerte werden je Einstellung mit den unterschiedlichen Datenbereichen gefüllt. Es ist also eine Vergleichsmöglichkeit je erwarteter Fragestellung möglich. |
+| ***+*** / ***\-*** | Blättern Jahre und Perioden:<br>Es kann hiermit zwischen den jeweiligen Zeiträumen gewechselt werden. |
 | ***Einzelsumme*** / ***kumulierte Summe*** | Einzelsumme stellt den Wert der oben angezeigten Periode, kumulierte Summe den Wert bis einschließlich o.a. Periode dar. |
 | ***Periode*** / ***Vorperiode*** / ***Vorjahr*** | Zu Vergleichszwecken kann damit in die rechte Spalte der Inhalt eines anderen Zeitraums eingestellt werden. |
 | ***Wertvergleich*** / ***ProzentAnteil*** / ***Differenz*** | Wertvergleich stellt die nackten Werte, ProzentAnteil die relative, Differenz die absolute Abweichung der rechten zur linken Spalte dar. |

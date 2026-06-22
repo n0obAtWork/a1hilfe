@@ -12,8 +12,4 @@ Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Bas
 
 | | |
 | --- | --- |
-| ![](../../../../ImagesExt/image8_1511.png) | Bild  
-Neben den bekannten Feldern muss die View zusätzlich ein Feld **Picture** mit dem Bildinhalt zurückliefern. Dafür bietet sich das Formulararchiv an. Erlaubte Formate sind Bitmap, Icon, JPEG, GIF und PNG.  
-    
-Beispielview:  
- |
+| ![](../../../../ImagesExt/image8_1511.png) | Bild<br>Neben den bekannten Feldern muss die View zusätzlich ein Feld **Picture** mit dem Bildinhalt zurückliefern. Dafür bietet sich das Formulararchiv an. Erlaubte Formate sind Bitmap, Icon, JPEG, GIF und PNG.<br><br>Beispielview:<br> |

@@ -9,21 +9,17 @@ In Abhängigkeit von der Vorgangsklasse erfolgen die Verbuchungen im Warenwirtsc
 | Angebot | keine Buchung |
 | --- | --- |
 | Auftrag | disponierte Menge, Dispositionsbestand, Auftragsbestand |
-| Lieferschein | IstBestand, gelieferte Menge bei Übernahme aus Auftrag,  
-Auftragsbestand, disponierte Menge |
-| Rechnung | IstBestand, gelieferte Menge, fakturierte Menge, Umsatz,  
-Rohertrag, bei Übernahme aus Lieferschein keine IstBestandsbuchung |
+| Lieferschein | IstBestand, gelieferte Menge bei Übernahme aus Auftrag,<br>Auftragsbestand, disponierte Menge |
+| Rechnung | IstBestand, gelieferte Menge, fakturierte Menge, Umsatz,<br>Rohertrag, bei Übernahme aus Lieferschein keine IstBestandsbuchung |
 | Gutschrift | IstBestand, gelieferte Menge, fakturierte Menge, Umsatz, Rohertrag |
-| Sonstige | Bei der Abbuchung aus Vorgängen, Kontrakten, Partien und anderen  
-Nebenbuchhaltungen erfolgen auch dort entsprechende Buchungen |
+| Sonstige | Bei der Abbuchung aus Vorgängen, Kontrakten, Partien und anderen<br>Nebenbuchhaltungen erfolgen auch dort entsprechende Buchungen |
 
 <p class="just-emphasize">Wareneinkauf</p>
 
 | Bestellanfrage | keine Buchung |
 | --- | --- |
 | Bestellung | disponierte Menge, Dispositionsbestand, Bestellbestand |
-| E-Lieferschein | IstBestand, eingegangene Menge bei Übernahme aus Bestellung,  
-Bestellbestand, disponierte Menge |
+| E-Lieferschein | IstBestand, eingegangene Menge bei Übernahme aus Bestellung,<br>Bestellbestand, disponierte Menge |
 | E-Rechnung | IstBestand, eingegangene Menge, fakturierte Menge, Einkaufsumsatz, Bewertungspreis, bei Übernahme aus Lieferschein keine IstBestandsbuchung |
 | E-Gutschrift | IstBestand, gelieferte Menge, fakturierte Menge, Einkaufsumsatz, Rohertrag |
 | Sonstige | Bei der Abbuchung aus Vorgängen, Kontrakten, Partien und anderen Nebenbuchhaltungen erfolgen auch dort entsprechende Buchungen |

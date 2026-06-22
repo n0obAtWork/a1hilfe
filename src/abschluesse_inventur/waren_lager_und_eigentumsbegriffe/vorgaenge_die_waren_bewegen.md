@@ -5,8 +5,7 @@
 | Einkauf / Verkauf |
 | --- |
 | Einkauf | Beim klassischen Einkauf wird die Ware bei Bezahlung oder gegen Quittung übergeben. Die Ware wird sofort dem Bestand [Eigenware](./begriffsdefinitionen.md#Eigenware) hinzugefügt. |
-| Verkauf | Beim klassischen Verkauf wird die Ware bei Bezahlung übergeben. Die Rechnung wird ebenso zu diesem Zeitpunkt erstellt. Unabhängig von der Art der Bezahlung gilt hier immer:  
-Die Ware wird sofort aus dem Bestand [Eigenware](./begriffsdefinitionen.md#Eigenware) ausgebucht. |
+| Verkauf | Beim klassischen Verkauf wird die Ware bei Bezahlung übergeben. Die Rechnung wird ebenso zu diesem Zeitpunkt erstellt. Unabhängig von der Art der Bezahlung gilt hier immer:<br>Die Ware wird sofort aus dem Bestand [Eigenware](./begriffsdefinitionen.md#Eigenware) ausgebucht. |
 
 | Voreinkauf |
 | --- |
@@ -16,16 +15,14 @@ Die Ware wird sofort aus dem Bestand [Eigenware](./begriffsdefinitionen.md#Eigen
 
 | Vorverkauf |
 | --- |
-| Vorverkauf | Bei einem Vorverkauf bezahlt der Kunde seine Ware sofort, holt diese jedoch erst zu einem späteren Zeitpunkt ab (Gegenstück zu Voreinkauf). Die Ware ist bereits Eigentum des Dritten, liegt jedoch im [eigenen Lager](./begriffsdefinitionen.md#EigenesLager) und wird als [Fremdware](./begriffsdefinitionen.md#Fremdware) deklariert.  
- |
+| Vorverkauf | Bei einem Vorverkauf bezahlt der Kunde seine Ware sofort, holt diese jedoch erst zu einem späteren Zeitpunkt ab (Gegenstück zu Voreinkauf). Die Ware ist bereits Eigentum des Dritten, liegt jedoch im [eigenen Lager](./begriffsdefinitionen.md#EigenesLager) und wird als [Fremdware](./begriffsdefinitionen.md#Fremdware) deklariert.<br> |
 | Vorverkauf Abholung | Der Kunde holt seine bereits bezahlte Ware ab. Diese wird also aus dem [Fremdware](./begriffsdefinitionen.md#Fremdware)\-Bestand ausgebucht. |
 | Vorverkauf Rückabwicklung | |
 
 | Einlagerung |
 | --- |
 | Einlagerung | Bei der Einlagerung wird die Ware eines Dritten in das [eigene Lager](./begriffsdefinitionen.md#EigenesLager) eingelagert. Die Ware wird als [Fremdware](./begriffsdefinitionen.md#Fremdware) deklariert. |
-| Einlagerung Abholung | Wird die Ware, die ein Dritter im Lager eingelagert hatte wieder abgeholt, so wird diese aus dem [Fremdware](./begriffsdefinitionen.md#Fremdware)bestand ausgebucht.  
- |
+| Einlagerung Abholung | Wird die Ware, die ein Dritter im Lager eingelagert hatte wieder abgeholt, so wird diese aus dem [Fremdware](./begriffsdefinitionen.md#Fremdware)bestand ausgebucht.<br> |
 | Einlagerung Vereinnahmung | Im Bereich Rohware kommt es zuweilen vor, dass eingelagerte Ware zu einem späteren Zeitpunkt aufgekauft wird. Diesen Vorgang nennt man dann Vereinnahmung. Dabei wird der Bestand von [Fremdware](./begriffsdefinitionen.md#Fremdware) auf [Eigenware](./begriffsdefinitionen.md#Eigenware) umgebucht. Die Ware muss dabei u.U. physikalisch nicht einmal bewegt werden. |
 
 | Kommission |

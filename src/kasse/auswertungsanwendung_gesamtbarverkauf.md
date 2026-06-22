@@ -18,8 +18,7 @@ Möglichkeiten hierzu bestehen u.a. innerhalb der folgenden Varianten:
 | Kreditkartenbestand | Überblick über den aufsummierten Bestand an Kreditkarten nach Kassen und Sitzungen |
 | Transaktionssätze Kreditkarten | Hier sind alle Kreditkarten aufgelistet. In den Profilbedingungen gibt es zusätzlich den Transaktionsstatus, d.h. es können z.B. nur Kreditkarten angezeigt werden, die noch nicht per EC-Lastschrift-Verfahren exportiert wurden |
 | Bankeinzugbestand | Überblick über den aufsummierten Bestand an Bankeinzügen nach Kassen und Sitzungen |
-| Bankeinzugüberblick | Hier sind alle Bankeinzüge aufgelistet  
-Bemerkung: In den Überblicken ist es möglich, über F5 die Zahlungsmittelsätze nachträglich zu bearbeiten. So kann ein Systemadministrator die Kontonummer / Bankleitzahl ergänzen bzw. korrigieren. Außerdem kann man Zahlungsmittel unter gewissen Randbedingungen Stornieren / Drucken / Umwandeln. |
+| Bankeinzugüberblick | Hier sind alle Bankeinzüge aufgelistet<br>Bemerkung: In den Überblicken ist es möglich, über F5 die Zahlungsmittelsätze nachträglich zu bearbeiten. So kann ein Systemadministrator die Kontonummer / Bankleitzahl ergänzen bzw. korrigieren. Außerdem kann man Zahlungsmittel unter gewissen Randbedingungen Stornieren / Drucken / Umwandeln. |
 | Verkäufe/Einkäufe | Hier werden die Anzahl und Summe der Barvorgänge (Verkauf und Einkauf) nach Kasse und Sitzung angezeigt |
 | Ein/Auszahlungen | Hier werden die Anzahl und Summe der Finanzvorgänge Einzahlung / Auszahlung inkl. der Anzahl Stornierungen und der Summe der Stornierungen nach Kasse und Sitzung angezeigt. |
 | Entnahmen/Abschöpfungen | Analog zu Ein/Auszahlungen werden hier die an einer Abschöpfung beteiligten Werte angezeigt |

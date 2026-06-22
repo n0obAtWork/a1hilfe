@@ -46,43 +46,14 @@ Listen: Es stehen Variablen für den Kopf und Fußbereich und Felder für die Ta
 
 | Feld | Bedeutung |
 | --- | --- |
-| Datenherkunft  
- | Die Datenherkunft kann solange geändert werden, wie noch kein Report definiert wurde. Es werden drei Arten der Datenherkunft unterstützt:  
-1. Auswahlliste Der Report bezieht die Daten aus der Auswahlliste, mit der er Verbunden wurde. Es ist daher auch erst möglich, den Report zu bearbeiten, nachdem er mit einer Auswahlliste verbunden wurde.  
-2. View Die Daten werden über ein privates Report-View bestimmt. Dies bedeutet, dass das View vor der Ausführung für den Benutzer neu angelegt wird, wie es bereits aus Crystal-Report bekannt ist. Innerhalb des Views kann auf LDB- bzw. Maskenfelder (mit vorangestelltem Doppelpunkt) verwiesen werden. Oder es kann per JOIN auf Daten, die über die [Vorlauf-Funktion](./spezialfelder.md) bereitgestellt wurden, zugegriffen und somit die Ergebnismenge eingeschränkt werden.  
-3. Prozedur Diese Datenbankprozedur muss eine Ergebnismenge ( Resultset ) zurückgeben. Diese Prozedur kann als Paramater LDB- bzw. Maskenfelder haben (mit vorangestelltem Doppelpunkt). Damit zum Editieren Daten bereitgestellt werden können, muss man in dem Feld „[Aufruf für bearbeiten](./definition_in_a_eins.md#AufrufZumBearbeiten)“ anstelle der LDB- bzw. Maskenfelder den Wert direkt eintragen.  
- |
-| View Name / Prozedur Name  
- | Wenn die Datenherkunft Auswahlliste ist, wird hier der Name eines Makros angezeigt. Dieser kann nicht geändert werden. Bei View bzw. Prozeduren muss hier der Name eingetragen werden. Die Prozedur kann Parameter haben, die mit Doppelpunkt eingeleitete LDB- bzw. Maskennamen, JVars oder – bei in Formulare eingebetteten Reporten – die ID’s der Formularpositionen sein können.  
-   
-Beispiel:  
-   
-   
-oder  
-   
- |
-| Aufruf für bearbeiten | Bei der Datenherkunft Prozedur ist es gegebenenfalls notwendig Parameter zu übergeben, die man während der Entwicklungsphase des Reports nicht setzen kann. Also gibt man hier die Prozedur noch einmal an mit dem Wert als Parameter und nicht mit der Variablen. Es wird dann beim Bearbeiten des Reports immer diese Beispieldaten herangezogen.  
- Beispiel: „DBProc (541)“  
- |
-| Vorlauf-Funktion  
- | Hier kann, wie schon aus Crystal-Report bekannt, eine [Vorlauf-Funktion](./spezialfelder.md) definiert werden. Diese JPL-Funktion wird aufgerufen, bevor die Daten aus der View bzw. aus der Prozedur gelesen werden. Man also vorher noch Tests durchführen, damit sichergestellt ist, dass die ausgegebenen Daten auch richtig sind. Bei einer „Summen und Saldenliste“ müsste man zum Beispiel prüfen, ob alle Belege in dem Bereich bereits gebucht wurden.  
-**ACHTUNG:** *Liefert die Vorlauffunktion einen Wert ungleich 0, so wird der Ausdruck nicht gestartet.*  
-**HINWEIS:** *Es können alle für Crystal gültigen Vorlauffunktionen verwendet werden.*  
- |
-| Update Statement | Nach erfolgreichem Druck wird dieses SQL-Statement ausgeführt. Das Statement kann auch LDB- oder Maskenfelder mit vorangestelltem Doppelpunkt enthalten. Welche Variablen verwendet werden können, hängt immer davon ab, von wo aus man den Report ausruft. In der Auswahlliste stehen **nur** bei Datenherkunft „Auswahlliste“ die Maskenfelder Ident1, Ident2, Ident3 und Ident4 zur Verfügung, die den Werten entsprechen, die unter IDENT und IDSQL (ID1, ID2, ID3, ID4) genutzt werden. Bei der Verwendung unbedingt auf Groß- und Kleinschreibung achten.  
-   
-Beispiel:  
- |
-| Beschreibung  
- | Dieser Platz ist für eine Kurzbeschreibung vorgesehen. Zum Beispiel sollte hier stehen, welche Auswahlliste/Variante notwendig ist, um einen Report mit Datengrundlage „Auswahlliste“ starten/bearbeiten zu können.  
- |
-| Archivieren:  
- | Hier besteht die Möglichkeit, anzugeben, ob der Report archiviert werden soll. Bei **„Ja“** wird bei Datenherkunft View und Prozedur das Register „Archiv“ eingeblendet.  
-Dieses Kennzeichen wird nur bei privaten Reporten exportiert.  
- |
-| Druckerprofile  
- | Hier können Druckereinstellungen vorgenommen werden, die gespeichert werden und später über den Kommandozeilenparameter [PrinterProfil](./kommandozeile.md) oder über den dritten Parameter des [Controlstrings](./index.md#Controlstring) wieder verwendet werden können. Dabei ist das **Profil** die eindeutige Bezeichnung. Neben der **Beschreibung**, der ***Druckereinstellung*** **F11** können hier auch noch die Anzahl der Kopien für den Druck festgelegt werden. Ist hier eine Zahl ungleich 0 angegeben, so erscheint dann diese Zahl als Vorschlag im Druckabfragefenster. Sie übersteuert dann ggf. die über [LILAANZAHLKOPIEN](./spezialfelder.md#LILAANZAHLKOPIEN) bzw. [LILAANZAHLVARKOPIEN](./spezialfelder.md#LILAANZAHLVARKOPIEN) angegebenen Werte.  
- |
+| Datenherkunft<br> | Die Datenherkunft kann solange geändert werden, wie noch kein Report definiert wurde. Es werden drei Arten der Datenherkunft unterstützt:<br>1. Auswahlliste Der Report bezieht die Daten aus der Auswahlliste, mit der er Verbunden wurde. Es ist daher auch erst möglich, den Report zu bearbeiten, nachdem er mit einer Auswahlliste verbunden wurde.<br>2. View Die Daten werden über ein privates Report-View bestimmt. Dies bedeutet, dass das View vor der Ausführung für den Benutzer neu angelegt wird, wie es bereits aus Crystal-Report bekannt ist. Innerhalb des Views kann auf LDB- bzw. Maskenfelder (mit vorangestelltem Doppelpunkt) verwiesen werden. Oder es kann per JOIN auf Daten, die über die [Vorlauf-Funktion](./spezialfelder.md) bereitgestellt wurden, zugegriffen und somit die Ergebnismenge eingeschränkt werden.<br>3. Prozedur Diese Datenbankprozedur muss eine Ergebnismenge ( Resultset ) zurückgeben. Diese Prozedur kann als Paramater LDB- bzw. Maskenfelder haben (mit vorangestelltem Doppelpunkt). Damit zum Editieren Daten bereitgestellt werden können, muss man in dem Feld „[Aufruf für bearbeiten](./definition_in_a_eins.md#AufrufZumBearbeiten)“ anstelle der LDB- bzw. Maskenfelder den Wert direkt eintragen.<br> |
+| View Name / Prozedur Name<br> | Wenn die Datenherkunft Auswahlliste ist, wird hier der Name eines Makros angezeigt. Dieser kann nicht geändert werden. Bei View bzw. Prozeduren muss hier der Name eingetragen werden. Die Prozedur kann Parameter haben, die mit Doppelpunkt eingeleitete LDB- bzw. Maskennamen, JVars oder – bei in Formulare eingebetteten Reporten – die ID’s der Formularpositionen sein können.<br> <br>Beispiel:<br> <br> <br>oder<br> <br> |
+| Aufruf für bearbeiten | Bei der Datenherkunft Prozedur ist es gegebenenfalls notwendig Parameter zu übergeben, die man während der Entwicklungsphase des Reports nicht setzen kann. Also gibt man hier die Prozedur noch einmal an mit dem Wert als Parameter und nicht mit der Variablen. Es wird dann beim Bearbeiten des Reports immer diese Beispieldaten herangezogen.<br> Beispiel: „DBProc (541)“<br> |
+| Vorlauf-Funktion<br> | Hier kann, wie schon aus Crystal-Report bekannt, eine [Vorlauf-Funktion](./spezialfelder.md) definiert werden. Diese JPL-Funktion wird aufgerufen, bevor die Daten aus der View bzw. aus der Prozedur gelesen werden. Man also vorher noch Tests durchführen, damit sichergestellt ist, dass die ausgegebenen Daten auch richtig sind. Bei einer „Summen und Saldenliste“ müsste man zum Beispiel prüfen, ob alle Belege in dem Bereich bereits gebucht wurden.<br>**ACHTUNG:** *Liefert die Vorlauffunktion einen Wert ungleich 0, so wird der Ausdruck nicht gestartet.*<br>**HINWEIS:** *Es können alle für Crystal gültigen Vorlauffunktionen verwendet werden.*<br> |
+| Update Statement | Nach erfolgreichem Druck wird dieses SQL-Statement ausgeführt. Das Statement kann auch LDB- oder Maskenfelder mit vorangestelltem Doppelpunkt enthalten. Welche Variablen verwendet werden können, hängt immer davon ab, von wo aus man den Report ausruft. In der Auswahlliste stehen **nur** bei Datenherkunft „Auswahlliste“ die Maskenfelder Ident1, Ident2, Ident3 und Ident4 zur Verfügung, die den Werten entsprechen, die unter IDENT und IDSQL (ID1, ID2, ID3, ID4) genutzt werden. Bei der Verwendung unbedingt auf Groß- und Kleinschreibung achten.<br> <br>Beispiel:<br> |
+| Beschreibung<br> | Dieser Platz ist für eine Kurzbeschreibung vorgesehen. Zum Beispiel sollte hier stehen, welche Auswahlliste/Variante notwendig ist, um einen Report mit Datengrundlage „Auswahlliste“ starten/bearbeiten zu können.<br> |
+| Archivieren:<br> | Hier besteht die Möglichkeit, anzugeben, ob der Report archiviert werden soll. Bei **„Ja“** wird bei Datenherkunft View und Prozedur das Register „Archiv“ eingeblendet.<br>Dieses Kennzeichen wird nur bei privaten Reporten exportiert.<br> |
+| Druckerprofile<br> | Hier können Druckereinstellungen vorgenommen werden, die gespeichert werden und später über den Kommandozeilenparameter [PrinterProfil](./kommandozeile.md) oder über den dritten Parameter des [Controlstrings](./index.md#Controlstring) wieder verwendet werden können. Dabei ist das **Profil** die eindeutige Bezeichnung. Neben der **Beschreibung**, der ***Druckereinstellung*** **F11** können hier auch noch die Anzahl der Kopien für den Druck festgelegt werden. Ist hier eine Zahl ungleich 0 angegeben, so erscheint dann diese Zahl als Vorschlag im Druckabfragefenster. Sie übersteuert dann ggf. die über [LILAANZAHLKOPIEN](./spezialfelder.md#LILAANZAHLKOPIEN) bzw. [LILAANZAHLVARKOPIEN](./spezialfelder.md#LILAANZAHLVARKOPIEN) angegebenen Werte.<br> |
 
 <p class="just-emphasize">Register Archiv</p>
 
@@ -90,38 +61,18 @@ Die hier vorzunehmenden Einstellungen dienen dazu, einen fortlaufenden Druck in 
 
 | Feld | Bedeutung |
 | --- | --- |
-| Select für Kundennummer | **SQL-Statement** für die Schleife. Beispiel:  
-   
-   
-Zu beachten ist bei der Archivierung von Listen, bei denen das Kriterium öfters in der Liste vorkommen kann, dass man danach die Ergebnismenge gruppiert (group by). Alle verwendeten Archivfelder müssen in der Ergebnismenge vorkommen.  
- |
-| **Archivfeld Kundennummer** | Feldname aus dem SQL-Statement, der den Wert für die Kundennummer im Archiv liefert. Dieser kann in der WHERE-Bedingung verwendet werden.  
- |
-| **Archivfeld Belegnummer** | Feldname aus dem SQL-Statement, der den Wert für die Belegnummer im Archiv liefert. Dieser kann in der WHERE-Bedingung verwendet werden.  
- |
-| **Archivfeld Belegdatum** | Feldname aus dem SQL-Statement, der den Wert für das Belegdatum im Archiv liefert. Dieser kann in der WHERE-Bedingung verwendet werden.  
- |
-| Archivfeld Belegreferenz | Feldname aus dem SQL-Statement, in dem die Belegreferenz steht. Wird diese Feld nicht verwendet, so wird hier die Funktionsident eingetragen.  
- |
-| Archivfeld Betreff | Feldname aus dem SQL-Statement, in dem der Betreff-Text steht.  
- |
-| Archivfeld Kategorie | Feldname aus dem SQL-Statement, in dem der Kategorie-Text steht.  
- |
-| Archivfeld Stichwörter | Feldname aus dem SQL-Statement, in dem die Stichwörter stehen.  
- |
-| Archivfeld Kommentar  
- | Feldname aus dem SQL-Statement, in dem der Kommentar steht.  
- |
-| Archivfeld Titel | Feldname aus dem SQL-Statement, in dem der Titel steht.  
- |
-| Archivfeld Autor  
- | Feldname aus dem SQL-Statement, in dem der Autor steht.  
- |
-| Where\-Bedingung für die Kundennummer. | Es muss jetzt noch dem Report mitgeteilt werden, dass er nur einen Teil darstellen soll. Dazu muss hier die Eingrenzung eingegeben werden. Der Syntax ist SQL Syntax, wobei die Werte der Felder über Platzhalter (%s) in der Reihenfolge **Kundennummer, Belegnummer, Belegdatum** an die Formel übergeben werden. Handelt es sich um Datumstypen (Belegdatum) oder Stringtypen (Belegnummer), dann muss der Platzhalter mit einfachem Hochkomma eingeschlossen werden. Beispiel:  
-   
-   
-**Hinweis:** *In der WHERE-Bedingung werden nur die Felder Kundennummer, Belegdatum und Belegnummer ausgewertet. Der Inhalt der anderen Archivfelder wird nur an das Archiv übermittelt.*  
- |
+| Select für Kundennummer | **SQL-Statement** für die Schleife. Beispiel:<br> <br> <br>Zu beachten ist bei der Archivierung von Listen, bei denen das Kriterium öfters in der Liste vorkommen kann, dass man danach die Ergebnismenge gruppiert (group by). Alle verwendeten Archivfelder müssen in der Ergebnismenge vorkommen.<br> |
+| **Archivfeld Kundennummer** | Feldname aus dem SQL-Statement, der den Wert für die Kundennummer im Archiv liefert. Dieser kann in der WHERE-Bedingung verwendet werden.<br> |
+| **Archivfeld Belegnummer** | Feldname aus dem SQL-Statement, der den Wert für die Belegnummer im Archiv liefert. Dieser kann in der WHERE-Bedingung verwendet werden.<br> |
+| **Archivfeld Belegdatum** | Feldname aus dem SQL-Statement, der den Wert für das Belegdatum im Archiv liefert. Dieser kann in der WHERE-Bedingung verwendet werden.<br> |
+| Archivfeld Belegreferenz | Feldname aus dem SQL-Statement, in dem die Belegreferenz steht. Wird diese Feld nicht verwendet, so wird hier die Funktionsident eingetragen.<br> |
+| Archivfeld Betreff | Feldname aus dem SQL-Statement, in dem der Betreff-Text steht.<br> |
+| Archivfeld Kategorie | Feldname aus dem SQL-Statement, in dem der Kategorie-Text steht.<br> |
+| Archivfeld Stichwörter | Feldname aus dem SQL-Statement, in dem die Stichwörter stehen.<br> |
+| Archivfeld Kommentar<br> | Feldname aus dem SQL-Statement, in dem der Kommentar steht.<br> |
+| Archivfeld Titel | Feldname aus dem SQL-Statement, in dem der Titel steht.<br> |
+| Archivfeld Autor<br> | Feldname aus dem SQL-Statement, in dem der Autor steht.<br> |
+| Where\-Bedingung für die Kundennummer. | Es muss jetzt noch dem Report mitgeteilt werden, dass er nur einen Teil darstellen soll. Dazu muss hier die Eingrenzung eingegeben werden. Der Syntax ist SQL Syntax, wobei die Werte der Felder über Platzhalter (%s) in der Reihenfolge **Kundennummer, Belegnummer, Belegdatum** an die Formel übergeben werden. Handelt es sich um Datumstypen (Belegdatum) oder Stringtypen (Belegnummer), dann muss der Platzhalter mit einfachem Hochkomma eingeschlossen werden. Beispiel:<br> <br> <br>**Hinweis:** *In der WHERE-Bedingung werden nur die Felder Kundennummer, Belegdatum und Belegnummer ausgewertet. Der Inhalt der anderen Archivfelder wird nur an das Archiv übermittelt.*<br> |
 
 Es gibt hier noch zwei Besonderheiten:
 
@@ -172,37 +123,16 @@ Parameterübersicht für die Controlstrings:
 
 | Aufruf | Bedeutung |
 | --- | --- |
-| ^crw 101 LILAID | Öffnet den durch LILAID identifizierten Report im interaktiven Designer.  
-    
- |
-| ^crw 102 LILAID [Prozeduraufruf] [Druckerprofil] | Druckt den durch LILAID identifizierten Report mit vorheriger Abfrage des Druckers, der Anzahl Kopien, ... .  
-Der erste optionale Parameter **Prozeduraufruf** gibt an, was überhaupt gedruckt werden soll. Das Format muss so sein, wie bei Prozeduren der [Aufruf für bearbeiten](./definition_in_a_eins.md#AufrufZumBearbeiten) eingetragen wurde.  
-Mit dem zweiten optionalen Parameter **Druckerprofil** gibt das eingerichtete Profil an. Druckerprofil ist immer der dritte Parameter! Der zweite muss ggf. leer übergeben werden:  
- |
-| ^crw 103 LILAID "" [Druckerprofil] | Öffnet das Vorschaufenster für den durch LILAID identifizierten Report.  
-Soll das **Druckerprofil** mit angegeben werden, so muss der zweite Parameter leer übergeben werden. Das Druckerprofil ist immer der dritte Parameter. S.o.  
-    
- |
-| ^crw 104 LILAID [1] [Druckerprofil] | Exportiert den Report im HTML Format. Das Verzeichnis, auf dem das Ergebnis landet ist ..\\export\\lila.  
-Gibt man als ersten optionalen Parameter eine 1 an, so wird das Ergebnis sofort in dem verknüpften Programm geöffnet.  
-Druckerprofil S.o.  
-    
- |
-| ^crw 105 | Liefert als Rückgabewert die Versionsnummer, z.B. „11000“ für AMIC Etikettendruck Version 11.  
- |
-| ^crw 106 LILAID [Prozeduraufruf] [Druckerprofil] | Wie 102, nur dass vor dem Druck keine Abfrage nach dem Drucker kommt.  
-    
- |
-| ^crw 111 LILAID [1] [Druckerprofil] | Exportiert den Report im PDF Format. Das Verzeichnis, auf dem das Ergebnis landet ist ..\\export\\lila.  
-Gibt man als optionalen Parameter eine 1 an, so wird das Ergebnis sofort in dem verknüpften Programm geöffnet.  
- |
-| ^crw 112 LILAID "" [Druckerprofil] | Exportiert den Report als Bitmap. Das Ergebnis steht im Verzeichnis..\\export\\lila.  
- |
-| ^crw 114 LILAID [1] [Druckerprofil] | Exportiert den Report im RTF-Format. Das Ergebnis steht im Verzeichnis ..\\export\\lila.  
-Gibt man als optionalen Parameter eine 1 an, so wird das Ergebnis sofort in dem verknüpften Programm geöffnet.  
- |
-| ^crw 116 LILAID [Prozeduraufruf] | Archiviert den Report ohne vorher zu drucken.  
- |
+| ^crw 101 LILAID | Öffnet den durch LILAID identifizierten Report im interaktiven Designer.<br><br> |
+| ^crw 102 LILAID [Prozeduraufruf] [Druckerprofil] | Druckt den durch LILAID identifizierten Report mit vorheriger Abfrage des Druckers, der Anzahl Kopien, ... .<br>Der erste optionale Parameter **Prozeduraufruf** gibt an, was überhaupt gedruckt werden soll. Das Format muss so sein, wie bei Prozeduren der [Aufruf für bearbeiten](./definition_in_a_eins.md#AufrufZumBearbeiten) eingetragen wurde.<br>Mit dem zweiten optionalen Parameter **Druckerprofil** gibt das eingerichtete Profil an. Druckerprofil ist immer der dritte Parameter! Der zweite muss ggf. leer übergeben werden:<br> |
+| ^crw 103 LILAID "" [Druckerprofil] | Öffnet das Vorschaufenster für den durch LILAID identifizierten Report.<br>Soll das **Druckerprofil** mit angegeben werden, so muss der zweite Parameter leer übergeben werden. Das Druckerprofil ist immer der dritte Parameter. S.o.<br><br> |
+| ^crw 104 LILAID [1] [Druckerprofil] | Exportiert den Report im HTML Format. Das Verzeichnis, auf dem das Ergebnis landet ist ..\\export\\lila.<br>Gibt man als ersten optionalen Parameter eine 1 an, so wird das Ergebnis sofort in dem verknüpften Programm geöffnet.<br>Druckerprofil S.o.<br><br> |
+| ^crw 105 | Liefert als Rückgabewert die Versionsnummer, z.B. „11000“ für AMIC Etikettendruck Version 11.<br> |
+| ^crw 106 LILAID [Prozeduraufruf] [Druckerprofil] | Wie 102, nur dass vor dem Druck keine Abfrage nach dem Drucker kommt.<br><br> |
+| ^crw 111 LILAID [1] [Druckerprofil] | Exportiert den Report im PDF Format. Das Verzeichnis, auf dem das Ergebnis landet ist ..\\export\\lila.<br>Gibt man als optionalen Parameter eine 1 an, so wird das Ergebnis sofort in dem verknüpften Programm geöffnet.<br> |
+| ^crw 112 LILAID "" [Druckerprofil] | Exportiert den Report als Bitmap. Das Ergebnis steht im Verzeichnis..\\export\\lila.<br> |
+| ^crw 114 LILAID [1] [Druckerprofil] | Exportiert den Report im RTF-Format. Das Ergebnis steht im Verzeichnis ..\\export\\lila.<br>Gibt man als optionalen Parameter eine 1 an, so wird das Ergebnis sofort in dem verknüpften Programm geöffnet.<br> |
+| ^crw 116 LILAID [Prozeduraufruf] | Archiviert den Report ohne vorher zu drucken.<br> |
 
 ***Exportieren***
 

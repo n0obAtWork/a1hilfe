@@ -10,11 +10,7 @@ Nach Auswahl von Dokumenten werden die PDF-Dokumente gefiltert und zum Druck ang
 
 | Felder: |
 | --- |
-| Drucker | Pflichtfeld | Angabe des Windows-Druckers  
-Die Online-Verfügbarkeit wird geprüft und optisch durch einen grünen Haken belegt.  
-![](../../../ImagesExt/image8_848.png)  
-Mausklick auf dieses Sysmbol oder betätigen der F3-Taste ruft den „Windows-Drucker-Auswahl-Dialog“ auf.  
-Die Angabe des Druckers wird sich für den erneuten Aufruf gemerkt und ist bei Ersteintritt der Windows-Standard-Drucker. |
+| Drucker | Pflichtfeld | Angabe des Windows-Druckers<br>Die Online-Verfügbarkeit wird geprüft und optisch durch einen grünen Haken belegt.<br>![](../../../ImagesExt/image8_848.png)<br>Mausklick auf dieses Sysmbol oder betätigen der F3-Taste ruft den „Windows-Drucker-Auswahl-Dialog“ auf.<br>Die Angabe des Druckers wird sich für den erneuten Aufruf gemerkt und ist bei Ersteintritt der Windows-Standard-Drucker. |
 | PDF-Dokumente | Anzeige | Anzahl der zu druckenden Dokumente |
 
 | Funktionen: |

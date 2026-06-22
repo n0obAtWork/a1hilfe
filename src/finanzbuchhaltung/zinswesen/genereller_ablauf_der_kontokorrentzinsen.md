@@ -30,27 +30,14 @@ In dem Menü der Finanzbuchhaltung findet man den Punkt Zinswesen. Dort ist der 
 
 | | Beschreibung |
 | --- | --- |
-| Abrechnungsdatum  
- | Dies ist der Tag an dem die Zinsabrechnung erstellt wird. Es wird mit dem Tagesdatum vorbelegt. Dieses Datum wird später das Belegdatum der automatisch generierten Zinsbelege.  
- |
-| Bis Stichtag  
- | Dies ist das Datum, bis zu dessen Ende die Zinsberechnung läuft. Es werden dann alle Belege mit einem Fälligkeits-/Wertstellungsdatum kleiner oder gleich dem Stichtag herangezogen, die als „noch zu verzinsen“ gekennzeichnet sind. Auch Belege, die in einer Früheren Zinsperiode liegen, jedoch aus irgendeinem Grund nicht verzinst wurden werden mit herangezogen.  
- |
-| Bemerkung  
- | Hier kann eine Bemerkung zu der Zinsliste hinterlegt werden.  
- |
-| Kontoart  
- | Man kann die Zinsberechnung sowohl für Personenkonten als auch für Sachkonten durchführen. Welche Kontoart bearbeitet werden soll wird hier eingestellt.  
- |
-| Kontobereich von…bis  
- | Man kann hier den Kontenbereich eingrenzen oder auch nur ein einzelnes Konto auswählen. |
-| Zinsgruppe von…bis  
- | Über die Eingrenzung der Zinsgruppe können Kundenbereiche getrennt bearbeitet werden. Man kann z.B. schon von vornherein Kunden und Lieferanten mit anderen Zinsgruppen versehen und könnte hier eine Trennung erreichen. Achtung: 0 ist keine gültige Zinsgruppe. Für Konten, bei denen diese Zinsgruppe hinterlegt ist, werden keine Zinsen berechnet.  
- |
-| Vertretergruppe von…bis | Dies ist eine Eingrenzungsmöglichkeit nach der im Kundenstamm eingetragenen Vertretergruppe.  
- |
-| Verkaufsgebiet von...bis | Dies ist eine Eingrenzungsmöglichkeit nach dem im Kundenstamm eingetragenen Verkaufsgebiet.  
- |
+| Abrechnungsdatum<br> | Dies ist der Tag an dem die Zinsabrechnung erstellt wird. Es wird mit dem Tagesdatum vorbelegt. Dieses Datum wird später das Belegdatum der automatisch generierten Zinsbelege.<br> |
+| Bis Stichtag<br> | Dies ist das Datum, bis zu dessen Ende die Zinsberechnung läuft. Es werden dann alle Belege mit einem Fälligkeits-/Wertstellungsdatum kleiner oder gleich dem Stichtag herangezogen, die als „noch zu verzinsen“ gekennzeichnet sind. Auch Belege, die in einer Früheren Zinsperiode liegen, jedoch aus irgendeinem Grund nicht verzinst wurden werden mit herangezogen.<br> |
+| Bemerkung<br> | Hier kann eine Bemerkung zu der Zinsliste hinterlegt werden.<br> |
+| Kontoart<br> | Man kann die Zinsberechnung sowohl für Personenkonten als auch für Sachkonten durchführen. Welche Kontoart bearbeitet werden soll wird hier eingestellt.<br> |
+| Kontobereich von…bis<br> | Man kann hier den Kontenbereich eingrenzen oder auch nur ein einzelnes Konto auswählen. |
+| Zinsgruppe von…bis<br> | Über die Eingrenzung der Zinsgruppe können Kundenbereiche getrennt bearbeitet werden. Man kann z.B. schon von vornherein Kunden und Lieferanten mit anderen Zinsgruppen versehen und könnte hier eine Trennung erreichen. Achtung: 0 ist keine gültige Zinsgruppe. Für Konten, bei denen diese Zinsgruppe hinterlegt ist, werden keine Zinsen berechnet.<br> |
+| Vertretergruppe von…bis | Dies ist eine Eingrenzungsmöglichkeit nach der im Kundenstamm eingetragenen Vertretergruppe.<br> |
+| Verkaufsgebiet von...bis | Dies ist eine Eingrenzungsmöglichkeit nach dem im Kundenstamm eingetragenen Verkaufsgebiet.<br> |
 
 Unter Einrichterparameter gibt es drei Optionen
 
@@ -125,25 +112,12 @@ Hier werden für die errechneten Zinsen Belege erstellt. Wie die Belege im Endef
 
 | | Beschreibung |
 | --- | --- |
-| Abrechnungsdatum | Zeigt das Datum der aktuell angewählten Abrechnung an. Dies wird das Belegdatum der entstehenden Zinsbuchungen. Die Periode wird anhand dieses Datums bestimmt. Wenn die Periode in dem Datum nicht offen oder bereits geschlossen ist, werden Zinsen nicht gebucht.  
- |
-| Wertstellung | Hier wird das Datum eingegeben, zu dem die Zinsen fällig sind.  
-    
- |
-| aktuelles Konto | Anzeige des gerade bearbeiteten Kontos  
-    
- |
-| BK/Belegnummer  
-    
- | Hier kann der Nummernkreis eingegeben werden. Es wird der Nummernkreis vorgeschlagen der unter „Fibu-Vorgangszuordnung NKF“ für Ausgangsrechnung mit der Erfassungsform „automatisch„ eingetragen ist. Ob man den Nummernkreis ändern kann, wird auch dort hinterlegt.  
-    
- |
-| Text Sollbuchung | Dieser Text wird beim Beleg in der Hauptzeile verwendet. Er kann abgeändert werden, z.B. „Sollzinsen I. Quartal“ und wird beim nächsten Buchen so wieder vorgeschlagen.  
-    
- |
-| Text Habenbuchung | Dieser Text wird beim Beleg in der Hauptzeile verwendet. Er kann abgeändert werden, z.B. „Guthabenzinsen I. Quartal“ und wird beim nächsten Buchen so wieder vorgeschlagen.  
-    
- |
+| Abrechnungsdatum | Zeigt das Datum der aktuell angewählten Abrechnung an. Dies wird das Belegdatum der entstehenden Zinsbuchungen. Die Periode wird anhand dieses Datums bestimmt. Wenn die Periode in dem Datum nicht offen oder bereits geschlossen ist, werden Zinsen nicht gebucht.<br> |
+| Wertstellung | Hier wird das Datum eingegeben, zu dem die Zinsen fällig sind.<br><br> |
+| aktuelles Konto | Anzeige des gerade bearbeiteten Kontos<br><br> |
+| BK/Belegnummer<br><br> | Hier kann der Nummernkreis eingegeben werden. Es wird der Nummernkreis vorgeschlagen der unter „Fibu-Vorgangszuordnung NKF“ für Ausgangsrechnung mit der Erfassungsform „automatisch„ eingetragen ist. Ob man den Nummernkreis ändern kann, wird auch dort hinterlegt.<br><br> |
+| Text Sollbuchung | Dieser Text wird beim Beleg in der Hauptzeile verwendet. Er kann abgeändert werden, z.B. „Sollzinsen I. Quartal“ und wird beim nächsten Buchen so wieder vorgeschlagen.<br><br> |
+| Text Habenbuchung | Dieser Text wird beim Beleg in der Hauptzeile verwendet. Er kann abgeändert werden, z.B. „Guthabenzinsen I. Quartal“ und wird beim nächsten Buchen so wieder vorgeschlagen.<br><br> |
 
     
 Neben diesen Einstellungen existiert auch noch ein Einrichterparameter „Beleg darf nicht geändert werden?“. Hier kann man für die entstehenden Belege eine Bearbeitungssperre setzen, so dass man diese später in der Primanota nicht mehr – oder nur eingeschränkt – ändern kann. Diese Sperre kann später in der [Einzelbeleganzeige](../op_verwaltung/einzelbeleganzeige.md) wieder gelöscht werden.  
@@ -157,14 +131,9 @@ Gelegentlich kann es vorkommen, dass Zinsabrechnungen erneut erstellt werden sol
 
 | | Beschreibung |
 | --- | --- |
-| Belegdatum | Belegdatum des Stornobelegs.  
-    
- |
-| Periode / Jahr | Welcher Periode soll der Stornobeleg zugeordnet werden?  
- |
-| Beleg nach Erstellung sofort drucken? | Hier kann eingestellt werden, dass der Stornobeleg sofort im Anschluss gedruckt wird. Es existiert ein gleichnamiger Einrichterparamter. Setzt man diesen auf **Ja**, so ist der Haken automatisch gesetzt und kann nicht geändert werden.  
-    
- |
+| Belegdatum | Belegdatum des Stornobelegs.<br><br> |
+| Periode / Jahr | Welcher Periode soll der Stornobeleg zugeordnet werden?<br> |
+| Beleg nach Erstellung sofort drucken? | Hier kann eingestellt werden, dass der Stornobeleg sofort im Anschluss gedruckt wird. Es existiert ein gleichnamiger Einrichterparamter. Setzt man diesen auf **Ja**, so ist der Haken automatisch gesetzt und kann nicht geändert werden.<br><br> |
 
 • ***Löschen bzw. zurücksetzen  
 ***Zinsvorschläge bzw. Zinsabrechnungen können gelöscht und/oder zurückgesetzt werden. Es ist dabei streng darauf zu achten, was man erreichen möchte. In beiden Fällen wird die Zinsliste gelöscht, aber nur in dem Fall „Zurücksetzen“ werden die in der Zinsliste verarbeiteten Belege wieder freigegeben, um erneut verarbeitet werden zu können. Bereits verbuchte Belege können nicht zurückgesetzt werden (siehe Zinsbuchung stornieren). Es erscheint beim Menüpunkt „Löschen“ folgende Sicherheitsabfrage.  
@@ -203,16 +172,8 @@ Mit diesem Programmteil können kalkulatorische Zinsen am Bildschirm ermittelt w
 
 | | Beschreibung |
 | --- | --- |
-| Abrechnungsdatum  
-    
- | Stichtag, zu dem die Zinsen berechnet werden.  
-    
- |
-| Kontonummer  
-    
- | Für welches Konto sollen die Zinsen berechnet werden.  
-    
- |
+| Abrechnungsdatum<br><br> | Stichtag, zu dem die Zinsen berechnet werden.<br><br> |
+| Kontonummer<br><br> | Für welches Konto sollen die Zinsen berechnet werden.<br><br> |
 
     
 Nach Eingabe des Datums und der Kontonummer kann die Berechnung mit **F9** gestartet werden. Es werden dann die zum Abrechnungsdatum fälligen Zinsen angezeigt.  
@@ -227,16 +188,8 @@ Nach Eingabe des Datums und der Kontonummer kann die Berechnung mit **F9** gesta
 
 | | Beschreibung |
 | --- | --- |
-| Wertstellung  
-    
- | Dieses Datum kann im Formular als Feld „Wertstellung“ ausgegeben werden.  
-    
- |
-| Nur bereits in die Primanota übernommene Belege drucken  
-    
- | Es werden nur Abrechnungen gedruckt, die auch gebucht worden sind. Dadurch kann u.a. verhindert werden, dass versehentlich Bagatellzinsen, die nicht gebucht werden, mit gedruckt werden. Für diese Einstellung existiert gleichzeitig eine Einrichterparameter „Nur bereits in die Primanota übernommene Belege drucken“, der bei der Einstellung **Ja** bewirkt, dass der Haken gesetzt ist und nicht geändert werden kann.  
-    
- |
+| Wertstellung<br><br> | Dieses Datum kann im Formular als Feld „Wertstellung“ ausgegeben werden.<br><br> |
+| Nur bereits in die Primanota übernommene Belege drucken<br><br> | Es werden nur Abrechnungen gedruckt, die auch gebucht worden sind. Dadurch kann u.a. verhindert werden, dass versehentlich Bagatellzinsen, die nicht gebucht werden, mit gedruckt werden. Für diese Einstellung existiert gleichzeitig eine Einrichterparameter „Nur bereits in die Primanota übernommene Belege drucken“, der bei der Einstellung **Ja** bewirkt, dass der Haken gesetzt ist und nicht geändert werden kann.<br><br> |
 
 Die Zinsabrechnung kann auch als Mailanhang verschickt werden.
 

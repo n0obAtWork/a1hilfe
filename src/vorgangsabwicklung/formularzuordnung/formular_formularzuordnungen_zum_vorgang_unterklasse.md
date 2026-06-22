@@ -27,9 +27,7 @@ Einstellungen der Formulare
 | Angebot Formular | |
 | Archivierung | Dieses Formular wird verwendet, um ungedruckte Belege vor dem FiBu-Übertrag noch zu archivieren. Das Formular wird nicht verwendet, wenn ein regulärer Druck stattfindet! |
 | Referenzdrucker (für Archivierung) | Im Zusammenhang mit dem obigen Formular sollte ein Drucker eingerichtet sein, der dessen Druckeinstellungen und Formatierungen für die Erstellung des Archiveintrags beinhaltet. Der Drucker wird physikalisch nicht verwendet, muss jedoch erreichbar sein. Deshalb kann hier auch ein virtueller Drucker angegeben werden. |
-| Rechnungsformular im Barverkauf | Dieses Formular wird für den Druck einer Rechnung in der Marktkasse ab einem im Steuerparameter [867 .- Rechnungsdruck](../../firmenstamm/steuerparameter/kasse_barverkauf/rechnungsdruck_bei_barverkauf_spa_867.md) bei Barverkauf festgelegten Grenzwert verwendet. Der zu verwendende Drucker wird in der Kassensystemverwaltung festgelegt.  
-Die Adresse des zugrundeliegenden Kunden wird als neue Vorgangsversandanschrift kopiert und als neue Rechnungsadresse vorbelegt.  
- |
+| Rechnungsformular im Barverkauf | Dieses Formular wird für den Druck einer Rechnung in der Marktkasse ab einem im Steuerparameter [867 .- Rechnungsdruck](../../firmenstamm/steuerparameter/kasse_barverkauf/rechnungsdruck_bei_barverkauf_spa_867.md) bei Barverkauf festgelegten Grenzwert verwendet. Der zu verwendende Drucker wird in der Kassensystemverwaltung festgelegt.<br>Die Adresse des zugrundeliegenden Kunden wird als neue Vorgangsversandanschrift kopiert und als neue Rechnungsadresse vorbelegt.<br> |
 | Gelangensmahnformular | Hier kann ein Formular für den Mahnschreibendruck der [Gelangensbestätigung](../../zusatzprogramme/gelangensbestaetigung.md) eingetragen werden. |
 
 Artikeltextvariante

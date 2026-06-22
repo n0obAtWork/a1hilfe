@@ -13,20 +13,13 @@ Um die Steuer für den Innergemeinschaftlichen Erwerb auf dem USTVA-Formular aus
 
 | **Feld** | **Beschreibung** |
 | --- | --- |
-| Steuerformel | Normale Steuer  
- |
-| Steuersatz | 0,00 als tatsächlicher Steuersatz  
- |
-| Satz innergm.Erw. | Steuersatz, dem der Artikel eigentlich unterliegt.  
- |
-| AW-Kennz. Umsatz | Auswertungsposition zur Steuerung des Umsatzsteuerformulars. In der Beispielliste für [Auswertungspositionen](./steuersaetze_einrichten/stammdaten_auswertungspositionen.md) wären es die Zeilen 350, 360 oder 370 und somit die Kennziffern 89,93 oder 95 je nach Einfuhrsteuersatz.  
- |
-| Steuer | Bleibt frei, also 0.  
- |
-| Einfuhrsteuer (MwSt) | Hier gehört die Auswertungsposition analog des AW-Kennzeichens hinein, also auch 350, 360 oder 370 je nach Einfuhrsteuersatz. Auf dem Umsatzsteuerformular wird hier dann die fiktive anfallende Erwerbssteuer errechnet und ausgewiesen.  
- |
-| Einfuhrsteuer (Vst) | Hier gehört die Auswertungsposition hinein, die die Vorsteuerbeträge aus dem innergemeinschaftlichen Erwerb von Gegenständen kennzeichnet. In der Beispielliste wäre es die Zeile 560. Es wird dann analog zur Einfuhrsteuer1 die errechnete fiktiv anfallende Erwerbssteuer wieder abgezogen.  
- |
+| Steuerformel | Normale Steuer<br> |
+| Steuersatz | 0,00 als tatsächlicher Steuersatz<br> |
+| Satz innergm.Erw. | Steuersatz, dem der Artikel eigentlich unterliegt.<br> |
+| AW-Kennz. Umsatz | Auswertungsposition zur Steuerung des Umsatzsteuerformulars. In der Beispielliste für [Auswertungspositionen](./steuersaetze_einrichten/stammdaten_auswertungspositionen.md) wären es die Zeilen 350, 360 oder 370 und somit die Kennziffern 89,93 oder 95 je nach Einfuhrsteuersatz.<br> |
+| Steuer | Bleibt frei, also 0.<br> |
+| Einfuhrsteuer (MwSt) | Hier gehört die Auswertungsposition analog des AW-Kennzeichens hinein, also auch 350, 360 oder 370 je nach Einfuhrsteuersatz. Auf dem Umsatzsteuerformular wird hier dann die fiktive anfallende Erwerbssteuer errechnet und ausgewiesen.<br> |
+| Einfuhrsteuer (Vst) | Hier gehört die Auswertungsposition hinein, die die Vorsteuerbeträge aus dem innergemeinschaftlichen Erwerb von Gegenständen kennzeichnet. In der Beispielliste wäre es die Zeile 560. Es wird dann analog zur Einfuhrsteuer1 die errechnete fiktiv anfallende Erwerbssteuer wieder abgezogen.<br> |
 
 *2.* Es werden zwei weitere Steuerzeilen an den Belegen angehängt, die die Steuer auf den Konten ausweisen. Um dies zu erreichen, sind folgende Einstellungen notwendig.  
     
@@ -36,23 +29,14 @@ Um die Steuer für den Innergemeinschaftlichen Erwerb auf dem USTVA-Formular aus
 
 | **Feld** | **Beschreibung** |
 | --- | --- |
-| Steuerformel | Innergemeinschaftlicher Erwerb  
- |
-| Steuersatz | 0,00 als tatsächlicher Steuersatz ( Feld ist gesperrt)  
- |
-| Satz innergem.Erw. | Steuersatz, dem der Artikel eigentlich unterliegt.  
- |
-| Konto innergem.Erw. MwSt. | Steuerkonto auf das die anfallende Erwerbssteuer gebucht werden soll.  
- |
-| Konto innergem.Erw.VSt. | Steuerkonto von dem die anfallende Erwerbssteuer abgezogen werden soll.  
- |
-| AW-Kennz. Umsatz | Auswertungsposition zur Steuerung des Umsatzsteuerformulars. In der Beispielliste für [Auswertungspositionen](./steuersaetze_einrichten/stammdaten_auswertungspositionen.md) wären es die Zeilen 350, 360 oder 370 und somit die Kennziffern 89,93 oder 95 je nach Einfuhrsteuersatz.  
- |
-| Steuer | Bleibt frei, also 0. (Feld ist gesperrt)  
- |
-| Einfuhrsteuer (MwSt) | Hier gehört die Auswertungsposition analog des AW-Kennzeichens hinein, also auch 350, 360 oder 370 je nach Einfuhrsteuersatz. Es werden die im Beleg gebuchten Werte herangezogen.  
- |
-| Einfuhrsteuer (Vst) | Hier gehört die Auswertungsposition hinein, die die Vorsteuerbeträge aus dem innergemeinschaftlichen Erwerb von Gegenständen kennzeichnet. In der Beispielliste wäre es die Zeile 560. Es werden die im Beleg gebuchten Werte herangezogen.  
- |
+| Steuerformel | Innergemeinschaftlicher Erwerb<br> |
+| Steuersatz | 0,00 als tatsächlicher Steuersatz ( Feld ist gesperrt)<br> |
+| Satz innergem.Erw. | Steuersatz, dem der Artikel eigentlich unterliegt.<br> |
+| Konto innergem.Erw. MwSt. | Steuerkonto auf das die anfallende Erwerbssteuer gebucht werden soll.<br> |
+| Konto innergem.Erw.VSt. | Steuerkonto von dem die anfallende Erwerbssteuer abgezogen werden soll.<br> |
+| AW-Kennz. Umsatz | Auswertungsposition zur Steuerung des Umsatzsteuerformulars. In der Beispielliste für [Auswertungspositionen](./steuersaetze_einrichten/stammdaten_auswertungspositionen.md) wären es die Zeilen 350, 360 oder 370 und somit die Kennziffern 89,93 oder 95 je nach Einfuhrsteuersatz.<br> |
+| Steuer | Bleibt frei, also 0. (Feld ist gesperrt)<br> |
+| Einfuhrsteuer (MwSt) | Hier gehört die Auswertungsposition analog des AW-Kennzeichens hinein, also auch 350, 360 oder 370 je nach Einfuhrsteuersatz. Es werden die im Beleg gebuchten Werte herangezogen.<br> |
+| Einfuhrsteuer (Vst) | Hier gehört die Auswertungsposition hinein, die die Vorsteuerbeträge aus dem innergemeinschaftlichen Erwerb von Gegenständen kennzeichnet. In der Beispielliste wäre es die Zeile 560. Es werden die im Beleg gebuchten Werte herangezogen.<br> |
 
 In den Auswertungen werden beide Arten gleichberechtigt behandelt. Eine Umstellung der Steuerformel auf „innergemeinschaftlichen Erwerb“ ist also auch unterjährig möglich.

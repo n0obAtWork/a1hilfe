@@ -23,8 +23,7 @@ So ermittelte Parameter werden gecached.
 | --- | --- |
 | Parameter | Der Name des Parameters |
 | Wert | Der Wert des Parameters |
-| Zugriffe | Gibt die Anzahl der Ermittlungen des Parameters innerhalb der aktuellen Laufzeit vom Programm an.  
-Hinweis: Da die Parameter zwischengespeichert sind erfolgt nicht jedes Mal ein erneuter Zugriff auf externe Ressourcen. |
+| Zugriffe | Gibt die Anzahl der Ermittlungen des Parameters innerhalb der aktuellen Laufzeit vom Programm an.<br>Hinweis: Da die Parameter zwischengespeichert sind erfolgt nicht jedes Mal ein erneuter Zugriff auf externe Ressourcen. |
 | HERKUNFT | 
 ```text
 Gibt an wo das Parameter den Wert für den Parameter

@@ -35,15 +35,6 @@ Da ein Behandlungsschema unter Umständen auch von einem Makro aufgerufen wird, 
 | Nullpreis im Ziel | Beibehalten / Abbruch / Akzeptieren mit und ohne Warnung | Ist in einer Warenposition nach dem Kundenwechsel ein Null-Preis, weil u.U. keine Preiseinrichtung existiert, so kann dieser Nullpreis akzeptiert, durch den ursprünglichen Preis überschrieben oder der Wechsel abgebrochen werden. |
 | Abweichende Zahlungsbedingung | Beibehalten / Abbruch / Akzeptieren mit und ohne Warnung | Wird durch den Kundenwechsel eine andere Zahlungsbedingung gewählt, als im Vorgang definiert wurde, so kann entschieden werden, ob dies erlaubt sein soll, die alte Zahlungsbedingung erhalten bleiben soll oder die neue verwendet werden soll. |
 | Behandlung der Versandanschrift | Verwerfen der Versandanschrift / Erhalten der Versandanschrift | Ist in einer Warenposition nach dem Kundenwechsel ein Null-Preis, weil u.U. keine Preiseinrichtung existiert, so kann dieser Nullpreis akzeptiert, durch den ursprünglichen Preis überschrieben oder der Wechsel abgebrochen werden. |
-| Verkaufsbeschränkungen nicht aufgelöst | Abbruch oder weiter mit Warnung wenn möglich | Bestehen für Artikel des Belegs Verkaufsbeschränkungen, für die der neue Kunde kein Zertifikat hat, so muss eine Entscheidung getroffen werden:  
-   
-**Einstellung "Abbruch":**  
-Abbruch des Kundenwechsels mit der Angabe der betroffenen Artikel.  
-   
-**Einstellung „Weiter mit Warnung wenn möglich“:**  
-In Abhängigkeit der Einstellung des Steuerparameters 1001 wird verfahren:  
-\* Die Einstellung "Erfassung abweisen" sorgt für einen Abbruch  
-\* Die Einstellung "Abfrage in der GUI" sorgt dafür, dass der Kundenwechsel vollzogen wird, aber für die entsprechenden Artikel eine Warnung ausgegeben wird.  
-Der Anwender muss in diesem Fall die Kaufberechtigung des Kunden persönlich prüfen. |
+| Verkaufsbeschränkungen nicht aufgelöst | Abbruch oder weiter mit Warnung wenn möglich | Bestehen für Artikel des Belegs Verkaufsbeschränkungen, für die der neue Kunde kein Zertifikat hat, so muss eine Entscheidung getroffen werden:<br> <br>**Einstellung "Abbruch":**<br>Abbruch des Kundenwechsels mit der Angabe der betroffenen Artikel.<br> <br>**Einstellung „Weiter mit Warnung wenn möglich“:**<br>In Abhängigkeit der Einstellung des Steuerparameters 1001 wird verfahren:<br>\* Die Einstellung "Erfassung abweisen" sorgt für einen Abbruch<br>\* Die Einstellung "Abfrage in der GUI" sorgt dafür, dass der Kundenwechsel vollzogen wird, aber für die entsprechenden Artikel eine Warnung ausgegeben wird.<br>Der Anwender muss in diesem Fall die Kaufberechtigung des Kunden persönlich prüfen. |
 | Nachhaltigkeit Statusänderung | Weiter oder Abbruch je mit oder ohne Meldung | Wird der Status einer oder mehrerer Positionen von Nachhaltigkeit zu Nicht-Nachhaltigkeit oder umgekehrt geändert, so wird hier gewarnt und ggf. auch abgebrochen. |
 | | | |
