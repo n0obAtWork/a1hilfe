@@ -12,7 +12,7 @@ Die Makros werden mit 4 Übergabeparametern aufgerufen.
 
 Die Daten für den Vorgang und die Positionen werden in JVARS zwischengespeichert. Diese können im Makro über den entsprechenden JVARS-Owner ausgelesen und geändert werden. Alternativ können über den Namen des Vorgangshelper-Objekts eigene JPP-Funktionen aufgerufen werden, um die Verarbeitung zu beeinflussen.
 
-Vorgangskopf JVARS
+<p class="just-emphasize">Vorgangskopf JVARS</p>
 
 | ![\*](../../../ImagesExt/image8_1557.jpg "*") JVAR Name | ![\*](../../../ImagesExt/image8_1557.jpg "*") Beschreibung |
 | --- | --- |
@@ -28,7 +28,7 @@ Vorgangskopf JVARS
 | ![\*](../../../ImagesExt/image8_1556.jpg "*") VALUE_Jahr | ![\*](../../../ImagesExt/image8_1556.jpg "*") Jahr des Belegs |
 | ![\*](../../../ImagesExt/image8_1556.jpg "*") VALUE_ValutaDatum | ![\*](../../../ImagesExt/image8_1556.jpg "*") Valutatdatum des Belegs |
 
-Position JVARS
+<p class="just-emphasize">Position JVARS</p>
 
 | ![\*](../../../ImagesExt/image8_1555.jpg "*") JVAR Name | ![\*](../../../ImagesExt/image8_1555.jpg "*") Beschreibung |
 | --- | --- |

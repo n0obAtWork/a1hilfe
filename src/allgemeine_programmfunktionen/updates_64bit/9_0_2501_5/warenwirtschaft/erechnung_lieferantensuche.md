@@ -4,7 +4,7 @@
 
 Die Importstatus von eRechnungsimport wurde um "Kundensuche durchlaufen" und "Kundensuche erfolgreich" bzw. "Kundensuche fehlgeschlagen" ergänzt. Wird im Profil eingestellt, dass eine Kundensuche nicht zum Abbruch führt, so endet der Import bei fehlgeschlagener Kundensuche mit "Import erfolgreich" 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 745812[36724]
 

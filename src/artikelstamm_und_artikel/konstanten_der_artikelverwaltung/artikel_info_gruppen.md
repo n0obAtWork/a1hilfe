@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Konstanten Artikelstamm > Artikel-Info-Gruppen
 
-oder Direktsprung [ARI]
+oder Direktsprung **[ARI]**
 
 Artikel-Info-Gruppen können unabhängig von Warengruppen und dgl. je Artikelstamm vergeben werden, um Artikel in anderer, selbstdefinierter Weise zu gruppieren (für Selektionen und Sortierungen).
 

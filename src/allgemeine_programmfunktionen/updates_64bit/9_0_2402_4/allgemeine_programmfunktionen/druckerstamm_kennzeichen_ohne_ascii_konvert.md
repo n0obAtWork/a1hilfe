@@ -4,7 +4,7 @@
 
 Im Zusammenhang mit dem Feature "Queue / Datei" und dem Druck in eine Datei wurde offenbar das Kennzeichen "Ohne ASCII Konvert." nicht berücksichtigt. Das führte dazu das die Umlaute der üblichen Sonderbehandlung im ASCII-Druck-Umfeld unterlagen, was aber im "Datei-Druck" zu Fehlern führt, da dieser die Umlaute schon richtig erzeugt. Durch den nun funktionierenden Schalter lässt sich die "Sonderbehandlung" abstellen, mit dem Effekt das die Umlaute unverändert und richtig durchgeleitet werden. Zusätzliche Erläuterung sei erwähnt:Wenn z.B. in eine Spool-Datei (Notepad) / auf ein Fax gedruckt wurde, wurden gewisse Zeichen (z.B. Umlaute) nicht korrekt dargestellt. Hierfür ist dieses Kennzeichen eingerichtet. Wird dieses auf "Ja" gestellt, wird die zusätzliche Zeichenkonvertierung ausgeschaltet und auch diese Sonderzeichen werden korrekt dargestellt. Die "Defaulteinstellung" ist "Nein", das Verhalten bleibt wie bisher. Bei normalen Druckern sollte die Voreinstellung "Nein" beibehalten bleiben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 740321[35876]
 

@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Kunden-/Lieferanten > Interessentenstamm
 
-oder Direktsprung [IN]
+oder Direktsprung **[IN]**
 
 Hier werden Interessenten erfasst. Die Erfassung in der Maske entspricht der von Kunden (siehe dazu [Hauptmaske](./kunden_und_lieferantenstamm/hauptmaske/index.md) unter Kunden- und Lieferantenstamm).
 

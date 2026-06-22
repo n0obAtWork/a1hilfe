@@ -4,7 +4,7 @@
 
 Paralleles Bearbeiten des Rosi-Exports ist nicht mehr möglich und die Fehlerprotokoll-Prüfung wird auf die Datenbank-Verbindung beschränkt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 718777[33940]
 

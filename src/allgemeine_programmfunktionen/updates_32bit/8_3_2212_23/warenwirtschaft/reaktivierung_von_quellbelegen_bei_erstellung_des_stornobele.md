@@ -4,7 +4,7 @@
 
 In der Formularzuordnung [FRZ] auf dem Tab-Reiter Allgemein gibt es jetzt die Einstellungsmöglichkeit: "Quellbeleg freigeben bei Stornobeleg". Eingestellt werden kann: Ja - Der Quellbeleg wird immer freigegeben Nein - Der Quellbeleg wird nie freigegeben Abfrage - Der Quellbeleg wird freigegeben, wenn dies auf der Umwandelmaske eingestellt wird. Achtung: Auf der Umwandelmaske ist die Einstellung immer zu sehen, auch wenn diese nicht ausgewertet wird, da in [FRZ] ein festes Verhalten hinterlegt ist. Hinweis: Der SPA 987 ("Quellbelegreaktivierung bei Stornieren/Löschen von Warebelegen (BA,AG,BS,AU,LI,RE)-") bleibt hiervon unberührt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 714299[32857]
 

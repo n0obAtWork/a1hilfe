@@ -4,7 +4,7 @@
 
 Bei der Erfassung eines neuen Mengenzeitraums konnte es, bei Eingabe einer Menge oder Summe von mindestens 1.000 oder mehr, zu einem Fehler bei der internen Verarbeitung des Tausender-Trennzeichens kommen. In diesem Fall wurde der Punkt als das englische Dezimaltrennzeichen interpretiert, wodurch die Summe um den Faktor 1000 zu niedrig in der Datenbank abgespeichert wurde. Der Fehler wurde nun behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 737982[35655]
 

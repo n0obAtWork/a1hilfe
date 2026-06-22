@@ -4,7 +4,7 @@
 
 In der Anwendung Preiskonditionen [PRI] wird auf dem Tabreiter "Allgemein", in der Tabelle "individuelle Preise", das Feld "Brutto" mit dem im Kundenstamm hinterlegtem Kennzeichen für Bruttorechnung vorbelegt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 736546[35452]
 

@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Firmenkonstanten > Zugriffsrechte Rolle > Rollenklasse
 
-oder Direktsprung [ROLLE]
+oder Direktsprung **[ROLLE]**
 
 Hier kann hauptsächlich die Zuordnung der [Rolle](../rollenstamm/index.md) zu den [Bedienerklassen](../../bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/bedienerstamm_pfleger.md) eingesehen werden.
 
@@ -17,7 +17,7 @@ Eine etwas dynamischere Herangehensweise ist z.B. mit dem [Rollenpfleger](../rol
 
 | Funktionen |
 | --- |
-| Löschen (F7) | Löscht Rollenklasse. |
-| Speichern (F9) | Speichert ggf. Änderungen. |
-| Neu (F8) | Legt eine neue Rollenklasse an. |
-| Speichern unter… (Shift+F9) | Übernimmt die Rollenklasse und bietet somit die Möglichkeit daraus eine neue Rollenklasse zu bilden. |
+| Löschen (**F7**) | Löscht Rollenklasse. |
+| Speichern (**F9**) | Speichert ggf. Änderungen. |
+| Neu (**F8**) | Legt eine neue Rollenklasse an. |
+| Speichern unter… (**Shift+F9**) | Übernimmt die Rollenklasse und bietet somit die Möglichkeit daraus eine neue Rollenklasse zu bilden. |

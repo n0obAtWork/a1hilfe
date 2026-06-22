@@ -4,7 +4,7 @@
 
 Die Möglichkeiten des Archivs und des Dashboards machen eine weitere notwendige Software-Pflege des "Info-Center" im Haupt-Menü obsolet. Dieser Programmteil wurde entfernt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[36368]
 

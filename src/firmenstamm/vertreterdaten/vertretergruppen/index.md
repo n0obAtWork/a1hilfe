@@ -4,7 +4,7 @@
 
 Hauptmenü > Nebenbuchhaltungen > Vertreterabrechnung > Vertretergruppen
 
-Direktsprung [VEG]
+Direktsprung **[VEG]**
 
 Vertretergruppen können bei der Provisionierung und den Anteilen wie Vertreter behandelt werden. Richtig erfasst erlauben sie es, ein- und mehrstufige Provisionierungen, Gebietsaufteilungen, Einsatz unterschiedlichster Provisionierungsmodelle durchzuführen.
 

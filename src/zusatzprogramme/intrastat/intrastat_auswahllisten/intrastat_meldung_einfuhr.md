@@ -60,8 +60,8 @@ Siehe auch:
 
 | Suchen | Beschreibung |
 | --- | --- |
-| Einfuhr erzeugen (F9) | Erstellt die Intrastat Dateien, je nach Einstellungen der [Intrastat Einrichtung](./intrastat_einrichten.md) (XML/ASCII)  
+| Einfuhr erzeugen (**F9**) | Erstellt die Intrastat Dateien, je nach Einstellungen der [Intrastat Einrichtung](./intrastat_einrichten.md) (XML/ASCII)  
 Der Export wird **nicht** nach den eingegeben Suchkriterien erstellt, sondern immer auf Basis aller Daten (eingegrenzt von Jahr & Periode) |
-| Intrastat einrichten (F10) | Ruft die Maske zu [Intrastat Einrichtung](./intrastat_einrichten.md) auf |
+| Intrastat einrichten (**F10**) | Ruft die Maske zu [Intrastat Einrichtung](./intrastat_einrichten.md) auf |
 
 </details>

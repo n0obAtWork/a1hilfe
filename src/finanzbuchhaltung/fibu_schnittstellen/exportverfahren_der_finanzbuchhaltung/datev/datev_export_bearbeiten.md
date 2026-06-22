@@ -4,7 +4,7 @@
 
 Hauptmenü > Abschlussarbeiten > DATEV / Import / Export > Datev-Export bearbeiten
 
-Direktsprung [DATEV]
+Direktsprung **[DATEV]**
 
 Hier stehen Funktionalitäten zur Verfügung:
 

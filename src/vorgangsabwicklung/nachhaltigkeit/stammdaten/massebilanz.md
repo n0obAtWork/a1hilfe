@@ -4,7 +4,7 @@
 
 Hauptmenü > Wareneinkauf > Nachhaltigkeit > Bewegungsübersicht > Variante Massebilanz
 
-Direktsprung [NAART]
+Direktsprung **[NAART]**
 
 Die Massebilanz enthält die zugeordneten Warenbewegungen, den jeweiligen Vortrag und CO2-Wert, welche in den jeweiligen Report angezeigt werden.
 

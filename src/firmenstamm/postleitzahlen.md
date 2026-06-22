@@ -4,6 +4,6 @@
 
 Hauptmenü > Stammdatenpflege > Allgemeine Stammdaten > Postleitzahlen
 
-Direktsprung [PLZ]
+Direktsprung **[PLZ]**
 
 Postleitzahlen können hier zentral erfasst und gepflegt werden. Im Auslieferungsumfang ist das offizielle Verzeichnis für Deutschland enthalten.

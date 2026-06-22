@@ -2,9 +2,9 @@
 
 <!-- source: https://amic.de/hilfe/lexwarelohngehaltplus.htm -->
 
-Hauptmenü > Abschlussarbeiten > DATEV / Import / Export > Import > Funktion **F9** Import Starten > Funktion **F4** Importdatei lesen
+Hauptmenü > Abschlussarbeiten > DATEV / Import / Export > Import > Funktion **F9** Import Starten > Funktion **F4** ***Importdatei lesen***
 
-Direktsprung **[FIIM]**
+Direktsprung ****[FIIM]****
 
 Bei dieser Schnittstelle handelt es sich um den Import der Lohndaten aus der Software "Lexware Lohn und Gehalt Plus". Es handelt sich hierbei um reine Sachkontenbuchungen. Den Export der Buchungsdaten findet man in dieser Software im Menü unter:
 

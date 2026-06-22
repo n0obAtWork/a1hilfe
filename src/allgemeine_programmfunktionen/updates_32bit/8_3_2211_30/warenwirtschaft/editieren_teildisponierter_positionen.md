@@ -4,7 +4,7 @@
 
 Mit einer passenden Einstellung im [FRZ] (Tabreiter: Sperren - Teildisponierte Position editierbar) ist es nun möglich, teildisponierte Positionen im Quellbeleg nachträglich zu ändern. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 708903[32077]
 

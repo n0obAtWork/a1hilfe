@@ -30,5 +30,5 @@ Damit die Kirchensteuer für bestimmte Kunden berechnet wird, muss in der [Zinsg
  |
 | Text | Dieser Text wird beim Erstellen des Beleges unter „Übernahme in die Primanota“ verwendet. Gemäß § 45a Absatz 2 und 3 EStG muss bei einer Bescheinigung über Kapitalertragsteuer neben dem Kirchensteuerbetrag nach § 51a Abs. 2c Satz 6 EStG die steuererhebende Religionsgemeinschaft im Klartext (z. B. Bistum Essen, Evangelische Landeskirche in Baden) erscheinen.  
    
-**HINWEIS:** *Damit dieser Text auf der* [Steuerbescheinigung](../steuerbescheinigung_kapitalertragssteuer.md)*, die als Formularvorlage -1200 zur Verfügung steht, erscheint, darf für das hier verwendete Konto kein Kontotext unter [FITXT] hinterlegt sein.*  
+**HINWEIS:** *Damit dieser Text auf der* [Steuerbescheinigung](../steuerbescheinigung_kapitalertragssteuer.md)*, die als Formularvorlage -1200 zur Verfügung steht, erscheint, darf für das hier verwendete Konto kein Kontotext unter **[FITXT]** hinterlegt sein.*  
  |

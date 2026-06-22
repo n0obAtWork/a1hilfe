@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Archiv > Zugriffssteuerung
 
-Direktsprung [FAA]
+Direktsprung **[FAA]**
 
 In dieser administrativen Anwendung „**Archiv Ansichten**“ werden die [Archiv-Ansichten](../archiv_ansicht_definition/index.md) gepflegt.
 
@@ -22,7 +22,7 @@ Neben den üblichen Pflege-Funktionen stehen folgende Spezial-Funktionen bereit:
 
 | |
 | --- |
-| Details … F5 | Wechselt in die Archiv-Ansichten-Details.  
+| ***Details …*** **F5** | Wechselt in die Archiv-Ansichten-Details.  
 [Ansichten Details](./archiv_ansichten_details.md) |
 | Duplizieren | Dupliziert eine Archiv-Ansichts-Definition samt ihrer Details.  
 Dabei wird vorher eine Bedienerklasse abgefragt, die dem Duplikat dann zugewiesen wird.  

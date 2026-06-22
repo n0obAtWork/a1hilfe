@@ -4,7 +4,7 @@
 
 Wird in einer unter EXCELI zugeordneten Anwendung die Funktion "Excelimport aktualisieren" aufgerufen, wird die Variante jetzt direkt mit den neuen Daten aufgebaut.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 728348[34532]
 

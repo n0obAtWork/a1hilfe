@@ -4,7 +4,7 @@
 
 Der Scanner Webdienst übergibt das Fokuskennzeichen an die Android Scanner App.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[35130]
 

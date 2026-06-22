@@ -26,13 +26,13 @@ c. SQL-Prozedur ausführen.
 
 d. Crystal Report ausführen.
 
-5) Mithilfe des Schutzsystems „Zugriffsrechte Varianten“ (Direktsprung [ZUGV]) muss die Variante „Zahlungen nach DTA-Laufnr. Vieraugen“ für die Kontroll-Bedienerklasse erlaubt sein, alle anderen Varianten müssen für diese Bedienerklasse gesperrt sein.
+5) Mithilfe des Schutzsystems „Zugriffsrechte Varianten“ (Direktsprung **[ZUGV]**) muss die Variante „Zahlungen nach DTA-Laufnr. Vieraugen“ für die Kontroll-Bedienerklasse erlaubt sein, alle anderen Varianten müssen für diese Bedienerklasse gesperrt sein.
 
-Ist alles so weit eingerichtet, können die Zahlungen wie gewohnt erstellt werden. Ein Anwender aus der Kontroll-Bedienerklasse kann anschließend die Zahlung prüfen, die DTA-Datei erstellen und transportieren. Dafür muss die Funktion Transfer starten F9 in der Variante „Zahlungen nach DTA-Laufnr. Vieraugen“ ausgeführt werden.
+Ist alles so weit eingerichtet, können die Zahlungen wie gewohnt erstellt werden. Ein Anwender aus der Kontroll-Bedienerklasse kann anschließend die Zahlung prüfen, die DTA-Datei erstellen und transportieren. Dafür muss die Funktion ***Transfer starten*** **F9** in der Variante „Zahlungen nach DTA-Laufnr. Vieraugen“ ausgeführt werden.
 
 ![Ein Bild, das Text, Screenshot, Software, Computersymbol enthält. Automatisch generierte Beschreibung](../../../ImagesExt/image8_660.png "Ein Bild, das Text, Screenshot, Software, Computersymbol enthält. Automatisch generierte Beschreibung")
 
-Diese Maske enthält genau wie die Maske für das Erstellen des DTA’s [Einrichterparameter](../../../firmenstamm/einrichterparameter/vieraugenprinzip_zahlungsverkehr_epa_zahlungen_vieraugenprin.md), in denen man Skripte angeben kann, die nach erfolgter Übertragung (Funktion „Zahlung übertragen“ F9) ausgeführt werden.
+Diese Maske enthält genau wie die Maske für das Erstellen des DTA’s [Einrichterparameter](../../../firmenstamm/einrichterparameter/vieraugenprinzip_zahlungsverkehr_epa_zahlungen_vieraugenprin.md), in denen man Skripte angeben kann, die nach erfolgter Übertragung (Funktion „***Zahlung übertragen***“ **F9**) ausgeführt werden.
 
 Auf der sich öffnenden Maske stehen folgende Funktionen zur Verfügung:
 

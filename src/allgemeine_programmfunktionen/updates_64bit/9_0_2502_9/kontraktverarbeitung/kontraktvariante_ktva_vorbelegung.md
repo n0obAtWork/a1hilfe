@@ -4,7 +4,7 @@
 
 In den Kontraktvarianten [KTVA] können als Teil der Bereiche Festtexte eingerichtet werden. Für diese können nun wieder Textbausteine gepflegt werden. Für die Pflege der Festtexte wurde jetzt ein neues Feld "Textbaustein aktiv" hinzugefügt. Dieses Feld kann als mögliche Ausprägungen "Ja" oder "Nein" annehmen. Beim Erfassen eines Kontraktes, oder beim Neuziehen einer Kontraktvariante, werden Textbausteine die mit "Textbaustein aktiv" "nein" definiert sind, als nicht aktiv übernommen. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 752023[38820]
 

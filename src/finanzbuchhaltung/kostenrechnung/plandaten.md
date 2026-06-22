@@ -10,7 +10,7 @@ Plandaten lassen sich auf verschiedene Ebenen erfassen:
 
 3) Für Konten, Kostenstellen und Kostenträger.
 
-Die Erfassung der Planzahlen für die Kombination aus Konto, Kostenstelle und Kostenträger erreicht man über den Direktsprung [PLAN].
+Die Erfassung der Planzahlen für die Kombination aus Konto, Kostenstelle und Kostenträger erreicht man über den Direktsprung **[PLAN]**.
 
 ![Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_689.png "Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung")
 

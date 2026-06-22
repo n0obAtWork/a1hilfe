@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/zustapelhinzufgen.htm -->
 
-Durch Aufruf der Funktion „zu Stapel hinzufügen“ Strg+F8 werden automatisch die ausgewählten Datensätze zu einem Stapel hinzugefügt. Es ist dazu nicht zwingend notwendig, vorher einen Stapel anzulegen. Dabei wird nach folgender Logik der Stapel bestimmt:
+Durch Aufruf der Funktion „***zu Stapel hinzufügen***“ **Strg+F8** werden automatisch die ausgewählten Datensätze zu einem Stapel hinzugefügt. Es ist dazu nicht zwingend notwendig, vorher einen Stapel anzulegen. Dabei wird nach folgender Logik der Stapel bestimmt:
 
 1. Existiert noch kein Stapel, so wird automatisch ein Stapel mit dem Namen „Stapel_1“ angelegt.
 

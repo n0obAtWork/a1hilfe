@@ -4,7 +4,7 @@
 
 Erfassungsreihenfolge bei Bedienung über die Tastatur der Kassenabschluss-Zählmaske wurde korrigiert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 738680[35734]
 

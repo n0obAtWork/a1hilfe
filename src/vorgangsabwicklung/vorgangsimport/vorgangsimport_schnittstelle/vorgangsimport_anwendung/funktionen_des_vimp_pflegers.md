@@ -9,9 +9,9 @@ In der Optionbox der Masken und der Auswahlliste existieren folgende Funktionen:
 
 | Funktion | Beschreibung |
 | --- | --- |
-| Status zurücksetzen. (STRG+F5) | Mit dieser Funktion wird auf der Auswahlliste der markierte Datensatz, wenn der Status 3 bis 7 oder 9 ist, auf 2 zurückgesetzt. Bei Problemen werden diese im Fehlerprotokoll angezeigt. |
-| Datensatz als gelöscht markieren. (STRG+F7) | Mit dieser Funktion wird der Status auf 9 gesetzt. |
-| Löschen (F7) | Öffnet die VIMP-Pfleger-Maske für den markierten Datensatz im Löschmodus. Es kann nur gelöscht werden, wenn der Status vorher auf 9 gesetzt wurde. |
+| Status zurücksetzen. **(STRG+F5)** | Mit dieser Funktion wird auf der Auswahlliste der markierte Datensatz, wenn der Status 3 bis 7 oder 9 ist, auf 2 zurückgesetzt. Bei Problemen werden diese im Fehlerprotokoll angezeigt. |
+| Datensatz als gelöscht markieren. **(STRG+F7)** | Mit dieser Funktion wird der Status auf 9 gesetzt. |
+| Löschen **(F7)** | Öffnet die VIMP-Pfleger-Maske für den markierten Datensatz im Löschmodus. Es kann nur gelöscht werden, wenn der Status vorher auf 9 gesetzt wurde. |
 | Standardvorgang erzeugen | Es wird aus den Daten des markierten Vorgangsimportes ein Vorgang erzeugt. Bei Problemen werden diese im Fehlerprotokoll angezeigt. |
 
 Für die Funktion Status zurücksetzen gibt es einen Sonderfall. Vorgangsimport mit Vorgangsklasse 500(Ladeschein) und 1500(Eingangsladschein) werden mit der Funktion immer auf Status 5 gesetzt.

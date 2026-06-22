@@ -4,13 +4,13 @@
 
 Hauptmenü > Administration > Nummernkreise
 
-Oder Direktsprung: [NKS]
+Oder Direktsprung: **[NKS]**
 
 Unter dem einheitlichen Dach des Nummernkreispflegers sind zwei grundsätzliche Funktionen vereint:
 
 Festlegung und Kontrolle von Nummernkreisen für Stammdaten und Belege
 
-(z.B. Kunden zwischen 10000 und 69999; siehe Eintrag im Mandantenstamm [MND])
+(z.B. Kunden zwischen 10000 und 69999; siehe Eintrag im Mandantenstamm **[MND]**)
 
 Bereitstellung der nächsten Beleg- oder Stammdatennummer bei der Beleg- bzw. Vorgangserfassung
 

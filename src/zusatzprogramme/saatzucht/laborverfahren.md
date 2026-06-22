@@ -4,11 +4,11 @@
 
 Hauptmenü > Saatzucht > Saatenlabor > Verfahren
 
-oder Direktsprung [LABVE]
+oder Direktsprung **[LABVE]**
 
 In diesem Stammdatenpfleger werden die Daten über Laborverfahren gepflegt. Der Einrichterparameter „[Erweiterte Einstellungen](../../firmenstamm/einrichterparameter/laborverfahren_epa_laborverfahren.md)“ erlaubt weitere Eingabemöglichkeiten auf der Maske.
 
-Erfassungsmaske
+<p class="just-emphasize">Erfassungsmaske</p>
 
 Es stehen folgende Eingabefelder und Eingabemöglichkeiten zur Verfügung.
 
@@ -91,7 +91,7 @@ Steht der Einrichterparameter „Erweiterte Einstellungen“ auf „Nein“, so 
 | Abfragen | Hiermit wird gesteuert, ob die oben vorbelegten Daten im Pfleger der Labordaten noch geändert werden können.  
  |
 
-Feuchte Grunddaten
+<p class="just-emphasize">Feuchte Grunddaten</p>
 
 Die Felder zu „Feuchte Grunddaten“ sind nur verfügbar, wenn der Einrichterparameter „Erweiterte Einstellungen“ auf „Ja“ steht.
 
@@ -111,7 +111,7 @@ Die Ausprägungen sind im Anwenderformat AF_FESCHROTE hinterlegt und können erw
 Die Daten sind im Anwenderformat „AF_FETEMP“ hinterlegt und können erweitert werden.  
  |
 
-Hohlmaß Grunddaten
+<p class="just-emphasize">Hohlmaß Grunddaten</p>
 
 Die Eingabemöglichkeiten für Hohlmaß sind nur verfügbar, wenn der Einrichterparameter „Erweiterte Einstellungen“ auf „Ja“ steht.
 
@@ -120,7 +120,7 @@ Die Eingabemöglichkeiten für Hohlmaß sind nur verfügbar, wenn der Einrichter
 | Hohlmaß | In diesem Feld kann das Hohlmaß hinterlegt werden. Das Hohlmaß wird im Anwenderformat „AF_LABHOHLM“ gespeichert.  
  |
 
-Lufa Grunddaten
+<p class="just-emphasize">Lufa Grunddaten</p>
 
 Die Eingabemöglichkeiten für Lufa Grunddaten sind nur verfügbar, wenn der Einrichterparameter „Erweiterte Einstellungen“ auf „Ja“ steht
 
@@ -139,7 +139,7 @@ Die Eingabemöglichkeiten für Lufa Grunddaten sind nur verfügbar, wenn der Ein
 | ME | Mengeneinheit der Inhaltsstoffe. Vorbelegt aus Artikelbestandteile. Auswählbar über das Format „AF_LUFAME“  
  |
 
-E-Mail Laborleitung
+<p class="just-emphasize">E-Mail Laborleitung</p>
 
 | Name | Bedeutung |
 | --- | --- |
@@ -185,7 +185,7 @@ Felder auf der Registerkarte Merkmale
 
 Die Registerkarte „Merkmale“ wird nur angezeigt, wenn der Einrichterparameter „Erweiterte Einstellungen“ den Wert „Ja“ hat und die Detailprüfung auf „Kontrollanbau“ oder „Markeranalyse“ steht
 
-Feldversuch
+<p class="just-emphasize">Feldversuch</p>
 
 | Name | Bedeutung |
 | --- | --- |
@@ -195,12 +195,12 @@ Feldversuch
  |
 | Menge | Menge für den Feldversuch.  
  |
-| Merkmal | Merkmale für die phänotypische Untersuchung. Mit der Taste **F3** kann eine Auswahl über die [Qualitätsmerkmale](./qualitaetsmerkmale.md) (Direktspring [SAATR])abgerufen werden, die in dem betreffenden Verfahren untersucht werden soll. Hier können nur Qualitätsmerkmale ausgewählt werden, die den Merkmalstyp „Phänotyp“ haben.  
+| Merkmal | Merkmale für die phänotypische Untersuchung. Mit der Taste **F3** kann eine Auswahl über die [Qualitätsmerkmale](./qualitaetsmerkmale.md) (Direktspring **[SAATR]**)abgerufen werden, die in dem betreffenden Verfahren untersucht werden soll. Hier können nur Qualitätsmerkmale ausgewählt werden, die den Merkmalstyp „Phänotyp“ haben.  
  |
 | Bezeichnung | Bezeichnung des Merkmals.  
  |
 
-Markeranalyse
+<p class="just-emphasize">Markeranalyse</p>
 
 | Name | Bedeutung |
 | --- | --- |
@@ -210,7 +210,7 @@ Markeranalyse
  |
 | Anzahl | Anzahl an Datenpunkten mit denen das jeweilige Merkmal mit dem entsprechenden Marker untersucht werden soll.  
  |
-| Merkmal | Merkmale für die genotypische Untersuchung. Mit der Taste **F3** kann eine Auswahl über die [Qualitätsmerkmale](./qualitaetsmerkmale.md) (Direktspring [SAATR]) abgerufen werden, die in dem betreffenden Verfahren untersucht werden soll. Hier können nur Qualitätsmerkmale ausgewählt werden, die den Merkmalstyp „Genotyp“ haben.  
+| Merkmal | Merkmale für die genotypische Untersuchung. Mit der Taste **F3** kann eine Auswahl über die [Qualitätsmerkmale](./qualitaetsmerkmale.md) (Direktspring **[SAATR]**) abgerufen werden, die in dem betreffenden Verfahren untersucht werden soll. Hier können nur Qualitätsmerkmale ausgewählt werden, die den Merkmalstyp „Genotyp“ haben.  
  |
 | Bezeichnung | Bezeichnung des Merkmals.  
  |

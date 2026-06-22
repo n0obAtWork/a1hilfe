@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Archiv > Zugriffssteuerung > Ansichten - Vorkommen
 
-Direktsprung [FAA]
+Direktsprung **[FAA]**
 
 In dieser administrativen Variante „**Ansichten - Vorkommen**“ werden die technischen Aufrufe der Archiv-Ansichten innerhalb von A.eins offengelegt.
 
@@ -26,7 +26,7 @@ Sie verschafft eine Übersicht darüber, in welcher Optionbox (der dazugehörige
 | EA | |
 | Gruppe | Siehe Gruppe |
 | Taste | Die zugeordnete Funktionstaste im Kontext.  
-Standard ist CF12. |
+Standard ist **CF12**. |
 | SteuPa | Steuerparameter  
 Lizenzspa für Archiv ist SPA 508 |
 
@@ -37,10 +37,10 @@ Funktion, Beschriftung, Optionbox, „Zugehörige Anwendung“, „bzw. Variante
 
 | Funktionen | |
 | --- | --- |
-| Funktion ansehen/bearbeiten F11 | Funktion bearbeiten |
-| Ansicht ansehen F6 | Archiv-Ansichtsdefinition ansehen |
-| Ansicht bearbeiten F5 | Archiv-Ansichtsdefinition bearbeiten |
-| Funktion Informationen F9 | Funktionsinformationen |
+| ***Funktion ansehen/bearbeiten*** **F11** | Funktion bearbeiten |
+| ***Ansicht ansehen*** **F6** | Archiv-Ansichtsdefinition ansehen |
+| ***Ansicht bearbeiten*** **F5** | Archiv-Ansichtsdefinition bearbeiten |
+| ***Funktion Informationen*** **F9** | Funktionsinformationen |
 | Kontext … | Optionbox-Pfleger  
 (nur für Entwicklung) |
 | Starte Anwendung … | Startet die Anwendung  

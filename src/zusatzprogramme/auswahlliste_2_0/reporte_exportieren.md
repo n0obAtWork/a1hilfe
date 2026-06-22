@@ -18,7 +18,7 @@ Reportbezeichnung, Ausgabeformat, Ausgabedatei)
 | Ansicht | Die Ansicht ist Optional. Wenn man hier einen Leerstring übergibt, so wird die Standardansicht verwendet.  
  |
 | Reportbezeichnung  
- | Die Bezeichnung des Reports, den man unter Report bearbeiten angegeben hat und der unter Report drucken zu sehen ist.  
+ | Die Bezeichnung des Reports, den man unter ***Report bearbeiten*** angegeben hat und der unter ***Report drucken*** zu sehen ist.  
  |
 | Ausgabeformat | Hier muss eine Zahl angegeben werden. Es stehen folgende Formate zur Verfügung:  
    

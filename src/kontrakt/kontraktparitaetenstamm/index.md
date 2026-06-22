@@ -4,7 +4,7 @@
 
 Hauptmenü > Kontraktverwaltung > Paritätsstammdaten
 
-oder Direktsprung [PARI]
+oder Direktsprung **[PARI]**
 
 Der Begriff der Parität umschreibt die Kombination eines (vereinbarten oder tatsächlichen) Übergabeortes einer Ware mit bestimmten Übergabekonditionen.
 

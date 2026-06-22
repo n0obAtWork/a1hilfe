@@ -2,23 +2,23 @@
 
 <!-- source: https://amic.de/hilfe/_PFLMODUL_IPRRAB.htm -->
 
-Preise / Konditionen > Rabatte > allgemeine Rabatte [RAV]
+Preise / Konditionen > Rabatte > allgemeine Rabatte **[RAV]**
 
-Preise / Konditionen > Zu- und Abschläge > allgemeine Zu-/Abschläge [ZAVA]
+Preise / Konditionen > Zu- und Abschläge > allgemeine Zu-/Abschläge **[ZAVA]**
 
-Preise / Konditionen > Individualvereinbarungen > individuelle Preise/Rabatte VK [PRI]
+Preise / Konditionen > Individualvereinbarungen > individuelle Preise/Rabatte VK **[PRI]**
 
-Preise / Konditionen > Individualvereinbarungen > individuelle Preise/Rabatte EK [PRIE]
+Preise / Konditionen > Individualvereinbarungen > individuelle Preise/Rabatte EK **[PRIE]**
 
-Preise / Konditionen > Individualvereinbarungen > Individualpreise bearbeiten [PI]
+Preise / Konditionen > Individualvereinbarungen > Individualpreise bearbeiten **[PI]**
 
-Preise / Konditionen > Individualvereinbarungen > individuelle Rabatte VK [RAI]
+Preise / Konditionen > Individualvereinbarungen > individuelle Rabatte VK **[RAI]**
 
-Preise / Konditionen > Individualvereinbarungen > individuelle Rabatte EK [RAIEK]
+Preise / Konditionen > Individualvereinbarungen > individuelle Rabatte EK **[RAIEK]**
 
-Preise / Konditionen > Individualvereinbarungen > individueller Zu-/Abschlag VK [ZAI]
+Preise / Konditionen > Individualvereinbarungen > individueller Zu-/Abschlag VK **[ZAI]**
 
-Preise / Konditionen > Individualvereinbarungen > individueller Zu-/Abschlag EK [ZAIEK]
+Preise / Konditionen > Individualvereinbarungen > individueller Zu-/Abschlag EK **[ZAIEK]**
 
 Die Pflege von individuellen Preisen, individuellen Rabatten, individuellen Zu-/Abschlägen, Rabatten und Zu/-Abschlägen erfolgt über den Pfleger Preiskonditionen. Hierbei muss jeweils Einkauf und Verkauf unterschieden werden.
 

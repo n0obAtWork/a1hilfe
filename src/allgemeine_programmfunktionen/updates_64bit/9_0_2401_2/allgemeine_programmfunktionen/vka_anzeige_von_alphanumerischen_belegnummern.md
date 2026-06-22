@@ -4,7 +4,7 @@
 
 In der Anwendung Kunden-Verkaufsauswertung [VKA] in der Variante "Basis für QuickReport (VKA)" werden jetzt auch alphanumerische Belegnummern angezeigt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 733649[35113]
 

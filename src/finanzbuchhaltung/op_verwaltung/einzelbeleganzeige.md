@@ -29,7 +29,7 @@ Die Zahlsperre kann hier über die Funktion OP-Info oder direkt in der OP-Verwal
 Dieser Status besagt, dass versucht wurde einen Scheck zu drucken oder einen DTA auszuführen, jedoch die Informationen in den Stammdaten nicht ausreichend waren (z.B. fehlende Bankverbindung). Die genaue Fehlerursache wurde beim, Scheckdruck bzw. beim DTA ausgegeben. Nach Behebung des Problems kann der Scheckdruck / DTA wiederholt werden.
 
 • \*\*Zahlung unvollständig\*\*  
-Dieser Status besagt, dass zwar der Scheck gedruckt wurde bzw. der DTA ausgeführt wurde, aber der Zahlungsbeleg gelöscht wurde, bevor er in die Primanota geschrieben worden ist. Dadurch bleibt der Beleg als OP stehen, darf aber nicht ohne weiteres wieder im automatischen Zahlungsverkehr einfließen. Belege, die nicht vollständig den Zahlungslauf durchlaufen haben findet man in der Anwendung „Zahlungen bearbeiten“ (Direktsprung [ZHB]) in der Variante „Gesperrte OP’s“.
+Dieser Status besagt, dass zwar der Scheck gedruckt wurde bzw. der DTA ausgeführt wurde, aber der Zahlungsbeleg gelöscht wurde, bevor er in die Primanota geschrieben worden ist. Dadurch bleibt der Beleg als OP stehen, darf aber nicht ohne weiteres wieder im automatischen Zahlungsverkehr einfließen. Belege, die nicht vollständig den Zahlungslauf durchlaufen haben findet man in der Anwendung „Zahlungen bearbeiten“ (Direktsprung **[ZHB]**) in der Variante „Gesperrte OP’s“.
 
 • Rücklastschrift  
 Bei Rücklastschriften handelt es sich meist um Bankeinzüge, die von der Bank nicht eingelöst wurden. In A.eins stellt sich das wie folgt dar: Die Belege sind bereits durch den automatischen Zahlungsverkehr gegangen und per Scheckdruck / DTA ausgeglichen und der so entstandene Zahlungsbeleg in die Primanota übertragen worden. Aufgrund der Nichteinlösung wurde die Auszifferung wieder zurückgesetzt und der Zahlungsbeleg als Rücklastschrift markiert. So markierte Belege werden beim nächsten automatischen Zahlungsverkehr wieder mit herangezogen.
@@ -60,7 +60,7 @@ Mögliche Stati sind:
 Die Buchungssperre kann bei ungebuchten Belegen über die Funktion „Buchsperre setzen/löschen“ gesetzt bzw. aufgehoben werden. Der Status wird angezeigt.  
 ![Ein Bild, das Text, Tisch enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_602.png "Ein Bild, das Text, Tisch enthält. Automatisch generierte Beschreibung")  
     
-Über den Einrichterparameter 971 „Buchsperre setzen für Bedienerklasse“ kann man Bedienerklassen hinterlegen, für die die Buchungssperre automatisch bei der Erfassung gesetzt werden soll. Die Buchungssperre wird dann bei diesen Bedienerklassen sowohl bei der manuellen Erfassung, beim Fibuübertrag aus der Warenwirtschaft und auch beim Import innerhalb von A.eins gesetzt. Sie kann hier in der Einzelbeleganzeige aufgehoben werden oder in der Primanota (Direktsprung [PRIMA]) in der Variante „Primanota mit Buchungssperre“ mit der Funktion „Buchungssperre aufheben“.
+Über den Einrichterparameter 971 „Buchsperre setzen für Bedienerklasse“ kann man Bedienerklassen hinterlegen, für die die Buchungssperre automatisch bei der Erfassung gesetzt werden soll. Die Buchungssperre wird dann bei diesen Bedienerklassen sowohl bei der manuellen Erfassung, beim Fibuübertrag aus der Warenwirtschaft und auch beim Import innerhalb von A.eins gesetzt. Sie kann hier in der Einzelbeleganzeige aufgehoben werden oder in der Primanota (Direktsprung **[PRIMA]**) in der Variante „Primanota mit Buchungssperre“ mit der Funktion „Buchungssperre aufheben“.
 
 4. Die Bearbeitungssperre  
 Es können Belege so gekennzeichnet werden, dass sie nicht manuell änderbar sind.  
@@ -104,9 +104,9 @@ Zusätzlich stehen dann folgende Funktionen zur Verfügung:
 
 • ***Bemerkungstexte*:** Es können zu Belegen Bemerkungen erfasst werden, die auf allen OP-Listen und auf der Mahnvorschlagsliste angezeigt werden können (per **F2**\-Auswahl einzustellen). Sind zu einem Beleg Bemerkungstexte erfasst erscheinen sie auch auf der Einzelbeleganzeige. Für den Beleg oben wurde „Diese Gutschrift nicht verrechnen.“ erfasst.
 
-• ***Referenznummer ändern:*** Mithilfe dieser Funktion kann die Referenznummer geändert werden. Nach dem Ändern der Referenznummer erscheint beim Betätigen der ESC\-Taste oder beim Verlassen des Feldes eine Speicherabfrage.
+• ***Referenznummer ändern:*** Mithilfe dieser Funktion kann die Referenznummer geändert werden. Nach dem Ändern der Referenznummer erscheint beim Betätigen der **ESC**\-Taste oder beim Verlassen des Feldes eine Speicherabfrage.
 
-• **Archivreferenz ändern:** Mithilfe dieser Funktion kann die Archivreferenz (Paginiernummer) geändert werden. Nach dem Ändern der Archivreferenz erscheint beim Betätigen der ESC\-Taste oder beim Verlassen des Feldes eine Speicherabfrage.
+• **Archivreferenz ändern:** Mithilfe dieser Funktion kann die Archivreferenz (Paginiernummer) geändert werden. Nach dem Ändern der Archivreferenz erscheint beim Betätigen der **ESC**\-Taste oder beim Verlassen des Feldes eine Speicherabfrage.
 
 • ***OP Info*:** Zu der Belegzeile werden die OP-Informationen - soweit vorhanden – angezeigt und können geändert werden. Diese Funktion erscheint nur, wenn es sich bei der Position des Beleges auch um einen offenen Posten handelt.![Ein Bild, das Text enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_605.png "Ein Bild, das Text enthält. Automatisch generierte Beschreibung")
 
@@ -139,7 +139,7 @@ der Text “\*\*Buchungssperre gesetzt\*\*” in fetter Schrift auf dem Bildschi
 • ***Beleg Löschen bzw. Beleg stornieren:*** Ungebuchte Belege können hier gelöscht werden. Ist der Beleg bereits verbucht, steht die Funktion „Beleg stornieren“ zur Verfügung. Ist die Periode des Originalbelegs noch offen, so wird der Stornobeleg automatisch dieser Periode zugeordnet, ansonsten wird die Periode abgefragt. Zusätzlich lässt sich für den Stornobeleg unter dem [Einrichterparameter](../../firmenstamm/einrichterparameter/einzelbeleganzeige_epa_fikinfoe.md) „Darf ein Stornobeleg geändert werden?“ einstellen, ob er im Nachhinein geändert bzw. gelöscht werden darf. Die stornierten Belege werden als Storniert gekennzeichnet, damit sie nicht versehentlich ein zweites Mal storniert werden. In dem [Einrichterparameter](../../firmenstamm/einrichterparameter/einzelbeleganzeige_epa_fikinfoe.md) „Textersetzung des Stornobelegs. Leer = Originaltext" kann man einen Text eintragen, der dann den Text des Beleges ersetzt, z.B. „Stornobeleg“  
     
 
-• ***Beleg reaktivieren:*** Gebuchte Belege können nicht mehr geändert werden. Wurde jetzt ein Beleg gebucht und muss anschließend doch noch geändert werden, muss man ihn im Normalfall stornieren und neu erfassen. Die Funktion Beleg reaktivieren übernimmt diese beiden Aktionen. Es wird also – soweit möglich – ein Stornobeleg erstellt (s.o.) und eine Kopie des Ursprünglichen Belegs. Für Belege aus der Warenwirtschaft steht diese Funktion nicht zur Verfügung.  
+• ***Beleg reaktivieren:*** Gebuchte Belege können nicht mehr geändert werden. Wurde jetzt ein Beleg gebucht und muss anschließend doch noch geändert werden, muss man ihn im Normalfall stornieren und neu erfassen. Die Funktion ***Beleg reaktivieren*** übernimmt diese beiden Aktionen. Es wird also – soweit möglich – ein Stornobeleg erstellt (s.o.) und eine Kopie des Ursprünglichen Belegs. Für Belege aus der Warenwirtschaft steht diese Funktion nicht zur Verfügung.  
     
 
 • ***Rücklastschrift:*** Bei Zahlungsbelegen aus dem automatischen Zahlungsverkehr steht eine Funktion „*Rücklastschrift*“ zur Verfügung. Wurde von der Bank eine Zahlung nicht eingelöst, so kann man mit dieser Funktion eine einzelne Zahlungsposition stornieren und die Rechnungen wieder zu OP’s machen, die dann wieder beim automatischen Zahlungsverkehr herangezogen werden.

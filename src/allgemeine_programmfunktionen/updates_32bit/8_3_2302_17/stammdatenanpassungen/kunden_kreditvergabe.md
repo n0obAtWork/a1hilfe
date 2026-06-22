@@ -4,7 +4,7 @@
 
 Die Zeilenbeschränkung in der Krediterfassung wurde aufgehoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 715812[33354]
 

@@ -6,7 +6,7 @@ Administration > Menü > Dashboard > Variante Kachel
 
 oder
 
-Direktsprung [DASH] \> Variante Kachel
+Direktsprung **[DASH]** \> Variante Kachel
 
 Alle Darstellungsarten haben denselben Grundaufbau. Die Überschrift, den Mittelteil und die Fußzeile sowie einen Tooltip. Alle Bereiche erhalten ihre Daten über eine View.
 

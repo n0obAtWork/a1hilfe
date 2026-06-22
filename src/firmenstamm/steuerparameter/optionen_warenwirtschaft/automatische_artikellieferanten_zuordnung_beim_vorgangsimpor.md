@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_SPA_883.htm -->
 
-Mit diesem Steuerparameter kann eingestellt werden, ob bei der Belegerzeugung einer Bestellung in der Anwendung Vorgangimport[VIMP] über die Funktion „Standarvorgang erzeugen“ der Hauptlieferant eines Artikels gezogen werden soll.
+Mit diesem Steuerparameter kann eingestellt werden, ob bei der Belegerzeugung einer Bestellung in der Anwendung Vorgangimport**[VIMP]** über die Funktion „Standarvorgang erzeugen“ der Hauptlieferant eines Artikels gezogen werden soll.
 
 | Ausprägung | Bedeutung |
 | --- | --- |

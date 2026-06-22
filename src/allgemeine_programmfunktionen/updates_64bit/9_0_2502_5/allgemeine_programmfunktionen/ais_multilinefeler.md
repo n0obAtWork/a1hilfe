@@ -4,7 +4,7 @@
 
 Bei Multilinefelder in AIS kann mit F3 oder per Doppelklick der Text in einem Editor bearbeitet werden.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[36695]
 

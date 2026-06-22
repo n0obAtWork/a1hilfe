@@ -4,11 +4,11 @@
 
 Hauptmenü > Partieverwaltung > Partie-Stammdaten > Partiegruppen
 
-oder Direktsprung [PAR]
+oder Direktsprung **[PAR]**
 
 Allgemein
 
-In der Variante „Partiebestand Details“ kann die Partieumbuchung durchgeführt werden. Dabei wird eine Partie in der Auswahlliste ausgewählt und mit der Funktion „Partie Umbuchung“ öffnet sich dann die Maske für die Partieumbuchung.
+In der Variante „Partiebestand Details“ kann die Partieumbuchung durchgeführt werden. Dabei wird eine Partie in der Auswahlliste ausgewählt und mit der Funktion „***Partie Umbuchung***“ öffnet sich dann die Maske für die Partieumbuchung.
 
 Maskenfelder
 

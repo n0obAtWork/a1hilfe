@@ -14,7 +14,7 @@ Entscheidet man sich dafür, dass die Artikelauswahl nicht auf die Rohwarengrupp
 
 Bitte beachten Sie dazu den [Hinweis zum Wechsel der Rohwarengruppe](./wichtiger_hinweis_zum_wechsel_der_rohwarengruppe.md)
 
-Vorgangsunterklasse des Zwischenbeleges
+<p class="just-emphasize">Vorgangsunterklasse des Zwischenbeleges</p>
 
 Hauptmenü > Rohwarenabrechnung > Rohwarenabrechnung > EK-Rohwarenbearbeitung > Schema-/Kundenänderung
 
@@ -24,7 +24,7 @@ Vorbelegung 0
 Hier legt man die Vorgangsunterklasse fest mit der die Zwischenbelege/Lieferscheine erzeugt werden. Für diese Unterklasse sollte das Feld RohwareVorerfassung auf ungleich ‚ohne’ stehen, ansonsten wird nach der ersten ‚gültigen’ Vorgangsunterklasse gesucht.  
 Wird keine Vorgangsunterklasse mit dem Feld RohwareVorerfassung ungleich ‚ohne’ gefunden, dann wird der Datensatz nicht in die Maske für die Verarbeitung geladen.
 
-Rohwarebeleg danach zur normalen Korrektur öffnen
+<p class="just-emphasize">Rohwarebeleg danach zur normalen Korrektur öffnen</p>
 
 Hauptmenü > Rohwarenabrechnung > Rohwarenabrechnung > EK-Rohwarenbearbeitung > Schema-/Kundenänderung
 

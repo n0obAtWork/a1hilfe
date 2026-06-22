@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_bedienerklassepflege.htm -->
 
-Register:
+<p class="just-emphasize">Register:</p>
 
 <details>
 <summary>Allgemein</summary>
@@ -80,7 +80,7 @@ Wird ein Wert auf **0** gesetzt oder das Kontrollkästchen deaktiviert, so wird 
 
 Die Richtlinie **„Aktualisierung in Tagen“** wird nur beim Anmeldevorgang in **A.eins** überprüft.
 
-Funktion:
+<p class="just-emphasize">Funktion:</p>
 
 </details>
 
@@ -95,11 +95,11 @@ Im Pfleger stehen folgende Funktionen zur Verfügung:
 | Speichern unter … Shift+F9 | Übernimmt die Daten der ausgewählten Bedienerklasse.  
 Das System schlägt eine neue Bedienerklasse vor.  
 Die Einstellungen hinsichtlich des Formulararchivs sind in diesem Modus nicht zu beeinflussen, die Registerkarte „Formulararchiv“ wird ausgeblendet.  
-Bei Ausführung der Funktion Speichern F9 wird die neue Bedienerklasse zur weiteren Verwendung im System vorbereitet (der Vorgang kann etwas dauern und sollte nicht abgebrochen werden):  
+Bei Ausführung der Funktion ***Speichern*** **F9** wird die neue Bedienerklasse zur weiteren Verwendung im System vorbereitet (der Vorgang kann etwas dauern und sollte nicht abgebrochen werden):  
 **Es werden dabei u.a. sämtliche Schutzeinstellungen der Funktionen (**[Zugriffsrechte Funktionen](../../zugriffsrechte_funktionen.md)**) der Ursprungsbedienerklasse übernommen.**  
 Ferner werden dabei alle Einstellungen der Ursprungsbedienerklasse „geclont“.  
 Bei den Formulararchiv-Einstellungen sind die Belege der Ursprungsklasse erlaubt, in den Einstellungen der Ursprungsklasse sind die Einstellungen der neuen Bedienerklasse erlaubt. |
-| Löschen F7 | Bedingung: Die Bedienerklasse darf keine Bediener mehr enthalten.  
+| Löschen **F7** | Bedingung: Die Bedienerklasse darf keine Bediener mehr enthalten.  
 Alle Einstellungen der Bedienerklasse in den abhängigen Einstellungen ([Zugriffsrechte Funktionen](../../zugriffsrechte_funktionen.md), EPA, …) werden herausgenommen.  
 Zum jetzigen Zeitpunkt betrifft dies folgende Tabellen:  
 • NUMKREISBEDIENER  
@@ -125,12 +125,12 @@ Zum jetzigen Zeitpunkt betrifft dies folgende Tabellen:
 • AMICINFOSYSMSKZUORD  
 • ROLLENKLASSE  
  |
-| Neu F8 | Neue Bedienerklasse anlegen.  
+| Neu **F8** | Neue Bedienerklasse anlegen.  
 Siehe aber auch ["Speichern unter ... SF9"](./bedienerklasse_pfleger.md#Speichern_unter_SF9) für die Anlage einer neuen Bedienerklasse mit gleichzeitiger Übernahme der Bedienerklassen-relevanten Einstellungen! |
-| EPAs zeigen F10 | Individuelle Steuerungen von Abläufen können in Anwendungen über Einrichterparameter (EPA) vorgenommen werden.  
+| EPAs zeigen **F10** | Individuelle Steuerungen von Abläufen können in Anwendungen über Einrichterparameter (EPA) vorgenommen werden.  
 Diese Funktion ruft die entsprechende Anwendung zur Ansicht und Pflege der Einrichterparameter auf.  
 Hauptmenü > Administration > Steuerung > EPAs zeigen  
-Direktsprung [EPAZ] |
+Direktsprung **[EPAZ]** |
 | Zugriffsrechte übertragen… | |
 | NKZ-Zuordnung | Nummernkreiszuordnung der ausgewählten Bedienerklasse |
 | Betriebsstätte | Bei angeschlossenem Filialsystem Zuordnung der Bedienerklasse zur Betriebsstätte.  

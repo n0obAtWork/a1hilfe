@@ -11,7 +11,7 @@ Die Rezeptgröße von 1000 Litern bezieht sich auf die Summe der Produkte.
 
 ![](../../../../ImagesExt/image8_275.jpg)
 
-Unter Zusammensetzung F10 können danach die Komponenten für das Rezept 10 eingegeben werden. In unserem Beispiel ergibt die Summe der Anteile des Hauptproduktes 1739,5. Dies wird hier vom System geprüft, da für den Anteile: Typ ‚je ME mit Prüfung‘ angegeben wurde. Gibt man in der Summe zu wenig oder zu viele Anteile für die Komponenten des Hauptproduktes an erscheint beim Speichern oder Verlassen der Maske eine Hinweis-Meldung.
+Unter **Zusammensetzung F10** können danach die Komponenten für das Rezept 10 eingegeben werden. In unserem Beispiel ergibt die Summe der Anteile des Hauptproduktes 1739,5. Dies wird hier vom System geprüft, da für den Anteile: Typ ‚je ME mit Prüfung‘ angegeben wurde. Gibt man in der Summe zu wenig oder zu viele Anteile für die Komponenten des Hauptproduktes an erscheint beim Speichern oder Verlassen der Maske eine Hinweis-Meldung.
 
 ![](../../../../ImagesExt/image8_276.png)
 
@@ -20,7 +20,7 @@ Der Mengenanteil des Hauptproduktes wird hier mit 70 angegeben. Für den Treber 
 
 ![](../../../../ImagesExt/image8_277.jpg)
 
-Unter [PROE] wird die Produktion nun erfasst.
+Unter **[PROE]** wird die Produktion nun erfasst.
 
 Der Positionsteil sieht wie folgt aus:
 

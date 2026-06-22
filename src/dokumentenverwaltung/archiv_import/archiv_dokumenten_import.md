@@ -4,9 +4,9 @@
 
 Hauptmenü > Administration > Archiv > Importverwaltung
 
-Direktsprung [FAI]
+Direktsprung **[FAI]**
 
-Hier werden die Dokumenten-Importe verwaltet. Ein Dokumenten-Import wird durch ein Import-Profil beschrieben.
+**Hier werden die Dokumenten-Importe verwaltet. Ein Dokumenten-Import wird durch ein Import-Profil beschrieben.**
 
 | Felder |
 | --- |

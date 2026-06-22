@@ -4,7 +4,7 @@
 
 Um auch Zinsabrechnungen ohne Positionen ausdrucken zu können, reicht es jetzt nur den Bereich 605 (Zeilentyp) mit mindestens einem Feld einzurichten.Außerdem wurde das Vorlageformular "-1016 Zinsabrechnung" angepasst.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 730163[34652]
 

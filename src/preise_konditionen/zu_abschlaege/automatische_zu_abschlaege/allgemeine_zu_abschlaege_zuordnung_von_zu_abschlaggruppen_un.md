@@ -4,7 +4,7 @@
 
 Preise / Konditionen > Zu-/Abschläge > allgemeine Zu-/Abschläge
 
-Oder Direktsprung [ZAVA]
+Oder Direktsprung **[ZAVA]**
 
 In der Kombination von Kunden und Artikeln entstehen automatische Zu-/Abschlagsberechnungen. Diese Zuordnung erfolgt in dieser Anwendung. Für Einkauf und Verkauf getrennt können hier Zu-/Abschläge für die Kombination von [Zu-/Abschlagklasse](./zu_abschlaggruppe.md) und [Zu-/Abschlagklasse](./zu_abschlagklasse.md) eingerichtet werden.
 

@@ -4,7 +4,7 @@
 
 Beim Mailversand einer Avise, Mahnung oder Zinsabrechnung wird die im Formular über HTML eingebundene Grafik in der Mail wieder angezeigt. Die Grafik wurde bisher beim Versandtyp "Vermailung" nicht berücksichtigt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 727271[34278]
 

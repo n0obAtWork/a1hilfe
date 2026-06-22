@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_vertreterabrechnungv5.htm -->
 
-In der 5. Variante erscheinen jetzt nach Abrechnungen geordnet die Abrechnungslisten. Diese Listen kann man durch F7 Löschen Abrechnung wieder in die 2. Variante zurückbringen, d.h. die Zusammenfassung in Abrechnungslisten wird aufgehoben. Dieses geschieht wiederum für alle markierten Sätze. Außerdem kann man von hier die CRW-Reports aufrufen.
+In der 5. Variante erscheinen jetzt nach Abrechnungen geordnet die Abrechnungslisten. Diese Listen kann man durch **F7** Löschen Abrechnung wieder in die 2. Variante zurückbringen, d.h. die Zusammenfassung in Abrechnungslisten wird aufgehoben. Dieses geschieht wiederum für alle markierten Sätze. Außerdem kann man von hier die CRW-Reports aufrufen.
 
 <details>
 <summary>Felder:</summary>
@@ -46,7 +46,7 @@ In der 5. Variante erscheinen jetzt nach Abrechnungen geordnet die Abrechnungsli
 
 | Funktion | Beschreibung |
 | --- | --- |
-| Keine Provision (F7) | |
-| Provisionsermittlung (F9) | |
+| Keine Provision **(F7)** | |
+| Provisionsermittlung **(F9)** | |
 
 </details>

@@ -2,9 +2,9 @@
 
 <!-- source: https://amic.de/hilfe/gdifibu.htm -->
 
-Hauptmenü > Abschlussarbeiten > DATEV / Import / Export > Import > Funktion **F9** Import Starten > Funktion **F4** Importdatei lesen
+Hauptmenü > Abschlussarbeiten > DATEV / Import / Export > Import > Funktion **F9** Import Starten > Funktion **F4** ***Importdatei lesen***
 
-Direktsprung [FIIM]
+Direktsprung **[FIIM]**
 
 Beim Import aus der GDI-Fibu handelt es sich um echte Finanzbuchhaltungsbelege, also um Eingangsrechnungen, Ausgangsrechnung sowie Zahlungsbelege. Der Satzaufbau der zu importierenden Datei hat wie folgt auszusehen:
 

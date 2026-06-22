@@ -4,7 +4,7 @@
 
 Die Maskensteuerung im Vermehrungsvertrag wurde aktualisiert. Dabei wurde die ursprünglich im Standard ausgelieferte Tabulator-Reihenfolge zurückgesetzt. Zusätzlich wurden die Felder Öko, OECD, Private Feldbesichtigung und NoB innerhalb der Maske verschoben, um eine vereinfachte und effizientere Dateneingabe zu ermöglichen. Die Lagerzuordnung des Vermehrungsvertrags wird jetzt besser dargestellt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 747001[37316]
 

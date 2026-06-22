@@ -4,7 +4,7 @@
 
 In der Prozedur zur Ermittlung der Bewertungspreise hat sich im Rahmen der Einführung der permanenten Inventur ein Fehler eingeschlichen. Dieser wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 730019[35015]
 

@@ -11,7 +11,7 @@ Hinweis: Nur geöffnete Perioden können bebucht werden.
 
 Hauptmenü > Administration > Geschäftsjahr / Perioden > Periodeneröffnung
 
-Oder Direktsprung: [PERER]
+Oder Direktsprung: **[PERER]**
 
 Grundsätzlich stehen alle Perioden nach dem Anlegen eines neuen Wirtschaftsjahres erst dann zur Verfügung, wenn diese eröffnet sind. Eine nicht eröffnete Periode kann nicht bebucht werden.
 
@@ -24,7 +24,7 @@ Um in der Startphase nicht ständig eine Warnmeldung zu erhalten, sollten alle z
 
 Hauptmenü > Administration > Geschäftsjahr / Perioden > Buchungsschluss
 
-Oder Direktsprung: [PERBS]
+Oder Direktsprung: **[PERBS]**
 
 Hier können die Perioden für die Erfassung neuer Belege geschlossen werden.
 
@@ -37,9 +37,9 @@ Die schon in der Periode erfassten Belege müssen noch nicht gebucht sein. Skont
 
 Hauptmenü > Administration > Geschäftsjahr / Perioden > Wiedereröffnung
 
-Oder Direktsprung: [PERWE]
+Oder Direktsprung: **[PERWE]**
 
-Eine Wiedereröffnung der Periode, die über Buchungsschluss [PERBS] geschlossen wurde, ist jederzeit möglich.
+Eine Wiedereröffnung der Periode, die über Buchungsschluss **[PERBS]** geschlossen wurde, ist jederzeit möglich.
 
 ![](../../ImagesExt/image8_22.jpg)
 
@@ -50,7 +50,7 @@ Eine Wiedereröffnung der Periode, die über Buchungsschluss [PERBS] geschlossen
 
 Hauptmenü > Administration > Geschäftsjahr / Perioden > Perioden Abstimmprotokoll
 
-Oder Direktsprung: [PERAP]
+Oder Direktsprung: **[PERAP]**
 
 In dem Perioden Abstimmprotokoll sieht man alle relevanten Einträge, welche für den Periodenabschluss der Ware notwendig sind:
 
@@ -77,7 +77,7 @@ In dem Perioden Abstimmprotokoll sieht man alle relevanten Einträge, welche fü
 
 Hauptmenü > Administration > Geschäftsjahr / Perioden > Periodenabschluss Ware
 
-Oder Direktsprung: [PERAW]
+Oder Direktsprung: **[PERAW]**
 
 Für die Inventureinspielung / den Inventurabschluss ist ein endgültiger Periodenabschluss bis zur Vorperiode der Inventurperiode (z.B. 11 / 99) in der Ware erforderlich.
 
@@ -87,7 +87,7 @@ Für die Inventurperiode selber (z.B. 12 / 99) muss ein Buchungsschluss gesetzt 
 
 1. Hinweise zum Periodenabschluss beachten!
 
-2. Auswahl der Periode (es können nur die Perioden ausgewählt werden, die vorher per Buchungsschluss **[PERBS]** geschlossen wurden).
+2. Auswahl der Periode (es können nur die Perioden ausgewählt werden, die vorher per Buchungsschluss ****[PERBS]**** geschlossen wurden).
 
 3. Einstellen der Optionen:
 
@@ -112,12 +112,12 @@ Für die Inventurperiode selber (z.B. 12 / 99) muss ein Buchungsschluss gesetzt 
 
 Hauptmenü > Administration > Geschäftsjahr / Perioden > Periodenabschluss Fibu
 
-Oder Direktsprung: [PERAF]
+Oder Direktsprung: **[PERAF]**
 
-Soll eine Periode geschlossen werden, so ist die entsprechende Periode mit der Maus (Doppelklick) zu markieren und mit der F9 Taste den Abschluss durchzuführen.
+Soll eine Periode geschlossen werden, so ist die entsprechende Periode mit der Maus (Doppelklick) zu markieren und mit der **F9** Taste den Abschluss durchzuführen.
 
 Die Periode wird endgültig geschlossen. Erfassen und Buchen in diesen Perioden ist nicht mehr möglich. Auch greift der Reorganisator nicht mehr auf diese Perioden zu.
 
-Eine Wiedereröffnung mit [PERWE] ist **nicht** möglich.
+Eine Wiedereröffnung mit **[PERWE]** ist **nicht** möglich.
 
 </details>

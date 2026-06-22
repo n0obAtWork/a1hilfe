@@ -4,7 +4,7 @@
 
 Die Umsatzsteuer-Id des Lieferanten wurde fälschlicher Weise beim Kunden gespeichert. Dadurch schlug die Lieferantensuche fehl. Dies wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 745812[36729]
 

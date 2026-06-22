@@ -2,9 +2,9 @@
 
 <!-- source: https://amic.de/hilfe/_mms_verfahrensanleitung.htm -->
 
-Synchronisierung des Datenbestandes
+<p class="just-emphasize">Synchronisierung des Datenbestandes</p>
 
-eines Mehrmandantensystems im Bereich Saatgut
+<p class="just-emphasize">eines Mehrmandantensystems im Bereich Saatgut</p>
 
 Voraussetzung:
 

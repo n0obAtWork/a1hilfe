@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Firmenkonstanten > Zugriffsrechte Mapping
 
-oder Direktsprung [ROLLM]
+oder Direktsprung **[ROLLM]**
 
 Neue Funktionen in Kontexten erhalten vereinbarungsgemäß beim Update die „Controllerrolle“ zugewiesen.
 

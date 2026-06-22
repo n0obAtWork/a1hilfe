@@ -4,7 +4,7 @@
 
 Steuerkategorien für die eRechnung können nun bei den Steuersätzen gepflegt werden. Als Default ist "S" - Standard Rate eingepflegt worden. Die abweichenden Steuerkategorien (Bei Befreiungen auch die Ausnahmebegründungen) werden dann vom Steuersatz in das eRechnungs-Dokument übernommen. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 742137[36122]
 

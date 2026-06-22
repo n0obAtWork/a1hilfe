@@ -24,7 +24,7 @@ In der Anwendung „Abzugsfähige Vorsteuer“ werden alle Belege aufsummiert, b
 
 • Variante „Nach Klasse/Schlüssel/Gruppe“: Die Steuer wird nach den Steuersätzen gruppiert.
 
-In beiden Varianten kann man sich mithilfe der Funktion Einzelbelege F6 die entsprechenden Belege ansehen.
+In beiden Varianten kann man sich mithilfe der Funktion ***Einzelbelege*** **F6** die entsprechenden Belege ansehen.
 
 Für die in der Anwendung „Abzugsfähige Vorsteuer“ aufgeführten Beträge/Steuerpositionen müssen jeweils zwei Steuer-Direktbuchungen erstellt werden:
 

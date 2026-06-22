@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_versandarten.htm -->
 
-Hauptmenü > Stammdatenpflege > Allgemeine Stammdaten > Versandarten [VS]
+Hauptmenü > Stammdatenpflege > Allgemeine Stammdaten > Versandarten **[VS]**
 
 Versandarten sind immer wiederkehrende Arten der Übergabe einer Ware. Neben dem Problem, die Ware vom Transportmittel in das Lager zu bekommen, wird mit ihrer Hilfe, durch die Regelung des Übergabezeitpunktes und Ortes, auch die Versicherungspflicht geregelt.
 

@@ -4,7 +4,7 @@
 
 Administration > Steuerung > Steuerungsparameter zeigen
 
-Oder Direktsprung [SPA]
+Oder Direktsprung **[SPA]**
 
 Wird ein Aktionspreis verwendet, so ist unter Umständen die Marge so gering, dass ein zusätzlicher Zu-/Abschlag hier nicht gewünscht wird.
 

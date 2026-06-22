@@ -4,7 +4,7 @@
 
 Wenn ein Kunde mit der Funktion "Speichern unter" neu angelegt wird, dann werden das Zinsabdatum auf den 01.01.1901 gesetzt,der Bediener und das Datum für die Neuanlage korrekt gesetzt, nur die letzte Forderungsgruppe übernommen, falls im Original bereits mehrere Forderungsgruppen hinterlegt waren.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 723851[33889]
 

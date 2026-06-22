@@ -4,7 +4,7 @@
 
 Wenn der Fokus auf der Filterzeile steht und man geht mit Pfeiltaste nach unten in den Auswahlbereich wird die erste Zeile nun nicht mehr automatisch markiert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 719706[33426]
 

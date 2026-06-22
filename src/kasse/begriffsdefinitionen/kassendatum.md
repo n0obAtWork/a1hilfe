@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/kassendatum.htm -->
 
-Standardmäßig ist das A.eins Tagesdatum das Systemdatum. Bekanntlich kann man das aktuelle Tagesdatum mit Direktsprung [DAT] verstellen. Dann fungiert das verstellte Datum als das vorgeschlagene Belegdatum etwa für die Vorgangserfassung. Auf diese Weise kann man Belege zu einem anderen Datum erleichtert nach erfassen, ohne jeweils an die Anpassung des Belegdatums beachten zu müssen. Die eingestellte Datumsänderung gilt höchstens bis zum Abmelden aus A.eins. Das Systemdatum wird dadurch nicht beeinflusst.
+Standardmäßig ist das A.eins Tagesdatum das Systemdatum. Bekanntlich kann man das aktuelle Tagesdatum mit Direktsprung **[DAT]** verstellen. Dann fungiert das verstellte Datum als das vorgeschlagene Belegdatum etwa für die Vorgangserfassung. Auf diese Weise kann man Belege zu einem anderen Datum erleichtert nach erfassen, ohne jeweils an die Anpassung des Belegdatums beachten zu müssen. Die eingestellte Datumsänderung gilt höchstens bis zum Abmelden aus A.eins. Das Systemdatum wird dadurch nicht beeinflusst.
 
 Von der Änderung des Tagesdatums auf Kassenarbeitsplätzen ist dringend ab zu raten!
 

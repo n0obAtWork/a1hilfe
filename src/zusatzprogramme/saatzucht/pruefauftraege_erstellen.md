@@ -4,7 +4,7 @@
 
 Hauptmenü > Partieverwaltung > Chargen / Partien > Partie-Stammdaten
 
-oder Direktsprung [PAR]
+oder Direktsprung **[PAR]**
 
 Prüfaufträge werden über den [Partiestamm](../../partieverwaltung/partiestamm/index.md) erstellt. Dort existiert eine Funktion „Prüfauftrag erstellen“, die zu den ausgewählten Partien die Prüfaufträge erstellt:
 

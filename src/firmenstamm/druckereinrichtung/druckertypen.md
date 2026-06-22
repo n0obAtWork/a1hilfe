@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Druckertypen
 
-oder Direktsprung [DRT]
+oder Direktsprung **[DRT]**
 
 Beim Druckertyp werden die Steuerzeichen für die ASCII – Ansteuerung der Drucker hinterlegt.
 

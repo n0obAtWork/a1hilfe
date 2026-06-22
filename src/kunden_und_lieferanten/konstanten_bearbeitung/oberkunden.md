@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Konstanten Kundenstamm > Oberkunden
 
-oder Direktsprung [KUOB]
+oder Direktsprung **[KUOB]**
 
 In einigen Branchen ist es üblich, dass der Warenempfänger nicht gleichzeitig der Rechnungsempfänger ist. Es bestehen so genannte Verrechnungsketten. An die Verwaltung / EDV sind daher bestimmte Voraussetzungen geknüpft:
 

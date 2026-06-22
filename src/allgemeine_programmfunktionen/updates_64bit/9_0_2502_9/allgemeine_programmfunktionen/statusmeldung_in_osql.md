@@ -4,7 +4,7 @@
 
 Unter [OSQL] werden die Anzahl der verarbeiteten Daten wieder in der Statuszeile angezeigt,
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 751529[38591]
 

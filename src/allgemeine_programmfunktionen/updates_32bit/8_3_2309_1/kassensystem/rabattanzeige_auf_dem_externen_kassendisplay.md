@@ -4,7 +4,7 @@
 
 Das externe Display der Marktkasse zeigt jetzt auch direkt bei Rabatteingabe diesen Rabatt auf dem Bon des externen Displays an, ohne dass dazu ein weiterer Artikel erfasst werden muss. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 725490[34124]
 

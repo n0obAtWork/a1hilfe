@@ -4,11 +4,11 @@
 
 Administration > Formulare/Abläufe > Behandlungsschema
 
-Mit dem Direktsprung [BEH] Behandlungsschema können Sie den Behandlungsschemapfleger aufrufen. Es wird eine Standardbehandlung ausgeliefert, die Sie für Ihre Anwendung modifiziert ablegen können.
+Mit dem Direktsprung **[BEH]** Behandlungsschema können Sie den Behandlungsschemapfleger aufrufen. Es wird eine Standardbehandlung ausgeliefert, die Sie für Ihre Anwendung modifiziert ablegen können.
 
 Administration > Formulare/Abläufe > Formularzuordnung/Vorgangsunterklasse
 
-Welches Behandlungsschema für welche Vorgangsunterklasse verwendet wird, legen Sie in der Formularzuordnung [FRZ] auf der Registerkarte Abwicklung fest.
+Welches Behandlungsschema für welche Vorgangsunterklasse verwendet wird, legen Sie in der Formularzuordnung **[FRZ]** auf der Registerkarte Abwicklung fest.
 
 Das Behandlungsschema gibt Ihnen die Möglichkeit, bestimmte Vorgehensweisen bei der Kundennummernänderung auszuschließen, Meldungen ein- oder auszuschalten und eine Behandlungsvorgabe für bestimmte Fälle vorzugeben.
 

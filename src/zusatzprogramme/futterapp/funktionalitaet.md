@@ -4,7 +4,7 @@
 
 Mit Hilfe der FutterApp können:
 
-Bestellungen erfasst werden. Diese kommen als XML-Datei im Verzeichnis (SPA 1047) an. Im Anschluss werden diese Dateien von der im Event hinterlegten Routine verarbeitet. Die XML-Datei wird nun in das Verzeichnis „\\Import\\Archiv“ oder bei einer Fehlermeldung in das Verzeichnis „\\Import\\Fehler“ verschoben. Wenn der Import funktioniert hat, wird im Verzeichnis „\\Export\\OrderConfirm“ eine Auftragsbestätigung geschrieben. In Abhängigkeit des Parameters „Buchen“ (eingerichtet im Event“ findet sich der Auftrag nun entweder im Vorgangsimport ([VIMP]) oder direkt bei den Aufträgen ([AUB]).
+Bestellungen erfasst werden. Diese kommen als XML-Datei im Verzeichnis (SPA 1047) an. Im Anschluss werden diese Dateien von der im Event hinterlegten Routine verarbeitet. Die XML-Datei wird nun in das Verzeichnis „\\Import\\Archiv“ oder bei einer Fehlermeldung in das Verzeichnis „\\Import\\Fehler“ verschoben. Wenn der Import funktioniert hat, wird im Verzeichnis „\\Export\\OrderConfirm“ eine Auftragsbestätigung geschrieben. In Abhängigkeit des Parameters „Buchen“ (eingerichtet im Event“ findet sich der Auftrag nun entweder im Vorgangsimport (**[VIMP]**) oder direkt bei den Aufträgen (**[AUB]**).
 
 Silos bearbeitet oder gelöscht werden. Diese kommen als XML-Datei im Verzeichnis (SPA 1047) an. Im Anschluss werden diese Dateien von der im Event hinterlegten Routine verarbeitet. Die XML-Datei wird nun in das Verzeichnis „\\Import\\Archiv“ oder bei einer Fehlermeldung in das Verzeichnis „\\Import\\Fehler“ verschoben.
 

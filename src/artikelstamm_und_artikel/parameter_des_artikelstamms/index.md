@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Artikelstamm > Artikelstamm
 
-oder Direktsprung [ARS]
+oder Direktsprung **[ARS]**
 
 In den Artikelstammdaten werden alle Informationen über einen Artikel zusammen­ge­fasst, auf die für eine weitgehend automatisierte Verarbeitung zugegriffen werden muss. Dies sind z.B. **Mengeneinheiten, Preise, Gebindegröße etc.** Da zur Verein­fachung der Erfassung bei der Anlage eines Artikels auf vorerfasste Informationen zugegriffen wird, müssen diese natürlich vorhanden sein. So wird sicherlich häufig die Mengeneinheit **"Stück"** benötigt. Diese muss also zuvor in der Tabelle **"Men­geneinheiten"** erfasst werden.
 
@@ -26,17 +26,17 @@ Auf Organisationsprinzipien zur Vergabe von Artikelnummern wird an anderer Stell
 Wichtig ist hier jedoch, dass bei der Vergabe der Nummer keine über die Identifikation hinausgehenden Bedeutungen in den Schlüssel eingebaut werden müssen, da zahlreiche Felder im Artikelstamm hierfür zur Verfügung stehen. |
 | Artikeltext | Bezeichnung des Artikels. Der Aufruf erfolgt über die Funktion Texterfassung in der Funktions-Box.  
 Der Text kann mehrere Zeilen umfassen; er wird in dem Artikeltexterfassungsbildschirm eingetragen.  
-Mit Beendigung der Erfassung gelangt man mit ESC wieder in die Artikelmaske zurück.  
+Mit Beendigung der Erfassung gelangt man mit **ESC** wieder in die Artikelmaske zurück.  
 Über diese Erfassung hinaus besteht die Möglichkeit, Artikeltexte in verschiedenen Sprachen zu erfassen.  
-Hierzu wird die Funktion andere Sprache SF5 angewählt, danach die gewünschte Sprache ausgewählt und der Text eingegeben.  
-Dieser Text wird z.B. bei der Fakturierung automatisch in Verbindung mit dem Sprachkennzeichen des Kunden gezogen. Ähnlich verhält es sich mit der Artikeltextvariante. Innerhalb der Sprachen kann der Artikeltext in andere Variante F5 mit z.B. unterschiedlichem Umfang angelegt werden.  
+Hierzu wird die Funktion ***andere Sprache*** **SF5** angewählt, danach die gewünschte Sprache ausgewählt und der Text eingegeben.  
+Dieser Text wird z.B. bei der Fakturierung automatisch in Verbindung mit dem Sprachkennzeichen des Kunden gezogen. Ähnlich verhält es sich mit der Artikeltextvariante. Innerhalb der Sprachen kann der Artikeltext in ***andere Variante*** **F5** mit z.B. unterschiedlichem Umfang angelegt werden.  
 Auf diese wird dann wiederum in der Fakturierung etc. zugegriffen. |
 | Kurzbezeichnung | Die Kurzbezeichnung wird z.B. in Listen benötigt, da häufig der Artikeltext zu viel Platz benötigt. |
 | Matchcode | Kurzbegriff für die Artikelsuche. Hier wird der Hauptbegriff erfasst, bis zu 90 weitere können unter  
 "Sekundärschlüssel" eingegeben werden. |
 | EAN-Nummer | Hier kann die EAN-Nummer für die Artikelsuche eingegeben werden. |
 
-Registerkarte „Allgemein“
+<p class="just-emphasize">Registerkarte „Allgemein“</p>
 
 | Feld | Bedeutung |
 | --- | --- |

@@ -4,7 +4,7 @@
 
 Hauptmenü > Wareneinkauf > Nachhaltigkeit > Bewegungsübersicht > Variante Bewegungsübersicht
 
-Direktsprung [NAART]
+Direktsprung **[NAART]**
 
 In dieser Auswahlliste werden alle Bewegungen im Ein - und Verkauf angezeigt. Diese kann man zum Beispiel nach nachhaltig und nicht nachhaltiger Ware filtern.
 

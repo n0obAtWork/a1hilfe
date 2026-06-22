@@ -4,7 +4,7 @@
 
 Bei der Verwendung einer HTML-Body-Funktion im Belegversand ist die Angabe eines Formulararchiveintrags als Basis Veränderung zu einem HTML-Body nicht mehr zwingend notwendig. Das HTML kann auch vollständig in der Body-Funktion entstehen. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 735345[34908]
 

@@ -4,7 +4,7 @@
 
 In der Anwendung Nachhaltigkeit - THG WERTE, in der Variante Anbauland / Region wurde die Spalte Gültig-ab-Datum bei den artikelabhängigen THG-Werten hinzugefügt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 724070[33887]
 

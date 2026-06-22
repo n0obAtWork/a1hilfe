@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_emailsenden.htm -->
 
-Aus den Auswahllisten Kunden, Anschriften, Lieferanten und Kontokorrentkunden ist die Funktion Email senden verfügbar. Mit Hilfe dieser Funktion kann eine E-Mail an die markierten Kunden (Mailadresse aus der Kundenhauptanschrift) oder eine Mailadresse aus der Anschrift versendet werden.
+Aus den Auswahllisten Kunden, Anschriften, Lieferanten und Kontokorrentkunden ist die Funktion ***Email senden*** verfügbar. Mit Hilfe dieser Funktion kann eine E-Mail an die markierten Kunden (Mailadresse aus der Kundenhauptanschrift) oder eine Mailadresse aus der Anschrift versendet werden.
 
 Zu diesem Zweck wird über ein VBA-Skript der Mailclient Outlook geöffnet und die Mailadressen werden als Liste in den TO bzw. BCC.Bereich eingefügt. Das Ziel ist in einer kurzen Abfrage zu definieren.
 

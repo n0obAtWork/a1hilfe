@@ -4,7 +4,7 @@
 
 In der Tresenkasse ist ein Fehler beim Barverkauf aufgetreten: Wenn der EPA "Im Barverkauf sofort in Positionsteil" auf "Ja" gesetzt ist, kam es bei jedem zweiten Barverkauf zu einem Fehler bei der Zahlung mit anschließendem Belegabbruch. Dieser Fehler wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 739144[35732]
 

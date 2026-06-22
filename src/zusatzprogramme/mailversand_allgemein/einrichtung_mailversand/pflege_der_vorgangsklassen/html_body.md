@@ -49,4 +49,4 @@ Damit die Platzhalter für die Inhalte nun gegen Inhalte ausgetauscht werden kö
 
 Tragen Sie in der Formularzuordnung die FA_ID der HTML-Body-Datei und die HTML-Body-Funktion ein.
 
-Siehe auch [Formularzuordnung [FRZ]](../../../../vorgangsabwicklung/formularzuordnung/abwicklung.md#Abwicklung_Versand).
+Siehe auch [Formularzuordnung **[FRZ]**](../../../../vorgangsabwicklung/formularzuordnung/abwicklung.md#Abwicklung_Versand)**.**

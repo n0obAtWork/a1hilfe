@@ -4,7 +4,7 @@
 
 Alternativ zum Formular für den Mailbody kann in den Zinsgruppen auch ein Datenbankfunktion hinterlegt werden
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 735345[35789]
 

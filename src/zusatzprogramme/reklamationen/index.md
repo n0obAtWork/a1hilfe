@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_switchboard_reklamation.htm -->
 
-Direktsprung [REKLAM]
+Direktsprung **[REKLAM]**
 
 Um die Erstellung von Reklamationen zu vereinfachen, bietet A.eins das Reklamationsmodul an.
 

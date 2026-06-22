@@ -4,7 +4,7 @@
 
 Für den Fibu-Übertrag von Barverkaufsbelegen mit Gruppenrabatten konnte es vorkommen, dass Einträge nicht übertragen werden konnten. Dies wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 752268[39519]
 

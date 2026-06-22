@@ -4,13 +4,13 @@
 
 Hauptmenü > Administration > Firmenkonstanten > Zugriffsrechte Rolle > Rollenkontext
 
-oder Direktsprung [ROLLE]
+oder Direktsprung **[ROLLE]**
 
 oder
 
 Hauptmenü > Administration > Firmenkonstanten > Zugriffsrechte Funktionen
 
-oder Direktsprung [ZUGF]
+oder Direktsprung **[ZUGF]**
 
 Einführende Erläuterungen finden sich unter [Zugriffsrechte Funktionen](../../zugriffsrechte_funktionen.md).
 
@@ -87,17 +87,17 @@ Zu (2): Die so gelisteten Funktionen sind im jeweils zugehörigen Kontext garant
 
 | Funktionen |
 | --- |
-| Kontext … (F10) | Entwickler-Funktion  
+| Kontext … **(F10)** | Entwickler-Funktion  
 Aufruf des Kontext-Pflegers.  
 Natürlich nur möglich für Rollenkontexte die auch einen Kontext haben … |
-| Kontext (shift + F11) | Aufruf der Verbindungsübersicht des gewählten Kontextes |
+| Kontext **(shift + F11)** | Aufruf der Verbindungsübersicht des gewählten Kontextes |
 | Private Sortierung/Tasten | Aufruf des Pflegers der die „private Sortierung“ und die „privaten Tastenzuordnung“ innerhalb eines Kontextes betreut.  
 Natürlich nur möglich für Rollenkontexte die auch einen Kontext haben … |
-| Funktion Information (F9) | Aufruf eines [Informationsdialoges zur Funktion](./rollenkontext_pfleger.md). |
-| Funktion ansehen/bearbeiten (F11) | Aufruf des Anwendfunktions-Pflegers. |
-| Ändern (F5) | Ändern der Rollenzuordnung des Kontextes.  
+| Funktion Information **(F9)** | Aufruf eines [Informationsdialoges zur Funktion](./rollenkontext_pfleger.md). |
+| Funktion ansehen/bearbeiten **(F11)** | Aufruf des Anwendfunktions-Pflegers. |
+| Ändern **(F5)** | Ändern der Rollenzuordnung des Kontextes.  
 Für Details siehe [Rollenklassenpfleger](../rollenklasse/rollenklassen_pfleger.md). |
-| Ansehen (F6) | Ansehen der Rollenzuordnung des Kontextes.  
+| Ansehen **(F6)** | Ansehen der Rollenzuordnung des Kontextes.  
 Für Details siehe [Rollenklassenpfleger](../rollenklasse/rollenklassen_pfleger.md). |
 
 </details>

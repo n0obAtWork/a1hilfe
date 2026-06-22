@@ -4,7 +4,7 @@
 
 Die Stellenanzahl bei Postleitzahlen (PLZ) wurden auf 11 Stellen erweitert. Sie kann aus Zahlen, Buchstaben und Sonderzeichen bestehen und angezeigt werden. Diese Änderungen betreffen unter anderem den Bankenstamm, den Anschriftstamm, Versandanschriften, Ansprechpartner sowie den Kundenstamm.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 730594[34716]
 

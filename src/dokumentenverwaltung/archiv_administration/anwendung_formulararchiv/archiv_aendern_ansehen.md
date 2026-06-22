@@ -10,7 +10,7 @@ In diesem Dialog besteht die Möglichkeit folgende Daten zu ändern bzw. einzuse
 Die Beleg-Referenz verknüpft u.a. den Archiv – Eintrag mit einem Archiv-Fakt (siehe auch [Archiv Fakt-Tabellen](../../technisches_zum_formulararchiv/archivdatenbank_extern_einrichten/archiv_fakt_tabellen.md))  
 Die Beleg-Referenz kann eine Art Klammer für „gleiche“ Archiv-Belege darstellen. Dieses Vorgehen wird auch empfohlen.  
 Für die Archiv – Fakten stehen Beleg-Generatoren (privatisierbare Datenbank-Funktionen) zur Verfügung (siehe [Referenz](../../archiv_manager/referenz/index.md)).  
-Obwohl die Beleg-Referenz im Einzelfall frei wählbar ist, ist aber auch zum Beispiel in Hinblick auf die Funktion Archiv anzeigen (siehe [Archiv Ansehen](../../archiv_ansehen/index.md)) eine gewisse Organisation der Referenzen anzuraten. Auch nehmen einige Programm-Module sehr wohl auf die konkrete Beleg-Referenz Bezug, so dass im Einzelfall von einer zu freizügigen Abänderung der Beleg-Referenz abgeraten wird. |
+Obwohl die Beleg-Referenz im Einzelfall frei wählbar ist, ist aber auch zum Beispiel in Hinblick auf die Funktion ***Archiv anzeigen*** (siehe [Archiv Ansehen](../../archiv_ansehen/index.md)) eine gewisse Organisation der Referenzen anzuraten. Auch nehmen einige Programm-Module sehr wohl auf die konkrete Beleg-Referenz Bezug, so dass im Einzelfall von einer zu freizügigen Abänderung der Beleg-Referenz abgeraten wird. |
 | ***Belegnummer*** | Beim Vorgangsdruck und anderen Archivierungen wo eine Zuordnung der Belegnummer möglich ist die Beleg-Nr. |
 | ***Kundennummer*** | Zugeordnete Kundennummer |
 | ***Belegklasse*** | Klassifizierung des Archiv-Eintrages nach Herkunft bzw. Wesen.  
@@ -46,8 +46,8 @@ Im „Ändern“-Fall wird bei Archiv-Einträgen, die weder Kundennummer noch Be
 
 | Funktionen | |
 | --- | --- |
-| Archiv anzeigen CF12 | Das Dokument des Archiv-Eintrages anzeigen |
-| *Beleg-Referenz erzeugen F10* | Sind Belegnummer und Beleg-Klasse erfasst, bietet diese Funktion die Möglichkeit gemäß den Vorschriften aus [Archiv Fakte](../../archiv_fakte.md) (*fam_ref_vorg*) die Beleg-Referenz zu generieren. |
+| ***Archiv anzeigen*** **CF12** | Das Dokument des Archiv-Eintrages anzeigen |
+| ***Beleg-Referenz erzeugen F10*** | Sind Belegnummer und Beleg-Klasse erfasst, bietet diese Funktion die Möglichkeit gemäß den Vorschriften aus [Archiv Fakte](../../archiv_fakte.md) (*fam_ref_vorg*) die Beleg-Referenz zu generieren. |
 
 ### 
 

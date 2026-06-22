@@ -11,7 +11,7 @@ Die zum 01.07.2020 anstehende Änderung des Steuersatzes von 7% auf 5% muss anal
 
 Die neuen Steuersätze sollen in unter dem Bereich „Umsätze, die anderen Steuersätzen unterliegen“ (Kennziffer 35/36) bzw. beim innergemeinschaftlichen Erwerb unter „zu anderen Steuersätzen“ (Kennziffer 95/98) erscheinen. Hier ist zu prüfen ob für diese Bereiche Auswertungspositionen eingerichtet sind.
 
-Dazu gibt man den Direktsprung [FIAWP] ein und gelangt so in die Anwendung zur Pflege der Auswertungspositionen. Dort sucht man nach der Kennziffern 35 in der Spalte Bemessungsgrundlage.
+Dazu gibt man den Direktsprung **[FIAWP]** ein und gelangt so in die Anwendung zur Pflege der Auswertungspositionen. Dort sucht man nach der Kennziffern 35 in der Spalte Bemessungsgrundlage.
 
 ![Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung](../../../ImagesExt/image8_571.jpg "Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung")
 
@@ -21,26 +21,26 @@ Und anschließende sucht man nach der Kennzahl 95.
 
  ![Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung](../../../ImagesExt/image8_572.jpg "Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung")
 
-Hier muss in der Kennziffer für Steuer die 98 zugeordnet sein. Sind beide Auswertungsposition vorhanden kann man mit Schritt 2 weiter machen, ansonsten muss man sie mit Neu F8 anlegen. Für die Umsatzstzsteuervoranmeldung und für Elster ist nur die korrekte Zuordnung der Kennziffern Bessungsgrundlage bzw. Steuer wichtig.
+Hier muss in der Kennziffer für Steuer die 98 zugeordnet sein. Sind beide Auswertungsposition vorhanden kann man mit Schritt 2 weiter machen, ansonsten muss man sie mit ***Neu*** **F8** anlegen. Für die Umsatzstzsteuervoranmeldung und für Elster ist nur die korrekte Zuordnung der Kennziffern Bessungsgrundlage bzw. Steuer wichtig.
 
 </details>
 
 <details>
 <summary>Schritt 2: Kontostamm anpassen</summary>
 
-Für die neuen Steuersätze werden ggf. auch neue Sachkonten (Steuerkonto, Erlös-/Aufwandskonten und Skontokonten) benötigt. Mit dem Direktsprung [SKS] gelangt man in die Anwendung zur Pflege des Sachkontenstamm. Hier grenzt man den Bereich so ein, dass man das entsprechende Sachkonto mit 19% bearbeiten kann.
+Für die neuen Steuersätze werden ggf. auch neue Sachkonten (Steuerkonto, Erlös-/Aufwandskonten und Skontokonten) benötigt. Mit dem Direktsprung **[SKS]** gelangt man in die Anwendung zur Pflege des Sachkontenstamm. Hier grenzt man den Bereich so ein, dass man das entsprechende Sachkonto mit 19% bearbeiten kann.
 
 **Hinweis:** *Sollte man schon vor der Erhöhung des Steuersatzes von 16% auf 19% mit A.eins gearbeitet haben, dann sollten die Konnten für 16% bereits existieren. Es müssen dann nur alle Konten für den neuen Steuersatz von 5% angelegt werden.*  
     
 Vorgehen:
 
-• Sachkonto mit der Funktion F5 zum „Ändern“ aufrufen.
+• Sachkonto mit der Funktion **F5** zum ***„Ändern“*** aufrufen.
 
-• Mit der Funktion „Speichern unter“ oder (Shift + F9) einen neuen Datensatz anlegen.
+• Mit der Funktion ***„Speichern unter“*** oder **(Shift + F9)** einen neuen Datensatz anlegen.
 
 • Für den neuen Datensatz muss mindestens die Kontonummer und die Bezeichnung geändert werden.
 
-• Anschließend die Änderungen mit F9 oder „Speichern“ übernehmen.
+• Anschließend die Änderungen mit **F9** oder ***„Speichern“*** übernehmen.
 
 ![Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung](../../../ImagesExt/image8_573.jpg "Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung")
 
@@ -57,11 +57,11 @@ Nachdem die Auswertungspositionen und die Sachkonten angelegt wurden, müssen je
 
 Alle angezeigten Datensätze müssen bearbeitet werden. Dazu geht man wie folgt vor:
 
-• Die Datensätze mit F5 aufrufen und die Funktion „Speichern unter…“ auswählen. Man kann nun im Feld „ab Datum“ das gewünschte Datum (in diesem Fall 01.07.2020) eintragen.
+• Die Datensätze mit **F5** aufrufen und die Funktion ***„Speichern unter…“*** auswählen. Man kann nun im Feld „ab Datum“ das gewünschte Datum (in diesem Fall 01.07.2020) eintragen.
 
 • Für den neuen Datensatz müssen mindestens die Felder „ab Datum“(s.o.), Steuersatz, Steuerkonten, Skontokonto sowie die Kennzeichen für die Umsatzsteuervoranmeldung geändert werden.
 
-• Anschließend die Änderungen mit F9 oder „Speichern“ übernehmen.
+• Anschließend die Änderungen mit **F9** oder ***„Speichern“*** übernehmen.
 
 Alter Steuersatz:
 
@@ -80,7 +80,7 @@ Kommt es zu der Meldung, dass der Steuersatz nicht zurückdatiert werden darf, s
 <details>
 <summary>Schritt 4: Alten Steuersatz wiederherstellen</summary>
 
-Da der Steuersatz sich am 01.01.2021 wieder auf 19% bzw. 7% ändert, kann man direkt den „Alten Steuersatz“ wie in Schritt 3 mit „speichern unter…“ oder (Shift + F9) neu anlegen und muss lediglich das Datum auf den 01.01.2021 ändern.
+Da der Steuersatz sich am 01.01.2021 wieder auf 19% bzw. 7% ändert, kann man direkt den „Alten Steuersatz“ wie in Schritt 3 mit ***„speichern unter…“*** oder **(Shift + F9)** neu anlegen und muss lediglich das Datum auf den 01.01.2021 ändern.
 
 ![Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung](../../../ImagesExt/image8_577.jpg "Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung")
 
@@ -103,6 +103,6 @@ Für die Kennziffern 66 bzw. 61, also für abziehbare Vorsteuerbeträge, geht ma
 <details>
 <summary>Schritt 7: EKZZ</summary>
 
-Üblicherweise werden Wareneinkauf / Umsatzerlöse in der Finanzbuchhaltung getrennt nach Steuersätzen verbucht. Ist dies der Fall, müssen zusätzlich ab 01.07. Anpassungen an der Erlöskennziffer-Kontozuordnung (Direktsprung EKZZ) vorgenommen werden. Die dort derzeit für 19 und 7 % befindlichen Einstellungen, müssen analog auf 16 und 5 % ab Datum 01.07. gepflegt werden.
+Üblicherweise werden Wareneinkauf / Umsatzerlöse in der Finanzbuchhaltung getrennt nach Steuersätzen verbucht. Ist dies der Fall, müssen zusätzlich ab 01.07. Anpassungen an der Erlöskennziffer-Kontozuordnung (Direktsprung **EKZZ**) vorgenommen werden. Die dort derzeit für 19 und 7 % befindlichen Einstellungen, müssen analog auf 16 und 5 % ab Datum 01.07. gepflegt werden.
 
 </details>

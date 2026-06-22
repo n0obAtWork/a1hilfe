@@ -4,11 +4,11 @@
 
 Hauptmenü > Stammdatenpflege > Allgemeine Stammdaten > Lagerstamm
 
-Direktsprung [LGS]
+Direktsprung **[LGS]**
 
 Folgende Informationen können im Lagerstamm auf dem hinterlegt werden.
 
-Registerkarten
+<p class="just-emphasize">Registerkarten</p>
 
 | Kopfdaten und Registerkarte „Allgemein“ |
 | --- |
@@ -16,7 +16,7 @@ Registerkarten
 | Lager gesperrt | Einstellung „Nein“: Lagerlöschkennzeichen wird auf „0“ gesetzt. Lager nicht gesperrt.  
 Einstellung „Ja“: Lagerlöschkennzeichen wird auf „1“ gesetzt. Lager ist gesperrt. |
 | Bezeichnung | Bezeichnung des Lagers |
-| Lagertyp | In dem Feld Lagertyp kann über die F3\-Auswahl angegeben werden, ob es sich um ein Bestandslager, Streckenlager, Pufferlager, Kundenlager oder Sortimentslager handelt. |
+| Lagertyp | In dem Feld Lagertyp kann über die **F3**\-Auswahl angegeben werden, ob es sich um ein Bestandslager, Streckenlager, Pufferlager, Kundenlager oder Sortimentslager handelt. |
 | Betriebsstätte Filialsystem | Zuordnung zu einer Filiale (nur im Zusammenhang mit dem Filialsystem) |
 | Preisklasse Zugang | Preisklasse für den Lagerzugang (dient bei Lagerumbuchung als Vorschlagswert) |
 | Preisklasse Abgang | Preisklasse für den Lagerabgang (dient bei Lagerumbuchung als Vorschlagswert) |
@@ -43,7 +43,7 @@ Dieses Erfassungsfeld steht nur zur Verfügung, wenn der Steuerparameter **Koste
 | Wetterstation (Registerkarte Wetter | Gibt die Wetterstation an, die diesem Lager am nächsten liegt. |
 | Bei Inventurabschluss als per. Inventur prüfen | Wird hier „ja“ eingetragen, so wird beim Inventurabschluss geprüft, ob die Lagerplätze im LVS, die diesem Lager zugewiesen sind, im Verlauf des Jahres aufgesucht wurden. |
 
-Zur Pflege weiterer Anschriftendaten muss mit F10 in den Anschriftenstamm gewechselt werden. Dort kann dann z.B. die Gebietszuordnung gepflegt werden.
+Zur Pflege weiterer Anschriftendaten muss mit **F10** in den Anschriftenstamm gewechselt werden. Dort kann dann z.B. die Gebietszuordnung gepflegt werden.
 
 Desweiteren können im Lagerstamm die Lagerplätze angelegt und geändert werden.
 

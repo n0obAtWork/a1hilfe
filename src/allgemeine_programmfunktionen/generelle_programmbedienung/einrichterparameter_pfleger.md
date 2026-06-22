@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_einrichterparameterp.htm -->
 
-In allen Funktionsmenüs steht die Funktion Einrichterparameter zur Verfügung. Auf dieser sind drei Registerkarten zur Einrichtung der jeweils aktuellen Maske.
+In allen Funktionsmenüs steht die Funktion ***Einrichterparameter*** zur Verfügung. Auf dieser sind drei Registerkarten zur Einrichtung der jeweils aktuellen Maske.
 
 Parameter
 

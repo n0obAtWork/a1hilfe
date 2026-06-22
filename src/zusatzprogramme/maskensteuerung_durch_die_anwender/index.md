@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/maskensteuerungdurchdieanwende.htm -->
 
-Der Aeins Anwender hat die Möglichkeit Einfluss darauf zu nehmen, wie eine Maske angezeigt werden soll, z.B. ob es Pflicht Felder gibt oder ob bestimmte Felder für bestimmte Bedienerklassen nicht angezeigt werden sollen. Wenn man auf der Maske Shift+F3 drückt so wird die Maske noch einmal geöffnet und alle im Standard sichtbaren Felder sind nun Gelb hinterlegt. 
+Der Aeins Anwender hat die Möglichkeit Einfluss darauf zu nehmen, wie eine Maske angezeigt werden soll, z.B. ob es Pflicht Felder gibt oder ob bestimmte Felder für bestimmte Bedienerklassen nicht angezeigt werden sollen. Wenn man auf der Maske **Shift+F3** drückt so wird die Maske noch einmal geöffnet und alle im Standard sichtbaren Felder sind nun Gelb hinterlegt. 
 
 Durch Klicken mit der rechten Maustaste kann ein Kontextmenu mit folgenden Funktionen aufgerufen werden:
 
@@ -23,7 +23,7 @@ Mit den ersten drei Punkten wird ausgewählt, was geschehen soll, wenn man auf e
 
 Die letzten beiden Funktionen werden sofort ausgeführt.
 
-**Hinweis:** Diese Funktion (Shift F3) kann für Anwender weggeschützt werden, indem die Funktion " EPA_FELD_EINSTELLER" über Zugriffsrechte Funktionen (Direktsprung **[ZUGF]**) geschützt wird.
+**Hinweis:** Diese Funktion (Shift F3) kann für Anwender weggeschützt werden, indem die Funktion " EPA_FELD_EINSTELLER" über ***Zugriffsrechte Funktionen*** (Direktsprung **[ZUGF]**) geschützt wird.
 
 <p class="siehe-auch">Siehe auch:</p>
 

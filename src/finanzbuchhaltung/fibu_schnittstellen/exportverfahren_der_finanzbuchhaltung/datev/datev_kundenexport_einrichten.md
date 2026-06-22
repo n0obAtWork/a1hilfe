@@ -4,7 +4,7 @@
 
 Hauptmenü > Abschlussarbeiten > DATEV / Import / Export > DATEV Kundenexport einrichten
 
-Direktsprung [DATEVK]
+Direktsprung **[DATEVK]**
 
 Bei der Übergabe der Stammdaten werden die Daten der Personenkonten an die DATEV übermittelt. Diese können frei eingerichtet werden. Für die Formate OBE und KNE ist die Einrichtung Identisch, für die neueren Formate 3.0 und 7.0 müssen andere Kennziffern zugeordnet werden.
 
@@ -19,6 +19,6 @@ select VertGrBezeich from VertGruppe where
 vertGruppe.vertgrnummer=DATEVSTAMMDATEN.VertGrNummer
 ```
 
-Der Syntax entspricht dem SQL-Syntax. Um sicher zu stellen, dass nicht erst beim Export ein Syntax-Fehler gemeldet wird, wird im Rechte-Maustaste-Menü die Funktion „Syntax-Test“ F6 angeboten. Diese baut das Statement zusammen und führt es einmal aus. Es erscheint ggf. ein Fehlermeldung oder ein Hinweis, dass der Syntax korrekt ist.
+Der Syntax entspricht dem SQL-Syntax. Um sicher zu stellen, dass nicht erst beim Export ein Syntax-Fehler gemeldet wird, wird im Rechte-Maustaste-Menü die Funktion „***Syntax-Test***“ **F6** angeboten. Diese baut das Statement zusammen und führt es einmal aus. Es erscheint ggf. ein Fehlermeldung oder ein Hinweis, dass der Syntax korrekt ist.
 
-Die Funktion „Standard wiederherstellen“ F7 löscht alle Einrichtungen und trägt die einfachen Vorgaben von AMIC wieder ein.
+Die Funktion „***Standard wiederherstellen***“ **F7** löscht alle Einrichtungen und trägt die einfachen Vorgaben von AMIC wieder ein.

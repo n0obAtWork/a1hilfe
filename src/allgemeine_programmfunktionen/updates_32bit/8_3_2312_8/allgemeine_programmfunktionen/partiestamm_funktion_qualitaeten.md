@@ -4,7 +4,7 @@
 
 In der Anwendung Partiestamm [PAR] wurde die Funktion "Qualitäten" fälschlicherweise über eine Lizenz geschützt. Dies wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 728667[34533]
 

@@ -4,7 +4,7 @@
 
 Beim Inventurende [IVE] kann die Prüfung auf permanente Inventur unterdrückt werden. Das ist allerdings nur sinnvoll, wenn in dem Jahr tatsächlich keine Artikel der permanenten Inventur unterlagen. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 734378[36542]
 

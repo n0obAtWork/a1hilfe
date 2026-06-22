@@ -20,7 +20,7 @@ Die Einstellung –Best.Anfragen berücksichtigen- sorgt dafür, dass die Mengen
 
 Sind für einen Artikel gleich mehrere Lieferanten in der Auswahllist, so wird die Bestellanfrage für den erstgefundenen Lieferanten erstellt. Die Kennzeichnung eines Hauptlieferanten ist nicht vorgesehen!
 
-Mit der Funktion „Anfrage in den Vorgangsimport“ [Shift +F9] werden die Ausgewählten Datensätze in den [VorgangsImport](../../vorgangsimport/index.md) übernommen. Dort können dann die Daten noch verändert werden, bevor diese in eine Bestellung gewandelt werden.
+Mit der Funktion „***Anfrage in den Vorgangsimport***“ **[Shift +F9**] werden die Ausgewählten Datensätze in den [VorgangsImport](../../vorgangsimport/index.md) übernommen. Dort können dann die Daten noch verändert werden, bevor diese in eine Bestellung gewandelt werden.
 
 Es besteht bei der Übernahme noch die Möglichkeit die Artikel nach Lager und Lieferant zu splitten. Dazu muss der Steuerparameter 928 mit der Option „BESTELLVORSCHLAEGELAGERTRENNUNG“ auf 1 gestellt werden.
 

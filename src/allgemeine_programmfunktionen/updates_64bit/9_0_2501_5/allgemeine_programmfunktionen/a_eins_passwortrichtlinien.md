@@ -4,7 +4,7 @@
 
 Passwort-Richtlinien können nun hinterlegt werden. Die Einstellung erfolgt über die Bedienerklassen [BDKL]. Unter dem Reiter Passwortrichtlinien können Sie nun individuelle Passwortrichtlinien auf Ihre Unternehmensrichtlinien angepasst eintragen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 737928[36573]
 

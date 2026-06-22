@@ -4,13 +4,13 @@
 
 Hauptmenü > Administration > Firmenkonstanten > Zugriffsrechte Rolle > Rollenkontext
 
-oder Direktsprung [ROLLE]
+oder Direktsprung **[ROLLE]**
 
 oder
 
 Hauptmenü > Administration > Firmenkonstanten > Zugriffsrechte Funktionen
 
-oder Direktsprung [ZUGF]
+oder Direktsprung **[ZUGF]**
 
 Dieser Dialog zeigt je nach [Funktionsart](./funktionsarten.md) zusätzliche Informationen zu einer Funktion in den Feldern „Funktions-Detail“ und „Funktions-Information“ an.
 

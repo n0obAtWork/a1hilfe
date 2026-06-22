@@ -4,13 +4,13 @@
 
 Hauptmenü > Stammdaten > Kundenstamm
 
-Direktsprung [KU]
+Direktsprung **[KU]**
 
 Oder
 
 Hauptmenü > Stammdaten > Lieferantenstamm
 
-Direktsprung [LF]
+Direktsprung **[LF]**
 
 <p class="siehe-auch">Siehe auch:</p>
 

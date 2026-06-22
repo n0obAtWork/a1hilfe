@@ -4,7 +4,7 @@
 
 Die Module E-Beleg, Tammo und Email-Connector wurde auf das moderne Authentifizierungsverfahren Online-Exchange umgestellt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 716145[33235]
 

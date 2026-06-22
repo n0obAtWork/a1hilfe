@@ -4,7 +4,7 @@
 
 In der Auswahlliste 2.0 können Spalten mithilfe des kleinen Pins in der Titelzeile fixiert werden. Diese Einstellung wird jetzt gespeichert und beim erneuten Aufruf der Variante in der Auswahlliste 2.0 wieder verwendet. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 717376[34197]
 

@@ -4,7 +4,7 @@
 
 Warenverkauf > Übergreifend > Gelangensbestätigung
 
-Gesetzeslage
+<p class="just-emphasize">Gesetzeslage</p>
 
 Die steuerrechtliche Lage seit 2012: Wird Ware an einen Kunden im Ausland verkauft, so geschieht dies steuerfrei. Wird dem Finanzamt jedoch bei einer Prüfung nicht nachgewiesen, dass die Ware auch tatsächlich ins Ausland geliefert wurde, so kann eine Nachbesteuerung angeordnet werden.
 
@@ -12,7 +12,7 @@ Zu diesem Zwecke ist mit den Lieferpapieren eine Gelangensbestätigung auszulief
 
 Seitens des Finanzamtes könnte im Fall einer Prüfung die Nachbesteuerung unbelegter Lieferungen angeordnet werden. In diesem Fall wenden Sie sich an die Steuerberater bzw. die zuständigen Finanzbehörden zur Klärung des Vorgehens.
 
-Einrichtung der Gelangensbestätigung
+<p class="just-emphasize">Einrichtung der Gelangensbestätigung</p>
 
 SPA
 
@@ -41,11 +41,11 @@ jvarsget(3567 , "IstLieblingsdrucker",
 vIstLieblingsdruckerBuffer, 256);
 ```
 
-Bearbeitung der Gelangensbestätigung
+<p class="just-emphasize">Bearbeitung der Gelangensbestätigung</p>
 
 Warenverkauf > Übergreifend > Gelangensbestätigung
 
-In der Anwendung Gelangensbestätigung [GELB] können alle Vorgänge angezeigt werden, für die eine Gelangensbestätigung ausgestellt wurde.
+In der Anwendung Gelangensbestätigung **[GELB]** können alle Vorgänge angezeigt werden, für die eine Gelangensbestätigung ausgestellt wurde.
 
 Ihnen stehen nach Auswahl und Markierung für die Bearbeitung folgende Funktionen zur Verfügung:
 
@@ -61,6 +61,6 @@ Löschen
 
 Hier können Sie die Führung der Gelangensbestätigung zum Beleg löschen.
 
-Mahnschreibendruck
+<p class="just-emphasize">Mahnschreibendruck</p>
 
 Um den Mahnschreibendruck durchführen zu können muss in den [Vorgangsunterklassen](../vorgangsabwicklung/formularzuordnung/formular_formularzuordnungen_zum_vorgang_unterklasse.md) ein Gelangensmahnformular hinterlegt werden. Danach ist es möglich für mehrere Belege hintereinander den Mahnschreibendruck durchzuführen.

@@ -8,7 +8,7 @@ Kontraktübersicht
 
 Hauptmenü > Wareneinkauf > Nachhaltigkeit > Kontraktstammdaten
 
-Direktsprung [NAKTR]
+Direktsprung **[NAKTR]**
 
 Dies ist die normale Auswahlliste der Kontrakte. Es gibt dort spezielle Selektionskriterien mit denen Nachhaltige Kontrakte gefiltert werden können.
 
@@ -20,7 +20,7 @@ Kundenübersicht
 
 Hauptmenü > Wareneinkauf > Nachhaltigkeit > Kundenübersicht
 
-Direktsprung [NAKUE]
+Direktsprung **[NAKUE]**
 
 In der Auswahlliste für Kunden gibt es spezielle Selektionskriterien, um die Kunden auszufiltern, die Probleme mit Zertifikat oder Nachhaltigkeitseinträgen haben.
 
@@ -33,7 +33,7 @@ Artikelübersicht
 
 Hauptmenü > Wareneinkauf > Nachhaltigkeit > Artikelstammübersicht
 
-Direktsprung [NAARS]
+Direktsprung **[NAARS]**
 
 Es gibt dort spezielle Selektionskriterien mit denen nachhaltige Artikelstämmen gefiltert werden können.
 

@@ -30,7 +30,7 @@ Die Mahnschreiben werden ausgedruckt. Welches Formular herangezogen wird, wurde 
 
 ![](../../ImagesExt/image8_637.png)
 
-Nach Eingabe von Zahlungsdatum und Zahlungsfrist, die lediglich als Hinweistext für das Mahnschreiben gedacht sind, und nach Festlegung der Sortierung beginnt der Ausdruck. Im Mahnschreiben besteht auch die Möglichkeit, auf das letzte Zahlungsdatum des Kunden hinzuweisen. Unter Einrichtungsparameter (Shift F2) lässt sich zusätzlich einstellen, wie die Darstellung des Sollhabenkennzeichens sein soll und ob die Restposten aufgelöst dargestellt werden sollen.
+Nach Eingabe von Zahlungsdatum und Zahlungsfrist, die lediglich als Hinweistext für das Mahnschreiben gedacht sind, und nach Festlegung der Sortierung beginnt der Ausdruck. Im Mahnschreiben besteht auch die Möglichkeit, auf das letzte Zahlungsdatum des Kunden hinzuweisen. Unter Einrichtungsparameter (**Shift F2**) lässt sich zusätzlich einstellen, wie die Darstellung des Sollhabenkennzeichens sein soll und ob die Restposten aufgelöst dargestellt werden sollen.
 
 **ACHTUNG:** *Sobald die Mahnung gedruckt wird, werden die Mahnstufen in den Belegen hochgesetzt und es wird das Datum der letzten Mahnung vermerkt.*
 
@@ -42,7 +42,7 @@ Man kann Mahnungen auch so einrichten, dass sie per [Mail versendet](./mahnungen
 
 ***Druckkennzeichen löschen* F10**
 
-Wurde eine Mahnung bereits gedruckt, so kann mithilfe der Funktion Druckkennzeichen löschen das Druckkennzeichen der Mahnung von „Ja“ auf „Nein“ zurückgesetzt werden. Dabei wird das Mahndatum und die Mahnstufe der offenen Posten zurückgesetzt.
+Wurde eine Mahnung bereits gedruckt, so kann mithilfe der Funktion ***Druckkennzeichen löschen*** das Druckkennzeichen der Mahnung von „Ja“ auf „Nein“ zurückgesetzt werden. Dabei wird das Mahndatum und die Mahnstufe der offenen Posten zurückgesetzt.
 
 ![](../../ImagesExt/image8_638.png)
 
@@ -56,7 +56,7 @@ Die Buchungssätze für Mahngebühren, Zinsen etc. werden erstellt.
 
 ![Ein Bild, das Text enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_639.png "Ein Bild, das Text enthält. Automatisch generierte Beschreibung")
 
-Abgefragt werden das Beleg- und das Fälligkeitsdatum. Der Nummernkreis wird, wie in der Nummernkreiszuordnung Finanzbuchhaltung (Direktsprung [NKF]) für Ausgangsrechnungen hinterlegt, vorgeschlagen. Durch auslösen der Funktion Starten F9 wird der Vorgang gestartet.
+Abgefragt werden das Beleg- und das Fälligkeitsdatum. Der Nummernkreis wird, wie in der Nummernkreiszuordnung Finanzbuchhaltung (Direktsprung **[NKF]**) für Ausgangsrechnungen hinterlegt, vorgeschlagen. Durch auslösen der Funktion ***Starten*** **F9** wird der Vorgang gestartet.
 
 Den Text der Hauptposition kann im [Mahnstamm](./mahnstamm.md) im Feld Buchungstext hinterlegen. Ist dort kein Text eingetragen, dann wird der im Einrichterparameter „**Text Hauptzeile bei Übernahme der Mahnungen in die Primanota**“ hinterlegte Text verwendet. Ist auch hier kein Text eingerichtet, so wird der Standardtext „Mahngebühren und Mahnzinsen verwendet.
 

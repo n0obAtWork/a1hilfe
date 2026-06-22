@@ -4,7 +4,7 @@
 
 Im Pfleger Vorgangsunterklassen [FRZ] besteht nun auf dem Tabreiter "Abwicklung" im Bereich "Versand" die Möglichkeit ein Makro zu hinterlegen welches optional vor oder nach dem Belegversand aufgerufen wird. Die Übergabeparameter sind FA_ID, die FA_MndNr sowie ein Kennzeichen, das steuert ob der Aufruf vor oder nach dem Belegversand stattfindet (Vorher = 1, Nachher= 0).
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 744827[36499]
 

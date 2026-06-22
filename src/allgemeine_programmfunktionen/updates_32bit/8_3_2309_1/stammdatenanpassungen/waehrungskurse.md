@@ -4,7 +4,7 @@
 
 Die Erstellung des Events für die automatische Aktualisierung der Währungskurse wurde auf eine neue Technologie umgestellt. Bestehende Events müssen ggf. neu erstellt werden, wenn es Probleme bei der Aktualisierung der Währungskurse geben sollte. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 723138[33806]
 

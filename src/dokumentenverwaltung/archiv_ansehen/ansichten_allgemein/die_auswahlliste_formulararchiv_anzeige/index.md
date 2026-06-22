@@ -55,17 +55,17 @@ Ist für die Ansicht der „Vorschau“-Modus aktiviert, dann gestaltet sich die
 
 2) Im Grid werden die bekannten Archiv-Inhalte dargestellt.
 
-3) Im oberen Bereich befindet sich eine „Multifunktionsleiste“ (Ribboncontrol) das „Office-like“ neben dem Kontext-Menü (rechte Maustaste) ausgewählte Funktionalitäten zur Verfügung stellt. In der jetzigen Auslieferung ist das vorerst die Funktionalität Ansicht.
+3) Im oberen Bereich befindet sich eine „Multifunktionsleiste“ (Ribboncontrol) das „Office-like“ neben dem Kontext-Menü (rechte Maustaste) ausgewählte Funktionalitäten zur Verfügung stellt. In der jetzigen Auslieferung ist das vorerst die Funktionalität ***Ansicht***.
 
 Über ![](../../../../ImagesExt/image8_910.png) lässt sich die „Multifunktionsliste“ dauerhaft aufklappen, ansonsten muss mit der Maus der Punkt „Ansicht“ selektiert werden. Damit erhält man folgende Ansicht
 
 ![](../../../../ImagesExt/image8_911.jpg)
 
-Mit der Funktion Unter der Multifunktionsleiste anzeigen lässt sich festlegen, wo die „Multifunktionsleisten-Steuerung“ angezeigt werden soll.
+Mit der Funktion ***Unter der Multifunktionsleiste anzeigen*** lässt sich festlegen, wo die „Multifunktionsleisten-Steuerung“ angezeigt werden soll.
 
 4) Im unteren Bereich findet sich die Information, um welche Ansicht es sich handelt (in diesem Beispiel um die Archiv-Ansicht „AMIC_KUNDE“ mit der Ansichts-ID 421. Des Weiteren hat das System 291 Archiv-Einträge komplett geladen.
 
-Mit Hilfe der Funktion Aktualisieren werden die Daten neu ermittelt und geladen.
+Mit Hilfe der Funktion ***Aktualisieren*** werden die Daten neu ermittelt und geladen.
 
 5) In den Spalten-Köpfen können Sie Sortierungen vornehmen und via Drag&Drop Spaltenreihenfolgen bestimmen.
 
@@ -103,7 +103,7 @@ Diesem Beispiel entnehmen Sie bitte, das das Betreff-Feld schon automatisch mit 
 
 **9) Archiv-Ableitung**
 
-Die Praxis hat gezeigt, dass in einigen Fällen eine volle Kontrolle über das Datengewinnungs-Sql verfügbar sein muss. Mit Hilfe der Funktion Ableitung [SF2] erhält man individuelle Zugriffsmöglichkeiten auf eine gesamte Archiv-Ansicht, also Auslierung und Privatisierungen über alle Bedienerklassen.
+Die Praxis hat gezeigt, dass in einigen Fällen eine volle Kontrolle über das Datengewinnungs-Sql verfügbar sein muss. Mit Hilfe der Funktion ***Ableitung*** **[SF2]** erhält man individuelle Zugriffsmöglichkeiten auf eine gesamte Archiv-Ansicht, also Auslierung und Privatisierungen über alle Bedienerklassen.
 
 Man hat also die Möglichkeit eine private „Ableitung“ zu definieren. Diese Ableitung bleibt über Updates hinaus bestehen.
 
@@ -229,7 +229,7 @@ Das eine Ableitung „aktiv“ ist erkennen Sie visuell auf der Maske:
 
 ![](../../../../ImagesExt/image8_918.png)
 
-Mit Hilfe der Funktion Ableitung Export können Sie die Ableitung exportieren.
+Mit Hilfe der Funktion ***Ableitung Export*** können Sie die Ableitung exportieren.
 
 <p class="siehe-auch">Siehe auch:</p>
 

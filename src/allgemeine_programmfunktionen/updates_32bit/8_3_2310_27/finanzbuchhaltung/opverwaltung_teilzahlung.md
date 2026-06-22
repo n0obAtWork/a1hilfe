@@ -4,7 +4,7 @@
 
 Man kann in der OP-Verwaltung mehrere Rechnungen gegen eine Zahlung ausziffern und dazu dann eine Teilzahlung bilden. Waren die erstellten Teilzahlungen in Buchwährung, kam es fälschlicherweise zu Kursdifferenzbuchungen. Diese Auszifferung wird vom Reorganisator als fehlerhaft ausgewiesen. Außerdem hatten die Teilzahlungsbelege das Belegdatum der Zahlung und nicht das der Rechnung bekommen. Die Probleme sind jetzt behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 727960[34337]
 

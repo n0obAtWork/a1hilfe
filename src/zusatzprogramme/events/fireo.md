@@ -4,7 +4,7 @@
 
 Für die Finanzbuchhaltung kann der Test der Bewegungsdaten einfach per Event gestartet werden. Die Reorganisation wird bewusst nicht angeboten, da eventuell auftretende Fehler korrekt abgearbeitet werden sollen und zur Not der AMIC-Hotline gemeldet werden sollen. Um die Vorlage für dieses Event zu aktivieren, muss auf dem Register „Vorlagen“ Fireo auf **Ja** gestellt werden. Der Prozeduraufruf, der auf dem Register „Verarbeitungsroutine“ zu finden ist, muss noch ein wenig angepasst werden.
 
-Für diese Automation kann die [Ausgabedatei](../../finanzbuchhaltung/fibu_reorganisator/automation.md) unter Optionen [OPT] festgelegt werden
+Für diese Automation kann die [Ausgabedatei](../../finanzbuchhaltung/fibu_reorganisator/automation.md) unter Optionen **[OPT]** festgelegt werden
 
 **Funktionsweise des Fireo:**
 

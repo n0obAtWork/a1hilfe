@@ -6,7 +6,7 @@ Administration > Menü > Dashboard > Variante Kachel
 
 oder
 
-Direktsprung [DASH] \> Variante Kachel
+Direktsprung **[DASH]** \> Variante Kachel
 
 Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Basisdesign](./basisdesign.md) zur Verfügung.
 

@@ -4,7 +4,7 @@
 
 Hauptmenü > Anlagenbuchhaltung > Stammdaten > Firmenstamm
 
-Direktsprung [ANKFS]
+Direktsprung **[ANKFS]**
 
 Im Firmenstamm werden verschiedene Einstellungen für die Anlagenbuchhaltung vorgenommen. Bevor man Anlagegüter erfassen kann, müssen diese Daten einmal eingerichtet werden.
 

@@ -10,7 +10,7 @@ Der Versandprofilstamm dient zum Hinterlegen von Profilen für den Versand von z
 
 Im „Startmenü“ die Anwendung „Dienste“ aufrufen. Dort den A.eins.Mailservice selektieren und „Eigenschaften“ aufrufen. Startyp auf „Automatisch“ festlegen und den Dienst starten.
 
-Eingabefelder
+<p class="just-emphasize">Eingabefelder</p>
 
 | Feld | Beschreibung |
 | --- | --- |
@@ -106,6 +106,6 @@ Typen des Versandprofilstamms. Hier können den Versandprofilen unterschiedliche
 | Hotline Automat | |
 | Standard aus Mandantenstamm | Hier finden sich die Versandinformationen, welche aus dem Mandantenstamm übernommen wurden. |
 
-Funktionen
+<p class="just-emphasize">Funktionen</p>
 
 Die Funktion „Testmail versenden“ bietet die Möglichkeit, eine Mail an den eingestellten Empfänger zu senden. Diese Funktion wird ebenfalls von der Schaltfläche „Sende Test-E-Mail“ verwendet

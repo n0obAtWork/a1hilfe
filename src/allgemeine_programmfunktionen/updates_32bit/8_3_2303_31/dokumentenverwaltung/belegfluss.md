@@ -4,7 +4,7 @@
 
 Die Zuordnung eines Beleges zum Belegfluss verlief bisher über die Belegreferenz. Jetzt wird der Beleg direkt (über die V_Id bzw. FibuV_Id) mit dem Belegfluss verknüpft. Für bereits angelegte Belegfluss-Datensätze erfolgt die Zuordnung weiterhin über die Belegreferenz. Für diese Datensätze kann mithilfe der Funktion "Belegzuordnung entfernen", die Zuordnung rückgängig gemacht werden. Diese Funktion ist nur verfügbar, wenn im Postfach das Feld "Beleg-Freigabe erlaubt?" auf "Ja" steht. Das Ausführen dieser Funktion sowie das Anlegen eines Beleges im Belegfluss werden jetzt protokolliert und unter dem Register "Historie" im Belegfluss angezeigt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 720082[33454]
 

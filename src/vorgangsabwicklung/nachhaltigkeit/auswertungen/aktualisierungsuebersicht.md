@@ -4,7 +4,7 @@
 
 Hauptmenü > Wareneinkauf > Nachhaltigkeit > Bewegungsübersicht > Variante Aktualisierungsübersicht
 
-Direktsprung [NAART]
+Direktsprung **[NAART]**
 
 Diese Variante zeigt die Vorgangspositionen an, die bezüglich der Massebilanzverarbeitung noch nicht durch den Mandantenserverprozess verarbeitet worden sind.
 

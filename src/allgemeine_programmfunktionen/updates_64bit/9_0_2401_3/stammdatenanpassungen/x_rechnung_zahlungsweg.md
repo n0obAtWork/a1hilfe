@@ -4,7 +4,7 @@
 
 Der Zahlungsweg der X-Rechnung wird nun statt im Profil in der Zahlungsart [FIZAH] festgelegt. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 728333[35171]
 

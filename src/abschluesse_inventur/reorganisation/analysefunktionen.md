@@ -2,9 +2,9 @@
 
 <!-- source: https://amic.de/hilfe/_analysefunktionen.htm -->
 
-Sollte eine Differenz festgestellt werden, kann über die Anwahl der Funktion Konsistenz prüfen möglicherweise die Ursache für die Abweichung gefunden werden.
+Sollte eine Differenz festgestellt werden, kann über die Anwahl der Funktion ***Konsistenz prüfen*** möglicherweise die Ursache für die Abweichung gefunden werden.
 
-Die durch "!!!" gekennzeichneten Einträge sind „ausführbare SQL-Anweisungen“, sie führen also zu Veränderungen am Datenmaterial. Sämtliche anderen Funktionen erzeugen eine Bildschirmübersicht, die auch mit F4 druckbar ist. Eine Beschreibung ist jeweils unter Info sichtbar.
+Die durch "!!!" gekennzeichneten Einträge sind „ausführbare SQL-Anweisungen“, sie führen also zu Veränderungen am Datenmaterial. Sämtliche anderen Funktionen erzeugen eine Bildschirmübersicht, die auch mit **F4** druckbar ist. Eine Beschreibung ist jeweils unter Info sichtbar.
 
 | Funktion | Beschreibung |
 | --- | --- |
@@ -36,7 +36,7 @@ ACHTUNG: Sie müssen eine Belegnummer angeben!! |
 | Nummernlücken in Lieferscheinen | Nichtbelegte Lieferscheinnummern |
 | Nummernlücken in Rechnungen | Nichtbelegte Rechnungsnummern |
 | !!! Redundante Mandantenservereinträge löschen | Es werden alle Einträge im Mandantenserver gelöscht, zu denen es keine Vorgänge gibt! |
-| Mandantenserver Status 3 freigeben | Es werden alle Einträge im Mandantenserver aktiviert, die nach einem Abbruch noch auf DS_STATUS = 3 stehen. Falls der Mandantenserver noch läuft, kann diese Maßnahme nicht durchgeführt werden. Bitte vergewissern Sie sich also per [MSI], dass der Mandantenserver nicht aktiv ist! |
+| Mandantenserver Status 3 freigeben | Es werden alle Einträge im Mandantenserver aktiviert, die nach einem Abbruch noch auf DS_STATUS = 3 stehen. Falls der Mandantenserver noch läuft, kann diese Maßnahme nicht durchgeführt werden. Bitte vergewissern Sie sich also per **[MSI]**, dass der Mandantenserver nicht aktiv ist! |
 | Zurückgestellte Mandantenservereinträge | Diese Einträge im Mandantenserver wurden von AMIC-Mitarbeitern zwischenzeitlich deaktiviert (DS_STATUS = 2!!), da die Abarbeitung mit dem damaligen Programmstand zu Problemen führte. In der Spalte "BELEG vorhanden" wird angezeigt, ob der zugehörige Beleg noch vorhanden ist. Mandantenservereinträge ohne vorhandene Belege können mit Redundante Mandantenservereinträge löschen entfernt werden! |
 | !!! Defekte Vorgänge löschen | Es werden alle Vorgänge gelöscht, die unvollständig sind und im Mandantenserver als defekt gekennzeichnet sind. |
 | !!! Vorgänge mit doppelten Beträgen | Durch einen Programmfehler wurden Belege erzeugt, deren Gesamtsumme genau der zweifachen Summe der zugehörigen Warenpositionen beträgt. Durch diese Anweisung wird der korrekte Betrag in den Beleg übernommen. |

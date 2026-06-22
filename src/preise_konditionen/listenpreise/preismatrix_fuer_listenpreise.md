@@ -4,7 +4,7 @@
 
 Preise / Konditionen > Konstanten der Preispflege > Preismatrixpflege
 
-Oder Direktsprung [PRM]
+Oder Direktsprung **[PRM]**
 
 Einem Artikel wird im Einkauf und im Verkauf jeweils eine Preismatrix zugeordnet, die an dieser Stelle gepflegt wird. Neben der identifizierenden Matrixnummer kann eine aussagekräftige Bezeichnung vergeben werden. Eine Preismatrix dient dazu, Kunden/Lieferanten mittels der dort zugeordneten [Preisklassen](./preisklasse_fuer_listenpreise.md) eine [Listenpreisdefinition](./definition_von_listenpreisen.md) zuzuordnen, mit deren Hilfe [Listenpreise](./index.md) zum Artikel und Kunden/Lieferanten bestimmt werden können.  
 Es können mehrere Listenpreisdefinitionen angegeben werden und jeder Preisdefinition mehrere Preisklassen zugeordnet werden. Dabei darf jede Preisklasse jedoch nur einmal in der gesamten Matrix vorkommen. Eine besondere Bedeutung hat die Zuordnung der Preisklasse 0 zu einer Listenpreisdefinition: Wird während der Preisfindung in der Preismatrix keine Zuordnung der Preisklasse x (ungleich 0!) eines Kunden/Lieferanten zu einer Listenpreisdefinition gefunden, so wird, falls in der Matrix definiert, die Listenpreisdefinition mit der Zuordnung der Preisklasse 0 herangezogen. In diesem Fall bedeutet diese Zuordnung also etwa „alle Kunden/Lieferanten, deren Preisklasse nicht in der Matrix anders zugeordnet sind“. Daher darf die Preisklasse 0 auch nur alleine und nicht mit weiteren Preisklassen einer Listenpreisdefinition zugeordnet werden.  

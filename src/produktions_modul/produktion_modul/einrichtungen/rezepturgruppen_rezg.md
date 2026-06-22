@@ -4,7 +4,7 @@
 
 Hauptmenü > Produktion / Abwicklung > Produktion Stammdaten > Rezepturgruppen
 
-oder Direktsprung [REZG]
+oder Direktsprung **[REZG]**
 
 Struktur
 

@@ -4,7 +4,7 @@
 
 Hauptmenü > Warenverkauf > Auftrag > Auftrag: Mengenkorrektur
 
-Oder Direktsprung [AUK]
+Oder Direktsprung **[AUK]**
 
 Mit der Auftrag-Restmengenkorrektur können in Aufträgen und Bestellungen die Restmengen und das Plandatum bearbeitet werden.
 

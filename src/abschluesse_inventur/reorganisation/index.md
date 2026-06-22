@@ -6,7 +6,7 @@ Im A.eins – System werden im Bereich der Warenwirtschaft 4 zentrale Datenberei
 
 Die hier beschriebenen Abstimmwerkzeuge stellen eine Werkzeugsammlung zu Bearbeitung uns bekannt gewordener Probleme dar und ermöglichen einen vergleichenden Überblick und sollen bei der Lokalisierung und Bereinigung von etwaigen Abweichungen unterstützen.
 
-Die Abstimmung der Datenbestände sollte zum Standard im Verfahren des Periodenabschlusses [PERAW], in jedem Fall aber zum Verfahren Jahresabschluss zählen. Zu spät erkannte Unstimmigkeiten vergrößern den Aufwand zur Bereinigung enorm.
+Die Abstimmung der Datenbestände sollte zum Standard im Verfahren des Periodenabschlusses **[PERAW]**, in jedem Fall aber zum Verfahren Jahresabschluss zählen. Zu spät erkannte Unstimmigkeiten vergrößern den Aufwand zur Bereinigung enorm.
 
 Falls Unsicherheit in der Bedienung oder dem generellen Umgang mit den beschriebenen Werkzeugen besteht, ist die Rückversicherung bei dem zuständigen Supporter angeraten.
 

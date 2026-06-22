@@ -4,7 +4,7 @@
 
 Beim Ändern der Kundennummer in einem Vorgang kann über das Behandlungsschema [BEH] unter anderem definiert werden, wie mit vorhandenen Versandadressen umgegangen wird. Wenn im Behandlungsschema "verwerfen" gewählt wird, wird die Versandanschrift beim Kundenwechsel nun auf 0 gesetzt. Zuvor wurde die erste Versandadresse des neuen Kunden vorbelegt, auch wenn die Lieferung an den Hauptkunden gehen sollte.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 737408[36543]
 

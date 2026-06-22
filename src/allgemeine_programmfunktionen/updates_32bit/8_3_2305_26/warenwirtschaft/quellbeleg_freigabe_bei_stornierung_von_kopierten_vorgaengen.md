@@ -4,7 +4,7 @@
 
 Beim Stornieren/Löschen (F7) bzw. beim Stornieren mit Stornobeleg konnte es zu Problemen mit der Quellbeleg-Freigabe kommen. Dies wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 720685[33713]
 

@@ -4,7 +4,7 @@
 
 Stammdatenpflege > Stammdatenpfleger > Excel-Import
 
-oder Direktsprung [EXCELI]
+oder Direktsprung **[EXCELI]**
 
 Dieses Modul bietet die Möglichkeit gesamte Arbeitsblätter aus Excel-Dateien nach A.eins zu importieren. Dabei wird anhand des Excel-Arbeitsblattes in A.eins eine Tabelle und eine Variante angelegt. Es können .xlsx und .xlsm-Dateien importiert werden. Das Dateiformat .xls wird nur noch in der 32Bit-Version unterstützt.
 

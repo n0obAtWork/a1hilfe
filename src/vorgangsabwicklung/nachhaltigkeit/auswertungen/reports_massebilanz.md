@@ -4,10 +4,10 @@
 
 Hauptmenü > Wareneinkauf > Nachhaltigkeit > Massebilanz (Kompakt)
 
-Direktsprung [NAMAK]
+Direktsprung **[NAMAK]**
 
 Hauptmenü > Wareneinkauf > Nachhaltigkeit > Massebilanz (Detail)
 
-Direktsprung [NAMAD]
+Direktsprung **[NAMAD]**
 
 Die Reports für die Massebilanz enthalten alle Warenbewegungen, die der ausgewählten Massebilanz zugeordnet wurden. Ausgewiesen werden dabei die Zugangs- und Abgangswerte, sowie die CO2 Werte.

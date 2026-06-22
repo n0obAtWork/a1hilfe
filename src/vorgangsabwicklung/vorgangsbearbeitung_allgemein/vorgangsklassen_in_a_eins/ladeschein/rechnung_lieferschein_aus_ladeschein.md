@@ -4,9 +4,9 @@
 
 Mit diesem Modul lässt sich ein Ladeschein in ein Lieferschein oder in eine Rechnung wandeln. Dazu werden die einzelnen Ladescheinpositionen in der Auswahlliste markiert.
 
-Dann wird die Funktion Re./Lie. Aus Ladeschein aufgerufen.
+Dann wird die Funktion ***Re./Lie. Aus Ladeschein*** aufgerufen.
 
-Bedeutung der Felder auf der Maske Ladeschein zu Rechnung oder Lieferschein.
+<p class="just-emphasize">Bedeutung der Felder auf der Maske Ladeschein zu Rechnung oder Lieferschein.</p>
 
 Informationsfeld
 
@@ -34,7 +34,7 @@ Sind an einem Ladeschein unterschiedliche Aufträge beteiligt, so wird zu jedem 
 
 Besonderheiten
 
-In der Anwendung [Vorgangsunterklasse](../../../formularzuordnung/index.md) [FRZ] für die Klasse 500 „Ladeschein“ auf der Registerkarte „[Sperren](../../../formularzuordnung/sperren.md)“ wird eingestellt, ob nach der Erzeugung des Lieferscheins oder der Rechnung der Ladeschein gesperrt oder Storniert werden soll.
+In der Anwendung [Vorgangsunterklasse](../../../formularzuordnung/index.md) **[FRZ]** für die Klasse 500 „Ladeschein“ auf der Registerkarte „[Sperren](../../../formularzuordnung/sperren.md)“ wird eingestellt, ob nach der Erzeugung des Lieferscheins oder der Rechnung der Ladeschein gesperrt oder Storniert werden soll.
 
 Dis Standardeinstellung ist, dass der Ladeschein storniert wird.
 

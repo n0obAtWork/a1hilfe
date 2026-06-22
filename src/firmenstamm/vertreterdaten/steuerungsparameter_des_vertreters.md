@@ -4,7 +4,7 @@
 
 Über Steuerungsparameter können Voreinstellungen vorgenommen werden. Sie finden sich in der Parametergruppe „Vertreter / Provision“:
 
-Standard Provisionierungsformel
+<p class="just-emphasize">Standard Provisionierungsformel</p>
 
 Mit diesem SPA kann eingestellt werden, welcher Typ zur Provisionsberechnung als Standardprovisionsberechnungstyp herangezogen werden soll.
 
@@ -32,7 +32,7 @@ Mit diesem SPA kann eingestellt werden, welcher Typ zur Provisionsberechnung als
 
 101 = rohgewinnbezogene Provision
 
-Offene Posten berücksichtigen
+<p class="just-emphasize">Offene Posten berücksichtigen</p>
 
 Mit diesem Steuerparameter kann eingestellt werden, ob offene Posten bei der Provisionsberechnung berücksichtigt werden.
 

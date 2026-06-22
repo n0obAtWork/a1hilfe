@@ -6,7 +6,7 @@
 
 Es wurde die Prozedur AMIC_Belegversand_Ware_Spaeter für eRechnung spezialisiert. Das hat dazu geführt, dass durch das Ausfüllen von eRechnungsdaten im betroffenen Kunden immer die eRechnungsmailadresse beim Belegversand gezogen wurde. Die neue Prozedur AMIC_Belegversand_Ware_Spaeter_ohne_xRechnung wurde aus früheren Version der Prozedur AMIC_Belegversand_Ware_Spaeter erstellt. Das bedeutet, dass man in [FRZ] für zum Beispiel Aufträge und Angebote die Prozedur AMIC_Belegversand_Ware_Spaeter_ohne_xRechnung und für Rechnung und Gutschriften AMIC_Belegversand_Ware_Spaeter 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 747369[37315]
 

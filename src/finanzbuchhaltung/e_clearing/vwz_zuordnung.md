@@ -35,12 +35,12 @@ Der obere Teil dient dazu, die Bestandteile zu bestimmen, welche zur Identifikat
 | Konto  
  | Das Konto, dem der Betrag zugeordnet wird. Gibt man hier als Konto ein Sachkonto an, so lassen sich auch Kostenstellen, Kostenträger und ggf. Kostenobjekte entsprechend den Einstellungen im Sachkontenstamm angeben. Eine Auswahl ist mit F3 möglich.  
  |
-| Kostenstelle | Ist das Konto ein Sachkonto, so lässt sich hier die [Kostenstelle](../kostenrechnung/kostenstellen.md) eintragen. Eine Auswahl ist mit F3 möglich.  
+| Kostenstelle | Ist das Konto ein Sachkonto, so lässt sich hier die [Kostenstelle](../kostenrechnung/kostenstellen.md) eintragen. Eine Auswahl ist mit **F3** möglich.  
  |
-| Kostenträger | Ist das Konto ein Sachkonto, so lässt sich hier der [Kostenträger](../kostenrechnung/kostentraeger.md) eintragen. Eine Auswahl ist mit F3 möglich.  
+| Kostenträger | Ist das Konto ein Sachkonto, so lässt sich hier der [Kostenträger](../kostenrechnung/kostentraeger.md) eintragen. Eine Auswahl ist mit **F3** möglich.  
  |
 | Kostenobjekt  
- | Ist das Konto ein Sachkonto, so lässt sich hier das [Kostenobjekt](../kostenrechnung/kostenobjekte/index.md) eintragen. Eine Auswahl ist mit F3 möglich.  
+ | Ist das Konto ein Sachkonto, so lässt sich hier das [Kostenobjekt](../kostenrechnung/kostenobjekte/index.md) eintragen. Eine Auswahl ist mit **F3** möglich.  
  |
 | Buchungstext | Hier kann ein Buchungstext hinterlegt werde. Wird bei der Kontenerkennung ein passender Satz in der VWZ-Zuordnung gefunden, wird der hier eingetragene Text in den e-Clearing-Beleg übernommen und so später bei der Übernahme in die Primanota verwendet.  
  |

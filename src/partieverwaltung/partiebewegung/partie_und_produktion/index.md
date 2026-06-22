@@ -4,7 +4,7 @@
 
 Hauptmenü > Produktion / Umbuchung > Produktionsabwicklung > Produktion oder Produktionszugang erfassen
 
-oder Direktsprung [PROB] oder [PROE]
+oder Direktsprung **[PROB]** oder **[PROE]**
 
 Durch die Produktion werden unterschiedliche Komponenten zu einem Produkt verarbeitet. Durch diesen Prozess entsteht üblicherweise auf dem Produkt eine neue Partie und die Komponenten werden von bestehenden Partien abgebucht. Diese Verbuchung der Partien im Rahmen einer Produktion ist ab der A.eins Version 4.4. möglich.
 

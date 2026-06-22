@@ -4,7 +4,7 @@
 
 Das CSMakro-Interface IAISMakro_V005 war nicht nutzbar. Das ist nun behoben. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 720492[33548]
 

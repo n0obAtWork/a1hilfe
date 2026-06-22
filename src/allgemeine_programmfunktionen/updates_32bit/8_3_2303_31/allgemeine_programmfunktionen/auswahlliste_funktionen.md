@@ -4,7 +4,7 @@
 
 Die in einer Auswahlliste verwendeten Zeichen werden in einer XML-Struktur verwaltet. Wenn in einer Funktionsbezeichnung ein nicht XML-Kompatibles Zeichen enthalten war, kam es zu einem XML-Parser-Fehler. Dieses Problem wurde beseitigt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 721750[33620]
 

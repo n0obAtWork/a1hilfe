@@ -12,7 +12,7 @@ Für die Vorbelegung innerhalb der Strecke wird eine private Prozedur benötigt.
 
 [Beispielprozedur](./vorbelegung.md#vorb_Beispielprozedur)
 
-IN-Parameter![](../../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">IN-Parameter![](../../../ImagesExt/image8_1357.png)</p>
 
 Folgende IN-Parameter werden beim Aufruf der Prozedur übergeben.
 
@@ -27,7 +27,7 @@ Folgende IN-Parameter werden beim Aufruf der Prozedur übergeben.
 | in_OccChange | 0 Die Prozedur wurde durch ein „Ausführungsfeld aufgerufen.  
 1 Die Prozedur wurde durch eine neue Zeile aufgerufen. |
 
-Übergabefelder![](../../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">Übergabefelder![](../../../ImagesExt/image8_1357.png)</p>
 
 Die [Übergabefelder](./index.md#registerAllgemein2_Vorbelegung) können innerhalb des Profils festgelegt werden. Diese werden vor dem Aufruf der Prozedur in eine globale Tabelle geschrieben. Aus dieser Tabelle können dann die übergebenen Werte innerhalb der Prozedur wieder ausgelesen werden.
 
@@ -54,7 +54,7 @@ and text1 =
 
 Dabei sollte nicht vergessen werden, den Wert in den richtigen Datentypen umzuwandeln (CAST).
 
-RESULT-Klausel![](../../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">RESULT-Klausel![](../../../ImagesExt/image8_1357.png)</p>
 
 Die „RESULT-Klausel“ ist die Beschreibung, welche Daten zurückgegeben werden.
 
@@ -67,7 +67,7 @@ Die „RESULT-Klausel“ ist die Beschreibung, welche Daten zurückgegeben werde
 
 Da es sich um eine RESULT-Klausel handelt, können mehrere Spalten zur gleichen Zeit zurückgegeben werden. Entweder kann dafür eine lokale Tabelle oder ein „UNION“-Statement verwendet werden.
 
-Beispielprozedur![](../../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">Beispielprozedur![](../../../ImagesExt/image8_1357.png)</p>
 
 In diesem Beispiel kann man erkennen, wie der Kopf und die Rückgabewerte der privaten Prozedur aussehen müssen.
 

@@ -4,7 +4,7 @@
 
 Für die Funktion Storno mit Kopie von Rohwarebelegen gibt es den neuen Rohwareparameter 191 "Massebilanz bei Storno mit Kopie". Dieser ermöglicht, dass bei der Erzeugung von Stornobelegen mit Kopien die Bewegungen der Originalbelege, die noch keiner festgeschriebenen Massebilanz zugeordnet worden sind, dennoch bis einschließlich Originalbeleg in der Massebilanz berücksichtigt werden. Die zugehörigen Bewegungen des Stornobelegs und der Belegkopie sowie deren Folgebelege werden in dem Fall nicht mehr in Massebilanzen berücksichtigt. Näheres dazu ist der Hilfe zu entnehmen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 707504[33418]
 

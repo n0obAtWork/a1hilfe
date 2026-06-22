@@ -4,7 +4,7 @@
 
 Der fällige Saldo auf dem Kokore wurde nach Verwendung des Moduls Datenlöschung falsch ausgewiesen. Das Problem wurde beseitigt,
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 748651[38055]
 

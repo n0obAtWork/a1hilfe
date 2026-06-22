@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Erlöskennziffern > Erlösklassen
 
-oder Direktsprung [ERLK]
+oder Direktsprung **[ERLK]**
 
 Mit Hilfe der Erlösklasse lassen sich für verschiedene Kundengruppen unterschiedliche Erlös- und Aufwandskonten festlegen (Profit-Center). Die Erlösklasse wird im Kundenstamm hinterlegt. Wenn eine solche Differenzierung nicht erwünscht ist, kann die Einrichtung entfallen.
 

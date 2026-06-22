@@ -12,7 +12,7 @@ Die Finanzbuchhaltung ist so flexibel gehalten, dass man auch ohne Monatsabschlu
 
 [Umsatzsteuervoranmeldung](../finanzbuchhaltung/umsatzsteuer/index.md)
 
-Auswertungen:
+<p class="just-emphasize">Auswertungen:</p>
 
 Summen und Saldenliste
 

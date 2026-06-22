@@ -4,7 +4,7 @@
 
 Hauptmenü > Informationen > Warenbuch > Warenbuch Anzeige
 
-Direktsprung [WBA]
+Direktsprung **[WBA]**
 
 Das Warenbuch ist die zentrale Bezugs- und Absatzstatistik. Es ist nach Lieferbezügen aufgebaut. Es stellt Warenbewegungen für einen frei abgrenzbaren Lieferzeitraum gemäß der Lieferchronologie dar. Das Warenbuch enthält alle Rechnungen und Gutschriften in Ein- und Verkauf sowie Umbuchungen, Produktionsbuchungen und Inventuren. Lieferscheine sind enthalten, solange sie nicht fakturiert sind.
 

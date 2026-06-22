@@ -4,7 +4,7 @@
 
 Hauptmenü > Abschlussarbeiten > DATEV / Import / Export > Datenübernahme
 
-Direktsprung [DUEB]
+Direktsprung **[DUEB]**
 
 Im Pfleger, in dem man die Schnittstelle für die Datenübernahme definiert, existiert eine Funktion „Aufgabenplaner für Datenübernahme“. Der Aufgabenplaner erstellt für die Windows-Aufgabenplanung einen Eintrag. Voraussetzung dafür, dass der Auftrag zu der angegebenen Zeit ausgeführt wird, ist daher, dass der Rechner, auf dem dieser Job erstellt wurde zu dem Zeitpunkt läuft und der Anwender angemeldet ist – der Rechner kann natürlich trotzdem gesperrt sein.
 

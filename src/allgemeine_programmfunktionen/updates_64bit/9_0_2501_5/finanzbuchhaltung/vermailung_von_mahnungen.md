@@ -4,7 +4,7 @@
 
 Die Variante "Mahnungen bearbeiten" wurde erweitert. Es werden zusätzlich die Spalten "Mailempfänger", "Sendetatus", "OPSaldo" und "Mahnsaldo ohne verrechnung" angezeigt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 738373[35665]
 

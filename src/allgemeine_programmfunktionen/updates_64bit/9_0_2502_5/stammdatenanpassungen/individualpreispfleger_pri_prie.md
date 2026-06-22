@@ -4,7 +4,7 @@
 
 Bei der Preispflege in der Maske Individuelle Preise [PRI] [PRIE] ist es möglich durch Angabe einer anderen Artikelnummer ohne Verlassen der Maske einen weiteren Artikel zu bearbeiten. Leider wurde nach Eingabe der neuen Artikelnummer die Daten nicht aktualisiert. In der Maske blieben die Daten des zuvor bearbeiteten Artikels stehen. Dieser Fehler wurde behoben. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 745257[36645]
 

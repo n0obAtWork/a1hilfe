@@ -4,7 +4,7 @@
 
 Die Tasten + und - auf dem Nummernblock werden in der Auswahlliste zum auf- und zuklappen der Gruppen verwendet. Das führte dazu, dass in der Filterzeile die Zeichen nicht über den Nummernblock eingebbar waren. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 722484[33689]
 

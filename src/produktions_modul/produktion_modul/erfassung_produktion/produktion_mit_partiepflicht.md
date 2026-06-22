@@ -8,7 +8,7 @@ und der SPA für die Produktion auf Überwachung bei Artikeln mit Partiezwang ge
 
 ![](../../../ImagesExt/image8_267.jpg)
 
-In der rechten Spalte wird je Komponente mit ! kenntlich gemacht, ob Partiezwang besteht. Mit \* wird angezeigt, dass die Partiebuchung erfolgte. Auf der Produktionsmaske erfolgt die Erfassung je Position mittels F5.
+In der rechten Spalte wird je Komponente mit ! kenntlich gemacht, ob Partiezwang besteht. Mit \* wird angezeigt, dass die Partiebuchung erfolgte. Auf der Produktionsmaske erfolgt die Erfassung je Position mittels **F5**.
 
 ![](../../../ImagesExt/image8_268.jpg)
 
@@ -16,4 +16,4 @@ In der rechten Spalte wird je Komponente mit ! kenntlich gemacht, ob Partiezwang
 
 ![](../../../ImagesExt/image8_270.jpg)
 
-Es wird dann die Menge eingegeben und mit F5 auf die Partiezuordnung verzweigt. Ist die Partienummer bekannt, wird sie hier eingegeben, ansonsten wird sie mit F3 gesucht. Je Menge ist eine Partie zulässig. Mehrere Partien werden einer Komponente durch Eingabe von jeweiliger Menge und Nr. zugeordnet.
+Es wird dann die Menge eingegeben und mit **F5** auf die Partiezuordnung verzweigt. Ist die Partienummer bekannt, wird sie hier eingegeben, ansonsten wird sie mit **F3** gesucht. Je Menge ist eine Partie zulässig. Mehrere Partien werden einer Komponente durch Eingabe von jeweiliger Menge und Nr. zugeordnet.

@@ -4,7 +4,7 @@
 
 Bei der Kasseneröffnung kam es zur Tse-Fehlermeldung 4180. Dies wurde nun behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 719423[33410]
 

@@ -4,11 +4,11 @@
 
 Hauptmenü > Preise / Konditionen > Preiskalkulation tabellarisch > Individualpreiskalkulation Excel
 
-Direktsprung [PKXI]
+Direktsprung **[PKXI]**
 
 Die Excel-Datei mit den Individualpreisen kann nun bearbeitet werden. Da es eine größere Auswahl an Feldern gibt, die bearbeitet werden können, werden diese im Folgenden aufgeschlüsselt.
 
-Grundfunktionen
+<p class="just-emphasize">Grundfunktionen</p>
 
 Diese Felder können editiert werden:
 
@@ -35,7 +35,7 @@ Das Feld **Preis** wird in der Auswahlliste sowie beim Export in die Excel-Datei
 
 Wenn bei Veränderung des Feldes **Preis ab** die neuen Individualpreise nicht in der Auswahlliste angezeigt werden, muss das Filterkriterium **Preisauswahl** (siehe [Exportprofil einrichten](./exportprofil_einrichten.md)) angepasst werden, um nicht ausschließlich gültige Individualpreise anzuzeigen.
 
-Weitere Funktionen
+<p class="just-emphasize">Weitere Funktionen</p>
 
 Grundlegend können alle gelb markierten Felder gepflegt werden. Das Verhalten beim Import kann dabei aber variieren.
 

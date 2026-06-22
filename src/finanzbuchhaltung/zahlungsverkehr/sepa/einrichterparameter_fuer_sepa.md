@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/einrichterparameterfrsepa.htm -->
 
-Hauptmenü > Mahn-,Zahl-, Zinswesen > Zahlungsverkehr > Zahlungen bearbeiten > Funktion DTA F9
+Hauptmenü > Mahn-,Zahl-, Zinswesen > Zahlungsverkehr > Zahlungen bearbeiten > Funktion ***DTA*** **F9**
 
 Direktsprung **[ZHB]**
 
@@ -15,7 +15,7 @@ In der Dialogmaske, die den Datenträgeraustausch zusammenstellt, existieren Ein
     
 Um eine Mischung von Basis- und Firmenlastschriften zu vermeiden wird vor jedem Erstellen geprüft, ob unterschiedliche Lastschriftverfahren in der Auswahl vorkommen und dann ggf. die Verarbeitung abgebrochen. Wenn man diesen Einrichterparameter auf **nein** stellt, wird diese Prüfung nicht durchgeführt.
 
-In der Dialogmaske zum Zusammenstellen der Zahlungsvorschläge (Direktsprung [ZHVE]) existieren Einrichterparameter, die nur für SEPA zuständig sind.
+In der Dialogmaske zum Zusammenstellen der Zahlungsvorschläge (Direktsprung **[ZHVE]**) existieren Einrichterparameter, die nur für SEPA zuständig sind.
 
 1) SEPA Bankarbeitstage vor Fälligkeit bei Erstlastschrift. Standardeinstellung ist 5.
 

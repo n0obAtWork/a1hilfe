@@ -26,7 +26,7 @@ Bei Abgabe einer Monatsmeldung in Meldezeiträumen ab 01.07.2010 kann der Benutz
 
 Bei Abgabe einer Monatsmeldung in Meldezeiträumen ab 01.07.2010 kann der Benutzer die monatliche Abgabe seiner Zusammenfassenden Meldung widerrufen.
 
-Mit der Funktion Starten F10 wird dann das Modul zum Versenden der Daten gestartet.
+Mit der Funktion ***Starten*** **F10** **wird dann das Modul zum Versenden der Daten gestartet.**
 
 ![Ein Bild, das Text, Screenshot enthält. Automatisch generierte Beschreibung](../../../ImagesExt/image8_590.jpg "Ein Bild, das Text, Screenshot enthält. Automatisch generierte Beschreibung")
 

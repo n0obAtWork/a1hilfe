@@ -4,7 +4,7 @@
 
 Die Problematik, dass in Multiline-Feldern unter bestimmten Voraussetzungen die Eingabe von Zeichen nicht mehr möglich war, wurde beseitigt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 734265[35166]
 

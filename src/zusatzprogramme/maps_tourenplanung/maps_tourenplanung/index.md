@@ -4,7 +4,7 @@
 
 In allen Auswahllisten mit einer adressid oder kundid in den Returnfeldern heraus kann eine Tourenplanung angeschlossen werden. Die Anwendung sucht zunächst nach einer AdressId und wenn diese nicht verfügbar ist nach der KundId, deren Hauptanschrift dann ermittelt wird.
 
-Beispielhaft ist die Funktion in Kunden [KU] und Anschriften [ANSCH] eingebaut worden.
+Beispielhaft ist die Funktion in Kunden **[KU]** und Anschriften **[ANSCH]** eingebaut worden.
 
 Der Controlstring lautet
 
@@ -13,7 +13,7 @@ Der Controlstring lautet
 MapsTouren <ProfilId>
 ```
 
-Die ProfilId bestimmt sich aus dem eingestellten Profil in [MTPP]
+Die ProfilId bestimmt sich aus dem eingestellten Profil in **[MTPP]**
 
 Die maximale Anzahl der anzuzeigenden Wegpunkt ist je nach Anwendungsfall beschränkt:
 

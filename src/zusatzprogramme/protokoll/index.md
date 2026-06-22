@@ -4,7 +4,7 @@
 
 Hauptmenü > Systempflege > Abstimmung > Protokollauswertung
 
-oder Direktsprung [PROTO]
+oder Direktsprung **[PROTO]**
 
 Mit der Anwendung Protokoll lassen sich leicht Änderungen von Daten mitverfolgen. Dafür können für alle Tabellen unterschiedliche Spalten mitprotokolliert werden.
 

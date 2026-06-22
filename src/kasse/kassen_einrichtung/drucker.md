@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/drucker.htm -->
 
-Über [OSQL] können Drucker eingerichtet werden:
+Über **[OSQL]** können Drucker eingerichtet werden:
 
 | Epson_bon.sql | für den Bondruckkanal eines EPSON TM930 Models. |
 | --- | --- |

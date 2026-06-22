@@ -17,11 +17,11 @@ Aus der Sicht des Artikelstamms sind dies:
 
 Darüber hinaus können weitere Konstanten in Abhängigkeit von der Anwendung hinzukommen. So sind die Gefahrgutkennzeichen zu erfassen, wenn die Gefahrgutabwicklung aktiviert werden soll.
 
-Bei den Artikeln wird unterschieden zwischen Artikelstamm [ARS] und Artikel [AR].
+Bei den Artikeln wird unterschieden zwischen Artikelstamm **[ARS]** und Artikel **[AR]**.
 
 Der Artikel stellt die bebuchbare Einheit dar, z.B. das Konto „Flasche Weißwein“ auf einem Lager. Lagerübergreifend weisen bebuchbare Artikel jedoch zwingend Gemeinsamkeiten auf: Für eine gemeinsame Bestandsführung müssen sie die gleiche Mengeneinheit besitzen und der gleichen Warengruppe angehören; auch das Ge­wicht ist natürlich gleich. Diese Daten werden im Artikelstamm zusammengefasst. Für die Erfassung ergeben sich dadurch folgende Abläufe:
 
-Wenn nur ein Lager vorhanden ist, erfolgt die Stammdatenerfassung über den Anwahlpunkt Artikel [AR], wo dann alle Informationen in einem Ablauf erfasst werden
+Wenn nur ein Lager vorhanden ist, erfolgt die Stammdatenerfassung über den Anwahlpunkt Artikel **[AR]**, wo dann alle Informationen in einem Ablauf erfasst werden
 
 Sind Artikel auf mehreren Lagern vorhanden, ist es sinnvoll über die Artikelstammerfassung zu arbeiten. Es werden dann zuerst die übergreifenden Informationen eingegeben und dann aus der Erfassungsmaske heraus die individuellen Daten pro Artikel
 

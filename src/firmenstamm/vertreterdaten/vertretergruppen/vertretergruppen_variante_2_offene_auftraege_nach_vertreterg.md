@@ -59,6 +59,6 @@
 
 | Funktion | Beschreibung |
 | --- | --- |
-| Ändern (F5), Ansehen (F6), Löschen (F7), Neu (F8) | Ruft den [Pfleger](./vertretergruppen_pfleger.md) der Vertretergruppen auf. |
+| Ändern **(F5)**, Ansehen **(F6)**, Löschen **(F7)**, Neu **(F8)** | Ruft den [Pfleger](./vertretergruppen_pfleger.md) der Vertretergruppen auf. |
 
 </details>

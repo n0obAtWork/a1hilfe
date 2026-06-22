@@ -4,7 +4,7 @@
 
 Hauptmenü > Kontraktverwaltung > Kontraktstammdaten
 
-oder Direktsprung [KTR]
+oder Direktsprung **[KTR]**
 
 In der Kontraktverwaltung besteht die Möglichkeit, dass für Kontrakte, deren Mengenzeiträume abgelaufen sind, eine sogenannte Kontraktmahnung gedruckt werden kann. 
 

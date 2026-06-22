@@ -4,7 +4,7 @@
 
 Es wurde die Elster-Version 43.2.6 - gültig für das Jahr 2026 - in A.eins integriert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 750043[38331]
 

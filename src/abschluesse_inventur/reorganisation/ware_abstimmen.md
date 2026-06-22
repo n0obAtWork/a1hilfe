@@ -4,23 +4,23 @@
 
 Hauptmenü > Systempflege > Ware abstimmen
 
-oder Direktsprung [WABST]
+oder Direktsprung **[WABST]**
 
-Zum Einlesen der Werte wird die Funktion Periodenwerte einlesen gewählt. Je nach Datenvolumen und Rechnerleistung kann dieser Vorgang einige Zeit in Anspruch nehmen. Danach werden zeilenweise die Ergebnisse nach gewählter Einstellung dargestellt.
+Zum Einlesen der Werte wird die Funktion ***Periodenwerte einlesen*** gewählt. Je nach Datenvolumen und Rechnerleistung kann dieser Vorgang einige Zeit in Anspruch nehmen. Danach werden zeilenweise die Ergebnisse nach gewählter Einstellung dargestellt.
 
-Sollten Differenzen auftreten, stehen unter Konsistenz prüfen Analysefunktionen zur Verfügung, mit denen die Ursache gefunden werden kann.
+Sollten Differenzen auftreten, stehen unter ***Konsistenz prüfen*** Analysefunktionen zur Verfügung, mit denen die Ursache gefunden werden kann.
 
-Funktionsknöpfe
+<p class="just-emphasize">Funktionsknöpfe</p>
 
 | Beschriftung | Funktion |
 | --- | --- |
-| Belegtyp wechseln | Wechsel der Datenbereiche:  
+| ***Belegtyp wechseln*** | Wechsel der Datenbereiche:  
 Die Spaltenwerte werden je Einstellung mit den unterschiedlichen Datenbereichen gefüllt. Es ist also eine Vergleichsmöglichkeit je erwarteter Fragestellung möglich. |
-| + / \- | Blättern Jahre und Perioden:  
+| ***+*** / ***\-*** | Blättern Jahre und Perioden:  
 Es kann hiermit zwischen den jeweiligen Zeiträumen gewechselt werden. |
-| Einzelsumme / kumulierte Summe | Einzelsumme stellt den Wert der oben angezeigten Periode, kumulierte Summe den Wert bis einschließlich o.a. Periode dar. |
-| Periode / Vorperiode / Vorjahr | Zu Vergleichszwecken kann damit in die rechte Spalte der Inhalt eines anderen Zeitraums eingestellt werden. |
-| Wertvergleich / ProzentAnteil / Differenz | Wertvergleich stellt die nackten Werte, ProzentAnteil die relative, Differenz die absolute Abweichung der rechten zur linken Spalte dar. |
+| ***Einzelsumme*** / ***kumulierte Summe*** | Einzelsumme stellt den Wert der oben angezeigten Periode, kumulierte Summe den Wert bis einschließlich o.a. Periode dar. |
+| ***Periode*** / ***Vorperiode*** / ***Vorjahr*** | Zu Vergleichszwecken kann damit in die rechte Spalte der Inhalt eines anderen Zeitraums eingestellt werden. |
+| ***Wertvergleich*** / ***ProzentAnteil*** / ***Differenz*** | Wertvergleich stellt die nackten Werte, ProzentAnteil die relative, Differenz die absolute Abweichung der rechten zur linken Spalte dar. |
 | Erstelle WABST.TXT | Wertvergleich stellt die nackten Werte, ProzentAnteil die relative, Differenz die absolute Abweichung der rechten zur linken Spalte dar. |
 
 Die Datenaufbereitung (Einlesen) mit WABST nimmt zurzeit noch relativ viel Zeit in Anspruch, da in der jetzigen Version stets der gesamte Datenbestand (WARE / FIBU) eingelesen wird. In einer zukünftigen Version sollen dann abgeschlossene Perioden gespeichert werden, so dass dann lediglich die aktuell offenen Perioden neu eingelesen werden!

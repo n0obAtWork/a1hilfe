@@ -11,33 +11,33 @@ Wenn auf dem Register “Feldbeschreibung” als Feldtyp “Grid“ eingestellt 
 ![](../../../ImagesExt/image8_1028.png)  
     
 
-Grid für Einfügemodus aktivieren
+<p class="just-emphasize">Grid für Einfügemodus aktivieren</p>
 
 Dies ist ein Kompatibilitäts-Schalter. In früheren Versionen wurden im Einfüge-Fall die Daten des Grids nicht gespeichert. Damit nun nicht dafür geschriebene Lösungen mit der Behebung dieses Problems kollidieren, wurde dieser Schalter geschaffen. Wenn er auf Ja steht, werden die Griddaten auch im Einfügen-Fall gespeichert, ansonsten verhält sich das System wie zuvor.
 
-Feldname
+<p class="just-emphasize">Feldname</p>
 
 Innerhalb des Grids werden Daten spaltenorientiert dargestellt. Im Feldnamen gibt man den Namen aus der Tabelle an, der in der Spalte angezeigt werden soll. Auf der Maske setzt sich der Feldname dann aus dem Namen des Grids und dem Feldnamen in der Datenbank zusammen (&lt;GridName>.&lt;Datenbankname>$). Die daraus entstehende Länge darf 31 Zeichen nicht überschreiten.
 
-Überschrift
+<p class="just-emphasize">Überschrift</p>
 
 Hier hinterlegt man die Spaltenüberschrift.
 
-Feldformat
+<p class="just-emphasize">Feldformat</p>
 
 Das Feldformat ist bereits aus der Feldbeschreibung bekannt. Es existiert auch hier eine Itembox(**F3**) mit einer Auswahl der möglichen Formate:
 
 ![](../../../ImagesExt/image8_1029.png)
 
-Format
+<p class="just-emphasize">Format</p>
 
 Wenn im Feldformat das FS-Format ausgewählt wurde, so kann man dieses Feld betreten und muss hier das Format eintragen oder es über **F3** auswählen.
 
-Itembox
+<p class="just-emphasize">Itembox</p>
 
 Wenn in einem Feld nur Werte angegeben werden dürfen, die auch in einer anderen Tabelle vorhanden sind, so kann man hier eine Itembox angeben, die auf diese Tabelle verweist. Eine Liste der Itemboxen erhält man mit **F3**.
 
-Itembox-Info
+<p class="just-emphasize">Itembox-Info</p>
 
 Häufig gibt es zusätzliche Informationen zu Feldern, die sich auf andere Relationen beziehen. Eine der häufigsten Informationen, die man sehen will ist die Bezeichnung, die einem bestimmten Wert zugeordnet ist. Diese Information kann man hier erhalten. Dabei muss man das Feld angeben, wie es in der Itembox in der Returnliste steht, gefolgt von „>“ und dem Maskenfeld.
 
@@ -62,7 +62,7 @@ LKWGrid.LKWTEXT$,LKW_MATCH> LKWGrid.MATCH$,....
 
 Alle Felder, die aus der Relation gelesen werden, müssen in der Returnliste der Itembox stehen. Siehe dazu Dokumentation Itembox.
 
-Entry-, Exit- bzw. Valid-Funktion
+<p class="just-emphasize">Entry-, Exit- bzw. Valid-Funktion</p>
 
 Diese drei Funktionen dienen zur Steuerung bzw. zur Eingabeprüfung des Feldes. Sie haben alle denselben Aufbau. Es sind Funktionen innerhalb des Makros, das man bei der Einrichtung der Gruppe angegeben hat. Die Funktion muss fünf Parameter mit folgender Bedeutung haben:
 
@@ -87,15 +87,15 @@ end;
 
 Die Validation-Funktion unterscheidet sich dadurch von den anderen, dass der Rückgabewert ausgewertet wird. Ein Wert ungleich 0 bewirkt, dass das Feld nicht verlassen werden kann.
 
-Feldlänge
+<p class="just-emphasize">Feldlänge</p>
 
 Breite in der die Spalte dargestellt wird.
 
-Sortierung
+<p class="just-emphasize">Sortierung</p>
 
 In dieser Reihenfolge werden die Spalten dargestellt.
 
-Bearbeitung
+<p class="just-emphasize">Bearbeitung</p>
 
 Mit Bearbeitung wird festgelegt, wie ob und wie Felder vom Endanwender zu bearbeiten sind:
 
@@ -111,7 +111,7 @@ Mit Bearbeitung wird festgelegt, wie ob und wie Felder vom Endanwender zu bearbe
 **Achtung:** *Ist die* [*Datenherkunft*](./datenbeschreibung.md) ***Relation**, so wird das Feld trotzdem mit gespeichert.*  
  |
 
-Control
+<p class="just-emphasize">Control</p>
 
 Wenn beim Mausklick in diese Spalte irgendwie reagiert werden soll, muss hier einer der folgenden Controlstrings eingetragen werden:
 
@@ -125,7 +125,7 @@ Wenn beim Mausklick in diese Spalte irgendwie reagiert werden soll, muss hier ei
 
 Die Funktionen ais_aisload, ais_makro und ais_vba setzen die JVAR AIS_V_GRIDZEILE (owner=7100). In dieser steht die jeweils ausgewählte Zeile des Grids. Damit ist gewährleistet, dass man auch im VBA bzw. im Makro weiß, welche Zeile aktiv ist.
 
-ID
+<p class="just-emphasize">ID</p>
 
 Hier markiert man das Feld, welches die eindeutige ID enthält. Es kann immer nur ein Feld als Identfeld markiert sein.
 
@@ -141,14 +141,14 @@ Bei Daten, die änderbar sind, sind folgende Felder (**MaxC, NumC, FixValue**) v
 
 Wenn Maxc, Numc oder Fixvalue nicht gesetzt sind, so ist eine Dateneingabe nicht möglich.
 
-MaxC
+<p class="just-emphasize">MaxC</p>
 
 Handelt es sich um Daten, die man ändern möchte, so gibt man für das Feld, welches gefüllt sein muss, um die letzte Datenzeile zu markieren, ein **Ja** ein. Es kann nur ein Feld markiert werden.
 
-NumC
+<p class="just-emphasize">NumC</p>
 
 Handelt es sich um Daten, die man ändern möchte, so gibt man für das Feld, welches den Zähler enthält, ein **Ja** ein. Dieses Feld wird nicht auf der Maske/im Grid dargestellt.
 
-Fixvalue
+<p class="just-emphasize">Fixvalue</p>
 
 Man kann hier Werte hinterlegen, die für alle Zeilen gleich sein sollen. Entweder trägt man hier einen festen Wert ein, ein Feld von der Maske mit einem vorangestellten Doppelpunkt oder :IDENT, also den Verweis auf die eindeutige ID des Datensatzes, der bearbeitet wird. Auf jeden Fall muss ein Identfeld hier hinterlegt sein. Dieses Feld wird nicht auf der Maske/im Grid dargestellt. Achtung: Wenn hierfür keine Zeile ein Wert gesetzt wurde, dann wird versucht alle Daten dieser Relation einzulesen.

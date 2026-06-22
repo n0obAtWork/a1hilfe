@@ -4,7 +4,7 @@
 
 Das Feld BT-71 GLN in der eRechnung wird nun korrekt ausgegeben. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 743108[36286]
 

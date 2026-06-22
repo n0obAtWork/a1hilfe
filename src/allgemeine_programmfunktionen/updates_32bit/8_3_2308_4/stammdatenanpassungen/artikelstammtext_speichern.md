@@ -4,7 +4,7 @@
 
 Bei längeren Artikeltexten (mehr als 10 Zeilen) konnte es beim Speichern zu einem Fehlverhalten kommen. Der Artikelstammtext wird nun in jedem Fall beim ersten Speicherversuch korrekt gespeichert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 725583[34019]
 

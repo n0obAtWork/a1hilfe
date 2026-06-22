@@ -4,7 +4,7 @@
 
 Bei der Produktionserfassung/-änderung kam es beim Einfügen von Leerzeilen zwischen den Komponenten zu langen Wartezeiten. Bei variablen Rezepten können Komponenten nur noch hinter bestehenden Komponenten hinzugefügt werden. Bestehende Komponenten können nur noch bei variablen Rezepten entfernt werden.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 714820[32918]
 

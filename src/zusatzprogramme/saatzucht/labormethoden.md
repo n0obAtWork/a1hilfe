@@ -4,7 +4,7 @@
 
 Hauptmenü > Saatzucht > Saatenlabor > Methoden
 
-oder Direktsprung [LABME]
+oder Direktsprung **[LABME]**
 
 In diesem Stammdatenpfleger werden die Labormethoden gepflegt. Labormethoden dienen dazu, verschieden Laborverfahren zusammenzufassen um.
 
@@ -16,7 +16,7 @@ In diesem Stammdatenpfleger werden die Labormethoden gepflegt. Labormethoden die
  |
 | Fruchtart |   
  |
-| Zweck (Probentyp) | Hier wird die Norm angezeigt. Aus dem Format „AF_QUALART“ kann eine Auswahl via Taste F3 aufgerufen werden.  
+| Zweck (Probentyp) | Hier wird die Norm angezeigt. Aus dem Format „AF_QUALART“ **kann** **eine Auswahl** via Taste **F3** **aufgerufen werden**.  
 Ist hier der Einrichterparameter ‚Methodenauswahl auf Probentyp eingeschränkt‘ der Labordaten-Maske (Probensatzbearbeitung) mit dem Wert ‚Ja‘ versehen, so wird die Methodenauswahl im LABOR-Modul bei der Erstellung eines Probensatzes nach dem dort angegebenen Probentyp (Satzart, Zweck) eingeschränkt.  
  |
 | Nummernkreis | Die Nummer des Nummernkreis, der für die Vergabe der Probenummer in den Labordaten verwendet wird.  
@@ -28,19 +28,19 @@ Folgende Felder werden zusätzlich angezeigt, sobald der Einrichterparameter „
 
 | Name | Bedeutung |
 | --- | --- |
-| Norm | Hier wird die Norm angezeigt. Aus dem Format „BF_QUALKL“ kann eine Auswahl mit F3 aufgerufen werden.  
+| Norm | Hier wird die Norm angezeigt. Aus dem Format „BF_QUALKL“ **kann** **eine Auswahl** mit **F3** **aufgerufen werden**.  
 Ist hier ein Eintrag vorhanden, so wird die Methodenauswahl im LABOR-Modul bei der Erstellung eines Probensatzes nach der dort angegebenen Norm eingeschränkt.  
  |
-| Kategorie | Hier wird die Kategorie angezeigt. Aus dem Saatgutstammdatenbereich Kategorien kann mit F3 eine Auswahl aufgerufen werden.  
+| Kategorie | Hier wird die Kategorie angezeigt. Aus dem Saatgutstammdatenbereich Kategorien kann mit **F3** **eine Auswahl aufgerufen werden**.  
 Ist hier ein Eintrag vorhanden, so wird die Methodenauswahl im LABOR-Modul bei der Erstellung eines Probensatzes nach der dort angegebenen Kategorie eingeschränkt, wenn diese größer 0 ist.  
  |
-| Anbauart | Hier wird die Anbauart angezeigt. Aus dem Format „AF_ANBAUART“ kann eine Auswahl mit F3 aufgerufen werden.  
+| Anbauart | Hier wird die Anbauart angezeigt. Aus dem Format „AF_ANBAUART“ **kann** **eine Auswahl** mit **F3** **aufgerufen werden**.  
 Ist hier ein Eintrag vorhanden, so wird die Methodenauswahl im Labor-Modul bei der Erstellung eines Probensatzes nach der dort aus dem zugehörigen Artikelstamm (Sinfosdaten) ermittelten Anbauart eingeschränkt, wenn diese nicht NULL ist.  
  |
-| Sortentyp | Hier wird der Sortentyp angezeigt. Aus dem Format „AF_SORTENTYP“ kann eine Auswahl mit F3 aufgerufen werden.  
+| Sortentyp | Hier wird der Sortentyp angezeigt. Aus dem Format „AF_SORTENTYP“ **kann** **eine Auswahl** mit **F3** **aufgerufen werden**.  
 Ist hier ein Eintrag vorhanden, so wird die Methodenauswahl im Labor-Modul bei der Erstellung eines Probensatzes nach dem dort aus der zugehörigen Sorte ermittelten Sortentyp eingeschränkt, wenn dieser nicht NULL ist.  
  |
-| Behandlung | Hier wird die Laborbehandlung angezeigt. Aus dem Format „AF_BEHANDLUN“ kann mit F3 eine Auswahl aufgerufen werden.  
+| Behandlung | Hier wird die Laborbehandlung angezeigt. Aus dem Format „AF_BEHANDLUN“ **kann** mit **F3** **eine Auswahl aufgerufen werden**.  
 Ist hier ein Eintrag vorhanden, so wird die Methodenauswahl im Labor-Modul bei der Erstellung eines Probensatzes nach dem dort eingetragenen Wert für die Behandlung eingeschränkt, wenn dieser größer als 0 ist.  
    
 In der Tabelle „Zusätzliche Behandlung“ können weitere Behandlungen erfasst werden, damit diese Methode auch bei diesen Behandlungen im Labor-Modul herangezogen wird.  

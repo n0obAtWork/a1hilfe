@@ -4,7 +4,7 @@
 
 Hauptmenü > Dokumentenverwaltung > Ansichten > Ansichten-Variantenaufkommen
 
-Direktsprung [FAA]
+Direktsprung **[FAA]**
 
 Archiv-Ansichtsfunktionen sind Funktionen die ein Ansichts-Profil (siehe [Archiv-Ansicht-Definition](./archiv_ansicht_definition/index.md)) zur Ausführung bringen.
 
@@ -33,7 +33,7 @@ Anwendung, Variante, Name und Optionbox |
 
 | Funktionen | |
 | --- | --- |
-| Ansehen F6 | Archiv-Ansichtsdefinition ansehen |
+| ***Ansehen*** **F6** | Archiv-Ansichtsdefinition ansehen |
 | Variante starten… F10 | Startet die Variante  
  |
-| Funktion ansehen/bearbeiten F11 | Funktion bearbeiten |
+| ***Funktion ansehen/bearbeiten*** **F11** | Funktion bearbeiten |

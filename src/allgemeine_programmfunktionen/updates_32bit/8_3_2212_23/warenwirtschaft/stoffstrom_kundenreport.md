@@ -4,7 +4,7 @@
 
 Der Crystal Report "Stoffstrom Kundenreport" wurde angepasst und kann nun größere Zahlen anzeigen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 717579[33282]
 

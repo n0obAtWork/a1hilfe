@@ -4,7 +4,7 @@
 
 Der Pfleger "Paginiernummer" [FISV] wurde entfernt. Stattdessen kann die Paginiernummer (Archivreferenz) in der Einzelbeleganzeige (Funktion: "Ansehen Beleg") über die Funktion "Archivreferenz ändern" angepasst werden.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[32997]
 

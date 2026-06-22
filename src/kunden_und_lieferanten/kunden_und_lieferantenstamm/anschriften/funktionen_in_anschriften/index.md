@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/funktioneninanschriften.htm -->
 
-Bei der Erfassung der Postleitzahl wird automatisch geprüft, ob sie bereits vorhanden ist. Wenn ja, wird der Ort vorgeschlagen. Darüber hinaus besteht die Möglichkeit, mittels F3 nach Postleitzahl oder Ort zu suchen.  
+Bei der Erfassung der Postleitzahl wird automatisch geprüft, ob sie bereits vorhanden ist. Wenn ja, wird der Ort vorgeschlagen. Darüber hinaus besteht die Möglichkeit, mittels **F3** nach Postleitzahl oder Ort zu suchen.  
     
 
 <p class="siehe-auch">Siehe auch:</p>

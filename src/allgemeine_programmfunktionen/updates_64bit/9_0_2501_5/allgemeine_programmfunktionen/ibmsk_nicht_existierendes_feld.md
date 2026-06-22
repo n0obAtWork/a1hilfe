@@ -4,7 +4,7 @@
 
 Es werden keine Fehlermeldungen mehr angezeigt, wenn das in IBMSK angesprochene Feld nicht existiert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 745034[36522]
 

@@ -4,19 +4,19 @@
 
 Hauptmenü > Produktion / Abwicklung > Produktionsabwicklung > Produktionszugang erfassen
 
-oder Direktsprung [PROE]
+oder Direktsprung **[PROE]**
 
 Hauptmenü > Produktion / Abwicklung > Produktionsabwicklung > Produktion
 
-oder Direktsprung [PROB]
+oder Direktsprung **[PROB]**
 
-Mit [PROE] gelangt man in die Erfassungsmaske Produktion. Der Direktsprung [PROB] lässt die Verwaltung erfasster Produktionen zu. Hier kann mit der Funktion Produktion erfassen F8 auch erfasst werden.
+Mit **[PROE]** gelangt man in die Erfassungsmaske Produktion. Der Direktsprung **[PROB]** lässt die Verwaltung erfasster Produktionen zu. Hier kann mit der Funktion ***Produktion erfassen F8*** auch erfasst werden.
 
 Zuerst ist das Lager Produktzugang anzugeben.
 
-Die Einrichtung der Erfassungsfelder ist mittels [UFLD] möglich.
+Die Einrichtung der Erfassungsfelder ist mittels **[UFLD]** möglich.
 
-Mit F5 wird die Umbuchungsmaske geöffnet.
+Mit **F5** wird die Umbuchungsmaske geöffnet.
 
 Hier ist bei Einrichtung des Rezeptes wie oben beschrieben die Artikelnummer Produkt, die zugehörende Rezeptnummer sowie die produzierte Menge einzugeben.
 

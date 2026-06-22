@@ -57,10 +57,10 @@ Bei der Angabe dieser Information wird diese beim Anzeigen eines Archiv-Dokument
 
 | Funktionen |
 | --- |
-| Speichern F9 | Speichern |
-| Löschen F7 | Löscht den Formulararchiv-Eintrag.  
+| ***Speichern F9*** | Speichern |
+| ***Löschen F7*** | Löscht den Formulararchiv-Eintrag.  
    
 Siehe auch [Archiveinträge löschen](./archiveintraege_loeschen.md) |
-| Beleg-Referenz erzeugen F10 | Spezial-Funktion  
+| ***Beleg-Referenz erzeugen F10*** | Spezial-Funktion  
 Wenn möglich aus der Belegnummer und der Belegklasse unter Zuhilfenahme der [Archiv-Fakte](./archiv_fakte.md) die Belegreferenz des dazu passenden Vorgangs ermitteln. |
-| Archiv anzeigen CF12 | Öffnet hinterlegtes Dokument des Archives zur Ansicht. |
+| ***Archiv anzeigen CF12*** | Öffnet hinterlegtes Dokument des Archives zur Ansicht. |

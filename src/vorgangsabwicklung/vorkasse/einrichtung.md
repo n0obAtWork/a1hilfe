@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_vorkasseeinrichtung.htm -->
 
-Einrichtung der Vorkasse
+<p class="just-emphasize">Einrichtung der Vorkasse</p>
 
 Steuerparameter die von der Vorkasse ausgewertet und Benutzt werden.
 
@@ -14,13 +14,13 @@ Steuerparameter die von der Vorkasse ausgewertet und Benutzt werden.
 
 • Ladeschein ins Kreditlimit einberechnen(SPA 695)
 
-Einrichterparameter auf der Vorkasse Erfassungsmaske
+<p class="just-emphasize">Einrichterparameter auf der Vorkasse Erfassungsmaske</p>
 
 • Preisaufschlag/Abschlag für die Lieferungssorte
 
 Bei Rohwarenlieferungen kann hier schon ein Aufschlag für die Qualitäten eingetragen werden. Dieser wird auf der Maske angezeigt und kann dort abgeändert werden.
 
-Benötigte Vorgangsklassen und Unterklassen
+<p class="just-emphasize">Benötigte Vorgangsklassen und Unterklassen</p>
 
 | Vorgangsklasse | Unterklasse | Bedeutung |
 | --- | --- | --- |

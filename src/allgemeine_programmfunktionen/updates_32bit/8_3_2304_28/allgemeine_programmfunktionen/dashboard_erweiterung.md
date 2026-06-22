@@ -4,7 +4,7 @@
 
 Im Tortendiagramm besteht jetzt die Möglichkeit kleinere Tortenstücke zu einem einzelnen Tortenstück ("Sonstige") zusammenzufassen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 716438[33658]
 

@@ -4,17 +4,17 @@
 
 Hauptmenü > Nebenbuchhaltungen > Vertreterabrechnung > Vertreterprovisionsgruppe
 
-Direktsprung [VEPGR]
+Direktsprung **[VEPGR]**
 
 Wahlweise kann die Provision abhängig von der Vertretergruppe oder vom einzelnen Vertreter festgelegt werden. Beide tauchen deshalb als Schlüsselattribut auf, von denen aber stets nur eins belegt sein darf. Je Vertreter/Vertretergruppe, Provisionsgruppe und abgegrenzt durch ein Gültigkeitsdatum werden hier die Berechnungsmethode und die Höhe der Provision festgelegt. In diesem Eingabebildschirm können mit Hilfe folgender Funktionen die nachfolgenden Felder bearbeitet werden.
 
-Provisionsgruppe
+<p class="just-emphasize">Provisionsgruppe</p>
 
 Die Provisionsgruppe, wie im Artikelstamm hinterlegt
 
 Ist für die jeweilige Provisionsgruppe kein gültiger Provisionssatz hinterlegt, so wird mit Provisionsgruppe 0 (= „Fehlwert“) weitergesucht. Daher ist es sinnvoll, je Vertreter mindestens einen Provisionssatz mit Provisionsgruppe 0 und gültig von Anfang an zu hinterlegen. Dies wird vom System automatisch durchgeführt.
 
-Provisionstyp Einkauf / Verkauf
+<p class="just-emphasize">Provisionstyp Einkauf / Verkauf</p>
 
 1 = es gilt die Standard-Formel entsprechend der Eintragung in der Vertreter-Provisions-Gruppe (Vertreterprovisions-Formel EK bzw. VK). Nachfolgend besteht die Möglichkeit, die Standardvorbelegungen in der Provisionsgruppe für diesen einen Provisionssatz zu überschreiben:
 

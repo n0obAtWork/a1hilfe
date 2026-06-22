@@ -4,7 +4,7 @@
 
 Hauptmenü > Saatzucht > Saatenlabor > Labordaten 
 
-oder Direktsprung [LABOR]
+oder Direktsprung **[LABOR]**
 
 Funktionen der Anwendung Labor
 
@@ -79,7 +79,7 @@ Im Kopfteil der Maske befindliche Felder:
 
 | Name | Bedeutung |
 | --- | --- |
-| Typ | Hier kann der Probentyp (Zweck) der Probenentnahme eingetragen werden. Mit der Taste F3 kann hier eine Auswahl (AF_QualArt) aufgerufen werden.  
+| Typ | Hier kann der Probentyp (Zweck) der Probenentnahme eingetragen werden. Mit der Taste **F3** kann hier eine Auswahl (AF_QualArt) aufgerufen werden.  
  |
 | Probe | Die Probennummer wird über den Nummernkreis vorgeschlagen, der in der Methode mit demselben Probentyp(Zweck) hinterlegt wurde.  
  |
@@ -93,7 +93,7 @@ Im Kopfteil der Maske befindliche Felder:
  |
 | Kateg. | Hier wird die Kurzbezeichnung der Saatkategorie angezeigt.  
  |
-| Behandlung | Hier kann die Laborbehandlung eingetragen werden, sie ergibt sich aus der zugeordneten Partie bzw. des Artikel. Es ist jedoch auch möglich diese manuell auszuwählen. Mit der Taste F3 kann hier eine Auswahl (AF_BEHANDLUN) aufgerufen werden.  
+| Behandlung | Hier kann die Laborbehandlung eingetragen werden, sie ergibt sich aus der zugeordneten Partie bzw. des Artikel. Es ist jedoch auch möglich diese manuell auszuwählen. Mit der Taste **F3** kann hier eine Auswahl (AF_BEHANDLUN) aufgerufen werden.  
  |
 | Probedatum | Das Datum der Durchführung der Probe.  
  |
@@ -109,9 +109,9 @@ Im Kopfteil der Maske befindliche Felder:
  |
 | Nob | Hier kann angegeben werden, ob eine „nicht obligatorische Beschaffenheitsprüfung“ durchgeführt werden soll.  
  |
-| Q-Stat | Der Qualitätsstatus. Mit der Taste F3 kann hier eine Auswahl (AF_QUALSTAT) aufgerufen werden.  
+| Q-Stat | Der Qualitätsstatus. Mit der Taste **F3** kann hier eine Auswahl (AF_QUALSTAT) aufgerufen werden.  
  |
-| Norm | Die Norm wird im Benutzerformat „BF_QualKl“ gepflegt und kann via Taste F3 ausgewählt werden.  
+| Norm | Die Norm wird im Benutzerformat „BF_QualKl“ gepflegt und kann via Taste **F3** **ausgewählt werden**.  
  |
 | Partiereferenz |   
  |
@@ -156,19 +156,19 @@ Die Kombination aus Feldnamen, Hintergrundfarbe, Vordergrundfarbe wird mit Komma
 
 | Name | Bedeutung |
 | --- | --- |
-| Medium | Hier wird das Labormedium angezeigt aus dem Format „AF_MEDIUM“ via Taste F3 kann eine Auswahl aufgerufen werden.  
+| Medium | Hier wird das Labormedium angezeigt aus dem Format „AF_MEDIUM“ via Taste **F3** **kann** **eine Auswahl aufgerufen werden**.  
  |
-| Behandlung | Hier wird die Laborbehandlung angezeigt aus dem Format „AF_BEHANDLUN“ via Taste F3 kann eine Auswahl aufgerufen werden.  
+| Behandlung | Hier wird die Laborbehandlung angezeigt aus dem Format „AF_BEHANDLUN“ via Taste **F3** **kann** **eine Auswahl aufgerufen werden**.  
  |
-| Menge | Hier wird die Vorbelegung der Menge zur Behandlung angezeigt aus dem Format „AF_BEHAMENGE“ via Taste F3 kann eine Auswahl aufgerufen werden.  
+| Menge | Hier wird die Vorbelegung der Menge zur Behandlung angezeigt aus dem Format „AF_BEHAMENGE“ via Taste **F3** **kann** **eine Auswahl aufgerufen werden**.  
  |
 | Körner | Die Anzahl der Körner wird hier angezeigt.  
  |
 | Vork./Temp | Hier wird die Temperatur der Vorkühlung angezeigt.  
  |
-| Keimung | Hier wird die Keimtagevorbelegung angezeigt aus dem Format „AF_KEIMTAGE“ via Taste F3 kann eine Auswahl aufgerufen werden.  
+| Keimung | Hier wird die Keimtagevorbelegung angezeigt aus dem Format „AF_KEIMTAGE“ via Taste **F3** **kann** **eine Auswahl aufgerufen werden**.  
  |
-| Temp. | Hier wird die Keimtemperatur angezeigt aus dem Format „AF_KEIMTEMP“ via Taste F3 kann eine Auswahl aufgerufen werden.  
+| Temp. | Hier wird die Keimtemperatur angezeigt aus dem Format „AF_KEIMTEMP“ via Taste **F3** **kann** **eine Auswahl aufgerufen werden**.  
  |
 | Prüfer | Der Prüfer dieser Untersuchung wird hier eingetragen.  
  |
@@ -202,7 +202,7 @@ Die Kombination aus Feldnamen, Hintergrundfarbe, Vordergrundfarbe wird mit Komma
  |
 | Zähl. % |   
  |
-| Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ per Taste F3 kann eine Auswahl aufgerufen werden.  
+| Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ per Taste **F3** **kann** **eine Auswahl aufgerufen werden**.  
  |
 | Ges. KF % | Die Gesamtkeimfähigkeit in Prozent kann hier eingetragen werden.  
  |
@@ -227,7 +227,7 @@ Untersuchungen, die bei der Lufa (Landwirtschaftliche Untersuchungs- und Forschu
 | Masse Mengeneinheit | Hier kann die Mengeneinheit der Masse eingetragen werden. |
 | Prüfer | Der Prüfer dieser Untersuchung wird hier eingetragen. |
 | Inhaltsstoffe (Tabelle) | |
-| Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste F3 kann eine Auswahl aufgerufen werden. |
+| Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste **F3** **kann** **eine Auswahl aufgerufen werden**. |
 
 Felder auf der Registerkarte Reinheit/Besatz
 
@@ -240,7 +240,7 @@ Bei der Besatzuntersuchung wird eine vorgegebene Menge Saatgut auf Samen anderer
 | U-Datum | Das Untersuchungsdatum der Probe kann hier eingetragen werden. |
 | UMenge (g) | Die Untersuchungsmenge in Gramm der Probe kann hier eingetragen werden. |
 | Prüfer | Der Prüfer dieser Untersuchung wird hier eingetragen. |
-| Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste F3 kann eine Auswahl aufgerufen werden. |
+| Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste **F3** **kann** **eine Auswahl aufgerufen werden**. |
 | KU1 – KU3 | Kulturart 1 - 3 |
 | KUSum | Kulturart Gesamtsumme |
 | UK1 – UK3 | Unkraut/Wildart 1 – 3 |
@@ -253,7 +253,7 @@ Bei der Besatzuntersuchung wird eine vorgegebene Menge Saatgut auf Samen anderer
 | AW % | |
 | GK % | |
 | SF % | |
-| Reinheit (Tabelle) | In der Tabelle „Reinheit“ können in der Spalte „g“ das Gewicht in Gramm eingegeben werden. Die Spalte „%“ dient der prozentualen Eingabe. Die Anzahl kann in der Spalte „Anz“ angegeben werden. In der Spalte „Besatz“ wird die Besatzbezeichnung eingetragen. Die Spalte „T“ wird zur Pflege der Besatzarten-Gruppierung genutzt und ist an das Format „AF_BESATZART“ angeschlossen via Taste F3 kann hier eine Auswahl aufgerufen werden**.**  
+| Reinheit (Tabelle) | In der Tabelle „Reinheit“ können in der Spalte „g“ das Gewicht in Gramm eingegeben werden. Die Spalte „%“ dient der prozentualen Eingabe. Die Anzahl kann in der Spalte „Anz“ angegeben werden. In der Spalte „Besatz“ wird die Besatzbezeichnung eingetragen. Die Spalte „T“ wird zur Pflege der Besatzarten-Gruppierung genutzt und ist an das Format „AF_BESATZART“ angeschlossen via Taste **F3** **kann hier eine Auswahl aufgerufen werden****.**  
  |
 | Besatz (Tabelle) | In der Tabelle „Besatz“ können in der Spalte „%“ prozentualen Eingaben vorgenommen werden. Die Anzahl kann in der Spalte „Anz“ angegeben werden. In der Spalte „Besatz“ kann die Besatzbezeichnung eingetragen werden.  
  |
@@ -270,7 +270,7 @@ Die Untersuchung der Feuchte von Saatgut dient der Beurteilung der Lagerfähigke
  |
 | Prüfer | Der Prüfer dieser Untersuchung wird hier eingetragen.  
  |
-| Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste F3 kann eine Auswahl aufgerufen werden.  
+| Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste **F3** **kann** **eine Auswahl aufgerufen werden**.  
  |
 | Anzahl Samen | Prozentualer Wert der Triebkraft von gebeizten Saatgut. Wiederholung 1 bis 8.  
  |
@@ -278,7 +278,7 @@ Die Untersuchung der Feuchte von Saatgut dient der Beurteilung der Lagerfähigke
  |
 | Gew. r.S. | Das Gewicht der Reinen Samen kann hier eingetragen werden.  
  |
-| Status (TKM extern) | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste F3 kann eine Auswahl aufgerufen werden.  
+| Status (TKM extern) | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste **F3** **kann** **eine Auswahl aufgerufen werden**.  
  |
 | Sortiernorm | Nach welcher Norm die Sortierung durchgeführt wurde kann hier eingetragen werden.  
  |
@@ -286,7 +286,7 @@ Die Untersuchung der Feuchte von Saatgut dient der Beurteilung der Lagerfähigke
  |
 | Beizgrad | Die Zusammensetzung und die Konzentration des Beizmittels kann hier eingetragen werden.  
  |
-| Status (Sortierung) | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste F3 kann eine Auswahl aufgerufen werden.  
+| Status (Sortierung) | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste **F3** **kann** **eine Auswahl aufgerufen werden**.  
  |
 | Feuchte |
 | Schroten | Folgende Ausprägungen sind möglich.  
@@ -332,7 +332,7 @@ Die Daten werden im Anwenderformat „AF_FETEMP“ hinterlegt.
  |
 | Bemerkung | Hier kann eine Bemerkung zur Untersuchung eingetragen werden.  
  |
-| Status (Feuchte) | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste F3 kann eine Auswahl aufgerufen werden.  
+| Status (Feuchte) | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste **F3** **kann** **eine Auswahl aufgerufen werden**.  
  |
 | TKMG Leguminosen |
 | WH 1 - 8 (1.Satz) | Wiederholung 1 bis 8 (1.Satz)  
@@ -341,7 +341,7 @@ Die Daten werden im Anwenderformat „AF_FETEMP“ hinterlegt.
  |
 | TKM g | Tausend Korn Masse in Gramm von Leguminosen (Hülsenfrüchtlern).  
  |
-| Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste F3 kann eine Auswahl aufgerufen werden.  
+| Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste **F3** **kann** **eine Auswahl aufgerufen werden**.  
  |
 
 Felder auf der Registerkarte Techn.Prüfung
@@ -358,7 +358,7 @@ Felder auf der Registerkarte Techn.Prüfung
  |
 | Prüfer | Der Prüfer dieser Untersuchung wird hier eingetragen.  
  |
-| Status | Das Druckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste F3 kann eine Auswahl aufgerufen werden. |
+| Status | Das Druckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste **F3** **kann** **eine Auswahl aufgerufen werden**. |
 
 Felder auf der Registerkarte Triebkraft
 
@@ -374,13 +374,13 @@ Die Triebkraftuntersuchung wird durchgeführt, wenn die gebeizte Keimfähigkeit 
  |
 | ges. |   
  |
-| Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste F3 kann eine Auswahl aufgerufen werden.  
+| Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste **F3** **kann** **eine Auswahl aufgerufen werden**.  
  |
 | Triebkraft ungeb. % (1 – 8) | Prozentualer Wert der Triebkraft von gebeizten Saatgut. Wiederholung 1 bis 8.  
  |
 | ges. |   
  |
-| Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste F3 kann eine Auswahl aufgerufen werden.  
+| Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste **F3** **kann** **eine Auswahl aufgerufen werden**.  
  |
 
 Felder auf der Registerkarte Silo
@@ -399,7 +399,7 @@ Felder auf der Registerkarte Silo
  |
 | Gesamtmenge | Hier kann die Gesamtmenge in Dezitonnen und Kilogramm eingetragen werden.  
  |
-| Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste F3 kann eine Auswahl aufgerufen werden.  
+| Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste **F3** **kann** **eine Auswahl aufgerufen werden**.  
  |
 
 Felder auf der Registerkarte Tetra (Tetrazolium)
@@ -420,7 +420,7 @@ Biochemische Prüfung von Samen auf Lebensfähigkeit nach dem topographischen Te
  |
 | 4\. Rolle | Hier werden die Ergebnisse der vierten Untersuchung eingetragen.  
  |
-| Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste F3 kann eine Auswahl aufgerufen werden.  
+| Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste **F3** **kann** **eine Auswahl aufgerufen werden**.  
  |
 | Bemerkung | Bemerkungsfeld, hier können Bemerkungen zur Untersuchung eingetragen werden.  
  |
@@ -447,7 +447,7 @@ Die Untersuchung der Zusammensetzung wird zum Beispiel bei Saatgutmischungen mit
  |
 | Bemerkung | Bemerkungsfeld, hier können Bemerkungen zur Untersuchung eingetragen werden.  
  |
-| Status | Der Status der Zusammensetzungsuntersuchung kann hier angegeben werden. Auswählbar über das Anwender-Format „AF_KFDRUCK“ per Taste F3.  
+| Status | Der Status der Zusammensetzungsuntersuchung kann hier angegeben werden. Auswählbar über das Anwender-Format „AF_KFDRUCK“ per Taste **F3.**  
  |
 
 Felder auf der Registerkarte Kotrollanbau
@@ -468,11 +468,11 @@ Das Verfahren Kontrollanbau ermöglicht die Eingabe von Feldversuchsergebnissen.
  |
 | Prüfer | Der Prüfer dieser Untersuchung wird hier eingetragen.  
  |
-| Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Eine Auswahl ist mit F3 möglich. Hier wird das Anwenderformat „AF_KFDRUCK“ verwendet.  
+| Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Eine Auswahl ist mit **F3** möglich. Hier wird das Anwenderformat „AF_KFDRUCK“ verwendet.  
  |
 |   
 In der Tabelle können die Merkmale gepflegt werden, die zur Feststellung der Sortenechtheit benötigt werden. |
-| Nr | Die Nummer des Qualitätsmerkmals. Eine Auswahl ist mit F3 möglich. Hinter der Nummer wird die Bezeichnung des Qualitätsmerkmals angezeigt  
+| Nr | Die Nummer des Qualitätsmerkmals. Eine Auswahl ist mit **F3** möglich. Hinter der Nummer wird die Bezeichnung des Qualitätsmerkmals angezeigt  
  |
 | Ist | Der ermittelte Wert des Qualitätsmerkmals kann hier eingetragen werden.  
  |
@@ -500,7 +500,7 @@ Das Verfahren Marker ermöglicht die Eingabe von genotypischen Untersuchungen.
  |
 | Prüfer | Der Prüfer dieser Untersuchung wird hier eingetragen.  
  |
-| Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste F3 kann eine Auswahl aufgerufen werden.  
+| Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste **F3** **kann** **eine Auswahl aufgerufen werden**.  
  |
 | Tabelle | In der Tabelle können die Analysewerte zum vorgegebenen Merkmal gepflegt werden.  
  |

@@ -4,7 +4,7 @@
 
 Es gab einige eRechnungen wo der Businesstermin 14( BG-14 - Invoicing Period) in der XML leer war. Beim Import wurde damit nicht korrekt umgegangen und es wurde dann die eRechnung nicht korrekt importiert und dann nicht in eine HTML-Datei umgewandelt. Dies wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 748040[37470]
 

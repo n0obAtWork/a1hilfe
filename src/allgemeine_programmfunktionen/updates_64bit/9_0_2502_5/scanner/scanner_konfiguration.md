@@ -4,7 +4,7 @@
 
 Neue Funktion in der Android-Scannerkonfiguration Ab sofort ist es möglich, in der Scannerkonfiguration individuelle Einstellungen pro Scanner und basierend auf dessen Status vorzunehmen. Folgende Optionen können dabei festgelegt werden: Verwendung der Hardwaretastatur Automatischer Fokus auf das Eingabefeld Einblenden der On-Screen-Tastatur Diese Erweiterung ermöglicht eine noch gezieltere Anpassung des Scannerverhaltens an unterschiedliche Nutzungsszenarien.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 744182[36639]
 

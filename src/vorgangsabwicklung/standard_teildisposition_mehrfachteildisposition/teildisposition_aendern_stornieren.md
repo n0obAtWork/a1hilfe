@@ -20,15 +20,15 @@ Soll bei einem Beleg z.B. bei einem bereits teilumgewandelten Auftrag die Menge 
 
 Mit den folgenden Funktionen lassen sich die teilumgewandelten Vorgänge verändern bzw. ausbuchen bei den aus der Teilumwandlung entstandenen Belegen z.B. Lieferscheinen mit den bekannten Möglichkeiten wie Korrektur in der Positionszeile des Belegs, oder der Stornierung des Beleges Änderungen vorzunehmen.
 
-Rückauftrag erfassen
+<p class="just-emphasize">Rückauftrag erfassen</p>
 
 Mit der Funktion Rückauftrag erfassen kann auf der Ebene des Auftrages entweder die Menge des Auftrages nach einer Teildisposition geändert oder ganz ausgebucht werden.
 
-Hierzu wird die Funktion Rückauftrag erfassen im Auswahlbildschirm Aufträge bearbeiten aufgerufen.
+Hierzu wird die Funktion ***Rückauftrag erfassen*** im Auswahlbildschirm Aufträge bearbeiten aufgerufen.
 
 Im Erfassungsbildschirm wird der Kunde gewählt und in den Positionsteil gewechselt.
 
-Dort werden dann die Funktionen Rücknahme und Teilrücknahme angeboten sowie die Artikeleingabe mit F4, wo eine Rücknahme erfasst werden kann, ohne sich auf Teildispositionen zu beziehen.
+Dort werden dann die Funktionen ***Rücknahme*** und ***Teilrücknahme*** angeboten sowie die ***Artikeleingabe*** mit **F4,** wo eine Rücknahme erfasst werden kann, ohne sich auf Teildispositionen zu beziehen.
 
 Die reine Mengeneingabe erfolgt wie in der Teildisposition/Teilumwandlung, so dass die zur Erklärung diese Dokumentation herangezogen wird.
 
@@ -38,17 +38,17 @@ Der Ablauf folgt hier folgendem Schema:
 
 ![ruecka4](../../ImagesExt/image8_228.jpg "ruecka4")
 
-Rücklieferung erfassen
+<p class="just-emphasize">Rücklieferung erfassen</p>
 
 Da in einigen Betrieben aus organisatorischen o.a. Gründen auf die Ebene des Auftrages verzichtet wird, gibt es diese Ebene der Teilumwandlung, die analog zur Teilumwandlung innerhalb der Aufträge erfolgt, wobei die Belegstufen hier Lieferschein und Rechnung sind.
 
 Mit der Funktion Rücklieferschein erfassen kann auf der Ebene des Lieferscheins die Menge des Lieferscheines nach einer Teildisposition geändert werden.
 
-Hierzu wird die Funktion Rücklieferschein erfassen im Auswahlbildschirm der Lieferscheinbearbeitung aufgerufen.
+Hierzu wird die Funktion ***Rücklieferschein erfassen*** im Auswahlbildschirm der Lieferscheinbearbeitung aufgerufen.
 
 Im Erfassungsbildschirm wird der Kunde gewählt und in den Positionsteil gewechselt.
 
-Dort werden dann die Funktionen Mehrfachrücknahme und Teilrücknahme angeboten, sowie die Artikeleingabe mit F4**,** wo einen Rücknahme erfasst werden kann, ohne sich auf Teildispositionen zu beziehen.
+Dort werden dann die Funktionen ***Mehrfachrücknahme*** und ***Teilrücknahme*** angeboten, sowie die ***Artikeleingabe*** mit **F4****,** wo einen Rücknahme erfasst werden kann, ohne sich auf Teildispositionen zu beziehen.
 
 Die reine Mengeneingabe erfolgt analog zu der Teildisposition/Teilumwandlung, so dass zur Erklärung diese Dokumentation herangezogen wird.
 
@@ -58,15 +58,15 @@ Der Ablauf folgt hier folgendem Schema:
 
 ![rueckl3](../../ImagesExt/image8_229.jpg "rueckl3")
 
-Rückbestellung erfassen
+<p class="just-emphasize">Rückbestellung erfassen</p>
 
-Mit der Funktion Rückbestellung erfassen kann auf der Ebene der Bestellung entweder die Menge der Bestellung nach einer Teildisposition geändert, oder komplett ausgebucht werden.
+Mit der Funktion ***Rückbestellung erfassen*** kann auf der Ebene der Bestellung entweder die Menge der Bestellung nach einer Teildisposition geändert, oder komplett ausgebucht werden.
 
 Hierzu wird die Funktion Rückbestellung erfassen im Auswahlbildschirm der Bestellungsbearbeitung aufgerufen.
 
 Im Erfassungsbildschirm wird der Lieferant gewählt und in den Positionsteil gewechselt.
 
-Dort werden dann die Funktionen Rücknahme und Teilrücknahme angeboten, sowie die Artikeleingabe mit F4, wo einen Rücknahme erfasst werden kann, ohne sich auf Teildispositionen zu beziehen.
+Dort werden dann die Funktionen ***Rücknahme*** und ***Teilrücknahme*** angeboten, sowie die ***Artikeleingabe*** mit **F4**, wo einen Rücknahme erfasst werden kann, ohne sich auf Teildispositionen zu beziehen.
 
 Die reine Mengeneingabe erfolgt wie in der Teildisposition/Teilumwandlung, so dass die zur Erklärung diese Dokumentation herangezogen wird.
 
@@ -76,15 +76,15 @@ Der Ablauf folgt hier folgendem Schema:
 
 ![rueckb5](../../ImagesExt/image8_230.jpg "rueckb5")
 
-Rückeinkauflieferschein erfassen
+<p class="just-emphasize">Rückeinkauflieferschein erfassen</p>
 
-Mit der Funktion RückEingangsLieferschein erfassen kann auf der Ebene des Lieferscheins entweder die Menge des Lieferscheins nach einer Teildisposition geändert oder komplett ausgebucht werden.
+Mit der Funktion ***RückEingangsLieferschein erfassen*** kann auf der Ebene des Lieferscheins entweder die Menge des Lieferscheins nach einer Teildisposition geändert oder komplett ausgebucht werden.
 
-Hierzu wird Funktion RückEingangsLieferschein erfassen im Auswahlbildschirm der Bestellungsbearbeitung aufgerufen.
+Hierzu wird Funktion ***RückEingangsLieferschein erfassen*** im Auswahlbildschirm der Bestellungsbearbeitung aufgerufen.
 
 Im Erfassungsbildschirm wird der Lieferant gewählt und in den Positionsteil gewechselt.
 
-Dort werden dann die Funktionen Rücknahme und Teilrücknahme angeboten, sowie die Artikeleingabe mit F4**,** wo einen Rücknahme erfasst werden kann, ohne sich auf Teildispositionen zu beziehen.
+Dort werden dann die Funktionen ***Rücknahme*** und ***Teilrücknahme*** angeboten, sowie die ***Artikeleingabe*** mit **F4****,** wo einen Rücknahme erfasst werden kann, ohne sich auf Teildispositionen zu beziehen.
 
 Die reine Mengeneingabe erfolgt wie in der Teildisposition/Teilumwandlung, so dass die zur Erklärung diese Dokumentation herangezogen wird.
 

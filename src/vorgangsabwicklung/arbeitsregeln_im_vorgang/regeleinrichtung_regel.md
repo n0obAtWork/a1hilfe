@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Formulare / Abläufe > Arbeitsregeln verwalten
 
-oder Direktsprung [ARV] oder [REGEL]
+oder Direktsprung **[ARV]** oder **[REGEL]**
 
 Der Einrichtungsbildschirm einer Regel gliedert sich in folgende Bereiche:
 
@@ -41,7 +41,7 @@ F3- Auswahl:
     
  |
 | SQL / Funktion | Hier wird der Name der Funktion angegeben die für die entsprechende Funktionalität wirken soll.  
-Gibt man hier einen Namen ein kann über die Funktion Editieren/Neu F5 in den Pfleger gewechselt und die Funktion bearbeitet oder angelegt werden.  
+Gibt man hier einen Namen ein kann über die Funktion **Editieren/Neu F5** in den Pfleger gewechselt und die Funktion bearbeitet oder angelegt werden.  
 Diese Funktion muss 1 (gesperrt) oder 0 (nicht gesperrt) zurückliefern. |
 
 Grundgerüst für eine Datenbankfunktion zur Auswertung einer Regelsperre:
@@ -61,7 +61,7 @@ kein Nachfolger
 Datenbank Funktion  
 Privater SQL |
 | SQL / Funktion | Hier wird der Name der Funktion angegeben die für die Nachfolgeregel wirken soll.  
-Gibt man hier einen Namen ein kann über die Funktion Editieren/Neu F5 in den Pfleger gewechselt und die Funktion bearbeitet oder angelegt werden. |
+Gibt man hier einen Namen ein kann über die Funktion **Editieren/Neu F5** in den Pfleger gewechselt und die Funktion bearbeitet oder angelegt werden. |
 
 Beispiel für eine Datenbankfunktion zur Ermittlung einer Nachfolgeregel:
 
@@ -82,6 +82,6 @@ Wird versucht die Arbeitsregel eines Beleges in eine Regel außerhalb des angege
 
 | Test Beleg | |
 | --- | --- |
-| Beleg zum Testen | Hier legt man einen Test Beleg für die Funktion Statement testen F10 fest. Diese Funktion kann man aus der Option Box aufrufen, wenn man mit dem Cursor im Register Nachfolgeregel im Feld SQL/Funktion steht. |
+| Beleg zum Testen | Hier legt man einen Test Beleg für die Funktion ***Statement testen F10*** fest. Diese Funktion kann man aus der Option Box aufrufen, wenn man mit dem Cursor im Register Nachfolgeregel im Feld SQL/Funktion steht. |
 | Vorgangsklasse | Vorgangsklasse des Testbelegs |
 | BelegNummer | Nummer des Testbelegs |

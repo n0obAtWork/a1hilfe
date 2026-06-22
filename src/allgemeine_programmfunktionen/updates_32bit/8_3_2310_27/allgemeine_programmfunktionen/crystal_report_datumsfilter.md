@@ -4,7 +4,7 @@
 
 In Crystal-Reports ist es nun wie in Anwendungsvarianten möglich, Datumsfelder mit dem Schlüsselwort "heute" zu hinterlegen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 727539[34298]
 

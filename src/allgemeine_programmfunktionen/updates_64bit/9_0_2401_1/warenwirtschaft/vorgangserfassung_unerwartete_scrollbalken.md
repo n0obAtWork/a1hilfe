@@ -4,7 +4,7 @@
 
 Unter bestimmten Voraussetzungen wurde in der Vorgangserfassung die Bildschirmabmessung falsch berechnet, sodass der Bildschirm mit Scrollbalken versehen wurde. Dies wurde jetzt behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 723084[34073]
 

@@ -4,7 +4,7 @@
 
 Wenn in der Anwendung Belegfluss der Formulararchiveintrag eine HTML-Datei ist, öffnet sich nun der unter Windows eingestellte Standardbrowser. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 746694[36957]
 

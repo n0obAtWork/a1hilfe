@@ -4,9 +4,9 @@
 
 Der Import von eRechnung kann auf drei Weisen geschehen:
 
-1. Als [Dateiimport ins Formulararchiv mittels [FAI]](../../dokumentenverwaltung/archiv_import/archiv_import_stammdatenpfleger_formulararchiv_importe/index.md). Dazu muss die Option eRechnung import mit Ja aktiviert sein.
+1. Als [Dateiimport ins Formulararchiv mittels **[FAI]**](../../dokumentenverwaltung/archiv_import/archiv_import_stammdatenpfleger_formulararchiv_importe/index.md). Dazu muss die Option ***eRechnung import*** mit ***Ja*** aktiviert sein.
 
-2. Als Dateiimport im Rahmen des [eMailConnectors [email]](../../zusatzprogramme/tammo/index.md). Dazu muss die Option eRechnung import mit Ja aktiviert sein.
+2. Als Dateiimport im Rahmen des [eMailConnectors **[email]**](../../zusatzprogramme/tammo/index.md). Dazu muss die Option ***eRechnung import*** mit ***Ja*** aktiviert sein.
 
 3. Im Formulararchiv selbst kann die Funktion „[Hinzufügen](../erechnung_im_archiv/manueller_import.md)“ für einen manuell importierten Beleg aufgerufen werden.
 

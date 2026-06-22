@@ -12,7 +12,7 @@ Die Anwendung ***Preiskalkulation Excel*** importiert Ihre Verkaufs- oder Einkau
 
 Initial werden dazu die Preisdaten in ein Excel exportiert und dann die Preise in Excel oder in einem anderen Programm kalkuliert. Der anschließende Import der Exceldatei geschieht über den Excel-Archivimport, der die Preise dem Archiv hinzufügt als auch als XML in A.eins importiert. Die neuen Preise hinterlegen Sie so direkt an Ihren Stammdaten in A.eins per zuvor erstellten Datenbankprozedur. Über eine Protokollfunktion in der Variante ***Preiskalkulation Protokoll*** können Sie die Preiskalkulationsdaten jederzeit erneut aufrufen oder erneut importieren.
 
-Neue Preise in A.eins®
+<p class="just-emphasize">Neue Preise in A.eins®</p>
 
 Voraussetzungen:
 
@@ -34,7 +34,7 @@ Das Importieren über die Anwendung ***Preiskalkulation Excel*** geschieht in fo
 
 • [Neue Preis-Exceldatei in A.eins importieren (F9)](./neue_preis_exceldatei_in_a_eins_importieren_f9.md)
 
-Weitere Funktionen in der Preiskalkulation
+<p class="just-emphasize">Weitere Funktionen in der Preiskalkulation</p>
 
 Preiskalkulationen drucken oder weiterleiten.
 

@@ -4,7 +4,7 @@
 
 Unter ZHB kann man mit F6 die einzelnen Positionen der Zahlung ansehen. Hier lieferte der Excel Export einen Fehler.Die Funktion "Senden an", die in der alten Auswahlliste nur noch eine Meldung ausgab, dass sie nur in der neuen Auswahlliste funktioniert wird jetzt nicht mehr eingeblendet.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 733495[36002]
 

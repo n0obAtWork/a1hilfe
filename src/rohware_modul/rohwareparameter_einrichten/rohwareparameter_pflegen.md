@@ -20,12 +20,12 @@ Um spezielle Einstellungen für eine Rohwarengruppe, die sich noch nicht in der 
 
 Spezielle Einstellungen für ein Abrechnungsschema werden im Grid ‚***Abrechnungsschemata mit spezieller Einstellung***‘ durch Eingabe der Schemanummer, gegebenenfalls ebenfalls mit Item-Box-Unterstützung, hinzugefügt. Gibt es bereits eine spezielle Einstellung zur Rohwarengruppe des Abrechnungsschemas, so werden aktueller Wert und Grundeinstellung aus dieser, sonst ebenfalls aus der globalen Werteinstellung übernommen. Entgegen früherer Programmversionen ist es nicht mehr erforderlich, zunächst eine spezifische Einstellung der Rohwarengruppe vorzunehme, um spezielle Parameterwerte für ein Abrechnungsschema pflegen zu können.
 
-Soll eine Rohwarengruppe oder ein Abrechnungsschema aus der Liste mit speziellen Einstellungen entfernt werden, so kann dieses durch Positionieren des Cursors auf den Wert der entsprechenden Zeile und Ausführung der Funktion ‚Zeile löschen‘ geschehen. 
+Soll eine Rohwarengruppe oder ein Abrechnungsschema aus der Liste mit speziellen Einstellungen entfernt werden, so kann dieses durch Positionieren des Cursors auf den Wert der entsprechenden Zeile und Ausführung der Funktion ‚***Zeile löschen***‘ geschehen. 
 
 Die Änderbarkeit der Parameterwerte auf der Maske wird durch den Erfassungsparameter (EPA) ‚***Parameterwerte auf Hauptmaske***‘ mit folgenden Einstellungen festgelegt:
 
 • **Nur per Gültigkeitsaufruf erlaubt  
-**Der Parameterwerte können nur durch Aufruf der Funktion ‚Gültigkeiten‘ zum aktuell fokussierten Maskenfeld vorgenommen werden. Hier wird eine Liste mit allen Gültigkeiten und zugehörigen Werten dargestellt und kann bearbeitet werden.
+**Der Parameterwerte können nur durch Aufruf der Funktion ‚***Gültigkeiten***‘ zum aktuell fokussierten Maskenfeld vorgenommen werden. Hier wird eine Liste mit allen Gültigkeiten und zugehörigen Werten dargestellt und kann bearbeitet werden.
 
 • **Mit Tagesdatum als Gültigkeitsbeginn  
 **Bei dieser Einstellung können die Werte des Parameters direkt auf der Maske geändert werden, es wird jedoch, sofern die Gültigkeit des zu ändernden Wertes nicht mit dem aktuellen Tagesdatum beginnt, ein neuer Gültigkeitssatz zum aktuellen Datum mit dem neuen Wert erzeugt.
@@ -36,4 +36,4 @@ Werte mit Gültigkeitsbeginn ‚01.01.1901‘ können grundsätzlich nicht geän
 
 Änderungen des Erfassungsparameters werden erst nach Verlassen und erneutem Aufruf der Maske wirksam.
 
-**Zu beachten:** Alle Änderungen zu einem Rohwareparameter werden erst bei beenden der Bearbeitung für den aktuellen Parameter gespeichert, also beim Blättern, Ausführen der Funktion ‚Speichern‘ oder beim Verlassen der Maske. Im Falle des Verlassens der Maske mit ‚ESC‘ erscheint bei vorhergehenden Wertänderungen eine Abfrage, ob die Daten gespeichert werden sollen. An dieser Stelle besteht die Möglichkeit, die Änderungen zu diesem Parameter durch die Anwahl von ‚Nein‘ zu verwerfen.
+**Zu beachten:** Alle Änderungen zu einem Rohwareparameter werden erst bei beenden der Bearbeitung für den aktuellen Parameter gespeichert, also beim Blättern, Ausführen der Funktion ‚***Speichern***‘ oder beim Verlassen der Maske. Im Falle des Verlassens der Maske mit ‚**ESC**‘ erscheint bei vorhergehenden Wertänderungen eine Abfrage, ob die Daten gespeichert werden sollen. An dieser Stelle besteht die Möglichkeit, die Änderungen zu diesem Parameter durch die Anwahl von ‚***Nein***‘ zu verwerfen.

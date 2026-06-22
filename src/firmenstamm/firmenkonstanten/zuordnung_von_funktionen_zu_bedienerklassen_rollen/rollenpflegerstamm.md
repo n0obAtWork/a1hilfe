@@ -8,7 +8,7 @@ oder
 
 Hauptmenü > Stammdatenpflege > Stammdatenpfleger > Zugriffsrechte Rollenpflegerstamm
 
-oder Direktsprung [ROPST]
+oder Direktsprung **[ROPST]**
 
 Die Zugriffsrechte der jeweiligen Pfleger ergeben sich aus den Zugriffsrechten jeweiliger dedizierter Kontexte, den sogenannten „bestimmenden Kontexten“ oder auch der „Pfleger-Rollenbindung“.
 

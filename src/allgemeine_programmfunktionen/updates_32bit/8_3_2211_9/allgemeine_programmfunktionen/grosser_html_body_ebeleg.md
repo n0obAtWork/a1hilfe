@@ -4,7 +4,7 @@
 
 Es gab ein Problem mit größeren HTML-Body-Dateien im eBeleg. Diese wurden ab einer Länge von 5kB abgeschnitten. Dieses Problem wurde behoben
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 714785[32856]
 

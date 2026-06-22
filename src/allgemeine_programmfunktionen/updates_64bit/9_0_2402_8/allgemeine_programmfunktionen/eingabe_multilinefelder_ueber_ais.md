@@ -4,7 +4,7 @@
 
 Die Eingabe bei Multiline-Textfeldern, die über AIS angelegt wurden, wurde überarbeitet. Damit ist die Problematik, dass man eigenständig Zeilen einfügen musste behoben. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 740200[36168]
 

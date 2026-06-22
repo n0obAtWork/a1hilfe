@@ -4,7 +4,7 @@
 
 Es kam vor, dass E-Mail Anhänge nicht korrekt erkannt wurden. Die Erkennung des Dateityps wurde jetzt überarbeitet.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 719172[33719]
 

@@ -30,7 +30,7 @@ Im Falle der Waagenprofile geschieht das mit regulären Ausdrücken. Dieses Syst
 
 Regulärer Ausdruck
 
-Was ist ein „Regulärer Ausdruck“?
+<p class="just-emphasize">Was ist ein „Regulärer Ausdruck“?</p>
 
 Reguläre Ausdrücke sind Ausdrücke, die nach bestimmten Regeln (die man im Falle der Waagenprofile nicht alle kennen muss!) zusammengesetzt sind und die durch Ihre Interpretation Muster abdecken.
 

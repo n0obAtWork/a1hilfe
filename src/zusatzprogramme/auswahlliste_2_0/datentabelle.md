@@ -26,7 +26,7 @@ Filtern:
 
 Die Filterzeile direkt unter der Überschrift dient dazu, schnell bestimmte Datensätze zu finden. Es wird bei dieser Methode nicht erneut auf die Datenbank zugegriffen, sondern nur in den Daten der Datentabelle gesucht. Auch werden diese Einstellungen nicht gespeichert.
 
-Klickt man in den leeren Bereich, kann man einen Wert angeben oder aus den in Drop-Down-Liste angebotenen Werten eine auswählen. Mit der Tastenkombination Strg+F springt der Fokus direkt in die zuletzt verwendete Spalte des Filters. Mit den -Tasten Tab und Shift-Tab kann man zwischen den Spalten wechseln.
+Klickt man in den leeren Bereich, kann man einen Wert angeben oder aus den in Drop-Down-Liste angebotenen Werten eine auswählen. Mit der Tastenkombination **Strg+F** springt der Fokus direkt in die zuletzt verwendete Spalte des Filters. Mit den -Tasten **Tab** und **Shift-Tab** kann man zwischen den Spalten wechseln.
 
 Das Symbol ![](../../ImagesExt/image8_1277.png) dient zum zurücksetzen der Filter.
 
@@ -74,4 +74,4 @@ Handelt es sich nicht um einen Testmandanten und wurde keine Warnungsgrafik ange
 
 Kopieren in die Zwischenablage:
 
-Oft ist es so, dass man einen Wert aus der Datentabelle einfach schnell mal für eine andere Anwendung benötigt. Um einen Wert aus einer Zelle in die Zwischenablage zu bekommen, muss man mit der Maus über der Zelle stehen und kann dann mit der Tastenkombination Strg+C den Inhalt kopieren.
+Oft ist es so, dass man einen Wert aus der Datentabelle einfach schnell mal für eine andere Anwendung benötigt. Um einen Wert aus einer Zelle in die Zwischenablage zu bekommen, muss man mit der Maus über der Zelle stehen und kann dann mit der Tastenkombination **Strg+C** den Inhalt kopieren.

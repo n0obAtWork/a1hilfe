@@ -4,7 +4,7 @@
 
 Es wurde ein neues Tool zum verbesserten Analysieren der Datenbank-Trace Datei erstellt. Die Anwendung kann über den Direktsprung [TRON] in A.eins aufgerufen werden.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[35067]
 

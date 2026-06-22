@@ -4,7 +4,7 @@
 
 Es wurde als Basisbetrag für Skonto der Bruttobetrag anstelle des skontier fähigen Betrags hinterlegt. Dies wurde angepasst.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 742134[36121]
 

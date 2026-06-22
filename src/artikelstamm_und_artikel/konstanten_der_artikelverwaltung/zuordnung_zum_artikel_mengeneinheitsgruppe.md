@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Konstanten Artikelstamm > Mengeneinheitsgruppen
 
-oder Direktsprung [MEG]
+oder Direktsprung **[MEG]**
 
 Im Artikelstamm wird eingetragen, welche Mengeneinheiten im Einkauf und Verkauf für Menge und Preis bestimmend sind und in welcher Mengeneinheit der Bestand geführt wird. Die Zusammenbindung der Mengeneinheiten erfolgt in Mengeneinheitsgruppen:
 

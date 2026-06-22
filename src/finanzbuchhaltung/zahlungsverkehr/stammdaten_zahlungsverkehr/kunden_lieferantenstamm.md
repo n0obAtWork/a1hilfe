@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Kunden/Lieferanten > Kundenstamm
 
-Direktsprung [KU], [KUKO].oder [LF]
+Direktsprung **[KU]**, **[KUKO]**.oder **[LF]**
 
 Im [Kunden-/Lieferantenstamm](../../../kunden_und_lieferanten/kunden_und_lieferantenstamm/fibu_merkmale.md#Kundenstamm_Zahlungsverkehr) findet man die für den Zahlungsverkehr benötigten Felder auf dem Reiter „Fibu-Merkmale“.  
 ![Ein Bild, das Text, Screenshot, Schrift, Zahl enthält. KI-generierte Inhalte können fehlerhaft sein.](../../../ImagesExt/image8_641.png "Ein Bild, das Text, Screenshot, Schrift, Zahl enthält. KI-generierte Inhalte können fehlerhaft sein.")  

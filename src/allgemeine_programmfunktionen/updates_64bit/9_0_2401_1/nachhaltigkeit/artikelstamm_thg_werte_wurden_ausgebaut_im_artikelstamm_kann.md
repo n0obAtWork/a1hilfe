@@ -4,7 +4,7 @@
 
 Unter [NAWER] der Variante THG-Werte können auf der Maske Nachhaltigkeit - THG-Werte keine Anbau -, Lieferung -, und Verarbeitung THG-Werte angelegt oder gepflegt werden. Diese Werte werden auch bei der THG-Wert-Bestimmung und Vorbelegung nicht mehr berücksichtigt. Des Weiteren kann man auf dem Artikelstamm einen Artikel "künstlich" als nicht nachhaltig für den Einkauf oder Verkauf einrichten. [ARS] Auf der Artikelstammmaske auf dem Tabreiter Konstanten kann man im Nachhaltigkeitsblock, wenn der Nachhaltigkeitsartikel auf Ja steht, im Vorbelegung Warenbewegungsgrid ein Datum eintragen ab dem die Vorbelegungs-Einrichtung gilt, wie für den Artikel der Einkauf und Verkauf vorbelegt sein soll. Achtung: Es wird dort nur Nicht Nachhaltig in dem Grid beachtet, weil man nachhaltige Ware nur mit einem gültigen Zertifikat hat.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 727580[34757]
 

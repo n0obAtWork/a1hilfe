@@ -4,7 +4,7 @@
 
 Im eClearing konnte es beim Einspielen der Kontoauszüge im CAMT053-Format dazu kommen, dass die vorgegebene Reihenfolge der Positionen nicht übernommen wurde. Dies wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 746114[36920]
 

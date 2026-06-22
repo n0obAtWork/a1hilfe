@@ -4,7 +4,7 @@
 
 Hauptmenü > Anlagenbuchhaltung > Stammdaten > Sonder-AfA
 
-Direktsprung [ANKSA]
+Direktsprung **[ANKSA]**
 
 Sonder-AfA ermöglicht zurzeit nur § 7g EstG; diese ist neben der Regel-AfA nach § 7 EstG zulässig. Bei Sonder-AfA ist zunächst der Begünstigungszeitraum festzustellen. Im Falle des § 7g Abs. 5 EstG beginnt der Begünstigungszeitraum im Jahr der Anschaffung und endet vier Jahre später. Am Ende des Begünstigungszeitraums erfolgt die Umstellung auf die Restwert AfA.
 

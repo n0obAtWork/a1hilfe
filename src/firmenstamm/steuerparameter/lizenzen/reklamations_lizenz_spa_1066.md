@@ -2,4 +2,4 @@
 
 <!-- source: https://amic.de/hilfe/_SPA_1066.htm -->
 
-Lizenz für das Reklamationsmodul. [REKLAM]
+Lizenz für das Reklamationsmodul. **[REKLAM]**

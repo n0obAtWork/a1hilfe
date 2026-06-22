@@ -4,7 +4,7 @@
 
 Hauptmenü > Nebenbuchhaltungen > Tourverwaltung > Tourzuordnung in Vorgängen
 
-Direktsprung [DIS]
+Direktsprung **[DIS]**
 
 Automatische und manuelle Zuordnung von Vorgängen zu Touren.
 

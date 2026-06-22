@@ -6,7 +6,7 @@ Hauptmenü > Mahn-/Zahl-/Zinswesen > Zahlungsverkehr > e-Clearing > Funktion ***
 
 Direktsprung **[ECL]**
 
-Um einen Bankbeleg bearbeiten zu können, muss Beleg/Kontoauszug markiert werden und gelangt man nach **F5 „Anzeigen/Bearbeiten“** in eine weitere Auswahl, die zu dem angewählten Beleg/Kontoauszug die einzelnen Positionen anzeigt. Oder man verwendet direkt die Variante „Einzelpositionen“. Personenkonten, die mit einer Zahlsperre versehen sind, werden in diesen Auswahllisten mit gelbem Hintergrund dargestellt. Sind einem Sachkonto Steuern zugeordnet, zu denen kein Eintrag im Steuersatz existiert, so werden die Steuerinformationen mit rotem Hintergrund dargestellt. Diese Positionen können dann mit **F5** direkt bearbeiten werden oder Verwendungszweck, Auszifferungsvorschlag bzw. die Kontenaufteilung ansehen bzw. überprüft werden. Solange der Beleg nicht in die Primanota übertragen wurde, lassen sich folgende Felder bearbeiten:
+Um einen Bankbeleg bearbeiten zu können, muss Beleg/Kontoauszug markiert werden und gelangt man nach **F5 ***„Anzeigen/Bearbeiten“***** in eine weitere Auswahl, die zu dem angewählten Beleg/Kontoauszug die einzelnen Positionen anzeigt. Oder man verwendet direkt die Variante „Einzelpositionen“. Personenkonten, die mit einer Zahlsperre versehen sind, werden in diesen Auswahllisten mit gelbem Hintergrund dargestellt. Sind einem Sachkonto Steuern zugeordnet, zu denen kein Eintrag im Steuersatz existiert, so werden die Steuerinformationen mit rotem Hintergrund dargestellt. Diese Positionen können dann mit **F5** direkt bearbeiten werden oder Verwendungszweck, Auszifferungsvorschlag bzw. die Kontenaufteilung ansehen bzw. überprüft werden. Solange der Beleg nicht in die Primanota übertragen wurde, lassen sich folgende Felder bearbeiten:
 
 | | |
 | --- | --- |
@@ -39,11 +39,11 @@ Jedoch nur, wenn für diese Position eine Auszifferung vorgeschlagen wurde oder 
 
 F6 Ausziffern
 
-Wenn man diese Funktion anwählt, dann gelangt man in die OP-Verwaltung und kann diese Position so ausziffern, wie man es von der Belegerfassung gewohnt ist. Das Register „Auszifferungsvorschlag“ wird dann mit „Auszifferung“ überschrieben und die ausgewählten OP’s werden dort angezeigt. Dort steht dann auch die Funktion Beleg anzeigen, die den Beleg in der [Einzelbeleganzeige](../op_verwaltung/einzelbeleganzeige.md) öffnet, zur Verfügung.
+Wenn man diese Funktion anwählt, dann gelangt man in die OP-Verwaltung und kann diese Position so ausziffern, wie man es von der Belegerfassung gewohnt ist. Das Register „Auszifferungsvorschlag“ wird dann mit „Auszifferung“ überschrieben und die ausgewählten OP’s werden dort angezeigt. Dort steht dann auch die Funktion ***Beleg anzeigen***, die den Beleg in der [Einzelbeleganzeige](../op_verwaltung/einzelbeleganzeige.md) öffnet, zur Verfügung.
 
 SF9 Kundenbank ändern
 
-Hiermit lässt sich die Bankverbindung im Kundenstamm hinterlegen bzw. eine bereits hinterlegte Bank ändern. Dort öffnet sich der aus dem Kundenstamm bekannte Pfleger und man kann dort die Bankverbindung direkt mit der Funktion „Bankverbindung übernehmen“ F10 eintragen lassen. Es wird dann die Bank und die Kontonummer übernommen.
+Hiermit lässt sich die Bankverbindung im Kundenstamm hinterlegen bzw. eine bereits hinterlegte Bank ändern. Dort öffnet sich der aus dem Kundenstamm bekannte Pfleger und man kann dort die Bankverbindung direkt mit der Funktion „***Bankverbindung übernehmen***“ **F10** eintragen lassen. Es wird dann die Bank und die Kontonummer übernommen.
 
 F10 VWZ-Zuordnung erstellen
 

@@ -4,7 +4,7 @@
 
 Hauptmenü > Inventur > Inventurmengenabweichungsgruppe
 
-Direktsprung [IVMAG]
+Direktsprung **[IVMAG]**
 
 „5 % Klausel für Inventurdifferenzen“
 

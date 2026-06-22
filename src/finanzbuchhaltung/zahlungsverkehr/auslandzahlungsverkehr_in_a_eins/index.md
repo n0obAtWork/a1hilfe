@@ -4,7 +4,7 @@
 
 Der Auslandszahlungsverkehr wird wie der normale Zahlungsverkehr gesteuert und wird per Lizenz aktiviert. Es sind jedoch ein paar zusätzliche Stammdaten zu verwalten.
 
-Änderungen gültig ab 1.05.2005
+<p class="just-emphasize">Änderungen gültig ab 1.05.2005</p>
 
 Der Weisungsschlüssel ‚01’ (=’BONL’) ist entfallen
 
@@ -14,7 +14,7 @@ Der Weisungsschlüssel ‚01’ (=’BONL’) ist entfallen
 
 • Die Liste der zulässigen Länder für EU-Standardüberweisungen wurde erweitert um Island, Lichtenstein und Norwegen.
 
-Änderungen gültig ab 1.01.2006
+<p class="just-emphasize">Änderungen gültig ab 1.01.2006</p>
 
 • Anhebung der Betragsgrenze für EU-Standardüberweisung von 12.500 Euro auf 50.000 Euro.
 

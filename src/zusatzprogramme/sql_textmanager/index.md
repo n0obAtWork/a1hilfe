@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Werkzeuge > SQL Textmanager
 
-oder Direktsprung [SQLM]
+oder Direktsprung **[SQLM]**
 
 <p class="siehe-auch">Siehe auch:</p>
 

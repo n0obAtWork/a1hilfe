@@ -2,9 +2,9 @@
 
 <!-- source: https://amic.de/hilfe/_workflowverbuchungsregeln.htm -->
 
-Hauptmenü > Dokumentenverwaltung > Workflow Verbuchungsregeln oder Direktsprung [WFVR]
+Hauptmenü > Dokumentenverwaltung > Workflow Verbuchungsregeln oder Direktsprung **[WFVR]**
 
-Durch diese Anwendung kann man für den Belegfluss Verbuchungsregeln für Fremdartikel definieren.
+**Durch diese Anwendung kann man für den Belegfluss Verbuchungsregeln für Fremdartikel definieren.**
 
 <p class="siehe-auch">Siehe auch:</p>
 

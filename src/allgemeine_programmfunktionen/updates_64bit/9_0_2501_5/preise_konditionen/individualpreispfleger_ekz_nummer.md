@@ -4,7 +4,7 @@
 
 Im Individualpreispfleger [PRI],[PRIE] auf dem Tab "Allgemein" wurde unter Umständen die EKZ-Nummer in den Tabellenzeilen fälschlicherweise mit 0 anstelle des in der Datenbank korrekt gespeicherten Werts belegt. Dies wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 746104[36859]
 

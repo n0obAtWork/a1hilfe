@@ -4,7 +4,7 @@
 
 Die Funktion "Alle Ändern", die bei einigen Stammdatenpflegern angeboten wird, hat bisher nur mit Singelline-Texten gearbeitet. Jetzt werden auch Multilinetexte, die als Wordwrap-Array gekennzeichnet sind, verarbeitet.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 725889[34088]
 

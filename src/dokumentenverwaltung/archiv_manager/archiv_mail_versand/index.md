@@ -22,9 +22,9 @@ Für die Anbindung eines Tobit-Clients steht exemplarisch das VBA-Skript „AMIC
 
 Neben der ersten Registerkarte, auf der diese Einstellungen vorgenommen werden können, stehen u.U. weitere Registerkarten mit einem Datum im Tab-Reiter. Diese geben dem Anwender die Möglichkeit als eine Historie nachzuvollziehen, wann das Dokument an wen versendet wurde.
 
-Die zu versendenden Anlagen werden nun in einem Grid informatorisch aufgelistet. Angezeigt werden hierzu jeweils die Belegklasse, sowie der Beleg-Typ. Mit der Funktion Anlagen hinzufügen lassen sich über die - im Bedarfsfalle privatisierbare - Itembox IB_FA weitere Anlagen aus dem Archiv hinzufügen. Die Funktion Archiv anzeigen öffnet die Dokumente des Archivs zur Ansicht.
+Die zu versendenden Anlagen werden nun in einem Grid informatorisch aufgelistet. Angezeigt werden hierzu jeweils die Belegklasse, sowie der Beleg-Typ. Mit der Funktion ***Anlagen hinzufügen*** lassen sich über die - im Bedarfsfalle privatisierbare - Itembox IB_FA weitere Anlagen aus dem Archiv hinzufügen. Die Funktion ***Archiv anzeigen*** öffnet die Dokumente des Archivs zur Ansicht.
 
-Mit Hilfe der Funktion Senden festlegen… können Sie einen Assistenten aktivieren, der hilft, bei Empfängern die Senden-Einstellung zu beeinflussen. Es kann damit die Einstellung aller Mail – bzw. Fax-Adressen bzgl. des Sendeverhaltens beeinflusst werden. Anwendungsbeispiel ist die Funktion E-Mail senden aus dem Anschriftstamm heraus. Dort hat man eine Reihe von Empfängern vorselektiert und das System sucht Mail – und Fax-Adressaten heraus. Über Senden festlegen… kann man nun alle Mail-Adressen „aktivieren“.
+Mit Hilfe der Funktion ***Senden festlegen…*** können Sie einen Assistenten aktivieren, der hilft, bei Empfängern die Senden-Einstellung zu beeinflussen. Es kann damit die Einstellung aller Mail – bzw. Fax-Adressen bzgl. des Sendeverhaltens beeinflusst werden. Anwendungsbeispiel ist die Funktion ***E-Mail senden*** aus dem Anschriftstamm heraus. Dort hat man eine Reihe von Empfängern vorselektiert und das System sucht Mail – und Fax-Adressaten heraus. Über ***Senden festlegen…*** kann man nun alle Mail-Adressen „aktivieren“.
 
 Bei der Zusammenstellung der E-Mail-Adressen werden die folgenden Punkte herangezogen:
 

@@ -4,7 +4,7 @@
 
 In der Auswahlliste der Anwendungsvariante 'Stoffstrom Positionen' der Anwendung 'Vorgangsübersicht' [VRUE] werden die Stoffstrom-Mengen für Gutschriften sowie Stornobelegen zu Aufträgen, Bestellungen, Lieferscheinen und Rechnungen analog zur Darstellung der zugehörigen Positionsmenge negativ dargestellt. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 716861[33203]
 

@@ -4,7 +4,7 @@
 
 Um eine Dividendenausschüttung am Ende eines Wirtschaftsjahrs vornehmen zu können, müssen vorher die dafür notwendigen Dividendendaten erfasst werden. Dazu gehören ein Startdatum, ein Enddatum, ein Beschlussdatum, ein Zahldatum und eine Leistung je Aktie. Es ist ratsam, dass die Dividendenzeiträume den Wirtschaftsjahren entsprechen.
 
-Die Daten für eine Dividendenausschüttung werden in der Liste „Dividenden verwalten“ gepflegt und gehören zu den Stammdaten. Das heißt, dass wie die Aktionäre die Daten für die Dividenden durch die Funktionen Neu F8, Ändern F5, Ansehen F6 und Löschen F7 gepflegt werden können. Nach Anwahl einer dieser Funktionen öffnet sich die Dividendenverwaltungsmaske.
+Die Daten für eine Dividendenausschüttung werden in der Liste „Dividenden verwalten“ gepflegt und gehören zu den Stammdaten. Das heißt, dass wie die Aktionäre die Daten für die Dividenden durch die Funktionen ***Neu*** **F8**, ***Ändern*** **F5**, ***Ansehen*** **F6** und ***Löschen*** **F7** gepflegt werden können. Nach Anwahl einer dieser Funktionen öffnet sich die Dividendenverwaltungsmaske.
 
 ![](../../ImagesExt/image8_1008.jpg)
 

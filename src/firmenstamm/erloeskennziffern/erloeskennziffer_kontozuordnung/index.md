@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Erlöskennziffern > Erlöskennziffer/Kontozuordnung
 
-oder Direktsprung [EKZZ]
+oder Direktsprung **[EKZZ]**
 
 Hier erfolgt die Verknüpfung der Elemente
 

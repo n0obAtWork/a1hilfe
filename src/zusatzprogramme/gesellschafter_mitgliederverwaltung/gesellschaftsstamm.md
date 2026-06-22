@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/gesellschaftsstamm.htm -->
 
-Über den Direktsprung [GESEL] gelangt man in die Gesellschafterverwaltung. In der Variante Gesellschaftsstamm sind hier die Stammdaten zu pflegen.
+Über den Direktsprung **[GESEL]** gelangt man in die Gesellschafterverwaltung. In der Variante Gesellschaftsstamm sind hier die Stammdaten zu pflegen.
 
 Je nach Satzung sind hier die grundlegenden Daten einzugeben. Die Eintragungen sind je Geschäftsjahr zu hinterlegen, es wird jeweils nur ein Geschäftsjahr als aktiv ( Einstellungen sind heranzuziehen ) gekennzeichnet.
 

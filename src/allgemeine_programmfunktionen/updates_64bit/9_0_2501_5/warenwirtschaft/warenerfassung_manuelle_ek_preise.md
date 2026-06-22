@@ -4,7 +4,7 @@
 
 Bei Verkaufsbelegen wurde die Maske für manuelle EK-Preise zu früh geöffnet. Dies hat dazu geführt, dass der Rest der Warenmaske nicht geladen wurde. Dies wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 745390[36733]
 

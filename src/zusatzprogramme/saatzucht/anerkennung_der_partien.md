@@ -4,7 +4,7 @@
 
 Hauptmenü > Saatzucht > Saatgutabwicklung > Aufbereitung
 
-Direktsprung [AUFBE]
+Direktsprung **[AUFBE]**
 
 Innerhalb des Abschnittes Aufbereitung lassen sich Partien, die aus fertiger Saatware entstanden sind, per EDV Unterstützung in ein Anerkennungsverfahren integrieren.
 

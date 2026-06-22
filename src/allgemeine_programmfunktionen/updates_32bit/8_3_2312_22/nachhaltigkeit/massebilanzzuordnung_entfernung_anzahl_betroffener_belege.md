@@ -4,7 +4,7 @@
 
 Die Anzahl der markierten Belege wird nun angegeben, um sicherzustellen, dass man die korrekte Anzahl an Belegen mit der Massebilanzänderung verändert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[34541]
 

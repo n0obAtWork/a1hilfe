@@ -2,16 +2,17 @@
 
 <!-- source: https://amic.de/hilfe/_partieposvervolgung.htm -->
 
-Hauptmenü > Warenverkauf > Lieferscheinbearbeitung oder Direktsprung [LIB]  
-Hauptmenü > Warenverkauf > Rechnungsbearbeitung oder Direktsprung [REB]  
-Hauptmenü > Wareneinkauf > Eingangslieferscheine bearbeiten oder Direktsprung [ELB]  
-Hauptmenü > Wareneinkauf > Eingangsrechnungen bearbeiten oder Direktsprung [ERE]  
-Hauptmenü > Rohwarenabrechnung > EK-Rohwarenbearbeitung oder Direktsprung [RWB]  
-Hauptmenü > Rohwarenabrechnung > VK-Rohwarenbearbeitung oder Direktsprung [RWBV]  
-Hauptmenü > Produktion/Abwicklung > Produktion oder Direktsprung [PROB]  
-Hauptmenü > Produktion/Abwicklung > Lager-Umbuchung oder Direktsprung [LGU]  
-Hauptmenü > Produktion/Abwicklung > Artikel-Umbuchung oder Direktsprung [ARU]  
+Hauptmenü > Warenverkauf > Lieferscheinbearbeitung oder Direktsprung **[LIB]  
+**Hauptmenü > Warenverkauf > Rechnungsbearbeitung oder Direktsprung **[REB]  
+**Hauptmenü > Wareneinkauf > Eingangslieferscheine bearbeiten oder Direktsprung **[ELB]  
+**Hauptmenü > Wareneinkauf > Eingangsrechnungen bearbeiten oder Direktsprung **[ERE]  
+**Hauptmenü > Rohwarenabrechnung > EK-Rohwarenbearbeitung oder Direktsprung **[RWB]  
+**Hauptmenü > Rohwarenabrechnung > VK-Rohwarenbearbeitung oder Direktsprung **[RWBV]  
+**Hauptmenü > Produktion/Abwicklung > Produktion oder Direktsprung **[PROB]  
+**Hauptmenü > Produktion/Abwicklung > Lager-Umbuchung oder Direktsprung **[LGU]  
+**Hauptmenü > Produktion/Abwicklung > Artikel-Umbuchung oder Direktsprung **[ARU]  
     
+**
 
 In den positionsorientierten Anwendungsvarianten der Anwendungen zur Bearbeitung von Eingangs- und Ausgangs-Lieferscheinen, Eingangs- und Ausgangs-Rechnungen, Produktionsbelegen sowie Artikel- und Lagerumbuchungs-Belegen steht jeweils eine Funktion zur Bestimmung des Verbleibs beziehungsweise der Herkunft der zur gewählten Belegposition zugehörigen Partiepositionen zur Verfügung. In den Anwendungsvarianten zur Erfassung und Korrektur von Rohwarebelegen bezieht sich die Herkunfts- beziehungsweise Verbleib-Funktion auf die gegebenenfalls zugeordnete Partie der Lieferposition des gewählten Belegs.
 

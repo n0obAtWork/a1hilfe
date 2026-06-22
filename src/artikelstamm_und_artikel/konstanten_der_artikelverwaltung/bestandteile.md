@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Konstanten Artikelstamm > Bestandteile
 
-oder Direktsprung [ABST]
+oder Direktsprung **[ABST]**
 
 Häufig sollen zum Artikel zusätzliche Qualitätsmerkmale und/oder Bestandteile wie zum Beispiel Inhaltsstoffe (unter anderen auch Nähr- und Schadstoffe) erfasst werden. Hier können mittels Nr. und Bezeichnung Bestandteile grundsätzlich definiert werden. Die Zuordnung erfolgt im Artikel­stamm mit der Funktion [Zusammensetzung](../parameter_des_artikelstamms/zusammensetzung.md) (s. dort) unter Angabe spezifischer Werte.
 

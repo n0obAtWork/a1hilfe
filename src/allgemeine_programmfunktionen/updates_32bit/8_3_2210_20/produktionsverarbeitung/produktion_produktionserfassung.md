@@ -4,7 +4,7 @@
 
 Bei der Produktionserfassung war es möglich die Felder für Menge und Preis vor der Eingabe des Rezeptes zu pflegen. Dies führte zu falschen Anteilen bei den Komponenten. Die Eingabe von der Menge oder dem Preis vor Eingabe der Rezeptnummer ist jetzt nicht mehr möglich.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 714134[32788]
 

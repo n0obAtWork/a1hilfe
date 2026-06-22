@@ -2,19 +2,19 @@
 
 <!-- source: https://amic.de/hilfe/erechnungexport.htm -->
 
-In den Auswahllisten folgenden Auswahllisten steht bei entsprechender [Lizenzeinrichtung](../../firmenstamm/steuerparameter/lizenzen/erechnung_lizenz_spa1152.md) die Funktion eRechnung exportieren zur Verfügung:
+In den Auswahllisten folgenden Auswahllisten steht bei entsprechender [Lizenzeinrichtung](../../firmenstamm/steuerparameter/lizenzen/erechnung_lizenz_spa1152.md) die Funktion ***eRechnung exportieren*** zur Verfügung:
 
-• Rechnung [REB]
+**•** Rechnung **[REB]**
 
-• Gutschrift [GUB]
+• Gutschrift **[GUB]**
 
-• Eingangsrechnung [ERB]
+• Eingangsrechnung **[ERB]**
 
-• Eingangsgutschrift [EGB]
+• Eingangsgutschrift **[EGB]**
 
-• Rohwarenbelege [RWB]
+• Rohwarenbelege **[RWB]**
 
-• Rohwarenverkaufsbelege [RWBV]
+• Rohwarenverkaufsbelege **[RWBV]**
 
 <p class="siehe-auch">Siehe auch:</p>
 

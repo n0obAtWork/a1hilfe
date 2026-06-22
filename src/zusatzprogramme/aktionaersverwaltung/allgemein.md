@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Allgemeine Stammdaten > Aktionärsverwaltung
 
-oder Direktsprung [AKTIO]
+oder Direktsprung **[AKTIO]**
 
 Mit der Aktionärsverwaltung in A.eins kann ein Unternehmen einfach und unkompliziert seine Aktionäre verwalten. Es können Aktionäre angelegt, editiert und gelöscht werden. Für die Aktionäre können Aktientransaktionen erfasst werden und es können für Zeiträume Dividenden festgelegt werden, die an die Aktionäre ausgeschüttet werden können. Das heißt, dass Buchungen für die gezahlten Dividenden in der Finanzbuchhaltung erzeugt werden. Für jeden Aktionär kann dann eine Steuerbescheinigung über die gezahlte Dividende ausgedruckt werden.
 
@@ -16,88 +16,88 @@ Folgende Ansichten stehen dem Benutzer zur Verfügung:
 
 • Aktionärsübersicht (mit folgenden speziellen Funktionen)
 
-o (Aktionär) Neu [siehe Aktionäre verwalten]
+o (Aktionär) ***Neu*** [siehe Aktionäre verwalten]
 
-o (Aktionär) Ändern [siehe Aktionäre verwalten]
+o (Aktionär) ***Ändern*** [siehe Aktionäre verwalten]
 
-o (Aktionär) Ansehen [siehe Aktionäre verwalten]
+o (Aktionär) ***Ansehen*** [siehe Aktionäre verwalten]
 
-o (Aktionär) Löschen [siehe Aktionäre verwalten]
+o (Aktionär) ***Löschen*** [siehe Aktionäre verwalten]
 
-o Historische Tabelle [siehe Aktientransaktionen / Die Historische Tabelle]
+o ***Historische Tabelle*** [siehe Aktientransaktionen / Die Historische Tabelle]
 
 o ***Anteile***
 
 o ***Kundenbescheinigung***
 
-o Unternehmen verwalten [siehe Die Unternehmensdaten einrichten/verwalten]  
+o ***Unternehmen verwalten*** [siehe Die Unternehmensdaten einrichten/verwalten]  
     
 
 • Gesamtliste (mit folgenden speziellen Funktionen)
 
-o (Aktionär) Neu [siehe Aktionäre verwalten]
+o (Aktionär) ***Neu*** [siehe Aktionäre verwalten]
 
-o (Aktionär) Ändern [siehe Aktionäre verwalten]
+o (Aktionär) ***Ändern*** [siehe Aktionäre verwalten]
 
-o (Aktionär) Ansehen [siehe Aktionäre verwalten]
+o (Aktionär) ***Ansehen*** [siehe Aktionäre verwalten]
 
-o (Aktionär) Löschen [siehe Aktionäre verwalten]
+o (Aktionär) ***Löschen*** [siehe Aktionäre verwalten]
 
-o Historische Tabelle [siehe Aktientransaktionen / Die Historische Tabelle]
+o ***Historische Tabelle*** [siehe Aktientransaktionen / Die Historische Tabelle]
 
 o ***Anteile***
 
 o ***Kundenbescheinigung***
 
-o Unternehmen verwalten [siehe Die Unternehmensdaten einrichten/verwalten]  
+o ***Unternehmen verwalten*** [siehe Die Unternehmensdaten einrichten/verwalten]  
     
 
 • Dividenden verwalten (mit folgenden speziellen Funktionen)
 
-o (Dividende) Neu [siehe Dividenden verwalten]
+o (Dividende) ***Neu*** [siehe Dividenden verwalten]
 
-o (Dividende) Ändern [siehe Dividenden verwalten]
+o (Dividende) ***Ändern*** [siehe Dividenden verwalten]
 
-o (Dividende) Ansehen [siehe Dividenden verwalten]
+o (Dividende) ***Ansehen*** [siehe Dividenden verwalten]
 
-o (Dividende) Löschen [siehe Dividenden verwalten]
+o (Dividende) ***Löschen*** [siehe Dividenden verwalten]
 
-o Unternehmen verwalten [siehe Die Unternehmensdaten einrichten/verwalten]  
+o ***Unternehmen verwalten*** [siehe Die Unternehmensdaten einrichten/verwalten]  
     
 
 • Aktionärsdividende (mit folgenden speziellen Funktionen)
 
-o Dividende abschließen [siehe Dividenden abrechnen]
+o ***Dividende abschließen*** [siehe Dividenden abrechnen]
 
-o Steuerbescheinigung [siehe Steuerbescheinigung/Zweitsteuerbescheinigung]
+o ***Steuerbescheinigung*** [siehe Steuerbescheinigung/Zweitsteuerbescheinigung]
 
-o Zweitsteuerbescheinigung [siehe Steuerbescheinigung/Zweitsteuerbescheinigung]
+o **Zweitsteuerbescheinigung** [siehe Steuerbescheinigung/Zweitsteuerbescheinigung]
 
-o (Aktionär) Neu [siehe Aktionäre verwalten]
+o (Aktionär) ***Neu*** [siehe Aktionäre verwalten]
 
-o (Aktionär) Ändern [siehe Aktionäre verwalten]
+o (Aktionär) ***Ändern*** [siehe Aktionäre verwalten]
 
-o (Aktionär) Ansehen [siehe Aktionäre verwalten]
+o (Aktionär) ***Ansehen*** [siehe Aktionäre verwalten]
 
-o (Aktionär) Löschen [siehe Aktionäre verwalten]
+o (Aktionär) ***Löschen*** [siehe Aktionäre verwalten]
 
-o Historische Tabelle [siehe Aktientransaktionen / Die Historische Tabelle]
+o ***Historische Tabelle*** [siehe Aktientransaktionen / Die Historische Tabelle]
 
 o ***Anteile***
 
 o ***Kundenbescheinigung***
 
-o Unternehmen verwalten [siehe Die Unternehmensdaten einrichten/verwalten]  
+o ***Unternehmen verwalten*** [siehe Die Unternehmensdaten einrichten/verwalten]  
     
 
 • Gelöschte Aktionäre (mit folgenden speziellen Funktionen)
 
-o (Aktionär) Aktivieren [siehe Aktionäre verwalten]
+o (Aktionär) ***Aktivieren*** [siehe Aktionäre verwalten]
 
-o Unternehmen verwalten [siehe Die Unternehmensdaten einrichten/verwalten]
+o ***Unternehmen verwalten*** [siehe Die Unternehmensdaten einrichten/verwalten]
 
-Des Weiteren stehen dem Anwender natürlich die gewohnten Standardfunktionen zur Verfügung wie zum Beispiel Druck/Kurzliste, Word/Serienbrief oder Excel Export (Ole).
+Des Weiteren stehen dem Anwender natürlich die gewohnten Standardfunktionen zur Verfügung wie zum Beispiel ***Druck/Kurzliste***, ***Word/Serienbrief*** oder ***Excel Export (Ole)***.
 
-Verwendete Steuerparameter
+<p class="just-emphasize">Verwendete Steuerparameter</p>
 
 Folgender Steuerparameter 607 sollte vor der Verwendung der Aktionärsverwaltung eingestellt werden

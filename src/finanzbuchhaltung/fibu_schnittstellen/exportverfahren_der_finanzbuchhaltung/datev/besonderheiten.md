@@ -39,4 +39,4 @@ Steuerparameter
 
 Für das Festschreibungskennzeichen existiert der Steuerparameter „DATEV Festschreibungskennzeichen übertragen“ (SPA 1061). Dieser wird nur ab dem DATEV-Format 7.0 ausgewertet. Im Standard steht der SPA auf „**Mit Festschreibungskennzeichen“**. Das bedeutet, dass die Daten beim Datenempfänger nicht geändert werden können. Setzt man diesen Steuerparameter auf **“Ohne Festschreibungskennzeichen“**, so wird das Kennzeichen beim Export so gesetzt, dass die Daten beim Exportempfänger änderbar sind. Dies ändert nichts daran, dass von A.eins nur gebuchte Belege, die bekanntermaßen nicht mehr änderbar sind, übertragen werden.
 
-Dieser SPA wird beim Erstellen der Datei in der Anwendung „DATEV-Export bearbeiten“ (Direktsprung [DATEV]) ausgewertet, d.h. man kann bereits exportierte Daten erneut mit geändertem Kennzeichen übertragen, ohne dass die Daten erneut zusammengestellt werden müssen.
+Dieser SPA wird beim Erstellen der Datei in der Anwendung „DATEV-Export bearbeiten“ (Direktsprung **[DATEV])** ausgewertet, d.h. man kann bereits exportierte Daten erneut mit geändertem Kennzeichen übertragen, ohne dass die Daten erneut zusammengestellt werden müssen.

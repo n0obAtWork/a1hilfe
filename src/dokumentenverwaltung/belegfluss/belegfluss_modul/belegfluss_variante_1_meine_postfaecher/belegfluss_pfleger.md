@@ -67,7 +67,7 @@ Hinweis: Die Prüfungen, ob die eingebende Periode gültig ist, beziehen sich im
 | Steuergruppe | Steuergruppe des Kunden/Lieferanten |
 | Brutto des Beleges | Bruttobetrag des Beleges. Neben dem Feld „Brutto des Beleges“ wird die Summe aller Beträge der Datentabelle „Kostenaufteilung“ angezeigt. Die angezeigte Summe dient als Kontrollsumme.  
  |
-| Zahlungsbedingung | Mit der F3\-Taste kann hier eine Zahlungsbedingung ausgewählt werden. Die Zahlungsbedingung wird mit der Zahlungsbedingung EK aus dem Kundenstamm vorbelegt, sofern ein Lieferant/Kreditor angegeben wurde.  
+| Zahlungsbedingung | Mit der **F3**\-Taste kann hier eine Zahlungsbedingung ausgewählt werden. Die Zahlungsbedingung wird mit der Zahlungsbedingung EK aus dem Kundenstamm vorbelegt, sofern ein Lieferant/Kreditor angegeben wurde.  
 Bei der Auswahl einer Zahlungsbedingung wird das Feld „Skontosatz“ mit dem Skontosatz aus der Zahlungsbedingung gefüllt. Ist das Belegdatum gesetzt, so wird auch das Skonto- und das Valutadatum vorbelegt.  
  |
 | Steuerbetrag | Steuerbetrag des Beleges. Neben dem Feld „Steuerbetrag“ wird die Summe aller Steuerbeträge der Datentabelle „Kostenaufteilung“ angezeigt. Die angezeigte Summe dient als Kontrollsumme.  
@@ -112,7 +112,7 @@ Anzeige der Steuersätze, Netto- und Bruttobeträge und den jeweiligen Steuerwer
  |
 | Skonto  
  | Hier kann der Skonto-Betrag eingegeben werden. |
-| Gegenkonto | Mit der F3\-Taste kann hier ein Konto ausgewählt werden. Wurde als Belegart „SO-Belege“ angegeben, so kann hier ein Personen- oder Sachkonto ausgewählt werden. Ansonsten ist nur die Eingabe eines Sachkontos zulässig. Handelt es sich bei dem Sachkonto um ein Forderungs- oder Steuerkonto, so kann dieses nicht ausgewählt werden.  
+| Gegenkonto | Mit der **F3**\-Taste kann hier ein Konto ausgewählt werden. Wurde als Belegart „SO-Belege“ angegeben, so kann hier ein Personen- oder Sachkonto ausgewählt werden. Ansonsten ist nur die Eingabe eines Sachkontos zulässig. Handelt es sich bei dem Sachkonto um ein Forderungs- oder Steuerkonto, so kann dieses nicht ausgewählt werden.  
    
 Hinweis:  
 Bei der Eingabe eines Personenkontos als Gegenkonto ist zu beachten, dass eine Erfassung eines FiBu-Beleges nur noch über die Funktion "Direkt-Finanzbelegerfassung" erfolgen kann. Da eine direkte Buchung von Personenkonto an Personenkonto nicht zulässig ist, ist in der Prozedur für die "Direkt-Finanzbelegerfassung" ein Sachkonto als Hauptkonto anzugeben, über das die Umbuchung erfolgen soll.  
@@ -127,11 +127,11 @@ Voraussetzung: Der Steuerparameter „Kostenträgerrechnung angeschlossen“ ste
  | Bei der Auswahl eines Gegenkontos wird das Feld „Kostenobjekt“ mit dem [Kostenobjekt](../../../../finanzbuchhaltung/kostenrechnung/kostenobjekte/index.md) aus dem Gegenkonto vorbelegt. Ist das Kostenobjekt im Sachkonto als gesperrt oder fest eingetragen, kann hier keine Änderung erfolgen.  
 Voraussetzung: Es wird die [Kostenobjekt-Lizenz](../../../../firmenstamm/steuerparameter/lizenzen/kostenobjekt_lizenz_spa_1064.md) benötigt.  
  |
-| Steuerklasse | Mit der F3\-Taste kann hier die Steuerklasse ausgewählt werden.  
+| Steuerklasse | Mit der **F3**\-Taste kann hier die Steuerklasse ausgewählt werden.  
  |
-| Steuerschlüssel | Mit der F3\-Taste kann hier der Steuerschlüssel ausgewählt werden.  
+| Steuerschlüssel | Mit der **F3**\-Taste kann hier der Steuerschlüssel ausgewählt werden.  
  |
-| Steuergruppe | Mit der F3\-Taste kann hier die Steuergruppe ausgewählt werden.  
+| Steuergruppe | Mit der **F3**\-Taste kann hier die Steuergruppe ausgewählt werden.  
  |
 | Buchungstext | Hier kann ein Belegtext eingegeben werden, der dem Gegenkonto zugeordnet wird.  
  |
@@ -147,8 +147,8 @@ Voraussetzung: Es wird die [Kostenobjekt-Lizenz](../../../../firmenstamm/steuerp
  |
 | Bemerkung | Bemerkung für den Beleg  
  |
-| Quellposition | Mit der F3\-Taste kann hier ein bei Warebelegen eine Quellposition aus Eingangslieferscheinen des Kunden zur Teildisposition von Mengen ausgewählt werden |
-| Kontrakt | Mit der F3\-Taste kann hier ein anwendbarer Kontrakt ausgewählt werden |
+| Quellposition | Mit der **F3**\-Taste kann hier ein bei Warebelegen eine Quellposition aus Eingangslieferscheinen des Kunden zur Teildisposition von Mengen ausgewählt werden |
+| Kontrakt | Mit der **F3**\-Taste kann hier ein anwendbarer Kontrakt ausgewählt werden |
 
 Wenn die Einrichtungshilfe aktiviert ist, werden neue oder geänderte Einträge in der gesamten Spalte übernommen, um so wiederholtes Eingeben zu minimieren.
 
@@ -198,7 +198,7 @@ Das Ausführen dieser Funktion wird protokolliert und unter dem Register "Histor
 Hinweis: Die Funktion steht zur Verfügung, wenn noch kein Beleg erfasst wurde.  
 Das Ausführen dieser Funktion wird protokolliert und unter dem Register "Historie" angezeigt. |
 | Belegzuordnung entfernen  
- | Die Zuordnung eines Beleges zum Belegfluss verlief über die Belegreferenz. Ab der Version 9.0.2303.1 wird die ID des Beleges direkt mit dem Belegfluss verknüpft. Für bereits angelegte Belegfluss-Datensätze (vor der Version 9.0.2303.1) erfolgt die Zuordnung weiterhin über die Belegreferenz. Für diese Datensätze kann mithilfe der Funktion Belegzuordnung entfernen, die Zuordnung vom Beleg zum Belegfluss rückgängig gemacht werden. Anschließend werden die Kontierungsfelder und die Felder der Kostenaufteilung wieder zur Bearbeitung freigegeben. Es kann ein neuer Beleg angelegt werden.  
+ | Die Zuordnung eines Beleges zum Belegfluss verlief über die Belegreferenz. Ab der Version 9.0.2303.1 wird die ID des Beleges direkt mit dem Belegfluss verknüpft. Für bereits angelegte Belegfluss-Datensätze (vor der Version 9.0.2303.1) erfolgt die Zuordnung weiterhin über die Belegreferenz. Für diese Datensätze kann mithilfe der Funktion ***Belegzuordnung entfernen***, die Zuordnung vom Beleg zum Belegfluss rückgängig gemacht werden. Anschließend werden die Kontierungsfelder und die Felder der Kostenaufteilung wieder zur Bearbeitung freigegeben. Es kann ein neuer Beleg angelegt werden.  
    
 Hinweis:  
 Die Funktion ist nur verfügbar, wenn im Postfach das Feld „Beleg-Freigabe erlaubt?“ auf „Ja“ steht.  

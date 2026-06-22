@@ -4,7 +4,7 @@
 
 In der Anwendung "Archiv Belegfluss" [BF] in der Variante "Postfach-Einrichtung " auf der Maske "Postfach-Einrichtung" gibt es das Feld "Direkt-Finanzbelegerfassung". Die Standardprozedur BelegFluss_Direktbuchung wurde um den Parameter "in_kompress" erweitert. Nun ist es möglich die Direkterfassung mit der Funktion "Direkt-Finanzbelegerfassung komprimiert" zu gruppieren, also alle Positionen als eine gebündelte Position in der Finanzbuchhaltung zu erfassen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 746982[37062]
 

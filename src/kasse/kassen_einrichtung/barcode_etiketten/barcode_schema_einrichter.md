@@ -4,7 +4,7 @@
 
 Barvorgänge > Stammdaten > Barcode Schema
 
-oder Direktsprung [BCS]
+oder Direktsprung **[BCS]**
 
 | Feld | Inhalt |
 | --- | --- |

@@ -4,11 +4,11 @@
 
 Stammdatenpflege > Anschriften > Maps Tourenplanung Profil
 
-[MTPP]
+**[MTPP]**
 
 Die Tourenplanung stellt je nach Profil verschiedene Ansichten bereit. Mit dem Aufruf dieses Profils werden diese beim Start bereits aktiviert.
 
-Im Pfleger MapsTourenPlanungProfil [MTPP] können die Parameter eingestellt werden:
+Im Pfleger MapsTourenPlanungProfil **[MTPP]** können die Parameter eingestellt werden:
 
 | Maps Tourenplanung Profil |
 | --- |

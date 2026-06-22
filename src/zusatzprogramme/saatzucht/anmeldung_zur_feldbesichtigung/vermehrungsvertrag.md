@@ -4,7 +4,7 @@
 
 Hauptmenü > Saatzucht > Saatgutabwicklung > Vermehrnungsvertrag
 
-Direktsprung [SAATV]
+Direktsprung **[SAATV]**
 
 ![Ein Bild, das Text, Screenshot, Software, Zahl enthält. KI-generierte Inhalte können fehlerhaft sein.](../../../ImagesExt/image8_1233.png "Ein Bild, das Text, Screenshot, Software, Zahl enthält. KI-generierte Inhalte können fehlerhaft sein.")
 
@@ -22,21 +22,21 @@ Mit dem Einrichterparameter „**Aktuelles Jahr als Erntejahr verwenden, sonst G
  |
 | Vertreter | Der Vertreter zum Vermehrer wird hier angezeigt.  
  |
-| LWK offiziell | Landwirtschaftskammer offiziell/Anerkennungsstelle. Mit der Taste F3 kann hier eine Auswahl (**IB_Anerkennungsstelle**) aufgerufen werden**.**  
+| LWK offiziell | Landwirtschaftskammer offiziell/Anerkennungsstelle. Mit der Taste **F3** kann hier eine Auswahl (**IB_Anerkennungsstelle**) aufgerufen werden**.**  
  |
 | VMKz. | Die Vermehrerkennziffer  
  |
 | Registriernummer |   
  |
-| Vertragsart | Die Vertragsart. Mit der Taste F3 kann hier eine Auswahl (**AF_VERTART**) aufgerufen werden.  
+| Vertragsart | Die Vertragsart. Mit der Taste **F3** kann hier eine Auswahl (**AF_VERTART**) aufgerufen werden.  
  |
 | Auftragsnummer | Die Auftragsnummer  
  |
-| Sortennummer | Die Sorte kann hier ausgewählt werden. Mit der Taste F3 kann hier eine Auswahl (IB_SGALLESORTEN) aufgerufen werden.  
+| Sortennummer | Die Sorte kann hier ausgewählt werden. Mit der Taste **F3** kann hier eine Auswahl (IB_SGALLESORTEN) aufgerufen werden.  
  |
-| Kategorie | Die Kategorie der Saatsorte kann hier eingetragen werden. Mit der Taste F3 kann hier eine Auswahl (IB_SGKATEGORIE) aufgerufen werden.  
+| Kategorie | Die Kategorie der Saatsorte kann hier eingetragen werden. Mit der Taste **F3** kann hier eine Auswahl (IB_SGKATEGORIE) aufgerufen werden.  
  |
-| Artikel | Der Artikel kann hier ausgewählt werden. Mit der Taste F3 kann hier eine Auswahl (IB_ARTIKEL_FRUSORKAT) aufgerufen werden.  
+| Artikel | Der Artikel kann hier ausgewählt werden. Mit der Taste **F3** kann hier eine Auswahl (IB_ARTIKEL_FRUSORKAT) aufgerufen werden.  
  |
 | Aussaat | Der Zeitpunkt der Aussaat.  
  |
@@ -48,9 +48,9 @@ Mit dem Einrichterparameter „**Aktuelles Jahr als Erntejahr verwenden, sonst G
  |
 | Aufbereiter | Die bundesweite gültige Aufbereiterkennziffer. Mit der F3-Taste kann hier eine Auswahl aufgerufen werden.  
  |
-| Öko | Das Ökokennzeichen. Mit der Taste F3 kann hier eine Auswahl (**AF_OEKO**) aufgerufen werden.  
+| Öko | Das Ökokennzeichen. Mit der Taste **F3** kann hier eine Auswahl (**AF_OEKO**) aufgerufen werden.  
  |
-| OECD | OECD-Eignung. Mit der Taste F3 kann hier eine Auswahl (**AF_OECD**) aufgerufen werden.  
+| OECD | OECD-Eignung. Mit der Taste **F3** kann hier eine Auswahl (**AF_OECD**) aufgerufen werden.  
  |
 | P.Feldbesichtigung | Private Feldbesichtigung  
  |
@@ -63,11 +63,11 @@ Um Flächen zur Besichtigung durch die Kammer anmelden zu können, müssen einig
 
 Sind [Fruchtarten](../fruchtarten.md) und [Sorten](../saatsorten.md) eingerichtet, so muss noch die Verbindung zwischen den Artikeln, dem Artikelstamm und den Sorten geschaffen werden.
 
-• Im Artikelstammpfleger(Direktsprung [ARS] und dort **F5**) auf das Register Gruppen wechseln und dort Saatgutartikel auf **Ja** stellen und die Felder Fruchtart, Sorte und Kategorie ausfüllen.
+• Im Artikelstammpfleger(Direktsprung **[ARS]** und dort ****F5****) auf das Register Gruppen wechseln und dort Saatgutartikel auf **Ja** stellen und die Felder Fruchtart, Sorte und Kategorie ausfüllen.
 
 ![Ein Bild, das Text, Screenshot, Software, Webseite enthält. Automatisch generierte Beschreibung](../../../ImagesExt/image8_1234.jpg "Ein Bild, das Text, Screenshot, Software, Webseite enthält. Automatisch generierte Beschreibung")
 
-• Im Artikelpfleger (Direktsprung [AR] und dort F5) die Funktion Saatgut aufrufen bzw. auf den Reiter **Saatgut** wechseln. In dem sich öffnenden Dialog muss die Kategorie eingetragen werden.
+• Im Artikelpfleger (Direktsprung **[AR]** und dort **F5**) die Funktion ***Saatgut*** aufrufen bzw. auf den Reiter **Saatgut** wechseln. In dem sich öffnenden Dialog muss die Kategorie eingetragen werden.
 
 ![Ein Bild, das Text, Screenshot, Software, Computersymbol enthält. Automatisch generierte Beschreibung](../../../ImagesExt/image8_1235.jpg "Ein Bild, das Text, Screenshot, Software, Computersymbol enthält. Automatisch generierte Beschreibung")
 
@@ -80,7 +80,7 @@ Im Vermehrungsvertrag ist die Vertragsnummer frei wählbar. Das Feld Aussaat bei
 Die Vermehrernummer kommt aus dem Kundenstamm, z. B. 30300 für PHP. Hier ist auch die VO-Firma hinterlegt. Sollte wider Erwarten eine andere VO-Firma eingetragen werden, so kann das Feld VO-Firma durchaus geändert werden. Gleiches gilt für die Felder Aufbereiter, VMKz (Vermehrerkennzeichen) und LWK offiziell.  
     
 
-ACHTUNG:
+<p class="just-emphasize">ACHTUNG:</p>
 
 Die Vermehrerkennziffer der Landwirtschaftskammer muss 9-stellig sein. Die ersten beiden Stellen sind die der Landwirtschaftskammer, die für den Landwirt zuständig ist (21 = Schleswig Holstein #######). Die Kammern geben in der Regel nur die Endnummern an – Leerstellen sind mit „0“ aufzufüllen, z. B. 210000011. Wenn die Kammernummer mit „0“ beginnt, dann lediglich 8 Stellen erfassen; die führende „0“ wird vom Programm automatisch zugefügt, wenn die Daten für den Ausdruck aufbereitet werden.
 
@@ -90,7 +90,7 @@ Vorstufe, Basis, ZS und Z2. Zuchtgartengemisch ist KEINE offizielle Kategorie. D
 
 Schlagzuordnung F5.
 
-In der sich hier öffnenden Auswahlliste können bereits erfasst Schläge ausgewählt mit der Funktion Übernehmen F9 übernommen werden oder neu erfasst werde(Neu F8).
+In der sich hier öffnenden Auswahlliste können bereits erfasst Schläge ausgewählt mit der Funktion ***Übernehmen*** **F9 übernommen werden** oder neu erfasst werde(***Neu*** **F8**).
 
 ![Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung](../../../ImagesExt/image8_1236.jpg "Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung")
 
@@ -115,7 +115,7 @@ Funktionen
 | --- | --- | --- |
 | Auftrag erstellen | F8 | Erstellt aus den im Basissaatgutgrid(erster Spaltenname Partiebezeichnung) eigetragene Artikel einen Auftrag und öffnet diesen zur Korrektur |
 
-Um nun die LWK-Anmeldung aufzurufen, ruft man aus der Anwendung Vermehrungsvertrag (Direktsprung [SAATV]) die Funktion LWK-Anmeldung SCF9 auf.
+Um nun die LWK-Anmeldung aufzurufen, ruft man aus der Anwendung Vermehrungsvertrag (Direktsprung **[SAATV]**) die Funktion ***LWK-Anmeldung*** **SCF9** auf.
 
 Es werden die Daten angezeigt, die die Voraussetzung für die elektronische Übergabe an die LWK erfüllen.
 
@@ -127,7 +127,7 @@ Es gibt nun die Möglichkeit:
 
 • Druck und Diskette
 
-Für die Übergabe per Diskette muss vorher in den Optionen (Direktsprung [OPT]) dir Option „SaatLWKDiskettenPfad“ gesetzt werden. Ist diese Option nicht gesetzt, dann werden die Daten in das Export-Unterverzeichnis von A.eins geschrieben.
+Für die Übergabe per Diskette muss vorher in den Optionen (Direktsprung **[OPT]**) dir Option „SaatLWKDiskettenPfad“ gesetzt werden. Ist diese Option nicht gesetzt, dann werden die Daten in das Export-Unterverzeichnis von A.eins geschrieben.
 
 ![](../../../ImagesExt/image8_1239.jpg)
 

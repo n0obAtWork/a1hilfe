@@ -16,4 +16,4 @@ Im Maskenbereich ‚***Rohwarengruppen mit spezieller Einstellung***‘ sind all
 
 Entsprechend werden ‚***Abrechnungsschemata mit spezieller Einstellung***‘ in der Reihenfolge ihrer zugehörigen Rohwarengruppennummern und, innerhalb dieser, der Abrechnungsschemanummern dargestellt.
 
-Nach Positionierung des Cursors auf ein ‚***Wert***‘-Feld, kann mit der Funktion ‚Gültigkeiten‘ die zu diesem Parameterwert vorhandene Gültigkeitsliste zur Ansicht aufgerufen werden.
+Nach Positionierung des Cursors auf ein ‚***Wert***‘-Feld, kann mit der Funktion ‚***Gültigkeiten***‘ die zu diesem Parameterwert vorhandene Gültigkeitsliste zur Ansicht aufgerufen werden.

@@ -8,7 +8,7 @@ Mehrseitige Karteikarten
 
 Es ist mit dem Werkzeug AMIC Etikettendruck möglich, auch mehrseitige Karteikarten zu erstellen. Folgendes Beispiel erstellt einen Report mit zwei unterschiedlichen Seiten. Dazu muss man zwei Dinge beachten:
 
-1) Im Editor vom AMIC Etikettendruck im Menü unter **Projekt** muss man den Punkt „Ebenen bearbeiten“ aufrufen.  
+1) Im Editor vom AMIC Etikettendruck im Menü unter **Projekt** muss man den Punkt „***Ebenen bearbeiten***“ aufrufen.  
     
 ![](../../ImagesExt/image8_1152.png)  
     

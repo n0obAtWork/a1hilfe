@@ -4,7 +4,7 @@
 
 Für Warenbelege gibt es jetzt zwei Funktionen, um einen Beleg erneut zu versenden. 1) Neu drucken und neu versenden 2) Beleg erneut versenden (Letzte E-Mail wird aus dem Archiv heraus erneut versendet. Hier ist eine Anpassung der Mailadresse möglich)
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 715711[32988]
 

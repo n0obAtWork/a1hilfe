@@ -6,13 +6,13 @@ Lieferscheine entstehen durch Neuerfassung oder Umwandlung aus Angeboten / Auftr
 
 | Funktion | Bedeutung |
 | --- | --- |
-| Erfassen F8 | Erfassung eines neuen Lieferscheins |
-| Stapelverarbeitung | Übernahme eines oder mehrerer Lieferscheine in einen Bearbeitungsstapel |
+| ***Erfassen*** **F8** | Erfassung eines neuen Lieferscheins |
+| ***Stapelverarbeitung*** | Übernahme eines oder mehrerer Lieferscheine in einen Bearbeitungsstapel |
 | ***Erstdruck F9*** | Erstdruck eines Lieferscheins |
 | ***Formulardruck F10*** | Wiederholungsdruck |
 | ***Lieblingsdruckerdruck*** | Auswahl eines anderen Druckers / Zuordnung eines anderen Formulars |
 | ***Korrektur F5*** | Korrektur eines Lieferscheins |
-| Ansicht F6 | Lieferschein im Ansicht-Modus öffnen |
+| ***Ansicht*** **F6** | Lieferschein im Ansicht-Modus öffnen |
 | ***Kopieren CF8*** | Kopieren des Lieferscheins für einen auszuwählenden Kunden |
 | ***Vorschau F11*** | Druckvorschau |
 | ***Stornieren F7*** | Stornieren (Löschen) des Lieferscheins |

@@ -4,7 +4,7 @@
 
 Das Feld UN-Nummer ist nun frei pflegbar ohne einen Eintrag in der Itembox auswählen zu müssen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 742117[36158]
 

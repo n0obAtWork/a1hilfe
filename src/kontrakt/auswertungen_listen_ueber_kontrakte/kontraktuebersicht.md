@@ -4,4 +4,4 @@
 
 Hauptmenü > Kontraktverwaltung > Kontraktübersicht
 
-oder Direktsprung [KTI]
+oder Direktsprung **[KTI]**

@@ -4,7 +4,7 @@
 
 Die Vorgangsauswahllisten [AGB], [ELB], [GUB] und [REB] haben die Funktionen "Neu drucken und neu versenden" und "Beleg erneut versenden" unter dem Menüpunkt Merkmale erhalten.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 734596[35207]
 

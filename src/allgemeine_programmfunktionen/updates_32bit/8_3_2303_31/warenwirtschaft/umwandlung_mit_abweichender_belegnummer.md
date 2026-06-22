@@ -4,7 +4,7 @@
 
 Bei Umwandlung von Belegen unter Angabe einer abweichenden Belegnummer wurden die Informationen über den vorherigen Beleg u.U. nicht korrekt mitgezogen. Dies ist nun behoben. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 720096[33460]
 

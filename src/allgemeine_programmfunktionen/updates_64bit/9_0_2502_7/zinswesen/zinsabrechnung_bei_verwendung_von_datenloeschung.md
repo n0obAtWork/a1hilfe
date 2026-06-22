@@ -4,7 +4,7 @@
 
 Die Verprobung der Zinsabrechnung erfolgt nur noch für nicht abgeschlossene Perioden.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 748882[38303]
 

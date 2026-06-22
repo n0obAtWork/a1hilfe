@@ -15,7 +15,7 @@ Um einen Kassenabschluss der betreffenden Kassen durchzuführen, wie folgt vorge
 
 2. Betreffende Kasse auswählen.
 
-3. Auf Abschluss klicken oder F8 drücken.
+3. Auf **Abschluss** klicken oder ***F8*** drücken.
 
 </details>
 
@@ -24,7 +24,7 @@ Um einen Kassenabschluss der betreffenden Kassen durchzuführen, wie folgt vorge
 
 Hauptmenü > Barvorgänge > Kassensicherungsverordnung
 
-Direktsprung [KSVO]
+Direktsprung **[KSVO]**
 
 Hinweis!
 
@@ -36,29 +36,29 @@ Weitere Informationen zum DSFinV-K Export finden Sie unter: [DSFinVK_Export](../
 
 DSFinV-K Export erzeugen
 
-1. Zum Direktsprung [KSVO] navigieren.
+1. Zum Direktsprung **[KSVO]** navigieren.
 
-2. Mit der Funktion Export erzeugen die Dateien exportieren.
+2. Mit der Funktion ***Export erzeugen*** die Dateien exportieren.
 
 3. Dateien speichern/ablegen.
 
 TAR-Export erzeugen
 
-1. Zum Direktsprung [KSVO] navigieren.
+1. Zum Direktsprung **[KSVO]** navigieren.
 
-2. Mit der Funktion Export TAR Zeitraum mit Datumseingrenzung den Export erstellen.
+2. Mit der Funktion ***Export TAR Zeitraum*** mit Datumseingrenzung den Export erstellen.
 
 3. Dateien speichern/ablegen.
 
-ODER (*ohne Datumseingrenzung):*
+***ODER*** (*ohne Datumseingrenzung):*
 
-1. Zum Direktsprung [TSE] navigieren.
+1. Zum Direktsprung **[TSE]** navigieren.
 
 2. Datensatz markieren.
 
-3. Dateien ansehen (F6).
+3. Dateien ansehen **(F6)****.**
 
-4. Mit der Funktion Export TAR die Dateien exportieren.
+4. Mit der Funktion ***Export TAR*** die Dateien exportieren.
 
 A.Eins beenden
 
@@ -75,11 +75,11 @@ Damit die Lizenz zum TSE-Stick passt, muss zunächst die aktuelle A.eins-Lizenz 
 
 Dazu wie folgt vorgehen:
 
-1. Im Ordner Aeins\\Config die aktive ahoi2.xml umbenennen z. B. in ahoi2_OLD
+***1.*** Im Ordner ***Aeins\\Config*** die aktive **ahoi2.xml** umbenennen z. B. in ***ahoi2_OLD***
 
 So ist sichergestellt, dass sie im Notfall reaktiviert werden kann.
 
-2. Lizenzdatei aus der E-Mail unter den genau folgender gekürzten Bezeichnung: ahoi2.xml auf allen Servern und Clients ins Verzeichnis Aeins\\Config speichern.
+2. Lizenzdatei aus der E-Mail unter den genau folgender gekürzten Bezeichnung: **ahoi2.xml** auf allen Servern und Clients ins Verzeichnis ***Aeins\\Config*** speichern.
 
 </details>
 

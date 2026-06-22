@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Archiv > Administration > Formulararchiv ( Belege ohne Basis )
 
-Direktsprung [FAAD]
+Direktsprung **[FAAD]**
 
 Diese Variante listet die Archiv-Belege für die es in den [Archiv Fakt-Tabellen](../technisches_zum_formulararchiv/archivdatenbank_extern_einrichten/archiv_fakt_tabellen.md) keine Entsprechung bzgl. der Referenz gibt.
 

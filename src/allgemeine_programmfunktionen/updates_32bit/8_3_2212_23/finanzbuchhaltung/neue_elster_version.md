@@ -4,7 +4,7 @@
 
 Es wurde die Elster-Version 37.2.6 (gültig für das Jahr 2023) in A.eins integriert. In dieser Version sind zwei neue Kennzahlen (87 und 90) für den Nullsteuersatz für Photovoltaik-Anlagen enthalten.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 717068[33219]
 

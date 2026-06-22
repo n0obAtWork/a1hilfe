@@ -4,7 +4,7 @@
 
 Das Feld Artikelbezeichnung hat jetzt im Standard eine Länge von 40 Zeichen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 720576[33898]
 

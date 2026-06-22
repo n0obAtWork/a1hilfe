@@ -4,7 +4,7 @@
 
 Im Artikelstamm [ARS] werden Artikel nun auch als Gefahrgut gekennzeichnet, wenn in der Zusammensetzung, in der Gefahrgutmaske, andere Artikel hinterlegt wurden.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 742052[36541]
 

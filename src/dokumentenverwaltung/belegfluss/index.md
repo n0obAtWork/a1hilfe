@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_archivbelegfluss.htm -->
 
-Hauptmenü > Dokumentenverwaltung > Belegfluss oder Direktsprung [BF]
+Hauptmenü > Dokumentenverwaltung > Belegfluss oder Direktsprung **[BF]**
 
 **WICHTIGER HINWEIS:**
 

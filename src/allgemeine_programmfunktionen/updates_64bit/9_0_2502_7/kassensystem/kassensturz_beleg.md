@@ -4,7 +4,7 @@
 
 Beim Druck des Belegs für den Kassensturz wurde bei „Zählung“ bisher immer der Text „Pari“ ausgegeben, auch wenn ein Manko vorlag.Dieses Verhalten wurde korrigiert, sodass nun korrekt "Manko" ausgegeben wird, wenn ein Fehlbetrag aufgrund der Zählung zu Stande kommt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 750717[38345]
 

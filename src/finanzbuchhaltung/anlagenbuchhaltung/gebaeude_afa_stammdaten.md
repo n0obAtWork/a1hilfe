@@ -4,7 +4,7 @@
 
 Hauptmenü > Anlagenbuchhaltung > Stammdaten > Gebäude-AfA
 
-Direktsprung [ANKGE]
+Direktsprung **[ANKGE]**
 
 Auf Gebäude ist grundsätzlich sowohl lineare als auch degressive AfA möglich. Für ein nach dem 31.12.2005 hergestelltes oder angeschafftes Gebäude ist nur noch lineare AfA zulässig.
 

@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Werkzeuge > Server-/Verbindungs-Eigenschaften
 
-Direktsprung [SRVPROP]
+Direktsprung [**SRVPROP**]
 
 Mit Hilfe dieser Variante lassen sich die Server-Properties des Datenbank-Servers einsehen und recherchieren.
 

@@ -4,7 +4,7 @@
 
 Hauptmenü > Anlagenbuchhaltung > Stammdaten > Anlagengruppen
 
-Direktsprung [ANKAG]
+Direktsprung **[ANKAG]**
 
 Die einzelnen Gegenstände des Anlagevermögens können zu verschiedenen Gruppen zusammengestellt werden. Diese Gruppen können sich z.B. aus der Gliederung des Anlagevermögens in Sachanlagen, Finanzanlagen usw. oder nach anderen betrieblichen Gesichtspunkten ergeben.
 

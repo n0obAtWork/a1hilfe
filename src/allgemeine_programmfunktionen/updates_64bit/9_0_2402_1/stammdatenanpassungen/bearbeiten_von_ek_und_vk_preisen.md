@@ -4,7 +4,7 @@
 
 In der Anwendung 'Artikel' [AR] wurden bei mehreren markierten Einträgen in der Auswahlliste in den Funktionen 'VK-Preise bearbeiten' und 'EK-Preise bearbeiten' beim Blättern auf den nächsten oder vorhergehenden Artikel die Preise des ersten vorhandenen Preiszeitraums des Artikels dargestellt. Dieses Verhalten wurde nun geändert. Soweit vorhanden, wird nun zunächst immer der Preiszeitraum zum aktuellen Tagesdatum dargestellt. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 732390[35531]
 

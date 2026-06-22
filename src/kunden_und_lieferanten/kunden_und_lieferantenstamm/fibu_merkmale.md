@@ -19,7 +19,7 @@ Der Bestimmung der Forderungsgruppe eines Personenkontos hat mit der Funktion �
 Beim Ändern der Forderungsgruppe ist immer zu beachten, dass die diesem Personenkonto zugeordneten Werte vor dem Zeitpunkt auf den „alten“ Forderungs-/Verbindlichkeitskonten bleiben. Es erfolgt keine automatische Umbuchung. Erst beim Jahreswechsel der Sachkonten werden die Umbuchungen auf den Forderungs- und Verbindlichkeitskonten durchgeführt. Dazu muss die letzte Normalperiode offen sein. Diese Mechanik kann mit dem Steuerungsparameter 968 („Forderungskonten umbuchen“) deaktiviert werden.  
  |
 | Erlösklasse  
- | Es besteht die Möglichkeit, die Erlöse einer bestimmten Klasse von Kunden auf speziellen Erlöskonten zu buchen (z.B. Erlöse Inland auf 8100, Erlöse Ausland auf 8200). Hier ist die Erlösklasse einzutragen. In der Erlöskennziffer Kontozuordnung [EKZZ] wird dann die Erlösklasse den Erlöskennziffern und Konten zugeordnet.  
+ | Es besteht die Möglichkeit, die Erlöse einer bestimmten Klasse von Kunden auf speziellen Erlöskonten zu buchen (z.B. Erlöse Inland auf 8100, Erlöse Ausland auf 8200). Hier ist die Erlösklasse einzutragen. In der Erlöskennziffer Kontozuordnung **[EKZZ]** wird dann die Erlösklasse den Erlöskennziffern und Konten zugeordnet.  
  |
 | Erfassungssperre  
  | Man kann in der Belegerfassung der Finanzbuchhaltung nicht mehr auf diesen Kunden/Lieferanten zugreifen. In der Konteninformation, dem Fibuübertrag, der OP-Verwaltung und in sonstigen Anwendungen kann jedoch weiterhin auf den Kunden zugegriffen werden. Eine Weiterverarbeitung – z.B. Auszifferung oder Jahreswechsel – ist nach wie vor möglich.  

@@ -30,4 +30,4 @@ existing table admin.archiv at ‘archiv;;admin;Archiv’
 
 Schritt4:
 
-Führen Sie im Bedienerstamm die Funktion Fremdserver Rechte zuordnen aus.
+Führen Sie im Bedienerstamm die Funktion ***Fremdserver Rechte zuordnen*** aus.

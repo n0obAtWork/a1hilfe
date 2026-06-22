@@ -4,7 +4,7 @@
 
 Bei der Produktionserfassung kam es vor, dass trotz Mengenüberschreitung der ausgewählten Partie die Mengenangabe nicht geprüft wurde. Die Mengenprüfung der Komponente mit Partie wird jetzt nach den Einstellungen in der Vorgangsunterklasse [FRZ] ausgeführt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 713172[32729]
 

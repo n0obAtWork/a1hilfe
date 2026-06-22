@@ -4,7 +4,7 @@
 
 Im Archiv wurde der letzte Pfad für das Hinzufügen neuer Dokumente (F8) nach dem Schließen der Maske nicht gespeichert. Der Pfleger wurde so angepasst, dass der Pfad nun auch nach Verlassen der Maske gespeichert bleibt und beim nächsten Hinzufügen eines Dokumentes über (F8) Neu vorgeschlagen wird. Beim Speichern des Datensatzes wird die Maske nun wieder geschlossen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 750167[38271]
 

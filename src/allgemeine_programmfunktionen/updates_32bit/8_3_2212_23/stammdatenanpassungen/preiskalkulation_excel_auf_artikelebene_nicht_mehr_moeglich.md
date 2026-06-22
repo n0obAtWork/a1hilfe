@@ -4,7 +4,7 @@
 
 In der Anwendung Artikel steht die Funktion "Preiskalkulation mit Excel" nicht mehr zur Verfügung. Das Standardverfahren läuft über die Anwendung "Preiskalkulation mit Excel" Menüpunkt: Preiskalkulation mit Excel(Auswahlliste) Direktsprung: [PKX]
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 717577[33283]
 

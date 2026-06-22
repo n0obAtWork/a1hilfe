@@ -4,7 +4,7 @@
 
 Die Erstellung von Rohwarestornoabrechnungen und Rohwaresammelstornoabrechnungen können jetzt nicht mehr mit einem Belegdatum erfolgen, das in einem anderen Geschäftsjahr als das Belegdatum des Originalbelegs liegt. Wird die Funktion jedoch in der Variante Stornobeleg mit Erzeugung einer Kopie des Originalbelegs ausgeführt, kann dieses auch mit einem Belegdatum und Periode aus einem anderen Geschäftsjahr erfolgen, damit eine ordnungsgemäße jahresübergreifende Abrechnung realisiert werden kann. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 730993[34730]
 

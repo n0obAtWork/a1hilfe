@@ -4,7 +4,7 @@
 
 Im Verkauf wurde bei der Nachhaltigkeitsprüfung für Kontrakte der Kunde im Beleg, und nicht der Systemkunde herangezogen. Dies führte dazu, dass Kontrakte abgewählt worden sind, obwohl der Systemkunde mit der Ware nachhaltig handeln darf.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[35867]
 

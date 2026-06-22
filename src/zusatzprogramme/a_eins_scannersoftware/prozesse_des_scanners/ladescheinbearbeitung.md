@@ -26,7 +26,7 @@ Ist ein Ladeschein abgearbeitet worden, so wird mit dem Befehl „**LADENDE**“
 
 Nach der Erfolgreichen Abarbeitung des Ladescheins werden automatisch Lieferscheine zu den dazugehörigen Aufträgen erstellt. Diese können dann per Automatik ausgedruckt werden, dazu ist ein Bedieneranzulegen „LALIDRU“ diesem Bediener kann dann ein Standarddrucker zugewiesen werden, auf diesem Drucker werden dann die Lieferschein ausgedruckt werden.
 
-Die erfassten Daten werden in der Anwendung [Vorgangsimport](../../../vorgangsabwicklung/vorgangsimport/vorgangsimport_mit_opentrans/zeitgesteuerter_importprozess.md) [VIMP] gespeichert.
+Die erfassten Daten werden in der Anwendung [Vorgangsimport](../../../vorgangsabwicklung/vorgangsimport/vorgangsimport_mit_opentrans/zeitgesteuerter_importprozess.md) [**VIMP**] gespeichert.
 
 Hauptmenü > Externe Kommunikation > Stammdatenimport > Vorgangsimport
 

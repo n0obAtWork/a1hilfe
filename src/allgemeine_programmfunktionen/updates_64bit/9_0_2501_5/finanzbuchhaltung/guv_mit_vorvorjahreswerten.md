@@ -4,7 +4,7 @@
 
 Es wurde ein neuer Report "G u V mit Vorvorjahreswerten" erstellt. Dieser ist wie die G u V aufgebaut, nur dass er zwei weitere Spalten für ein weiteres Vergleichsjahr hat.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 737359[35636]
 

@@ -111,7 +111,7 @@ In der Rechenzeile wird der Zahlungsbetrag rechts vom **"= "** Zeichen angezeigt
 
 o A.eins bildet automatisch einen Restposten oder Teilzahlungsbelege in der Höhe des unausgeglichenen Restbetrages. Ein Restposten hat im Gegensatz zur Teilzahlung keinen Bezug mehr zu den Rechnungen. Es wird nur der Gesamtbetrag festgehalten, der noch übrig ist. Bei Teilzahlungen wird pro Rechnung hinterlegt, wie viel noch zu zahlen ist. Auch werden die OP-Informationen (Mahndatum, Mahnstufe, Mahnsperre und Zahlsperre ) der Rechnung in die Teilzahlungsbelege übernommen. Teilzahlungsbelege enthalten also mehr Informationen als Restposten.
 
-o Alternativ dazu besteht die Möglichkeit, die Differenz automatisch ausbuchen zu lassen: Mit den Funktionen Ausbuchen ohne Steuer **F4** oder Ausbuchen mit Steuer **F6** kann ein verbliebener Restbetrag auch direkt ausgebucht werden.  
+o Alternativ dazu besteht die Möglichkeit, die Differenz automatisch ausbuchen zu lassen: Mit den Funktionen ***Ausbuchen ohne Steuer*** **F4** oder ***Ausbuchen mit Steuer*** **F6** kann ein verbliebener Restbetrag auch direkt ausgebucht werden.  
 Es ist dann lediglich das Konto anzugeben, gegen das die Buchung erfolgen soll, z.B. **"Forderungsverlust"**, und alle mit dieser Ausbuchung zusammenhängenden Buchungssätze werden automatisch gebildet.
 
 o Für kleine Differenzen kann es sinnvoll sein, sie als Skonto automatisch auszubuchen. Mit ***Skonto*** **F5** wird die Funktion aufgerufen. Es öffnet sich ein Bearbeitungsfenster:  
@@ -146,9 +146,9 @@ Die markierten Belege werden entweder aus der Zahlungsvorschlagsliste, in der si
 
 • Der Beleg darf nicht vom Modul Kasse verwendet werden!
 
-Zusätzlich existiert noch ein Einrichterparameter „**Beim Hinzufügen der OP´s zu Zahlungsvorschlägen die Bank abfragen?**“, der steuert, ob beim Hinzufügen zu Zahlungsvorschlägen vorher die Bank abgefragt werden soll. Steht dieser Einrichterparameter auf **Ja** und sind beim Kunden mehrere Banken hinterlegt, so öffnet sich die eine Maske in der man die Bank auswählen kann. Dort kann man den Balken mit den Pfeiltasten auf eine Zeile positionieren und dann mit **F9** diese Bank auswählen. Eine weitere Möglichkeit ist ein Doppelklick auf die Zeile mit der auszuwählenden Bankverbindung. Beendet man die Auswahl mit ESCAPE, so werden keine OP’s einer Zahlungsvorschlagsliste hinzugefügt.
+Zusätzlich existiert noch ein Einrichterparameter „**Beim Hinzufügen der OP´s zu Zahlungsvorschlägen die Bank abfragen?**“, der steuert, ob beim Hinzufügen zu Zahlungsvorschlägen vorher die Bank abgefragt werden soll. Steht dieser Einrichterparameter auf **Ja** und sind beim Kunden mehrere Banken hinterlegt, so öffnet sich die eine Maske in der man die Bank auswählen kann. Dort kann man den Balken mit den Pfeiltasten auf eine Zeile positionieren und dann mit **F9** diese Bank auswählen. Eine weitere Möglichkeit ist ein Doppelklick auf die Zeile mit der auszuwählenden Bankverbindung. Beendet man die Auswahl mit **ESCAPE**, so werden keine OP’s einer Zahlungsvorschlagsliste hinzugefügt.
 
-Hinweis: *Ein erfassen eine neuen Bank ist hier nicht möglich. Das muss separat üb die Funktion „Kundenbank ändern“* F9 *geschehen.*
+Hinweis: *Ein erfassen eine neuen Bank ist hier nicht möglich. Das muss separat üb die Funktion ***„Kundenbank ändern“**** **F9** ***geschehen.***
 
 Hinzufügen/löschen Mahnvorschlag – Strg F9
 

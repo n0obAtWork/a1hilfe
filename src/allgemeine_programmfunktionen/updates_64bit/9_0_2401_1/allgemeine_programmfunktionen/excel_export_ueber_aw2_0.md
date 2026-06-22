@@ -4,7 +4,7 @@
 
 Werden Daten aus der Auswahlliste nach Excel exportiert (Excel aus Datentabelle), existiert nun die Möglichkeit auszuwählen, ob alle Daten oder nur die markierten Daten exportiert werden sollen. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[34445]
 

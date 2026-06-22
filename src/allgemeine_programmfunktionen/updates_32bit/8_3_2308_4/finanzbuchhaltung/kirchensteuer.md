@@ -4,7 +4,7 @@
 
 Bei Blättern in den Kirchensteuersätzen wird das Grid vor dem befüllen mit Daten einmal gelöscht.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 725650[34034]
 

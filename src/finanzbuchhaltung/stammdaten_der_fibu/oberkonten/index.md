@@ -62,7 +62,7 @@ Wenn man hier **Ja** einträgt, wird das Konto als Verteilkonto behandelt, bei d
 
 ADDON
 
-Für Oberkonten können eigene Felder und somit eigene Daten erfasst werden. Die Definition geschieht über das [A.eins Informationssystem](../../../zusatzprogramme/ais_a_eins_informationssystem/index.md) (Direktsprung [AIS]). Hier kann man z.B. für die vordefinierte Tabelle OBERSACHKONTOADDON oder eigenen privaten Tabellen zusätzliche Felder definieren, die dann auf den definierten Registern erscheinen.
+Für Oberkonten können eigene Felder und somit eigene Daten erfasst werden. Die Definition geschieht über das [A.eins Informationssystem](../../../zusatzprogramme/ais_a_eins_informationssystem/index.md) (Direktsprung **[AIS]**). Hier kann man z.B. für die vordefinierte Tabelle OBERSACHKONTOADDON oder eigenen privaten Tabellen zusätzliche Felder definieren, die dann auf den definierten Registern erscheinen.
 
 <p class="siehe-auch">Siehe auch:</p>
 

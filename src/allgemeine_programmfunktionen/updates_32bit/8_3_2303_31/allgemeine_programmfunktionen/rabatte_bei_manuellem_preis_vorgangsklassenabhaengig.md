@@ -4,7 +4,7 @@
 
 Der Steuerparameter 347 (Rabatte auch bei manuellem Preis) kann nun Vorgangsunterklassenabhängig in [FRZ] überschrieben werden. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 721024[33578]
 

@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/variantebenutzerhinweis.htm -->
 
-Diese Variante kann mit dem Direktsprung [FEHLH] direkt aufgerufen werden.
+Diese Variante kann mit dem Direktsprung **[FEHLH]** direkt aufgerufen werden.
 
 Im Unterschied zu den anderen Varianten werden hier nur unerledigte Meldungen vom Typ 101 (Benutzerhinweis), 102 (Benutzerwarnung), 103 (Benutzerfehler) berücksichtigt, welche dem aktuellen User oder seiner Benutzerklasse zugeordnet sind.
 

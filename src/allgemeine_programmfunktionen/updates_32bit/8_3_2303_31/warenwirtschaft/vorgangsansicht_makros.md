@@ -4,7 +4,7 @@
 
 Eröffnet man einen Beleg im Ansichtsmodus (F6), werden die Makros nun auch bei der SPA-Einstellung ( SPA 862 "Makros bei Ansicht eines Vorgangs ausführen") "Immer" ausgeführt. Bisher wurden die Makros nur bei der SPA-Einstellung "AIS" und "Vorgang" ausgeführt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 714214[32859]
 

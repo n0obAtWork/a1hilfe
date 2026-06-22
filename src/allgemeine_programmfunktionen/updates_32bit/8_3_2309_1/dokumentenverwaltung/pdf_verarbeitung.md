@@ -4,7 +4,7 @@
 
 Die Bibliothek, die u.a. zur Erzeugung von PDF-Dokumenten eingesetzt wird, ist auf Version DynaForms 4.0.74.217 Professional angehoben worden. Diese Version erzeugt u.a. nicht länger interne Links auf die Hersteller-URL, da diese u.U. zu Problemen mit Viren-Scanner führen konnten.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 724275[33909]
 

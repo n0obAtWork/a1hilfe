@@ -4,7 +4,7 @@
 
 Hauptmenü > Abschlussarbeiten > DATEV / Import / Export > Datenübernahme
 
-Direktsprung [DUEB]
+Direktsprung **[DUEB]**
 
 Um für CSV-Dateien einen Datenimport in die Finanzbuchhaltung zu definieren, kann eine Datenübernahme definiert werden. Es finden hier keine Tests statt, ob eine Datei bereits eingelesen wurde. Dies muss durch geeignete betriebliche Maßnahmen sichergestellt werden.
 
@@ -18,7 +18,7 @@ Das Programm „dueb_import2db_csv“ importiert die Dateien in das Formulararch
 
 Das Programm „dueb_import_csv“ versucht mithilfe der unter Prozedur eingetragenen privaten Datenbankprozedur die Daten zu verarbeiten. Dabei werden vor der Belegerstellung erst alle Daten auf Konsistenz geprüft und erst danach werden die Belege erstellt. Dadurch ist sichergestellt, dass nicht nur Teile aus der Datei verarbeitet werden.
 
-In das Feld Prozedur muss eine private Prozedur eingetragen werden, die ein Resultset mit den erforderlichen Daten zurückliefern muss. Mit der Funktion Prozedur bearbeiten kann die Funktion direkt bearbeitet oder neu angelegt werden. Bei der Neuanlage wird ein Gerüst mit dem benötigten Resultset vorgegeben.
+In das Feld Prozedur muss eine private Prozedur eingetragen werden, die ein Resultset mit den erforderlichen Daten zurückliefern muss. Mit der Funktion ***Prozedur bearbeiten*** kann die Funktion direkt bearbeitet oder neu angelegt werden. Bei der Neuanlage wird ein Gerüst mit dem benötigten Resultset vorgegeben.
 
 Beispieldaten:
 

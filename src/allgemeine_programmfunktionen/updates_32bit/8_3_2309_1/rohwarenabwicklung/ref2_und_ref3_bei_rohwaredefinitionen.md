@@ -4,7 +4,7 @@
 
 Bei der Bearbeitung von Rohwareabrechnungs-Schemata werden jetzt die Werte der Spalten "Ref 2" und "Ref 3" auch auf den Detailmasken (Hauptartikelposition, Sekundärartikelposition, Kosten-/Vergütungsposition und Qualitätsmerkmal) dargestellt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 725440[34048]
 

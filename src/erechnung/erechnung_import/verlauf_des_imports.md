@@ -16,6 +16,6 @@ Die Schritte, die hier gemacht werden, sind:
 
 5. Ggf. die Ermittlung eines Kunden/Lieferanten
 
-Bei der Verwendung von [FAI] und [EMAIL] werden diese Schritte automatisch angestoßen.
+Bei der Verwendung von **[FAI]** und **[EMAIL]** werden diese Schritte automatisch angestoßen.
 
-Beim manuellen Import muss dies mit der Funktion eRechnung bearbeiten manuell für den Eintrag aufgerufen werden.
+Beim manuellen Import muss dies mit der Funktion ***eRechnung bearbeiten*** manuell für den Eintrag aufgerufen werden.

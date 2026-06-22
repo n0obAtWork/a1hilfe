@@ -4,7 +4,7 @@
 
 Fehlende Unterscheidung zwischen Markt- und Tresen- Kasse bei Zahlungsabbruch hinzugefügt, welcher zu fälschlicher Löschung des Datensatzes in der ACashBelg Tabelle geführt hat.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 738111[35653]
 

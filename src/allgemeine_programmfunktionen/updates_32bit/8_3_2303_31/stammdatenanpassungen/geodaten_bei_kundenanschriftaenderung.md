@@ -4,7 +4,7 @@
 
 Bei der Änderung von Anschriftdaten auf der Kundenstamm-Maske gingen Geodaten der Anschrift verloren. Dies wurde behoben
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[33563]
 

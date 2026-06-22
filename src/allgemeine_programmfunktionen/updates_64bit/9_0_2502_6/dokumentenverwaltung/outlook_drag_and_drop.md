@@ -4,7 +4,7 @@
 
 Beim Hinzufügen von E-Mail-Anhängen aus Outlook zum Archiv per Drag and Drop wurden bei mehreren geöffneten Outlook Fenstern die falschen Dateien importiert. Dies wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[38119]
 

@@ -4,7 +4,7 @@
 
 Preise / Konditionen > Rabatte > allgemeine Rabatte
 
-Oder Direktsprung [RAV]
+Oder Direktsprung **[RAV]**
 
 In der Kombination von Kunden und Artikeln entstehen automatische Rabattberechnungen. Diese Zuordnung erfolgt in dieser Anwendung. Für Einkauf und Verkauf getrennt können hier Rabatte für die Kombination von [Rabattklasse](./rabattklasse.md) und [Rabattgruppe](./rabattgruppe.md) eingerichtet werden.
 
@@ -50,7 +50,7 @@ Ja/Nein-Entscheidung, ob dieser Rabatt ein kalkulatorischer Rabatt sein soll, de
 
 Kalkulatorische Rabatte werden im Gegensatz zu kalkulatorischen Zu- und Abschlägen in der Praxis kaum verwendet.
 
-Administration > Steuerung > Steuerungsparameter zeigen [SPA]
+Administration > Steuerung > Steuerungsparameter zeigen **[SPA]**
 
 Damit diese Einstellung wirken kann, muss der Steuerparameter [509 - Kalkulatorische Rabatte zulässig](../../../firmenstamm/steuerparameter/preisfindung/kalkulatorische_rabatte_zulaessig_spa_509.md) eingeschaltet sein.
 

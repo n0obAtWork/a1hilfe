@@ -2,9 +2,9 @@
 
 <!-- source: https://amic.de/hilfe/bwgschnittstelle.htm -->
 
-Hauptmenü > Abschlussarbeiten > DATEV / Import / Export > Import > Funktion F9 Import Starten > Funktion F4 Importdatei lesen
+Hauptmenü > Abschlussarbeiten > DATEV / Import / Export > Import > Funktion **F9** ***Import Starten*** > Funktion **F4** ***Importdatei lesen***
 
-Direktsprung [FIIM]
+Direktsprung **[FIIM]**
 
 Bei dieser Schnittstelle handelt es sich um den Import der Lohndaten aus der BWG-Software. Es handelt sich hierbei um reine Sachkontenbuchungen.
 

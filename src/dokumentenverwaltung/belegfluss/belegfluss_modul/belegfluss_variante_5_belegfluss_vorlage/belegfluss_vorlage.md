@@ -16,7 +16,7 @@ Der Pfleger ist analog zur Kontierung auf der Belegflussmaske aufgebaut. Die hie
  |
 | Belegnummer | Belegnummer  
  |
-| Zahlungsbedingung | Mit der F3\-Taste kann hier eine Zahlungsbedingung ausgewählt werden. Die Zahlungsbedingung wird mit der Zahlungsbedingung EK aus dem Kundenstamm vorbelegt, sofern ein Lieferant/Kreditor angegeben wurde.  
+| Zahlungsbedingung | Mit der **F3**\-Taste kann hier eine Zahlungsbedingung ausgewählt werden. Die Zahlungsbedingung wird mit der Zahlungsbedingung EK aus dem Kundenstamm vorbelegt, sofern ein Lieferant/Kreditor angegeben wurde.  
 Bei der Auswahl einer Zahlungsbedingung wird das Feld „Skontosatz“ mit dem Skontosatz aus der Zahlungsbedingung gefüllt.  
  |
 | Skontosatz | Hier kann ein Skontosatz eingetragen werden. Bei der Auswahl einer Zahlungsbedingung wird das Feld „Skontosatz“ mit dem Skontosatz aus der Zahlungsbedingung gefüllt.  
@@ -36,7 +36,7 @@ Bei der Auswahl einer Zahlungsbedingung wird das Feld „Skontosatz“ mit dem S
  |
 | Skonto  
  | Hier kann der Skonto-Betrag eingegeben werden. |
-| Gegenkonto | Mit der F3\-Taste kann hier ein Sachkonto ausgewählt werden.  
+| Gegenkonto | Mit der **F3**\-Taste kann hier ein Sachkonto ausgewählt werden.  
 Handelt es sich bei dem Sachkonto um ein Forderungs- oder Steuerkonto, so kann dieses nicht ausgewählt werden.  
  |
 | Kostenstelle | Bei der Auswahl eines Gegenkontos wird das Feld „Kostenstelle“ mit der [Kostenstelle](../../../../finanzbuchhaltung/kostenrechnung/kostenstellen.md) aus dem Gegenkonto vorbelegt. Ist die Kostenstelle im Sachkonto als gesperrt oder fest eingetragen, kann hier keine Änderung erfolgen.  
@@ -49,11 +49,11 @@ Voraussetzung: Der Steuerparameter „Kostenträgerrechnung angeschlossen“ ste
  | Bei der Auswahl eines Gegenkontos wird das Feld „Kostenobjekt“ mit dem [Kostenobjekt](../../../../finanzbuchhaltung/kostenrechnung/kostenobjekte/index.md) aus dem Gegenkonto vorbelegt. Ist das Kostenobjekt im Sachkonto als gesperrt oder fest eingetragen, kann hier keine Änderung erfolgen.  
 Voraussetzung: Es wird die [Kostenobjekt-Lizenz](../../../../firmenstamm/steuerparameter/lizenzen/kostenobjekt_lizenz_spa_1064.md) benötigt.  
  |
-| Steuerklasse | Mit der F3\-Taste kann hier die Steuerklasse ausgewählt werden.  
+| Steuerklasse | Mit der **F3**\-Taste kann hier die Steuerklasse ausgewählt werden.  
  |
-| Steuerschlüssel | Mit der F3\-Taste kann hier der Steuerschlüssel ausgewählt werden.  
+| Steuerschlüssel | Mit der **F3**\-Taste kann hier der Steuerschlüssel ausgewählt werden.  
  |
-| Steuergruppe | Mit der F3\-Taste kann hier die Steuergruppe ausgewählt werden.  
+| Steuergruppe | Mit der **F3**\-Taste kann hier die Steuergruppe ausgewählt werden.  
  |
 | Buchungstext | Hier kann ein Belegtext eingegeben werden, der später dem Gegenkonto zugeordnet wird.  
  |

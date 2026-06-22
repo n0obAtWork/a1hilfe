@@ -4,7 +4,7 @@
 
 Es wurde die Elster-Version 41.2.4 (gültig für das Jahr 2025) in A.eins integriert. Diese enthält folgende Änderungen: USTVA:Kennziffer 70: Wechsel von der Kleinunternehmer-Regelung (§ 19 UStG) zur Regelbesteuerung. Diese wird vor Aufruf des Übertragungsprogramms abgefragt. Die Wirtschaftsidentifikationsnummer des Systemkunden aus dem Mandantenstamm wird, soweit sie angegeben wurde, mit übertragen. ZMDO:Die Straße des Ansprechpartners ZMDO ist jetzt eine Pflichtangabe.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 739914[35828]
 

@@ -6,7 +6,7 @@ In dieser Anwendung kann die Standard Einrichtung für den Marktbereich für den
 
 1. Doppelklick auf die Zeile mit den Verbindungsparametern
 
-2. Markieren einer Zeile und mit F9 oder der Menüfunktion Scannerprogramm Starten das Programm aufrufen.
+2. Markieren einer Zeile und mit **F9** oder der Menüfunktion ***Scannerprogramm Starten*** das Programm aufrufen.
 
 Wird diese Anwendung zum ersten Mal gestartet und im A.eins System befindet sich nicht die Datei dbconfig.xml welche die Verbindungsparameter enthält, damit sich der Windows Scanner mit dem A.eins System verbindet, werden die Felder mit den Verbindungsparameter der aktuellen Verbindung vorbelegt.
 

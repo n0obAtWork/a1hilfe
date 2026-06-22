@@ -4,13 +4,13 @@
 
 Hauptmenü > Stammdatenpflege > Lagerverwaltungssystem > Ladeträger
 
-Direktsprung [LVSLT]
+Direktsprung **[LVSLT]**
 
 In dieser Anwendung werden neue Ladeträger angelegt. Ein Ladeträger kann ein Silo, Big Bag, Palette … sein. Es können mehrere Ladeträger von einem Ladeträgertyp angelegt werden.
 
 Die Ladeträger Anlage kann in der Variante Silo/Ladeträger und in der Variante Silo/Ladeträger vorgenommen werden. Nach der Anlage eines Ladeträgers muss dieser erst auf eine [Lokalität](./lokalitaeten/index.md) mittels der Funktion „[Buchungen](./ladetraeger_buchungen.md)“ gebucht werden.
 
-Anlage eines Ladeträgers
+<p class="just-emphasize">Anlage eines Ladeträgers</p>
 
 Zur Anlage eines Ladeträgers wird in den beiden Varianten die Funktion „Neu“ [F8] ausgewählt. In der Erfassungsmaske müssen folgende Felder gepflegt werden.
 
@@ -22,7 +22,7 @@ Zur Anlage eines Ladeträgers wird in den beiden Varianten die Funktion „Neu�
 | Ext. Nummer | Frei vergebbare Nummer zur Externen Identifikation |
 | Aktiv | Kennzeichen, ob der Ladeträger aktiv ist. Wenn das Kennzeichen auf nein steht, so kann dieser Ladeträger nicht bebucht werden. |
 
-Registerkarte Lokalitätszustand
+<p class="just-emphasize">Registerkarte Lokalitätszustand</p>
 
 | Feldname | Bedeutung |
 | --- | --- |
@@ -33,15 +33,15 @@ Registerkarte Lokalitätszustand
 | Ladeeinheitsnummer | Aktuelle Ladeeinheitsnummer auf dem Ladeträger. |
 | Reinigungsstatus | |
 
-Varianten
+<p class="just-emphasize">Varianten</p>
 
 Silo/Ladeträger
 
 In dieser Variante werden neue Ladeträger angelegt, bearbeitet und gelöscht. Des Weiteren kann sich mit der Funktion Ladeträgerbewegung ein Report geöffnet werden, der mir alle Aktuellen Buchungen von der jetzt gültigen Ladeeinheit auf den gewählten Silos/Ladeträgern anzeigt.
 
-Mit der Funktion [Buchungen](./ladetraeger_buchungen.md) [F9] können einzelne Positionen auf dem Silo/Ladeträger bearbeitet werden.
+Mit der Funktion [Buchungen](./ladetraeger_buchungen.md) [**F9**] können einzelne Positionen auf dem Silo/Ladeträger bearbeitet werden.
 
-Mit der Funktion [Bestandsmeldung](../siloverwaltung/silo_silobestand/bestandsmeldung.md) [F10] können einzelne Positionen von einem Silo/Ladeträger auf einen anderes Silo/Ladeträger umgebucht werden.
+Mit der Funktion [Bestandsmeldung](../siloverwaltung/silo_silobestand/bestandsmeldung.md) [**F10**] können einzelne Positionen von einem Silo/Ladeträger auf einen anderes Silo/Ladeträger umgebucht werden.
 
 Silo/Ladeträger Bestand
 

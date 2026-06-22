@@ -4,9 +4,9 @@
 
 Hauptmenü > Stammdatenpflege > Artikelstamm > Artikelverpackung
 
-oder Direktsprung [AVP]
+oder Direktsprung **[AVP]**
 
-Die Pflege der Stammdaten wird in dem Abschnitt Artikelverpackung [AVP] abgewickelt. Es können hier zu einem Kunden und einem Artikel (lagerspezifisch) ein oder mehrere Artikelverpackungssätze in das A.eins-System eingetragen werden.
+Die Pflege der Stammdaten wird in dem Abschnitt Artikelverpackung **[AVP]** abgewickelt. Es können hier zu einem Kunden und einem Artikel (lagerspezifisch) ein oder mehrere Artikelverpackungssätze in das A.eins-System eingetragen werden.
 
 Zu jedem Kunde/Artikel/Satzpaar können bis zu drei verschiedene Verpackungsformen erfasst werden, die zugehörige Grundmengeneinheit muss angegeben werden, und es ist noch die dieser Verpackung zugrunde liegende Gebindemengeeinheit anzugeben.
 

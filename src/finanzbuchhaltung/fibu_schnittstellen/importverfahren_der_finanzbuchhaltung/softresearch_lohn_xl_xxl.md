@@ -2,9 +2,9 @@
 
 <!-- source: https://amic.de/hilfe/softresearchlohnxlxxl.htm -->
 
-Hauptmenü > Abschlussarbeiten > DATEV / Import / Export > Import > Funktion **F9** Import Starten > Funktion **F4** Importdatei lesen
+Hauptmenü > Abschlussarbeiten > DATEV / Import / Export > Import > Funktion **F9** Import Starten > Funktion **F4** ***Importdatei lesen***
 
-Direktsprung [FIIM]
+Direktsprung **[FIIM]**
 
 Bei dieser Schnittstelle handelt es sich um den Import der Lohndaten aus der Software Lohn-XL/XXL. Es handelt sich bei diesen Buchungen um reine Sachkontenbuchungen. Die Lohnsoftware bietet diverse Exportschnittstellen an. In A.eins sind die Schnittstellen F_SR11 und F_SR13 Implementiert.
 

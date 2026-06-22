@@ -6,15 +6,15 @@
 
 Beim Betreten einer Anwendung ist erst einmal kein Stapel aktiv. Man kann einen Stapel anlegen, indem man Zeilen einem Stapel hinzufügt – dann wird entweder automatisch ein Stapel gebildet oder es öffnet sich eine Auswahl, wenn mehrere vorhanden sind – oder über die Stapelauswahl. Das Menü „Stapelauswahl“ steht nur zur Verfügung, wenn mit globalem Stapel gearbeitet wird, bei temporären Stapeln wird immer automaisch ein privater Stapel angelegt.
 
-In diesem Menü befindet sich mindestens die Funktion „(Neu)“ und später dann die angelegten Stapel. Wähl man Neu oder einen angelegten Stapel aus, so öffnet sich dieser Dialog:
+In diesem Menü befindet sich mindestens die Funktion „***(Neu)***“ und später dann die angelegten Stapel. Wähl man ***Neu*** oder einen angelegten Stapel aus, so öffnet sich dieser Dialog:
 
 ![](../../../ImagesExt/image8_1303.png)
 
 | | **Bedeutung** |
 | --- | --- |
-| aktivieren (F9) | Die Änderungen werden gespeichert, der Stapel wird zum aktiven Stapel und er wird links im Menüband angezeigt (statt „Kein Stapel ausgewählt“). Die Funktionen „zu Stapel hinzufügen“ Strg+F8 und „aus Stapel entfernen“ Strg+F7 beziehen sich dann auf diesen Stapel.  
+| aktivieren (**F9**) | Die Änderungen werden gespeichert, der Stapel wird zum aktiven Stapel und er wird links im Menüband angezeigt (statt „Kein Stapel ausgewählt“). Die Funktionen „***zu Stapel hinzufügen***“ **Strg+F8** und „***aus Stapel entfernen***“ **Strg+F7** beziehen sich dann auf diesen Stapel.  
  |
-| löschen (F7) | Der Stapel wird komplett gelöscht und alle Datensätze aus ihm entfernt. Bei Neuanlage eines Stapels ist dieses Feld erst einmal deaktiviert. Steht man im Stapel – auf dem Register steht „Stapelverarbeitung (Bearbeitungsmodus)“ - und löscht einen Stapel, so wird der Stapel gelöscht und der Bearbeitungsmodus verlassen.  
+| löschen (**F7**) | Der Stapel wird komplett gelöscht und alle Datensätze aus ihm entfernt. Bei Neuanlage eines Stapels ist dieses Feld erst einmal deaktiviert. Steht man im Stapel – auf dem Register steht „Stapelverarbeitung (Bearbeitungsmodus)“ - und löscht einen Stapel, so wird der Stapel gelöscht und der Bearbeitungsmodus verlassen.  
  |
 | Bezeichnung | Vergabe einer Bezeichnung. Diese Bezeichnung erscheint dann im Menü „Stapelauswahl“.  
 ![](../../../ImagesExt/image8_1304.png)  

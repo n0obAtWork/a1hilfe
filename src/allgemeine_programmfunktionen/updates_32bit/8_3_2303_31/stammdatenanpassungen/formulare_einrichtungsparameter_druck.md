@@ -4,7 +4,7 @@
 
 In der Einrichtung der Formulare [FRM] wurden folgende Parameter überarbeitet bzw. neu eingeführt: Randtreue Anzeige Druckbereich Druck-Größe (in Prozent) Drucker, die einen gewissen Randbereich auf Papier nicht bedrucken können, werden besser unterstützt, so das es seltener vorkommt, dass Text abgeschnitten wird beim Druck. Im Archiv ist der Text niemals abgeschnitten. Drucker, die wie PDF drucken, erzeugen Dokumente mit schmalen Rand rechts, damit ein optisch besserer Eindruck entsteht.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 715707[33408]
 

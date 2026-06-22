@@ -13,7 +13,7 @@ In dieser Variante werden folgende Datentypen angezeigt:
 | Belegklasse 8040 | Dies ist das exportierte Xml. |
 | Belegklasse 8041 | Das ist die HTML-Visualisierung des exportierten Xml |
 | Belegklasse 8042 | Der eRechnungsexport ist fehlerhaft. |
-| Belegklasse 8049 | Das ist der eRechnungsexport mit ZUGFerD (ab Herbstversion 2025) |
+| Belegklasse 8049 | Das ist der eRechnungsexport mit ZUGFerD (***ab Herbstversion 2025***) |
 
 | Belegklassen Import |
 | --- |

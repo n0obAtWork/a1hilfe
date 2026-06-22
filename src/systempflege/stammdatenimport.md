@@ -27,18 +27,18 @@ Mit dieser Anwendung können Importe für Kunde, Artikel und Artikelpreise durch
 
 | Funktionen | Bedeutung |
 | --- | --- |
-| Ändern (F5), Ansicht (F6), Neu (F7), Löschen (F8) | Ruft den Pfleger auf  
+| Ändern **(F5)**, Ansicht **(F6)**, Neu **(F7)**, Löschen **(F8)** | Ruft den Pfleger auf  
  |
-| Ausführen (F9) | Führt den Import aus  
+| Ausführen **(F9)** | Führt den Import aus  
  |
 
 </details>
 
  
 
-Neuanlage eines Imports
+<p class="just-emphasize">Neuanlage eines Imports</p>
 
-Mit Neu oder F8 kann ein neuer Import angelegt werden.
+Mit ***Neu*** oder **F8** kann ein neuer Import angelegt werden.
 
 Es gibt drei Arten des Imports
 
@@ -65,7 +65,7 @@ Es gibt drei Arten des Imports
 | Importdatei löschen | Soll die Importdatei nach dem erfolgreichen Import gelöscht werden.  
  |
 
-Endkontrolle für den Stammdatenimport
+<p class="just-emphasize">Endkontrolle für den Stammdatenimport</p>
 
 Hauptmenü > Externe Kommunikation > Stammdatenimport > Endkontrolle/Einspielung Artikel
 

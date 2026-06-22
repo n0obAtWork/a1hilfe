@@ -4,7 +4,7 @@
 
 Wenn in der Online-Waage ein Artikel per Vermehrungsvertrag bestimmt und gesucht wurde, so wurde bislang das Löschkennzeichen des Artikelstamm nicht berücksichtigt. Dies Verhalten ist nun abgeändert worden. Des Weiteren ist die Itembox IB_KU_Vertrag_Nu um die ArtikelId und Anerkid in der Returnliste erweitert worden.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 739549[36878]
 

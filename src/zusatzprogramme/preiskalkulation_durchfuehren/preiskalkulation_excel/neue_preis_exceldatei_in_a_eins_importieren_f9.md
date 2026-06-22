@@ -2,9 +2,9 @@
 
 <!-- source: https://amic.de/hilfe/_PreiskalkulationExcelPreiskalkulation.htm -->
 
-Hauptmenü > Preise / Konditionen > Preiskalkulation tabellarisch > Preiskalkulation Excel > Funktion Preiskalkulation Einkauf/Verkauf
+Hauptmenü > Preise / Konditionen > Preiskalkulation tabellarisch > Preiskalkulation Excel > Funktion ***Preiskalkulation Einkauf/Verkauf***
 
-Direktsprung **[PKX]**. > Funktion Preiskalkulation Einkauf/Verkauf
+Direktsprung **[PKX]**. > Funktion ***Preiskalkulation Einkauf/Verkauf***
 
 ![Ein Bild, das Text, Screenshot, Software, Computersymbol enthält. Automatisch generierte Beschreibung](../../../ImagesExt/image8_1216.png "Ein Bild, das Text, Screenshot, Software, Computersymbol enthält. Automatisch generierte Beschreibung")
 
@@ -14,7 +14,7 @@ Um die neue Preis-Exceldatei zu importieren, wie folgt vorgehen:
 
 2. Klicken Sie auf ***Preiskalkulation Verkauf bzw. Einkauf*** oder drücken Sie **F9**.
 
-3. Die Auswahlliste Preiskalkulation Dateiauswahl öffnet sich.
+3. Die Auswahlliste ***Preiskalkulation*** ***Dateiauswahl*** öffnet sich.
 
 4. Wählen Sie die Datei aus, die importiert werden soll.
 

@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_profil_verwaltung.htm -->
 
-Direktsprung [EMAIL]
+Direktsprung **[EMAIL]**
 
 <details>
 <summary>Felder der Profil Verwaltung</summary>
@@ -33,7 +33,7 @@ Direktsprung [EMAIL]
 
 | Funktion | Beschreibung |
 | --- | --- |
-| Ändern (F5), Ansehen (F6), Löschen (F7), Neu (F8) | Ruft den [Pfleger](./profil_verwaltung_pfleger.md) der Profil Verwaltung auf |
+| Ändern **(F5)**, Ansehen **(F6)**, Löschen **(F7)**, Neu **(F8)** | Ruft den [Pfleger](./profil_verwaltung_pfleger.md) der Profil Verwaltung auf |
 
 </details>
 

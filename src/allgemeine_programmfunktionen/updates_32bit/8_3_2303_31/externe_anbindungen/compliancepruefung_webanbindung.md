@@ -4,7 +4,7 @@
 
 Das von uns ausgelieferte Modul "Sanktionsliste" wurde ergänzt, da die Complianceprüfung ab dem 01.02.2023 ein anderes Sicherheitsprotokoll erwartet.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 720381[33486]
 

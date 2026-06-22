@@ -4,7 +4,7 @@
 
 Das Fälligkeitsdatum des Rechnungsbetrages wird nun korrekt aus dem Vorgang (V_DatumValuta) belegt. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 742113[36084]
 

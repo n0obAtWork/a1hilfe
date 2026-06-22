@@ -111,7 +111,7 @@ Fall 2 ( Bemerkid im Mahntext (Mahnstamm) ist nicht 0 )
 | --- | --- | --- | --- |
 | Text | Normal | 3 | Der Text wird aus den Bemerkungstexten entsprechend der BemerkungsId genommen und zwar pro eingetragenen Mahntext. |
 
-Bei der Einrichtung der Mahntexte (Direktsprung [FIMAT]) können die Daten, die beim Mahndruck als Zahlungsdatum bzw. als Zahlungsfrist eingegeben werden, mit ausgegeben werden. Diese Werte können mit in den Mahntext eingebaut werden. Dabei ist zu beachten, dass folgende Variablen mit Doppelpunkt vor dem Wort in den Text eingebaut werden:
+Bei der Einrichtung der Mahntexte (Direktsprung **[FIMAT]**) können die Daten, die beim Mahndruck als Zahlungsdatum bzw. als Zahlungsfrist eingegeben werden, mit ausgegeben werden. Diese Werte können mit in den Mahntext eingebaut werden. Dabei ist zu beachten, dass folgende Variablen mit Doppelpunkt vor dem Wort in den Text eingebaut werden:
 
 Zahldatum$
 

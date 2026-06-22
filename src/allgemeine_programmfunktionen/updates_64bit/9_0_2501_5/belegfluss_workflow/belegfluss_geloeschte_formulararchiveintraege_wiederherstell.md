@@ -4,7 +4,7 @@
 
 In der Anwendung Belegfluss [BF] werden gelöschte Archiveinträge in der Auswahlliste mit roter ID dargestellt. Die Inhalte lassen sich dann nur anzeigen, aber nicht bearbeiten. Mit der neuen Funktion "Löschen rückgängig" können diese Einträge wiederhergestellt werden. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 746665[36959]
 

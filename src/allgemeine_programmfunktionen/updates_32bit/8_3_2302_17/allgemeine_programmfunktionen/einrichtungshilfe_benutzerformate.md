@@ -4,7 +4,7 @@
 
 Die Einrichtungshilfe wurde um Benutzerformate erweitert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 718949[33413]
 

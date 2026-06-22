@@ -4,7 +4,7 @@
 
 Beim Importieren neuer Kunden/Lieferanten/Kontokorrentkunden über die Anwendung "Endkontrolle/Einspielung Kunden" wurde beim Musterkundenabgleich dessen Bemerkungs-Id übernommen. Somit hatten alle Kunden, die gleiche Bemerkung und es konnten keine eigenen Bemerkung für einen einzelnen Kunden gepflegt werden.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 713518[32844]
 

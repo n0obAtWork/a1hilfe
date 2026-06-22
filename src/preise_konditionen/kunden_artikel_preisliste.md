@@ -4,7 +4,7 @@
 
 Hauptmenü > Preise/Konditionen > Preise > Preisliste EK/VK
 
-Oder Direktsprung [PL]
+Oder Direktsprung **[PL]**
 
 In der Auswahlliste für Preisliste EK/VK gibt es eine Variante Kunden-Artikel Preisliste.  
 In dieser kann man sich für einen oder mehrere Kunden und einen oder mehrere Artikel den jeweiligen aktuellen Preis für den per Datum angegebenen Tag anzeigen lassen. Im Auswahlbereich können die Artikelnummer, Lagernummer und Kundennummer sowie das Tagesdatum festgelegt werden. Aus Performancegründen sind in der Standardeinstellung die Kundennummer mit 10000 und die Artikelnummer mit 100 vorbelegt. Die Angabe des Tagesdatums kann auch relativ, zum Beispiel durch die Eingabe von ‚heute‘ oder ‚heute+1‘ etc., erfolgen. Die Daten werden nach Kundennummer, Artikelnummer, Lagernummer und, falls vorhanden, Kontraktnummer sortiert angezeigt.  

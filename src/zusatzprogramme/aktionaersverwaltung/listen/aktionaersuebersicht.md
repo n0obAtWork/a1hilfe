@@ -6,24 +6,24 @@ In der Aktionärsübersicht wird eine Übersicht über alle Aktionäre angezeigt
 
 ![](../../../ImagesExt/image8_1001.jpg)
 
-Über Bereich/Profile kann nach folgenden Kriterien eingeschränkt werden: Name, Vorname, Aktionärsnummer (von, bis), Geburtsdatum (von, bis), Straße (von, bis), Postleitzahl (von, bis), Ort, Vertreter, Status von, Status bis, Aktienanzahl (von, bis), Eintrittsdatum (von, bis), Austrittsdatum (von, bis) und Wirtschaftsjahr.
+Über ***Bereich/Profile*** kann nach folgenden Kriterien eingeschränkt werden: Name, Vorname, Aktionärsnummer (von, bis), Geburtsdatum (von, bis), Straße (von, bis), Postleitzahl (von, bis), Ort, Vertreter, Status von, Status bis, Aktienanzahl (von, bis), Eintrittsdatum (von, bis), Austrittsdatum (von, bis) und Wirtschaftsjahr.
 
 Das Datum, das bei der Berechnung des Bestandes zugrunde liegt ist entweder das Tagesdatum oder falls unter „Bereich/Profile“ ein Wirtschaftsjahr angegeben wird das Enddatum dieses Wirtschaftsjahres. Zur Berechnung des Nominalwertes und des Wertes werden die Unternehmensdaten, die an diesem Datum gelten verwendet.
 
 Dem Benutzer stehen hier folgende Funktionen zur Verfügung:
 
-• (Aktionär) Neu [siehe Aktionäre verwalten]
+• (Aktionär) ***Neu*** [siehe Aktionäre verwalten]
 
-• (Aktionär) Ändern [siehe Aktionäre verwalten]
+• (Aktionär) ***Ändern*** [siehe Aktionäre verwalten]
 
-• (Aktionär) Ansehen [siehe Aktionäre verwalten]
+• (Aktionär) ***Ansehen*** [siehe Aktionäre verwalten]
 
-• (Aktionär) Löschen [siehe Aktionäre verwalten]
+• (Aktionär) ***Löschen*** [siehe Aktionäre verwalten]
 
-• Historische Tabelle [siehe Aktientransaktionen / Die Historische Tabelle]
+• ***Historische Tabelle*** [siehe Aktientransaktionen / Die Historische Tabelle]
 
 • ***Anteile***
 
 • ***Kundenbescheinigung***
 
-• Unternehmen verwalten [siehe Die Unternehmensdaten einrichten/verwalten]
+• ***Unternehmen verwalten*** [siehe Die Unternehmensdaten einrichten/verwalten]

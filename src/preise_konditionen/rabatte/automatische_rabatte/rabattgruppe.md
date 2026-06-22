@@ -4,7 +4,7 @@
 
 Preise / Konditionen > Rabatte > Rabattgruppe
 
-Oder Direktsprung [RAG]
+Oder Direktsprung **[RAG]**
 
 Artikel können eine Rabattgruppe und/oder eine individuelle Rabattgruppe sowohl im Einkauf als auch im Verkauf zugeordnet bekommen. Diese beschreibt jeweils die Zugehörigkeit zu einer Gruppe von Artikeln, die alle für Kunden und Lieferanten mit einer dort zugeordneten Rabattklasse beziehungsweise individuellen Rabattklasse einen Rabatt (einfach oder gestaffelt) bekommen.
 

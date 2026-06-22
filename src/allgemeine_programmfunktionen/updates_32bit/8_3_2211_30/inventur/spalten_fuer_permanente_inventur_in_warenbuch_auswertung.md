@@ -4,7 +4,7 @@
 
 Bei [WBAD] in der Variante ¨Warenbuchdetails für Artikel¨ und in der Variante ¨Warenbuchauswertung¨ in [WBA] sind jeweils Spalten für Inventurmengen Plus und Minus für Mengen und Werte eingetragen worden, die nur bei permanenten Inventur allgemein sichtbar und nur bei PIV-Belegen gefüllt werden. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 716520[33099]
 

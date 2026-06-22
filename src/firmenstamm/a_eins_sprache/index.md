@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Werkzeuge > Fremdsprache pflegen
 
-Direktsprung [SPRA]
+Direktsprung **[SPRA]**
 
 In A.eins existieren verschiedene Sichten der Sprachdarstellung.
 
@@ -40,9 +40,9 @@ Bisher kann für die Sprachen Englisch, Dänisch, Niederländisch und Französis
 
 Um A.eins in einer anderen Sprache als Deutsch darzustellen sind zwei Einstellungen notwendig.
 
-• Der Steuerparameter (Direktsprung [SPA]) „**Mehrsprachigkeit aktiv**“ muss auf **Ja** stehen.
+• Der Steuerparameter (Direktsprung **[SPA]**) „**Mehrsprachigkeit aktiv**“ muss auf **Ja** stehen.
 
-• Im [Bedienerstamm](../firmenkonstanten/bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/index.md) (Direktsprung **[BD]**) muss die Sprache, in der A.eins ausgeführt werden soll, für den einzelnen Bediener hinterlegt werden.  
+• Im [Bedienerstamm](../firmenkonstanten/bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/index.md) (Direktsprung ****[BD]****) muss die Sprache, in der A.eins ausgeführt werden soll, für den einzelnen Bediener hinterlegt werden.  
 ![](../../ImagesExt/image8_42.png)  
     
 

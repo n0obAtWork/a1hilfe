@@ -42,7 +42,7 @@ Karteikarten: Wie Etiketten, nur dass nach jeder Karteikartei ein Seitenwechsel 
 Listen: Es stehen Variablen für den Kopf und Fußbereich und Felder für die Tabelle zur Verfügung.  
     
 
-Register Allgemein
+<p class="just-emphasize">Register Allgemein</p>
 
 | Feld | Bedeutung |
 | --- | --- |
@@ -81,10 +81,10 @@ Beispiel:
 Dieses Kennzeichen wird nur bei privaten Reporten exportiert.  
  |
 | Druckerprofile  
- | Hier können Druckereinstellungen vorgenommen werden, die gespeichert werden und später über den Kommandozeilenparameter [PrinterProfil](./kommandozeile.md) oder über den dritten Parameter des [Controlstrings](./index.md#Controlstring) wieder verwendet werden können. Dabei ist das **Profil** die eindeutige Bezeichnung. Neben der **Beschreibung**, der Druckereinstellung F11 können hier auch noch die Anzahl der Kopien für den Druck festgelegt werden. Ist hier eine Zahl ungleich 0 angegeben, so erscheint dann diese Zahl als Vorschlag im Druckabfragefenster. Sie übersteuert dann ggf. die über [LILAANZAHLKOPIEN](./spezialfelder.md#LILAANZAHLKOPIEN) bzw. [LILAANZAHLVARKOPIEN](./spezialfelder.md#LILAANZAHLVARKOPIEN) angegebenen Werte.  
+ | Hier können Druckereinstellungen vorgenommen werden, die gespeichert werden und später über den Kommandozeilenparameter [PrinterProfil](./kommandozeile.md) oder über den dritten Parameter des [Controlstrings](./index.md#Controlstring) wieder verwendet werden können. Dabei ist das **Profil** die eindeutige Bezeichnung. Neben der **Beschreibung**, der ***Druckereinstellung*** **F11** können hier auch noch die Anzahl der Kopien für den Druck festgelegt werden. Ist hier eine Zahl ungleich 0 angegeben, so erscheint dann diese Zahl als Vorschlag im Druckabfragefenster. Sie übersteuert dann ggf. die über [LILAANZAHLKOPIEN](./spezialfelder.md#LILAANZAHLKOPIEN) bzw. [LILAANZAHLVARKOPIEN](./spezialfelder.md#LILAANZAHLVARKOPIEN) angegebenen Werte.  
  |
 
-Register Archiv
+<p class="just-emphasize">Register Archiv</p>
 
 Die hier vorzunehmenden Einstellungen dienen dazu, einen fortlaufenden Druck in Portionen zu unterteilen oder zusätzliche Informationen an das Archiv zu übergeben. Man kann so dem Archivsystem die zu archivierenden Dokumente so übergeben, dass dort auch Kontonummer, Belegnummer, Belegdatum, Belegreferenz und weitere Informationsfelder übergeben und als Suchkriterien verwendet werden können.
 

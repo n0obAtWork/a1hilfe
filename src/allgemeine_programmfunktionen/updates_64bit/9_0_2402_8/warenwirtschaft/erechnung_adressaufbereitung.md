@@ -4,7 +4,7 @@
 
 Die Reihenfolge von Angaben in eRechnungs-Anschriften wurde optimiert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 742981[36222]
 

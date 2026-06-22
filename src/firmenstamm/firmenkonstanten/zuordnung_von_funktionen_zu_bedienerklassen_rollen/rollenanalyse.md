@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Firmenkonstanten > Zugriffsrechte Reorganisation
 
-oder Direktsprung [ROREO]
+oder Direktsprung **[ROREO]**
 
 Es kann eventuell vorkommen, dass sich Rollen in den Tabellen Rollenklasse bzw. Rollenkontext befinden, zu denen es kein Stamm-Eintrag in der Relation Rollenstamm gibt. Diese Vorkommen werden hier als Probleme aufgelistet, und können hier auch aufgelöst werden.
 

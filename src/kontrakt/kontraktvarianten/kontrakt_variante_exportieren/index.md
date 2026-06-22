@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/kontraktvarianteexportieren.htm -->
 
-Wird in der Auswahlliste der Kontraktvarianten die Funktion Kontrakt-Varianten Exportieren aufgerufen, erscheint die Maske zum Export der Variante als SQL-Text.
+Wird in der Auswahlliste der Kontraktvarianten die Funktion ***Kontrakt-Varianten Exportieren*** aufgerufen, erscheint die Maske zum Export der Variante als SQL-Text.
 
 Es kann der Dateipfad angegeben werden.
 

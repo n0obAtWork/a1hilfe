@@ -2,17 +2,17 @@
 
 <!-- source: https://amic.de/hilfe/rechnungsausgangsbuchrab.htm -->
 
-Im Rechnungsausgangsbuch [RBUA] können die gedruckten Verkaufsvorgänge (Rechnungen, Storno Rechnungen, Gutschriften, Storno Gutschriften) – nach Geschäftsjahr getrennt – abgelegt werden. Somit erhalten Sie eine Übersicht über die an Ihre Kunden geschickten Belege. Es können nur gedruckte Vorgänge ins RAB übernommen werden. Im RAB abgelegte Vorgänge stehen der Vorgangsbearbeitung nicht mehr zur Verfügung.
+Im Rechnungsausgangsbuch **[RBUA]** können die gedruckten Verkaufsvorgänge (Rechnungen, Storno Rechnungen, Gutschriften, Storno Gutschriften) – nach Geschäftsjahr getrennt – abgelegt werden. Somit erhalten Sie eine Übersicht über die an Ihre Kunden geschickten Belege. Es können nur gedruckte Vorgänge ins RAB übernommen werden. Im RAB abgelegte Vorgänge stehen der Vorgangsbearbeitung nicht mehr zur Verfügung.
 
-Das RAB besteht aus fortlaufend durchnummerierten Drucklisten (s. Nummernkreis). Eine RAB-Liste wird über die Funktion Erstdruck RAB erzeugt. Es erscheint ein Auswahlmenü mit weitgehenden Selektions-, Sortier- und Gruppierungsfunktionen. So ist z.B. denkbar, dass für jeden Monat eine RAB- Liste gedruckt wird.
+Das RAB besteht aus fortlaufend durchnummerierten Drucklisten (s. Nummernkreis). Eine RAB-Liste wird über die Funktion ***Erstdruck RAB*** erzeugt. Es erscheint ein Auswahlmenü mit weitgehenden Selektions-, Sortier- und Gruppierungsfunktionen. So ist z.B. denkbar, dass für jeden Monat eine RAB- Liste gedruckt wird.
 
 Nach dem Erstdruck erscheint die RAB-Liste in der Auswahlliste Rechnungsausgangsbuch. Dort sind wichtige Grunddaten des Listeninhalts, wie z.B. Anzahl der enthaltenen Belege, jüngstes/ältestes Belegdatum, sowie Umsatzwerte (Summe).
 
-Funktionen
+<p class="just-emphasize">Funktionen</p>
 
 Nummernkreis setzen
 
-Vor Eröffnung des Rechnungsausgangsbuches sollte unter NUK ein eigener Nummernkreis eingerichtet werden. Der Nummernkreis kann unter Nummernkreis setzten F8 per F3 ausgewählt werden. Die nächste Nummer lässt sich hier setzen, sowie Text und Ober-/Untergrenze.
+Vor Eröffnung des Rechnungsausgangsbuches sollte unter NUK ein eigener Nummernkreis eingerichtet werden. Der Nummernkreis kann unter ***Nummernkreis setzten*** **F8** per **F3** ausgewählt werden. Die nächste Nummer lässt sich hier setzen, sowie Text und Ober-/Untergrenze.
 
 ACHTUNG! Wird die nächste Nummer geändert, wenn schon RAB-Listen erstellt wurden, werden u.U. die vorhandenen Listennummern automatisch angepasst!
 
@@ -32,7 +32,7 @@ Während der Erstellung stehen ALLE Belege des Selektionsbereiches der Vorgangsb
 
 Alle im RAB befindlichen Belege sind ebenfalls von weiterer Vorgangsbearbeitung ausgeschlossen.
 
-Beschreibung der Auswahlmaske und Selektionskriterien
+<p class="just-emphasize">Beschreibung der Auswahlmaske und Selektionskriterien</p>
 
 Tabelle 1
 
@@ -89,11 +89,11 @@ Anklicken einer RAB Liste der Auswahlliste. Die Liste erscheint auf dem Bildschi
 
 Sie ist eine Kopie des Erstdrucks. Ein Zähler in der Liste weist die Anzahl der Ausdrucke auf. Die Liste wird deutlich als Kopiedruck mit der Listennummer und der Drucknummer des Kopienzählers ausgewiesen.
 
-Kopie (Drucker)
+<p class="just-emphasize">Kopie (Drucker)</p>
 
 Wie oben; jedoch direkt auf den Standard-Drucker.
 
-Kopie mit Auswahl
+<p class="just-emphasize">Kopie mit Auswahl</p>
 
 Die gewählte RAB-Liste kann vor dem Ausdruck in ihren Selektionskriterien noch verändert werden.
 

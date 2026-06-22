@@ -28,7 +28,7 @@ Die gewogene Menge wird vom Auftrag abgebucht. Der Auftrag kann nach der Vorgang
 
 Bei einer Vorgangskopie wird die durch den Einrichterparameter eingestellte IB auf dem Feld Kunde aktiv. Diese sollte eine V_Id z. B. für einen Auftrag zurückliefern, damit klar ist, aus welchem Vorgang eine Vorgangskopie erstellt werden soll. Wählt man z.B. einen Auftrag aus, dann werden u.a. Artikelnummer und Versandart aus dem Auftrag übernommen und die Felder auf der Maske deaktiviert.
 
-Verwendet man die F3\-Auswahl auf dem Feld Kunde nicht, sondern gibt manuell eine Kundennummer und einen Artikel an (und wählt somit keinen Auftrag aus), dann wird keine Vorgangskopie erzeugt, sondern die normale Vorgangserzeugung angestoßen.
+Verwendet man die **F3**\-Auswahl auf dem Feld Kunde nicht, sondern gibt manuell eine Kundennummer und einen Artikel an (und wählt somit keinen Auftrag aus), dann wird keine Vorgangskopie erzeugt, sondern die normale Vorgangserzeugung angestoßen.
 
 Folgende Dinge sind noch zu beachten:
 

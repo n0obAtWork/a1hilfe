@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Konstanten Artikelstamm > Sekundärschlüssel Gruppe
 
-oder Direktsprung [SEKK]
+oder Direktsprung **[SEKK]**
 
 Die Standard-Artikelsekundärschlüssel sind *Matchcode(s)*, *EAN-Nummer(n), Verpackungs-EAN-Nummer(n)* und für die [Streckenerfassung](../../zusatzprogramme/streckenerfassung/index.md) bedeutungsvolle(n) *Referenzartikel*.
 

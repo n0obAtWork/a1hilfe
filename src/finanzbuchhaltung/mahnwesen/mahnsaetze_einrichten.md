@@ -16,7 +16,7 @@ Der Text der Mahnstufe lässt sich ändern, indem man auf das Feld klickt oder m
 
 Die linke Spalte mit den [Mahngruppen](./mahngruppen.md) funktioniert analog. Man gelang also direkt von der Kreuztabelle in den Stammdatenpfleger.
 
-Wenn man nun in die Kreuztabelle klickt oder mit ENTER ein Feld auswählt, erscheint ein Pfleger, der sowohl den Mahnstamm als auch den Mahnsatz beinhaltet. Es wir dort immer der aktive Datensatz, also der mit dem größten "**Ab Datum**", angezeigt. Will man ab einem bestimmten Datum einen neuen Mahnsatz einrichten, so erreicht man dies über "***Neuer Satz*** **F8**". Die [Texte](./mahntexte.md) für diese Kombination lassen sich über "Texte **F5**" erfassen.
+Wenn man nun in die Kreuztabelle klickt oder mit ENTER ein Feld auswählt, erscheint ein Pfleger, der sowohl den Mahnstamm als auch den Mahnsatz beinhaltet. Es wir dort immer der aktive Datensatz, also der mit dem größten "**Ab Datum**", angezeigt. Will man ab einem bestimmten Datum einen neuen Mahnsatz einrichten, so erreicht man dies über "***Neuer Satz*** **F8**". Die [Texte](./mahntexte.md) für diese Kombination lassen sich über "***Texte*** **F5**" erfassen.
 
 ![Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_630.jpg "Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung")
 

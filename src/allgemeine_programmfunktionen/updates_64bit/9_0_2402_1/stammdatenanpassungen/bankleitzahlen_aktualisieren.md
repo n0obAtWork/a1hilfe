@@ -4,7 +4,7 @@
 
 Für die Funktion Banken aktualisieren stehen die Daten der Deutschen Bundesbank gültig vom 03.06.2024 bis 08.09.2024 zur Verfügung. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 733825[35218]
 

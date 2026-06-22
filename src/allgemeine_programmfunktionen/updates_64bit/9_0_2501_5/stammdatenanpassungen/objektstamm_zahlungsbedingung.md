@@ -4,7 +4,7 @@
 
 Der Pfleger "Objektstamm" [BAU]/[OBJ] hatte die hinterlegte Zahlungsbedingung immer wieder mit der Zahlungsbedingung des hinterlegten Kunden überschrieben. Das Verhalten wurde korrigiert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 745693[36691]
 

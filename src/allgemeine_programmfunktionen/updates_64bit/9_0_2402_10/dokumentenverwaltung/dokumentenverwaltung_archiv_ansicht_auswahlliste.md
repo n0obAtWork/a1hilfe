@@ -4,7 +4,7 @@
 
 Im Rahmen der einrichtbaren Archiv-Vorschau in Auswahllisten kam es bei Aufruf von z.B. Vorgangs-Pflegern dazu das der Splitter rückgesetzt wurde. Das Verhalten ist geändert, der Splitter bleibt nun erwartungsgemäß bestehen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 740504[36246]
 

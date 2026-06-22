@@ -4,7 +4,7 @@
 
 Hauptmenü > Wareneinkauf > Nachhaltigkeit > Bewegungsübersicht > Variante Massebilanzbewegungen
 
-Direktsprung [NAART]
+Direktsprung **[NAART]**
 
 Diese Variante zeigt eine schnelle Ansicht der Massebilanzen und den zugeordneten Bewegungen.
 

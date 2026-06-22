@@ -4,7 +4,7 @@
 
 Es wurde ein vereinfachtes Verfahren bereitgestellt, um Rücklastenschriften bei Nichteinlösung einer Zahlung von der Bank zu erstellen. Dazu ruft man den Zahlungsbeleg in der Einzelbeleganzeige in der Anwendung Kontoinformationen [KOI] auf, markiert die betreffende Position und führt für die Funktion Rücklastschrift aus.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 723015[33741]
 

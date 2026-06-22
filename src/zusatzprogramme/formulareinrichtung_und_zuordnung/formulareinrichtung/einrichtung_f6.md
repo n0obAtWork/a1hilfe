@@ -21,7 +21,7 @@ Bei gedruckten Formularen kann man die Positionen der Felder millimetergenau aus
 
 Bei Bildschirminformationen können diese Werte auf 0 gelassen werden, dann werden die Felder in einem Textblock dargestellt. Wenn aber kein Feld existiert, bei dem beide Werte 0 sind, werden die Felder durch einzelne Textfelder (ähnlich den Userfeldern) dargestellt.
 
-Um die Einrichtung der Position der Bildschirminfofelder zu vereinfachen, gibt es die Funktion Spalte mm / Zeile mm generieren. Hier können die Position der linken, oberen Ecke und der Zeilenabstand eingegeben werden. Aus diesen Werten und den Spalten- und Zeilenangaben der Felder wird dann die ungefähre Millimeter-Position berechnet.
+Um die Einrichtung der Position der Bildschirminfofelder zu vereinfachen, gibt es die Funktion ***Spalte mm / Zeile mm generieren***. Hier können die Position der linken, oberen Ecke und der Zeilenabstand eingegeben werden. Aus diesen Werten und den Spalten- und Zeilenangaben der Felder wird dann die ungefähre Millimeter-Position berechnet.
 
 Spalte Text
 

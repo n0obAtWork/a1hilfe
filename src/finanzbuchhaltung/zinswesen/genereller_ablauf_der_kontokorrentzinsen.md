@@ -72,7 +72,7 @@ Diese Option wird nur ausgewertet, wenn „Version zurückstellen“ auf „Nein
 Gelöschte Personenkonten werden ab Version 7.2-März nicht mehr zur Zinsabrechnung herangezogen. Sollte dieses Verhalten nicht gewünscht sein, so kann man mit diesem Einrichterparameter dafür sorgen, dass auch wieder für bereits als gelöscht markierte Personenkonten Zinsabrechnungen erstellt werden.  
     
 
-Mit F9 wird die Errechnung der Zinsen gestartet. Im Feld „aktuelles Konto“ kann man erkennen, welches Konto zurzeit in Bearbeitung ist. Bei jedem Lauf wird die Listennummer automatisch um 1 höhergezählt. Ist der Zinslauf durchgeführt worden, ist es möglich, dass ein Fenster mit Fehlermeldungen erscheint. Diese Meldungen können sein:  
+Mit **F9** wird die Errechnung der Zinsen gestartet. Im Feld „aktuelles Konto“ kann man erkennen, welches Konto zurzeit in Bearbeitung ist. Bei jedem Lauf wird die Listennummer automatisch um 1 höhergezählt. Ist der Zinslauf durchgeführt worden, ist es möglich, dass ein Fenster mit Fehlermeldungen erscheint. Diese Meldungen können sein:  
     
 
 • Zinsgruppe ???? ungültig für Konto ????  
@@ -114,11 +114,11 @@ Direktsprung **[ZIB]**
 
 Dies ist der zentrale Punkt zum Bearbeiten der Zinsvorschläge bzw. der Zinsabrechnungen. Es stehen hier diverse Funktionen zum Bearbeiten der Zinsen zur Verfügung. Es ist zu beachten, dass es jeweils nur sinnvoll ist, die jeweils letzte Abrechnung eines Kontos zu bearbeiten, da der Abschlusssaldo der Zinsabrechnungen als Eröffnungssaldo für die folgenden Abrechnungen verwendet wird.
 
-• Vorschläge erstellen.  
+• ***Vorschläge erstellen***.  
 Auch hier können die Zinsvorschläge erstellt werden. [Siehe oben](./genereller_ablauf_der_kontokorrentzinsen.md#ZInsvroschlaegeerstellen).  
     
 
-• Übernahme in die Primanota.  
+• ***Übernahme in die Primanota***.  
 Hier werden für die errechneten Zinsen Belege erstellt. Wie die Belege im Endeffekt aussehen hängt von den Einstellungen in den Stammdaten ab (s.o.). Es entstehen Ausgangsrechnungen für Sollzinsen und Ausgangsgutschriften für Habenzinsen. Für Zinsbeträge, die unterhalb der Bagatellzinsen liegen werden keine Belege erstellt. In den Varianten „Ungebuchte Abrechnungen“, „Ungedruckte Abrechnungen“ und „Zinsabrechnungen“ werden die Zinsen, die unter die Bagatellgrenze fallen, gelb eingefärbt.  
     
 ![Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_699.jpg "Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung")
@@ -149,8 +149,8 @@ Hier werden für die errechneten Zinsen Belege erstellt. Wie die Belege im Endef
 Neben diesen Einstellungen existiert auch noch ein Einrichterparameter „Beleg darf nicht geändert werden?“. Hier kann man für die entstehenden Belege eine Bearbeitungssperre setzen, so dass man diese später in der Primanota nicht mehr – oder nur eingeschränkt – ändern kann. Diese Sperre kann später in der [Einzelbeleganzeige](../op_verwaltung/einzelbeleganzeige.md) wieder gelöscht werden.  
     
 
-• Buchung stornieren  
-Gelegentlich kann es vorkommen, dass Zinsabrechnungen erneut erstellt werden sollen, da z.B. einige Belege noch nicht erfasst worden waren. Sind die Zinsen jedoch bereits gebucht gewesen, lässt sich die Zinsabrechnung nicht wieder zurücksetzen, man erhält die Meldung: „**Konto/Liste nnnn/nnnn nicht zurückgesetzt, da Zinsen bereits gebucht wurden!**“. Damit dies jedoch möglich wird, gibt es die Funktion „Buchung stornieren“. Es wird zu dem Zinsbeleg ein Stornobeleg erstellt, der auch automatisch mit dem Zinsbeleg ausgeziffert wird. Die ausgewählte Zinsabrechnung bekommt anschließend den Status „nicht gebucht“ und kann dann zurückgesetzt werden.  
+• ***Buchung stornieren***  
+Gelegentlich kann es vorkommen, dass Zinsabrechnungen erneut erstellt werden sollen, da z.B. einige Belege noch nicht erfasst worden waren. Sind die Zinsen jedoch bereits gebucht gewesen, lässt sich die Zinsabrechnung nicht wieder zurücksetzen, man erhält die Meldung: „**Konto/Liste nnnn/nnnn nicht zurückgesetzt, da Zinsen bereits gebucht wurden!**“. Damit dies jedoch möglich wird, gibt es die Funktion „***Buchung stornieren***“. Es wird zu dem Zinsbeleg ein Stornobeleg erstellt, der auch automatisch mit dem Zinsbeleg ausgeziffert wird. Die ausgewählte Zinsabrechnung bekommt anschließend den Status „nicht gebucht“ und kann dann zurückgesetzt werden.  
     
 ![Ein Bild, das Text, Screenshot, Display, Software enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_700.png "Ein Bild, das Text, Screenshot, Display, Software enthält. Automatisch generierte Beschreibung")  
     
@@ -166,8 +166,8 @@ Gelegentlich kann es vorkommen, dass Zinsabrechnungen erneut erstellt werden sol
     
  |
 
-• Löschen bzw. zurücksetzen  
-Zinsvorschläge bzw. Zinsabrechnungen können gelöscht und/oder zurückgesetzt werden. Es ist dabei streng darauf zu achten, was man erreichen möchte. In beiden Fällen wird die Zinsliste gelöscht, aber nur in dem Fall „Zurücksetzen“ werden die in der Zinsliste verarbeiteten Belege wieder freigegeben, um erneut verarbeitet werden zu können. Bereits verbuchte Belege können nicht zurückgesetzt werden (siehe Zinsbuchung stornieren). Es erscheint beim Menüpunkt „Löschen“ folgende Sicherheitsabfrage.  
+• ***Löschen bzw. zurücksetzen  
+***Zinsvorschläge bzw. Zinsabrechnungen können gelöscht und/oder zurückgesetzt werden. Es ist dabei streng darauf zu achten, was man erreichen möchte. In beiden Fällen wird die Zinsliste gelöscht, aber nur in dem Fall „Zurücksetzen“ werden die in der Zinsliste verarbeiteten Belege wieder freigegeben, um erneut verarbeitet werden zu können. Bereits verbuchte Belege können nicht zurückgesetzt werden (siehe Zinsbuchung stornieren). Es erscheint beim Menüpunkt „Löschen“ folgende Sicherheitsabfrage.  
     
 ![Ein Bild, das Text, Elektronik, Screenshot, Display enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_701.png "Ein Bild, das Text, Elektronik, Screenshot, Display enthält. Automatisch generierte Beschreibung")  
 **  
@@ -176,8 +176,8 @@ Achtung:**
     
 *
 
-• Wiederherstellen  
-Sollte es vorgekommen sein, dass man Zinsabrechnungen gelöscht hat, anstatt sie zurückzusetzen, gibt es hier den Punkt „Wiederherstellen“. Er stellt die Zinsabrechnung nicht wieder her, sondern setzt die betroffenen Belege auf den Status „nicht verzinst“, so dass sie bei der nächsten Zinsabrechnung wieder herangezogen werden. Es ist dann so, als ob man gleich „Zurücksetzen“ gewählt hätte.  
+• ***Wiederherstellen  
+***Sollte es vorgekommen sein, dass man Zinsabrechnungen gelöscht hat, anstatt sie zurückzusetzen, gibt es hier den Punkt „***Wiederherstellen***“. Er stellt die Zinsabrechnung nicht wieder her, sondern setzt die betroffenen Belege auf den Status „nicht verzinst“, so dass sie bei der nächsten Zinsabrechnung wieder herangezogen werden. Es ist dann so, als ob man gleich „***Zurücksetzen***“ gewählt hätte.  
 Man kann den Status ganzer Zinslisten bzw. den eines einzelnen Kontos ändern. Es erscheint dazu ein Bildschirm, in dem eine Kontonummer abgefragt wird. Wird keine Kontonummer angegeben, erscheint folgende Abfrage:
 
     
@@ -186,7 +186,7 @@ Man kann den Status ganzer Zinslisten bzw. den eines einzelnen Kontos ändern. E
 Wird diese Abfrage mit **Ja** beantwortet, so wird die letzte gelöschte Zinsliste vom Status gelöscht auf den Status zurückgesetzt geändert.  
     
 
-• Anzeige  
+• ***Anzeige***  
 Die Einzelpositionen der Zinsabrechnung des Kontos werden angezeigt.  
     
 ![Ein Bild, das Text, Screenshot, Display, Software enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_703.jpg "Ein Bild, das Text, Screenshot, Display, Software enthält. Automatisch generierte Beschreibung")  
@@ -194,7 +194,7 @@ Die Einzelpositionen der Zinsabrechnung des Kontos werden angezeigt.
 Übertrag, Abschluss, Änderung des Zinssatzes sowie manuelle Änderung des Zinssaldos im Abrechnungszeitraum werden in separate Zeilen angezeigt.  
     
 
-• Kalkulatorisch  
+• ***Kalkulatorisch***  
 Mit diesem Programmteil können kalkulatorische Zinsen am Bildschirm ermittelt werden, die seit der letzten Zinsabrechnung bis zu einem bestimmten Datum aufgelaufen sind. Eine praktische Anwendung wäre der Telefonkontakt mit einem säumigen Kunden. Als Grundlage für die Berechnung werden die Werte so wie sie in den Stammdaten (Zinssatz, Zinsbasis) hinterlegt sind verwendet.  
     
 ![Ein Bild, das Text, Screenshot, Display, Software enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_704.png "Ein Bild, das Text, Screenshot, Display, Software enthält. Automatisch generierte Beschreibung")  
@@ -218,8 +218,8 @@ Mit diesem Programmteil können kalkulatorische Zinsen am Bildschirm ermittelt w
 Nach Eingabe des Datums und der Kontonummer kann die Berechnung mit **F9** gestartet werden. Es werden dann die zum Abrechnungsdatum fälligen Zinsen angezeigt.  
     
 
-• Abrechnung drucken  
-Die Abrechnung kann über Formulare des Typs „203 Zinsabrechnung“ gedruckt werden.  
+• ***Abrechnung drucken  
+***Die Abrechnung kann über Formulare des Typs „203 Zinsabrechnung“ gedruckt werden.  
     
 ![Ein Bild, das Text, Screenshot, Display, Software enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_705.png "Ein Bild, das Text, Screenshot, Display, Software enthält. Automatisch generierte Beschreibung")  
     
@@ -240,8 +240,8 @@ Die Abrechnung kann über Formulare des Typs „203 Zinsabrechnung“ gedruckt w
 
 Die Zinsabrechnung kann auch als Mailanhang verschickt werden.
 
-• Zinssaldo ändern  
-Im Normalfall ist es nicht nötig ist, den Zinssaldo zu ändern.  
+• ***Zinssaldo ändern  
+***Im Normalfall ist es nicht nötig ist, den Zinssaldo zu ändern.  
     
 ![Ein Bild, das Text, Screenshot, Display, Software enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_706.jpg "Ein Bild, das Text, Screenshot, Display, Software enthält. Automatisch generierte Beschreibung")  
     
@@ -250,5 +250,5 @@ Nach Eingabe der Kontonummer werden die Daten der letzten Zinsabrechnung zu dies
 ![](../../ImagesExt/image8_707.jpg)  
     
 
-• Zinsabschlag Stammdaten  
+• ***Zinsabschlag Stammdaten***  
 Stammdaten für eventuell zu berechnenden [Zinsabschlag](./stammdaten_zinswesen/zinsabschlag.md).

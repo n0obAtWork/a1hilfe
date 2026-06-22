@@ -4,7 +4,7 @@
 
 Bisher war es so, dass im Modul e-Clearing nach der Übernahme in die Primanota die Auszifferungsinformationen nicht mehr angezeigt wurden. Für Belege, die mit dieser Version erstellt werden, kann sich die Auszifferung jetzt weiter in e-Clearing angesehen werden.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 723115[33768]
 

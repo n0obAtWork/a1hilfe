@@ -4,7 +4,7 @@
 
 AMIC_EVT_Backup_ARCHIV: Die Prozedure erkennt nun, wenn es sich um ein Replikationssystem handelt, und führt dann weder TRUNCATE noch RENAME mit dem LOG aus.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 738252[35868]
 

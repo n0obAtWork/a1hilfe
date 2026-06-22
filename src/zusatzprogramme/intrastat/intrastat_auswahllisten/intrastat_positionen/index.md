@@ -173,9 +173,9 @@ Somit hat man die Möglichkeit bei diesen ggf. mit den Intrastat Zusatzdaten ent
 
 | Funktion | Beschreibung |
 | --- | --- |
-| Ändern (F5), Ansehen (F6), Löschen (F7) | Ruft den Pfleger für die [Intrastat Zusatzdaten](./intrastat_zusatzdaten.md) auf |
-| Vorschau (F11) | Öffnet das Standard PDF Programm und zeigt eine Vorschau des Intrastat Formulares |
-| Intrastat einrichten (F10) | Ruft die Maske [Intrastat einrichten](../intrastat_einrichten.md) auf |
+| Ändern (**F5**), Ansehen (**F6**), Löschen (**F7**) | Ruft den Pfleger für die [Intrastat Zusatzdaten](./intrastat_zusatzdaten.md) auf |
+| Vorschau (**F11**) | Öffnet das Standard PDF Programm und zeigt eine Vorschau des Intrastat Formulares |
+| Intrastat einrichten (**F10**) | Ruft die Maske [Intrastat einrichten](../intrastat_einrichten.md) auf |
 
 </details>
 

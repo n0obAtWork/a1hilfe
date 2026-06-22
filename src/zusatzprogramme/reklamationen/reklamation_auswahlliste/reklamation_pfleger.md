@@ -69,11 +69,11 @@ Die Menge bezieht sich falls vorhanden auf die Gebinde-ME. Anderenfalls auf die 
 
 </details>
 
-Funktionen
+<p class="just-emphasize">Funktionen</p>
 
 | Funktion | Beschreibung |
 | --- | --- |
-| Archiv | Zeigt die Reporte an, welche gedruckt wurden. (Muss möglicherweise unter [ANWR] eingerichtet werden)  
+| Archiv | Zeigt die Reporte an, welche gedruckt wurden. (Muss möglicherweise unter **[ANWR]** eingerichtet werden)  
 Außerdem können hier sonstige Dateien der Reklamation zugeordnet werden wie beispielsweise Bilder (Lizenz für das Formulararchiv ist notwendig). |
 | Maßnahmen (F5) | Maßnahmen für die Reklamation, welche für den Report Druck nötig sind. |
 
@@ -139,7 +139,7 @@ Die hier angegeben Felder sind die Standard Einstellungen und können im [Steuer
 
  
 
-Funktionen
+<p class="just-emphasize">Funktionen</p>
 
 | Funktion | Beschreibung |
 | --- | --- |

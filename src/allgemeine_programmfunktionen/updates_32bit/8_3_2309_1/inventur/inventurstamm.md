@@ -4,7 +4,7 @@
 
 Bei einem Inventurstammsatz vom Typ "Erhebung und Stichtag versetzt" war es möglich das Feld Erhebungstag leer zu lassen. Dies wurde unterbunden. Und rückliegende Inventuren werden korrekt behandelt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 717267[33277]
 

@@ -4,7 +4,7 @@
 
 In der Streckendisposition [DISPV] war es möglich, einen Rohwarenvorgang, der sich bereits in einem Sammelbeleg befand, zu bearbeiten. Dies ist nicht zulässig und wird künftig verhindert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 721020[33579]
 

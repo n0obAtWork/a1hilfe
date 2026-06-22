@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/ausfhrenvonsqltexten.htm -->
 
-Wenn man auf einem Aktionsfeld lediglich ein unter [SQLK] gespeichertes Statement ausführen will, so kann man dies mit folgendem Controlstring erreichen:
+Wenn man auf einem Aktionsfeld lediglich ein unter **[SQLK]** gespeichertes Statement ausführen will, so kann man dies mit folgendem Controlstring erreichen:
 
 ```text
 ^dbx_select

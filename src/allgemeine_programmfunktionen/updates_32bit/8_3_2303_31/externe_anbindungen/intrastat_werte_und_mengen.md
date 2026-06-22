@@ -4,7 +4,7 @@
 
 Bei der Intrastatmeldung konnte es zu falschen Mengen und Werten kommen, wenn eine Lagerplatzumbuchung beteilig war. Dies wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 722036[33645]
 

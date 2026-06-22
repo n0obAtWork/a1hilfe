@@ -28,13 +28,13 @@ mehrfach pro Woche
 
 | Funktion | Bedeutung |
 | --- | --- |
-| Dauerauftrag erfassen F8 | Erfassung eines neuen Dauerauftrages |
-| Dauerauftrag starten SF9 | Erstellt eine Rechnung aus dem Dauerauftrag.  
+| ***Dauerauftrag erfassen*** **F8** | Erfassung eines neuen Dauerauftrages |
+| ***Dauerauftrag starten*** **SF9** | Erstellt eine Rechnung aus dem Dauerauftrag.  
    
 Es öffnet sich die Maske ‚Rechnung aus Dauerauftrag‘. Zur Erläuterung der Felder auf dieser Maske siehe [Umwandeln und Kopieren](../../umwandeln_und_kopieren/index.md).  
 Umwandlung starten F9 erzeugt dann die Rechnung und setzt die nächste Fälligkeit des Dauerauftrages neu. |
-| Dauerauftrag ändern F5 | Ändern der markierten von Daueraufträge, z.B. um den als nächstes vorgeschlagenen Fälligkeitstermin zu ändern |
-| Anschriften aktualisieren | [Anschriften im Dauerauftrag manuell aktualisieren](../../vorgangsbearbeitung/dauerauftrag_anschrift_aktualisieren.md). |
+| ***Dauerauftrag ändern*** **F5** | Ändern der markierten von Daueraufträge, z.B. um den als nächstes vorgeschlagenen Fälligkeitstermin zu ändern |
+| ***Anschriften aktualisieren*** | [Anschriften im Dauerauftrag manuell aktualisieren](../../vorgangsbearbeitung/dauerauftrag_anschrift_aktualisieren.md). |
 
 Dauerauftrag-Termine
 

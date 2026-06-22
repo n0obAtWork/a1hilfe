@@ -4,7 +4,7 @@
 
 Nullpointer Problematik bei WarenPosition::GetZahlBedingung() behoben. Zahlbedingung wird wenn Kundzahlbed == null aus VorgZahlBed gezogen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 740638[36126]
 

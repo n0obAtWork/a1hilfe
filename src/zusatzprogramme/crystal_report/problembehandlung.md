@@ -4,7 +4,7 @@
 
 Leider kann es vorkommen, dass bei der Ausführung von Crystal Report Probleme auftreten. Je nach Schwere des Fehlers muss entschieden werden, was zu unternehmen ist. Hier folgen einige Tipps, wo man nachsehen kann, was nicht stimmt.
 
-1. Nachsehen in der Systeminformation. Direktsprung [SYSIN]
+1. Nachsehen in der Systeminformation. Direktsprung **[SYSIN]**
 
 In der Systeminformation im Register Umgebung wird im Feld **Version Crystal Report** die Version des installierten Reports angezeigt.  
     

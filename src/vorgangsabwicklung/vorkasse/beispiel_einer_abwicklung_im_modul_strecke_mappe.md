@@ -16,7 +16,7 @@ Als nächstes wird in der Strecke ein Auftrag über die Kontraktmenge erzeugt.
 
 Nachdem der Auftrag erstellt worden ist kann jetzt der Ladeschein erstellt werden. Dazu klicken Sie bitte den Auftrag an drücken dann wieder die rechte Maustaste jetzt wählen Sie Vorkasse/ Auftrag aus jetzt können Sie den Ladeschein erstellen. Nachdem der Ladeschein erstellt worden ist, wird dieser auch in der Strecke zu sehen sein.
 
-Ladeschein Erzeugung
+<p class="just-emphasize">Ladeschein Erzeugung</p>
 
 | Maskenfelder | Bedeutung |
 | --- | --- |

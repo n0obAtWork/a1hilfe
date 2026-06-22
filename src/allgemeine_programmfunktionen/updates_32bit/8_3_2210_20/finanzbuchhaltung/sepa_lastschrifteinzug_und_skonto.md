@@ -4,7 +4,7 @@
 
 Im automatischen Zahlungsverkehr wurden beim SEPA-Bankeinzug die Bankarbeitstage nicht korrekt berücksichtigt, wenn Skonto gewährt wurde. Beim automatischen Erstellen der Zahlungsvorschläge wird nun der nächste Stichtag mit dem nächsten Bankarbeitstag vor belegt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 714375[32842]
 

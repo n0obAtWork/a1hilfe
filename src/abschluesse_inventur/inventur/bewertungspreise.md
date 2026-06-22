@@ -4,7 +4,7 @@
 
 Hauptmenü > Inventur > Bewertungspreise
 
-Direktsprung [IVP]
+Direktsprung **[IVP]**
 
 Es besteht die Möglichkeit Bewertungspreise getrennt von Inventurbelegen zu erfassen.
 
@@ -26,7 +26,7 @@ An diese unterschiedlichen Varianten sind unterschiedliche Funktionalitäten gek
 
 3. ist eine reine Übersichtsfunktion
 
-Kalkulation von Bewertungspreisen F9
+<p class="just-emphasize">Kalkulation von Bewertungspreisen F9</p>
 
 Die Kalkulation erfolgt auf Basis der maschinell verfügbaren Preise:
 
@@ -52,7 +52,7 @@ Damit wird verhindert, dass z.B. manuell angelegte Preise durch die Kalkulation 
 
 Durch die Erfassung von Bewertungspreisen nach der ersten Variante werden diese als manuell gekennzeichnet.
 
-Übernahme Bewertungspreise in die Inventur mit F8.
+Übernahme Bewertungspreise in die Inventur mit **F8**.
 
 In der Kalkulation ist auch die Übernahme der Bewertungspreise in die Inventur angesiedelt. Und zwar werden stets alle Bewertungspreise en bloc übernommen. Dabei werden die eingegebenen Preise und Preisbezüge in die Inventurbelege übernommen. Hier kann sichergestellt werden, dass
 

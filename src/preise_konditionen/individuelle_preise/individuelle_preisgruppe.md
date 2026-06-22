@@ -4,7 +4,7 @@
 
 Preise / Konditionen > Konstanten der Preispflege > Individualpreisgruppen
 
-Oder Direktsprung [PIG]
+Oder Direktsprung **[PIG]**
 
 Artikel können eine Individualpreisgruppe sowohl im Einkauf als auch im Verkauf zugeordnet bekommen. Diese beschreibt die Zugehörigkeit zu einer Gruppe von Artikeln, für die für Kunden/Lieferanten mit einer dort zugeordneten Individualpreisklasse zu einem Zeitraum ein bestimmter gegebenenfalls mengenabhängiger individueller vom Listenpreis abweichender Preis gilt.
 

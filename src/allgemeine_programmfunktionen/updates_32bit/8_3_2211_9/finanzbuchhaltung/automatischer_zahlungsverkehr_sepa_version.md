@@ -4,7 +4,7 @@
 
 Die SEPA-Formate für die Version 3.5 (gültig ab 21.11.2021) und Version 3.6 (gültig ab 20.11.2022) wurden in A.eins integriert. Dies kann im Hausbankenstamm [HBNK] eingerichtet werden.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 700323[32958]
 

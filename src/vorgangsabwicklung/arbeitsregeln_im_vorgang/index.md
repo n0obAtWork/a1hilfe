@@ -10,7 +10,7 @@ Sollen z.B. Druckvorgänge „gestoppt“ werden, wenn Kriterien nicht erfüllt 
 
 Das verbietet oder verhindert nicht das Erfassen von Informationen, sondern verhindert das Weiterverarbeiten von Vorgängen/Belegen, wenn bestimmte Elemente noch nicht abgeschlossen sind.
 
-Eine Regel startet mit dem Anlegen eines Vorganges (siehe dazu [Formularzuordnung](../formularzuordnung/index.md) [FRZ]), es können dann Folgeregeln festgelegt werden, es können bestimmten Bedienern (Bedienerklassen) bestimmte Regeln zugeordnet werden, und es können Ausnahmen für Folgeregeln definiert werden, um den betrieblichen Ablauf Normgerecht (z.B. ISO9000) abzuwickeln und dem Mitarbeiter keine Schlupflöcher zu erlauben.
+Eine Regel startet mit dem Anlegen eines Vorganges (siehe dazu [Formularzuordnung](../formularzuordnung/index.md) **[FRZ]**), es können dann Folgeregeln festgelegt werden, es können bestimmten Bedienern (Bedienerklassen) bestimmte Regeln zugeordnet werden, und es können Ausnahmen für Folgeregeln definiert werden, um den betrieblichen Ablauf Normgerecht (z.B. ISO9000) abzuwickeln und dem Mitarbeiter keine Schlupflöcher zu erlauben.
 
 Die Inhalte von Regelwerken werden über Makros, Prozeduren, Skripte, SQL Befehle oder über einfache Zuordnungen gesteuert.
 

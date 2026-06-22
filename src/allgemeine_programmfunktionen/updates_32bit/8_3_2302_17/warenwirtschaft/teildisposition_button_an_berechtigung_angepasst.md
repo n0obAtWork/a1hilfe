@@ -4,7 +4,7 @@
 
 In der Vorgangsbearbeitung wird bei Verwendung der Standard-Teildisposition der OK-Button auf der Maske bei fehlenden Rechten ausgeblendet.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 719006[33327]
 

@@ -4,7 +4,7 @@
 
 In der Anwendung Inventur-Aufnahme [IVA] wurde in der Variante "Inventuraufnahme Artikel/Partie/LVS" die Darstellung der Bewertung bei Gebindeartikeln berichtigt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 726126[34131]
 

@@ -4,7 +4,7 @@
 
 Bei der Bearbeitung von Belegen mit Objekt(Baustelle) konnte der Mandantenserver abstürzen. Dieser Fehler wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 741654[36410]
 

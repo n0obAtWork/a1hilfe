@@ -6,17 +6,17 @@ Die Schnellkorrektur ermöglicht die Positionen ausgewählter Belege mengenmäß
 
 Funktionen
 
-Restbeleg bilden [F8]
+Restbeleg bilden **[F8]**
 
-Ein Eintrag in der Spalte „Rest“ zusammen mit der Funktion Restbeleg bilden führt zu einem zusätzlichen (Rest-)Beleg mit dieser Position und Menge. Die Belege sind anschließend nicht miteinander verknüpft; der (Rest-)Beleg entspricht einem neu erfassten.
+Ein Eintrag in der Spalte „Rest“ zusammen mit der Funktion ***Restbeleg bilden*** führt zu einem zusätzlichen (Rest-)Beleg mit dieser Position und Menge. Die Belege sind anschließend nicht miteinander verknüpft; der (Rest-)Beleg entspricht einem neu erfassten.
 
-Geb.Anzahl wechseln [F9]
+Geb.Anzahl wechseln **[F9]**
 
 Bei einer Gebindeposition kann zwischen der Gebindeanzahl und der Ergebnismenge gewechselt und der Mengeneintrag vorgenommen werden. Nach der Änderung der Gebindeanzahl / Ergebnismenge kann diese Funktion nicht erneut ausgeführt werden.
 
-Partieverteilung [F6] 
+***Partieverteilung*** **[F6]** 
 
-Einer Position können eine oder mehrere Partien durch Eingabe von Menge und Partienummer zugeordnet werden. Die Auswahl der Partie wird mit der F3 Funktionalität unterstützt.
+Einer Position können eine oder mehrere Partien durch Eingabe von Menge und Partienummer zugeordnet werden. Die Auswahl der Partie wird mit der **F3** Funktionalität unterstützt.
 
 Hierbei ist zu beachten, dass die Partieaufteilung bei einer Gebindeposition nur dann richtig funktioniert, wenn von der Gebindeanzahl in die Ergebnismenge gewechselt wird.
 

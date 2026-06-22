@@ -4,7 +4,7 @@
 
 Bei der 64-Bit Version kam es zur vollständigen Auslastung des virtuellen Arbeitsspeichers, was zu Programmabstürzen führte. Dieses wurde nun behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 722269[33823]
 

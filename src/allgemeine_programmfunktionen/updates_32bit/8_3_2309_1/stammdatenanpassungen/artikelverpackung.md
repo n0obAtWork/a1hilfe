@@ -4,7 +4,7 @@
 
 Bisher wurde beim Löschen eines Artikelverpackung-Stammdatensatzes [AVP] nur ein Löschkennzeichen gesetzt. Jetzt wird kein Löschkennzeichen mehr gesetzt, sondern der Datensatz wird direkt aus der Datenbank entfernt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[34095]
 

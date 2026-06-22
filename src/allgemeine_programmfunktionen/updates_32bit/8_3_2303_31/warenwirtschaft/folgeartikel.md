@@ -4,7 +4,7 @@
 
 Ein Folgeartikel wurde unter Umständen nicht korrekt gezogen. Dies wurde behoben
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 720339[33461]
 

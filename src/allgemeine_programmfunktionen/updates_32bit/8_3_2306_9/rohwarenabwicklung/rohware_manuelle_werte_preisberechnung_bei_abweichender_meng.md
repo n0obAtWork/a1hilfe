@@ -4,7 +4,7 @@
 
 Bei einer Rohwareeinrichtung, bei der die Mengeneinheit einer Kosteneinrichtung von der Mengeneinheit der Ware abweicht, wurde fälschlicherweise die Mengeneinheit der Ware für die Kosten benutzt. Dieses wurde korrigiert. Belege mit falschen Preisen können korrigiert werden durch manuelle Eingabe des Betrags. Dadurch wird der falsche Preis neu und korrekt berechnet und der eigens bestimmte manuelle Betrag bleibt bestehen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 724088[33885]
 

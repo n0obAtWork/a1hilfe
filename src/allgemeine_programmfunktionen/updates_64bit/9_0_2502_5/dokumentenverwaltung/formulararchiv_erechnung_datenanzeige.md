@@ -4,7 +4,7 @@
 
 Im Formulararchiv [FA] in der Variante "Formulararchiv eRechnung" trat unter bestimmten Filterbedingungen ein Problem auf, das jetzt behoben ist.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 745684[36675]
 

@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Konstanten Artikelstamm > Artikelgruppen
 
-oder Direktsprung [ARG]
+oder Direktsprung **[ARG]**
 
 Artikelgruppen können unabhängig von Warengruppen und dergleichen. je Artikelstamm vergeben werden, um Artikel in anderer, selbstdefinierter Weise zu gruppieren (für Selektionen und Sortierungen).
 

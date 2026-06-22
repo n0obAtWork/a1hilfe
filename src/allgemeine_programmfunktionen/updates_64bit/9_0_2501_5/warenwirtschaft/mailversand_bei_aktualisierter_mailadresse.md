@@ -4,7 +4,7 @@
 
 Während der Vorgangserfassung speichert sich A.eins die aktuellen Anschriften. In den Anschriften werden auch die Mailadressen gespeichert. Stellte man nach Erfassung eines Vorganges fest, dass die Mailadresse nicht korrekt war, war es mit hohem Aufwand verbunden, die korrekte Mailadresse in dem Vorgang zu hinterlegen. Wird nun der SPA 1161 auf "Ja" gestellt, so werden beim Mailversand immer die aktuellen Mailadressen aus dem jeweiligen Kunden gezogen, ohne das weitere Maßnahmen notwendig sind. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 742206[36224]
 

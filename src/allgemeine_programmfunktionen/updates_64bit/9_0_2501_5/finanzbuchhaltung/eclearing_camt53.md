@@ -4,7 +4,7 @@
 
 Im CAMT63 - Format können mehrere Zeilen Verwendungszweck vorhanden sein. Dies wird jetzt beim Import berücksichtigt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 737152[35637]
 

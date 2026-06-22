@@ -22,7 +22,7 @@ Die Einrichtungsmaske enthält folgende Registerkarten:
 
 [Vorlagen](./einrichten_bearbeiten_eines_events.md#amic_ueb_rk_vorlagen)
 
-Registerkarte Allgemein
+<p class="just-emphasize">Registerkarte Allgemein</p>
 
 | Felder | |
 | --- | --- |
@@ -31,7 +31,7 @@ Registerkarte Allgemein
 | **Ersteller** | Hier wird vom System automatisch der Username des Erstellers eingetragen und angezeigt. |
 | **Kommentar** | Schreiben Sie hier eine kurze Information, zu welchem Zweck das Event dient. So können Sie Informationen hinterlegen, die später sonst in Vergessenheit geraten. |
 
-Registerkarte Sonstiges
+<p class="just-emphasize">Registerkarte Sonstiges</p>
 
 | Felder und Auswahlboxen |
 | --- |
@@ -42,7 +42,7 @@ Mit dem Aktivieren dieser Funktion bestätigen Sie, dass die Prozedur ihren Auft
 Diese Funktion steht nur Event-Prozeduren zur Verfügung. Deshalb ist sie bei anderen Events deaktiviert. Eventprozeduren sind an dem Namenspräfix „AMIC_EVT_“ oder bei privaten Prozeduren „P_EVT_“ zu erkennen. |
 | Ausführungsbeschränkung | Wenn Sie über mehrere replizierende Datenbanken verfügen, so können Sie an dieser Stelle entscheiden, ob das Event an allen Standorten, nur in der konsolidierten Datenbank oder nur in der entfernten Datenbank ausgeführt werden soll. |
 
-Registerkarte Bedingungen
+<p class="just-emphasize">Registerkarte Bedingungen</p>
 
 Hier legen Sie fest, wann oder unter welchen Umständen der Event ausgelöst werden soll.
 
@@ -66,7 +66,7 @@ Wählen Sie ggf. die Zeit der Wiederholung, wenn der Event zum Beispiel stündli
 
 Wählen Sie Auslösen Nach, wenn das Event an bestimmten Wochentagen oder bestimmten Tagen des Monats (zum Beispiel an jedem 1. Des Monats) ausgeführt werden soll.
 
-Registerkarte Verarbeitungsroutine
+<p class="just-emphasize">Registerkarte Verarbeitungsroutine</p>
 
 ```text
 Begin
@@ -77,6 +77,6 @@ End
 
 Hier schreiben Sie zwischen „Begin“ und „End“ Ihre Verarbeitungsroutine, also das, was abgearbeitet werden soll. Wir empfehlen dringend, hier Eventprozeduren zu verwenden, also Prozeduren, die sich ggf. abrechen lassen.
 
-Registerkarte Vorlagen
+<p class="just-emphasize">Registerkarte Vorlagen</p>
 
 Wenn Sie ein Mandantenserver- bzw. ein Wareo-Event anlegen wollen, so können Sie durch Auswahl von „JA“ in dem jeweiligen Feld ein Template benutzen, das Ihnen einen solchen Event konstruiert.

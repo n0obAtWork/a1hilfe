@@ -4,7 +4,7 @@
 
 Die Felder BT-14, BT-17 und BT-18 werden nun auch im eRechnungs-Export ausgegeben
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 740922[36257]
 

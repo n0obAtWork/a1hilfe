@@ -39,7 +39,7 @@ Wenn detaillierte Informationen über eine Periode gewünscht werden, kann diese
 ![Ein Bild, das Tisch enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_609.jpg "Ein Bild, das Tisch enthält. Automatisch generierte Beschreibung")  
 Links unten im Anzeigebildschirm werden verschiedene Anzeigevarianten zur Verfügung gestellt. Bei [Sachkonten](../stammdaten_der_fibu/sachkonten.md) kann in den Stammdaten eingestellt werden, welche Variante beim Einstieg verwendet wird (Optionen Konteninfo / Ansicht).
 
-Die hier angezeigten Belege können sofort über die Funktion Druck Kurzliste F4 gedruckt werden. Bei diesen Kurzlisten gibt es eine Besonderheiten. Man kann im Kopf dieser Liste die Daten des Informationsfensters, welches man über Formulartyp „240 Fibu-Bildschirm-Konteninformation“ eingerichtet hat, anzeigen. Dazu muss man im Formular der Kurzliste ein Feld vom Typen ID_FIBU_INFO einrichten, bei dem als Text „FIBU_INFO“ steht.
+Die hier angezeigten Belege können sofort über die Funktion ***Druck Kurzliste*** **F4** gedruckt werden. Bei diesen Kurzlisten gibt es eine Besonderheiten. Man kann im Kopf dieser Liste die Daten des Informationsfensters, welches man über Formulartyp „240 Fibu-Bildschirm-Konteninformation“ eingerichtet hat, anzeigen. Dazu muss man im Formular der Kurzliste ein Feld vom Typen ID_FIBU_INFO einrichten, bei dem als Text „FIBU_INFO“ steht.
 
 ![](../../ImagesExt/image8_610.jpg)
 
@@ -50,7 +50,7 @@ FIBU_INFO :KONTO, :JAHR
 Dabei sind :KONTO und :JAHR die Variablen, die auch in dieser F3-Auswahl für die Eingrenzung der Daten verwendet werden. Die von AMIC ausgelieferten Varianten sind bereits mit diesem Schlüsselwort versehen. Sie müssen immer in dieser Reihenfolge durch Komma getrennt angegeben werden.
 
     
-Wird eine Zeile mit der Maus angeklickt oder Return (**Enter**) bzw. **F3** gedrückt, so wird je nach Art der Zeile entweder der komplette Buchungssatz angezeigt oder die Funktion Text ändern oder OP-Bemerkungen aufgerufen. Diesen Anzeigebildschirm findet man immer dort wieder, wo Belege aufgelistet werden, z.B. OP-Verwaltung, Standardvorgänge Fibu, Primanota bzw. Steuerauswertungen.
+Wird eine Zeile mit der Maus angeklickt oder Return (**Enter**) bzw. **F3** gedrückt, so wird je nach Art der Zeile entweder der komplette Buchungssatz angezeigt oder die Funktion ***Text ändern*** oder ***OP-Bemerkungen*** aufgerufen. Diesen Anzeigebildschirm findet man immer dort wieder, wo Belege aufgelistet werden, z.B. OP-Verwaltung, Standardvorgänge Fibu, Primanota bzw. Steuerauswertungen.
 
 ![Ein Bild, das Tisch enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_611.jpg "Ein Bild, das Tisch enthält. Automatisch generierte Beschreibung")  
     

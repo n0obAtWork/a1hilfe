@@ -4,7 +4,7 @@
 
 Beim Artikelstammpfleger war es möglich eine Mengeneinheitsgruppe auszuwählen, die nicht kompatibel zur aktuellen Mengeneinheitsgruppe war. Dies wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 728095[34447]
 

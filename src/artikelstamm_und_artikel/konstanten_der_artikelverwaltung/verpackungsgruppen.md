@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Konstanten Artikelstamm > Verpack-Gruppen
 
-oder Direktsprung [VPKG]
+oder Direktsprung **[VPKG]**
 
 Derzeit nicht aktiv; vorgesehen ist jedoch:
 

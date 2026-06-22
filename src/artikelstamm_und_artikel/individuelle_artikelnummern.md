@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Artikelstamm > Artikelstamm
 
-oder Direktsprung [ARSI]
+oder Direktsprung **[ARSI]**
 
 In der Anwendung „Individuelle Artikelnummern“ kann man zu einem Kunden/Lieferanten einen oder mehreren Hersteller eines Artikels auswählen.
 
@@ -68,7 +68,7 @@ Es gib folgende Felder:
 | Kürzel | Kürzel des Herstellers. Mittels F3 ist eine Auswahlhilfe verfügbar. |
 | Sperrkennzeichen | Sperrkennzeichen des Herstellers. Mittels F3 ist eine Auswahlhilfe verfügbar. Beschreibt, ob ein Hersteller derzeitig für den Artikel gesperrt ist. |
 
-Um Hersteller eintragen zu können, muss man vorher mittels Direktsprung [HST] die Anwendung Hersteller aufrufen und mit F8 einen Hersteller anlegen.
+Um Hersteller eintragen zu können, muss man vorher mittels Direktsprung **[HST]** die Anwendung Hersteller aufrufen und mit F8 einen Hersteller anlegen.
 
 </details>
 
@@ -88,7 +88,7 @@ Es gib folgende Felder:
 
 Um das Grid auf dem Lieferanten-Stoffstrom-Daten Tabreiter ausfüllen zu können, müssen für den Artikel Bestandteile in der Zusammensetzung eingerichtet werden.
 
-Dafür öffnet man mittels Direktsprung [ARS] die Variante Artikelstamm. Dort filtert man mit F2 nach dem Artikel und öffnet diesen mit F5.
+Dafür öffnet man mittels Direktsprung **[ARS]** die Variante Artikelstamm. Dort filtert man mit F2 nach dem Artikel und öffnet diesen mit F5.
 
 In der Optionbox des Artikels öffnet man mit F2 die Zusammensetzungsmaske. Dort trägt man nach Bedarf in das Zusammensetzungsgrid Bestandteile ein.
 

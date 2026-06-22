@@ -4,7 +4,7 @@
 
 Zum ändern von Stammdaten existiert eine Funktion "Alle Ändern". Diese zeigt jetzt die Anzahl der Felder an, die von der Änderung betroffen sind:"Sollen die 12 eingefärbten Felder für alle ausgewählten Daten übernommen werden?"
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 734584[35469]
 

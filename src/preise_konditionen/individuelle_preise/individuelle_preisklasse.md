@@ -4,7 +4,7 @@
 
 Preise / Konditionen > Konstanten der Preispflege > Individualpreisklassen
 
-Oder Direktsprung [PRIK]
+Oder Direktsprung **[PRIK]**
 
 Kunden und Lieferanten können eine Individualpreisklasse sowohl im Einkauf als auch im Verkauf zugeordnet bekommen. Diese beschreibt die Zugehörigkeit zu einer Gruppe von Kunden/Lieferanten, für die für Artikel mit einer dort zugeordneten Individualpreisgruppe zu einem Zeitraum ein bestimmter gegebenenfalls mengenabhängiger individueller vom Listenpreis abweichender Preis gilt. Neben einer Bezeichnung der Preisklasse wird hier auch die Währung der Individualpreise zu dieser Klasse festgelegt.
 

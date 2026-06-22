@@ -4,6 +4,6 @@
 
 Hauptmenü > Stornoprotokoll
 
-oder Direktsprung [STOPO]
+oder Direktsprung **[STOPO]**
 
 Im Stornoprotokoll kann man nachsehen, wer wann welchen Beleg storniert hat.

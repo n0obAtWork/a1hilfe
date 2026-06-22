@@ -4,11 +4,11 @@
 
 Hauptmenü > Stammdatenpflege > Lagerverwaltungssystem > Ladeträger
 
-Direktsprung [LVSLT]
+Direktsprung **[LVSLT]**
 
 Mit dieser Erfassungsmaske können einzelne Positionen von einem Silo/Ladeträger gelöscht werden. Ein Silo/Ladeträger kann auf eine Lokalität gefahren werden. Des Weiteren kann die Menge an einer Position auf dem Ladeträger geändert werden.
 
-Datentabelle Ladeträgerübersicht
+<p class="just-emphasize">Datentabelle Ladeträgerübersicht</p>
 
 | Erfassungsfeld | Bedeutung |
 | --- | --- |
@@ -17,7 +17,7 @@ Datentabelle Ladeträgerübersicht
 | Gewicht | In diesem Feld wir das Bruttogewicht des Ladeträgers aus dem Artikelstamm angezeigt. |
 | Lokalität/Silostand | In diesem Feld wird die Lokalität/Silostand angezeigt auf welchem sich der Ladeträger oder das Silo gerade befindet. Die Lokalität/Silostand kann in diesem Feld verändert werden und mit der Funktion Ladeträgerbewegung / Silobewegung wird dann der Ladeträger / Silo auf diese Lokalität / diesen Silostand umgebucht. |
 
-Positionsübersicht
+<p class="just-emphasize">Positionsübersicht</p>
 
 | Feld | Bedeutung |
 | --- | --- |
@@ -32,11 +32,11 @@ Positionsübersicht
 | ME | Mengeneinheit |
 | Owaage Nummer | Waagennummer zu einer Ladeeinheitsposition |
 
-Funktionen
+<p class="just-emphasize">Funktionen</p>
 
 Lösche Ladeeinheit [F7]
 
-Um eine Ladeeinheit zu löschen, müssen erst alle Positionen von der [Ladeeinheit](./ladeeinheiten.md) gelöscht werden. Dazu wird eine Position in der Positionsdatentabelle markiert. Diese wird dann in Rot dargestellt, dann wird über die Funktion Lösche Ladeeinheit [F9] diese Position gelöscht. Dies wird solange wiederholt, bis alle Positionen gelöscht worden sind. Sind alle Positionen gelöscht worden, so bleiben in der unteren Datentabelle nur noch die Ladeeinheitsnummer und die Ladeträgernummer/ Silonummer stehen. Um die Ladeeinheit komplett vom Ladeträger/Silo zu löschen muss noch einmal in das Feld Ladeträgernummer/Silo in der unteren Datentabelle geklickt werden. Jetzt kann die Ladeeinheit gelöscht werden.
+Um eine Ladeeinheit zu löschen, müssen erst alle Positionen von der [Ladeeinheit](./ladeeinheiten.md) gelöscht werden. Dazu wird eine Position in der Positionsdatentabelle markiert. Diese wird dann in Rot dargestellt, dann wird über die Funktion ***Lösche Ladeeinheit*** [**F9**] diese Position gelöscht. Dies wird solange wiederholt, bis alle Positionen gelöscht worden sind. Sind alle Positionen gelöscht worden, so bleiben in der unteren Datentabelle nur noch die Ladeeinheitsnummer und die Ladeträgernummer/ Silonummer stehen. Um die Ladeeinheit komplett vom Ladeträger/Silo zu löschen muss noch einmal in das Feld Ladeträgernummer/Silo in der unteren Datentabelle geklickt werden. Jetzt kann die Ladeeinheit gelöscht werden.
 
 Leermeldung [SF7]
 

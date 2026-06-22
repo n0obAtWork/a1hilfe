@@ -21,7 +21,7 @@ Siehe: [Einrichtung der AIS-Felder für die Marktkasse aus dem AMIC Muster](./ei
 | Zusatzfeld Kassenfeldname | Hier stehen alle Felder, die zusätzlich angezeigt werden können. |
 | Zusatzfeld AIS-Feldname | Die Zuordnung eines AIS-Feldnamens ist für Zusatzfelder freigestellt. |
 
-Zusatzangaben
+<p class="just-emphasize">Zusatzangaben</p>
 
 Leergutverarbeitung
 

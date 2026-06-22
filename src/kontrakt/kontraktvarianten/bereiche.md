@@ -18,7 +18,7 @@ Auf der Maske werden alle Bereiche einer Kontraktvariante dargestellt. Folgende 
 
 [Textbausteinwerte](./bereiche.md#ktr_vari_textbausteinwerte)
 
-Variantenbereich [![](../../ImagesExt/image8_148.png)](./bereiche.md)
+<p class="just-emphasize">Variantenbereich [![](../../ImagesExt/image8_148.png)](./bereiche.md)</p>
 
 Im Variantenbereich werden alle allgemeinen Informationen zum Bereich hinterlegt.
 
@@ -38,9 +38,9 @@ Wird eine Zahl größer als 0 eingegeben, so wird der Bereich genauso oft gedruc
 | Bereich nicht drucken | Falls der Bereich nicht gedruckt werden soll, kann dies hier festgelegt werden. |
 | Textbaustein aktiv | Kennzeichnet, ob der Bereich im Kontraktstamm automatisch ausgewählt sein soll, oder nicht. |
 
-Textbaustein [![](../../ImagesExt/image8_148.png)](./bereiche.md)
+<p class="just-emphasize">Textbaustein [![](../../ImagesExt/image8_148.png)](./bereiche.md)</p>
 
-Die als Festtext definierten Bereiche werden später bei der [Kontrakterfassung](../kontraktstammdaten/index.md) unter Textbausteine zur Korrektur und Ergänzung angeboten. Hier wird also der Text soweit erfasst, dass er weitgehend in den individuellen Kontrakt übernommen werden kann, dort können dann Ergänzungen vorgenommen werden. Siehe dazu auch den Abschnitt “[Kontraktstammdaten](../kontraktstammdaten/index.md)”.
+Die als Festtext definierten Bereiche werden später bei der [Kontrakterfassung](../kontraktstammdaten/index.md) unter ***Textbausteine*** zur Korrektur und Ergänzung angeboten. Hier wird also der Text soweit erfasst, dass er weitgehend in den individuellen Kontrakt übernommen werden kann, dort können dann Ergänzungen vorgenommen werden. Siehe dazu auch den Abschnitt “[Kontraktstammdaten](../kontraktstammdaten/index.md)”.
 
 Bei Festtexten ist es möglich Platzhalter einzubinden. Diese werden später in der Kontrakterfassung abgefragt. Zum definieren eines Platzhalters kann folgender Text an der Position eingegeben werden.
 
@@ -61,9 +61,9 @@ Desweiteren ist es möglich einen Platzhalter als Pflichtfeld zu kennzeichnen. D
 | 3..n | $ | Fest |
 | 3..n | § | Variable |
 
-Private Itembox [![](../../ImagesExt/image8_148.png)](./bereiche.md)
+<p class="just-emphasize">Private Itembox [![](../../ImagesExt/image8_148.png)](./bereiche.md)</p>
 
-Für die Festtextbereiche lassen sich private Itemboxes hinterlegen. Die Maske zum bearbeiten der Itemboxes lässt sich über die Funktion Private Itembox aufrufen.
+Für die Festtextbereiche lassen sich private Itemboxes hinterlegen. Die Maske zum bearbeiten der Itemboxes lässt sich über die Funktion ***Private Itembox*** aufrufen.
 
 Die Maske ist in zwei Bereiche aufgeteilt. Im oberen Bereich befinden sich drei Datentabellen, im unterem ist der Textbaustein mit den Platzhaltern aufgebaut.
 
@@ -106,7 +106,7 @@ Hierbei gilt folgendes:
 | Nur ein Zielfeld |
 | Mehr als ein Zielfeld |
 
-Standardwerte [![](../../ImagesExt/image8_148.png)](./bereiche.md)
+<p class="just-emphasize">Standardwerte [![](../../ImagesExt/image8_148.png)](./bereiche.md)</p>
 
 Auf dieser Maske können die Standardwerte für einzelne Platzhalterfelder festgelegt und geändert werden. Für jede Klasse kann der Standardwert unterschiedlich definiert sein.
 
@@ -115,7 +115,7 @@ Das farblich markierte Feld zeigt immer den aktuellen Platzhalter an. Zum Änder
 | |
 | --- |
 
-Textbausteinwerte [![](../../ImagesExt/image8_148.png)](./bereiche.md)
+<p class="just-emphasize">Textbausteinwerte [![](../../ImagesExt/image8_148.png)](./bereiche.md)</p>
 
 Auf dieser Maske können die gelernten Texte der Textbausteine korrigiert werden. Angezeigt werden immer die Texte des aktuell farblich markierten Platzhalters. Zum Wechseln des Platzhalters wird ein Doppelklick auf den entsprechenden Platzhalter gemacht. Dieser wird dann mit folgender Farbe gekennzeichnet.
 

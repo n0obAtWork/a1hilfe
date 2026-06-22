@@ -4,7 +4,7 @@
 
 Aus der Anwendung Artikel wurde die Funktion "VK Preise kalkulieren" entfernt. Zur Preiskalkulation empfehlen wir weiterhin den bekannten Weg unter "Preise/Kondition->Preiskalkulation Excel (Auswahlliste)".
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[33065]
 

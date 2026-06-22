@@ -4,7 +4,7 @@
 
 In der Anwendung [ECL] wird das Feld "eClearing" aus der Variante "Zahlung per Datenträger" jetzt auch in der Variante "Einzelpositionen" angezeigt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 712891[32686]
 

@@ -4,7 +4,7 @@
 
 Wenn ein Oberkunde (abweichender Rechnungsempfänger) vorhanden ist, wird nun die korrekte Adresse in das xRechnungs-Attribut (XML) für die "postaladress" übernommen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 743700[36409]
 

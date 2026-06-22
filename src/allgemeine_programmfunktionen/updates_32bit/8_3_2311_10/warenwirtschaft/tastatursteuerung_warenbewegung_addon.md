@@ -4,7 +4,7 @@
 
 Bei Warenbewegung-Addonfeldern, die bei der Artikelerfassung im Vorgang unterhalb des Tab Reiters "Allgemein" angeordnet waren, gab es Probleme bei der Tastatursteuerung. Dies wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 728753[34509]
 

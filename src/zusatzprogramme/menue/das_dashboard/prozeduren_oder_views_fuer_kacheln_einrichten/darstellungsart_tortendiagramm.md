@@ -6,7 +6,7 @@ Administration > Menü > Dashboard > Variante Kachel
 
 oder
 
-Direktsprung [DASH] \> Variante Kachel
+Direktsprung **[DASH]** \> Variante Kachel
 
 Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Basisdesign](./basisdesign.md) zur Verfügung.
 
@@ -20,7 +20,7 @@ Hinweis:
 *Auf dem Tortenstück „Sonstige“ kann keine Klick-Funktion ausgeführt werden. Des Weiteren wird im Tooltip nur der Text „Sonstige“ angezeigt.*  
    
 Legende  
-Mithilfe des Feldes **LegendVisible** kann eingestellt werden, ob die Legende standardmäßig ein- oder ausgeblendet ist. Unabhängig von dieser Option kann die Legende über die Funktion Legende ein-/ausblenden (rechte Maustaste auf der Kachel) aktiviert bzw. deaktiviert werden. Des Weiteren ist die Position (**LegendPosition**) und die Ausrichtung (**LegendOrientation**) der Legende über die View/Prozedur einstellbar. Mögliche Werte sind:  
+Mithilfe des Feldes **LegendVisible** kann eingestellt werden, ob die Legende standardmäßig ein- oder ausgeblendet ist. Unabhängig von dieser Option kann die Legende über die Funktion ***Legende ein-/ausblenden*** (rechte Maustaste auf der Kachel) aktiviert bzw. deaktiviert werden. Des Weiteren ist die Position (**LegendPosition**) und die Ausrichtung (**LegendOrientation**) der Legende über die View/Prozedur einstellbar. Mögliche Werte sind:  
 LegendPosition  
 • Right  
 • Left  

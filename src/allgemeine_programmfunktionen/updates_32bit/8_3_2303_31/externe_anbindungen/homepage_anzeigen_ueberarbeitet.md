@@ -4,7 +4,7 @@
 
 In Anschriften wurde der Reiter "Homepage entfernt". Stattdessen gibt es unter "Zusätze" ein neues Feld, welches Homepage heißt. Eine dort angegebene Webadresse öffnet den Browser mit dieser, wenn die Funktion "Homepage anzeigen" aufgerufen wird.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 708457[32085]
 

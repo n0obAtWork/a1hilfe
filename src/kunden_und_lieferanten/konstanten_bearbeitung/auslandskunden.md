@@ -14,7 +14,7 @@ In der Stammdatenmaske können folgende Daten eingegeben werden.
 
 | Felder |
 | --- |
-| Kunde | Nummer des Kunden, bei Neuanlage mit F8 kann mit F3 eine Kundenauswahl aus dem Kundenstamm mittels einem sich öffnenden Auswahlbildschirm getroffen und übernommen werden. |
-| Währung | Eingabe der Währungsnummer, mit F3 kann wiederum eine Auswahl hier aus dem Währungsstamm getroffen werden |
-| DTA | Hier kann ein Format für den Datenträgeraustausch eingegeben und mit F3 ausgewählt werden |
-| Zahlungsart | Hier können die Zahlungsarten eingegeben oder mit Hilfe der F3 Taste ausgewählt werden. Die hier hinterlegte Zahlungsart wird als Vorbelegung für den Auslands-OP herangezogen. |
+| Kunde | Nummer des Kunden, bei Neuanlage mit **F8** kann mit **F3** eine Kundenauswahl aus dem Kundenstamm mittels einem sich öffnenden Auswahlbildschirm getroffen und übernommen werden. |
+| Währung | Eingabe der Währungsnummer, mit **F3** kann wiederum eine Auswahl hier aus dem Währungsstamm getroffen werden |
+| DTA | Hier kann ein Format für den Datenträgeraustausch eingegeben und mit **F3** ausgewählt werden |
+| Zahlungsart | Hier können die Zahlungsarten eingegeben oder mit Hilfe der **F3** Taste ausgewählt werden. Die hier hinterlegte Zahlungsart wird als Vorbelegung für den Auslands-OP herangezogen. |

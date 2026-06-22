@@ -4,7 +4,7 @@
 
 Es gibt jetzt in [FRZ] (Tabreiter: Sperren - Mengenüberziehung erledigt Beleg) eine Einstellung, ob per Teildisposition übererfüllte Teildispositionen als erledigt oder als teildisponiert gelten sollen. Die Standardeinstellung ist die bisherige Behandlung "Ja".
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 714285[33031]
 

@@ -4,7 +4,7 @@
 
 Im Artikelstammpfleger wurde im Modul CO2-Kostenaufteilungsgesetz die Feldbezeichnung zum Feld "Gewicht pro ME" für die CO2-Angabe korrigiert. Statt "t/(Mengeneinheit)" lautet er jetzt "kg/(Mengeneinheit)", da intern mit "kg/(Mengeneinheit)" gerechnet wird.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 719616[34121]
 

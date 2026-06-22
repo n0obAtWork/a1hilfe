@@ -4,7 +4,7 @@
 
 Das Anlegen von Rechnungsempfängern und Zahlungspflichtigen bei Musterkunden ist wieder möglich.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 730341[34672]
 

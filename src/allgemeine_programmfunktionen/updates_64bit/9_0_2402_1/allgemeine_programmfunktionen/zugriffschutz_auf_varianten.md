@@ -4,7 +4,7 @@
 
 Unter [ZUGV], in der Variante "geschützte Varianten" wurde durch ein fehlerhaftes IDENTSQL auf die falsche Tabelle zugegriffen und dadurch die bereits eingetragenen Bedienerklassen nicht geladen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 737530[35571]
 

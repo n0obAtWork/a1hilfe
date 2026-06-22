@@ -4,7 +4,7 @@
 
 Beim Export von AMIC-Etikettendruck Reporten wurde das Archivierungskennzeichen grundsätzlich nicht mit exportiert. Jetzt wird bei privat erstellten Reporten das Kennzeichen mit übertragen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 740495[35965]
 

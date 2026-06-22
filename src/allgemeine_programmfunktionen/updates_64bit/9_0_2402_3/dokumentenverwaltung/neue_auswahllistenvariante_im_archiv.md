@@ -4,7 +4,7 @@
 
 Eine neue Variante im Archiv zeigt eRechnungen an. Hier lässt sich eine eRechnung importieren und manuell weiterverarbeiten. Entsprechende Filter spezialisieren diese Auswahlliste für eRechnungen
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 728333[35687]
 

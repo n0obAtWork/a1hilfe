@@ -4,7 +4,7 @@
 
 Hauptmenü > Nebenbuchhaltungen > LKW-Verwaltung > Fahrer Stammdaten
 
-Direktsprung [LKWF]
+Direktsprung **[LKWF]**
 
 | Felder |
 | --- |

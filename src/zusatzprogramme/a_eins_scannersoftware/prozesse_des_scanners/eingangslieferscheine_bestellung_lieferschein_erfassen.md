@@ -9,7 +9,7 @@
 | Daten einscannen |
 | Eingang Ende |
 
-Erstellen eines neuen Beleges.
+<p class="just-emphasize">Erstellen eines neuen Beleges.</p>
 
 • Als erstes wird der Start Scan Code EL der im EAN 128 verschlüsselt ist eingescannt.
 
@@ -21,7 +21,7 @@ Erstellen eines neuen Beleges.
 
 • Als letztes wird ELENDE der im EAN 128 verschlüsselt ist eingescannt.
 
-Gruppenzuordnung in der AI-Liste
+<p class="just-emphasize">Gruppenzuordnung in der AI-Liste</p>
 
 • Der Artikel hat immer die Gruppennummer 1
 
@@ -33,12 +33,12 @@ Gruppenzuordnung in der AI-Liste
 
 • Für den Lagerplatz und das Speichern von Feldern im AO eine beliebige Gruppe verwendet werden.
 
-Preise
+<p class="just-emphasize">Preise</p>
 
 Damit die Preise gezogen werden muss im Kundenstamm eine Preisklasse eingerichtet werden im Artikel muss die richtige Preismatrix hinterlegt werden, die die Preisklasse des Kunden enthält.
 
-Partie
+<p class="just-emphasize">Partie</p>
 
 Wird eine Partiebezeichnung mit dem AI-Code 10 erfasst und diese existiert noch nicht, dann wird einen neue Partie mit dieser Bezeichnung angelegt.
 
-Gebinde
+<p class="just-emphasize">Gebinde</p>

@@ -4,7 +4,7 @@
 
 Bei aktiven Subscriptionen und gesetztem SPA 851 "Passthrough aktivieren" kam es beim "Create" von Admin-Views dazu, dass diese auch mit Status "privat" zusätzlich angelegt wurden. Das gleichzeitige Vorhandensein als Admin- und Privat-Ausprägung ist ein unerwünschtes Verhalten, und wird im weiteren Verlauf von A.eins auch bemängelt. Das auslösende Feature wurde ausgebaut und damit die Ursache beseitigt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 721124[33663]
 

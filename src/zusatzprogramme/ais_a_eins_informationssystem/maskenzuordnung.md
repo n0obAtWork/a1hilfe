@@ -20,38 +20,38 @@ Bei der Zuordnung zu bestehenden Masken ( 1. und 2. ) können bis zu vier Identf
 
 Man kann einer Maske grundsätzlich mehrere Gruppen zuordnen.
 
-Maske
+<p class="just-emphasize">Maske</p>
 
 Welcher Maske soll diese Gruppe zugeordnet werden? Dies kann ein existierender Stammdatenpfleger sein. Den Maskennamen eines Stammdatenpflegers erhält man durch Drücken von **shift+strg+F5** auf der entsprechenden Maske. Im Kundenstamm lautet der Name der Maske z.B. TBKUNSTB.  
 Soll es ein eigenständiger Pfleger werden, so stehen hier die Masken AEZADDON oder AEZADDOND sowie die Masken AEZADDONT1 bis AEZADDONT22, bei denen Register verwendet werden können, zur Verfügung. Die Maske AEZADDOND unterscheidet sich nicht von AEZADDON. Bei diesen eigenständigen Stammdatenpflegern kann nur eine Ident Name/Wert erfasst werden. Der Name wird mit h.Ident$ vorbelegt.
 
 Die Masken AEZADDON(D) und AEZADDON**T** unterscheiden sich inhaltlich dadurch, dass bei der Maske AEZADDON(D) immer nur eine Gruppe dargestellt wird und bei den Masken AEZADDONT1 bis 22 jeweils alle unter der Maskenzuordnung angegebenen Gruppen gleichzeitig dargestellt werden.
 
-Vollbildmodus
+<p class="just-emphasize">Vollbildmodus</p>
 
 Hier wird eingestellt, ob die Maske im Vollbildmodus oder im Dialogmodus geöffnet wird. Wird hier ein **Ja** eingetragen, so ist es nicht möglich Breit und Höhe anzugeben, oder die Optionbox zu positionieren. Diese Option steht nur für die Masken AEZADDON / AEZADDOND / AEZADDONT… zur Verfügung. Setzt man für die Masken AEZADDONT1 bis 22 den Vollbildmodus, so wird das Register dann automatisch auf die gesamte Bildschirmgröße gesetzt, wenn gleichzeitig die Optionbox-Darstellung auf „….Tabreiter vergrößern“ steht.
 
-Breite / Höhe
+<p class="just-emphasize">Breite / Höhe</p>
 
 Wenn der Maskenname AEZADDON / AEZADDOND / AEZADDONT… lautet, kann man hier die Größe der Maske festlegen. Die Standardgröße ist 800 (Breite) \* 600(Höhe) Pixel. Wenn man diese Werte ändert, muss man die Positionierung der Optionbox beachten, sie also gegebenenfalls ausblenden oder die Position rechts oben auf dem Bildschirm wählen.
 
-Gruppe
+<p class="just-emphasize">Gruppe</p>
 
 Welche Gruppe aus dem AIS soll angezeigt werden?
 
-Letzte Änderung
+<p class="just-emphasize">Letzte Änderung</p>
 
 Hier wird angezeigt, wann die Gruppe das letzte Mal geändert worden ist. Dieses Datum wird immer automatisch gesetzt.
 
-Bedienerklasse
+<p class="just-emphasize">Bedienerklasse</p>
 
 Man kann diese Erfassung auf bestimmte Bedienerklassen beschränken. Soll die Erfassung allen Bedienerklassen zur Verfügung stehen, so bleibt dieses Feld leer, ansonsten kann man hier eine durch Komma getrennte Liste von Bedienerklassen eintragen, die diese Gruppe sehen/bearbeiten dürfen. Stellt man dem Ganzen ein Minuszeichen vorweg, so dürfen alle Bedienerklassen bis auf die hier aufgelisteten, die Gruppe verwenden.
 
-Haupttabelle
+<p class="just-emphasize">Haupttabelle</p>
 
 Diese Haupttabelle ist dann wichtig, wenn man die Gruppe als eigenständigen Pfleger einbauen will. Es ist also dann nötig, wenn es sich um eine der AEZADDON-Masken handelt. Bei den Masken AEZADDONT1-AEZADDONT22 werden bekanntermaßen alle über die Maskenzuordnung zugewiesenen Gruppen geladen. Dies bedeutet, dass es mehrere Maskenzuordnungen gibt und somit auch mehrere Haupttabellen geben könnte. Es wird jedoch nur die erste gefundene (in der Register-Reihenfolge) verwendet.
 
-Ident Masken-Feldname bis Ident Masken-Feldname4
+<p class="just-emphasize">Ident Masken-Feldname bis Ident Masken-Feldname4</p>
 
 Dieser Name ist wichtig für die Zuordnung der Gruppe zu dem bestehenden Pfleger bzw. zur eindeutigen Identifikation. Der Wert dieses Maskenfeldes versorgt den Primärschlüssel der [Relationen](./ais_einrichtung/datenbeschreibung.md) in den angehängten Gruppen. Diese bilden die Verbindung zu den auf dem Register Datenbeschreibung unter Datenherkunft angegebenen Ident-Feldern.  
 Man erhält den Namen des Feldes, indem man auf der entsprechenden Maske **shift+strg+F5** drückt.
@@ -62,15 +62,15 @@ Man erhält den Namen des Feldes, indem man auf der entsprechenden Maske **shift
 
 Der Inhalt dieses Feldes wird intern in Felder mit den Namen **IDENT, IDENT2, IDENT3** und **IDENT4** übertragen, so dass sie in der Gruppe verwendet werden können. Dies hat den Vorteil, dass Gruppen auf unterschiedlichen Masken verwendet werden können, obwohl das eigentliche Identfeld unterschiedlich geschrieben ist (z.B. Groß - und Kleinschreibung). Auf dem eigenständigen Pfleger (Maske AEZADDON) lautet der Name des Feldes im Standard immer „h.Ident$“ und wird auch so vorbelegt. Gibt man bei der Maskenverarbeitung ein anderes an - z.B. h.KontoNummer$, so wird dieses verwendet. Wichtig ist bei den AEZADDON-Masken, dass der Feldname mit einem „h.“ beginnt und mit einem „$“ endet.
 
-Ident Wert bis Ident Wert4
+<p class="just-emphasize">Ident Wert bis Ident Wert4</p>
 
 Es steht im Ändernmodus bei der Maskenzuordnung die Funktion Test zur Verfügung. Diese Funktion benötigt einen Wert für die Ident Felder. Diese müssen hier eingetragen werden. Bei der Testfunktion wird dann die Maske aufgerufen und die bisher eingerichteten AIS-Felder mit angezeigt. Die Masken können nur im Testmodus geöffnet werden, wenn im Pflegerstamm (Direktsprung **[PST]**) eine Zuordnung eingetragen ist. Für die Maske AEZADDON und viele mehr existiert dieser Eintrag bereits.
 
-Optionbox Feldname
+<p class="just-emphasize">Optionbox Feldname</p>
 
 Wie lautet der Name des Feldes für die Optionbox(**shift+strg+F5**). Häufig heißen diese Felder funlabel oder AUSWAHL. Dieser Name ist wichtig, um gegebenenfalls die Optionbox auszublenden.
 
-Optionbox Darstellung
+<p class="just-emphasize">Optionbox Darstellung</p>
 
 Ab und an will man Pfleger ohne ein Funktionsmenü erstellen. Oder sie soll nicht unten, sondern oben dargestellt werden. Hier legt man die gewünschte Darstellung fest. Die Optionen „Ausblenden und Register oben“ bzw. „Ausblenden und Register unten“ stehen nur bei den Masken, die mit AEZADDONT beginnen, zur Verfügung. Die Darstellungen, die mit „Eingeschränktes Mausmenü“ beginnen gelten für alle AEZADDON-Masken. „Eingeschränktes Mausmenü“ bedeutet, dass das Menü, welches über die rechte Maustaste geöffnet wird, nur die ESCAPE-Funktion enthält.
 
@@ -106,15 +106,15 @@ Die Darstellungsmöglichkeiten 3 „Ausblenden und Register oben“ und 4 „Aus
 | Menüband Tabreiter vergrößern | ![](../../ImagesExt/image8_1036.jpg) |
 | Menüband und Register unten | ![](../../ImagesExt/image8_1037.jpg) |
 
-Menü ohne Neu/Speichern unter
+<p class="just-emphasize">Menü ohne Neu/Speichern unter</p>
 
 Nur bei Masken, die mit AEZADDON beginnen: In der Optionbox bzw. im Menüband werden diese beiden Funktionen nicht angeboten.
 
-Private Optionbox:
+<p class="just-emphasize">Private Optionbox:</p>
 
 Es kann zu den Optionboxen eine eigene private Optionbox dazu gelinkt werden. Sind mehrere private Optionboxen definiert - z.B. wegen mehrerer Register - dann wird nur die zuerst gefundene Optionbox verwendet.
 
-Darstellung:
+<p class="just-emphasize">Darstellung:</p>
 
 Hier wird festgelegt, wo auf der Maske die Gruppe dargestellt wird.
 
@@ -132,7 +132,7 @@ Die Optionen **„eingereiht“** und **„alleinstehend“** beziehen sich auf 
 
 Die Angabe von Pixeln und Jam-Koordinaten bei Feldern unterscheidet sich bei Registerkarten. Jam-Koordinaten beziehen sich auf die linke obere Ecke des Registers, bei Pixeln immer auf die linke obere Ecke der Maske. Wird Pixelregister verwendet, so werden die Koordinaten so umgerechnet, als ob sie auch auf die linke obere Ecke des Registers beziehen.
 
-Bezeichnung/Register:
+<p class="just-emphasize">Bezeichnung/Register:</p>
 
 Dieses Feld hat zweierlei Bedeutung:
 
@@ -140,23 +140,23 @@ Dieses Feld hat zweierlei Bedeutung:
 
 • Beim Verbinden dieser Gruppe ( nur bei Maske AEZADDON oder AEZADDOND ) wird die hier eingetragene Bezeichnung in dem Funktionsmenü verwendet.
 
-Register Reihenfolge
+<p class="just-emphasize">Register Reihenfolge</p>
 
 Wenn zu einer Maske mehrere Register zugeordnet werden, kann man hier die Reihenfolge festlegen, in der diese angelegt werden.
 
-Abweichender Maskentitel
+<p class="just-emphasize">Abweichender Maskentitel</p>
 
 Diese Option steht nur dann zur Verfügung, wenn die Maske mit AEZADDON beginnt. Hiermit kann die Titelzeile gesetzt werden. Sind mehrere Titel definiert - z.B. wegen Verwendung mehrerer Register - dann wird nur der zuerst gefunden Titel angezeigt.
 
-Ohne Datenzugriff
+<p class="just-emphasize">Ohne Datenzugriff</p>
 
 Diese Option steht nur dann zur Verfügung, wenn die Maske mit AEZADDON beginnt. Im Standard werden die Daten sofort anhand einer übergebenen ID geladen. Jetzt gibt es jedoch auch die Anforderung, dass man erst in einem Feld die einen Wert abfragen möchte und anschließend zusätzliche Daten laden will. Setzt man dieses Feld auf **Ja**, werden vorläufig keine Daten geladen und es wird auch nicht automatisch gespeichert. Siehe auch Beispiel Infoblatt.
 
-Automatisch Speichern?
+<p class="just-emphasize">Automatisch Speichern?</p>
 
 Diese Option steht nur dann zur Verfügung, wenn die Maske mit AEZADDON beginnt und die Option „Ohne Datenzugriff“ nicht auf **Ja** steht. Steht hier ein **Ja**, so wird bei **ENTER** auf dem letzten Feld der Datensatz automatisch gespeichert. Ansonsten muss man mit **F9** die Erfassung des Datensatzes abschließen.
 
-Löschfunktion aktiv?
+<p class="just-emphasize">Löschfunktion aktiv?</p>
 
 Diese Option steht nur dann zur Verfügung, wenn die Maske mit AEZADDON beginnt. Trägt man hier **Ja** ein, so hat man im Ändern-Modus gleichzeitig die Möglichkeit den Datensatz auch zu löschen. Standardvorbelegung ist **Nein**.
 

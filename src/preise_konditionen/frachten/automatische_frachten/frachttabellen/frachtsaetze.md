@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/frachtstze.htm -->
 
-Nebenbuchhaltungen > Frachtverwaltung > Frachttabellen [FRA] > Ändern > Frachtsätze
+Nebenbuchhaltungen > Frachtverwaltung > Frachttabellen **[FRA]** > Ändern > Frachtsätze
 
 Innerhalb einer Frachttabelle kann es mehrere Frachtsätze für unterschiedliche Frachtzonen definiert werden.
 

@@ -16,7 +16,7 @@ Wenn während des Jahres Ware auszubuchen ist, kann pro forma eine Einkaufs-Rech
 
 Antwort:
 
-Für die Kundenänderung im direkten Zusammenhang mit der Umwandlung ist das Behandlungsschema fest zu hinterlegen. Suchen Sie in der Formularzuordnung [FRZ] die Vorgangsklasse 700 und die entsprechende Unterklasse und wählen Sie Ändern (F5).
+Für die Kundenänderung im direkten Zusammenhang mit der Umwandlung ist das Behandlungsschema fest zu hinterlegen. Suchen Sie in der Formularzuordnung **[FRZ]** die Vorgangsklasse 700 und die entsprechende Unterklasse und wählen Sie ***Ändern (F5)***.
 
 Auf dem Reiter ¨Abwicklung¨ tragen Sie dann unten im Block ¨Behandlungsschema¨ bei Kundenänderung über F3 ein Schema ein oder erstellen ein neues. 
 

@@ -4,7 +4,7 @@
 
 In der Vorgangsbearbeitung wurde die Möglichkeit geschaffen, bereits versendete Ware-Belege nochmal und gegebenenfalls mit alternativer Empfänger-Email zu versenden. Dazu wird das bereits versendete Element aus dem Archiv herangezogen. Die Funktion Belegversand wiederholen wurde entfernt. Diese hatte den Druck neu angestoßen und so einen Neuversand erzeugt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 714727[32865]
 

@@ -4,7 +4,7 @@
 
 Das Wirtschaftsjahr für das neue Jahr muss eingerichtet sein **[JAHR]**:
 
-Direktsprung [JAHR], dann Neu (F8)
+Direktsprung **[JAHR]**, dann ***Neu*** **(F8)**
 
 Geschäftsjahr = XXXX
 
@@ -22,13 +22,13 @@ Warndatum Unter- / Überschreit. = 01.01. bzw. 31.12. neues Jahr
 
 F10 / F11 Perioden Fibu / Ware aufrufen und prüfen (Schaltjahr!!)
 
-ESC und Speichern (F9)
+**ESC** und ***Speichern*** **(F9)**
 
-Periode 1 in der WAWI des neuen Wirtschaftsjahres muss eröffnet werden [PERER].
+Periode 1 in der WAWI des neuen Wirtschaftsjahres muss eröffnet werden **[PERER]**.
 
-Der Inventur-Belegnummern - Zählkreis muss eingerichtet sein **[NKS] [NKZ]**.
+Der Inventur-Belegnummern - Zählkreis muss eingerichtet sein ****[NKS]** **[NKZ]****.
 
-Unterschiedliche Inventuren müssen in Gruppen eingeteilt werden **[IVG]**,z.B. Hauptinventur mit JW (1), Zwischeninventuren unterschiedlicher Warengruppen (2).
+Unterschiedliche Inventuren müssen in Gruppen eingeteilt werden ****[IVG]****,z.B. Hauptinventur mit JW (1), Zwischeninventuren unterschiedlicher Warengruppen (2).
 
 Über die **Artikelstapelkorrektur** muss die entsprechende Inventurgruppe  
 (z.B. 1 = Hauptinventur JW) in die Artikel eingetragen werden.  
@@ -37,21 +37,21 @@ Unterschiedliche Inventuren müssen in Gruppen eingeteilt werden **[IVG]**,z.B. 
  werden keine Artikel eröffnet. Inventurgruppen dürfen nach Inventureröffnung  
  innerhalb eines Inventurjahres nicht geändert werden!
 
-Ein Inventurstamm pro Inventurgruppe muss angelegt werden **[IVS]**.**Bitte beachten:** 
+Ein Inventurstamm pro Inventurgruppe muss angelegt werden ****[IVS]****.**Bitte beachten:** 
 
 Typ der Inventur: Hauptinventur JW oder Zwischeninventur
 
 Art der Inventur: Stichtag oder Stichtag versetzt
 
-Inventurvorbereitung starten **[IVV]**
+Inventurvorbereitung starten ****[IVV]****
 
-Inventureröffnung F5
+***Inventureröffnung*** **F5**
 
-Zählliste alle Artikel ausdrucken (Vorbelegung beachten!!)
+***Zählliste alle Artikel*** ausdrucken (Vorbelegung beachten!!)
 
-Zählliste Blanko Blankoliste mit Artikel / Menge über alle Artikel
+***Zählliste Blanko*** Blankoliste mit Artikel / Menge über alle Artikel
 
-Inventuraufnahme [IVA] (Erfassen der Inventurbestände lt. Zählliste)
+Inventuraufnahme **[IVA]** (Erfassen der Inventurbestände lt. Zählliste)
 
 mit Bewertungspreis (Voreinstellung lt. Inventurstamm)
 
@@ -59,11 +59,11 @@ automatische Bewertung lt. Bewertungsgruppe im Artikelstamm
 
 folgende Optionen bestehen:
 
-Einzelkorrektur F5
+***Einzelkorrektur*** **F5**
 
-Erfassung F8
+***Erfassung*** **F8**
 
-Erfassungsprotokoll (Druck)
+***Erfassungsprotokoll*** (Druck)
 
 Mobile Datenerfassung
 
@@ -73,7 +73,7 @@ Artikel ohne Inventureröffnung
 
 Bestand ohne Aufnahme
 
-Bewertung [IVP]
+Bewertung **[IVP]**
 
 einzeln manuell erfassen
 
@@ -81,15 +81,15 @@ Kalkulation
 
 Übernahme
 
-Inventurbestand [IVB]
+Inventurbestand **[IVB]**
 
 Variante „1. Zählbestand“ mit den Funktionen:
 
-Einzelbewertung F5 (falls bei der Inventuraufnahme keine Bewertung vorgenommen wurde)
+***Einzelbewertung*** **F5** (falls bei der Inventuraufnahme keine Bewertung vorgenommen wurde)
 
 oder
 
-automatische Bewertung F9
+***automatische Bewertung*** **F9**
 
 ganze Inventur; z.B. 31.12. ...
 
@@ -105,9 +105,9 @@ Inventurbestand pro EKZ
 
 Variante „2. Differenzen je Lagerort“ mit der Funktion:
 
-Differenzenliste / Diff.-Liste (Druck)
+***Differenzenliste / Diff.-Liste*** (Druck)
 
-Abschlussarbeiten
+<p class="just-emphasize">Abschlussarbeiten</p>
 
 Bevor die Inventur abgeschlossen werden kann sind folgende Punkte zu beachten:
 
@@ -131,7 +131,7 @@ Inventurerfassung abgeschlossen (alle Artikel mit Bestand am Erhebungstag und al
 
 Ist die Bewertung vollständig und abgeschlossen?
 
-Inventurende [IVE] für folgende Abschlussarbeiten:
+Inventurende **[IVE]** für folgende Abschlussarbeiten:
 
 Inventur prüfen (mögliche Fehlermeldungen):  
 Nicht erhobene Artikel mit Bestand:
@@ -164,7 +164,7 @@ Die Abschlussanalyse nimmt folgende Prüfungen vor:
 17\. Partien mit Bestand erfasst? (SPA!)  
     
 
-Einspielen
+<p class="just-emphasize">Einspielen</p>
 
 Nur möglich, wenn vorher die Inventur abgeschlossen wurde.
 
@@ -176,7 +176,7 @@ Drucken der „Inventurliste nach EKZ“ 
 
 (Hilfsliste für die Einbuchung der Bestandswerte in die Fibu.)
 
-Inventur löschen
+<p class="just-emphasize">Inventur löschen</p>
 
 (Danach kein Ausdruck der Differenzenliste mehr möglich!)
 
@@ -188,6 +188,6 @@ Bestandswerte lt. Inventurliste nach EKZ per Sonderbuchung (SO) in der Fibu erfa
 
 verbuchen!
 
-Auswertungen und Statistiken drucken und aufbereiten [LST]
+Auswertungen und Statistiken drucken und aufbereiten **[LST]**
 
 ![](../../ImagesExt/image8_818.jpg)

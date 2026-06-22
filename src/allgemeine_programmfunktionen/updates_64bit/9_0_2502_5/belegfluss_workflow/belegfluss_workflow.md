@@ -4,7 +4,7 @@
 
 Um im Belegfluss festzustellen, aus welchem Postfach die Prozedur aufgerufen worden ist, wird eine neue Datenbankvariable namens DBVAR_BELEGFLUSS_POSTFACH eingeführt. Diese Variable enthält die aktuelle Postfach-ID und ermöglicht es, festzustellen, aus welchem Postfach die Datenbankprozedur aufgerufen wurde.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 746666[36958]
 

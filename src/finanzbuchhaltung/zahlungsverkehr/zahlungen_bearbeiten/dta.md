@@ -148,7 +148,7 @@ Die Daten für den Datenträgeraustausch in Dänemark werden über Prozeduren (A
 
 **Hinweis zum Datenträgeraustausch über eine Datenbankfunktion:**
 
-Um der immer mehr zum Tragen kommenden Vielfalt der DTA-Verfahren in Europa entgegenzukommen, wurde eine Möglichkeit geschaffen, die Daten über eine Datenbankfunktion aufzubereiten und so auszugeben. Um diese Funktion zu nutzen, muss der SPA „DTA Ausgabeformat“ auf Datenbankfunktion stehen und in Optionen (Direktsprung [OPT]) muss in DTA_FUNKTION der Name der Funktion stehen. Diese Funktion erhält als Übergabeparameter die ID des Zahlungslaufes ( ASATZ_ID aus AMIC_DTAUS_ASATZ und AMIC_DTAUS_CSATZ ) und muss einen long Varchar mit dem gesamten Dateiinhalt zurückliefern.
+Um der immer mehr zum Tragen kommenden Vielfalt der DTA-Verfahren in Europa entgegenzukommen, wurde eine Möglichkeit geschaffen, die Daten über eine Datenbankfunktion aufzubereiten und so auszugeben. Um diese Funktion zu nutzen, muss der SPA „DTA Ausgabeformat“ auf Datenbankfunktion stehen und in Optionen (Direktsprung **[OPT]**) muss in DTA_FUNKTION der Name der Funktion stehen. Diese Funktion erhält als Übergabeparameter die ID des Zahlungslaufes ( ASATZ_ID aus AMIC_DTAUS_ASATZ und AMIC_DTAUS_CSATZ ) und muss einen long Varchar mit dem gesamten Dateiinhalt zurückliefern.
 
 Beispielaufbau :
 

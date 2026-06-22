@@ -6,7 +6,7 @@ Hauptmenü > Administration > Werkzeuge > Informationssystem
 
 Direktsprung **[AIS]**
 
-Auf AIS-Masken besteht die Möglichkeit ein oder mehrere [Dashboards](../menue/das_dashboard/index.md) [DASH] darzustellen. Dabei können Dashboards ausschließlich auf AEZADDON…-Masken eingerichtet werden.
+Auf AIS-Masken besteht die Möglichkeit ein oder mehrere [Dashboards](../menue/das_dashboard/index.md) **[DASH]** darzustellen. Dabei können Dashboards ausschließlich auf AEZADDON…-Masken eingerichtet werden.
 
 Voraussetzung:
 

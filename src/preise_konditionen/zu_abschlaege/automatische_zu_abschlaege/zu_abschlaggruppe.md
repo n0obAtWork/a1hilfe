@@ -4,7 +4,7 @@
 
 Preise / Konditionen > Zu-/Abschläge > Zu-/Abschlaggruppe
 
-Oder Direktsprung [ZAGR]
+Oder Direktsprung **[ZAGR]**
 
 Artikel können eine Zu-/Abschlaggruppe und/oder eine individuelle Zu-/Abschlaggruppe sowohl im Einkauf als auch im Verkauf zugeordnet bekommen. Diese beschreibt jeweils die Zugehörigkeit zu einer Gruppe von Artikeln, die alle für Kunden und Lieferanten mit einer dort zugeordneten Zu-/Abschlagklasse beziehungsweise individuellen Zu-/Abschlagklasse einen oder mehrere zu der Gruppen-Klassen-Kombination festgelegten Zu- und Abschläge bekommen.
 

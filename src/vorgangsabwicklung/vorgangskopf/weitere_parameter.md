@@ -6,10 +6,10 @@ In vielen Anwendungen ist mit der Erfassung des Kunden die Kopfinformation abgeÂ
 
 A.eins bietet jedoch zahlreiche weitere ErfassungsmÃ¶glichkeiten an, die nachfolgend beschrieben werden.
 
-Zusatzangaben
+<p class="just-emphasize">Zusatzangaben</p>
 
 Unterhalb des Feldes Kundennummer werden wichtige Steuerungsinformationen angezeigt und abgefragt, wie z.B. Vertreter, Versandart, Lieferanschrift. Hier stellen die Vorgangsklassen unterschiedliche Anforderungen.
 
-Die konkrete Einstellung dieser Felder wird im Programmteil Individualfeldgruppen [UFLD] vorgenommen.
+Die konkrete Einstellung dieser Felder wird im Programmteil Individualfeldgruppen **[UFLD]** vorgenommen.
 
 ![](../../ImagesExt/image8_202.jpg)

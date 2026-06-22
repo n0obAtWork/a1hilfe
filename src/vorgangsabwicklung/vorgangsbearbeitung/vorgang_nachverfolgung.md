@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_vorgang_nachverfolgung.htm -->
 
-Direktsprung [VNV]
+Direktsprung **[VNV]**
 
 Mit dem Modul Vorgang Nachverfolgung werden zu einer Vorgangsposition alle zugehörigen Positionen anderer Vorgänge dargestellt. Dazu wird in einer positionsorientierten Vorgangsbearbeitungsauswahlliste eine Position ausgewählt und mittels der Tastenkombination **SHIFT F4** und der Eingabe des Direktsprungs **VNV** die Nachverfolgung dieser Position aufgerufen.
 

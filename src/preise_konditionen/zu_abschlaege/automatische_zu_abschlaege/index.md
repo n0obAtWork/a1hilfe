@@ -4,7 +4,7 @@
 
 Administration > Steuerung > Steuerungsparameter zeigen
 
-Oder Direktsprung [SPA]
+Oder Direktsprung **[SPA]**
 
 Ein Zu-/Abschlag errechnet sich aus einer Kombination aus Artikel und Kunden.
 

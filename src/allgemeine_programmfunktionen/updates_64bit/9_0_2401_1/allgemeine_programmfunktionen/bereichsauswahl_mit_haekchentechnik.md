@@ -4,7 +4,7 @@
 
 Die Bereichsauswahl der Auswahllisten und der Crystal Reporte kann so eingerichtet werden, dass einzelne Zeilen ein und ausgeblendet werden können. Damit das korrekt funktioniert, muss man die Spalte Variable füllen und auch im SQL-Text verwenden. Nach dem Ändern der Bereichsauswahl bzw. nach dem Ändern des SQL-Textes wird geprüft, ob die verwendeten Variablen auch im SQL-Text vorkommen und es wird ggf. ein Hinweis ausgegeben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 721017[34234]
 

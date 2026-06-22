@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/frzzuordnung.htm -->
 
-Sie haben nun zahlreiche Elemente auf ihrer Bedienoberfläche angebracht. Die Namen durften Sie dabei frei wählen. Nun müssen diese noch mit den von der Entwicklung zur Verfügung gestellten Datenstrukturen verknüpft werden. Dazu wird in der Formularzuordnung [FRZ] auf der [Registerkarte Kasse](../../../vorgangsabwicklung/formularzuordnung/kasse/index.md) eine Zuordnung eingetragen.
+Sie haben nun zahlreiche Elemente auf ihrer Bedienoberfläche angebracht. Die Namen durften Sie dabei frei wählen. Nun müssen diese noch mit den von der Entwicklung zur Verfügung gestellten Datenstrukturen verknüpft werden. Dazu wird in der Formularzuordnung **[FRZ]** auf der [Registerkarte Kasse](../../../vorgangsabwicklung/formularzuordnung/kasse/index.md) eine Zuordnung eingetragen.
 
 Ordnen Sie die von Ihnen benannten Elemente den einzelnen Elementen zu.
 

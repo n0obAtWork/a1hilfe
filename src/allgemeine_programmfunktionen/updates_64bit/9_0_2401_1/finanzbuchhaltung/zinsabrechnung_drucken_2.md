@@ -4,7 +4,7 @@
 
 Der Formulardruck für die Zinsabrechnung wurde um den Druckbereich Seitenfuß erweitert. Insbesondere bei mehrseitigen Zinsabrechnungen sollte dieser Fuß eingerichtet werden, um die Druckseite optimal auszunutzen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 731867[34861]
 

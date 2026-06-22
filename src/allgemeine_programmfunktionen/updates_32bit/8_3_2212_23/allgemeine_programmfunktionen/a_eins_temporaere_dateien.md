@@ -4,7 +4,7 @@
 
 A.eins schreibt seine temporären Daten jetzt gesammelt in das Unterverzeichnis "A.eins" im Temp-Verzeichnis.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 716156[33257]
 

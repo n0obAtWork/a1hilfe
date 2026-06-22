@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_Frachten_Tabellen.htm -->
 
-Nebenbuchhaltungen > Frachtverwaltung > Frachttabellen [FRA]
+Nebenbuchhaltungen > Frachtverwaltung > Frachttabellen **[FRA]**
 
 In einer Frachttabelle werden für Frachtberechnungen notwendige Festlegungen getroffen.
 

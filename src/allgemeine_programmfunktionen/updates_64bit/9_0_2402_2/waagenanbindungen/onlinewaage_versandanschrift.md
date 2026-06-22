@@ -4,7 +4,7 @@
 
 In der Waagemaske kann in dem Feld Versandadresse eine F3-Auswahl aufgerufen werden. Dort hatte die Funktion "Stammdaten" F8 keine Wirkung. Jetzt wird dort der Pfleger zur Neuanlage einer Versandanschrift aufgerufen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 736953[35519]
 

@@ -6,7 +6,7 @@ Administration > Menü > Dashboard > Variante Kachel
 
 oder
 
-Direktsprung [DASH] \> Variante Kachel
+Direktsprung **[DASH]** \> Variante Kachel
 
 Jede Prozedur bzw. jede View kann zur Gestaltung die folgenden Felder verwenden. Es wird empfohlen eine View für das Basisdesign im Dashboard zu hinterlegen und für die einzelnen Kacheln in den Prozeduren nur dort Werte zurückzuliefern, wo eine Abweichung vom Basisdesign gewünscht wird.
 

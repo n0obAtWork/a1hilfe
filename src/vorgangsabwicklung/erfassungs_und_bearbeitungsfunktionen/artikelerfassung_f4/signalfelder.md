@@ -4,7 +4,7 @@
 
 Es gibt Zustände einer Warenposition, die verschiedene buchungstechnische Folgen haben oder Informationen, die dem Erfasser deutlich sichtbar gemacht werden sollen. Diese werden mit farbigen Signalfeldern angezeigt. Bisher z.T. auf der Maske angezeigte Hinweistexte wurden durch diese Signalfelder ersetzt.
 
-Allgemeine Signalfelder
+<p class="just-emphasize">Allgemeine Signalfelder</p>
 
 | Name | Beschreibung |
 | --- | --- |
@@ -19,7 +19,7 @@ Dieser Status konnte bisher nur durch Anwahl einer Funktion analog zur Artikeler
 | (keine) Lagerabholung | Hier wird angezeigt, dass dieser Artikel zu denen gehören soll, die auf der Lieferung als Abholung im Lager gekennzeichnet werden sollen. |
 | Ausbuchen | Hier wird angezeigt, ob bei der „[Schnellen Teildisposition](./schnelle_teildisposition.md)“ die Position ausgebucht werden soll |
 
-Signalfelder aus Voreinkauf, Vorverkauf, Einlagerung und Kommission
+<p class="just-emphasize">Signalfelder aus Voreinkauf, Vorverkauf, Einlagerung und Kommission</p>
 
 Alle diese Felder lassen sich zum Zeitpunkt der (Erst-)Erfassung mit Hilfe von Menüfunktionen ein- und ausschalten (toggeln).
 
@@ -40,7 +40,7 @@ Dieser Status konnte bisher nur durch Anwahl einer Funktion analog zur Artikeler
 | Herausgabe | Einkauf | Abholung einer Einlagerung durch den Eigentümer |
 | Vereinnahmen | Einkauf | Vereinnahmung eingelagerter Ware |
 
-Weitere Signalfelder
+<p class="just-emphasize">Weitere Signalfelder</p>
 
 | Anzeige | Beschreibung |
 | --- | --- |

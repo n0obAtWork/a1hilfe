@@ -23,19 +23,19 @@ Die Prozedur muss folgende Parameter zurückliefern.
 | Planlieferdatum | date |
 | BewertungsPreis | numeric(15,4) |
 
-Klasse
+<p class="just-emphasize">Klasse</p>
 
 Wird die Klasse mit einer 0 zurückgegeben so wird ein Lieferschein erstellt, wird die Klasse mit 5110 zurückgegeben, so wird die Lagerumbuchung erstellt.
 
-Unterklasse
+<p class="just-emphasize">Unterklasse</p>
 
 Hier wird die Unterklasse der Lagerumbuchung zurückgegeben.
 
-Ursprungslager
+<p class="just-emphasize">Ursprungslager</p>
 
 Das Ursprungslager ist das Lager, auf dem eigentlich die Ware angeliefert werden sollte. Das Ziel Lager ist das Lager aus dem Waagen Satz.
 
-Buchungstyp
+<p class="just-emphasize">Buchungstyp</p>
 
 Der Buchungstyp für die Lagerumbuchung.
 
@@ -45,15 +45,15 @@ Der Buchungstyp für die Lagerumbuchung.
 
 • 2 für Rechnung
 
-Planlieferdatum
+<p class="just-emphasize">Planlieferdatum</p>
 
 Hier kann ein spezielles Planungslieferdatum angegeben werden bleibt dieser Parameter leer so wird das Tagesdatum genommen.
 
-Bewertungspreis
+<p class="just-emphasize">Bewertungspreis</p>
 
 Wird ein Bewertungspreis > 0 zurückgegeben so wird dieser Bewertungspreis genommen. Ansonsten startet die normale Preisfindung des Beleges.
 
-Beispielprozedur
+<p class="just-emphasize">Beispielprozedur</p>
 
 ```sql
 CREATE PROCEDURE p_liefer_lagerumbuch

@@ -32,7 +32,7 @@ Als erstes wird der Startscancode **LGPU** mittels Scanner erfasst.
 
 Artikeleingabe
 
-Nach dem der Scancode erfolgreich verarbeitet worden ist, muss als nächstes der Artikel erfasst werden. Hier kann der EAN-Code entweder per Scanner gescannt werden, oder per Hand eingegeben werden. Des Weiteren ist es möglich die Artikelnummer per Hand zu erfassen. Sollte der erfasste Artikel nicht gefunden werden, so wird in der Relation ImportVorgPosition auch ein neuer Datensatz angelegt. Dieser kann im Nachlauf unter [Vorgangsimport](../../../../vorgangsabwicklung/vorgangsimport/index.md) [VIMP]bearbeitet werden.
+Nach dem der Scancode erfolgreich verarbeitet worden ist, muss als nächstes der Artikel erfasst werden. Hier kann der EAN-Code entweder per Scanner gescannt werden, oder per Hand eingegeben werden. Des Weiteren ist es möglich die Artikelnummer per Hand zu erfassen. Sollte der erfasste Artikel nicht gefunden werden, so wird in der Relation ImportVorgPosition auch ein neuer Datensatz angelegt. Dieser kann im Nachlauf unter [Vorgangsimport](../../../../vorgangsabwicklung/vorgangsimport/index.md) [**VIMP**]bearbeitet werden.
 
 **Wenn ein Artikel nicht gefunden worden ist, kann dies folgende Ursachen haben.**
 
@@ -72,7 +72,7 @@ Durch das erstmalige Scannen des Befehls **STORNO** wird der Scanner in den Stor
 
 Um eine Lagerplatzumbuchung mit dem Scanner abzuschließen muss der Befehl **LPGUENDE** erfasst werden.
 
-Die erfassten Daten werden in der Anwendung [Vorgangsimport](../../../../vorgangsabwicklung/vorgangsimport/index.md) [VIMP] gespeichert und können in der Anwendung noch bearbeitet werden.
+Die erfassten Daten werden in der Anwendung [Vorgangsimport](../../../../vorgangsabwicklung/vorgangsimport/index.md) [**VIMP**] gespeichert und können in der Anwendung noch bearbeitet werden.
 
 Hauptmenü > Externe Kommunikation > Stammdatenimport > Vorgangsimport
 

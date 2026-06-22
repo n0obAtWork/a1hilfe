@@ -12,13 +12,13 @@ Der Betrag, den man erfasst, ist immer der Betrag in der Währung, die hinter de
 
  ![](../../ImagesExt/image8_616.png)
 
-Ist im Kunden- / Lieferantenstamm als Währung die Buchwährung hinterlegt, dann wird das Feld, in dem der „Kontosaldo in der im Kundenstamm hinterlegten Währung“ angezeigt wird, ausgeblendet. Die Währung des Beleges kann mit der Funktion Währung F5 geändert werden.
+Ist im Kunden- / Lieferantenstamm als Währung die Buchwährung hinterlegt, dann wird das Feld, in dem der „Kontosaldo in der im Kundenstamm hinterlegten Währung“ angezeigt wird, ausgeblendet. Die Währung des Beleges kann mit der Funktion ***Währung*** **F5** geändert werden.
 
 ![](../../ImagesExt/image8_617.png)
 
 Hier kann man sowohl die Währung oder den Währungskurs ändern. Bekommt man z.B. von seiner Bank einen Beleg, so ist dort der verwendete Kurs, der u.U. von den Kursen in der Währungskurstabelle abweicht, angegeben. Der Kurs, den man hier eingibt, wird nicht in der Währungstabelle sondern nur im Beleg gespeichert. Es ist immer nur eins der drei Felder mit den Kursen freigeschaltet. Welches der Felder verwendet wird, ist in den [Einrichterparameter](./einrichterparameter_waehrung.md) der Belegerfassung hinterlegt.
 
-Hinter „Aktuelle Kurse gültig ab“ steht das Datum, zu dem die letzten Kurse gepflegt wurden. Stellt man hier fest, dass man die Kurse für diesen Tag noch nicht eingetragen hat, kann man von hier sofort mit F8 diese Stammdaten eintragen.
+Hinter „Aktuelle Kurse gültig ab“ steht das Datum, zu dem die letzten Kurse gepflegt wurden. Stellt man hier fest, dass man die Kurse für diesen Tag noch nicht eingetragen hat, kann man von hier sofort mit **F8** diese Stammdaten eintragen.
 
 Anschließend kommt noch eine Abfrage, falls bereits Daten erfasst wurden:
 

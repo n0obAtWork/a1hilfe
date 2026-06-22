@@ -4,7 +4,7 @@
 
 Zur Übertragung an AnyBill müssen die Mengeneinheiten umgeschlüsselt werden. Neu hinzugekommen sind die AnyBill-Mengeneinheiten m², m³ und KWh. Unbekannte Mengeneinheiten werden stets nur als C64 (Stück) übertragen. Einen Hinweis gibt es ggf. ins Fehlerprotokoll. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 751140[38495]
 

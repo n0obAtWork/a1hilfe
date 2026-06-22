@@ -4,7 +4,7 @@
 
 Das neue Kartenmodul in A.eins arbeitet mit einem Google-API-Key, der sowohl für die Beschaffung von Geodaten als auch für die Anzeige der Karte verwendet wird. Da MapQuest zeitgleich seinen kostenlosen Geodatendienst eingestellt hat, gibt es fortan nur noch einen API-Key von Google im Mandantenstamm. Die Auswahlmöglichkeit für den Geodatendienst ist entfallen. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 732360[35249]
 

@@ -4,7 +4,7 @@
 
 In der Anwendung Preiskalkulation mit Excel [PKX] ist ein Fehler in der Variante Preiskalkulation Protokoll aufgetreten. Für einen ausgewählten Protokoll-Eintrag konnte die zugehörige Excel-Datei der importierten Preisliste mit der Funktion Dokument anzeigen nicht geöffnet werden. Dies wurde nun behoben und die Variante mit ihrer Auswahlliste entsprechend angepasst.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 746065[38898]
 

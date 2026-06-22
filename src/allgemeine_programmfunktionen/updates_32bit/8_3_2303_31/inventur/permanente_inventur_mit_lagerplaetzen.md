@@ -4,7 +4,7 @@
 
 Bei der Nutzung der permanenten Inventur im Zusammenspiel mit Lagerplätzen wurden die Bestände auf den Lagerplätzen nicht korrekt aktualisiert. Bei einem späteren WAREO wurden dann wieder die korrekten Stände auf den Lagerplätzen hergestellt. Die Behandlung wurde nun korrigiert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 716368[33574]
 

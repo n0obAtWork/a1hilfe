@@ -4,7 +4,7 @@
 
 Die Produktionsmaske wurde für eine Auflösung von 1920 x 1080 Bildpunkte optimiert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 716016[33122]
 

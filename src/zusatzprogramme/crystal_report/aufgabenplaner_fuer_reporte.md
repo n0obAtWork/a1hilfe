@@ -4,7 +4,7 @@
 
 Die Erstellung eines Reports kann einige Zeit in Anspruch nehmen. Unter Umständen ist eine Menge an Daten zu sammeln und die Last der Datensuche behindert Anwender bei der Arbeit mit A.eins. Der Aufgabenplaner erstellt für die Windows-Aufgabenplanung einen Eintrag. Voraussetzung dafür, dass der Report zu der angegebenen Zeit ausgeführt wird, ist daher, dass der eigene Rechner zu dem Zeitpunkt läuft und der Anwender angemeldet ist – der Rechner kann natürlich trotzdem gesperrt sein.
 
-Den Aufgabenplaner erreicht man, indem man von der Bereichsauswahl des Reports - oder direkt in der Vorschau des Crystal Reports - die Funktion „Aufgabenplaner für Reporte“ F8 aufruft.
+Den Aufgabenplaner erreicht man, indem man von der Bereichsauswahl des Reports - oder direkt in der Vorschau des Crystal Reports - die Funktion „***Aufgabenplaner für Reporte***“ **F8** aufruft.
 
 ![](../../ImagesExt/image8_1161.jpg)
 
@@ -37,7 +37,7 @@ Daraufhin öffnet sich ein weiterer Dialog, in dem man angibt, wann der Report e
 | Erweiterte Optionen | Unter den erweiterten Optionen kann noch der Wochentag ausgewählt werden, an dem die Aufgabe laufen soll. Diese Option steht nur zur Verfügung, wenn als Plantyp „wöchentlich“ oder „monatlich“ ausgewählt wurde.  
  |
 
-Wenn man dann die Aufgabe mit der Funktion „Speichern“ F9 erstellt, so öffnet sich ein Fenster in dem angezeigt wird, dass die neue Aufgabe erfolgreich erstellt wurde.
+Wenn man dann die Aufgabe mit der Funktion „***Speichern***“ **F9** erstellt, so öffnet sich ein Fenster in dem angezeigt wird, dass die neue Aufgabe erfolgreich erstellt wurde.
 
 ![](../../ImagesExt/image8_1163.png)
 
@@ -47,6 +47,6 @@ Diese Aufgabe findet man jetzt in der **Aufgabenplanung** von Windows in der Pla
 
 Zusatzfunktionen
 
-Aufgabenplaner aufrufen F6: Diese Funktion steht dann zur Verfügung, wenn der Anwender eigene Aufgaben aus A.eins heraus erstellt hat.
+***Aufgabenplaner aufrufen*** **F6:** Diese Funktion steht dann zur Verfügung, wenn der Anwender eigene Aufgaben aus A.eins heraus erstellt hat.
 
-Archiv anzeigen Strg+F12: Sobald für den Anwender Archiveinträge zu diesem Report existieren, die aus dem Aufgabenplaner heraus erstellt wurden, gelangt man von hier in die Archiv-Ansicht.
+***Archiv anzeigen*** **Strg+F12**: Sobald für den Anwender Archiveinträge zu diesem Report existieren, die aus dem Aufgabenplaner heraus erstellt wurden, gelangt man von hier in die Archiv-Ansicht.

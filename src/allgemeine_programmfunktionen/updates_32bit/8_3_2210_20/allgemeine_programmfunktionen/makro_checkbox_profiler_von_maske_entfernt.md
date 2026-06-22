@@ -4,7 +4,7 @@
 
 In der Anwendung [MAKRO] wurde die Checkbox "Profiler" auf der Pascal-Script Maske entfernt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 715125[32787]
 

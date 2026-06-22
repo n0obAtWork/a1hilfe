@@ -4,7 +4,7 @@
 
 Erstellt man einen Datev-Export, so werden auch Belege mit 0,00 Umsatz mit aufgesammelt. Belege mit Umsatz 0,00 werden jedoch nicht mit in die Datei übernommen. Sind nur Belege mit Umsatz 0,00 aufgesammelt worden kommt jetzt die Meldung "Der Export enthält keine Belege. Es wurden keine Bewegungsdaten exportiert."
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 724270[33911]
 

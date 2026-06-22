@@ -4,7 +4,7 @@
 
 In den Kontraktbewegungen werden ab jetzt bei Aufträgen und Bestellungen die Auftragsnummer und Bestellnummer angezeigt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 714314[32861]
 

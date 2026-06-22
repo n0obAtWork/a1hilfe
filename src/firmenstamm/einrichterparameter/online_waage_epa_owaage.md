@@ -15,7 +15,7 @@ Bei Nein wird die Menge des Auftrages auf Null gesetzt. Er bleibt im System erha
 | Vorgang erzeugen: Belegdatum der Waage als Lieferdatum anstatt des Tagesdatums | Nein | Bei der Waage-Anwendung „Vorgang erzeugen“ wird im Lieferschein als Lieferdatum das Tagesdatum (Datum der Vorgangserzeugung) eingetragen. Es gibt die Möglichkeit, das Datum des Waagenbeleges auch als Lieferdatum im Lieferschein zu übernehmen. Dazu muss der EPA „Vorgang erzeugen: Belegdatum als Lieferdatum anstatt des Tagesdatums“ auf ‚JA’ gesetzt werden. Das ist vor allem dann sinnvoll, wenn aus Wiegungen erst einige Wochen später Vorgänge erzeugt werden. |
 | Belegdatum bearbeiten | Nein | Setzt man diesen Einrichterparameter auf Ja, besteht die Möglichkeit, das Datum zu ändern.  
    
-Das Belegdatum wird mit dem aktuellen Datum (heute) vorbelegt. Es ist nicht das Tagesdatum/Vorbelegungsdatum welches man über den Direktsprung [DAT] setzen kann bzw. welches beim Start von A.eins mit dem Rechnerdatum vorbelegt wird. Dieses Tagesdatum ändert sich nämlich nicht, wenn man über Nacht in A.eins eingeloggt bleibt bzw. ist falsch belegt, wenn die Rechnereinstellungen nicht stimmen. Deshalb wird als Datum der Wert von TODAY(\*) über SQL abgefragt und als Belegdatum verwendet. |
+Das Belegdatum wird mit dem aktuellen Datum (heute) vorbelegt. Es ist nicht das Tagesdatum/Vorbelegungsdatum welches man über den Direktsprung **[DAT]** setzen kann bzw. welches beim Start von A.eins mit dem Rechnerdatum vorbelegt wird. Dieses Tagesdatum ändert sich nämlich nicht, wenn man über Nacht in A.eins eingeloggt bleibt bzw. ist falsch belegt, wenn die Rechnereinstellungen nicht stimmen. Deshalb wird als Datum der Wert von TODAY(\*) über SQL abgefragt und als Belegdatum verwendet. |
 | Belegnr bearbeiten | Nein | Setzt man diesen Einrichterparameter auf Ja, dann hat man die Möglichkeit die Belegnr. zu ändern. Die Belegnr. wird vorbelegt und man kann sie dann editieren. |
 | Darf gleiche Partie mit Belegnummer vorkommen | Ohne Abfrage | |
 | Vorlage/Wiegetyp wird im ÄndernFall auf der Maske deaktiviert | Ja | Obsolet wird jetzt im [Wiegeprozess](../../waagenanbindung/waagenanbindung_online_waage/prozess_einrichten/index.md) auf der Registerkarte [Bildschirm](../../waagenanbindung/waagenanbindung_online_waage/prozess_einrichten/registerkarte_bildschirm.md) im Feld Prozessverhalten gepflegt. |
@@ -27,16 +27,16 @@ Das Belegdatum wird mit dem aktuellen Datum (heute) vorbelegt. Es ist nicht das 
 | Nummer des Qualitätfeldes steuert Feuchteproz. | | Hier kann man festlegen mit welchem Qualitätsfeldinhalt das Feld Feuchteprozent gefüllt werden soll.  
 Beispiel: Wir haben die Nummer 4 in den Einrichterparameter eingetragen. Im 4. Qualitätsfeld auf der Waagenmaske tragen wir danach 12,00 ein. Der Einrichterparameter bewirkt dann, dass in dem Feld Feuchteprozent sofort die 12 % eingetragen werden. |
 | Analysewertnr. aus Waage Feuchteproz. | 61 | Vorbelegt mit 61  
-Hier legt man fest, unter welcher Nummer der Wert für die Feuchte (in Prozent) in den Analysewerten des Rohwarebeleges [RWWE] wieder zu finden ist.  
+Hier legt man fest, unter welcher Nummer der Wert für die Feuchte (in Prozent) in den Analysewerten des Rohwarebeleges **[RWWE]** wieder zu finden ist.  
 Beim Öffnen der Waagenmaske findet eine Prüfung statt, ob Analysewertnummern doppelt vergeben wurden. Falls ja erhält man eine Warnung.  
 Im Beispiel unten sind es 12 %. |
 | Feuchte muss zum Erzeugen von Rohwarenbelegen angegeben werden | Ja | Wenn man Rohwarenbelege auch erzeugen möchte, wenn die Feuchte nicht eingegeben wurde, dann stellt man diesen Parameter auf Nein ein. |
 | Numerisches Format für Gewichtsanzeige | N2 | Hier bestimmt man die Nachkommastellen für die 3 Gewichtsanzeigefelder auf der Maske.  
 Auswahl von N0-N6  
 Vorbelegt mit N2 |
-| Analysewertnr. aus Waage Frachtkennzeichen | 60 | Hier legt man fest, unter welcher Nummer der Wert fürs Frachtkennzeichen in den Analysewerten des Rohwarebeleges [RWWE] / [RWWV] wieder zu finden ist.  
+| Analysewertnr. aus Waage Frachtkennzeichen | 60 | Hier legt man fest, unter welcher Nummer der Wert fürs Frachtkennzeichen in den Analysewerten des Rohwarebeleges **[RWWE]** / **[RWWV]** wieder zu finden ist.  
 Beim Öffnen der Waagenmaske findet eine Prüfung statt, ob Analysewertnummern doppelt vergeben wurden. Falls ja, erhält man eine Warnung. |
-| Analysewertnr. aus Waage Fremdfeuchte | 63 | Hier legt man fest, unter welcher Nummer der Wert für die Fremdfeuchte in den Analysewerten des Rohwarebeleges [RWWE] wieder zu finden ist.  
+| Analysewertnr. aus Waage Fremdfeuchte | 63 | Hier legt man fest, unter welcher Nummer der Wert für die Fremdfeuchte in den Analysewerten des Rohwarebeleges **[RWWE]** wieder zu finden ist.  
 Beim Öffnen der Waagenmaske findet eine Prüfung statt, ob Analysewertnummern doppelt vergeben wurden. Falls ja, erhält man eine Warnung. |
 | Nur Hinweis bei gesperrten Aufträgen (sonst Sperre) | Nein | Wenn bei Aufträgen das Sperrkennzeichen für die Weiterverarbeitung, Umwandlung oder Bearbeitung gesetzt ist, dann erhält man eine Fehlermeldung bei Auswahl des Auftrages auf dem Feld Kunde. Man ist gezwungen, einen nicht gesperrten Auftrag auszuwählen.  
 Mit diesem Einrichterparameter kann man die harte Auswahlsperre in einen Warnhinweis wandeln. Damit sind auch gesperrte Aufträge auf dem Feld Kunde auswählbar. Es ist aber zu bedenken, dass die Vorgangserzeugung bei gesperrten Aufträgen nicht möglich ist. |
@@ -52,7 +52,7 @@ Ist ein Kontrakt in der Waagenmaske ausdrücklich ausgewählt worden, wird diese
 | Vorbelegung Lagerplatz (Standard=0) | 0 | Belegt den Lagerplatz vor |
 | Lagerplatzabfrage aktiv | Nein | Ja aktiviert die Lagerplatzabfrage. Das Feld Lagerplatz auf der Waagenmaske wird dadurch editierbar.  
 Man kann dann die Vorbelegung des Feldes auf der Waagenmaske durch den Einrichterparameter Vorbelegung Lagerplatz ändern. |
-| Vorbelegung Lager aus Auftrag (sonst VKons) | Nein | Belegt das Lager mit dem Lager aus dem beim Kunden gewählten Auftrag vor. Sonst wird als Vorbelegung das Lager aus [VKONS] genommen. |
+| Vorbelegung Lager aus Auftrag (sonst VKons) | Nein | Belegt das Lager mit dem Lager aus dem beim Kunden gewählten Auftrag vor. Sonst wird als Vorbelegung das Lager aus **[VKONS]** genommen. |
 | Textlabel zum Bemerkung1 Feld | | Hier besteht die Möglichkeit die Bezeichnung des Bemerkungsfeldes eins zu individualisieren. |
 | Textlabel zum Bemerkung2 Feld | | Hier besteht die Möglichkeit die Bezeichnung des Bemerkungsfeldes zwei zu individualisieren. |
 | Textlabel zum Bemerkung3 Feld | | Hier besteht die Möglichkeit die Bezeichnung des Bemerkungsfeldes drei zu individualisieren. |
@@ -138,10 +138,10 @@ Mit Nein deaktiviert man diese Abfrage.
 Dann entscheidet der Einrichterparameter **‚Vorgangskopie:Prozentzahl der Menge bei deren Unterschreiten Auftrag Storno’** ob storniert/ausgebucht werden soll, oder ob der Auftrag mit einer entsprechenden Restmenge erhalten bleibt. Ist die Restmenge kleiner als der angegebene Grenzwert, dann entscheidet der Einrichterparameter ‚**Sollen die Aufträge komplett storniert werden (sonst ausbuchen)?**’ ob storniert oder ausgebucht wird. |
 | Teildisposition/Vorgangskopie aus Auftrag | Nein | Man kann wählen zwischen Nein, Teildispo und Vorgangskopie.  
 Man sollte sich für die neuere Alternative der Vorgangskopie entscheiden  
-Wählt man nicht Nein, dann kann man auf dem Feld Kunde einen Auftrag mit F3 wählen, für den die Daten dann in die Waagemaske übernommen werden. Welche Auswahl man mit F3 erhält, wird über den EPA Itembox für Teildispo aus Auftrag festgelegt.  
+Wählt man nicht Nein, dann kann man auf dem Feld Kunde einen Auftrag mit **F3** wählen, für den die Daten dann in die Waagemaske übernommen werden. Welche Auswahl man mit **F3** erhält, wird über den EPA Itembox für Teildispo aus Auftrag festgelegt.  
 Wird jetzt z.B. eine Teilmenge eines Auftrages gewogen, dann wird die Menge im Auftrag dementsprechend angepasst. |
-| Itembox für Teildispo/Vorgangskopie aus Auftrag | IB_KU_MIT_AUFTRAG_WAAGE | Hier kann man festlegen, welche Auswahl erscheinen soll, wenn man auf dem Feld Kunde F3 drückt. Ist nur wirksam, wenn der EPA Teildisposition/Vorgangskopie aus Auftrag nicht auf Nein steht. |
-| Vermehrungsanlieferung | Nein | Die Auswahl mit F3 beim Kunden ist die Auswahl ‚Kundenauswahl im Vertrag’, wenn dieser EPA auf Ja gesetzt wird. Die Artikelauswahl wird deaktiviert. Man wählt über das Feld Sorte aus. |
+| Itembox für Teildispo/Vorgangskopie aus Auftrag | IB_KU_MIT_AUFTRAG_WAAGE | Hier kann man festlegen, welche Auswahl erscheinen soll, wenn man auf dem Feld Kunde **F3** drückt. Ist nur wirksam, wenn der EPA Teildisposition/Vorgangskopie aus Auftrag nicht auf Nein steht. |
+| Vermehrungsanlieferung | Nein | Die Auswahl mit **F3** beim Kunden ist die Auswahl ‚Kundenauswahl im Vertrag’, wenn dieser EPA auf Ja gesetzt wird. Die Artikelauswahl wird deaktiviert. Man wählt über das Feld Sorte aus. |
 | Bei Verwendung mehrerer Waagen: Wechsel des Profils möglich | Nein | Obsolet wird jetzt im [Wiegeprozess](../../waagenanbindung/waagenanbindung_online_waage/prozess_einrichten/index.md) auf der Registerkarte [Bildschirm](../../waagenanbindung/waagenanbindung_online_waage/prozess_einrichten/registerkarte_bildschirm.md) im Feld Terminalverhalten gepflegt. |
 | Lagerumbuchung ME Nummer des Einkaufs anstatt der ME Nummer des Profils ziehen | Nein | Wenn der Einrichter auf ja gestellt wird, dann wird die Mengeneinheitsnummer des Artikels gezogen |
 | Soll eine Meldung erscheinen wenn die Auftragsposition überbucht wird. | Nein | Wenn dieser Einrichterparameter auf Ja gestellt wird, so entscheidet der Anwender ob die Position überbucht, aufgeteilt oder abgebrochen werden soll. Wird der Einrichterparameter auf Nein gestellt, so kommt die Abfrage nicht und die Einstellung des Einrichterparameters (Verhalten bei größer gewogener Menge als Positionsmenge) greift. |

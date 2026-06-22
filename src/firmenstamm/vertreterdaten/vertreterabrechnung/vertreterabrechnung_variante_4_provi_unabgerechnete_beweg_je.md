@@ -46,7 +46,7 @@ Die 4.Variante zeigt alle provisionierte Warenbewegungen an, die noch nicht abge
 
 | Funktion | Beschreibung |
 | --- | --- |
-| Keine Provision (F7) | |
-| Provisionsermittlung (F9) | |
+| Keine Provision **(F7)** | |
+| Provisionsermittlung **(F9)** | |
 
 </details>

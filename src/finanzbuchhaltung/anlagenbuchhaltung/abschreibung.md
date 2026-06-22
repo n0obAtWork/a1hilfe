@@ -4,9 +4,9 @@
 
 Hauptmenü > Anlagenbuchhaltung > Anlagenbuchhaltung > AfA-Vorschlag erstellen
 
-Direktsprung [ANKAV]
+Direktsprung **[ANKAV]**
 
-Abschreibungen werden in einem Stapellauf erstellt und zuerst in eine vorläufige Liste gestellt. Diese Vorschläge können dann in der Anwendung „AfA-Vorschlag bearbeiten“ (Direktsprung [ANKAB]) kontrolliert und geändert werden, bevor man sie endgültig freigibt.
+Abschreibungen werden in einem Stapellauf erstellt und zuerst in eine vorläufige Liste gestellt. Diese Vorschläge können dann in der Anwendung „AfA-Vorschlag bearbeiten“ (Direktsprung **[ANKAB]**) kontrolliert und geändert werden, bevor man sie endgültig freigibt.
 
 Beim Errechnen der Abschreibung gibt es eine Besonderheit bei nachträglichen Anschaffungs- und Herstellungskosten (Zugängen bzw. Teilabgängen). Die sich aus diesen ergebende neue Bemessungsgrundlage wird auf die Restnutzungsdauer verteilt, d.h. die Abschreibung wird anteilig mit der alten Bemessungsgrundlage bis zum Zu- bzw. Teilabgang errechnet. Es gibt jedoch auch die Möglichkeit aus Vereinfachungsgründen diese Kosten so zu berücksichtigen, als seien sie zu Beginn des Jahres entstanden (R 7.4 Abs. 9 Satz3 EStR). Dies lässt sich durch die Option „Vereinfachungsregel bei Zu- und Abgängen anwenden“ im [Firmenstamm](./einstellungen_anlagenbuchhaltung.md) einstellen.
 
@@ -27,7 +27,7 @@ ausgegeben.
 | Inventarnummer | Gibt man hier etwas ein, so werden nur für die Anlagegüter AfA-Vorschläge erstellt, die dieser Inventarnummer entsprechen. Intern erfolgt die Auswahl mit dem SQL-Befehl „like“. Das hat den Vorteil, dass man so – bei entsprechender Vergabe der Inventarnummer – eine Gruppe von Anlagegütern verarbeiten kann. Man gibt z.B. nur die ersten Stellen der Inventarnummer gefolgt von einem Prozentzeichen an. Dadurch weiß das System, dass alle so beginnenden Anlagegüter verarbeitet werden sollen. Lässt man das Prozentzeichen weg, wird nach genau dieser Nummer gesucht. Lässt man das Feld leer, werden alle Anlagegüter verarbeitet.  
  |
 
-Nachdem man diesen Vorgang mit F9 gestartet hat, werden im unteren Bereich der Abfragemaske die gerade bearbeiteten Anlagegüter angezeigt. Wenn noch AfA-Vorschläge existieren, die noch nicht freigegeben wurden, so erscheint die Meldung:
+Nachdem man diesen Vorgang mit **F9** gestartet hat, werden im unteren Bereich der Abfragemaske die gerade bearbeiteten Anlagegüter angezeigt. Wenn noch AfA-Vorschläge existieren, die noch nicht freigegeben wurden, so erscheint die Meldung:
 
 „Es existiert noch ein nicht abgearbeiteter Abschreibungsvorschlag.“
 
@@ -45,7 +45,7 @@ Die so entstandenen Vorschläge lassen sich unter
 
 Hauptmenü > Anlagenbuchhaltung > Anlagenbuchhaltung > AfA-Vorschlag
 
-(Direktsprung [ANKAB]) weiter bearbeiten. Dort stehen die Funktionen:
+(Direktsprung **[ANKAB]**) weiter bearbeiten. Dort stehen die Funktionen:
 
 • Löschen
 
@@ -73,7 +73,7 @@ Bei der Eingabe der Abschreibung wird geprüft, ob der Anhaltewert(s.o.) nicht u
 
 Freigabe
 
-Hat man alle Vorschläge kontrolliert, werden sie über die Funktion Freigabe/Eintrag Primanota F9 in eine Abschreibung umgewandelt. Bei der Umwandlung werden alle Anlagegüter, die den Anhaltewert erreicht haben als vollständig abgeschrieben gekennzeichnet. Gleichzeitig werden Sammelbelege mit den eingerichteten Anlagen/AfA-Konten bzw. den [Kostenstellen](../kostenrechnung/kostenstellen.md), [Kostenträgern](../kostenrechnung/kostentraeger.md) und [Kostenobjekten](../kostenrechnung/kostenobjekte/index.md) in der Finanzbuchhaltung erzeugt. Diese Belege werden je nach Einstellung im Firmenstamm für die steuerrechtlichen oder handelsrechtlichen Abschreibungen erzeugt. Es erfolgt dann eine Sammelbuchung, bei der die Positionen des Beleges pro Anlagenkonto, [Kostenstelle](../kostenrechnung/kostenstellen.md), [Kostenträger](../kostenrechnung/kostentraeger.md) und [Kostenobjekt](../kostenrechnung/kostenobjekte/index.md) gerafft werden. Der so entstandene Beleg kann dann in der Primanota bearbeitet werden.
+Hat man alle Vorschläge kontrolliert, werden sie über die Funktion ***Freigabe/Eintrag Primanota*** **F9** in eine Abschreibung umgewandelt. Bei der Umwandlung werden alle Anlagegüter, die den Anhaltewert erreicht haben als vollständig abgeschrieben gekennzeichnet. Gleichzeitig werden Sammelbelege mit den eingerichteten Anlagen/AfA-Konten bzw. den [Kostenstellen](../kostenrechnung/kostenstellen.md), [Kostenträgern](../kostenrechnung/kostentraeger.md) und [Kostenobjekten](../kostenrechnung/kostenobjekte/index.md) in der Finanzbuchhaltung erzeugt. Diese Belege werden je nach Einstellung im Firmenstamm für die steuerrechtlichen oder handelsrechtlichen Abschreibungen erzeugt. Es erfolgt dann eine Sammelbuchung, bei der die Positionen des Beleges pro Anlagenkonto, [Kostenstelle](../kostenrechnung/kostenstellen.md), [Kostenträger](../kostenrechnung/kostentraeger.md) und [Kostenobjekt](../kostenrechnung/kostenobjekte/index.md) gerafft werden. Der so entstandene Beleg kann dann in der Primanota bearbeitet werden.
 
 Möchte man keine Belege in der Finanzbuchhaltung erzeugen, so steht hierfür ein Einrichterparameter zu Verfügung „KEINEN Beleg für die Primanota erzeugen?“. Stellt man diesen auf **Ja**, so erscheint dann in der Abfrage der Zusatz „ohne Erstellung eines AfA-Beleges“ und es werden keine Buchungen erzeugt. Diese müssen dann ggf. manuell erzeugt werden.
 

@@ -4,7 +4,7 @@
 
 Bei der Datenübernahme [DUEB] wurde beim XML-Import immer dann, wenn die Steuergruppe mit übergeben wurde, diese mit der Steuergruppe aus dem Kundenstamm geprüft und ggf. der betroffene Beleg nicht mit importiert. Diese Prüfung findet nicht mehr statt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 726945[34214]
 

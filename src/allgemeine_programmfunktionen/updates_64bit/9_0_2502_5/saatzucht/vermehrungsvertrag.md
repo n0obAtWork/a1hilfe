@@ -4,7 +4,7 @@
 
 In den Feldern Vermehrer, VO-Firma, UVO-Firma und Aufbereiter kann jetzt nebens der Nummer auch die Bezeichnung des Vermehrers, VO-Firma, UVO-Firma und Aufbereiter eingegeben werden. Das Feld Erntejahr ist jetzt immer Pflegbar
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 748412[37673]
 

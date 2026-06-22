@@ -4,7 +4,7 @@
 
 Die Maske "Kontraktmengenzeitraum" konnte nicht mehr geöffnet werden. Dieser Fehler wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 737982[35765]
 

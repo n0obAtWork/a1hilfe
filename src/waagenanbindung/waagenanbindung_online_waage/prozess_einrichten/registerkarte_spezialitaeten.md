@@ -15,7 +15,7 @@ Wechsel der Vorlage
 Wechselt man die Vorlage, dann wird das Feld Terminal entsprechend mit angepasst, wenn die Vorlage ein Terminal enthält. Enthält sie keines, dann wird das Feld Terminal wieder zum Editieren freigegeben.  
 Bearbeiten  
     
-Öffnet man die Waagenmaske mit F5 zum Bearbeiten, dann wird das Feld Terminal abhängig von der Wiegung bzw. vom Status gefüllt.  
+Öffnet man die Waagenmaske mit **F5** zum Bearbeiten, dann wird das Feld Terminal abhängig von der Wiegung bzw. vom Status gefüllt.  
 Status eröffnet:  
 Es wurde noch keine Wiegung durchgeführt, deshalb wird zunächst das zuletzt verwendete Terminal geladen. Enthält die verwendete Vorlage ein Terminal, so wird dieses Terminal in die Maske übernommen und das Feld deaktiviert.   
 Status 1te Wiegung:  

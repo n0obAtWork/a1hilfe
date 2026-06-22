@@ -6,16 +6,16 @@ Aufträge entstehen durch Neuerfassung oder Umwandlung aus Angeboten. Aufträge 
 
 | Funktion | Bedeutung |
 | --- | --- |
-| Erfassen F8 | Erfassung eines neuen Auftrags |
-| Stapelverarbeitung | Übernahme eines oder mehrerer Aufträge in einen Bearbeitungsstapel |
-| Erstdruck F9 | Erstdruck eines Auftrags |
-| Formulardruck F10 | Wiederholungsdruck |
+| ***Erfassen*** **F8** | Erfassung eines neuen Auftrags |
+| ***Stapelverarbeitung*** | Übernahme eines oder mehrerer Aufträge in einen Bearbeitungsstapel |
+| ***Erstdruck*** **F9** | Erstdruck eines Auftrags |
+| ***Formulardruck*** **F10** | Wiederholungsdruck |
 | Lieblingsdruckerdruck | Auswahl eines anderen Druckers / Zuordnung eines anderen Formulars |
-| Korrektur F5 | Korrektur eines Auftrags |
-| Ansicht F6 | Angebot im Ansicht-Modus öffnen |
-| Kopieren CF8 | Kopieren des Auftrages für einen auszuwählenden Kunden |
-| Vorschau F11 | Druckvorschau |
-| Stornieren F7 | Stornieren (Löschen) des Auftrags |
+| ***Korrektur*** **F5** | Korrektur eines Auftrags |
+| ***Ansicht*** **F6** | Angebot im Ansicht-Modus öffnen |
+| ***Kopieren*** **CF8** | Kopieren des Auftrages für einen auszuwählenden Kunden |
+| ***Vorschau*** **F11** | Druckvorschau |
+| ***Stornieren*** **F7** | Stornieren (Löschen) des Auftrags |
 | ***Freigabe/Sperren*** | Freigabe / Sperren für weitere Bearbeitung |
 | LS aus Auftrag | Umwandeln in einen Lieferschein |
 | Rech. aus Auftrag | Umwandeln in eine Rechnung |
@@ -26,7 +26,7 @@ Aufträge entstehen durch Neuerfassung oder Umwandlung aus Angeboten. Aufträge 
 | Transportauftrag | Auftrag einer Spedition zuordnen |
 | Schnellkorrektur | Plandatum und Menge ändern |
 | Archiv ansehen | Anzeige archivierter Vorgänge |
-| Wiedervorlage CF9 | Vorgang mit einem Wiedervorlagevermerk versehen |
+| ***Wiedervorlage*** **CF9** | Vorgang mit einem Wiedervorlagevermerk versehen |
 | ***Arbeitsregel ändern*** | manuelle Änderung von Weiterverarbeitungsparametern |
 | PDF-Signieren SH-F12 | Den ausgewählten Auftrag [elektronisch unterschreiben](../../../../dokumentenverwaltung/archiv_manager/signature_pad_benutzen/pdf_dokument_signieren.md) |
 

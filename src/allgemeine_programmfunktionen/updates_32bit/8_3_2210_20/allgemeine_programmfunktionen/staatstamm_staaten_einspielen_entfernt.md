@@ -4,7 +4,7 @@
 
 In der Anwendung "Staatstamm" [STAAT] wurde die Funktion "Staaten einspielen" entfernt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 712249[32786]
 

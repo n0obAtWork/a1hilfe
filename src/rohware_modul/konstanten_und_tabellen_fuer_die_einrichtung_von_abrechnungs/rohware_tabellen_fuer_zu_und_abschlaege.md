@@ -39,6 +39,6 @@ Der Ergebniswert von 0,48 wird in dem Beispiel für alle Analysewert/Basiswertdi
 
 | Funktion | Bedeutung |
 | --- | --- |
-| Werte löschen | Löscht alle Werte in den 3 Wertspalten auf der aktuellen Seite. |
-| Seite vor | Bei mehr als einer Seite von Zu-Abschlagswerten blättert man weiter auf die nächste Seite. Diese Funktion steht nur zur Verfügung, wenn man nicht auf der letzten Seite von Zu-Abschlagswerten ist. |
-| Seite zurück | Bei mehr als einer Seite von Zu-Abschlagswerten blättert man zurück auf die vorherige Seite. Diese Funktion steht nur zur Verfügung, wenn man nicht auf der ersten Seite von Zu-Abschlagswerten ist. |
+| ***Werte löschen*** | Löscht alle Werte in den 3 Wertspalten auf der aktuellen Seite. |
+| ***Seite vor*** | Bei mehr als einer Seite von Zu-Abschlagswerten blättert man weiter auf die nächste Seite. Diese Funktion steht nur zur Verfügung, wenn man nicht auf der letzten Seite von Zu-Abschlagswerten ist. |
+| ***Seite zurück*** | Bei mehr als einer Seite von Zu-Abschlagswerten blättert man zurück auf die vorherige Seite. Diese Funktion steht nur zur Verfügung, wenn man nicht auf der ersten Seite von Zu-Abschlagswerten ist. |

@@ -26,6 +26,6 @@ Für eine korrekte Bewertung ist es unerlässlich, die Eingangsbelege zeitlich k
 
 Der Periodenabschluss hat keine Bedeutung für die Bewertung. Er bewirkt lediglich, dass keine Belege mehr in solche Perioden gebucht werden können. In ei­ner offenen Periode wird der Bewertungspreis permanent neu ermittelt, wäh­rend er in einer geschlossenen fest ist.
 
-**Bewertung mit** [NACHK]
+**Bewertung mit** **[NACHK]**
 
-Mit [NACHK] kann eine nachträgliche Bewertung von Belegpositionen erfolgen. Der Bewertungspreis wird laut der im Artikel eingestellten Bewertungsmethode ermittelt: Zum aktuellen Zeitpunkt also der aktuelle Preis; für eine abgeschlossene Periode der Bewertungspreis zum Periodenende (s. 1+2)
+Mit **[NACHK]** kann eine nachträgliche Bewertung von Belegpositionen erfolgen. Der Bewertungspreis wird laut der im Artikel eingestellten Bewertungsmethode ermittelt: Zum aktuellen Zeitpunkt also der aktuelle Preis; für eine abgeschlossene Periode der Bewertungspreis zum Periodenende (s. 1+2)

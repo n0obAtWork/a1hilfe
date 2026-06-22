@@ -4,7 +4,7 @@
 
 In der Auswahlliste gibt es jetzt eine eigene Schaltfläche für die Ansichten. So können die Profile und Ansichten getrennt voneinander ausgewählt werden. Die Schaltfläche für die Ansichten ist nur dann sichtbar, wenn für den Bediener neben der Standardansicht noch weitere Ansichten existieren. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 731003[34740]
 

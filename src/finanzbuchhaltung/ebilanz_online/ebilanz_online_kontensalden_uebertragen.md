@@ -26,7 +26,7 @@ Handelsbilanz: Alle Konten, die im Sachkontenstamm mit „Handelsbilanz“ oder 
 | Passwort | Passwort des Benutzers.  
  |
 
-Sind alle Daten erfasst, können die ermittelten Kontensalden mit der Funktion „Kontensalden übertragen“ F9 direkt über einen Webservice an das eBilanz-Online übertragen werden. Mögliche Fehler wie z.B.:
+Sind alle Daten erfasst, können die ermittelten Kontensalden mit der Funktion ***„Kontensalden übertragen“*** **F9** direkt über einen Webservice an das eBilanz-Online übertragen werden. Mögliche Fehler wie z.B.:
 
 • „Die periodenbezogenen Stammdaten wurden nicht gefunden (Zeitraum, Mandant oder Version überprüfen).“
 

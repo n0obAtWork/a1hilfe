@@ -4,7 +4,7 @@
 
 In der Variante "Artikelbestände mit FremdwareDispo" ist eine neue Spalte eingefügt worden: Die Spalte "Verf. Fremd" zeigt den verfügbaren Bestand zuzüglich nicht disponierter Fremdware an. So können nicht disponierte Aufträge als verfügbare Ware gerechnet werden, während vorverkaufte aber noch nicht abgeholte Waren in der Spalte "Verfügbar" nicht mitgerechnet werden. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 721652[34047]
 

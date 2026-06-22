@@ -6,7 +6,7 @@ Hier werden Beispiele für Einstellungen des Streckenprofils dargestellt.
 
 [Gültigkeit](./beispiele.md#beispiele_gueltigkeit)
 
-Gültigkeit![](../../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">Gültigkeit![](../../../ImagesExt/image8_1357.png)</p>
 
 Bei den [Gültigkeiten](./index.md#registerAllgemein2) gilt generell, ein eingetragener Wert hat eine höhere Priorität als ein nicht vorhandener Wert. Ausschlaggebend dafür sind die Felder „Klasse“, „Unterklasse“ und „Grid“. Zu beachten ist dabei, dass die Unterklasse vor dem Grid zählt
 

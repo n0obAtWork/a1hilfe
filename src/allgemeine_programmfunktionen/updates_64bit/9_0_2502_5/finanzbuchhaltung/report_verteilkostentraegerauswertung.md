@@ -4,7 +4,7 @@
 
 Die Verteilkostenträgerauswertung zeigte auch in der Spalte für die kumulativen Werte die Periodenwerte an. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 748317[37599]
 

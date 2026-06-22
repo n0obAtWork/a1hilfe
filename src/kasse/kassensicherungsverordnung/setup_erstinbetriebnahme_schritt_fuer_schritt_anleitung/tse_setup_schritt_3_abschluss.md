@@ -11,9 +11,9 @@ Zu Hauptmenü > Barvorgänge > Stammdaten > Kassenverwaltung navigieren.
 
 1. In der Auswahlliste der Kassen die gewünschte Kasse auswählen.
 
-2. Kasse mit F5 bearbeiten.
+2. Kasse mit **F5** bearbeiten.
 
-3. Im Feld TSE-ID mit F3 die gewünschte TSE auswählen.
+3. Im Feld TSE-ID mit **F3** die gewünschte TSE auswählen.
 
 4. Einstellungen speichern.
 

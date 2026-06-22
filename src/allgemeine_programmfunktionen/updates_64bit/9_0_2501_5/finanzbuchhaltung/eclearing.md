@@ -4,7 +4,7 @@
 
 Der Zinsstatus für das Hauptkonto (Konto der Hausbank) wurde beim Erstellen des Zahlungsbeleges ohne Zinsstatus gespeichert. Dies ist behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 739712[35969]
 

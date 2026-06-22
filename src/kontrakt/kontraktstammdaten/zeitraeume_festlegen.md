@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_zeitrumefestlegen.htm -->
 
-Zuerst wird bestimmt, für welchen Zeitraum die Preis-/Mengenvereinbarungen gelten sollen. Dies erfolgt auf der ersten Erfassungsseite des Kontraktstamms über die Funktionen Mengenzeitraum F10 und Preiszeitraum F11. Nach Betätigen von F8 können die Zeiträume, ggf. unterschiedlich für Mengen und Preise, neu erfasst werden.
+Zuerst wird bestimmt, für welchen Zeitraum die Preis-/Mengenvereinbarungen gelten sollen. Dies erfolgt auf der ersten Erfassungsseite des Kontraktstamms über die Funktionen ***Mengenzeitraum*** **F10** und ***Preiszeitraum*** **F11**. Nach Betätigen von **F8** können die Zeiträume, ggf. unterschiedlich für Mengen und Preise, neu erfasst werden.
 
 Für die Bearbeitung der Mengenzeiträume stehen grundsätzlich zwei Datentabellen zwei Datentabellen zur Verfügung. In der ersten Tabelle werden die Mengen- beziehungsweise Wert-Zeiträume des Kontrakts dargestellt, abhängig davon, ob es sich um einen Mengen- oder Wertkontrakt handelt. Neben Anfangs- und Enddatum des jeweiligen Zeitraums wird die Gesamt-Sollmenge oder der Gesamt-Sollwert des Zeitraums dargestellt. Handelt es sich bei dem Kontrakt um einen Einzelmengen- oder Einzelwert-Kontrakt, so handelt es sich hierbei um die Summe der Sollmengen oder Sollwerte der Kontraktartikel. Bei Gesamtmengen- /Gesamtwert-Kontrakten und bei Einzelmengen-/Einzelwert-Kontrakten mit nur einer Kontraktartikelposition kann der Wert direkt in dieser Spalte geändert werden. Die aktuelle Restmenge beziehungsweise Restwert wird ebenfalls dargestellt.  
 Ist die Option [Steuerungsparameter](../../firmenstamm/steuerparameter/kontraktwesen/ratierliche_einstellungen_spa_846.md) 846 „Ratierliche Einstellungen“ „Ktr-Anzeige Minusrest in Folgezeitraum“ mit dem Wert **Ja** eingestellt, so wird eine zusätzliche Spalte **Rest>**0 dargestellt, die negative Restmengen oder Restwerte eines Zeitraums mit der des Folgezeitraums verrechnet und selbst mit dem Wert 0 darstellt. Die Einstellung der Option [Steuerungsparameter](../../firmenstamm/steuerparameter/kontraktwesen/ratierliche_einstellungen_spa_846.md) 846 „Ratierliche Einstellungen“ „Ktr-Anzeige Kumulierte Zeitraum-Reste“ mit dem Wert **Ja** stellt in einer weiteren Spalte den kumulierten Rest dar.
@@ -29,13 +29,13 @@ Ist die Option [Steuerungsparameter](../../firmenstamm/steuerparameter/kontraktw
 Unterhalb der Datentabelle wird die aktuelle Gesamtsumme sowie die aktuelle Restsumme ausgewiesen.  
 Die bei Aufruf des Kontrakts im Änderungsmodus sowie im Neu-Anlagefall beim ersten Speichern vorhandene Gesamt- und Restsumme wird ebenfalls ausgewiesen wie auch die Differenz zu den ursprünglichen Werten. So ist bei Umverteilungen von Mengen-/Werten eine Kontrolle über noch nicht oder zu viel verteilte Werte möglich.
 
-Mit der Funktion Ändern F5 und Neu F8 kann ein Zeitraum geändert beziehungsweise ein neuer Zeitraum angelegt werden. Entsprechend wird der markierte Zeitraum mit der Funktion Löschen F7 nach einer Kontrollabfrage gelöscht, dabei werden dann das End-Datum des vorhergehenden beziehungsweise das Beginn-Datum des folgenden Zeitraums angepasst.
+Mit der Funktion ***Ändern F5*** und ***Neu F8*** kann ein Zeitraum geändert beziehungsweise ein neuer Zeitraum angelegt werden. Entsprechend wird der markierte Zeitraum mit der Funktion ***Löschen F7*** nach einer Kontrollabfrage gelöscht, dabei werden dann das End-Datum des vorhergehenden beziehungsweise das Beginn-Datum des folgenden Zeitraums angepasst.
 
-Die Funktion Löschen Kontraktdaten der Maske dient zum Löschen von Zeiträumen, deren Grenzen außerhalb der Gültigkeit des Kontrakts liegen.
+Die Funktion ***Löschen Kontraktdaten*** ***der Maske dient zum Löschen von Zeiträumen, deren Grenzen außerhalb der Gültigkeit des Kontrakts liegen.***
 
-Die Funktion Löschen bis Ende der Maske dient zum Löschen der Zeiträume vom markierten bis zum letzten Zeitraum. Dabei werden die Zeitraumgrenzen des vorhergehenden Zeitraums angepasst.
+Die Funktion ***Löschen bis Ende*** ***der Maske dient zum Löschen der Zeiträume vom markierten bis zum letzten Zeitraum. Dabei werden die Zeitraumgrenzen des vorhergehenden Zeitraums angepasst.***
 
-Die Funktion Löschen bis Markierung der Maske dient zum Löschen der Zeiträume vom ersten bis zum markierten Zeitraum. Dabei werden die Zeitraumgrenzen des nachfolgenden Zeitraums angepasst.
+Die Funktion ***Löschen bis Markierung*** ***der Maske dient zum Löschen der Zeiträume vom ersten bis zum markierten Zeitraum. Dabei werden die Zeitraumgrenzen des nachfolgenden Zeitraums angepasst.***
 
 Die zweite Datentabelle dient der Darstellung der Kontrakt-Artikel. Bei Einzelmengen- oder Einzelwert-Kontrakten können hier die Sollmengen beziehungsweise Sollwerte der Artikel des in der ersten Datentabelle gewählten Zeitraums geändert werden.  
 Bei Gesamtmengen-Kontrakten beziehungsweise Gesamtwert-Kontrakten wird hier bei jedem Kontraktartikel die Zeitraumsollmenge beziehungsweise der Zeitraumsollwert des Kontraktzeitraums dargestellt. Die Übersicht dient dann eher zur Orientierung darüber, welche Kontraktartikel dem Kontrakt zugewiesen sind  

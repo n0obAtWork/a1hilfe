@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Archiv > Administration
 
-Direktsprung [FAAD]
+Direktsprung **[FAAD]**
 
 In dieser Anwendung stehen für administrative Aufgaben folgende Varianten zur Verfügung:
 

@@ -4,7 +4,7 @@
 
 Der Bruttowert der Fremdwährung wurde in der Auswahlliste Rechnungsbearbeitung mit falschem Vorzeichen angezeigt. Dieser Fehler wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 716315[33117]
 

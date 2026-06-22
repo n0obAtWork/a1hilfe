@@ -4,7 +4,7 @@
 
 In der Anwendung Fibu-Übertrag [FIB], bei der Funktion "Periode ändern", wurde die Itembox auf dem Feld "Periode" um eine weitere Such-Variante "Offene Perioden vom Tagesdatum" erweitert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 719519[33394]
 

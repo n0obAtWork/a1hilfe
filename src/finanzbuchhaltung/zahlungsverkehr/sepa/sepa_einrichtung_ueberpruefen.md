@@ -4,7 +4,7 @@
 
 Hauptmenü > OP-Verwaltung > OP-Bearbeitung > OP-Verwaltung > Funktion SEPA Einrichtung prüfen
 
-Direktsprung [SEPAT]
+Direktsprung **[SEPAT]**
 
 Da SEPA Teilweise parallel zum DTA-Verfahren laufen muss, ist es von vielen Umständen abhängig, wann das SEPA-Verfahren und wann das DTA-Verfahren angewendet wird. Da es aufwendig ist, immer alle Punkt (Steuerparameter, Einrichtung Bankenstamm, Einrichtung Kundenbank usw.) zu kontrollieren, wurde eine Funktion geschaffen, die diese Daten überprüft. Sie versucht die Fragestellung zu beantworten: „Warum werden die OP’S dieses Kunden nicht zum Zahlungseingang/-ausgang SEPA herangezogen?“.
 

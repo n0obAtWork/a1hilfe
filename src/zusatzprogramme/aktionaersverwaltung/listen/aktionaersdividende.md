@@ -6,28 +6,28 @@ In der Ansicht „Aktionärsdividende“ sind die Dividendenausschüttungen, die
 
 ![](../../../ImagesExt/image8_1004.jpg)
 
-Über Bereich /Profile kann nach folgenden Kriterien eingeschränkt werden: Dividende, Name, Vorname, Aktionärsnummer (von, bis), Geburtsdatum (von, bis), Straße, Postleitzahl (von, bis), Ort, Vertreter (von, bis), Status von, Status bis, Aktienanzahl (von, bis), Zeitraum, Leistung (von, bis), Netto-Dividende (von, bis), Freistellung, Gebucht.
+Über ***Bereich /Profile*** kann nach folgenden Kriterien eingeschränkt werden: Dividende, Name, Vorname, Aktionärsnummer (von, bis), Geburtsdatum (von, bis), Straße, Postleitzahl (von, bis), Ort, Vertreter (von, bis), Status von, Status bis, Aktienanzahl (von, bis), Zeitraum, Leistung (von, bis), Netto-Dividende (von, bis), Freistellung, Gebucht.
 
 Dem Benutzer stehen in dieser Ansicht folgende Funktionen zur Verfügung:
 
-• Dividende abschließen [siehe Dividenden abrechnen]
+• ***Dividende abschließen*** [siehe Dividenden abrechnen]
 
-• Steuerbescheinigung [siehe Steuerbescheinigung/Zweitsteuerbescheinigung]
+• ***Steuerbescheinigung*** [siehe Steuerbescheinigung/Zweitsteuerbescheinigung]
 
-• Zweitsteuerbescheinigung [siehe Steuerbescheinigung/Zweitsteuerbescheinigung]
+• ***Zweitsteuerbescheinigung*** [siehe Steuerbescheinigung/Zweitsteuerbescheinigung]
 
-• (Aktionär) Neu [siehe Aktionäre verwalten]
+• (Aktionär) ***Neu*** [siehe Aktionäre verwalten]
 
-• (Aktionär) Ändern [siehe Aktionäre verwalten]
+• (Aktionär) ***Ändern*** [siehe Aktionäre verwalten]
 
-• (Aktionär) Ansehen [siehe Aktionäre verwalten]
+• (Aktionär) ***Ansehen*** [siehe Aktionäre verwalten]
 
-• (Aktionär) Löschen [siehe Aktionäre verwalten]
+• (Aktionär) ***Löschen*** [siehe Aktionäre verwalten]
 
-• Historische Tabelle [siehe Aktientransaktionen / Die Historische Tabelle]
+• ***Historische Tabelle*** [siehe Aktientransaktionen / Die Historische Tabelle]
 
 • ***Anteile***
 
 • ***Kundenbescheinigung***
 
-• Unternehmen verwalten [siehe Die Unternehmensdaten einrichten/verwalten]
+• ***Unternehmen verwalten*** [siehe Die Unternehmensdaten einrichten/verwalten]

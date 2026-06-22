@@ -4,7 +4,7 @@
 
 Durch eine inzwischen veraltete Initialisierung der EC-Karten-Ansteuerung kam es in der Version 9.0.2501.x zu Abbrüchen der EC-Zahlung mit Timeout. Dies wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 748390[37818]
 

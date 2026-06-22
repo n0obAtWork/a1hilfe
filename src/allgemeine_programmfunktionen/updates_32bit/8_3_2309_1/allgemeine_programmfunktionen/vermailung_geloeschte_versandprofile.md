@@ -4,7 +4,7 @@
 
 In der Anwendung [MAIL] kann eine E-Mail erneut versendet werden. Wenn nun ein Versandprofil gelöscht wurde, konnten keine Emails mehr über dieses Profil erneut versendet werden. Stattdessen wird man beim Aufruf einer solchen Mail nun darauf hingewiesen und man kann ein vorhandenes Profil auswählen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 719644[34062]
 

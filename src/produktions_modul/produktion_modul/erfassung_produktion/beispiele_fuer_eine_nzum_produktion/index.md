@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_examplenzumproduktion.htm -->
 
-Erster Schritt für alle Beispiele ist das Anlegen einer Rezepturgruppe 36000 für Bier unter [REZG]:
+Erster Schritt für alle Beispiele ist das Anlegen einer Rezepturgruppe 36000 für Bier unter **[REZG]:**
 
 ![](../../../../ImagesExt/image8_271.png)
 

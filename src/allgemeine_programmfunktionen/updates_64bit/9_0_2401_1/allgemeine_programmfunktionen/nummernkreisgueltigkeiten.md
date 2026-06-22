@@ -4,7 +4,7 @@
 
 Seit längerer Zeit ist es möglich die Nummernkreisgültigkeiten direkt im Nummernkreisstamm [NKS] zu pflegen. Um Doppelungen zu vermeiden wurde der Pfleger Nummernkreisgültigkeiten [NKG] ausgebaut.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 727631[34477]
 

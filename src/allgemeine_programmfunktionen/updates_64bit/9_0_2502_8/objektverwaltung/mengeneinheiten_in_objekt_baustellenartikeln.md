@@ -4,7 +4,7 @@
 
 Der Objekt-/Baustellen-Artikelpreispfleger ist nur für Artikel aufrufbar. Pflegt man einen neuen Preis, so wird dieer nun mit den korrekten Mengeneinheiten aus dem Artikel vorbelegt und die Mengeneinheitsbezeichnungen für Preise & Mengen werden je Einkauf und Verkauf zusätzlich angezeigt. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 751485[38548]
 

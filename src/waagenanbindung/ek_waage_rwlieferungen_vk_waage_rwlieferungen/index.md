@@ -4,15 +4,15 @@
 
 Hauptmenü > Rohwarenabrechnung > EK-Waage-RWLieferungen
 
-Direktsprung [RWWE]
+Direktsprung **[RWWE]**
 
 Hauptmenü > Rohwarenabrechnung > VK-Waage-RWLieferungen
 
-Direktsprung [RWWV]
+Direktsprung **[RWWV]**
 
 Alle aus der Waage oder mit der Offline-Waage erzeugten Rohwarenbelege werden in diese Schnittstelle übertragen. Sofern in dem [Wiegeprozess](../waagenanbindung_online_waage/prozess_einrichten/index.md) auf der [Registerkarte Rohware](../waagenanbindung_online_waage/prozess_einrichten/registerkarte_rohware.md) für die Online-Waage nicht der Punkt Rohwarenbelege sofort erzeugen auf „Ja“ steht können hier noch die erfassten Daten für den Rohwarenbeleg korrigiert werden.
 
-Ausprägungen des Feldes Status
+<p class="just-emphasize">Ausprägungen des Feldes Status</p>
 
 | Bezeichnung | Bedeutung |
 | --- | --- |
@@ -20,10 +20,10 @@ Ausprägungen des Feldes Status
 | Fehl: ÜB! | Fehler bei der Übernahme |
 | \-- | Einspielung hat funktioniert. Datensatz kann weiterverarbeitet werden |
 | Belerz. Läuft | |
-| FEHL Belerz! | Fehler bei der Belegerzeugung. Die Daten müssen mit Ändern F5 korrigiert werden. |
-| erledigt! | Es wurde ein Rohwarenbeleg erzeugt. Dieser ist unter [RWE] für Rohwareneinkauf oder [RWB] Rohwarenverkauf zu finden. |
+| FEHL Belerz! | Fehler bei der Belegerzeugung. Die Daten müssen mit ***Ändern*** **F5** korrigiert werden. |
+| erledigt! | Es wurde ein Rohwarenbeleg erzeugt. Dieser ist unter **[RWE]** für Rohwareneinkauf oder **[RWB]** Rohwarenverkauf zu finden. |
 
-Funktionen der Waagenimportschnittstelle
+<p class="just-emphasize">Funktionen der Waagenimportschnittstelle</p>
 
 | Funktion | Bedeutung |
 | --- | --- |

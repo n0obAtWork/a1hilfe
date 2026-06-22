@@ -21,20 +21,20 @@ Für die Feldtypen steht eine F3-Auswahl zur Verfügung. Um geänderten Feldtype
 
 Es stehen zwei verscheiden Filtertypen zur Verfügung:
 
-• Standard: Hier kann man entweder im Filter frei einen Wert eingeben oder einen Wert aus den angebotenen Daten auswählen. Zusätzlich besteht die Möglichkeit den Vergleichsoperanden auszählen:  
+• ***Standard***: Hier kann man entweder im Filter frei einen Wert eingeben oder einen Wert aus den angebotenen Daten auswählen. Zusätzlich besteht die Möglichkeit den Vergleichsoperanden auszählen:  
 ![](../../ImagesExt/image8_1320.png)
 
-• Mehrfachauswahl: Hier kann die Werte frei eingegeben oder aus einer Auswahl aller Werte, die in den Daten vorkommen, mehrere Werte auswählen. Es besteht jedoch keine Möglichkeit den Vergleichsoperator auszuwählen.  
+• ***Mehrfachauswahl***: Hier kann die Werte frei eingegeben oder aus einer Auswahl aller Werte, die in den Daten vorkommen, mehrere Werte auswählen. Es besteht jedoch keine Möglichkeit den Vergleichsoperator auszuwählen.  
 ![](../../ImagesExt/image8_1321.png)  
     
 
-Im SQL-Text kann man Spalten bereits im Vorwege so einstellen, dass der Filtertyp Mehrfachauswahl verwendet wird. Dazu dient das Schlüsselwort EXTENDEDFILTER.
+Im SQL-Text kann man Spalten bereits im Vorwege so einstellen, dass der Filtertyp ***Mehrfachauswahl*** verwendet wird. Dazu dient das Schlüsselwort EXTENDEDFILTER.
 
 ```text
 FIELD
 Mahndatum,Mahndatum,d4,20,EXTENDEDFILTER
 ```
 
-Alle Spalten mit einem FS-Format haben automatisch immer den Filtertypen Mehrfachauswahl.
+***Alle Spalten mit einem FS-Format haben automatisch immer den Filtertypen*** ***Mehrfachauswahl******.***
 
 In der Spalte Vergleich kann festgelegt werden, mit welchem Operator in der Filterzeile gesucht wird. Standardmäßig ist diese Spalte leer. Es wird dann entweder der eingetragene Wert aus dem SQL-Text genommen oder der Standard, d.h. es wird bei Zahlen mit „gleich“ gesucht und bei Texten mit „enthält“. Andere Operatoren können mit F3 ausgewählt werden. Bei Feldern, für die ***Mehrfachauswahl*** ausgewählt wurde, wird der Operator nicht ausgewertet.

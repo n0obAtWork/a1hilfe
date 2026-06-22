@@ -4,7 +4,7 @@
 
 Hauptmenü > Büro und Internet > Büroumgebung > Aufgabenplanung
 
-oder Direktsprung [TODO]
+oder Direktsprung **[TODO]**
 
 <details>
 <summary>Felder der Auswahlliste</summary>
@@ -44,10 +44,10 @@ oder Direktsprung [TODO]
 
 | Funktion | Beschreibung |
 | --- | --- |
-| Ändern (F5),  
-Ansehen (F6),  
-Löschen (F7),  
-Neu (F8) | Datensatz wird zum bearbeiten geöffnet  
+| Ändern (**F5**),  
+Ansehen (**F6**),  
+Löschen (**F7**),  
+Neu (**F8**) | Datensatz wird zum bearbeiten geöffnet  
 Datensatz wird angezeigt  
 Ausgewählter Datensatz wird gelöscht  
 Erstellt neuen Datensatz |

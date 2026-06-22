@@ -6,19 +6,19 @@
 
 Dabei sind nicht immer alle der im Folgenden benannten Felder sichtbar bzw. notwendig.
 
-Spalte
+<p class="just-emphasize">Spalte</p>
 
 • System gibt an, dass es sich um eine vom Entwickler vorgegebene Spalte handelt, die vom Anwender nicht editiert werden kann.
 
 • Anwender gibt an, dass es sich um eine vom Anwender definierte und editierbare Spaltendefinition handelt.
 
-Überschrift
+<p class="just-emphasize">Überschrift</p>
 
 Dies ist die Überschrift für die Spalten.
 
 Die Überschrift wird im Zusammenhang mit Baumdarstellungen bei Blattinformationen als Bezeichner des Wertes angezeigt. In Knoten hat die Überschrift keine Bedeutung, in Blattinformationen soll sie eingetragen sein.
 
-Dragname
+<p class="just-emphasize">Dragname</p>
 
 Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.
 
@@ -26,7 +26,7 @@ Wird ein Element angeklickt, abgelegt oder verändert, so sollen Informationen a
 
 Ist das Feld vom Typ „Blatt Abfragbar“, und wird der Wert im Blatt verändert, so wird der ursprüngliche Wert mit dem hier angegebenen Parameternamen übergeben.
 
-Dropname
+<p class="just-emphasize">Dropname</p>
 
 Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.
 
@@ -34,25 +34,25 @@ Wird ein Element mit Drag&Drop abgelegt oder geändert, so sollen Informationen 
 
 Ist das Feld vom Typ „Blatt Abfragbar“, und wird der Wert im Blatt verändert, so wird der geänderte Wert mit dem hier angegebenen Parameternamen übergeben.
 
-Feldname
+<p class="just-emphasize">Feldname</p>
 
 Dies ist der Name des Datenfeldes im Resultset einer Prozedur oder des SQL. Die Daten aus diesem Feld des Prozedurergebnissatzes werden mit diesem Eintrag näher beschrieben. Dies ist ein Pflichtfeld.
 
-Länge
+<p class="just-emphasize">Länge</p>
 
 Spaltenbreite
 
-max. Länge
+<p class="just-emphasize">max. Länge</p>
 
 maximale Länge der Daten in der Spalte. Bei „0“ besteht keine Begrenzung
 
-Format
+<p class="just-emphasize">Format</p>
 
 Hier sind die gängigen Aeins-Formate wie I4 für Ganzzahlen, D4 für Zahlen mit 4 Nachkommastellen oder CHAR für Texte einzutragen. Ein Eintrag ist nur bei Werten notwendig, die angezeigt werden sollen.
 
 Wird diese Angabe frei gelassen, ist das Format der Anzeige von der Datenbank abhängig.
 
-Darstellung
+<p class="just-emphasize">Darstellung</p>
 
 Mit der Darstellung wird festgelegt, welchem Zweck dieser Eintrag dient. Es sind folgende Einträge möglich:
 
@@ -84,19 +84,19 @@ In der Beschreibungsstruktur ist außer diesem Eintrag nur EIN weiterer Eintrag 
 
 Die Darstellungsangabe ist ein Pflichtfeld. Eine andere Auswahl als die aus der obigen Liste führt dazu, dass dieses Feld nicht ausgewertet wird.
 
-summieren
+<p class="just-emphasize">summieren</p>
 
 Dieses Feld wird Summiert (nicht bei Baumdarstellungen)
 
-reg Ausdruck
+<p class="just-emphasize">reg Ausdruck</p>
 
 Der Name des zu verwendenden regulären Ausdruckes (nicht bei Baumdarstellungen)
 
-Nur Maske
+<p class="just-emphasize">Nur Maske</p>
 
 Wenn das Feld nicht durch das System SQL u. das User SQL befüllt werden soll (nicht bei Baumdarstellungen)
 
-Level
+<p class="just-emphasize">Level</p>
 
 Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.
 
@@ -112,7 +112,7 @@ Diese Zahl gibt an, auf welchem Level des Baums die Information dargestellt wird
 
 Die letzten beiden Informationen stehen im gleichen Level. Das ist nur dann erlaubt, wenn die Information als Blattinformation im letzten Level dargestellt wird.
 
-DragDrop
+<p class="just-emphasize">DragDrop</p>
 
 Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.
 
@@ -129,7 +129,7 @@ Diese Information muss in einem sichtbaren Element (Knoten oder Blatt) hinterleg
 
 Diese Angabe ist eine Pflichtangabe für jeden Eintrag in den Baumdarstellungen.
 
-Knotensymbol
+<p class="just-emphasize">Knotensymbol</p>
 
 Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.
 
@@ -141,13 +141,13 @@ Einträge in Zeilen des gleichen Levels werden nur bei Blattinformationen berüc
 
 Diese Voreinstellung kann durch das einen Eintrag überschrieben werden, der in der Ergebnismenge der Prozedur steht.
 
-Knotenicon Feldname
+<p class="just-emphasize">Knotenicon Feldname</p>
 
 Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.
 
 Soll abweichend von dem Knotensymbol, das für die einzelnen Spalten des Ergebnissatzes festgelegt wurde, ein individuelles Knotensymbol für einen Eintrag angezeigt werden, so kann der Feldname in dem das Knotensymbol bezeichnet wird, hier eingetragen werden. Da diese Zuweisung für diesen Feldnamen individuell ist, können so auch mehrere individuelle Knotensymbole pro Ergebnissatz abgelegt werden.
 
-Farbfeld Vordergrund
+<p class="just-emphasize">Farbfeld Vordergrund</p>
 
 Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.
 
@@ -163,7 +163,7 @@ Der Standardwert, wenn dieses Feld leer ist oder das benannte Datenbankfeld kein
 
 Diese Information muss in einem sichtbaren Element (Knoten oder Blatt) hinterlegt sein. Einträge in Zeilen des gleichen Levels werden nicht berücksichtigt.
 
-Farbfeld Hintergrund
+<p class="just-emphasize">Farbfeld Hintergrund</p>
 
 Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.
 
@@ -179,7 +179,7 @@ Der Standardwert, wenn dieses Feld leer ist oder das benannte Datenbankfeld kein
 
 Diese Information muss in einem sichtbaren Element (Knoten oder Blatt) hinterlegt sein. Einträge in Zeilen des gleichen Levels werden nicht berücksichtigt.
 
-Framedarstellung
+<p class="just-emphasize">Framedarstellung</p>
 
 Diese Tabelle wird nur im Zusammenhang mit Baumdarstellungen verwendet.
 
@@ -197,7 +197,7 @@ Angegeben werden also
 
 • Die Zielknotenbeschreibung
 
-Knotenprozedur
+<p class="just-emphasize">Knotenprozedur</p>
 
 Die hier eingetragene Prozedur wird in 3 Szenarien aufgerufen:
 

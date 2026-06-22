@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Archiv > Verwaltung
 
-oder Direktsprung [FAM]
+oder Direktsprung **[FAM]**
 
 Im Archiv-Manager werden alle Einstellungen, Optionen, Parameter bezüglich des Archivs eingerichtet.
 

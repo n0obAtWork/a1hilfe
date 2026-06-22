@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/kasseundwhrungen.htm -->
 
-Begriffsklärung:
+<p class="just-emphasize">Begriffsklärung:</p>
 
 Kassenwährung:
 
@@ -20,7 +20,7 @@ Bezahlwährung:
 
 Hier handelt es sich um die Währung, in der man den zu zahlenden Betrag bezahlt. Vorbelegt ist diese Währung während der Erfassung mit der Kassenwährung, jedoch hat man über eine entsprechende Funktionstaste die Möglichkeit, sich eine beliebige Währung (gemäß Währungsstamm) auszusuchen.
 
-Weitere Informationen
+<p class="just-emphasize">Weitere Informationen</p>
 
 Es ist möglich, auch Zahlungsmittel in unterschiedlichen Währungen zu erfassen. Hierzu ist dann zunächst die passende Währung über den Fremdwährungsbutton auszuwählen. Danach kann man die Währung des Zahlungsmittels auswählen.
 

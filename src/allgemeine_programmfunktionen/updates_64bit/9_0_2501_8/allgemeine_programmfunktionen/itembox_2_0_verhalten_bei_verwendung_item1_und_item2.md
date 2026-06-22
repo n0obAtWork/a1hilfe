@@ -4,7 +4,7 @@
 
 Wurde in der F3-Auswahl mit ITEM1 und ITEM2 gearbeitet und ITEM2 blieb leer, dann wurde ITEM2 mit ITEM1 vorbelegt. Da dieses Verhalten dazu führte, dass ungewollt Daten nicht gefunden wurden, bleibt ITEM2 in diesem Fall jetzt leer.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 748145[37460]
 

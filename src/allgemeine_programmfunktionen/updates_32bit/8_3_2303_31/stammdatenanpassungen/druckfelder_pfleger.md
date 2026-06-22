@@ -4,7 +4,7 @@
 
 Bei der Funktion "Speichern unter" kam es vor, dass der Wert nicht gespeichert wurde. Dies wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 720536[33591]
 

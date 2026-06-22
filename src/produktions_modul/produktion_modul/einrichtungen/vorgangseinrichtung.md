@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_vorgangseinrichtung.htm -->
 
-In der [Formularzuordnung/Vorgangsunterklasse](../../../vorgangsabwicklung/formularzuordnung/formular_formularzuordnungen_zum_vorgang_unterklasse.md) [FRZ] ist der entsprechende Vorgang für die Produktion (Vorgangsklasse 5220 und entsprechende Vorgangsunterklasse) zu definieren.  
+In der [Formularzuordnung/Vorgangsunterklasse](../../../vorgangsabwicklung/formularzuordnung/formular_formularzuordnungen_zum_vorgang_unterklasse.md) **[FRZ]** ist der entsprechende Vorgang für die Produktion (Vorgangsklasse 5220 und entsprechende Vorgangsunterklasse) zu definieren.  
 Im Register Formulare sind die zu verwendenden Formulare anzugeben.
 
 Die Registerkarte **Produktion** erlaubt diverse Angaben zur Behandlung von Produktionsvorgängen der jeweiligen Vorgangsunterklasse:
@@ -31,4 +31,4 @@ Im Status_Vorgang wird bei einer Korrektur eine 2 geliefert. |
 | Gridbeite in Pixel | Hier lässt sich die Anzeige-Breite der Grids auf der Produktionsmaske festlegen. Die Angabe wird in Pixel vorgenommen, der Wert Leer oder 0 liefert den Standard von 1024 |
 | Start/Endzeitabfrage | Die ‚Ja/Nein‘-Einstellung dieses Feldes bewirkt die Aktivierung/Deaktivierung der entsprechenden Erfassungsfelder auf der Produktions-Erfassungs-/Bearbeitungs-Maske. |
 
-Unter [Vorgangszuordnungen/Nummernkreise](../../../firmenstamm/nummernkreise_fuer_ware_und_fibu/einrichtung_von_nummernkreisen.md#NKV_Vorgangszuordnung) [NKV] muss der Vorgangsklasse/Vorgangsunterklasse ein Nummernkreis zugeordnet werden.
+Unter [Vorgangszuordnungen/Nummernkreise](../../../firmenstamm/nummernkreise_fuer_ware_und_fibu/einrichtung_von_nummernkreisen.md#NKV_Vorgangszuordnung) **[NKV]** muss der Vorgangsklasse/Vorgangsunterklasse ein Nummernkreis zugeordnet werden.

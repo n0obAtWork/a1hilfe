@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Artikelstamm > ADR-Gefahrgutliste
 
-oder Direktsprung [ADR]
+oder Direktsprung **[ADR]**
 
 In der Anwendung ADR-Gefahrgutliste kann über die Funktion „**Import aus ADR-Datei – F9“** der Dialog ADR-Gefahrgutlisten Import gestartet werden. Die Verwendung unterliegt einer Lizenz und wird über den [**Steuerparameter „972 – ADR-Gefahrgutlisten Lizenz“**](../../../../firmenstamm/steuerparameter/lizenzen/adr_gefahrgutlisten_lizenz_spa_972.md) gesteuert.
 

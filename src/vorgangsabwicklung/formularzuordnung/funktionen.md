@@ -14,7 +14,7 @@ Speichern unter …
 
 Nach Aufruf dieser Funktion werden die Felder Vorgangsklasse und –Unterklasse für die Eingabe geöffnet. Sie können die aktuellen Einstellungen für eine neue Vorgangsklasse/Unterklasse verwenden.
 
-Hinweis:
+<p class="just-emphasize">Hinweis:</p>
 
 Bitte beachten Sie, dass einige Einstellungen nicht in allen Vorgangsklassen zur Verfügung stehen. Sie müssen nach dem Speichern diese Einstellungen erneut laden und nachbearbeiten, da sie nicht während der Erfassung angezeigt werden.
 

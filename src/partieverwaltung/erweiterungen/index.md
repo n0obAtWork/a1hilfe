@@ -12,7 +12,7 @@ Mit der Maus (rechte Maustaste )
 
 Durch Funktionstasten, soweit belegt
 
-Es kann aber auch zu jeder Zeit das Partiefenster durch wiederholtes Betätigen der Funktion Partieauswahl CF7 geschlossen / wieder geöffnet werden (die zugeordneten Partien bleibt bei geschlossenem Fenster natürlich erhalten!).
+Es kann aber auch zu jeder Zeit das Partiefenster durch wiederholtes Betätigen der Funktion Partieauswahl **CF7** geschlossen / wieder geöffnet werden (die zugeordneten Partien bleibt bei geschlossenem Fenster natürlich erhalten!).
 
 <p class="siehe-auch">Siehe auch:</p>
 

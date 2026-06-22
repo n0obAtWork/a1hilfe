@@ -4,7 +4,7 @@
 
 Zahlungsbedingungen [ZB] können nun auch gelöscht werden. Zu diesem Zweck wird ein Löschkennzeichen gesetzt. Die so gelöschten Zahlungsbedingungen können über die Funktion "Wiederherstellen" reaktiviert werden. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 736601[36495]
 

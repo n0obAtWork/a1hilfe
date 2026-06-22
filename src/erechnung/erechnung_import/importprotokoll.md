@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/importprotokoll.htm -->
 
-In der Anwendung eRechnung [XRE] gibt die Variante „Import Protokoll“ Aufschluss über die importierten Archiveinträge und den Status der einzelnen Importschritte.
+In der Anwendung ***eRechnung*** **[XRE]** gibt die Variante „Import Protokoll“ Aufschluss über die importierten Archiveinträge und den Status der einzelnen Importschritte.
 
 Wenn ein Import scheitert, weil die Validierung fehlschlägt, so können Sie hier entscheiden, ob Sie das Dokument zurückweisen sollen und den Absender informieren wollen, oder ob Ihnen die gelieferten Daten ausreichend erscheinen, die Daten dennoch unter Ausschluss der Validierung zu importieren.
 

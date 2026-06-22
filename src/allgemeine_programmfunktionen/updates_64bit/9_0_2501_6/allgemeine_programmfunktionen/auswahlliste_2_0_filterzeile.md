@@ -4,7 +4,7 @@
 
 Wenn man über die Filterzeile eine Eingrenzung vornimmt und ohne die Filterzeile zu verlassen, in die Bearbeitung springt, erscheint nach der Bearbeitung eine Fehlermeldung.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 747767[37321]
 

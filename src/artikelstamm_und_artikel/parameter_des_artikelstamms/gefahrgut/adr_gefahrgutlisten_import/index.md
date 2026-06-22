@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Artikelstamm > ADR-Gefahrgutliste
 
-oder Direktsprung [ADR]
+oder Direktsprung **[ADR]**
 
 Die Anwendung ADR-Gefahrgutliste stellt eine Schnittstelle zum Importieren der von der Bundesanstalt für Materialforschung und –prüfung (BAM) herausgegebenen, lizenzpflichtigen BAM-Liste für das europäische Übereinkommen über die internationale Beförderung gefährlicher Güter auf der Straße (Abkürzung: ADR) zur Verfügung.
 
@@ -54,7 +54,7 @@ Enthält den (die) alphanumerischen, mit „B“ beginnenden Code(s) der für de
 | **Nummer zur Kennzeichnung der Gefahr** | Enthält eine Nummer, die für Stoffe und Gegenstände der Klassen 2 bis 9 aus zwei oder drei Ziffern (in bestimmten Fällen mit vorangestelltem Buchstaben „X“) und für Stoffe und Gegenstände der Klasse 1 aus dem Klassifizierungscode besteht. |
 | **UN-Nummer** | Kennnummer, für alle gefährlichen Stoffe, die gleichzeitig als gefährliche Güter gelten. Als Ziffer |
 
-Funktionen
+<p class="just-emphasize">Funktionen</p>
 
 | Funktion | Funktionstaste | Beschreibung |
 | --- | --- | --- |

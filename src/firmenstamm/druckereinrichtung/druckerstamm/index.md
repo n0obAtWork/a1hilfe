@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Drucker > Druckerstamm
 
-oder Direktsprung [DRST]
+oder Direktsprung **[DRST]**
 
 In dieser Variante können A.eins-Drucker definiert werden.
 
@@ -22,7 +22,7 @@ Dieser Drucker wird auch im Hauptmenü angezeigt. |
 Bei Windows-Druck die Bezeichnung der Druckerwarteschlange.  
 Im Windows-System zu finden unter *Systemsteuerung\\Hardware und Sound\\Geräte und Drucker **bzw. Funktion „Druckerdialog“*** |
 | Druckertyp | A.eins-Druckertyp  
-Einrichtung erfolgt über Direktsprung [DRT] |
+Einrichtung erfolgt über Direktsprung **[DRT]** |
 | Kurzname | Alphanumerischer Code zur Identifizierung eines Druckers |
 | Windows (Druck) | Ja: Windows Drucker  
 Nein: ASCII-Drucker |

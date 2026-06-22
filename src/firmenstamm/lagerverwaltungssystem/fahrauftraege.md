@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Lagerverwaltungssystem > Fahraufträge
 
-Direktsprung [LVSFA]
+Direktsprung **[LVSFA]**
 
 Es ist möglich, programmatisch Fahraufträge für einen Ladeträger in die Tabelle „LVS_Ladetraeger“ einzutragen. Diese können dann die Notwendigkeit eines Transports eines Ladeträgers zu einem bestimmten Ort dokumentieren. Die Erledigung von Fahraufträgen geschieht durch eine Datenbankfunktion im Rahmen einer Ladeträgerbewegung.
 

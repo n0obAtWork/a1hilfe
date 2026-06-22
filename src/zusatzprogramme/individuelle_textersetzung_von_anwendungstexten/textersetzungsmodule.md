@@ -4,7 +4,7 @@
 
 Hauptmenü > Systempflege > Individuelle Textersetzung
 
-Direktsprung [TEXTM]
+Direktsprung **[TEXTM]**
 
 Hier lassen sich die Module erstellen, die für die Verwendung der individuellen Textersetzung zuständig sind.
 

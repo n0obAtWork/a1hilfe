@@ -4,7 +4,7 @@
 
 Bei Neuanlage eines Kunden/Lieferanten/Kontokorrentkunden unter Verwendung eines Musterkunden, wurde fälschlicherweise dessen Bemerkungs-Id übernommen. Somit hatten alle Kunden, die gleiche Bemerkung und es konnten keine eigenen Bemerkung für einen einzelnen Kunden gepflegt werden.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 713518[32724]
 

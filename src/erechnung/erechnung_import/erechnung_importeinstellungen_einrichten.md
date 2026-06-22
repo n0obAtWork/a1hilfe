@@ -2,15 +2,15 @@
 
 <!-- source: https://amic.de/hilfe/erechnungimporteinstellungenei.htm -->
 
-In der Anwendung eRechnung [XRE], Variante Import-Vorgänge hat die Funktion Importeinstellungen bearbeiten.
+In der Anwendung eRechnung **[XRE],** Variante ***Import-Vorgänge*** hat die Funktion Importeinstellungen bearbeiten.
 
 Hier richten Sie die Importeinstellungen der eRechnung ein.
 
 | Felder |
 | --- |
-| Fehlerbehandlung HTML | Gibt an, ob eine nicht erfolgreiche Erstellung einer HTML-Visualisierung als Fehler gelten soll (Default Ja) |
-| Fehlerbehandlung Kunde | Gibt an, ob eine nicht erfolgreiche Findung eines Kunden/Lieferanten als Fehler gelten soll (Default Nein) |
-| Fehlerbehandlung Validierung | Gibt an, ob eine nicht erfolgreiche Validierung eines Imports als Fehler gelten soll (Default Ja) |
+| Fehlerbehandlung HTML | Gibt an, ob eine nicht erfolgreiche Erstellung einer HTML-Visualisierung als Fehler gelten soll (Default **Ja**) |
+| Fehlerbehandlung Kunde | Gibt an, ob eine nicht erfolgreiche Findung eines Kunden/Lieferanten als Fehler gelten soll (Default **Nein**) |
+| Fehlerbehandlung Validierung | Gibt an, ob eine nicht erfolgreiche Validierung eines Imports als Fehler gelten soll (Default **Ja**) |
 | Fehlerfunktion | Gibt eine Datenbankfunktion an, die die Fehlermeldungen eines Imports aufnehmen und z. B. per E-Mail weiterleiten soll.  
    
 Als Eingabeparameter wird die ImportId gegeben.  

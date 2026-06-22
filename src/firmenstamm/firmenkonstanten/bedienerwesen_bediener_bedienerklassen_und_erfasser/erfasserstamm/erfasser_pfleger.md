@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_erfasserpfleger.htm -->
 
-Felder:
+<p class="just-emphasize">Felder:</p>
 
 | Felder | Beschreibung |
 | --- | --- |
@@ -12,8 +12,8 @@ Felder:
 | Passwort | Hier wird das Passwort des Erfassers gesetzt. |
 | Bediener | Gibt an, an welchen Bediener der Erfasser gebunden ist. |
 
-Funktionen:
+<p class="just-emphasize">Funktionen:</p>
 
 | Funktionen | Beschreibung |
 | --- | --- |
-| Speichern (F9), Neu (F8), Speichern unter… (shift + F9) | |
+| Speichern **(F9)**, Neu **(F8)**, Speichern unter… **(shift + F9)** | |

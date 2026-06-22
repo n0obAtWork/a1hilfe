@@ -6,7 +6,7 @@ Wenn Sie diese Erfassung für einen Umbuchungsvorgang wie Artikelumbuchung, Lage
 
 Schließlich können sich Mengen, Mengeneinheiten oder Gebinde bei der Umbuchung von einem in ein anderes Lager ändern.
 
-Für diesen Fall steht Ihnen die Funktion Separat erfassen zur Verfügung. Wenn Sie diese Funktion nicht anwählen, sind Zugang und Abgang gleich.
+Für diesen Fall steht Ihnen die Funktion ***Separat erfassen*** zur Verfügung. Wenn Sie diese Funktion nicht anwählen, sind Zugang und Abgang gleich.
 
 Wollen Sie für eine bestimmte Vorgangsklasse immer die Erfassung separat erfassen, so können Sie dies in der Vorgangsklasse mit dem Pfleger [Formularzuordnung [FRZ]](../../formularzuordnung/eingabe_eingabefelder.md) einstellen.
 

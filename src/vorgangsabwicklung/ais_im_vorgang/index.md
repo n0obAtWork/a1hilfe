@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_aisrefreshvorgang.htm -->
 
-Mit diesem Modul können bestimmte oder alle AIS-Felder auf den Vorgangserfassungsmasken in Abhängigkeit von bestimmten Feldern und Events mittels eines Makros aktualisiert werden. Das aktualisieren der einzelnen AIS Felder wird generell über ein Makro gesteuert, welches in [FRZ] auf der Registerkarte AIS einzutragen ist.
+Mit diesem Modul können bestimmte oder alle AIS-Felder auf den Vorgangserfassungsmasken in Abhängigkeit von bestimmten Feldern und Events mittels eines Makros aktualisiert werden. Das aktualisieren der einzelnen AIS Felder wird generell über ein Makro gesteuert, welches in **[FRZ]** auf der Registerkarte AIS einzutragen ist.
 
 Es gibt aber einige Ausnahmen, hier sind die Aktualisierungspunkte fest vergeben und aktualisieren das komplette AIS auf der Maske. Die Ausnahmen werden in den Einrichtungshilfen zu den jeweiligen Masken erklärt.
 
@@ -26,19 +26,19 @@ Einrichtung
 
 Hauptmenü > Administration > Werkzeuge > Informationssystem
 
-oder Direktsprung [AIS]
+oder Direktsprung **[AIS]**
 
 2. Erstellen eines Makro
 
  Hauptmenü > Administration > Makroverarbeitung > Makro-Programme
 
-oder Direktsprung [MAKRO]
+oder Direktsprung **[MAKRO]**
 
 3. Einrichtung des AIS für die Vorgangsmasken auf der [Registerkarte AIS](../formularzuordnung/ais.md)
 
  Hauptmenü > Administration > Formulare / Abläufe > Formularzuordnung/Vorgangsunterklasse
 
-oder Direktsprung [FRZ]
+oder Direktsprung **[FRZ]**
 
 Es empfiehlt sich für jede Vorgangsmaske eine eigene Funktion in dem Makro anzulegen. In der Vorgangsunterklassen Zuordnung wird die gewünschte Funktion des Makros der AIS-Gruppe zugeordnet. Der Makro-Name in dem Feld „Screen-Makro“ kommt aus der jeweiligen AIS-Gruppe. Für jede Vorgangsmaske können mehrere AIS-Gruppen in FRZ hinterlegt werden. Dabei ist zu beachten, dass alle Gruppen, die in FRZ einer Maske zugeordnet worden sind, nacheinander aufgerufen werden.
 
@@ -58,7 +58,7 @@ Ablauf
 
 Nach jeder Eingabe oder jedem Ereignis, das von Systemseite definiert worden sind. Wird das Makro aufgerufen kann dann anhand der Übergabeparameter entschieden werden, ob das AIS komplett, einzelne AIS-Felder oder gar nicht aktualisiert werden soll. Es können pro Vorgangsmaske mehrere AIS-Gruppen hinterlegt werden. Beim Aktualisieren werden alle Gruppen, die in diesem Grid hinterlegt sind, nacheinander aufgerufen. Deswegen ist darauf zu achten, dass keine zeitintensiven SQL-Statements ausgeführt werden, da diese den Ablauf massiv stören könnten.
 
-Funktionen, die im Makro verwendet werden
+<p class="just-emphasize">Funktionen, die im Makro verwendet werden</p>
 
 Damit das AIS Aktualisiert wird, müssen bestimmte Funktionalitäten im Makro angesprochen werden.
 

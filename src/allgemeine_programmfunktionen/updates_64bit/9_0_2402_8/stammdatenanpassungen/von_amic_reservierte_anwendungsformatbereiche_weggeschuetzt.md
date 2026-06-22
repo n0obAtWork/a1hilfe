@@ -4,7 +4,7 @@
 
 Es war möglich in Anwendungsformaten unter [FORMA] Variante Anwendungsformate, von uns reservierte Anwendungsformate zu nutzen.Dies wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 741244[36001]
 

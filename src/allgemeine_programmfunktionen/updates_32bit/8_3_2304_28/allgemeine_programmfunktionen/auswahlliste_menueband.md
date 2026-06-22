@@ -4,7 +4,7 @@
 
 Auf dem Menüband werden jetzt die Funktionstasten mit angezeigt. Auf dem Darstellungsregister kann man mit dem Button "Funktionstasten An/Aus" die Anzeige der Tasten aktivieren und deaktivieren. Bei einem Rechtsklick mit der Maus (Kontextmenü) werden nun die Funktionen ausgegraut angezeigt, welche nicht ausführbar sind, aber dem Anwender grundsätzlich zur Verfügung stehen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[33652]
 

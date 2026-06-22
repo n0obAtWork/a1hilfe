@@ -15,7 +15,7 @@ Zur Einrichtung eines Geschäftsjahres sind folgende Eintragungen erforderlich:
 • Periodeneinteilung Fibu = 12  
  (12 Normalperioden + Eröffnung + Abschluss)
 
-Direktsprung [JAHR], dann Neu F8
+Direktsprung **[JAHR]**, dann ***Neu*** **F8**
 
 Geschäftsjahr = 2012
 
@@ -35,13 +35,13 @@ Kleinstes / größtes Datum = möglichst weit fassen für die Stammdatenerfassun
 
 Warndatum = dies kann z.B. das laufende Jahr sein; bei Eingabe eines Datums außerhalb dieses Bereichs wird eine Warnmeldung ausgegeben und man muss diese mit Ja bestätigen, wenn man dieses Datum wirklich eingeben möchte.
 
-F10 Perioden Fibu
+**F10** ***Perioden Fibu***
 
-F11 Perioden Ware
+**F11** ***Perioden Ware***
 
-ESC und Speichern F9
+**ESC** und ***Speichern*** **F9**
 
-Hinweis zum Feld Periodeneinteilung Vorjahr kopieren
+**Hinweis zum Feld Periodeneinteilung Vorjahr kopieren**
 
 Das Kopieren der Perioden ist nur bei speziellen Einteilungen wie etwa Dekaden als Einrichtungshilfe zu verwenden. Die Perioden werden ***ohne Plausibilitätsprüfung*** unter Ersetzung des Jahres dupliziert (Achtung für diesen Fall auch bei Schaltjahren).  
 Für Monatsperioden (was sehr häufig der Fall ist) genügt es in den Feldern ‚Anzahl Perioden‘ die Zahl 12 einzutragen. Dann werden die Perioden automatisch angelegt.  

@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/darstellungsregister.htm -->
 
-Das Darstellungsregister ist in zwei große Blöcke und einen Block mit der Hilfe-Funktion eingeteilt. Der linke Block mit den Funktionen Sortierung, Farben, usw. bezieht sich jeweils auf eine Anwendungsvariante, der zweite Block gilt für die Auswahlliste allgemein. Diese Einstellungen werden gespeichert und stehen immer wieder so zur Verfügung. Die Funktionen zum Sortieren, Gruppieren und Filtern in der [Datentabelle](./datentabelle.md) werden hingegen nicht gespeichert und bleiben nur so lange aktiv, solang man in der Variante steht.
+Das Darstellungsregister ist in zwei große Blöcke und einen Block mit der Hilfe-Funktion eingeteilt. Der linke Block mit den Funktionen ***Sortierung***, ***Farben***, usw. bezieht sich jeweils auf eine Anwendungsvariante, der zweite Block gilt für die Auswahlliste allgemein. Diese Einstellungen werden gespeichert und stehen immer wieder so zur Verfügung. Die Funktionen zum Sortieren, Gruppieren und Filtern in der [Datentabelle](./datentabelle.md) werden hingegen nicht gespeichert und bleiben nur so lange aktiv, solang man in der Variante steht.
 
 | | **Bedeutung** |
 | --- | --- |

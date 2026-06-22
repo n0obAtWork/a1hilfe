@@ -2,12 +2,12 @@
 
 <!-- source: https://amic.de/hilfe/_terres_statistik.htm -->
 
-Hauptmenü > Externe Kommunikation > Datendrehscheibe > Statistikexport [TERRS]  
+Hauptmenü > Externe Kommunikation > Datendrehscheibe > Statistikexport [**TERRS**]  
     
 
 In dieser Anwendung kann die Statistik für die einzelnen Perioden an Terres übermittelt werden.
 
-Dazu wird in der Variante „Terresstatistik Export“ der Statisikexport [F9] aufgerufen. Die Statistik wird als csv exportiert. Der Name der Datei enthält die Periode und das Jahr z.B. TerresStatistikExport_2012_12.csv.
+Dazu wird in der Variante „Terresstatistik Export“ der ***Statisikexport*** [**F9**] aufgerufen. Die Statistik wird als csv exportiert. Der Name der Datei enthält die Periode und das Jahr z.B. TerresStatistikExport_2012_12.csv.
 
 Bevor die Statistik übermittelt werden kann, müssen auf der Registerkarte Optionen folgende Einstellungen vorgenommen werden.
 
@@ -29,7 +29,7 @@ Ablauf
 
 Die Statistik kann manuell übertragen werden oder per Event als automatischer Lauf.
 
-Bei der manuellen Übertragung ist es möglich für eine Periode den Export mehrfach anzustoßen, dazu sind die Felder Periode und Jahr auf der Maske „Datendrehscheibe Statistikexport“ anzugeben. Mit Statistikexport Starten [F9] wird der Export gestartet.
+Bei der manuellen Übertragung ist es möglich für eine Periode den Export mehrfach anzustoßen, dazu sind die Felder Periode und Jahr auf der Maske „Datendrehscheibe Statistikexport“ anzugeben. Mit ***Statistikexport Starten*** [**F9**] wird der Export gestartet.
 
 Bei der Übertragung per [Event](../../zusatzprogramme/events/datendrehscheibe_statistikexport.md) wird die letzte geschlossen Periode übermittelt, die noch nicht exportiert worden ist. Dazu wird der Prozedur in den Parametern in_Jahrnummer und in_perinummer jeweils die 0 übergeben.
 

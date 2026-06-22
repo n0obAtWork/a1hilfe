@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Formulare / Abläufe > Formulare
 
-oder Direktsprung [FRM]
+oder Direktsprung **[FRM]**
 
 Der Pfleger lässt sich mit Einfach- oder Mehrfachauswahl von der Auswahlliste her über F5 oder F6 starten
 

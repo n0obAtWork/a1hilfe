@@ -12,9 +12,9 @@ Mit dem Befehl „**PRODENDE**“ wird die Produktion abgeschlossen.
 
 Währen der Erfassung der Produktion kann diese neu gestartet werden, durch zweimaliges Scannen von „**PRODSTART**“
 
-Die erfasste Produktion wird in der [Vorgangsimport](../../../vorgangsabwicklung/vorgangsimport/index.md) [VIMP] Hauptmenü > Externe Kommunikation > Stammdatenimport > Vorgangsimport
+Die erfasste Produktion wird in der [Vorgangsimport](../../../vorgangsabwicklung/vorgangsimport/index.md) [**VIMP**] Hauptmenü > Externe Kommunikation > Stammdatenimport > Vorgangsimport
 
-gespeichert. Von dort aus kann mit der Funktion „Standardvorgang erzeugen“ eine Produktion aus den erfassten Daten erstellt werden.
+gespeichert. Von dort aus kann mit der Funktion „***Standardvorgang erzeugen***“ eine Produktion aus den erfassten Daten erstellt werden.
 
 Stornierung einer Position
 

@@ -4,7 +4,7 @@
 
 Hauptmenü > Kontraktverwaltung > Kontraktausweichliste
 
-oder Direktsprung [KTAU]
+oder Direktsprung **[KTAU]**
 
 Die Kontrakt-Ausweichliste dient dazu, dem Kunden, der einen Kontrakt über eine Auswahl an Artikeln abgeschlossen hat, die Möglichkeit zu geben, ähnliche Artikel, die nicht explizit im Kontrakt erwähnt worden sind, anstelle der aufgeführten Artikel zu vergleichbaren Konditionen abzunehmen. Die Ausweichartikel werden in einer (für den Kunden unsichtbaren) Liste geführt, ohne dass sie in jedem Kontrakt explizit eingetragen sein müssten.
 
@@ -22,4 +22,4 @@ Folgende Felder stehen zur Verfügung.
 
 Artikel
 
-Über die Funktion Artikel wird in die Ausweichartikelmaske gewechselt. Hier werden alle Artikel der Ausweichliste angezeigt. Neuanlage, Änderung und Löschung der Artikel sind in dieser Maske möglich.
+Über die Funktion ***Artikel*** wird in die Ausweichartikelmaske gewechselt. Hier werden alle Artikel der Ausweichliste angezeigt. Neuanlage, Änderung und Löschung der Artikel sind in dieser Maske möglich.

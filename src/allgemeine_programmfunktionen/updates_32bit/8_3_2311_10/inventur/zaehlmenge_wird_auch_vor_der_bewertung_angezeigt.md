@@ -4,7 +4,7 @@
 
 Bei der Kalkulation werden nun auch Artikel berücksichtigt wenn keine Zählmenge in der Inventur vorhanden ist.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 722455[34004]
 

@@ -4,7 +4,7 @@
 
 Im Belegfluss [BF] steht für das Erzeugen von Finanzbuchhaltungsbelegen nur noch die Fibu-Direktverbuchung zur Verfügung.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 748306[37651]
 

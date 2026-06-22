@@ -8,7 +8,7 @@ Wählt man für eine Variante die Funktion das erste Mal aus, so erscheint der f
 
 ![](../../ImagesExt/image8_1287.png)
 
-Um nun eine eingen Ansicht zu generieren, wählt man „speichern als“. Man wird dann nach dem neuen Namen gefragt, unter dem diese Ansicht gespeichert werden soll. Diese neue Ansicht läßt sich dann bearbeiten.
+Um nun eine eingen Ansicht zu generieren, wählt man ***„speichern als***“. Man wird dann nach dem neuen Namen gefragt, unter dem diese Ansicht gespeichert werden soll. Diese neue Ansicht läßt sich dann bearbeiten.
 
 ![](../../ImagesExt/image8_1288.png)
 
@@ -29,12 +29,12 @@ Um nun eine eingen Ansicht zu generieren, wählt man „speichern als“. Man wi
 • Summen  
 • Alle für diese Ansicht erstellten Reporte. *Bei der Standardansicht werden nur die Reporte exportiert.*  
    
-**Achtung:** *Die so exportierten Ansichten lassen sich nur im Ansichten-Manager über* „import“ *wieder einlesen.*  
+**Achtung:** *Die so exportierten Ansichten lassen sich nur im Ansichten-Manager über* ***„import“*** *wieder einlesen.*  
  |
 | importieren | Beim Importieren wird geprüft, ob die zugehörige Variante vorhanden ist und ob die Ansicht bereits im Zielsystem vorhanden ist und es wird in diesem ggf. ein neuer Name abgefragt. Es ist jedoch auch möglich die „alte“ Ansicht zu überschreiben. Importierte Ansichten sind immer erst einmal **nicht** für andere Benutzer freigegeben.  
  |
 | Quickreport importieren | Importiert alle Quickreporte für die Variante als neue Ansichten. Dabei werden **Sortierung, Gruppierung, Feldauswahl** und **Summierung** der Quickreporte für die Ansichten übernommen. Beim Import kann ausgewählt werden, ob die neuen Ansichten für andere Benutzer freigegeben werden.  
-Die Funktion kann auch aus der Anwendung **Quickreporte** (Direktsprung [QR]) aufgerufen werden.  
+Die Funktion kann auch aus der Anwendung **Quickreporte** (Direktsprung **[QR]**) aufgerufen werden.  
    
 **Wichtig:** Die Funktion wird nur angezeigt, wenn Quickreporte für die Variante existieren. Ansonsten ist sie nicht sichtbar und kann auch nicht ausgeführt werden.  
  |

@@ -4,7 +4,7 @@
 
 In der F3-Auswahl (Itembox 2.0) wurden die verschobenen Spalten nach erneutem Aufruf nicht wieder korrekt dargestellt, sondern immer in der Standardreihenfolge. Dieses Problem wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 737812[35620]
 

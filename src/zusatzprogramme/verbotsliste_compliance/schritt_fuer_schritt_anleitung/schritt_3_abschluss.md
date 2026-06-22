@@ -12,22 +12,22 @@ Unter Hauptmenü > Informationen > Sonstiges > Compliance Statistik kann man die
 <details>
 <summary>Schritt 3.2: Prozessergebnisse einsehen</summary>
 
-Um einzusehen, wo die Prozesse der Verbotslistenprüfung ausgeführt wurden, gibt es mehrere Auswahllisten (hier kann mit F2 ein Filter für die Compliance Ergebnisse gesetzt werden):
+Um einzusehen, wo die Prozesse der Verbotslistenprüfung ausgeführt wurden, gibt es mehrere Auswahllisten (hier kann mit **F2** ein Filter für die Compliance Ergebnisse gesetzt werden):
 
-\- [AGB] Angebotsbearbeitung
+\- **[AGB]** Angebotsbearbeitung
 
-\- [AUB] Auftragsbearbeitung
+\- **[AUB]** Auftragsbearbeitung
 
-\- [LIB] (Variante 2: komplexe Auswahlliste) Lieferscheinbearbeitung
+\- **[LIB]** (Variante 2: komplexe Auswahlliste) Lieferscheinbearbeitung
 
-\- [REB] Rechnungen
+\- **[REB]** Rechnungen
 
-\- [BAB] Bestellanfragen
+\- **[BAB]** Bestellanfragen
 
-\- [BSB] Bestellungen
+\- **[BSB]** Bestellungen
 
-\- [ELB] Eingangslieferscheine
+\- **[ELB]** Eingangslieferscheine
 
-\- [ERB] Eingangsrechnungen
+\- **[ERB]** Eingangsrechnungen
 
 </details>

@@ -4,7 +4,7 @@
 
 Wurden im Amic-Etikettendruck Reporte mit Profil im Bearbeiten-Modus aufgerufen, gingen die Druckereinrichtungen verloren. Dies wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[33960]
 

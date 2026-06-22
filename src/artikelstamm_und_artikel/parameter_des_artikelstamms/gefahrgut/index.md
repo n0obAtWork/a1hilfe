@@ -38,7 +38,7 @@ Die Toxizitäts-Klasse ist entgegen früheren Verordnungen nach ADR nicht mehr e
 | Löschbar mit CO2 | Gibt an ob das Gefahrgut mit CO2 löschbar ist. Dieses kann in einen Paket nicht geändert werden, wird aber automatisch angepasst. Wenn das Feld automatisch verändert wurde, wird beim Verlassen der Maske ein entsprechender Hinweis ausgegeben. Wenn der Artikel in einem Paket vorkommt, wird bei Differenzen angezeigt, welche Gefahrgut-Pakete nochmal zu überprüfen sind. |
 | Löschbar mit Pulver | Gibt an ob das Gefahrgut mit Pulver löschbar ist. Dieses kann in einen Paket nicht geändert werden, wird aber automatisch angepasst. Wenn das Feld automatisch verändert wurde, wird beim Verlassen der Maske ein entsprechender Hinweis ausgegeben. Wenn der Artikel in einem Paket vorkommt, wird bei Differenzen angezeigt, welche Gefahrgut-Pakete nochmal zu überprüfen sind. |
 
-Sollen negative Positionsmenge für die Ermittlung von Gefahrgutwerten in Vorgängen positiv berücksichtig werden, kann man unter dem Direktsprung [FRZ] für ausgewählte Unterklassen dieses auf der Registerkarte **Abwicklung** im Bereich *Gefahrgut* entsprechend einstellen.
+Sollen negative Positionsmenge für die Ermittlung von Gefahrgutwerten in Vorgängen positiv berücksichtig werden, kann man unter dem Direktsprung **[FRZ]** für ausgewählte Unterklassen dieses auf der Registerkarte **Abwicklung** im Bereich *Gefahrgut* entsprechend einstellen.
 
 Zusammensetzung
 

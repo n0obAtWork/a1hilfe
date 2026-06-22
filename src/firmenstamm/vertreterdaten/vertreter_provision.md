@@ -4,7 +4,7 @@
 
 Hauptmenü > Nebenbuchhaltungen > Vertreterabrechnung > Vertreter Provisionen
 
-Direktsprung [VEP]
+Direktsprung **[VEP]**
 
 Wahlweise kann die Provision abhängig von der Vertretergruppe oder vom einzelnen Vertreter festgelegt werden. Beide tauchen deshalb als Schlüsselattribut auf, von denen aber stets nur eins belegt sein darf.
 

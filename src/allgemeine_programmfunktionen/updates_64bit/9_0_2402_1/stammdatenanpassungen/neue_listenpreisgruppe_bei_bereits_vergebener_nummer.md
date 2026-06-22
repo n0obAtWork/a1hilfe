@@ -4,7 +4,7 @@
 
 Bei der Neuanlage einer Listenpreisgruppe über die Funktion 'Neu' konnte es in seltenen Fällen vorkommen, das die automatisch erzeugte Listenpreisgruppennummer bereits in der Relation existierte. Dieses führte zu einer Fehlermeldung. Das Verfahren wurde nun dahingehend geändert, dass nach der Bestimmung einer neuen Nummer geprüft wird, ob eine Listenpreisgruppe mit dieser Nummer bereits existiert. Ist das der Fall, so wird solange eine neue Nummer bestimmt, bis diese passt. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 733441[35049]
 

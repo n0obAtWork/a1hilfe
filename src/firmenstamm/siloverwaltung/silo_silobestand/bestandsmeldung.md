@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_bestandsmeldung.htm -->
 
-Mit der Funktion Bestandsmeldung F10 können die Bestände überwacht und verändert werden. Die Funktion stellt dafür drei Betriebsmodi zur Verfügung.
+Mit der Funktion ***Bestandsmeldung*** **F10** können die Bestände überwacht und verändert werden. Die Funktion stellt dafür drei Betriebsmodi zur Verfügung.
 
 Bestandsübersicht
 
@@ -24,7 +24,7 @@ Wird die komplette Menge von einem Silo auf ein anderes Silo gebucht, so wird au
 
 Verschieben
 
-Um eine Position von einem Silo auf ein anderes Silo zu Verschieben muss im linken Silo mindestens eine Position mit einem Doppelklick markiert werden. Nach dem mindestens eine Position ausgewählt worden ist, kann die Funktion Verschieben [F10] ausgewählt werden. Dann werden die markierten Positionen von dem ersten Silo auf das zweite Silo verschoben.
+Um eine Position von einem Silo auf ein anderes Silo zu Verschieben muss im linken Silo mindestens eine Position mit einem Doppelklick markiert werden. Nach dem mindestens eine Position ausgewählt worden ist, kann die Funktion ***Verschieben*** **[F10]** ausgewählt werden. Dann werden die markierten Positionen von dem ersten Silo auf das zweite Silo verschoben.
 
 Auf dem zweiten Silo wird die Position als neue Position an die Positionsliste angefügt. Ist noch keine Ladeeinheit auf dem Silo vorhanden, so wird eine neue angelegt.
 

@@ -6,7 +6,7 @@ Hier werden weitere allgemeine Informationen dargestellt.
 
 [Itemboxparameter](./allgemeine_informationen.md#allgemein_info_Itembox_Parameter)
 
-Itemboxparameter![](../../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">Itemboxparameter![](../../../ImagesExt/image8_1357.png)</p>
 
 Es gibt zurzeit einen Itemboxparameter der standardmäßig bei jeder Itembox gesetzt wird
 

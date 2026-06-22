@@ -101,7 +101,7 @@ Maskenzuordnung
 | Bedienerklasse | Wenn diese Anzeige nur für eine bestimmte Bedienerklasse gültig sein soll, dann hier die Nummer der Bedienerklasse eintragen.  
  |
 | Ident Feldname  
- | Der Name des Feldes auf der Maske, auf den man sich mit IDENT beziehen will. Bei der Eingabe ist unbedingt Groß- und Kleinschreibung zu beachten! Zu bestimmen, indem man, wenn man auf der Maske steht, Shift+Strg+F5 drückt. Hier: **h.BankNummer$**  
+ | Der Name des Feldes auf der Maske, auf den man sich mit IDENT beziehen will. Bei der Eingabe ist unbedingt Groß- und Kleinschreibung zu beachten! Zu bestimmen, indem man, wenn man auf der Maske steht, **Shift+Strg+F5** drückt. Hier: **h.BankNummer$**  
  |
 | Ident Testwert  
  | Es steht im Ändernmodus bei der Maskenzuordnung die Funktion Test zur Verfügung. Diese Funktion benötigt einen Wert für das Ident Feld. Diese muss hier eingetragen werden. Bei der Testfunktion wird dann die Maske aufgerufen und die bisher eingerichteten AIS-Felder mit angezeigt.  

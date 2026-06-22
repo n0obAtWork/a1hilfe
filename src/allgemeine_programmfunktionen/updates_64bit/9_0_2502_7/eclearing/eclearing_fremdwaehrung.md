@@ -4,7 +4,7 @@
 
 Im eClearing [ECL] wurde das Format CAMT.053 erweitert, so dass nun auch Belege in Fremdwährung korrekt verarbeitet werden. Es wird beim Einlesen der in den Währungskursen gepflegte Kurs verwendet. Dieser kann direkt in der Bearbeitung geändert werden.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 750497[38449]
 

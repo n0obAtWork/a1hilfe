@@ -4,7 +4,7 @@
 
 Hauptmenü > Systempflege > Individuelle Textersetzung
 
-Direktsprung [TEXTM]
+Direktsprung **[TEXTM]**
 
 Mit dieser Anwendung lassen sich Texte in Anwendungen individuell durch alternative Texte ersetzen. Dies hat den Vorteil, dass Anwendungstexte speziell an den Sprachgebrauch des Kunden angepasst werden können.
 

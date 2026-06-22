@@ -4,7 +4,7 @@
 
 Unter [MAIL] wurde die Funktion "Email ändern" umbenannt in "Email erneut versenden"
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 719301[33468]
 

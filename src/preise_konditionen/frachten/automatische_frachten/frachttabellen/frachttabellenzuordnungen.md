@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/frachttabellenzuordnungen.htm -->
 
-Nebenbuchhaltungen > Frachtverwaltung > Frachttabellen [FRA] > Ändern > Frachttabellenzuordnung
+Nebenbuchhaltungen > Frachtverwaltung > Frachttabellen **[FRA]** > Ändern > Frachttabellenzuordnung
 
 Eine Frachttabelle kann einer Kombination von [Frachtklasse](../frachtklasse.md), [Frachtgruppe](../frachtgruppe.md) und [Versandart](../../../../artikelstamm_und_artikel/konstanten_der_artikelverwaltung/versandarten.md) zugeordnet werden.
 

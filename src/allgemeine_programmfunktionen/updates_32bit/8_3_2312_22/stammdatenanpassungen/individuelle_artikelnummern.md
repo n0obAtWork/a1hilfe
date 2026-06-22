@@ -4,7 +4,7 @@
 
 In der Anwendung Individuelle Artikelnummern [ARSI] können jetzt unterschiedliche Datensätze von mehreren Bedienern gleichzeitig bearbeitet werden. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 729122[34570]
 

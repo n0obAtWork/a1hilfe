@@ -30,7 +30,7 @@ Da nicht auszuschließen ist, dass der Steuersatz sich ändern wird, kann man hi
  | Von den errechneten Zinsen wird mit diesem Prozentsatz die Kapitalertragssteuer errechnet.  
  |
 | Text  
- | Dieser Text wird bei der „Übernahme in die Primanota“ als Text für die Belegposition verwendet.  
+ | Dieser Text wird bei der ***„Übernahme in die Primanota“*** als Text für die Belegposition verwendet.  
  |
 
 **Zinsabschlag:**
@@ -43,7 +43,7 @@ Da nicht auszuschließen ist, dass der Steuersatz sich ändern wird, kann man hi
  | Von den errechneten Zinsen wird mit diesem Prozentsatz der Zinsabschlag errechnet.  
  |
 | Text  
- | Dieser Text wird beim „Übernahme in die Primanota“ als Text für die Belegposition verwendet.  
+ | Dieser Text wird beim ***„Übernahme in die Primanota“*** als Text für die Belegposition verwendet.  
  |
 
 **Anrechenbarer Solidaritätszuschlag:**
@@ -55,11 +55,11 @@ Da nicht auszuschließen ist, dass der Steuersatz sich ändern wird, kann man hi
 | Prozent  
  | Von dem errechneten Zinsabschlag wird mit diesem Prozentsatz ( zur Zeit 5,5 %) der Solidaritätszuschlag errechnet. |
 | Text  
- | Dieser Text wird beim „Übernahme in die Primanota“ als Text für die Belegposition verwendet.  
+ | Dieser Text wird beim ***„Übernahme in die Primanota“*** als Text für die Belegposition verwendet.  
  |
 
 **Kirchensteuer auf Zinsabschlag:**
 
 [Kirchensteuer](./kirchensteuer.md) wird in einem separaten Pfleger erfasst und beim Personenkonto unter Fibumerkmale hinterlegt.
 
-Der Zinsabschlag, der Solidaritätszuschlag und ggf. die Kirchensteuer werden erst bei der „Übernahme in die Primanota“ der Zinsen ermittelt.
+Der Zinsabschlag, der Solidaritätszuschlag und ggf. die Kirchensteuer werden erst bei der ***„Übernahme in die Primanota“*** der Zinsen ermittelt.

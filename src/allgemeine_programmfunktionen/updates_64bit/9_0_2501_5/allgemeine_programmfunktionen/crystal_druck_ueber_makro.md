@@ -4,7 +4,7 @@
 
 Man kann Crystal Report über Makro aufrufen und mit Parameter versorgen. Dabei wurde der Parameter für die Anzahl der Kopien nicht korrekt ausgewertet.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 743010[36231]
 

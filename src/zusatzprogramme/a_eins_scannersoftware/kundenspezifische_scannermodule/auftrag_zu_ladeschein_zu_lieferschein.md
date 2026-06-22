@@ -77,7 +77,7 @@ Ist ein Ladeschein abgearbeitet worden, so wird mit dem Befehl „**LABENDE**“
 
 Verhalten bei einer Teillieferung einer Position
 
-In der Anwendung [Vorgangsunterklasse](../../../vorgangsabwicklung/formularzuordnung/formular_formularzuordnungen_zum_vorgang_unterklasse.md) [FRZ] für die Klasse 500 „Ladeschein“ auf der Registerkarte „[Sperren](../../../vorgangsabwicklung/formularzuordnung/sperren.md)“ wird eingestellt, ob nach der Erzeugung des Lieferscheins oder der Rechnung der Ladeschein gesperrt oder Storniert werden soll. Die Standard Einstellung ist das stornieren des Ladescheins.
+In der Anwendung [Vorgangsunterklasse](../../../vorgangsabwicklung/formularzuordnung/formular_formularzuordnungen_zum_vorgang_unterklasse.md) **[FRZ]** für die Klasse 500 „Ladeschein“ auf der Registerkarte „[Sperren](../../../vorgangsabwicklung/formularzuordnung/sperren.md)“ wird eingestellt, ob nach der Erzeugung des Lieferscheins oder der Rechnung der Ladeschein gesperrt oder Storniert werden soll. Die Standard Einstellung ist das stornieren des Ladescheins.
 
 Soll der Ladeschein gesperrt werden, so bleiben alle Positionen im Ladeschein nach der Umwandlung erhalten und die Weiterverarbeitungssperre wird gesetzt.
 
@@ -91,7 +91,7 @@ Drucken des Lieferscheins
 
 Um einen erstellten Lieferschein automatisch auszudrucken, muss ein Bediener LaLiDru im System eingerichtet sein. Auf dem Standard Drucker des Bedieners wird dann der Lieferschein ausgedruckt.
 
-Die erfassten Daten werden in der Anwendung [Vorgangsimport](../../../vorgangsabwicklung/vorgangsimport/index.md) [VIMP] gespeichert.
+Die erfassten Daten werden in der Anwendung [Vorgangsimport](../../../vorgangsabwicklung/vorgangsimport/index.md) [**VIMP**] gespeichert.
 
 Hauptmenü > Externe Kommunikation > Stammdatenimport > Vorgangsimport
 

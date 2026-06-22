@@ -4,7 +4,7 @@
 
 In der OP-Verwaltung [OPV] existiert ein Bereich, in dem Kundeninformation angezeigt wurde. Wenn aus Versehen in der untersten Zeile dieses Bereichs ein Doppelklick ausgeführt wurde, wurden alle Zeilen nach oben verschoben. Das geschieht nun nicht mehr.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 742742[36710]
 

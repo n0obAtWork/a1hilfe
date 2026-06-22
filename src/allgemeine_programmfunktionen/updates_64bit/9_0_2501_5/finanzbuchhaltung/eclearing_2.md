@@ -4,7 +4,7 @@
 
 In eClearing wurden die Funktionen "Kundenbank ändern", "Fibumerkmale" und "Kundenbemerkungen" nicht mehr im Menü des Pflegers angeboten.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 743838[36717]
 

@@ -4,7 +4,7 @@
 
 Bei der Version 8.3.2211.30 wurde das Weiterverarbeitungskennzeichen eines Vorgangs von "teildipsoniert" auf "erledigt" gesetzt, wenn man diesen im Änderungmodus geöffnet hat. Dies wurde behoben. Für Version 8.3.2211.30 können Sie einen Patch anfordern.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 718718[33324]
 

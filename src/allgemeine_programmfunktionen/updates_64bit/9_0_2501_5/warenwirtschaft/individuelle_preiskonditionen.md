@@ -4,7 +4,7 @@
 
 Es wurden fälschlicher Weise auch gelöschte Artikel angezeigt, was insbesondere wenn die Artikelnummer neu vergeben wurde, zu Irritationen führte. Gelöschte Artikel werden nun nicht mehr berücksichtigt. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 734329[35499]
 

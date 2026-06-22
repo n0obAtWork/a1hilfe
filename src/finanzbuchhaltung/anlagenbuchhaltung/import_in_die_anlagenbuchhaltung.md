@@ -4,7 +4,7 @@
 
 Hauptmenü > Anlagenbuchhaltung > Stammdaten > Anlagenstamm importieren
 
-Direktsprung [ANKAI]
+Direktsprung **[ANKAI]**
 
 Es ist möglich Anlagengüter in die Anlagenbuchhaltung aus zu importieren. Vor dem Start des Imports wird geprüft ob Daten in der Anlagenbuchhaltung existieren. Ist dies der Fall, werden keine Daten importiert.
 

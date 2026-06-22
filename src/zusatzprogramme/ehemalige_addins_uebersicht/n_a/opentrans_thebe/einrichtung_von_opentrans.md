@@ -4,7 +4,7 @@
 
 Vor der Verwendung von openTRANS sind einige Dinge einzurichten, um einen einwandfreien Ablauf zu gewährleisten.
 
-Steuerparameter
+<p class="just-emphasize">Steuerparameter</p>
 
 Der [Steuerparameter 721 – openTRANS](../../../../firmenstamm/steuerparameter/lizenzen/opentrans_lizenz_spa_721.md) (Lizenz) muss eingeschaltet sein, um die notwendigen Funktionen, Varianten und Eingabefelder freizuschalten.
 
@@ -18,7 +18,7 @@ Der [Steuerparameter 855 – Nur aktuelle Belege bereitstellen für Beleg-Mailve
 
 Der [Steuerparameter 866 - Preismengeneinheit im openTRANS angeben](../../../../firmenstamm/steuerparameter/optionen_warenwirtschaft/preismengeneinheit_im_opentrans_angeben_spa_866.md) legt fest, ob abweichend vom Standard die Preismengeneinheit aus der Warenposition im XML ausgegeben werden soll. Diese Funktion ist nicht möglich bei Verwendung einer Mengeneinheitsumschlüsselungsprozedur.
 
-Mengeneinheiten
+<p class="just-emphasize">Mengeneinheiten</p>
 
 Hauptmenü > Stammdaten > Konstanten Artikelstamm > Mengeneinheiten > Variante „internationale Mengeneinheiten“
 
@@ -34,7 +34,7 @@ Andere Zuordnungen können beim Import verwendet werden |
 
 Eine erste Vorbelegung können Sie mit Hilfe der Funktion „Basiseinrichtung“ erstellen. Diese sucht nach gängigen Bezeichnern für Maßeinheiten wie z.B. „m“, „mtr“ oder „meter“ und erstellt daraus eine Zuordnung zur UN-Mengeneinheit – hier im Beispiel MTR mit den entsprechenden Faktoren.
 
-Sprache
+<p class="just-emphasize">Sprache</p>
 
 Im Sprachenpfleger finden Sie die Kundensprachen. Dort muss die ISO-Kennzeichnung der Sprache zugeordnet sein. Anderenfalls wird als Export-Sprache „ger“ für Deutsch angegeben und bei Verwendung der Sprache eine Warnung ins Fehlerprotokoll geschrieben.
 
@@ -44,13 +44,13 @@ Im Sprachenpfleger finden Sie die Kundensprachen. Dort muss die ISO-Kennzeichnun
 | Bezeichnung | Bezeichnung für diese Sprache |
 | ISO 639-2 | Iso-Kennzeichnung für diese Sprache nach [ISO 639-2](http://www.loc.gov/standards/iso639-2/) |
 
-Kunden
+<p class="just-emphasize">Kunden</p>
 
 Im Kundenstamm muss openTRANS eingerichtet werden.
 
 Siehe dazu Kundenstamm > Kennzeichen > openTRANS
 
-Formularzuordnung [FRZ]
+<p class="just-emphasize">Formularzuordnung [FRZ]</p>
 
 In der Formularzuordnung muss für die einzelnen Vorgangsklassen definiert werden, ob openTRANS aktiv sein soll und wohin die Daten geschrieben werden.
 
@@ -66,7 +66,7 @@ Siehe dazu auch [Firmenstamm > Druckereinrichtung > Vorgangsdruckklassen > Formu
 
 Die zum Druck mit openTRANS verwendeten Formulare müssen archiviert werden können, da sonst die Zusammenführung von openTRANS-Dokument und gedrucktem Pdf nicht erfolgen kann.
 
-Zu- und Abschläge
+<p class="just-emphasize">Zu- und Abschläge</p>
 
 In allen Zu- und Abschlägen muss ein eigener Zu-Abschlagstyp gepflegt werden. Anderenfalls wird dieser im openTRANS nicht ausgewiesen.
 
@@ -80,6 +80,6 @@ In allen Zu- und Abschlägen muss ein eigener Zu-Abschlagstyp gepflegt werden. A
 
 • Zeitabhängige Zu-/Abschläge [ZAZT]
 
-Rabatte
+<p class="just-emphasize">Rabatte</p>
 
 In den Rabattsätzen [RAS] muss ein eigener Zu-Abschlagstyp gepflegt werden. Anderenfalls wird dieser im openTRANS nicht ausgewiesen. In der Regel wird dieser Typ allgemein „Rabatt“ heißen.

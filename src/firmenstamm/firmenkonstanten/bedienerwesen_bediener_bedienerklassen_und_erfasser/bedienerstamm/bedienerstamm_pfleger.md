@@ -4,7 +4,7 @@
 
 Dieser Pfleger dient zur Änderung und Erstellung von Bedienern
 
-Kopfdaten:
+<p class="just-emphasize">Kopfdaten:</p>
 
 | Kopfdaten |
 | --- |
@@ -18,14 +18,14 @@ Kopfdaten:
 **Neu**: Neuanlage des Bedieners. Nach dem Speichern wird dieser auf aktiv gesetzt.  
  |
 
-Register:
+<p class="just-emphasize">Register:</p>
 
 <details>
 <summary>Allgemein</summary>
 
 | Allgemein |
 | --- |
-| Bedienerklasse | F3 Zuordnung einer übergeordneten Abteilung; der Bediener erhält damit die Rechte der [Bedienerklasse](../bedienerklassen/bedienerklasse_pfleger.md).  
+| Bedienerklasse | **F3** Zuordnung einer übergeordneten Abteilung; der Bediener erhält damit die Rechte der [Bedienerklasse](../bedienerklassen/bedienerklasse_pfleger.md).  
  |
 | Betriebsstätte | Betriebsstätte des Bedieners, so wie er auf Listen und Ausdrucken erscheint.  
  |
@@ -66,10 +66,10 @@ Mit dem A.eins-Startparameter ITEMBOX=FALSE wird die Standard-Programmvorgabe au
  |
 | Großer Font | Ist unter Desktopeigenschaften ein großer Font eingestellt kann es passieren, dass die Auswahlliste nur zur Hälfte dargestellt wird. Wird hier ein **Ja** eingestellt, so wird eine spezielle Maske für die Auswahlliste verwendet, die die größere Schrift berücksichtigt.  
  |
-| Form. Kurzliste | wird hier kein Eintrag vorgenommen (0) wird standardmäßig das Formular 111 für den Ausdruck der Auswahllisten F4 benutzt.  
+| Form. Kurzliste | wird hier kein Eintrag vorgenommen (0) wird standardmäßig das Formular 111 für den Ausdruck der Auswahllisten **F4** benutzt.  
 **Wichtig:** Je Bediener muss die korrekte Seitenlänge für den verwendeten Drucker eingestellt werden.  
  |
-| Sprache | Auswahl der [Sprache](../../../a_eins_sprache/index.md) in der A.eins für diesen Anwender erscheinen soll. Diese Sprache wird von AMIC gepflegt und man kann sie mit F3 auswählen. Die Sprachen Englisch, Dänisch, Niederländisch und Französisch sind Lizenzpflichtig. Wenn eine dieser Sprachen das erste Mal ausgewählt wird, so muss man die Aktivierung bestätigen. Es wird erst dann die aktuelle Sprache eingespielt und der Benutzer kann ohne Lizenz für 60 Tage diese Sprache nutzen. Danach muss die Lizenz erworben werden.  
+| Sprache | Auswahl der [Sprache](../../../a_eins_sprache/index.md) in der A.eins für diesen Anwender erscheinen soll. Diese Sprache wird von AMIC gepflegt und man kann sie mit **F3** auswählen. Die Sprachen Englisch, Dänisch, Niederländisch und Französisch sind Lizenzpflichtig. Wenn eine dieser Sprachen das erste Mal ausgewählt wird, so muss man die Aktivierung bestätigen. Es wird erst dann die aktuelle Sprache eingespielt und der Benutzer kann ohne Lizenz für 60 Tage diese Sprache nutzen. Danach muss die Lizenz erworben werden.  
 Ohne Aktivierung wird die Spracheinstellung ignoriert.  
     
  |
@@ -100,17 +100,17 @@ Diese Funktion wird in A.eins nicht mehr genutzt, sondern nur noch supportet. Be
 
 | Farben |
 | --- |
-| Hauptmenü Hintergrund | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit F3) |
-| Hauptmenü Schrift | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit F3) |
-| Auswahlmenü Hintergrund | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit F3) |
-| Auswahlmenü Schrift | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit F3) |
-| Titel Hintergrund | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit F3) |
-| Titel Schrift | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit F3) |
-| Statusleiste Hintergrund | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit F3) |
-| Statusleiste Schrift | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit F3) |
-| F3-Auswahl(Itembox) Hintergrund | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit F3) |
+| Hauptmenü Hintergrund | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit **F3**) |
+| Hauptmenü Schrift | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit **F3**) |
+| Auswahlmenü Hintergrund | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit **F3**) |
+| Auswahlmenü Schrift | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit **F3**) |
+| Titel Hintergrund | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit **F3**) |
+| Titel Schrift | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit **F3**) |
+| Statusleiste Hintergrund | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit **F3**) |
+| Statusleiste Schrift | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit **F3**) |
+| F3-Auswahl(Itembox) Hintergrund | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit **F3**) |
 | Aktuelles Eingabefeld einfärben | Auswahl, ob das aktuelle Eingabefeld, dass den Focus hat, eingefärbt dargestellt wird (Ja/Nein). Standardfarbe ist gelb (250/255/177) kann jedoch individuell angepasst werden.  
-(Eingabe RGB-Code oder Auswahl mit F3) |
+(Eingabe RGB-Code oder Auswahl mit **F3**) |
 | Auf AMIC Farben zurücksetzen | Standard Farben einstellen (Ja/Nein) |
 | Farben für alle Bediener übernehmen | Übernahme der Farbeinstellungen für alle Bediener (Ja/Nein)  
 Dieses Feld ist deaktiviert, wenn bisher noch keine Bediener für die aktuelle Betriebsstätte (Filialnummer im Mandantenstamm) eingerichtet wurden. Standardeinstellung ist „Nein“. |
@@ -120,7 +120,7 @@ Dieses Feld ist deaktiviert, wenn bisher noch keine Bediener für die aktuelle B
 <details>
 <summary>Toolbar</summary>
 
-Hier können der Toolbar die Funktionen aus den eigenen Favoriten aus dem Hauptmenü zugeordnet werden. In der Spalte Id wird die Funktionsident eingegeben. Mit F3 können die Funktionen ausgewählt werden. Hat man keine Favoriten eingerichtet, erscheinen hier natürlich keine Daten. In der Bitmap muss eine Bitmap mit Pfadangabe stehen. Diese Bitmap sollte eine Größe von ca. 16\*16 Pixeln nicht überschreiten.
+Hier können der Toolbar die Funktionen aus den eigenen Favoriten aus dem Hauptmenü zugeordnet werden. In der Spalte Id wird die Funktionsident eingegeben. Mit **F3** können die Funktionen ausgewählt werden. Hat man keine Favoriten eingerichtet, erscheinen hier natürlich keine Daten. In der Bitmap muss eine Bitmap mit Pfadangabe stehen. Diese Bitmap sollte eine Größe von ca. 16\*16 Pixeln nicht überschreiten.
 
 </details>
 
@@ -233,18 +233,18 @@ In diesem Register können Ausnahmen für die Ansicht einer spezifischen Auswahl
 
  
 
-Funktion:
+<p class="just-emphasize">Funktion:</p>
 
 <details>
 <summary>Bedienerstamm Pfleger Funktionen</summary>
 
 | Funktionen | Beschreibung |
 | --- | --- |
-| Speichern (F9),  
-Neu (F8),  
-Speichern unter (shift + F9)  
+| Speichern **(F9)**,  
+Neu **(F8)**,  
+Speichern unter **(shift + F9)  
     
- | |
+** | |
 | Kundenindiv. SQL Anpassung | [Kundenindiviuelle SQL Anpassung](./bedienerstamm_pfleger.md#KundenindiSQL)  
     
  |
@@ -274,21 +274,21 @@ Speichern unter (shift + F9)
 
 Hauptmenü > Administration > Firmenkonstanten > Bediener
 
-oder Direktsprung [BD]
+oder Direktsprung **[BD]**
 
-Öffnet man die Maske für einen Bediener, dann findet man in der Option Box die Funktion Kundenindiv. SQL Anpassung, die die Auswahlliste zur kundenindividuellen SQL Anpassung öffnet. Für den jeweiligen Bediener sieht man dann die Einstellungen der bisherigen Variablen.
+Öffnet man die Maske für einen Bediener, dann findet man in der Option Box die Funktion ***Kundenindiv. SQL Anpassung***, die die Auswahlliste zur kundenindividuellen SQL Anpassung öffnet. Für den jeweiligen Bediener sieht man dann die Einstellungen der bisherigen Variablen.
 
-Mit der Ändern Funktion kann man den Ausdruck für die jeweilige Variable ändern.
+Mit der ***Ändern*** Funktion kann man den Ausdruck für die jeweilige Variable ändern.
 
-Mit Hilfe des Feldes für alle Bediener übernehmen? kann man diesen Ausdruck für die jeweilige Variable beim Speichern für alle Bediener eintragen lassen.
+Mit Hilfe des Feldes ***für alle Bediener übernehmen?*** kann man diesen Ausdruck für die jeweilige Variable beim Speichern für alle Bediener eintragen lassen.
 
-Mit der Löschen Funktion kann man den Ausdruck für die jeweilige Variable löschen.
+Mit der ***Löschen*** Funktion kann man den Ausdruck für die jeweilige Variable löschen.
 
 Beim Bestätigen des Löschens wird man immer gefragt, ob man die Variable auch für alle anderen Bediener löschen möchte. Die Antwort auf diese Frage ist mit ‚Nein’ vorbelegt.
 
 Die Vorbelegung dieser Variablen für einen Bediener bewirkt eine Eingrenzung von SQL Texten wie z.B. Itemboxen oder Auswahllisten oder eine Vorbelegung bei der Neuanlage eines Vorganges.
 
-Die bisher möglichen Variablen:
+<p class="just-emphasize">Die bisher möglichen Variablen:</p>
 
 Wo diese Variablen aktuell eingesetzt werden, kann man z.B. mit Hilfe von OSQL überprüfen. Es ist möglich, dass sich der Einsatz der Variablen im Laufe der Zeit erweitert. Hier wird der zurzeit aktuelle Stand dargestellt.
 

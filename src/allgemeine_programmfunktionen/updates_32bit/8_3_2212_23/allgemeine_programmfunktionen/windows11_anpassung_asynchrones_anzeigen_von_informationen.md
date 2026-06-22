@@ -4,7 +4,7 @@
 
 Laufzeitfehler im Zusammenspiel zwischen A.eins/Editor und Windows 11 wurden behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 716156[33155]
 

@@ -12,6 +12,6 @@ Dazu sind folgende Einstellungen nötig:
 
 3. Das Feld der Vorgangsunterklasse ‚ [Fehlerprotokolleintrag bei Kreditlimitüberschreitung](../../../firmenstamm/firmenkonstanten/bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/bedienerstamm_pfleger.md#Allgemein) ‘ muss auf Ja stehen.
 
-4. Im Mandantenstamm [MND] muss dafür im Register Allgemein Abschnitt Fehlerprotokoll-Meldewesen die Empfänger-Prozedur entsprechend hinterlegt werden.  
+4. Im Mandantenstamm **[MND]** muss dafür im Register Allgemein Abschnitt Fehlerprotokoll-Meldewesen die Empfänger-Prozedur entsprechend hinterlegt werden.  
 Es gibt eine Prozedur, die von AMIC angelegt wurde, die einfach in eine private Prozedur kopiert und angepasst werden kann: FehlerprotokollAbweichendeEmpfaenger (zu finden unter [SQLP]). Dazu muss die Abfrage auf ‚%Kreditlimit%‘ geändert und die E-Mail-Adresse entsprechend angepasst werden.  
 [http://www.amic.de/ihilfe/index.html?turl=XMLDocuments%2FiAeins%2Fhtml%2FM_SQL_FehlerprotokollMeldewesen_FehlerprotokollAbweichendeEmpfaenger.htm](http://www.amic.de/ihilfe/index.html?turl=XMLDocuments%2FiAeins%2Fhtml%2FM_SQL_FehlerprotokollMeldewesen_FehlerprotokollAbweichendeEmpfaenger.htm)

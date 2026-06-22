@@ -8,9 +8,9 @@ Der eingegebene Betrag wird gegen die Einlagesumme abzüglich Pflichteinzahlunge
 
 Werden diese Einträge gespeichert, erfolgt sofort der Eintrag der resultierenden Buchung in die Primanota. Der erfolgreiche Eintrag wird mit dem Status &lt;gebucht> quittiert. Sollte der Buchungseintrag fehlschlagen, sind die Einträge im Gesellschaftsstamm sowie die Berechtigungen des ausführenden Bedieners zu prüfen.
 
-Um Anteile zu kündigen wird ein Gesellschafter in der Auswahlliste ausgewählt mit F5 zum Bearbeiten geöffnet und die Funktion Auszahlung F6 ausgewählt.
+Um Anteile zu kündigen wird ein Gesellschafter in der Auswahlliste ausgewählt mit **F5** zum ***Bearbeiten*** geöffnet und die Funktion ***Auszahlung*** **F6** ausgewählt.
 
-Die Funktion Auszahlung F6 öffnet folgende Eingabefelder:
+Die Funktion ***Auszahlung*** **F6** öffnet folgende Eingabefelder:
 
 | Felder |
 | --- |

@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Archiv > Zugriffssteuerung > Ansichten
 
-Direktsprung [FAA]
+Direktsprung **[FAA]**
 
 | Feld |
 | --- |

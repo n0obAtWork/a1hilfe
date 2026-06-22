@@ -4,7 +4,7 @@
 
 In der Bearbeitungsmaske des Versandprofilstamms [VPST] wurde der Button "Sendeeinstellungen testen" entfernt. Zudem wurden Probleme beim Speichern behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 731528[34788]
 

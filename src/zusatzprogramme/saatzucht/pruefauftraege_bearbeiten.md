@@ -4,7 +4,7 @@
 
 Hauptmenü > Saatzucht > Saatenlabor > Prüfaufträge
 
-oder Direktsprung [PRUEA]
+oder Direktsprung **[PRUEA]**
 
 Nachdem ein [Prüfauftrag erstellt](./pruefauftraege_erstellen.md) wurde, können die Aufträge in dieser Anwendung weiterbearbeitet werden.
 

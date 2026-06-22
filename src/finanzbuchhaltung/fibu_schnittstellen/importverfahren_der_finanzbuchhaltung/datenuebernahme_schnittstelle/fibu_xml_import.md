@@ -4,7 +4,7 @@
 
 Hauptmenü > Abschlussarbeiten > DATEV / Import / Export > Datenübernahme
 
-Direktsprung [DUEB]
+Direktsprung **[DUEB]**
 
 Der Import von XML-Daten wie sie unter [www.amic.de/schema/finanzbuchhaltung](http://www.amic.de/schema/finanzbuchhaltung) beschrieben sind, kann auch über die [Datenübernahme-Schnittstelle](./index.md) eingespielt werden.
 

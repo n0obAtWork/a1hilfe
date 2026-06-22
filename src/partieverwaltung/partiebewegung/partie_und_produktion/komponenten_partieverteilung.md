@@ -10,7 +10,7 @@ Anfangs wird die gesamte Menge der ersten Komponente vorgeschlagen. Über die Pf
 
 ![](../../../ImagesExt/image8_174.jpg)
 
-Nachdem die Mengen aufgeteilt wurden, werden diese Teilmengen den jeweiligen Partien zugeordnet. Über Partieauswahl F5 wird für die Menge (Cursorposition) eine Partie ausgewählt.
+Nachdem die Mengen aufgeteilt wurden, werden diese Teilmengen den jeweiligen Partien zugeordnet. Über ***Partieauswahl*** **F5** wird für die Menge (Cursorposition) eine Partie ausgewählt.
 
 ![](../../../ImagesExt/image8_175.jpg)
 

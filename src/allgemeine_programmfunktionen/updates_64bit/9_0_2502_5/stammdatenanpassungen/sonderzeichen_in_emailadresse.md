@@ -4,7 +4,7 @@
 
 Zeichen wie '&', '^' und weitere werden innerhalb einer Emailadresse korrekt verarbeitet.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 744563[36732]
 

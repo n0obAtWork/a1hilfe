@@ -4,7 +4,7 @@
 
 Für die Datenübernahme [DUEB] wurde eine Möglichkeit geschaffen Daten im Excel XLSX-Format (\*.xslx) in die Finanzbuchhaltung zu importieren.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 726193[34139]
 

@@ -4,7 +4,7 @@
 
 Sepa-Version 3.9, die ab dem 05.10.2025 verwendet werden kann, wurde in A.eins integriert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 747669[37421]
 

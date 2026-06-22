@@ -4,7 +4,7 @@
 
 Preise / Konditionen > Rabatte > Rabattsätze
 
-Oder Direktsprung [RAS]
+Oder Direktsprung **[RAS]**
 
 Es gibt für Rabatte bestimmte Rabattsätze, die in bestimmten Zeiträumen gültig sind und in einer zu definierenden Formel zu berechnen sind.
 

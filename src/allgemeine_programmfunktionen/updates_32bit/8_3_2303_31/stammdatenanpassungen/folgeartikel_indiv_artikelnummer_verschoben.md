@@ -4,7 +4,7 @@
 
 Die Varianten für Folgeartikel und individuelle Artikelnummern wurden in eigene Anwendungen verschoben. Sie sind über die Direktsprünge [ARSF] bzw. [ARSI] aufrufbar
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 720569[33470]
 

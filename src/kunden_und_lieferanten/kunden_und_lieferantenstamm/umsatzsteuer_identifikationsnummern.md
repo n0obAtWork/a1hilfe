@@ -26,6 +26,6 @@ Die Staatnummer der Haupt-USt-IdNr muss der Staatnummer der Hauptanschrift des M
 | Anschrift | Zur AdressId gehöriger Anschriftname  
  |
 
-Steuergruppennummer
+<p class="just-emphasize">Steuergruppennummer</p>
 
 Eine USt-IdNr kann mehrere Steuergruppen haben. Ist das der Fall, können sie in der unteren Tabelle eingegeben werden.

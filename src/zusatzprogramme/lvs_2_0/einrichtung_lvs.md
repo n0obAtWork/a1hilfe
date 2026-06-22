@@ -77,7 +77,7 @@ Für die Scanner müssen Bediener eingerichtet werden. In der Regel wird man fü
 
 Hauptmenü > Administration > Steuerung > Steuerparameter zeigen
 
-oder Direktsprung [SPA]
+oder Direktsprung **[SPA****]**
 
 Es gibt eine Reihe von Steuerparametern für LVS 2.0:
 
@@ -87,7 +87,7 @@ Es gibt eine Reihe von Steuerparametern für LVS 2.0:
 
 Hauptmenü > Administration > Formulare/Abläufe > Formularzuordnung / Vorgangsunterklasse
 
-oder Direktsprung [FRZ]
+oder Direktsprung **[FRZ]**
 
 Das Lagerverwaltungssystem ist kein Warenvorgang wie z.B. ein Lieferschein. Dennoch wird es im Vorgangsimport wegen der ähnlichen Datenstruktur so behandelt. Aus diesem Grund müssen Vorgangsunterklassen mit der Datenbankfunktion „AMIC_LVS_INSTALL_FRZ“ einmalig angelegt und ggf. angepasst werden.
 
@@ -95,9 +95,9 @@ Das Lagerverwaltungssystem ist kein Warenvorgang wie z.B. ein Lieferschein. Denn
 
 Hauptmenü > Stammdatenpflege > Lagerverwaltungssystem > MDE-Workflow
 
-oder Direktsprung [LVSWF]
+oder Direktsprung **[LVSWF]**
 
-In [LVSWF] ist das [LVS-Workflow](../../firmenstamm/lvs_mde_workflow.md) einzurichten.
+In **[LVSWF]** ist das [LVS-Workflow](../../firmenstamm/lvs_mde_workflow.md) einzurichten.
 
 Es gibt ein Standard-Workflow, das jedoch stets zu individualisieren ist.
 

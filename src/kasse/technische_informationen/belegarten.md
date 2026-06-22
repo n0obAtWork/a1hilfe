@@ -20,6 +20,6 @@
 | 24 | Storno Barverkauf-Gutschrift |
 | 23 | Storno Bareinkauf |
 
-Hinweis:
+<p class="just-emphasize">Hinweis:</p>
 
 Die Belegarten zwischen 10 und 20 werden auch als Finanzvorgänge bezeichnet.

@@ -4,7 +4,7 @@
 
 Beim Ziehen von Nummern aus einem Zählkreis [NKZ] wurde bisher die als Obergrenze eingetragene Nummer nicht gezogen. Dies wurde korrigiert. Die Obergrenze stellt jetzt die maximalste Nummer dar, die aus dem Zählkreis gezogen werden kann. Ist ein Zählkreis übergelaufen wird jetzt in dem Feld "Aktueller Zählerstand" eine Nummer angezeigt, die um 1 größer als die Obergrenze ist. Diese Nummer wird nicht gezogen! Sie dient nur zu Darstellungszwecken, um anzuzeigen, dass der Zählkreis übergelaufen ist. Des Weiteren können jetzt Nummern, die sich nicht zwischen Unter- und Obergrenze des entsprechenden Zählkreises befinden, nicht mehr in die Reserveliste geschrieben werden.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 713613[32752]
 

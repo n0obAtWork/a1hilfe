@@ -4,7 +4,7 @@
 
 Die Dokumentenverwaltung bietet in allen Auswahllisten, in denen die Schlüsselbegriffe des Archivs (fa_id, fa_mndnr) verfügbar sind, Vorschauen für die gängigen Mime-Typen resp. Formate.
 
-Welche das genau sind entnehme man der Anwendung „Mime“, Variante „Mime“ ([MIME]) der dortigen Spalte „Archiv-Vorschau“.
+Welche das genau sind entnehme man der Anwendung „Mime“, Variante „Mime“ (**[MIME]**) der dortigen Spalte „Archiv-Vorschau“.
 
 Das A.eins-System unterstützt folgende Typen der Vorschau, diese sind mit Kontext-Menüs ausgestattet, die speziell auf den Typen ausgerichtete Funktionen anbieten.
 

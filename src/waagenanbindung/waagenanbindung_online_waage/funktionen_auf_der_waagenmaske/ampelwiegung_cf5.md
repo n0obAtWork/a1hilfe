@@ -4,7 +4,7 @@
 
 Die Wiegung wird automatisch durchgeführt. Die ankommenden Daten der Waage werden in die Anzeigefelder auf der Maske übertragen, sobald sie verwertbar sind. Es wird vom System anhand des Waagenstatus erkannt, ob es sich um die 1. Wiegung handelt oder ob schon eine Wiegung existiert und somit die 2. Wiegung durchgeführt werden muss.
 
-Auf der Maske wird nach dem Starten der Funktion Ampelwiegung CF5 eine Ampel rechts neben den Gewichtsangaben angezeigt, die drei Zustände haben kann:
+Auf der Maske wird nach dem Starten der Funktion ***Ampelwiegung*** **CF5** eine Ampel rechts neben den Gewichtsangaben angezeigt, die drei Zustände haben kann:
 
 Rot: Die Werte, die die Waage liefert, sind nicht verwertbar. Eventuell wackelt der LKW auf der Waage noch zu stark. Es wird weiter auf verwertbare Daten gewartet. Der Bediener der Waage muss nichts weiter tun als auf das grüne Signal und die Datenübernahme zu warten.
 

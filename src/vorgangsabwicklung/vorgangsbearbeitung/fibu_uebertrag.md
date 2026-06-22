@@ -4,7 +4,7 @@
 
 Die selektierten Vorgänge werden hiermit zur Übertragung an die Finanzbuchhaltung gekennzeichnet (Kennzeichen **i.B.** in der Spalte *FIB)*. Die Übertragung selbst wird durch den Mandantenserver ausgeführt.
 
-Vieraugenprinzip
+<p class="just-emphasize">Vieraugenprinzip</p>
 
 (Kein Finanzbuchhaltungsübertrag mit Mitarbeitern aus zwei Abteilungen)
 

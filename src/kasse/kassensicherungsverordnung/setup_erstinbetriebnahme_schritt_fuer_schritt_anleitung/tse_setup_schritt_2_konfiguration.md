@@ -9,7 +9,7 @@ Zu Hauptmenü > Barvorgänge > Stammdaten > Kassensicherungsverordnung Einrichtu
 
 Hier wird eingestellt, ab wann die Prozedur aktiv werden soll.
 
-1. Dafür mit F3 in die jeweilige Prozedur.
+1. Dafür mit **F3** in die jeweilige Prozedur.
 
 2. Im Datumsfeld das passende Datum auswählen.
 
@@ -23,16 +23,16 @@ Hier wird eingestellt, ab wann die Prozedur aktiv werden soll.
 
 Um die TSE in A.eins einzupflegen, wie folgt vorgehen:
 
-1. Auf TSE pflegen (F10) klicken, um in die Auswahlliste der TSE zu gelangen.
+1. Auf ***TSE pflegen (F10)*** klicken, um in die Auswahlliste der TSE zu gelangen.
 
 **ODER:** Zu Hauptmenü > Barvorgänge > TSE Pflegen navigieren.
 
-ODER: Direktsprung **[TSE]** wählen.
+**ODER**: Direktsprung **[TSE]** wählen.
 
     
 ![](../../../ImagesExt/image8_482.jpg)
 
-2. Um die TSE hinzuzufügen, entweder auf Neu oder F8 klicken.
+2. Um die TSE hinzuzufügen, entweder auf ***Neu*** oder **F8** klicken.
 
 Der Pfleger öffnet sich.  
 Der große Vorteil an der TSE-Implementierung in A.eins ist, dass die TSE (wenn sie in Windows richtig eingebunden wurde) direkt erkannt wird.
@@ -41,7 +41,7 @@ Für den Fall, dass Sie mehrere TSE im Betrieb haben und nicht die Richtige erka
 
 3. Eine Bezeichnung für die TSE eintragen.
 
-4. Auf Aktivieren! klicken.
+4. Auf ***Aktivieren!*** klicken.
 
 5. Ein paar Sekunden warten.
 
@@ -57,9 +57,9 @@ Um die TSE einer Kasse zuzuweisen, zu Hauptmenü > Barvorgänge > Kassenverwaltu
 
 1. Die zu bearbeitende Kasse auswählen.
 
-2. Pfleger mit (F5) öffnen.
+2. ***Pfleger*** mit **(F5)** öffnen.
 
-3. In dem Feld TSE-Id mit F3\-Auswahl die eingerichtete TSE auswählen.
+3. In dem Feld **TSE-Id** mit **F3**\-Auswahl die eingerichtete TSE auswählen.
 
 ![](../../../ImagesExt/image8_484.jpg)
 

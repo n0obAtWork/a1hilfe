@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_archivansichtdefinit.htm -->
 
-Ausgelöst wird eine Archiv-Ansicht über die Funktion Archiv anzeigen CF12 im jeweiligen Programm-Kontext in A.eins. ([Ansichten allgemein](../ansichten_allgemein/index.md))
+Ausgelöst wird eine Archiv-Ansicht über die Funktion ***Archiv anzeigen*** **CF12** im jeweiligen Programm-Kontext in A.eins. ([Ansichten allgemein](../ansichten_allgemein/index.md))
 
 Eine Archiv-Ansichts-Definition ist im einfachsten Fall eine von AMIC vorkonfektionierte Beschreibung, mit deren Hilfe A.eins im Archiv recherchiert.
 
@@ -31,23 +31,23 @@ Privat: Eine vom A.eins-Anwender erstellte Ansichtsdefinition |
 | |
 | --- |
 | Dokument | JA/NEIN  
-Bestimmt ob „persönliche Dokumente“ beim Öffnen/Ausführen der Ansicht über CF12 dem Kontext der entsprechenden A.eins-Lokalität zugewiesen werden sollen – oder nicht.  
+Bestimmt ob „persönliche Dokumente“ beim Öffnen/Ausführen der Ansicht über **CF12** dem Kontext der entsprechenden A.eins-Lokalität zugewiesen werden sollen – oder nicht.  
 A.eins bietet die Möglichkeit „persönliche/private“ Dokumente, die sogenannten „freien Dokumente“ (Belegklasse 9000) ins System zu importieren. Diese haben die Eigenschaft, dass, wenn man an geeigneter Stelle eine Formulararchiv-Ansicht aufruft, sie eben diesen aufgerufenen Kontext zugeordnet werden. Weitere Erläuterungen/Konfigurierungen bei der Behandlung der „Details“ .  
 ![](../../../ImagesExt/image8_919.png)  
 „Geeignete Stellen“ sind somit Profile/Ansicht – Umgebungen, in denen man eben hier diese Möglichkeit vorsieht.  
-So bietet es die Möglichkeit, 9000er-Zuweisungen auf bestimmte Bereiche einzugrenzen. Eben weil man u. U. viel mit SF4 arbeitet und ansonsten eine „Fehlzuweisung“ passieren könnte. |
+So bietet es die Möglichkeit, 9000er-Zuweisungen auf bestimmte Bereiche einzugrenzen. Eben weil man u. U. viel mit **SF4** arbeitet und ansonsten eine „Fehlzuweisung“ passieren könnte. |
 | Zusatz | JA/NEIN  
 Bestimmt, ob zusätzlich zu den durch die Ansicht-Definition bestimmten Archiv-Einträgen auch alle die Archiv-Einträge aufgelistet werden, die weder eine Kundennummer noch eine Beleg-Referenz haben.  
 Unterstützung einer möglichen Organisationsform hinsichtlich des Fehlens von Kundennummer und Belegreferenz von Archiv-Einträgen. Solche Dokumente kommen vornehmlich per Scanner-Importverfahren oder ähnlich gearteten Verfahren ins System. Jedenfalls ist die Absicht, genau diese im Grunde noch nicht zugeordneten Belege an jeder Stelle im Programm, in der in das Formulararchiv gesehen wird, den Sachbearbeitern zur Kenntnis zu bringen.  
 Diese haben dann die Möglichkeit den Beleg einzusehen und ggf. durch „Bearbeiten“ eine Kundennummer und/oder Referenznummer zuzuordnen, um somit den Beleg „abzuarbeiten“.  
 Unterstützung bezüglich dieser Bearbeitung bietet auch der Punkt „Autoedit“. |
 | Autoedit | JA/NEIN  
-Bestimmt, ob bei der Funktion F5 in der Formulararchiv-Anzeige die Felder „Kundennummer“ und „Beleg-Referenz“ automatisch mit dem jeweiligen A.eins-Kontext belegt werden. |
+Bestimmt, ob bei der Funktion **F5** in der Formulararchiv-Anzeige die Felder „Kundennummer“ und „Beleg-Referenz“ automatisch mit dem jeweiligen A.eins-Kontext belegt werden. |
 | Ausschluss | Hier kann eine durch Komma getrennte Liste von Beleg-Klassen angegeben werden, deren Archiv-Einträge nicht angelistet werden sollen. |
 | Durchstart | JA/NEIN  
 Ergibt die durch die Ansichts-Definition veranlasste Archiv-recherche, dass genau ein „Dokument“ gefunden wurde, so wird die Anzeige dieses einen Dokumentes sofort ohne weitere Rückfrage durch das Programm eingeleitet. |
 | Hinzufügen | JA/NEIN  
-In der Formulararchiv-Anzeige wird die Funktion Hinzufügen F8 aktiviert. |
+In der Formulararchiv-Anzeige wird die Funktion ***Hinzufügen*** **F8** aktiviert. |
 | Bed.Schutz | JA/NEIN  
 Bestimmt ob das Schutz-System über die Bedienerklasse des Archives aktiviert wird. |
 | Priv. Import aktiviert | JA/NEIN  

@@ -4,7 +4,7 @@
 
 Beim Ändern des Rechnungsempfängers oder Zahlungspflichtigen über den Kundenstamm [KU] kam es unter Umständen dazu, dass der Datensatz nicht gespeichert werden konnte. Dies wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 729392[34573]
 

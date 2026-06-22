@@ -8,8 +8,7 @@ Direktsprung **[ECL]**
 
 ![Ein Bild, das Text, Screenshot, Schrift, Zahl enthält. KI-generierte Inhalte können fehlerhaft sein.](../../ImagesExt/image8_675.png "Ein Bild, das Text, Screenshot, Schrift, Zahl enthält. KI-generierte Inhalte können fehlerhaft sein.")
 
-    
-Allgemein
+<p class="just-emphasize">Allgemein</p>
 
 Hier lassen sich bestimmte Einstellungen vornehmen:
 
@@ -48,7 +47,7 @@ Diese Option wird nur bei Verwendung des Formats MT940 Swift ausgewertet.
 | Toleranztage bei Skonto | Bei der Bestimmung des Skontos ist es möglich trotz Überschreitung des Skontodatums Skonto zu gewähren, wenn eine bestimmte Anzahl von Tagen noch nicht überschritten wurde. Diese Anzahl Tage, die aus Toleranzgründen gewährt werden sollen, ist hier zu hinterlegen.  
  |
 
-Suchoptionen
+<p class="just-emphasize">Suchoptionen</p>
 
 Werden die folgenden Suchoptionen entfernt, wird zwar die Geschwindigkeit optimiert, aber gleichzeitig wird auch die Trefferrate nach unten gehen.
 
@@ -72,7 +71,7 @@ Hinweis:
 Diese Option gilt nicht für die Zahlungsdienstleister! Stattdessen ist die gleichnamige [Option](./optionen.md#Zahldienstl_KontonummerZahlref) unter den Zahlungsdienstleistern-Optionen zu verwenden.  
  |
 
-Auszifferungsoptionen
+<p class="just-emphasize">Auszifferungsoptionen</p>
 
 | Suchoption | Beschreibung |
 | --- | --- |
@@ -88,7 +87,7 @@ Diese Option gilt nicht für die Zahlungsdienstleister! Stattdessen ist die glei
 | Melden, wenn Auszifferung nicht möglich. | Diese Option ist standardmäßig ausgewählt, wenn „Auszifferung vorschlagen“ auf Ja steht. Will man in der Kontrollliste nicht sehen, ob zu einem Konto eine Auszifferung nicht vorgeschlagen werden konnte, so kann man hier den Haken herausnehmen.  
  |
 
-Zahlungsdienstleister
+<p class="just-emphasize">Zahlungsdienstleister</p>
 
 ![Ein Bild, das Text, Reihe, Schrift, Software enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_676.png "Ein Bild, das Text, Reihe, Schrift, Software enthält. Automatisch generierte Beschreibung")
 
@@ -96,7 +95,7 @@ Im unteren Teil der Maske können die Zahlungsdienstleister eingerichtet werden.
 
 | Felder | Beschreibung |
 | --- | --- |
-| Zahlungsdienstleister | Mit der F3\-Taste kann hier ein Zahlungsdienstleister ausgewählt werden.  
+| Zahlungsdienstleister | Mit der **F3**\-Taste kann hier ein Zahlungsdienstleister ausgewählt werden.  
 Standardmäßig ist nur der Zahlungsdienstleister PayPal verfügbar. Hierfür wird eine *PayPal-Lizenz* benötigt.  
 Des Weiteren besteht die Möglichkeit eigene Zahlungsdienstleister einzurichten (freier Datenimport). Zusätzliche Zahlungsdienstleister sind in dem Anwenderformat **AF_DTADISKTP** zu hinterlegen. Voraussetzung ist die Lizenz *Freier Datenimport.*  
 Wird ein neuer Zahlungsdienstleister für den freien Datenimport (z.B. Amazon) eingerichtet, so erscheint im Untermenü „Datei laden“ eine neue private Funktion, über die die entsprechenden Kontoauszüge eingespielt werden können.  
@@ -113,7 +112,7 @@ Der Dateityp ist wie folgt anzugeben:
    
 Im Falle von PayPal wird immer eine Datei im CSV-Format (\*.csv) erwartet.  
  |
-| Datenbankprozedur | Für den freien Datenimport muss hier eine private Datenbankprozedur angegeben werden, die den Dateiinhalt ausliest und alle erforderlichen Daten zurückliefert. Dazu kann man entweder mit F3 eine bestehende Datenbankprozedur auswählen oder einen neuen Namen eingeben. Diese neue Prozedur wird direkt angelegt und dann sofort zur Bearbeitung geöffnet. Sie enthält ein Grundgerüst mit dem erforderlichen Resultset.  
+| Datenbankprozedur | Für den freien Datenimport muss hier eine private Datenbankprozedur angegeben werden, die den Dateiinhalt ausliest und alle erforderlichen Daten zurückliefert. Dazu kann man entweder mit **F3** eine bestehende Datenbankprozedur auswählen oder einen neuen Namen eingeben. Diese neue Prozedur wird direkt angelegt und dann sofort zur Bearbeitung geöffnet. Sie enthält ein Grundgerüst mit dem erforderlichen Resultset.  
    
 Bei PayPal ist die Datenbankprozedur fest vorgegeben und kann nicht geändert werden.  
  |

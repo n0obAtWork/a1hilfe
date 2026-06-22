@@ -4,7 +4,7 @@
 
 Hauptmenü > Abschlussarbeiten > DATEV / Import / Export > Datenübernahme
 
-Direktsprung [DUEB]
+Direktsprung **[DUEB]**
 
 Diese Schnittstelle ist eine allgemeine technische Lösung um Dateien gesichert einzulesen. In dieser Auswahlliste kann man die Schnittstelle definieren und ausführen.
 
@@ -16,7 +16,7 @@ Einrichtung
 
 Verarbeitung
 
-Hat man in der Auswahlliste ein definiertes Verfahren ausgewählt, kann man mit der Funktion Starten F9 die Datenübernahme starten.
+Hat man in der Auswahlliste ein definiertes Verfahren ausgewählt, kann man mit der Funktion ***Starten*** **F9** die Datenübernahme starten.
 
 ![](../../../../ImagesExt/image8_781.png)
 

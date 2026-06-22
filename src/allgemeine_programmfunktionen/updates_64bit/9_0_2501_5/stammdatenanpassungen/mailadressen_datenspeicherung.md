@@ -4,7 +4,7 @@
 
 Beim Pflegen der E-Mail-Adresse im Kundenstamm konnte es vorkommen, dass die Mailadresse nicht korrekt gespeichert wurde. Das Verfahren wurde überarbeitet.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 743580[36433]
 

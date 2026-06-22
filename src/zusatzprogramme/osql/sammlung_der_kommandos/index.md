@@ -28,7 +28,7 @@ Um Dateien von OSQL auszuführen, stellt man dem Dateinamen ein @ voran.
 
 Ob die Datei als Kommandodatei ausgeführt oder als XML-Import ausgeführt wird, wird an der Dateinamenserweiterung festgemacht. Ist die Dateinamenserweiterung „XML“ dann wird der Import – wie unter [XMLIMPORT](./xmlimport.md) beschrieben – durchgeführt, ansonsten die Kommandodatei.
 
-Kommandodateien werden geöffnet und es wird versucht alle dort mit Semikolon getrennten Befehle (siehe [COMMAND_DELIMITER](./set_command_delimiter_statement.md)) sequentiell (siehe [GOTO](./goto_und_label_statement.md)) abzuarbeiten. Dateien können ineinander verschachtelt werden, das heißt eine Datei kann auch eine andere Datei aufrufen. Unter OSQL können diese Dateien auch per F3 ausgeführt werden (Abfrage Dateiname und Parameter per Dialogmaske).
+Kommandodateien werden geöffnet und es wird versucht alle dort mit Semikolon getrennten Befehle (siehe [COMMAND_DELIMITER](./set_command_delimiter_statement.md)) sequentiell (siehe [GOTO](./goto_und_label_statement.md)) abzuarbeiten. Dateien können ineinander verschachtelt werden, das heißt eine Datei kann auch eine andere Datei aufrufen. Unter OSQL können diese Dateien auch per **F3** ausgeführt werden (Abfrage Dateiname und Parameter per Dialogmaske).
 
 Beispiel
 

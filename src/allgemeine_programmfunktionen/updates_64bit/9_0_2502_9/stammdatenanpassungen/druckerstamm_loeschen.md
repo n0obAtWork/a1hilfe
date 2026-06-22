@@ -4,7 +4,7 @@
 
 Beim Löschen im Druckerstamm wurde das Ergebnis der Abfrage nicht korrekt ausgewertet. Dieses Problem wurde beseitigt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 752756[39135]
 

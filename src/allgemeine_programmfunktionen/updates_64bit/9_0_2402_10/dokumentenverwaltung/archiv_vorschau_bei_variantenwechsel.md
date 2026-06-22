@@ -4,7 +4,7 @@
 
 Nach dem Wechsel innerhalb einer Anwendung von einer Variante mit Archiv-Vorschau zu einer Variante die keine Archiv-Vorschau hat bleibt die Archiv-Vorschau nicht länger sichtbar.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 740504[36274]
 

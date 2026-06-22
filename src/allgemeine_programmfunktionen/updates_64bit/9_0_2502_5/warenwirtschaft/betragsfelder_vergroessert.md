@@ -4,7 +4,7 @@
 
 In der Warenabstimmung nach Perioden [WABST] wurden die Anzeigefelder für Beträge vergrößert
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 732033[35379]
 

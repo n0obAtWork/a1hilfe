@@ -15,7 +15,7 @@ Möglichkeit ein schon vorhandenes Formular als Vorlage für ein neues zu verwen
 | Länge, Breite | Zahlenwertangaben für beide Werte.  
 Formularlänge und –breite lt. Einrichtung oder Druckerstamm benutzen.  
 Es wird nur herangezogen, wenn das folgende Feld auf „Formularlänge lt. Einrichtung“ gestellt wird.  
-Bei Einstellung auf „Formularlänge lt. Druckerstamm“ wird die Einstellung für die Seitenlänge des Druckers im Druckerstamm [DRST] verwendet. Dies gilt aber auch nur für einen ASCII Druck. Ist in den Druckereinstellungen das Feld Windows Druck auf Ja gestellt worden, dann sind die Seitenlängenangaben insofern unwichtig, als dass die Auflösung des zu erreichenden Druckers ermittelt wird und die Seitenlänge bestimmt. |
+Bei Einstellung auf „Formularlänge lt. Druckerstamm“ wird die Einstellung für die Seitenlänge des Druckers im Druckerstamm **[DRST]** verwendet. Dies gilt aber auch nur für einen ASCII Druck. Ist in den Druckereinstellungen das Feld Windows Druck auf Ja gestellt worden, dann sind die Seitenlängenangaben insofern unwichtig, als dass die Auflösung des zu erreichenden Druckers ermittelt wird und die Seitenlänge bestimmt. |
 | Seitensteuerung | Angabe ob Seitenumbruch oder Endlos ohne Seitensteuerung innerhalb des Formulars  
 Seitenumbruch  
 **\-** Kopf und Fuß werden immer auf jeder Seite gedruckt  

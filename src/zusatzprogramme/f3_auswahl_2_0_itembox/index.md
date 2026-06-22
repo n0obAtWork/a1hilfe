@@ -24,13 +24,13 @@ IB_LABEL Klasse ab
 ```
 
 2) Bei F3-Auswahlen auf FS-Formate:  
-Bei FS-Formaten werden immer alle Daten geladen und angezeigt, unabhängig davon, was man im Feld vorher angegeben hat. Die aktive Zeile ist die Zeile mit dem Wert, der in dem Feld steht, aus dem man kommt. Splitter und F2 oder Strg-Y stehen nicht zu Verfügung.
+Bei FS-Formaten werden immer alle Daten geladen und angezeigt, unabhängig davon, was man im Feld vorher angegeben hat. Die aktive Zeile ist die Zeile mit dem Wert, der in dem Feld steht, aus dem man kommt. Splitter und **F2** oder **Strg-Y** stehen nicht zu Verfügung.
 
 Filter:
 
 Die Filterzeile direkt unter der Überschrift dient dazu, schnell bestimmte Datensätze zu finden. Es wird bei dieser Methode nicht erneut auf die Datenbank zugegriffen, sondern nur in den Daten der Datentabelle gesucht.
 
-Die gelb eingefärbte Spalte ist die aktive Spalte. Mit den Tasten Tab und Shift-Tab kann man zwischen den Spalten wechseln. Sobald man eine Taste drückt, die ein sichtbares Zeichen darstellt, springt sie Schreibmarke sofort in die Filterzeile, stellt dieses Zeichen dar und grenzt die Auswahl entsprechend ein. Man kann auch jederzeit mit der Maus in die Filterzeile klicken oder mit der Tastenkombination Strg-F in die Filterzeile gelangen.
+Die gelb eingefärbte Spalte ist die aktive Spalte. Mit den Tasten **Tab** und **Shift-Tab** kann man zwischen den Spalten wechseln. Sobald man eine Taste drückt, die ein sichtbares Zeichen darstellt, springt sie Schreibmarke sofort in die Filterzeile, stellt dieses Zeichen dar und grenzt die Auswahl entsprechend ein. Man kann auch jederzeit mit der Maus in die Filterzeile klicken oder mit der Tastenkombination **Strg-F** in die Filterzeile gelangen.
 
 In der Filterzeile können Werte angegeben werden oder es kann aus den in den Drop-Down-Liste angebotenen Werten ausgewählt werden.
 

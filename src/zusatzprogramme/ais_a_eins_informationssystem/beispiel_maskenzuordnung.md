@@ -66,7 +66,7 @@ IDSQL select * from
 KundenStamm where KundId = :ID1
 ```
 
-Das **Ident-Feld** ist hier die KundId. Bei Einrichtung des Funktionsmenüs zu dieser Anwendung **muss** dann die Funktion Neu weggelassen werden. Es würde sonst eine neue Ident gebildet werden, zu der kein Kunde existiert.
+Das **Ident-Feld** ist hier die KundId. Bei Einrichtung des Funktionsmenüs zu dieser Anwendung **muss** dann die Funktion ***Neu*** weggelassen werden. Es würde sonst eine neue Ident gebildet werden, zu der kein Kunde existiert.
 
 ![](../../ImagesExt/image8_1043.jpg)
 

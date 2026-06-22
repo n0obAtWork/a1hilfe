@@ -4,7 +4,7 @@
 
 TAR-Export ist nun auch nach Ablauf des TSE-Zertifikates möglich.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 752960[39397]
 

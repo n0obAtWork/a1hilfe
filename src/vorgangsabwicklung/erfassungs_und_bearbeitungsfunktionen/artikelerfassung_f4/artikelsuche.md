@@ -14,7 +14,7 @@ In den Stammdaten hinterlegt sind verschiedene Suchkriterien, anhand derer ein A
 
 • Artikelbezeichnung
 
-Am Beispiel der Artikelnummer ergibt sich folgender Ablauf:
+<p class="just-emphasize">Am Beispiel der Artikelnummer ergibt sich folgender Ablauf:</p>
 
 Wenn die Artikelnummer korrekt eingegeben wird, erscheint rechts davon die erste Artikeltextzeile. Als nächstes Eingabefeld wird das Mengenfeld abgefragt. Falls es sich nicht um den gewünschten Artikel handelt, kann mit der Pfeil-Taste wieder in das Feld “Artikelnummer” zurückpositioniert und die Eingabe wiederholt werden.
 
@@ -28,23 +28,23 @@ Auch ist es möglich, eine Auswahlvariante direkt im Feld “Artikelnr.” aufzu
 
 Eine Suchvariante kann auch als Standardvariante gesetzt werden; dann wird immer im Eingabefeld „Artikel“ die Suche nach dem gesetzten Kriterium gestartet. Die „Setzung“ wird durch Markierung der Suchvariante und Betätigung der Funktion „Einstiegsvariante“ ausgelöst. Eine gesetzte Variante kann mit Betätigung von „Einstiegsvariante“ gelöscht werden. Dann ist automatisch die Standardsuche aktiv. Sie ermöglicht sowohl die Suche nach „Artikelnummer“ und „Bezeichnung“.
 
-Diverse Artikel
+<p class="just-emphasize">Diverse Artikel</p>
 
 Auch wenn es Ziel eines Unternehmens ist, eine artikelgenaue Bestands- und Erfolgsrechnung zu organisieren, wird es in vielen Fällen erforderlich sein, Sammelkonten zu führen. Hiermit ist jedoch nicht gemeint, Artikel von Fall zu Fall manuell zu buchen. Vielmehr wird man spezielle Artikelkonten anlegen, über die dann Geschäftsvorfälle, die diese Artikel berühren, abgewickelt werden. Hierdurch ist gewährleistet, dass alle Vorfälle im System ordnungsgemäß erfasst wurden und dass die interne Steuerung, z.B. Verbuchung auf den Steuerkonten, vom System verwaltet wird. Natürlich will man in diesen Fällen einen individuellen Artikeltext vergeben. Die Betä­ti­gung von “F6” Artikeltext ändern ermöglicht hier dann die Korrektur des vorge­ge­be­nen Textes. Zusätzlich kann dieses Verfahren automatisiert werden, indem im Artikel unter „weitere Kennzeichen“ auf „Diverse Artikel“ geschaltet wird. Das Fenster öffnet dann automatisch.
 
-Menge
+<p class="just-emphasize">Menge</p>
 
 An dieser Stelle erfolgt die Mengeneingabe. Bitte beachten Sie, dass die Eingabe der Nachkommastellen zur Formulareinrichtung passen muss.
 
-Eingabe der Gesamtmenge
+<p class="just-emphasize">Eingabe der Gesamtmenge</p>
 
 In den meisten Fällen erfolgt eine Gesamtmengeneingabe im Mengenfeld, gesteuert über die Mengeneinheiten. Weitere Fälle sind dann nicht zu beachten.
 
-Mengeneingabe mit Gebinde
+<p class="just-emphasize">Mengeneingabe mit Gebinde</p>
 
 Wenn die Verkaufsmengeneinheit eines Artikels als Gebinde definiert wurde, dann öffnet sich nach Aufruf des Artikels ein Erfassungsfenster zur Gebindeerfassung:
 
-Nach Bestätigung der Erfassung mit der ENTER\-Taste gelangt man in die Artikelerfassung zurück. Mittels einer speziellen “EPA”-Einstellung kann man jedoch auch dafür sorgen, dass die Eingabe im Feld “Anzahl” fortgesetzt wird. Somit können mehrere Gebinde hintereinander erfasst werden. Diese Form der Erfassung muss mit ESC beendet werden.
+Nach Bestätigung der Erfassung mit der **ENTER**\-Taste gelangt man in die Artikelerfassung zurück. Mittels einer speziellen “EPA”-Einstellung kann man jedoch auch dafür sorgen, dass die Eingabe im Feld “Anzahl” fortgesetzt wird. Somit können mehrere Gebinde hintereinander erfasst werden. Diese Form der Erfassung muss mit **ESC** beendet werden.
 
 Eine Teilmengeneingabe ist möglich, indem z.B. “Anzahl” und “Gebindeeinheit” mit 0 erfasst werden und in der “Liefereinheit” die Teilmenge erfasst wird.
 
@@ -52,37 +52,37 @@ Das Ergebnis der Gebindeberechnung wird nach Verlassen des Fensters in das Menge
 
 Häufig ist es sinnvoll, die Auflösung des Gebindes mit anzudrucken, so z.B. auf dem Lieferschein, um dem Lageristen die Aufgabe zu erleichtern. Hierzu muss das Formular entsprechend eingerichtet werden.
 
-Preis
+<p class="just-emphasize">Preis</p>
 
 Hier erfolgt die Preiseingabe. Der Preis wird entweder automatisch vorgeschlagen (aus der Preismatrix, aus individuellen Vereinbarungen, etc.) und hier bestätigt oder manuell erfasst. Der Grundpreis (Liste oder individuell) wird bereits mit dem Artikelaufruf angezeigt. Der Kontraktpreis jedoch erst nach Eingabe der Menge, da geprüft werden muss, ob und welcher Preis überhaupt gezogen werden soll.
 
-Wird im Preisfeld F3 betätigt, werden alternative Listenpreise und Preise aus Angeboten, Aufträgen und Rechnungen dieses Kunden angezeigt, die ggf. auch zur Bepreisung ausgewählt werden können.
+Wird im Preisfeld **F3** betätigt, werden alternative Listenpreise und Preise aus Angeboten, Aufträgen und Rechnungen dieses Kunden angezeigt, die ggf. auch zur Bepreisung ausgewählt werden können.
 
-Mittels eines Steuerungsparameters (Vorgangspositionen Warenpositionen) kann eine vom Standard abweichende Variante für die Preis-Selektion (F3 beim Einzelpreis) eingestellt werden, so dass nicht auf die Listenpreise, sondern auf die Preise in vorhandenen, unerledigten Angeboten und Aufträgen (bzw. Bestellanfragen und Bestellungen im Einkauf) für denselben Kunden/Lieferanten, denselben Artikel und ggf. dieselbe Versandanschrift zurückgegriffen wird.
+Mittels eines Steuerungsparameters (Vorgangspositionen Warenpositionen) kann eine vom Standard abweichende Variante für die Preis-Selektion (**F3** beim Einzelpreis) eingestellt werden, so dass nicht auf die Listenpreise, sondern auf die Preise in vorhandenen, unerledigten Angeboten und Aufträgen (bzw. Bestellanfragen und Bestellungen im Einkauf) für denselben Kunden/Lieferanten, denselben Artikel und ggf. dieselbe Versandanschrift zurückgegriffen wird.
 
 Es ist möglich, dort auf die Standardpreise zurückzuschalten.
 
-**Achtung:** Es wird hierbei natürlich nicht im Angebot bzw. Auftrag eine Disposition vorgenommen, wie bei der Teildisposition mittels F6. Es handelt sich also lediglich um eine Preisermittlungs-Hilfe bei der Erfassung.
+**Achtung:** Es wird hierbei natürlich nicht im Angebot bzw. Auftrag eine Disposition vorgenommen, wie bei der Teildisposition mittels **F6**. Es handelt sich also lediglich um eine Preisermittlungs-Hilfe bei der Erfassung.
 
 Bei der automatischen Preisfindung kann durch Anwahl der Funktion “Preisfindung Information” angezeigt werden, wie dieser Preis zustande gekommen ist. Die Preisherkunft (manuell, Liste, Kontrakt,...) wird rechts neben dem Gesamtpreisfeld angezeigt.
 
-Preiseinheit / Mengeneinheit
+<p class="just-emphasize">Preiseinheit / Mengeneinheit</p>
 
 Der Preis bezieht sich auf “n” “Mengeneinheiten”, z.B. “1 Stück”. Diese Felder sind vorbelegt mit den Angaben des Artikelstamms, können hier jedoch bei Bedarf über­schrieben werden (wenn durch das Parametersystem gestattet). Wenn also ein anderer Preisbezug gewünscht ist, dann werden zuerst die Anzahl der Mengeneinheiten und danach die Mengeneinheit erfasst. A.eins lässt nur Mengeneinheiten zu, die sich auf die gleiche Grundeinheit, wie im Artikelstamm in den Mengeneinheiten definiert, zurückführen lassen, um die Datenkonsistenz zu gewährleisten.
 
-Skontierfähigkeit
+<p class="just-emphasize">Skontierfähigkeit</p>
 
 Eingabe, ob auf die Position prinzipiell Skonto gewährt wird. Vorbelegt aus den Angaben des Artikelstamms. Erst die Bestimmung der Zahlungsbedingung zum Abschluss entscheidet jedoch darüber, ob tatsächlich Skonto gewährt wird.
 
-Rabatt
+<p class="just-emphasize">Rabatt</p>
 
 Gesteuert über den Artikel (manueller Rabatt zulässig) wird ein Rabatt abgefragt.
 
-Informationen
+<p class="just-emphasize">Informationen</p>
 
 Rechts im Erfassungsbildschirm befindet sich ein Informationsfenster, das Informationen zum Artikel bereitstellen kann (Gewicht, Preis, etc.). Auch dieser Bildschirm kann frei im Formulareinrichter gestaltet werden.
 
-Erfassung Vorverkauf, Voreinkauf, Einlagerung und Kommission
+<p class="just-emphasize">Erfassung Vorverkauf, Voreinkauf, Einlagerung und Kommission</p>
 
 Die Geschäftsvorfälle Voreinkauf und Kommission sind dem Verkaufsbereich zugeordnet während der Voreinkauf und die Einlagerung dem Bereich Einkauf angesiedelt sind. Sie bestehen in der Regel immer aus den Phasen Geschäftseinleitung und Geschäftsabwicklung:
 

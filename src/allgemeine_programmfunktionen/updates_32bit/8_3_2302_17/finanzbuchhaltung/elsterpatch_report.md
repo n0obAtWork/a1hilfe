@@ -4,7 +4,7 @@
 
 Der Report im Elsterpatch wurde für die Kennzahl 50 angepasst.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 720552[33471]
 

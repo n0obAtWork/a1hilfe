@@ -40,7 +40,7 @@ Oder im Positionsteil:
 
 [Siehe auch Erfassung des Positionsteils bei Umbuchungen](../../erfassungs_und_bearbeitungsfunktionen/artikelerfassung_f4/zusaetzliche_erfassung_bei_umbuchungen.md)
 
-Hinweise:
+<p class="just-emphasize">Hinweise:</p>
 
 Durch die Option "maxBuchuntstypUmbuchung - Maximaler Buchungstyp bei Umbuchung" kann für den Bediener eingeschränkt werden, welchen maximalen Buchungstyp der Bediener verwenden darf.
 

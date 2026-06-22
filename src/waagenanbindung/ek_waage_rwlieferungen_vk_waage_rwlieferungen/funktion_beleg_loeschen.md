@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_rwwev_belegloeschen.htm -->
 
-Mit der Funktion Beleg löschen kann man Rohwarenbelege löschen.  
+Mit der Funktion ***Beleg löschen*** kann man Rohwarenbelege löschen.  
 Beim Löschen von Rohwarenbelegen wird man gefragt, ob man den zugehörigen Waagedatensatz auch löschen möchte. Diese Abfrage erscheint nur, wenn der Rohwarenbeleg nicht den Status erledigt hat, d.h. aus ihm noch keine Lieferung erzeugt wurde.  
  
 

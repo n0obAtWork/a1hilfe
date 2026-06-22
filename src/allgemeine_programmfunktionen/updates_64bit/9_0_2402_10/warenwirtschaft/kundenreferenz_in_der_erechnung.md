@@ -4,7 +4,7 @@
 
 Im Feld BT-46 wird für gewöhnlich die Gegennummer eingetragen, die im Kundenstamm hinterlegt ist. Sollte diese leer sein, so wird die Kundennummer des Kunden ausgegeben. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 743259[36285]
 

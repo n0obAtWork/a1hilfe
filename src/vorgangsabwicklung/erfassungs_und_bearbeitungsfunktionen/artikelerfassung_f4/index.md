@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/artikelerfassungf4.htm -->
 
-Mit Eingabe von F4 wird die Artikelerfassung aktiviert. Mit der Artikelerfassung können sehr komplexe Funktionen, wie z.B. Preisfindung, Objektverwaltung, Leergutverwaltung etc. ablaufen. Hierauf soll an dieser Stelle nicht näher eingegangen werden. Hier soll nur die prinzipielle Bedienung der Erfassungsmaske erläutert werden.
+Mit Eingabe von **F4** wird die Artikelerfassung aktiviert. Mit der Artikelerfassung können sehr komplexe Funktionen, wie z.B. Preisfindung, Objektverwaltung, Leergutverwaltung etc. ablaufen. Hierauf soll an dieser Stelle nicht näher eingegangen werden. Hier soll nur die prinzipielle Bedienung der Erfassungsmaske erläutert werden.
 
 Vorab ein wichtiger **Hinweis**:  
 Wird eine Artikelposition im Korrekturmodus bearbeitet, so wird die ursprüngliche Menge (vor der Korrektur) aus den Beständen des Artikels und von bereits zugeordneten Partien, Kontrakten usw. zunächst herausgerechnet. Nur so ist es möglich, mit einer nun gegebenenfalls geänderten Menge zu prüfen, ob noch genügend Bestand für die neue Menge vorhanden ist. So ist zum Beispiel der Ausweis des Partiebestands bei der Partieauswahl oder des Kontraktbestands bei der Kontraktauswahl immer so zu verstehen, dass die ursprüngliche Positionsmenge hierin nicht berücksichtigt ist.

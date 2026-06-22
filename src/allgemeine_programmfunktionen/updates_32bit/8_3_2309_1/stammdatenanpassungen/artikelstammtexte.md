@@ -4,7 +4,7 @@
 
 Die Artikelstammtexte können für andere Sprachen oder andere Varianten angelegt werden. Unter Umständen wurde nach Änderung der Variante/Sprache der falsche Artikeltext angezeigt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 726842[34202]
 

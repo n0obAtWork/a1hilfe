@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Konstanten Artikelstamm > Bestellgruppen
 
-oder Direktsprung [BSG]
+oder Direktsprung **[BSG]**
 
 Die Daten dieses Stammdatenpflegers werden noch nicht ausgewertet, ein möglicher Verwendungszweck ist jedoch die Auswertung bezüglich des automatischen Bestellwesens o.ä.
 

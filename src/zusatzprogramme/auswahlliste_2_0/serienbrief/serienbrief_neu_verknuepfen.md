@@ -12,7 +12,7 @@ Wählt man diese Funktion aus, so öffnet sich folgender Dialog.
 
 ![](../../../ImagesExt/image8_1296.png)
 
-Schritt 1: Word Dokument auswählen. Dazu klickt man auf das Ordner-Symbol links oben oder verwendet die Funktionstaste F3. Es öffnet sich ein Dialog, in dem man eine existierende Datei auswählen kann oder eine neuen Dateinamen angeben kann. Wird ein nicht existierendes Document ohne Extension angegeben, so wird automatisch „docx“ verwendet. Der Name des Word-Dokumts erscheint später im Menü als Auswahlpunkt. Pro Variante muss der Name des Dokuments eindeutig sein.
+Schritt 1: Word Dokument auswählen. Dazu klickt man auf das Ordner-Symbol links oben oder verwendet die Funktionstaste **F3**. Es öffnet sich ein Dialog, in dem man eine existierende Datei auswählen kann oder eine neuen Dateinamen angeben kann. Wird ein nicht existierendes Document ohne Extension angegeben, so wird automatisch „docx“ verwendet. Der Name des Word-Dokumts erscheint später im Menü als Auswahlpunkt. Pro Variante muss der Name des Dokuments eindeutig sein.
 
 **Hinweis:** Der Name des Dokuments kann später nicht mehr geändert werden.
 
@@ -28,7 +28,7 @@ Schritt 2: (Optional) Eine Beschreibung erfassen. Diese erscheint dann im Menü 
 
 Diese Tags können auch kombiniert werden.
 
-Schritt 3: Die Funktion „bearbeiten“ im Menüband auswählen. Diese Funktion ist erst dann aktiv, wenn vorher ein Dokument augewählt wurde. Falls ein bestehendes Dokument ausgewählt wurde, wird in diesem Moment eine Kopie des Dokuments im Temp-Verzeichnis erstellt. Es wird also nicht das Original verarbeitet.
+Schritt 3: Die Funktion ***„bearbeiten“*** im Menüband auswählen. Diese Funktion ist erst dann aktiv, wenn vorher ein Dokument augewählt wurde. Falls ein bestehendes Dokument ausgewählt wurde, wird in diesem Moment eine Kopie des Dokuments im Temp-Verzeichnis erstellt. Es wird also nicht das Original verarbeitet.
 
 Beim öffnen des Dokuments erscheint eine Sicherheitsabfrage von Word, ob sie folgenden SQL-Befehl ausführen möchten. ‚Kunde$‘ ist dabei keine echte Datenbank-Tabelle sondern der Name des ersten Arbeitsblattes der Excel-Datei, aus der die Daten gelesen werden.
 
@@ -44,4 +44,4 @@ Wenn man in der Vorgängerversion bereits Word-Dokumente für diese Variante ers
 
 ![](../../../ImagesExt/image8_1298.png)
 
-Führt man die Funktion „importieren“ – duch Ankllicken oder mit der Funktionstaste F6 - aus , so erscheint eine F3-Auswahl, in der die Dokumente aufgelistet werden. Wählt man ein Dokument aus, so erscheint der ehemalige Titel im Feld „Word-Dokument“. Anschließend geht die bearbeitung mit [Schritt 2](../../../kasse/kassensicherungsverordnung/setup_erstinbetriebnahme_schritt_fuer_schritt_anleitung/tse_setup_schritt_2_konfiguration.md) weiter.
+Führt man die Funktion ***„importieren“*** – duch Ankllicken oder mit der Funktionstaste **F6** - aus , so erscheint eine F3-Auswahl, in der die Dokumente aufgelistet werden. Wählt man ein Dokument aus, so erscheint der ehemalige Titel im Feld „Word-Dokument“. Anschließend geht die bearbeitung mit [Schritt 2](../../../kasse/kassensicherungsverordnung/setup_erstinbetriebnahme_schritt_fuer_schritt_anleitung/tse_setup_schritt_2_konfiguration.md) weiter.

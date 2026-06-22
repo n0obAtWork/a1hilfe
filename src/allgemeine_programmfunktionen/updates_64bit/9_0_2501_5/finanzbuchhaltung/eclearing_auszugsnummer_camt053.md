@@ -4,7 +4,7 @@
 
 Beim CAMT-Import wurde bisher die ID (Referenz des erstellenden Instituts, die diesen Informationen-Sammler eindeutig kennzeichnet) als Auszugsnummer übernommen. Diese wird jetzt, falls im CAMT-Dokument vorhanden, von der papierhaften Auszugsnummer (Element LglSeqNb) oder der laufende elektronische Auszugsnummer des Auszugs (Element ElctmSeqNb) abgelöst. Die Eindeutigkeitsprüfung, also ob der Auszug bereits eingelesen wurde, erfolgt jedoch weiter über die ID.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 744446[36659]
 

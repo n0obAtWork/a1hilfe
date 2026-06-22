@@ -4,7 +4,7 @@
 
 Hauptmenü > Produktion / Abwicklung > Produktion Stammdaten > Rezepturen
 
-oder Direktsprung [REZ]
+oder Direktsprung **[REZ]**
 
 Hier sind die eigentlichen Rezepturen einzugeben. Es wird unterschieden zwischen „Rezepturen“ und „Handelsstücklisten“. In der Auswahlliste ist für den hier diskutierten Fall „Rezeptur“ zu wählen.
 

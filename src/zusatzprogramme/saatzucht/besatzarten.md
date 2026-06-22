@@ -4,7 +4,7 @@
 
 Hauptmenü > Saatzucht > Saatgutstammdaten > Besatzarten
 
-Direktsprung [SAATA]
+Direktsprung **[SAATA]**
 
 In diesem Stammdatenpfleger werden Besatzarten gepflegt, diese werden in Fruchtarten verwendet. Kulturbesatzarten wiederum können auf eine andere Fruchtart verweisen (Fremdbesatz).
 

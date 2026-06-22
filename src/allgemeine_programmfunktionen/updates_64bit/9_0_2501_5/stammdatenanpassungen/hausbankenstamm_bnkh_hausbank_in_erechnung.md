@@ -4,7 +4,7 @@
 
 Bei den Hausbanken [BNKH] gibt es einen neuen Bereich namens "eRechnung", in welchem ausgewählt werden kann, ob diese Hausbank in eRechnungen verwendet werden soll.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 741942[36085]
 

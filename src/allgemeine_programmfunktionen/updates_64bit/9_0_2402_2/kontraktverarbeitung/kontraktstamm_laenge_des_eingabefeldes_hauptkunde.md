@@ -4,7 +4,7 @@
 
 Man kann bei der Kontrakterfassung im Feld Hauptkunde jetzt mehr als 8 Zeichen eingeben um besser nach der Bezeichnung suchen zu können.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 737951[35627]
 

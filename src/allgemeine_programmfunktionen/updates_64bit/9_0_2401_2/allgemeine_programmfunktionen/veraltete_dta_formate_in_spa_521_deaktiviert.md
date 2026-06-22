@@ -4,7 +4,7 @@
 
 Steuerparameter "DTA Ausgabeformat" [521] angepasst, veraltete Einstellungen (Österreich, Deutschland & Dänemark) wurden entfernt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 732070[34919]
 

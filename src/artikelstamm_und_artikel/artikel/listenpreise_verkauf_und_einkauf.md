@@ -63,29 +63,29 @@ Bei Aufruf des Punktes Listenpreise Verkauf erscheint folgende Maske:
 
 Folgende Werte müssen dazu eingegeben werden:
 
-Preis/Klassen-Matrix
+<p class="just-emphasize">Preis/Klassen-Matrix</p>
 
 Diese Matrix dient dazu, bestimmte Preise verschiedenen Kunden-Preisklassen zuzuordnen.
 
 Bei einem Doppelklick auf die Nummer oder die Bezeichnung kann die ausgewählte Matrix bearbeitet werden.
 
-Listenpreisgruppe
+<p class="just-emphasize">Listenpreisgruppe</p>
 
 Verschiedene Artikel mit derselben Preis/Klassen-Matrix sollen auch verschiedene Preise zugeordnet werden. Um das zu erreichen, können verschiedene Listenpreisgruppen angelegt werden. Andersrum ist es natürlich auch möglich, verschiedene Artikel denselben Preis zuzuordnen, wenn sie dieselbe Listenpreisgruppe haben.
 
 Bei einem Doppelklick auf die Nummer oder die Bezeichnung kann die ausgewählte Listenpreisgruppe bearbeitet werden.
 
-Mengenstaffel
+<p class="just-emphasize">Mengenstaffel</p>
 
 Über die Mengenstaffel kann geregelt werden, welche Preise ab einer bestimmten Menge gestaffelt werden. Ist das bei einem Preis der Fall, steht im oberen Grid in der Spalte „Staff.“ ein „S“, im unteren Grid sind die einzelnen Staffel-Preise pflegbar.
 
 Bei einem Doppelklick auf die Nummer oder die Bezeichnung kann die ausgewählte Mengenstaffel bearbeitet werden. Dort werden auch die Mengen angegeben, an denen der Preis gestaffelt wird.
 
-Zeiträume
+<p class="just-emphasize">Zeiträume</p>
 
 Für eine Preisliste kann es beliebig viele Gültigkeitszeiträume mit unterschiedlichen Preisen geben. So ist es z.B. möglich neue Preise im Voraus einzupflegen und auto­matisch mit dem neuen Gültigkeitszeitraum zu aktivieren. Ein Gültigkeitszeitraum kann auch innerhalb des Gesamtzeitraums eines anderen liegen: Der vergebene Preis ist dann für dieses Intervall aktiv, danach wieder der alte.
 
-Spalten
+<p class="just-emphasize">Spalten</p>
 
 In der Spalte „Preis“ werden die Preise eingetragen, die Preiseinheit gibt an für wie viele Mengeneinheiten (also z.B. pro 1000) der Preis gültig sein soll und unter Mengeneinheit ist die gültige Mengeneinheit geführt.
 

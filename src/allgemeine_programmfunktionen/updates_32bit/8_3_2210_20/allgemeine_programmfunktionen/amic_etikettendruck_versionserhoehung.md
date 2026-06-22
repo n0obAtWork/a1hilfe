@@ -4,7 +4,7 @@
 
 Die Version des Reporting-Tools, das vom AMIC-Etikettendruck verwendet wird, wurde auf Version 27 hochgezogen. Der Vertreiber dieser Software empfiehlt alle Vorlagen und Projekte sorgfältig zu prüfen, da Verbesserungen zum Teil auch bedeuten, dass bestimmte Verfahren auf einem anderen Weg umgesetzt worden sind und dann nur eine hohe Annäherung aber keine 100%ige Identität erreicht werden kann.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[32798]
 

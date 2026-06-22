@@ -36,7 +36,7 @@ Die Maskenzuordnung ist ebenfalls ähnlich, mit dem Unterschied, dass der Name e
 
 Gruppenweise Maskenzuordnung
 
-Bis jetzt wurde die neue AIS-Gruppe nur der allgemeinen Vorgangsmaske zugewiesen. Da einzelne Gruppen aber in der Regel nicht in allen Vorgangsklassen angezeigt werden sollen, kann man einzelnen Vorgangsunterklassen bestimmte AIS-Gruppen zuweisen. Dazu geht man in die Formularzuordnung [FRZ], wählt mit Ändern F5 die gewünschte Vorgangsklasse aus und kann auf dem Register „AIS“ in der Tabelle „Gruppenzuordnung Vorgangskopf“ die AIS-Gruppen zuordnen.
+Bis jetzt wurde die neue AIS-Gruppe nur der allgemeinen Vorgangsmaske zugewiesen. Da einzelne Gruppen aber in der Regel nicht in allen Vorgangsklassen angezeigt werden sollen, kann man einzelnen Vorgangsunterklassen bestimmte AIS-Gruppen zuweisen. Dazu geht man in die Formularzuordnung **[FRZ]**, wählt mit ***Ändern*** **F5** die gewünschte Vorgangsklasse aus und kann auf dem Register „AIS“ in der Tabelle „Gruppenzuordnung Vorgangskopf“ die AIS-Gruppen zuordnen.
 
 Um auf der Maske mehr Platz für die AIS-Felder zu haben, kann man hier zusätzlich die Option-Box auf der Maske verschieben, indem man ihr eine neue Position zuweist. An diese Position wird die Option-Box verschoben, sobald mindestens eine AIS-Gruppe angezeigt wird.
 
@@ -52,7 +52,7 @@ VorgangBackpatch(VB_Relation,VB_Attribut,VB_Del) values
 
 In dem Feld VB_Relation muss der Name der Relation stehen, in VB_Attribut der Primary Key der Relation und in VB_Del eine 1, damit verwaiste Daten in VorgangBemerkungAddon sofort gelöscht werden.
 
-Bemerkungen zur AIS-Verwendung in Vorgängen
+<p class="just-emphasize">Bemerkungen zur AIS-Verwendung in Vorgängen</p>
 
 Die Verwendung von AIS in Vorgängen unterscheidet sich von der normalen Verwendung insofern, dass die Werte in den Eingabfeldern sofort in der Datenbank gespeichert werden, wenn man von SVMAIN auf einer tieferliegende Maske (z.B. den Positionsteil) geht. Das geschieht, um auch auf diesen Masken auf die Werte der Felder zugreifen zu können. Wird keine tieferliegende Maske geöffnet, hängt das Speichern von der Antwort auf die Speichern-Abfrage ab.
 

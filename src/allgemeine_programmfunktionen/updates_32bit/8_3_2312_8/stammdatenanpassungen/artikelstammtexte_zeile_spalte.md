@@ -4,7 +4,7 @@
 
 Die Anzeige der aktuellen Zeile und Spalte in der Artikeltexterfassung wurde überarbeitet und wieder aktiviert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 728919[34553]
 

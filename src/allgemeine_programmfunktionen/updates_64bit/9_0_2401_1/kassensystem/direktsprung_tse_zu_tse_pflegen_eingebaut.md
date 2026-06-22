@@ -4,7 +4,7 @@
 
 Direktsprung [TSE] zu der Auswahlliste "TSE Pflegen" unter dem Menüpunkt "Barvorgänge" eingebaut. Dokumentation bei Kassensicherungsverordnung -> Schritt für Schritt Anleitung -> 2.2 und bei TSE-Auswahlliste entsprechend erweitert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 732642[34949]
 

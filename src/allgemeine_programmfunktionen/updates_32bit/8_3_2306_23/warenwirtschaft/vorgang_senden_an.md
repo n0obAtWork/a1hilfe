@@ -4,7 +4,7 @@
 
 Die Funktion "Vorgang Senden an" wurde für die 64-Bit Version reaktiviert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 723846[33899]
 

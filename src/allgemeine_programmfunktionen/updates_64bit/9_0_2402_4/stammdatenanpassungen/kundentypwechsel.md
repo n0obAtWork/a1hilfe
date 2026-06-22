@@ -4,7 +4,7 @@
 
 Wird der Kundentyp gewechselt (z.B. von Debitor zu Kontokorrent, so ist dafür erforderlich, dass die gleichen Zählkreise für diese Kundentypen eingerichtet sind, oder noch keine Belege für den Kunden erfasst worden sind. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 737497[35814]
 

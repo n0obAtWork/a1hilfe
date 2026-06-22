@@ -45,7 +45,7 @@ Die Standard AI-Zuordnung ist in beiden Erfassungsvorgängen gleich.
 | LVSIV |
 | LVSIVENDE |
 
-AI-Zuordnung für die Inventur / Inventur LVS
+<p class="just-emphasize">AI-Zuordnung für die Inventur / Inventur LVS</p>
 
 | AI-Nr. | Application Identifier | Gruppe | Typ | Optional |
 | --- | --- | --- | --- | --- |
@@ -121,7 +121,7 @@ Die Standard AI-Zuordnung ist in allen Erfassungsvorgängen gleich.
 | AUR |
 | AURENDE |
 
-AI-Zuordnung Auftrag / Bestellung / Teildisponierung / Lagerumbuchung
+<p class="just-emphasize">AI-Zuordnung Auftrag / Bestellung / Teildisponierung / Lagerumbuchung</p>
 
 | AI-Nr. | Application Identifier | Gruppe | Typ | Optional |
 | --- | --- | --- | --- | --- |
@@ -221,7 +221,7 @@ Die Standard AI-Zuordnung ist in allen Erfassungsvorgängen gleich.
 | LAB |
 | LABENDE |
 
-AI-Zuordnung Auftrag / Bestellung / Teildisponierung / Lagerumbuchung
+<p class="just-emphasize">AI-Zuordnung Auftrag / Bestellung / Teildisponierung / Lagerumbuchung</p>
 
 | AI-Nr. | Application Identifier | Gruppe | Typ | Optional |
 | --- | --- | --- | --- | --- |

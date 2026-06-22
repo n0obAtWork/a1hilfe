@@ -15,9 +15,9 @@ Bei einer Steuersatzänderung müssen mehrere Faktoren berücksichtigt werden. D
 
 Information für alle A.eins-Nutzer, die ihre Daten über die Datevschnittstelle exportieren: [https://apps.datev.de/dnlexka/document/1018040](https://apps.datev.de/dnlexka/document/1018040)
 
-Nach den Änderungen der Steuersätze muss der Mandantenserver neugestartet werden. Dafür mit dem Direktsprung [MSI] in die Maske des Mandantenservers. Hier die Funktion Stop Mandantenserver und danach die Funktion Normale Bearbeitung ausführen.
+Nach den Änderungen der Steuersätze muss der Mandantenserver neugestartet werden. Dafür mit dem Direktsprung **[MSI]** in die Maske des Mandantenservers. Hier die Funktion ***Stop Mandantenserver*** und danach die Funktion ***Normale Bearbeitung*** ausführen.
 
-Eine grobe Übersicht der wichtigsten Konten:
+<p class="just-emphasize">Eine grobe Übersicht der wichtigsten Konten:</p>
 
 SKR04
 

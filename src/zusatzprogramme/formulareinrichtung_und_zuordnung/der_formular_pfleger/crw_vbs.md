@@ -32,7 +32,7 @@ Es wird ein unter dem AMIC Etikettendruck [etidr] erstelltes Formular auf dem f√
 
 AMIC Etikettendruck auf dem DRZ/VRGD Drucker
 
-Es wird ein unter dem AMIC Etikettendruck [etidr] erstelltes Formular auf dem Drucker der Druckerzuordnung [DRZ] oder der Vorgangsdruckklasse [VRGD] des Kunden gedruckt.  
+Es wird ein unter dem AMIC Etikettendruck [etidr] erstelltes Formular auf dem Drucker der Druckerzuordnung **[DRZ]** oder der Vorgangsdruckklasse **[VRGD]** des Kunden gedruckt.  
 Der Inhalt des Feldes Funktionsident f√ºr das Etidr Formular muss hier als Name angegeben werden.
 
 CRW mit VDCRYSTA und CRW Drucker
@@ -41,4 +41,4 @@ Man legt einen Crystal Report an und entscheidet sich hier, dass dieser auf dem 
 
 CRW mit VDCRYSTA und DRZ/VRGD Drucker
 
-Man legt einen Crystal Report an und entscheidet sich hier, dass dieser auf dem Drucker der Druckerzuordnung [DRZ] oder der Vorgangsdruckklasse [VRGD] des Kunden gedruckt werden soll.
+Man legt einen Crystal Report an und entscheidet sich hier, dass dieser auf dem Drucker der Druckerzuordnung **[DRZ]** oder der Vorgangsdruckklasse **[VRGD]** des Kunden gedruckt werden soll.

@@ -4,7 +4,7 @@
 
 Sind in einer eingehenden eRechnung digitale Dokumente enthalten, so werden diese nun beim Import ebenfalls extrahiert und in einer Gruppe mit der eRechnung ins Formulararchiv gespeichert. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 744828[36649]
 

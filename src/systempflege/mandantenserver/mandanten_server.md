@@ -4,7 +4,7 @@
 
 Hauptmenü > Systempflege > Mandantenserver > Mandantenserver
 
-Direktsprung [MS]
+Direktsprung **[MS]**
 
 | Dialog-Felder | Mandantenserver |
 | --- | --- |

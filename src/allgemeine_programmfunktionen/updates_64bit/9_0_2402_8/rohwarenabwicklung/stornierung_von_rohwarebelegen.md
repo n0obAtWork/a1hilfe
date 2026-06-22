@@ -4,7 +4,7 @@
 
 Im Modul zur Bearbeitung von Rohware-Belegen kam es zuletzt in den Funktionen zur Erstellung von Stornolieferungen und Stornoabrechnungen ohne Kopie mit neuem Belegdatum zu einer Meldung, dass das eingegebene neue Belegdatum nicht zum Wirtschaftsjahr der Originalbelege passt, obwohl ein Datum zum Wirtschaftsjahr der Quellbelege gewählt wurde. Dieses Verhalten wurde nun überarbeitet und korrigiert. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 740781[35992]
 

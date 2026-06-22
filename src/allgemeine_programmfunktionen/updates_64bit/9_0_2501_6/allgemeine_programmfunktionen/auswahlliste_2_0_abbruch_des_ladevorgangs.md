@@ -4,7 +4,7 @@
 
 Wenn man beim Laden der Daten zu früh Enter drückte (Abbruch des Ladevorgangs), dann reagierte die Auswahlliste nicht mehr. Dieses Problem wurde beseitigt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 744494[37151]
 

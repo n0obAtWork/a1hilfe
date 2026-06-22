@@ -4,13 +4,13 @@
 
 Hauptmenü > Administration > Firmenkonstanten > Zugriffsrechte Rolle > Rollenkontext
 
-oder Direktsprung [ROLLE]
+oder Direktsprung **[ROLLE]**
 
 oder
 
 Hauptmenü > Administration > Firmenkonstanten > Zugriffsrechte Funktionen
 
-oder Direktsprung [ZUGF]
+oder Direktsprung **[ZUGF]**
 
 Pflege des Rollen-Kontextes der Funktion in der Optionbox.
 
@@ -30,7 +30,7 @@ In Umgebungen in denen spezielle Bedienerklasse für die Abarbeitung und Überwa
 | Kontext | Zuordnung des Rollenkontextes zu dem Kontext. |
 | Funktion | Zuordnung des Rollenkontextes zu der Funktion. |
 | Rolle | Die zugeordnete [Rolle](../rollenstamm/index.md) des Rollenkontextes.  
-Rolle ist per F3 aus den vorhandenen Rollen auswählbar. |
+Rolle ist per **F3** aus den vorhandenen Rollen auswählbar. |
 | Neue Rolle | Zeigt an, ob die Rolle neu erstellt wird |
 | Ist | Status der Bedienerklasse innerhalb der zuordneten Rolle. |
 | Bedienerklasse | [Bedienerklasse](../../bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/bedienerstamm_pfleger.md) |
@@ -47,8 +47,8 @@ Ein vorangestellter Stern (\*) bedeutet das die Bedienerklasse eine Controller-K
 
 | Funktionen |
 | --- |
-| Speichern (F9) | Speichert ggf. Änderungen. |
-| Rollenantrag stellen (F10) | Es wird nicht gespeichert!  
+| ***Speichern*** (**F9)** | Speichert ggf. Änderungen. |
+| ***Rollenantrag stellen*** (**F10)** | Es wird nicht gespeichert!  
 Es wird ein Rollenantrag auf Änderung der Kontexte gestellt. Im Zuge der Abwicklung(\*) erfolgt eine Abfrage ob sofort eine Antragsmail verschickt werden soll oder nicht. Damit bietet sich über [Rollenantrag](./rollenantrag.md) u.a. die Möglichkeit mehrere Anträge in einer Mail zusammenzufassen.  
 Somit gibt es „Antrag stellen in beiden Modi“: Einmal Änderung der Rolle und zum anderen Neu-Anlage einer Rolle mit zugehöriger Rollenklasse zur späteren Freischaltung.  
 Dafür muss die Rolle aber existieren, deshalb wird eine solche Rolle dann auch hier gespeichert, aber an dieser Stelle nicht irgendwelchen Kontexten zugeordnet. Das geschieht erst im Rollenantrag.  

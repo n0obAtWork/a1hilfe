@@ -4,9 +4,9 @@
 
 | Bezeichnung | Standardwert | Erklärung |
 | --- | --- | --- |
-| Obligokunden in einer Itembox abfragen? | Nein | Bei der Abfrage eines Obligokunden geht eine Auswahlliste auf, in der man den Kunden Auswählt und mit F9 bestätigt. Wenn man jedoch die Auswahl mit ENTER bestätigen möchte, dann kann man hier Ja einstellen.  
+| Obligokunden in einer Itembox abfragen? | Nein | Bei der Abfrage eines Obligokunden geht eine Auswahlliste auf, in der man den Kunden Auswählt und mit **F9** bestätigt. Wenn man jedoch die Auswahl mit **ENTER** bestätigen möchte, dann kann man hier Ja einstellen.  
  |
-| Bei Obligokunden bei ESC in die Auswahl springen? | Nein | Dies ist eine spezielle ESCAPE-Behandlung. Wenn man im OP-Verwaltung Esc drückt, dann wird nicht die OP-Verwaltung verlassen, sondern erst ein weiterer Obligokunde abgefragt. Erst wenn man auch bei der Abfrage des Obligokunden Esc gedrückt hat, wird die OP-Verwaltung verlassen.  
+| Bei Obligokunden bei ESC in die Auswahl springen? | Nein | Dies ist eine spezielle ESCAPE-Behandlung. Wenn man im OP-Verwaltung **Esc** drückt, dann wird nicht die OP-Verwaltung verlassen, sondern erst ein weiterer Obligokunde abgefragt. Erst wenn man auch bei der Abfrage des Obligokunden **Esc** gedrückt hat, wird die OP-Verwaltung verlassen.  
  |
 | ¨eClearing¨ und ¨Kasse¨ beim Ausziffern überprüfen? | Warnung | Wenn Belege bereits in den Modulen eClearing bzw. Kasse verrechnet wurden, kommt es zu Konflikten. Wie man mit diesen Konflikten umgehen will, kann man hier einstellen:  
 • Ignorieren: Es findet keine Prüfung statt  

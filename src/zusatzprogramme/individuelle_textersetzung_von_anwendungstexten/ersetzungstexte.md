@@ -4,7 +4,7 @@
 
 Hauptmenü > Systempflege > Individuelle Textersetzung
 
-Direktsprung [TEXTM]
+Direktsprung **[TEXTM]**
 
 Hier lassen sich die Texte von Anwendungen insofern bearbeiten, dass für die jeweiligen Originaltexte Alternativen angegeben werden können.
 

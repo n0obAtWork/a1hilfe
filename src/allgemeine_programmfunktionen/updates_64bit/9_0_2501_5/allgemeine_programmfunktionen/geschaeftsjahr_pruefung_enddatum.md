@@ -4,7 +4,7 @@
 
 Das Geschäftsjahr besitzt ein Anfangsdatum und ein Enddatum. Es wird jetzt geprüft, ob das Enddatum größer ist als das Anfangsdatum
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 740628[35966]
 

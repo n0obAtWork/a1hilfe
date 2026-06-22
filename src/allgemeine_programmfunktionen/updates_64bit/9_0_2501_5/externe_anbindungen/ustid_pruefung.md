@@ -4,7 +4,7 @@
 
 Die Prüfung aller UST-IDs im Kundenstamm führte zu einer Fehlermeldung. Dies wurde berichtigt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 744146[36384]
 

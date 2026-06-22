@@ -13,7 +13,7 @@ Zugang:
 Für den Anteilstyp beim Zielmitglied der zu übertragenen Anteile gibt es jetzt zwei Felder mit denen festgelegt werden kann wie viele Pflichtanteile und freiwillige Anteile es beim Zielmitglied werden sollen.  
 Diese Felder werden auf der Maske freigeschaltet, sobald eine ‚Anzahl Übertrag‘ eingegeben wurde.
 
-Die Funktion Mitglied Teilübertragung SF5 öffnet folgende Eingabefelder:
+Die Funktion ***Mitglied Teilübertragung SF5*** öffnet folgende Eingabefelder:
 
 | Felder |
 | --- |

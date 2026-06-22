@@ -18,7 +18,7 @@ Hier finden Sie die Formate, welche im Streckenerfassungsprofil verwendet werden
 
 [Auswertungstyp](./formate.md#formatAuswertungstyp)
 
-Streckenmenüzuordnung
+<p class="just-emphasize">Streckenmenüzuordnung</p>
 
 Mit diesem Format kann die Streckenmenüzuordnung festgelegt werden. (*Formatname „DISPOMENUZ“*)
 
@@ -28,7 +28,7 @@ Mit diesem Format kann die Streckenmenüzuordnung festgelegt werden. (*Formatnam
 | 1 | Verkauf | Menüzuordnung nur im Verkauf |
 | 2 | Einkauf | Menüzuordnung nur im Einkauf |
 
-Partie bei Übermenge
+<p class="just-emphasize">Partie bei Übermenge</p>
 
 Mit diesem Format wird festgelegt, welche Partie bei einer Übermenge gezogen wird. (*Formatname „SE_PARTIE“*)
 
@@ -37,7 +37,7 @@ Mit diesem Format wird festgelegt, welche Partie bei einer Übermenge gezogen wi
 | 0 | Erste Partie | Die erste gefundene Partie wird gezogen. |
 | 1 | Letzte Partie | Die letzte gefundene Partie wird gezogen. |
 
-Lagerauswahl
+<p class="just-emphasize">Lagerauswahl</p>
 
 Mit diesem Format wird festgelegt, aus welchem Lager der Artikel gezogen werden soll. (*Formatname „SE_AUSWLAGER“*)
 
@@ -46,7 +46,7 @@ Mit diesem Format wird festgelegt, aus welchem Lager der Artikel gezogen werden 
 | 0 | Standardlager | Der Artikel wird über das Standardlager gezogen. |
 | 1 | Kundenlager | Der Artikel wird über das Kundenlager gezogen. |
 
-Lagerbezogene Artikelauswahl
+<p class="just-emphasize">Lagerbezogene Artikelauswahl</p>
 
 Mit diesem Format wird festgelegt, wie ein Artikel Lagertechnisch gezogen wird. (*Formatname „SE_AUSWARTIK“*)
 
@@ -55,7 +55,7 @@ Mit diesem Format wird festgelegt, wie ein Artikel Lagertechnisch gezogen wird. 
 | 0 | Lagerbezogen | Der Artikel wird hierbei Lagerbezogen ermittelt. |
 | 1 | Lagerübergreifend | Der Artikel wird hier Lagerübergreifen ermittelt. |
 
-Zeitintervall eines Kontrakts
+<p class="just-emphasize">Zeitintervall eines Kontrakts</p>
 
 Mit diesem Format wird festgelegt, wie der Zeitraumintervall eines Kontraktes ist. (*Formatname „KTRINTERVALL“)*
 
@@ -66,7 +66,7 @@ Mit diesem Format wird festgelegt, wie der Zeitraumintervall eines Kontraktes is
 | 2 | Monat | Die Kontraktzeiträume haben eine Laufzeit von einem Monat. |
 | 3 | Jahr | Die Kontraktzeiträume haben eine Laufzeit von einem Jahr. |
 
-Reporttyp
+<p class="just-emphasize">Reporttyp</p>
 
 Mit diesem Format wird festgelegt, um was für einen Report es sich handelt. *(Formatname „DISPREPORT“)*
 
@@ -76,7 +76,7 @@ Mit diesem Format wird festgelegt, um was für einen Report es sich handelt. *(F
 | 1 | AMIC Etikettendruck | Es handelt sich hierbei um einen Crystal Report. |
 | 2 | Formulardruck | Es handelt sich hierbei um einen Formulardruck. |
 
-Auswertungstyp
+<p class="just-emphasize">Auswertungstyp</p>
 
 Mit diesem Format wird festgelegt, um was für einen Auswertungstyp es sich handelt. *(Formatname „DISPAUSWTYP“)*
 

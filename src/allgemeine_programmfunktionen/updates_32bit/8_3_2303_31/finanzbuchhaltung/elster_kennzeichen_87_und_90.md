@@ -4,7 +4,7 @@
 
 UVA: Die neuen Kennzeichen 87 und 90 werden nur für die Jahre ab 2023 übertragen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 721151[33595]
 

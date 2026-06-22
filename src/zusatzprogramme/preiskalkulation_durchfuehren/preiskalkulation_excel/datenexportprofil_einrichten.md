@@ -38,7 +38,7 @@ Hinweis!
 
 ***Liste zeigt Gruppierung einer Preisliste***
 
-Die Liste zeigt NICHT die einzelnen Artikel an, sondern die Gruppierungen und die Preislistengruppe an.
+Die Liste zeigt **NICHT** die einzelnen Artikel an, sondern die Gruppierungen und die Preislistengruppe an.
 
 Selbst bei Filterung in Profilen explizit nach einem oder mehreren Artikelnummern werden Gruppierungen und Preislistengruppen angezeigt. 
 

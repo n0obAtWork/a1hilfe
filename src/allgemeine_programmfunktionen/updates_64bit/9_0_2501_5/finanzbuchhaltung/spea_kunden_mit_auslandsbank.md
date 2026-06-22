@@ -4,7 +4,7 @@
 
 Aber SEPA- Version 3.7 hat sich für Kunden, der IBAN nicht mit DE beginnt und deren BIC mit übertragen wird, eine Änderung ergeben, die in A.eins integriert wurde. Die Elemente BIC heißen jetzt BICFI : Das Element aus V03 wurde in V08/V09 durchgängig in umbenannt (siehe und ).
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 743757[36482]
 

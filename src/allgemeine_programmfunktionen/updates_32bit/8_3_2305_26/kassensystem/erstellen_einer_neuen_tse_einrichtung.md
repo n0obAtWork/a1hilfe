@@ -4,7 +4,7 @@
 
 Es war nicht mehr möglich eine neue TSE in das System zu integrieren. Das Problem wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 723397[33824]
 

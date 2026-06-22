@@ -6,7 +6,7 @@
 
 Die im Kopf der Maske stehenden Felder im Einzelnen:
 
-Typ
+<p class="just-emphasize">Typ</p>
 
 Der Typ gibt die Herkunft der Griddefinition an. Mögliche Konfigurationen:
 
@@ -14,15 +14,15 @@ Der Typ gibt die Herkunft der Griddefinition an. Mögliche Konfigurationen:
 
 • Anwender – Diese Einstellungen/Konfigurationen sind vom Anwender selbst erstellt worden
 
-Name
+<p class="just-emphasize">Name</p>
 
 Der Name der Griddefinition. Bei der Erstellung wählen Sie bitte einen Namen, anhand dessen sich die Definition leicht identifizieren und von anderen unterscheiden lässt.
 
-Beschreibung
+<p class="just-emphasize">Beschreibung</p>
 
 Hier ist der Platz für eine genauere Beschreibung für den Verwendungszweck der Griddefinition
 
-SystemSQL
+<p class="just-emphasize">SystemSQL</p>
 
 Das System-SQL beschreibt den Aufbau der Daten in dem Grid mit einem vom Entwickler vorgegebenen SQL-Befehl. Der Name des hinterlegten SQL-Befehls muss mit „g_“ beginnen.
 
@@ -46,6 +46,6 @@ where w.Hausident =
 :HAUSIDENT
 ```
 
-UserSQL
+<p class="just-emphasize">UserSQL</p>
 
 Das User-SQL erweitert das vorgegebene System-SQL um weitere vom Anwender gewünschte Felder. Der Name des SQL-Befehls muss mit „g_“ beginnen und auf „_p“ enden. Das System-SQL muss die Variablen „:USER_FIELDS“ und „:USER_JOINS“ enthalten, damit die Einträge des UserSQL berücksichtigt werden können.

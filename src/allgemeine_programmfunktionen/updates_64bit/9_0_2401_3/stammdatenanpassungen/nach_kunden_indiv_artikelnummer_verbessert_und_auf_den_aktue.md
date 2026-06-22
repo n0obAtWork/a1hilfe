@@ -4,7 +4,7 @@
 
 Auf der SVWare Maske (Belegartikelerfassung wurde die ItemBox) IB_Artikel_KundenIndivNummer mit dem Namen "Nach Kunden-indiv. Artikelnummer" so umgebaut, dass diese sich auf den aktuellen Kunden bezieht und für Performance sorgt. Kunden, die diese ItemBox privatisiert haben, müssen sich diese Änderungen selber einrichten.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 731753[34899]
 

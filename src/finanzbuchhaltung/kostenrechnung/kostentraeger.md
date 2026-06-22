@@ -29,7 +29,7 @@ Um mit Kostenträgern zu arbeiten, gibt es folgende Vorbedingungen bzw. Einstell
 Im Feld Kostenträger kann hier die Nummer eines Kostenträgers eingegeben werden, der dann bei der Belegerfassung automatisch vorgeschlagen wird.
 
 4. Damit auch Rechnungen aus der Warenwirtschaft beim Fibu -Übertrag automatisch in die Kostenträgerrechnung eingetragen werden können, ist es nötig, Kostenträgergruppen zu definieren, in denen die Kostenträger des Artikels für Einkauf und Verkauf angegeben werden können.  
-Diese werden dann im Artikel über die Funktion Kostenst./Statistik/Abteil gepflegt, und wenn dann der Artikel im Vorgang angesprochen wird, wird der jeweilige Kostenträger bebucht.  
+Diese werden dann im Artikel über die Funktion ***Kostenst./Statistik/Abteil*** gepflegt, und wenn dann der Artikel im Vorgang angesprochen wird, wird der jeweilige Kostenträger bebucht.  
     
 
 5. Im Mandantenstamm sollte ein Fehlerkostenträger eingerichtet werden. Dieser Kostenträger wird herangezogen, wenn zu GuV-Konten versehentlich kein Kostenträger hinterlegt ist und die „Sperre Kostenträger“ des angesprochenen Kontos nicht auf **Gesperrt** oder **Fest** seht.
@@ -76,11 +76,11 @@ Erfassung der Planzahlen
 
 Die Erfassung der Planzahlen für Kostenträger erreicht man über:
 
-Hauptmenü \> Kostenrechnung \> Kostenträgerstamm \> Kostenträger \> Funktion „Plandaten erfassen“
+Hauptmenü \> Kostenrechnung \> Kostenträgerstamm \> Kostenträger \> Funktion „**Plandaten erfassen**“
 
 Direktsprung **[KSTRS]**
 
-Planzahlen für Kostenträger müssen pro Jahr, Periode und Konto erfasst werden. Hat man die Funktion „Plandaten erfassen“ ausgewählt, so erscheint folgende Erfassungsmaske:
+Planzahlen für Kostenträger müssen pro Jahr, Periode und Konto erfasst werden. Hat man die Funktion „**Plandaten erfassen“** ausgewählt, so erscheint folgende Erfassungsmaske:
 
 ![Ein Bild, das Text, Screenshot, Display, Software enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_687.png "Ein Bild, das Text, Screenshot, Display, Software enthält. Automatisch generierte Beschreibung")
 

@@ -4,7 +4,7 @@
 
 Im Belegfluss wurde bei der direkten Erstellung des Finanzbelegs statt des Valutadatums Falscherweise das Skontodatum verwendet.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 737462[35635]
 

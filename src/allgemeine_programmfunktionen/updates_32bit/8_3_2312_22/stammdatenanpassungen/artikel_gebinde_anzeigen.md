@@ -4,7 +4,7 @@
 
 Hatte man sich im Artikelpfleger [AR] die Gebinde angesehen (Funktionstaste F6), wurden diese bei folgenden Aufrufen nicht mehr angezeigt, obwohl sie weiterhin korrekt vorhanden waren. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 729311[34571]
 

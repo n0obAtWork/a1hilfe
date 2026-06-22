@@ -4,7 +4,7 @@
 
 Hauptmenü > Abschlussarbeiten > Umsatzsteuer > Steuern > Funktion Steuergruppe **F6**
 
-Direktsprung [STS].
+Direktsprung **[STS].**
 
 Hierbei handelt es sich um eine Klassifizierung der Steuerbehandlung. In der Fakturierung können dies z.B. Inlands- und Auslandskunden sein, die bei gleichen Artikeln unterschiedlich belastet werden. Darüber hinaus möchte man die Auslandskunden trotz gleicher steuerlicher Behandlung in der Umsatzsteueranmeldung nach Ländern voneinander unterscheiden können. Ein weiterer Fall ist die Behandlung des innerbetrieblichen Warenverkehrs, der separat dokumentiert werden soll. Andere Beispiele sind optierende Landwirte oder die Behandlung von Pauschalsteuersätzen in Reisekostenabrechnungen in der Buchhaltung. Die Verknüpfung von Kunden / Lieferanten an die Steuersätze bei der Fakturierung erfolgt über den Eintrag der Steuergruppe in den Kunden / Lieferantenstamm.
 

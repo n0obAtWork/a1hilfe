@@ -6,7 +6,7 @@ Damit können Sie in der Anwendung „Formulararchiv“ automatisch eine private
 
 ![](../../../../ImagesExt/image8_941.jpg)
 
-Durch die Funktionalität Funktion anlegen werden Funktionen in der Anwendung Formulararchiv integriert um den Aufruf komfortabel zu gestalten.
+Durch die Funktionalität ***Funktion anlegen*** werden Funktionen in der Anwendung Formulararchiv integriert um den Aufruf komfortabel zu gestalten.
 
 ![](../../../../ImagesExt/image8_942.jpg)
 

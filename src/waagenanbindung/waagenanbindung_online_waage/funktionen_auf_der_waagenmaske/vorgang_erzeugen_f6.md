@@ -28,5 +28,5 @@ Ist der Wiegetyp Lohnwägung, wird ein Rohwarenbeleg mit einem EK/VK Kennzeichen
     
 Wenn in einer abgeschlossenen Wiegung keine Sorte eingetragen wurde, wird beim Erzeugen des Rohwarebeleges die Defaultsorte für die Rohwarengruppe des Artikels genommen. Die Defaultsorte muss dafür bei den Rohwarengruppen eingetragen sein.
 
-In den Anwendungen EK-Waage-RWLieferungen oder VK-Waage-RWLieferungen (zu finden im Hauptmenü unter Rohwarenabrechnung) ruft man dann die Funktion Lieferungen erzeugen für die erzeugten Rohwarenbelege auf, um Rohwarenlieferscheine zu erstellen.  
-Mit dem Punkt [Rohwarenlieferscheine sofort erzeugen](../prozess_einrichten/registerkarte_rohware.md) in der Vorlage kann man einstellen, dass die Funktion Lieferungen erzeugen beim Aufruf der Funktion Rohwarenbeleg erzeugen sofort mit ausgeführt wird.
+In den Anwendungen EK-Waage-RWLieferungen oder VK-Waage-RWLieferungen (zu finden im Hauptmenü unter Rohwarenabrechnung) ruft man dann die Funktion ***Lieferungen erzeugen*** für die erzeugten Rohwarenbelege auf, um Rohwarenlieferscheine zu erstellen.  
+Mit dem Punkt [Rohwarenlieferscheine sofort erzeugen](../prozess_einrichten/registerkarte_rohware.md) in der Vorlage kann man einstellen, dass die Funktion ***Lieferungen erzeugen*** beim Aufruf der Funktion ***Rohwarenbeleg erzeugen*** sofort mit ausgeführt wird.

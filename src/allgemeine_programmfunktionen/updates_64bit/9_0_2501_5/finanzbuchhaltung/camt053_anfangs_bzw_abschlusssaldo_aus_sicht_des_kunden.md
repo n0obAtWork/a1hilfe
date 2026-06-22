@@ -4,7 +4,7 @@
 
 Beim Einspielen der Daten im CAMT053 Format wurde der Anfangs- bzw. Abschlusssaldo aus Sicht der Bank importiert. Dies kann man nun unter Optionen einstellen. Standard ist jetzt "Saldo aus Sicht des Kunden"
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 744003[36711]
 

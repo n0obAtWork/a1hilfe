@@ -33,23 +33,23 @@ Zahlungsvorschläge ändern – F5
 
 Es erscheinen die Positionen des Zahlungsvorschlags in einer weiteren Auswahlliste. Dort stehen dann einige Funktionen zur Bearbeitung zur Verfügung:
 
-• Löschen **F7****: Es** können einzelne Positionen oder der gesamte Bereich zu diesem Kunden/Lieferanten aus dem Zahlungsvorschlag gelöscht werden.
+• ***Löschen*** **F7****: Es** können einzelne Positionen oder der gesamte Bereich zu diesem Kunden/Lieferanten aus dem Zahlungsvorschlag gelöscht werden.
 
-• OP-Auswahl **F6** öffnet eine Liste mit weiteren offenen Posten, die noch nicht zur Zahlung vorgesehen sind. Von hier aus können weitere OPs in den Vorschlag übernommen werden.
+• ***OP-Auswahl*** **F6** öffnet eine Liste mit weiteren offenen Posten, die noch nicht zur Zahlung vorgesehen sind. Von hier aus können weitere OPs in den Vorschlag übernommen werden.
 
-• Skonto bearbeiten **F5** ist die Möglichkeit, Skonto zu ändern.
+• ***Skonto bearbeiten*** **F5** ist die Möglichkeit, Skonto zu ändern.
 
-• Kundenbank ändern **Shift+F9** ermöglicht es, die Bank des Kunden zu ändern oder auch neu zu erfassen. Eine Bankverbindung muss hier hinterlegt sein, wenn man Zahlungen per Datenträgeraustausch (DTA) abwickeln möchte. Hier existieren zwei Einrichterparameter:
+• ***Kundenbank ändern*** **Shift+F9** ermöglicht es, die Bank des Kunden zu ändern oder auch neu zu erfassen. Eine Bankverbindung muss hier hinterlegt sein, wenn man Zahlungen per Datenträgeraustausch (DTA) abwickeln möchte. Hier existieren zwei Einrichterparameter:
 
 1. Im autom. Zahlungsverkehr Sperre und Ablaufdatum bei manueller Auswahl ignorieren: Es kann eingestellt werden, dass Inaktive Bankverbindungen mit herangezogen werden können.
 
 2. Im autom. Zahlungsverkehr bei diversen Kunden die Bankverbindung nicht speichern: Es wird die Bankverbindung nur im Zahlungsvorschlag hinterlegt und nicht für eine spätere erneute Verwendung in den Kundenbanken hinterlegt. Für das SEPA-Lastschriftverfahren ist dies wegen des Mandats nicht möglich.
 
-• DTA-Texte **Strg+F8** (Muss über SPA frei geschaltet werden) hier lassen sich für den DTA einige Einstellungen vornehmen.
+• ***DTA-Texte*** **Strg+F8** (Muss über SPA frei geschaltet werden) hier lassen sich für den DTA einige Einstellungen vornehmen.
 
-• Archiv Anzeigen Strg+F12
+***•*** ***Archiv Anzeigen*** **Strg+F12**
 
-• Fibu Merkmale F11 öffnet die Ansicht der im Kundenstamm hinterlegten Merkmale dieses Kunden/Lieferanten.
+**•** ***Fibu Merkmale*** **F11** öffnet die Ansicht der im Kundenstamm hinterlegten Merkmale dieses Kunden/Lieferanten.
 
 • Mit &lt; **>** bzw. mit **Strg** und den **Pfeiltasten** kann zwischen den Konten geblättert werden.
 
@@ -71,7 +71,7 @@ Wenn die Zahlungsvorschläge kontrolliert worden sind, werden sie über diese Fu
 
 Anschließend muss die Hausbank angegeben werden. Hier spielt der Steuerparameter „automatischer Zahlungsverkehr ohne Formularzuordnung“ eine Rolle, wie verfahren wird:
 
-• **Nein**: Es werden die Formularzuordnungen ausgewertet. Sind zu einer Hausbank mehrere Formulare für den Scheckdruck (Stammdaten [Zahlungsformulare](./stammdaten_zahlungsverkehr/zahlungsformulare.md), Direktsprung [FIZAF]) hinterlegt, so erscheint nach Angabe der Hausbank ein Fenster, in dem man das für diesen Zahlungsvorschlag zuständige Formular auswählen muss. Ist nur ein Formular hinterlegt erscheint dieses Fenster nicht. Eine Angabe des Formulars ist nur dann notwendig, wenn bei Zahlungsart „Scheckdruck“ ausgewählt wurde.
+• **Nein**: Es werden die Formularzuordnungen ausgewertet. Sind zu einer Hausbank mehrere Formulare für den Scheckdruck (Stammdaten [Zahlungsformulare](./stammdaten_zahlungsverkehr/zahlungsformulare.md), Direktsprung **[FIZAF]**) hinterlegt, so erscheint nach Angabe der Hausbank ein Fenster, in dem man das für diesen Zahlungsvorschlag zuständige Formular auswählen muss. Ist nur ein Formular hinterlegt erscheint dieses Fenster nicht. Eine Angabe des Formulars ist nur dann notwendig, wenn bei Zahlungsart „Scheckdruck“ ausgewählt wurde.
 
 • **Ja**: Es wird die Formularzuordnung ignoriert und eine Auswahl ist hier nicht möglich. Dieses Verfahren wurde eingeführt da der Scheckdruck im Zuge des elektronischen Zahlungsverkehrs immer mehr an Bedeutung verliert. Die Auswahl des Druckformulars erfolgt erst beim [Scheckdruck](./zahlungen_bearbeiten/index.md#Scheckdruck).
 

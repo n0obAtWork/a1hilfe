@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/beispielefrdatenbankfunktionen.htm -->
 
-Beispiel für eine Datenbankfunktion für die Partieverteilung:
+<p class="just-emphasize">Beispiel für eine Datenbankfunktion für die Partieverteilung:</p>
 
 ```sql
 CREATE PROCEDURE
@@ -297,7 +297,7 @@ in_VerteilMenge - dc_buchmenge;
 END
 ```
 
-Beispiel für eine Datenbankfunktion für Gebindeparameter:
+<p class="just-emphasize">Beispiel für eine Datenbankfunktion für Gebindeparameter:</p>
 
 ```sql
 // FUNCTION

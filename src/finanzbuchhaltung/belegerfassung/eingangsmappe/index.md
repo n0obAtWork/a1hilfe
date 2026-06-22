@@ -38,7 +38,7 @@ Ist in den Einrichterparametern der Belegerfassung eingetragen, dass die Referen
     
  | Welchem Personenkonto ist die Eingangsrechnung zugeordnet. In den Einrichterparametern kann man hinterlegen, welcher Kundentyp in der F3-Auswahl zugelassen ist.  
  |
-| OP-Text | Dieser Text wird in das Textfeld der Belegerfassung übernommen. Der Text kann wie in der Belegerfassung aus den [Textvorbelegungen](../../stammdaten_der_fibu/textvorbelegungen.md#Textvorbelegung) (Direktsprung [FITXT]) Mit Nummer + F2 bzw. mit F3 gezogen werden.  
+| OP-Text | Dieser Text wird in das Textfeld der Belegerfassung übernommen. Der Text kann wie in der Belegerfassung aus den [Textvorbelegungen](../../stammdaten_der_fibu/textvorbelegungen.md#Textvorbelegung) (Direktsprung [FITXT]) Mit Nummer + **F2** bzw. mit **F3** gezogen werden.  
  |
 | Zab./SkoDat/Valutadatum/Skontosatz | Es wird die Zahlungsbedingung abgefragt. Sämtliche hier eingetragenen Werte werden so in den Beleg in der Finanzbuchhaltung übernommen, wie sie sind, ohne noch einmal nachgerechnet zu werden.  
  |
@@ -46,7 +46,7 @@ Ist in den Einrichterparametern der Belegerfassung eingetragen, dass die Referen
     
  | Dieser Betrag wird bei der Übernahme oben rechts in der Belegerfassung angezeigt. Direkt darunter steht die Differenz zu den in den Positionen erfassten Beträgen. Das Sollhabenkennzeichen gibt an, ob es sich um eine Rechnung oder eine Gutschrift handelt. Dies wird im Textfeld hinter dem Währungsfeld angezeigt.  
  |
-| Sachbearbeiter | Hier kann der Sachbearbeiter eingetragen werden. Über F3 bekommt man eine Liste der Bediener.  
+| Sachbearbeiter | Hier kann der Sachbearbeiter eingetragen werden. Über **F3** bekommt man eine Liste der Bediener.  
  |
 | Proj./Bez.  
     

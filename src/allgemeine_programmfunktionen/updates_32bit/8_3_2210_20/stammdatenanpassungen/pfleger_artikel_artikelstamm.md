@@ -4,7 +4,7 @@
 
 Die Pfleger für den Artikel und den Artikelstamm wurden überarbeitet. Dies dient der Vorbereitung auf die 64bit Version.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[32795]
 

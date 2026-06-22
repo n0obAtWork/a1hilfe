@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Werkzeuge > SQL Textmanager und dann Variante „Private Datenbankprozeduren“
 
-oder Direktsprung [SQLPP]
+oder Direktsprung **[SQLPP]**
 
 | Auswahlliste | Bedeutung |
 | --- | --- |
@@ -32,4 +32,4 @@ Als Beispiel für die fiktive private Datenbank-Funktion „P_Beispiel“:
 | Löschen (F7) | Entfernt die Datenbank-Prozedure aus dem System-. |
 | Create (F10) | Legt das Datenbank-Objekt gemäß der „Source“ an. |
 | Drop (F11) | Entfernt ggf. ein vorhandenes Datenbank-Objekt. |
-| Export (Umschalt F8) | Exportiert die Informationen der Datenbank-Prozedure in eine Datei, die zur Herstellung der so gespeicherten Datenbank-Prozedure wieder herangezogen kann. (Einspielung mittels [OSQL] und Funktion „Sql-Texte ausführen“) |
+| Export (Umschalt F8) | Exportiert die Informationen der Datenbank-Prozedure in eine Datei, die zur Herstellung der so gespeicherten Datenbank-Prozedure wieder herangezogen kann. (Einspielung mittels **[OSQL]** und Funktion „Sql-Texte ausführen“) |

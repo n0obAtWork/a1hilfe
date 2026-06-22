@@ -4,7 +4,7 @@
 
 Um aus dem AMIC Muster schnell die AIS Felder der Marktkasse einzurichten, muss man nur folgende Schritt-für-Schritt Anleitung befolgen:
 
-1. In [FRZ] die gewünschte Vorgangsklasse und Unterklasse für die die Kasse eingerichtet werden soll öffnen / anlegen.  
+1. In **[FRZ]** die gewünschte Vorgangsklasse und Unterklasse für die die Kasse eingerichtet werden soll öffnen / anlegen.  
 In diesem Beispiel nehmen wir die 700 - Vorgang mit Unterklasse 9900 – Barverkauf.
 
 2. Auf dem Tabreiter „Kasse“ sollte das Feld „AIS Gruppe“ leer sein. Wenn das Feld nämlich leer ist, wird der Bereich „Ersteinrichtung“ mit dem Feld „AIS-Muster“ angezeigt.

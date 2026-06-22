@@ -4,7 +4,7 @@
 
 Wurde vom Belegfluss aus ein Beleg erstellt, der sowohl Netto als auch Brutto Beträge enthält, wurde der Wechsel von Netto auf Brutto nicht erkannt. Dieses Problem wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 714269[33157]
 

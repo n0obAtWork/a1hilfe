@@ -4,7 +4,7 @@
 
 Es gab einen Hintergrundprozess namens "CALLBACKDIALOG". Dieser wurde durch den neuen "A.eins.Worker" abgelöst. Bestehende Einrichtungen müssen umgestellt werden.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[36624]
 

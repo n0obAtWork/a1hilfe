@@ -4,7 +4,7 @@
 
 Bei einzeln oder mehrfach markierten Kontrakten ist das Feld Standardkontraktvariante immer gegen Änderung geschützt. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 724465[34005]
 

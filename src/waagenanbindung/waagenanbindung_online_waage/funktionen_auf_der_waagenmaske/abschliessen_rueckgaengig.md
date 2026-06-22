@@ -7,7 +7,7 @@ Die Felder Bemerkungen oder Formular und Drucker für den Wiegescheindruck sind 
 
 Man kann an zwei Stellen der Online-Waage das Wiegungen abschließen rückgängig machen:
 
-In der Auswahlliste SF11:
+In der Auswahlliste **SF11**:
 
 Man kann mehrere Datensätze mit Status abgeschlossen markieren und das Abschließen rückgängig machen. Es erscheint eine Abfrage, ob man das Abschließen der Wiegungen wirklich rückgängig machen möchte.
 
@@ -15,7 +15,7 @@ Wenn man keinen Datensatz markiert hat und somit für alle Wiegungen Abschließe
 
 Der Status wird dann auf 2te Wiegung gesetzt.
 
-In der Waagen-Maske SF11:
+In der Waagen-Maske **SF11**:
 
 Hier kann man die in der Maske geöffnete Wiegung von Status Abgeschlossen auf Status 2teWiegung ändern.
 

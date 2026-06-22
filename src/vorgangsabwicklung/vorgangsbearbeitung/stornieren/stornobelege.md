@@ -20,4 +20,4 @@ c. ***Nur wenn Fibu gebucht*** – In diesem Fall wird nur ein Stornobeleg erste
 
 Die Standardeinstellung ist **Immer**
 
-Beide Einstellungen müssen mit jeweils einem Steuerungsparameter [SPA] [Ware-Storno mit Quellbeleg-Kopie (SPA656)](../../../firmenstamm/steuerparameter/vorgangsbearbeitung_umwandlung/ware_storno_mit_quellbeleg_kopie_spa_656.md) bzw. [Ware-Storno mit Alternative bezüglich Fibu-Status (SPA657)](../../../firmenstamm/steuerparameter/vorgangsbearbeitung_umwandlung/warestorno_mit_alternative_bez_fibstatus_spa_657.md) freigeschaltet werden.
+Beide Einstellungen müssen mit jeweils einem Steuerungsparameter **[SPA]** [Ware-Storno mit Quellbeleg-Kopie (SPA656)](../../../firmenstamm/steuerparameter/vorgangsbearbeitung_umwandlung/ware_storno_mit_quellbeleg_kopie_spa_656.md) bzw. [Ware-Storno mit Alternative bezüglich Fibu-Status (SPA657)](../../../firmenstamm/steuerparameter/vorgangsbearbeitung_umwandlung/warestorno_mit_alternative_bez_fibstatus_spa_657.md) freigeschaltet werden.

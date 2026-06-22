@@ -22,7 +22,7 @@ Momentan sind lediglich der Kontraktdruck, -erledigung und -storno implementiert
 
 Des Weiteren sollte beachtet werden, dass der Kontraktdruck auch an die „[Vorgangsdruckklassen](../firmenstamm/druckereinrichtung/vorgangsdruckklassen.md)“ angeschlossen werden kann.
 
-Sinn der „Kontrakt-Varianten"
+<p class="just-emphasize">Sinn der „Kontrakt-Varianten"</p>
 
 Da die optische Gestaltung eines Kontraktes nicht, wie bei einem Vorgang, durch die Reihenfolge der Eingabe, sondern nach logischen Gesichtspunkten gegliedert werden soll, muss dem System ebendiese Reihenfolge mitgeteilt werden. Dies geschieht in der Kontrakt-Variante, der der Kontrakt jeweils zu Druckzwecken zuzuordnen ist. Die Druckvariante steuert also nicht nur, welche Formulareinrichtung verwendet werden soll, sondern auch die Reihenfolge und den Umfang der „Bereiche", in die ein Kontrakt gegliedert werden soll.
 
@@ -60,7 +60,7 @@ Innerhalb einer Kontrakt-Variante können folgende Bereiche aktiviert werden:
 
 • Leerzeile
 
-Folgende Formularbereiche (Direktsprung [FRMB]) können in der Formulareinrichtung berücksichtigt werden:
+Folgende Formularbereiche (Direktsprung **[FRMB]**) können in der Formulareinrichtung berücksichtigt werden:
 
 • Kontrakt-Kopf
 
@@ -104,11 +104,11 @@ Folgende Formularbereiche (Direktsprung [FRMB]) können in der Formulareinrichtu
 
 Achtung: Damit ein Kontrakt-Kopf für Folgeseiten gedruckt werden kann, muss ein Kontrakt-Fuß eingerichtet werden.
 
-Einrichtung des jeweiligen Bereichs
+<p class="just-emphasize">Einrichtung des jeweiligen Bereichs</p>
 
 Da der Kontraktdruck eine sehr viel allgemeinere Formularverwaltung verwendet als das Vorgangswesen, können hier nicht die dort üblichen Positionen verwendet werden. Es gibt nur die Einstellungen „Festtext“, „Variable als Text“, „Variable als Zahl“, „Variable als Datum“ und (wo sinnvoll) „Variable als Anschrift“ sowie die Positionen „Ktr_Versandadresse oder Hauptadresse“ (3210) und „Ktr_Versandadresse oder Hauptadresse“ (3211). Um WELCHE Variable des jeweiligen Typs es sich genau handeln soll, muss in der Spalte „Text“ hinterlegt werden.
 
-Im Kontraktkopf (auch Folgeseite) derzeit verwendbare Daten
+<p class="just-emphasize">Im Kontraktkopf (auch Folgeseite) derzeit verwendbare Daten</p>
 
 | Feld | Kürzel | Typ |
 | --- | --- | --- |
@@ -149,7 +149,7 @@ Im Kontraktkopf (auch Folgeseite) derzeit verwendbare Daten
 | Erledigter Gesamtwert | IstWert | 4 |
 | Offener Gesamtwert | RestWert | 4 |
 
-In der ersten Zeile eines JEDEN Hauptteil-Bereichs verwendbare Daten
+<p class="just-emphasize">In der ersten Zeile eines JEDEN Hauptteil-Bereichs verwendbare Daten</p>
 
 | Feld | Kürzel | Typ |
 | --- | --- | --- |
@@ -157,7 +157,7 @@ In der ersten Zeile eines JEDEN Hauptteil-Bereichs verwendbare Daten
 | Interne Identifikation des Kontrakts (für SQLK) | KtrId | 4 |
 | Tagesdatum des Drucks | Tagesdatum | 5 |
 
-In der Artikelposition derzeit verwendbare Daten
+<p class="just-emphasize">In der Artikelposition derzeit verwendbare Daten</p>
 
 | Feld | Kürzel | Typ |
 | --- | --- | --- |
@@ -221,7 +221,7 @@ In der Artikel-Zeitraummenge derzeit verwendbare Daten
 
 Zusätzlich lassen sich hier auch die [Rohwarepreise](./formulareinrichtung_fuer_den_kontraktdruck.md#formular_rohwarepreise) einrichten.
 
-Im Artikel-Zeitraumpreis derzeit verwendbare Daten
+<p class="just-emphasize">Im Artikel-Zeitraumpreis derzeit verwendbare Daten</p>
 
 | Feld | Kürzel | Typ |
 | --- | --- | --- |
@@ -237,7 +237,7 @@ Im Artikel-Zeitraumpreis derzeit verwendbare Daten
 
 Zusätzlich lassen sich hier auch die [Rohwarepreise](./formulareinrichtung_fuer_den_kontraktdruck.md#formular_rohwarepreise) einrichten.
 
-In der Mengenzeitraum-Position derzeit verwendbare Daten
+<p class="just-emphasize">In der Mengenzeitraum-Position derzeit verwendbare Daten</p>
 
 | Feld | Kürzel | Typ |
 | --- | --- | --- |
@@ -253,7 +253,7 @@ In der Mengenzeitraum-Position derzeit verwendbare Daten
 | Mengeneinheits-Kurztext | ME_Kurztext | 3 |
 | Mengeneinheits-Bezeichnung | ME_Bezeich | 3 |
 
-In der Zeitraum-Artikelmenge derzeit verwendbare Daten
+<p class="just-emphasize">In der Zeitraum-Artikelmenge derzeit verwendbare Daten</p>
 
 | Feld | Kürzel | Typ |
 | --- | --- | --- |
@@ -277,7 +277,7 @@ In der Zeitraum-Artikelmenge derzeit verwendbare Daten
 
 Zusätzlich lassen sich hier auch die [Rohwarepreise](./formulareinrichtung_fuer_den_kontraktdruck.md#formular_rohwarepreise) einrichten.
 
-In der Preiszeitraum-Position derzeit verwendbare Daten
+<p class="just-emphasize">In der Preiszeitraum-Position derzeit verwendbare Daten</p>
 
 | Feld | Kürzel | Typ |
 | --- | --- | --- |
@@ -285,7 +285,7 @@ In der Preiszeitraum-Position derzeit verwendbare Daten
 | Ende Bepreisungszeitraum | KtrPrZrBisDatum | 5 |
 | Textuelle Bezeichnung des Zeitraums (Monatsname) | ZeitraumText | 3 |
 
-Im Bepreisungszeitraum-Artikelpreis derzeit verwendbare Daten
+<p class="just-emphasize">Im Bepreisungszeitraum-Artikelpreis derzeit verwendbare Daten</p>
 
 | Feld | Kürzel | Typ |
 | --- | --- | --- |
@@ -304,7 +304,7 @@ Im Bepreisungszeitraum-Artikelpreis derzeit verwendbare Daten
 
 Zusätzlich lassen sich hier auch die [Rohwarepreise](./formulareinrichtung_fuer_den_kontraktdruck.md#formular_rohwarepreise) einrichten.
 
-In einer Abnahmekunden-Position derzeit verwendbare Daten
+<p class="just-emphasize">In einer Abnahmekunden-Position derzeit verwendbare Daten</p>
 
 | Feld | Kürzel | Typ |
 | --- | --- | --- |
@@ -313,7 +313,7 @@ In einer Abnahmekunden-Position derzeit verwendbare Daten
 | Kundenanschrift | AdressId | 6 |
 | | | | |
 
-In einer Paritätsposition derzeit verwendbare Daten
+<p class="just-emphasize">In einer Paritätsposition derzeit verwendbare Daten</p>
 
 | Feld | Kürzel | Typ |
 | --- | --- | --- |
@@ -321,7 +321,7 @@ In einer Paritätsposition derzeit verwendbare Daten
 | Paritätsbezeichnung | ParitaetBezeich | 3 |
 | Paritätsanschrift | AdressId | 6 |
 
-In einer Kontraktbewegung derzeit verwendbare Daten
+<p class="just-emphasize">In einer Kontraktbewegung derzeit verwendbare Daten</p>
 
 | Feld | Kürzel | Typ |
 | --- | --- | --- |
@@ -342,20 +342,20 @@ In einer Kontraktbewegung derzeit verwendbare Daten
 | Preis-Mengeneinheits-Bezeichnung | ME_BezeichPreis | 3 |
 | Parallel gültiger Kontraktpreis | KtrPreis | 4 |
 
-In einer Textbausteinzeile derzeit verwendbare Daten
+<p class="just-emphasize">In einer Textbausteinzeile derzeit verwendbare Daten</p>
 
 | Feld | Kürzel | Typ |
 | --- | --- | --- |
 | Textzeile | BemerkText | 3 |
 
-In einer Bereichsüberschrift derzeit verwendbare Daten
+<p class="just-emphasize">In einer Bereichsüberschrift derzeit verwendbare Daten</p>
 
 | Feld | Kürzel | Typ |
 | --- | --- | --- |
 | Überschrift | KtrVariTxUeber | 3 |
 | | | | | |
 
-In einer Zahlungsbedingung derzeit verwendbare Daten
+<p class="just-emphasize">In einer Zahlungsbedingung derzeit verwendbare Daten</p>
 
 | Feld | Kürzel | Typ |
 | --- | --- | --- |
@@ -363,13 +363,13 @@ In einer Zahlungsbedingung derzeit verwendbare Daten
 | Zahlungsbedingungsbezeichnung | ZahlBedBezeich | 3 |
 | | | | | |
 
-In einer Leerzeile derzeit verwendbare Daten
+<p class="just-emphasize">In einer Leerzeile derzeit verwendbare Daten</p>
 
 | Feld | Kürzel | Typ |
 | --- | --- | --- |
 | Leerzeile (bewirkt nichts, muss aber da sein!) | Leerzeile | 3 |
 
-Rohwarenpreise
+<p class="just-emphasize">Rohwarenpreise</p>
 
 Preisfelder die nur für Rohwarekontrakte gelten, diese können in unterschiedlichen Bereichen verwendet werden.
 
@@ -381,7 +381,7 @@ Preisfelder die nur für Rohwarekontrakte gelten, diese können in unterschiedli
 | Weltmarktpreis | KtrPrRohWM_Preis | 4 |
 | Abschlagssatz | KtrRohAbschSatz | 4 |
 
-Varianten für den Anschriftsdruck
+<p class="just-emphasize">Varianten für den Anschriftsdruck</p>
 
 Jede Anschrift kann in derzeit 4 verschiedenen Varianten ausgedruckt werden, deren Form von Anschriftsmaske zu Anschriftsmaske verschieden gestaltbar ist:
 

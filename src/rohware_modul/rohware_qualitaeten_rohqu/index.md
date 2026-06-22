@@ -2,15 +2,15 @@
 
 <!-- source: https://amic.de/hilfe/rohwarequalittenrohqu.htm -->
 
-Allgemeines
+<p class="just-emphasize">Allgemeines</p>
 
 Wird Ware angeliefert, so kann sofort eine Probe zur Ermittlung der Qualitäten genommen werden. Diese Probe wird anhand der Partienummer identifiziert. So kann unabhängig davon, ob bereits ein Beleg existiert oder nicht, Qualität erfasst und später verarbeitet werden.
 
-Direktsprung
+<p class="just-emphasize">Direktsprung</p>
 
 Die Auswahlliste erreichen Sie mit dem Direktsprung ROHQ
 
-Funktionen
+<p class="just-emphasize">Funktionen</p>
 
 Mit dieser Anwendung erhalten Sie einen Überblick über erfasste und noch nicht erfasste Qualitäten und können Qualitätsdaten zu Partien erfassen, ändern oder löschen.
 

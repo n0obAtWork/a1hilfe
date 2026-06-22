@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Firmenkonstanten > Zugriffsrechte Rolle > Rollenstamm
 
-oder Direktsprung [ROLLE]
+oder Direktsprung **[ROLLE]**
 
 Hiermit besteht die Möglichkeit Rollen zu hinsichtlich ihrer Rollenklasse und ihren Rollenkontexte zu vereinigen.
 
@@ -17,4 +17,4 @@ Als Ergebnis der Vereinigung erhält die Zielrolle die Vereinigung aller Bediene
 
 | Funktionen |
 | --- |
-| Rolle vereinigen (F9) | Rollen vereinigen |
+| Rolle vereinigen (**F9**) | Rollen vereinigen |

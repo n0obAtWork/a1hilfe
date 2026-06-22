@@ -18,7 +18,7 @@ dbf=c:\\aeins\\daten\\xxx.db |
 | User | Hier kann die Vorbelegung des Usernamens eingetragen sein |
 | Passwort | Hier kann die Vorbelegung des Kennwortes eingetragen sein |
 
-Mandantenabschnitt :
+<p class="just-emphasize">Mandantenabschnitt :</p>
 
 | [mandant] | |
 | --- | --- |

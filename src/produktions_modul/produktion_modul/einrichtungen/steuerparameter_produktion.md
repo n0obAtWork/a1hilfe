@@ -4,13 +4,13 @@
 
 Hauptmenü > Administration > Steuerung > Steuerparameter zeigen
 
-oder Direktsprung [SPA]
+oder Direktsprung **[SPA]**
 
 Die einzurichtenden Steuerparameter findet man indem man in der Auswahlliste die Bereichsauswahl auf die [Gruppe Rezeptur/Stückliste/Produktion](../../../firmenstamm/steuerparameter/rezeptur_stueckliste_produktion/index.md) abgrenzt.
 
 ![](../../../ImagesExt/image8_265.jpg)
 
-Zunächst sind die Steuerparameter [SPA] einzurichten:
+Zunächst sind die Steuerparameter **[SPA]** einzurichten:
 
 | Steuerparameter |
 | --- |

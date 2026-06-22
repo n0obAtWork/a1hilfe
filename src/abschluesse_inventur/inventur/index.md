@@ -4,7 +4,7 @@
 
 Hauptmenü > Inventur
 
-Allgemeines
+<p class="just-emphasize">Allgemeines</p>
 
 A.eins bietet vielfältige Möglichkeiten, die Inventur organisatorisch zu unterstützen. Von der Gesamtinventur zu einem festen Stichtag über abschnittsweise Teilinventuren reicht die Vielfalt dieses Systems.
 
@@ -16,9 +16,9 @@ Es gibt im Moment 2 Inventurarten:
 
 Für jede Inventur können Erhebungstag und Stichtag versetzt sein. Die am Erhebungstag festgestellte Differenz wird auf den Stichtag fortgeschrieben.
 
-Durch eine Eintragung der Inventurgruppe im Artikel (Hauptmenü > Stammdatenpflege > Artikel oder Direktsprung [AR], dann Ansehen F5 > Bestände / Bewertung) kann bestimmt werden, welcher Artikel zur Inventur herangezogen werden soll.
+Durch eine Eintragung der Inventurgruppe im Artikel (Hauptmenü > Stammdatenpflege > Artikel oder Direktsprung **[AR]**, dann ***Ansehen*** **F5** > ***Bestände / Bewertung***) kann bestimmt werden, welcher Artikel zur Inventur herangezogen werden soll.
 
-Standardmäßig ist bei allen Artikeln die “0” vorbelegt (bedeutet in der Basisdatenbank = “Standardinventur“).
+Standardmäßig ist bei allen Artikeln die “**0**” vorbelegt (bedeutet in der Basisdatenbank = “Standardinventur“).
 
 Bevor mit der Inventur begonnen werden kann, müssen einige organisatorische Maßnahmen durchgeführt werden und alle Artikel mit einer gültigen Inventurgruppe belegt werden.
 

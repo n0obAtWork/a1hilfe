@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege \> Konstanten Kundenstamm > Zahlungsbedingung
 
-Direktsprung [ZB]
+Direktsprung **[ZB]**
 
 ![](../../../ImagesExt/image8_62.jpg)
 

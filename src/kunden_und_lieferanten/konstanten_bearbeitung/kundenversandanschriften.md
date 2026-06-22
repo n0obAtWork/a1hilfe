@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Konstanten Kundenstamm > Kundenversandanschriften
 
-oder Direktsprung [KUVS]
+oder Direktsprung **[KUVS]**
 
 Gibt es zu einer Rechnungsanschrift mehrere Lieferempfänger, so können verschiedene Versandanschriften hinterlegt werden, die dann innerhalb der Belegerfassung zum Einsatz kommen.
 
@@ -21,6 +21,6 @@ Im linken Bereich des Eingabebildschirms wird die Kundenadresse angezeigt und im
 | Gruppe (Intra) | Intrastatgruppe des zugehörigen Kunden. Dieses Feld ist nur private Zwecke nutzbar, die offizielle Intrastat - Meldung benutzt dieses Feld nicht. |
 | ILN-Nr | ILN Nummer dieser Adresse |
 
-Hat man zu einem Kunden sehr viele Versandanschriften, so kann über die Funktion Suchen F6 nach Name, Straße und/oder Ort innerhalb der Versandanschriften dieses Kunden gesucht werden. Auf der sich öffnenden Suchmaske können entweder bis zu drei Kritieren direkt angegeben werden oder man sucht mit **F3** über die Itembox.
+Hat man zu einem Kunden sehr viele Versandanschriften, so kann über die Funktion ***Suchen*** **F6** nach Name, Straße und/oder Ort innerhalb der Versandanschriften dieses Kunden gesucht werden. Auf der sich öffnenden Suchmaske können entweder bis zu drei Kritieren direkt angegeben werden oder man sucht mit **F3** über die Itembox.
 
 Beim Löschen von Versandanschriften wird die Adressnummer des Datensatzes mit einem negativen Vorzeichen versehen (analog zu Anschriften [ansch]), wenn der Steuerparameter Anschriften archivieren [SPA 574](../../firmenstamm/steuerparameter/kundenstammdaten/anschriften_archivieren_spa_574.md) auf Ja steht.

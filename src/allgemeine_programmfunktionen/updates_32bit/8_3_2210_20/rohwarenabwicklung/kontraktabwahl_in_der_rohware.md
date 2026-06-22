@@ -4,7 +4,7 @@
 
 Die Funktion Kontrakt abwählen ist jetzt im jeden Fall verfügbar, wenn ein Kontrakt ausgewählt wurde.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 712846[32813]
 

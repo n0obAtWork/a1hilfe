@@ -4,7 +4,7 @@
 
 Preise / Konditionen > Rabatte > Rabatt-Texte
 
-Oder Direktsprung [RAT]
+Oder Direktsprung **[RAT]**
 
 Für die Standardsprache in A.eins kann hier ein beliebiger Text angegeben werden, der für die Anzeige des Rabatts auf Belegen verwendet werden soll.
 

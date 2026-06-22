@@ -4,7 +4,7 @@
 
 Wird im Kontraktartikel der EPA "Soll das lagerspezifische Kennzeichen in Kontrakt übernommen werden?" auf "Nein" gesetzt, so wird auch die Checkbox "lagerspezifisch" nicht mehr angezeigt. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 717055[33216]
 

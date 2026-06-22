@@ -4,7 +4,7 @@
 
 Hauptmenü > Systempflege > Abstimmung > Gedruckte Vorgänge ohne Archiv-Belege
 
-Direktsprung [FANAR]
+Direktsprung **[FANAR]**
 
 Ein Vorgang gilt als archiviert, wenn er ein Dokument im Archiv vorweisen kann, dessen Belegreferenz der Beleg-Referenz des Vorgangs entspricht und dessen Belegklasse der Klasse des Vorgangs entspricht.
 

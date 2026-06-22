@@ -6,13 +6,13 @@ Einkauf-Lieferscheine entstehen durch Neuerfassung oder Umwandlung aus Anfragen 
 
 | Funktion | Bedeutung |
 | --- | --- |
-| Erfassen F8 | Erfassung eines neuen EK-Lieferscheins |
-| Stapelverarbeitung | Übernahme eines oder mehrerer EK-Lieferscheine in einen Bearbeitungsstapel |
+| ***Erfassen*** **F8** | Erfassung eines neuen EK-Lieferscheins |
+| ***Stapelverarbeitung*** | Übernahme eines oder mehrerer EK-Lieferscheine in einen Bearbeitungsstapel |
 | ***Erstdruck F9*** | Erstdruck eines EK-Lieferscheins |
 | **Formulardruck F10** | Wiederholungsdruck |
 | **Lieblingsdruckerdruck** | Auswahl eines anderen Druckers / Zuordnung eines anderen Formulars |
 | **Korrektur F5** | Korrektur eines EK-Lieferscheins |
-| Ansicht *F6* | EK-Lieferschein im Ansicht-Modus öffnen |
+| ***Ansicht*** ***F6*** | EK-Lieferschein im Ansicht-Modus öffnen |
 | **Schnellkorrektur** | Stapelkorrektur von Datum und Menge |
 | **Kopieren CF8** | Kopieren des EK-Lieferscheins für einen auszuwählenden Kunden |
 | **Vorschau F11** | Druckvorschau |

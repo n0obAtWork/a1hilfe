@@ -4,7 +4,7 @@
 
 Das Anzeigen von Barvorgängen mit [F6] ist jetzt möglich.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 734403[33584]
 

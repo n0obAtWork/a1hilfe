@@ -4,7 +4,7 @@
 
 In der Version 8.3.2310.27 und 9.0.2305.2 konnte es dazu kommen, dass der Mailversand nicht ordnungsgemäß durchgeführt wurde. Dieses Problem wurde jetzt behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 728666[34499]
 

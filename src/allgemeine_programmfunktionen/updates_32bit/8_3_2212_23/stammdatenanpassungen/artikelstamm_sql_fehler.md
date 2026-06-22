@@ -4,7 +4,7 @@
 
 Bei der Neuanlage von Artikelstammdaten gab es einen SQL-Fehler, wenn keine Mengeneinheitsgruppe mit der Nummer 1 eingerichtet war. Dieser Fehler wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 717422[33292]
 

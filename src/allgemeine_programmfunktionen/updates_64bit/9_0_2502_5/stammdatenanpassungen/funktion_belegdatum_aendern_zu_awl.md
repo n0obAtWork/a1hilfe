@@ -4,7 +4,7 @@
 
 In der Auswahlliste von Eingangsgutschriften [EGB] und Verkaufsgutschriften [GUB] steht jetzt die Funktion Belegdatum ändern, analog zur Rechnungsbearbeitung, zur Verfügung.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 745347[36648]
 

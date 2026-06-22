@@ -4,7 +4,7 @@
 
 Der Tse-QR-Code wurde nicht in der gewünschten Größe ausgedruckt. Die Größe des QR-Codes kann jetzt im Formular über das Feld Länge skaliert werden.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 715707[33463]
 

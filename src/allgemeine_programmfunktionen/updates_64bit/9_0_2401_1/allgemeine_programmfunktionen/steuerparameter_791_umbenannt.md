@@ -4,7 +4,7 @@
 
 Der Steuerparameter [SPA] 791 ist so umbenannt worden, dass die Bezeichnung eindeutiger ist. Die neue Bezeichnung lautet: "Sperr-Kennzeichnung für Einkauf/Verkauf aus dem Artikel auswerten lassen".
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 732390[34889]
 

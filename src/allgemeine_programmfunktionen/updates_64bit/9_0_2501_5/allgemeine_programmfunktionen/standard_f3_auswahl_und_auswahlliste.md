@@ -4,7 +4,7 @@
 
 Die neue F3-Auswahl mit fester Fensterposition wurde als Standard festgelegt, wenn sie beim Bediener "Standard Programmvorgabe" unter "Version F3-Auswahl"eingetragen ist. Bei der Neuanlage von Bedienern wird die neue Auswahlliste als Standard eingestellt. Die Vorbelegung des Suchkriteriums kann jetzt auch über die Schlüsselwörter ITEM1 und ITEM2 geschehen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 739402[35977]
 

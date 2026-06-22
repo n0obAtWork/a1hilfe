@@ -4,7 +4,7 @@
 
 Für die Vorgangsunterklassen lassen sich die Bezeichnungen jetzt auch in einer Fremdsprache Pflegen. Dazu muss man F3 auf dem Bezeichnungsfeld drücken.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[36487]
 

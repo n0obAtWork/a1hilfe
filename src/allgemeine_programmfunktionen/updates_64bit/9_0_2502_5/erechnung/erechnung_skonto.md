@@ -4,7 +4,7 @@
 
 Die Skontodarstellung in der eRechnung wurde für die Skontobeträge &lt; 1€ richtig gestellt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 748101[37671]
 

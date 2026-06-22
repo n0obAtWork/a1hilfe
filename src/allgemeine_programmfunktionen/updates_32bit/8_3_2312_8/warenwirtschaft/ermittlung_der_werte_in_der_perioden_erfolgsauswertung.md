@@ -4,7 +4,7 @@
 
 Es kam bei einigen Artikeln zu fehlerhaften Ermittlungen der Werte in der Perioden-Erfolgsauswertung. Das Problem wurde nun korrigiert. Wichtig: Eine Korrektur der fehlerhaften Einträge erfolgt erst durch eine Gesamtreorganisation mit [WAREO].
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 729146[34520]
 

@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Lagerverwaltungssystem > XXXXXXXXXXXXXXXXXX
 
-Direktsprung [LVSWF]
+Direktsprung **[LVSWF]**
 
 Mit dem LVS-Workflow kann ein Arbeitsablauf beschrieben werden, bei dem der Scanner Daten sammelt. Bedingung ist die Einrichtung der Prozedur „AMIC_LVS_WORKFLOW_SCANNER“ im Steuerparameter [801 – private Scanenerprozedur](./steuerparameter/scanner/private_scannerprozedur_spa_801.md) für die IP des Scanners.
 

@@ -34,6 +34,6 @@ dbx_io("RESETCOLOR", "Feldname", "",
 
 Hier werden die Felder wieder auf die Standardfarben von A.eins gesetzt. Hat man jedoch bei AIS-Felder eigene Farben gewählt, so muss man diese wieder über SETCOLOR restaurieren.
 
-Farbtabelle:
+<p class="just-emphasize">Farbtabelle:</p>
 
 ![](../../../ImagesExt/image8_1079.png)

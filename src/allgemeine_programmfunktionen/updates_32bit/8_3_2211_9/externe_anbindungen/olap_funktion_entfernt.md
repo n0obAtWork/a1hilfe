@@ -4,7 +4,7 @@
 
 In OLAP wurde die Funktion "Titel exportieren" entfernt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 715120[32979]
 

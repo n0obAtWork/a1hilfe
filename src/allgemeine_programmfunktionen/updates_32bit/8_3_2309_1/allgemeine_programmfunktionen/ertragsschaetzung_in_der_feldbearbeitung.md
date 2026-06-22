@@ -4,7 +4,7 @@
 
 Für Saatsorten und Feldbearbeitung wurde ein Feld für die Ertragsschätzung (Datenbankfeldname "Ernteschaetzung") angelegt. Der Wert aus den Saatsorten wird bei der Auswahl der Saatsorte in der Feldbearbeitung als Vorbelegung herangezogen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 724716[34050]
 

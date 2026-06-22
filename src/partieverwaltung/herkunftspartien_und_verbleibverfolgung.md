@@ -2,8 +2,9 @@
 
 <!-- source: https://amic.de/hilfe/_partievervolgung.htm -->
 
-Hauptmenü > Partieverwaltung > Partie-Stammdaten oder Direktsprung [PAR]  
+Hauptmenü > Partieverwaltung > Partie-Stammdaten oder Direktsprung **[PAR]  
     
+**
 
 In der Anwendung zur Bearbeitung von Partiestammdaten stehen Funktionen zur Bestimmung des Verbleibs beziehungsweise der Herkunft von Partiemengen zum gewählten Partiestamm zur Verfügung. Ausgehend von den der gewählten Partie werden bei der **Herkunfts-Funktion** alle Zugänge zur jeweiligen Partie unter Berücksichtigung von Artikel, Lager und Lagerplatz aus anderen Partien und Eingangslieferscheinen und Eingangsrechnungen sowie Umbuchungen und Produktionszugängen ermittelt. Entsprechend werden bei der **Verbleib-Funktion** die Abgänge der Partie unter Berücksichtigung von Artikel, Lager und Lagerplatz aus anderen Partien und Ausgangslieferscheinen und Ausgangsrechnungen sowie Umbuchungen und Produktionsabgängen ermittelt.
 

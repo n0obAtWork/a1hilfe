@@ -4,9 +4,9 @@
 
 Hauptmenü > Administration > Firmenkonstanten > Erfasserstamm
 
-oder Direktsprung [ERF]
+oder Direktsprung **[ERF]**
 
-Zusätzlich zu Bedienern lassen sich Erfasser einrichten. Im Gegensatz zu Bedienern können Erfasser ohne weiteres während des Programmbetriebs gewechselt werden. Das kann vor allem im Kassenumfeld genutzt werden, indem ein einzelner Kassen-Bediener als Sammel-Account genutzt wird und die einzelnen Kassierer als Erfasser eingerichtet sind. Die Kassierer können dann per [Erfasserwechsel](./erfasserwechsel.md) [ERFW] / [SERFW] gewechselt werden.
+Zusätzlich zu Bedienern lassen sich Erfasser einrichten. Im Gegensatz zu Bedienern können Erfasser ohne weiteres während des Programmbetriebs gewechselt werden. Das kann vor allem im Kassenumfeld genutzt werden, indem ein einzelner Kassen-Bediener als Sammel-Account genutzt wird und die einzelnen Kassierer als Erfasser eingerichtet sind. Die Kassierer können dann per [Erfasserwechsel](./erfasserwechsel.md) **[ERFW]** / **[SERFW]** gewechselt werden.
 
 Das Abmelden eines Erfassers fungiert gleichzeitig als Sperrung von A.eins. Das Programm kann erst dann weiter benutzt werden, wenn sich wieder ein Erfasser angemeldet hat.
 
@@ -39,7 +39,7 @@ Jedem Bediener müssen seine Erfasser explizit zugewiesen werden. Diese Zuordnun
 
 | Funktionen | Beschreibung |
 | --- | --- |
-| Ändern (F5), Ansehen (F6), Löschen (F7), Neu (F8) | [Erfasser Pfleger](./erfasser_pfleger.md) |
+| Ändern **(F5)**, Ansehen **(F6)**, Löschen **(F7)**, Neu **(F8)** | [Erfasser Pfleger](./erfasser_pfleger.md) |
 | Doppelte Passwörter anzeigen | Zeigt an, welche Erfasser ein gleiches Passwort haben. |
 
 </details>

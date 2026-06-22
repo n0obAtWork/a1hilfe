@@ -4,7 +4,7 @@
 
 Hauptmenü > Kontraktverwaltung > Paritätsstammdaten
 
-oder Direktsprung [PARI]
+oder Direktsprung **[PARI]**
 
 Die „Kontraktbewertung zum Marktpreis“ Informationen befinden sich in den Varianten „Paritäten detailliert (KBM)“ und „Währungskurse (KBM)“. Dort befindet sich neben den Importen der Marktpreise und der Paritätssätze, auch die Auswertungen „Marktpreise (KBM)“ und „Paritätssatzliste (KBM)“.
 

@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Firmenkonstanten > Zugriffsrechte Rolle > Rollenstamm
 
-oder Direktsprung [ROLLE]
+oder Direktsprung **[ROLLE]**
 
 Hier kann auf einfache Weise von einer Ausgangsrolle mit einer auszuwählenden Rolle die Bedienerklassenzuordnung und/oder die Rollenkontexte ausgetauscht werden.
 
@@ -27,9 +27,9 @@ Nach dem Austausch besitzt die Ausgangsrolle die Rollenkontext-Zuordnungen der T
 
 | Funktionen |
 | --- |
-| Rolle umbenennen (F5) | Rolle umbenennen. |
-| Speichern (F9) | Speichert ggf. Änderungen. |
-| Neu (F8) | Legt eine neue Rolle an. |
-| Speichern unter… (Shift+F9) | Übernimmt die Bedienerklassen-Zuordnung der Rolle und bietet somit die Möglichkeit daraus eine neue Rolle zu bilden. |
+| Rolle umbenennen (**F5**) | Rolle umbenennen. |
+| Speichern (**F9**) | Speichert ggf. Änderungen. |
+| Neu (**F8**) | Legt eine neue Rolle an. |
+| Speichern unter… (**Shift+F9**) | Übernimmt die Bedienerklassen-Zuordnung der Rolle und bietet somit die Möglichkeit daraus eine neue Rolle zu bilden. |
 
 </details>

@@ -4,7 +4,7 @@
 
 Beim Ändern des Belegdatums wurde automatisch auch das Lieferdatum auf Vorgangs- und Positionsebene geändert. Nun ist es möglich das Lieferdatum ebenfalls auf der Maske festzulegen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 727344[34290]
 

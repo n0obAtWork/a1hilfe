@@ -13,7 +13,7 @@ id=2
 
 Der Aufruf kann über die Windows-Aufgabenplanung in regelmäßigen Abständen erfolgen.
 
-Formulararchivgruppe
+<p class="just-emphasize">Formulararchivgruppe</p>
 
 Die Mail und alle Anhänge werden im Formulararchiv in einer Gruppe zusammengefasst. Anhand dieser kann man die Dokumente zusammengehörenden Dokumente identifizieren.
 

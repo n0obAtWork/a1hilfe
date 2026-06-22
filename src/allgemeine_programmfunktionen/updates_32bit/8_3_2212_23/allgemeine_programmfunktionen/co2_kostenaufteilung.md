@@ -4,7 +4,7 @@
 
 Das neue Modul zur CO2-Kostenaufteilung wurde fertiggestellt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 717732[33255]
 

@@ -6,7 +6,7 @@ Hauptmenü > Administration > Firmenkonstanten > Mandantenstamm > Register Finan
 
 Direktsprung **[MND]**.
 
-Im Mandantenstamm wird die unter der Funktion „Ansprechpartner ZMDO“ hinterlegte Anschrift verwendet. Dabei werden folgende Felder verwendet:
+Im Mandantenstamm wird die unter der Funktion „***Ansprechpartner ZMDO***“ hinterlegte Anschrift verwendet. Dabei werden folgende Felder verwendet:
 
 • Name bis zu einer Länge von 30 Zeichen.
 

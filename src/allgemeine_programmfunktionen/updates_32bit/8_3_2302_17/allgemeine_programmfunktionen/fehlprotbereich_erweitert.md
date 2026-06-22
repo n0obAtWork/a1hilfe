@@ -4,7 +4,7 @@
 
 Die Tabelle Fehlerprotokoll und die zuliefernden Prozeduren lassen jetzt einen Fehlerprotokollbereich von 255 statt 30 Zeichen zu
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 719179[33334]
 

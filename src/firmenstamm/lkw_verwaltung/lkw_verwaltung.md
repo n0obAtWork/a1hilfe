@@ -4,7 +4,7 @@
 
 Hauptmenü > Nebenbuchhaltungen > LKW-Verwaltung > LKW Verwaltung
 
-Direktsprung [LKW]
+Direktsprung **[LKW]**
 
 | Kopfdaten und Registerkarte „Allgemein“ |
 | --- |
@@ -25,7 +25,7 @@ Alle LKW |
 | LKW Gruppe | Vorbelegung mit 0-ohne Gruppe  
 [LKW-Gruppen](./lkw_gruppen.md) können angelegt werden unter [LKWG]. |
 | Spedition | Wird vorbelegt mit 0 – kein Spediteur  
-F3- Auswahl über die unter [SPED] angelegten [Speditionen](../spedition.md). |
+F3- Auswahl über die unter **[SPED]** angelegten [Speditionen](../spedition.md). |
 | Leergewicht in kg | Vorbelegung mit 0 |
 | Nutzlast in kg | Vorbelegung mit 0 |
 | Volumen in m3 | Vorbelegung mit 0 |

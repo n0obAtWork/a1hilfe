@@ -4,9 +4,9 @@
 
 Hauptmenü > Administration > Firmenkonstanten > Bedienerbezogenes Hinweissystem
 
-Direktsprung [HINW]
+Direktsprung **[HINW]**
 
-Allgemeine Felder
+<p class="just-emphasize">Allgemeine Felder</p>
 
 | Maskenfelder | Bedeutung |
 | --- | --- |
@@ -17,7 +17,7 @@ Allgemeine Felder
 | Gültig bis | Hier kann das Datum eingestellt werden wie lang die Information auf der Anzeigemaske beim A.eins-Start angezeigt werden soll. Standard ist das Tagesdatum. |
 | End Zeit | Hier kann die Uhrzeit eingetragen werden, bis wann die Information gültig ist. Standard ist 23:59. |
 
-Register Allgemein
+<p class="just-emphasize">Register Allgemein</p>
 
 | Maskenfelder | Bedeutung |
 | --- | --- |
@@ -28,7 +28,7 @@ Register Allgemein
 Die Prozedur kann einen oder zwei Rückgabewerte haben. Der Rückgabewert mit Namen „**result**“ ist vom Typ Integer und muss in jedem Fall zurückgeliefert werden. Ist der Wert größer 0, so wird der Hinweis angezeigt.  
 Der zweite optionale Rückgabewert mit dem Name „**result_text**“ ist vom Typ char(255) und liefert einen Variablen Text zurück, der den unter **Bezeichnung** angegebenen Text überschreibt. |
 
-Typ
+<p class="just-emphasize">Typ</p>
 
 In Abhängigkeit des Typs muss im Feld Ident der richtige Inhalt eingetragen werden. Der Inhalt des Feldes Ident enthält die Identifikation des Dokumentes.
 
@@ -98,6 +98,6 @@ muss noch abgearbeitet werden.', -1, dc_eintrag );
 end
 ```
 
-Register Gelesen
+<p class="just-emphasize">Register Gelesen</p>
 
-Auf der Registerkarte **Gelesen** werden alle Benutzer angezeigt die die Information als gelesen markiert haben. Um das Gelesen-Kennzeichen für einen Benutzer zu löschen kann hier die entsprechende Zeile markiert werden und mit der Funktion Lösche gelesen entfernt werden. Mit der Funktion Lösche alle gelesen können alle Benutzer entfernt werden, die diesen Hinweis als schon gelesen markiert haben.
+Auf der Registerkarte **Gelesen** werden alle Benutzer angezeigt die die Information als gelesen markiert haben. Um das Gelesen-Kennzeichen für einen Benutzer zu löschen kann hier die entsprechende Zeile markiert werden und mit der Funktion ***Lösche gelesen*** entfernt werden. Mit der Funktion ***Lösche alle gelesen*** können alle Benutzer entfernt werden, die diesen Hinweis als schon gelesen markiert haben.

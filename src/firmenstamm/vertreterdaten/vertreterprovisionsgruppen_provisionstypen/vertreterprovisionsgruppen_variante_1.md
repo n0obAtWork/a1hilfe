@@ -28,10 +28,10 @@
 
 | Funktion | Beschreibung |
 | --- | --- |
-| Ändern (F5) | Ruft den [Pfleger](./vertreterprovisionsgruppen_pfleger.md) der Vertreterprovisionsgruppen auf im Ändernmodus auf. |
-| Ansehen (F6) | Ruft den [Pfleger](./vertreterprovisionsgruppen_pfleger.md) der Vertreterprovisionsgruppen auf im Ansehenmodus auf. |
-| Löschen (F7) | Ruft den [Pfleger](./vertreterprovisionsgruppen_pfleger.md) der Vertreterprovisionsgruppen auf im Löschenmodus auf. |
-| Neu (F8) | Ruft den [Pfleger](./vertreterprovisionsgruppen_pfleger.md) der Vertreterprovisionsgruppen auf im Neumodus auf. |
+| Ändern **(F5)** | Ruft den [Pfleger](./vertreterprovisionsgruppen_pfleger.md) der Vertreterprovisionsgruppen auf im Ändernmodus auf. |
+| Ansehen **(F6)** | Ruft den [Pfleger](./vertreterprovisionsgruppen_pfleger.md) der Vertreterprovisionsgruppen auf im Ansehenmodus auf. |
+| Löschen **(F7)** | Ruft den [Pfleger](./vertreterprovisionsgruppen_pfleger.md) der Vertreterprovisionsgruppen auf im Löschenmodus auf. |
+| Neu **(F8)** | Ruft den [Pfleger](./vertreterprovisionsgruppen_pfleger.md) der Vertreterprovisionsgruppen auf im Neumodus auf. |
 | Vertreter-Provisionsstaffeln | Öffnet die Anwendung Vertreterprovisionsstaffeln auf. |
 | Referenz-Preise Vert.Prov. | Öffnet die Anwendung Referenz-Preislisten auf. |
 

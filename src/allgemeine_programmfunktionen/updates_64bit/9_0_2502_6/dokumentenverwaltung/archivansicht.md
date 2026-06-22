@@ -4,7 +4,7 @@
 
 Bei privaten Auswahllisten mir Archiv-Ansicht kam eine Fehlermeldung wenn hinter einem Eintrag kein Archivdokument hinterlegt war, beispielsweise bei einem noch nicht gedruckten Vorgang. Dies wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 750223[38208]
 

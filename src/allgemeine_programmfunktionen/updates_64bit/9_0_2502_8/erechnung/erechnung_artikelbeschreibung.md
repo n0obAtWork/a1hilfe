@@ -4,7 +4,7 @@
 
 Für die eRechnung werden nun auch manuelle Artikeltexte aus einem Vorgang übermittelt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 751361[38545]
 

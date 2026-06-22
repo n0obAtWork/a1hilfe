@@ -4,7 +4,7 @@
 
 Hauptmenü > Inventur > Inventurbestand
 
-Direktsprung [IVB]
+Direktsprung **[IVB]**
 
 Diff.-Liste (Druck)
 
@@ -38,13 +38,13 @@ Stichtag Erhebungstag
 
 Folgende Funktionen der Bewertung sind noch beim Inventurbestand möglich:
 
-Einzelbewertung (Artikelebene) F5
+<p class="just-emphasize">Einzelbewertung (Artikelebene) F5</p>
 
 Alle oder einzelne Artikel können mit Hilfe dieser Funktion individuell bewertet werden. Hierzu können die einzelnen Positionen per Stern markiert werden und ein neuer Bewertungspreis eingetragen werden.
 
 Die Funktion „Einzelbewertung“ kennzeichnet Inventurpositionen stets als manuell bewertet. Nur die Funktion automatische Bewertung, mit der Inventurpositionen der Bewertungspreis laut Bewertungsgruppe des Artikels zugewiesen werden kann, kennzeichnet die Inventurpositionen als automatisch bewertet.
 
-Automatische Bewertung F9
+<p class="just-emphasize">Automatische Bewertung F9</p>
 
 Die Bewertung wird auf Grundlage der im Artikel hinterlegten Bewertungsparameter für alle oder den vorher markierten Artikeln automatisch durchgeführt.
 
@@ -70,7 +70,7 @@ o Unabhängig von Bewertungsart und Bewertungskennzeichen anwenden
 
 Bedenken Sie, dass je nach Breite der Auswahl die Funktionen langwierig sein können.
 
-Inventurdifferenzenliste
+<p class="just-emphasize">Inventurdifferenzenliste</p>
 
 Hier werden die Inventurdifferenzen ermittelt. Der Druck ist zu jedem Zeitpunkt möglich, zwischen Erfassung und Einspielung.
 

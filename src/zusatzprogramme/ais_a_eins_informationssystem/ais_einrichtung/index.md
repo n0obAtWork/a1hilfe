@@ -8,7 +8,7 @@ Direktsprung **[AIS]**
 
 Alle Felder des AIS werden in sogenannten Gruppen zusammengefasst. Über diese Gruppen werden sie später den Erfassungsmasken bzw. den Registern zugeordnet. Die Länge ist auf 30 Zeichen beschränkt, da das Maskenwerkzeug für die Namensvergabe von Maskenfeldern eine maximale Länge von 31 Zeichen zulässt. Die externe Bezeichnung des Registers wird in der Maskenzuordnung unter „Bezeichnung/Register“ angegeben.
 
-Jeder dieser Gruppen kann ein Screen-Makro bzw. ein Feld-Makro zugeordnet werden. Das Feld-Makro übernimmt die [Eingabeprüfung](./eingabepruefung.md) auf Feldebene. Das Screen-Makro kann für den Ändern- bzw. im Neu-Fall Vorlauffunktionen enthalten sowie eine Funktion „Prüfung vor speichern“, die aufgerufen wird bevor die Daten gespeichert werden und in der man den Speichervorgang noch abbrechen kann. Diese werden in „***Ändern Vorlauf***“, „***Einfügen Vorlauf***“ bzw. in „Prüf. Vor Speichern“ festgelegt. Ist kein Screen-Makro angegeben werden diese Funktionen aus kompatibilitätsgründen aus dem Feld-Makro gelesen.
+Jeder dieser Gruppen kann ein Screen-Makro bzw. ein Feld-Makro zugeordnet werden. Das Feld-Makro übernimmt die [Eingabeprüfung](./eingabepruefung.md) auf Feldebene. Das Screen-Makro kann für den Ändern- bzw. im Neu-Fall Vorlauffunktionen enthalten sowie eine Funktion „Prüfung vor speichern“, die aufgerufen wird bevor die Daten gespeichert werden und in der man den Speichervorgang noch abbrechen kann. Diese werden in „***Ändern Vorlauf***“, „***Einfügen Vorlauf***“ bzw. in „***Prüf. Vor Speichern***“ festgelegt. Ist kein Screen-Makro angegeben werden diese Funktionen aus kompatibilitätsgründen aus dem Feld-Makro gelesen.
 
 **ACHTUNG:** *Wird die Refresh-Funktionalität verwendet, so müssen die Funktionen für „**Ändern Vorlauf**“ und „**Einfügen Vorlauf**“ immer im Screen-Makro enthalten sein.*
 
@@ -52,7 +52,7 @@ end;
 
 Prüfung vor Speichern:
 
-Die Funktion „Prüfung vor Speichern“ wird nur bei den Masken AEZADDON, AEZADDOND und AEZADDONTnn aufgerufen, da es sich dann um eigenständige Pfleger handelt. In dieser Funktion kann man Prüfungen vornehmen, die die Integrität der Daten gewährleisten. Bei fehlerhaften Daten kann man das Speichern verhindern, indem man als Ergebnis den Wert **1** zurückliefert. Wird eine Gruppe mit einer Funktion zur Prüfung in der Maskenzuordnung einer anderen Maske zugeordnet erscheint ein Warnhinweis.
+Die Funktion „***Prüfung vor Speichern***“ wird nur bei den Masken AEZADDON, AEZADDOND und AEZADDONTnn aufgerufen, da es sich dann um eigenständige Pfleger handelt. In dieser Funktion kann man Prüfungen vornehmen, die die Integrität der Daten gewährleisten. Bei fehlerhaften Daten kann man das Speichern verhindern, indem man als Ergebnis den Wert **1** zurückliefert. Wird eine Gruppe mit einer Funktion zur Prüfung in der Maskenzuordnung einer anderen Maske zugeordnet erscheint ein Warnhinweis.
 
 Die Funktion unterscheidet sich im Aufbau von den Funktionen für ***Ändern Vorlauf***“ und „***Einfügen Vorlauf***“ dadurch, dass sie einen weiteren Parameter hat, der angibt in welchem Modus man sich gerade befindet. Er hat folgende Ausprägungen:
 
@@ -89,7 +89,7 @@ Ist die Gruppe, das Register bzw. das Makro einmal festgelegt, kann man bei Feld
 
 Die Funktion „***Gruppe umbenennen***“ schaltet das Feld in dem der Name der Gruppen steht frei, so dass man dort den neuen Gruppenamen eingeben kann. Diese Gruppe darf noch nicht existieren. Es werden immer **alle** Felder der alten Gruppe der neuen Gruppe zugeordnet.
 
-Hat man ein Screen- bzw. Feld-Makro angegeben, steht hier die Funktionen „Screen Makro bearbeiten **SF5**“ bzw. „***Makro bearbeiten* CF5**“ zur Verfügung, um das Makro direkt zu bearbeiten, so dass man nicht extra die Anwendung zur Makrobearbeitung aufrufen muss.
+Hat man ein Screen- bzw. Feld-Makro angegeben, steht hier die Funktionen ***„Screen Makro bearbeiten*** **SF5**“ bzw. „***Makro bearbeiten* CF5**“ zur Verfügung, um das Makro direkt zu bearbeiten, so dass man nicht extra die Anwendung zur Makrobearbeitung aufrufen muss.
 
 <p class="siehe-auch">Siehe auch:</p>
 

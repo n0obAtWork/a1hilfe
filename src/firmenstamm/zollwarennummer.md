@@ -8,7 +8,7 @@ Hauptmenü > Warenverkauf > Ausfuhrbearbeitung > Zollwarennummern
 
 Zollwarennummern sind Nummern, die eine Ware im internationalen Warenverkehr kennzeichnen. Sie sind jeweils für die Dauer von einem Jahr gültig und werden vom [Bundesamt für Statistik in Wiesbaden](http://www.destatis.de/) in Wiesbaden als Liste herausgegeben.
 
-Die komplette Liste lässt sich in der Form einer sogenannten SOVA-Leitdatei einspielen. Wenn Sie jedoch nur einige wenige Zollwarennummern verwenden, so können Sie diese auch manuell mit der Anwendung Zollwarennummer mit dem Direktsprung [ZWN] pflegen.
+Die komplette Liste lässt sich in der Form einer sogenannten SOVA-Leitdatei einspielen. Wenn Sie jedoch nur einige wenige Zollwarennummern verwenden, so können Sie diese auch manuell mit der Anwendung Zollwarennummer mit dem Direktsprung **[ZWN]** pflegen.
 
 | Werte in den Zollwarennummern |
 | --- |

@@ -4,19 +4,19 @@
 
 Hauptmenü > Administration > Firmenkonstanten > Bediener
 
-oder Direktsprung [BD]
+oder Direktsprung **[BD]**
 
 Oder
 
 Hauptmenü > Administration > Firmenkonstanten > Bedienerklassen
 
-oder Direktsprung [BDKL]
+oder Direktsprung **[BDKL]**
 
 Oder
 
 Hauptmenü > Administration > Firmenkonstanten > Erfasserstamm
 
-oder Direktsprung [ERF]
+oder Direktsprung **[ERF]**
 
 Wie auch sonst in A.eins üblich, stellt sich das Bedienerwesen als hierarchisches System dar. Auf der untersten Stufe werden alle EDV-relevanten Mitarbeiter eingetragen. Stufe 2 der Hierarchie bilden die Bedienerklassen. Hier lassen sich Bediener mit gleichen Aufgabenbereichen zusammenfassen.
 

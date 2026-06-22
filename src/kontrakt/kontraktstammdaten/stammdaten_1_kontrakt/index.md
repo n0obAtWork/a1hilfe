@@ -32,7 +32,7 @@ Bei mehreren gezogenen Kontrakten innerhalb eines Beleges wird immer die Versand
 | Kontraktdatum | Kontrakterstellungsdatum, Abschlussdatum des Kontraktes, Tag des Abschlusses |
 | Laufzeit ab | Beginn der Gültigkeit |
 | Laufzeit bis | Dauer der Gültigkeit |
-| Laufzeit bis maximal | Maximale terminliche Überschreitung des Kontraktes, die Überschreitung in Tagen wird errechnet. Wenn keine Überschreitungsmöglichkeit besteht, wird mit Ablauf der Laufzeit der Kontrakt für Buchungen automatisch gesperrt. Mit Eingabe der Maximallaufzeit werden die zulässigen Übertage ausgewiesen. Mit CTRL+F1 kann auch direkt in das Übertagefeld gesprungen werden; aus dieser Eingabe wird dann das Datum zurückgerechnet.  
+| Laufzeit bis maximal | Maximale terminliche Überschreitung des Kontraktes, die Überschreitung in Tagen wird errechnet. Wenn keine Überschreitungsmöglichkeit besteht, wird mit Ablauf der Laufzeit der Kontrakt für Buchungen automatisch gesperrt. Mit Eingabe der Maximallaufzeit werden die zulässigen Übertage ausgewiesen. Mit **CTRL**+**F1** kann auch direkt in das Übertagefeld gesprungen werden; aus dieser Eingabe wird dann das Datum zurückgerechnet.  
 Innerhalb des Überschreitungszeitraumes bleiben die vereinbarten Bedingungen erhalten. |
 | Report Zuschlag | Auf den vereinbarten Kontraktpreis wird ein Zuschlag je Zeiteinheit in Tagen beginnend ab einem festzulegenden Datum erhoben. Der Kontraktpreis erhöht sich also rhythmisch um diesen Betrag. |
 | Überziehungszuschlag | Bei Überziehung des Kontraktes (s.o.) kann je Lieferung ein Überziehungszuschlag in Anrechnung gebracht werden. Dieser wird hier eingetragen. |

@@ -4,7 +4,7 @@
 
 PDF-Erzeugung wurde auf Version Dynaforms 4.0.77.288 aktualisiert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[34187]
 

@@ -4,7 +4,7 @@
 
 Wurde die Auswahlliste im Dialogmodus aufgerufen, so wurde die Breite immer auf die Gesamtbreite des Bildschirms festgelegt. Jetzt wird sie auf die A.eins Standard-Breite begrenzt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[33156]
 

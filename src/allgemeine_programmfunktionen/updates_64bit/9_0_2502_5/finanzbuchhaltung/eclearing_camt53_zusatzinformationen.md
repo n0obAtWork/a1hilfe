@@ -4,7 +4,7 @@
 
 Werden im eClearing [ECL] Informationen zu Gebühren der Transaktion mit in der CAMT53-Datei übermittelt, so werden diese informatorisch im Textteil mit angezeigt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 746620[37158]
 

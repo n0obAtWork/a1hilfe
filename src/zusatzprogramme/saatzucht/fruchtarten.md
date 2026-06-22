@@ -4,7 +4,7 @@
 
 Hauptmenü > Saatzucht > Fruchtarten
 
-Direktsprung [SGF]
+Direktsprung **[SGF]**
 
 In diesem Stammdatenpfleger werden die Daten über Fruchtarten gepflegt.
 
@@ -24,14 +24,14 @@ Es stehen folgende Eingabefelder und Eingabemöglichkeiten zur Verfügung.
  |
 | Art / Familie botanisch | **Die botanische Art / Familie Bezeichnung dieser Fruchtart kann hier eingetragen werden.**  
  |
-| Lizenz-Abrechnungsart | Mit F3 stehen folgende Auswahlmöglichkeiten zur Verfügung:  
+| Lizenz-Abrechnungsart | Mit **F3** stehen folgende Auswahlmöglichkeiten zur Verfügung:  
     
     
 • sortenspezifisch  
 • Betrag pro Anzahl Mengeneinheiten  
 • % vom Nettobetrag  
  |
-| Basis-Zuschlag-Abrechnungsart | Mit F3 stehen folgende Auswahlmöglichkeiten zur Verfügung:  
+| Basis-Zuschlag-Abrechnungsart | Mit **F3** stehen folgende Auswahlmöglichkeiten zur Verfügung:  
     
     
 • sortenspezifisch  
@@ -63,7 +63,7 @@ Auf dieser Registerkarte können Qualitätsmerkmale dieser Fruchtart gepflegt we
 
 | Name | Bedeutung |
 | --- | --- |
-| Merkmal | Mit der Taste F3 kann hier eine Auswahl aus den [Qualitätsmerkmalen](./qualitaetsmerkmale.md) abgerufen werden.  
+| Merkmal | Mit der Taste **F3** kann hier eine Auswahl aus den [Qualitätsmerkmalen](./qualitaetsmerkmale.md) abgerufen werden.  
  |
 
 Felder auf der Registerkarte Besatzarten
@@ -72,7 +72,7 @@ Auf dieser Registerkarte können Besatzarten zur Fruchtart gepflegt werden.
 
 | Name | Bedeutung |
 | --- | --- |
-| Besatzart | Mit der Taste F3 kann hier eine Auswahl aus den [Besatzarten](./besatzarten.md) abgerufen werden.  
+| Besatzart | Mit der Taste **F3** kann hier eine Auswahl aus den [Besatzarten](./besatzarten.md) abgerufen werden.  
  |
 
 Felder auf der Registerkarte BBCH
@@ -87,7 +87,7 @@ Auf dieser Registerkarte kann die BBCH-Codierung und Bezeichnung zur Fruchtart g
  |
 | Stadium 4 | Hier kann die BBCH-Codierung 4-stellig eingetragen werden. Mit dem Einrichterparameter „Anzeige Stadium 4-stellig“ kann festgelegt werden, ob dieses Feld angezeigt wird. Vorbelegung: **Nein**  
  |
-| Bezeichnung | Hier kann die Bezeichnung entsprechend der BBCH-Codierung eingetragen werden. Mit der Taste F3 kann hier eine Auswahl aus den bereits verwendeten Bezeichnungen abgerufen werden.  
+| Bezeichnung | Hier kann die Bezeichnung entsprechend der BBCH-Codierung eingetragen werden. Mit der Taste **F3** kann hier eine Auswahl aus den bereits verwendeten Bezeichnungen abgerufen werden.  
  |
 
 Felder auf der Registerkarte Artenverzeichnis

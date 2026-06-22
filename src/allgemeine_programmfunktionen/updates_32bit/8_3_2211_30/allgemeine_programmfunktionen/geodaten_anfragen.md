@@ -4,7 +4,7 @@
 
 Die Ermittlung von Geodaten wurde wiederhergestellt, nachdem der Webservice seine Abfragestrukturen geändert hat. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 716215[33091]
 

@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_gridstammdatenpflege.htm -->
 
-Direktsprung [GDS]
+Direktsprung **[GDS]**
 
 Der Gridstammpfleger dient zur Pflege des Aufbaus von Grids, also Datentabellen, die in A.eins verwendet werden. Griddefinitionen können auch Beschreibungsstrukturen für den externen Prozess sein.
 

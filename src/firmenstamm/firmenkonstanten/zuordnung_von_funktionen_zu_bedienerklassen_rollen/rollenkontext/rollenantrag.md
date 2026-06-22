@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Firmenkonstanten > Zugriffsrechte Rolle > Rollenantrag
 
-oder Direktsprung [ZUGA]
+oder Direktsprung **[ZUGA]**
 
 Innerhalb der [Rollenkontexte](./index.md) können Anträge auf Rollenänderungen gestellt werden.
 

@@ -4,7 +4,7 @@
 
 Die JPP-Methode Clickzeile aus CHelper wird jetzt auch von der Auswahlliste 2.0 unterstützt
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 740529[35948]
 

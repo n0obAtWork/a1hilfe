@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_stoffstrombilanzdaten.htm -->
 
-Übersicht
+<p class="just-emphasize">Übersicht</p>
 
 Das Lizenz-Modul zur Ermittlung von Stoffstrom-Bilanz-Daten ermöglicht die Erfassung, Verwaltung und Ausweisung von Daten zur Unterstützung bei der Informationsbeschaffung stoffstrombilanzpflichtiger Betriebe.  
 Das grundsätzliche Verfahren beruht darauf, zunächst jedem betroffenen Artikelstamm über seine [Zusammensetzung](../../artikelstamm_und_artikel/parameter_des_artikelstamms/zusammensetzung.md) die individuellen Stoffstrom-Komponenten zuzuordnen und dabei die jeweiligen Anteilwerte festzulegen. Alle zu verwendenden Stoffstrom-Komponenten sind dafür zunächst in die allgemeine Artikelbestandteil-Liste mit Angabe der Stoffstromart aufzunehmen (siehe [Bestandteile](../../artikelstamm_und_artikel/konstanten_der_artikelverwaltung/bestandteile.md)).  

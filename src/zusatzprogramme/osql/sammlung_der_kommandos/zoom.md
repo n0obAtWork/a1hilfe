@@ -30,7 +30,7 @@ Mit dem Befehl ZOOM wird die größe auf den Gesammtbildschirm ausgedehnt. Um wi
 
 zu gelagen führt man erneut ZOOM aus. Die Einstellung, die man über die Befehlszeile eingibt wird nicht gespeichert und
 
-OSQL startet immer wieder als kleine Dialogmaske. Will man OSQL immer im Vollbidlmodus starten, kann man unter Optionen F10
+OSQL startet immer wieder als kleine Dialogmaske. Will man OSQL immer im Vollbidlmodus starten, kann man unter Optionen **F10**
 
 die Einstellung "Vollbild" auf TRUE ändern.
 

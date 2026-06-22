@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Artikelstamm > Artikel > Duplizieren
 
-Direktsprung [AR]
+Direktsprung **[AR]**
 
 Mit der Funktion ***Duplizieren*** können die zu den in der Auswahlliste markierten Artikeln gehörenden Artikelstamm-Einträge mit dem jeweils ausgewählten oder allen zugehörigen Artikeln unter Vergabe einer neuen Artikelstammnummer dupliziert werden.
 

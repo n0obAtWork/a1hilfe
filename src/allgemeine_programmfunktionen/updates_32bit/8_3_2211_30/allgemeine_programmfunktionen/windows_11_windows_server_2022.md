@@ -4,7 +4,7 @@
 
 A.eins ist nun für Windows 11 freigegeben. A.eins ist nun für Windows Server 2022 freigegeben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 715832[33016]
 

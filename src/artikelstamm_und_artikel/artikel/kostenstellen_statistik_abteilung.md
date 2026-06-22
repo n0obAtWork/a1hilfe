@@ -8,7 +8,7 @@ Dem Artikel kann hier ein Statistik-Schlüssel, die Buchungsklasse, eine Abteilu
 
 Der Statistik-Schlüssel dient Auswertungszwecken. Z.Z. existiert keine Standard­aus­wertung, so dass ggf. eine private Variante zu gestalten ist.
 
-In Zusammenhang mit den Erlöskennziffern (die dem Artikel zugeordnet wurde) bewirkt die Buchungsklasse bei der Erlöskennziffernzuordnung [EKZZ] folgende Variations­mög­lichkeiten: Bei gleicher Erlöskennziffer werden die Erlöse in Abhängigkeit der Buchungsklasse unterschiedlichen Erlöskonten zugeordnet.
+In Zusammenhang mit den Erlöskennziffern (die dem Artikel zugeordnet wurde) bewirkt die Buchungsklasse bei der Erlöskennziffernzuordnung **[EKZZ]** folgende Variations­mög­lichkeiten: Bei gleicher Erlöskennziffer werden die Erlöse in Abhängigkeit der Buchungsklasse unterschiedlichen Erlöskonten zugeordnet.
 
 ![](../../ImagesExt/image8_127.jpg)
 

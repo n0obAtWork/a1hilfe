@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Konstanten Artikelstamm > Mengeneinheiten
 
-oder Direktsprung [ME]
+oder Direktsprung **[ME]**
 
 Mit der Mengeneinheit wird bestimmt, welche Mengengrundlage bei Einkauf, Verkauf, Lager, etc. zugrunde gelegt wird.
 

@@ -4,11 +4,11 @@
 
 Hauptmenü > Systempflege > Abstimmung > Warenreorganisation
 
-oder Direktsprung [WAREO]
+oder Direktsprung **[WAREO]**
 
 Die Funktionen aus dem Bereich WAREO sollen die Folgen außergewöhnlicher Zustände im Bereich der Warenwirtschaft prüfen und gegebenenfalls richtigstellen. Im Einzelnen können dies unkontrollierte Abbrüche, fehlerhafte Einrichtungen oder auch Fehlbedienungen sein.
 
-Veranlassung zum Ausführen eines solchen Reorganisationsvorganges kann zum Beispiel eine festgestellte Differenz im Bereich „Ware abstimmen [WABST]“ sein. Die Funktionen sollten grundsätzlich nur in Abstimmung mit den zuständigen Supportern verwendet werden. Besonders gilt dies für die Funktionen im unteren Bereich der Maske.
+Veranlassung zum Ausführen eines solchen Reorganisationsvorganges kann zum Beispiel eine festgestellte Differenz im Bereich „Ware abstimmen **[WABST]**“ sein. Die Funktionen sollten grundsätzlich nur in Abstimmung mit den zuständigen Supportern verwendet werden. Besonders gilt dies für die Funktionen im unteren Bereich der Maske.
 
 Im oberen Bereich des Bildschirmes wird der Fortschritt einer laufenden Aktion dargestellt, im unteren Bereich erfolgt die Funktionsauswahl.
 

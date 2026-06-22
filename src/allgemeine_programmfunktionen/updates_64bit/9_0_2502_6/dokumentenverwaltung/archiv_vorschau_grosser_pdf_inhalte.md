@@ -4,7 +4,7 @@
 
 Die Anzeige großer Pdf-Dateien aus dem Archiv heraus ist ermöglicht worden. Das Phänomen das "Nichts" angezeigt wird soll nicht mehr auftreten. Es lässt sich auch kein konkreter Wert angeben, ab dem die beteiligten Systeme der Meinung sind so zu reagieren. Im Internet lassen sich Größenordnungen zwischen 1 und 2 MB recherchieren, die Werte sind Browser- und Versionsabhängig.Betroffen waren Kunden die "große" Pdf-Inhalte per Import-Verfahren integriert haben. Beispiele wären Drag&Drop von Pdf-Dateien, oder auch Scanner-Importe mit Grafiken in hoher Auflösung.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 750526[38257]
 

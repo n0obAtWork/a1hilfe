@@ -4,7 +4,7 @@
 
 In der Inventuraufnahme [IVA] wurde eine irritierende Fehlermeldung ausgegeben, wenn der ausgewählte Artikel nicht die richtige Inventurgruppe hatte. Stattdessen kommt nun eine Warnung, dass der ausgewählte Artikel nicht zur Inventurgruppe passt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 730470[34735]
 

@@ -4,7 +4,7 @@
 
 Bei der Neuanlage eines Geschäftsjahres [JAHR], in dem mehr als 12 Normalperioden verwendet werden, wird der Datumsbereich für die zusätzlichen Perioden mit dem Jahresenddatum und der Text mit "man.Abschluss" vorbelegt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 717508[33291]
 

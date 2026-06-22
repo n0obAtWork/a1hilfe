@@ -6,11 +6,11 @@ Für Archivanwendungen steht die Funktion „Vorbelegung“ zur Verfügung. Wäh
 
 ![](../../../ImagesExt/image8_1322.png)
 
-Dort werden die selbst definierten Vorbelegungen angezeigt. Diese Vorbelegungen überschreiben ggf. die von AMIC vorgegebenen Werte. Um eine Vorbelegung zu ändern, klickt man in die Zeile, um eine neue Vorbelegung anzulegen, klickt man auf „(Neu)“. In dem sich dort öffnenden Dialog kann man folgende Werte eingeben:
+Dort werden die selbst definierten Vorbelegungen angezeigt. Diese Vorbelegungen überschreiben ggf. die von AMIC vorgegebenen Werte. Um eine Vorbelegung zu ändern, klickt man in die Zeile, um eine neue Vorbelegung anzulegen, klickt man auf „***(Neu)***“. In dem sich dort öffnenden Dialog kann man folgende Werte eingeben:
 
 | | **Bedeutung** |
 | --- | --- |
-| Feld | Name des Feldes, welches vorbelegt werden kann. Eine Auswahl ist mit F3 möglich.  
+| Feld | Name des Feldes, welches vorbelegt werden kann. Eine Auswahl ist mit ***F3*** möglich.  
  |
 | Aktiv | Wenn ein Feld momentan nicht verwendet werden soll, aber die Arbeit, die in die Formulierung gesteckt wurde, nicht über den Haufen geworfen werden soll, so kann man hier die Vorbelegung für das Feld einfach deaktivieren. Sie wird dann komplett ignoriert.  
  |

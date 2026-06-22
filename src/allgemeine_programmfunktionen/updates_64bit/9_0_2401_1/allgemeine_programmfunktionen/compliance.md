@@ -4,7 +4,7 @@
 
 Der Abruf der terrorgefährdeten Personen über den Compliance-Automat wurde verbessert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 727888[34423]
 

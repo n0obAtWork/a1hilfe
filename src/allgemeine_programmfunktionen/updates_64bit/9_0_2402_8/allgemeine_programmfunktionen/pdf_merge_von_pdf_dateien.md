@@ -4,7 +4,7 @@
 
 Es wurde das Problem behoben das beim Merge von PDF-Dateien im Archiv leere Seiten generiert wurden.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 740832[36109]
 

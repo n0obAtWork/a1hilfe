@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Konstanten Artikelstamm > Ladegruppen
 
-oder Direktsprung [LDG]
+oder Direktsprung **[LDG]**
 
 Jedem Artikel kann eine Ladegruppe im Einkauf sowie im Verkauf zugeordnet werden.
 

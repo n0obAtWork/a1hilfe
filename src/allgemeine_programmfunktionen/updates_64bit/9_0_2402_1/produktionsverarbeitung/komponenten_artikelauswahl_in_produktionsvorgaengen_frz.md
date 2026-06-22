@@ -4,7 +4,7 @@
 
 In der Anwendung Formularzuordnung/Vorgangsunterklasse [FRZ] für Produktionsvorgänge optional eingetragenen Itemboxen (F3-Auswahl) für Komponenten-Zugangs- und -Abgangsartikel wurden bei der Erfassung und Bearbeitung von Produktionsvorgängen nicht immer zur Artikelauswahl herangezogen. Die Ursache für dieses Verhalten wurde nun lokalisiert und behoben. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 734771[35291]
 

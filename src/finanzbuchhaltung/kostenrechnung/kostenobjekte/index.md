@@ -40,11 +40,11 @@ Für Kostenobjekte wird eine Lizenz benötigt.
 
 | **Funktion** | |
 | --- | --- |
-| Ändern (F5) | Ändern des Kostenobjektes.  
+| Ändern **(F5)** | Ändern des Kostenobjektes.  
  |
-| Ansehen (F6) | Ansehen des Kostenobjektes.  
+| Ansehen **(F6)** | Ansehen des Kostenobjektes.  
  |
-| Löschen (F7) | Mit der Löschen\-Funktion werden Kostenobjekte nicht physikalisch gelöscht, sondern sie werden mit einem Löschkennzeichen versehen. Gelöschte Kostenobjekte sind für weitere Belegerfassungen gesperrt bis sie wiederhergestellt werden.  
+| Löschen **(F7)** | Mit der ***Löschen***\-Funktion werden Kostenobjekte nicht physikalisch gelöscht, sondern sie werden mit einem Löschkennzeichen versehen. Gelöschte Kostenobjekte sind für weitere Belegerfassungen gesperrt bis sie wiederhergestellt werden.  
 Alle gelöschten Kostenobjekte werden in der 2.Variante „Gelöschte Kostenobjekte“ angezeigt.  
 Bedingung: Bevor ein Kostenobjekt gelöscht werden kann, wird überprüft, ob dieses noch verwendet wird. Solange Einträge des Kostenobjektes in den folgenden Punkten vorhanden sind, kann die Löschung nicht erfolgen:  
 • [Sachkontenstamm](../../stammdaten_der_fibu/sachkonten.md)  
@@ -55,10 +55,10 @@ Bedingung: Bevor ein Kostenobjekt gelöscht werden kann, wird überprüft, ob di
 • [Kostenobjektgruppen](../kostenobjektgruppe.md)  
 Bei bereits bebuchten Kostenobjekten erscheint ein Hinweis mit Abfrage, ob tatsächlich gelöscht werden soll.  
  |
-| Wiederherstellen (F7) | Beim Wiederherstellen eines gelöschten Kostenobjektes wird sein Löschkennzeichen entfernt und es kann wieder in der Belegerfassung verwendet werden.  
+| Wiederherstellen **(F7)** | Beim Wiederherstellen eines gelöschten Kostenobjektes wird sein Löschkennzeichen entfernt und es kann wieder in der Belegerfassung verwendet werden.  
 Das wiederhergestellte Kostenobjekt wird in der 1.Variante „Kostenobjekte“ angezeigt.  
  |
-| Neu (F8) | Anlage eines neuen Kostenobjektes.  
+| Neu **(F8)** | Anlage eines neuen Kostenobjektes.  
  |
 
 <p class="siehe-auch">Siehe auch:</p>

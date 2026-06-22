@@ -14,7 +14,7 @@
 Bei Windows-Druck die Bezeichnung der Druckerwarteschlange.  
 Im Windows-System zu finden unter *Systemsteuerung\\Hardware und Sound\\Geräte und Drucker **bzw. Funktion „Druckerdialog“***  
 Mit [F3] können Sie einen Drucker auswählen. |
-| Druckertyp | Auswahl mit F3 aus vorher eingerichteten Druckern (Nadel, Laser usw.), Direktsprung [DRT] |
+| Druckertyp | Auswahl mit **F3** aus vorher eingerichteten Druckern (Nadel, Laser usw.), Direktsprung **[DRT]** |
 | Einzelblatteinz | 0: Fortlaufender Druck  
 1: anhalten bei Blattwechsel  
 2: anhalten und Meldung |

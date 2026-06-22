@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Steuerung > EPAs zeigen
 
-oder Direktsprung [EPAZ]
+oder Direktsprung **[EPAZ]**
 
 Aufgabe dieses Pflegers ist es, an zentraler Stelle die bedienerklassenabhängigen EPA-Einstellungen komfortabel und übersichtlich zu administrieren. Bisher war es nur möglich, die EPAs für Bediener derselben Bedienerklasse zu setzen, mit der man sich angemeldet hat. Um die EPAs für jede Bedienerklasse explizit abweichend von der AMIC-Vorbelegung zu setzen, musste man sich als Bediener der Bedienerklasse anmelden, für die man den EPA umsetzen wollte. Außerdem war dieses Umsetzen auch nur direkt auf der Maske möglich.
 

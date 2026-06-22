@@ -4,7 +4,7 @@
 
 Es ist jetzt auch möglich, bei der Maskensteuerung durch den Anwender bei Masken mit Stammdateninterface auch eine Prüfung einzubauen, ob überhaupt gespeichert werden darf. Dies auszuführende Funktion trägt man unter "OnSaveValid" im Dialog für die Tabulatoren-Reihenfolge ein. HINWEIS: Bei Pflegern, die bereits in der Valid speichern ist ein Abbruch nicht mehr möglich
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[37364]
 

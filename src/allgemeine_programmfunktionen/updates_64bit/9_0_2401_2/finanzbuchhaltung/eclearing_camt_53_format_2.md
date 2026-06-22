@@ -4,7 +4,7 @@
 
 In der Anwendung eClearing [ECL] kann die Funktion "Datei laden" aufgerufen werden. CAMT-Dateien werden in einem komprimierten Zip-Archiv geliefert und können mehrere Dateien enthalten. Beim Import wurde fälschlicherweise nur die erste dieser Dateien verarbeitet. Dies wurde nun korrigiert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 733664[35082]
 

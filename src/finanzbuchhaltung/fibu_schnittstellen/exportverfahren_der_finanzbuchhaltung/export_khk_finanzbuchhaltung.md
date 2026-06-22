@@ -4,7 +4,7 @@
 
 Hauptmenü > Abschlussarbeiten > DATEV / Import / Export > Export > Variante Belegexport KHK Finanzbuchhaltung
 
-Direktsprung [FIEX]
+Direktsprung **[FIEX]**
 
 Dem Export von Belegen aus der A.eins-Finanzbuchhaltung in die KHK-Finanzbuchhaltung liegen vier Datenbankprozeduren zugrunde, die die Daten in der Form bereitstellt, in der sie von der Importschnittstelle der KHK-Finanzbuchhaltung erwartet werden. Dies hat den Vorteil, dass Änderungen kurzfristig nachgearbeitet werden können. Es handelt sich hier um einen Belegexport (also nicht nur OPs) und um einen Export der geänderten bzw. neu angelegten Personenkonten. Beim Belegexport werden alle Belege aus der Warenwirtschaft ( Einkaufsrechnungen, Einkaufsgutschriften, Stornorechnungen, Ausgangsrechnungen, Ausgangsgutschriften, Rohwarenzu- und Abgang), die bereits in die Fibu übertragen und gebucht worden sind in eine Daten „Export.DIF“ geschrieben.
 

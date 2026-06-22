@@ -28,7 +28,7 @@ Folgende Registerkarten stehen für die Einstellungen zur Verfügung.
 
 [Buttons](./index.md#registerButtons)
 
-Registerkarte Allgemein ![](../../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">Registerkarte Allgemein ![](../../../ImagesExt/image8_1357.png)</p>
 
 Hier können allgemeine Einstellungen der Streckenerfassung definiert werden.
 
@@ -84,7 +84,7 @@ Sind keine Klasse eingetragen, werden alle Klassen mit einbezogen. |
 | Umbuchung anzeigen | Hiermit kann eingestellt werden, ob Umbuchungen angezeigt werden sollen. |
 | [Positionsbeziehungsübersicht](../positionsbeziehungsuebersicht.md) | Hiermit kann eingestellt werden, ob die Positionsbeziehungsübersicht aktiviert ist. |
 
-Registerkarte Allgemein 2 ![](../../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">Registerkarte Allgemein 2 ![](../../../ImagesExt/image8_1357.png)</p>
 
 Hier können weitere allgemeine Einstellungen vorgenommen werden.
 
@@ -150,7 +150,7 @@ Neben den „Ausführungsfeldern“ wird die Prozedur auch beim ersten Betreten 
 
 Weitere Informationen und Beispiele befinden sich im Kapitel „[Vorbelegung](./vorbelegung.md)“.
 
-Registerkarte Griddefinition ![](../../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">Registerkarte Griddefinition ![](../../../ImagesExt/image8_1357.png)</p>
 
 Auf dieser Registerkarte können Einstellungen für die Grids in der Streckenerfassungsmaske vorgenommen werden. Dadurch kann z.B. die Zeilenanzahl, die Vorbelegung und weitere Einstellungen für die einzelnen Grids definiert werden.
 
@@ -175,7 +175,7 @@ call_streckenkalkulation AnwendungID Variantenname Profilname
 
 Diese Funktion wird dann mit in die Menüs der Streckenerfassung eingetragen.
 
-Registerkarte Auswertungen ![](../../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">Registerkarte Auswertungen ![](../../../ImagesExt/image8_1357.png)</p>
 
 Die Registerkarten für den AMIC Etikettendruck und „Crystal Reports“ sind der Registerkarte „Auswertungen“ gewichen. Statt wie bisher eine feste Anzahl von Auswertungen zu haben, können nun unterschiedlich viele Reports für die einzelnen Bereiche hinterlegt werden.
 
@@ -200,7 +200,7 @@ Beim Anlegen einer neuen Auswertung, wird die neue Funktion automatisch dem Unte
 | Druckerbezeichnung | |
 | Anzahl | |
 
-Registerkarte Kontrakte ![](../../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">Registerkarte Kontrakte ![](../../../ImagesExt/image8_1357.png)</p>
 
 Auf dieser Registerkarte können die Voreinstellungen für Kontrakte vorgenommen werden.
 
@@ -219,7 +219,7 @@ Auf dieser Registerkarte können die Voreinstellungen für Kontrakte vorgenommen
 Dafür muss das „[UFLD-Feld](./index.md#registerbenutzerfelder)“ für die [Währung (1453)](./ufld_feldliste.md#verwendbareUFLDFelder) angezeigt werden. |
 | Immer vor Laufzeit buchen | Hier kann eingestellt werden, dass ein Kontrakt auch vor der Laufzeit gebucht werden kann, unabhängig vom Steuerparameter [150](../../../firmenstamm/steuerparameter/kontraktwesen/vor_anfang_der_laufzeit_bebuchbar_spa_150.md). |
 
-Registerkarte Kopiervorlagen ![](../../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">Registerkarte Kopiervorlagen ![](../../../ImagesExt/image8_1357.png)</p>
 
 Auf der Registerkarte „Kopiervorlagen“ lassen sich Vorlagen zum Kopieren einzelner oder mehrerer Spalten definieren. Dabei können Spalten von einer Datentabelle in eine andere oder in die gleiche Datentabelle kopiert werden.
 
@@ -238,7 +238,7 @@ Drei weitere Grids geben die Möglichkeit zur Eingabe von
 
 • Zu kopierende AddOn-Felder, die in beiden Grids zur Verfügung stehen
 
-Registerkarte Benutzerfelder ![](../../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">Registerkarte Benutzerfelder ![](../../../ImagesExt/image8_1357.png)</p>
 
 Auf dieser Registerkarte stehen drei Grids zur Verfügung um für jedes der drei Grids dynamisch UFLD-Felder anzulegen. Für die UFLD-Felder mit einer Itembox werden in der Streckenerfassungsmaske Bezeichnerfelder hinzugefügt.
 
@@ -252,7 +252,7 @@ Hierfür stehen auf jedem der Grids folgende Felder zur Verfügung.
 
 Damit die Daten auch in der Streckenerfassungsmaske geladen werden muss die Ladeprozedur des Profils angepasst werden. Die bisher verwendbaren UFDL-Felder stehen in der Liste „[Streckenerfassung UFLD-Feldliste](./ufld_feldliste.md)“.
 
-Registerkarte Addonfelder ![](../../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">Registerkarte Addonfelder ![](../../../ImagesExt/image8_1357.png)</p>
 
 | Feld | Beschreibung |
 | --- | --- |
@@ -264,7 +264,7 @@ Weitere Informationen für die Felder können in den Tabellenaddons für die Tab
 | Herkunftsdaten-View (Grid 2) | Siehe „Herkunftsdaten-View (Grid 1)“ |
 | Herkunftsdaten-View (Grid 3) | Siehe „Herkunftsdaten-View (Grid 1)“ |
 
-Registerkarte Buttons ![](../../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">Registerkarte Buttons ![](../../../ImagesExt/image8_1357.png)</p>
 
 Auf dieser Registerkarte kann eingestellt werden, welche Buttons ausgeblendet werden soll.
 

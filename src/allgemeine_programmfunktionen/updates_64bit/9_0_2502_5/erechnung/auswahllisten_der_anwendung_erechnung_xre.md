@@ -4,7 +4,7 @@
 
 Die Performance im Aufbau der Auswahllisten in der Anwendung eRechnung [XRE] wurde durch Überarbeitung des Datenbankschemas (Indizes) optimiert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 747987[37471]
 

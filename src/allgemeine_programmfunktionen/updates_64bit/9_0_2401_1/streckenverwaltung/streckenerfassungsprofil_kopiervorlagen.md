@@ -4,7 +4,7 @@
 
 In den Streckenerfassungsprofilen können nun neben Vorgangsfeldern auch Warenbewegungsaddon- und UFLD-Felder in der Kopiervorlage definiert werden.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 726427[34181]
 

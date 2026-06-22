@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Steuerung > Steuerparameter zeigen
 
-oder Direktsprung [SPA]
+oder Direktsprung **[SPA]**
 
 Nachfolgend die Beschreibung für SPA-Einstellung 1 bis 62:
 

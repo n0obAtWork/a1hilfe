@@ -4,7 +4,7 @@
 
 Die Datumsfelder für die Kontraktgültigkeit waren nach einer Änderung der Maske zu hoch auf der Registerkarte Konditionen dargestellt worden (falls dies im EPA so eingerichtet ist). Dies wurde korrigiert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 717055[33217]
 

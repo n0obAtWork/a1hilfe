@@ -4,7 +4,7 @@
 
 Preise / Konditionen > Konstanten der Preispflege > Preilistenbezeichnungen
 
-Oder Direktsprung [PRLB]
+Oder Direktsprung **[PRLB]**
 
 Artikel zu einer [Listenpreisgruppe](./preisgruppe_fuer_listenpreise.md) können mehrere Listenpreise haben, die durch Listenpreisdefinitionen zu unterscheiden sind. Verschiedene Listenpreise werden mittels der [Preismatrix](./preismatrix_fuer_listenpreise.md) des Artikels und den [Preisklasse](./preisklasse_fuer_listenpreise.md) Gruppen von Kunden oder Lieferanten zugeordnet.  
     

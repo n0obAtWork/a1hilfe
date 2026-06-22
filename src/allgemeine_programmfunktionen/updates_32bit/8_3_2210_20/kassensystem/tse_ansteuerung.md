@@ -4,7 +4,7 @@
 
 Die Ansteuerung der TSE zur Zeit-Setzung und des inaktiven CTSS-Interface wurde überarbeitet. (Code: 4098, 4180) 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 714192[32886]
 

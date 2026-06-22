@@ -4,7 +4,7 @@
 
 Hauptmenü > Wareneinkauf > Nachhaltigkeit > Nachhaltigkeitswerte
 
-Direktsprung [NAWER]
+Direktsprung **[NAWER]**
 
 Faktor
 

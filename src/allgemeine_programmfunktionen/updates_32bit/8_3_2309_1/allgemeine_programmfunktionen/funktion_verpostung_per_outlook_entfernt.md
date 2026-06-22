@@ -4,7 +4,7 @@
 
 Die Funktion "Verpostung per Outlook" stand in der Rechnungsbearbeitung [REB] zur Verfügung. Diese Funktion wurde abgekündigt und in diesem Release aus A.eins entfernt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 724679[33976]
 

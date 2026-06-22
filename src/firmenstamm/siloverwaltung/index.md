@@ -4,7 +4,7 @@
 
 Hauptmenü > Nebenbuchhaltungen > Siloverwaltung > Silo
 
-Direktsprung [SILO]
+Direktsprung **[SILO]**
 
 Die Siloverwaltung wurde als Spezialfall des Lagerverwaltungssystems entwickelt. Die Ladeträger entsprechen dabei den Silos.
 

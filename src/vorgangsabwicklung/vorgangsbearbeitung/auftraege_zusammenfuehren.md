@@ -4,7 +4,7 @@
 
 Hauptmenü \> Warenverkauf > Auftrag > Auftragsbearbeitung
 
-oder Direktsprung **[AUB]**
+oder Direktsprung ****[AUB]****
 
 Die Freischaltung dieser Spezialfunktion unterliegt dem [Steuerparameter „723 – Aufträge zusammenführen erlauben?“](../../firmenstamm/steuerparameter/vorgangsbearbeitung_warenposition/auftragszusammenfuehrungen_erlauben_spa_723.md).
 
@@ -36,11 +36,11 @@ Das Abgangslager legt fest, aus welchem Lager die bestellten Artikel kommen soll
 
 Die Funktionen in der Übersicht:
 
-• Starten F9 startet den Vorgang der Zusammenführung der ausgewählten Vorgänge
+• ***Starten*** **F9** startet den Vorgang der Zusammenführung der ausgewählten Vorgänge
 
-• Einrichtungsparameter (folg)
+• ***Einrichtungsparameter*** (folg)
 
-• Dieses Menü – wird unter diesem [Link](../../allgemeine_programmfunktionen/generelle_programmbedienung/dieses_menue/index.md) genauer beschrieben
+• ***Dieses Menü*** – wird unter diesem [Link](../../allgemeine_programmfunktionen/generelle_programmbedienung/dieses_menue/index.md) genauer beschrieben
 
 Auf dem Reiter „Aufträge“ ist eine Übersicht der ausgewählten Aufträge zu sehen und gliedert sich wie folgt:
 
@@ -84,7 +84,7 @@ Auf dem Reiter „Zusammengeführt“ werden die markierten Aufträge bereits zu
 | Menge | Die Gesamtmenge des Artikels aus den Aufträgen des Kunden |
 | Kundid | Kunden ID |
 
-Nach Prüfung der ausgewählten Aufträge über die o.g. Reiter können die Aufträge nun über die Funktion Starten F9 zusammengefasst werden.
+Nach Prüfung der ausgewählten Aufträge über die o.g. Reiter können die Aufträge nun über die Funktion ***Starten*** **F9** zusammengefasst werden.
 
 Hierbei werden neue Vorgänge angelegt. Diese erhalten eine neue Vorgangs-ID. Die alten Aufträge werden aus dem System entfernt und sind somit nicht mehr vorhanden, sodass es nicht zu Doppelvorgängen kommt. Zu beachten ist, dass Vorgänge, welche nicht zusammengefasst werden natürlich keiner Veränderung bedürfen und keine neue Vorgangs-ID erhalten.
 

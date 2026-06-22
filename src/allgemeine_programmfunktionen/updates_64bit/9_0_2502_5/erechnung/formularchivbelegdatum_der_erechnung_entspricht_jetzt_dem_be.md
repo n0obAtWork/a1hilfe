@@ -4,7 +4,7 @@
 
 Das Belegdatum des eRechnung-Xml im Formulararchiv entspricht nun dem Datum des Vorgangs.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 746506[36956]
 

@@ -36,7 +36,7 @@ Stammdaten für ELSTER
 
 Die Ermittlung der Werte für die Umsatzsteuervoranmeldung mit ELSTER erfolgt wie bereits für das Umsatzsteuervoranmeldungsformular über die im Steuersatz eingerichteten [Auswertungspositionen](./steuersaetze_einrichten/stammdaten_auswertungspositionen.md).
 
-Zusätzlich sind Stammdaten im Mandantenstamm zu beachten. Dort gibt es ein neues Feld „Finanzamt-Nummer“. Hier ist die Nummer ihres Finanzamtes einzutragen. Eine aktuelle Liste der Finanzämter und ihrer zugehörigen Nummern kann über **F3** abgerufen werden. In dem übermittelten Datensatz kann ein Berater mit angegeben werden. Dieser wir im Mandantenstamm unter der Adresse „Ansprechpartner ZM/UVA“ gepflegt.
+Zusätzlich sind Stammdaten im Mandantenstamm zu beachten. Dort gibt es ein neues Feld „Finanzamt-Nummer“. Hier ist die Nummer ihres Finanzamtes einzutragen. Eine aktuelle Liste der Finanzämter und ihrer zugehörigen Nummern kann über **F3** abgerufen werden. In dem übermittelten Datensatz kann ein Berater mit angegeben werden. Dieser wir im Mandantenstamm unter der Adresse „***Ansprechpartner ZM/UVA***“ gepflegt.
 
 ELSTER-Optionen
 
@@ -111,7 +111,7 @@ Hauptmenü > Abschlussarbeiten > Umsatzsteuer > Umsatzsteuerwerte
 
 Direktsprung **[UVA]**
 
-Das Modul befindet sich – wie das zugelassene Formular – unter dem Programmpunkt Umsatzsteuerwerte. Die Funktion „USTVA via Elster“ kann nicht von mehreren Plätzen gleichzeitig aufgerufen werden. Nach Auswahl dieser Funktion erscheint folgender Bildschirm.
+Das Modul befindet sich – wie das zugelassene Formular – unter dem Programmpunkt Umsatzsteuerwerte. Die Funktion „***USTVA via Elster***“ kann nicht von mehreren Plätzen gleichzeitig aufgerufen werden. Nach Auswahl dieser Funktion erscheint folgender Bildschirm.
 
 ![Ein Bild, das Text, Screenshot, Software, Webseite enthält. KI-generierte Inhalte können fehlerhaft sein.](../../ImagesExt/image8_586.png "Ein Bild, das Text, Screenshot, Software, Webseite enthält. KI-generierte Inhalte können fehlerhaft sein.")
 

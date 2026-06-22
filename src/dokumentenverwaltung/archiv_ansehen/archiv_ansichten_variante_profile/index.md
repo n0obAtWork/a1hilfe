@@ -4,11 +4,11 @@
 
 Dokumentenverwaltung > Dokumentenverwaltung > Ansichten > Archiv – Profile
 
-Direktsprung [FAA]
+Direktsprung **[FAA]**
 
 Dokumentenverwaltung > Dokumentenverwaltung > Einrichtung Archiv-Profile > Archiv-Profile
 
-Direktsprung [ARPRO]
+Direktsprung **[ARPRO]**
 
 Hier werden die Archiv-Profile der Dokumentenverwaltung gepflegt. Die Archiv-Profile steuern zunächst vornehmlich im Belegfluss Filter, Funktionen, Direktsprung und weitere Parameter.
 

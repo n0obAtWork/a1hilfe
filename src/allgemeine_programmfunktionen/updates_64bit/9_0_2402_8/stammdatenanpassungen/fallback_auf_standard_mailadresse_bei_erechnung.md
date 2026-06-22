@@ -4,7 +4,7 @@
 
 Emailadresse aus dem Anschriftenstamm wird als Rückfall gezogen, sollte das Email Feld "KundElectronicAdress" des XRE Reiters im Kunden nicht gefüllt sein.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 740566[36059]
 

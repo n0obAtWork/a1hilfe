@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Archiv > Mime
 
-Direktsprung [MIME]
+Direktsprung **[MIME]**
 
 In dieser Variante werden die verwendbaren Mimetypen aufgelistet. Diese Mimetypen werden mit dem Update von A.eins ausgeliefert.
 

@@ -4,7 +4,7 @@
 
 Hauptmenü > Kontraktverwaltung > Kontraktklassen
 
-oder Direktsprung [KTKL]
+oder Direktsprung **[KTKL]**
 
 Kontraktklassen werden bei der Neuerfassung eines Kontraktes angegeben.
 

@@ -4,11 +4,11 @@
 
 Hauptmenü > Administration > Makroverarbeitung > Scripting
 
-Direktsprung [VBA]
+Direktsprung **[VBA]**
 
-In der Variante „Scripte“ werden die VBA-Scripte von A.eins gepflegt.
+**In der Variante „Scripte“ werden die VBA-Scripte von A.eins gepflegt.**
 
-Scripte deren Namen mit „AMIC“ anfangen werden ausgeliefert.
+**Scripte deren Namen mit „AMIC“ anfangen werden ausgeliefert.**
 
 | Felder | |
 | --- | --- |
@@ -30,7 +30,7 @@ Name, Thema und dem VBA-Script-Text. |
 | Funktionen | |
 | --- | --- |
 | ***Filter / bereichsauswahl***  
-F2 | |
+***F2*** | |
 | ***Duplizieren***  
 **Shift + F10** | Bietet die Möglichkeit ein Duplikat des Scriptes anzulegen. |
 | ***Export*** | Exportiert ein Script |

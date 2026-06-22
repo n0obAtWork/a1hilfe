@@ -4,7 +4,7 @@
 
 Hauptmenü > Saatzucht > Saatgutabwicklung > Saatgutetiketten
 
-oder Direktsprung [SAATE]
+oder Direktsprung **[SAATE]**
 
 | Felder |
 | --- |

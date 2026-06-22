@@ -4,9 +4,9 @@
 
 Hauptmenü > Inventur > Inventuraufnahme
 
-Direktsprung [IVA]
+Direktsprung **[IVA]**
 
-Erfassung
+<p class="just-emphasize">Erfassung</p>
 
 Zunächst wird per Stichtag und Inventurgruppe der zugehörige Inventurstamm bestimmt.
 
@@ -32,11 +32,11 @@ Preis - Mengeneinheit angegeben werden.
 
 Grundsätzlich können Inventurpositionen nicht gelöscht werden. Es kann jedoch ein Löschkennzeichen gesetzt werden. Die Position ist dann als nicht gültig gekennzeichnet.
 
-Die Eingabe einer Aufnahmemenge 0 und einer Minusmenge ist möglich. Zugelassen wird diese Eingabe aber nur durch Freischaltung eines Steuerparameters [SPA] „Nullmenge bei Inventur zulässig“.
+Die Eingabe einer Aufnahmemenge 0 und einer Minusmenge ist möglich. Zugelassen wird diese Eingabe aber nur durch Freischaltung eines Steuerparameters **[SPA]** „Nullmenge bei Inventur zulässig“.
 
 Zusätzlich wird ein Kennzeichen für die Art der Inventurbewertung geführt. Es kennzeichnet, ob Bewertungen manuell oder automatisch erfolgt sind. Bei der Inventuraufnahme erfasste Bewertungen gelten als manuell bewertet.
 
-Ist die Aufnahme eines Beleges beendet, kann entweder ein neuer Beleg begonnen werden, eine neue Inventurgruppe und- / oder Stichtag gewählt werden, oder ein bereits zuvor erfasster Beleg zum aktuellen Inventurstamm um weitere Positionen ergänzt werden (siehe Funktionen F9, SF9, CF9, SF8).
+Ist die Aufnahme eines Beleges beendet, kann entweder ein neuer Beleg begonnen werden, eine neue Inventurgruppe und- / oder Stichtag gewählt werden, oder ein bereits zuvor erfasster Beleg zum aktuellen Inventurstamm um weitere Positionen ergänzt werden (siehe Funktionen **F9**, **SF9**, **CF9**, **SF8**).
 
 Die zuletzt erfassten 8 Positionen eines Beleges werden nach Speicherung der Position im oberen Maskenteil zur Kontrolle angezeigt. 
 
@@ -46,7 +46,7 @@ Es besteht die Möglichkeit einem Inventurbeleg ein Silo / Ladeträger zuzuordne
 
 **Die Erfassung des Silo / Ladeträgers ist nur informativ, bewirkt keine Änderungen an den Silobeständen und wird nicht im Standard ausgewertet**.
 
-Erfassungsprotokoll (F9)
+<p class="just-emphasize">Erfassungsprotokoll (F9)</p>
 
 Über den Stand der Erfassung kann ein Erfassungsprotokoll ausgedruckt werden:
 
@@ -54,7 +54,7 @@ Erfassungsprotokoll (F9)
 
 ![](../../ImagesExt/image8_807.jpg)
 
-Einzelkorrektur
+<p class="just-emphasize">Einzelkorrektur</p>
 
 Die in der Auswahlliste markierten Positionen (bzw. alle, wenn keine markiert sind) können im Korrekturmodus bearbeitet werden. Durch Blättern wird dabei von Position zu Position gewechselt.
 

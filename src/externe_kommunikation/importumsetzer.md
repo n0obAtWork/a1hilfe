@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_importumsetzer.htm -->
 
-Hauptmenü > Externe Kommunikation > Stammdatenimport > Importumsetzer [IMPUM]  
+Hauptmenü > Externe Kommunikation > Stammdatenimport > Importumsetzer [**IMPUM**]  
     
 
 Mit dem Importumsetzer können Kennzeichen von einem Fremdsystem wie z.B. Terres bequem auf A.eins Kennzeichen umgeschlüsselt werden. Dies gilt natürlch auch in die andere Richtung.
@@ -28,7 +28,7 @@ Maske
 
 Besondere Funktionen
 
-Im Änderfall steht die Funktion Alle Ändern [F5] zur Verfügung, wenn in der Auswahlliste mehr als ein Datensatz markiert worden ist. Dies bedeutet, falls die Änderung gemacht wird, wird dies für alle Datenstätze mitübernommen werden. Des Weiteren kann mit Speichern unter… [SF9] eine neue Umsetzung angelegt werden.
+Im Änderfall steht die Funktion ***Alle Ändern*** [**F5**] zur Verfügung, wenn in der Auswahlliste mehr als ein Datensatz markiert worden ist. Dies bedeutet, falls die Änderung gemacht wird, wird dies für alle Datenstätze mitübernommen werden. Des Weiteren kann mit ***Speichern unter…*** [**SF9**] eine neue Umsetzung angelegt werden.
 
 Im Löschenfall steht die Löschfunktion ***Alle Lösche [SF7]*** zur Verfügung, wenn in der Auswahlliste mehr als ein Datensatz markiert worden ist. Damit werden alle ausgewählten Datensätze gelöscht.
 
@@ -44,7 +44,7 @@ Variante Import-Umsetzer Itemboxzuordnung
 
 In dieser Variante wird die Steuerung für die Tabellarische(-änderung) eingestellt**.** Mit dieser Funktion können Massendaten einfach umgeschlüsselt werden. Für die Datenaufbereitung wird eine Private Prozedur benötigt.
 
-Mit Neu [F8] wird ein neuer Eintrag angelegt.
+Mit ***Neu*** [**F8**] wird ein neuer Eintrag angelegt.
 
 | ![\*](../ImagesExt/image8_1557.jpg "*") Maskenfeld | ![\*](../ImagesExt/image8_1557.jpg "*") Bedeutung | ![\*](../ImagesExt/image8_1557.jpg "*") Beispiel |
 | --- | --- | --- |

@@ -4,7 +4,7 @@
 
 Der Druck von Textzeilen erfolgt nun seitengerecht.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 712500[32927]
 

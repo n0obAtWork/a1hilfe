@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_SPA_251.htm -->
 
-Dieser Steuerparameter entscheidet, ob ein Auftrag mit mehreren Warenpositionen beim Speichern automatisch in weitere Aufträge aufgesplittet wird. Hierbei wird pro Warenposition ein Auftrag erzeugt. Die Einstellung kann über [FRZ] für die einzelnen Unterklassen überschrieben werden.
+Dieser Steuerparameter entscheidet, ob ein Auftrag mit mehreren Warenpositionen beim Speichern automatisch in weitere Aufträge aufgesplittet wird. Hierbei wird pro Warenposition ein Auftrag erzeugt. Die Einstellung kann über [**FRZ**] für die einzelnen Unterklassen überschrieben werden.
 
 Wurden einzelne Warepositionen bereits teildisponiert, so ist ein Auftragssplitting nicht mehr möglich!
 

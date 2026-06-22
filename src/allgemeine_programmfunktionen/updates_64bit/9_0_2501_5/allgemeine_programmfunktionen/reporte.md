@@ -4,7 +4,7 @@
 
 Die Reporte Verkaufsauswertung nach Kunde/Vertreter "verausw.rpt" Warenbuchsummen über Warengruppen "wbulg2.rpt" wurden überarbeitet Der Report Artikel-Umsatzliste "verkart.rpt" wird nicht mehr ausgeliefert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 739676[35973]
 

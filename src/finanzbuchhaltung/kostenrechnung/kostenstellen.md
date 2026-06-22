@@ -29,7 +29,7 @@ Um mit Kostenstellen zu arbeiten, gibt es folgende Vorbedingungen bzw. Einstellu
 Im Feld Kostenstelle kann hier die Nummer einer Kostenstelle eingegeben werden, die dann bei der Belegerfassung automatisch vorgeschlagen wird.
 
 4. Damit auch Rechnungen aus der Warenwirtschaft beim Fibu-Übertrag automatisch in die Kostenstellenrechnung eingetragen werden können ist es nötig, [Kostenstellengruppen](./kostenstellengruppe.md) zu definieren, in denen die Kostenstellen des Artikels für Einkauf und Verkauf angegeben werden können.  
-Diese werden dann im Artikel über die Funktion Kostenst./Statistik/Abteil gepflegt, und wenn dann der Artikel im Vorgang angesprochen wird, wird die jeweilige Kostenstelle bebucht.
+Diese werden dann im Artikel über die Funktion ***Kostenst./Statistik/Abteil*** gepflegt, und wenn dann der Artikel im Vorgang angesprochen wird, wird die jeweilige Kostenstelle bebucht.
 
 5. Im Mandantenstamm sollte eine Fehlerkostenstelle eingerichtet werden. Diese Kostenstelle wird herangezogen, wenn zu GuV-Konten keine Kostenstelle hinterlegt ist und die „Sperre Kostenstelle“ des angesprochenen Kontos nicht auf Gesperrt oder Fest seht.
 
@@ -104,11 +104,11 @@ Erfassung der Planzahlen
 
 Die Erfassung der Planzahlen für Kostenstellen erreicht man über:
 
-Hauptmenü \> Kostenrechnung \> Kostenstellenstamm \> Kostenstellen \> Funktion „Plandaten“ F10
+Hauptmenü \> Kostenrechnung \> Kostenstellenstamm \> Kostenstellen \> Funktion „**Plandaten**“ ***F10***
 
 Direktsprung **[KST]**
 
-Planzahlen für Kostenstellen müssen pro Jahr, Periode und Konto erfasst werden. Hat man die Funktion „Plandaten erfassen“ ausgewählt, so erscheint folgende Erfassungsmaske:
+Planzahlen für Kostenstellen müssen pro Jahr, Periode und Konto erfasst werden. Hat man die Funktion „**Plandaten erfassen“** ausgewählt, so erscheint folgende Erfassungsmaske:
 
 ![Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_681.png "Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung")
 

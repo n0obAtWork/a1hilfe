@@ -6,7 +6,7 @@ Wareneingang
 
 Hauptmenü > Wareneinkauf > Online -Waage > Online-Waage Einkauf
 
-oder Direktsprung [WAGEK]
+oder Direktsprung **[WAGEK]**
 
 Varianten
 
@@ -20,7 +20,7 @@ Warenverkauf
 
 Hauptmenü > Warenverkauf > Online -Waage > Online-Waage Verkauf
 
-oder Direktsprung [WAGVK]
+oder Direktsprung **[WAGVK]**
 
 Varianten
 
@@ -30,7 +30,7 @@ Waage Allgemein
 
 Hauptmenü > Saatzucht > Saatgutabwicklung > Online-Waage
 
-oder Direktsprung [WAAGE]
+oder Direktsprung **[WAAGE]**
 
 Varianten
 

@@ -4,7 +4,7 @@
 
 Hauptmenü > Kontraktverwaltung > Kontraktstammdaten
 
-oder Direktsprung [KTR]
+oder Direktsprung **[KTR]**
 
 Die Kontraktstammdaten enthalten (z.T. aufbauend auf anderen Informationen, wie Paritäten, Kontraktgruppen, etc.) alle wichtigen Informationen zur Verwaltung der Vereinbarungen und stellen diese der Vorgangsbearbeitung zur Verfügung.
 

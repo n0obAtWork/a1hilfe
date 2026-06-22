@@ -4,7 +4,7 @@
 
 Wurde ein Beleg als Bruttobeleg angelegt und davon teildisponiert, war die Auftragskorrektur nicht möglich, da die entsprechenden Stornobelege als Netto-Belege definiert wurden und keine Teildisposition aus dem Ursprungs-Bruttobeleg zuließen. Dies wurde nun korrigiert. Die Auftragskorrektur erstellt nun einen Brutto-Beleg zur Restausbuchung aus einem Brutto-Beleg. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 721934[33697]
 

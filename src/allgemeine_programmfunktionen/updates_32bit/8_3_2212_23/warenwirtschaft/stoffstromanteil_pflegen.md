@@ -4,7 +4,7 @@
 
 Im Pfleger für individuelle Artikelnummern wird jetzt nur bei Anteilen mit Stoffstrom der Tabreiter zur Stoffstrompflege dargestellt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 715405[33004]
 

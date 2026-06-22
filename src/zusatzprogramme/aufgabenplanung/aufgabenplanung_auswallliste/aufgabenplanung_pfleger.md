@@ -16,7 +16,7 @@
 Uhrzeit |
 | Termin bis | Datum  
 Uhrzeit |
-| Für Kunde | Kunden ID (F3) |
+| Für Kunde | Kunden ID (**F3**) |
 | Betreff | Betreff des ToDos |
 | Beschreibung | Text zum ToDo |
 
@@ -27,8 +27,8 @@ Uhrzeit |
 
 | Funktion | Beschreibung |
 | --- | --- |
-| Neu (F8),  
-Speichern (F9) | Erstellt neuen Datensatz  
+| Neu (**F8**),  
+Speichern (**F9**) | Erstellt neuen Datensatz  
 Speichert aktuellen Datensatz |
 
 </details>

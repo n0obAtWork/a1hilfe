@@ -31,9 +31,9 @@
 
 | Funktion | Beschreibung |
 | --- | --- |
-| Ändern (F5) | Ruft den [Pfleger](./vertreterprovisionsstaffeln_pfleger.md) der Vertreterprovisionsstaffeln auf im Ändernmodus auf. |
-| Ansehen (F6) | Ruft den [Pfleger](./vertreterprovisionsstaffeln_pfleger.md) der Vertreterprovisionsstaffeln auf im Ansehenmodus auf. |
-| Löschen (F7) | Ruft den [Pfleger](./vertreterprovisionsstaffeln_pfleger.md) der Vertreterprovisionsstaffeln auf im Löschenmodus auf. |
-| Neu (F8) | Ruft den [Pfleger](./vertreterprovisionsstaffeln_pfleger.md) der Vertreterprovisionsstaffeln auf im Neumodus auf. TODO Pflegerverlinkung anpassen |
+| Ändern **(F5)** | Ruft den [Pfleger](./vertreterprovisionsstaffeln_pfleger.md) der Vertreterprovisionsstaffeln auf im Ändernmodus auf. |
+| Ansehen **(F6)** | Ruft den [Pfleger](./vertreterprovisionsstaffeln_pfleger.md) der Vertreterprovisionsstaffeln auf im Ansehenmodus auf. |
+| Löschen **(F7)** | Ruft den [Pfleger](./vertreterprovisionsstaffeln_pfleger.md) der Vertreterprovisionsstaffeln auf im Löschenmodus auf. |
+| Neu **(F8)** | Ruft den [Pfleger](./vertreterprovisionsstaffeln_pfleger.md) der Vertreterprovisionsstaffeln auf im Neumodus auf. TODO Pflegerverlinkung anpassen |
 
 </details>

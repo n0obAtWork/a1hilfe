@@ -4,7 +4,7 @@
 
 Hauptmenü > Anlagenbuchhaltung > Anlagenbuchhaltung > Anlagenmappen
 
-Direktsprung [ANKAM]
+Direktsprung **[ANKAM]**
 
 Die Anlagenmappen dienen dazu, Anlagegüter, bei denen Fragen zu klären sind bzw. die zur Vorlage bei einem Kollegen zusammengefasst werden sollen, in Gruppen bzw. „Mappen“ zusammen zu stellen und sie für ein bestimmtes Datum für den Kollegen auf Wiedervorlage zu setzen.
 
@@ -35,12 +35,12 @@ Nachdem man diese Mappe gespeichert hat, kann man sie unter dem Menüpunkt „An
 
 ![Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_735.png "Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung")
 
-Durch Doppelklick auf eine Zeile oder durch Drücken der Funktionstaste F5 öffnet sich die Erfassungsmaske zu diesem Anlagegut. Dort können dann sofort Änderungen vorgenommen werden oder lediglich unter „Allgem.Hinweise“ Antworten auf offenen Fragen eingetragen werden.
+Durch Doppelklick auf eine Zeile oder durch Drücken der Funktionstaste **F5** öffnet sich die Erfassungsmaske zu diesem Anlagegut. Dort können dann sofort Änderungen vorgenommen werden oder lediglich unter „Allgem.Hinweise“ Antworten auf offenen Fragen eingetragen werden.
 
 In der Spalte „Änderung“ wird das letzte Änderungsdatum festgehalten.
 
-In der Spalte „Erl.“ wie „Erledigt“ kann mit Umschalt+F9 gekennzeichnet werden, ob alle Fragen geklärt sind. Das Kennzeichen kann so auch wieder auf „Nein“ - also nicht erledigt - gestellt werden.
+In der Spalte „Erl.“ wie „Erledigt“ kann mit **Umschalt+F9** gekennzeichnet werden, ob alle Fragen geklärt sind. Das Kennzeichen kann so auch wieder auf „Nein“ - also nicht erledigt - gestellt werden.
 
-Mit der Funktion „Aus Mappe entfernen“ F7 kann ein fälschlich in eine Mappe geratener Eintrag wieder gelöscht werden. Man kann sich auch überlegen, ob man statt des Erledigungskennzeichens lieber die Zeile löscht.
+Mit der Funktion ***„Aus Mappe entfernen“*** **F7** kann ein fälschlich in eine Mappe geratener Eintrag wieder gelöscht werden. Man kann sich auch überlegen, ob man statt des Erledigungskennzeichens lieber die Zeile löscht.
 
-Die Funktion „Archiv anzeigen“ CF12 zeigt alle zu dem jeweiligen Anlagegut existierenden Einträge im Archiv an.
+Die Funktion „***Archiv anzeigen***“ **CF12** zeigt alle zu dem jeweiligen Anlagegut existierenden Einträge im Archiv an.

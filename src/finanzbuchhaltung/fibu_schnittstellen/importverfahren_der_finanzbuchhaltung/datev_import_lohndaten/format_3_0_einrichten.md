@@ -8,4 +8,4 @@ Bei dem Format3.0 handelt es sich um eine Datei im CSV-Format (Comma Separated V
 
 ![](../../../../ImagesExt/image8_779.png)
 
-Die Funktion „Original wiederherstellen“ F6 setzt die Werte wieder auf die Vorgaben zurück.
+Die Funktion „***Original wiederherstellen***“ **F6** setzt die Werte wieder auf die Vorgaben zurück.

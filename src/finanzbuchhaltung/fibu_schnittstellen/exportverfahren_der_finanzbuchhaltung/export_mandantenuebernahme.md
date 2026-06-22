@@ -4,7 +4,7 @@
 
 Hauptmenü > Abschlussarbeiten > DATEV / Import / Export > Export > Variante Mandantenübernahme
 
-Direktsprung [FIEX]
+Direktsprung **[FIEX]**
 
 In dieser Variante ist es möglich, Belege aus der Warenwirtschaft (Einkaufsrechnungen, Einkaufsgutschriften, Ausgangsrechnungen, Ausgangsgutschriften,…), die bereits in die Fibu übertragen und gebucht worden sind von einem A.eins System(Quell-Mandant) in einen oder mehrere A.eins Mandanten(Ziel-Mandanten) zu übertragen. Die Daten werden durch den Quell-Mandant direkt in die Tabelle FiBuImport der Ziel-Mandanten geschrieben. Das Übertragen funktioniert nur dann, wenn die Relation FibuImport des Ziel-Mandanten als Proxy-Tabelle im Quell-Mandanten eingerichtet ist. Wie sie die Einrichtung vornehmen, ist an dieser [Stelle](./export_mandantenuebernahme.md#EinrichtungProxy) beschrieben.
 
@@ -16,11 +16,11 @@ Dieses Verfahren setzt voraus, dass die FiBu auf dem Quell-Mandanten und den Zie
 
 Einrichtung des Exportes
 
-Über die Funktion Einrichten F5 kann eine andere Prozedur ausgewählt werden. Die Prozedur muss die gleichen Eingangs-, sowie Ausgangsparameter wie die Standardprozedur haben. Des Weiteren müssen hier die Proxy-Tabellen eingetragen werden. Für jede Proxy-Tabelle wird der Export durchgeführt.
+Über die Funktion ***Einrichten*** **F5** kann eine andere Prozedur ausgewählt werden. Die Prozedur muss die gleichen Eingangs-, sowie Ausgangsparameter wie die Standardprozedur haben. Des Weiteren müssen hier die Proxy-Tabellen eingetragen werden. Für jede Proxy-Tabelle wird der Export durchgeführt.
 
 Start
 
-Mit der Funktion „Start“ wird der Export der Ausgewählten Daten gestartet. Die Export Daten werden nur an die Mandanten verteilt, bei denen die Verbindung vorhanden ist und das Kennzeichen Übertragen auf „Ja“ gestellt ist.
+Mit der Funktion ***„Start“*** wird der Export der Ausgewählten Daten gestartet. Die Export Daten werden nur an die Mandanten verteilt, bei denen die Verbindung vorhanden ist und das Kennzeichen Übertragen auf „Ja“ gestellt ist.
 
 Export Wiederholen
 

@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Konstanten Artikelstamm > Bewertungsgruppen
 
-oder Direktsprung [BWG]
+oder Direktsprung **[BWG]**
 
 Verschiedene Verfahren zur Bestandsbewertung stehen zur Verfügung. Die Bewertungsgruppen dienen nun lediglich dazu, die im Unternehmen eingesetzten Methoden zu aktivieren und ihnen einen „Namen“ zu geben.
 

@@ -4,7 +4,7 @@
 
 Patches können ab dieser Version über den A.eins.Libary-Viewer eingespielt werden. Eine Anleitung befindet sich in der verlinkten Hilfe.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 716363[33086]
 

@@ -4,6 +4,6 @@
 
 Hauptmenü > Partieverwaltung > Chargen / Partien > Partie-Stammdaten
 
-oder Direktsprung [PAR]
+oder Direktsprung **[PAR]**
 
-Die Funktion Partieinformation F10 wird grundsätzlich individuell den Anforderungen entsprechend angepasst.
+Die Funktion ***Partieinformation*** **F10** wird grundsätzlich individuell den Anforderungen entsprechend angepasst.

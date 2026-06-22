@@ -4,7 +4,7 @@
 
 Preise / Konditionen > Zu-/Abschläge > Zu-/Abschlag-Texte
 
-Oder DIrektsprung [ZATX]
+Oder DIrektsprung **[ZATX]**
 
 Für die Standardsprache in A.eins kann hier ein beliebiger Text angegeben werden, der für die Anzeige des Zu-/Abschlags auf Belegen verwendet werden soll.
 

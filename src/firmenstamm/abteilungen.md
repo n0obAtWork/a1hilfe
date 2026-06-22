@@ -9,9 +9,9 @@ Zur Pflege von Abteilungen kann in diesem Bereich Eingaben vorgenommen werden. A
 
 Hauptmenü > Administration > Abteilungen > Abteilungen
 
-oder Direktsprung [ABT]
+oder Direktsprung **[ABT]**
 
-Neue Abteilung mit F8 anlegen. Abteilungsnummer, Matchcode und Name sinnvoll vergeben und mit F9 abspeichern.
+Neue Abteilung mit **F8** anlegen. Abteilungsnummer, Matchcode und Name sinnvoll vergeben und mit **F9** abspeichern.
 
 </details>
 
@@ -20,9 +20,9 @@ Neue Abteilung mit F8 anlegen. Abteilungsnummer, Matchcode und Name sinnvoll ver
 
 Hauptmenü > Administration > Abteilungen > Unterabteilungen
 
-oder Direktsprung [ABTU]
+oder Direktsprung **[ABTU]**
 
-Neue Unterabteilung mit F8 anlegen. Nummer für die Unterabteilung vergeben, Name und Matchcode eintragen und in dem Feld Abteilung mit F3 die entsprechende Abteilung zuordnen.
+Neue Unterabteilung mit **F8** anlegen. Nummer für die Unterabteilung vergeben, Name und Matchcode eintragen und in dem Feld Abteilung mit **F3** die entsprechende Abteilung zuordnen.
 
 </details>
 
@@ -31,9 +31,9 @@ Neue Unterabteilung mit F8 anlegen. Nummer für die Unterabteilung vergeben, Nam
 
 Hauptmenü > Administration > Abteilungen > Abteilungs-Gruppen
 
-oder Direktsprung [ABTGR]
+oder Direktsprung **[ABTGR]**
 
-Neue Abteilungsgruppe mit F8 anlegen. Die Nummer wird automatisch fortlaufend vergeben, wenn eine andere Nummer gewünscht wird, kann diese auch überschrieben werden. Name entsprechend pflegen.
+Neue Abteilungsgruppe mit **F8** anlegen. Die Nummer wird automatisch fortlaufend vergeben, wenn eine andere Nummer gewünscht wird, kann diese auch überschrieben werden. Name entsprechend pflegen.
 
 </details>
 
@@ -42,9 +42,9 @@ Neue Abteilungsgruppe mit F8 anlegen. Die Nummer wird automatisch fortlaufend ve
 
 Hauptmenü > Administration > Abteilungen > Artikel/Abteilungen
 
-oder Direktsprung [ABTA]
+oder Direktsprung **[ABTA]**
 
-Hier erfolgt mit F8 die Zuordnung der Abteilung zur Unterabteilung und zur Abteilungsgruppe. Mit F3 kann jeweils die entsprechende Auswahl getroffen werden.
+Hier erfolgt mit **F8** die Zuordnung der Abteilung zur Unterabteilung und zur Abteilungsgruppe. Mit **F3** kann jeweils die entsprechende Auswahl getroffen werden.
 
 </details>
 
@@ -53,7 +53,7 @@ Hier erfolgt mit F8 die Zuordnung der Abteilung zur Unterabteilung und zur Abtei
 
 Hauptmenü > Administration > Abteilungen > Abteilungszugehörigkeit
 
-oder Direktsprung [ABTB]
+oder Direktsprung **[ABTB]**
 
 Hier besteht die Möglichkeit einzelne Abteilungen bestimmte Bedienerklassen zuzuordnen.
 

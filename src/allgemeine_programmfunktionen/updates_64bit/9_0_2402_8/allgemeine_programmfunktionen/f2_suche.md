@@ -4,7 +4,7 @@
 
 In [PKX] EK und VK fürte die F2-Suche über die Lieferantennummer ohne Lieferentenbezeichnung zu einem Fehler in der Auswahlliste. Dieser wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 741007[36020]
 

@@ -4,7 +4,7 @@
 
 Hauptmenü > Kontraktverwaltung > Kontraktstammdaten
 
-oder Direktsprung [KTR]
+oder Direktsprung **[KTR]**
 
 Variante: *Kontraktprotokoll*
 

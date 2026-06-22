@@ -4,7 +4,7 @@
 
 Das Lizenzpflichtige Modul "Geodaten" wird ab nun vollumfänglich auf das Vorhandensein einer gültigen Lizenz geprüft. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 717752[33280]
 

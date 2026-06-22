@@ -4,7 +4,7 @@
 
 Es kann eine parameterlose private Prozedur im Mandantstamm [MND] in Registerkarte "Allgemein" im Feld "Nachlaufprozedur" hinterlegt werden. Diese Prozedur wird im Zuge des A.eins-Programm-Updates am Ende aufgerufen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 731447[34806]
 

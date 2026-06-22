@@ -4,7 +4,7 @@
 
 Eine Ansicht zeichnet sich dadurch aus, dass sie in einem gewissen Kontext heraus aufgerufen wird. Dieser „Kontext“ wird mit Hilfe der Details ausgewertet.
 
-Per Funktion Details… erreicht man folgende Auswahlliste
+Per Funktion ***Details…*** erreicht man folgende Auswahlliste
 
 ![](../../../ImagesExt/image8_930.jpg)
 

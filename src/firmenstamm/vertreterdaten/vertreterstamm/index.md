@@ -4,7 +4,7 @@
 
 Hauptmenü > Nebenbuchhaltungen > Vertreterabrechnung > Vertreterstamm
 
-Oder Direktsprung [VE]
+Oder Direktsprung **[VE]**
 
 In den Vertreterstammdaten werden alle Informationen zusammengefasst, um Vertreterabrechnungen, -auswertungen etc. durchzuführen. Richtig erfasst erlauben sie es, ein- und mehrstufige Provisionierungen, Gebietsaufteilungen, Einsatz unterschiedlichster Provisionierungsmodelle durchzuführen.
 

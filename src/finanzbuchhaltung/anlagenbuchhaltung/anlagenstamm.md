@@ -4,15 +4,15 @@
 
 Hauptmenü > Anlagenbuchhaltung > Anlagenbuchhaltung > Anlagenstamm
 
-Direktsprung [ANKAS]
+Direktsprung **[ANKAS]**
 
 Der Anlagestamm wird über die Anwendung **Anlagenstamm** verwaltet. Hier werden alle relevanten Geschäftsvorfälle erfasst. Auch können für einzelne Anlagegüter AfA-Vorschläge erfasst, gelöscht oder freigegeben werden. Bevor man in diese Auswahlliste gelangt muss zuerst der [Firmenstamm](./einstellungen_anlagenbuchhaltung.md) eingerichtet werden. Ist der Firmenstamm noch nicht eingerichtet, so erscheint eine Meldung und die Auswahlliste wird sofort wieder verlassen.
 
 | | Bedeutung |
 | --- | --- |
-| Anlagengruppe | Die einzelnen Gegenstände des Anlagevermögens können zu verschiedenen Gruppen zusammengestellt werden. Diese Gruppen können sich z.B. aus der Gliederung des Anlagevermögens in Sachanlagen, Finanzanlagen usw. oder nach anderen betrieblichen Gesichtspunkten ergeben. Die Anlagengruppen werden in einer separaten Anwendung gepflegt und sind z.B. über den Direktsprung [ANKAG] zu erreichen.  
+| Anlagengruppe | Die einzelnen Gegenstände des Anlagevermögens können zu verschiedenen Gruppen zusammengestellt werden. Diese Gruppen können sich z.B. aus der Gliederung des Anlagevermögens in Sachanlagen, Finanzanlagen usw. oder nach anderen betrieblichen Gesichtspunkten ergeben. Die Anlagengruppen werden in einer separaten Anwendung gepflegt und sind z.B. über den Direktsprung **[ANKAG]** zu erreichen.  
  |
-| Inventarnummer | Eindeutige Nummer zur Identifikation des Anlagegutes. Die Belegung bleibt dem Anwender überlassen, es ist jedoch möglich eine Funktion im Firmenstamm zu hinterlegen, die eine Vorbelegung vornimmt. Diese Nummer ist auch nachträglich änderbar, dazu muss man jedoch erst die Funktion Inventarnummer ändern auswählen. Dann wird das Feld Inventarnummer freigegeben und die Schreibmarke springt in das Feld. So wird ein versehentliches Ändern verhindert und die Funktion kann ggf. weggeschützt werden.  
+| Inventarnummer | Eindeutige Nummer zur Identifikation des Anlagegutes. Die Belegung bleibt dem Anwender überlassen, es ist jedoch möglich eine Funktion im Firmenstamm zu hinterlegen, die eine Vorbelegung vornimmt. Diese Nummer ist auch nachträglich änderbar, dazu muss man jedoch erst die Funktion ***Inventarnummer ändern*** auswählen. Dann wird das Feld Inventarnummer freigegeben und die Schreibmarke springt in das Feld. So wird ein versehentliches Ändern verhindert und die Funktion kann ggf. weggeschützt werden.  
  Die Prüfung der Inventarnummer kann mit einer eigenen Datenbankfunktion durchgeführt werden. Der Name der Datenbankfunktion wird im [Firmenstamm](./einstellungen_anlagenbuchhaltung.md) hinterlegt.  
  |
 | Anlagenkonto  
@@ -29,7 +29,7 @@ Der Anlagestamm wird über die Anwendung **Anlagenstamm** verwaltet. Hier werden
  |
 | Standort  
     
- | Hier gibt man die Nummer des Standorts ein. Eine Auswahl ist auch über F3 möglich. [Standorte](./einstellungen_anlagenbuchhaltung.md) werden über einen eigenständigen Pfleger verwaltet.  
+ | Hier gibt man die Nummer des Standorts ein. Eine Auswahl ist auch über **F3** möglich. [Standorte](./einstellungen_anlagenbuchhaltung.md) werden über einen eigenständigen Pfleger verwaltet.  
  |
 | Handelsbilanz führen | Im Zuge des BilMoG kann es notwendig sein den Abschreibungsverlauf handels- und steuerrechtlich zu trennen. Z.B. kann bei Geschäfts- und Firmenwerten sich die Nutzungsdauer unterscheiden, so dass grundsätzlich unterschiedliche Verläufe zu bilden sind. Stellt man dieses Feld auf „Ja“, so werden alle bisher für dieses Anlagegut erfassten Daten kopiert. Ausgeschlossen hiervon sind natürlich alle AfA- Einträge, da diese sich unterscheiden können. Bereits umgebuchte Anlagengüter können nicht mehr umgestellt werden.  
  |

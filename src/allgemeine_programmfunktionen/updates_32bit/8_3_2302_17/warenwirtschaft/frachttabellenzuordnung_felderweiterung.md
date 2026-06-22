@@ -4,7 +4,7 @@
 
 In der Frachttabellenzuordnung ist das Feld "Frachtgruppe AR" dahingehend erweitert worden, dass auch Werte > 32.768 eingegeben werden können.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 722181[33343]
 

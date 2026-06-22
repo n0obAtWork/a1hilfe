@@ -4,7 +4,7 @@
 
 In der Anwendung [ANSCH] konnten bislang keine Kunden-Versandadressen gelöscht werden. Analog zu der Anwendung Kundenversandanschriften [KUVS] kann dies nun auch in der Anwendung Anschriften [ANSCH] Variante Versandanschriften ausgeführt werden. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 749938[38225]
 

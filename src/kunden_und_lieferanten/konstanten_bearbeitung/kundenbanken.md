@@ -4,11 +4,11 @@
 
 Hauptmenü > Stammdaten > Konstanten Kundenstamm > Kundenbanken
 
-oder Direktsprung [KUBA]
+oder Direktsprung **[KUBA]**
 
 Alle Grunddaten der Banken, mit denen das System zu tun hat, werden im allgemeinen Bankenstamm hinterlegt, egal ob es sich um eigene Hausbanken oder um Banken von Kunden, Lieferanten, Vertretern... handelt. Hierdurch wird vermieden, dass immer wiederkehrende Informationen, wie die Bankleitzahl, wiederholt werden müssen.
 
-Die spezifischen Eingaben der Kundenbankdaten werden im Auswahlbildschirm Kundenbank **erfasst,** der über den Direktsprung [KUBA] zu erreichen ist.
+Die spezifischen Eingaben der Kundenbankdaten werden im Auswahlbildschirm Kundenbank **erfasst,** der über den Direktsprung **[KUBA]** zu erreichen ist.
 
 In der Stammdatenmaske können folgende Daten eingegeben werden.
 
@@ -22,7 +22,7 @@ In der IBAN ist die Bankleitzahl und Kontonummer enthalten. Anhand der Bankleitz
    
 Die IBAN kann nachträglich über ein Funktion „Generiere IBAN“ für alle Kundenbanken mit eingetragener Bank und Kontonummer erzeugt werden.  
  |
-| Bank | Banknummer und Text. Eine Auswahl mit F3 ist möglich  
+| Bank | Banknummer und Text. Eine Auswahl mit **F3** ist möglich  
  |
 | BIC / BLZ | Hier wird die BIC(Swift) der Bank wird angezeigt. Steht der [Steuerparameter](../../firmenstamm/steuerparameter/optionen_global/bankleitzahl_und_kontonummer_anzeigen_spa_1121.md) 1121 „Bankleitzahl und Kontonummer anzeigen“ auf **Ja**, so wird hier auch die BLZ angezeigt.  
  |
@@ -33,7 +33,7 @@ Die IBAN kann nachträglich über ein Funktion „Generiere IBAN“ für alle Ku
  |
 | Beschreibung | Hier kann ein Informationstext hinterlegt werden, um ggf. anderen Mitarbeitern die Bedeutung der Bank zu erläutern.  
  |
-| Währung | Nummer und Text der Währung, in der dieses Konto geführt wird. Eine Auswahl mit F3 ist möglich  
+| Währung | Nummer und Text der Währung, in der dieses Konto geführt wird. Eine Auswahl mit **F3** ist möglich  
  |
 | Sperre des Kontos | Wenn ja, ist das Konto für weitere Verarbeitungen gesperrt.  
  |

@@ -4,17 +4,17 @@
 
 Zur allgemeinen Einrichtung der Nummernkreise gehört die Einrichtung von Nummernkreisen und ihren Zählkreisen. Anschließend können die Nummernkreise verschiedenen Vorgängen oder Stammdaten zugeordnet werden. Bei einer Neueinrichtung bzw. Erweiterung der Nummernkreise empfiehlt sich folgende Einrichtungsreihenfolge:
 
-| Direktsprung | **Beschreibung** |
+| **Direktsprung** | **Beschreibung** |
 | --- | --- |
-| [NKZ] | Unter [NKZ] können Zählkreise gepflegt werden.  
+| **[NKZ]** | Unter **[NKZ]** können Zählkreise gepflegt werden.  
  |
-| [NKS] | Unter **[NKS]** gibt es die Möglichkeit Nummernkreise zu pflegen. Hier können Zählkreise über einen Gültigkeitszeitraum zu einem Nummernkreis zugeordnet werden. Außerdem können hier neue Zählkreise angelegt werden.  
+| **[NKS]** | Unter **[NKS]** gibt es die Möglichkeit Nummernkreise zu pflegen. Hier können Zählkreise über einen Gültigkeitszeitraum zu einem Nummernkreis zugeordnet werden. Außerdem können hier neue Zählkreise angelegt werden.  
  |
-| [NKV] | Vorgangszuordnung  
+| **[NKV]** | Vorgangszuordnung  
  |
-| [NKF] | Unter [NKF] werden Nummernkreise zu FiBu-Vorgängen zugeordnet (siehe [Nummernkreiszuordnung Finanzbuchhaltung](../../finanzbuchhaltung/stammdaten_der_fibu/nummernkreise/nummernkreiszuordnung_finanzbuchhaltung.md)).  
+| **[NKF]** | Unter **[NKF]** werden Nummernkreise zu FiBu-Vorgängen zugeordnet (siehe [Nummernkreiszuordnung Finanzbuchhaltung](../../finanzbuchhaltung/stammdaten_der_fibu/nummernkreise/nummernkreiszuordnung_finanzbuchhaltung.md)).  
  |
-| [MND] und **[MNDNK]** | Festlegung der Nummernkreise bei Personenkonten im Mandantenstamm  
+| **[MND]** und ****[MNDNK]**** | Festlegung der Nummernkreise bei Personenkonten im Mandantenstamm  
  |
 
 <details>
@@ -22,7 +22,7 @@ Zur allgemeinen Einrichtung der Nummernkreise gehört die Einrichtung von Nummer
 
 Hauptmenü > Administration > Nummernkreise > Nummernkreise
 
-oder Direktsprung [NKS]
+oder Direktsprung **[NKS]**
 
 Kopfdaten
 
@@ -44,7 +44,7 @@ Datentabelle
 
 Über die Datentabelle können Zählkreise zu einen Nummernkreis zugeordnet werden. Des Weiteren besteht die Möglichkeit hier direkt neue Zählkreise anzulegen.
 
-Einige Felder sind mit dem Hinweis „Eingabe ist nur bei Neu-Anlage eines Zählkreises möglich“ versehen. Sollen diese Felder nachträglich geändert werden, so ist die Funktion Markierter Zählkreis zu verwenden. Über den Zählkreis-Pfleger können die Felder angepasst werden.
+Einige Felder sind mit dem Hinweis „Eingabe ist nur bei Neu-Anlage eines Zählkreises möglich“ versehen. Sollen diese Felder nachträglich geändert werden, so ist die Funktion ***Markierter Zählkreis*** zu verwenden. Über den Zählkreis-Pfleger können die Felder angepasst werden.
 
 | **Feld** | **Beschreibung** |
 | --- | --- |
@@ -92,7 +92,7 @@ Eingabe ist nur bei Neu-Anlage eines Zählkreises möglich.
 
 Hauptmenü > Administration > Nummernkreise > Zählkreise
 
-oder Direktsprung [NKZ]
+oder Direktsprung **[NKZ]**
 
 | **Feld** | **Beschreibung** |
 | --- | --- |
@@ -151,7 +151,7 @@ Register „Einrichtungstexte“
 
 Hauptmenü > Administration > Nummernkreise > Vorgangszuordnung
 
-oder Direktsprung [NKV]
+oder Direktsprung **[NKV]**
 
 Hier werden pro Bedienerklasse und Vorgang bzw. Vorgangsunterklasse die entsprechenden Nummernkreise zugeordnet. In der Basis-DB sind die vorhandenen Bedienerklassen zugeordnet.
 
@@ -168,7 +168,7 @@ Prinzipiell können verschiedene Bedienerklassen auch mit getrennten Nummernkrei
 
 Hauptmenü > Administration > Nummernkreise > Fibu-Vorgangszuordnung
 
-oder Direktsprung [NKF]
+oder Direktsprung **[NKF]**
 
 Hier werden Nummernkreise zu FiBu-Vorgängen zugeordnet (siehe [Nummernkreiszuordnung Finanzbuchhaltung](../../finanzbuchhaltung/stammdaten_der_fibu/nummernkreise/nummernkreiszuordnung_finanzbuchhaltung.md)).
 

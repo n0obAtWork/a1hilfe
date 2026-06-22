@@ -4,7 +4,7 @@
 
 Im Artikelpfleger wurden auf dem Tab-Reiter "Weitere Kennzeichen" die Eingabefelder für Ein- und Verkaufssperre in Abhängigkeit vom Steuerparameter 791 änderbar gemacht. Die Felder lassen sich, wenn der Steuerparameter 791 auf "Ja" steht, nicht ändern. Sie sind gesperrt (hellblau hinterlegt).
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 732390[34891]
 

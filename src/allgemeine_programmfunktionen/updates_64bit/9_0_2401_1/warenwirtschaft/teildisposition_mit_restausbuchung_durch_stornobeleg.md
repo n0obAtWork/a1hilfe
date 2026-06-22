@@ -4,7 +4,7 @@
 
 Mit Hilfe des Steuerparameters "Schnelle Teildispo mit Stornobeleg" (1147) ist es nun möglich bei der "Teildisposition aus Auftrag in Lieferschein" die Restausbuchung mittels Stornoauftrag zu erstellen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 725304[34201]
 

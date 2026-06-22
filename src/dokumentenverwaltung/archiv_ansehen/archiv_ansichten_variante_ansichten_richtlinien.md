@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Archiv > Zugriffssteuerung > Richtlinien
 
-Direktsprung [FAA]
+Direktsprung **[FAA]**
 
 Ansichten werden von AMIC ausgeliefert. Für Kunden besteht die Möglichkeit diese generell zu privatisieren, aber ebenso auch pro Bedienerklasse. Damit steht ein sehr ohnehin schon ein flexibles Konfigurationsmodell für die Archiv-Ansichten zur Verfügung.
 

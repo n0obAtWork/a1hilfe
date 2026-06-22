@@ -4,7 +4,7 @@
 
 Die Funktionen "InfoKu" und "Lieferanten bewerten" in der Anwendung Lieferanten [LF] wurden entfernt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 725940[34176]
 

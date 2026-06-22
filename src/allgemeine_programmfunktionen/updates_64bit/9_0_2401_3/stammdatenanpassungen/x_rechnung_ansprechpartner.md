@@ -4,7 +4,7 @@
 
 Der Ansprechpartner der X-Rechnung kommt nun aus dem Bediener. Sollte dort keine E-Mailadresse und/oder keine Telefonnummer eingetragen sein, so werden diese Daten aus dem X-Rechnung-Profil entnommen (Fallback) 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 728333[35170]
 

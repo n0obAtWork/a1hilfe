@@ -4,7 +4,7 @@
 
 Das UDP-Protokoll wurde darauf hin erweitert, dass es nun am Ende auf eine Send-Anweisung ohne eine leere Expect-Anweisung geben kann.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[35328]
 

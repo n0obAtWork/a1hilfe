@@ -6,7 +6,7 @@ Hauptmenü > Stammdatenpflege > Konstanten Kundenstamm > Kundenbanken
 
 Direktsprung **[KUBA]**
 
-Man erreicht diesen Erfassungsschirm, indem man zuerst die Bank im Ändern-Modus F5 aufruft und dort die Funktion „***Mandat verwalten***“ **F5** auswählt oder mit der Maus in die Spalte **Mandat** klickt.
+Man erreicht diesen Erfassungsschirm, indem man zuerst die Bank im Ändern-Modus **F5** aufruft und dort die Funktion „***Mandat verwalten***“ **F5** auswählt oder mit der Maus in die Spalte **Mandat** klickt.
 
 ![Ein Bild, das Text enthält. Automatisch generierte Beschreibung](../../../ImagesExt/image8_671.jpg "Ein Bild, das Text enthält. Automatisch generierte Beschreibung")
 

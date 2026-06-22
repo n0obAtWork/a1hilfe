@@ -6,7 +6,7 @@ In A.eins hat die Maps-Tourenplanung verschiedene Wegplanungs-Tools und Funktion
 
 • Das Elara-Google-Karten-AddIn, das in verschiedenen Optionbox-Menus Kartenfunktionen bereitstellte
 
-• Die Tourenplanung, die unter [TOUR] / [TOURS] verfügbar war
+• Die Tourenplanung, die unter **[TOUR]** / **[TOURS]** verfügbar war
 
 • Die Geodatenermittlung
 

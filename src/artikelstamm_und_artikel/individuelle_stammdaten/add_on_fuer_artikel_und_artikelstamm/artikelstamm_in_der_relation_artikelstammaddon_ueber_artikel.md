@@ -4,21 +4,21 @@
 
 Hauptmenü > Administration > Formular / Abläufe > Tabellen/Anwendungserweiterungen
 
-oder Direktsprung [AO]
+oder Direktsprung **[AO]**
 
 Diese Felder stehen in eigenen Relationen (Artikeladdon, etc.) s.o. und sind über die id verknüpft (s.o.).
 
 Am Beispiel des Artikelstamms wird nachfolgend die Einrichtung eigener Felder behandelt. Das Verfahren kann natürlich auf den Artikel übertragen werden.
 
-Erweiterung des Artikelstamms
+<p class="just-emphasize">Erweiterung des Artikelstamms</p>
 
 Der Artikelstamm soll um zwei Felder erweitert werden: Werbekostenzuschuss und Wiederbeschaffungszeit. Im Pfleger für AddOn-Daten (AO) werden die Eintragungen vorgenommen:
 
 ![](../../../ImagesExt/image8_130.jpg)
 
-Mit F8 wird die Neuanlage gestartet. Im Feld Tabellenname wird mittels F3 „Artikelstammaddon“ ausgewählt. Die Feldbezeichnung ist der Darstellungstext während der Feldname den Namen in der Datenbank ergibt. Dieser muss also syntaktisch korrekt sein: keine Sonderzeichen etc.
+Mit **F8** wird die Neuanlage gestartet. Im Feld Tabellenname wird mittels **F3** „Artikelstammaddon“ ausgewählt. Die Feldbezeichnung ist der Darstellungstext während der Feldname den Namen in der Datenbank ergibt. Dieser muss also syntaktisch korrekt sein: keine Sonderzeichen etc.
 
-Der Feldtyp wird wieder mit F3 ausgesucht, in diesem Fall ein Feld mit zwei Nachkommastellen.
+Der Feldtyp wird wieder mit **F3** ausgesucht, in diesem Fall ein Feld mit zwei Nachkommastellen.
 
 Die Eingabe von Zeile und Spalte wird derzeit noch nicht ausgewertet; die Anzeige erfolgt immer nach der Eingabereihenfolge.
 

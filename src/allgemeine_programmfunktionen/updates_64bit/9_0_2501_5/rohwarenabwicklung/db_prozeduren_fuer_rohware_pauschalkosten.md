@@ -4,7 +4,7 @@
 
 Die Verwendung von Datenbankprozeduren zur Bestimmung von Pauschalbeträgen für Rohware-Kosten-/-Vergütungen führte zuletzt nicht zu dem gewünschten Ergebnis. Es wurde statt des ermittelten Pauschalbetrags unter Umständen der Betrag 0,00 in der Warenbewegung eingetragen. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 743449[36313]
 

@@ -4,7 +4,7 @@
 
 Bei Änderungen innerhalb der Maske [PRI] wird eine Datenbanksperre für die Kombination aus Individueller Preisklasse und Artikelpreisgruppe gesetzt, um so ungewollte Änderungen im Mehrbenutzerbetrieb zu verhindern. Bei bestimmten Konstellationen blieb die Datenbanksperre auch nach Schließen der Maske erhalten, so dass nach erneutem Aufruf der Maske für die gleiche Daten-Kombination der Datensatz fälschlicherweise als gesperrt angezeigt wurde. Der Fehler wurde behoben - beim Schließen der Maske werden alle Sperren freigegeben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 741454[36656]
 

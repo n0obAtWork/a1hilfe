@@ -4,7 +4,7 @@
 
 Die Varianten in der Anwendung Intrastat [INTRA] wurden um das Ursprungsland erweitert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 723766[33914]
 

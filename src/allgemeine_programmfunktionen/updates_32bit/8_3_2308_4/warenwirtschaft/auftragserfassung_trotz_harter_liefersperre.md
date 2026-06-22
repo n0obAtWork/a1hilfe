@@ -4,7 +4,7 @@
 
 Der Steuerparameter 'Auftrag trotz Liefersperre schreiben' (SPA 488) wurde bei der Auftragserfassung nicht korrekt berücksichtigt. Bei Vorliegen einer harten Liefersperre eines Kunden konnte trotz Einstellung 'Ja' kein Auftrag für den Kunden erfasst werden. Nun ist die Erfassung eines Auftrages möglich, jedoch erscheint ein Warnhinweis für den Fall, dass eine Liefersperre gesetzt ist.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 724928[34006]
 

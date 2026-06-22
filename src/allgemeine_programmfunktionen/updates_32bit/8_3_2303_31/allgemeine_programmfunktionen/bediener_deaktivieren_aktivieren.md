@@ -4,7 +4,7 @@
 
 Bediener, der Kurzname einem SQL-Schlüsselwort entspricht (Z.B. "AS", "ASC", ...), können jetzt auch aktiviert und deaktiviert werden.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 720319[33475]
 

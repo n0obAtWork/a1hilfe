@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Steuerung > Optionen
 
-oder Direktsprung [OPT]
+oder Direktsprung **[OPT]**
 
 Hier befinden sich globale Einstellungen für A.eins.
 

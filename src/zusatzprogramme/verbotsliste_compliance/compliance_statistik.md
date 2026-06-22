@@ -6,28 +6,28 @@ Hauptmenü > Informationen > Sonstiges > Compliance Statistik
 
 Diese Auswahlliste dient lediglich zur Übersicht und hat keine Suchfunktion oder Funktionen. Hier werden die Statistiken im Bezug auf Compliance angezeigt.
 
-Felder
+<p class="just-emphasize">Felder</p>
 
 | Felder | Beschreibung |
 | --- | --- |
-| Typ | \- Anfragen:  
+| Typ | \- ***Anfragen:***  
 Anfragen, die vom Webservice beantwortet wurden  
-\- Vorgangs-Detail-Anzeige:  
+\- ***Vorgangs-Detail-Anzeige:***  
 Prüfungen, die von der Vorgangsdetails-Anzeige aus gestartet wurden  
-\- Zyklische Anfrage:  
+\- ***Zyklische Anfrage:***  
 Prüfungen, die von der Funktion „definierte Anschriften prüfen“ ausgelöst wurden  
-\- Goodguy-Definition:  
+\- ***Goodguy-Definition:***  
 Anzahl der Good-Guy-Definitionen  
-\- Auswahlliste:  
-Prüfungen, die von der Auswahlliste ([KU], [ANSCH], [VORG]) ausgelöst wurden  
-\- Änderung:  
+\- ***Auswahlliste:***  
+Prüfungen, die von der Auswahlliste (**[KU]**, **[ANSCH]**, **[VORG]**) ausgelöst wurden  
+\- ***Änderung:***  
 Prüfungen, die nach der Änderung einer Anschrift ausgelöst wurden  
-\- Neuerfassung:  
+\- ***Neuerfassung:***  
 Prüfungen, die von der Neuerfassung einer Anschrift ausgelöst wurden  
-\- Vorgangserfassung:  
+\- ***Vorgangserfassung:***  
 Prüfungen, die von der Erfassung eines Vorgangs ausgelöst wurden  
-\- Unbekannt:  
+\- ***Unbekannt:***  
 Tests  
-\- Vorhandene:  
+\- ***Vorhandene:***  
 Prüfungen, die nicht an den Webservice weitergeleitet wurden, weil das Ergebnis innerhalb des im SPA824 definierten Zeitraums bereits ermittelt wurde |
 | Anzahl | Gibt die Anzahl des jeweiligen Typen wieder |

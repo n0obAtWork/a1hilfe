@@ -10,12 +10,13 @@ Wenn der Steuerungsparameter „Anzeige Fremdwährung in Auswahllisten“ auf **
 
 Im folgenden Beispiel wird der Einfachheit halber in Periode 1 eine Rechnung erfasst, in Periode 2 die Zahlung dazu und in Periode 3 die Ausbuchung der Kursdifferenz. Die hier verwendeten Kurse entsprechen nicht den tatsächlichen Kursen.
 
-<p class="just-emphasize">Periode 1:</p>
+Periode 1:
 
-| | Fremdwährung(PLN) | Tageskurs | Buchwährung(Euro) | Kurs Stichtag(31.01.) | Zum Stichtag(Euro) | Differenz (zum Stichtag - Buchwährung) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| | Fremdwährung(PLN) | Tageskurs | Buchwährung(Euro) | Kurs Stichtag(31.01.) | Zum Stichtag(Euro) | Differenz  
+(zum Stichtag - Buchwährung) |
+| --- | --- | --- | --- | --- | --- | --- |
 | Rechnung | 2.345,00 | 1,1725 | 2.000,00 | | | |
-| Kumuliert(PLN) | 2.345,00 | | 2.000,00 | 1,345 | 1.743,49 | -256,51 |
+| Kumuliert(PLN) | 2.345,00 | | 2.000,00 | 1,345 | 1.743,49 | \-256,51 |
 
 Darstellung in der Konteninformation: Die Spalte Buchwährung(Euro) wird nicht mit dargestellt.
 
@@ -23,7 +24,8 @@ Darstellung in der Konteninformation: Die Spalte Buchwährung(Euro) wird nicht m
 
 Periode 2:
 
-| | Fremdwährung(PLN) | Tageskurs | Buchwährung(Euro) | Kurs Stichtag(31.01.) | Zum Stichtag | Differenz (zum Stichtag - Buchwährung) |
+| | Fremdwährung(PLN) | Tageskurs | Buchwährung(Euro) | Kurs Stichtag(31.01.) | Zum Stichtag | Differenz  
+(zum Stichtag - Buchwährung) |
 | --- | --- | --- | --- | --- | --- | --- |
 | Zahlung | \-2.345,00 | 1,456 | \-1.610,58 | | | |
 | Kumuliert(PLN) | 0,00 | | 389,42 | 1,543 | 0,00 | \-389,42 |
@@ -36,7 +38,8 @@ Periode 3:
 
 Die Ausbuchung des Kursverlustes erfolgt in Buchwährung. Der Kurs ist daher 1.0000.
 
-| | Fremdwährung(Euro) | Tageskurs | Buchwährung(Euro) | Kurs Stichtag(31.01.) | Zum Stichtag | Differenz (zum Stichtag - Buchwährung) |
+| | Fremdwährung(**Euro**) | Tageskurs | Buchwährung(Euro) | Kurs Stichtag(31.01.) | Zum Stichtag | Differenz  
+(zum Stichtag - Buchwährung) |
 | --- | --- | --- | --- | --- | --- | --- |
 | Ausbuchung | \-389,42 | 1,0000 | \-389,42 | | | |
 | Kumuliert(Euro) | \-389,42 | | \-389,42 | 1,0000 | \-389,42 | 0,00 |

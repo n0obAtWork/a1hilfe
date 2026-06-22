@@ -4,7 +4,7 @@
 
 Das CAMT053-Format lässt sich jetzt auch ungepackt als XML-Datei importieren.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 743497[36404]
 

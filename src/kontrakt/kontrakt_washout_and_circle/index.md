@@ -6,11 +6,11 @@ Hauptmenü > Kontraktverwaltung > Kontrakt Stammdaten
 
 oder den Direktsprung **[KTR]**
 
-Allgemein
+<p class="just-emphasize">Allgemein</p>
 
 Ein Washout oder Circle Geschäft wird in der Kontraktverwaltung durchgeführt. Washout und Circle Geschäfte funktionieren nur mit Kontrakten, die den Typ Einkauf und Verkauf besitzen. Um ein Washout oder ein Circle durchzuführen müssen diverse Voraussetzungen erfüllt sein. Bei dieser Geschäftsart wird keine Ware zwischen den Geschäftspartnern bewegt sondern nur der Rest Warenwert. Der Rest Warenwert ermittelt sich aus der Differenz der Kontraktwerte über die fiktiv bewegte Menge. Diese Geschäfte sind in Deutschland steuerfrei.
 
-Washout
+<p class="just-emphasize">Washout</p>
 
 Was ist ein Washout:
 
@@ -18,7 +18,7 @@ Existieren für einen Kunden ein Einkaufskontrakt und ein Verkaufskontrakt über
 
 Wenn keine Kontokorrenten Kunden verwendet werden sondern nur Kreditoren und Debitoren so muss der [Einrichterparameter](../../firmenstamm/einrichterparameter/washout_und_circle_epa_kontraktstamm_washout_circle.md) „Unterschiedliche Kunden bei Washout“ auf „Ja“ gesetzt werden.
 
-Circle
+<p class="just-emphasize">Circle</p>
 
 Was ist ein Circle:
 
@@ -60,7 +60,7 @@ Die Feldnamen für das Warenbewegungsaddon sind festvorgegeben und können nicht
 z.B. Preis \* 1,5 pro Kilogramm |
 | CircleMinPreisME | In diesem Feld wird die Preismengeneinheit hinterlegt. |
 
-Einrichtung in Aeins
+<p class="just-emphasize">Einrichtung in Aeins</p>
 
 Um ein Washout oder Circle Geschäft durchzuführen müssen noch Einstellungen vorgenommen werden.
 
@@ -87,7 +87,7 @@ Für Washout und Circle wurden dreizehn Steuerparameter eingestellt.
 Wenn Parameter „Bestimmtes Lager verwenden“ auf „Ja“ gestellt wird, so muss in das Feld Lagernummer das Lager eingetragen werden, auf den die Washout und Circle Vorgänge gebucht werden sollen.  
 Wird der Parameter auf „Nein“ gestellt, so wird das Lager des jeweiligen Kontraktes gezogen. |
 
-Voraussetzungen
+<p class="just-emphasize">Voraussetzungen</p>
 
 1. Es dürfen nur insgesamt zwei Kontrakte ausgewählt werden, einen Einkaufskontrakt sowie einen Verkaufskontrakt.
 
@@ -113,15 +113,15 @@ Voraussetzungen
 
 12. Die Belege werden in der Kontraktwährung erstellt.
 
-Ablauf
+<p class="just-emphasize">Ablauf</p>
 
-In der Kontraktverwaltung werden zwei Kontrakte je ein Einkaufskontrakt und Verkaufskontrakt über den gleichen Artikel ausgewählt. Jetzt kann entschieden werden ob ein Washout Strg+F11 oder ein Circle Shift+F11 durchgeführt werden soll.
+In der Kontraktverwaltung werden zwei Kontrakte je ein Einkaufskontrakt und Verkaufskontrakt über den gleichen Artikel ausgewählt. Jetzt kann entschieden werden ob ein ***Washout*** **Strg+F11** oder ein ***Circle*** **Shift+F11** durchgeführt werden soll.
 
 Als nächstes öffnet sich die Maske die alle wichtigen Informationen zu den beiden Kontrakten darstellt.
 
-Hier besteht die Möglichkeit, die Menge manuell zu erfassen mit „Menge überschreiben“ F5 oder es wird je nach Einstellung die Kontraktrestmenge der gesamten Laufzeit oder des aktuellen Zeitraums gewählt. Bei dem Circle Geschäft muss noch der Preis eingetragen werden.
+Hier besteht die Möglichkeit, die Menge manuell zu erfassen mit ***„Menge überschreiben“*** **F5** oder es wird je nach Einstellung die Kontraktrestmenge der gesamten Laufzeit oder des aktuellen Zeitraums gewählt. Bei dem Circle Geschäft muss noch der Preis eingetragen werden.
 
-Wird dann ein Washout mit F9 oder Circle SF9 gestartet passiert folgendes: 
+Wird dann ein Washout mit **F9** oder Circle **SF9** gestartet passiert folgendes: 
 
 Es werden automatisch zwei technische Belege für den Wareneinkauf sowie für den Warenverkauf mit einem Wertartikel über den Wert 0 erstellt. Diese Belege verringern die Menge der Kontrakte.
 
@@ -131,15 +131,15 @@ Beim Circle wird in Abhängigkeit des Restbetrages automatisch eine Gutschrift o
 
 Damit der Bewertungspreis des Artikels nicht kaputt gemacht wird, werden diese Belege mit dem Artikel als Wertartikel erzeugt.
 
-Kontraktmenge
+<p class="just-emphasize">Kontraktmenge</p>
 
 Bei einem Washout Circle Geschäft bestimmt der Kontrakt mit der kleinsten Restmenge, die Menge die für Washout oder Circle benutzt wird.
 
-Mit der Funktion „Menge überschreiben“ F5 kann eine diese Menge verändert werden, diese manuell eingegeben Menge wird dann für das Washout/Circle Geschäft benutzt.
+Mit der Funktion „***Menge überschreiben***“ **F5** kann eine diese Menge verändert werden, diese manuell eingegeben Menge wird dann für das Washout/Circle Geschäft benutzt.
 
 Achtung mit der Funktion kann auch ein Kontrakt überbucht werden.
 
-Kontraktpreis
+<p class="just-emphasize">Kontraktpreis</p>
 
 Der Kontraktpreis berechnet sich wie folgt für Washout. Ist ein Einkaufskontrakt abgeschlossen worden über 1500 kg mit einem Preis von 1,50 € und ein Verkaufskontrakt über 1300 kg mit einem Preis von 1,30 € so errechnet sich ein Netto Warenwert von:
 

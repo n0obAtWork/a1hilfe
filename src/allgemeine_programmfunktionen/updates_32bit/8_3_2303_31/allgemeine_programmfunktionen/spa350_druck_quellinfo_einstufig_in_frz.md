@@ -4,7 +4,7 @@
 
 Steuerparameter 350 - "Druck Quellinformation einstufig" kann nun in [FRZ] übersteuert werden. Folgende Einstellungsmöglichkeiten gibt es: ¨Nein¨: Alle Quellvorgänge (außer Vorgangsklasse Ladeschein) werden gedruckt. ¨Ja¨: Die letzte Quelle vor dem Beleg wird gedruckt. Beim Lieferschein ist das immer der Auftrag (nicht der Ladeschein) Wie Spa
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 717141[33278]
 

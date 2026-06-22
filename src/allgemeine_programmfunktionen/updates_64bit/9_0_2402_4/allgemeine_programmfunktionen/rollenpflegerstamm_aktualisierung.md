@@ -4,7 +4,7 @@
 
 Die ausgelieferte Relation "Rollenpflegerstamm" wurde aktualisiert. Dadurch sind Fehlermeldungen hinsichtlich einer leeren Rolle in Pfleger-Kontexten nicht länger zu erwarten.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 739219[35848]
 

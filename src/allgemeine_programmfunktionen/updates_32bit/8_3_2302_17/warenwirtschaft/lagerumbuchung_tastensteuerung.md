@@ -4,7 +4,7 @@
 
 In der Lagerumbuchung konnten die Felder für den Abgang nicht mit der Tastatur angesteuert werden. Die Tab-Reihenfolge wurde angepasst, sodass dies nun möglich ist.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 718700[33382]
 

@@ -18,7 +18,7 @@ Für das Einspielen von PayPal-Kontoauszügen wird neben der *e-Clearing-Lizenz 
 <details>
 <summary>Schritt 2: Einrichtung</summary>
 
-In den [e-Clearing Optionen](./optionen.md) F10 werden alle Einrichtungen vorgenommen werden. Hier werden PayPal und der "Freie Datenimport" als [Zahlungsdienstleister](./optionen.md#Zahlungdienstleister) angelegt. Außerdem können dem Zahlungsdienstleister eine Hausbank und ein [Gebührenkonto](./optionen.md#Zahldienstl_Gebührenkonto) sowie weitere dem Zahlungsdienstleister betreffende Optionen zugeordnet werden. Die Angabe einer Hausbank sowie die private Datenbankprozedur beim "Freien Datenimport" sind zwingend erforderlich.
+In den [e-Clearing Optionen](./optionen.md) **F10** werden alle Einrichtungen vorgenommen werden. Hier werden PayPal und der "Freie Datenimport" als [Zahlungsdienstleister](./optionen.md#Zahlungdienstleister) angelegt. Außerdem können dem Zahlungsdienstleister eine Hausbank und ein [Gebührenkonto](./optionen.md#Zahldienstl_Gebührenkonto) sowie weitere dem Zahlungsdienstleister betreffende Optionen zugeordnet werden. Die Angabe einer Hausbank sowie die private Datenbankprozedur beim "Freien Datenimport" sind zwingend erforderlich.
 
 </details>
 
@@ -44,7 +44,7 @@ Mithilfe der Funktion [Datei laden](./dateien_laden.md) können die Kontoauszüg
 
 **PayPal**
 
-Dazu wird die Funktion PayPal Datei laden und anschließend die zu importierende CSV-Datei ausgewählt. Vor dem Einspielen der PayPal-Kontoauszüge werden folgende Sachverhalte geprüft:
+Dazu wird die Funktion ***PayPal Datei laden*** und anschließend die zu importierende CSV-Datei ausgewählt. Vor dem Einspielen der PayPal-Kontoauszüge werden folgende Sachverhalte geprüft:
 
 1. Wurde dem Zahlungsdienstleister eine Hausbank zugeordnet? Verfügt die Hausbank über ein Konto für die Finanzbuchhaltung?
 
@@ -75,7 +75,7 @@ Unter dem Menü „Datei laden“ wird die entsprechende private Funktion aufger
 <details>
 <summary>Schritt 5: Kontenerkennung und automatische Auszifferung</summary>
 
-Mithilfe der Funktion [Kontierung/Auzifferung](./kontenerkennung_und_automatische_auszifferung.md) F6 kann eine automatische Erkennung der Konten/Auszifferung gestartet werden. Sind die Optionen „Kontonummer über Zahlungsreferenz bestimmen“ bzw. „Zahlungsreferenz bei Auszifferung verwenden“ aktiviert, so kann eine eindeutige Zuordnung von der Zahlung zum entsprechenden offenen Posten über die Zahlungsreferenz (Transaktionscode) erfolgen. Wird über die Zahlungsreferenz kein offener Posten gefunden, so wird die Suche abgebrochen und eine entsprechende Meldung ausgegeben.
+Mithilfe der Funktion [Kontierung/Auzifferung](./kontenerkennung_und_automatische_auszifferung.md) **F6** kann eine automatische Erkennung der Konten/Auszifferung gestartet werden. Sind die Optionen „Kontonummer über Zahlungsreferenz bestimmen“ bzw. „Zahlungsreferenz bei Auszifferung verwenden“ aktiviert, so kann eine eindeutige Zuordnung von der Zahlung zum entsprechenden offenen Posten über die Zahlungsreferenz (Transaktionscode) erfolgen. Wird über die Zahlungsreferenz kein offener Posten gefunden, so wird die Suche abgebrochen und eine entsprechende Meldung ausgegeben.
 
 </details>
 

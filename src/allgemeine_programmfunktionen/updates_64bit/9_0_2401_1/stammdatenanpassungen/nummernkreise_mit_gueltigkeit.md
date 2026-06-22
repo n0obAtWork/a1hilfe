@@ -4,7 +4,7 @@
 
 In der Anwendung Nummernkreise [NKS] wurde eine zweite Variante "Nummernkreise mit Gültigkeit" implementiert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 727631[34535]
 

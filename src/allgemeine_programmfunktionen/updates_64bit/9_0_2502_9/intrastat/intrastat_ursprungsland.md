@@ -4,7 +4,7 @@
 
 Das Ursprungsland kann nun weltweit gewählt werden (entweder nach Nummer oder nach Bezeichnung).Der Filter kann aber auch auf das vorherige Verhalten mit Inland oder EU begrenzt werden.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 752572[39170]
 

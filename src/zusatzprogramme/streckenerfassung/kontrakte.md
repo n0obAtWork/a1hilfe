@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_vorgangsmappe_kontrakte.htm -->
 
-Kontraktartikelausweichliste
+<p class="just-emphasize">Kontraktartikelausweichliste</p>
 
 Ist für einen Kontrakt eine Kontraktartikelausweichliste hinterlegt, so wird im *GFV* das Feld Artikelnummer farblich hinterlegt. Zusätzlich werden im *GMV* die Artikelnummern der Ausweichliste in neu hinzugefügten Zeilen angehängt, auch diese sind farblich hinterlegt. So hat der Bediener sofortigen Überblick über die vorhandenen Ausweichartikel.
 

@@ -11,7 +11,7 @@ In diesem Pfleger können benutzerdefinierte Textzeilen für den Vorgang hinterl
 
 | Funktion | Beschreibung |
 | --- | --- |
-| Text übernehmen (F2) | Übernimmt den Text und schließt den Pfleger |
-| Dokument laden (F9) | Öffnet den [A.eins Dokumenten Editor](../../zusatzprogramme/dokumenten_editor/index.md) |
-| Abbruch (F3) | Schließt den Pfleger ohne zu speichern |
-| Beenden (ESC) | Beendet den Pfleger mit einer Abfrage zum übernehmen (speichern) |
+| Text übernehmen **(F2)** | Übernimmt den Text und schließt den Pfleger |
+| Dokument laden **(F9)** | Öffnet den [A.eins Dokumenten Editor](../../zusatzprogramme/dokumenten_editor/index.md) |
+| Abbruch **(F3)** | Schließt den Pfleger ohne zu speichern |
+| Beenden **(ESC)** | Beendet den Pfleger mit einer Abfrage zum übernehmen (speichern) |

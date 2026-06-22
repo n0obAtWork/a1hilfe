@@ -4,7 +4,7 @@
 
 Bei Neuanlage eines Geschäftsjahres mit Verwendung von "Periodeneinteilung Vorjahr verwenden" werden jetzt Schaltjahre berücksichtigt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 726032[34127]
 

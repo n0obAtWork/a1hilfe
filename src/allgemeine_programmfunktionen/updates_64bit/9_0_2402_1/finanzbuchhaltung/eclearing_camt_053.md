@@ -4,7 +4,7 @@
 
 Beim Einspielen der CAMT.053 Dateien wurden Sammelbuchungen nicht korrekt ausgewertet.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 734905[35286]
 

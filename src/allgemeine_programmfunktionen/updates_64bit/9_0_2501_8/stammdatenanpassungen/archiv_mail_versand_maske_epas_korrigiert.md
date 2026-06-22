@@ -4,7 +4,7 @@
 
 In der Anwendung Formulararchiv kann man mit der Funktion E-Mail Senden an die Maske zum erneuten Emailversand öffnen.Dort gibt es 5 EPAs.Alternative zusätzliche Adresse 1 ( 0 = keine, sonst ADRESSID ) Alternative zusätzliche Adresse 2 ( 0 = keine, sonst ADRESSID ) Alternative zusätzliche Adresse 3 ( 0 = keine, sonst ADRESSID ) Alternative zusätzliche Adresse 4 ( 0 = keine, sonst ADRESSID ) Alternative zusätzliche Adresse 5 ( 0 = keine, sonst ADRESSID ) Versandprofil Diese EPAs konnte man einrichten, wurden aber nicht unter allen Umständen korrekt ausgewertet. Dies wurde korrigiert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 730466[36576]
 

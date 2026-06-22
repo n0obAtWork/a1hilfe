@@ -10,7 +10,7 @@ Man kann Belege, die in der Belegerfassung erfasst werden, sofort sogenannten Be
 
 • Belegmappe in der Belegerfassung abfragen. Man hat in der Belegerfassungsmaske zusätzlich die Möglichkeit die Belegmappe zu ändern.
 
-Eine Belegmappe bildet sich automatisch neu, sobald mindestens ein Beleg in der Mappe existiert. Eine F8 Funktion für NEU gibt es bewusst nicht.
+Eine Belegmappe bildet sich automatisch neu, sobald mindestens ein Beleg in der Mappe existiert. Eine **F8** Funktion für NEU gibt es bewusst nicht.
 
     
 Die Zuordnung zu einer Belegmappe kann zusätzlich auf folgende Art und Weise geschehen:

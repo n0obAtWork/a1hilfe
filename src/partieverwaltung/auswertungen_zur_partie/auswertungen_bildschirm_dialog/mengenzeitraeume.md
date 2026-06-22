@@ -4,6 +4,6 @@
 
 Hauptmenü > Partieverwaltung > Chargen / Partien > Partie-Stammdaten
 
-oder Direktsprung [PAR]
+oder Direktsprung **[PAR]**
 
 Mit dieser Funktion wird eine Information über die Laufzeit der Partie gebracht. Anschließend sind weitere Verzweigungen möglich.

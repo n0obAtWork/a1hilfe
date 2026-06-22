@@ -4,7 +4,7 @@
 
 Wurde im privaten Crystal Report die Vorschau mit Daten gespeichert, dann hat dieser sich immer auf die gespeicherten Daten bezogen und nicht die tatsächlich eingegrenzten Daten berücksichtigt. Dieser Fehler wurde jetzt behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 739632[35815]
 

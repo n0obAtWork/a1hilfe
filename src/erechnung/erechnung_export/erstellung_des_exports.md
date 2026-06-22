@@ -18,13 +18,13 @@ Als Orientierung für die Herkunft von Daten haben wir Standard-Prozeduren mit d
 
 1. Die ermittelten Daten werden nun in das Datenaustauschformat UBL ([Universal Business Language](https://de.wikipedia.org/wiki/Universal_Business_Language)), einem XML-Format, gelesen, erstellt und in eine Datei im vorgegebenen Verzeichnis gespeichert.
 
-2. Dabei werden die Business-Terms gemäß der [Spezifikation für UBL2.1](http://www.datypic.com/sc/ubl21/s-UBL-Invoice-2.1.xsd.html) in die Felder der einzelnen Businessterms (BT) gelesen.
+2. Dabei werden die Business-Terms gemäß der [Spezifikation für UBL2.1](http://www.datypic.com/sc/ubl21/s-UBL-Invoice-2.1.xsd.html) in die Felder der einzelnen Businessterms (***BT***) gelesen.
 
 Das Mapping ist vom Standard vorgegeben und es können keine Änderungen an der Zuordnung vorgenommen werden.
 
 3. Archivieren
 
-Zusätzlich wird das erstellte XML auch noch im Archiv als eRechnung-Export (Belegklasse 8040 – eRechnung Xml) gespeichert.
+Zusätzlich wird das erstellte XML auch noch im Archiv als eRechnung-Export (Belegklasse ***8040*** – eRechnung Xml) gespeichert.
 
 Hinweis:
 

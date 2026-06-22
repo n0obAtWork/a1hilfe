@@ -4,7 +4,7 @@
 
 Beim Löschen einer E-Mail Adresse aus der Liste wurde diese zwar visuell aus der Liste entfernt, jedoch beim Speichern nicht aus dem zugehörigen Datensatz gelöscht. Dadurch erschien die entfernte E-Mail Adresse nach erneutem öffnen wieder in der Liste.Dieses Verhalten wurde korrigiert, sodass gelöschte E-Mail Adressen nun zuverlässig und dauerhaft entfernt werden.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 753125[39329]
 

@@ -2,9 +2,9 @@
 
 <!-- source: https://amic.de/hilfe/_untersuchungsetiketten.htm -->
 
-Hauptmenü > Saatzucht > Saatenlabor > Labordaten > Funktion Drucke Untersuchungsetiketten 
+Hauptmenü > Saatzucht > Saatenlabor > Labordaten > Funktion ***Drucke Untersuchungsetiketten*** 
 
-oder Direktsprung [LABOR] \> Funktion Drucke Untersuchungsetiketten
+oder Direktsprung **[LABOR]** \> Funktion ***Drucke Untersuchungsetiketten***
 
 Auf dieser Maske können die Untersuchungsetiketten gedruckt werden, die zu den [Laborverfahren](../laborverfahren.md) definiert wurden.
 

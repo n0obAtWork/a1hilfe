@@ -4,7 +4,7 @@
 
 Bei Masken mit dem neuen Menüband kam es vor, dass die Eingabemarke nicht sofort im ersten Feld stand und man erst mit der Maus in das Feld klicken musste. Jetzt ist sofort das erste Eingabefeld aktiv.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 730276[34675]
 

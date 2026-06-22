@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Lagerverwaltungssystem > Ladeeinheiten
 
-Direktsprung [LVSLE]
+Direktsprung **[LVSLE]**
 
 Eine Ladeeinheit wird immer dann angelegt wenn eine Position auf einen [Ladeträger](./ladetraeger.md) / Silo gebucht werden soll, wenn dieser noch keine Ladeeinheit hat.
 

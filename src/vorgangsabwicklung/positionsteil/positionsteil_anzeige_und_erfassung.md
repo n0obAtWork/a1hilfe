@@ -18,6 +18,6 @@ In Abhängigkeit von der gewählten Funktion wird eine Erfassungsbox geöffnet, 
 
 ![](../../ImagesExt/image8_209.jpg)
 
-Anzeige der Positionen
+<p class="just-emphasize">Anzeige der Positionen</p>
 
 Im Anzeigebereich werden die Positionen so dargestellt, wie es im Formulareinrichtungsprogramm festgelegt wurde. Häufig richtet sich die Optik nach dem auszudruckenden Formular, um die visuelle Kontrolle zu erleichtern. Bis zu 13 Zeilen werden dargestellt. Wenn mehr als 13 Positionen erfasst werden, ändert sich automatisch die Optik des Anzeigebildschirmes insofern, als am rechten Bildschirmrand eine Bildlaufleiste erscheint. Sie erlaubt es, ohne den Aufruf spezieller Funktionen mit Hilfe der Maus im Positionsteil zu blättern.

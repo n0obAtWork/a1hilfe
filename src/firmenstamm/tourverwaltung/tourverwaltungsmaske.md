@@ -2,9 +2,9 @@
 
 <!-- source: https://amic.de/hilfe/tourverwaltungsmaske.htm -->
 
-Zu jeder Tour lassen sich verschiedene Gültigkeiten erfassen, die unterschiedliche Stationen beinhalten können. Wenn eine Gültigkeit zum Bearbeiten geöffnet wurde, können die Daten der Zeiträume mit den Funktionen Gültigkeit einfügen, Gültigkeit bearbeiten und Gültigkeit löschen in einem neuen Fenster bearbeitet werden.
+Zu jeder Tour lassen sich verschiedene Gültigkeiten erfassen, die unterschiedliche Stationen beinhalten können. Wenn eine Gültigkeit zum Bearbeiten geöffnet wurde, können die Daten der Zeiträume mit den Funktionen ***Gültigkeit einfügen***, ***Gültigkeit bearbeiten*** und ***Gültigkeit löschen*** in einem neuen Fenster bearbeitet werden.
 
-Die Funktion Ladeliste n. Tag ist in der [Tourverwaltung](./index.md) genauer beschrieben.
+Die Funktion ***Ladeliste n. Tag*** ist in der [Tourverwaltung](./index.md) genauer beschrieben.
 
 Maskenfelder der Tourverwaltung:
 

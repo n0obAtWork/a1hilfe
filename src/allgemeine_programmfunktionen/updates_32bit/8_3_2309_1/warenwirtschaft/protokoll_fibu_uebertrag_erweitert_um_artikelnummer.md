@@ -4,7 +4,7 @@
 
 Beim Protokoll Fibuübertrag [FIBF] in der Variante "Protokoll Fibuübertrag" werden, sofern sinnvoll, die Artikelnummern mit angezeigt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 724205[33973]
 

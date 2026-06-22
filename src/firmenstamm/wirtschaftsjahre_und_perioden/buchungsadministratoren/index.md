@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Geschäftsjahr / Perioden
 
-oder Direktsprung [PERBA]
+oder Direktsprung **[PERBA]**
 
 In gesperrte Perioden kann nicht mehr gebucht werden. Um nachträglich Buchungen in bereits gesperrte Perioden durchzuführen, müssen diese erneut geöffnet werden. Dabei werden die Perioden für alle Bediener freigegeben.
 
@@ -25,7 +25,7 @@ Buchungsadministratoren werden für eine spezielle Periode angelegt. Das bedeute
 | Bedienername | Zeigt an, welcher Bediener der Periode als Buchungsadministrator zugewiesen wurde. (Ganzer Name) |
 | BedienerId | Zeigt an, welcher Bediener der Periode als Buchungsadministrator zugewiesen wurde. (Bediener ID) |
 
-*Tipp: Wenn man Bediener bei der Neuanlage nicht immer wieder neu eingeben möchte, so kann man mit der Funktion Speichern unter einen bereits bestehenden Datensatz als Vorlage nehmen.*
+*Tipp: **Wenn man Bediener bei der Neuanlage nicht immer wieder neu eingeben möchte, so kann man mit der Funktion** **Speichern unter** **einen bereits bestehenden Datensatz als Vorlage nehmen.***
 
 </details>
 
@@ -46,7 +46,7 @@ o Das Feld „Periode“ kann mit der gesperrten Periode vorbelegt werden.
 
 o Die gesperrte Periode kann für eine Buchung ausgewählt werden.
 
-o Ist an dem Feld eine F3 - Auswahl angebunden, kann der Buchungsadministrator die gesperrte Periode via F3 - Taste selektieren.
+o Ist an dem Feld eine **F3** - Auswahl angebunden, kann der Buchungsadministrator die gesperrte Periode via **F3** - Taste selektieren.
 
 o Der Buchungsadministrator bekommt weder beim Auswählen der Periode noch beim Buchen eine Meldung, dass es sich um eine gesperrte Periode handelt.
 

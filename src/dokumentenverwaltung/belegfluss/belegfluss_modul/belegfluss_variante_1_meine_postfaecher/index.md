@@ -40,7 +40,7 @@
 | Name | Beschreibung |
 | --- | --- |
 | Anlagen | Öffnet einen Archiv-Pfleger zum Hinzufügen eines Datensatzes |
-| Belegfluss (F5) | Öffnet den Belegfluss [Pfleger](./belegfluss_pfleger.md) |
+| Belegfluss **(F5)** | Öffnet den Belegfluss [Pfleger](./belegfluss_pfleger.md) |
 | Löschen rückgängig | Gelöscht markierte Formulararchiveinträge können mit dieser Funktion wiederhergestellt werden. |
 
 </details>

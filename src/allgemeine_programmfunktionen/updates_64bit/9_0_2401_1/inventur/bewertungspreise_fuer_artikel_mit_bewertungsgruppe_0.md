@@ -4,7 +4,7 @@
 
 Die Kalkulation der Bewertungspreise funktioniert jetzt auch, wenn keine der Optionen für die Kalkulation angehakt sind.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 741773[34222]
 

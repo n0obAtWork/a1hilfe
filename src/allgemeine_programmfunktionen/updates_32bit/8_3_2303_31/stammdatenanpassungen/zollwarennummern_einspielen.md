@@ -4,7 +4,7 @@
 
 Unter Umständen konnten Zollwarennummern nicht mehr eingespielt werden. Dies ist nun behoben. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 719735[33459]
 

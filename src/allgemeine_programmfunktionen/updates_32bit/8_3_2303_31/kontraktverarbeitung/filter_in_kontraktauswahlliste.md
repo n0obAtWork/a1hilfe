@@ -4,7 +4,7 @@
 
 Der Filterbereich der Kontrakte wurde angepasst. Statt des Standardlagers, das ohnehin per SPA eingerichtet wird, wird nun der Filter des Artikellagers angeboten.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 717055[33215]
 

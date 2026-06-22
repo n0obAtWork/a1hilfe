@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Änderungsübernahme Kundenstamm
 
-Direktsprung [KUAEN]
+Direktsprung **[KUAEN]**
 
 Die Änderungsverfolgung von Kundendaten ist ein Überwachungssystem, um Änderungen an Kundendaten verfolgen und beeinflussen zu können.
 
@@ -12,11 +12,11 @@ Die Änderungsverfolgung von Kundendaten ist ein Überwachungssystem, um Änderu
 
 Sollte die Änderungsverfolgung für Anschiften eingerichtet werden, so achten Sie bitte darauf auch die Änderungsverfolgung im Kundenstamm - hier speziell für das Feld „*AdressIdHauptAdr*“ - einzurichten.
 
-Änderungen übernehmen
+<p class="just-emphasize">Änderungen übernehmen</p>
 
 Übernimmt die in der Auswahlliste markierte/n Zeile/n.
 
-Änderungen verwerfen
+<p class="just-emphasize">Änderungen verwerfen</p>
 
 Verwirft die in der Auswahlliste markierte/n Zeile/n.
 

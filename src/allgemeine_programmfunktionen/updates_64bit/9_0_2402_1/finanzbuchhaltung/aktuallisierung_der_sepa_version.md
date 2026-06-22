@@ -4,7 +4,7 @@
 
 Die SEPA-Versionen 3.7 (gültig ab 17.März 2024) und 3.8 (gültig ab 17. November 2024) wurden in A.eins Implementiert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 732383[35219]
 

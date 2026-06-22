@@ -16,7 +16,7 @@ Auch wenn ein Kunde gelöscht wird, kann diese Kontonummer nicht erneut vergeben
 
 Dies ist der sichtbare (logische) Kundenschlüssel für Sortierungen und Selektionen.
 
-Die Kunden-/Lieferantennummer ist eindeutiges Suchkriterium. Die Länge der Nummer kann in den Steuerparametern [SPA] eingestellt werden; die Voreinstellung beträgt **8** Stellen Eine sichere Verwaltung des Kundennummernbereiches wird über einen im Mandantenstamm hinterlegten Nummernkreis gewährleistet. Darüber hinaus kann in den [SPA] bestimmt werden, dass bei einer Neuanlage immer die nächste freie Nummer vorgeschlagen wird.
+Die Kunden-/Lieferantennummer ist eindeutiges Suchkriterium. Die Länge der Nummer kann in den Steuerparametern **[SPA]** eingestellt werden; die Voreinstellung beträgt **8** Stellen Eine sichere Verwaltung des Kundennummernbereiches wird über einen im Mandantenstamm hinterlegten Nummernkreis gewährleistet. Darüber hinaus kann in den **[SPA]** bestimmt werden, dass bei einer Neuanlage immer die nächste freie Nummer vorgeschlagen wird.
 
 **Kurzbezeichnung**
 
@@ -68,7 +68,7 @@ Es existieren keine Verkaufsbelege zu dieser Kundennummer. | keine Nummernänder
 
 **Anschrift**
 
-Erfassung der Adressinformation des Kunden, bestehend aus **Anrede, Vorname, Name, Straße, Postleitzahl, Ort, Ortsteil, Telefon- und Fax - Nr.** Die maximale Eingabelänge der Felder ist größer als auf der Maske dargestellt. Über den **"Rand"** kann also weitergeschrieben werden. Für Kunden, die zur Anschrift auch eine Postfachanschrift haben, kann diese mit der Funktion Anschriftenpflege F10 erfasst werden. Bei der Erfassung der Postleitzahl wird automatisch geprüft, ob sie bereits vorhanden ist. Wenn ja, wird der Ort vorgeschlagen. Darüber hinaus besteht die Möglichkeit, mittels F3 nach Postleitzahl oder Ort zu suchen. Im Kundenstamm ist es jetzt auch möglich, für einen Kunden mehrere Adressen zu hinterlegen. Hierbei gibt es nur eine Hauptadresse, die auch nicht gelöscht werden kann, da sonst der Kunde nicht mehr in der Auswahlliste zu sehen war, bzw. die Informationsfelder in der Finanzbuchhaltung leer bleiben würden. Wenn jetzt bei solchen Kunden die Anschrift gepflegt werden soll, wird zusätzlich angezeigt, ob es sich bei der in Bearbeitung befindlichen Anschrift um die Hauptadresse handelt. Wenn dieses der Fall ist, steht in der ersten Zeile der Maske "Adresstyp (Hauptadresse)". Falls es sich bei der in Bearbeitung befindlichen Adresse nicht um die Hauptadresse handelt, steht in der ersten Zeile der Maske "Adresstyp". Mit der Funktion CTRL+F9 lässt sich eine andere als die bisherige Adresse als Hauptadresse festlegen.
+Erfassung der Adressinformation des Kunden, bestehend aus **Anrede, Vorname, Name, Straße, Postleitzahl, Ort, Ortsteil, Telefon- und Fax - Nr.** Die maximale Eingabelänge der Felder ist größer als auf der Maske dargestellt. Über den **"Rand"** kann also weitergeschrieben werden. Für Kunden, die zur Anschrift auch eine Postfachanschrift haben, kann diese mit der Funktion ***Anschriftenpflege*** **F10** erfasst werden. Bei der Erfassung der Postleitzahl wird automatisch geprüft, ob sie bereits vorhanden ist. Wenn ja, wird der Ort vorgeschlagen. Darüber hinaus besteht die Möglichkeit, mittels **F3** nach Postleitzahl oder Ort zu suchen. Im Kundenstamm ist es jetzt auch möglich, für einen Kunden mehrere Adressen zu hinterlegen. Hierbei gibt es nur eine Hauptadresse, die auch nicht gelöscht werden kann, da sonst der Kunde nicht mehr in der Auswahlliste zu sehen war, bzw. die Informationsfelder in der Finanzbuchhaltung leer bleiben würden. Wenn jetzt bei solchen Kunden die Anschrift gepflegt werden soll, wird zusätzlich angezeigt, ob es sich bei der in Bearbeitung befindlichen Anschrift um die Hauptadresse handelt. Wenn dieses der Fall ist, steht in der ersten Zeile der Maske "Adresstyp (Hauptadresse)". Falls es sich bei der in Bearbeitung befindlichen Adresse nicht um die Hauptadresse handelt, steht in der ersten Zeile der Maske "Adresstyp". Mit der Funktion **CTRL**+**F9** lässt sich eine andere als die bisherige Adresse als Hauptadresse festlegen.
 
 Auf der Hauptanschrift kann für die Nachhaltigkeitsvorbelegung ein Anbauland gespeichert werden. Wenn bei der Belegerfassung keine Kundenversandanschrift angegeben wurde, dann wird bei richtiger Nachhaltigkeitseinrichtung das Anbauland aus der Hauptanschrift gezogen. Im Kunden muss also ein Nachhaltigkeitszertifikat existieren und der gewünschte Artikel muss in Verbindung mit dem Anbauland aus der Hauptanschrift übereinstimmen. Ansonsten wird das Anbauland aus der Hauptanschrift ignoriert.
 
@@ -84,7 +84,7 @@ Eingabe der Telefonnummer
 **EDI-Partner**
 
 Wenn man EDI benutzen möchte, muss hier für den jeweiligen Kunden der Partner hinterlegt werden. In diesem Partner sind nämlich Profile hinterlegt, mit der die EDI-Nachrichten erstellt werden.  
-Die Profile werden im Direktsprung [EDI] gepflegt. Dort kann man dann mit der Funktion Shift+F9 (B und N Setup) die Formatierung der Nachricht anpassen.
+Die Profile werden im Direktsprung **[EDI]** gepflegt. Dort kann man dann mit der Funktion **Shift+F9** ***(B und N Setup)*** die Formatierung der Nachricht anpassen.
 
 **Partner 1**
 
@@ -92,7 +92,7 @@ Eingabe der/des Ansprechpartner/s in der Firma.
 
 **Bankverbindung**
 
-Kontonummer des Kunden. Bei der Neuanlage muss die Bank im Bankenstamm angelegt sein, die mit der Kontonummer erfasst werden soll. Die Bankdaten werden hier nur angezeigt und können in einer separaten Maske, die von hier per Mausklick im Menü oder über Shift+F9 erreicht werden kann, erfasst werden.
+Kontonummer des Kunden. Bei der Neuanlage muss die Bank im Bankenstamm angelegt sein, die mit der Kontonummer erfasst werden soll. Die Bankdaten werden hier nur angezeigt und können in einer separaten Maske, die von hier per Mausklick im Menü oder über **Shift**+**F9** erreicht werden kann, erfasst werden.
 
 **Kreditlimit**
 
@@ -140,14 +140,14 @@ Nummer des Eintrags im Handelsregister.
 
 **Aktiv**
 
-Achtung!!!
+<p class="just-emphasize">Achtung!!!</p>
 
-*Die ehemalige Variante unter [ZMDO]* *die dieses Kennzeichen auswertet (Zusammenfassende Meldung) ist veraltet. Das Kennzeichen wird nicht weiter unterstützt.  
-Die aktuell gültige Variante in [ZMDO]* *ist „Zusammenfassende Meldung n. AWPosition“. Diese benutzt das Aktiv-Kennzeichen nicht.*
+*Die ehemalige Variante unter **[ZMDO]*** *die dieses Kennzeichen auswertet (Zusammenfassende Meldung) ist veraltet. Das Kennzeichen wird nicht weiter unterstützt.  
+Die aktuell gültige Variante in **[ZMDO]*** *ist „Zusammenfassende Meldung n. AWPosition“. Diese benutzt das Aktiv-Kennzeichen nicht.*
 
 Dieses Feld ist nur betretbar, wenn im Feld USt.-Ident eine Umsatzsteueridentifikationsnummer eingetragen wurde. Ansonsten ist das Feld deaktiviert und belegt mit ‚Nein‘.  
 Für den Fall, dass eine Umsatzsteueridentifikationsnummer angegeben wurde, hängt die Vorbelegung des Feldes aktiv vom Einrichterparameter „Umsatzsteuer-ID nach Eingabe automatisch aktivieren?“ ab. Der Einrichterparameter ist vorbelegt mit ‚Nein‘.  
-Dieses Feld bestimmt, ob die Umsatzsteueridentifikationsnummer in der zusammenfassenden Meldung [ZMDO] in der Variante mit angezeigt wird.
+Dieses Feld bestimmt, ob die Umsatzsteueridentifikationsnummer in der zusammenfassenden Meldung **[ZMDO]** in der Variante mit angezeigt wird.
 
 **BBN / BBS / ILN – Nummer**
 
@@ -159,11 +159,11 @@ Die W-IdNr. (Wirtschafts-Identifikationsnummer) soll in Deutschland als eindeuti
 
 **EKS-Nr.**
 
-Die aktuelle Einkommensteuernummer des Kunden. So lange nur eine Einkommensteuernummer angegeben ist, kann sie hier bearbeitet werden. Wenn aber mehrere Nummern mit ihre jeweiligen Gültigkeitszeiträume gepflegt werden sollen, geschieht das mit der Funktion Einkommensteuernummer bearbeiten.
+Die aktuelle Einkommensteuernummer des Kunden. So lange nur eine Einkommensteuernummer angegeben ist, kann sie hier bearbeitet werden. Wenn aber mehrere Nummern mit ihre jeweiligen Gültigkeitszeiträume gepflegt werden sollen, geschieht das mit der Funktion ***Einkommensteuernummer bearbeiten***.
 
 **Bemerkung**
 
-Hier kann ein freier, 10 Zeilen langer, Text für Bemerkungen zum Kunden eingetragen werden. Mittels SF10 kann der Texteditor für komfortablere Bearbeitung aufgerufen werden.
+Hier kann ein freier, 10 Zeilen langer, Text für Bemerkungen zum Kunden eingetragen werden. Mittels **SF10** kann der Texteditor für komfortablere Bearbeitung aufgerufen werden.
 
 <p class="siehe-auch">Siehe auch:</p>
 

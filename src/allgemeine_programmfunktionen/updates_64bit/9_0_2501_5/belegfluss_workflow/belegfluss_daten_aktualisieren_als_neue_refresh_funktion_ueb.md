@@ -4,7 +4,7 @@
 
 In der Anwendung "Archiv Belegfluss" [BF] in der Variante "Meine Postfächer" auf der Maske "Belegfluss" gibt es eine neue Funktion mit dem Namen "Daten aktualisieren".Diese Funktion hat man nur zur Verfügung, wenn man in der Variante "Postfacheinrichtung" auf der Maske "Postfach-Einrichtung" eine Refreshprozedur angibt.Man kann die von AMIC ausgelieferte Refreshprozedur, wie üblich auf der Maske, mit eigener Logik ausstatten.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 746984[37061]
 

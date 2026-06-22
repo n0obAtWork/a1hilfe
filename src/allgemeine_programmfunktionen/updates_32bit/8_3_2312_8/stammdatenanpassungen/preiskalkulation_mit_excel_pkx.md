@@ -4,7 +4,7 @@
 
 Die Standardvarianten und Prozeduren wurden überarbeitet und es wurde eine Protokollvariante ergänzt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 727894[34488]
 

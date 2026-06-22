@@ -4,7 +4,7 @@
 
 Bei der Generierung von Testmandanten [TMD] werden nun Kassenseriennummern und TSEs aus dem System entfernt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 740040[36104]
 

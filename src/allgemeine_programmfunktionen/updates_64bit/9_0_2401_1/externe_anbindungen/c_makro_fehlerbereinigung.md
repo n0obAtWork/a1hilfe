@@ -4,7 +4,7 @@
 
 Es wurden Fehler im C#-Makro, Direktsprung [CSM] unter 64bit gefunden. Diese wurden behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 731529[34770]
 

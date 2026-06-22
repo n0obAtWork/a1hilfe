@@ -4,7 +4,7 @@
 
 **Voraussetzungen:**
 
-• Das TSE Maintenance Tool
+• Das ***TSE Maintenance Tool***
 
 • Die Admin-PIN.
 
@@ -18,7 +18,7 @@
 
 Tipp!
 
-Im TSE-Maintenance-Tool gibt es unter der Funktion Help -> Documentation eine Anleitung zum Update der TSE.
+Im TSE-Maintenance-Tool gibt es unter der Funktion ***Help -> Documentation*** eine Anleitung zum Update der TSE.
 
 In dieser Anleitung sind ebenfalls Hilfestellungen zur Fehlerbehebung der TSE.
 
@@ -32,17 +32,17 @@ Um das Update durchzuführen, wie folgt vorgehen:
 
 4. Den jeweiligen Laufwerksbuchstaben eintragen.
 
-5. Die Funktion Check TSE ausführen.
+5. Die Funktion ***Check TSE*** ausführen.
 
 ![](../../ImagesExt/image8_488.png)
 
-4. Falls für die TSE ein Update vorhanden ist, kommt folgende Meldung (diese mit Ja bestätigen):
+4. Falls für die TSE ein Update vorhanden ist, kommt folgende Meldung (diese mit **Ja** bestätigen):
 
 ![Ein Bild, das Text enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_489.png "Ein Bild, das Text enthält. Automatisch generierte Beschreibung")
 
 Nach der Bestätigung fragt das Tool nach der Admin Pin.
 
-5. Die Pin in das Feld eintragen und mit Weiter bestätigen. (Dieser Vorgang kann mehrere Minuten dauern!)
+5. Die Pin in das Feld eintragen und mit **Weiter** bestätigen. (Dieser Vorgang kann mehrere Minuten dauern!)
 
 Nachdem der Vorgang abgeschlossen ist, erscheint folgende Meldung:
 
@@ -58,7 +58,7 @@ Nachdem der Vorgang abgeschlossen ist, erscheint folgende Meldung:
 **Fehlerbehebung:**
 
 1. Sobald ein Fehler auftritt, einen Selbsttest der TSE durchführen:  
-Zu Hauptmenü: Barverkauf -> Kassensicherungsverordnung Einrichtung -> TSE Pflegen (F10) -> Datensatz auswählen -> Funktion: Selbsttest… (F10) navigieren.
+Zu Hauptmenü: Barverkauf -> Kassensicherungsverordnung Einrichtung -> TSE Pflegen (**F10**) -> Datensatz auswählen -> Funktion: ***Selbsttest***… (**F10**) navigieren.
 
 2. Alle Verbindungen prüfen (sowohl USB-Slot als auch Netzwerkkomponenten / Stabilität / Qualität).
 

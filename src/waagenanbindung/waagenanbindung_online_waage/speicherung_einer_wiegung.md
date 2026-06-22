@@ -9,7 +9,7 @@ Fall: Öffnen der Waagenmaske im Neufall und direktes Anwählen der 1ten Wiegung
 
 Waagedatensätze ohne relevante Eingaben (z.B. Kunde, Artikel) wurden bisher nur gespeichert, wenn beim Durchführen der ersten Wiegung eine Wiegenummer ungleich Null angegeben wurde. Der Speichermechanismus wurde erweitert, so dass der Datensatz nun auch gespeichert wird, wenn das Gewicht der ersten Wiegung ungleich Null und die Wiegenummer dabei 0 ist.
 
-Fall: Öffnen der Waagenmaske im Neufall und sofortiges Verlassen mit ESC
+Fall: Öffnen der Waagenmaske im Neufall und sofortiges Verlassen mit **ESC**
 
 In diesem Fall wurde der Datensatz bisher nicht gespeichert.
 

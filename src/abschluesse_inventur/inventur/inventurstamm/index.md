@@ -4,7 +4,7 @@
 
 Hauptmenü > Inventur > Inventurstamm
 
-Direktsprung [IVS]
+Direktsprung **[IVS]**
 
 Beschreibung
 
@@ -49,8 +49,8 @@ Im Inventurstamm wird die Inventur im Detail definiert.
 
 | Funktion | Beschreibung |
 | --- | --- |
-| Ändern(F5), Ansehen(F6), Löschen(F7), Neu(F8) | Öffnet den Inventurstamm-Pfleger |
-| Inventurstamm(F9) | Öffnet die Suchfunktion |
+| Ändern**(F5)**, Ansehen**(F6)**, Löschen**(F7)**, Neu**(F8)** | Öffnet den Inventurstamm-Pfleger |
+| Inventurstamm**(F9)** | Öffnet die Suchfunktion |
 
 </details>
 

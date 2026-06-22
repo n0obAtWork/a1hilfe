@@ -32,8 +32,8 @@ Andernfalls wird ein neuer „Archiv-Eintrag“ erzeugt. |
 • Sektion  
 Der Name der Sektion aus der ahoi.ini des Aeins-Systems  
 • Kurztext  
-Der Kurztext der Firma (siehe [MND])  
+Der Kurztext der Firma (siehe **[MND]**)  
 • Nummer  
-Die Nummer der Firma (siehe [MND]) |
+Die Nummer der Firma (siehe **[MND]**) |
 | Default-Mandant | Im Standardfall wird der Mandant (Feld „Mnd“ des Formulararchivs) gemäß obiger „Mandantherkunft“ ermittelt.  
 Anwendungen verwenden für die Archivierung die Standard Datenbank-Funktion amic_fa_set. Wird im dort bei der Mandanten-Ermittlung ein „leerer“ Mandant festgestellt, dann wird dieser hier eingetragene „Default-Mandant“ verwendet. |

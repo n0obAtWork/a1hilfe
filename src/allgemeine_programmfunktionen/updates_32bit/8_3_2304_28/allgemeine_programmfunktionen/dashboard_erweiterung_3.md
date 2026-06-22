@@ -4,7 +4,7 @@
 
 Das Dashboard wurde um die Darstellungsart "Tachometer" erweitert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 716438[33660]
 

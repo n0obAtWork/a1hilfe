@@ -8,7 +8,7 @@ Dieser Dialog pflegt Einrichtungsdaten der Kassensicherungsverordnung in A.eins.
 
 Dies ist genauer eine Spezialisierung des Steuerparameter-Pflegesystems in A.eins.
 
-Der Steuerparameter 1056 (Kassensicherungsverordnung) in der Gruppe 53 (Kasse / Barverkauf) ist der Steuerparameter (SPA) der die Einrichtungsparameter vorhält.
+Der Steuerparameter **1056** (Kassensicherungsverordnung) in der Gruppe **53** (Kasse / Barverkauf) ist der Steuerparameter (SPA) der die Einrichtungsparameter vorhält.
 
 Die Einrichtungsparameter sind:
 
@@ -43,7 +43,7 @@ Name der Lizenz |
 | Get Start | Der Name der Prozedure für den Get / Start |
 | Set Finish | Der Name der Prozedure für den Set / Finish |
 | Set Start | Der Name der Prozedure für den Set / Start |
-| Bon-UStId | Ergibt sich aus den Anwendungsfunktionen unter [Forma] - Variante 2: Anwendungsfunktionen - AF_KSV_UsId. Hier können die Parameter angepasst werden. |
+| Bon-UStId | Ergibt sich aus den Anwendungsfunktionen unter **[Forma]** - Variante 2: Anwendungsfunktionen - ***AF_KSV_UsId.*** Hier können die Parameter angepasst werden. |
 
 </details>
 
@@ -52,12 +52,12 @@ Name der Lizenz |
 
 | Funktionen | Beschreibung |
 | --- | --- |
-| Neu (F7) | Setzt ein neues Datum ab dem dieser Steuerparameter (SPA) aktiv ist. |
-| Löschen (F8) | Löscht den Eintrag des aktuellen Steuerparameter (SPA). |
-| TSE pflegen (F10) | Ruft die [Auswahlliste](./tse_auswahlliste/index.md) mit allen eingerichteten TSE auf. |
+| Neu **(F7)** | Setzt ein neues Datum ab dem dieser Steuerparameter (SPA) aktiv ist. |
+| Löschen **(F8)** | Löscht den Eintrag des aktuellen Steuerparameter (SPA). |
+| TSE pflegen **(F10)** | Ruft die [Auswahlliste](./tse_auswahlliste/index.md) mit allen eingerichteten TSE auf. |
 | Formulare pflegen | Ruft die Maske zum [Formulare pflegen](./formulare_pflegen.md) auf. |
-| Aufbereitungsstatus ändern (F3) | Ändert das Feld in eine private Variante. |
-| Aufbereitungsprozedur ändern (F5) | Bearbeitet die private Variante. |
+| Aufbereitungsstatus ändern **(F3)** | Ändert das Feld in eine private Variante. |
+| Aufbereitungsprozedur ändern **(F5)** | Bearbeitet die private Variante. |
 
 </details>
 

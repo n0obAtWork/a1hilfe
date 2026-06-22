@@ -4,7 +4,7 @@
 
 In der Anwendung Artikelstamm Variante "Individuelle Artikelnummern" werden jetzt die Hersteller korrekt angezeigt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 715634[33083]
 

@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_umsatzsteuerpruefung.htm -->
 
-[KU] > Auswahl eines Kunden > UStId prüfen
+**[KU]** > Auswahl eines Kunden > UStId prüfen
 
 Diese Funktion prüft mit Hilfe eines Internetdienstes die Gültigkeit einer Umsatzsteuer-ID.
 

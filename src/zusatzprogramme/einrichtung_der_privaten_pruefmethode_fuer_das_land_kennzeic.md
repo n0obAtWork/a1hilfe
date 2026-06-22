@@ -18,23 +18,23 @@ Folgende Punkte können am Kunden nach der AIS Einrichtung ausgewählt werden.
 
 Des Weiteren kann es vorkommen, dass der Swift Code der Bank ein anderes Landkennzeichen enthält als das Landkennzeichen in der IBAN z.B. der IBAN Country Code ist GB und der Swift Country Code ist IM für die Isle of Man. Diese Liste ist im AEZ zu pflegen. Diese Liste wird beim Speichern mit den zu speichernden Daten verglichen. Wurden unterschiedlich Länderkennung in der IBAN und in dem Swift angegeben und diese Kombination steht in der Ausnahme Liste so wird der Datensatz gespeichert andernfalls nicht
 
-Einrichtung
+<p class="just-emphasize">Einrichtung</p>
 
 Es müssen folgende Punkte eingerichtete werden.
 
-Optionen
+<p class="just-emphasize">Optionen</p>
 
 Hauptmenü > Administration > Steuerung > Optionen
 
-oder Direktsprung [OPT] 
+oder Direktsprung **[OPT]** 
 
-Um diese Option anzulegen wird mit F8 oder Neu der Pfleger geöffnet. Als Option Name wird dann „***Pruefe_Bankstaat***“ ausgewählt. Unter Bediener wird eingetragen für welchen Bediener diese Option zur Verfügung steht. Als Wert wird der Name z.B. ***p_pruefe_bank_staat*** der Prüf Prozedur eingetragen. 
+Um diese Option anzulegen wird mit **F8** oder ***Neu*** der Pfleger geöffnet. Als Option Name wird dann „***Pruefe_Bankstaat***“ ausgewählt. Unter Bediener wird eingetragen für welchen Bediener diese Option zur Verfügung steht. Als Wert wird der Name z.B. ***p_pruefe_bank_staat*** der Prüf Prozedur eingetragen. 
 
-AIS
+<p class="just-emphasize">AIS</p>
 
 Hauptmenü > Administration > Werkzeuge > Informationssystem
 
-oder Direktsprung [AIS]
+oder Direktsprung **[AIS]**
 
 Im AIS müssen vier Eingabefelder vom Feldtyp „Check-Box“ angelegt werden. Der Name der Gruppe zu diesen Feldern kann z.B. lauten Kundenaddon004.
 
@@ -59,7 +59,7 @@ Dann muss in der dritten Variante eine Zuordnung zwischen der Gruppe und der Mas
 | Ident Masken-Feldname/Wert | h.KundId$ |
 | Darstellung | Register |
 
-AEZ
+<p class="just-emphasize">AEZ</p>
 
 Als erste muss überlegt werden, welches AEZ benutzt werden soll. In diesem Beispiel ist es aez2.
 
@@ -69,20 +69,20 @@ In der privaten Anwendung AEZ2 benötigen wir zwei Felder:
 
 2. IBANCountryCode
 
-Diese beiden Felder werden jetzt über [OSQL] in der Tabellen aeinszusatz2 angelegt.
+Diese beiden Felder werden jetzt über **[OSQL]** in der Tabellen aeinszusatz2 angelegt.
 
 ```sql
 alter table
 aeinszusatz2 add SwiftCountryCodechar(2) , add IBANCountryCode char(2)
 ```
 
-Nach dem diese beiden Felder erfolgreich angelegt worden sind muss jetzt der Pfleger für die Maske mit [AIS] eingerichtet werden.
+Nach dem diese beiden Felder erfolgreich angelegt worden sind muss jetzt der Pfleger für die Maske mit **[AIS]** eingerichtet werden.
 
 Nach dem der Pfleger erfolgreich erstellt worden ist. Muss noch die Auswahlliste für den Pfleger angepasst werden.
 
-Direktsprung [AEZ2]
+Direktsprung **[AEZ2]**
 
-Mit Shift+F2 kann jetzt der SQL Text für die Abfrage abgeändert werden, so dass die beiden neuen Felder in der Auswahlliste zu sehen sind.
+Mit **Shift+F2** kann jetzt der SQL Text für die Abfrage abgeändert werden, so dass die beiden neuen Felder in der Auswahlliste zu sehen sind.
 
 ```sql
 // Auswahllistenfunktion :
@@ -108,7 +108,7 @@ IDSQL where
 Ident=:ID1
 ```
 
-Private Prüfprozedur
+<p class="just-emphasize">Private Prüfprozedur</p>
 
 ```sql
 -- Priv. Prozedur

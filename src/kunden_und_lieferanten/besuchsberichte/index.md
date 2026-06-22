@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Kunden/Lieferanten > Besuchsberichte
 
-Direktsprung [BB]
+Direktsprung **[BB]**
 
 | Felder |
 | --- |
@@ -21,7 +21,7 @@ Direktsprung [BB]
 | Anlagen | Die Anlagenverwaltung in den Besuchsberichten ist veraltet. Bitte das Archiv verwenden.  
  |
 
-Einrichterparameter für Besuchsberichte
+<p class="just-emphasize">Einrichterparameter für Besuchsberichte</p>
 
 | Einrichterparameter | Vorbelegung |
 | --- | --- |
@@ -61,7 +61,7 @@ Syntax ist
 Trennzeichen zwischen den Werten ist ein Komma.  
 Bleibt das Feld leer, dann hat das Register die Standardgröße. | |
 
-Anlagen
+<p class="just-emphasize">Anlagen</p>
 
     
 Die Anlagenverwaltung in den Besuchsberichten ist veraltet. Bitte das Archiv verwenden.

@@ -4,7 +4,7 @@
 
 Es wurde die Variante "Rollenkontext" in der Anwendung "Rollen" ([ROLLET]) erstellt, welche die freigegebenen Funktionen pro Bediener ausweist.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 720205[33614]
 

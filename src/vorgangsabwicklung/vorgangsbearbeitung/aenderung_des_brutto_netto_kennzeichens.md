@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_BruttoNettoKzAenderung.htm -->
 
-In der Marktkasse im Rahmen der Funktion Speichern unter und unter Umständen auch in einem UFLD-Feld lässt sich das Brutto/Netto-Kennzeichen eines Vorgangs ändern.
+In der Marktkasse im Rahmen der Funktion ***Speichern unter*** und unter Umständen auch in einem UFLD-Feld lässt sich das Brutto/Netto-Kennzeichen eines Vorgangs ändern.
 
 Diese Funktion ist mit Vorsicht zu verwenden, denn es findet nicht immer eine verlustfreie Umrechnung der Beträge in Brutto oder Netto statt.
 

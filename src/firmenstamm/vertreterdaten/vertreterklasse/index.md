@@ -4,7 +4,7 @@
 
 Hauptmenü > Nebenbuchhaltungen > Vertreterabrechnung > Vertreterklassen
 
-Oder Direktsprung [VEKL]
+Oder Direktsprung **[VEKL]**
 
 Vertreterklassen dienen in A.eins als Gruppierung für Vertreter. Der Klassenname sollte also die Gruppierung bestmöglich beschreiben.
 

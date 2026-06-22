@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Firmenkonstanten > Bediener
 
-oder Direktsprung [BD]
+oder Direktsprung **[BD]**
 
 In dieser Variante können Sie A.eins-Bediener definieren.
 
@@ -81,10 +81,10 @@ Es stehen folgende Funktionen zur Verfügung:
 
 | Funktionen | Beschreibung |
 | --- | --- |
-| Ändern (F5), Ansehen (F6), Neu (F8) | Ruft dem [Pfleger](./bedienerstamm_pfleger.md) des Bedieners auf. |
-| Abgleichen mit Systemtabelle (Shift + F10) | Replikation  
+| Ändern **(F5),** Ansehen **(F6),** Neu **(F8)** | Ruft dem [Pfleger](./bedienerstamm_pfleger.md) des Bedieners auf. |
+| Abgleichen mit Systemtabelle **(Shift + F10)** | Replikation  
 Abgleich Systemtabelle **SysRemoteUser** mit Bedienerstamm/Filialstamm mit Bestätigungsabfrage |
-| Fremdserver Rechte zuordnen (Shift + F9) | Externes Login der Bediener überarbeiten |
+| Fremdserver Rechte zuordnen **(Shift + F9)** | Externes Login der Bediener überarbeiten |
 | Bediener clonen… | Vervielfältigt ausgewählte Bediener ([Bediener clonen](./bediener_clonen.md)) |
 
 </details>

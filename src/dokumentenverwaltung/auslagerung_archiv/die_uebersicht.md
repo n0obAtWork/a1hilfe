@@ -10,7 +10,7 @@ Eine nicht ganz untypische Ansicht könnte sich in etwa so darstellen:
 
 Man sieht das Archiv dieser Datenbank hält die entsprechende Anzahl von Belegen im jeweiligen Jahr mit entsprechenden Mandanten vor – vorbehaltlich etwaiger schon getätigter Auslagerungen. Die schon getätigten Auslagerungen erscheinen nicht mehr in dieser Statistik.
 
-Um nun ein Jahr mit einem Mandanten auszulagern, wähle man entsprechende Einträge an. Mehrfachselektion ist möglich und führe dann die Funktion Archiv auslagern aus.
+Um nun ein Jahr mit einem Mandanten auszulagern, wähle man entsprechende Einträge an. Mehrfachselektion ist möglich und führe dann die Funktion ***Archiv auslagern*** aus.
 
 Führt man diese Funktion aus, legt der Datenbank-Server unterhalb eines „Auslagerungspfades“ eine Archivauslagerung an. Die Geschwindigkeit des Vorganges ist angemessen, bedenken Sie bitte dass je nach Datenaufkommen einiges an Informationen transportiert werden muss.
 

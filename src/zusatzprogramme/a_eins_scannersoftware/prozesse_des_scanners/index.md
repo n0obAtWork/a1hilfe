@@ -12,7 +12,7 @@ Es gibt drei verschiedene Möglichkeiten wie ein Scanvorgang von der Software be
 
 • Der Scan-Code muss per Hand abgesendet werden, hier stehen einmal die TAB Taste und die F2 Taste zur Verfügung.
 
-Variante Scanner Daten Übergabe
+<p class="just-emphasize">Variante Scanner Daten Übergabe</p>
 
 Über den Direktsprung [SCTCP] kann man die Variante Scanner Daten Übergabe anwählen. Dort kann man alle Daten die vom Scanner eingelesen und an die zentrale Datenbank übertragen wurden sehen. 
 

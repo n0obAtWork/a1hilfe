@@ -20,11 +20,11 @@ Funktion der Elemente
 
 Folgende Elemente sind beteiligt:
 
-Erlösklassen [ERLK]
+Erlösklassen **[ERLK]**
 
-Erlöskennziffern [EKZS]
+Erlöskennziffern **[EKZS]**
 
-Erlöskontenzuordnung [EKZZ]
+Erlöskontenzuordnung **[EKZZ]**
 
 <p class="siehe-auch">Siehe auch:</p>
 

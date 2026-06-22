@@ -4,7 +4,7 @@
 
 Ein Beleg, der als eRechnung exportiert wurde kann nun zu einer Gutschrift umgewandelt werden.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 741662[36082]
 

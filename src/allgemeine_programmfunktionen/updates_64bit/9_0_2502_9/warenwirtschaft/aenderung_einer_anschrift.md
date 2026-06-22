@@ -4,7 +4,7 @@
 
 Bei der Änderung einer Anschrift wurden bislang die zugewiesenen E-Mail Adressen beim Speichern nicht korrekt übernommen.Dieses Verhalten wurde behoben: Ab sofort werden beim Ändern und anschließenden Speichern eines Anschriftensatzes alle zugehörigen E-Mail Adressen korrekt übernommen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 752917[39211]
 

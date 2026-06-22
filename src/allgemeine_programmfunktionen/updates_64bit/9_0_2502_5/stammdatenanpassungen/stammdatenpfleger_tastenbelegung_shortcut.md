@@ -4,7 +4,7 @@
 
 Artikelstamm-Pfleger doppelte Tastenbelegung entfernt. Textzeilen haben nun den Tastaturshortcut Strg+F5
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 748785[37815]
 

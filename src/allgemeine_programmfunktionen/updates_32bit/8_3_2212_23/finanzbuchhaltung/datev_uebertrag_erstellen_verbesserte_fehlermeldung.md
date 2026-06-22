@@ -4,7 +4,7 @@
 
 Beim Erstellen eines DATEV-Übertrages werden die Kontonummern auf die korrekte Länge getestet. Wird ein DATEV-Ersatzkonto verwendet, bei dem die Kontonummer nicht der geforderten Länge entspricht, wird jetzt zusätzlich das Originalkonto im Fehlerhinweis ausgegeben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 716776[33209]
 

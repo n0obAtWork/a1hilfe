@@ -4,7 +4,7 @@
 
 Wenn bei vorverkaufter Ware die Abholung von einem anderen Lager als dem ursprünglich vereinbarten Lager erfolgen soll, so erzeugt A.eins automatisch eine Lagerumbuchung auf das zu verwendende Abhollager. Diese Umbuchung kann durch unterschiedliche Vorgänge getriggert werden, die vorrangig verwendeten sind Auftrag und Lieferschein. Wird dieser Abholvorgang allerdings storniert, so muss auch die Lagerumbuchung storniert werden. Für die Stufe Auftrag funktionierte dieser Lagerumbuchungsstorno nicht korrekt und führte zu einer Verdoppelung der Bestände. Dieser Fehler wurde korrigiert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 743189[36297]
 

@@ -4,7 +4,7 @@
 
 Während der Kasseneröffnung kam es zur Fehlermeldung 4180 der TSE. Dieses wurde nun behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 723247[33845]
 

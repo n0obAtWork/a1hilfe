@@ -34,7 +34,7 @@ Das Ergebnis eines Volumengebindes sind dann z.B. Liter oder m³ sein |
 7 Faktor1 \* Faktor2 \* Faktor3 \* Faktor4 |
 | [Faktorherkunft](./gebindetypen.md) | Kennzeichnung, woher die Gebinde-Faktoren für die Berechnung kommen. Es ist hier ein dreistufiges System implementiert, es können bei den Artikeln, beim Artikelstamm aber auch beim Gebinde selbst die Faktoren hinterlegt werden. |
 
-Tabreiter
+<p class="just-emphasize">Tabreiter</p>
 
 Hier ist eine Auflistung der einzelnen Felder auf den Tabreitern der Maske.
 

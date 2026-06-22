@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/aeinsnullsetzer.htm -->
 
-Direktsprung [NULL]
+Direktsprung **[NULL]**
 
 Dies ist eine A.eins-Funktion für AMIC-Support!!!
 

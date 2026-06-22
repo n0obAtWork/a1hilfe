@@ -4,7 +4,7 @@
 
 Numerisches Eingabefeld akzeptiert jetzt auch Fließkommazahlen. Es wird jeweils das regionsspezifische Trennzeichen betrachtet - deutsch: Komma, englisch: Punkt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[35007]
 

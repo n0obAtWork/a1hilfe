@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_cescannerlvsinventur.htm -->
 
-Bedingungen für die Inventur
+<p class="just-emphasize">Bedingungen für die Inventur</p>
 
 1. Alle Inventurgruppen mit einem Artikel im LVS müssen den gleichen Stichtag und das gleiche Erfassungsdatum haben.
 
@@ -12,7 +12,7 @@ Bedingungen für die Inventur
 
 4. Es muss ein LVS Verarbeitungsmodul je Scanner gestartet sein
 
-Vorbereitungsschritte
+<p class="just-emphasize">Vorbereitungsschritte</p>
 
 • Als erstes müssen die Scancodes für die Inventur mit dem Lagerverwaltungssystem eingerichtet werden. Dies sind LVSIV [-147] für Inventur Start und LVSIVENDE[-148] für Inventur Ende. Des Weiteren sind die AI-Zuordnungen für den Scancode einzutragen.
 
@@ -47,7 +47,7 @@ Während der Inventur können die Kisten gewogen, geleert und gefüllt werden. W
 | 1 | Ist gerade in Bearbeitung. |
 | 2 | Bearbeitung ist abgeschlossen |
 
-Beispiel
+<p class="just-emphasize">Beispiel</p>
 
 | Scannung | Bedeutung |
 | --- | --- |

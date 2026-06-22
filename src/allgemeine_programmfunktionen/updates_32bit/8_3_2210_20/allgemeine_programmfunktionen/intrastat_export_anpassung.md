@@ -4,7 +4,7 @@
 
 Im Intrastatstammdaten-Pfleger ("Intrastat einrichten") kann nun eine private View für den Export angegeben werden.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 713532[32748]
 

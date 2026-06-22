@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_waage_wiegen.htm -->
 
-Mit der Funktion Wiegen wird eine Maske geöffnet, die im [Bedienerstamm](../../../firmenstamm/firmenkonstanten/bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/index.md) auf der [Registerkarte Waage](../../../firmenstamm/firmenkonstanten/bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/bedienerstamm_pfleger.md#Registerkarte_Waage) hinterlegten Kombinationen von Terminal( [Waagentermina l](../../waagenterminals/waagenterminal_uebersicht.md)) und Prozess( [Waagenvorlagen](../prozess_einrichten/index.md) ) anzeigt. An jeder Schaltfläche ist ein Prozess aus dem Bedienerstamm hinterlegt. Wird die Schaltfläche betätigt, so wird die Waagenmaske mit dem jeweiligen Prozess (Terminal, Prozess) gestartet.
+Mit der Funktion ***Wiegen*** wird eine Maske geöffnet, die im [Bedienerstamm](../../../firmenstamm/firmenkonstanten/bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/index.md) auf der [Registerkarte Waage](../../../firmenstamm/firmenkonstanten/bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/bedienerstamm_pfleger.md#Registerkarte_Waage) hinterlegten Kombinationen von Terminal( [Waagentermina l](../../waagenterminals/waagenterminal_uebersicht.md)) und Prozess( [Waagenvorlagen](../prozess_einrichten/index.md) ) anzeigt. An jeder Schaltfläche ist ein Prozess aus dem Bedienerstamm hinterlegt. Wird die Schaltfläche betätigt, so wird die Waagenmaske mit dem jeweiligen Prozess (Terminal, Prozess) gestartet.
 
 Ist im [Bedienerstamm](../../../firmenstamm/firmenkonstanten/bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/index.md) nur eine aktive Zuordnung zwischen Terminal und Prozess eingetragen, so wird die Waagenmaske gleich geöffnet, wenn die Funktion Wiegen aufgerufen wird.
 
@@ -18,9 +18,9 @@ Im Bereich Eingangs - Ausgangswiegungen werden jeweils maximal 12 Kombinationen 
 
 Wurde im Terminal( [Waagenterminal](../../waagenterminals/waagenterminal_uebersicht.md) ) ein Bild hinterlegt, so wird dieses Bild auf der Schaltfläche angezeigt. Ist kein Bild hinterlegt worden, so steht als Text in der Schaltfläche „Wiegen“.
 
-Wird in der Hofliste **kein Wiegesatz** markiert und die Funktion Wiegen wird aufgerufen, so werden alle Möglichkeiten die im [Bedienerstamm](../../../firmenstamm/firmenkonstanten/bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/index.md) hinterlegt worden sind auf der Maske angezeigt.
+Wird in der Hofliste **kein Wiegesatz** markiert und die Funktion ***Wiegen*** wird aufgerufen, so werden alle Möglichkeiten die im [Bedienerstamm](../../../firmenstamm/firmenkonstanten/bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/index.md) hinterlegt worden sind auf der Maske angezeigt.
 
-Wurde in der Hofliste **ein Wiegesatz** markiert und die Funktion Wiegen wird aufgerufen, so werden nur all die Funktionen angezeigt, die zu dem markierten Wiegesatz kompatibel sind. Wird dann eine Schaltfläche gedrückt und dieser Schaltfläche ist ein anderes [Waagenterminal](../../waagenterminals/waagenterminal_uebersicht.md) zugeordnet als das [Waagenterminal](../../waagenterminals/waagenterminal_uebersicht.md) des Wiegesatz, so wird das [Waagenterminal](../../waagenterminals/waagenterminal_uebersicht.md) des Wiegesatzes mit dem an der Schaltfläche hinterlegen [Waagenterminal](../../waagenterminals/waagenterminal_uebersicht.md) überschrieben.
+Wurde in der Hofliste **ein Wiegesatz** markiert und die Funktion ***Wiegen*** wird aufgerufen, so werden nur all die Funktionen angezeigt, die zu dem markierten Wiegesatz kompatibel sind. Wird dann eine Schaltfläche gedrückt und dieser Schaltfläche ist ein anderes [Waagenterminal](../../waagenterminals/waagenterminal_uebersicht.md) zugeordnet als das [Waagenterminal](../../waagenterminals/waagenterminal_uebersicht.md) des Wiegesatz, so wird das [Waagenterminal](../../waagenterminals/waagenterminal_uebersicht.md) des Wiegesatzes mit dem an der Schaltfläche hinterlegen [Waagenterminal](../../waagenterminals/waagenterminal_uebersicht.md) überschrieben.
 
 Private Funktion
 

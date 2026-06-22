@@ -4,7 +4,7 @@
 
 Beim FiBu-XML-Import über [DUEB] werden jetzt UNC-Pfade (\\\\Servername\\..) korrekt ausgewertet.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[33032]
 

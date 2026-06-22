@@ -4,7 +4,7 @@
 
 Unter bestimmten Umständen konnte es auf einigen Masken bei Differenzwertberechnungen um eine Abweichung von 0,01 kommen. Dieses Verhalten wurde korrigiert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 749245[37881]
 

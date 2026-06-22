@@ -4,7 +4,7 @@
 
 Hauptmenü > Nebenbuchhaltungen > Vertreterabrechnung > Vertreter Anteile
 
-Direktsprung [VEA]
+Direktsprung **[VEA]**
 
 Hier werden die Anteile an Provision bzw. Umsatz der Vertretergruppe je Vertreter angezeigt  
 Jeder Vertreter kann an mehreren Vertretergruppen (z. B. mit verschiedenen Anteilen) beteiligt sein.

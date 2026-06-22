@@ -4,7 +4,7 @@
 
 Zur Sicherstellung der Eindeutigkeit der automatisch generierten Paginiernummer bei der Erfassung eines FiBu-Vorgangs wird diese nun um die FibuV_ID ergänzt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 746311[37672]
 

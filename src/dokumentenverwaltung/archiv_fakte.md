@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Archiv > Administration > Archiv-Fakte
 
-Direktsprung [FAREF]
+Direktsprung **[FAREF]**
 
 Bestimmte Objekte in A.eins (z.B. Vorgänge, Kunden, Artikel, u.a.) haben feste Regeln hinterlegt, mit deren Hilfe sie automatisch Archiv-Referenznummern vorgeschlagen bekommen, wenn sie neu ins System kommen. Diese Objekte zusammen mit ihren Definitionen sind in A.eins die Archiv-Fakte.
 
@@ -37,14 +37,14 @@ Such-Schalter, aktiviert bei Einstellung „Ja“ die Analyse, wie viele Archiv-
 
 | Funktionen |
 | --- |
-| Neu F8 | Anlage eines neuen Archiv-Faktes. Es können private Archiv-Fakte definiert werden!  
+| ***Neu*** **F8** | Anlage eines neuen Archiv-Faktes. Es können private Archiv-Fakte definiert werden!  
 Für Details siehe Archiv-Fakte-Pfleger. |
-| Ändern F5 | Ändern eines Archiv-Faktes.  
+| ***Ändern*** **F5** | Ändern eines Archiv-Faktes.  
 Hiermit lässt sich die „Privat-Referenz“ einpflegen.  
 Für Details siehe Archiv-Fakte-Pfleger. |
-| Ansehen F6 | Ansehen eines Archiv-Faktes.  
+| ***Ansehen*** **F6** | Ansehen eines Archiv-Faktes.  
 Für Details siehe Archiv-Fakte-Pfleger. |
-| Löschen F7 | Löscht ein Archiv-Fakt.  
+| ***Löschen*** **F7** | Löscht ein Archiv-Fakt.  
 Auslieferungen lassen sich nur durch System-Entwickler löschen.  
 Für Details siehe Archiv-Fakte-Pfleger. |
 | Nachreferenzieren … | Mit Hilfe dieser Funktion ist es möglich, selektierte Archiv-Fakte so zu bearbeiten, dass die Archiv-Referenz-Nummer nachreferenziert wird, falls keine angegeben ist.  

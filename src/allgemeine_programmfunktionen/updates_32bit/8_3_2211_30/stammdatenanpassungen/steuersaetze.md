@@ -4,7 +4,7 @@
 
 Nach dem Ändern von Steuersätzen kann es vorkommen, dass beim Import von Vorgängen in die Finanzbuchhaltung, nicht die neuen sondern die alten Steuersätze gezogen werden. Um sicherzustellen, dass die aktuellsten Steuersatz-Daten genommen werden, ist der Mandantenserver nach dem Ändern der Steuersätze neu zu starten. Hierzu erscheint jetzt im Steuersatz-Pfleger ein entsprechender Hinweis.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 715611[33020]
 

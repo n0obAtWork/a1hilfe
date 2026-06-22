@@ -4,7 +4,7 @@
 
 Es wurde eine Standard-Rezepturgruppe 0 hinzugefügt. Diese kann ausgewählt werden und wird wie "keine Rezepturgruppe" behandelt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 723257[34134]
 

@@ -4,7 +4,7 @@
 
 Im Excelimport-Pfleger [EXCELI] wurde die Funktion "Import an Offsetposition" entfernt. Stattdessen kann jetzt im Pfleger eine private Datenbankprozedur angegeben werden. Über diese Prozedur kann die beim Import angelegte Tabelle zeilenweise ausgelesen und weiterverarbeitet werden.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 731079[34729]
 

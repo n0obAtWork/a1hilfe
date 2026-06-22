@@ -42,7 +42,7 @@ Wie dieser Wert bestimmt wird, lässt sich mit dem [Steuerparameters 503](../../
 Ja zeigt an, dass diese Zeile zur Berechnung des gesamten Kreditlimits herangezogen wird.  
 Das Feld wird berechnet mit Hilfe folgender Informationen:  
 der Angabe beim Kredittyp, dem Löschkennzeichen, dem ‚Gültig bis‘-Datum, dem ‚Genehmigt ab‘-Datum und dem [Steuerparameter 503](../../../firmenstamm/steuerparameter/kundenstammdaten/alle_kredite_als_summe_uebernehmen_spa_503.md) (Alle Kredite als Summe übernehmen?) |
-| Limitart | F3 Funktion zur Auswahl oder Angabe des Kredittypen |
+| Limitart | **F3** Funktion zur Auswahl oder Angabe des Kredittypen |
 | Bezeichnung | Bezeichnung des Kredittypen |
 | Status | Aktiv: wird zur Berechnung des gesamten Kreditlimits herangezogen  
 Abgelaufen: wird **nicht** zur Berechnung des gesamten Kreditlimits herangezogen und kann über einen Einrichterparameter (Nur aktive Datensätze anzeigen) ausgeblendet werden. Die Standard Vorbelegung für diesen Einrichterparameter ist Nein.  

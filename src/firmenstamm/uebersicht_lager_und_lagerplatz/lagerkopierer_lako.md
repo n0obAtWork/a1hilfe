@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Allgemeine Stammdaten > Lagerkopierer
 
-Direktsprung [LAKO]
+Direktsprung **[LAKO]**
 
 Mit Hilfe des Lagerkopierers können Artikel auf neu angelegte Lagerorte kopiert werden. Dies dient nur zur Erstanlage der Artikel, vorhandene Artikel bleiben erhalten!
 

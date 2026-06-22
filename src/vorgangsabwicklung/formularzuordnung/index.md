@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Formulare / Abläufe > Formularzuordnung / Vorgangsunterklassen
 
-Direktsprung [FRZ]
+Direktsprung **[FRZ]**
 
 <p class="siehe-auch">Siehe auch:</p>
 

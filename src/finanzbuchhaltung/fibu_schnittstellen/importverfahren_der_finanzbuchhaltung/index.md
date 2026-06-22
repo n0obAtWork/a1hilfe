@@ -4,7 +4,7 @@
 
 Hauptmenü > Abschlussarbeiten > DATEV / Import / Export > Import
 
-Direktsprung [FIIM]
+Direktsprung **[FIIM]**
 
 Bei der Verwendung der Standardimportschnittstelle muss die Relation Fibuimport gefüllt werden. Das Füllen kann über eine bereits im korrekten Format vorliegende DBF-Datei geschehen, über eine JPL-Prozedur oder über ein vorgeschaltetes Makroskript. Die Daten dieser Relation werden anschließend auf ihre Gültigkeit getestet. Bei erfolgreichem Test werden sie dann in Belege umgewandelt, die in der Primanota kontrolliert werden können. Alle Optionen für den Import findet man unter **F9** ***"Und los...."***
 
@@ -360,7 +360,7 @@ Die Funktion ***Löschen* F7** lässt zu, diese Daten mit einem bestimmten Statu
 Eigene Importverfahren einbinden
 
 Wenn man sich ein Makro oder eine JPL-Prozedur zum Befüllen der Relation Fibuimport erstellt hat, so kann man es so einbinden, dass die Optionen für das Umbenennen der Datei, die Umlautkonvertierung und die Aktualisierung der Auswahlliste automatisch wie unter Optionen eingestellt vorgenommen werden. Dazu geht man wie folgt vor:  
-Man wählt den Direktsprung [PF] für "Private Funktionen" an und erstellt sich eine Funktion in folgender Art.
+Man wählt den Direktsprung **[PF]** für "***Private Funktionen***" an und erstellt sich eine Funktion in folgender Art.
 
 ![](../../../ImagesExt/image8_777.png)
 
@@ -372,9 +372,9 @@ Es wird eine Makro ausgeführt, mit dessen Hilfe man die Relation Fibuimport fü
 
 Es wird eine JPL-Prozedur ausgeführt. Der zweite Parameter ist hier der Name der Prozedur.
 
-Eine VBA-Prozedur (Direktsprung [VBA] wird ausgeführt. Der zweite Parameter ist hier der Name der Prozedur.
+Eine VBA-Prozedur (Direktsprung [**VBA**] wird ausgeführt. Der zweite Parameter ist hier der Name der Prozedur.
 
-Nachdem man diese Funktion angelegt hat, muss man sie noch mal mit F5 "Ändern" aufrufen und den Funktion "Verbinden" **F10** auswählen. Bei "Verbinden mit" trägt man "Option Box" ein und bei der Zeile für die Option Box muss "**OB_FIIMPART**" eingetragen werden.
+Nachdem man diese Funktion angelegt hat, muss man sie noch mal mit **F5** "***Ändern***" aufrufen und den Funktion "***Verbinden***" **F10** auswählen. Bei "***Verbinden mit***" trägt man "Option Box" ein und bei der Zeile für die Option Box muss "**OB_FIIMPART**" eingetragen werden.
 
 Das war's auch schon. Jetzt kann man seinen eigenen Import genau wie den vordefinierten Import über das Menü "Importdatei" aufrufen.
 

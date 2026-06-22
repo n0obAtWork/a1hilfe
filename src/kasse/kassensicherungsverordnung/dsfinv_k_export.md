@@ -22,7 +22,7 @@ Ziel der Standardisierung ist die Definition einer Struktur für Daten aus Kasse
 
 • Ermöglicht eine vereinfachte Überprüfung der in die Finanzbuchhaltung übertragenen strukturierten Kassendaten.
 
-Hierfür liefert die DSFinV-K eine fachliche und technische Beschreibung. Die DSFinV-K entspricht inhaltlich der „DFKA-Taxonomie Kassendaten“. Sofern der Standard „DFKA-Taxonomie Kassendaten“ (Datensatzbeschreibung im json-Format, der u. a. vom Deutschen Fachverband für Kassen- und Abrechnungssystem-technik e.V. entwickelt wurde) zur Übermittlung der Kassendaten an die Finanzbuchhaltung genutzt wird, ist eine Konvertierung der Daten für Zwecke der Außenprüfung oder der Kassen-Nachschau zwingend erforderlich (vom originären json-Format in csv-Dateien mit beschreibender index.xml; vgl. Anhang G).
+Hierfür liefert die DSFinV-K eine fachliche und technische Beschreibung. Die DSFinV-K entspricht inhaltlich der „DFKA-Taxonomie Kassendaten“. Sofern der Standard „DFKA-Taxonomie Kassendaten“ (Datensatzbeschreibung im json-Format, der u. a. vom Deutschen Fachverband für Kassen- und Abrechnungssystem-technik e.V. entwickelt wurde) zur Übermittlung der Kassendaten an die Finanzbuchhaltung genutzt wird, ist eine Konvertierung der Daten für Zwecke der Außenprüfung oder der Kassen-Nachschau zwingend erforderlich (vom originären json-Format in csv-Dateien mit beschreibender ***index.xml***; vgl. Anhang **G**).
 
 Mittels dieses Datenformates ist ein Import der Kassendaten in IDEA einheitlich möglich.
 
@@ -44,8 +44,8 @@ DSFinV-K
 | Kassennummer | Die A.eins-Kassennummer mit Bezeichnung |
 | Filialnummer | Die Kassennummer ist immer die Nummer des aktuellen Mandanten.  
 Die Filialnummer gibt in Replikationsumgebungen die aktuelle Filialnummer an. Diese ist durch den Mandanten vorgegeben und an dieser Stelle auch nicht frei auswählbar.  
-Die Kassennummer- und die Filialnummer-Datenherkunft stammt aus der replizierten bzw. einzelgepflegten Tabelle AcshStammDatenLink.  
-Die Tabelle AcashStammdatenLink ist notwendig, da der Kassenstamm AcashStdKsse noch nie in einer Replikation war. |
+Die Kassennummer- und die Filialnummer-Datenherkunft stammt aus der replizierten bzw. einzelgepflegten Tabelle ***AcshStammDatenLink.***  
+Die Tabelle ***AcashStammdatenLink*** ist notwendig, da der Kassenstamm ***AcashStdKsse*** noch nie in einer Replikation war. |
 | Kassenseriennummer | Die Kassenseriennummer, die für die Kasse verwendet wird.  
 Die Kassenseriennummer wird von AMIC in Abhängigkeit der gekauften Kassenlizenzen generiert.  
 Bei Meldung der Kasse an das Finanzamt, wird diese Seriennummer benötigt. |
@@ -58,7 +58,7 @@ Hinweis:
 
 Zurzeit ist die Kassennummer das Kriterium, dass die TSE vorgibt.
 
-Somit ist dringend geraten bei TSE-Ersetzungen notwendig mit Speichern unter… in der TSE-Einrichtung zu arbeiten.
+Somit ist dringend geraten bei TSE-Ersetzungen notwendig mit ***Speichern unter…*** in der TSE-Einrichtung zu arbeiten.
 
 Nur das gewährleistet, dass auch alle Kassenvorgänge zum Export gefunden werden können. Sobald uns nähere Informationen zum konkreten Ablauf einer Kassenprüfung vor Ort vorliegen, ist eine Änderung auf die eindeutige Kassenfinanznummer denkbar.
 
@@ -80,7 +80,7 @@ Jede einzelne der Standard-Auslieferungsprozeduren kann privatisiert werden.
 
 Hinweis:
 
-Die Privatisierung ist für eine Übergangszeit (der Produkteinführung) hauptsächlich für den AMIC-Support und – Entwicklung ein Mittel vor Ort bei bestimmten Datenzusammenstellungen schnell und direkt reagieren zu können.
+Die ***Privatisierung*** ist für eine Übergangszeit (der Produkteinführung) hauptsächlich für den AMIC-Support und – Entwicklung ein Mittel vor Ort bei bestimmten Datenzusammenstellungen schnell und direkt reagieren zu können.
 
 Zu beachten ist, dass bei einem Programmupdate die Privatisierung Vorrang hat (das ist nicht immer gewollt, und deswegen wird das Feature in kommenden Versionen abgekündigt).
 
@@ -91,10 +91,10 @@ Zu beachten ist, dass bei einem Programmupdate die Privatisierung Vorrang hat (d
 
 | Feld | Beschreibung |
 | --- | --- |
-| Anzahl Privatisierungen | Auf der Registerkarte Aufbereitung sind die möglichen Privatisierungen der Aufbereitungsprozeduren der CSV-Tabellen pflegbar.  
+| Anzahl Privatisierungen | Auf der Registerkarte **Aufbereitung** sind die möglichen Privatisierungen der Aufbereitungsprozeduren der CSV-Tabellen pflegbar.  
 Auf dieser Registerkarte haben Sie schnell eine Übersicht, ob und wie viele Privatisierungen vorliegen. |
 | Taxonomie-Version | Die offizielle Taxonomie-Version, die durch den in A.eins implementierten SDFin-V_K-Export realisiert wird.  
-Diese Nummer wird durch das jeweilige A.eins-Release bestimmt, lässt sich durch die private Aufbereitungsprozedure p_DSFinV_K_cashpoint_closing_Load anpassen, wenn notwendig. |
+Diese Nummer wird durch das jeweilige A.eins-Release bestimmt, lässt sich durch die private Aufbereitungsprozedure ***p_DSFinV_K_cashpoint_closing_Load*** anpassen, wenn notwendig. |
 
 </details>
 
@@ -103,18 +103,18 @@ Diese Nummer wird durch das jeweilige A.eins-Release bestimmt, lässt sich durch
 
 | Kopfdaten | Beschreibung |
 | --- | --- |
-| Export Erzeugen (F10) | Generiert die Dateien und öffnet den Explorer.  
+| Export Erzeugen **(F10)** | Generiert die Dateien und öffnet den Explorer.  
    
 **Das Export-Verzeichnis ist fest vorgegeben. Vor jedem Export wird das Verzeichnis komplett gelöscht.** |
 | Export TAR Zeitraum … | Hinweis:  
-Diese Funktion sollte nach der Export Erzeugen\-Funktion aufgerufen werden, da das Verzeichnis gelöscht wird.  
+Diese Funktion sollte nach der ***Export Erzeugen***\-Funktion aufgerufen werden, da das Verzeichnis gelöscht wird.  
     
 Die Vorbelegung für die Zeiträume ist wie folgt:  
-Von: 1 Minute vor der zugehörigen Kasseneröffnung  
-Bis: 1 Minute nach dem zugehörigen Kassenabschluss.  
+**Von:** 1 Minute vor der zugehörigen Kasseneröffnung  
+**Bis:** 1 Minute nach dem zugehörigen Kassenabschluss.  
     
 Die erzeugte Tar-Datei enthält dann die zum Export-Zeitraum der Buchungen zugehörigen Transaktionen.  
-In welchen Umfang das Programm bei TSE unterstützen kann, die nicht mehr im Zugriff sind (Speichern unter\-Historie) steht noch nicht fest, dafür werden u. U. organisatorische Maßnahmen notwendig sein.  
+In welchen Umfang das Programm bei TSE unterstützen kann, die nicht mehr im Zugriff sind (**Speichern unter**\-**Historie**) steht noch nicht fest, dafür werden u. U. organisatorische Maßnahmen notwendig sein.  
     
 Das Verzeichnis ist mit dem des DSFinV-K-Exports identisch (..\\export\\dsfinv-k).  
     

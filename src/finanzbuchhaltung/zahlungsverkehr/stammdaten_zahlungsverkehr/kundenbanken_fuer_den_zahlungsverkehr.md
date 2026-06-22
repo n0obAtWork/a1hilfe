@@ -8,7 +8,7 @@ Direktsprung **[KU]** bzw. **[LF]**
 
 Kundenbanken sind die Bankverbindungen der Kunden und Lieferanten, die im Zahlungsverkehr verwendet werden. Der Stern in der ersten Spalte kennzeichnet die Bank, die beim automatischen Zahlungsverkehr herangezogen wird, falls mehrere Banken eingerichtet sind. e-Clearing verwendet diese Banken, um das Kundenkonto zu bestimmen.
 
-Im Kunden- /Lieferantenstamm ruft man das Personenkonto mit **F5** auf und gelangt dort über die Funktion ***Bankverbindungen*** **Shift+Strg F8** in die Erfassungsmaske. Zusätzlich existiert eine Auswahlliste (Direktsprung [KUBA]), in der sämtliche Kundenbanken angezeigt und bearbeitet werden können.
+Im Kunden- /Lieferantenstamm ruft man das Personenkonto mit **F5** auf und gelangt dort über die Funktion ***Bankverbindungen*** **Shift+Strg F8** in die Erfassungsmaske. Zusätzlich existiert eine Auswahlliste (Direktsprung **[KUBA]**), in der sämtliche Kundenbanken angezeigt und bearbeitet werden können.
 
 ![Ein Bild, das Tisch enthält. Automatisch generierte Beschreibung](../../../ImagesExt/image8_647.png "Ein Bild, das Tisch enthält. Automatisch generierte Beschreibung")
 
@@ -22,7 +22,7 @@ Im automatischen Zahlungsverkehr kann diese Maske an vielen Stellen direkt aufge
  | Die „International Bank Account Number“ - kurz IBAN- wird im Zahlungsverkehr immer wichtiger. In dem ab dem 28.01.2008 gestarteten SEPA Verfahren wird sie an Stelle der Kontonummer verwendet. Bei der Erfassung der Kundenbanken wird die IBAN für deutsche, österreichische und belgische Banken anhand eines Prüfzifferverfahrens überprüft.  
 Der Test der IBAN kann entweder für jede [Bank](./bankenstamm.md) oder global per [Steuerparameter](../../../firmenstamm/steuerparameter/optionen_finanzwesen/iban_test_nach_standard_pruefziffernverfahren_spa_897.md) abgeschaltet werden.  
 In der IBAN ist die Bankleitzahl und Kontonummer enthalten. Anhand der Bankleitzahl wird der Bankenstamm durchsucht und dann die Bank und Kontonummer eingetragen. Wird keine Bank vorgeschlagen ist entweder der Bankenstamm nicht korrekt gepflegt oder die IBAN ist nicht korrekt aufgebaut.  
-Die IBAN kann nachträglich über ein Funktion „Generiere IBAN“ im Pfleger für [Kundenbanken](../../../kunden_und_lieferanten/konstanten_bearbeitung/kundenbanken.md) (Direktsprung [KUBA]) für alle Kundenbanken mit eingetragener Bank und Kontonummer erzeugt werden.  
+Die IBAN kann nachträglich über ein Funktion „Generiere IBAN“ im Pfleger für [Kundenbanken](../../../kunden_und_lieferanten/konstanten_bearbeitung/kundenbanken.md) (Direktsprung **[KUBA]**) für alle Kundenbanken mit eingetragener Bank und Kontonummer erzeugt werden.  
  |
 | Bank  
  | Verweis auf die im [Bankenstamm](./bankenstamm.md) festgelegte Bank. Man kann direkt die Bezeichnung oder die BLZ eingeben. In der F3-Auswahl kann zusätzlich auch nach BIC oder der Banknummer gesucht werden. Es wird die BIC(Swift) dieser Bank angezeigt.  
@@ -34,7 +34,7 @@ Die IBAN wird ausschließlich von der kontoführenden Bank vergeben. Daher ist d
  |
 | Empfänger / Zahlungspflichtiger  
  | Dies ist der Empfänger/Zahlungspflichtige der beim automatischen Zahlungsverkehr verwendet wird. Ist dieses Feld leer, dann wird der im Kundenstamm hinterlegte Wert für den Zahlungsempfänger/Zahlungspflichtigen (Register Fibu-Merkmale) verwendet. Ist auch dieses Feld leer, dann wird die Kundenbezeichnung verwendet.  
-Änderungen in diesem Feld werden nicht sofort in Zahlungsvorschläge bzw. in den Zahlungsbeleg übernommen. Ist es notwendig für bereits erstellte Zahlungsvorschläge den Empfänger nachträglich zu ändern, kann man dies unter „Zahlungsvorschläge bearbeiten“ (Direktsprung [ZHVB]), dort dann den Eintrag des Personenkontos mit F5 bearbeiten und anschließend „Kundenbank ändern“ (SHF9) die Bankverbindung auswählen. Für noch nicht verarbeitete Zahlungsbelege kann man den Empfänger in der Anwendung „Zahlungen bearbeiten“ (Direktsprung [ZHB]) und dort F5 ändern.  
+Änderungen in diesem Feld werden nicht sofort in Zahlungsvorschläge bzw. in den Zahlungsbeleg übernommen. Ist es notwendig für bereits erstellte Zahlungsvorschläge den Empfänger nachträglich zu ändern, kann man dies unter „Zahlungsvorschläge bearbeiten“ (Direktsprung **[ZHVB]**), dort dann den Eintrag des Personenkontos mit **F5** bearbeiten und anschließend „Kundenbank ändern“ (**SHF9**) die Bankverbindung auswählen. Für noch nicht verarbeitete Zahlungsbelege kann man den Empfänger in der Anwendung „Zahlungen bearbeiten“ (Direktsprung **[ZHB]**) und dort F5 ändern.  
 Beim Scheckdruck kann das neue Feld “EmpfBezeich“ verwendet werden. Dies enthält – analog zum DTA – entweder die Kundenbezeichnung oder die hier eingetragene Bezeichnung.  
  |
 | Gegennummer | Analog zum Empfänger/Zahlungspflichtigen kann eine abweichende Gegennummer erfasst werden, die dann im DTA oder beim Scheckdruck an Stelle der Gegennummer aus dem Kundenstamm erscheint.  
@@ -74,7 +74,7 @@ BLZ und Kontonummer werden nur noch angezeigt bzw. abgefragt, wenn der Steuerpar
 3. „Im autom. Zahlungsverkehr Sperre und Ablaufdatum bei manueller Auswahl ignorieren“  
 Dieser Parameter gilt nur für die manuelle Auswahl der Kundenbank, z.B. wenn man die Kundenbank nach Erstellen der Zahlungsvorschläge manuell ändert.
 
-Neben der direkten Erfassung im Kunden und Lieferantenstamm existiert eine Anwendung Kundenbanken (Direktsprung [KUBA]) in der alle Kundenbanken aufgelistet werden. In den Varianten „Kundenbank“ und „Mandatsverwaltung“ werden einige Plausibilitätsprüfungen gemacht:
+Neben der direkten Erfassung im Kunden und Lieferantenstamm existiert eine Anwendung Kundenbanken (Direktsprung **[KUBA]**) in der alle Kundenbanken aufgelistet werden. In den Varianten „Kundenbank“ und „Mandatsverwaltung“ werden einige Plausibilitätsprüfungen gemacht:
 
 1) Blaue Schrift auf weißem Grund: Es handelt sich um einen gelöschten Kunden.
 

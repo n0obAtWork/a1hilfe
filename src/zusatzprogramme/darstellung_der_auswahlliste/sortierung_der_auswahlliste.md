@@ -8,8 +8,6 @@ In der Auswahlliste 2.0 wird diese Maske über das Darstellungsregister aufgeruf
 
 Um eine Auswahlliste oder eine F3-Auswahl im alten Design zu sortieren, kann über einen Mausklick auf eine Spaltenüberschrift die Sortierungsmaske aufgerufen und dort die Sortierung festgelegt werden. Hier wird die angewählte Spalte automatisch der Sortierung/Gruppierung in aufsteigender Richtung mit dem maximalen Index +1 hinzugefügt.
 
- 
-
 ![](../../ImagesExt/image8_1317.png)
 
 Folgende Felder werden in der Sortierungsmaske angezeigt:
@@ -26,6 +24,6 @@ Die alte Auswahlliste ignoriert die hier angegebenen Werte.
 | Richtung | Richtung der Sortierung und Gruppierung für die Spalte.  
  |
 
-Sortierung/Gruppierung löschen
+<p class="just-emphasize">Sortierung/Gruppierung löschen</p>
 
 Im Dialog kann die Sortierung für die darunter liegende Anwendungsvariante gelöscht (Funktion „Sortierung Löschen“ F7) werden.

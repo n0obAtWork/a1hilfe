@@ -4,7 +4,7 @@
 
 Es gibt UFLD-Felder, die lediglich zur Anzeige vorgesehen sind. Diese werden unter UFLD mit dem neuen Erfassungslevel "Keine Änderung" systemseitig gekennzeichnet. Dieser Erfassungslevel kann bei anderen UFLD-Feldern nicht durch den Bediener gesetzt werden. Dieser Erfassungslevel kam im Rahmen der eRechnungsintegration in die Software. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 744553[36647]
 

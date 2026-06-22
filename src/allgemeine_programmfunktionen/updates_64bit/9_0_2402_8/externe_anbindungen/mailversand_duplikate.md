@@ -4,7 +4,7 @@
 
 In der Anwendung [MAIL] werden Datensätze je Anhang (.pdf, .xml, etc) angezeigt. Das begründet sich in der Vorschau-Funktion dieser Anwendung. Leider führte dies jedoch beim Versenden dazu, dass pro Datensatz eine E-Mail mit allen Anhängen versendet wurde. Dieses Verhalten wurde angepasst. Es werden weiterhin Datensätze je Anhang angezeigt, jedoch führt die Versand-Funktion jeweils nur noch einen Versand mit allen Anhängen aus.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 741775[36096]
 

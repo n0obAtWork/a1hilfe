@@ -4,7 +4,7 @@
 
 Hauptmenü > Kontraktverwaltung > Kontrakt Stammdaten
 
-oder [KTR]
+oder **[KTR]**
 
 In der Variante „Kontraktbewegung mit Washout und Circle“ werden alle Vorgänge angezeigt die an einem Washout oder Circle beteiligt sind.
 

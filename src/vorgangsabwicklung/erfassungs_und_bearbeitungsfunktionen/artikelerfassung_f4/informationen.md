@@ -2,6 +2,6 @@
 
 <!-- source: https://amic.de/hilfe/informationen1.htm -->
 
-Warenbuchanzeige (SF2)
+<p class="just-emphasize">Warenbuchanzeige (SF2)</p>
 
-Verzweig in den Bereich Warenbuchauswertung [WBA]. Übergeben werden die Parameter Kunden- und Artikelnummer.
+Verzweig in den Bereich Warenbuchauswertung **[WBA]**. Übergeben werden die Parameter Kunden- und Artikelnummer.

@@ -24,21 +24,21 @@ Es ist dringend empfohlen, dass Artikel nur mit Partie oder komplett ohne Partie
 
 Nähere Informationen zum technischen Ablauf von Buchungen von Artikeln und Partien entnehmen Sie dem Abschnitt [techn. Informationen Buchungen](./techn_informationen_buchungen.md)
 
-Mengenbuchung
+<p class="just-emphasize">Mengenbuchung</p>
 
 Die erfasste Menge wird dem zum Zeitpunkt der Erfassung festgestellten Soll-Bestand gegenübergestellt.
 
-Wertbuchung
+<p class="just-emphasize">Wertbuchung</p>
 
-In Abhängigkeit des [SPA 1072 – Bewertungsverhalten permanente Inventur](../../../firmenstamm/steuerparameter/mde_prozeduren_einzelhandel_spa_1059/permanente_inventur_bewertungsverhalten_spa_1072.md) wird die Inventur an dieser Stelle bewertet (0) oder die Bewertung wird erst am Jahresende (1) vorgenommen werden.
+In Abhängigkeit des [SPA 1072 – Bewertungsverhalten permanente Inventur](../../../firmenstamm/steuerparameter/mde_prozeduren_einzelhandel_spa_1059/permanente_inventur_bewertungsverhalten_spa_1072.md) wird die Inventur an dieser Stelle bewertet (**0**) oder die Bewertung wird erst am Jahresende (**1**) vorgenommen werden.
 
-Die Ware wird hier mit dem aktuellen Bewertungspreis ausgebucht und mit dem eingegebenen (0) bzw. aktuellen Bewertungspreis (1) eingebucht.
+Die Ware wird hier mit dem aktuellen Bewertungspreis ausgebucht und mit dem eingegebenen (**0**) bzw. aktuellen Bewertungspreis (**1**) eingebucht.
 
-FiBu-Buchung
+<p class="just-emphasize">FiBu-Buchung</p>
 
-Vor der Einstellung in die FiBu muss sichergestellt sein, dass ein gültiger Einbuchpreis angegeben wurde. Ein Preis 0 muss, wenn er gewollt ist als NULLPREIS gekennzeichnet sein.
+Vor der Einstellung in die FiBu muss sichergestellt sein, dass ein gültiger Einbuchpreis angegeben wurde. Ein Preis **0** muss, wenn er gewollt ist als NULLPREIS gekennzeichnet sein.
 
-Buchung nach Buchungsschluss
+<p class="just-emphasize">Buchung nach Buchungsschluss</p>
 
 Es kann vorkommen, dass am Ende des Geschäftsjahres die Buchungsperiode zur Sicherheit abgeschlossen wird, um versehentliche weitere Buchungen in dieser Periode zu vermeiden. In diesem Fall würde auch der Bestandsbuchungsbeleg nicht vom LVS aus erzeugt werden können.
 

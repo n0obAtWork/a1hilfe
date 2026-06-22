@@ -4,7 +4,7 @@
 
 In den Hausbanken kann man jetzt pro Hausbank festlegen, ob der einfache oder der erweiterte Zeichensatz (mit Umlauten und den Sonderzeichen &$%\*) verwendet werden soll. Vorbelegung ist der erweiterte Zeichensatz.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 749003[37862]
 

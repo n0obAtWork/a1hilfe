@@ -4,7 +4,7 @@
 
 Beim Aufruf der Konteninformation aus der OP-Verwaltung heraus wurde die Jahrnummer nicht korrekt übergeben. Dies ist behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 751075[38462]
 

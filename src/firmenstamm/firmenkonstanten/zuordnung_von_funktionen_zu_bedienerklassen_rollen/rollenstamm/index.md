@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Firmenkonstanten > Zugriffsrechte Rolle > Rollenstamm
 
-oder Direktsprung [ROLLE]
+oder Direktsprung **[ROLLE]**
 
 Es ergibt sich für jeden Kontext „Listen“ von Bedienerklassen, die die Funktion ausführen dürfen. Eine Rolle ist ein Synonym für eine solche Liste. Es ist eine bis zu 255 Zeichen umfassende freiwählbare Zeichenkette, die innerhalb der Rollen eindeutig sein muss.
 
@@ -44,21 +44,21 @@ Rundet die Übersicht in Kombination mit „Bedienerklassen dürfen“ ab: Je na
 
 | Funktionen |
 | --- |
-| Neu (F8) | Anlage einer neuen Rolle.  
+| Neu (**F8**) | Anlage einer neuen Rolle.  
 Für Details siehe [Rollenpfleger](./rollenstamm_pfleger.md). |
-| Ändern (F5) | Ändern einer Rolle  
+| Ändern (**F5**) | Ändern einer Rolle  
 Als Besonderheit beinhaltet diese Funktion auch das „Umbenennen einer Rolle, sowie über „Speichern unter“ das Erzeugen einer neuen Rolle mit Vorgabe der Bedienerklassenzuordnung der Vorlage.  
 Für Details siehe Rollenpfleger. |
-| Ansehen (F6) | Ansehen der Bedienerklassenzuordnung.  
+| Ansehen (**F6**) | Ansehen der Bedienerklassenzuordnung.  
 Für Details siehe [Rollenpfleger](./rollenstamm_pfleger.md). |
-| Löschen (F7) | Löscht eine Rolle.  
+| Löschen (**F7**) | Löscht eine Rolle.  
 Allerdings nicht die Controller-Rolle und ebenso keine Rolle die zugeordnete Rollenkontexte hat!  
 Für Details siehe [Rollenpfleger](./rollenstamm_pfleger.md). |
-| Rollen tauschen (F9) | Hiermit lassen sich von zwei Rollen die Bedienerklassenzuordnung und/oder die Rollenkontexte austauschen.  
+| Rollen tauschen (**F9**) | Hiermit lassen sich von zwei Rollen die Bedienerklassenzuordnung und/oder die Rollenkontexte austauschen.  
 Für Details siehe „[Rollen tauschen](./rollen_tauschen.md)“. |
-| Rollen vereinigen (Shift+F9) | Vereinigt ausgewählte Rolle in einer Ziel-Rolle. Die Ziel-Rolle kann dabei entweder eine neue oder eine der beteiligten Rollen sein. Nach der Operation besitzt die Ziel-Rolle die Vereinigung aller Bedienerklassen der beteiligten Rollen und alle betroffenen Rollenkontexte der involvierten Rollen sind der Zielrolle zugeordnet.  
+| Rollen vereinigen (**Shift+F9**) | Vereinigt ausgewählte Rolle in einer Ziel-Rolle. Die Ziel-Rolle kann dabei entweder eine neue oder eine der beteiligten Rollen sein. Nach der Operation besitzt die Ziel-Rolle die Vereinigung aller Bedienerklassen der beteiligten Rollen und alle betroffenen Rollenkontexte der involvierten Rollen sind der Zielrolle zugeordnet.  
 Für Details siehe „[Rollen vereinigen](./rollen_vereinigen.md)“. |
-| Rollenkontexte (F10) | Ruft die Anwendung „Diese Funktionen“ auf, die eine Spezialisierung einer Variante der Rollenkontexte ist und nur die Mitglieder dieser Rolle anzeigt. |
+| Rollenkontexte (**F10**) | Ruft die Anwendung „Diese Funktionen“ auf, die eine Spezialisierung einer Variante der Rollenkontexte ist und nur die Mitglieder dieser Rolle anzeigt. |
 
 </details>
 

@@ -4,7 +4,7 @@
 
 Die Performance beim Bereitstellen der Daten im Viewer von Crystal Report wurde verbessert. Außerdem werden, wenn man den Export aus dem Viewer heraus aufruft, die Daten nicht mehr erneut gelesen, was auch zu einer weiteren Verbesserung der Performance führt. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 736622[35470]
 

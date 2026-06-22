@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Lagerverwaltungssystem > Lokalitäten
 
-Direktsprung [LVSLK]
+Direktsprung **[LVSLK]**
 
 Eine Lokalität ist ein Ort, auf dem sich ein oder mehrere Ladeträger befinden können. Ein Lokalität kann ein Lager, ein Lagerplatz, eine Maschine oder eine Waage sein. Die Lokalität ist an ein Lager gebunden.
 
@@ -12,7 +12,7 @@ In der Auswahlliste werden die Daten der Lokalitäten angezeigt. Zusätzlich wer
 
 Die Bearbeitungsmaske ist in folgende Bereiche aufgeteilt.
 
-Kopfdaten
+<p class="just-emphasize">Kopfdaten</p>
 
 | Feldname | Bedeutung |
 | --- | --- |
@@ -21,7 +21,7 @@ Kopfdaten
 | [Lokalitätstyp](./lokalitaetstyp.md) | Typ der Lokalität |
 | Lager | Lagernummer der Lokalität |
 
-Registerkarte Dimension
+<p class="just-emphasize">Registerkarte Dimension</p>
 
 Die Dimensionsfelder können per Einrichterparameter vorbelegt werden. Sollte für eine/mehrere Dimensionen eine Vorbelegung vorhanden sein, so kann diese auf der Maske nicht geändert werden.
 
@@ -43,7 +43,7 @@ Als Wert für die Dimension kann ein Text eingegeben werden. |
 | Breite / Mengeneinheit | |
 | Höhe / Mengeneinheit | |
 
-Registerkarte Definition
+<p class="just-emphasize">Registerkarte Definition</p>
 
 Die Einstellungen auf dieser Registerkarte sind nur für Spezialanwendungen im Lagerverwaltungssystem und werden im Standard nicht ausgewertet.
 
@@ -56,7 +56,7 @@ Die Einstellungen auf dieser Registerkarte sind nur für Spezialanwendungen im L
 | Automatische Boxenanlage | Hier kann eingestellt werden, ob an der Lokalität Ladeträger automatisch angelegt werden dürfen. |
 | Waagenvorlage | Hier kann die Waagenvorlage hinterlegt werden, die beim Erzeugen des Rohwarenbeleges verwendet werden soll. |
 
-Registerkarte Maschine
+<p class="just-emphasize">Registerkarte Maschine</p>
 
 Die Einstellungen auf dieser Registerkarte sind nur für Spezialanwendungen im Lagerverwaltungssystem und werden im Standard nicht ausgewertet.
 

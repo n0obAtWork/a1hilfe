@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_Frachten_Zone.htm -->
 
-Nebenbuchhaltungen > Frachtverwaltung > Frachttabellen [FRA] > Frachtzonen
+Nebenbuchhaltungen > Frachtverwaltung > Frachttabellen **[FRA]** > Frachtzonen
 
 | Frachtzonen | |
 | --- | --- |

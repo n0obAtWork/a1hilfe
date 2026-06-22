@@ -2,13 +2,13 @@
 
 <!-- source: https://amic.de/hilfe/_endkontrolle_einspielung_kunden.htm -->
 
-Neuanlage eines Imports
+<p class="just-emphasize">Neuanlage eines Imports</p>
 
-Mit F8 kann ein neuer Kundenimport angelegt werden.
+Mit **F8** kann ein neuer Kundenimport angelegt werden.
 
-Mit F5 können Datensätze, die über den Stammdatenimport ins System gekommen sind, bearbeitet und korrigiert werden.
+Mit **F5** können Datensätze, die über den Stammdatenimport ins System gekommen sind, bearbeitet und korrigiert werden.
 
-Tabreiter übergreifende Felder
+<p class="just-emphasize">Tabreiter übergreifende Felder</p>
 
 | Eingabefelder | Bedeutung |
 | --- | --- |
@@ -29,11 +29,11 @@ Der Kundentyp ist ein Pflichtangabe.
 
 In Abhängig vom Kundentyp werden im Musterkunden die Musterkunden des Kundentyp angezeigt.
 
-Musterkunden werden in [KU] der Variante Musterkunde angelegt.
+Musterkunden werden in **[KU]** **der Variante Musterkunde angelegt.**
 
-Der Musterkunde ist ein Pflichtfeld. Aus dem Musterkunden werden sehr viel Daten für den Import genommen.
+**Der Musterkunde ist ein Pflichtfeld. Aus dem Musterkunden werden sehr viel Daten für den Import genommen.**
 
-Tabreiter Adresse
+<p class="just-emphasize">Tabreiter Adresse</p>
 
 | Eingabefelder | Bedeutung |
 | --- | --- |
@@ -58,7 +58,7 @@ Tabreiter Adresse
 | Telefax | Telefaxnummer des Kunden  
  |
 
-Tabreiter Zusatzinfo/Bank
+<p class="just-emphasize">Tabreiter Zusatzinfo/Bank</p>
 
 | Eingabefelder | Bedeutung |
 | --- | --- |
@@ -79,7 +79,7 @@ Tabreiter Zusatzinfo/Bank
 | Bankkonto | Bankkonto des Kunden  
  |
 
-Tabreiter FiBu-Daten
+<p class="just-emphasize">Tabreiter FiBu-Daten</p>
 
 | Eingabefelder | Bedeutung |
 | --- | --- |
@@ -112,7 +112,7 @@ Tabreiter FiBu-Daten
 
 Die Forderungsgruppe ist ein Pflichtfeld beim Kunden und muss ausgefüllt sein, damit der Import funktioniert. Ansonsten gibt es beim Import den Fehler, dass die Daten nicht plausibel sind.
 
-Tabreiter Vorgangs-Daten
+<p class="just-emphasize">Tabreiter Vorgangs-Daten</p>
 
 | Eingabefelder | Bedeutung |
 | --- | --- |
@@ -135,7 +135,7 @@ Die Steuergruppe ist ein Pflichtfeld beim Kunden und muss ausgefüllt sein, dami
 
 Wenn man mit den Daten aller zu importierenden Kunden einverstanden ist, dann wählt man im Rechtemaustastenmenü die Funktion *\-> A.eins Kunden* aus und startet den Import.
 
-Importprozeduren
+<p class="just-emphasize">Importprozeduren</p>
 
 Für den Import sind die Prozeduren *amic_kunden_insupd* und *amic_muster_kunden_abgleich* verantwortlich.
 

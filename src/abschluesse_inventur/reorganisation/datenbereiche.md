@@ -6,18 +6,18 @@ Im Bereich der Waren
 
 wirtschaft werden folgende Datenbereiche unterschieden:
 
-Belege
+<p class="just-emphasize">Belege</p>
 
 Die Gesamtsummen der Rechnungen (RE), Gutschriften (GU) Eingangsrechnungen (ER), Eingangsgutschriften (EG) und der entsprechenden Stornierungen
 
-Warenbuch
+<p class="just-emphasize">Warenbuch</p>
 
 Die Einzelzeilen der o.a. Belege (Warenpositionen mit zugeh. Rabatten, Zu- / Abschlägen, Frachten etc.)
 
-Artikelsummen
+<p class="just-emphasize">Artikelsummen</p>
 
 Die auf Artikel und Periodenebene aufsummierten Ergebnisse der Einzelbewegungen
 
-Fibu
+<p class="just-emphasize">Fibu</p>
 
 Die durch den Fibuübertrag aus der Ware gebuchten Belegwerte

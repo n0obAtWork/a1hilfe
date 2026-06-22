@@ -4,7 +4,7 @@
 
 Ein kaputter Link in der Hilfe zu Verbotslisten wurde ersetzt. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 736584[35497]
 

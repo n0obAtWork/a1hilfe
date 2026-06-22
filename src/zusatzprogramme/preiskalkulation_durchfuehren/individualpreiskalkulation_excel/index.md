@@ -4,7 +4,7 @@
 
 Hauptmenü > Preise / Konditionen > Preiskalkulation tabellarisch > Individualpreiskalkulation Excel
 
-Direktsprung [PKXI]
+Direktsprung **[PKXI]**
 
 Mit der Anwendung **Individualpreiskalkulation Excel** können Individualpreise vom Typ Einkauf oder Verkauf in Excel bearbeitet und anschließend in A.eins importiert werden.
 
@@ -12,7 +12,7 @@ Voraussetzung für die Nutzung der Funktionen ist eine Excel-Individualpreiskalk
 
 Initial werden dazu die Individualpreisdaten in eine Excel-Datei exportiert und können dann mit Excel oder einer alternativen Anwendung gepflegt werden. Der anschließende Import der Excel-Datei geschieht über den Excel-Archivimport, der die Preise dem Archiv hinzufügt und als XML in A.eins importiert. Die neuen Individualpreise gelangen so direkt via Datenbankprozedur in die A.eins Stammdaten. Über eine Protokollfunktion in der Variante **Individualpreise Protokoll** können die kalkulierten Preise jederzeit wieder aufgerufen und erneut importiert werden.
 
-Neue Individualpreise in A.eins®
+<p class="just-emphasize">Neue Individualpreise in A.eins®</p>
 
 Voraussetzungen:
 
@@ -36,7 +36,7 @@ Der Import über die Anwendung **Individualpreiskalkulation Excel** setzt sich a
 
 • [Import-Protokoll prüfen](./import_protokoll_pruefen.md)
 
-Weitere Funktionen in der Individualpreiskalkulation
+<p class="just-emphasize">Weitere Funktionen in der Individualpreiskalkulation</p>
 
 Zudem kann die Individualpreiskalkulation gedruckt oder weitergeleitet werden.
 

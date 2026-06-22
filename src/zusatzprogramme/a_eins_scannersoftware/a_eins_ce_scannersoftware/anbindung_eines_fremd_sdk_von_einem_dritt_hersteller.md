@@ -6,7 +6,7 @@ Es wurde die Möglichkeit geschaffen, einen anderen Scannerhersteller mit der So
 
 Hierbei muss nur beachtet werden, dass für das Betriebssystem Windows CE die Version A.eins.CE benutzt wird und für die Windows Mobile Version die Software A.eins.WM.
 
-Erstellen einer DLL zur Anbindung eines Scanners
+<p class="just-emphasize">Erstellen einer DLL zur Anbindung eines Scanners</p>
 
 Voraussetzungen
 

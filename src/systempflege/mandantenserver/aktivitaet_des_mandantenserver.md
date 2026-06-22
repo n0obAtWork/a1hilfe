@@ -4,7 +4,7 @@
 
 Hauptmenü > Systempflege > Mandantenserver > Mandantenserver-Info
 
-Direktsprung [MSI]
+Direktsprung **[MSI]**
 
 | Dialog-Felder | Mandantenserver |
 | --- | --- |

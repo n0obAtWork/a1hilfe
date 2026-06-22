@@ -4,7 +4,7 @@
 
 Die Maske, die Bestände und Mengen aus der Warenpositonsmaske anzeigt, konnte nicht korrekt geöffnet werden.Dies wurde korrigiert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 748438[37605]
 

@@ -4,7 +4,7 @@
 
 Beim Kundenwechsel von einem nachhaltigen Kunden zu einem nicht nachhaltigen Kunden bzw. umgekehrt, ist im Behandlungsschema einstellbar, wie mit dieser Situation verfahren werden soll. Hier sind Abbruch oder Fortsetzung mit und ohne Warnung möglich. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 727582[34422]
 

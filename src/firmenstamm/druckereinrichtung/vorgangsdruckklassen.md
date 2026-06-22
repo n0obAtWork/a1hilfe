@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Drucker > Vorgangdruckklassen
 
-oder Direktsprung [VRGD]
+oder Direktsprung **[VRGD]**
 
 Zuordnung der Vorgangsdruckerklassen zu den einzelnen Vorgangsklassen, wie z.B. Nr. 600 für Lieferschein
 
@@ -24,9 +24,9 @@ Definieren Sie zu welcher Vorgangsklasse/Unterklasse diese Druckklasse gültig s
 
 Hauptmenü > Administration > Drucker > Vorgangdruckklassen
 
-oder Direktsprung [VRGD]
+oder Direktsprung **[VRGD]**
 
-Mit Hilfe der Funktion Formulare / Drucker zuordnen F5 definieren Sie, auf welchem Drucker, mit welchem Schacht, mit welchem Formular der Druck mit/ohne openTRANS mit/ohne Mailversand wie oft gedruckt werden soll.
+Mit Hilfe der Funktion ***Formulare / Drucker zuordnen F5*** definieren Sie, auf welchem Drucker, mit welchem Schacht, mit welchem Formular der Druck mit/ohne openTRANS mit/ohne Mailversand wie oft gedruckt werden soll.
 
 | Spalte | Beschreibung |
 | --- | --- |

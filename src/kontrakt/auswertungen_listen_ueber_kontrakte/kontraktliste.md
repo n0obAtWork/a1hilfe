@@ -4,4 +4,4 @@
 
 Hauptmenü > Kontraktverwaltung > Kontraktliste
 
-oder Direktsprung [KTL]
+oder Direktsprung **[KTL]**

@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_Frachten_FRAG.htm -->
 
-Nebenbuchhaltungen > Frachtverwaltung > Frachttabellen [FRA] > Frachtgruppen [FRAG]
+Nebenbuchhaltungen > Frachtverwaltung > Frachttabellen **[FRA]** > Frachtgruppen **[FRAG]**
 
 Artikel können eine Frachtgruppe und/oder eine individuelle Frachtgruppe sowohl im Einkauf als auch im Verkauf zugeordnet bekommen. Diese beschreibt jeweils die Zugehörigkeit zu einer Gruppe von Artikeln, für die für Kunden und Lieferanten mit einer dort zugeordneten Frachtklasse beziehungsweise individuellen Frachtklasse zugeordnete Fracht berechnet wird.
 

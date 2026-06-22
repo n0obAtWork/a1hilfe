@@ -4,7 +4,7 @@
 
 Die Verwendung der Vorgangsnachverfolgung [VNV] funktionierte nur dann korrekt, wenn das Einstiegsverhalten der Variante im Bereichsfilter auf "Daten sofort anzeigen" stand. Das Problem wurde behoben. Bis zur Installation der neuen Version bitte das zentrale Einstiegsverhalten auf "Daten sofort anzeigen" stellen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 723328[33862]
 

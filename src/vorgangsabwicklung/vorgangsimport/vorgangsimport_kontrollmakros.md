@@ -4,13 +4,13 @@
 
 Während des laufenden Vorgangsimports können an verschiedenen Stellen Kontrollmakros angeschlossen werden, die einen Eingriff in den laufenden Import ermöglichen.
 
-Dazu kann ein Vorgangsimportkontrollmakro als Makro 2.0 [CSM] oder als Pascal Makro erstellt werden.
+Dazu kann ein Vorgangsimportkontrollmakro als Makro 2.0 **[CSM]** oder als Pascal Makro erstellt werden.
 
 In der Vorgangsunterklassendefinition der zu importierenden Vorgangs(unter)klasse kann nun dieses Makro als „Vorgangsimport Kontrollmakro“ eingetragen werden.
 
 Es gibt folgende Einsprungpunkte im C# Makro:
 
-Vorgangs-Methoden:
+<p class="just-emphasize">Vorgangs-Methoden:</p>
 
 vimp_Vorgang_vor_Neu
 
@@ -26,7 +26,7 @@ vimp_Vorgang_nach_Speichern
 
 Wird direkt vor dem Speichern des Vorgangs aufgerufen. Als Parameter wird die ivs_guid aus der Tabelle Importvorgstamm gegeben.
 
-Positions-Methoden:
+<p class="just-emphasize">Positions-Methoden:</p>
 
 vimp_Position_vor_Neu
 
@@ -48,7 +48,7 @@ Pascal Makro:
 
 Im Pascal Makro gibt es die gleichen Einsprungspunkte wie im C# Makro, diese müssen aber anders angesprochen werden. Die Einstiegspunkte werden mittels JVAR aus dem Vorgangsimport übergeben. Als Beispiel Pascal Makro dient das Makro „**VIMP_BeispielMakro**“. In diesem Makro sind die Übergabeparameter und der Inhalt der JAVRS erklärt.
 
-LVS-Methoden:
+<p class="just-emphasize">LVS-Methoden:</p>
 
 Beim Vorgangsimport der LVS-Klasse (5150) werden andere Makroeinsprungpunkte genutzt.
 

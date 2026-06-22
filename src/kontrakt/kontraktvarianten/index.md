@@ -4,7 +4,7 @@
 
 Hauptmenü > Kontraktverwaltung > Kontraktvarianten
 
-oder Direktsprung [KTVA]
+oder Direktsprung **[KTVA]**
 
 Als Kontrakt-Variante wird die Steuerung für die Druck-Aufbereitung optisch identisch aufzubereitender Kontrakte bezeichnet.
 

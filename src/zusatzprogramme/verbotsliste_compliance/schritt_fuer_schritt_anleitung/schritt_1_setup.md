@@ -12,15 +12,15 @@ Um die Sanktionslistenprüfung in A.eins zu nutzen, braucht man einen Zugang zu 
 <details>
 <summary>Schritt 1.2: Steuerparameter konfigurieren.</summary>
 
-Mit dem Direktsprung [SPA] gelangt man in die Übersicht der Steuerparameter. Dort kann man mit F2 nach der Bezeichnung „Verbot“ suchen und bekommt die Übersicht aller Steuerparameter für Compliance angezeigt, indem man mit F9 die Suche speichert.
+Mit dem Direktsprung **[SPA]** gelangt man in die Übersicht der Steuerparameter. Dort kann man mit **F2** nach der Bezeichnung „Verbot“ suchen und bekommt die Übersicht aller Steuerparameter für Compliance angezeigt, indem man mit **F9** die Suche speichert.
 
 ![](../../../ImagesExt/image8_1388.jpg)
 
-SPA 707:
+<p class="just-emphasize">SPA 707:</p>
 
 Dieser Steuerparameter ist die Lizenz für dieses Modul und nach dem Erwerb zu aktivieren.
 
-SPA 1063:
+<p class="just-emphasize">SPA 1063:</p>
 
 Der Steuerparameter 1063 für das Compliancemodul beinhalten Prozeduren, welche die Abfragen der Adress/Personendaten beeinflussen. Da diese in der Komplexität recht anspruchsvoll werden können, muss dies von unserem Amic Support angepasst werden.
 
@@ -46,7 +46,7 @@ Als Standardbeispiel wird hier die Prozedur „AMIC_DEMO_COMPLIANCE_CYCLE_CHECK�
 
 ![Ein Bild, das Tisch enthält. Automatisch generierte Beschreibung](../../../ImagesExt/image8_1389.jpg "Ein Bild, das Tisch enthält. Automatisch generierte Beschreibung")
 
-SPA 824:
+<p class="just-emphasize">SPA 824:</p>
 
 Der Steuerparameter 824 gibt an, wie viele Tage A.eins die Adress/Personendaten nicht erneut prüft, wenn diese bereits positiv waren.
 
@@ -57,7 +57,7 @@ Der Steuerparameter 824 gibt an, wie viele Tage A.eins die Adress/Personendaten 
 <details>
 <summary>Schritt 1.3: AEB Zugang (Einbindung A.eins)</summary>
 
-Um den Zugang zu AEB in A.eins einzubinden, muss man die Zugangsdaten, welche von AEB bereitgestellt werden, in den Mandantenstamm eintragen. Dafür mit dem Direktsprung [MND] in den Mandantenstamm und dort auf das Register „Verbotsliste“ wechseln. Hier werden nun die Zugangsdaten eingetragen und das Profil auf den Wert *„DEFAULT“* gesetzt.
+Um den Zugang zu AEB in A.eins einzubinden, muss man die Zugangsdaten, welche von AEB bereitgestellt werden, in den Mandantenstamm eintragen. Dafür mit dem Direktsprung **[MND]** in den Mandantenstamm und dort auf das Register „Verbotsliste“ wechseln. Hier werden nun die Zugangsdaten eingetragen und das Profil auf den Wert *„DEFAULT“* gesetzt.
 
 ![](../../../ImagesExt/image8_1391.jpg)
 
@@ -66,7 +66,7 @@ Um den Zugang zu AEB in A.eins einzubinden, muss man die Zugangsdaten, welche vo
 <details>
 <summary>Schritt 1.4: Mandantenserver Prozess einrichten</summary>
 
-Mit dem Direktsprung [MSP] gelangt man in die Auswahlliste der Mandantenserverprozesse. Dort erstellt man mit Neu (F8) einen neuen Datensatz. Zudem muss man die Maske 1:1 wie im folgenden Bild einrichten und dann mit Speichern (F9) abspeichern:
+Mit dem Direktsprung **[MSP]** gelangt man in die Auswahlliste der Mandantenserverprozesse. Dort erstellt man mit ***Neu*** **(F8)** einen neuen Datensatz. Zudem muss man die Maske 1:1 wie im folgenden Bild einrichten und dann mit ***Speichern*** **(F9)** abspeichern:
 
 ![](../../../ImagesExt/image8_1392.png)
 

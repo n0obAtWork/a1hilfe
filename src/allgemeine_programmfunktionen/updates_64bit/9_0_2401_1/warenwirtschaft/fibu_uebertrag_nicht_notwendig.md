@@ -4,7 +4,7 @@
 
 Belege, die nicht in die Fibu übertragen werden müssen, z.B. weil sie mittels Storno-Beleg storniert wurden, erzeugten bisher die Meldung "Der Beleg ist bereits an FiBu übertragen". Das führte zu Verwirrung. Deshalb wird nun die Meldung "Beleg muss nicht an die Fibu übertragen werden" ausgegeben. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 726369[34183]
 

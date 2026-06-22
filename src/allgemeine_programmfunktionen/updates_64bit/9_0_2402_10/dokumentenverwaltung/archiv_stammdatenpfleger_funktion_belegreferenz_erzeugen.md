@@ -4,7 +4,7 @@
 
 Die Funktion "Beleg-Referenz erzeugen" verwendet nun das Belegdatum. Damit ist gewährleistet das man nach Pflege der entsprechenden Eingabefelder die gewünschte Jahrnummer erhält. Somit besteht die Möglichkeit ein Dokument mit dem anvisierten Vorgang zu referenzieren.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 741264[36248]
 

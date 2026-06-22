@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Firmenkonstanten > Bedienerklassen
 
-oder Direktsprung [BDKL]
+oder Direktsprung **[BDKL]**
 
 Bedienerklassen fassen Mitarbeiter mit gleichen Rechten zusammen; sie dienen also somit einer Strukturierung der Rechtevergabe.
 
@@ -46,12 +46,12 @@ In der Variante „Bedienerklasse“ stehen folgende Funktionen zur Verfügung.
 
 | Funktionen | Beschreibung |
 | --- | --- |
-| Ändern (F5), Ansehen (F6), Löschen (F7), Neu (F8) | Ruft den [Bedienerklasse: Pfleger](./bedienerklasse_pfleger.md) auf. Innerhalb dieser Funktion lässt sich mit Speichern unter… eine neue Bedienerklasse erzeugen.  
+| Ändern **(F5)**, Ansehen **(F6)**, Löschen **(F7)**, Neu **(F8)** | Ruft den [Bedienerklasse: Pfleger](./bedienerklasse_pfleger.md) auf. Innerhalb dieser Funktion lässt sich mit ***Speichern unter…*** eine neue Bedienerklasse erzeugen.  
 Dabei werden dann auch sämtliche Schutzeinstellungen der Funktionen ([Zugriffsrechte Funktionen](../../zugriffsrechte_funktionen.md)) übernommen. |
-| EPAs zeigen (F10) | Individuelle Steuerungen von Abläufen können in Anwendungen über Einrichterparameter (EPA) vorgenommen werden.  
+| EPAs zeigen **(F10)** | Individuelle Steuerungen von Abläufen können in Anwendungen über Einrichterparameter (EPA) vorgenommen werden.  
 Diese Funktion ruft die entsprechende Anwendung zur Ansicht und Pflege der Einrichterparameter auf.  
 Hauptmenü \> Administration \> Steuerung \> EPAs zeigen  
-Direktsprung [EPAZ] |
+Direktsprung **[EPAZ]** |
 
 </details>
 

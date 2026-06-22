@@ -4,7 +4,7 @@
 
 Hauptmenü > Nebenbuchhaltungen > Vertreterabrechnung > Vertreterabrechnung
 
-Direktsprung [VERA]
+Direktsprung **[VERA]**
 
 Hier findet die eigentliche Vertreterabrechnung statt. Dabei stehen 5 Varianten zur Verfügung.
 

@@ -6,7 +6,7 @@
 
 Die interne Verwaltung von Archiv-Darstellungskomponenten wurde verbessert. Das gelegentlich aufgetretene Problem mit der Meldung "Retriever.Worker" wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 720072[33465]
 

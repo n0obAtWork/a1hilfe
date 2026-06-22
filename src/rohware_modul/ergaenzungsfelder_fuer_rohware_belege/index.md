@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/ergnzungsfelderfrrohwarebelege.htm -->
 
-Allgemeines
+<p class="just-emphasize">Allgemeines</p>
 
 Zusätzlich zu den in der Rohware-Bearbeitung erfassbaren Standardwerten gibt es die Möglichkeit, bis zu 12 weitere frei definierbare Werte in einem Rohwarebeleg zu erfassen.
 

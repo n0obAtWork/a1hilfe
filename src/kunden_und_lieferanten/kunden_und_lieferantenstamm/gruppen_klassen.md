@@ -109,7 +109,7 @@ Bei bestimmten Formularen soll parallel ein Zweitdruck erfolgen (Ladeschein)
 Um in A.eins Folgebelege zu drucken gibt es die Möglichkeit der Einrichtung von Unterklassen in den Vorgangsdruckklassen. Hierbei stehen die Daten, die im "führenden" Vorgang zur Verfügung sind, auch in den Vorgangsunterklassen zur Verfügung.
 
 In Verbindung mit einer entsprechenden Formularerstellung und – Zuordnung können so die unterschiedlichsten Darstellungsformen der Vorgangsdaten erreicht werden.  
-Mit dem Direktsprung [VRGD] gelangt man in den Auswahlbildschirm, wo die bereits eingerichteten Vorgangsdruckklassen angezeigt werden. Hier können Vorgangs­unterklassen mit verschiedenen Formularen eingerichtet und verschie­denen Druckern zugewiesen werden.
+Mit dem Direktsprung **[VRGD]** gelangt man in den Auswahlbildschirm, wo die bereits eingerichteten Vorgangsdruckklassen angezeigt werden. Hier können Vorgangs­unterklassen mit verschiedenen Formularen eingerichtet und verschie­denen Druckern zugewiesen werden.
 
 Vorbedingungen einer Realisierung von Folgebelegen mit Hilfe der Vorgangs­druck­klassen sind dabei:
 
@@ -121,10 +121,10 @@ Die entsprechenden Formulare müssen im Formulareinrichter eingerichtet und in d
 
 Die Eingabe erfolgt in folgenden Schritten:
 
-Als erster Schritt erfolgt die Einrichtung der einzelnen Belege unter dem Direktsprung [VRGD], wo die Vorgangsdruckklassen mit der Funktion Neu angelegt werden.  
+Als erster Schritt erfolgt die Einrichtung der einzelnen Belege unter dem Direktsprung **[VRGD]**, wo die Vorgangsdruckklassen mit der Funktion ***Neu*** angelegt werden.  
 Durch Eingabe von weiteren Vorgangsklassen (hier Lieferschein) können dann dem "angebundenen" Kunden je nach Vorgangsklasse (Angebot, Lieferschein, Rechnung) unterschiedliche Folgebelege zugewiesen werden (siehe auch Anbindung an Kunden).
 
-Innerhalb dieser Eingabemaske werden dann der aktiven Druckklasse (die, auf der der Cursor steht) mit der Funktion Formulare/Drucker zuordnen F5 die Formulare und Drucker zugeordnet.  
+Innerhalb dieser Eingabemaske werden dann der aktiven Druckklasse (die, auf der der Cursor steht) mit der Funktion Formulare/Drucker zuordnen **F5** die Formulare und Drucker zugeordnet.  
 Wobei das sonst normal auch gedruckte Formular inklusive Angaben zum Drucker mit anzugeben ist, bevor dann die anderen zu druckenden Formulare ausgewählt werden können.
 
 Als letztes ist die Vorgangsdruckklasse dann innerhalb des Kundenstamms im Eingabefenster Gruppen/Klassen anzubinden.  

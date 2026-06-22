@@ -6,7 +6,7 @@ Wenn man Reporte (Listen, Etiketten, Karteikarten) erstellt, so erscheint als er
 
 ![](../../ImagesExt/image8_1291.png)
 
-Die Funktionen „speichern als“, „umbenennen“, und „löschen“ sind erst aktiv, wenn man einen bereits erstellten Report erneut bearbeitet. Die Funktion „mit Template weiter“ erscheint nur wenn man eine neue Liste erstellen möchte.
+Die Funktionen ***„speichern als“***, ***„umbenennen“***, und ***„löschen“*** sind erst aktiv, wenn man einen bereits erstellten Report erneut bearbeitet. Die Funktion ***„mit Template weiter“*** erscheint nur wenn man eine neue Liste erstellen möchte.
 
 | | **Bedeutung** |
 | --- | --- |
@@ -38,4 +38,4 @@ Zusätzliche Informationen wie Fa_Kundnummer, Fa_BelegtypText, uvm. können übe
     
 Mit der Funktion „speichern und weiter“ wird ggf. die Änderung der Beschreibung gespeichert und man gelangt in den AMIC-Etikettendruck, in dem man dann die ausgewählte Liste/Etikette/Karteikarte [bearbeiten](./reporte_bearbeiten.md) kann.
 
-**Hinweis:** Eine Übersicht über alle existierenden Reporte findet man in der Anwendung „Anwendung administrieren“ (Direktsprung [ANW]) in der Variante „Anwendungsreporte“.
+**Hinweis:** Eine Übersicht über alle existierenden Reporte findet man in der Anwendung „Anwendung administrieren“ (Direktsprung **[ANW]****)** in der Variante „Anwendungsreporte“.

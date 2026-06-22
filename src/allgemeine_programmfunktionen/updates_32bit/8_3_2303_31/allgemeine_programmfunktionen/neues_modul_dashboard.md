@@ -4,7 +4,7 @@
 
 Es wurde das Modul "Dashboard" in A.eins integriert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 716438[33598]
 

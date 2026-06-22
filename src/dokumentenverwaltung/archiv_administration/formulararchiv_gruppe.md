@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Archiv > Administration > Formulararchiv Gruppe
 
-Direktsprung [FAAD]
+Direktsprung **[FAAD]**
 
 Diese Variante hat zurzeit nur ausschließlich informatorischen Charakter um Belange der Formulararchiv-Gruppen-Thematik
 

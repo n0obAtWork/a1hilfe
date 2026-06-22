@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Lagerverwaltungssystem > LokalitätenGruppe
 
-Direktsprung [LVSLKG]
+Direktsprung **[LVSLKG]**
 
 Eine Lokalität ist ein Ort, auf dem sich ein oder mehrere Ladeträger befinden können. Eine Gruppe von Lokalitäten fasst Lokalitäten zusammen.
 

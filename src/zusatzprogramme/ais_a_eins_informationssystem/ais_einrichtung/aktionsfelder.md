@@ -12,7 +12,7 @@ Das Register “Aktionsfeld” erscheint immer dann, wenn der Feldtyp ein Push-B
 
 Als Aktion sind folgende Möglichkeiten vorgesehen:
 
-1\. Anwendungsfunktion aufrufen
+<p class="just-emphasize">1\. Anwendungsfunktion aufrufen</p>
 
 Es wird eine unter ANWF bzw. PF (Private Funktion) hinterlegte Funktion aufgerufen. Es sind hier nur Menüfunktionen möglich. Der Controlstring, der ausgeführt wird, lautet:
 
@@ -24,7 +24,7 @@ aw_funk :ANWFUNKID
     
 Die ANWFUNKID kann mit **F3** ausgewählt werden.
 
-2\. Anwendung aufrufen
+<p class="just-emphasize">2\. Anwendung aufrufen</p>
 
 Es wird eine Anwendung aufgerufen. Anzugeben ist hier die ANWID. Diese kann per F3 ausgewählt werden. Der Controlstring, der ausgeführt wird, lautet:
 
@@ -33,7 +33,7 @@ Es wird eine Anwendung aufgerufen. Anzugeben ist hier die ANWID. Diese kann per 
 aw_vert :ANWID
 ```
 
-3\. Anwendungsvariante aufrufen
+<p class="just-emphasize">3\. Anwendungsvariante aufrufen</p>
 
 Es wird eine vorgegebene Variante einer Anwendung aufgerufen. Im obigen Beispiel ist es die Variante „STANDARD“ der Anwendung „KUNDEN“. Der Controlstring sieht also im Beispiel folgendermaßen aus:
 
@@ -53,7 +53,7 @@ Konto,k.KontoNummer,I4,8
 steht, so muss in der/ Vorbelegungsspalten „k.KontoNummer“ stehen. Es wird dann der Wert aus der Zeile an den Auswahlbereich übergeben.  
     
 
-4\. Crystal Report aufrufen
+<p class="just-emphasize">4\. Crystal Report aufrufen</p>
 
 Ein Report, der über die ANWRPTID identifiziert wir, die über **F3** ausgewählt werden kann, wird geöffnet. Die Art und Weise, wie er gestartet werden soll, lässt sich in dem dann sichtbaren Feld „Wie starten“ angeben. Es stehen die Möglichkeiten
 
@@ -73,7 +73,7 @@ ais_list ANWRPTID FeldName (Feldname ist der Name dieses Feldes)
 Wie bei den Anwendvarianten kann der Auswahlbereich vorbelegt werden.  
     
 
-5\. Makro aufrufen
+<p class="just-emphasize">5\. Makro aufrufen</p>
 
 Es kann ein Makro aufgerufen werden. Anzugeben ist hier der Name des Scripts. Der Controlstring lautet:
 
@@ -82,7 +82,7 @@ Es kann ein Makro aufgerufen werden. Anzugeben ist hier der Name des Scripts. De
 ScriptName
 ```
 
-6\. Controlstring
+<p class="just-emphasize">6\. Controlstring</p>
 
 Man kann einen freien Controlstring eingeben. Zum Aufruf einer weiteren selbstdefinierten Maske mit Übergabe des Wertes des Identfeldes dient die Prozedur:
 

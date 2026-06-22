@@ -33,9 +33,9 @@ Direktsprung **[WEKO]**
  |
 | Kostenstelle | Auswahl mit **F3** aus den Kostenstellen um den Betrag auf eine [Kostenstelle](../kostenrechnung/kostenstellen.md) verbuchen zu können  
  |
-| Kostenträger | Steht der SPA „Kostenträgerrechnung angeschlossen“ auf **Ja**, dann erscheint diese Spalte. Dort können die eingerichteten [Kostenträger](../kostenrechnung/kostentraeger.md) mit F3 ausgewählt werden.  
+| Kostenträger | Steht der SPA „Kostenträgerrechnung angeschlossen“ auf **Ja**, dann erscheint diese Spalte. Dort können die eingerichteten [Kostenträger](../kostenrechnung/kostentraeger.md) mit **F3** ausgewählt werden.  
  |
 | Kostenobjekt | Mit einer gültigen Kostenobjekt-Lizenz können hier die [Kostenobjekte](../kostenrechnung/kostenobjekte/index.md) erfasst werden.  
  |
-| StSchl | Auswahl mit F3 aus vorher eingerichteten Steuerschlüsseln um evtl. den Betrag um die gesetzliche Umsatzsteuer zu erhöhen  
+| StSchl | Auswahl mit **F3** aus vorher eingerichteten Steuerschlüsseln um evtl. den Betrag um die gesetzliche Umsatzsteuer zu erhöhen  
  |

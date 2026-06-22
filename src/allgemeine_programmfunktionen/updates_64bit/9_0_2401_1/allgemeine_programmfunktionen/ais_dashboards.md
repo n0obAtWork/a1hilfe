@@ -4,7 +4,7 @@
 
 Es besteht jetzt die Möglichkeit Dashboards [DASH] auf AEZADDON-Masken [AIS] einzurichten.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 727526[34299]
 

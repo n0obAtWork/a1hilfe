@@ -4,7 +4,7 @@
 
 Der Steuerparameter 1046 SPA_TEILPRODUKTION ist in die Gruppe deaktiviert verschoben worden.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 747423[37192]
 

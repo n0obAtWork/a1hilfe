@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege \> Konstanten Kundenstamm > Anschriftmaske
 
-Direktsprung [KUAN]
+Direktsprung **[KUAN]**
 
 Die Darstellung der Kunden-/Lieferantenanschriften kann individuell gestaltet werden. Nach Anwahl der Funktion wird folgender Bearbeitungsbildschirm angeboten:
 
@@ -38,7 +38,7 @@ Reserviert ein Feld für den Namen mit genau 21 Zeichen Länge. Wenn der Name k�
 
 **Aufbau einer Anschrift:**
 
-Mit Eintragung der Platzhalter #1 - #40 sowie der Feldlängen mittels **$** und **§** wird das Anschriftenfenster gestaltet. Mit F3 werden Eingabemöglichkeiten angezeigt:
+Mit Eintragung der Platzhalter #1 - #40 sowie der Feldlängen mittels **$** und **§** wird das Anschriftenfenster gestaltet. Mit **F3** werden Eingabemöglichkeiten angezeigt:
 
 #1 Anrede
 

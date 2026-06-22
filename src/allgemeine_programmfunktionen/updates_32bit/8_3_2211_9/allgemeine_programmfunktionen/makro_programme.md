@@ -4,7 +4,7 @@
 
 Der Pflege-Unterbau der Makro-Programme hat eine Überarbeitung erfahren. Dabei wurde 1) die bisherige Funktion "ansehen" in der Auswahlliste mit Taste "F6" zu "Makro-Text ansehen" mit Taste "ShF6". 2) die bisherige Funktion "ausführen" im Pfleger mit Taste "F9" zu "ausführen" mit Taste "ShF6". 3) der Neu-Modus fehlerbereinigt und unterstützt u.a. das Vorlage-System. 4) im "Neu"-Modus automatisch ein funktionierendes Vorlagen-Makro zugewiesen. 5) die Variante "Schnipselsuche" entfernt, die Funktionalität übernimmt die Variante "Makro-Programme",
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[32968]
 

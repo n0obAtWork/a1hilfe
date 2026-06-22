@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Allgemeine Stammdaten > Staatstamm
 
-Direktsprung [STAAT]
+Direktsprung **[STAAT]**
 
 Hier werden Informationen zu Staaten gepflegt
 

@@ -4,7 +4,7 @@
 
 Der Menüpunkt "Supportersitzung" (Direktsprung [SUSI]) ruft jetzt die Seite von AMIC (www.amic.de) auf. Dort kann man dann über den blauen Button "Fernwartung" den Teamviewer herunterladen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 725958[34098]
 

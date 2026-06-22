@@ -49,13 +49,13 @@ Beim Test Jahr muss das Belegdatum nur im aktuellen Jahr liegen. Bei Warnung wir
 | Steuergruppe abfragbar? | Ja | Es gibt drei Ausprägungen:  
 • **Nein**: Die vorbelegte Nummer ist nicht änderbar.  
 • **Ja:** Die Vorbelegte Nummer ist immer änderbar  
-• **Freischaltbar:** Das Feld mit der Steuergruppe kann per Funktion Steuergruppe freischalten CF5 freigeschaltet werden.  
+• **Freischaltbar:** Das Feld mit der Steuergruppe kann per Funktion ***Steuergruppe freischalten*** **CF5** freigeschaltet werden.  
  |
 | Gegenkonto nach jeder Zeile auf 0 setzen? | Ja | Stellt man diesen Parameter auf nein, bleibt das Gegenkonto mit der letzten eingegebenen Nummer vorbelegt.  
  |
 | Verteilung nur entweder Kostenträger oder Kostenstelle zulassen. | Nein | Mit diesem Parameter lässt sich das gleichzeitige Verteilen eines Betrags auf Kostenstellen und auf Kostenträger Verbieten. Damit kann dann auch nicht gleichzeitig für Verteilkostenträger und Verteilkostenstellen erfasst werden.  
  |
-| Belegdatum und Text löschen | Ja | Stellt man diesen Parameter auf nein, so werden nach F9 das Belegdatum und der Belegtext nicht gelöscht.  
+| Belegdatum und Text löschen | Ja | Stellt man diesen Parameter auf nein, so werden nach **F9** das Belegdatum und der Belegtext nicht gelöscht.  
  |
 | Bei Aufruf der OP-Verwaltung den Obligokunden abfragen? | Nein | Wenn man von der Erfassung einer Zahlung heraus direkt in die OP-Verwaltung springt, kann man hier die Abfrage des Obligokunden erzwingen.  
  |

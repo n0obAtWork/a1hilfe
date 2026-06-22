@@ -4,7 +4,7 @@
 
 Sollten zu einer IBAN mehrere Hausbanken existieren, so ist es nicht möglich, die Hausbank automatisch zuzuordnen. Damit e-Clearing-Auszüge trotzdem als buchbar erkannt werden, existiert jetzt eine Funktion "Hausbank zuordnen".
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 720614[33537]
 

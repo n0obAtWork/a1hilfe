@@ -4,7 +4,7 @@
 
 In der Streckenerfassung werden nun im jeweiligen Grid beim Ausführen der Funktion "Position kopieren" nicht nur die Standardfelder, sondern zusätzlich die UFLD- und ADDON-Felder kopiert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 726427[34180]
 

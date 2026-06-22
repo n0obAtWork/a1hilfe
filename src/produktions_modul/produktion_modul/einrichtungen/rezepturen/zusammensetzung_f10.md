@@ -27,7 +27,7 @@ Die Zusammensetzung einer Rezeptur kann sowohl aus Artikel als auch aus weiteren
 
 In der Auswahlliste der Artikel unterscheiden sich Rezepte von Artikel darin, dass Rezepte bei „Rezept“ „Ja“ und bei „Variante“ ein Wert ungleich 0 steht, Artikel haben dagegen in diesen Feldern immer den Wert „Nein“ bzw. 0.
 
-Hier kann je Rezeptposition festgelegt werden, ob es sich um eine Wertposition (wird bei Mengenrechnung nicht berücksichtigt), um eine Pauschalposition (wird unabhängig von der Produktmenge berücksichtigt) oder um eine Position mit Fixpreis (Preisfindung unabhängig von der unter [SPA] eingestellten Methode) handelt.
+Hier kann je Rezeptposition festgelegt werden, ob es sich um eine Wertposition (wird bei Mengenrechnung nicht berücksichtigt), um eine Pauschalposition (wird unabhängig von der Produktmenge berücksichtigt) oder um eine Position mit Fixpreis (Preisfindung unabhängig von der unter **[SPA]** eingestellten Methode) handelt.
 
 Hinweis
 

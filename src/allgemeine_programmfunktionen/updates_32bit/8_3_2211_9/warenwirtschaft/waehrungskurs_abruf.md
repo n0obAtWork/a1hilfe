@@ -4,7 +4,7 @@
 
 Die Umstellung der Transportverschlüsselung beim Abruf von Währungskursen machte unter Umständen Probleme. Dies wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 715321[32969]
 

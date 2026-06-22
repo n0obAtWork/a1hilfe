@@ -4,9 +4,9 @@
 
 Hauptmenü > Administration > Makroverarbeitung > Makro-Programme
 
-Direktsprung [MAKRO]
+Direktsprung **[MAKRO]**
 
-In der Variante „Makroprogramme“ werden die Makro-Programme von A.eins gepflegt.
+**In der Variante „Makroprogramme“ werden die Makro-Programme von A.eins gepflegt.**
 
 Makro-Programme mit dem „Scriptbesitzer“ 0 (=AMIC) werden ausgeliefert.
 
@@ -32,7 +32,7 @@ Makro-Programme mit dem „Scriptbesitzer“ 0 (=AMIC) werden ausgeliefert.
 | Funktionen | |
 | --- | --- |
 | ***Filter / bereichsauswahl***  
-F2 | |
+***F2*** | |
 | **bearb./ausführen F5** | Ruft Pflege-Dialog für ein bestehendes Makro auf. |
 | **Neu F8** | Ruft Pflege-Dialog für ein neu zu erfassendes Makro auf |
 | **Script Export** | Exportiert ein Makro in eine vorgebbare Sql-Datei. |

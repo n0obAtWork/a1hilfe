@@ -7,7 +7,7 @@
 
 | Name | Beschreibung |
 | --- | --- |
-| Ändern (F5), Ansehen (F6), Löschen (F7), Neu (F8) | Ruft den Pfleger der Belegfluss-Vorlagen auf. |
+| Ändern **(F5),** Ansehen **(F6),** Löschen **(F7),** Neu **(F8)** | Ruft den Pfleger der Belegfluss-Vorlagen auf. |
 
 </details>
 

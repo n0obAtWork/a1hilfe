@@ -4,7 +4,7 @@
 
 Die Register-Karte "Importe" wurde reaktiviert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 738433[35849]
 

@@ -41,7 +41,7 @@ Beispiel:
 
 • Um 14:42 würde der Wert 100 verwendet werden.
 
-Staffelung
+<p class="just-emphasize">Staffelung</p>
 
 Zusätzlich existiert dann noch eine Staffelung der Belege, je nachdem wieviel der Mandantenserver aktuell zu tun hat. Der ermittelte Wert aus Wochentag und Uhrzeit wird dann mit dem Faktor multipliziert.
 

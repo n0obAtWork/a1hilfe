@@ -4,6 +4,6 @@
 
 Hauptmenü > Wareneinkauf > Nachhaltigkeit > Bewegungsübersicht > Variante Massenbilanz Kompakt
 
-Direktsprung [NAART]
+Direktsprung **[NAART]**
 
 Diese Variante zeigt die Artikel mit ihrer zugehörigen Massebilanzen und den Zu – und Abgängen. Diese können hier auch nach Anbauland gruppiert werden.

@@ -4,7 +4,7 @@
 
 Mit der aktiven Einstellung ("Ja") für den Steuerparameter 594 - "Erm.Kreditlimit mit P_IndivKreditLimit" kam es in der Vorgangsbearbeitung zu einem SQL-Fehler mit dem Hinweis auf den limitierten Ausdruck "Limit". Dieses Problem wurde nun behoben. Der verwendete Alias in dem SQL-Statement wurde auf "Kreditlimit" geändert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 733459[35039]
 

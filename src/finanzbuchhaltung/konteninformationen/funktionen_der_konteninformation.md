@@ -28,7 +28,7 @@ Hauptmenü > Abschlussarbeiten > Kontoblätter > Infoblattdruck
 
 Direktsprung **[KOID]**.
 
-Es wird ein Crystal-Report aufgerufen, der die gebuchten Daten des ausgewählten Jahres und Kontos druckt. Man kann in der Bereichsauswahl F2 die Daten auch zusätzlich noch über die Periode eingrenzen.
+Es wird ein Crystal-Report aufgerufen, der die gebuchten Daten des ausgewählten Jahres und Kontos druckt. Man kann in der Bereichsauswahl **F2** die Daten auch zusätzlich noch über die Periode eingrenzen.
 
 Dieser Report ist ähnlich wie ein Kontoblatt zu sehen, nur werden die Daten nicht erst zusammengesucht und festgehalten, sondern immer so ausgewertet wie zum Zeitpunkt des Druckes sind. Für Sachkonten wird die Druckverdichtung analog der Einstellung im [Sachkontenstamm](../stammdaten_der_fibu/sachkonten.md#RegisterWeitereOptionen) unter **Formulardruck** ausgegeben.
 

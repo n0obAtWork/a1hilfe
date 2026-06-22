@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Konstanten Kundenstamm > Zahlungspflichtige Kunden
 
-oder Direktsprung [KUZ]
+oder Direktsprung **[KUZ]**
 
 Auf dem Konto des Zahlungspflichtigen werden die Rechnungen in der Finanzbuchhaltung verbucht. Üblicherweise handelt es sich um den Rechnungsempfänger, dann ist hier keine Eintragung erforderlich. Nur wenn sich Rechnungsempfänger und Zahlungspflichtiger unterscheiden, erfolgt also eine Eintragung. Dies trifft auch auf oben beschriebenen Fall der abweichenden Rechnungsanschrift zu.
 

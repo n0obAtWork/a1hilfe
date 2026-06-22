@@ -4,7 +4,7 @@
 
 Es ist nun möglich Rückmeldungen von A.eins so zu gestalten, dass der Fokus direkt in dem Eingabefeld steht.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[35008]
 

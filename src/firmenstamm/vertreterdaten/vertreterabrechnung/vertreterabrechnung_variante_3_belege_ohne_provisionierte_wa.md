@@ -39,7 +39,7 @@ In der 3. Variante werden alle Belege angezeigt, die durch die Provisionierung g
 
 | Funktion | Beschreibung |
 | --- | --- |
-| Keine Provision (F7) | |
-| Provisionsermittlung (F9) | |
+| Keine Provision **(F7)** | |
+| Provisionsermittlung **(F9)** | |
 
 </details>

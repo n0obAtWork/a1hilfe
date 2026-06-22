@@ -4,7 +4,7 @@
 
 Die Einstellungen für den Rohwaresammeldruck-Mailversand können nun unter [VRGD] in jeder beliebigen Zeile vorgenommen werden. Vorher war dies nur in der ersten Zeile möglich. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 747598[35856]
 

@@ -4,6 +4,6 @@
 
 Hauptmenü > Stammdatenpflege > Artikelstamm > Artikel-Stapelkorrektur
 
-oder Direktsprung [ARK]
+oder Direktsprung **[ARK]**
 
-Nach Eingabe neuer Parameterwerte und dem Starten mittels F9 werden die neuen Werte eingetragen.
+Nach Eingabe neuer Parameterwerte und dem Starten mittels **F9** werden die neuen Werte eingetragen.

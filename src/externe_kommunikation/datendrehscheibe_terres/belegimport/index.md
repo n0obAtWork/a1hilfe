@@ -4,7 +4,7 @@
 
 Hauptmenü > Externe Kommunikation > Datendrehschreibe > Belegimport
 
-Direktsprung [TERRB]
+Direktsprung **[TERRB]**
 
 Der Belegimport importiert Belege, meist Eingangsrechnungen aus der TERRES Schnittstelle in A.eins.
 

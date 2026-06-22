@@ -4,7 +4,7 @@
 
 Beim Erstellen der Index.xml-Datei für den DSFinV-K-Export wird jetzt als RecordDelimiter der Wert &#13;&#10; verwendet. Außerdem wurde für Felder mit Numerischen-Datentyp das Accuracy-Tag, welches die Anzahl der vorhandenen Nachkommastellen angibt, hinzugefügt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 740079[35850]
 

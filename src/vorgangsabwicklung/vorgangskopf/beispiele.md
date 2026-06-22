@@ -8,33 +8,33 @@ Um die Preisermittlung vom Vorgangsdatum (Rechnungsdatum) unabhängig zu machen,
 
 Das Bepreisungsdatum wird aber selbstverständlich bei Umwandlungen an den Folgevorgang weitergereicht, so dass beispielsweise die Eingabe eines Bepreisungsdatums beim Auftrag oder Lieferschein in der Rechnung erhalten bleibt.
 
-Bonität
+<p class="just-emphasize">Bonität</p>
 
 Es ist eine reine Anzeige aus dem Kundenstamm. Änderungsmöglichkeiten bestehen nicht.
 
-Steuergruppe
+<p class="just-emphasize">Steuergruppe</p>
 
 Anzeige der Steuergruppe des Kunden. Änderungen können sinnvoll sein, wenn es sich (im Ausnahmefall!) um eine Rechnung aus dem Ausland handelt, obwohl der Kunde im Inland sitzt. Sinnvoller ist es jedoch, die Standardeinstellung nicht zu verändern, sondern das Kundenkonto zusätzlich mit der anderen Steuereinstellung anzulegen.
 
-Fakturiergruppe
+<p class="just-emphasize">Fakturiergruppe</p>
 
 Hierbei handelt es sich um ein Auswertungskennzeichen, dessen Bedeutung im Unternehmen selbst festgelegt wird. Entsprechend sinnvoll können hier manuelle Änderungen sein.
 
-Zahlungsart
+<p class="just-emphasize">Zahlungsart</p>
 
 Vorbelegt mit der Standardzahlungsart des Kunden. Für einen konkreten Fall kann man jedoch hiervon abweichen, z.B., um einem Kunden, der normalerweise per Scheck bezahlt eine Nachnahmerechnung zu schicken.
 
 Der Steuerparameter “Zahlungsart maximal wie im Kundenstamm” (Parametergruppe: Vorgangsbearbeitung allg.) hat folgende Bedeutung:
 
-“Ja” (Default):
+<p class="just-emphasize">“Ja” (Default):</p>
 
 Es kann nur eine kleinere Zahlungsart als vorgeschlagen eingegeben werden (z.B. Kundenstammeintrag 4 kann nur auf 1..3 geändert werden, nicht aber auf 5.
 
-“Nein”: 
+<p class="just-emphasize">“Nein”:</p>
 
  keine Einschränkung bei der Vergabe
 
-Versandart
+<p class="just-emphasize">Versandart</p>
 
 Vorbelegt aus dem Kundenstamm. Kann hier entsprechend der konkreten Situation überschrieben werden. Das kann allerdings auf viele Abläufe Einfluss haben:
 
@@ -44,11 +44,11 @@ Frachtwesen
 
 etc.
 
-Vertretergruppe
+<p class="just-emphasize">Vertretergruppe</p>
 
 Vorbelegt aus dem Kundenstamm. Kann hier entsprechend der konkreten Situation überschrieben werden.
 
-Versandanschrift
+<p class="just-emphasize">Versandanschrift</p>
 
 Wenn für einen Kunden eine Versandanschrift vorliegt, wird sie automatisch abgefragt:
 
@@ -56,67 +56,67 @@ Bei mehreren Alternativen öffnet sich das bekannte Auswahlfenster und die ge­w
 
 Nach Auswahl der gewünschten Anschrift wird sie zur Information in das rechte obere Anzeigefenster übernommen.
 
-Informelle Anschrift
+<p class="just-emphasize">Informelle Anschrift</p>
 
 Hier kann eine zusätzliche Anschrift erfasst werden, die zu informationszwecken auf Formulare gedruckt werden kann. So zum Beispiel ein von der Versand- oder Rechnungsanschrift abweichender Besteller oder eine informationelle Rechnung zu Händen von o.ä. .
 
-Plandatum / Lieferdatum
+<p class="just-emphasize">Plandatum / Lieferdatum</p>
 
 Das hier einzugebende Datum wird je nach Vorgangsklasse als geplantes Lieferdatum (Angebot, Auftrag) oder als Lieferdatum (Lieferschein, Rechnung, Gutschrift) interpretiert. Vorbelegt wird es mit dem Erfassungsdatum.
 
-Referenz - Nummer
+<p class="just-emphasize">Referenz - Nummer</p>
 
 Die Vorgangsnummer, auf die sich dieser Vorgang bezieht. Sie kann ausgedruckt und ausgewertet werden.
 
-Listenpreisklasse
+<p class="just-emphasize">Listenpreisklasse</p>
 
 Die Preisklasse, der Kunde zugeordnet ist, wird angezeigt und kann überschrieben werden. Damit wird jedoch evtl. auch automatisch ein anderer Preis vorgeschlagen.
 
-Sprache
+<p class="just-emphasize">Sprache</p>
 
 Die Sprache, die Verwendung finden soll; übersteuert die Standardwerte aus dem Kundenstamm.
 
-Wiegenummer
+<p class="just-emphasize">Wiegenummer</p>
 
 Die Wiegenummer, auf die sich dieser Vorgang bezieht. Sie kann ausgedruckt und ausgewertet werden.
 
-Frachtklasse
+<p class="just-emphasize">Frachtklasse</p>
 
 Hier kann für Frachtberechnungen die aus dem Kundenstamm gelieferte Frachtklasse überschrieben und damit ein anderes Verfahren gewählt werden.
 
-Frachtvariante
+<p class="just-emphasize">Frachtvariante</p>
 
 Hier kann für Frachtberechnungen die aus Kunden- und Artikelstamm gelieferte Frachtvariante überschrieben und damit ein anderes Verfahren gewählt werden.
 
-Verkaufsgebiet
+<p class="just-emphasize">Verkaufsgebiet</p>
 
 Das Verkaufsgebiet, auf die sich dieser Vorgang bezieht. Der Parameter kann ausgedruckt und ausgewertet werden.
 
-Gebiet von..., Gebiet nach
+<p class="just-emphasize">Gebiet von..., Gebiet nach</p>
 
 Für Entfernungsermittlungen im Rahmen der Frachtberechnung sind hier Eingaben erforderlich.
 
-LKW Nr. Motor, LKW Nr. Anhänger
+<p class="just-emphasize">LKW Nr. Motor, LKW Nr. Anhänger</p>
 
 Die LKW - Nummer, auf die sich dieser Vorgang bezieht. Sie kann ausgedruckt und ausgewertet werden.
 
-Fahrer
+<p class="just-emphasize">Fahrer</p>
 
 Der Fahrer, auf den sich dieser Vorgang bezieht. Er kann ausgedruckt und ausgewertet werden.
 
-Währung Nr., Kurs
+<p class="just-emphasize">Währung Nr., Kurs</p>
 
 Hier kann die aus dem Kundenstamm gelieferte Währung und der Standardkurs für diesen Vorgang geändert bzw. eingetragen werden.
 
-Objekt
+<p class="just-emphasize">Objekt</p>
 
 Zuordnung des Objekts zum Vorgang.
 
-Zahlart
+<p class="just-emphasize">Zahlart</p>
 
 Zuordnung der Zahlart zum Vorgang.
 
-Weitere Funktionen im Rechnungskopf
+<p class="just-emphasize">Weitere Funktionen im Rechnungskopf</p>
 
 Weitere Funktionen können über die Funktions-Box aufgerufen werden. Dies ist sowohl während der Kopferfassung als auch zum Abschluss möglich. Selbst aus der Positionserfassung kann man hierhin wechseln und wieder in sie zurückkehren. Ein Teil der Funktionen ist sicherlich erst zum Abschluss sinnvoll aufzurufen, so z.B. “Gesamtsummen”. Hieran orientiert sich deshalb auch nachfolgende Beschreibung.
 

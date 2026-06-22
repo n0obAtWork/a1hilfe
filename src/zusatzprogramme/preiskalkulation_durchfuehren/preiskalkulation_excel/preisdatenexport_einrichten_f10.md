@@ -2,13 +2,13 @@
 
 <!-- source: https://amic.de/hilfe/_PreiskalkulationExcelOptionen.htm -->
 
-Hauptmenü > Preise / Konditionen > Preiskalkulation tabellarisch > Preiskalkulation Excel > Funktion Optionen Einkauf/Verkauf
+Hauptmenü > Preise / Konditionen > Preiskalkulation tabellarisch > Preiskalkulation Excel > Funktion ***Optionen Einkauf/Verkauf***
 
-Direktsprung **[PKX]**. > Funktion Optionen Einkauf/Verkauf
+Direktsprung **[PKX]**. > Funktion ***Optionen Einkauf/Verkauf***
 
 Um die Einrichtung des Preiskalkulationsexcels zu starten, wie folgt vorgehen:
 
-1. Wählen Sie eine Variante der Liste Preiskalkulation (VK für Verkaufspreise oder EK für Einkaufspreise).
+1. Wählen Sie eine Variante der Liste ***Preiskalkulation*** (VK für Verkaufspreise oder EK für Einkaufspreise).
 
 2. Setzen Sie genaue Filter, um die zu kalkulierenden Preisdaten zu exportieren.
 
@@ -20,9 +20,9 @@ Um die Einrichtung des Preiskalkulationsexcels zu starten, wie folgt vorgehen:
 
 Hinweis!
 
-Die Felder Filter und Datenbank-Dateiname sind bereits vorbelegt durch Ihre gesetzten Filter sowie die in Ihrem A.eins hinterlegte Datenbank.
+Die Felder ***Filter*** und ***Datenbank-Dateiname*** sind bereits vorbelegt durch Ihre gesetzten Filter sowie die in Ihrem A.eins hinterlegte Datenbank.
 
-5. Drücken Sie **F3** im Feld Datenbandprozedur, um die Standardprozedur amic_excel_Preisimport_VK bzw. amic_excel_Preisimport_EK einzutragen.
+5. Drücken Sie **F3** im Feld ***Datenbandprozedur***, um die Standardprozedur ***amic_excel_Preisimport_VK*** bzw. ***amic_excel_Preisimport_EK*** einzutragen.
 
 ***Optional***: **Private Datenbankprozedur anlegen**
 
@@ -34,6 +34,6 @@ Legen Sie private Prozeduren immer mit einem vorangestellten **P** an, sodass di
 
 Um eine private Prozedur anzulegen, wie folgt vorgehen:
 
-1. Tragen Sie im Feld Datenbankprozedur einen Namen beginnend mit **P_** für die neue Prozedur ein.
+1. Tragen Sie im Feld ***Datenbankprozedur*** einen Namen beginnend mit **P_** für die neue Prozedur ein.
 
-Die private Datenbankprozedur wird nun anhand der Standardprozedur amic_excel_Preisimport_VK bzw. amic_excel_Preisimport_EK mit notwendigen Parametern angelegt.
+Die private Datenbankprozedur wird nun anhand der Standardprozedur ***amic_excel_Preisimport_VK*** bzw. ***amic_excel_Preisimport_EK*** mit notwendigen Parametern angelegt.

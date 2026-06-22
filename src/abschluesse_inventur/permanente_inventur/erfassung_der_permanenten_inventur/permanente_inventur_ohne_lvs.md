@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/permanenteinventurohnelvs.htm -->
 
-Es ist denkbar, die Bestandsfortschreibung durch andere Mittel als mit LVS sicherzustellen. In diesem Fall kann in den Inventurbestandsbeleg (Vorgangsklasse 5055) nur die Summe der Artikel- und zugehörigen Partiemengen eingetragen werden.
+Es ist denkbar, die Bestandsfortschreibung durch andere Mittel als mit LVS sicherzustellen. In diesem Fall kann in den Inventurbestandsbeleg (Vorgangsklasse **5055**) nur die Summe der Artikel- und zugehörigen Partiemengen eingetragen werden.
 
 Ein Hilfsmittel zur Addition einzelner Zählungen wie der Inventurbeleg der Stichtagsinventur gibt es hier nicht!
 

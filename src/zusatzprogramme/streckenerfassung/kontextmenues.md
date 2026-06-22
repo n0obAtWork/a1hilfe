@@ -40,23 +40,21 @@ Einige der Kontextmenüpunkte sind sehr speziell, teilweise Vorgangs- und/oder F
 
 So wird z.B. der Menüpunkt [Kontraktartikelausweichliste bearbeiten](./kontextmenues.md#KontraktArtikelAusweichListe) nur angezeigt wenn es sich um einen Kontrakt handelt, für diesen eine Kontraktartikelausweichliste hinterlegt ist (Feld Artikelnummer wird farblich angezeigt) und der Cursor über dem markierten Feld im *GFV* positioniert wird während man mit der rechten Maustaste das Kontextmenü öffnet.
 
-Speichern ![](../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">Speichern ![](../../ImagesExt/image8_1357.png)</p>
 
 Alle Änderungen in den Grids werden gespeichert
 
-Vorgang korrigieren ![](../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">Vorgang korrigieren ![](../../ImagesExt/image8_1357.png)</p>
 
 Über diesen Kontextmenüpunkt wird die Vorgangsbearbeitungsmaske (je nach Vorgangstyps) des gerade aktiven Vorgangs geladen. Je nach [Gültigkeit](./profile/index.md#registerAllgemein2) wird der Vorgang dann zum Bearbeiten oder Ansehen geöffnet ohne die Streckenerfassungsmaske zu verlassen.
 
 Im Korrekturmodus lässt sich der betreffende Vorgang dann korrigieren. Die gemachten Änderungen werden dann automatisch übernommen.
 
- 
-
-Vorgang drucken ![](../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">Vorgang drucken ![](../../ImagesExt/image8_1357.png)</p>
 
 Aus der Maske Streckengeschäft kann der Druck des jeweils gerade aktiven Vorgangs gestartet werden.
 
-Sammeldrucken ![](../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">Sammeldrucken ![](../../ImagesExt/image8_1357.png)</p>
 
 Das Sammeldrucken dient dem Drucken mehrerer Auswertungen hintereinander. Bevor das Sammeldrucken gestartet werden kann, müssen alle Daten gespeichert werden.
 
@@ -64,19 +62,19 @@ Danach wird eine zusätzliche Registerkarte geöffnet. Auf dieser finden sich al
 
 Gedruckt werden alle Formulare, welche im Feld „Drucken“ den Wert „Ja“ enthalten. Nachdem der Druck fertiggestellt wurde, wird automatisch in die Normalansicht gewechselt und die Daten neu geladen.
 
-Position stornieren ![](../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">Position stornieren ![](../../ImagesExt/image8_1357.png)</p>
 
 Der aktive Vorgang wird aus dem System gelöscht.
 
-aus der Strecke nehmen ![](../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">aus der Strecke nehmen ![](../../ImagesExt/image8_1357.png)</p>
 
 Die Zuordnung des aktiven Vorgangs zu diesem Streckengeschäft wird gelöscht. Der Vorgang bleibt aber im System erhalten. Er kann so z.B. einem anderen Streckengeschäft zugeordnet werden.
 
  
 
-Avis markierte Zeilen ![](../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">Avis markierte Zeilen ![](../../ImagesExt/image8_1357.png)</p>
 
-Routenplanung (Google Maps) ![](../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">Routenplanung (Google Maps) ![](../../ImagesExt/image8_1357.png)</p>
 
 In der Streckenerfassung ist eine Schnittstelle zur „Google.de“ Routenberechnung implementiert. Diese ermöglicht auf einfachste Weise Routen- und Tourenplanungen zu erstellen oder auch einfach nur einen Ort zu finden.
 
@@ -84,29 +82,29 @@ Um eine Routenplanung durchzuführen, müssen die entsprechenden Orte (Spalte Or
 
 Die markierten Einträge können danach mit dem Menüeintrag „Sonderfunktionen -> Route zurücksetzen“
 
-Kontraktartikelausweichliste bearbeiten ![](../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">Kontraktartikelausweichliste bearbeiten ![](../../ImagesExt/image8_1357.png)</p>
 
 Handelt es sich bei einem Vorgang um einen Kontrakt, so wird das Feld Artikelnummer farbig hinterlegt wenn zu diesem Artikel eine Kontraktausweichliste hinterlegt ist. Wird die Maus auf dieses Feld positioniert und die rechte Maustaste betätigt so ist im Kontextmenü der Punkt &lt;Kontraktartikelausweichliste bearbeiten> sichtbar.
 
 Nach Auswahl des Menüpunktes kann die den Artikel zugehörige Kontraktartikelausweichliste bearbeitet werden.
 
-Neuer Kontrakt ![](../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">Neuer Kontrakt ![](../../ImagesExt/image8_1357.png)</p>
 
 Diese Funktion des Kontextmenüs ermöglicht es während der Abwicklung der Streckenerfassung neue Kontrakte zu erzeugen und diese sofort der Strecke zuzuordnen.
 
-Lademittel zuordnen ![](../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">Lademittel zuordnen ![](../../ImagesExt/image8_1357.png)</p>
 
 Dieser Kontextmenüpunkt steht nur zur Verfügung wenn sich der Mauszeiger über einer markierten Zelle der Spalte Menge im *GFV* befindet. Es können eine oder mehrere Zellen mit Doppelklick der linken Maustaste markiert bzw. demarkiert werden. Markierte Zellen werden farbig hinterlegt. Nach Auswahl des Menüpunktes öffnet sich die Maske „[Lademittelzuordnung](./positionsstammsatz.md)“ in der für unterschiedliche Lademittel verschiedenen Mengen (Gewichte) der markierten Artikel definiert werden können.
 
-Position auf Ladeträger ![](../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">Position auf Ladeträger ![](../../ImagesExt/image8_1357.png)</p>
 
 Dieser Menüpunkt steht nur für Zeilen im *GMV* (wenn das Feld Artikelnummer gefüllt ist) zur Verfügung. Hier wird die Maske „[Position auf Ladeträger](./maske_position_auf_ladetraeger.md)“ geöffnet.
 
-Archiv anzeigen ![](../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">Archiv anzeigen ![](../../ImagesExt/image8_1357.png)</p>
 
 Über diesen Kontextmenüpunkt wird das Formulararchiv gestartet.
 
-Strecke vervielfältigen ![](../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">Strecke vervielfältigen ![](../../ImagesExt/image8_1357.png)</p>
 
 Über diesen Menüpunkt lässt sich die aktuelle Strecke vervielfältigen. Beim Aufrufen der Funktion wird zuerst geprüft ob die Daten geändert wurden, entweder werden die Daten dann gespeichert oder nochmal geladen, damit sich keine ungespeicherten Daten auf der Maske befinden.
 
@@ -116,7 +114,7 @@ Nun kann entweder mit „ESC“ abgebrochen werden oder man übernimmt die Daten
 
 Beim Kopieren des Streckenstamms werden alle Daten übernommen, bis auf die Streckennummer und Streckenbezeichnung. Diese werde aus dem hinterlegten Nummernkreis des Streckenprofils ermittelt.
 
-Rohware ![](../../ImagesExt/image8_1357.png)
+<p class="just-emphasize">Rohware ![](../../ImagesExt/image8_1357.png)</p>
 
 Unter diesem Menüpunkt befinden sich die Funktionen für die Rohwareumwandlung. Beim Aufruf dieser werden die markierten oder der aktuelle Beleg entsprechend umgewandelt.
 

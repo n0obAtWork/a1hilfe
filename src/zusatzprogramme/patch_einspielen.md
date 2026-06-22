@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Werkzeuge > Patch einspielen
 
-oder Direktsprung [PATCH]
+oder Direktsprung **[PATCH]**
 
 Wird diese Funktion aufgerufen, öffnet sich ein externes Programm (A.eins.Libraryviewer.exe), mit dessen Hilfe die von AMIC bereitgestellten Patche eingespielt werden können. Die Installation des Patches muss – wie vorher schon mit der repair.bat - pro A.eins-Installation und falls SQL-Skripte eingespielt werden müssen, pro Mandant ausgeführt werden.
 

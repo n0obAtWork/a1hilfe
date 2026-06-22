@@ -4,7 +4,7 @@
 
 Stammdatenpflege > Artikelstamm > Artikel
 
-Oder Direktsprung [AR]
+Oder Direktsprung **[AR]**
 
 Im Artikel kann das Rabattsperrkennzeichen gesetzt werden, um zu verhindern, dass dieser Artikel rabattiert wird.
 

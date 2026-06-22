@@ -66,7 +66,7 @@ Es wird versucht, für den Kunden eine automatische Auszifferung vorzunehmen. Is
 Als nächstes wird geprüft, ob in einer der Verwendungszweckzeilen ein numerischer Anteil enthalten ist (entweder linksbündig oder mit Leerzeichen abgetrennt). Es wird versucht diese gefundene Nummer als Rechnungsnummer zu interpretieren und einen fälligen, nicht gesperrten Beleg zu finden. Gelingt dies, muss die Summe sämtlicher Beleg abzüglich dem zu gewährenden Skonto (bezogen auf das Erstelldatum/Valutadatums) der gesamten Summe entsprechen. Entspricht die Summe nicht der Gesamtsumme, wird noch versucht die Summe ohne Abzug von Skonto zu bestimmen. Bei Bestimmung des Skontos ist es möglich per [Option](./optionen.md) **F10** anzugeben, um wie viele Tage das Datum überschritten werden darf.  
     
 
-Ist die Option „*„Diverse“ Kunden nur mit eindeutiger Referenz ausziffern*“ gesetzt und handelt es sich um ein diverses Konto(einstellbar in den Stammdaten[KU] oder [LF] im Register Kennzeichen), werden die folgenden Suchen nicht mehr ausgeführt.
+Ist die Option „*„Diverse“ Kunden nur mit eindeutiger Referenz ausziffern*“ gesetzt und handelt es sich um ein diverses Konto(einstellbar in den Stammdaten[KU] oder [LF] im Register ***Kennzeichen***), werden die folgenden Suchen nicht mehr ausgeführt.
 
 Ansonsten wird noch gesucht, ob ein fälliger OP existiert, der nicht gesperrt ist, der abzüglich Skonto dem Betrag der Position entspricht. Bei Bestimmung des Skontos ist es möglich per [Option](./optionen.md) **F10** anzugeben, um wie viele Tage das Datum überschritten werden darf. Existiert kein passender Beleg inklusive Skonto, wird geprüft, ob ein fälliger OP ohne Skonto diesem Betrag entspricht.  
     

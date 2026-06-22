@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Konstanten Artikelstamm > Artikel-Text-Varianten
 
-oder Direktsprung [ARTX]
+oder Direktsprung **[ARTX]**
 
 Artikeltexte zu einem Artikelstamm können in mehreren Varianten erfasst werden, so dass zum Beispiel auf einem Ladeschein ein anderer Text zum Artikel als auf einer Rechnung ausgegeben werden kann.
 

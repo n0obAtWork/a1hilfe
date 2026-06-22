@@ -2,10 +2,10 @@
 
 <!-- source: https://amic.de/hilfe/_tastenfunktionen.htm -->
 
-Ansehen
+<p class="just-emphasize">Ansehen</p>
 
-Zum Ansehen der Definition drücken Sie nach der Auswahl einer Zeile F6.
+Zum Ansehen der Definition drücken Sie nach der Auswahl einer Zeile **F6**.
 
-Ändern
+<p class="just-emphasize">Ändern</p>
 
-Zum Ändern der Definition drücken nach der Auswahl einer Zeile die Taste F5.
+Zum Ändern der Definition drücken nach der Auswahl einer Zeile die Taste **F5**.

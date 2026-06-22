@@ -4,7 +4,7 @@
 
 Im Versandprofilstamm [VPST] konnten längere Passwörter nicht gespeichert werden. Dies wurde behoben. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 725795[34156]
 

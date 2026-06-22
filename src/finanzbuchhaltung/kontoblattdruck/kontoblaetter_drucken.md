@@ -8,11 +8,11 @@ Direktsprung **[KOD]** oder **[KOK]**
 
 Für den Druck des Kontoblattes stehen verschiedene Möglichkeiten zur Verfügung, die sich letztlich nur durch die Möglichkeit der Eingrenzung unterscheiden:
 
-Kontoblätter drucken:
+<p class="just-emphasize">Kontoblätter drucken:</p>
 
 Man kann hier die Konten eingrenzen, die zu diesem Kontoblatt gehören.
 
-Kontoblätter Einzelkonten:
+<p class="just-emphasize">Kontoblätter Einzelkonten:</p>
 
 Im Gegensatz zum Druck über "Kontenblätter drucken" werden hier zu einem Konto aus allen Kontoblattläufen die Daten herausgesucht. Eine zusätzliche Eingrenzungsmöglichkeit ist hier die Seite des Kontoblattes.
 
@@ -26,4 +26,4 @@ Direktsprung **[KODD]**
 
 Hierbei handelt es sich um einen vordefinierten Crystal-Report, der auf Basis der erstellten Kontoblätter die Informationen zu den Buchungen ausgibt. Man kann hier nach der Laufnummer (KontoBlDruckId) – dann werden nur die Daten dieses Kontoblatts ausgedruckt - oder nach der Jahrnummer eingrenzen – hier werden dann alle Kontoblätter, die in dem ausgewählten Jahr aufgelaufen sind, gedruckt. Wird eine Laufnummer (KontoBlDruckId) angegeben, so wird die eingegebene Jahrnummer ignoriert.
 
-Dieser Report kann auch direkt aus den Auswahllisten „Kontoblätter bearbeiten“ oder „KoKoRe bearbeiten“ über die Funktion Kontoblattdruck SF8 aufgerufen werden.
+Dieser Report kann auch direkt aus den Auswahllisten „Kontoblätter bearbeiten“ oder „KoKoRe bearbeiten“ über die Funktion ***Kontoblattdruck*** **SF8** aufgerufen werden.

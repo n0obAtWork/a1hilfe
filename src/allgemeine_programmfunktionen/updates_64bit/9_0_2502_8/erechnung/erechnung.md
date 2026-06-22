@@ -4,7 +4,7 @@
 
 Leere Contact-Tags werden aus der eRechnung entfernt. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 751230[38544]
 

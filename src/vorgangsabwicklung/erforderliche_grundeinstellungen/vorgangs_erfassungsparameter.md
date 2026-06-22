@@ -8,46 +8,46 @@ Mit Erfassungsparametern wird der Ablauf der Vorgangserfassung ganz wesentlich b
 
 folgende Bedeutung:
 
-Versandart
+<p class="just-emphasize">Versandart</p>
 
 Vorbelegung der Versandart, wenn aus dem Kundenstamm 0 geliefert wird.
 
-Sofortdruck Abfrage und Vorbelegung
+<p class="just-emphasize">Sofortdruck Abfrage und Vorbelegung</p>
 
 Hier wird festgelegt, ob nach der Vorgangserfassung die Abfrage nach dem sofor­tigen Druck erfolgen soll und wie sie vorbelegt ist.
 
-Druck korrekt Abfrage bei Sofortdruck
+<p class="just-emphasize">Druck korrekt Abfrage bei Sofortdruck</p>
 
 Einstellmöglichkeit, ob diese Frage beim Sofortdruck erfolgen soll.
 
-Korrekt Abfrage und Vorbelegung
+<p class="just-emphasize">Korrekt Abfrage und Vorbelegung</p>
 
 Hier wird festgelegt, ob nach der Vorgangserfassung die Abfrage nach der korrekten Erfassung erfolgen soll und wie sie vorbelegt ist.
 
-Mehrbelegerfassung
+<p class="just-emphasize">Mehrbelegerfassung</p>
 
 Bei “Ja” verbleibt A.eins nach erfolgter Belegerfassung im Erfassungsmodus,
 
-Versandadresse immer manuell auswählen
+<p class="just-emphasize">Versandadresse immer manuell auswählen</p>
 
 Bei “Ja” wird die automatische Versandadressenbestimmung ausgeschaltet.
 
-Umwandelsperre abfragen
+<p class="just-emphasize">Umwandelsperre abfragen</p>
 
 Bei “Ja” ist keine Wandlung möglich.
 
-Im Barverkauf sofort in Positionsteil
+<p class="just-emphasize">Im Barverkauf sofort in Positionsteil</p>
 
 Bei “Ja” wird der Kopfteil übersprungen.
 
-Leerbeleg in Datenbank speichern
+<p class="just-emphasize">Leerbeleg in Datenbank speichern</p>
 
 Bei „Ja“ wird ein Beleg ohne Positionen gespeichert.
 
-Neue Feldpositionierung
+<p class="just-emphasize">Neue Feldpositionierung</p>
 
 Dieser EPA wird zurzeit noch nicht berücksichtig.
 
-Wochentagsformat
+<p class="just-emphasize">Wochentagsformat</p>
 
 Hier kann das Format des Wochentags eingestellt werden, das neben dem Datum angezeigt wird.

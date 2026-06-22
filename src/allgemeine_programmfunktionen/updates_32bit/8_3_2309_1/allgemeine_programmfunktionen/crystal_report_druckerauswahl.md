@@ -4,7 +4,7 @@
 
 Bei der Druckerauswahl des Crystal Reports Version 13 werden die Einstellungen des Standard-Windows-Druckers jetzt korrekt übernommen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 726333[34171]
 

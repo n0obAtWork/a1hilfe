@@ -4,7 +4,7 @@
 
 Nachdem ein neuer Kunde abgespeichert worden war, wurde beim Schließen der Maske erneut nachgefragt, ob die geänderten Daten gespeichert werden sollen. Dies geschieht nun nicht mehr.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 717205[33223]
 

@@ -4,19 +4,19 @@
 
 Hauptmenü > Stammdaten > Hersteller
 
-Direktsprung [HST]
+Direktsprung **[HST]**
 
 Hier werden die Daten der Hersteller der Waren, die sich im Artikelstamm befinden, bearbeitet.
 
 Zu jedem Lieferanten kann es natürlich mehrere Hersteller geben, oder aber der Hersteller kann auch der Lieferant sein.
 
-Erfassungsmaske
+<p class="just-emphasize">Erfassungsmaske</p>
 
 Es stehen folgende Eingabefelder und Eingabemöglichkeiten zur Verfügung.
 
 **Lieferant**
 
-Mit der Taste F3 kann hier eine Auswahl aus dem Kunden/Lieferantenstamm abgerufen werden. Nach erfolgter Auswahl erfolgt eine Abfrage, ob die Daten in den Herstellerstamm übernommen werden sollen.
+Mit der Taste **F3** kann hier eine Auswahl aus dem Kunden/Lieferantenstamm abgerufen werden. Nach erfolgter Auswahl erfolgt eine Abfrage, ob die Daten in den Herstellerstamm übernommen werden sollen.
 
 **Herstellernummer**
 
@@ -34,7 +34,7 @@ Kurzbezeichnung des Herstellers.
 
 **Anrede**
 
-Wie bekannt; mit der Taste F3 kann eine Auswahl aus Frau, Herr, Firma, Dr., Prof. aufgerufen werden.
+Wie bekannt; mit der Taste **F3** kann eine Auswahl aus Frau, Herr, Firma, Dr., Prof. aufgerufen werden.
 
 **Zusatz**
 

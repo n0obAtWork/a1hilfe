@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_leermeldung.htm -->
 
-Mit der Funktion Leermeldung wird ein Silo leergemeldet. Die Leermeldung wird über die Waage abgebildet, d.h. es wird erst automatisch ein Waagenbeleg erzeugt mit der Differenzmenge zu 0. Nach dem der Waagenbeleg erzeugt worden ist, wird das Silo leergemeldet. Der Waagenbeleg bekommt dann den Status abgeschlossen.
+Mit der Funktion ***Leermeldung*** wird ein Silo leergemeldet. Die Leermeldung wird über die Waage abgebildet, d.h. es wird erst automatisch ein Waagenbeleg erzeugt mit der Differenzmenge zu 0. Nach dem der Waagenbeleg erzeugt worden ist, wird das Silo leergemeldet. Der Waagenbeleg bekommt dann den Status abgeschlossen.
 
 Soll eine Silobewegung in ein Leergemeldeten Silosatz nachgebucht werden, so wird auch eine neue Leermeldung für diesen Silosatz erzeugt. Der aktuelle Silo bestand wird dadurch nicht verändert.
 

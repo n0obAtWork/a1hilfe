@@ -4,7 +4,7 @@
 
 Hauptmenü > Abschlussarbeiten > DATEV / Import / Export > Export > Variante Diamant
 
-Direktsprung [FIEX]
+Direktsprung **[FIEX]**
 
 Diese Variante „Diamant“ ist ein „nicht freigeschaltete Variante“ und daher erst dann zu sehen, wenn sie in der Anwendungsadministration ( Direktsprung ANW ) freigeschaltet wird.
 
@@ -14,7 +14,7 @@ Es handelt sich um einen Belegexport - also nicht nur Offene Posten. Beim Belege
 
 ![](../../../ImagesExt/image8_795.png)
 
-Das Verzeichnis lässt sich mit der Funktion Verzeichnis ändern F5 angeben. Es öffnet sich dann ein Dateiauswahl-Dialog, mit dessen Hilfe das Verzeichnis ausgewählt werden kann.
+Das Verzeichnis lässt sich mit der Funktion ***Verzeichnis ändern*** **F5** angeben. Es öffnet sich dann ein Dateiauswahl-Dialog, mit dessen Hilfe das Verzeichnis ausgewählt werden kann.
 
 Wenn man den Schalter „Exportsteuerschlüssel mit übertragen“ auf **Ja** setzt, dann werden die im Steuersatz gepflegten Exportschlüssel übergeben, ansonsten bleibt das Feld leer und es wird nur der Steuersatz übertragen.
 

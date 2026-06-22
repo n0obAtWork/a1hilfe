@@ -4,7 +4,7 @@
 
 Bei der Einrichtung des Formulartyps 201 ("BankScheckSparkasse"), ist der Formularbereich 508 ("Zwischenabschluss Scheck") nun optional.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 723599[33923]
 

@@ -4,7 +4,7 @@
 
 Aufgrund eines Fehlers war das Feld Kassensitzungsnummer von auf der DSFinV-K Export-Maske nicht bearbeitbar.Deshalb wurde immer 1 bis Bis-Wert exportiert. Dies wurde behoben und man kann jetzt andere und kleinere Zeiträume exportieren.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 748216[37497]
 

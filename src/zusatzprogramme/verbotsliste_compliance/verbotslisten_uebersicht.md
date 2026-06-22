@@ -6,42 +6,42 @@ Hauptmenü > Externe Kommunikation > Webservice > Verbotsliste
 
 Diese Auswahlliste dient zur Anzeige der Prüfaufträge, die aus Anschriften, Kunden und Vorgängen entstehen können.
 
-Felder
+<p class="just-emphasize">Felder</p>
 
 | Felder | Beschreibung |
 | --- | --- |
-| Prüfung | \- Vorgang:  
+| Prüfung | \- ***Vorgang:***  
 Die Prüfung ist aus einem Vorgang initiiert worden.  
-\- Kunde:  
+\- ***Kunde:***  
 Die Prüfung ist aus einem Kunden initiiert worden  
-\- Anschrift  
+\- ***Anschrift***  
 Die Prüfung ist aus der Anschrift initiiert worden |
-| Kunde | Kundennummer |
+| Kunde | ***Kundennummer*** |
 | Vorgang | Vorgangsnummer (wenn vorhanden) |
-| Zeitstempel | Zeitstempel des Eintrags |
+| Zeitstempel | ***Zeitstempel des Eintrags*** |
 | Status | Ergebnis der Prüfung  
    
-\- ungeprüft:  
+\- ***ungeprüft:***  
 Die Prüfung ist noch nicht erfolgt  
-\- zulässig  
+\- ***zulässig***  
 Die Prüfung ist erfolgt und die Anschrift ist als zulässig gewertet worden  
-\- unzulässig  
+\- ***unzulässig***  
 Die Prüfung ist erfolgt und die Anschrift ist als unzulässig gewertet worden |
-| Quelle | Anschrift aus dem Vorgang  
+| Quelle | ***A******nschrift aus dem Vorgang***  
    
-\- Kunde:  
+\- ***Kunde:***  
 Kundenanschrift  
-\- Rechnung  
+\- ***Rechnung***  
 Rechnungsanschrift aus dem Vorgang  
-\- Zahlungspflichtiger  
+\- ***Zahlungspflichtiger***  
 Zahlungspflichtiger aus dem Vorgang  
-\- Versandanschrift  
+\- ***Versandanschrift***  
 Versandanschrift aus dem Vorgang  
-\- Andere  
-Weitere Anschriften aus einer [Datenbankprozedur](./schritt_fuer_schritt_anleitung/schritt_1_setup.md#SPA1063), die Anschriften aus dem Vorgang bzw. in dessen Umfeld hinzuliest. |
+***\-*** ***Andere***  
+***Weitere Anschriften aus einer*** [Datenbankprozedur](./schritt_fuer_schritt_anleitung/schritt_1_setup.md#SPA1063)***, die Anschriften aus dem Vorgang bzw. in dessen Umfeld hinzuliest.*** |
 | AdressId | AdressId der Anschrift |
-| Name | Name |
+| Name | ***Name*** |
 | Straße | Straße |
-| PLZ | Postleitzahl |
+| PLZ | ***Postleitzahl*** |
 | Ort | Ort |
-| Prüfauftrag | GUID des Prüfauftrags für Datenbankrecherchen |
+| Prüfauftrag | ***GUID des Prüfauftrags für Datenbankrecherchen*** |

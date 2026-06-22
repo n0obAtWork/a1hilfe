@@ -8,7 +8,7 @@ Beim Erststart wird ein Dateiauswahl-Dialog zum Auswählen des hinzuzufügenden 
 
 | Folgende Felder stehen zusätzlich zur Eingabe zur Verfügung: |
 | --- |
-| Datei | Pflichtfeld | Wählen Sie per F3 mit Hilfe des Dateiauswahldialoges das hinzuzufügende Dokument aus.  
+| Datei | Pflichtfeld | Wählen Sie per **F3** mit Hilfe des Dateiauswahldialoges das hinzuzufügende Dokument aus.  
  |
 | Datei löschen nach Import | | Bestimmt ob die importierte Datei gelöscht werden soll.  
    
@@ -19,7 +19,7 @@ Nach der Auswahl der Datei lässt sich die Einstellung noch vor dem Speichern ä
    
 Die Einstellung wird sich sitzungsübergreifend gemerkt. |
 
-Die Funktion Speichern löst das Hinzufügen aus.
+Die Funktion ***Speichern*** löst das Hinzufügen aus.
 
 Bei erfolgtem „Hinzufügen“ wird eine Rückmeldung vom System ausgegeben welcher Dokumentenname verarbeitet wurde, und unter welcher technischen FA_ID die Speicherung im Archiv erfolgte.
 

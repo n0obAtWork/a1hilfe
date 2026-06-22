@@ -18,7 +18,7 @@ Die Erfassungsmaske gliedert sich in zwei Bereiche.
 
 [Datentabellen](./datentabellen.md)
 
-Highlights
+<p class="just-emphasize">Highlights</p>
 
 • Spaltenposition und –breite individuell per Maus einstellbar.
 

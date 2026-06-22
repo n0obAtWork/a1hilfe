@@ -4,14 +4,14 @@
 
 Wiegungen kann man an zwei Stellen der Online-Waage abschließen:
 
-In der Auswahlliste F11:
+In der Auswahlliste **F11**:
 
 Man kann einen oder mehrere Datensätze mit Status 2te Wiegung markieren und abschließen. Es erscheint eine Abfrage, ob man die Wiegungen wirklich abschließen möchte.  
 Wenn man keinen bestimmten Datensatz markiert hat und Wiegungen abschließen wählt, erscheint eine Abfrage, ob man wirklich alle Datensätze abschließen möchte. Bestätigt man dann mit Ja, werden alle Wiegungen in der Auswahlliste mit Status 2te Wiegung abgeschlossen.  
 Sind Wiegungen dazwischen, die diesen Status nicht haben, erhält man eine Mitteilung, dass diese nicht abgeschlossen werden konnten.  
 Der Status der Wiegungen, die abgeschlossen werden konnten, wird auf abgeschlossen gesetzt.
 
-In der Waagen-Maske F11:
+In der Waagen-Maske **F11**:
 
 Hier kann man die in der Maske geöffnete Wiegung abschließen, wenn der Status 2te Wiegung ist.
 

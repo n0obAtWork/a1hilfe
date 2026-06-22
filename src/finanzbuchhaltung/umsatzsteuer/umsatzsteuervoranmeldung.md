@@ -18,7 +18,7 @@ Im Mandantenstamm müssen die Felder **Bundesland, Anschrift Finanzamt, Steuernu
 
 Es müssen die [Auswertungspositionen](./steuersaetze_einrichten/stammdaten_auswertungspositionen.md) so eingerichtet sein, dass alle Kennzahlen vorhanden sind, die für das Unternehmen von Belang sind. In den Steuersätzen müssen die "Kennzeichen Umsatzsteuer-Voranmeldung" so eingetragen werden, dass sie die Bemessungsgrundlage bzw. die Steuer auf dem Umsatzsteuervoranmeldungsvordruck widerspiegeln.
 
-Den Aufruf des Umsatzsteuervoranmeldungsformulars findet man unter dem Menüpunkt Umsatzsteuerwerte (Direktsprung [UVA]). In der Variante „Umsatzsteuer nach Auswertungspositionen“ werden die Daten mit Zwischensummen ausgegeben. Mit der Funktion „Einzelpositionen“ werden die Belege angezeigt, die den Auswertungspositionen zugeordnet sind. Mit der Funktion **"Druck Umsatzsteuervoranmeldung"** kann der Report sofort gedruckt werden. Vor dem Ausdruck kommt noch eine Meldung, in der man aufgefordert wird, die zwei Seiten zusammenzuheften:  
+Den Aufruf des Umsatzsteuervoranmeldungsformulars findet man unter dem Menüpunkt Umsatzsteuerwerte (Direktsprung **[UVA]**). In der Variante „Umsatzsteuer nach Auswertungspositionen“ werden die Daten mit Zwischensummen ausgegeben. Mit der Funktion „Einzelpositionen“ werden die Belege angezeigt, die den Auswertungspositionen zugeordnet sind. Mit der Funktion **"Druck Umsatzsteuervoranmeldung"** kann der Report sofort gedruckt werden. Vor dem Ausdruck kommt noch eine Meldung, in der man aufgefordert wird, die zwei Seiten zusammenzuheften:  
     
 
 ![Ein Bild, das Text, Screenshot, Schrift, Display enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_578.png "Ein Bild, das Text, Screenshot, Schrift, Display enthält. Automatisch generierte Beschreibung")
@@ -29,6 +29,6 @@ Bekanntermaßen ändert sich der Aufbau der Umsatzsteuervoranmeldung fast jährl
 
 **Kennziffern 37 und 50 bei negativen Werten**
 
-Die Kennziffern 37 (Minderungen der abziehbaren Vorsteuer) und 50 (Minderungen der Bemessungsgrundlage) dürfen keinen negativen Wert aufweisen. Daher werden beim Aufruf der Funktion UStVA via Elster, UStVA drucken und Liste drucken die Werte für die Kennziffer 37 oder 50 auf **0** gesetzt, wenn diese negativ sind. Es erscheint dann folgende Meldung:
+Die Kennziffern 37 (Minderungen der abziehbaren Vorsteuer) und 50 (Minderungen der Bemessungsgrundlage) dürfen keinen negativen Wert aufweisen. Daher werden beim Aufruf der Funktion ***UStVA via Elster***, ***UStVA drucken*** und ***Liste drucken*** die Werte für die Kennziffer 37 oder 50 auf **0** gesetzt, wenn diese negativ sind. Es erscheint dann folgende Meldung:
 
 ![Ein Bild, das Text enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_579.png "Ein Bild, das Text enthält. Automatisch generierte Beschreibung")

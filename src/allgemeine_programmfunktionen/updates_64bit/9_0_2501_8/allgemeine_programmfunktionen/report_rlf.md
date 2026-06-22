@@ -4,7 +4,7 @@
 
 Der RLF-Report wurde wieder aktiviert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 748159[37462]
 

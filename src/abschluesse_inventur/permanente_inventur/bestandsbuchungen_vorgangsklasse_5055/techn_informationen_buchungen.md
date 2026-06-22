@@ -2,13 +2,13 @@
 
 <!-- source: https://amic.de/hilfe/techninformationenbuchungen.htm -->
 
-Artikelzählungen
+<p class="just-emphasize">Artikelzählungen</p>
 
 Wird ein Artikel ohne Partien gezählt, so ist stets der gesamte Artikelbestand (des Lagerplatzes wenn verwendet) anzugeben. Dieser wird dann dem aktuellen Buchbestand (des Lagerplatzes) gegenübergestellt und die Differenz wird im Inventurbeleg ein- bzw. ausgebucht.
 
 Wertseitig wird der Buchbestand vollends mit dem Ausbuchpreis ausgebucht und der Zählbestand wiederum mit dem Einbuchpreis eingebucht.
 
-Partiezählungen
+<p class="just-emphasize">Partiezählungen</p>
 
 Wird eine Partie gezählt, so ist der gesamte Partiebestand (des Lagerplatzes wenn verwendet) anzugeben. Dieser wird dann dem aktuellen Buchbestand der Partie (des Lagerplatzes) gegenübergestellt und die Differenz wird im Inventurbeleg ein- bzw. ausgebucht.
 
@@ -20,7 +20,7 @@ Werden mehrere Partien des gleichen Artikels in einer Warenposition erfasst, so 
 
 Wertseitig wird der Buchbestand des Artikels vollends mit dem Ausbuchpreis ausgebucht und der Zählbestand des Artikels wiederum mit dem Einbuchpreis eingebucht.
 
-Beispiel:
+<p class="just-emphasize">Beispiel:</p>
 
 Artikelbestand sei 1000, Partie No101 und Partie No102 haben jeweils einen Buchbestand von 500.
 
@@ -36,7 +36,7 @@ Es ist dringend empfohlen, dass Artikel nur mit Partie oder komplett ohne Partie
 
 Die Eingabe einer Zählung ohne Partieangabe würde dazu führen, dass diese als Artikelkomplettzählung interpretiert würde und den Artikelbestand auf den der Zählung des partielosen Artikelanteils reduziert.
 
-Differenzen zwischen Artikel- und Partiebeständen
+<p class="just-emphasize">Differenzen zwischen Artikel- und Partiebeständen</p>
 
 Differenzen zwischen Artikelbestand und der Summe der Partiebestände können auf diese Weise nicht korrigiert werden.
 

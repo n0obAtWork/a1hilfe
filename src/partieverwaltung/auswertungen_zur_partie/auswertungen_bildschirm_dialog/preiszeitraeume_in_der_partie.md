@@ -4,6 +4,6 @@
 
 Hauptmenü > Partieverwaltung > Chargen / Partien > Partie-Stammdaten
 
-oder Direktsprung [PAR]
+oder Direktsprung **[PAR]**
 
 Mit dieser Funktion wird eine Information über die hinterlegten Partiepreise gebracht.

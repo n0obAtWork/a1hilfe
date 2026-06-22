@@ -4,7 +4,7 @@
 
 Die Erfassung der Objektanschrift ist nun auch im "Neu"-Fall möglich.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 714385[32840]
 

@@ -4,7 +4,7 @@
 
 Der Libraryviewer (Direktsprung [PATCH]) kann SQL-Texte entpacken und in das laufende A.eins einspielen. Leider ist bei einer Umstellung des Temp-Verzeichnisses von A.eins das Ausgabeverzeichnis des Libraryviewers nicht angepasst worden, so dass das Einspielen nicht erfolgte. Dieser Fehler wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[35763]
 

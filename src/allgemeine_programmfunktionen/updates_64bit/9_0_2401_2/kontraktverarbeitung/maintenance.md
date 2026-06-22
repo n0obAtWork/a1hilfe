@@ -4,7 +4,7 @@
 
 Auf der Kontraktstammmaske auf dem Reiter Konstanten wurde die F3-Auswahl für das Feld "Herkunfts/Ziel Land" "IB_StaatStammIntra(Inland + Europa)" durch "IB_STAATSTAMMBEZEICH(alle Staaten)" ersetzt, damit alle Staaten ausgewählt werden können.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 731036[34733]
 

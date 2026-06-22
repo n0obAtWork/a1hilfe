@@ -4,7 +4,7 @@
 
 Hauptmenü > Anlagenbuchhaltung > Stammdaten > Standorte
 
-Direktsprung [ANKAO]
+Direktsprung **[ANKAO]**
 
 Die Standorte dienen neben der Beschreibung des Anlagegutes auch zur Eingrenzung innerhalb der Auswahllisten und Auswertungen.
 

@@ -14,7 +14,7 @@ Auszahlung Z Einzahlung Z
 
 Die entstehenden Posten auf Q ( Haben ) und Z ( Soll ) sind über ein geeignetes Durchgangskonto auszugleichen.
 
-Die Funktion Übertragen CF7 öffnet folgende Eingabefelder:
+Die Funktion ***Übertragen CF7*** öffnet folgende Eingabefelder:
 
 | Felder |
 | --- |
@@ -22,7 +22,7 @@ Die Funktion Übertragen CF7 öffnet folgende Eingabefelder:
 | Zieldatum | |
 | Bemerkung zum Vorgang | Hier kann eine Bemerkung zum Vorgang eingetragen werden. (60 Zeichen) |
 
-Achtung
+<p class="just-emphasize">Achtung</p>
 
 Es sind hier nur solche Konten zugelassen, die einer Mitgliedsnummer zugeordnet sind.  
 Ggfs. ist also zunächst eine Mitgliedsnummer auf dem Zielkonto zuzuordnen.

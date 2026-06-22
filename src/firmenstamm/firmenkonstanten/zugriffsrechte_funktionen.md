@@ -4,13 +4,13 @@
 
 Hauptmenü > Administration > Firmenkonstanten > Zugriffsrechte Funktionen
 
-oder Direktsprung [ZUGF]
+oder Direktsprung **[ZUGF]**
 
 oder
 
 Hauptmenü > Administration > Firmenkonstanten > Zugriffsrechte Rollen > Rollenkontext
 
-oder Direktsprung [ROLLE]
+oder Direktsprung **[ROLLE]**
 
 Funktionen sind Aufträge (sogenannte Controlstrings) an das A.eins-System eine vordefinierte Funktionalität auszuführen. Funktionen sind innerhalb der Benutzeroberfläche von A.eins in sogenannten Kontexten zusammengefasst. Unabhängig davon können Funktionen auch außerhalb eines jeden Kontextes veranlasst werden, diese Funktionen sind zur weiteren Unterscheidung einem leeren Kontext zugeordnet.
 
@@ -23,7 +23,7 @@ Diese Gegebenheiten machen es unerlässlich die Ausführungsberechtigung an [Bed
 
 Hauptmenü > Administration > Firmenkonstanten > Zugriffsrechte Funktionen
 
-oder Direktsprung [ZUGF]
+oder Direktsprung **[ZUGF]**
 
 In der Option Box der Auswahlliste gibt es eine Funktion, die den Report Zugriffsrechte Funktionen aufruft.
 
@@ -41,9 +41,9 @@ der einer bestimmten Rolle zugeordnet ist, ausführen darf.
 
 Hauptmenü > Administration > Firmenkonstanten > Zugriffsrechte Varianten
 
-oder Direktsprung [ZUGV]
+oder Direktsprung **[ZUGV]**
 
-Alle Varianten in Auswahllisten (also z.B. Rechnung (komplexe Auswahl) in [REB]) werden in einer Auswahl­liste angezeigt. Hier kann man jetzt für eine einzelne (Einzelbearbeitung) oder einen selektierten Bereich (Stapelbearbeitung) von Varianten unter Programmpunkt Zuordnung die Rechte entziehen oder exklusiv zuordnen.
+Alle Varianten in Auswahllisten (also z.B. Rechnung (komplexe Auswahl) in **[REB]**) werden in einer Auswahl­liste angezeigt. Hier kann man jetzt für eine einzelne (Einzelbearbeitung) oder einen selektierten Bereich (Stapelbearbeitung) von Varianten unter Programmpunkt Zuordnung die Rechte entziehen oder exklusiv zuordnen.
 
 </details>
 
@@ -54,8 +54,8 @@ Alle Varianten in Auswahllisten (also z.B. Rechnung (komplexe Auswahl) in [REB])
 
 Hauptmenü > Administration > Firmenkonstanten > Zugriffsrechte Reporte
 
-oder Direktsprung [ZUGR]
+oder Direktsprung **[ZUGR]**
 
-Alle Reporte können hier hinsichtlich des Zugriffschutzes des Exportbuttons geschützt werden.
+Alle Reporte können hier hinsichtlich des Zugriffschutzes des ***Exportbuttons*** geschützt werden.
 
 </details>

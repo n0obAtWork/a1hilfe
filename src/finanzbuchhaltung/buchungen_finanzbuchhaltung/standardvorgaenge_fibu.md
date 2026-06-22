@@ -24,9 +24,9 @@ In der Auswahlliste 1.0 wird der IDEA Export über die Funktion „Export in ASC
 
 Die hier zu sehenden Einstellungen entsprechen den Standardwerten, die in der Format- und Inhaltsbeschreibung der Prüfsoftware verwendet werden. Sie können jedoch auch abgeändert werden. Zum Start wählt man hier die Funktion CSV-Export starten.
 
-Für die Auswahlliste 2.0 wurde eine separate Funktion „IDEA Export“ F10 geschaffen.  
+Für die Auswahlliste 2.0 wurde eine separate Funktion „***IDEA Export***“ **F10** geschaffen.  
 ![Ein Bild, das Text enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_560.png "Ein Bild, das Text enthält. Automatisch generierte Beschreibung")
 
-Die Einstellungen für „Trennung von Datenfeldern“, „Textbegrenzungszeichen“ und „Kopfzeile“ sind auf den Standard der Prüfsoftware eingestellt. Diese Werte können jedoch über die Einrichterparameter geändert werden. Die Datei INDEX.XML wird immer mit erstellt, es ist also nicht notwendig, die Funktion Index.xml erstellen zusätzlich aufzurufen.
+Die Einstellungen für „Trennung von Datenfeldern“, „Textbegrenzungszeichen“ und „Kopfzeile“ sind auf den Standard der Prüfsoftware eingestellt. Diese Werte können jedoch über die Einrichterparameter geändert werden. Die Datei INDEX.XML wird immer mit erstellt, es ist also nicht notwendig, die Funktion ***Index.xml erstellen*** zusätzlich aufzurufen.
 
-Startet man den Export mit der Funktion IDEA-Export starten, dann öffnet sich die Bereichsauswahl und man hat hier noch einmal die Möglichkeit die Eingrenzung einzutragen. Nachdem man mit „Speichern und zurück“ F9 die Eingrenzung bestätigt hat, startet der Export. Nach erfolgreichem Export öffnet sich der Explorer im angegebenen Verzeichnis.
+Startet man den Export mit der Funktion ***IDEA-Export starten,*** dann öffnet sich die Bereichsauswahl und man hat hier noch einmal die Möglichkeit die Eingrenzung einzutragen. Nachdem man mit „***Speichern und zurück***“ **F9** die Eingrenzung bestätigt hat, startet der Export. Nach erfolgreichem Export öffnet sich der Explorer im angegebenen Verzeichnis.

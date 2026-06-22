@@ -6,9 +6,9 @@ Mit der Funktion Mehrfachteildisposition können aus einer Auswahl von Vorgänge
 
 Die Spalten rechts der Mengenspalte dienen der Anzeige von Informationen.
 
-Mit STRG + A in der Datentabelle der Mehrfachteildisposition werden die Restmengen der Positionen übernommen.
+Mit **STRG + A** in der Datentabelle der Mehrfachteildisposition werden die Restmengen der Positionen übernommen.
 
-Mit F9 werden die Daten übernommen, sprich die Mengen aus dem jeweiligen Vorgang werden teildisponiert.
+Mit **F9** werden die Daten übernommen, sprich die Mengen aus dem jeweiligen Vorgang werden teildisponiert.
 
 Hinweis:
 

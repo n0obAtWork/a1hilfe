@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_Rabatte_RAK.htm -->
 
-Preise / Konditionen > Rabatte > Rabattklassen [RAK]
+Preise / Konditionen > Rabatte > Rabattklassen **[RAK]**
 
 Kunden/Lieferanten können eine Rabattklasse und/oder eine individuelle Rabattklasse sowohl im Einkauf als auch im Verkauf zugeordnet bekommen. Diese beschreiben jeweils die Zugehörigkeit zu einer Gruppe von Kunden/Lieferanten, die alle für Artikel mit einer dort zugeordneten Rabattgruppe beziehungsweise individuellen Rabattgruppe einen Rabatt (einfach oder gestaffelt) bekommen.
 

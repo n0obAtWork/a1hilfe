@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_inplausiblegebinde.htm -->
 
-Im Pfleger für Mengeneinheiten [ME] existiert die Variante „inplausible Gebinde“. In dieser Variante sind die unkorrekt/unvollständig eingerichteten Gebinde aufgeführt. Um diese jetzt zu korrigieren (Setzen des Löschkennzeichens natürlich auch möglich), ist folgendes Vorgehen erforderlich:
+Im Pfleger für Mengeneinheiten **[ME]** existiert die Variante „inplausible Gebinde“. In dieser Variante sind die unkorrekt/unvollständig eingerichteten Gebinde aufgeführt. Um diese jetzt zu korrigieren (Setzen des Löschkennzeichens natürlich auch möglich), ist folgendes Vorgehen erforderlich:
 
 Fall 1: Grundmengeneinheit und Ergebnismengeneinheit sind inkompatibel
 

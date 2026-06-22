@@ -4,7 +4,7 @@
 
 Das mit dem Direktsprung [ROHIE] erreichbare Programm-Modul zum Import bzw. Export der gesamten Rohwaren-Einrichtung wurde nun entfernt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 712422[32610]
 

@@ -4,7 +4,7 @@
 
 Der erste Parameter der Funktion AMIC_FSTR wurde von Numeric(15,4) auf Numeric(20,4) und der Rückgabewert wurde auf Varchar(30) geändert .
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 731210[34809]
 

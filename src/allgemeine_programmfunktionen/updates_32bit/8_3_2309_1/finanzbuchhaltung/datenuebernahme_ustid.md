@@ -4,7 +4,7 @@
 
 Der FIBU-Import (Datenübernahme [DUEB]) wurde um die UstId des Kunden und des Mandanten erweitert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 727102[34254]
 

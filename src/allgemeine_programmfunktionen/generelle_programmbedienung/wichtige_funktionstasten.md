@@ -6,14 +6,14 @@
 
 Folgende Funktionstasten werden in A.eins eingesetzt:
 
-**Allgemeine Bedienungsfunktionen**
+<p class="just-emphasize">**Allgemeine Bedienungsfunktionen**</p>
 
 | **Taste** | **Beschreibung** |
 | --- | --- |
 | ESC | Abbruch eines Vorganges |
 | ALT | Umschalten zwischen Bildschirmarbeitsbereich und Menüzeile |
 | F1 | Aufruf der Online-Hilfe |
-| F2 | Mit F2 lässt sich in der Auswahlliste die Bereichsauswahl aktivieren. |
+| F2 | Mit **F2** lässt sich in der Auswahlliste die Bereichsauswahl aktivieren. |
 | F3 | Hier wird eine [Liste der Daten](./f3_auswahl.md), die für das Feld, in dem die Schreibmarke steht, möglich sind aufgerufen. |
 | Eingabe / ENTER | Bestätigung einer Eingabe und springt in das nächste Feld. |
 | Shift+F4 | Ermöglicht die Direkteingabe eines Direktsprunges. |

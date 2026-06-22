@@ -4,7 +4,7 @@
 
 Hauptmenü > Kontraktverwaltung > Kontraktgruppen
 
-oder Direktsprung [KTGR]
+oder Direktsprung **[KTGR]**
 
 Eine Kontraktgruppe ist ein Personenkreis, der gemeinsam aus den der Kontraktgruppe zugeordneten Kontrakten mit den dort vereinbarten Konditionen bedient wird.
 

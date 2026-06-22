@@ -4,7 +4,7 @@
 
 Das Infoblatt für Forderungs- und Verbindlichkeitskonten wurde um die Umbuchungen, die bei Wechsel der Forderungsgruppe erstellt werden, erweitert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 721386[33650]
 

@@ -4,7 +4,7 @@
 
 Der Belegfluss wurde um ein Feld für die Belegart (nur Finanzbuchhaltung) erweitert. Für die Belegart SO-Belege wird das Soll/Haben-Kennzeichen ausgewertet. Achtung: Der Datenbanktyp des Feldes "SollHaben" wurde von "CHAR" auf "integer" geändert. Private Funktionen, die das Feld "SollHaben" bereits verwenden, müssen angepasst werden.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 715736[33022]
 

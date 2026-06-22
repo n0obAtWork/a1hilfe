@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Archiv > Administration > Technisch
 
-Direktsprung [FAAD]
+Direktsprung **[FAAD]**
 
 Diese Variante stellt im Gegensatz zu der Variante [Formulararchiv-Administration](./formulararchiv_administration/index.md) mehr die technischen Aspekte eines Archiv-Eintrages heraus:
 

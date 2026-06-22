@@ -4,7 +4,7 @@
 
 Bei der direkten Erfassung von Eingangs-Rechnungen und -Gutschriften aus [FIBE] kann die eRechnungs-ID nicht mehr gepflegt werden. Dies geschieht über das Modul Belegfluss.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 748264[37640]
 

@@ -4,7 +4,7 @@
 
 In der Anwendung Nachhaltigkeit-Kundenübersicht [NAKUE] wurde in der Zertifikatsübersicht die Archivfunktion angebunden. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 743207[37122]
 

@@ -4,7 +4,7 @@
 
 Es gab ein Problem bei der Vorschau und dem Vorgangsdruck bezüglich der mm-Angaben im Formular zum oberen und linken Rand. Dies wurde nun behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 726910[34410]
 

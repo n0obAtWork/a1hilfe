@@ -4,11 +4,11 @@
 
 Hauptmenü > Administration > Firmenkonstanten > Mandantenstamm
 
-oder Direktsprung [MND]
+oder Direktsprung **[MND]**
 
 Hier erfolgen die Benennung des Mandanten (Bezeichnung der Firma), seine datenbanktechnische Anbindung sowie die Zuordnung von Nummernkreisen zu wesentlichen Datenbereichen.
 
-Felder:
+<p class="just-emphasize">Felder:</p>
 
 | Feld | Bedeutung |
 | --- | --- |
@@ -20,7 +20,7 @@ Felder:
 | Buchwährung | Zeigt die aktive Buchwährung des Mandanten an. Solange noch keine Belege erfasst wurden, wird im Menü eine Funktion zum Setzen der Buchwährung angeboten. |
 | Testmandant | Zeigt an, ob der aktuelle Datensatz ein Testmandant ist. |
 
-Register:
+<p class="just-emphasize">Register:</p>
 
 <details>
 <summary>Registerkarte Allgemein</summary>
@@ -30,8 +30,8 @@ Für die allgemeinen Informationen stehen folgende Felder zur Verfügung
 | Feld | Bedeutung |
 | --- | --- |
 | Technische Version | (Wird in Aeins nicht mehr benutzt) |
-| Daten Version | Gibt Version der Daten an, mehr Einsicht über Direktsprung [sysin] |
-| Versionsdatum | Gibt Datum der Version an, mehr Einsicht über Direktsprung [sysin] |
+| Daten Version | Gibt Version der Daten an, mehr Einsicht über Direktsprung **[sysin]** |
+| Versionsdatum | Gibt Datum der Version an, mehr Einsicht über Direktsprung **[sysin]** |
 | Nachlaufprozedur | Optionale private parameterlose Daten-Prozedure, welche bei Update vom A.eins automatisch nachgezogen (zum Ende des Updates) aufgerufen wird. |
 | Empfänger | Semikolon getrennte Liste der Empfänger-E-Mail-Adressen, die im Fehlerprotokollierungsfall eine E-Mail erhalten sollen. |
 | Empfängerprozedur | Name der privaten Prozedur für die Auswahl von Empfängern in speziellen Fällen. Standard-SQL-Funktion ist hier „FehlerprotokollAbweichendeEmpfaenger“. Private Ableitungen bitte von dieser Funktion! ([SQLP]) |
@@ -42,7 +42,7 @@ Für die allgemeinen Informationen stehen folgende Felder zur Verfügung
 Taxonomie-Version | Die in A.eins implementierte Version der DSFinV-K |
 | Kasse/DSFin_V-K  
 Taxonomie-Dtd | Die in A.eins implementierte Version der DSFinV-K benötigt diese mit A.eins bereitgestellte Dokument-Type-Definition-Datei. |
-| Programm läuft in | Sprache in der das A.eins grundsätzlich läuft. Diese Sprache wird von AMIC gepflegt und man kann sie mit F3 auswählen. Die Sprachen Englisch, Dänisch, Niederländisch und Französisch sind Lizenzpflichtig. Wenn eine dieser Sprachen das erste Mal ausgewählt wird, so muss man die Aktivierung bestätigen. Es wird erst dann die aktuelle Sprache eingespielt und der Benutzer kann ohne Lizenz für 60 Tage diese Sprache nutzen. Danach muss die Lizenz erworben werden.  
+| Programm läuft in | Sprache in der das A.eins grundsätzlich läuft. Diese Sprache wird von AMIC gepflegt und man kann sie mit **F3** auswählen. Die Sprachen Englisch, Dänisch, Niederländisch und Französisch sind Lizenzpflichtig. Wenn eine dieser Sprachen das erste Mal ausgewählt wird, so muss man die Aktivierung bestätigen. Es wird erst dann die aktuelle Sprache eingespielt und der Benutzer kann ohne Lizenz für 60 Tage diese Sprache nutzen. Danach muss die Lizenz erworben werden.  
 Ohne Aktivierung wird die Spracheinstellung ignoriert. |
 | Systemkundennummer | Kunde des Mandanten  
 [Nachhaltigkeit](../../vorgangsabwicklung/nachhaltigkeit/index.md)  
@@ -74,7 +74,7 @@ Ist hier kein Konto eingetragen, wird die Differenz zwischen Aktiva und Passiva 
 • 30 / 360  
 • Monat / 360 |
 | Bundesland | Das Bundesland wird für die Umsatzsteuervoranmeldung / Elster gebraucht. |
-| Nummer des Finanzamtes | Ist mit F3 auswählbar. Wird für die Umsatzsteuervoranmeldung / Elster benötigt. |
+| Nummer des Finanzamtes | Ist mit **F3** auswählbar. Wird für die Umsatzsteuervoranmeldung / Elster benötigt. |
 | Name | Wird für die Umsatzsteuervoranmeldung / Elster benötigt |
 | Straße | Wird für die Umsatzsteuervoranmeldung / Elster benötigt |
 | PLZ/Ort | Wird für die Umsatzsteuervoranmeldung / Elster benötigt |
@@ -82,9 +82,9 @@ Ist hier kein Konto eingetragen, wird die Differenz zwischen Aktiva und Passiva 
 | Voranmeldezeitraum | Wird für die Umsatzsteuervoranmeldung / Elster benötigt |
 | Ust-IdNr. | Wird für die Zusammenfassende Meldung benötigt |
 | Gläubiger-ID | Die [Gläubiger-ID](./mandantenstamm.md) wird für das SEPA-Lastschriftverfahren benötigt. |
-| Unternehmensform | Diese Informationen werden für die [e-Bilanz](../../finanzbuchhaltung/ebilanz_online/index.md) benötigt. Eine Auswahl der laut Taxonomie möglichen Werte ist mit F3 möglich.  
+| Unternehmensform | Diese Informationen werden für die [e-Bilanz](../../finanzbuchhaltung/ebilanz_online/index.md) benötigt. Eine Auswahl der laut Taxonomie möglichen Werte ist mit **F3** möglich.  
 (Wird zurzeit in A.eins nicht genutzt) |
-| Rechtsform | Diese Informationen werden für die [e-Bilanz](../../finanzbuchhaltung/ebilanz_online/index.md) benötigt. Eine Auswahl der laut Taxonomie möglichen Werte ist mit F3 möglich.  
+| Rechtsform | Diese Informationen werden für die [e-Bilanz](../../finanzbuchhaltung/ebilanz_online/index.md) benötigt. Eine Auswahl der laut Taxonomie möglichen Werte ist mit **F3** möglich.  
 (Wird zurzeit in A.eins nicht genutzt) |
 | SEPA Information | Siehe [SEPA-Kennzeichen im Mandantenstamm](../../finanzbuchhaltung/zahlungsverkehr/sepa/sepa_kennzeichen_im_mandantenstamm.md) |
 
@@ -272,13 +272,13 @@ Wenn das Feld „Adresse“ leer ist, dann liegt das daran, dass der Datenbankse
 <details>
 <summary>Registerkarte Firmenlogo</summary>
 
-Hier kann man sein Firmenlogo hinterlegen. Klickt man auf die Registerkarte und hat noch kein Logo hinterlegt, so öffnet sich ein Dateiauswahldialog, in dem man die Grafikdatei auswählen kann. Erlaubte Formate sind \*.bmp und \*.jpg. Das Logo lässt sich mit der Funktion Bild entfernen F7 wieder löschen.
+Hier kann man sein Firmenlogo hinterlegen. Klickt man auf die Registerkarte und hat noch kein Logo hinterlegt, so öffnet sich ein Dateiauswahldialog, in dem man die Grafikdatei auswählen kann. Erlaubte Formate sind \*.bmp und \*.jpg. Das Logo lässt sich mit der Funktion ***Bild entfernen*** **F7** wieder löschen.
 
-Das Logo kann in den Finanzbuchhaltungs-Reporten angezeigt werden. Es wird exakt so groß dargestellt, wie es im Mandantenstamm hinterlegt ist. Dazu muss man jedoch in den [Crystal Report Optionen](../../zusatzprogramme/crystal_report/crystal_report_optionen.md) die Option Anzeige des Firmenlogos aktivieren.
+Das Logo kann in den Finanzbuchhaltungs-Reporten angezeigt werden. Es wird exakt so groß dargestellt, wie es im Mandantenstamm hinterlegt ist. Dazu muss man jedoch in den [Crystal Report Optionen](../../zusatzprogramme/crystal_report/crystal_report_optionen.md) die Option ***Anzeige des Firmenlogos*** aktivieren.
 
 </details>
 
-Funktionen:
+<p class="just-emphasize">Funktionen:</p>
 
 <details>
 <summary>Funktionen Mandantenstamm</summary>
@@ -294,11 +294,11 @@ Die Funktionen innerhalb des Mandantenstamms sind folgende:
 | Zollmelder Adresse | Ruft den [Anschriftenpfleger](../../kunden_und_lieferanten/kunden_und_lieferantenstamm/anschriften/registerkarten_in_anschriften/allgemein.md) auf um die Adresse des Zollmelders zu editieren. |
 | Zollmelder Ansprechpartner | Ruft den [Anschriftenpfleger](../../kunden_und_lieferanten/kunden_und_lieferantenstamm/anschriften/registerkarten_in_anschriften/allgemein.md) auf um den Ansprechpartner des Zollmelders zu editieren. |
 | USt-IdNR bearbeiten | Ruft die [Umsatzsteuer Identifikationsnummer](../../kunden_und_lieferanten/kunden_und_lieferantenstamm/umsatzsteuer_identifikationsnummern.md) Maske auf |
-| Ansprechpartner ZMDO (F10) | Hier wird die Anschrift gepflegt, welche für die Zusammenfassende Meldung verwendet wird. |
+| Ansprechpartner ZMDO **(F10)** | Hier wird die Anschrift gepflegt, welche für die Zusammenfassende Meldung verwendet wird. |
 | Ansprechpartner UVA | Hier wird die Anschrift gepflegt, welche für die Umsatzsteuervoranmeldung verwendet wird. |
-| Verpostungstamm (Shift + F5) | Öffnet den [Versandprofilstamm](../../zusatzprogramme/mailversand_allgemein/einrichtung_mailversand/versandprofilstamm.md) |
-| Bild entfernen (F7) | Entfernt das Bild, welches in der registerkarte [Firmenlogo](./mandantenstamm.md#Registerkasrte_Firmenlogo) hinterlegt wurde. |
+| Verpostungstamm **(Shift + F5)** | Öffnet den [Versandprofilstamm](../../zusatzprogramme/mailversand_allgemein/einrichtung_mailversand/versandprofilstamm.md) |
+| Bild entfernen **(F7)** | Entfernt das Bild, welches in der registerkarte [Firmenlogo](./mandantenstamm.md#Registerkasrte_Firmenlogo) hinterlegt wurde. |
 | Druckfelder | Öffnet eine die Formularansicht in der Variante [Druckfelder](../../zusatzprogramme/formulareinrichtung_und_zuordnung/druckfelder.md). |
-| Archiv anzeigen (Strg + F12) | Zeigt das Mandanten spezifische Archiv an. |
+| Archiv anzeigen **(Strg + F12)** | Zeigt das Mandanten spezifische Archiv an. |
 
 </details>

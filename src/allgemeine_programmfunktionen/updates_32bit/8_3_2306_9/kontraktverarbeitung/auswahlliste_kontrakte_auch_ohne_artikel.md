@@ -4,7 +4,7 @@
 
 In der Auswahlliste 'Kontrakte auch ohne Artikel' der Anwendung 'Kontrakt Stammdaten' [KTR] wurde ein Filterkriterium zur Anzeige von Musterkontrakten hinzugefügt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 723233[33807]
 

@@ -4,13 +4,13 @@
 
 Hauptmenü > Nebenbuchhaltungen > Tourverwaltung > Tourverwaltung
 
-Direktsprung [TOUR]
+Direktsprung **[TOUR]**
 
 Funktionen
 
 | Funktionsname | Funktion |
 | --- | --- |
-| Tourenplanung (F9) | Ruft die Tourenplanung auf |
+| Tourenplanung **(F9)** | Ruft die Tourenplanung auf |
 | Ladeliste n. Tag | Über die Funktion ***Ladeliste n. Tag*** kann man sich eine Liste nach Stationsnummer sortiert anzeigen lassen. Auf ihr befinden sich die Adresse des Kunden, sowie die einzelnen Positionen der Lieferung. |
 | Ladeliste 2 | Eine alternative Form der Ladeliste |
 | Tourliste nach Tag | Zeigt eine Liste aller Touren an einem ausgewählten Liefertag an. |

@@ -4,7 +4,7 @@
 
 Ein Kundentyp kann nur geändert werden, solange keine Belege vorhanden sind, wenn die Kundentypänderung eine Änderung der Kundennummer durch Wechsel des Nummernkreises bedingen würde. Hintergrund ist, dass die bestehenden Belege durch eine Änderung der Kundennummer verwaist würden. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 732061[34999]
 

@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/funktionenzurreportbearbeitung.htm -->
 
-Hauptmenü > Administration > Werkzeuge > Anwendung Reports > Funktion Ändern F5
+Hauptmenü > Administration > Werkzeuge > Anwendung Reports > Funktion ***Ändern F5***
 
 Direktsprung **[ANWR]**.
 

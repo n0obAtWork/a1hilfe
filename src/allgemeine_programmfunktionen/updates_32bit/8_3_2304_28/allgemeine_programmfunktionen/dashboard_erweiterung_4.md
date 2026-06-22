@@ -4,7 +4,7 @@
 
 Im Tortendiagramm besteht jetzt die Möglichkeit die Klick-Funktion über die Legende auszuführen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 716438[33662]
 

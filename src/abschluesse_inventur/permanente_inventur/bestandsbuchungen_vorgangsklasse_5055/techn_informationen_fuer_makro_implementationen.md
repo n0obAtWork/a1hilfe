@@ -31,7 +31,7 @@ Mögliche Werte für den Linktyp
 • Die Stornierung einer der beiden Belege verursacht automatisch die Stornierung des anderen.  
 • Die Korrektur beider Belege ist jeweils gesperrt. |
 
-Verknüpfung Produktion und Inventur
+<p class="just-emphasize">Verknüpfung Produktion und Inventur</p>
 
 Es ist möglich, Produktionsbelege mit Inventuren zu verknüpfen.
 

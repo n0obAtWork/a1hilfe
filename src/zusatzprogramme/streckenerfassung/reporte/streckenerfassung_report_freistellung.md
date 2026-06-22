@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/streckenerfassungreportfreiste.htm -->
 
-Sprachabhängigkeit
+<p class="just-emphasize">Sprachabhängigkeit</p>
 
 Welche Felder gepflegt werden müssen, um die Sprachabhängigkeit nutzen zu können liest man unter  
 [Sprache der Reporte](./sprache_der_reporte.md).

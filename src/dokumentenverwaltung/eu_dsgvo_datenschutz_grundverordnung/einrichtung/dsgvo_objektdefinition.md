@@ -47,6 +47,6 @@ Bleibt das Feld leer, verwendet die Anonymisierung die verknüpfende WHERE-Bedin
 
 Vor dem Speichern werden beide WHERE-Bedingungen ausgeführt. Bei einer auftretenden Fehlermeldung wird nicht gespeichert. Bessern Sie nach und speichern erneut.
 
-Um von AMIC vorgegebene Tabellen aus einem Objekt zu entfernen, löschen Sie diese Objekte mit der Funktion „Löschen/wiederherstellen“ (F7). In der Form behandelte Objekte werden als „gelöscht“ gekennzeichnet. Zum Wiederherstellen verwenden Sie dieselbe Funktion.
+Um von AMIC vorgegebene Tabellen aus einem Objekt zu entfernen, löschen Sie diese Objekte mit der Funktion „***Löschen/wiederherstellen***“ (**F7**). In der Form behandelte Objekte werden als „gelöscht“ gekennzeichnet. Zum Wiederherstellen verwenden Sie dieselbe Funktion.
 
 Ein mit dem Löschkennzeichen versehenes Objekt wird nicht mehr ausgewertet. In der Auswahlliste ist dies in Spalte „gelöscht“ hinterlegt.

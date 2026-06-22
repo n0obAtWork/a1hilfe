@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdaten > Konstanten Kundenstamm > Kundenzahlungsbedingungen
 
-Direktsprung [KUZB]
+Direktsprung **[KUZB]**
 
 Der Zahlungsbedingungs-Stamm enthält alle notwendigen Informationen für Berech­nungen und Ausdruck der Zahlungsbedingungen. Normale Zahlungsbedingungenen kommen mit einem einzigen Satz aus, bei komplexen Bedingungen wird jeweils eine Folge-Zahlungsbedingung definiert. Die Art der Berechnung ergibt sich aus der Zahlungsbedingungsfolge.
 
@@ -20,4 +20,4 @@ Zahlungsbedingungen können pro Haupt-Waren­gruppen unterschiedlich sein. Bei d
 
 **Zahlungsbedingung VK** und **Zahlungsbedingung EK:**
 
-Eingabe der Zahlungsbedingungsnummer. Eine Auswahl aus den bestehenden Zahlungsbedingungen ist mit F3 möglich.
+Eingabe der Zahlungsbedingungsnummer. Eine Auswahl aus den bestehenden Zahlungsbedingungen ist mit **F3** möglich.

@@ -4,7 +4,7 @@
 
 Bei Mailversand der Avise wurde der Mailbody und die Betreffzeile bisher über ein Formular bestimmt. Jetzt ist es alternativ möglich diese über eine Datenbankfunktion zu bestimmen. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 735345[35377]
 

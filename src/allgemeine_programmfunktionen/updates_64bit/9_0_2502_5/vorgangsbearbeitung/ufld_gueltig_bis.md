@@ -4,7 +4,7 @@
 
 Ein neues UFLD-Feld "Gültig bis" wurde erstellt. Es kann z.B. für Angebote eingerichtet werden.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 745194[37120]
 

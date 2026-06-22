@@ -2,13 +2,13 @@
 
 <!-- source: https://amic.de/hilfe/auswahllisten.htm -->
 
-Auswahllisten sind eine in A.eins integrierte Technologie um verschiedene Anwendungen zur Auswahl von Belegen, Kunden, Anschriften Buchungen etc. in Listenform anzuzeigen. Eine Reihe von Anwendungen sind vom System vorgegeben. Innerhalb einer Anwendung kann es verschieden Varianten geben. Als Beispiel hierfür wird die Anwendung Kundenstamm (Direktsprung [KU]) verwendet:
+Auswahllisten sind eine in A.eins integrierte Technologie um verschiedene Anwendungen zur Auswahl von Belegen, Kunden, Anschriften Buchungen etc. in Listenform anzuzeigen. Eine Reihe von Anwendungen sind vom System vorgegeben. Innerhalb einer Anwendung kann es verschieden Varianten geben. Als Beispiel hierfür wird die Anwendung Kundenstamm (Direktsprung **[KU]**) verwendet:
 
 ![Ein Bild, das Text enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_1332.png "Ein Bild, das Text enthält. Automatisch generierte Beschreibung")
 
 Von den Varianten können private Ableitungen erstellt werden, die dann abgeänderte Inhalte enthalten. Private Ableitungen haben immer den Nachteil, dass Änderungen von AMIC nach einem Programmupdate dort nicht mit enthalten sind.
 
-Um eine private Ableitung einer bestehenden Variante zu erstellen, startet man die Anwendung und wählt dort die Variante aus, die privatisiert werden soll. Dann führt man die Funktion „private Variante“ Strg+F2 aus. Mit dieser Funktion können später auch schon existierende Varianten bearbeitet werden. Dann stehen zusätzlich noch die Funktionen „Bearbeiten“ F5 und „Löschen“ F7 zur Verfügung.
+Um eine private Ableitung einer bestehenden Variante zu erstellen, startet man die Anwendung und wählt dort die Variante aus, die privatisiert werden soll. Dann führt man die Funktion „***private Variante***“ **Strg+F2** aus. Mit dieser Funktion können später auch schon existierende Varianten bearbeitet werden. Dann stehen zusätzlich noch die Funktionen „***Bearbeiten***“ **F5** und „***Löschen***“ **F7** zur Verfügung.
 
 ![](../../ImagesExt/image8_1333.png)
 

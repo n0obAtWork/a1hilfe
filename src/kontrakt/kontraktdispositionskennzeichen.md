@@ -4,7 +4,7 @@
 
 Hauptmenü > Kontraktverwaltung > Kontraktdispositionskennzeichen
 
-oder Direktsprung [KTDI]
+oder Direktsprung **[KTDI]**
 
 Wahlweise ein ganzer Kontrakt oder aber eine Partie eines Ein- oder Verkaufskontraktes kann hier einem „Auszifferungskennzeichen“ zugeordnet werden, über das, unabhängig von der Partie des Gesamtsystems, Ein- und Verkaufskontrakte bzw. ihre Teilmengen einander gegenübergestellt werden können.
 

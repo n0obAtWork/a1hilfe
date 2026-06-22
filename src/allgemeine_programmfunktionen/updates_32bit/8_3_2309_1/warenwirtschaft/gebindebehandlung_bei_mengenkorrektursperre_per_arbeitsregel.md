@@ -4,7 +4,7 @@
 
 Bei der Korrektur von Vorgängen mit einer zugeordneten Arbeitsregel, die eine Mengenkorrektur-Sperre enthält, konnten Gebinde-Angaben der Warenpositionen geändert werden. Dieses wurde nun derart überarbeitet, dass eine Änderung in diesem Fall nicht mehr möglich ist. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 723393[33840]
 

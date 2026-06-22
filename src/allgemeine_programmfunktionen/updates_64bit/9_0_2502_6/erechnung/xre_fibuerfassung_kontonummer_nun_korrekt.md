@@ -4,7 +4,7 @@
 
 Beim Einspielen der eRechnung unter [XRE] wird die Kontonummer jetzt auch bei den Finanzbuchhaltungsbelegen ermittelt und versorgt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 749761[38074]
 

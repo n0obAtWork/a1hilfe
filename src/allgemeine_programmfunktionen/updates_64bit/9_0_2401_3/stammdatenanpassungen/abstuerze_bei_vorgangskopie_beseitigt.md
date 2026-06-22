@@ -4,7 +4,7 @@
 
 Kunden hatten gelegentlich Abstürze bei der Nutzung der Vorgangskopie. Dies wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 735121[35280]
 

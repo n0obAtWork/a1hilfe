@@ -4,7 +4,7 @@
 
 Bei Kunden mit sehr vielen Artikeln hat das automatische Nachladen nach dem Ändern vom Anbauland während der Belegerfassung nicht funktioniert. Dies wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 738636[35721]
 

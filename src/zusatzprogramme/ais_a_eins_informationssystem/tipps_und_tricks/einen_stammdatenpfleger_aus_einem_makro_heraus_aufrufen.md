@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/einenstammdatenpflegerauseinem.htm -->
 
-Es kann wünschenswert sein, einen Bestehenden Stammdatenpfleger direkt aus einem Makro heraus aufzurufen. Dies kann z.B. Notwendig sein, wenn vorher bestimmte Bedingungen geprüft oder Vorbelegungen gemacht werden müssen. Dazu dient das JPP-Objekt „**JPfleger**“. Dieses verwendet für den Aufruf der Maske Daten, die im Pflegerstamm (Direktsprung [PST]) hinterlegt sind.
+Es kann wünschenswert sein, einen Bestehenden Stammdatenpfleger direkt aus einem Makro heraus aufzurufen. Dies kann z.B. Notwendig sein, wenn vorher bestimmte Bedingungen geprüft oder Vorbelegungen gemacht werden müssen. Dazu dient das JPP-Objekt „**JPfleger**“. Dieses verwendet für den Aufruf der Maske Daten, die im Pflegerstamm (Direktsprung **[PST]**) hinterlegt sind.
 
 Beispiel für Besuchsberichte:
 

@@ -12,13 +12,13 @@ Als Bewertungstyp wurde ‚Komponenten addieren‘ gewählt, dadurch bestimmen d
 
 ![](../../../../ImagesExt/image8_272.jpg)
 
-Unter Zusammensetzung F10 können danach die Komponenten für das Rezept 1 eingegeben werden. In unserem Beispiel ergibt die Summe der Anteile des Hauptproduktes 1739,5 (siehe unten auf der Maske im Kasten Summen im Feld Anteile Abgang). Die Summe wird hier vom System nicht geprüft, da für den Anteile: Typ ‚je ME ohne Prüfung‘ angegeben wurde (auch wenn das Feld Summe im Rezept im Beispiel mit der entsprechenden Zahl gefüllt wurde).  
+Unter **Zusammensetzung F10** können danach die Komponenten für das Rezept 1 eingegeben werden. In unserem Beispiel ergibt die Summe der Anteile des Hauptproduktes 1739,5 (siehe unten auf der Maske im Kasten Summen im Feld Anteile Abgang). Die Summe wird hier vom System nicht geprüft, da für den Anteile: Typ ‚je ME ohne Prüfung‘ angegeben wurde (auch wenn das Feld Summe im Rezept im Beispiel mit der entsprechenden Zahl gefüllt wurde).  
 Der Mengenanteil des Hauptproduktes wird hier mit 70 angegeben. Für den Treber ist ein Mengenanteil von 30 in der Spalte ‚Anteil Zugang‘ angegeben.  
 Der Wertanteil für das Hauptprodukt soll 90 sein, der Wertanteil Zugang für den Treber 10.
 
 ![](../../../../ImagesExt/image8_273.jpg)
 
-Unter [PROE] wird dann die Produktion erfasst.
+Unter **[PROE]** wird dann die Produktion erfasst.
 
 Der Positionsteil sieht wie folgt aus:
 

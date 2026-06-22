@@ -4,7 +4,7 @@
 
 Im Modul Reklamation [REKLAM] können Maßnahmen mit mehrzeilige Eingabefelder enthalten sein. Hier wurde bisher nur die erste Zeile abgespeichert. Dieses Verhalten wurde korrigiert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 742228[36156]
 

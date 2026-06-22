@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Geschäftsjahr / Perioden > Geschäftsjahre/-perioden
 
-oder Direktsprung [JAHR]
+oder Direktsprung **[JAHR]**
 
 <details>
 <summary>Felder der Geschäftsjahre / Buchungsperioden</summary>

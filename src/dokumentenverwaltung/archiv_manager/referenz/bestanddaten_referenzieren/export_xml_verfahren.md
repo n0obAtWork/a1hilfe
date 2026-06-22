@@ -99,4 +99,4 @@ Schaut man sich diese XML-Datei im Explorer an, so wird vom Betriebssystem ein w
 
 ![](../../../../ImagesExt/image8_887.jpg)
 
-Wie man unschwer erkennt, sind die Belege per Link erreichbar, also bei Interesse einfach anklicken. Im Internet-Explorer sucht man per Ctrl + Strg + f, damit lassen sich also schon einige Fragestellungen abdecken.
+Wie man unschwer erkennt, sind die Belege per Link erreichbar, also bei Interesse einfach anklicken. Im Internet-Explorer sucht man per **Ctrl + Strg + f**, damit lassen sich also schon einige Fragestellungen abdecken.

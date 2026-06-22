@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_mandantprofilpfleger.htm -->
 
-Administration > Firmenkonstanten > Mandantenprofil [MPR]
+Administration > Firmenkonstanten > Mandantenprofil **[MPR]**
 
 Im Mandantenprofilpfleger lassen sich Einstellungen pflegen, die z.B. in Makros verwendet werden und im Test- und Livesystem unterschiedlich sind. So könnten zum Beispiel Ablageorte für Reporte, Meldungen, Ergebnisse oder Exporte für Live- und Testsystem unterschiedlich sein. Damit im Makro nach der Erstellung eines Testmandanten keine Änderung gemacht werden muss, muss dieses nur die Daten in der im Bereich [Testmandantenparameter](./parameter_fuer_den_testmandanten_im_mandantprofil.md) beschriebenen Weise gelesen werden.
 

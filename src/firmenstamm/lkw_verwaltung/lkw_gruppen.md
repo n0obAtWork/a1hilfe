@@ -4,7 +4,7 @@
 
 Hauptmenü > Nebenbuchhaltungen > LKW-Verwaltung > LKW Gruppen
 
-Direktsprung [LKWG]
+Direktsprung **[LKWG]**
 
 | Felder |
 | --- |

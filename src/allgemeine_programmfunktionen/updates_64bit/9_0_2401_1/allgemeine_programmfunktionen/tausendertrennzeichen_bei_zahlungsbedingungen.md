@@ -4,7 +4,7 @@
 
 In der textlichen Darstellung der Zahlungsbedingungen [ZB] werden jetzt numerische Werte wie z.B. der Brutto-Betrag mit einem Tausendertrennzeichen versehen, außer die angegebene Länge ist zu kurz. Reicht die angegebene Länge nicht aus, um den numerischen Wert darzustellen, wird der Wert nicht mehr abgeschnitten, sondern es werden im Zahlungsbedingungstext statt des Wertes nun Sterne (\*\*\*) angezeigt. Mit dem neuen Steuerparameter 1148 - "Leerzeichen bei Zahlungsbedingungstext entfernen" kann jetzt abgeschaltet werden, dass die einzelnen Werte im Zahlungsbedingungstext mit Leerzeichen aufgefüllt werden.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 726959[34235]
 

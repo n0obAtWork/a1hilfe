@@ -27,13 +27,13 @@ oder Direktsprung [**EXCELI**]
 
 | **Funktionen** | |
 | --- | --- |
-| Ändern [F5], Ansehen [F6], Neu [F8], Löschen [F7] | siehe [Excel-Import: Pfleger](./excel_import_pfleger.md)  
+| Ändern **[F5]**, Ansehen **[F6]**, Neu **[F8]**, Löschen **[F7]** | siehe [Excel-Import: Pfleger](./excel_import_pfleger.md)  
  |
-| Variante aktualisieren [F10] | Führt den Excel-Import aus und aktualisiert die Variante.  
+| Variante aktualisieren **[F10]** | Führt den Excel-Import aus und aktualisiert die Variante.  
  |
-| Variante starten [F9] | Wechselt in die betreffende Variante.  
+| Variante starten **[F9]** | Wechselt in die betreffende Variante.  
  |
-| Exceldatei öffnen [SF9] | Öffnet die Excel-Datei.  
+| Exceldatei öffnen **[SF9]** | Öffnet die Excel-Datei.  
  |
 
 | **F2-Bereichsauswahl** | |

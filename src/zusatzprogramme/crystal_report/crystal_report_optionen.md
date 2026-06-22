@@ -2,11 +2,11 @@
 
 <!-- source: https://amic.de/hilfe/crystalreportoptionen.htm -->
 
-Hauptmenü > Administration > Werkzeuge > Anwendung Reports > Funktion CRW-Optionen F10
+Hauptmenü > Administration > Werkzeuge > Anwendung Reports > Funktion ***CRW-Optionen F10***
 
 Direktsprung **[ANWR]**.
 
-Die Darstellung der Reporte kann bis zu einem bestimmten Grad vom Kunden angepasst werden. Dazu dienen die Crystal Report Optionen die man im Vorschaumodus des Reports in der Optionbox unter CRW-Optionen Shift-F11 findet:
+Die Darstellung der Reporte kann bis zu einem bestimmten Grad vom Kunden angepasst werden. Dazu dienen die Crystal Report Optionen die man im Vorschaumodus des Reports in der Optionbox unter ***CRW-Optionen Shift-F11*** findet:
 
 ![Ein Bild, das Text, Screenshot, Zahl, Schrift enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_1159.jpg "Ein Bild, das Text, Screenshot, Zahl, Schrift enthält. Automatisch generierte Beschreibung")
 

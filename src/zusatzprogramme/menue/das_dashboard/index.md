@@ -6,7 +6,7 @@ Administration > Menü > Dashboard
 
 oder
 
-Direktsprung [DASH]
+Direktsprung **[DASH]**
 
 Ab dem März Release ist es mit der 64-Bit Version möglich auf einem extra Menü-Register ein Dashboard einzurichten. Ein Dashboard besteht aus verschiedenen Kacheln mit unterschiedlichen Darstellungsarten.
 

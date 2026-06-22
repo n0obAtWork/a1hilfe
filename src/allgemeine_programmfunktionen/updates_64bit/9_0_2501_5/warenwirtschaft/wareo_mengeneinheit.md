@@ -4,7 +4,7 @@
 
 Beim Durchführen eines Wareo kam es zu einer fehlerhaften Berechnung des Partiebestands, wenn ein Artikel in seiner Mengeneinheitsgruppe keine Grundmengeneinheit als Lagermengeneinheit hatte. In diesem Fall wurde der Partiebestand fälschlicherweise in die Grundmengeneinheit der Lagermengeinheit umgerechnet. Dieses Verhalten wurde korrigiert: Nach einem Wareo wird nun korrekt die in der Mengeneinheitsgruppe definierte Lagermengeneinheit verwendet.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 737555[35857]
 

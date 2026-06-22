@@ -2,11 +2,11 @@
 
 <!-- source: https://amic.de/hilfe/_profilebereichef2.htm -->
 
-Die vorhandenen Profile werden in der linken Oben im Menü-Band der Auswahlliste angezeigt. Bei Profilen handelt es sich um fest eingestellte Bereichseingrenzungen des Datenmaterials, die in Verbindung mit einer Variante ausgewertet werden sollen. Für unterschiedliche immer wiederkehrende Anfragen an das System kann man einmal vorgenommene Bereichseingrenzungen unter einem Namen speichern. Um Eingrenzungen vorzunehmen und Profile zu bearbeiten, steht in Auswahllisten die Funktion Bereichsauswahl F2 zur Verfügung. Wenn man diese Funktion betätig öffnet sich ein Dialog, in dem die möglichen Eingrenzungen des Datenmaterials abgefragt werden.
+Die vorhandenen Profile werden in der linken Oben im Menü-Band der Auswahlliste angezeigt. Bei Profilen handelt es sich um fest eingestellte Bereichseingrenzungen des Datenmaterials, die in Verbindung mit einer Variante ausgewertet werden sollen. Für unterschiedliche immer wiederkehrende Anfragen an das System kann man einmal vorgenommene Bereichseingrenzungen unter einem Namen speichern. Um Eingrenzungen vorzunehmen und Profile zu bearbeiten, steht in Auswahllisten die Funktion ***Bereichsauswahl*** **F2** zur Verfügung. Wenn man diese Funktion betätig öffnet sich ein Dialog, in dem die möglichen Eingrenzungen des Datenmaterials abgefragt werden.
 
 ![](../../../../ImagesExt/image8_1271.png)
 
-Am linken Rand kann man das Schnellauswahlkriterium markieren. Im Beispiel oben ist es die Lagernummer, die dann in der Auswahlliste direkt abgefragt werden kann. Dazu muss man als Einstiegsverhalten „Daten nicht sofort Anzeigen“ eingetragen haben, oder mit Strg+Y die Schnellabfrage aktivieren.
+Am linken Rand kann man das Schnellauswahlkriterium markieren. Im Beispiel oben ist es die Lagernummer, die dann in der Auswahlliste direkt abgefragt werden kann. Dazu muss man als Einstiegsverhalten „Daten nicht sofort Anzeigen“ eingetragen haben, oder mit **Strg+Y** die Schnellabfrage aktivieren.
 
 Rechts von der Bezeichnung können Auswahlbedingungen ein oder ausgeblendet werden. Ausgeblendete Auswahlbedingungen werden auch nicht im F2-Bereich der Auswahlliste angezeigt.
 
@@ -14,7 +14,7 @@ Der Haken bei „Benutztes Profil festschreiben“ sorgt lediglich dafür, dass 
 
 | | Funktion | Beschreibung |
 | --- | --- | --- |
-| F9 | Speichern und Zurück | Mit F9 wird das Profil gespeichert und man gelangt wieder in die Auswahlliste zurück.  
+| F9 | Speichern und Zurück | Mit **F9** wird das Profil gespeichert und man gelangt wieder in die Auswahlliste zurück.  
  |
 | F8 | Speichern unter… | Für dieses Profil wird dann ein Name abgefragt (z.B. „Lager 15 „) unter dem es immer wieder abgerufen werden kann. Dieses findet man in der Auswahlliste unten links wieder. Es kann mit der Maus oder durch Angabe des vorangestellten Buchstabens gefolgt von einem Punkt aktiviert werden.  
  |
@@ -28,7 +28,7 @@ Der Haken bei „Benutztes Profil festschreiben“ sorgt lediglich dafür, dass 
     
  |
 | F6 | Einstiegsverhalten ändern | Hier wird festgelegt, was geschehen soll, wenn man eine Auswahlliste betritt. Das Einstiegsverhalten kann an mehreren Stellen festgelegt werden und zieht in folgender Reihenfolge.  
-1. Die Festlegung pro Anwender im Bedienerstamm (Direktsprung [BD]).  
+1. Die Festlegung pro Anwender im Bedienerstamm (Direktsprung **[BD]**).  
 2. Sie wird vom hier festgelegten Einstiegsverhalten auf Profilebene überschrieben.  
 3. Das unter „Zentrales einstiegsverhalten festlegen“ eingestellte Verhalten übersteuert alle anderen Einstellungen und gilt für alle Anwender.  
 Hier wird das Einstiegsverhalten pro Profil festgelegt.  
@@ -40,7 +40,7 @@ Bei komplexen Auswahlen oder bei großem Datenmaterial sollte das Einstiegverhal
 | Shift+F6 | Zentrales Einstiegsverhalten festlegen | Hier kann das Einstiegsverhalten für alle Anwender festgelegt werden. Es übersteuert alle von Benutzern festgelegten Einstiegsverhalten und gilt für die gesamte Variante. Ist ein zentrales Einstiegsverhalten festgelegt worden, so ändert sich die Überschrift von „Einstiegsverhalten“ auf „zentrales Einstiegsverhalten“, die Funktion „Einstiegsverhalten ändern“ wird nicht mehr angeboten und es steht zusätzlich eine Funktion „zentrales Einstiegsverhalten entfernen“ zur Verfügung.  
 Diese Funktion sollte nur Administratoren zur Verfügung gestellt werden. Dies lässt sich über das A.eins-Schutzsystem bewerkstelligen.  
  |
-| F10 | Schnellabfrage | Mit dieser Funktion kann das Kriterium der Schnellabfrage von z.B. Kundennummer in Kundenname geändert werden. Hierzu ist hinter in das Feld, das für die Schnellabfrage maßgeblich sein soll, zu verzweigen und dann durch Anklicken der Funktion mit der Maus oder der Taste F10 dieses Feld als Schnellabfragefeld zu bestätigen.  
+| F10 | Schnellabfrage | Mit dieser Funktion kann das Kriterium der Schnellabfrage von z.B. Kundennummer in Kundenname geändert werden. Hierzu ist hinter in das Feld, das für die Schnellabfrage maßgeblich sein soll, zu verzweigen und dann durch Anklicken der Funktion mit der Maus oder der Taste **F10** dieses Feld als Schnellabfragefeld zu bestätigen.  
  |
 
 <p class="siehe-auch">Siehe auch:</p>

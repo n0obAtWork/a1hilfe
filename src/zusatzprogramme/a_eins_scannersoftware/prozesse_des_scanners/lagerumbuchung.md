@@ -2,9 +2,9 @@
 
 <!-- source: https://amic.de/hilfe/_celagerumbuchung.htm -->
 
-Eine Lagerumbuchung kann nur dann erfolgreich mit dem Scanner abgearbeitet werden, wenn diese im System erfasst worden ist. Eine Lagerumbuchung wird unter [LGU] angelegt.
+Eine Lagerumbuchung kann nur dann erfolgreich mit dem Scanner abgearbeitet werden, wenn diese im System erfasst worden ist. Eine Lagerumbuchung wird unter **[LGU]** angelegt.
 
-Des Weiteren ist zu beachten, dass der Scanner auf dem Ziellager arbeitet. Das Lager kann unter [VKONS] eingerichtet werden. Dazu muss man sich mit dem Bediener des Scanners in A.eins anmelden und das Lager umstellen.
+Des Weiteren ist zu beachten, dass der Scanner auf dem Ziellager arbeitet. Das Lager kann unter **[VKONS]** eingerichtet werden. Dazu muss man sich mit dem Bediener des Scanners in A.eins anmelden und das Lager umstellen.
 
 Es muss ein AMIC Etikettendruck Dokument eingerichtet werden, welcher die Scancodes in EAN 128 Codiert für die Lagerumbuchung enthält.
 
@@ -37,7 +37,7 @@ Um eine Lagerumbuchung mit dem Scanner durchzuführen wird wie folgt vorgegangen
 
 3. Die Lagerumbuchung wird mit dem Befehl LGUENDE beendet.
 
-Ablauf
+<p class="just-emphasize">Ablauf</p>
 
 • Als erstes wird der Startscancode erfasst wie z.B. LGU 4711. Beim Startscancode muss immer zwischen dem LGU und der Vorgangsnummer ein Leerzeichen stehen. Nach dem der Startscancode erfasst worden ist, werden im unteren Teil des Scanner Bildschirmes alle Position der Lagerumbuchung angezeigt. Enthält die Lagerumbuchung mehr als neun Positionen so kann mit den Pfeil hoch und Pfeil runter Tasten geblättert werden.
 
@@ -53,6 +53,6 @@ Ablauf
 
 • Nach dem abarbeiten der Positionen wird LGUENDE eingescannt.
 
-Gebinde
+<p class="just-emphasize">Gebinde</p>
 
 Für das Erfassen des Gebindes gibt es mehrere Einstellungsmöglichkeiten. In dem Standardfall kann nur die Ergebnismengeneinheit angegeben werden. Wird der Schalter Gebindefaktor aus Vorgang auf ja gestellt, so wird die eingegebene Menge als Anzahl genommen und der Gebindefaktor aus dem Auftrag gelesen. Des Weiteren kann an der Mengeneinheit selbst noch einmal hinterlegt werden, ob die Mengenangabe als Gesamt Menge oder als Gebinde Anzahl gewertet werden soll.

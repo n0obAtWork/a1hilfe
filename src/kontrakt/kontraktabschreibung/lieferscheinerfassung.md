@@ -4,7 +4,7 @@
 
 Bei angeschlossener Kontraktverwaltung werden die Kontraktbedingungen bei der Vorgangserfassung automatisch berücksichtigt. Mit Eingabe des Kunden, des Artikels und der Menge sind alle Informationen für die Preisfindung über den Kontrakt vorhanden.
 
-Erfassung
+<p class="just-emphasize">Erfassung</p>
 
 Der Rechnungserfassungsbildschirm (wie auch alle anderen Vorgänge) hat dann zum Beispiel folgenden Aufbau:
 
@@ -14,7 +14,7 @@ Der Rechnungserfassungsbildschirm (wie auch alle anderen Vorgänge) hat dann zum
 
 Rechts neben dem Gesamtpreis wird angezeigt, dass es sich um einen Kontraktpreis handelt. In den beiden letzten Zeilen werden Kontraktnummer und -bezeichnung angezeigt
 
-Über die Funktion Kontraktauswahl werden weitere Informationen über Laufzeit, Restmenge, etc. angezeigt.
+Über die Funktion ***Kontraktauswahl*** werden weitere Informationen über Laufzeit, Restmenge, etc. angezeigt.
 
 Wenn mehr als ein zulässiger Kontrakt im Zeitraum zur Verfügung steht, zeigt A.eins, in Abhängigkeit von der Parametereinstellung und insbesondere bei Überziehung von vereinbarten Zeitraummengen, die Alternativen an:
 
@@ -22,7 +22,7 @@ Wenn mehr als ein zulässiger Kontrakt im Zeitraum zur Verfügung steht, zeigt A
 
 Aus diesen Alternativen wird dann der gewünschte mittels Cursorpositionierung ausgewählt.
 
-Ist im [Steuerungsparameter](../../firmenstamm/steuerparameter/kontraktwesen/ratierliche_einstellungen_spa_846.md)s 846 die Option “Variable Kontraktzeitraumzuordnung“ mit dem Wert 1 eingestellt, so erscheint eine erweiterte Maske mit Darstellung der Zeiträume der Kontraktposition.
+Ist im [Steuerungsparameter](../../firmenstamm/steuerparameter/kontraktwesen/ratierliche_einstellungen_spa_846.md)s **846 die Option** “Variable Kontraktzeitraumzuordnung“ mit dem Wert 1 eingestellt, so erscheint eine erweiterte Maske mit Darstellung der Zeiträume der Kontraktposition.
 
 ![Ein Bild, das Tisch enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_154.jpg "Ein Bild, das Tisch enthält. Automatisch generierte Beschreibung")
 
@@ -50,7 +50,7 @@ Der Report wird dabei automatisch mit der Anzahl multipliziert, wie oft das Lief
 
 Der Überziehungs-Zuschlag wird automatisch beim Überschreiten des Kontrakt-Enddatums berechnet.
 
-Der Paritäts-Zu-/Abschlag wird dann aktiviert, wenn zu der im Vorgang eingetragenen Parität ein Zu-/Abschlag im Kontrakt hinterlegt wurde. Um die Paritätsnummer im Vorgang erfassen zu können, muss die Position im Vorgangskopf (per [UFLD]) in den variablen Eingabebereich der jeweiligen Vorgangsklasse eingebunden werden.
+Der Paritäts-Zu-/Abschlag wird dann aktiviert, wenn zu der im Vorgang eingetragenen Parität ein Zu-/Abschlag im Kontrakt hinterlegt wurde. Um die Paritätsnummer im Vorgang erfassen zu können, muss die Position im Vorgangskopf (per **[UFLD]**) in den variablen Eingabebereich der jeweiligen Vorgangsklasse eingebunden werden.
 
 Ziehen von Kontrakten in Fremdwährungen
 

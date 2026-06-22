@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Archiv > Administration > Archiv Auslagerung
 
-Direktsprung [FAAD]
+Direktsprung **[FAAD]**
 
 Wie auch unter [Auslagerung Archiv](../auslagerung_archiv/index.md) beschrieben befindet sich eine Übersicht der entsprechenden Auslagerungen.
 

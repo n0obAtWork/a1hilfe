@@ -4,7 +4,7 @@
 
 In der Produktion lässt sich nun bei den Komponenten eine Partie mit F3 (Itembox) auswählen, bei denen im Partiestamm der Lieferant EK (Liste) eingestellt ist. Der nicht zur Produktion gehört.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 733346[36651]
 

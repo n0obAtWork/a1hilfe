@@ -24,7 +24,7 @@ Hauptmenü > Inventur > Permanente Inventur > Permanente Inventur Prüfungen
 
 Es liegt in der Natur der Sache, dass man Bestände mit einem Bestand von 0 nicht aufzufinden vermag. Sollte nach intensiver Prüfung der Bestand tatsächlich nicht vorhanden sein, so kann dieser Null-Bestand mit der Funktion „Nullzählung LVS erzeugen“ bestätigt werden. Es wird dann die Null-Zählung ins Protokoll eingetragen und in den nächsten Beleg übernommen.
 
-Funktionen
+<p class="just-emphasize">Funktionen</p>
 
 **Report erzeugen**
 
@@ -42,7 +42,7 @@ Zählung = Z
 
 Z = W - D
 
-Bewertung
+<p class="just-emphasize">Bewertung</p>
 
 Hauptmenü > Inventur > Permanente Inventur > Laufende Inventur
 

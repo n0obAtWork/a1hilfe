@@ -4,7 +4,7 @@
 
 In der Anwendung "Formulararchiv" [FA], Variante "Formulararchiv eRechnung" wurde die Funktion "Dokument speichern" hinzugefügt. Mit der Funktion wird der Eintrag aus dem Archiv auf einen Datenträger gespeichert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 746170[36913]
 

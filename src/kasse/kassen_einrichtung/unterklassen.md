@@ -22,7 +22,7 @@ Zuordnung Nummernkreise und Zählkreise
 
 In den Unterklassen der Klassen 700,1700, 800 und 1800 müssen Nummernkreise und Zählkreise zugeordnet sein
 
-Dabei ist insbesondere darauf zu achten, dass für jede Bedienerklasse, die Kassenvorgänge durchführen soll, eigene Einträge gemacht werden müssen ([FRZ] bzw. [NKF])  
+Dabei ist insbesondere darauf zu achten, dass für jede Bedienerklasse, die Kassenvorgänge durchführen soll, eigene Einträge gemacht werden müssen (**[FRZ]** bzw. **[NKF]**)  
     
 
 Formulare

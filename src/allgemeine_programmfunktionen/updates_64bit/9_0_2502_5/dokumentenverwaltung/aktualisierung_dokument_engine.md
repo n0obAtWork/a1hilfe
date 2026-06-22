@@ -4,7 +4,7 @@
 
 Im Rahmen der Pflege- und Wartung wurde die Dokument-Engine auf den Stand 4.0.102.290 aktualisiert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[36702]
 

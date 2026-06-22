@@ -4,7 +4,7 @@
 
 Bei der Bearbeitung von e-Clearing kam es im Adressblock zu einer geringfügigen Verschiebung einiger Texte. Das Anzeigeproblem wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 734884[35246]
 

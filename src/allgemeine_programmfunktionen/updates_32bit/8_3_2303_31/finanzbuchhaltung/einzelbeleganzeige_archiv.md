@@ -4,7 +4,7 @@
 
 In dem Archiv der Einzelbeleganzeige wurden seit der Version 8.3.2211.30 die archivierten Warenwirtschaftsbelege beim Zahlungspflichtigen nicht mehr angezeigt. Dies wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 719393[33473]
 

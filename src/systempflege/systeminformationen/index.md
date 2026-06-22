@@ -4,29 +4,29 @@
 
 Hauptmenü > Systempflege > Update > Systeminformationen
 
-oder Direktsprung [SYSIN]
+oder Direktsprung **[SYSIN]**
 
 oder das Fragezeichen (?) in der oberen Leiste anklicken und dann Systeminformationen auswählen
 
 Hier findet man alle notwendigen Informationen zum System z.B. wer mit der Datenbank verbunden ist, welche Lizenz und welche Versionen verwendet werden, die Größe der Datenbank und vieles weiteres.
 
-Kopfdaten
+<p class="just-emphasize">Kopfdaten</p>
 
 | Feldname | Beschreibung |
 | --- | --- |
 | Kunden-Bezeichnung | Name des Kunden / Mandanten.  
 Entspricht dem Feld Name aus dem [Mandantenstamm](../../firmenstamm/firmenkonstanten/mandantenstamm.md)  
-(Direktsprung [MND])  
+(Direktsprung **[MND]**)  
  |
 | Bediener | Hier werden das Kürzel und der Name des aktuellen Bedieners angezeigt.  
-Entspricht den Feldern Kurzname und Bedienername aus dem [Bedienerstamm](../../firmenstamm/firmenkonstanten/bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/index.md) (Direktsprung [BD])  
+Entspricht den Feldern Kurzname und Bedienername aus dem [Bedienerstamm](../../firmenstamm/firmenkonstanten/bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/index.md) (Direktsprung **[BD]**)  
  |
 | Mandant | Hier sieht man welcher Mandant ausgewählt wurde  
 Entspricht dem Feld Kurztext aus dem [Mandantenstamm](../../firmenstamm/firmenkonstanten/mandantenstamm.md)  
-(Direktsprung [MND])  
+(Direktsprung **[MND]**)  
  |
 
-Register
+<p class="just-emphasize">Register</p>
 
 <details>
 <summary>Allgemein</summary>
@@ -116,7 +116,7 @@ Konsistenzprüfung der Datenbank
 | Status | Status der letzten Prüfung  
  |
 
-Option
+<p class="just-emphasize">Option</p>
 
 Hier kann man die Datenbankoptionen und ihren Status einsehen.  
 Aufgrund der Anzahl der Optionen wird hier nicht jede einzelne erläutert.
@@ -128,7 +128,7 @@ Aufgrund der Anzahl der Optionen wird hier nicht jede einzelne erläutert.
 | Status | Hier wird der Status der Option angezeigt  
  |
 
-DB-Eigenschaften
+<p class="just-emphasize">DB-Eigenschaften</p>
 
 Hier kann man die Datenbank-Eigenschaften und ihren Status einsehen.
 
@@ -145,7 +145,7 @@ Hier kann man die Datenbank-Eigenschaften und ihren Status einsehen.
 
  
 
-Funktionen
+<p class="just-emphasize">Funktionen</p>
 
 <details>
 <summary>Funktionen der Systeminformationen</summary>
@@ -155,18 +155,18 @@ Funktionen
 | Konsistenzprüfung starten | Wird nur angezeigt, wenn der Tab Reiter Konsistenz aktiv ist.  
 Konsistenzprüfung der Datenbank wird gestartet und in der Tabelle angezeigt. Die Prüfung kann einige Zeit in Anspruch nehmen.  
  |
-| Benutzerinfo (F9) | Öffnet die Maske Benutzerinformation.  
+| Benutzerinfo **(F9)** | Öffnet die Maske Benutzerinformation.  
  |
-| Serverinfo (F10) | Öffnet die Maske Serverinformation.  
+| Serverinfo **(F10)** | Öffnet die Maske Serverinformation.  
  |
-| DB-MessageFile (F6) | Öffnet die Datei server.txt.  
-Wo sich diese Datei befindet, ist in den optionalen Parametern [OPT] unter DBMESSAGEFILE festgelegt.  
+| DB-MessageFile **(F6)** | Öffnet die Datei server.txt.  
+Wo sich diese Datei befindet, ist in den optionalen Parametern **[OPT]** unter DBMESSAGEFILE festgelegt.  
  |
 | Parameter | Hier steht die Verbindungsnummer.  
  |
-| Sperren in der Datenbank (F11) | Öffnet die Auswahlliste Parameter.  
+| Sperren in der Datenbank **(F11)** | Öffnet die Auswahlliste Parameter.  
  |
-| Aktualisieren (F5) | Aktualisiert die Daten auf dem aktuellen Tab Reiter.  
+| Aktualisieren **(F5)** | Aktualisiert die Daten auf dem aktuellen Tab Reiter.  
  |
 
 </details>

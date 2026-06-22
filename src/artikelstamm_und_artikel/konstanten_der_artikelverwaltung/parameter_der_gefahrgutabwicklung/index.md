@@ -4,11 +4,11 @@
 
 Die für die Gefahrgutabwicklung erforderlichen
 
-• Gefahrgutklassen [GFK]
+• Gefahrgutklassen **[GFK]**
 
-• Brandklassen [GFBK]
+• Brandklassen **[GFBK]**
 
-• Toxizitätsklassen [GFTK]
+• Toxizitätsklassen **[GFTK]**
 
 können hier mit den gesetzlich vorgeschriebenen Informationen angelegt werden.
 

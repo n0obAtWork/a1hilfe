@@ -9,9 +9,9 @@ Der A.eins Dokumenten Editor bietet vielfältige Möglichkeiten das Dokument anz
 
 | Funktion | Beschreibung |
 | --- | --- |
-| Einfügen (STRG +V) | Fügt den Zwischenspeicher in das Dokument ein |
-| Ausschneiden (STRG + X) | Schneidet aus dem Dokument aus und schreibt die Daten in den Zwischenspeicher |
-| Kopieren (STRG + C) | Kopiert aus dem Dokument und schreibt die Daten in den Zwischenspeicher |
+| Einfügen **(STRG +V)** | Fügt den Zwischenspeicher in das Dokument ein |
+| Ausschneiden **(STRG + X)** | Schneidet aus dem Dokument aus und schreibt die Daten in den Zwischenspeicher |
+| Kopieren **(STRG + C)** | Kopiert aus dem Dokument und schreibt die Daten in den Zwischenspeicher |
 
 </details>
 
@@ -43,7 +43,7 @@ Der A.eins Dokumenten Editor bietet vielfältige Möglichkeiten das Dokument anz
 | Funktion | Beschreibung |
 | --- | --- |
 | Aufzählungen | Erstellt eine Auflistung |
-| Absatzeinrückung (TAB) | Rückt den Text ein:  
+| Absatzeinrückung **(TAB)** | Rückt den Text ein:  
 Vor  
 Zurück |
 | Textrichtung | Stellt die Textrichtung ein  

@@ -4,7 +4,7 @@
 
 In den passenden Auswahlvarianten der Anwendungen Rohwarebearbeitung Einkauf und Verkauf wurden die Auswahllisten um die Spalten 'Mail versendet' und 'Versand' zur Darstellung des Mailstatus und ggf. des Zeitpunktes des Versandereignisses erweitert. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 747508[37195]
 

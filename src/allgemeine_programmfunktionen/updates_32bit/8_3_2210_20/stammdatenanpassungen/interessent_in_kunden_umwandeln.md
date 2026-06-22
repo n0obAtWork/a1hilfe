@@ -4,7 +4,7 @@
 
 Beim Umwandeln eines Interessenten in einen Kunden oder Kontokorrent-Kunden wird die nächste Nummer aus dem zugeordneten Nummernkreis vor belegt. Jetzt findet vor dem Umwandeln noch eine zusätzliche Prüfung statt, ob diese Nummer ggf. schon vergeben ist und es wird die nächste freie Nummer vorgeschlagen.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 714300[32845]
 

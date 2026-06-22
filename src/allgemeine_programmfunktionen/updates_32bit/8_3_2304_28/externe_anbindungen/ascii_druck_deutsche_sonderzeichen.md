@@ -4,7 +4,7 @@
 
 Beim ASCII-Druck (speziell OKI-Nadeldrucker) werden die deutschen Sonderzeichen (hier Umlaute und ß) dargestellt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 722009[33636]
 

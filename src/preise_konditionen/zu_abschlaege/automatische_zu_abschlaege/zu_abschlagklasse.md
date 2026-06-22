@@ -4,7 +4,7 @@
 
 Preise / Konditionen > Zu-/Abschläge > Zu-/Abschlagklassen
 
-Oder Direktsprung [ZABK]
+Oder Direktsprung **[ZABK]**
 
 Kunden/Lieferanten können eine Zu-/Abschlagklasse und/oder eine individuelle Zu-/Abschlagklasse sowohl im Einkauf als auch im Verkauf zugeordnet bekommen. Diese beschreiben jeweils die Zugehörigkeit zu einer Gruppe von Kunden/Lieferanten, die alle für Artikel mit einer dort zugeordneten Zu-/Abschlaggruppe beziehungsweise individuellen Zu-/Abschlaggruppe einen oder mehrere zu der Gruppen-Klassen-Kombination festgelegten Zu- und Abschläge bekommen.
 

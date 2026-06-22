@@ -4,7 +4,7 @@
 
 In der Vorgangserfassung können bei Verwendung eines Objektes Fremdartikel wieder eingefügt werden, sofern der Parameter "Fremdartikel Zulässig" im Objektstamm auf "Ja" gesetzt wurde.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 735165[35275]
 

@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/kundenanrufspa548.htm -->
 
-Aus den Auswahllisten Kunden, Lieferanten, Interessenten ist die Funktion Kundenanruf verfügbar, wenn der [Steuerparameter 548](../firmenstamm/steuerparameter/lizenzen/telefonie_tapi_cti_lizenz_spa_548.md) aktiviert ist.  
+Aus den Auswahllisten Kunden, Lieferanten, Interessenten ist die Funktion ***Kundenanruf*** verfügbar, wenn der [Steuerparameter 548](../firmenstamm/steuerparameter/lizenzen/telefonie_tapi_cti_lizenz_spa_548.md) aktiviert ist.  
 Um diese Anwendung nutzen zu können benötigen Sie eine [Lizenz](../firmenstamm/steuerparameter/lizenzen/index.md).
 
 Allgemeines zu TAPI/CTI:

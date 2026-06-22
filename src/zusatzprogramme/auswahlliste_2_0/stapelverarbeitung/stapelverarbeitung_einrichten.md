@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Firmenkonstanten > Bediener
 
-oder Direktsprung [BD]
+oder Direktsprung **[BD]**
 
 Im Bedienerstamm kann pro Bediener hinterlegt werden, ob und wie mit der Stapelfunktion gearbeitet werden darf. Die Einstellung wird im Feld „Ausw. Stapel“ eingetragen. Es stehen drei Möglichkeiten zu Verfügung, die mit F3 ausgewählt werden können:
 

@@ -44,7 +44,7 @@ d. Alle anderen schaden jedenfalls nicht…
 
 Zum Anlegen der SQL Remote Benutzer können Sie auch direkt durch Anklicken des Menüpunktes SQL Remote Benutzer in der Ordneransicht mit der RECHTEN Maustaste, dann auf Neu àSQL Remote Benutzer, den Assistenten zum Erstellen von SQL Remote Benutzern öffnen. Hier haben Sie den Vorteil die für die Replikation nötigen Benutzerinfos direkt anzugeben.
 
-Publisher anlegen via ISQL
+<p class="just-emphasize">Publisher anlegen via ISQL</p>
 
 Werte in den Klammern ersetzen!
 
@@ -60,7 +60,7 @@ ALTER REMOTE MESSAGE TYPE
 file ADDRESS '<Pfad zum Nachrichtenverzeichnis>';
 ```
 
-SQL Remote Benutzer anlegen via ISQL
+<p class="just-emphasize">SQL Remote Benutzer anlegen via ISQL</p>
 
 Werte in den Klammern ersetzen!
 

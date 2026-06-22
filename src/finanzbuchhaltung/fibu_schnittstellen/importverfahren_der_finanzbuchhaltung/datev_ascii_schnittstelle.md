@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/datevasciischnittstelle.htm -->
 
-Hauptmenü > Abschlussarbeiten > DATEV / Import / Export > Import > Funktion F9 Import Starten > Funktion F4 Importdatei lesen
+Hauptmenü > Abschlussarbeiten > DATEV / Import / Export > Import > Funktion **F9** ***Import Starten*** > Funktion **F4** ***Importdatei lesen***
 
 Diese Schnittstelle steht zur Verfügung, wenn eine DATEV Lizenz vorhanden ist.
 

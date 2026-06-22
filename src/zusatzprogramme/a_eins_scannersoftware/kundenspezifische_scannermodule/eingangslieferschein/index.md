@@ -34,11 +34,11 @@ Als erstes wird der Startscancode **EL** mittels Scanner erfasst.
 
 Lieferanteneingabe
 
-Die Lieferanteneingabe erfolgt nach der Erfassung des Startscancodes. Die Eingabe des Lieferanten kann auch übersprungen werden, denn der Lieferant kann im Nachlauf unter [Vorgangsimport](../../../../vorgangsabwicklung/vorgangsimport/index.md) [VIMP] hinzugefügt werden kann. Die ILN Nummer wird im [Lieferanten- / Kundenstamm](../../../../kunden_und_lieferanten/uebersicht_kunden_und_lieferanten.md) im Feld ILN hinterlegt
+Die Lieferanteneingabe erfolgt nach der Erfassung des Startscancodes. Die Eingabe des Lieferanten kann auch übersprungen werden, denn der Lieferant kann im Nachlauf unter [Vorgangsimport](../../../../vorgangsabwicklung/vorgangsimport/index.md) [**VIMP**] hinzugefügt werden kann. Die ILN Nummer wird im [Lieferanten- / Kundenstamm](../../../../kunden_und_lieferanten/uebersicht_kunden_und_lieferanten.md) im Feld ILN hinterlegt
 
 Artikeleingabe
 
-Als nächstes wird der Artikel erfasst. Hier kann der EAN-Code entweder per Scanner gescannt werden, oder per Hand eingegeben werden. Des Weiteren ist es möglich die Artikelnummer per Hand zu erfassen. Sollte der erfasste Artikel nicht gefunden werden, so wird in der Relation ImportVorgPosition auch ein neuer Datensatz angelegt. Diesem kann im Nachlauf unter [Vorgangsimport](../../../../vorgangsabwicklung/vorgangsimport/vorgangsimport_mit_opentrans/zeitgesteuerter_importprozess.md) [VIMP] bearbeitet werden ein Artikel hinzugefügt werden.
+Als nächstes wird der Artikel erfasst. Hier kann der EAN-Code entweder per Scanner gescannt werden, oder per Hand eingegeben werden. Des Weiteren ist es möglich die Artikelnummer per Hand zu erfassen. Sollte der erfasste Artikel nicht gefunden werden, so wird in der Relation ImportVorgPosition auch ein neuer Datensatz angelegt. Diesem kann im Nachlauf unter [Vorgangsimport](../../../../vorgangsabwicklung/vorgangsimport/vorgangsimport_mit_opentrans/zeitgesteuerter_importprozess.md) [**VIMP**] bearbeitet werden ein Artikel hinzugefügt werden.
 
 Hauptmenü > Externe Kommunikation > Stammdatenimport > Vorgangsimport
 
@@ -78,7 +78,7 @@ Durch das erstmalige Scannen des Befehls **STORNO** wird der Scanner in den Stor
 
 Um eine Eingangslieferschein mit dem Scanner abzuschließen muss der Befehl **ELENDE** erfasst werden.
 
-Die erfassten Daten werden in der Anwendung [Vorgangsimport](../../../../vorgangsabwicklung/vorgangsimport/index.md) [VIMP] gespeichert und können in der Anwendung noch bearbeitet werden.
+Die erfassten Daten werden in der Anwendung [Vorgangsimport](../../../../vorgangsabwicklung/vorgangsimport/index.md) [**VIMP**] gespeichert und können in der Anwendung noch bearbeitet werden.
 
 Hauptmenü > Externe Kommunikation > Stammdatenimport > Vorgangsimport
 

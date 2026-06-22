@@ -4,7 +4,7 @@
 
 Ruft man aus der Anwendung eClearing [ECL] die Funktion Anzeigen/Bearbeiten auf, öffnet sich eine weitere Anwendung, in der DTADiskIdent und DTADiskzaehler vorbelegt sind. Die Eingrenzung des DTADiskzaehlers im SQL-Text wurde nur auf gleich und nicht auf von/bis eingrenzt. Dies wurde korrigiert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 717525[33290]
 

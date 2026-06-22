@@ -4,7 +4,7 @@
 
 Bei eingestellter harter Liefersperre im Kunden wurde die Meldung dazu im Rahmen der Teildisposition nicht korrekt angezeigt. Dies wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 731498[34897]
 

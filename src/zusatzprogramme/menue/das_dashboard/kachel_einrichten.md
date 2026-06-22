@@ -6,7 +6,7 @@ Administration > Menü > Dashboard > Variante Kachel
 
 oder
 
-Direktsprung [DASH] \> Variante Kachel
+Direktsprung **[DASH]** \> Variante Kachel
 
 Auf einem bereits eingerichteten Dashboard erreicht man die Bearbeitungsmaske der Kachel auch direkt über das Kontextmenü (rechte Maustaste) des Dashboards, wenn man mit der Maus über der Kachel steht.
 

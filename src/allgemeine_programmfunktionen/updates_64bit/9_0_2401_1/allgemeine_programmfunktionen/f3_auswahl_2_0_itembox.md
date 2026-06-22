@@ -4,7 +4,7 @@
 
 In der F3-Auswahl 2.0 (Itembox) wird der Vergleichsoperator der Filterzeile für das Abfragefeld anhand der Zeichen vor dem Schlüsselwort :ITEMWAHL bestimmt. Dies lässt sich mit Hilfe des Schlüsselwortes FilterComparision innerhalb der Itembox-Definition übersteuern.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 730794[34741]
 

@@ -4,7 +4,7 @@
 
 Ein Fehler in der Bewegungsübersicht (aufrufbar über die Kontaktmaske), bei dem die Summen der Lieferwerte und Liefermengen nicht korrekt dargestellt wurden, wurde behoben. Die Anzeige erfolgt nun wieder korrekt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 751148[38497]
 

@@ -2,14 +2,14 @@
 
 <!-- source: https://amic.de/hilfe/_vertreterstammpfleger.htm -->
 
-Kopfdaten:
+<p class="just-emphasize">Kopfdaten:</p>
 
 | Feld | Bedeutung |
 | --- | --- |
 | Vert. Nr. | Gibt die Vertreternummer an |
 | Klasse | Zeigt die Vertreternummer an und gibt den dazugehörigen Namen der [Klasse](./vertreterprovisionstabellen.md) aus |
 
-Register:
+<p class="just-emphasize">Register:</p>
 
 <details>
 <summary>Allgemein</summary>
@@ -47,7 +47,7 @@ Hier können Bemerkungen für den Vertreter eingetragen und gespeichert werden.
 
 </details>
 
-Funktionen:
+<p class="just-emphasize">Funktionen:</p>
 
 <details>
 <summary>Funktionen des Vertreterstamm Pfleger:</summary>

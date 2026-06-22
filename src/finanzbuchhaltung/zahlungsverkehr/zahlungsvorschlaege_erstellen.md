@@ -52,7 +52,7 @@ Alle beim Erstellen vorgenommenen Eingrenzungen werden zur besseren Rückverfolg
 
 Automatische Auswahl
 
-Mit der Funktion automatischen Auswahl F9 werden dann alle zahlungsfähigen Belege je Konto und Währung in die Vorschlagsliste übernommen. In der rechten Spalte des Bildschirms werden immer das aktuelle Konto, die Währung, die Anzahl der zu *untersuchenden* OP’s und die aktuelle Nummer der Zahlungsvorschlagsliste angezeigt. Wenn hier ein Kunde erscheint, bedeutet dies nicht automatisch, dass auch alle oder Teile der OP’s in der Zahlungsvorschlagsliste erscheinen, da erst anschließende geprüft wird, ob diese den Kriterien laut Einstellungen in den [Stammdaten](./stammdaten_zahlungsverkehr/index.md) (Verrechnung u.ä.) entsprechen.
+Mit der Funktion ***automatischen Auswahl*** **F9** werden dann alle zahlungsfähigen Belege je Konto und Währung in die Vorschlagsliste übernommen. In der rechten Spalte des Bildschirms werden immer das aktuelle Konto, die Währung, die Anzahl der zu *untersuchenden* OP’s und die aktuelle Nummer der Zahlungsvorschlagsliste angezeigt. Wenn hier ein Kunde erscheint, bedeutet dies nicht automatisch, dass auch alle oder Teile der OP’s in der Zahlungsvorschlagsliste erscheinen, da erst anschließende geprüft wird, ob diese den Kriterien laut Einstellungen in den [Stammdaten](./stammdaten_zahlungsverkehr/index.md) (Verrechnung u.ä.) entsprechen.
 
 Beim Erstellen der Zahlungsvorschläge werden die Daten aus den Kundenbanken direkt in die Zahlungsvorschläge und später in die Zahlungsbelege übernommen.
 

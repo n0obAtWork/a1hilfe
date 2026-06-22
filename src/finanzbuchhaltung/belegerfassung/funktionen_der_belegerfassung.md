@@ -6,11 +6,11 @@ Hauptmenü > Finanzbuchhaltung > Erfassung > Belegerfassung
 
 Direktsprung **[FIBE]**
 
-Anzeige Primanota aktualisieren F9
+***Anzeige Primanota aktualisieren*** **F9**
 
 Die Anzeige wird aktualisiert, so dass eventuell neu hinzugekommene Beleg mit angezeigt werden.
 
-Primanota drucken F11
+Primanota drucken **F11**
 
 Für den Druck stehen vier Reporte zur Verfügung, die Primanota in unterschiedlicher Form darstellen:
 
@@ -22,11 +22,11 @@ Für den Druck stehen vier Reporte zur Verfügung, die Primanota in unterschiedl
 
 4. Primanota Fremdwährung
 
-Bediener Korrektur F3
+Bediener Korrektur **F3**
 
-In der Belegerfassung werden nur die Belege angezeigt, die von einem Bediener erfasst wurden. Mit der Funktion Bediener Korrektur lässt sich der Bediener auswählen, dessen Belege korrigiert werden sollen
+In der Belegerfassung werden nur die Belege angezeigt, die von einem Bediener erfasst wurden. Mit der Funktion ***Bediener Korrektur*** lässt sich der Bediener auswählen, dessen Belege korrigiert werden sollen
 
-Neuen Beleg erstellen F8
+Neuen Beleg erstellen **F8**
 
 Aufruf der Erfassungsmaske der Belegarten:  
     
@@ -44,11 +44,11 @@ ZB Zahlungsverkehr Bank
 KB [Kursdifferenzbuchung](../waehrungsbehandlung_in_der_finanzbuchhaltung/fuehrung_von_devisenkonten.md)  
 [Kostenobjekt umbuchen](../kostenrechnung/kostenobjekte/kostenobjekte_einrichtung.md#Kostenobjektumbuchung)
 
-Neuen Wechsel erstellen F8
+***Neuen Wechsel erstellen*** **F8**
 
 Aufruf der Erfassungsmaske für [Wechsel](../wechselbuchhaltung/index.md).
 
-Beleg ändern F5
+Beleg ändern **F5**
 
 Mit dieser Funktion können Belege wieder geändert werden. Skontobelege, Belege aus der Warenwirtschaft und extra dafür gekennzeichnete Belege können nur eingeschränkt geändert werden.
 

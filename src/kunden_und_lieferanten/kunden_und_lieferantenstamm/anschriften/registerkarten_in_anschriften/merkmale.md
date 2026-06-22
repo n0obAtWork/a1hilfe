@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_merkmale.htm -->
 
-Für Anschriften können mehrere Merkmale hinterlegt werden. Man kann mit Hilfe dieser Merkmale über Bereich/Profile F2 Auswahllisten eingrenzen.
+Für Anschriften können mehrere Merkmale hinterlegt werden. Man kann mit Hilfe dieser Merkmale über ***Bereich/Profile*** **F2** Auswahllisten eingrenzen.
 
 Für Merkmal 1-3 können in den Formaten „af_merkmal1“, „af_merkmal2“ und „af_merkmal3“ beliebige Merkmale hinterlegt werden.
 

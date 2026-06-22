@@ -4,7 +4,7 @@
 
 Beim Vortrag der Permanenten Inventur in den Inventurbeleg wurde das Feld, welches zur Anzeige der Menge verwendet wird, nicht korrekt versorgt. Dies führte dazu, dass in der Inventurbewertung zwar die richtige Zählmenge angezeigt wurde, jedoch nicht die korrekte Positionsmenge. Dieses Verhalten wurde nun korrigiert. Das richtige Feld wird jetzt versorgt, sodass die Menge der einzelnen Positionen der Zählmenge bzw. der Bewertungszählmenge entspricht.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 745118[36861]
 

@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_variantenkopierenkon.htm -->
 
-Wird in der Auswahlliste der Kontraktvarianten die Funktion Varianten kopieren aufgerufen, erscheint die Maske „Kontraktvarianten kopieren“.
+Wird in der Auswahlliste der Kontraktvarianten die Funktion ***Varianten kopieren*** aufgerufen, erscheint die Maske „Kontraktvarianten kopieren“.
 
 Im Kopf der Maske stehen folgende Felder zur Verfügung.
 
@@ -31,4 +31,4 @@ Felder in der Datentabelle der Zielvariante.
 | Itembox | Das Feld gibt an, ob die [privaten Itemboxes](../bereiche.md#ktr_vari_privateitembox) für Festtexte mit kopiert werden sollen. |
 | Defaultwert | Das Feld gibt an, ob die [Standardwerte](../bereiche.md#ktr_vari_standardwerte) mit kopiert werden sollen. |
 
-Mit der Funktion Start kopieren werden dann die zu kopierenden Bereiche in die Zielvariante übertragen.
+Mit der Funktion ***Start kopieren*** werden dann die zu kopierenden Bereiche in die Zielvariante übertragen.

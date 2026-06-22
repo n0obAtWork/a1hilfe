@@ -36,10 +36,10 @@
 
 | Name | Beschreibung |
 | --- | --- |
-| Ändern (F5) | Öffnet den Pfleger für Workflow-Verbuchungsregel im Ändernmodus |
-| Ansehen (F6) | Öffnet den Pfleger für Workflow-Verbuchungsregel im Ansehenmodus |
-| Löschen (F7) | Öffnet den Pfleger für Workflow-Verbuchungsregel im Löschmodus |
-| Neu (F8) | Öffnet den Pfleger für Workflow-Verbuchungsregel im Neumodus |
+| Ändern **(F5)** | Öffnet den Pfleger für Workflow-Verbuchungsregel im Ändernmodus |
+| Ansehen **(F6)** | Öffnet den Pfleger für Workflow-Verbuchungsregel im Ansehenmodus |
+| Löschen **(F7)** | Öffnet den Pfleger für Workflow-Verbuchungsregel im Löschmodus |
+| Neu **(F8)** | Öffnet den Pfleger für Workflow-Verbuchungsregel im Neumodus |
 
 </details>
 

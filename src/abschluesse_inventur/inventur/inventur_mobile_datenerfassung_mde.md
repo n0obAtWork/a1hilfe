@@ -2,11 +2,11 @@
 
 <!-- source: https://amic.de/hilfe/inventurmobiledatenerfassungmd.htm -->
 
-Übersicht
+<p class="just-emphasize">Übersicht</p>
 
 ![](../../ImagesExt/image8_808.png)
 
-Die Übernahme per MDE-Gerät wird im Fehlerprotokoll [FEHLP] protokolliert.
+Die Übernahme per MDE-Gerät wird im Fehlerprotokoll **[FEHLP]** protokolliert.
 
 ![](../../ImagesExt/image8_809.png)
 
@@ -14,13 +14,13 @@ Ansicht MDE-Datei
 
 ![](../../ImagesExt/image8_810.png)
 
-Inventuraufnahmen per mobiler Datenerfassung
+<p class="just-emphasize">Inventuraufnahmen per mobiler Datenerfassung</p>
 
 Bei der mobilen Datenerfassung wird der Inventur-Stichtag zu einer Aufnahme nicht mitgeliefert. Es wird die älteste offene Inventur als Inventurstichtag vorbelegt, jedoch kann alternativ auch ein anderer Stichtag gewählt werden.
 
 Falls aus der MDE ein Bewertungspreis übergeben wird, so gilt die Aufnahme als manuell bewertet.
 
-Löschen von Belegen der Mobilen Datenerfassung
+<p class="just-emphasize">Löschen von Belegen der Mobilen Datenerfassung</p>
 
 Unverarbeitete Belege lassen sich nur über die Einzellöschung entfernen. Eine Sammel-Löschfunktion kann auf alle fehlerhaften bzw. verarbeiteten MDE Belege angewandt werden.
 
@@ -32,7 +32,7 @@ Die erforderlichen Optionen für die MDE Übernahme müssen eingerichtet sein.
 
 Die MDE Übergabe erfolgt nicht nach Inventurgruppen getrennt. Die Inventurgruppen für die einzuspielenden Artikel müssen angelegt und eröffnet sein, ansonsten laufen diese Artikel ins Fehlerprotokoll.
 
-Inventuraufnahme in Filialen
+<p class="just-emphasize">Inventuraufnahme in Filialen</p>
 
 Wenn nicht AMIC-Standards benutzt werden:
 
@@ -40,11 +40,11 @@ die Tabellen Inventurstamm, Inventurgruppe, Inventurbeleg replizieren, nicht abe
 
 Zur Organisation: Inventurgruppen müssen filial-spezifisch abgegrenzt werden. Auf diese Weise wird sichergestellt, dass alle Betriebsstätten ihre eigenen Nummernkreise (Anlegen nicht vergessen) für Inventurbelege erhalten.
 
-Filialen haben nur Zugriff auf die Anwendung „Inventuraufnahme [IVA]“.
+Filialen haben nur Zugriff auf die Anwendung „Inventuraufnahme **[IVA]**“.
 
 Alternativ: Inventurbeleg nicht replizieren. Nach Fertigstellung der Aufnahme in den Filialen Tabelle entladen und in Zentrale beladen.
 
-Inventurbewertung
+<p class="just-emphasize">Inventurbewertung</p>
 
 Die Bewertung der Inventur kann auf unterschiedlichen Ebenen erfolgen:
 
@@ -52,4 +52,4 @@ Die Bewertung der Inventur kann auf unterschiedlichen Ebenen erfolgen:
 
 \- Über den Menüpunkt Bewertungspreise mit Erfassung bzw. Kalkulation und Übernahme
 
-\- Innerhalb des Menüs Inventurbestand (Variante Zählbestand) über die Funktionen Einzelbewertung und autom. Bewertung
+\- Innerhalb des Menüs Inventurbestand (Variante Zählbestand) über die Funktionen ***Einzelbewertung*** und ***autom. Bewertung***

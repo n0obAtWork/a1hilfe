@@ -4,7 +4,7 @@
 
 Hauptmenü > Abschlussarbeiten > DATEV / Import / Export > Export > Variante Belegexport IBM Finanzwesen
 
-Direktsprung [FIEX]
+Direktsprung **[FIEX]**
 
 Dem Export von Belegen aus der A.eins-Finanzbuchhaltung in das IBM-Finanzwesen (kurz FW) liegt eine Auswahlliste zugrunde, die die Daten in der Form bereitstellt, in der sie von der Importschnittstelle des FW erwartet werden. Dies hat den Vorteil, dass Änderungen im FW kurzfristig nachgearbeitet werden können. Zusätzlich zu den reinen OPs können auch noch die Kunden- bzw. Lieferantendaten und deren Anschriften exportiert werden. Dazu müssen folgende private SQLK’s eingerichtet werden:
 
@@ -32,7 +32,7 @@ Satzaufbau
 
 Die Daten sind durch Komma getrennt und stehen in Hochkomma. Die Daten bestehen aus einem Vorsatz gefolgt von den eigentlichen Daten. Sie haben zurzeit folgende Struktur:
 
-Vorsatz:
+<p class="just-emphasize">Vorsatz:</p>
 
 | Nr. | Name | Typ | Max. Länge | NK | Hinweis |
 | --- | --- | --- | --- | --- | --- |
@@ -46,7 +46,7 @@ Vorsatz:
 | 7 | Textzeile 3 | A | 30 | | Leer |
 | 8 | Textzeile 4 | A | 30 | | Leer |
 
-Buchungen:
+<p class="just-emphasize">Buchungen:</p>
 
 | Nr. | Name | Typ | Max. Länge | NK | Hinweis |
 | --- | --- | --- | --- | --- | --- |
@@ -79,7 +79,7 @@ Buchungen:
 | 26 | Betrag | N | 13 | 2 | |
 | 27 | Währung | A | 3 | | |
 
-Kundenkennzeichen ( SQLK DumpKundData ):
+<p class="just-emphasize">Kundenkennzeichen ( SQLK DumpKundData ):</p>
 
 | Nr. | Name | Typ | Max. Länge | NK | Hinweis |
 | --- | --- | --- | --- | --- | --- |
@@ -155,7 +155,7 @@ Kundenstamm k where i.kundid=k.kundid
 
 temp_IBMDebitor enthält alle in den Belegen vorkommenden Kunden exakt einmal. Die IBMNummer kommt aus der Auswahlliste.
 
-Kundenadressdaten (SQLK DumpKundAdrData):
+<p class="just-emphasize">Kundenadressdaten (SQLK DumpKundAdrData):</p>
 
 | Nr. | Name | Typ | Max. Länge | NK | Hinweis |
 | --- | --- | --- | --- | --- | --- |
@@ -208,7 +208,7 @@ k.AdressIdHauptAdr
 
 temp_IBMDebitor enthält alle in den Belegen vorkommenden Kunden exakt einmal. Die IBMNummer kommt aus der Auswahlliste.
 
-Lieferantendaten ( SQLK DumpLiefData):
+<p class="just-emphasize">Lieferantendaten ( SQLK DumpLiefData):</p>
 
 | Nr. | Name | Typ | Max. Länge | NK | Hinweis |
 | --- | --- | --- | --- | --- | --- |
@@ -284,7 +284,7 @@ Kundenstamm k where i.kundid=k.kundid
 
 temp_IBMKreditor enthält alle in den Belegen vorkommenden Lieferanten exakt einmal. Die IBMNummer kommt aus der Auswahlliste.
 
-Lieferantenadressdaten (SQLK DumpLiefAdrData):
+<p class="just-emphasize">Lieferantenadressdaten (SQLK DumpLiefAdrData):</p>
 
 | Nr. | Name | Typ | Max. Länge | NK | Hinweis |
 | --- | --- | --- | --- | --- | --- |

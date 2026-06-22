@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_standardablauf.htm -->
 
-Nach der Eingabe der Menge wird (sofern unter [FRZ] eingestellt, siehe später unter Parameter der Partiezuordnung!) eine automatische Partiesuche durchgeführt. Wurde mindestens eine passende Partie gefunden, so wird das Partiefenster automatisch aufgeblendet und die zugeordneten Partien werden angezeigt. Der Eingabefokus steht dann auf der ersten Partienummer:
+Nach der Eingabe der Menge wird (sofern unter **[FRZ]** eingestellt, siehe später unter Parameter der Partiezuordnung!) eine automatische Partiesuche durchgeführt. Wurde mindestens eine passende Partie gefunden, so wird das Partiefenster automatisch aufgeblendet und die zugeordneten Partien werden angezeigt. Der Eingabefokus steht dann auf der ersten Partienummer:
 
 ![](../../ImagesExt/image8_186.jpg)
 

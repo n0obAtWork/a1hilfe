@@ -7,7 +7,7 @@ Um Kontrakte in der Waage verwenden zu können, muss der Einrichterparameter Kon
 Man kann in dem Feld Kontrakt entweder eine Kontraktnummer oder den Namen des Kontraktekunden eingeben. Die Angaben aus dem Kontrakt (z.B. Artikel, Kunde) werden nach der Auswahl in die Waagenmaske übernommen.  
     
 
-Beim Wiegetyp Warenausgang oder Rohwarenausgang werden bei der F3-Auswahl im Feld Kontrakt nur Kontrakte der Kontraktklassen &lt; 10 angezeigt, beim Eingang nur Kontrakte der Klassen > 10 und für Lohn/Schüttwiegung Kontrakte aller Klassen.  
+Beim Wiegetyp Warenausgang oder Rohwarenausgang werden bei der **F3-**Auswahl im Feld Kontrakt nur Kontrakte der Kontraktklassen &lt; 10 angezeigt, beim Eingang nur Kontrakte der Klassen > 10 und für Lohn/Schüttwiegung Kontrakte aller Klassen.  
     
 
 Nach der Auswahl von Rohwarenkontrakten auf dem Feld Kontrakt der Waagenmaske wird das Feld Wiegetyp entsprechend gesetzt, damit die Rohwarenbelegerzeugung richtig funktioniert.
@@ -18,7 +18,7 @@ bei einem Kontrakt der Kontraktklasse 13 (Einkaufskontrakt Rohware) auf Rohwaren
 
 Anlage eines Kontraktes
 
-Es besteht die Möglichkeit auf der Waagemaske einen [Kontrakt](../../../kontrakt/index.md) neu anzulegen. Dazu wird der Kunde / Lieferant ausgewählt dann muss noch ein Artikel ausgewählt werden und in das Feld Dispo-Menge wird die Kontraktmenge eingetragen. Dann wird per Funktion Kontraktauswahl der Kontrakt als gesamt Mengen Kontrakt angelegt. Der Kontrakt wird dann automatisch in das Feld Kontraktnummer auf der Waagemaske übernommen und es wird die erste Zeile in dem Grid [Kontraktverteilung](../pflichtfelder_an_der_waagenmaske.md) vorbelegt.
+Es besteht die Möglichkeit auf der Waagemaske einen [Kontrakt](../../../kontrakt/index.md) neu anzulegen. Dazu wird der Kunde / Lieferant ausgewählt dann muss noch ein Artikel ausgewählt werden und in das Feld Dispo-Menge wird die Kontraktmenge eingetragen. Dann wird per Funktion ***Kontraktauswahl*** der Kontrakt als gesamt Mengen Kontrakt angelegt. Der Kontrakt wird dann automatisch in das Feld Kontraktnummer auf der Waagemaske übernommen und es wird die erste Zeile in dem Grid [Kontraktverteilung](../pflichtfelder_an_der_waagenmaske.md) vorbelegt.
 
 Hinzufügen eines Artikels zu einem Kontrakt
 

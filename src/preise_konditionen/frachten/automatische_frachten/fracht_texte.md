@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_Frachten_Texte.htm -->
 
-Nebenbuchhaltungen > Frachtverwaltung > Frachttabellen [FRA] > Frachttexte
+Nebenbuchhaltungen > Frachtverwaltung > Frachttabellen **[FRA]** > Frachttexte
 
 Für die Standardsprache in A.eins kann hier ein beliebiger Text angegeben werden, der für die Anzeige der Fracht auf Belegen verwendet werden soll.
 

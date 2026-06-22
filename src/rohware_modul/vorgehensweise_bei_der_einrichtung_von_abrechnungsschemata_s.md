@@ -72,7 +72,7 @@ Neue Rohwarengruppen sind sinnvoll durch ***‘Speichern Unter’*** =Abspeicher
 Meist ist eine Anordnung sinnvoll, die eine Fruchtart einer Rohwarengruppe zuordnet. Innerhalb dieser gibt es dann verschiedene Abrechnungsschemata für unterschiedliche Abrechnungsvarianten (Sorten).  
     
 
-Übersicht der Grid-Spalten einer Rohwarengruppe
+<p class="just-emphasize">Übersicht der Grid-Spalten einer Rohwarengruppe</p>
 
 Die Referenznummern der Spalte ‚Ref‘ werden immer automatisch vom System vergeben. Sie dienen in Verbindung mit der Rohwarengruppe der eindeutigen Identifizierung einer Rohwaren-Positionszeile in Rohware-Belegen bei Bearbeitung, Abrechnung, Buchungen, Druck und Auswertungen.
 
@@ -86,44 +86,41 @@ Werden mehrere Abrechnungen per Sammeldruckformular abgerechnet und gedruckt, so
 
 Die Referenznummer 2 **‚Ref2‘** ist eine frei zu vergebene und jederzeit änderbare innerhalb einer Rohwarengruppe eindeutige Referenznummer, mit deren Hilfe in Sammeldruckformularen zum Beispiel im Druckbereich 81 (Rohware-Sammeldruck-Einzelfußinfo) auf Werte der Positionszeile mit dieser Ref2-Nummer zugegriffen werden kann. Damit lassen sich auch Sammeldruck-Formulare gestalten, auf denen Belege unterschiedlicher Rohwarengruppen zusammengefasst sind, für jeden Einzelbeleg aber nur eine Zeile (alle Infos im [Querformat](./druckbereich_81_sammelformulareinrichtung_quer.md)) gedruckt werden soll. Rohwaren-Zeilen gleichen Inhalts, die in unterschiedlichen Rohwarengruppe sich unterscheidende Referenznummern **‚Ref‘** besitzen, können über die Vergabe übereinstimmender **‚Ref2‘**\-Nummern eindeutig identifiziert werden.
 
-    
-Liefer-Warenposition
+<p class="just-emphasize">Liefer-Warenposition</p>
 
 Sind noch keine Rohwarenpositionen vorhanden, so wird durch das Eintragen des Wertes ‚1‘ in der Erfassungspositions-Spalte **‚Erf‘** der ersten Grid-Zeile automatisch die **Lieferposition** erzeugt. Diese muss in jeder Rohwarengruppe vorhanden sein und hat als Referenznummer in der Spalte **‚Ref‘** immer den Wert ‚1‘.  
 Die Anlieferposition sollte grundsätzlich für die Erfassungsposition **‚Erf‘** den Wert 1 aufweisen, ist immer vom Typ **‚Ware‘**, und wird automatisch durch die **Bezeichnung ‚gelieferter Artikel‘** kenntlich gemacht. Bei der Erfassung von Rohwarebelegen können dieser Position nur Artikel mit der passenden Rohwarengruppenzuordnung zugewiesen werden.  
 Die mit der zugordneten **‚**[**Maßeinheit**](./konstanten_und_tabellen_fuer_die_einrichtung_von_abrechnungs/rohware_masseinheiten.md)**‘** verknüpfte **Mengeneinheit** sollte auf jeden Fall mit den **Mengeneinheitsgruppen der Artikel**, denen die Rohwarengruppe zugeordnet wird, **kompatibel** sein.
 
-    
-Qualitäts-Position
+<p class="just-emphasize">Qualitäts-Position</p>
 
 Eine Qualitätsposition, Zeilentyp **‚Qualität‘**, dient der Berechnung von mengen- oder preisbezogenen Zu- oder Abschlägen auf eine Warenposition auf der Grundlage von Analysewerten.  
 Hier wird in der Spalte **‚Bezeichnung‘** ein eingerichteter [Qualitätstext](./konstanten_und_tabellen_fuer_die_einrichtung_von_abrechnungs/rohware_qualitaetstexte.md) zugeordnet, dessen Bezeichnung in der Spalte dargestellt wird.  
 Qualitäten können auch [**Maßeinheiten**](./konstanten_und_tabellen_fuer_die_einrichtung_von_abrechnungs/rohware_masseinheiten.md) zugeordnet werden, die nicht mit einer Mengeneinheit verknüpft sind (zum Beispiel ‚%‘ oder ‚kg/hl‘).
 
-    
-Sekundär-Warenposition
+<p class="just-emphasize">Sekundär-Warenposition</p>
 
 Sekundär-Warenpositionen, Zeilentyp **‚Ware‘**, sind wie die Liefer-Warenposition eigenständige Rohware-Positionen mit eigener Artikelzuweisung (im Abrechnungsschema) deren Menge und Preis sowohl erfassbar aber auch durch Qualitätspositionen errechenbar und veränderbar sind. Als Beispiel hierfür sei eine Kartoffelabrechnung genannt, deren Liefermenge durch Qualitätspositionen in Mengen von Kartoffeln kleiner, mittlerer und großer Größe aufgeteilt wird und auf jeweils eigenen Artikeln gebucht werden sollen.  
 Die mit der zugordneten **‚**[**Maßeinheit**](./konstanten_und_tabellen_fuer_die_einrichtung_von_abrechnungs/rohware_masseinheiten.md)**‘** verknüpfte **Mengeneinheit** sollte auf jeden Fall mit den **Mengeneinheitsgruppen der Artikel**, die der Sekundär-Warenposition in den Abrechnungsschemata zugeordnet werden, **kompatibel** sein.  
     
 
-Kosten- und Vergütungsposition
+<p class="just-emphasize">Kosten- und Vergütungsposition</p>
 
 Kosten und Vergütungspositionen, Zeilentyp **‚Kst/Verg‘**, sind wie Warenpositionen eigenständige Rohware-Positionen mit eigener Artikelzuweisung (im Abrechnungsschema). Diese können auch mit Qualitäten verknüpft werden. Ein Beispiel hierfür ist die Berechnung von Trocknungskosten auf der Grundlage der Qualität Feuchtigkeit.  
 Die mit der zugordneten **‚**[**Maßeinheit**](./konstanten_und_tabellen_fuer_die_einrichtung_von_abrechnungs/rohware_masseinheiten.md)**‘** verknüpfte **Mengeneinheit** sollte auf jeden Fall mit den **Mengeneinheitsgruppen der Artikel**, die der Kosten- und Vergütungsposition in den Abrechnungsschemata zugeordnet werden, **kompatibel** sein.  
     
 
-Default-Abrechnungsschemata
+<p class="just-emphasize">Default-Abrechnungsschemata</p>
 
 Sind bereits Abrechnungsschemata für die Rohwarengruppe vorhanden, so werden hier Default-Einträge für die Bereiche **EK** (Rohware-Belegerfassung im Einkauf), **VK** (Rohware-Belegerfassung im Verkauf), **EK (Waage)** (Rohware-Belegerzeugung aus der Waagenschnittstelle im Einkauf) und **VK (Waage)** (Rohware-Belegerzeugung aus der Waagenschnittstelle im Verkauf) festgelegt. Diese dienen im Belegerfassungsmodul automatisch nach der Artikelauswahl (und dadurch festgelegter Rohwarengruppe) zur Vorbelegung des zu verwendenden Abrechnungsschemas bzw. werden im Rohware-Belegerzeugungsmodul aus der Waagenschnittstelle dann herangezogen, wenn die Waagenschnittstelle kein spezielles Abrechnungsschema vorgibt.  
     
 
-Auswahl der Rohwarengruppen
+<p class="just-emphasize">Auswahl der Rohwarengruppen</p>
 
 Die in der Auswahlliste gewählten Rohwarengruppen sind in dieser Box aufgeführt und können mit der linken Maustaste zur Bearbeitung bzw. Ansicht angeklickt werden.  
     
 
-Funktionen
+<p class="just-emphasize">Funktionen</p>
 
 Die Funktion **‚Speicher‘** speichert die aktuell geänderten Angaben zur aktuellen Rohwarengruppe.  
 Mit **‚Speicher unter…‘** wird nach Angabe einer neuen Bezeichnung eine Kopie der Rohwarengruppe inklusive der zugehörigen Abrechnungsschemata angelegt.  
@@ -133,13 +130,13 @@ Die Funktion **‚Löschen‘** dient zum setzen des Löschkennzeichens der aktu
 Mit **‚Mehrfach Löschen‘** wird mit Einzelabfrage die Löschfunktion für alle ausgewählten Rohwarengruppen aufgerufen.  
     
 
-Optionen
+<p class="just-emphasize">Optionen</p>
 
 Die Bearbeitung bzw. Ansicht der zugehörigen Abrechnungsschemata wird mit **‚Abrechnungsschema‘** aufgerufen.  
 Die Einrichtung und Pflege bzw. Ansicht der für alle Abrechnungsschemata der aktuellen Rohwarengruppe gültigen **‚**[**Ergänzungsfelder**](./ergaenzungsfelder_fuer_rohware_belege/index.md)**‘** ist hier aufrufbar.  
     
 
-Abrechnungsschema-Definition
+<p class="just-emphasize">Abrechnungsschema-Definition</p>
 
 Hauptmenü > Rohwarenabrechnung \> Rohwaren-Verwaltung > Bearbeiten > Abrechnungsschema
 
@@ -160,7 +157,7 @@ Die Nummer eines Schemas wird vom System automatisch vergeben.
 Weitere Positionen werden dem Abrechnungsschema hinzugefügt, indem die in der Rohwarengruppe vergebene [Referenznummer](./vorgehensweise_bei_der_einrichtung_von_abrechnungsschemata_s.md#Rohwarengruppendef) der Position in der Spalte **‚Ref‘** eingegeben wird. Dieses kann per Auswahl mit der Funktionstaste **F4** auch für mehrere Positionen am Stück geschehen.  
     
 
-Übersicht der Grid-Spalten eines Abrechnungsschemas
+<p class="just-emphasize">Übersicht der Grid-Spalten eines Abrechnungsschemas</p>
 
 Die Referenznummern der Spalte **‚Ref‘** entspricht immer der [Referenznummer der Rohwarengruppe](./vorgehensweise_bei_der_einrichtung_von_abrechnungsschemata_s.md#Rohwarengruppendef). Sie dienen in Verbindung mit der Rohwarengruppe der eindeutigen Identifizierung einer Rohwaren-Positionszeile in Rohware-Belegen bei Bearbeitung, Abrechnung, Buchungen, Druck und Auswertungen.
 
@@ -175,12 +172,12 @@ Die Referenznummer 2 **‚Ref2‘** ist die auf [Rohwarengruppenebene](./vorgehe
 Die Referenznummer 3 **‚Ref3‘** ist eine frei zu vergebene und jederzeit änderbare innerhalb eines Abrechnungsschemas eindeutige Referenznummer, mit deren Hilfe in Sammeldruckformularen zum Beispiel im Druckbereich 81 (Rohware-Sammeldruck-Einzelfußinfo) auf Werte der Positionszeile mit dieser Ref3-Nummer zugegriffen werden kann. Damit lassen sich auch Sammeldruck-Formulare gestalten, auf denen Belege unterschiedlicher Rohwarengruppen zusammengefasst sind, für jeden Einzelbeleg aber nur eine Zeile (alle Infos im [Querformat](./druckbereich_81_sammelformulareinrichtung_quer.md)) gedruckt werden soll. Rohwaren-Zeilen gleichen Inhalts, die in unterschiedlichen Abrechnungsschemata sich unterscheidende Referenznummern **‚Ref‘** und **‚Ref2‘** besitzen, können über die Vergabe übereinstimmender **‚Ref3‘**\-Nummern eindeutig identifiziert werden. Damit lassen sich auch Sammeldruck-Formulare gestalten, auf denen Belege unterschiedlicher Abrechnungsschemata und sogar Rohwarengruppen zusammengefasst sind, für jeden Einzelbeleg aber nur eine Zeile (alle Infos im [Querformat](./druckbereich_81_sammelformulareinrichtung_quer.md)) gedruckt werden soll.  
     
 
-Auswahl eines Abrechnungsschemas
+<p class="just-emphasize">Auswahl eines Abrechnungsschemas</p>
 
 Die zur Rohwarengruppe angelegten Abrechnungsschemata sind in dieser Box aufgeführt und können mit der linken Maustaste zur Bearbeitung bzw. Ansicht angeklickt werden.  
     
 
-Funktionen
+<p class="just-emphasize">Funktionen</p>
 
 Die Funktion **‚Speicher‘** speichert die aktuell geänderten Angaben zum aktuellen Abrechnungsschema.  
 Mit **‚Speicher unter…‘** wird nach Angabe einer neuen Bezeichnung eine Kopie des Abrechnungsschemas angelegt.  
@@ -190,7 +187,7 @@ Die Funktion **‚Löschen‘** dient zum setzen des Löschkennzeichens des aktu
 Mit **‚Mehrfach Löschen‘** wird jeweils mit Einzelabfrage die Löschfunktion für alle Abrechnungsschemata der Rohwarengruppe aufgerufen.  
     
 
-Optionen
+<p class="just-emphasize">Optionen</p>
 
 Die Bearbeitung bzw. Ansicht der zur aktuellen Zeile des Grids gehörigen Detail-Definition des Abrechnungsmerkmals wird mit **‚Merkmal-Definition‘** aufgerufen. Dieses kann auch durch **Klick der linken Maustaste** auf die **Bezeichnung** des Merkmals ausgelöst werden.  
 Für Abrechnungsschemata, die in den Rohwareparametern für Abschlag- und Folgeabschlagbelege die Einstellung **‚Abschlagermittlung durch %-Satz‘** aufweisen, kann mit **‚Abschlagsätze‘** die Vorbelegung der Abschlagsätze getrennt nach Einkauf und Verkauf festgelegt werden.
@@ -199,8 +196,7 @@ Für Abrechnungsschemata, die in den Rohwareparametern für Abschlag- und Folgea
 Die Einrichtung und Pflege bzw. Ansicht der nur für das aktuell Abrechnungsschemata gültigen **‚**[**Ergänzungsfelder**](./ergaenzungsfelder_fuer_rohware_belege/index.md)**‘** ist unter diesem Punkt aufrufbar.  
 Die für die Erzeugung von Rohwarebelegen aus der Waagenschnittstelle wichtigen ‚globalen Waagenparameter‘ sowie speziell pro Abrechnungsschema definierten ‚Sorten-Waagenparameter‘ sind ebenfalls von dieser Stelle aus aufrufbar.
 
-    
-Merkmal-Detail-Definition der Lieferpositionszeile
+<p class="just-emphasize">Merkmal-Detail-Definition der Lieferpositionszeile</p>
 
 Hauptmenü > Rohwarenabrechnung \> Rohwaren-Verwaltung > Bearbeiten > Abrechnungsschema > Merkmal-Definition
 
@@ -244,7 +240,7 @@ Die Angaben zur Festlegung von **Erlöskennziffer, Steuerschlüssel** ;**Kostens
 Die Felder **Kostenstellengruppe, Kostenträgergruppe** und **Kostenobjektgruppe** sind nur dann verfügbar, wenn die zugehörigen Steuerparameter **Kostenstellen-Lizenz**, **Kostenträgerrechnung angeschlossen** beziehungsweise **Kostenobjekt-Lizenz** aktiviert sind.  
     
 
-Merkmal-Detail-Definition von Sekundär-Warenpositionszeilen
+<p class="just-emphasize">Merkmal-Detail-Definition von Sekundär-Warenpositionszeilen</p>
 
 Hauptmenü > Rohwarenabrechnung \> Rohwaren-Verwaltung > Bearbeiten > Abrechnungsschema > Merkmal-Definition
 
@@ -295,7 +291,7 @@ Die Angaben zur Festlegung von **Erlöskennziffer, Steuerschlüssel** ;**Kostens
 Die Felder **Kostenstellengruppe, Kostenträgergruppe** und **Kostenobjektgruppe** sind nur dann verfügbar, wenn die zugehörigen Steuerparameter **Kostenstellen-Lizenz**, **Kostenträgerrechnung angeschlossen** beziehungsweise **Kostenobjekt-Lizenz** aktiviert sind.  
     
 
-Merkmal-Detail-Definition von Qualitätsmerkmalen
+<p class="just-emphasize">Merkmal-Detail-Definition von Qualitätsmerkmalen</p>
 
 Hauptmenü > Rohwarenabrechnung \> Rohwaren-Verwaltung > Bearbeiten > Abrechnungsschema > Merkmal-Definition
 
@@ -501,7 +497,7 @@ Die **‚Auswertungsnummer‘,** die es für alle Rohware-Positionszeilen gibt, 
 
 In der **‚Wertvorbelegung‘** kann festgelegt werden, ob die Analysewerte der Qualitäten im Abwicklungsregister der Streckenerfassung für einen neuen Vorgang stehen gelassen werden sollen, wenn der gleiche Artikel nochmals ausgewählt wurde oder ob die Werte gelöscht werden.
 
-Merkmal-Detail-Definition von Kosten-/Vergütungsmerkmalen
+<p class="just-emphasize">Merkmal-Detail-Definition von Kosten-/Vergütungsmerkmalen</p>
 
 Hauptmenü > Rohwarenabrechnung \> Rohwaren-Verwaltung > Bearbeiten > Abrechnungsschema > Merkmal-Definition
 

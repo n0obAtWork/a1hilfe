@@ -4,7 +4,7 @@
 
 Beim Erfassen von Vermehrungsverträgen im Saatgutmodul wurde die Vertragsnummer nicht korrekt gezogen. Dies wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 722654[33694]
 

@@ -9,5 +9,5 @@ Handelt es sich bei dem Wareneingang um einen Rohwareneingang, kann man dies üb
 
 Bei Rohwarenwiegungen (Wiegetyp: Rohwareneingang oder Rohwarenausgang) werden auf der Waagenmaske die Felder für Unterklassen ausgeblendet. Diese Unterklassen (Klassen 9998 und 9999) sind bei der Erzeugung von Rohwarebelegen bereits genau festgelegt und können daher auch nicht abgeändert werden. Daher ist eine Anzeige dieser Felder hier überflüssig.
 
-Bei Anwahl dieser Funktion wird die F3\-Auswahl auf dem Feld Vorlage auf Vorlagen mit dem Typ Wareneingang (auch Rohwareneingang) beschränkt. Die Wiegemaske wird mit der zuletzt verwendeten Vorlage geöffnet, wenn es sich dabei um einen Wareneingang handelt. Ansonsten wird die erste Vorlage vom Typ Wareneingang genommen.  
+Bei Anwahl dieser Funktion wird die **F3**\-Auswahl auf dem Feld Vorlage auf Vorlagen mit dem Typ Wareneingang (auch Rohwareneingang) beschränkt. Die Wiegemaske wird mit der zuletzt verwendeten Vorlage geöffnet, wenn es sich dabei um einen Wareneingang handelt. Ansonsten wird die erste Vorlage vom Typ Wareneingang genommen.  
 Wird keine Vorlage mit dem Typ Wareneingang gefunden wird die erste Vorlage genommen, die gefunden wird.

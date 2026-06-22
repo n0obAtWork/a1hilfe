@@ -4,7 +4,7 @@
 
 Bei Nutzung von individuellen Frachten, konnte es vorkommen, dass für jede neue Warenposition eine eigene Frachtzeile erstellt wurde, anstatt korrekterweise die vorhandene Frachtenzeile zu aktualisieren um die neue Warenposition. Dieser Fehler wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 735264[35352]
 

@@ -4,7 +4,7 @@
 
 Das Engagement kann über die Auswahlliste KTREN angesprochen werden.
 
-Berechnung der Werte
+<p class="just-emphasize">Berechnung der Werte</p>
 
 Die folgenden Werte werden je nach den Kontraktdaten mit in die Berechnung einbezogen.
 

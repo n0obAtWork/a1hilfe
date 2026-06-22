@@ -6,24 +6,24 @@ Die Gesamtliste zeigt die Aktienbestandsentwicklung der Aktionäre in einem Wirt
 
 ![](../../../ImagesExt/image8_1002.jpg)
 
-Über Bereich /Profile kann nach folgenden Kriterien eingeschränkt werden: Name, Vorname, Aktionärsnummer (von, bis), Geburtsdatum (von, bis), Straße (von, bis), Postleitzahl (von, bis), Ort, Vertreter, Status von, Status bis, Aktienanzahl (von, bis), Wirtschaftsjahr.
+Über ***Bereich /Profile*** kann nach folgenden Kriterien eingeschränkt werden: Name, Vorname, Aktionärsnummer (von, bis), Geburtsdatum (von, bis), Straße (von, bis), Postleitzahl (von, bis), Ort, Vertreter, Status von, Status bis, Aktienanzahl (von, bis), Wirtschaftsjahr.
 
 Wird kein Wirtschaftsjahr als Selektionskriterium angegeben, dann wird das aktuelle Wirtschaftsjahr für die Berechnungen verwendet.
 
 Dem Benutzer stehen hier folgende Funktionen zur Verfügung:
 
-• (Aktionär) Neu [siehe Aktionäre verwalten]
+• (Aktionär) ***Neu*** [siehe Aktionäre verwalten]
 
-• (Aktionär) Ändern [siehe Aktionäre verwalten]
+• (Aktionär) ***Ändern*** [siehe Aktionäre verwalten]
 
-• (Aktionär) Ansehen [siehe Aktionäre verwalten]
+• (Aktionär) ***Ansehen*** [siehe Aktionäre verwalten]
 
-• (Aktionär) Löschen [siehe Aktionäre verwalten]
+• (Aktionär) ***Löschen*** [siehe Aktionäre verwalten]
 
-• Historische Tabelle [siehe Aktientransaktionen / Die Historische Tabelle]
+• ***Historische Tabelle*** [siehe Aktientransaktionen / Die Historische Tabelle]
 
 • ***Anteile***
 
 • ***Kundenbescheinigung***
 
-• Unternehmen verwalten [siehe Die Unternehmensdaten einrichten/verwalten]
+• ***Unternehmen verwalten*** [siehe Die Unternehmensdaten einrichten/verwalten]

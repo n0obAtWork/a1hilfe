@@ -4,7 +4,7 @@
 
 Es wurde eine neue Version der Android-Scannerapp bereitgestellt. Bitte vereinbaren Sie einen Update-Termin.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[33865]
 

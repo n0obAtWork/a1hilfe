@@ -4,7 +4,7 @@
 
 Wurden Inventurbelege in der Anwendung "Laufende Inventur" [PIVB] erfasst und der Steuerparameter "1072-Bewertungsverhalten permanente Inventur" auf "Keine Bewertung durch Bestandsbeleg" gestellt, so wurden die erfassten Positionen der Inventurbelege nicht in den Varianten "Partien" und "Artikel" angezeigt. Dieses Verhalten wurde jetzt so korrigiert, dass die erfassten Positionen auch in den jeweiligen Varianten angezeigt werden.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 742234[37138]
 

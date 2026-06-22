@@ -4,7 +4,7 @@
 
 Hauptmenü > Partieverwaltung > Chargen / Partien > Partie-Stammdaten
 
-oder Direktsprung [PAR]
+oder Direktsprung **[PAR]**
 
 In der Variante Partieübersicht ist bei artikel-spezifischen Partien die zugeordnete Lagernummer nicht sichtbar, wenn noch kein Partiebestand gebucht ist. Die zugewiesenen Lager leben in dieser Fassung erst auf, wenn auch Bestände gebucht sind.
 

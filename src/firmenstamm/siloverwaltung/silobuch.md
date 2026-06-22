@@ -4,7 +4,7 @@
 
 Hauptmenü > Nebenbuchhaltungen > Siloverwaltung > Silo
 
-Direktsprung [SILO]
+Direktsprung **[SILO]**
 
 Im Silobuch werden alle Änderungen auf dem ausgewählten Silo dargestellt. Dies beinhaltet auch stornierte Buchungen.
 

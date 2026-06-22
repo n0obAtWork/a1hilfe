@@ -4,7 +4,7 @@
 
 Bei Periodischen Buchungen wurde das Valutadatum falscherweise auf das Belegdatum gesetzt. Dies wurde korrigiert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 753606[39717]
 

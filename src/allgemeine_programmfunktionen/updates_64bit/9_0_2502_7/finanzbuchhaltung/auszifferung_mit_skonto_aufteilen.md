@@ -4,7 +4,7 @@
 
 Wurde in der Finanzbuchhaltung bei Buchung einer Zahlung ein Beleg zur Auszifferung ausgewählt und Skonto automatisch aufgeteilt, dann kam es bei Zeilen mit Betrag 0.00 zu einem Nullteilungsfehler. Dies ist behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 750891[38403]
 

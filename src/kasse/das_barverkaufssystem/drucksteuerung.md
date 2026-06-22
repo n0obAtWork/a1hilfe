@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/drucksteuerung.htm -->
 
-Barverkaufsbelege gehen über Drucker und Formular laut Einstellung [VRGD], falls dort nicht eingerichtet über [DRZ] / [FRZ].
+Barverkaufsbelege gehen über Drucker und Formular laut Einstellung **[VRGD]**, falls dort nicht eingerichtet über **[DRZ]** / **[FRZ]**.
 
 Zahlungsbelege gehen über die Formulare 51 bis 55, falls in der Zahlungsmaske der EPA Formulardruck auf ja geschaltet ist. Anderenfalls werden fest programmierte Formulare (für Kassensturz gibt es derzeit nur ein solches!) über die in der Einrichtung des Kassensystems eingestellten Drucker gedruckt.
 

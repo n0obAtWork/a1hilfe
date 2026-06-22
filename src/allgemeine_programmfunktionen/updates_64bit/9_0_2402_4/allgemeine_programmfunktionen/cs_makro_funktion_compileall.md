@@ -4,7 +4,7 @@
 
 In der CS-Makro Anwendung [CSM] wurde in der Funktion "CompileAll" ein Fehler gefunden, der die korrekte Ausführung dieser Funktion verhinderte. Dieser Fehler wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 739946[35831]
 

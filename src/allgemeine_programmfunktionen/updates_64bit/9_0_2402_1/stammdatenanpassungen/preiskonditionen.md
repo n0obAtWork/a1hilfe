@@ -4,7 +4,7 @@
 
 Wurde in den Individuellen Preisen versucht die letzte Zeile zu löschen, wurde diese Änderungen nicht gespeichert. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 736791[35485]
 

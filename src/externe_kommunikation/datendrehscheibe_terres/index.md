@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_terres_main.htm -->
 
-Hauptmenü > Externe Kommunikation > Datendrehscheibe [TERRE]
+Hauptmenü > Externe Kommunikation > Datendrehscheibe [**TERRE**]
 
 Informationen
 
@@ -20,13 +20,13 @@ Hauptmenü > Externe Kommunikation \> Datendrehschreibe > Artikelimportverfahren
 
 In dieser Auswahlliste sind nach einer erfolgreichen Einspielung die Terres Artikel zu sehen.
 
-Um den Import zu starten wird die Funktion Datendrehscheibe [F9] aufgerufen. Wird das Anzeigefenster zum ersten Mal geöffnet, so öffnet sich ein Dialog in dem das Verzeichnis ausgewählt wird, in dem sich die zu importierenden Daten befinden. Es muss dabei beachtet werden, dass das Verzeichnis sich relative zum Datenbankserver befindet. Dieses Verzeichnis kann jederzeit geändert werden.
+Um den Import zu starten wird die Funktion ***Datendrehscheibe*** [**F9**] aufgerufen. Wird das Anzeigefenster zum ersten Mal geöffnet, so öffnet sich ein Dialog in dem das Verzeichnis ausgewählt wird, in dem sich die zu importierenden Daten befinden. Es muss dabei beachtet werden, dass das Verzeichnis sich relative zum Datenbankserver befindet. Dieses Verzeichnis kann jederzeit geändert werden.
 
 Auch wenn das Importieren der Daten per Event läuft ist darauf zu achten, dass das Verzeichnis angegeben wird.
 
 Nach dem der Pfad richtig eingetragen worden ist, existiert noch die Möglichkeit ein Trace einzuschalten. Das Trace protokolliert wie viele Datensätze bei dem Import eingespielt worden sind. Des Weiteren wird beim Artikelmimport mitprotokoliert wie viel Zeit für welche Funktion benötigt worden ist. In der Funktion AMIC_ARTIKELEIN_INSUPD wird protokolliert wie viele Artikel pro fünf Minuten eingespielt worden sind.
 
-Das Einspielen wird über die Funktion Daten einspielen [F8] gestartet.
+Das Einspielen wird über die Funktion ***Daten einspielen*** [**F8**] gestartet.
 
 Wird der Import ausgeführt, so wird versucht alle XML-Dateien, die sich auf diesem Verzeichnis befinden, in den ArtikelStammTerres einzuspielen.
 
@@ -95,7 +95,7 @@ Funktion Artikelimport F9
 
 Tatsächliche Übernahme der Daten in den A.einsArtikelstamm.
 
-Bevor der Artikelimport das erste Mal gestartet werden soll, müssen folgende Einstellungen vorgenommen werden. Auf der Auswahlliste wird die Funktion Datendrehscheibe [F9] ausgewählt. Nachdem sich das Anzeigefenster geöffnet hat, wechseln wir auf die Registerkarte Optionen. Bei der Ersteinrichtung sollte die Funktion Vorlage-Terres [SF8] ausgewählt werden. Es werden alle signifikanten Einstellungen mit dem [A.eins Standard](./index.md#ueb_bereich_importumsetzer) vorbelegt. In dem Einrichterparameter des Anzeigefensters kann eine private Prozedur hinterlegt werden, welche die Einspielung der Daten vom ArtikelStammTerres in das A.eins System vornimmt. Diese private Prozedur wird anstelle der [Standardprozedur](./privatisierbare_prozeduren_fuer_die_datendrehscheibe_import.md#proc_ArtikelImport) ausgeführt.
+Bevor der Artikelimport das erste Mal gestartet werden soll, müssen folgende Einstellungen vorgenommen werden. Auf der Auswahlliste wird die Funktion ***Datendrehscheibe*** [**F9**] ausgewählt. Nachdem sich das Anzeigefenster geöffnet hat, wechseln wir auf die Registerkarte Optionen. Bei der Ersteinrichtung sollte die Funktion ***Vorlage-Terres*** [**SF8**] ausgewählt werden. Es werden alle signifikanten Einstellungen mit dem [A.eins Standard](./index.md#ueb_bereich_importumsetzer) vorbelegt. In dem Einrichterparameter des Anzeigefensters kann eine private Prozedur hinterlegt werden, welche die Einspielung der Daten vom ArtikelStammTerres in das A.eins System vornimmt. Diese private Prozedur wird anstelle der [Standardprozedur](./privatisierbare_prozeduren_fuer_die_datendrehscheibe_import.md#proc_ArtikelImport) ausgeführt.
 
 Dabei ist zu beachten, dass alle Prozeduren, die in der Standard Prozedur aufgerufen werden, auch in der privaten Prozedur berücksichtig werden. Ansonsten können wird nicht gewährleisten, dass die Daten komplett richtig eingespielt werden. Unter dem Punkt Privatisierbare Prozeduren für die Datendrehscheibe sind die
 
@@ -126,7 +126,7 @@ Der Bereich Importumsetzer ist eigentlich das Herzstück der Terres Schnittstell
 
 Wird der Standard ausgewählt, so wird die Schlüsselklasse für jedes Kennzeichen, welches Umgeschlüsselt werden soll, vorbelegt. Es besteht die Möglichkeit dies zu privatisieren.
 
-Im Importumsetzer in der Variante „Import-Umsetzer Itemboxzuordnung“.
+Im Importumsetzer in der Variante „***Import-Umsetzer*** ***Itemboxzuordnung***“.
 
 Es existieren bislang sechs Kennzeichen die Umgeschlüsselt werden.
 
@@ -140,13 +140,13 @@ Es existieren bislang sechs Kennzeichen die Umgeschlüsselt werden.
 | ![\*](../../ImagesExt/image8_1556.jpg "*") Lieferanten | ![\*](../../ImagesExt/image8_1556.jpg "*") 1006 | ![\*](../../ImagesExt/image8_1556.jpg "*") Die Kreditorennr. muss in ein A.eins Lieferant umgewandelt/zugeordnet werden. |
 | ![\*](../../ImagesExt/image8_1556.jpg "*") Lager | ![\*](../../ImagesExt/image8_1556.jpg "*") 1007 | ![\*](../../ImagesExt/image8_1556.jpg "*") Umschlüsselung des Lagerortcodes einer Terres Rechnung in eine A.eins Lagernummer. |
 
-Bevor die Artikel übernommen werden können, müssen die Umschlüsselungen vorgenommen werden. Bei der ersten Einrichtung des Marktes empfehlen wir die Tabellarischeansicht zu verwenden. Dazu werden auf der Ansichtsmaske die einzelnen Punkte aufgerufen. Sie können aber auch im Importumsetzer [IMPUM] in der Variante „Import-Umsetzer“ „Ändern(Tabellarisch)“ [F5] aufrufen. Es ist dabei zu beachten, dass bei der Ersteinrichtung das Aufrufen der tabellarischen Ansicht etwas länger dauert. Bei nachträglichen Einspielungen, die neue Kennzeichen enthalten, lassen sich im Importumsetzer die neuen Kennzeichen einfach nachpflegen.
+Bevor die Artikel übernommen werden können, müssen die Umschlüsselungen vorgenommen werden. Bei der ersten Einrichtung des Marktes empfehlen wir die Tabellarischeansicht zu verwenden. Dazu werden auf der Ansichtsmaske die einzelnen Punkte aufgerufen. Sie können aber auch im Importumsetzer [**IMPUM**] in der Variante „Import-Umsetzer“ „***Ändern(Tabellarisch)***“ [**F5**] aufrufen. Es ist dabei zu beachten, dass bei der Ersteinrichtung das Aufrufen der tabellarischen Ansicht etwas länger dauert. Bei nachträglichen Einspielungen, die neue Kennzeichen enthalten, lassen sich im Importumsetzer die neuen Kennzeichen einfach nachpflegen.
 
 Was muss noch beachtet werden vor dem Artikelimport
 
 Im Artikelstamm auf der Registerkarte [Markt](../../artikelstamm_und_artikel/parameter_des_artikelstamms/registerkarte_markt.md) existiert die Möglichkeit Einstellungen vorzunehmen, dass ein vorhandener Artikel oder Ausprägungen des Artikels nicht von Terres abgeändert werden darf.
 
-Nach dem die Ümschlüsselung abgeschlossen ist, die Musterartikel eingerichtet und eventuell die Kennzeichen im Artikelstamm gesetzt worden sind, können die Terres Daten mit „Artikelimport“ [F9] nun in das A.eins System übernommen werden.
+Nach dem die Ümschlüsselung abgeschlossen ist, die Musterartikel eingerichtet und eventuell die Kennzeichen im Artikelstamm gesetzt worden sind, können die Terres Daten mit „***Artikelimport***“ [**F9**] nun in das A.eins System übernommen werden.
 
 Terresspezifische Ausprägungen des Terres-Artikels
 

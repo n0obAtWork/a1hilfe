@@ -4,7 +4,7 @@
 
 Die Performance des Archivs in der Einzelbeleganzeige wurde verbessert.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 718797[33593]
 

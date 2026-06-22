@@ -4,7 +4,7 @@
 
 Bei der Korrektur der Warenposition war beim Betreten der Maske der Fokus auf der Tab-Reiter Auswahl und nicht auf dem ersten freigeschalteten Feld im Tab-Reiter Allgemein. Dies wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 734222[35147]
 

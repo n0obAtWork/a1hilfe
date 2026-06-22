@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/automatischefrachten.htm -->
 
-Administration > Steuerung > Steuerungsparameter zeigen [SPA]
+Administration > Steuerung > Steuerungsparameter zeigen **[SPA]**
 
 Eine Fracht errechnet sich aus einer Kombination aus Artikel und Kunden.
 

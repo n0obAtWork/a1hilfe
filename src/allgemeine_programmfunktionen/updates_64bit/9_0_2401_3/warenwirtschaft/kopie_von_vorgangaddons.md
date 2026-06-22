@@ -4,7 +4,7 @@
 
 VorgangsAddons werden nun auch in den neuen Beleg kopiert, wenn aus der Auswahlliste die Funktion "Teildisposition ..." aufgerufen wird und in der Quellvorgangs(Unter-)klasse das Kennzeichen "AddOns kopieren" aktiv ist.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 730400[35189]
 

@@ -17,6 +17,6 @@ Der Buchungstyp findet sich in der Tabelle Warenbewegung als Feld KtrBuchTyp.
 | 3 | Einlagerung | Diese Buchung verändert Fremdware |
 | 4 | Kommission | Diese Buchung verändert Fremdlager |
 
-Buchungstyp im Kontrakt
+<p class="just-emphasize">Buchungstyp im Kontrakt</p>
 
 Der Buchungstyp eines Kontrakts bestimmt Quelle und Ziel einer Buchung (z.B. Eigenware zu Fremdware). Eine nachträgliche Änderung des Buchungstyps ist deshalb nicht möglich, da damit alle bereits erfolgten Buchungen und Bestände im Zusammenhang mit diesem Kontrakt ebenfalls geändert werden müssten, die Zusammenhänge aber nicht überall ersichtlich sind.

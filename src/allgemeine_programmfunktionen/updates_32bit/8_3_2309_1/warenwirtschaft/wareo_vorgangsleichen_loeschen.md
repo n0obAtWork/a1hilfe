@@ -4,7 +4,7 @@
 
 In der Anwendung Warenreorganisation [WAREO] wurde die Funktion "Vorgangsleichen entfernen mit Nummernfreigabe" entfernt. Die Funktion "Leichen in der Ware beseitigen" wurde umbenannt in "Fehlerhafte Vorgänge aus der Ware entf.". Das Löschen von fehlerhaften Vorgängen wird jetzt in der Tabelle WareoProtokoll protokolliert. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 717902[33722]
 

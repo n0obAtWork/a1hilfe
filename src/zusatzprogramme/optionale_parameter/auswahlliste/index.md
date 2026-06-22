@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Steuerung > Optionen
 
-oder Direktsprung [OPT]
+oder Direktsprung **[OPT]**
 
 <details>
 <summary>Felder der Auswahlliste</summary>
@@ -34,8 +34,8 @@ oder Direktsprung [OPT]
 
 | Funktion | Beschreibung |
 | --- | --- |
-| Ändern (F5), Ansehen (F6), Löschen (F7), Neu (F8) | Öffnet den Pfleger der Optionalen Parameter |
-| Export Option (Shift + F8) | Exportiert den ausgewählten Parameter |
+| Ändern **(F5)**, Ansehen **(F6)**, Löschen **(F7)**, Neu **(F8)** | Öffnet den Pfleger der Optionalen Parameter |
+| Export Option **(Shift + F8)** | Exportiert den ausgewählten Parameter |
 
 </details>
 

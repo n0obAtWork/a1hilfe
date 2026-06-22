@@ -4,7 +4,7 @@
 
 Der Datenübernahme [DUEB] wurde die Option "Fehlerhafte Daten überschreiben?" hinzugefügt. Hierüber kann eingestellt werden, ob der Import von fehlerhaften Daten wiederholt werden darf. Diese Option ist nur für den FiBu-XML-Import verfügbar.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 715354[32965]
 

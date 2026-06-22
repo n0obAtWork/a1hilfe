@@ -4,7 +4,7 @@
 
 Existiert eine Bankleitzahl im Bankenstamm mehrfach, dann konnte anhand der IBAN keine eindeutige Bank bestimmt werden und die Felder blieben leer. Das wurde so geändert, dass die F3-Auswahl der Bank sofort geöffnet wird und nur die Banken mit dieser Bankleitzahl aufgelistet werden.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 740047[35968]
 

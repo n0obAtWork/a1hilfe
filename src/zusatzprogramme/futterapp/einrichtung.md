@@ -8,7 +8,7 @@
 
 Hierfür muss der Punkt „An/Aus“ auf „Ja“ (1), „Ausprägung“ auf „Dateipfad für Ordnerstruktur“(4) und „Wert/Value“ auf „&lt;gewünschter Dateipfad>“ gestellt werden.
 
-• Als nächstes unter [OSQL] den Control-String „^jpl FutterAppEinrichter“ ausführen.
+• Als nächstes unter **[OSQL]** den Control-String „^jpl FutterAppEinrichter“ ausführen.
 
 o Die Ordnerstruktur unter dem im Steuerparameter 1047 angegebenen Pfad wird angelegt.
 
@@ -22,7 +22,7 @@ o Übergabeparameter A.eins.FtpTransfer.exe: “CONNECTION=Mandantname TRANSFERI
 
 • Die Serverinformationen müssen in den Transferprofilen nachgepflegt werden. **[FTPTRA]**
 
-• Der Import der Bestellungen muss als Event eingetragen werden [EVT]. Es wird eine minütliche Wiederholung empfohlen.
+• Der Import der Bestellungen muss als Event eingetragen werden **[EVT]**. Es wird eine minütliche Wiederholung empfohlen.
 
 Verarbeitungsroutine:
 
@@ -38,8 +38,8 @@ o Der erste Parameter („abc“) war ursprünglich der Dateipfad. Dieser wird n
 
 • Diese Batch-Datei „FutterAppExporter.bat“ muss nun im Windows-Aufgabenplaner eingetragen werden. Es wird eine Wiederholung in 5-Minuten Intervallen empfohlen.
 
-• Im Lieferschein und in den Aufträgen muss das UFLD-Feld für die Baustelle hinzugefügt werden. Hierfür zunächst mit [UFLD] auf die zugehörige Auswahlliste springen. Und dort die Datensätze mit passender Vorgangs-, Vorgangsunter- und Bedienerklasse auswählen. Mit F5 bearbeiten.
+**•** Im Lieferschein und in den Aufträgen muss das UFLD-Feld für die Baustelle hinzugefügt werden. Hierfür zunächst mit **[UFLD]** auf die **zugehörige Auswahlliste springen. Und dort die Datensätze mit passender Vorgangs-, Vorgangsunter- und Bedienerklasse auswählen. Mit F5 bearbeiten.**
 
-Nun (falls noch nicht vorhanden) den Punkt Baustelle hinzufügen. (Vergleiche gelben Bereich in der Abbildung)
+**Nun (falls noch nicht vorhanden) den Punkt Baustelle hinzufügen. (Vergleiche gelben Bereich in der Abbildung)**
 
 ![](../../ImagesExt/image8_977.jpg)

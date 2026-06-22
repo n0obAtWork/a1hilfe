@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Firmenkonstanten > Zugriffsrechte Rolle > Rollenstamm
 
-oder Direktsprung [ROLLE]
+oder Direktsprung **[ROLLE]**
 
 Hier kann hauptsächlich die Zuordnung der Rolle zu den [Bedienerklassen](../../bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/bedienerstamm_pfleger.md) gepflegt werden.
 
@@ -32,8 +32,8 @@ Ein vorangestellter Stern (\*) bedeutet das die Bedienerklasse eine Controller-K
 
 | Funktionen |
 | --- |
-| Rolle umbenennen (F5) | Rolle umbenennen. |
-| Neu (F8), Speichern (F9), Speichern unter… (shift + F9), Löschen (F7) | |
+| Rolle umbenennen **(F5)** | Rolle umbenennen. |
+| Neu **(F8)**, Speichern **(F9)**, Speichern unter… **(shift + F9)**, Löschen **(F7)** | |
 | Rolle tauschen | Ruft die Funktion für das [Rollen tauschen](./rollen_tauschen.md) auf. |
 | Rolle vereinigen | Bietet die Möglichkeit [Rollen zu vereinigen](./rollen_vereinigen.md) |
 

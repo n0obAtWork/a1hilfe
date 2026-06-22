@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/optionenf10.htm -->
 
-Wenn man unter OSQL die Funktion Optionen F10 auswählt, so öffnet sich folgender Dialog mit zwei Reitern:
+Wenn man unter OSQL die Funktion ***Optionen*** **F10** auswählt, so öffnet sich folgender Dialog mit zwei Reitern:
 
 Anwendung:
 
@@ -12,10 +12,10 @@ Anwendung:
 | --- | --- |
 | (F3) Arbeitsverzeichnis  
 (F3) Dateinamenserweiterung  
-(F3) Zuletzt verwendete Datei | Diese Einstellungen beziehen sich auf die Dialogmaske, die man über die Funktion SQL ausführen F3 erreicht. |
+(F3) Zuletzt verwendete Datei | Diese Einstellungen beziehen sich auf die Dialogmaske, die man über die Funktion ***SQL ausführen*** **F3** erreicht. |
 | (F9) Arbeitsverzeichnis  
 (F9) Datei  
-(F9) Dateinamenserweiterung | Diese Einstellungen beziehen sich auf die Dialogmaske, die man über die Funktionen Sichern Eingabe SCF9, Ausführen Statement CF9 und Editieren Statement SF9 erreicht. |
+(F9) Dateinamenserweiterung | Diese Einstellungen beziehen sich auf die Dialogmaske, die man über die Funktionen ***Sichern Eingabe*** **SCF9,** ***Ausführen Statement*** **CF9** und ***Editieren Statement*** **SF9** erreicht. |
 | Ausgabedatei | Dieser Dateiname wird dort als Vorbelegung verwendet, wo OSQL Daten in eine Datei schreiben soll.  
  |
 | Bei TAB Tabellennamen ergänzen  

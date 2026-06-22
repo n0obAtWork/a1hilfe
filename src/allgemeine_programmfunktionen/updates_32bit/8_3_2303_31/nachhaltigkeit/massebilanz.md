@@ -4,7 +4,7 @@
 
 Es wurden Änderungen im Bereich der Massebilanz umgesetzt. In einer Rohwarekette (Lieferschein -> Abschlag -> Folgeabschlag -> Finale) werden nur noch die Bewegungen des letzten massebilanzrelevanten Belegs in der Auswahlliste Bewegungsübersicht und Massebilanzbewegungen angezeigt. Nach dem Festschreiben einer Massebilanz lassen sich die dazugehörigen Bewegungen nicht mehr bearbeiten. Eine Ausnahme davon ist die Funktion Storno mit Kopie und Sammel-Storno erstellen mit Kopie von Rohwarebelegen. Die dadurch entstehenden Bewegungen werden wie auch durch Weiterverarbeitung entstehende Bewegungen nicht mehr in Massebilanzen berücksichtigt.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 708147[33489]
 

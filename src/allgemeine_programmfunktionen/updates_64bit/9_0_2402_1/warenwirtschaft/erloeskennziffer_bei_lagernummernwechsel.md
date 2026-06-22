@@ -4,7 +4,7 @@
 
 Bei Lagernummernwechsel auf einen Artikel mit Erlöskennziffer 0 (Aus Artikelstamm) wurde die Erlöskennziffer bisher nicht korrekt gezogen. Dies wurde nun behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 736743[35496]
 

@@ -4,7 +4,7 @@
 
 Mit der Umstellung auf den neuen Artikelpfleger wurde die Inventurgruppe unter Umständen nicht richtig übernommen. Dies wurde behoben.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 717098[33181]
 

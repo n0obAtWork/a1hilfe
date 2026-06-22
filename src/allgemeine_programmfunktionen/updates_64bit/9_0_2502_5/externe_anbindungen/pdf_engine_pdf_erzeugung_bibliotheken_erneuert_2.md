@@ -4,7 +4,7 @@
 
 PDF-Erzeugung wurde auf Version Dynaforms 4.0.91.299 aktualisiert.Das Update ist von Hersteller als notwendig eingestuft (mehrere kritische Sachen werden damit behoben)
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 0[37879]
 

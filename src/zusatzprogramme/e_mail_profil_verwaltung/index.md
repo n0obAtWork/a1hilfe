@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_email_profil_verwaltung.htm -->
 
-Direktsprung [EMAIL]
+Direktsprung **[EMAIL]**
 
 Die Anwendung dient der Einrichtung und Pflege von Profilen für die Anwendung E-Mail-Connector.
 

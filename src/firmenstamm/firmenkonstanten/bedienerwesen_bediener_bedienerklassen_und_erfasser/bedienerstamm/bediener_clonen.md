@@ -4,7 +4,7 @@
 
 Diese Funktion erlaubt es, einen Bediener mit allen Daten zu kopieren und nach Eingabe eines neuen eindeutigen Namens, mit diesen kopierten Daten zu erstellen.
 
-Kopfdaten:
+<p class="just-emphasize">Kopfdaten:</p>
 
 | Felder | Beschreibung |
 | --- | --- |

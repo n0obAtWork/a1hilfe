@@ -4,7 +4,7 @@
 
 Im Balken- und Säulendiagramm besteht jetzt die Möglichkeit, die einzelnen Serien zu überlagern.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 716438[33659]
 

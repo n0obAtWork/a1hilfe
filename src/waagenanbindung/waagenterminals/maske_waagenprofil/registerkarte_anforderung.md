@@ -18,7 +18,7 @@ Sehr interessant für Entwicklungs- und Debug-Zwecke. Andernfalls müsste man ev
 | Pos | Sortierungskriterium für die Reigenfolge der VL.  
 Da es höchstens eine GA geben darf, wird diese wenn auch immer erst am Ende der VL verschickt. Sollte es in Zukunft Waagensysteme geben, die noch einen „Nachlauf“ benötigen, muss das noch implementiert werden! |
 
-Art
+<p class="just-emphasize">Art</p>
 
 ![](../../../ImagesExt/image8_495.png)
 

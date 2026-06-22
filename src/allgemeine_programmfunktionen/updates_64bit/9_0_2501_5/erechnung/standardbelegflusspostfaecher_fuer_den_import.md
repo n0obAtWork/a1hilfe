@@ -4,7 +4,7 @@
 
 In der Anwendung eRechnung [XRE], Variante Import Vorgänge, kann jetzt über die Funktion "Importeinstellungen bearbeiten" je ein Belegflusspostfach für die Warenwirtschaft und die Finanzbuchhaltung eingerichtet werden. 
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 746729[36960]
 

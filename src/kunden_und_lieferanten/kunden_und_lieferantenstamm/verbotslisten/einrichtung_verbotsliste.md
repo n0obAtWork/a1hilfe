@@ -6,7 +6,7 @@ Auf dem Register „Zusätze“ in den Anschriften ist, für die Verbotslistenpr
 
 | ID | Bezeichnung | Bedeutung |
 | --- | --- | --- |
-| 0 | nicht testen | Diese Adresse wird nicht automatisch (z.B. durch ein Event) geprüft. Wird diese Adresse ausgewählt und die Funktion Verbotslistenprüfung gewählt, so wird diese Adresse geprüft. |
+| 0 | nicht testen | Diese Adresse wird nicht automatisch (z.B. durch ein Event) geprüft. Wird diese Adresse ausgewählt und die Funktion ***Verbotslistenprüfung*** gewählt, so wird diese Adresse geprüft. |
 | 1 | manuell erlaubt | Obwohl die Prüfung eine Übereinstimmung gefunden hat, darf diese Adresse verwendet werden. z.B. weil die Übereinstimmung zufällig oder die Handelsart nicht vom Embargo betroffen ist. Es ist anzuraten, die Gründe für die Setzung dieses Status zu dokumentieren! |
 | 10 | ungeprüft | Diese Adresse ist derzeit nicht geprüft, ist jedoch zur Prüfung vorgesehen. |
 | 11 | nicht zulässig | Diese Adresse ist bei der Prüfung auf eine Übereinstimmung gestoßen.  

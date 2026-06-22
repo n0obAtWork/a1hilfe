@@ -25,7 +25,7 @@ Die einzelnen Zeilen können hier auch manuell überschrieben werden.
 | Nettopreis | Der Nettowert der Warenposition |
 | Positionsvermerk | Vermerk für die Position |
 
-Packstücke
+<p class="just-emphasize">Packstücke</p>
 
 | **Parameter** | **Bedeutung** |
 | --- | --- |

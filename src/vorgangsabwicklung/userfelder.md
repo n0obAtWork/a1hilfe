@@ -10,7 +10,7 @@ Die Felder können dabei frei auf der Maske positioniert werden. Um die Einricht
 
 Wird das erste Feld eingefügt, stehen die Bezeichnung und die Beschreibung in Zeile 13,79 und der Wert in Zeile 13,36. Die Spaltenwerte sind 0,5 für die Bezeichnung, 18,17 für den Wert und 38,00 für die Beschreibung. Wenn schon Felder existieren und der Cursor in die erste freie Zeile bewegt wird, wird das Feld bestimmt, das am weitesten unten steht. Auf die Zeilenwerte dieses Feldes wird 1,71 addiert, um die neuen Zeilenwerte zu erhalten. Die Spaltenwerte für das neue Feld übernommen.
 
-Wird per F8 zwischen zwei bestehenden Feldern ein neues Feld eingefügt, werden alle nachfolgenden Felder nach unten verschoben, indem 1,71 auf die Zeilenwerte addiert werden.
+Wird per **F8** zwischen zwei bestehenden Feldern ein neues Feld eingefügt, werden alle nachfolgenden Felder nach unten verschoben, indem 1,71 auf die Zeilenwerte addiert werden.
 
 Das Verhalten beim Löschen eines Feldes kann mit einem Einrichterparameter bestimmt werden. Es besteht die Wahl zwischen:
 

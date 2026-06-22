@@ -4,7 +4,7 @@
 
 Die Intrastat-Auswahllisten können jetzt auch Belege aus den Jahren vor 2022 und nach 2022 mit den korrekten Art des Geschäfts Texten darstellen. Ursache war, dass sich die Codierung "Art des Geschäftes" von 2022 auf 2023 geändert hat. Der gleiche Code hat nun in Abhängigkeit des Belegjahres eine unterschiedliche Bedeutung.
 
-Releasenote Kategorie:
+<p class="just-emphasize">Releasenote Kategorie:</p>
 
 Ticket: 744027[36380]
 
