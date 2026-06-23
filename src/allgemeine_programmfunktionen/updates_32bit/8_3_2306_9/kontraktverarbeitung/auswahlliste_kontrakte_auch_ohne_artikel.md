@@ -20,6 +20,6 @@ Funktion/Report: alle
 
 [Weitere Informationen](http://www.amic.de/hilfe/_kontrakt_auswahl_ktr.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2306.9, 33807, 723233

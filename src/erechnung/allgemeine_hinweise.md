@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/allgemeinehinweise.htm -->
 
-Dienstleistungen
+<p class="just-emphasize">Dienstleistungen</p>
 
 Werden in einem Beleg Dienstleistungen des Warenempfängers gegengerechnet (typischer Weise Trocknung bei Getreideanlieferungen), so wird dies in A.eins® mit einer positiven Menge und einem negativen Preis dargestellt.
 

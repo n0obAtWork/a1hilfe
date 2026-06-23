@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/systeminformation.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2502.9, 38709, 0

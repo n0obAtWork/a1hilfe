@@ -10,7 +10,7 @@ Im Bankenstamm (Direktsprung **[BNK]**) soll hinter der Banknummer die Anzahl de
 
 ![](../../ImagesExt/image8_1045.png)
 
-Anlegen des Labels
+<p class="just-emphasize">Anlegen des Labels</p>
 
 Im A.eins Informationssystem legt man sich einen neuen Eintrag (**F8**) an. Zuerst muss die Gruppe angegeben werden. Hat man bereits ein oder mehrere Felder zu einer Gruppe erfasst, kann man diese hier mit **F3** auswählen. Die Felder „**Makro**“, „**Ändern Vorlauf**“ und „**Einfügen Vorlauf**“ werden dann vorbelegt.  
     
@@ -32,7 +32,7 @@ Im A.eins Informationssystem legt man sich einen neuen Eintrag (**F8**) an. Zuer
 
 Da es sich um einen Festtext handeln soll, wird der Herkunftstyp auf „keine“ stehen gelassen.
 
-Anlegen eines Anzeigefeldes
+<p class="just-emphasize">Anlegen eines Anzeigefeldes</p>
 
 **Register Feldbeschreibung:**
 
@@ -52,9 +52,9 @@ Anlegen eines Anzeigefeldes
 | | Beschreibung |
 | --- | --- |
 | Herkunftstyp<br> | Die Daten werden über ein hier formuliertes Statement zusammengesucht, also **SQL**.<br> |
-| SQL-Text<br> | Wir wollen aus der Kundenbank die Anzahl der Datensätze bestimmen, die die Bank verwenden, die gerade im Pfleger angezeigt wird:<br> <br> <br>IDENT enthält den Wert des Feldes, das in der Maskenzuordnung als Ident-Feldname festgelegt wird.<br> |
+| SQL-Text<br> | Wir wollen aus der Kundenbank die Anzahl der Datensätze bestimmen, die die Bank verwenden, die gerade im Pfleger angezeigt wird:<br> <br><pre><code>Select count(*) as&#10; Anzahl from Kundenbank where Banknummer = :IDENT</code></pre><br> <br>IDENT enthält den Wert des Feldes, das in der Maskenzuordnung als Ident-Feldname festgelegt wird.<br> |
 
-Maskenzuordnung
+<p class="just-emphasize">Maskenzuordnung</p>
 
 | | Beschreibung |
 | --- | --- |

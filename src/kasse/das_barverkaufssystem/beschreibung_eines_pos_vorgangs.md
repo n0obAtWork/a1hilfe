@@ -66,7 +66,7 @@ Wenn innerhalb eines Vorgangs schon Positionen erfasst und damit auch parallel g
 
 Außerdem wird auf dem parallel gedruckten Beleg ein Text ausgegeben, der diesen Beleg als Stornobeleg kennzeichnet. Außerdem wird dieser Abbruch des Vorgangs auch auf dem Display angezeigt. Wenn innerhalb der Zahlungsroutine abgebrochen wird, werden die erfassten Zahlungssätze ebenfalls zurückgesetzt. In beiden Fällen wird die Anzahl der Abbrüche innerhalb dieser Sitzung dieser Kasse in KsiAbbruchAnz in der Relation AcashBelgKsiz erhöht. Wenn der letzte Vorgang ordnungsgemäß abgeschlossen wurde, kann man ohne obigen Nachlauf über ESC aus der Maske aussteigen. (Bei der Tresenkasse wird die Anzahl der Abbrüche in KsiStornoAnz der Relation AcashBelgKsiz pro Sitzung und Kasse erhöht, wenn nach Bestätigen des Zahlungsbetrages der laufende Vorgang z.B. über F10 abgebrochen wird oder wenn nach Bestätigen des Zahlungsbetrages noch Positionen nacherfasst werden, so dass die Zahlungsroutine ein zweites Mal durchlaufen wird. Wenn allerdings der Zahlungsbetrag nicht bestätigt wurde, wird KsiStornoAnz nicht verändert).
 
-2\. Einrichtungsanweisungen
+<p class="just-emphasize">2\. Einrichtungsanweisungen</p>
 
 Folgende bedienerabhängige EPAS existieren auf der POS-Maske:
 

@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/makroodermakrofstatement.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2210.20, 32787, 715125

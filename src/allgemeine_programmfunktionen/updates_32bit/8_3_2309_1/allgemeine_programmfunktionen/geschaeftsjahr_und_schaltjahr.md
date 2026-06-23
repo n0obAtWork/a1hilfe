@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_geschftsjahrebuchung.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2309.1, 34127, 726032

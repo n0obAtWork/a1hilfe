@@ -20,6 +20,6 @@ Funktion/Report: alle
 
 [Weitere Informationen](http://www.amic.de/hilfe/konstantenundtabellenfrdieeinr.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2309.1, 32610, 712422

@@ -20,6 +20,6 @@ Funktion/Report: F8
 
 [Weitere Informationen](http://www.amic.de/hilfe/kassenSichVsfs2.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2305.26, 33824, 723397

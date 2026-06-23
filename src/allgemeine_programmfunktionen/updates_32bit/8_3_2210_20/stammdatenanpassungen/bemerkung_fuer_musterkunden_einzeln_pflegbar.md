@@ -20,6 +20,6 @@ Funktion/Report: F8
 
 [Weitere Informationen](http://www.amic.de/hilfe/!_kundenundlieferanten.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2210.20, 32724, 713518

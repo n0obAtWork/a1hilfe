@@ -10,7 +10,7 @@ Es soll diese einfache Maske zur Erfassung von Beladeort, Container und Menge er
 
 ![](../../ImagesExt/image8_1047.jpg)
 
-Anlegen des Labels
+<p class="just-emphasize">Anlegen des Labels</p>
 
 Im A.eins Informationssystem legt man sich einen neuen Eintrag (**F8**) an. Zuerst muss die Gruppe angegeben werden, in diesem Beispiel soll sie „Aeinszusatz3“ heißen. Hat man bereits ein oder mehrere Felder zu einer Gruppe erfasst, kann man die Gruppe hier mit **F3** auswählen. Die Felder „***Makro***“, „***Ändern Vorlauf***“ und „***Einfügen Vorlauf***“ werden dann vorbelegt. Sie können in diesem Fall leer bleiben.
 
@@ -42,7 +42,7 @@ Hier eine kurze Aufstellung der variablen Werte für die anderen Label .
 | Lbl.Container | 8 | 1 | 16 | Container/Kessel |
 | Lbl.Menge | 10 | 1 | 15 | Menge |
 
-Anlegen von Eingabefeldern (Singelline Text) vom Typ Datum
+<p class="just-emphasize">Anlegen von Eingabefeldern (Singelline Text) vom Typ Datum</p>
 
 **Register Feldbeschreibung:**
 
@@ -75,7 +75,7 @@ In diesem Beispiel sind nur zwei Felder wichtig:
 | Ident Feld<br> | Hier muss der Name des eindeutigen Schlüssels der Relation hinterlegt werden. Bei den Relationen Aeinszusatz1 bis Aeinszusatz5 heißt dieses Feld Ident.<br> |
 | Refresh | Bei Herkunftstyp **SQL** kann man einstellen, dass beim Wiedereinstieg in die Maske aus einer überlagernden Maske die Daten erneut geladen werden. Diese Funktion kann auch direkt z.B. vom Makro aus angestoßen werden. Der Aufruf lautet: dbx_io („AISREFRESH“) und es werden dann alle Daten zu den Feldern, die mit Refresh = **Ja** belegt sind neu geladen. Wird ein Refresh ausgeführt, so wird auch die Pascalfunktion, die nach dem Laden der Daten aufgerufen wird, erneut ausgeführt.<br> |
 
-Anlegen von Eingabefeldern (Singelline Text) mit Itembox
+<p class="just-emphasize">Anlegen von Eingabefeldern (Singelline Text) mit Itembox</p>
 
 Das Feld **LKW** soll nur mit den Daten aus der Relation LKW_STAMM gefüllt werden dürfen. Dafür sind dann auf dem Register „Eingabeprüfung“ einige Einstellungen vorzunehmen.
 
@@ -100,7 +100,7 @@ Das Feld **LKW** soll nur mit den Daten aus der Relation LKW_STAMM gefüllt werd
 | Eingabe erforderlich<br> | Wenn für jeden Datensatz, den man erfassen will, in diesem Feld ein Wert stehen soll, so muss hier ein **Ja** stehen. Auch LKW sich ist ein Pflichtfeld, also **Ja**.<br> |
 | Nicht Löschen<br> | Dies bedeutet, dass nach dem Speichern dieses Feld nicht gelöscht wird, sondern der vorher eingegebene Inhalt erhalten bleibt. Auch springt der Cursor nicht wieder in dieses Feld, sondern in das erste Feld, in dem bei „nicht Löschen“ ein **Nein** steht. Der LKW ändert sich normalerweise pro Eingabe, deswegen soll dieses Feld jedes Mal gelöscht werden und der Cursor in dieses Feld springen: „**Nein**“<br> |
 | Itembox<br> | Da hier nur LKW’s eingegeben werden sollen, die auch im LKW_Stamm vorhanden sind, können wir eine Itembox hinterlegen, die auf die Daten im LKW_Stamm zugreift. Eine Liste der Itemboxen erhält man mit **F3**. Die Itembox muss hier **IB_LKW** heißen.<br> |
-| Itembox Information<br> | Häufig gibt es zusätzliche Informationen zu Feldern, die sich auf andere Relationen beziehen. In diesem Beispiel ist es die Bezeichnung des LKW’s, die uns interessiert, da man mit der Nummer nicht unbedingt immer viel anfangen kann. Diese Information kann man hier erhalten. Dabei muss man das Feld in der Relation LKW_Stamm angeben gefolgt von „>“ und dem Maskenfeld. Also:<br> <br> <br>Das Maskenfeld LKWTEXT muss natürlich auch angelegt werden(s.u.).<br>Man könnte auch noch mehr Informationen aus der Itembox herauslesen. Dazu kann man, mit Komma getrennt, weitere Felder in der obigen Syntax angeben. Also:<br> <br> <br>Alle Felder, die aus der Relation gelesen werden, müssen in der Returnliste stehen. Siehe dazu Dokumentation Itembox.<br> |
+| Itembox Information<br> | Häufig gibt es zusätzliche Informationen zu Feldern, die sich auf andere Relationen beziehen. In diesem Beispiel ist es die Bezeichnung des LKW’s, die uns interessiert, da man mit der Nummer nicht unbedingt immer viel anfangen kann. Diese Information kann man hier erhalten. Dabei muss man das Feld in der Relation LKW_Stamm angeben gefolgt von „>“ und dem Maskenfeld. Also:<br> <br><code>LKW_Bezeich&gt;LKWTEXT</code><br> <br>Das Maskenfeld LKWTEXT muss natürlich auch angelegt werden(s.u.).<br>Man könnte auch noch mehr Informationen aus der Itembox herauslesen. Dazu kann man, mit Komma getrennt, weitere Felder in der obigen Syntax angeben. Also:<br> <br><code>LKW_Bezeich&gt;LKWTEXT,LKW_MATCH&gt;MATCH,....</code><br> <br>Alle Felder, die aus der Relation gelesen werden, müssen in der Returnliste stehen. Siehe dazu Dokumentation Itembox.<br> |
 
 **Register Datenbeschreibung:**
 
@@ -121,7 +121,7 @@ Hier eine kurze Aufstellung der variablen Werte für die anderen Singelline-Text
 | Container | Character | 8 | 21 | 30 | Ja | Relation AeinsZusatz3 Identfeld Ident |
 | Menge | Numeric (2 Nachkomma) | 10 | 21 | 15 | Ja | Relation AeinsZusatz3 Identfeld Ident |
 
-Zugriff auf die Notizbücher aus KUI
+<p class="just-emphasize">Zugriff auf die Notizbücher aus KUI</p>
 
 Bei den Notizbüchern aus KUI handelt es sich um Textseiten, die gepflegt werden konnten. AIS bietet natürlich auch die Möglichkeit, auf diese Daten weiterhin zuzugreifen.
 

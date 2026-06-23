@@ -6,6 +6,5 @@ Für die Maske zur Steuerung der Umwandlung von Eingangslieferscheinen zu Sammel
 
 Mögliche Optionen sind:
 
-\- mit Trennung
-
-\- ohne Trennung
+- mit Trennung
+- ohne Trennung

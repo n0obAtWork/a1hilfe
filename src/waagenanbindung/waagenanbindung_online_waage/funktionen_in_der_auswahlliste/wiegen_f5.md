@@ -22,7 +22,7 @@ Wird in der Hofliste **kein Wiegesatz** markiert und die Funktion ***Wiegen*** w
 
 Wurde in der Hofliste **ein Wiegesatz** markiert und die Funktion ***Wiegen*** wird aufgerufen, so werden nur all die Funktionen angezeigt, die zu dem markierten Wiegesatz kompatibel sind. Wird dann eine Schaltfläche gedrückt und dieser Schaltfläche ist ein anderes [Waagenterminal](../../waagenterminals/waagenterminal_uebersicht.md) zugeordnet als das [Waagenterminal](../../waagenterminals/waagenterminal_uebersicht.md) des Wiegesatz, so wird das [Waagenterminal](../../waagenterminals/waagenterminal_uebersicht.md) des Wiegesatzes mit dem an der Schaltfläche hinterlegen [Waagenterminal](../../waagenterminals/waagenterminal_uebersicht.md) überschrieben.
 
-Private Funktion
+<p class="just-emphasize">Private Funktion</p>
 
 Es besteht die Möglichkeit diese Mechanik zu privatisieren. Dabei wird nicht mehr die Auswahlmaske aufgerufen, sondern direkt die Waagenmaske. Die Waagenmaske wird dann mit dem im Bedienerstamm hinterlegten Prozess an der Position X gestartet. Für unterschiedliche Bediener können unterschiedliche Prozesse an der Position X im Bedienerstamm hinterlegt sein. Es wird immer der jeweilige Prozess des Bedieners aufgerufen.
 

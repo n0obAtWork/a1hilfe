@@ -86,7 +86,7 @@ Es existieren dabei vier Ausprägungen:
 
   Neben den Sperren wird zusätzlich noch angezeigt, ob dieser Beleg ggf. in der Fibu bereits Storniert wurde. [Stornieren](../belegerfassung/stornieren_gebuchter_belege.md) eines Beleges in der Fibu bewirkt bei Warenwirtschaftsbelegen, dass das Übertrags-Kennzeichen wieder zurückgesetzt wird.
 
-Zusätzlich stehen dann folgende Funktionen zur Verfügung:
+<p class="just-emphasize">Zusätzlich stehen dann folgende Funktionen zur Verfügung:</p>
 
 - ***Texte ändern*:** Es können die Texte der einzelnen Belegzeilen geändert werden. Dies ist unabhängig davon, ob ein Beleg bereits gebucht wurde oder nicht, möglich.
 - ***Bemerkungstexte*:** Es können zu Belegen Bemerkungen erfasst werden, die auf allen OP-Listen und auf der Mahnvorschlagsliste angezeigt werden können (per **F2**\-Auswahl einzustellen). Sind zu einem Beleg Bemerkungstexte erfasst erscheinen sie auch auf der Einzelbeleganzeige. Für den Beleg oben wurde „Diese Gutschrift nicht verrechnen.“ erfasst.

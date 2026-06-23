@@ -2,30 +2,30 @@
 
 <!-- source: https://amic.de/hilfe/dbfcreatestatementabversion50.htm -->
 
-Syntax
+<p class="just-emphasize">Syntax</p>
 
 DBFCREATE Dateiname.dbf [INTO Relationsname]
 
-Purpose
+<p class="just-emphasize">Purpose</p>
 
 Anlegen einer Tabelle anhand der Feldbeschreibung in der DBASE Datei
 
-Anwendung
+<p class="just-emphasize">Anwendung</p>
 
 Befehlszeile, Kommandodatei
 
-Berechtigung
+<p class="just-emphasize">Berechtigung</p>
 
 Alle Anwender
 
-Siehe auch
+<p class="just-emphasize">Siehe auch</p>
 
 [DBFLOAD](./dbfload_statement.md), [LOAD](./load.md), [READ](./read.md), [IDENTLOAD](./identload_statement.md), [CREATE STRUCT](./create_struct_statement.md), [ALTER STRUCT](./alter_struct_statement.md)
 
-Beschreibung
+<p class="just-emphasize">Beschreibung</p>
 
 Man kann mit dem Befehl DBFCREATE eine Tabelle anlegen. Die Struktur der Tabelle wird aus eine Datei im dBASE Format ( Version dBASE III+ und dBase IV )ermittelt. Ist kein Relationsname angegeben wird der Dateiname hierfür herangezogen. Es werden folgende Feldtypen ausgewertete: Character, Numerisch, Logical, Datum, Gleitpunkt. Dbasedateien mit anderen Feldtypen können nicht bearbeitet werden.
 
-Beispiel
+<p class="just-emphasize">Beispiel</p>
 
 DBFCREATE FOP1.DBF into AMIC_OPS;

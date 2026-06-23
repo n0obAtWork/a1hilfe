@@ -20,6 +20,6 @@ Funktion/Report: Zahlungsverkehr Kasse/Bank
 
 [Weitere Informationen](http://www.amic.de/hilfe/belegerfassung.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2502.7, 38403, 750891

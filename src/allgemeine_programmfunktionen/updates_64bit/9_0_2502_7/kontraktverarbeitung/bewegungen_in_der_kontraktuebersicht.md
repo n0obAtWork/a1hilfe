@@ -20,6 +20,6 @@ Funktion/Report: Ändern
 
 [Weitere Informationen](http://www.amic.de/hilfe/_kontraktstammdaten.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2502.7, 38497, 751148

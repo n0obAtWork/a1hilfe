@@ -22,7 +22,7 @@ Die neuen Preise sind in den Artikel und Ihren Preislisten hinterlegt.
 
 Wenn die Übermittelung einen Fehler ergab, wird eine Fehlermeldung aufgerufen.
 
-Tipp!
+<p class="just-emphasize">Tipp!</p>
 
 **Überprüfung der Preise prüfen!**
 

@@ -12,13 +12,13 @@ Jeder dieser Gruppen kann ein Screen-Makro bzw. ein Feld-Makro zugeordnet werden
 
 **ACHTUNG:** *Wird die Refresh-Funktionalität verwendet, so müssen die Funktionen für „**Ändern Vorlauf**“ und „**Einfügen Vorlauf**“ immer im Screen-Makro enthalten sein.*
 
-Hinweis:
+<p class="just-emphasize">Hinweis:</p>
 
 Wird ein Makro 2.0 (C#) als Screenmakro angegeben, so entfällt die Angabe der Funktionsnamen („Ändern Vorlauf“, „Einfügen Vorlauf“, „Prüf. Vor Speichern“).
 
 Die Methoden ergeben sich aus dem AISMakro-Interface
 
-Ändern Vorlauf:
+<p class="just-emphasize">Ändern Vorlauf:</p>
 
 Die hier angegebene Funktion wird im Ändern-Modus immer dann aufgerufen, nachdem der nächste Datensatz auf dem Bildschirm dargestellt wurde. Man kann dann diese Funktion nutzen, um z.B. um eigenständige Werte zu errechnen. Die Funktion muss folgenden Aufbau haben. Der übergebene Parameter ist der Maskenname:
 
@@ -32,7 +32,7 @@ Vorlauf", 1 );
 end;
 ```
 
-Einfügen Vorlauf:
+<p class="just-emphasize">Einfügen Vorlauf:</p>
 
 Diese Funktion wird immer im Neu-Modus vor jedem neuen Datensatz einmal aufgerufen. Man kann dort dann Vorbelegungen der in AIS definierten Felder vornehmen.
 
@@ -50,7 +50,7 @@ begin
 end;
 ```
 
-Prüfung vor Speichern:
+<p class="just-emphasize">Prüfung vor Speichern:</p>
 
 Die Funktion „***Prüfung vor Speichern***“ wird nur bei den Masken AEZADDON, AEZADDOND und AEZADDONTnn aufgerufen, da es sich dann um eigenständige Pfleger handelt. In dieser Funktion kann man Prüfungen vornehmen, die die Integrität der Daten gewährleisten. Bei fehlerhaften Daten kann man das Speichern verhindern, indem man als Ergebnis den Wert **1** zurückliefert. Wird eine Gruppe mit einer Funktion zur Prüfung in der Maskenzuordnung einer anderen Maske zugeordnet erscheint ein Warnhinweis.
 

@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/importvorgpositionzuab.htm -->
 
-Zu-Abschläge des Vorgangs
+<p class="just-emphasize">Zu-Abschläge des Vorgangs</p>
 
 Aus dieser Relation werden Zu- und Abschläge im Vorgang referenziert
 

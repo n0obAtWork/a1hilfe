@@ -10,6 +10,6 @@ Für diesen Fall steht Ihnen die Funktion ***Separat erfassen*** zur Verfügung.
 
 Wollen Sie für eine bestimmte Vorgangsklasse immer die Erfassung separat erfassen, so können Sie dies in der Vorgangsklasse mit dem Pfleger [Formularzuordnung [FRZ]](../../formularzuordnung/eingabe_eingabefelder.md) einstellen.
 
-Nachhaltigkeit
+<p class="just-emphasize">Nachhaltigkeit</p>
 
 Für die [Nachhaltigkeit](../../nachhaltigkeit/index.md) steht hier jeweils eine Seite für die Abgangs- und Zugangsposition zur Verfügung. Eine genaue Beschreibung der Felder findet man auf der [Nachhaltigkeitsseite](../../nachhaltigkeit/index.md) der Artikelerfassung.

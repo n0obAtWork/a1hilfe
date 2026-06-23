@@ -20,6 +20,6 @@ Funktion/Report: [KU]
 
 [Weitere Informationen](http://www.amic.de/hilfe/_konstantenbearbeitun.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2312.22, 34573, 729392

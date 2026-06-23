@@ -20,6 +20,6 @@ Funktion/Report: F6 Ansehen
 
 [Weitere Informationen](http://www.amic.de/hilfe/vorgangsbearbeitungallgemein.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2401.1, 33584, 734403

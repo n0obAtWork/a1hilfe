@@ -4,11 +4,9 @@
 
 Die Umsatz Details-Anzeige kann:
 
-\- Sortieren
-
-\- Artikel gruppiert oder flach ohne jede Gruppierung anzeigen
-
-\- Menge und Umsatz gleichzeitig anzeigen.
+- Sortieren
+- Artikel gruppiert oder flach ohne jede Gruppierung anzeigen
+- Menge und Umsatz gleichzeitig anzeigen.
 
 Außerdem wird eine Summenzeile ausgewiesen.
 

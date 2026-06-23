@@ -59,7 +59,7 @@ Im obigen Bespiel wird also vor der GA eine VL gesendet. Man erkennt die Nicht-D
 
 An Y2 erkennt man das sich nach den Wäge-Systemen zu richten hat, und nicht nach irgendwelchen Jahr2000-Problematiken …
 
-Wandlung
+<p class="just-emphasize">Wandlung</p>
 
 Beeinflusst mögliche Transformationen der Anforderungszeichenketten.
 

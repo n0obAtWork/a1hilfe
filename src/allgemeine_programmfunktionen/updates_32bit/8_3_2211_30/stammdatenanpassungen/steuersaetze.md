@@ -20,6 +20,6 @@ Funktion/Report: Steuersätze F8
 
 [Weitere Informationen](http://www.amic.de/hilfe/stammdatensteuerstze.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2211.30, 33020, 715611

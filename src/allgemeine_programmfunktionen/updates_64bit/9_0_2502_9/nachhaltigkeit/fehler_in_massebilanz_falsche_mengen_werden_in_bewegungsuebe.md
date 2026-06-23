@@ -20,6 +20,6 @@ Funktion/Report: Massebilanz zuordnen, Massebilanz entfernen, STRG + R
 
 [Weitere Informationen](http://www.amic.de/hilfe/!_nachhaltigkeit_ausw_bewegungsueber.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2502.9, 38735, 751284

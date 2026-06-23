@@ -20,6 +20,6 @@ Funktion/Report: [GUB][EGB]
 
 [Weitere Informationen](http://www.amic.de/hilfe/!vorgangsklasseninaeins.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2502.5, 36648, 745347

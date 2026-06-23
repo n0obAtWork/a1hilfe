@@ -9,7 +9,7 @@
 | Event | Aufruf über einzurichtendes Datenbank-Event<br><br> |
 | Hauptmenü<br>Hauptmenü \> Systempflege \> Mandantenserver \> Mandantenserver | Start des Mandantenservers im aktuellen Aeins |
 
-Folgende Optionen können noch gesetzt werden, welche ein Einfluss auf die Steuerung des Mandenservers haben
+<p class="just-emphasize">Folgende Optionen können noch gesetzt werden, welche ein Einfluss auf die Steuerung des Mandenservers haben</p>
 
 | Attribut | Konfiguratuionsquelle | Bedeutung |
 | --- | --- | --- |

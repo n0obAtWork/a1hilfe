@@ -20,6 +20,6 @@ Funktion/Report: Erstellen von Stornobelegen
 
 [Weitere Informationen](http://www.amic.de/hilfe/stornoabrechnung.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2402.8, 35992, 740781

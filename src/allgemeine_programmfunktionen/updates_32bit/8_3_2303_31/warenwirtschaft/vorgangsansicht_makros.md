@@ -20,6 +20,6 @@ Funktion/Report: Ansehen
 
 [Weitere Informationen](http://www.amic.de/hilfe/_SPA862.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2303.31, 32859, 714214

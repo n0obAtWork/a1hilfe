@@ -20,6 +20,6 @@ Funktion/Report: F2
 
 [Weitere Informationen](http://www.amic.de/hilfe/!vorgehensweisebeidereinrichtun.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2309.1, 34048, 725440

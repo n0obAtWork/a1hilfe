@@ -6,7 +6,7 @@
 
 <p class="just-emphasize">eines Mehrmandantensystems im Bereich Saatgut</p>
 
-Voraussetzung:
+<p class="just-emphasize">Voraussetzung:</p>
 
 Ein bestehendes lauffähiges Mehrmandantensystem.
 
@@ -14,7 +14,7 @@ Informationen zur Einrichtung eines Mehrmandantensystems finden Sie gegebenenfal
 
 Wir weisen Sie hier nochmal darauf hin, dass nur im Hauptmandant eine Stammdatenpflege durchgeführt werden darf! Sämtliche Datenbestände der Untermandanten werden vom Hauptmandanten überschrieben und sind nicht wiederherstellbar! Um hier Probleme zu vermeiden sollten Sie in den Stammdatenpflegern der Untermandaten, die entsprechenden Funktionalitäten („Löschen“, „Ändern“ und „Neu“) deaktivieren.
 
-Vorgehensweise:
+<p class="just-emphasize">Vorgehensweise:</p>
 
 1. Erstellung von Sicherungen („Backup“) der bestehenden Datenbanken sowohl vom Hauptmandant als auch von den Untermandanten.
 
@@ -24,17 +24,12 @@ Vorgehensweise:
 
 4. **In den Untermandanten** sämtliche Datenbestände aus den Tabellen entfernen:
 
-\- SaatFruchtArt
-
-\- SaatFruchtSorte
-
-\- SaatFruchtSorteAddon
-
-\- SorteMaskeDaten
-
-\- SaatFrSortPosit
-
-\- SaatFrSortPositAddon
+- SaatFruchtArt
+- SaatFruchtSorte
+- SaatFruchtSorteAddon
+- SorteMaskeDaten
+- SaatFrSortPosit
+- SaatFrSortPositAddon
 
 Dies erfolgt vorzugsweise durch den Aufruf der SQL-Prozeduren
 

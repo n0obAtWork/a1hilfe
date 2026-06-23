@@ -20,6 +20,6 @@ Funktion/Report: Mengenzeiträume
 
 [Weitere Informationen](http://www.amic.de/hilfe/_zeitrumefestlegen.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2402.3, 35655, 737982

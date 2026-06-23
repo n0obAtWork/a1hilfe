@@ -20,6 +20,6 @@ Funktion/Report: Massebilanz ändern, Massebilanz THG Änderung, Massebilanz Kom
 
 [Weitere Informationen](http://www.amic.de/hilfe/nachhaltigkeit.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2303.31, 33489, 708147

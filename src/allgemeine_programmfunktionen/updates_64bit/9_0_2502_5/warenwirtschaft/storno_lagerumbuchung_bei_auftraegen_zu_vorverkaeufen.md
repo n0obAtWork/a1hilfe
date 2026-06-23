@@ -20,6 +20,6 @@ Funktion/Report: Storno Auftrag bei Vorverkauf
 
 [Weitere Informationen](http://www.amic.de/hilfe/auftrag.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2502.5, 36297, 743189

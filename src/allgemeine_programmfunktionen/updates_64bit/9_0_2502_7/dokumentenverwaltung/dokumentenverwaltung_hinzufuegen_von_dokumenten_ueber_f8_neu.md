@@ -20,6 +20,6 @@ Funktion/Report: Neu
 
 [Weitere Informationen](http://www.amic.de/hilfe/_archivstammdatenpfle.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2502.7, 38271, 750167

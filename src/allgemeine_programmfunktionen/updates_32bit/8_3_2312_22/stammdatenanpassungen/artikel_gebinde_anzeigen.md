@@ -20,6 +20,6 @@ Funktion/Report: [AR] -F6 Ansehen
 
 [Weitere Informationen](http://www.amic.de/hilfe/_artikelar.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2312.22, 34571, 729311

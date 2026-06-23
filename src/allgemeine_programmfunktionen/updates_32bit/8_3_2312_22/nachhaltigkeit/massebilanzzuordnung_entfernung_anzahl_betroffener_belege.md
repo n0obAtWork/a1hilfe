@@ -20,6 +20,6 @@ Funktion/Report: Massebilanz ändern.
 
 [Weitere Informationen](http://www.amic.de/hilfe/_nachhaltigkeit_ausw_bewegungsueber.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2312.22, 34541, 0

@@ -20,6 +20,6 @@ Funktion/Report: Freigeben/Versenden
 
 [Weitere Informationen](http://www.amic.de/hilfe/_mailversandfunktioneninmail.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2402.8, 36096, 741775

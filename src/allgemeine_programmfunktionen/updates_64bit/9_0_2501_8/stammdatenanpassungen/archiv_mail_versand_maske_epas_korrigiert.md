@@ -20,6 +20,6 @@ Funktion/Report: E-Mail Senden An
 
 [Weitere Informationen](http://www.amic.de/hilfe/_EPA_FA_MAIL)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2501.8, 36576, 730466

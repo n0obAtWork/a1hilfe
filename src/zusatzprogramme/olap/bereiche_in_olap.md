@@ -6,21 +6,21 @@ Nach dem Start des AddIns finden Sie alle Felder der Auswahlliste in einer Samml
 
 Es gibt 4 Bereiche an denen sich Ihr Feld befinden kann:
 
-Filterbereich
+<p class="just-emphasize">Filterbereich</p>
 
 Dieser Bereich gibt den Filter für die Anzeige an. Neben den in der Auswahlliste vordefinierten Filtern der Daten können hier zusätzliche Einschränkungen für die Anzeige vorgenommen werden.
 
-Spaltenbereich
+<p class="just-emphasize">Spaltenbereich</p>
 
 Dieser Bereich enthält alle Felder, die in den Spalten dargestellt werden.
 
 Hinweis: Sie sollten darauf achten hier Felder zu wählen, die nicht zu übermäßig vielen Spalten führen, da solche Ansichten gewöhnlich durch die horizontale Darstellung der Überschrift unleserlich werden.
 
-Zeilenbereich
+<p class="just-emphasize">Zeilenbereich</p>
 
 Im Zeilenbereich finden sich die Felder, die in den Zeilen dargestellt werden.
 
-Datenbereich / Summenbereich
+<p class="just-emphasize">Datenbereich / Summenbereich</p>
 
 Im Datenbereich finden Sie Felder, die die eigentlichen Daten enthalten, die angezeigt werden sollen. Dies können Zahlen als auch Texte sein.
 

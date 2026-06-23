@@ -20,6 +20,6 @@ Funktion/Report: Stornieren/Löschen, Erstellen von Stornobelegen
 
 [Weitere Informationen](http://www.amic.de/hilfe/_SPA_987.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2305.26, 33713, 720685

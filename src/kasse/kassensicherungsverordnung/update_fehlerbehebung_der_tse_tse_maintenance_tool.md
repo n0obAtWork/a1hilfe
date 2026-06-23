@@ -15,7 +15,7 @@
 
 1. Das Maintenance-Tool unter: [https://www.swissbit.com/tse/maintenanceTool/setup.exe](https://www.swissbit.com/tse/maintenanceTool/setup.exe) herunterladen.
 
-Tipp!
+<p class="just-emphasize">Tipp!</p>
 
 Im TSE-Maintenance-Tool gibt es unter der Funktion ***Help -> Documentation*** eine Anleitung zum Update der TSE.
 

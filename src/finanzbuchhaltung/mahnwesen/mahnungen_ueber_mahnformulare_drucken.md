@@ -113,7 +113,7 @@ Beispiel:
 
 Bitte zahlen Sie bis zum :Zahlfristdatum$ den angegebenen Betrag.
 
-- 304 Mahnposition
+<p class="just-emphasize">• 304 Mahnposition</p>
 
 | Bezeichnung | Typ | Nr. | Beschreibung |
 | --- | --- | --- | --- |
@@ -185,7 +185,7 @@ Bitte zahlen Sie bis zum :Zahlfristdatum$ den angegebenen Betrag.
 | BelegMahnSperre | Numerisch | 4 | Eventuell in der OP-Verwaltung gesetzte Mahnsperre |
 | OPMahnSperre | | | S.o. |
 
-- 307 MahnSummenZeile
+<p class="just-emphasize">• 307 MahnSummenZeile</p>
 
 | Bezeichnung | Typ | Nr. | Beschreibung |
 | --- | --- | --- | --- |
@@ -198,7 +198,7 @@ Bitte zahlen Sie bis zum :Zahlfristdatum$ den angegebenen Betrag.
 | FiBuVP_Betrag | Numerisch | 4 | Summe aller Beträge dieser Mahnstufe |
 | FiBuVPW_Betrag | Numerisch | 4 | Summe aller Beträge dieser Mahnstufe in Fremdwährung |
 
-- 309 MahnSummenFuß
+<p class="just-emphasize">• 309 MahnSummenFuß</p>
 
 | Bezeichnung | Typ | Nr. | Beschreibung |
 | --- | --- | --- | --- |
@@ -209,6 +209,6 @@ Bitte zahlen Sie bis zum :Zahlfristdatum$ den angegebenen Betrag.
 | FiBuVP_Betrag | Numerisch | 4 | Summe aller Beträge |
 | FiBuVPW_Betrag | Numerisch | 4 | Summe aller Beträge in Fremdwährung |
 
-- 310 Mahnung Betreffzeile
+<p class="just-emphasize">• 310 Mahnung Betreffzeile</p>
 
 Mit diesem Formularbereich kann für den Mailversand eine Betreffzeile definiert werden. Es stehen hier die Positionen zur Verfügung, die mit F3 ausgewählt werden können. Beim normalen Druck erscheint diese Zeile nicht.

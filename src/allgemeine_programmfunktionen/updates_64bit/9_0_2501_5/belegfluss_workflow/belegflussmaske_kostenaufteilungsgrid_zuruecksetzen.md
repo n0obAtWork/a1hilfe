@@ -20,6 +20,6 @@ Funktion/Report: Kostenaufteilungsgrid zurücksetzen
 
 [Weitere Informationen](http://www.amic.de/hilfe/!belegflussvariante1meinepostfc.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2501.5, 37068, 746963

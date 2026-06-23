@@ -44,7 +44,7 @@ Folgende Felder können in dem folgenden Eingabebildschirm erfasst werden
 | Externe Aw. Pos.<br><br> | Hier können für eigene Auswertungen Druckpositionen hinterlegt werden. A.eins verwendet diese Felder nicht. Es ist jedoch möglich, eigene F3-Auswahlen/Itemboxen zu hinterlegen. Dafür muss man die Einrichterparameter „Itembox für externe Auswertungsposition 1-3“ und (optional) „Bezeichnungsfeld für ext. Auswertungsposition 1-3“ hinterlegen. Beispielsweise könnte man als Itembox für ext.Auswertungsposition 1 „IB_LAGERSTAMM“ und (auch optional) „Label für externe Auswertungsposition 1-3“ hinterlegen. Um dann hinter der externen Auswertungsposition die Bezeichnung zu sehen, muss man das Bezeichnungsfeld aus der Itembox in „Bezeichnungsfeld für ext. Auswertungsposition 1“ angeben. Dies wäre dann in diesem Fall „Lagerbezeich“.<br> |
 | Bemerkungen<br><br> | Hier kann ein wahlfreier Text zu dem jeweiligen Kostenträger erfasst werden.<br> |
 
-Erfassung der Planzahlen
+<p class="just-emphasize">Erfassung der Planzahlen</p>
 
 Die Erfassung der Planzahlen für Kostenträger erreicht man über:
 

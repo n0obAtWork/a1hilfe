@@ -20,6 +20,6 @@ Funktion/Report: Beleg erneut versenden
 
 [Weitere Informationen](http://www.amic.de/hilfe/_vpstmailversandallgemein.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2210.20, 32865, 714727

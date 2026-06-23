@@ -14,17 +14,17 @@ Die Permanente Inventur kann auf zwei Arten durchgeführt werden.
 
 Die erfassten Differenzbelege werden automatisch angelegt.
 
-Besonderheiten:
+<p class="just-emphasize">Besonderheiten:</p>
 
 Bei der Permanenten Inventur ist darauf zu achten, dass Artikel immer Partie weise und oder Lagerplatz weise gezählt werden wenn diese vorhanden sind. Existieren Lagerplätze und oder Partien und der Artikel wird ohne Partien oder Lagerplätze gezählt, so wird der Artikelbestand erhöht, ohne dass eine richtige Zuordnung zur Partie oder zu dem Lagerplatz möglich ist.
 
-Beispiel:
+<p class="just-emphasize">Beispiel:</p>
 
 Der Artikel A befindet sich auf den Lagerplätzen LP1 und LP2. Jetzt wird der Artikel ohne Lagerplatz Zuweisung gezählt, dadurch wird die Menge des Artikels auf die erfasste Menge am Scanner korrigiert. Die korrigiert Menge wird nun dem Standardlagerplatz 0 zugewiesen und nicht dem zu zählenden Lagerplatz. Dadurch ändert sich die Artikelmenge auf dem Lagerplatz 0 um die eingegebene Menge.
 
 Der Artikel B hat eine Partie Zuordnung von Partie1 und Partie2. Jetzt wird der Artikel ohne Partie gezählt. In diesem Fall wird die Partiemenge nicht mit korrigiert. Sondern nur die Artikelmenge. Partien können nur einzeln erfasst werden. Es existiert keine Partieverteilung.
 
-Erfassung eines Artikels für die Permanente Inventur
+<p class="just-emphasize">Erfassung eines Artikels für die Permanente Inventur</p>
 
 1. Als erstes muss der zu zählende Artikel gescannt werden.
 
@@ -32,7 +32,7 @@ Erfassung eines Artikels für die Permanente Inventur
 
 3. Als letztes wird die Menge angegeben. Nach der Mengenangabe wird ein Positionswechsel vorgenommen. Wurde am Scanner kein Block für die Permanente Inventur gestartet, so wird nach der Erfassung ein Vorgang für die Permanente Inventur geschrieben.
 
-Anzeige auf dem Scanner:
+<p class="just-emphasize">Anzeige auf dem Scanner:</p>
 
 In der Eingabezeile des Scanners zeigt das Wasserzeichen an was als nächstes erfasst werden soll.
 
@@ -57,7 +57,7 @@ Wird ein Artikel mit dem Scanner erfasst so erscheint als erstes eine Übersicht
 
 Wurde auf dem Scanner ein Differenzbeleg der Permanenten Inventur gestartet, so wird nach der Mengeneingabe eine Übersichtstabelle über alle erfassten Artikel angezeigt.
 
-Zusätzliche Tastendrücke die in der Permanenten Inventur ausgewertet werden.
+<p class="just-emphasize">Zusätzliche Tastendrücke die in der Permanenten Inventur ausgewertet werden.</p>
 
 1. KeyUp
 

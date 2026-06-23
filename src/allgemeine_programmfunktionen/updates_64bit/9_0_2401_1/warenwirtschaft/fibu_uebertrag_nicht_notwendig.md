@@ -20,6 +20,6 @@ Funktion/Report: FiBu Übertrag
 
 [Weitere Informationen](http://www.amic.de/hilfe/fibubertrag.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2401.1, 34183, 726369

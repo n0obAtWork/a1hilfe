@@ -28,7 +28,7 @@ In den [Kasseneinstellungen](../kassen_einrichtung/kasseneinstellungen.md) in de
 
 Der Einrichterparameter Einzelbuchung pro Zahlungsmittel auf der Maske des Kassenabschlusses steuert, ob jedes Zahlungsmittel (z.B. jede EC-Karte) einzeln gebucht werden soll (Ja) oder nur die Summe der Zahlungsmittel einer Zahlungsart gebucht werden soll (Nein).
 
-Bemerkung:
+<p class="just-emphasize">Bemerkung:</p>
 
 Der [Steuerparameter 333 - aut.Buchung von Finanzvorg. in FiBu](../../firmenstamm/steuerparameter/kasse_barverkauf/aut_buchung_von_finanzvorg_in_fibu_spa_333.md) steuert, ob an der Kasse FiBu Buchungen erzeugt werden sollen.
 

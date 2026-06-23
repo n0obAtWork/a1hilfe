@@ -20,6 +20,6 @@ Funktion/Report: Gutschrift aus Rechnung
 
 [Weitere Informationen](http://www.amic.de/hilfe/gutschriftausrechnungsammelgua.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2402.8, 36082, 741662

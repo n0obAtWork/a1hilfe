@@ -20,6 +20,6 @@ Funktion/Report: Eingangsrechnung
 
 [Weitere Informationen](http://www.amic.de/hilfe/belegerfassung.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2502.5, 37672, 746311

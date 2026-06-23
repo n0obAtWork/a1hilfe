@@ -2,27 +2,27 @@
 
 <!-- source: https://amic.de/hilfe/askstatement.htm -->
 
-Syntax
+<p class="just-emphasize">Syntax</p>
 
 ASK Beschreibung>VARIABLE[,Beschreibung>Variable[,….]];
 
-Purpose
+<p class="just-emphasize">Purpose</p>
 
 Interaktive Abfrage von Parametern.
 
-Anwendung
+<p class="just-emphasize">Anwendung</p>
 
 Befehlszeile, Kommandodatei
 
-Berechtigung
+<p class="just-emphasize">Berechtigung</p>
 
 Alle Anwender
 
-Siehe auch
+<p class="just-emphasize">Siehe auch</p>
 
 ASKJN, Parameter, Variablen , Envirenmentvariable
 
-Beschreibung
+<p class="just-emphasize">Beschreibung</p>
 
 Mit dem ASK Statement können Variablen für die Benutzung innerhalb einer Kommandodatei abgefragt werden. Es sind maximal 10 Variablen erlaubt.
 
@@ -30,7 +30,7 @@ Ein zweites ASK Statement löscht alle bis zu diesem Punkt existierenden
 
 Variablen. Drück man den Abbruchbutton beim ASK-Statement innerhalb einer Kommandodatei, wird diese beendet.
 
-Beispiel
+<p class="just-emphasize">Beispiel</p>
 
 ASK Belegnr>BNR,Jahrnummer>JNR;
 

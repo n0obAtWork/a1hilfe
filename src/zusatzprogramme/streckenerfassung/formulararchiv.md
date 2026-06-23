@@ -6,8 +6,6 @@ Die Funktionalität „[Formulararchivgruppe](../../dokumentenverwaltung/formula
 
 Das findet zurzeit bei folgenden Funktionen statt:
 
-\- Druck von Reporten
-
-\- Druck von Vorgängen
-
-\- Import aus der Formulararchivanzeige (Strg + F12)
+- Druck von Reporten
+- Druck von Vorgängen
+- Import aus der Formulararchivanzeige (Strg + F12)

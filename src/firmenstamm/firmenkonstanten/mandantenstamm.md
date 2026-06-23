@@ -157,7 +157,7 @@ In der Registerkarte Verbotsliste werden wichtige Informationen zur Datenverbind
 
 Auf der Registerkarte „Internet“ werden Informationen hinterlegt, die für externe Systeme im Internet oder Intranet gebraucht werden.
 
-Proxyeinstellungen
+<p class="just-emphasize">Proxyeinstellungen</p>
 
 | Feld | Bedeutung |
 | --- | --- |
@@ -166,7 +166,7 @@ Proxyeinstellungen
 | User | Username für den Zugriff von A.eins aufs Internet via Proxy |
 | Passwort | Passwort für den Zugriff von A.eins aufs Internet via Proxy |
 
-Standard SMTP Informationen
+<p class="just-emphasize">Standard SMTP Informationen</p>
 
 | Feld | Bedeutung |
 | --- | --- |
@@ -178,13 +178,13 @@ Standard SMTP Informationen
 | Benutzer | Benutzername für den Zugriff auf den SMTP-Server (falls erforderlich) |
 | Passwort | Passwort für den Zugriff auf den SMTP-Server (falls erforderlich) |
 
-Signierung
+<p class="just-emphasize">Signierung</p>
 
 | Feld | Bedeutung |
 | --- | --- |
 | Signatur-Datei | Dateiname der Datei mit einem PK12-Schlüssel zur Signierung von PDF-Dateien. |
 
-Fax-Einstellungen
+<p class="just-emphasize">Fax-Einstellungen</p>
 
 | Feld | Bedeutung |
 | --- | --- |

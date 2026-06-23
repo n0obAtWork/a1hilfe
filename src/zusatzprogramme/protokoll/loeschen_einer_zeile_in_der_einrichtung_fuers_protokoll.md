@@ -10,9 +10,8 @@ Für eine erneute Protokollierung müsste alles neu eingetragen werden.
 
 Bestätigt man diese Abfrage mit Ja werden
 
-\- Alle Protokolltrigger (Insert, Update, Delete) der ausgewählten Tabelle gelöscht.
-
-\- Der Inhalt aus den Tabellen Protokoll_Einrichtung und Protokoll_Einrichtungstamm für die ausgewählte Tabelle gelöscht.
+- Alle Protokolltrigger (Insert, Update, Delete) der ausgewählten Tabelle gelöscht.
+- Der Inhalt aus den Tabellen Protokoll_Einrichtung und Protokoll_Einrichtungstamm für die ausgewählte Tabelle gelöscht.
 
 Für den gelöschten Eintrag findet keine Protokollierung mehr statt und es kann auch keine Überwachung über den Funktionsaufruf gestartet werden.
 

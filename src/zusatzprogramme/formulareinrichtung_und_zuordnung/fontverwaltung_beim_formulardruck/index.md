@@ -6,8 +6,8 @@ Bisher standen beim Formulardruck im Windows-Modus nur zwei Fonts zur Verfügung
 1\. Druckerstamm nicht auf Windowsdruck:  
  - es wird im ASCII Druckmodus gearbeitet  
 2\. Druckerstamm auf Windowsdruck gestellt:  
-\- Formularstamm hat Fonttabellennummer 0 -> alter Windowsdruck  
-\- Formularstamm hat Fonttabellennummer ungleich 0 -> neuer Windowsdruck.   
+- Formularstamm hat Fonttabellennummer 0 -> alter Windowsdruck  
+- Formularstamm hat Fonttabellennummer ungleich 0 -> neuer Windowsdruck.   
 Beim Druck mit einer Fonttabelle werden die im Druckerstamm hinterlegten Fonts NICHT ausgewertet; nur die Fontangaben aus der Fonttabelle sind maßgeblich!   
     
 

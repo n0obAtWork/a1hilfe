@@ -30,7 +30,7 @@ Aufträge entstehen durch Neuerfassung oder Umwandlung aus Angeboten. Aufträge 
 | ***Arbeitsregel ändern*** | manuelle Änderung von Weiterverarbeitungsparametern |
 | PDF-Signieren SH-F12 | Den ausgewählten Auftrag [elektronisch unterschreiben](../../../../dokumentenverwaltung/archiv_manager/signature_pad_benutzen/pdf_dokument_signieren.md) |
 
-Ladeschein zusammenstellen
+<p class="just-emphasize">Ladeschein zusammenstellen</p>
 
 Mit dieser Funktion können einzelne Position aus unterschiedliche Aufträge und Unterschiedlichen Kunden schnell und bequem in ein Ladeschein übernommen werden. Dazu werden die Positionen in der Auswahlliste markiert und die Funktion Ladeschein zusammenstellen aufgerufen.
 

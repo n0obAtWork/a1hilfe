@@ -8,31 +8,31 @@ Dann wird die Funktion ***Re./Lie. Aus Ladeschein*** aufgerufen.
 
 <p class="just-emphasize">Bedeutung der Felder auf der Maske Ladeschein zu Rechnung oder Lieferschein.</p>
 
-Informationsfeld
+<p class="just-emphasize">Informationsfeld</p>
 
 In diesem Feld werden Ausgaben angezeigt, die während der Konvertierung des Ladescheins zu einem Lieferschein oder einer Rechnung auftreten, wie z.B. „Es wurden n Aufträge zu den gewählten Ladescheinen gefunden“.
 
-Box Aufträge
+<p class="just-emphasize">Box Aufträge</p>
 
 In der Box Aufträge werden alle Aufträge Angezeigt, die zu den ausgewählten Ladescheinen gehören. In der linken Tabelle werden die Auftragskopfdaten angezeigt. In der rechten Tabelle werden die Positionen zu dem ausgewählten Auftrag angezeigt. Beim Einstieg in die Maske werden immer die Positionen des ersten Auftrages angezeigt. Durch klicken auf einen anderen Auftrag werden die Positionen des Auftrage aktualisiert.
 
 Wenn in dem Feld Auftrag eine 0 steht, so existiert zu diesem Ladeschein kein Auftrag.
 
-Box Ladescheine
+<p class="just-emphasize">Box Ladescheine</p>
 
 In der Box Ladescheine werden alle Ausgewählten Ladeschein samt aller Positionen angezeigt.
 
-Funktionen
+<p class="just-emphasize">Funktionen</p>
 
 Die Funktionen Ladeschein zu Lieferschein und Ladeschein zu Rechnung haben die gleiche Funktionalität, außer das in Abhängigkeit der Funktion eine Rechnung oder ein Lieferschien erstellt wird.
 
 Mit der Funktion Abbruch wird die Maske verlassen ohne eine Aktion durchzuführen.
 
-Ablauf
+<p class="just-emphasize">Ablauf</p>
 
 Sind an einem Ladeschein unterschiedliche Aufträge beteiligt, so wird zu jedem Auftrag ein Lieferschein erzeugt. Die Positionen werden von dem jeweiligen Auftrag per Teildisposition in den Lieferschein übertragen. Konnten einzelne Positionen des Auftrages nicht komplett geliefert werden, so wird die Menge im Auftrag um die gelieferte Menge reduziert.
 
-Besonderheiten
+<p class="just-emphasize">Besonderheiten</p>
 
 In der Anwendung [Vorgangsunterklasse](../../../formularzuordnung/index.md) **[FRZ]** für die Klasse 500 „Ladeschein“ auf der Registerkarte „[Sperren](../../../formularzuordnung/sperren.md)“ wird eingestellt, ob nach der Erzeugung des Lieferscheins oder der Rechnung der Ladeschein gesperrt oder Storniert werden soll.
 

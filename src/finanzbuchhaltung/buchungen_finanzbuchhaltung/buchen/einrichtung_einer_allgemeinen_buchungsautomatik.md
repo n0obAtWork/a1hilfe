@@ -24,9 +24,8 @@ Alle anderen Einstellungen bleiben unberührt. Nach dem Speichern wird die autom
 
 Die allgemeine Buchungsautomatik führt in dem angegebenen Intervall eine Buchung Vergleichbar mit den Grundeinstellungen des Pflegers für die [Buchung erfasster Belege](./index.md):
 
-\- Erfasser: Alle Vorgänge
-
-\- Herkunft: Alle Vorgänge
+- Erfasser: Alle Vorgänge
+- Herkunft: Alle Vorgänge
 
 Es werden jedoch sämtliche erfassten Belege des aktuellen Jahres und des vorangegangenen Jahres gebucht.
 

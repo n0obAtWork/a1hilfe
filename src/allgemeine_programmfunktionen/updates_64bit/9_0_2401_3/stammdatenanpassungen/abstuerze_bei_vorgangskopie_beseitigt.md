@@ -20,6 +20,6 @@ Funktion/Report: Kopieren
 
 [Weitere Informationen](http://www.amic.de/hilfe/umwandelnundkopieren.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2401.3, 35280, 735121

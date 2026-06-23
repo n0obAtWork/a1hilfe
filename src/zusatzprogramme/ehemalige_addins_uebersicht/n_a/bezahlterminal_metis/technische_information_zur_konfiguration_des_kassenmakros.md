@@ -12,7 +12,7 @@ Bitte kontaktieren Sie hierzu den Administrator des Netzwerkes bzw. weisen Sie i
 
 Im Fall von LAN wird ebenso ein Port angegeben. Dieser ist von Hersteller zu Hersteller unterschiedlich. Im Protokoll ist der Port 20007 vorgesehen, der Hersteller Thales z.B. verwendet nach eigenen Angaben jedoch 22000, Ingenico den Port 5577.
 
-Hinweis:
+<p class="just-emphasize">Hinweis:</p>
 
 Einige Terminals weisen der Erfahrung nach zuweilen Kommunikationsprobleme zu A.eins auf. Dadurch kann es vorkommen, dass A.eins auf Rückmeldungen vom Terminal erwartet, jedoch nicht bekommt. In diesem Fall würde A.eins dauerhaft warten. Um diesen Wartemodus abbrechen zu können, muss der Parameter „SHOWABORT“ auf TRUE gesetzt werden.
 

@@ -2,27 +2,27 @@
 
 <!-- source: https://amic.de/hilfe/dos2winstatement.htm -->
 
-Syntax
+<p class="just-emphasize">Syntax</p>
 
 DOS2WIN table-name [Dateiname der Umsetztabelle];
 
-Purpose
+<p class="just-emphasize">Purpose</p>
 
 Wandelt die Umlaute der DOS Codepage in Umlaute der Windos-Codepage um.
 
-Anwendung
+<p class="just-emphasize">Anwendung</p>
 
 Befehlszeile, Kommandodatei
 
-Berechtigung
+<p class="just-emphasize">Berechtigung</p>
 
 Alle Anwender
 
-Siehe auch
+<p class="just-emphasize">Siehe auch</p>
 
 [WIN2DOS](./win2dos.md)
 
-Beschreibung
+<p class="just-emphasize">Beschreibung</p>
 
 Bei Datenübernahmen aus ehemaligen DOS/ Prolog – Programmen tritt das Problem auf, dass die Deutschen Umlaute auf unterschiedlich dargestellt werden. Dieser Befehl schnappt sich eine Tabelle(table-name) und nimmt sich alle Textfelder vor um dort gegebenenfalls die Umlaute umzuwandeln. Es erfolgt nur ein Update, wenn auch Umlaute in den Datensätzen vorhanden sind. Wird keine Umsetztabelle angegeben, werden nur die gebräuchlichen Umlaute umgewandelt. Diese wären ÄÖÜßäöü. Weiterhin kann es auch Probleme mit Hochkomma in den Tabellen geben. Diese werden auch umgewandelt.
 
@@ -33,6 +33,6 @@ Bei Datenübernahmen aus ehemaligen DOS/ Prolog – Programmen tritt das Problem
 
 angeben, dass der n Buchstaben A in a umgewandelt werden soll.
 
-Beispiel
+<p class="just-emphasize">Beispiel</p>
 
 DOS2WIN ANSCHRIFTSTAMM c:\\AEINS\\BIN\\UMLAUT.TXT

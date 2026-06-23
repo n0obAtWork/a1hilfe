@@ -7,9 +7,8 @@
 
 Für die Erstellung einer Intrastat-Meldung müssen folgende Voraussetzungen erfüllt sein:
 
-\- Rechnung mit einem EU Kunden wurde erstellt **[REE]**
-
-\- Die Rechnung mit dem EU Kunden wurde in die FiBu übertragen **[REB]**
+- Rechnung mit einem EU Kunden wurde erstellt **[REE]**
+- Die Rechnung mit dem EU Kunden wurde in die FiBu übertragen **[REB]**
 
 </details>
 

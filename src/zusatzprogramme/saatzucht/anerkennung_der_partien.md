@@ -12,12 +12,9 @@ Das Anerkennungsverfahren bereitet die Datensätze so weit vor, dass eine Antrag
 
 Hierbei wird berücksichtig dass:
 
-\- Die angelieferte Menge zwar mengenseitig genau gemeldet wird, aber nicht schlagseitig.
-
-\- Die Anerkennungspartie eine andere Kategorie besitzen kann, als die ehemals im Vertrag festgelegte Partie
-
-\- Dass die Anerkennungspartie auch aus überjähriger Ware bestehen kann, also ein Schlag auch Jahresbezogen mehrfach vorkommen kann
-
-\- dass Einmischpartien, die bereits an, wie auch aberkannt worden sind, wieder mit ihrer Menge in diese Anerkennungspartie fließen kann.
+- Die angelieferte Menge zwar mengenseitig genau gemeldet wird, aber nicht schlagseitig.
+- Die Anerkennungspartie eine andere Kategorie besitzen kann, als die ehemals im Vertrag festgelegte Partie
+- Dass die Anerkennungspartie auch aus überjähriger Ware bestehen kann, also ein Schlag auch Jahresbezogen mehrfach vorkommen kann
+- dass Einmischpartien, die bereits an, wie auch aberkannt worden sind, wieder mit ihrer Menge in diese Anerkennungspartie fließen kann.
 
 Die Abarbeitung erfolgt mittels der entsprechenden Maske.

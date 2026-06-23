@@ -40,7 +40,7 @@ oder Direktsprung **[SAATE]**
 | AMIC-Etikettenid | Ident des [Etiketts](../amic_etikettendruck/index.md#Amic_Etikettendruck) |
 | AMIC-Etikettenbezeichnung | Bezeichnung des [Etiketts](../amic_etikettendruck/index.md#Amic_Etikettendruck) |
 
-Folgende Funktionen stehen in der Auswahlliste zur Verfügung
+<p class="just-emphasize">Folgende Funktionen stehen in der Auswahlliste zur Verfügung</p>
 
 | Funktion | Taste | Bedeutung |
 | --- | --- | --- |
@@ -48,7 +48,7 @@ Folgende Funktionen stehen in der Auswahlliste zur Verfügung
 | Ansehen | F6 | Ruft die Maske Etikettendruck im Ansehen Modus auf.<br> |
 | Wiederhohldruck | STRG+F9 | Mit dieser Funktion können die Etiketten der ausgewählten Datensätze erneut ausgedruckt werden. Es können nur Etiketten mit einer Zuweisung zu einem Probensatz ausgedruckt werden.<br> |
 
-Maske Etikettendruck
+<p class="just-emphasize">Maske Etikettendruck</p>
 
 Mit der Funktion Ändern F5 wird der Pfleger Etikettendruck aufgerufen. Auf diesem Pfleger ist es möglich die Textfelder 1-3 zu befüllen.
 
@@ -69,7 +69,7 @@ Mit der Funktion Ändern F5 wird der Pfleger Etikettendruck aufgerufen. Auf dies
 | Text 3 | Frei zu vergebender Text von der Länge 40 |
 | Abweichender Drucker | Hier besteht die Möglichkeit, einen anderen Drucker aus dem [Profil](../amic_etikettendruck/definition_in_a_eins.md#Druckerprofile) des [Etikettes](../amic_etikettendruck/index.md#Amic_Etikettendruck) auszuwählen. Dieses Feld wird nicht gespeichert. |
 
-Funktionen
+<p class="just-emphasize">Funktionen</p>
 
 | Funktion | Taste | Bedeutung |
 | --- | --- | --- |

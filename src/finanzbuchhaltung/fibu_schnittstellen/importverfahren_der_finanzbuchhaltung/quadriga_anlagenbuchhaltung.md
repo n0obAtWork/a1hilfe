@@ -8,7 +8,7 @@ Es existiert ein Hilfsprogramm, das man als private Funktion einbinden kann. Die
 
 **Tipp***: Man kann sich eine private Funktion einrichten, die als Controlstring „^jpl quadriga nummer c::\\verzeichnis“ enthält. Dabei ist zu beachten, dass der Doppeltpunkt beim Verzeichnis zweimal angegeben werden muss und der Backslash (‚\\’) nur einmal. Damit entfällt die Einrichtung des Hilfsprogramms.*
 
-Stammdaten
+<p class="just-emphasize">Stammdaten</p>
 
 Die von Quadriga übergebenen Sachkonten müssen in A.eins eingerichtet sein
 
@@ -18,7 +18,7 @@ Im Mandantenstamm muss das Umbuchungskonto eingerichtet sein.
 
 Die in der Quadriga-Software vergebene Inventarnummer darf nur numerisch sein. Diese Nummer kann auch alphanumerisch sein.
 
-Vorgehensweise
+<p class="just-emphasize">Vorgehensweise</p>
 
 Die Daten der Anlagenbuchhaltung werden über den Menüpunkt „LISTEN“ / „Buchungen“ / „Finanzbuchhaltung“ exportiert, indem man dort als Ausgabemedium „Datei“ wählt. Das Ausgabeformat muss dBase sein.
 

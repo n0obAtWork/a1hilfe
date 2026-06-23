@@ -29,11 +29,9 @@ Eine Umstellung von Feld 1 auf Feld 2 muss auch in der Datenbank über SQL nachg
 
 Im [Steuerparameter 1036](../../../firmenstamm/steuerparameter/optionen_global/allgemeiner_steuerparameter_fuer_die_reklamation_spa_1036.md) werden die Optionen der Reklamation fest gelegt. Hier wird der Nummernkreis für die Reklamation festgelegt. Auch die Reporte des Reklamationsmodul können hier angepasst werden, indem man eigene Reporte in die Anwendungsreporte 1-5 einträgt. Für die Erstellung der Vorgänge können hier ebenfalls Einstellungen getroffen werden:
 
-\- Priorität 1 - Makro: Für die Nutzung eines Makros muss ein Makro erstellt werden, welches den kompletten Erstellungsprozess eines Vorgangs abbildet und am Ende die V_id (Vorgangs ID) in den Reklamationsstamm einträgt.
-
-\- Priorität 2 - SQL-Prozedur: Wenn kein Makro eingerichtet ist, kann eine SQL-Prozedur, Sachverhalte vor der Erstellung eines Vorgangs prüfen und ggf. in den Erstellungsprozess eingreifen.
-
-\- Priorität 3 - Vorgangs(unter)klassen: Nach der SQL-Prozedur wird der Vorgang, je nach Einstellung der Vorgangs(unter)klasse, vom Standard erstellt.
+- Priorität 1 - Makro: Für die Nutzung eines Makros muss ein Makro erstellt werden, welches den kompletten Erstellungsprozess eines Vorgangs abbildet und am Ende die V_id (Vorgangs ID) in den Reklamationsstamm einträgt.
+- Priorität 2 - SQL-Prozedur: Wenn kein Makro eingerichtet ist, kann eine SQL-Prozedur, Sachverhalte vor der Erstellung eines Vorgangs prüfen und ggf. in den Erstellungsprozess eingreifen.
+- Priorität 3 - Vorgangs(unter)klassen: Nach der SQL-Prozedur wird der Vorgang, je nach Einstellung der Vorgangs(unter)klasse, vom Standard erstellt.
 
 Für dieses Beispiel wird die Standardeinstellungen des Reports beibehalten. Als Nummernkreis wird der Standardnummernkreis der Reklamation verwendet:
 

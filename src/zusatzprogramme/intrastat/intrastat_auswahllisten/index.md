@@ -4,19 +4,13 @@
 
 Für das Modul Intrastat existieren mehrere Varianten. Generell werden alle Warenbewegungen folgender Vorgänge, zwischen den EU-Ländern, hier aufgelistet:
 
-\- Rechnung u. Storno
-
-\- Gutschrift und Storno
-
-\- Eingangsrechnung u. Storno
-
-\- Eingangsgutschrift und Storno
-
-\- Lagerumbuchung
-
-\- Artikelumbuchung
-
-\- Produktion Stückliste
+- Rechnung u. Storno
+- Gutschrift und Storno
+- Eingangsrechnung u. Storno
+- Eingangsgutschrift und Storno
+- Lagerumbuchung
+- Artikelumbuchung
+- Produktion Stückliste
 
 <p class="siehe-auch">Siehe auch:</p>
 

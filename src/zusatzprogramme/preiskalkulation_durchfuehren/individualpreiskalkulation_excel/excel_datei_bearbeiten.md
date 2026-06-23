@@ -21,7 +21,7 @@ Diese Felder können editiert werden:
 | Preis bis | Definiert das Ende des Gültigkeitszeitraums für den Individualpreis. Dieses gilt für alle Mengen des Preises. Es kann hier oder als Teil der Vorbelegung ([Exportprofil einrichten](./exportprofil_einrichten.md)) gepflegt werden.<br> |
 | Löschen | Ein Individualpreis kann gelöscht werden. Hierfür muss dieses Feld auf „Ja“ gesetzt werden.<br>**Wichtig**: wenn die Menge 0 gelöscht wird, werden auch alle anderen Mengen im selben Gültigkeitszeitraum gelöscht.<br> |
 
-Hinweis!
+<p class="just-emphasize">Hinweis!</p>
 
 Das Feld **Preis** wird in der Auswahlliste sowie beim Export in die Excel-Datei per Standard auf 0 gesetzt. Dies zeigt lediglich, dass das Feld gepflegt werden kann. Beim Import der Individualpreise werden die Zeilen, die den Preis 0 haben, einfach ignoriert.
 

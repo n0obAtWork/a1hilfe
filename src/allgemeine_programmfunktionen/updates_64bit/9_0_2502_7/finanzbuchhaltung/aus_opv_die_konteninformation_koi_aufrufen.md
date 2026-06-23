@@ -20,6 +20,6 @@ Funktion/Report: Konteninformation
 
 [Weitere Informationen](http://www.amic.de/hilfe/!funktioneninderopverwaltung.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2502.7, 38462, 751075

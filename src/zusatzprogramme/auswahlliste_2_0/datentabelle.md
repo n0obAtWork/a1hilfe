@@ -6,7 +6,7 @@
 
 Die Datentabelle enthält zusätzliche Funktionen:
 
-Gruppieren:
+<p class="just-emphasize">Gruppieren:</p>
 
 Um die Daten eben schnell mal zu gruppieren, kann man in die Titelzeile klicken und die so ausgewählte Spalte in den Bereich ziehen, der mit „*Zur Gruppierung Spalte hier ablegen“* gekennzeichnet ist. Dann ändert sich das Erscheinungsbild wie folgt:
 
@@ -18,11 +18,11 @@ Um die Gruppierung wieder zu entfernen, zieht man die Spalte wieder zurück in d
 
 **Hinweis:** *Wird die Funktion „Gruppieren-Bereich“ weggeschützt, so wird der Bereich „Zur Gruppierung Spalte hier ablegen“ für diese Bedienerklasse nicht mehr angezeigt.*
 
-Spalten fixieren:
+<p class="just-emphasize">Spalten fixieren:</p>
 
 Mit dem Schlüsselwort FIXCOL können bereits die Anzahl der Spalten im SQL-Text festgelegt werden, die beim horizontalen Scrollen nicht bewegt werden, also immer Links in der Datentabelle stehen bleiben. Mit dem kleinen Pin in der Titelzeile lassen sich Spalte fixieren. Diese Einstellung wird für jeden Anwender gespeichert und beim erneuten Aufruf der Variante wieder verwendet.
 
-Filtern:
+<p class="just-emphasize">Filtern:</p>
 
 Die Filterzeile direkt unter der Überschrift dient dazu, schnell bestimmte Datensätze zu finden. Es wird bei dieser Methode nicht erneut auf die Datenbank zugegriffen, sondern nur in den Daten der Datentabelle gesucht. Auch werden diese Einstellungen nicht gespeichert.
 
@@ -38,7 +38,7 @@ Das Symbol links unter der Überschrift bestimmt, wie gesucht werden kann, wobei
 
 **Hinweis:** *Wird dir Funktion „Filter“ weggeschützt, so wird die Filterzeile für diese Bedienerklasse nicht mehr angezeigt.*
 
-Warnungen:
+<p class="just-emphasize">Warnungen:</p>
 
 Es besteht die Möglichkeit mithilfe von einer privaten Datenbankfunktion Icons im Hintergrund der Liste zu aktivieren, um zu signalisieren, dass irgendetwas nicht in Ordnung ist. Dies kann sein, dass eine Datenübertragung nicht funktioniert hat, oder bereits irgendwelche Fristen abgelaufen sind. Diese Datenbankfunktion muss eine Zahl zwischen 0 und 3 zurückliefern, dabei bedeutet 0, dass kein Icon angezeigt wird.
 
@@ -62,16 +62,16 @@ else 0 endif
 
 [Hier](../a_eins_hinweis/warningfunction.md) findet sich beispielhaft eine mögliche Einrichtung.
 
-Testmandant
+<p class="just-emphasize">Testmandant</p>
 
 Arbeitet man auf einem Testmandanten wird als Hintergrundbild immer dann der Schriftzug „Testmandant“ eingeblendet, wenn keine WARNINGFUNCTION eingerichtet ist oder diese den Wert 0 zurückliefert.  
    
 ![](../../ImagesExt/image8_1283.png)
 
-Mandantengrafik
+<p class="just-emphasize">Mandantengrafik</p>
 
 Handelt es sich nicht um einen Testmandanten und wurde keine Warnungsgrafik angezeigt, bleibt der Hintergrund normalerweise leer. Man kann aber für jeden Mandanten eine eigene Hintergrundgrafik hinterlegen. Diese Grafik muss den Namen Mandant.png haben und in dem Verzeichnis „.\\bin\\styles\\**MANDANTENNAME“** liegen.
 
-Kopieren in die Zwischenablage:
+<p class="just-emphasize">Kopieren in die Zwischenablage:</p>
 
 Oft ist es so, dass man einen Wert aus der Datentabelle einfach schnell mal für eine andere Anwendung benötigt. Um einen Wert aus einer Zelle in die Zwischenablage zu bekommen, muss man mit der Maus über der Zelle stehen und kann dann mit der Tastenkombination **Strg+C** den Inhalt kopieren.

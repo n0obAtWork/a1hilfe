@@ -22,7 +22,7 @@ Um die neuen Individualpreise in A.eins zu importieren, müssen folgende Schritt
 
 7. Als Letztes sollten die neuen Preise einmal überprüft werden. Dafür mit **Strg+R** die Auswahlliste aktualisieren und kontrollieren, ob die neuen Individualpreise korrekt importiert wurden.
 
-Hinweis!
+<p class="just-emphasize">Hinweis!</p>
 
 Um den neuen Wert für **Preis** zu überprüfen, ist das Feld **Preis alt** zu beachten. Dort steht der aktuelle Preis aus der Datenbank. Wenn der Import erfolgreich war, steht hier also der importierte Preis.
 

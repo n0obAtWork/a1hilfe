@@ -27,11 +27,9 @@ Mit Hilfe der Funktion ***Senden festlegen…*** können Sie einen Assistenten a
 
 Bei der Zusammenstellung der E-Mail-Adressen werden die folgenden Punkte herangezogen:
 
-\- Zugehöriger (Ober-/Rechnungs-)Kunden mit all seinen Anschriften
-
-\- Im EPA individuell eingerichtete Spezialadressen
-
-\- Anpassen kann man die Zusammenstellung der Anschriften in der Prozedur *„FA_mail_senden_an_Adressen“*
+- Zugehöriger (Ober-/Rechnungs-)Kunden mit all seinen Anschriften
+- Im EPA individuell eingerichtete Spezialadressen
+- Anpassen kann man die Zusammenstellung der Anschriften in der Prozedur *„FA_mail_senden_an_Adressen“*
 
 Über eine private Prozedur kann die Versorgung der angezeigten E-Mail-Adressen privatisiert werden (Einrichterparameter).
 

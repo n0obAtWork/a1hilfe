@@ -20,6 +20,6 @@ Funktion/Report: Wiegung abschließen
 
 [Weitere Informationen](http://www.amic.de/hilfe/_waage_wiegungabschliessen.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2502.9, 38897, 751599

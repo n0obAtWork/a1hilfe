@@ -139,66 +139,7 @@ NotImplementedException();
 | DoBeep | Falls der Scanner einen eigenen Beeper hat und nicht auf den beep aus dem Compact Framework anspricht kann dieser hier eingebunden werden. Der Methode wird Hertz Frequenz und die Länge in ms übergeben |
 | ScannerEnabled | Mit der Methode wird abgefragt ob das Scannermodul aktiv oder nicht aktiv ist.<br>Des Weiteren muss die Funktionalität Implementiert sein, dass das Scannermodul von der Software aus zu deaktiviert oder aktiviert werden kann. |
 | isVerbunden | Gibt einen boolschen Wert zurück.<br>1. True wenn WLAN verbunden ist<br>2. False wenn WLAN nicht verbunden ist. |
-| Das Event OnRead | 
-```csharp
-Dieses Event wird ausgelöst, wenn ein Barcode
-      erfolgreich gelesen worden ist.
-public event EventHandler
-      OnReadEvent;
-event EventHandler
-      IScannerHardware.OnRead
-
-      {
-      add
-      {
-
-      if
-      (OnReadEvent != null)
-
-      {
-
-      lock
-      (OnReadEvent)
-
-      {
-
-      OnReadEvent += value;
-
-      }
-
-      }
-
-      else
-
-      {
-
-      OnReadEvent = new EventHandler(value);
-
-      }
-      }
-      remove
-      {
-
-      if
-      (OnReadEvent != null)
-
-      {
-
-      lock
-      (OnReadEvent)
-
-      {
-
-      OnReadEvent -= value;
-
-      }
-
-      }
-      }
-    }
-```
-
- |
+| Das Event OnRead | <pre><code>Dieses Event wird ausgelöst, wenn ein Barcode&#10; erfolgreich gelesen worden ist.&#10;public event EventHandler&#10; OnReadEvent;&#10;event EventHandler&#10; IScannerHardware.OnRead&#10; &#10; {&#10; add&#10; {&#10; &#10; if&#10; (OnReadEvent != null)&#10; &#10; {&#10; &#10; lock&#10; (OnReadEvent)&#10; &#10; {&#10; &#10; OnReadEvent += value;&#10; &#10; }&#10; &#10; }&#10; &#10; else&#10; &#10; {&#10; &#10; OnReadEvent = new EventHandler(value);&#10; &#10; }&#10; }&#10; remove&#10; {&#10; &#10; if&#10; (OnReadEvent != null)&#10; &#10; {&#10; &#10; lock&#10; (OnReadEvent)&#10; &#10; {&#10; &#10; OnReadEvent -= value;&#10; &#10; }&#10; &#10; }&#10; }&#10; }</code></pre> |
 | | |
 
 **Diese Methoden müssen jetzt mit Leben gefüllt werden:**

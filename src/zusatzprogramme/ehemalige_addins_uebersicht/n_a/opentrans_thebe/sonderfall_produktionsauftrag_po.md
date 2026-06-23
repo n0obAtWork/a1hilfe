@@ -8,11 +8,11 @@ Da A.eins diesen Prozess jedoch abbilden sollte, ist ein Protokoll zum Austausch
 
 ###### Einrichtung Produktionsauftrag
 
-SPA 850 und die Formularzuordnung
+<p class="just-emphasize">SPA 850 und die Formularzuordnung</p>
 
 Da mit Steuerparameter [Steuerparameter 850 – Belegänderungssperre durch Beteiligung von openTRANS](../../../../firmenstamm/steuerparameter/optionen_warenwirtschaft/belegaenderungssperre_durch_beteiligung_von_opentrans_spa_85.md) die Einstellungsmöglichkeit besteht, Belege gegen Bearbeitung zu sperren, für die bereits ein openTRANS erstellt worden ist, kann in der [Formularzuordnung auf der Registerkarte SPA](../../../../vorgangsabwicklung/formularzuordnung/spa.md) diese Sperre abgeschaltet werden. Dies wird für die Vorgangsklasse 5220 (Produktion) empfohlen.
 
-Prozeduren
+<p class="just-emphasize">Prozeduren</p>
 
 Auf der [Registerkarte openTRANS (OT) in der Formularzuordnung](../../../../vorgangsabwicklung/formularzuordnung/ot_opentrans.md) sind eine Reihe spezifischer Einstellungen für die Vorgangsklasse 5220 (Produktion) einzurichten.
 
@@ -36,7 +36,7 @@ Einige der Informationen lassen sich in das PO-Format einfügen, andere werden i
 | Produktionsart | UDX_OPERATION |
 | | |
 
-Beispiel:
+<p class="just-emphasize">Beispiel:</p>
 
 Eine vom Auftraggeber an den Auftragnehmer eingehende Nachricht im PO-Format wird mit dem Status „PROD_NEW“ gesendet.
 

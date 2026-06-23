@@ -20,6 +20,6 @@ Funktion/Report: USt-IdNr alle prüfen
 
 [Weitere Informationen](http://www.amic.de/hilfe/_umsatzsteueridprfung.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2501.5, 36384, 744146

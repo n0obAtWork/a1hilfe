@@ -14,11 +14,11 @@ Im Beispiel der Kundenauswahl-Listen erfolgt die Datenermittlung eben über dies
 
 ![](../../../ImagesExt/image8_931.png)
 
-Nr
+<p class="just-emphasize">Nr</p>
 
 Es werden also möglicherweise mehrere Rahmendaten ermittelt. Per „Nr“ lässt sich die Reihenfolge der Ermittlung steuern.
 
-Var
+<p class="just-emphasize">Var</p>
 
 Hier gibt man das zu ermittelnde „Kerndatum“ an.
 
@@ -34,7 +34,7 @@ Jahrbeginn, Jahrende und Belegklasse für themenbezogene Eingrenzungen.
 
 Bei Bedarf können weitere zur Verfügung gestellt werden.
 
-Wert
+<p class="just-emphasize">Wert</p>
 
 Das Feld „Herkunft“ bestimmt, wie der Eintrag in Wert zu behandeln ist.
 
@@ -51,7 +51,7 @@ RETURN S.KundId, S.KundNummer
 IDENT S.KundId
 ```
 
-Herkunft
+<p class="just-emphasize">Herkunft</p>
 
 Hiermit sagt man dem Programm, woher und wie die Daten ermittelt werden sollen.
 
@@ -66,9 +66,9 @@ Hiermit sagt man dem Programm, woher und wie die Daten ermittelt werden sollen.
 | AL_Ident | Wieder aus Auswahlliste, diesmal die IDENT-Klausel |
 | SV_MAIN | Programmtechnisch, der SVWARE-Kontext |
 | CE_MAIN | Programmtechnisch, der Rohware-Kontext |
-| OWNER | Unterstützt die Vorgabe eines Owner um dann aus diesen die verabredeten JVars zu ziehen.<br>Ein Beispiel für einen Controlstring ist<br> |
+| OWNER | Unterstützt die Vorgabe eines Owner um dann aus diesen die verabredeten JVars zu ziehen.<br>Ein Beispiel für einen Controlstring ist<br><code>^jpl fa_view Profilname 0 47321</code><br> |
 
-Bereich
+<p class="just-emphasize">Bereich</p>
 
 Ob das ermittelte Datum „Bereichswirksam“ ist.
 

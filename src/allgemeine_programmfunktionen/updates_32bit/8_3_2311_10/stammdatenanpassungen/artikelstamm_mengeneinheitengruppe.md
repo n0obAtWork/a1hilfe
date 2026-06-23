@@ -20,6 +20,6 @@ Funktion/Report: F5 Ändern
 
 [Weitere Informationen](http://www.amic.de/hilfe/_artikelstammundartik.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2311.10, 34447, 728095

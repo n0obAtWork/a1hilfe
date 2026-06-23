@@ -14,7 +14,7 @@ Für die Nutzung der POS-Kasse gilt folgende Konvention:
 
 Auf dem ersten dort hinterlegten Formular wird parallel zur Artikelerfassung gedruckt, also sollte hier als erstes ein 40-Zeichen Formular hinterlegt sein, der die Bonrolle als Drucker auswählt; ein Mitdruck auf einem Journal ist durch die Steuersequenz 1B 7A 31 am Druck Anfang des zugeordneten Druckers in den Druckertypen gewährleistet (dieser Eintrag müsste bei Nutzung des entsprechenden Druckers für die Tresenkasse schon hinterlegt sein).
 
-Achtung:
+<p class="just-emphasize">Achtung:</p>
 
 Bei anderen Druckern können diese Werte abweichen.
 

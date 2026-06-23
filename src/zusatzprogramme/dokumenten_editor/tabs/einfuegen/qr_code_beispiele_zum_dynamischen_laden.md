@@ -13,7 +13,7 @@ Aktiviert wird diese Mechanik durch eintragen des Namens der Strichcode-Datenban
 
 Zu beachten ist die Konvention das eine solche Routine den Prefix „p_“ hat, also zum Beispiel: p_Barcode
 
-Beispiel für eine solche Strichcode-Datenbank-Routine:
+<p class="just-emphasize">Beispiel für eine solche Strichcode-Datenbank-Routine:</p>
 
 ```sql
 ---<summary>Ermittelt aus

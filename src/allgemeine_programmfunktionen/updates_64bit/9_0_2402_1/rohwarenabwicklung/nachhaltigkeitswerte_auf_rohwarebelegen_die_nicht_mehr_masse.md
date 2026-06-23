@@ -20,6 +20,6 @@ Funktion/Report: Abr. Stornobeleg, F5
 
 [Weitere Informationen](http://www.amic.de/hilfe/rohwarebelegekorrigieren.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2402.1, 35315, 730993

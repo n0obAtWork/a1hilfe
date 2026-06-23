@@ -8,17 +8,12 @@ Die für die Vorschau vorgesehenen Elemente sind über [Mimetypen in A.eins](../
 
 Zurzeit ist es möglich
 
-\- PDF-Dokumente,
-
-\- A.eins-ASCII-Drucke
-
-\- Bildelemente
-
-\- Word- und Excel-Dokumente (außer \*.doc)
-
-\- Html-Dokumente
-
-\- sowie Markdown-Dokumente
+- PDF-Dokumente,
+- A.eins-ASCII-Drucke
+- Bildelemente
+- Word- und Excel-Dokumente (außer \*.doc)
+- Html-Dokumente
+- sowie Markdown-Dokumente
 
 des A.eins-Archivs zu visualisieren.
 

@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/importvorgposiaddon.htm -->
 
-Addon Daten
+<p class="just-emphasize">Addon Daten</p>
 
 In dieser Relation werden Daten gespeichert, die später in der Tabelle WarenbewegungAddon zur Position hinterlegt werden sollen.
 

@@ -63,7 +63,7 @@ Diese Konten werden für Buchungen von Werten aus der [permanenten Inventur](../
 | Abgangskonto | Konto für die Buchung des IST-Bestandes |
 | Inventurkonto | Konto für die Buchung der Bestandsdifferenz |
 
-Einrichterparameter
+<p class="just-emphasize">Einrichterparameter</p>
 
 | Einrichterparameter | Beschreibung | Vorbelegung |
 | --- | --- | --- |

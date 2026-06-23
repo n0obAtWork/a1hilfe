@@ -20,6 +20,6 @@ Funktion/Report: Archiv anzeigen
 
 [Weitere Informationen](http://www.amic.de/hilfe/_zertifikate.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2501.6, 37122, 743207

@@ -20,6 +20,6 @@ Funktion/Report: F5 Ändern
 
 [Weitere Informationen](http://www.amic.de/hilfe/_formularzuordnung_tabeingabefelder.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2401.1, 32321, 710307

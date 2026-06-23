@@ -10,6 +10,6 @@ Mit **STRG + A** in der Datentabelle der Mehrfachteildisposition werden die Rest
 
 Mit **F9** werden die Daten übernommen, sprich die Mengen aus dem jeweiligen Vorgang werden teildisponiert.
 
-Hinweis:
+<p class="just-emphasize">Hinweis:</p>
 
 Eine Mehrfachteildisposition von Angeboten mit Sortimentslager ist nicht möglich. Angebote mit Sortimentslager werden in der Mehrfachteildisposition nicht angezeigt. Alternativ kann eine Standardteildisposition durchgeführt werden (siehe [Standard-Teildisposition](./index.md#StandardTeildisposition)).

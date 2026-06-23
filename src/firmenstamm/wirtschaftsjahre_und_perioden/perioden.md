@@ -54,21 +54,14 @@ Oder Direktsprung: **[PERAP]**
 
 In dem Perioden Abstimmprotokoll sieht man alle relevanten Einträge, welche für den Periodenabschluss der Ware notwendig sind:
 
-\- Belege, welche nicht an die Fibu übertragen wurde
-
-\- Abweichungen von dem Wirtschaftsjahr zum Lieferdatum
-
-\- Sonderperioden für die Ware, welche falsch eingerichtet wurden
-
-\- Perioden mit Datumslücken/Überlappungen
-
-\- nicht abgeschlossene Perioden aus Vorjahren
-
-\- Statusfehler in der Inventurperiode
-
-\- Belege, welche den Inventurabgrenzung verletzen
-
-\- nicht erhobene Artikel
+- Belege, welche nicht an die Fibu übertragen wurde
+- Abweichungen von dem Wirtschaftsjahr zum Lieferdatum
+- Sonderperioden für die Ware, welche falsch eingerichtet wurden
+- Perioden mit Datumslücken/Überlappungen
+- nicht abgeschlossene Perioden aus Vorjahren
+- Statusfehler in der Inventurperiode
+- Belege, welche den Inventurabgrenzung verletzen
+- nicht erhobene Artikel
 
 </details>
 

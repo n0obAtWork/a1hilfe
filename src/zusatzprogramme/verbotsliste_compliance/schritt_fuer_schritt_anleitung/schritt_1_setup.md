@@ -26,19 +26,17 @@ Der Steuerparameter 1063 für das Compliancemodul beinhalten Prozeduren, welche 
 
 In dem Steuerparameter sind auch Werte, welche unkomplex und einfach zu ändern sind:
 
-\- **GoodGuys berücksichtigen**: (0: nein, 1: ja)
-
-\- **Ansprechschwelle** (ist ein Prozentualer Wert, welcher bei Ähnlichkeiten von Namen/Adressen von AEB berechnet wird)
-
-\- **Adressen des Vorgangs:**
+- **GoodGuys berücksichtigen**: (0: nein, 1: ja)
+- **Ansprechschwelle** (ist ein Prozentualer Wert, welcher bei Ähnlichkeiten von Namen/Adressen von AEB berechnet wird)
+- **Adressen des Vorgangs:**
 
 Eine Datenbankprozedur, die als Eingabeparameter eine V_ID bekommt und alle Anschriften des Vorgangs ermittelt. Als Standardbeispiel wird hier die Prozedur „AMIC_DEMO_COMPLIANCE_ADRESSEN_VORGANG“ eingetragen.
 
-\- **Adressen des Kunden:**
+- **Adressen des Kunden:**
 
 Eine Datenbankprozedur, die als Eingabeparameter eine KundID bekommt und alle Anschriften des Kunden ermittelt. Als Standardbeispiel wird hier die Prozedur „AMIC_DEMO_COMPLIANCE_ADRESSEN_KUNDEN“ eingetragen.
 
-\- **Adressen für zyklische Anschriftenprüfung**
+- **Adressen für zyklische Anschriftenprüfung**
 
 Eine Datenbankprozedur, die Anschriften für eine regelmäßige Anschriftenprüfung ermittelt.
 

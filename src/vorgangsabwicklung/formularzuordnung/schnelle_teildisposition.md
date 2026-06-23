@@ -4,7 +4,7 @@
 
 Unter dem Register „Schnelle Teildisposition“ können Einstellungen für die „Schnelle Teildisposition“ bei der Artikelerfassung vorgenommen werden. Die Einstellungen teilen sich in die Bereiche „Unterklasse als Dispositionsziel“ und „Unterklasse als Dispositionsquelle“ auf.
 
-Unterklasse als Dispositionsziel
+<p class="just-emphasize">Unterklasse als Dispositionsziel</p>
 
 Diese Einstellungen beeinflussen das Verhalten des disponierenden Beleges dieser Klasse/Unterklasse.
 
@@ -16,7 +16,7 @@ Diese Einstellungen beeinflussen das Verhalten des disponierenden Beleges dieser
 | Itembox Quellbelege | Hier kann eine individuelle Itembox für die Auswahl der Belege hinterlegt werden. |
 | Disponierbare Belegklassen<br> | Hier kann eingestellt werden aus welcher Belegklasse die Vorgänge stammen, deren Artikel für diese Belegunterklasse bei der „Schnellen Teildisposition“ angezeigt werden.<br>Mit Mausklick wird die gewünschte Zeile ausgewählt. Sie ist dann schwarz unterlegt. Mit einem weiteren Mausklick kann sie wieder abgewählt werden.<br>Bei der „Schnellen Teildisposition“ werden für Kontokorrentkunden in der Itembox nur Belege angezeigt die entsprechend zu EK oder VK gehören. |
 
-Unterklasse als Dispositionsquelle
+<p class="just-emphasize">Unterklasse als Dispositionsquelle</p>
 
 Diese Einstellungen beeinflussen das Verhalten, wenn ein Beleg dieser Klasse/Unterklasse disponiert wird.
 

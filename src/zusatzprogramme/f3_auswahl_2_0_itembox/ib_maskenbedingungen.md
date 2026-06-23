@@ -15,7 +15,7 @@ Wenn eine F3-Auswahl privatisiert wird und man auf ein Feld zugreifen möchte, w
 | Name | Hier trägt man eine eindeutige Bezeichnung ein, mit der man später auf diese Einrichtung zugreift. In dem SQL-Text der zugehörigen F3-Auswahl muss man dann **:∼** dem Namen voranstellen.<br> |
 | Maske | Name der Maske, auf dem das Feld zu finden ist. Den Namen der Maske erhält man, indem man auf dieser Maske die Tastenkombination Umschalt-Strg-F5 drückt.<br> |
 | Feld | Dies ist der Name des Feldes, dessen Inhalt man haben möchte. Hier ist es wichtig, dass Groß- und Kleinschreibung dabei beachtet wird. Den Namen des Feldes erhält man entweder über die Tastenkombination Umschalt-Strg-F5 oder über Umschalt-F3.<br> |
-| Bedingung | Hier kann eine komplette Bedingung unter Verwendung irgend eines Namens mit vorangestelltem Doppelpunkt stehen<br> <br>oder einfach nur der Name mit vorangestelltem Doppelpunkt.<br><br>Für **:Name** wir vom Programm der Inhalt des angesprochenen Feldes eingetragen. Existiert die Maske oder das Feld nicht, dann wird ein leerer Wert geliefert. Es erscheint keine Fehlermeldung<br> |
+| Bedingung | Hier kann eine komplette Bedingung unter Verwendung irgend eines Namens mit vorangestelltem Doppelpunkt stehen<br><code>and :Name = 5</code><br> <br>oder einfach nur der Name mit vorangestelltem Doppelpunkt.<br><code>:Name</code><br><br>Für **:Name** wir vom Programm der Inhalt des angesprochenen Feldes eingetragen. Existiert die Maske oder das Feld nicht, dann wird ein leerer Wert geliefert. Es erscheint keine Fehlermeldung<br> |
 
 Beispiel:
 

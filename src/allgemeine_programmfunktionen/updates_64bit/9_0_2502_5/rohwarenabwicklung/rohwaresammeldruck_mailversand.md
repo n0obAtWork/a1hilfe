@@ -20,6 +20,6 @@ Funktion/Report: Sammel-Erstdruck
 
 [Weitere Informationen](http://www.amic.de/hilfe/_rwsammelAbrechnung.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2502.5, 35856, 747598

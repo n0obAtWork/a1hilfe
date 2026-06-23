@@ -17,17 +17,17 @@ In der Spalte Verfahren können folgende Werte stehen:
 Folgende Funktionen stehen für die Bearbeitung zur Verfügung:  
     
 
-Zahlungsvorschlagsliste
+<p class="just-emphasize">Zahlungsvorschlagsliste</p>
 
 Es kann ein Crystal-Report der Zahlungsvorschläge gedruckt werden. Dieser Report lässt sich nach Listennummer und nach Kontonummer eingrenzen.
 
-Liste über Formular – F8
+<p class="just-emphasize">Liste über Formular – F8</p>
 
 Es lässt sich auch ein Formular einrichten, das dann die Zahlungsvorschläge auflistet. Innerhalb dieses Formulars, das die aktuell angewählte Liste druckt, lässt sich die Sortierung wählen.
 
 ![](../../ImagesExt/image8_650.png)
 
-Zahlungsvorschläge ändern – F5
+<p class="just-emphasize">Zahlungsvorschläge ändern – F5</p>
 
 Es erscheinen die Positionen des Zahlungsvorschlags in einer weiteren Auswahlliste. Dort stehen dann einige Funktionen zur Bearbeitung zur Verfügung:
 
@@ -48,11 +48,11 @@ Es erscheinen die Positionen des Zahlungsvorschlags in einer weiteren Auswahllis
 
 - Mit &lt; **>** bzw. mit **Strg** und den **Pfeiltasten** kann zwischen den Konten geblättert werden.
 
-Löschen – F7
+<p class="just-emphasize">Löschen – F7</p>
 
 Der komplette Zahlungsvorschlag kann gelöscht werden. Die OP’s werden wieder in den Status versetzt, den sie vor dem Erstellen der Zahlungsvorschläge hatten. Es kann anschließend also das Erstellen wiederholt werden.
 
-Freigabe - F6
+<p class="just-emphasize">Freigabe - F6</p>
 
 Wenn die Zahlungsvorschläge kontrolliert worden sind, werden sie über diese Funktion zur Zahlung freigegeben. Vor der Freigabe übernimmt das Programm noch einige Tests um den ordnungsgemäßen Ablauf der Zahlung zu gewährleisten. Da bei freigegebenen Zahlungen die Bankverbindung nicht mehr änderbar ist, muss bereits hier festgelegt werden, ob und in welcher Form sie benötigt wird. Daher wird zuerst abgefragt, wofür die Zahlungsvorschläge freigegeben werden sollen:
 

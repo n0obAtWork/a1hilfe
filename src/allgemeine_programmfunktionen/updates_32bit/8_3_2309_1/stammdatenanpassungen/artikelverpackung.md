@@ -20,6 +20,6 @@ Funktion/Report: F7 - Löschen
 
 [Weitere Informationen](http://www.amic.de/hilfe/_artikelverpackung.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2309.1, 34095, 0

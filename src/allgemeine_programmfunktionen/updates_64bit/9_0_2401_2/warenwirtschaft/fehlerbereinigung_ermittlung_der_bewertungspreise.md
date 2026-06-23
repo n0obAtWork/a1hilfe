@@ -20,6 +20,6 @@ Funktion/Report: Ermittlung der Bewertungspreise
 
 [Weitere Informationen](http://www.amic.de/hilfe/_bewertungspreise.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2401.2, 35015, 730019

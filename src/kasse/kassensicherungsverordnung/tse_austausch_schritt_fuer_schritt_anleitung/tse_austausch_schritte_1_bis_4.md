@@ -26,7 +26,7 @@ Hauptmenü > Barvorgänge > Kassensicherungsverordnung
 
 Direktsprung **[KSVO]**
 
-Hinweis!
+<p class="just-emphasize">Hinweis!</p>
 
 Die Datensicherung ist wichtig für Ihre Betriebsprüfung und die erstellten Dateien müssen gut aufbewahrt werden.
 
@@ -99,7 +99,7 @@ Um die TSE-Sticks zu tauschen, wie folgt vorgehen:
 
 3. Am Kassenarbeitsplatz A.eins starten
 
-Hinweis!
+<p class="just-emphasize">Hinweis!</p>
 
 Für die Kassen- und Betriebsprüfung ist der alte TSE-Stick gut aufzubewahren!
 

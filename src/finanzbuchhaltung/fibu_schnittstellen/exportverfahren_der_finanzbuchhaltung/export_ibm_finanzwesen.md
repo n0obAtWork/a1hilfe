@@ -28,7 +28,7 @@ Nach erfolgreichem Export erscheint folgende Meldung:
 
 ![](../../../ImagesExt/image8_790.png)
 
-Satzaufbau
+<p class="just-emphasize">Satzaufbau</p>
 
 Die Daten sind durch Komma getrennt und stehen in Hochkomma. Die Daten bestehen aus einem Vorsatz gefolgt von den eigentlichen Daten. Sie haben zurzeit folgende Struktur:
 
@@ -333,7 +333,7 @@ k.AdressIdHauptAdr
 
 temp_IBMKreditor enthält alle in den Belegen vorkommenden Kunden exakt einmal. Die IBMNummer kommt aus der Auswahlliste.
 
-Umsetzen Zahlungsbedingung und Steuer
+<p class="just-emphasize">Umsetzen Zahlungsbedingung und Steuer</p>
 
 Die Werte für Steuer (8) und Zahlungsbedingung (15) müssen umgeschlüsselt werden, damit das IBM-Finanzwesen die korrekten Daten bekommt. Dabei werden die Werte für die Zahlungsbedingung in der schon aus dem Importverfahren bekannten Umsetzungstabelle (Direktsprung IMPUM) gepflegt. Hier ist die Schlüsselklasse 900 für vorgesehen.
 

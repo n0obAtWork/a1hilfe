@@ -22,7 +22,7 @@ fahrer.fahrerbezeich as
 ufld_1101_fahrerbezeich
 ```
 
-Verwendbare UFLD-Felder
+<p class="just-emphasize">Verwendbare UFLD-Felder</p>
 
 Hier ist eine Liste aller bisher verwendbaren UFLD-Felder. Der Alias „vs“ im Select-Statement wird für den Vorgangstamm verwendet. In der Spalte Itemboxfeld steht der Name des Returnfeldes der dazugehörigen Itembox.
 

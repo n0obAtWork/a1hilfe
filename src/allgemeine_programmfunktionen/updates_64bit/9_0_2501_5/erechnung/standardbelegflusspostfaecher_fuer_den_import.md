@@ -20,6 +20,6 @@ Funktion/Report: Importeinstellungen bearbeiten
 
 [Weitere Informationen](http://www.amic.de/hilfe/erechnungimporteinstellungenei.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2501.5, 36960, 746729

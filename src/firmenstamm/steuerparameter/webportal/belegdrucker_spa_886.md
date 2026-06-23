@@ -10,6 +10,5 @@ Festlegung des Druckers für Belege aus dem Webportal.
 
 (Zur Zeit nur für individuelle Webportal-Lösungen vorgesehen)
 
-\- Schlüssel
-
-\- Option (Druckernummer)
+- Schlüssel
+- Option (Druckernummer)

@@ -14,7 +14,7 @@ Auf der SVPOSBAR2 Maske wird nach jeder Eingabe eines Wertes das zu aktualisiere
 | FN_Preis\* | ID_PREIS | | Maskenfeld |
 | FN_RabattEingabe\* | ID_RABATT | | Maskenfeld |
 
-Benötigte JVARS
+<p class="just-emphasize">Benötigte JVARS</p>
 
 | JAVR | Funktion | Bedeutung |
 | --- | --- | --- |

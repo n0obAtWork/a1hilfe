@@ -20,6 +20,6 @@ Funktion/Report: Erfassung, Bearbeitung
 
 [Weitere Informationen](http://www.amic.de/hilfe/_erfassungproduktion.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2402.1, 35291, 734771

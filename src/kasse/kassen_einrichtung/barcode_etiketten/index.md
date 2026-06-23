@@ -21,7 +21,7 @@ Der Aufbau eins solchen Etiketts könnte so aussehen:
 | 8 – 12 | Gesamtpreis (Hier steht der durch die Waage ermittelte Preis drin, der durch A.eins übernommen werden soll.) |
 | 13 | Prüfziffer |
 
-Voraussetzungen:
+<p class="just-emphasize">Voraussetzungen:</p>
 
 Einige Voraussetzungen müssen jedoch alle erfüllen:
 
@@ -29,7 +29,7 @@ Einige Voraussetzungen müssen jedoch alle erfüllen:
 - Die Artikelnummer im Barcode muss im System pro Lager eindeutig sein (d.h. in unserem Beispiel müssen alle Artikelnummern von Barcodeartikeln 5-stellig sein)
 - Der EAN-Code für Nicht-In-Store-Artikel muss im System eindeutig sein (im Artikelstamm)
 
-Steuerparameter:
+<p class="just-emphasize">Steuerparameter:</p>
 
 Der Steuerparameter [472 - Datenübernahme an Kasse aus Etikett](../../../firmenstamm/steuerparameter/kasse_daten_aus_strichcode/datenuebernahme_an_kasse_aus_etikett_spa_472.md) muss eingeschaltet sein.
 

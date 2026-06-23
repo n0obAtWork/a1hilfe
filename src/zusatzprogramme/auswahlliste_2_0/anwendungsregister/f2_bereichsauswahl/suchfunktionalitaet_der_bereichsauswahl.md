@@ -4,7 +4,7 @@
 
 Bei der Suche innerhalb von Texten – wie z.B. Kundennamen oder Ort – kann häufig auch mit Platzhaltern gearbeitet werden. Die Syntax hält sich hier an die SQL-Norm.
 
-Die „%“ – Funktion
+<p class="just-emphasize">Die „%“ – Funktion</p>
 
 Häufig wiederkehrende Fragen sind z.B. „Ich hätte gerne alle Kunden, die mit „M“ beginnen“. Die Antwort erhält man, indem in einer der Suchvarianten nach „Nachname“ folgendes eingegeben wird:
 
@@ -16,7 +16,7 @@ Häufig wiederkehrende Fragen sind z.B. „Ich hätte gerne alle Kunden, die mit
 | me%,ka% | Alle „Me“ aus „Ka“<br> |
 | %ma,fritz<br> | Alle, die irgendwo im Namen die Zeichenfolge „ma“ aufweisen und mit Vornamen „Fritz“ heißen |
 
-Die „_“ Funktion (Unterstrich „Shift –„)
+<p class="just-emphasize">Die „_“ Funktion (Unterstrich „Shift –„)</p>
 
 Diese Funktion dient als Platzhalter für **ein** Zeichen.
 
@@ -28,7 +28,7 @@ Diese Funktion dient als Platzhalter für **ein** Zeichen.
 
 Soll der Unterstrich _ gesucht werden und nicht als Platzhalter dienen, so ist er in eckigen Klammern zu setzen: [_]
 
-Kombination aus „%“ und „_“
+<p class="just-emphasize">Kombination aus „%“ und „_“</p>
 
 | **Auswahl** | **Ergebnis** |
 | --- | --- |

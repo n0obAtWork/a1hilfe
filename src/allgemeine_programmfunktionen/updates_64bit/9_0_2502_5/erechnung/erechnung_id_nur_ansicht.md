@@ -20,6 +20,6 @@ Funktion/Report: Fibu Beleg Erfassen (ER / EG)
 
 [Weitere Informationen](http://www.amic.de/hilfe/!belegerfassung.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2502.5, 37640, 748264

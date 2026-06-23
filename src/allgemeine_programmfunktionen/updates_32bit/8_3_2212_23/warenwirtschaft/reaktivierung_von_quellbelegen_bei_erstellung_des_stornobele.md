@@ -20,6 +20,6 @@ Funktion/Report: Storno mit Beleg
 
 [Weitere Informationen](http://www.amic.de/hilfe/allgemeinallgemeineundgenerell.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2212.23, 32857, 714299

@@ -20,6 +20,6 @@ Funktion/Report: OLAP
 
 [Weitere Informationen](http://www.amic.de/hilfe/_info_olap_ophelia.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2211.9, 32979, 715120

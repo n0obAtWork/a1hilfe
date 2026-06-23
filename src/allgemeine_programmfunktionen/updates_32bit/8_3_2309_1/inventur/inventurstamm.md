@@ -20,6 +20,6 @@ Funktion/Report: F8,F5
 
 [Weitere Informationen](http://www.amic.de/hilfe/_inventurstamm.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2309.1, 33277, 717267

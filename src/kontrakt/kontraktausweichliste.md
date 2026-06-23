@@ -19,6 +19,6 @@ Folgende Felder stehen zur Verfügung.
 | Preise vom 1. Artikel | Kennzeichen, ob der Preis des ersten Kontraktartikels als Grundlage für die Preisermittlung des Ausweichartikels genommen werden soll. |
 | Zu- und Abschlag auf Preis | Zu- oder Abschlag auf den ermittelten Einzelpreis für alle Ausweichartikel. Nur sinnvoll bei Preisermittlung aus Listenpreis (kein Schalter angeknipst) oder über den ersten Kontraktartikel. |
 
-Artikel
+<p class="just-emphasize">Artikel</p>
 
 Über die Funktion ***Artikel*** wird in die Ausweichartikelmaske gewechselt. Hier werden alle Artikel der Ausweichliste angezeigt. Neuanlage, Änderung und Löschung der Artikel sind in dieser Maske möglich.

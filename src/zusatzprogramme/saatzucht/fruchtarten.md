@@ -8,7 +8,7 @@ Direktsprung **[SGF]**
 
 In diesem Stammdatenpfleger werden die Daten über Fruchtarten gepflegt.
 
-Erfassungsmaske
+<p class="just-emphasize">Erfassungsmaske</p>
 
 Es stehen folgende Eingabefelder und Eingabemöglichkeiten zur Verfügung.
 
@@ -31,7 +31,7 @@ Es stehen folgende Eingabefelder und Eingabemöglichkeiten zur Verfügung.
 | Periode AV-Liste | **Die Periode zur AV-Liste dieser Fruchtart kann hier eingetragen werden.**<br> |
 | Ist Mischung | **Ist Mischung zu dieser Fruchtart kann hier eingetragen werden.**<br> |
 
-Felder auf der Registerkarte Merkmale
+<p class="just-emphasize">Felder auf der Registerkarte Merkmale</p>
 
 Auf dieser Registerkarte können Qualitätsmerkmale dieser Fruchtart gepflegt werden.
 
@@ -39,7 +39,7 @@ Auf dieser Registerkarte können Qualitätsmerkmale dieser Fruchtart gepflegt we
 | --- | --- |
 | Merkmal | Mit der Taste **F3** kann hier eine Auswahl aus den [Qualitätsmerkmalen](./qualitaetsmerkmale.md) abgerufen werden.<br> |
 
-Felder auf der Registerkarte Besatzarten
+<p class="just-emphasize">Felder auf der Registerkarte Besatzarten</p>
 
 Auf dieser Registerkarte können Besatzarten zur Fruchtart gepflegt werden.
 
@@ -47,7 +47,7 @@ Auf dieser Registerkarte können Besatzarten zur Fruchtart gepflegt werden.
 | --- | --- |
 | Besatzart | Mit der Taste **F3** kann hier eine Auswahl aus den [Besatzarten](./besatzarten.md) abgerufen werden.<br> |
 
-Felder auf der Registerkarte BBCH
+<p class="just-emphasize">Felder auf der Registerkarte BBCH</p>
 
 Auf dieser Registerkarte kann die BBCH-Codierung und Bezeichnung zur Fruchtart gepflegt werden. Die Codierung kann aus der BBCH-Skala entnommen werden. Eine BBCH-Skala wird unter folgenden Link [Julius Kühn-Institut](https://www.julius-kuehn.de/publikationsreihen-des-jki/bbch-skala/) zur Verfügung gestellt.
 
@@ -58,7 +58,7 @@ Auf dieser Registerkarte kann die BBCH-Codierung und Bezeichnung zur Fruchtart g
 | Stadium 4 | Hier kann die BBCH-Codierung 4-stellig eingetragen werden. Mit dem Einrichterparameter „Anzeige Stadium 4-stellig“ kann festgelegt werden, ob dieses Feld angezeigt wird. Vorbelegung: **Nein**<br> |
 | Bezeichnung | Hier kann die Bezeichnung entsprechend der BBCH-Codierung eingetragen werden. Mit der Taste **F3** kann hier eine Auswahl aus den bereits verwendeten Bezeichnungen abgerufen werden.<br> |
 
-Felder auf der Registerkarte Artenverzeichnis
+<p class="just-emphasize">Felder auf der Registerkarte Artenverzeichnis</p>
 
 Auf dieser Registerkarte kann global für die ausgewählte Fruchtart das Kennzeichen Artenverzeichnis für alle Länder die in der [Saatsorten](./anmeldung_zur_feldbesichtigung/vermehrungsvertrag.md) Zuordnung existieren gesetzt werden.
 

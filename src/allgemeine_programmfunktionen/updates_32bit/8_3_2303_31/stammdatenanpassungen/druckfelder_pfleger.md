@@ -20,6 +20,6 @@ Funktion/Report: Speichern unter
 
 [Weitere Informationen](http://www.amic.de/hilfe/druckfelder.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2303.31, 33591, 720536

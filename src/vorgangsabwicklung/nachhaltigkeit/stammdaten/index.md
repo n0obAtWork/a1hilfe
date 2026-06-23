@@ -22,7 +22,7 @@ Kundenstamm
 
 [Formate](./formate.md)
 
-Hinweis
+<p class="just-emphasize">Hinweis</p>
 
 Zu beachten ist, dass die Bearbeitung der Stammdaten teilweise einige Zeit in Anspruch nehmen kann. Das liegt daran, dass eine Nachkalkulation der Werte durch den [Mandantenserver](../abwicklung/aktualisierung_der_nachhaltigkeitswerte.md) erfolgen muss.
 

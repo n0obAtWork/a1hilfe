@@ -8,60 +8,10 @@ Zur Bereinigung gibt es keine maschinelle Unterstützung. Nachfolgende SQL Ausdr
 
 Fehlende oder abweichende Zahlungsmittel:
 
-| 
-```sql
-select
-       ZahlKs, ZahlKsi,
-
-       today(*)
-      Belegdatumdatum, ZahlBelegNr,
-     (select zamibetrag from
-      acashbelgzami where zamiidnr = zahlzamiidnr) zamibetrag,
-
-       (select
-      FormLstBezeich from Formatlist
-
-      where FormLstKennung = 'AcashBelegAr' and FormLstWert = zahlBelegart
-
-      and SprachNummer =0) BelegArtBez,
-       zahlbelegart
-      Belegart,
-       zahlbetrag
-      BelegSummeBrutto, filialnummer, Zahlkonto , *
-from acashbelgzhlg z
-where zahlart in (2,3,4,5) and
-      (zamibetrag is null or zamibetrag != zahlbetrag)
-```
-
- |
+| <pre><code>select&#10; ZahlKs, ZahlKsi,&#10;&#10; today(*)&#10; Belegdatumdatum, ZahlBelegNr,&#10; (select zamibetrag from&#10; acashbelgzami where zamiidnr = zahlzamiidnr) zamibetrag,&#10; &#10; (select&#10; FormLstBezeich from Formatlist&#10; &#10; where FormLstKennung = 'AcashBelegAr' and FormLstWert = zahlBelegart&#10;&#10; &#10; and SprachNummer =0) BelegArtBez,&#10; zahlbelegart&#10; Belegart,&#10; zahlbetrag&#10; BelegSummeBrutto, filialnummer, Zahlkonto , *&#10;from acashbelgzhlg z&#10;where zahlart in (2,3,4,5) and&#10; (zamibetrag is null or zamibetrag != zahlbetrag)</code></pre> |
 | --- |
 
 Fehlende Zahlungssätze zu Zahlungsmitteln:
 
-| 
-```sql
-select
-       ZamiKs as
-      BelegKs, ZamiKsi as BelegKsi,
-       Zamidatum as BelegDatumDatum,ZamiBelegNr as BelegNr,
-
-       (select
-      FormLstBezeich from Formatlist
-
-      where FormLstKennung = 'ZamiArt' and FormLstWert = ZamiArt
-
-      and SprachNummer =0) BelegArtBez,
-       ZamiArt as
-      Belegart,
-       zamibetrag
-      BelegSummeBrutto, filialnummer
-     from acashbelgzami z
-     where zamiidnr not in
-      (select zahlzamiidnr from acashbelgzhlg)
-
-      order by FilialNummer, BelegKs,
-      BelegKsi, Belegart
-```
-
- |
+| <pre><code>select&#10; ZamiKs as&#10; BelegKs, ZamiKsi as BelegKsi,&#10; Zamidatum as BelegDatumDatum,ZamiBelegNr as BelegNr,&#10;&#10; (select&#10; FormLstBezeich from Formatlist&#10; &#10; where FormLstKennung = 'ZamiArt' and FormLstWert = ZamiArt&#10; &#10; and SprachNummer =0) BelegArtBez,&#10; ZamiArt as&#10; Belegart,&#10; zamibetrag&#10; BelegSummeBrutto, filialnummer&#10; from acashbelgzami z&#10; where zamiidnr not in&#10; (select zahlzamiidnr from acashbelgzhlg)&#10; &#10; order by FilialNummer, BelegKs,&#10; BelegKsi, Belegart</code></pre> |
 | --- |

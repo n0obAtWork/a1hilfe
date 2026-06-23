@@ -14,15 +14,15 @@ Für das Modul Intrastat wird die [Intrastat-Lizenz](../../../firmenstamm/steuer
 
 Folgende Stammdaten müssen hinterlegt sein, damit eine Intrastat-Meldung erstellt werden kann:
 
-\- [Kundenstamm](../../../kunden_und_lieferanten/uebersicht_kunden_und_lieferanten.md) **[KU]**  
+- [Kundenstamm](../../../kunden_und_lieferanten/uebersicht_kunden_und_lieferanten.md) **[KU]**  
 Im Register *„Allgemein“* muss das Land des Kunden hinterlegt sein  
 Die UST.-Ident muss gepflegt sein  
 Und die Steuergruppe darf nicht der Steuergruppe entsprechen, welche im SPA 643 eingetragen ist
 
-\- [Lagerstamm](../../../firmenstamm/uebersicht_lager_und_lagerplatz/lagerstamm_lgs.md) **[LGS]**  
+- [Lagerstamm](../../../firmenstamm/uebersicht_lager_und_lagerplatz/lagerstamm_lgs.md) **[LGS]**  
 Im Register *„Allgemein“* muss das Land des Lagerstandortes hinterlegt sein
 
-\- [Mandantenstamm](../../../firmenstamm/firmenkonstanten/mandantenstamm.md#MND_FIBU) **[MND]**  
+- [Mandantenstamm](../../../firmenstamm/firmenkonstanten/mandantenstamm.md#MND_FIBU) **[MND]**  
 Hier muss das Bundesland und die Steuernummer hinterlegt sein
 
 </details>
@@ -50,9 +50,8 @@ Um die Intrastat-Meldung einzurichten navigiert man mit dem Direktsprung **[INTR
 Wichtig: seit Februar 2020 wird ein neues Format (XML) für die Intrastat-Meldung verlangt. Das Alte Dateiformat (ASCII) wird nur noch bis zum 30.06.2021 akzeptiert. Alle neu angemeldeten Benutzer nach dem 31.01.2020 sind verpflichtet das XML-Format zu nutzen.  
 Quellen:
 
-\- [https://www-idev.destatis.de/idev/doc/intra/hilfe6_1.html](https://www-idev.destatis.de/idev/doc/intra/hilfe6_1.html) (ASCII)
-
-\- [https://www-idev.destatis.de/idev/doc/intra/hilfe6_2.html](https://www-idev.destatis.de/idev/doc/intra/hilfe6_2.html) (XML)
+- [https://www-idev.destatis.de/idev/doc/intra/hilfe6_1.html](https://www-idev.destatis.de/idev/doc/intra/hilfe6_1.html) (ASCII)
+- [https://www-idev.destatis.de/idev/doc/intra/hilfe6_2.html](https://www-idev.destatis.de/idev/doc/intra/hilfe6_2.html) (XML)
 
 <p class="just-emphasize">ASC-Format:</p>
 
@@ -66,13 +65,10 @@ Registrierung (Testdaten):
 
 ![](../../../ImagesExt/image8_1141.png)
 
-\- Unter [https://www-idev.destatis.de/idev/OnlineMeldung](https://www-idev.destatis.de/idev/OnlineMeldung) bei dem Statistischen Bundesamt registrieren
-
-\- Für die Registrierung muss das Feld „Testdatei“ auf „Ja“ gesetzt sein
-
-\- Eine Anzahl von 10 Praxisbezogenen Datensätzen ist erforderlich (zu Schritt 2)
-
-\- Nach der Registrierung bei dem Statistischen Bundesamt, den Datenexport der Testdatei an diese versenden
+- Unter [https://www-idev.destatis.de/idev/OnlineMeldung](https://www-idev.destatis.de/idev/OnlineMeldung) bei dem Statistischen Bundesamt registrieren
+- Für die Registrierung muss das Feld „Testdatei“ auf „Ja“ gesetzt sein
+- Eine Anzahl von 10 Praxisbezogenen Datensätzen ist erforderlich (zu Schritt 2)
+- Nach der Registrierung bei dem Statistischen Bundesamt, den Datenexport der Testdatei an diese versenden
 
 Einrichtung (Echtdaten):
 

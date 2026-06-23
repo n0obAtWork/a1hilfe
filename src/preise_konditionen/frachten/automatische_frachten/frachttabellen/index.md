@@ -6,15 +6,15 @@ Nebenbuchhaltungen > Frachtverwaltung > Frachttabellen **[FRA]**
 
 In einer Frachttabelle werden für Frachtberechnungen notwendige Festlegungen getroffen.
 
-Bezeichnung
+<p class="just-emphasize">Bezeichnung</p>
 
 Bezeichnung für die Fracht
 
-Frachttext
+<p class="just-emphasize">Frachttext</p>
 
 [Frachttext](../fracht_texte.md)
 
-Fracht Formel
+<p class="just-emphasize">Fracht Formel</p>
 
 | Formel | Bedeutung |
 | --- | --- |
@@ -31,16 +31,16 @@ Fracht Formel
 | Satz / Verpackungseinheiten | Es wird ein fester Betrag pro Verpackungseinheit des Artikels berechnet |
 | Satz / VE + km | Wie oben jedoch unter zusätzlicher Berechnung mit dem entfernungsabhängigen Formeltyp |
 
-Offene Frachtberechnung
+<p class="just-emphasize">Offene Frachtberechnung</p>
 
 Gibt an, ob die Fracht auf dem Beleg sichtbar ausgewiesen werden soll (nicht bei Gruppenfracht).
 
-Gruppenfracht im Belegdruck
+<p class="just-emphasize">Gruppenfracht im Belegdruck</p>
 
 Gibt bei einer Gruppenfracht an, ob bei der Belegerfassung das Kennzeichen zur Druckbarkeit der Gruppenfrachtposition gesetzt werden soll oder nicht. Diese Einstellmöglichkeit ist nur verfügbar, wenn es sich nicht um eine kalkulatorische Frachtermittlung handelt (diese wird nie gedruckt) und der Steuerparameter [SPA 980](../../../../firmenstamm/steuerparameter/frachten_und_frachtwesen/druckunterdrueckung_bei_nicht_kalkulatorischer_gruppenfracht.md) die Unterdrückung der Druckausgabe erlaubt. Im Standard werden nicht kalkulatorische Gruppenfracht-Positionen immer als druckbar gekennzeichnet.  
 ACHTUNG: Bei Nutzung der Druckunterdrückung von Gruppenfrachten ist zu beachten, dass der Einfluss auf die Berechnung von druckbaren Preisen und Beträgen der zugehörigen Warenpositionen sowie Zwischensummen und Endbeträgen wie bei offenen Gruppenfrachten erfolgt. Es ist von daher sehr genau auf eine passende Druckpositionswahl bei der Formulareinrichtung zu achten.
 
-Kalkulatorische Ermittlung
+<p class="just-emphasize">Kalkulatorische Ermittlung</p>
 
 Diese Option ist nur als Alternative zur offenen Frachtberechnung möglich !
 
@@ -48,7 +48,7 @@ Ja/Nein-Entscheidung, ob diese Fracht eine kalkulatorische Fracht sein soll, die
 
 Eine kalkulatorische Fracht wird wie ein InZeile- Zu-Abschlag nicht auf dem Beleg ausgegeben. Eine kalkulatorische Fracht wird jedoch nicht zur Berechnung des Betrages berechnet. Die kalkulatorische Fracht sorgt dafür, dass dieser „Fracht-Anteil“ abweichend von der Erlöskennziffer des Artikels auf eine andere Erlöskennziffer gebucht wird.
 
-Zeile/Gruppe/Preis
+<p class="just-emphasize">Zeile/Gruppe/Preis</p>
 
 | Einstellung | Bedeutung |
 | --- | --- |
@@ -56,30 +56,30 @@ Zeile/Gruppe/Preis
 | Gruppe | Gruppenrabatt – wirkt auf alle Artikel dieser Warengruppe |
 | Preis | Dieser Rabatt wirkt zunächst auf den Einzelpreis, bevor dieser mit der Menge multipliziert wird. |
 
-Steuerschlüssel
+<p class="just-emphasize">Steuerschlüssel</p>
 
 Steuerschlüssel für diese Fracht
 
-Kostenstelle
+<p class="just-emphasize">Kostenstelle</p>
 
 Hier kann eine von der Warenposition abweichende Kostenstellennummer für die Fracht angegeben werden.  
 0 = es wird die Kostenstellennummer der Warenposition übernommen  
 Dieses Erfassungsfeld steht nur zur Verfügung, wenn der Steuerparameter **Kostenstellen-Lizenz** aktiviert ist.
 
-Kostenträger
+<p class="just-emphasize">Kostenträger</p>
 
 Hier kann eine von der Warenposition abweichende Kostenträgernummer für die Fracht angegeben werden.  
 0 = es wird die Kostenträgernummer der Warenposition übernommen  
 Dieses Erfassungsfeld steht nur zur Verfügung, wenn der Steuerparameter **Kostenträgerrechnung angeschlossen** aktiviert ist.
 
-Kostenobjekt
+<p class="just-emphasize">Kostenobjekt</p>
 
 Hier kann eine von der Warenposition abweichende Kostenobjektnummer für die Fracht angegeben werden.  
 0 = es wird die Kostenobjektnummer der Warenposition übernommen  
 Dieses Erfassungsfeld steht nur zur Verfügung, wenn der Steuerparameter **Kostenobjekt-Lizenz** aktiviert ist.  
 Die Bezeichnung dieses Feldes ist in der **OPTION Kostenobjekt_Label** einrichtbar!
 
-Formeltyp nur bei entfernungsbezogener Frachtermittlung
+<p class="just-emphasize">Formeltyp nur bei entfernungsbezogener Frachtermittlung</p>
 
 Bei entfernungsbezogenen Frachten werden mit Hilfe des unten angegebenen Frachttyps Frachten mit der Entfernung multipliziert. Es ist möglich je km, oder auch z.B. je 100km zu berechnen.
 

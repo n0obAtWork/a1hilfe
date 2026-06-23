@@ -6,7 +6,7 @@ Starten Sie die Software „A.eins.KassenDisplay.exe“ mit einem Startparameter
 
 Der Name der Datei setzt sich zusammen aus „Kasse00“+ der Kassennummer + „.kas“. Also für die Kasse 7 „kasse007.kas“.
 
-Beispiel für Kasse 7:
+<p class="just-emphasize">Beispiel für Kasse 7:</p>
 
 ```text
 A.eins.KassenDisplay.exe \\rechnername\freigabe\kasse007.kas
@@ -18,6 +18,6 @@ Ist diese Datei noch nicht vorhanden, wird zunächst die Meldung ausgegeben, das
 
 Ist aus vorherigen Kassenvorgängen eine Konfigurationsdatei vorhanden, so wird das externe Kassendisplay geöffnet und zeigt die konfigurierten Felder an.
 
-Hinweis zur Fenster- und Bildschirmgröße:
+<p class="just-emphasize">Hinweis zur Fenster- und Bildschirmgröße:</p>
 
 Ist das Fenster zu groß für den Bildschirm eingerichtet oder ragt aufgrund der Einrichtung über die Grenzen des sichtbaren Bildschirms hinaus, so wird dies automatisch korrigiert und eine Meldung ausgegeben. Sie können mit Hilfe der Funktion „Positionen anzeigen“ aus dem Icon-Tray der Anwendung die Position und Größe des Fensters abrufen, nachdem Sie das Fenster auf den korrekten Bildschirm verschoben und in der Größe angepasst haben. Diese Werte können Sie dann auch in die Kassenkonfiguration übertragen, um die Meldung zukünftig zu umgehen und das Fenster an der gewünschten Stelle darzustellen.

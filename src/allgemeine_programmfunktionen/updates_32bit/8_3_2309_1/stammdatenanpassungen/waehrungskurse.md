@@ -20,6 +20,6 @@ Funktion/Report: Währungskurse Event
 
 [Weitere Informationen](http://www.amic.de/hilfe/whrungskurseautomatischeinstel.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2309.1, 33806, 723138

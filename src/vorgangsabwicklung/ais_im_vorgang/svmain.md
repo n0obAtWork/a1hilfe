@@ -6,7 +6,7 @@ Das AIS wird auf der SVMAIN immer nach der Eingabe des Kunden komplett aktualisi
 
 Des Weiteren kann das AIS nach der Eingabe einer manuellen Adresse oder einer manuellen Versandadresse aktualisiert werden. Beim Ändern der Werte in der allgemeinen Vorgangszuordnung wird das AIS auf der SVMAIN Maske aktualisiert.
 
-Aktualisierungspunkte des AIS auf der SVMAIN Maske
+<p class="just-emphasize">Aktualisierungspunkte des AIS auf der SVMAIN Maske</p>
 
 | Feld | Aktion |
 | --- | --- |
@@ -19,7 +19,7 @@ Aktualisierungspunkte des AIS auf der SVMAIN Maske
 | Änderung der Versandadresse | Das Aktualisieren des AIS kann per Makro gesteuert werden. Die JVAR UFLDID wird nicht gesetzt |
 | Vorgang Zuordnung | Das Aktualisieren des AIS kann per Makro gesteuert werden. Die JVAR UFLDID wird nicht gesetzt. In der Feld ID wird die ID des Feldes übergeben. |
 
-Folgende JVARS werden an das Makro Übermittelt
+<p class="just-emphasize">Folgende JVARS werden an das Makro Übermittelt</p>
 
 | JAVR | Funktion | Bedeutung |
 | --- | --- | --- |
@@ -28,7 +28,7 @@ Folgende JVARS werden an das Makro Übermittelt
 | GLOBALREFRESH | Schreibend<br> | Diese JAVR kann aus dem Makro gesetzt werden, damit die Globale AIS Aktualisierung ausgeschaltet werden kann, wenn das UFLD-Feld den Wert „Update Mask“ auf ja stehen hat. Im Standard steht der Wert dieser JAVR auf 0<br>• 0 bedeutet Global Refresh<br>• 1 bedeutet Eigenes Refresh |
 | ID | Lesend | Ist der Wert der JVAR größer als 0, enthält die JVAR eine ID des Vorgangs, wie z.B. Die ID_VERSANDADRESSID |
 
-Folgende User Felder lösen ein Globales Aktualisieren des AIS aus
+<p class="just-emphasize">Folgende User Felder lösen ein Globales Aktualisieren des AIS aus</p>
 
 | ID | Nummer | UFLD Bezeichnung |
 | --- | --- | --- |
@@ -47,7 +47,7 @@ Folgende User Felder lösen ein Globales Aktualisieren des AIS aus
 | ID_KUNDNUMMER_ZAHLUNGSPFL | 1895 | Zahlungspflichtiger |
 | ID_KUNDNUMMER_KONTRAKTKUNDE | 1899 | Kontraktkunde |
 
-Übermitteltete Werte wenn die JVAR ID gesetzt worden ist.
+<p class="just-emphasize">Übermitteltete Werte wenn die JVAR ID gesetzt worden ist.</p>
 
 | Maskenfeld | ID | Nummer | Event |
 | --- | --- | --- | --- |
@@ -65,7 +65,7 @@ Folgende User Felder lösen ein Globales Aktualisieren des AIS aus
 | VerkGebNummer$ | ID_VERKAUFSGEBIET | 1096 | Wenn das Ändern des Wertes funktioniert hat. Wird das AIS Refresh aufgerufen |
 | VertGrNummer$ | ID_VERTGRNUMMER | 1062 | Wenn das Ändern des Wertes funktioniert hat. Wird das AIS Refresh aufgerufen |
 
-Beispiel Prozedur für die SVMAIN
+<p class="just-emphasize">Beispiel Prozedur für die SVMAIN</p>
 
 ```text
 const BUFLEN = 256;

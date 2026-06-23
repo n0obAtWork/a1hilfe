@@ -18,7 +18,7 @@ In der Poststelle sollen alle Daten ankommen, um diese dort auf die Abteilungen 
 
 ![](../../../ImagesExt/image8_901.jpg)
 
-Private Prozeduren:
+<p class="just-emphasize">Private Prozeduren:</p>
 
 Datenbankvariable:
 
@@ -171,7 +171,7 @@ In den Abteilungen soll man nun über das weitere Verfahren bestimmen (Ablehung/
 
 ![](../../../ImagesExt/image8_902.jpg)
 
-Private Prozeduren A
+<p class="just-emphasize">Private Prozeduren A</p>
 
 Genehmigung
 
@@ -309,7 +309,7 @@ prüfen Sie das Fehlerprotokoll';
 END
 ```
 
-Private Prozeduren B
+<p class="just-emphasize">Private Prozeduren B</p>
 
 Genehmigung
 
@@ -429,7 +429,7 @@ Teilweise wird es nötig sein, der Geschäftsführung Daten vorzulegen.
 
 ![](../../../ImagesExt/image8_903.jpg)
 
-Private Prozeduren
+<p class="just-emphasize">Private Prozeduren</p>
 
 Genehmigung
 
@@ -548,7 +548,7 @@ Die Buchhaltung ist die Letzte Instanz. Hier muss eine Individuelle Lösung für
 
 ![](../../../ImagesExt/image8_904.jpg)
 
-Private Prozeduren
+<p class="just-emphasize">Private Prozeduren</p>
 
 Hier sind die Prozeduren nicht von Bedeutung, da die Lösung in jedem Fall individuell sein muss.
 

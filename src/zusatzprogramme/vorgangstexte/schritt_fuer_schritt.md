@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_vorgangstexte_sfs.htm -->
 
-Textbausteine im Vorgang:
+<p class="just-emphasize">Textbausteine im Vorgang:</p>
 
 <details>
 <summary>Schritt 1: Textbaustein anlegen</summary>

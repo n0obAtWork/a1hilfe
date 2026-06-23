@@ -20,6 +20,6 @@ Funktion/Report: Inventur abschließen
 
 [Weitere Informationen](http://www.amic.de/hilfe/inventurende.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2501.5, 36542, 734378

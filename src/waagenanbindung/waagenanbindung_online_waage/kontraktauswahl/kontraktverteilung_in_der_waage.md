@@ -4,13 +4,13 @@
 
 Das Waagemodul wurde um die Kontraktverteilung erweitert. Die Kontraktverteilung kann auf der Registerkarte LVS/Silo/Kontrakt vorgenommen werden. Soll der Wiegung nur ein Kontrakt zugeordnet werden, so kann die Kontraktzuordnung wie gewohnt über das Kontraktfeld auf der Registerkarte Wiegungen vorgenommen werden. Ist in der Datentabelle Kontraktzuordnung mehr als ein Eintrag vorhanden, so wird das Kontraktfeld auf der Registerkarte Wiegung gesperrt.
 
-Besonderheit
+<p class="just-emphasize">Besonderheit</p>
 
 Bei der Vorgangserzeugung wird immer pro Zeile in der Datentabelle Kontraktzuordnung ein neuer Waagensatz erzeugt. Es wird bei der Vorgangserzeugung kein Vorgang erzeugt, der eine Warenposition und N Kontraktzeilen hat.
 
 ***Wiegebelege, die eine Kontraktzuordnung mit mehreren Kontrakten haben, können nur aus der Hofliste erzeugt werden***.
 
-Datentabellenbeschreibung Kontraktaufteilung
+<p class="just-emphasize">Datentabellenbeschreibung Kontraktaufteilung</p>
 
 | Feldname | Bedeutung |
 | --- | --- |
@@ -24,7 +24,7 @@ Datentabellenbeschreibung Kontraktaufteilung
 | Kontraktmengeneinheit | Mengeneinheit des Kontraktes |
 | Kontraktbezeichnung | Bezeichnung des Kontraktes |
 
-Ablauf
+<p class="just-emphasize">Ablauf</p>
 
 Als erstes wird eine neue Wiegung erfasst. Es können [Eingangs](../funktionen_in_der_auswahlliste/wareneingang_wiegung_rohwareneingang_f6_sf6.md) oder [Ausgangswiegungen](../funktionen_in_der_auswahlliste/warenausgang_wiegung_rohwarenausgang_f7_cf7.md) mit Rohware oder Normalware durchgeführt werden.
 
@@ -40,7 +40,7 @@ Nach dem die Wiegung abgeschlossen worden ist, kann über die Funktion „[Vorga
 
 Um diesen Waagebelege wieder zu aktivieren, müssen erst alle Vorgänge und die dazugehörigen Waagebelege gelöscht werden.
 
-Rückabwicklung
+<p class="just-emphasize">Rückabwicklung</p>
 
 Um die Originalwiegung wieder zu aktivieren, muss wie folgt vorgegangen werden.
 

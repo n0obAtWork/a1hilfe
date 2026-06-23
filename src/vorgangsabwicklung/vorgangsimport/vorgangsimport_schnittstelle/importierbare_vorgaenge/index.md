@@ -2,9 +2,9 @@
 
 <!-- source: https://amic.de/hilfe/_vimp_vorgangsklassen.htm -->
 
-Folgende Vorgänge können zurzeit angelegt oder bearbeitet werden.
+<p class="just-emphasize">Folgende Vorgänge können zurzeit angelegt oder bearbeitet werden.</p>
 
-Hinweis:
+<p class="just-emphasize">Hinweis:</p>
 
 Einige davon sind ausschließlich lesbar, wenn das Kennzeichen „useCS“ im ImportVorgStamm auf 1 steht.
 

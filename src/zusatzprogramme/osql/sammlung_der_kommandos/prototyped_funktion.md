@@ -2,30 +2,30 @@
 
 <!-- source: https://amic.de/hilfe/prototypedfunktion.htm -->
 
-Syntax
+<p class="just-emphasize">Syntax</p>
 
 ^(prototyped funktion)
 
-Purpose
+<p class="just-emphasize">Purpose</p>
 
 Ausführen einer Funktion C- Funktion
 
-Anwendung
+<p class="just-emphasize">Anwendung</p>
 
 Befehlszeile, Kommandodatei
 
-Berechtigung
+<p class="just-emphasize">Berechtigung</p>
 
 Alle Anwender
 
-Siehe auch
+<p class="just-emphasize">Siehe auch</p>
 
 [JPL](./jpl_statement.md), [MAKRO](../../../vorgangsabwicklung/formularzuordnung/makro_standardmakros_zur_vorgangsverarbeitung.md)
 
-Beschreibung
+<p class="just-emphasize">Beschreibung</p>
 
 Man kann mit einem ^ vorneweg jede prototyped Funktion aufrufen. Dazu gehören alle smx_..., alle dbx_... und viele weiter Funktionen.
 
-Beispiel
+<p class="just-emphasize">Beispiel</p>
 
 ^smx_pause "Und hier kommt der Text hin"

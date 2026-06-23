@@ -22,6 +22,6 @@ Funktion/Report: Formulardruck(F10)
 
 [Weitere Informationen](http://www.amic.de/hilfe/!abwicklung1)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2502.5, 37315, 747369

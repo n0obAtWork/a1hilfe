@@ -20,6 +20,6 @@ Funktion/Report: amic_func_KundKredit, amic_func_Update_KundKredit, AMIC_Kreditl
 
 [Weitere Informationen](http://www.amic.de/hilfe/_SPA_503.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2309.1, 34076, 724433

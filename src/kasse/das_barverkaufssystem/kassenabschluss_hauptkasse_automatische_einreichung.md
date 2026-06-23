@@ -30,7 +30,7 @@ Stornokonto lt. Kasseneinstellung
 
 Verrechnungskonten der Hausbanken (Einreichungen)
 
-Bisheriges Verfahren Kassenabschluss Unterkasse mit Abschöpfung an Hauptkasse:
+<p class="just-emphasize">Bisheriges Verfahren Kassenabschluss Unterkasse mit Abschöpfung an Hauptkasse:</p>
 
 Bargeld:
 
@@ -78,7 +78,7 @@ b. es wird per SPA dafür gesorgt, dass der Vortrag der Zahlungsmittel in der fo
 
 4. In jedem Fall werden die Zahlungsmittel der Kasse entnommen.
 
-Bisheriges Verfahren Kassenabschluss Unterkasse ohne Abschöpfung oder Hauptkasse:
+<p class="just-emphasize">Bisheriges Verfahren Kassenabschluss Unterkasse ohne Abschöpfung oder Hauptkasse:</p>
 
 Bargeld:
 

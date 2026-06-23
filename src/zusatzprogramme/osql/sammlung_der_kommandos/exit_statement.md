@@ -2,31 +2,31 @@
 
 <!-- source: https://amic.de/hilfe/exitstatement.htm -->
 
-Syntax
+<p class="just-emphasize">Syntax</p>
 
 EXIT;
 
-Purpose
+<p class="just-emphasize">Purpose</p>
 
 Beendet eine Kommandodatei;
 
-Anwendung
+<p class="just-emphasize">Anwendung</p>
 
 Kommandodatei
 
-Berechtigung
+<p class="just-emphasize">Berechtigung</p>
 
 Alle Anwender
 
-Siehe auch
+<p class="just-emphasize">Siehe auch</p>
 
 [GOTO](./goto_und_label_statement.md), [IF](./if_statement.md)
 
-Beschreibung
+<p class="just-emphasize">Beschreibung</p>
 
 Es kann wünschenswert sein, eine Kommandodatei vor dem Dateiende zu verlassen. Hierzu dient der Befehl EXIT;
 
-Beispiel
+<p class="just-emphasize">Beispiel</p>
 
 Select \* from fibuvorgstamm where fibuv_nummer is NULL;
 

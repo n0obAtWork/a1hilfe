@@ -40,7 +40,7 @@ Ist die Aufnahme eines Beleges beendet, kann entweder ein neuer Beleg begonnen w
 
 Die zuletzt erfassten 8 Positionen eines Beleges werden nach Speicherung der Position im oberen Maskenteil zur Kontrolle angezeigt. 
 
-Silo / Ladeträgerzuordnung bei der Inventuraufnahme
+<p class="just-emphasize">Silo / Ladeträgerzuordnung bei der Inventuraufnahme</p>
 
 Es besteht die Möglichkeit einem Inventurbeleg ein Silo / Ladeträger zuzuordnen. Dazu müssen die Steuerparameter [Lagerverwaltungssystem(SPA 636)](../../firmenstamm/steuerparameter/optionen_global/lagerverwaltungssystem_spa_636.md) und [Anzeige des Silo trotz aktivem SPA 636 bei der Inventuraufnahme](../../firmenstamm/steuerparameter/optionen_warenwirtschaft/anzeige_des_silo_trotz_aktivem_steuerparameter_lagerverwaltu.md) auf „Ja“ gestellt werden.
 

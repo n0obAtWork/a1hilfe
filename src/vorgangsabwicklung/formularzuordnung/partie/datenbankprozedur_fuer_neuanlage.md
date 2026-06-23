@@ -36,22 +36,13 @@ An die Prozedur wird eine Reihe von Parametern übergeben, die bei der Vorbelegu
 
 Kodierung des Parameters Aufruftyp
 
-\- 0 = undefiniert 
-
-\- 1 = Warenerfassung
-
-\- 2 = BelegPartie
-
-\- 3 = Rohware 
-
-\- 4 = Produkt 
-
-\- 5 = Komponente 
-
-\- 6 = Umbuchung 
-
-\- 7 = PartienNachtragen
-
-\- 8 = Waage 
-
-\- 9 = SchnellKorrektur
+- 0 = undefiniert 
+- 1 = Warenerfassung
+- 2 = BelegPartie
+- 3 = Rohware 
+- 4 = Produkt 
+- 5 = Komponente 
+- 6 = Umbuchung 
+- 7 = PartienNachtragen
+- 8 = Waage 
+- 9 = SchnellKorrektur

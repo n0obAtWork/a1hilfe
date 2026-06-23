@@ -37,15 +37,15 @@ Für die Gefahrgutabwicklung können im Artikelstamm-Pflege-Modul diverse Angabe
 
 Sollen negative Positionsmenge für die Ermittlung von Gefahrgutwerten in Vorgängen positiv berücksichtig werden, kann man unter dem Direktsprung **[FRZ]** für ausgewählte Unterklassen dieses auf der Registerkarte **Abwicklung** im Bereich *Gefahrgut* entsprechend einstellen.
 
-Zusammensetzung
+<p class="just-emphasize">Zusammensetzung</p>
 
 Auf der Registerkarte „Zusammensetzung“, werden die einzelnen Komponenten des Gefahrgutartikels eingetragen. Die Komponenten werden in Einheiten angegeben. Es dürfen keine Gefahrgut-Pakete zu Gefahrgut-Paketen hinzugefügt werden. Es darf auch kein Artikel zweimal vorkommen.
 
-Sätze
+<p class="just-emphasize">Sätze</p>
 
 Auf der Registerkarte „Zuordnung“, werden die Gefahrgut Informationen dem Artikelstamm zugeordnet. Die Liste aller gängigen Gefahrgutinfos wird mit ausgeliefert.
 
-Zulassungsdaten
+<p class="just-emphasize">Zulassungsdaten</p>
 
 Auf der Registerkarte „Pflanzenschutz-Mittel“ können die Zulassungsdaten eines Pflanzenschutzmittels gepflegt werden.
 

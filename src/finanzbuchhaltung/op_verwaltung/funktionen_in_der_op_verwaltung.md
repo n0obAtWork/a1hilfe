@@ -8,7 +8,7 @@ Direktsprung **[OPV]**.
 
 Um mit der OP Verwaltung zu arbeiten gibt es verschiedene Funktionen. Diese sind im Einzelnen:
 
-Darstellung der Offenen Posten - F2
+<p class="just-emphasize">Darstellung der Offenen Posten - F2</p>
 
 Für unterschiedliche Fragestellungen gibt es verschiedene Darstellungsformen der Offenen Posten. Sie können mittels **F2** - Auswahl abgerufen werden:
 
@@ -16,11 +16,11 @@ Für unterschiedliche Fragestellungen gibt es verschiedene Darstellungsformen de
 
 Es werden die für den Benutzer / das Unternehmen zugelassenen Varianten angezeigt. Alle mit „OP’s“ beginnenden Varianten beziehen sich auf noch nicht verrechnete Belege, alle anderen Varianten beinhalten auch bereits verrechnete Belege. Bei diesen Varianten ist zu beachten, dass in der OP-Verwaltung keine weitere Eingrenzung – außer nach Kontonummer – vorgesehen ist.
 
-Wechsel der Kontos – F3
+<p class="just-emphasize">Wechsel der Kontos – F3</p>
 
 Mit Betätigung von **F3** wird in das Feld zur Eingabe der Kontonummer gewechselt und es kann ein neues Konto angewählt werden.
 
-Ändern eines OP – F5
+<p class="just-emphasize">Ändern eines OP – F5</p>
 
 Die Skonto- und Valutadaten eines OP können verändert werden. Nach Auswahl des OP wird die Funktion mit **F5** ausgelöst:
 
@@ -43,7 +43,7 @@ Eine Änderung des Betrages ist hier grundsätzlich nicht möglich.
 Die Funktion "Ändern" kann nur bei nicht ausgezifferten Belegen durchgeführt werden.  
     
 
-Auszifferungskennzeichen ansehen – F6
+<p class="just-emphasize">Auszifferungskennzeichen ansehen – F6</p>
 
 Mit **F6** wird es ermöglicht, sich über das Auszifferungskennzeichen zusammenhängende Belege anzeigen zu lassen.
 
@@ -53,7 +53,7 @@ Man gibt in dem Anzeigebildschirm das Auszifferungskennzeichen oder eine der bet
 
 Im der OP-Verwaltung wird die gewünschte Position markiert, anschließend **F6** ausgelöst und die miteinander verknüpften Zeilen werden angezeigt: Wie schon bei der [Konteninformation](../konteninformationen/index.md) beschrieben, kann jetzt wieder für eine Zeile der zugrundeliegende Buchungssatz dargestellt werden, und danach noch weiter vertiefende Informationen abgerufen werden.
 
-Auszifferungskennzeichen zurücksetzen – F7
+<p class="just-emphasize">Auszifferungskennzeichen zurücksetzen – F7</p>
 
 Hiermit wird die Verknüpfung zwischen ausgezifferten Belegen wieder aufgehoben. Das Auszifferungskennzeichen (kurz AZK) hat danach wieder den Wert 0. Anschließend können die Belege wieder bearbeitet werden (Korrektur, neue Verrechnung, etc.).
 
@@ -61,27 +61,27 @@ Hiermit wird die Verknüpfung zwischen ausgezifferten Belegen wieder aufgehoben.
 
 Hat man einen Beleg markiert und löst diese Funktion aus, so wird das AZK dieses Beleges vorgeschlagen; wurde kein Beleg markiert, muss das AZK eingegeben werden. Es wird dann das letzte Auszifferungsdatum zu diesem Auszifferungskennzeichen vorgeschlagen. Beim Zurücksetzen der Auszifferung werden automatisch erzeugte Belege – z.B. Skonto, Restposten, Kursdifferenzbuchungen, interne Umbuchungen – wieder entfernt. Wurden diese Belege noch nicht gebucht, werden sie einfach gelöscht ansonsten wird ein Stornobeleg zu diesem Beleg erstellt und automatisch mit diesem Beleg ausgeziffert. Bei der Erstellung der Stornobelege kann es vorkommen, dass die Periode, der der Ursprungsbeleg zugeordnet war, bereits geschlossen ist (vorläufiger Buchungsschluss oder permanent Abgeschlossen). Dann öffnet sich ein Fenster, in der die Periode abgefragt wird, der der Beleg zugeordnet werden soll. Je nach Einstellung des [SPA´s 1134](../../firmenstamm/steuerparameter/optionen_finanzwesen/bei_automatischen_stornobelegen_perioden_mit_buchungsschluss.md) „Bei automatischen Stornobelegen Perioden mit Buchungsschluss zulassen“ ist es ggf. möglich auch Perioden mit Buchungsschluss zu verwenden.
 
-Konteninformation – Shif+Strg+F10
+<p class="just-emphasize">Konteninformation – Shif+Strg+F10</p>
 
 Ruft die Konteninfo auf und belegt gleich die Kontonummer vor.
 
-Kunden/Lieferanten anzeigen – Shift+Strg+F11
+<p class="just-emphasize">Kunden/Lieferanten anzeigen – Shift+Strg+F11</p>
 
 Ruft den Kundenstammpfleger zur Ansicht der Daten auf.
 
-Bemerkungstext SF6
+<p class="just-emphasize">Bemerkungstext SF6</p>
 
 Diese Bemerkungstexte beziehen sich auf den gesamten markierten Beleg. Dies kann z.B. bei Zahlungsbelegen auch mehrere OP‘s bzw. unterschiedliche OP-Konten betreffen.
 
-OP-Info SF8
+<p class="just-emphasize">OP-Info SF8</p>
 
 Es werden zu dem markierten Beleg alle [Informationen](./einzelbeleganzeige.md#OPInfo) angezeigt, die den OP betreffen.
 
-Einzelbeleganzeige – F8
+<p class="just-emphasize">Einzelbeleganzeige – F8</p>
 
 Hiermit wird der einem OP zugrundeliegende vollständige Buchungssatz angezeigt. Dieser Bildschirm ist der zentrale [Informationsbildschirm](./einzelbeleganzeige.md), der überall zur Anzeige von Einzelbelegen verwendet wird.
 
-Ausziffern – F9
+<p class="just-emphasize">Ausziffern – F9</p>
 
 Mit „Ausziffern“ wird die Verrechnung von offenen Posten bezeichnet. Belege, die verrechnet werden sollen, werden mit der Tastatur (Cursortasten und Bestätigung mit Return oder der Leertaste) oder Maus ausgewählt. Sie werden dann dunkel dargestellt und haben ein Doppelkreuz (#) am Anfang der Zeile stehen. Es lassen sich alle Belege markieren, jedoch wird vor der Auszifferung noch separat geprüft, ob die Auszifferung zulässig ist.
 
@@ -110,7 +110,7 @@ Die obere Zeile zeigt den eingegebenen Zahlungsbetrag an, darunter wird der ausz
 Die miteinander verrechneten Belege werden dann mit einem Kennzeichen und einem Datum als zusammengehörend markiert. Über dieses Kennzeichen und Datum kann die Verrechnung der Belege wieder aufgehoben werden (s.o. ***Auszifferungskennzeichen zurücksetzen*** **-** **F7****).  
 Bei der Verrechnung der OP’s werden die OP-Informationen gelöscht und die zugehörigen Einträge aus Mahnvorschlägen, Zahlungsvorschlagslisten und** **nicht gebuchten** **Zahlungen herausgelöscht.**
 
-Periode – F10
+<p class="just-emphasize">Periode – F10</p>
 
 Hiermit wird der Periodenwechsel ermöglicht. Ob dieses Fenster beim Einstieg in die OP-Verwaltung erscheint oder nicht lässt sich mit Hilfe des Einrichterparameters „Periodenfenster bei Einstieg?“ festlegen. Vorbelegt ist dieser standardmäßig mit **Ja**.
 
@@ -118,7 +118,7 @@ Das hier abgefragte Datum dient als Vorbelegung des Belegdatums für eventuell z
 
 Die Periode und das Jahr werden bei Belegen, die erstellt werden, als Buchungsperiode verwendet.
 
-Hinzufügen/löschen Zahlvorschlag – Strg F5
+<p class="just-emphasize">Hinzufügen/löschen Zahlvorschlag – Strg F5</p>
 
 Die markierten Belege werden entweder aus der Zahlungsvorschlagsliste, in der sie sich befinden, gelöscht oder, wenn sie noch nicht zur Zahlung freigegen worden sind zu einer Zahlungsvorschlagsliste hinzugefügt. Wenn das Konto bereits einer Zahlungsvorschlagsliste zugeordnet ist, so wird diese genommen, ist keine entsprechende Liste vorhanden, so wird eine neue Liste erzeugt. Ist das Personenkonto in keiner Liste vorhanden und existieren mehrere Listen, so öffnet sich ein Abfragefenster, in dem man die Listennummer auswählen kann.
 
@@ -133,7 +133,7 @@ Zusätzlich existiert noch ein Einrichterparameter „**Beim Hinzufügen der OP�
 
 Hinweis: *Ein erfassen eine neuen Bank ist hier nicht möglich. Das muss separat üb die Funktion ***„Kundenbank ändern“**** **F9** ***geschehen.***
 
-Hinzufügen/löschen Mahnvorschlag – Strg F9
+<p class="just-emphasize">Hinzufügen/löschen Mahnvorschlag – Strg F9</p>
 
 Die markierten Belege werden entweder aus der Mahnvorschlagsliste gelöscht oder zu einer Mahnvorschlagsliste hinzugefügt. Existiert noch keine Mahnvorschlagsliste, so wird eine neue Mahnvorschlagsliste angelegt. Man kann nur Belege zu Mahnungsvorschlägen hinzufügen, die auch die Kriterien von zu mahnenden Belegen erfüllen:  
     
@@ -145,6 +145,6 @@ Die markierten Belege werden entweder aus der Mahnvorschlagsliste gelöscht oder
 
 Wenn eine dieser Situationen auftritt wird am Ende dieser Aktion ein Fenster geöffnet und es werden dort die entsprechenden Meldungen ausgegeben.
 
-**Beendigung der OP – Bearbeitung**
+<p class="just-emphasize">**Beendigung der OP – Bearbeitung**</p>
 
 Mit **"ESC"** wird die OP-Bearbeitung verlassen.

@@ -4,11 +4,9 @@
 
 Innerhalb des Silosystems lassen sich 3 verschiedene Reorganisationsmaßnahmen vornehmen:
 
-\- Fehlgebuchten Beleg aus dem Silosystem entfernen
-
-\- Netto- bzw. Sekundärmengen neu berechnen lassen
-
-\- Vom Standard abweichende Qualitätswerte entfernen
+- Fehlgebuchten Beleg aus dem Silosystem entfernen
+- Netto- bzw. Sekundärmengen neu berechnen lassen
+- Vom Standard abweichende Qualitätswerte entfernen
 
 Im laufenden Betrieb des Silosystems kann es immer wieder vorkommen, dass Buchungen entstehen, die aber im Siloumfeld so nicht gewünscht sind. Diese „Fehlbuchungen“ können mit dem Reorganisationsabschnitt aus den aktuellen Buchungen wie auch aus dem Silo-Bewegungsprotokoll komplett entfernt werden, es bleiben dabei keine Inhalte mehr im System. Hierzu ist einfach der entsprechende Beleg in der Siloanwendung (Variante 1) anzuwählen und es ist das Reorganisationsmodul aufzurufen. Sind mehrere Belege oder ist kein Beleg markiert, so wird ein Beleglöschen nicht akzeptiert. Auf der dann erscheinenden Maske kann nun u.U. noch der zugehörige Waagebeleg mit „zurückgesetzt“ (von Status „abgeschlossen“ auf Status „zweite Wiegung“) werden. Nach Anwahl der Funktion wird sofort mit dem Löschvorgang begonnen.
 

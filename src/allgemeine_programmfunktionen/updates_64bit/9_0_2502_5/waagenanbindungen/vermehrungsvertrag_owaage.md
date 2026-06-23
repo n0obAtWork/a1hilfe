@@ -20,6 +20,6 @@ Funktion/Report: Vermehrungsvertrag Auswahl
 
 [Weitere Informationen](http://www.amic.de/hilfe/_EPA_OWAAGE.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2502.5, 36878, 739549

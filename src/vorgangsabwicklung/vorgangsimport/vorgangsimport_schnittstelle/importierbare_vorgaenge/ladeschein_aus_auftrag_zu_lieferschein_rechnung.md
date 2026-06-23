@@ -10,7 +10,7 @@ In beiden Fällen soll im Vorgangsimport die Position des Ladescheins zu einem (
 
 Dafür sind einige Voraussetzungen notwendig:
 
-ImportTyp
+<p class="just-emphasize">ImportTyp</p>
 
 | Importtyp im ImportVorgStamm |
 | --- |
@@ -19,11 +19,11 @@ ImportTyp
 | 1 | ACHTUNG !!! Ladeschein wird erstellt !!! |
 | 2 | Beleg wird in eine Rechnung umgewandelt \* |
 
-Wabewerfassid in der ImportVorgPosition
+<p class="just-emphasize">Wabewerfassid in der ImportVorgPosition</p>
 
 Um klarzustellen welche der ursprünglichen Auftrags/Bestell-Positionen umgewandelt werden soll, muss die WaBewErfassId aus der Warenposition des Ladescheins angegeben werden.
 
-RestAusbuchKennz in der ImportVorgPosition
+<p class="just-emphasize">RestAusbuchKennz in der ImportVorgPosition</p>
 
 Zusätzlich ist es möglich das Feld „RestAusbuchKennz“ auf 1 zu setzen, um bei Mindermengen-Lieferung die Reste des Quell-Vorgangs (Auftrag/Bestellung) auszubuchen. \*
 

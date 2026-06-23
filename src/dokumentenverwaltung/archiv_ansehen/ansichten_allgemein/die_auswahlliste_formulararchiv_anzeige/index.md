@@ -4,7 +4,7 @@
 
 Diese Auswahlliste wird nach Auslösen der Aktion ["Archiv anzeigen"](../index.md#aktion_archiv_anzeigen) geöffnet.
 
-Archiv-Anzeige ohne Vorschau
+<p class="just-emphasize">Archiv-Anzeige ohne Vorschau</p>
 
 Die Felder sind mittels ["Variante"](../../../archiv_import/archiv_dokumenten_import.md#archiv_ansichts_definition_variante) in den [Archiv-Ansicht-Definitionen](../../archiv_ansicht_definition/index.md) gegebenen Möglichkeiten einzurichten.
 
@@ -40,7 +40,7 @@ Die Felder in der Standard-Auslieferung der Archiv-Anzeige ohne Vorschau sind wi
 | Ansicht Information | Diese Funktion teilt in einem Dialog mit, welche [Archiv-Ansicht-Definition](../../archiv_ansicht_definition/index.md) zum Aufbau dieser Auswahlliste verwendet wurde. |
 | Archiv Eintrag löschen | [Archiveinträge löschen](../../../archiv_administration/index.md) |
 
-Neue Archiv-Anzeige mit Vorschau
+<p class="just-emphasize">Neue Archiv-Anzeige mit Vorschau</p>
 
 Ist für die Ansicht der „Vorschau“-Modus aktiviert, dann gestaltet sich die „Archiv-Anzeige“ als Dialog in neuer Optik mit neuen Möglichkeiten:
 

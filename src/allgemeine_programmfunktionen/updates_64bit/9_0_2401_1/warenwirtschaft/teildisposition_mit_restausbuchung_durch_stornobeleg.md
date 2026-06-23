@@ -20,6 +20,6 @@ Funktion/Report: F8 Lieferschein erfassen
 
 [Weitere Informationen](http://www.amic.de/hilfe/standardteildisposition.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2401.1, 34201, 725304

@@ -25,22 +25,22 @@ Wenn der Betrag sich nicht auf ein einzelnes Konto bezieht, noch kein Konto erfa
 
 Weiterhin stehen folgende Menüpunkte zur Weiterverarbeitung zur Verfügung.
 
-F7 Auszifferung-zurücksetzen
+<p class="just-emphasize">F7 Auszifferung-zurücksetzen</p>
 
 Jedoch nur, wenn für diese Position eine Auszifferung vorgeschlagen wurde oder dieser Posten manuell ausgeziffert worden ist. Dies kann man durch:
 
-F6 Ausziffern
+<p class="just-emphasize">F6 Ausziffern</p>
 
 Wenn man diese Funktion anwählt, dann gelangt man in die OP-Verwaltung und kann diese Position so ausziffern, wie man es von der Belegerfassung gewohnt ist. Das Register „Auszifferungsvorschlag“ wird dann mit „Auszifferung“ überschrieben und die ausgewählten OP’s werden dort angezeigt. Dort steht dann auch die Funktion ***Beleg anzeigen***, die den Beleg in der [Einzelbeleganzeige](../op_verwaltung/einzelbeleganzeige.md) öffnet, zur Verfügung.
 
-SF9 Kundenbank ändern
+<p class="just-emphasize">SF9 Kundenbank ändern</p>
 
 Hiermit lässt sich die Bankverbindung im Kundenstamm hinterlegen bzw. eine bereits hinterlegte Bank ändern. Dort öffnet sich der aus dem Kundenstamm bekannte Pfleger und man kann dort die Bankverbindung direkt mit der Funktion „***Bankverbindung übernehmen***“ **F10** eintragen lassen. Es wird dann die Bank und die Kontonummer übernommen.
 
-F10 VWZ-Zuordnung erstellen
+<p class="just-emphasize">F10 VWZ-Zuordnung erstellen</p>
 
 Man kann direkt von hier aus die Neuerfassung einer [Verwendungszweck-Zuordnung](./vwz_zuordnung.md) aufrufen. Es werden dann automatisch die Felder Zahlungsart, Auftraggeber, BLZ/Konto und Betrag vorbelegt. Diese können geändert oder deaktiviert werden.
 
-F11 Fibu Merkmale
+<p class="just-emphasize">F11 Fibu Merkmale</p>
 
 Anzeige der Fibu Merkmale des Kunden/Lieferanten.

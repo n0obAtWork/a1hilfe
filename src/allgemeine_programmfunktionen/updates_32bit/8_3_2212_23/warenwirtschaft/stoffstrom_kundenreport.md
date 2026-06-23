@@ -20,6 +20,6 @@ Funktion/Report: Stoffstrom Kundenreport
 
 [Weitere Informationen](http://www.amic.de/hilfe/-)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2212.23, 33282, 717579

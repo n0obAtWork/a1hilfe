@@ -49,7 +49,7 @@ Folgende Variablen sind in allen Teilen (Kopf, Fuß und Zeilentyp) verfügbar. F
 | VWZREFNUMMER1 | Text | 4 | Nur im Bereich 500 bzw. 510. Textliche Ausgabe aller Referenznummern und Belegdaten in einer Zeile |
 | VWZREFNUMMER2 | Text | 4. | Nur im Bereich 500 bzw. 510. Fortführung der textliche Ausgabe aller Referenznummern und Belegdaten in einer Zeile |
 
-503 Positionszeile Scheck
+<p class="just-emphasize">503 Positionszeile Scheck</p>
 
 | Bezeichnung | Typ | Nr. | Bedeutung |
 | --- | --- | --- | --- |
@@ -83,6 +83,6 @@ Folgende Variablen sind in allen Teilen (Kopf, Fuß und Zeilentyp) verfügbar. F
 | FibuV_KLKurzBez | | | Kurzform der Vorgangsklasse (z.B.: ZA ER AR.....) |
 | FiBuV_KlBezeich | | | Bezeichnung der Vorgangsklasse ( z.B. Zahlung ....) |
 
-504 Alternativteil Scheckdruck
+<p class="just-emphasize">504 Alternativteil Scheckdruck</p>
 
 Dieser Bereich wird nur gedruckt, wenn kein Folgekopf eingerichtet ist und die Anzahl der zu druckenden Zeilen kleiner ist als der vorhandene Platz. In diesem Bereich kann dann z.B. ein Festtext eingerichtet werden, in dem ein Hinweis auf die Avise, die dann gedruckt werden kann, steht. Die Avise wird nur dann erstellt, wenn dieser Bereich eingerichtet ist. Ist dieser Bereich nicht eingerichtet, wird dieser Scheck nicht gedruckt.

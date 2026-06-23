@@ -20,6 +20,6 @@ Funktion/Report: VK-Preise bearbeiten, EL-Preise bearbeiten
 
 [Weitere Informationen](http://www.amic.de/hilfe/_listenpreiseverkaufu.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2402.1, 35531, 732390

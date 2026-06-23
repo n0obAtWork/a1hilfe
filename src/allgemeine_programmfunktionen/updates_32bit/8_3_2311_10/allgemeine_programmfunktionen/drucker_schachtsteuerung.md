@@ -20,6 +20,6 @@ Funktion/Report: DIverse Druckszenarien in denen die Verwendung von Schächten b
 
 [Weitere Informationen](http://www.amic.de/hilfe/druckerstammdrst_pfleger.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2311.10, 34430, 727976

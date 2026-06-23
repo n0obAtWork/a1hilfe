@@ -20,6 +20,6 @@ Funktion/Report: Fibu Übertrag (F5)
 
 [Weitere Informationen](http://www.amic.de/hilfe/_steupa_fibuuebertragWarenwirtschaft.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2502.9, 39519, 752268

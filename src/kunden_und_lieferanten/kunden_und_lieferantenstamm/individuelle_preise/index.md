@@ -22,9 +22,8 @@ Da eine der Dimensionen variabel ist, werden die Daten folglich in einer Tabelle
 
 Die Bereitstellung der Daten erfolgt über eine auf den Anwendungsfall zugeschnittene Ladeprozedur:
 
-\- **HoleIndividuellePreiseKunde** aus der Auswahlliste Kunden/Lieferanten
-
-\- **HoleIndividuellePreiseArtikel** aus der Auswahlliste Artikel
+- **HoleIndividuellePreiseKunde** aus der Auswahlliste Kunden/Lieferanten
+- **HoleIndividuellePreiseArtikel** aus der Auswahlliste Artikel
 
 Je nach Herkunft (Kunden, Lieferanten oder Artikel) werden einzelne Felder ein oder ausgeblendet und mit Daten gefüllt. Der Umfang der angezeigten Daten kann über Profileinstellungen angepasst werden. Über eine in der Profilansicht angegebene Kalkulationsprozedur können die angegebenen Preise je nach Kundenwunsch kalkuliert werden. Um die Funktionsweise zu verdeutlichen, wird eine Kalkulationsprozedur **Beispiel_Einstieg_IndiPrKalk** mitgeliefert. Um eigene Kalkulationen durchführen zu können, empfehlen wir die Einrichtung privater Kalkulationsprozeduren.
 

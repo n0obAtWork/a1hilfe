@@ -20,6 +20,6 @@ Funktion/Report: JAHRW
 
 [Weitere Informationen](http://www.amic.de/hilfe/umbuchungenbeiwechselderforder.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2210.20, 32898, 712049

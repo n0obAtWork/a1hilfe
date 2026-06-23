@@ -4,13 +4,10 @@
 
 Bei der Lagerplatzkennzeichnung kann es folgende Warenauszeichnungen geben:
 
-\- Waren - EAN auf der Ware
-
-\- Karton – EAN auf dem Karton(GS1-Code128)
-
-\- Partiekennung am Karton / Ware
-
-\- Artikelnummer
+- Waren - EAN auf der Ware
+- Karton – EAN auf dem Karton(GS1-Code128)
+- Partiekennung am Karton / Ware
+- Artikelnummer
 
 ###### Zuordnung von Lagerplätzen
 

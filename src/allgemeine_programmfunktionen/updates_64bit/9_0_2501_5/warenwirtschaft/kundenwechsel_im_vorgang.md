@@ -20,6 +20,6 @@ Funktion/Report: Kundenwechsel
 
 [Weitere Informationen](http://www.amic.de/hilfe/_behandlungsschemata.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2501.5, 36543, 737408

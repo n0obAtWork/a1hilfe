@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/funktionenzurgeodatenermittlun.htm -->
 
-Auswahlliste (einzelne Punkte)
+<p class="just-emphasize">Auswahlliste (einzelne Punkte)</p>
 
 Kunden > Menü Karte > Geodaten ermitteln
 

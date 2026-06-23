@@ -20,6 +20,6 @@ Funktion/Report: F5
 
 [Weitere Informationen](http://www.amic.de/hilfe/_kundenundlieferanten1.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2501.5, 36433, 743580

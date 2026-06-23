@@ -4,7 +4,7 @@
 
 Es ist sicherzustellen, dass nach dem Zeitpunkt der Erstellung dieses Beleges keine weiteren Zu- oder Abgangsbuchungen an dem aktuellen Tag erstellt werden.
 
-Hinweis:
+<p class="just-emphasize">Hinweis:</p>
 
 Voraussetzung für die Anwendung dieser Differenzkorrektur ist, dass alle offenen Belege zum Zeitpunkt der Inventur gebucht wurden. Eine spätere Erfassung oder Veränderung von Lieferungen vor dem Inventurzeitpunkt ist nicht erlaubt.
 
@@ -18,7 +18,7 @@ Ausnahmen bedeuten eine definierte Handlungsanweisung:
 
 4. Es muss ein Beleg nach der Zählung erfasst werden – Die zum erfassten Beleg gehörenden Artikel müssen in der Inventurzählung entsprechend korrigiert oder erneut gezählt werden.
 
-Hinweis:
+<p class="just-emphasize">Hinweis:</p>
 
 Es ist dringend empfohlen, dass Artikel nur mit Partie oder komplett ohne Partie geführt werden. Differenzmengenerfassungen für Artikel ohne Partieangabe werden zu Fehlinterpretationen des Systems führen, wenn es zu dem Artikel parallel Partiebestände gibt!
 

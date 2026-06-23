@@ -20,6 +20,6 @@ Funktion/Report: Auftrag erfassen
 
 [Weitere Informationen](http://www.amic.de/hilfe/_SPA_488.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2308.4, 34006, 724928

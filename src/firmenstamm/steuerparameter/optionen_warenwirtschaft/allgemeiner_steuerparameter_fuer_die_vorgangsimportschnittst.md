@@ -4,7 +4,7 @@
 
 An diesem Steuerparameter werden Optionen für die Vorgangsimportschnittstelle eingetragen.
 
-Folgende Optionen sind verfügbar:
+<p class="just-emphasize">Folgende Optionen sind verfügbar:</p>
 
 | Option | Wert |
 | --- | --- |

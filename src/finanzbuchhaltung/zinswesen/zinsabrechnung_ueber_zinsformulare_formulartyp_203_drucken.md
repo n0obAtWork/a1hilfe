@@ -160,6 +160,6 @@ Folgende Variablen sind in allen Teilen (Kopf, Fuß und Zeilentyp) verfügbar. F
 | --- | --- | --- | --- |
 | FiBuVP_Text | Normal | 3 | Text wie in den Folgezeilen hinterlegt |
 
-- 315 Zinsabrechnung Betreffzeile
+<p class="just-emphasize">• 315 Zinsabrechnung Betreffzeile</p>
 
 Mit diesem Formularbereich kann für den Mailversand eine Betreffzeile definiert werden. Es stehen hier die Positionen zur Verfügung, die mit F3 ausgewählt werden können. Beim normalen Druck erscheint diese Zeile nicht.

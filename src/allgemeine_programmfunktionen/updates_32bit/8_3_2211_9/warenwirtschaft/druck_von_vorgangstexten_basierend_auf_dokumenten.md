@@ -20,6 +20,6 @@ Funktion/Report: Vorgangsdruck
 
 [Weitere Informationen](http://www.amic.de/hilfe/textzeilen.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2211.9, 32927, 712500

@@ -2,9 +2,9 @@
 
 <!-- source: https://amic.de/hilfe/_scanner_au_zu_la_zu_li.htm -->
 
-Ladescheinliste
+<p class="just-emphasize">Ladescheinliste</p>
 
-Vorbereitung
+<p class="just-emphasize">Vorbereitung</p>
 
 Um die Abarbeitung des Ladescheins mit dem Scanner zu ermöglichen, wurde eine Vorlage für eine Ladescheinliste im System hinterlegt.
 
@@ -27,7 +27,7 @@ Achtung: Die privaten Funktion zur Erstellung des Ladescheins und drucken des La
 | ^jpl VorlaufScannerLadeschein 1 | Drucken des Ladescheins |
 | ^jpl VorlaufScannerLadeschein 0 | Editieren des Ladescheins |
 
-Ablauf
+<p class="just-emphasize">Ablauf</p>
 
 Mit diesem Modul können [Aufträge](../../../vorgangsabwicklung/vorgangsbearbeitung_allgemein/vorgangsklassen_in_a_eins/auftrag/index.md), die zu einem Ladeschein umgewandelt worden sind, bearbeitet werden. Aus diesen Ladeschein wird dann ein [Lieferschein](../../../vorgangsabwicklung/vorgangsbearbeitung_allgemein/vorgangsklassen_in_a_eins/lieferschein/index.md) erzeugt, und die Lieferscheinmenge wird dann per Teildisposition vom Auftrag abgebucht.
 
@@ -55,9 +55,9 @@ Jetzt können, bevor die Wandlung zum Lieferschein passiert, Positionen aus dem 
 
 Mit dem Befehl **AUFLADENENDE** wird automatisch mit dem Modul [Rechnung Lieferschein aus Ladeschein](../../../vorgangsabwicklung/vorgangsbearbeitung_allgemein/vorgangsklassen_in_a_eins/ladeschein/rechnung_lieferschein_aus_ladeschein.md) ein Lieferschein erstellt.
 
-Besonderheiten
+<p class="just-emphasize">Besonderheiten</p>
 
-Parken
+<p class="just-emphasize">Parken</p>
 
 Es besteht die Möglichkeit eine bestehende Abarbeitung eines Ladescheins zu unterbrechen oder von einem anderen Scanner zu Ende zu führen. Die Park Funktion funktioniert nur in diesem Modul. Soll ein neuer Ladeschein bearbeitet werden, so muss nur der LAB Befehl gescannt werden. Jetzt wird dieser Ladeschein aktiv bearbeitet. Der andere Ladeschein ist zurückgestellt und kann später wie gewohnt abgearbeitet werden.
 
@@ -67,7 +67,7 @@ Dies gilt auch für die Aufladen Funktionalität.
 
 Eine parallele Bearbeitung von einem Ladeschein mit mehreren Scannern ist nicht möglich.
 
-Stornierung einer Position und Neustart eines Lieferscheins
+<p class="just-emphasize">Stornierung einer Position und Neustart eines Lieferscheins</p>
 
 Eine erfasste Position kann wie folgt storniert werden. Dazu wird der Stornobefehl gescannt. Danach kann entweder per Scannung des Artikels oder der Seriennummer die letzte erfasste Position des Artikels gelöscht werden. Des Weiteren gibt es die Möglichkeit die zu löschende Positionsnummer manuell über die Tastatur einzugeben. Es wird immer die komplette Position gelöscht.
 
@@ -75,7 +75,7 @@ Durch erneutes Mehrmaliges Scannen von „**LAB + Ladescheinnummer“** wird die
 
 Ist ein Ladeschein abgearbeitet worden, so wird mit dem Befehl „**LABENDE**“ die Abarbeitung des Ladescheins beendet. Nach dem der Ladeschein mit „**LABENDE**“ abgeschlossen worden ist, wird aus diesem Beleg noch kein Lieferschein erstellt.
 
-Verhalten bei einer Teillieferung einer Position
+<p class="just-emphasize">Verhalten bei einer Teillieferung einer Position</p>
 
 In der Anwendung [Vorgangsunterklasse](../../../vorgangsabwicklung/formularzuordnung/formular_formularzuordnungen_zum_vorgang_unterklasse.md) **[FRZ]** für die Klasse 500 „Ladeschein“ auf der Registerkarte „[Sperren](../../../vorgangsabwicklung/formularzuordnung/sperren.md)“ wird eingestellt, ob nach der Erzeugung des Lieferscheins oder der Rechnung der Ladeschein gesperrt oder Storniert werden soll. Die Standard Einstellung ist das stornieren des Ladescheins.
 
@@ -87,7 +87,7 @@ Mit dem Steuerparameter „[Stornierung einer Ladescheinposition im Modul Ladesc
 
 Dies hat zur Folge, dass ein Ladeschein nicht storniert wird, wenn noch teilgelieferte Positionen im Ladeschein stehen.
 
-Drucken des Lieferscheins
+<p class="just-emphasize">Drucken des Lieferscheins</p>
 
 Um einen erstellten Lieferschein automatisch auszudrucken, muss ein Bediener LaLiDru im System eingerichtet sein. Auf dem Standard Drucker des Bedieners wird dann der Lieferschein ausgedruckt.
 
@@ -95,7 +95,7 @@ Die erfassten Daten werden in der Anwendung [Vorgangsimport](../../../vorgangsab
 
 Hauptmenü > Externe Kommunikation > Stammdatenimport > Vorgangsimport
 
-Folgender Status können die Erfassten Sätze haben
+<p class="just-emphasize">Folgender Status können die Erfassten Sätze haben</p>
 
 | Status | Status Bedeutung | Bedeutung |
 | --- | --- | --- |

@@ -6,7 +6,7 @@ Hauptmenü > Wareneinkauf > Nachhaltigkeit > Nachhaltigkeitswerte
 
 Direktsprung **[NAWER]**
 
-Faktor
+<p class="just-emphasize">Faktor</p>
 
 Für die THG-Werte können Faktoren hinterlegt werden, dafür stehen im Pfleger folgende Felder zu Verfügung. Der Faktor ist aktuell rein informativ und wird an keiner Stelle ausgewertet.
 
@@ -18,7 +18,7 @@ Für die THG-Werte können Faktoren hinterlegt werden, dafür stehen im Pfleger 
 | Quelle | Herkunft der Informationen<br>*(Z.B. IFEU / TREMOD)* |
 | Wert | Wert des Faktors |
 
-THG-Werte
+<p class="just-emphasize">THG-Werte</p>
 
 In den THG-Werten werden für jede Fruchtart die Teilstandardwerte für Anbau, Verarbeitung und Lieferung verwaltet. Des Weiteren werden dort die Umrechnungsfaktoren von Standardwerten auf massebezogene Werte für Zwischenprodukte gepflegt.
 
@@ -50,7 +50,7 @@ Für die individuellen Texte stehen Variablen zur Verfügung, die bei der Ermitt
 | &lt;ZERTIFIKATBEMERKUNG> | Bemerkung des Zertifikats<br>(Bsp.: „DE-100-200-300-400-500-600“) |
 | &lt;WABEWLIEFNUMMER> | Belegnummer<br>(Bsp.: „34888“) |
 
-Anbauland
+<p class="just-emphasize">Anbauland</p>
 
 Für jedes Anbauland lassen sich individuelle THG-Werte hinterlegen. Für die allgemeine Info eines Anbaulands lassen sich folgende Felder pflegen.
 
@@ -84,6 +84,6 @@ Zusätzlich zu den Werten nach Datum, kann man die Werte auch abhängig vom Arti
 
 Zusätzlich zu den Werten befindet sich eine Artikelstammübersicht auf der Maske. Diese zeigt die Artikelstämme der letzten Zeiträume an. Da dies etwas Zeit in Anspruch nehmen kann, lässt sich im [Einrichterparameter](../../../firmenstamm/einrichterparameter/nachhaltigkeit_anbauland_epa_nhanbauland.md) einstellen, wie viele Zeiträume beachtet werden sollen.
 
-Import von deutschen NUTS2 Gebieten
+<p class="just-emphasize">Import von deutschen NUTS2 Gebieten</p>
 
 Über die Funktion „**Import NUTS2**“ wird eine vorgefertigte Liste mit den deutschen NUTS2 Gebieten importiert.

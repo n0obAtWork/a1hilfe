@@ -8,7 +8,7 @@ Direktsprung **[SAATR]**
 
 In diesem Stammdatenpfleger werden die Qualitätsmerkmale gepflegt. Sie werden in [Laborverfahren](./laborverfahren.md#Laborverfahren_Merkmale), [Labordaten](./labordaten/index.md#Labordaten_Kontrollanbau) und [Fruchtarten](./fruchtarten.md) verwendet. Der Einrichterparameter „[Erweiterte Einstellungen](../../firmenstamm/einrichterparameter/qualitaetsmerkmale_epa_qualitaetsmerkmale.md)“ erlaubt weitere Eingabemöglichkeiten auf der Maske.
 
-Erfassungsmaske
+<p class="just-emphasize">Erfassungsmaske</p>
 
 Es stehen folgende Eingabefelder und Eingabemöglichkeiten zur Verfügung.
 

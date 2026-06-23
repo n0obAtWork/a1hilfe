@@ -45,29 +45,18 @@ Vorraussetzung:
 
 Die Vorrausetzung, um ein EC-Gerät in A.eins einzubinden sind folgende:
 
-\- Lan Anschluss / WLan
-
-\- ZVT700 Protokoll unterstützung
-
-\- Terminal hat eine Internetverbindung
-
-\- Falls man das EC-Gerät sperat von A.eins nutzen möchte und die Summen bei erstellen der Rechnung selber eingeben möchte, stellt man den Parameter Bezahlterminal auf „Manuelle Bedienung“. Damit A.eins mit dem EC-Gerät kommuniziert, muss die ansteuerung über ein Makro passieren (amic_bzt_muster). In dem Makro müssen für den Betrieb im Verkauf noch einstellungen getätigt werden:
-
-\- SimuationBZT(); muss ausommentiert werden
-
-\- ZVT_700SYNC() muss entkommentiert werden
-
-\- strCpy(Terminal, xxx) xxx muss mit, ja nach Gerät, THALES_0001 oder INGENICO_0001 ausgetauscht werden
-
-\- strCpy(IP, xxx) xxx muss mit der IP Adresse des Gerätes ausgetauscht werden
-
-\- strCpy(Port, xxx) xxx muss mit dem Port für das Gerät ausgetauscht werden
-
-\- stryCpy(Password, xxx) xxx muss mit dem 6stelligen Passwort für das Gerät ausgetauscht werden
-
-\- strCpy(ShowGui, 1) Hier kann mit 1 Der Status des Bezahlvorgangs angezeigt werden. (Zum ausblenden der Maske: diesen Code auskommentieren)
-
-\- str(ShowAbort, 1) Zeigt an, wenn der Bezahlvorgang abgebrochen wurde. (Zum ausblenden der Maske: diesen Code auskommentieren)
+- Lan Anschluss / WLan
+- ZVT700 Protokoll unterstützung
+- Terminal hat eine Internetverbindung
+- Falls man das EC-Gerät sperat von A.eins nutzen möchte und die Summen bei erstellen der Rechnung selber eingeben möchte, stellt man den Parameter Bezahlterminal auf „Manuelle Bedienung“. Damit A.eins mit dem EC-Gerät kommuniziert, muss die ansteuerung über ein Makro passieren (amic_bzt_muster). In dem Makro müssen für den Betrieb im Verkauf noch einstellungen getätigt werden:
+- SimuationBZT(); muss ausommentiert werden
+- ZVT_700SYNC() muss entkommentiert werden
+- strCpy(Terminal, xxx) xxx muss mit, ja nach Gerät, THALES_0001 oder INGENICO_0001 ausgetauscht werden
+- strCpy(IP, xxx) xxx muss mit der IP Adresse des Gerätes ausgetauscht werden
+- strCpy(Port, xxx) xxx muss mit dem Port für das Gerät ausgetauscht werden
+- stryCpy(Password, xxx) xxx muss mit dem 6stelligen Passwort für das Gerät ausgetauscht werden
+- strCpy(ShowGui, 1) Hier kann mit 1 Der Status des Bezahlvorgangs angezeigt werden. (Zum ausblenden der Maske: diesen Code auskommentieren)
+- str(ShowAbort, 1) Zeigt an, wenn der Bezahlvorgang abgebrochen wurde. (Zum ausblenden der Maske: diesen Code auskommentieren)
 
 Wenn alles eingetragen worden ist, trägt man das Makro in das Steuerungsmakro in der Kassensystemverwaltung ein.
 

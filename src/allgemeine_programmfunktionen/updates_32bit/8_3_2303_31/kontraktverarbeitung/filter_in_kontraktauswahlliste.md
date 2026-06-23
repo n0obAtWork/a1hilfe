@@ -20,6 +20,6 @@ Funktion/Report: Bereich
 
 [Weitere Informationen](http://www.amic.de/hilfe/_stammdatenKontrakt.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2303.31, 33215, 717055

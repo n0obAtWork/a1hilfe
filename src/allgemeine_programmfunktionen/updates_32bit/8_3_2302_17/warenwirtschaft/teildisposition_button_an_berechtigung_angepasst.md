@@ -20,6 +20,6 @@ Funktion/Report: Teildisposition
 
 [Weitere Informationen](http://www.amic.de/hilfe/!weitereerfassungsmgl.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2302.17, 33327, 719006

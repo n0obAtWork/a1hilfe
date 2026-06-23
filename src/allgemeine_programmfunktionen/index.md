@@ -13,7 +13,7 @@ Systemvoraussetzungen für A.eins:
 
 Die vollständigen Systemvoraussetzungen und Empfehlungen für Sie entnehmen Sie dem Dokument Systemvoraussetzungen: [Systemvoraussetzungen](https://amic.de/wp-content/uploads/2025/07/A.eins_Systemvoraussetzungen.pdf)
 
-Hinweis:
+<p class="just-emphasize">Hinweis:</p>
 
 Windows Server 2012 mit einer Extended Security Updates (ESU) Lizenzierung wird nicht mehr unterstützt.
 

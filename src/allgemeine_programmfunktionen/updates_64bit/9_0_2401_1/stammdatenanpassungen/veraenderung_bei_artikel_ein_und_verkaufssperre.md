@@ -20,6 +20,6 @@ Funktion/Report: Standartfunktionen (F5, F6, F7, F8...)
 
 [Weitere Informationen](http://www.amic.de/hilfe/_weiterekennzeichen.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2401.1, 34891, 732390

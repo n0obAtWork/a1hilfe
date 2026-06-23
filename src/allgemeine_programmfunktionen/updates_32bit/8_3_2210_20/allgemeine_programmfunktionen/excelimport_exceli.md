@@ -20,6 +20,6 @@ Funktion/Report: Variante aktualisieren
 
 [Weitere Informationen](http://www.amic.de/hilfe/excelimport.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2210.20, 32891, 714258

@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/ifstatement.htm -->
 
-Syntax
+<p class="just-emphasize">Syntax</p>
 
 If ( | DOMAIN(table-name,column-name[,[typ=nnn,len=nnn][,scale=nn]]) |
 
@@ -29,23 +29,23 @@ ELSE
 
 }
 
-Purpose
+<p class="just-emphasize">Purpose</p>
 
 Einfache Strukturierungsmöglichkeit;
 
-Anwendung
+<p class="just-emphasize">Anwendung</p>
 
 Kommandodatei
 
-Berechtigung
+<p class="just-emphasize">Berechtigung</p>
 
 Alle Anwender
 
-Siehe auch
+<p class="just-emphasize">Siehe auch</p>
 
 [GOTO](./goto_und_label_statement.md), [EXIT](./exit_statement.md)
 
-Beschreibung
+<p class="just-emphasize">Beschreibung</p>
 
 Logische Abfrage um auf bestimmte Ereignisse zu reagieren. Hierfür gibt es bestimmte Schlüsselwörter:
 
@@ -81,7 +81,7 @@ Wenn der Index mit diesem Namen existiert ==> TRUE.
 **VAL(maskenfeld)==Wert  
 **Wenn ein Maskenfeld oder LDB-Feld einen bestimmten Wert annimmt==> TRUE. Mögliche Vergleichsoperatoren sind : ==, >=, &lt;=, &lt;> oder !=, >, &lt;.
 
-Beispiel
+<p class="just-emphasize">Beispiel</p>
 
 Select \* from fibuvorgstamm where fibuv_nummer is NULL;
 

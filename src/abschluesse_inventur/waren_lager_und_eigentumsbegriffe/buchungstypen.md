@@ -14,7 +14,7 @@ Um unterscheiden zu können, auf welche Bestände eine Buchung wirken soll, gibt
 | 3 | Einlagerung | Diese Buchung verändert Fremdware |
 | 4 | Kommission | Diese Buchung verändert Fremdlager |
 
-Buchungstyp eines Kontrakts
+<p class="just-emphasize">Buchungstyp eines Kontrakts</p>
 
 Beim Vorverkauf und Voreinkauf wurde bei der Erfassung stets ein Kontrakt (oder Sammelkontrakt) angelegt – die Anlage des Kontraktes war verbindlich. Mit Einführung der Buchungstypen Einlagerung und Kommission kann man nun optional auch auf die Führung solcher Bestandskontrakte verzichten. Insbesondere im Kommissionsgeschäft kann damit auf eine Vielzahl von zusätzlichen Kontrakten verzichtet werden. In den Steuerungsparametern findet man unter den Nummern 96,97 und 99 die Einstellung zu Kontraktbehandlung für die Buchungstypen Vorverkauf, Voreinkauf und Kommission. Der Buchungstyp Einlagerung wird derzeit immer ohne Kontraktbuchführung abgewickelt.
 

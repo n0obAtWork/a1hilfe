@@ -20,6 +20,6 @@ Funktion/Report: [PIB]
 
 [Weitere Informationen](http://www.amic.de/hilfe/-)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2501.5, 35499, 734329

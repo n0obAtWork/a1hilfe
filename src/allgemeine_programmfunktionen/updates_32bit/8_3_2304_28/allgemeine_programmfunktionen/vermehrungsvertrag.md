@@ -20,6 +20,6 @@ Funktion/Report: [SAATV]
 
 [Weitere Informationen](http://www.amic.de/hilfe/_allgemeineprogrammfu.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2304.28, 33694, 722654

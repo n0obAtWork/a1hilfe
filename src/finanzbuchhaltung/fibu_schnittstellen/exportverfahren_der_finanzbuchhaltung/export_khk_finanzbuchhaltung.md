@@ -34,7 +34,7 @@ Nach dem Belegexport werden die exportierten Daten mit einem Merker und einem Ei
 
 Wenn man im Feld Stammdatenexport ein **Ja** eingetragen hat, werden alle neuen und geänderten Personenkonten übertragen. Sie werden getrennt nach Debitoren und Kreditoren in die Dateien OPDEBIT.DIF bzw. OPCREDIT.DIF geschrieben. Kontokorrentkunden erscheinen in beiden Dateien.
 
-Verwendete Prozeduren
+<p class="just-emphasize">Verwendete Prozeduren</p>
 
 Es werden vier Prozeduren verwendet:
 

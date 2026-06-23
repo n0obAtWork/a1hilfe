@@ -9,7 +9,7 @@ Folgende Module sind für den Marktbereich verfügbar.
 - Inventur
 - [Permanente Inventur](./permanente_inventur.md)
 
-Starten eines Vorganges mit dem Scanner
+<p class="just-emphasize">Starten eines Vorganges mit dem Scanner</p>
 
 Die Scannervorgänge können per Menü auf dem Scanner aufgerufen werden. Dazu wird bei aktiver Scanner Software die Taste F1 gedrückt.
 
@@ -28,13 +28,13 @@ Um einen dieser Vorgänge zu starten kann entweder die Zahl eingegeben werden, o
 
 Die einzelnen Vorgänge des Scanners können natürlich auch per Scancode gestartet werden.
 
-Beenden eines Vorganges mit dem Scanner
+<p class="just-emphasize">Beenden eines Vorganges mit dem Scanner</p>
 
 Um ein Scanvorgang abzuschließen kann die Taste F2 des Scanners gedrückt werden. Dadurch wird der aktuelle Scanvorgang geschlossen.
 
 Auch hier können die einzelnen Vorgänge mit per Scancode beendet werden.
 
-Meldungen die beim Starten oder Beenden eines Vorgangs auf dem Scanner erscheinen können
+<p class="just-emphasize">Meldungen die beim Starten oder Beenden eines Vorgangs auf dem Scanner erscheinen können</p>
 
 | Meldung | Bedeutung |
 | --- | --- |
@@ -42,6 +42,6 @@ Meldungen die beim Starten oder Beenden eines Vorgangs auf dem Scanner erscheine
 | Es existiert kein offener Vorgang am Scanner. Der erfasste Befehl z.B. Bestellung Enden kann nicht verarbeitet werden. | Dies bedeutet, dass probiert wurde ein Vorgang am Scanner abzuschließen, obwohl kein offener Scanvorgang vorhanden ist. |
 | Der Scanner befindet sich gerade im z.B. Eingangslieferschein Modus. Zum Starten des Vorgangs z.B. Inventur bitte IV erneut Scannen.' | Dies bedeutet, dass probiert wurde einen neuen Vorgang auf dem Scanner zu eröffnen, obwohl noch ein Vorgang offen ist. Durch erneutes erfassen des Scancodes oder Auswahl im Menü wird der alte Vorgang abgebrochen und der neue gestartet. |
 
-Besonderheit
+<p class="just-emphasize">Besonderheit</p>
 
 Ist kein Erfassungsvorgang auf dem Scanner gestartet, so befindet sich der Scanner Automatisch im Modus der [Permanenten Inventur](../../../abschluesse_inventur/permanente_inventur/index.md). Die Besonderheit dabei ist, dass pro gescannten Artikel ein Differenzbeleg für die Permanente Inventur geschrieben wird.

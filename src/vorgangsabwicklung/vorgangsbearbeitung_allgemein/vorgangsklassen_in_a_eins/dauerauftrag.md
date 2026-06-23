@@ -18,7 +18,7 @@ Hierbei handelt es sich um einen spezielle Form des Auftrages: Im Vorgangskopf w
 | ***Dauerauftrag ändern*** **F5** | Ändern der markierten von Daueraufträge, z.B. um den als nächstes vorgeschlagenen Fälligkeitstermin zu ändern |
 | ***Anschriften aktualisieren*** | [Anschriften im Dauerauftrag manuell aktualisieren](../../vorgangsbearbeitung/dauerauftrag_anschrift_aktualisieren.md). |
 
-Dauerauftrag-Termine
+<p class="just-emphasize">Dauerauftrag-Termine</p>
 
 Bei den Dauerauftrag-Periodentypen ‚mehrfach im Monat‘ und ‚mehrfach pro Woche‘ können die Termine, an denen der Dauerauftrag ausgeführt werden soll, in einer Liste von Monatstagen beziehungsweise Wochentagen markiert werde.  
 Ausgehend von dem aktuellen Fälligkeitsdatum wird bei diesen Periodentypen der jeweils nächste markierte Tag bei der Rechnungserstellung aus dem Dauerauftrag das neue Fälligkeitsdatum berechnet.  

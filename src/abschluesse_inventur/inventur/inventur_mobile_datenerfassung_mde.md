@@ -48,8 +48,6 @@ Alternativ: Inventurbeleg nicht replizieren. Nach Fertigstellung der Aufnahme in
 
 Die Bewertung der Inventur kann auf unterschiedlichen Ebenen erfolgen:
 
-\- Bei der Inventuraufnahme (Einstellung im Inventurstamm)
-
-\- Über den Menüpunkt Bewertungspreise mit Erfassung bzw. Kalkulation und Übernahme
-
-\- Innerhalb des Menüs Inventurbestand (Variante Zählbestand) über die Funktionen ***Einzelbewertung*** und ***autom. Bewertung***
+- Bei der Inventuraufnahme (Einstellung im Inventurstamm)
+- Über den Menüpunkt Bewertungspreise mit Erfassung bzw. Kalkulation und Übernahme
+- Innerhalb des Menüs Inventurbestand (Variante Zählbestand) über die Funktionen ***Einzelbewertung*** und ***autom. Bewertung***

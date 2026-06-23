@@ -20,6 +20,6 @@ Funktion/Report: Gültigkeiten
 
 [Weitere Informationen](http://www.amic.de/hilfe/_SPA_1046.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2502.5, 37192, 747423

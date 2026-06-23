@@ -2,31 +2,31 @@
 
 <!-- source: https://amic.de/hilfe/showcursor.htm -->
 
-Syntax
+<p class="just-emphasize">Syntax</p>
 
 SHOW CURSOR [cursor-name];
 
-Purpose
+<p class="just-emphasize">Purpose</p>
 
 Anzeige der/des Cursor
 
-Anwendung
+<p class="just-emphasize">Anwendung</p>
 
 Kommandodatei, Befehlszeile
 
-Berechtigung
+<p class="just-emphasize">Berechtigung</p>
 
 Alle Anwender
 
-Siehe auch
+<p class="just-emphasize">Siehe auch</p>
 
 [SHOW BUFFER](./show_buffer_statement.md), [SHOW TABLE](./show_table_statement.md), [SHOW VIEW](./show_view_statement.md), [SHOW TRIGGER](./show_trigger_statement.md), [SHOW PROC](./show_procedure_statement.md)
 
-Beschreibung
+<p class="just-emphasize">Beschreibung</p>
 
 SHOW CURSOR ohne Name zeigt alle aktive Datenbankcursor an. Wird ein Name mit angegeben, werden die Daten, die im letzten gelesenen Satz enthalten sind angezeigt.
 
-Beispiel
+<p class="just-emphasize">Beispiel</p>
 
 SHOW CURSOR CSQL; 
 

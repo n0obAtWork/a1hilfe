@@ -23,6 +23,6 @@ Erklärung siehe Hinweise!
 
 ![](../../ImagesExt/image8_40.jpg)
 
-Besonderheit
+<p class="just-emphasize">Besonderheit</p>
 
 In dem Einrichterparameter „[Folgenden Bediener dürfen nur das Sortimentslager bearbeiten](../einrichterparameter/lagerkopierer_epa_lako.md)“ kann als Liste hinterlegt werden, welcher Bediener nur das Sortimentslager bearbeiten darf. Dieser Bediener kann dann kein anderes Lager auswählen.

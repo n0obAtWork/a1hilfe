@@ -4,7 +4,7 @@
 
 Hauptmenü > Inventur > Permanente Inventur > Permanente Inventur Prüfungen
 
-Geplante Inventur
+<p class="just-emphasize">Geplante Inventur</p>
 
 Unabhängig davon, ob eine Bestandskorrektur notwendig war, wird im Bewegungsprotokoll des Ladeträgers festgehalten, dass eine Inventur stattgefunden hat.
 
@@ -47,7 +47,7 @@ Hauptmenü > Inventur > Permanente Inventur > Laufende Inventur
 
 Dieser Belegmuss dann im Nachgang in der Variante Vorgänge bewertet werden.
 
-Ungeplante Inventur
+<p class="just-emphasize">Ungeplante Inventur</p>
 
 Im Bewegungsprotokoll des Ladeträgers wird festgehalten, dass eine Bestandskorrektur stattgefunden hat.
 

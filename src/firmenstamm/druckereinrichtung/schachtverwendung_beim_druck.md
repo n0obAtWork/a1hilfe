@@ -6,27 +6,27 @@ Moderne Drucker haben unter Umständen mehrere Papierzufuhreinrichtungen mit Vor
 
 Das kann hilfreich sein, wenn z.B. für das erste Blatt ein Papier mit vorgedrucktem Briefkopf verwendet werden soll oder der Zweitdruck mit einem andersfarbigen Papier gekennzeichnet werden soll.
 
-Hardwarevoraussetzungen
+<p class="just-emphasize">Hardwarevoraussetzungen</p>
 
 Für die Verwendung von Schächten ist es zunächst notwendig, dass der Drucker mehrere Schächte hat und diese sich über den Druckertreiber gezielt ansteuern lassen.
 
-Einrichtung im Druckerstamm
+<p class="just-emphasize">Einrichtung im Druckerstamm</p>
 
 Im [Druckerstamm [DRST]](./druckerstamm/druckerstamm_pfleger.md#DRST_Einrichtung) kann eingestellt werden, dass und welche Schächte verwendet werden sollen und welcher Schacht verwendet werden soll, wenn keine der Steuerungen dies angibt.
 
-Schachtdefinition im Formular
+<p class="just-emphasize">Schachtdefinition im Formular</p>
 
 Im [Formular [FRM]](../../zusatzprogramme/formulareinrichtung_und_zuordnung/der_formular_pfleger/index.md#Windows_Druck_Einstellungen) kann festgelegt werden, ob ein bestimmter (von der Druckerstammeinstellung abweichender) Schacht verwendet werden soll.
 
 Es kann sogar definiert werden, dass die erste Seite auf einem von den folgenden Seiten abweichenden Schacht gedruckt werden soll.
 
-Vorgangsdruckklassen-Einstellungen
+<p class="just-emphasize">Vorgangsdruckklassen-Einstellungen</p>
 
 In der [Vorgangsdruckklasse [VRGD]](./vorgangsdruckklassen.md) kann festgelegt werden, ob ein bestimmter (von der Druckerstammeinstellung abweichender) Schacht verwendet werden soll.
 
 Es kann sogar definiert werden, dass die erste Seite auf einem von den folgenden Seiten abweichenden Schacht gedruckt werden soll. Das kann hilfreich sein, wenn für das erste Blatt ein Papier mit vorgedrucktem Briefkopf verwendet werden soll.
 
-Reihenfolge der Entscheidungsfindung bei widersprüchlichen Einstellungen
+<p class="just-emphasize">Reihenfolge der Entscheidungsfindung bei widersprüchlichen Einstellungen</p>
 
 Zunächst ist zwingend notwendig, dass im Druckerstamm [DRST] Schächte definiert sind und ein Standardschacht angegeben wurde. Ohne diese Einstellung gibt es keine Schachtverwendung!
 

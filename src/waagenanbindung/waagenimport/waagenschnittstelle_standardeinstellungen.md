@@ -22,10 +22,7 @@ Durch die Einrichtung der Waage nach untenstehenden Vorgaben wird kann die Stand
 | Default-Mengeneinheit | 1<br>(ME_Nummer für „kg“ in Basis-Datenbank) | |
 | | | |
 | Aufbau der Importdatei | Position | Länge |
-| 
-Artikel (Satzart Faktura)
-
- | 37 | 6 |
+| Artikel (Satzart Faktura) | 37 | 6 |
 | Kunde | 4 | 8 |
 | Lieferscheindatum | 20 | 6 |
 | Lieferscheinnummer | 12 | 8 |

@@ -2,13 +2,13 @@
 
 <!-- source: https://amic.de/hilfe/_onlinewaage.htm -->
 
-Wareneingang
+<p class="just-emphasize">Wareneingang</p>
 
 Hauptmenü > Wareneinkauf > Online -Waage > Online-Waage Einkauf
 
 oder Direktsprung **[WAGEK]**
 
-Varianten
+<p class="just-emphasize">Varianten</p>
 
 **Hofliste Einkauf:** In dieser Variante werden alle Einkaufsbelege angezeigt.
 
@@ -16,27 +16,27 @@ Varianten
 
 Als Basisdatenstruktur für eine Offlinewiegung steht die Bitzer-Schnittstelle zur Verfügung.
 
-Warenverkauf
+<p class="just-emphasize">Warenverkauf</p>
 
 Hauptmenü > Warenverkauf > Online -Waage > Online-Waage Verkauf
 
 oder Direktsprung **[WAGVK]**
 
-Varianten
+<p class="just-emphasize">Varianten</p>
 
 **Hofliste Verkauf:** In dieser Variante werden alle Verkaufsbelege angezeigt.
 
-Waage Allgemein
+<p class="just-emphasize">Waage Allgemein</p>
 
 Hauptmenü > Saatzucht > Saatgutabwicklung > Online-Waage
 
 oder Direktsprung **[WAAGE]**
 
-Varianten
+<p class="just-emphasize">Varianten</p>
 
 **Hofliste:** Hier sind alle Wiegungen zu finden Wareneinkauf wie Warenverkauf.
 
-Speicherabfrage
+<p class="just-emphasize">Speicherabfrage</p>
 
 Die „Speichern Ja/Nein“-Abfrage in der Owaage erscheint nur dann, wenn Eintragungen in der Maske vorgenommen worden sind, ohne dass ein Artikel oder ein Kunde hinterlegt worden ist.
 

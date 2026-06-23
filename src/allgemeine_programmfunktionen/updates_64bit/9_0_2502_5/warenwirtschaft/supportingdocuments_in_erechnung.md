@@ -20,6 +20,6 @@ Funktion/Report: eRechnung verarbeiten
 
 [Weitere Informationen](http://www.amic.de/hilfe/erechnungimport.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2502.5, 36649, 744828

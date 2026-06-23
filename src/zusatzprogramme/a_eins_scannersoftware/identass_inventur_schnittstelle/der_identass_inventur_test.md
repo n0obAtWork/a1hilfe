@@ -10,11 +10,9 @@ Im Vorfeld richten Sie die Steuerparameter 809 und 810 sowie den Externen Namen 
 
 Anschließend müssen Sie noch einen weiteren Steuerparameter einrichten. Im Steuerparameter 801 halten Sie fest, welche Prozedur verwendet werden soll. Hier haben Sie folgende Möglichkeiten:
 
-\- Nein
-
-\- Private Prozedur
-
-\- Indentass Inventur
+- Nein
+- Private Prozedur
+- Indentass Inventur
 
 Wählen Sie die gewünschte Einstellung und weisen Sie dieser dann die Scanner IP zu. Wird eine private Prozedur verwendet, so tragen Sie den Namen der Prozedur in das vorgesehene Feld des Steuerparameters ein.
 

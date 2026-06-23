@@ -4,7 +4,7 @@
 
 Die Reporte werden mit Hilfe des AMIC-Etikettendrucks bearbeitet. Hier gibt es folgende Besonderheiten:
 
-FS-Formate
+<p class="just-emphasize">FS-Formate</p>
 
 Die Daten werden in der Form dargestellt, wie sie in der Datenbank stehen. D.h. das Feld FIBUVP_SOLLHABEN wird als 1 oder 2 dargestellt. Will man nun im Report die textliche Darstellung sehen, so muss und kann man dies dem Report mitteilen. Dafür existieren in Dialog „Tabelle bearbeiten“ in der Funktionsgruppe „A.eins Formatierung“ alle in der aktiven Auswahlliste verwendeten FS-Formte. Der Name der Funktion entspricht dem FS-Format. Im unteren Beispiel sieht man wie der Syntax dieser Funktionen ist.
 
@@ -12,7 +12,7 @@ Der erste Parameter ist der Zahlenwert, der als Text umgewandelt wird. Der zweit
 
 ![](../../ImagesExt/image8_1292.png)
 
-Zusätzliche Variablen
+<p class="just-emphasize">Zusätzliche Variablen</p>
 
 Für die Reporte existieren zusätzliche Variablen.
 

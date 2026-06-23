@@ -2,31 +2,31 @@
 
 <!-- source: https://amic.de/hilfe/continuestatement.htm -->
 
-Syntax
+<p class="just-emphasize">Syntax</p>
 
 CONTINUE;
 
-Purpose
+<p class="just-emphasize">Purpose</p>
 
 Beeinflussung des Abbruchs bei Fehlern.
 
-Anwendung
+<p class="just-emphasize">Anwendung</p>
 
 Kommandodatei
 
-Berechtigung
+<p class="just-emphasize">Berechtigung</p>
 
 Alle Anwender
 
-Siehe auch
+<p class="just-emphasize">Siehe auch</p>
 
 [SET ERROR](./set_error_statement.md)
 
-Beschreibung
+<p class="just-emphasize">Beschreibung</p>
 
 Mit CONTINUE könne Sie dafür sorgen, dass das folgende Statement nicht zum beenden der Ausführung ihrer Kommandodatei führt. Dies ist zum Beispiel praktisch beim Anlegen von Feldern oder Tabellen, bei denen es möglich ist, das diese schon existieren. Nach der Ausführung des Folgestatements wird wieder der alte Zustand hergestellt, der standardmäßig auf „Abbruch bei Fehler“ steht.
 
-Beispiel
+<p class="just-emphasize">Beispiel</p>
 
 CONTINUE;
 

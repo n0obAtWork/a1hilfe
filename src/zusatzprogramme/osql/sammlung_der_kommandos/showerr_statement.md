@@ -2,31 +2,31 @@
 
 <!-- source: https://amic.de/hilfe/showerrstatement.htm -->
 
-Syntax
+<p class="just-emphasize">Syntax</p>
 
 SHOWERR Feldname;
 
-Purpose
+<p class="just-emphasize">Purpose</p>
 
 Anzeige des letzten Datenbankfehlers in einem Maskenfeld;
 
-Anwendung
+<p class="just-emphasize">Anwendung</p>
 
 Kommandodatei, Befehlszeile
 
-Berechtigung
+<p class="just-emphasize">Berechtigung</p>
 
 Alle Anwender
 
-Siehe auch
+<p class="just-emphasize">Siehe auch</p>
 
 [SHOW BUFFER](./show_buffer_statement.md), [SHOW CURSOR](./show_cursor.md), [SHOW TABLE](./show_table_statement.md), [SHOW VIEW](./show_view_statement.md), [SHOW TRIGGER](./show_trigger_statement.md), [SHOW PROC](./show_procedure_statement.md)
 
-Beschreibung
+<p class="just-emphasize">Beschreibung</p>
 
 Werden die Dialoge die den Datenbankfehler anzeigen unterdrückt, kann man mit diesem Befehl eventuelle Fehlermeldungen ausgeben.
 
-Beispiel
+<p class="just-emphasize">Beispiel</p>
 
 ```sql
 // Statusline ist die Zeile unterhalb der

@@ -104,7 +104,7 @@ Zur Unterstützung der Einrichtung von Elster stehen zwei PDF-Dateien auf dem Do
 Die hier vorgenommenen Einstellungen für den Proxy-Server gelten auch für das Elster Modul zur Übertragung der Zusammenfassenden Meldung.  
     
 
-Aufruf des ELSTER - Moduls
+<p class="just-emphasize">Aufruf des ELSTER - Moduls</p>
 
 Hauptmenü > Abschlussarbeiten > Umsatzsteuer > Umsatzsteuerwerte
 
@@ -148,11 +148,11 @@ Die Daten werden über ein Dokument im XML-Format versendet. Dies kann mit diese
 
 Wählt man diesen Punkt an, so werden die Log-Datei sowie die XML-Dateien in die ZIP-Datei „Elstersupport.zip“ geschrieben. Diese Datei kann dann bei Problemfällen zusammen mit der Datei Eric.log und einer kurzen Problembeschreibung an die AMIC-Hotline gesendet werden.
 
-Anmeldung zur Sondervorauszahlung
+<p class="just-emphasize">Anmeldung zur Sondervorauszahlung</p>
 
 Die Anmeldung zur Sondervorauszahlung sucht für den Bereich alle Steuerdaten zusammen, bei denen im Steuersatz die Auswertungsposition mit der Kennzahl **39** (wegen der doppelten Verwendung für die Anmeldung zur Sondervorauszahlung und für die USTVA) für Steuer hinterlegt ist. Die Anmeldung zur Sondervorauszahlung beinhaltet automatisch den Antrag auf Dauerfristverlängerung.
 
-Sonder-/Problemfälle
+<p class="just-emphasize">Sonder-/Problemfälle</p>
 
 **Wie korrigiere ich eine bereits gesendete Voranmeldung?**
 
@@ -174,7 +174,10 @@ Mindestsystemanforderungen
 
 Diese Anforderungen werden von dem Programm-Modul der bayerischen Steuerverwaltung gestellt und können von AMIC nicht beeinflusst werden.
 
-<table class="AMICOlavsTabelle" style="WIDTH: 100%; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="100%" border="0"><tbody><tr><td style="WIDTH: 16.88%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="16%"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Betriebssystem</td><td style="WIDTH: 83.12%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="83%">Windows 8.1 oder Windows 10</td></tr><tr><td style="WIDTH: 16.88%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="16%"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Internetzugang</td><td style="WIDTH: 83.12%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="83%">Via ISDN oder DSL ist notwendig, ein Breitbandzugang wird empfohlen.</td></tr><tr><td style="WIDTH: 16.88%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="16%"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Software</td><td style="WIDTH: 83.12%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="83%">PDF-Reader mind. Adobe Acrobat Reader 9.x oder vergleichbar für verschlüsselte PDFs</td></tr></tbody></table>
+| • Betriebssystem | Windows 8.1 oder Windows 10 |
+| --- | --- |
+| • Internetzugang | Via ISDN oder DSL ist notwendig, ein Breitbandzugang wird empfohlen. |
+| • Software | PDF-Reader mind. Adobe Acrobat Reader 9.x oder vergleichbar für verschlüsselte PDFs |
 
 Die WinRT API wird nicht unterstützt.  
 Terminalserver-Lösungen werden zum derzeitigen Zeitpunkt nicht offiziell unterstützt.

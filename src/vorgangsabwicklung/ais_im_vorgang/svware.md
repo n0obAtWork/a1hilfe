@@ -34,7 +34,7 @@ Folgende Nummer, IDs werden in Abhängigkeit des Feldes an das Makro übergeben.
 | Kontraktabwahl | ID_KTRNUMMER | 3003 | Funktion |
 | Nachhaltig | ID_NH_STATUS | 7050 | Funktion |
 
-Benötigte JVARS
+<p class="just-emphasize">Benötigte JVARS</p>
 
 | JAVR | Funktion | Bedeutung |
 | --- | --- | --- |
@@ -43,7 +43,7 @@ Benötigte JVARS
 | ID | Lesend<br> | Mit dieser JVAR wird die Nummer der ID übergeben |
 | FELDNAME | Lesend | Diese JVAR enthält den Namen des aufrufenden Feldes. Das Feld kann aber auch eine Funktion sein. Es wird der Feldname aus der Spalte Maskenfeld von der Tabelle drüber an das Makro übermittelt. |
 
-Makro Beispiel
+<p class="just-emphasize">Makro Beispiel</p>
 
 ```text
 CONST

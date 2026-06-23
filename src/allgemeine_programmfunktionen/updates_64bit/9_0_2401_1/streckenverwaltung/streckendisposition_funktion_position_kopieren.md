@@ -20,6 +20,6 @@ Funktion/Report: Ändern/Neu
 
 [Weitere Informationen](http://www.amic.de/hilfe/!_vorgangsmappe.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2401.1, 34180, 726427

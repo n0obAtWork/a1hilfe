@@ -4,7 +4,7 @@
 
 Auf den gleichen Daten lassen sich unterschiedliche Ansichten erstellen. Diese werden im weiteren Verlauf Titel genannt.
 
-Erstellen / Speichern
+<p class="just-emphasize">Erstellen / Speichern</p>
 
 Im Menu „Datei“ finden Sie die Funktion „Neue Auswertung“. Diese Funktion setzt alle Einstellungen zurück. Erstellen Sie nun Ihre Auswertung.
 
@@ -14,7 +14,7 @@ Weitere Änderungen können Sie fortan ohne Angabe des Titels mit der Speichern-
 
 Wollen Sie eine bestehende Auswertung unter einem neuen Titel speichern, so verwenden Sie die Funktion „Speichern unter“. Sie werden nun nach einem neuen Titel für diese Auswertung gefragt. Die Weiteren Änderungen können nun mit der Speichern-Funktion unter diesem Namen gesichert werden.
 
-Verwenden bestehender Titel
+<p class="just-emphasize">Verwenden bestehender Titel</p>
 
 Im Menu Titel finden Sie eine Auflistung aller bisher gespeicherten Titel. Wählen Sie eine der Auswertungen aus, um diese anzuzeigen.
 

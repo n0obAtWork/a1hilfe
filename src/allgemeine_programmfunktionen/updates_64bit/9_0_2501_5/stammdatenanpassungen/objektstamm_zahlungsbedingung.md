@@ -20,6 +20,6 @@ Funktion/Report: [OBJ] - Ändern
 
 [Weitere Informationen](http://www.amic.de/hilfe/!_baustelle.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2501.5, 36691, 745693

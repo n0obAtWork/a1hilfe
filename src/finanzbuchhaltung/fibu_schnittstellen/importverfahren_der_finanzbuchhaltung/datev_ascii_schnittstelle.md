@@ -16,9 +16,11 @@ Beispiel:
 
 Für das Konto 1755 ist die Steuerklasse 2 hinterlegt. In der Importdatei steht der Betrag 14,06 €. Es wird folgender Buchungssatz gebildet:
 
-<table class="AMICOlavsTabelle" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0"><tbody><tr style="HEIGHT: 13.65pt"><td style="HEIGHT: 13.65pt; WIDTH: 11.5%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="11%">4100</td><td style="HEIGHT: 13.65pt; WIDTH: 9.28%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="9%">an</td><td style="HEIGHT: 13.65pt; WIDTH: 15.94%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="15%">1755</td><td style="HEIGHT: 13.65pt; WIDTH: 37.62%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="37%">14,06</td><td style="HEIGHT: 13.65pt; WIDTH: 25.68%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="25%">12,12</td></tr><tr style="HEIGHT: 13.65pt"><td style="HEIGHT: 13.65pt; WIDTH: 11.5%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="11%"><span style="COLOR: black"></span>&nbsp;</td><td style="HEIGHT: 13.65pt; WIDTH: 9.28%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="9%"><span style="COLOR: black"></span>&nbsp;</td><td style="HEIGHT: 13.65pt; WIDTH: 15.94%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="15%">1775</td><td style="HEIGHT: 13.65pt; WIDTH: 37.62%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="37%"><span style="COLOR: black"></span>&nbsp;</td><td style="HEIGHT: 13.65pt; WIDTH: 25.68%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="25%">1.94</td></tr></tbody></table>
+| 4100 | an | 1755 | 14,06 | 12,12 |
+| --- | --- | --- | --- | --- |
+| | | 1775 | | 1.94 |
 
-Satzaufbau
+<p class="just-emphasize">Satzaufbau</p>
 
 Jede Zeile enthält einen Datensatz und die einzelnen Werte sind durch Semikolon getrennt. Abgeschlossen werden die Zeilen mit CR/LF:  
     

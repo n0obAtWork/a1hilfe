@@ -20,6 +20,6 @@ Funktion/Report: AGB, LIB,AUB, REB, GUB ... etc.
 
 [Weitere Informationen](http://www.amic.de/hilfe/_mailversandAWLWareFunktionen.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2211.30, 32988, 715711

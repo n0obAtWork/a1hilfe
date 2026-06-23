@@ -20,6 +20,6 @@ Funktion/Report: Import an Offsetposition
 
 [Weitere Informationen](http://www.amic.de/hilfe/excelimportpfleger.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2401.1, 34729, 731079

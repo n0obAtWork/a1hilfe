@@ -20,6 +20,6 @@ Funktion/Report: Create
 
 [Weitere Informationen](http://www.amic.de/hilfe/allgemeineprogrammfu.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2304.28, 33663, 721124

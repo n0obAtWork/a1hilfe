@@ -20,6 +20,6 @@ Funktion/Report: Inventurbelege LVS erzeugen
 
 [Weitere Informationen](http://www.amic.de/hilfe/permanenteinventurmithilfedesl.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2302.17, 33347, 717473

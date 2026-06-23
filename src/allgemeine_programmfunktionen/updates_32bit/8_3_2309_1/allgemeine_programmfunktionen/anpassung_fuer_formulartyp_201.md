@@ -20,6 +20,6 @@ Funktion/Report: Listendruck
 
 [Weitere Informationen](http://www.amic.de/hilfe/schecksberformulartyp201drucke.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2309.1, 33923, 723599

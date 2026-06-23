@@ -20,6 +20,6 @@ Funktion/Report: CompileAll
 
 [Weitere Informationen](http://www.amic.de/hilfe/!_allgemeineprogrammfu.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2402.4, 35831, 739946

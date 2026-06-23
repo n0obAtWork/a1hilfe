@@ -10,9 +10,8 @@ A.eins bietet vielfältige Möglichkeiten, die Inventur organisatorisch zu unter
 
 Es gibt im Moment 2 Inventurarten:
 
-\- Hauptinventur zum Jahreswechsel
-
-\- Zwischeninventur
+- Hauptinventur zum Jahreswechsel
+- Zwischeninventur
 
 Für jede Inventur können Erhebungstag und Stichtag versetzt sein. Die am Erhebungstag festgestellte Differenz wird auf den Stichtag fortgeschrieben.
 

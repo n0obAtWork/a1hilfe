@@ -12,31 +12,31 @@ Der Pfleger ermöglicht die Erfassung eines oder mehrerer Rabatte, die in einer 
 
 So könnte z.B. grundsätzlich ein Rabatt von 2% gegeben werden, jedoch vorrangig ein Rabatt ab einem Einkaufswert von 100€ (für die Artikelgruppe) ein Rabatt von 5% gelten.
 
-Rang
+<p class="just-emphasize">Rang</p>
 
 Rangfolge in der dieser Rabatt zu berücksichtigen ist. Ein Rabatt, der bereits gegebene Rabatte berücksichtigt, sollte nicht an oberster Stelle stehen, da andere Rabatte bei seiner Berechnung noch nicht existieren.
 
-Text-Nr.
+<p class="just-emphasize">Text-Nr.</p>
 
 Hier kann ein Text aus den [Rabatt-Texten](./rabatt_texte.md) gewählt werden
 
-Prfkt.
+<p class="just-emphasize">Prfkt.</p>
 
 Preisfaktor (Anzahl der Mengeneinheiten) für Rabatte, die nicht prozentual berechnet werden. So kann z.B. ein Rabatt pro 2 oder 10 Stück(ME) gegeben werden.
 
-EKZ-Nr.
+<p class="just-emphasize">EKZ-Nr.</p>
 
 Erlöskennziffer des Rabatts. (0 = wie Artikel) siehe auch „kalk“
 
-Rab-Tab.
+<p class="just-emphasize">Rab-Tab.</p>
 
 Hier wählen Sie einen der [Rabattsätze](./rabattsaetze.md) aus, der gelten soll.
 
-InZl
+<p class="just-emphasize">InZl</p>
 
 Ja/Nein-Entscheidung, ob dieser Rabatt auf dem Ausdruck unterdrückt werden soll (JA), weil er lediglich zur internen Preisermittlung dient oder dem Belegempfänger sichtbar ausgedruckt werden sill (Nein).
 
-GrpR
+<p class="just-emphasize">GrpR</p>
 
 | Einstellung | Bedeutung |
 | --- | --- |
@@ -44,7 +44,7 @@ GrpR
 | Gruppe | Gruppenrabatt – wirkt auf alle Artikel dieser Warengruppe |
 | Preis | Dieser Rabatt wirkt zunächst auf den Einzelpreis, bevor dieser mit der Menge multipliziert wird. |
 
-kalk
+<p class="just-emphasize">kalk</p>
 
 Ja/Nein-Entscheidung, ob dieser Rabatt ein kalkulatorischer Rabatt sein soll, der als Teil des Preises berechnet und nicht gesondert ausgewiesen werden soll.
 
@@ -58,6 +58,6 @@ Ein kalkulatorischer Rabatt wird wie ein InZeile-Rabatt nicht auf dem Beleg ausg
 
 Ein Beispiel: Es wird Kaffee für 10€ verkauft, der vor dem Verkauf gemahlen wird. 0,50€ sind Kosten, die bei jedem Kilo anfallen. Der Erlös von 9,50€ soll auf das Erlöskonto Kaffee und 0,50€ auf das Erlöskonto Kaffeemühle gebucht werden.
 
-Sp.
+<p class="just-emphasize">Sp.</p>
 
 Ja/Nein-Entscheidung, ob dieser Rabatt vorübergehend gesperrt sein soll.

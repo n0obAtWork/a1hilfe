@@ -20,6 +20,6 @@ Funktion/Report: F8,F5
 
 [Weitere Informationen](http://www.amic.de/hilfe/_zertifikate.htm,%20_mandantenstammmnd.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2402.1, 34936, 732500

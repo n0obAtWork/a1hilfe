@@ -2,350 +2,350 @@
 
 <!-- source: https://amic.de/hilfe/sammelbereich.htm -->
 
-\-10001
+<p class="just-emphasize">\-10001</p>
 
 keine Details verfügbar
 
-\-10002
+<p class="just-emphasize">\-10002</p>
 
 keine Details verfügbar
 
-\-10003
+<p class="just-emphasize">\-10003</p>
 
 keine Details verfügbar
 
-\-10004
+<p class="just-emphasize">\-10004</p>
 
 keine Details verfügbar
 
-\-10005
+<p class="just-emphasize">\-10005</p>
 
 keine Details verfügbar
 
-\-10006
+<p class="just-emphasize">\-10006</p>
 
 keine Details verfügbar
 
-\-10007
+<p class="just-emphasize">\-10007</p>
 
 keine Details verfügbar
 
-\-10008
+<p class="just-emphasize">\-10008</p>
 
 keine Details verfügbar
 
-\-10009
+<p class="just-emphasize">\-10009</p>
 
 keine Details verfügbar
 
-\-10010
+<p class="just-emphasize">\-10010</p>
 
 keine Details verfügbar
 
-\-10011
+<p class="just-emphasize">\-10011</p>
 
 keine Details verfügbar
 
-\-10012
+<p class="just-emphasize">\-10012</p>
 
 keine Details verfügbar
 
-\-10013
+<p class="just-emphasize">\-10013</p>
 
 keine Details verfügbar
 
-\-10014
+<p class="just-emphasize">\-10014</p>
 
 keine Details verfügbar
 
-\-10015
+<p class="just-emphasize">\-10015</p>
 
 keine Details verfügbar
 
-\-10020
+<p class="just-emphasize">\-10020</p>
 
 keine Details verfügbar
 
-\-10021
+<p class="just-emphasize">\-10021</p>
 
 keine Details verfügbar
 
-\-10022
+<p class="just-emphasize">\-10022</p>
 
 keine Details verfügbar
 
-\-10023
+<p class="just-emphasize">\-10023</p>
 
 keine Details verfügbar
 
-\-10024
+<p class="just-emphasize">\-10024</p>
 
 keine Details verfügbar
 
-\-10025
+<p class="just-emphasize">\-10025</p>
 
 keine Details verfügbar
 
-\-10026
+<p class="just-emphasize">\-10026</p>
 
 keine Details verfügbar
 
-\-10027
+<p class="just-emphasize">\-10027</p>
 
 keine Details verfügbar
 
-\-10028
+<p class="just-emphasize">\-10028</p>
 
 keine Details verfügbar
 
-\-10029
+<p class="just-emphasize">\-10029</p>
 
 keine Details verfügbar
 
-\-10030
+<p class="just-emphasize">\-10030</p>
 
 keine Details verfügbar
 
-\-10031
+<p class="just-emphasize">\-10031</p>
 
 keine Details verfügbar
 
-\-10032
+<p class="just-emphasize">\-10032</p>
 
 keine Details verfügbar
 
-\-10033
+<p class="just-emphasize">\-10033</p>
 
 keine Details verfügbar
 
-\-10034
+<p class="just-emphasize">\-10034</p>
 
 keine Details verfügbar
 
-\-10035
+<p class="just-emphasize">\-10035</p>
 
 keine Details verfügbar
 
-\-10036
+<p class="just-emphasize">\-10036</p>
 
 keine Details verfügbar
 
-\-10037
+<p class="just-emphasize">\-10037</p>
 
 keine Details verfügbar
 
-\-10038
+<p class="just-emphasize">\-10038</p>
 
 keine Details verfügbar
 
-\-10039
+<p class="just-emphasize">\-10039</p>
 
 keine Details verfügbar
 
-\-10040
+<p class="just-emphasize">\-10040</p>
 
 keine Details verfügbar
 
-\-10041
+<p class="just-emphasize">\-10041</p>
 
 keine Details verfügbar
 
-\-10042
+<p class="just-emphasize">\-10042</p>
 
 keine Details verfügbar
 
-\-10043
+<p class="just-emphasize">\-10043</p>
 
 keine Details verfügbar
 
-\-10044
+<p class="just-emphasize">\-10044</p>
 
 keine Details verfügbar
 
-\-10045
+<p class="just-emphasize">\-10045</p>
 
 keine Details verfügbar
 
-\-10046
+<p class="just-emphasize">\-10046</p>
 
 keine Details verfügbar
 
-\-10047
+<p class="just-emphasize">\-10047</p>
 
 keine Details verfügbar
 
-\-10048
+<p class="just-emphasize">\-10048</p>
 
 keine Details verfügbar
 
-\-10049
+<p class="just-emphasize">\-10049</p>
 
 keine Details verfügbar
 
-\-10050
+<p class="just-emphasize">\-10050</p>
 
 keine Details verfügbar
 
-\-10051
+<p class="just-emphasize">\-10051</p>
 
 keine Details verfügbar
 
-\-10052
+<p class="just-emphasize">\-10052</p>
 
 keine Details verfügbar
 
-\-10053
+<p class="just-emphasize">\-10053</p>
 
 keine Details verfügbar
 
-\-10054
+<p class="just-emphasize">\-10054</p>
 
 keine Details verfügbar
 
-\-10055
+<p class="just-emphasize">\-10055</p>
 
 keine Details verfügbar
 
-\-10056
+<p class="just-emphasize">\-10056</p>
 
 keine Details verfügbar
 
-\-10057
+<p class="just-emphasize">\-10057</p>
 
 keine Details verfügbar
 
-\-10058
+<p class="just-emphasize">\-10058</p>
 
 keine Details verfügbar
 
-\-10059
+<p class="just-emphasize">\-10059</p>
 
 keine Details verfügbar
 
-\-10060
+<p class="just-emphasize">\-10060</p>
 
 keine Details verfügbar
 
-\-10061
+<p class="just-emphasize">\-10061</p>
 
 keine Details verfügbar
 
-\-10099
+<p class="just-emphasize">\-10099</p>
 
 keine Details verfügbar
 
-\-10100
+<p class="just-emphasize">\-10100</p>
 
 keine Details verfügbar
 
-\-10101
+<p class="just-emphasize">\-10101</p>
 
 keine Details verfügbar
 
-\-10102
+<p class="just-emphasize">\-10102</p>
 
 keine Details verfügbar
 
-\-10103
+<p class="just-emphasize">\-10103</p>
 
 keine Details verfügbar
 
-\-10104
+<p class="just-emphasize">\-10104</p>
 
 keine Details verfügbar
 
-\-10105
+<p class="just-emphasize">\-10105</p>
 
 keine Details verfügbar
 
-\-10130
+<p class="just-emphasize">\-10130</p>
 
 keine Details verfügbar
 
-\-10131
+<p class="just-emphasize">\-10131</p>
 
 keine Details verfügbar
 
-\-10132
+<p class="just-emphasize">\-10132</p>
 
 keine Details verfügbar
 
-\-10133
+<p class="just-emphasize">\-10133</p>
 
 keine Details verfügbar
 
-\-10140
+<p class="just-emphasize">\-10140</p>
 
 keine Details verfügbar
 
-\-10150
+<p class="just-emphasize">\-10150</p>
 
 keine Details verfügbar
 
-\-10151
+<p class="just-emphasize">\-10151</p>
 
 keine Details verfügbar
 
-\-10152
+<p class="just-emphasize">\-10152</p>
 
 keine Details verfügbar
 
-\-10153
+<p class="just-emphasize">\-10153</p>
 
 keine Details verfügbar
 
-\-10154
+<p class="just-emphasize">\-10154</p>
 
 keine Details verfügbar
 
-\-10155
+<p class="just-emphasize">\-10155</p>
 
 keine Details verfügbar
 
-\-10156
+<p class="just-emphasize">\-10156</p>
 
 keine Details verfügbar
 
-\-10170
+<p class="just-emphasize">\-10170</p>
 
 keine Details verfügbar
 
-\-10171
+<p class="just-emphasize">\-10171</p>
 
 keine Details verfügbar
 
-\-10200
+<p class="just-emphasize">\-10200</p>
 
 keine Details verfügbar
 
-\-10300
+<p class="just-emphasize">\-10300</p>
 
 keine Details verfügbar
 
-\-10301
+<p class="just-emphasize">\-10301</p>
 
 keine Details verfügbar
 
-\-10302
+<p class="just-emphasize">\-10302</p>
 
 keine Details verfügbar
 
-\-10303
+<p class="just-emphasize">\-10303</p>
 
 keine Details verfügbar
 
-\-10304
+<p class="just-emphasize">\-10304</p>
 
 keine Details verfügbar
 
-\-10400
+<p class="just-emphasize">\-10400</p>
 
 keine Details verfügbar
 
-\-10999
+<p class="just-emphasize">\-10999</p>
 
 Prozedur o. Funktion ist Obsolete
 
-\-20000
+<p class="just-emphasize">\-20000</p>
 
 keine Details verfügbar

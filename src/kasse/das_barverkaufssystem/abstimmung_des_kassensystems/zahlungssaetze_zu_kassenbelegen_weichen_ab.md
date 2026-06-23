@@ -8,83 +8,10 @@ Zur Bereinigung gibt es keine maschinelle Unterstützung. Nachfolgende SQL Ausdr
 
 Fehlende oder abweichende Zahlungen zu Belegen:
 
-| 
-```sql
-select
-       (select sum( zahlbetrag) from acashbelgzhlg z1
-
-      where z1.zahlks=belegks and
-      z1.zahlbelegid=belegid
-         and
-      z1.filialnummer=a.filialnummer and zahlart in (1,2,3,4,5,12)) gegeben,
-
-       (select sum( zahlbetrag) from acashbelgzhlg z2
-
-      where z2.zahlks=belegks and z2.zahlbelegid=belegid
-         and
-      z2.filialnummer=a.filialnummer and zahlart=10) zurueck,
-       (select sum( zahlbetrag) from acashbelgzhlg z3
-
-      where z3.zahlks=belegks and z3.zahlbelegid=belegid
-         and
-      z3.filialnummer=a.filialnummer and zahlart=11) skonto,
-       isnull(gegeben,0) - isnull(zurueck,0)  as
-      Betrag,
-       if (gegeben is
-      null and zurueck is null and belegsummebrutto != 0) then 'fehlt'
-
-       else if
-      abs(belegsummebrutto) != abs(Betrag) then 'abweichend' else '' endif endif
-      watdenn,
-       BelegKs,
-      BelegKsi,
-       cast(BelegDatum
-      as date) Belegdatumdatum, BelegNr,
-       (select
-      FormLstBezeich from Formatlist
-
-      where FormLstKennung = 'AcashBelegAr' and FormLstWert = Belegart
-
-      and SprachNummer = 0) BelegArtBez,
-       Belegart,
-
-      BelegSummeBrutto, BelegKunde
-     from AcashBelg a
-     where watdenn != ''
-
-     order by
-      a.FilialNummer, a.BelegKs, a.BelegKsi, a.Belegart,
-      a.Belegdatum
-```
-
- |
+| <pre><code>select&#10; (select sum( zahlbetrag) from acashbelgzhlg z1&#10;&#10; &#10; where z1.zahlks=belegks and&#10; z1.zahlbelegid=belegid&#10; and&#10; z1.filialnummer=a.filialnummer and zahlart in (1,2,3,4,5,12)) gegeben,&#10;&#10; (select sum( zahlbetrag) from acashbelgzhlg z2&#10;&#10; &#10; where z2.zahlks=belegks and z2.zahlbelegid=belegid&#10; and&#10; z2.filialnummer=a.filialnummer and zahlart=10) zurueck,&#10; (select sum( zahlbetrag) from acashbelgzhlg z3&#10;&#10; &#10; where z3.zahlks=belegks and z3.zahlbelegid=belegid&#10; and&#10; z3.filialnummer=a.filialnummer and zahlart=11) skonto,&#10; isnull(gegeben,0) - isnull(zurueck,0) as&#10; Betrag,&#10; if (gegeben is&#10; null and zurueck is null and belegsummebrutto != 0) then 'fehlt'&#10;&#10; else if&#10; abs(belegsummebrutto) != abs(Betrag) then 'abweichend' else '' endif endif&#10; watdenn,&#10; BelegKs,&#10; BelegKsi,&#10; cast(BelegDatum&#10; as date) Belegdatumdatum, BelegNr,&#10; (select&#10; FormLstBezeich from Formatlist&#10; &#10; where FormLstKennung = 'AcashBelegAr' and FormLstWert = Belegart&#10;&#10; &#10; and SprachNummer = 0) BelegArtBez,&#10; Belegart,&#10;&#10; &#10; BelegSummeBrutto, BelegKunde&#10; from AcashBelg a&#10; where watdenn != ''&#10;&#10; order by&#10; a.FilialNummer, a.BelegKs, a.BelegKsi, a.Belegart,&#10; a.Belegdatum</code></pre> |
 | --- |
 
 Fehlende Belege zu Zahlungssätzen:
 
-| 
-```sql
-select
-       ZahlKs, ZahlKsi,
-
-       today(*)
-      Belegdatumdatum, ZahlBelegNr,
-       (select
-      FormLstBezeich from Formatlist
-
-      where FormLstKennung = 'AcashBelegAr' and FormLstWert = zahlBelegart
-
-      and SprachNummer =0) BelegArtBez,
-       zahlbelegart
-      Belegart,
-       zahlbetrag
-      BelegSummeBrutto, filialnummer, Zahlkonto , *
-from acashbelgzhlg z
-where not exists
-(select belegid from Acashbelg a
-      where belegid=zahlbelegid and belegks=zahlks and
-      a.filialnummer=z.filialnummer)
-```
-
- |
+| <pre><code>select&#10; ZahlKs, ZahlKsi,&#10;&#10; today(*)&#10; Belegdatumdatum, ZahlBelegNr,&#10; (select&#10; FormLstBezeich from Formatlist&#10; &#10; where FormLstKennung = 'AcashBelegAr' and FormLstWert = zahlBelegart&#10;&#10; &#10; and SprachNummer =0) BelegArtBez,&#10; zahlbelegart&#10; Belegart,&#10; zahlbetrag&#10; BelegSummeBrutto, filialnummer, Zahlkonto , *&#10;from acashbelgzhlg z&#10;where not exists&#10;(select belegid from Acashbelg a&#10; where belegid=zahlbelegid and belegks=zahlks and&#10; a.filialnummer=z.filialnummer)</code></pre> |
 | --- |

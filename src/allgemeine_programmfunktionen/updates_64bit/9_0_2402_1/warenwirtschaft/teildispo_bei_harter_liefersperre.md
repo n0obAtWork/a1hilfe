@@ -20,6 +20,6 @@ Funktion/Report: Teildisposition Lieferschein
 
 [Weitere Informationen](http://www.amic.de/hilfe/auftrag.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2402.1, 34897, 731498

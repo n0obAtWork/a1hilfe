@@ -4,11 +4,11 @@
 
 In allen Funktionsmenüs steht die Funktion ***Einrichterparameter*** zur Verfügung. Auf dieser sind drei Registerkarten zur Einrichtung der jeweils aktuellen Maske.
 
-Parameter
+<p class="just-emphasize">Parameter</p>
 
 Auf dieser Registerkarte werden alle Parameter der aktuellen Maske angezeigt. Änderungen werden nur für die angezeigte Bedienerklasse übernommen. Eine Übersicht alle Masken kann auf der Seite [Einrichterparameter](../../firmenstamm/einrichterparameter/index.md) gefunden werden. Dort werden auch die Parameter der jeweiligen Maske beschrieben.
 
-Bedienerklassenzuordnung
+<p class="just-emphasize">Bedienerklassenzuordnung</p>
 
 Auf dieser Registerkarte können die Parameter für andere Bedienerklassen übernommen werden. Um die Parameter für eine Bedienerklasse zu übernehmen, muss in der jeweiligen Zeile die Spalte „Übernehmen“ den Wert „Ja“ erhalten.
 
@@ -23,7 +23,7 @@ Nachdem die Auswahl für die entsprechenden Bedienerklassen auf „Ja“ gestell
 | Bezeichnung | Zeigt die Bezeichnung der Bedienerklasse an. |
 | Benutzer | Zeigt eine Liste der Benutzer der Bedienerklasse an. (Liste ist auf 255 Zeichen gekürzt) |
 
-Maskenfelder
+<p class="just-emphasize">Maskenfelder</p>
 
 Zuweilen sind Begriffe in A.eins je nach Arbeitsbereich oder Einsatzort der Firma abweichend zu benennen. Hier können Bezeichnungen von Feldern individualisiert werden.
 

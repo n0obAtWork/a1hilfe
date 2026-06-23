@@ -20,6 +20,6 @@ Funktion/Report: F5, F8
 
 [Weitere Informationen](http://www.amic.de/hilfe/!inventuraufnahme.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2402.1, 34735, 730470

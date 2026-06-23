@@ -16,15 +16,15 @@ Bei einem Kontrakt der Kontraktklasse 3 (Verkaufskontrakt Rohware) auf Rohwarena
 
 bei einem Kontrakt der Kontraktklasse 13 (Einkaufskontrakt Rohware) auf Rohwareneingang.
 
-Anlage eines Kontraktes
+<p class="just-emphasize">Anlage eines Kontraktes</p>
 
 Es besteht die Möglichkeit auf der Waagemaske einen [Kontrakt](../../../kontrakt/index.md) neu anzulegen. Dazu wird der Kunde / Lieferant ausgewählt dann muss noch ein Artikel ausgewählt werden und in das Feld Dispo-Menge wird die Kontraktmenge eingetragen. Dann wird per Funktion ***Kontraktauswahl*** der Kontrakt als gesamt Mengen Kontrakt angelegt. Der Kontrakt wird dann automatisch in das Feld Kontraktnummer auf der Waagemaske übernommen und es wird die erste Zeile in dem Grid [Kontraktverteilung](../pflichtfelder_an_der_waagenmaske.md) vorbelegt.
 
-Hinzufügen eines Artikels zu einem Kontrakt
+<p class="just-emphasize">Hinzufügen eines Artikels zu einem Kontrakt</p>
 
 Es besteht die Möglichkeit, den Artikel des Kontraktes zu wechseln, dann wird an den Kontrakt der neue Artikel angefügt. Dazu muss der Einrichterparameter „Alternativartikel im Kontrakt zulassen“ auf Ja gestellt. Dann wird beim Speichern der Daten der Artikel in den Kontrakt übernommen.
 
-Artikelauswahl bei Kontraktzuordnung
+<p class="just-emphasize">Artikelauswahl bei Kontraktzuordnung</p>
 
 Im Standard wird die Itembox 'IB_Kontrakt_Artikel_Waage' verwendet. Diese Itembox wirkt auf dem Artikelfeld und zeigt alle Kontraktartikel und die Artikel aus der Kontraktausweichliste an. Dabei ist zu beachten, dass nur bei einem Gesamtmengen-Kontrakt der Kontrakt auch dem Vorgang zugeordnet wird. Ist der Kontrakt ein Einzelmengen-Kontrakt, so muss der Schalter 'Kontrakt überziehen' im Prozess auf 'Ja' gestellt werden, damit der Kontrakt bei der Vorgangserzeugung gezogen wird.  
     

@@ -11,13 +11,13 @@ Dazu wird in der Variante „Terresstatistik Export“ der ***Statisikexport*** 
 
 Bevor die Statistik übermittelt werden kann, müssen auf der Registerkarte Optionen folgende Einstellungen vorgenommen werden.
 
-Registerkarte Statistikexport
+<p class="just-emphasize">Registerkarte Statistikexport</p>
 
 Wenn die Statistik manuell exportiert werden soll, so kann in das Feld manuell das Jahr und die Periode eingetragen werden. Es ist möglich eine Statistik für eine Periode mehrfach zu übertragen.
 
 In der unteren Tabelle wird angezeigt welche Statistik für welche Periode schon übermittelt worden ist.
 
-Registerkarte Optionen
+<p class="just-emphasize">Registerkarte Optionen</p>
 
 In dem Feld „Statistik Export“ die Prozedur angegeben, die die Statistik erstellt. Diese Prozedur kann privatisiert werden. Das Feld wird mit der Standardprozedur „TerresdatenexportStatistik“ vorbelegt.
 
@@ -25,7 +25,7 @@ In dem Feld „Pfad zur Ausgabe der Exportdatei“ wird der Pfad angegeben wohin
 
 Achtung der Pfad muss relativ zum Datenbankserver liegen. Der Pfad wird vorbelegt mit dem Export Verzeichnis von A.eins, wenn dieses sich Anhand der Logdatei der Datenbank ermitteln lässt. Dafür muss die Datenbankeigenschaft consolelogfile gesetzt sein. Kann der Pfad nicht vorbelegt werden, so muss ein Pfad eingetragen werden.
 
-Ablauf
+<p class="just-emphasize">Ablauf</p>
 
 Die Statistik kann manuell übertragen werden oder per Event als automatischer Lauf.
 
@@ -33,11 +33,11 @@ Bei der manuellen Übertragung ist es möglich für eine Periode den Export mehr
 
 Bei der Übertragung per [Event](../../zusatzprogramme/events/datendrehscheibe_statistikexport.md) wird die letzte geschlossen Periode übermittelt, die noch nicht exportiert worden ist. Dazu wird der Prozedur in den Parametern in_Jahrnummer und in_perinummer jeweils die 0 übergeben.
 
-Prozedur
+<p class="just-emphasize">Prozedur</p>
 
 Folgende Prozedur „TerresdatenexportStatistik“ erzeugt die Statistik, welche exportiert warden kann.
 
-Felder in der CSV des Statistiksexports
+<p class="just-emphasize">Felder in der CSV des Statistiksexports</p>
 
 | ![\*](../../ImagesExt/image8_1556.jpg "*") Feldnamen | ![\*](../../ImagesExt/image8_1556.jpg "*") Bedeutung |
 | --- | --- |

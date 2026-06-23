@@ -20,6 +20,6 @@ Funktion/Report: F8, F5
 
 [Weitere Informationen](http://www.amic.de/hilfe/_baustelle.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2401.3, 35275, 735165

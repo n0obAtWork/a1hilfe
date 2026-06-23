@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/gotoundlabelstatement.htm -->
 
-Syntax
+<p class="just-emphasize">Syntax</p>
 
 GOTO label;
 
@@ -14,27 +14,27 @@ GOTO label;
 
 :label;
 
-Purpose
+<p class="just-emphasize">Purpose</p>
 
 Befehlsfolgen in Kommandodateien überspringen.
 
-Anwendung
+<p class="just-emphasize">Anwendung</p>
 
 Kommandodatei
 
-Berechtigung
+<p class="just-emphasize">Berechtigung</p>
 
 Alle Anwender
 
-Siehe auch
+<p class="just-emphasize">Siehe auch</p>
 
 [EXIT](./exit_statement.md), [IF](./if_statement.md)
 
-Beschreibung
+<p class="just-emphasize">Beschreibung</p>
 
 Eigentlich sind Kommandodateien dafür vorgesehen, sequentiell abgearbeitet zu werden. Nun kann es aber sein, das man bestimmte Befehle nicht oder mehrfach abarbeiten muss. Dazu dient GOTO. Da die Kommandodateien nicht den Anspruch einer Programmiersprache erheben und es sonst keine Befehle für Schleifen gibt, kann man darüber hinwegsehen, dass dies ein unter Programmierern gemiedener Befehl ist.
 
-Beispiel
+<p class="just-emphasize">Beispiel</p>
 
 :Nochmal
 

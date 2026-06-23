@@ -16,6 +16,6 @@ Ist der Wiegung schon ein Kontrakt zugeordnet, so werden die Kontraktinformation
 | Preisart | Anwenderformat af_Pricing. Folgende Standardwerte werden ausgeliefert.<br>• 0 Basis<br>• 1 DP<br>• 2 HTA |
 | Bemerkung | Bemerkungsfeld |
 
-Artikel
+<p class="just-emphasize">Artikel</p>
 
 Der Artikel wird aus der Wiegung vorbelegt und kann nicht manuell hinzugefügt werden.

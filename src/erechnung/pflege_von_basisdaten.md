@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/pflegevonbasisdaten.htm -->
 
-Hinweis
+<p class="just-emphasize">Hinweis</p>
 
 Pflegen Sie Ihre Daten korrekt und vollständig!
 

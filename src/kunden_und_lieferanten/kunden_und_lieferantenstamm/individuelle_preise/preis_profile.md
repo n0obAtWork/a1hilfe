@@ -49,14 +49,9 @@ Es gibt verschiedene Einstellungsmöglichkeiten, mit denen man die Informationen
 
 **Funktionen**
 
-\- Hilfe F1: Öffnet die Hilfe zur Verwendung und Bearbeitung der Profile aus Auswahlliste Kunden
-
-\- Als allgemein gültiges Profil merken: merkt sich den gegenwärtig im Feld Profilname angegeben Wert als nicht zugeordnetes Profil zur Verwendung aller anderen Kunden/Lieferanten ohne eigener Profilzuordnung
-
-\- Speichern F9: Speichert die Änderungen dieser Ansicht
-
-\- Kunden vom Profil lösen F7: löst den aktuellen Kunden von den Profilen. Wird der Kunde erneut mit der Anwendung Individuelle Preise verwendet, so wird für ihn das Standardprofil geladen.
-
-\- Ansicht wechseln F6: wechselt Maskenansicht hin zur Tabellenansicht der Artikel
-
-\- Ende ESC: verlassen der Anwendung Individuelle Preise
+- Hilfe F1: Öffnet die Hilfe zur Verwendung und Bearbeitung der Profile aus Auswahlliste Kunden
+- Als allgemein gültiges Profil merken: merkt sich den gegenwärtig im Feld Profilname angegeben Wert als nicht zugeordnetes Profil zur Verwendung aller anderen Kunden/Lieferanten ohne eigener Profilzuordnung
+- Speichern F9: Speichert die Änderungen dieser Ansicht
+- Kunden vom Profil lösen F7: löst den aktuellen Kunden von den Profilen. Wird der Kunde erneut mit der Anwendung Individuelle Preise verwendet, so wird für ihn das Standardprofil geladen.
+- Ansicht wechseln F6: wechselt Maskenansicht hin zur Tabellenansicht der Artikel
+- Ende ESC: verlassen der Anwendung Individuelle Preise

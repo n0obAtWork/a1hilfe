@@ -8,27 +8,27 @@ Oder Direktsprung **[ZAGE]**
 
 Es gibt für Zu-/Abschläge bestimmte Sätze, die in bestimmten Zeiträumen gültig sind und in einer zu definierenden Formel zu berechnen sind.
 
-Zu-/Abschlag Bezeichnung
+<p class="just-emphasize">Zu-/Abschlag Bezeichnung</p>
 
 Bezeichnung für den Rabatt
 
-Steuerschlüssel
+<p class="just-emphasize">Steuerschlüssel</p>
 
 Steuerschlüssel für diesen Rabatt
 
-Zu/Abschlagstyp (nur für [openTRANS](../../../firmenstamm/steuerparameter/lizenzen/opentrans_lizenz_spa_721.md))
+<p class="just-emphasize">Zu/Abschlagstyp (nur für [openTRANS](../../../firmenstamm/steuerparameter/lizenzen/opentrans_lizenz_spa_721.md))</p>
 
 Hier wird die Art des Zu-/Abschlags für openTRANS eingestellt.
 
-Ab Datum
+<p class="just-emphasize">Ab Datum</p>
 
 Beginn der Gültigkeit des Satzes
 
-Bis Datum
+<p class="just-emphasize">Bis Datum</p>
 
 Letzter Tag der Gültigkeit dieses Satzes
 
-Zu-/Abschlagsformel
+<p class="just-emphasize">Zu-/Abschlagsformel</p>
 
 | Formel | Bedeutung |
 | --- | --- |
@@ -42,6 +42,6 @@ Zu-/Abschlagsformel
 | Satz je Gewichtseinheit | Es wird ein fester Zu-Abschlagsbetrag pro Gewichtseinheit gegeben. Der Artikel wird in einer Mengeneinheit fakturiert, die nicht unbedingt das Gewicht beinhalten muss. Im Artikel kann jedoch ein Artikelgewicht hinterlegt werden.<br>So kann z.B. ein Einkauf von 10 Säcken (à 50kg) |
 | Betrag manuell | Hier kann ein fester Betrag für einen Einkauf eingetragen werden. So kann z.B. stets 10€ für den Kauf mindestens eines bestimmten Artikels gegeben werden. |
 
-Prozent/Preis
+<p class="just-emphasize">Prozent/Preis</p>
 
 Hier wird nun der Zu-Abschlagsbetrag (Satz) oder der Prozentwert (Prozent) eingetragen für den dieser Zu-Abschlag gelten soll. Negative Werte stellen einen Preisabschlag dar.

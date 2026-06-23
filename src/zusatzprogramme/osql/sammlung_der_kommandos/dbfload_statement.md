@@ -2,31 +2,31 @@
 
 <!-- source: https://amic.de/hilfe/dbfloadstatement.htm -->
 
-Syntax
+<p class="just-emphasize">Syntax</p>
 
 DBFLOAD [NOANSI] Dateiname.dbf [INTO Relationsname]
 
-Purpose
+<p class="just-emphasize">Purpose</p>
 
 Einlesen einer DBASE Tabelle
 
-Anwendung
+<p class="just-emphasize">Anwendung</p>
 
 Befehlszeile, Kommandodatei
 
-Berechtigung
+<p class="just-emphasize">Berechtigung</p>
 
 Alle Anwender
 
-Siehe auch
+<p class="just-emphasize">Siehe auch</p>
 
 [LOAD](./load.md), [READ](./read.md), [IDENTLOAD](./identload_statement.md), [DBFCREATE](./dbfcreate_statement_ab_version_5_0.md)
 
-Beschreibung
+<p class="just-emphasize">Beschreibung</p>
 
 Man kann mit dem Befehl DBFLOAD direkt Daten die im dBASE Format ( Version dBASE III+ und dBase IV )abgelegt sind, in Relationen abspeichern. Existiert die angegebene Relation nicht wird sie anhand der Datenbeschreibung innerhalb der Datei angelegt. Ist kein Relationsname angegeben wird der Dateiname hierfür herangezogen. Es werden folgende Feldtypen ausgewertete: Character, Numerisch, Logical, Datum, Gleitpunkt. Dbasedateien mit anderen Feldtypen können nicht bearbeitet werden.  
  Ist in der DBF-Datei nicht die Codepage 1252 (Windows ANSI-Code), so wird für die Umlautdarstellung eine Codepagekonvertierung von MSDos nach Windows vorgenommen. Will man diese Konvertierung nicht haben, so muss man NOANSI angeben. ACHTUNG : NOANSI muss direkt hinter DBFLOAD stehen!
 
-Beispiel
+<p class="just-emphasize">Beispiel</p>
 
 DBFLOAD FOP1.DBF into AMIC_OPS;

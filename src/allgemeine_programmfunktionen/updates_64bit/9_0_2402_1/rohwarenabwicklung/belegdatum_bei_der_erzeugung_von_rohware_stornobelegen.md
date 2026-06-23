@@ -20,6 +20,6 @@ Funktion/Report: Abr.Stornobeleg, Sammel-Storno erstellen
 
 [Weitere Informationen](http://www.amic.de/hilfe/_rwsammelbearbeiten.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2402.1, 34730, 730993

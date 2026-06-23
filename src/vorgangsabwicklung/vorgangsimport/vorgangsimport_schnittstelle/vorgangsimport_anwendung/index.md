@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_vimp_anwendung.htm -->
 
-Folgende Standard Varianten stehen zur Auswahl
+<p class="just-emphasize">Folgende Standard Varianten stehen zur Auswahl</p>
 
 1. Vorgangsimport
 
@@ -10,17 +10,17 @@ Folgende Standard Varianten stehen zur Auswahl
 
 3. Vorgangsimportstatistik
 
-Varianten „Vorgangsimport“ und „Importierte Positionen bearbeiten“
+<p class="just-emphasize">Varianten „Vorgangsimport“ und „Importierte Positionen bearbeiten“</p>
 
 Da sich die beiden Varianten „Vorgangsimport“ und „Importierte Positionen bearbeiten“ sich nicht wesentlich unterscheiden werden diese beiden Varianten unter diesem Punkt beschrieben.
 
 Der Unterschied zwischen der Variante „Vorgansimport“ und „Importiert Vorgänge bearbeiten“ liegt im wesentliche darin, dass bestimmte Felder in der Auswahlliste farblich markiert werden, wenn diese zu einem nicht erfolgreichem Anlegen des Vorgangs führen würden. Des Weiteren besteht die Möglichkeit in dieser Variante einzelne Position zu Bearbeiten.
 
-Automatik
+<p class="just-emphasize">Automatik</p>
 
 In der [Automatikschnittstelle](http://www.amic.de/ihilfe/#!XMLDocuments/AeinsInterface/html/M_JPL_JFunktionen_VimpErzeugeBelege_5_2981a6cf.htm) könne automatisierte Importprozesse realisiert werden, wie z.B. nächtliche Übernahmen von Tankbelegen oder automatisierte Übernahmen von EDI Ordersätzen.
 
-Auswahlliste
+<p class="just-emphasize">Auswahlliste</p>
 
 In der Auswahlliste der Variante „Importierte Positionen bearbeiten“ können bestimmte Felder farblich markiert, wenn diese zu einem nicht erfolgreichen Anlegen des Vorgangs führen würden.
 
@@ -34,29 +34,29 @@ Folgende Bedeutung haben die farblich markierten Felder
 | Artikellieferant / Artikellieferant | |
 | Status Position | 1. Weiß Bereit Vorgang kann erzeugt werden<br>2. Grün Belegerzeugung oder Einspielung läuft<br>3. Rot Es sind Fehler bei der Einspielung, beim Erzeugen aufgetreten oder der Positionssatz ist gelöscht worden.<br> |
 
-Gleiche Funktionen in den Varianten „Vorgangsimport“ und „Importierte Positionen bearbeiten“
+<p class="just-emphasize">Gleiche Funktionen in den Varianten „Vorgangsimport“ und „Importierte Positionen bearbeiten“</p>
 
-Daten einlesen(Vorg.Import)
+<p class="just-emphasize">Daten einlesen(Vorg.Import)</p>
 
 Mit dieser Funktion können Vorgangsdaten die in einer Datei gespeichert sind eingelesen werden. Für das Einlesen und Speichern der Daten ist das Makro Vorgangeinlesen zuständig.
 
-VIMP (Positionen)
+<p class="just-emphasize">VIMP (Positionen)</p>
 
 Diese Funktion ruft eine weitere Auswahlliste auf, welche nur die Positionen der Vorgangsimport anzeigt.
 
-VIMP (Text-Positionen)
+<p class="just-emphasize">VIMP (Text-Positionen)</p>
 
 Diese Funktion ruft eine weitere Auswahlliste auf, welche nur die Textpositionen zur dazugehörigen Position anzeigt.
 
-Importumsetzer
+<p class="just-emphasize">Importumsetzer</p>
 
 Mit dieser Funktion wird der [Importumsetzer](../../../../externe_kommunikation/importumsetzer.md) aufgerufen.
 
-Übernahmelöschen
+<p class="just-emphasize">Übernahmelöschen</p>
 
 Eine komplette Übergabe wird gelöscht unabhängig vom Status der Übergabe. Wenn zu dieser Übergabe schon ein umgewandelter Vorgang existiert, wird eine Warnung ausgegeben.
 
-Fehlerrücksetzen
+<p class="just-emphasize">Fehlerrücksetzen</p>
 
 Ausgewählte Datensätze aus den Relationen [ImportVorgstamm](http://www.amic.de/ihilfe/XMLDocuments/iAeins/html/T_Datenmodell_ImportVorgstamm.htm) und [ImportVorgPosition](http://www.amic.de/ihilfe/XMLDocuments/iAeins/html/T_Datenmodell_ImportVorgPosition.htm)
 
@@ -70,27 +70,27 @@ Belege mit Status 3 und 4 (Konvertierung läuft bzw. Fehler bei Konvertierung) w
 
 den Status 2 zurückgesetzt
 
-Erledigte löschen
+<p class="just-emphasize">Erledigte löschen</p>
 
 Hierbei wird das Löschkennzeichen für erledigte Vorgänge(Status 9) gesetzt.
 
-Endgültig löschen
+<p class="just-emphasize">Endgültig löschen</p>
 
 Alle Vorgänge aller betroffenen Relationen mit Status 9 (erledigt) werden gelöscht
 
-Sonderfunktionen in der Variante „Importierte Positionen bearbeiten“
+<p class="just-emphasize">Sonderfunktionen in der Variante „Importierte Positionen bearbeiten“</p>
 
-Standard Vorgänge erzeugen
+<p class="just-emphasize">Standard Vorgänge erzeugen</p>
 
 Mit dieser Funktion können Vorgänge aus den Importierten Daten erzeugt werden. Welche Vorgänge erzeugt werden und mit welchen Inhalten ist [an dieser Stelle](./index.md#StandardVorgangErzeugen) beschrieben.
 
-Ändern / Ansehen /Löschen
+<p class="just-emphasize">Ändern / Ansehen /Löschen</p>
 
 Mit dieser Funktion könne Daten auf der [Positionsebene](./funktionen_des_vimp_pflegers.md#PositionBearbeiten) bearbeitet oder gelöscht werden.
 
 Richtlinien fürs Schreiben der Hilfe
 
-Variante Vorgangsimportstatistik
+<p class="just-emphasize">Variante Vorgangsimportstatistik</p>
 
  
 

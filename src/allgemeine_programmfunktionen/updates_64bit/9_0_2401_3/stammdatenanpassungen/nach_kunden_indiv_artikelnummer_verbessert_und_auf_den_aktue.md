@@ -20,6 +20,6 @@ Funktion/Report: F5, F4
 
 [Weitere Informationen](http://www.amic.de/hilfe/artikelerfassungf4.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2401.3, 34899, 731753

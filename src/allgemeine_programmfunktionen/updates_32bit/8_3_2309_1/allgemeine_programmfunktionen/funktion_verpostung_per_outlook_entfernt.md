@@ -20,6 +20,6 @@ Funktion/Report: Verpostung per Outlook
 
 [Weitere Informationen](http://www.amic.de/hilfe/-)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2309.1, 33976, 724679

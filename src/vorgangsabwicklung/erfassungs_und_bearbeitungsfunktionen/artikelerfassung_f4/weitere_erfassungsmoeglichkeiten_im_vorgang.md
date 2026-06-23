@@ -200,19 +200,13 @@ Mit **F9** werden die Ausgewählten Warenpositionen fakturiert.
 
 Übernommen werden aus dem Ordersatz in die Zielwarenposition je nach Steuerparameter folgende Eigenschaften:
 
-\- Preis: [Preise aus Ordersatz übernehmen(SPA204)](../../../firmenstamm/steuerparameter/vorgangsbearbeitung_positionen/preise_aus_ordersatz_uebernehmen_spa_204.md)
-
-\- Mengeneinheit: [Mengeneinheit aus Ordersatz?(SPA 467)](../../../firmenstamm/steuerparameter/vorgangsbearbeitung_positionen/mengeneinheit_aus_ordersatz_spa_467.md)
-
-\- Stückliste: [Ordersatz mit Stücklistenübernahme(SPA 672)](../../../firmenstamm/steuerparameter/vorgangsbearbeitung_positionen/ordersatz_mit_stuecklistenuebernahme_spa_672.md)
-
-\- Lagernummer: [Ordersatz-Artikel: Lagerbeibehalten(SPA 561)](../../../firmenstamm/steuerparameter/vorgangsbearbeitung_positionen/ordersatz_artikel_lager_beibehalten_spa_561.md)
-
-\- Artikeltext: [Ordersatz: Artikeltext übernehmen(SPA 562)](../../../firmenstamm/steuerparameter/vorgangsbearbeitung_positionen/ordersatz_artikeltext_uebernehmen_spa_562.md)
-
-\- Lagerplatz: [Ordersatz: Lagerplatz übernehmen(SPA 685)](../../../firmenstamm/steuerparameter/vorgangsbearbeitung_positionen/ordersatz_lagerplatz_uebernehmen_spa_685.md)
-
-\- Addon-Daten: [Ordersatz: WarenbewegungAddon übernehmen(SPA 686)](../../../firmenstamm/steuerparameter/vorgangsbearbeitung_positionen/ordersatz_warenbewegungaddon_uebernehmen_spa_686.md)
+- Preis: [Preise aus Ordersatz übernehmen(SPA204)](../../../firmenstamm/steuerparameter/vorgangsbearbeitung_positionen/preise_aus_ordersatz_uebernehmen_spa_204.md)
+- Mengeneinheit: [Mengeneinheit aus Ordersatz?(SPA 467)](../../../firmenstamm/steuerparameter/vorgangsbearbeitung_positionen/mengeneinheit_aus_ordersatz_spa_467.md)
+- Stückliste: [Ordersatz mit Stücklistenübernahme(SPA 672)](../../../firmenstamm/steuerparameter/vorgangsbearbeitung_positionen/ordersatz_mit_stuecklistenuebernahme_spa_672.md)
+- Lagernummer: [Ordersatz-Artikel: Lagerbeibehalten(SPA 561)](../../../firmenstamm/steuerparameter/vorgangsbearbeitung_positionen/ordersatz_artikel_lager_beibehalten_spa_561.md)
+- Artikeltext: [Ordersatz: Artikeltext übernehmen(SPA 562)](../../../firmenstamm/steuerparameter/vorgangsbearbeitung_positionen/ordersatz_artikeltext_uebernehmen_spa_562.md)
+- Lagerplatz: [Ordersatz: Lagerplatz übernehmen(SPA 685)](../../../firmenstamm/steuerparameter/vorgangsbearbeitung_positionen/ordersatz_lagerplatz_uebernehmen_spa_685.md)
+- Addon-Daten: [Ordersatz: WarenbewegungAddon übernehmen(SPA 686)](../../../firmenstamm/steuerparameter/vorgangsbearbeitung_positionen/ordersatz_warenbewegungaddon_uebernehmen_spa_686.md)
 
 Automatisch oder manuell eingerichtete Rabatte, Zu-/Abschläge, oder Frachten im Ordersatz werden **nicht** übernommen.
 

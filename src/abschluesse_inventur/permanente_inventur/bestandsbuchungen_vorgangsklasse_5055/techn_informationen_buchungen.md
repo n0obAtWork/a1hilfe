@@ -30,7 +30,7 @@ Die Partiebestände entsprechen nach Buchung der Zählung denen der Zählung.
 
 Der Artikelbestand wird um 3 auf 997 reduziert.
 
-Hinweis:
+<p class="just-emphasize">Hinweis:</p>
 
 Es ist dringend empfohlen, dass Artikel nur mit Partie oder komplett ohne Partie geführt werden.
 

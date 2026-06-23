@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_partieetiketten.htm -->
 
-Auswahlliste
+<p class="just-emphasize">Auswahlliste</p>
 
 | Felder |
 | --- |
@@ -19,7 +19,7 @@ Auswahlliste
 | TKG | Tausendkorngewicht |
 | PID | Partie-ID |
 
-Dialog „Etiketten erstellen“
+<p class="just-emphasize">Dialog „Etiketten erstellen“</p>
 
 | Felder |
 | --- |

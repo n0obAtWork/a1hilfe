@@ -22,7 +22,7 @@ Beim Speichern eines neuen Profils wird eine Funktion in der Optionbox der Varia
 
 ###### Verarbeitung
 
-Quellen
+<p class="just-emphasize">Quellen</p>
 
 Die openTRANS-Dokumente können aus verschiedenen Quellen gewonnen werden. Je nach Typ können sie erst nach Extrakt oder sofort weiterverarbeitet werden. In jedem Fall werden die Dateien zunächst ins Formulararchiv importiert und mit einer entsprechenden Belegklasse versehen.
 
@@ -35,7 +35,7 @@ Die openTRANS-Dokumente können aus verschiedenen Quellen gewonnen werden. Je na
 
 Warenverkauf > openTRANS Import > Variante „Dokumentenverarbeitung“
 
-Schritt 1 : Extraktion
+<p class="just-emphasize">Schritt 1 : Extraktion</p>
 
 Beginnen Sie zunächst mit dem Status „extrahierbare“ Dokumente.
 
@@ -43,7 +43,7 @@ Hier sehen Sie im Formulararchiv abgelegte (importierte Dokumente) mit der Vorga
 
 Verwenden Sie die Funktion „Extrahieren“, um die markierten Einträge zu entpacken.
 
-Schritt 2 : Import per Makro
+<p class="just-emphasize">Schritt 2 : Import per Makro</p>
 
 Wechseln Sie nun in den Status „zur Verarbeitung“ anstehende Dokumente
 
@@ -59,7 +59,7 @@ Hinweis:
 
 Es werden alle Dokumente der gleichen Belegreferenz importiert !
 
-Ansicht verarbeiteter Dokumente
+<p class="just-emphasize">Ansicht verarbeiteter Dokumente</p>
 
 Wechseln Sie nun in den Status „verarbeitet“ .
 

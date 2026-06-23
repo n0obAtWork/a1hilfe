@@ -10,23 +10,23 @@ In dieser Variante ist es möglich, Belege aus der Warenwirtschaft (Einkaufsrech
 
 Bei diesem Verfahren findet kein Dateiaustausch statt.
 
-Voraussetzungen
+<p class="just-emphasize">Voraussetzungen</p>
 
 Dieses Verfahren setzt voraus, dass die FiBu auf dem Quell-Mandanten und den Ziel-Mandanten gleich eingerichtet sind. Dies bedeutet auch, dass neue Konten die neu auf dem Quell-Mandanten hinzugefügt wurden, auch auf den Zielmandaten neu eingerichtet werden müssen.
 
-Einrichtung des Exportes
+<p class="just-emphasize">Einrichtung des Exportes</p>
 
 Über die Funktion ***Einrichten*** **F5** kann eine andere Prozedur ausgewählt werden. Die Prozedur muss die gleichen Eingangs-, sowie Ausgangsparameter wie die Standardprozedur haben. Des Weiteren müssen hier die Proxy-Tabellen eingetragen werden. Für jede Proxy-Tabelle wird der Export durchgeführt.
 
-Start
+<p class="just-emphasize">Start</p>
 
 Mit der Funktion ***„Start“*** wird der Export der Ausgewählten Daten gestartet. Die Export Daten werden nur an die Mandanten verteilt, bei denen die Verbindung vorhanden ist und das Kennzeichen Übertragen auf „Ja“ gestellt ist.
 
-Export Wiederholen
+<p class="just-emphasize">Export Wiederholen</p>
 
 Mit der Funktion Export Wiederholen, können übertragenen Daten erneut in die Ziel Mandanten verteilt werden. Dabei ist zu beachten, dass in den Zielmandanten die Buchung des zu wiederholenden Exports zurückgesetzt worden sind. Beim Ausführen der Funktion öffnet sich eine Auswahl aus dieser Auswahl kann dann der erneut zu tätigende Buchungssatz ausgewählt werden. Das erneute Exportieren wird dann direkt ausgeführt. Dabei ist zu beachten, das im Vorwege auf den Ziel-Mandanten die Buchungen die zu dem zu wiederholenden Exportlauf gehören wieder aus der FiBu ausgebucht werden.
 
-Verhalten beim Export
+<p class="just-emphasize">Verhalten beim Export</p>
 
 Es werden nur komplette FiBu Vorgänge übertragen. In der Auswahlliste werden alle Positionen zu einem Beleg angezeigt. Wird nur eine Position markiert wird trotzdem der ganze Fibu Vorgang exportiert.
 
@@ -34,9 +34,9 @@ Stellt das System während eines Übertragungslaufes fest, dass ein Ziel nicht e
 
 In beiden Fällen ist manuell zu prüfen welche Daten in den Ziel-Mandanten angekommen sind.
 
-Einrichtung des Ferndatenzugriffs
+<p class="just-emphasize">Einrichtung des Ferndatenzugriffs</p>
 
-Einrichtung eines Fremdservers(SQL Central)
+<p class="just-emphasize">Einrichtung eines Fremdservers(SQL Central)</p>
 
 Starten Sie Sybase Central
 
@@ -62,7 +62,7 @@ Mit dem Klick auf „Fertig stellen“ wird der Assistent beendet.
 
 Nach dem der Fremdserver eingerichtet worden ist, muss jetzt die Proxy-Tabelle eingerichtet werden.
 
-Einrichtung einer Proxy-Tabelle(SQL Central)
+<p class="just-emphasize">Einrichtung einer Proxy-Tabelle(SQL Central)</p>
 
 Starten von Sybase Central wenn das Programm noch nicht gestartet wurde.
 

@@ -60,7 +60,7 @@ Wenn man den Vorschlag bearbeitet, kann man lediglich den Betrag ändern. Im Fel
 
 Bei der Eingabe der Abschreibung wird geprüft, ob der Anhaltewert(s.o.) nicht unterschritten wird.
 
-Freigabe
+<p class="just-emphasize">Freigabe</p>
 
 Hat man alle Vorschläge kontrolliert, werden sie über die Funktion ***Freigabe/Eintrag Primanota*** **F9** in eine Abschreibung umgewandelt. Bei der Umwandlung werden alle Anlagegüter, die den Anhaltewert erreicht haben als vollständig abgeschrieben gekennzeichnet. Gleichzeitig werden Sammelbelege mit den eingerichteten Anlagen/AfA-Konten bzw. den [Kostenstellen](../kostenrechnung/kostenstellen.md), [Kostenträgern](../kostenrechnung/kostentraeger.md) und [Kostenobjekten](../kostenrechnung/kostenobjekte/index.md) in der Finanzbuchhaltung erzeugt. Diese Belege werden je nach Einstellung im Firmenstamm für die steuerrechtlichen oder handelsrechtlichen Abschreibungen erzeugt. Es erfolgt dann eine Sammelbuchung, bei der die Positionen des Beleges pro Anlagenkonto, [Kostenstelle](../kostenrechnung/kostenstellen.md), [Kostenträger](../kostenrechnung/kostentraeger.md) und [Kostenobjekt](../kostenrechnung/kostenobjekte/index.md) gerafft werden. Der so entstandene Beleg kann dann in der Primanota bearbeitet werden.
 

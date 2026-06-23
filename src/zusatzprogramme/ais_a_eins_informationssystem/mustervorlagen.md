@@ -10,7 +10,7 @@ Mustervorlagen können selber erstellt oder von AMIC vorgegebene Muster können 
 
 *Ruft man mit der JPL-Funktion AISLOAD eine Gruppe auf, die nicht existiert, so wird vom System geprüft, ob es eventuell eine Gruppe in den Mustervorlagen gibt, die mit AMIC_ beginnt und sonst so heißt, wie die angegebene Gruppe. Diese wird dann automatisch übernommen, es sei denn, die Gruppe besitzt Untergruppen und diese existieren bereits. Dieser Fall wird dann im Fehlerprotokoll festgehalten.*
 
-Als Muster speichern
+<p class="just-emphasize">Als Muster speichern</p>
 
 Alle erstellten Gruppen lassen sich als Mustervorlagen speichern.
 
@@ -26,7 +26,7 @@ Gibt man keinen Namen in der Spalte „übernehmen als Muster“ an, so wird auc
 
 Wird diese Sicherheitsabfrage mit **Ja** beantwortet, oder existiert ein Muster mit diesem Namen noch nicht, so wird die Einrichtung als Mustervorlage übernommen.
 
-Aus Muster übernehmen
+<p class="just-emphasize">Aus Muster übernehmen</p>
 
 ![](../../ImagesExt/image8_1065.png)
 

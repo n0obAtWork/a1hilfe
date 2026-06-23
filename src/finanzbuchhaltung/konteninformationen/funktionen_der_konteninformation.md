@@ -8,19 +8,19 @@ Direktsprung **[KOI]**.
 
 Da die Konteninformation als Werkzeug dienen kann, bei direktem Kundenkontakt schnell Informationen über z.B. Kontostand oder fällige Zinsen zu erhalten, sind hier entsprechende Funktionen hinterlegt:
 
-Zinsrechner
+<p class="just-emphasize">Zinsrechner</p>
 
 ![](../../ImagesExt/image8_612.png)  
     
 
 Dies ist der aus der Zinsrechnung bekannte Zinsrechner, der sich alle Werte aus den Stammdaten ermittelt (siehe Dokumentation Zinswesen). Nach Eingabe des Abrechnungsdatums werden die seit der letzten Zinsabrechnung anfallenden Zinsen ermittelt und angezeigt. Da zur Zinsabrechnung nur gebuchte Belege herangezogen werden erscheint ggf. die Meldung „Es existieren ungebuchte Belege“.
 
-Konto ändern F3
+<p class="just-emphasize">Konto ändern F3</p>
 
 Springt in das Feld Kontonummer, um eine anderes Konto auszuwählen.  
     
 
-Infoblatt drucken F10
+<p class="just-emphasize">Infoblatt drucken F10</p>
 
 Diese Funktion steht hier für Sach- und Personenkonten zur Verfügung. Man erreicht den Report auch über:
 
@@ -32,33 +32,33 @@ Es wird ein Crystal-Report aufgerufen, der die gebuchten Daten des ausgewählten
 
 Dieser Report ist ähnlich wie ein Kontoblatt zu sehen, nur werden die Daten nicht erst zusammengesucht und festgehalten, sondern immer so ausgewertet wie zum Zeitpunkt des Druckes sind. Für Sachkonten wird die Druckverdichtung analog der Einstellung im [Sachkontenstamm](../stammdaten_der_fibu/sachkonten.md#RegisterWeitereOptionen) unter **Formulardruck** ausgegeben.
 
-Archiv Kokore
+<p class="just-emphasize">Archiv Kokore</p>
 
 Diese Funktion steht nur bei Personenkonten zur Verfügung. Es werden alle archivierten Kokores dieses Kontos im angegebenen Jahr aufgelistet und können dann angezeigt werden. Für genauere Informationen über das Archivwesen steht die Formulararchivdokumentation zur Verfügung.
 
-Archiv STRG+F12
+<p class="just-emphasize">Archiv STRG+F12</p>
 
 Hier werden alle Archiveinträge des ausgewählten Personenkontos angezeigt, unabhängig von Belegart und Jahr.
 
-Fibu-Merkmale
+<p class="just-emphasize">Fibu-Merkmale</p>
 
 Diese Funktion steht nur bei Personenkonten zur Verfügung. Man erhält hier einen Überblick über die eingerichteten, für die Finanzbuchhaltung relevanten Merkmale. Detaillierte Informationen findet man in der Dokumentation unter „Kunden und Lieferanten“ und dort im Unterpunkt „Kundenstamm“ und „Fibu-Merkmale“.
 
-Kundenbank ändern
+<p class="just-emphasize">Kundenbank ändern</p>
 
 Hier hat man die Möglichkeit, die zu einem Kunden eingerichtete Bankverbindung einzusehen und zu ändern. Dies ist dieselbe Funktion wie im Kunden- bzw. Lieferantenstamm.
 
 ![Ein Bild, das Tisch enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_613.jpg "Ein Bild, das Tisch enthält. Automatisch generierte Beschreibung")  
     
 
-Kundenbemerkungen
+<p class="just-emphasize">Kundenbemerkungen</p>
 
 Diese Funktion steht nur für Personenkonten zur Verfügung. Es werden hier die Bemerkungstexte, die man im Kunden-/Lieferantenstamm erfasst hat, angezeigt und können auch geändert werden. Man hat bis zu 9999 Zeilen für freien Text zur Verfügung.
 
 ![Ein Bild, das Text enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_614.jpg "Ein Bild, das Text enthält. Automatisch generierte Beschreibung")  
     
 
-Kurzliste F4
+<p class="just-emphasize">Kurzliste F4</p>
 
 Wie auch bei allen Standard-Auswahllisten lässt sich hier eine Kurzliste drucken. Vor dem Druck wird die Druckernummer - so wie sie im Druckerstamm eingerichtet ist - und das Formular für die Kurzliste abgefragt. Es wird immer das zuletzt verwendete Formular vorgeschlagen, wobei hier nach Oberkonto, Sachkonto und Personenkonto unterschieden wird. Ein über das Schlüsselwort **FORM** in der Variante angegebenes Formular wird in der Konteninformation ignoriert.
 

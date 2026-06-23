@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_terres_belegimport_indivi.htm -->
 
-Belege erzeugen
+<p class="just-emphasize">Belege erzeugen</p>
 
 Zum individualisieren der Belegerzeugung können am Steuerparameter „[829](../../../firmenstamm/steuerparameter/optionen_warenwirtschaft/belegimport_spa_829.md)“ Makros hinterlegt werden. Diese werden zu den angegebenen Zeiten aufgerufen.
 
@@ -38,7 +38,7 @@ Die Daten für den Vorgang und die Positionen werden in JVARS zwischengespeicher
 | ![\*](../../../ImagesExt/image8_1556.jpg "*") VALUE_ArtikelNr | ![\*](../../../ImagesExt/image8_1556.jpg "*") Artikelnummer der Position |
 | ![\*](../../../ImagesExt/image8_1556.jpg "*") VALUE_PosAnlegen | ![\*](../../../ImagesExt/image8_1556.jpg "*") Diese JVAR steht im Standard immer auf 1. Soll die folgende Position in dem Beleg nicht angelegt werden, so muss die JVAR auf 0 gesetzt werden. |
 
-Belegimport
+<p class="just-emphasize">Belegimport</p>
 
 Der normale Belegimport importiert die Daten aus dem im Steuerparameter „[829](../../../firmenstamm/steuerparameter/optionen_warenwirtschaft/belegimport_spa_829.md)“ hinterlegten Pfad. Dort kann jedoch auch eine individuelle Prozedur hinterlegt werden, in der man einen eigenen Import starten kann.
 
@@ -49,7 +49,7 @@ Select
 terresImportBeleg('\\\\NetzwerkPfad\\temp\\test.xml')
 ```
 
-Kontrollmakro
+<p class="just-emphasize">Kontrollmakro</p>
 
 Für den Belegimport wurde ein Kontrollmakro „TERRES_ER_Kontrollmakro“ hinterlegt welches das Fibu Sperrkennzeichen setzt, wenn die Summe des Terresbeleges sich von der Summer des A.eins Beleges unterscheidet. In dem Beispiel wird das Makro nach dem Speichern des A.eins Beleges aufgerufen. In dem Beispiel darf es nur eine Rundungsdiffernz von 0.05 Euro geben.
 

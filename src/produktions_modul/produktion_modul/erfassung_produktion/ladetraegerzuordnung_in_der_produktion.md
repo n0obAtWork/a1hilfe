@@ -8,7 +8,7 @@ Achtung:
 
 Die N zu M Produktion wird in diesem Modul nicht unterstützt.
 
-Voraussetzungen:
+<p class="just-emphasize">Voraussetzungen:</p>
 
 1. In dem [Lagerstamm](../../../firmenstamm/uebersicht_lager_und_lagerplatz/lagerstamm_lgs.md) muss an den jeweiligen Lägern ein Kunde hinterlegt sein.
 
@@ -16,19 +16,19 @@ Voraussetzungen:
 
 3. Der Steuerparameter [Lagerverwaltungssystem 636](../../../firmenstamm/steuerparameter/optionen_global/lagerverwaltungssystem_spa_636.md) muss auf Ja gestellt sein.
 
-Funktionsweise des Moduls:
+<p class="just-emphasize">Funktionsweise des Moduls:</p>
 
 In der ersten Zeile des Grids wird entweder das Produkt oder der Ausgangsartikel einer Vermahlung dargestellt. Alle weiteren Zeilen sind die Komponenten der Produktion / Vermahlung. Hier besteht die Möglichkeit jeder Position ein Ladeträger zuzuordnen. Mit der Funktionalität „Starte Zuordnung“ werden die zugeordneten Ladeträger mit den Positionsdaten bebucht.
 
-Löschen / Einfügen von im Grid
+<p class="just-emphasize">Löschen / Einfügen von im Grid</p>
 
 Es können keine „Stamm“ Positionen aus dem Grid gelöscht werden. Bei aufgeteilten Positionen kann nur die angefügte Position gelöscht werden. Des Weiteren ist das Einfügen von neuen Positionen nicht möglich.
 
-Position Aufteilen
+<p class="just-emphasize">Position Aufteilen</p>
 
 Es besteht die Möglichkeit eine Produktionsposition auf mehrere Ladeträger aufzuteilen. Dazu wird die neue Menge in die zu teilende Position eingetragen. Das Programm legt dann automatisch eine neue Position des gleichen Artikels mit der Differenzmenge an. Diese Position kann dann mit „STRG-SHIFT-ENTF“ wieder gelöscht werden. Die Differenz wird dann automatisch wieder auf die eigentliche Position addiert.
 
-Buchen von Position in das Lagerverwaltungssystem
+<p class="just-emphasize">Buchen von Position in das Lagerverwaltungssystem</p>
 
 Das Buchen der einzelnen Position in das Lagerverwaltungssystem übernimmt die [Waage](../../../waagenanbindung/waagenanbindung_online_waage/index.md). Beim Ausführen der Funktion „Starte Zuordnung“ wird für jede Position die eine Ladeträgerzuordnung hat, ein neuer [Waagensatz](../../../waagenanbindung/waagenanbindung_online_waage/mustervorlage_in_der_waage.md) mit den jeweiligen Informationen der Position angelegt. Dieser Waagesatz wird automatisch „[Abgeschlossen](../../../waagenanbindung/waagenanbindung_online_waage/funktionen_auf_der_waagenmaske/wiegungen_abschliessen.md)“. Durch diese Aktion wird der jeweilige Ladeträger bebucht.
 

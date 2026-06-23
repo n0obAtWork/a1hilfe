@@ -20,6 +20,6 @@ Funktion/Report: [XRE]
 
 [Weitere Informationen](http://www.amic.de/hilfe/!importiertevorgnge.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2501.5, 36724, 745812

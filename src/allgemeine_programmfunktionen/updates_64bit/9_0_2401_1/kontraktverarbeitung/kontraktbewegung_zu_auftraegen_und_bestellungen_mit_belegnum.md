@@ -20,6 +20,6 @@ Funktion/Report: Bewegungen, Ändern->Bewegungen
 
 [Weitere Informationen](http://www.amic.de/hilfe/_kontraktstammdaten.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2401.1, 32861, 714314

@@ -20,7 +20,7 @@ Die Zuordnung zu einer Belegmappe kann zusätzlich auf folgende Art und Weise ge
 
 Ein Beleg kann nur einer Belegmappe zugeordnet werden. In den Anwendungen „Standardvorgänge FIBU“, „Primanota“ und „Belegmappen“ kann die Auswahl zusätzlich nach diesen Mappen erfolgen. Hier kann mit **F3** eine der angelegten Mappen ausgewählt werden.
 
-Anwendung Belegmappe
+<p class="just-emphasize">Anwendung Belegmappe</p>
 
 Hauptmenü > Finanzbuchhaltung > Buchungen / Journal > Belegmappen
 

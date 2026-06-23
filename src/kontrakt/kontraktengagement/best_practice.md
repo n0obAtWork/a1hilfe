@@ -12,9 +12,8 @@ Die Darstellung wird per Standard auf Basis der Warengruppen jede Nacht aggregie
 
 Als Darstellung können folgende System genutzt werden.
 
-\- Auswahlliste
-
-\- Reportsystem
+- Auswahlliste
+- Reportsystem
 
 In der Auswahlliste werden die Mengen, wie auch die Bewertungen dieser Mengen parallel angezeigt, im Report muss die Darstellung ausgewählt werden, eine gemeinsame Darstellung der Mengen und Werte wird nicht unterstützt.
 
@@ -24,8 +23,7 @@ Das Auswahlkriterium Warengruppe erlaubt es hier auch eine Eingrenzung auf die W
 
 Der Aufbau wird durch ein fest vorgegebenes Korsett bestimmt, hierbei legt das Systemformat KTRPOSITION fest, welche Zeilen berechnet werden sollen. Bisher werden unterstützt:
 
-\- Inventory, alle im Bestand liegende Ware dieser Warengruppe. Hierbei wird in dieser Version noch keine Bewertung vorgenommen:
-
+- Inventory, alle im Bestand liegende Ware dieser Warengruppe. Hierbei wird in dieser Version noch keine Bewertung vorgenommen:
   - Inventory Cash (Merkmal A01):  
 alle im Lager zu dieser Warengruppe vorhandenen Bestände minus der Bestände der unten aufgeführten Inventory Bereiche.
 
@@ -94,11 +92,9 @@ Die Ermittlung der Mengenspalten erfolgt über eine monatlich ratierlich aufgete
 
 Die Ermittlung des Wertes erfolgt über folgenden Mechanismus:
 
-\- Bei vorhandenem Kontraktpreis wird dieser zur Bewertung der Menge gezogen, dabei wird der Frachtanteil und der Handlinganteil mit berücksichtigt. In die aktuelle Monatsspalte wird der ggf. auftretende Report eingerechnet. Eine Vorberechnung (oder direkte Eingabe) eines Kostenanteilskann aber auch im „Allgemeinen Wert“ angegeben werden, der aber auch durch eine feste Berechnungsformel direkt im Kontrakt ermittelt werden kann.
-
-\- Bei nicht vorhandenem Kontraktpreis wird der „beste passende“ Marktpreis ermittelt (Stichtag gleich oder kleiner und Datum kleiner oder gleich. Bei der Marktpreisnutzung wird dann Fracht und Handling mit dazugerechnet, und bei Vorhandensein eines Uplift Faktors wird dieser als Prozentanteil auf den Marktpreis gerechnet. Marktpreis und Uplift werden in der beigefügten Exceltabelle gepflegt.
-
-\- Ist in dem Kontraktartikel ein Hedgeartikel (Referenzartikel) gepflegt, so wird der Preis des Hedgeartiekls aus der Marktpreistabelle gelesen. Dabei wird der unter Basis eingegebene Abweichungswert zur Börse zugerechnet.  
+- Bei vorhandenem Kontraktpreis wird dieser zur Bewertung der Menge gezogen, dabei wird der Frachtanteil und der Handlinganteil mit berücksichtigt. In die aktuelle Monatsspalte wird der ggf. auftretende Report eingerechnet. Eine Vorberechnung (oder direkte Eingabe) eines Kostenanteilskann aber auch im „Allgemeinen Wert“ angegeben werden, der aber auch durch eine feste Berechnungsformel direkt im Kontrakt ermittelt werden kann.
+- Bei nicht vorhandenem Kontraktpreis wird der „beste passende“ Marktpreis ermittelt (Stichtag gleich oder kleiner und Datum kleiner oder gleich. Bei der Marktpreisnutzung wird dann Fracht und Handling mit dazugerechnet, und bei Vorhandensein eines Uplift Faktors wird dieser als Prozentanteil auf den Marktpreis gerechnet. Marktpreis und Uplift werden in der beigefügten Exceltabelle gepflegt.
+- Ist in dem Kontraktartikel ein Hedgeartikel (Referenzartikel) gepflegt, so wird der Preis des Hedgeartiekls aus der Marktpreistabelle gelesen. Dabei wird der unter Basis eingegebene Abweichungswert zur Börse zugerechnet.  
 ![](../../ImagesExt/image8_159.jpg)
 
 Beispiel eine Auswertung:  

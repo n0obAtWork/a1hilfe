@@ -20,6 +20,6 @@ Funktion/Report: Problemfälle VorgReservierung, Fehlerhafte Vorgänge aus der W
 
 [Weitere Informationen](http://www.amic.de/hilfe/_WareoVorgReservierung.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2309.1, 33722, 717902

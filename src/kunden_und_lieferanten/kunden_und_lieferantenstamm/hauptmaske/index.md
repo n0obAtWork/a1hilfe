@@ -8,7 +8,7 @@ Der Aufbau der Kunden und Lieferanten Stammdaten soll exemplarisch am Beispiel d
 
 **Nummer**
 
-Achtung:
+<p class="just-emphasize">Achtung:</p>
 
 Eine Kontonummer kann nur einmal vergeben werden!
 

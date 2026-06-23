@@ -2,31 +2,31 @@
 
 <!-- source: https://amic.de/hilfe/settitlestatement.htm -->
 
-Syntax
+<p class="just-emphasize">Syntax</p>
 
 SET TITLE text;
 
-Purpose
+<p class="just-emphasize">Purpose</p>
 
 Schreibt Text in eine offene Ausgabedatei
 
-Anwendung
+<p class="just-emphasize">Anwendung</p>
 
 Kommandodatei, Befehlszeile
 
-Berechtigung
+<p class="just-emphasize">Berechtigung</p>
 
 Alle Anwender
 
-Siehe auch
+<p class="just-emphasize">Siehe auch</p>
 
 [SET APPEND](./set_append_statement.md), [SET OUTFILE](./set_outfile_statement.md), [SET OUTPUT](./set_output_statement.md)
 
-Beschreibung
+<p class="just-emphasize">Beschreibung</p>
 
 Um in eine Ausgabedatei Zusatzstatement oder Beschreibungen zu schreiben, kann SET TITLE verwendet werden;
 
-Beispiel
+<p class="just-emphasize">Beispiel</p>
 
 SET OUTFILE c:\\FIBUKL.SQL;
 

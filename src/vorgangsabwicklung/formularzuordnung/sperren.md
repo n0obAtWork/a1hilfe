@@ -4,7 +4,7 @@
 
 Manche Felder auf der Registerkarte Sperren sind von der gewählten Vorgangsklasse abhängig.
 
-Vorbelegungen
+<p class="just-emphasize">Vorbelegungen</p>
 
 | Maskenfeld | Vorbelegung | Bedeutung |
 | --- | --- | --- |
@@ -13,7 +13,7 @@ Vorbelegungen
 | Vorbel. RAB-Sperre | Nein | Der Beleg kann nach der Erzeugung nicht in das rechnungsausgangsbuch übernommen werden. Beleg muss manuell Freigegeben werden. |
 | Vorbel. Filia-Sperre | Nein | Wirkungslos |
 
-Behandlungen exportierter Vorgänge
+<p class="just-emphasize">Behandlungen exportierter Vorgänge</p>
 
 Hier kann eingestellt werden, ob bei einem Beleg der das Kennzeichen V_StatusExport im Vorgangstamm ungleich 0 hat folgenden Funktionen zu gelassen werden.
 
@@ -24,27 +24,27 @@ Hier kann eingestellt werden, ob bei einem Beleg der das Kennzeichen V_StatusExp
 | Umwandeln erlaubt | Nein |
 | Korrigieren erlaubt | Nein |
 
-Kennzeichen bei Erfassungen
+<p class="just-emphasize">Kennzeichen bei Erfassungen</p>
 
 | Maskenfeld | Vorbelegung | Bedeutung |
 | --- | --- | --- |
 | Persönliches Kennzeichen abfragen | Nein | Hier kann eingestellt werden, ob der Bediener beim Erfassen eines Vorgangs sein Persönliches Kennzeichen eingeben muss. Das persönliche Kennzeichen wird im Bedienerstamm festgelegt. Der Vorgang wird dann unter dem Bediener erfasst, der sein Kennzeichen angegeben hat. Dies kann zur Kontrolle eingesetzt werden, wenn mehrere Bediener sich ein Arbeitsplatz teilen. |
 | EPA hebt Kennzeichenabfrage auf | Nein | Hier kann eingestellt werden dass die Kennzeichenabfrage per EPA für eine bestimmte Bedienerklasse ausgestellt werden kann. |
 
-Sonstige Sperren
+<p class="just-emphasize">Sonstige Sperren</p>
 
 | Maskenfeld | Vorbelegung | Bedeutung |
 | --- | --- | --- |
 | Bearbeitungssperre auch bei Folgebelegen<br> | Nein | Die Sperre legt fest, ob Folgebelege aus einem Quellbeleg dieser Vorgangsklasse geändert oder gelöscht werden können, wenn der Quellbeleg eine Bearbeitungssperre gesetzt hat.<br> |
 | Korrektur mit Doppelklick verbieten | Nein | Die Sperre legt fest, ob ein Doppelklick auf eine Positionszeile den Bearbeitungsmodus aufruft. Dies gilt nicht für Rohwarenbelege. |
 
-Ladescheine
+<p class="just-emphasize">Ladescheine</p>
 
 | Maskenfeld | Vorbelegung | Bedeutung |
 | --- | --- | --- |
 | Sperren und nicht Stornieren | Nein | Hier kann eingestellt werden, ob nach der Umwandlung eines Ladescheins zu einem Lieferschein oder Rechnung der Ladeschein storniert werden soll oder ob der Ladeschein gegen Weiterverarbeitung geschützt wird. |
 
-Teildisposition
+<p class="just-emphasize">Teildisposition</p>
 
 | Maskenfeld | Vorbelegung | Bedeutung |
 | --- | --- | --- |
@@ -56,7 +56,7 @@ Teildisposition
 
 Diese Einstellungen können in Abhängigkeit von [SPA 1053](../../firmenstamm/steuerparameter/optionen_warenwirtschaft/lesen_der_teildispositionseinstellungen_aus_richtiger_unterk.md) durch die Einstellungen der Unterklasse 0 überschrieben werden.
 
-UlsatzSteuerid
+<p class="just-emphasize">UlsatzSteuerid</p>
 
 | Maskenfeld | Vorbelegung | Bedeutung |
 | --- | --- | --- |

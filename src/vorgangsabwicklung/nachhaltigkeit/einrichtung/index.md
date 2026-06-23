@@ -13,11 +13,11 @@ Neben den Einrichtungen der Stammdaten sind noch spezielle Einrichtungsmaßnahme
 
 Die hier aufgelisteten Einzelmaßnahmen werden in den folgenden Abschnitten erläutert.
 
-SQLK Nachweisvorlage ![](../../../ImagesExt/image8_148.png)
+<p class="just-emphasize">SQLK Nachweisvorlage ![](../../../ImagesExt/image8_148.png)</p>
 
 Eine Vorlage zum Nachweis nachhaltiger Ware auf einem Vorgangsformular liefern wir unter SQLK_Nachhaltig eine Musterlösung mit. Dabei wird eine Zulieferfunktion „ist_nachhaltig“ in Form einer Datenbankprozedur mit Resultset verwendet. Dieser Nachweis ist in jedem Fall für **Verkäufe** relevant, einzelne Anforderungen beziehen sich jedoch auch auf Einkäufe bzw. Getreidegutschriften. (siehe SQLK Nachweisvorlage)
 
-Einrichtung Vorgangswesen FRZ ![](../../../ImagesExt/image8_148.png)
+<p class="just-emphasize">Einrichtung Vorgangswesen FRZ ![](../../../ImagesExt/image8_148.png)</p>
 
 U.U. kann es gewollt sein, dass man für Lieferungen steuern möchte, ob nachhaltige oder nicht nachhaltige Ware geliefert werden soll. Für solche Kunden trägt man auf dem Zertifikate-Register die Nachhaltigkeit ein.
 

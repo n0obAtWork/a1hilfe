@@ -20,6 +20,6 @@ Funktion/Report: Belegdatum ändern
 
 [Weitere Informationen](http://www.amic.de/hilfe/_belegdatumaendern.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2401.1, 34290, 727344

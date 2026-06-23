@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/aufbauderprozeduren.htm -->
 
-Abschnitt-Prozeduren
+<p class="just-emphasize">Abschnitt-Prozeduren</p>
 
 ![](../../../ImagesExt/image8_1115.jpg)
 
@@ -16,7 +16,7 @@ Parameter 3 enthält einen Positionszähler. Dieser wird nur in Verbindung mit d
 
 Parameter 4 enthält eine Unterposition. Diese wird benötigt, wenn auf Abschnittsebene eine Schleife genutzt wird, um der Segmentprozedur darunter mitzuteilen, in welchem Durchlauf sie ist. Auch hier sollte „0“ zurückgegeben werden, wenn keine Schleife vorhanden ist.
 
-Segment-Prozeduren
+<p class="just-emphasize">Segment-Prozeduren</p>
 
 ![](../../../ImagesExt/image8_1116.jpg)
 

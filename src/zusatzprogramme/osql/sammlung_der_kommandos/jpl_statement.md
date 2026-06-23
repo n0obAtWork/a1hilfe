@@ -2,31 +2,31 @@
 
 <!-- source: https://amic.de/hilfe/jplstatement.htm -->
 
-Syntax
+<p class="just-emphasize">Syntax</p>
 
 JPL namederprozedur
 
-Purpose
+<p class="just-emphasize">Purpose</p>
 
 Ruft eine JPL – Prozedur auf.
 
-Anwendung
+<p class="just-emphasize">Anwendung</p>
 
 Kommandodatei, Befehlszeile
 
-Berechtigung
+<p class="just-emphasize">Berechtigung</p>
 
 Alle Anwender
 
-Siehe auch
+<p class="just-emphasize">Siehe auch</p>
 
 [MAKRO](./makro_oder_makrof_statement.md), [^](./prototyped_funktion.md)
 
-Beschreibung
+<p class="just-emphasize">Beschreibung</p>
 
 Wenn die einfachen SQL-Befehle nicht mehr ausreichen um einen komplexen Sachverhalt abzubilden bzw. zu lösen, kann man auch auf selbstgeschriebene JPL-Prozeduren zurückgreifen. Parameter können wie unter JPL angegeben werden. Will man dann auf ein Ergebnis dieser Prozedur zurückgreifen, kann dies zurzeit nur über LDB_Variablen geschehen und zwar in der Form : IF ( VAL(TRANSFER)==1 ).....
 
-Beispiel
+<p class="just-emphasize">Beispiel</p>
 
 JPL zinsrecalc :KTO;
 

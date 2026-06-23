@@ -20,6 +20,6 @@ Funktion/Report: F5, F8
 
 [Weitere Informationen](http://www.amic.de/hilfe/_stammdaten2kontrakt.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2401.2, 34733, 731036

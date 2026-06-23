@@ -20,6 +20,6 @@ Funktion/Report: F3-Auswahl
 
 [Weitere Informationen](http://www.amic.de/hilfe/_EPA_SVWARE.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2401.2, 35000, 732902

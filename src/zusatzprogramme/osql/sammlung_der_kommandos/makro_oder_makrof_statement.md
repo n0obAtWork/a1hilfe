@@ -2,30 +2,30 @@
 
 <!-- source: https://amic.de/hilfe/makroodermakrofstatement.htm -->
 
-Syntax
+<p class="just-emphasize">Syntax</p>
 
 MAKRO macroname [PAR1 [PAR2 [PAR3 [PAR4]]]];
 
-Purpose
+<p class="just-emphasize">Purpose</p>
 
 Ausführen eine Pascalskripts
 
-Anwendung
+<p class="just-emphasize">Anwendung</p>
 
 Kommandodatei
 
-Berechtigung
+<p class="just-emphasize">Berechtigung</p>
 
 Alle Anwender
 
-Siehe auch
+<p class="just-emphasize">Siehe auch</p>
 
 [JPL](./jpl_statement.md)
 
-Beschreibung
+<p class="just-emphasize">Beschreibung</p>
 
 Wenn die einfachen SQL-Befehle nicht mehr ausreichen, um einen komplexen Sachverhalt abzubilden bzw. zu lösen, kann man auch auf selbstgeschriebene PASCAL–Skripte zurückgreifen. Parameter können, wie unter JPL bzw. dem Pascalinterpreter angegeben werden. MAKRO liest ein in der Datenbank existierendes Skript, MAKROF liest aus einer Datei, die durch den macronamen identifiziert wird.
 
-Beispiel
+<p class="just-emphasize">Beispiel</p>
 
 MAKROF c:\\copy.pas 100 200

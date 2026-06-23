@@ -20,7 +20,7 @@ Wird in einer Forderungsgruppe das Forderungs- oder Verbindlichkeitskonto geänd
 
 Auch das Ändern der Forderungsgruppe im [Kundenstamm](../../kunden_und_lieferanten/kunden_und_lieferantenstamm/fibu_merkmale.md#Verbuchungsmerkmale) führt dazu, dass dieses Kennzeichen gesetzt wird. Vor dem Druck von Auswertungen und vor dem Abschluss von Perioden wird dieses Kennzeichen geprüft und ggf. eine entsprechende Meldung ausgegeben.
 
-Methode der Forderungs- und Verbindlichkeitszuordnung
+<p class="just-emphasize">Methode der Forderungs- und Verbindlichkeitszuordnung</p>
 
 In A.eins existieren zwei Möglichkeiten, wie aus Rechnungen die Zuordnung zu den Bestandskonten durchgeführt wird.
 

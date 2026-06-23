@@ -10,7 +10,7 @@ Wenn der Steuerungsparameter „Anzeige Fremdwährung in Auswahllisten“ auf **
 
 Im folgenden Beispiel wird der Einfachheit halber in Periode 1 eine Rechnung erfasst, in Periode 2 die Zahlung dazu und in Periode 3 die Ausbuchung der Kursdifferenz. Die hier verwendeten Kurse entsprechen nicht den tatsächlichen Kursen.
 
-Periode 1:
+<p class="just-emphasize">Periode 1:</p>
 
 | | Fremdwährung(PLN) | Tageskurs | Buchwährung(Euro) | Kurs Stichtag(31.01.) | Zum Stichtag(Euro) | Differenz<br>(zum Stichtag - Buchwährung) |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -21,7 +21,7 @@ Darstellung in der Konteninformation: Die Spalte Buchwährung(Euro) wird nicht m
 
 ![](../../ImagesExt/image8_622.png)
 
-Periode 2:
+<p class="just-emphasize">Periode 2:</p>
 
 | | Fremdwährung(PLN) | Tageskurs | Buchwährung(Euro) | Kurs Stichtag(31.01.) | Zum Stichtag | Differenz<br>(zum Stichtag - Buchwährung) |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -32,7 +32,7 @@ Darstellung in der Konteninformation:
 
 ![](../../ImagesExt/image8_623.png)
 
-Periode 3:
+<p class="just-emphasize">Periode 3:</p>
 
 Die Ausbuchung des Kursverlustes erfolgt in Buchwährung. Der Kurs ist daher 1.0000.
 

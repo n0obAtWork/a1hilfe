@@ -20,6 +20,6 @@ Funktion/Report: Sammelstorno erstellen, Abr. Stornobeleg., Lie. Stornobeleg
 
 [Weitere Informationen](http://www.amic.de/hilfe/!stornoabrechnung.htm,%20!_rwsammelbearbeiten.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2501.5, 36491, 740203

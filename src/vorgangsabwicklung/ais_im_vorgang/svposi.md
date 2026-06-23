@@ -6,7 +6,7 @@ Die AIS-Aktualisierung findet nur dann statt, wenn eine Position ausgewählt ode
 
 Alle AIS-Aktualisierungspunkte auf der SVPOSI Maske können per Makro gesteuert werden. Es gibt keine Punkte, die im Standard das ganze AIS auf der Maske aktualisiert wird.
 
-Bei folgenden Ereignissen wird das AIS aktualisiert.
+<p class="just-emphasize">Bei folgenden Ereignissen wird das AIS aktualisiert.</p>
 
 1. Navigieren nach oben
 
@@ -20,7 +20,7 @@ Bei folgenden Ereignissen wird das AIS aktualisiert.
 
 6. Rückkehr von einer darüber liegenden Maske auf die SVPOSI Maske
 
-Benötigte JVARS
+<p class="just-emphasize">Benötigte JVARS</p>
 
 | JAVR | Funktion | Bedeutung |
 | --- | --- | --- |
@@ -28,7 +28,7 @@ Benötigte JVARS
 | POSITIONHANDLE | Lesend<br> | Mit dieser JVAR wird das aktuelle Positionshandle übergeben. Über den Positionshandle kann der Typ der Positionszeile bestimmt werden. |
 | PARAM | Lesend<br> | Diese JVAR ist nicht immer versorgt. Enthält diese JVAR ein Wert, so ist es der Zeilentyp. |
 
-Beispiel Prozedur des Makro für die SVPOSI
+<p class="just-emphasize">Beispiel Prozedur des Makro für die SVPOSI</p>
 
 ```text
 PROCEDURE TesteSVPOSI();

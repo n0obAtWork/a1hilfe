@@ -4,6 +4,6 @@
 
 Es gab einen Hintergrundprozess namens "CALLBACKDIALOG". Dieser wurde durch den neuen "A.eins.Worker" abgelöst. Bestehende Einrichtungen müssen umgestellt werden.
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Abkündigung

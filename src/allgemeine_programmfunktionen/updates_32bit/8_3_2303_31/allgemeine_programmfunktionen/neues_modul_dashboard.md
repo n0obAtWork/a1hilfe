@@ -20,6 +20,6 @@ Funktion/Report: [DASH]
 
 [Weitere Informationen](http://www.amic.de/hilfe/dasdashboard.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2303.31, 33598, 716438

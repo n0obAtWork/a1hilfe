@@ -10,11 +10,9 @@ oder Direktsprung [**PST**]
 
 Der Pflegerstamm verwaltet Metadaten zum automatisieren Aufruf von Stammdatenpflegern. Die bereitgestellten Informationen zu einem Pfleger ermöglichen es,
 
-\- die zugehörige Anwendung zu starten
-
-\- den Pfleger für Testdatensätze zu begutachten
-
-\- mit Hilfe des JPP-Objekts "JPfleger" den Stammdatenpfleger programmatisch aus JPL, MAKRO oder VBA aufzurufen
+- die zugehörige Anwendung zu starten
+- den Pfleger für Testdatensätze zu begutachten
+- mit Hilfe des JPP-Objekts "JPfleger" den Stammdatenpfleger programmatisch aus JPL, MAKRO oder VBA aufzurufen
 
 | **Funktionen der Auswahlliste** | |
 | --- | --- |

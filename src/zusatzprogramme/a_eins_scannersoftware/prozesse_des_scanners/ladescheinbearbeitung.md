@@ -6,7 +6,7 @@ Als erstes müssen die [Scancodes](../anwendung_scanner_in_aeins/status_der_scan
 
 Um eine Ladescheinliste auszudrucken wurde in der Anwendung AMIC Etikettendruck in der Variante „Vorlagen AMIC Etikettendruck Reporte“ eine Vorlage erstellt. Anhand dieser Vorlage kann dann eine Pickliste erstellt werden. Auf dieser Liste können dann auch die erforderlichen Scancodes für das Ladescheinstarten angedruckt werden.
 
-Ablauf
+<p class="just-emphasize">Ablauf</p>
 
 Mit diesem Modul können [Aufträge](../../../vorgangsabwicklung/vorgangsbearbeitung_allgemein/vorgangsklassen_in_a_eins/auftrag/index.md), die zu einem Ladeschein umgewandelt worden sind, bearbeitet werden. Aus diesen Ladeschein wird dann ein [Lieferschein](../../../vorgangsabwicklung/vorgangsbearbeitung_allgemein/vorgangsklassen_in_a_eins/lieferschein/index.md) erzeugt, und die Lieferscheinmenge wird dann per Teildisposition vom Auftrag abgebucht.
 
@@ -30,14 +30,14 @@ Die erfassten Daten werden in der Anwendung [Vorgangsimport](../../../vorgangsab
 
 Hauptmenü > Externe Kommunikation > Stammdatenimport > Vorgangsimport
 
-Lagerveraltungssystem
+<p class="just-emphasize">Lagerveraltungssystem</p>
 
 Dieses Modul kann mit dem Lagerverwaltungssystem gekoppelt werden. Dazu müssen im Scancode LAD die Lagerverwaltungsspezifischen Funktionen wie z.B. FUELLEN, LEEREN zugelassen werden. Des Weiteren muss nach der Ladescheinnummer im Scancode die Lokalität angedruckt werden.
 
-Beispiel
+<p class="just-emphasize">Beispiel</p>
 
 LAD 4711 4712. Dies bedeutet der Ladeschein 4711 wird auf der Lokalität 4712 bearbeitet.
 
-Gebinde Informationen
+<p class="just-emphasize">Gebinde Informationen</p>
 
 Die Gebinde Informationen werden aus dem Ladeschein genommen und dann mit in ImportVorgPosition gespeichert.

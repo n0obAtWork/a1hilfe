@@ -8,7 +8,7 @@ Direktspring **[BSFS]**
 
 Bevor die XML-Daten erzeugt und versendet werden, bedarf es noch einiger Einstellungen im A.eins.
 
-Buchstelle Firmenstamm
+<p class="just-emphasize">Buchstelle Firmenstamm</p>
 
 Bevor die Daten übermittelt werden können, bedarf es einiger Einstellungen im „Buchstellen Firmenstamm“ (BSFS). Dort kann die XML-Kopfstruktur und die Sendeeinstellungen hinterlegt werden.
 
@@ -54,7 +54,7 @@ Die Kopfstruktur einer XML-Datei könnte wie folgt aussehen:
 <LaufendeNr>36</LaufendeNr>
 ```
 
-Personenkonten
+<p class="just-emphasize">Personenkonten</p>
 
 Die Erstellung von XML-Daten erfolgt nicht automatisch für jedes Personenkonto. Damit die Daten für ein Personenkonto erstellt werden, hinterlegen Sie in diesem den Buchstellenstamm.
 

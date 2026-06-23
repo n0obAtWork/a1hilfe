@@ -6,6 +6,6 @@ Die Artikelvarianten richten sich an Benutzer, die ihre Bestände ausschließlic
 
 Dabei werden auch jene Artikel angezeigt, die einen Bestand von 0 haben, jedoch im Geschäftsjahr bewegt wurden. Hier gilt es sicherzustellen, dass diese tatsächlich keinen Bestand haben.
 
-Hinweis
+<p class="just-emphasize">Hinweis</p>
 
 Um diese Auswahl aussagekräftig zu machen, ist Voraussetzung, dass hier stets gesamte Artikelmengen (ggf. pro Lagerplatz) inventarisiert werden.

@@ -20,6 +20,6 @@ Funktion/Report: Perioden-Erfolgsauswertung
 
 [Weitere Informationen](http://www.amic.de/hilfe/periodenerfolgsauswertung.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2312.8, 34520, 729146

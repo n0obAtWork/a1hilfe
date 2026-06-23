@@ -4,7 +4,7 @@
 
 Die Nachhaltigkeit hat einige spezielle AF – Formate, die gepflegt werden müssen.
 
-Nachhaltigkeitsstatus (Format AF_NACHHSTAT)
+<p class="just-emphasize">Nachhaltigkeitsstatus (Format AF_NACHHSTAT)</p>
 
 Auf Anforderung wurde das Nachhaltigkeitskennzeichen am Kunden nicht als ja/nein-Kennung eingebaut. Stattdessen ist untenstehendes Anwenderformat einzurichten, das an folgende feste Bedeutung gebunden ist.
 
@@ -14,7 +14,7 @@ Auf Anforderung wurde das Nachhaltigkeitskennzeichen am Kunden nicht als ja/nein
 | 1-9 | nicht nachhaltig |
 | \>=10 | nachhaltig |
 
-Zertifikatstyp (Format AF_NAHA_ZERT)
+<p class="just-emphasize">Zertifikatstyp (Format AF_NAHA_ZERT)</p>
 
 Relevant sind hier die Typen 4 und 5, deren numerische Repräsentation als verbindlich anzusehen ist im Hinblick auf die Standard-Zulieferfunktionen für die Nachhaltigkeitsinformation.
 
@@ -30,10 +30,10 @@ Zertifikate vom Typ 4 gelten für den Einkauf und müssen für den im Beleg ange
 
 Das Zertifikat mit dem Typ 5 wird nur in dem Systemkunden eingetragen. Diesen findet man heraus oder richtet diesen ein auf der Mandantenstammmaske unter dem Direktsprung [MND] im Feld Systemkundennnummer. Die Zertifikateinrichtungen für den Systemkunden regeln den gesamten Verkauf und Belege mit den Vorgangsklassen 5100, 5110, 5120, 5200, 5210 und 5220.
 
-Zertifizierungsmethode (Format AF_ZERTMETH)
+<p class="just-emphasize">Zertifizierungsmethode (Format AF_ZERTMETH)</p>
 
 Angegeben werden die Zertifizierungsinstitutionen. (z.B. ISCC, REDcert, Selbsterklärung)
 
-Kategorie des Zertifikats (Format AF_ZERTKATEG)
+<p class="just-emphasize">Kategorie des Zertifikats (Format AF_ZERTKATEG)</p>
 
 Dieses Format dient der Kategorie des Zertifikats, aktuell wird die Kategorie nur zur Auswertung in der [Bewegungsübersicht](../auswertungen/bewegungsuebersicht.md) verwendet.

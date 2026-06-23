@@ -20,6 +20,6 @@ Funktion/Report: Textbaustein
 
 [Weitere Informationen](http://www.amic.de/hilfe/!_kontraktvarianten.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2502.9, 38820, 752023

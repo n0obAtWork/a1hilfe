@@ -8,7 +8,7 @@ Für die Erstellung eines Rosi-Profils sind die folgenden Schritte durchzuführe
 - Kommunikationsbatch anlegen
 - EDI-Partner anlegen
 
-Nachrichtenprofil anlegen
+<p class="just-emphasize">Nachrichtenprofil anlegen</p>
 
 In dem Nachrichtenprofil wird angegeben, in welche Richtung und um welchen Typ von EDI-Nachricht es sich handelt. Es wird eine EDI-Nachricht vom Typ „ORDERS“ verwendet.
 
@@ -33,7 +33,7 @@ In dem Nachrichtenprofil wird angegeben, in welche Richtung und um welchen Typ v
 
 10. Die Eingaben mit der Taste „F9“ speichern. Anschließend die Maske mit der Taste „ESC“ schließen.
 
-Kommunikationsbatch anlegen
+<p class="just-emphasize">Kommunikationsbatch anlegen</p>
 
 In dem Kommunikationsbatch wird angegeben: Die Richtung und das Quellverzeichnis der EDI-Nachricht.
 
@@ -56,7 +56,7 @@ In dem Kommunikationsbatch wird angegeben: Die Richtung und das Quellverzeichnis
 
 9. Die Eingaben mit der Taste „F9“ speichern. Anschließend die Maske mit der Taste „ESC“ schließen.
 
-EDI-Partner anlegen
+<p class="just-emphasize">EDI-Partner anlegen</p>
 
 In dem Profil EDI-Partner wird die Teilnehmer-ILN, das Kommunikationsprofil und der EDI-Nachrichtentyp hinterlegt.
 

@@ -20,6 +20,6 @@ Funktion/Report: aktuelle Warenbestände
 
 [Weitere Informationen](http://www.amic.de/hilfe/weiterefunktionenbeiderartikel.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2501.8, 37605, 748438

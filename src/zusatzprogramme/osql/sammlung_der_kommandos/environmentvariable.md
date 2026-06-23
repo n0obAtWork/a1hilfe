@@ -2,31 +2,31 @@
 
 <!-- source: https://amic.de/hilfe/environmentvariable.htm -->
 
-Syntax
+<p class="just-emphasize">Syntax</p>
 
 %NAMEDERVARIABLEN%
 
-Purpose
+<p class="just-emphasize">Purpose</p>
 
 Zur Verwendung in Skripten als Variable
 
-Anwendung
+<p class="just-emphasize">Anwendung</p>
 
 Befehlszeile, Kommandodatei
 
-Berechtigung
+<p class="just-emphasize">Berechtigung</p>
 
 Alle Anwender
 
-Siehe auch
+<p class="just-emphasize">Siehe auch</p>
 
 [Parameter](./parameter_beim_dateiaufruf_osql.md), Variablen
 
-Beschreibung
+<p class="just-emphasize">Beschreibung</p>
 
 Man kann in den Kommandodateien auf Envirenmentvariablen zugreifen. Diese werden genau wie Parameter und Variablen gegen deren Inhalt ausgetauscht.
 
-Beispiel
+<p class="just-emphasize">Beispiel</p>
 
 SET OUTFILE %TEMP%\\outfile.txt
 

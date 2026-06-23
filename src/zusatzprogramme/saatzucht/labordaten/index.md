@@ -6,7 +6,7 @@ Hauptmenü > Saatzucht > Saatenlabor > Labordaten
 
 oder Direktsprung **[LABOR]**
 
-Funktionen der Anwendung Labor
+<p class="just-emphasize">Funktionen der Anwendung Labor</p>
 
 | Funktion | Bedeutung |
 | --- | --- |
@@ -23,12 +23,12 @@ Funktionen der Anwendung Labor
 | Drucke Teilprobenetikett | Druckt alle [Teilprobenetiketten](../labormethoden.md#Methode_TeilprobenEtikett) aus, die an der [Methode](./lwk_uebertrage.md) hinterlegt wurde<br> |
 | Drucke Untersuchungsetiketten | Druckt alle Etiketten, die im [Verfahren](../laborverfahren.md) auf der Registerkarte [Allgemein](../laborverfahren.md#UEB_LaborverfahrenAllgemein) hinterlegt wurden.<br> |
 | Archiv Ansehen | Öffnet die Archiv-Anwendung für Labor.<br> |
-| Probeteilen<br> <br>und<br><br><br>Probeteilen und Druck | Mit dieser Funktion wird für jedes [Teilprobenetikett](../labormethoden.md#Methode_TeilprobenEtikett), welches in der [Methode](./lwk_uebertrage.md#Labormethoden) des ausgewählten Labordatensatzes hinterlegt ist, ein Eintrag in die Tabelle Saatgutetiketten gemacht. Bei der Funktion „Probedruck und Druck“ wird nach dem Anlegen der Datensätze die entsprechenden Etiketten ausgedruckt.<br> <br>In dem Steuerparameter [1043 „Allgemeiner Steuerparameter für das Labor“](../../../firmenstamm/steuerparameter/allgemeine_programmsteuerung/allgemeiner_steuerparameter_fuer_das_labor_spa_1043.md) kann für die Ausprägung „ProzedurProbeTeilen“ eine alternative Datenbankprozedur zur Probenteilung hinterlegt werden. Diese muss als Eingangsparameter und Rückgabeparameter dieselben Parameter haben wie die Standardprozedur Laborprobeteilen:<br><br><br> <br> |
+| Probeteilen<br> <br>und<br><br><br>Probeteilen und Druck | Mit dieser Funktion wird für jedes [Teilprobenetikett](../labormethoden.md#Methode_TeilprobenEtikett), welches in der [Methode](./lwk_uebertrage.md#Labormethoden) des ausgewählten Labordatensatzes hinterlegt ist, ein Eintrag in die Tabelle Saatgutetiketten gemacht. Bei der Funktion „Probedruck und Druck“ wird nach dem Anlegen der Datensätze die entsprechenden Etiketten ausgedruckt.<br> <br>In dem Steuerparameter [1043 „Allgemeiner Steuerparameter für das Labor“](../../../firmenstamm/steuerparameter/allgemeine_programmsteuerung/allgemeiner_steuerparameter_fuer_das_labor_spa_1043.md) kann für die Ausprägung „ProzedurProbeTeilen“ eine alternative Datenbankprozedur zur Probenteilung hinterlegt werden. Diese muss als Eingangsparameter und Rückgabeparameter dieselben Parameter haben wie die Standardprozedur Laborprobeteilen:<br><br><br><pre><code>create procedure&#10; "admin"."LaborProbeTeilen"&#10; (&#10; in in_qualitaetsId&#10; integer,&#10; in in_ProbenNummer&#10; integer,&#10; in in_Methode&#10; integer&#10; &#10; )&#10;Result&#10; &#10; (&#10; QualitaetsId integer,&#10;&#10; ProbenNummer&#10; integer,&#10; AMICEtikettenId&#10; char(30)&#10; &#10; )&#10;BEGIN&#10;…</code></pre><br> <br> |
 | Wiederholdruck | Mit dieser Funktion werden die zu diesem Labordatensatz hinterlegten Etiketten in der Tabelle Saatgutetiketten erneut ausgedruckt.<br> |
 
 Folgende Einrichterparameter gibt es auf diesem Pfleger: [Einrichterparameter Labordaten](../../../firmenstamm/einrichterparameter/qualitaetslabor_nach_ista_epa_labordaten.md)
 
-Funktionen auf der Maske
+<p class="just-emphasize">Funktionen auf der Maske</p>
 
 Die Funktionen zu dieser Maske erreicht man nur über das Kontextmenü durch Drücken der rechten Maustaste. Folgende Funktionen können aus der Maske aufgerufen werden.
 
@@ -83,7 +83,7 @@ Im Kopfteil der Maske befindliche Felder:
 Sind alle notwendigen Kopfdaten angegeben, so wird die Erfassung dieses Teils der Daten mit der Taste **F9** (Speichern der Kopfdaten) abgeschlossen. Nun können die Daten zu den ausgewählten Verfahren in den jeweiligen Registerkarten bearbeitet werden.  
 Dabei ist **zu beachten**, dass, für jedes Verfahren getrennt, nach jeder Eingabe auf der Verfahrensregisterkarte die zum Verfahren gehörenden Daten unmittelbar gespeichert und wieder eingelesen und angezeigt werden. Dadurch ist es möglich, individuelle Berechnungen zum Verfahren mittels privater Update-Trigger auf den zum Verfahren gehörenden Relationen durchführen zu lassen und die resultierenden Ergebnisse sofort auf der Maske sichtbar zu machen. Diese Realisierung der Implementation von Berechnungen ermöglicht unter anderem auch die Berechnungen bei der Erzeugung der Datensätze außerhalb der Bearbeitung per Labordaten-Maske (zum Beispiel durch Scanner-Datenübernahme).
 
-Felder auf der Registerkarte KF ung. (Keimfähigkeit ungebeizt), KF geb. (Keimfähigkeit gebeizt) und Derm(Keimfähigkeit)
+<p class="just-emphasize">Felder auf der Registerkarte KF ung. (Keimfähigkeit ungebeizt), KF geb. (Keimfähigkeit gebeizt) und Derm(Keimfähigkeit)</p>
 
 Bei der Keimfähigkeitsuntersuchung werden eine bestimmte Anzahl Reine Samen eingekeimt und nach einer festgelegten Anzahl an Tagen (Keimdauer) ausgewertet. Die Samen und Keimlinge werden in folgende Kategorien eingeteilt: Normale und anomale Keimlinge; frische, harte und tote Samen. Der Prozentsatz der normalen Keimlinge bildet die Keimfähigkeit. Man spricht von gebeizten Saatgut, wenn es mit Pflanzenschutzmitteln gegen bspw. Pilzbefall oder Schädlinge behandelt wurde.
 
@@ -121,7 +121,7 @@ Die Kombination aus Feldnamen, Hintergrundfarbe, Vordergrundfarbe wird mit Komma
 | Bemerkung | Hier kann eine Bemerkung für die Untersuchung eingetragen.<br> |
 | Bemerkung intern | Hier kann eine interne Bemerkung für die Untersuchung eingetragen.<br> |
 
-Felder auf der Registerkarte Lufa
+<p class="just-emphasize">Felder auf der Registerkarte Lufa</p>
 
 Untersuchungen, die bei der Lufa (Landwirtschaftliche Untersuchungs- und Forschungsanstalt) in Auftrag gegeben wurden, werden hier eingetragen.
 
@@ -139,7 +139,7 @@ Untersuchungen, die bei der Lufa (Landwirtschaftliche Untersuchungs- und Forschu
 | Inhaltsstoffe (Tabelle) | |
 | Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste **F3** **kann** **eine Auswahl aufgerufen werden**. |
 
-Felder auf der Registerkarte Reinheit/Besatz
+<p class="just-emphasize">Felder auf der Registerkarte Reinheit/Besatz</p>
 
 Bei der Reinheitsuntersuchung wird durch mechanische Auftrennung der Untersuchungsprobe in Reine Samen (Samen, die augenscheinlich zu derselben, angegebenen Fruchtart gehören), Samen anderer Arten (Unkrautsamen, Samen anderer Kulturarten) und Unschädliche Verunreinigungen unterschieden.
 
@@ -166,7 +166,7 @@ Bei der Besatzuntersuchung wird eine vorgegebene Menge Saatgut auf Samen anderer
 | Reinheit (Tabelle) | In der Tabelle „Reinheit“ können in der Spalte „g“ das Gewicht in Gramm eingegeben werden. Die Spalte „%“ dient der prozentualen Eingabe. Die Anzahl kann in der Spalte „Anz“ angegeben werden. In der Spalte „Besatz“ wird die Besatzbezeichnung eingetragen. Die Spalte „T“ wird zur Pflege der Besatzarten-Gruppierung genutzt und ist an das Format „AF_BESATZART“ angeschlossen via Taste **F3** **kann hier eine Auswahl aufgerufen werden****.**<br> |
 | Besatz (Tabelle) | In der Tabelle „Besatz“ können in der Spalte „%“ prozentualen Eingaben vorgenommen werden. Die Anzahl kann in der Spalte „Anz“ angegeben werden. In der Spalte „Besatz“ kann die Besatzbezeichnung eingetragen werden.<br> |
 
-Felder auf der Registerkarte Sonstiges
+<p class="just-emphasize">Felder auf der Registerkarte Sonstiges</p>
 
 Bei der Untersuchung Sortierung soll die Kalibrierung von pilliertem (mit einer Hülle aus neutraler Masse ummantelt, die Alternative hierzu wäre das Beizen) oder unbehandeltem Saatgut geprüft werden. Diese Art der Untersuchung soll mit zwei Wiederholungen durchgeführt werden.
 
@@ -211,7 +211,7 @@ Die Untersuchung der Feuchte von Saatgut dient der Beurteilung der Lagerfähigke
 | TKM g | Tausend Korn Masse in Gramm von Leguminosen (Hülsenfrüchtlern).<br> |
 | Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste **F3** **kann** **eine Auswahl aufgerufen werden**.<br> |
 
-Felder auf der Registerkarte Techn.Prüfung
+<p class="just-emphasize">Felder auf der Registerkarte Techn.Prüfung</p>
 
 | Name | Bedeutung |
 | --- | --- |
@@ -222,7 +222,7 @@ Felder auf der Registerkarte Techn.Prüfung
 | Prüfer | Der Prüfer dieser Untersuchung wird hier eingetragen.<br> |
 | Status | Das Druckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste **F3** **kann** **eine Auswahl aufgerufen werden**. |
 
-Felder auf der Registerkarte Triebkraft
+<p class="just-emphasize">Felder auf der Registerkarte Triebkraft</p>
 
 Die Triebkraftuntersuchung wird durchgeführt, wenn die gebeizte Keimfähigkeit über einem festgelegten Schwellwert gegenüber der ungebeizten Keimfähigkeit liegt. Sie ist ein wichtiger zusätzlicher Indikator für die Gesundheit des Saatgutes.
 
@@ -237,7 +237,7 @@ Die Triebkraftuntersuchung wird durchgeführt, wenn die gebeizte Keimfähigkeit 
 | ges. | <br> |
 | Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste **F3** **kann** **eine Auswahl aufgerufen werden**.<br> |
 
-Felder auf der Registerkarte Silo
+<p class="just-emphasize">Felder auf der Registerkarte Silo</p>
 
 | Name | Bedeutung |
 | --- | --- |
@@ -249,7 +249,7 @@ Felder auf der Registerkarte Silo
 | Gesamtmenge | Hier kann die Gesamtmenge in Dezitonnen und Kilogramm eingetragen werden.<br> |
 | Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste **F3** **kann** **eine Auswahl aufgerufen werden**.<br> |
 
-Felder auf der Registerkarte Tetra (Tetrazolium)
+<p class="just-emphasize">Felder auf der Registerkarte Tetra (Tetrazolium)</p>
 
 Biochemische Prüfung von Samen auf Lebensfähigkeit nach dem topographischen Tetrazolium-Verfahren gemäß den ISTA-Vorschriften. Es finden hierbei bis zu vier Wiederholungen statt, wobei die Samen hierfür präpariert sein können (dies erleichtert das Eindringen der Färbelösung).
 
@@ -264,7 +264,7 @@ Biochemische Prüfung von Samen auf Lebensfähigkeit nach dem topographischen Te
 | Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste **F3** **kann** **eine Auswahl aufgerufen werden**.<br> |
 | Bemerkung | Bemerkungsfeld, hier können Bemerkungen zur Untersuchung eingetragen werden.<br> |
 
-Felder auf der Registerkarte Zusammensetzung
+<p class="just-emphasize">Felder auf der Registerkarte Zusammensetzung</p>
 
 Die Untersuchung der Zusammensetzung wird zum Beispiel bei Saatgutmischungen mit vorhandenen Soll-Werten für die einzelnen in der Mischung enthaltenen Bestandteile genutzt. Neben der Angabe der Untersuchungsmenge, eines abweichenden Untersuchungsdatums und des Prüfers werden die ermittelten Bestandteile per F3-Auswahl in der Spalte ‚Zusammensetzung‘ aufgenommen sowie der zugehörige Soll-Wert und der ermittelte Ist-Wert als Gewicht (gemäß den ISTA-Vorschriften) oder prozentual erfasst. Im Bemerkungsfeld kann zum Beispiel das Untersuchungsergebnis kommentiert werden.
 
@@ -280,7 +280,7 @@ Die Untersuchung der Zusammensetzung wird zum Beispiel bei Saatgutmischungen mit
 | Bemerkung | Bemerkungsfeld, hier können Bemerkungen zur Untersuchung eingetragen werden.<br> |
 | Status | Der Status der Zusammensetzungsuntersuchung kann hier angegeben werden. Auswählbar über das Anwender-Format „AF_KFDRUCK“ per Taste **F3.**<br> |
 
-Felder auf der Registerkarte Kotrollanbau
+<p class="just-emphasize">Felder auf der Registerkarte Kotrollanbau</p>
 
 Das Verfahren Kontrollanbau ermöglicht die Eingabe von Feldversuchsergebnissen.
 
@@ -296,9 +296,9 @@ Das Verfahren Kontrollanbau ermöglicht die Eingabe von Feldversuchsergebnissen.
 | <br>In der Tabelle können die Merkmale gepflegt werden, die zur Feststellung der Sortenechtheit benötigt werden. |
 | Nr | Die Nummer des Qualitätsmerkmals. Eine Auswahl ist mit **F3** möglich. Hinter der Nummer wird die Bezeichnung des Qualitätsmerkmals angezeigt<br> |
 | Ist | Der ermittelte Wert des Qualitätsmerkmals kann hier eingetragen werden.<br> |
-| Ausprägung | Hier wird die Ausprägung des Qualitätsmerkmals angezeigt. In dem Steuerparameter „[Allgemeiner Steuerparameter für das Labor](../../../firmenstamm/steuerparameter/allgemeine_programmsteuerung/allgemeiner_steuerparameter_fuer_das_labor_spa_1043.md)“ kann über den Schlüssel „ProzedurKontrollanbauAuspraegung“ eine Prozedur hinterlegt werden, die die anzuzeigende Ausprägung zurückliefert. Diese Prozedur muss dieselben Eingangs- und Ausgangsparameter haben wie die Standardprozedur „KontrollanbauAusprägung“.<br> <br> <br>In der Standardprozedur werden der Formatname oder - wenn kein Format angegeben ist - die Mengeneinheit aus den [Qualitätsmerkmalen](../qualitaetsmerkmale.md) verwendet, um die Ausprägung anzuzeigen<br>. |
+| Ausprägung | Hier wird die Ausprägung des Qualitätsmerkmals angezeigt. In dem Steuerparameter „[Allgemeiner Steuerparameter für das Labor](../../../firmenstamm/steuerparameter/allgemeine_programmsteuerung/allgemeiner_steuerparameter_fuer_das_labor_spa_1043.md)“ kann über den Schlüssel „ProzedurKontrollanbauAuspraegung“ eine Prozedur hinterlegt werden, die die anzuzeigende Ausprägung zurückliefert. Diese Prozedur muss dieselben Eingangs- und Ausgangsparameter haben wie die Standardprozedur „KontrollanbauAusprägung“.<br> <br><pre><code>create function&#10; "admin"."KontrollanbauAuspraegung"&#10;(&#10; in&#10; in_MerkmalsNummer integer,&#10; in in_Ident integer&#10;)&#10;returns&#10; char(25)&#10;BEGIN&#10;…</code></pre><br> <br>In der Standardprozedur werden der Formatname oder - wenn kein Format angegeben ist - die Mengeneinheit aus den [Qualitätsmerkmalen](../qualitaetsmerkmale.md) verwendet, um die Ausprägung anzuzeigen<br>. |
 
-Felder auf der Registerkarte Marker
+<p class="just-emphasize">Felder auf der Registerkarte Marker</p>
 
 Das Verfahren Marker ermöglicht die Eingabe von genotypischen Untersuchungen.
 
@@ -320,7 +320,7 @@ Das Verfahren Marker ermöglicht die Eingabe von genotypischen Untersuchungen.
 | NON | Der Analysewert der Ausprägung Negativ kann hier eingetragen werden.<br> |
 | Ergebnis % | Das Ergebnis in % kann hier eingetragen werden.<br> |
 
-AIS – Erweiterung
+<p class="just-emphasize">AIS – Erweiterung</p>
 
 Der Laborpfleger lässt sich mit AIS erweitern. Das zu verwendende Ident-Maskenfeld lautet **h.QualitaetsId$**
 

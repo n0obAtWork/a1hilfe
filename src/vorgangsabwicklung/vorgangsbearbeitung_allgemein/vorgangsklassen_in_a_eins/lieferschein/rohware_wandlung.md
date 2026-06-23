@@ -7,23 +7,15 @@ Zunächst einmal muss die Wandlung durch das Kennzeichen *Rohware Vorerfassung* 
 
 Es können nur Lieferscheine in Rohware-Lieferscheine gewandelt werden, wenn
 
-\- der Lieferschein genau eine Warenposition enthält
-
-\- der Artikel der Warenposition ein Rohwareartikel ist (eingetragene Rohwarengruppe)
-
-\- der Lieferschein über keine Zeilen- und Gruppen-Rabatte, -Frachten und -Zu-/Abschläge verfügt
-
-\- ein im Lieferschein bereits zugeordneter Kontrakt ein Rohwarekontrakt ist
-
-\- keine Gebinde-Mengeneinheit zur Erfassung genutzt wurde
-
-\- der Lieferschein keine Gefahrgutinformation enthält
-
-\- keine Streckenzuordnung vorhanden ist
-
-\- keine oder genau eine Partie zugeordnet ist
-
-\- eine per UFLD-Feld erfasste abweichende Schemanummer zur Rohwarengruppe des Artikels passt 
+- der Lieferschein genau eine Warenposition enthält
+- der Artikel der Warenposition ein Rohwareartikel ist (eingetragene Rohwarengruppe)
+- der Lieferschein über keine Zeilen- und Gruppen-Rabatte, -Frachten und -Zu-/Abschläge verfügt
+- ein im Lieferschein bereits zugeordneter Kontrakt ein Rohwarekontrakt ist
+- keine Gebinde-Mengeneinheit zur Erfassung genutzt wurde
+- der Lieferschein keine Gefahrgutinformation enthält
+- keine Streckenzuordnung vorhanden ist
+- keine oder genau eine Partie zugeordnet ist
+- eine per UFLD-Feld erfasste abweichende Schemanummer zur Rohwarengruppe des Artikels passt 
 
 Nach erfolgreicher Durchführung der Wandlung ist der Lieferschein nicht mehr in den Lieferschein-Auswahllisten vorhanden, da er ja nun aufgrund seines Rohware-Charakters im Rohwaremodul dargestellt wird.
 

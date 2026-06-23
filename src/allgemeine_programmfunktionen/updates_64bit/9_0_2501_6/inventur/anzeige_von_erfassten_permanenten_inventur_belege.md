@@ -20,6 +20,6 @@ Funktion/Report: Differenzbeleg erfassen
 
 [Weitere Informationen](http://www.amic.de/hilfe/_Permanente_Inventur.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2501.6, 37138, 742234

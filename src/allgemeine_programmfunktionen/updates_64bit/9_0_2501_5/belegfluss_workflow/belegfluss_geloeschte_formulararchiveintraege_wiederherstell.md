@@ -20,6 +20,6 @@ Funktion/Report: Löschen rückgängig
 
 [Weitere Informationen](http://www.amic.de/hilfe/!belegflussvariante1meinepostfc.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2501.5, 36959, 746665

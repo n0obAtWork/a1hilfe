@@ -20,6 +20,6 @@ Funktion/Report: Editieren
 
 [Weitere Informationen](http://www.amic.de/hilfe/_hauptmaske.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2501.5, 35813, 737497

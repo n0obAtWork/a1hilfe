@@ -2,6 +2,6 @@
 
 <!-- source: https://amic.de/hilfe/scripting.htm -->
 
-\-300000
+<p class="just-emphasize">\-300000</p>
 
 angefordertes Script nicht in der Datenbank

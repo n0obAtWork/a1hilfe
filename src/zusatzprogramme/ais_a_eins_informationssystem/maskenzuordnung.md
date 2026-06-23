@@ -146,7 +146,7 @@ Diese Option steht nur dann zur Verfügung, wenn die Maske mit AEZADDON beginnt 
 
 Diese Option steht nur dann zur Verfügung, wenn die Maske mit AEZADDON beginnt. Trägt man hier **Ja** ein, so hat man im Ändern-Modus gleichzeitig die Möglichkeit den Datensatz auch zu löschen. Standardvorbelegung ist **Nein**.
 
-Benutzerspezifische Gruppe
+<p class="just-emphasize">Benutzerspezifische Gruppe</p>
 
 Diese Funktion ermöglicht es, einzelnen Benutzer unterschiedliche Darstellungen eines Sachverhalts zuzuordnen. Die in der Maskenzuordnung festgelegte Gruppe gilt für alle Benutzer, in den benutzerspezifischen Gruppen kann man dann für ausgewählte Benutzer eine andere Gruppe hinterlegen. Für diese benutzerspezifische Gruppe gelten ansonsten alle Einstellungen so wie sie in der Maskenzuordnung hinterlegt. Diese Gruppe kann dann zum Beispiel nichts weiter als den Label „Kein Zugriff“ enthalten um die Informationen für Benutzer X zu sperren, oder sie enthält zwar dieselben Informationen, aber man hat in dieser benutzerspezifischen Gruppe dann keine Möglichkeit zum Ändern.
 
@@ -154,7 +154,7 @@ Sind in einer Maskenzuordnung benutzerspezifische Gruppen hinterlegt, so erschei
 
 ![](../../ImagesExt/image8_1038.png)
 
-Verbinden
+<p class="just-emphasize">Verbinden</p>
 
 Die Funktion „***Verbinden***“ steht nur dann zur Verfügung, wenn die Maske AEZADDON oder AEZADDOND heißt. Sie wird erst eingeblendet, nachdem eine Zuordnung der Gruppe zu einer Maske abgespeichert worden ist. Es wird dann die in A.eins übliche Maske zum Verbinden einer Funktion mit einer Anwendung / Variante geöffnet. Die Funktion, die dann erstellt wird, bekommt als Bezeichnung die in der Maskenzuordnung unter Bezeichnung/Register eingetragene Bezeichnung. Der Controlstring hängt davon ab, welche Art von Pfleger man erstellt hat. Als Controlstring wird „^jpl aisload :Gruppe“ eingetragen, wenn keine Auswahlliste eingetragen ist ansonsten werden zwei Funktionen „***Ändern***“ – Controlstring „^jpl sd_ais 5 AEZADDON :Gruppe“ - und „***Ansehen***“ – Controlstring „^jpl sd_ais 6 AEZADDON :Gruppe“ - dieser Anwendung hinzugefügt.
 

@@ -30,7 +30,7 @@ Zu diesem Zweck wird der ImportTyp im Vorgangstamm auf 11 gesetzt.
 
 Als Referenz für die im Beleg zu ändernder Position gilt die WabewGuid des aktuellen Beleges.
 
-Daten Manipulation vorm Erzeugen eines Vorgangs:
+<p class="just-emphasize">Daten Manipulation vorm Erzeugen eines Vorgangs:</p>
 
 Es besteht die Möglichkeit mittels einer privaten Prozedur/Funktion die Daten im Vorgangsimport noch zu manipulieren. Diese private Prozedur wird im Steuerparameter „Allgemeiner Steuerparameter für die Vorgangsimportschnittstelle“ ([928](../../../../firmenstamm/steuerparameter/optionen_warenwirtschaft/allgemeiner_steuerparameter_fuer_die_vorgangsimportschnittst.md)) in der Option „GlobaleAenderungsProzedur“ hinterlegt. Nach dem Aufruf dieser Prozedur wird die eigentliche Vorgangserstellung gestartet. Die Prozedur wird für jeden zu erzeugendem Vorgang aufgerufen.
 

@@ -20,6 +20,6 @@ Funktion/Report: F8, F5
 
 [Weitere Informationen](http://www.amic.de/hilfe/rohwarebelegeerfassen.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2306.9, 33885, 724088

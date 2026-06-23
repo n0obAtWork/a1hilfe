@@ -4,7 +4,7 @@
 
 Das A.eins-System bietet dem Bediener durch diverse Zeilen- oder Zellenorientierte Funktionen größtmögliche Effizienz bei der Bearbeitung der Streckengeschäfte.
 
-Informationen zu Feldern mit Doppelklick Funktionen
+<p class="just-emphasize">Informationen zu Feldern mit Doppelklick Funktionen</p>
 
 | Spalte | Beschreibung |
 | --- | --- |
@@ -22,7 +22,7 @@ Informationen zu Feldern mit Doppelklick Funktionen
 | Preis | Öffnen der Maske Preis Info System |
 | Tour | Öffnen der Tour Stamm Maske, hier können nähere Informationen über die Tour nachgelesen oder die Daten aktualisiert werden. Änderungen werden automatisch übernommen. |
 
-Zusätzliche Feldinformationen
+<p class="just-emphasize">Zusätzliche Feldinformationen</p>
 
 | Spalte | Beschreibung |
 | --- | --- |

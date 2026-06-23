@@ -29,16 +29,26 @@ Bei Erfassung über Historie ist es möglich einen abweichenden Betrag einzugebe
 Verwendet man die Variante „Fibubeleg ohne Anlageneintrag“ zur Erstellung der Umbuchung wird der Betrag des SO-Beleges als Umbuchungsbetrag verwendet, solange er kleiner oder gleich dem Restwert des Anlagengutes ist.  
     
 
-Beispiel 1:
+<p class="just-emphasize">Beispiel 1:</p>
 
 Anschaffung 01.01.2005 für 10.000,00. Am 15.04.2006 wird das Anlagegut einer anderen Kostenstelle zugewiesen, die Lebensdauer soll unverändert bleiben.  
     
 
-<table class="AMICOlavsTabelle" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td style="WIDTH: 47.12%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="47%">Wertstellung</td><td style="WIDTH: 25.74%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="25%">01.01.2005</td><td style="WIDTH: 27.14%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="27%"></td></tr><tr><td style="WIDTH: 47.12%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="47%">Lebensdauer</td><td style="WIDTH: 25.74%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="25%">5 Jahre</td><td style="WIDTH: 27.14%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="27%"></td></tr><tr><td style="WIDTH: 47.12%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="47%">AHK</td><td style="WIDTH: 25.74%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="25%">01.01.2005</td><td style="WIDTH: 27.14%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="27%">10.000,00</td></tr><tr><td style="WIDTH: 47.12%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="47%">AfA</td><td style="WIDTH: 25.74%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="25%">31.12.2005</td><td style="WIDTH: 27.14%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="27%">2.000,00</td></tr><tr><td style="WIDTH: 47.12%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="47%">AfA</td><td style="WIDTH: 25.74%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="25%">15.04.2006</td><td style="WIDTH: 27.14%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="27%">500,00</td></tr><tr><td style="WIDTH: 47.12%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="47%">Umb</td><td style="WIDTH: 25.74%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="25%">15.04.2006</td><td style="WIDTH: 27.14%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="27%">7.500,00</td></tr></tbody></table>
+| Wertstellung | 01.01.2005 | |
+| --- | --- | --- |
+| Lebensdauer | 5 Jahre | |
+| AHK | 01.01.2005 | 10.000,00 |
+| AfA | 31.12.2005 | 2.000,00 |
+| AfA | 15.04.2006 | 500,00 |
+| Umb | 15.04.2006 | 7.500,00 |
 
 Neues Anlagengut:
 
-<table class="AMICOlavsTabelle" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td style="WIDTH: 47.34%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="47%">Wertstellung</td><td style="WIDTH: 25.86%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="25%">01.01.2005</td><td style="WIDTH: 26.8%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="26%"></td></tr><tr><td style="WIDTH: 47.34%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="47%">Lebensdauer</td><td style="WIDTH: 25.86%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="25%">5 Jahre</td><td style="WIDTH: 26.8%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="26%"></td></tr><tr><td style="WIDTH: 47.34%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="47%">AHK-Umbuchung</td><td style="WIDTH: 25.86%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="25%">15.04.2006</td><td style="WIDTH: 26.8%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="26%">10.000,00</td></tr><tr><td style="WIDTH: 47.34%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="47%">AfA-Umbuchung</td><td style="WIDTH: 25.86%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="25%">15.04.2006</td><td style="WIDTH: 26.8%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="26%">2.500,00</td></tr></tbody></table>
+| Wertstellung | 01.01.2005 | |
+| --- | --- | --- |
+| Lebensdauer | 5 Jahre | |
+| AHK-Umbuchung | 15.04.2006 | 10.000,00 |
+| AfA-Umbuchung | 15.04.2006 | 2.500,00 |
 
 Die nächste AfA errechnet sich dann wie folgt: Aus Wertstellung und Datum der Umbuchung ergibt sich die Zeit, die das Anlagegut bereits abgeschrieben wurde, nämlich 15 Monate. Der Restbuchwert von 7.500,00 Euro muss demnach noch 45 Monate Abgeschrieben werden, davon 9 im Jahr 2006. Es ergibt sich also der abzuschreibende Betrag als
 
@@ -46,17 +56,25 @@ RESTBUCHWERT / RESTLEBENSDAUER \* ABSCHREIBUNGSDAUER bzw.
 
 7500,00 / 45 \* 9 = 1500,00
 
-Beispiel 2:
+<p class="just-emphasize">Beispiel 2:</p>
 
 Eine im Bau befindliche Anlage wird am 12.05.2005 fertiggestellt. Die Lebensdauer der neuen Anlage beträgt 20 Jahre. Abschreibung Linear
 
 Anlage im Bau
 
-<table class="AMICOlavsTabelle" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td style="WIDTH: 47.12%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="47%">Wertstellung</td><td style="WIDTH: 25.74%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="25%">01.07.2004</td><td style="WIDTH: 27.14%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="27%"></td></tr><tr><td style="WIDTH: 47.12%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="47%">Lebensdauer</td><td style="WIDTH: 25.74%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="25%">0 Jahre</td><td style="WIDTH: 27.14%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="27%"></td></tr><tr><td style="WIDTH: 47.12%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="47%">AHK</td><td style="WIDTH: 25.74%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="25%">01.01.2005</td><td style="WIDTH: 27.14%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="27%">10.000,00</td></tr><tr><td style="WIDTH: 47.12%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="47%">Zug</td><td style="WIDTH: 25.74%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="25%">01.02.2005</td><td style="WIDTH: 27.14%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="27%">2.000,00</td></tr><tr><td style="WIDTH: 47.12%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="47%">Umb</td><td style="WIDTH: 25.74%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="25%">12.05.2005</td><td style="WIDTH: 27.14%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="27%">12.000,00</td></tr></tbody></table>
+| Wertstellung | 01.07.2004 | |
+| --- | --- | --- |
+| Lebensdauer | 0 Jahre | |
+| AHK | 01.01.2005 | 10.000,00 |
+| Zug | 01.02.2005 | 2.000,00 |
+| Umb | 12.05.2005 | 12.000,00 |
 
 Neues Anlagengut:
 
-<table class="AMICOlavsTabelle" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td style="WIDTH: 47.34%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="47%">Wertstellung</td><td style="WIDTH: 25.86%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="25%">12.05.2005</td><td style="WIDTH: 26.8%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="26%"></td></tr><tr><td style="WIDTH: 47.34%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="47%">Lebensdauer</td><td style="WIDTH: 25.86%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="25%">20 Jahre</td><td style="WIDTH: 26.8%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="26%"></td></tr><tr><td style="WIDTH: 47.34%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="47%">AHK-Umbuchung</td><td style="WIDTH: 25.86%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="25%">12.05.2005</td><td style="WIDTH: 26.8%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="26%">12.000,00</td></tr></tbody></table>
+| Wertstellung | 12.05.2005 | |
+| --- | --- | --- |
+| Lebensdauer | 20 Jahre | |
+| AHK-Umbuchung | 12.05.2005 | 12.000,00 |
 
 Dadurch, dass die Anlage im Bau eine Lebensdauer von 0 Jahren hat, wird sie nicht mit im AfA –Vorschlag berücksichtigt. Man kann dies auch dadurch erreichen, indem man die AfA-Methode der Anlage im Bau auf „manuelle AfA“ setzt und nach der Umbuchung auf Linear.
 

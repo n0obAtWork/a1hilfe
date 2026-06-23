@@ -4,7 +4,7 @@
 
 Um Ware in das Lagerverwaltungssystem einzubuchen besteht die Möglichkeit, dies per Anlieferung an der Waage zu erfassen.
 
-Folgende Einrichtungen müssen im A.eins System vorgenommen werden
+<p class="just-emphasize">Folgende Einrichtungen müssen im A.eins System vorgenommen werden</p>
 
 1. Als erstes muss in der [Waage](../../../waagenanbindung/waagenanbindung_online_waage/index.md) ein [Rohwarenprofil](../../../waagenanbindung/waagenanbindung_online_waage/prozess_einrichten/index.md) angelegt werden.
 

@@ -16,7 +16,7 @@ Hinweis:
 
 Da die Einstellungen für jede Funktion extra gespeichert werden, wird man anfänglich häufiger Änderungen der Einstellungen vornehmen und sollte daher verstärkt die Richtigkeit der Angaben überprüfen.
 
-Einstellungen
+<p class="just-emphasize">Einstellungen</p>
 
 Für die Einstellungen stehen auf der Maske folgende Häkchen zur Verfügung.
 
@@ -31,6 +31,6 @@ Die Speicherung der Einstellungen erfolgt auch, wenn man den Dialog mit der ESC-
 
 Wie auch sonst in A.eins üblich, werden einige Felder datenabhängig deaktiviert oder aktiviert. Einstellfelder und Eingabefelder werden völlig ausgeblendet, wenn sie keinerlei Bedeutung für die spezifische Umwandlungsfunktion besitzen. Manchmal werden Einstellfelder schattiert (in grau) dargestellt (Beispiel oben: Häkchen für Belegdatum) um klarzustellen, dass eine bestimmte Eingabe unbedingt notwendig ist.
 
-Weiterverarbeitung
+<p class="just-emphasize">Weiterverarbeitung</p>
 
 Unter Umständen kann die Meldung „Achtung: Weiterverarbeitung abwarten!“ auf der Maske erscheinen. Das bedeutet, dass noch nicht alle Belege durch den Mandantenserver verarbeitet wurden. Sobald der Mandantenserver die Belege verarbeitet hat verschwindet die Meldung wieder.

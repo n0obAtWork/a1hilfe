@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/produktion1.htm -->
 
-Produktion anlegen
+<p class="just-emphasize">Produktion anlegen</p>
 
 Produktionen können auf zweierlei Weisen angelegt werden:
 

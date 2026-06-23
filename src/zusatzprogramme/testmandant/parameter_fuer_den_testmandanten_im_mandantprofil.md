@@ -15,7 +15,7 @@ Die Prozedur gibt folgende Möglichkeiten zurück:
 | Testsystem ohne definierten Parameter | NULL |
 | Testsystem mit definierten Parameter | Für das Testsystem definierter Parameter aus der Tabelle MandantProfil |
 
-Einrichtungsbeispiel:
+<p class="just-emphasize">Einrichtungsbeispiel:</p>
 
 Sie wollen in einer Prozedur eine Mailadresse verwenden, die „live@me.xy“ heißt. Im Testsystem soll jedoch „test@me.xy“ verwendet werden.
 

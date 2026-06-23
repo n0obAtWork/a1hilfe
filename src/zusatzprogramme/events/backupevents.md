@@ -4,7 +4,7 @@
 
 Backups, also Datensicherungen der Datenbank sind ein wesentlicher Bestandteil der Datensicherheit in Ihrem System. Deshalb sollten Sie regelmäßig Sicherungen Ihrer Datenbank vornehmen lassen. Backupevents sind Events, wie alle anderen auch. Sie sorgen lediglich für die Erstellung eines Backups und werden mit Hilfe eines eigenen Pflegers erstellt, der Ihnen die wesentlichen Parameter setzt.
 
-Neues Backup Event
+<p class="just-emphasize">Neues Backup Event</p>
 
 Mit dieser Funktion lassen sich Backupevents schnell einrichten.
 

@@ -147,7 +147,7 @@ encoding="ISO-8859-1"?>
 </EDILD01>
 ```
 
-Feldbeschreibung
+<p class="just-emphasize">Feldbeschreibung</p>
 
 | &lt;Header> | Start TAG Header |
 | --- | --- |

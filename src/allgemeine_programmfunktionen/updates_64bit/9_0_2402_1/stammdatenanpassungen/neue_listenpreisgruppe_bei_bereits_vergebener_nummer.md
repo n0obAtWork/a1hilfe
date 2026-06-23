@@ -20,6 +20,6 @@ Funktion/Report: Neu [F8]
 
 [Weitere Informationen](http://www.amic.de/hilfe/_listenPreisGruppe.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2402.1, 35049, 733441

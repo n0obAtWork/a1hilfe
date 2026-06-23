@@ -6,6 +6,5 @@ Für die Maske zur Steuerung der Umwandlung von Bestellungen zu Sammelrechnungen
 
 Mögliche Optionen sind:
 
-\- mit Trennung
-
-\- ohne Trennung
+- mit Trennung
+- ohne Trennung

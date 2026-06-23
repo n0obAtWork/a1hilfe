@@ -18,7 +18,7 @@ Um die Einrichtung der Individualpreiskalkulation Excel zu starten, müssen die 
 
 4. im Feld ***Datenbankprozedur*** **F3** drücken, um die Standardprozedur ***AMIC_Excel_Individualpreis_Import_EK*** bzw. ***AMIC_Excel_Individualpreis_Import_VK*** (EK für Einkauf, VK für Verkauf) einzutragen, wenn diese nicht bereits gesetzt ist. Wenn alternativ eine private Prozedur verwendet werden soll, kann diese hier hinterlegt werden.
 
-Hinweis!
+<p class="just-emphasize">Hinweis!</p>
 
 Die Felder „Filter“ und „Datenbank-Dateiname“ sind bereits durch die in A.eins konfigurierten Filter sowie die hinterlegte Datenbank vorbelegt.
 
@@ -26,7 +26,7 @@ Die Felder „Filter“ und „Datenbank-Dateiname“ sind bereits durch die in 
 
 Für den Import können auch private Datenbankprozeduren verwendet werden. Um diese anzulegen, muss im Feld ***Datenbankprozedur*** ***der Name der neuen Prozedur eingetragen werden.***
 
-Hinweis!
+<p class="just-emphasize">Hinweis!</p>
 
 Private Datenbankprozeduren müssen immer mit einem vorangestellten **P_** anfangen.
 

@@ -20,6 +20,6 @@ Funktion/Report: Neuanlage (F8), Ändern (F5)
 
 [Weitere Informationen](http://www.amic.de/hilfe/_anschriften.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2401.1, 34716, 730594

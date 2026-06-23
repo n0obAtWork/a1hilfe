@@ -20,6 +20,6 @@ Funktion/Report: eRechnung exportieren
 
 [Weitere Informationen](http://www.amic.de/hilfe/erechnungexport.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2402.10, 36257, 740922

@@ -2,106 +2,106 @@
 
 <!-- source: https://amic.de/hilfe/kontrakt3.htm -->
 
-\-500004
+<p class="just-emphasize">\-500004</p>
 
 keine Details verfügbar
 
-\-500005
+<p class="just-emphasize">\-500005</p>
 
 keine Details verfügbar
 
-\-500006
+<p class="just-emphasize">\-500006</p>
 
 keine Details verfügbar
 
-\-500007
+<p class="just-emphasize">\-500007</p>
 
 keine Details verfügbar
 
-\-500008
+<p class="just-emphasize">\-500008</p>
 
 keine Details verfügbar
 
-\-500010
+<p class="just-emphasize">\-500010</p>
 
 keine Details verfügbar
 
-\-500011
+<p class="just-emphasize">\-500011</p>
 
 keine Details verfügbar
 
-\-500012
+<p class="just-emphasize">\-500012</p>
 
 keine Details verfügbar
 
-\-500013
+<p class="just-emphasize">\-500013</p>
 
 keine Details verfügbar
 
-\-500014
+<p class="just-emphasize">\-500014</p>
 
 keine Details verfügbar
 
-\-500015
+<p class="just-emphasize">\-500015</p>
 
 keine Details verfügbar
 
-\-500016
+<p class="just-emphasize">\-500016</p>
 
 keine Details verfügbar
 
-\-500017
+<p class="just-emphasize">\-500017</p>
 
 keine Details verfügbar
 
-\-500018
+<p class="just-emphasize">\-500018</p>
 
 keine Details verfügbar
 
-\-500019
+<p class="just-emphasize">\-500019</p>
 
 keine Details verfügbar
 
-\-500020
+<p class="just-emphasize">\-500020</p>
 
 keine Details verfügbar
 
-\-500021
+<p class="just-emphasize">\-500021</p>
 
 keine Details verfügbar
 
-\-500022
+<p class="just-emphasize">\-500022</p>
 
 keine Details verfügbar
 
-\-500023
+<p class="just-emphasize">\-500023</p>
 
 keine Details verfügbar
 
-\-500024
+<p class="just-emphasize">\-500024</p>
 
 keine Details verfügbar
 
-\-500025
+<p class="just-emphasize">\-500025</p>
 
 keine Details verfügbar
 
-\-500026
+<p class="just-emphasize">\-500026</p>
 
 keine Details verfügbar
 
-\-500027
+<p class="just-emphasize">\-500027</p>
 
 keine Details verfügbar
 
-\-500028
+<p class="just-emphasize">\-500028</p>
 
 keine Details verfügbar
 
-\-500029
+<p class="just-emphasize">\-500029</p>
 
 keine Details verfügbar
 
-\-500030
+<p class="just-emphasize">\-500030</p>
 
 keine Details verfügbar

@@ -20,6 +20,6 @@ Funktion/Report: Dokument speichern
 
 [Weitere Informationen](http://www.amic.de/hilfe/erechnungimarchiv.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2501.5, 36913, 746170

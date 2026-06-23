@@ -158,7 +158,7 @@ retval;
 end
 ```
 
-Inhalt des Begleitzettels im Inlandszahlungsverkehr
+<p class="just-emphasize">Inhalt des Begleitzettels im Inlandszahlungsverkehr</p>
 
 Der einem Datenträger beizufügende Begleitzettel muss nachfolgende Mindestangaben enthalten: Dabei ist die Reihenfolge der Mindestangaben unbedingt einzuhalten; zusätzliche Angaben sind ober- oder unterhalb der geforderten Mindestangaben anzuordnen. Bei Datenträgern mit mehreren logischen Dateien ist für jede Datei ein Begleitzettel auszuschreiben.
 
@@ -176,7 +176,7 @@ Der einem Datenträger beizufügende Begleitzettel muss nachfolgende Mindestanga
 - Ort, Datum
 - Firma, Unterschrift(en) des Absenders
 
-Kennzeichnung des Datenträgers im Inlandszahlungsverkehr
+<p class="just-emphasize">Kennzeichnung des Datenträgers im Inlandszahlungsverkehr</p>
 
 Der Datenträger ist durch Aufkleber mit folgenden Angaben zu kennzeichnen:
 

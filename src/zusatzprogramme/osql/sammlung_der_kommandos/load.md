@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/load.htm -->
 
-Syntax
+<p class="just-emphasize">Syntax</p>
 
 LOAD;
 
@@ -18,29 +18,29 @@ DATEN
 
 LOAD;
 
-Purpose
+<p class="just-emphasize">Purpose</p>
 
 Beladen einer Tabelle.
 
-Anwendung
+<p class="just-emphasize">Anwendung</p>
 
 Kommandodatei
 
-Berechtigung
+<p class="just-emphasize">Berechtigung</p>
 
 Alle Anwender
 
-Siehe auch
+<p class="just-emphasize">Siehe auch</p>
 
 [IDENTLOAD](./identload_statement.md), [READ](./read.md), [DBFLOAD](./dbfcreate_statement_ab_version_5_0.md)
 
-Beschreibung
+<p class="just-emphasize">Beschreibung</p>
 
 Um ganze Tabellen von einer Datenbank in eine andere Datenbank zu transportieren, und um nicht jedes Mal das gesamte Insert -Statement mitzuschleppen, wurde beschlossen, nur in die erste Zeile das Insert - Statement zu schreibe ( ohne Zeilenumbruch) und in die Folgezeilen die Daten zu belassen. Durch das Schlüsselwort LOAD erkennt das System, dass in der Folge eine so aufgebaute Datenstructur folgt und kann somit im Programm das eigentliche Statement zusammenbauen.
 
  Derartige Dateien können mit einem Utility - das unter OSQL unter F8 zu finden ist – erstellt werden.
 
-Beispiel
+<p class="just-emphasize">Beispiel</p>
 
 LOAD;
 

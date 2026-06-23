@@ -23,17 +23,15 @@ Folgende Relationen müssen für das Importieren von Vorgängen befüllt werden.
 | [ImportVorgPositionZuAb](../vorgangsimport_anwendung/funktionen_des_vimp_pflegers.md#Tab_ImpoprtVorgPositionZuAb) | Link zwischen ImportVorgPosition und ImportVorgZuAbDef |
 | [ImportVorgZuAbDef](./importvorgzuabdef.md) | Definition eines Zu/Abschlags, eines Rabattes oder einer Fracht |
 
-Referentielle Integrität
+<p class="just-emphasize">Referentielle Integrität</p>
 
 ImportVorgStamm
 
 In der Tabelle ImportVorgStamm, sowie den untergeordneten Tabellen, werden durch die Fremdschlüsselbeziehungen („Foreign Keys“) über die Spalte IVS_Guid, automatisch alle Datenbestände aus den folgenden Tabellen gelöscht.
 
-\- ImportVorgStammUFLD
-
-\- ImportVorgStammAddon
-
-\- ImportVorgStammZusatzTexte
+- ImportVorgStammUFLD
+- ImportVorgStammAddon
+- ImportVorgStammZusatzTexte
 
 In der Tabelle ImportVorgPosition wird bei einer Löschung eines ImportVorgStamm-Datensatzes, die entsprechende IVS_Guid auf den Wert NULL gesetzt, der ImportVorgPosition-Datensatz bleibt aber erhalten.
 
@@ -43,19 +41,15 @@ ImportVorgPosition
 
 In der Tabelle ImportVorgPosition, sowie den untergeordneten Tabellen, werden durch die Fremdschlüsselbeziehungen über die Spalte IVP_Guid, automatisch alle referenzierten Datenbestände gelöscht.
 
-\- ImportVorgPositionPartie
-
-\- ImportVorgPosiAddon
+- ImportVorgPositionPartie
+- ImportVorgPosiAddon
 
 In den folgenden Tabellen wird beim Szenario einer Löschung eines ImportVorgPosition-Datensatzes die entsprechende IVP_Guid auf den Wert NULL gesetzt, die Datensätze bleiben aber erhalten.
 
-\- ImportVorgTextPosition
-
-\- ImportVorgScannung
-
-\- ImportVorgPositionLVS
-
-\- ImportVorgPositionAddon
+- ImportVorgTextPosition
+- ImportVorgScannung
+- ImportVorgPositionLVS
+- ImportVorgPositionAddon
 
 Beim Update der IVP_Guid werden abhängige Fremdschlüssel kaskadierend aktualisiert.
 

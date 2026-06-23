@@ -20,7 +20,7 @@ Für den Begleitzettel wird ein neuer Formulartyp "272 Begleitzettel DTA-Ausland
 - Ort, Datum
 - Firma, Unterschrift(en)
 
-Kennzeichnung des Datenträgers im Auslandszahlungsverkehr
+<p class="just-emphasize">Kennzeichnung des Datenträgers im Auslandszahlungsverkehr</p>
 
 Die Datenträger sind durch Klebezettel mit folgenden Angaben zu kennzeichnen:
 

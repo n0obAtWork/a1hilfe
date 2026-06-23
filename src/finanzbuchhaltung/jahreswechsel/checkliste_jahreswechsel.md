@@ -15,10 +15,10 @@
 6. Gegebenenfalls das neue Jahr anlegen und die Eröffnungsperiode eröffnen.
 
 7. Auswertungen drucken bzw. anzeigen lassen:  
-\- Umsatzsteuervoranmeldung  
-\- Bilanz  
+- Umsatzsteuervoranmeldung  
+- Bilanz  
 \-GuV  
-\- Summen und Saldenlisten  
+- Summen und Saldenlisten  
     
 
 8. Kontoblätter erstellen und evtl. drucken.

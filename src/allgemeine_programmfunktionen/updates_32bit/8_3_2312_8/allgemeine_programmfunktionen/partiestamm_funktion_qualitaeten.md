@@ -20,6 +20,6 @@ Funktion/Report: Qualitäten (F9)
 
 [Weitere Informationen](http://www.amic.de/hilfe/_partiestammpar.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2312.8, 34533, 728667

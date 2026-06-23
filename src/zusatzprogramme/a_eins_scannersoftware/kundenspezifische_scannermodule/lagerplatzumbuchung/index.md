@@ -8,11 +8,11 @@ Es kann zurzeit pro Lagerplatzumbuchungsblock auf dem Scanner nur ein Artikel um
 
 Partien werden bislang noch nicht berücksichtigt.
 
-Itembox zur Darstellung der Daten auf dem Scanner
+<p class="just-emphasize">Itembox zur Darstellung der Daten auf dem Scanner</p>
 
 IB_CE_Lagerplatzumbuchung
 
-Voraussetzungen
+<p class="just-emphasize">Voraussetzungen</p>
 
 Als erstes müssen folgende [Einrichtungen](../../identass_inventur_schnittstelle/index.md) vorgenommen werden.
 
@@ -26,11 +26,11 @@ Des Weiteren müssen folgende Texte im EAN 128 Konvertiert werden um eine Lagerp
 
 4. Etiketten für die einzelnen Lagerplätze. Der Lagerplatznummer muss der [AI-Code](../../technische_daten/application_identifier_des_ean_128_ucc_128.md) 91 vorangestellt werden. z.B. 9112345 wobei 12345 der Lagerplatz ist
 
-Ablauf
+<p class="just-emphasize">Ablauf</p>
 
 Als erstes wird der Startscancode **LGPU** mittels Scanner erfasst.
 
-Artikeleingabe
+<p class="just-emphasize">Artikeleingabe</p>
 
 Nach dem der Scancode erfolgreich verarbeitet worden ist, muss als nächstes der Artikel erfasst werden. Hier kann der EAN-Code entweder per Scanner gescannt werden, oder per Hand eingegeben werden. Des Weiteren ist es möglich die Artikelnummer per Hand zu erfassen. Sollte der erfasste Artikel nicht gefunden werden, so wird in der Relation ImportVorgPosition auch ein neuer Datensatz angelegt. Dieser kann im Nachlauf unter [Vorgangsimport](../../../../vorgangsabwicklung/vorgangsimport/index.md) [**VIMP**]bearbeitet werden.
 
@@ -44,7 +44,7 @@ Nach dem der Scancode erfolgreich verarbeitet worden ist, muss als nächstes der
 
 4. Die EAN-Nummer ist nicht im Sekundschlüssel hinter legt worden.
 
-Mengeneingabe
+<p class="just-emphasize">Mengeneingabe</p>
 
 Nach dem Artikel erfasst worden ist wird die Eingabe der Menge erwartet. Es ist möglich eine 0 Menge einzugeben.
 
@@ -58,13 +58,13 @@ Die Gebindefaktoren werden über zwei Unterschiedliche Wege bestimmt.
 
 Nach dem die Menge eingegeben worden ist muss jetzt der Abgangslagerplatz gescannt werden. Die Menge auf der erzeugten Lagerplatzumbuchung im A.eins System wird dann aber auf die Grundmengeinheit zurückgeführt.
 
-Abgangslagerplatz - Zugangslagerplatz
+<p class="just-emphasize">Abgangslagerplatz - Zugangslagerplatz</p>
 
 Hier ist es auch möglich den Lagerplatz per Hand einzugeben. Der AI-Code 91 muss nicht mit angegeben werden.
 
 Nach der Eingabe des Abgangslagerplatzes wird der Zugangslagerplatz erwartet. Sollte das Abgangslagerplatz oder das Zugangslagerplatz nicht im System vorhanden sein, so wird der Standard Lagerplatz 0 gewählt.
 
-Storno
+<p class="just-emphasize">Storno</p>
 
 Mit dem Befehl **STORNO** ist es möglich solange die Lagerplatzumbuchung nicht abgeschlossen worden ist, diese erfasste Position oder die komplette Lagerplatzumbuchung zu stornieren.
 
@@ -76,9 +76,9 @@ Die erfassten Daten werden in der Anwendung [Vorgangsimport](../../../../vorgang
 
 Hauptmenü > Externe Kommunikation > Stammdatenimport > Vorgangsimport
 
-Einstiegspunkte in der Prozedur ScannerLagerplatzumbuchung
+<p class="just-emphasize">Einstiegspunkte in der Prozedur ScannerLagerplatzumbuchung</p>
 
-Folgende Einstiegspunkte sind realisiert worden
+<p class="just-emphasize">Folgende Einstiegspunkte sind realisiert worden</p>
 
 | Punkt | Bereich | Typ | |
 | --- | --- | --- | --- |

@@ -2,33 +2,33 @@
 
 <!-- source: https://amic.de/hilfe/msgstatement.htm -->
 
-Syntax
+<p class="just-emphasize">Syntax</p>
 
 MSG Text, der angezeigt werden soll;
 
-Purpose
+<p class="just-emphasize">Purpose</p>
 
 Öffnen einer Messagebox
 
-Anwendung
+<p class="just-emphasize">Anwendung</p>
 
 Kommandodatei
 
-Berechtigung
+<p class="just-emphasize">Berechtigung</p>
 
 Alle Anwender
 
-Siehe auch
+<p class="just-emphasize">Siehe auch</p>
 
 [PAUSE](./pause_statement.md)
 
-Beschreibung
+<p class="just-emphasize">Beschreibung</p>
 
 Hier kann ein Text angezeigt werden. Während die Dialogbox offen ist, ist die Ausführung der Datei unterbrochen, bis sie mit OK bestätigt werden. Innerhalb des Textes können auch Parameter bzw. mit ASK abgefragte Variablen angezeigt werden.
 
 Ist Identisch zum PAUSE Statement;
 
-Beispiel
+<p class="just-emphasize">Beispiel</p>
 
 ```text
 ASK Welche V_ID>ID;

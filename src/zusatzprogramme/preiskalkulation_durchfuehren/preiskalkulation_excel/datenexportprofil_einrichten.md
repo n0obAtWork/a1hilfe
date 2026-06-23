@@ -18,7 +18,7 @@ ODER:
 
 Tragen Sie ein **Gültigkeitsdatum** ein oder den Wert **heute**.
 
-Hinweis!
+<p class="just-emphasize">Hinweis!</p>
 
 Wenn sich in der Preisliste auch Artikel befinden, die keinen Preis für den Tag hinterlegt haben, werden auch diese in die Exceldatei exportiert.
 
@@ -34,7 +34,7 @@ Beachten Sie dies Verhalten bei der Einstellung Ihrer Filterkriterien.
 
 Die Auswahlliste wird angezeigt Ihnen in Gruppierung der Preislistengruppe der gefilterten Artikel an.
 
-Hinweis!
+<p class="just-emphasize">Hinweis!</p>
 
 ***Liste zeigt Gruppierung einer Preisliste***
 

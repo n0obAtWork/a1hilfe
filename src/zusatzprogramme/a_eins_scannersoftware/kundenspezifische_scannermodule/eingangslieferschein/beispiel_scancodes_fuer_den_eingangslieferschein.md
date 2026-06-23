@@ -4,25 +4,25 @@
 
 In den Beispiel Scancodes für den Eingangslieferschein befindet sich kein Scancode für einen Artikel. Hier ist ein Artikel aus dem Sortiment zu wählen.
 
-Eingangslieferschein Start
+<p class="just-emphasize">Eingangslieferschein Start</p>
 
 ![](../../../../ImagesExt/image8_1447.png)
 
-Eingangslieferschein Ende
+<p class="just-emphasize">Eingangslieferschein Ende</p>
 
 ![](../../../../ImagesExt/image8_1448.png)
 
-Storno
+<p class="just-emphasize">Storno</p>
 
 ![](../../../../ImagesExt/image8_1449.png)
 
-Lieferant
+<p class="just-emphasize">Lieferant</p>
 
 Damit der gescannte Lieferant gefunden wird muss einem Lieferanten aus dem Lieferantenstamm die ILN 12345 zugwiesen werden.
 
 ![](../../../../ImagesExt/image8_1450.png)
 
-Lagerplatz
+<p class="just-emphasize">Lagerplatz</p>
 
 Damit der gescannte Lagerplatz im System gefunden wird muss ein Lagerplatz mit der Nummer 1234 auf dem Lager des Scanners eingerichtet werden.
 

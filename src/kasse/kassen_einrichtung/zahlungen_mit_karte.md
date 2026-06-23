@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/zahlungenmitkarte.htm -->
 
-Relevante SPA-Einstellungen
+<p class="just-emphasize">Relevante SPA-Einstellungen</p>
 
 [SPA 505 - Manuelle Erfassung von EC-Karten ?:](../../firmenstamm/steuerparameter/kasse_barverkauf/manuelle_erfassung_von_ec_karten_spa_505.md)
 

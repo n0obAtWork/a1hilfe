@@ -4,7 +4,7 @@
 
 Bei der Änderung von [Stammdaten](../stammdaten/index.md) müssen die Nachhaltigkeitsbewegungen nachkalkuliert werden. Da es sich bei den Bewegungen um eine große Anzahl von Daten handeln kann und die erneute Berechnung der Werte einige Zeit in Anspruch nimmt, wird die Berechnung durch den Mandantenserver vorgenommen.
 
-Aktualisierungseinstellungen
+<p class="just-emphasize">Aktualisierungseinstellungen</p>
 
 Auf der Maske lassen sich für einzelne Wochentage die abzuarbeitenden Vorgänge je Intervall einstellen. Dadurch kann man den Mandantenserver so einstellen, dass er am Tag wenig und in der Nacht viele Belege abarbeitet. Somit kann verhindert werden, dass der Mandantenserver zu Stoßzeiten zu lange blockiert wird.
 

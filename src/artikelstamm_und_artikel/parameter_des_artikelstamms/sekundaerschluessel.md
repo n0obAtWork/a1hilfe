@@ -10,7 +10,7 @@ Die Ausnutzung dieser Möglichkeiten ist auch angesichts der textlichen Suchmög
 
 Für die [Streckenerfassung](../../zusatzprogramme/streckenerfassung/index.md) hat der Schlüsseltyp „Referenzartikel“ eine besondere Bedeutung im Zusammenhang mit der [Planungsbelegeingabe](../../zusatzprogramme/streckenerfassung/planungsregister/belegeingabe.md).
 
-Faktoren bei EAN-Codes
+<p class="just-emphasize">Faktoren bei EAN-Codes</p>
 
 Wird bei EAN-Codes als Sekundärschlüssel ein Faktor eingegeben, so wird bei der Erfassung in der Kasse dieser Faktor beim Scan berücksichtigt.
 

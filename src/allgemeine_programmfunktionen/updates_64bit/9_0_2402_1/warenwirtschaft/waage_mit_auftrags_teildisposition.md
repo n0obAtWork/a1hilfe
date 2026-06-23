@@ -20,6 +20,6 @@ Funktion/Report: Wiegen
 
 [Weitere Informationen](http://www.amic.de/hilfe/_onlinewaage.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2402.1, 35441, 731918

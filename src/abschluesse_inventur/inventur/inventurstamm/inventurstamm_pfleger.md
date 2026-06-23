@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_inventurstammpfleger.htm -->
 
-Hinweis
+<p class="just-emphasize">Hinweis</p>
 
 Folgende Angaben sind wichtig:
 

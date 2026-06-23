@@ -14,7 +14,7 @@ Des Weiteren muss für jedes [Lager](../../uebersicht_lager_und_lagerplatz/lager
 
 Leermeldungen können sich dann in der Variante „Silobuch“ mit der Aktivität „Bestandsmeldung Leermeldung“ gefiltert werden.
 
-Meldungen und deren Bedeutung
+<p class="just-emphasize">Meldungen und deren Bedeutung</p>
 
 | Meldung | Bedeutung |
 | --- | --- |

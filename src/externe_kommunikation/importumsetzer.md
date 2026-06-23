@@ -9,15 +9,15 @@ Mit dem Importumsetzer können Kennzeichen von einem Fremdsystem wie z.B. Terres
 
 Es wird zu jedem Fremdkennzeichen (Eingangsschlüssel) ein A.eins Kennzeichen (Umsetzung) innerhalb einer Schlüsselklasse zugeordnet.
 
-Variante Import-Umsetzer
+<p class="just-emphasize">Variante Import-Umsetzer</p>
 
 In dieser Variante können neue Umschlüsselungen angelegt werden.
 
-Funktionen: Neu [F8] - Ändern [F5] - Löschen [F7]
+<p class="just-emphasize">Funktionen: Neu [F8] - Ändern [F5] - Löschen [F7]</p>
 
 Mit der Funktion Neu, Ändern oder Löschen wir die Maske Import Umsetzer geöffnet.
 
-Maske
+<p class="just-emphasize">Maske</p>
 
 | ![\*](../ImagesExt/image8_1559.jpg "*") Feld | ![\*](../ImagesExt/image8_1559.jpg "*") Bedeutung |
 | --- | --- |
@@ -26,21 +26,21 @@ Maske
 | ![\*](../ImagesExt/image8_1556.jpg "*") Umsetzung | ![\*](../ImagesExt/image8_1556.jpg "*") Zugewiesenner Umschlüsselungswert |
 | ![\*](../ImagesExt/image8_1556.jpg "*") Info-Text | ![\*](../ImagesExt/image8_1556.jpg "*") Informationstext |
 
-Besondere Funktionen
+<p class="just-emphasize">Besondere Funktionen</p>
 
 Im Änderfall steht die Funktion ***Alle Ändern*** [**F5**] zur Verfügung, wenn in der Auswahlliste mehr als ein Datensatz markiert worden ist. Dies bedeutet, falls die Änderung gemacht wird, wird dies für alle Datenstätze mitübernommen werden. Des Weiteren kann mit ***Speichern unter…*** [**SF9**] eine neue Umsetzung angelegt werden.
 
 Im Löschenfall steht die Löschfunktion ***Alle Lösche [SF7]*** zur Verfügung, wenn in der Auswahlliste mehr als ein Datensatz markiert worden ist. Damit werden alle ausgewählten Datensätze gelöscht.
 
-Funktion Ändern(Tabellarisch) [SF5]
+<p class="just-emphasize">Funktion Ändern(Tabellarisch) [SF5]</p>
 
 Diese Funktion steht nur zur Verfügung, wenn in der Variante „Import-Umsetzer Itemboxzuordnung“ eine Zuordnung zu der Schlüsselklasse existiert. Die umzuschlüsselnden Werte werden in einer Prozedur bestimmt. Diese werden in die Maske geladen. Diesen Werten können dann die A.eins Kennzeichen zugeordnet werden. Wurde eine Itembox eingerichtet, so kann der Wert darüber ausgewählt werden. Beim Verlassen der Maske werden die Daten, die ein Umschlüsselungspaar darstellen abgespeichert.
 
-Variante Import Schlüssel
+<p class="just-emphasize">Variante Import Schlüssel</p>
 
-Varinate Importschlüssel Tabelle
+<p class="just-emphasize">Varinate Importschlüssel Tabelle</p>
 
-Variante Import-Umsetzer Itemboxzuordnung
+<p class="just-emphasize">Variante Import-Umsetzer Itemboxzuordnung</p>
 
 In dieser Variante wird die Steuerung für die Tabellarische(-änderung) eingestellt**.** Mit dieser Funktion können Massendaten einfach umgeschlüsselt werden. Für die Datenaufbereitung wird eine Private Prozedur benötigt.
 
@@ -55,6 +55,6 @@ Mit ***Neu*** [**F8**] wird ein neuer Eintrag angelegt.
 | ![\*](../ImagesExt/image8_1556.jpg "*") Kurzbeschreibung | ![\*](../ImagesExt/image8_1556.jpg "*") Freier Text | ![\*](../ImagesExt/image8_1556.jpg "*") Terres Lieferanten |
 | ![\*](../ImagesExt/image8_1556.jpg "*") Datenbeschaffungsprozedur | ![\*](../ImagesExt/image8_1556.jpg "*") Hier wird die Prozedur hinterlegt, welche mir die umzuschlüsselnden Werte liefert. | ![\*](../ImagesExt/image8_1556.jpg "*") ImpumDatendrehscheibeLieferanten |
 
-Beispielprozedur
+<p class="just-emphasize">Beispielprozedur</p>
 
 Die Prozedur „ImpumDatendrehscheibeLieferanten“ liefert alle Lieferanten, die aus den Daten der Drehscheibe ermittelt werden konnte und die schon Umgeschlüsselten Werte.

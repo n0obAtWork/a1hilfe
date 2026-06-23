@@ -20,6 +20,6 @@ Funktion/Report: Kontraktdruck F10
 
 [Weitere Informationen](http://www.amic.de/hilfe/_kontrakt.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2402.8, 35994, 740699

@@ -20,6 +20,6 @@ Funktion/Report: Periode ändern
 
 [Weitere Informationen](http://www.amic.de/hilfe/_periode_bearbeiten)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2309.1, 33394, 719519

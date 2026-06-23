@@ -20,6 +20,6 @@ Funktion/Report: Archivreferenz ändern
 
 [Weitere Informationen](http://www.amic.de/hilfe/einzelbeleganzeige.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2211.9, 32997, 0

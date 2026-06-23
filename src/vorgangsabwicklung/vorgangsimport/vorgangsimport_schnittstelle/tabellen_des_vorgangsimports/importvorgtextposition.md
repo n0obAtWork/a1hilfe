@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/importvorgtextposition.htm -->
 
-Positionstext
+<p class="just-emphasize">Positionstext</p>
 
 In dieser Relation werden Textpositionen hinterlegt, die entweder vor oder nach einer Position in den Beleg eingefügt werden können.
 

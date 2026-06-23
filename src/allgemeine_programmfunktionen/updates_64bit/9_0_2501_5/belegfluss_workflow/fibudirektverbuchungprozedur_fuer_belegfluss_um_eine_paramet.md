@@ -20,6 +20,6 @@ Funktion/Report: Direkt-Finanzbelegerfassung, Direkt-Finanzbelegerfassung kompri
 
 [Weitere Informationen](http://www.amic.de/hilfe/!belegflusspostfacheinrichtungs.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2501.5, 37062, 746982

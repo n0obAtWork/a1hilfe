@@ -6,7 +6,7 @@ Hauptmenü > Nebenbuchhaltungen > Tourverwaltung > Tourverwaltung
 
 Direktsprung **[TOUR]**
 
-Funktionen
+<p class="just-emphasize">Funktionen</p>
 
 | Funktionsname | Funktion |
 | --- | --- |

@@ -4,7 +4,7 @@
 
 Beim Direktsprung handelt es sich um eine einfache und schnelle Möglichkeit ohne die Verwendung der Menüs eine weitere Anwendung zu öffnen. Bei dem Direktsprung handelt es sich um eine Kombination aus bis zu fünf Buchstaben, die einer Funktion/Anwendung zugeordnet ist. z.B. seht die Kombination **[LIE]** für „Lieferscheine Erfassen“. Gibt man also im Direktsprung-Dialog **[LIE]** ein, so wird sofort in die Anwendung „Lieferscheine erfassen“ verzweigt. Diese erreicht man ansonsten über das Menü „Warenverkauf“ in dem dann die Funktion „Lieferschein erfassen“ ausgewählt werden kann.
 
-Wie gelangt man in den Direktsprung-Dialog?
+<p class="just-emphasize">Wie gelangt man in den Direktsprung-Dialog?</p>
 
 Je nachdem, wo man sich im Programm befindet, existieren dafür unterschiedliche Möglichkeiten zu Verfügung. Die erste Möglichkeit über **Shift+F4** hat sich als die praktikabelste erwiesen.  
     
@@ -20,7 +20,7 @@ Im Menü kann man auch direkt durch Eingabe von Zeichen (a-z) in den Direktsprun
 
 In der Praxis hat sich gezeigt, dass bereits nach kurzer Zeit der Arbeit mit A.eins diese Methode überwiegend genutzt wird.
 
-Funktionen im Direktsprung-Dialog
+<p class="just-emphasize">Funktionen im Direktsprung-Dialog</p>
 
 Beim Direktsprung-Dialog handelt es sich um eine Dialog-Maske, die nur ein Eingabefeld enthält.
 
@@ -32,7 +32,7 @@ Dort kann dann der Direktsprung (soweit er bekannt ist) eingegeben werden. Nach 
 
 ![](../../ImagesExt/image8_1.png)
 
-Wo findet man die Direktsprung-kürzel
+<p class="just-emphasize">Wo findet man die Direktsprung-kürzel</p>
 
 Es gibt verscheiden Möglichkeiten herauszufinden, wie ein Direktsprung zu einer Anwendung in A.eins lautet.
 

@@ -30,16 +30,11 @@ An diese unterschiedlichen Varianten sind unterschiedliche Funktionalitäten gek
 
 Die Kalkulation erfolgt auf Basis der maschinell verfügbaren Preise:
 
-\- gewogener Einkaufspreis
-
-\- durchschnittlicher Jahreseinkaufspreis
-
-\- letzter Einkaufspreis
-
-\- Bewertungspreis des Artikels gemäß der vereinbarten Bewertungsgruppe
-
-\- Niederstwertprinzip des kleinsten Preises aus
-
+- gewogener Einkaufspreis
+- durchschnittlicher Jahreseinkaufspreis
+- letzter Einkaufspreis
+- Bewertungspreis des Artikels gemäß der vereinbarten Bewertungsgruppe
+- Niederstwertprinzip des kleinsten Preises aus
   - letztem und gewogenem Einkaufspreis
   - letztem und durchschnittlichem Einkaufspreis
   - letztem Einkaufspreis und Bewertungspreis
@@ -54,6 +49,5 @@ Durch die Erfassung von Bewertungspreisen nach der ersten Variante werden diese 
 
 In der Kalkulation ist auch die Übernahme der Bewertungspreise in die Inventur angesiedelt. Und zwar werden stets alle Bewertungspreise en bloc übernommen. Dabei werden die eingegebenen Preise und Preisbezüge in die Inventurbelege übernommen. Hier kann sichergestellt werden, dass
 
-\- nur unbewertete Inventurpositionen verändert werden, damit im Beleg vorgenommene Bewertungen nicht überschrieben werden
-
-\- manuelle Bewertungen in Belegen (sei es durch Eingabe im Beleg oder durch Eingabe eines Bewertungspreises) nicht überschrieben werden.
+- nur unbewertete Inventurpositionen verändert werden, damit im Beleg vorgenommene Bewertungen nicht überschrieben werden
+- manuelle Bewertungen in Belegen (sei es durch Eingabe im Beleg oder durch Eingabe eines Bewertungspreises) nicht überschrieben werden.

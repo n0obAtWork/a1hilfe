@@ -8,7 +8,7 @@ Direktsprung **[SAATS]**
 
 In diesem Stammdatenpfleger werden die Daten über Saatsorten gepflegt, diese werden einer Fruchtart zugeordnet. Es ist möglich mehrere Saatsorten einer Fruchtart zuzuordnen.
 
-Erfassungsmaske
+<p class="just-emphasize">Erfassungsmaske</p>
 
 Es stehen folgende Eingabefelder und Eingabemöglichkeiten zur Verfügung.
 
@@ -23,7 +23,7 @@ Es stehen folgende Eingabefelder und Eingabemöglichkeiten zur Verfügung.
 | Archiv-Referenz<br> | Formulararchiv Belegreferenz für das Archiv.<br> |
 | Bemerkung | Das Bemerkungsfeld für die Saatsorte.<br> |
 
-Felder auf der Registerkarte Allgemein
+<p class="just-emphasize">Felder auf der Registerkarte Allgemein</p>
 
 Das Register Allgemein enthält mindestens das Land. Weitere Spalten können individuell in der Anwendung „Griddefinitionen pflegen“ (Direktsprung [GDS]) unter dem Namen „SortenAnmeldedaten_Laender“ eingerichtet werden.
 
@@ -62,7 +62,7 @@ Der Doppelklick auf die markierte Zeile öffnet einen weiteren Dialog, in dem al
 | Artenverzeichnis | Hier kann angegeben werden, ob die Sorte in dem betreffenden Land im Artenverzeichnis steht. Mit der Taste **F3** kann hier eine Auswahl aufgerufen werden. Dieses Feld ist nur verfügbar, wenn der Einrichterparameter „Erweiterte Einstellungen“ den Wert **Ja** hat.<br> |
 | URL-Adresse | Die Internetadresse / Uniform Resource Locator (URL). Identifiziert und lokalisiert eine Ressource bspw. ein Bild der Sorte.<br> |
 
-Felder auf der Registerkarte Lizenz
+<p class="just-emphasize">Felder auf der Registerkarte Lizenz</p>
 
 | Name | Bedeutung |
 | --- | --- |

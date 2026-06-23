@@ -8,5 +8,5 @@ Hier können die Einstellungen für die Summierungen vorgenommen werden, um kein
 | --- | --- |
 | Spaltenname | Die Überschrift der Spalten, zu der die Summe gebildet werden soll.<br> |
 | Summierung | Soll diese Spalte summiert werden?<br> |
-| Formel | Wenn die Summe der Spalte mit einer anderen Formel berechnet werden soll, so kann diese hier angegeben werden.<br>Die anderen Spalten werden über ihren Namen angesprochen und die Syntax der Formel entspricht der SQL-Syntax.<br> |
+| Formel | Wenn die Summe der Spalte mit einer anderen Formel berechnet werden soll, so kann diese hier angegeben werden.<br><code>ZahlVorBetrag*(3-Zahlvorsollhaben*2)</code><br>Die anderen Spalten werden über ihren Namen angesprochen und die Syntax der Formel entspricht der SQL-Syntax.<br> |
 | Format | Hier kann das Format der ausgewählten Spalten überschrieben werden.<br> |

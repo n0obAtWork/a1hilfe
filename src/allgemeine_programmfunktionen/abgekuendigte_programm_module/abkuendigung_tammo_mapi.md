@@ -4,6 +4,6 @@
 
 In der Anwendung E-Mail-Connector wurde das Mailplugin für MAPI entfernt.
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Abkündigung

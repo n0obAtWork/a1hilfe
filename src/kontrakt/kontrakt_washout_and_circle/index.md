@@ -47,7 +47,7 @@ Wenn der Lieferant nach dem Circle Geschäft Geld von mir bekommt, dann muss ich
 
 Wenn der Lieferant nach dem Circle Geschäft mir noch Geld zu überweisen hat, so schreibe ich mir eine Eingangsgutschrift.
 
-Speichern des Circlepreises im Warenbewegungsaddon
+<p class="just-emphasize">Speichern des Circlepreises im Warenbewegungsaddon</p>
 
 Der Circlepreis wird im Warenbewegungsaddon für alle vier Beleg gespeichert, wenn die dazu gehörigen Felder im Warenbewegungsaddon angelegt worden sind.
 

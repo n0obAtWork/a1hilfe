@@ -2,6 +2,6 @@
 
 <!-- source: https://amic.de/hilfe/ahtestbereich.htm -->
 
-\-500000
+<p class="just-emphasize">\-500000</p>
 
 Checkout, Checkin-Test

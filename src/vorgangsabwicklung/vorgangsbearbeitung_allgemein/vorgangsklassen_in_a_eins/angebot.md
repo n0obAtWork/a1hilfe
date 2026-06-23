@@ -35,6 +35,6 @@ Angebote werden als Vorgang gespeichert. Auf sie kann in Nachfolgevorgängen zug
 
 Die Funktionen werden im Detail am Beispiel der Rechnungserfassung beschrieben.
 
-Besonderheiten
+<p class="just-emphasize">Besonderheiten</p>
 
 Angebote können gegen das Sortimentslager geschrieben werden, wenn der Steuerparameter Angebot auf dem Sortimentslager zulassen ([SPA 1051](../../../firmenstamm/steuerparameter/vorgangsbearbeitung_allg/angebot_auf_sortimentslager_zulassen_spa_1051.md#SPA1051)) auf „Ja“ gestellt ist. Bei der [Umwandlung](../../umwandeln_und_kopieren/spezialitaet_bei_angeboten.md) des Angebotes muss dann das Ziellager, sowie wie ein [Behandlungsschema](../../vorgangsbearbeitung/aenderung_der_kundennummer/behandlungsschema.md) für den [Lagernummerwechsel](../../vorgangsbearbeitung/aenderung_der_lagernummer/behandlungsschema_lagernummernaenderung.md) gegeben werden.

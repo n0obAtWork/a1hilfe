@@ -20,6 +20,6 @@ Funktion/Report: Anlegen / Ändern
 
 [Weitere Informationen](http://www.amic.de/hilfe/oberflchestartseite.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2502.5, 36843, 0

@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/showtriggerstatement.htm -->
 
-Syntax
+<p class="just-emphasize">Syntax</p>
 
 ```text
 SHOW TRIGGER | ON RELATION |
@@ -10,23 +10,23 @@ SHOW TRIGGER | ON RELATION |
 | TRIGGERNAME |
 ```
 
-Purpose
+<p class="just-emphasize">Purpose</p>
 
 Anzeige eines Triggers, aller Trigger oder aller Trigger zu einer Relation
 
-Anwendung
+<p class="just-emphasize">Anwendung</p>
 
 Befehlszeile
 
-Berechtigung
+<p class="just-emphasize">Berechtigung</p>
 
 Alle Anwender
 
-Siehe auch
+<p class="just-emphasize">Siehe auch</p>
 
 [SHOW BUFFER](./show_buffer_statement.md), [SHOW CURSOR](./show_cursor.md), [SHOW TABLE](./show_table_statement.md), [SHOW VIEW](./show_view_statement.md), [SHOW PROC](./show_procedure_statement.md)
 
-Beschreibung
+<p class="just-emphasize">Beschreibung</p>
 
 SHOW TRIGGER hat drei Ausprägungen. Die erste wäre SHOW TRIGGER ohne irgendwelche sonstigen Parameter. Dadurch werden alle Trigger mit dem zugehörigen Creator angezeigt.
 
@@ -34,7 +34,7 @@ Gibt man den Namen des Triggers an, wird die Definition dieses Triggers in eine 
 
 Verwendet man das Schlüsselwort ON mit einem Relationsname, werden nur die Trigger zu dieser Relation angezeigt.
 
-Beispiel
+<p class="just-emphasize">Beispiel</p>
 
 ```text
 SHOW TRIGGER ON FiBuVorgPosition

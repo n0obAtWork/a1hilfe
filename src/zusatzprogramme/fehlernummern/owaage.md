@@ -2,122 +2,122 @@
 
 <!-- source: https://amic.de/hilfe/owaage.htm -->
 
-\-14000
+<p class="just-emphasize">\-14000</p>
 
 Vorgangserzeugung: Fehler beim Setzten des Belegdatums
 
-\-14001
+<p class="just-emphasize">\-14001</p>
 
 Vorgangserzeugung: Fehler beim setzten der Vorgangsnummer
 
-\-14002
+<p class="just-emphasize">\-14002</p>
 
 Vorgangserzeugung: Fehler beim Setzten der Wiegenummer
 
-\-14003
+<p class="just-emphasize">\-14003</p>
 
 Vorgangserzeugung: Fehler beim Setzten der Lagernummer
 
-\-14004
+<p class="just-emphasize">\-14004</p>
 
 Vorgangserzeugung: Fehler beim Setzten desr VersandId
 
-\-14005
+<p class="just-emphasize">\-14005</p>
 
 Vorgangserzeugung: Fehler beim Setzten der LKW Nummer
 
-\-14006
+<p class="just-emphasize">\-14006</p>
 
 Vorgangserzeugung: Fehler beim Setzten des Lagerplatzes
 
-\-14007
+<p class="just-emphasize">\-14007</p>
 
 Vorgangserzeugung: Fehler beim Setzten des Mengenkonvertieres
 
-\-14008
+<p class="just-emphasize">\-14008</p>
 
 Vorgangserzeugung: Fehler beim Setzten der Me Nummer
 
-\-14009
+<p class="just-emphasize">\-14009</p>
 
 Vorgangserzeugung: Fehler beim Setzten der Owaage Id
 
-\-14010
+<p class="just-emphasize">\-14010</p>
 
 Vorgangserzeugung: Fehler beim Setzten der Artikelvarinate
 
-\-14011
+<p class="just-emphasize">\-14011</p>
 
 Vorgangserzeugung: Fehler beim Setzten des Preises
 
-\-14012
+<p class="just-emphasize">\-14012</p>
 
 Vorgangserzeugung: Fehler beim Setzten des Netto Preis
 
-\-14013
+<p class="just-emphasize">\-14013</p>
 
 Vorgangserzeugung: Fehler beim Anfügen der Warenposition
 
-\-14014
+<p class="just-emphasize">\-14014</p>
 
 Vorgangserzeugung: Fehler beim Setzten der Warenposition
 
-\-14015
+<p class="just-emphasize">\-14015</p>
 
 Vorgangserzeugung: Fehler beim Setzten des Kontraktes
 
-\-14016
+<p class="just-emphasize">\-14016</p>
 
 Vorgangserzeugung: Fehler beim Setzten der Kontraktfindung
 
-\-14017
+<p class="just-emphasize">\-14017</p>
 
 Vorgangserzeugung: Fehler beim Setzten des Artikeltextes
 
-\-14018
+<p class="just-emphasize">\-14018</p>
 
 Vorgangserzeugung: Fehler beim Setzten der Wiegung1
 
-\-14019
+<p class="just-emphasize">\-14019</p>
 
 Vorgangserzeugung: Fehler beim Setzten der Wiegung1
 
-\-14020
+<p class="just-emphasize">\-14020</p>
 
 Vorgangserzeugung: Fehler beim Setzten des Waagenprofils1
 
-\-14021
+<p class="just-emphasize">\-14021</p>
 
 Vorgangserzeugung: Fehler beim Setzten des Waagenprofils2
 
-\-14022
+<p class="just-emphasize">\-14022</p>
 
 Vorgangserzeugung: Fehler beim Setzten des Partiestyps
 
-\-14023
+<p class="just-emphasize">\-14023</p>
 
 Vorgangserzeugung: Fehler beim Setzten der Partienummer
 
-\-14024
+<p class="just-emphasize">\-14024</p>
 
 Vorgangserzeugung: Fehler beim setzten der Mengenherkunft
 
-\-14025
+<p class="just-emphasize">\-14025</p>
 
 Vorgangserzeugung: Fehler beim setzten des Wertartikeles
 
-\-14026
+<p class="just-emphasize">\-14026</p>
 
 Vorgangserzeugung: Fehler beim setzten der Warenposition
 
-\-14027
+<p class="just-emphasize">\-14027</p>
 
 Vorgangserzeugung: Fehler beim setzten der Menge
 
-\-14028
+<p class="just-emphasize">\-14028</p>
 
 Vorgangserzeugung: Fehler beim Anlegen des Vorganges
 
-\-14029
+<p class="just-emphasize">\-14029</p>
 
 Vorgangserzeugung: Fehler beim setzen des Einlagerungskennzeichen

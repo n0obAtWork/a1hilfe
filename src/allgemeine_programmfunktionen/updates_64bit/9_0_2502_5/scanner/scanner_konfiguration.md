@@ -20,6 +20,6 @@ Funktion/Report: Scanner
 
 [Weitere Informationen](http://www.amic.de/hilfe/_scanner_konfiguration.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2502.5, 36639, 744182

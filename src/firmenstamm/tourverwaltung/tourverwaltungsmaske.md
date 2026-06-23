@@ -6,7 +6,7 @@ Zu jeder Tour lassen sich verschiedene Gültigkeiten erfassen, die unterschiedli
 
 Die Funktion ***Ladeliste n. Tag*** ist in der [Tourverwaltung](./index.md) genauer beschrieben.
 
-Maskenfelder der Tourverwaltung:
+<p class="just-emphasize">Maskenfelder der Tourverwaltung:</p>
 
 | Feld | Bedeutung |
 | --- | --- |
@@ -15,13 +15,13 @@ Maskenfelder der Tourverwaltung:
 | Wochentag | Geben sie den geplanten Wochentag der Tour an. |
 | Tour gesperrt | Dies ist ein setzbares Sperrkennzeichen, um eine Tour zu deaktivieren, ohne sie gleich zu löschen. |
 
-Datentabelle: Registerkarte „Allgemein“
+<p class="just-emphasize">Datentabelle: Registerkarte „Allgemein“</p>
 
 | Feld | Bedeutung |
 | --- | --- |
 | Gültigkeiten | Hier werden die Gültigkeiten für die danebenstehende Stationsliste angezeigt. Auf sie kann geklickt werden um die für den jeweiligen Zeitraum gültige Stationsliste anzuzeigen. |
 
-Stationsliste
+<p class="just-emphasize">Stationsliste</p>
 
 | Feld | Bedeutung |
 | --- | --- |

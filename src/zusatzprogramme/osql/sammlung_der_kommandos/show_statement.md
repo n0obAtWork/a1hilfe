@@ -2,31 +2,31 @@
 
 <!-- source: https://amic.de/hilfe/showstatement.htm -->
 
-Syntax
+<p class="just-emphasize">Syntax</p>
 
 SHOW Feldname Text;
 
-Purpose
+<p class="just-emphasize">Purpose</p>
 
 Anzeige eines Textes in einem Maskenfeld;
 
-Anwendung
+<p class="just-emphasize">Anwendung</p>
 
 Kommandodatei, Befehlszeile
 
-Berechtigung
+<p class="just-emphasize">Berechtigung</p>
 
 Alle Anwender
 
-Siehe auch
+<p class="just-emphasize">Siehe auch</p>
 
 [SHOW BUFFER](./show_buffer_statement.md), [SHOW CURSOR](./show_cursor.md), [SHOW TABLE](./show_table_statement.md), [SHOW VIEW](./show_view_statement.md), [SHOW TRIGGER](./show_trigger_statement.md), [SHOW PROC](./show_procedure_statement.md)
 
-Beschreibung
+<p class="just-emphasize">Beschreibung</p>
 
 Wenn es sich weder um SHOW BUFFER, SHOW CURSOR oder SHOW TABLE handelt, wird versucht das zweite Argument als Feldnamen zu interpretieren. Der Text der daraus folg wird in dieses Feld geschrieben. Dadurch kann man z.B. Fortschrittsanzeigen innerhalb eines Skriptes bewerkstelligen.
 
-Beispiel
+<p class="just-emphasize">Beispiel</p>
 
 ```text
 // Statusline ist die Zeile unterhalb der

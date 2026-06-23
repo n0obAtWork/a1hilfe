@@ -20,6 +20,6 @@ Funktion/Report: Export erzeugen (F10)
 
 [Weitere Informationen](http://www.amic.de/hilfe/_dsfinvkexport.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2402.8, 35850, 740079

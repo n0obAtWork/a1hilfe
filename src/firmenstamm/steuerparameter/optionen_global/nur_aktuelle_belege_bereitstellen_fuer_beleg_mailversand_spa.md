@@ -4,6 +4,6 @@
 
 Ist dieser Steuerparameter aktiviert, so werden bisherige Einträge für den Mailversand aus der Tabelle „fa_vermailung“ gelöscht. Bisher erstellte Versionen des Beleges werden nicht versendet werden.
 
-Hinweis:
+<p class="just-emphasize">Hinweis:</p>
 
 Ist in der Vorgangsunterklasse eine Belegversandprozedur eingestellt, die Belege sofort versendet, so ist dieser Steuerparameter wirkungslos. Sind Belege bereits über ein Event versendet worden, so werden sie nicht zurückgerufen.

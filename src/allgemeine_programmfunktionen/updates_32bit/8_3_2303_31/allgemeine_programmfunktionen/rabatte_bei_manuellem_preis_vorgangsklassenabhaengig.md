@@ -20,6 +20,6 @@ Funktion/Report: Registerkarte SPA
 
 [Weitere Informationen](http://www.amic.de/hilfe/spa.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2303.31, 33578, 721024

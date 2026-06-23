@@ -20,7 +20,7 @@ Es gibt aber einige Ausnahmen, hier sind die Aktualisierungspunkte fest vergeben
 
 **6. SVPOSBAR2**
 
-Einrichtung
+<p class="just-emphasize">Einrichtung</p>
 
 1. Einrichtung des [AIS](../../zusatzprogramme/ais_a_eins_informationssystem/index.md)
 
@@ -42,19 +42,19 @@ oder Direktsprung **[FRZ]**
 
 Es empfiehlt sich für jede Vorgangsmaske eine eigene Funktion in dem Makro anzulegen. In der Vorgangsunterklassen Zuordnung wird die gewünschte Funktion des Makros der AIS-Gruppe zugeordnet. Der Makro-Name in dem Feld „Screen-Makro“ kommt aus der jeweiligen AIS-Gruppe. Für jede Vorgangsmaske können mehrere AIS-Gruppen in FRZ hinterlegt werden. Dabei ist zu beachten, dass alle Gruppen, die in FRZ einer Maske zugeordnet worden sind, nacheinander aufgerufen werden.
 
-Hinweis zu dem Makro
+<p class="just-emphasize">Hinweis zu dem Makro</p>
 
 Das Makro, welches das Aktualisieren des AIS steuert, darf **nicht zur Wertveränderung** im Vorgang benutzt werden. Da nicht sichergestellt werden kann, dass die Änderungen mit in den Vorgang übernommen werden. Um Änderungen am Vorgang vorzunehmen, ist dies weiterhin per Kontrollmakro zu realisieren.
 
 Außerdem ist darauf zu achten, dass das Zusammenstellen der Daten für das AIS nicht zu viel Zeit in Anspruch nimmt, da dadurch das Erfassen oder Bearbeiten von Belegen mehr Zeit in Anspruch nimmt.
 
-Datenübergabe in das Makro
+<p class="just-emphasize">Datenübergabe in das Makro</p>
 
 Die Übergabe von Daten an das MAKRO erfolgt per JVARS und nicht per Paramater, da die Übergabe mit den JVARS flexibler ist, denn die Parameteranzahl ist für das Makro auf vier beschränkt.
 
 Die JVARS unterscheiden sich in Abhängigkeit der Maske. Welche Werte mit den JVARS übergeben werden, ist in den Einrichtungshilfen zu den Masken erklärt.
 
-Ablauf
+<p class="just-emphasize">Ablauf</p>
 
 Nach jeder Eingabe oder jedem Ereignis, das von Systemseite definiert worden sind. Wird das Makro aufgerufen kann dann anhand der Übergabeparameter entschieden werden, ob das AIS komplett, einzelne AIS-Felder oder gar nicht aktualisiert werden soll. Es können pro Vorgangsmaske mehrere AIS-Gruppen hinterlegt werden. Beim Aktualisieren werden alle Gruppen, die in diesem Grid hinterlegt sind, nacheinander aufgerufen. Deswegen ist darauf zu achten, dass keine zeitintensiven SQL-Statements ausgeführt werden, da diese den Ablauf massiv stören könnten.
 
@@ -62,7 +62,7 @@ Nach jeder Eingabe oder jedem Ereignis, das von Systemseite definiert worden sin
 
 Damit das AIS Aktualisiert wird, müssen bestimmte Funktionalitäten im Makro angesprochen werden.
 
-Abfragen und setzten der JVARS(BAGS) im Makro
+<p class="just-emphasize">Abfragen und setzten der JVARS(BAGS) im Makro</p>
 
 Für das Abfragen der JVARS(BAG) in dem Makro wird kein spezieller owner benötigt. Der owner der JVARS wird automatisch vorbelegt und ist immer nur solange gültig, wie die aufrufende Maske des Makros offen ist. Die benutzten JVARS(BAGs) werden nach dem Aufruf des Makros vom System wieder abgeräumt.
 
@@ -72,7 +72,7 @@ Für das Abfragen der JVARS(BAG) in dem Makro wird kein spezieller owner benöti
 
 Das Setzten einer JVAR(BAG) aus dem Makro heraus wird bislang nur für eine spezielle JAVR(BAG) in der Maske SVMAIN benötigt. Alle anderen JVARS(BAGS) werden nur im Makro gelesen.
 
-Funktion zur Aktualisierung der AIS Felder
+<p class="just-emphasize">Funktion zur Aktualisierung der AIS Felder</p>
 
 1. Mit der Funktion dbx_io ("AISREFRESH","Zeit$", "", "") wird das Feld Zeit$ aktualisiert. Wird der zweite Parameter leer gelassen, so wird das ganze AIS auf der Maske aktualisiert.
 

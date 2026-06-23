@@ -2,33 +2,33 @@
 
 <!-- source: https://amic.de/hilfe/setcommanddelimiterstatement.htm -->
 
-Syntax
+<p class="just-emphasize">Syntax</p>
 
 SET COMMAND_DELIMMTER [?]
 
-Purpose
+<p class="just-emphasize">Purpose</p>
 
 Legt das Zeilenendekennzeichen fest.
 
-Anwendung
+<p class="just-emphasize">Anwendung</p>
 
 Kommandodatei, Befehlszeile
 
-Berechtigung
+<p class="just-emphasize">Berechtigung</p>
 
 Alle Anwender
 
-Siehe auch
+<p class="just-emphasize">Siehe auch</p>
 
 [SET DELIMITER](./set_delimiter_statement.md)
 
-Beschreibung
+<p class="just-emphasize">Beschreibung</p>
 
 Im Normalfall ist der COMMAND_DELIMITER das Semikolon >;&lt;. Es kann aber Fälle geben, in denen es Sinnvoll ist, dieses umzudefinieren ( z.B.: beim Anlegen von Prozeduren). Dies erfolgt durch diesen Befehl. Im unten angegebenen Beispiel gilt nach dem ändern des COMMAND_DELIMITER das gesamte Create - Statement bis zum nächsten # als ein Statement. Ohne dies wäre nach dem Semikolon Ende und Sybase würde einen Fehler zurückliefern, da das „END“ fehlt.
 
  Gibt man kein neues Zeichen an, wird wieder das Ursprüngliche >;&lt; genommen.
 
-Beispiel
+<p class="just-emphasize">Beispiel</p>
 
 SET COMMAND_DELIMITER #;
 

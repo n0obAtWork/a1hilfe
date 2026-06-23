@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/erstellungdesrosiprofilsausgeh.htm -->
 
-Profil für EDI-Partner anlegen
+<p class="just-emphasize">Profil für EDI-Partner anlegen</p>
 
 In dem Profil EDI-Partner werden die Teilnehmer-ILN, das Kommunikationsprofil, der EDI-Nachrichtentyp und die Nummernkreise hinterlegt.
 
@@ -72,7 +72,7 @@ f. Die Eingaben mit der Taste „F9“ speichern. Anschließend die Maske mit de
 
 15. Die Eingaben mit der Taste „F9“ speichern. Anschließend die Maske mit der Taste „ESC“ schließen.
 
-Abschnitt-Prozeduren im EDI-Profil eintragen
+<p class="just-emphasize">Abschnitt-Prozeduren im EDI-Profil eintragen</p>
 
 ![](../../../ImagesExt/image8_1113.jpg)
 
@@ -90,7 +90,7 @@ Auf dem zweiten Tabreiter („Prozeduren“) des EDI-Profils sind nun die Prozed
 | Rechnungsliste | edi_rechnungsliste | Im Profil muss Rechnungsliste unterdrücken auf „Nein“ gesetzt sein. | Datei_Id |
 | Rechnungsliste-Steuer | edi_rechnungsliste_tax | Hier wird per Schleife jeder Steuersatz angegeben. | Datei_Id |
 
-Funktionalität der Maske
+<p class="just-emphasize">Funktionalität der Maske</p>
 
 | Funktion | Ansteuerung | Funktionalität |
 | --- | --- | --- |
@@ -99,13 +99,13 @@ Funktionalität der Maske
 | View bearbeiten | Button (ausgewählte Zeile)<br>Doppelklick auf View | Analog zu „Prozedur bearbeiten“. |
 | View testen | Button (ausgewählte Zeile) | Im unteren Grid werden die Daten angezeigt, welche die View zurück gibt. Als Parameter dient die jeweils eingetragene Test-Id. |
 
-Segment-Prozeduren im EDI-Profil eintragen
+<p class="just-emphasize">Segment-Prozeduren im EDI-Profil eintragen</p>
 
 ![](../../../ImagesExt/image8_1114.jpg)
 
 Auf dem Tabreiter „Segmente“ können die Prozeduren hinterlegt werden, welche die Gestaltung der Einzelzeilen einer EDI-Nachricht steuern. Diese werden beim Testen der Abschnittprozeduren mit einer Standardprozedur vorbelegt, falls noch keine Prozedur hinterlegt ist.
 
-Funktionalität der Maske
+<p class="just-emphasize">Funktionalität der Maske</p>
 
 | Funktion | Ansteuerung | Funktionalität |
 | --- | --- | --- |

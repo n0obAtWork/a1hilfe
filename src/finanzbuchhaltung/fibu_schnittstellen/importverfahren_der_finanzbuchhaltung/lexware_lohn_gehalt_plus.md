@@ -20,9 +20,11 @@ Beispiel:
 
 Für das Konto 1755 ist die Steuerklasse 2 hinterlegt. In der Importdatei steht der Betrag 14,06 €. Es wird folgender Buchungssatz gebildet:
 
-<table class="AMICOlavsTabelle" style="WIDTH: 30.84%; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="30%" border="0"><tbody><tr style="HEIGHT: 13.65pt"><td style="HEIGHT: 13.65pt; WIDTH: 11.5%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="11%">4100</td><td style="HEIGHT: 13.65pt; WIDTH: 9.28%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="9%">An</td><td style="HEIGHT: 13.65pt; WIDTH: 30.86%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="30%">1755</td><td style="HEIGHT: 13.65pt; WIDTH: 22.7%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="22%">14,06</td><td style="HEIGHT: 13.65pt; WIDTH: 25.66%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="25%">12,12</td></tr><tr style="HEIGHT: 13.65pt"><td style="HEIGHT: 13.65pt; WIDTH: 11.5%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="11%"><span style="COLOR: black"></span>&nbsp;</td><td style="HEIGHT: 13.65pt; WIDTH: 9.28%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="9%"><span style="COLOR: black"></span>&nbsp;</td><td style="HEIGHT: 13.65pt; WIDTH: 30.86%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="30%">1775</td><td style="HEIGHT: 13.65pt; WIDTH: 22.7%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="22%"><span style="COLOR: black"></span>&nbsp;</td><td style="HEIGHT: 13.65pt; WIDTH: 25.66%; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="25%">1.94</td></tr></tbody></table>
+| 4100 | An | 1755 | 14,06 | 12,12 |
+| --- | --- | --- | --- | --- |
+| | | 1775 | | 1.94 |
 
-Satzaufbau
+<p class="just-emphasize">Satzaufbau</p>
 
 In der Ersten Zeile der zu importierenden Datei stehen die Feldbezeichnungen getrennt durch ein Semikolon. Abgeschlossen ist die Zeile mit CR/LF:  
     

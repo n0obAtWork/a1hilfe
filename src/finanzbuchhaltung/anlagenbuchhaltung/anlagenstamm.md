@@ -18,7 +18,7 @@ Der Anlagestamm wird über die Anwendung **Anlagenstamm** verwaltet. Hier werden
 | Standort<br><br> | Hier gibt man die Nummer des Standorts ein. Eine Auswahl ist auch über **F3** möglich. [Standorte](./einstellungen_anlagenbuchhaltung.md) werden über einen eigenständigen Pfleger verwaltet.<br> |
 | Handelsbilanz führen | Im Zuge des BilMoG kann es notwendig sein den Abschreibungsverlauf handels- und steuerrechtlich zu trennen. Z.B. kann bei Geschäfts- und Firmenwerten sich die Nutzungsdauer unterscheiden, so dass grundsätzlich unterschiedliche Verläufe zu bilden sind. Stellt man dieses Feld auf „Ja“, so werden alle bisher für dieses Anlagegut erfassten Daten kopiert. Ausgeschlossen hiervon sind natürlich alle AfA- Einträge, da diese sich unterscheiden können. Bereits umgebuchte Anlagengüter können nicht mehr umgestellt werden.<br> |
 
-Register Allgemein
+<p class="just-emphasize">Register Allgemein</p>
 
 | | Bedeutung |
 | --- | --- |
@@ -29,7 +29,7 @@ Register Allgemein
 | Nutzungsdauer<br> | Dies ist die Dauer, die das Anlagegut voraussichtlich betrieblich genutzt wird. Im ersten und letzten Jahr der Nutzung werden Abschreibungen zeitanteilig berechnet, in den übrigen Jahren jeweils für das gesamte Kalenderjahr. Die Nutzungsdauer ist in Jahren oder in Monaten anzugeben.<br>Das Intervall, in dem die Abschreibungsvorschläge erstellt werden, kann selbständig ausgewählt werden. Mehr Informationen zu Abschreibungsvorschlägen stehen im Kapitel [Abschreibung](./abschreibung.md).<br>Die Nutzungsdauer kann nur solange geändert werden, solange noch keine AfA errechnet wurde. Bei Anlagegütern, bei denen die Abschreibungsart auf „Manuelle Abschreibung“ steht. Bleibt die Nutzungsdauer änderbar. Muss die Nutzungsdauer nachträglich geändert werden, so geschieht dies über Umbuchungen oder über einen Eintrag „Nutzungsdauer“ in der Historie.<br> |
 | Schrottwert /<br>Anhaltewert<br> | Auch als Erinnerungswert bekannt. Dies ist der Wert, auf den das Anlagegut automatisch abgeschrieben wird. Der Restbuchwert unterschreitet den Anhaltewert nicht. Wird mit 0 als Standard vorbelegt.<br>Früher wurde 1 € als Erinnerungswert geführt. Dadurch löste der spätere Abgang eines Wirtschaftsgutes eine Bewegung aus. Da im Anlagespiegel die Anschaffungskosten mit aufgeführt sind, ist der Erinnerungswert nicht mehr erforderlich. So lange das Wirtschaftsgut noch vorhanden ist, sind die entsprechenden Anschaffungskosten im Anlagespiegel enthalten.<br> |
 
-Historie auf dem Register Allgemein
+<p class="just-emphasize">Historie auf dem Register Allgemein</p>
 
 In der folgenden Tabelle werden die an dem Wert des Anlagegutes vorgenommenen Veränderungen als Historie protokolliert. Dabei ist die Art dafür entscheidend, ob der Betrag von den Anschaffungskosten abgezogen oder hinzugerechnet wird. In der ersten Zeile der Historie ist nur AHK oder Zugang erlaubt. Das Datum des ersten AHK bzw. Zugangs wird als Datum der Anschaffung im Anlagenspiegel ausgewiesen. Dieses Datum kann auch vor dem Wertstellungsdatum – also vor Beginn der Abschreibung - liegen, aber nicht dahinter.
 
@@ -41,7 +41,7 @@ In der folgenden Tabelle werden die an dem Wert des Anlagegutes vorgenommenen Ve
 | Text | Beschreibender Text.<br> |
 | Betrag | Um welchen Betrag soll sich der Wert des Anlagengutes ändern. Der Betrag wird immer Positiv eingegeben. Ob er von den AHK abgezogen wird oder hinzugerechnet wird, hängt von der Art ab.<br> |
 
-Register Zusatzinformation
+<p class="just-emphasize">Register Zusatzinformation</p>
 
 Auf dem Register Zusatzinformationen befinden sich die Informationen, die für die Finanzbuchhaltung gebraucht werden, für den Maschinenpark allgemein und speziell für Kraftfahrzeuge.
 
@@ -60,7 +60,7 @@ Auf dem Register Zusatzinformationen befinden sich die Informationen, die für d
 | Versicherung | Textfeld zur Erfassung der Versicherung / der Versicherungsscheinnummer.<br> <br> |
 | Archivreferenz<br><br> | Die Archivreferenz ist die Nummer, mit der auf das in A.eins integrierte Archiv verwiesen wird. Es können somit zu den einzelnen Anlagegütern existierende Unterlagen (Wartungsverträge, Lizenzen,...) im Archiv hinterlegt und den einzelnen Anlagegütern zugewiesen werden. Über die Funktion „Archiv anzeigen“ CF12 werden alle archivierten Dokumente aufgelistet und können dort bearbeitet/angesehen werden.<br> |
 
-Register Allgemeiner Hinweis
+<p class="just-emphasize">Register Allgemeiner Hinweis</p>
 
 Hier können allgemeine Informationen zu diesem Anlagengut festgehalten werden. Diese erscheinen u.a. auch in der Anlagenmappe.
 
@@ -68,7 +68,7 @@ Hier können allgemeine Informationen zu diesem Anlagengut festgehalten werden. 
 
 *Weitere Informationen lassen sich durch das in A.eins integrierte Informationssystem AIS anbinden.*
 
-Register &lt;Neues Bild>
+<p class="just-emphasize">Register &lt;Neues Bild></p>
 
 Wenn man auf dieses Registerklickt, öffnet sich ein Dateiauswahldialog, mit dem man ein Bild auswählen kann, dass diesem Anlagengut zugeordnet werden soll.
 

@@ -6,9 +6,8 @@ Hauptmenü > Kontraktverwaltung > Kontraktengagement
 
 Es gibt hier zwei verschiedene Sichtweisen:
 
-\- Position gruppiert nach Warengruppen
-
-\- Position gruppiert nach Artikelnummern (lagerübergreifend)
+- Position gruppiert nach Warengruppen
+- Position gruppiert nach Artikelnummern (lagerübergreifend)
 
 <p class="siehe-auch">Siehe auch:</p>
 

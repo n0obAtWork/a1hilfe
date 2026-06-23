@@ -63,7 +63,7 @@ Vertragsart, Registriernummer und Auftragsnr. sind z. Zt. noch nicht belegt, kö
 
 Vorstufe, Basis, ZS und Z2. Zuchtgartengemisch ist KEINE offizielle Kategorie. D. h. bei Vermehrungen von ZG zu VS ist als Kategorie VS anzugeben; der Status ZG ergibt sich aus der Anerkennungsnummer!!!
 
-Schlagzuordnung F5.
+<p class="just-emphasize">Schlagzuordnung F5.</p>
 
 In der sich hier öffnenden Auswahlliste können bereits erfasst Schläge ausgewählt mit der Funktion ***Übernehmen*** **F9 übernommen werden** oder neu erfasst werde(***Neu*** **F8**).
 
@@ -84,7 +84,7 @@ Um die Vorfrüchte zuordnen zu können, muss der Schlag markiert und per Doppelk
 Vorfrüchte und Basispartie bitte lt. Aufstellung (SZ oder RGR) erfassen.  
 Die Ertragsschätzung wird aus der Saatsorte vorbelegt.
 
-Funktionen
+<p class="just-emphasize">Funktionen</p>
 
 | Funktion | Taste | Bedeutung |
 | --- | --- | --- |

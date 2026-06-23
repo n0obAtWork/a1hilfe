@@ -2,11 +2,11 @@
 
 <!-- source: https://amic.de/hilfe/_Rabatte.htm -->
 
-Definition lt. Wikipedia:
+<p class="just-emphasize">Definition lt. Wikipedia:</p>
 
 Ein Rabatt (von ital.: rabbattere = abschlagen, abziehen) ist ein Nachlass vom Listenpreis einer Ware oder Dienstleistung oder von dem Preis, den der Unternehmer in sonstiger Weise allgemein ankündigt oder fordert (Netto-Verkaufspreis) oder ein Sonderpreis, der wegen der Zugehörigkeit zu bestimmten Verbraucherkreisen, Berufen, Vereinen oder Gesellschaften eingeräumt wird.
 
-Verwendung in A.eins
+<p class="just-emphasize">Verwendung in A.eins</p>
 
 Rabatte lassen sich in A.eins als automatische Berechnung einrichten. Ebenso können Rabatte manuell im Anschluss an die Erfassung einer Warenposition erfasst werden.
 

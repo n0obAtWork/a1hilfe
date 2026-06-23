@@ -37,11 +37,11 @@ Die Prozedur ermittelt anhand der Vorgangsdaten der Materialorder, in welchen Pr
 
 Es empfiehlt sich bei Lagerumbuchungen und Produktionen diese Sätze so hoch anzusetzen, dass keine Kommissionierung stattfindet, sondern stets ganze Ladeträger ausgeliefert werden. (MIN=99,MAX=9900)
 
-Allokation im Regal-Lager
+<p class="just-emphasize">Allokation im Regal-Lager</p>
 
 Im regal-Lager wird ab dem Zeitpunkt der Allokation die Ware reserviert. Das bedeutet, dass nach einer Allokationsstrategie Paletten ausgewählt werden, die in voller Menge ins Ziel gebracht werden sollen und solche, von denen eine Teilmenge gebraucht wird, die also noch kommissioniert werden müssen. Je nach Auslagerstrategie werden dann Fahraufträge geschrieben.
 
-Allokation im Blocklagerallokation
+<p class="just-emphasize">Allokation im Blocklagerallokation</p>
 
 In einem Blocklager kann nicht gezielt auf eine bestimmte Palette zugegriffen werden, Oft stehen diese in Reihen hintereinander zuweilen sogar in mehreren Ebenen.
 

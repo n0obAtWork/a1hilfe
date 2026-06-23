@@ -20,6 +20,6 @@ Funktion/Report: Ander Unterklasse
 
 [Weitere Informationen](http://www.amic.de/hilfe/!_aisrefreshvorgang.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2502.9, 34996, 732524

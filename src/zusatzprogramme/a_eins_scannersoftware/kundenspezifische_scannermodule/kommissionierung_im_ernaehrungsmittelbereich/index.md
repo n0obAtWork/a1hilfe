@@ -6,15 +6,11 @@
 
 Grundlagen :
 
-\- In einer Produktionsstrecke werden Halbfertig- und Fertigprodukte produziert.
-
-\- Diese Produkte sollen direkt kommissioniert werden.
-
-\- Die Produkte sollen eingelagert werden
-
-\- Die Kommissionsaufträge sollen direkt zugeordnet werden
-
-\- Während der Arbeit im Lager soll per permanenter Inventur der Bestand gepflegt werden.
+- In einer Produktionsstrecke werden Halbfertig- und Fertigprodukte produziert.
+- Diese Produkte sollen direkt kommissioniert werden.
+- Die Produkte sollen eingelagert werden
+- Die Kommissionsaufträge sollen direkt zugeordnet werden
+- Während der Arbeit im Lager soll per permanenter Inventur der Bestand gepflegt werden.
 
 <p class="siehe-auch">Siehe auch:</p>
 

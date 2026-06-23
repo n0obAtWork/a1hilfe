@@ -20,6 +20,6 @@ Funktion/Report: ASCII-Druck auf OKI-Nadeldrucker
 
 [Weitere Informationen](http://www.amic.de/hilfe/-)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2304.28, 33636, 722009

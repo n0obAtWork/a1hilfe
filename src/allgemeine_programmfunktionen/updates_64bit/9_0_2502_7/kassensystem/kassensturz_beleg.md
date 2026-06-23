@@ -20,6 +20,6 @@ Funktion/Report: Abschluss
 
 [Weitere Informationen](http://www.amic.de/hilfe/_kass_sturz_abschluss.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2502.7, 38345, 750717

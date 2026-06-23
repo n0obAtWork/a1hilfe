@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/importvorgstammufld.htm -->
 
-UFLD-Felder
+<p class="just-emphasize">UFLD-Felder</p>
 
 In dieser Relation werden die Setzungen von UFLD-Feldern für den Vorgang vorgenommen.
 

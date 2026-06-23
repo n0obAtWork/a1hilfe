@@ -20,6 +20,6 @@ Funktion/Report: Ansichten verwalten
 
 [Weitere Informationen](http://www.amic.de/hilfe/ansichtenverwalten.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2401.1, 34739, 731003

@@ -13,22 +13,18 @@ Da das Compliancemodul Modul übergreifend ist, gibt es verlinkungen auf die jew
 <details>
 <summary>Modul verlinkungen</summary>
 
-\- [Mandantenstamm](../../firmenstamm/firmenkonstanten/mandantenstamm.md) (Register Verbotsliste)
-
-\- [Kundenstamm](../../kunden_und_lieferanten/kunden_und_lieferantenstamm/verbotslisten/index.md)
-
-\- [Anschriftenstamm](../../kunden_und_lieferanten/kunden_und_lieferantenstamm/anschriften/funktionen_in_anschriften/verbotsliste.md)
+- [Mandantenstamm](../../firmenstamm/firmenkonstanten/mandantenstamm.md) (Register Verbotsliste)
+- [Kundenstamm](../../kunden_und_lieferanten/kunden_und_lieferantenstamm/verbotslisten/index.md)
+- [Anschriftenstamm](../../kunden_und_lieferanten/kunden_und_lieferantenstamm/anschriften/funktionen_in_anschriften/verbotsliste.md)
 
 </details>
 
 <details>
 <summary>SPA Verlinkungen</summary>
 
-\- [Steuerparameter 707](../../firmenstamm/steuerparameter/lizenzen/verbotslistenpruefung_lizenz_spa_707.md)
-
-\- [Steuerparameter 824](../../firmenstamm/steuerparameter/optionen_global/max_intervall_fuer_verbotslistenpruefung_in_tagen_spa_824.md)
-
-\- [Steuerparameter 1063](../../firmenstamm/steuerparameter/optionen_global/verbotslisten_prozeduren_spa_1063.md)
+- [Steuerparameter 707](../../firmenstamm/steuerparameter/lizenzen/verbotslistenpruefung_lizenz_spa_707.md)
+- [Steuerparameter 824](../../firmenstamm/steuerparameter/optionen_global/max_intervall_fuer_verbotslistenpruefung_in_tagen_spa_824.md)
+- [Steuerparameter 1063](../../firmenstamm/steuerparameter/optionen_global/verbotslisten_prozeduren_spa_1063.md)
 
 </details>
 

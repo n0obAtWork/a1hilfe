@@ -4,7 +4,7 @@
 
 Auf dieser Registerkarte werden die Einstellungen für die Rabatt-, Fracht- und Zu-Abschlagsgruppen vorgenommen. Hier kann eingestellt werden, ob die Gruppen des Artikels oder die des Kontraktes verwendet werden sollen. Des Weiteren besteht die Möglichkeit auch das Verhalten zu steuern, ob individuelle Gruppen gezogen werden dürfen.
 
-Kontrakt-Zu-Abschlagsgruppen
+<p class="just-emphasize">Kontrakt-Zu-Abschlagsgruppen</p>
 
 Hier kann eingestellt werden, ob Zu-Abschlagsgruppen bei diesem Kontrakt gezogen werden dürfen.
 
@@ -23,7 +23,7 @@ Wird eine Zu-/Abschlagsgruppe am Kontrakt eingestellt, so besteht die Möglichke
 | Ja | Bei dieser Einstellung werden die individuellen Zu-Abschläge aus dem Artikel gezogen, obwohl ein Zu-Abschlagsgruppe am Kontrakt hinterlegt worden ist. |
 | Nein | Es wird keine individuelle Zu-Abschlagsgruppe verwendet. |
 
-Kontrakt-Frachtgruppen
+<p class="just-emphasize">Kontrakt-Frachtgruppen</p>
 
 Hier kann eingestellt werden, ob Frachtgruppen beim Kontrakt gezogen werden dürfen.
 
@@ -42,7 +42,7 @@ Wird eine Frachtgruppe ausgewählt, so kann das Verhalten für individuelle Frac
 | Ja | Bei dieser Einstellung wird die individuelle Frachtgruppe aus dem Artikel gezogen, obwohl eine Frachtgruppe am Kontrakt hinterlegt worden ist. |
 | wie SPA | Bei dieser Einstellung wird die Einstellung aus dem [Steuerparameter 1174](../../firmenstamm/steuerparameter/kontraktwesen/individuelle_frachten_bei_kontrakten_beruecksichtigen_spa_11.md) gezogen. Hier kann dann global eingestellt werden, ob individuelle Frachtgruppen gezogen werden sollen. |
 
-Kontrakt-Rabattgruppe
+<p class="just-emphasize">Kontrakt-Rabattgruppe</p>
 
 Hier kann eingestellt werden, ob Rabattgruppen beim Kontrakt gezogen werden dürfen.
 

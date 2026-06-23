@@ -20,6 +20,6 @@ Funktion/Report: Vorgänge erzeugen
 
 [Weitere Informationen](http://www.amic.de/hilfe/_waage_auftragsauswahl.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2502.5, 36731, 739549

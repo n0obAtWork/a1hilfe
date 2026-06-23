@@ -23,7 +23,7 @@ Siehe: [Einrichtung der AIS-Felder für die Marktkasse aus dem AMIC Muster](./ei
 
 <p class="just-emphasize">Zusatzangaben</p>
 
-Leergutverarbeitung
+<p class="just-emphasize">Leergutverarbeitung</p>
 
 Gibt an, wie Leergut in der Kasse verarbeitet werden soll.
 
@@ -33,19 +33,19 @@ Gibt an, wie Leergut in der Kasse verarbeitet werden soll.
 | Leergut nur für fakturierte Artikel | Es wird nur Leergut für zu fakturierende Artikel im Leergutdialog angezeigt. Leergut als Folgeartikel wird bei der normale Artikelerfassung übersprungen. |
 | Alle Leergutartikel anzeigen | Es werden alle zu fakturierende Leergutartikel im Leergutdialog angezeigt. Leergut als Folgeartikel wird bei der normale Artikelerfassung übersprungen. |
 
-Kassenbelegdruck sofort
+<p class="just-emphasize">Kassenbelegdruck sofort</p>
 
 Gibt an, on der Druck des Kassenbelegs sofort bei der Erfassung oder beim Abschluss der Zahlung erfolgen soll.
 
-Externes Kassendisplay
+<p class="just-emphasize">Externes Kassendisplay</p>
 
 Wird in einem externen Kassendisplay ein BON eingerichtet, so wird dieses Formular dazu verwendet, diesen Bon darzustellen. Wird kein Formular eingetragen, so wird das Druck-Formular verwendet.
 
-Unterklasse Lieferschein und Unterklasse Rechnung
+<p class="just-emphasize">Unterklasse Lieferschein und Unterklasse Rechnung</p>
 
 Diese beiden Felder werden herangezogen, wenn man bei der Marktkasse die Dialogmaske ‚Speichern unter‘ zum Wechsel in eine Rechnung oder in einen Lieferschein aufgefordert wird. 
 
-Prozedur Verkaufsbeschränkung
+<p class="just-emphasize">Prozedur Verkaufsbeschränkung</p>
 
 Hier kann eine Prozedur eingefügt werden, welche die Standardbehandlung übersteuert. Als Übergabeparameter benötigt die Prozedur die „Vekaufsbeschränkungsnummer“. Der Rückgabeparameter heißt „meldung“.
 

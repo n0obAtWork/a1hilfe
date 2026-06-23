@@ -52,8 +52,7 @@ Die Bewertung wird auf Grundlage der im Artikel hinterlegten Bewertungsparameter
 
 Folgende Auswahlmöglichkeiten stehen zur Verfügung:
 
-\- Die automatische Bewertung kann man beziehen:
-
+- Die automatische Bewertung kann man beziehen:
   - auf die gesamte Inventur (unabhängig vom Auswahlbereich)
   - auf eine ganze Inventurgruppe (entsprechend der ersten markierten Position, unabhängig vom Auswahlbereich)
   - nur auf die markierten Positionen

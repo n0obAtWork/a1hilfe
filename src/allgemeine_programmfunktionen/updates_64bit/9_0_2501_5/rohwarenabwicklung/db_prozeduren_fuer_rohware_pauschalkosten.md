@@ -20,6 +20,6 @@ Funktion/Report: Neu, Ändern
 
 [Weitere Informationen](http://www.amic.de/hilfe/qualittsundkostenmerkmalwertep.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2501.5, 36313, 743449

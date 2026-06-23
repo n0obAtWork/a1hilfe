@@ -20,6 +20,6 @@ Funktion/Report: Neu drucken und neu versenden, Beleg erneut versenden
 
 [Weitere Informationen](http://www.amic.de/hilfe/!vorgangsbearbeitungallgemein.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2402.1, 35207, 734596

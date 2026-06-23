@@ -10,7 +10,7 @@ Diese Art der Erfassung bezieht sich ausschließlich auf Barverkäufe, d.h. Bare
 
 Es wird auf denselben Tabellen (Daten) gearbeitet, so dass auch die Übersichten nutzbar sind.
 
-Bemerkungen:
+<p class="just-emphasize">Bemerkungen:</p>
 
 Es kann an einem Arbeitsplatz sowohl die Tresenkasse als auch die POS-Kasse benutzt werden, allerdings sollte man darauf achten, dass man nicht in beiden Erfassungsroutinen/Erfassungsmasken gleichzeitig erfasst.
 

@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/parameterbeimdateiaufrufosql.htm -->
 
-Syntax
+<p class="just-emphasize">Syntax</p>
 
 @Datei CONTINUE ON ERROR
 
@@ -14,23 +14,23 @@ oder
 
 @Datei PAR1=wert[,PAR2=wert,…]
 
-Purpose
+<p class="just-emphasize">Purpose</p>
 
 Übergabe von Parametern an die Kommandodatei
 
-Anwendung
+<p class="just-emphasize">Anwendung</p>
 
 Befehlszeile
 
-Berechtigung
+<p class="just-emphasize">Berechtigung</p>
 
 Alle Anwender
 
-Siehe auch
+<p class="just-emphasize">Siehe auch</p>
 
 [@](./index.md), [ASK](./alter_struct_statement.md)
 
-Beschreibung
+<p class="just-emphasize">Beschreibung</p>
 
 CONTINUE ON ERROR
 
@@ -52,7 +52,7 @@ Es gibt noch eine zusätzliche Art von Parameter, mit deren Hilfe man die Komman
 
 &lt; NUMMER ==> Nummer sollten Numerisch sein. Alle ab der ersten Marke die größer als der Parameter sind.
 
-Beispiel1
+<p class="just-emphasize">Beispiel1</p>
 
 @C:\\SQL\\KUNDUPD.SQL KONTOVON=10000 KONTOBIS=20000
 
@@ -62,7 +62,7 @@ select \* from kundenstamm where kontonummer
 
  between :KONTOVON and :KONTOBIS
 
-Beispiel2
+<p class="just-emphasize">Beispiel2</p>
 
 @C:\\SQL\\KUNDUPD.SQL &DROP
 

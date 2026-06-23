@@ -23,7 +23,7 @@ Um die TSE hinzufügen, wie folgt vorgehen:
 
 4. Laufwerkbuchstaben für den neuen Stick eintragen bzw. kontrollieren.
 
-Hinweis!
+<p class="just-emphasize">Hinweis!</p>
 
 Der große Vorteil an der TSE-Implementierung in A.eins ist, dass die TSE (wenn sie in Windows richtig eingebunden wurde) direkt erkannt wird.
 

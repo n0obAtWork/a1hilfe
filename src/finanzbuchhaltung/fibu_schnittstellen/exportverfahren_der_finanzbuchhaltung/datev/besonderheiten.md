@@ -2,11 +2,11 @@
 
 <!-- source: https://amic.de/hilfe/besonderheiten.htm -->
 
-Besonderheiten bei den Personenkonten
+<p class="just-emphasize">Besonderheiten bei den Personenkonten</p>
 
 Unter den Fibumerkmalen kann man eine abweichende Kontonummer für den DATEV-Export angeben. Diese wird dann an Stelle der Kontonummer des Personenkontos für die Übergabe der Stamm- und der Bewegungsdaten verwendet. Dies ist immer dann Sinnvoll bzw. sogar unumgänglich, wenn man die Personenkonten so eingerichtet hat, dass sie nicht den Anforderungen der DATEV entsprechen.
 
-Besonderheiten im Sachkontenstamm
+<p class="just-emphasize">Besonderheiten im Sachkontenstamm</p>
 
 Im Sachkontenstamm existieren zwei für die DATEV relevante Felder:
 
@@ -18,7 +18,7 @@ DATEV Automatik:
 Bei der DATEV existieren sogenannte Automatikkonten. Für diese Konten wird von der DATEV automatisch die Steuer errechnet. Es darf also keine Steuer von der Schnittstelle übertragen werden. Um dies der Schnittstelle mitzuteilen gibt es das Feld DATEV Automatik, das für diese Konten auf **Ja** gesetzt werden muss. Eine Liste der Automatikkonten kann Ihnen der Steuerberater zur Verfügung stellen. In den ausgelieferten Kontenplänen SKR03 und SKR04 sind die entsprechenden Konten bereits korrekt gekennzeichnet.  
 **HINWEIS:** *Treten zwischen den Steuerkonten beim Steuerberater und denen in A.eins Differenzen auf, so liegt dies mit großer Wahrscheinlichkeit an falsch hinterlegten Automatikkennzeichen!*
 
-Besonderheiten Steuer
+<p class="just-emphasize">Besonderheiten Steuer</p>
 
 Es existieren drei Möglichkeiten, die Steuerinformationen an die DATEV zu übermitteln, die alle von A.eins unterstützt werden. Im [Firmenstamm](./datev_firmenstamm.md) wird festgelegt, ob die Steuer über den Umsatzsteuerschlüssel oder über das Steuerkonto übermittelt werden soll.  
     
@@ -35,7 +35,7 @@ Um ggf. die den Steuerschlüssel an den Steuerberater zu übermitteln, existiert
 
 Buchungen zum Innergemeinschaftlichen Erwerb lassen sich nicht mit Methode 3 übermitteln.
 
-Steuerparameter
+<p class="just-emphasize">Steuerparameter</p>
 
 Für das Festschreibungskennzeichen existiert der Steuerparameter „DATEV Festschreibungskennzeichen übertragen“ (SPA 1061). Dieser wird nur ab dem DATEV-Format 7.0 ausgewertet. Im Standard steht der SPA auf „**Mit Festschreibungskennzeichen“**. Das bedeutet, dass die Daten beim Datenempfänger nicht geändert werden können. Setzt man diesen Steuerparameter auf **“Ohne Festschreibungskennzeichen“**, so wird das Kennzeichen beim Export so gesetzt, dass die Daten beim Exportempfänger änderbar sind. Dies ändert nichts daran, dass von A.eins nur gebuchte Belege, die bekanntermaßen nicht mehr änderbar sind, übertragen werden.
 

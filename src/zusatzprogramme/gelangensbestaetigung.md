@@ -14,7 +14,7 @@ Seitens des Finanzamtes könnte im Fall einer Prüfung die Nachbesteuerung unbel
 
 <p class="just-emphasize">Einrichtung der Gelangensbestätigung</p>
 
-SPA
+<p class="just-emphasize">SPA</p>
 
 Es ist der [Lizenz-SPA 865 – Gelangensbestätigung](../firmenstamm/steuerparameter/lizenzen/gelangensbestaetigung_lizenz_spa_865.md) notwendig.
 
@@ -26,7 +26,7 @@ Wird ein Lieferschein mit dieser Steuergruppe erstellt, so wird für diesen Vorg
 
 Der Steuerparameter SPA 948 entscheidet, ob nach Belegkorrektur eine neue Gelangensbestätigung gedruckt wird. Der Standardwert ist „Nein“. Wenn nach der Korrektur eines Beleges eine neue Gelangensbestätigung gedruckt werden muss, ist im Steuerparameter SPA 948 der Wert „Ja“ einzutragen.
 
-Formular und Makro
+<p class="just-emphasize">Formular und Makro</p>
 
 Der Anschluss des Drucks wird über die [Vorgangsdruckklassen](../firmenstamm/druckereinrichtung/vorgangsdruckklassen.md) (VRGD) geregelt. Wir liefern ein **Muster-Formular (-100)** mit aus, das nötigenfalls sogar ohne Kopie und Anpassung derselben direkt zu verwenden ist. Als Rücksendeadresse wird hier die Mandantenanschrift benutzt.
 
@@ -49,15 +49,15 @@ In der Anwendung Gelangensbestätigung **[GELB]** können alle Vorgänge angezei
 
 Ihnen stehen nach Auswahl und Markierung für die Bearbeitung folgende Funktionen zur Verfügung:
 
-Mahnung eintragen
+<p class="just-emphasize">Mahnung eintragen</p>
 
 Hier können Sie zu diesem Beleg das aktuelle Datum als Datum einer Erinnerung für die Rücksendung der Gelangensbestätigung setzen. Die Erstellung/Durchführung bzw. das Versenden der Erinnerung ist manuell durchzuführen.
 
-Rückmeldung eintragen
+<p class="just-emphasize">Rückmeldung eintragen</p>
 
 Hier können Sie das aktuelle Datum als das Datum des Eingangs/der Bearbeitung der Rückmeldung eintragen.
 
-Löschen
+<p class="just-emphasize">Löschen</p>
 
 Hier können Sie die Führung der Gelangensbestätigung zum Beleg löschen.
 

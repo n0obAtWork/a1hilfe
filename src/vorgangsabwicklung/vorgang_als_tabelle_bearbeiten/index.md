@@ -12,9 +12,8 @@ Mit dieser Funktion kann ein Vorgang “tabellenartig” bearbeitet, erfasst und
 
 Es existieren zwei verschiedenartige Vorgehensweisen
 
-\- Aufruf als eigenständige Anwendung
-
-\- [Aufruf innerhalb eines Vorganges](./aufruf_innerhalb_der_vorgangserfassung.md)
+- Aufruf als eigenständige Anwendung
+- [Aufruf innerhalb eines Vorganges](./aufruf_innerhalb_der_vorgangserfassung.md)
 
 Zunächst wird der Bereich eigenständige Anwendung beschrieben.
 

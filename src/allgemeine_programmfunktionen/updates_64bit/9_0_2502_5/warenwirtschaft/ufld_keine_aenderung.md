@@ -20,6 +20,6 @@ Funktion/Report: Erfassung
 
 [Weitere Informationen](http://www.amic.de/hilfe/_userfelder.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2502.5, 36647, 744553

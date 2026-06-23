@@ -18,11 +18,9 @@ Ein Teamleiter datiert für einen Mitarbeiter, einen Termin mit einem Kunden.
 
 Der Teamleiter legt eine Aufgabe für den Mitarbeiter an:
 
-\- Mitarbeiter in die Aufgabe eingetragen
-
-\- Kunde wird in die Aufgabe eingetragen
-
-\- Datum wird in die Aufgabe eingetragen
+- Mitarbeiter in die Aufgabe eingetragen
+- Kunde wird in die Aufgabe eingetragen
+- Datum wird in die Aufgabe eingetragen
 
 </details>
 

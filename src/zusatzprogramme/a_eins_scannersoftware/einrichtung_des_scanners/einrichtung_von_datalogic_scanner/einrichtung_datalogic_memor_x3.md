@@ -2,11 +2,11 @@
 
 <!-- source: https://amic.de/hilfe/_datalogic_memor_x3.htm -->
 
-Einrichten des WLAN Moduls
+<p class="just-emphasize">Einrichten des WLAN Moduls</p>
 
 Das WLAN Modul wird mit SCU eingerichtet, dies ist an dieser [Stelle](./wlan_einstellung_mit_scu.md) beschreiben worden.
 
-Setzen der Hintergrundbeleuchtung
+<p class="just-emphasize">Setzen der Hintergrundbeleuchtung</p>
 
 Windowssymbol > Settings > Control Panel > Display
 
@@ -16,7 +16,7 @@ Auf der Registerkarte Backlight muss der Schalter „Turn of backlight when usin
 
 2. External Power auf „10 minutes“ gestellt werden.
 
-Power Einstellungen
+<p class="just-emphasize">Power Einstellungen</p>
 
 Windowssymbol > Settings > Control Panel > Power
 
@@ -28,17 +28,17 @@ Dazu wird auf der Registerkarte Auto-Off unter dem Punkt
 
 2. „When externally power“ kann die Einstellung 5 minutes gewählt werden, da der Scanner meistens sich zum Aufladen an der Steckdose sich befindet.
 
-Datum/Zeit Einstellung
+<p class="just-emphasize">Datum/Zeit Einstellung</p>
 
 Windowssymbol > Settings > Control Panel > Date/Time
 
 Hier kann das aktuelle Datum eingestellt werden. Dies ist wichtig bei der Offline Variante, da auch von dem Datum abhängige Einstellungen gelesen werden z.B. Steuerparameter
 
-Ausstellen des Scannermodules, da die A.eins Software das Scannermodul selbst startet ab Version 8.0.1.xxx
+<p class="just-emphasize">Ausstellen des Scannermodules, da die A.eins Software das Scannermodul selbst startet ab Version 8.0.1.xxx</p>
 
 Klicken auf das Grau oder Gün hinterlegte Barcode Symbol auf der Taskleiste. Das Häkchen vor dem Punkt „Wedge“ entfernen durch das klicken auf den Text „Wedge“. Das Symbol sollte jetzt Grau hinterlegt worden sein.
 
-Einstellung des Scannermoduls
+<p class="just-emphasize">Einstellung des Scannermoduls</p>
 
 Windowssymbol > Settings > Control Panel > Decoding > Configure
 
@@ -59,7 +59,7 @@ Sind alle Einstellungen vorgenommen worden wird über File > Save die Einstellun
 
 Die Einstellungsmaske wird per File > Exit verlassen
 
-Readerparameters
+<p class="just-emphasize">Readerparameters</p>
 
 1. Als erstes muss geprüft werden, ob ein Steuerzeichen vorm oder hinter dem gelesen Barcode angefügt wird. Wenn ja müssen diese Zeichen ab der A.eins Scannerversion 7.8.6.xxx entfernt werden. Bei einer Version vor der 7.8.6.xxx muss als Postamble ein TAB oder ein F“ hinzugefügt werden.
 
@@ -121,7 +121,7 @@ Mit einem Doppelklick auf den Postamble öffnet sich ein Fenster. In dem Drop Do
 
 Sind die Einstellungen vorgenommen worden, so wird mit Doppelklick auf die beiden Punkte solange zurück navigiert, bis der Anfangsbildschirm mit Reader Parameters und Scan Parameters zu sehen ist.
 
-Scanparameters
+<p class="just-emphasize">Scanparameters</p>
 
 Folgende Parameter müssen umgestellt werden
 
@@ -143,9 +143,9 @@ Folgende Parameter müssen umgestellt werden
 
 Durch den Klick auf die Value kann die Einstellung für den jeweiligen Parameter eingestellt werden. Durch ein Doppelklick auf den Parameter öffnet sich eine weitere Maske in dieser kann dann die Value ausgewählt werden.
 
-Installieren der Scanner Software
+<p class="just-emphasize">Installieren der Scanner Software</p>
 
-Anschließen des Scanners an einen Rechner
+<p class="just-emphasize">Anschließen des Scanners an einen Rechner</p>
 
 Um die Scannersoftware zu installieren wird der Scanner per USB Kabel an den Rechner angeschlossen. Als Voraussetzungen um den Scanner anzuschließen müssen wahrscheinlich folgende Programme Installiert werden. 
 
@@ -155,7 +155,7 @@ Um die Scannersoftware zu installieren wird der Scanner per USB Kabel an den Rec
 
 Falls der Scanner nicht automatisch erkennt wird, so muss der USB Treiber für den Scanner nachinstalliert werden. Die USB Treiber können auf der Webseite [http://www.datalogic.com](http://www.datalogic.com) unter Support & Service > Software & Software heruntergeladen werden.
 
-Aufspielen der Software
+<p class="just-emphasize">Aufspielen der Software</p>
 
 Nach dem Scanner an den Rechner angeschlossen worden ist, muss nun die Software auf den Scanner kopiert und installiert werden.
 
@@ -171,7 +171,7 @@ Folgende Software Version können auf den Scanner Installiert werden
 
 2. Version 8.1.2.xxx
 
-Version 8.0.1.xxx
+<p class="just-emphasize">Version 8.0.1.xxx</p>
 
 Diese Software gibt es einmal als Installationsdatei(CAB) oder als Ordner
 
@@ -199,7 +199,7 @@ Mit einem Klick auf den Button OK oben rechts wird die Installation ausgeführt.
 
 Nach dem die [Software](../../private_prozeduren/index.md) Installiert worden ist, kann diese dann über das Desktop Symbol gestartet werden.
 
-Version 8.1.2.xxx
+<p class="just-emphasize">Version 8.1.2.xxx</p>
 
 Diese Version wird nur als CAB Datei ausgeliefert. Es müssen zwei CAB Dateien auf den Scanner kopiert werden.
 

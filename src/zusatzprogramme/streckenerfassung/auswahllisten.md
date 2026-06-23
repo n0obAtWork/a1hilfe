@@ -4,7 +4,7 @@
 
 Für die Streckenerfassung stehen unterschiedliche Standardauswahllisten zur Verfügung.
 
-Streckendisposition (Liste)
+<p class="just-emphasize">Streckendisposition (Liste)</p>
 
 Diese Auswahlliste zeigt für jede Strecke nur eine Zeile an, dabei werden unter anderem die Kunden, Belegnummern und Artikel als zusammengesetzte Liste angezeigt.
 
@@ -32,8 +32,8 @@ Bei der Auswahl sollte deswegen beachtet werden, dass möglichst kleine Strecken
 | Nur eigene Belege | |
 | Von Streckenstatus<br>Bis Streckenstatus | Hiermit kann die Strecke nach dem [Status](../../vorgangsabwicklung/vorgangsklammer.md) eingegrenzt werden. Wird dabei nur der „Von“ oder „Bis“ Status angegeben gilt nur der angegebene Status.<br>Werden beide Felder angegeben, wird eine Bereichsauswahl ausgeführt. (z.B. vom Status 1 bis zum Status 5)<br>Bei nicht funktionieren dieser Kriterien sollte zuerst geprüft werden, ob das Format richtig gepflegt wurde. Das Feld „Kommentar / Schnippsel“ muss dafür die Nummer des Status enthalten. |
 
-Streckendisposition
+<p class="just-emphasize">Streckendisposition</p>
 
-Streckendisposition (Auswahl als Liste)
+<p class="just-emphasize">Streckendisposition (Auswahl als Liste)</p>
 
-Strecke nach Kontrakt
+<p class="just-emphasize">Strecke nach Kontrakt</p>

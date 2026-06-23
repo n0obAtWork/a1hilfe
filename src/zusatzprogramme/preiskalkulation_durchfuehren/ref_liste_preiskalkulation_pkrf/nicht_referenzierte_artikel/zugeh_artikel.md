@@ -52,7 +52,7 @@ Artikel anderer EK-PrMat.
 
 Diese Funktion ist immer dann vorhanden, wenn es Artikel zur VK-Listenpreisgruppe mit abweichender EK-Preismatrixnummer gibt und bewirkt das Füllen des oberen Anzeige-Arrays der Maske mit den Daten den betroffenen Artikel.
 
-ACHTUNG:
+<p class="just-emphasize">ACHTUNG:</p>
 
 *Unterschiedliche Preismatrixnummern bei gleicher Listenpreisgruppe ist nicht unbedingt ein Fehler, sondern kann gewollt sein. So könnte eine Preismatrix z.B. die Preislisten P1 und P2, eine andere aber P1 und P3 enthalten. Die beiden zugehörigen Artikelgruppen „sehen“ ja nur die Preise der gleichen Listenpreisgruppe „ihrer“ jeweiligen Preismatrix. Trotzdem stehen alle 3 Preise in der Preisrelation und können folglich auch „auf einmal“ kalkuliert werden, wenn das Kalkulationsschema das hergibt.*
 

@@ -20,6 +20,6 @@ Funktion/Report: [ARSI]
 
 [Weitere Informationen](http://www.amic.de/hilfe/_artiindivnummer.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2312.22, 34570, 729122

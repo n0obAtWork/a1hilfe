@@ -6,22 +6,22 @@ Hier werden die erforderlichen Parameter zur Behandlung des Kunden in der Finanz
 
 ![Ein Bild, das Text, Screenshot, Software, Zahl enthält. KI-generierte Inhalte können fehlerhaft sein.](../../ImagesExt/image8_79.png "Ein Bild, das Text, Screenshot, Software, Zahl enthält. KI-generierte Inhalte können fehlerhaft sein.")
 
-Verbuchungsmerkmale
+<p class="just-emphasize">Verbuchungsmerkmale</p>
 
 | | Beschreibung |
 | --- | --- |
-| Forderungsgruppe<br> | Die [Forderungsgruppe](../../finanzbuchhaltung/stammdaten_der_fibu/forderungsgruppen.md), so wie sie in den Stammdaten hinterlegt wurde. In der ersten Zeile steht die Forderungsgruppe, wie sie allgemein für dieses Konto gültig ist. Sobald für dieses Konto Belege in endgültig abgeschlossen Perioden existieren ist diese Forderungsgruppe nicht mehr änderbar. Man muss dann in der Folgezeile eine neue Forderungsgruppe angeben. Dabei werden Jahr und Periode abgefragt, die angeben ab wann die neue Forderungsgruppe gültig ist.<br> <br>Der Bestimmung der Forderungsgruppe eines Personenkontos hat mit der Funktion „getForGrupNummer“ zu geschehen. Diese Funktion hat als ersten Parameter die Kontonummer. Gibt man keinen weiteren Parameter an, wird die zum Tagesdatum gültige Forderungsgruppe geliefert. Der zweite und dritte Parameter ist optional. Es sind die Jahrnummer und Periode. Folgender Aufruf liefert die Forderungsgruppe, die in der Periode 1/2015 gültig ist:<br> <br> <br>Beim Ändern der Forderungsgruppe ist immer zu beachten, dass die diesem Personenkonto zugeordneten Werte vor dem Zeitpunkt auf den „alten“ Forderungs-/Verbindlichkeitskonten bleiben. Es erfolgt keine automatische Umbuchung. Erst beim Jahreswechsel der Sachkonten werden die Umbuchungen auf den Forderungs- und Verbindlichkeitskonten durchgeführt. Dazu muss die letzte Normalperiode offen sein. Diese Mechanik kann mit dem Steuerungsparameter 968 („Forderungskonten umbuchen“) deaktiviert werden.<br> |
+| Forderungsgruppe<br> | Die [Forderungsgruppe](../../finanzbuchhaltung/stammdaten_der_fibu/forderungsgruppen.md), so wie sie in den Stammdaten hinterlegt wurde. In der ersten Zeile steht die Forderungsgruppe, wie sie allgemein für dieses Konto gültig ist. Sobald für dieses Konto Belege in endgültig abgeschlossen Perioden existieren ist diese Forderungsgruppe nicht mehr änderbar. Man muss dann in der Folgezeile eine neue Forderungsgruppe angeben. Dabei werden Jahr und Periode abgefragt, die angeben ab wann die neue Forderungsgruppe gültig ist.<br> <br>Der Bestimmung der Forderungsgruppe eines Personenkontos hat mit der Funktion „getForGrupNummer“ zu geschehen. Diese Funktion hat als ersten Parameter die Kontonummer. Gibt man keinen weiteren Parameter an, wird die zum Tagesdatum gültige Forderungsgruppe geliefert. Der zweite und dritte Parameter ist optional. Es sind die Jahrnummer und Periode. Folgender Aufruf liefert die Forderungsgruppe, die in der Periode 1/2015 gültig ist:<br> <br><pre><code>Select getForGrupNummer(10000 , 2015 , 1&#10; )</code></pre><br> <br>Beim Ändern der Forderungsgruppe ist immer zu beachten, dass die diesem Personenkonto zugeordneten Werte vor dem Zeitpunkt auf den „alten“ Forderungs-/Verbindlichkeitskonten bleiben. Es erfolgt keine automatische Umbuchung. Erst beim Jahreswechsel der Sachkonten werden die Umbuchungen auf den Forderungs- und Verbindlichkeitskonten durchgeführt. Dazu muss die letzte Normalperiode offen sein. Diese Mechanik kann mit dem Steuerungsparameter 968 („Forderungskonten umbuchen“) deaktiviert werden.<br> |
 | Erlösklasse<br> | Es besteht die Möglichkeit, die Erlöse einer bestimmten Klasse von Kunden auf speziellen Erlöskonten zu buchen (z.B. Erlöse Inland auf 8100, Erlöse Ausland auf 8200). Hier ist die Erlösklasse einzutragen. In der Erlöskennziffer Kontozuordnung **[EKZZ]** wird dann die Erlösklasse den Erlöskennziffern und Konten zugeordnet.<br> |
 | Erfassungssperre<br> | Man kann in der Belegerfassung der Finanzbuchhaltung nicht mehr auf diesen Kunden/Lieferanten zugreifen. In der Konteninformation, dem Fibuübertrag, der OP-Verwaltung und in sonstigen Anwendungen kann jedoch weiterhin auf den Kunden zugegriffen werden. Eine Weiterverarbeitung – z.B. Auszifferung oder Jahreswechsel – ist nach wie vor möglich.<br> |
 
-Merkmale des Mahnwesens
+<p class="just-emphasize">Merkmale des Mahnwesens</p>
 
 | | Beschreibung |
 | --- | --- |
 | Mahnsperre<br> | Mit **Ja** ist der Kunde für Mahnungen gesperrt. Er wird dann nicht zu den Mahnvorschlägen herangezogen, Mahnvorschläge, in denen er evtl. bereits vorhanden war, werden nicht mehr freigegeben und bereits freigegebene Mahnungen können dann nicht mehr gedruckt werden.<br> |
 | Mahngruppe<br> | Die Steuerung des automatischen Mahnwesens **(Mahnabstand, Mahntexte, etc.)** kann sich für unterschiedliche Kundengruppen unterscheiden. Man trägt hier die [Mahngruppe](../../finanzbuchhaltung/mahnwesen/mahngruppen.md) ein, die in den Stammdaten der Finanzbuchhaltung gepflegt wird.<br> |
 
-Merkmale des Zahlungsverkehrs
+<p class="just-emphasize">Merkmale des Zahlungsverkehrs</p>
 
 | | Beschreibung |
 | --- | --- |
@@ -32,11 +32,11 @@ Merkmale des Zahlungsverkehrs
 | Zahlungsart Ausgang (Kreditor)<br> | Die Standardzahlungsart, wenn an den Kreditor bezahlt wird:<br>• Scheck<br>• Datenträgeraustausch<br><br>Die Zahlungsart kann bei der Vorgangserfassung für den konkreten Vorgang überschrieben werden.<br> |
 | OP-Typ | Der OP-Typ hat drei Ausprägungen<br>• Standard hat keine Besonderheiten.<br>• OP-Raffung bei Kokoreerstellung: Bei der Erstellung des Kokores werden alle offenen Posten, die in dem Kokore aufgelistet werden, zu einem Restposten zusammengefasst. Als Auszifferungsdatum wird das Kontoblattdatum und als Belegdatum das Datum, welches bei „Bis Belegdatum“ eingegeben wurde, verwendet.<br>• Automatik bei DTA-Import gesperrt: Im Modul e-Clearing wird dieser Kunde nicht automatisch ausgeziffert.<br> |
 
-Merkmale Zinsabwicklung
+<p class="just-emphasize">Merkmale Zinsabwicklung</p>
 
 A.eins stellt ein Verfahren zur banküblichen [Verzinsung der Personenkonten](../../finanzbuchhaltung/zinswesen/stammdaten_zinswesen/zinsmerkmale_im_kundenstamm.md) zur Verfügung.
 
-Weitere Merkmale
+<p class="just-emphasize">Weitere Merkmale</p>
 
 | | Beschreibung |
 | --- | --- |

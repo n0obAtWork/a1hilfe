@@ -18,7 +18,7 @@ Das Feld „Ziel-Lagernummer“ ist nur dann sichtbar, wenn es sich bei der Quel
 
 ![](../../ImagesExt/image8_227.png)
 
-Hinweis:
+<p class="just-emphasize">Hinweis:</p>
 
 Das Lieferdatum kann aus Angeboten und Aufträgen nicht gewonnen werden. Es wird zunächst mit dem Belegdatum vorbelegt. Ist in dem Beleg jedoch ein abweichendes Lieferdatum festgelegt worden, so wird dieses für die Vorbelegung des Lieferdatums dieser Position verwendet.
 

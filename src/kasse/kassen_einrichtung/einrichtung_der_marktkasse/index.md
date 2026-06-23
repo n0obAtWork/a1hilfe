@@ -4,9 +4,8 @@
 
 Bei der Marktkasse kommen zwei neue, innovative Techniken in A.eins zum Tragen:
 
-\- Das gesamte Design erfolgt mit dem AIS-Werkzeug.
-
-\- Die Marktkasse ist mit einem berührungsempfindlichen Bildschirm bedienbar (Touch).
+- Das gesamte Design erfolgt mit dem AIS-Werkzeug.
+- Die Marktkasse ist mit einem berührungsempfindlichen Bildschirm bedienbar (Touch).
 
 Bisher wurde AIS einerseits zur Ergänzung von Standarddialogen eingesetzt(ADDON!). Anderseits können mit AIS kundeneigene Dialoge realisiert werden, in denen die Verarbeitungslogik durch ein Zusammenspiel von Datenbankfunktionen und MAKRO-Programmen implementiert wird. Bei der Marktkasse wird AIS zur kompletten Gestaltung der Optik herangezogen, die Verarbeitungslogik ist jedoch von A.eins vorgegeben. Hierbei sind einige Konventionen bezüglich der Benennung der Felder sowie deren Formatierung einzuhalten.
 

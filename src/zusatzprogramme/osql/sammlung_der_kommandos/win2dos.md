@@ -2,31 +2,31 @@
 
 <!-- source: https://amic.de/hilfe/win2dos.htm -->
 
-Syntax
+<p class="just-emphasize">Syntax</p>
 
 WIN2DOS table-name [Dateiname der Umsetztabelle];
 
-Purpose
+<p class="just-emphasize">Purpose</p>
 
 Wandelt die Umlaute der Windows Codepage in Umlaute der DOS Codepage um.
 
-Anwendung
+<p class="just-emphasize">Anwendung</p>
 
 Befehlszeile, Kommandodatei
 
-Berechtigung
+<p class="just-emphasize">Berechtigung</p>
 
 Alle Anwender
 
-Siehe auch
+<p class="just-emphasize">Siehe auch</p>
 
 [DOS2WIN](./dos2win_statement.md)
 
-Beschreibung
+<p class="just-emphasize">Beschreibung</p>
 
 Sollen Daten aus Aeins exportiert und in eine DOS basierende Fremdsoftware eingebaut werden, tritt das Problem auf, dass die Deutschen Umlaute hier unterschiedlich dargestellt werden. Dieser Befehl schnappt sich eine Relation(table-name) und nimmt sich alle Textfelder vor um dort gegebenenfalls die Umlaute umzuwandeln. Es erfolgt nur ein Update, wenn auch Umlaute in den Datensätzen vorhanden sind. Die Umsetzungstabelle (Siehe DOS2WIN) braucht nicht extra angepasst werden(darf nicht). Nach wie vor muss das DOS Zeichen an stelle 1 stehen und das Windows Zeichen an stelle 2.
 
-Beispiel
+<p class="just-emphasize">Beispiel</p>
 
 ```text
 WIN2DOS ANSCHRIFTSTAMM c:\AEINS\BIN\UMLAUT.TXT

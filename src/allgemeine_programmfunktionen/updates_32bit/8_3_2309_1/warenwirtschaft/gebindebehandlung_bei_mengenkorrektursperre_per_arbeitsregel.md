@@ -20,6 +20,6 @@ Funktion/Report: Korrektur
 
 [Weitere Informationen](http://www.amic.de/hilfe/regeleinrichtungregel.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2309.1, 33840, 723393

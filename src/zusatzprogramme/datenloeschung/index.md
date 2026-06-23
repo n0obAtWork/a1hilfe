@@ -11,7 +11,7 @@ Für dieses Programm ist eine Lizenz erforderlich.
 Hinweise: - Die betroffenen Daten werden unwiderruflich gelöscht und können auf normalen Wege nicht wiederhergestellt werden.  
  Aus diesem Grund empfiehlt es sich vor einer Löschung ein Backup von der Datenbank zu erstellen.
 
-\- Die Löschung von Daten reicht allein nicht aus, um den verbrauchten Speicherplatz einer Datenbank zu verringern.  
+- Die Löschung von Daten reicht allein nicht aus, um den verbrauchten Speicherplatz einer Datenbank zu verringern.  
 Um dies zu erreichen ist die Ent- und Beladung der Datenbank nach der Löschung notwendig.
 
 <p class="siehe-auch">Siehe auch:</p>

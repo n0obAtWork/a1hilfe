@@ -20,6 +20,6 @@ Funktion/Report: F5 Ändern -- Mengenzeiträume
 
 [Weitere Informationen](http://www.amic.de/hilfe/!_zeitrumefestlegen.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2402.4, 35765, 737982

@@ -2,139 +2,139 @@
 
 <!-- source: https://amic.de/hilfe/dotnetmodule.htm -->
 
-\-100000
+<p class="just-emphasize">\-100000</p>
 
 Nur Info
 
 Diese Meldung ist eine Mitteilung, die informellen Wert hat. Es besteht in den meisten Fällen keinerlei Notwendigkeit zur Behandlung.
 
-\-100002
+<p class="just-emphasize">\-100002</p>
 
 Unbekannter Kommandoaufruf
 
 Es ist ein Kommandoaufruf an das Startmodul gesendet worden, den das System nicht kennt. Möglicherweise ist das aufgerufene Modul nicht oder nicht korrekt installiert.
 
-\-100003
+<p class="just-emphasize">\-100003</p>
 
 Unbekannte Nachricht empfangen
 
 Es wurde über den Nachrichtenaustauschkanal von A.eins eine Nachricht unbekannten Typs empfangen. Es besteht u.U. ein Komatiblitätsproblem zwischen Komponenten der Software.
 
-\-100004
+<p class="just-emphasize">\-100004</p>
 
 Zugehöriges A.eins läuft nicht mehr
 
 Diese Nachricht ist obsolet. Sie sollte nicht mehr auftreten.
 
-\-100005
+<p class="just-emphasize">\-100005</p>
 
 Insert/Update/Delete nicht möglich
 
 Ein Insert, Update oder Delete-Befehl in der Datenbank ist fehlgeschlagen.
 
-\-100006
+<p class="just-emphasize">\-100006</p>
 
 Fehler beim Laden der AddInListe
 
 Die Liste der Elara-AddIns konnte nicht korrekt geladen werden. Unter Umständen können aufzurufende Module nicht gefunden und gestartet werden.
 
-\-100007
+<p class="just-emphasize">\-100007</p>
 
 Fehler im Methodennamen des AddIns
 
 Das AddIn, das hier aufgerufen wurde, entspricht mit seiner Methodendefinition nicht dem Standard. Es wurde eine Methode nicht oder nicht der Schnittstellendefinition entsprechend implementiert.
 
-\-100008
+<p class="just-emphasize">\-100008</p>
 
 Fehler im Namespace des AddIns
 
 Das AddIn, das hier aufgerufen wurde, entspricht mit seiner Namespacedefinition nicht der Vorgabe.
 
-\-100009
+<p class="just-emphasize">\-100009</p>
 
 Fehler beim Instanziieren einer Pipe zu A.eins
 
 Die Kommunikationsverbindung zwischen A.eins und dem DotNet-Steuermodul Elara konnte nicht instanziiert werden. Es besteht keine Verbindung zwischen den Komponenten. AddIns können nicht aufgerufen und gestartet werden.
 
-\-100050
+<p class="just-emphasize">\-100050</p>
 
 Datenbank-Verbindung nicht hergestellt oder unterbrochen
 
-\-100051
+<p class="just-emphasize">\-100051</p>
 
 Ein Insert konnte nicht durchgeführt werden
 
 Eine Datenzeile konnte nicht mit Hilfe eines Insert-Befehls in die Datenbank eingefügt werden. Die Daten wurden nicht gespeichert.
 
-\-100052
+<p class="just-emphasize">\-100052</p>
 
 Ein Select konnte nicht ausgeführt werden
 
 Eine Datenzeile konnte nicht mit Hilfe eines Select-Befehls aus der Datenbank geladen werden. Die Daten wurden nicht gelesen.
 
-\-100053
+<p class="just-emphasize">\-100053</p>
 
 Ein Update konnte nicht ausgeführt werden
 
 Eine Datenzeile konnte nicht mit Hilfe eines Update-Befehls in der Datenbank geändert werden. Die Daten wurden nicht gespeichert.
 
-\-100054
+<p class="just-emphasize">\-100054</p>
 
 Ein Delete konnte nicht ausgeführt werden
 
 Eine Datenzeile konnte nicht mit Hilfe eines Delete-Befehls in der Datenbank gelöscht werden. Die Daten wurden nicht gelöscht.
 
-\-100501
+<p class="just-emphasize">\-100501</p>
 
 Optionbox nicht gefunden
 
 Es wurde im Programmcode eine Optionbox angegeben, die jedoch zur Programmausführung nicht zur Verfügung steht. Entweder wurde eine falsche Optionbox angegeben oder die Optionbox ist zwischenzeitlich gelöscht worden.
 
-\-100602
+<p class="just-emphasize">\-100602</p>
 
 Fehler beim Versand über die Sendeprozedur
 
 Eine E-Mail konnte nicht mit Hilfe der Sendeprozedur versendet werden. Möglicherweise ist die Sendeprozedur nicht oder fehlerhaft definiert, die Prozedur enthält einen Fehler oder die Ausführung verursacht einen Fehler.
 
-\-100603
+<p class="just-emphasize">\-100603</p>
 
 Fehler beim Mailen über die .NET
 
-\-100604
+<p class="just-emphasize">\-100604</p>
 
 Fehler beim Faxen über die .NET
 
-\-100605
+<p class="just-emphasize">\-100605</p>
 
 Fehler beim Ermitteln des Empfängers
 
-\-100606
+<p class="just-emphasize">\-100606</p>
 
 Fehler beim Zusammenstellen der Anhänge
 
-\-100611
+<p class="just-emphasize">\-100611</p>
 
 Fehler beim Ermitteln der Authentifizierungsinfo im Versandprofilstamm
 
 Die Autorisierungsdaten (Username und Passwort) konnten nicht im Versandprofilstamm ermittelt werden. Der Datensatz könnte nicht zur Verfügung stehen oder gesperrt sein.
 
-\-100701
+<p class="just-emphasize">\-100701</p>
 
 Es soll ein Bereich mit dem Namen eines Systembereichs oder einer Systemspalte benannt werden
 
 In Excel können Bereiche nicht beliebig benannt werden. So sind beispielsweise die Spaltennamen (A, B, C … ZZZZ) ausgeschlossen. Bitte informieren Sie sich über die nicht zu verwendenden Bereichsnamen beim Excel-hersteller Microsoft.
 
-\-100702
+<p class="just-emphasize">\-100702</p>
 
 Ein Fehler ist beim Benennen des Bereichs aufgetreten
 
 Ein Bereich konnte nicht benannt werden. Der Bereich wird nicht unter diesem Namen angesprochen werden können.
 
-\-100703
+<p class="just-emphasize">\-100703</p>
 
 Excel meldet einen Fehler beim Refreshen der Pivot-Tabelle in Tabellenblatt
 
-\-100704
+<p class="just-emphasize">\-100704</p>
 
 Excel meldet einen Fehler beim Laden von Daten aus der Datenquelle
 
@@ -146,225 +146,225 @@ Die Daten konnten nicht geladen werden. Dafür kann es mehrere Ursachen geben:
 
 • 
 
-\-100705
+<p class="just-emphasize">\-100705</p>
 
 Fehler beim Löschen der Daten vor dem Import
 
 Vor dem Speichern eines erstellten Exports werden unnötige Daten wie die Rohdaten aus der Datei entfernt. Dies konnte aus näher definierten Gründen nicht geschehen.
 
-\-100706
+<p class="just-emphasize">\-100706</p>
 
 Fehler beim Einlesen der verfügbaren Arbeitsblätter
 
 Vor dem Speichern eines erstellten Exports wird die Liste der verfügbaren Arbeitsblätter eingelesen. Dabei ist es zu einem Problem gekommen.
 
-\-100708
+<p class="just-emphasize">\-100708</p>
 
 Fehler beim Gruppieren von Spalten
 
 Die Gruppierung von Daten in Excel konnte nicht ausgeführt werden.
 
-\-100709
+<p class="just-emphasize">\-100709</p>
 
 Fehler bei der Bearbeitung zur Rohwarenauswertung
 
-\-100710
+<p class="just-emphasize">\-100710</p>
 
 Statement für den Excel-Export enthält mehr als 32760 Zeichen
 
 Eine Abfrage von Daten darf in Excel nur 32760 Zeichen enthalten. Eine längere Abfrage, wie sie innerhalb von A.eins möglich ist, kann in Excel nicht verarbeitet werden. Die Länge der Abfrage wird vor dem Versuch die Dateien einzulesen gemessen.
 
-\-100711
+<p class="just-emphasize">\-100711</p>
 
 Fehler beim Sperren/entsperren bzw. Berechnen von Werten während des Kopiervorgangs
 
-\-100712
+<p class="just-emphasize">\-100712</p>
 
 Excel konnte nicht gestartet werden
 
-\-100721
+<p class="just-emphasize">\-100721</p>
 
 Es ist ein ODBC-Fehler aufgetreten.
 
-\-100731
+<p class="just-emphasize">\-100731</p>
 
 Die Makroliste konnte nicht ermittelt werden
 
 Vor dem Speichern eines erstellten Exports werden Makros namentlich gelesen. Dieser Lesevorgang konnte nicht ausgeführt werden. Möglicherweise liegt ein Berechtigungsproblem vor.
 
-\-100732
+<p class="just-emphasize">\-100732</p>
 
 Die Bereichsliste konnte nicht ermittelt werden
 
 Vor dem Speichern eines erstellten Exports werden Bereiche namentlich gelesen. Dieser Lesevorgang konnte nicht ausgeführt werden.
 
-\-100733
+<p class="just-emphasize">\-100733</p>
 
 Beim Starten eines Makros ist ein Fehler aufgetreten
 
 Nach dem erfolgten Excel-Export werden Makros ausgeführt. Das angegebene Makro konnte nicht ausgeführt werden. Möglicherweise liegt ein Berechtigungsproblem vor oder das Makro existiert nicht mehr.
 
-\-100750
+<p class="just-emphasize">\-100750</p>
 
 Setzen der Gruppierung / Aggregationen fehlgeschlagen
 
-\-100751
+<p class="just-emphasize">\-100751</p>
 
 Lesen der Gruppierung / Aggregationen fehlgeschlagen
 
-\-100752
+<p class="just-emphasize">\-100752</p>
 
 Die Spaltenformatierung konnte nicht gesetzt werden
 
-\-100801
+<p class="just-emphasize">\-100801</p>
 
 Die angeforderte Datenquelle ist auf dem System nicht registriert
 
-\-100802
+<p class="just-emphasize">\-100802</p>
 
 Die Datei konnte nicht gespeichert werden
 
 Eine Datei konnte nicht gespeichert werden. Entweder ist der Dateiname fehlerhaft, die Datei existiert bereits und ist gerade in Verwendung oder es besteht kein Zugriffsrecht auf den definierten Speicherplatz. Ein voller Datenträger kommt auch als Ursache in Frage.
 
-\-100803
+<p class="just-emphasize">\-100803</p>
 
 Die Datei konnte nicht geöffnet werden
 
 Die angegebene Datei konnte nicht geöffnet werden. Entweder existiert die Datei nicht, sie wurde von einem anderen Prozess exklusiv geöffnet oder es bestehen keine Berechtigungen, die Datei zu öffnen
 
-\-100804
+<p class="just-emphasize">\-100804</p>
 
 Die Datei konnte nicht gefunden werden
 
 Die angegebene Datei konnte nicht gefunden werden. Möglicherweise ist die Pfadangabe fehlerhaft oder es bestehen keine Berechtigungen für den Zugriff auf den Pfad.
 
-\-100850
+<p class="just-emphasize">\-100850</p>
 
 Der gegebene Wert ist nicht gültig
 
-\-100851
+<p class="just-emphasize">\-100851</p>
 
 Der gegebene Status ist nicht gültig
 
-\-100852
+<p class="just-emphasize">\-100852</p>
 
 Der erwartete Namespace konnte nicht gefunden werden
 
-\-100853
+<p class="just-emphasize">\-100853</p>
 
 Das erwartete Interface wurde nicht implementiert
 
-\-100854
+<p class="just-emphasize">\-100854</p>
 
 Die erwartete Methode, Eigenschaft oder Event wurde nicht gefunden
 
-\-100901
+<p class="just-emphasize">\-100901</p>
 
 Zugangsdaten konnten nicht gesetzt werden
 
-\-100902
+<p class="just-emphasize">\-100902</p>
 
 Zertifikatsfehler
 
-\-100903
+<p class="just-emphasize">\-100903</p>
 
 Fehler beim Ausführen einer Webservicemethode
 
-\-100904
+<p class="just-emphasize">\-100904</p>
 
 Fehler bei der Verbindung zu einem Webservice
 
-\-100920
+<p class="just-emphasize">\-100920</p>
 
 RPC konnte nicht aufgerufen werden
 
-\-101000
+<p class="just-emphasize">\-101000</p>
 
 Kommentar zu kurz - mindestens 10 Zeichen
 
 Der Kommentar muss mindestens 10 Zeichen lang sein. Kürzere Kommentare werden vom Webservice nicht akzeptiert.
 
-\-101001
+<p class="just-emphasize">\-101001</p>
 
 Keine Good-Guy-Liste definiert
 
-\-101002
+<p class="just-emphasize">\-101002</p>
 
 Good-Guy wurde bereits definiert
 
-\-101003
+<p class="just-emphasize">\-101003</p>
 
 Good-Guy Definition fehlgeschlagen
 
-\-101004
+<p class="just-emphasize">\-101004</p>
 
 Good-Guy Protokollierung fehlgeschlagen
 
-\-101101
+<p class="just-emphasize">\-101101</p>
 
 JVAR konnte nicht gelesen werden
 
-\-101102
+<p class="just-emphasize">\-101102</p>
 
 JVAR konnte nicht geschrieben werden
 
-\-101201
+<p class="just-emphasize">\-101201</p>
 
 Fehler beim Import einer openTrans-Datei
 
-\-101202
+<p class="just-emphasize">\-101202</p>
 
 Fehler beim Export einer openTrans-Datei
 
-\-101203
+<p class="just-emphasize">\-101203</p>
 
 Keine ISO-Bezeichnung in der Sprache vorhanden
 
-\-101204
+<p class="just-emphasize">\-101204</p>
 
 Zu-/Abschlagstyp nicht definiert
 
-\-101205
+<p class="just-emphasize">\-101205</p>
 
 fehlerhafter Wert
 
-\-101206
+<p class="just-emphasize">\-101206</p>
 
 Validierung fehlgeschlagen
 
-\-101300
+<p class="just-emphasize">\-101300</p>
 
 Fehler bei einer Interaktion mit A1Net (Allgemein)
 
-\-101301
+<p class="just-emphasize">\-101301</p>
 
 Fehler beim Aufruf eines JPP-Objekts
 
-\-101302
+<p class="just-emphasize">\-101302</p>
 
 Fehler bei der Arbeit mit JVARS
 
-\-101303
+<p class="just-emphasize">\-101303</p>
 
 Fehler beim Schreiben von JVARS
 
-\-101304
+<p class="just-emphasize">\-101304</p>
 
 Fehler biem Lesen von JVARS
 
-\-101350
+<p class="just-emphasize">\-101350</p>
 
 Bezahlterminal Kommando nicht ausführbar
 
 Das Kommando ist durch das Bezahlterminal nicht ausführbar. Möglicherweise unterstützt das Terminal diese Funktion nicht.
 
-\-101351
+<p class="just-emphasize">\-101351</p>
 
 Fehler bei der Verbindung zum Bezahlterminal
 
 Die Verbindung zum Bezahlterminal konnte nicht hergestellt werden. Prüfen Sie die Verbindungsleitung und die Konfiguration des Terminals.
 
-\-101352
+<p class="just-emphasize">\-101352</p>
 
 Fehler bei der Verarbeitung durch das Terminal (Returncode)
 

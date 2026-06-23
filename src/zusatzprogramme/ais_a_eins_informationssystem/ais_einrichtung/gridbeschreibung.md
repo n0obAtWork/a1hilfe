@@ -123,7 +123,7 @@ Die Funktionen ais_aisload, ais_makro und ais_vba setzen die JVAR AIS_V_GRIDZEIL
 
 Hier markiert man das Feld, welches die eindeutige ID enthält. Es kann immer nur ein Feld als Identfeld markiert sein.
 
-Änderbare Griddaten
+<p class="just-emphasize">Änderbare Griddaten</p>
 
 Bei Daten, die änderbar sind, sind folgende Felder (**MaxC, NumC, FixValue**) von Bedeutung. Die Relation, die hier bearbeitet werden kann, muss folgende Kriterien erfüllen:
 

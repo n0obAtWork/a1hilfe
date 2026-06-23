@@ -36,7 +36,7 @@ Hier wird der technische Anschluss eines Wägesystems abgehandelt.
 | Archiv-Referenz | Archiv Belegreferenz |
 | Waagenbild | Hier kann ein Bild hinterlegt werden, welches sich in der Kund.lib oder in der Aein5.lib befindet. Das Bild wird dann im Vorschau Fenster angezeigt. Dieses Bild ist dann auch in der Online-Waage zu sehen |
 
-Anschlussarten ( Typ )
+<p class="just-emphasize">Anschlussarten ( Typ )</p>
 
 Mögliche Anschlussarten sind:
 
@@ -62,7 +62,7 @@ Mögliche Anschlussarten sind:
 | 204 | ECOM4 |
 | 1000 | DEMO |
 
-COM-Ports
+<p class="just-emphasize">COM-Ports</p>
 
 COM1, COM2, COM3, COM4, …
 
@@ -70,29 +70,29 @@ Die wohl einschlägig bekannten COM-Ports am Host.
 
 Aeins unterstützt auch weitere, diese lassen sich dann mit Wahl „anderer“ und Eingabe im nachfolgenden Feld erreichen:
 
-UDP
+<p class="just-emphasize">UDP</p>
 
 Diesen Port wählen zum Anschluss eines Wägesystems, das über Netzwerk UDP-Protokoll mit dem Aeins-Host kommunizieren soll.
 
-JPL
+<p class="just-emphasize">JPL</p>
 
 Zur Anbindung von weiteren Speziallösungen. Dieses können neben Hersteller-DLL’n auch Infrarot- oder USB-Anschlüsse sein. Allerdings bedarf es bei Nichtvorhandensein eines passenden Waagenprofils einer individuellen Sotwareanpassung durch AMIC. 
 
-TCP
+<p class="just-emphasize">TCP</p>
 
 Anschluss einer Waage per TCPIP
 
-ECOM1, ECOM2, ECOM3, ECOM4
+<p class="just-emphasize">ECOM1, ECOM2, ECOM3, ECOM4</p>
 
 Extendet Com-Ports
 
-DEMO
+<p class="just-emphasize">DEMO</p>
 
 Dient als Entwicklerunterstützung und bei nicht Vorhandensein eines physikalischen Gegenparts als Möglichkeit, eine Waage zu simulieren.
 
-Parameter
+<p class="just-emphasize">Parameter</p>
 
-COM-Ports
+<p class="just-emphasize">COM-Ports</p>
 
 Die Verbindungsparameter zur COM-Schnittstelle, in aller Regel also so etwas ähnliches wie z.B. „“2400,E,7,1“ oder auch „9600,E,8,1“
 
@@ -108,7 +108,7 @@ Die Ermittlung dieser Daten ist ein wesentlicher Punkt beim Anschluss eine Wäge
 
 Man ermittelt diese Daten vom Hersteller der Waage, oder schaut in bestehender Fremdsoftware nach. Manchmal befinden sich diese Daten auch in Dokumentationen, oder stehen ganz einfach auf Gehäuse oder Terminal. Hin- und wieder gibt es auch Erfahrungswerte; manchmal hilft probieren…
 
-UDP
+<p class="just-emphasize">UDP</p>
 
 Konfigurieren des UDP-Anschlusses mit IP-Adresse Hostname, UDP-Port.
 
@@ -120,7 +120,7 @@ ein. ( 187 ist der Standard-UDP-Port für das Netscale-Wägesystem )
 
 Unterstützt das Netzwerk DNS, kann man selbstverständlich auch statt der IP den FQDN des Wiege-Hosts angeben.
 
-JPL
+<p class="just-emphasize">JPL</p>
 
 Hier erfolgt die Parametrisierung des jeweiligen JPL-Ports.
 
@@ -128,11 +128,11 @@ Angegeben wird der Name des jeweiligen JPL-Modules.
 
 Ein JPL-Modul muss die Phasen Init, Anforderung und Exit unterstützen.
 
-DEMO
+<p class="just-emphasize">DEMO</p>
 
 Siehe dazu die Ausführungen unter COM-Ports.
 
-Übernahme bis
+<p class="just-emphasize">Übernahme bis</p>
 
 Entscheidet, wie weit der Zusatztext fortgereicht werden soll.
 

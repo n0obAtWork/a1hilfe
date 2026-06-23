@@ -20,6 +20,6 @@ Funktion/Report: .
 
 [Weitere Informationen](http://www.amic.de/hilfe/!rohwarenbearbeitung.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2210.20, 32813, 712846

@@ -40,7 +40,7 @@ IdentAktivKont, IdentAngefKont)
 
 A.eins muss einmal verlassen und neu gestartet werden, damit dieser neue Eintrag zur Verfügung steht.
 
-Einbinden in A.eins
+<p class="just-emphasize">Einbinden in A.eins</p>
 
 Private Variante unter Private Anwendung **[PRANW]**
 
@@ -52,7 +52,7 @@ Mit Privater Option Box (P_OB )
 
 In die Option Box fügt man üblicherweise die private Funktion für Selektion (**F2**) ein.
 
-Menüpunkt einrichten
+<p class="just-emphasize">Menüpunkt einrichten</p>
 
 ![](../../ImagesExt/image8_1055.jpg)
 

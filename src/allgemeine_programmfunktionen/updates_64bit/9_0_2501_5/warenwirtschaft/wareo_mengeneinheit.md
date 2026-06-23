@@ -20,6 +20,6 @@ Funktion/Report: Partiebestände reorganisieren
 
 [Weitere Informationen](http://www.amic.de/hilfe/wareo.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2501.5, 35857, 737555

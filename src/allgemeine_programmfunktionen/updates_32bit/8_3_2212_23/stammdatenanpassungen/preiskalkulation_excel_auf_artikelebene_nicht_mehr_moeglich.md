@@ -20,6 +20,6 @@ Funktion/Report: Preiskalkulation Excel
 
 [Weitere Informationen](http://www.amic.de/hilfe/_info_preiskalkulationexcel_rhea.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2212.23, 33283, 717577

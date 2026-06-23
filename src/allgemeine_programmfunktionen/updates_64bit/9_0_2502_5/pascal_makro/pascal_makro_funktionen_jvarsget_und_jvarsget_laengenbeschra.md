@@ -20,6 +20,6 @@ Funktion/Report: Makro-Programme
 
 [Weitere Informationen](http://www.amic.de/hilfe/makroprogramme.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2502.5, 36915, 745906

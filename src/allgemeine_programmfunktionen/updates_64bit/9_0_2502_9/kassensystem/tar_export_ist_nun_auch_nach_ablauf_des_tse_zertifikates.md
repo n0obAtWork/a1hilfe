@@ -20,6 +20,6 @@ Funktion/Report: TAR-Export, Löschen / Wiederherstellen
 
 [Weitere Informationen](http://www.amic.de/hilfe/_tseauswhalliste.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2502.9, 39397, 752960

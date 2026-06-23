@@ -20,6 +20,6 @@ Funktion/Report: VNV
 
 [Weitere Informationen](http://www.amic.de/hilfe/_vorgang_nachverfolgung.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2303.31, 33862, 723328

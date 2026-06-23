@@ -4,7 +4,7 @@
 
 Auf dieser Registerkarte werden alle Marktseitigen Einstellungen vorgenommen.
 
-Bestell und Fakturiersperre per Datendrehscheibe
+<p class="just-emphasize">Bestell und Fakturiersperre per Datendrehscheibe</p>
 
 In diesem Feld kann hinterlegt werden, ob die Fakturier- oder Bestellsperre des Artikels per Einspielung von Artikeldaten einer Datendrehscheibe verändert werden darf.
 

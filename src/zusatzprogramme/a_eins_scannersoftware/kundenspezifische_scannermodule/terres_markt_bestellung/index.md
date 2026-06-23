@@ -26,7 +26,7 @@ Um eine Bestellung mit einem Scanner aufzunehmen muss wie folgt vorgegangen werd
 
 8. Einrichten des [Steuerparameters 883](../../../../firmenstamm/steuerparameter/optionen_warenwirtschaft/automatische_artikellieferanten_zuordnung_beim_vorgangsimpor.md)
 
-Ablauf
+<p class="just-emphasize">Ablauf</p>
 
 Um eine Bestellung zu starten muss als erstes der Scancode [**BSE**](./scanncodes_fuer_die_bestellung.md#BestellungStart) mit dem Scanner erfasst werden. Nach dem Starten der Bestellung besteht die Möglichkeit, der Bestellung einen Lieferanten zuzuweisen. Der Lieferant ist wie folgt einzugeben ***00+ILN Nummer des Lieferanten***. Die ILN Nummer wird im Lieferantenstamm gepflegt. Die [ILN Nummer](./scanncodes_fuer_die_bestellung.md#BestellungILNBeispiel) kann aber auch eingescannt werden, wenn diese als Scancode vorhanden ist.
 
@@ -60,7 +60,7 @@ Ist eine Bestellung zu Ende erfasst worden, so wird mit dem Scancode [**BSENDE**
 
 Wurde eine Bestellung mit [BSENDE](./scanncodes_fuer_die_bestellung.md#BesetellungEnde) nicht geschlossen, so kann an dieser Bestellung immer weiter gearbeitet werden. Dies ist auch möglich, wenn das A.eins auf dem Scanner geschlossen worden ist oder der Scanner sich abgeschaltet hat, weil z.B. die Batterie leer ist. Dies gilt nur für den Scanner mit der gleichen IP-Adresse. Es ist nicht möglich eine Bestellung mit einem anderen Scanner zu beenden.
 
-Stornieren von Falschen Eingaben
+<p class="just-emphasize">Stornieren von Falschen Eingaben</p>
 
 Es ist möglich per Storno Funktion einzelne Position zu löschen. Die Positionen werden rückwärts gelöscht. Dazu muss einmal [STORNO](./scanncodes_fuer_die_bestellung.md#BestellungStorno) gescannt werden, jetzt befindet sich der Scanner im Storno Modus. Mit dem erneuten Scannen des [Storno](./scanncodes_fuer_die_bestellung.md#BestellungStorno) Befehls wird die letzte Erfasste Position gelöscht. Wird jetzt noch einmal die Storno Funktion aufgerufen, so wird die nächste Position gelöscht usw. Mit dieser Möglichkeit kann die Komplette Bestellung storniert werden.
 
@@ -68,9 +68,9 @@ Um eine Bestellung komplett zu beenden, kann zwei Mal hintereinander [BSE](./sca
 
 Durch erneutes erfassen eines Artikels wird der Storno Modus in beiden Fällen verlassen.
 
-Einstiegspunkte in der Prozedur ScannerMarktBestellung
+<p class="just-emphasize">Einstiegspunkte in der Prozedur ScannerMarktBestellung</p>
 
-Folgende Einstiegspunkte sind realisiert worden
+<p class="just-emphasize">Folgende Einstiegspunkte sind realisiert worden</p>
 
 | Punkt | Typ | Block |
 | --- | --- | --- |

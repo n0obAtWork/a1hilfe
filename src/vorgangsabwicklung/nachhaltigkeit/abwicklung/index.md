@@ -2,13 +2,13 @@
 
 <!-- source: https://amic.de/hilfe/_nachhaltigkeit_abwicklung.htm -->
 
-Behandlung auf einem Artikelkonto
+<p class="just-emphasize">Behandlung auf einem Artikelkonto</p>
 
 - Nachhaltige und nicht nachhaltige Ware wird auf einem Artikelkonto geführt
 - Das Nachhaltigkeitskennzeichen j/n wird je Warenbewegung mitgeführt
 - Je Warenbewegung werden die individuellen (Teil-) Standardwerte geführt, wenn sie über Stammdaten bzw. individuell je Bewegung erfasst, werden
 
-Erfassungsunterstützung
+<p class="just-emphasize">Erfassungsunterstützung</p>
 
 - Ausgegangen wird davon, dass über die eingetragenen Stammdaten eine weitgehende Automatisierung durchgeführt werden kann.
 - Für den Sonderfall sind individuelle Eingaben möglich
@@ -20,23 +20,23 @@ Die Bearbeitung im Ein- und Verkauf (Funktionen ELE und LIE) erfolgt auf der Erf
 
 Bei Rohwarevorgängen erfolgt die Bearbeitung Nachhaltigkeitsangaben direkt auf der Bearbeitungsmaske entsprechend der Einstellungen der zugehörigen Rohwarenparameter.
 
-Interne Warenbewegungen
+<p class="just-emphasize">Interne Warenbewegungen</p>
 
 Lagerumbuchungen, Artikelumbuchungen und Produktionsumbuchungen werden ebenfalls über o.a. Tabreiter „Nachhaltig“ mit dem Kennzeichen versorgt. Vorbelegt werden die Umbuchungen über die Systematik „Eintragung im Mandantenstamm“ und „Artikelstamm“, also als „nachhaltig“. Nicht nachhaltige Umbuchungen sind also (wie auch oben) zu kennzeichnen.
 
-Online Waage
+<p class="just-emphasize">Online Waage</p>
 
 Bei der Erfassung über die online Waage wird immer davon ausgegangen, dass die Standardvorbelegungen ziehen. Änderungen sind im Einzelfall entsprechend der Beschreibung in Abschnitt 4 vorzunehmen.
 
-Abwicklung im Verkauf
+<p class="just-emphasize">Abwicklung im Verkauf</p>
 
 Prinzipiell kann nachhaltige und nicht nachhaltige Ware gehandelt werden. Kunden, für die die Vorbelegung „nachhaltige Ware“ aktiviert werden soll, sind also wie unter „[Kunden / Mandant](../../../kunden_und_lieferanten/kunden_und_lieferantenstamm/zertifikate.md)“ beschrieben zu behandeln.
 
-Berücksichtigung eigener Ware und Fremdware
+<p class="just-emphasize">Berücksichtigung eigener Ware und Fremdware</p>
 
 Differenzierung auf dem Artikelkonto je Warenbewegung
 
-Zuordnung und Festschreibungen von Massebilanzen
+<p class="just-emphasize">Zuordnung und Festschreibungen von Massebilanzen</p>
 
 Es können nur Bewegungen zu eine Massebilanz zugeordnet werden, wenn eine NUTS-Nummer angegeben wurde und die Massebilanz für die jeweilige Bewegung eingerichtet wurde.(Lagernummer + Artikelnummer + NUTS-Nummer). Bei fehlender Einrichtung wird versucht die Einrichtung automatisch durchzuführen. Fall die Massebilanz von einem anderen Nutzer bearbeitet wird, oder die Bewegung eine leere NUTS-Nummer hat, wird das Zuordnen abgelehnt und es werden die Fehler ins Fehlerprotokoll geschrieben. Als Beispiel, dass Massebilanznummer XX von Benutzer XY gesperrt ist, dass Beleg XYZY für Massebilanz YY nicht eingerichtet werden konnte und das Beleg ZYZX keine leere NUTS-Nummer haben soll.
 

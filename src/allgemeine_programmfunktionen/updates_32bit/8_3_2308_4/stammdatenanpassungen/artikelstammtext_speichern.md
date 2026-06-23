@@ -20,6 +20,6 @@ Funktion/Report: Textzeilen(F5)
 
 [Weitere Informationen](http://www.amic.de/hilfe/_textzeilen.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2308.4, 34019, 725583

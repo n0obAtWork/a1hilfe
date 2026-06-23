@@ -20,6 +20,6 @@ Funktion/Report: [XRE]
 
 [Weitere Informationen](http://www.amic.de/hilfe/!_!erechnung1.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2501.5, 36729, 745812

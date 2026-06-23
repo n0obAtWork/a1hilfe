@@ -20,6 +20,6 @@ Funktion/Report: [AUK]
 
 [Weitere Informationen](http://www.amic.de/hilfe/_auftrag_restmengenkorrektur.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2304.28, 33697, 721934

@@ -2,11 +2,11 @@
 
 <!-- source: https://amic.de/hilfe/prfungimvorgang.htm -->
 
-Prüfung
+<p class="just-emphasize">Prüfung</p>
 
 Während der Vorgangserfassung kann in Abhängigkeit der Einstellung im [SPA 1062 – UstId Prüfung im Vorgang](../../../firmenstamm/steuerparameter/vorgangsbearbeitung_allg/ustid_pruefung_im_vorgang_spa_1062.md) die Umsatzsteuer-Id auch asynchron im Vorgang geprüft werden.
 
-Auswertung
+<p class="just-emphasize">Auswertung</p>
 
 Die Auswertung dieser Prüfung muss wegen der Vielfältigkeit der daraus abzuleitenden Konsequenten jedoch individualisiert erfolgen.
 

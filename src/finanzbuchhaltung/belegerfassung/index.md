@@ -8,13 +8,10 @@ Direktsprung **[FIBE]**
 
 Die Belege können über diverse Wege in die Finanzbuchhaltung gelangen:
 
-\- Automatische Übergabe aus der Warenwirtschaft
-
-\- Automatische Buchung (Zahlungsbelege / Mahngebühren / …)
-
-\- Diverse Importschnittstellen
-
-\- Manuelle Erfassung in der Finanzbuchhaltung
+- Automatische Übergabe aus der Warenwirtschaft
+- Automatische Buchung (Zahlungsbelege / Mahngebühren / …)
+- Diverse Importschnittstellen
+- Manuelle Erfassung in der Finanzbuchhaltung
 
     
 Die in der Belegerfassung erfassten Belege werden sofort **vorläufig** verbucht, d.h., sie befinden sich auf den Erlös- und Aufwandskonten, den OP-Konten, etc. Der Status der Vorläufigkeit bedeutet jedoch auch, dass sie noch bearbeitet werden können (zu Ausnahmen siehe OP-Verrechnung). Erst mit dem Vorgang "Buchen" werden die Belege **endgültig** verbucht.

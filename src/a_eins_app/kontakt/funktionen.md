@@ -7,16 +7,16 @@ In der App kann man sowohl neue Personen als auch neue Firmen hinzufügen. Zudem
 <details>
 <summary>Icon Funktionen</summary>
 
-\- Telefon / Handy:  
+- Telefon / Handy:  
 Ruft die gespeicherte Rufnummer an
 
-\- Webseite:  
+- Webseite:  
 Öffnet die gespeicherte Webseite
 
-\- E-Mail:  
+- E-Mail:  
 Öffnet das standard E-Mail Programm mit der gespeicherten E-Mail als Empfänger
 
-\- Karte:  
+- Karte:  
 Öffnet eine Karte mit dem gespeicherten Standort
 
 </details>

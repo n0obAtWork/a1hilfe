@@ -14,20 +14,13 @@ Unter Hauptmenü > Informationen > Sonstiges > Compliance Statistik kann man die
 
 Um einzusehen, wo die Prozesse der Verbotslistenprüfung ausgeführt wurden, gibt es mehrere Auswahllisten (hier kann mit **F2** ein Filter für die Compliance Ergebnisse gesetzt werden):
 
-\- **[AGB]** Angebotsbearbeitung
-
-\- **[AUB]** Auftragsbearbeitung
-
-\- **[LIB]** (Variante 2: komplexe Auswahlliste) Lieferscheinbearbeitung
-
-\- **[REB]** Rechnungen
-
-\- **[BAB]** Bestellanfragen
-
-\- **[BSB]** Bestellungen
-
-\- **[ELB]** Eingangslieferscheine
-
-\- **[ERB]** Eingangsrechnungen
+- **[AGB]** Angebotsbearbeitung
+- **[AUB]** Auftragsbearbeitung
+- **[LIB]** (Variante 2: komplexe Auswahlliste) Lieferscheinbearbeitung
+- **[REB]** Rechnungen
+- **[BAB]** Bestellanfragen
+- **[BSB]** Bestellungen
+- **[ELB]** Eingangslieferscheine
+- **[ERB]** Eingangsrechnungen
 
 </details>

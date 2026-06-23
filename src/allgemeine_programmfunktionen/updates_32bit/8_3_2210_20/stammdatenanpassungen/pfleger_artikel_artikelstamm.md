@@ -20,6 +20,6 @@ Funktion/Report: SDI (F5,F6,F7,F8)
 
 [Weitere Informationen](http://www.amic.de/hilfe/_artikelar.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2210.20, 32795, 0

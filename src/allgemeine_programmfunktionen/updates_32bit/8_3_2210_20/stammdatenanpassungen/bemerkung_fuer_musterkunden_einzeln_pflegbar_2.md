@@ -20,6 +20,6 @@ Funktion/Report: -> A.eins Kunden
 
 [Weitere Informationen](http://www.amic.de/hilfe/!_endkontrolle_einspielung_kunden.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2210.20, 32844, 713518

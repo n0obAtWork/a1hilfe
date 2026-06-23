@@ -27,7 +27,7 @@ Folgende Variablen sind in allen Teilen (Kopf, Folgekopf, Fuß und Abschluss) ve
 | Bedienerkurz | Text | 3 | Kurzbezeichnung –""- |
 | Bedienername | Text | 3 | Name –""- |
 
-- 304 Positionszeile
+<p class="just-emphasize">• 304 Positionszeile</p>
 
 | Bezeichnung | Typ | Nr | Beschreibung |
 | --- | --- | --- | --- |
@@ -63,7 +63,7 @@ Folgende Variablen sind in allen Teilen (Kopf, Folgekopf, Fuß und Abschluss) ve
 | FIBuVP_AuszKennz | Numerisch | | Auszifferungskennzeichen |
 | FiBuVP_AuszDatum | Text | | Datum der Auszifferung |
 
-- 308 Gruppenkopf
+<p class="just-emphasize">• 308 Gruppenkopf</p>
 
 | Bezeichnung | Typ | Nr | Beschreibung |
 | --- | --- | --- | --- |
@@ -89,7 +89,7 @@ Folgende Variablen sind in allen Teilen (Kopf, Folgekopf, Fuß und Abschluss) ve
 | Saldo | Numerisch | | Gesamtsaldo zum Zeitpunkt des Druckes |
 | SaldoSH | Text | | Sollhabenkennzeichen zum Zeitpunkt des Druckes |
 
-- 309 Gruppenende (Summen)
+<p class="just-emphasize">• 309 Gruppenende (Summen)</p>
 
 | Bezeichnung | Typ | Nr | Beschreibung |
 | --- | --- | --- | --- |

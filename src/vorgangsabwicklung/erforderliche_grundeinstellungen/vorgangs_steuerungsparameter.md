@@ -219,9 +219,9 @@ Skontierung von Zu-/Abschlägen
 **Dieser SPA steuert die Skonti auf Zu/Abschläge**  
 **Wertemöglichkeiten:**  
 Skonti auf Zu-/Abschläge können folgendermaßen behandelt werden:  
-\- wie Ware: sie richten sich nach der Warenposition  
-\- nie: auf Zu-/Abschläge werden keine Skonti ermittelt  
-\- immer: auf Zu-/Abschläge werden immer Skonti gewährt
+- wie Ware: sie richten sich nach der Warenposition  
+- nie: auf Zu-/Abschläge werden keine Skonti ermittelt  
+- immer: auf Zu-/Abschläge werden immer Skonti gewährt
 
 Skontierung von Rabatten
 
@@ -327,9 +327,9 @@ Position gilt als "unbepreist"
 
 **Wirkungsweise:**  
 Hier wird festgelegt, wie der Parameter "unbepreist" zu interpretieren ist:  
-\- manuelle Preiseingabe  
-\- Einzelpreis 0,00  
-\- Preis o. Wert 0
+- manuelle Preiseingabe  
+- Einzelpreis 0,00  
+- Preis o. Wert 0
 
 Diese Angabe hat Konsequenzen in Auswertungen, wenn z.B. unbepreiste Positionen in Vorgängen ausgewiesen werden sollen!  
 **Wertemöglichkeiten:**

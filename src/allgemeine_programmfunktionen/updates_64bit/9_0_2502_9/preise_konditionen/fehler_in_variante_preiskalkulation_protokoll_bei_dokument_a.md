@@ -20,6 +20,6 @@ Funktion/Report: Dokument anzeigen (F11)
 
 [Weitere Informationen](http://www.amic.de/hilfe/_PreiskalkulationExcel.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2502.9, 38898, 746065

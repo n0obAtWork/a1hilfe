@@ -20,6 +20,6 @@ Funktion/Report: Korrektur per Rohware-Vorgangshelper
 
 [Weitere Informationen](http://www.amic.de/hilfe/_vorgangsmappe_auswahllisten.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2303.31, 33579, 721020

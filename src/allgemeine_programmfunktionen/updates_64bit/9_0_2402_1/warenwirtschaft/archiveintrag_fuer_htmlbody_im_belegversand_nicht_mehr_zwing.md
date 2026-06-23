@@ -20,6 +20,6 @@ Funktion/Report: Belegversand
 
 [Weitere Informationen](http://www.amic.de/hilfe/abwicklung1.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2402.1, 34908, 735345

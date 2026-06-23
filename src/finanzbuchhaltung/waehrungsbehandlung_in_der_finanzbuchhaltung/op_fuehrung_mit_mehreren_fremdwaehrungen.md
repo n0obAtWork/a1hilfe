@@ -32,7 +32,7 @@ Hier wurde zuwenig gezahlt und zwar genau 69,43 USD. Aus den zusätzlich gebilde
 
 **Hinweis:** *Es wird für jeden Beleg, der aus einer Fremdwährung in eine andere Fremdwährung umgerechnet wird, ein zusätzlicher Währungsumrechnungsbeleg gebildet. Es entsteht also kein Sammelbeleg pro Auszifferung. Der Währungsumrechnungsbeleg hat immer dieselbe Belegnummer wie der Beleg dem er zugeordnet wurde.*
 
-Welche Währung ist die Währung, in die Belege umgerechnet werden?
+<p class="just-emphasize">Welche Währung ist die Währung, in die Belege umgerechnet werden?</p>
 
 Hat man in den Stammdaten des Personenkontos eine andere Währung als die Buchwährung hinterlegt, so wird - soweit sie innerhalb der Auszifferung vorkommt - dies die Währung in die umgerechnet wird.
 

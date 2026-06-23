@@ -22,6 +22,6 @@ Funktion/Report: Archiv anzeigen
 
 [Weitere Informationen](http://www.amic.de/hilfe/anwendungformulararc.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2304.28, 33465, 720072

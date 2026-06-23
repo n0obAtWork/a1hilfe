@@ -20,6 +20,6 @@ Funktion/Report: F9 Kalkulation
 
 [Weitere Informationen](http://www.amic.de/hilfe/_bewertungspreise.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 9.0.2401.1, 34222, 741773

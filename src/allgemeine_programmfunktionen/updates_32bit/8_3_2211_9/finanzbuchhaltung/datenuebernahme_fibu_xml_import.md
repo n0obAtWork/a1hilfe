@@ -20,6 +20,6 @@ Funktion/Report: Starten
 
 [Weitere Informationen](http://www.amic.de/hilfe/datenbernahmeschnittstelle.htm)
 
-Tags:
+<p class="just-emphasize">Tags:</p>
 
 Releasenote, 8.3.2211.9, 32965, 715354
