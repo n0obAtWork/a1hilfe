@@ -6,13 +6,10 @@ Generell wird davon ausgegangen, dass ausschließlich über Artikelkonten gebuch
 
 In den Stammdaten hinterlegt sind verschiedene Suchkriterien, anhand derer ein Artikel gefunden werden kann; dies sind z.B.
 
-• Artikelnummer
-
-• Artikelmatchcode(s)
-
-• Strichcodenummer(n)
-
-• Artikelbezeichnung
+- Artikelnummer
+- Artikelmatchcode(s)
+- Strichcodenummer(n)
+- Artikelbezeichnung
 
 <p class="just-emphasize">Am Beispiel der Artikelnummer ergibt sich folgender Ablauf:</p>
 
@@ -86,13 +83,10 @@ Rechts im Erfassungsbildschirm befindet sich ein Informationsfenster, das Inform
 
 Die Geschäftsvorfälle Voreinkauf und Kommission sind dem Verkaufsbereich zugeordnet während der Voreinkauf und die Einlagerung dem Bereich Einkauf angesiedelt sind. Sie bestehen in der Regel immer aus den Phasen Geschäftseinleitung und Geschäftsabwicklung:
 
-• Vorverkauf und Vorverkaufsabholung
-
-• Voreinkauf und Anlieferung Voreinkauf
-
-• Einlagerung und Einlagerungsabholung (auch Vereinnahmung der Einlagerung)
-
-• Kommission und Kommissionsverkauf
+- Vorverkauf und Vorverkaufsabholung
+- Voreinkauf und Anlieferung Voreinkauf
+- Einlagerung und Einlagerungsabholung (auch Vereinnahmung der Einlagerung)
+- Kommission und Kommissionsverkauf
 
 Die bisher realisierten Geschäftsvorfälle Voreinkauf und Vorverkauf wurden stets durch eine erzwungene Kontraktbuchführung begleitet. Diese Kontrakte registrieren den Saldo aus Zugängen und Abgängen eines Fremdware- / Fremdlagergeschäfts. Mit Ausnahme der Einlagerung, die stets ohne Kontrakte verwaltet wird, werden im Standard auch weiterhin die Vorfälle durch Kontrakte begleitet. Man kann sie jedoch optional abschalten. Bei Vorverkäufen und Voreinkäufen mit abweichenden Lägern bei der Abholung / Anlieferung muss jedoch die Kontraktführung beibehalten werden, wenn der Lagerausgleich durch automatische erzeugte interne Umbuchungen eingerichtet ist!
 
@@ -150,9 +144,8 @@ Beim Vorverkauf, Voreinkauf und bei Kommission (nicht bei Einlagerung, sie erfol
 
 Beispiel: Ein Kunde hat einen längerfristig angelegten Verkaufskontrakt über einen bestimmten Artikel. Er entscheidet sich, von diesem Artikel eine größere Menge abzunehmen, da er über genügen Barreserven verfügt. Er hat aber nicht die Lagerkapazitäten, muss also die Ware portionsweise abholen. Dieser Fall wird durch einen Vorkauf mit Ansprache des Verkaufskontraktes abgehandelt:
 
-• Der ‚normale‘ Verkaufskontrakt wird abgebucht.
-
-• Der Vorverkaufskontrakt wird angelegt.
+- Der ‚normale‘ Verkaufskontrakt wird abgebucht.
+- Der Vorverkaufskontrakt wird angelegt.
 
 Die analoge Konstellation ist auch für den Voreinkauf denkbar.
 

@@ -6,19 +6,17 @@ Die Import-Funktionalität steht selbstverständlich als JPP-Objekt zur Verfügu
 
 JPP-Objekt:
 
-• JFA_Import
+- JFA_Import
 
 Methode:
 
-• Free_Import
+- Free_Import
 
 Parameter:
 
-• fai_id die Ident(!) des Imports , zwingend erforderlich
-
-• fai_pfad optionale Überschreibung des Import-Pfades
-
-• receiver optionale Angabe Mail-Empfänger (notwendiger Spezialfall)
+- fai_id die Ident(!) des Imports , zwingend erforderlich
+- fai_pfad optionale Überschreibung des Import-Pfades
+- receiver optionale Angabe Mail-Empfänger (notwendiger Spezialfall)
 
 Damit ist es insbesondere skriptfähig und steht intern allen Anwender-Sprachen JPL, VBA und Makro zur Verfügung, extern findet es ohne weitere Verwendung über das A.eins-COM-Objekt.
 

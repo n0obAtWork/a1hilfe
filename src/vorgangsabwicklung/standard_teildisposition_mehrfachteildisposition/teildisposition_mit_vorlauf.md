@@ -6,15 +6,11 @@ Eine besondere Art der Teildisposition ist die „Teildisposition mit Vorlauf“
 
 ***•*** Angebotsbearbeitung **[AGB]**, Funktion ***Teildisposition Auftrag***
 
-• Angebotsbearbeitung **[AGB]**, Funktion ***Teildisposition Lieferschein***
-
-• Auftragsbearbeitung **[AUB]**, Funktion ***Teildisposition Lieferschein***
-
-• Auftragsbearbeitung **[BSB]**, Funktion ***Teildispo in Eingangslieferschein***
-
-• Auftragsbearbeitung **[BSB]**, Funktion ***Teildispo in Eingangsrechnung***
-
-• Auftragsbearbeitung **[BSB]**, Funktion ***Teildispo in Ladeschein***
+- Angebotsbearbeitung **[AGB]**, Funktion ***Teildisposition Lieferschein***
+- Auftragsbearbeitung **[AUB]**, Funktion ***Teildisposition Lieferschein***
+- Auftragsbearbeitung **[BSB]**, Funktion ***Teildispo in Eingangslieferschein***
+- Auftragsbearbeitung **[BSB]**, Funktion ***Teildispo in Eingangsrechnung***
+- Auftragsbearbeitung **[BSB]**, Funktion ***Teildispo in Ladeschein***
 
 ***•*** Auftragsbearbeitung **[LIB]**, Funktion ***Teildisposition Rechnung***
 

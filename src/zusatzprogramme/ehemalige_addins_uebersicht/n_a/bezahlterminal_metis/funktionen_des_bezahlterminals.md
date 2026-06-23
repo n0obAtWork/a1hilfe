@@ -24,9 +24,8 @@ Für die Abwicklung der Zahlung ist auf Händlerseite eine sog. Händlerkarte no
 
 GiroGo ist im Prinzip eine Erweiterung der oben erwähnten Geldkarte. Das Bezahlen funktioniert technisch genau wie bei EC-Kartenzahlungen, jedoch gibt es einige Besonderheiten:
 
-• Ist der Zahlbetrag über 20 €, so wird die Zahlung wie gewohnt mit PIN autorisiert.
-
-• Ist der Zahlbetrag kleiner oder gleich 20 €, so wird angeboten die Karte einzustecken oder vor das Gerät zu halten.
+- Ist der Zahlbetrag über 20 €, so wird die Zahlung wie gewohnt mit PIN autorisiert.
+- Ist der Zahlbetrag kleiner oder gleich 20 €, so wird angeboten die Karte einzustecken oder vor das Gerät zu halten.
 
 Wird die Karte vor das Gerät gehalten und der Zahlbetrag ist als Guthaben auf der Karte, so wird dieser abgebucht.
 
@@ -56,13 +55,10 @@ Die Umkehrung einer Zahlung ist die Gutschrift. Hier kann dem Kunden ein Betrag 
 
 Für die Stornierung eines Beleges sind zwei Voraussetzungen notwendig:
 
-• Der Kassenabschluss darf noch nicht durchgeführt worden sein.
-
-• Die Belegnummer des zu stornierenden Beleges muss vorliegen.
-
-• Die Karte, mit der der Betrag autorisiert wurde muss vorliegen
-
-• Die Bezahlung darf nicht mit der Geldkartenfunktion oder GiroGo erfolgt sein.
+- Der Kassenabschluss darf noch nicht durchgeführt worden sein.
+- Die Belegnummer des zu stornierenden Beleges muss vorliegen.
+- Die Karte, mit der der Betrag autorisiert wurde muss vorliegen
+- Die Bezahlung darf nicht mit der Geldkartenfunktion oder GiroGo erfolgt sein.
 
 Nach Abschluss des Stornos wird der betreffende Beleg beim Kassenabschluss nicht übertragen und es erfolgt keine Buchung des Beleges.
 

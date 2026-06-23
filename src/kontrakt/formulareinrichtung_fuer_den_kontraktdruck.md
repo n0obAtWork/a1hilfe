@@ -4,19 +4,13 @@
 
 Folgende Formulartypen sind derzeit innerhalb der Kontraktverwaltung vorgesehen:
 
-• Kontrakt (auch Kontraktbestätigung genannt)
-
-• Kontrakt-Erledigungsschreiben
-
-• Kontrakt-Stornobeleg
-
-• Kontrakt-Erinnerung (oder -mahnung)
-
-• Andienung
-
-• Freistellung
-
-• Andienung und Freistellung zugleich
+- Kontrakt (auch Kontraktbestätigung genannt)
+- Kontrakt-Erledigungsschreiben
+- Kontrakt-Stornobeleg
+- Kontrakt-Erinnerung (oder -mahnung)
+- Andienung
+- Freistellung
+- Andienung und Freistellung zugleich
 
 Momentan sind lediglich der Kontraktdruck, -erledigung und -storno implementiert.
 
@@ -28,79 +22,45 @@ Da die optische Gestaltung eines Kontraktes nicht, wie bei einem Vorgang, durch 
 
 Innerhalb einer Kontrakt-Variante können folgende Bereiche aktiviert werden:
 
-• Artikelposition (nur Artikeldaten mit Folgetextzeilen)
-
-• Artikel mit Mengenzeilen (je Artikel über alle Zeiträume)
-
-• Artikel mit Preiszeilen (je Artikel über alle Zeiträume)
-
-• Artikel mit Mengen- und Preiszeilen (jeweils je Artikel über alle Zeiträume)
-
-• Abnahme- oder Mengenzeitraum (nur Gesamtmenge)
-
-• Abnahmezeitraum mit Artikelzeilen (je Zeitraum über alle Artikel)
-
-• Bepreisungszeitraum (nur Zeitraumgrenzen)
-
-• Bepreisungszeitraum mit Artikelzeilen (je Zeitraum über alle Artikel)
-
-• Abnahmekunden (nur bei Gruppenkontrakten sinnvoll)
-
-• Paritätsdaten
-
-• Zu-/Abschläge (noch nicht implementiert)
-
-• Kontraktpartien (noch nicht implementiert)
-
-• Bewegungszeile (z. B. für Erledigungsschreiben)
-
-• Festtext (Textbaustein)
-
-• Zahlungsbedingungen
-
-• Leerzeile
+- Artikelposition (nur Artikeldaten mit Folgetextzeilen)
+- Artikel mit Mengenzeilen (je Artikel über alle Zeiträume)
+- Artikel mit Preiszeilen (je Artikel über alle Zeiträume)
+- Artikel mit Mengen- und Preiszeilen (jeweils je Artikel über alle Zeiträume)
+- Abnahme- oder Mengenzeitraum (nur Gesamtmenge)
+- Abnahmezeitraum mit Artikelzeilen (je Zeitraum über alle Artikel)
+- Bepreisungszeitraum (nur Zeitraumgrenzen)
+- Bepreisungszeitraum mit Artikelzeilen (je Zeitraum über alle Artikel)
+- Abnahmekunden (nur bei Gruppenkontrakten sinnvoll)
+- Paritätsdaten
+- Zu-/Abschläge (noch nicht implementiert)
+- Kontraktpartien (noch nicht implementiert)
+- Bewegungszeile (z. B. für Erledigungsschreiben)
+- Festtext (Textbaustein)
+- Zahlungsbedingungen
+- Leerzeile
 
 Folgende Formularbereiche (Direktsprung **[FRMB]**) können in der Formulareinrichtung berücksichtigt werden:
 
-• Kontrakt-Kopf
-
-• Kontrakt-Kopf für Folgeseiten
-
-• Kontrakt-Fuß
-
-• Kontrakt-Abschluss
-
-• Artikelposition
-
-• Artikel-Folgetextzeile
-
-• Artikel-Zeitraummenge
-
-• Artikel-Zeitraumpreis
-
-• Abnahme- oder Mengenzeitraum
-
-• Abnahmezeitraum-Artikelmenge
-
-• Bepreisungszeitraum
-
-• Bepreisungszeitraum-Artikelpreis
-
-• Kontrakt-Abnahmekunden (nur bei Gruppenkontrakten sinnvoll)
-
-• Kontrakt-Paritätsdaten
-
-• Kontrakt-Zu-/Abschläge (noch nicht implementiert)
-
-• Kontrakt-Textzeile (Textbaustein)
-
-• Kontrakt-Bereichsüberschrift
-
-• Kontrakt-Zahlungsbedingung
-
-• Kontrakt-Leerzeile
-
-• Druckabbruch-Hinweis
+- Kontrakt-Kopf
+- Kontrakt-Kopf für Folgeseiten
+- Kontrakt-Fuß
+- Kontrakt-Abschluss
+- Artikelposition
+- Artikel-Folgetextzeile
+- Artikel-Zeitraummenge
+- Artikel-Zeitraumpreis
+- Abnahme- oder Mengenzeitraum
+- Abnahmezeitraum-Artikelmenge
+- Bepreisungszeitraum
+- Bepreisungszeitraum-Artikelpreis
+- Kontrakt-Abnahmekunden (nur bei Gruppenkontrakten sinnvoll)
+- Kontrakt-Paritätsdaten
+- Kontrakt-Zu-/Abschläge (noch nicht implementiert)
+- Kontrakt-Textzeile (Textbaustein)
+- Kontrakt-Bereichsüberschrift
+- Kontrakt-Zahlungsbedingung
+- Kontrakt-Leerzeile
+- Druckabbruch-Hinweis
 
 Achtung: Damit ein Kontrakt-Kopf für Folgeseiten gedruckt werden kann, muss ein Kontrakt-Fuß eingerichtet werden.
 

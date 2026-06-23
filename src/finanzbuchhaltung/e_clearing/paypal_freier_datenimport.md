@@ -64,11 +64,9 @@ Ab einer Anzahl von mehr als 100.000 Zeilen teilt PayPal seine Kontoauszüge in 
 
 Unter dem Menü „Datei laden“ wird die entsprechende private Funktion aufgerufen und anschließend die zu importierende Datei ausgewählt. Vor dem Einspielen werden folgende Sachverhalte geprüft:
 
-• Optional: Stimmt der Anfangssaldo plus aller Bewegungen mit dem Endsaldo überein? Diese Überprüfung kann in den Optionen aktiviert/deaktiviert werden (siehe [Zahlungsdienstleister](./optionen.md#Zahlungdienstleister)).
-
-• Wurde die Auszugsnummer bereits importiert. Nur wenn das Feld „DTADiskAusZug“ von der Datenbankprozedur geliefert wird.
-
-• Ist die Währung Euro? Dieser Test findet nur statt, wenn die Währungsnummer von der Datenbankprozedur geliefert wird.
+- Optional: Stimmt der Anfangssaldo plus aller Bewegungen mit dem Endsaldo überein? Diese Überprüfung kann in den Optionen aktiviert/deaktiviert werden (siehe [Zahlungsdienstleister](./optionen.md#Zahlungdienstleister)).
+- Wurde die Auszugsnummer bereits importiert. Nur wenn das Feld „DTADiskAusZug“ von der Datenbankprozedur geliefert wird.
+- Ist die Währung Euro? Dieser Test findet nur statt, wenn die Währungsnummer von der Datenbankprozedur geliefert wird.
 
 </details>
 

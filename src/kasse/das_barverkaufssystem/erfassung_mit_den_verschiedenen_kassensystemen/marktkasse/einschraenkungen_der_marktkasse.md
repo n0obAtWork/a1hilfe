@@ -32,10 +32,10 @@ Partien
 
 Partien werden in der Standardeinstellung in der Marktkasse im Gegensatz zur allgemeinen Belegererfassung nicht zugeordnet.
 
-• Partien können gemäß Behandlungsschema bei einem Kundenwechsel zugeordnet werden, jedoch wird nach einem Kundenwechsel für nachfolgend erfasste Positionen keine Partiezuordnung vorgenommen.
+- Partien können gemäß Behandlungsschema bei einem Kundenwechsel zugeordnet werden, jedoch wird nach einem Kundenwechsel für nachfolgend erfasste Positionen keine Partiezuordnung vorgenommen.
 
 Kontrakte
 
 Kontrakte sind an Kunden gebundene Vereinbarungen über Artikelmengen und deren Preise. Während der Erfassung in der Marktkasse werden Kontrakte in der Standard-Einstellung nicht berücksichtigt.
 
-• Kontrakte können gemäß Behandlungsschema bei einem Kundenwechsel zugeordnet werden, jedoch wird nach einem Kundenwechsel für nachfolgend erfasste Positionen keine Kontraktzuordnung vorgenommen.
+- Kontrakte können gemäß Behandlungsschema bei einem Kundenwechsel zugeordnet werden, jedoch wird nach einem Kundenwechsel für nachfolgend erfasste Positionen keine Kontraktzuordnung vorgenommen.

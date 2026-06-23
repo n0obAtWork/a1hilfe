@@ -6,15 +6,11 @@ In den Auswahllisten folgenden Auswahllisten steht bei entsprechender [Lizenzein
 
 **•** Rechnung **[REB]**
 
-• Gutschrift **[GUB]**
-
-• Eingangsrechnung **[ERB]**
-
-• Eingangsgutschrift **[EGB]**
-
-• Rohwarenbelege **[RWB]**
-
-• Rohwarenverkaufsbelege **[RWBV]**
+- Gutschrift **[GUB]**
+- Eingangsrechnung **[ERB]**
+- Eingangsgutschrift **[EGB]**
+- Rohwarenbelege **[RWB]**
+- Rohwarenverkaufsbelege **[RWBV]**
 
 <p class="siehe-auch">Siehe auch:</p>
 

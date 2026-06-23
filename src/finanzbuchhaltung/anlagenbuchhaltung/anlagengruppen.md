@@ -14,24 +14,15 @@ Die Anlagengruppen können zur Eingrenzung und Sortierung in den Auswahllisten v
 
 Gleichzeitig dienen die Anlagengruppen als Eingabehilfe. Man kann jeder Anlagengruppe folgende Kriterien zuordnen:
 
-• Standort
-
-• Abschreibungsart
-
-• AfA-Satz
-
-• Nutzungsdauer
-
-• Schrottwert
-
-• Anlagekonto
-
-• AfA-Konto
-
-• [Kostenstelle](../kostenrechnung/kostenstellen.md)
-
-• [Kostenträger](../kostenrechnung/kostentraeger.md)
-
-• [Kostenobjekt](../kostenrechnung/kostenobjekte/index.md)
+- Standort
+- Abschreibungsart
+- AfA-Satz
+- Nutzungsdauer
+- Schrottwert
+- Anlagekonto
+- AfA-Konto
+- [Kostenstelle](../kostenrechnung/kostenstellen.md)
+- [Kostenträger](../kostenrechnung/kostentraeger.md)
+- [Kostenobjekt](../kostenrechnung/kostenobjekte/index.md)
 
 Wählt man dann bei der Neuerfassung von Anlagegütern eine Gruppe aus, werden die hier hinterlegten Werte als Vorbelegung herangezogen.

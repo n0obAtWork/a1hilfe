@@ -62,14 +62,9 @@ Den Text der Hauptposition kann im [Mahnstamm](./mahnstamm.md) im Feld Buchungst
 
 Vor dem Erstellen der Belege werden noch einige Tests durchgeführt:
 
-• Ist ein gültiger Steuersatz hinterlegt? Im Fehlerfall wird ein Hinweis auf die fehlende Schlüsselkombination ausgegeben.
-
-• Ist das Steuerkonto in diesem Steuersatz hinterlegt? Im Fehlerfall wird ein Hinweis auf die fehlende Schlüsselkombination ausgegeben.
-
-• Wenn Zinsen angefallen sind, so muss für auch eine Zinsgruppe hinterlegt sein. Die Stammdaten für Mahnungen ( im [Mahnsatz](./mahnsaetze.md) ) müssen daraufhin überprüft werden.
-
-• Ist die eingetragene Zinsgruppe nicht vorhanden oder ist dort kein Konto eingetragen, wird eine entsprechende Meldung ausgegeben. Diese Zinsgruppe ist dann zu überprüfen.
-
-• Ist für diese Mahngruppe ein Mahnsatz eingetragen?
-
-• Ist das Konto im Mahnsatz eingetragen? Die Stammdaten zur angezeigten Schlüsselkombination müssen überprüft werden.
+- Ist ein gültiger Steuersatz hinterlegt? Im Fehlerfall wird ein Hinweis auf die fehlende Schlüsselkombination ausgegeben.
+- Ist das Steuerkonto in diesem Steuersatz hinterlegt? Im Fehlerfall wird ein Hinweis auf die fehlende Schlüsselkombination ausgegeben.
+- Wenn Zinsen angefallen sind, so muss für auch eine Zinsgruppe hinterlegt sein. Die Stammdaten für Mahnungen ( im [Mahnsatz](./mahnsaetze.md) ) müssen daraufhin überprüft werden.
+- Ist die eingetragene Zinsgruppe nicht vorhanden oder ist dort kein Konto eingetragen, wird eine entsprechende Meldung ausgegeben. Diese Zinsgruppe ist dann zu überprüfen.
+- Ist für diese Mahngruppe ein Mahnsatz eingetragen?
+- Ist das Konto im Mahnsatz eingetragen? Die Stammdaten zur angezeigten Schlüsselkombination müssen überprüft werden.

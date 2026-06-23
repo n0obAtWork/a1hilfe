@@ -6,13 +6,10 @@ In der Historischen Tabelle, die von den Listen „Aktionärsübersicht“, „G
 
 Folgende Einstellungen können in dieser Maske per Einrichterparameter vorgenommen werden:
 
-• **Verhalten bei Überschreitung der ausgegebenen Aktienanzahl**
-
-o FEHLER – Falls eine Transaktion der Art „Start“ erfasst wird, durch die die ausgegebene Aktienanzahl überschritten wird, so erfolgt eine Fehlermeldung und die Transaktion kann nicht gespeichert werden.
-
-o WARNUNG – Hier erfolgt im obigen Falle eine Warnmeldung. Die Transaktion kann aber nach Bestätigung der Nachfrage gespeichert werden.
-
-o IGNORIEREN – Die Transaktion kann gespeichert werden.
+- **Verhalten bei Überschreitung der ausgegebenen Aktienanzahl**
+  - FEHLER – Falls eine Transaktion der Art „Start“ erfasst wird, durch die die ausgegebene Aktienanzahl überschritten wird, so erfolgt eine Fehlermeldung und die Transaktion kann nicht gespeichert werden.
+  - WARNUNG – Hier erfolgt im obigen Falle eine Warnmeldung. Die Transaktion kann aber nach Bestätigung der Nachfrage gespeichert werden.
+  - IGNORIEREN – Die Transaktion kann gespeichert werden.
 
 ![](../../ImagesExt/image8_1009.jpg)
 

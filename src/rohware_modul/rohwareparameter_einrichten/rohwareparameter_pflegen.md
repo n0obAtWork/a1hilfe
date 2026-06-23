@@ -24,16 +24,16 @@ Soll eine Rohwarengruppe oder ein Abrechnungsschema aus der Liste mit speziellen
 
 Die Änderbarkeit der Parameterwerte auf der Maske wird durch den Erfassungsparameter (EPA) ‚***Parameterwerte auf Hauptmaske***‘ mit folgenden Einstellungen festgelegt:
 
-• **Nur per Gültigkeitsaufruf erlaubt  
+- **Nur per Gültigkeitsaufruf erlaubt  
 **Der Parameterwerte können nur durch Aufruf der Funktion ‚***Gültigkeiten***‘ zum aktuell fokussierten Maskenfeld vorgenommen werden. Hier wird eine Liste mit allen Gültigkeiten und zugehörigen Werten dargestellt und kann bearbeitet werden.
 
-• **Mit Tagesdatum als Gültigkeitsbeginn  
+- **Mit Tagesdatum als Gültigkeitsbeginn  
 **Bei dieser Einstellung können die Werte des Parameters direkt auf der Maske geändert werden, es wird jedoch, sofern die Gültigkeit des zu ändernden Wertes nicht mit dem aktuellen Tagesdatum beginnt, ein neuer Gültigkeitssatz zum aktuellen Datum mit dem neuen Wert erzeugt.
 
-• **immer erlaubt**Diese Einstellung bewirkt, dass ein Ändern eines Wertes auf der Hauptmaske die Gültigkeit des ursprünglichen Wertes erhält.
+- **immer erlaubt**Diese Einstellung bewirkt, dass ein Ändern eines Wertes auf der Hauptmaske die Gültigkeit des ursprünglichen Wertes erhält.
 
-Werte mit Gültigkeitsbeginn ‚01.01.1901‘ können grundsätzlich nicht geändert werden, da diese die Grundeinstellungen des A.eins-Systems beinhalten.
+  Werte mit Gültigkeitsbeginn ‚01.01.1901‘ können grundsätzlich nicht geändert werden, da diese die Grundeinstellungen des A.eins-Systems beinhalten.
 
-Änderungen des Erfassungsparameters werden erst nach Verlassen und erneutem Aufruf der Maske wirksam.
+  Änderungen des Erfassungsparameters werden erst nach Verlassen und erneutem Aufruf der Maske wirksam.
 
-**Zu beachten:** Alle Änderungen zu einem Rohwareparameter werden erst bei beenden der Bearbeitung für den aktuellen Parameter gespeichert, also beim Blättern, Ausführen der Funktion ‚***Speichern***‘ oder beim Verlassen der Maske. Im Falle des Verlassens der Maske mit ‚**ESC**‘ erscheint bei vorhergehenden Wertänderungen eine Abfrage, ob die Daten gespeichert werden sollen. An dieser Stelle besteht die Möglichkeit, die Änderungen zu diesem Parameter durch die Anwahl von ‚***Nein***‘ zu verwerfen.
+  **Zu beachten:** Alle Änderungen zu einem Rohwareparameter werden erst bei beenden der Bearbeitung für den aktuellen Parameter gespeichert, also beim Blättern, Ausführen der Funktion ‚***Speichern***‘ oder beim Verlassen der Maske. Im Falle des Verlassens der Maske mit ‚**ESC**‘ erscheint bei vorhergehenden Wertänderungen eine Abfrage, ob die Daten gespeichert werden sollen. An dieser Stelle besteht die Möglichkeit, die Änderungen zu diesem Parameter durch die Anwahl von ‚***Nein***‘ zu verwerfen.

@@ -10,17 +10,14 @@ Man kann eine Prüffunktion direkt an eine Auswahlliste hängen. Dies ermöglich
 
 Vorteile: 
 
-• einfache Anbindung
-
-• schnelle Konsistenzprüfung (bei jedem Refresh der Auswahlliste)
+- einfache Anbindung
+- schnelle Konsistenzprüfung (bei jedem Refresh der Auswahlliste)
 
 Workflow:
 
-• Warnsymbol erscheint im Hintergrund.
-
-• Fehler erkennen und beheben.
-
-• Danach verschwindet das Warnsymbol mit dem nächsten Aktualisieren der Auswahlliste.
+- Warnsymbol erscheint im Hintergrund.
+- Fehler erkennen und beheben.
+- Danach verschwindet das Warnsymbol mit dem nächsten Aktualisieren der Auswahlliste.
 
 Beispiel:
 
@@ -32,37 +29,26 @@ Im Gegensatz zu der einstufigen Version hat man hier die Möglichkeit ein Verhal
 
 Vorteile: 
 
-• zeitgesteuerte Abfrage
-
-• Formulierung des Fehlers und ein Hinweis wie dieser behoben werden kann.
-
-• Verlauf wird im Fehlerprotokoll dokumentiert
-
-• Hinweis kann abgestellt werden, ohne Daten zu ändern
+- zeitgesteuerte Abfrage
+- Formulierung des Fehlers und ein Hinweis wie dieser behoben werden kann.
+- Verlauf wird im Fehlerprotokoll dokumentiert
+- Hinweis kann abgestellt werden, ohne Daten zu ändern
 
 Workflow:
 
-• Warnsymbol erscheint im Hintergrund.
-
-• Direktsprung [**FEHLH**].
-
-• Abarbeitung der angezeigten Meldungen.
-
-• Meldung auf „erledigt“ setzen.
-
-• Mit „ESC“ zurück zur ursprünglichen Auswahlliste.
-
-• Danach verschwindet das Warnsymbol mit dem nächsten aktualisieren der Auswahlliste.
+- Warnsymbol erscheint im Hintergrund.
+- Direktsprung [**FEHLH**].
+- Abarbeitung der angezeigten Meldungen.
+- Meldung auf „erledigt“ setzen.
+- Mit „ESC“ zurück zur ursprünglichen Auswahlliste.
+- Danach verschwindet das Warnsymbol mit dem nächsten aktualisieren der Auswahlliste.
 
 Einrichtung:
 
-• Eintragen der Funktion „AuswahllisteWarnungEvent“ bzw. eine Ableitung in einem Event **[EVT]**.
-
-o Hierin werden die Zuständigkeit und das Aussehen der Fehlermeldung definiert.
-
-• Eintragen der Funktion „AuswahllisteWarnung“ bzw. eine Ableitung in die Auswahlliste, in der das Symbol für den zuständigen Mitarbeiter erscheinen soll.
-
-o Der FehlProtBereich sollte als Identifikator genutzt werden, um eine Verbindung zwischen Fehlerprotokolleintrag und Auswahlliste zu schaffen.
+- Eintragen der Funktion „AuswahllisteWarnungEvent“ bzw. eine Ableitung in einem Event **[EVT]**.
+  - Hierin werden die Zuständigkeit und das Aussehen der Fehlermeldung definiert.
+- Eintragen der Funktion „AuswahllisteWarnung“ bzw. eine Ableitung in die Auswahlliste, in der das Symbol für den zuständigen Mitarbeiter erscheinen soll.
+  - Der FehlProtBereich sollte als Identifikator genutzt werden, um eine Verbindung zwischen Fehlerprotokolleintrag und Auswahlliste zu schaffen.
 
 Beispiel:
 

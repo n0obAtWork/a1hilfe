@@ -8,13 +8,10 @@ In der Finanzbuchhaltung ist es oft notwendig zusätzlich Informationen – z.B.
 
 Die Informationen werden über ein Formular vom Typ 240 „Fibu-Bildschirm-Konteninfo“ zusammengestellt. Zu diesem Formular existieren vier Bereiche:
 
-• 625 Bildschirm-Personenkonten
-
-• 626 Bildschirm-Bilanzkonten
-
-• 627 Bildschirm-GuV-Konten
-
-• 628 Bildschirm-Oberkonten
+- 625 Bildschirm-Personenkonten
+- 626 Bildschirm-Bilanzkonten
+- 627 Bildschirm-GuV-Konten
+- 628 Bildschirm-Oberkonten
 
 Es kann also pro Kontotyp eine andere Darstellung der Information hinterlegt werden. Von AMIC wird eine Standardeinrichtung mit der Formularnummer -99 ausgeliefert.
 

@@ -6,9 +6,8 @@ Hauptmenü > Abschlussarbeiten > Umsatzsteuer > Abzugsfähige Vorsteuer
 
 Ein Vorsteuerabzug ist dann möglich, wenn entweder
 
-• eine Rechnung vorliegt und die Leistung empfangen worden ist oder
-
-• eine Rechnung vorliegt und die Zahlung bereits erfolgt ist.
+- eine Rechnung vorliegt und die Leistung empfangen worden ist oder
+- eine Rechnung vorliegt und die Zahlung bereits erfolgt ist.
 
 Für den Vorsteuerabzug ist also in jedem Fall der Eingang der Rechnung zwingend erforderlich, was wiederum bedeutet, dass die Vorsteuer erst der Periode zugeordnet werden darf, in der die Rechnung vorliegt.
 
@@ -20,9 +19,8 @@ Vor dem Erstellen einer Umsatzsteuervoranmeldung sind folgende Punkte zu beachte
 
 In der Anwendung „Abzugsfähige Vorsteuer“ werden alle Belege aufsummiert, bei denen sich die Periode des Eingangsdatums hinter der Periode des Belegs liegt. In dieser Anwendung sind folgende Varianten vorhanden:
 
-• Variante „Nach Kennziffer Steuer“: Die Steuer wird nach der Kennziffer auf dem Umsatzsteueranmeldeformular gruppiert.
-
-• Variante „Nach Klasse/Schlüssel/Gruppe“: Die Steuer wird nach den Steuersätzen gruppiert.
+- Variante „Nach Kennziffer Steuer“: Die Steuer wird nach der Kennziffer auf dem Umsatzsteueranmeldeformular gruppiert.
+- Variante „Nach Klasse/Schlüssel/Gruppe“: Die Steuer wird nach den Steuersätzen gruppiert.
 
 In beiden Varianten kann man sich mithilfe der Funktion ***Einzelbelege*** **F6** die entsprechenden Belege ansehen.
 

@@ -43,10 +43,8 @@ Grundlegend können alle gelb markierten Felder gepflegt werden. Das Verhalten b
 
 Zudem können Excel-spezifische Funktionen auf den Individualpreisen ausgeführt werden:
 
-• Das **Duplizieren** einer Zeile legt einen neuen Individualpreis an. Wichtig ist, dass das Feld **Ab Menge** angepasst wird, da sonst der existierende Preis für die Menge von der untersten Zeile überschrieben wird.
-
-• Das **Einfügen** einer Zeile kann auch einen neuen Individualpreis anlegen. Die Feldwerte müssen nur entsprechend gesetzt werden.
-
-• Das **Löschen** einer Zeile löscht nicht den Individualpreis. Um einen Individualpreis zu löschen, muss das Feld **Löschen** auf „Ja“ gesetzt werden.
+- Das **Duplizieren** einer Zeile legt einen neuen Individualpreis an. Wichtig ist, dass das Feld **Ab Menge** angepasst wird, da sonst der existierende Preis für die Menge von der untersten Zeile überschrieben wird.
+- Das **Einfügen** einer Zeile kann auch einen neuen Individualpreis anlegen. Die Feldwerte müssen nur entsprechend gesetzt werden.
+- Das **Löschen** einer Zeile löscht nicht den Individualpreis. Um einen Individualpreis zu löschen, muss das Feld **Löschen** auf „Ja“ gesetzt werden.
 
 Abschließend kann die Excel-Datei gespeichert und geschlossen werden. Die neuen Individualpreise können nun im nächsten Schritt importiert werden.

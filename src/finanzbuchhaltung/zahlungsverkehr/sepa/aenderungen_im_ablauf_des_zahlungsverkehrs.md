@@ -17,15 +17,11 @@ SCL_&lt;BIC>&lt;Zusatz>&lt;JJJJMMTT>&lt;Lfd.Nr>
 
 Dabei ist:
 
-• „SCL_“ eine 4-stellige alphanumerisch Konstante
-
-• &lt;BIC> der 8-stellige alphanumerische Live-BankIdenitfierCode der Kommunikationsstelle des Teilnehmers
-
-• &lt;Zusatz> 3-stelliger alphanumerischer Branch-Code. Ergibt zusammen mit der BIC den im Bankenstamm eingetragenen Swift-Code.
-
-• JJJJMMTT 8-stelliges numerisches Erstellungsdatum der Datei (Geschäftstag)
-
-• Lfd.Nr. 6 stellige laufende Datei-Nr.
+- „SCL_“ eine 4-stellige alphanumerisch Konstante
+- &lt;BIC> der 8-stellige alphanumerische Live-BankIdenitfierCode der Kommunikationsstelle des Teilnehmers
+- &lt;Zusatz> 3-stelliger alphanumerischer Branch-Code. Ergibt zusammen mit der BIC den im Bankenstamm eingetragenen Swift-Code.
+- JJJJMMTT 8-stelliges numerisches Erstellungsdatum der Datei (Geschäftstag)
+- Lfd.Nr. 6 stellige laufende Datei-Nr.
 
 Der Dateiname muss geschäftstäglich eindeutig sein. Beispiel eines Dateinamens:
 

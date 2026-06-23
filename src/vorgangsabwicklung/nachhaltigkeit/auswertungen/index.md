@@ -6,11 +6,9 @@ Hauptmenü > Wareneinkauf > Nachhaltigkeit
 
 Mit den Funktionen
 
-• Mengenbilanz nachhaltig gruppiert
-
-• Massebilanz(Kompakt)
-
-• Massebilanz(Details)
+- Mengenbilanz nachhaltig gruppiert
+- Massebilanz(Kompakt)
+- Massebilanz(Details)
 
 können CRW-Reports generiert werden.
 

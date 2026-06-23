@@ -4,9 +4,8 @@
 
 Für die Zahlung mit Gutschein kann die Abfrage folgender Zusatzinformationen notwendig sein:
 
-• Gutscheinnummer
-
-• Bemerkungen
+- Gutscheinnummer
+- Bemerkungen
 
 Welches der Felder abgefragt werden soll, kann im Einrichterparameter (EPA) definiert werden.
 

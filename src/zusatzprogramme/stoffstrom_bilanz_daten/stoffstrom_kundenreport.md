@@ -7,23 +7,20 @@ Die Darstellung der Einzelzeilen (Belegpositionen) im Report kann unterdrückt w
 
 Der Report enthält pro Kunde
 
-• die Anschrift des Kunden
-
-• die einzelnen Einkaufspositionen mit  
+- die Anschrift des Kunden
+- die einzelnen Einkaufspositionen mit  
 Lieferdatum, Lieferscheinnummer, Rechnungsnummer, Artikelbezeichnung,  
 die Menge der Position und für jede Stoffstromart des Artikels die Stoffstrommenge  
 sowie den Stoffstromanteil
 
-• eine Zusammenfassung nach Ware und Stoffart im Einkauf
-
-• die einzelnen Verkaufspositionen mit  
+- eine Zusammenfassung nach Ware und Stoffart im Einkauf
+- die einzelnen Verkaufspositionen mit  
 Lieferdatum, Lieferscheinnummer, Rechnungsnummer, Artikelbezeichnung,  
 die Menge der Position und für jede Stoffstromart des Artikels die Stoffstrommenge  
 sowie den Stoffstromanteil
 
-• eine Zusammenfassung nach Ware und Stoffart im Verkauf
-
-• eine Zusammenfassung nach Stoffart mit jeweils  
+- eine Zusammenfassung nach Ware und Stoffart im Verkauf
+- eine Zusammenfassung nach Stoffart mit jeweils  
 Gesamtstoffstrommenge im Einkauf, im Verkauf und der saldierten Stoffstrommenge
 
 Im Archiv der einzelnen Kunden wird der jeweils den Kunden betreffende Teilreport archiviert.

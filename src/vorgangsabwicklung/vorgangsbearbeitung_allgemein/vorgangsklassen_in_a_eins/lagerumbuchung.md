@@ -4,21 +4,14 @@
 
 Lagerumbuchungen werden unter dem Direktsprung [LGU] verwaltet. Sie werden als Vorgänge gespeichert. A.eins stellt folgende Bearbeitungsfunktionen zur Verfügung:
 
-• Erfassen F 8 Erfassung einer neuen Lagerumbuchung
-
-• Erstdruck F9 Erstdruck einer Lagerumbuchung.
-
-• Formulardruck F10 Wiederholungsdruck
-
-• Korrektur F5 Korrektur einer Lagerumbuchung
-
-• Vorschau F11 Druckvorschau
-
-• Stornieren F7 Stornieren (Löschen) der Lagerumbuchung
-
-• Freigabe/Sperren Freigabe / Sperren für weitere Bearbeitung
-
-• FiBu Übertrag Übergabe an die Finanzbuchhaltung
+- Erfassen F 8 Erfassung einer neuen Lagerumbuchung
+- Erstdruck F9 Erstdruck einer Lagerumbuchung.
+- Formulardruck F10 Wiederholungsdruck
+- Korrektur F5 Korrektur einer Lagerumbuchung
+- Vorschau F11 Druckvorschau
+- Stornieren F7 Stornieren (Löschen) der Lagerumbuchung
+- Freigabe/Sperren Freigabe / Sperren für weitere Bearbeitung
+- FiBu Übertrag Übergabe an die Finanzbuchhaltung
 
 Lagerumbuchungen können in drei verschiedenen Buchungstypen erfasst werden.
 

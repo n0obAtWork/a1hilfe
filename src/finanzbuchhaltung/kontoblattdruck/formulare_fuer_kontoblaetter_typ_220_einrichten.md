@@ -8,65 +8,36 @@ Direktsprung **[FRM]**
 
 Es existieren zu diesem Typ folgende Formularbereiche:
 
-• 182 Steuersummendruck Kopf für den Einkauf
-
-• 183 Steuersummendetails für den Einkauf
-
-• 184 Steuersummen Fuß für den Einkauf
-
-• 185 Steuersummendruck Kopf für den Verkauf
-
-• 186 Steuersummendetails für den Verkauf
-
-• 187 Steuersummen Fuß für den Verkauf
-
-• 195 Kontrakt-Restmengen-Hinweis Kontenblatt Zeilentyp
-
-• 196 Kontrakt-Hinweis-Überschrift Kontenblatt Zeilentyp
-
-• 197 Warenbewegungs-Hinweiszeile Zeilentyp
-
-• 198 Warenbewegungs-Summenzeile Zeilentyp
-
-• 199 Warenbewegungs-Überschrift Zeilentyp
-
-• 600 Kopf Buchungsjournal/Kontoblatt Formkopf
-
-• 601 Kopf Buchungsjournal/Kontoblatt(Folgekopf) Folgekopf
-
-• 602 Hauptzeile Buchungsjournal/Kontoblatt Zeilentyp
-
-• 603 Gegenzeile Buchungsjournal Zeilentyp
-
-• 605 Textzeile Buchungsjournal/Kontoblatt Zeilentyp
-
-• 606 Bjournal/Kontoblatt Belegartensummen Zeilentyp
-
-• 607 Buchungsjournal Ford/Verb.-Summen Zeilentyp
-
-• 608 Bjournal/Kontoblatt Steuersummen Zeilentyp
-
-• 609 Fuß Buchungsjournal/Kontoblatt Abschluss
-
-• 610 Fuß Bjournal/Koblatt Zwischenabschluss Fuß
-
-• 612 BJ Summenzeile Einzelbewegungen Zeilentyp
-
-• 616 BJ Belegsummen Einleitung Zeilentyp
-
-• 617 BJ Fordersummen Einleitung Zeilentyp
-
-• 618 BJ Steuersummen Einleitung Zeilentyp
-
-• 619 Artikel-Folgetextzeile Kontenblatt Zeilentyp
-
-• 620 Finanzbewegung-Summenzeile Zeilentyp
-
-• 621 Finanzbewegung-Überschrift Zeilentyp
-
-• 622 Finanzbewegung EK-Warebeleg
-
-• 623 Finanzbewegung VK-Warebeleg
+- 182 Steuersummendruck Kopf für den Einkauf
+- 183 Steuersummendetails für den Einkauf
+- 184 Steuersummen Fuß für den Einkauf
+- 185 Steuersummendruck Kopf für den Verkauf
+- 186 Steuersummendetails für den Verkauf
+- 187 Steuersummen Fuß für den Verkauf
+- 195 Kontrakt-Restmengen-Hinweis Kontenblatt Zeilentyp
+- 196 Kontrakt-Hinweis-Überschrift Kontenblatt Zeilentyp
+- 197 Warenbewegungs-Hinweiszeile Zeilentyp
+- 198 Warenbewegungs-Summenzeile Zeilentyp
+- 199 Warenbewegungs-Überschrift Zeilentyp
+- 600 Kopf Buchungsjournal/Kontoblatt Formkopf
+- 601 Kopf Buchungsjournal/Kontoblatt(Folgekopf) Folgekopf
+- 602 Hauptzeile Buchungsjournal/Kontoblatt Zeilentyp
+- 603 Gegenzeile Buchungsjournal Zeilentyp
+- 605 Textzeile Buchungsjournal/Kontoblatt Zeilentyp
+- 606 Bjournal/Kontoblatt Belegartensummen Zeilentyp
+- 607 Buchungsjournal Ford/Verb.-Summen Zeilentyp
+- 608 Bjournal/Kontoblatt Steuersummen Zeilentyp
+- 609 Fuß Buchungsjournal/Kontoblatt Abschluss
+- 610 Fuß Bjournal/Koblatt Zwischenabschluss Fuß
+- 612 BJ Summenzeile Einzelbewegungen Zeilentyp
+- 616 BJ Belegsummen Einleitung Zeilentyp
+- 617 BJ Fordersummen Einleitung Zeilentyp
+- 618 BJ Steuersummen Einleitung Zeilentyp
+- 619 Artikel-Folgetextzeile Kontenblatt Zeilentyp
+- 620 Finanzbewegung-Summenzeile Zeilentyp
+- 621 Finanzbewegung-Überschrift Zeilentyp
+- 622 Finanzbewegung EK-Warebeleg
+- 623 Finanzbewegung VK-Warebeleg
 
 Variablen in Kopf und Fußzeile
 

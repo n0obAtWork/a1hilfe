@@ -6,10 +6,7 @@ Muss ein Ladeträger aus welchem Grund auch immer an einen anderen Ort gelagert 
 
 **Empfohlener Arbeitsablauf Scanner:**
 
-• Scan der NVE
-
-o Anzeige der NVE-Info
-
-• Scan der neuen Lokalität
-
-o Erzeugen einer Ladeträgerbewegung im VIMP
+- Scan der NVE
+  - Anzeige der NVE-Info
+- Scan der neuen Lokalität
+  - Erzeugen einer Ladeträgerbewegung im VIMP

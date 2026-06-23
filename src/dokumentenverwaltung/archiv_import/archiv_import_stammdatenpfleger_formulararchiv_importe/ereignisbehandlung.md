@@ -76,9 +76,8 @@ end if
 
 Das Script demonstriert
 
-• die Verwendung der Ereignisse.
-
-• Wie man die Aufbereitung der Referenz-Nummer einfach nutzen kann
+- die Verwendung der Ereignisse.
+- Wie man die Aufbereitung der Referenz-Nummer einfach nutzen kann
 
 Bemerkenswert ist das Kommando Aeins.QuitApp( zahl ), wobei eine Zahl ungleich 0 dem Import-Skript signalisiert das der Import zu beenden ist bzw. nicht durchgeführt werden soll.
 

@@ -218,11 +218,9 @@ Auf der Registerkarte „Kopiervorlagen“ lassen sich Vorlagen zum Kopieren ein
 
 Drei weitere Grids geben die Möglichkeit zur Eingabe von
 
-• Zu kopierenden Feldern der aktuellen Kopierfunktion
-
-• Zu kopierende UFLD-Felder, die in beiden Grids zur Verfügung stehen
-
-• Zu kopierende AddOn-Felder, die in beiden Grids zur Verfügung stehen
+- Zu kopierenden Feldern der aktuellen Kopierfunktion
+- Zu kopierende UFLD-Felder, die in beiden Grids zur Verfügung stehen
+- Zu kopierende AddOn-Felder, die in beiden Grids zur Verfügung stehen
 
 <p class="just-emphasize">Registerkarte Benutzerfelder ![](../../../ImagesExt/image8_1357.png)</p>
 

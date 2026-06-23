@@ -8,17 +8,12 @@ oder Direktsprung **[EKZZ]**
 
 Hier erfolgt die Verknüpfung der Elemente
 
-• Erlöskennziffer
-
-• Gültigkeit der Eintragungen
-
-• Steuerschlüssel
-
-• Erlösklasse
-
-• Steuergruppe
-
-• Buchungsklasse
+- Erlöskennziffer
+- Gültigkeit der Eintragungen
+- Steuerschlüssel
+- Erlösklasse
+- Steuergruppe
+- Buchungsklasse
 
 mit den Konten der Finanzbuchhaltung. Hier kann man die Bearbeitung wie bei der normalen Stammdatenpflege Datensatz für Datensatz vornehmen oder aber ganze Gruppen von Datensätzen gleichzeitig ändern. Für die gleichzeitige Bearbeitung der Datensätze kann man unter „gültig ab“ in den Feldern Steuerschlüssel, Erlösklasse bzw. Steuergruppe einen Haken setzen.
 

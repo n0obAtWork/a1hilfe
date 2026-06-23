@@ -44,6 +44,5 @@ EndPartieVerteilung(): integer;
 
 Erst der erfolgreiche Aufruf dieser Funktion (Ergebnis = 1) setzt die Zuordnung in die Warenposition und überschreibt komplett die bis dahin bestehende Partiezuordnung. Es werden geprüft:
 
-• die Vollständigkeit der Mengenangaben (0 oder Gesamtmenge des Artikels)
-
-• Restbestandsüberprüfung laut FRZ-Einstellung.
+- die Vollständigkeit der Mengenangaben (0 oder Gesamtmenge des Artikels)
+- Restbestandsüberprüfung laut FRZ-Einstellung.

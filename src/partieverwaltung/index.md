@@ -6,13 +6,10 @@ Hauptmenü > Partieverwaltung
 
 Das Modul Partie in A.eins ermöglicht eine Nebenbuchhaltung innerhalb der Warenwirtschaft mit folgenden Leistungsmerkmalen:
 
-• Anlegen eines Partiestammes (Partienummer) unter Festlegung von Sollzahlen (Menge und Wert) im WE und WV, sowie Hinterlegung von Partiepreisen für die Partieartikel.
-
-• Die Partie kann während der Vorgangserfassung bequem per Partieauswahlfenster angesprochen oder auch angelegt werden.
-
-• Führen von IST-Zahlen (Mengen und Werte) im WE und WV, sowie Ermittlung des Partiebestandes und des Partierohertrages.
-
-• Eine Rückverfolgbarkeit der Ware wird ermöglicht (Einkauf über Produktion zum Verkauf).
+- Anlegen eines Partiestammes (Partienummer) unter Festlegung von Sollzahlen (Menge und Wert) im WE und WV, sowie Hinterlegung von Partiepreisen für die Partieartikel.
+- Die Partie kann während der Vorgangserfassung bequem per Partieauswahlfenster angesprochen oder auch angelegt werden.
+- Führen von IST-Zahlen (Mengen und Werte) im WE und WV, sowie Ermittlung des Partiebestandes und des Partierohertrages.
+- Eine Rückverfolgbarkeit der Ware wird ermöglicht (Einkauf über Produktion zum Verkauf).
 
 Die Partieverwaltung der Saatgutabwicklung und Rohwarenabwicklung wird hier nicht näher beschrieben, diese werden in einer gesonderten Beschreibung behandelt.
 

@@ -8,9 +8,8 @@ Dabei sind nicht immer alle der im Folgenden benannten Felder sichtbar bzw. notw
 
 <p class="just-emphasize">Spalte</p>
 
-• System gibt an, dass es sich um eine vom Entwickler vorgegebene Spalte handelt, die vom Anwender nicht editiert werden kann.
-
-• Anwender gibt an, dass es sich um eine vom Anwender definierte und editierbare Spaltendefinition handelt.
+- System gibt an, dass es sich um eine vom Entwickler vorgegebene Spalte handelt, die vom Anwender nicht editiert werden kann.
+- Anwender gibt an, dass es sich um eine vom Anwender definierte und editierbare Spaltendefinition handelt.
 
 <p class="just-emphasize">Überschrift</p>
 
@@ -181,20 +180,16 @@ Der Eintrag in diese Liste mit der „eigenen“ Framenummer, also der Framenumm
 
 Angegeben werden also
 
-• Die Framenummer
-
-• Die Knotenprozedur
-
-• Die Zielknotenbeschreibung
+- Die Framenummer
+- Die Knotenprozedur
+- Die Zielknotenbeschreibung
 
 <p class="just-emphasize">Knotenprozedur</p>
 
 Die hier eingetragene Prozedur wird in 3 Szenarien aufgerufen:
 
-• Wird ein Element dieses Levels angeklickt, so soll in dem Zielframe eine Anzeige stattfinden. So zum Beispiel eine Liste der bereits bestehenden Bestellungen dieses Artikels oder der Lieferanten, die diesen Artikel liefern. Die Daten werden mit Hilfe dieser Prozedur ermittelt. (Datenprozedur)
-
-• Beim Ablegen (droppen) auf diesem Element wird die Prozedur zur Speicherung der Daten aufgerufen. (Speicherprozedur)
-
-• Beim Ändern eines Wertes im Blatt wird die Änderungsinformation zum Speichern an diese Prozedur übergeben. (Speicherprozedur)
+- Wird ein Element dieses Levels angeklickt, so soll in dem Zielframe eine Anzeige stattfinden. So zum Beispiel eine Liste der bereits bestehenden Bestellungen dieses Artikels oder der Lieferanten, die diesen Artikel liefern. Die Daten werden mit Hilfe dieser Prozedur ermittelt. (Datenprozedur)
+- Beim Ablegen (droppen) auf diesem Element wird die Prozedur zur Speicherung der Daten aufgerufen. (Speicherprozedur)
+- Beim Ändern eines Wertes im Blatt wird die Änderungsinformation zum Speichern an diese Prozedur übergeben. (Speicherprozedur)
 
 Diese Information muss in einem sichtbaren Element (Knoten oder Blatt) hinterlegt sein. Einträge in Zeilen des gleichen Levels werden nicht berücksichtigt.

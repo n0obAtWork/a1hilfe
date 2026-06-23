@@ -35,9 +35,8 @@ Zuordnung einer Gruppe als eigenständiger Pfleger
 
 Zu beachten ist hier, dass die Masken AEZADDON bzw. AEZADDOND sowie die Masken AEZADDONT1 bis AEZADDONT22 als eigenständige Pflegemaske für das A.eins Informationssystem entwickelt wurden. Voraussetzungen sind:
 
-• Die Anwendung, aus der der Pfleger aufgerufen wird, muss heißen wie die zu pflegende Relation
-
-• Die zu pflegende Relation muss ein Identfeld haben, das vom Typ Integer ist und „IDENT“ heißt.  
+- Die Anwendung, aus der der Pfleger aufgerufen wird, muss heißen wie die zu pflegende Relation
+- Die zu pflegende Relation muss ein Identfeld haben, das vom Typ Integer ist und „IDENT“ heißt.  
     
 
 ![](../../ImagesExt/image8_1042.png)

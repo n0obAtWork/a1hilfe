@@ -12,26 +12,22 @@ Um mit Kostenstellen zu arbeiten, gibt es folgende Vorbedingungen bzw. Einstellu
 
 2. Die Kostenstellen müssen eingerichtet sein. Hierzu gibt es zwei Stammdatenpfleger
 
-• Kostenstellen (ohne Verteilung)
+- Kostenstellen (ohne Verteilung)
+- Verteilkostenstellen (mit Verteilung)
 
-• Verteilkostenstellen (mit Verteilung)
+  3. Im [Sachkontenrahmen](../stammdaten_der_fibu/sachkonten.md) Direktsprung **[SKS]** muss bei den in Frage kommenden Aufwandskonten im Feld „Sperre Kostenstelle“ aus folgenden Möglichkeiten gewählt werden
 
-3. Im [Sachkontenrahmen](../stammdaten_der_fibu/sachkonten.md) Direktsprung **[SKS]** muss bei den in Frage kommenden Aufwandskonten im Feld „Sperre Kostenstelle“ aus folgenden Möglichkeiten gewählt werden
+- **Gesperrt**: Es wird keine Kostenstelle abgefragt
+- **Kann**: Es kann eine Kostenstelle eingeben werden, muss aber nicht
+- **Muss**: Es muss eine Kostenstelle eingegeben werden
+- **Fest**: Es muss die im Sachkontenstamm festgelegte Kostenstelle verwendet werden
 
-• **Gesperrt**: Es wird keine Kostenstelle abgefragt
+  Im Feld Kostenstelle kann hier die Nummer einer Kostenstelle eingegeben werden, die dann bei der Belegerfassung automatisch vorgeschlagen wird.
 
-• **Kann**: Es kann eine Kostenstelle eingeben werden, muss aber nicht
-
-• **Muss**: Es muss eine Kostenstelle eingegeben werden
-
-• **Fest**: Es muss die im Sachkontenstamm festgelegte Kostenstelle verwendet werden
-
-Im Feld Kostenstelle kann hier die Nummer einer Kostenstelle eingegeben werden, die dann bei der Belegerfassung automatisch vorgeschlagen wird.
-
-4. Damit auch Rechnungen aus der Warenwirtschaft beim Fibu-Übertrag automatisch in die Kostenstellenrechnung eingetragen werden können ist es nötig, [Kostenstellengruppen](./kostenstellengruppe.md) zu definieren, in denen die Kostenstellen des Artikels für Einkauf und Verkauf angegeben werden können.  
+  4. Damit auch Rechnungen aus der Warenwirtschaft beim Fibu-Übertrag automatisch in die Kostenstellenrechnung eingetragen werden können ist es nötig, [Kostenstellengruppen](./kostenstellengruppe.md) zu definieren, in denen die Kostenstellen des Artikels für Einkauf und Verkauf angegeben werden können.  
 Diese werden dann im Artikel über die Funktion ***Kostenst./Statistik/Abteil*** gepflegt, und wenn dann der Artikel im Vorgang angesprochen wird, wird die jeweilige Kostenstelle bebucht.
 
-5. Im Mandantenstamm sollte eine Fehlerkostenstelle eingerichtet werden. Diese Kostenstelle wird herangezogen, wenn zu GuV-Konten keine Kostenstelle hinterlegt ist und die „Sperre Kostenstelle“ des angesprochenen Kontos nicht auf Gesperrt oder Fest seht.
+  5. Im Mandantenstamm sollte eine Fehlerkostenstelle eingerichtet werden. Diese Kostenstelle wird herangezogen, wenn zu GuV-Konten keine Kostenstelle hinterlegt ist und die „Sperre Kostenstelle“ des angesprochenen Kontos nicht auf Gesperrt oder Fest seht.
 
 Erfassung der Kostenstellen
 
@@ -53,31 +49,24 @@ Wenn Kostenstellen gelöscht werden, werden sie nicht sofort physikalisch gelös
 
 Bevor eine Kostenstelle jedoch als gelöscht gekennzeichnet werden kann, wird vorher getestet, ob sie noch verwendet wird.
 
-• Wird die Kostenstelle noch als Vorbelegung für die Belegerfassung im Sachkontenstamm verwendet?
-
-• Ist sie als Kostenstelle für die automatischen Buchungen der Mahngebühren/Zinsen im Mahnsatz hinterlegt?
-
-• Ist sie als Fehlerkostenstelle im Mandantenstamm hinterlegt?
-
-• Wird sie in der Tabelle ARTIKOSTSTGRUPPE verwendet?
-
-• Wird sie als Kostenstelle für die automatischen Buchungen der Zinsrechnung in den Zinsgruppen verwendet?
-
-• Wird sie als Kostenstellenvorbelegung in den Wechselkosten verwendet?
-
-• Ist diese Kostenstelle einer Verteilkostenstelle zugeordnet? Bei dieser Prüfung wird unterschieden, ob die Verteilkostenstelle bereits gelöscht worden ist oder nicht. Bei gelöschten Verteilkostenstellen erfolgt ein Hinweis darauf mit einer Abfrage, ob  
+- Wird die Kostenstelle noch als Vorbelegung für die Belegerfassung im Sachkontenstamm verwendet?
+- Ist sie als Kostenstelle für die automatischen Buchungen der Mahngebühren/Zinsen im Mahnsatz hinterlegt?
+- Ist sie als Fehlerkostenstelle im Mandantenstamm hinterlegt?
+- Wird sie in der Tabelle ARTIKOSTSTGRUPPE verwendet?
+- Wird sie als Kostenstelle für die automatischen Buchungen der Zinsrechnung in den Zinsgruppen verwendet?
+- Wird sie als Kostenstellenvorbelegung in den Wechselkosten verwendet?
+- Ist diese Kostenstelle einer Verteilkostenstelle zugeordnet? Bei dieser Prüfung wird unterschieden, ob die Verteilkostenstelle bereits gelöscht worden ist oder nicht. Bei gelöschten Verteilkostenstellen erfolgt ein Hinweis darauf mit einer Abfrage, ob  
 tatsächlich gelöscht werden soll. Bei Verwendung in nicht gelöschten Verteilkostenstellen wird das Löschen nicht durchgeführt.
 
-• Wird diese Kostenstelle in den Periodischen Buchungen hinterlegt?
-
-• Bei Kostenstellen, die bereits bebucht wurden, erfolgt ein Hinweis mit Abfrage, ob tatsächlich gelöscht werden soll.
+- Wird diese Kostenstelle in den Periodischen Buchungen hinterlegt?
+- Bei Kostenstellen, die bereits bebucht wurden, erfolgt ein Hinweis mit Abfrage, ob tatsächlich gelöscht werden soll.
 
 Wurden diese Tests durchlaufen, wird die Kostenstelle als gelöschte Kostenstelle gekennzeichnet. Alle so gekennzeichneten Kostenstellen finden sich in der Variante „Gelöschte...“ wieder. Dort stehen dann – nachdem man eine Kostenstelle markiert hat – zwei Funktionen zur Verfügung.
 
-• ***Wiederherstellen*  
+- ***Wiederherstellen*  
 **Hier öffnet sich dann die Maske mit den Daten der Kostenstelle und nach erneutem **F7** wird die Kostenstelle wieder als nicht gelöscht gekennzeichnet.
 
-• ***endgültig löschen*  
+- ***endgültig löschen*  
 **Die Kostenstelle wird ohne weitere Prüfung physikalisch gelöscht. Bei bereits bebuchten Kostenstellen führt dies auch dazu, dass sie nicht mehr auf Auswertungen erscheinen.
 
 Erfassung der Planzahlen
@@ -94,12 +83,9 @@ Planzahlen für Kostenstellen müssen pro Jahr, Periode und Konto erfasst werden
 
 Neben der manuellen Erfassung stehen noch zusätzliche Funktionen zur Verfügung:
 
-• Vorjahresplandaten: Die zu dieser Kostenstelle und diesem Konto im Vorjahr erfassten Werte werden automatisch in die Soll und Habenspalte übernommen.
-
-• Plandaten aus 1.Periode: Die Werte, die in Periode 1 eingetragen wurden, werden in alle anderen Perioden übernommen.
-
-• Löschen Plandaten: Alle Werte dieser Kostenträger/Jahr/Kontonummern-Kombination werden auf 0.0 gesetzt.
-
-• Übernahme Plandaten: Es öffnet sich eine weiter Maske, in der der Bereich abgefragt wird, aus dem die Planzahlen übernommen werden sollen:
+- Vorjahresplandaten: Die zu dieser Kostenstelle und diesem Konto im Vorjahr erfassten Werte werden automatisch in die Soll und Habenspalte übernommen.
+- Plandaten aus 1.Periode: Die Werte, die in Periode 1 eingetragen wurden, werden in alle anderen Perioden übernommen.
+- Löschen Plandaten: Alle Werte dieser Kostenträger/Jahr/Kontonummern-Kombination werden auf 0.0 gesetzt.
+- Übernahme Plandaten: Es öffnet sich eine weiter Maske, in der der Bereich abgefragt wird, aus dem die Planzahlen übernommen werden sollen:
 
 ![Ein Bild, das Text, Screenshot, Display, Schrift enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_682.png "Ein Bild, das Text, Screenshot, Display, Schrift enthält. Automatisch generierte Beschreibung")

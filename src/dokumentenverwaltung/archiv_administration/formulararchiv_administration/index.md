@@ -8,13 +8,10 @@ Direktsprung **[FAAD]**
 
 Folgende Punkte sind besonders hervorzuheben:
 
-• Diese Variante dient der allgemeinen Archiv-Recherche und bietet u.a. Zugang auf den technischen Schlüssel des Formulararchivs ID (***fa_id***), der bei bestimmten Fragestellungen im technischen Umfeld des Archives sehr oft von Interesse ist.
-
-• Weiterhin steht in dieser Anwendung/Variante das Löschen von Archiv-Einträgen zur Verfügung.
-
-• Gibt es in dieser Anwendung/Variante keine Abgrenzung durch das Bedienerklassen-Sichtschutz-Konzept.
-
-• Stehen diverse Im- und Export-Funktionen zur Verfügung.
+- Diese Variante dient der allgemeinen Archiv-Recherche und bietet u.a. Zugang auf den technischen Schlüssel des Formulararchivs ID (***fa_id***), der bei bestimmten Fragestellungen im technischen Umfeld des Archives sehr oft von Interesse ist.
+- Weiterhin steht in dieser Anwendung/Variante das Löschen von Archiv-Einträgen zur Verfügung.
+- Gibt es in dieser Anwendung/Variante keine Abgrenzung durch das Bedienerklassen-Sichtschutz-Konzept.
+- Stehen diverse Im- und Export-Funktionen zur Verfügung.
 
 1 Funktionen der Variante
 

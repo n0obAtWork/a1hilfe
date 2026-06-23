@@ -16,10 +16,8 @@ Die Erfassung der Planzahlen für die Kombination aus Konto, Kostenstelle und Ko
 
 Neben der einfachen Erfassung stehen noch folgende Funktionen zur Verfügung
 
-• Vorjahresplandaten: Die zu diesem Kostenträger und Konto im Vorjahr erfassten Werte werden automatisch in die Soll und Habenspalte übernommen.
-
-• Plandaten aus 1.Periode: Die Werte, die in Periode 1 eingetragen wurden, werden in alle anderen Perioden übernommen.
-
-• Übernahme Plandaten: Es öffnet sich eine weiter Maske, in der der Bereich abgefragt wird, aus dem die Planzahlen übernommen werden sollen.
+- Vorjahresplandaten: Die zu diesem Kostenträger und Konto im Vorjahr erfassten Werte werden automatisch in die Soll und Habenspalte übernommen.
+- Plandaten aus 1.Periode: Die Werte, die in Periode 1 eingetragen wurden, werden in alle anderen Perioden übernommen.
+- Übernahme Plandaten: Es öffnet sich eine weiter Maske, in der der Bereich abgefragt wird, aus dem die Planzahlen übernommen werden sollen.
 
 ![Ein Bild, das Text, Screenshot, Display, Zahl enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_690.png "Ein Bild, das Text, Screenshot, Display, Zahl enthält. Automatisch generierte Beschreibung")

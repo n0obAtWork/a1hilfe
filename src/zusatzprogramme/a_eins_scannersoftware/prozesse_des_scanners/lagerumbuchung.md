@@ -39,19 +39,16 @@ Um eine Lagerumbuchung mit dem Scanner durchzuführen wird wie folgt vorgegangen
 
 <p class="just-emphasize">Ablauf</p>
 
-• Als erstes wird der Startscancode erfasst wie z.B. LGU 4711. Beim Startscancode muss immer zwischen dem LGU und der Vorgangsnummer ein Leerzeichen stehen. Nach dem der Startscancode erfasst worden ist, werden im unteren Teil des Scanner Bildschirmes alle Position der Lagerumbuchung angezeigt. Enthält die Lagerumbuchung mehr als neun Positionen so kann mit den Pfeil hoch und Pfeil runter Tasten geblättert werden.
+- Als erstes wird der Startscancode erfasst wie z.B. LGU 4711. Beim Startscancode muss immer zwischen dem LGU und der Vorgangsnummer ein Leerzeichen stehen. Nach dem der Startscancode erfasst worden ist, werden im unteren Teil des Scanner Bildschirmes alle Position der Lagerumbuchung angezeigt. Enthält die Lagerumbuchung mehr als neun Positionen so kann mit den Pfeil hoch und Pfeil runter Tasten geblättert werden.
+- Jetzt kann eine Position aus der Lagerumbuchung eingescannt werden. Die Suche, der Position in der Lagerumbuchung funktioniert wie folgt.
 
-• Jetzt kann eine Position aus der Lagerumbuchung eingescannt werden. Die Suche, der Position in der Lagerumbuchung funktioniert wie folgt.
+  1 Wird nur der Artikel pro Position erfasst wird der erste gefundene Artikel in der Lagerumbuchung bearbeitet.
 
-1 Wird nur der Artikel pro Position erfasst wird der erste gefundene Artikel in der Lagerumbuchung bearbeitet.
+  2 Wird jetzt eine Partie zu diesem Artikel erfasst, so wird jetzt in der Lagerumbuchung nach der Kombination Artikel und Partie gesucht.
 
-2 Wird jetzt eine Partie zu diesem Artikel erfasst, so wird jetzt in der Lagerumbuchung nach der Kombination Artikel und Partie gesucht.
-
-• Die Menge kann entweder per Hand eingegeben oder eingescannt werden. Es kann pro Position im Auftrag nur eine Partie geben.
-
-• Der Scanner unterstützt beim Erfassen keine Partieverteilung. Dies bedeutet, wenn mehrere Partien eines Artikels umgebucht werden sollen, muss in der Lagerumbuchung pro Partie eine Position angelegt werden.
-
-• Nach dem abarbeiten der Positionen wird LGUENDE eingescannt.
+- Die Menge kann entweder per Hand eingegeben oder eingescannt werden. Es kann pro Position im Auftrag nur eine Partie geben.
+- Der Scanner unterstützt beim Erfassen keine Partieverteilung. Dies bedeutet, wenn mehrere Partien eines Artikels umgebucht werden sollen, muss in der Lagerumbuchung pro Partie eine Position angelegt werden.
+- Nach dem abarbeiten der Positionen wird LGUENDE eingescannt.
 
 <p class="just-emphasize">Gebinde</p>
 

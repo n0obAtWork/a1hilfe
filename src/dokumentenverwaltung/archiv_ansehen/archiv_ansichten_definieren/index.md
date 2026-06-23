@@ -10,13 +10,10 @@ In dieser administrativen Anwendung „**Archiv Ansichten**“ werden die [Archi
 
 Dazu stehen folgende Varianten zur Verfügung:
 
-• **Archiv-Ansichten-Variante: Ansichten**
-
-• **Archiv-Ansichten-Variante: Ansichten – Vorkommen**
-
-• **Archiv-Ansichten-Variante: Ansichten – Detailvorkommen**
-
-• **Archiv-Ansichten-Variante: Ansichten – Richtlinien**
+- **Archiv-Ansichten-Variante: Ansichten**
+- **Archiv-Ansichten-Variante: Ansichten – Vorkommen**
+- **Archiv-Ansichten-Variante: Ansichten – Detailvorkommen**
+- **Archiv-Ansichten-Variante: Ansichten – Richtlinien**
 
 Neben den üblichen Pflege-Funktionen stehen folgende Spezial-Funktionen bereit:
 

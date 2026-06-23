@@ -26,67 +26,64 @@ Der Aufbau wird durch ein fest vorgegebenes Korsett bestimmt, hierbei legt das S
 
 \- Inventory, alle im Bestand liegende Ware dieser Warengruppe. Hierbei wird in dieser Version noch keine Bewertung vorgenommen:
 
-o Inventory Cash (Merkmal A01):  
+  - Inventory Cash (Merkmal A01):  
 alle im Lager zu dieser Warengruppe vorhandenen Bestände minus der Bestände der unten aufgeführten Inventory Bereiche.
 
-o Inventory Basis (Merkmal A02):  
+  - Inventory Basis (Merkmal A02):  
 alle im Lager eingelagerten Waren dieser Warengruppe (gekennzeichnet als Rohware (Unterklasse=9999)) unter Berücksichtigung des Pricing Kennzeichens im Kontrakt (alle Kontraktlieferungen deren Pricing-Kennzeichen=1 ist).
 
-o Inventory DP (Merkmal A03):  
+  - Inventory DP (Merkmal A03):  
 alle im Lager eingelagerten Waren dieser Warengruppe (gekennzeichnet als Rohware (Unterklasse=9999)) unter Berücksichtigung des Pricing Kennzeichens im Kontrakt (Pricing=2).
 
-o Inventory HTA (Merkmal A04):  
+  - Inventory HTA (Merkmal A04):  
 alle im Lager eingelagerten Waren dieser Warengruppe (gekennzeichnet als Rohware (Unterklasse=9999)) unter Berücksichtigung des Pricing Kennzeichens im Kontrakt (Pricing=3).
 
-o Inventory total (Merkmal A90):  
+  - Inventory total (Merkmal A90):  
 Summe über die oben genannten Inventory Bereiche.
 
-\- Purchase, alle offenen Einkaufskontrakte (Ware wie auch Rohware), ratierlich nach Monaten verteilt und entsprechend der angelieferten Waren abgeschrieben:
-
-o Purchase Contracts Priced (Merkmal B01):  
+    - Purchase, alle offenen Einkaufskontrakte (Ware wie auch Rohware), ratierlich nach Monaten verteilt und entsprechend der angelieferten Waren abgeschrieben:
+  - Purchase Contracts Priced (Merkmal B01):  
 alle offenen (Merkmal Erledigungsstatus=0) deren Pricing-Kennzeichen = 0 gesetzt ist.
 
-o Purchase Contracts Basis (Merkmal B02):  
+  - Purchase Contracts Basis (Merkmal B02):  
 alle offenen (Merkmal Erledigungsstatus=0) deren Pricing-Kennzeichen = 1 gesetzt ist.
 
-o Purchase Contracts DP (Merkmal B03):  
+  - Purchase Contracts DP (Merkmal B03):  
 alle offenen (Merkmal Erledigungsstatus=0) deren Pricing-Kennzeichen = 2 gesetzt ist.
 
-o Purchase Contracts HTA (Merkmal B04):  
+  - Purchase Contracts HTA (Merkmal B04):  
 alle offenen (Merkmal Erledigungsstatus=0) deren Pricing-Kennzeichen = 3 gesetzt ist.
 
-\- Sales, alle offenen Verkaufskontrakte (Ware wie auch Rohware), ratierlich nach Monaten verteilt und entsprechend der gelieferten Waren abgeschrieben:
-
-o Sales Contracts Priced (Merkmal C01):  
+    - Sales, alle offenen Verkaufskontrakte (Ware wie auch Rohware), ratierlich nach Monaten verteilt und entsprechend der gelieferten Waren abgeschrieben:
+  - Sales Contracts Priced (Merkmal C01):  
 alle offenen (Merkmal Erledigungsstatus=0) deren Pricing-Kennzeichen = 0 gesetzt ist.
 
-o Sales Contracts Basis (Merkmal C02):  
+  - Sales Contracts Basis (Merkmal C02):  
 alle offenen (Merkmal Erledigungsstatus=0) deren Pricing-Kennzeichen = 1 gesetzt ist.
 
-o Sales Contracts DP (Merkmal C03):  
+  - Sales Contracts DP (Merkmal C03):  
 alle offenen (Merkmal Erledigungsstatus=0) deren Pricing-Kennzeichen = 2 gesetzt ist.
 
-o Sales Contracts HTA (Merkmal C04):  
+  - Sales Contracts HTA (Merkmal C04):  
 alle offenen (Merkmal Erledigungsstatus=0) deren Pricing-Kennzeichen = 3 gesetzt ist.
 
-\- Future, alle als Kontraktklasse 4/14 eingetragenen zeitraumgesetzten Kontrakte, zugeordnet auf Basis eines Referenzartikels dieser Warengruppe (da die Warenterminbörsen nur die Warengruppen handeln), ratierlich den Börsenhandelstagen nach Monaten zugeordnet, mit der [Kundenkennzeichnung](../../kunden_und_lieferanten/kunden_und_lieferantenstamm/hauptmaske/index.md) („externe Nummer“=CBOT, NOBOT, MGEX, LIFFE, ICE; „externe Nummer“ ungleich eben genannte=MATIF):
-
-o Futures CBOT (Chicago Board of Trade, Merkmal D01):  
+    - Future, alle als Kontraktklasse 4/14 eingetragenen zeitraumgesetzten Kontrakte, zugeordnet auf Basis eines Referenzartikels dieser Warengruppe (da die Warenterminbörsen nur die Warengruppen handeln), ratierlich den Börsenhandelstagen nach Monaten zugeordnet, mit der [Kundenkennzeichnung](../../kunden_und_lieferanten/kunden_und_lieferantenstamm/hauptmaske/index.md) („externe Nummer“=CBOT, NOBOT, MGEX, LIFFE, ICE; „externe Nummer“ ungleich eben genannte=MATIF):
+  - Futures CBOT (Chicago Board of Trade, Merkmal D01):  
 alle offenen (Merkmal Erledigungsstatus=0) deren Kontraktklasse =4 oder 14 gesetzt ist und deren „externe Nummer“ des Kunden = CBOT enthält.
 
-o Futures NOBOT (New Orleans Board of Trade, Merkmal D02):  
+  - Futures NOBOT (New Orleans Board of Trade, Merkmal D02):  
 alle offenen (Merkmal Erledigungsstatus=0) deren Kontraktklasse =4 oder 14 gesetzt ist und deren „externe Nummer“ des Kunden = NOBOT enthält.
 
-o Futures MGEX (Minnealopis Grain Exchange, Merkmal D03):  
+  - Futures MGEX (Minnealopis Grain Exchange, Merkmal D03):  
 alle offenen (Merkmal Erledigungsstatus=0) deren Kontraktklasse =4 oder 14 gesetzt ist und deren „externe Nummer“ des Kunden = MGEX enthält.
 
-o Futures LIFFE (London International Financial Futures and Options Exchange, Merkmal D04):  
+  - Futures LIFFE (London International Financial Futures and Options Exchange, Merkmal D04):  
 alle offenen (Merkmal Erledigungsstatus=0) deren Kontraktklasse =4 oder 14 gesetzt ist und deren „externe Nummer“ des Kunden = LIFFE enthält.
 
-o Futures MATIF (Marché à Terme International de France Paris, Merkmal D05):  
+  - Futures MATIF (Marché à Terme International de France Paris, Merkmal D05):  
 alle offenen (Merkmal Erledigungsstatus=0) deren Kontraktklasse =4 oder 14 gesetzt ist und deren „externe Nummer“ des Kunden nicht CBOT, NOBOT, MGEX, LIFFE, ICE enthält.
 
-o Futures ICE (InternationalExchange Atlanta, Merkmal D06):  
+  - Futures ICE (InternationalExchange Atlanta, Merkmal D06):  
 alle offenen (Merkmal Erledigungsstatus=0) deren Kontraktklasse =4 oder 14 gesetzt ist und deren „externe Nummer“ des Kunden = ICE enthält.
 
 ![](../../ImagesExt/image8_158.jpg)

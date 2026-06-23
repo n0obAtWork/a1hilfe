@@ -17,11 +17,9 @@ Die ProfilId bestimmt sich aus dem eingestellten Profil in **[MTPP]**
 
 Die maximale Anzahl der anzuzeigenden Wegpunkt ist je nach Anwendungsfall beschränkt:
 
-• Bei Anzeige „nur Verteilung“ gibt es keinerlei Einschränkungen
-
-• Bei Streckenanzeigen, die einen festen Startpunkt berücksichtigen, dürfen nur 9 weitere Wegpunkte aufgenommen werden.
-
-• Bei Streckenanzeigen ohne festen Startpunkt können 10 Wegpunkte angegeben werden.
+- Bei Anzeige „nur Verteilung“ gibt es keinerlei Einschränkungen
+- Bei Streckenanzeigen, die einen festen Startpunkt berücksichtigen, dürfen nur 9 weitere Wegpunkte aufgenommen werden.
+- Bei Streckenanzeigen ohne festen Startpunkt können 10 Wegpunkte angegeben werden.
 
 Die Beschränkungen liegen in der von Google bereitgestellten Entfernungsmatrix begründet.
 

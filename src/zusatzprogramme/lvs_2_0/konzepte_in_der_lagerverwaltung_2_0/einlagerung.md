@@ -39,10 +39,7 @@ Eine private Einlagerungsstrategie (Hier p_DEMO_Einlagerstrategie) optimiert hie
 
 **Empfohlener Arbeitsablauf Scanner:**
 
-• Scan der NVE
-
-o Anzeige der NVE-Info ggf. mit Fahrauftrags-Vorschlag
-
-• Scan der neuen Lokalität
-
-o Erzeugen einer Ladeträgerbewegung im VIMP
+- Scan der NVE
+  - Anzeige der NVE-Info ggf. mit Fahrauftrags-Vorschlag
+- Scan der neuen Lokalität
+  - Erzeugen einer Ladeträgerbewegung im VIMP

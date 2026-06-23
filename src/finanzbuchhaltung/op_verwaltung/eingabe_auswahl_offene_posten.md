@@ -12,10 +12,7 @@ Diese Darstellung kann sich in Abhängigkeit von der Fragestellung verändern. F
 
 Zusätzlich hängt die Darstellung der von AMIC ausgelieferten Varianten noch von einigen weiteren Kriterien ab:
 
-• Steuerparameter **[SPA]** „Transaktionsnummer in Reporten/Auswahllisten anzeigen“. Die Transaktionsnummer ist eine Eindeutige vom System vergebene Nummer, die zusätzlich zur Identifikation von Belegen Herangezogen werden kann. Ist diese Nummer bekannt, kann man diesen Beleg jederzeit in der [Einzelbeleganzeige](./einzelbeleganzeige.md) ansehen, indem man über den Direktsprung **[ID]** diese Transaktionsnummer eingibt.
-
-• Steuerparameter **[SPA]** „Anzeige Fremdwährung in Auswahllisten“. Wenn das Unternehmung mit Fremdwährung arbeitet, ist es Sinnvoll diesen Steuerparameter auf **Ja** zu setzten**.** Es werden dann neben der Buchwährung auch die Fremdwährungsbeträge und die Währung angezeigt. Ist die Währung ungleich der Buchwährung, werden die Felder Blau dargestellt.
-
-• Der Skontobetrag wird mit gelben Hintergrund dargestellt, wenn der Skonto bereits abgelaufen ist. Bezugsdatum ist das beim Start der OP-Verwaltung eingegebene „**Per Datum**“ also das Datum, das man mit **F10** auswählen kann und das in der obersten Zeile angezeigt wird.
-
-• Zusätzlich können noch über den Gestaltungsdialog – in diesen gelangt man durch klicken in die Überschrift der Liste - weitere Felder eingeblendet werden, die Standardmäßig nicht angezeigt werden.
+- Steuerparameter **[SPA]** „Transaktionsnummer in Reporten/Auswahllisten anzeigen“. Die Transaktionsnummer ist eine Eindeutige vom System vergebene Nummer, die zusätzlich zur Identifikation von Belegen Herangezogen werden kann. Ist diese Nummer bekannt, kann man diesen Beleg jederzeit in der [Einzelbeleganzeige](./einzelbeleganzeige.md) ansehen, indem man über den Direktsprung **[ID]** diese Transaktionsnummer eingibt.
+- Steuerparameter **[SPA]** „Anzeige Fremdwährung in Auswahllisten“. Wenn das Unternehmung mit Fremdwährung arbeitet, ist es Sinnvoll diesen Steuerparameter auf **Ja** zu setzten**.** Es werden dann neben der Buchwährung auch die Fremdwährungsbeträge und die Währung angezeigt. Ist die Währung ungleich der Buchwährung, werden die Felder Blau dargestellt.
+- Der Skontobetrag wird mit gelben Hintergrund dargestellt, wenn der Skonto bereits abgelaufen ist. Bezugsdatum ist das beim Start der OP-Verwaltung eingegebene „**Per Datum**“ also das Datum, das man mit **F10** auswählen kann und das in der obersten Zeile angezeigt wird.
+- Zusätzlich können noch über den Gestaltungsdialog – in diesen gelangt man durch klicken in die Überschrift der Liste - weitere Felder eingeblendet werden, die Standardmäßig nicht angezeigt werden.

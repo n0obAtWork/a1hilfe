@@ -6,15 +6,11 @@ Zur automatisierten Erzeugung von Vorgängen per VBScript werden die folgenden D
 
 benötigt:
 
-• bestellung.vbs
-
-• bestellung_include.vbs
-
-• bestellung_start.vbs
-
-• autom_bestellung.xml
-
-• auftrag.xml
+- bestellung.vbs
+- bestellung_include.vbs
+- bestellung_start.vbs
+- autom_bestellung.xml
+- auftrag.xml
 
 Die Namen sowie der Speicherort sind nicht zu verändern.
 

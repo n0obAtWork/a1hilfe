@@ -88,9 +88,8 @@ So ist sichergestellt, dass sie im Notfall reaktiviert werden kann.
 
 Voraussetzungen:
 
-• Freigabe für das Laufwerk, auf dem der TSE-Stick betrieben wird (bei Netzwerkbetrieb).
-
-• Lese- und Schreibberechtigungen für das Laufwerk (bei Netzwerkbetrieb)
+- Freigabe für das Laufwerk, auf dem der TSE-Stick betrieben wird (bei Netzwerkbetrieb).
+- Lese- und Schreibberechtigungen für das Laufwerk (bei Netzwerkbetrieb)
 
 Um die TSE-Sticks zu tauschen, wie folgt vorgehen:
 

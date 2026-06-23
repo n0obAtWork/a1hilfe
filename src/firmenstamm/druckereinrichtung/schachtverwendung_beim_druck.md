@@ -30,8 +30,6 @@ Reihenfolge der Entscheidungsfindung bei widersprüchlichen Einstellungen
 
 Zunächst ist zwingend notwendig, dass im Druckerstamm [DRST] Schächte definiert sind und ein Standardschacht angegeben wurde. Ohne diese Einstellung gibt es keine Schachtverwendung!
 
-• Beim Druck wird zunächst die Einstellung im Formular [FRM] gelesen.
-
-• Anschließend wird - wenn anwendbar – die Schachteinstellung der verwendeten Vorgangsdruckklasse [VRGD] berücksichtigt und diese überschreibt - wenn vorhanden – die bisherigen Einstellungen.
-
-• Ist bisher keine Einstellung erfolgt, wird der Standardschacht aus dem Druckerstamm [DRST] verwendet.
+- Beim Druck wird zunächst die Einstellung im Formular [FRM] gelesen.
+- Anschließend wird - wenn anwendbar – die Schachteinstellung der verwendeten Vorgangsdruckklasse [VRGD] berücksichtigt und diese überschreibt - wenn vorhanden – die bisherigen Einstellungen.
+- Ist bisher keine Einstellung erfolgt, wird der Standardschacht aus dem Druckerstamm [DRST] verwendet.

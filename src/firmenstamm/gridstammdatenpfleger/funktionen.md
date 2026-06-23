@@ -4,8 +4,6 @@
 
 Sie können im Gridstammpfleger
 
-• Griddefinitionen auswählen
-
-• Neue Griddefinitionen anlegen
-
-• Griddefinitionen bearbeiten
+- Griddefinitionen auswählen
+- Neue Griddefinitionen anlegen
+- Griddefinitionen bearbeiten

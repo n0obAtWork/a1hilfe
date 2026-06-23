@@ -8,17 +8,12 @@ Das entsprechende Feld innerhalb der Eingabemaske bleibt Blau markiert eine Eing
 
 Nicht möglich ist die Teildisposition in folgenden Fällen:
 
-• Bei Einzelrabatten
-
-• Bei Rabatten
-
-• Bei Zu/Abschlägen nur wenn der [Steuerparameter 165 „Teildispo mit Zu-/Abschlägen zulässig“](../../firmenstamm/steuerparameter/vorgangsbearbeitung_umwandlung/teildisposition_mit_zu_abschlaegen_zulaessig_spa_165.md) auf  
+- Bei Einzelrabatten
+- Bei Rabatten
+- Bei Zu/Abschlägen nur wenn der [Steuerparameter 165 „Teildispo mit Zu-/Abschlägen zulässig“](../../firmenstamm/steuerparameter/vorgangsbearbeitung_umwandlung/teildisposition_mit_zu_abschlaegen_zulaessig_spa_165.md) auf  
  JA gesetzt ist.
 
-• Bei Kontrakten
-
-• Bei Objekten ab Lieferschein (vorher ist Teildisposition zulässig)
-
-• Bei Partien
-
-• Bei Leergut
+- Bei Kontrakten
+- Bei Objekten ab Lieferschein (vorher ist Teildisposition zulässig)
+- Bei Partien
+- Bei Leergut

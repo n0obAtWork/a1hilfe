@@ -8,6 +8,5 @@ Wurde keine Position explizit ausgewählt, so ist die letzte Artikel-/Warenposit
 
 Hinweise:
 
-• Abweichend vom Verhalten der „normalen“ Vorgangserfassung wird der Cursor (Markierung) nach dem kurzzeitigen Verlassen der Maske für Eingaben im Vorgangskopf, nicht auf die erste, sondern auf die letzte Artikel-/Warenposition gesetzt. Funktionsaufrufe betreffen also die letzte Artikel-/Warenposition.
-
-• Erfassungen finden unabhängig von der aktuellen Cursorposition immer unterhalb der letzten Artikel-/Warenposition statt.
+- Abweichend vom Verhalten der „normalen“ Vorgangserfassung wird der Cursor (Markierung) nach dem kurzzeitigen Verlassen der Maske für Eingaben im Vorgangskopf, nicht auf die erste, sondern auf die letzte Artikel-/Warenposition gesetzt. Funktionsaufrufe betreffen also die letzte Artikel-/Warenposition.
+- Erfassungen finden unabhängig von der aktuellen Cursorposition immer unterhalb der letzten Artikel-/Warenposition statt.

@@ -34,13 +34,10 @@ Für die neuen Steuersätze werden ggf. auch neue Sachkonten (Steuerkonto, Erlö
     
 Vorgehen:
 
-• Sachkonto mit der Funktion **F5** zum ***„Ändern“*** aufrufen.
-
-• Mit der Funktion ***„Speichern unter“*** oder **(Shift + F9)** einen neuen Datensatz anlegen.
-
-• Für den neuen Datensatz muss mindestens die Kontonummer und die Bezeichnung geändert werden.
-
-• Anschließend die Änderungen mit **F9** oder ***„Speichern“*** übernehmen.
+- Sachkonto mit der Funktion **F5** zum ***„Ändern“*** aufrufen.
+- Mit der Funktion ***„Speichern unter“*** oder **(Shift + F9)** einen neuen Datensatz anlegen.
+- Für den neuen Datensatz muss mindestens die Kontonummer und die Bezeichnung geändert werden.
+- Anschließend die Änderungen mit **F9** oder ***„Speichern“*** übernehmen.
 
 ![Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung](../../../ImagesExt/image8_573.jpg "Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung")
 
@@ -57,11 +54,9 @@ Nachdem die Auswertungspositionen und die Sachkonten angelegt wurden, müssen je
 
 Alle angezeigten Datensätze müssen bearbeitet werden. Dazu geht man wie folgt vor:
 
-• Die Datensätze mit **F5** aufrufen und die Funktion ***„Speichern unter…“*** auswählen. Man kann nun im Feld „ab Datum“ das gewünschte Datum (in diesem Fall 01.07.2020) eintragen.
-
-• Für den neuen Datensatz müssen mindestens die Felder „ab Datum“(s.o.), Steuersatz, Steuerkonten, Skontokonto sowie die Kennzeichen für die Umsatzsteuervoranmeldung geändert werden.
-
-• Anschließend die Änderungen mit **F9** oder ***„Speichern“*** übernehmen.
+- Die Datensätze mit **F5** aufrufen und die Funktion ***„Speichern unter…“*** auswählen. Man kann nun im Feld „ab Datum“ das gewünschte Datum (in diesem Fall 01.07.2020) eintragen.
+- Für den neuen Datensatz müssen mindestens die Felder „ab Datum“(s.o.), Steuersatz, Steuerkonten, Skontokonto sowie die Kennzeichen für die Umsatzsteuervoranmeldung geändert werden.
+- Anschließend die Änderungen mit **F9** oder ***„Speichern“*** übernehmen.
 
 Alter Steuersatz:
 

@@ -12,11 +12,9 @@ Wählt man aus der Belegübersicht eine Zeile an, so werden unter ‚Auswahl Akt
 
 Es gibt folgende Typen:
 
-• Vorgangstamm und Vorgreservierung sind korrekt miteinander verbunden, der Beleg ist zumindest technisch korrekt!
-
-• Es gibt nur den Vorgangstamm, eine Vorgreservierung mit passender V_Id existiert nicht (= Vorgangsleiche ?!).
-
-• Es gibt nur einen Eintrag in Vorgreservierung.
+- Vorgangstamm und Vorgreservierung sind korrekt miteinander verbunden, der Beleg ist zumindest technisch korrekt!
+- Es gibt nur den Vorgangstamm, eine Vorgreservierung mit passender V_Id existiert nicht (= Vorgangsleiche ?!).
+- Es gibt nur einen Eintrag in Vorgreservierung.
 
 Diese Klassifizierung spiegelt aber nicht alle möglichen Konstellationen wieder. Insbesondere gibt es nach der Korrektur eines Beleges den (gewollten) Zustand, dass ein Vorgangstamm keine Vorgreservierung hat. Erst wenn der Mandantenserver den Originalbeleg vor der Korrektur per ‚technischen Storno’ entfernt hat, ist alles wieder im Lot. Generell gilt aber: Wenn der Mandantenserver alle Einträge bearbeitet hat und kein Benutzer in der Vorgangsbearbeitung verweilt, dann müssen alle Vorgreservierungen und Vorgangstämme 1 zu 1 (per V_Id) korrespondieren.
 

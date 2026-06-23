@@ -4,21 +4,16 @@
 
 Einrichtung
 
-• [Steuerparameter](./steuerparameter.md)
-
-• [Versandprofilstamm [VPST]](./versandprofilstamm.md)
-
-• [Versand über DB-Server, Dienst oder Exe](./synchron_oder_asynchron/index.md)
-
-• [Synchron oder Asynchron](./synchron_oder_asynchron/index.md)
-
-• [Dateiname im Mailversand](./dateiname_im_mailversand.md)
-
-• [FRZ-Einstellungen](./pflege_der_vorgangsklassen/versand_funktionen.md)
+- [Steuerparameter](./steuerparameter.md)
+- [Versandprofilstamm [VPST]](./versandprofilstamm.md)
+- [Versand über DB-Server, Dienst oder Exe](./synchron_oder_asynchron/index.md)
+- [Synchron oder Asynchron](./synchron_oder_asynchron/index.md)
+- [Dateiname im Mailversand](./dateiname_im_mailversand.md)
+- [FRZ-Einstellungen](./pflege_der_vorgangsklassen/versand_funktionen.md)
 
 Einrichtung Ware
 
-• [VRGD-Einstellung Mailversand](./pflege_der_vorgangsklassen/html_body.md)
+- [VRGD-Einstellung Mailversand](./pflege_der_vorgangsklassen/html_body.md)
 
 <p class="siehe-auch">Siehe auch:</p>
 

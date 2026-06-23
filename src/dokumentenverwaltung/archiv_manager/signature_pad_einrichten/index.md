@@ -6,19 +6,13 @@ Um PDF-Dokumente signieren zu können wird ein Signature Pad benötigt. Dieses K
 
 Es wird folgendes benötigt:
 
-• 1 freier USB2-Steckplatz
-
-• Signature Pad „signotec Sigma“ mit FTDI-Chip
-
-• Treiber
-
-• Tools „signoPAD-Tools“
-
-• Software „SignoSign/2“
-
-• Lizenz für Software „SignoSign/2“
-
-• PDF-Vorlage „allgemein.pdf“ (Erzeugt aus Textdokument mit einem Leerzeichen)
+- 1 freier USB2-Steckplatz
+- Signature Pad „signotec Sigma“ mit FTDI-Chip
+- Treiber
+- Tools „signoPAD-Tools“
+- Software „SignoSign/2“
+- Lizenz für Software „SignoSign/2“
+- PDF-Vorlage „allgemein.pdf“ (Erzeugt aus Textdokument mit einem Leerzeichen)
 
 Der Treiber kann auf der Internetseite des Herstellers heruntergeladen werden:
 

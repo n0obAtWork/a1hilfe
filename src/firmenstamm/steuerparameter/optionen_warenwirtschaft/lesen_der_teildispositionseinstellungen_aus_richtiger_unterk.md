@@ -4,11 +4,9 @@
 
 In der Vorgangsunterklasse werden Werte wie
 
-• Mengenüberziehung zulassen
-
-• Mengenüberziehung erledigt Beleg
-
-• Teildisponierte Position editierbar
+- Mengenüberziehung zulassen
+- Mengenüberziehung erledigt Beleg
+- Teildisponierte Position editierbar
 
 gepflegt.
 

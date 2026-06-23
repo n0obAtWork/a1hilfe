@@ -28,6 +28,6 @@ Tipp!
 
 Sie können die neue Preise über den Bereich Profile prüfen:
 
-• Setzen Sie unter ***Preise gültig am*** ein Datum, das **\>=** dem Datum Vorbelegung Preis ab aus ist.
+- Setzen Sie unter ***Preise gültig am*** ein Datum, das **\>=** dem Datum Vorbelegung Preis ab aus ist.
 
 Die neuen Preise werden nun in der Auswahlliste bereits angezeigt und können abgeglichen werden.

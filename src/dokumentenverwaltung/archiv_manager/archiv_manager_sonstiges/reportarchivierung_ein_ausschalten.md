@@ -8,9 +8,8 @@ Die Archivierung der Reporte lässt sich per
 
 einstellen.
 
-• NEIN: Es werden grundsätzlich keine Reporte archiviert.
-
-• PDF: Wenn Reporte archiviert werden, dann im PDF-Format.
+- NEIN: Es werden grundsätzlich keine Reporte archiviert.
+- PDF: Wenn Reporte archiviert werden, dann im PDF-Format.
 
 Die Auswahl, welcher Report archiviert wird, hängt auch davon ab, was in der Anwendung „LISTEN“
 

@@ -4,11 +4,9 @@
 
 Für die Erstellung eines Rosi-Profils sind die folgenden Schritte durchzuführen:
 
-• Nachrichtenprofil anlegen
-
-• Kommunikationsbatch anlegen
-
-• EDI-Partner anlegen
+- Nachrichtenprofil anlegen
+- Kommunikationsbatch anlegen
+- EDI-Partner anlegen
 
 Nachrichtenprofil anlegen
 

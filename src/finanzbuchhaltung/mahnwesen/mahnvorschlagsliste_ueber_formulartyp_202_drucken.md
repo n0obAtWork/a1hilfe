@@ -8,19 +8,13 @@ Direktsprung **[MHVB]**.
 
 Es ist möglich, Mahnvorschläge über das Formular 202 zu drucken. Folgende Formularbereiche werden dabei verwendet.
 
-• 301 MahnKopf Formularkopf
-
-• 303 MahnAbschluß Seiten Ende der letzten Seite
-
-• 304 Mahnposition Einzelne Zeile
-
-• 305 MahnFolgekopf Überschrift der nächsten Seiten
-
-• 306 MahnFuß Seiten Ende
-
-• 308 MahnSummenKopf Überschrift Pro Konto
-
-• 309 MahnSummenFuß SummenZeile Pro Konto
+- 301 MahnKopf Formularkopf
+- 303 MahnAbschluß Seiten Ende der letzten Seite
+- 304 Mahnposition Einzelne Zeile
+- 305 MahnFolgekopf Überschrift der nächsten Seiten
+- 306 MahnFuß Seiten Ende
+- 308 MahnSummenKopf Überschrift Pro Konto
+- 309 MahnSummenFuß SummenZeile Pro Konto
 
 Folgende Variablen sind in allen Teilen (Kopf, Folgekopf, Fuß und Abschluss) verfügbar, die nicht Zeilentyp sind. Formularbereiche, die nicht separat mit aufgeführt werden, enthalten nur Festtext oder diese Felder!
 
@@ -33,7 +27,7 @@ Folgende Variablen sind in allen Teilen (Kopf, Folgekopf, Fuß und Abschluss) ve
 | Bedienerkurz | Text | 3 | Kurzbezeichnung –""- |
 | Bedienername | Text | 3 | Name –""- |
 
-• 304 Positionszeile
+- 304 Positionszeile
 
 | Bezeichnung | Typ | Nr | Beschreibung |
 | --- | --- | --- | --- |
@@ -69,7 +63,7 @@ Folgende Variablen sind in allen Teilen (Kopf, Folgekopf, Fuß und Abschluss) ve
 | FIBuVP_AuszKennz | Numerisch | | Auszifferungskennzeichen |
 | FiBuVP_AuszDatum | Text | | Datum der Auszifferung |
 
-• 308 Gruppenkopf
+- 308 Gruppenkopf
 
 | Bezeichnung | Typ | Nr | Beschreibung |
 | --- | --- | --- | --- |
@@ -95,7 +89,7 @@ Folgende Variablen sind in allen Teilen (Kopf, Folgekopf, Fuß und Abschluss) ve
 | Saldo | Numerisch | | Gesamtsaldo zum Zeitpunkt des Druckes |
 | SaldoSH | Text | | Sollhabenkennzeichen zum Zeitpunkt des Druckes |
 
-• 309 Gruppenende (Summen)
+- 309 Gruppenende (Summen)
 
 | Bezeichnung | Typ | Nr | Beschreibung |
 | --- | --- | --- | --- |

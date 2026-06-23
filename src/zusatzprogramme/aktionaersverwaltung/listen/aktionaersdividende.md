@@ -10,24 +10,14 @@ In der Ansicht „Aktionärsdividende“ sind die Dividendenausschüttungen, die
 
 Dem Benutzer stehen in dieser Ansicht folgende Funktionen zur Verfügung:
 
-• ***Dividende abschließen*** [siehe Dividenden abrechnen]
-
-• ***Steuerbescheinigung*** [siehe Steuerbescheinigung/Zweitsteuerbescheinigung]
-
-• ***Zweitsteuerbescheinigung*** [siehe Steuerbescheinigung/Zweitsteuerbescheinigung]
-
-• (Aktionär) ***Neu*** [siehe Aktionäre verwalten]
-
-• (Aktionär) ***Ändern*** [siehe Aktionäre verwalten]
-
-• (Aktionär) ***Ansehen*** [siehe Aktionäre verwalten]
-
-• (Aktionär) ***Löschen*** [siehe Aktionäre verwalten]
-
-• ***Historische Tabelle*** [siehe Aktientransaktionen / Die Historische Tabelle]
-
-• ***Anteile***
-
-• ***Kundenbescheinigung***
-
-• ***Unternehmen verwalten*** [siehe Die Unternehmensdaten einrichten/verwalten]
+- ***Dividende abschließen*** [siehe Dividenden abrechnen]
+- ***Steuerbescheinigung*** [siehe Steuerbescheinigung/Zweitsteuerbescheinigung]
+- ***Zweitsteuerbescheinigung*** [siehe Steuerbescheinigung/Zweitsteuerbescheinigung]
+- (Aktionär) ***Neu*** [siehe Aktionäre verwalten]
+- (Aktionär) ***Ändern*** [siehe Aktionäre verwalten]
+- (Aktionär) ***Ansehen*** [siehe Aktionäre verwalten]
+- (Aktionär) ***Löschen*** [siehe Aktionäre verwalten]
+- ***Historische Tabelle*** [siehe Aktientransaktionen / Die Historische Tabelle]
+- ***Anteile***
+- ***Kundenbescheinigung***
+- ***Unternehmen verwalten*** [siehe Die Unternehmensdaten einrichten/verwalten]

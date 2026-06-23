@@ -6,19 +6,13 @@ Der Programmteil FiBu-Übertrag **[FIB]** trägt die selektierten Vorgänge in d
 
 Die Verbuchung wird aus den folgenden Elementen zusammengestellt:
 
-• Erlösklasse aus dem Kundenstamm
-
-• Erlöskennziffer aus Artikel / Artikelstamm
-
-• Steuerschlüssel aus Artikelstamm
-
-• Steuergruppe
-
-• Buchklasse aus Vorgang
-
-• Datum aus Vorgang
-
-• Typ Erlös oder Aufwand aus Vorgangsklasse
+- Erlösklasse aus dem Kundenstamm
+- Erlöskennziffer aus Artikel / Artikelstamm
+- Steuerschlüssel aus Artikelstamm
+- Steuergruppe
+- Buchklasse aus Vorgang
+- Datum aus Vorgang
+- Typ Erlös oder Aufwand aus Vorgangsklasse
 
 Findet der Mandantenserver — evtl. unter Ausnutzung der DEFAULT Mechanismen — einen gültigen Eintrag aus **[EKZZ]**, so erfolgt der Eintrag in die FiBu. Der Vorgang ist nun in der Auswahl-Box bei **[FIB]** mit JA gekennzeichnet. Findet der Mandanten­ser­ver keinen gültigen Eintrag unter **[EKZZ]**, so schreibt er den Beleg in das Fehler­pro­to­­koll. Der Status FiBu-Übertrag steht auf NEIN.
 

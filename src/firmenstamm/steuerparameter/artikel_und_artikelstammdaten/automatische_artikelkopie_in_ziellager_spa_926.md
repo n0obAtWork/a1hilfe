@@ -4,6 +4,5 @@
 
 Sollen Artikel z.B. aus Vorgängen in ein Lager aufgenommen werden, in dem diese nicht existieren, steuert dieser SPA, ob dies automatisch passieren soll oder nicht.
 
-• Nein = Keine automatische Übernahme
-
-• Ja = Automatische Übernahme
+- Nein = Keine automatische Übernahme
+- Ja = Automatische Übernahme

@@ -17,11 +17,9 @@ Die Kostenstelle wird abgefragt und als Vorbelegung in der Belegerfassung verwen
 
 Ob und wie die Belegmappe abgefragt wird, wird in dem darunterliegenden Bildschirm mit dem Einrichterparameter „Belegmappe abfragen“ eingestellt. Hier existieren drei Ausprägungen:
 
-• Nicht aktiv. Es wird ohne Belegmappe gearbeitet. Dies ist die Vorbelegung
-
-• Belegmappe einmal zentral abfragen. Die Belegmappe wird nur in diesem Abfragefenster abgefragt und ansonsten im Grundbildschirm und in der Belegerfassung nur angezeigt.
-
-• Belegmappe in der Belegerfassung abfragen. Die Belegmappe kann zusätzlich in der Belegerfassung noch geändert werden. Vorbelegt wird sie mit der in diesem Abfragefenster angegeben Mappe.
+- Nicht aktiv. Es wird ohne Belegmappe gearbeitet. Dies ist die Vorbelegung
+- Belegmappe einmal zentral abfragen. Die Belegmappe wird nur in diesem Abfragefenster abgefragt und ansonsten im Grundbildschirm und in der Belegerfassung nur angezeigt.
+- Belegmappe in der Belegerfassung abfragen. Die Belegmappe kann zusätzlich in der Belegerfassung noch geändert werden. Vorbelegt wird sie mit der in diesem Abfragefenster angegeben Mappe.
 
 Näheres zum Thema Periodeneinteilung befindet sich im Abschnitt "Firmenstamm". Wenn dort eine andere Einteilung als Monat vorgenommen wurde, bezieht sich die Eingabe natürlich auf diese Einteilung.
 

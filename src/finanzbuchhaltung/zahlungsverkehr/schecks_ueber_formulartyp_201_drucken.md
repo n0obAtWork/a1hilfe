@@ -4,17 +4,12 @@
 
 Es existieren zu diesem Typ folgende Formularbereiche:
 
-• 500 Kopf Scheckschreibung Formularkopf
-
-• 502 Folgekopf Scheck Folgekopf
-
-• 503 Positionszeile Scheck Zeilentyp
-
-• 504 Alternativteil Scheckdruck Zeilentyp
-
-• 508 Zwischenabschluss Scheck Fuß
-
-• 510 Abschluss Scheck Abschluss  
+- 500 Kopf Scheckschreibung Formularkopf
+- 502 Folgekopf Scheck Folgekopf
+- 503 Positionszeile Scheck Zeilentyp
+- 504 Alternativteil Scheckdruck Zeilentyp
+- 508 Zwischenabschluss Scheck Fuß
+- 510 Abschluss Scheck Abschluss  
     
 
 Folgende Variablen sind in allen Teilen (Kopf, Fuß und Zeilentyp) verfügbar. Formularbereiche, die nicht separat mit aufgeführt werden, enthalten nur Festtext oder diese Felder!

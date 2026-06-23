@@ -82,18 +82,16 @@ Nun kann die Funktion „Verbinden“ genutzt werden
 
 AIS legt automatisch zwei private Funktionen an:
 
-• ***Ändern* F5**
-
-• ***Ansehen* F6**
+- ***Ändern* F5**
+- ***Ansehen* F6**
 
 ![](../../ImagesExt/image8_1060.jpg)
 
 Da wir einen eigenständigen Pfleger bauen wollen, fehlen noch 2 Punkte:  
     
 
-• ***Löschen* F7**
-
-• ***Neu* F8**
+- ***Löschen* F7**
+- ***Neu* F8**
 
 Diese Funktionen müssen über den Direktsprung PF (Private Funktionen) manuell angelegt werden.
 

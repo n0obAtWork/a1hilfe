@@ -16,39 +16,23 @@ Mit diesem Wert wird festgelegt, wie viele Kopien gedruckt werden sollen, und zw
 
 Wenn als Feldbezeichnung BARCODE gefunden wird, so wird der Wert in allen Barcode-Formaten an den Designer/Listengenerator übergeben. Von A.eins werden dann folgende Variablen erzeugt. Eine vollständige Liste aller Barcodeformate befindet sich in der Online-Hilfe des Designers.
 
-• BARCODE_EAN13
-
-• BARCODE_EAN13P2
-
-• BARCODE_EAN13P5
-
-• BARCODE_EAN128
-
-• BARCODE_CODE128
-
-• BARCODE_Codabar
-
-• BARCODE_UPCA
-
-• BARCODE_UPCE
-
-• BARCODE_3OF9
-
-• BARCODE_25IND
-
-• BARCODE_25IL
-
-• BARCODE_25MAT
-
-• BARCODE_25DL
-
-• BARCODE_POSTNET5
-
-• BARCODE_POSTNET10
-
-• BARCODE_POSTNET12
-
-• BARCODE_FIM
+- BARCODE_EAN13
+- BARCODE_EAN13P2
+- BARCODE_EAN13P5
+- BARCODE_EAN128
+- BARCODE_CODE128
+- BARCODE_Codabar
+- BARCODE_UPCA
+- BARCODE_UPCE
+- BARCODE_3OF9
+- BARCODE_25IND
+- BARCODE_25IL
+- BARCODE_25MAT
+- BARCODE_25DL
+- BARCODE_POSTNET5
+- BARCODE_POSTNET10
+- BARCODE_POSTNET12
+- BARCODE_FIM
 
 **DRAWING**
 

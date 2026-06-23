@@ -14,13 +14,10 @@ Dazu dient der Menüpunkt „Buchungen Fibu“ (Direktsprung BUC) oder die [Einr
 
 Es kann nun entschieden werden, welche Belege verbucht werden sollen. Entsprechend dieser Einstellung werden die Belege zusammengestellt, verbucht und journalisiert:
 
-• Angabe des Zeitraumes, über den verbucht werden soll
-
-• Angabe, ob alle Belege im Zeitraum oder nur die des aktuellen Bedieners
-
-• Selektion der Belege nach Warenwirtschaft, Finanzbuchhaltung oder alle.
-
-• Eröffnungs- und Abschlussperioden grundsätzlich mitbuchen.
+- Angabe des Zeitraumes, über den verbucht werden soll
+- Angabe, ob alle Belege im Zeitraum oder nur die des aktuellen Bedieners
+- Selektion der Belege nach Warenwirtschaft, Finanzbuchhaltung oder alle.
+- Eröffnungs- und Abschlussperioden grundsätzlich mitbuchen.
 
 Wenn man den Buchungslauf startet, werden alle Belege, die den angegebenen Kriterien entsprechen und bei denen das Kennzeichen „[Buchungssperre](../../op_verwaltung/einzelbeleganzeige.md#Buchungssperre)“ nicht gesetzt ist, gekennzeichnet, damit sie anschließend vom Mandantenserver verarbeitet werden können. Je nach Organisation der EDV läuft er im Hintergrund mit, so dass die technische Verbuchung zeitgleich abläuft, oder wird periodisch aktiviert. In diesem Fall besteht eine zeitliche Differenz zwischen inhaltlicher und technischer Verbuchung.
 

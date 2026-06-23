@@ -14,12 +14,8 @@ Nähere Angaben zu den anderen Daten sind Dividenden verwalten zu finden.
 
 Dem Benutzer stehen in dieser Ansicht folgende Funktionen zur Verfügung:
 
-• (Dividende) ***Neu*** [siehe Dividenden verwalten]
-
-• (Dividende) ***Ändern*** [siehe Dividenden verwalten]
-
-• (Dividende) ***Ansehen*** [siehe Dividenden verwalten]
-
-• (Dividende) ***Löschen*** [siehe Dividenden verwalten]
-
-• ***Unternehmen verwalten*** [siehe Die Unternehmensdaten einrichten/verwalten]
+- (Dividende) ***Neu*** [siehe Dividenden verwalten]
+- (Dividende) ***Ändern*** [siehe Dividenden verwalten]
+- (Dividende) ***Ansehen*** [siehe Dividenden verwalten]
+- (Dividende) ***Löschen*** [siehe Dividenden verwalten]
+- ***Unternehmen verwalten*** [siehe Die Unternehmensdaten einrichten/verwalten]

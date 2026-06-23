@@ -12,9 +12,8 @@ Diese Variante erlaubt das "Nacharchivieren".
 
 Nacharchivieren bedeutet das ein Vorgang gedruckt wurde, aber nicht archiviert wurde. Gründe hierfür können sein:
 
-• Archiv stand zum Zeitpunkt des Drucks nicht zur Verfügung.
-
-• Druck war nicht vorgesehen für Archivierung.
+- Archiv stand zum Zeitpunkt des Drucks nicht zur Verfügung.
+- Druck war nicht vorgesehen für Archivierung.
 
 Die Variante bietet für die Nacharchivierung in Frage kommenden Druck-Vorgänge an, d.h. solche Vorgänge die zwar gedruckt sind, aber keine Archivierung vorweisen können, obwohl sie nach-archivierbar wären.
 

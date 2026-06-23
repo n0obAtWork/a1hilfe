@@ -8,11 +8,11 @@
 
 Dieser Eintrag kann in zwei verschiedenen Zusammenhängen verwendet werden:
 
-• Der Wert Frozen Columns bedeutet im Regelfall, dass n Spalten festgehalten werden, wenn man über die Spalten scrollt. Z.B. beim Eintrag von 2 wird werden die ersten beiden Spalten eingefroren so das sie bei der Betätigung des Scroll Balkens sichtbar bleiben
+- Der Wert Frozen Columns bedeutet im Regelfall, dass n Spalten festgehalten werden, wenn man über die Spalten scrollt. Z.B. beim Eintrag von 2 wird werden die ersten beiden Spalten eingefroren so das sie bei der Betätigung des Scroll Balkens sichtbar bleiben
 
-So können Sie die Übersichtlichkeit einer Anzeige erhöhen, wenn z.B. in der ersten Spalte ein Name und in den weiteren Spalten scrollbar Adressen und weitere Daten stehen.
+  So können Sie die Übersichtlichkeit einer Anzeige erhöhen, wenn z.B. in der ersten Spalte ein Name und in den weiteren Spalten scrollbar Adressen und weitere Daten stehen.
 
-• Der Wert Frozen Columns wird im Zusammenhang mit der Darstellung von Baumstrukturen verwendet, um anzugeben, bis zu welchem Level der angezeigte Baum geöffnet sein soll. Alle Werte eines höheren Levels werden als „eingerollte“ Information dargestellt. Enthält die Ergebnismenge der anzeigenden Prozedur ein Feld des Namens „GDS_Frozen_Cols“, so wird diese Voreinstellung nicht verwendet, sondern eine Zeilenindividuelle Darstellung benutzt.
+- Der Wert Frozen Columns wird im Zusammenhang mit der Darstellung von Baumstrukturen verwendet, um anzugeben, bis zu welchem Level der angezeigte Baum geöffnet sein soll. Alle Werte eines höheren Levels werden als „eingerollte“ Information dargestellt. Enthält die Ergebnismenge der anzeigenden Prozedur ein Feld des Namens „GDS_Frozen_Cols“, so wird diese Voreinstellung nicht verwendet, sondern eine Zeilenindividuelle Darstellung benutzt.
 
 <p class="just-emphasize">NoChangeLevel</p>
 

@@ -21,10 +21,10 @@ Für die Feldtypen steht eine F3-Auswahl zur Verfügung. Um geänderten Feldtype
 
 Es stehen zwei verscheiden Filtertypen zur Verfügung:
 
-• ***Standard***: Hier kann man entweder im Filter frei einen Wert eingeben oder einen Wert aus den angebotenen Daten auswählen. Zusätzlich besteht die Möglichkeit den Vergleichsoperanden auszählen:  
+- ***Standard***: Hier kann man entweder im Filter frei einen Wert eingeben oder einen Wert aus den angebotenen Daten auswählen. Zusätzlich besteht die Möglichkeit den Vergleichsoperanden auszählen:  
 ![](../../ImagesExt/image8_1320.png)
 
-• ***Mehrfachauswahl***: Hier kann die Werte frei eingegeben oder aus einer Auswahl aller Werte, die in den Daten vorkommen, mehrere Werte auswählen. Es besteht jedoch keine Möglichkeit den Vergleichsoperator auszuwählen.  
+- ***Mehrfachauswahl***: Hier kann die Werte frei eingegeben oder aus einer Auswahl aller Werte, die in den Daten vorkommen, mehrere Werte auswählen. Es besteht jedoch keine Möglichkeit den Vergleichsoperator auszuwählen.  
 ![](../../ImagesExt/image8_1321.png)  
     
 

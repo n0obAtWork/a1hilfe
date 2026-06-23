@@ -15,15 +15,11 @@ Mit dem Direktsprung **[EXCELI]** gelangt man in die Anwendung „Excel-Import�
 
 Hier sind folgende Felder zu pflegen:
 
-• [Name](../excel_import_pfleger.md#Name): Name des Excelimportes. Der Name ist gleichzeitig der Name der privaten Variante.
-
-• [Speicherort](../excel_import_pfleger.md#Speicherort): Pfad der Excel-Datei, die importiert werden soll.
-
-• [Blatt-Name](../excel_import_pfleger.md#Blatt_Name): Name des Excel-Arbeitsblattes, das importiert werden soll.
-
-• [Anwendung](../excel_import_pfleger.md#Anwendung): Name der Anwendung, unter der sich die private Variante befinden soll.
-
-• [Offset Zeile](../excel_import_pfleger.md#Offset_Zeile)/ [Offset Spalte](../excel_import_pfleger.md#Offset_Spalte): Ggf. kann hier ein Wert ungleich Null eingetragen werden, wenn der Import nicht ab der ersten Zeile/Spalte erfolgen soll.
+- [Name](../excel_import_pfleger.md#Name): Name des Excelimportes. Der Name ist gleichzeitig der Name der privaten Variante.
+- [Speicherort](../excel_import_pfleger.md#Speicherort): Pfad der Excel-Datei, die importiert werden soll.
+- [Blatt-Name](../excel_import_pfleger.md#Blatt_Name): Name des Excel-Arbeitsblattes, das importiert werden soll.
+- [Anwendung](../excel_import_pfleger.md#Anwendung): Name der Anwendung, unter der sich die private Variante befinden soll.
+- [Offset Zeile](../excel_import_pfleger.md#Offset_Zeile)/ [Offset Spalte](../excel_import_pfleger.md#Offset_Spalte): Ggf. kann hier ein Wert ungleich Null eingetragen werden, wenn der Import nicht ab der ersten Zeile/Spalte erfolgen soll.
 
 </details>
 

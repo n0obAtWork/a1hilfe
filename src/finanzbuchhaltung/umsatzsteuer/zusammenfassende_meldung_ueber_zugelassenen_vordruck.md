@@ -18,13 +18,13 @@ Wo findet man den Vordruck?
 
 Unter dem Menü Umsatzsteuer gibt es die Anwendung "Zusammenfassende Meldung". Dort kann man zur Variante "**Zusammenfassende Meldung nach AWPosition"** eine Funktion **"Zugelassener Vordruck"** finden**.** Hier werden die Daten analog dieser Variante zusammengesucht und dem Vordruck bereitgestellt. Bevor man den Vordruck drucken kann, wird geprüft, ob alle nötigen Stammdaten erfasst wurden.
 
-• Mandantenstamm: Hier muss die Umsatzsteuer Identifikationsnummer (Ust-IdNr.), sowie der  
+- Mandantenstamm: Hier muss die Umsatzsteuer Identifikationsnummer (Ust-IdNr.), sowie der  
 Ansprechpartner (Mindestangabe ist der Name) hinterlegt sein.
 
-• Kundenstamm: Zu jedem auf der Zusammenfassenden Meldung erscheinenden Kunden muss  
+- Kundenstamm: Zu jedem auf der Zusammenfassenden Meldung erscheinenden Kunden muss  
 eine Ust-IdNr. hinterlegt sein.
 
-• Die Auswertungspositionen mit den Kennzahlen 41,42 und 21 im Feld Bemessungsgrundlage  
+- Die Auswertungspositionen mit den Kennzahlen 41,42 und 21 im Feld Bemessungsgrundlage  
 müssen eingerichtet sein.
 
 Sind diese Tests erfolgreich durchgeführt worden, erscheint eine Meldung, in der Sie aufgefordert werden, die Seiten zusammenzuheften.

@@ -6,11 +6,9 @@ Das Barverkaufssystem ermöglicht innerhalb von A.eins die Abwicklung von Barges
 
 A.eins nutzt zur Abwicklung dieser Aufgaben verschiedene Kassenarten:
 
-• Die POS-Kasse (veraltet – wird nicht mehr gepflegt)
-
-• Die Tresenkasse
-
-• Die Marktkasse
+- Die POS-Kasse (veraltet – wird nicht mehr gepflegt)
+- Die Tresenkasse
+- Die Marktkasse
 
 Diesen Kassen ist ein Zahlungsmodul nachgeschaltet, das unterschiedlich gestaltet ist.
 
@@ -22,15 +20,11 @@ Die Einrichtungs- und Eröffnungs- sowie die Abschlussabläufe sind daher gleich
 
 Zu einem exemplarischen Kassentag gehören so folgende Abläufe:
 
-• Gesamtbarverkaufssystem eröffnen (Systembetreuer/Administrator)(optional)
-
-• Kasse/n eröffnen (Kassenbenutzer)
-
-• Barvorgänge erfassen an den unterschiedlichen Kassen (Kassenbenutzer)
-
-• Kassen abschließen (Kassenbenutzer)
-
-• Gesamtbarverkaufssystem abschließen (Systembetreuer/Administrator)(optional)
+- Gesamtbarverkaufssystem eröffnen (Systembetreuer/Administrator)(optional)
+- Kasse/n eröffnen (Kassenbenutzer)
+- Barvorgänge erfassen an den unterschiedlichen Kassen (Kassenbenutzer)
+- Kassen abschließen (Kassenbenutzer)
+- Gesamtbarverkaufssystem abschließen (Systembetreuer/Administrator)(optional)
 
 Die Eröffnungen und Abschlüsse werden über die gleichen Funktionsaufrufe gestartet, wobei die zur Verfügung stehenden Funktionen je nach Status der Kasse (offen/abgeschlossen/unterbrochen) freigeschaltet werden.
 

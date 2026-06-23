@@ -20,111 +20,101 @@ Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
 Optionen:
 
-• **Ja**
+- **Ja**
+- **Nein**
 
-• **Nein**
+  Für die Erfassung von Rohwarebelegen wird mit diesem Parameter festgelegt, ob das erste zu bedienende Maskenfeld die Auswahl eines Kontrakts erlaubt, aus dem dann Artikel-, Abrechnungsschema und Kundendaten vorbelegt werden.
 
-Für die Erfassung von Rohwarebelegen wird mit diesem Parameter festgelegt, ob das erste zu bedienende Maskenfeld die Auswahl eines Kontrakts erlaubt, aus dem dann Artikel-, Abrechnungsschema und Kundendaten vorbelegt werden.
+  **Lager**
 
-**Lager**
+  Parameternummer: 2
 
-Parameternummer: 2
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Optionen:
 
-Optionen:
+- **keine Anzeige**
+- **mit Anzeige**
+- **Erfassung**
 
-• **keine Anzeige**
+  Für die Erfassung, Anzeige und Korrektur von Rohwarebelegen wird mit diesem Parameter festgelegt, ob die Lagernummer auf der Bearbeitungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
 
-• **mit Anzeige**
+  **Rohware manuelle Werte – Qualitätsergebnis änderbar**
 
-• **Erfassung**
+  Parameternummer: 192
 
-Für die Erfassung, Anzeige und Korrektur von Rohwarebelegen wird mit diesem Parameter festgelegt, ob die Lagernummer auf der Bearbeitungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-**Rohware manuelle Werte – Qualitätsergebnis änderbar**
+  Optionen:
 
-Parameternummer: 192
+- **Nein**
+- **Ja**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Für die Erfassung und Korrektur von Rohwarebelegen wird mit diesem Parameter festgelegt, ob im Positionsteil die berechneten Werte der Qualitätspositionen durch manuelle Werte überschrieben werden dürfen.
 
-Optionen:
+  **Rohware manuelle Werte – Kostenergebnis änderbar**
 
-• **Nein**
+  Parameternummer: 193
 
-• **Ja**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Für die Erfassung und Korrektur von Rohwarebelegen wird mit diesem Parameter festgelegt, ob im Positionsteil die berechneten Werte der Qualitätspositionen durch manuelle Werte überschrieben werden dürfen.
+  Optionen:
 
-**Rohware manuelle Werte – Kostenergebnis änderbar**
+- **Nein**
+- **Ja**
 
-Parameternummer: 193
-
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
-
-Optionen:
-
-• **Nein**
-
-• **Ja**
-
-Für die Erfassung und Korrektur von Rohwarebelegen wird mit diesem Parameter festgelegt, ob im Positionsteil die berechneten Beträge durch manuelle Werte überschrieben werden dürfen.
+  Für die Erfassung und Korrektur von Rohwarebelegen wird mit diesem Parameter festgelegt, ob im Positionsteil die berechneten Beträge durch manuelle Werte überschrieben werden dürfen.
 
 <p class="just-emphasize">Freigegebene Belege immer abrechnen</p>
 
-Parameternummer: 174
+  Parameternummer: 174
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Nein**
+- **Nein**
+- **Ja**
 
-• **Ja**
-
-Ist dieser Parameter mit dem Wert ‚*Ja*‘ belegt, so werden Rohwarebelege der Abrechnungsstufen ‚*Abschlag*‘, ‚Folgeabschlag‘ und *‚*Finale‘ nach Umwandlung und Korrekturen immer sofort abgerechnet, sofern sie für die entsprechende Stufe das Kennzeichen ‚*freigegeben‘* tragen. Die Funktion ***Abrechnen*** wird dann in den entsprechenden Auswahllisten auch nicht mehr zur Verfügung gestellt. Einstellungen des Parameters ‚[Abrechnung nach Belegkorrektur](./rohwareparameter_uebersicht.md#RWPA_172)’ werden mit der Einstellung ‚*Ja*‘ außer Kraft gesetzt.
+  Ist dieser Parameter mit dem Wert ‚*Ja*‘ belegt, so werden Rohwarebelege der Abrechnungsstufen ‚*Abschlag*‘, ‚Folgeabschlag‘ und *‚*Finale‘ nach Umwandlung und Korrekturen immer sofort abgerechnet, sofern sie für die entsprechende Stufe das Kennzeichen ‚*freigegeben‘* tragen. Die Funktion ***Abrechnen*** wird dann in den entsprechenden Auswahllisten auch nicht mehr zur Verfügung gestellt. Einstellungen des Parameters ‚[Abrechnung nach Belegkorrektur](./rohwareparameter_uebersicht.md#RWPA_172)’ werden mit der Einstellung ‚*Ja*‘ außer Kraft gesetzt.
 
 <p class="just-emphasize">Abrechnung nach Belegkorrektur</p>
 
-Parameternummer: 172
+  Parameternummer: 172
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Optionen:
+  Optionen:
 
-• **Nein**
+- **Nein**
+- **Ja**
 
-• **Ja**
-
-Ist dieser Parameter mit dem Wert ‚*Ja*‘ belegt, so werden Rohwarebelege der Abrechnungsstufen ‚*Abschlag*‘, ‚Folgeabschlag‘ und *‚*Finale‘ nach der Korrektur im Rohware-Bearbeitungsmodul **[RWB]** immer sofort abgerechnet, sofern sie für die entsprechende Stufe das Kennzeichen ‚*freigegeben‘* tragen. Dieser Parameter ist allerdings bedeutungslos, wenn der Parameter ‚[Freigegebene Belege immer abrechnen](./rohwareparameter_uebersicht.md#RWPA_174)‘ mit dem Wert ‚*Ja*‘ belegt ist.
+  Ist dieser Parameter mit dem Wert ‚*Ja*‘ belegt, so werden Rohwarebelege der Abrechnungsstufen ‚*Abschlag*‘, ‚Folgeabschlag‘ und *‚*Finale‘ nach der Korrektur im Rohware-Bearbeitungsmodul **[RWB]** immer sofort abgerechnet, sofern sie für die entsprechende Stufe das Kennzeichen ‚*freigegeben‘* tragen. Dieser Parameter ist allerdings bedeutungslos, wenn der Parameter ‚[Freigegebene Belege immer abrechnen](./rohwareparameter_uebersicht.md#RWPA_174)‘ mit dem Wert ‚*Ja*‘ belegt ist.
 
 <p class="just-emphasize">Stornobelege: Vorbelegung: >mit Kopie&lt;</p>
 
-Parameternummer: 171
+  Parameternummer: 171
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Nein**
+- **Nein**
+- **Ja**
 
-• **Ja**
-
-Sofern dem Steuerparameter **[SPA]** ‚*Rohwarestorno mit Quellbeleg-Kopie‘* der Wert ‚*erlaubt*‘ zugewiesen ist, kann bei der Erzeugung eines Storno-Vorgangs aus einem Rohwarebeleg zusätzlich eine Kopie des Quellbelegs erzeugt werden. Dieser Rohwareparameter bewirkt in diesem Fall die Vorbelegung für das Feld **‚mit Kopie‘** auf der Steuerungsmaske der Stornofunktion.
+  Sofern dem Steuerparameter **[SPA]** ‚*Rohwarestorno mit Quellbeleg-Kopie‘* der Wert ‚*erlaubt*‘ zugewiesen ist, kann bei der Erzeugung eines Storno-Vorgangs aus einem Rohwarebeleg zusätzlich eine Kopie des Quellbelegs erzeugt werden. Dieser Rohwareparameter bewirkt in diesem Fall die Vorbelegung für das Feld **‚mit Kopie‘** auf der Steuerungsmaske der Stornofunktion.
 
 <p class="just-emphasize">Massebilanz bei Storno mit Kopie</p>
 
-Parameternummer: 191
+  Parameternummer: 191
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Einstellung auf Umwandelmaske**
-
-• **Standard**
-
-• **Storno und Kopie nicht in Massebilanz**
+- **Einstellung auf Umwandelmaske**
+- **Standard**
+- **Storno und Kopie nicht in Massebilanz**
 
 Sofern bei Ausführung der Funktionen zur Erzeugung von **Rohware-Stornoabrechnungen** und **Rohware-Sammelstornobelegen** auf der jeweiligen Umwandelmaske die Option **Kopie nach Storno** eingeschaltet ist, steuert dieser Parameter die Wirksamkeit der Positionen des Stornobelegs und der Positionen der erzeugten Kopie des Originalbelegs bezüglich der Berücksichtigung in der **Massebilanz**.
 
@@ -143,2609 +133,2307 @@ Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
 Optionen:
 
-• **aus Originalbelegen**
+- **aus Originalbelegen**
+- **laut Maskeneinstellung**
 
-• **laut Maskeneinstellung**
-
-Bei der Erzeugung von Stornobelegen aus Rohwareeinzelbelegen wird mit diesem Parameter die Behandlung der Perioden der Stornobelege festgelegt. Neben der Möglichkeit, diese immer entsprechend der Originalbelege zu setzen, gibt es die Möglichkeit, dieses auf der Steuerungsmaske der Stornofunktion einzustellen oder aber dort die Perioden explizit zu bestimmen. Bei entsprechender Einstellung des Parameters [Storno-Fibuperiode=0 vorbelegen](./rohwareparameter_uebersicht.md#RWPA_175) ist eine gesonderte Einstellung der Periode für die Finanzbuchhaltung mit 0 realisierbar.
+  Bei der Erzeugung von Stornobelegen aus Rohwareeinzelbelegen wird mit diesem Parameter die Behandlung der Perioden der Stornobelege festgelegt. Neben der Möglichkeit, diese immer entsprechend der Originalbelege zu setzen, gibt es die Möglichkeit, dieses auf der Steuerungsmaske der Stornofunktion einzustellen oder aber dort die Perioden explizit zu bestimmen. Bei entsprechender Einstellung des Parameters [Storno-Fibuperiode=0 vorbelegen](./rohwareparameter_uebersicht.md#RWPA_175) ist eine gesonderte Einstellung der Periode für die Finanzbuchhaltung mit 0 realisierbar.
 
 <p class="just-emphasize">Storno-Fibuperiode=0 vorbelegen</p>
 
-Parameternummer: 175
+  Parameternummer: 175
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Nein**
+- **Nein**
+- **Ja**
 
-• **Ja**
-
-Ist dieser Parameter mit dem Wert ‚*Ja*‘ eingestellt, so wird bei der Erzeugung von Stornobelegen aus Rohwareeinzelbelegen wie auch Sammelbelegen Buchungs-Periode und Buchungs-Jahr für die Finanzbuchhaltung grundsätzlich mit dem Wert ‚*0*‘ vorbelegt. Dieses gilt auch, wenn die Einstellungen der Parameter [Perioden bei Stornobelegen](./rohwareparameter_uebersicht.md#RWPA_121) oder [Perioden bei Sammel-Stornobelegen](./rohwareparameter_uebersicht.md#RWPA_144) mit der Einstellung ‚aus Originalbelegen‘ versehen sind. Diese wirken sich dann nur auf die Periodenbehandlung der Warenwirtschaft aus. Bei dort eingestellter manuell erfassbarer Fibu-Periode kann die gewünschte Fibu-Periode aber auf den Vorschalt-Masken der Storno-Funktionen angegeben werden. 
+  Ist dieser Parameter mit dem Wert ‚*Ja*‘ eingestellt, so wird bei der Erzeugung von Stornobelegen aus Rohwareeinzelbelegen wie auch Sammelbelegen Buchungs-Periode und Buchungs-Jahr für die Finanzbuchhaltung grundsätzlich mit dem Wert ‚*0*‘ vorbelegt. Dieses gilt auch, wenn die Einstellungen der Parameter [Perioden bei Stornobelegen](./rohwareparameter_uebersicht.md#RWPA_121) oder [Perioden bei Sammel-Stornobelegen](./rohwareparameter_uebersicht.md#RWPA_144) mit der Einstellung ‚aus Originalbelegen‘ versehen sind. Diese wirken sich dann nur auf die Periodenbehandlung der Warenwirtschaft aus. Bei dort eingestellter manuell erfassbarer Fibu-Periode kann die gewünschte Fibu-Periode aber auf den Vorschalt-Masken der Storno-Funktionen angegeben werden. 
 
 <p class="just-emphasize">Storno alter Belege nach Inventureinspielung</p>
 
-Parameternummer: 151
+  Parameternummer: 151
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **immer erlaubt**
+- **immer erlaubt**
+- **nie erlaubt**
+- **Hinweis mit Abfrage**
 
-• **nie erlaubt**
-
-• **Hinweis mit Abfrage**
-
-Bei der Erzeugung von Stornobelegen zu Belegen aus vorhergehenden Geschäftsjahren wird hier festgelegt, wie im Falle des Vorliegens einer bereits eingespielten Inventur zu verfahren ist.
+  Bei der Erzeugung von Stornobelegen zu Belegen aus vorhergehenden Geschäftsjahren wird hier festgelegt, wie im Falle des Vorliegens einer bereits eingespielten Inventur zu verfahren ist.
 
 <p class="just-emphasize">Belegdatum bei Stornobelegen</p>
 
-Parameternummer: 131
+  Parameternummer: 131
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **aus Originalbelegen**
+- **aus Originalbelegen**
+- **laut Maskeneinstellung**
 
-• **laut Maskeneinstellung**
-
-Bei der Erzeugung von Stornobelegen wird hier bestimmt, ob die neuen Belege das Belegdatum der Originalbelege erhalten sollen oder dieses auf der Steuerungsmaske der Stornofunktion eingestellt wird.
+  Bei der Erzeugung von Stornobelegen wird hier bestimmt, ob die neuen Belege das Belegdatum der Originalbelege erhalten sollen oder dieses auf der Steuerungsmaske der Stornofunktion eingestellt wird.
 
 <p class="just-emphasize">Sammelnummer-Release bei Druckrücksetzen</p>
 
-Parameternummer: 163
+  Parameternummer: 163
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Nein**
+- **Nein**
+- **Ja**
 
-• **Ja**
-
-Dieser Parameter legt fest, ob bei Aufhebung eines Rohwaresammeldruck-Belegs die aus dem dafür herangezogenen Nummernkreis ermittelte Drucknummer diesem wieder zur erneuten Verwendung zur Verfügung gestellt wird.
+  Dieser Parameter legt fest, ob bei Aufhebung eines Rohwaresammeldruck-Belegs die aus dem dafür herangezogenen Nummernkreis ermittelte Drucknummer diesem wieder zur erneuten Verwendung zur Verfügung gestellt wird.
 
 <p class="just-emphasize">Sammel-Storno-Beleg-/Druck-Datum</p>
 
-Parameternummer: 140
+  Parameternummer: 140
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **aus Originalbelegen**
+- **aus Originalbelegen**
+- **laut Maskeneinstellung**
 
-• **laut Maskeneinstellung**
-
-Das Druckdatum von Rohwaresammelbelegen, dass auch als Sammelbelegdatum fungiert, kann durch Einstellung dieses Parameter bei der Erzeugung von Sammelstornobelegen auch als Beleg- und Druckdatum des erzeugten Sammelstornobelegs herangezogen werden. Neben der Möglichkeit, diese immer entsprechend der Originalbelege zu setzen, gibt es die Alternative, dieses auf der Steuerungsmaske der Stornofunktion einzustellen oder aber dort das Datum explizit zu bestimmen.
+  Das Druckdatum von Rohwaresammelbelegen, dass auch als Sammelbelegdatum fungiert, kann durch Einstellung dieses Parameter bei der Erzeugung von Sammelstornobelegen auch als Beleg- und Druckdatum des erzeugten Sammelstornobelegs herangezogen werden. Neben der Möglichkeit, diese immer entsprechend der Originalbelege zu setzen, gibt es die Alternative, dieses auf der Steuerungsmaske der Stornofunktion einzustellen oder aber dort das Datum explizit zu bestimmen.
 
 <p class="just-emphasize">Sammel-Storno-Belegnummer</p>
 
-Parameternummer: 141
+  Parameternummer: 141
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Originalnummer**
+- **Originalnummer**
+- **Neue Belegnummer**
 
-• **Neue Belegnummer**
-
-Die Drucknummer von Rohwaresammelbelegen, die auch als Sammelbelegnummer fungiert, kann durch Einstellung dieses Parameters bei der Erzeugung von Sammelstornobelegen auch als Beleg- und Drucknummer des erzeugten Sammelstornobelegs herangezogen werden. Ist diese Option eingestellt, so ist darauf zu achten, dass die zugehörigen Nummern- und Zählkreise auch kompatibel bezüglich der in Frage kommenden Nummernbereiche sind. Die zweite Option der Nummernvergabe ist die Ermittlung einer neuen Belegnummer für den Sammelstornobeleg aus dem zugehörigen Nummernkreis.
+  Die Drucknummer von Rohwaresammelbelegen, die auch als Sammelbelegnummer fungiert, kann durch Einstellung dieses Parameters bei der Erzeugung von Sammelstornobelegen auch als Beleg- und Drucknummer des erzeugten Sammelstornobelegs herangezogen werden. Ist diese Option eingestellt, so ist darauf zu achten, dass die zugehörigen Nummern- und Zählkreise auch kompatibel bezüglich der in Frage kommenden Nummernbereiche sind. Die zweite Option der Nummernvergabe ist die Ermittlung einer neuen Belegnummer für den Sammelstornobeleg aus dem zugehörigen Nummernkreis.
 
 <p class="just-emphasize">Sammel-Storno-Einzelbeleg-Datum</p>
 
-Parameternummer: 142
+  Parameternummer: 142
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Originaldatum**
+- **Originaldatum**
+- **Sammel-Storno-Belegdatum**
 
-• **Sammel-Storno-Belegdatum**
-
-Bei der Erzeugung eines Rohwaresammelstornobelegs können die Einzelbelege als Belegdatum entweder das Belegdatum des jeweiligen Quellbelegs oder aber das Sammeldruck-/Belegdatum des Sammeldruckstornobelegs erhalten.
+  Bei der Erzeugung eines Rohwaresammelstornobelegs können die Einzelbelege als Belegdatum entweder das Belegdatum des jeweiligen Quellbelegs oder aber das Sammeldruck-/Belegdatum des Sammeldruckstornobelegs erhalten.
 
 <p class="just-emphasize">Perioden bei Sammel-Stornobelegen</p>
 
-Parameternummer: 144
+  Parameternummer: 144
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **aus Originalbelegen**
+- **aus Originalbelegen**
+- **laut Maskeneinstellung**
 
-• **laut Maskeneinstellung**
-
-Bei der Erzeugung von Rohwaresammelstornobelegen wird mit diesem Parameter die Behandlung der Perioden der Sammelstornobelege festgelegt. Neben der Möglichkeit, diese immer entsprechend der Originalbelege zu setzen, gibt es die Option, dieses auf der Steuerungsmaske der Stornofunktion einzustellen oder aber dort die Perioden explizit zu bestimmen. Bei entsprechender Einstellung des Parameters [Storno-Fibuperiode=0 vorbelegen](./rohwareparameter_uebersicht.md#RWPA_175) ist eine gesonderte Einstellung der Periode für die Finanzbuchhaltung mit 0 realisierbar.
+  Bei der Erzeugung von Rohwaresammelstornobelegen wird mit diesem Parameter die Behandlung der Perioden der Sammelstornobelege festgelegt. Neben der Möglichkeit, diese immer entsprechend der Originalbelege zu setzen, gibt es die Option, dieses auf der Steuerungsmaske der Stornofunktion einzustellen oder aber dort die Perioden explizit zu bestimmen. Bei entsprechender Einstellung des Parameters [Storno-Fibuperiode=0 vorbelegen](./rohwareparameter_uebersicht.md#RWPA_175) ist eine gesonderte Einstellung der Periode für die Finanzbuchhaltung mit 0 realisierbar.
 
 <p class="just-emphasize">Sammel-Storno nur nach Fibuübertrag</p>
 
-Parameternummer: 145
+  Parameternummer: 145
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Nein**
+- **Nein**
+- **Ja**
 
-• **Ja**
-
-Dieser Parameter legt fest, ob die Erzeugung eines Rohwaresammelstornobelegs erst erfolgen darf, wenn der zu stornierende Sammelbeleg an die Finanzbuchhaltung übertragen wurde. Handelt es sich jedoch um die Erzeugung eines Sammel-Stornos mit Kopie des Original-Sammeldruckbelegs in ein anderes Wirtschaftsjahr, so setzt die Einstellung ‚*Ja, ohne Fibu-Übertrag*‘ im Feld ‚*Finale nach Jahreswechsel*‘ in den Belegen diese Sperre außer Kraft.  
+  Dieser Parameter legt fest, ob die Erzeugung eines Rohwaresammelstornobelegs erst erfolgen darf, wenn der zu stornierende Sammelbeleg an die Finanzbuchhaltung übertragen wurde. Handelt es sich jedoch um die Erzeugung eines Sammel-Stornos mit Kopie des Original-Sammeldruckbelegs in ein anderes Wirtschaftsjahr, so setzt die Einstellung ‚*Ja, ohne Fibu-Übertrag*‘ im Feld ‚*Finale nach Jahreswechsel*‘ in den Belegen diese Sperre außer Kraft.  
 Dieser Parameter betrifft lediglich die Behandlung von Rohware-Sammeldruckbelegen. Für Einzel-Storno-Belege regelt dieses der Parameter [Stornobeleg nur nach Fibuübertrag](./rohwareparameter_uebersicht.md#RWPA_114).
 
 <p class="just-emphasize">Sammel-Stornoformular-Offset</p>
 
-Parameternummer: 146
+  Parameternummer: 146
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen: Integer-Wert
+  Optionen: Integer-Wert
 
-Dieser Parameter legt fest, wie, ausgehend von dem Rohwaresammeldruck-Formular eines Rohwaresammeldruckbelegs, das zu verwendende Sammeldruckformular des zu erzeugenden Sammelstornobelegs bestimmt wird. Die gesuchte Formularnummer ergibt sich aus der Nummer des Originalformulars zuzüglich des angegebenen Wertes dieses Parameters.
+  Dieser Parameter legt fest, wie, ausgehend von dem Rohwaresammeldruck-Formular eines Rohwaresammeldruckbelegs, das zu verwendende Sammeldruckformular des zu erzeugenden Sammelstornobelegs bestimmt wird. Die gesuchte Formularnummer ergibt sich aus der Nummer des Originalformulars zuzüglich des angegebenen Wertes dieses Parameters.
 
 <p class="just-emphasize">Stornoformularnummer: Offset zum Originalformular</p>
 
-Parameternummer: 84
+  Parameternummer: 84
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen: Integer-Wert
+  Optionen: Integer-Wert
 
-Dieser Parameter legt fest, wie, ausgehend von dem Einzeldruck-Formular eines Rohwarebelegs, das zu verwendende Druckformular des zu erzeugenden Stornobelegs bestimmt wird. Die gesuchte Formularnummer ergibt sich aus der Nummer des Originalformulars zuzüglich des angegebenen Wertes dieses Parameters.
+  Dieser Parameter legt fest, wie, ausgehend von dem Einzeldruck-Formular eines Rohwarebelegs, das zu verwendende Druckformular des zu erzeugenden Stornobelegs bestimmt wird. Die gesuchte Formularnummer ergibt sich aus der Nummer des Originalformulars zuzüglich des angegebenen Wertes dieses Parameters.
 
 <p class="just-emphasize">Artikel-/Abrechnungsschema-Auswahl</p>
 
-Parameternummer: 14
+  Parameternummer: 14
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Artikel--->Schema**
+- **Artikel--->Schema**
+- **Schema--->Artikel**
 
-• **Schema--->Artikel**
-
-Dieser Parameter legt fest, ob bei der Erfassung eines neuen Rohwarelieferscheins zunächst die Artikelnummer oder die Nummer des zu verwendenden Abrechnungsschemas anzugeben ist. Im Falle der Artikelnummer als erste Eingabe wird das Abrechnungsschema mit dem Standardschema der dem Artikel zugeordneten Rohwaregruppe vorbelegt. Wird zunächst das Schema erfasst, so stehen für die Artikelnummer nur Artikel der zum Abrechnungsschema gehörigen Rohwarengruppe zur Verfügung.
+  Dieser Parameter legt fest, ob bei der Erfassung eines neuen Rohwarelieferscheins zunächst die Artikelnummer oder die Nummer des zu verwendenden Abrechnungsschemas anzugeben ist. Im Falle der Artikelnummer als erste Eingabe wird das Abrechnungsschema mit dem Standardschema der dem Artikel zugeordneten Rohwaregruppe vorbelegt. Wird zunächst das Schema erfasst, so stehen für die Artikelnummer nur Artikel der zum Abrechnungsschema gehörigen Rohwarengruppe zur Verfügung.
 
 <p class="just-emphasize">Partie bei Artikel-/Lager-Wechsel</p>
 
-Parameternummer: 176
+  Parameternummer: 176
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Partie nur bei vorhandenem Partieartikel beibehalten**
+- **Partie nur bei vorhandenem Partieartikel beibehalten**
+- **Artikel automatisch zur Partie hinzufügen**
 
-• **Artikel automatisch zur Partie hinzufügen**
-
-Bei der Erfassung und Korrektur von Rohwarebelegen bis zur ersten Rechnungsstufe kann die Lagernummer und/oder Artikelnummer des Lieferartikels geändert werden. Ist der Position vor der Korrektur bereits eine Partie zugeordnet, wird durch die Einstellung dieses Parameters geregelt, ob diese Partiezuordnung auch dann beizubehalten ist, wenn der neue Artikel noch kein zur Partie gehöriger Artikel ist. Ist die Einstellung des Parameters ‚*Partie nur bei vorhandenem Partieartikel beibehalten*‘, so bleibt die Partiezuordnung bei der Änderung nur erhalten, wenn der neue Artikel bereits Partieartikel der Partie ist. Sonst wird die Zuordnung aufgehoben.  
+  Bei der Erfassung und Korrektur von Rohwarebelegen bis zur ersten Rechnungsstufe kann die Lagernummer und/oder Artikelnummer des Lieferartikels geändert werden. Ist der Position vor der Korrektur bereits eine Partie zugeordnet, wird durch die Einstellung dieses Parameters geregelt, ob diese Partiezuordnung auch dann beizubehalten ist, wenn der neue Artikel noch kein zur Partie gehöriger Artikel ist. Ist die Einstellung des Parameters ‚*Partie nur bei vorhandenem Partieartikel beibehalten*‘, so bleibt die Partiezuordnung bei der Änderung nur erhalten, wenn der neue Artikel bereits Partieartikel der Partie ist. Sonst wird die Zuordnung aufgehoben.  
 Die Einstellung ‚*Artikel automatisch zur Partie hinzufügen*‘ hingegen sorgt dafür, dass der neue Artikel gegebenenfalls automatisch zur Partie hinzugefügt wird.
 
 <p class="just-emphasize">Ab Kundennummer bei Folgebeleg</p>
 
-Parameternummer: 76
+  Parameternummer: 76
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Nein**
+- **Nein**
+- **Ja**
 
-• **Ja**
-
-Bei der Erfassung mehrerer Rohwarelieferscheine nacheinander, ohne die Erfassungsmaske zu verlassen, werden grundlegende Daten wie Artikelnummer, Abrechnungsschema und die daraus resultierende Belegstruktur nach Abschluss eines Beleges zur Initialisierung des nächsten zu erfassenden Belegs genutzt. Ist dieser Parameter mit ‚*Ja*‘ eingestellt, so wird zu Beginn der Erfassung ab dem zweiten Beleg grundsätzlich mit dem Feld ‚Kunde/Lieferant‘ begonnen.
+  Bei der Erfassung mehrerer Rohwarelieferscheine nacheinander, ohne die Erfassungsmaske zu verlassen, werden grundlegende Daten wie Artikelnummer, Abrechnungsschema und die daraus resultierende Belegstruktur nach Abschluss eines Beleges zur Initialisierung des nächsten zu erfassenden Belegs genutzt. Ist dieser Parameter mit ‚*Ja*‘ eingestellt, so wird zu Beginn der Erfassung ab dem zweiten Beleg grundsätzlich mit dem Feld ‚Kunde/Lieferant‘ begonnen.
 
 <p class="just-emphasize">Währung</p>
 
-Parameternummer: 115
+  Parameternummer: 115
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **keine Anzeige**
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-• **nur Anzeige**
-
-• **Erfassung**
-
-An dieser Stelle wird für die Erfassung von Rohwarenbelegen festgelegt, dass die Belegwährung auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
+  An dieser Stelle wird für die Erfassung von Rohwarenbelegen festgelegt, dass die Belegwährung auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
 
 <p class="just-emphasize">Währung aus Kundenstamm</p>
 
-Parameternummer: 116
+  Parameternummer: 116
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Nein**
+- **Nein**
+- **Ja**
 
-• **Ja**
-
-Die Vorbelegung der Belegwährung bei der Erfassung eines Rohwarelieferscheins kann entweder aus dem Kundenstamm oder mit der Zentralwährung erfolgen.
+  Die Vorbelegung der Belegwährung bei der Erfassung eines Rohwarelieferscheins kann entweder aus dem Kundenstamm oder mit der Zentralwährung erfolgen.
 
 <p class="just-emphasize">Währungskurs</p>
 
-Parameternummer: 117
+  Parameternummer: 117
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **keine Anzeige**
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-• **nur Anzeige**
-
-• **Erfassung**
-
-An dieser Stelle wird für die Erfassung von Rohwarenbelegen festgelegt, dass der Währungskurs bei Fremdwährungsbelegen auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
+  An dieser Stelle wird für die Erfassung von Rohwarenbelegen festgelegt, dass der Währungskurs bei Fremdwährungsbelegen auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
 
 <p class="just-emphasize">Filiale</p>
 
-Parameternummer: 1
+  Parameternummer: 1
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **keine Anzeige**
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-• **nur Anzeige**
-
-• **Erfassung**
-
-An dieser Stelle wird für die Erfassung von Rohwarenbelegen festgelegt, dass die Filiale auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
+  An dieser Stelle wird für die Erfassung von Rohwarenbelegen festgelegt, dass die Filiale auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
 
 <p class="just-emphasize">Filiale aus Kundenstamm</p>
 
-Parameternummer: 77
+  Parameternummer: 77
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Nein**
+- **Nein**
+- **Ja**
 
-• **Ja**
-
-Die Vorbelegung der Filialnummer für Rohwarebelege wird grundsätzlich bereits zu Beginn der Erfassung auf einer Vorschaltmaske festgelegt. Mit diesem Parameter kann jedoch festgelegt werden, dass die Vorbelegung der Filiale immer aus dem Kunden-/Lieferantenstamm übernommen wird.
+  Die Vorbelegung der Filialnummer für Rohwarebelege wird grundsätzlich bereits zu Beginn der Erfassung auf einer Vorschaltmaske festgelegt. Mit diesem Parameter kann jedoch festgelegt werden, dass die Vorbelegung der Filiale immer aus dem Kunden-/Lieferantenstamm übernommen wird.
 
 <p class="just-emphasize">Zentrale</p>
 
-Parameternummer: 21
+  Parameternummer: 21
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **keine Anzeige**
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-• **nur Anzeige**
-
-• **Erfassung**
-
-An dieser Stelle wird für die Erfassung, Anzeige und Korrektur von Rohwarenbelegen festgelegt, ob die Zentrale auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
+  An dieser Stelle wird für die Erfassung, Anzeige und Korrektur von Rohwarenbelegen festgelegt, ob die Zentrale auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
 
 <p class="just-emphasize">Zentrale aus Filialstamm</p>
 
-Parameternummer: 22
+  Parameternummer: 22
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Nein**
+- **Nein**
+- **Ja**
 
-• **Ja**
-
-Die Vorbelegung der Nummer der Zentrale für Rohwarebelege wird grundsätzlich bereits zu Beginn der Erfassung auf einer Vorschaltmaske festgelegt. Mit diesem Parameter kann jedoch festgelegt werden, dass die Vorbelegung der Zentrale immer aus dem zugeordneten Filialstamm übernommen wird.
+  Die Vorbelegung der Nummer der Zentrale für Rohwarebelege wird grundsätzlich bereits zu Beginn der Erfassung auf einer Vorschaltmaske festgelegt. Mit diesem Parameter kann jedoch festgelegt werden, dass die Vorbelegung der Zentrale immer aus dem zugeordneten Filialstamm übernommen wird.
 
 <p class="just-emphasize">Abteilung</p>
 
-Parameternummer: 3
+  Parameternummer: 3
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **keine Anzeige**
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-• **nur Anzeige**
-
-• **Erfassung**
-
-An dieser Stelle wird für die Erfassung von Rohwarenbelegen festgelegt, ob die Abteilung auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
+  An dieser Stelle wird für die Erfassung von Rohwarenbelegen festgelegt, ob die Abteilung auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
 
 <p class="just-emphasize">Unterabteilung</p>
 
-Parameternummer: 5
+  Parameternummer: 5
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **keine Anzeige**
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-• **nur Anzeige**
-
-• **Erfassung**
-
-An dieser Stelle wird für die Erfassung von Rohwarenbelegen festgelegt, ob die Unterabteilung auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
+  An dieser Stelle wird für die Erfassung von Rohwarenbelegen festgelegt, ob die Unterabteilung auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
 
 <p class="just-emphasize">Lieferdatum größer Erfassungsdatum erlaubt</p>
 
-Parameternummer: 79
+  Parameternummer: 79
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Nein**
+- **Nein**
+- **Ja**
 
-• **Ja**
-
-Ist dieser Parameter mit dem Wert ‚Ja‘ belegt, so kann bei der Erfassung von Rohwarelieferscheinen kein Datum eingegeben werden, dass größer als das aktuelle Tagesdatum ist.
+  Ist dieser Parameter mit dem Wert ‚Ja‘ belegt, so kann bei der Erfassung von Rohwarelieferscheinen kein Datum eingegeben werden, dass größer als das aktuelle Tagesdatum ist.
 
 <p class="just-emphasize">Liefermengensperre bei Korrektur</p>
 
-Parameternummer: 80
+  Parameternummer: 80
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **immer gesperrt**
+- **immer gesperrt**
+- **ab Abschlag**
+- **ab Folge-Abschlag**
+- **ab Finale**
+- **ab Nachvergütung**
+- **immer korrigierbar**
 
-• **ab Abschlag**
-
-• **ab Folge-Abschlag**
-
-• **ab Finale**
-
-• **ab Nachvergütung**
-
-• **immer korrigierbar**
-
-Für die Korrektur der Liefermenge von bereits erfassten Rohware-Belegen wird mit diesem Parameter festgelegt, ab welcher Belegstufe die ursprünglich erfasste Liefermenge nicht mehr korrigierbar sein soll. Unabhängig von diesem Parameter ist die Liefermenge in Belegen zu Fremdeinkäufen und Fremdverkäufen bei der Belegkorrektur nie änderbar.
+  Für die Korrektur der Liefermenge von bereits erfassten Rohware-Belegen wird mit diesem Parameter festgelegt, ab welcher Belegstufe die ursprünglich erfasste Liefermenge nicht mehr korrigierbar sein soll. Unabhängig von diesem Parameter ist die Liefermenge in Belegen zu Fremdeinkäufen und Fremdverkäufen bei der Belegkorrektur nie änderbar.
 
 <p class="just-emphasize">Kippwaagen-Kontrollrechnung</p>
 
-Parameternummer: 82
+  Parameternummer: 82
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Nein**
+- **Nein**
+- **Ja**
 
-• **Ja**
-
-Ist dieser Parameter mit dem Wert ‚Ja‘ belegt, so kann bei der Erfassung von Rohwarelieferscheinen im Erfassungsfeld der Liefermenge die Funktion ***Kippwaagendaten*** aufgerufen werden und dort anhand der anzugebenen Anzahl der Kippungen und der Restwiegung die daraus berechnete Menge in das Liefermengenerfassungsfeld übertragen werden.
+  Ist dieser Parameter mit dem Wert ‚Ja‘ belegt, so kann bei der Erfassung von Rohwarelieferscheinen im Erfassungsfeld der Liefermenge die Funktion ***Kippwaagendaten*** aufgerufen werden und dort anhand der anzugebenen Anzahl der Kippungen und der Restwiegung die daraus berechnete Menge in das Liefermengenerfassungsfeld übertragen werden.
 
 <p class="just-emphasize">Kippwaage: Kippmenge</p>
 
-Parameternummer: 83
+  Parameternummer: 83
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Optionen: Integer-Wert
+  Optionen: Integer-Wert
 
-Dieser Parameter legt die eine Kippung der Kippwaage auslösende Menge für die Funktion ***Kippwaagendaten*** bei der Erfassung von Rohwarebelegen fest. 
+  Dieser Parameter legt die eine Kippung der Kippwaage auslösende Menge für die Funktion ***Kippwaagendaten*** bei der Erfassung von Rohwarebelegen fest. 
 
 <p class="just-emphasize">Kundenanschrift Autoanzeige</p>
 
-Parameternummer: 78
+  Parameternummer: 78
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Nein**
+- **Nein**
+- **Ja**
 
-• **Ja**
-
-Ist dieser Parameter mit dem Wert ‚Ja‘ belegt, so wird nach Angebe der Kunden-/Lieferantennummer die zugehörige Anschrift auf einer Maske dargestellt und kann für den aktuellen Beleg geändert werden.
+  Ist dieser Parameter mit dem Wert ‚Ja‘ belegt, so wird nach Angebe der Kunden-/Lieferantennummer die zugehörige Anschrift auf einer Maske dargestellt und kann für den aktuellen Beleg geändert werden.
 
 <p class="just-emphasize">Artikelauswahl-Randbedingung</p>
 
-Parameternummer: 85
+  Parameternummer: 85
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **geringer Anteil von Rohwareartikeln**
+- **geringer Anteil von Rohwareartikeln**
+- **hoher Anteil von Rohwareartikeln**
+- **alle Artikel auflisten**
 
-• **hoher Anteil von Rohwareartikeln**
-
-• **alle Artikel auflisten**
-
-Dieser Parameter dient zur Optimierung des Aufbaus der Item-Box für die Artikelauswahl bei der Erfassung von Rohwarebelegen. In der Regel ist hier die erste oder zweite Variante zu wählen.
+  Dieser Parameter dient zur Optimierung des Aufbaus der Item-Box für die Artikelauswahl bei der Erfassung von Rohwarebelegen. In der Regel ist hier die erste oder zweite Variante zu wählen.
 
 <p class="just-emphasize">Rechnungsdatum setzten auf</p>
 
-Parameternummer: 108
+  Parameternummer: 108
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Datum neu bei Abrechnung**
+- **Datum neu bei Abrechnung**
+- **Datum erhalten bei Abrechnung**
 
-• **Datum erhalten bei Abrechnung**
-
-Dieser Parameter bewirkt, dass bei Wahl der Funktion ***Abrechnen*** Felder für die Behandlung des Belegdatums mit ‚*Tagesdatum*‘ und damit verbunden die Eingabemöglichkeit eines hierfür heranzuziehenden Datums oder mit ‚*Belegdatum beibehalten*‘ vorbelegt wird. Im ersten Fall ist es zudem möglich, festzulegen, ob die Warenwirtschaftsperiode an das neue Belegdatum anzupassen ist oder beibehalten werden soll.
+  Dieser Parameter bewirkt, dass bei Wahl der Funktion ***Abrechnen*** Felder für die Behandlung des Belegdatums mit ‚*Tagesdatum*‘ und damit verbunden die Eingabemöglichkeit eines hierfür heranzuziehenden Datums oder mit ‚*Belegdatum beibehalten*‘ vorbelegt wird. Im ersten Fall ist es zudem möglich, festzulegen, ob die Warenwirtschaftsperiode an das neue Belegdatum anzupassen ist oder beibehalten werden soll.
 
 <p class="just-emphasize">Abrechnung für Sammeldruck mit Druckdatum</p>
 
-Parameternummer: 107
+  Parameternummer: 107
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Nein**
+- **Nein**
+- **Ja**
 
-• **Ja**
-
-Dieser Parameter bewirkt bei der Einstellung ‚*Ja*‘, dass auch bereits abgerechnete Einzelbelege bei der Zusammenstellung eines Rohwaresammeldruck-Belegs mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) noch einmal abgerechnet werden. Dabei wird das Belegdatum auf das zuvor angegebene Druckdatum geändert und entsprechend der ebenfalls zuvor angegebenen Behandlungsweise die Warenwirtschaftsperiode gegebenenfalls angepasst.
+  Dieser Parameter bewirkt bei der Einstellung ‚*Ja*‘, dass auch bereits abgerechnete Einzelbelege bei der Zusammenstellung eines Rohwaresammeldruck-Belegs mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) noch einmal abgerechnet werden. Dabei wird das Belegdatum auf das zuvor angegebene Druckdatum geändert und entsprechend der ebenfalls zuvor angegebenen Behandlungsweise die Warenwirtschaftsperiode gegebenenfalls angepasst.
 
 <p class="just-emphasize">Periode bei Belegdatum=Abrechnungsdatum</p>
 
-Parameternummer: 173
+  Parameternummer: 173
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Periode beibehalten**
+- **Periode beibehalten**
+- **Periodenanpassung an Belegdatum**
+- **Laut Maskeneinstellung**
 
-• **Periodenanpassung an Belegdatum**
+  Dieser Parameter bestimmt bei der Wahl einer der Funktionen ***Abrechnen*** oder [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md), sofern dort die Optionen des Abrechnens mit neuem Belegdatum gewählt wurde, die Behandlung der Warenwirtschaftsperiode der Belege. Die Option ‚*Laut Maskeneinstellung*‘ ermöglicht die Festlegung auf der Steuerungsmaske der jeweiligen Funktion.
 
-• **Laut Maskeneinstellung**
+  **Abrechnen: ZB mit manuellem Valutadatum**
 
-Dieser Parameter bestimmt bei der Wahl einer der Funktionen ***Abrechnen*** oder [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md), sofern dort die Optionen des Abrechnens mit neuem Belegdatum gewählt wurde, die Behandlung der Warenwirtschaftsperiode der Belege. Die Option ‚*Laut Maskeneinstellung*‘ ermöglicht die Festlegung auf der Steuerungsmaske der jeweiligen Funktion.
+  Parameternummer: 128
 
-**Abrechnen: ZB mit manuellem Valutadatum**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Parameternummer: 128
+  Optionen:
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+- **Tagesdatum, wenn noch nicht gesetzt**
+- **Immer auf Tagesdatum**
+- **Laut Maskeneinstellung**
 
-Optionen:
-
-• **Tagesdatum, wenn noch nicht gesetzt**
-
-• **Immer auf Tagesdatum**
-
-• **Laut Maskeneinstellung**
-
-Dieser Parameter bestimmt die Behandlung von Zahlungsbedingungen in Rohwareabrechnungen, deren Zahlungsziel per Fix-Datum festzulegen ist. Dieses Zahlungsbedingungsdatum kann bei der Abrechnung von Belegen bei Einstellung des Parameters mit dem Wert ‚*Tagesdatum, wenn noch nicht gesetzt*‘ mit dem Tagesdatum besetzt werden, wenn das Zahlungsbedingungsdatum des Belegs noch mit dem Initialisierungsdatum (01.01.1901) versehen ist. Mit dem Wert ‚*Immer auf Tagesdatum*‘ werden auch bereits gesetzte Zahlungsziele mit dem aktuellen Tagesdatum bei der Abrechnung überschrieben. Die Einstellung ‚*Laut Maskeneinstellung*‘ erlaubt die Wahl einer der ersten beiden Alternativen und die Eingabe des gewünschten Datums auf der Steuerungsmaske der Abrechnungs-Funktion.  
+  Dieser Parameter bestimmt die Behandlung von Zahlungsbedingungen in Rohwareabrechnungen, deren Zahlungsziel per Fix-Datum festzulegen ist. Dieses Zahlungsbedingungsdatum kann bei der Abrechnung von Belegen bei Einstellung des Parameters mit dem Wert ‚*Tagesdatum, wenn noch nicht gesetzt*‘ mit dem Tagesdatum besetzt werden, wenn das Zahlungsbedingungsdatum des Belegs noch mit dem Initialisierungsdatum (01.01.1901) versehen ist. Mit dem Wert ‚*Immer auf Tagesdatum*‘ werden auch bereits gesetzte Zahlungsziele mit dem aktuellen Tagesdatum bei der Abrechnung überschrieben. Die Einstellung ‚*Laut Maskeneinstellung*‘ erlaubt die Wahl einer der ersten beiden Alternativen und die Eingabe des gewünschten Datums auf der Steuerungsmaske der Abrechnungs-Funktion.  
 Dieses gilt auch für die Erstellung von Sammeldruckbelegen, sofern die dafür berücksichtigten Einzelbelege entweder noch nicht abgerechnet wurden oder aufgrund der Einstellung des Parameters ‚[Abrechnung für Sammeldruck mit Druckdatum](./rohwareparameter_uebersicht.md#RWPA_107)‘ mit dem Wert ‚*Ja*‘ beim [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) immer neu abgerechnet werden.
 
-**Sammeldruck-Sortierung**
+  **Sammeldruck-Sortierung**
 
-Parameternummer: 139
+  Parameternummer: 139
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **automatisch**
+- **automatisch**
+- **nach Belegauswahl**
 
-• **nach Belegauswahl**
+  Die Einstellung ‚*automatisch*‘ dieses Parameters sorgt bei der Zusammenstellung von gewählten Rohware-Einzelbelegen zur Erzeugung von Rohware-Sammeldruckbelegen mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) dafür, dass die Einzelbelege in einer Reihenfolge abgearbeitet werden und in den Sammelbelegen erscheinen, die die Anzahl der erzeugten Sammelbelege aufgrund der heranzuziehenden Trennkriterien möglichst gering hält. Zu beachten ist in diesem Falle auch die Einstellung des Parameters [Sammeldrucksortierung](./rohwareparameter_uebersicht.md#RWPA_187) automatisch: mit Wiegenummer. Hingegen werden die Einzelbelege bei dem Parameterwert ‚*nach Belegauswahl*‘ in der Reihenfolge der Belegauswahl berücksichtigt, was bei ungünstiger Auswahl aufgrund der heranzuziehenden Trennkriterien zur Erzeugung von mehr Sammelbelegen mit jeweils weniger Einzelbelegen führen kann.
 
-Die Einstellung ‚*automatisch*‘ dieses Parameters sorgt bei der Zusammenstellung von gewählten Rohware-Einzelbelegen zur Erzeugung von Rohware-Sammeldruckbelegen mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) dafür, dass die Einzelbelege in einer Reihenfolge abgearbeitet werden und in den Sammelbelegen erscheinen, die die Anzahl der erzeugten Sammelbelege aufgrund der heranzuziehenden Trennkriterien möglichst gering hält. Zu beachten ist in diesem Falle auch die Einstellung des Parameters [Sammeldrucksortierung](./rohwareparameter_uebersicht.md#RWPA_187) automatisch: mit Wiegenummer. Hingegen werden die Einzelbelege bei dem Parameterwert ‚*nach Belegauswahl*‘ in der Reihenfolge der Belegauswahl berücksichtigt, was bei ungünstiger Auswahl aufgrund der heranzuziehenden Trennkriterien zur Erzeugung von mehr Sammelbelegen mit jeweils weniger Einzelbelegen führen kann.
+  **Sammeldrucksortierung automatisch: mit Wiegenummer**
 
-**Sammeldrucksortierung automatisch: mit Wiegenummer**
+  Parameternummer: 187
 
-Parameternummer: 187
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Optionen:
 
-Optionen:
+- **Ja**
+- **Nein**
 
-• **Ja**
-
-• **Nein**
-
-Ist die Einstellung des zugehörigen Rohwareparameters [Sammeldruck-Sortierung](./rohwareparameter_uebersicht.md#RWPA_139) ‚*automatisch*‘, so wird bei Einstellung dieses Parameters mit ‚*Ja*‘ eine Untersortierung der Einzelbelege innerhalb eines Sammeldruckbelegs bei der Zusammenstellung eines Rohwaresammeldruck-Belegs mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) nach der jeweiligen Wiegenummer bewirkt.
+  Ist die Einstellung des zugehörigen Rohwareparameters [Sammeldruck-Sortierung](./rohwareparameter_uebersicht.md#RWPA_139) ‚*automatisch*‘, so wird bei Einstellung dieses Parameters mit ‚*Ja*‘ eine Untersortierung der Einzelbelege innerhalb eines Sammeldruckbelegs bei der Zusammenstellung eines Rohwaresammeldruck-Belegs mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) nach der jeweiligen Wiegenummer bewirkt.
 
 <p class="just-emphasize">Sammeldruck-Trennung: Rohwarengruppe</p>
 
-Parameternummer: 102
+  Parameternummer: 102
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Nein**
+- **Nein**
+- **Ja**
 
-• **Ja**
-
-Dieser Parameter bewirkt bei der Einstellung ‚*Ja*‘, dass bei der Zusammenstellung von Rohwaresammeldruck-Belegen mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) die Sammelbelege bei unterschiedlichen Rohwarengruppen der Einzelbelege getrennt werden.
+  Dieser Parameter bewirkt bei der Einstellung ‚*Ja*‘, dass bei der Zusammenstellung von Rohwaresammeldruck-Belegen mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) die Sammelbelege bei unterschiedlichen Rohwarengruppen der Einzelbelege getrennt werden.
 
 <p class="just-emphasize">Sammeldruck-Trennung: Schemanummer</p>
 
-Parameternummer: 103
+  Parameternummer: 103
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Nein**
+- **Nein**
+- **Ja**
 
-• **Ja**
-
-Dieser Parameter bewirkt bei der Einstellung ‚*Ja*‘, dass bei der Zusammenstellung von Rohwaresammeldruck-Belegen mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) die Sammelbelege bei unterschiedlichen Abrechnungsschemata der Einzelbelege getrennt werden.
+  Dieser Parameter bewirkt bei der Einstellung ‚*Ja*‘, dass bei der Zusammenstellung von Rohwaresammeldruck-Belegen mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) die Sammelbelege bei unterschiedlichen Abrechnungsschemata der Einzelbelege getrennt werden.
 
 <p class="just-emphasize">Sammeldruck-Trennung: Liefer-Artikelnr.</p>
 
-Parameternummer: 104
+  Parameternummer: 104
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Nein**
+- **Nein**
+- **Ja**
 
-• **Ja**
-
-Dieser Parameter bewirkt bei der Einstellung ‚*Ja*‘, dass bei der Zusammenstellung von Rohwaresammeldruck-Belegen mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) die Sammelbelege bei unterschiedlichen Artikelnummer der jeweiligen Liefer-Position der Einzelbelege getrennt werden.
+  Dieser Parameter bewirkt bei der Einstellung ‚*Ja*‘, dass bei der Zusammenstellung von Rohwaresammeldruck-Belegen mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) die Sammelbelege bei unterschiedlichen Artikelnummer der jeweiligen Liefer-Position der Einzelbelege getrennt werden.
 
 <p class="just-emphasize">Sammeldruck-Trennung: Liefermonat</p>
 
-Parameternummer: 105
+  Parameternummer: 105
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Nein**
+- **Nein**
+- **Ja**
 
-• **Ja**
-
-Dieser Parameter bewirkt bei der Einstellung ‚*Ja*‘, dass bei der Zusammenstellung von Rohwaresammeldruck-Belegen mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) die Sammelbelege getrennt werden, wenn das jeweilige Lieferdatum der Einzelbelege in unterschiedliche Monate fällt.
+  Dieser Parameter bewirkt bei der Einstellung ‚*Ja*‘, dass bei der Zusammenstellung von Rohwaresammeldruck-Belegen mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) die Sammelbelege getrennt werden, wenn das jeweilige Lieferdatum der Einzelbelege in unterschiedliche Monate fällt.
 
 <p class="just-emphasize">Sammeldruck-Trennung: Lieferwoche</p>
 
-Parameternummer: 106
+  Parameternummer: 106
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Nein**
+- **Nein**
+- **Ja**
 
-• **Ja**
-
-Dieser Parameter bewirkt bei der Einstellung ‚*Ja*‘, dass bei der Zusammenstellung von Rohwaresammeldruck-Belegen mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) die Sammelbelege getrennt werden, wenn das jeweilige Lieferdatum der Einzelbelege in unterschiedliche Wochen fällt.
+  Dieser Parameter bewirkt bei der Einstellung ‚*Ja*‘, dass bei der Zusammenstellung von Rohwaresammeldruck-Belegen mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) die Sammelbelege getrennt werden, wenn das jeweilige Lieferdatum der Einzelbelege in unterschiedliche Wochen fällt.
 
 <p class="just-emphasize">Sammeldruck-Trennung: Lieferdatum</p>
 
-Parameternummer: 189
+  Parameternummer: 189
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Nein**
+- **Nein**
+- **Ja**
 
-• **Ja**
-
-Dieser Parameter bewirkt bei der Einstellung ‚*Ja*‘, dass bei der Zusammenstellung von Rohwaresammeldruck-Belegen mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) die Sammelbelege bei unterschiedlichen Lagernummern der Einzelbelege getrennt werden.
+  Dieser Parameter bewirkt bei der Einstellung ‚*Ja*‘, dass bei der Zusammenstellung von Rohwaresammeldruck-Belegen mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) die Sammelbelege bei unterschiedlichen Lagernummern der Einzelbelege getrennt werden.
 
 <p class="just-emphasize">Sammeldruck-Trennung: Lagernummer</p>
 
-Parameternummer: 132
+  Parameternummer: 132
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Nein**
+- **Nein**
+- **Ja**
 
-• **Ja**
-
-Dieser Parameter bewirkt bei der Einstellung ‚*Ja*‘, dass bei der Zusammenstellung von Rohwaresammeldruck-Belegen mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) die Sammelbelege bei unterschiedlichen Lagernummern der Einzelbelege getrennt werden.
+  Dieser Parameter bewirkt bei der Einstellung ‚*Ja*‘, dass bei der Zusammenstellung von Rohwaresammeldruck-Belegen mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) die Sammelbelege bei unterschiedlichen Lagernummern der Einzelbelege getrennt werden.
 
 <p class="just-emphasize">Sammeldruck-Trennung: Vertretergruppe</p>
 
-Parameternummer: 138
+  Parameternummer: 138
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Nein**
+- **Nein**
+- **Ja**
 
-• **Ja**
+  Dieser Parameter bewirkt bei der Einstellung ‚*Ja*‘, dass bei der Zusammenstellung von Rohwaresammeldruck-Belegen mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) die Sammelbelege bei unterschiedlichen Vertretergruppen der Einzelbelege getrennt werden.
 
-Dieser Parameter bewirkt bei der Einstellung ‚*Ja*‘, dass bei der Zusammenstellung von Rohwaresammeldruck-Belegen mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) die Sammelbelege bei unterschiedlichen Vertretergruppen der Einzelbelege getrennt werden.
+  **Sammeldruck-Trennung: Kontrakt**
 
-**Sammeldruck-Trennung: Kontrakt**
+  Parameternummer: 152
 
-Parameternummer: 152
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Optionen:
 
-Optionen:
+- **Nein**
+- **Ja**
 
-• **Nein**
-
-• **Ja**
-
-Dieser Parameter bewirkt bei der Einstellung ‚*Ja*‘, dass bei der Zusammenstellung von Rohwaresammeldruck-Belegen mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) die Sammelbelege bei unterschiedlichen Kontraktzuordnungen der jeweiligen Liefer-Position der Einzelbelege getrennt werden.
+  Dieser Parameter bewirkt bei der Einstellung ‚*Ja*‘, dass bei der Zusammenstellung von Rohwaresammeldruck-Belegen mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) die Sammelbelege bei unterschiedlichen Kontraktzuordnungen der jeweiligen Liefer-Position der Einzelbelege getrennt werden.
 
 <p class="just-emphasize">Sammeldruck-Trennung: Versandadresse</p>
 
-Parameternummer: 166
+  Parameternummer: 166
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Nein**
+- **Nein**
+- **Ja**
 
-• **Ja**
-
-Dieser Parameter bewirkt bei der Einstellung ‚*Ja*‘, dass bei der Zusammenstellung von Rohwaresammeldruck-Belegen mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) die Sammelbelege bei unterschiedlicher ID der den Einzelbelegen zugeordneten Versandadressen getrennt werden.
+  Dieser Parameter bewirkt bei der Einstellung ‚*Ja*‘, dass bei der Zusammenstellung von Rohwaresammeldruck-Belegen mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) die Sammelbelege bei unterschiedlicher ID der den Einzelbelegen zugeordneten Versandadressen getrennt werden.
 
 <p class="just-emphasize">Sammeldruck-Trennung: Währungskurs</p>
 
-Parameternummer: 188
+  Parameternummer: 188
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Nein**
+- **Nein**
+- **Ja**
 
-• **Ja**
-
-Dieser Parameter bewirkt bei der Einstellung ‚*Ja*‘, dass bei der Zusammenstellung von Rohwaresammeldruck-Belegen mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) die Sammelbelege von Fremdwährungsbelegen bei unterschiedlichem Währungskurs der Einzelbelege getrennt werden.
+  Dieser Parameter bewirkt bei der Einstellung ‚*Ja*‘, dass bei der Zusammenstellung von Rohwaresammeldruck-Belegen mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) die Sammelbelege von Fremdwährungsbelegen bei unterschiedlichem Währungskurs der Einzelbelege getrennt werden.
 
 <p class="just-emphasize">Sammeldrucktrennungs-Hinweis generieren</p>
 
-Parameternummer: 164
+  Parameternummer: 164
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Nein**
+- **Nein**
+- **Ja**
 
-• **Ja**
-
-Ist der Parameter mit dem Wert ‚*Ja*‘ eingestellt, so wird bei der Zusammenstellung eines Rohwaresammeldruck-Belegs mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) bei jeder Belegtrennung ein Hinweis erzeugt, der die aktuelle Liefernummer und den Grund der Trennung enthält. Diese Hinweise werden am Ende der Funktion zusammen mit anderen aufgetretenen Hinweisen, Warnungen und Fehlermeldungen aufgelistet.
+  Ist der Parameter mit dem Wert ‚*Ja*‘ eingestellt, so wird bei der Zusammenstellung eines Rohwaresammeldruck-Belegs mittels der Funktion [Sammel-Erstdruck](../sammelabrechnung/sammelerstdruck.md) bei jeder Belegtrennung ein Hinweis erzeugt, der die aktuelle Liefernummer und den Grund der Trennung enthält. Diese Hinweise werden am Ende der Funktion zusammen mit anderen aufgetretenen Hinweisen, Warnungen und Fehlermeldungen aufgelistet.
 
 <p class="just-emphasize">Sammelbuchungen bei Sammeldruck</p>
 
-Parameternummer: 122
+  Parameternummer: 122
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **Nein**
+- **Nein**
+- **Ja**
 
-• **Ja**
-
-Rohwaresammeldruckbelege können mit der Drucknummer als Belegnummer und dem Druckdatum als Belegdatum als ein Fibu-Beleg an die Finanzbuchhaltung übertragen werden, wenn dieser Parameter mit dem Wert ‚Ja‘ eingestellt ist. In diesem Fall stehen hierfür in den Anwendungen zum Bearbeiten von Rohwarebelegen **[RWB] [RWBV]** und Fibu-Übertrag **[FIB]** gesonderte Anwendungs-Varianten zur Verfügung. Einzelne Rohwarebelege, die Teil eines Rohwaresammeldruckbelegs sind, können dann nicht einzeln übertragen werden.
+  Rohwaresammeldruckbelege können mit der Drucknummer als Belegnummer und dem Druckdatum als Belegdatum als ein Fibu-Beleg an die Finanzbuchhaltung übertragen werden, wenn dieser Parameter mit dem Wert ‚Ja‘ eingestellt ist. In diesem Fall stehen hierfür in den Anwendungen zum Bearbeiten von Rohwarebelegen **[RWB] [RWBV]** und Fibu-Übertrag **[FIB]** gesonderte Anwendungs-Varianten zur Verfügung. Einzelne Rohwarebelege, die Teil eines Rohwaresammeldruckbelegs sind, können dann nicht einzeln übertragen werden.
 
 <p class="just-emphasize">Sammeldruck- Folgeabschlag mit Sammelabschlag-Prüfung</p>
 
-Parameternummer: 156
+  Parameternummer: 156
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **ohne**
+- **ohne**
+- **mit Sammeldruck-Abbruch**
+- **mit Warnung ohne Abbruch**
 
-• **mit Sammeldruck-Abbruch**
-
-• **mit Warnung ohne Abbruch**
-
-Mittels dieses Parameters kann bei der Erstellung von Rohwaresammeldruckbelegen der Abrechnungsstufe ‚*Folgeabschlag*‘ eine Routine aktiviert werden, die die Vollständigkeit von im Folgeabschlagsammelbeleg enthaltenen Abschlagsammelbelegen testet. Ist ein zu einem Folgeabschlag des aktuellen Sammelbelegs gehöriger Abschlagbeleg Teil eines Abschlagsammelbelegs, so wird geprüft, ob auch alle anderen Folgeabschlagbelege, deren Vorgängerabschlagbelege Teil desselben Abschlagsammelbelegs sind, im aktuellen Folgeabschlagsammelbeleg enthalten sind. Ist dieses nicht der Fall, so wird entsprechend der Einstellung dieses Parameters der Folgeabschlagsammelbeleg verworfen oder lediglich eine entsprechende Warnmeldung erzeugt.
+  Mittels dieses Parameters kann bei der Erstellung von Rohwaresammeldruckbelegen der Abrechnungsstufe ‚*Folgeabschlag*‘ eine Routine aktiviert werden, die die Vollständigkeit von im Folgeabschlagsammelbeleg enthaltenen Abschlagsammelbelegen testet. Ist ein zu einem Folgeabschlag des aktuellen Sammelbelegs gehöriger Abschlagbeleg Teil eines Abschlagsammelbelegs, so wird geprüft, ob auch alle anderen Folgeabschlagbelege, deren Vorgängerabschlagbelege Teil desselben Abschlagsammelbelegs sind, im aktuellen Folgeabschlagsammelbeleg enthalten sind. Ist dieses nicht der Fall, so wird entsprechend der Einstellung dieses Parameters der Folgeabschlagsammelbeleg verworfen oder lediglich eine entsprechende Warnmeldung erzeugt.
 
 <p class="just-emphasize">Sammeldruck- Finale mit Sammelabschlag-Prüfung</p>
 
-Parameternummer: 157
+  Parameternummer: 157
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **ohne**
+- **ohne**
+- **mit Sammeldruck-Abbruch**
+- **mit Warnung ohne Abbruch**
 
-• **mit Sammeldruck-Abbruch**
-
-• **mit Warnung ohne Abbruch**
-
-Mittels dieses Parameters kann bei der Erstellung von Rohwaresammeldruckbelegen der Abrechnungsstufe ‚*Finale*‘ eine Routine aktiviert werden, die die Vollständigkeit von im Finalsammelbeleg enthaltenen Abschlag- und Folgeabschlagsammelbelegen testet. Ist ein zu einem Finalbeleg des aktuellen Sammelbelegs gehöriger Abschlag- oder Folgeabschlagbeleg Teil eines Sammelbelegs, so wird geprüft, ob auch alle anderen Finalbelege, deren Vorgängerbelege Teil desselben Sammelbelegs sind, im aktuellen Finalsammelbeleg enthalten sind. Ist dieses nicht der Fall, so wird entsprechend der Einstellung dieses Parameters der Finalsammelbeleg verworfen oder lediglich eine entsprechende Warnmeldung erzeugt.
+  Mittels dieses Parameters kann bei der Erstellung von Rohwaresammeldruckbelegen der Abrechnungsstufe ‚*Finale*‘ eine Routine aktiviert werden, die die Vollständigkeit von im Finalsammelbeleg enthaltenen Abschlag- und Folgeabschlagsammelbelegen testet. Ist ein zu einem Finalbeleg des aktuellen Sammelbelegs gehöriger Abschlag- oder Folgeabschlagbeleg Teil eines Sammelbelegs, so wird geprüft, ob auch alle anderen Finalbelege, deren Vorgängerbelege Teil desselben Sammelbelegs sind, im aktuellen Finalsammelbeleg enthalten sind. Ist dieses nicht der Fall, so wird entsprechend der Einstellung dieses Parameters der Finalsammelbeleg verworfen oder lediglich eine entsprechende Warnmeldung erzeugt.
 
 <p class="just-emphasize">Fibuübertrag nach Steuersatzänderung</p>
 
-Parameternummer: 190
+  Parameternummer: 190
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **nur Warnung**
+- **nur Warnung**
+- **Fibuübertrag ablehnen**
 
-• **Fibuübertrag ablehnen**
-
-Dieser Parameter regelt das Verhalten des Fibuübertragmoduls für den Fall, dass sich in einer oder mehreren Belegpositionen der Steuersatz zur korrespondierenden Position eines bereits zuvor gebuchten Vorgängerbelegs der optionalen Kette *Abschlag->Folgeabschlag->Finalabrechnung* geändert hat.  
+  Dieser Parameter regelt das Verhalten des Fibuübertragmoduls für den Fall, dass sich in einer oder mehreren Belegpositionen der Steuersatz zur korrespondierenden Position eines bereits zuvor gebuchten Vorgängerbelegs der optionalen Kette *Abschlag->Folgeabschlag->Finalabrechnung* geändert hat.  
 Bei der Einstellung **nur Warnung** wird eine Warnmeldung im Rahmen der Meldungsausgabe erzeugt, der Beleg aber dennoch gebucht. In diesem Fall sind unter Umständen Steuerumbuchungen in der Finanzbuchhaltung vorzunehmen.  
 Bei der Einstellung **Fibuübertrag ablehnen** wird eine Warnmeldung im Rahmen der Meldungsausgabe erzeugt und der Fibuübertrag abgelehnt. In diesem Fall muss entweder die Steuergruppe des aktuellen Belegs angepasst oder die Vorgangskette rückabgewickelt und mit der gültigen Steuergruppe neu erzeugt werden.  
     
 
 <p class="just-emphasize">Buchungstext bei Sammelbuchung</p>
 
-Parameternummer: 135
+  Parameternummer: 135
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **siehe SPA-Einstellung**
+- **siehe SPA-Einstellung**
+- **Kurzinfo**
+- **Vorgangsklasse**
+- **Vorgangs-Unterklasse**
+- **Klasse + Unterklasse**
+- **Sammeldrucknummer**
+- **Vorgangsklasse + Sammeldrucknummer**
+- **Unterklasse + Sammeldrucknummer**
+- **Klasse + Unterklasse + Sammeldrucknummer**
+- **erster Warenpositions-Text**
+- **Abrechnungsschemabezeichnung**
+- **Klasse + Abrechnungsschemabezeichnung**
+- **Unterklasse + Abrechnungsschemabezeichnung**
+- **Klasse + Unterklasse + Abrechnungsschemabezeichnung**
+- **Abrechnungsschemabezeichnung + Sammeldrucknummer**
+- **Klasse + Abrechnungsschemabezeichnung + Sammeldrucknummer**
+- **Unterklasse + Abrechnungsschemabezeichnung + Sammeldrucknummer**
+- **Klasse + Unterklasse + Abrechnungsschemabezeichnung + Sammeldrucknummer**
+- **Klasse + Rohwarengruppenbezeichnung**
+- **Unterklasse + Rohwarengruppenbezeichnung**
+- **Klasse + Unterklasse + Rohwarengruppenbezeichnung**
+- **Rohwarengruppenbezeichnung + Sammeldrucknummer**
+- **Klasse + Rohwarengruppenbezeichnung + Sammeldrucknummer**
+- **Unterklasse + Rohwarengruppenbezeichnung + Sammeldrucknummer**
+- **Klasse + Unterklasse + Rohwarengruppenbezeichnung + Sammeldrucknummer**
 
-• **Kurzinfo**
-
-• **Vorgangsklasse**
-
-• **Vorgangs-Unterklasse**
-
-• **Klasse + Unterklasse**
-
-• **Sammeldrucknummer**
-
-• **Vorgangsklasse + Sammeldrucknummer**
-
-• **Unterklasse + Sammeldrucknummer**
-
-• **Klasse + Unterklasse + Sammeldrucknummer**
-
-• **erster Warenpositions-Text**
-
-• **Abrechnungsschemabezeichnung**
-
-• **Klasse + Abrechnungsschemabezeichnung**
-
-• **Unterklasse + Abrechnungsschemabezeichnung**
-
-• **Klasse + Unterklasse + Abrechnungsschemabezeichnung**
-
-• **Abrechnungsschemabezeichnung + Sammeldrucknummer**
-
-• **Klasse + Abrechnungsschemabezeichnung + Sammeldrucknummer**
-
-• **Unterklasse + Abrechnungsschemabezeichnung + Sammeldrucknummer**
-
-• **Klasse + Unterklasse + Abrechnungsschemabezeichnung + Sammeldrucknummer**
-
-• **Klasse + Rohwarengruppenbezeichnung**
-
-• **Unterklasse + Rohwarengruppenbezeichnung**
-
-• **Klasse + Unterklasse + Rohwarengruppenbezeichnung**
-
-• **Rohwarengruppenbezeichnung + Sammeldrucknummer**
-
-• **Klasse + Rohwarengruppenbezeichnung + Sammeldrucknummer**
-
-• **Unterklasse + Rohwarengruppenbezeichnung + Sammeldrucknummer**
-
-• **Klasse + Unterklasse + Rohwarengruppenbezeichnung + Sammeldrucknummer**
-
-Mittels dieses Parameters kann bei der Übertragung Rohwaresammeldruckbelegen an die Finanzbuchhaltung die Variante des Hauptbuchungstextes eingestellt werden. Bei der Einstellung ‚*siehe SPA-Einstellung*‘ wird der Hauptbuchungstextes entsprechend der Einstellung des Steuerparameters **[SPA]** ‚*Variante Haupt-Buchungstext Einkauf(SPA 170)*‘ beziehungsweise ‚*Variante Haupt-Buchungstext Verkauf(SPA 171)*‘ erzeugt.
+  Mittels dieses Parameters kann bei der Übertragung Rohwaresammeldruckbelegen an die Finanzbuchhaltung die Variante des Hauptbuchungstextes eingestellt werden. Bei der Einstellung ‚*siehe SPA-Einstellung*‘ wird der Hauptbuchungstextes entsprechend der Einstellung des Steuerparameters **[SPA]** ‚*Variante Haupt-Buchungstext Einkauf(SPA 170)*‘ beziehungsweise ‚*Variante Haupt-Buchungstext Verkauf(SPA 171)*‘ erzeugt.
 
 <p class="just-emphasize">Buchungstext bei Einzelbuchung</p>
 
-Parameternummer: 136
+  Parameternummer: 136
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **siehe SPA-Einstellung**
+- **siehe SPA-Einstellung**
+- **Kurzinfo**
+- **Vorgangsklasse**
+- **Vorgangs-Unterklasse**
+- **Klasse + Unterklasse**
+- **Referenznummer**
+- **Vorgangsklasse + Referenznummer**
+- **Unterklasse + Referenznummer**
+- **Klasse + Unterklasse + Referenznummer**
+- **erster Warenpositions-Text**
+- **Abrechnungsschemabezeichnung**
+- **Klasse + Abrechnungsschemabezeichnung**
+- **Unterklasse + Abrechnungsschemabezeichnung**
+- **Klasse + Unterklasse + Abrechnungsschemabezeichnung**
+- **Abrechnungsschemabezeichnung + Referenznummer**
+- **Klasse + Abrechnungsschemabezeichnung + Referenznummer**
+- **Unterklasse + Abrechnungsschemabezeichnung + Referenznummer**
+- **Klasse + Unterklasse + Abrechnungsschemabezeichnung + Referenznummer**
+- **Klasse + Rohwarengruppenbezeichnung**
+- **Unterklasse + Rohwarengruppenbezeichnung**
+- **Klasse + Unterklasse + Rohwarengruppenbezeichnung**
+- **Rohwarengruppenbezeichnung + Referenznummer**
+- **Klasse + Rohwarengruppenbezeichnung + Referenznummer**
+- **Unterklasse + Rohwarengruppenbezeichnung + Referenznummer**
+- **Klasse + Unterklasse + Rohwarengruppenbezeichnung + Referenznummer**
 
-• **Kurzinfo**
-
-• **Vorgangsklasse**
-
-• **Vorgangs-Unterklasse**
-
-• **Klasse + Unterklasse**
-
-• **Referenznummer**
-
-• **Vorgangsklasse + Referenznummer**
-
-• **Unterklasse + Referenznummer**
-
-• **Klasse + Unterklasse + Referenznummer**
-
-• **erster Warenpositions-Text**
-
-• **Abrechnungsschemabezeichnung**
-
-• **Klasse + Abrechnungsschemabezeichnung**
-
-• **Unterklasse + Abrechnungsschemabezeichnung**
-
-• **Klasse + Unterklasse + Abrechnungsschemabezeichnung**
-
-• **Abrechnungsschemabezeichnung + Referenznummer**
-
-• **Klasse + Abrechnungsschemabezeichnung + Referenznummer**
-
-• **Unterklasse + Abrechnungsschemabezeichnung + Referenznummer**
-
-• **Klasse + Unterklasse + Abrechnungsschemabezeichnung + Referenznummer**
-
-• **Klasse + Rohwarengruppenbezeichnung**
-
-• **Unterklasse + Rohwarengruppenbezeichnung**
-
-• **Klasse + Unterklasse + Rohwarengruppenbezeichnung**
-
-• **Rohwarengruppenbezeichnung + Referenznummer**
-
-• **Klasse + Rohwarengruppenbezeichnung + Referenznummer**
-
-• **Unterklasse + Rohwarengruppenbezeichnung + Referenznummer**
-
-• **Klasse + Unterklasse + Rohwarengruppenbezeichnung + Referenznummer**
-
-Mittels dieses Parameters kann bei der Übertragung Rohwaresammeldruckbelegen an die Finanzbuchhaltung die Variante des Hauptbuchungstextes eingestellt werden. Bei der Einstellung ‚*siehe SPA-Einstellung*‘ wird der Hauptbuchungstextes entsprechend der Einstellung des Steuerparameters **[SPA]** ‚*Variante Haupt-Buchungstext Einkauf(SPA 170)*‘ beziehungsweise ‚*Variante Haupt-Buchungstext Verkauf(SPA 171)*‘ erzeugt. Bei den Einstellungen mit Referenznummer, wird die Liefernummer als Referenznummer berücksichtigt.
+  Mittels dieses Parameters kann bei der Übertragung Rohwaresammeldruckbelegen an die Finanzbuchhaltung die Variante des Hauptbuchungstextes eingestellt werden. Bei der Einstellung ‚*siehe SPA-Einstellung*‘ wird der Hauptbuchungstextes entsprechend der Einstellung des Steuerparameters **[SPA]** ‚*Variante Haupt-Buchungstext Einkauf(SPA 170)*‘ beziehungsweise ‚*Variante Haupt-Buchungstext Verkauf(SPA 171)*‘ erzeugt. Bei den Einstellungen mit Referenznummer, wird die Liefernummer als Referenznummer berücksichtigt.
 
 <p class="just-emphasize">Steuergruppe bei Kundenänderung</p>
 
-Parameternummer: 159
+  Parameternummer: 159
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-Optionen:
+  Optionen:
 
-• **aus Quellbeleg**
+- **aus Quellbeleg**
+- **wie Beleg-Erfassung**
 
-• **wie Beleg-Erfassung**
+  Speziell für die Funktion ***Schema-/Kundenänderung*** im Rohwarebearbeitungsmodul **[RWB] RWBV]** steuert dieser Parameter die Behandlung der Steuergruppe bei der Änderung des Lieferanten/Kunden eines Rohwarelieferscheins. Es kann entweder die Steuergruppe des Quellbelegs beibehalten werden oder entsprechend der Rohwareparameter [Steuergruppenvorbelegung](./rohwareparameter_uebersicht.md#RWPA_40) und [Steuergruppenfestwert](./rohwareparameter_uebersicht.md#RWPA_41) bestimmt werden.
 
-Speziell für die Funktion ***Schema-/Kundenänderung*** im Rohwarebearbeitungsmodul **[RWB] RWBV]** steuert dieser Parameter die Behandlung der Steuergruppe bei der Änderung des Lieferanten/Kunden eines Rohwarelieferscheins. Es kann entweder die Steuergruppe des Quellbelegs beibehalten werden oder entsprechend der Rohwareparameter [Steuergruppenvorbelegung](./rohwareparameter_uebersicht.md#RWPA_40) und [Steuergruppenfestwert](./rohwareparameter_uebersicht.md#RWPA_41) bestimmt werden.
+  **Steuergruppe**
 
-**Steuergruppe**
+  Parameternummer: 39
 
-Parameternummer: 39
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Optionen:
 
-Optionen:
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-• **keine Anzeige**
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Steuergruppe auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
 
-• **nur Anzeige**
+  **Steuergruppenvorbelegung**
 
-• **Erfassung**
+  Parameternummer: 40
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Steuergruppe auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-**Steuergruppenvorbelegung**
+  Optionen:
 
-Parameternummer: 40
+- **aus Kundenstamm**
+- **fester Wert**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Für die Erfassung und Erzeugung von Rohwarelieferscheine steuert dieser Parameter die Vorbelegung der Steuergruppe. Diese kann aus dem Stammsatz des Lieferanten/Kunden entnommen werden. Die Einstellung ‚*fester Wert*‘ hingegen legt die Steuergruppe auf den dem Parameter [Steuergruppenfestwert](./rohwareparameter_uebersicht.md#RWPA_41) zugewiesenen Wert fest.
 
-Optionen:
+  **Steuergruppenfestwert**
 
-• **aus Kundenstamm**
+  Parameternummer: 41
 
-• **fester Wert**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Für die Erfassung und Erzeugung von Rohwarelieferscheine steuert dieser Parameter die Vorbelegung der Steuergruppe. Diese kann aus dem Stammsatz des Lieferanten/Kunden entnommen werden. Die Einstellung ‚*fester Wert*‘ hingegen legt die Steuergruppe auf den dem Parameter [Steuergruppenfestwert](./rohwareparameter_uebersicht.md#RWPA_41) zugewiesenen Wert fest.
+  Optionen: Steuergruppennummer
 
-**Steuergruppenfestwert**
+  Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Steuergruppe, wenn der zugehörige Parameter [Steuergruppenvorbelegung](./rohwareparameter_uebersicht.md#RWPA_40) mit der Einstellung ‚*fester Wert*‘ versehen ist.
 
-Parameternummer: 41
+  **Lagerplatz**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Parameternummer: 11
 
-Optionen: Steuergruppennummer
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Steuergruppe, wenn der zugehörige Parameter [Steuergruppenvorbelegung](./rohwareparameter_uebersicht.md#RWPA_40) mit der Einstellung ‚*fester Wert*‘ versehen ist.
+  Optionen:
 
-**Lagerplatz**
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-Parameternummer: 11
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Lagerplatznummer auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  **Periode Ware**
 
-Optionen:
+  Parameternummer: 91
 
-• **keine Anzeige**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
 
-• **nur Anzeige**
+  Optionen:
 
-• **Erfassung**
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Lagerplatznummer auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Warenwirtschafts-Periode auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
 
-**Periode Ware**
+  **UST-ID Kunde**
 
-Parameternummer: 91
+  Parameternummer: 161
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind nicht möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Optionen:
+  Optionen:
 
-• **keine Anzeige**
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-• **nur Anzeige**
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Umsatzsteuer-ID des Lieferanten beziehungsweise Kunden auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
 
-• **Erfassung**
+  **UST-ID Firma**
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Warenwirtschafts-Periode auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
+  Parameternummer: 161
 
-**UST-ID Kunde**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Parameternummer: 161
+  Optionen:
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-Optionen:
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die eigene Umsatzsteuer-ID des aktuellen Mandanten auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
 
-• **keine Anzeige**
+  **Liefer-Datum**
 
-• **nur Anzeige**
+  Parameternummer: 6
 
-• **Erfassung**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Umsatzsteuer-ID des Lieferanten beziehungsweise Kunden auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
+  Optionen:
 
-**UST-ID Firma**
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-Parameternummer: 161
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Lieferdatum auf der Erfassungsmaske unterdrückt, nur dargestellt oder bei der Erfassung auch änderbar sein soll.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  **Lieferscheinnummer**
 
-Optionen:
+  Parameternummer: 7
 
-• **keine Anzeige**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **nur Anzeige**
+  Optionen:
 
-• **Erfassung**
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die eigene Umsatzsteuer-ID des aktuellen Mandanten auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Lieferscheinnummer auf der Erfassungsmaske unterdrückt, nur dargestellt oder bei der Erfassung auch änderbar sein soll. Dieser Parameter wirkt jedoch nicht, wenn entsprechend der Einstellung des Parameters [Vorbelegung Lieferscheinnummer](./rohwareparameter_uebersicht.md#RWPA_8) die Vorbelegung der Lieferscheinnummer nicht aus dem Nummernkreis vorbelegt wird.
 
-**Liefer-Datum**
+  **Vorbelegung Lieferscheinnummer**
 
-Parameternummer: 6
+  Parameternummer: 8
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Optionen:
+  Optionen:
 
-• **keine Anzeige**
+- **Aus Nummernkreis**
+- **Letzte Nummer + 1**
+- **Vorbelegung mit 0**
 
-• **nur Anzeige**
+  Mit diesem Parameter wird für die Erfassung von Rohwarenbelegen festgelegt, wie die Liefernummer vorbelegt wird. Neben der Vorbelegungsmöglichkeit aus dem zugeordneten Nummernkreis bei jedem neuen Beleg bei der Erfassung mehrerer Belege, ohne dass die Erfassungsmaske verlassen wird, kann auch die Option genutzt werden, dass zur Initialisierung eines neuen Belegs die zuvor genutzte Nummer um 1 erhöht wird. Die Vorbelegung mit 0 ist ebenfalls möglich, um zum Beispiel bei der manuellen Nacherfassung von Belegen sicherzustellen, dass das Maskenfeld auf jeden Fall bedient wird.
 
-• **Erfassung**
+  **Wiegenoten-Nummer**
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Lieferdatum auf der Erfassungsmaske unterdrückt, nur dargestellt oder bei der Erfassung auch änderbar sein soll.
+  Parameternummer: 9
 
-**Lieferscheinnummer**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Parameternummer: 7
+  Optionen:
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-Optionen:
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Wiegenotennummer auf der Erfassungsmaske unterdrückt, nur dargestellt oder bei der Erfassung auch änderbar sein soll. Dieser Parameter wirkt jedoch nicht, wenn die Einstellung des Parameters [Vorbelegung Wiegenoten-Nummer](./rohwareparameter_uebersicht.md#RWPA_10) ‚*letzte Nummer + 1*‘ ist.
 
-• **keine Anzeige**
+  **Vorbelegung Wiegenoten-Nummer**
 
-• **nur Anzeige**
+  Parameternummer: 10
 
-• **Erfassung**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Lieferscheinnummer auf der Erfassungsmaske unterdrückt, nur dargestellt oder bei der Erfassung auch änderbar sein soll. Dieser Parameter wirkt jedoch nicht, wenn entsprechend der Einstellung des Parameters [Vorbelegung Lieferscheinnummer](./rohwareparameter_uebersicht.md#RWPA_8) die Vorbelegung der Lieferscheinnummer nicht aus dem Nummernkreis vorbelegt wird.
+  Optionen:
 
-**Vorbelegung Lieferscheinnummer**
+- **letzte Nummer + 1**
+- **gleich Lieferscheinnummer**
+- **Vorbelegung mit 0**
 
-Parameternummer: 8
+  Mit diesem Parameter wird für die Erfassung von Rohwarenbelegen festgelegt, wie die Wiegenotennummer vorbelegt wird. Bei der Erfassung mehrerer Belege, ohne dass die Erfassungsmaske verlassen wird, kann die Option genutzt werden, dass zur Initialisierung eines neuen Belegs die zuvor genutzte Nummer um 1 erhöht wird. Die Vorbelegung mit der Lieferscheinnummer des Belegs bewirkt auch die automatische Anpassung bei Änderung der Lieferscheinnummer. Die Vorbelegung mit 0 ist ebenfalls möglich und als gültige Wiegenotennummer an dieser Stelle auch zulässig.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  **Versandart**
 
-Optionen:
+  Parameternummer: 18
 
-• **Aus Nummernkreis**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **Letzte Nummer + 1**
+  Optionen:
 
-• **Vorbelegung mit 0**
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-Mit diesem Parameter wird für die Erfassung von Rohwarenbelegen festgelegt, wie die Liefernummer vorbelegt wird. Neben der Vorbelegungsmöglichkeit aus dem zugeordneten Nummernkreis bei jedem neuen Beleg bei der Erfassung mehrerer Belege, ohne dass die Erfassungsmaske verlassen wird, kann auch die Option genutzt werden, dass zur Initialisierung eines neuen Belegs die zuvor genutzte Nummer um 1 erhöht wird. Die Vorbelegung mit 0 ist ebenfalls möglich, um zum Beispiel bei der manuellen Nacherfassung von Belegen sicherzustellen, dass das Maskenfeld auf jeden Fall bedient wird.
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Versandart auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
 
-**Wiegenoten-Nummer**
+  **Vorbelegung Versandart**
 
-Parameternummer: 9
+  Parameternummer: 19
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Optionen:
+  Optionen: Versandartnummer oder 0
 
-• **keine Anzeige**
+  Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Versandart. Ist der Parameterwert ‚0‘, so wird zur Vorbelegung die dem Kunden beziehungsweise Lieferanten zugeordnete Versandart genutzt.
 
-• **nur Anzeige**
+  **Versandadresse**
 
-• **Erfassung**
+  Parameternummer: 20
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Wiegenotennummer auf der Erfassungsmaske unterdrückt, nur dargestellt oder bei der Erfassung auch änderbar sein soll. Dieser Parameter wirkt jedoch nicht, wenn die Einstellung des Parameters [Vorbelegung Wiegenoten-Nummer](./rohwareparameter_uebersicht.md#RWPA_10) ‚*letzte Nummer + 1*‘ ist.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-**Vorbelegung Wiegenoten-Nummer**
+  Optionen:
 
-Parameternummer: 10
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Versandadresse auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
 
-Optionen:
+  **Vorbelegung Versandadresse aus Kunde**
 
-• **letzte Nummer + 1**
+  Parameternummer: 165
 
-• **gleich Lieferscheinnummer**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **Vorbelegung mit 0**
+  Optionen:
 
-Mit diesem Parameter wird für die Erfassung von Rohwarenbelegen festgelegt, wie die Wiegenotennummer vorbelegt wird. Bei der Erfassung mehrerer Belege, ohne dass die Erfassungsmaske verlassen wird, kann die Option genutzt werden, dass zur Initialisierung eines neuen Belegs die zuvor genutzte Nummer um 1 erhöht wird. Die Vorbelegung mit der Lieferscheinnummer des Belegs bewirkt auch die automatische Anpassung bei Änderung der Lieferscheinnummer. Die Vorbelegung mit 0 ist ebenfalls möglich und als gültige Wiegenotennummer an dieser Stelle auch zulässig.
+- **nein**
+- **ja**
 
-**Versandart**
+  Für die Erfassung und Erzeugung von Rohwarelieferscheine legt dieser Parameter fest, ob die Versandadresse aus dem Kunden-/Lieferantenstamm vorbelegt werden soll.
 
-Parameternummer: 18
+  **Preisansprung nach Menge**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Parameternummer: 112
 
-Optionen:
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **keine Anzeige**
+  Optionen:
 
-• **nur Anzeige**
+- **nein**
+- **ja**
 
-• **Erfassung**
+  Für die Erfassung und Korrektur von Rohwarebelegen kann mit diesem Parameter durch die Einstellung ‚*Ja*‘ festgelegt werden, dass nach der Eingabe der Liefermenge die Preis-Spalte des Erfassungs-Grids angesprungen wird. Andernfalls wird in der nächstmöglichen Positionszeile fortgefahren.
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Versandart auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
+  **Arbeits-Regel**
 
-**Vorbelegung Versandart**
+  Parameternummer: 137
 
-Parameternummer: 19
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Optionen:
 
-Optionen: Versandartnummer oder 0
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Versandart. Ist der Parameterwert ‚0‘, so wird zur Vorbelegung die dem Kunden beziehungsweise Lieferanten zugeordnete Versandart genutzt.
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Attribut ‚*Arbeits-Regel*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
 
-**Versandadresse**
+  **Anzahl der Analyseproben**
 
-Parameternummer: 20
+  Parameternummer: 147
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Optionen:
+  Optionen:
 
-• **keine Anzeige**
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-• **nur Anzeige**
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Attribut ‚*Anzahl der Analyseproben*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll. Der Wert dieses Attributs wird bei der Ermittlung von Analysewerten per Formel mit dem Typ ‚Fix-Durchschnitt‘ benötigt.
 
-• **Erfassung**
+  **Herkunft-/Ziel-Land**
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Versandadresse auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
+  Parameternummer: 153
 
-**Vorbelegung Versandadresse aus Kunde**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Parameternummer: 165
+  Optionen:
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-Optionen:
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Feld ‚*Herkunft-/Ziel-Land*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
 
-• **nein**
+  **Herkunft-/Ziel-Region**
 
-• **ja**
+  Parameternummer: 154
 
-Für die Erfassung und Erzeugung von Rohwarelieferscheine legt dieser Parameter fest, ob die Versandadresse aus dem Kunden-/Lieferantenstamm vorbelegt werden soll.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-**Preisansprung nach Menge**
+  Optionen:
 
-Parameternummer: 112
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Feld ‚*Herkunft-/Ziel-Region*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
 
-Optionen:
+  **Ship-From**
 
-• **nein**
+  Parameternummer: 179
 
-• **ja**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Für die Erfassung und Korrektur von Rohwarebelegen kann mit diesem Parameter durch die Einstellung ‚*Ja*‘ festgelegt werden, dass nach der Eingabe der Liefermenge die Preis-Spalte des Erfassungs-Grids angesprungen wird. Andernfalls wird in der nächstmöglichen Positionszeile fortgefahren.
+  Optionen:
 
-**Arbeits-Regel**
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-Parameternummer: 137
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Feld ‚*Ship-From*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  **Ship-To**
 
-Optionen:
+  Parameternummer: 180
 
-• **keine Anzeige**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **nur Anzeige**
+  Optionen:
 
-• **Erfassung**
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Attribut ‚*Arbeits-Regel*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Feld ‚*Ship-To*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
 
-**Anzahl der Analyseproben**
+  **FA-Beleg-Referenz**
 
-Parameternummer: 147
+  Parameternummer: 148
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Optionen:
+  Optionen:
 
-• **keine Anzeige**
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-• **nur Anzeige**
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Feld ‚*FA-Beleg-Referenz*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
 
-• **Erfassung**
+  **Einlagerungskennzeichen**
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Attribut ‚*Anzahl der Analyseproben*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll. Der Wert dieses Attributs wird bei der Ermittlung von Analysewerten per Formel mit dem Typ ‚Fix-Durchschnitt‘ benötigt.
+  Parameternummer: 167
 
-**Herkunft-/Ziel-Land**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Parameternummer: 153
+  Optionen:
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-Optionen:
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob Einlagerungskennzeichen auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
 
-• **keine Anzeige**
+  **Vorbelegung Einlagerung**
 
-• **nur Anzeige**
+  Parameternummer: 168
 
-• **Erfassung**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Feld ‚*Herkunft-/Ziel-Land*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
+  Optionen:
 
-**Herkunft-/Ziel-Region**
+- **nein**
+- **ja**
 
-Parameternummer: 154
+  Für die Erfassung und Erzeugung von Rohwarelieferscheine legt dieser Parameter fest, wie das Einlagerungskennzeichen vorbelegt werden soll.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  **Einlagerungsvereinnahmungskennzeichen**
 
-Optionen:
+  Parameternummer: 169
 
-• **keine Anzeige**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **nur Anzeige**
+  Optionen:
 
-• **Erfassung**
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Feld ‚*Herkunft-/Ziel-Region*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob Einlagerungsvereinnahmungskennzeichen auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
 
-**Ship-From**
+  **Vorbelegung Einlagerungsvereinnahmung**
 
-Parameternummer: 179
+  Parameternummer: 170
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Optionen:
+  Optionen:
 
-• **keine Anzeige**
+- **nein**
+- **ja**
 
-• **nur Anzeige**
+  Für die Erfassung und Erzeugung von Rohwarelieferscheine legt dieser Parameter fest, wie das Vereinnahmungskennzeichen von Einlagerungen vorbelegt werden soll. Wird jedoch bereits das Einlagerungskennzeichen mit ‚*Ja*‘ vorbelegt, so kann das Vereinnahmungskennzeichen nur auf ‚*Nein*‘ gesetzt werden.
 
-• **Erfassung**
+  **Nachhaltigkeits-Status**
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Feld ‚*Ship-From*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
+  Parameternummer: 181
 
-**Ship-To**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Parameternummer: 180
+  Optionen:
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-Optionen:
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob der Nachhaltigkeitsstatus auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
 
-• **keine Anzeige**
+  **Nachhaltigkeit-Anbauland/Region**
 
-• **nur Anzeige**
+  Parameternummer: 182
 
-• **Erfassung**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Feld ‚*Ship-To*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
+  Optionen:
 
-**FA-Beleg-Referenz**
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-Parameternummer: 148
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Feld für Anbauland/-Region zur Nachhaltigkeit auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  **THG/TSW Anbau (Nachhaltigkeit)**
 
-Optionen:
+  Parameternummer: 183
 
-• **keine Anzeige**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **nur Anzeige**
+  Optionen:
 
-• **Erfassung**
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Feld ‚*FA-Beleg-Referenz*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Feld für den THG/TSW-Wert des Anbaus zur Nachhaltigkeit auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
 
-**Einlagerungskennzeichen**
+  **THG/TSW Lieferung (Nachhaltigkeit)**
 
-Parameternummer: 167
+  Parameternummer: 184
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Optionen:
+  Optionen:
 
-• **keine Anzeige**
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-• **nur Anzeige**
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Feld für den THG/TSW-Wert der Lieferung zur Nachhaltigkeit auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
 
-• **Erfassung**
+  **THG/TSW Verarbeitung (Nachhaltigkeit)**
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob Einlagerungskennzeichen auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
+  Parameternummer: 185
 
-**Vorbelegung Einlagerung**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Parameternummer: 168
+  Optionen:
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-Optionen:
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Feld für den THG/TSW-Wert der Verarbeitung zur Nachhaltigkeit auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
 
-• **nein**
+  **Nachhaltigkeits-Zertifikat**
 
-• **ja**
+  Parameternummer: 186
 
-Für die Erfassung und Erzeugung von Rohwarelieferscheine legt dieser Parameter fest, wie das Einlagerungskennzeichen vorbelegt werden soll.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-**Einlagerungsvereinnahmungskennzeichen**
+  Optionen:
 
-Parameternummer: 169
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Feld für die Zertifikat-ID zur Nachhaltigkeit auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
 
-Optionen:
+  **Zahlungsart Abschlag**
 
-• **keine Anzeige**
+  Parameternummer: 23
 
-• **nur Anzeige**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **Erfassung**
+  Optionen:
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob Einlagerungsvereinnahmungskennzeichen auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-**Vorbelegung Einlagerungsvereinnahmung**
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Zahlungsart für Rohwarebelege der Stufe ‚*Abschlag*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
 
-Parameternummer: 170
+  **Vorbelegung Zahlungsart Abschlag**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Parameternummer: 24
 
-Optionen:
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **nein**
+  Optionen: Versandartnummer oder 0
 
-• **ja**
+  Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Zahlungsart der Stufe ‚*Abschlag*‘. Ist der Parameterwert ‚-1‘, so wird zur Vorbelegung die dem Kunden beziehungsweise Lieferanten zugeordnete Zahlungsart genutzt.
 
-Für die Erfassung und Erzeugung von Rohwarelieferscheine legt dieser Parameter fest, wie das Vereinnahmungskennzeichen von Einlagerungen vorbelegt werden soll. Wird jedoch bereits das Einlagerungskennzeichen mit ‚*Ja*‘ vorbelegt, so kann das Vereinnahmungskennzeichen nur auf ‚*Nein*‘ gesetzt werden.
+  **Zahlungsart Folgeabschlag**
 
-**Nachhaltigkeits-Status**
+  Parameternummer: 25
 
-Parameternummer: 181
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Optionen:
 
-Optionen:
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-• **keine Anzeige**
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Zahlungsart für Rohwarebelege der Stufe ‚*Folgeabschlag*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
 
-• **nur Anzeige**
+  **Vorbelegung Zahlungsart Folgeabschlag**
 
-• **Erfassung**
+  Parameternummer: 26
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob der Nachhaltigkeitsstatus auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-**Nachhaltigkeit-Anbauland/Region**
+  Optionen: Versandartnummer oder 0
 
-Parameternummer: 182
+  Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Zahlungsart der Stufe ‚*Folgeabschlag*‘. Ist der Parameterwert ‚-1‘, so wird zur Vorbelegung die dem Kunden beziehungsweise Lieferanten zugeordnete Zahlungsart genutzt.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  **Zahlungsart Finale**
 
-Optionen:
+  Parameternummer: 27
 
-• **keine Anzeige**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **nur Anzeige**
+  Optionen:
 
-• **Erfassung**
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Feld für Anbauland/-Region zur Nachhaltigkeit auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Zahlungsart für Rohwarebelege der Stufe ‚*Finalabrechnung*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
 
-**THG/TSW Anbau (Nachhaltigkeit)**
+  **Vorbelegung Zahlungsart Finale**
 
-Parameternummer: 183
+  Parameternummer: 28
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Optionen:
+  Optionen: Versandartnummer oder 0
 
-• **keine Anzeige**
+  Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Zahlungsart der Stufe ‚*Finalabrechnung*‘. Ist der Parameterwert ‚-1‘, so wird zur Vorbelegung die dem Kunden beziehungsweise Lieferanten zugeordnete Zahlungsart genutzt.
 
-• **nur Anzeige**
+  **Zahlungsbedingung Abschlag**
 
-• **Erfassung**
+  Parameternummer: 56
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Feld für den THG/TSW-Wert des Anbaus zur Nachhaltigkeit auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-**THG/TSW Lieferung (Nachhaltigkeit)**
+  Optionen:
 
-Parameternummer: 184
+- **keine Anzeige**
+- **nur Anzeige**
+- **ZB-Nummer erfassen**
+- **ZB-Nummer + Werte erfassbar**
+- **ZB-Nummer + Werte immer erfassen**
+- **Nur ZB-Werte erfassbar**
+- **nur Anzeige mit ZB-Werten**
+- **ZB-Nummer erfassen, Werte anzeigen**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, wie die Zahlungsbedingungsfelder für Rohwarebelege der Stufe ‚*Abschlag*‘ auf der Bearbeitungsmaske zu behandeln sind. Das betrifft sowohl das Maskenfeld für die Zahlungsbedingungsnummer als auch den Bereich mit den zugehörigen Zahlungsbedingungswerten.
 
-Optionen:
+  **Feste ZB für Abschlag**
 
-• **keine Anzeige**
+  Parameternummer: 57
 
-• **nur Anzeige**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **Erfassung**
+  Optionen:
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Feld für den THG/TSW-Wert der Lieferung zur Nachhaltigkeit auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
+- **nein**
+- **ja**
 
-**THG/TSW Verarbeitung (Nachhaltigkeit)**
+  Für die Erfassung und Erzeugung von Rohwarelieferscheine legt dieser Parameter fest, wie die Zahlungsbedingung für Rohwarebelege der Stufe ‚*Abschlag*‘ vorbelegt werden. Die Einstellung ‚*Nein*‘ bewirkt die Vorbelegung mit der dem Kunden beziehungsweise Lieferanten zugeordneten Zahlungsbedingung. Ist hier der Wert ‚*Ja*‘ zugeordnet, so wird der Wert des Parameters [Abschlag-Zahlungsbedingungs-Nummer](./rohwareparameter_uebersicht.md#RWPA_58) zur Vorbelegung herangezogen.
 
-Parameternummer: 185
+  **Abschlag-Zahlungsbedingungs-Nummer**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Parameternummer: 58
 
-Optionen:
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **keine Anzeige**
+  Optionen: Versandartnummer oder 0
 
-• **nur Anzeige**
+  Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Zahlungsbedingungsnummer der Stufe ‚*Abschlag*‘, wenn der Wert des Parameters [Feste ZB für Abschlag](./rohwareparameter_uebersicht.md#RWPA_57) mit dem Wert ‚*Ja‘* eingestellt ist.
 
-• **Erfassung**
+  **Zahlungsbedingung Folgeabschlag**
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Feld für den THG/TSW-Wert der Verarbeitung zur Nachhaltigkeit auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
+  Parameternummer: 59
 
-**Nachhaltigkeits-Zertifikat**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Parameternummer: 186
+  Optionen:
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+- **keine Anzeige**
+- **nur Anzeige**
+- **ZB-Nummer erfassen**
+- **ZB-Nummer + Werte erfassbar**
+- **ZB-Nummer + Werte immer erfassen**
+- **Nur ZB-Werte erfassbar**
+- **nur Anzeige mit ZB-Werten**
+- **ZB-Nummer erfassen, Werte anzeigen**
 
-Optionen:
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, wie die Zahlungsbedingungsfelder für Rohwarebelege der Stufe ‚*Folgeabschlag*‘ auf der Bearbeitungsmaske zu behandeln sind. Das betrifft sowohl das Maskenfeld für die Zahlungsbedingungsnummer als auch den Bereich mit den zugehörigen Zahlungsbedingungswerten.
 
-• **keine Anzeige**
+  **Feste ZB für Folgeabschlag**
 
-• **nur Anzeige**
+  Parameternummer: 60
 
-• **Erfassung**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Feld für die Zertifikat-ID zur Nachhaltigkeit auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
+  Optionen:
 
-**Zahlungsart Abschlag**
+- **nein**
+- **ja**
 
-Parameternummer: 23
+  Für die Erfassung und Erzeugung von Rohwarelieferscheine legt dieser Parameter fest, wie die Zahlungsbedingung für Rohwarebelege der Stufe ‚*Folgeabschlag*‘ vorbelegt werden. Die Einstellung ‚*Nein*‘ bewirkt die Vorbelegung mit der dem Kunden beziehungsweise Lieferanten zugeordneten Zahlungsbedingung. Ist hier der Wert ‚*Ja*‘ zugeordnet, so wird der Wert des Parameters [Folgeabschlag-Zahlungsbedingungs-Nummer](./rohwareparameter_uebersicht.md#RWPA_61) zur Vorbelegung herangezogen.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  **Folgeabschlag-Zahlungsbedingungs-Nummer**
 
-Optionen:
+  Parameternummer: 61
 
-• **keine Anzeige**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **nur Anzeige**
+  Optionen: Versandartnummer oder 0
 
-• **Erfassung**
+  Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Zahlungsbedingungsnummer der Stufe ‚*Folgeabschlag*‘, wenn der Wert des Parameters [Feste ZB für Folgeabschlag](./rohwareparameter_uebersicht.md#RWPA_60) mit dem Wert ‚*Ja‘* eingestellt ist.
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Zahlungsart für Rohwarebelege der Stufe ‚*Abschlag*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
+  **Zahlungsbedingung für Finale**
 
-**Vorbelegung Zahlungsart Abschlag**
+  Parameternummer: 62
 
-Parameternummer: 24
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Optionen:
 
-Optionen: Versandartnummer oder 0
+- **keine Anzeige**
+- **nur Anzeige**
+- **ZB-Nummer erfassen**
+- **ZB-Nummer + Werte erfassbar**
+- **ZB-Nummer + Werte immer erfassen**
+- **Nur ZB-Werte erfassbar**
+- **nur Anzeige mit ZB-Werten**
+- **ZB-Nummer erfassen, Werte anzeigen**
 
-Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Zahlungsart der Stufe ‚*Abschlag*‘. Ist der Parameterwert ‚-1‘, so wird zur Vorbelegung die dem Kunden beziehungsweise Lieferanten zugeordnete Zahlungsart genutzt.
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, wie die Zahlungsbedingungsfelder für Rohwarebelege der Stufe ‚*Finalabrechnung*‘ auf der Bearbeitungsmaske zu behandeln sind. Das betrifft sowohl das Maskenfeld für die Zahlungsbedingungsnummer als auch den Bereich mit den zugehörigen Zahlungsbedingungswerten.
 
-**Zahlungsart Folgeabschlag**
+  **Feste ZB für Finale**
 
-Parameternummer: 25
+  Parameternummer: 63
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Optionen:
+  Optionen:
 
-• **keine Anzeige**
+- **nein**
+- **ja**
 
-• **nur Anzeige**
+  Für die Erfassung und Erzeugung von Rohwarelieferscheine legt dieser Parameter fest, wie die Zahlungsbedingung für Rohwarebelege der Stufe ‚*Finalabrechnung*‘ vorbelegt werden. Die Einstellung ‚*Nein*‘ bewirkt die Vorbelegung mit der dem Kunden beziehungsweise Lieferanten zugeordneten Zahlungsbedingung. Ist hier der Wert ‚*Ja*‘ zugeordnet, so wird der Wert des Parameters [Final-Zahlungsbedingungs-Nummer](./rohwareparameter_uebersicht.md#RWPA_64) zur Vorbelegung herangezogen.
 
-• **Erfassung**
+  **Final-Zahlungsbedingungs-Nummer**
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Zahlungsart für Rohwarebelege der Stufe ‚*Folgeabschlag*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
+  Parameternummer: 64
 
-**Vorbelegung Zahlungsart Folgeabschlag**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Parameternummer: 26
+  Optionen: Versandartnummer oder 0
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Zahlungsbedingungsnummer der Stufe ‚*Finalabrechnung*‘, wenn der Wert des Parameters [Feste ZB für Finale](./rohwareparameter_uebersicht.md#RWPA_63) mit dem Wert ‚*Ja‘* eingestellt ist.
 
-Optionen: Versandartnummer oder 0
+  **Abschlagabrechnung**
 
-Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Zahlungsart der Stufe ‚*Folgeabschlag*‘. Ist der Parameterwert ‚-1‘, so wird zur Vorbelegung die dem Kunden beziehungsweise Lieferanten zugeordnete Zahlungsart genutzt.
+  Parameternummer: 12
 
-**Zahlungsart Finale**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Parameternummer: 27
+  Optionen:
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+- **kein Abschlag**
+- **Abschlag erlaubt**
+- **Abschlag muss erfolgen**
 
-Optionen:
+  Für die Erfassung und Erzeugung von Rohwarelieferscheine legt dieser Parameter fest, ob Abschlagabrechnungen erstellt werden dürfen oder müssen. Bei der Umwandlung von Rohwarelieferscheinen in eine Abrechnung wird dieser Parameter entsprechend zur Prüfung der Umwandelerlaubnis herangezogen. Ist kein Abschlag erlaubt, so werden bei der Erfassung und Korrektur der Belege abschlagrelevante Daten in der Regel nicht dargestellt.
 
-• **keine Anzeige**
+  **Abschlagermittlung**
 
-• **nur Anzeige**
+  Parameternummer: 13
 
-• **Erfassung**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Zahlungsart für Rohwarebelege der Stufe ‚*Finalabrechnung*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll.
+  Optionen:
 
-**Vorbelegung Zahlungsart Finale**
+- **durch Prozentsatz**
+- **durch Abschlagpreis**
 
-Parameternummer: 28
+  Für die Erfassung, Erzeugung und Abrechnung von Rohwarebelegen legt dieser Parameter fest, wie die Berechnung von Abschlagabrechnungen zu erfolgen hat. Ist der Wert ‚*durch %-Satz*‘, so kann im Beleg beziehungsweise im zugehörigen Abrechnungsschema ein Prozentsatz angegeben werden, der den Anteil des eigentlichen Beleggesamtwertes, gegebenenfalls mit Ausnahme von Kostenpositionen, als Abschlagbetrag bestimmt. Bei der Option ‚*durch Abschlagpreis*‘ hingegen wird in den Warenpositionen mit einem eventuell vom eigentlichen Preis abweichenden Abschlagpreis gerechnet.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  **Abschlagsatz**
 
-Optionen: Versandartnummer oder 0
+  Parameternummer: 68
 
-Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Zahlungsart der Stufe ‚*Finalabrechnung*‘. Ist der Parameterwert ‚-1‘, so wird zur Vorbelegung die dem Kunden beziehungsweise Lieferanten zugeordnete Zahlungsart genutzt.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-**Zahlungsbedingung Abschlag**
+  Optionen:
 
-Parameternummer: 56
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob der prozentuale Abschlagsatz auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll. Bei der Erfassung wird der Abschlagsatz immer aus dem Abschlagsatz des zugehörigen Abrechnungsschemas vorbelegt. Ist der Wert des Parameters [Abschlagermittlung](./rohwareparameter_uebersicht.md#RWPA_13) ‚*durch Abschlagpreis*‘, so wird das Maskenfeld für den Abschlagsatz immer unterdrückt.
 
-Optionen:
+  **Abschlagstatus**
 
-• **keine Anzeige**
+  Parameternummer: 73
 
-• **nur Anzeige**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **ZB-Nummer erfassen**
+  Optionen:
 
-• **ZB-Nummer + Werte erfassbar**
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-• **ZB-Nummer + Werte immer erfassen**
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob der Abschlagstatus auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
 
-• **Nur ZB-Werte erfassbar**
+  **Vorbelegung Abschlagstatus**
 
-• **nur Anzeige mit ZB-Werten**
+  Parameternummer: 70
 
-• **ZB-Nummer erfassen, Werte anzeigen**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, wie die Zahlungsbedingungsfelder für Rohwarebelege der Stufe ‚*Abschlag*‘ auf der Bearbeitungsmaske zu behandeln sind. Das betrifft sowohl das Maskenfeld für die Zahlungsbedingungsnummer als auch den Bereich mit den zugehörigen Zahlungsbedingungswerten.
+  Optionen:
 
-**Feste ZB für Abschlag**
+- **ohne**
+- **gesperrt**
+- **freigegeben**
 
-Parameternummer: 57
+  Mit diesem Parameter wird für die Erfassung und Erzeugung von Rohwarelieferscheine festgelegt, mit welchem Wert der Abschlagstatus vorbelegt wird. Der Wert ‚*ohne*‘ bewirkt, dass der Lieferschein nicht in einen Abschlagbeleg sondern nur direkt in einen Finalbeleg gewandelt werden kann. Rohwarelieferscheine zu Vorfakturierungskontrakten können nur direkt finalisiert werden. Der Wert ‚*gesperrt*‘ erzwingt als nächste Stufe einen Beleg der Stufe ‚*Abschlag*‘, der aber noch nicht abgerechnet werden kann. Es können hingegen nach der Umwandlung noch fehlende Belegkorrekturen vorgenommen werden. Der Status ‚*freigegeben*‘ ermöglicht nach der Umwandlung in einen Abschlagbeleg die unmittelbare Abrechnung desselben.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  **Folgeabschlagstatus**
 
-Optionen:
+  Parameternummer: 74
 
-• **nein**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **ja**
+  Optionen:
 
-Für die Erfassung und Erzeugung von Rohwarelieferscheine legt dieser Parameter fest, wie die Zahlungsbedingung für Rohwarebelege der Stufe ‚*Abschlag*‘ vorbelegt werden. Die Einstellung ‚*Nein*‘ bewirkt die Vorbelegung mit der dem Kunden beziehungsweise Lieferanten zugeordneten Zahlungsbedingung. Ist hier der Wert ‚*Ja*‘ zugeordnet, so wird der Wert des Parameters [Abschlag-Zahlungsbedingungs-Nummer](./rohwareparameter_uebersicht.md#RWPA_58) zur Vorbelegung herangezogen.
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-**Abschlag-Zahlungsbedingungs-Nummer**
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob der Folgeabschlagstatus auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
 
-Parameternummer: 58
+  **Vorbelegung Folgeabschlagstatus**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Parameternummer: 71
 
-Optionen: Versandartnummer oder 0
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Zahlungsbedingungsnummer der Stufe ‚*Abschlag*‘, wenn der Wert des Parameters [Feste ZB für Abschlag](./rohwareparameter_uebersicht.md#RWPA_57) mit dem Wert ‚*Ja‘* eingestellt ist.
+  Optionen:
 
-**Zahlungsbedingung Folgeabschlag**
+- **ohne**
+- **gesperrt**
+- **freigegeben**
 
-Parameternummer: 59
+  Mit diesem Parameter wird für die Erfassung und Erzeugung von Rohwarelieferscheine festgelegt, mit welchem Wert der Folgeabschlagstatus vorbelegt wird. Der Wert ‚*ohne*‘ bewirkt, dass kein Folgeabschlagbeleg erzeugt werden kann. Folgeabschlagbelege können nur zu Abschlagbelegen erzeugt werden. Der Wert ‚*gesperrt*‘ erzwingt die Erzeugung eines Beleges der Stufe ‚*Folgeabschlag*‘, der aber noch nicht abgerechnet werden kann. Es können hingegen nach der Umwandlung noch fehlende Belegkorrekturen vorgenommen werden. Der Status ‚*freigegeben*‘ ermöglicht nach der Umwandlung in einen Folgeabschlagbeleg die unmittelbare Abrechnung desselben.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  **Finalstatus**
 
-Optionen:
+  Parameternummer: 75
 
-• **keine Anzeige**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **nur Anzeige**
+  Optionen:
 
-• **ZB-Nummer erfassen**
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-• **ZB-Nummer + Werte erfassbar**
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob der Finalstatus auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
 
-• **ZB-Nummer + Werte immer erfassen**
+  **Vorbelegung Finalstatus**
 
-• **Nur ZB-Werte erfassbar**
+  Parameternummer: 72
 
-• **nur Anzeige mit ZB-Werten**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **ZB-Nummer erfassen, Werte anzeigen**
+  Optionen:
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, wie die Zahlungsbedingungsfelder für Rohwarebelege der Stufe ‚*Folgeabschlag*‘ auf der Bearbeitungsmaske zu behandeln sind. Das betrifft sowohl das Maskenfeld für die Zahlungsbedingungsnummer als auch den Bereich mit den zugehörigen Zahlungsbedingungswerten.
+- **gesperrt**
+- **freigegeben**
 
-**Feste ZB für Folgeabschlag**
+  Mit diesem Parameter wird für die Erfassung und Erzeugung von Rohwarelieferscheine festgelegt, mit welchem Wert der Finalstatus vorbelegt wird. Der Wert ‚*gesperrt*‘ bewirkt, dass der Finalbeleg nach der Erzeugung noch nicht abgerechnet werden kann. Es können hingegen nach der Umwandlung noch fehlende Belegkorrekturen vorgenommen werden. Der Status ‚*freigegeben*‘ ermöglicht nach der Umwandlung in einen Finalbeleg die unmittelbare Abrechnung desselben.
 
-Parameternummer: 60
+  **Finale nach Jahreswechsel geplant**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Parameternummer: 158
 
-Optionen:
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **nein**
+  Optionen:
 
-• **ja**
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-Für die Erfassung und Erzeugung von Rohwarelieferscheine legt dieser Parameter fest, wie die Zahlungsbedingung für Rohwarebelege der Stufe ‚*Folgeabschlag*‘ vorbelegt werden. Die Einstellung ‚*Nein*‘ bewirkt die Vorbelegung mit der dem Kunden beziehungsweise Lieferanten zugeordneten Zahlungsbedingung. Ist hier der Wert ‚*Ja*‘ zugeordnet, so wird der Wert des Parameters [Folgeabschlag-Zahlungsbedingungs-Nummer](./rohwareparameter_uebersicht.md#RWPA_61) zur Vorbelegung herangezogen.
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Kennzeichen ‚*Finale nach Jahreswechsel* ‘auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
 
-**Folgeabschlag-Zahlungsbedingungs-Nummer**
+  **Vertretergruppe**
 
-Parameternummer: 61
+  Parameternummer: 31
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Optionen: Versandartnummer oder 0
+  Optionen:
 
-Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Zahlungsbedingungsnummer der Stufe ‚*Folgeabschlag*‘, wenn der Wert des Parameters [Feste ZB für Folgeabschlag](./rohwareparameter_uebersicht.md#RWPA_60) mit dem Wert ‚*Ja‘* eingestellt ist.
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-**Zahlungsbedingung für Finale**
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Vertretergruppe auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
 
-Parameternummer: 62
+  **Vorbelegung Vertretergruppe**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Parameternummer: 32
 
-Optionen:
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **keine Anzeige**
+  Optionen:
 
-• **nur Anzeige**
+- **aus Kundenstamm**
+- **fester Wert**
 
-• **ZB-Nummer erfassen**
+  Mit diesem Parameter wird für die Erfassung und Erzeugung von Rohwarelieferscheine von Rohwarebelegen festgelegt, mit welchem Wert die Vertretergruppe vorbelegt wird. Dieser kann entweder aus dem Kundenstamm beziehungsweise Lieferantenstamm versorgt werden oder mit dem Fix-Wert des Parameters [Vertretergruppenfestwert](./rohwareparameter_uebersicht.md#RWPA_45) vorbelegt werden. Bei der Erfassung oder Erzeugung von Rohwarelieferscheinen mit Kontraktzuordnung, kann die Vertretergruppe entsprechend der Einstellung des Parameters [Vertretergruppe aus Kontrakt](./rohwareparameter_uebersicht.md#RWPA_87) auch aus der Zuordnung im Kontrakt übernommen werden.
 
-• **ZB-Nummer + Werte erfassbar**
+  **Vertretergruppenfestwert**
 
-• **ZB-Nummer + Werte immer erfassen**
+  Parameternummer: 45
 
-• **Nur ZB-Werte erfassbar**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **nur Anzeige mit ZB-Werten**
+  Optionen: Vertretergruppennummer oder 0
 
-• **ZB-Nummer erfassen, Werte anzeigen**
+  Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Nummer der Vertretergruppenvorbelegung, wenn der Parameter [Vorbelegung Vertretergruppe](./rohwareparameter_uebersicht.md#RWPA_32) mit ‚*fester Wert*‘ eingestellt ist.
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, wie die Zahlungsbedingungsfelder für Rohwarebelege der Stufe ‚*Finalabrechnung*‘ auf der Bearbeitungsmaske zu behandeln sind. Das betrifft sowohl das Maskenfeld für die Zahlungsbedingungsnummer als auch den Bereich mit den zugehörigen Zahlungsbedingungswerten.
+  **Verkaufsgebiet**
 
-**Feste ZB für Finale**
+  Parameternummer: 38
 
-Parameternummer: 63
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Optionen:
 
-Optionen:
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-• **nein**
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Verkaufsgebiet auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
 
-• **ja**
+  **Fakturiergruppe**
 
-Für die Erfassung und Erzeugung von Rohwarelieferscheine legt dieser Parameter fest, wie die Zahlungsbedingung für Rohwarebelege der Stufe ‚*Finalabrechnung*‘ vorbelegt werden. Die Einstellung ‚*Nein*‘ bewirkt die Vorbelegung mit der dem Kunden beziehungsweise Lieferanten zugeordneten Zahlungsbedingung. Ist hier der Wert ‚*Ja*‘ zugeordnet, so wird der Wert des Parameters [Final-Zahlungsbedingungs-Nummer](./rohwareparameter_uebersicht.md#RWPA_64) zur Vorbelegung herangezogen.
+  Parameternummer: 42
 
-**Final-Zahlungsbedingungs-Nummer**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Parameternummer: 64
+  Optionen:
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-Optionen: Versandartnummer oder 0
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Fakturiergruppe auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
 
-Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Zahlungsbedingungsnummer der Stufe ‚*Finalabrechnung*‘, wenn der Wert des Parameters [Feste ZB für Finale](./rohwareparameter_uebersicht.md#RWPA_63) mit dem Wert ‚*Ja‘* eingestellt ist.
+  **Vorbelegung Fakturiergruppe**
 
-**Abschlagabrechnung**
+  Parameternummer: 43
 
-Parameternummer: 12
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Optionen:
 
-Optionen:
+- **aus Kundenstamm**
+- **fester Wert**
 
-• **kein Abschlag**
+  Für die Erfassung und Erzeugung von Rohwarelieferscheine steuert dieser Parameter die Vorbelegung der Fakturiergruppe. Diese kann aus dem Stammsatz des Lieferanten/Kunden entnommen werden. Die Einstellung ‚*fester Wert*‘ hingegen legt die Fakturiergruppe auf den dem Parameter [Fakturiergruppenfestwert](./rohwareparameter_uebersicht.md#RWPA_44) zugewiesenen Wert fest.
 
-• **Abschlag erlaubt**
+  **Fakturiergruppenfestwert**
 
-• **Abschlag muss erfolgen**
+  Parameternummer: 44
 
-Für die Erfassung und Erzeugung von Rohwarelieferscheine legt dieser Parameter fest, ob Abschlagabrechnungen erstellt werden dürfen oder müssen. Bei der Umwandlung von Rohwarelieferscheinen in eine Abrechnung wird dieser Parameter entsprechend zur Prüfung der Umwandelerlaubnis herangezogen. Ist kein Abschlag erlaubt, so werden bei der Erfassung und Korrektur der Belege abschlagrelevante Daten in der Regel nicht dargestellt.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-**Abschlagermittlung**
+  Optionen: Steuergruppennummer
 
-Parameternummer: 13
+  Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Fakturiergruppe, wenn der zugehörige Parameter [Vorbelegung Fakturiergruppe](./rohwareparameter_uebersicht.md#RWPA_43) mit der Einstellung ‚*fester Wert*‘ versehen ist.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  **LKW-Nummer Motorwagen**
 
-Optionen:
+  Parameternummer: 33
 
-• **durch Prozentsatz**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **durch Abschlagpreis**
+  Optionen:
 
-Für die Erfassung, Erzeugung und Abrechnung von Rohwarebelegen legt dieser Parameter fest, wie die Berechnung von Abschlagabrechnungen zu erfolgen hat. Ist der Wert ‚*durch %-Satz*‘, so kann im Beleg beziehungsweise im zugehörigen Abrechnungsschema ein Prozentsatz angegeben werden, der den Anteil des eigentlichen Beleggesamtwertes, gegebenenfalls mit Ausnahme von Kostenpositionen, als Abschlagbetrag bestimmt. Bei der Option ‚*durch Abschlagpreis*‘ hingegen wird in den Warenpositionen mit einem eventuell vom eigentlichen Preis abweichenden Abschlagpreis gerechnet.
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-**Abschlagsatz**
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die für den Motorwagen vorgesehene LKW-Nummer auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
 
-Parameternummer: 68
+  **LKW-Nummer Anhänger**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Parameternummer: 34
 
-Optionen:
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **keine Anzeige**
+  Optionen:
 
-• **nur Anzeige**
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-• **Erfassung**
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die für den Anhänger vorgesehene LKW-Nummer auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob der prozentuale Abschlagsatz auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar sein soll. Bei der Erfassung wird der Abschlagsatz immer aus dem Abschlagsatz des zugehörigen Abrechnungsschemas vorbelegt. Ist der Wert des Parameters [Abschlagermittlung](./rohwareparameter_uebersicht.md#RWPA_13) ‚*durch Abschlagpreis*‘, so wird das Maskenfeld für den Abschlagsatz immer unterdrückt.
+  **Fahrernummer**
 
-**Abschlagstatus**
+  Parameternummer: 35
 
-Parameternummer: 73
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Optionen:
 
-Optionen:
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-• **keine Anzeige**
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Fahrernummer auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
 
-• **nur Anzeige**
+  **Startgebietsnummer**
 
-• **Erfassung**
+  Parameternummer: 36
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob der Abschlagstatus auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-**Vorbelegung Abschlagstatus**
+  Optionen:
 
-Parameternummer: 70
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Nummer des Startgebiets auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
 
-Optionen:
+  **Zielgebietsnummer**
 
-• **ohne**
+  Parameternummer: 37
 
-• **gesperrt**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **freigegeben**
+  Optionen:
 
-Mit diesem Parameter wird für die Erfassung und Erzeugung von Rohwarelieferscheine festgelegt, mit welchem Wert der Abschlagstatus vorbelegt wird. Der Wert ‚*ohne*‘ bewirkt, dass der Lieferschein nicht in einen Abschlagbeleg sondern nur direkt in einen Finalbeleg gewandelt werden kann. Rohwarelieferscheine zu Vorfakturierungskontrakten können nur direkt finalisiert werden. Der Wert ‚*gesperrt*‘ erzwingt als nächste Stufe einen Beleg der Stufe ‚*Abschlag*‘, der aber noch nicht abgerechnet werden kann. Es können hingegen nach der Umwandlung noch fehlende Belegkorrekturen vorgenommen werden. Der Status ‚*freigegeben*‘ ermöglicht nach der Umwandlung in einen Abschlagbeleg die unmittelbare Abrechnung desselben.
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-**Folgeabschlagstatus**
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Nummer des Zielgebiets auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
 
-Parameternummer: 74
+  **Druckformular Lieferschein**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Parameternummer: 46
 
-Optionen:
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **keine Anzeige**
+  Optionen:
 
-• **nur Anzeige**
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-• **Erfassung**
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Nummer des Druckformulars für die Stufe ‚Lieferschein‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob der Folgeabschlagstatus auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
+  **Vorbelegung Lieferscheinformular**
 
-**Vorbelegung Folgeabschlagstatus**
+  Parameternummer: 47
 
-Parameternummer: 71
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Optionen: Formularnummer oder 0
 
-Optionen:
+  Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Formularnummer für den Lieferscheindruck. Ist der Parameterwert ‚0‘, so wird zur Vorbelegung die in der Formularzuordnung der Vorgangsunterklasse angegebene Formularnummer verwendet.
 
-• **ohne**
+  **Druckformular Abschlag**
 
-• **gesperrt**
+  Parameternummer: 48
 
-• **freigegeben**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Mit diesem Parameter wird für die Erfassung und Erzeugung von Rohwarelieferscheine festgelegt, mit welchem Wert der Folgeabschlagstatus vorbelegt wird. Der Wert ‚*ohne*‘ bewirkt, dass kein Folgeabschlagbeleg erzeugt werden kann. Folgeabschlagbelege können nur zu Abschlagbelegen erzeugt werden. Der Wert ‚*gesperrt*‘ erzwingt die Erzeugung eines Beleges der Stufe ‚*Folgeabschlag*‘, der aber noch nicht abgerechnet werden kann. Es können hingegen nach der Umwandlung noch fehlende Belegkorrekturen vorgenommen werden. Der Status ‚*freigegeben*‘ ermöglicht nach der Umwandlung in einen Folgeabschlagbeleg die unmittelbare Abrechnung desselben.
+  Optionen:
 
-**Finalstatus**
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-Parameternummer: 75
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Nummer des Einzelbeleg-Druckformulars für die Stufe ‚*Abschlag*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  **Vorbelegung Abschlagformular**
 
-Optionen:
+  Parameternummer: 49
 
-• **keine Anzeige**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **nur Anzeige**
+  Optionen: Formularnummer oder 0
 
-• **Erfassung**
+  Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Formularnummer für den Einzelbelegdruck der Stufe ‚*Abschlag*‘. Ist der Parameterwert ‚0‘, so wird zur Vorbelegung die in der Formularzuordnung der Vorgangsunterklasse angegebene Formularnummer verwendet.
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob der Finalstatus auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
+  **Sammeldruckformular Abschlag**
 
-**Vorbelegung Finalstatus**
+  Parameternummer: 96
 
-Parameternummer: 72
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Optionen:
 
-Optionen:
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-• **gesperrt**
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Nummer Sammeldruckformulars für die Stufe ‚*Abschlag*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
 
-• **freigegeben**
+  **Vorbelegung Abschlag-Sammeldruckformular**
 
-Mit diesem Parameter wird für die Erfassung und Erzeugung von Rohwarelieferscheine festgelegt, mit welchem Wert der Finalstatus vorbelegt wird. Der Wert ‚*gesperrt*‘ bewirkt, dass der Finalbeleg nach der Erzeugung noch nicht abgerechnet werden kann. Es können hingegen nach der Umwandlung noch fehlende Belegkorrekturen vorgenommen werden. Der Status ‚*freigegeben*‘ ermöglicht nach der Umwandlung in einen Finalbeleg die unmittelbare Abrechnung desselben.
+  Parameternummer: 97
 
-**Finale nach Jahreswechsel geplant**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Parameternummer: 158
+  Optionen: Sammeldruck-Formularnummer oder 0
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Formularnummer für den Sammelbelegdruck der Stufe ‚*Abschlag*‘. Generell bedeutet die Sammeldruckformularnummer ‚0‘, dass der Beleg nicht in einen Sammeldruckbeleg integriert werden kann.
 
-Optionen:
+  **Druckformular Folgeabschlag**
 
-• **keine Anzeige**
+  Parameternummer: 50
 
-• **nur Anzeige**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **Erfassung**
+  Optionen:
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Kennzeichen ‚*Finale nach Jahreswechsel* ‘auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-**Vertretergruppe**
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Nummer des Einzelbeleg-Druckformulars für die Stufe ‚*Folgeabschlag*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
 
-Parameternummer: 31
+  **Vorbelegung Folgeabschlagformular**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Parameternummer: 51
 
-Optionen:
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **keine Anzeige**
+  Optionen: Formularnummer oder 0
 
-• **nur Anzeige**
+  Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Formularnummer für den Einzelbelegdruck der Stufe ‚*Folgeabschlag*‘. Ist der Parameterwert ‚0‘, so wird zur Vorbelegung die in der Formularzuordnung der Vorgangsunterklasse angegebene Formularnummer verwendet.
 
-• **Erfassung**
+  **Sammeldruckformular Folgeabschlag**
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Vertretergruppe auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
+  Parameternummer: 98
 
-**Vorbelegung Vertretergruppe**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Parameternummer: 32
+  Optionen:
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-Optionen:
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Nummer Sammeldruckformulars für die Stufe ‚*Folgeabschlag*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
 
-• **aus Kundenstamm**
+  **Vorbelegung Folgeabschlag-Sammeldruckformular**
 
-• **fester Wert**
+  Parameternummer: 99
 
-Mit diesem Parameter wird für die Erfassung und Erzeugung von Rohwarelieferscheine von Rohwarebelegen festgelegt, mit welchem Wert die Vertretergruppe vorbelegt wird. Dieser kann entweder aus dem Kundenstamm beziehungsweise Lieferantenstamm versorgt werden oder mit dem Fix-Wert des Parameters [Vertretergruppenfestwert](./rohwareparameter_uebersicht.md#RWPA_45) vorbelegt werden. Bei der Erfassung oder Erzeugung von Rohwarelieferscheinen mit Kontraktzuordnung, kann die Vertretergruppe entsprechend der Einstellung des Parameters [Vertretergruppe aus Kontrakt](./rohwareparameter_uebersicht.md#RWPA_87) auch aus der Zuordnung im Kontrakt übernommen werden.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-**Vertretergruppenfestwert**
+  Optionen: Sammeldruck-Formularnummer oder 0
 
-Parameternummer: 45
+  Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Formularnummer für den Sammelbelegdruck der Stufe ‚*Folgeabschlag*‘. Generell bedeutet die Sammeldruckformularnummer ‚0‘, dass der Beleg nicht in einen Sammeldruckbeleg integriert werden kann.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  **Druckformular Finale**
 
-Optionen: Vertretergruppennummer oder 0
+  Parameternummer: 52
 
-Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Nummer der Vertretergruppenvorbelegung, wenn der Parameter [Vorbelegung Vertretergruppe](./rohwareparameter_uebersicht.md#RWPA_32) mit ‚*fester Wert*‘ eingestellt ist.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-**Verkaufsgebiet**
+  Optionen:
 
-Parameternummer: 38
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Nummer des Einzelbeleg-Druckformulars für die Stufe ‚*Finalabrechnung*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
 
-Optionen:
+  **Vorbelegung Finalformular**
 
-• **keine Anzeige**
+  Parameternummer: 53
 
-• **nur Anzeige**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **Erfassung**
+  Optionen: Formularnummer oder 0
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob das Verkaufsgebiet auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
+  Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Formularnummer für den Einzelbelegdruck der Stufe ‚*Finalabrechnung*‘. Ist der Parameterwert ‚0‘, so wird zur Vorbelegung die in der Formularzuordnung der Vorgangsunterklasse angegebene Formularnummer verwendet.
 
-**Fakturiergruppe**
+  **Sammeldruckformular Finale**
 
-Parameternummer: 42
+  Parameternummer: 100
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Optionen:
+  Optionen:
 
-• **keine Anzeige**
+- **keine Anzeige**
+- **nur Anzeige**
+- **Erfassung**
 
-• **nur Anzeige**
+  Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Nummer Sammeldruckformulars für die Stufe ‚*Finalabrechnung*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
 
-• **Erfassung**
+  **Vorbelegung Final-Sammeldruckformular**
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Fakturiergruppe auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
+  Parameternummer: 101
 
-**Vorbelegung Fakturiergruppe**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Parameternummer: 43
+  Optionen: Sammeldruck-Formularnummer oder 0
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Formularnummer für den Sammelbelegdruck der Stufe ‚*Finalabrechnung*‘. Generell bedeutet die Sammeldruckformularnummer ‚0‘, dass der Beleg nicht in einen Sammeldruckbeleg integriert werden kann.
 
-Optionen:
+  **Abschlag-Vorschauformular**
 
-• **aus Kundenstamm**
+  Parameternummer: 109
 
-• **fester Wert**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Für die Erfassung und Erzeugung von Rohwarelieferscheine steuert dieser Parameter die Vorbelegung der Fakturiergruppe. Diese kann aus dem Stammsatz des Lieferanten/Kunden entnommen werden. Die Einstellung ‚*fester Wert*‘ hingegen legt die Fakturiergruppe auf den dem Parameter [Fakturiergruppenfestwert](./rohwareparameter_uebersicht.md#RWPA_44) zugewiesenen Wert fest.
+  Optionen: Formularnummer oder 0
 
-**Fakturiergruppenfestwert**
+  Für die Vorschau-Funktion von abgerechneten Rohwarebelegen der Stufe ‚*Abschlag*‘ kann mit diesem Parameter ein Druckformular festgelegt werden. Ist der Parameterwert ‚0‘, so wird zur Vorschau die in der Formularzuordnung der Vorgangsunterklasse angegebene Vorschau-Formularnummer verwendet.
 
-Parameternummer: 44
+  **Folgeabschlag-Vorschauformular**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Parameternummer: 110
 
-Optionen: Steuergruppennummer
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Fakturiergruppe, wenn der zugehörige Parameter [Vorbelegung Fakturiergruppe](./rohwareparameter_uebersicht.md#RWPA_43) mit der Einstellung ‚*fester Wert*‘ versehen ist.
+  Optionen: Formularnummer oder 0
 
-**LKW-Nummer Motorwagen**
+  Für die Vorschau-Funktion von abgerechneten Rohwarebelegen der Stufe ‚*Folgeabschlag*‘ kann mit diesem Parameter ein Druckformular festgelegt werden. Ist der Parameterwert ‚0‘, so wird zur Vorschau die in der Formularzuordnung der Vorgangsunterklasse angegebene Vorschau-Formularnummer verwendet.
 
-Parameternummer: 33
+  **Final-Vorschauformular**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Parameternummer: 111
 
-Optionen:
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **keine Anzeige**
+  Optionen: Formularnummer oder 0
 
-• **nur Anzeige**
+  Für die Vorschau-Funktion von abgerechneten Rohwarebelegen der Stufe ‚*Finalabrechnung*‘ kann mit diesem Parameter ein Druckformular festgelegt werden. Ist der Parameterwert ‚0‘, so wird zur Vorschau die in der Formularzuordnung der Vorgangsunterklasse angegebene Vorschau-Formularnummer verwendet.
 
-• **Erfassung**
+  **Nummer des Feuchte-Qualitätsmerkmals**
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die für den Motorwagen vorgesehene LKW-Nummer auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
+  Parameternummer: 81
 
-**LKW-Nummer Anhänger**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Parameternummer: 34
+  Optionen: Referenznummer
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Zur korrekten Darstellung der Feuchtigkeitswerte in der Auswahllistenvariante ‚*Erfassungsprotokoll*‘ des Rohwarebearbeitungs-Moduls **[RWB] [RWBV]** muss in diesem Parameter die Referenznummer des auszuwertenden Qualitätsmerkmals (in der Regel ‚*Feuchte*‘) angegeben sein. Die relevanten statistischen Daten werden bereits bei Erfassung, Korrektur und Abrechnung von Rohwarebelegen ermittelt und in dafür reservierten Datenfeldern festgehalten.
 
-Optionen:
+  **Erfassung mit Kontrakt**
 
-• **keine Anzeige**
+  Parameternummer: 86
 
-• **nur Anzeige**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **Erfassung**
+  Optionen:
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die für den Anhänger vorgesehene LKW-Nummer auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
+- **nein**
+- **ja**
 
-**Fahrernummer**
+  Dieser Parameter legt für die Erfassung, Erzeugung und Bearbeitung von Rohwarebelegen fest, ob die Kontraktverwaltung aktiviert ist. Insbesondere für Rohwarengruppen oder Abrechnungsschemata, für die grundsätzlich keine Kontrakte zu berücksichtigen sind, kann die Einstellung ‚*Nein*‘ aus programmlaufzeittechnischen Gründen sinnvoll sein.
 
-Parameternummer: 35
+  **Restmenge überprüfen**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Parameternummer: 95
 
-Optionen:
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **keine Anzeige**
+  Optionen:
 
-• **nur Anzeige**
+- **nein**
+- **ja**
 
-• **Erfassung**
+  Dieser Parameter legt für die Erfassung von Rohwarelieferscheinen mit Kontraktzuordnung der Lieferposition fest, ob bei Abschluss des Beleges eine Prüfung der Liefermenge mit der Restmenge des Kontrakts erfolgen soll. Ist dieses der Fall, so wird entsprechend der Einstellung des Kontrakts die erfasste Bruttomenge beziehungsweise die errechnete Nettomenge zur Prüfung herangezogen. Ist die Restmenge der Kontraktposition insgesamt oder die Zeitraum-Restmenge nicht ausreichend, so erfolgt ein entsprechender Hinweis und die Abfrage, ob der Beleg dennoch gespeichert werden soll oder zu korrigieren ist.
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Fahrernummer auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
+  **Beleg aus Waage bei Überziehung möglich**
 
-**Startgebietsnummer**
+  Parameternummer: 155
 
-Parameternummer: 36
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Optionen:
 
-Optionen:
+- **nein**
+- **ja**
 
-• **keine Anzeige**
+  Dieser Parameter legt für die Erzeugung von Rohwarelieferscheinen mit Kontraktzuordnung aus der Waagenschnittstelle **[RWWE] [RWWV]** fest, ob bei Überziehung des Kontrakts bezüglich der Restmenge der Rohwarebeleg dennoch zu erzeugen ist. Es wird entsprechend der Einstellung des Kontrakts die erfasste Bruttomenge beziehungsweise die errechnete Nettomenge zur Prüfung herangezogen. Ist die Restmenge der Kontraktposition insgesamt oder die Zeitraum-Restmenge nicht ausreichend, so erfolgt ein entsprechender Hinweis. Je nach Einstellung dieses Parameters wird der Beleg dann dennoch gespeichert oder verworfen.
 
-• **nur Anzeige**
+  **Erfassungsbeleg teilen bei Übermenge**
 
-• **Erfassung**
+  Parameternummer: 178
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Nummer des Startgebiets auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-**Zielgebietsnummer**
+  Optionen:
 
-Parameternummer: 37
+- **ja**
+- **nein**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Mit der Einstellung dieses Parameters kann bei Belegabschluss einer Rohwareerfassung mit Überschreitung der noch offenen Restmenge des zur Hauptposition angegebenen Kontrakts die [Bearbeitungsmaske zur Belegteilung](../rohwarenbearbeitung/rohware_erfassung_mit_belegsplitting_bei_kontraktmengenueber/index.md) aktiviert werden.
 
-Optionen:
+  **Vertretergruppe aus Kontrakt**
 
-• **keine Anzeige**
+  Parameternummer: 87
 
-• **nur Anzeige**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **Erfassung**
+  Optionen:
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Nummer des Zielgebiets auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
+- **wenn ungleich 0 im Kontrakt**
+- **immer**
+- **nein**
 
-**Druckformular Lieferschein**
+  Dieser Parameter legt für die Erfassung und Erzeugung von Rohwarelieferscheinen mit Kontraktzuordnung fest, ob die Vertretergruppe des Kontrakts zu übernehmen ist. Der Parameterwert ‚*wenn ungleich 0 im Kontrakt*‘ bewirkt, dass die Vertretergruppe des Rohwarebelegs unverändert bleibt, wenn im Kontrakt die Vertretergruppe ‚*0*‘ eingetragen ist. In diesem Fall, wie auch im Fall der Einstellung mit dem Wert ‚*nein*‘, bleibt der durch die Parameter [Vorbelegung Vertretergruppe](./rohwareparameter_uebersicht.md#RWPA_32) und [Vertretergruppenfestwert](./rohwareparameter_uebersicht.md#RWPA_45) vorbelegte und gegebenenfalls manuell geänderte Wert der Vertretergruppe im Rohwarebeleg unverändert.
 
-Parameternummer: 46
+  **ZB-Abschlag aus Kontrakt**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Parameternummer: 88
 
-Optionen:
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **keine Anzeige**
+  Optionen:
 
-• **nur Anzeige**
+- **wenn ungleich 0 im Kontrakt**
+- **immer**
+- **nein**
 
-• **Erfassung**
+  Dieser Parameter legt für die Erfassung und Erzeugung von Rohwarelieferscheinen mit Kontraktzuordnung fest, ob die Zahlungsbedingung des Kontrakts als Zahlungsbedingung für den Rohwarebeleg der Stufe ‚*Abschlag*‘ zu übernehmen ist. Der Parameterwert ‚*wenn ungleich 0 im Kontrakt*‘ bewirkt, dass die Abschlag-Zahlungsbedingung des Rohwarebelegs unverändert bleibt, wenn im Kontrakt die Zahlungsbedingung ‚*0*‘ eingetragen ist. In diesem Fall, wie auch im Fall der Einstellung mit dem Wert ‚*nein*‘, bleibt der durch die Parameter [Feste ZB für Abschlag](./rohwareparameter_uebersicht.md#RWPA_57) und [Abschlag-Zahlungsbedingungs-Nummer](./rohwareparameter_uebersicht.md#RWPA_58) vorbelegte und gegebenenfalls manuell geänderte Wert im Rohwarebeleg unverändert.
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Nummer des Druckformulars für die Stufe ‚Lieferschein‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
+  **ZB-Folgeabschlag aus Kontrakt**
 
-**Vorbelegung Lieferscheinformular**
+  Parameternummer: 89
 
-Parameternummer: 47
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Optionen:
 
-Optionen: Formularnummer oder 0
+- **wenn ungleich 0 im Kontrakt**
+- **immer**
+- **nein**
 
-Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Formularnummer für den Lieferscheindruck. Ist der Parameterwert ‚0‘, so wird zur Vorbelegung die in der Formularzuordnung der Vorgangsunterklasse angegebene Formularnummer verwendet.
+  Dieser Parameter legt für die Erfassung und Erzeugung von Rohwarelieferscheinen mit Kontraktzuordnung fest, ob die Zahlungsbedingung des Kontrakts als Zahlungsbedingung für den Rohwarebeleg der Stufe ‚*Folgeabschlag*‘ zu übernehmen ist. Der Parameterwert ‚*wenn ungleich 0 im Kontrakt*‘ bewirkt, dass die Folgeabschlag-Zahlungsbedingung des Rohwarebelegs unverändert bleibt, wenn im Kontrakt die Zahlungsbedingung ‚*0*‘ eingetragen ist. In diesem Fall, wie auch im Fall der Einstellung mit dem Wert ‚*nein*‘, bleibt der durch die Parameter [Feste ZB für Folgeabschlag](./rohwareparameter_uebersicht.md#RWPA_60) und [Folgeabschlag-Zahlungsbedingungs-Nummer](./rohwareparameter_uebersicht.md#RWPA_61) vorbelegte und gegebenenfalls manuell geänderte Wert im Rohwarebeleg unverändert.
 
-**Druckformular Abschlag**
+  **ZB-Finale aus Kontrakt**
 
-Parameternummer: 48
+  Parameternummer: 90
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Optionen:
+  Optionen:
 
-• **keine Anzeige**
+- **wenn ungleich 0 im Kontrakt**
+- **immer**
+- **nein**
 
-• **nur Anzeige**
+  Dieser Parameter legt für die Erfassung und Erzeugung von Rohwarelieferscheinen mit Kontraktzuordnung fest, ob die Zahlungsbedingung des Kontrakts als Zahlungsbedingung für den Rohwarebeleg der Stufe ‚*Finalabrechnung*‘ zu übernehmen ist. Der Parameterwert ‚*wenn ungleich 0 im Kontrakt*‘ bewirkt, dass die Final-Zahlungsbedingung des Rohwarebelegs unverändert bleibt, wenn im Kontrakt die Zahlungsbedingung ‚*0*‘ eingetragen ist. In diesem Fall, wie auch im Fall der Einstellung mit dem Wert ‚*nein*‘, bleibt der durch die Parameter [Feste ZB für Finale](./rohwareparameter_uebersicht.md#RWPA_63) und [Final-Zahlungsbedingungs-Nummer](./rohwareparameter_uebersicht.md#RWPA_64) vorbelegte und gegebenenfalls manuell geänderte Wert im Rohwarebeleg unverändert.
 
-• **Erfassung**
+  **Kontraktzu-/abschlag für Abschlagpreis**
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Nummer des Einzelbeleg-Druckformulars für die Stufe ‚*Abschlag*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
+  Parameternummer: 124
 
-**Vorbelegung Abschlagformular**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Parameternummer: 49
+  Optionen:
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+- **ohne Report, ohne Überziehungszuschlag**
+- **mit Report, ohne Überziehungszuschlag**
+- **ohne Report, mit Überziehungszuschlag**
+- **mit Report, mit Überziehungszuschlag**
 
-Optionen: Formularnummer oder 0
+  Dieser Parameter legt für Rohwarebelege der Stufe ‚*Abschlag*‘ mit Kontraktzuordnung fest, ob im Kontrakt festgelegt Reports und /oder Überziehungszuschläge zu berücksichtigen sind. Als Bezugsdatum zur Ermittlung dieser Zuschläge dient immer das Lieferdatum des Rohwarebelegs. Zu berücksichtigende Zuschläge werden bei der Preisfindung immer dem entsprechenden Kontraktpreis zugeschlagen.
 
-Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Formularnummer für den Einzelbelegdruck der Stufe ‚*Abschlag*‘. Ist der Parameterwert ‚0‘, so wird zur Vorbelegung die in der Formularzuordnung der Vorgangsunterklasse angegebene Formularnummer verwendet.
+  **Kontraktzu-/abschlag für Folgeabschlagpreis**
 
-**Sammeldruckformular Abschlag**
+  Parameternummer: 125
 
-Parameternummer: 96
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Optionen:
 
-Optionen:
+- **ohne Report, ohne Überziehungszuschlag**
+- **mit Report, ohne Überziehungszuschlag**
+- **ohne Report, mit Überziehungszuschlag**
+- **mit Report, mit Überziehungszuschlag**
 
-• **keine Anzeige**
+  Dieser Parameter legt für Rohwarebelege der Stufe ‚*Folgeabschlag*‘ mit Kontraktzuordnung fest, ob im Kontrakt festgelegt Reports und /oder Überziehungszuschläge zu berücksichtigen sind. Als Bezugsdatum zur Ermittlung dieser Zuschläge dient immer das Lieferdatum des Rohwarebelegs. Zu berücksichtigende Zuschläge werden bei der Preisfindung immer dem entsprechenden Kontraktpreis zugeschlagen.
 
-• **nur Anzeige**
+  **Kontraktzu-/abschlag für Finalpreis**
 
-• **Erfassung**
+  Parameternummer: 123
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Nummer Sammeldruckformulars für die Stufe ‚*Abschlag*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-**Vorbelegung Abschlag-Sammeldruckformular**
+  Optionen:
 
-Parameternummer: 97
+- **ohne Report, ohne Überziehungszuschlag**
+- **mit Report, ohne Überziehungszuschlag**
+- **ohne Report, mit Überziehungszuschlag**
+- **mit Report, mit Überziehungszuschlag**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Dieser Parameter legt für Rohwarebelege der Stufe ‚*Finalabrechnung*‘ mit Kontraktzuordnung fest, ob im Kontrakt festgelegt Reports und /oder Überziehungszuschläge zu berücksichtigen sind. Als Bezugsdatum zur Ermittlung dieser Zuschläge dient immer das Lieferdatum des Rohwarebelegs. Zu berücksichtigende Zuschläge werden bei der Preisfindung immer dem entsprechenden Kontraktpreis zugeschlagen.
 
-Optionen: Sammeldruck-Formularnummer oder 0
+  **Rechnungsempfänger=Hauptkunde**
 
-Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Formularnummer für den Sammelbelegdruck der Stufe ‚*Abschlag*‘. Generell bedeutet die Sammeldruckformularnummer ‚0‘, dass der Beleg nicht in einen Sammeldruckbeleg integriert werden kann.
+  Parameternummer: 133
 
-**Druckformular Folgeabschlag**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Parameternummer: 50
+  Optionen:
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+- **nicht erlaubt**
+- **erlaubt**
 
-Optionen:
+  Dieser Parameter legt für Rohwarebelege mit Kontraktzuordnung fest, ob entsprechend der Einstellungen in der betroffenen Kontraktgruppe ‚*Rechnung an HK (nur Rohware)*‘ mit den Alternativen ‚*immer*‘ und ‚*siehe Kontrakt*‘ und somit im Kontrakt ‚*RW-Rechnung an HK (Ja/Nein)*‘ der Kontraktgruppen-Hauptkunde als Rechnungskunde der Rohwarenlabrechnungen zu gelten hat. 
 
-• **keine Anzeige**
+  **Zahlungskunde=Hauptkunde**
 
-• **nur Anzeige**
+  Parameternummer: 134
 
-• **Erfassung**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Nummer des Einzelbeleg-Druckformulars für die Stufe ‚*Folgeabschlag*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
+  Optionen:
 
-**Vorbelegung Folgeabschlagformular**
+- **nicht erlaubt**
+- **erlaubt**
 
-Parameternummer: 51
+  Dieser Parameter legt für Rohwarebelege mit Kontraktzuordnung fest, ob entsprechend der Einstellungen in der betroffenen Kontraktgruppe ‚Zahlungspflichtig *HK (nur Rohware)*‘ mit den Alternativen ‚*immer*‘ und ‚*siehe Kontrakt*‘ und somit im Kontrakt ‚*RW-Zahlungspflichtig = HK (Ja/Nein)*‘ der Kontraktgruppen-Hauptkunde als Zahlungspflichtiger der Rohwarenlabrechnungen zu gelten hat.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  **Rohwareabrechnung mit Partie**
 
-Optionen: Formularnummer oder 0
+  Parameternummer: 93
 
-Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Formularnummer für den Einzelbelegdruck der Stufe ‚*Folgeabschlag*‘. Ist der Parameterwert ‚0‘, so wird zur Vorbelegung die in der Formularzuordnung der Vorgangsunterklasse angegebene Formularnummer verwendet.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-**Sammeldruckformular Folgeabschlag**
+  Optionen:
 
-Parameternummer: 98
+- **nein**
+- **ja**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Dieser Parameter legt für die Erfassung, Erzeugung und Bearbeitung von Rohwarebelegen fest, ob die Partieverwaltung aktiviert ist. Insbesondere für Rohwarengruppen oder Abrechnungsschemata, für die grundsätzlich keine Partien zu berücksichtigen sind, kann die Einstellung ‚*Nein*‘ aus programmlaufzeittechnischen Gründen sinnvoll sein.
 
-Optionen:
+  **Partieauswahl bei Neuerfassung**
 
-• **keine Anzeige**
+  Parameternummer: 94
 
-• **nur Anzeige**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **Erfassung**
+  Optionen:
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Nummer Sammeldruckformulars für die Stufe ‚*Folgeabschlag*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
+- **Auswahlmaske per OB-Klick**
+- **immer neue Partie erzeugen**
+- **immer Auswahlmaske**
+- **Auswahlmaske ab 2 Partien**
 
-**Vorbelegung Folgeabschlag-Sammeldruckformular**
+  Dieser Parameter legt für die Erfassung von Rohwarelieferungen fest, wie die Partiezuordnung der Lieferposition zu erfolgen hat. Neben der Option, für jede Lieferung immer zunächst eine neue Partie zu anzulegen, deren Erzeugung aber bei der Partiebearbeitung nach der Mengeneingabe abgebrochen werden kann, wird festgelegt, ob bei bereits vorhandenen Partien die Partieauswahl nie, immer oder erst bei mehr als einer vorhandenen Partie automatisch nach der Mengeneingabe erscheint. 
 
-Parameternummer: 99
+  **nächste Stufe nur nach Fibuübertrag**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Parameternummer: 113
 
-Optionen: Sammeldruck-Formularnummer oder 0
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Formularnummer für den Sammelbelegdruck der Stufe ‚*Folgeabschlag*‘. Generell bedeutet die Sammeldruckformularnummer ‚0‘, dass der Beleg nicht in einen Sammeldruckbeleg integriert werden kann.
+  Optionen:
 
-**Druckformular Finale**
+- **nein**
+- **ja**
 
-Parameternummer: 52
+  Dieser Parameter legt für die Umwandlung von Rohwarebelegen in die nächste Abrechnungsstufe fest, ob dieses erst nach erfolgtem Übertrag an die Finanzbuchhaltung gestattet ist.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  **Stornobeleg nur nach Fibuübertrag**
 
-Optionen:
+  Parameternummer: 114
 
-• **keine Anzeige**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **nur Anzeige**
+  Optionen:
 
-• **Erfassung**
+- **nein**
+- **ja**
 
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Nummer des Einzelbeleg-Druckformulars für die Stufe ‚*Finalabrechnung*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
-
-**Vorbelegung Finalformular**
-
-Parameternummer: 53
-
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
-
-Optionen: Formularnummer oder 0
-
-Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Formularnummer für den Einzelbelegdruck der Stufe ‚*Finalabrechnung*‘. Ist der Parameterwert ‚0‘, so wird zur Vorbelegung die in der Formularzuordnung der Vorgangsunterklasse angegebene Formularnummer verwendet.
-
-**Sammeldruckformular Finale**
-
-Parameternummer: 100
-
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
-
-Optionen:
-
-• **keine Anzeige**
-
-• **nur Anzeige**
-
-• **Erfassung**
-
-Mit diesem Parameter wird für die Erfassung, Anzeige und Korrektur von Rohwarebelegen festgelegt, ob die Nummer Sammeldruckformulars für die Stufe ‚*Finalabrechnung*‘ auf der Erfassungsmaske unterdrückt, nur dargestellt oder änderbar ist.
-
-**Vorbelegung Final-Sammeldruckformular**
-
-Parameternummer: 101
-
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
-
-Optionen: Sammeldruck-Formularnummer oder 0
-
-Für die Erfassung und Erzeugung von Rohwarelieferscheine beinhaltet dieser Parameter die Vorbelegung der Formularnummer für den Sammelbelegdruck der Stufe ‚*Finalabrechnung*‘. Generell bedeutet die Sammeldruckformularnummer ‚0‘, dass der Beleg nicht in einen Sammeldruckbeleg integriert werden kann.
-
-**Abschlag-Vorschauformular**
-
-Parameternummer: 109
-
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
-
-Optionen: Formularnummer oder 0
-
-Für die Vorschau-Funktion von abgerechneten Rohwarebelegen der Stufe ‚*Abschlag*‘ kann mit diesem Parameter ein Druckformular festgelegt werden. Ist der Parameterwert ‚0‘, so wird zur Vorschau die in der Formularzuordnung der Vorgangsunterklasse angegebene Vorschau-Formularnummer verwendet.
-
-**Folgeabschlag-Vorschauformular**
-
-Parameternummer: 110
-
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
-
-Optionen: Formularnummer oder 0
-
-Für die Vorschau-Funktion von abgerechneten Rohwarebelegen der Stufe ‚*Folgeabschlag*‘ kann mit diesem Parameter ein Druckformular festgelegt werden. Ist der Parameterwert ‚0‘, so wird zur Vorschau die in der Formularzuordnung der Vorgangsunterklasse angegebene Vorschau-Formularnummer verwendet.
-
-**Final-Vorschauformular**
-
-Parameternummer: 111
-
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
-
-Optionen: Formularnummer oder 0
-
-Für die Vorschau-Funktion von abgerechneten Rohwarebelegen der Stufe ‚*Finalabrechnung*‘ kann mit diesem Parameter ein Druckformular festgelegt werden. Ist der Parameterwert ‚0‘, so wird zur Vorschau die in der Formularzuordnung der Vorgangsunterklasse angegebene Vorschau-Formularnummer verwendet.
-
-**Nummer des Feuchte-Qualitätsmerkmals**
-
-Parameternummer: 81
-
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
-
-Optionen: Referenznummer
-
-Zur korrekten Darstellung der Feuchtigkeitswerte in der Auswahllistenvariante ‚*Erfassungsprotokoll*‘ des Rohwarebearbeitungs-Moduls **[RWB] [RWBV]** muss in diesem Parameter die Referenznummer des auszuwertenden Qualitätsmerkmals (in der Regel ‚*Feuchte*‘) angegeben sein. Die relevanten statistischen Daten werden bereits bei Erfassung, Korrektur und Abrechnung von Rohwarebelegen ermittelt und in dafür reservierten Datenfeldern festgehalten.
-
-**Erfassung mit Kontrakt**
-
-Parameternummer: 86
-
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
-
-Optionen:
-
-• **nein**
-
-• **ja**
-
-Dieser Parameter legt für die Erfassung, Erzeugung und Bearbeitung von Rohwarebelegen fest, ob die Kontraktverwaltung aktiviert ist. Insbesondere für Rohwarengruppen oder Abrechnungsschemata, für die grundsätzlich keine Kontrakte zu berücksichtigen sind, kann die Einstellung ‚*Nein*‘ aus programmlaufzeittechnischen Gründen sinnvoll sein.
-
-**Restmenge überprüfen**
-
-Parameternummer: 95
-
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
-
-Optionen:
-
-• **nein**
-
-• **ja**
-
-Dieser Parameter legt für die Erfassung von Rohwarelieferscheinen mit Kontraktzuordnung der Lieferposition fest, ob bei Abschluss des Beleges eine Prüfung der Liefermenge mit der Restmenge des Kontrakts erfolgen soll. Ist dieses der Fall, so wird entsprechend der Einstellung des Kontrakts die erfasste Bruttomenge beziehungsweise die errechnete Nettomenge zur Prüfung herangezogen. Ist die Restmenge der Kontraktposition insgesamt oder die Zeitraum-Restmenge nicht ausreichend, so erfolgt ein entsprechender Hinweis und die Abfrage, ob der Beleg dennoch gespeichert werden soll oder zu korrigieren ist.
-
-**Beleg aus Waage bei Überziehung möglich**
-
-Parameternummer: 155
-
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
-
-Optionen:
-
-• **nein**
-
-• **ja**
-
-Dieser Parameter legt für die Erzeugung von Rohwarelieferscheinen mit Kontraktzuordnung aus der Waagenschnittstelle **[RWWE] [RWWV]** fest, ob bei Überziehung des Kontrakts bezüglich der Restmenge der Rohwarebeleg dennoch zu erzeugen ist. Es wird entsprechend der Einstellung des Kontrakts die erfasste Bruttomenge beziehungsweise die errechnete Nettomenge zur Prüfung herangezogen. Ist die Restmenge der Kontraktposition insgesamt oder die Zeitraum-Restmenge nicht ausreichend, so erfolgt ein entsprechender Hinweis. Je nach Einstellung dieses Parameters wird der Beleg dann dennoch gespeichert oder verworfen.
-
-**Erfassungsbeleg teilen bei Übermenge**
-
-Parameternummer: 178
-
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
-
-Optionen:
-
-• **ja**
-
-• **nein**
-
-Mit der Einstellung dieses Parameters kann bei Belegabschluss einer Rohwareerfassung mit Überschreitung der noch offenen Restmenge des zur Hauptposition angegebenen Kontrakts die [Bearbeitungsmaske zur Belegteilung](../rohwarenbearbeitung/rohware_erfassung_mit_belegsplitting_bei_kontraktmengenueber/index.md) aktiviert werden.
-
-**Vertretergruppe aus Kontrakt**
-
-Parameternummer: 87
-
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
-
-Optionen:
-
-• **wenn ungleich 0 im Kontrakt**
-
-• **immer**
-
-• **nein**
-
-Dieser Parameter legt für die Erfassung und Erzeugung von Rohwarelieferscheinen mit Kontraktzuordnung fest, ob die Vertretergruppe des Kontrakts zu übernehmen ist. Der Parameterwert ‚*wenn ungleich 0 im Kontrakt*‘ bewirkt, dass die Vertretergruppe des Rohwarebelegs unverändert bleibt, wenn im Kontrakt die Vertretergruppe ‚*0*‘ eingetragen ist. In diesem Fall, wie auch im Fall der Einstellung mit dem Wert ‚*nein*‘, bleibt der durch die Parameter [Vorbelegung Vertretergruppe](./rohwareparameter_uebersicht.md#RWPA_32) und [Vertretergruppenfestwert](./rohwareparameter_uebersicht.md#RWPA_45) vorbelegte und gegebenenfalls manuell geänderte Wert der Vertretergruppe im Rohwarebeleg unverändert.
-
-**ZB-Abschlag aus Kontrakt**
-
-Parameternummer: 88
-
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
-
-Optionen:
-
-• **wenn ungleich 0 im Kontrakt**
-
-• **immer**
-
-• **nein**
-
-Dieser Parameter legt für die Erfassung und Erzeugung von Rohwarelieferscheinen mit Kontraktzuordnung fest, ob die Zahlungsbedingung des Kontrakts als Zahlungsbedingung für den Rohwarebeleg der Stufe ‚*Abschlag*‘ zu übernehmen ist. Der Parameterwert ‚*wenn ungleich 0 im Kontrakt*‘ bewirkt, dass die Abschlag-Zahlungsbedingung des Rohwarebelegs unverändert bleibt, wenn im Kontrakt die Zahlungsbedingung ‚*0*‘ eingetragen ist. In diesem Fall, wie auch im Fall der Einstellung mit dem Wert ‚*nein*‘, bleibt der durch die Parameter [Feste ZB für Abschlag](./rohwareparameter_uebersicht.md#RWPA_57) und [Abschlag-Zahlungsbedingungs-Nummer](./rohwareparameter_uebersicht.md#RWPA_58) vorbelegte und gegebenenfalls manuell geänderte Wert im Rohwarebeleg unverändert.
-
-**ZB-Folgeabschlag aus Kontrakt**
-
-Parameternummer: 89
-
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
-
-Optionen:
-
-• **wenn ungleich 0 im Kontrakt**
-
-• **immer**
-
-• **nein**
-
-Dieser Parameter legt für die Erfassung und Erzeugung von Rohwarelieferscheinen mit Kontraktzuordnung fest, ob die Zahlungsbedingung des Kontrakts als Zahlungsbedingung für den Rohwarebeleg der Stufe ‚*Folgeabschlag*‘ zu übernehmen ist. Der Parameterwert ‚*wenn ungleich 0 im Kontrakt*‘ bewirkt, dass die Folgeabschlag-Zahlungsbedingung des Rohwarebelegs unverändert bleibt, wenn im Kontrakt die Zahlungsbedingung ‚*0*‘ eingetragen ist. In diesem Fall, wie auch im Fall der Einstellung mit dem Wert ‚*nein*‘, bleibt der durch die Parameter [Feste ZB für Folgeabschlag](./rohwareparameter_uebersicht.md#RWPA_60) und [Folgeabschlag-Zahlungsbedingungs-Nummer](./rohwareparameter_uebersicht.md#RWPA_61) vorbelegte und gegebenenfalls manuell geänderte Wert im Rohwarebeleg unverändert.
-
-**ZB-Finale aus Kontrakt**
-
-Parameternummer: 90
-
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
-
-Optionen:
-
-• **wenn ungleich 0 im Kontrakt**
-
-• **immer**
-
-• **nein**
-
-Dieser Parameter legt für die Erfassung und Erzeugung von Rohwarelieferscheinen mit Kontraktzuordnung fest, ob die Zahlungsbedingung des Kontrakts als Zahlungsbedingung für den Rohwarebeleg der Stufe ‚*Finalabrechnung*‘ zu übernehmen ist. Der Parameterwert ‚*wenn ungleich 0 im Kontrakt*‘ bewirkt, dass die Final-Zahlungsbedingung des Rohwarebelegs unverändert bleibt, wenn im Kontrakt die Zahlungsbedingung ‚*0*‘ eingetragen ist. In diesem Fall, wie auch im Fall der Einstellung mit dem Wert ‚*nein*‘, bleibt der durch die Parameter [Feste ZB für Finale](./rohwareparameter_uebersicht.md#RWPA_63) und [Final-Zahlungsbedingungs-Nummer](./rohwareparameter_uebersicht.md#RWPA_64) vorbelegte und gegebenenfalls manuell geänderte Wert im Rohwarebeleg unverändert.
-
-**Kontraktzu-/abschlag für Abschlagpreis**
-
-Parameternummer: 124
-
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
-
-Optionen:
-
-• **ohne Report, ohne Überziehungszuschlag**
-
-• **mit Report, ohne Überziehungszuschlag**
-
-• **ohne Report, mit Überziehungszuschlag**
-
-• **mit Report, mit Überziehungszuschlag**
-
-Dieser Parameter legt für Rohwarebelege der Stufe ‚*Abschlag*‘ mit Kontraktzuordnung fest, ob im Kontrakt festgelegt Reports und /oder Überziehungszuschläge zu berücksichtigen sind. Als Bezugsdatum zur Ermittlung dieser Zuschläge dient immer das Lieferdatum des Rohwarebelegs. Zu berücksichtigende Zuschläge werden bei der Preisfindung immer dem entsprechenden Kontraktpreis zugeschlagen.
-
-**Kontraktzu-/abschlag für Folgeabschlagpreis**
-
-Parameternummer: 125
-
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
-
-Optionen:
-
-• **ohne Report, ohne Überziehungszuschlag**
-
-• **mit Report, ohne Überziehungszuschlag**
-
-• **ohne Report, mit Überziehungszuschlag**
-
-• **mit Report, mit Überziehungszuschlag**
-
-Dieser Parameter legt für Rohwarebelege der Stufe ‚*Folgeabschlag*‘ mit Kontraktzuordnung fest, ob im Kontrakt festgelegt Reports und /oder Überziehungszuschläge zu berücksichtigen sind. Als Bezugsdatum zur Ermittlung dieser Zuschläge dient immer das Lieferdatum des Rohwarebelegs. Zu berücksichtigende Zuschläge werden bei der Preisfindung immer dem entsprechenden Kontraktpreis zugeschlagen.
-
-**Kontraktzu-/abschlag für Finalpreis**
-
-Parameternummer: 123
-
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
-
-Optionen:
-
-• **ohne Report, ohne Überziehungszuschlag**
-
-• **mit Report, ohne Überziehungszuschlag**
-
-• **ohne Report, mit Überziehungszuschlag**
-
-• **mit Report, mit Überziehungszuschlag**
-
-Dieser Parameter legt für Rohwarebelege der Stufe ‚*Finalabrechnung*‘ mit Kontraktzuordnung fest, ob im Kontrakt festgelegt Reports und /oder Überziehungszuschläge zu berücksichtigen sind. Als Bezugsdatum zur Ermittlung dieser Zuschläge dient immer das Lieferdatum des Rohwarebelegs. Zu berücksichtigende Zuschläge werden bei der Preisfindung immer dem entsprechenden Kontraktpreis zugeschlagen.
-
-**Rechnungsempfänger=Hauptkunde**
-
-Parameternummer: 133
-
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
-
-Optionen:
-
-• **nicht erlaubt**
-
-• **erlaubt**
-
-Dieser Parameter legt für Rohwarebelege mit Kontraktzuordnung fest, ob entsprechend der Einstellungen in der betroffenen Kontraktgruppe ‚*Rechnung an HK (nur Rohware)*‘ mit den Alternativen ‚*immer*‘ und ‚*siehe Kontrakt*‘ und somit im Kontrakt ‚*RW-Rechnung an HK (Ja/Nein)*‘ der Kontraktgruppen-Hauptkunde als Rechnungskunde der Rohwarenlabrechnungen zu gelten hat. 
-
-**Zahlungskunde=Hauptkunde**
-
-Parameternummer: 134
-
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
-
-Optionen:
-
-• **nicht erlaubt**
-
-• **erlaubt**
-
-Dieser Parameter legt für Rohwarebelege mit Kontraktzuordnung fest, ob entsprechend der Einstellungen in der betroffenen Kontraktgruppe ‚Zahlungspflichtig *HK (nur Rohware)*‘ mit den Alternativen ‚*immer*‘ und ‚*siehe Kontrakt*‘ und somit im Kontrakt ‚*RW-Zahlungspflichtig = HK (Ja/Nein)*‘ der Kontraktgruppen-Hauptkunde als Zahlungspflichtiger der Rohwarenlabrechnungen zu gelten hat.
-
-**Rohwareabrechnung mit Partie**
-
-Parameternummer: 93
-
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
-
-Optionen:
-
-• **nein**
-
-• **ja**
-
-Dieser Parameter legt für die Erfassung, Erzeugung und Bearbeitung von Rohwarebelegen fest, ob die Partieverwaltung aktiviert ist. Insbesondere für Rohwarengruppen oder Abrechnungsschemata, für die grundsätzlich keine Partien zu berücksichtigen sind, kann die Einstellung ‚*Nein*‘ aus programmlaufzeittechnischen Gründen sinnvoll sein.
-
-**Partieauswahl bei Neuerfassung**
-
-Parameternummer: 94
-
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
-
-Optionen:
-
-• **Auswahlmaske per OB-Klick**
-
-• **immer neue Partie erzeugen**
-
-• **immer Auswahlmaske**
-
-• **Auswahlmaske ab 2 Partien**
-
-Dieser Parameter legt für die Erfassung von Rohwarelieferungen fest, wie die Partiezuordnung der Lieferposition zu erfolgen hat. Neben der Option, für jede Lieferung immer zunächst eine neue Partie zu anzulegen, deren Erzeugung aber bei der Partiebearbeitung nach der Mengeneingabe abgebrochen werden kann, wird festgelegt, ob bei bereits vorhandenen Partien die Partieauswahl nie, immer oder erst bei mehr als einer vorhandenen Partie automatisch nach der Mengeneingabe erscheint. 
-
-**nächste Stufe nur nach Fibuübertrag**
-
-Parameternummer: 113
-
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
-
-Optionen:
-
-• **nein**
-
-• **ja**
-
-Dieser Parameter legt für die Umwandlung von Rohwarebelegen in die nächste Abrechnungsstufe fest, ob dieses erst nach erfolgtem Übertrag an die Finanzbuchhaltung gestattet ist.
-
-**Stornobeleg nur nach Fibuübertrag**
-
-Parameternummer: 114
-
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
-
-Optionen:
-
-• **nein**
-
-• **ja**
-
-Dieser Parameter legt für die Erzeugung von Einzel-Stornobelegen zu Rohwarebelegen fest, ob dieses erst nach erfolgtem Übertrag an die Finanzbuchhaltung gestattet ist. Handelt es sich jedoch um die Erzeugung eines Stornobelegs mit Kopie des Originalbelegs in ein anderes Wirtschaftsjahr, so setzt die Einstellung ‚*Ja, ohne Fibu-Übertrag*‘ im Feld ‚*Finale nach Jahreswechsel*‘ im Originalbeleg diese Sperre außer Kraft.  
+  Dieser Parameter legt für die Erzeugung von Einzel-Stornobelegen zu Rohwarebelegen fest, ob dieses erst nach erfolgtem Übertrag an die Finanzbuchhaltung gestattet ist. Handelt es sich jedoch um die Erzeugung eines Stornobelegs mit Kopie des Originalbelegs in ein anderes Wirtschaftsjahr, so setzt die Einstellung ‚*Ja, ohne Fibu-Übertrag*‘ im Feld ‚*Finale nach Jahreswechsel*‘ im Originalbeleg diese Sperre außer Kraft.  
 Dieser Parameter betrifft lediglich die Behandlung von Rohware-Einzelbelegen. Für Sammeldruck-Storno-Belege regelt dieses der Parameter [Sammel-Storno nur nach Fibuübetrag](./rohwareparameter_uebersicht.md#RWPA_145).
 
-**Währung in Nachvergütungen**
+  **Währung in Nachvergütungen**
 
-Parameternummer: 126
+  Parameternummer: 126
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Optionen:
+  Optionen:
 
-• **wie Finale**
+- **wie Finale**
+- **aus Kundenstamm**
 
-• **aus Kundenstamm**
+  Dieser Parameter legt für die Erzeugung von Nachvergütungsbelegen zu Rohware-Finalabrechnungen fest, ob diese in der Währung der Finalabrechnung erstellt werden oder immer in der Währung, die dem Kunden zugeordnet ist.
 
-Dieser Parameter legt für die Erzeugung von Nachvergütungsbelegen zu Rohware-Finalabrechnungen fest, ob diese in der Währung der Finalabrechnung erstellt werden oder immer in der Währung, die dem Kunden zugeordnet ist.
+  **Qualitätsnachtrag per**
 
-**Qualitätsnachtrag per**
+  Parameternummer: 127
 
-Parameternummer: 127
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Optionen:
 
-Optionen:
+- **per Referenznummer**
+- **per Waagen-Qualitätsnummer**
 
-• **per Referenznummer**
+  Dieser Parameter legt für die automatische Qualitätsnachtrag-Funktion bei der Umwandlung und Abrechnung von Rohwarebelegen sowie den Pflege-Varianten ‚*Werte für Qualitätsnachtrag*‘ und ‚*Qualitätsnachtragliste*‘ des Rohwarebearbeitungsmoduls im Einkauf **[RWB]** fest, wie die Zuordnung der Qualitätsnachtragssätze zu den Abrechnungsschemapositionen zu interpretieren ist. Dieses entweder über die Referenznummer oder die Waagen-Qualitätsnummer der Qualitätsdefinition im zugehörigen Abrechnungsschema sein.
 
-• **per Waagen-Qualitätsnummer**
+  **Folgetextzeilen bei Lieferartikel**
 
-Dieser Parameter legt für die automatische Qualitätsnachtrag-Funktion bei der Umwandlung und Abrechnung von Rohwarebelegen sowie den Pflege-Varianten ‚*Werte für Qualitätsnachtrag*‘ und ‚*Qualitätsnachtragliste*‘ des Rohwarebearbeitungsmoduls im Einkauf **[RWB]** fest, wie die Zuordnung der Qualitätsnachtragssätze zu den Abrechnungsschemapositionen zu interpretieren ist. Dieses entweder über die Referenznummer oder die Waagen-Qualitätsnummer der Qualitätsdefinition im zugehörigen Abrechnungsschema sein.
+  Parameternummer: 118
 
-**Folgetextzeilen bei Lieferartikel**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Parameternummer: 118
+  Optionen:
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+- **nein**
+- **ja**
 
-Optionen:
+  Dieser Parameter legt für den Druck von Rohwarebelegen fest, ob für den Artikel der Lieferposition vorhandene Folgetextzeilen mit auszugeben sind.
 
-• **nein**
+  **Folgetextzeilen bei Sekundärartikel**
 
-• **ja**
+  Parameternummer: 119
 
-Dieser Parameter legt für den Druck von Rohwarebelegen fest, ob für den Artikel der Lieferposition vorhandene Folgetextzeilen mit auszugeben sind.
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-**Folgetextzeilen bei Sekundärartikel**
+  Optionen:
 
-Parameternummer: 119
+- **nein**
+- **ja**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Dieser Parameter legt für den Druck von Rohwarebelegen fest, ob für Artikel von Sekundär-Warenpositionen vorhandene Folgetextzeilen mit auszugeben sind.
 
-Optionen:
+  **Folgetextzeilen bei Kostenartikel**
 
-• **nein**
+  Parameternummer: 120
 
-• **ja**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-Dieser Parameter legt für den Druck von Rohwarebelegen fest, ob für Artikel von Sekundär-Warenpositionen vorhandene Folgetextzeilen mit auszugeben sind.
+  Optionen:
 
-**Folgetextzeilen bei Kostenartikel**
+- **nein**
+- **ja**
 
-Parameternummer: 120
+  Dieser Parameter legt für den Druck von Rohwarebelegen fest, ob für Artikel von Kosten- und Vergütungspositionen vorhandene Folgetextzeilen mit auszugeben sind.
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  **Ziel für Ware-Zusatzinfo-Text**
 
-Optionen:
+  Parameternummer: 129
 
-• **nein**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **ja**
+  Optionen:
 
-Dieser Parameter legt für den Druck von Rohwarebelegen fest, ob für Artikel von Kosten- und Vergütungspositionen vorhandene Folgetextzeilen mit auszugeben sind.
+- **keine Übernahme**
+- **Ergänzungstext 1**
+- **Ergänzungstext 2**
+- **Ergänzungstext 3**
+- **Ergänzungstext 4**
+- **Ergänzungstext 5**
+- **Ergänzungstext 6**
 
-**Ziel für Ware-Zusatzinfo-Text**
+  Dieser Parameter legt für die Wandlung von Ware-Lieferscheinen in Rohwarelieferscheine fest, ob ein im Feld ‚*Ware-Zusatzinfo*‘ erfasster Text in eines der Rohware-Ergänzungs-Textfelder zu übernehmen ist.
 
-Parameternummer: 129
+  **Ziel für Ware-Zusatzinfo2-Text**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Parameternummer: 130
 
-Optionen:
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **keine Übernahme**
+  Optionen:
 
-• **Ergänzungstext 1**
+- **keine Übernahme**
+- **Ergänzungstext 1**
+- **Ergänzungstext 2**
+- **Ergänzungstext 3**
+- **Ergänzungstext 4**
+- **Ergänzungstext 5**
+- **Ergänzungstext 6**
 
-• **Ergänzungstext 2**
+  Dieser Parameter legt für die Wandlung von Ware-Lieferscheinen in Rohwarelieferscheine fest, ob ein im Feld ‚*Ware-Zusatzinfo 2*‘ erfasster Text in eines der Rohware-Ergänzungs-Textfelder zu übernehmen ist.
 
-• **Ergänzungstext 3**
+  **Abschlagpreis aus Lieferschein wenn != 0**
 
-• **Ergänzungstext 4**
+  Parameternummer: 149
 
-• **Ergänzungstext 5**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **Ergänzungstext 6**
+  Optionen:
 
-Dieser Parameter legt für die Wandlung von Ware-Lieferscheinen in Rohwarelieferscheine fest, ob ein im Feld ‚*Ware-Zusatzinfo*‘ erfasster Text in eines der Rohware-Ergänzungs-Textfelder zu übernehmen ist.
+- **nein**
+- **ja**
 
-**Ziel für Ware-Zusatzinfo2-Text**
+  Dieser Parameter legt für die Wandlung von Ware-Lieferscheinen in Rohwarelieferscheine fest, ob ein im Warelieferschein erfasster Preis des Lieferartikels als Abschlagpreis in den Rohwarebeleg zu übernehmen ist.
 
-Parameternummer: 130
+  **Finalpreis aus Lieferschein wenn != 0**
 
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
+  Parameternummer: 150
 
-Optionen:
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **keine Übernahme**
+  Optionen:
 
-• **Ergänzungstext 1**
+- **nein**
+- **ja**
 
-• **Ergänzungstext 2**
+  Dieser Parameter legt für die Wandlung von Ware-Lieferscheinen in Rohwarelieferscheine fest, ob ein im Warelieferschein erfasster Preis des Lieferartikels als Finalabrechnungspreis in den Rohwarebeleg zu übernehmen ist.
 
-• **Ergänzungstext 3**
+  **Abbruch wenn Kontrakt nicht zuzuordnen**
 
-• **Ergänzungstext 4**
+  Parameternummer: 160
 
-• **Ergänzungstext 5**
+  Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
 
-• **Ergänzungstext 6**
+  Optionen:
 
-Dieser Parameter legt für die Wandlung von Ware-Lieferscheinen in Rohwarelieferscheine fest, ob ein im Feld ‚*Ware-Zusatzinfo 2*‘ erfasster Text in eines der Rohware-Ergänzungs-Textfelder zu übernehmen ist.
+- **nein**
+- **ja**
 
-**Abschlagpreis aus Lieferschein wenn != 0**
-
-Parameternummer: 149
-
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
-
-Optionen:
-
-• **nein**
-
-• **ja**
-
-Dieser Parameter legt für die Wandlung von Ware-Lieferscheinen in Rohwarelieferscheine fest, ob ein im Warelieferschein erfasster Preis des Lieferartikels als Abschlagpreis in den Rohwarebeleg zu übernehmen ist.
-
-**Finalpreis aus Lieferschein wenn != 0**
-
-Parameternummer: 150
-
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
-
-Optionen:
-
-• **nein**
-
-• **ja**
-
-Dieser Parameter legt für die Wandlung von Ware-Lieferscheinen in Rohwarelieferscheine fest, ob ein im Warelieferschein erfasster Preis des Lieferartikels als Finalabrechnungspreis in den Rohwarebeleg zu übernehmen ist.
-
-**Abbruch wenn Kontrakt nicht zuzuordnen**
-
-Parameternummer: 160
-
-Einstellungen für Rohwarengruppen und Abrechnungsschemata sind möglich.
-
-Optionen:
-
-• **nein**
-
-• **ja**
-
-Dieser Parameter legt für die Wandlung von Ware-Lieferscheinen in Rohwarelieferscheine fest, ob die Erstellung des Rohwarebelegs abgebrochen werden soll, wenn der im Ware-Lieferschein angegebene Kontrakt unter Rohwarebedingungen nicht zugeordnet werden kann. Dieses ist zum Beispiel der Fall, wenn es sich nicht um einen Rohware-Kontrakt handelt.
+  Dieser Parameter legt für die Wandlung von Ware-Lieferscheinen in Rohwarelieferscheine fest, ob die Erstellung des Rohwarebelegs abgebrochen werden soll, wenn der im Ware-Lieferschein angegebene Kontrakt unter Rohwarebedingungen nicht zugeordnet werden kann. Dieses ist zum Beispiel der Fall, wenn es sich nicht um einen Rohware-Kontrakt handelt.

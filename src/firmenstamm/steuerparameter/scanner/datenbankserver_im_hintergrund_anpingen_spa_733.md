@@ -4,8 +4,6 @@
 
 Der Steuerparameter gibt an ob die AeinsCE Software im Hintergrund den Datenbank Server an pingen soll. Es gibt drei Einstellungsmöglichkeiten
 
-• Auto: Server IP automatisch beziehen
-
-• Manuell: Manuelle Server IP
-
-• Aus: Ping aus
+- Auto: Server IP automatisch beziehen
+- Manuell: Manuelle Server IP
+- Aus: Ping aus

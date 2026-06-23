@@ -8,4 +8,4 @@ Je nachdem wann Sie die zu versendenden Rechnungen an den Mailserver schicken wo
 
 Erstellen Sie einen Zeitplan für dieses Event, das je nach gewünschtem Intervall anliegende Rechnungen per Mail versendet.
 
-• „AMIC_EVT_E_BELEGMAILER()“ bzw. eine private Ableitung davon
+- „AMIC_EVT_E_BELEGMAILER()“ bzw. eine private Ableitung davon

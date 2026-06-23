@@ -4,25 +4,16 @@
 
 Das Formular ist, wenn nicht anders eingerichtet 2200. Es existieren zu diesem Typ folgende Formularbereiche:
 
-• 301 Mahnkopf Formularkopf
-
-• 302 Mahntexte Zeilentyp
-
-• 303 Mahnabschluss Abschluss
-
-• 304 Mahnposition Zeilentyp
-
-• 305 Mahnfolgekopf Folgekopf
-
-• 306 Mahnfuß Fuß
-
-• 307 Mahnsummenzeile Zeilentyp
-
-• 308 Mahnsummenkopf Zeilentyp
-
-• 309 Mahnsummenfuß Zeilentyp
-
-• 310 Mahnung Betreffzeile Mail Betreff
+- 301 Mahnkopf Formularkopf
+- 302 Mahntexte Zeilentyp
+- 303 Mahnabschluss Abschluss
+- 304 Mahnposition Zeilentyp
+- 305 Mahnfolgekopf Folgekopf
+- 306 Mahnfuß Fuß
+- 307 Mahnsummenzeile Zeilentyp
+- 308 Mahnsummenkopf Zeilentyp
+- 309 Mahnsummenfuß Zeilentyp
+- 310 Mahnung Betreffzeile Mail Betreff
 
 Folgende Variablen sind in allen Teilen (Kopf, Fuß und Zeilentyp) verfügbar. Formularbereiche, die nicht separat mit aufgeführt werden, enthalten nur Festtext oder diese Felder!
 
@@ -94,7 +85,7 @@ Folgende Variablen sind in allen Teilen (Kopf, Fuß und Zeilentyp) verfügbar. F
 
 **Achtung:** Mahntexte können auch unter Formularbereich 302 separat ausgegeben werden!
 
-• 302 Mahntexte
+- 302 Mahntexte
 
 Fall 1 ( Bemerkid im Mahntext (Mahnstamm) ist 0 oder nicht eingetragen )
 
@@ -122,7 +113,7 @@ Beispiel:
 
 Bitte zahlen Sie bis zum :Zahlfristdatum$ den angegebenen Betrag.
 
-• 304 Mahnposition
+- 304 Mahnposition
 
 | Bezeichnung | Typ | Nr. | Beschreibung |
 | --- | --- | --- | --- |
@@ -194,7 +185,7 @@ Bitte zahlen Sie bis zum :Zahlfristdatum$ den angegebenen Betrag.
 | BelegMahnSperre | Numerisch | 4 | Eventuell in der OP-Verwaltung gesetzte Mahnsperre |
 | OPMahnSperre | | | S.o. |
 
-• 307 MahnSummenZeile
+- 307 MahnSummenZeile
 
 | Bezeichnung | Typ | Nr. | Beschreibung |
 | --- | --- | --- | --- |
@@ -207,7 +198,7 @@ Bitte zahlen Sie bis zum :Zahlfristdatum$ den angegebenen Betrag.
 | FiBuVP_Betrag | Numerisch | 4 | Summe aller Beträge dieser Mahnstufe |
 | FiBuVPW_Betrag | Numerisch | 4 | Summe aller Beträge dieser Mahnstufe in Fremdwährung |
 
-• 309 MahnSummenFuß
+- 309 MahnSummenFuß
 
 | Bezeichnung | Typ | Nr. | Beschreibung |
 | --- | --- | --- | --- |
@@ -218,6 +209,6 @@ Bitte zahlen Sie bis zum :Zahlfristdatum$ den angegebenen Betrag.
 | FiBuVP_Betrag | Numerisch | 4 | Summe aller Beträge |
 | FiBuVPW_Betrag | Numerisch | 4 | Summe aller Beträge in Fremdwährung |
 
-• 310 Mahnung Betreffzeile
+- 310 Mahnung Betreffzeile
 
 Mit diesem Formularbereich kann für den Mailversand eine Betreffzeile definiert werden. Es stehen hier die Positionen zur Verfügung, die mit F3 ausgewählt werden können. Beim normalen Druck erscheint diese Zeile nicht.

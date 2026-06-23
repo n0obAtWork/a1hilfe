@@ -17,13 +17,10 @@ Dabei ist zu beachten, dass die Schwundmenge die Menge ist, die durch die berüc
 
 Die Angabe **‚Ab Belegtyp‘** mit den Ausprägungen
 
-• **1** für Lieferscheine
-
-• **2** für Abschlagbelege
-
-• **3** für Folgeabschlagbelege
-
-• **4** für Finalbelege
+- **1** für Lieferscheine
+- **2** für Abschlagbelege
+- **3** für Folgeabschlagbelege
+- **4** für Finalbelege
 
 ermöglicht die Einschränkung der Auswertung auf bereits mindestens per Abschlag abgerechnete Belege oder auch auf bereits finalisierte Belege. Es werden aber immer nur Belege berücksichtigt, die nicht weiterverarbeitet sind. Auch bei der Angabe **‚Ab Belegtyp‘** = 1 (ab Lieferschein) werden bei bereits existenten Belegen zum Beispiel des Typs Abschlag die Abschlagbelege herangezogen.
 

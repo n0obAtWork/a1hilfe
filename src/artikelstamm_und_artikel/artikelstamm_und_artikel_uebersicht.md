@@ -7,13 +7,10 @@ In den Artikelstammdaten werden alle Informationen über einen Artikel zusammeng
 Vor der Erfassung der Artikelkonten sollten also verschiedene Konstanten vorher eingegeben sein, da auf sie bei der Stammdatenerfassung zugegriffen wird.  
 Aus der Sicht des Artikelstamms sind dies:
 
-• Mengeneinheitsgruppen und Mengeneinheiten
-
-• Warengruppen
-
-• Steuersätze
-
-• Erlöskennziffern
+- Mengeneinheitsgruppen und Mengeneinheiten
+- Warengruppen
+- Steuersätze
+- Erlöskennziffern
 
 Darüber hinaus können weitere Konstanten in Abhängigkeit von der Anwendung hinzukommen. So sind die Gefahrgutkennzeichen zu erfassen, wenn die Gefahrgutabwicklung aktiviert werden soll.
 

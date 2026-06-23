@@ -10,14 +10,10 @@ Diese Prüfung kann auch periodisch durch ein sog. Event erfolgen. Mehr dazu im 
 
 Mögliche weitere Status sind:
 
-• nicht genehmigt
-
-• ABD bereitgestellt
-
-• ABD abgeholt
-
-• AgV bereitgestellt
-
-• AgV abgeholt
+- nicht genehmigt
+- ABD bereitgestellt
+- ABD abgeholt
+- AgV bereitgestellt
+- AgV abgeholt
 
 Zur Statusprüfung wird die Prozedur AMIC_STATUS_FUNKTION aufgerufen. Die Prozedur erstellt das für den Webservice notwendige XML und sendet es über die Prozedur *getAtlasExportTransaction* an den an den AEB-Webservice. Die Rückmeldung wird verarbeitet, Status-Informationen gesetzt und Meldungen zusammengestellt. (Näheres siehe Dokumentation zur Datenbankprozedur.)

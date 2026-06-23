@@ -12,18 +12,12 @@ In einem Abrechnungsschema können zusätzlich zum Lieferartikel noch weitere me
 
 In Qualitätsdefinitionen kann in den Feldern ‚Berechnung erfolgt‘ und ‚Ausdruck erfolgt‘ auch für Qualitäten, die sich nicht auf Einlagerungspositionen beziehen, einstellen, ob die Qualität in Abhängigkeit von Einlagerungs- und Vereinnahmungskennzeichen abzurechnen bzw. zu drucken ist oder nicht, getrennt nach linksseitiger (Analysewert kleiner Basiswert) und rechtsseitiger (Analysewert größer Basiswert) Abrechnungsdefinition. Die Einstellmöglichkeiten sind hier:
 
-• Immer
+- Immer
+- Nicht bei Einlagerung
+- Nicht bei Vereinnahmung
+- Nicht bei Einlagerung/Vereinnahmung
+- Nur bei Einlagerung
+- Nur bei Vereinnahmung
+- Nur bei Einlagerung/Vereinnahmung
 
-• Nicht bei Einlagerung
-
-• Nicht bei Vereinnahmung
-
-• Nicht bei Einlagerung/Vereinnahmung
-
-• Nur bei Einlagerung
-
-• Nur bei Vereinnahmung
-
-• Nur bei Einlagerung/Vereinnahmung
-
-In Kosten-/Vergütungs-Definitionen wird auf der Maske im Bereich ‚Berechnen ab:‘ zunächst die Belegstufe und danach der Berechnungsstatus in Abhängigkeit des Einlagerungs-/Vereinnahmungskennzeichens des Beleges mit entsprechenden Einstellmöglichkeiten festgelegt.
+  In Kosten-/Vergütungs-Definitionen wird auf der Maske im Bereich ‚Berechnen ab:‘ zunächst die Belegstufe und danach der Berechnungsstatus in Abhängigkeit des Einlagerungs-/Vereinnahmungskennzeichens des Beleges mit entsprechenden Einstellmöglichkeiten festgelegt.

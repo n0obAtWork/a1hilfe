@@ -12,20 +12,17 @@
 
 4. Im [Sachkontenstamm](../../stammdaten_der_fibu/sachkonten.md) **[SKS]** kann in den jeweiligen GuV-Konten im Feld „Sperre Kostenobjekt“ aus folgenden Möglichkeiten gewählt werden:
 
-• **Gesperrt:** Es wird kein Kostenobjekt abgefragt.
+- **Gesperrt:** Es wird kein Kostenobjekt abgefragt.
+- **Kann:** Es kann ein Kostenobjekt eingeben werden.
+- **Muss:** Es muss ein Kostenobjekt eingegeben werden.
+- **Fest** Es wird nur das im Sachkontenstamm festgelegte Kostenobjekt verwendet.
 
-• **Kann:** Es kann ein Kostenobjekt eingeben werden.
+  Im Feld „Kostenobjekt“ kann hier die Nummer eines Kostenobjektes eingegeben werden, das bei der Belegerfassung automatisch vorgeschlagen wird.
 
-• **Muss:** Es muss ein Kostenobjekt eingegeben werden.
-
-• **Fest** Es wird nur das im Sachkontenstamm festgelegte Kostenobjekt verwendet.
-
-Im Feld „Kostenobjekt“ kann hier die Nummer eines Kostenobjektes eingegeben werden, das bei der Belegerfassung automatisch vorgeschlagen wird.
-
-5. Damit auch Rechnungen aus der Warenwirtschaft beim Fibu -Übertrag automatisch in die Kostenobjektrechnung eingetragen werden können, ist es nötig, [Kostenobjektgruppen](../kostenobjektgruppe.md) **[KSOBG]** zu definieren, in denen die Kostenobjekte des Artikels für Einkauf und Verkauf angegeben werden können.  
+  5. Damit auch Rechnungen aus der Warenwirtschaft beim Fibu -Übertrag automatisch in die Kostenobjektrechnung eingetragen werden können, ist es nötig, [Kostenobjektgruppen](../kostenobjektgruppe.md) **[KSOBG]** zu definieren, in denen die Kostenobjekte des Artikels für Einkauf und Verkauf angegeben werden können.  
 Diese werden dann im [Artikel](../../../artikelstamm_und_artikel/artikel/index.md) **[AR]** über die Funktion ***Kostenst./Statistik/Abteil*** gepflegt. Wird der Artikel im Vorgang angesprochen, so wird das entsprechende Kostenobjekt bebucht.
 
-6. Im [Mandantenstamm](../../../firmenstamm/firmenkonstanten/mandantenstamm.md#MND_FIBU) **[MND]** sollte ein Fehlerkostenobjekt eingerichtet werden. Dieses Kostenobjekt wird herangezogen, wenn zu einem GuV-Konto versehentlich kein Kostenobjekt hinterlegt ist und die „Sperre Kostenobjekt“ des angesprochenen Kontos nicht auf **Gesperrt** oder **Fest** steht.
+  6. Im [Mandantenstamm](../../../firmenstamm/firmenkonstanten/mandantenstamm.md#MND_FIBU) **[MND]** sollte ein Fehlerkostenobjekt eingerichtet werden. Dieses Kostenobjekt wird herangezogen, wenn zu einem GuV-Konto versehentlich kein Kostenobjekt hinterlegt ist und die „Sperre Kostenobjekt“ des angesprochenen Kontos nicht auf **Gesperrt** oder **Fest** steht.
 
 <p class="just-emphasize">Alternatives Label</p>
 

@@ -6,9 +6,8 @@ Mit der Folgeartikelverwaltung lassen sich verschiedene inhaltliche Fragestellun
 
 Die Möglichkeiten sollen an zwei Beispielen beschrieben werden.
 
-• Verkauf zusammenhängender Artikel
-
-• [Leergutverwaltung](./leergutverwaltung/index.md)
+- Verkauf zusammenhängender Artikel
+- [Leergutverwaltung](./leergutverwaltung/index.md)
 
 <p class="just-emphasize">Verkauf zusammenhängender Artikel</p>
 

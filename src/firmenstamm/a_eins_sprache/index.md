@@ -8,11 +8,9 @@ Direktsprung **[SPRA]**
 
 In A.eins existieren verschiedene Sichten der Sprachdarstellung.
 
-• Die Sprache in der A.eins dargestellt wird.
-
-• Die Sprache in der [die Bezeichnung der Stammdaten](./sprachabhaengige_bezeichnung_in_den_stammdaten.md) dargestellt wird.
-
-• Die Sprache, in der Kunden angeschrieben werden (Mahnungen, Rechnungen, usw...).  
+- Die Sprache in der A.eins dargestellt wird.
+- Die Sprache in der [die Bezeichnung der Stammdaten](./sprachabhaengige_bezeichnung_in_den_stammdaten.md) dargestellt wird.
+- Die Sprache, in der Kunden angeschrieben werden (Mahnungen, Rechnungen, usw...).  
     
 
 Grundsätzlich wird A.eins in Deutsch - immer Sprachnummer 0 - entwickelt. Diese Sprachnummer hat nichts mit der Sprachnummer im Sprachestamm zu tun, sondern wird separat im Stammdatenpfleger Sprachtexte in der Variante „A.eins Sprache“ gepflegt. Die hier vorhandenen Sprachen werden nur von AMIC festgelegt. Bisher sind folgende Sprachen vorgesehen:
@@ -40,9 +38,8 @@ Bisher kann für die Sprachen Englisch, Dänisch, Niederländisch und Französis
 
 Um A.eins in einer anderen Sprache als Deutsch darzustellen sind zwei Einstellungen notwendig.
 
-• Der Steuerparameter (Direktsprung **[SPA]**) „**Mehrsprachigkeit aktiv**“ muss auf **Ja** stehen.
-
-• Im [Bedienerstamm](../firmenkonstanten/bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/index.md) (Direktsprung ****[BD]****) muss die Sprache, in der A.eins ausgeführt werden soll, für den einzelnen Bediener hinterlegt werden.  
+- Der Steuerparameter (Direktsprung **[SPA]**) „**Mehrsprachigkeit aktiv**“ muss auf **Ja** stehen.
+- Im [Bedienerstamm](../firmenkonstanten/bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/index.md) (Direktsprung ****[BD]****) muss die Sprache, in der A.eins ausgeführt werden soll, für den einzelnen Bediener hinterlegt werden.  
 ![](../../ImagesExt/image8_42.png)  
     
 

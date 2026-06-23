@@ -8,17 +8,14 @@ Der Auslandszahlungsverkehr wird wie der normale Zahlungsverkehr gesteuert und w
 
 Der Weisungsschlüssel ‚01’ (=’BONL’) ist entfallen
 
-• Die AWV-Meldung für Zahlungen über Wertpapiergeschäfte muss jetzt auf Vordruck Z10 oder mit entsprechenden Datensätzen erfolgen.
-
-• Der Weisungsschlüssel ‚95’ ist entfallen. Die Beträge in den Meldedatensätzen werden weiterhin stets in Auftragswährung, bei Euro-Gegenwertzahlung in Euro angegeben.
-
-• Die Liste der zulässigen Länder für EU-Standardüberweisungen wurde erweitert um Island, Lichtenstein und Norwegen.
+- Die AWV-Meldung für Zahlungen über Wertpapiergeschäfte muss jetzt auf Vordruck Z10 oder mit entsprechenden Datensätzen erfolgen.
+- Der Weisungsschlüssel ‚95’ ist entfallen. Die Beträge in den Meldedatensätzen werden weiterhin stets in Auftragswährung, bei Euro-Gegenwertzahlung in Euro angegeben.
+- Die Liste der zulässigen Länder für EU-Standardüberweisungen wurde erweitert um Island, Lichtenstein und Norwegen.
 
 <p class="just-emphasize">Änderungen gültig ab 1.01.2006</p>
 
-• Anhebung der Betragsgrenze für EU-Standardüberweisung von 12.500 Euro auf 50.000 Euro.
-
-• Änderung des Meldeverfahrens für EU-Standardüberweisungen  
+- Anhebung der Betragsgrenze für EU-Standardüberweisung von 12.500 Euro auf 50.000 Euro.
+- Änderung des Meldeverfahrens für EU-Standardüberweisungen  
     
 
 <p class="siehe-auch">Siehe auch:</p>

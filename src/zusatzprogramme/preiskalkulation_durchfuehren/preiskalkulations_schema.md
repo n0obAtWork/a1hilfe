@@ -6,17 +6,12 @@ Mit dem Modul „Preiskalkulationsschema“ können Kalkulationsschemata für da
 
 Ein Schema besteht aus
 
-• einer dem Schema eindeutig zugeordneten Schemanummer
-
-• einer Bezeichnung des Schemas
-
-• der Angabe der Kalkulationsgrundlage
-
-• optional die Angabe eines Makros mit Prozeduren zur Kalkulation
-
-• einer Sammlung von Preisberechnungsformeln
-
-• einer Sammlung von Preisbezugsbedingungen.
+- einer dem Schema eindeutig zugeordneten Schemanummer
+- einer Bezeichnung des Schemas
+- der Angabe der Kalkulationsgrundlage
+- optional die Angabe eines Makros mit Prozeduren zur Kalkulation
+- einer Sammlung von Preisberechnungsformeln
+- einer Sammlung von Preisbezugsbedingungen.
 
 Der Wert der Kalkulationsgrundlage gibt an, auf welcher Basis Preise kalkuliert werden sollen.
 

@@ -6,13 +6,10 @@ Letzter Hilfebau : 12.06.2026 17:11:31
 
 Systemvoraussetzungen für A.eins:
 
-• Client: Alle von Microsoft supporteten Betriebssysteme.
-
-o Windows **11 Pro / Enterprise** (23H2 und 24H2) ist freigegeben.
-
-• Server: Alle von Microsoft supporteten Betriebssysteme (nur in 64-Bit Version).
-
-• Windows-Server **2025** wird empfohlen.
+- Client: Alle von Microsoft supporteten Betriebssysteme.
+  - Windows **11 Pro / Enterprise** (23H2 und 24H2) ist freigegeben.
+- Server: Alle von Microsoft supporteten Betriebssysteme (nur in 64-Bit Version).
+- Windows-Server **2025** wird empfohlen.
 
 Die vollständigen Systemvoraussetzungen und Empfehlungen für Sie entnehmen Sie dem Dokument Systemvoraussetzungen: [Systemvoraussetzungen](https://amic.de/wp-content/uploads/2025/07/A.eins_Systemvoraussetzungen.pdf)
 

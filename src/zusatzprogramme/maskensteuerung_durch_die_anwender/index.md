@@ -6,17 +6,12 @@ Der Aeins Anwender hat die Möglichkeit Einfluss darauf zu nehmen, wie eine Mask
 
 Durch Klicken mit der rechten Maustaste kann ein Kontextmenu mit folgenden Funktionen aufgerufen werden:
 
-• Feldeigenschaften setzen (z.B. Tabulatorreihenfolge)
-
-• EPAS
-
-• Properties anzeigen
-
-• Tabulatorreihenfolge löschen
-
-• Feldeigenschaften löschen
-
-• User Jpl editieren
+- Feldeigenschaften setzen (z.B. Tabulatorreihenfolge)
+- EPAS
+- Properties anzeigen
+- Tabulatorreihenfolge löschen
+- Feldeigenschaften löschen
+- User Jpl editieren
 
     
 Mit den ersten drei Punkten wird ausgewählt, was geschehen soll, wenn man auf ein Feld klickt. Die Funktion ist dann mit einem Haken versehen. Wenn man nun mit der linken Maustaste in ein Feld klickt wur die entsprechende Funktion für dieses Feld ausgeführt.

@@ -52,25 +52,25 @@ Die Daten dürfen ab dem 01.01.2013 nur mit Authentifizierung übertragen werden
 
 Es existieren drei verschiedene Möglichkeiten der Authentifizierung
 
-• Software-Zertifikat:  
+- Software-Zertifikat:  
 Angabe des Dateiname - inklusive des vollständigen Verzeichnisses - des Software-Zertifikats (i.d.R. mit der Endung .pfx).  
     
 
-• Sicherheitsstick:  
+- Sicherheitsstick:  
 Angabe des Dateinamens des Treibers. Bitte beachten, dass der Treiber betriebssystemabhängig sein kann. Aktuell werden folgende Sticks von Elster unterstützt:  
     
 
-o „**G&D StarSign Crypto USB Token (S)“** für ELSTER. Dies ist der Nachfolger des Sticks „**G&D StarSign USB Token**“. Obwohl dieser Sicherheitsstick selber keine Treiber-Dll benötig, muss an die ERiC API der Name des Treibers übergeben werden. Er lautet hier aetpkss1.dll. Diesen Treiber erhält man, indem man von [www.sicherheitsstick.de](http://www.sicherheitsstick.de/) die Treiber für „**G&D StarSign USB Token**“ installiert.  
+  - „**G&D StarSign Crypto USB Token (S)“** für ELSTER. Dies ist der Nachfolger des Sticks „**G&D StarSign USB Token**“. Obwohl dieser Sicherheitsstick selber keine Treiber-Dll benötig, muss an die ERiC API der Name des Treibers übergeben werden. Er lautet hier aetpkss1.dll. Diesen Treiber erhält man, indem man von [www.sicherheitsstick.de](http://www.sicherheitsstick.de/) die Treiber für „**G&D StarSign USB Token**“ installiert.  
     
 Um den Sicherheitsstick " **G&D StarSign Crypto USB Token (S)**" mit dem ERiC zu verwenden, brauchen der unter https://www.sicherheitsstick.de genannte ElsterAuthenticator und die optionalen Registry-Einträge für Windows-Nutzer nicht installiert zu werden.  
     
 
-o **„StarSign Token USB 500 mit SmartCafeExpert 3.1 Chip“ für ELSTER**. Hier heißt die Treiber-DLL **starsignpkcs11_w64.dll**  
+  - **„StarSign Token USB 500 mit SmartCafeExpert 3.1 Chip“ für ELSTER**. Hier heißt die Treiber-DLL **starsignpkcs11_w64.dll**  
     
 
 Unter [www.sicherheitsstick.de](http://www.sicherheitsstick.de/) stehen weitere Informationen in der Anleitung zum Sicherheitsstick.
 
-• Signaturkarte:  
+- Signaturkarte:  
 Angabe des Dateinamens des Treibers, welcher einen Zugriff auf die Signaturkarte ermöglicht. Weitere Informationen in der Anleitung zur Signaturkarte.
 
 **Übertragungsprotokoll archivieren**
@@ -97,9 +97,8 @@ Sollte die Verbindung zum Internet über einen Proxyserver laufen, so können hi
 **  
 Zur Unterstützung der Einrichtung von Elster stehen zwei PDF-Dateien auf dem Dokumentation-Verzeichnis von A.eins:
 
-• KonfigurationProxy.pdf
-
-• Konfiguration_AVMKEN_Jana.pdf  
+- KonfigurationProxy.pdf
+- Konfiguration_AVMKEN_Jana.pdf  
  
 
 Die hier vorgenommenen Einstellungen für den Proxy-Server gelten auch für das Elster Modul zur Übertragung der Zusammenfassenden Meldung.  

@@ -31,15 +31,11 @@ Beispiel:
 | Montag | 08:00 | 12:00 | 25 |
 | Montag | 09:00 | 13:00 | 30 |
 
-• Um 6:45 würde der Wert 100 verwendet werden.
-
-• Um 8:35 würde der Wert 25 verwendet werden.
-
-• Um 9:43 würde der Wert 30 verwendet werden.
-
-• Um 12:51 würde der Wert 30 verwendet werden.
-
-• Um 14:42 würde der Wert 100 verwendet werden.
+- Um 6:45 würde der Wert 100 verwendet werden.
+- Um 8:35 würde der Wert 25 verwendet werden.
+- Um 9:43 würde der Wert 30 verwendet werden.
+- Um 12:51 würde der Wert 30 verwendet werden.
+- Um 14:42 würde der Wert 100 verwendet werden.
 
 <p class="just-emphasize">Staffelung</p>
 

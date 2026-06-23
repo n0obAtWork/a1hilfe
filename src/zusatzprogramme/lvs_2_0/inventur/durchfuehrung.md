@@ -10,15 +10,11 @@ Die Vorgehensweise bei einer spontanen Inventur unterscheidet sich nur in dem St
 | --- | --- |
 | INVENTUR | KORRBESTAND |
 
-• Scan der NVE
-
-o Anzeige der NVE-Info ohne Menge
-
-o Prüfung und Zählung
-
-• Eingabe der Menge
-
-o Erzeugung des Buchungssatzes
+- Scan der NVE
+  - Anzeige der NVE-Info ohne Menge
+  - Prüfung und Zählung
+- Eingabe der Menge
+  - Erzeugung des Buchungssatzes
 
 Reicht die Menge auf einem Ladeträger (z.B. in der Kommissionierzone) nicht mehr aus, um den allokierten Bedarf zu decken, so wird nachallokiert, das bedeutet, ein weiterer Ladeträger erhält den Fahrauftrag in den Kommissionierbereich und von dort kann die fehlende Menge entnommen werden.
 

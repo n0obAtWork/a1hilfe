@@ -4,13 +4,10 @@
 
 Folgende Module sind für den Marktbereich verfügbar.
 
-• Eingangslieferschein
-
-• Bestellung
-
-• Inventur
-
-• [Permanente Inventur](./permanente_inventur.md)
+- Eingangslieferschein
+- Bestellung
+- Inventur
+- [Permanente Inventur](./permanente_inventur.md)
 
 Starten eines Vorganges mit dem Scanner
 

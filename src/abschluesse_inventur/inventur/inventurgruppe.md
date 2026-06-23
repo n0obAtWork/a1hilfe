@@ -12,8 +12,6 @@ Diese ist als “Inventurgruppe Nr. **1**” mit dem Text “**Hauptinventur JW*
 
 **Hinweis:** Die Inventurgruppe innerhalb eines Artikels kann nur gepflegt werden, wenn
 
-• Das ausgewählte Geschäftsjahr weder geschlossen noch gesperrt ist.
-
-• Es im ausgewählten Jahr Inventur-Bestandseinträge zum Artikel gibt.
-
-• Im angegebenen Zeitraum bereits eine Inventur eröffnet wurde.
+- Das ausgewählte Geschäftsjahr weder geschlossen noch gesperrt ist.
+- Es im ausgewählten Jahr Inventur-Bestandseinträge zum Artikel gibt.
+- Im angegebenen Zeitraum bereits eine Inventur eröffnet wurde.

@@ -74,25 +74,16 @@ Wie lautet der Name des Feldes für die Optionbox(**shift+strg+F5**). Häufig he
 
 Ab und an will man Pfleger ohne ein Funktionsmenü erstellen. Oder sie soll nicht unten, sondern oben dargestellt werden. Hier legt man die gewünschte Darstellung fest. Die Optionen „Ausblenden und Register oben“ bzw. „Ausblenden und Register unten“ stehen nur bei den Masken, die mit AEZADDONT beginnen, zur Verfügung. Die Darstellungen, die mit „Eingeschränktes Mausmenü“ beginnen gelten für alle AEZADDON-Masken. „Eingeschränktes Mausmenü“ bedeutet, dass das Menü, welches über die rechte Maustaste geöffnet wird, nur die ESCAPE-Funktion enthält.
 
-• 0 ⇨ Unten rechts auf dem Bildschirm
-
-• 1 ⇨ Ausblenden
-
-• 2 ⇨ Oben rechts auf dem Bildschirm
-
-• 3 ⇨ Ausblenden und Register oben
-
-• 4 ⇨ Ausblenden und Register unten
-
-• 5 ⇨ Menüband (nur in der 64 Bit-Version von A.eins)
-
-• 6 ⇨ Menüband und Register unten (nur in der 64 Bit-Version von A.eins)
-
-• 9 ⇨ Eingeschränktes Mausmenü ausblenden
-
-• 11 ⇨ Eingeschränktes Mausmenü Ausblenden und Register oben
-
-• 12 ⇨ Eingeschränktes Mausmenü Ausblenden und Register unten
+- 0 ⇨ Unten rechts auf dem Bildschirm
+- 1 ⇨ Ausblenden
+- 2 ⇨ Oben rechts auf dem Bildschirm
+- 3 ⇨ Ausblenden und Register oben
+- 4 ⇨ Ausblenden und Register unten
+- 5 ⇨ Menüband (nur in der 64 Bit-Version von A.eins)
+- 6 ⇨ Menüband und Register unten (nur in der 64 Bit-Version von A.eins)
+- 9 ⇨ Eingeschränktes Mausmenü ausblenden
+- 11 ⇨ Eingeschränktes Mausmenü Ausblenden und Register oben
+- 12 ⇨ Eingeschränktes Mausmenü Ausblenden und Register unten
 
 Die Darstellungsmöglichkeiten 3 „Ausblenden und Register oben“ und 4 „Ausblenden und Register unten“ stehen nur dann zur Verfügung, wenn man eine der Masken AEZADDONT1 bis AEZADDONT22 verwendet hat. Bei diesen Masken wird hierdurch auch die Größe bzw. die Position des Registers beeinflusst.
 
@@ -118,15 +109,11 @@ Es kann zu den Optionboxen eine eigene private Optionbox dazu gelinkt werden. Si
 
 Hier wird festgelegt, wo auf der Maske die Gruppe dargestellt wird.
 
-• 0 ⇨ auf der Maske
-
-• 1 ⇨ auf dem Register eingereihte Tab-Reihenfolge
-
-• 2 ⇨ auf dem Register alleinstehende Tab-Reihenfolge
-
-• 5 ⇨ auf dem Pixelregister eingereihte Tab-Reihenfolge
-
-• 6 ⇨ auf dem Pixelregister alleinstehende Tab-Reihenfolge
+- 0 ⇨ auf der Maske
+- 1 ⇨ auf dem Register eingereihte Tab-Reihenfolge
+- 2 ⇨ auf dem Register alleinstehende Tab-Reihenfolge
+- 5 ⇨ auf dem Pixelregister eingereihte Tab-Reihenfolge
+- 6 ⇨ auf dem Pixelregister alleinstehende Tab-Reihenfolge
 
 Die Optionen **„eingereiht“** und **„alleinstehend“** beziehen sich auf das Verhalten des Cursors. Wählt man „**eingereiht“**, so wird beim Verlassen des letzten Originalfeldes in das erste Feld auf dem AIS-Register gesprungen und beim Verlassen des letzten Feldes auf dem AIS-Register wird in das erste Feld auf dem ersten Register gesprungen. Hat man mehrere AIS-Register einer Maske zugeordnet, dann wird auch automatisch zwischen den Registern gewechselt. Bei der Darstellungsoption „**alleinstehend**“ bleibt jedes AIS-Register für sich, d.h. beim letzten Feld auf einem AIS-Register wird in das erste Feld auf demselben Register gesprungen.
 
@@ -136,9 +123,8 @@ Die Angabe von Pixeln und Jam-Koordinaten bei Feldern unterscheidet sich bei Reg
 
 Dieses Feld hat zweierlei Bedeutung:
 
-• Wenn die Gruppe auf einem Register dargestellt werden soll, ist dies die Bezeichnung (Label) des Registers. Existiert das Register bereits, so wird die Gruppe auf dem existierenden Register dargestellt. Ansonsten wird ein neues Register mit der hier eingetragenen Überschrift erzeugt.
-
-• Beim Verbinden dieser Gruppe ( nur bei Maske AEZADDON oder AEZADDOND ) wird die hier eingetragene Bezeichnung in dem Funktionsmenü verwendet.
+- Wenn die Gruppe auf einem Register dargestellt werden soll, ist dies die Bezeichnung (Label) des Registers. Existiert das Register bereits, so wird die Gruppe auf dem existierenden Register dargestellt. Ansonsten wird ein neues Register mit der hier eingetragenen Überschrift erzeugt.
+- Beim Verbinden dieser Gruppe ( nur bei Maske AEZADDON oder AEZADDOND ) wird die hier eingetragene Bezeichnung in dem Funktionsmenü verwendet.
 
 <p class="just-emphasize">Register Reihenfolge</p>
 

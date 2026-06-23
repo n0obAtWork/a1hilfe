@@ -12,13 +12,10 @@ Direktsprung **[BNK]**.
 
 Im Bankenstamm müssen die Felder **Staat** und **Swift/BIC** gepflegt werden. Der Staat ist eine im Staatstamm geführte Nummer. Die Swift/BIC (Bank Identifier Code) ist die Internationale Banknummer entsprechend der Bankleitzahl in Deutschland mit 8 oder 11 Stellen. Diese Kennung setzt sich wie folgt zusammen:
 
-• Bank code : 4 Stellen Alphazeichen frei gewählt (Bundesbank z.B. MARK)
-
-• country code : 2 Stellen Alphazeichen, ISO-Code des Landes (in Deutschland also DE)
-
-• location code: 2 Stellen alphanumerisch zur Ortsangabe (z.B. FF für Frankfurt)
-
-• branch code: Wahlweise 3 Stellen alphanumerisch zur Bezeichnung von Filialen
+- Bank code : 4 Stellen Alphazeichen frei gewählt (Bundesbank z.B. MARK)
+- country code : 2 Stellen Alphazeichen, ISO-Code des Landes (in Deutschland also DE)
+- location code: 2 Stellen alphanumerisch zur Ortsangabe (z.B. FF für Frankfurt)
+- branch code: Wahlweise 3 Stellen alphanumerisch zur Bezeichnung von Filialen
 
 Die im Bankenstamm existierende Funktion "**Banken aktualisieren**" trägt den BIC nach. Sollte der BIC für Auslandsbanken nicht bekannt sein, erfragen Sie diese beim Zahlungsempfänger. Bei Auslandsbanken existiert für gewöhnlich keine Bankleitzahl. Da die Bankleitzahl jedoch als Schlüssel dient, muss hier ein erdachter Wert eingetragen werden.
 

@@ -36,10 +36,7 @@ Die Auswahlliste enthält die folgenden Informationen:
 
 Der Webservice stellt hier vier Antwortmöglichkeiten bereit:
 
-§ A = stimmt überein
-
-§ B = stimmt nicht überein
-
-§ C = nicht angefragt
-
-§ D = vom EU-Mitgliedsstaat nicht mitgeteilt
+- A = stimmt überein
+- B = stimmt nicht überein
+- C = nicht angefragt
+- D = vom EU-Mitgliedsstaat nicht mitgeteilt

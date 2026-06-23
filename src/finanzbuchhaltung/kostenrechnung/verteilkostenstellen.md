@@ -28,24 +28,17 @@ Wenn Verteilkostenstellen gelöscht werden, werden sie nicht sofort physikalisch
 
 Bevor eine Verteilkostenstelle jedoch als gelöscht gekennzeichnet werden kann, muss vorher getestet werden, ob sie nicht noch verwendet wird.
 
-• Wird die Kostenstelle noch als Vorbelegung für die Belegerfassung im Sachkontenstamm verwendet?
-
-• Ist sie als Kostenstelle für die automatischen Buchungen der Mahngebühren/Zinsen im Mahnsatz hinterlegt?
-
-• Ist sie als Fehlerkostenstelle im Mandantenstamm hinterlegt?
-
-• Wird sie in der Relation ARTIKOSTSTGRUPPE verwendet?
-
-• Wird sie als Kostenstelle für die automatischen Buchungen der Zinsrechnung in den Zinsgruppen verwendet?
-
-• Wird sie als Kostenstellenvorbelegung in den Wechselkosten verwendet?
-
-• Ist diese Kostenstelle einer Verteilkostenstelle zugeordnet? Bei dieser Prüfung wird unterschieden, ob die Verteilkostenstelle bereits gelöscht worden ist oder nicht. Bei gelöschten Verteilkostenstellen erfolgt ein Hinweis darauf mit einer Abfrage, ob  
+- Wird die Kostenstelle noch als Vorbelegung für die Belegerfassung im Sachkontenstamm verwendet?
+- Ist sie als Kostenstelle für die automatischen Buchungen der Mahngebühren/Zinsen im Mahnsatz hinterlegt?
+- Ist sie als Fehlerkostenstelle im Mandantenstamm hinterlegt?
+- Wird sie in der Relation ARTIKOSTSTGRUPPE verwendet?
+- Wird sie als Kostenstelle für die automatischen Buchungen der Zinsrechnung in den Zinsgruppen verwendet?
+- Wird sie als Kostenstellenvorbelegung in den Wechselkosten verwendet?
+- Ist diese Kostenstelle einer Verteilkostenstelle zugeordnet? Bei dieser Prüfung wird unterschieden, ob die Verteilkostenstelle bereits gelöscht worden ist oder nicht. Bei gelöschten Verteilkostenstellen erfolgt ein Hinweis darauf mit einer Abfrage, ob  
 tatsächlich gelöscht werden soll. Bei Verwendung in nicht gelöschten Verteilkostenstellen wird das Löschen nicht durchgeführt.
 
-• Wird diese Kostenstelle in den Periodischen Buchungen hinterlegt?
-
-• Bei Kostenstellen, die bereits bebucht wurden, erfolgt ein Hinweis mit Abfrage, ob tatsächlich gelöscht werden soll.
+- Wird diese Kostenstelle in den Periodischen Buchungen hinterlegt?
+- Bei Kostenstellen, die bereits bebucht wurden, erfolgt ein Hinweis mit Abfrage, ob tatsächlich gelöscht werden soll.
 
 Wurden diese Tests durchlaufen, wird die Kostenstelle als gelöschte Kostenstelle gekennzeichnet. Alle so gekennzeichneten Kostenstellen finden sich in der Variante „Gelöschte...“ wieder. Dort stehen dann – nachdem man eine Kostenstelle markiert hat – zwei Funktionen zur Verfügung.
 

@@ -19,15 +19,11 @@ Der **Zahlstichtag** steuert zusammen mit dem **nächsten Stichtag**, welche Bel
 
 Ist im Feld **Skonto berücksichtigen** der Wert „OPs nur laut Valuta heranziehen“ eingetragen, so wird die Skontofrist nicht berücksichtigt, d.h. das Skonto-Datum wird für die Auswahl ignoriert. Sollte die Skontofrist für die so ausgewählten OPs nicht abgelaufen sein, so wird trotzdem Skonto gewährt. Auch wird bei Verrechnung von Gutschriften ggf. Skonto gewährt. Zusätzlich spielen bei SEPA-Lastschriften noch folgende Einrichterparameter eine Rolle:
 
-• SEPA-Bankarbeitstage vor Fälligkeit bei Erstlastschrift (Standardeinstellung ist 5)
-
-• SEPA-Bankarbeitstage vor Fälligkeit bei Folgelastschrift (Standardeinstellung ist 2)
-
-• SEPA-Bankarbeitstage vor Fälligkeit bei Firmenlastschrift (Standardeinstellung ist 1)
-
-• SEPA-Bankarbeitstage vor Fälligkeit bei Eillastschrift (Standardeinstellung ist 1)
-
-• SEPA-Maximale Vordatierung des Ausführdatums (Kalendertage) (Standardeinstellung ist 15)
+- SEPA-Bankarbeitstage vor Fälligkeit bei Erstlastschrift (Standardeinstellung ist 5)
+- SEPA-Bankarbeitstage vor Fälligkeit bei Folgelastschrift (Standardeinstellung ist 2)
+- SEPA-Bankarbeitstage vor Fälligkeit bei Firmenlastschrift (Standardeinstellung ist 1)
+- SEPA-Bankarbeitstage vor Fälligkeit bei Eillastschrift (Standardeinstellung ist 1)
+- SEPA-Maximale Vordatierung des Ausführdatums (Kalendertage) (Standardeinstellung ist 15)
 
 Bei Standard-Überweisungen wird immer ein Bankarbeitstag angenommen, bei [Echtzeitüberweisung](./stammdaten_zahlungsverkehr/zahlungsart.md) wird kein Bankarbeitstag bei der Bestimmung der Fälligkeiten verwendet.
 

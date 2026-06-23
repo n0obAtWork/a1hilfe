@@ -22,16 +22,12 @@ Diese Aussagen gelten für alle Formen des Kontraktgeschäftes, die hier als Kon
 
 Warenverkauf:
 
-• Verkaufskontrakt
-
-• Verkaufskontrakt Fremdlager
-
-• Verkaufskontrakt Rohware
+- Verkaufskontrakt
+- Verkaufskontrakt Fremdlager
+- Verkaufskontrakt Rohware
 
 Wareneinkauf:
 
-• Einkaufskontrakt
-
-• Einkaufskontrakt Fremdlager
-
-• Einkaufskontrakt Rohware
+- Einkaufskontrakt
+- Einkaufskontrakt Fremdlager
+- Einkaufskontrakt Rohware

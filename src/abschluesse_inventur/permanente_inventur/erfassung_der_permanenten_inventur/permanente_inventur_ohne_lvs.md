@@ -14,10 +14,8 @@ Hinweis:
 
 Auf dem Lager stehen unter Umständen drei Arten von Ware:
 
-• Einlagerung – Fremde Ware, die im eigenen Lager eingelagert und als Einlagerung gebucht wurde.
-
-• Vorverkauf – Fremde Ware, die bereits verkauft, jedoch vom Käufer noch nicht abgeholt worden ist.
-
-• Eigenware – Ware, die im eigenen Lager steht und zu diesem Betrieb gehört.
+- Einlagerung – Fremde Ware, die im eigenen Lager eingelagert und als Einlagerung gebucht wurde.
+- Vorverkauf – Fremde Ware, die bereits verkauft, jedoch vom Käufer noch nicht abgeholt worden ist.
+- Eigenware – Ware, die im eigenen Lager steht und zu diesem Betrieb gehört.
 
 Die Soll-Menge einer Zählung wird stets mit der Summe dieser drei Bestände verglichen. Ergibt sich daraus eine Differenz, so wird diese stets nur in der Eigenware korrigiert. Das kann dazu führen, dass der Bestand der Eigenware negativ angezeigt wird.

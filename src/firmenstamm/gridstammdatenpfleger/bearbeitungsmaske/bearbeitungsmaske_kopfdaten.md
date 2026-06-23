@@ -10,9 +10,8 @@ Die im Kopf der Maske stehenden Felder im Einzelnen:
 
 Der Typ gibt die Herkunft der Griddefinition an. Mögliche Konfigurationen:
 
-• System (vom Entwickler vorgegeben) – Diese Einstellungen sind vom Anwender nicht zu ändern.
-
-• Anwender – Diese Einstellungen/Konfigurationen sind vom Anwender selbst erstellt worden
+- System (vom Entwickler vorgegeben) – Diese Einstellungen sind vom Anwender nicht zu ändern.
+- Anwender – Diese Einstellungen/Konfigurationen sind vom Anwender selbst erstellt worden
 
 <p class="just-emphasize">Name</p>
 

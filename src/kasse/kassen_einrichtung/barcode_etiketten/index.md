@@ -8,11 +8,9 @@ Solche Barcodes werden „InStoreBarcodes“ genannt und sind ausschließlich zu
 
 Anwendungsbeispiele:
 
-• Etikett einer Waage mit Artikelnummer und Gewicht
-
-• Etikett eines Warenausgabeautomaten
-
-• Barcode eines Warenlieferscheins
+- Etikett einer Waage mit Artikelnummer und Gewicht
+- Etikett eines Warenausgabeautomaten
+- Barcode eines Warenlieferscheins
 
 Der Aufbau eins solchen Etiketts könnte so aussehen:
 
@@ -27,11 +25,9 @@ Voraussetzungen:
 
 Einige Voraussetzungen müssen jedoch alle erfüllen:
 
-• Der Barcode darf nicht als EAN-Barcode in der Datenbank enthalten sein. Dies sollte in der Regel der Fall sein, wenn der InStoreBarcode mit der Ziffer 2 beginnt. Es findet keine programmatische Prüfung auf Kollisionen statt.
-
-• Die Artikelnummer im Barcode muss im System pro Lager eindeutig sein (d.h. in unserem Beispiel müssen alle Artikelnummern von Barcodeartikeln 5-stellig sein)
-
-• Der EAN-Code für Nicht-In-Store-Artikel muss im System eindeutig sein (im Artikelstamm)
+- Der Barcode darf nicht als EAN-Barcode in der Datenbank enthalten sein. Dies sollte in der Regel der Fall sein, wenn der InStoreBarcode mit der Ziffer 2 beginnt. Es findet keine programmatische Prüfung auf Kollisionen statt.
+- Die Artikelnummer im Barcode muss im System pro Lager eindeutig sein (d.h. in unserem Beispiel müssen alle Artikelnummern von Barcodeartikeln 5-stellig sein)
+- Der EAN-Code für Nicht-In-Store-Artikel muss im System eindeutig sein (im Artikelstamm)
 
 Steuerparameter:
 

@@ -4,15 +4,11 @@
 
 Zur Einrichtung eines Geschäftsjahres sind folgende Eintragungen erforderlich:
 
-• sinnvolle Bezeichnung, z.B. Wirtschaftsjahr 20xx
-
-• Datumsvorgaben zum Abprüfen der Gültigkeit eines Datums in der DB
-
-• Nr.-Kreis des Buchungsjournals für dieses Wirtschaftsjahr
-
-• Periodeneinteilung Ware = 12 Normalperioden
-
-• Periodeneinteilung Fibu = 12  
+- sinnvolle Bezeichnung, z.B. Wirtschaftsjahr 20xx
+- Datumsvorgaben zum Abprüfen der Gültigkeit eines Datums in der DB
+- Nr.-Kreis des Buchungsjournals für dieses Wirtschaftsjahr
+- Periodeneinteilung Ware = 12 Normalperioden
+- Periodeneinteilung Fibu = 12  
  (12 Normalperioden + Eröffnung + Abschluss)
 
 Direktsprung **[JAHR]**, dann ***Neu*** **F8**

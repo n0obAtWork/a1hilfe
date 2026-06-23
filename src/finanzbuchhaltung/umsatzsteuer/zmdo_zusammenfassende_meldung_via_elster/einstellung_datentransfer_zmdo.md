@@ -18,22 +18,21 @@ Die ZMDO kann nur mit Authentifizierung übertragen werden. Informationen zur Au
 
 Es existieren drei verschiedene Möglichkeiten der Authentifizierung:
 
-• Software-Zertifikat:  
+- Software-Zertifikat:  
 Angabe des Dateiname - inklusive des vollständigen Verzeichnisses - des Software-Zertifikats (i.d.R. mit der Endung .pfx).  
     
 
-• Sicherheitsstick:  
+- Sicherheitsstick:  
 Angabe des Dateinamens des Treibers. Bitte beachten, dass der Treiber betriebssystemabhängig sein kann. Aktuell werden folgende Sticks von Elster unterstützt:  
     
 
-o G&D StarSign USB Token für ELSTER. Hier heißt die Treiber-DLL **starsignpkcs11_w32.dll**
-
-o G&D StarSign Crypto USB Token für ELSTER. Hier heißt die Treiber-DLL **aetpkss1.dll**  
+  - G&D StarSign USB Token für ELSTER. Hier heißt die Treiber-DLL **starsignpkcs11_w32.dll**
+  - G&D StarSign Crypto USB Token für ELSTER. Hier heißt die Treiber-DLL **aetpkss1.dll**  
     
 
-Weitere Informationen in der Anleitung zum Sicherheitsstick stehen unter [www.sicherheitsstick.de](http://www.sicherheitsstick.de). 
+    Weitere Informationen in der Anleitung zum Sicherheitsstick stehen unter [www.sicherheitsstick.de](http://www.sicherheitsstick.de). 
 
-• Signaturkarte:  
+- Signaturkarte:  
 Angabe des Dateinamens des Treibers, welcher einen Zugriff auf die Signaturkarte ermöglicht. Weitere Informationen in der Anleitung zur Signaturkarte.
 
 **Übertragungsprotokoll archivieren**
@@ -46,9 +45,8 @@ Sollte die Verbindung zum Internet über einen Proxyserver laufen, so können hi
 *  
 Zur Unterstützung der Einrichtung von Elster stehen zwei PDF-Dateien auf dem Verzeichnis Dokumentation von A.eins:
 
-• KonfigurationProxy.pdf
-
-• Konfiguration_AVMKEN_Jana.pdf
+- KonfigurationProxy.pdf
+- Konfiguration_AVMKEN_Jana.pdf
 
 Die hier vorgenommenen Einstellungen für den Proxy-Server gelten auch für das Elster Modul zur Übertragung der Umsatzsteuervoranmeldung.  
     

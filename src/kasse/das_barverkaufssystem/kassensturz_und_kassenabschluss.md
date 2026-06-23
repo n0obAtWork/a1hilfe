@@ -83,15 +83,11 @@ Die Unterkasse wird der Kassenbestand saldiert abgeschöpft an die Hauptkasse. D
 
 Empfehlenswerte Einstellung für möglichst einfache Handhabung und Abstimmung
 
-• Spa Zami=ja
-
-• jede Kasse eigenes Kassenkonto und eigenes Diff.konto
-
-• Bargeldkonto und Stornokonto =0 oder =Kassenkonto
-
-• Zami Konten für die verwendeten Zami, müssen nicht notwendig je Kasse eingerichtet sein
-
-• SPA Abschöpfung und Einrichtung Unterkasse beliebig
+- Spa Zami=ja
+- jede Kasse eigenes Kassenkonto und eigenes Diff.konto
+- Bargeldkonto und Stornokonto =0 oder =Kassenkonto
+- Zami Konten für die verwendeten Zami, müssen nicht notwendig je Kasse eingerichtet sein
+- SPA Abschöpfung und Einrichtung Unterkasse beliebig
 
 Erfassungsparameter beim Kassenabschluss
 

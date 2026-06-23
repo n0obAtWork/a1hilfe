@@ -4,9 +4,8 @@
 
 Zunächst rufen Sie die Anwendung Zoll-Lieferscheine mit dem Direktsprung [LIZO] auf. Dort werden zweierlei Daten aufgelistet:
 
-• Alle Lieferscheine mit deren Positionen an Kunden außerhalb der EU, die noch nicht verarbeitet wurden
-
-• Alle Zollanmeldungen
+- Alle Lieferscheine mit deren Positionen an Kunden außerhalb der EU, die noch nicht verarbeitet wurden
+- Alle Zollanmeldungen
 
 Wählen Sie die zu einer Lieferung zusammenzufassenden Lieferscheinpositionen aus. Achten Sie dabei auf die Reihenfolge der Markierung.
 

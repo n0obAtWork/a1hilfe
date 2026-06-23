@@ -8,9 +8,8 @@ Direktsprung **[ZIB]**
 
 In der Praxis werden nach Versand und Buchung der Zinsabrechnung häufig mit den betroffenen Kunden Vereinbarungen getroffen, die wie folgt lauten:
 
-• 75% der Zinsen werden berechnet, 25% werden erlassen.
-
-• Von den ursprünglichen errechneten Zinsen in Höhe von 724,13 € sind nur 500 € zu zahlen.
+- 75% der Zinsen werden berechnet, 25% werden erlassen.
+- Von den ursprünglichen errechneten Zinsen in Höhe von 724,13 € sind nur 500 € zu zahlen.
 
 A.eins unterstützt diese individuellen Gutschriften. Dafür existiert in der Anwendung „**Zinsabrechnung bearbeiten**“ die Variante „**individuelle Zinsgutschrift**“. Hier werden alle gebuchten Zinsen aufgelistet, von denen jeweils eine ausgewählt werden kann. Wenn man dann die Funktion auslöst, erscheint folgender Bildschirm.
 

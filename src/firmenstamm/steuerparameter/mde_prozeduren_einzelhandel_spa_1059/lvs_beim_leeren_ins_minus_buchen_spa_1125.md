@@ -12,6 +12,5 @@ Um eine Minusbuchung beim Leeren eines Ladeträgers zu vermeiden, kann diese Mö
 
 1 – Es wird weiterhin bei Entnahme > der Menge eine Minus-Menge auf dem Ladeträger verbleiben.
 
-• Alle Lokalitäten, die im Wirtschaftsjahr im Rahmen einer permanenten Inventuraufnahme besucht wurden
-
-• Alle Lokalitäten, auf denen im Verlauf des Wirtschaftsjahres Ware bewegt oder inventarisiert wurde.
+- Alle Lokalitäten, die im Wirtschaftsjahr im Rahmen einer permanenten Inventuraufnahme besucht wurden
+- Alle Lokalitäten, auf denen im Verlauf des Wirtschaftsjahres Ware bewegt oder inventarisiert wurde.

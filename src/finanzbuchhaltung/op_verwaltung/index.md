@@ -10,25 +10,16 @@ Nach Anwahl des Menüpunkts **OP-Verwaltung** wird zuerst abgefragt, für welche
 
 Bei der Eingabe des Kontos kann der Name oder die Nummer eingegeben werden und es wird dann nach diesem Kennzeichen gesucht. Wenn Kontonummer oder der Name nicht bekannt oder eindeutig sind, kann über **F3** **nach weiteren Merkmalen gesucht werden**:
 
-• Alle Konten nach Kontonummer
-
-• Personenkonten nach Nachname, Vorname
-
-• Sachkonten
-
-• Sachkonten nach Bezeichnung
-
-• Personenkonten nach Belegnummer
-
-• Personenkonten nach Betrag
-
-• Personenkonten nach Datum
-
-• Personenkonten nach Kontonummer
-
-• Personenkonten nach Referenznummer
-
-• Personenkonten nach Bezeichnung
+- Alle Konten nach Kontonummer
+- Personenkonten nach Nachname, Vorname
+- Sachkonten
+- Sachkonten nach Bezeichnung
+- Personenkonten nach Belegnummer
+- Personenkonten nach Betrag
+- Personenkonten nach Datum
+- Personenkonten nach Kontonummer
+- Personenkonten nach Referenznummer
+- Personenkonten nach Bezeichnung
 
 <p class="siehe-auch">Siehe auch:</p>
 

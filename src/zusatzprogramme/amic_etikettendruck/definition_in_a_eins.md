@@ -106,7 +106,7 @@ Die Funktion „Report bearbeiten“ steht nur für Datenherkunft View und Proze
 
 Hier kann man angeben, in welcher Optionbox bzw. in welcher Anwendung der Aufruf des Reports erscheinen soll. Vor dem Aufruf wird - wenn ein Profil markiert ist - noch gefragt, ob dieses Profil verendet werden soll. Dieses wird dann als zusätzlicher Parameter an diese Funktion übergeben. Die Bezeichnungen er zwei Funktionen setzten sich dann aus dem Funktionslabel und der Funktion zusammen.
 
-• „Funktionslabel“ + drucken:  
+- „Funktionslabel“ + drucken:  
 Der Controlstring der Funktion lautet „**^crw 102 LILAID**“, wobei LILAID die bei der Erstellung angegebene Funktionsident ist. Der Parameter **102** ist der Befehl, dass das Druckabfragefenster vom AMIC Etikettendruck geöffnet und ggf. der Ausdruck durchgeführt werden soll:  
     
 ![](../../ImagesExt/image8_1149.png)  
@@ -116,7 +116,7 @@ Die Option Anfangsposition erscheint nur bei Etikettendruck.
     
 Wenn man ohne Druckerprofil arbeitet und den Drucker bzw. die Druckereigenschaften ändert, so wird die Option „Einstellungen permanent speichern“ aktiviert und man kann hier einen Haken setzen. Es werden dann die Benutzereinstellungen überschrieben. Bei der Verwendung von Druckerprofilen hat dieser Haken keine Bedeutung.
 
-• „Funktionslabel“ + bearbeiten:  
+- „Funktionslabel“ + bearbeiten:  
 Der Controlstring der Funktion lautet „**^crw 101 LILAID**“, wobei LILAID die bei der Erstellung angegebene Funktionsident ist. Der Parameter **101** weist das Programm an, den interaktiven Designer vom AMIC Etikettendruck aufzurufen. Für Reporte, deren Datenherkunft Auswahlliste ist, kann dann nur an dieser Stelle der Report bearbeitet werden.
 
 Parameterübersicht für die Controlstrings:

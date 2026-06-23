@@ -18,18 +18,15 @@ Dabei ist zu beachten, dass ein derart ermittelter Preis für eine Preismengenei
 
 Es kann jeweils ein Prozedurname zur Ermittlung von
 
-• Produkt-/Finalpreis
+- Produkt-/Finalpreis
+- Abschlagpreis
+- Weltmarktpreis
+- Mindestpreis
 
-• Abschlagpreis
+  jeweils getrennt nach Einkauf und Verkauf angegeben werden.
 
-• Weltmarktpreis
+  Bei der jeweiligen Einstellung **Prozedurpreis 0,00 überschreibt Preis** \= **‚NEIN‘** erfolgt entsprechenden Fall eine Preisfindung ohne Prozedur ( Kontraktpreis, Partiepreis, Listen-/Fixpreis ).
 
-• Mindestpreis
-
-jeweils getrennt nach Einkauf und Verkauf angegeben werden.
-
-Bei der jeweiligen Einstellung **Prozedurpreis 0,00 überschreibt Preis** \= **‚NEIN‘** erfolgt entsprechenden Fall eine Preisfindung ohne Prozedur ( Kontraktpreis, Partiepreis, Listen-/Fixpreis ).
-
-Die verwendeten Datenbankprozeduren müssen ein RESULT mit einem Attribut zurückliefern, dass praktischerweise vom Typ ‚numeric‘, oder ‚decimal sein sollte. Der Name des Ergebnisfeldes ist beliebig wählbar. Bei der Erfassung, Korrektur und/oder Abrechnung eines entsprechenden Beleges wird der Ergebniswert ermittelt und der gewünschte Anfangspreis in Abhängigkeit der Preis-Nachtragseinstellung, der 0-Prozedurpreiseinstellung der Positionseinrichtung und des Fix-Kennzeichens des Preises im Beleg überschrieben.  
+  Die verwendeten Datenbankprozeduren müssen ein RESULT mit einem Attribut zurückliefern, dass praktischerweise vom Typ ‚numeric‘, oder ‚decimal sein sollte. Der Name des Ergebnisfeldes ist beliebig wählbar. Bei der Erfassung, Korrektur und/oder Abrechnung eines entsprechenden Beleges wird der Ergebniswert ermittelt und der gewünschte Anfangspreis in Abhängigkeit der Preis-Nachtragseinstellung, der 0-Prozedurpreiseinstellung der Positionseinrichtung und des Fix-Kennzeichens des Preises im Beleg überschrieben.  
     
 Die Parameter der DB-Prozedur werden mittels festgelegter Parameternamen bestimmt. Diese sind mit DEFAULT-Werten in der Parameterliste zu versehen. Aus der [*Liste der möglichen Parameter*](../rohwareparameter_einrichten/rohwareparameter_uebersicht.md#RwDbProc_Parameter) müssen nur die tatsächlich benötigten deklariert werden.

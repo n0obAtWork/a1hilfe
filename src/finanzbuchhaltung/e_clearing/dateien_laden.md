@@ -11,47 +11,35 @@ Während des Ladens werden diverse Prüfungen auf Richtigkeit der Datei durchgef
     
 DTA-Format: Dateierweiterung "\*.DTI"
 
-• Stimmt die Struktur mit dem geforderten Datenträgerformat überein?
-
-• Stimmt die Anzahl der Datensätze mit denen im Datenträgernachsatz überein?
-
-• Stimmt die Summe der DM-Beträge der Datensätze mit denen im Datenträgernachsatz überein?
-
-• Stimmt die Summe der Kontonummern der Datensätze mit denen im Datenträgernachsatz überein?
-
-• Stimmt die Summe der Bankleitzahlen der Datensätze mit denen im Datenträgernachsatz überein?
-
-• Stimmt die Summe der Euro-Beträge der Datensätze mit denen im Datenträgernachsatz überein?
+- Stimmt die Struktur mit dem geforderten Datenträgerformat überein?
+- Stimmt die Anzahl der Datensätze mit denen im Datenträgernachsatz überein?
+- Stimmt die Summe der DM-Beträge der Datensätze mit denen im Datenträgernachsatz überein?
+- Stimmt die Summe der Kontonummern der Datensätze mit denen im Datenträgernachsatz überein?
+- Stimmt die Summe der Bankleitzahlen der Datensätze mit denen im Datenträgernachsatz überein?
+- Stimmt die Summe der Euro-Beträge der Datensätze mit denen im Datenträgernachsatz überein?
 
 Für MT940(Swift)-Format: Dateierweiterung "\*.STA"
 
-• Stimmen alle Feldnummern überein?
-
-• Stimmt der Anfangssaldo plus aller Bewegungen mit dem Endsaldo überein?
-
-• Ist die Währung Euro (früher auch DM)?
+- Stimmen alle Feldnummern überein?
+- Stimmt der Anfangssaldo plus aller Bewegungen mit dem Endsaldo überein?
+- Ist die Währung Euro (früher auch DM)?
 
 Für das SEPA CAMT.053-Format: Dateierweiterung "\*.C53", "\*.ZIP" oder ungepackt als XML. Die Auswahl der Dateierweiterung erfolgt im Dateiauswahldialog.
 
-• Stimmen alle Feldnamen überein?
-
-• Ist die Währung Euro?
+- Stimmen alle Feldnamen überein?
+- Ist die Währung Euro?
 
 Für PayPal (CSV-Format): Dateierweiterung "\*.CSV"
 
-• Stimmt der Anfangssaldo plus aller Bewegungen mit dem Endsaldo überein? Diese Überprüfung kann in den Optionen aktiviert/deaktiviert werden (siehe [Zahlungsdienstleister](./optionen.md#Zahlungdienstleister)).
-
-• Anhand des Transaktionscodes wird geprüft, ob eine Transaktion bereits eingespielt wurde. Befindet sich in der Datei mindestens eine Transaktion, die bereits eingespielt wurde, so wird die gesamte Datei abgelehnt.
-
-• Ist die Währung Euro?
+- Stimmt der Anfangssaldo plus aller Bewegungen mit dem Endsaldo überein? Diese Überprüfung kann in den Optionen aktiviert/deaktiviert werden (siehe [Zahlungsdienstleister](./optionen.md#Zahlungdienstleister)).
+- Anhand des Transaktionscodes wird geprüft, ob eine Transaktion bereits eingespielt wurde. Befindet sich in der Datei mindestens eine Transaktion, die bereits eingespielt wurde, so wird die gesamte Datei abgelehnt.
+- Ist die Währung Euro?
 
 Für Freien Import: Die Dateierweiterung wird in den Optionen festgelegt.
 
-• Optional: Stimmt der Anfangssaldo plus aller Bewegungen mit dem Endsaldo überein? Diese Überprüfung kann in den Optionen aktiviert/deaktiviert werden (siehe [Zahlungsdienstleister](./optionen.md#Zahlungdienstleister)).
-
-• Wurde die Auszugsnummer bereits importiert. Nur wenn das Feld „DTADiskAusZug“ von der Datenbankprozedur geliefert wird.
-
-• Ist die Währung Euro? Dieser Test findet nur statt, wenn die Währungsnummer von der Datenbankprozedur geliefert wird.
+- Optional: Stimmt der Anfangssaldo plus aller Bewegungen mit dem Endsaldo überein? Diese Überprüfung kann in den Optionen aktiviert/deaktiviert werden (siehe [Zahlungsdienstleister](./optionen.md#Zahlungdienstleister)).
+- Wurde die Auszugsnummer bereits importiert. Nur wenn das Feld „DTADiskAusZug“ von der Datenbankprozedur geliefert wird.
+- Ist die Währung Euro? Dieser Test findet nur statt, wenn die Währungsnummer von der Datenbankprozedur geliefert wird.
 
 Schlägt einer dieser Tests fehl, wird die gesamte Datei abgewiesen!
 

@@ -21,24 +21,22 @@
 9. Verbindungs-Information für Datenbank-Verbindung erzeugen: „driver=sql anywhere 12;  
 eng=xxx;dbf=Pfad\\DB.db; dbn=yyy;links=tcpip“ und Schaltfläche „Next >“ drücken.
 
-• Die Information „xxx“ und „yyy“ sind in den Systeminformationen [SYSIN] im Feld „Verbindungsparameter“ zu finden.
+- Die Information „xxx“ und „yyy“ sind in den Systeminformationen [SYSIN] im Feld „Verbindungsparameter“ zu finden.
+- Die Angabe „Pfad“ entspricht dem Verzeichnis aus Schritt 2.
+- Die Angabe „DB“ entspricht der Datenbankdatei aus Schritt 2.
 
-• Die Angabe „Pfad“ entspricht dem Verzeichnis aus Schritt 2.
+  10. Den im letzten Schritt erzeugte Verbindungsinformation in das Feld „Connection Information“ eingeben und Schaltfläche „Next >“ drücken.
 
-• Die Angabe „DB“ entspricht der Datenbankdatei aus Schritt 2.
-
-10. Den im letzten Schritt erzeugte Verbindungsinformation in das Feld „Connection Information“ eingeben und Schaltfläche „Next >“ drücken.
-
-11. Auswahlfeld „Make this remote server a read-only data source“ deaktivieren und Schaltfläche  
+  11. Auswahlfeld „Make this remote server a read-only data source“ deaktivieren und Schaltfläche  
 „Next >“ drücken.
 
-12. Auswahlfeld „Create an external login“ deaktivieren und Schaltfläche „Test Connection“ drücken.
+  12. Auswahlfeld „Create an external login“ deaktivieren und Schaltfläche „Test Connection“ drücken.
 
-13. Wenn der Test fehlgeschlagen ist, wiederholen ab Schritt 5. Ansonsten Schaltfläche „Next >“ drücken.
+  13. Wenn der Test fehlgeschlagen ist, wiederholen ab Schritt 5. Ansonsten Schaltfläche „Next >“ drücken.
 
-14. Schaltfläche „Finish“ drücken.
+  14. Schaltfläche „Finish“ drücken.
 
-15. Bei der Orginal-Datenbank die Tabelle Archiv leeren  
+  15. Bei der Orginal-Datenbank die Tabelle Archiv leeren  
 (mittels OSQL-Befehl: „truncate table archiv“).
 
-16. Prüfen, ob Dokumente im Archiv vorhanden sind.
+  16. Prüfen, ob Dokumente im Archiv vorhanden sind.

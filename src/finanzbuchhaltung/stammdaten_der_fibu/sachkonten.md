@@ -9,17 +9,12 @@ Direktsprung **[SKS]**
 Die Sachkonten sind die eigentlich zu bebuchenden Konten. Nach Anwahl der Auswahlliste werden die erfassten Konten angezeigt. Es bestehen folgende Bearbeitungsmöglichkeiten:  
     
 
-• Neu erfassen
-
-• Ändern / Ansehen
-
-• Löschen
-
-• Plandaten erfassen
-
-• Drucken
-
-• Sachkonten Importieren
+- Neu erfassen
+- Ändern / Ansehen
+- Löschen
+- Plandaten erfassen
+- Drucken
+- Sachkonten Importieren
 
 Bei Anwahl der Funktionen „***Neu***“, „***Ändern***“ oder „***Ansehen***“ öffnet sich die Erfassungsmaske. Unterhalb des Kopfbereichs, in dem die Kontonummer, der Kontotyp und die Bezeichnung abgefragt werden, befinden sich drei Register, auf denen dann detailliertere Informationen erfasst werden können.
 

@@ -40,15 +40,11 @@ Hauptmenü > Anlagenbuchhaltung > Anlagenbuchhaltung > AfA-Vorschlag
 
 (Direktsprung **[ANKAB]**) weiter bearbeiten. Dort stehen die Funktionen:
 
-• Löschen
-
-• Alle Löschen
-
-• Ändern
-
-• Ansehen
-
-• Freigabe
+- Löschen
+- Alle Löschen
+- Ändern
+- Ansehen
+- Freigabe
 
 zur Verfügung.
 

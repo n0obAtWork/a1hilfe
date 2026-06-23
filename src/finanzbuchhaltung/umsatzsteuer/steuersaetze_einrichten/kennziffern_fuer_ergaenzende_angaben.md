@@ -16,14 +16,13 @@ Es müssen zwei Auswertungspositionen angelegt werden, eine für Kennziffer 50 u
 
 Vorgehen:
 
-• Sachkonto mit der Funktion **F8** für ***„Neu“***\-Erfassung aufrufen
-
-• Es müssen mindestens die Felder Nummer und  
+- Sachkonto mit der Funktion **F8** für ***„Neu“***\-Erfassung aufrufen
+- Es müssen mindestens die Felder Nummer und  
 für die Kennziffer 50 das Feld Bemessungsgrundlage und  
 für die Kennziffer 37 das Feld Steuer  
 eingetragen werden
 
-• Anschließend die Daten mit **F9** oder ***„Speichern“*** übernehmen.
+- Anschließend die Daten mit **F9** oder ***„Speichern“*** übernehmen.
 
 <p class="just-emphasize">Kennziffer 50</p>
 
@@ -61,13 +60,10 @@ Nachdem die Auswertungspositionen und der neue Steuerschlüssel angelegt wurden,
 
 Vorgehen:
 
-• Den betroffen Datensatz markieren und mit der Funktion **F5** zum ***„Ändern“*** aufrufen.
-
-• Mit der Funktion ***„Speichern unter“*** oder **(Shift + F9)** einen neuen Datensatz anlegen.
-
-• Den neuen Steuerschlüssel eintragen
-
-• Für Minderungen der Bemessungsgrundlage im Feld „Minderung Bemessungsgrundlage“ zusätzlich die Auswertungsposition für die Kennziffer 50 eintragen.  
+- Den betroffen Datensatz markieren und mit der Funktion **F5** zum ***„Ändern“*** aufrufen.
+- Mit der Funktion ***„Speichern unter“*** oder **(Shift + F9)** einen neuen Datensatz anlegen.
+- Den neuen Steuerschlüssel eintragen
+- Für Minderungen der Bemessungsgrundlage im Feld „Minderung Bemessungsgrundlage“ zusätzlich die Auswertungsposition für die Kennziffer 50 eintragen.  
     
 Oder  
     
@@ -75,7 +71,7 @@ Für Minderung der abziehbaren Vorsteuerbeträge im Feld „Minderung abziehbare
     
 Hinweis: *Die Kennziffern für Umsatz und Steuer werden nicht geändert.*
 
-• Anschließend die Änderungen mit **F9** oder ***„Speichern“*** übernehmen.
+- Anschließend die Änderungen mit **F9** oder ***„Speichern“*** übernehmen.
 
 ![Ein Bild, das Text, Screenshot, Software, Computersymbol enthält. Automatisch generierte Beschreibung](../../../ImagesExt/image8_570.jpg "Ein Bild, das Text, Screenshot, Software, Computersymbol enthält. Automatisch generierte Beschreibung")
 

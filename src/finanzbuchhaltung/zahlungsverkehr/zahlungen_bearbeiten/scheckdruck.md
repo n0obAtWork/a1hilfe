@@ -19,17 +19,12 @@ Im Inlandszahlungsverkehr sind nur Zahlungen in Euro zugelassen. Hat man jedoch 
 
 Vor dem Druck werden noch einige Tests durchgeführt:
 
-• Hat man die Option „Zahlungsbetrag in Euro umrechnen“ ausgewählt, muss der Euro im Währungsstamm eingerichtet sein. Der Druckauftrag wird sonst nicht ausgeführt.
-
-• Wenn der Steuerparameter „automatischer Zahlungsverkehr ohne Formularzuordnung“ auf **Nein** steht, muss ein [Zahlungsformular](../stammdaten_zahlungsverkehr/zahlungsformulare.md) für die Hausbank hinterlegt sein und in den Stammdaten existieren.
-
-• Wenn die Auswahl bei nicht gesetztem Steuerparameter „automatischer Zahlungsverkehr ohne Formularzuordnung“ unterschiedliche Formularzuordnungen enthält, erscheint eine Frage, ob trotzdem gedruckt werden soll und man kann den Druckauftrag noch abbrechen.
-
-• Bereits gedruckte Zahlungen können nicht noch einmal gedruckt werden. Es erscheint ein entsprechender Hinweis und der Druckauftrag wird abgebrochen. Will man den Druck wiederholen muss zuerst das [Druckkennzeichen zurückgesetzt](./index.md#DruckkenzeichenZurueck) werden.
-
-• Wenn die Auswahl sowohl Zahlungseingänge als auch Zahlungsausgänge enthält wird man darauf hingewiesen und man kann den Druckauftrag noch abbrechen.
-
-• Wenn die Auswahl unterschiedliche Hausbanken umfasst, wird darauf hingewiesen und der Druckauftrag kann noch abgebrochen werden.
+- Hat man die Option „Zahlungsbetrag in Euro umrechnen“ ausgewählt, muss der Euro im Währungsstamm eingerichtet sein. Der Druckauftrag wird sonst nicht ausgeführt.
+- Wenn der Steuerparameter „automatischer Zahlungsverkehr ohne Formularzuordnung“ auf **Nein** steht, muss ein [Zahlungsformular](../stammdaten_zahlungsverkehr/zahlungsformulare.md) für die Hausbank hinterlegt sein und in den Stammdaten existieren.
+- Wenn die Auswahl bei nicht gesetztem Steuerparameter „automatischer Zahlungsverkehr ohne Formularzuordnung“ unterschiedliche Formularzuordnungen enthält, erscheint eine Frage, ob trotzdem gedruckt werden soll und man kann den Druckauftrag noch abbrechen.
+- Bereits gedruckte Zahlungen können nicht noch einmal gedruckt werden. Es erscheint ein entsprechender Hinweis und der Druckauftrag wird abgebrochen. Will man den Druck wiederholen muss zuerst das [Druckkennzeichen zurückgesetzt](./index.md#DruckkenzeichenZurueck) werden.
+- Wenn die Auswahl sowohl Zahlungseingänge als auch Zahlungsausgänge enthält wird man darauf hingewiesen und man kann den Druckauftrag noch abbrechen.
+- Wenn die Auswahl unterschiedliche Hausbanken umfasst, wird darauf hingewiesen und der Druckauftrag kann noch abgebrochen werden.
 
 Anschließend erscheint das Druckerauswahlfenster, in dem sowohl der Drucker also auch das Formular noch abgeändert werden können. Der Aufbau des Formulars muss zuvor in den Stammdaten (Direktsprung **[FRM])** festgelegt werden. Für den Bereich Scheckdruck ist der [Formulartyp 201](../schecks_ueber_formulartyp_201_drucken.md) vorgesehen. Steht der Steuerparameter „automatischer Zahlungsverkehr ohne Formularzuordnung“ auf **Ja**, so ist hier die einzige Stelle, an der das Formular für den Druck festgelegt werden kann. Es wird dann das Formular vorgeschlagen, dass bei der Hausbank für die Zahlungsform (Zahlungseingang/Zahlungsausgang) hinterlegt wurde. Nach dem Start wird noch geprüft, ob das Formular eventuell eine Schecknummer enthält und ob diese im Feld **Schecknummer** korrekt eingegeben wurde. Der Druckauftrag lässt sich dann noch abbrechen.
 

@@ -93,15 +93,11 @@ Der Formeltyp gibt die anschließende Rundung an.
 
 Beispiel:
 
-• Menge 10 kg,
-
-• Frachtsatz 10€ / Kg,
-
-• Entfernung 150 km,
-
-• Berechnung pro 100km,
-
-• Frachtsatz je volle Entfernungseinheit:
+- Menge 10 kg,
+- Frachtsatz 10€ / Kg,
+- Entfernung 150 km,
+- Berechnung pro 100km,
+- Frachtsatz je volle Entfernungseinheit:
 
 10kg / 10€/kg è 100 €
 

@@ -4,23 +4,17 @@
 
 Behandlung auf einem Artikelkonto
 
-• Nachhaltige und nicht nachhaltige Ware wird auf einem Artikelkonto geführt
-
-• Das Nachhaltigkeitskennzeichen j/n wird je Warenbewegung mitgeführt
-
-• Je Warenbewegung werden die individuellen (Teil-) Standardwerte geführt, wenn sie über Stammdaten bzw. individuell je Bewegung erfasst, werden
+- Nachhaltige und nicht nachhaltige Ware wird auf einem Artikelkonto geführt
+- Das Nachhaltigkeitskennzeichen j/n wird je Warenbewegung mitgeführt
+- Je Warenbewegung werden die individuellen (Teil-) Standardwerte geführt, wenn sie über Stammdaten bzw. individuell je Bewegung erfasst, werden
 
 Erfassungsunterstützung
 
-• Ausgegangen wird davon, dass über die eingetragenen Stammdaten eine weitgehende Automatisierung durchgeführt werden kann.
-
-• Für den Sonderfall sind individuelle Eingaben möglich
-
-• Eine Nachbearbeitung ist möglich
-
-• Abweichungen vom „Standard“ werden ausgewiesen
-
-• Die Zuordnung des Merkmals „Nachhaltigkeit“ erfolgt mit der physischen Bewegung
+- Ausgegangen wird davon, dass über die eingetragenen Stammdaten eine weitgehende Automatisierung durchgeführt werden kann.
+- Für den Sonderfall sind individuelle Eingaben möglich
+- Eine Nachbearbeitung ist möglich
+- Abweichungen vom „Standard“ werden ausgewiesen
+- Die Zuordnung des Merkmals „Nachhaltigkeit“ erfolgt mit der physischen Bewegung
 
 Die Bearbeitung im Ein- und Verkauf (Funktionen ELE und LIE) erfolgt auf der Erfassungsmaske Eingangslieferschein und Lieferschein über den Tabreiter „Nachhaltig“ zur Übersteuerung der Defaultwerte.
 

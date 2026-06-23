@@ -4,13 +4,10 @@
 
 Vorbereitungsschritte
 
-• Als erstes müssen die Scancodes für die Inventur mit dem Lagerverwaltungssystem eingerichtet werden. Dies sind IV [-106] für Inventur Start undIVENDE[-107] für Inventur Ende. Des Weiteren sind die AI-Zuordnungen für den Scancode einzutragen. (Beispiel mit Partie) Soll die Inventur ohne Partie erfasst werden, so kann die Zeile mit dem AI-Code 10 weggelassen werden. Mit dem Feld „Optional“ kann gesteuert werden, ob die AI in einem Erfassungsblock erfasst werden muss.
-
-• Eine [Inventur](../../../../abschluesse_inventur/inventur/index.md) muss eröffnet worden sein.
-
-• Es müssen zwei Scancodes im EAN 128 Codiert erstellt werden IV und IVENDE
-
-• Aus den Scannertabellen sollten die Daten abgeschlossener Inventuren gelöscht werden bevor die Erfassung einer neuen Inventur gestartet wird.
+- Als erstes müssen die Scancodes für die Inventur mit dem Lagerverwaltungssystem eingerichtet werden. Dies sind IV [-106] für Inventur Start undIVENDE[-107] für Inventur Ende. Des Weiteren sind die AI-Zuordnungen für den Scancode einzutragen. (Beispiel mit Partie) Soll die Inventur ohne Partie erfasst werden, so kann die Zeile mit dem AI-Code 10 weggelassen werden. Mit dem Feld „Optional“ kann gesteuert werden, ob die AI in einem Erfassungsblock erfasst werden muss.
+- Eine [Inventur](../../../../abschluesse_inventur/inventur/index.md) muss eröffnet worden sein.
+- Es müssen zwei Scancodes im EAN 128 Codiert erstellt werden IV und IVENDE
+- Aus den Scannertabellen sollten die Daten abgeschlossener Inventuren gelöscht werden bevor die Erfassung einer neuen Inventur gestartet wird.
 
 | AI | **Application Identifier** | **Gruppe** | **Typ** | **Optional** |
 | --- | --- | --- | --- | --- |

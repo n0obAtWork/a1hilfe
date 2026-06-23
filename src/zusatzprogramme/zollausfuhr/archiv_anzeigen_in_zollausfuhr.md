@@ -6,8 +6,6 @@ Wählen Sie die von Ihnen bearbeitete Zollanmeldung aus der Auswahlliste in der 
 
 Sie bekommen eine Liste folgender Dokumente angezeigt:
 
-• Lieferscheine, die die Grundlage der angewählten Zollanmeldung sind
-
-• Ggf. schon abgeholte Ausfuhrbegleit-Dokumente
-
-• Ggf. schon abgeholte Ausgangsvermerk-Dokumente
+- Lieferscheine, die die Grundlage der angewählten Zollanmeldung sind
+- Ggf. schon abgeholte Ausfuhrbegleit-Dokumente
+- Ggf. schon abgeholte Ausgangsvermerk-Dokumente

@@ -4,11 +4,9 @@
 
 Ein dynamisches Informationssystem kann folgende Informationen enthalten:
 
-• Daten, die direkt aus dem operativen System gelesen werden (VK-Umsatz, EK-Umsatz, Auftragsbestand, Bestand)
-
-• Daten, die im Artikelinformationssystem erfasst werden: Lieferzeit, Einsatz­men­gen, etc.
-
-• Beschreibende Texte, wie Verwendungszweck, etc.
+- Daten, die direkt aus dem operativen System gelesen werden (VK-Umsatz, EK-Umsatz, Auftragsbestand, Bestand)
+- Daten, die im Artikelinformationssystem erfasst werden: Lieferzeit, Einsatz­men­gen, etc.
+- Beschreibende Texte, wie Verwendungszweck, etc.
 
 Nachfolgend wird die Einrichtung dieser Informationen beschrieben.
 

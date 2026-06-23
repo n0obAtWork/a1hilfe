@@ -28,13 +28,10 @@ Je Beleg können mehrere Produktionen eingetragen werden. Korrekturaufruf erfolg
 
 In der linken Spalte im Komponentenbereich wird der Status der jeweiligen Position gekennzeichnet:
 
-• W Wertartikel
-
-• P Pauschalposition
-
-• F Fixpreiskomponente
-
-• G Gegenzeile
+- W Wertartikel
+- P Pauschalposition
+- F Fixpreiskomponente
+- G Gegenzeile
 
 <p class="siehe-auch">Siehe auch:</p>
 

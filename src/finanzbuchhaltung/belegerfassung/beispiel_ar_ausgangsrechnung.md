@@ -113,15 +113,11 @@ Dies erfolgt getrennt für Vorsteuer und Umsatzsteuer sowie -sätze. Darüber hi
 Da natürlich nur der Betrag des Originalbeleges verbucht werden darf, muss dann hier eine Anpassung erfolgen.  
 Eine vollständig erfasste Ausgangsrechnung mit zwei Positionen und unterschiedlichen Steuersätzen führt zu folgender Darstellung:
 
-• Buchung des eingegebenen Betrages auf dem Debitorenkonto (Hauptkonto).
-
-• Buchung des Betrages auf dem Forderungskonto.
-
-• Buchung des um den Steueranteil reduzierten Betrages (Nettobetrag)
-
-• Buchung auf dem Erlöskonto (Gegenkonto).
-
-• Buchung des Steueranteils auf dem Steuerkonto.
+- Buchung des eingegebenen Betrages auf dem Debitorenkonto (Hauptkonto).
+- Buchung des Betrages auf dem Forderungskonto.
+- Buchung des um den Steueranteil reduzierten Betrages (Nettobetrag)
+- Buchung auf dem Erlöskonto (Gegenkonto).
+- Buchung des Steueranteils auf dem Steuerkonto.
 
 **Parametereinstellungen Ausgangsrechnungserfassung**  
 In Abhängigkeit von den Anforderungen der Anwender können die Arbeitsabläufe und -inhalte angepasst werden. Dies geschieht mittels "Erfassungsparameter".

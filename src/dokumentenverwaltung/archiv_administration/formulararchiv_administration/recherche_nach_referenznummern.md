@@ -10,12 +10,9 @@ Inhaltlich ist also das Vorhandensein einer Referenznummer unabdinglich, des Wei
 
 Nun ist die Suchstrategie folgende:
 
-• Vorgangsstamm anhand von Referenznummer, im Falle eines Treffers sind somit Belegnummer, Kundennummer und Vorgangsklasse mittelbar. Die Belegklasse des Formulararchiv-Eintrages wird die Vorgangsbelegklasse.
-
-• FibuvorgStamm, falls gefunden, sind somit Fibu-Belegnummer, Kontonummer resp. Kundennummer ermittelt. Belegklasse wird 7000.
-
-• Kontraktstamm, falls gefunden, wird die Kontraktnummer zur Belegnummer, der Kunde wird über eine weitere Datenrecherche gewonnen. Belegklasse wird 7500
-
-• OWaage, falls gefunden, wird die Wiegenummer zur Belegnummer, Kunde übernommen und Belegklasse 8000
+- Vorgangsstamm anhand von Referenznummer, im Falle eines Treffers sind somit Belegnummer, Kundennummer und Vorgangsklasse mittelbar. Die Belegklasse des Formulararchiv-Eintrages wird die Vorgangsbelegklasse.
+- FibuvorgStamm, falls gefunden, sind somit Fibu-Belegnummer, Kontonummer resp. Kundennummer ermittelt. Belegklasse wird 7000.
+- Kontraktstamm, falls gefunden, wird die Kontraktnummer zur Belegnummer, der Kunde wird über eine weitere Datenrecherche gewonnen. Belegklasse wird 7500
+- OWaage, falls gefunden, wird die Wiegenummer zur Belegnummer, Kunde übernommen und Belegklasse 8000
 
 Als letztes wird der Belegtyp-Text konventionsgemäß ermittelt und festgeschrieben.

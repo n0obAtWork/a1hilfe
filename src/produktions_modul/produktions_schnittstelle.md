@@ -6,75 +6,45 @@ A.eins verfügt über eine XML-Schnittstelle für Produktionsmaschinen. Darüber
 
 In Richtung Maschine:
 
-• Export eines Rezepts für die Produktion
+- Export eines Rezepts für die Produktion
+  - Komponenten
+- Artikel
+- Partien
+- Mengen
+  - Produkte
+- Artikel
+- Partien
+- Mengen
 
-o Komponenten
+  Dieser Export ist durch Makros um weitere Informationen aus A.eins an die Maschine erweiterbar.
 
-§ Artikel
-
-• Partien
-
-§ Mengen
-
-o Produkte
-
-§ Artikel
-
-• Partien
-
-§ Mengen
-
-Dieser Export ist durch Makros um weitere Informationen aus A.eins an die Maschine erweiterbar.
-
-• Export von an der Linie bereitgestellte Mengen (nur mit LVS)
+- Export von an der Linie bereitgestellte Mengen (nur mit LVS)
 
 **In Richtung A.eins:**
 
-• Import von Ladeträgern mit dem Produkt (nur mit LVS)
-
-o NVE
-
-o Artikel
-
-§ Partien
-
-o Mengen
-
-• Import von verbrauchten Komponenten (nur mit LVS)
-
-o NVE
-
-o Artikel
-
-§ Partien
-
-o Mengen
-
-• Import von in ein Produktionssilo eingefügten Mengen (nur mit LVS)
-
-o NVE
-
-o Artikel
-
-§ Partien
-
-o Mengen
-
-• Import von verbrauchten Komponenten (Summe)
-
-o Artikel
-
-§ Partien
-
-o Mengen
-
-• Import von erzeugten Produkten (Summe)
-
-o Artikel
-
-§ Partien
-
-o Mengen
+- Import von Ladeträgern mit dem Produkt (nur mit LVS)
+  - NVE
+  - Artikel
+- Partien
+  - Mengen
+- Import von verbrauchten Komponenten (nur mit LVS)
+  - NVE
+  - Artikel
+- Partien
+  - Mengen
+- Import von in ein Produktionssilo eingefügten Mengen (nur mit LVS)
+  - NVE
+  - Artikel
+- Partien
+  - Mengen
+- Import von verbrauchten Komponenten (Summe)
+  - Artikel
+- Partien
+  - Mengen
+- Import von erzeugten Produkten (Summe)
+  - Artikel
+- Partien
+  - Mengen
 
 Sonderfall Rohwarenannahme
 
@@ -82,36 +52,23 @@ Eine Rohwarenannahme ich keine Produktion im eigentlichen Sinne, aber es können
 
 Auch hier gibt es die Möglichkeit der Meldungen
 
-• Produkte (nur mit LVS)
+- Produkte (nur mit LVS)
+  - NVE
+  - Artikel
+- Partien
+  - Mengen
+- Produktsummen
+  - Artikel
+- Partien
+  - Mengen
+  - Proben
+- NVE
+- Werte
+- ID
+- Wert
 
-o NVE
+  Um diese Produktsummen nun in eine Rohwarenanlieferung eingehen zu lassen, ist ein Makro notwendig, das die notwendigen Parameter ermittelt,
 
-o Artikel
+  Die Weiterberarbeitung der Daten findet dann in der OWaage statt.
 
-§ Partien
-
-o Mengen
-
-• Produktsummen
-
-o Artikel
-
-§ Partien
-
-o Mengen
-
-o Proben
-
-§ NVE
-
-§ Werte
-
-• ID
-
-• Wert
-
-Um diese Produktsummen nun in eine Rohwarenanlieferung eingehen zu lassen, ist ein Makro notwendig, das die notwendigen Parameter ermittelt,
-
-Die Weiterberarbeitung der Daten findet dann in der OWaage statt.
-
-Der Informationsumfang der Maschine kann größer sein, als unser Standard und dieser kann um private Inhalte erweitert und im Makro ausgelesen werden.
+  Der Informationsumfang der Maschine kann größer sein, als unser Standard und dieser kann um private Inhalte erweitert und im Makro ausgelesen werden.

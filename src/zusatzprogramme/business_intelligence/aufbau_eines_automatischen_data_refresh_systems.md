@@ -6,15 +6,11 @@ Es ist sehr angenehm, wenn beim Öffnen einer BI Anwendung diese auch sofort die
 
 Es sind hier die Felder
 
-• Aktualisierung im Hintergrund zulassen
-
-• Aktualisierung alle … Minuten
-
-• Aktualisierung beim Öffnen der Datei
-
-• Daten vor dem Speichern entfernen
-
-• Bei „Alle Aktualisieren“ mit berücksichtigen
+- Aktualisierung im Hintergrund zulassen
+- Aktualisierung alle … Minuten
+- Aktualisierung beim Öffnen der Datei
+- Daten vor dem Speichern entfernen
+- Bei „Alle Aktualisieren“ mit berücksichtigen
 
 zu pflegen:
 

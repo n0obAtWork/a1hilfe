@@ -19,27 +19,17 @@ Direktsprung **[JAHRW]**
 
 Hat man alle Angaben gemacht, kann man mit **F9** den Jahreswechsel starten. Es werden vor dem Start noch Test vom Programm vorgenommen, damit nicht versehentlich Fehler beim Jahreswechsel auftreten:
 
-• Die Abschlussperiode muss existieren und offen sein.
-
-• Das Eröffnungsjahr muss hinter dem Abschlussjahr liegen.
-
-• Die Eröffnungsperiode muss existieren und offen sein.
-
-• Eröffnungs- und Abschlussbilanzkonto muss existieren und als Vortragskonto gekennzeichnet sein.
-
-• Es dürfen keine ungebuchten Belege im abzuschließenden Jahr existieren.
-
-• Wenn man im Sachkontenstamm die Option „[Ist Unterkonto von](../stammdaten_der_fibu/sachkonten.md#IstUnterKontoVon)“ verwendet, muss die letzte Normalperiode offen sein.
-
-• Wenn der Steuerungsparameter 968 „Forderungskonten umbuchen“ auf **Ja** steht, dann dürfen keine Änderungen an Forderungsgruppen existieren, die noch nicht durch die Reorganisation gelaufen sind.
-
-• Wenn der Steuerungsparameter 968 „Forderungskonten umbuchen“ auf **Ja** steht und Änderungen an den Forderungsgruppen vorgenommen wurden, muss die letzte Normalperiode offen sein.
-
-• Sind die Steuerkonten noch nicht ausgebucht, wird man darauf hingewiesen und kann hier den Jahreswechsel noch abbrechen.
-
-• Der vorangegangene Jahreswechsel muss vollständig durchgeführt worden sein.
-
-• Wenn zu Sachkonten Hauptkonten eingetragen sind – für den automatischen Abschluss von Unterkonten über die entsprechenden Hauptkonten (z.B. Privat an Eigenkapital) – muss die letzte Normalperiode offen sein.  
+- Die Abschlussperiode muss existieren und offen sein.
+- Das Eröffnungsjahr muss hinter dem Abschlussjahr liegen.
+- Die Eröffnungsperiode muss existieren und offen sein.
+- Eröffnungs- und Abschlussbilanzkonto muss existieren und als Vortragskonto gekennzeichnet sein.
+- Es dürfen keine ungebuchten Belege im abzuschließenden Jahr existieren.
+- Wenn man im Sachkontenstamm die Option „[Ist Unterkonto von](../stammdaten_der_fibu/sachkonten.md#IstUnterKontoVon)“ verwendet, muss die letzte Normalperiode offen sein.
+- Wenn der Steuerungsparameter 968 „Forderungskonten umbuchen“ auf **Ja** steht, dann dürfen keine Änderungen an Forderungsgruppen existieren, die noch nicht durch die Reorganisation gelaufen sind.
+- Wenn der Steuerungsparameter 968 „Forderungskonten umbuchen“ auf **Ja** steht und Änderungen an den Forderungsgruppen vorgenommen wurden, muss die letzte Normalperiode offen sein.
+- Sind die Steuerkonten noch nicht ausgebucht, wird man darauf hingewiesen und kann hier den Jahreswechsel noch abbrechen.
+- Der vorangegangene Jahreswechsel muss vollständig durchgeführt worden sein.
+- Wenn zu Sachkonten Hauptkonten eingetragen sind – für den automatischen Abschluss von Unterkonten über die entsprechenden Hauptkonten (z.B. Privat an Eigenkapital) – muss die letzte Normalperiode offen sein.  
     
 
 Ist keiner dieser Tests fehlgeschlagen, so startet das Programm. Es werden zwei Belege mit der Belegart JW (Jahreswechsel) erzeugt, einer in der Abschlussperiode und einer in der Eröffnungsperiode. Diese Belege müssen anschließend noch gebucht werden.

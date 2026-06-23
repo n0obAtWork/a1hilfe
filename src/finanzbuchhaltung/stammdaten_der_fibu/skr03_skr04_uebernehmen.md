@@ -10,25 +10,17 @@ Beim Einspielen müssen folgende Punkte beachtet werden:
 
 2. Durch die Einspielung werden die Sachkonten, ggf. Oberkonten, Druckpositionen, Forderungsgruppen, Erlöskennziffern und Steuersätze gelöscht und neu eingetragen. Einige Stammdaten müssen eventuell angepasst werden:
 
-• Hausbanken
+- Hausbanken
+- Zinsgruppen / Zinsabschlag Stammdaten
+- Mahnsätze
+- Währungskurse
+- Wechselbuchhaltung
+- Mandantenstamm
+- Erlöszuordnungen
+- Forderungsgruppen
+- Steuern
 
-• Zinsgruppen / Zinsabschlag Stammdaten
-
-• Mahnsätze
-
-• Währungskurse
-
-• Wechselbuchhaltung
-
-• Mandantenstamm
-
-• Erlöszuordnungen
-
-• Forderungsgruppen
-
-• Steuern
-
-3. Überprüfen Sie die Zählkreise.  
+  3. Überprüfen Sie die Zählkreise.  
 Der Oberkontenzählkreis liegt nach der Einspielung im Bereich 900.000 - 999.999, der Sachkonten-Zählkreis im Bereich 1 - 9999.
 
 Neben dem Kontenrahmen können auch zusätzliche Stammdaten übernommen bzw. angepasst werden.

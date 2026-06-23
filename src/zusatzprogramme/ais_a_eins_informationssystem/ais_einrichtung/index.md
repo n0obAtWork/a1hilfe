@@ -56,11 +56,9 @@ Die Funktion „***Prüfung vor Speichern***“ wird nur bei den Masken AEZADDON
 
 Die Funktion unterscheidet sich im Aufbau von den Funktionen für ***Ändern Vorlauf***“ und „***Einfügen Vorlauf***“ dadurch, dass sie einen weiteren Parameter hat, der angibt in welchem Modus man sich gerade befindet. Er hat folgende Ausprägungen:
 
-• Aendern
-
-• Einfuegen
-
-• Loeschen
+- Aendern
+- Einfuegen
+- Loeschen
 
 Der Aufbau der Funktion sieht dann wie folgt aus:
 

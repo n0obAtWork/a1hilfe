@@ -10,16 +10,10 @@ Erst am Ende des Aufladens wird daraus ein Lieferschein mit Hilfe der Datenbankf
 
 **Empfohlener Arbeitsablauf Scanner:**
 
-• Scan „AUFLADEN
-
-• Scan Ladescheinnummer
-
-• Scan der NVE
-
-o Anzeige der NVE-Info
-
-• Scan AUFLADENENDE
-
-o Prüfung auf Vollständigkeit
-
-• Erzeugen eines Belegs im VIMP
+- Scan „AUFLADEN
+- Scan Ladescheinnummer
+- Scan der NVE
+  - Anzeige der NVE-Info
+- Scan AUFLADENENDE
+  - Prüfung auf Vollständigkeit
+- Erzeugen eines Belegs im VIMP

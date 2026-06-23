@@ -39,11 +39,9 @@ Das Ursprungslager ist das Lager, auf dem eigentlich die Ware angeliefert werden
 
 Der Buchungstyp für die Lagerumbuchung.
 
-• 0 für Angebot
-
-• 1 für Auftrag
-
-• 2 für Rechnung
+- 0 für Angebot
+- 1 für Auftrag
+- 2 für Rechnung
 
 <p class="just-emphasize">Planlieferdatum</p>
 
@@ -128,9 +126,8 @@ Hier kann eine private Prozedur hinterlegt werden, die das Abschließen einer Wi
 
 Der Fehler kann zwei Zustände annehmen.
 
-• Zustand 0 ist kein Fehler Wiegung kann abgeschlossen werden es erfolgt keine Meldung.
-
-• Zustand 1 ist ein Fehler und die Fehlermeldung wird angezeigt.
+- Zustand 0 ist kein Fehler Wiegung kann abgeschlossen werden es erfolgt keine Meldung.
+- Zustand 1 ist ein Fehler und die Fehlermeldung wird angezeigt.
 
 Sollte in der Prozedur ein technischer Fehler auftreten (wie z.B. ein Feld wurde nicht deklariert), so muss auch ein Fehler samt Fehlertext zurückgegeben werden, damit der Benutzer eine Meldung erhält, warum die Wiegung nicht abgeschlossen werden konnte. Dies bedeutet in der Exception muss es eine Fehler-Behandlung geben.
 

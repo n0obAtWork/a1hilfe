@@ -10,13 +10,10 @@ Bei der Prüfung wird zunächst die Umsatzsteuer-ID auf ihre Plausibilität (Auf
 
 Dabei werden folgende Angaben verglichen:
 
-• Name und Namenszusatz
-
-• Straße
-
-• Postleitzahl
-
-• Ort
+- Name und Namenszusatz
+- Straße
+- Postleitzahl
+- Ort
 
 Der Steuerparameter ([**SPA 1011** – **UstID Prüfung Datenprozedur**](../../../firmenstamm/steuerparameter/allgemeine_programmsteuerung/ustid_pruefung_datenprozedur_spa_1011.md)) ermöglicht die Privatisierung der Adressaufbereitung. Als Standardprozedur dient (AMIC_UStIDPruefAdressen).
 

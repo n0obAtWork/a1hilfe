@@ -20,19 +20,15 @@ Auf dem Report befinden sich drei feste EAN 128 Codes. Es existiert eine Vorlage
 
 Die benötigten Scancodes
 
-• Der erste mit der Auftragsnummer ist der Start Code
-
-• Mit dem Scan Code „STORNO“ kann die zuletzt gescannte Position gelöscht werden.
-
-• Mit „AUENDE“ wird die Auftragsbearbeitung abgeschlossen.
+- Der erste mit der Auftragsnummer ist der Start Code
+- Mit dem Scan Code „STORNO“ kann die zuletzt gescannte Position gelöscht werden.
+- Mit „AUENDE“ wird die Auftragsbearbeitung abgeschlossen.
 
 Ablauf
 
-• Als erstes wird der Startscancode erfasst wie z.B. AU 55. Beim Startscancode muss immer zwischen dem AU und der Vorgangsnummer ein Leerzeichen stehen. Nach dem der Startscancode erfasst worden ist, werden im unteren Teil des Scanner Bildschirmes alle Position des Auftrags angezeigt. Enthält der Auftrag mehr als neun Positionen so kann mit den Pfeil hoch und runter Tasten geblättert werden.
-
-• Jetzt kann eine Position aus dem Auftrag eingescannt werden. Die Suche, der Position im Auftrag funktioniert so. Wird nur der Artikel erfasst, so wird der erste Artikel mit dem erfassten EAN Code genommen, dies bedeute, dass wen ein Artikel öfters in der Liste vorkommt so wird nur der eine gebucht. Wird jetzt eine Partie zu diesem Artikel erfasst, so wird jetzt in der Kommissionierungsliste nach der Kombination Artikel und Partie gesucht. Zur noch weiteren Eingrenzung kann der Lagerplatz mit dem AI-Code 97 erfasst werden. Die Menge kann entweder per Hand eingegeben oder eingescannt werden. Es kann pro Position im Auftrag nur eine Partie geben. Der Scanner unterstützt beim Erfassen keine Partieverteilung.
-
-• Nach dem abarbeiten der Positionen wird AUENDE eingescannt.
+- Als erstes wird der Startscancode erfasst wie z.B. AU 55. Beim Startscancode muss immer zwischen dem AU und der Vorgangsnummer ein Leerzeichen stehen. Nach dem der Startscancode erfasst worden ist, werden im unteren Teil des Scanner Bildschirmes alle Position des Auftrags angezeigt. Enthält der Auftrag mehr als neun Positionen so kann mit den Pfeil hoch und runter Tasten geblättert werden.
+- Jetzt kann eine Position aus dem Auftrag eingescannt werden. Die Suche, der Position im Auftrag funktioniert so. Wird nur der Artikel erfasst, so wird der erste Artikel mit dem erfassten EAN Code genommen, dies bedeute, dass wen ein Artikel öfters in der Liste vorkommt so wird nur der eine gebucht. Wird jetzt eine Partie zu diesem Artikel erfasst, so wird jetzt in der Kommissionierungsliste nach der Kombination Artikel und Partie gesucht. Zur noch weiteren Eingrenzung kann der Lagerplatz mit dem AI-Code 97 erfasst werden. Die Menge kann entweder per Hand eingegeben oder eingescannt werden. Es kann pro Position im Auftrag nur eine Partie geben. Der Scanner unterstützt beim Erfassen keine Partieverteilung.
+- Nach dem abarbeiten der Positionen wird AUENDE eingescannt.
 
 Gebinde
 

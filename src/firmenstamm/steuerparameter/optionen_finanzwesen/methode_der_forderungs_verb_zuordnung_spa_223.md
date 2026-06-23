@@ -4,9 +4,8 @@
 
 Wie die [Forderungen und Verbindlichkeiten](../../../finanzbuchhaltung/stammdaten_der_fibu/forderungsgruppen.md) ermittelt werden hängt von diesem SPA ab. Er hat zurzeit zwei Ausprägungen:
 
-• Standard: Ob es sich um Forderungen oder Verbindlichkeiten handelt, ist vom Belegtypen abhängig (ER sind immer Verbindlichkeiten, AG sind Verminderungen der Forderungen, ZA ergibt sich aus den Belegen, die Bezahlt werden, usw.).
-
-• Saldo Stichtag: Je nach Saldo des Kunden/Lieferanten wird der Betrag entweder dem Forderungs- oder dem Verbindlichkeitskonto zugewiesen.  
+- Standard: Ob es sich um Forderungen oder Verbindlichkeiten handelt, ist vom Belegtypen abhängig (ER sind immer Verbindlichkeiten, AG sind Verminderungen der Forderungen, ZA ergibt sich aus den Belegen, die Bezahlt werden, usw.).
+- Saldo Stichtag: Je nach Saldo des Kunden/Lieferanten wird der Betrag entweder dem Forderungs- oder dem Verbindlichkeitskonto zugewiesen.  
     
 
 Dieser SPA wirkt für alle nicht abgeschlossenen Perioden, hat also kein „Gültig ab Datum“. Als Datum wird immer das Tagesdatum eingetragen und dient nur der Nachverfolgbarkeit.

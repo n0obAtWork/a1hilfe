@@ -4,33 +4,23 @@
 
 Die A.eins Fibu ermöglicht es, für folgende 3 Bereiche automatische Zinsen errechnen zu lassen:
 
-• Kontokorrentzinsen, Sachkontenzinsen
-
-• Mahnzinsen
-
-• Wechseldiskontierung
+- Kontokorrentzinsen, Sachkontenzinsen
+- Mahnzinsen
+- Wechseldiskontierung
 
 Die vorliegende Beschreibung beschäftigt sich ausschließlich mit den Kontokorrentzinsen. Die Handhabung der Mahnzinsen wird im Kapitel Mahnen beschrieben. Bitte beachten Sie, dass ein Mixen von Kontokorrent- und Mahnzinsen für einen Kunden unsinnig ist.
 
 Die wesentlichen Leistungsmerkmale des Kontokorrentzinsmoduls, die nachfolgen ausführlich dargestellt werden, sind:
 
-• Differenzierung der Konten durch Zinsgruppen
-
-• Wechsel der Zinssätze im Abrechnungszeitraum möglich
-
-• Zinsvorschlagsliste
-
-• Korrektur oder Löschung bzw. zurücksetzen von Zinsen
-
-• Wiederholbarkeit von Zinsläufen
-
-• Druck von Zinsabrechnungen über variable Formulareinrichtung
-
-• automatisches Buchen der Zinsen oder Buchen manuell markierter Zinsen
-
-• Zinsabschlagsteuer und Solidaritätszuschlag automatisch verbuchen
-
-• Archivierung der Zinsen
+- Differenzierung der Konten durch Zinsgruppen
+- Wechsel der Zinssätze im Abrechnungszeitraum möglich
+- Zinsvorschlagsliste
+- Korrektur oder Löschung bzw. zurücksetzen von Zinsen
+- Wiederholbarkeit von Zinsläufen
+- Druck von Zinsabrechnungen über variable Formulareinrichtung
+- automatisches Buchen der Zinsen oder Buchen manuell markierter Zinsen
+- Zinsabschlagsteuer und Solidaritätszuschlag automatisch verbuchen
+- Archivierung der Zinsen
 
 Zu den Stammdaten der Zinsen zählen die Zinsgruppe, die Stammdaten für die Zinsabschlagsteuer sowie einer Reihe von Feldern im Kundenstamm und Mandantenstamm.
 

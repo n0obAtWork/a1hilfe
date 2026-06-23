@@ -127,11 +127,9 @@ Hier markiert man das Feld, welches die eindeutige ID enthält. Es kann immer nu
 
 Bei Daten, die änderbar sind, sind folgende Felder (**MaxC, NumC, FixValue**) von Bedeutung. Die Relation, die hier bearbeitet werden kann, muss folgende Kriterien erfüllen:
 
-• Es muss ein Identfeld existieren, welches für jeden Datensatz gleich ist. Siehe Fixvalue
-
-• Es muss ein Zählfeld existieren, welches die Daten durchnummeriert. Siehe NumC
-
-• Der eindeutige Schlüssel muss sich aus diesen beiden Feldern zusammensetzen.
+- Es muss ein Identfeld existieren, welches für jeden Datensatz gleich ist. Siehe Fixvalue
+- Es muss ein Zählfeld existieren, welches die Daten durchnummeriert. Siehe NumC
+- Der eindeutige Schlüssel muss sich aus diesen beiden Feldern zusammensetzen.
 
 Wenn Maxc, Numc oder Fixvalue nicht gesetzt sind, so ist eine Dateneingabe nicht möglich.
 

@@ -19,23 +19,23 @@ Direktsprung **[EBOK]**.
 
 Sind alle Daten erfasst, können die ermittelten Kontensalden mit der Funktion ***„Kontensalden übertragen“*** **F9** direkt über einen Webservice an das eBilanz-Online übertragen werden. Mögliche Fehler wie z.B.:
 
-• „Die periodenbezogenen Stammdaten wurden nicht gefunden (Zeitraum, Mandant oder Version überprüfen).“
+- „Die periodenbezogenen Stammdaten wurden nicht gefunden (Zeitraum, Mandant oder Version überprüfen).“
 
-Mögliche Ursachen sind:
+  Mögliche Ursachen sind:
 
-1. Der Zeitraum, Mandant oder die Version stimmen nicht mit dem Vorgang(Periode) in ebilanz-Online überein.
+  1. Der Zeitraum, Mandant oder die Version stimmen nicht mit dem Vorgang(Periode) in ebilanz-Online überein.
 
-2. In ebilanz-Online muss erst noch ein entsprechender Vorgang(Periode) angelegt werden (siehe [Anlage eines Vorgangs](./einrichtung_auf_ebilanz_online.md#Anlage_eines_Vorgangs)).
+  2. In ebilanz-Online muss erst noch ein entsprechender Vorgang(Periode) angelegt werden (siehe [Anlage eines Vorgangs](./einrichtung_auf_ebilanz_online.md#Anlage_eines_Vorgangs)).
 
-• „Der Zugriff wurde verweigert. Bitte überprüfen Sie den Benutzer und das Passwort. Für weitere Informationen schauen Sie in die Online-Hilfe.“
+- „Der Zugriff wurde verweigert. Bitte überprüfen Sie den Benutzer und das Passwort. Für weitere Informationen schauen Sie in die Online-Hilfe.“
 
-Mögliche Ursachen sind:
+  Mögliche Ursachen sind:
 
-1. Der Benutzer existiert nicht oder das Passwort ist inkorrekt.
+  1. Der Benutzer existiert nicht oder das Passwort ist inkorrekt.
 
-2. Der Benutzer wurde deaktiviert.
+  2. Der Benutzer wurde deaktiviert.
 
-3. Der Benutzer verfügt über keine entsprechenden Lese- und Schreibzugriffe.  
+  3. Der Benutzer verfügt über keine entsprechenden Lese- und Schreibzugriffe.  
     
 
 werden direkt angezeigt. Wenn alle Daten korrekt übertragen werden konnten, erscheint die Meldung

@@ -34,27 +34,17 @@ Es stehen hier nur die Feldtypen **Label** und **Singelline Text** zur Verfügun
 
 Hier lässt sich auswählen, um was für ein Datenformat es sich handelt. Es stehen die folgenden Formate zur Verfügung.
 
-• Character
-
-• Integer
-
-• Numeric (0 Nachkommastellen)
-
-• Numeric (1 Nachkommastellen)
-
-• Numeric (2 Nachkommastellen)
-
-• Numeric (3 Nachkommastellen)
-
-• Numeric (4 Nachkommastellen)
-
-• Numeric (5 Nachkommastellen)
-
-• Numeric (6 Nachkommastellen)
-
-• Datum(10-Stellig)
-
-• FS-Format
+- Character
+- Integer
+- Numeric (0 Nachkommastellen)
+- Numeric (1 Nachkommastellen)
+- Numeric (2 Nachkommastellen)
+- Numeric (3 Nachkommastellen)
+- Numeric (4 Nachkommastellen)
+- Numeric (5 Nachkommastellen)
+- Numeric (6 Nachkommastellen)
+- Datum(10-Stellig)
+- FS-Format
 
 Diese Formate lassen sich mit **F3** auswählen.
 

@@ -6,9 +6,8 @@ Hauptmenü > Partieverwaltung > Auswertung
 
 In der Partiestammdatenverwaltung besteht die Möglichkeit, zwei fest definierte Partieauswertungen zu drucken:
 
-• Partie-Bewegung (DRUCK)
-
-• Partie-Nachweis (DRUCK)
+- Partie-Bewegung (DRUCK)
+- Partie-Nachweis (DRUCK)
 
 <p class="siehe-auch">Siehe auch:</p>
 

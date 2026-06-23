@@ -16,39 +16,35 @@ Für die Abrechnung von Qualitäts- und Kostenpositionen können nun auch Datenb
 
 Bei Qualitätsmerkmalen können sowohl die Werte für
 
-• Analysewert
+- Analysewert
+- korrigierter Analysewert
+- oberer Basiswert
+- unterer Basiswert
 
-• korrigierter Analysewert
+  per Datenbankprozedur ermittelt werden, wie auch die
 
-• oberer Basiswert
+- Abrechnungsmethoden
 
-• unterer Basiswert
+  bei Unterschreitung des unteren Basiswertes und/oder bei Überschreitung des oberen Basiswertes durch den korrigierten Analysewert als Datenbankprozedur zur Ermittlung des Preis- oder Mengenzu- oder –abschlags angegeben werden.
 
-per Datenbankprozedur ermittelt werden, wie auch die
+  Bei Kosten-/Vergütungsmerkmalen können die Werte für
 
-• Abrechnungsmethoden
+- Kosten-/Vergütungssatz
+- Kosten-/Vergütungspauschale
 
-bei Unterschreitung des unteren Basiswertes und/oder bei Überschreitung des oberen Basiswertes durch den korrigierten Analysewert als Datenbankprozedur zur Ermittlung des Preis- oder Mengenzu- oder –abschlags angegeben werden.
+  per Datenbankprozedur ermittelt werden.
 
-Bei Kosten-/Vergütungsmerkmalen können die Werte für
-
-• Kosten-/Vergütungssatz
-
-• Kosten-/Vergütungspauschale
-
-per Datenbankprozedur ermittelt werden.
-
-Mit der Einstellung ‚DB-Prozedur‘ für die Analysebestimmung und die Bestimmung des korrigierten Analysewertes bzw. ‚Basiswertbestimmung per DB-Prozedur‘ im Feld ‚Basis in Beleg‘ für Basiswertfestlegungen auf der zugehörigen Qualitätsdefinitionsmaske des  
+  Mit der Einstellung ‚DB-Prozedur‘ für die Analysebestimmung und die Bestimmung des korrigierten Analysewertes bzw. ‚Basiswertbestimmung per DB-Prozedur‘ im Feld ‚Basis in Beleg‘ für Basiswertfestlegungen auf der zugehörigen Qualitätsdefinitionsmaske des  
 Rohwarengruppen-/ Abrechnungsschemadefinitionsmoduls kann im zugehörigen Textfeld der Name der heranzuziehenden Datenbankprozedur angegeben werden. Es wird hier nur der jeweilige Prozedurname, nicht aber die Parameter angegeben.
 
-Zur Bestimmung einer Datenbankprozedur als Abrechnungsmethode wird im Feld ‚Typ‘ auf der gewünschten Seite (‚Abrechnung bei Analysewert unter Basis‘ bzw. ‚Abrechnung bei Analysewert über Basis‘) je nach gewünschtem Ergebnistyp der Wert ‚ Preiszu-/ab-DB-Prozedur‘ bzw. ‚Mengenzu-/ab-DB-Prozedur‘ eingestellt.
+  Zur Bestimmung einer Datenbankprozedur als Abrechnungsmethode wird im Feld ‚Typ‘ auf der gewünschten Seite (‚Abrechnung bei Analysewert unter Basis‘ bzw. ‚Abrechnung bei Analysewert über Basis‘) je nach gewünschtem Ergebnistyp der Wert ‚ Preiszu-/ab-DB-Prozedur‘ bzw. ‚Mengenzu-/ab-DB-Prozedur‘ eingestellt.
 
-Im nun zur Verfügung stehenden Maskenfeld unterhalb dieses Eintrags wird der jeweilige Prozedurname (ohne Parameter) eingetragen.
+  Im nun zur Verfügung stehenden Maskenfeld unterhalb dieses Eintrags wird der jeweilige Prozedurname (ohne Parameter) eingetragen.
 
-Wird innerhalb der Prozedur eine Bezugsgröße benötigt (Parameter ‚**PAR_ABR_BEZUG‘**), so ist darauf zu achten, dass bei einer Preisänderungsprozedur eine Preisbezugsgröße, bei einer Prozedur zur Generierung eines Mengenzu- oder –abschlags eine Mengebezugsgröße im Feld ‚Bezugsgröße‘ angegeben wird.
+  Wird innerhalb der Prozedur eine Bezugsgröße benötigt (Parameter ‚**PAR_ABR_BEZUG‘**), so ist darauf zu achten, dass bei einer Preisänderungsprozedur eine Preisbezugsgröße, bei einer Prozedur zur Generierung eines Mengenzu- oder –abschlags eine Mengebezugsgröße im Feld ‚Bezugsgröße‘ angegeben wird.
 
-Zur Bestimmung von Kosten-/Vergütungssatz bzw. Kosten-/Vergütungspauschale per Datenbankprozedur wird auf der zugehörigen Kostendefinitionsmaske des Rohwarengruppen-/Abrechnungsschemadefinitionsmoduls im Feld ‚Kostenart‘ der Typ ‚Satz per DB_Prozedur‘ bzw. ‚Pauschale per DB_Prozedur‘ und im Feld ‚DBProc‘ der Name der Prozedur angegeben.
+  Zur Bestimmung von Kosten-/Vergütungssatz bzw. Kosten-/Vergütungspauschale per Datenbankprozedur wird auf der zugehörigen Kostendefinitionsmaske des Rohwarengruppen-/Abrechnungsschemadefinitionsmoduls im Feld ‚Kostenart‘ der Typ ‚Satz per DB_Prozedur‘ bzw. ‚Pauschale per DB_Prozedur‘ und im Feld ‚DBProc‘ der Name der Prozedur angegeben.
 
-Die verwendeten Datenbankprozeduren müssen ein RESULT mit einem Attribut zurückliefern, dass praktischerweise vom Typ ‚numeric‘, ‚decimal‘, ‚integer‘ oder ‚smallint‘ sein sollte. Der Name des Ergebnisfeldes ist beliebig wählbar. Bei der Erfassung, Korrektur und/oder Abrechnung eines entsprechenden Beleges wird der Ergebniswert entsprechend der in der Qualitätsdefinition eingestellten Nachkommastellenangabe konvertiert.
+  Die verwendeten Datenbankprozeduren müssen ein RESULT mit einem Attribut zurückliefern, dass praktischerweise vom Typ ‚numeric‘, ‚decimal‘, ‚integer‘ oder ‚smallint‘ sein sollte. Der Name des Ergebnisfeldes ist beliebig wählbar. Bei der Erfassung, Korrektur und/oder Abrechnung eines entsprechenden Beleges wird der Ergebniswert entsprechend der in der Qualitätsdefinition eingestellten Nachkommastellenangabe konvertiert.
 
-Die Parameter der DB-Prozedur, die zur Analyse- oder Basiswertermittlung bzw. zur Qualitätsabrechnung herangezogen werden sollen, werden mittels festgelegter Parameternamen bestimmt. Diese sind mit DEFAULT-Werten in der Parameterliste zu versehen. Aus der [*Liste der möglichen Parameter*](../rohwareparameter_einrichten/rohwareparameter_uebersicht.md#RwDbProc_Parameter) müssen nur die tatsächlich benötigten deklariert werden.
+  Die Parameter der DB-Prozedur, die zur Analyse- oder Basiswertermittlung bzw. zur Qualitätsabrechnung herangezogen werden sollen, werden mittels festgelegter Parameternamen bestimmt. Diese sind mit DEFAULT-Werten in der Parameterliste zu versehen. Aus der [*Liste der möglichen Parameter*](../rohwareparameter_einrichten/rohwareparameter_uebersicht.md#RwDbProc_Parameter) müssen nur die tatsächlich benötigten deklariert werden.

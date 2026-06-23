@@ -16,10 +16,9 @@ Dort werden die selbst definierten Vorbelegungen angezeigt. Diese Vorbelegungen 
 
 In diesem Auswahldialog werden neben den Feldern für das Archiv auch zusätzliche Information für den Report angeboten.
 
-• Archivieren: Man kann für die Variante festlegen, ob beim Neuerstellen eines Auswahllisten-Reports der Haken für das Archivieren gesetzt ist.  
+- Archivieren: Man kann für die Variante festlegen, ob beim Neuerstellen eines Auswahllisten-Reports der Haken für das Archivieren gesetzt ist.  
 ![](../../../ImagesExt/image8_1326.png)  
     
 
-• ReportFinished: Wenn ein Report gedruckt wird, wird im Anschluss daran die hier eingetragene Datenbankfunktion aufgerufen.
-
-• ReportInfo: [Individuelle zusätzliche Information](../../auswahlliste_2_0/reporte_bearbeiten.md#IndividuelleInformation) für den Reportdruck.
+- ReportFinished: Wenn ein Report gedruckt wird, wird im Anschluss daran die hier eingetragene Datenbankfunktion aufgerufen.
+- ReportInfo: [Individuelle zusätzliche Information](../../auswahlliste_2_0/reporte_bearbeiten.md#IndividuelleInformation) für den Reportdruck.

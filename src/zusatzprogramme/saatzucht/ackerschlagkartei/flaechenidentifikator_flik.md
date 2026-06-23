@@ -8,12 +8,9 @@ Wenn der Antragsteller aber Flächen in anderen Bundesländern hat muss er einig
 
 Ansprechpartner für die Vergabe des FLIK in den an Rheinland-Pfalz angrenzenden Bundesländern sind folgende Stellen:
 
-• Land Zuständige Stelle Hessen: Ämter für ländlichen Raum ( http://www.llh-hessen.de )
-
-• Baden-Württemberg:
-
-• Landratsämter Saarland: Landwirtschaftskammer, Lebach ( http://www.lwk-saarland.de )
-
-• Nordrhein-Westfalen: Landwirtschaftskammer, Bonn ( http://www.Landwirtschaftskammer.de )
+- Land Zuständige Stelle Hessen: Ämter für ländlichen Raum ( http://www.llh-hessen.de )
+- Baden-Württemberg:
+- Landratsämter Saarland: Landwirtschaftskammer, Lebach ( http://www.lwk-saarland.de )
+- Nordrhein-Westfalen: Landwirtschaftskammer, Bonn ( http://www.Landwirtschaftskammer.de )
 
 Soweit für Flächen in anderen Mitgliedstaaten der EU im Rahmen der Ausgleichszulage oder der unternehmensbezogenen Agrarumweltmaßnahmen eine Förderung beantragt wird, erfolgt die Beantragung dieser Flächen wie bisher. Das bedeutet, dass für diese Flächen kein FLIK abzugeben ist. Systembedingt werden im Rahmen der neuen Direktzahlungen für diese Flächen weder ein Zahlungsanspruch zugewiesen noch die Betriebsprämie gewährt.

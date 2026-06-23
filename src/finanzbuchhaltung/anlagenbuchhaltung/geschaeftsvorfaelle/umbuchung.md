@@ -10,11 +10,9 @@ Wird für ein Anlagegut der Abschreibungsverlauf handels- und steuerrechtlich ge
 
 Um ein Anlagegut umzubuchen, gibt es drei Möglichkeiten:
 
-• Man geht in der Historie und trägt in der letzten Zeile „Umbuchung“ ein (eine Auswahl sämtlicher möglichen Arten ist mit **F3** möglich).
-
-• Man markiert einen oder mehrere Datensätze in der Variante „Anlagenkartei“ der Auswahlliste zum Anlagenstamm und wählt die Funktion Umbuchen aus (siehe [Anzahlung](./anzahlungen.md)).
-
-• Man markiert in der Variante „Fibubeleg ohne Anlageneintrag“ einen SO-Beleg, bei dem als Anka-Typ „Umbuchung“ steht. Die hier angezeigten SO-Belege haben als Haupt und als Gegenkonto ein Anlagenkonto.
+- Man geht in der Historie und trägt in der letzten Zeile „Umbuchung“ ein (eine Auswahl sämtlicher möglichen Arten ist mit **F3** möglich).
+- Man markiert einen oder mehrere Datensätze in der Variante „Anlagenkartei“ der Auswahlliste zum Anlagenstamm und wählt die Funktion Umbuchen aus (siehe [Anzahlung](./anzahlungen.md)).
+- Man markiert in der Variante „Fibubeleg ohne Anlageneintrag“ einen SO-Beleg, bei dem als Anka-Typ „Umbuchung“ steht. Die hier angezeigten SO-Belege haben als Haupt und als Gegenkonto ein Anlagenkonto.
 
 Bei den ersten beiden Varianten öffnet sich dann ein weiteres Eingabefenster, auf dem dann die notwendigen Informationen abgefragt werden. Bei der dritten Variante ist dies nicht nötig, da hier ja bereits der Beleg existiert und somit nur eine Zuweisung zu dem Anlagegut geschieht.
 

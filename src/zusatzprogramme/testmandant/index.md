@@ -44,43 +44,25 @@ Des Weiteren muss beachtete werden, dass mit der Einstellung „Verzeichnis leer
 
 Nach der Erstellung des Testmandanten werden noch einige Einstellungen geändert oder gelöscht, damit dies nicht zu Problemen mit dem Hauptmandanten führt, solange keine eigene Nachlaufprozedur angegeben wurde. Folgend eine Liste der geänderten Einstellungen:
 
-• Im Mandantenstamm wird das Kennzeichen „MandIstTestmandant“ gesetzt, welches nicht zurückgesetzt werden kann.
-
-• Die Bezeichnung des Mandanten wird so erweitert: „MMTT*(Monat, Tag)*TEST“. Bsp.: am 15.07.2020 ist die Bezeichnungserweiterung „0715TEST“.
-
-• Bei allen Formularstämmen wird das Formulararchiv deaktiviert.
-
-• Die Hintergrundfarbe des Menüs wird auf AMIC-Farbe gesetzt.
-
-• Der letzte Mandantenserverstatus wird zurückgesetzt.
-
-• Dem aktuellen Publikationseigentümer wird der Status entzogen.
-
-• Allen Remotebenutzern werden die REMOTE und CONNECT Rechte entzogen.
-
-• Alle Events werden deaktiviert.
-
-• Alle externen Tabellen werden entfernt.
-
-• Alle entfernten Server werden entfernt.
-
-• Alle Publikationen werden gelöscht.
-
-• Entfernen gelockter Einträge
-
-• Deaktivieren der Mandantenserverprozesse
-
-• openTRANS-Einstellungen im Kunden
-
-• BelegMailVersandeinstellungen im Kunden
-
-• Versandprofile – Servernamen werden verfälscht.
-
-• SPA 933 – TAMMO Optionen werden mit einem leeren Wert auf dem Tagesdatum überschrieben
-
-• SPA 994 – Wird mit einem leeren Wert auf dem Tagesdatum überschrieben
-
-• In der [Auswahlliste 2.0](../auswahlliste_2_0/datentabelle.md#Testmandant) wird als Hintergrund der Text „Testmandant“ eingeblendet.
+- Im Mandantenstamm wird das Kennzeichen „MandIstTestmandant“ gesetzt, welches nicht zurückgesetzt werden kann.
+- Die Bezeichnung des Mandanten wird so erweitert: „MMTT*(Monat, Tag)*TEST“. Bsp.: am 15.07.2020 ist die Bezeichnungserweiterung „0715TEST“.
+- Bei allen Formularstämmen wird das Formulararchiv deaktiviert.
+- Die Hintergrundfarbe des Menüs wird auf AMIC-Farbe gesetzt.
+- Der letzte Mandantenserverstatus wird zurückgesetzt.
+- Dem aktuellen Publikationseigentümer wird der Status entzogen.
+- Allen Remotebenutzern werden die REMOTE und CONNECT Rechte entzogen.
+- Alle Events werden deaktiviert.
+- Alle externen Tabellen werden entfernt.
+- Alle entfernten Server werden entfernt.
+- Alle Publikationen werden gelöscht.
+- Entfernen gelockter Einträge
+- Deaktivieren der Mandantenserverprozesse
+- openTRANS-Einstellungen im Kunden
+- BelegMailVersandeinstellungen im Kunden
+- Versandprofile – Servernamen werden verfälscht.
+- SPA 933 – TAMMO Optionen werden mit einem leeren Wert auf dem Tagesdatum überschrieben
+- SPA 994 – Wird mit einem leeren Wert auf dem Tagesdatum überschrieben
+- In der [Auswahlliste 2.0](../auswahlliste_2_0/datentabelle.md#Testmandant) wird als Hintergrund der Text „Testmandant“ eingeblendet.
 
 <p class="siehe-auch">Siehe auch:</p>
 

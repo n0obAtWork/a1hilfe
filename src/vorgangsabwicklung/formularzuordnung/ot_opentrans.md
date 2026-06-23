@@ -108,13 +108,10 @@ Hier wird der openTRANS-Vorgangs-Typ angegeben, der beim Export dieses Vorgangs 
 
 Zur Verfügung stehen derzeit:
 
-• Angebot
-
-• Bestellung
-
-• Lieferschein
-
-• Rechnung
+- Angebot
+- Bestellung
+- Lieferschein
+- Rechnung
 
 <p class="just-emphasize">Prozedur für UDX-Felder</p>
 

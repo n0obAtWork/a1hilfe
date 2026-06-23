@@ -12,13 +12,10 @@ In der Auswahlliste Sachkonten, existiert die Funktion ***Sachkonten importieren
 
 Die Importdatei muss eine Exceldatei sein. Die erste Zeile wird nicht mit importiert, da sie für gewöhnlich die Überschrift enthält. Welche Informationen in den Spalten zu finden sind, ist nicht fest vorgegeben, da man sich eine eigene Datenbankprozedur schreiben kann, die die Zuweisung zur Tabelle Sachkontstamm macht. Die Kontonummer und die Kontobezeichnung sollten jedoch existieren. Startet man den Import, so werden folgende Schritte ausgeführt:
 
-• Prüfen, ob die Tabelle SachKontstamm leer ist. Ist dies nicht der Fall, so wird eine entsprechende Meldung ausgegeben und der Import nicht gestartet.
-
-• Die Datei, die unter „Name der Importdatei“ angegeben wurde, wird in eine Zwischentabelle mit dem Namen temp_xls_import eingespielt. Diese Tabelle enthält die Felder col_A char(255) bis col_V(255).
-
-• Anschließend wird die unter „Name der Importprozedur“ eingetragene Prozedur aufgerufen. Der verwendeter Aufrufsyntax ist: „call procedurename()“. Die Prozedur hat also keine Parameter.
-
-• Am Ende wird gezählt, wie viele Datensätze importiert wurden und als Ergebnis ausgegeben.
+- Prüfen, ob die Tabelle SachKontstamm leer ist. Ist dies nicht der Fall, so wird eine entsprechende Meldung ausgegeben und der Import nicht gestartet.
+- Die Datei, die unter „Name der Importdatei“ angegeben wurde, wird in eine Zwischentabelle mit dem Namen temp_xls_import eingespielt. Diese Tabelle enthält die Felder col_A char(255) bis col_V(255).
+- Anschließend wird die unter „Name der Importprozedur“ eingetragene Prozedur aufgerufen. Der verwendeter Aufrufsyntax ist: „call procedurename()“. Die Prozedur hat also keine Parameter.
+- Am Ende wird gezählt, wie viele Datensätze importiert wurden und als Ergebnis ausgegeben.
 
 In der folgenden Beispielprozedur wird davon ausgegangen, dass in col_B die Kontonummer steht, und col_C enthält die Kontobezeichnung:
 

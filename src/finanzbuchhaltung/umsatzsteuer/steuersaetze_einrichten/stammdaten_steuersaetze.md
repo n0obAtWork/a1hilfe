@@ -10,13 +10,10 @@ Die Pflege der Steuersätze kann an zwei unterschiedlichen Stellen erfolgen. Ruf
 
 Das System bestimmt den passenden Satz über eine Kombination von 4 Elementen:
 
-• Steuerklasse. Umsatzsteuer oder Vorsteuer, Brutto oder Netto.
-
-• Steuergruppe. Inlandskunde, Auslandskunde...
-
-• Steuerschlüssel. Steuerfrei, Voller Steuersatz, verminderter Steuersatz...
-
-• Steuerabdatum. Ab und an ändert sich der Steuersatz. Letztes Beispiel war die Erhöhung des vollen Steuersatzes auf 19% zum 01.01.2007. Dann ist es nur nötig, für das Änderungsdatum einen neuen Satz zu hinterlegen, damit das System weiß, welcher Steuersatz gültig ist. Dazu gibt es im Kreuzpfleger eine Funktion "***Speichern unter* Shift+F9**"
+- Steuerklasse. Umsatzsteuer oder Vorsteuer, Brutto oder Netto.
+- Steuergruppe. Inlandskunde, Auslandskunde...
+- Steuerschlüssel. Steuerfrei, Voller Steuersatz, verminderter Steuersatz...
+- Steuerabdatum. Ab und an ändert sich der Steuersatz. Letztes Beispiel war die Erhöhung des vollen Steuersatzes auf 19% zum 01.01.2007. Dann ist es nur nötig, für das Änderungsdatum einen neuen Satz zu hinterlegen, damit das System weiß, welcher Steuersatz gültig ist. Dazu gibt es im Kreuzpfleger eine Funktion "***Speichern unter* Shift+F9**"
 
 Zu den oben genannten Kombinationen müssen jetzt noch weitere Daten hinterlegt werden.
 

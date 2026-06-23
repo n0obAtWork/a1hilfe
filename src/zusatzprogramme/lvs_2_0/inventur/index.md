@@ -16,11 +16,9 @@ Gründe für Abweichungen
 
 Somit sollten die Bestände in LVS und Warenwirtschaft stets analog sein. Es gibt jedoch Gründe für Abweichungen:
 
-• Fehler bei der Erstaufnahme
-
-• Bruch/Verderb
-
-• Schwund
+- Fehler bei der Erstaufnahme
+- Bruch/Verderb
+- Schwund
 
 Begriffe Inventur
 

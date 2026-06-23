@@ -8,11 +8,9 @@ Direktsprung **[KSOBJ]**
 
 Neben den [Kostenstellen](../kostenstellen.md) und [Kostenträgern](../kostentraeger.md) können Kosten einem Kostenobjekt zugeordnet werden. Diese unterscheiden sich in folgenden Punkten von den Kostenstellen und Kostenträgern:
 
-• Es existiert nicht die Möglichkeit der Verteilung. Es gibt weder Verteilkostenobjekte für die automatische Verteilung noch existiert bei der Erfassung die Möglichkeit den Betrag einer Position auf verschiedene Kostenobjekte aufzuteilen.
-
-• Zu Kostenobjekten existiert – im Gegensatz zur Kostenstellen und Kostenträgern - keine Tabelle, in der die Summen geführt werden. Diese können direkt aus der View AMIC_V_FIBUBELEG gelesen werden.
-
-• Die Kostenobjekte sind für individuelle Auswertungen von A.eins Anwendern gedacht. Daher existieren keine Standard-Auswertungen.
+- Es existiert nicht die Möglichkeit der Verteilung. Es gibt weder Verteilkostenobjekte für die automatische Verteilung noch existiert bei der Erfassung die Möglichkeit den Betrag einer Position auf verschiedene Kostenobjekte aufzuteilen.
+- Zu Kostenobjekten existiert – im Gegensatz zur Kostenstellen und Kostenträgern - keine Tabelle, in der die Summen geführt werden. Diese können direkt aus der View AMIC_V_FIBUBELEG gelesen werden.
+- Die Kostenobjekte sind für individuelle Auswertungen von A.eins Anwendern gedacht. Daher existieren keine Standard-Auswertungen.
 
 Für Kostenobjekte wird eine Lizenz benötigt.
 

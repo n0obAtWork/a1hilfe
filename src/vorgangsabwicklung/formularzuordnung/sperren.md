@@ -65,8 +65,6 @@ UlsatzSteuerid
 
 Hier gibt es jeweils drei Abstufungen
 
-• „Wenn UStId geprüft“
-
-• „wenn eingetragen“
-
-• „immer“
+- „Wenn UStId geprüft“
+- „wenn eingetragen“
+- „immer“

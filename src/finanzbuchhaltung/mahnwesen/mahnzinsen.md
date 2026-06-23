@@ -6,21 +6,15 @@ Neben den Kontokorrentzinsen gibt es auch die Möglichkeit Mahnzinsen zu berechn
 
 Folgende Stammdaten müssen dabei berücksichtig werden:
 
-• Im [Mandantenstamm](../../firmenstamm/firmenkonstanten/mandantenstamm.md#MND_FIBU) wird die Zinsbasis hinterlegt, d.h. man entscheidet sich Firmenweit, welche Monatseinteilung man bei der Zinsabrechnung verwenden will. In A.eins gibt es drei Möglichkeiten:
-
-o 30 Tage im Monat beim 360 Tagen im Jahr
-
-o Monatstage (Jan=31;Feb=28;...) bei 365 Tagen im Jahr
-
-o Monatstage (Jan=31;Feb=28;...) bei 360 Tagen im Jahr
-
-• In der Zinsgruppe sollte mindestens ein Eintrag für Verzugszinsen aus Mahnungen existieren. Bei der Einrichtung dieser Zinsgruppe ist zu beachten, dass bei der Berechnung der Mahnzinsen nur der Soll-Zinssatz herangezogen wird.  
-    
-
-• Diese Zinsgruppe muss dann für die Mahngruppe im [Mahnstamm](./mahnsaetze_einrichten.md) hinterlegt werden. Man kann dort für jede Mahnstufe eine eigene Zinsgruppe hinterlegen  
+- Im [Mandantenstamm](../../firmenstamm/firmenkonstanten/mandantenstamm.md#MND_FIBU) wird die Zinsbasis hinterlegt, d.h. man entscheidet sich Firmenweit, welche Monatseinteilung man bei der Zinsabrechnung verwenden will. In A.eins gibt es drei Möglichkeiten:
+  - 30 Tage im Monat beim 360 Tagen im Jahr
+  - Monatstage (Jan=31;Feb=28;...) bei 365 Tagen im Jahr
+  - Monatstage (Jan=31;Feb=28;...) bei 360 Tagen im Jahr
+- In der Zinsgruppe sollte mindestens ein Eintrag für Verzugszinsen aus Mahnungen existieren. Bei der Einrichtung dieser Zinsgruppe ist zu beachten, dass bei der Berechnung der Mahnzinsen nur der Soll-Zinssatz herangezogen wird.  
+- Diese Zinsgruppe muss dann für die Mahngruppe im [Mahnstamm](./mahnsaetze_einrichten.md) hinterlegt werden. Man kann dort für jede Mahnstufe eine eigene Zinsgruppe hinterlegen  
 ![Ein Bild, das Text, Screenshot, Display, Zahl enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_631.jpg "Ein Bild, das Text, Screenshot, Display, Zahl enthält. Automatisch generierte Beschreibung")
 
-• Es gibt zwei Möglichkeiten, wie die Mahnzinsen behandelt werden können. Entweder man bucht bei jeder Mahnung die Zinsen, dann dürfen die Zinsen nur von einer Mahnung bis zur nächsten Mahnung berechnet werden. Oder man bucht die Zinsen erst, wenn die Mahnung inklusive Zinsen gezahlt bzw. die Forderung dem Anwalt übergeben wurde. Dann muss die Mahnung den gesamten Zinsbetrag ausweisen, also Berechnung ab Fälligkeitsdatum. Dies wird in den [Mahngruppen](./mahngruppen.md) unter „**Zinsen immer ab Fälligkeit“** hinterlegt
+- Es gibt zwei Möglichkeiten, wie die Mahnzinsen behandelt werden können. Entweder man bucht bei jeder Mahnung die Zinsen, dann dürfen die Zinsen nur von einer Mahnung bis zur nächsten Mahnung berechnet werden. Oder man bucht die Zinsen erst, wenn die Mahnung inklusive Zinsen gezahlt bzw. die Forderung dem Anwalt übergeben wurde. Dann muss die Mahnung den gesamten Zinsbetrag ausweisen, also Berechnung ab Fälligkeitsdatum. Dies wird in den [Mahngruppen](./mahngruppen.md) unter „**Zinsen immer ab Fälligkeit“** hinterlegt
 
 Sind alle Stammdaten korrekt eingerichtet, werden beim Erstellen der Mahnvorschläge die Zinsen berechnet. Bei der Berechnung der Zinsen werden nur die Positionen herangezogen, die laut der Einstellung „**Wie mahnen**“ in den [Mahngruppen](./mahngruppen.md) auf der Mahnung erscheinen sollen. Dann werden auch nur die Positionen verzinst, die fällig sind. Bei der Bestimmung, ob die Positionen Fällig sind, wird auch der Mahnabstand berücksichtigt und dies sowohl für Soll- als auch für Habenposten.  
 Die so errechneten Zinsen können dann unter [Mahnvorschläge bearbeiten](./mahnvorschlaege_bearbeiten.md) mit der Funktion ***Ändern* F5** angesehen und ggf. geändert werden. In den von AMIC bereitgestellten Varianten werden pro Mahnposition die errechneten Zinsen, die Tage und der Zinssatz, der zur Berechnung herangezogen wurde mit ausgegeben. Wenn man die Mahnzinsen ändert, geschieht dies pro Position:

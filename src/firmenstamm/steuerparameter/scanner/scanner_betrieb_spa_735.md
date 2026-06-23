@@ -4,6 +4,5 @@
 
 Wie der Scanner sich verbinden soll, wenn die AeinsCE Software gestartet wird.
 
-• Online für eine Verbindung mit der zentralen Datenbank
-
-• Offline mit der Verbindung zur lokalen Datenbank
+- Online für eine Verbindung mit der zentralen Datenbank
+- Offline mit der Verbindung zur lokalen Datenbank

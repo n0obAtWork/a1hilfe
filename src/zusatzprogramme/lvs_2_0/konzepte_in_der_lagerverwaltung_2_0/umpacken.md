@@ -8,14 +8,9 @@ Nun kann es notwendig sein, Material aus Platzgründen zusammenzufassen und von 
 
 **Empfohlener Arbeitsablauf Scanner:**
 
-• Scan „UMPACK“
-
-• Scan der Quell-NVE
-
-o Anzeige der NVE-Info
-
-• Scan der Ziel-NVE
-
-o Prüfung auf Kompatibilität der Inhalte
-
-o Erzeugen einer Umpackung im VIMP
+- Scan „UMPACK“
+- Scan der Quell-NVE
+  - Anzeige der NVE-Info
+- Scan der Ziel-NVE
+  - Prüfung auf Kompatibilität der Inhalte
+  - Erzeugen einer Umpackung im VIMP

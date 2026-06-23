@@ -140,11 +140,9 @@ Excel meldet einen Fehler beim Laden von Daten aus der Datenquelle
 
 Die Daten konnten nicht geladen werden. Dafür kann es mehrere Ursachen geben:
 
-• Die formulierte Abfrage ist nicht in einem Excel-konformen SQL formuliert.
-
-• Die Datenbankverbindung mittels ODBC kann nicht verwendet werden
-
-• Die Datengrundlage hat sich verändert, so dass das Abfrage-SQL nicht mehr gültig ist
+- Die formulierte Abfrage ist nicht in einem Excel-konformen SQL formuliert.
+- Die Datenbankverbindung mittels ODBC kann nicht verwendet werden
+- Die Datengrundlage hat sich verändert, so dass das Abfrage-SQL nicht mehr gültig ist
 
 • 
 

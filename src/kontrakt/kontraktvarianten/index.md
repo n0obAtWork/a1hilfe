@@ -12,11 +12,9 @@ Insbesondere ergibt sich aus ihr die Reihenfolge der verschiedenen darzustellend
 
 Kontraktvarianten können einem Kontrakt für die Aufgaben
 
-• Kontraktdruck
-
-• Kontrakterledigungsschreiben
-
-• Kontraktstorno
+- Kontraktdruck
+- Kontrakterledigungsschreiben
+- Kontraktstorno
 
 zugeordnet werden. Dabei kann es sich (jeweils) um eine Variante für alle Kontrakte handeln, in diesem Fall ist z.B. das Kontraktbestätigungsschreiben für alle Kontrakte gleich, oder man unterscheidet Kontrakte inhaltlich (z.B. soll das Bestätigungsschreiben für einen Futtermittelkontrakt anders aussehen als für einen Futtermischungskontrakt). Im letzten Fall würde man dann mindestens zwei Varianten anlegen, die den unterschiedlichen Anforderungen gerecht würden. Mit der Einbindung der Variantennummer in die Kontraktstammdaten bekommt der Kontrakt also zusätzliche inhaltliche Bedeutung. Um diese Bedeutung auch bei der Neuerfassung von Kontrakten sicherzustellen, empfiehlt es sich, Musterkontrakte für jede Variante anzulegen.
 

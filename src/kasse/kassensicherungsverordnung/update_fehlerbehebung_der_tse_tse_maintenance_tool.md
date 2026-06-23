@@ -4,13 +4,12 @@
 
 **Voraussetzungen:**
 
-• Das ***TSE Maintenance Tool***
-
-• Die Admin-PIN.
+- Das ***TSE Maintenance Tool***
+- Die Admin-PIN.
 
 (Einzusehen im TSE-Pfleger unter Tab: **Zugang USB ->** Feld: **Admin Pin**).
 
-• TSE ist *lokal* am USB-Slot des PCs mit dem TSE Maintenance Tool eingesteckt (ein Update über *Netuse* bzw. *Netzwerklaufwerk* ist nicht möglich!).
+- TSE ist *lokal* am USB-Slot des PCs mit dem TSE Maintenance Tool eingesteckt (ein Update über *Netuse* bzw. *Netzwerklaufwerk* ist nicht möglich!).
 
 **TSE Maintenance Tool:**
 
@@ -48,9 +47,9 @@ Nachdem der Vorgang abgeschlossen ist, erscheint folgende Meldung:
 
 ![](../../ImagesExt/image8_490.png)
 
-è Damit ist die TSE erfolgreich geupdatet.
+- Damit ist die TSE erfolgreich geupdatet.
 
-6. TSE Maintenance Tool nach dem Update beenden!
+  6. TSE Maintenance Tool nach dem Update beenden!
 
 <details>
 <summary>TSE-Fehlercodes:</summary>

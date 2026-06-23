@@ -18,15 +18,14 @@ In der optionalen Spalte **‚Item-Box’** kann eine existierende Item-Box für
 
 Eine optionale Eingabe in der Spalte **‚Validierung: zugeh. Textquelle’** bewirkt zweierlei:
 
-• In Verbindung mit einer in der Spalte ‚Item-Box’ angegeben Itembox wird bei einem über die Item-Box ausgewählten Eintrag hinter dem korrespondierenden Bearbeitungsfeld der Inhalt des zusätzlichen Item-Box-Rückgabewertes ausgegeben, wenn der zusätzliche Rückgabewert den angegeben Feldnamen trägt.
+- In Verbindung mit einer in der Spalte ‚Item-Box’ angegeben Itembox wird bei einem über die Item-Box ausgewählten Eintrag hinter dem korrespondierenden Bearbeitungsfeld der Inhalt des zusätzlichen Item-Box-Rückgabewertes ausgegeben, wenn der zusätzliche Rückgabewert den angegeben Feldnamen trägt.
+- In Verbindung mit einem in der Spalte **‚Validierung: SQL-Text’** angegeben Namen eines privaten SQL-Textes wird hinter dem korrespondierenden Bearbeitungsfeld der Inhalt des Ergebnisses ( Return-Wert ) der Ausführung des SQL-Textes ausgegeben, wenn die SELECT-Liste des SQL-Textes den hier angegeben Namen beinhaltet.
 
-• In Verbindung mit einem in der Spalte **‚Validierung: SQL-Text’** angegeben Namen eines privaten SQL-Textes wird hinter dem korrespondierenden Bearbeitungsfeld der Inhalt des Ergebnisses ( Return-Wert ) der Ausführung des SQL-Textes ausgegeben, wenn die SELECT-Liste des SQL-Textes den hier angegeben Namen beinhaltet.
+  Eine optionale Eingabe in der Spalte **‚Validierung: SQL_Text’** bewirkt die Ausführung eines hier angegeben privaten SQL-Textes und eine Zurückweisung der Eingabe eines Wertes, der zum Fehlschlagen der SQL-Text-Ausführung führt.
 
-Eine optionale Eingabe in der Spalte **‚Validierung: SQL_Text’** bewirkt die Ausführung eines hier angegeben privaten SQL-Textes und eine Zurückweisung der Eingabe eines Wertes, der zum Fehlschlagen der SQL-Text-Ausführung führt.
+  Die mit dem Eingabewert korrespondierende Variable derartiger SQL-Texte ist immer ‚ErgWert’.
 
-Die mit dem Eingabewert korrespondierende Variable derartiger SQL-Texte ist immer ‚ErgWert’.
-
-Beispiel:
+  Beispiel:
 
 ```sql
 select

@@ -12,18 +12,12 @@ Es können hier pro Belegart für manuelle und für automatische Belegerstellung
 
 Mögliche Werte sind:
 
-• manuelle Nummernvergabe
-
-• Nummernvorschlag
-
-• Eindeutiger Nummernvorschlag
-
-• Eindeutig pro Geschäftsjahr & Vorgang
-
-• Eindeutig je Vorgang
-
-• Eindeutig je Geschäftsjahr
-
-• Eindeutig im Gesamtsystem
+- manuelle Nummernvergabe
+- Nummernvorschlag
+- Eindeutiger Nummernvorschlag
+- Eindeutig pro Geschäftsjahr & Vorgang
+- Eindeutig je Vorgang
+- Eindeutig je Geschäftsjahr
+- Eindeutig im Gesamtsystem
 
 Die Eindeutigkeit der Nummer wird immer im Zusammenhang mit dem Nummernkreis geprüft. Bei "manueller Nummernvergabe", "Nummernvorschlag" und "eindeutiger Nummernvorschlag" muss die Eindeutigkeit der Belegnummer durch geeignete betriebliche Mittel gewährleistet werden.

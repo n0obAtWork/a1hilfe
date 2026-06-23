@@ -23,15 +23,13 @@ Unterhalb des Abfragefeldes befindet sich ein Informationsfenster, das sich übe
 
 In der Liste werden die Perioden in der Reihenfolge Eröffnungsperiode, Normalperioden, Abschlussperioden angezeigt und die zu dem ausgewählten Konto gehörenden Werte angezeigt. Es werden standardmäßig vier Varianten ausgeliefert, die über **F2** ausgewählt werden können:
 
-• **Konteninfo erfasst:** Dies sind die Werte, wie sie direkt nach der Eingabe im System stehen.
-
-• **Konteninfo gebucht:** Erst beim Buchen der Belege werden diese Werte aktualisiert. Diese  
+- **Konteninfo erfasst:** Dies sind die Werte, wie sie direkt nach der Eingabe im System stehen.
+- **Konteninfo gebucht:** Erst beim Buchen der Belege werden diese Werte aktualisiert. Diese  
 Werte entsprechen denen, die auch in der Summen und Saldenliste, GuV bzw. Bilanz  
 auftauchen.
 
-• **Konteninfo nach Belegart:** Hier werden die Summen nach Belegart getrennt aufgelistet.
-
-• **Konteninfo mit Währungsauflösung:** Diese Variante erscheint nur wenn der **SPA 673** „**Anzeige Fremdwährung in Auswahllisten**“ gesetzt ist. Diese enthält zwei zusätzliche Spalten „zum Stichtag“ und „Differenz“. Weiterhin wird pro Periode und Währung, die auf dieses Konto in dem aktuellen Jahr gebucht wurde, eine Zeile ausgegeben. In der Spalte „zum Stichtag“ findet man den Betrag in Buchwährung, der sich aus dem kumulierten Fremdwährungsbetrag und dem am Monatsende gültigen Währungskurs ergibt. Die Differenz ist dann der Betrag, der sich aus der Differenz vom Betrag „zum Stichtag“ und dem Betrag, der zum am Tag der Erfassung gültig war, ergibt.  
+- **Konteninfo nach Belegart:** Hier werden die Summen nach Belegart getrennt aufgelistet.
+- **Konteninfo mit Währungsauflösung:** Diese Variante erscheint nur wenn der **SPA 673** „**Anzeige Fremdwährung in Auswahllisten**“ gesetzt ist. Diese enthält zwei zusätzliche Spalten „zum Stichtag“ und „Differenz“. Weiterhin wird pro Periode und Währung, die auf dieses Konto in dem aktuellen Jahr gebucht wurde, eine Zeile ausgegeben. In der Spalte „zum Stichtag“ findet man den Betrag in Buchwährung, der sich aus dem kumulierten Fremdwährungsbetrag und dem am Monatsende gültigen Währungskurs ergibt. Die Differenz ist dann der Betrag, der sich aus der Differenz vom Betrag „zum Stichtag“ und dem Betrag, der zum am Tag der Erfassung gültig war, ergibt.  
     
 
 Wenn detaillierte Informationen über eine Periode gewünscht werden, kann diese Periode mittels Mausklick oder Cursorpositionierung mit anschließender Bestätigung ausgewählt werden. In diesem Fall werden die Einzelzeilen in der Periode angezeigt. In der Variante „Konteninfo mit Währungsauflösung“ werden auch nur die Belege angezeigt, die zu der Zeile – also nur die jeweils ausgewählte Währung – gehören.

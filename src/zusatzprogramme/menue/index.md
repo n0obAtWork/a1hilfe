@@ -10,17 +10,12 @@ Durch diese Aufteilung („2-Klick-Strategie“) ist es sehr schnell möglich ei
 
 Weitere Merkmale sind:
 
-• Präsentation der Systemmeldungen
-
-• Favoriten sind von den Systemmeldungen optisch getrennt und haben eine eigene Tab-Seite.
-
-• Möglichkeit der Einbindung eines Firmenlogos aus dem Archiv
-
-• Kontextsensitive Menüs, integriertes Schutzsystem
-
-• Erheblich besseres Tastaturhandling im SHIFT-F4 – Umfeld
-
-• Bedingt durch die geänderte Präsentation der Bereich eingeschränkte Farbgebungsmerkmale. Als Ausgleich aber user-individuelle Style-Möglichkeiten.
+- Präsentation der Systemmeldungen
+- Favoriten sind von den Systemmeldungen optisch getrennt und haben eine eigene Tab-Seite.
+- Möglichkeit der Einbindung eines Firmenlogos aus dem Archiv
+- Kontextsensitive Menüs, integriertes Schutzsystem
+- Erheblich besseres Tastaturhandling im SHIFT-F4 – Umfeld
+- Bedingt durch die geänderte Präsentation der Bereich eingeschränkte Farbgebungsmerkmale. Als Ausgleich aber user-individuelle Style-Möglichkeiten.
 
 <p class="siehe-auch">Siehe auch:</p>
 

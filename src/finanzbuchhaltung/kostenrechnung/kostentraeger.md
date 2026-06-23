@@ -12,27 +12,23 @@ Um mit Kostenträgern zu arbeiten, gibt es folgende Vorbedingungen bzw. Einstell
 
 2. Die Kostenträger müssen eingerichtet sein. Hierzu gibt es zwei Stammdatenpfleger
 
-• Kostenträger (ohne Verteilung)
+- Kostenträger (ohne Verteilung)
+- Verteilkostenträger (mit Verteilung)
 
-• Verteilkostenträger (mit Verteilung)
+  3. Im [Sachkontenrahmen](../stammdaten_der_fibu/sachkonten.md) Direktsprung **[SKS]** muss bei den in Frage kommenden Aufwandskonten im Feld Sperre Kostenträger aus folgenden Eintragsmöglichkeiten gewählt werden
 
-3. Im [Sachkontenrahmen](../stammdaten_der_fibu/sachkonten.md) Direktsprung **[SKS]** muss bei den in Frage kommenden Aufwandskonten im Feld Sperre Kostenträger aus folgenden Eintragsmöglichkeiten gewählt werden
+- **Gesperrt** Es wird kein Kostenträger abgefragt
+- **Kann** Es kann ein Kostenträger eingeben werden, muss aber nicht
+- **Muss** Es muss ein Kostenträger eingegeben werden.
+- **Fest** Es muss der im Sachkontenstamm festgelegte Kostenträger verwendet werden.
 
-• **Gesperrt** Es wird kein Kostenträger abgefragt
+  Im Feld Kostenträger kann hier die Nummer eines Kostenträgers eingegeben werden, der dann bei der Belegerfassung automatisch vorgeschlagen wird.
 
-• **Kann** Es kann ein Kostenträger eingeben werden, muss aber nicht
-
-• **Muss** Es muss ein Kostenträger eingegeben werden.
-
-• **Fest** Es muss der im Sachkontenstamm festgelegte Kostenträger verwendet werden.
-
-Im Feld Kostenträger kann hier die Nummer eines Kostenträgers eingegeben werden, der dann bei der Belegerfassung automatisch vorgeschlagen wird.
-
-4. Damit auch Rechnungen aus der Warenwirtschaft beim Fibu -Übertrag automatisch in die Kostenträgerrechnung eingetragen werden können, ist es nötig, Kostenträgergruppen zu definieren, in denen die Kostenträger des Artikels für Einkauf und Verkauf angegeben werden können.  
+  4. Damit auch Rechnungen aus der Warenwirtschaft beim Fibu -Übertrag automatisch in die Kostenträgerrechnung eingetragen werden können, ist es nötig, Kostenträgergruppen zu definieren, in denen die Kostenträger des Artikels für Einkauf und Verkauf angegeben werden können.  
 Diese werden dann im Artikel über die Funktion ***Kostenst./Statistik/Abteil*** gepflegt, und wenn dann der Artikel im Vorgang angesprochen wird, wird der jeweilige Kostenträger bebucht.  
     
 
-5. Im Mandantenstamm sollte ein Fehlerkostenträger eingerichtet werden. Dieser Kostenträger wird herangezogen, wenn zu GuV-Konten versehentlich kein Kostenträger hinterlegt ist und die „Sperre Kostenträger“ des angesprochenen Kontos nicht auf **Gesperrt** oder **Fest** seht.
+  5. Im Mandantenstamm sollte ein Fehlerkostenträger eingerichtet werden. Dieser Kostenträger wird herangezogen, wenn zu GuV-Konten versehentlich kein Kostenträger hinterlegt ist und die „Sperre Kostenträger“ des angesprochenen Kontos nicht auf **Gesperrt** oder **Fest** seht.
 
 Erfassung der Kostenträger
 
@@ -62,12 +58,9 @@ Planzahlen für Kostenträger müssen pro Jahr, Periode und Konto erfasst werden
 
 Neben der manuellen Erfassung stehen noch zusätzliche Funktionen zur Verfügung:
 
-• Vorjahresplandaten: Die zu diesem Kostenträger und Konto im Vorjahr erfassten Werte werden automatisch in die Soll und Habenspalte übernommen.
-
-• Plandaten aus 1.Periode: Die Werte, die in Periode 1 eingetragen wurden, werden in alle anderen Perioden übernommen.
-
-• Löschen Plandaten: Alle Werte dieser Kostenträger/Jahr/Kontonummern-Kombination werden auf 0.0 gesetzt.
-
-• Übernahme Plandaten: Es öffnet sich eine weiter Maske, in der der Bereich abgefragt wird, aus dem die Kostentägerplanzahlen übernommen werden sollen:
+- Vorjahresplandaten: Die zu diesem Kostenträger und Konto im Vorjahr erfassten Werte werden automatisch in die Soll und Habenspalte übernommen.
+- Plandaten aus 1.Periode: Die Werte, die in Periode 1 eingetragen wurden, werden in alle anderen Perioden übernommen.
+- Löschen Plandaten: Alle Werte dieser Kostenträger/Jahr/Kontonummern-Kombination werden auf 0.0 gesetzt.
+- Übernahme Plandaten: Es öffnet sich eine weiter Maske, in der der Bereich abgefragt wird, aus dem die Kostentägerplanzahlen übernommen werden sollen:
 
 ![Ein Bild, das Text, Screenshot, Display, Software enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_688.png "Ein Bild, das Text, Screenshot, Display, Software enthält. Automatisch generierte Beschreibung")

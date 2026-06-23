@@ -20,8 +20,7 @@ Nachdem eine Zeile mit sbE oder sbA erfasst worden ist, ist es nicht mehr mögli
 
 Um für ein Anlagegut den Abgang zu erfassen, gibt es folgende Möglichkeiten:
 
-• Man geht in der Historie und trägt in der letzten Zeile „Abgang“ ein - eine Auswahl sämtlicher möglichen Arten ist mit **F3** möglich.
-
-• Man markiert in der Variante „Fibubeleg ohne Anlageneintrag“ einen AR-Beleg bzw. einen SO-Beleg, bei dem als Anka-Typ „Abgang/Verkauf“ steht und führt dann die Funktion „Verteilung / Zuordnung“ aus.
+- Man geht in der Historie und trägt in der letzten Zeile „Abgang“ ein - eine Auswahl sämtlicher möglichen Arten ist mit **F3** möglich.
+- Man markiert in der Variante „Fibubeleg ohne Anlageneintrag“ einen AR-Beleg bzw. einen SO-Beleg, bei dem als Anka-Typ „Abgang/Verkauf“ steht und führt dann die Funktion „Verteilung / Zuordnung“ aus.
 
 Es wird davon ausgegangen, dass immer das gesamte Anlagegut verkauft wird. Tritt nun ein Geschäftsvorfall auf, bei dem nur ein Teil des Anlagegutes verkauft werden soll, so muss man diesen Teil erst umbuchen. Diesen Teil kann man dann komplett verkaufen.

@@ -58,12 +58,8 @@ Die Verwendung von AIS in Vorgängen unterscheidet sich von der normalen Verwend
 
 Die folgenden Masken sind AIS-fähig:
 
-• SVMAIN
-
-• SVPOSI
-
-• SVWARE
-
-• SVUMMAIN
-
-• SVUMWARE
+- SVMAIN
+- SVPOSI
+- SVWARE
+- SVUMMAIN
+- SVUMWARE

@@ -16,19 +16,13 @@ Hauptmenü > Mahn-,Zahl-, Zinswesen > Zahlungsverkehr > Zahlvorschläge bearbeit
 
 Folgende Formularbereiche werden dabei verwandt!
 
-• Zahlkopf Formularkopf
-
-• Zahlfolgekopf Überschrift der nächsten Seiten
-
-• Zahlposition Einzelne Zeile
-
-• Zahlfuß Seitenende
-
-• Zahlabschluss Seitenende der letzte Seite
-
-• Zahlsummenkopf Überschrift Pro Konto
-
-• Zahlsummenfuß Summenzeile Pro Konto
+- Zahlkopf Formularkopf
+- Zahlfolgekopf Überschrift der nächsten Seiten
+- Zahlposition Einzelne Zeile
+- Zahlfuß Seitenende
+- Zahlabschluss Seitenende der letzte Seite
+- Zahlsummenkopf Überschrift Pro Konto
+- Zahlsummenfuß Summenzeile Pro Konto
 
 Folgende Variablen sind in allen Teilen (Kopf, Fuß und Zeilentyp) verfügbar. Formularbereiche, die nicht separat mit aufgeführt werden, enthalten nur Festtext oder diese Felder!
 
@@ -41,7 +35,7 @@ Folgende Variablen sind in allen Teilen (Kopf, Fuß und Zeilentyp) verfügbar. F
 | Bedienerkurz | Text | 3 | Kurzbezeichnung -“- |
 | Bedienername | Text | 3 | Name -“- |
 
-• 503 Positionszeile
+- 503 Positionszeile
 
 | Bezeichnung | Typ | Nr. | Bedeutung |
 | --- | --- | --- | --- |
@@ -75,7 +69,7 @@ Folgende Variablen sind in allen Teilen (Kopf, Fuß und Zeilentyp) verfügbar. F
 | FIBuVP_AuszKennz | Numerisch | | Auszifferungskennzeichen |
 | FiBuVP_AuszDatum | Text | | Datum der Auszifferung |
 
-• 511 Gruppenkopf
+- 511 Gruppenkopf
 
 | Bezeichnung | Typ | Nr. | Bedeutung |
 | --- | --- | --- | --- |
@@ -97,7 +91,7 @@ Folgende Variablen sind in allen Teilen (Kopf, Fuß und Zeilentyp) verfügbar. F
 | Saldo | Numerisch | | Gesamtsaldo zum Zeitpunkt des Druckes |
 | SaldoSH | Text | | Sollhabenkennzeichen zum Zeitpunkt des Druckes |
 
-• 512 Gruppenende (Summen)
+- 512 Gruppenende (Summen)
 
 | Bezeichnung | Typ | Nr. | Bedeutung |
 | --- | --- | --- | --- |

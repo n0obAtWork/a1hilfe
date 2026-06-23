@@ -16,23 +16,19 @@ Initial werden dazu die Preisdaten in ein Excel exportiert und dann die Preise i
 
 Voraussetzungen:
 
-• Der Steuerparameter ***1145*** ist aktiviert.
-
-• Der Steuerparameter ***508*** ist aktiviert.
-
-• Eine A.eins-Version ab ***9.0.2305.01*** ist installiert.
+- Der Steuerparameter ***1145*** ist aktiviert.
+- Der Steuerparameter ***508*** ist aktiviert.
+- Eine A.eins-Version ab ***9.0.2305.01*** ist installiert.
 
 Das Importieren über die Anwendung ***Preiskalkulation Excel*** geschieht in folgenden Schritten:
 
-• [Preisdatenexport einrichten (F10)](./preisdatenexport_einrichten_f10.md)
-
-• [Excelexport Datei generieren (F8)](./excelexportdatei_generieren_f8.md)
+- [Preisdatenexport einrichten (F10)](./preisdatenexport_einrichten_f10.md)
+- [Excelexport Datei generieren (F8)](./excelexportdatei_generieren_f8.md)
 
 [•](./excelexportdatei_generieren_f8.md) [Datenexportprofil_einrichten](./datenexportprofil_einrichten.md)
 
-• [Exceldatei_bearbeiten](./exceldatei_bearbeiten.md)
-
-• [Neue Preis-Exceldatei in A.eins importieren (F9)](./neue_preis_exceldatei_in_a_eins_importieren_f9.md)
+- [Exceldatei_bearbeiten](./exceldatei_bearbeiten.md)
+- [Neue Preis-Exceldatei in A.eins importieren (F9)](./neue_preis_exceldatei_in_a_eins_importieren_f9.md)
 
 <p class="just-emphasize">Weitere Funktionen in der Preiskalkulation</p>
 
@@ -40,13 +36,10 @@ Preiskalkulationen drucken oder weiterleiten.
 
 Mit dieser Anwendung können Sie die Daten weiterleiten z. B. in folgenden Formaten:
 
-• E-Mail
-
-• PDF
-
-• CSV
-
-• Excel
+- E-Mail
+- PDF
+- CSV
+- Excel
 
 <p class="siehe-auch">Siehe auch:</p>
 

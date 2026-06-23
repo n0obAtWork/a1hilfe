@@ -12,7 +12,7 @@ Folgende Fragen müssen geklärt werden:
 
 \- Wie ist die Primary Key Behandlung der in den Publikationen enthaltenen Publikationsartikel organisiert (z.B. Ident über Ident-Tabelle oder GUID oder sonst wie einzigartig vergebener Schlüssel)?
 
-o Sind Publikationsartikel vorhanden, die der Einzigartigkeit in der Primary Key-Behandlung widersprechen, so muss dies abgestellt werden. Dies kann durch entfernen des Publikationsartikels aus der Publikation erreicht werden oder es muss eine Änderung der Behandlung vorgenommen werden.
+  - Sind Publikationsartikel vorhanden, die der Einzigartigkeit in der Primary Key-Behandlung widersprechen, so muss dies abgestellt werden. Dies kann durch entfernen des Publikationsartikels aus der Publikation erreicht werden oder es muss eine Änderung der Behandlung vorgenommen werden.
 
 Einrichtung der Filialstruktur **[BST]**
 
@@ -26,23 +26,16 @@ Einrichtung Stammdaten
 
 \- Einrichtung sämtlicher Stammdaten und steuernder Elemente überarbeiten. Vollständig zentralisierte Einrichtungen sämtlicher Stammdaten insbesondere z.B. auch
 
-o [Bedienerstamm](../firmenstamm/firmenkonstanten/bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/index.md)
+  - [Bedienerstamm](../firmenstamm/firmenkonstanten/bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/index.md)
+  - [Bediener](../firmenstamm/firmenkonstanten/bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/index.md)(neue Bediener anlegen oder [Bediener clonen](../firmenstamm/firmenkonstanten/bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/bediener_clonen.md))
+  - [Bedienerklassen](../firmenstamm/firmenkonstanten/bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/bedienerstamm_pfleger.md) für neue Filialen einrichten und den Bedienern zuordnen
+  - [Formulare](../vorgangsabwicklung/formularzuordnung/formular_formularzuordnungen_zum_vorgang_unterklasse.md)
+  - [Nummernkreise](../firmenstamm/nummernkreise_fuer_ware_und_fibu/index.md#Einrichtung_von_Nummernkreisen)
+  - [Drucker](../firmenstamm/druckereinrichtung/index.md)
+  - [Inventurgruppen](../abschluesse_inventur/inventur/inventurgruppe.md)
+  - [Vorgangsunterklassen](../zusatzprogramme/formulareinrichtung_und_zuordnung/formular_importe/vorgangsunterklassen_bearbeiten_sf5.md) (insbes. für Barverkauf)
 
-o [Bediener](../firmenstamm/firmenkonstanten/bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/index.md)(neue Bediener anlegen oder [Bediener clonen](../firmenstamm/firmenkonstanten/bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/bediener_clonen.md))
-
-o [Bedienerklassen](../firmenstamm/firmenkonstanten/bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/bedienerstamm_pfleger.md) für neue Filialen einrichten und den Bedienern zuordnen
-
-o [Formulare](../vorgangsabwicklung/formularzuordnung/formular_formularzuordnungen_zum_vorgang_unterklasse.md)
-
-o [Nummernkreise](../firmenstamm/nummernkreise_fuer_ware_und_fibu/index.md#Einrichtung_von_Nummernkreisen)
-
-o [Drucker](../firmenstamm/druckereinrichtung/index.md)
-
-o [Inventurgruppen](../abschluesse_inventur/inventur/inventurgruppe.md)
-
-o [Vorgangsunterklassen](../zusatzprogramme/formulareinrichtung_und_zuordnung/formular_importe/vorgangsunterklassen_bearbeiten_sf5.md) (insbes. für Barverkauf)
-
-vollständig und Betriebsstätten-spezifisch vornehmen.
+    vollständig und Betriebsstätten-spezifisch vornehmen.
 
 Artikeleinrichtung
 
@@ -78,15 +71,11 @@ Vorarbeiten Zentrale
 
 \- Filialsystem alt abschalten:
 
-o Ausführen der SQL-Skripte:
-
-§ AMIC_FILIA_NULLSETZER
-
-§ AMIC_FILIA_ALT_DEINSTALLIEREN
-
-§ Ausführen von 'call AMIC_FILIA_CLEAR' unter OSQL
-
-\- Ggf. Fehlerprotokoll löschen
+  - Ausführen der SQL-Skripte:
+- AMIC_FILIA_NULLSETZER
+- AMIC_FILIA_ALT_DEINSTALLIEREN
+- Ausführen von 'call AMIC_FILIA_CLEAR' unter OSQL
+  - Ggf. Fehlerprotokoll löschen
 
 Update
 

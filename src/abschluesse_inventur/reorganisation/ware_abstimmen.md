@@ -25,13 +25,10 @@ Die Datenaufbereitung (Einlesen) mit WABST nimmt zurzeit noch relativ viel Zeit 
 
 **Was tut WABST?** Es wertet folgende Datenbestände aus:
 
-• **WARENBELEGE**: Summensätze der Warenvorgänge
-
-• **WARENPOSITION**: aus einzelnen Warenbewegungen errechnete Summen
-
-• **FIBUBELEGE**: Summen aus allen Belegen in der Fibu, die aus der Ware stammen
-
-• **ARTIKELSUMMEN**: Die Artikelsummensätze aus der Periodenstatistik = fakturierte Summe
+- **WARENBELEGE**: Summensätze der Warenvorgänge
+- **WARENPOSITION**: aus einzelnen Warenbewegungen errechnete Summen
+- **FIBUBELEGE**: Summen aus allen Belegen in der Fibu, die aus der Ware stammen
+- **ARTIKELSUMMEN**: Die Artikelsummensätze aus der Periodenstatistik = fakturierte Summe
 
 sinnvoll ist der Vergleich:
 

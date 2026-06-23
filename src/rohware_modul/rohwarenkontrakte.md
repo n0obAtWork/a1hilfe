@@ -16,14 +16,10 @@ Zusätzlich zu Menge und Ausgangspreis für die finale Rohwarenabrechnung könne
 
 Ebenfalls können evtl. abzurechnende Nebenpreise
 
-• Ausgangspreis für Abschlagabrechnung
+- Ausgangspreis für Abschlagabrechnung
+- Ausgangspreis für Folgeabschlagabrechnung
+- Mindestpreis-Vereinbarung
+- Weltmarktpreisfestsetzung
+- %-Satz zur Abschlag-/Folgeabschlagermittlung
 
-• Ausgangspreis für Folgeabschlagabrechnung
-
-• Mindestpreis-Vereinbarung
-
-• Weltmarktpreisfestsetzung
-
-• %-Satz zur Abschlag-/Folgeabschlagermittlung
-
-festgelegt werden, sofern diese für Rohwareabrechnungen abweichend von im Abrechnungsschema festgelegten Konditionen vereinbart sind.
+  festgelegt werden, sofern diese für Rohwareabrechnungen abweichend von im Abrechnungsschema festgelegten Konditionen vereinbart sind.

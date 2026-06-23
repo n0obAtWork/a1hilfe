@@ -16,11 +16,9 @@ Ziele der DSFinV-K
 
 Ziel der Standardisierung ist die Definition einer Struktur für Daten aus Kassensystemen, für die ab dem 01.01.2020 die Nutzung der gesetzlich geforderten einheitlichen digitalen Schnittstelle (§ 146a Abs. 1 S. 4 AO) gilt. Durch die Standardisierung sollen folgende Ziele abgedeckt werden:
 
-• Einheitliche Datenbereitstellung für die Außenprüfung sowie für Kassen-Nachschauen durch definierte Kasseneinzelbewegungen, Stammdaten und Kassenabschlüsse, so dass eine progressive und retrograde Prüfbarkeit zwischen den Grundaufzeichnungen und der Erfassung im Hauptbuch (Finanzbuchhaltung) gewährleistet ist.
-
-• Ermöglicht die Auslagerung aller im jeweiligen System erfassten Daten in ein Archivsystem.
-
-• Ermöglicht eine vereinfachte Überprüfung der in die Finanzbuchhaltung übertragenen strukturierten Kassendaten.
+- Einheitliche Datenbereitstellung für die Außenprüfung sowie für Kassen-Nachschauen durch definierte Kasseneinzelbewegungen, Stammdaten und Kassenabschlüsse, so dass eine progressive und retrograde Prüfbarkeit zwischen den Grundaufzeichnungen und der Erfassung im Hauptbuch (Finanzbuchhaltung) gewährleistet ist.
+- Ermöglicht die Auslagerung aller im jeweiligen System erfassten Daten in ein Archivsystem.
+- Ermöglicht eine vereinfachte Überprüfung der in die Finanzbuchhaltung übertragenen strukturierten Kassendaten.
 
 Hierfür liefert die DSFinV-K eine fachliche und technische Beschreibung. Die DSFinV-K entspricht inhaltlich der „DFKA-Taxonomie Kassendaten“. Sofern der Standard „DFKA-Taxonomie Kassendaten“ (Datensatzbeschreibung im json-Format, der u. a. vom Deutschen Fachverband für Kassen- und Abrechnungssystem-technik e.V. entwickelt wurde) zur Übermittlung der Kassendaten an die Finanzbuchhaltung genutzt wird, ist eine Konvertierung der Daten für Zwecke der Außenprüfung oder der Kassen-Nachschau zwingend erforderlich (vom originären json-Format in csv-Dateien mit beschreibender ***index.xml***; vgl. Anhang **G**).
 

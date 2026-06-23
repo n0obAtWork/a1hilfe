@@ -10,18 +10,12 @@ Die Daten für eine Dividendenausschüttung werden in der Liste „Dividenden ve
 
 In dieser Maske können durch Einrichterparameter folgende Einstellungen vorgenommen werden:
 
-• **Verhalten bei fehlender Verbindung zum Wirtschaftsjahr**
-
-o FEHLER(Standard) – Es muss ein Wirtschaftsjahr in A.eins geben, das den Start- und Enddaten der Dividende entspricht.
-
-o WARNUNG – Falls kein Wirtschaftsjahr gefunden wird, das den Daten der Dividende entspricht, dann erfolgt eine Warnmeldung.
-
-o IGNORIEREN – Eine fehlende Verbindung zum Wirtschaftsjahr wird ignoriert.
-
-• **Hinweis bei Überschreitung des Zahltags**
-
-o JA – Es erfolgt eine Meldung, wenn das Zahldatum überschritten wurde und keine Zahlung vorgenommen wurde.
-
-o NEIN – Es erfolgt keine Meldung.
+- **Verhalten bei fehlender Verbindung zum Wirtschaftsjahr**
+  - FEHLER(Standard) – Es muss ein Wirtschaftsjahr in A.eins geben, das den Start- und Enddaten der Dividende entspricht.
+  - WARNUNG – Falls kein Wirtschaftsjahr gefunden wird, das den Daten der Dividende entspricht, dann erfolgt eine Warnmeldung.
+  - IGNORIEREN – Eine fehlende Verbindung zum Wirtschaftsjahr wird ignoriert.
+- **Hinweis bei Überschreitung des Zahltags**
+  - JA – Es erfolgt eine Meldung, wenn das Zahldatum überschritten wurde und keine Zahlung vorgenommen wurde.
+  - NEIN – Es erfolgt keine Meldung.
 
 Start- und Enddatum werden durch Anwahl eines Wirtschaftsjahres automatisch belegt. Der Text neben der Wirtschaftsjahrnummer wird für die Steuerbescheinigung für diese Dividende verwendet[siehe Steuerbescheinigung/Zweitsteuerbescheinigung]. Das Zahldatum muss hinter dem Beschlussdatum liegen. Abgeschlossene Dividenden können nicht mehr geändert oder gelöscht werden. Nach Abschluss einer Dividende gilt sie als abgeschlossen. Wenn alle Buchungen in der Finanzbuchhaltung für diese Dividende erstellt wurden, dann gilt sie als gebucht [siehe Dividenden abrechnen].

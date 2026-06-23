@@ -10,17 +10,12 @@ Die Freischaltung dieser Spezialfunktion unterliegt dem [Steuerparameter „723 
 
 Mit dieser Spezialfunktion lassen sich ausgewählte Aufträge in denen Kunden mehrfach gleiche Artikel mit unterschiedlichen Mengen erstellt haben (nach Artikelnummern) zusammenfassen. Hierbei werden folgende Kriterien berücksichtigt:
 
-• Kunde
-
-• Artikel
-
-• Lager und Lagerplatz
-
-• Versandadresse
-
-• Rechnungsempfänger
-
-• Plan-/Lieferdatum
+- Kunde
+- Artikel
+- Lager und Lagerplatz
+- Versandadresse
+- Rechnungsempfänger
+- Plan-/Lieferdatum
 
 So werden Aufträge, in denen der gleiche Kunde den gleichen Artikel bestellt, aber beispielsweise unterschiedliche Läger verwendet zusammengefasst. Aufträge in denen der gleiche Kunde den gleichen Artikel unter Angabe verschiedener Plan-/Lieferdaten aufgibt werden zusammengefasst und zum spätesten Datum zur Lieferung geplant.
 
@@ -36,11 +31,9 @@ Das Abgangslager legt fest, aus welchem Lager die bestellten Artikel kommen soll
 
 Die Funktionen in der Übersicht:
 
-• ***Starten*** **F9** startet den Vorgang der Zusammenführung der ausgewählten Vorgänge
-
-• ***Einrichtungsparameter*** (folg)
-
-• ***Dieses Menü*** – wird unter diesem [Link](../../allgemeine_programmfunktionen/generelle_programmbedienung/dieses_menue/index.md) genauer beschrieben
+- ***Starten*** **F9** startet den Vorgang der Zusammenführung der ausgewählten Vorgänge
+- ***Einrichtungsparameter*** (folg)
+- ***Dieses Menü*** – wird unter diesem [Link](../../allgemeine_programmfunktionen/generelle_programmbedienung/dieses_menue/index.md) genauer beschrieben
 
 Auf dem Reiter „Aufträge“ ist eine Übersicht der ausgewählten Aufträge zu sehen und gliedert sich wie folgt:
 

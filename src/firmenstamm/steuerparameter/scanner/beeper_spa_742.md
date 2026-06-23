@@ -4,10 +4,7 @@
 
 Der Steuerparameter steuert, ob eine Scanmelodie bei jedem Scanvorgang ertönen soll.
 
-• Datalogic für Datalogic Scanner ohne Soundkarte
-
-• Andere für alle anderen Scanner ohne Soundkarte
-
-• Aus der Beeper wird ausgestellt
-
-• Wave für alle Scanner mit einer Soundkarte
+- Datalogic für Datalogic Scanner ohne Soundkarte
+- Andere für alle anderen Scanner ohne Soundkarte
+- Aus der Beeper wird ausgestellt
+- Wave für alle Scanner mit einer Soundkarte

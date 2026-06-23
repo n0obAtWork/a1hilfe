@@ -63,11 +63,9 @@ XXXX - *Individuelle vierstellige Kombination* aus Ziffern/Buchstaben für jede
 
 **02AB12-00**
 
-• „02“ = zweite Generation
-
-• „AB12“ = individuelle Mittelkennung
-
-• „00“ = Hauptzulassung
+- „02“ = zweite Generation
+- „AB12“ = individuelle Mittelkennung
+- „00“ = Hauptzulassung
 
 <p class="siehe-auch">Siehe auch:</p>
 

@@ -38,17 +38,12 @@ Buchungsadministratoren werden für eine spezielle Periode angelegt. Das bedeute
 
 Folgende Funktionalitäten stehen den Buchungsadministratoren zur Verfügung:
 
-• Buchungsadministratoren können in die gesperrte Periode buchen, für die sie angelegt wurden. Der Status der Periode bleibt dabei auf Buchungsschluss (gesperrt).
-
-• Für Buchungsadministratoren verhält sich die gesperrte Periode wie eine geöffnete Periode:
-
-o Das Feld „Periode“ kann mit der gesperrten Periode vorbelegt werden.
-
-o Die gesperrte Periode kann für eine Buchung ausgewählt werden.
-
-o Ist an dem Feld eine **F3** - Auswahl angebunden, kann der Buchungsadministrator die gesperrte Periode via **F3** - Taste selektieren.
-
-o Der Buchungsadministrator bekommt weder beim Auswählen der Periode noch beim Buchen eine Meldung, dass es sich um eine gesperrte Periode handelt.
+- Buchungsadministratoren können in die gesperrte Periode buchen, für die sie angelegt wurden. Der Status der Periode bleibt dabei auf Buchungsschluss (gesperrt).
+- Für Buchungsadministratoren verhält sich die gesperrte Periode wie eine geöffnete Periode:
+  - Das Feld „Periode“ kann mit der gesperrten Periode vorbelegt werden.
+  - Die gesperrte Periode kann für eine Buchung ausgewählt werden.
+  - Ist an dem Feld eine **F3** - Auswahl angebunden, kann der Buchungsadministrator die gesperrte Periode via **F3** - Taste selektieren.
+  - Der Buchungsadministrator bekommt weder beim Auswählen der Periode noch beim Buchen eine Meldung, dass es sich um eine gesperrte Periode handelt.
 
 **Einschränkungen:**
 

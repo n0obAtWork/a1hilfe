@@ -104,16 +104,10 @@ Bei diesem Test erfolgt ein automatischer Nachtrag des Kontostammeintrages und d
 
 Steht der Steuerparameter DTA-Ausgabeformat auf „SEPA“, dann werden noch vier weitere Tests durchgeführt
 
-• Test der im Kundenstamm verwendeten Banken, ob der BIC eingetragen ist.  
-    
-
-• Test der Kundenbanken, ob die IBAN eingetragen ist. Für Kundenbanken, deren Bank sich in Deutschland oder Österreich befindet wird getestet, ob die Eingetragenen IBAN gültig ist. Dazu wird ein Prüfziffernverfahren angewandt, das auch bei der Stammdatenerfassung der IBAN eingesetzt wird.  
-    
-
-• Test der Hausbanken, ob die IBAN eingetragen worden ist. Die IBAN wird - wie auch bei den Kundenbanken –bei eingetragenen IBANs auf Korrektheit nach dem Prüfziffernverfahren geprüft.  
-    
-
-• Test, ob die Gläubiger-ID, die für das [SEPA-Lastschriftverfahren](../zahlungsverkehr/sepa/sepa_kennzeichen_im_mandantenstamm.md) benötigt wird, im Mandantenstamm eingetragen ist.
+- Test der im Kundenstamm verwendeten Banken, ob der BIC eingetragen ist.  
+- Test der Kundenbanken, ob die IBAN eingetragen ist. Für Kundenbanken, deren Bank sich in Deutschland oder Österreich befindet wird getestet, ob die Eingetragenen IBAN gültig ist. Dazu wird ein Prüfziffernverfahren angewandt, das auch bei der Stammdatenerfassung der IBAN eingesetzt wird.  
+- Test der Hausbanken, ob die IBAN eingetragen worden ist. Die IBAN wird - wie auch bei den Kundenbanken –bei eingetragenen IBANs auf Korrektheit nach dem Prüfziffernverfahren geprüft.  
+- Test, ob die Gläubiger-ID, die für das [SEPA-Lastschriftverfahren](../zahlungsverkehr/sepa/sepa_kennzeichen_im_mandantenstamm.md) benötigt wird, im Mandantenstamm eingetragen ist.
 
 **SEPA-Lastschrift Mandatszuordnung**
 

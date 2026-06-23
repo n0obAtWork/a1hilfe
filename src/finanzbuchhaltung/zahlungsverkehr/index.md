@@ -6,17 +6,14 @@ Der Zahlungsverkehr im Ein- und Ausgang basiert auf verschiedenen Parametern, di
 
 Zum Erstellen von Zahlungen über den automatischen Zahlungsverkehr sind folgende Schritte notwendig:
 
-• Zahlungsvorschläge erstellen über Automatik, OP-Verwaltung oder Zahlmappe
-
-• Zahlungsvorschläge bearbeiten
-
-• Zahlungen bearbeiten
+- Zahlungsvorschläge erstellen über Automatik, OP-Verwaltung oder Zahlmappe
+- Zahlungsvorschläge bearbeiten
+- Zahlungen bearbeiten
 
 Oder
 
-• Zahlungen erstellen
-
-• Zahlungen bearbeiten
+- Zahlungen erstellen
+- Zahlungen bearbeiten
 
 <p class="siehe-auch">Siehe auch:</p>
 

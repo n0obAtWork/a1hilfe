@@ -69,15 +69,11 @@ Die zum Druck mit openTRANS verwendeten Formulare müssen archiviert werden kön
 
 In allen Zu- und Abschlägen muss ein eigener Zu-Abschlagstyp gepflegt werden. Anderenfalls wird dieser im openTRANS nicht ausgewiesen.
 
-• Bezugsgrößenabhängige Zu-/Abschläge [ZABZ]
-
-• Generelle Zu-/Abschläge [ZAGE]
-
-• Versandartabhängige Zu-/Abschläge [ZAVS]
-
-• Zahlungsartabhängige Zu-/Abschläge [ZAZA]
-
-• Zeitabhängige Zu-/Abschläge [ZAZT]
+- Bezugsgrößenabhängige Zu-/Abschläge [ZABZ]
+- Generelle Zu-/Abschläge [ZAGE]
+- Versandartabhängige Zu-/Abschläge [ZAVS]
+- Zahlungsartabhängige Zu-/Abschläge [ZAZA]
+- Zeitabhängige Zu-/Abschläge [ZAZT]
 
 <p class="just-emphasize">Rabatte</p>
 

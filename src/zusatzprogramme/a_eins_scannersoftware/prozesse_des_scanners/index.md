@@ -6,11 +6,9 @@ Bei allen beschriebenen Funktionen muss eine aktive Verbindung zur Zentral-Daten
 
 Es gibt drei verschiedene Möglichkeiten wie ein Scanvorgang von der Software behandelt wird
 
-• Es besteht die Möglichkeit die gescannten Daten in die Zwischenablage zu kopieren. Die AeinsCE Software liest die Daten der Zwischenablage aus.
-
-• Der Scanner hat die Möglichkeit ein Scan-Suffix anzugeben. Hier ist bitte als Suffix das TAB Zeichen anzugeben.
-
-• Der Scan-Code muss per Hand abgesendet werden, hier stehen einmal die TAB Taste und die F2 Taste zur Verfügung.
+- Es besteht die Möglichkeit die gescannten Daten in die Zwischenablage zu kopieren. Die AeinsCE Software liest die Daten der Zwischenablage aus.
+- Der Scanner hat die Möglichkeit ein Scan-Suffix anzugeben. Hier ist bitte als Suffix das TAB Zeichen anzugeben.
+- Der Scan-Code muss per Hand abgesendet werden, hier stehen einmal die TAB Taste und die F2 Taste zur Verfügung.
 
 <p class="just-emphasize">Variante Scanner Daten Übergabe</p>
 

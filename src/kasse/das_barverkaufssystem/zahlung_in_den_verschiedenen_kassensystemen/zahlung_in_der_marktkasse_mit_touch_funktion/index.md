@@ -4,17 +4,12 @@
 
 Sie wollen den offenen Beleg bezahlen.
 
-• Drücken Sie zunächst eine der Bezahlfunktionen wie „Bar“, „Gutschein“, „EC-Karte“ o.ä.
-
-• Geben Sie im zweiten Schritt ggf. Zusatzinformationen ein, die für die Abwicklung der Bezahlung notwendig sind.
-
-• Wählen Sie im Fall von Fremdwährung die Zahlwährung
-
-• Das Feld für den Zahlbetrag wird mit dem offenen Betrag in der aktuellen Zahlwährung vorbelegt.
-
-• Geben Sie dann schließlich den Betrag des Zahlungsmittels ein
-
-• Schließen Sie die Eingabe mit „ENTER“ ab.
+- Drücken Sie zunächst eine der Bezahlfunktionen wie „Bar“, „Gutschein“, „EC-Karte“ o.ä.
+- Geben Sie im zweiten Schritt ggf. Zusatzinformationen ein, die für die Abwicklung der Bezahlung notwendig sind.
+- Wählen Sie im Fall von Fremdwährung die Zahlwährung
+- Das Feld für den Zahlbetrag wird mit dem offenen Betrag in der aktuellen Zahlwährung vorbelegt.
+- Geben Sie dann schließlich den Betrag des Zahlungsmittels ein
+- Schließen Sie die Eingabe mit „ENTER“ ab.
 
 Es wird kurz die Zahlungsmaske geöffnet und wickelt die Zahlung ab.
 

@@ -8,13 +8,10 @@ Direktsprung **[DSGVO]** Variante DSGVO-Objekte.
 
 In A.eins existieren verschiedene Anschriftenarten für die jeweils Objekte definiert wurden. Hierzu gehören Kundenanschriften, Lageranschriften, Filialanschriften und viele mehr. Diese Objekte fassen alle Tabellen zusammen, welche die DSGVO betreffen. Zu dem Kunden/Lieferanten-Objekt gehören beispielsweise folgende Tabellen:
 
-• Kundenstamm
-
-• Anschriftstamm
-
-• Kundenmatchcode
-
-• Kundenaddon
+- Kundenstamm
+- Anschriftstamm
+- Kundenmatchcode
+- Kundenaddon
 
 AMIC liefert bereits vorgegebene Definitionen solcher Objekte aus. Bearbeiten Sie diese mit der Anwendung „DSGVO“ in der Variante „DSGVO-Objekte“.
 

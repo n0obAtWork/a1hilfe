@@ -54,19 +54,13 @@ Folgende Auswahlmöglichkeiten stehen zur Verfügung:
 
 \- Die automatische Bewertung kann man beziehen:
 
-o auf die gesamte Inventur (unabhängig vom Auswahlbereich)
-
-o auf eine ganze Inventurgruppe (entsprechend der ersten markierten Position, unabhängig vom Auswahlbereich)
-
-o nur auf die markierten Positionen
-
-\- Anwendung:
-
-o Automatische Bewertung nur auf unbewertete Positionen anwenden
-
-o Nur auf bereits automatisch bewertete Positionen erneut anwenden
-
-o Unabhängig von Bewertungsart und Bewertungskennzeichen anwenden
+  - auf die gesamte Inventur (unabhängig vom Auswahlbereich)
+  - auf eine ganze Inventurgruppe (entsprechend der ersten markierten Position, unabhängig vom Auswahlbereich)
+  - nur auf die markierten Positionen
+    - Anwendung:
+  - Automatische Bewertung nur auf unbewertete Positionen anwenden
+  - Nur auf bereits automatisch bewertete Positionen erneut anwenden
+  - Unabhängig von Bewertungsart und Bewertungskennzeichen anwenden
 
 Bedenken Sie, dass je nach Breite der Auswahl die Funktionen langwierig sein können.
 

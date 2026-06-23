@@ -18,17 +18,12 @@ Einrichtung eines SMTP-Servers über die Microsoft Exchange-Software und entspre
 
 Voraussetzungen:
 
-• Kerio Connect Packet
-
-• Eine Domain
-
-• mx-record für den entsprechenden Server
-
-• 1 User (für reinen Belegmailversand)
-
-• 80GB freien Speicher (für langfristige Verwendung)
-
-• Eine entsprechende Installation und Konfiguration der Kerio-Software und Hardware (z.B. Router)
+- Kerio Connect Packet
+- Eine Domain
+- mx-record für den entsprechenden Server
+- 1 User (für reinen Belegmailversand)
+- 80GB freien Speicher (für langfristige Verwendung)
+- Eine entsprechende Installation und Konfiguration der Kerio-Software und Hardware (z.B. Router)
 
 Die Erledigung von Massenversand kann mit dieser Art der Einrichtung erreicht werden.
 

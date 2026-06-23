@@ -6,15 +6,11 @@ Diese Maske steht nur für kontrakte mit mehreren Zeiträumen zur Verfügung.
 
 Im oberen Bereich der Maske werden allgemeine Angaben dargestellt:
 
-• Kontraktklasse
-
-• Kontraktgruppe
-
-• Hauptkunde
-
-• Kontraktnummer
-
-• Artikelnummer
+- Kontraktklasse
+- Kontraktgruppe
+- Hauptkunde
+- Kontraktnummer
+- Artikelnummer
 
 Die Datentabelle weist für den Artikel die Mengen und die aktuellen Restmengen aller Kontrakt-Zeiträume des Artikels aus. Bei Einzelmengen-Kontrakten sind die Sollmengen in dieser Tabelle änderbar.
 

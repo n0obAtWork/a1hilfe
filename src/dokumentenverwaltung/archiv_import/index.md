@@ -4,13 +4,10 @@
 
 Zusätzlich zur internen Belegerzeugung durch den Druck von Warenwirtschaftsvorgängen und –auswertungen gibt es immer wieder verschiedenste Dokumente, die ins A.eins-Formulararchiv integriert sein wollen:
 
-• Kunden-Korrespondenz
-
-• Email
-
-• Eingangslieferscheine – und Rechnungen
-
-• und weitere mehr
+- Kunden-Korrespondenz
+- Email
+- Eingangslieferscheine – und Rechnungen
+- und weitere mehr
 
 Sie profitieren dann von den vielfältigen Recherche-Möglichkeiten und stehen immer zur Ansicht und weiteren Verarbeitung bereit.
 

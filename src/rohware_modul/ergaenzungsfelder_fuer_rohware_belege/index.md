@@ -8,21 +8,16 @@ Zusätzlich zu den in der Rohware-Bearbeitung erfassbaren Standardwerten gibt es
 
 Dabei handelt es sich um:
 
-• bis zu 3 für eine Rohwarengruppe definierte Textfelder
+- bis zu 3 für eine Rohwarengruppe definierte Textfelder
+- bis zu 3 für ein Abrechnungsschema definierte Textfelder
+- bis zu 3 für eine Rohwarengruppe definierte ganzzahlige Felder, ggf. mit ITEM-Box-Unterstützung und/oder Validierung per SQL-Text
+- bis zu 3 für ein Abrechnungsschema definierte ganzzahlige Felder, ggf. mit ITEM-Box-Unterstützung und/oder Validierung per SQL-Text
 
-• bis zu 3 für ein Abrechnungsschema definierte Textfelder
+  Werte für derartig definierte Felder können
 
-• bis zu 3 für eine Rohwarengruppe definierte ganzzahlige Felder, ggf. mit ITEM-Box-Unterstützung und/oder Validierung per SQL-Text
-
-• bis zu 3 für ein Abrechnungsschema definierte ganzzahlige Felder, ggf. mit ITEM-Box-Unterstützung und/oder Validierung per SQL-Text
-
-Werte für derartig definierte Felder können
-
-• per Rohware-Bearbeitungsmaske auf jeder Stufe (Lieferung, Abschlag, Folgeabschlag, Finale) erfasst und korrigiert werden
-
-• Aus Übergabe-Dateien ( Waagenschnittstelle) versorgt werden
-
-• Auf Rohware-Formularen gedruckt werden
+- per Rohware-Bearbeitungsmaske auf jeder Stufe (Lieferung, Abschlag, Folgeabschlag, Finale) erfasst und korrigiert werden
+- Aus Übergabe-Dateien ( Waagenschnittstelle) versorgt werden
+- Auf Rohware-Formularen gedruckt werden
 
 <p class="siehe-auch">Siehe auch:</p>
 

@@ -14,87 +14,45 @@ Am Ende eines Wirtschaftsjahres eines Unternehmens werden Dividenden an die Akti
 
 Folgende Ansichten stehen dem Benutzer zur Verfügung:
 
-• Aktionärsübersicht (mit folgenden speziellen Funktionen)
-
-o (Aktionär) ***Neu*** [siehe Aktionäre verwalten]
-
-o (Aktionär) ***Ändern*** [siehe Aktionäre verwalten]
-
-o (Aktionär) ***Ansehen*** [siehe Aktionäre verwalten]
-
-o (Aktionär) ***Löschen*** [siehe Aktionäre verwalten]
-
-o ***Historische Tabelle*** [siehe Aktientransaktionen / Die Historische Tabelle]
-
-o ***Anteile***
-
-o ***Kundenbescheinigung***
-
-o ***Unternehmen verwalten*** [siehe Die Unternehmensdaten einrichten/verwalten]  
-    
-
-• Gesamtliste (mit folgenden speziellen Funktionen)
-
-o (Aktionär) ***Neu*** [siehe Aktionäre verwalten]
-
-o (Aktionär) ***Ändern*** [siehe Aktionäre verwalten]
-
-o (Aktionär) ***Ansehen*** [siehe Aktionäre verwalten]
-
-o (Aktionär) ***Löschen*** [siehe Aktionäre verwalten]
-
-o ***Historische Tabelle*** [siehe Aktientransaktionen / Die Historische Tabelle]
-
-o ***Anteile***
-
-o ***Kundenbescheinigung***
-
-o ***Unternehmen verwalten*** [siehe Die Unternehmensdaten einrichten/verwalten]  
-    
-
-• Dividenden verwalten (mit folgenden speziellen Funktionen)
-
-o (Dividende) ***Neu*** [siehe Dividenden verwalten]
-
-o (Dividende) ***Ändern*** [siehe Dividenden verwalten]
-
-o (Dividende) ***Ansehen*** [siehe Dividenden verwalten]
-
-o (Dividende) ***Löschen*** [siehe Dividenden verwalten]
-
-o ***Unternehmen verwalten*** [siehe Die Unternehmensdaten einrichten/verwalten]  
-    
-
-• Aktionärsdividende (mit folgenden speziellen Funktionen)
-
-o ***Dividende abschließen*** [siehe Dividenden abrechnen]
-
-o ***Steuerbescheinigung*** [siehe Steuerbescheinigung/Zweitsteuerbescheinigung]
-
-o **Zweitsteuerbescheinigung** [siehe Steuerbescheinigung/Zweitsteuerbescheinigung]
-
-o (Aktionär) ***Neu*** [siehe Aktionäre verwalten]
-
-o (Aktionär) ***Ändern*** [siehe Aktionäre verwalten]
-
-o (Aktionär) ***Ansehen*** [siehe Aktionäre verwalten]
-
-o (Aktionär) ***Löschen*** [siehe Aktionäre verwalten]
-
-o ***Historische Tabelle*** [siehe Aktientransaktionen / Die Historische Tabelle]
-
-o ***Anteile***
-
-o ***Kundenbescheinigung***
-
-o ***Unternehmen verwalten*** [siehe Die Unternehmensdaten einrichten/verwalten]  
-    
-
-• Gelöschte Aktionäre (mit folgenden speziellen Funktionen)
-
-o (Aktionär) ***Aktivieren*** [siehe Aktionäre verwalten]
-
-o ***Unternehmen verwalten*** [siehe Die Unternehmensdaten einrichten/verwalten]
+- Aktionärsübersicht (mit folgenden speziellen Funktionen)
+  - (Aktionär) ***Neu*** [siehe Aktionäre verwalten]
+  - (Aktionär) ***Ändern*** [siehe Aktionäre verwalten]
+  - (Aktionär) ***Ansehen*** [siehe Aktionäre verwalten]
+  - (Aktionär) ***Löschen*** [siehe Aktionäre verwalten]
+  - ***Historische Tabelle*** [siehe Aktientransaktionen / Die Historische Tabelle]
+  - ***Anteile***
+  - ***Kundenbescheinigung***
+  - ***Unternehmen verwalten*** [siehe Die Unternehmensdaten einrichten/verwalten]  
+- Gesamtliste (mit folgenden speziellen Funktionen)
+  - (Aktionär) ***Neu*** [siehe Aktionäre verwalten]
+  - (Aktionär) ***Ändern*** [siehe Aktionäre verwalten]
+  - (Aktionär) ***Ansehen*** [siehe Aktionäre verwalten]
+  - (Aktionär) ***Löschen*** [siehe Aktionäre verwalten]
+  - ***Historische Tabelle*** [siehe Aktientransaktionen / Die Historische Tabelle]
+  - ***Anteile***
+  - ***Kundenbescheinigung***
+  - ***Unternehmen verwalten*** [siehe Die Unternehmensdaten einrichten/verwalten]  
+- Dividenden verwalten (mit folgenden speziellen Funktionen)
+  - (Dividende) ***Neu*** [siehe Dividenden verwalten]
+  - (Dividende) ***Ändern*** [siehe Dividenden verwalten]
+  - (Dividende) ***Ansehen*** [siehe Dividenden verwalten]
+  - (Dividende) ***Löschen*** [siehe Dividenden verwalten]
+  - ***Unternehmen verwalten*** [siehe Die Unternehmensdaten einrichten/verwalten]  
+- Aktionärsdividende (mit folgenden speziellen Funktionen)
+  - ***Dividende abschließen*** [siehe Dividenden abrechnen]
+  - ***Steuerbescheinigung*** [siehe Steuerbescheinigung/Zweitsteuerbescheinigung]
+  - **Zweitsteuerbescheinigung** [siehe Steuerbescheinigung/Zweitsteuerbescheinigung]
+  - (Aktionär) ***Neu*** [siehe Aktionäre verwalten]
+  - (Aktionär) ***Ändern*** [siehe Aktionäre verwalten]
+  - (Aktionär) ***Ansehen*** [siehe Aktionäre verwalten]
+  - (Aktionär) ***Löschen*** [siehe Aktionäre verwalten]
+  - ***Historische Tabelle*** [siehe Aktientransaktionen / Die Historische Tabelle]
+  - ***Anteile***
+  - ***Kundenbescheinigung***
+  - ***Unternehmen verwalten*** [siehe Die Unternehmensdaten einrichten/verwalten]  
+- Gelöschte Aktionäre (mit folgenden speziellen Funktionen)
+  - (Aktionär) ***Aktivieren*** [siehe Aktionäre verwalten]
+  - ***Unternehmen verwalten*** [siehe Die Unternehmensdaten einrichten/verwalten]
 
 Des Weiteren stehen dem Anwender natürlich die gewohnten Standardfunktionen zur Verfügung wie zum Beispiel ***Druck/Kurzliste***, ***Word/Serienbrief*** oder ***Excel Export (Ole)***.
 

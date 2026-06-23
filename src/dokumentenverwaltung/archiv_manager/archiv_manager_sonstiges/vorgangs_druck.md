@@ -22,10 +22,8 @@ Anzumerken ist das sowohl der PDF- als auch der TIFF-Druck eine umfassende inter
 
 einstellen, im welchen Format der Vorgang beim Windows-Druck abgelegt werden soll.
 
-• PDF: Hiermit lässt sich eine gute Detail-Genauigkeit erreichen. Bilder / Logos sind integriert.
-
-• ASCII: Platzsparende Methode, gerade bei ASCII-Druck selbst, sicherlich die geeignete Wahl.
-
-• TIFF : Ein weiteres (neben PDF) binäres Format
+- PDF: Hiermit lässt sich eine gute Detail-Genauigkeit erreichen. Bilder / Logos sind integriert.
+- ASCII: Platzsparende Methode, gerade bei ASCII-Druck selbst, sicherlich die geeignete Wahl.
+- TIFF : Ein weiteres (neben PDF) binäres Format
 
 Beim Vorgangsdruck auf ASCII-Druckern lässt sich die Archivierung (vorerst) nur per ASCII-Methode durchführen.

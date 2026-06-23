@@ -16,9 +16,8 @@ Wenn Transaktionen im Journal manipuliert werden, ist die Kette der Signaturen n
 
 **Voraussetzungen:**
 
-• Der neue TSE-Stick liegt vor.
-
-• Die Lizenzdatei liegt vor.
+- Der neue TSE-Stick liegt vor.
+- Die Lizenzdatei liegt vor.
 
 Tipp!
 
@@ -32,19 +31,13 @@ Voraussetzung für die Installation über das Netzwerk ist, dass der TSE-Stick v
 
 Der Tausch besteht aus den folgenden Schritten:
 
-è Schritt 1 [Kassenabschluss durchführen](./tse_austausch_schritte_1_bis_4.md).
-
-è Schritt 2 [Daten sichern per Export](./tse_austausch_schritte_1_bis_4.md#KassenSichV_sfs2B)
-
-è Schritt 3 [Neue A.eins Lizenz (ahoi2.xml) einspielen](./tse_austausch_schritte_1_bis_4.md#KassenSichV_sfs3B)
-
-è Schritt 4 [TSE-Sticks tauschen und Kassenarbeitsplatz A.eins® starten](./tse_austausch_schritte_1_bis_4.md#KassenSichV_sfs4B)
-
-è Schritt 5 [TSE aktivieren](./tse_austausch_schritt_5_7.md).
-
-è Schritt 6 [TSE der Kasse zuweisen](./tse_austausch_schritt_5_7.md#KassenSichV_sfs6B).
-
-è Schritt 7 [Kasse eröffnen](./tse_austausch_schritt_5_7.md#KassenSichV_sfs7B).
+- Schritt 1 [Kassenabschluss durchführen](./tse_austausch_schritte_1_bis_4.md).
+- Schritt 2 [Daten sichern per Export](./tse_austausch_schritte_1_bis_4.md#KassenSichV_sfs2B)
+- Schritt 3 [Neue A.eins Lizenz (ahoi2.xml) einspielen](./tse_austausch_schritte_1_bis_4.md#KassenSichV_sfs3B)
+- Schritt 4 [TSE-Sticks tauschen und Kassenarbeitsplatz A.eins® starten](./tse_austausch_schritte_1_bis_4.md#KassenSichV_sfs4B)
+- Schritt 5 [TSE aktivieren](./tse_austausch_schritt_5_7.md).
+- Schritt 6 [TSE der Kasse zuweisen](./tse_austausch_schritt_5_7.md#KassenSichV_sfs6B).
+- Schritt 7 [Kasse eröffnen](./tse_austausch_schritt_5_7.md#KassenSichV_sfs7B).
 
 <p class="siehe-auch">Siehe auch:</p>
 

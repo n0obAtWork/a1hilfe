@@ -6,11 +6,9 @@ Hauptmenü > Stammdatenpflege > Konstanten Artikelstamm > Bonusgruppen / Bonuskl
 
 A.eins ist auf die Umsetzung von Bonusabrechnungen vorbereitet. Die Stammdaten werden innerhalb der Artikelkonstanten verwaltet. Es handelt sich dabei um:
 
-• Bonusgruppen **[BOG]**, die die Zuordnung der Artikel bestimmen
-
-• Bonusklassen **[BOKL]**, die die Zuordnung der Kunden bestimmen
-
-• Bonussätze **[ARBO]**, die das Abrechnungsverfahren bestimmen
+- Bonusgruppen **[BOG]**, die die Zuordnung der Artikel bestimmen
+- Bonusklassen **[BOKL]**, die die Zuordnung der Kunden bestimmen
+- Bonussätze **[ARBO]**, die das Abrechnungsverfahren bestimmen
 
 Z.Z. sind weitergehende Abwicklungsverfahren nicht implementiert; nachfolgend wird deshalb lediglich das vorgesehen Verfahren beschrieben.
 

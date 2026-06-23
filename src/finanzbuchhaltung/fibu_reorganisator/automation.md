@@ -29,19 +29,13 @@ FIREO=“STAMMDATEN,BEWEGUNGSDATEN,JAHRESWECHSEL BK, …“
 
 Es sind folgende Schlüsselwörter vergeben:
 
-• Stammdaten
-
-• Bewegungsdaten
-
-• Jahreswechsel PK
-
-• Jahreswechsel BK
-
-• Zinssaldo
-
-• Waehrung ( Achtung: Währung nicht mit Umlaut )
-
-• Fragmente
+- Stammdaten
+- Bewegungsdaten
+- Jahreswechsel PK
+- Jahreswechsel BK
+- Zinssaldo
+- Waehrung ( Achtung: Währung nicht mit Umlaut )
+- Fragmente
 
 Diese Schlüsselwörter können beliebig kombiniert werden. So würde die Kombination FIREO=“Bewegungsdaten,Waehrung“ den „Test Bewegungsdaten“ und den „Test Währung“ durchführen.
 

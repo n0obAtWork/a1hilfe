@@ -12,15 +12,11 @@ Bei der jeweiligen Bewertungsmethode sind jedoch die Prinzipien der kaufmännisc
 
 In der mitgelieferten Basisdatenbank sind folgende Bewertungsgruppen bereits eingetragen:
 
-• gewogener Einkaufspreis
-
-• durchschnittlicher Jahreseinkaufspreis
-
-• durchschnittlicher Periodeneinkaufspreis
-
-• fixer Einkaufspreis
-
-• letzter Einkaufspreis
+- gewogener Einkaufspreis
+- durchschnittlicher Jahreseinkaufspreis
+- durchschnittlicher Periodeneinkaufspreis
+- fixer Einkaufspreis
+- letzter Einkaufspreis
 
 Verschiedene Verfahren zur Bestandsbewertung stehen zur Verfügung. Und können in folgender Erfassungsmaske bearbeitet werden.
 

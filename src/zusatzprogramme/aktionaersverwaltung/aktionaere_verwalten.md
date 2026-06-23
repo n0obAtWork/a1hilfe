@@ -10,19 +10,13 @@ Aktionärsdaten gehören zu den so genannten Stammdaten und können aus den List
 
 In dieser Maske können durch folgende Einrichterparameter Einstellungen vorgenommen werden:
 
-• **Aktionärsnummer ist gleich der Kundennummer**
-
-o JA - Die Aktionärsnummer kann nicht angegeben werden. Sie wird mit der Kundennummer belegt.
-
-o NEIN – Die Aktionärsnummer kann extra eingegeben werden.
-
-• **Verhalten bei doppelter Aktionärsnummer**
-
-o FEHLER – Keine zwei Aktionärs können dieselbe Nummer haben. Es erfolgt eine Fehlermeldung.
-
-o WARNUNG – Es erfolgt eine Warnung, wenn für einen Aktionär eine bereits vorhandene Aktionärsnummer eingegeben wird.
-
-o IGNORIEREN – Es können Aktionäre mit gleicher Aktionärsnummer erfasst werden.
+- **Aktionärsnummer ist gleich der Kundennummer**
+  - JA - Die Aktionärsnummer kann nicht angegeben werden. Sie wird mit der Kundennummer belegt.
+  - NEIN – Die Aktionärsnummer kann extra eingegeben werden.
+- **Verhalten bei doppelter Aktionärsnummer**
+  - FEHLER – Keine zwei Aktionärs können dieselbe Nummer haben. Es erfolgt eine Fehlermeldung.
+  - WARNUNG – Es erfolgt eine Warnung, wenn für einen Aktionär eine bereits vorhandene Aktionärsnummer eingegeben wird.
+  - IGNORIEREN – Es können Aktionäre mit gleicher Aktionärsnummer erfasst werden.
 
 Bei der Erfassung von Aktionärsdaten durch diese Maske ist zuerst ein Kunde auszuwählen, der der Aktionär ist. Falls es durch obigen Einrichterparameter erlaubt ist, dass die Aktionärsnummer von der Kundennummer abweichen kann, darf eine Aktionärsnummer eingegeben werden. Das Eintrittsdatum wird mit dem Erfassungsdatum des Aktionärs vorbelegt. Das Austrittsdatum kann eingegeben werden. Es wird allerdings auch automatisch gesetzt, sobald der Aktionär keine Aktien mehr besitzt. Es wird dann auf den letzten Tag gesetzt, an dem der Aktionär noch für die Dividendenausschüttung berücksichtigt wird. Das Austrittsdatum darf natürlich nicht kleiner als das Eintrittsdatum sein.
 

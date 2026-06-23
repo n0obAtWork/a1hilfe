@@ -10,9 +10,8 @@ Unabhängig davon, ob eine Bestandskorrektur notwendig war, wird im Bewegungspro
 
 So kann im Fall den (permanenten) Inventur zu einem Zeitpunkt festgestellt werden:
 
-• Alle Ladeträger des Artikels
-
-• Sind im Zeitraum von x Tagen ([SPA 1045 – Permanente Inventur](../../../firmenstamm/steuerparameter/optionen_warenwirtschaft/permanente_inventur_mit_lvs_spa_1045.md)) gezählt worden
+- Alle Ladeträger des Artikels
+- Sind im Zeitraum von x Tagen ([SPA 1045 – Permanente Inventur](../../../firmenstamm/steuerparameter/optionen_warenwirtschaft/permanente_inventur_mit_lvs_spa_1045.md)) gezählt worden
 
 Diese Tatsache bei jeder Erfassung geprüft und bei Erfüllung aller Bedingungen wird dies in der Tabelle „LVS_PermInventurProtokoll“ festgehalten. Die Bestände in LVS und Warenwirtschaft müssen jetzt noch nicht zwingend übereinstimmen.
 

@@ -38,11 +38,11 @@ Um Flächen zur Besichtigung durch die Kammer anmelden zu können, müssen einig
 
 Sind [Fruchtarten](../fruchtarten.md) und [Sorten](../saatsorten.md) eingerichtet, so muss noch die Verbindung zwischen den Artikeln, dem Artikelstamm und den Sorten geschaffen werden.
 
-• Im Artikelstammpfleger(Direktsprung **[ARS]** und dort ****F5****) auf das Register Gruppen wechseln und dort Saatgutartikel auf **Ja** stellen und die Felder Fruchtart, Sorte und Kategorie ausfüllen.
+- Im Artikelstammpfleger(Direktsprung **[ARS]** und dort ****F5****) auf das Register Gruppen wechseln und dort Saatgutartikel auf **Ja** stellen und die Felder Fruchtart, Sorte und Kategorie ausfüllen.
 
 ![Ein Bild, das Text, Screenshot, Software, Webseite enthält. Automatisch generierte Beschreibung](../../../ImagesExt/image8_1234.jpg "Ein Bild, das Text, Screenshot, Software, Webseite enthält. Automatisch generierte Beschreibung")
 
-• Im Artikelpfleger (Direktsprung **[AR]** und dort **F5**) die Funktion ***Saatgut*** aufrufen bzw. auf den Reiter **Saatgut** wechseln. In dem sich öffnenden Dialog muss die Kategorie eingetragen werden.
+- Im Artikelpfleger (Direktsprung **[AR]** und dort **F5**) die Funktion ***Saatgut*** aufrufen bzw. auf den Reiter **Saatgut** wechseln. In dem sich öffnenden Dialog muss die Kategorie eingetragen werden.
 
 ![Ein Bild, das Text, Screenshot, Software, Computersymbol enthält. Automatisch generierte Beschreibung](../../../ImagesExt/image8_1235.jpg "Ein Bild, das Text, Screenshot, Software, Computersymbol enthält. Automatisch generierte Beschreibung")
 
@@ -96,11 +96,9 @@ Es werden die Daten angezeigt, die die Voraussetzung für die elektronische Übe
 
 Es gibt nun die Möglichkeit:
 
-• nur Drucken (Crystal-Report wird aktualisiert und kann gedruckt werden)
-
-• nur Diskette
-
-• Druck und Diskette
+- nur Drucken (Crystal-Report wird aktualisiert und kann gedruckt werden)
+- nur Diskette
+- Druck und Diskette
 
 Für die Übergabe per Diskette muss vorher in den Optionen (Direktsprung **[OPT]**) dir Option „SaatLWKDiskettenPfad“ gesetzt werden. Ist diese Option nicht gesetzt, dann werden die Daten in das Export-Unterverzeichnis von A.eins geschrieben.
 

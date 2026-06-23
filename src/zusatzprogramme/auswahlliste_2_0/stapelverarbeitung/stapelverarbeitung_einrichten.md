@@ -24,11 +24,9 @@ Es kann kein Stapel gebildet werden und der entsprechende Bediener sieht das Reg
 
 Es kann vorkommen, dass für bestimmte Anwendungen bzw. Varianten keine Stapelverarbeitung angeboten wird. Dies kann neben der Lizenz und Benutzereinstellung noch folgende Ursachen haben:
 
-• Die Anwendung/Variante enthält keine IDENT-Felder
-
-• In der Anwendung /Variante ist das Markieren von Zeilen nicht erlaubt
-
-• In der Anwendung /Variante wurde mit der Option „NOSTAPEL“ die Stapelverarbeitung deaktiviert.
+- Die Anwendung/Variante enthält keine IDENT-Felder
+- In der Anwendung /Variante ist das Markieren von Zeilen nicht erlaubt
+- In der Anwendung /Variante wurde mit der Option „NOSTAPEL“ die Stapelverarbeitung deaktiviert.
 
 ```text
 OPTIONS

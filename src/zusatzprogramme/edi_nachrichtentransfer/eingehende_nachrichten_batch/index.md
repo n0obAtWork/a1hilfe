@@ -6,11 +6,9 @@ Der ROSI – EDI Nachrichtenaustausch dient dazu, EDI-Nachrichten mit einem Gesc
 
 Es wird die beispielhafte Einrichtung und Anwendung einer eingehenden „ORDERS“-Nachricht gezeigt. Die Einrichtung erfolgt in folgenden Abschnitten:
 
-• Grundeinrichtung
-
-• Erstellung des Rosi-Profils
-
-• Zuweisung zum Kunden
+- Grundeinrichtung
+- Erstellung des Rosi-Profils
+- Zuweisung zum Kunden
 
 <p class="siehe-auch">Siehe auch:</p>
 

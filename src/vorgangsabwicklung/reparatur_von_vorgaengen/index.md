@@ -6,9 +6,8 @@ Leider kommt es noch häufiger vor, dass nach Systemabstürzen oder auch nach in
 
 Seitens des Supports werden diese Ungereimtheiten in der Regel per OSQL (sehr zeitaufwendig) korrigiert. Wir haben daher ein kleines Tool entwickelt , das
 
-• den Zustand bezüglich eines Vorganges übersichtlich darstellt
-
-• den Supporter bei der Korrektur unterstützt.
+- den Zustand bezüglich eines Vorganges übersichtlich darstellt
+- den Supporter bei der Korrektur unterstützt.
 
 Da zur Zeit keine Versionserstellung möglich ist, kann dieses Tool auch ohne Versionsupdate mit den bekannten Methoden (repair.bat) vor Ort beim Kunden installiert werden – in der nächsten Version von Aeins wird dieses Tool unter dem Direktsprung KORVR zur Verfügung stehen.
 

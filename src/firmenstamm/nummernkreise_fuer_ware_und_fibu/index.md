@@ -16,9 +16,8 @@ Bereitstellung der nächsten Beleg- oder Stammdatennummer bei der Beleg- bzw. Vo
 
 Für alle Bereiche in A.eins liegen in der Auslieferungsversion eingerichtete Nummernkreise vor. In Abhängigkeit von den betrieblichen Organisationsformen können jedoch Anpassungen und Erweiterungen erforderlich werden, z.B.:
 
-• Unterschiedliche Nummernkreise je Standort
-
-• Vorgangsunterklassen („die Heizölrechnung“) je Sparte mit jeweils eigenen Nummernkreisen
+- Unterschiedliche Nummernkreise je Standort
+- Vorgangsunterklassen („die Heizölrechnung“) je Sparte mit jeweils eigenen Nummernkreisen
 
  
 

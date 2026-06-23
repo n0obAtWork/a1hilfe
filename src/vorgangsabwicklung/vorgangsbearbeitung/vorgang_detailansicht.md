@@ -8,8 +8,6 @@ In dieser Ansicht werden alle Belege, die zu einem Silo oder einem Waagenbeleg g
 
 Um die verschiedenen Vorgangstypen anzuzeigen, gibt es die Funktion ***Ansicht***, um sich die Vorgänge im Ansichtsmodus zu öffnen.
 
-• **F6** ist für die Normalware
-
-• **Shift+F6** ist für die Rohware
-
-• Mit **F11** wird wie gewohnt die Druckvorschau geöffnet.
+- **F6** ist für die Normalware
+- **Shift+F6** ist für die Rohware
+- Mit **F11** wird wie gewohnt die Druckvorschau geöffnet.

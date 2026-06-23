@@ -68,11 +68,9 @@ In der Einzelbeleganzeige steht für Zahlungsbelege, die aus dem automatischen Z
 
 Dazu muss die Auszifferung zurückgesetzt werden, so dass alle beteiligten Belege wieder als offene Posten existieren. Wie nun die Offenen Posten im automatischen Zahlungsverkehr behandelt werden, lässt sich durch den Einrichterparameter „*Beim Löschen der Auszifferung Rücklastschriftbehandlung aktivieren?* “in der OP-Verwaltung einstellen.
 
-• Nein: Die beteiligten Rechnungen sind jetzt zwar wieder OP’s, werden aber nicht sofort wieder im automatischen Zahlungsverkehr mit herangezogen. Um diese Rechnungen erneut im automatischen Zahlungsverkehr zu verarbeiten, kann man in der Anwendung „Zahlungen bearbeiten“ (Direktsprung **[ZHB]**) Variante „Rücklastschriften“ diese Belege wieder mit der Funktion ***Rücklastschrift*** **F10** so kennzeichnen, dass sie im automatischen Zahlungsverkehr erscheinen. Man kann diese Rechnungen aber auch jederzeit manuell den Zahlungsvorschlägen hinzufügen.
-
-• Ja: Dies ist die Standardeinstellung. Entstand diese Auszifferung durch die Übernahme einer bereits an die Bank gegangenen Zahlungsanweisung in die Primanota, so wird abgefragt, ob diese als Rücklastschrift gekennzeichnet werden soll.
-
-• Automatisch: Es erfolgt keine Abfrage und der Zahlungsbeleg wird sofort als Rücklastschrift gekennzeichnet.
+- Nein: Die beteiligten Rechnungen sind jetzt zwar wieder OP’s, werden aber nicht sofort wieder im automatischen Zahlungsverkehr mit herangezogen. Um diese Rechnungen erneut im automatischen Zahlungsverkehr zu verarbeiten, kann man in der Anwendung „Zahlungen bearbeiten“ (Direktsprung **[ZHB]**) Variante „Rücklastschriften“ diese Belege wieder mit der Funktion ***Rücklastschrift*** **F10** so kennzeichnen, dass sie im automatischen Zahlungsverkehr erscheinen. Man kann diese Rechnungen aber auch jederzeit manuell den Zahlungsvorschlägen hinzufügen.
+- Ja: Dies ist die Standardeinstellung. Entstand diese Auszifferung durch die Übernahme einer bereits an die Bank gegangenen Zahlungsanweisung in die Primanota, so wird abgefragt, ob diese als Rücklastschrift gekennzeichnet werden soll.
+- Automatisch: Es erfolgt keine Abfrage und der Zahlungsbeleg wird sofort als Rücklastschrift gekennzeichnet.
 
 Für beide Verfahren gilt: Die Rechnungen werden nur dann als Rücklastschrift gekennzeichnet, wenn sie bereits per DTA oder Scheckdruck als verarbeitet gekennzeichnet wurden. Zahlungsbelege, die zwar in die Primanota übernommen wurden, jedoch nicht an die Bank gegangen sind werden als gesperrte Rücklastschrift gekennzeichnet und müssen in der Anwendung „Zahlungen bearbeiten“ (Direktsprung **[ZHB]**) Variante „Rücklastschriften“ manuell mit der Funktion ***Rücklastschrift*** **F10** **als Rücklastschrift gekennzeichnet werden. Dies entspricht dem Verfahren, als würde der Einrichterparameter auf Nein stehen.**
 

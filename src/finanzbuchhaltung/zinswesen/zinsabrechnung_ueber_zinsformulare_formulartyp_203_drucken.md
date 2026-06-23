@@ -8,19 +8,13 @@ Direktsprung **[ZIB]**
 
 Es existiert ein Standartformular „Zinsabrechnung“ mit der Nummer –16. Zu dem Formulartyp 203 existieren folgende Formularbereiche:
 
-• 311 Kopf Zinsabrechnung Formkopf
-
-• 312 Kopf Zinsabrechnung Fortsetzung Folgekopf
-
-• 314 Positionsteil Zinsabrechnung Zeilentyp
-
-• 605 Textzeile Zeilentyp
-
-• 315 Zinsabrechnung Betreffzeile Mail Betreffzeile
-
-• 316 Fuß Zinsabrechnung Fuß
-
-• 313 Abschluss Zinsabrechnung Abschluss
+- 311 Kopf Zinsabrechnung Formkopf
+- 312 Kopf Zinsabrechnung Fortsetzung Folgekopf
+- 314 Positionsteil Zinsabrechnung Zeilentyp
+- 605 Textzeile Zeilentyp
+- 315 Zinsabrechnung Betreffzeile Mail Betreffzeile
+- 316 Fuß Zinsabrechnung Fuß
+- 313 Abschluss Zinsabrechnung Abschluss
 
 Da Formulare nur gedruckt werden, muss mindestens ein Zeilentyp eingerichtet sein. Will man seinem Kunden keine detaillierte Aufstellung der Bewegungen schicken, dann reicht es einfach nur eine Textzeile (Bereich 605) einzurichten. Es wird dann nur - zusätzlich zu Kopf und Fuß - eine leere Zeile gedruckt.
 
@@ -166,6 +160,6 @@ Folgende Variablen sind in allen Teilen (Kopf, Fuß und Zeilentyp) verfügbar. F
 | --- | --- | --- | --- |
 | FiBuVP_Text | Normal | 3 | Text wie in den Folgezeilen hinterlegt |
 
-• 315 Zinsabrechnung Betreffzeile
+- 315 Zinsabrechnung Betreffzeile
 
 Mit diesem Formularbereich kann für den Mailversand eine Betreffzeile definiert werden. Es stehen hier die Positionen zur Verfügung, die mit F3 ausgewählt werden können. Beim normalen Druck erscheint diese Zeile nicht.

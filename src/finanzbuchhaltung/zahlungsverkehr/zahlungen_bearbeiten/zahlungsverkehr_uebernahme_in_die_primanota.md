@@ -70,55 +70,55 @@ Die Belege, die dann erstellt werden, sind in der Primanota nachträglich änder
 Hat man alle Angaben vorgenommen, so kann man den Vorgang mit F9 starten. Es erscheint dann eine Sicherheitsabfrage, die noch zu bestätigen ist. Vor dem eigentlichen Erstellen der Belege werden noch einige Prüfungen vom Programm vorgenommen, damit es nicht zu unnötigen bzw. fehlerhaften Buchungen kommt. Die einzelnen Meldungen werden am Ende des Buchungslaufes in einem Fenster ausgegeben und können von dort aus auch gedruckt werden. Es können folgende Meldungen erscheinen:  
     
 
-• Zahlungsbeleg für Konto ____ (Betrag ____) ist inkonsistent!  
+- Zahlungsbeleg für Konto ____ (Betrag ____) ist inkonsistent!  
 Die Summe des einzelnen zu verrechnenden Beleges entspricht nicht der im Zahlungsbeleg eingetragenen Summe. Da dieser Fehler nicht korrigierbar ist, muss der Zahlungsbeleg gelöscht werden und die Zahlung entweder manuell erfasst oder ein neuer Zahlungsbeleg erstellt werden, der dann gebucht werden kann.  
     
 
-• Steuersatz nicht eingerichtet! Kto ____ / Beleg ______/ Kl. ______ / Grp. _____ / Schl. ____ / Datum: _____  
+- Steuersatz nicht eingerichtet! Kto ____ / Beleg ______/ Kl. ______ / Grp. _____ / Schl. ____ / Datum: _____  
 Für die zu erstellenden Skontobelege konnte kein entsprechender Steuersatz gefunden werden. Ursache kann zum Beispiel sein, dass bereits im Ursprungsbeleg der Steuersatz nicht korrekt ist, oder dass zum Datum kein Steuersatz eingetragen ist. Es muss ein ordnungsgemäßer Steuersatz hinterlegt werden, bevor der Zahlungsbeleg verbucht werden kann.  
     
 
-• Steuerkonto 0 nicht zugelassen! Kto _____ / Beleg ____ / Kl. ____ / Grp. ____ / Schl. ____/ Datum : ____  
+- Steuerkonto 0 nicht zugelassen! Kto _____ / Beleg ____ / Kl. ____ / Grp. ____ / Schl. ____/ Datum : ____  
 In dem Steuerersatz, der für die Skontobuchung verwendet werden soll, ist kein gültiges Steuerkonto eingetragen. Nach Änderung des Steuersatzes kann dieser Zahlungsbeleg verbucht werden.  
     
 
-• Skontokonto 0 nicht zugelassen! Kto _____ / Beleg ____ / Kl. ____ / Grp. ____ / Schl. ____/ Datum : ____  
+- Skontokonto 0 nicht zugelassen! Kto _____ / Beleg ____ / Kl. ____ / Grp. ____ / Schl. ____/ Datum : ____  
 In dem Steuerersatz, der für die Skontobuchung verwendet werden soll, ist kein gültiges Skontokonto eingetragen. Nach Änderung des Steuersatzes kann dieser Zahlungsbeleg verbucht werden.  
     
 
-• Fehler beim Zugriff auf Hausbank ____ (Hausbankstamm)  
+- Fehler beim Zugriff auf Hausbank ____ (Hausbankstamm)  
 Die im Zahlungsbeleg hinterlegte Hausbank konnte nicht gefunden werden. Nach Überprüfung des Hausbankenstammes kann erneut versucht werden, diesen Zahlungsbeleg in die Primanota zu übernehmen.  
     
 
-• Für die Hausbank ____ fehlt das Verrechnungskonto!  
+- Für die Hausbank ____ fehlt das Verrechnungskonto!  
 Das Verrechnungskonto, das bei der Übernahme des Zahlungsbeleges in die Primanota verwendet wird, ist nicht eingetragen. Dies muss im Hausbankenstamm für die verwendete Hausbank eingetragen werden.  
     
 
-• Fehler beim Erstellen einer Teilzahlung für Konto ____ ( ____/ ____ )  
+- Fehler beim Erstellen einer Teilzahlung für Konto ____ ( ____/ ____ )  
 Da es auch möglich ist, nur Teile eines OP’s zu bezahlen (siehe dazu „[Zahlungen erstellen](../zahlungen_erstellen.md)“), müssen in diesen Fällen Teilzahlungsbelege erstellt werden. Sollte es hierbei zu Problemen kommen (z.B. Locking durch einen anderen Benutzer), so wird der Zahlungsbeleg nicht erstellt.  
  
 
-• Fehler beim Zugriff auf Konto ____ ( ____/ _____)  
+- Fehler beim Zugriff auf Konto ____ ( ____/ _____)  
 Beim Versuch, die OP’s mit dem erstellten Beleg auszuziffern, ist es zu einem Fehler gekommen (z.B. Locking durch einen anderen Benutzer). Es wird in der Fehlermeldung das Auszifferungskennzeichen und das dazugehörige Datum mit ausgegeben. Dies muss gegebenenfalls wieder zurückgesetzt werden und die OP’s müssen manuell in der OP-Verwaltung ausgeziffert werden. Sollte dieser Fehler auftreten, kann man mit dem Hilfsprogramm „Fibu Reorganisieren“ und dort „Test Bewegungsdaten“ überprüfen, inwieweit die Daten inkonsistent sind.  
     
 
-• Fehler beim Erstellen des Skontobeleges für Konto ____  
+- Fehler beim Erstellen des Skontobeleges für Konto ____  
 Der Skontobeleg konnte nicht erstellt werden. Dabei wird auch der Zahlungsbeleg nicht erstellt.  
     
 
-• Konto ____ war bereits verbucht.  
+- Konto ____ war bereits verbucht.  
 Die Auswahl umfasst bereits gebuchte Zahlungsbelege. Man wird mit dieser Meldung lediglich darauf hingewiesen, dass dieser Arbeitsschritt bereits erfolgt ist.  
     
 
-• Abbruch bei Konto ____ wegen Fehler ____  
+- Abbruch bei Konto ____ wegen Fehler ____  
 Beim Erstellen des Zahlungsbeleg ist ein Fehler aufgetreten. Der gesamte Buchungslauf wird nach diesem Fehler abgebrochen. Hinter Fehler steht eine Nummer, mit der Sie sich bitte an ihren zuständigen Betreuer wenden.  
     
 
-• Konto ____ nicht gebucht, weil Zahlsperre gesetzt ist!  
+- Konto ____ nicht gebucht, weil Zahlsperre gesetzt ist!  
 Für das Konto ist im Kundenstamm eine Zahlsperre hinterlegt worden. Der Zahlungsbeleg wird daher weder als Scheck noch als DTA-Auftrag weiterverarbeitet und somit auch nicht gebucht.  
     
 
-• Konto ____ nicht gebucht, weil die Zahlung nicht gedruckt/per DTA verarbeitet wurde!  
+- Konto ____ nicht gebucht, weil die Zahlung nicht gedruckt/per DTA verarbeitet wurde!  
 Dieser Hinweis erscheint, wenn bei „Buchen ungedruckter Zahlungen“ (s.o.) kein Haken gesetzt ist und nicht alle Zahlungsbelege in der Auswahl bereits per Scheck/DTA verarbeitet wurden.  
     
 

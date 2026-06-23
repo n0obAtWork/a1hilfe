@@ -87,11 +87,9 @@ Mit Hilfe der Option „*TAPI_OUT_ZUSATZ*“ können ausgehende Telefonnummernan
 
 Mit der Option „*CATS_KUISEITE*“ lässt sich einrichten
 
-• dass eingehende Anrufe überhaupt mit SHIFT+CTRL+F3 angenommen werden können
-
-• welche KUI-Seite sich bei eingehendem Anruf und SHIFT+CTRL+F3 öffnet, wenn das System diese Nummer gefunden hat
-
-• dass man mit dem System-Parameter „*TapiCall“* die individuelle Rufnummernermittlung des entsprechenden Telefoniesystems ermitteln kann.
+- dass eingehende Anrufe überhaupt mit SHIFT+CTRL+F3 angenommen werden können
+- welche KUI-Seite sich bei eingehendem Anruf und SHIFT+CTRL+F3 öffnet, wenn das System diese Nummer gefunden hat
+- dass man mit dem System-Parameter „*TapiCall“* die individuelle Rufnummernermittlung des entsprechenden Telefoniesystems ermitteln kann.
 
 Eine weitere Möglichkeit „eingehende“ Telefonie zu behandeln ist:
 

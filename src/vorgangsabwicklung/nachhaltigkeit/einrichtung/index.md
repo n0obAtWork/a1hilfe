@@ -4,17 +4,12 @@
 
 Neben den Einrichtungen der Stammdaten sind noch spezielle Einrichtungsmaßnahmen erforderlich.
 
-• Nachhaltigkeitsstatus (Format [AF_NACHHSTAT](../stammdaten/formate.md))
-
-• Zertifizierungsmethode (Format [AF_ZERTMETH](../stammdaten/formate.md))
-
-• Zertifizierungstyps (Format [AF_NAHA_ZERT](../stammdaten/formate.md))
-
-• Kategorie des Zertifikats (Format [AF_ZERTKATEG](../stammdaten/formate.md))
-
-• SQLK Texte für Nachhaltigkeitsausweise im Formulardruck
-
-• Formularzuordnung
+- Nachhaltigkeitsstatus (Format [AF_NACHHSTAT](../stammdaten/formate.md))
+- Zertifizierungsmethode (Format [AF_ZERTMETH](../stammdaten/formate.md))
+- Zertifizierungstyps (Format [AF_NAHA_ZERT](../stammdaten/formate.md))
+- Kategorie des Zertifikats (Format [AF_ZERTKATEG](../stammdaten/formate.md))
+- SQLK Texte für Nachhaltigkeitsausweise im Formulardruck
+- Formularzuordnung
 
 Die hier aufgelisteten Einzelmaßnahmen werden in den folgenden Abschnitten erläutert.
 

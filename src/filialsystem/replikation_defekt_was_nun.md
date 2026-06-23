@@ -40,14 +40,12 @@ Führen Sie zunächst ein Extrakt auf Seiten der korrekten Datenbank durch:
 
 10. Achten Sie hierbei darauf, ob der Adressen des Publishers und der Remote-User korrekt sind
 
-o Ob die Remote-User stimmig sind
+  - Ob die Remote-User stimmig sind
+  - Subskriptionen gestartet sind
+  - Event gestartet ist
 
-o Subskriptionen gestartet sind
+    11. Führen Sie folgenden Befehl auf beiden Seiten aus:
 
-o Event gestartet ist
+  - „REMOTE RESET &lt;Remote-User>; COMMIT;“
 
-11. Führen Sie folgenden Befehl auf beiden Seiten aus:
-
-o „REMOTE RESET &lt;Remote-User>; COMMIT;“
-
-Wichtig hierbei ist, dass die DBRemote-Nachrichtenagenten NICHT vorher gestartet wurden!
+    Wichtig hierbei ist, dass die DBRemote-Nachrichtenagenten NICHT vorher gestartet wurden!

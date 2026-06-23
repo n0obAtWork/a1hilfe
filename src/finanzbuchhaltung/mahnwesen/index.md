@@ -6,9 +6,8 @@ Das Mahnwesen basiert auf verschiedenen Parametern, die unter **"Stammdaten"** i
 
 Zum Erstellen von Mahnungen sind folgende Schritte notwendig:
 
-• **Mahnvorschläge erstellen**
-
-• **Mahnvorschläge bearbeiten und freigeben**
+- **Mahnvorschläge erstellen**
+- **Mahnvorschläge bearbeiten und freigeben**
 
 **•** **Mahnungen bearbeiten**
 

@@ -38,11 +38,9 @@ so wird die Kontraktposition bis auf den Artikel (ohne Lagerzuordnung) runtegebr
 
 Einige Einstellungen müssen in den Steuerparametern hinterlegt werden.
 
-• Vorausmonate ([Steuerparameter „698“](../../firmenstamm/steuerparameter/kontraktwesen/maximale_vorausmonate_fuer_ratierliche_kontraktmengen_spa_69.md))
-
-• Mengeneinheit der Mengen ([Steuerparameter „815“](../../firmenstamm/steuerparameter/kontraktwesen/ratierliche_berechnung_in_lagermengeneinheit_des_ersten_arti.md))
-
-• Enddatum der Berechnung ([Steuerparameter „798“](../../firmenstamm/steuerparameter/kontraktwesen/ratierliche_berechnung_mit_dem_kontraktlaufzeit_bis_datum_sp.md))
+- Vorausmonate ([Steuerparameter „698“](../../firmenstamm/steuerparameter/kontraktwesen/maximale_vorausmonate_fuer_ratierliche_kontraktmengen_spa_69.md))
+- Mengeneinheit der Mengen ([Steuerparameter „815“](../../firmenstamm/steuerparameter/kontraktwesen/ratierliche_berechnung_in_lagermengeneinheit_des_ersten_arti.md))
+- Enddatum der Berechnung ([Steuerparameter „798“](../../firmenstamm/steuerparameter/kontraktwesen/ratierliche_berechnung_mit_dem_kontraktlaufzeit_bis_datum_sp.md))
 
 <p class="just-emphasize">Funktionen [![](../../ImagesExt/image8_148.png)](./index.md)</p>
 

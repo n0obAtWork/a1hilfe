@@ -12,18 +12,11 @@ Das Datum, das bei der Berechnung des Bestandes zugrunde liegt ist entweder das 
 
 Dem Benutzer stehen hier folgende Funktionen zur Verfügung:
 
-• (Aktionär) ***Neu*** [siehe Aktionäre verwalten]
-
-• (Aktionär) ***Ändern*** [siehe Aktionäre verwalten]
-
-• (Aktionär) ***Ansehen*** [siehe Aktionäre verwalten]
-
-• (Aktionär) ***Löschen*** [siehe Aktionäre verwalten]
-
-• ***Historische Tabelle*** [siehe Aktientransaktionen / Die Historische Tabelle]
-
-• ***Anteile***
-
-• ***Kundenbescheinigung***
-
-• ***Unternehmen verwalten*** [siehe Die Unternehmensdaten einrichten/verwalten]
+- (Aktionär) ***Neu*** [siehe Aktionäre verwalten]
+- (Aktionär) ***Ändern*** [siehe Aktionäre verwalten]
+- (Aktionär) ***Ansehen*** [siehe Aktionäre verwalten]
+- (Aktionär) ***Löschen*** [siehe Aktionäre verwalten]
+- ***Historische Tabelle*** [siehe Aktientransaktionen / Die Historische Tabelle]
+- ***Anteile***
+- ***Kundenbescheinigung***
+- ***Unternehmen verwalten*** [siehe Die Unternehmensdaten einrichten/verwalten]

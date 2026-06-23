@@ -40,11 +40,9 @@ Die Kalkulation erfolgt auf Basis der maschinell verfügbaren Preise:
 
 \- Niederstwertprinzip des kleinsten Preises aus
 
-o letztem und gewogenem Einkaufspreis
-
-o letztem und durchschnittlichem Einkaufspreis
-
-o letztem Einkaufspreis und Bewertungspreis
+  - letztem und gewogenem Einkaufspreis
+  - letztem und durchschnittlichem Einkaufspreis
+  - letztem Einkaufspreis und Bewertungspreis
 
 Gemäß der gewählten Kalkulationsmethode werden die entsprechenden Bewertungspreise ermittelt und in die Erfassungstabelle eingetragen. Dort erhalten die Preise ein Kennzeichen „automatisch bewertet“. Durch wiederholte Anwendungen der Kalkulation werden die jeweils aktuellen Preise eingetragen. Dabei kann entschieden werden, ob die Kalkulation nur auf automatisch kalkulierte Preise (erneut) angewendet wird oder sich die Kalkulation nur auf Preis 0 bezieht
 

@@ -12,13 +12,12 @@ Ein Betreff und ein kurzer Beschreibungstext können hier ebenso für die Verwen
 
 Nun stehen folgende Funktionen zur Verfügung:
 
-• Versenden – Hier wird die Liste der Dokumente und Empfänger an ein externes System übermittelt, das sodann den Versand übernimmt. Hier kann z.B. Tobit verwendet werden. Als Schnittstelle dient ein XML-Dokument, das die für den Versand notwendigen Daten bereitstellt.
+- Versenden – Hier wird die Liste der Dokumente und Empfänger an ein externes System übermittelt, das sodann den Versand übernimmt. Hier kann z.B. Tobit verwendet werden. Als Schnittstelle dient ein XML-Dokument, das die für den Versand notwendigen Daten bereitstellt.
+- Versenden (Outlook) – Hier wird das im [Einrichterparameter](../../../firmenstamm/einrichterparameter/archiv_mail_versand_epa_fa_mail.md) gesetzte Skript aufgerufen, das die gewählten Dokumente aus der Datenbank extrahiert und ein installiertes Outlook dazu veranlasst, eine Mail zu öffnen, die die gewählten Empfänger und die gewählten Dokumente beinhaltet. Die Mail muss dann manuell abgesendet werden.
 
-• Versenden (Outlook) – Hier wird das im [Einrichterparameter](../../../firmenstamm/einrichterparameter/archiv_mail_versand_epa_fa_mail.md) gesetzte Skript aufgerufen, das die gewählten Dokumente aus der Datenbank extrahiert und ein installiertes Outlook dazu veranlasst, eine Mail zu öffnen, die die gewählten Empfänger und die gewählten Dokumente beinhaltet. Die Mail muss dann manuell abgesendet werden.
+  Es ist möglich mit einem alternativen VBS-Skript an dieser Stelle andere Mailclients anzusprechen.
 
-Es ist möglich mit einem alternativen VBS-Skript an dieser Stelle andere Mailclients anzusprechen.
-
-Für die Anbindung eines Tobit-Clients steht exemplarisch das VBA-Skript „AMIC_FAVersandTobit“ zur Verfügung.
+  Für die Anbindung eines Tobit-Clients steht exemplarisch das VBA-Skript „AMIC_FAVersandTobit“ zur Verfügung.
 
 Neben der ersten Registerkarte, auf der diese Einstellungen vorgenommen werden können, stehen u.U. weitere Registerkarten mit einem Datum im Tab-Reiter. Diese geben dem Anwender die Möglichkeit als eine Historie nachzuvollziehen, wann das Dokument an wen versendet wurde.
 

@@ -14,7 +14,7 @@
 
 <p class="just-emphasize">Vorbereitungsschritte</p>
 
-• Als erstes müssen die Scancodes für die Inventur mit dem Lagerverwaltungssystem eingerichtet werden. Dies sind LVSIV [-147] für Inventur Start und LVSIVENDE[-148] für Inventur Ende. Des Weiteren sind die AI-Zuordnungen für den Scancode einzutragen.
+- Als erstes müssen die Scancodes für die Inventur mit dem Lagerverwaltungssystem eingerichtet werden. Dies sind LVSIV [-147] für Inventur Start und LVSIVENDE[-148] für Inventur Ende. Des Weiteren sind die AI-Zuordnungen für den Scancode einzutragen.
 
 | AI | **Application Identifier** | **Gruppe** | **Typ** | **Optional** |
 | --- | --- | --- | --- | --- |
@@ -30,11 +30,9 @@
 | 3102 | Nettogewicht in Kilogramm (EAN128) | 2 | | Nein |
 | 3103 | Nettogewicht in Kilogramm (EAN128) | 2 | | Nein |
 
-• Um die Inventur zu beginnen werden im Inventurstamm [IVS] neue Inventuren für die einzelnen Inventurgruppen eröffnet.
-
-• Danach werden alle Inventuren unter Inventurvorbereitung ausgewählt und der Haken bei Vortrag der Ladeträger mit Bestand gesetzt. 
-
-• Jetzt prüft das System ob die Bedingungen für alle Inventurgruppen eingehalten worden sind. Ist dies der Fall, so werden die Daten in die Inventur eingespielt. Es werden dabei die Tabellen InventurBeleg, InventurBelegPartie, InventurBelegPartieLVS gefüllt. Des Weiteren werden in der Protokolltabelle LVS_LE_PositionBewegung zwei Einträge je Ladeeinheit, LadeeinheitsPosition gemacht, die den Bewegungsstatus 1 für Menge herunternehmen und den Bewegungsstatus 2 für den Inventurvortag bekommen. Wird die Inventur gelöscht, so bekommt das Feld den Bewegungsstatus die 3 für Menge herunternehmen und die 4 für den Inventurvortrag.
+- Um die Inventur zu beginnen werden im Inventurstamm [IVS] neue Inventuren für die einzelnen Inventurgruppen eröffnet.
+- Danach werden alle Inventuren unter Inventurvorbereitung ausgewählt und der Haken bei Vortrag der Ladeträger mit Bestand gesetzt. 
+- Jetzt prüft das System ob die Bedingungen für alle Inventurgruppen eingehalten worden sind. Ist dies der Fall, so werden die Daten in die Inventur eingespielt. Es werden dabei die Tabellen InventurBeleg, InventurBelegPartie, InventurBelegPartieLVS gefüllt. Des Weiteren werden in der Protokolltabelle LVS_LE_PositionBewegung zwei Einträge je Ladeeinheit, LadeeinheitsPosition gemacht, die den Bewegungsstatus 1 für Menge herunternehmen und den Bewegungsstatus 2 für den Inventurvortag bekommen. Wird die Inventur gelöscht, so bekommt das Feld den Bewegungsstatus die 3 für Menge herunternehmen und die 4 für den Inventurvortrag.
 
 Nachdem die Vorbereitung erfolgreich abgeschlossen ist, kann jetzt mit der Erfassung begonnen werden.
 
