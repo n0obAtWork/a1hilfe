@@ -6,7 +6,7 @@
 
 XMLEXPORT Relationsname [ **ON EXISTING** { **ERROR | SKIP | UPDATE** } ]  
 [ REPLACING ColumnName=Value ]  
-[ **WHERE** *search-condition* ]  
+[ <strong>WHERE</strong> <em>search-condition</em> ]  
 [ WITH DELETE]  
 [ WITH FOREIGNKEY]  
 [ INTO Filename ]

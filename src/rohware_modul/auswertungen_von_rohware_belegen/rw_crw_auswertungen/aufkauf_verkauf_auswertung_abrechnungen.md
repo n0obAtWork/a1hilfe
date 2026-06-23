@@ -6,7 +6,7 @@ Hauptmenü > Rohwarenabrechnung > Auswertungen > Aufkaufauswertung Abrechnungen
 
 Hauptmenü > Rohwarenabrechnung > Auswertungen > Verkaufsauswertung Abrechnungen
 
-Direktsprung **[LST]** Variante *Rohwarenauswertungen*
+Direktsprung **[LST]** Variante <em>Rohwarenauswertungen</em>
 
 Dieser Report berücksichtigt Belege der Stufen Abschlag, Folgeabschlag oder Finale. Zu einer Rohwarenlieferung wird dabei immer der aktive (nicht weiterverarbeitete) Beleg der höchsten Stufe herangezogen.  
 Erzeugt wird pro Beleg zu Warenpositionen der Typen Haupt- und Sekundärwarenposition entsprechend der spezifizierten Selektionsbereiche für eine Rohwarengruppe je eine Zeile mit den Angaben 

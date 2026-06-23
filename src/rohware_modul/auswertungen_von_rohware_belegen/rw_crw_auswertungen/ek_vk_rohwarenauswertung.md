@@ -6,7 +6,7 @@ Hauptmenü > Rohwarenabrechnung > Auswertungen > EK-Rohwarenauswertung
 
 Hauptmenü > Rohwarenabrechnung > Auswertungen > VK-Rohwarenauswertung
 
-Direktsprung **[LST]** Variante *Rohwarenauswertungen*
+Direktsprung **[LST]** Variante <em>Rohwarenauswertungen</em>
 
 Dieser Report berücksichtigt Belege der ausgewählten Stufe, auch wenn diese bereits weiterverarbeitet wurden. Nicht berücksichtigt werden dabei stornierte Belege.  
 Erzeugt wird pro Beleg je eine Zeile mit den Angaben 

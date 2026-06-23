@@ -6,7 +6,7 @@ Hauptmenü > Rohwarenabrechnung > Auswertungen > Aufkaufauswertung Lieferungen
 
 Hauptmenü > Rohwarenabrechnung > Auswertungen > Verkaufsauswertung Lieferungen
 
-Direktsprung **[LST]** Variante *Rohwarenauswertungen*
+Direktsprung **[LST]** Variante <em>Rohwarenauswertungen</em>
 
 Dieser Report berücksichtigt Belege der Stufe Lieferschein, auch wenn diese bereits weiterverarbeitet wurden.  
 Erzeugt wird pro Beleg zu Warenpositionen der Typen Haupt- und Sekundärwarenposition entsprechend der spezifizierten Selektionsbereiche für eine Rohwarengruppe je eine Zeile mit den Angaben 

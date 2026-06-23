@@ -36,7 +36,7 @@ Beim öffnen des Dokuments erscheint eine Sicherheitsabfrage von Word, ob sie fo
 
 Wenn Sie auf die Seriendruckfelder zugreifen wollen, müssen sie diese Frage mit Ja beantworten. Anschließend stehen alle Spalten der bearbeiteten Variante als Seriendruckfelder zur Verfügung.
 
-**ACHTUNG:** *Alle Änderungen werden erst gespeichert, wenn man beim Beenden des „Serienbrief verwalten“- Dialogs die Frage, ob man die Änderungen speichern will mit **Ja** bestätigt.*
+<strong>ACHTUNG:</strong> <em>Alle Änderungen werden erst gespeichert, wenn man beim Beenden des „Serienbrief verwalten“- Dialogs die Frage, ob man die Änderungen speichern will mit **Ja** bestätigt.</em>
 
 <p class="just-emphasize">Importieren:</p>
 

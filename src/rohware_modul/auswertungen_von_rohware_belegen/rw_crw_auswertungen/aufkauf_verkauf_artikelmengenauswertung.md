@@ -6,7 +6,7 @@ Hauptmenü > Rohwarenabrechnung > Auswertungen > Aufkauf-Artikelmengen-Auswertun
 
 Hauptmenü > Rohwarenabrechnung > Auswertungen > VK-Artikelmengen-Auswertung
 
-Direktsprung <strong>[LST]</strong> Variante *Rohwarenauswertungen*
+Direktsprung <strong>[LST]</strong> Variante <em>Rohwarenauswertungen</em>
 
 Dieser Report liefert für ausgewählte Belege kumulierte Zahlen für Trockenmengen, Nassmenge und Schwund, summiert über den ausgewählten Zeitraum und gesondert für den letzten Tag des ausgewählten Zeitraums. Es werden dabei die Summen pro Artikelnummer gebildet. Zusätzlich werden als Einzelzeilen für jede Artikelnummer die Summen pro Filial-/Lager-Kombination ermittelt.  
 Die Nassmenge ist immer die Bruttomenge der Warenposition der Belege. Auch Sekundärpositionen des Artikels in Rohwarebelegen werden berücksichtigt.

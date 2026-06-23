@@ -10,11 +10,11 @@ Dem Export von Belegen aus der A.eins-Finanzbuchhaltung in die KHK-Finanzbuchhal
 
  ![](../../../ImagesExt/image8_791.png)
 
-Wenn man den Export das erste Mal startet, wird automatisch „..\\export\\khk“ als Verzeichnis für den Export vorgeschlagen. Existiert dieses Verzeichnis nicht, wird es automatisch angelegt. Es kann mit der Funktion ***Verzeichnis ändern* F5** geändert werden. Der ausgewählte Pfad wird zwischengespeichert und bei der nächsten Verwendung dieses Programmteils wieder vorgeschlagen.
+Wenn man den Export das erste Mal startet, wird automatisch „..\\export\\khk“ als Verzeichnis für den Export vorgeschlagen. Existiert dieses Verzeichnis nicht, wird es automatisch angelegt. Es kann mit der Funktion <strong>*Verzeichnis ändern* F5</strong> geändert werden. Der ausgewählte Pfad wird zwischengespeichert und bei der nächsten Verwendung dieses Programmteils wieder vorgeschlagen.
 
 Die Schnittstelle kann die Daten in der Version 3.2 und 4.0 übertragen. Zusätzlich lässt sich auswählen, ob die Personenkonten mit übertragen werden und ob immer sämtlich Stammdaten oder nur geänderte Stammdaten übertragen werden sollen. Wenn man diesen Export das erste Mal startet sind natürlich alle Personenkonten als noch nicht übertragen gekennzeichnet. Beim nächsten Export werden dann nur die Personenkonten übertragen, die sich seither geändert haben.
 
-Man startet den Export mit **F9**. Vor dem Start des Exports wird vom Programm geprüft, ob die benötigten Addonfelder angelegt wurden. Hierfür existiert in der Auswahlliste eine Funktion ***Addonfelder anlegen* F10**<em>.</em> Sind die Felder noch nicht angelegt, bekommt man hier die Möglichkeit, diese Felder anzulegen:
+Man startet den Export mit **F9**. Vor dem Start des Exports wird vom Programm geprüft, ob die benötigten Addonfelder angelegt wurden. Hierfür existiert in der Auswahlliste eine Funktion <strong>*Addonfelder anlegen* F10</strong><em>.</em> Sind die Felder noch nicht angelegt, bekommt man hier die Möglichkeit, diese Felder anzulegen:
 
 ![](../../../ImagesExt/image8_792.png)
 

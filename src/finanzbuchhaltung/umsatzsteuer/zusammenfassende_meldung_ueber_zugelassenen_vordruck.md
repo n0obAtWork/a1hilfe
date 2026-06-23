@@ -4,7 +4,7 @@
 
 **Achtung:**
 
-***Seit dem 01.01.2007 ist die Zusammenfassende Meldung a**uf elektronischem Weg nach Maßgabe der Steuerdaten-Übermittlungs-Verordnung zu übermitteln******. Siehe dazu weiter unten unter* „[Zusammenfassende Meldung Excel Export](./zmdo_zusammenfassende_meldung_via_elster/index.md)“.
+<strong>*Seit dem 01.01.2007 ist die Zusammenfassende Meldung a**uf elektronischem Weg nach Maßgabe der Steuerdaten-Übermittlungs-Verordnung zu übermitteln***</strong><em>. Siehe dazu weiter unten unter</em> „[Zusammenfassende Meldung Excel Export](./zmdo_zusammenfassende_meldung_via_elster/index.md)“.
 
 In A.eins kann die Zusammenfassende Meldung über ein vom Bundesamt für Finanzen zugelassenes Formular ausgedruckt werden. Zwar wird im Zulassungsbescheid darauf hingewiesen, dass Unternehmer, die ein von Dritten erstelltes Verfahren zur Erstellung ihrer Zusammenfassenden Meldung verwenden, dies erneut beim Bundesamt für Finanzen zulassen müssen. Auf den Ausdruck der Daten der Zulassung auf dem Vordruck kann jedoch verzichtet werden, wenn im Zusammenhang darauf hingewiesen wird, dass die abweichenden Vordrucke mit der von der Software Company AMIC GmbH hergestellten Software erstellt werden. Die Einsendung der ZM mit einem bereits zugelassenen abweichenden Vordruck gilt bereits als Antrag.
 

@@ -16,7 +16,7 @@ Wenn es vorkommt, dass man bereits mit einem Kontenrahmen gearbeitet hat und sic
 
 DATEV Automatik:  
 Bei der DATEV existieren sogenannte Automatikkonten. Für diese Konten wird von der DATEV automatisch die Steuer errechnet. Es darf also keine Steuer von der Schnittstelle übertragen werden. Um dies der Schnittstelle mitzuteilen gibt es das Feld DATEV Automatik, das für diese Konten auf **Ja** gesetzt werden muss. Eine Liste der Automatikkonten kann Ihnen der Steuerberater zur Verfügung stellen. In den ausgelieferten Kontenplänen SKR03 und SKR04 sind die entsprechenden Konten bereits korrekt gekennzeichnet.  
-**HINWEIS:** *Treten zwischen den Steuerkonten beim Steuerberater und denen in A.eins Differenzen auf, so liegt dies mit großer Wahrscheinlichkeit an falsch hinterlegten Automatikkennzeichen!*
+<strong>HINWEIS:</strong> <em>Treten zwischen den Steuerkonten beim Steuerberater und denen in A.eins Differenzen auf, so liegt dies mit großer Wahrscheinlichkeit an falsch hinterlegten Automatikkennzeichen!</em>
 
 <p class="just-emphasize">Besonderheiten Steuer</p>
 

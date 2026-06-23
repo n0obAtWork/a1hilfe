@@ -10,7 +10,7 @@ Kann der Bezogene am Verfalltag die Wechselsumme nicht bezahlen, dann besteht di
 
 ![](../../../ImagesExt/image8_751.png)
 
-Es wird im Wechselstamm ein neuer Wechsel mit dem ehemaligen Verfallsdatum als Ausstellungsdatum hinterlegt. Es erfolgt jedoch ***keine Buchung in der FiBu****!* 
+Es wird im Wechselstamm ein neuer Wechsel mit dem ehemaligen Verfallsdatum als Ausstellungsdatum hinterlegt. Es erfolgt jedoch <strong>*keine Buchung in der FiBu*</strong><em>!</em> 
 
 Der alte Wechsel wird als verlängert gekennzeichnet. Folgende Prolongationsstati sind implementiert:
 

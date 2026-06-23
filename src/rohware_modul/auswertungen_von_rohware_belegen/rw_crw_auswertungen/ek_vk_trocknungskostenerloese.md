@@ -6,7 +6,7 @@ Hauptmenü > Rohwarenabrechnung > Auswertungen > EK-Trocknungskostenerlöse
 
 Hauptmenü > Rohwarenabrechnung > Auswertungen > VK-Trocknungskostenerlöse
 
-Direktsprung **[LST]** Variante *Rohwarenauswertungen*
+Direktsprung **[LST]** Variante <em>Rohwarenauswertungen</em>
 
 Dieser Report summiert pro Artikelnummer und Lagernummer von Rohware-Artikeln aus allen Rohwarenbelegen aktuellster Abrechnungsstufe entsprechend der Selektionsangaben die
 

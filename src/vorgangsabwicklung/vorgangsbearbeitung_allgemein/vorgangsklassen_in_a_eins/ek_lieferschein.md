@@ -12,7 +12,7 @@ Einkauf-Lieferscheine entstehen durch Neuerfassung oder Umwandlung aus Anfragen 
 | **Formulardruck F10** | Wiederholungsdruck |
 | **Lieblingsdruckerdruck** | Auswahl eines anderen Druckers / Zuordnung eines anderen Formulars |
 | **Korrektur F5** | Korrektur eines EK-Lieferscheins |
-| ***Ansicht*** ***F6*** | EK-Lieferschein im Ansicht-Modus öffnen |
+| <strong>*Ansicht*</strong> <em>**F6**</em> | EK-Lieferschein im Ansicht-Modus öffnen |
 | **Schnellkorrektur** | Stapelkorrektur von Datum und Menge |
 | **Kopieren CF8** | Kopieren des EK-Lieferscheins für einen auszuwählenden Kunden |
 | **Vorschau F11** | Druckvorschau |

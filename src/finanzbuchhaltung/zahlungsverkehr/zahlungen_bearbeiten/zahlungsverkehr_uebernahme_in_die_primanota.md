@@ -27,7 +27,7 @@ Um einen Überblick zu haben, aus welcher Liste dieser Zahlungsbeleg kommt, kann
 
 **Schecknummer als Belegnummer vergeben:**
 
-Hat man im Hausbankenstamm einen Nummernkreis für Schecks hinterlegt, erscheint zusätzlich diese Abfrage. Wird hier der Haken gesetzt, so wird der eingegebene Nummernkreis ignoriert, der im Hausbankenstamm hinterlegte verwendet und die Schecknummer als Belegnummer vergeben. **ACHTUNG:** *dieses Verfahren funktioniert nur, wenn man erst die Schecks druckt und anschließend bucht. Man sollte also hier den Haken bei „Buchen ungedruckter Zahlungen“ nicht setzen.*
+Hat man im Hausbankenstamm einen Nummernkreis für Schecks hinterlegt, erscheint zusätzlich diese Abfrage. Wird hier der Haken gesetzt, so wird der eingegebene Nummernkreis ignoriert, der im Hausbankenstamm hinterlegte verwendet und die Schecknummer als Belegnummer vergeben. <strong>ACHTUNG:</strong> <em>dieses Verfahren funktioniert nur, wenn man erst die Schecks druckt und anschließend bucht. Man sollte also hier den Haken bei „Buchen ungedruckter Zahlungen“ nicht setzen.</em>
 
 Der **Buchungstext** des so erzeugten Beleges wird je nach Einstellung bzw. Datenmaterial gebildet. Dabei gelten folgende Prioritäten:
 

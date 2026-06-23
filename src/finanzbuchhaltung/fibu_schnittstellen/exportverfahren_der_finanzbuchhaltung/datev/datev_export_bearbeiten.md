@@ -47,8 +47,8 @@ AdressName||‘/‘||AdressOrt
 Auszifferungsinformation mit übertragen?  
 Es gibt die Möglichkeit Auszifferungsinformationen an die DATEV-Anwendung OPOS mit zu übergeben. Dabei werden bei Zahlungsbelegen (Belegarten ZA, ZB und SE) als Rechnungsnummer die Rechnungsnummer der bezahlten Rechnungen übergeben und im Belegfeld2 die Belegnummer des Zahlungsbeleges. Da die DATEV nicht für alle in A.eins möglichen Verrechnungsarten (z.B. Bildung von Restposten) Strukturen anbietet, kann die Information nicht in jedem Fall vollständig sein.  
     
-**Achtung:  
-***Wenn man im DATEV-Firmenstamm angegeben hat, dass man für Personenkonten mit* [*Ersatzkontonummern aus der Forderungsgruppe*](./datev_firmenstamm.md#DatevErsatzkontonummer) *arbeiten will, so werden diese Informationen **nicht** mit übertragen.*
+<strong>Achtung:  
+</strong><em>Wenn man im DATEV-Firmenstamm angegeben hat, dass man für Personenkonten mit</em> [*Ersatzkontonummern aus der Forderungsgruppe*](./datev_firmenstamm.md#DatevErsatzkontonummer) *arbeiten will, so werden diese Informationen **nicht** mit übertragen.*
 
 Automatikaufhebung unterdrücken?  
 Bei der DATEV existieren so genannte „[Automatikkonten](./besonderheiten.md#Datevautomatik)“, für die die Steuer nicht in die Schnittstelle mit übergeben werden darf, sondern selbstständig vom DATEV-Programm errechnet wird. Für den Fall, dass in einem Beleg als Steuerbetrag 0,00 eingetragen ist, wird diese Automatik von A.eins unterdrückt. Diese Aufhebung der Automatik lässt sich mit diesem Einrichterparameter abschalten.  

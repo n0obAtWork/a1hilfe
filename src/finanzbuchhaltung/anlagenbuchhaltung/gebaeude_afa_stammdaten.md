@@ -8,7 +8,7 @@ Direktsprung **[ANKGE]**
 
 Auf Gebäude ist grundsätzlich sowohl lineare als auch degressive AfA möglich. Für ein nach dem 31.12.2005 hergestelltes oder angeschafftes Gebäude ist nur noch lineare AfA zulässig.
 
-**HINWEIS<em>:</em>** *Bei der Verwendung der Gebäude-AfA werden zur Bestimmung der bereits errechneten AfA-Zeiträume die Geschäftsjahresstammdaten herangezogen, daher ist es notwendig, dass alle Geschäftsjahre eingerichtet sind.*
+<strong>HINWEIS<em>:</em></strong> <em>Bei der Verwendung der Gebäude-AfA werden zur Bestimmung der bereits errechneten AfA-Zeiträume die Geschäftsjahresstammdaten herangezogen, daher ist es notwendig, dass alle Geschäftsjahre eingerichtet sind.</em>
 
 Die Gebäude-AfA ist sowohl für Lineare als auch für degressive AfA implementiert. Das besondere an der degressiven Gebäude-AfA ist, dass sich die AfA – Sätze im Laufe der Lebensdauer ändern. Bei Linearer AfA kann jedoch nur ein Prozentsatz angegeben werden.
 

@@ -26,7 +26,7 @@ IdentAktivKont, IdentAngefKont)
 0)
 ```
 
-**Hinweis:** *Hat man vergessen einen Eintrag in der Tabelle Ident vorzunehmen, kommt es zu dem Effekt, dass man nur einen Datensatz (mit der Ident 0) erfassen kann.*
+<strong>Hinweis:</strong> <em>Hat man vergessen einen Eintrag in der Tabelle Ident vorzunehmen, kommt es zu dem Effekt, dass man nur einen Datensatz (mit der Ident 0) erfassen kann.</em>
 
 <p class="siehe-auch">Siehe auch:</p>
 

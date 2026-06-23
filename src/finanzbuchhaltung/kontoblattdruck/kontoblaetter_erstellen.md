@@ -25,4 +25,4 @@ Wird dieser Vorgang mit **F9** gestartet werden alle noch in keinem Kontoblatt e
 
 Will man Kontoblätter für Forderungs-/Verbindlichkeitskonten bei Verwendung der Methode „Saldo Stichtag“ erstellen, so geht dies nur, wenn die Perioden bereits abgeschlossen (Direktsprung PERAF) wurden.
 
-**ACHTUNG:** *Sollte das Erstellen der Kontoblätter abgebrochen werden, so müssen die teilweise bearbeiteten Belege wieder freigeschaltet werden. Dazu muss im* [*Fibureorganisator*](../fibu_reorganisator/fibu_reorganisator_allgemein.md) *(Direktsprung FIREO) der Funktion „**Reorg. Fragmente**“ angewählt werden.*
+<strong>ACHTUNG:</strong> <em>Sollte das Erstellen der Kontoblätter abgebrochen werden, so müssen die teilweise bearbeiteten Belege wieder freigeschaltet werden. Dazu muss im</em> [*Fibureorganisator*](../fibu_reorganisator/fibu_reorganisator_allgemein.md) *(Direktsprung FIREO) der Funktion „**Reorg. Fragmente**“ angewählt werden.*

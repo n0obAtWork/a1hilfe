@@ -32,7 +32,7 @@ Die Mahnschreiben werden ausgedruckt. Welches Formular herangezogen wird, wurde 
 
 Nach Eingabe von Zahlungsdatum und Zahlungsfrist, die lediglich als Hinweistext für das Mahnschreiben gedacht sind, und nach Festlegung der Sortierung beginnt der Ausdruck. Im Mahnschreiben besteht auch die Möglichkeit, auf das letzte Zahlungsdatum des Kunden hinzuweisen. Unter Einrichtungsparameter (**Shift F2**) lässt sich zusätzlich einstellen, wie die Darstellung des Sollhabenkennzeichens sein soll und ob die Restposten aufgelöst dargestellt werden sollen.
 
-**ACHTUNG:** *Sobald die Mahnung gedruckt wird, werden die Mahnstufen in den Belegen hochgesetzt und es wird das Datum der letzten Mahnung vermerkt.*
+<strong>ACHTUNG:</strong> <em>Sobald die Mahnung gedruckt wird, werden die Mahnstufen in den Belegen hochgesetzt und es wird das Datum der letzten Mahnung vermerkt.</em>
 
 Eine Mahnung wird nicht gedruckt, wenn der fällige zu mahnende Saldo, der fällige Saldo oder der gesamt auf dem Mahnschreiben ausgegebene Saldo im Haben steht.
 

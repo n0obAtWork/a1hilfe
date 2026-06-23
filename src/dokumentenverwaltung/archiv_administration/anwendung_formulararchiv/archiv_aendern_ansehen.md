@@ -32,7 +32,7 @@ Im „Ändern“-Fall wird bei Archiv-Einträgen, die weder Kundennummer noch Be
 | Funktionen | |
 | --- | --- |
 | ***Archiv anzeigen*** **CF12** | Das Dokument des Archiv-Eintrages anzeigen |
-| ***Beleg-Referenz erzeugen F10*** | Sind Belegnummer und Beleg-Klasse erfasst, bietet diese Funktion die Möglichkeit gemäß den Vorschriften aus [Archiv Fakte](../../archiv_fakte.md) (*fam_ref_vorg*) die Beleg-Referenz zu generieren. |
+| <strong>*Beleg-Referenz erzeugen F10*</strong> | Sind Belegnummer und Beleg-Klasse erfasst, bietet diese Funktion die Möglichkeit gemäß den Vorschriften aus [Archiv Fakte](../../archiv_fakte.md) (*fam_ref_vorg*) die Beleg-Referenz zu generieren. |
 
 ### 
 

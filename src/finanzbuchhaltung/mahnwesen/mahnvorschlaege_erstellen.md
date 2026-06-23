@@ -28,4 +28,4 @@ Der zu mahnende Betrag ergibt sich als Summe aus allen fälligen Belegen, die la
 
 Hat ein offener Posten bereits eine Mahnstufe erreicht, für die die Stammdaten (Mahnsatz bzw. Mahnstamm) nicht mehr eingerichtet sind, so wird jeweils der nächste kleinere Mahnsatz bzw. Mahnstamm herangezogen.
 
-**ACHTUNG:** *Werden zwischen Mahnvorschlägen erstellen und dem Druck der Mahnung fällige OP’s, die auf der Mahnung waren, ausgeziffert, so verschwinden diese aus der Mahnung und der Saldo der Mahnung wird angepasst. Die unter „Mahnungen bearbeiten“ zu findenden Mahnungen sind also nicht als Archiv zu betrachten, da sie sich auch nach dem Druck noch verändern können.*
+<strong>ACHTUNG:</strong> <em>Werden zwischen Mahnvorschlägen erstellen und dem Druck der Mahnung fällige OP’s, die auf der Mahnung waren, ausgeziffert, so verschwinden diese aus der Mahnung und der Saldo der Mahnung wird angepasst. Die unter „Mahnungen bearbeiten“ zu findenden Mahnungen sind also nicht als Archiv zu betrachten, da sie sich auch nach dem Druck noch verändern können.</em>

@@ -13,6 +13,6 @@
 | Mindestbestand | Findet keine Berücksichtigung hinsichtlich der Berechnung der Bestellmenge. Ist der verfügbare Bestand niedriger als der Mindestbestand so wird dieser Bestellvorschlag in ROT gekennzeichnet. |
 | Meldebestand | Unterschreitet der verfügbare Bestand diesen Meldebestand so erscheint dieser Artikel in die Bestellvorschlagsliste. Dieser Bestellvorschlag wird in GELB gekennzeichnet. |
 
-***Anmerkung****:*
+<strong>*Anmerkung*</strong><em>:</em>
 
 Die Bestellsperre im Artikel und im Kunden/Lieferantenstamm werden berücksichtigt in der Auswahlliste !!

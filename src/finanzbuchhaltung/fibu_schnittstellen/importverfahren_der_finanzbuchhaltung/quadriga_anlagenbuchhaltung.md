@@ -6,7 +6,7 @@ Der Import der Daten aus der Quadriga-Anlagenbuchhaltung ist nicht in den Standa
 
 Es existiert ein Hilfsprogramm, das man als private Funktion einbinden kann. Dieses Programm hat zwei Parameter. Der erste Parameter ist der Nummernkreis, der zur Belegnummernvergabe herangezogen wird. Die Inventurnummer aus der Anlagebuchhaltung wird als Referenznummer übernommen. Der zweite Parameter ist das Verzeichnis, auf das die Fileselectionbox zeigt.
 
-**Tipp***: Man kann sich eine private Funktion einrichten, die als Controlstring „^jpl quadriga nummer c::\\verzeichnis“ enthält. Dabei ist zu beachten, dass der Doppeltpunkt beim Verzeichnis zweimal angegeben werden muss und der Backslash (‚\\’) nur einmal. Damit entfällt die Einrichtung des Hilfsprogramms.*
+<strong>Tipp</strong><em>: Man kann sich eine private Funktion einrichten, die als Controlstring „^jpl quadriga nummer c::\\verzeichnis“ enthält. Dabei ist zu beachten, dass der Doppeltpunkt beim Verzeichnis zweimal angegeben werden muss und der Backslash (‚\\’) nur einmal. Damit entfällt die Einrichtung des Hilfsprogramms.</em>
 
 <p class="just-emphasize">Stammdaten</p>
 
