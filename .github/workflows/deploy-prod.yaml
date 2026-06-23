@@ -28,13 +28,18 @@ jobs:
         run: mdbook test
       - name: Build Hilfe
         run: mdbook build
-      # - name: Rename PDF file
-      #   run: mv book/pdf/output.pdf book/pdf/Aeins.pdf
+      - name: Testing some SHA stuff
+        run: | 
+          echo $GITHUB_SHA
+          foo=$(git log -1 --format=%h)
+          echo $foo
+      - name: Rename PDF file
+        run: mv book/pdf/output.pdf book/pdf/Aeins.pdf
       - name: Upload PDF
         uses: actions/upload-artifact@v7
         with:
           name: Aeins.pdf
-          path: book/pdf/output.pdf
+          path: book/pdf/Aeins.pdf
           archive: false
           overwrite: true
       - name: Handle old container
