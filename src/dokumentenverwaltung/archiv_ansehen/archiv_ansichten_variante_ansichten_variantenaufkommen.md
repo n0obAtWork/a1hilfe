@@ -32,4 +32,4 @@ In dieser Variante „Ansichten – Variantenaufkommen“ geht es um die Beantwo
 | --- | --- |
 | ***Ansehen*** **F6** | Archiv-Ansichtsdefinition ansehen |
 | Variante starten… F10 | Startet die Variante<br> |
-| ***Funktion ansehen/bearbeiten*** **F11** | Funktion bearbeiten |
+| ***Funktion ansehen/bearbeiten* F11** | Funktion bearbeiten |

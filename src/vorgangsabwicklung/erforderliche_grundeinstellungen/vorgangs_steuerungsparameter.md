@@ -157,7 +157,7 @@ Aut. Umbruch Textzeilen beim Drucken
 **Wertemöglichkeiten/Funktionen:**  
 Ja = Beim Ausdruck von Textzeilen, aber auch Textbausteinen etc., werden die Textzeilen automatisch umgebrochen, wenn das Ausgabefeld im Vorgang eine geringere Länge in der Zeile aufweist, als der erfasste Text.
 
-<strong>*Nein =*</strong> Bei Eingabe von "Nein" wird der Text abgeschnitten.
+***Nein =*** Bei Eingabe von "Nein" wird der Text abgeschnitten.
 
 Vorgangstexte zwangsweise vor Hauptteil
 

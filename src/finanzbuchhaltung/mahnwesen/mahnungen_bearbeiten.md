@@ -56,7 +56,7 @@ Die Buchungssätze für Mahngebühren, Zinsen etc. werden erstellt.
 
 ![Ein Bild, das Text enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_639.png "Ein Bild, das Text enthält. Automatisch generierte Beschreibung")
 
-Abgefragt werden das Beleg- und das Fälligkeitsdatum. Der Nummernkreis wird, wie in der Nummernkreiszuordnung Finanzbuchhaltung (Direktsprung **[NKF]**) für Ausgangsrechnungen hinterlegt, vorgeschlagen. Durch auslösen der Funktion ***Starten*** **F9** wird der Vorgang gestartet.
+Abgefragt werden das Beleg- und das Fälligkeitsdatum. Der Nummernkreis wird, wie in der Nummernkreiszuordnung Finanzbuchhaltung (Direktsprung **[NKF]**) für Ausgangsrechnungen hinterlegt, vorgeschlagen. Durch auslösen der Funktion ***Starten* F9** wird der Vorgang gestartet.
 
 Den Text der Hauptposition kann im [Mahnstamm](./mahnstamm.md) im Feld Buchungstext hinterlegen. Ist dort kein Text eingetragen, dann wird der im Einrichterparameter „**Text Hauptzeile bei Übernahme der Mahnungen in die Primanota**“ hinterlegte Text verwendet. Ist auch hier kein Text eingerichtet, so wird der Standardtext „Mahngebühren und Mahnzinsen verwendet.
 

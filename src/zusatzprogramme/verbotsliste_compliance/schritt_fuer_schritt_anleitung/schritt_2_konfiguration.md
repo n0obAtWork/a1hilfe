@@ -18,7 +18,7 @@ Um eine Personen/Adressprüfung manuell auszuführen hat man 2 Möglichkeiten:
 
 <strong>1.</strong> Im Kundenstamm: Direktsprung **[KU]**
 
-**2. Im Lieferantenstamm: Direktsprung** **[LF]**
+**2. Im Lieferantenstamm: Direktsprung [LF]**
 
 <strong>3.</strong> Im Anschriftenstamm: Direktsprung **[Ansch]**
 

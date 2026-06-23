@@ -8,7 +8,7 @@ Direktsprung **[PKXI]**
 
 In der Variante **Individualpreise Protokoll** werden alle durchgeführten Importe gesammelt und können nachträglich noch einmal überprüft werden. Dafür die folgenden Schritte ausführen:
 
-<strong>1.</strong> Mit dem Klick auf das **Fernglas-Symbol** im oberen Bereich oder das Drücken der Taste **F2** kommt man in den Dialog **Individualpreise Protokoll**. Hier kann nach dem Zeitpunkt des Imports gefiltert werden. Dafür das Optionsfeld **Zeitpunkt** aktvieren und einen gültigen Zeitraum eintragen. Über Doppelklick öffnet sich der interaktive Kalender. Alternativ kann ein Datum oder der Wert „heute“ eingetragen werden. **Speichern und zurück** wählen oder **F9** **drücken**, um den Dialog zu schließen und die Auswahlliste zu aktualisieren.
+<strong>1.</strong> Mit dem Klick auf das **Fernglas-Symbol** im oberen Bereich oder das Drücken der Taste **F2** kommt man in den Dialog **Individualpreise Protokoll**. Hier kann nach dem Zeitpunkt des Imports gefiltert werden. Dafür das Optionsfeld **Zeitpunkt** aktvieren und einen gültigen Zeitraum eintragen. Über Doppelklick öffnet sich der interaktive Kalender. Alternativ kann ein Datum oder der Wert „heute“ eingetragen werden. **Speichern und zurück** wählen oder **F9 drücken**, um den Dialog zu schließen und die Auswahlliste zu aktualisieren.
 
 **![](../../../ImagesExt/image8_1222.png)**
 

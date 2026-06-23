@@ -4,7 +4,7 @@
 
 Hauptmenü > Produktion / Abwicklung > Produktionsabwicklung > Produktion
 
-oder Direktsprung **[PROB]** **und** **[PROSE]**
+oder Direktsprung **[PROB] und [PROSE]**
 
 Dieses Modul ist nur bei entsprechend eingestelltem Steuerparameter Produktions-Schnellerfassung aktiv.
 

@@ -16,7 +16,7 @@ Auch wenn ein Kunde gelöscht wird, kann diese Kontonummer nicht erneut vergeben
 
 Dies ist der sichtbare (logische) Kundenschlüssel für Sortierungen und Selektionen.
 
-Die Kunden-/Lieferantennummer ist eindeutiges Suchkriterium. Die Länge der Nummer kann in den Steuerparametern **[SPA]** eingestellt werden; die Voreinstellung beträgt **8** Stellen Eine sichere Verwaltung des Kundennummernbereiches wird über einen im Mandantenstamm hinterlegten Nummernkreis gewährleistet. Darüber hinaus kann in den **[SPA]** bestimmt werden, dass bei einer Neuanlage immer die nächste freie Nummer vorgeschlagen wird.
+Die Kunden-/Lieferantennummer ist eindeutiges Suchkriterium. Die Länge der Nummer kann in den Steuerparametern <strong>[SPA]</strong> eingestellt werden; die Voreinstellung beträgt **8** Stellen Eine sichere Verwaltung des Kundennummernbereiches wird über einen im Mandantenstamm hinterlegten Nummernkreis gewährleistet. Darüber hinaus kann in den <strong>[SPA]</strong> bestimmt werden, dass bei einer Neuanlage immer die nächste freie Nummer vorgeschlagen wird.
 
 **Kurzbezeichnung**
 
@@ -82,7 +82,7 @@ Eingabe der Telefonnummer
 **EDI-Partner**
 
 Wenn man EDI benutzen möchte, muss hier für den jeweiligen Kunden der Partner hinterlegt werden. In diesem Partner sind nämlich Profile hinterlegt, mit der die EDI-Nachrichten erstellt werden.  
-Die Profile werden im Direktsprung <strong>[EDI]</strong> gepflegt. Dort kann man dann mit der Funktion **Shift+F9** ***(B und N Setup)*** die Formatierung der Nachricht anpassen.
+Die Profile werden im Direktsprung <strong>[EDI]</strong> gepflegt. Dort kann man dann mit der Funktion **Shift+F9 <em>(B und N Setup)</em>** die Formatierung der Nachricht anpassen.
 
 **Partner 1**
 
@@ -140,8 +140,8 @@ Nummer des Eintrags im Handelsregister.
 
 <p class="just-emphasize">Achtung!!!</p>
 
-*Die ehemalige Variante unter **[ZMDO]*** *die dieses Kennzeichen auswertet (Zusammenfassende Meldung) ist veraltet. Das Kennzeichen wird nicht weiter unterstützt.  
-Die aktuell gültige Variante in **[ZMDO]*** *ist „Zusammenfassende Meldung n. AWPosition“. Diese benutzt das Aktiv-Kennzeichen nicht.*
+*Die ehemalige Variante unter **[ZMDO]** die dieses Kennzeichen auswertet (Zusammenfassende Meldung) ist veraltet. Das Kennzeichen wird nicht weiter unterstützt.  
+Die aktuell gültige Variante in **[ZMDO]** ist „Zusammenfassende Meldung n. AWPosition“. Diese benutzt das Aktiv-Kennzeichen nicht.*
 
 Dieses Feld ist nur betretbar, wenn im Feld USt.-Ident eine Umsatzsteueridentifikationsnummer eingetragen wurde. Ansonsten ist das Feld deaktiviert und belegt mit ‚Nein‘.  
 Für den Fall, dass eine Umsatzsteueridentifikationsnummer angegeben wurde, hängt die Vorbelegung des Feldes aktiv vom Einrichterparameter „Umsatzsteuer-ID nach Eingabe automatisch aktivieren?“ ab. Der Einrichterparameter ist vorbelegt mit ‚Nein‘.  

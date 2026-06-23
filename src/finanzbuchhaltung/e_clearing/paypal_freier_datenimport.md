@@ -11,7 +11,7 @@ Der "Freie Datenimport" und der PayPal Import unterscheiden sich nur in wenigen 
 <details>
 <summary>Schritt 1: Lizenzen</summary>
 
-Für das Einspielen von PayPal-Kontoauszügen wird neben der *e-Clearing-Lizenz eine PayPal-Lizenz* benötigt. Nutzt man den "Freien Datenimport", so ist die *Freier D**atenimport* *Lizenz* zusätzlich zur e-Clearing-Lizenz notwendig.
+Für das Einspielen von PayPal-Kontoauszügen wird neben der *e-Clearing-Lizenz eine PayPal-Lizenz* benötigt. Nutzt man den "Freien Datenimport", so ist die *Freier Datenimport Lizenz* zusätzlich zur e-Clearing-Lizenz notwendig.
 
 </details>
 

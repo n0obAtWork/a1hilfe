@@ -87,7 +87,7 @@ Ist die Gruppe, das Register bzw. das Makro einmal festgelegt, kann man bei Feld
 
 Die Funktion „***Gruppe umbenennen***“ schaltet das Feld in dem der Name der Gruppen steht frei, so dass man dort den neuen Gruppenamen eingeben kann. Diese Gruppe darf noch nicht existieren. Es werden immer **alle** Felder der alten Gruppe der neuen Gruppe zugeordnet.
 
-Hat man ein Screen- bzw. Feld-Makro angegeben, steht hier die Funktionen ***„Screen Makro bearbeiten*** **SF5**“ bzw. „***Makro bearbeiten* CF5**“ zur Verfügung, um das Makro direkt zu bearbeiten, so dass man nicht extra die Anwendung zur Makrobearbeitung aufrufen muss.
+Hat man ein Screen- bzw. Feld-Makro angegeben, steht hier die Funktionen ***„Screen Makro bearbeiten* SF5**“ bzw. „***Makro bearbeiten* CF5**“ zur Verfügung, um das Makro direkt zu bearbeiten, so dass man nicht extra die Anwendung zur Makrobearbeitung aufrufen muss.
 
 <p class="siehe-auch">Siehe auch:</p>
 

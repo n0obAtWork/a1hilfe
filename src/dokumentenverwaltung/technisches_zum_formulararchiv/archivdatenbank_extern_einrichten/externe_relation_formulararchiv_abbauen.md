@@ -29,7 +29,7 @@ Als letzte Maßnahme wird eine Reorganisation der Datenbank empfohlen.
 
 **Schritt1:**
 
-Direktsprung **[OSQL]**, ***Sql-Statement*** **F5**, Formulararchiv eingeben und structure anklicken. Es geht dann ein Notepad mit dem Anlagestatement auf.
+Direktsprung **[OSQL]**, ***Sql-Statement* F5**, Formulararchiv eingeben und structure anklicken. Es geht dann ein Notepad mit dem Anlagestatement auf.
 
 Kopieren Sie aus dieser Datei sinngemäß
 

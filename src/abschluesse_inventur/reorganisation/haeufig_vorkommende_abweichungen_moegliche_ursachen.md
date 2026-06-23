@@ -24,7 +24,7 @@
 
   Im Mandantenserver können sich noch Einträge befinden, die von AMIC-Mitarbeitern zwischenzeitlich deaktiviert wurden (DS_STATUS = 2). Ferner bleiben dort eventuell Einträge mit dem DS_STATUS = 3, wenn der Mandantenserver während des Abarbeitens eines Eintrages abbricht. Hierzu gibt es in der Konsistenzprüfung mehrere Übersichten.
 
-  Die mit DS_STATUS = 3 gekennzeichneten Belege können mit der Konsistenzfunktion<strong>!!! ***Mandantenserver Status 3 freigeben***</strong> wieder aktiviert werden.
+  Die mit DS_STATUS = 3 gekennzeichneten Belege können mit der Konsistenzfunktion**!!! ***Mandantenserver Status 3 freigeben***** wieder aktiviert werden.
 
   Die Einträge mit DS_STATUS = 2 erfordern eine Bearbeitung von AMIC-Mitarbeitern und sollten nur nach ANWEISUNG bearbeitet werden.
 
@@ -32,7 +32,7 @@
 
 - Warenbewegungen / Vorgangsdifferenzen
 
-  Falls unter **[WABST]** Differenzen zwischen den Bereichen WARENBELEGE und WARENPOSITIONEN auftreten und der oben beschriebene Punkt ‚Unterschiedliche Periodenführung’ keine negativen Ergebnisse liefert, sollte man die Konsistenzfunktion *****Warenbewegung / Vorgangsdifferenzen***** starten.
+  Falls unter <strong>[WABST]</strong> Differenzen zwischen den Bereichen WARENBELEGE und WARENPOSITIONEN auftreten und der oben beschriebene Punkt ‚Unterschiedliche Periodenführung’ keine negativen Ergebnisse liefert, sollte man die Konsistenzfunktion ***Warenbewegung / Vorgangsdifferenzen*** starten.
 
   Als Ergebnis erhält man eine Übersicht über alle Belege, deren Gesamtbelegsumme nicht mit der Summe aus den Einzelpositionen übereinstimmen. In der Regel handelt es sich hier um Auswirkungen von früheren Programmfehlern. Folgende Differenzen können mit folgenden Reparaturanweisungen behoben werden:
 
@@ -42,14 +42,14 @@
 
 - Die Belegsumme entspricht genau der zweifachen Warensumme
 
-  Hierbei handelt es sich um einen Programmfehler. Mit der Konsistenzfunktion <strong>***!!! Vorgänge mit doppelten Beträgen***</strong> werden diese Belege automatisch richtiggestellt. (Die doppelte Summe wurde beim Übertrag in die FIBU nicht berücksichtigt, die Fibu ist mit diesen Belegen stimmig!)
+  Hierbei handelt es sich um einen Programmfehler. Mit der Konsistenzfunktion ***!!! Vorgänge mit doppelten Beträgen*** werden diese Belege automatisch richtiggestellt. (Die doppelte Summe wurde beim Übertrag in die FIBU nicht berücksichtigt, die Fibu ist mit diesen Belegen stimmig!)
 
 **Beispiele für evtl. Fehler:**
 
 | Fehler | Fehlermöglichkeiten | Lösungsmöglichkeiten |
 | --- | --- | --- |
 | Die Summe Erlöse /Aufwand ist in der Ware höher als in der Fibu | Fehler im Fehlerprotokoll Fibu-Übertrag (falsche EKZZ)<br>Fibu-Übertrag nicht gestartet<br>nicht alle Belege übertragen<br>Mandantenserver nicht gelaufen | Fehlerprotokoll prüfen<br>Mandantenserver starten<br>Auswahlbereiche überprüfen<br> |
-| Unterschiedliche Periodenführung in der Ware und der Fibu | SPA-Einstellung: Variante Periodenermittlung für FIBU = Datum<br>SPA-Einstellung: Rechnungstrennung durch Periode = NEIN<br>Abweichende Einrichtung Fibu- / Warenperioden | Konsistenzprüfung: Belege mit abweichenden Perioden<br>Wenn Unstimmigkeit, dann in **[WAREO]****:**<br>Perioden angleichen<br>Gesamtreorganisation<br> |
+| Unterschiedliche Periodenführung in der Ware und der Fibu | SPA-Einstellung: Variante Periodenermittlung für FIBU = Datum<br>SPA-Einstellung: Rechnungstrennung durch Periode = NEIN<br>Abweichende Einrichtung Fibu- / Warenperioden | Konsistenzprüfung: Belege mit abweichenden Perioden<br>Wenn Unstimmigkeit, dann in **[WAREO]:**<br>Perioden angleichen<br>Gesamtreorganisation<br> |
 | Fehlerhafte Einträge im Mandanten | Absturz, während der Mandantenserver lief<br>Kaputter Eintrag vom AMIC-Support zurückgestellt (DS_STATUS = 2)<br> | Konsistenzprüfung: ***Zurückgestellte Mandantenservereinträge***<br>Konsistenzprüfung: ***Redundante Mandantenservereinträge löschen***<br>Konsistenzprüfung: ***Mandantenserver Status 3 freigeben***<br>alle Prüfungen mit Mandantenserver checken |
 | Warenbelegsumme und Artikelsummen stimmen nicht überein | Stammdateneinrichtung (Mengeneinheiten / Gebinde / etc.) | Stammdaten korrigieren<br>AMIC-Support |
 | Es fehlen Belege in der Ware, die aber in der Fibu vorhanden sind | Programmfehler<br>Fehler durch AMIC-Support oder Anwender (gelöscht mit OSQL) | Storno-Buchung in der Fibu erzeugen (AR - Betrag)<br>Beleg in der Ware neu erfassen und dann Fibu-Übertrag<br>Fibu-Beleg per OSQL löschen (Nur durch den AMIC-SUPPORT!!) |

@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/erstellenderedidateiaufdempcau.htm -->
 
-Das Erstellen der Physischen EDI-Datei erfolgt durch das Programm **A.eins.Rosi.****GscEdiExport.**
+Das Erstellen der Physischen EDI-Datei erfolgt durch das Programm **A.eins.Rosi.GscEdiExport.**
 
 Als Parameter wird der **DSN** der Datenbank übergeben.
 

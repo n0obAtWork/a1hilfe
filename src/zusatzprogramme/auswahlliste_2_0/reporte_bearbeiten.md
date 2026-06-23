@@ -36,4 +36,4 @@ Unter *„Zusatz Informationen“* stehen die Werte, die aus einer privaten View
 
 **Achtung:** *Diese View gilt für alle Auswahllisten-Reporte und sollte nur einen Datensatz liefern.*
 
-**Hinweis:** Eine Übersicht über alle existierenden Reporte findet man in der Anwendung „Anwendung administrieren“ (Direktsprung **[ANW]****)** in der Variante „Anwendungsreporte“.
+**Hinweis:** Eine Übersicht über alle existierenden Reporte findet man in der Anwendung „Anwendung administrieren“ (Direktsprung <strong>[ANW])</strong> in der Variante „Anwendungsreporte“.

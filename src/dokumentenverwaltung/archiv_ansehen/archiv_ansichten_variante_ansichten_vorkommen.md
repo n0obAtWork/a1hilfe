@@ -30,7 +30,7 @@ Sie verschafft eine Übersicht darüber, in welcher Optionbox (der dazugehörige
 
 | Funktionen | |
 | --- | --- |
-| ***Funktion ansehen/bearbeiten*** **F11** | Funktion bearbeiten |
+| ***Funktion ansehen/bearbeiten* F11** | Funktion bearbeiten |
 | ***Ansicht ansehen*** **F6** | Archiv-Ansichtsdefinition ansehen |
 | ***Ansicht bearbeiten*** **F5** | Archiv-Ansichtsdefinition bearbeiten |
 | ***Funktion Informationen*** **F9** | Funktionsinformationen |

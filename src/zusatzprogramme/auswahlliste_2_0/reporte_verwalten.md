@@ -23,4 +23,4 @@ Die Funktionen ***„speichern als“***, ***„umbenennen“***, und ***„lös
     
 Mit der Funktion „speichern und weiter“ wird ggf. die Änderung der Beschreibung gespeichert und man gelangt in den AMIC-Etikettendruck, in dem man dann die ausgewählte Liste/Etikette/Karteikarte [bearbeiten](./reporte_bearbeiten.md) kann.
 
-**Hinweis:** Eine Übersicht über alle existierenden Reporte findet man in der Anwendung „Anwendung administrieren“ (Direktsprung **[ANW]****)** in der Variante „Anwendungsreporte“.
+**Hinweis:** Eine Übersicht über alle existierenden Reporte findet man in der Anwendung „Anwendung administrieren“ (Direktsprung <strong>[ANW])</strong> in der Variante „Anwendungsreporte“.

@@ -17,4 +17,4 @@ In dieser Anwendung werden die Typen eines Ladeträgers angelegt. Ein Ladeträge
 | Bruttogewicht | Anzeigefeld des Bruttogewichts des Artikelstamms |
 | Breite | Breite des Ladeträgers – Siehe auch [Anwendung von Lokalitätengruppen](./anwendung_von_lokalitaetengruppe.md) |
 
-Im Ändern-Modus kann über die Funktion ***Artikelstamm*** **F10** in die Bearbeitungsmaske des aktuellen Artikelstamms gesprungen werden.
+Im Ändern-Modus kann über die Funktion ***Artikelstamm* F10** in die Bearbeitungsmaske des aktuellen Artikelstamms gesprungen werden.

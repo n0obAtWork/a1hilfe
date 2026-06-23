@@ -33,6 +33,6 @@ Diese Aufgabe findet man jetzt in der **Aufgabenplanung** von Windows in der Pla
 
 <p class="just-emphasize">Zusatzfunktionen</p>
 
-***Aufgabenplaner aufrufen*** **F6:** Diese Funktion steht dann zur Verfügung, wenn der Anwender eigene Aufgaben aus A.eins heraus erstellt hat.
+***Aufgabenplaner aufrufen* F6:** Diese Funktion steht dann zur Verfügung, wenn der Anwender eigene Aufgaben aus A.eins heraus erstellt hat.
 
 ***Archiv anzeigen*** **Strg+F12**: Sobald für den Anwender Archiveinträge zu diesem Report existieren, die aus dem Aufgabenplaner heraus erstellt wurden, gelangt man von hier in die Archiv-Ansicht.

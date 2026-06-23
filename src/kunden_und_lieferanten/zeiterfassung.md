@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Kunden-/Lieferanten > Zeiterfassung
 
-oder Direktsprung **[KU]/****[LF]** \> Zeiterfassung
+oder Direktsprung **[KU]/[LF]** \> Zeiterfassung
 
 **Vorbereitung:**
 

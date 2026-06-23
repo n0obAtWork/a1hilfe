@@ -9,11 +9,11 @@ Direktsprung **[MHVB]**.
 Die automatisch und manuell erstellten Mahnvorschläge können dann bearbeitet werden.  
 Im Auswahlbildschirm stehen die Vorschläge nach Listennummern und Kontonummer geordnet zur Verfügung. Nach Anwahl eines Vorschlags bestehen u.a. folgenden Möglichkeiten:
 
-***Löschen*** **F7**
+***Löschen* F7**
 
 Der komplette Mahnvorschlag kann gelöscht werden.
 
-***Freigabe*** **F6**
+***Freigabe* F6**
 
 Der Mahnvorschlag wird zur Mahnung übernommen
 
@@ -36,13 +36,13 @@ Um **Mahnvorschläge zu ändern, werden i**n einer weiteren Anwendung zu den aus
 
 Mit **&lt;, >** wird zwischen den Konten geblättert.
 
-**F5**<strong>:</strong> Es können weitere Belege zu dieser Mahnung hinzugefügt werden, die bisher nicht hinzugefügt worden sind (Siehe Einstellung in den Mahngruppen).
+<strong>F5:</strong> Es können weitere Belege zu dieser Mahnung hinzugefügt werden, die bisher nicht hinzugefügt worden sind (Siehe Einstellung in den Mahngruppen).
 
-**F6****: Freigabe des gesamten Vorschlags.**
+**F6: Freigabe des gesamten Vorschlags.**
 
-**F7**<strong>:</strong> Es können einzelne Positionen oder der gesamte Vorschlag gelöscht werden.
+<strong>F7:</strong> Es können einzelne Positionen oder der gesamte Vorschlag gelöscht werden.
 
-**Umschalt F5****:** Nur hier hat man noch die Möglichkeit, Zinsen manuell zu ändern. Dies muss pro Position geschehen.
+**Umschalt F5:** Nur hier hat man noch die Möglichkeit, Zinsen manuell zu ändern. Dies muss pro Position geschehen.
 
 ![Ein Bild, das Text, Screenshot, Display, Software enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_635.png "Ein Bild, das Text, Screenshot, Display, Software enthält. Automatisch generierte Beschreibung")
 

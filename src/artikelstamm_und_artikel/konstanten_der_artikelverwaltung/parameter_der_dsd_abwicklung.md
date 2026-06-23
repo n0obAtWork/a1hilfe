@@ -9,7 +9,7 @@ Das Duale System ist eine privatwirtschaftliche Initiative, welche die Produktve
 
 Um nun mit Hilfe von A.eins die Anforderungen zu erfüllen, die an ein Wirtschaftsunternehmen gestellt werden sind in den folgenden Bereichen Eintragungen notwendig:
 
-**Materialgewichtsabhängige Sätze** **[DSDM]**
+**Materialgewichtsabhängige Sätze [DSDM]**
 
 Die Materialgruppen des Dualen Systems Deutschland DSD werden in A.eins mitgeliefert. Sie können bei Bedarf erweitert werden. In jedem Fall müssen die Preise eingegeben werden. Hierbei können die nachfolgenden Felder erfasst werden.
 
@@ -37,7 +37,7 @@ Preiseinheit zum Gewichtssatz des abgesetzten Grüner-Punkt-Materials.
 
 Beschreibung Preis-Mengeneinheit zum Gewichtssatz.
 
-**Volumen / Stückabhängige Sätze** **[DSDV]**
+**Volumen / Stückabhängige Sätze [DSDV]**
 
 Die Volumengruppen des Dualen Systems Deutschland DSD werden in A.eins ebenfalls mitgeliefert. Sie können bei Bedarf erweitert werden.  
 In jedem Fall müssen die Preise eingegeben werden.

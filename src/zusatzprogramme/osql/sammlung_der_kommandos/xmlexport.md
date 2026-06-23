@@ -4,7 +4,7 @@
 
 <p class="just-emphasize">Syntax</p>
 
-XMLEXPORT Relationsname [ **ON** **EXISTING** { **ERROR** **|** **SKIP** **|** **UPDATE** } ]  
+XMLEXPORT Relationsname [ **ON EXISTING** { **ERROR | SKIP | UPDATE** } ]  
 [ REPLACING ColumnName=Value ]  
 [ **WHERE** *search-condition* ]  
 [ WITH DELETE]  

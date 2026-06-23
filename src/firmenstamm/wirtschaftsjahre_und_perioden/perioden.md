@@ -80,7 +80,7 @@ Für die Inventurperiode selber (z.B. 12 / 99) muss ein Buchungsschluss gesetzt 
 
 1. Hinweise zum Periodenabschluss beachten!
 
-2. Auswahl der Periode (es können nur die Perioden ausgewählt werden, die vorher per Buchungsschluss ****[PERBS]**** geschlossen wurden).
+2. Auswahl der Periode (es können nur die Perioden ausgewählt werden, die vorher per Buchungsschluss **[PERBS]** geschlossen wurden).
 
 3. Einstellen der Optionen:
 

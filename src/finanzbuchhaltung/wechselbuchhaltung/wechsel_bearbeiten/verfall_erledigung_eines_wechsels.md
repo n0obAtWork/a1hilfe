@@ -34,7 +34,7 @@ Bank 10.000,00
 an  
 Besitzwechsel 10.000,00
 
-**Besitzwechsel** **weitergegeben:** (nur wenn Wechselkonto ungleich Obligokonto)
+**Besitzwechsel weitergegeben:** (nur wenn Wechselkonto ungleich Obligokonto)
 
 Besitzwechselobligo 10.000,00
 

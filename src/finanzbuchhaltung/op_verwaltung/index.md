@@ -8,7 +8,7 @@ Direktsprung **[OPV]**.
 
 Nach Anwahl des Menüpunkts **OP-Verwaltung** wird zuerst abgefragt, für welche Buchungsperiode die Bearbeitung durchgeführt werden soll. Danach wird in den OP - Bildschirm gewechselt, der verschiedene Bearbeitungsmöglichkeiten anbietet. Hierbei handelt es sich um Funktionen zur Bearbeitung und Verrechnung von OP’s. Zuerst wird die Kontonummer des OP-Kontos eingegeben. Zu OP-Konten zählen alle Personenkonten und die [Sachkonten](../stammdaten_der_fibu/sachkonten.md), die in den Stammdaten das Kennzeichen OP-Konto auf **Ja** stehen haben.
 
-Bei der Eingabe des Kontos kann der Name oder die Nummer eingegeben werden und es wird dann nach diesem Kennzeichen gesucht. Wenn Kontonummer oder der Name nicht bekannt oder eindeutig sind, kann über **F3** **nach weiteren Merkmalen gesucht werden**:
+Bei der Eingabe des Kontos kann der Name oder die Nummer eingegeben werden und es wird dann nach diesem Kennzeichen gesucht. Wenn Kontonummer oder der Name nicht bekannt oder eindeutig sind, kann über **F3 nach weiteren Merkmalen gesucht werden**:
 
 - Alle Konten nach Kontonummer
 - Personenkonten nach Nachname, Vorname

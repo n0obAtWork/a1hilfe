@@ -8,7 +8,7 @@ Nach Beendigung der Erfassung gelangt man mit **ESC** wieder in den Kopfteil der
 
 <p class="just-emphasize">Vorschau Druck (SF5)</p>
 
-Diese Funktion ermöglicht es, sich den erfassten Vorgang so wie er ausgedruckt wird, auf dem Bildschirm anzeigen zu lassen. (In der Regel wird die Optik genau wie der Ausdruck gestaltet sein, es ist jedoch auch möglich, ihn völlig anders zu gestalten!) Somit wird vor dem Ausdruck noch einmal eine visuelle Kontrolle ermöglicht. Wenn ein Fehler festgestellt wird, kann über die Funktion ***Positionsteil*** **F5** wieder zur Erfassung zurückgekehrt werden.
+Diese Funktion ermöglicht es, sich den erfassten Vorgang so wie er ausgedruckt wird, auf dem Bildschirm anzeigen zu lassen. (In der Regel wird die Optik genau wie der Ausdruck gestaltet sein, es ist jedoch auch möglich, ihn völlig anders zu gestalten!) Somit wird vor dem Ausdruck noch einmal eine visuelle Kontrolle ermöglicht. Wenn ein Fehler festgestellt wird, kann über die Funktion ***Positionsteil* F5** wieder zur Erfassung zurückgekehrt werden.
 
 <p class="just-emphasize">Gesamtsummen (SF10)</p>
 

@@ -20,7 +20,7 @@ Durch den automatischen Suchalgorithmus muss auf den Clienten selbst das in „L
 | TSE-ID | Gibt die TSE-ID der Konfiguration an. |
 | Gültig ab | Gibt an, ab wann die TSE-Konfiguration gültig ist. |
 | Aktiv-Datum | Hier wird das **Gültig ab** der zurzeit maßgeblichen TSE-Einstellung angezeigt.<br>Hinweis:<br>Das beantwortet die Frage „Welche Konfiguration würde zum jetzigen Zeitpunkt vom System herangezogen?<br>Ist nur eine Konfiguration zur „TSE-ID“ vorhanden, stimmen **Aktiv-Datum** und **Gültig Ab** überein. |
-| Status/Verfügbarkeit | Gibt an, ob die TSE aus Sicht des aktuellen Arbeitsplatzes verfügbar ist.<br>Wenn **nein** **aktiviert ist**, dann gibt es eine textuelle Erläuterung.<br>Wenn **ja** aktiviert ist, wird **Datum und Uhrzeit** des letzten Zugriffs gemäß TSE-Spezifikation angezeigt. |
+| Status/Verfügbarkeit | Gibt an, ob die TSE aus Sicht des aktuellen Arbeitsplatzes verfügbar ist.<br>Wenn **nein aktiviert ist**, dann gibt es eine textuelle Erläuterung.<br>Wenn **ja** aktiviert ist, wird **Datum und Uhrzeit** des letzten Zugriffs gemäß TSE-Spezifikation angezeigt. |
 | Hardware-Host | Name/IP des Hosts zum Zeitpunkt der Ersteinrichtung.<br>(Je nach Ausstattung können mehrere IPs aufgelistet werden) |
 | Dieser Rechner | Name/IP des aktuellen Arbeitsplatzrechners<br>(Je nach Ausstattung können mehrere IPs aufgelistet werden). |
 | Bezeichnung | Frei wählbare Bezeichnung der TSE. |

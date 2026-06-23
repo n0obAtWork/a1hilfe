@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_profilebereichef2.htm -->
 
-Die vorhandenen Profile werden in der linken Oben im Menü-Band der Auswahlliste angezeigt. Bei Profilen handelt es sich um fest eingestellte Bereichseingrenzungen des Datenmaterials, die in Verbindung mit einer Variante ausgewertet werden sollen. Für unterschiedliche immer wiederkehrende Anfragen an das System kann man einmal vorgenommene Bereichseingrenzungen unter einem Namen speichern. Um Eingrenzungen vorzunehmen und Profile zu bearbeiten, steht in Auswahllisten die Funktion ***Bereichsauswahl*** **F2** zur Verfügung. Wenn man diese Funktion betätig öffnet sich ein Dialog, in dem die möglichen Eingrenzungen des Datenmaterials abgefragt werden.
+Die vorhandenen Profile werden in der linken Oben im Menü-Band der Auswahlliste angezeigt. Bei Profilen handelt es sich um fest eingestellte Bereichseingrenzungen des Datenmaterials, die in Verbindung mit einer Variante ausgewertet werden sollen. Für unterschiedliche immer wiederkehrende Anfragen an das System kann man einmal vorgenommene Bereichseingrenzungen unter einem Namen speichern. Um Eingrenzungen vorzunehmen und Profile zu bearbeiten, steht in Auswahllisten die Funktion ***Bereichsauswahl* F2** zur Verfügung. Wenn man diese Funktion betätig öffnet sich ein Dialog, in dem die möglichen Eingrenzungen des Datenmaterials abgefragt werden.
 
 ![](../../../../ImagesExt/image8_1271.png)
 

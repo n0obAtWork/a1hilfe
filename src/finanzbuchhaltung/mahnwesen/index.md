@@ -9,7 +9,7 @@ Zum Erstellen von Mahnungen sind folgende Schritte notwendig:
 - **Mahnvorschläge erstellen**
 - **Mahnvorschläge bearbeiten und freigeben**
 
-**•** **Mahnungen bearbeiten**
+**• Mahnungen bearbeiten**
 
 <p class="siehe-auch">Siehe auch:</p>
 

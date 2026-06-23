@@ -12,7 +12,7 @@ In der Variante „Buchungssatzimport“ können importierte Dateien gelöscht w
 
 Des Weiteren wird angezeigt, ob eine Datei erfolgreich in den FIBUIMPORT eingespielt wurde. Ist eine Datei nicht erfolgreich in die FIBUIMPORT eingespielt worden, da z.B. die Kontonummer oder die Gegenkontonummer nicht im System eingerichtet sind, wird beim nächsten Importlauf noch einmal versucht diese Datei einzuspielen.
 
-Um einen Import durchzuführen, klicken Sie bitte auf ***Buchungssatz Import XML*** **F9**.
+Um einen Import durchzuführen, klicken Sie bitte auf ***Buchungssatz Import XML* F9**.
 
 <p class="just-emphasize">Bereitstellung der XML Datei</p>
 

@@ -6,7 +6,7 @@ Hauptmenü > Finanzbuchhaltung > Erfassung > Belegerfassung
 
 Direktsprung **[FIBE]**
 
-***Anzeige Primanota aktualisieren*** **F9**
+***Anzeige Primanota aktualisieren* F9**
 
 Die Anzeige wird aktualisiert, so dass eventuell neu hinzugekommene Beleg mit angezeigt werden.
 
@@ -44,7 +44,7 @@ ZB Zahlungsverkehr Bank
 KB [Kursdifferenzbuchung](../waehrungsbehandlung_in_der_finanzbuchhaltung/fuehrung_von_devisenkonten.md)  
 [Kostenobjekt umbuchen](../kostenrechnung/kostenobjekte/kostenobjekte_einrichtung.md#Kostenobjektumbuchung)
 
-***Neuen Wechsel erstellen*** **F8**
+***Neuen Wechsel erstellen* F8**
 
 Aufruf der Erfassungsmaske für [Wechsel](../wechselbuchhaltung/index.md).
 

@@ -26,4 +26,4 @@ Direktsprung **[KODD]**
 
 Hierbei handelt es sich um einen vordefinierten Crystal-Report, der auf Basis der erstellten Kontoblätter die Informationen zu den Buchungen ausgibt. Man kann hier nach der Laufnummer (KontoBlDruckId) – dann werden nur die Daten dieses Kontoblatts ausgedruckt - oder nach der Jahrnummer eingrenzen – hier werden dann alle Kontoblätter, die in dem ausgewählten Jahr aufgelaufen sind, gedruckt. Wird eine Laufnummer (KontoBlDruckId) angegeben, so wird die eingegebene Jahrnummer ignoriert.
 
-Dieser Report kann auch direkt aus den Auswahllisten „Kontoblätter bearbeiten“ oder „KoKoRe bearbeiten“ über die Funktion ***Kontoblattdruck*** **SF8** aufgerufen werden.
+Dieser Report kann auch direkt aus den Auswahllisten „Kontoblätter bearbeiten“ oder „KoKoRe bearbeiten“ über die Funktion ***Kontoblattdruck* SF8** aufgerufen werden.

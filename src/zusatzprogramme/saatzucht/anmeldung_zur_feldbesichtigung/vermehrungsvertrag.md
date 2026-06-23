@@ -38,7 +38,7 @@ Um Flächen zur Besichtigung durch die Kammer anmelden zu können, müssen einig
 
 Sind [Fruchtarten](../fruchtarten.md) und [Sorten](../saatsorten.md) eingerichtet, so muss noch die Verbindung zwischen den Artikeln, dem Artikelstamm und den Sorten geschaffen werden.
 
-- Im Artikelstammpfleger(Direktsprung **[ARS]** und dort ****F5****) auf das Register Gruppen wechseln und dort Saatgutartikel auf **Ja** stellen und die Felder Fruchtart, Sorte und Kategorie ausfüllen.
+- Im Artikelstammpfleger(Direktsprung **[ARS]** und dort **F5**) auf das Register Gruppen wechseln und dort Saatgutartikel auf **Ja** stellen und die Felder Fruchtart, Sorte und Kategorie ausfüllen.
 
 ![Ein Bild, das Text, Screenshot, Software, Webseite enthält. Automatisch generierte Beschreibung](../../../ImagesExt/image8_1234.jpg "Ein Bild, das Text, Screenshot, Software, Webseite enthält. Automatisch generierte Beschreibung")
 

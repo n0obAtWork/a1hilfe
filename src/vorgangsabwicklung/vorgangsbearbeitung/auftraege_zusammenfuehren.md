@@ -4,7 +4,7 @@
 
 Hauptmenü \> Warenverkauf > Auftrag > Auftragsbearbeitung
 
-oder Direktsprung <strong>**[AUB]**</strong>
+oder Direktsprung **[AUB]**
 
 Die Freischaltung dieser Spezialfunktion unterliegt dem [Steuerparameter „723 – Aufträge zusammenführen erlauben?“](../../firmenstamm/steuerparameter/vorgangsbearbeitung_warenposition/auftragszusammenfuehrungen_erlauben_spa_723.md).
 

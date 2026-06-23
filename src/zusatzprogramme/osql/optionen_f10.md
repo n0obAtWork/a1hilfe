@@ -11,7 +11,7 @@ Wenn man unter OSQL die Funktion ***Optionen*** **F10** auswählt, so öffnet si
 | | |
 | --- | --- |
 | (F3) Arbeitsverzeichnis<br>(F3) Dateinamenserweiterung<br>(F3) Zuletzt verwendete Datei | Diese Einstellungen beziehen sich auf die Dialogmaske, die man über die Funktion ***SQL ausführen*** **F3** erreicht. |
-| (F9) Arbeitsverzeichnis<br>(F9) Datei<br>(F9) Dateinamenserweiterung | Diese Einstellungen beziehen sich auf die Dialogmaske, die man über die Funktionen ***Sichern Eingabe*** **SCF9,** ***Ausführen Statement*** **CF9** und ***Editieren Statement*** **SF9** erreicht. |
+| (F9) Arbeitsverzeichnis<br>(F9) Datei<br>(F9) Dateinamenserweiterung | Diese Einstellungen beziehen sich auf die Dialogmaske, die man über die Funktionen ***Sichern Eingabe* SCF9, *Ausführen Statement* CF9** und ***Editieren Statement* SF9** erreicht. |
 | Ausgabedatei | Dieser Dateiname wird dort als Vorbelegung verwendet, wo OSQL Daten in eine Datei schreiben soll.<br> |
 | Bei TAB Tabellennamen ergänzen<br> | Es wird, wenn man die TAB-Taste drückt, der nächste Tabellenname – bei Shift-TAB der vorherige – ergänzt.<br>Beispiel:<br><code>Select * from Waehr&lt;TAB&gt;</code><br> <br>Ergibt<br><code>Select * from WaehrIsoList</code><br> <br>Beim erneuten drücken von Tab<br><code>Select * from WaehrUmrechInfo</code><br> <br> |
 | Dateityp …. | Die Dateitypen, die in den Dateiauswahldialogen angeboten werden sollen. Der Syntax dazu ist wie folgt:<br>("Text", "Suchkriterium")<br>Wobei der Text die Beschreibung enthält, wie z.B. „SQL-Skript (\*.SQL)“. Der gesamte Test müsste folgendermaßen lauten:<br>(SQL-Skript (\*.SQL)“, „\*.sql“)<br> |

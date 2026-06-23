@@ -13,9 +13,9 @@ TSE-Stick aktivieren
 
 Um die TSE hinzufügen, wie folgt vorgehen:
 
-1. Zum **TSE-Pfleger** **[TSE]** navigieren.
+1. Zum **TSE-Pfleger** <strong>[TSE]</strong> navigieren.
 
-2. Mit ***Neu*** **F8** neue ***TSE*** mit Bezeichnung anlegen.
+2. Mit ***Neu* F8** neue ***TSE*** mit Bezeichnung anlegen.
 
 ![Ein Bild, das Text, Elektronik, Screenshot, Display enthält. KI-generierte Inhalte können fehlerhaft sein.](../../../ImagesExt/image8_486.jpg "Ein Bild, das Text, Elektronik, Screenshot, Display enthält. KI-generierte Inhalte können fehlerhaft sein.")  
 
@@ -29,7 +29,7 @@ Der große Vorteil an der TSE-Implementierung in A.eins ist, dass die TSE (wenn 
 
 Für den Fall, dass Sie mehrere TSE im Betrieb haben und nicht die Richtige erkannt wird, wechseln auf ein anderes Laufwerk.
 
-5. ***Auf*** <strong>*Aktivieren!*</strong> klicken.
+5. ***Auf Aktivieren!*** klicken.
 
 \-> Der TSE-Stick wurde aktiviert.
 

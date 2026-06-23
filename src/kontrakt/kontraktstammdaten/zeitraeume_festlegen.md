@@ -25,11 +25,11 @@ Die bei Aufruf des Kontrakts im Änderungsmodus sowie im Neu-Anlagefall beim ers
 
 Mit der Funktion ***Ändern F5*** und ***Neu F8*** kann ein Zeitraum geändert beziehungsweise ein neuer Zeitraum angelegt werden. Entsprechend wird der markierte Zeitraum mit der Funktion ***Löschen F7*** nach einer Kontrollabfrage gelöscht, dabei werden dann das End-Datum des vorhergehenden beziehungsweise das Beginn-Datum des folgenden Zeitraums angepasst.
 
-Die Funktion ***Löschen Kontraktdaten*** ***der Maske dient zum Löschen von Zeiträumen, deren Grenzen außerhalb der Gültigkeit des Kontrakts liegen.***
+Die Funktion ***Löschen Kontraktdaten der Maske dient zum Löschen von Zeiträumen, deren Grenzen außerhalb der Gültigkeit des Kontrakts liegen.***
 
-Die Funktion ***Löschen bis Ende*** ***der Maske dient zum Löschen der Zeiträume vom markierten bis zum letzten Zeitraum. Dabei werden die Zeitraumgrenzen des vorhergehenden Zeitraums angepasst.***
+Die Funktion ***Löschen bis Ende der Maske dient zum Löschen der Zeiträume vom markierten bis zum letzten Zeitraum. Dabei werden die Zeitraumgrenzen des vorhergehenden Zeitraums angepasst.***
 
-Die Funktion ***Löschen bis Markierung*** ***der Maske dient zum Löschen der Zeiträume vom ersten bis zum markierten Zeitraum. Dabei werden die Zeitraumgrenzen des nachfolgenden Zeitraums angepasst.***
+Die Funktion ***Löschen bis Markierung der Maske dient zum Löschen der Zeiträume vom ersten bis zum markierten Zeitraum. Dabei werden die Zeitraumgrenzen des nachfolgenden Zeitraums angepasst.***
 
 Die zweite Datentabelle dient der Darstellung der Kontrakt-Artikel. Bei Einzelmengen- oder Einzelwert-Kontrakten können hier die Sollmengen beziehungsweise Sollwerte der Artikel des in der ersten Datentabelle gewählten Zeitraums geändert werden.  
 Bei Gesamtmengen-Kontrakten beziehungsweise Gesamtwert-Kontrakten wird hier bei jedem Kontraktartikel die Zeitraumsollmenge beziehungsweise der Zeitraumsollwert des Kontraktzeitraums dargestellt. Die Übersicht dient dann eher zur Orientierung darüber, welche Kontraktartikel dem Kontrakt zugewiesen sind  

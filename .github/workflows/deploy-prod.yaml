@@ -31,15 +31,15 @@ jobs:
       - name: Testing some SHA stuff
         run: | 
           echo $GITHUB_SHA
-          foo=$(git log -1 --format=%h)
-          echo $foo
+          echo "CID=$(git log -1 --format=%h)" >> $GITHUB_ENV
+          echo book/pdf/Aeins-$CID.pdf
       - name: Rename PDF file
-        run: mv book/pdf/output.pdf book/pdf/Aeins.pdf
+        run: mv book/pdf/output.pdf book/pdf/Aeins-$CID.pdf
       - name: Upload PDF
         uses: actions/upload-artifact@v7
         with:
-          name: Aeins.pdf
-          path: book/pdf/Aeins.pdf
+          name: Aeins-$CID.pdf
+          path: book/pdf/Aeins-$CID.pdf
           archive: false
           overwrite: true
       - name: Handle old container

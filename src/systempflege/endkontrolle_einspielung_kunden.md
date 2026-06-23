@@ -25,7 +25,7 @@ Der Kundentyp ist ein Pflichtangabe.
 
 In Abhängig vom Kundentyp werden im Musterkunden die Musterkunden des Kundentyp angezeigt.
 
-Musterkunden werden in **[KU]** **der Variante Musterkunde angelegt.**
+Musterkunden werden in **[KU] der Variante Musterkunde angelegt.**
 
 **Der Musterkunde ist ein Pflichtfeld. Aus dem Musterkunden werden sehr viel Daten für den Import genommen.**
 

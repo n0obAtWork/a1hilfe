@@ -8,4 +8,4 @@ In dieser Variante befinden sich alle Felder, die nicht auf der Maske angezeigt 
 
 **Verschobene Maskenfelder**
 
-Sobald ein Feld mit dem Widgetnavigator verschoben worden ist, werden alle Felder der Waagenmaske in dieser Variante angezeigt. Verschobene Felder können mit ***Löschen*** **F7** aus der Liste gelöscht werden, dann werden diese Felder wieder an ihrem Ursprünglichen Platz angezeigt. Mit ***Ändern*** **F5** kann das Feld unabhängig des Widgetnavigators auf eine andere Position verschoben werden
+Sobald ein Feld mit dem Widgetnavigator verschoben worden ist, werden alle Felder der Waagenmaske in dieser Variante angezeigt. Verschobene Felder können mit ***Löschen*** **F7** aus der Liste gelöscht werden, dann werden diese Felder wieder an ihrem Ursprünglichen Platz angezeigt. Mit ***Ändern* F5** kann das Feld unabhängig des Widgetnavigators auf eine andere Position verschoben werden

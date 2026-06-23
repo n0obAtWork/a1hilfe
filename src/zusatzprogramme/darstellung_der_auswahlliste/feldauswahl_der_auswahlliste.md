@@ -35,6 +35,6 @@ FIELD
 Mahndatum,Mahndatum,d4,20,EXTENDEDFILTER
 ```
 
-***Alle Spalten mit einem FS-Format haben automatisch immer den Filtertypen*** ***Mehrfachauswahl******.***
+***Alle Spalten mit einem FS-Format haben automatisch immer den Filtertypen Mehrfachauswahl.***
 
 In der Spalte Vergleich kann festgelegt werden, mit welchem Operator in der Filterzeile gesucht wird. Standardmäßig ist diese Spalte leer. Es wird dann entweder der eingetragene Wert aus dem SQL-Text genommen oder der Standard, d.h. es wird bei Zahlen mit „gleich“ gesucht und bei Texten mit „enthält“. Andere Operatoren können mit F3 ausgewählt werden. Bei Feldern, für die ***Mehrfachauswahl*** ausgewählt wurde, wird der Operator nicht ausgewertet.

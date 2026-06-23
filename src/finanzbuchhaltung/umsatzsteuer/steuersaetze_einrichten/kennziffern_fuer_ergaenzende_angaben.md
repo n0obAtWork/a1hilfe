@@ -41,7 +41,7 @@ Im Bereich Vorsteuer wird die Bemessungsgrundlage nicht benötigt. Dieses Feld b
 <details>
 <summary>Schritt 2: Zusätzliche Steuerschlüssel anlegen</summary>
 
-Dazu ruft man den Direktsprung **[STS]** auf und geht am besten direkt in die Auswahlliste für [Steuerschlüssel](./stammdaten_steuerschluessel.md) **F7**. Hier ruft man den Pfleger mit mit ***Neu*** **F8** auf und vergibt eine neue Steuerschlüssel-Nummer und eine dazu passende Bezeichnung. Anschließend speichert man die Änderungen mit der Funktion ***„Speichern“*** **F9.**
+Dazu ruft man den Direktsprung **[STS]** auf und geht am besten direkt in die Auswahlliste für [Steuerschlüssel](./stammdaten_steuerschluessel.md) **F7**. Hier ruft man den Pfleger mit mit ***Neu*** **F8** auf und vergibt eine neue Steuerschlüssel-Nummer und eine dazu passende Bezeichnung. Anschließend speichert man die Änderungen mit der Funktion **<em>„Speichern“</em> F9.**
 
 **Es muss für jeden betroffenen Steuersatz (19%, 16%, 7%, 5%) ein eigener Steuerschlüssel angelegt werden.**
 
@@ -80,10 +80,10 @@ Hinweis: *Die Kennziffern für Umsatz und Steuer werden nicht geändert.*
 <details>
 <summary>Schritt 4: Anwendung der Steuersätze</summary>
 
-Um eine Forderung als uneinbringlich auszuweisen, muss der entsprechende Beleg mit dem neuen Steuersatz ausgebucht werden. Dabei ist der Steuersatz, bei dem die **Kennziffer** **50** (Minderung der Bemessungsgrundlage) hinterlegt ist, zu verwenden. Um eine Rechnung auszubuchen, die uneinbringlich geworden ist, kann der Beleg in der OP-Verwaltung **[OPV]** ausgewählt und mit der Funktion ***Ausziffern*** **F9** verarbeitet werden. **Anschließend ist dann die** Funktion ***Ausb. mit Steuer*** **F6** **auszuwählen. Für die Ausbuchung ist der Steuersatz mit der** **Kennziffer 50** **zu verwenden.**
+Um eine Forderung als uneinbringlich auszuweisen, muss der entsprechende Beleg mit dem neuen Steuersatz ausgebucht werden. Dabei ist der Steuersatz, bei dem die **Kennziffer** **50** (Minderung der Bemessungsgrundlage) hinterlegt ist, zu verwenden. Um eine Rechnung auszubuchen, die uneinbringlich geworden ist, kann der Beleg in der OP-Verwaltung **[OPV]** ausgewählt und mit der Funktion ***Ausziffern* F9** verarbeitet werden. **Anschließend ist dann die** Funktion ***Ausb. mit Steuer* F6 auszuwählen. Für die Ausbuchung ist der Steuersatz mit der Kennziffer 50 zu verwenden.**
 
-**Um eine Vorsteuer-Minderung auszuweisen kann das gleiche Vorgehen wie bei einer Forderung angewendet werden. Hierbei ist zu beachten, dass der Steuersatz mit der** **Kennziffer 37** **(Minderung abziehbare Vorsteuer) ausgewählt wird.**
+**Um eine Vorsteuer-Minderung auszuweisen kann das gleiche Vorgehen wie bei einer Forderung angewendet werden. Hierbei ist zu beachten, dass der Steuersatz mit der Kennziffer 37 (Minderung abziehbare Vorsteuer) ausgewählt wird.**
 
-**In der Belegerfassung** **[FIBE]** **ist die Auswahl von Steuersätzen mit der Kennziffer 37 oder 50 nur für Minderungen erlaubt. Diese Prüfung wird in der Belegerfassung über den Einrichterparameter „Steuersatz mit den Kennziffern 37 oder 50 nur für Minderungen erlauben?“ gesteuert.**
+**In der Belegerfassung [FIBE] ist die Auswahl von Steuersätzen mit der Kennziffer 37 oder 50 nur für Minderungen erlaubt. Diese Prüfung wird in der Belegerfassung über den Einrichterparameter „Steuersatz mit den Kennziffern 37 oder 50 nur für Minderungen erlauben?“ gesteuert.**
 
 </details>

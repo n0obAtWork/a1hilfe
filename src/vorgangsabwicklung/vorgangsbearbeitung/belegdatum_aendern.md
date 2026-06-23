@@ -4,11 +4,11 @@
 
 Hauptmenü \> Warenverkauf > Rechnung > Rechnungsbearbeitung
 
-oder Direktsprung <strong>**[REB]**</strong>
+oder Direktsprung **[REB]**
 
 Hauptmenü \> Wareneinkauf > Eingangsrechnung > Eingangsrechnungen bearbeiten
 
-oder Direktsprung <strong>**[ERB]**</strong>
+oder Direktsprung **[ERB]**
 
 Mithilfe dieser Funktion ist es möglich das Beleg- und Lieferdatum von Eingangs- und Ausgangsrechnungen nachträglich zu ändern.
 

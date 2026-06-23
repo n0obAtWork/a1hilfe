@@ -11,11 +11,11 @@ Zur optischen Gestaltung von GuV, Bilanz, Auswertungen etc. empfiehlt es sich je
 
 Für die Erfassung und Gliederung eines Kontenplans sind folgende Parameter besonders wichtig:
 
-**•** **Konto-Druckposition**
+**• Konto-Druckposition**
 
-**•** **Sachkonto**
+**• Sachkonto**
 
-**•** **Oberkonto**
+**• Oberkonto**
 
 Insbesondere bei der kompletten Neuanlage eines Sachkontenplans sollte die Planung in den oben angegebenen Schritten erfolgen.
 

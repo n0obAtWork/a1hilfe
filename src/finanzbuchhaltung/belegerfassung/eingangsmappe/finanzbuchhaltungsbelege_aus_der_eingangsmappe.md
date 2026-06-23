@@ -10,4 +10,4 @@ Zusätzlich zur Eingangsmappen-Erfassung existiert eine Auswahlliste, in der all
 
 Die Funktion **Ansehen** ***F6*** verzweigt für die aus der Eingangsmappe entstandenen Finanzbuchhaltungsbeleg in die [Einzelbeleganzeige](../../op_verwaltung/einzelbeleganzeige.md).
 
-Mit der Funktion **Ändern** ***F5*** können diese Finanzbuchhaltungsbelege bearbeitet werden, jedoch nur solange sie nicht verbucht wurden.
+Mit der Funktion **Ändern *F5*** können diese Finanzbuchhaltungsbelege bearbeitet werden, jedoch nur solange sie nicht verbucht wurden.

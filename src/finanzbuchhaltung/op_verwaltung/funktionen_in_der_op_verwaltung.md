@@ -107,8 +107,8 @@ Die obere Zeile zeigt den eingegebenen Zahlungsbetrag an, darunter wird der ausz
 
   - Wenn man in der OP-Verwaltung arbeitet - also nicht aus der Belegerfassung heraus die OP-Verwaltung aufgerufen hat -, besteht die Möglichkeit, Zahlungsbelege über den Restbetrag zu erstellen. Es wird dabei zwischen Zahlung Bank und Zahlung Kasse unterschieden. Diese Unterscheidung wird vorgenommen um ein Konto vorzuschlagen, das in den Einrichterparametern unter „Vorbelegung Kassenkonto“ und „Vorbelegung Bankkonto“ hinterlegt werden kann.
 
-Die miteinander verrechneten Belege werden dann mit einem Kennzeichen und einem Datum als zusammengehörend markiert. Über dieses Kennzeichen und Datum kann die Verrechnung der Belege wieder aufgehoben werden (s.o. ***Auszifferungskennzeichen zurücksetzen*** **-** **F7****).  
-Bei der Verrechnung der OP’s werden die OP-Informationen gelöscht und die zugehörigen Einträge aus Mahnvorschlägen, Zahlungsvorschlagslisten und** **nicht gebuchten** **Zahlungen herausgelöscht.**
+Die miteinander verrechneten Belege werden dann mit einem Kennzeichen und einem Datum als zusammengehörend markiert. Über dieses Kennzeichen und Datum kann die Verrechnung der Belege wieder aufgehoben werden (s.o. ***Auszifferungskennzeichen zurücksetzen* - F7).  
+Bei der Verrechnung der OP’s werden die OP-Informationen gelöscht und die zugehörigen Einträge aus Mahnvorschlägen, Zahlungsvorschlagslisten und nicht gebuchten Zahlungen herausgelöscht.**
 
 <p class="just-emphasize">Periode – F10</p>
 
@@ -131,7 +131,7 @@ Die markierten Belege werden entweder aus der Zahlungsvorschlagsliste, in der si
 
 Zusätzlich existiert noch ein Einrichterparameter „**Beim Hinzufügen der OP´s zu Zahlungsvorschlägen die Bank abfragen?**“, der steuert, ob beim Hinzufügen zu Zahlungsvorschlägen vorher die Bank abgefragt werden soll. Steht dieser Einrichterparameter auf **Ja** und sind beim Kunden mehrere Banken hinterlegt, so öffnet sich die eine Maske in der man die Bank auswählen kann. Dort kann man den Balken mit den Pfeiltasten auf eine Zeile positionieren und dann mit **F9** diese Bank auswählen. Eine weitere Möglichkeit ist ein Doppelklick auf die Zeile mit der auszuwählenden Bankverbindung. Beendet man die Auswahl mit **ESCAPE**, so werden keine OP’s einer Zahlungsvorschlagsliste hinzugefügt.
 
-Hinweis: *Ein erfassen eine neuen Bank ist hier nicht möglich. Das muss separat üb die Funktion ***„Kundenbank ändern“**** **F9** ***geschehen.***
+Hinweis: *Ein erfassen eine neuen Bank ist hier nicht möglich. Das muss separat üb die Funktion ***„Kundenbank ändern“**** **F9 *geschehen.***
 
 <p class="just-emphasize">Hinzufügen/löschen Mahnvorschlag – Strg F9</p>
 

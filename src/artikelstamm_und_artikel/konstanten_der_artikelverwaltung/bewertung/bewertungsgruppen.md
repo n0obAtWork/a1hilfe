@@ -46,7 +46,7 @@ wie oben, jedoch bezogen auf einen eingegrenzten Zeitraum
 
 **durchschnittlicher Jahreseinkaufspreis ABSOLUT:**
 
-Berechnung wie beim **durchschnittlichen Jahreseinkaufspreis****, jedoch gehen negative Periodensummen von Einkaufswert und Einkaufsmenge positiv (Absolutwert-Verfahren) in die Berechnungssummen von Gesamteinkaufswert und Gesamteinkaufsmenge zur Durchschnittspreisberechnung ein. Dadurch werden zwar mathematisch korrekte aber semantisch schwer erklärbare (sehr große oder negative)** **Werte vermieden. Somit liefert diese Methode bei Vorliegen von Perioden, die ausschließlich positive Summen von Einkaufsmengen und Einkaufswerten aufweisen, dieselben Ergebnisse, wie die Methode** **durchschnittlicher Jahreseinkaufspreis.**
+Berechnung wie beim **durchschnittlichen Jahreseinkaufspreis, jedoch gehen negative Periodensummen von Einkaufswert und Einkaufsmenge positiv (Absolutwert-Verfahren) in die Berechnungssummen von Gesamteinkaufswert und Gesamteinkaufsmenge zur Durchschnittspreisberechnung ein. Dadurch werden zwar mathematisch korrekte aber semantisch schwer erklärbare (sehr große oder negative) Werte vermieden. Somit liefert diese Methode bei Vorliegen von Perioden, die ausschließlich positive Summen von Einkaufsmengen und Einkaufswerten aufweisen, dieselben Ergebnisse, wie die Methode durchschnittlicher Jahreseinkaufspreis.**
 
 **Fixpreis**:
 

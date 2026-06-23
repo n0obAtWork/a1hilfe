@@ -25,7 +25,7 @@ Buchungsadministratoren werden für eine spezielle Periode angelegt. Das bedeute
 | Bedienername | Zeigt an, welcher Bediener der Periode als Buchungsadministrator zugewiesen wurde. (Ganzer Name) |
 | BedienerId | Zeigt an, welcher Bediener der Periode als Buchungsadministrator zugewiesen wurde. (Bediener ID) |
 
-*Tipp: **Wenn man Bediener bei der Neuanlage nicht immer wieder neu eingeben möchte, so kann man mit der Funktion** **Speichern unter** **einen bereits bestehenden Datensatz als Vorlage nehmen.***
+*Tipp: **Wenn man Bediener bei der Neuanlage nicht immer wieder neu eingeben möchte, so kann man mit der Funktion Speichern unter einen bereits bestehenden Datensatz als Vorlage nehmen.***
 
 </details>
 

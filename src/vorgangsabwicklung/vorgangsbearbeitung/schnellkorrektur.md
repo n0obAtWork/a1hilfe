@@ -14,7 +14,7 @@ Geb.Anzahl wechseln **[F9]**
 
 Bei einer Gebindeposition kann zwischen der Gebindeanzahl und der Ergebnismenge gewechselt und der Mengeneintrag vorgenommen werden. Nach der Änderung der Gebindeanzahl / Ergebnismenge kann diese Funktion nicht erneut ausgeführt werden.
 
-***Partieverteilung*** **[F6]** 
+***Partieverteilung* [F6]** 
 
 Einer Position können eine oder mehrere Partien durch Eingabe von Menge und Partienummer zugeordnet werden. Die Auswahl der Partie wird mit der **F3** Funktionalität unterstützt.
 

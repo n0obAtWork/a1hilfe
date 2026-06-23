@@ -48,7 +48,7 @@ Hierzu wird die Funktion ***Rücklieferschein erfassen*** im Auswahlbildschirm d
 
 Im Erfassungsbildschirm wird der Kunde gewählt und in den Positionsteil gewechselt.
 
-Dort werden dann die Funktionen ***Mehrfachrücknahme*** und ***Teilrücknahme*** angeboten, sowie die ***Artikeleingabe*** mit **F4****,** wo einen Rücknahme erfasst werden kann, ohne sich auf Teildispositionen zu beziehen.
+Dort werden dann die Funktionen ***Mehrfachrücknahme*** und ***Teilrücknahme*** angeboten, sowie die ***Artikeleingabe*** mit **F4,** wo einen Rücknahme erfasst werden kann, ohne sich auf Teildispositionen zu beziehen.
 
 Die reine Mengeneingabe erfolgt analog zu der Teildisposition/Teilumwandlung, so dass zur Erklärung diese Dokumentation herangezogen wird.
 
@@ -84,7 +84,7 @@ Hierzu wird Funktion ***RückEingangsLieferschein erfassen*** im Auswahlbildschi
 
 Im Erfassungsbildschirm wird der Lieferant gewählt und in den Positionsteil gewechselt.
 
-Dort werden dann die Funktionen ***Rücknahme*** und ***Teilrücknahme*** angeboten, sowie die ***Artikeleingabe*** mit **F4****,** wo einen Rücknahme erfasst werden kann, ohne sich auf Teildispositionen zu beziehen.
+Dort werden dann die Funktionen ***Rücknahme*** und ***Teilrücknahme*** angeboten, sowie die ***Artikeleingabe*** mit **F4,** wo einen Rücknahme erfasst werden kann, ohne sich auf Teildispositionen zu beziehen.
 
 Die reine Mengeneingabe erfolgt wie in der Teildisposition/Teilumwandlung, so dass die zur Erklärung diese Dokumentation herangezogen wird.
 

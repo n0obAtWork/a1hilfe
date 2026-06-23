@@ -8,7 +8,7 @@ Direktsprung **[PKXI]** > Funktion ***Individualpreiskalkulation Einkauf/Verkauf
 
 Um die neuen Individualpreise in A.eins zu importieren, müssen folgende Schritte ausgeführt werden:
 
-1. Im Menüband die Funktion ***Individualpreiskalkulation Einkauf*** bzw<strong>.</strong> ***Individualpreiskalkulation Verkauf*** auswählen oder **F9** **drücken**.
+1. Im Menüband die Funktion ***Individualpreiskalkulation Einkauf*** bzw**. *Individualpreiskalkulation Verkauf*** auswählen oder **F9 drücken**.
 
 2. Es öffnet sich der Datei-Explorer an dem zuvor definierten Import-Pfad. Es sollte die Datei **IndividualpreisKalkEK** bzw. <strong>IndividualpreisKalkVK,</strong> wie im Screenshot abgebildet, zu sehen sein.
 

@@ -60,7 +60,7 @@ Bei der Vergabe von individuellen Frachtklassen wird hier automatisch die Zuordn
 
 **Vertretergruppe**
 
-Verweis auf die zugeordneten Vertreter. Siehe hierzu auch **"Vertretergrupp****e"**.
+Verweis auf die zugeordneten Vertreter. Siehe hierzu auch **"Vertretergruppe"**.
 
 **Steuergruppe**
 
