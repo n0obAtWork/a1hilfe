@@ -10,7 +10,7 @@
 
 - Unterschiedliche Periodenführung
 
-  **[WABST]** ist eine streng nach Buchungsperioden abgegrenzte Auswertung. In A.eins gibt es mehrere SPA-Einstellungen bezüglich der Periodenzuordnung. Sie sollten auf jeden Fall darauf achten, dass Fibu- und Warenperioden gleichlaufen. Beachten Sie bitte, dass es bei der Erstellung von Sammelrechnungen auch zu unterschiedlichen Perioden der einzelnen Warenpositionen kommen kann, wenn der SPA **Rechnungstrennung durch Periode** auf **nein** steht (Empfehlung: auf **neu** stellen, das heißt alle Warenpositionen erhalten die Periode des neu erstellten Beleges!).
+  <strong>[WABST]</strong> ist eine streng nach Buchungsperioden abgegrenzte Auswertung. In A.eins gibt es mehrere SPA-Einstellungen bezüglich der Periodenzuordnung. Sie sollten auf jeden Fall darauf achten, dass Fibu- und Warenperioden gleichlaufen. Beachten Sie bitte, dass es bei der Erstellung von Sammelrechnungen auch zu unterschiedlichen Perioden der einzelnen Warenpositionen kommen kann, wenn der SPA **Rechnungstrennung durch Periode** auf **nein** steht (Empfehlung: auf **neu** stellen, das heißt alle Warenpositionen erhalten die Periode des neu erstellten Beleges!).
 
   Die Konsistenz-Funktion ***Belege mit abweichenden Perioden*** erstellt hierfür eine Übersicht. Sollten Periodenunstimmigkeiten auftreten, so können Sie mit der WAREO-Funktion, ***Perioden angleichen*** eine Periodenstimmigkeit erzeugen. Dabei wird folgendermaßen vorgegangen:
 
@@ -24,7 +24,7 @@
 
   Im Mandantenserver können sich noch Einträge befinden, die von AMIC-Mitarbeitern zwischenzeitlich deaktiviert wurden (DS_STATUS = 2). Ferner bleiben dort eventuell Einträge mit dem DS_STATUS = 3, wenn der Mandantenserver während des Abarbeitens eines Eintrages abbricht. Hierzu gibt es in der Konsistenzprüfung mehrere Übersichten.
 
-  Die mit DS_STATUS = 3 gekennzeichneten Belege können mit der Konsistenzfunktion**!!! ***Mandantenserver Status 3 freigeben***** wieder aktiviert werden.
+  Die mit DS_STATUS = 3 gekennzeichneten Belege können mit der Konsistenzfunktion<strong>!!! ***Mandantenserver Status 3 freigeben***</strong> wieder aktiviert werden.
 
   Die Einträge mit DS_STATUS = 2 erfordern eine Bearbeitung von AMIC-Mitarbeitern und sollten nur nach ANWEISUNG bearbeitet werden.
 
@@ -42,7 +42,7 @@
 
 - Die Belegsumme entspricht genau der zweifachen Warensumme
 
-  Hierbei handelt es sich um einen Programmfehler. Mit der Konsistenzfunktion *****!!! Vorgänge mit doppelten Beträgen***** werden diese Belege automatisch richtiggestellt. (Die doppelte Summe wurde beim Übertrag in die FIBU nicht berücksichtigt, die Fibu ist mit diesen Belegen stimmig!)
+  Hierbei handelt es sich um einen Programmfehler. Mit der Konsistenzfunktion <strong>***!!! Vorgänge mit doppelten Beträgen***</strong> werden diese Belege automatisch richtiggestellt. (Die doppelte Summe wurde beim Übertrag in die FIBU nicht berücksichtigt, die Fibu ist mit diesen Belegen stimmig!)
 
 **Beispiele für evtl. Fehler:**
 

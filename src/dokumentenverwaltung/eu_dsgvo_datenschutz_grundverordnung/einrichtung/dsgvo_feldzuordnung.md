@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Anschriften > DSGVO
 
-Direktsprung **[DSGVO]** Variante DSGVO-Feldzuordnung.
+Direktsprung <strong>[DSGVO]</strong> Variante DSGVO-Feldzuordnung.
 
 Nicht alle Felder müssen oder dürfen anonymisiert werden.
 

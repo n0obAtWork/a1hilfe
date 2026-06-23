@@ -6,6 +6,6 @@ Hauptmenü > Stammdatenpflege \> Artikelstamm > Artikel
 
 Direktsprung **[RWPA]**
 
-Innerhalb des Artikels **[AR]** wird unter *\> weitere Kennzeichen &lt;* die Zuordnung des Artikels zu den eingerichteten Rohwarengruppen **[RWG]** vorgenommen.
+Innerhalb des Artikels <strong>[AR]</strong> wird unter *\> weitere Kennzeichen &lt;* die Zuordnung des Artikels zu den eingerichteten Rohwarengruppen **[RWG]** vorgenommen.
 
 ![Bild1](../ImagesExt/image8_378.jpg "Bild1")

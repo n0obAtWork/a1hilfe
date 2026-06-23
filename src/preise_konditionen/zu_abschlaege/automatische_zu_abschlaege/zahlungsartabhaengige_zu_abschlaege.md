@@ -4,7 +4,7 @@
 
 Preise / Konditionen > Zu-/Abschläge Zahlungsartabhängige Zu-/Abschläge
 
-Oder Direktsprung **[ZAZA]**
+Oder Direktsprung <strong>[ZAZA]</strong>
 
 Hier werden bestimmte Sätze, die in bestimmten Zeiträumen gültig sind und in einer zu definierenden Formel zu berechnen sind festgelegt.
 

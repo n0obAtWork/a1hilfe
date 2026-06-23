@@ -7,7 +7,7 @@ Um Kontrakte in der Waage verwenden zu können, muss der Einrichterparameter Kon
 Man kann in dem Feld Kontrakt entweder eine Kontraktnummer oder den Namen des Kontraktekunden eingeben. Die Angaben aus dem Kontrakt (z.B. Artikel, Kunde) werden nach der Auswahl in die Waagenmaske übernommen.  
     
 
-Beim Wiegetyp Warenausgang oder Rohwarenausgang werden bei der **F3-**Auswahl im Feld Kontrakt nur Kontrakte der Kontraktklassen &lt; 10 angezeigt, beim Eingang nur Kontrakte der Klassen > 10 und für Lohn/Schüttwiegung Kontrakte aller Klassen.  
+Beim Wiegetyp Warenausgang oder Rohwarenausgang werden bei der <strong>F3-</strong>Auswahl im Feld Kontrakt nur Kontrakte der Kontraktklassen &lt; 10 angezeigt, beim Eingang nur Kontrakte der Klassen > 10 und für Lohn/Schüttwiegung Kontrakte aller Klassen.  
     
 
 Nach der Auswahl von Rohwarenkontrakten auf dem Feld Kontrakt der Waagenmaske wird das Feld Wiegetyp entsprechend gesetzt, damit die Rohwarenbelegerzeugung richtig funktioniert.

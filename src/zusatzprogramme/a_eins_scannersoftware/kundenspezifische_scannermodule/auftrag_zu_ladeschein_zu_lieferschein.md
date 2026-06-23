@@ -71,7 +71,7 @@ Eine parallele Bearbeitung von einem Ladeschein mit mehreren Scannern ist nicht 
 
 Eine erfasste Position kann wie folgt storniert werden. Dazu wird der Stornobefehl gescannt. Danach kann entweder per Scannung des Artikels oder der Seriennummer die letzte erfasste Position des Artikels gelöscht werden. Des Weiteren gibt es die Möglichkeit die zu löschende Positionsnummer manuell über die Tastatur einzugeben. Es wird immer die komplette Position gelöscht.
 
-Durch erneutes Mehrmaliges Scannen von „**LAB + Ladescheinnummer“** wird die bisherige Abarbeitung des Ladescheins zurückgesetzt und die Erfassung kann von vorne beginnen.
+Durch erneutes Mehrmaliges Scannen von „<strong>LAB + Ladescheinnummer“</strong> wird die bisherige Abarbeitung des Ladescheins zurückgesetzt und die Erfassung kann von vorne beginnen.
 
 Ist ein Ladeschein abgearbeitet worden, so wird mit dem Befehl „**LABENDE**“ die Abarbeitung des Ladescheins beendet. Nach dem der Ladeschein mit „**LABENDE**“ abgeschlossen worden ist, wird aus diesem Beleg noch kein Lieferschein erstellt.
 

@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/zusammenfassendemeldung.htm -->
 
-Zum 1. Januar 2010 ergibt sich eine erweiterte Erklärungspflicht für die Zusammenfassende Meldung (ZM). Künftig sind neben den innergemeinschaftlichen Lieferungen auch die innergemeinschaftlichen Leistungen in der vierteljährlich abzugebenden ZM anzugeben. Für die Zusammenfassende Meldung wird nur noch die Variante "**Zusammenfassende Meldung nach AWPosition"** unterstützt.
+Zum 1. Januar 2010 ergibt sich eine erweiterte Erklärungspflicht für die Zusammenfassende Meldung (ZM). Künftig sind neben den innergemeinschaftlichen Lieferungen auch die innergemeinschaftlichen Leistungen in der vierteljährlich abzugebenden ZM anzugeben. Für die Zusammenfassende Meldung wird nur noch die Variante "<strong>Zusammenfassende Meldung nach AWPosition"</strong> unterstützt.
 
 **Achtung:**
 
@@ -18,7 +18,7 @@ Meldepflichtig sind alle Unternehmer, die Steuerfreie innergemeinschaftliche War
 
 ***Innergemeinschaftliche Warenlieferungen(§18a Abs. 4 Satz 1 Nr. 1 und 2 UStG)  
 *a )** Innergemeinschaftliche Lieferungen im Sinne §6a Abs. 1UStG mit Ausnahme neuer Fahrzeuge an Abnehmer ohne USt-IdNr.  
-**b )** Innergemeinschaftliche Lieferungen gleichgestellter Verbringungen i.S.d. § 3 Abs. 1a i.V.m. § 6a Abs. 2 UStG..  
+<strong>b )</strong> Innergemeinschaftliche Lieferungen gleichgestellter Verbringungen i.S.d. § 3 Abs. 1a i.V.m. § 6a Abs. 2 UStG..  
 Maßgeblich ist stets die umsatzsteuerliche Beurteilung des Vorgangs.
 
 **Innergemeinschaftliche Sonstige Leistungen(§18a Abs. 4 Satz 1 Nr. 3 UStG)**
@@ -47,4 +47,4 @@ Neben dem Zeitraum (Jahr / Periode) werden drei Kennzahlen abgefragt, die die **
 Es erscheinen auch Kunden, bei denen die USt-IdNr. fehlt oder deren Aktivstatus auf **Nein** steht. Zu dieser Variante kann die Zusammenfassende Meldung über einen vom Bundesamt für Finanzen [zugelassenen Vordruck](./zusammenfassende_meldung_ueber_zugelassenen_vordruck.md) ausgedruckt werden. Auch können hier die Daten für das Elster-Online-Portal über [„Excel Export“](./zmdo_zusammenfassende_meldung_via_elster/index.md) zusammengestellt werden.
 
 Dadurch, dass die zu meldenden Warenlieferungen nicht mit einem separaten Steuersatz gekennzeichnet werden müssen, kann sich ein Problem ergeben, was die zeitliche Abgrenzung betrifft. Wenn z.B. einem Unternehmen erst im Verlauf eines Wirtschaftsjahres eine Umsatzsteuer - Identifikationsnummer zugeteilt wird, würden auch alle vor diesem Zeitpunkt angefallenen Rechnungen mit zur zusammenfassenden Meldung herangezogen werden.  
-Dieses Problem lässt sich umgehen, indem man **bei Änderung der USt-IdNr.** eine neue Kundennummer für diesen Debitoren vergibt oder dem Kunden eine weiter USt-IdNr. zuordnet. Kunden und Mandanten können unterschiedliche Umsatzsteuer-Identifikationsnummern zugeordnet werden. Damit diese Nummern in der Fibu angezeigt und ausgewertet werden muss der Steuerungsparameter „**Umsatzsteuer-Identifikationsnummern auf Mandanten und Belegebene**“ auf **Ja** gestellt werden.
+Dieses Problem lässt sich umgehen, indem man <strong>bei Änderung der USt-IdNr.</strong> eine neue Kundennummer für diesen Debitoren vergibt oder dem Kunden eine weiter USt-IdNr. zuordnet. Kunden und Mandanten können unterschiedliche Umsatzsteuer-Identifikationsnummern zugeordnet werden. Damit diese Nummern in der Fibu angezeigt und ausgewertet werden muss der Steuerungsparameter „**Umsatzsteuer-Identifikationsnummern auf Mandanten und Belegebene**“ auf **Ja** gestellt werden.

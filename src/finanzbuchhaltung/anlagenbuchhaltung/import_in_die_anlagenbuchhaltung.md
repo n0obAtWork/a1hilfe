@@ -32,7 +32,7 @@ Als Datengrundlage wird eine Excel-Datei (\*.xls) erwartet. Die Daten werden ers
 | G | Anfangsbestand in Euro. Steht hier ein Wert ungleich 0 wird eine Zeile des Typs AHK generiert. | N (15,4) |
 | H | Zugänge. Steht hier ein Wert ungleich 0, so wird eine Zeile des Typs Zugang generiert. | N (15,4) |
 | I | Teilabgänge. Ist Anfangsbestand und Teilabgang gleich, so handelt es sich um einen Totalabgang. | N (15,4) |
-| L | Kumulierte AfA Vorjahre. **Optional.** Steht hier ein Wert, so wird für dieser als Kumulierte Afa für das Vorjahr eingetragen. | N (15,4) |
+| L | Kumulierte AfA Vorjahre. <strong>Optional.</strong> Steht hier ein Wert, so wird für dieser als Kumulierte Afa für das Vorjahr eingetragen. | N (15,4) |
 | M | Kumulierte AfA aktuelles Jahr. | N (15,4) |
 | P | \- | |
 | R | AfA-Konto. **Optional.** Steht hier ein Wert, so wird dieser an Stelle des auf der Importmaske eingegebenen AfA-Kontos verwendet. | N |

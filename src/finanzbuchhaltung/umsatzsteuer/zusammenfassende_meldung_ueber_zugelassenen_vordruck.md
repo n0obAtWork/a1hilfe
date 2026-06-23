@@ -16,7 +16,7 @@ Bevor dieses Formular gedruckt wird, werden vom System einige Prüfungen durchge
 
 Wo findet man den Vordruck?
 
-Unter dem Menü Umsatzsteuer gibt es die Anwendung "Zusammenfassende Meldung". Dort kann man zur Variante "**Zusammenfassende Meldung nach AWPosition"** eine Funktion **"Zugelassener Vordruck"** finden**.** Hier werden die Daten analog dieser Variante zusammengesucht und dem Vordruck bereitgestellt. Bevor man den Vordruck drucken kann, wird geprüft, ob alle nötigen Stammdaten erfasst wurden.
+Unter dem Menü Umsatzsteuer gibt es die Anwendung "Zusammenfassende Meldung". Dort kann man zur Variante "**Zusammenfassende Meldung nach AWPosition"** eine Funktion <strong>"Zugelassener Vordruck"</strong> finden<strong>.</strong> Hier werden die Daten analog dieser Variante zusammengesucht und dem Vordruck bereitgestellt. Bevor man den Vordruck drucken kann, wird geprüft, ob alle nötigen Stammdaten erfasst wurden.
 
 - Mandantenstamm: Hier muss die Umsatzsteuer Identifikationsnummer (Ust-IdNr.), sowie der  
 Ansprechpartner (Mindestangabe ist der Name) hinterlegt sein.

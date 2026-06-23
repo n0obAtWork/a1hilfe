@@ -9,7 +9,7 @@ Direktsprung **[FIREO]**
 Im Test Stammdaten werden Ihre Stammdaten - hierzu gehören der Kundenstamm, der Sachkontenstamm sowie die Forderungsgruppen u.v.m. - auf korrekte Einrichtung getestet. Um einen möglichst reibungslosen Ablauf zu gewährleisten, sollten Ihre Daten so eingerichtet werden, dass bei diesem Test keine Fehler auftauchen.
 
 **Steuerklasse 0  
-**Es muss im System einen Steuersatz mit der Steuerklasse 0 geben. Dieser wird als Fehlersteuersatz herangezogen. Wird hier ein Fehler angezeigt, so gehen Sie in den Stammdatenpfleger "Steuersätze einrichten" (Direktsprung **[STS]**) und tragen dort den fehlenden Satz ein.
+**Es muss im System einen Steuersatz mit der Steuerklasse 0 geben. Dieser wird als Fehlersteuersatz herangezogen. Wird hier ein Fehler angezeigt, so gehen Sie in den Stammdatenpfleger "Steuersätze einrichten" (Direktsprung <strong>[STS]</strong>) und tragen dort den fehlenden Satz ein.
 
 **Fehlende Konten im Steuersatz  
 **Es kann vorkommen (z.B. durch Datenimport), dass im Steuersatz Sachkonten fehlen, oder Sachkonten eingetragen sind, die nicht existieren. Dies darf auf keinen Fall vorkommen, da Daten, die diese Steuersätze verwenden können, nicht verbucht werden. Löschen Sie entweder den Steuersatz, oder tragen Sie die Konten im Stammdatenpfleger für [Sachkonten](../stammdaten_der_fibu/sachkonten.md) (Direktsprung **[SKS]**) nach.

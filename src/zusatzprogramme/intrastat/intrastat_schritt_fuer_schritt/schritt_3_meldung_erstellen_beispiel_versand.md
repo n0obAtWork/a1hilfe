@@ -19,7 +19,7 @@ Für die Erstellung einer Intrastat-Meldung müssen folgende Voraussetzungen erf
 
 Mit dem Direktsprung **[INTRA]** navigiert man [Intrastat-Meldung Versendung](../intrastat_auswahllisten/intrastat_meldung_versendung.md) (2. Variante) oder [Intrastat-Meldung Einfuhr](../intrastat_auswahllisten/intrastat_meldung_einfuhr.md) (3. Variante). Hier ruft man nun die Funktion ***„Versand erzeugen / Einfuhr erzeugen“*** **(F9)** auf. Nach der Bestätigung des Exports öffnet sich der Explorer.
 
-(Für die Registrierung wird die Datei mit dem Dateinamen „XGTEST*\-Datum-Uhrzeit*“ abgespeichert Normale Exporte werden mit *Materialnummer-Datum-Uhrzeit* abgespeichert)
+(Für die Registrierung wird die Datei mit dem Dateinamen „XGTEST<em>\-Datum-Uhrzeit</em>“ abgespeichert Normale Exporte werden mit *Materialnummer-Datum-Uhrzeit* abgespeichert)
 
 </details>
 

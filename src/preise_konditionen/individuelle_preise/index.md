@@ -8,7 +8,7 @@ Ein individueller Preis eines Artikels für einen Kunden oder von einem Lieferan
 
 Die weiteren Dimensionen sind (oben nicht dargestellt) der **Artikel** (ausgedrückt über die individuelle Preisgruppe) und der **Kunde** (ausgedrückt über die individuelle Preisklasse).
 
-Die Pflege der individuellen Preise folgt diesem Dimensionenkonzept: werden die Dimensionen Preisgruppe **und** Preisklasse fixiert, gelangt man zum [Einzelsatzpfleger](../pflegefunktion_fuer_rabatte_zu_abschlaege_individuelle_preis/index.md) für individuelle Preise/Rabatte im Verkauf **[PRI]** und Einkauf **[PRIE]**, wird eine der fixierten Dimensionen **freigegeben** (Preisgruppe frei à Artikel frei wählbar à Einstieg über den festen Kunden/Lieferanten oder Preisklasse frei à Kunde frei wählbar à Einstieg über den festen Artikel) benötigt man den sogenannten [Preisstapelpfleger](../../kunden_und_lieferanten/kunden_und_lieferantenstamm/individuelle_preise/index.md) für individuelle Preise.
+Die Pflege der individuellen Preise folgt diesem Dimensionenkonzept: werden die Dimensionen Preisgruppe **und** Preisklasse fixiert, gelangt man zum [Einzelsatzpfleger](../pflegefunktion_fuer_rabatte_zu_abschlaege_individuelle_preis/index.md) für individuelle Preise/Rabatte im Verkauf <strong>[PRI]</strong> und Einkauf **[PRIE]**, wird eine der fixierten Dimensionen **freigegeben** (Preisgruppe frei à Artikel frei wählbar à Einstieg über den festen Kunden/Lieferanten oder Preisklasse frei à Kunde frei wählbar à Einstieg über den festen Artikel) benötigt man den sogenannten [Preisstapelpfleger](../../kunden_und_lieferanten/kunden_und_lieferantenstamm/individuelle_preise/index.md) für individuelle Preise.
 
 <p class="siehe-auch">Siehe auch:</p>
 

@@ -18,7 +18,7 @@ Mit dem [Steuerparameter 880](../../../firmenstamm/steuerparameter/scanner/html_
 
 <p class="just-emphasize">Lagernummer setzen</p>
 
-Bei der Ersteinrichtung eines Scannerbedieners muss die Lagernummer in den **Vorgangskonstanten** Direktsprung **[VKONS]** gesetzt werden. Dies hat den Grund, weil die Lagernummer aus den **Vorgangskonstanten** des [Bedieners](../../../firmenstamm/firmenkonstanten/bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/index.md) bestimmt, auf welchem Lager der Scanner operiert. Anhand der Lagernummer und dem EAN Code oder der Artikelnummer werden dann die erfassten Artikel gesucht. Dies gilt auch, wenn im A.eins System nur das Lager 0 vorhanden ist.
+Bei der Ersteinrichtung eines Scannerbedieners muss die Lagernummer in den **Vorgangskonstanten** Direktsprung <strong>[VKONS]</strong> gesetzt werden. Dies hat den Grund, weil die Lagernummer aus den **Vorgangskonstanten** des [Bedieners](../../../firmenstamm/firmenkonstanten/bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/index.md) bestimmt, auf welchem Lager der Scanner operiert. Anhand der Lagernummer und dem EAN Code oder der Artikelnummer werden dann die erfassten Artikel gesucht. Dies gilt auch, wenn im A.eins System nur das Lager 0 vorhanden ist.
 
 Nach dem das Lager gesetzt worden ist, kann dieses mittels Scancode auf dem Scanner gewechselt werden.
 

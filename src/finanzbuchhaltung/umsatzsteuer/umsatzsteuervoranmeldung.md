@@ -25,7 +25,7 @@ Den Aufruf des Umsatzsteuervoranmeldungsformulars findet man unter dem Menüpunk
 
 Bekanntermaßen ändert sich der Aufbau der Umsatzsteuervoranmeldung fast jährlich. Sobald diese Änderungen bekannt sind, werden diese von AMIC sofort in das Programm A.eins übernommen und ein entsprechender Report zur Verfügung gestellt. Über das angesprochene Geschäftsjahr wird der entsprechende Report bestimmt. Eventuell notwendige Änderungen an den Auswertungspositionen müssen jedoch vom Anwender selbstständig durchgeführt werden.
 
-**Wichtiger Hinweis:** ab 2021 sind zwei neue Kennziffern für Ergänzende Angaben zu Minderungen nach § 17 Abs. 1 Sätze 1 und 2 i.V.m. Abs. 2 Nr. 1 Satz 1 UStG hinzugekommen. Um diese Kennziffern korrekt mit Daten zu versorgen, ist es notwendig, die [Stammdaten](./steuersaetze_einrichten/kennziffern_fuer_ergaenzende_angaben.md) anzupassen.
+<strong>Wichtiger Hinweis:</strong> ab 2021 sind zwei neue Kennziffern für Ergänzende Angaben zu Minderungen nach § 17 Abs. 1 Sätze 1 und 2 i.V.m. Abs. 2 Nr. 1 Satz 1 UStG hinzugekommen. Um diese Kennziffern korrekt mit Daten zu versorgen, ist es notwendig, die [Stammdaten](./steuersaetze_einrichten/kennziffern_fuer_ergaenzende_angaben.md) anzupassen.
 
 **Kennziffern 37 und 50 bei negativen Werten**
 

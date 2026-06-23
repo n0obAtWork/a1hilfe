@@ -41,7 +41,7 @@ Nr. 32: Auf Wunsch können Streckenzuordnungen bereits ab der Stufe Auftrag erfo
 
 Erfassung von Ein- und Verkauf in einem Vorgang
 
-Bei einer Erfassung auf Basis einer Eingangsrechnung (Direktsprung **[ERES])** oder eines Einganglieferscheines (ELES) mit automatischer Streckeneröffnung wird nicht auf ein bestehendes Streckenkonto Bezug genommen, sondern ein neues Konto automatisch eröffnet.
+Bei einer Erfassung auf Basis einer Eingangsrechnung (Direktsprung <strong>[ERES])</strong> oder eines Einganglieferscheines (ELES) mit automatischer Streckeneröffnung wird nicht auf ein bestehendes Streckenkonto Bezug genommen, sondern ein neues Konto automatisch eröffnet.
 
 Die Erfassung beginnt mit dem Eingangsbeleg (ERES oder ELES):
 

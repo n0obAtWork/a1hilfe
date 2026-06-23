@@ -29,7 +29,7 @@ Der große Vorteil an der TSE-Implementierung in A.eins ist, dass die TSE (wenn 
 
 Für den Fall, dass Sie mehrere TSE im Betrieb haben und nicht die Richtige erkannt wird, wechseln auf ein anderes Laufwerk.
 
-5. ***Auf*** ***Aktivieren!*** klicken.
+5. ***Auf*** <strong>*Aktivieren!*</strong> klicken.
 
 \-> Der TSE-Stick wurde aktiviert.
 

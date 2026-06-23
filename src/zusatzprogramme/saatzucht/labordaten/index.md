@@ -87,7 +87,7 @@ Dabei ist **zu beachten**, dass, für jedes Verfahren getrennt, nach jeder Einga
 
 Bei der Keimfähigkeitsuntersuchung werden eine bestimmte Anzahl Reine Samen eingekeimt und nach einer festgelegten Anzahl an Tagen (Keimdauer) ausgewertet. Die Samen und Keimlinge werden in folgende Kategorien eingeteilt: Normale und anomale Keimlinge; frische, harte und tote Samen. Der Prozentsatz der normalen Keimlinge bildet die Keimfähigkeit. Man spricht von gebeizten Saatgut, wenn es mit Pflanzenschutzmitteln gegen bspw. Pilzbefall oder Schädlinge behandelt wurde.
 
-Es ist möglich den Eingabefeldern in diesem Verfahren eine Vordergrundfarbe und Hintergrundfarbe zuzuordnen. Diese müssen in der Tabelle „Keimfähigkeit“ im Feld „Feldfarbe“ z.B. per Trigger hinterlegt werden. Die Farbe wird dann bei jedem einlesen der Daten aktualisiert. Beispiel: „k.wh1_frisch$, ROT, GRÜN**;** k.wh2_frisch$, BLAU, GELB“
+Es ist möglich den Eingabefeldern in diesem Verfahren eine Vordergrundfarbe und Hintergrundfarbe zuzuordnen. Diese müssen in der Tabelle „Keimfähigkeit“ im Feld „Feldfarbe“ z.B. per Trigger hinterlegt werden. Die Farbe wird dann bei jedem einlesen der Daten aktualisiert. Beispiel: „k.wh1_frisch$, ROT, GRÜN<strong>;</strong> k.wh2_frisch$, BLAU, GELB“
 
 Die Kombination aus Feldnamen, Hintergrundfarbe, Vordergrundfarbe wird mit Komma getrennt. Jede weitere Kombination wird mit einem vorangestellten Semikolon hinzugefügt. Möglich Farben sind: BLACK, SCHWARZ, BLUE, BLAU, GREEN, GRÜN, GRUEN, CYAN, TÜRKIS, TUERKIS, RED, ROT, MAGENTA, YELLOW, GELB, WHITE, WEISS, WEIß, GREY, GRAY, GRAU.
 

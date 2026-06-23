@@ -20,7 +20,7 @@ Klicken Sie auf dem Desktop des Scanners auf „**MyDevice**“, anschließend a
 
 Nach dem Start des Konfigurationstools klicken Sie auf den großen, leeren Knopf. Ein Eingabebereich wird geöffnet und Sie tragen den Namen des Zielrechners ein. Bestätigen Sie die Eingabe mit Ok rechts unten. Der verwendete Port ist 8591. Mit einem Klick auf den Knopf „Add“ werden die Daten in das Programm übernommen. Nun wählen Sie die neue Verbindung oben aus und klicken anschließend auf den Knopf „Write“ um die Konfiguration abzuschließen.
 
-Die Scanner-IP muss anschließend in die Datei ScannerIP.txt eingetragen werden. Diese befindet sich unter **MyDevice, Application, mde.** Öffnen Sie diese Datei mit dem Editor oder einem ähnlichen Programm, tragen die Scanner-IP ein und speichern Sie die Datei.
+Die Scanner-IP muss anschließend in die Datei ScannerIP.txt eingetragen werden. Diese befindet sich unter <strong>MyDevice, Application, mde.</strong> Öffnen Sie diese Datei mit dem Editor oder einem ähnlichen Programm, tragen die Scanner-IP ein und speichern Sie die Datei.
 
 Starten Sie das Programm **Multilink.exe** auf Ihrem Rechner aus dem Verzeichnis **Program Files**. Sie sehen nun das Log. Oben befinden sich die Menüs Datei, Einstellungen, Log und Info.
 

@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/crystalreportberjppaufrufen.htm -->
 
-Um einen Report programmgesteuert aufzurufen, existiert ein JPP Objekt mit dem Name **JAnwendReport.** Methoden, ohne die es nicht geht, sind fett geschrieben.
+Um einen Report programmgesteuert aufzurufen, existiert ein JPP Objekt mit dem Name <strong>JAnwendReport.</strong> Methoden, ohne die es nicht geht, sind fett geschrieben.
 
 | Methode | Parameter | Bedeutung |
 | --- | --- | --- |

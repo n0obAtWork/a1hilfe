@@ -12,7 +12,7 @@ Oder
 
 Direktsprung **[FIB]**
 
-In dieser Variante werden Vorgänge mit Fibu Status **‚i.B.‘**dargestellt, für die ein begonnener aber nicht beendeter Fibu-Übertrag-Auftrag im Datenstrom des Mandantenservers existiert und nicht mehr aktuell vom Mandantenserver bearbeitet wird.  
+In dieser Variante werden Vorgänge mit Fibu Status <strong>‚i.B.‘</strong>dargestellt, für die ein begonnener aber nicht beendeter Fibu-Übertrag-Auftrag im Datenstrom des Mandantenservers existiert und nicht mehr aktuell vom Mandantenserver bearbeitet wird.  
 Derartige Konstellationen können neben Hardware-Problemen (z.B. Stromausfall) auch dadurch entstehen, dass der Mandantenserver eventgesteuert nach einer im Event eingestellten Zeit bei Ausbleiben einer Rückmeldung des Mandantenservers, die nach Beendigung jedes Mandantenserverauftrags erfolgt, in der Zeitspanne gestoppt und neu gestartet wird. Die Ursache ist häufig ein zu kurz eingestelltes Zeitintervall im Event, da insbesondere die Übertragung größerer Belege bei gleichzeitig starker Belastung des Datenbankservers möglicherweise in diesem Zeitintervall noch nicht beendet werden kann.
 
 Die Funktion ‚*Fibu-Kennzeichen zurücksetzen‘* setzt, wenn möglich, den Fibu Status des Vorgangs auf **‚—‘** zurück, wenn der Beleg nicht in der Fibu gefunden wird. Ist der Beleg bereits in der Fibu, so wird der Fibu Status auf **‚Ja‘** gesetzt.

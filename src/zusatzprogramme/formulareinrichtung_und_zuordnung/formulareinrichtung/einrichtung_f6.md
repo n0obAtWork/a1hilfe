@@ -143,7 +143,7 @@ Dieses ist zum Beispiel dann notwendig, wenn der Druck als Fax mittels angeschlo
 **Ist dieses Kennzeichen aktiviert, so gibt die Spaltenangabe der Druckposition die letzte (am weitesten rechtsstehende) Spalte der Druckposition an. 
 
 **leeres Feld = Druckzeile löschen  
-**Ist dieses Kennzeichen aktiviert, so führt ein ‚leerer‘ Wert (siehe oben: **Bei LeerzeilenOptimierung berücksichtigen)** für die Druckposition dazu, dass die komplette Zeile nicht gedruckt wird. Diese Einstellung ist nur bei Druckbereichen wirksam, die im Positionsteil geduckt werden. Druckzeilen aus Kopf- oder Abschlussbereichen können nicht entfernt werden.
+**Ist dieses Kennzeichen aktiviert, so führt ein ‚leerer‘ Wert (siehe oben: <strong>Bei LeerzeilenOptimierung berücksichtigen)</strong> für die Druckposition dazu, dass die komplette Zeile nicht gedruckt wird. Diese Einstellung ist nur bei Druckbereichen wirksam, die im Positionsteil geduckt werden. Druckzeilen aus Kopf- oder Abschlussbereichen können nicht entfernt werden.
 
 HTML-Formatierung anwenden
 

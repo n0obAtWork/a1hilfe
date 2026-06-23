@@ -4,7 +4,7 @@
 
 Preise / Konditionen > Zu-/Abschläge > Bezugsgrößenabhängige Zu-/Abschläge
 
-Oder Direktsprung **[ZABZ]**
+Oder Direktsprung <strong>[ZABZ]</strong>
 
 Hier werden bestimmte Sätze, die in bestimmten Zeiträumen gültig sind und in einer zu definierenden Formel zu berechnen sind festgelegt.
 

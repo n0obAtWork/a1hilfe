@@ -8,6 +8,6 @@ Der Steuerparameter hat drei Ausprägungen:
 
 **Nein:** Die Felder werden nicht abgefragt.
 
-**Ja:** Die Felder werden normal abgefragt.
+<strong>Ja:</strong> Die Felder werden normal abgefragt.
 
 **Mit Vorbelegung:** Wenn nur eine USt.-IdNr existiert, so wird dieses sofort vorbelegt, ansonsten öffnet sich, sobald man das noch leere Feld betritt, die F3-Auswahl.

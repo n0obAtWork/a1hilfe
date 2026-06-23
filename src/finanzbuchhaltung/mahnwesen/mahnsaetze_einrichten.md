@@ -12,7 +12,7 @@ Dieser Pfleger fasst alle vorherigen Pfleger für die Mahnstammdaten zusammen. E
 
 Über Anzeige lässt sich einstellen, welcher Wert in der Kreuztabelle angezeigt werden soll.
 
-Der Text der Mahnstufe lässt sich ändern, indem man auf das Feld klickt oder mit ENTER bestätigt: Neue Mahnstufen lassen sich über **(Neu)** eintragen.
+Der Text der Mahnstufe lässt sich ändern, indem man auf das Feld klickt oder mit ENTER bestätigt: Neue Mahnstufen lassen sich über <strong>(Neu)</strong> eintragen.
 
 Die linke Spalte mit den [Mahngruppen](./mahngruppen.md) funktioniert analog. Man gelang also direkt von der Kreuztabelle in den Stammdatenpfleger.
 

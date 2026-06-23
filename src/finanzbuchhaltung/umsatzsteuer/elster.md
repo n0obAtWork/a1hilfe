@@ -60,7 +60,7 @@ Angabe des Dateiname - inklusive des vollständigen Verzeichnisses - des Softwar
 Angabe des Dateinamens des Treibers. Bitte beachten, dass der Treiber betriebssystemabhängig sein kann. Aktuell werden folgende Sticks von Elster unterstützt:  
     
 
-  - „**G&D StarSign Crypto USB Token (S)“** für ELSTER. Dies ist der Nachfolger des Sticks „**G&D StarSign USB Token**“. Obwohl dieser Sicherheitsstick selber keine Treiber-Dll benötig, muss an die ERiC API der Name des Treibers übergeben werden. Er lautet hier aetpkss1.dll. Diesen Treiber erhält man, indem man von [www.sicherheitsstick.de](http://www.sicherheitsstick.de/) die Treiber für „**G&D StarSign USB Token**“ installiert.  
+  - „<strong>G&D StarSign Crypto USB Token (S)“</strong> für ELSTER. Dies ist der Nachfolger des Sticks „**G&D StarSign USB Token**“. Obwohl dieser Sicherheitsstick selber keine Treiber-Dll benötig, muss an die ERiC API der Name des Treibers übergeben werden. Er lautet hier aetpkss1.dll. Diesen Treiber erhält man, indem man von [www.sicherheitsstick.de](http://www.sicherheitsstick.de/) die Treiber für „**G&D StarSign USB Token**“ installiert.  
     
 Um den Sicherheitsstick " **G&D StarSign Crypto USB Token (S)**" mit dem ERiC zu verwenden, brauchen der unter https://www.sicherheitsstick.de genannte ElsterAuthenticator und die optionalen Registry-Einträge für Windows-Nutzer nicht installiert zu werden.  
     
@@ -77,7 +77,7 @@ Angabe des Dateinamens des Treibers, welcher einen Zugriff auf die Signaturkarte
 
 Diese Möglichkeit erscheint dann, wenn eine Archiv-Lizenz vorliegt. Ist diese Option aktiviert, wird nach der erfolgreichen Datenübermittlung das PDF-Dokument sofort in das Archiv gestellt und anschließend das Dokument aus dem Archiv heraus geöffnet. Die zugehörige Belegklasse im Archiv ist „ELSTER-UVA“.
 
-Die Standardeinstellung ist **Ja,** es sei denn man hat „Nur Daten bereitstellen“ aktiviert.
+Die Standardeinstellung ist <strong>Ja,</strong> es sei denn man hat „Nur Daten bereitstellen“ aktiviert.
 
 **Nur Daten bereitstellen:**
 
@@ -156,7 +156,7 @@ Die Anmeldung zur Sondervorauszahlung sucht für den Bereich alle Steuerdaten zu
 
 **Wie korrigiere ich eine bereits gesendete Voranmeldung?**
 
-**Antwort:** Übertragen Sie denselben Fall nochmals, allerdings stellen Sie den Wert bei „Berichtigte Anmeldung“ auf **Ja**.
+<strong>Antwort:</strong> Übertragen Sie denselben Fall nochmals, allerdings stellen Sie den Wert bei „Berichtigte Anmeldung“ auf **Ja**.
 
 **Ich habe eine Voranmeldung für den gleichen Zeitraum zweimal (identisch oder unterschiedlich) an die Finanzverwaltung übertragen. Wie verhalte ich mich?**
 

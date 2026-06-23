@@ -4,7 +4,7 @@
 
 Hauptmenü > Administration > Formulare / Abläufe > Arbeitsregeln verwalten
 
-oder Direktsprung **[ARV]** oder **[REGEL]**
+oder Direktsprung <strong>[ARV]</strong> oder <strong>[REGEL]</strong>
 
 Der Einrichtungsbildschirm einer Regel gliedert sich in folgende Bereiche:
 

@@ -36,7 +36,7 @@ siehe Einrichterparameter Soll ein gefundener Preis bestätigt werden.
 
 <p class="just-emphasize">Mengenvorbelegung</p>
 
-Die Menge ist standardmäßig mit 1 vorbelegt, sie muss nur verändert werden, wenn größere Einheiten eines Artikels verkauft werden (um in dieses Feld zu kommen, muss vor der Erfassung des Artikels die Richtungstaste nach oben betätigt werden). Auch Gebinde werden standardmäßig mit 1 gemäß Einheit der Grundmengeneinheit vorbelegt. Es gibt allerdings den EPA **Soll im Artikelfeld begonnen werden.** Ist dieser auf Nein gesetzt, beginnt man jede Erfassung im Mengenfeld.
+Die Menge ist standardmäßig mit 1 vorbelegt, sie muss nur verändert werden, wenn größere Einheiten eines Artikels verkauft werden (um in dieses Feld zu kommen, muss vor der Erfassung des Artikels die Richtungstaste nach oben betätigt werden). Auch Gebinde werden standardmäßig mit 1 gemäß Einheit der Grundmengeneinheit vorbelegt. Es gibt allerdings den EPA <strong>Soll im Artikelfeld begonnen werden.</strong> Ist dieser auf Nein gesetzt, beginnt man jede Erfassung im Mengenfeld.
 
     
 Um **den letzten erfassten Artikel noch mal** zu **erfassen**, muss nur durch Return der noch im Artikeleingabefenster befindliche Artikel bestätigt werden; um dieses Feature zu nutzen, ist der Einrichterparameter **Soll die letzte erfasste Position stehen bleiben** auf **Ja** zu stellen (wenn der EPA zur Bestätigung des Preises eingeschaltet ist, ist auch noch der Preis durch Return zu bestätigen). Ansonsten wird die Vorbelegung gelöscht.

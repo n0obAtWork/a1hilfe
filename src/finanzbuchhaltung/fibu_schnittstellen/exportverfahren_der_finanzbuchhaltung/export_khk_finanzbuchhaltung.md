@@ -14,7 +14,7 @@ Wenn man den Export das erste Mal startet, wird automatisch „..\\export\\khk�
 
 Die Schnittstelle kann die Daten in der Version 3.2 und 4.0 übertragen. Zusätzlich lässt sich auswählen, ob die Personenkonten mit übertragen werden und ob immer sämtlich Stammdaten oder nur geänderte Stammdaten übertragen werden sollen. Wenn man diesen Export das erste Mal startet sind natürlich alle Personenkonten als noch nicht übertragen gekennzeichnet. Beim nächsten Export werden dann nur die Personenkonten übertragen, die sich seither geändert haben.
 
-Man startet den Export mit **F9**. Vor dem Start des Exports wird vom Programm geprüft, ob die benötigten Addonfelder angelegt wurden. Hierfür existiert in der Auswahlliste eine Funktion ***Addonfelder anlegen* F10***.* Sind die Felder noch nicht angelegt, bekommt man hier die Möglichkeit, diese Felder anzulegen:
+Man startet den Export mit **F9**. Vor dem Start des Exports wird vom Programm geprüft, ob die benötigten Addonfelder angelegt wurden. Hierfür existiert in der Auswahlliste eine Funktion ***Addonfelder anlegen* F10**<em>.</em> Sind die Felder noch nicht angelegt, bekommt man hier die Möglichkeit, diese Felder anzulegen:
 
 ![](../../../ImagesExt/image8_792.png)
 

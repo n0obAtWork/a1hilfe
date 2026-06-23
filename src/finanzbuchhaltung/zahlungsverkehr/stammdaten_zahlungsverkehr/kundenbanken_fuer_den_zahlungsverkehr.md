@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdaten > Kunden-/Lieferanten > Kundenstamm bzw. Lieferantenstamm
 
-Direktsprung **[KU]** bzw. **[LF]**
+Direktsprung <strong>[KU]</strong> bzw. **[LF]**
 
 Kundenbanken sind die Bankverbindungen der Kunden und Lieferanten, die im Zahlungsverkehr verwendet werden. Der Stern in der ersten Spalte kennzeichnet die Bank, die beim automatischen Zahlungsverkehr herangezogen wird, falls mehrere Banken eingerichtet sind. e-Clearing verwendet diese Banken, um das Kundenkonto zu bestimmen.
 

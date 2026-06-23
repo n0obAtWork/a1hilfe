@@ -9,7 +9,7 @@ Unter diesem Menupunkt werden die in den in [Rohwarengruppen](../vorgehensweise_
 
 ![](../../ImagesExt/image8_314.jpg)
 
-Der **‚Typ‘** gibt an, ob es sich bei den Kostengruppen-Werten um **‚Kosten-/Verg.pauschale‘** oder **‚Kosten-/Verg.satz‘** handelt.  
+Der **‚Typ‘** gibt an, ob es sich bei den Kostengruppen-Werten um <strong>‚Kosten-/Verg.pauschale‘</strong> oder <strong>‚Kosten-/Verg.satz‘</strong> handelt.  
 Die **Kostengruppe ‚0‘** weist dabei eine **Besonderheit** auf: Alle Werte dieser Gruppe dienen bei der Erfassung von Rohwarebelegen nur zur **Vorbelegung** und können **manuell** überschrieben werden.  
     
 
@@ -23,7 +23,7 @@ Ein in einer Abrechnung heranzuziehender Pauschalwert wird per Kostengruppe und 
 
 ![](../../ImagesExt/image8_316.jpg)
 
-Einträge mit der **Nummer ‚0‘** weisen die **Besonderheit** auf, dass die Werte bei der Erfassung von Rohwarebelegen nur zur **Vorbelegung** dienen und **manuell** überschrieben werden können. Für Pauschalen anderer Nummern gilt dieses nur, wenn sie der Kostengruppe ‚0‘ zugeordnet sind.
+Einträge mit der <strong>Nummer ‚0‘</strong> weisen die **Besonderheit** auf, dass die Werte bei der Erfassung von Rohwarebelegen nur zur **Vorbelegung** dienen und **manuell** überschrieben werden können. Für Pauschalen anderer Nummern gilt dieses nur, wenn sie der Kostengruppe ‚0‘ zugeordnet sind.
 
     
 Kosten-/Vergütungssätze
@@ -33,7 +33,7 @@ Hauptmenü > Rohwarenabrechnung \> Kostengruppen Rohwaren > Variante Kosten-/Ver
 ![](../../ImagesExt/image8_317.jpg)
 
 Ein in einer Abrechnung heranzuziehender Kosten-/Vergütungssatz zu einer durch die Kostendefinition näher bestimmten Menge wird per Kostengruppe und Kostennummer sowie dem größten ‚gültig von‘-Datum, das kleiner als das Beleg-Lieferdatum ist spezifiziert. Gesucht wird dabei zunächst mit der **Lagernummer** des Rohwarebeleges. Wird so kein Eintrag gefunden, so wird der Betrag mit der **Lagernummer ‚0‘** bestimmt. Es müssen für andere Läger als Lager ‚0‘ demnach nur hiervon abweichende Beträge gepflegt werden.  
-Einträge mit der **Nummer ‚0‘** weisen die **Besonderheit** auf, dass die Werte bei der Erfassung von Rohwarebelegen nur zur **Vorbelegung** dienen und **manuell** überschrieben werden können. Für Kosten-/Vergütungssätze anderer Nummern gilt dieses nur, wenn sie der Kostengruppe ‚0‘ zugeordnet sind.
+Einträge mit der <strong>Nummer ‚0‘</strong> weisen die **Besonderheit** auf, dass die Werte bei der Erfassung von Rohwarebelegen nur zur **Vorbelegung** dienen und **manuell** überschrieben werden können. Für Kosten-/Vergütungssätze anderer Nummern gilt dieses nur, wenn sie der Kostengruppe ‚0‘ zugeordnet sind.
 
 Kosten-/Vergütungsstaffeln
 

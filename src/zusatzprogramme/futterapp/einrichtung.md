@@ -29,7 +29,7 @@
   - Der erste Parameter („abc“) war ursprünglich der Dateipfad. Dieser wird noch gezogen, wenn kein Eintrag im Steuerparameter eingetragen ist. Dies ist nicht mehr empfohlen.
 - Diese Batch-Datei „FutterAppExporter.bat“ muss nun im Windows-Aufgabenplaner eingetragen werden. Es wird eine Wiederholung in 5-Minuten Intervallen empfohlen.
 
-**•** Im Lieferschein und in den Aufträgen muss das UFLD-Feld für die Baustelle hinzugefügt werden. Hierfür zunächst mit **[UFLD]** auf die **zugehörige Auswahlliste springen. Und dort die Datensätze mit passender Vorgangs-, Vorgangsunter- und Bedienerklasse auswählen. Mit F5 bearbeiten.**
+<strong>•</strong> Im Lieferschein und in den Aufträgen muss das UFLD-Feld für die Baustelle hinzugefügt werden. Hierfür zunächst mit <strong>[UFLD]</strong> auf die **zugehörige Auswahlliste springen. Und dort die Datensätze mit passender Vorgangs-, Vorgangsunter- und Bedienerklasse auswählen. Mit F5 bearbeiten.**
 
   **Nun (falls noch nicht vorhanden) den Punkt Baustelle hinzufügen. (Vergleiche gelben Bereich in der Abbildung)**
 

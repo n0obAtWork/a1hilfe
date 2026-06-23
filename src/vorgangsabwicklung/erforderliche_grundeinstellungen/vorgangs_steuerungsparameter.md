@@ -147,7 +147,7 @@ Wirkungsweise:
 **Der Parameter steuert den Zeilenumbruch bei Artikeltextzeilen.**
 
 **Wertemöglichkeiten:**  
-**JA =** Beim Ausdruck von Artikeltexten werden die Textzeilen automatisch umgebrochen, wenn das Ausgabefeld im Vorgang eine geringere Länge in der Zeile aufweist als der erfasste Text.  
+<strong>JA =</strong> Beim Ausdruck von Artikeltexten werden die Textzeilen automatisch umgebrochen, wenn das Ausgabefeld im Vorgang eine geringere Länge in der Zeile aufweist als der erfasste Text.  
 Nein = Bei Eingabe von "nein" wird der Text abgeschnitten.
 
 Aut. Umbruch Textzeilen beim Drucken
@@ -157,7 +157,7 @@ Aut. Umbruch Textzeilen beim Drucken
 **Wertemöglichkeiten/Funktionen:**  
 Ja = Beim Ausdruck von Textzeilen, aber auch Textbausteinen etc., werden die Textzeilen automatisch umgebrochen, wenn das Ausgabefeld im Vorgang eine geringere Länge in der Zeile aufweist, als der erfasste Text.
 
-***Nein =*** Bei Eingabe von "Nein" wird der Text abgeschnitten.
+<strong>*Nein =*</strong> Bei Eingabe von "Nein" wird der Text abgeschnitten.
 
 Vorgangstexte zwangsweise vor Hauptteil
 

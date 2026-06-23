@@ -4,7 +4,7 @@
 
 Hauptmenü > Finanzbuchhaltung > Information > Konteninformation
 
-Direktsprung **[KOI]** bzw. **[KOIP]**
+Direktsprung <strong>[KOI]</strong> bzw. **[KOIP]**
 
 Wenn der Steuerungsparameter „Anzeige Fremdwährung in Auswahllisten“ auf **Ja** steht, dann steht eine weitere Variante „Konteninfo mit Währungsauflösung“ zur Verfügung. Diese zeigt neben der Buchwährung weitere Zeilen an, die die Beträge in der Währung darstellen, in der sie erfasst wurden. Zusätzlich existieren noch zwei weiter Spalten. Eine Spalte „**zum Stichtag**“ zeigt den Fremdwährungsbetrag zum Stichtag (Periodenende) in Buchwährung umgerechnet an. Die Spalte „Differenz“ zeigt die Differenz der Spalte „zum Stichtag“ zu den Beträgen in Buchwährung an, wie sie zum Zeitpunkt der Erfassung in den Belegen festgehalten wurden.
 

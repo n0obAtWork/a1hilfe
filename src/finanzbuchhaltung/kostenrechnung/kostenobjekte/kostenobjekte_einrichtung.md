@@ -6,15 +6,15 @@
 
 1. Um das Kostenobjekt verwenden zu können, ist die [Kostenobjekt-Lizenz](../../../firmenstamm/steuerparameter/lizenzen/kostenobjekt_lizenz_spa_1064.md) notwendig.
 
-2. In der allgemeinen Nummernkreiszuordnung **[MNDNK]** können Kostenobjekte einem Nummernkreis zugeordnet werden.
+2. In der allgemeinen Nummernkreiszuordnung <strong>[MNDNK]</strong> können Kostenobjekte einem Nummernkreis zugeordnet werden.
 
 3. Die Kostenobjekte müssen im [Stammdatenpfleger „Kostenobjekte“](./kostenobjekte_pfleger.md) angelegt werden.
 
 4. Im [Sachkontenstamm](../../stammdaten_der_fibu/sachkonten.md) **[SKS]** kann in den jeweiligen GuV-Konten im Feld „Sperre Kostenobjekt“ aus folgenden Möglichkeiten gewählt werden:
 
-- **Gesperrt:** Es wird kein Kostenobjekt abgefragt.
-- **Kann:** Es kann ein Kostenobjekt eingeben werden.
-- **Muss:** Es muss ein Kostenobjekt eingegeben werden.
+- <strong>Gesperrt:</strong> Es wird kein Kostenobjekt abgefragt.
+- <strong>Kann:</strong> Es kann ein Kostenobjekt eingeben werden.
+- <strong>Muss:</strong> Es muss ein Kostenobjekt eingegeben werden.
 - **Fest** Es wird nur das im Sachkontenstamm festgelegte Kostenobjekt verwendet.
 
   Im Feld „Kostenobjekt“ kann hier die Nummer eines Kostenobjektes eingegeben werden, das bei der Belegerfassung automatisch vorgeschlagen wird.
@@ -26,7 +26,7 @@ Diese werden dann im [Artikel](../../../artikelstamm_und_artikel/artikel/index.m
 
 <p class="just-emphasize">Alternatives Label</p>
 
-In dem optionalen Parameter „Kostenobjekt_Label“ **[OPT]** kann ein alternatives Label für das Kostenobjekt eingetragen werden. Wird hier ein alternatives Label erfasst, so wird in den Labeln der Masken anstelle „Kostenobjekt“ der in den Optionen eingetragene Wert angezeigt. Das gleiche gilt für die Spaltenüberschriften in den Auswahllisten. Hiervon ausgenommen sind die Bezeichnungen der Auswahllisten und ihrer Varianten sowie die Bezeichnungen bzw. Beschriftungen von Funktionen im Hauptmenü, sie bleiben unverändert.
+In dem optionalen Parameter „Kostenobjekt_Label“ <strong>[OPT]</strong> kann ein alternatives Label für das Kostenobjekt eingetragen werden. Wird hier ein alternatives Label erfasst, so wird in den Labeln der Masken anstelle „Kostenobjekt“ der in den Optionen eingetragene Wert angezeigt. Das gleiche gilt für die Spaltenüberschriften in den Auswahllisten. Hiervon ausgenommen sind die Bezeichnungen der Auswahllisten und ihrer Varianten sowie die Bezeichnungen bzw. Beschriftungen von Funktionen im Hauptmenü, sie bleiben unverändert.
 
 Wird das alternative Label aus den Optionen entfernt, so werden wieder die ursprünglichen Label in den Masken und Spaltenüberschriften in den Auswahllisten angezeigt.
 

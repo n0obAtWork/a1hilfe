@@ -7,4 +7,4 @@
   - Warnung – Die Aktionärsverwaltung lässt sich normal verwenden. Es erfolgt bei jedem öffnen eines Fensters ein Warnhinweis, dass keine Unternehmensdaten eingerichtet sind.
   - Ignorieren – Die Aktionärsverwaltung lässt sich normal verwenden.
 
-**Achtung:** Bei nicht eingerichteten Unternehmensdaten lässt sich keine Dividende abrechnen. Außerdem erfolgt die Prüfung ob mehr Aktien im Umlauf sind als vom Unternehmen ausgegeben nicht korrekt.
+<strong>Achtung:</strong> Bei nicht eingerichteten Unternehmensdaten lässt sich keine Dividende abrechnen. Außerdem erfolgt die Prüfung ob mehr Aktien im Umlauf sind als vom Unternehmen ausgegeben nicht korrekt.

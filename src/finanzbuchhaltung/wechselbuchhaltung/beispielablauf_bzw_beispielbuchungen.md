@@ -6,7 +6,7 @@ Hauptmenü \> Finanzbuchhaltung \> Erfassung > Belegerfassung
 
 Direktsprung **[FIBE]**
 
-Die Erfassung eines Wechsels in die Finanzbuchhaltung erfolgt über die Belegerfassung. Dort wählt man die Belegart **WE (**Wechsel erfassen) aus. Als Besitzwechsel stellt er eine Forderung für den jeweiligen Remittenten dar. Wir als Remittent buchen daher:
+Die Erfassung eines Wechsels in die Finanzbuchhaltung erfolgt über die Belegerfassung. Dort wählt man die Belegart <strong>WE (</strong>Wechsel erfassen) aus. Als Besitzwechsel stellt er eine Forderung für den jeweiligen Remittenten dar. Wir als Remittent buchen daher:
 
 Besitzwechsel an Kunde
 

@@ -8,7 +8,7 @@ Der Aufruf des Einstieges in die Anwendung *ScriptParameter* erfolgt durch den *
 
 ![](../../../ImagesExt/image8_529.jpg)  
 
-Die Varianten dieser Auswahlliste sind *Script-Parameter* und *\*\*\* System-Script-Parameter.* Letztere Variante steht nur ENTWICKLERN zur Verfügung.
+Die Varianten dieser Auswahlliste sind *Script-Parameter* und <em>\*\*\* System-Script-Parameter.</em> Letztere Variante steht nur ENTWICKLERN zur Verfügung.
 
 Die **Option-Box** stellt folgende Funktionalitäten bereit:
 
@@ -16,9 +16,9 @@ Aufruf des **Pflegers** zur Neuerfassung, Änderung, Ansicht und Löschung von K
 
 ![](../../../ImagesExt/image8_530.png)
 
-**PId:** ParameterId. Hier ist eine Eindeutige Kurzbezeichnung anzugeben, anhand derer die Parametersätze von einem Script aus angesprochen werden können. Diese PId muß bei privaten Parametersätzen immer mit “p_” beginnen!
+<strong>PId:</strong> ParameterId. Hier ist eine Eindeutige Kurzbezeichnung anzugeben, anhand derer die Parametersätze von einem Script aus angesprochen werden können. Diese PId muß bei privaten Parametersätzen immer mit “p_” beginnen!
 
-**Bezeichnung:** Eine Klartextbeschreibung der Parametersammlung
+<strong>Bezeichnung:</strong> Eine Klartextbeschreibung der Parametersammlung
 
 **Besitzer:** 0: allgemeiner öffentlicher Parametersatz; 1: privater Parametersatz
 
@@ -26,7 +26,7 @@ Aufruf des **Pflegers** zur Neuerfassung, Änderung, Ansicht und Löschung von K
 
 **BedKorr:** BedienerId desjenigen Bedieners, der zuletzt Änderungen am Datensatz durchgeführt hat. (wird automatisch belegt).
 
-**System:** System-Kennzeichen, 0: nicht gesetzt; 1: gesetzt.
+<strong>System:</strong> System-Kennzeichen, 0: nicht gesetzt; 1: gesetzt.
 
 Datensätze mit gesetztem System-Kennzeichen können nur herstellerseitig im Hause AMIC bearbeitet werden.
 
@@ -38,10 +38,10 @@ Verzweigung in die detaillierte Darstellung der einzelnen Parameter-Datensätze 
 
 Reportdatei ist **SCPARAM.RPT**.
 
-**\*\* Duplikat erzeugen.** Diese Funktion steht nur Benutzern mit Mindestberechtigung Support zur Verfügung. Mit dieser Funktion wird eine Gruppe von Scriptparametern dupliziert und unter einem anderen Namen (andere ScriptPId) gespeichert.
+<strong>\*\* Duplikat erzeugen.</strong> Diese Funktion steht nur Benutzern mit Mindestberechtigung Support zur Verfügung. Mit dieser Funktion wird eine Gruppe von Scriptparametern dupliziert und unter einem anderen Namen (andere ScriptPId) gespeichert.
 
-**\*\* Mit Details löschen:** Diese Funktion steht nur Benutzern mit Mindestberechtigung Support zur Verfügung. Mit dieser Funktion wird eine Gruppe von Scriptparametern einschließlich aller Detailsätze gelöscht. Die Funktion ist nicht auf die Gruppe mit der ScriptPId „WaagenImport“ anwendbar!
+<strong>\*\* Mit Details löschen:</strong> Diese Funktion steht nur Benutzern mit Mindestberechtigung Support zur Verfügung. Mit dieser Funktion wird eine Gruppe von Scriptparametern einschließlich aller Detailsätze gelöscht. Die Funktion ist nicht auf die Gruppe mit der ScriptPId „WaagenImport“ anwendbar!
 
-**\*\* Duplikat n. WaagenImport:** Diese Funktion steht nur Benutzern mit Mindestberechtigung Support zur Verfügung. Eine Gruppe von Scriptparametern wird unter der ScriptPId „WaagenImport“ dupliziert. Sollte bereits eine Scriptparametergruppe „WaagenImport“ existieren, so wird davon eine Sicherheitskopie unter „WaagenImport_C“ angelegt. Existierten auch letztere Datensätze, so wird die Ausführung der Funktion abgebrochen. (Dies ist ein spezielles Feature für die Waagenschnittstelle)
+<strong>\*\* Duplikat n. WaagenImport:</strong> Diese Funktion steht nur Benutzern mit Mindestberechtigung Support zur Verfügung. Eine Gruppe von Scriptparametern wird unter der ScriptPId „WaagenImport“ dupliziert. Sollte bereits eine Scriptparametergruppe „WaagenImport“ existieren, so wird davon eine Sicherheitskopie unter „WaagenImport_C“ angelegt. Existierten auch letztere Datensätze, so wird die Ausführung der Funktion abgebrochen. (Dies ist ein spezielles Feature für die Waagenschnittstelle)
 
-**\*\* WaagenImport Standard:** Diese Funktion steht nur Benutzern mit Mindestberechtigung Support zur Verfügung. Aus der Datei ..\\SQL\\WAAGEN_DEFAULT.SQL werden die Scriptparameter mit der ScriptPId „WaagenImport“ eingelesen. Diese Funktion dient zur erstmaligen Installation einer Waagenimportschnittstelle. Sollte bereits eine Scriptparametergruppe „WaagenImport“ existieren, so wird davon eine Sicherheitskopie unter „WaagenImport_C“ angelegt. Existierten auch letztere Datensätze, so wird die Ausführung der Funktion abgebrochen. (Dies ist ein spezielles Feature für die Waagenschnittstelle).
+<strong>\*\* WaagenImport Standard:</strong> Diese Funktion steht nur Benutzern mit Mindestberechtigung Support zur Verfügung. Aus der Datei ..\\SQL\\WAAGEN_DEFAULT.SQL werden die Scriptparameter mit der ScriptPId „WaagenImport“ eingelesen. Diese Funktion dient zur erstmaligen Installation einer Waagenimportschnittstelle. Sollte bereits eine Scriptparametergruppe „WaagenImport“ existieren, so wird davon eine Sicherheitskopie unter „WaagenImport_C“ angelegt. Existierten auch letztere Datensätze, so wird die Ausführung der Funktion abgebrochen. (Dies ist ein spezielles Feature für die Waagenschnittstelle).

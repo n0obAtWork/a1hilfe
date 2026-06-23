@@ -12,7 +12,7 @@ Wählt man einen der Serienbrief aus, so öffnet sich der Bearbeitungsdialog, in
 
 Die Funktion ***„löschen“*** löscht den Eintrag aus dem Menü. Das Dokument selbst bleibt im Archiv erhalten.
 
-Bei **„speichern unter“** wird nach einer neuen Bezeichnung gefragt unter der dieser Serienbrief gespeichrt werden soll. Existieren noch ungespeicherte Änderungen am Original, so wird man ggf. noch gefragt, ob man diese vorher speichern möchte.
+Bei <strong>„speichern unter“</strong> wird nach einer neuen Bezeichnung gefragt unter der dieser Serienbrief gespeichrt werden soll. Existieren noch ungespeicherte Änderungen am Original, so wird man ggf. noch gefragt, ob man diese vorher speichern möchte.
 
 ![](../../../ImagesExt/image8_1301.png)
 

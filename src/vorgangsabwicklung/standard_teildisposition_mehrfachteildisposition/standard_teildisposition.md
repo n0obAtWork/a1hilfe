@@ -6,7 +6,7 @@ Mithilfe der Standard-Teildisposition ist es möglich, Artikelpositionen aus and
 
 Bei der Anwahl der Funktion werden alle offenen Vorgänge mit ihren Positionen angezeigt; die für die Standard-Teildisposition zur Auswahl stehen. Es können Bestellungen, Angebote und Aufträge ausgewählt werden.
 
-Die gewünschte Position wird ausgewählt. Danach wird abgefragt, ob die Position in vollem Umfang übernommen werden soll. **Im Feld „jetzt disponiert“** besteht eine Eingabemöglichkeit (Einschränkungen s.u.), wenn keine Nebenbuchhaltung angesprochen wurde. Bei dieser echten Teildisposition ist die Maske mit ,,Standard-Teildisposition / Manuelle Disposition" überschrieben. **Im Feld „Preis“** kann ein abweichender Preis eingegeben werden.
+Die gewünschte Position wird ausgewählt. Danach wird abgefragt, ob die Position in vollem Umfang übernommen werden soll. **Im Feld „jetzt disponiert“** besteht eine Eingabemöglichkeit (Einschränkungen s.u.), wenn keine Nebenbuchhaltung angesprochen wurde. Bei dieser echten Teildisposition ist die Maske mit ,,Standard-Teildisposition / Manuelle Disposition" überschrieben. <strong>Im Feld „Preis“</strong> kann ein abweichender Preis eingegeben werden.
 
 Mit der Bestätigung des vollen Betrages wird die Position in vollem Umfang übernommen, bei Eingabe eines kleineren Betrages verbleibt im Quellvorgang eine Restposition und die Teilposition wird übernommen. Die Eingabe einer Menge größer als der Ursprungsmenge ist nicht möglich, wenn der Steuerparameter 32 „Über-Disposition zulässig“ auf „Nein“ steht.
 

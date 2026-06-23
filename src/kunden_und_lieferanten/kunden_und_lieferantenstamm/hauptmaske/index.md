@@ -66,7 +66,7 @@ Der Kundentyp kann unter bestimmten Voraussetzungen nachträglich geändert werd
 
 **Anschrift**
 
-Erfassung der Adressinformation des Kunden, bestehend aus **Anrede, Vorname, Name, Straße, Postleitzahl, Ort, Ortsteil, Telefon- und Fax - Nr.** Die maximale Eingabelänge der Felder ist größer als auf der Maske dargestellt. Über den **"Rand"** kann also weitergeschrieben werden. Für Kunden, die zur Anschrift auch eine Postfachanschrift haben, kann diese mit der Funktion ***Anschriftenpflege*** **F10** erfasst werden. Bei der Erfassung der Postleitzahl wird automatisch geprüft, ob sie bereits vorhanden ist. Wenn ja, wird der Ort vorgeschlagen. Darüber hinaus besteht die Möglichkeit, mittels **F3** nach Postleitzahl oder Ort zu suchen. Im Kundenstamm ist es jetzt auch möglich, für einen Kunden mehrere Adressen zu hinterlegen. Hierbei gibt es nur eine Hauptadresse, die auch nicht gelöscht werden kann, da sonst der Kunde nicht mehr in der Auswahlliste zu sehen war, bzw. die Informationsfelder in der Finanzbuchhaltung leer bleiben würden. Wenn jetzt bei solchen Kunden die Anschrift gepflegt werden soll, wird zusätzlich angezeigt, ob es sich bei der in Bearbeitung befindlichen Anschrift um die Hauptadresse handelt. Wenn dieses der Fall ist, steht in der ersten Zeile der Maske "Adresstyp (Hauptadresse)". Falls es sich bei der in Bearbeitung befindlichen Adresse nicht um die Hauptadresse handelt, steht in der ersten Zeile der Maske "Adresstyp". Mit der Funktion **CTRL**+**F9** lässt sich eine andere als die bisherige Adresse als Hauptadresse festlegen.
+Erfassung der Adressinformation des Kunden, bestehend aus <strong>Anrede, Vorname, Name, Straße, Postleitzahl, Ort, Ortsteil, Telefon- und Fax - Nr.</strong> Die maximale Eingabelänge der Felder ist größer als auf der Maske dargestellt. Über den **"Rand"** kann also weitergeschrieben werden. Für Kunden, die zur Anschrift auch eine Postfachanschrift haben, kann diese mit der Funktion ***Anschriftenpflege*** **F10** erfasst werden. Bei der Erfassung der Postleitzahl wird automatisch geprüft, ob sie bereits vorhanden ist. Wenn ja, wird der Ort vorgeschlagen. Darüber hinaus besteht die Möglichkeit, mittels **F3** nach Postleitzahl oder Ort zu suchen. Im Kundenstamm ist es jetzt auch möglich, für einen Kunden mehrere Adressen zu hinterlegen. Hierbei gibt es nur eine Hauptadresse, die auch nicht gelöscht werden kann, da sonst der Kunde nicht mehr in der Auswahlliste zu sehen war, bzw. die Informationsfelder in der Finanzbuchhaltung leer bleiben würden. Wenn jetzt bei solchen Kunden die Anschrift gepflegt werden soll, wird zusätzlich angezeigt, ob es sich bei der in Bearbeitung befindlichen Anschrift um die Hauptadresse handelt. Wenn dieses der Fall ist, steht in der ersten Zeile der Maske "Adresstyp (Hauptadresse)". Falls es sich bei der in Bearbeitung befindlichen Adresse nicht um die Hauptadresse handelt, steht in der ersten Zeile der Maske "Adresstyp". Mit der Funktion **CTRL**+**F9** lässt sich eine andere als die bisherige Adresse als Hauptadresse festlegen.
 
 Auf der Hauptanschrift kann für die Nachhaltigkeitsvorbelegung ein Anbauland gespeichert werden. Wenn bei der Belegerfassung keine Kundenversandanschrift angegeben wurde, dann wird bei richtiger Nachhaltigkeitseinrichtung das Anbauland aus der Hauptanschrift gezogen. Im Kunden muss also ein Nachhaltigkeitszertifikat existieren und der gewünschte Artikel muss in Verbindung mit dem Anbauland aus der Hauptanschrift übereinstimmen. Ansonsten wird das Anbauland aus der Hauptanschrift ignoriert.
 
@@ -82,7 +82,7 @@ Eingabe der Telefonnummer
 **EDI-Partner**
 
 Wenn man EDI benutzen möchte, muss hier für den jeweiligen Kunden der Partner hinterlegt werden. In diesem Partner sind nämlich Profile hinterlegt, mit der die EDI-Nachrichten erstellt werden.  
-Die Profile werden im Direktsprung **[EDI]** gepflegt. Dort kann man dann mit der Funktion **Shift+F9** ***(B und N Setup)*** die Formatierung der Nachricht anpassen.
+Die Profile werden im Direktsprung <strong>[EDI]</strong> gepflegt. Dort kann man dann mit der Funktion **Shift+F9** ***(B und N Setup)*** die Formatierung der Nachricht anpassen.
 
 **Partner 1**
 
@@ -106,7 +106,7 @@ Wenn der Kunde für Fakturierung gesperrt ist, kann hier ein Grund für die Sper
 
 **Preisklasse EK/VK**
 
-Gibt an welcher Preisklasse der Kunde zugeordnet ist. In Zusammenhang mit der **"Preisfindung auf der Grundlage von Preislisten"** wird dann die dieser Preisklasse zugeordnete Preisliste gezogen.
+Gibt an welcher Preisklasse der Kunde zugeordnet ist. In Zusammenhang mit der <strong>"Preisfindung auf der Grundlage von Preislisten"</strong> wird dann die dieser Preisklasse zugeordnete Preisliste gezogen.
 
 **Steuergruppe**
 

@@ -8,7 +8,7 @@ Auf der Startmaske sind folgende Felder zu sehen:
 
 | Felder |
 | --- |
-| Profil | (In allen Modi außer ***Neu):*** Id des Profils |
+| Profil | (In allen Modi außer <strong>*Neu):*</strong> Id des Profils |
 | Profilname | Hier wird der Name des Profils hinterlegt. |
 | Exportformat | Wählen Sie das Format aus, in dem die eRechnung exportiert werden soll. Zur Auswahl stehen:<br>• UBL<br>• ZugFeRD / CII ***ab Herbstversion 2025*** |
 | Aktiv | Legen Sie fest mit der Optionsauswahl ***Ja*** oder ***Nein***, ob dieses Profil aktiviert ist. |

@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_fibubertragundekz.htm -->
 
-Der Programmteil FiBu-Übertrag **[FIB]** trägt die selektierten Vorgänge in die Rela­­­tion Datenstrom ein. In der AW-Box erscheint bei **[FIB]** der Status **„i.B.“** für in Bear­beitung.
+Der Programmteil FiBu-Übertrag **[FIB]** trägt die selektierten Vorgänge in die Rela­­­tion Datenstrom ein. In der AW-Box erscheint bei **[FIB]** der Status <strong>„i.B.“</strong> für in Bear­beitung.
 
 Die Verbuchung wird aus den folgenden Elementen zusammengestellt:
 

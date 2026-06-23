@@ -10,7 +10,7 @@ Hauptmenü > Rohwarenabrechnung > Rohwarenabrechnung > VK-Rohwarenbearbeitung
 
 Direktsprung **[RWBV]**
 
-Im Modul Rohwarenbearbeitung können in der Auswahlvariante *‘Rohwarestatusstapelkorrektur’* Belegstatus-Änderungen für mehrere Belege gleicher Stufe in einem Arbeitsschritt durchgeführt werden, die noch nicht weiterverarbeitet sind. Final-Belege können nur bverücksichtigt werden, wenn sie weder gedruckt noch gebucht sind.  
+Im Modul Rohwarenbearbeitung können in der Auswahlvariante <em>‘Rohwarestatusstapelkorrektur’</em> Belegstatus-Änderungen für mehrere Belege gleicher Stufe in einem Arbeitsschritt durchgeführt werden, die noch nicht weiterverarbeitet sind. Final-Belege können nur bverücksichtigt werden, wenn sie weder gedruckt noch gebucht sind.  
 Hier wird mit der Funktion ‚*Status-Stapelkorrektur*’ eine Maske zur Eingabe der zu ändernden Beleg-Status-Kennzeichen aufgerufen.
 
 ![Bild2](../ImagesExt/image8_391.jpg "Bild2")

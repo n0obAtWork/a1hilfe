@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_stoffstromdruckpositionen.htm -->
 
-Zur Darstellung von Stoffstromdaten auf Vorgangsdruck-Formularen stehen im Modul zur [Formulareinrichtung](../formulareinrichtung_und_zuordnung/formulareinrichtung/einrichtung_f6.md) für den Druckbereich ‚*Warenposition‘* Formulardruckpositionen zur Verfügung.
+Zur Darstellung von Stoffstromdaten auf Vorgangsdruck-Formularen stehen im Modul zur [Formulareinrichtung](../formulareinrichtung_und_zuordnung/formulareinrichtung/einrichtung_f6.md) für den Druckbereich ‚<em>Warenposition‘</em> Formulardruckpositionen zur Verfügung.
 
 - **6601 ID_STOFFSTROM_ART  
 **Nummer der Stoffstromart aus dem Anwendungsformat *‚af_stofstart‘*

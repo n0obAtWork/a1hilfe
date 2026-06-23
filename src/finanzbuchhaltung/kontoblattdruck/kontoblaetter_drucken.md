@@ -4,7 +4,7 @@
 
 Hauptmenü > Abschlussarbeiten > Kontoblätter > Kontoblätter bearbeiten > Funktion ***Kontoblätter drucken***
 
-Direktsprung **[KOD]** oder **[KOK]**
+Direktsprung <strong>[KOD]</strong> oder <strong>[KOK]</strong>
 
 Für den Druck des Kontoblattes stehen verschiedene Möglichkeiten zur Verfügung, die sich letztlich nur durch die Möglichkeit der Eingrenzung unterscheiden:
 

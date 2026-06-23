@@ -11,7 +11,7 @@ Hauptmenü > Rohwarenabrechnung > Rohwarenabrechnung > VK-Rohwarenbearbeitung > 
 Direktsprung **[RWBV]**
 
 ![](../../ImagesExt/image8_383.png)  
-Je nach Bearbeitungsstatus und Einstellung der Rohwarenparameter [RWPA] können die Angaben der ausgewählten Rohwarebelege hier abgeändert werden. Dabei ist zu beachten, dass ein bereits entsprechend seiner Stufe abgerechneter Beleg beim Aufruf zu Korrektur wieder in den Status *‚freigegeben‘* zurückgesetzt wird. Bei entsprechender Einstellung des Rohwareparameters [*Abrechnung nach Belegkorrektur*](../rohwareparameter_einrichten/rohwareparameter_uebersicht.md#RWPA_172) kann der Beleg nach erfolgreichem Abschluss der Korrektur aber automatisch durch das Modul in den abgerechneten Zustand versetzt werden.  
+Je nach Bearbeitungsstatus und Einstellung der Rohwarenparameter [RWPA] können die Angaben der ausgewählten Rohwarebelege hier abgeändert werden. Dabei ist zu beachten, dass ein bereits entsprechend seiner Stufe abgerechneter Beleg beim Aufruf zu Korrektur wieder in den Status <em>‚freigegeben‘</em> zurückgesetzt wird. Bei entsprechender Einstellung des Rohwareparameters [*Abrechnung nach Belegkorrektur*](../rohwareparameter_einrichten/rohwareparameter_uebersicht.md#RWPA_172) kann der Beleg nach erfolgreichem Abschluss der Korrektur aber automatisch durch das Modul in den abgerechneten Zustand versetzt werden.  
 Nicht geändert werden können hier die Attribute Kunde bzw. Lieferant, Liefernummer und Lieferdatum.  
 Natürlich können z.B. in einem Beleg der Stufe *Finalabrechnung* auch keine Zahlungsbedingungswerte etc. der Stufe *Abschlag* oder *Folgeabschlag* geändert werden.  
 Kontraktzuordnungen sowie Lager, Artikel und Abrechnungsschema können bis zu Belegen der ersten Rechnungsstufe geändert werden.  

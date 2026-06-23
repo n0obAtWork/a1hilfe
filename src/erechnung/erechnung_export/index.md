@@ -4,7 +4,7 @@
 
 In den Auswahllisten folgenden Auswahllisten steht bei entsprechender [Lizenzeinrichtung](../../firmenstamm/steuerparameter/lizenzen/erechnung_lizenz_spa1152.md) die Funktion ***eRechnung exportieren*** zur Verfügung:
 
-**•** Rechnung **[REB]**
+<strong>•</strong> Rechnung **[REB]**
 
 - Gutschrift **[GUB]**
 - Eingangsrechnung **[ERB]**

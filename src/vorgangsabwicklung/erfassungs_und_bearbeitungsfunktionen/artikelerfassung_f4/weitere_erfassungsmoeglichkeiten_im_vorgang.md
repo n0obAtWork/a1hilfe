@@ -72,9 +72,9 @@ Für die Zu-/Abschlagserfassung kann mit Hilfe der Einrichterparameterfunktion i
 
 ***Ausweisung Druck:*** Bei “Ja” wird der Zu-/Abschlag in der Bezugszeile ausgewiesen, bei “Nein” in einer Folgezeile
 
-***Druckform:*** Der Zu-/Abschlag wird offen (ja) ausgewiesen, er ist verdeckt (nein)
+<strong>*Druckform:*</strong> Der Zu-/Abschlag wird offen (ja) ausgewiesen, er ist verdeckt (nein)
 
-***Einzelpreis:*** Der Zu-/Abschlag vermindert den Einzelpreis (ja) im Ausdruck oder nur den Gesamtpreis (nein)
+<strong>*Einzelpreis:*</strong> Der Zu-/Abschlag vermindert den Einzelpreis (ja) im Ausdruck oder nur den Gesamtpreis (nein)
 
 ***Berechnungsformel:*** Vorschlagswert für die Berechnungsformel
 

@@ -36,7 +36,7 @@ Bei der Methode Standard ist es so, dass eine Ausgangsrechnung die Forderungen e
 
 Dadurch werden die Beträge, die bei Kunden den Verbindlichkeiten zugeordnet würden, trotzdem auf das Bestandskonto für Forderungen gehen. Bei Lieferanten entsprechend die Forderungen auf das Bestandskonto für Verbindlichkeiten. Bei den Kontokorrentkunden, bei denen sowohl Forderungen als auch Verbindlichkeiten auftreten können, braucht man natürlich die Trennung der Konten.  
     
-**Hinweis**: Wenn man die Methode **„Standard“** verwendet und Eingangs- und Ausgangsrechnungen in der OP-Verwaltung miteinander verrechnet bzw. Belege mit unterschiedlicher Forderungs- und Verbindlichkeitszuordnung miteinander verrechnet, kommt es, wenn Forderungs- und Verbindlichkeitskonto unterschiedlich sind, zu einer Besonderheit:
+**Hinweis**: Wenn man die Methode <strong>„Standard“</strong> verwendet und Eingangs- und Ausgangsrechnungen in der OP-Verwaltung miteinander verrechnet bzw. Belege mit unterschiedlicher Forderungs- und Verbindlichkeitszuordnung miteinander verrechnet, kommt es, wenn Forderungs- und Verbindlichkeitskonto unterschiedlich sind, zu einer Besonderheit:
 
 | | Betrag | Forderung | Verbindlichkeit |
 | --- | --- | --- | --- |

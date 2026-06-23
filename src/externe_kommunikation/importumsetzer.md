@@ -42,7 +42,7 @@ Diese Funktion steht nur zur Verfügung, wenn in der Variante „Import-Umsetzer
 
 <p class="just-emphasize">Variante Import-Umsetzer Itemboxzuordnung</p>
 
-In dieser Variante wird die Steuerung für die Tabellarische(-änderung) eingestellt**.** Mit dieser Funktion können Massendaten einfach umgeschlüsselt werden. Für die Datenaufbereitung wird eine Private Prozedur benötigt.
+In dieser Variante wird die Steuerung für die Tabellarische(-änderung) eingestellt<strong>.</strong> Mit dieser Funktion können Massendaten einfach umgeschlüsselt werden. Für die Datenaufbereitung wird eine Private Prozedur benötigt.
 
 Mit ***Neu*** [**F8**] wird ein neuer Eintrag angelegt.
 

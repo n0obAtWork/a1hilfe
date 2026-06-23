@@ -10,7 +10,7 @@ Möchte man erreichen, dass beim Öffnen des Fensters schon das Häkchen bei Wie
 Für die Mitteilung trägt man im Feld An z.B. über die **F3**\-Auswahl oder direkt mit dem Kürzel den Bediener ein, an den die Mitteilung gehen soll.  
 Des Weiteren kann man einen Betreff und eine Notiz eingeben. Wählt man dann die Funktion **Senden** wird eine Mail an den Empfänger verschickt.
 
-Ist zusätzlich der Haken bei Wiedervorlage gesetzt und ein Datum eingetragen wird vor dem Senden der Mail auch ein Eintrag in die Wiedervorlage **[WIEDV]** vorgenommen.
+Ist zusätzlich der Haken bei Wiedervorlage gesetzt und ein Datum eingetragen wird vor dem Senden der Mail auch ein Eintrag in die Wiedervorlage <strong>[WIEDV]</strong> vorgenommen.
 
 Für die Wiedervorlage sind folgende Felder zu füllen:
 

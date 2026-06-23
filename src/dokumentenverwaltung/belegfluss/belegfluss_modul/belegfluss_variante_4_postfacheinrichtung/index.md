@@ -31,7 +31,7 @@
 
 | Name | Beschreibung |
 | --- | --- |
-| Ändern **(F5),** Ansehen **(F6),** Löschen **(F7),** Neu **(F8)** | Ruft den Pfleger der Postfacheinrichtung auf. |
+| Ändern <strong>(F5),</strong> Ansehen <strong>(F6),</strong> Löschen <strong>(F7),</strong> Neu **(F8)** | Ruft den Pfleger der Postfacheinrichtung auf. |
 
 </details>
 

@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_gefahrgut.htm -->
 
-Für die Gefahrgutabwicklung können im Artikelstamm-Pflege-Modul diverse Angaben mit der Funktion ***Gefahrgut*** hinterlegt werden. Diese Funktion ist sowohl von der Artikelstamm-Pflege-Maske als auch direkt von der Artikelstamm-Auswahlliste aus aufrufbar und ermöglicht die Pflege von Gefahrgutdaten, die in Formulareinrichtungen gemäß der Vorschriften des ADR ( ***A****ccord européen relatif au transport international des marchandises **D**angereuses par **R**oute,* Europäische Übereinkommen über die internationale Beförderung gefährlicher Güter auf der Straße ) berücksichtigt werden können.
+Für die Gefahrgutabwicklung können im Artikelstamm-Pflege-Modul diverse Angaben mit der Funktion ***Gefahrgut*** hinterlegt werden. Diese Funktion ist sowohl von der Artikelstamm-Pflege-Maske als auch direkt von der Artikelstamm-Auswahlliste aus aufrufbar und ermöglicht die Pflege von Gefahrgutdaten, die in Formulareinrichtungen gemäß der Vorschriften des ADR ( ***A***<em>ccord européen relatif au transport international des marchandises **D**angereuses par **R**oute,</em> Europäische Übereinkommen über die internationale Beförderung gefährlicher Güter auf der Straße ) berücksichtigt werden können.
 
 | Feld | Bedeutung |
 | --- | --- |

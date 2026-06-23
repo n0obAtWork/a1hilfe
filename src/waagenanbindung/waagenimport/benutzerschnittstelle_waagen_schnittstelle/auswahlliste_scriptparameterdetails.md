@@ -24,6 +24,6 @@ Aufruf des **Pflegers** zur Neuerfassung, Änderung, Ansicht und Löschung von D
 
 Im Kopfteil werden Informationen aus dem Kopfsatz angezeigt (nicht änderbar).
 
-**PPId:** Id des Detailsatzes. Hier ist eine Eindeutige Kurzbezeichnung anzugeben anhand derer der Datensatz von einem Script aus angesprochen werden kann.
+<strong>PPId:</strong> Id des Detailsatzes. Hier ist eine Eindeutige Kurzbezeichnung anzugeben anhand derer der Datensatz von einem Script aus angesprochen werden kann.
 
-**PPBezeichnung:** Eine Klartextbeschreibung des Parameters
+<strong>PPBezeichnung:</strong> Eine Klartextbeschreibung des Parameters

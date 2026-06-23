@@ -15,12 +15,12 @@ Für das Modul Intrastat wird die [Intrastat-Lizenz](../../../firmenstamm/steuer
 Folgende Stammdaten müssen hinterlegt sein, damit eine Intrastat-Meldung erstellt werden kann:
 
 - [Kundenstamm](../../../kunden_und_lieferanten/uebersicht_kunden_und_lieferanten.md) **[KU]**  
-Im Register *„Allgemein“* muss das Land des Kunden hinterlegt sein  
+Im Register <em>„Allgemein“</em> muss das Land des Kunden hinterlegt sein  
 Die UST.-Ident muss gepflegt sein  
 Und die Steuergruppe darf nicht der Steuergruppe entsprechen, welche im SPA 643 eingetragen ist
 
 - [Lagerstamm](../../../firmenstamm/uebersicht_lager_und_lagerplatz/lagerstamm_lgs.md) **[LGS]**  
-Im Register *„Allgemein“* muss das Land des Lagerstandortes hinterlegt sein
+Im Register <em>„Allgemein“</em> muss das Land des Lagerstandortes hinterlegt sein
 
 - [Mandantenstamm](../../../firmenstamm/firmenkonstanten/mandantenstamm.md#MND_FIBU) **[MND]**  
 Hier muss das Bundesland und die Steuernummer hinterlegt sein

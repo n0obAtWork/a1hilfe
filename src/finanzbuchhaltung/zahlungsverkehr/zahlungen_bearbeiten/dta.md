@@ -22,7 +22,7 @@ Es stehen mehrere DTA-Verfahren zur Verfügung.
   4. SEPA
 
   5. Datenbankfunktion: Offenes Format, bei dem eine Datenbankfunktion die Ausgabedaten als long varchar liefert. Diese private Datenbankfunktion wird unter der Option (Direktsprung [OPT]) DTA_PROZEDUR eingetragen. Als Parameter erhält diese Prozedur die ASATZ_ID über die die Aufbereiteten Datensätze identifiziert werden können  
-**Achtung:** Wird die Prozedur im Vieraugenprinzip-Zahlung verwendet, so wird die ZahllaufId zur Identifizierung übergeben.  
+<strong>Achtung:</strong> Wird die Prozedur im Vieraugenprinzip-Zahlung verwendet, so wird die ZahllaufId zur Identifizierung übergeben.  
     
 
 - DTINT Verfahren

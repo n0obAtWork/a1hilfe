@@ -8,7 +8,7 @@ oder Direktsprung **[KUBA]**
 
 Alle Grunddaten der Banken, mit denen das System zu tun hat, werden im allgemeinen Bankenstamm hinterlegt, egal ob es sich um eigene Hausbanken oder um Banken von Kunden, Lieferanten, Vertretern... handelt. Hierdurch wird vermieden, dass immer wiederkehrende Informationen, wie die Bankleitzahl, wiederholt werden müssen.
 
-Die spezifischen Eingaben der Kundenbankdaten werden im Auswahlbildschirm Kundenbank **erfasst,** der über den Direktsprung **[KUBA]** zu erreichen ist.
+Die spezifischen Eingaben der Kundenbankdaten werden im Auswahlbildschirm Kundenbank <strong>erfasst,</strong> der über den Direktsprung **[KUBA]** zu erreichen ist.
 
 In der Stammdatenmaske können folgende Daten eingegeben werden.
 

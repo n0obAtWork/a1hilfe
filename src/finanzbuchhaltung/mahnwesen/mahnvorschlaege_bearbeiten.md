@@ -36,11 +36,11 @@ Um **Mahnvorschläge zu ändern, werden i**n einer weiteren Anwendung zu den aus
 
 Mit **&lt;, >** wird zwischen den Konten geblättert.
 
-**F5****:** Es können weitere Belege zu dieser Mahnung hinzugefügt werden, die bisher nicht hinzugefügt worden sind (Siehe Einstellung in den Mahngruppen).
+**F5**<strong>:</strong> Es können weitere Belege zu dieser Mahnung hinzugefügt werden, die bisher nicht hinzugefügt worden sind (Siehe Einstellung in den Mahngruppen).
 
 **F6****: Freigabe des gesamten Vorschlags.**
 
-**F7****:** Es können einzelne Positionen oder der gesamte Vorschlag gelöscht werden.
+**F7**<strong>:</strong> Es können einzelne Positionen oder der gesamte Vorschlag gelöscht werden.
 
 **Umschalt F5****:** Nur hier hat man noch die Möglichkeit, Zinsen manuell zu ändern. Dies muss pro Position geschehen.
 

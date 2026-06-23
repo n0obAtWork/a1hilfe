@@ -52,7 +52,7 @@ TAR-Export erzeugen
 
 ***ODER*** (*ohne Datumseingrenzung):*
 
-1. Zum Direktsprung **[TSE]** navigieren.
+1. Zum Direktsprung <strong>[TSE]</strong> navigieren.
 
 2. Datensatz markieren.
 
@@ -75,7 +75,7 @@ Damit die Lizenz zum TSE-Stick passt, muss zunächst die aktuelle A.eins-Lizenz 
 
 Dazu wie folgt vorgehen:
 
-***1.*** Im Ordner ***Aeins\\Config*** die aktive **ahoi2.xml** umbenennen z. B. in ***ahoi2_OLD***
+<strong>*1.*</strong> Im Ordner ***Aeins\\Config*** die aktive **ahoi2.xml** umbenennen z. B. in ***ahoi2_OLD***
 
 So ist sichergestellt, dass sie im Notfall reaktiviert werden kann.
 

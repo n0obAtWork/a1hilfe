@@ -6,7 +6,7 @@ Hauptmenü \> Kostenrechnung \> Kostenstellen
 
 In der Anwendung „**Kostenstellenauswertung“** werden verschiedene Auswertungsvarianten angeboten. Alle Varianten bis auf die Variante Kostenstellenbewegung stellen die Werte so dar, wie sie am Ende nach Verteilung aussehen. Die Variante **Kostenstellenbewegung** zeigt die Werte sowohl so an, wie sie erfasst wurden, als auch die Kostenstellen und Beträge, wie sie nach der Verteilung aussehen. Hier kann sowohl nach der erfassten Kostenstelle (Kostenstelle Quelle) als auch nach der Kostenstell, auf der der Wert im Endeffekt landet (Kostenstelle Ziel) eingegrenzt werden.
 
-Die Anwendung „**Verteilkst.Auswertung“** zeigt die Werte aus dem Beleg ohne die manuelle Verteilung an. Es wird je Jahr und Buchungsperiode der Saldo der Kostenstelle nach Konten ausgegeben. Ausgewählt werden die Daten nach Jahr, Kostenstelle, Konto, Periode.
+Die Anwendung „<strong>Verteilkst.Auswertung“</strong> zeigt die Werte aus dem Beleg ohne die manuelle Verteilung an. Es wird je Jahr und Buchungsperiode der Saldo der Kostenstelle nach Konten ausgegeben. Ausgewählt werden die Daten nach Jahr, Kostenstelle, Konto, Periode.
 
 Weiterhin stehen noch diverse Reporte zur Verfügung:
 

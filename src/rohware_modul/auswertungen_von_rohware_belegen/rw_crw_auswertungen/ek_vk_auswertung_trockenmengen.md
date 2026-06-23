@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_rwawtlis_ekvk.htm -->
 
-Direktsprung **[LST]** Variante *Rohwarenauswertungen*
+Direktsprung <strong>[LST]</strong> Variante *Rohwarenauswertungen*
 
 Der Report listet summarisch
 

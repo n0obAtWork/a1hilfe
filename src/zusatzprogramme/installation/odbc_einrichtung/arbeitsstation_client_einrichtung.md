@@ -30,7 +30,7 @@ Folgende Setzungen erfolgen:
 | EngineName | Eng | (\*) |
 | Description(\*\*\*) | Programm_name | |
 
-**(\*)** Diese „Standard-Werte“ werden intern – falls nicht extra vorgegeben – aus dem „Database_Connect“-Parameter ermittelt.
+<strong>(\*)</strong> Diese „Standard-Werte“ werden intern – falls nicht extra vorgegeben – aus dem „Database_Connect“-Parameter ermittelt.
 
 **(\*\*)**
 

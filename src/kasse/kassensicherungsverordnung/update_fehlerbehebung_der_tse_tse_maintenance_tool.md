@@ -7,7 +7,7 @@
 - Das ***TSE Maintenance Tool***
 - Die Admin-PIN.
 
-(Einzusehen im TSE-Pfleger unter Tab: **Zugang USB ->** Feld: **Admin Pin**).
+(Einzusehen im TSE-Pfleger unter Tab: <strong>Zugang USB -></strong> Feld: **Admin Pin**).
 
 - TSE ist *lokal* am USB-Slot des PCs mit dem TSE Maintenance Tool eingesteckt (ein Update über *Netuse* bzw. *Netzwerklaufwerk* ist nicht möglich!).
 

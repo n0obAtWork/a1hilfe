@@ -8,7 +8,7 @@ Folgende Eingaben sind möglich, wobei die Klassenzuordnungen für Ein- und Verk
 
 **Listenpreisklasse**
 
-Gibt an, welcher Preisklasse der Kunde zugeordnet ist. In Zusammenhang mit der **"Preisfindung auf der Grundlage von Preislisten"** wird dann die dieser Preisklasse zugeordnete Preisliste gezogen.
+Gibt an, welcher Preisklasse der Kunde zugeordnet ist. In Zusammenhang mit der <strong>"Preisfindung auf der Grundlage von Preislisten"</strong> wird dann die dieser Preisklasse zugeordnete Preisliste gezogen.
 
 **Mindestpreisklasse**
 

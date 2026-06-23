@@ -23,7 +23,7 @@ Sollten Differenzen auftreten, stehen unter ***Konsistenz prüfen*** Analysefunk
 
 Die Datenaufbereitung (Einlesen) mit WABST nimmt zurzeit noch relativ viel Zeit in Anspruch, da in der jetzigen Version stets der gesamte Datenbestand (WARE / FIBU) eingelesen wird. In einer zukünftigen Version sollen dann abgeschlossene Perioden gespeichert werden, so dass dann lediglich die aktuell offenen Perioden neu eingelesen werden!
 
-**Was tut WABST?** Es wertet folgende Datenbestände aus:
+<strong>Was tut WABST?</strong> Es wertet folgende Datenbestände aus:
 
 - **WARENBELEGE**: Summensätze der Warenvorgänge
 - **WARENPOSITION**: aus einzelnen Warenbewegungen errechnete Summen

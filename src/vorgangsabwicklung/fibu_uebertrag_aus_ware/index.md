@@ -18,11 +18,11 @@ Mittels der Funktion **‚Fibu-Übertrag‘** werden für die selektierten und m
 
 Die zur Verfügung stehenden Auswahllisten-Varianten unterscheiden sich vor allem hinsichtlich der heranzuziehenden Vorgangsarten.
 
-So können in der Variante *‚Fibu Übertrag Standard‘* nur Rechnungen, Stornorechnungen, Gutschriften, Stornogutschriften und Inventurbelege ohne Rohware, Produktion und Umbuchungen berücksichtigt werden.  
-In den Varianten *‚Fibu Übertrag incl. Rohware‘* und *‚Fibu Übertrag mit Positionszeilen‘* sind zusätzlich auch Rohware-Einzelabrechnungen darstellbar.  
-Rohware-Sammeldruck-Belege können nur in der Variante *‚Fibu Übertrag Rohware-Sammelbelege‘* und Umbuchungs- und Produktionsbelege in der Variante *‚Fibu Übertrag Umbuchungen und Produktion‘* ausgewählt werden.
+So können in der Variante <em>‚Fibu Übertrag Standard‘</em> nur Rechnungen, Stornorechnungen, Gutschriften, Stornogutschriften und Inventurbelege ohne Rohware, Produktion und Umbuchungen berücksichtigt werden.  
+In den Varianten <em>‚Fibu Übertrag incl. Rohware‘</em> und *‚Fibu Übertrag mit Positionszeilen‘* sind zusätzlich auch Rohware-Einzelabrechnungen darstellbar.  
+Rohware-Sammeldruck-Belege können nur in der Variante <em>‚Fibu Übertrag Rohware-Sammelbelege‘</em> und Umbuchungs- und Produktionsbelege in der Variante *‚Fibu Übertrag Umbuchungen und Produktion‘* ausgewählt werden.
 
-Die Variante *‚Fibu Übertrag abgebrochen‘* werden Vorgänge zu bereits erteilten Übertragungsaufträgen des Mandantenservers dargestellt, die einen nicht konsistenten Verarbeitungsstatus haben.
+Die Variante <em>‚Fibu Übertrag abgebrochen‘</em> werden Vorgänge zu bereits erteilten Übertragungsaufträgen des Mandantenservers dargestellt, die einen nicht konsistenten Verarbeitungsstatus haben.
 
 <p class="siehe-auch">Siehe auch:</p>
 

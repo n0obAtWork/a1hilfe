@@ -3,7 +3,7 @@
 <!-- source: https://amic.de/hilfe/_stoffstromeditor.htm -->
 
 Mit dem Modul zum Ansehen und zur Korrektur von Stoffstromdaten können die zugehörigen Werte zu je einer Warenbewegung angesehen beziehungsweise geändert werden. Aufrufbar ist das Modul in diversen positionsorientierten Auswahllistenvarianten der Vorgangsbearbeitungsmodule sowie in den dafür geeigneten Auswahllistenvarianten der Rohwarebearbeitung (zu beachten: [Stoffstromdaten in Rohwarebelegen](./stoffstromdaten_in_rohwarebelegen.md)), wie auch der Auswahllistenvariante *‚Produktion mit Positionen‘* des Produktionsmoduls (zu beachten: [Stoffstromdaten in Produktionsbelegen](./stoffstromdaten_in_produktionsbelegen.md)).  
-Die Auswahllistenvariante *‚Stoffstrom-Positionen‘* des Moduls *‚Vorgangsübersicht‘* stellt zu den per Bereichsauswahl zu selektierenden Vorgängen nur Positionen zu denjenigen Artikeln dar, denen per Artikelstamm-Zusammensetzung Stoffstrompositionen zugeordnet sind und eignet sich daher besonders als Grundlage zur Änderung der Stoffstromdaten von ganzen Vorgangsgruppen.
+Die Auswahllistenvariante <em>‚Stoffstrom-Positionen‘</em> des Moduls <em>‚Vorgangsübersicht‘</em> stellt zu den per Bereichsauswahl zu selektierenden Vorgängen nur Positionen zu denjenigen Artikeln dar, denen per Artikelstamm-Zusammensetzung Stoffstrompositionen zugeordnet sind und eignet sich daher besonders als Grundlage zur Änderung der Stoffstromdaten von ganzen Vorgangsgruppen.
 
 ![](../../ImagesExt/image8_1247.jpg)
 
@@ -13,7 +13,7 @@ Sind diesem Lieferanten im zugehörigen Artikelstammsatz der Position individuel
     
 Wurde dem Artikelstamm seit der Berechnung der Daten der Position in seiner [Zusammensetzung](../../artikelstamm_und_artikel/parameter_des_artikelstamms/zusammensetzung.md) ein weiterer Stoffstrombestandteil hinzugefügt, so wird dieser mit dem dort angegebenen Anteil, aber ohne berechnete Menge ebenfalls dargestellt, obwohl diese Daten (noch) nicht zur Position gespeichert sind.  
 Die Funktion **‚Berechnen‘** löst eine Neuberechnung der dargestellten Werte aus. Mit der Funktion **‚Reset‘** können die Werte bei Fehleingaben wieder auf die ursprünglich eingelesenen Werte zurückgesetzt werden.  
-Die Angabe *‚Herkunft der Werte‘* gibt an, ob der dargestellte Anteilwert der Artikelstamm-Zusammensetzung entnommen wird, der Anteilwert und/oder der Anteiltyp manuell angegeben wurde oder die berechnete Menge manuell erfasst wurde. Bei Änderung des Anteil-Wertes und/oder des Anteiltyp (Spalte ‚in‘) springt diese Anzeige automatisch auf den Wert **Anteil manuell** um. Wird die Menge geändert, so wird hier **Menge manuell** ausgewiesen. Die Einstellung kann auch manuell auf jeden der drei Werte geändert werden:
+Die Angabe <em>‚Herkunft der Werte‘</em> gibt an, ob der dargestellte Anteilwert der Artikelstamm-Zusammensetzung entnommen wird, der Anteilwert und/oder der Anteiltyp manuell angegeben wurde oder die berechnete Menge manuell erfasst wurde. Bei Änderung des Anteil-Wertes und/oder des Anteiltyp (Spalte ‚in‘) springt diese Anzeige automatisch auf den Wert **Anteil manuell** um. Wird die Menge geändert, so wird hier **Menge manuell** ausgewiesen. Die Einstellung kann auch manuell auf jeden der drei Werte geändert werden:
 
 - **aus Artikelstamm  
 **der Anteilwert und Anteiltyp wird neu aus der Artikelstamm-Zusammensetzung gelesen  
@@ -26,4 +26,4 @@ und die Berechnung der Menge wird durchgeführt
 **der Anteilwert und die Menge bleiben wie dargestellt  
 auch bei zukünftigen Neuberechnungen erhalten. 
 
-Zu beachten: Die Berechnungsfunktion wird grundsätzlich immer bei der Bearbeitung der Vorgänge inklusive Umwandlungen entsprechend der geschilderten Einstellung für *‚Herkunft der Werte‘* durchgeführt!
+Zu beachten: Die Berechnungsfunktion wird grundsätzlich immer bei der Bearbeitung der Vorgänge inklusive Umwandlungen entsprechend der geschilderten Einstellung für <em>‚Herkunft der Werte‘</em> durchgeführt!

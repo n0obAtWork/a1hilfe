@@ -5,7 +5,7 @@
 1. Das PDF-Dokument wird geöffnet und das Signatur Pad zum Signieren vorbereitet.  
 Die Dauer dieses Vorgangs ist abhängig von der Größe des Dokuments. Im Standardfall wird durch Sh+F8 die Unterschriftsfläche aktiviert.
 
-**2.** Es kann jetzt auf dem Signatur Pad unterschrieben werden.
+<strong>2.</strong> Es kann jetzt auf dem Signatur Pad unterschrieben werden.
 
   - Mit der Schaltfläche „Wiederholen“ (Bild: 2 Pfeile) auf dem Signatur Pad wird die Unterschrift verworfen und es kann erneut unterschrieben werden.
 

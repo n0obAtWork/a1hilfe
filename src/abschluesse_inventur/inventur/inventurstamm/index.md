@@ -45,8 +45,8 @@ Im Inventurstamm wird die Inventur im Detail definiert.
 
 | Funktion | Beschreibung |
 | --- | --- |
-| Ändern**(F5)**, Ansehen**(F6)**, Löschen**(F7)**, Neu**(F8)** | Öffnet den Inventurstamm-Pfleger |
-| Inventurstamm**(F9)** | Öffnet die Suchfunktion |
+| Ändern<strong>(F5)</strong>, Ansehen<strong>(F6)</strong>, Löschen<strong>(F7)</strong>, Neu<strong>(F8)</strong> | Öffnet den Inventurstamm-Pfleger |
+| Inventurstamm<strong>(F9)</strong> | Öffnet die Suchfunktion |
 
 </details>
 

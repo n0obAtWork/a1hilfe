@@ -28,9 +28,13 @@ jobs:
         run: mdbook test
       - name: Build Hilfe
         run: mdbook build
-      - name: Copy PDF file
-        run: cp book/pdf/output.pdf book/html/Aeins.pdf
-      # TODO - need something to upload generated pdf for distribution
+      - name: Rename PDF file
+        run: mv book/pdf/output.pdf book/pdf/Aeins.pdf
+      - name: Upload PDF
+        uses: actions/upload-artifact@v7
+        with:
+          name: pdf
+          path: book/pdf/Aeins.pdf
       - name: Handle old container
         run: |
           chmod +x ./handle-old-container.sh

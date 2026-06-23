@@ -12,4 +12,4 @@
 | Methodenauswahl auf Probentyp einschränken | Nein | Ist hier der Wert **Ja** eingetragen, so erfolgt bei der Methodenauswahl eine Filterung nach dem angegebenen Probentyp (Zweck)<br> |
 | Waagenterminal für die Probenannahme | 0<br> | Nummer des Waagenterminals. |
 | Für folgende Bediener nur Hybridity anzeigen | | Eine durch Komma getrennte Liste der Anwender, die nur das Verfahren Marker bearbeiten können.<br> |
-| Nicht verwendete Verfahren ausblenden | Ja | Auf der Maske Labordaten existieren Registerkarten, auf denen mehrere Verfahren dargestellt werden. Steht dieser EPA auf **Ja,** so werden nicht verwendete Verfahren ausgeblendet. Stellt man diesen EPA aus **Nein,** so reagiert das System wie früher und lässt alle Verfahren aktiv. |
+| Nicht verwendete Verfahren ausblenden | Ja | Auf der Maske Labordaten existieren Registerkarten, auf denen mehrere Verfahren dargestellt werden. Steht dieser EPA auf **Ja,** so werden nicht verwendete Verfahren ausgeblendet. Stellt man diesen EPA aus <strong>Nein,</strong> so reagiert das System wie früher und lässt alle Verfahren aktiv. |

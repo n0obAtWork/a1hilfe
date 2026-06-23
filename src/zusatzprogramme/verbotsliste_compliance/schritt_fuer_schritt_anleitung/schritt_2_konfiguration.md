@@ -5,7 +5,7 @@
 <details>
 <summary>Schritt 2.1: Compliance im Vorgang</summary>
 
-Mit dem Direktsprung **[FRZ]** gelangt man in die Vorgangsunterklassen bzw. die Formularzuordnung. Hier kann man sich nun einen Vorgang aussuchen, welcher die Compliance Abfrage tätigen soll (dies können auch mehrere Vorgänge sein). Man wählt in der Auswahlliste den gewünschten Vorgang aus und bearbeitet diesen mit **F5** oder ***Bearbeiten***. Als nächstes wechselt man auf das Register *„Zoll“*, und ändert das Feld *„Compliance prüfen“* mit **F3** auf *„Ja“*. Anschließend speichert man mit **F9** den Datensatz ab.
+Mit dem Direktsprung **[FRZ]** gelangt man in die Vorgangsunterklassen bzw. die Formularzuordnung. Hier kann man sich nun einen Vorgang aussuchen, welcher die Compliance Abfrage tätigen soll (dies können auch mehrere Vorgänge sein). Man wählt in der Auswahlliste den gewünschten Vorgang aus und bearbeitet diesen mit **F5** oder ***Bearbeiten***. Als nächstes wechselt man auf das Register *„Zoll“*, und ändert das Feld <em>„Compliance prüfen“</em> mit **F3** auf *„Ja“*. Anschließend speichert man mit **F9** den Datensatz ab.
 
 ![](../../../ImagesExt/image8_1393.jpg)
 
@@ -16,11 +16,11 @@ Mit dem Direktsprung **[FRZ]** gelangt man in die Vorgangsunterklassen bzw. die 
 
 Um eine Personen/Adressprüfung manuell auszuführen hat man 2 Möglichkeiten:
 
-**1.** Im Kundenstamm: Direktsprung **[KU]**
+<strong>1.</strong> Im Kundenstamm: Direktsprung **[KU]**
 
 **2. Im Lieferantenstamm: Direktsprung** **[LF]**
 
-**3.** Im Anschriftenstamm: Direktsprung **[Ansch]**
+<strong>3.</strong> Im Anschriftenstamm: Direktsprung **[Ansch]**
 
 **(Das Ergebnis der Prüfung hängt von dem SPA 1063 ab)**
 

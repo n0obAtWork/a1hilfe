@@ -10,7 +10,7 @@ Bei **Ja** werden die Daten gespeichert und die Anwendung verlassen.
 
 Bei **Nein** wird die Anwendung ohne Speichern verlassen.
 
-Bei **Abbruch** wird in die Erfassung zurückgesprungen**,** damit ggf. Werte korrigiert werden können.
+Bei **Abbruch** wird in die Erfassung zurückgesprungen<strong>,</strong> damit ggf. Werte korrigiert werden können.
 
 Es können jedoch auch Abfragen in anderer Form erscheinen. Z.B. werden auch Test vor Auswertungen vorgenommen, ob Daten bereits so in korrekter Form vorliegen. Beispiel:
 

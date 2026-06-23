@@ -10,7 +10,7 @@ Hauptmenü > Rohwarenabrechnung > Rohwarenabrechnung > VK-Rohwarenbearbeitung
 
 Direktsprung **[RWBV]**
 
-Im Modul Rohwarenbearbeitung können in der Auswahlvariante *‘ Rohwarestapelkorrektur’* Änderungen für mehrere Belege gleicher Stufe in einem Arbeitsschritt durchgeführt werden.
+Im Modul Rohwarenbearbeitung können in der Auswahlvariante <em>‘ Rohwarestapelkorrektur’</em> Änderungen für mehrere Belege gleicher Stufe in einem Arbeitsschritt durchgeführt werden.
 
 Hier wird mit der Funktion ‚*Stapelkorrektur*’ eine Maske zur Eingabe diverser zu ändernder Daten aufgerufen. Grundsätzlich können nur Lieferungen und nicht gedruckte und nicht gebuchte Abrechnungsbelege der Stufen Abschlag, Folgeabschlag und Finale korrigiert werden, wenn diese noch nicht weiterverarbeitet sind.
 

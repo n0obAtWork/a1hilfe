@@ -7,7 +7,7 @@
 | \-2 | Pro Applikation darf nur ein Designerfenster geöffnet sein, Sie haben versucht, ein zweites zu öffnen |
 | \-3 | Einer Funktion, die den Objekttyp als Parameter benötigt, wurde ein ungültiger Typ übergeben. |
 | \-4 | Es wurde eine Druckfunktion aufgerufen, obwohl noch kein Druckjob gestartet wurde. |
-| \-5 | *LlPrintSetBoxText()* wurde aufgerufen, obwohl der Druckjob nicht mit *LlPrintWithBoxStart12()* geöffnet wurde. |
+| \-5 | *LlPrintSetBoxText()* wurde aufgerufen, obwohl der Druckjob nicht mit <em>LlPrintWithBoxStart12()</em> geöffnet wurde. |
 | \-7 | *LlPrint[G|S]etOption[String](), LlPrintResetProjectState()*. Der Druckjob ist noch nicht gestartet |
 | \-10 | *LlPrint[WithBox]Start()*: Es existiert kein Objekt mit dem angegebenen Dateinamen. |
 | \-11 | *LlPrint[WithBox]Start()*: Druckerjob konnte nicht gestartet werden, da kein Drucker-Device geöffnet werden konnte. |
@@ -15,25 +15,25 @@
 | \-13 | Beim Exportieren ist ein Fehler aufgetreten (z.B. keine Zugriffsrechte auf Zielpfad, zu exportierende Datei schon vorhanden und schreibgeschützt,...) |
 | \-14 | Diese DLL-Version benötigt Visual Basic. |
 | \-15 | Bei Druckoptionen: kein Drucker verfügbar. |
-| \-16 | Preview-Funktionen: bei *LlPrint[WithBox]Start()* wurde kein Preview-Mode eingestellt. |
+| \-16 | Preview-Funktionen: bei <em>LlPrint[WithBox]Start()</em> wurde kein Preview-Mode eingestellt. |
 | \-17 | *LlPreviewDisplay()*: Keine Preview-Dateien gefunden. |
 | \-18 | NULL Zeiger als Parameter ist hier nicht gestattet, möglicherweise auch andere Parameter-Fehler. Bitte benutzen<br>Sie den Debug-Modus zur Bestimmung des Fehlers. |
-| \-19 | Neuer Expression-Modus: Ein Ausdruck in *LlExprEvaluate()* konnte nicht interpretiert werden. |
+| \-19 | Neuer Expression-Modus: Ein Ausdruck in <em>LlExprEvaluate()</em> konnte nicht interpretiert werden. |
 | \-20 | Unbekannter Ausdrucks-Modus in *LlSetOption()*. |
 | \-22 | *LlPrint[WithBox]Start()*: Projektdatei wurde nicht gefunden. |
 | \-23 | *LlPrint[WithBox]Start()*: Einer der verwendeten Ausdrücke hat einen Fehler. Verwenden Sie *LlExprError()*, um den<br>Fehler zu finden. |
 | \-24 | *LlPrint[WithBox]Start()*: Projektdatei hat falsches Format oder ist defekt. |
 | \-25 | *LlPrintEnableObject()*: Der Objektname ist nicht korrekt. |
 | \-27 | *LlPrintEnableObject()*: Es existiert kein Objekt mit diesem Objektnamen. |
-| \-28 | wird von *LlPrintStart()* und *LlPrintWithBoxStart()* zurückgegeben, wenn ein Listen-Projekt gestartet werden soll, das<br>kein Listenobjekt enthält. Wird nur im neuen Expression-Modus zurückgegeben. |
+| \-28 | wird von <em>LlPrintStart()</em> und <em>LlPrintWithBoxStart()</em> zurückgegeben, wenn ein Listen-Projekt gestartet werden soll, das<br>kein Listenobjekt enthält. Wird nur im neuen Expression-Modus zurückgegeben. |
 | \-29 | *LlPrint[WithBox]Start()*: Das Projekt besitzt keine Objekte,und leere Seiten kann man auch anders drucken! |
 | \-30 | *LlPrintGetTextCharsPrinted()*: Kein Textobjekt in diesemProjekt. |
 | \-31 | *LlPrintIsVariableUsed(), LlPrintIsFieldUsed()*: Die angegebene Variable gibt es nicht. *LlGetUsedIdentifiers()*: Das<br>Projekt wurde noch nicht mit AMIC Etikettendruck 11 oder neuer gespeichert und enthält daher keine Informationen über<br>verwendete Variablen uind Felder. |
 | \-32 | Feld-Funktionen wurden benutzt, obgleich das Projekt kein Tabellenprojekt ist. |
 | \-33 | *LlPrint[WithBox]Start(), LlDefineLayout()*: Der Ausdruck-Modus der Projektdatei ist der neue Modus, eingestellt ist<br>jedoch der alte Modus (siehe *LlSetOption()*). |
 | \-34 | Funktion ist nur anwendbar, wenn der OneTable-Modus gewählt wurde (*LL_OPTION_ ONLYONETABLE*) (siehe<br>*LlSetOption()*). |
-| \-35 | Die bei *LlGetVariableType()* oder *LlGetVariableContents()* angegebene Variable wurde nicht definiert. |
-| \-36 | Das bei *LlGetFieldType()* oder *LlGetFieldContents()* angegebene Feld wurde nicht definiert. |
+| \-35 | Die bei <em>LlGetVariableType()</em> oder <em>LlGetVariableContents()</em> angegebene Variable wurde nicht definiert. |
+| \-36 | Das bei <em>LlGetFieldType()</em> oder <em>LlGetFieldContents()</em> angegebene Feld wurde nicht definiert. |
 | \-37 | Die über die ID bei den Gruppierungs-Funktionen angegebene Sortierreihenfolge wurde nicht definiert. |
 | \-38 | *LlPrintCopyPrinterConfiguration()*: Datei wurde nicht gefunden oder hat falsches Format |
 | \-39 | *LlPrintCopyPrinterConfiguration()*: Datei konnte nicht geschrieben werden: Problem mit Festplattenplatz oder Zugriffsrechten |

@@ -4,7 +4,7 @@
 
 Es gibt zwei Möglichkeiten einen Gesellschafter einzurichten, die erste Möglichkeit ist innerhalb des Kundenstamms **[KU]** ist das entsprechende Personenkonto auszuwählen und zu markieren. Bei aktivierter Lizenz steht jetzt die Funktion ***Mitgliedsbearbeitung*** **CF11** zur Verfügung.
 
-Die zweite Möglichkeit ist über den Direktsprung **[GESEL]** in der ersten Variante „Mitglieder“ besteht die Möglichkeit mit **F8** einen neuen Gesellschafter anzulegen.
+Die zweite Möglichkeit ist über den Direktsprung <strong>[GESEL]</strong> in der ersten Variante „Mitglieder“ besteht die Möglichkeit mit **F8** einen neuen Gesellschafter anzulegen.
 
 Bei der Neuanlage eines Gesellschafters muss entschieden werden ob der gewählte Kunde zu einem Oberkonto oder Unterkonto werden soll.
 

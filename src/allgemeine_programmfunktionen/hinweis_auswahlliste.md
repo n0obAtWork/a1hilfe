@@ -4,7 +4,7 @@
 
 Die [Auswahllisten](../zusatzprogramme/auswahlliste_2_0/index.md) wird in einem neuen Design angeboten. Die Vorgehensweise auf dem Selektionsbildschirm hat sich jedoch nicht geändert und entspricht dem Windows-Standard.
 
-Eine Zeile wird markiert mit der Maus oder der **RETURN-**Taste
+Eine Zeile wird markiert mit der Maus oder der <strong>RETURN-</strong>Taste
 
 Erneutes anklicken einer markierten Zeile hebt die Markierung auf
 
@@ -12,9 +12,9 @@ Markierte Zeilen werden farblich gekennzeichnet.
 
 Mehrfachmarkierungen können durch Drücken der
 
-**STRG-**Taste für selektives markieren
+<strong>STRG-</strong>Taste für selektives markieren
 
-**SHIFT-**Taste für blockweises markieren erreicht werden
+<strong>SHIFT-</strong>Taste für blockweises markieren erreicht werden
 
 Der Rollbalken vertikal zeigt jetzt die gesamte gelesene Datenmenge an.
 

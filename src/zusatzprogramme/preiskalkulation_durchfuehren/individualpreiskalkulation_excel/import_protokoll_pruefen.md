@@ -8,23 +8,23 @@ Direktsprung **[PKXI]**
 
 In der Variante **Individualpreise Protokoll** werden alle durchgeführten Importe gesammelt und können nachträglich noch einmal überprüft werden. Dafür die folgenden Schritte ausführen:
 
-**1.** Mit dem Klick auf das **Fernglas-Symbol** im oberen Bereich oder das Drücken der Taste **F2** kommt man in den Dialog **Individualpreise Protokoll**. Hier kann nach dem Zeitpunkt des Imports gefiltert werden. Dafür das Optionsfeld **Zeitpunkt** aktvieren und einen gültigen Zeitraum eintragen. Über Doppelklick öffnet sich der interaktive Kalender. Alternativ kann ein Datum oder der Wert „heute“ eingetragen werden. **Speichern und zurück** wählen oder **F9** **drücken**, um den Dialog zu schließen und die Auswahlliste zu aktualisieren.
+<strong>1.</strong> Mit dem Klick auf das **Fernglas-Symbol** im oberen Bereich oder das Drücken der Taste **F2** kommt man in den Dialog **Individualpreise Protokoll**. Hier kann nach dem Zeitpunkt des Imports gefiltert werden. Dafür das Optionsfeld **Zeitpunkt** aktvieren und einen gültigen Zeitraum eintragen. Über Doppelklick öffnet sich der interaktive Kalender. Alternativ kann ein Datum oder der Wert „heute“ eingetragen werden. **Speichern und zurück** wählen oder **F9** **drücken**, um den Dialog zu schließen und die Auswahlliste zu aktualisieren.
 
 **![](../../../ImagesExt/image8_1222.png)**
 
-**2.** In der Auswahlliste werden nun alle Importe aus dem gewählten Zeitraum angezeigt. Neben dem **Zeitpunkt** des Imports gibt es das Feld **Typ**, das kennzeichnet, ob es sich um einen Import von Einkaufs- oder Verkaufspreisen handelt sowie das Feld **Bediener** mit dem Kürzel des ausführenden Bedieners.
+<strong>2.</strong> In der Auswahlliste werden nun alle Importe aus dem gewählten Zeitraum angezeigt. Neben dem **Zeitpunkt** des Imports gibt es das Feld **Typ**, das kennzeichnet, ob es sich um einen Import von Einkaufs- oder Verkaufspreisen handelt sowie das Feld **Bediener** mit dem Kürzel des ausführenden Bedieners.
 
-**3.** Um mehr über einen Import zu erfahren, kann auf das **Plus-Symbol** an der linken Seite des Eintrags geklickt werden. Die Gruppierung wird für diesen Eintrag aufgehoben.
+<strong>3.</strong> Um mehr über einen Import zu erfahren, kann auf das **Plus-Symbol** an der linken Seite des Eintrags geklickt werden. Die Gruppierung wird für diesen Eintrag aufgehoben.
 
 **![](../../../ImagesExt/image8_1223.png)**
 
-**4.** In der Auswahlliste sind jetzt Informationen zu dem Import jeder Zeile der Excel-Datei zu finden.
+<strong>4.</strong> In der Auswahlliste sind jetzt Informationen zu dem Import jeder Zeile der Excel-Datei zu finden.
 
-**5.** Pro Zeile wird eine Auswahl an Werten aus der Excel-Datei aufgelistet. Wichtig sind vor allem die Felder **Fehler** und **Info.**
+<strong>5.</strong> Pro Zeile wird eine Auswahl an Werten aus der Excel-Datei aufgelistet. Wichtig sind vor allem die Felder **Fehler** und **Info.**
 
-**a. Fehler:** Sollte ein Fehler beim Import der Zeile aufgetreten sein, steht hier als Ausprägung „Ja“. Ohne Fehler hält das Feld den Wert „Nein“.
+<strong>a. Fehler:</strong> Sollte ein Fehler beim Import der Zeile aufgetreten sein, steht hier als Ausprägung „Ja“. Ohne Fehler hält das Feld den Wert „Nein“.
 
-**b. Info:** Bei einem Fehler beim Import der Zeile sind hier mehr Informationen über den Fehler zu finden. Ansonsten meldet das Feld, dass die Zeile erfolgreich verarbeitet, übersprungen oder gelöscht wurde.
+<strong>b. Info:</strong> Bei einem Fehler beim Import der Zeile sind hier mehr Informationen über den Fehler zu finden. Ansonsten meldet das Feld, dass die Zeile erfolgreich verarbeitet, übersprungen oder gelöscht wurde.
 
 <p class="just-emphasize">Dokument anzeigen</p>
 

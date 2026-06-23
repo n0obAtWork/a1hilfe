@@ -337,6 +337,6 @@ temp_IBMKreditor enthält alle in den Belegen vorkommenden Kunden exakt einmal. 
 
 Die Werte für Steuer (8) und Zahlungsbedingung (15) müssen umgeschlüsselt werden, damit das IBM-Finanzwesen die korrekten Daten bekommt. Dabei werden die Werte für die Zahlungsbedingung in der schon aus dem Importverfahren bekannten Umsetzungstabelle (Direktsprung IMPUM) gepflegt. Hier ist die Schlüsselklasse 900 für vorgesehen.
 
-Die Schlüssel für die Steuer werden im Steuersatzpfleger hinterlegt. Dort gibt es ein Feld **Exportschlüssel,** das dafür vorgesehen ist.
+Die Schlüssel für die Steuer werden im Steuersatzpfleger hinterlegt. Dort gibt es ein Feld <strong>Exportschlüssel,</strong> das dafür vorgesehen ist.
 
 Es bleibt einem jedoch überlassen, sich eine private Ableitung zu bilden und die Zahlungsbedingung bzw. Steuer anders zu bestimmen.

@@ -11,7 +11,7 @@ Bei einem Analysewert von 18,3% und einem Basiswert von 9,0% würde sich mit ang
 (Analysewert 18,3 – Basiswert 9,0) + Basiserweiterung 0,5 = 9,8  
 Umrechnungsfaktor 1,4 \* 9,8 = 13,72% 
 
-In der Variante **Abrechnung mit ‚gestaffelte Abrechnung‘** erfolgt die Ermittlung des Ergebnis-Prozentwerts als Summe der ermittelten Ergebnis-Prozentwerte der einzelnen Intervalle. Bei einem Analysewert von 18,3% und einem Basiswert von 9,0% würde sich mit angegebener Beispiel-Staffel folgende Rechnung ergeben:  
+In der Variante <strong>Abrechnung mit ‚gestaffelte Abrechnung‘</strong> erfolgt die Ermittlung des Ergebnis-Prozentwerts als Summe der ermittelten Ergebnis-Prozentwerte der einzelnen Intervalle. Bei einem Analysewert von 18,3% und einem Basiswert von 9,0% würde sich mit angegebener Beispiel-Staffel folgende Rechnung ergeben:  
 (Analysewert 18,3 – Basiswert 9,0) + Basiserweiterung 0,5 = 9,8  
 1\. Intervall: bis 4,4 mit Umrechnungsfaktor 1,2 ergibt 4,4\*1,2 = 5,28%  
 2\. Intervall: bis 8,4 mit Umrechnungsfaktor 1,3 ergibt 4,0\*1,3 = 5,20%  

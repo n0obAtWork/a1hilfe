@@ -25,7 +25,7 @@ Set Ergebnis =( **FORMEL** )
 
 Innerhalb der Formel kann man auf Kontenlisten und Ergebnisse aus anderen Formeln zugreifen. Dazu verwendet man die Abkürzung mit einem ‚#‘ vorneweg. Bei den Formelergebnissen ist darauf zu achten, dass die Formeln in der Reihenfolge der Sortierung ausgewertet werden und auch erst dann zur Verfügung stehen. Auf dem Formelfeld kann man mit **F3** sich die Kürzel heraussuchen. Sie werden dann an der Stelle, an dem die Schreibmarke gerade steht, eingefügt.
 
-Wie würde man nun z.B. die Umsatzrentabilität, die sich aus *Betriebsergebnis \*100 / Gesamtleistung* ergibt, als Formel schreiben? Man erstellt sich zwei Kontendefinition BERG für Betriebsergebnis und GL für Gesamtleistung. Die Formel sieht dann wie folgt aus*: #BERG \* 100 / #GL*
+Wie würde man nun z.B. die Umsatzrentabilität, die sich aus *Betriebsergebnis \*100 / Gesamtleistung* ergibt, als Formel schreiben? Man erstellt sich zwei Kontendefinition BERG für Betriebsergebnis und GL für Gesamtleistung. Die Formel sieht dann wie folgt aus<em>: #BERG \* 100 / #GL</em>
 
 Es ist auch möglich, innerhalb einer Formel auf Spaltenergebnisse derselben Zeile zuzugreifen. Dies ist z.B. dann nötig, wenn man eine prozentuelle Abweichung errechnen möchte. Es steht dafür eine Funktion KZA_GET(Spaltennummer) zur Verfügung. Die Spaltennummer beginnt bei 1. Zu beachten ist grundsätzlich, dass die Spalten von links nach rechts abgearbeitet werden und nur die Spalten „links“ von der aktuellen Spalte als Wert zur Verfügung stehen.
 

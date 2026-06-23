@@ -4,9 +4,9 @@
 
 Hauptmenü > Rohwarenabrechnung > Auswertungen
 
-Direktsprung **[LST]** Variante *Rohwarenauswertungen*
+Direktsprung <strong>[LST]</strong> Variante *Rohwarenauswertungen*
 
-Im Bereich der Listendefinitionen in der Auswallistenvariante ‚***Rohwarenauswertungen***‘ stehen diverse CRW-Reports, die mit zugehörige Vorlauffunktionen zur Datengewinnung verknüpft sind, zur Verfügung. Die einzelnen Auswertungen sind jeweils auch direkt über das Hauptmenu im Bereich **‚Rohwarenabrechnung‘** unter der Abteilung **‚Auswertungen‘** zu erreichen.
+Im Bereich der Listendefinitionen in der Auswallistenvariante ‚***Rohwarenauswertungen***‘ stehen diverse CRW-Reports, die mit zugehörige Vorlauffunktionen zur Datengewinnung verknüpft sind, zur Verfügung. Die einzelnen Auswertungen sind jeweils auch direkt über das Hauptmenu im Bereich <strong>‚Rohwarenabrechnung‘</strong> unter der Abteilung <strong>‚Auswertungen‘</strong> zu erreichen.
 
 <p class="siehe-auch">Siehe auch:</p>
 

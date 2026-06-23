@@ -10,7 +10,7 @@ Zur allgemeinen Einrichtung der Nummernkreise gehört die Einrichtung von Nummer
 | **[NKS]** | Unter **[NKS]** gibt es die Möglichkeit Nummernkreise zu pflegen. Hier können Zählkreise über einen Gültigkeitszeitraum zu einem Nummernkreis zugeordnet werden. Außerdem können hier neue Zählkreise angelegt werden.<br> |
 | **[NKV]** | Vorgangszuordnung<br> |
 | **[NKF]** | Unter **[NKF]** werden Nummernkreise zu FiBu-Vorgängen zugeordnet (siehe [Nummernkreiszuordnung Finanzbuchhaltung](../../finanzbuchhaltung/stammdaten_der_fibu/nummernkreise/nummernkreiszuordnung_finanzbuchhaltung.md)).<br> |
-| **[MND]** und ****[MNDNK]**** | Festlegung der Nummernkreise bei Personenkonten im Mandantenstamm<br> |
+| **[MND]** und <strong>**[MNDNK]**</strong> | Festlegung der Nummernkreise bei Personenkonten im Mandantenstamm<br> |
 
 <details>
 <summary>Nummernkreis</summary>

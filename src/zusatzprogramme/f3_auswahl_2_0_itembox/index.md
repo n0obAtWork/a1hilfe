@@ -9,7 +9,7 @@ Das Design und der Funktionsumfang der F3-Auswahl wurden für die 64Bit-Version 
 <p class="just-emphasize">Aufruf:</p>
 
 1) Bei F3-Auswahlen auf Stammdaten:  
-In den Feldern, bei denen der Informationstext „Eine Auswahlliste kann mit F3 aufgerufen werden“, kann man die Auswahl direkt mit F3 starten. Man kann jedoch auch vorher eine Eingrenzung eingeben, die dann in der F3-Auswahl sofort angewendet wird. Stellt man der Auswahl eine Zahl gefolgt von einem Punkt (Z.B. „**2.**Meyer“) vorweg, wird sofort die entsprechende Variante aufgerufen und der zusätzliche Wert wird sofort verwendet.
+In den Feldern, bei denen der Informationstext „Eine Auswahlliste kann mit F3 aufgerufen werden“, kann man die Auswahl direkt mit F3 starten. Man kann jedoch auch vorher eine Eingrenzung eingeben, die dann in der F3-Auswahl sofort angewendet wird. Stellt man der Auswahl eine Zahl gefolgt von einem Punkt (Z.B. „<strong>2.</strong>Meyer“) vorweg, wird sofort die entsprechende Variante aufgerufen und der zusätzliche Wert wird sofort verwendet.
 
 Es gibt zwei Möglichkeiten die Daten einzugrenzen. Einmal über die Filterzeile, dabei wird in den eingelesenen Daten gesucht. Oder über die SQL-Eingrenzung (öffnen mit F2 oder Strg+Y oder Mausklick auf den Splitter) . Dabei werden nur die Daten eingelesen, die diesem Kriterium entsprechen. Bei großen Datenmengen ist die SQL-Eingrenzung schneller, da nur ein Teil der Daten in die Anzeige übernommen wird. Die Filterzeile sucht dann auch nur in diesen Daten.
 

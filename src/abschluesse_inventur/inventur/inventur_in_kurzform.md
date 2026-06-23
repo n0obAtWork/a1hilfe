@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/inventurinkurzform.htm -->
 
-Das Wirtschaftsjahr für das neue Jahr muss eingerichtet sein **[JAHR]**:
+Das Wirtschaftsjahr für das neue Jahr muss eingerichtet sein <strong>[JAHR]</strong>:
 
 Direktsprung **[JAHR]**, dann ***Neu*** **(F8)**
 
@@ -26,9 +26,9 @@ F10 / F11 Perioden Fibu / Ware aufrufen und prüfen (Schaltjahr!!)
 
 Periode 1 in der WAWI des neuen Wirtschaftsjahres muss eröffnet werden **[PERER]**.
 
-Der Inventur-Belegnummern - Zählkreis muss eingerichtet sein ****[NKS]** **[NKZ]****.
+Der Inventur-Belegnummern - Zählkreis muss eingerichtet sein <strong>**[NKS]** **[NKZ]**</strong>.
 
-Unterschiedliche Inventuren müssen in Gruppen eingeteilt werden ****[IVG]****,z.B. Hauptinventur mit JW (1), Zwischeninventuren unterschiedlicher Warengruppen (2).
+Unterschiedliche Inventuren müssen in Gruppen eingeteilt werden <strong>**[IVG]**</strong>,z.B. Hauptinventur mit JW (1), Zwischeninventuren unterschiedlicher Warengruppen (2).
 
 Über die **Artikelstapelkorrektur** muss die entsprechende Inventurgruppe  
 (z.B. 1 = Hauptinventur JW) in die Artikel eingetragen werden.  
@@ -37,13 +37,13 @@ Unterschiedliche Inventuren müssen in Gruppen eingeteilt werden ****[IVG]****,z
  werden keine Artikel eröffnet. Inventurgruppen dürfen nach Inventureröffnung  
  innerhalb eines Inventurjahres nicht geändert werden!
 
-Ein Inventurstamm pro Inventurgruppe muss angelegt werden ****[IVS]****.**Bitte beachten:** 
+Ein Inventurstamm pro Inventurgruppe muss angelegt werden <strong>**[IVS]**</strong>.**Bitte beachten:** 
 
 Typ der Inventur: Hauptinventur JW oder Zwischeninventur
 
 Art der Inventur: Stichtag oder Stichtag versetzt
 
-Inventurvorbereitung starten ****[IVV]****
+Inventurvorbereitung starten <strong>**[IVV]**</strong>
 
 ***Inventureröffnung*** **F5**
 

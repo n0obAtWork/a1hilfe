@@ -21,7 +21,7 @@ Um die Steuer für den Innergemeinschaftlichen Erwerb auf dem USTVA-Formular aus
 | Einfuhrsteuer (MwSt) | Hier gehört die Auswertungsposition analog des AW-Kennzeichens hinein, also auch 350, 360 oder 370 je nach Einfuhrsteuersatz. Auf dem Umsatzsteuerformular wird hier dann die fiktive anfallende Erwerbssteuer errechnet und ausgewiesen.<br> |
 | Einfuhrsteuer (Vst) | Hier gehört die Auswertungsposition hinein, die die Vorsteuerbeträge aus dem innergemeinschaftlichen Erwerb von Gegenständen kennzeichnet. In der Beispielliste wäre es die Zeile 560. Es wird dann analog zur Einfuhrsteuer1 die errechnete fiktiv anfallende Erwerbssteuer wieder abgezogen.<br> |
 
-*2.* Es werden zwei weitere Steuerzeilen an den Belegen angehängt, die die Steuer auf den Konten ausweisen. Um dies zu erreichen, sind folgende Einstellungen notwendig.  
+<em>2.</em> Es werden zwei weitere Steuerzeilen an den Belegen angehängt, die die Steuer auf den Konten ausweisen. Um dies zu erreichen, sind folgende Einstellungen notwendig.  
     
 **ACHTUNG**: *Die Steuerzeilen werden erst zum Zeitpunkt des Buchens erzeugt.  
     

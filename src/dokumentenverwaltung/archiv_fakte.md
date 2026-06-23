@@ -10,7 +10,7 @@ Bestimmte Objekte in A.eins (z.B. Vorgänge, Kunden, Artikel, u.a.) haben feste 
 
 | Felder |
 | --- |
-| Auslieferung | Ja/Nein<br>Gibt an, ob das vorliegende Archiv-Fakt von AMIC ausgeliefert wird.<br>AMIC-Auslieferungen sind solche Archiv-Fakte die mit **fam_ref_** beginnen. |
+| Auslieferung | Ja/Nein<br>Gibt an, ob das vorliegende Archiv-Fakt von AMIC ausgeliefert wird.<br>AMIC-Auslieferungen sind solche Archiv-Fakte die mit <strong>fam_ref_</strong> beginnen. |
 | Archiv-Fakte | Eindeutiger Schlüsselbegriff der Archiv-Fakte.<br>Es stehen maximal 30 Zeichen zur Verfügung. |
 | Beschriftung | Repräsentation des Archiv-Faktes in der Benutzeroberfläche. |
 | AMIC-Referenz | Datenbank-Funktion zur Ermittlung der Referenz eines Archiv-Faktes.<br>Die jeweilige Datenbank-Funktion die AMIC ausliefert ist als Beispiel zu sehen. Es kann durchaus sein, dass vor Ort individuelle Anpassungen durchgeführt werden müssen.<br>Allerdings – so zeigt die Praxis – ist das selten von Nöten. |

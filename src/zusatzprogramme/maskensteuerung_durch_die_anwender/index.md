@@ -18,7 +18,7 @@ Mit den ersten drei Punkten wird ausgewählt, was geschehen soll, wenn man auf e
 
 Die letzten beiden Funktionen werden sofort ausgeführt.
 
-**Hinweis:** Diese Funktion (Shift F3) kann für Anwender weggeschützt werden, indem die Funktion " EPA_FELD_EINSTELLER" über ***Zugriffsrechte Funktionen*** (Direktsprung **[ZUGF]**) geschützt wird.
+<strong>Hinweis:</strong> Diese Funktion (Shift F3) kann für Anwender weggeschützt werden, indem die Funktion " EPA_FELD_EINSTELLER" über ***Zugriffsrechte Funktionen*** (Direktsprung **[ZUGF]**) geschützt wird.
 
 <p class="siehe-auch">Siehe auch:</p>
 

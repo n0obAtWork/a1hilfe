@@ -52,7 +52,7 @@ Hauptmenü \> Kostenrechnung \> Kostenträgerstamm \> Kostenträger \> Funktion 
 
 Direktsprung **[KSTRS]**
 
-Planzahlen für Kostenträger müssen pro Jahr, Periode und Konto erfasst werden. Hat man die Funktion „**Plandaten erfassen“** ausgewählt, so erscheint folgende Erfassungsmaske:
+Planzahlen für Kostenträger müssen pro Jahr, Periode und Konto erfasst werden. Hat man die Funktion „<strong>Plandaten erfassen“</strong> ausgewählt, so erscheint folgende Erfassungsmaske:
 
 ![Ein Bild, das Text, Screenshot, Display, Software enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_687.png "Ein Bild, das Text, Screenshot, Display, Software enthält. Automatisch generierte Beschreibung")
 

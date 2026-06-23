@@ -48,7 +48,7 @@ Wurde eine Mahnung bereits gedruckt, so kann mithilfe der Funktion ***Druckkennz
 
 ***Löschen* F7**
 
-Mahnungen können gelöscht werden. Ungedruckte Mahnungen werden also nicht wirksam. Da zur Information auch die gedruckten Mahnungen angezeigt werden, kann es sinnvoll sein, diese periodisch zu löschen oder in der Auswahlliste eine Variante/Profil **"aktive"** und **"abgearbeitete"** Mahnungen zu erstellen.
+Mahnungen können gelöscht werden. Ungedruckte Mahnungen werden also nicht wirksam. Da zur Information auch die gedruckten Mahnungen angezeigt werden, kann es sinnvoll sein, diese periodisch zu löschen oder in der Auswahlliste eine Variante/Profil **"aktive"** und <strong>"abgearbeitete"</strong> Mahnungen zu erstellen.
 
 ***Übernahme in die Primanota* F8**
 

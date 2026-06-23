@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Anschriften > DSGVO
 
-Direktsprung **[DSGVO]** Variante DSGVO-Feldzuordnung und DSGVO-Objekte.
+Direktsprung <strong>[DSGVO]</strong> Variante DSGVO-Feldzuordnung und DSGVO-Objekte.
 
 In den Anwendungsvarianten **DSGVO – Feldzuordnung** und **DSGVO – Objekte** befindet sich im Menü die Funktion zum wiederherstellen des Auslieferungszustandes der DSGVO-Einrichtung.
 

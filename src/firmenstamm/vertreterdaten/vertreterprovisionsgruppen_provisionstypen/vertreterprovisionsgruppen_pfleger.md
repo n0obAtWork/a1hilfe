@@ -19,6 +19,6 @@
 | Funktion | Beschreibung |
 | --- | --- |
 | Speichern (F9) | Versucht den Datensatz zu speichern |
-| Provisionsgruppenstaffel bearbeiten | Wenn man im Einkauf oder im Verkauf den Provisionstyp **Staffelprovision (OPT-Preis)** oder **Staffelprovision (Preis+ZuAB)** dann kann man diese Funktion aufrufen, um in der Auswahlliste der zum Bearbeiten der Vertreterprovisionsstaffeln. |
+| Provisionsgruppenstaffel bearbeiten | Wenn man im Einkauf oder im Verkauf den Provisionstyp <strong>Staffelprovision (OPT-Preis)</strong> oder <strong>Staffelprovision (Preis+ZuAB)</strong> dann kann man diese Funktion aufrufen, um in der Auswahlliste der zum Bearbeiten der Vertreterprovisionsstaffeln. |
 
 </details>

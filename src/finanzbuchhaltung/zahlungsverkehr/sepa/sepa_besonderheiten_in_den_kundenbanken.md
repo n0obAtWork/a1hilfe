@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdaten > Kunden-/Lieferanten > Kundenstamm bzw. Lieferantenstamm
 
-Direktsprung **[KU]** bzw. **[LF]**
+Direktsprung <strong>[KU]</strong> bzw. **[LF]**
 
 Die Pflege der Kundenbank ändert sich dergestalt, dass es nicht mehr möglich ist bestehende Bankverbindungen zu löschen oder zu ändern, sobald bei dieser Bankverbindung ein SEPA-Mandat hinterlegt ist. Geändert werden kann bei Bankverbindungen mit benutztem Mandat immer noch die Sperre, das Bis-Datum, die Soll- und Haben Obergrenzen, die Währung des Kontos sowie der Empfänger/Zahlungspflichtige.
 

@@ -77,7 +77,7 @@ Hauptmenü \> Kostenrechnung \> Kostenstellenstamm \> Kostenstellen \> Funktion 
 
 Direktsprung **[KST]**
 
-Planzahlen für Kostenstellen müssen pro Jahr, Periode und Konto erfasst werden. Hat man die Funktion „**Plandaten erfassen“** ausgewählt, so erscheint folgende Erfassungsmaske:
+Planzahlen für Kostenstellen müssen pro Jahr, Periode und Konto erfasst werden. Hat man die Funktion „<strong>Plandaten erfassen“</strong> ausgewählt, so erscheint folgende Erfassungsmaske:
 
 ![Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_681.png "Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung")
 

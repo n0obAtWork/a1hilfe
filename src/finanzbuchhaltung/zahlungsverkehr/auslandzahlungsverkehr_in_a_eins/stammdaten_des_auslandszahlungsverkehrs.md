@@ -76,7 +76,7 @@ Die hier hinterlegte Zahlungsart wird als Vorbelegung für den Auslands-OP heran
 
 Hauptmenü > Stammdaten > Kunden-/Lieferanten > Kundenstamm bzw. Lieferantenstamm
 
-Direktsprung **[KU]** bzw. **[LF]**
+Direktsprung <strong>[KU]</strong> bzw. **[LF]**
 
 Um den Zahlungsverkehr innerhalb der EU schneller und effizienter darstellen zu können, hat das Europäische Komitee für Banken Standardisierung ECBS eine einheitliche, standardisierte Schreibweise für Kontonummern entwickelt. Und diese den europäischen Kreditinstituten zur Einführung bei Ihren Kunden empfohlen: die "International Bank Account Number“, kurz **IBAN.**
 

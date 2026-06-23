@@ -6,7 +6,7 @@ Der zweite Block enthält die rohwarengruppenweit definierten Ergänzungsfelder,
 
 Die ( nicht änderbare ) Nummer der 1. Spalte bestimmt das Datenfeld (V_RohwareZFeldC1, V_RohwareZFeldC2 bzw. V_RohwareZFeldC3) der Relation V_Rohware, in der die korresponierenden Werte der Rohwaren-Belege gespeichert werden.
 
-Die Angaben in den Spalten **‚Pos’, ‚Bezeichnung’** und **‚Verwend.’** Haben hier die gleiche Bedeutung, wie bei den Ergänzungs-Werten (s.o.).
+Die Angaben in den Spalten <strong>‚Pos’, ‚Bezeichnung’</strong> und <strong>‚Verwend.’</strong> Haben hier die gleiche Bedeutung, wie bei den Ergänzungs-Werten (s.o.).
 
 Die Angabe **‚Länge’** bestimmt die Länge des korrespondierenden Eingabefeldes auf der Rohwaren-Bearbeitungsmaske. Möglich sind Textlängen von bis zu 255 Zeichen.
 

@@ -76,7 +76,7 @@ Optionen:
 - **Nein**
 - **Ja**
 
-  Ist dieser Parameter mit dem Wert ‚*Ja*‘ belegt, so werden Rohwarebelege der Abrechnungsstufen ‚*Abschlag*‘, ‚Folgeabschlag‘ und *‚*Finale‘ nach Umwandlung und Korrekturen immer sofort abgerechnet, sofern sie für die entsprechende Stufe das Kennzeichen ‚*freigegeben‘* tragen. Die Funktion ***Abrechnen*** wird dann in den entsprechenden Auswahllisten auch nicht mehr zur Verfügung gestellt. Einstellungen des Parameters ‚[Abrechnung nach Belegkorrektur](./rohwareparameter_uebersicht.md#RWPA_172)’ werden mit der Einstellung ‚*Ja*‘ außer Kraft gesetzt.
+  Ist dieser Parameter mit dem Wert ‚*Ja*‘ belegt, so werden Rohwarebelege der Abrechnungsstufen ‚*Abschlag*‘, ‚Folgeabschlag‘ und <em>‚</em>Finale‘ nach Umwandlung und Korrekturen immer sofort abgerechnet, sofern sie für die entsprechende Stufe das Kennzeichen ‚*freigegeben‘* tragen. Die Funktion ***Abrechnen*** wird dann in den entsprechenden Auswahllisten auch nicht mehr zur Verfügung gestellt. Einstellungen des Parameters ‚[Abrechnung nach Belegkorrektur](./rohwareparameter_uebersicht.md#RWPA_172)’ werden mit der Einstellung ‚*Ja*‘ außer Kraft gesetzt.
 
 <p class="just-emphasize">Abrechnung nach Belegkorrektur</p>
 
@@ -89,7 +89,7 @@ Optionen:
 - **Nein**
 - **Ja**
 
-  Ist dieser Parameter mit dem Wert ‚*Ja*‘ belegt, so werden Rohwarebelege der Abrechnungsstufen ‚*Abschlag*‘, ‚Folgeabschlag‘ und *‚*Finale‘ nach der Korrektur im Rohware-Bearbeitungsmodul **[RWB]** immer sofort abgerechnet, sofern sie für die entsprechende Stufe das Kennzeichen ‚*freigegeben‘* tragen. Dieser Parameter ist allerdings bedeutungslos, wenn der Parameter ‚[Freigegebene Belege immer abrechnen](./rohwareparameter_uebersicht.md#RWPA_174)‘ mit dem Wert ‚*Ja*‘ belegt ist.
+  Ist dieser Parameter mit dem Wert ‚*Ja*‘ belegt, so werden Rohwarebelege der Abrechnungsstufen ‚*Abschlag*‘, ‚Folgeabschlag‘ und <em>‚</em>Finale‘ nach der Korrektur im Rohware-Bearbeitungsmodul **[RWB]** immer sofort abgerechnet, sofern sie für die entsprechende Stufe das Kennzeichen ‚*freigegeben‘* tragen. Dieser Parameter ist allerdings bedeutungslos, wenn der Parameter ‚[Freigegebene Belege immer abrechnen](./rohwareparameter_uebersicht.md#RWPA_174)‘ mit dem Wert ‚*Ja*‘ belegt ist.
 
 <p class="just-emphasize">Stornobelege: Vorbelegung: >mit Kopie&lt;</p>
 
@@ -102,7 +102,7 @@ Optionen:
 - **Nein**
 - **Ja**
 
-  Sofern dem Steuerparameter **[SPA]** ‚*Rohwarestorno mit Quellbeleg-Kopie‘* der Wert ‚*erlaubt*‘ zugewiesen ist, kann bei der Erzeugung eines Storno-Vorgangs aus einem Rohwarebeleg zusätzlich eine Kopie des Quellbelegs erzeugt werden. Dieser Rohwareparameter bewirkt in diesem Fall die Vorbelegung für das Feld **‚mit Kopie‘** auf der Steuerungsmaske der Stornofunktion.
+  Sofern dem Steuerparameter **[SPA]** ‚<em>Rohwarestorno mit Quellbeleg-Kopie‘</em> der Wert ‚*erlaubt*‘ zugewiesen ist, kann bei der Erzeugung eines Storno-Vorgangs aus einem Rohwarebeleg zusätzlich eine Kopie des Quellbelegs erzeugt werden. Dieser Rohwareparameter bewirkt in diesem Fall die Vorbelegung für das Feld **‚mit Kopie‘** auf der Steuerungsmaske der Stornofunktion.
 
 <p class="just-emphasize">Massebilanz bei Storno mit Kopie</p>
 
@@ -768,7 +768,7 @@ Dieses gilt auch für die Erstellung von Sammeldruckbelegen, sofern die dafür b
 - **Nein**
 - **Ja**
 
-  Rohwaresammeldruckbelege können mit der Drucknummer als Belegnummer und dem Druckdatum als Belegdatum als ein Fibu-Beleg an die Finanzbuchhaltung übertragen werden, wenn dieser Parameter mit dem Wert ‚Ja‘ eingestellt ist. In diesem Fall stehen hierfür in den Anwendungen zum Bearbeiten von Rohwarebelegen **[RWB] [RWBV]** und Fibu-Übertrag **[FIB]** gesonderte Anwendungs-Varianten zur Verfügung. Einzelne Rohwarebelege, die Teil eines Rohwaresammeldruckbelegs sind, können dann nicht einzeln übertragen werden.
+  Rohwaresammeldruckbelege können mit der Drucknummer als Belegnummer und dem Druckdatum als Belegdatum als ein Fibu-Beleg an die Finanzbuchhaltung übertragen werden, wenn dieser Parameter mit dem Wert ‚Ja‘ eingestellt ist. In diesem Fall stehen hierfür in den Anwendungen zum Bearbeiten von Rohwarebelegen <strong>[RWB] [RWBV]</strong> und Fibu-Übertrag **[FIB]** gesonderte Anwendungs-Varianten zur Verfügung. Einzelne Rohwarebelege, die Teil eines Rohwaresammeldruckbelegs sind, können dann nicht einzeln übertragen werden.
 
 <p class="just-emphasize">Sammeldruck- Folgeabschlag mit Sammelabschlag-Prüfung</p>
 
@@ -2062,7 +2062,7 @@ Bei der Einstellung **Fibuübertrag ablehnen** wird eine Warnmeldung im Rahmen d
 
   Optionen: Referenznummer
 
-  Zur korrekten Darstellung der Feuchtigkeitswerte in der Auswahllistenvariante ‚*Erfassungsprotokoll*‘ des Rohwarebearbeitungs-Moduls **[RWB] [RWBV]** muss in diesem Parameter die Referenznummer des auszuwertenden Qualitätsmerkmals (in der Regel ‚*Feuchte*‘) angegeben sein. Die relevanten statistischen Daten werden bereits bei Erfassung, Korrektur und Abrechnung von Rohwarebelegen ermittelt und in dafür reservierten Datenfeldern festgehalten.
+  Zur korrekten Darstellung der Feuchtigkeitswerte in der Auswahllistenvariante ‚*Erfassungsprotokoll*‘ des Rohwarebearbeitungs-Moduls <strong>[RWB] [RWBV]</strong> muss in diesem Parameter die Referenznummer des auszuwertenden Qualitätsmerkmals (in der Regel ‚*Feuchte*‘) angegeben sein. Die relevanten statistischen Daten werden bereits bei Erfassung, Korrektur und Abrechnung von Rohwarebelegen ermittelt und in dafür reservierten Datenfeldern festgehalten.
 
   **Erfassung mit Kontrakt**
 

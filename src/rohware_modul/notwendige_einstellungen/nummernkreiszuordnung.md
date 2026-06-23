@@ -16,7 +16,7 @@ Direktsprung **[NKZ]**
 
 Für die Belegarten müssen unter Vorgangszuordnung [NKV] Nummernkreise (siehe Bedienerklasse) eingerichtet sein.
 
-Entsprechende Einrichtungen **[NKS], [NKZ]** sind im Bereich Nummerkreise vorzunehmen.
+Entsprechende Einrichtungen <strong>[NKS], [NKZ]</strong> sind im Bereich Nummerkreise vorzunehmen.
 
 In der Basis-DB sind folgende Nummerkreise eingerichtet:
 

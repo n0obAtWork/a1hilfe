@@ -23,4 +23,4 @@ Die einzelnen Datenbankfelder der Relation sind:
 | V_GrZuAbInf_StKlasse | Die zugehörige Steuerklasse.<br> |
 | V_GrZuAbInf_StSatz | Der zugehörige Steuersatz.<br> |
 
-**Hinweis:** Für ältere Vorgänge, für die diese Einträge noch nicht erzeugt wurden, werden diese auch beim Öffnen des jeweiligen Vorgangs im *Ansehen-Modus* nachgetragen.
+<strong>Hinweis:</strong> Für ältere Vorgänge, für die diese Einträge noch nicht erzeugt wurden, werden diese auch beim Öffnen des jeweiligen Vorgangs im *Ansehen-Modus* nachgetragen.

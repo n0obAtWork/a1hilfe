@@ -8,7 +8,7 @@ Das Steuersystem in A.eins basiert auf den Elementen
 - Steuergruppe (Sachkonto / Personenkonto)
 - Steuerschlüssel (Artikel / Fibu)
 
-Die Pfleger hierfür findet man im Menü **Administration** und dort unter **Steuern.** Die einzelnen Steuersätze ergeben sich aus einer Kombination dieser drei Elemente und dem Steuerabdatum. Detaillierte Informationen zu diesem Thema finden Sie im Bereich [Steuersätze](../index.md).
+Die Pfleger hierfür findet man im Menü **Administration** und dort unter <strong>Steuern.</strong> Die einzelnen Steuersätze ergeben sich aus einer Kombination dieser drei Elemente und dem Steuerabdatum. Detaillierte Informationen zu diesem Thema finden Sie im Bereich [Steuersätze](../index.md).
 
 **Achtung:**
 

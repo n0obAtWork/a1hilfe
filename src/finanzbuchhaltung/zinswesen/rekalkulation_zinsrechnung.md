@@ -58,7 +58,7 @@ Hier auftretende Probleme werden nach Beendigung der Funktion in einem Fehlerbil
 - Zinsabrechnung für Konto ???? nicht neu erstellt. Der Saldo wurde in Zinsliste ???? verwendet.
 - Zinsabrechnung für Konto ???? nicht neu erstellt. Auswahl ist nicht Lückenlos (z.B. Zinsliste ??)
 - Der Zinsbeleg ???? für Konto ist bereits ausgeziffert! Die Buchung kann nicht storniert werden!  
-**Achtung:** Hier existiert ein Einrichterparameter „Ausgezifferte Zinsbelege stornieren“. Steht diese auf „JA“, so erscheint diese Meldung nicht und der Stornobeleg wird erstellt, obwohl der Ursprungsbeleg bereits ausgeziffert worden ist. Die Standardvorbelegung ist „Nein“
+<strong>Achtung:</strong> Hier existiert ein Einrichterparameter „Ausgezifferte Zinsbelege stornieren“. Steht diese auf „JA“, so erscheint diese Meldung nicht und der Stornobeleg wird erstellt, obwohl der Ursprungsbeleg bereits ausgeziffert worden ist. Die Standardvorbelegung ist „Nein“
 
 - Fehler ??? beim zurücksetzen Konto/Liste ????/????
 - Kein Zinssatz für Konto ????, Gruppe ????, Zinsliste ????(Valutadatum? ????)

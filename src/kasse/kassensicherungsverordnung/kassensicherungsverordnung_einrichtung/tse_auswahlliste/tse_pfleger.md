@@ -25,7 +25,7 @@ Durch den automatischen Suchalgorithmus muss auf den Clienten selbst das in „L
 | Dieser Rechner | Name/IP des aktuellen Arbeitsplatzrechners<br>(Je nach Ausstattung können mehrere IPs aufgelistet werden). |
 | Bezeichnung | Frei wählbare Bezeichnung der TSE. |
 | Laufwerk | Bei der Erstinstallation zugewiesener Windows-Laufwerksbuchstabe. (A-Z sind theoretisch denkbar) |
-| Lizenz | Der Label ist je nach Situation farbig:<br>**Grün:** wenn der „TSE-Seriennummer“ eine „A.eins-TSE-Lizenz“ zugeordnet werden konnte.<br>**Rot:** wenn der „TSE-Seriennummer“ keine „A.eins-TSE-Lizenz“ zugeordnet werden konnte.<br>**Schwarz**: Keine TSE-Seriennummer verfügbar. (z. B., weil im „Laufwerk“ keine TSE liegt bzw. das „Laufwerk“ gar nicht vorhanden ist.)<br><br>Dahinter finden sich Angaben zur A.eins TSE-Lizenznummer und dem A.eins TSE-Gültigkeits-Bis-Datum. |
+| Lizenz | Der Label ist je nach Situation farbig:<br>**Grün:** wenn der „TSE-Seriennummer“ eine „A.eins-TSE-Lizenz“ zugeordnet werden konnte.<br><strong>Rot:</strong> wenn der „TSE-Seriennummer“ keine „A.eins-TSE-Lizenz“ zugeordnet werden konnte.<br>**Schwarz**: Keine TSE-Seriennummer verfügbar. (z. B., weil im „Laufwerk“ keine TSE liegt bzw. das „Laufwerk“ gar nicht vorhanden ist.)<br><br>Dahinter finden sich Angaben zur A.eins TSE-Lizenznummer und dem A.eins TSE-Gültigkeits-Bis-Datum. |
 | Manueller Host | Hier kann ein UNC-Pfad hinterlegt werden, den ein A.eins-Client zum automatischen **Net Use** heranziehen kann. |
 | Client-ID | Gibt die Client-ID der TSE an. |
 | Kassenzuordnungen | Gibt an, an welche Kasse diese TSE angebunden ist. |

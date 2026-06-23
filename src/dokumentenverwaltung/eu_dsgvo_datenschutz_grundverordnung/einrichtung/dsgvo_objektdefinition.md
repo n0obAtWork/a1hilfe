@@ -4,7 +4,7 @@
 
 Hauptmenü > Stammdatenpflege > Anschriften > DSGVO
 
-Direktsprung **[DSGVO]** Variante DSGVO-Objekte.
+Direktsprung <strong>[DSGVO]</strong> Variante DSGVO-Objekte.
 
 In A.eins existieren verschiedene Anschriftenarten für die jeweils Objekte definiert wurden. Hierzu gehören Kundenanschriften, Lageranschriften, Filialanschriften und viele mehr. Diese Objekte fassen alle Tabellen zusammen, welche die DSGVO betreffen. Zu dem Kunden/Lieferanten-Objekt gehören beispielsweise folgende Tabellen:
 

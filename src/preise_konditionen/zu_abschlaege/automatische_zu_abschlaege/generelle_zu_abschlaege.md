@@ -4,7 +4,7 @@
 
 Preise / Konditionen > Zu-/Abschläge > generelle Zu-/Abschläge
 
-Oder Direktsprung **[ZAGE]**
+Oder Direktsprung <strong>[ZAGE]</strong>
 
 Es gibt für Zu-/Abschläge bestimmte Sätze, die in bestimmten Zeiträumen gültig sind und in einer zu definierenden Formel zu berechnen sind.
 

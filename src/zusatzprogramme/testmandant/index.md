@@ -45,7 +45,7 @@ Des Weiteren muss beachtete werden, dass mit der Einstellung „Verzeichnis leer
 Nach der Erstellung des Testmandanten werden noch einige Einstellungen geändert oder gelöscht, damit dies nicht zu Problemen mit dem Hauptmandanten führt, solange keine eigene Nachlaufprozedur angegeben wurde. Folgend eine Liste der geänderten Einstellungen:
 
 - Im Mandantenstamm wird das Kennzeichen „MandIstTestmandant“ gesetzt, welches nicht zurückgesetzt werden kann.
-- Die Bezeichnung des Mandanten wird so erweitert: „MMTT*(Monat, Tag)*TEST“. Bsp.: am 15.07.2020 ist die Bezeichnungserweiterung „0715TEST“.
+- Die Bezeichnung des Mandanten wird so erweitert: „MMTT<em>(Monat, Tag)</em>TEST“. Bsp.: am 15.07.2020 ist die Bezeichnungserweiterung „0715TEST“.
 - Bei allen Formularstämmen wird das Formulararchiv deaktiviert.
 - Die Hintergrundfarbe des Menüs wird auf AMIC-Farbe gesetzt.
 - Der letzte Mandantenserverstatus wird zurückgesetzt.
