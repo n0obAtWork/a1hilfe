@@ -28,13 +28,15 @@ jobs:
         run: mdbook test
       - name: Build Hilfe
         run: mdbook build
-      - name: Rename PDF file
-        run: mv book/pdf/output.pdf book/pdf/Aeins.pdf
+      # - name: Rename PDF file
+      #   run: mv book/pdf/output.pdf book/pdf/Aeins.pdf
       - name: Upload PDF
         uses: actions/upload-artifact@v7
         with:
-          name: pdf
-          path: book/pdf/Aeins.pdf
+          name: Aeins.pdf
+          path: book/pdf/output.pdf
+          achive: false
+          overwrite: true
       - name: Handle old container
         run: |
           chmod +x ./handle-old-container.sh
