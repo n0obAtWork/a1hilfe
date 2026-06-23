@@ -10,12 +10,12 @@ Diese Auswahlliste dient zur Anzeige der Prüfaufträge, die aus Anschriften, Ku
 
 | Felder | Beschreibung |
 | --- | --- |
-| Prüfung | \- ***Vorgang:***<br>Die Prüfung ist aus einem Vorgang initiiert worden.<br>\- ***Kunde:***<br>Die Prüfung ist aus einem Kunden initiiert worden<br>\- ***Anschrift***<br>Die Prüfung ist aus der Anschrift initiiert worden |
+| Prüfung | <ul><li>-&nbsp;&nbsp;&nbsp;&nbsp; <strong><em>Vorgang:</em></strong><br>Die Prüfung ist aus einem Vorgang initiiert worden. </li><li>-&nbsp;&nbsp;&nbsp;&nbsp; <strong><em>Kunde:</em></strong><br>Die Prüfung ist aus einem Kunden initiiert worden</li><li>-&nbsp;&nbsp;&nbsp;&nbsp; <strong><em>Anschrift</em></strong><br>Die Prüfung ist aus der Anschrift initiiert worden</li></ul> |
 | Kunde | ***Kundennummer*** |
 | Vorgang | Vorgangsnummer (wenn vorhanden) |
 | Zeitstempel | ***Zeitstempel des Eintrags*** |
-| Status | Ergebnis der Prüfung<br> <br>\- ***ungeprüft:***<br>Die Prüfung ist noch nicht erfolgt<br>\- ***zulässig***<br>Die Prüfung ist erfolgt und die Anschrift ist als zulässig gewertet worden<br>\- ***unzulässig***<br>Die Prüfung ist erfolgt und die Anschrift ist als unzulässig gewertet worden |
-| Quelle | ***A******nschrift aus dem Vorgang***<br> <br>\- ***Kunde:***<br>Kundenanschrift<br>\- ***Rechnung***<br>Rechnungsanschrift aus dem Vorgang<br>\- ***Zahlungspflichtiger***<br>Zahlungspflichtiger aus dem Vorgang<br>\- ***Versandanschrift***<br>Versandanschrift aus dem Vorgang<br>***\-*** ***Andere***<br>***Weitere Anschriften aus einer*** [Datenbankprozedur](./schritt_fuer_schritt_anleitung/schritt_1_setup.md#SPA1063)***, die Anschriften aus dem Vorgang bzw. in dessen Umfeld hinzuliest.*** |
+| Status | Ergebnis der Prüfung<br> <br><ul><li>-&nbsp;&nbsp;&nbsp;&nbsp; <strong><em>ungeprüft:</em></strong><br>Die Prüfung ist noch nicht erfolgt </li><li>-&nbsp;&nbsp;&nbsp;&nbsp; <strong><em>zulässig</em></strong><br>Die Prüfung ist erfolgt und die Anschrift ist als zulässig gewertet worden</li><li>-&nbsp;&nbsp;&nbsp;&nbsp; <strong><em>unzulässig</em></strong><br>Die Prüfung ist erfolgt und die Anschrift ist als unzulässig gewertet worden</li></ul> |
+| Quelle | ***A******nschrift aus dem Vorgang***<br> <br><ul><li>-&nbsp;&nbsp;&nbsp;&nbsp; <strong><em>Kunde:</em></strong><br>Kundenanschrift</li><li>-&nbsp;&nbsp;&nbsp;&nbsp; <strong><em>Rechnung</em></strong><br>Rechnungsanschrift aus dem Vorgang </li><li>-&nbsp;&nbsp;&nbsp;&nbsp; <strong><em>Zahlungspflichtiger</em></strong><br>Zahlungspflichtiger aus dem Vorgang</li><li>-&nbsp;&nbsp;&nbsp;&nbsp; <strong><em>Versandanschrift</em></strong><br>Versandanschrift aus dem Vorgang </li><li><strong><em>Andere</em></strong><strong></strong><br><strong><em>Weitere Anschriften aus einer </em></strong><a href="_compliancesfs1.htm#SPA1063">Datenbankprozedur</a><strong><em>, die Anschriften aus dem Vorgang bzw. in dessen Umfeld hinzuliest.</em></strong><strong></strong></li></ul> |
 | AdressId | AdressId der Anschrift |
 | Name | ***Name*** |
 | Straße | Straße |

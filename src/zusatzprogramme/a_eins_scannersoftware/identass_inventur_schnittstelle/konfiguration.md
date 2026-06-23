@@ -11,7 +11,7 @@ Klicken Sie auf dem Desktop des Scanners auf „**MyDevice**“, anschließend a
 | Feld | Funktion |
 | --- | --- |
 | Dropdown-Menü | Auswahl der Verbindungsdaten |
-| Großer, leerer Knopf dahinter | Öffnet Eingabe für die Namen oder IP des Rechners, zu dem verbunden werden soll.<br>\- Eingeben und anschließend OK klicken |
+| Großer, leerer Knopf dahinter | Öffnet Eingabe für die Namen oder IP des Rechners, zu dem verbunden werden soll.<br><ul><li>-&nbsp;&nbsp;&nbsp;&nbsp; Eingeben und anschließend OK klicken</li></ul> |
 | : Zahl | Angabe des zu verwendenden Ports 8591 |
 | Knopf „Add“ | Die Angaben auf dem großen Knopf und des Ports werden zusammengeführt und in die Liste zur Auswahl im Dropdown-Menü hinzugefügt. |
 | Test | Testet die ausgewählte Verbindung. |

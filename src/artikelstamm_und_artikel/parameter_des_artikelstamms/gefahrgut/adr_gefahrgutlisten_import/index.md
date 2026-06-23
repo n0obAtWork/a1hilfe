@@ -36,7 +36,7 @@ Hat man von benannter Bundesanstalt eine BAM-Listen Lizenz erworben, hat man mit
 
 | Funktion | Funktionstaste | Beschreibung |
 | --- | --- | --- |
-| **Filter / Bereichsauswahl** | **F2** | Filtermöglichkeiten für die Auswahlliste.<br>è Suche<br>\- Sucht in einigen Feldern nach dem angegebenen Stichwort. |
+| **Filter / Bereichsauswahl** | **F2** | Filtermöglichkeiten für die Auswahlliste.<br>è Suche<br><ul><li>-&nbsp;&nbsp;&nbsp;&nbsp; Sucht in einigen Feldern nach dem angegebenen Stichwort.</li></ul> |
 | **Import aus ADR-Datei** | **F9** | Startet den Dialog zum Importieren der ADR-Listen-Datei. |
 | **Löschen der ADR-Daten** | **F7** | Löscht alle vorhandenen ADR-Daten aus der A.eins-Tabelle. |
 

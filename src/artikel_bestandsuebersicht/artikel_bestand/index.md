@@ -34,7 +34,7 @@ Die Hauptvariante **Artikelbestände** weist pro Artikel und Lager alle wesentli
 | Lagernummer | Hier kann der Bereich der berücksichtigten Läger eingeschränkt werden. |
 | Artikel-Pool | Hier kann die Auswahl auf einen Artikel-Pool-Bereich eingeschränkt werden. |
 | Warengruppe | Hier kann die Auswahl auf einen Warengruppenbereich eingeschränkt werden. |
-| Fremdbestand | Optionen:<br>\- Alle Artikel<br>\- Artikel mit Fremdlagerbestand<br>\- Artikel mit Fremdwarebestand<br>\- Artikel mit Fremdlager- oder Fremdwarebestand |
+| Fremdbestand | Optionen:<br><ul><li>-&nbsp;&nbsp;&nbsp;&nbsp; Alle Artikel</li><li>-&nbsp;&nbsp;&nbsp;&nbsp; Artikel mit Fremdlagerbestand</li><li>-&nbsp;&nbsp;&nbsp;&nbsp; Artikel mit Fremdwarebestand</li><li>-&nbsp;&nbsp;&nbsp;&nbsp; Artikel mit Fremdlager- oder Fremdwarebestand</li></ul> |
 | Ohne 0-Mengen | Bei dem Wert **‚Ja‘** in diesem Auswahlfeld werden nur Artikel berücksichtigt, die einen Eigenbestand aufweisen, der nicht 0 ist. . |
 
 | **Funktionen** | |

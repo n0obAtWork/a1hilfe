@@ -33,7 +33,7 @@ oder Direktsprung **[INTRA]**
 | Versand-Staatnr. | Versand-Staatnummer |
 | Versand-Staat | Versand-Staat<br>Der Iso-Code aus dem Staatstamm<br>Siehe auch:<br>[Staatstamm](../../../../firmenstamm/staatstamm/index.md) |
 | Region | Region<br>Entspricht [Intrahandelsstatistik - Schlüsselverzeichnis zur Dateimeldung](https://www-idev.destatis.de/idev/doc/intra/doc/svz_datei_intra.pdf) |
-| Vorgangsklasse | Vorgangsklasse<br>Berücksichtigt sind:<br>\- *700,790 Rechnung u. Storno*<br>\- *800,890 Gutschrift und Storno*<br>\- *1700,1790 Eingangsrechnung u. Storno*<br>\- *1800,1890 Eingangsgutschrift und Storno*<br>\- *5110 Lagerumbuchung*<br>\- *5120 Artikelumbuchung*<br>\- *5220 Produktion Stückliste* |
+| Vorgangsklasse | Vorgangsklasse<br>Berücksichtigt sind:<br><ul><li>-&nbsp;&nbsp;&nbsp;&nbsp; <i>700,790 Rechnung u. Storno</i></li><li>-&nbsp;&nbsp;&nbsp;&nbsp; <i>800,890 Gutschrift und Storno</i></li><li>-&nbsp;&nbsp;&nbsp;&nbsp; <i>1700,1790 Eingangsrechnung u. Storno</i></li><li>-&nbsp;&nbsp;&nbsp;&nbsp; <i>1800,1890 Eingangsgutschrift und Storno</i></li><li>-&nbsp;&nbsp;&nbsp;&nbsp; <i>5110 Lagerumbuchung</i></li><li>-&nbsp;&nbsp;&nbsp;&nbsp; <i>5120 Artikelumbuchung</i></li><li>-&nbsp;&nbsp;&nbsp;&nbsp; <i>5220 Produktion Stückliste</i></li></ul> |
 | Steuergruppe | Steuergruppe des Vorgangs |
 | Steuersatz | Steuersatz der Warenbewegungsposition |
 | Steuer | Steuer der Warenbewegungs-Position |

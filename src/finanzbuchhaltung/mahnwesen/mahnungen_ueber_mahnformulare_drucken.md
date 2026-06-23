@@ -163,7 +163,7 @@ Bitte zahlen Sie bis zum :Zahlfristdatum$ den angegebenen Betrag.
 | FiBuVP_Betrag | | | S.o. |
 | Sollbetrag | | | Betrag wenn Soll |
 | Habenbetrag | | | Betrag wenn Haben |
-| BelegSH | Normal | 3 | **\-** oder **+** |
+| BelegSH | Normal | 3 | <ul><li>oder<b> +</b></li></ul> |
 | FiBuVP_SollHaben | | | S.o. |
 | BelegWBetrag | Numerisch | 4 | Betrag in Fremdwährung |
 | FiBuVPW_Betrag | | | S.o. |

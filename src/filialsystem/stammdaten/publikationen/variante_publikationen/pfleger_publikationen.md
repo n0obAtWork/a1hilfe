@@ -4,7 +4,7 @@
 
 | **Felder** | |
 | --- | --- |
-| Eigenschaft | Zeigt die Eigenschaft einer Publikation:<br>\- Amic-Standard<br>\- benutzerdefiniert |
+| Eigenschaft | Zeigt die Eigenschaft einer Publikation:<br><ul><li>-&nbsp;&nbsp;&nbsp;&nbsp; Amic-Standard</li><li>-&nbsp;&nbsp;&nbsp;&nbsp; benutzerdefiniert</li></ul> |
 | Publikation | Angabe des gewünschten Publikationsnamens.<br>Vorbelegt mit: **AMIC_** |
 | Artikel | Zeigt die in der Publikation enthaltenen Artikel. |
 
