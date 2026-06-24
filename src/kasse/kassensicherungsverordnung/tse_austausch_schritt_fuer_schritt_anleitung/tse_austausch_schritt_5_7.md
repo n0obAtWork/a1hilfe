@@ -35,8 +35,6 @@ Für den Fall, dass Sie mehrere TSE im Betrieb haben und nicht die Richtige erka
 
 </details>
 
- 
-
 <details>
 <summary>TSE-Austausch Schritt 6 TSE Kasse zuweisen</summary>
 

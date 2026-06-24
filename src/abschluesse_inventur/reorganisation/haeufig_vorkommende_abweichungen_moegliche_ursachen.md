@@ -24,7 +24,7 @@
 
   Im Mandantenserver können sich noch Einträge befinden, die von AMIC-Mitarbeitern zwischenzeitlich deaktiviert wurden (DS_STATUS = 2). Ferner bleiben dort eventuell Einträge mit dem DS_STATUS = 3, wenn der Mandantenserver während des Abarbeitens eines Eintrages abbricht. Hierzu gibt es in der Konsistenzprüfung mehrere Übersichten.
 
-  Die mit DS_STATUS = 3 gekennzeichneten Belege können mit der Konsistenzfunktion**!!! ***Mandantenserver Status 3 freigeben***** wieder aktiviert werden.
+  Die mit DS_STATUS = 3 gekennzeichneten Belege können mit der Konsistenzfunktion!!! ***Mandantenserver Status 3 freigeben*** wieder aktiviert werden.
 
   Die Einträge mit DS_STATUS = 2 erfordern eine Bearbeitung von AMIC-Mitarbeitern und sollten nur nach ANWEISUNG bearbeitet werden.
 

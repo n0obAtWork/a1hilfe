@@ -12,7 +12,7 @@ Ausnahme hier bilden Schaltergeschäfte, die in Deutschland getätigt werden.
 
 Ob Zinsabschlag berechnet wird, ist einerseits von einem Steuerungs-Parameter „Zinsabschlag berechnen“ in der Parametergruppe "Optionen Finanzwesen" abhängig. Andererseits muss in der [Zinsgruppe](./zinsgruppen.md) des Kunden bei „Zinsabschlag berechnen“ ein Haken gesetzt sein.
 
-<strong>Wichtig:</strong> <em>Das Kennzeichen „Zinsabschlag berechnen“ aus der Zinsgruppe wurde in älteren Versionen nicht ausgewertet. Es muss nun gepflegt werden!</em>
+<strong><u><span style="BACKGROUND: yellow">Wichtig:</span></u><span style="BACKGROUND: yellow"> </span></strong><em><span style="BACKGROUND: yellow">Das Kennzeichen „Zinsabschlag berechnen“ aus der Zinsgruppe wurde in älteren Versionen nicht ausgewertet. Es muss nun gepflegt werden!</span></em><strong></strong>
 
 ![Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung](../../../ImagesExt/image8_694.png "Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung")
 

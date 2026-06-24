@@ -16,7 +16,7 @@ In diesem Beispiel wurde der Kontotyp „Typ“ in die Gruppierungsleiste gezoge
 
 Um die Gruppierung wieder zu entfernen, zieht man die Spalte wieder zurück in die Datentabelle.
 
-<strong>Hinweis:</strong> <em>Wird die Funktion „Gruppieren-Bereich“ weggeschützt, so wird der Bereich „Zur Gruppierung Spalte hier ablegen“ für diese Bedienerklasse nicht mehr angezeigt.</em>
+<strong><u>Hinweis: </u></strong><em>Wird die Funktion „Gruppieren-Bereich“ weggeschützt, so wird der Bereich „Zur Gruppierung Spalte hier ablegen“ für diese Bedienerklasse nicht mehr angezeigt.</em>
 
 <p class="just-emphasize">Spalten fixieren:</p>
 
@@ -36,7 +36,7 @@ Das Symbol links unter der Überschrift bestimmt, wie gesucht werden kann, wobei
 | --- | --- |
 | ![](../../ImagesExt/image8_1278.png) | ![](../../ImagesExt/image8_1279.png) |
 
-<strong>Hinweis:</strong> <em>Wird dir Funktion „Filter“ weggeschützt, so wird die Filterzeile für diese Bedienerklasse nicht mehr angezeigt.</em>
+<strong><u>Hinweis: </u></strong><em>Wird dir Funktion „Filter“ weggeschützt, so wird die Filterzeile für diese Bedienerklasse nicht mehr angezeigt.</em>
 
 <p class="just-emphasize">Warnungen:</p>
 

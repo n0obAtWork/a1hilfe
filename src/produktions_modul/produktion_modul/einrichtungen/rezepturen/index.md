@@ -36,8 +36,6 @@ Hier sind die eigentlichen Rezepturen einzugeben. Es wird unterschieden zwischen
 | Auflösungstyp | Bei den Verwendungstypen Produktion, NzuM-Produktion und Vermahlung wird dieses Feld mit dem Wert „sichtbar“ gefüllt und ist auf der Maske für den Kunden nicht sichtbar.<br> <br>Typangaben beziehen sich auf die Verwendung der Rezepturmechanik für Handels-Stücklisten, werden also im Bereich Produktion nicht ausgewertet:<br>• manuell: Produktion manuell<br>• verdeckt: Stücklistenauflösung verdeckt<br>• sichtbar: Stücklistenauflösung sichtbar<br>• Umbuch verdeckt: belegbez. Umbuchung verdeckt<br>• Umbuch sichtbar: belegbez. Umbuchung sichtbar<br> |
 | Buchungstyp | Bei den Verwendungstypen Produktion, NzuM-Produktion und Vermahlung wird dieses Feld mit dem Wert „beide Seiten“ vorbelegt und ist auf der Maske für den Kunden nicht sichtbar.<br> <br>Nur für eine Handelsstückliste kann man sich entscheiden, ob das Produkt oder seine Komponenten gebucht werden sollen<br>0 – beide Seiten<br>1 – Komponenten<br>2 - Produkte |
 
- 
-
 <p class="siehe-auch">Siehe auch:</p>
 
 - [Produktpreise F11](./produktpreise_f11.md)

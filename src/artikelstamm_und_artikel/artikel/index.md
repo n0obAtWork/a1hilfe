@@ -27,7 +27,7 @@ Folgenden Funktionen kommen hierbei zum Einsatz.
 ![](../../ImagesExt/image8_123.jpg)
 
 Unveränderbar werden aus dem Artikelstamm die Felder der oberen Hälfte über­nommen; vorbelegt aus dem Artikelstamm aber überschreibbar sind die Felder Arti­kel­nummer, Kurzbezeichnung und Erlöskennziffer.  
-Eine Besonderheit ist bei der Erlöskennziffer zu beachten: Ist diese im Artikel mit dem Wert **‚0‘** belegt, so wird bei der Verwendung des Artikels in Vorgängen die Erlöskennziffer des zugehörigen Artikelstamms herangezogen. Dieses wird dadurch verdeutlicht, dass im zugehörigen Bezeichnungsfeld die Angabe <strong>‚aus Artikelstamm:</strong> <em>n</em><strong>‘</strong> mit n = Erlöskennziffer des Artikelstamms dargestellt wird.
+Eine Besonderheit ist bei der Erlöskennziffer zu beachten: Ist diese im Artikel mit dem Wert **‚0‘** belegt, so wird bei der Verwendung des Artikels in Vorgängen die Erlöskennziffer des zugehörigen Artikelstamms herangezogen. Dieses wird dadurch verdeutlicht, dass im zugehörigen Bezeichnungsfeld die Angabe <strong>‚aus Artikelstamm: </strong><em>n</em><strong>‘ </strong>mit n = Erlöskennziffer des Artikelstamms dargestellt wird.
 
 Die Lagernummer wird aus den Vorgangskonstanten **[VKONS]** vorbelegt und das Gültigkeitsdatum hat eine Stan­dard­vorbelegung.
 

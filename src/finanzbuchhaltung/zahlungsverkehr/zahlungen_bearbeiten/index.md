@@ -12,7 +12,7 @@ Hier erfolgt die endgültige Verarbeitung der Zahlungsbelege. Es stehen hierfür
 
 Ein Report kann als Protokoll gedruckt werden:
 
-<p class="just-emphasize">**Formularänderung** **(F5)**</p>
+<p class="just-emphasize">**Formularänderung (F5)**</p>
 
 **Hier kann für die einzelnen Zahlungsbelege die Hausbank, (bei nicht verarbeiteten Zahlungsbelegen) der Empfänger oder das Formular, mit dem der Scheck gedruckt wird, geändert werden. Handelt es sich um SEPA-Zahlungen, so kann auch das Ausführungsdatum hier geändert werden.**
 

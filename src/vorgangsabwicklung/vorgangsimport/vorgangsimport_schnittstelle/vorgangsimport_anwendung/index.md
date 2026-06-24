@@ -92,8 +92,6 @@ Richtlinien fürs Schreiben der Hilfe
 
 <p class="just-emphasize">Variante Vorgangsimportstatistik</p>
 
- 
-
 <p class="siehe-auch">Siehe auch:</p>
 
 - [Funktionen des VIMP-Pflegers](./funktionen_des_vimp_pflegers.md)

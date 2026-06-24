@@ -20,4 +20,4 @@ Mit ***„bearbeiten“*** wird das Dokument wieder geöffnet. Um wieder auf die
 
 ![](../../../ImagesExt/image8_1297.png)
 
-<strong>ACHTUNG:</strong> <em>Beim Beenden des „Serienbrief verwalten“- Dialogs wird gefragt, ob man die Änderungen Speichern will. Erst wenn man diese Frage mit **Ja** beantwortet wird das geänderte Worddokument in der Datenbank gespeichert.</em>
+<strong><u>ACHTUNG:</u> </strong><em>Beim Beenden des „Serienbrief verwalten“- Dialogs wird gefragt, ob man die Änderungen Speichern will. Erst wenn man diese Frage mit <strong>Ja</strong> beantwortet wird das geänderte Worddokument in der Datenbank gespeichert.</em>

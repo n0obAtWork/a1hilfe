@@ -21,7 +21,7 @@ Eine Aeins-Laufzeit-Instanz besitzt diverse Umgebungsparameter:
 | Connection | Die technische Verbindungsidentifikation der Aeins-Instanz mit dem Datenbank-Server |
 | Host | Der Hostname des Rechners auf dem die Aeins-Instanz läuft. |
 | Prozess-ID | Die Windows-PID des Prozesses. |
-| **Menü** | [***ActiveX***](./menue_favoriten/menue_favoriten_sortierung.md)***:*** Technische Basis des verwendeten Haupt-Menüs ist ActiveX<br>(A.eins-Standard-Hauptmenü)<br>[***A1Net***](./menue_anmeldungen.md#A1NetMenü)***:*** Technische Basis des verwendeten Haupt-Menüs ist ActiveX/.NET<br>(Aktivierbar über A.eins-Parameter: menu=false)<br>***Externes Menü******:*** In der Entwicklung befindendes Haupt-Menü. |
+| **Menü** | [***ActiveX***](./menue_favoriten/menue_favoriten_sortierung.md)***:*** Technische Basis des verwendeten Haupt-Menüs ist ActiveX<br>(A.eins-Standard-Hauptmenü)<br>[***A1Net***](./menue_anmeldungen.md#A1NetMenü)***:*** Technische Basis des verwendeten Haupt-Menüs ist ActiveX/.NET<br>(Aktivierbar über A.eins-Parameter: menu=false)<br>***Externes Menü:*** In der Entwicklung befindendes Haupt-Menü. |
 | Menü-Version | Technische Versions-Nummer des verwendeten Menüs. |
 | Programm-Version | Programm-Version der laufenden Aeins-Instanz. |
 | Instanz | Identifikation der Aeins-Instanz. |

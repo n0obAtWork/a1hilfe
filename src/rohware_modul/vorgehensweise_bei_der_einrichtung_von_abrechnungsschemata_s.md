@@ -35,7 +35,7 @@ b) Alle relevanten Qualitätskriterien mit den jeweiligen Basiswerten
 
   4. Legen Sie in nun die benötigten Rohwarengruppen und Abrechnungsschemata an.
 
-  Rohwarengruppen\-Definition
+  Rohwarengruppen-Definition
 
   Hauptmenü > Rohwarenabrechnung \> Rohwaren-Verwaltung
 

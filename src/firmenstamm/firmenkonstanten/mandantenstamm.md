@@ -134,8 +134,6 @@ Zusätzlich finden Sie in der Optionbox eine Funktion „Zollanmelder Adresse“
 
 </details>
 
- 
-
 <details>
 <summary>Registerkarte Verbotsliste</summary>
 
@@ -149,8 +147,6 @@ In der Registerkarte Verbotsliste werden wichtige Informationen zur Datenverbind
 | Profil | Profil von AEB |
 
 </details>
-
- 
 
 <details>
 <summary>Registerkarte Internet</summary>
@@ -193,8 +189,6 @@ Auf der Registerkarte „Internet“ werden Informationen hinterlegt, die für e
 
 </details>
 
- 
-
 <details>
 <summary>Registerkarte Zugangsdaten</summary>
 
@@ -214,8 +208,6 @@ MandMailAdresse(3)
 
 </details>
 
- 
-
 <details>
 <summary>Registerkarte GeoDaten</summary>
 
@@ -227,8 +219,6 @@ Auf der Registerkarte „GeoDaten“ werden Einstellungen für Geodatendienste g
 | Google API Key | Dies ist der API-Key für die Ermittlung von Entfernungen zwischen Wegpunkten sowie den Geodaten bei der MapsTourenplanung. [Zum Diensteanbieter.](../../zusatzprogramme/maps_tourenplanung/diensteanbieter/entfernungmatrix.md) |
 
 </details>
-
- 
 
 <details>
 <summary>Registerkarte Webdienst</summary>
@@ -244,8 +234,6 @@ Wenn das Feld „Adresse“ leer ist, dann liegt das daran, dass der Datenbankse
 | Status | Zeigt den momentanen Status des Webdienstes an. |
 
 </details>
-
- 
 
 <details>
 <summary>Registerkarte Firmenlogo</summary>

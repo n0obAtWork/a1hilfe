@@ -12,7 +12,7 @@ Direktsprung **[RWPA]**
 
 Die einzelnen Rohwareparameter und ihre Bedeutung werden nachfolgend beschrieben.
 
-**Erfassungsst****art mit Kontraktnummer**
+**Erfassungsstart mit Kontraktnummer**
 
 Parameternummer: 177
 

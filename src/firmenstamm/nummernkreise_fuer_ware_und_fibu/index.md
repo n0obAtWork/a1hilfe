@@ -19,8 +19,6 @@ Für alle Bereiche in A.eins liegen in der Auslieferungsversion eingerichtete Nu
 - Unterschiedliche Nummernkreise je Standort
 - Vorgangsunterklassen („die Heizölrechnung“) je Sparte mit jeweils eigenen Nummernkreisen
 
- 
-
 <p class="siehe-auch">Siehe auch:</p>
 
 - [Einrichtung von Nummernkreisen](./einrichtung_von_nummernkreisen.md)

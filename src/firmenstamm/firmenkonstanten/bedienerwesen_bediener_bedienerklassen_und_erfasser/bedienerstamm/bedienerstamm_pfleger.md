@@ -129,7 +129,7 @@ Hier können für den Bediener Versandstandards hinterlegt werden mehr dazu unte
 
 </details>
 
- 
+ 
 
 <details>
 <summary>Waage</summary>

@@ -83,7 +83,7 @@ Die Standardeinstellung ist <strong>Ja,</strong> es sei denn man hat „Nur Date
 
 Wenn man auf dem Arbeitsplatz, auf dem die Umsatzsteuervoranmeldung erstellt wird, keinen Internetzugang hat, so besteht trotzdem die Möglichkeit die Daten zu übertragen. Wenn hier **Ja** einträgt, dann werden lediglich die für den Versand benötigten Daten bereitgestellt und es erscheint nach Fertigstellung die Meldung „Die Datei … wurde bereitgestellt!”
 
-<strong>Achtung:</strong> <em>Werden die Daten nur bereitgestellt, so besteht keine Möglichkeit die automatische **Archivierung des** **Übertragungsprotokolls** zu aktivieren.</em>
+<strong>Achtung: </strong><em>Werden die Daten nur bereitgestellt, so besteht keine Möglichkeit die automatische <strong>Archivierung des</strong> <strong>Übertragungsprotokolls </strong>zu aktivieren.</em><strong></strong>
 
 Um die Daten dann von einem anderen Rechner zu übertragen, muss man das dort das Programm A1EXTELSTER.EXE ausführen. Dazu legt man sich am besten einer Verknüpfung auf dem Desktop an:
 

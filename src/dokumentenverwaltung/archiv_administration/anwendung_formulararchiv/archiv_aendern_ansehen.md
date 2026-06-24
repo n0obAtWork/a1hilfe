@@ -32,9 +32,7 @@ Im „Ändern“-Fall wird bei Archiv-Einträgen, die weder Kundennummer noch Be
 | Funktionen | |
 | --- | --- |
 | ***Archiv anzeigen*** **CF12** | Das Dokument des Archiv-Eintrages anzeigen |
-| <strong>*Beleg-Referenz erzeugen F10*</strong> | Sind Belegnummer und Beleg-Klasse erfasst, bietet diese Funktion die Möglichkeit gemäß den Vorschriften aus [Archiv Fakte](../../archiv_fakte.md) (*fam_ref_vorg*) die Beleg-Referenz zu generieren. |
-
-### 
+| <strong><em><span style="FONT-SIZE: 11pt; COLOR: black">Beleg-Referenz erzeugen F10</span></em></strong><em><span style="FONT-SIZE: 11pt"></span></em> | Sind Belegnummer und Beleg-Klasse erfasst, bietet diese Funktion die Möglichkeit gemäß den Vorschriften aus [Archiv Fakte](../../archiv_fakte.md) (*fam_ref_vorg*) die Beleg-Referenz zu generieren. |
 
 Das A.eins-Archiv unterstützt die Volltext-Recherche mit dem Modul „Volltextrecherche“ (Lizenz SPA Volltextrecherche, 914)
 
@@ -80,8 +78,6 @@ Hinweise zum u.a. Status einiger Relationen erhält man unter [Archiv Volltext-R
 | 630791 | Initialisierung ArchivText-Volltext-Index im System-Datenspeicher mit Default-Werten und manueller Aktualisierung |
 | 630932,630942 | Administratives ArchivTextBad |
 
-#### 
-
 Folgende Funktionen stehen zur neben der eigentlichen Recherche zur Verfügung:
 
 | Archivtext-Funktion | | |
@@ -112,8 +108,6 @@ Eine Möglichkeit ist die Integration der Aktualisierung im Mandantenserver mit 
 | Mp_Nurwartezyklus | 1 |
 
 Hinweise bzgl. Möglicher Privatisierungen der Datenbank-Funktion die den nächsten zu bearbeitenden Kandidaten für die Aktualisierung heraussucht erhält man unter [Archiv Volltext-Recherche](../../archiv_manager/referenz/archiv_volltext_recherche.md)
-
-#### 
 
 [Was ist eine Volltextsuche?](http://dcx.sybase.com/index.html#1201/de/dbusage/full-text-search-what-is-it.html)
 

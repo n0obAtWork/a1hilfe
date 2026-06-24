@@ -34,8 +34,6 @@ der einer bestimmten Rolle zugeordnet ist, ausführen darf.
 
 </details>
 
- 
-
 <details>
 <summary>Zugriffsrechte Varianten</summary>
 
@@ -46,8 +44,6 @@ oder Direktsprung **[ZUGV]**
 Alle Varianten in Auswahllisten (also z.B. Rechnung (komplexe Auswahl) in **[REB]**) werden in einer Auswahl­liste angezeigt. Hier kann man jetzt für eine einzelne (Einzelbearbeitung) oder einen selektierten Bereich (Stapelbearbeitung) von Varianten unter Programmpunkt Zuordnung die Rechte entziehen oder exklusiv zuordnen.
 
 </details>
-
- 
 
 <details>
 <summary>Zugriffsrechte Reporte</summary>

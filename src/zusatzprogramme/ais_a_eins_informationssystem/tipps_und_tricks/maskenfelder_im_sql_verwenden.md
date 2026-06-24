@@ -12,7 +12,7 @@ k.Adressidhauptadr=a.adressid
   where Kontonummer=:ais1.KontoNummer$
 ```
 
-<strong>Achtung:</strong> <em>So wie das Statement hier formuliert ist kommt es zu einem Syntaxfehler, sollte das Feld ais1.KontoNummer$ keine Daten enthalten. Daher sollte man bei der Verwendung von Maskenfeldern immer einfache Hochkomma verwenden:</em>
+<strong>Achtung: </strong><em>So wie das Statement hier formuliert ist kommt es zu einem Syntaxfehler, sollte das Feld ais1.KontoNummer$ keine Daten enthalten. Daher sollte man bei der Verwendung von Maskenfeldern immer einfache Hochkomma verwenden:</em>
 
 ```sql
 select AdressAnrede||' '||AdressVorName ||' '||

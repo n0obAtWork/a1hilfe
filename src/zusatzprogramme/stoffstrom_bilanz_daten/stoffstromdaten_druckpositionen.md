@@ -5,7 +5,7 @@
 Zur Darstellung von Stoffstromdaten auf Vorgangsdruck-Formularen stehen im Modul zur [Formulareinrichtung](../formulareinrichtung_und_zuordnung/formulareinrichtung/einrichtung_f6.md) für den Druckbereich ‚<em>Warenposition‘</em> Formulardruckpositionen zur Verfügung.
 
 - **6601 ID_STOFFSTROM_ART  
-**Nummer der Stoffstromart aus dem Anwendungsformat <em>‚af_stofstart‘</em>
+**Nummer der Stoffstromart aus dem Anwendungsformat <em>‚af_stofstart‘</em><strong></strong>
 
 - **6602 ID_STOFFSTROM_TEXT  
 **Bezeichnung des Bestandteils aus der Artikelbestandteil-Liste

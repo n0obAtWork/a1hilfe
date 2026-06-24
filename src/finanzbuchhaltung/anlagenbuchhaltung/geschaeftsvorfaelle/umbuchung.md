@@ -4,7 +4,7 @@
 
 Umbuchen sind entweder dann notwendig, wenn im Bau befindliche Anlagen fertiggestellt sind und nun abgeschrieben werden sollen ( Änderung der AfA – Methode ) oder bestimmte Daten wie z.B.: Nutzungsdauer, Anlagenkonto, [Kostenstelle](../../kostenrechnung/kostenstellen.md), [Kostenträger](../../kostenrechnung/kostentraeger.md) oder [Kostenobjekt](../../kostenrechnung/kostenobjekte/index.md) sich ändern. Im Anlagenspiegel erscheinen im Jahr der Umbuchung beide Anlagegüter.
 
-<strong>Wichtig:</strong> <em>Vor der Umbuchung müssen ggf. die Abschreibungen vorgenommen werden.</em>
+<strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif">Wichtig: </span></strong><em>Vor der<strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif"> </span></strong>Umbuchung müssen ggf. die Abschreibungen vorgenommen werden.</em><strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif"></span></strong>
 
 Wird für ein Anlagegut der Abschreibungsverlauf handels- und steuerrechtlich getrennt behandelt, so betreffen Umbuchungen immer sowohl den steuerrechtlichen als auch den handelsrechtlichen Verlauf. Für den handelsrechtlichen Verlauf werden keine automatischen Buchungen erstellt.
 

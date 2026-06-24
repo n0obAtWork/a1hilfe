@@ -51,8 +51,6 @@ Hier ist eine Auflistung der einzelnen Felder auf den Tabreitern der Maske.
 | [LVS Relevant](./faktorherkunft.md) | Dieses Kennzeichen steuert ob die Mengeneinheit LVS-relevant ist |
 | LVS Default Lokalität | Hier wird die default LVS Lokalität eingetragen, wenn das Gebinde LVS-relevant ist, wird diese Lokalität standardmäßig verwendet |
 
- 
-
 <p class="siehe-auch">Siehe auch:</p>
 
 - [Gebindetypen](./gebindetypen.md)

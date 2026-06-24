@@ -310,4 +310,4 @@ Bei der Erfassung mit mobilen Geräten ist es möglich, die Daten über eine Bea
 
 Zugriff auf die Baudatenbank, die hierzu natürlich vorhanden sein muss.
 
-<strong>*Abschluss (zurück auf die Kopfseite)*</strong>
+<strong><em>Abschluss (zurück auf die Kopfseite)</em></strong><em></em>

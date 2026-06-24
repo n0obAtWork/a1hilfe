@@ -84,8 +84,6 @@ Werden mehrere Dateien mit einem Skript geladen, so muss in den [Einrichterparam
 
 Um einen Import zu starten klicken Sie bitte in der Optionbox auf „Import Starten“ oder drücken Sie die Taste F9.
 
- 
-
 <p class="just-emphasize">XML Struktur</p>
 
 Die XML Struktur muss genauso wie in diesem Beispiel aufgebaut sein. Bei den XML Tags muss auf Groß und Klein Schreibung geachtet werden.
@@ -140,8 +138,6 @@ EUR </WaehrISOCode>
 </Account>
 </LedgerImport>
 ```
-
- 
 
 <p class="just-emphasize">Beispielprozedur</p>
 

@@ -24,8 +24,6 @@ Hier wird die verbrauchte Menge vom Ladeträger in der Bereitstellungszone abgeb
 
 10. Empfang von Fertigmeldung einer Produktion. Hier werden die Verbräuche und die Produktmenge in der Produktion korrigiert.
 
- 
-
 Mit Hilfe von Makro 2.0 kann man in C# bequem ein Makro erstellen, dass die Dateien z.B. im Rahmen eines Mandantenserverprozesses erstellt bzw. einliest. Um Pfade in Test- und Livesystem pflegen zu können, empfehlen wir dazu die [Mandantenprofile](../../zusatzprogramme/testmandant/pfleger_fuer_das_mandantenprofil.md) zu verwenden.
 
 <p class="siehe-auch">Siehe auch:</p>

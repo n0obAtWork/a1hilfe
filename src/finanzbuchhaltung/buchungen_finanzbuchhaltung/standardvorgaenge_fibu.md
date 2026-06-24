@@ -16,7 +16,7 @@ Für das Erstellen der Datei index.xml beim ASCII-Export werden Dokumenttyp-Defi
 
 <p class="just-emphasize">IDEA Export</p>
 
-<strong>Hinweis:</strong> <em>Es ist nicht notwendig, die Daten vor dem Export komplett in die Datentabelle zu laden, da beim Export die Daten immer direkt aus der Datenbank gelesen werden.</em>
+<strong>Hinweis: </strong><em><span style="BACKGROUND: yellow">Es ist nicht notwendig, die Daten vor dem Export komplett in die Datentabelle zu laden, da beim Export die Daten immer direkt aus der Datenbank gelesen werden.</span></em><strong></strong>
 
 In der Auswahlliste 1.0 wird der IDEA Export über die Funktion „Export in ASCII-Datei“ gelöst.
 

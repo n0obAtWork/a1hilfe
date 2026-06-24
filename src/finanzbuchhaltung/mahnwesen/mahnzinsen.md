@@ -27,7 +27,7 @@ Nach der Freigabe der Mahnungsvorschläge kann man die Mahnzinsen unter „Mahnu
 
 Im [Mahnformular](./mahnungen_ueber_mahnformulare_drucken.md) stehen in den Bereichen für die Zinsen folgende Felder zur Verfügung:
 
-<strong>HINWEIS:</strong> <em>Steht in der Mahngruppe die Option „Zinsgutschrift zulassen“ auf **Nein** und ist der Zinssaldo negativ - also eine Gutschrift – werden alle folgenden Felder mit 0 ausgewiesen.</em>
+<strong>HINWEIS: </strong><em>Steht in der Mahngruppe<strong> </strong>die Option „Zinsgutschrift zulassen“ auf <strong>Nein </strong>und<strong> </strong>ist der<strong> </strong>Zinssaldo negativ - also eine Gutschrift – werden alle folgenden Felder mit 0 ausgewiesen.</em>
 
 Die Bereiche 301,303,305,306
 

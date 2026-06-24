@@ -70,8 +70,6 @@ Zusätzlich zu den allgemeinen Infos, können THG-Werte hinterlegt werden. Die a
 | Lieferung | Wert für den THG-Wert Lieferung |
 | Verarbeitung | Wert für den THG-Wert Verarbeitung |
 
- 
-
 Zusätzlich zu den Werten nach Datum, kann man die Werte auch abhängig vom Artikelstamm hinterlegen. Dies sind artikelspezifische THG-Werte des Anbaulandes.
 
 | Feld | Beschreibung |

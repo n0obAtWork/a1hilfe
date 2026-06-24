@@ -16,8 +16,6 @@ In der Eingabemaske Zahlungsbedingungen bestehen folgende Eingabemöglichkeiten.
 
 [Textdarstellung](./index.md#zabed_maske_textdarstellung)
 
- 
-
 <p class="just-emphasize">Kopfdaten</p>
 
 | Feldname | Beschreibung |

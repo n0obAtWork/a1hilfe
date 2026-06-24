@@ -27,8 +27,6 @@ Rechts oben am Bildschirm wird mit der Anwahl ein Funktionsauswahlfenster geöff
 | Maximale Vorauszeiträume<br>. | Wenn ein Kontrakt abgeschlossen wird, in dem Teilmengen für einzelne Zeiträume innerhalb der Gesamtlaufzeit werden, dann kann hier bestimmt werden, ob und für wie viele Zeiträume im Voraus aus diesen zukünftigen Perioden abgebucht werden darf.<br>Wenn also im Oktober bereits auf die Dezembermenge zugegriffen werden darf, so ist hier 2 einzugeben |
 | Bemerkung | Hier kann eine Bemerkung zum Kontrakt eingetragen werden. |
 
- 
-
 <p class="siehe-auch">Siehe auch:</p>
 
 - [Einzel-/Gesamtmengen](./einzel_gesamtmengen.md)

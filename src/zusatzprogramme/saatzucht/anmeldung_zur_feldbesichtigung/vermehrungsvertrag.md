@@ -48,8 +48,6 @@ Sind [Fruchtarten](../fruchtarten.md) und [Sorten](../saatsorten.md) eingerichte
 
 Hier muss wiederum die Kategorie eingetragen werden.
 
- 
-
 Im Vermehrungsvertrag ist die Vertragsnummer frei wählbar. Das Feld Aussaat beinhaltet den Monat, in dem die Aussaat erfolgt ist. Ggf. mit F3 und Stammdatenpflege zu ergänzen.
 
 Die Vermehrernummer kommt aus dem Kundenstamm, z. B. 30300 für PHP. Hier ist auch die VO-Firma hinterlegt. Sollte wider Erwarten eine andere VO-Firma eingetragen werden, so kann das Feld VO-Firma durchaus geändert werden. Gleiches gilt für die Felder Aufbereiter, VMKz (Vermehrerkennzeichen) und LWK offiziell.  

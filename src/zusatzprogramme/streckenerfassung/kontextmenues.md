@@ -70,8 +70,6 @@ Der aktive Vorgang wird aus dem System gelöscht.
 
 Die Zuordnung des aktiven Vorgangs zu diesem Streckengeschäft wird gelöscht. Der Vorgang bleibt aber im System erhalten. Er kann so z.B. einem anderen Streckengeschäft zugeordnet werden.
 
- 
-
 <p class="just-emphasize">Avis markierte Zeilen ![](../../ImagesExt/image8_1357.png)</p>
 
 <p class="just-emphasize">Routenplanung (Google Maps) ![](../../ImagesExt/image8_1357.png)</p>

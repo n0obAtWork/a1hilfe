@@ -43,8 +43,6 @@ Man achte also darauf, dass das gestaltete Formular auch im ASCII Modus 'aussage
 Zur Darstellung von Linien wurden in allen Druckbereichen zwei neue Druckpositionen hinzugefügt: Einfache / doppelte Linie. Der Parameter 'Länge' gibt an, wie lang die Linie werden soll. Im ASCII-Modus werden die Zeichen '-' für einfache Linie, '=' für doppelte Linie entsprechend der Länge wiederholt. Im Windows-Modus werden richtige Linien 'gemalt'. Somit ergibt sich in beiden DruckModi ein etwa identischer optischer Eindruck bezüglich der Länge!  
 Zum Experimentieren und nur unter Windows: Die Linien werden zu Kästen, wenn unter Details die Blocklänge > 0 ist. Die Blocklänge gibt an, wie viele Zeilen innerhalb des Kastens liegen!
 
- 
-
 <p class="siehe-auch">Siehe auch:</p>
 
 - [Einrichtungen kopieren](./einrichtungen_kopieren.md)

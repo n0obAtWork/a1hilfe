@@ -22,7 +22,7 @@ Bei der **Verbleib-Funktion** werden, ausgehend von den der gewählten Position 
 
 Da die Partiebewegungen durch die Abarbeitung erfasster, umgewandelter oder korrigierter Belege per Mandantenserver erzeugt werden, ist darauf zu achten, dass bei Nutzung der Funktionen die beteiligten Belege bereits durch den Mandantenserver abgearbeitet wurden.
 
-<strong>ACHTUNG:</strong> Bei Nutzung von Artikel-, Lager- und Lagerplatzumbuchungen sowie des Produktionsmoduls muss für die entsprechenden Vorgangsklassen und Vorgangsunterklassen unbedingt im Modul ***Formularzuordnung/Vorgangsunterklassen*** im Register ***Partie*** das Maschinentagebuch durch den Eintrag ‚**Ja**‘ im Feld <em>Maschinentagebuch führen</em> aktiviert sein. Nur dann können derartige Herkunfts- und Verbleib-Bezüge ausgewertet werden.
+<strong>ACHTUNG:</strong> Bei Nutzung von Artikel-, Lager- und Lagerplatzumbuchungen sowie des Produktionsmoduls muss für die entsprechenden Vorgangsklassen und Vorgangsunterklassen unbedingt im Modul ***Formularzuordnung/Vorgangsunterklassen*** im Register ***Partie*** das Maschinentagebuch durch den Eintrag ‚**Ja**‘ im Feld <em>Maschinentagebuch führen</em><strong> </strong>aktiviert sein. Nur dann können derartige Herkunfts- und Verbleib-Bezüge ausgewertet werden.
 
 Das Ergebnis der Herkunfts-/Verbleib-Bestimmung wird auf einer Maske in einer Tabelle dargestellt.  
 Jede Zeile enthält Angaben zu den beteiligten Partiebewegungen. Eine Partiebewegung wird nicht weiter verfolgt und dargestellt, wenn der entsprechende Zweig bereits bei der Herkunfts-/Verbleib-Ermittlung einer zuvor untersuchten Ausgangsbewegung erreicht wurde.

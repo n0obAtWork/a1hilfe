@@ -6,7 +6,7 @@ Hauptmenü > Rohwarenabrechnung > Auswertungen > Aufkaufauswertung
 
 Hauptmenü > Rohwarenabrechnung > Auswertungen > Verkaufsauswertung
 
-Direktsprung **[LST]** Variante <em>Rohwarenauswertungen</em>
+Direktsprung **[LST]** Variante <em>Rohwarenauswertungen</em><strong> </strong>
 
 Dieser Report listet für die spezifizierten Selektionsbereiche für eine Rohwarengruppe pro Beleg eine Zeile mit den Angaben 
 

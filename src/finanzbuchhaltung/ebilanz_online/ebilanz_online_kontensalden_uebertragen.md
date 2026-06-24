@@ -42,7 +42,7 @@ werden direkt angezeigt. Wenn alle Daten korrekt übertragen werden konnten, ers
 
 **„Die Übertragung war erfolgreich.“**
 
-<strong>Hinweis:</strong> <em>Es werden lediglich die Salden übertragen. Die weitere Verarbeitung der Bilanz muss auf der Webseite von</em> [*eBilanz-Online*](http://www.ebilanzonline.de/) *geschehen.*
+<strong><u>Hinweis:</u> </strong><em>Es werden lediglich die Salden übertragen. Die weitere Verarbeitung der Bilanz muss auf der Webseite von </em>[*eBilanz-Online*](http://www.ebilanzonline.de/) *geschehen.*
 
 Nach erfolgreicher Übertragung findet man die Daten sofort auf eBilanz-Online wieder. Sie können unter Import „Kontensalden für Zuordnung“ und unter Jahresabschluss(GAAP-Modul) eingesehen werden.
 

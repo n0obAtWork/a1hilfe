@@ -41,8 +41,7 @@ Diese Möglichkeit erscheint dann, wenn eine Archiv-Lizenz vorliegt. Die Standar
 
 **Konfiguration des Proxy-Servers für die Datenübermittlung:**
 
-Sollte die Verbindung zum Internet über einen Proxyserver laufen, so können hier die Einstellungen vorgenommen werden. <strong>ACHTUNG:</strong> <em>Die FIREWALL muss die Verbindung zulassen.  
-</em>  
+Sollte die Verbindung zum Internet über einen Proxyserver laufen, so können hier die Einstellungen vorgenommen werden. <strong>ACHTUNG: </strong><em>Die FIREWALL muss die Verbindung zulassen.<br></em>  
 Zur Unterstützung der Einrichtung von Elster stehen zwei PDF-Dateien auf dem Verzeichnis Dokumentation von A.eins:
 
 - KonfigurationProxy.pdf

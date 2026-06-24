@@ -38,7 +38,7 @@ Bei Vorhandensein mehrerer Hausbanken kann mit dem Steuerparameter **Hausbanknum
 
 <p class="just-emphasize">Einrichtungsdetails</p>
 
-Die [Einrichtung der Position](./formulareinrichtung/einrichtung_f6.md) erfolgt durch Angabe von Zeile und Spalte für die linke obere Ecke des QR-CODEs im Formularbereich Bereich 902 für die Position ‚EPC-QR-CODE‘ (45) und die Angabe des **Namens der Etikettendruck-Definition** ( im Standard: <strong>*AMIC_EPC_QRCODE*</strong> <em>)</em> in der Spalte **Text**.
+Die [Einrichtung der Position](./formulareinrichtung/einrichtung_f6.md) erfolgt durch Angabe von Zeile und Spalte für die linke obere Ecke des QR-CODEs im Formularbereich Bereich 902 für die Position ‚EPC-QR-CODE‘ (45) und die Angabe des **Namens der Etikettendruck-Definition** ( im Standard: <strong><em>AMIC_EPC_QRCODE </em></strong><em>)</em> in der Spalte **Text**.
 
 Die Größe des QR-CODEs ergibt sich aus der dort hinterlegten Report-Definition.
 

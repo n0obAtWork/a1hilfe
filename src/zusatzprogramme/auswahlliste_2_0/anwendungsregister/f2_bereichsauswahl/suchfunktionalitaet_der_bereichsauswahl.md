@@ -23,7 +23,7 @@ Diese Funktion dient als Platzhalter für **ein** Zeichen.
 | Auswahl | Ergebnis |
 | --- | --- |
 | _e | Alle Kunden mit „e“ an zweiter Stelle<br> |
-| m__er<br> | Alle „Meier“, unabhängig ob sie mit „ei, ey, ay, ai“ etc. an zweiter und dritter Position geschrieben werden<br><strong>Achtung:</strong> <em>Hier wird natürlich auch der Name „Mauer“ etc. ausgewiesen.<br><br></em> |
+| m__er<br> | Alle „Meier“, unabhängig ob sie mit „ei, ey, ay, ai“ etc. an zweiter und dritter Position geschrieben werden<br><strong><span style="FONT-SIZE: 11pt; COLOR: black">Achtung:</span></strong><em><span style="FONT-SIZE: 11pt; COLOR: black"> Hier wird natürlich auch der Name „Mauer“ etc. ausgewiesen.<br><br></span><span style="FONT-SIZE: 11pt"></span></em> |
 | m[_]m__er | Um einen echten Unterstrich zu suchen, muss man diesen in eckige Klammern setzen. Dieses Beispiel alle Einträge, die mit „m“ beginnen, dann einen Unterstrich „_“ haben und danach alle „Meier“, unabhängig ob sie mit „ei, ey, ay, ai“ etc. an zweiter und dritter Position geschrieben werden. Also z.B.: m_Mayer.<br> |
 
 Soll der Unterstrich _ gesucht werden und nicht als Platzhalter dienen, so ist er in eckigen Klammern zu setzen: [_]

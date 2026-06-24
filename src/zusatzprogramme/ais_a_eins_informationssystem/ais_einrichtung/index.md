@@ -10,7 +10,7 @@ Alle Felder des AIS werden in sogenannten Gruppen zusammengefasst. Über diese G
 
 Jeder dieser Gruppen kann ein Screen-Makro bzw. ein Feld-Makro zugeordnet werden. Das Feld-Makro übernimmt die [Eingabeprüfung](./eingabepruefung.md) auf Feldebene. Das Screen-Makro kann für den Ändern- bzw. im Neu-Fall Vorlauffunktionen enthalten sowie eine Funktion „Prüfung vor speichern“, die aufgerufen wird bevor die Daten gespeichert werden und in der man den Speichervorgang noch abbrechen kann. Diese werden in „***Ändern Vorlauf***“, „***Einfügen Vorlauf***“ bzw. in „***Prüf. Vor Speichern***“ festgelegt. Ist kein Screen-Makro angegeben werden diese Funktionen aus kompatibilitätsgründen aus dem Feld-Makro gelesen.
 
-<strong>ACHTUNG:</strong> <em>Wird die Refresh-Funktionalität verwendet, so müssen die Funktionen für „**Ändern Vorlauf**“ und „**Einfügen Vorlauf**“ immer im Screen-Makro enthalten sein.</em>
+<strong>ACHTUNG: </strong><em>Wird die Refresh-Funktionalität verwendet, so müssen die Funktionen für „<strong>Ändern Vorlauf</strong>“ und „<strong>Einfügen Vorlauf</strong>“ immer im Screen-Makro enthalten sein.</em><strong></strong>
 
 <p class="just-emphasize">Hinweis:</p>
 

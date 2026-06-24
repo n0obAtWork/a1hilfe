@@ -97,7 +97,7 @@ Diese Funktionen müssen über den Direktsprung PF (Private Funktionen) manuell 
 
 **ACHTUNG:**
 
-<strong>*F7*</strong> <em>und **F8** dürfen nur dann verwendet werden, wenn man nur seine eigenen Daten pflegt.</em>
+<strong><em>F7</em></strong><em> und <strong>F8</strong> dürfen nur dann verwendet werden, wenn man nur seine eigenen Daten pflegt. </em>
 
 Sobald man auf Systemtabellen von A.eins zugreift (Einbindung als eigenständiger Pfleger mit Verweis auf eine bestehende Ident.), ist LOESCHEN und NEU verboten, da dann auch die Systemtabelle gelöscht werden würde.
 

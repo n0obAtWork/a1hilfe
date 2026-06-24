@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/sachkontenimportieren.htm -->
 
-Hauptmenü > Finanzbuchhaltung > Stammdaten > Sachkonten > Funktion <strong>*Sachkonten importieren*</strong>
+Hauptmenü > Finanzbuchhaltung > Stammdaten > Sachkonten > Funktion <strong><em>Sachkonten importieren</em></strong><em></em>
 
 Direktsprung **[SKS]**
 

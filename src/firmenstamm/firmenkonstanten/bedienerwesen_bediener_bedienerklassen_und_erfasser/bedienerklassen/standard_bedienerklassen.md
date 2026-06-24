@@ -18,16 +18,12 @@ Momentan sind folgende Bedienerklassen technisch notwendig:
 
 </details>
 
- 
-
 <details>
 <summary>Controllerklasse</summary>
 
 Bedienerklassen die Mitglieder der [Controller-Rolle](../../zuordnung_von_funktionen_zu_bedienerklassen_rollen/rollenstamm/index.md#Controllerklasse) sind Controllerklassen.
 
 </details>
-
- 
 
 <details>
 <summary>Sicherheitsklasse</summary>
