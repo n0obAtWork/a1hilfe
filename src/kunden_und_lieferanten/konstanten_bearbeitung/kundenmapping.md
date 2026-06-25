@@ -8,8 +8,38 @@ In der Kommunikation zwischen Datenaustauschpartnern kann es notwendig sein, ein
 
 Diese Daten können zum Beispiel im Vorgangsimport verwendet werden.
 
-| Felder |
-| --- |
-| Fremdkundennummer | Kundennummer, wie sie der gewählte Kunde verwendet |
-| Kundennummer | Kunden/Lieferantennummer, die im lokalen System verwendet wird |
-| Kundenbezeichnung | Bezeichnung für den Kunden |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Felder</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Fremdkundennummer</p>
+        </td>
+        <td>
+          <p>Kundennummer, wie sie der gewählte Kunde verwendet</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kundennummer</p>
+        </td>
+        <td>
+          <p>Kunden/Lieferantennummer, die im lokalen System verwendet wird</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kundenbezeichnung</p>
+        </td>
+        <td>
+          <p>Bezeichnung für den Kunden</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

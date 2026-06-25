@@ -244,31 +244,215 @@ Zusätzlich lassen sich hier auch die [Rohwarepreise](./formulareinrichtung_fuer
 
 <p class="just-emphasize">Im Bepreisungszeitraum-Artikelpreis derzeit verwendbare Daten</p>
 
-| Feld | Kürzel | Typ |
-| --- | --- | --- |
-| Artikelposition im Kontrakt (für SQLK) | KtrArtiPosit | 4 |
-| Artikelnummer | ArtikelNummer | 3 |
-| Artikelbezeichnung | ArtikelBezeich | 3 |
-| Anfang Bepreisungszeitraum | KtrPrZrAbDatum | 5 |
-| Ende Bepreisungszeitraum | KtrPrZrBisDatum | 5 |
-| Textuelle Bezeichnung des Zeitraums (Monatsname) | ZeitraumText | 3 |
-| Kontraktpreis | KtrPreis | 4 |
-| Zugehörige Preiseinheit | KtrPreisEinh | 4 |
-| Kurztext der Preis-Mengeneinheit | ME_KurztextPreis | 3 |
-| Bezeichnung der Preis-Mengeneinheit | ME_BezeichPreis | 3 |
-| Währungs-Kurztext | WaehrKurztext | 3 |
-| | | | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Feld</strong></p>
+        </td>
+        <td>
+          <p><strong>Kürzel</strong></p>
+        </td>
+        <td colspan="2">
+          <p><strong>Typ</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Artikelposition im Kontrakt (für SQLK)</p>
+        </td>
+        <td colspan="2">
+          <p>KtrArtiPosit</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Artikelnummer</p>
+        </td>
+        <td colspan="2">
+          <p>ArtikelNummer</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Artikelbezeichnung</p>
+        </td>
+        <td colspan="2">
+          <p>ArtikelBezeich<u></u></p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Anfang Bepreisungszeitraum</p>
+        </td>
+        <td colspan="2">
+          <p>KtrPrZrAbDatum<u></u></p>
+        </td>
+        <td>
+          <p>5</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Ende Bepreisungszeitraum</p>
+        </td>
+        <td colspan="2">
+          <p>KtrPrZrBisDatum</p>
+        </td>
+        <td>
+          <p>5</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Textuelle Bezeichnung des Zeitraums (Monatsname)</p>
+        </td>
+        <td colspan="2">
+          <p>ZeitraumText</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kontraktpreis<u></u></p>
+        </td>
+        <td colspan="2">
+          <p>KtrPreis</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Zugehörige Preiseinheit<u></u></p>
+        </td>
+        <td colspan="2">
+          <p>KtrPreisEinh</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kurztext der Preis-Mengeneinheit</p>
+        </td>
+        <td colspan="2">
+          <p>ME_KurztextPreis</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bezeichnung der Preis-Mengeneinheit</p>
+        </td>
+        <td colspan="2">
+          <p>ME_BezeichPreis</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Währungs-Kurztext</p>
+        </td>
+        <td colspan="2">
+          <p>WaehrKurztext</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Zusätzlich lassen sich hier auch die [Rohwarepreise](./formulareinrichtung_fuer_den_kontraktdruck.md#formular_rohwarepreise) einrichten.
 
 <p class="just-emphasize">In einer Abnahmekunden-Position derzeit verwendbare Daten</p>
 
-| Feld | Kürzel | Typ |
-| --- | --- | --- |
-| Kundennummer | KundNummer | 4 |
-| Kundenbezeichnung | KundBezeich | 3 |
-| Kundenanschrift | AdressId | 6 |
-| | | | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Feld</strong></p>
+        </td>
+        <td>
+          <p><strong>Kürzel</strong></p>
+        </td>
+        <td colspan="2">
+          <p><strong>Typ</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kundennummer</p>
+        </td>
+        <td colspan="2">
+          <p>KundNummer</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kundenbezeichnung</p>
+        </td>
+        <td colspan="2">
+          <p>KundBezeich</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kundenanschrift</p>
+        </td>
+        <td colspan="2">
+          <p>AdressId<u></u></p>
+        </td>
+        <td>
+          <p>6<u></u></p>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="just-emphasize">In einer Paritätsposition derzeit verwendbare Daten</p>
 
@@ -307,18 +491,94 @@ Zusätzlich lassen sich hier auch die [Rohwarepreise](./formulareinrichtung_fuer
 
 <p class="just-emphasize">In einer Bereichsüberschrift derzeit verwendbare Daten</p>
 
-| Feld | Kürzel | Typ |
-| --- | --- | --- |
-| Überschrift | KtrVariTxUeber | 3 |
-| | | | | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Feld</strong></p>
+        </td>
+        <td colspan="2">
+          <p><strong>Kürzel</strong></p>
+        </td>
+        <td colspan="2">
+          <p><strong>Typ</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Überschrift</p>
+        </td>
+        <td colspan="2">
+          <p>KtrVariTxUeber</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="just-emphasize">In einer Zahlungsbedingung derzeit verwendbare Daten</p>
 
-| Feld | Kürzel | Typ |
-| --- | --- | --- |
-| Zahlungsbedingungsnummer (ggf. des Hauptkunden) | ZahlBedNummer | 4 |
-| Zahlungsbedingungsbezeichnung | ZahlBedBezeich | 3 |
-| | | | | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Feld</strong></p>
+        </td>
+        <td colspan="2">
+          <p><strong>Kürzel</strong></p>
+        </td>
+        <td colspan="2">
+          <p><strong>Typ</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Zahlungsbedingungsnummer (ggf. des Hauptkunden)</p>
+        </td>
+        <td colspan="2">
+          <p>ZahlBedNummer</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Zahlungsbedingungsbezeichnung</p>
+        </td>
+        <td colspan="2">
+          <p>ZahlBedBezeich</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="just-emphasize">In einer Leerzeile derzeit verwendbare Daten</p>
 

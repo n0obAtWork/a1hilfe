@@ -4,26 +4,195 @@
 
 Um einen Report programmgesteuert aufzurufen, existiert ein JPP Objekt mit dem Name <strong>JAnwendReport.</strong> Methoden, ohne die es nicht geht, sind fett geschrieben.
 
-| Methode | Parameter | Bedeutung |
-| --- | --- | --- |
-| **Read** | m_AnwRptId | Die Reportdefinition des Reports mit der über m_AnwRptId angegebenen Ident wird gelesen. Liefert FALSE (0) wenn das Einlesen schiefgegangen ist. Muss als erste Anweisung erfolgen!<br> |
-| **FeldFormat** | | Übergibt die Werte der Formelfelder an den Report.<br> |
-| CreatViews | | Alle definierten Views werden angelegt<br> |
-| SetFileName | Filename | Dateinamen überschreiben. Parameter ist FILENAME. Dieser enthält Pfad und Dateiname des Reports.<br> |
-| SetPrinterByNumber | Printernumber | Holt sich anhand der Druckernummer den Drucker, auf dem der Report gedruckt werden soll<br> |
-| GetSelectedPrinter | Feldname | Liefert den Drucker in das durch Feldname bezeichnete Feld zurück.<br> |
-| SetVon | IDX | Überschreibt den Vonwert des Auswahlbereichs. IDX ist dabei der Index, der in der Spalte Idx des Auswahlbereichs steht.<br> |
-| SetBis | IDX | Überschreibt den Biswert des Auswahlbereichs. IDX ist dabei der Index.<br> |
-| SetWaehrung | Waehrung | Überschreibt die Währung, in der der Report ausgegeben wird. Dies gilt nur für bestimmte dafür vorgesehene Reporte.<br> |
-| SetExportPfad | Exportpfad | Überschreibt das in den Stammdaten hinterlegte [Export-Verzeichnis](./crystal_report_definieren/basisdaten.md).<br> |
-| **ListenStart** | | Startet den Report.<br> |
-| Device | Siehe nächste Tabelle.<br> |
-| NurArchivieren<br> | Der Parameter NurArchivieren ist optional. Gibt man hier eine 1 an, wird der Report nicht gedruckt, sondern sofort ins Archiv gestellt.<br> |
-| ASK | Dieser Parameter gibt an, ob vor dem Druck der Drucker abgefragt werden soll. Gibt man 0 an, so erscheint die Druckerabfrage nicht.<br> |
-| FA_Kundnummer | Kundennummer für das Formulararchiv.<br>**HINWEIS:** *Wird dieser oder einer der folgenden drei Parameter angegeben, so werden die CRW-Archivdefinitionen nicht mehr ausgewertet*<br> |
-| FA_Belegnummer | Belegnummer für das Formulararchiv.<br> |
-| FA_Belegdatum | Belegdatum für das Formulararchiv.<br> |
-| FA_Belegreferenz | Belegreferenz (Paginiernummer in der Fibu) für das Formulararchiv. Wenn leer, wird wie bisher die RRPTID eingetragen.<br> |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Methode</strong></p>
+        </td>
+        <td>
+          <p><strong>Parameter</strong></p>
+        </td>
+        <td>
+          <p><strong>Bedeutung</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>Read</b></p>
+        </td>
+        <td>
+          <p>m_AnwRptId</p>
+        </td>
+        <td>
+          <p>Die Reportdefinition des Reports mit der über m_AnwRptId angegebenen Ident wird gelesen. Liefert FALSE (0) wenn das Einlesen schiefgegangen ist. Muss als erste Anweisung erfolgen!</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>FeldFormat</b></p>
+        </td>
+        <td></td>
+        <td>
+          <p>Übergibt die Werte der Formelfelder an den Report.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>CreatViews</p>
+        </td>
+        <td></td>
+        <td>
+          <p>Alle definierten Views werden angelegt</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>SetFileName</p>
+        </td>
+        <td>
+          <p>Filename</p>
+        </td>
+        <td>
+          <p>Dateinamen überschreiben. Parameter ist FILENAME. Dieser enthält Pfad und Dateiname des Reports.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>SetPrinterByNumber</p>
+        </td>
+        <td>
+          <p>Printernumber</p>
+        </td>
+        <td>
+          <p>Holt sich anhand der Druckernummer den Drucker, auf dem der Report gedruckt werden soll</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>GetSelectedPrinter</p>
+        </td>
+        <td>
+          <p>Feldname</p>
+        </td>
+        <td>
+          <p>Liefert den Drucker in das durch Feldname bezeichnete Feld zurück.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>SetVon</p>
+        </td>
+        <td>
+          <p>IDX</p>
+        </td>
+        <td>
+          <p>Überschreibt den Vonwert des Auswahlbereichs. IDX ist dabei der Index, der in der Spalte Idx des Auswahlbereichs steht.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>SetBis</p>
+        </td>
+        <td>
+          <p>IDX</p>
+        </td>
+        <td>
+          <p>Überschreibt den Biswert des Auswahlbereichs. IDX ist dabei der Index.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>SetWaehrung</p>
+        </td>
+        <td>
+          <p>Waehrung</p>
+        </td>
+        <td>
+          <p>Überschreibt die Währung, in der der Report ausgegeben wird. Dies gilt nur für bestimmte dafür vorgesehene Reporte.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>SetExportPfad</p>
+        </td>
+        <td>
+          <p>Exportpfad</p>
+        </td>
+        <td>
+          <p>Überschreibt das in den Stammdaten hinterlegte <a href="./crystal_report_definieren/basisdaten.md">Export-Verzeichnis</a>.</p>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="8">
+          <p><b>ListenStart</b></p>
+        </td>
+        <td></td>
+        <td>
+          <p>Startet den Report.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Device</p>
+        </td>
+        <td>
+          <p>Siehe nächste Tabelle.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>NurArchivieren</p>
+        </td>
+        <td>
+          <p>Der Parameter NurArchivieren ist optional. Gibt man hier eine 1 an, wird der Report nicht gedruckt, sondern sofort ins Archiv gestellt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>ASK</p>
+        </td>
+        <td>
+          <p>Dieser Parameter gibt an, ob vor dem Druck der Drucker abgefragt werden soll. Gibt man 0 an, so erscheint die Druckerabfrage nicht.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>FA_Kundnummer</p>
+        </td>
+        <td>
+          <p>Kundennummer für das Formulararchiv.</p>
+          <p><b>HINWEIS:</b> <i>Wird dieser oder einer der folgenden drei Parameter angegeben, so werden die CRW-Archivdefinitionen nicht mehr ausgewertet</i><i></i></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>FA_Belegnummer</p>
+        </td>
+        <td>
+          <p>Belegnummer für das Formulararchiv.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>FA_Belegdatum</p>
+        </td>
+        <td>
+          <p>Belegdatum für das Formulararchiv.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>FA_Belegreferenz</p>
+        </td>
+        <td>
+          <p>Belegreferenz (Paginiernummer in der Fibu) für das Formulararchiv. Wenn leer, wird wie bisher die RRPTID eingetragen.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Folgende Ausgabemöglichkeiten (Device) können bei Listenstart angegeben werden:
 

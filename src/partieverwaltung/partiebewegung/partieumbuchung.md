@@ -14,25 +14,113 @@ Zunächst erscheint eine Übersicht der bereits getätigten Artikelumbuchungen. 
 
 Die Abwicklung dieser Artikel- bzw. Partieumbuchung ist ähnlich wie die der Vorgangserfassung.
 
-| Felder |
-| --- |
-| Belegnummer | Vorschlag einer automatisch Systemnummer aus dem Zählkreis |
-| Belegdatum | Vorschlag des Tagesdatums |
-| Periode/Jahr | Zum Belegdatum gehörende Periode/Jahr |
-| Lagernummer | Lager, in dem diese Partieumbuchung erfolgt |
-| Versandart | Hat für die Partieumbuchung keine Bedeutung |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Felder</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Belegnummer</p>
+        </td>
+        <td>
+          <p>Vorschlag einer automatisch Systemnummer aus dem Zählkreis</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Belegdatum</p>
+        </td>
+        <td>
+          <p>Vorschlag des Tagesdatums</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Periode/Jahr</p>
+        </td>
+        <td>
+          <p>Zum Belegdatum gehörende Periode/Jahr</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Lagernummer</p>
+        </td>
+        <td>
+          <p>Lager, in dem diese Partieumbuchung erfolgt</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Versandart</p>
+        </td>
+        <td>
+          <p>Hat für die Partieumbuchung keine Bedeutung</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Über die Funktion ***Positionsteil*** **F5** wird in die Positionsmaske gewechselt. Die Funktion ***Umbuchung*** **F4** erlaubt Ihnen dann die Positionserfassung.
 
 ![](../../ImagesExt/image8_166.jpg)
 
-| Felder |
-| --- |
-| Lagernummer | Vorschlag aus der Umbuchungs-Kopfmaske |
-| Artikelnummer Abg. | Artikelnummer Abgang der Partie |
-| Artikelnummer Zug. | Artikelnummer Zugang der Partie |
-| Menge/Einheit | Partieumbuchungsmenge und Mengeneinheit |
-| Einzelpreis.PE/ME | Einzelpreis je Preiseinheit und Mengeneinheit |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Felder</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Lagernummer</p>
+        </td>
+        <td>
+          <p>Vorschlag aus der Umbuchungs-Kopfmaske</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Artikelnummer Abg.</p>
+        </td>
+        <td>
+          <p>Artikelnummer Abgang der Partie</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Artikelnummer Zug.</p>
+        </td>
+        <td>
+          <p>Artikelnummer Zugang der Partie</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Menge/Einheit</p>
+        </td>
+        <td>
+          <p>Partieumbuchungsmenge und Mengeneinheit</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Einzelpreis.PE/ME</p>
+        </td>
+        <td>
+          <p>Einzelpreis je Preiseinheit und Mengeneinheit</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ![](../../ImagesExt/image8_167.jpg)
 

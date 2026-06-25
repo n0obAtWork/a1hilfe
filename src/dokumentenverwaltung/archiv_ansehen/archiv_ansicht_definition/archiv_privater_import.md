@@ -78,7 +78,7 @@ Anmerkung:
 
 *Über LAN agierende Klienten sollten so problemlos versorgt werden können. Bei WAN, Router-Verbindungen, und ähnlichem lassen Sie sich durch ihr federführendes Systemhaus beraten, wie Sie in Ihrem speziellen Fall den Transport der Dokumente bewerkstelligen können. Möglicherweise bietet Ihr Citrix-System eingebaute Methoden, um zum Beispiel auch mit sogenannten „Thin-Clients“ die Transport-Aufgabe zu bewerkstelligen. Aber das hängt immer sehr von der speziellen Ausstattung vor Ort und muss DORT von Spezialisten beantwortet werden.*
 
-Über den „Profilfilter“ lassen sich reguläre Muster angeben um die in Frage kommenden Dokument-Typen zu selektieren. Im Standard-Fall (keine Angabe) wird folgendes Muster verwendet: ((pdf)|(jpg)|(tif)|(doc.\*))$
+Über den „Profilfilter“ lassen sich reguläre Muster angeben um die in Frage kommenden Dokument-Typen zu selektieren. Im Standard-Fall (keine Angabe) wird folgendes Muster verwendet: ((pdf)&#124;(jpg)&#124;(tif)&#124;(doc.\*))$
 
 Was im Grunde nichts anderes bedeutet dass standardmäßig pdf, jpg, tif und Word-Dokument und deren Erweiterungen herangezogen werden.
 

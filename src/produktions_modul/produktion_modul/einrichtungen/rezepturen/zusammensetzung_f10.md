@@ -2,22 +2,128 @@
 
 <!-- source: https://amic.de/hilfe/_zusammensetzungf10.htm -->
 
-| Felder |
-| --- |
-| Rezepturgruppe | Rezepturgruppe zu der die Rezeptur gehören soll |
-| Rezepturnummer | Nummer der Rezeptur für die die Zusammensetzung angezeigt wird. |
-| Mengenanteil Hauptprodukt | Nur sichtbar und eingebbar bei NzuM-Produktion |
-| Wertanteil Hauptprodukt | Nur sichtbar und eingebbar bei NzuM-Produktion |
-| <br>**Tabellenfelder** | <br>Nur für NzuM-Produktion und Vermahlung sichtbar |
-| Abgang/Zugang | Über die F3-Auswahl kann zwischen Zugang und Abgang für die einzelne Komponente gewählt werden. |
-| Anteil Abgang | In diesem Feld ist der Anteil für den Abgang einzugeben, wenn beim Feld ‚Abgang/Zugang‘ Abgang gewählt wurde. |
-| Anteil Zugang | In diesem Feld ist der Anteil für den Zugang einzugeben, wenn beim Feld ‚Abgang/Zugang‘ Zugang gewählt wurde. |
-| Wertanteil Zugang | Nicht sichtbar für Vermahlung |
-| <br>**Summen** | <br>Nur für NzuM-Produktion und Vermahlung sichtbar |
-| Anteile Abgang | Anzeigefeld |
-| Anteile Zugang | Anzeigefeld |
-| Wertanteile Zugang | Anzeigefeld, nur bei NzuM-Produktion sichtbar |
-| | | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="3">
+          <p><strong>Felder</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Rezepturgruppe</p>
+        </td>
+        <td>
+          <p>Rezepturgruppe zu der die Rezeptur gehören soll</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Rezepturnummer</p>
+        </td>
+        <td>
+          <p>Nummer der Rezeptur für die die Zusammensetzung angezeigt wird.</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Mengenanteil Hauptprodukt</p>
+        </td>
+        <td>
+          <p>Nur sichtbar und eingebbar bei NzuM-Produktion</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Wertanteil Hauptprodukt</p>
+        </td>
+        <td>
+          <p>Nur sichtbar und eingebbar bei NzuM-Produktion</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>Tabellenfelder</b></p>
+        </td>
+        <td colspan="2">
+          <p>Nur für NzuM-Produktion und Vermahlung sichtbar</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Abgang/Zugang</p>
+        </td>
+        <td>
+          <p>Über die F3-Auswahl kann zwischen Zugang und Abgang für die einzelne Komponente gewählt werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Anteil Abgang</p>
+        </td>
+        <td>
+          <p>In diesem Feld ist der Anteil für den Abgang einzugeben, wenn beim Feld ‚Abgang/Zugang‘ Abgang gewählt wurde.</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Anteil Zugang</p>
+        </td>
+        <td>
+          <p>In diesem Feld ist der Anteil für den Zugang einzugeben, wenn beim Feld ‚Abgang/Zugang‘ Zugang gewählt wurde.</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Wertanteil Zugang</p>
+        </td>
+        <td>
+          <p>Nicht sichtbar für Vermahlung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>Summen</b></p>
+        </td>
+        <td colspan="2">
+          <p>Nur für NzuM-Produktion und Vermahlung sichtbar</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Anteile Abgang</p>
+        </td>
+        <td>
+          <p>Anzeigefeld</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Anteile Zugang</p>
+        </td>
+        <td>
+          <p>Anzeigefeld</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Wertanteile Zugang</p>
+        </td>
+        <td>
+          <p>Anzeigefeld, nur bei NzuM-Produktion sichtbar</p>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Die Zusammensetzung einer Rezeptur kann sowohl aus Artikel als auch aus weiteren Rezepten bestehen. In der Tabelle erkennt man Rezepte daran, dass in der Spalte „Artikel-Rezeptnr“ die Rezeptgruppe und -variante steht, außerdem ist das Feld in diesem Fall farblich hervorgehoben.
 

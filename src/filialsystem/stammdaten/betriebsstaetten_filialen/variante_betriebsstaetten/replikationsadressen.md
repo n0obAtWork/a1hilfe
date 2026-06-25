@@ -10,9 +10,9 @@
 | Sprache | Auswahl der Sprache für diese Betriebsstätte |
 | Untergeordnete Betriebsstätten | Übersicht der in der Hierarchie untergeordneten Betriebsstätten. Wird automatisch gesetzt. |
 | Erfassung für fremde Filiale | |
-| Grundmuster für die Datenabgabe an untergeordnete Betriebsstätten ( nur Ersteinrichtung ) | Zeigt die Publikationen und in welcher Form die Datenabgabe an die untergeordneten Betriebsstätten erfolgt.<br><ul><li>-&nbsp;&nbsp;&nbsp;&nbsp; Benutzerdefiniert</li><li>-&nbsp;&nbsp;&nbsp;&nbsp; Komplett</li><li>-&nbsp;&nbsp;&nbsp;&nbsp; Vorgänge je Filiale</li></ul> |
+| Grundmuster für die Datenabgabe an untergeordnete Betriebsstätten ( nur Ersteinrichtung ) | Zeigt die Publikationen und in welcher Form die Datenabgabe an die untergeordneten Betriebsstätten erfolgt.<br><ul><li>Benutzerdefiniert</li><li>Komplett</li><li>Vorgänge je Filiale</li></ul> |
 | Adressen für einkommende Meldungen | MAPI: (wird technisch nicht mehr unterstützt)<br>FILE: Verzeichnis für einkommende Meldungen des Nachrichtensystems |
-| Interne Identifikatoren | Untergrenze: Untergrenze für Idents innerhalb der Betriebsstätte<br>Obergrenze: Obergrenze für Idents innerhalb der Betriebsstätte<br>*Beispiel:*<br><ul><li>-&nbsp;&nbsp;&nbsp;&nbsp; <i>Zentrale: 0 – 999999</i></li><li>-&nbsp;&nbsp;&nbsp;&nbsp; <i>Filiale 1: 1000000 – 1999999</i></li><li>-&nbsp;&nbsp;&nbsp;&nbsp; <i>Usw.</i></li></ul> |
+| Interne Identifikatoren | Untergrenze: Untergrenze für Idents innerhalb der Betriebsstätte<br>Obergrenze: Obergrenze für Idents innerhalb der Betriebsstätte<br>*Beispiel:*<br><ul><li><i>Zentrale: 0 – 999999</i></li><li><i>Filiale 1: 1000000 – 1999999</i></li><li><i>Usw.</i></li></ul> |
 
 | **Funktionen** | |
 | --- | --- |

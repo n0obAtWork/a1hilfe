@@ -15,7 +15,7 @@ Direktsprung **[JAHRW]**
 | BK/Belegnummer | Hier wird der Nummernkreis vorgeschlagen wie er unter „[Fibu-Vorgangszuordnung](./stammdaten_jahreswechsel.md)“ (Direktsprung NKF) hinterlegt ist.<br> |
 | Eröffnungsbilanzkonto | Kontonummer des zu verwendenden Kontos für die Eröffnungsbuchung. Wird aus dem [Mandantenstamm](./stammdaten_jahreswechsel.md) vorbelegt.<br> |
 | Schlussbilanzkonto | Kontonummer des zu verwendenden Kontos für die Abschlussbuchung. Wird aus dem [Mandantenstamm](./stammdaten_jahreswechsel.md) vorbelegt.<br> |
-| Kontenbereich | Hier kann man den Bereich angeben, für den der Jahreswechsel durchgeführt werden soll. Folgende Bereiche sind möglich:<br>• Bilanzkonten<br>• Debitoren<br>• Kreditoren<br>• Kontokorrent<br>• Personen- und Bilanzkonten<br> |
+| Kontenbereich | Hier kann man den Bereich angeben, für den der Jahreswechsel durchgeführt werden soll. Folgende Bereiche sind möglich:<br><ul><li>&nbsp;&nbsp;&nbsp; Bilanzkonten</li><li>&nbsp;&nbsp;&nbsp; Debitoren</li><li>&nbsp;&nbsp;&nbsp; Kreditoren</li><li>&nbsp;&nbsp;&nbsp; Kontokorrent</li><li>&nbsp;&nbsp;&nbsp; Personen- und Bilanzkonten<br>&nbsp;</li></ul> |
 
 Hat man alle Angaben gemacht, kann man mit **F9** den Jahreswechsel starten. Es werden vor dem Start noch Test vom Programm vorgenommen, damit nicht versehentlich Fehler beim Jahreswechsel auftreten:
 

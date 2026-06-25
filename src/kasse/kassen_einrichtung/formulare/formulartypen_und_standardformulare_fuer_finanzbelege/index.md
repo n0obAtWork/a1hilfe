@@ -22,17 +22,121 @@ Die Umstellung des Drucks von Finanzbelegen in der Kasse beinhaltet nun den Wegf
 
 Die neuen Basisformulare sind auf einen höheren Leistungsumfang ausgelegt, als man dieses von den bisherigen 50er Formularen kennt. Dafür war es erforderlich, neue Formulartypen zu schaffen, die mit dem Formulartyp 201 nicht mehr kompatibel sind. Der Anwender besitzt nun die Wahlfreiheit, welchen Formulartyp er verwenden möchte. Das zu verwendende Formular wird in den Kasseneinstellungen hinterlegt. Die standardmäßige Einstellung bei der A.eins Umstellung ist „wie bisher“, aus Sicht des Anwenders verändern sich nur die internen Abläufe.
 
-| Die Basisformulare und ihre Formulartypen |
-| --- |
-| variabel | Lastschriftbestätigung | 10 EC Lastschrift | Wie bisher |
-| \-50 | Scheck | 49 Scheckdruck | |
-| \-51 | Ein-/Auszahlung, Entnahme | 51 Kassenformular | |
-| \-52 | Einreichung | 51 Kassenformular | |
-| \-53 | Sortenwechsel | 51 Kassenformular | |
-| \-54 | Zahlungsmeldungen (mehrfach) | 51 Kassenformular | |
-| \-56 | Zählbericht | 50 Kassensturz-Formular | |
-| \-57 | Geldübernahme / -übergabe | 51 Kassenformular | |
-| | | | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="4">
+          <p><strong>Die Basisformulare und ihre Formulartypen</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>variabel</p>
+        </td>
+        <td>
+          <p>Lastschriftbestätigung</p>
+        </td>
+        <td>
+          <p>10 EC Lastschrift</p>
+        </td>
+        <td>
+          <p>Wie bisher</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>-50</p>
+        </td>
+        <td>
+          <p>Scheck</p>
+        </td>
+        <td>
+          <p>49 Scheckdruck</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>-51</p>
+        </td>
+        <td>
+          <p>Ein-/Auszahlung, Entnahme</p>
+        </td>
+        <td>
+          <p>51 Kassenformular</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>-52</p>
+        </td>
+        <td>
+          <p>Einreichung</p>
+        </td>
+        <td>
+          <p>51 Kassenformular</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>-53</p>
+        </td>
+        <td>
+          <p>Sortenwechsel</p>
+        </td>
+        <td>
+          <p>51 Kassenformular</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>-54</p>
+        </td>
+        <td>
+          <p>Zahlungsmeldungen (mehrfach)</p>
+        </td>
+        <td>
+          <p>51 Kassenformular</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>-56</p>
+        </td>
+        <td>
+          <p>Zählbericht</p>
+        </td>
+        <td>
+          <p>50 Kassensturz-Formular</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>-57</p>
+        </td>
+        <td>
+          <p>Geldübernahme / -übergabe</p>
+        </td>
+        <td>
+          <p>51 Kassenformular</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Im Formularwesen für Vorgänge benutzte kassenspezifische Druckpositionen:
 

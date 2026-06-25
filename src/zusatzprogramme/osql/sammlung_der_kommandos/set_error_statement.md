@@ -4,13 +4,13 @@
 
 <p class="just-emphasize">Syntax</p>
 
-SET ERROR | CONTINUE |
+SET ERROR &#124; CONTINUE &#124;
 
- | NOCONTINUE|
+ &#124; NOCONTINUE&#124;
 
- | DISPLAY |
+ &#124; DISPLAY &#124;
 
- | NODISPLAY |
+ &#124; NODISPLAY &#124;
 
 <p class="just-emphasize">Purpose</p>
 

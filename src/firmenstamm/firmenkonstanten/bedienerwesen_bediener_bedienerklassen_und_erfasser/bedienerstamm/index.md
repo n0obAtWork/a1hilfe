@@ -40,7 +40,7 @@ In dieser Variante können Sie A.eins-Bediener definieren.
 
 | Suchen | Beschreibung |
 | --- | --- |
-| Status | nach Kennzeichen für logische Löschung<br><ul><li>-&nbsp;&nbsp;&nbsp;&nbsp; Aktiv</li><li>-&nbsp;&nbsp;&nbsp;&nbsp; Inaktiv</li><li>-&nbsp;&nbsp;&nbsp;&nbsp; Gelöscht</li><li>-&nbsp;&nbsp;&nbsp;&nbsp; Neu</li></ul> |
+| Status | nach Kennzeichen für logische Löschung<br><ul><li>Aktiv</li><li>Inaktiv</li><li>Gelöscht</li><li>Neu</li></ul> |
 | Bedienerklasse | von … bis … |
 | Kurzname | % |
 | Bediener-Id | von … bis … |

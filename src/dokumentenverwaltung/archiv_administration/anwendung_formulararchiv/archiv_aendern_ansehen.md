@@ -126,7 +126,7 @@ Sie folgt den durch die [Sybase-Volltextreche-Regeln](http://dcx.sybase.com/inde
 | Einige ausgewählte Beispiele | |
 | --- | --- |
 | Beispiel | Sucht nach „Beispiel“ |
-| Beispiel1 | Beispiel2 | Sucht nach „Beispiel1“ oder „Bespiel2“ |
+| Beispiel1 &#124; Beispiel2 | Sucht nach „Beispiel1“ oder „Bespiel2“ |
 | Beispiel1 –Beispiel2 | Sucht nach Zeilen die den „Bespiel1“ enthalten, aber nicht „Beispiel2“ |
 | Bei\* | Sucht nach allen Begriffen die mit Bei beginnen |
 

@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/einstellungeinesstatementsindi.htm -->
 
-Grundsätzlich muss man hier unterscheiden, ob es sich um strukturverändernde Befehle ( alter | create | drop) oder um datenverändernde Statements handelt. Strukturverändernde Befehle müssen immer auf allen Datenbanken der Replikation ausgeführt werden. Dafür existieren zwei Möglichkeiten dies der Replikation mitzuteilen:
+Grundsätzlich muss man hier unterscheiden, ob es sich um strukturverändernde Befehle ( alter &#124; create &#124; drop) oder um datenverändernde Statements handelt. Strukturverändernde Befehle müssen immer auf allen Datenbanken der Replikation ausgeführt werden. Dafür existieren zwei Möglichkeiten dies der Replikation mitzuteilen:
 
 1) Wenn der Steuerungsparameter 851 „Passthrough aktivieren“ auf **Ja** steht wird mit der Datenbankfunktionalität [Passthrough](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.help.sqlanywhere.12.0.1/dbreference/passthrough-statement.html) der Befehl automatisch von A.eins weitergereicht.  
     

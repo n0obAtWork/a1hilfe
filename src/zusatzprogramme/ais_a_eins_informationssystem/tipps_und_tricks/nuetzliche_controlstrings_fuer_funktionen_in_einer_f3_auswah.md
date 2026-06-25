@@ -6,7 +6,7 @@ Zu jeder F3-Auswahl kann eine eigene Optionbox mit angegeben sein oder eine priv
 
 | Funktion | Controlstring |
 | --- | --- |
-| Aufruf einer AIS-Maske mit Übergabe einer Ident. | ^jpl ais_itemcall RETURNWERT AUFRUFART AISGRUPPE<br> <br>Wobei:<br>• RETURNWERT: Dies ist der Name des Datenbankfeldes, aus dem die an AIS übergebene Ident versorgt wird. Dieses Feld muss in der F3-Auswahl enthalten sein.<br>• AUFRUFART: 5 für Ändern, 6 für Ansehen.<br>• AISGRUPPE: Name der Gruppe<br> |
+| Aufruf einer AIS-Maske mit Übergabe einer Ident. | ^jpl ais_itemcall RETURNWERT AUFRUFART AISGRUPPE<br> <br>Wobei:<br><ul><li>&nbsp;&nbsp;&nbsp; RETURNWERT: Dies ist der Name des Datenbankfeldes, aus dem die an AIS übergebene Ident versorgt wird. Dieses Feld muss in der F3-Auswahl enthalten sein.</li><li>&nbsp;&nbsp;&nbsp; AUFRUFART: 5 für Ändern, 6 für Ansehen.</li><li>&nbsp;&nbsp;&nbsp; AISGRUPPE: Name der Gruppe<br>&nbsp;</li></ul> |
 | Aufruf eine Makros mit Übergabe einer Ident | ^jpl ais_itemmakrocall MAKRO RETURNWERT PARAMETER1 PARAMETER2<br> <br>Mit Hilfe des RETURNWERTS wird die an AIS zu übergebende Ident aus der F3.-Auswahl bestimmt. Dann wird das Makro mit folgenden Parametern aufgerufen:<br> <br>call makro( ":MAKRO" , ":Ident aus RETURNWERT" , ":PARAMETER1", ":PARAMETER2")<br> |
 
 Wenn man aus einer F3-Auswahl(Itembox) heraus eine AIS-Maske aufrufen will und dort gleich auf Werte der aktiven Zeile zugreifen will

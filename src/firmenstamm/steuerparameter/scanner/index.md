@@ -53,7 +53,7 @@
 - [Zuordnung eines Identass Scanner zur Inventurgruppe(SPA 809)](./zuordnung_eines_identass_scanner_zur_inventurgruppe_spa_809.md)
 - [Speichern der erfassten Daten mit dem Identass Scanner(SPA 810)](./speichern_der_erfassten_daten_mit_dem_identass_scanner_spa_8.md)
 - [Fehlersound für keine Datenbankverbindung(SPA 831)](./fehlersound_fuer_keine_datenbankverbindung_spa_831.md)
-- [Logdatei im Scanner schreiben(SPA 835)|](./logdatei_im_scanner_schreiben_spa_835.md)
+- [Logdatei im Scanner schreiben(SPA 835)&#124;](./logdatei_im_scanner_schreiben_spa_835.md)
 - [HTML Anzeige beim Scanner(SPA 842)](./html_anzeige_beim_scanner_spa_842.md)
 - [Auto Refresh im Scanner einstellen (SPA 1006)](./auto_refresh_im_scanner_einstellen_spa_1006.md)
 - [WLAN Prüfung für Scanner deaktivieren (SPA 879)](./wlan_pruefung_fuer_scanner_deaktivieren_spa_879.md)

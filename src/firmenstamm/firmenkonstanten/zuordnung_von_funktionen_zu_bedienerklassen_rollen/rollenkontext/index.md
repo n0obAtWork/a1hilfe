@@ -17,41 +17,259 @@ Einführende Erläuterungen finden sich unter [Zugriffsrechte Funktionen](../../
 <details>
 <summary>Felder des Rollenkontext</summary>
 
-| Felder |
-| --- |
-| Rolle | Zuordnung des Rollenkontextes zur [Rolle](../rollenstamm/index.md). |
-| Funktion | Ein Rollenkontext besteht aus einer Funktion (Identifikation einer Anwendungsfunktion) und dem Auftreten der Funktion in der Benutzeroberfläche (Kontext).<br>Da Funktionen in A.eins auch immer eine Nicht-Benutzeroberflächen-artige Bindung haben, muss dieser Fall mit berücksichtigt werden. Das wird in diesem Falle dann über einen **leeren Kontext** signalisiert. |
-| Kontext | Ein Rollenkontext besteht aus einer Funktion (Identifikation einer Anwendungsfunktion) und dem Auftreten der Funktion in der Benutzeroberfläche (Kontext).<br>Da Funktionen in A.eins auch immer eine Nicht-Benutzeroberflächen-artige Bindung haben, muss dieser Fall mit berücksichtigt werden. Das wird in diesem Falle dann über einen **leeren Kontext** signalisiert. |
-| Beschriftung | Die textuelle Repräsentation einer Funktion in der Benutzeroberfläche. |
-| Funktionsart | Funktionen senden Botschaften an das A.eins-System. Die Botschaften lassen sich in den Funktionsarten nach ihrem Wesen klassifizieren.<br>Siehe Funktionsarten. |
-| Direktsprung | Ausgewählte Funktionen sind per Direktsprung erreichbar. Es kann mehrere Direktsprünge für die gleiche Funktion geben, diese werden hier angelistet. |
-| Bezeichnung | Eine kurze Erläuterung zu der Funktion durch den Entwickler. Es handelt sich meist um die Beschriftung, es kann aber hilfreiche Abweichungen geben, um besser eine Funktion „einschätzen“ zu helfen. |
-| Anmerkung | Anmerkung, siehe auch Bezeichnung. |
-| Steupa | Steuerparameter |
-| Pulldown | Gibt den technischen Bezug zum verwendeten Pulldown-Menü an. |
-| Controlstring | Die Botschaft die die Funktion beim Ausführen an das A.eins-System versendet.<br>Controlstrings werden mit den Funktionsart klassifiziert, so dass man leichter erkennen kann um welchen Typus Funktion es sich handeln könnte. So gibt es Funktionen die „nur etwas zur Ansicht“ bereitstellen, aber auch Funktionen die Datenbestände löschen bzw. verändern. |
-| Besitzer | AMIC/Privat<br>Funktionen werden größtenteils von AMIC bereitgestellt. Aber auch A.eins-Anwender können private Funktionen bereitstellen.<br>Siehe in dem Zusammenhang auch [Controllerklasse](../rollenstamm/index.md#Controllerklasse). |
-| Reservierung | Otto Normalbenutzer/Entwicklung<br>Eine mit „Otto Normalbenutzer“ ausgewiesene Funktion ist von AMIC freigegeben. |
-| Wann zuerst | Wird eine Funktion ins System eingeführt (Privat oder Update), dann wird hier der Zeitpunkt vermerkt wann das geschehen ist. |
-| Toolbar | Gibt an ob sich um einen Toolbar-Kontext handelt oder nicht. |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Felder</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Rolle</p>
+        </td>
+        <td>
+          <p>Zuordnung des Rollenkontextes zur <a href="../rollenstamm/index.md">Rolle</a>.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Funktion</p>
+        </td>
+        <td>
+          <p>Ein Rollenkontext besteht aus einer Funktion (Identifikation einer Anwendungsfunktion) und dem Auftreten der Funktion in der Benutzeroberfläche (Kontext).</p>
+          <p>Da Funktionen in A.eins auch immer eine Nicht-Benutzeroberflächen-artige Bindung haben, muss dieser Fall mit berücksichtigt werden. Das wird in diesem Falle dann über einen <b>leeren Kontext</b> signalisiert.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kontext</p>
+        </td>
+        <td>
+          <p>Ein Rollenkontext besteht aus einer Funktion (Identifikation einer Anwendungsfunktion) und dem Auftreten der Funktion in der Benutzeroberfläche (Kontext).</p>
+          <p>Da Funktionen in A.eins auch immer eine Nicht-Benutzeroberflächen-artige Bindung haben, muss dieser Fall mit berücksichtigt werden. Das wird in diesem Falle dann über einen <b>leeren Kontext</b> signalisiert.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Beschriftung</p>
+        </td>
+        <td>
+          <p>Die textuelle Repräsentation einer Funktion in der Benutzeroberfläche.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Funktionsart</p>
+        </td>
+        <td>
+          <p>Funktionen senden Botschaften an das A.eins-System. Die Botschaften lassen sich in den Funktionsarten nach ihrem Wesen klassifizieren.</p>
+          <p>Siehe Funktionsarten.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Direktsprung</p>
+        </td>
+        <td>
+          <p>Ausgewählte Funktionen sind per Direktsprung erreichbar. Es kann mehrere Direktsprünge für die gleiche Funktion geben, diese werden hier angelistet.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bezeichnung</p>
+        </td>
+        <td>
+          <p>Eine kurze Erläuterung zu der Funktion durch den Entwickler. Es handelt sich meist um die Beschriftung, es kann aber hilfreiche Abweichungen geben, um besser eine Funktion „einschätzen“ zu helfen.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Anmerkung</p>
+        </td>
+        <td>
+          <p>Anmerkung, siehe auch Bezeichnung.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Steupa</p>
+        </td>
+        <td>
+          <p>Steuerparameter</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Pulldown</p>
+        </td>
+        <td>
+          <p>Gibt den technischen Bezug zum verwendeten Pulldown-Menü an.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Controlstring</p>
+        </td>
+        <td>
+          <p>Die Botschaft die die Funktion beim Ausführen an das A.eins-System versendet.</p>
+          <p>Controlstrings werden mit den Funktionsart klassifiziert, so dass man leichter erkennen kann um welchen Typus Funktion es sich handeln könnte. So gibt es Funktionen die „nur etwas zur Ansicht“ bereitstellen, aber auch Funktionen die Datenbestände löschen bzw. verändern.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Besitzer</p>
+        </td>
+        <td>
+          <p>AMIC/Privat</p>
+          <p>Funktionen werden größtenteils von AMIC bereitgestellt. Aber auch A.eins-Anwender können private Funktionen bereitstellen.</p>
+          <p>Siehe in dem Zusammenhang auch <a href="../rollenstamm/index.md#Controllerklasse">Controllerklasse</a>.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Reservierung</p>
+        </td>
+        <td>
+          <p>Otto Normalbenutzer/Entwicklung</p>
+          <p>Eine mit „Otto Normalbenutzer“ ausgewiesene Funktion ist von AMIC freigegeben.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Wann zuerst</p>
+        </td>
+        <td>
+          <p>Wird eine Funktion ins System eingeführt (Privat oder Update), dann wird hier der Zeitpunkt vermerkt wann das geschehen ist.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Toolbar</p>
+        </td>
+        <td>
+          <p>Gibt an ob sich um einen Toolbar-Kontext handelt oder nicht.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 </details>
 
 <details>
 <summary>Suchmöglichkeiten des Rollenkontext</summary>
 
-| Suchkriterien |
-| --- |
-| Suchen | Like<br>Sucht in den Feldern<br>• Rolle<br>• Funktion<br>• Kontext<br>• Beschriftung<br>• Direktsprung<br>• Bezeichnung<br>• Pulldown<br>• Controlstring |
-| Anzahl Datensätze | Anzahl, Standard 500<br>Zur Sicherheit aus Performance-Gründen. Die Auswahlliste tätigt umfangreiche Kalkulationen. Da man mit ZUGF in aller Regel als nächstes was suchen wird, ist hier die Zeit des Ersteinstiegs regelbar. |
-| Direktsprung? | JA/NEIN<br>Unterstützt noch besser das gezielte Suchen nach Direktsprüngen.<br>Des Weiteren sind somit Listen mit Klassifizierungen von Direktsprüngen möglich. |
-| Funktionsart | Funktionsart<br>Siehe [Funktionsarten](./funktionsarten.md). |
-| Besitzer | AMIC/privat |
-| Reservierung | Otto Normalbenutzer/Entwicklung |
-| Pulldown? | JA/NEIN<br>Unterstützt noch besser das gezielte Suchen nach „Pulldown“-Menüs.<br>Des Weiteren sind somit Listen mit Klassifizierungen „Pulldown“-Menüs möglich. |
-| Rolle enthält Bedienerklasse | von..bis (1) |
-| Rolle enthält nicht Bedienerklasse | von..bis (2) |
-| Toolbar? | JA/NEIN/EGAL<br>Unterstützt das Auffinden von Toolbar-Funktionen. |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Suchkriterien</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Suchen</p>
+        </td>
+        <td>
+          <p>Like</p>
+          <p>Sucht in den Feldern</p>
+          <ul>
+            <li>Rolle</li>
+            <li>Funktion</li>
+            <li>Kontext</li>
+            <li>Beschriftung</li>
+            <li>Direktsprung</li>
+            <li>Bezeichnung</li>
+            <li>Pulldown</li>
+            <li>Controlstring</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Anzahl Datensätze</p>
+        </td>
+        <td>
+          <p>Anzahl, Standard 500</p>
+          <p>Zur Sicherheit aus Performance-Gründen. Die Auswahlliste tätigt umfangreiche Kalkulationen. Da man mit ZUGF in aller Regel als nächstes was suchen wird, ist hier die Zeit des Ersteinstiegs regelbar.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Direktsprung?</p>
+        </td>
+        <td>
+          <p>JA/NEIN</p>
+          <p>Unterstützt noch besser das gezielte Suchen nach Direktsprüngen.</p>
+          <p>Des Weiteren sind somit Listen mit Klassifizierungen von Direktsprüngen möglich.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Funktionsart</p>
+        </td>
+        <td>
+          <p>Funktionsart</p>
+          <p>Siehe <a href="./funktionsarten.md">Funktionsarten</a>.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Besitzer</p>
+        </td>
+        <td>
+          <p>AMIC/privat</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Reservierung</p>
+        </td>
+        <td>
+          <p>Otto Normalbenutzer/Entwicklung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Pulldown?</p>
+        </td>
+        <td>
+          <p>JA/NEIN</p>
+          <p>Unterstützt noch besser das gezielte Suchen nach „Pulldown“-Menüs.</p>
+          <p>Des Weiteren sind somit Listen mit Klassifizierungen „Pulldown“-Menüs möglich.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Rolle enthält Bedienerklasse</p>
+        </td>
+        <td>
+          <p>von..bis (1)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Rolle enthält nicht Bedienerklasse</p>
+        </td>
+        <td>
+          <p>von..bis (2)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Toolbar?</p>
+        </td>
+        <td>
+          <p>JA/NEIN/EGAL</p>
+          <p>Unterstützt das Auffinden von Toolbar-Funktionen.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Zu (1): Das bedeutet im Falle das ein Kontext aufgelistet wird nicht zwangsläufig das die Funktion in der Funktionsgruppe auch tatsächlich der Bedienerklasse zugänglich ist. Es könnte nämlich sein, das eine vorherige Funktion die tatsächliche Erreichbarkeit im Programm rollentechnisch ablehnt.
 
@@ -62,15 +280,78 @@ Zu (2): Die so gelisteten Funktionen sind im jeweils zugehörigen Kontext garant
 <details>
 <summary>Funktionen des Rollenkontext</summary>
 
-| Funktionen |
-| --- |
-| Kontext … **(F10)** | Entwickler-Funktion<br>Aufruf des Kontext-Pflegers.<br>Natürlich nur möglich für Rollenkontexte die auch einen Kontext haben … |
-| Kontext **(shift + F11)** | Aufruf der Verbindungsübersicht des gewählten Kontextes |
-| Private Sortierung/Tasten | Aufruf des Pflegers der die „private Sortierung“ und die „privaten Tastenzuordnung“ innerhalb eines Kontextes betreut.<br>Natürlich nur möglich für Rollenkontexte die auch einen Kontext haben … |
-| Funktion Information **(F9)** | Aufruf eines [Informationsdialoges zur Funktion](./rollenkontext_pfleger.md). |
-| Funktion ansehen/bearbeiten **(F11)** | Aufruf des Anwendfunktions-Pflegers. |
-| Ändern **(F5)** | Ändern der Rollenzuordnung des Kontextes.<br>Für Details siehe [Rollenklassenpfleger](../rollenklasse/rollenklassen_pfleger.md). |
-| Ansehen **(F6)** | Ansehen der Rollenzuordnung des Kontextes.<br>Für Details siehe [Rollenklassenpfleger](../rollenklasse/rollenklassen_pfleger.md). |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Funktionen</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kontext … <strong>(F10)</strong></p>
+        </td>
+        <td>
+          <p>Entwickler-Funktion</p>
+          <p>Aufruf des Kontext-Pflegers.</p>
+          <p>Natürlich nur möglich für Rollenkontexte die auch einen Kontext haben …</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kontext <strong>(shift + F11)</strong></p>
+        </td>
+        <td>
+          <p>Aufruf der Verbindungsübersicht des gewählten Kontextes</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Private Sortierung/Tasten</p>
+        </td>
+        <td>
+          <p>Aufruf des Pflegers der die „private Sortierung“ und die „privaten Tastenzuordnung“ innerhalb eines Kontextes betreut.</p>
+          <p>Natürlich nur möglich für Rollenkontexte die auch einen Kontext haben …</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Funktion Information <strong>(F9)</strong></p>
+        </td>
+        <td>
+          <p>Aufruf eines <a href="./rollenkontext_pfleger.md">Informationsdialoges zur Funktion</a>.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Funktion ansehen/bearbeiten <strong>(F11)</strong></p>
+        </td>
+        <td>
+          <p>Aufruf des Anwendfunktions-Pflegers.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Ändern <strong>(F5)</strong></p>
+        </td>
+        <td>
+          <p>Ändern der Rollenzuordnung des Kontextes.</p>
+          <p>Für Details siehe <a href="../rollenklasse/rollenklassen_pfleger.md">Rollenklassenpfleger</a>.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Ansehen <strong>(F6)</strong></p>
+        </td>
+        <td>
+          <p>Ansehen der Rollenzuordnung des Kontextes.</p>
+          <p>Für Details siehe <a href="../rollenklasse/rollenklassen_pfleger.md">Rollenklassenpfleger</a>.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 </details>
 

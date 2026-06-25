@@ -26,15 +26,69 @@ Kopfinformationen eines Produktionsauftrages werden im PO-Header eingetragen.
 
 Einige der Informationen lassen sich in das PO-Format einfügen, andere werden in den UDX-Header übernommen.
 
-| Kopfinformationen im UDX-Header |
-| --- |
-| Bestellnummer KWS | UDX_HEADER/UDX.PROD_ORDER_NO |
-| Positionsnummer KWS | UDX_HEADER/UDX.PROD_ORDER_POS |
-| Status | UDX_HEADER/UDX.STATE |
-| Vorgangstexte | UDX_HEADER/UDX.TEXT |
-| Liste der Vorgangstexte | UDX_HEADER/UDX.TEXT/UDX.TEXT Sequence=(1….n) |
-| Produktionsart | UDX_OPERATION |
-| | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Kopfinformationen im UDX-Header</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bestellnummer KWS</p>
+        </td>
+        <td>
+          <p>UDX_HEADER/UDX.PROD_ORDER_NO</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Positionsnummer KWS</p>
+        </td>
+        <td>
+          <p>UDX_HEADER/UDX.PROD_ORDER_POS</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Status</p>
+        </td>
+        <td>
+          <p>UDX_HEADER/UDX.STATE</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Vorgangstexte</p>
+        </td>
+        <td>
+          <p>UDX_HEADER/UDX.TEXT</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Liste der Vorgangstexte</p>
+        </td>
+        <td>
+          <p>UDX_HEADER/UDX.TEXT/UDX.TEXT Sequence=(1….n)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Produktionsart</p>
+        </td>
+        <td>
+          <p>UDX_OPERATION</p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="just-emphasize">Beispiel:</p>
 
@@ -44,18 +98,86 @@ z.B. Status im Pfad PROD_ORDER/PROD_ORDER_HEADER/PROD_ORDER_INFO/ HEADER_UDX/UDX
 
 Mögliche Status sind :
 
-| Mögliche Status |
-| --- |
-| PROD_NEW | Nur eingehende Nachrichten |
-| PROD_DTCHANGE | Änderung des Plandatums |
-| PROD_BEGIN | Beginn einer Produktion |
-| PROD_END | Produktionsfertigstellung |
-| PROD_INFO | Eingang von Qualitätsdaten<br>Änderung von Daten (außer Plandatum) |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Mögliche Status</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>PROD_NEW</p>
+        </td>
+        <td>
+          <p>Nur eingehende Nachrichten</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>PROD_DTCHANGE</p>
+        </td>
+        <td>
+          <p>Änderung des Plandatums</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>PROD_BEGIN</p>
+        </td>
+        <td>
+          <p>Beginn einer Produktion</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>PROD_END</p>
+        </td>
+        <td>
+          <p>Produktionsfertigstellung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>PROD_INFO</p>
+        </td>
+        <td>
+          <p>Eingang von Qualitätsdaten</p>
+          <p>Änderung von Daten (außer Plandatum)</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-| Weitere Kopfinformationen |
-| --- |
-| Bestelldatum | PROD_ORDER_INFO/PROD_ORDER_DATE |
-| Produktionsdatum (Plandatum) | PROD_ORDER_INFO/DELIVERY_DATE/DELIVERY_START_DATE |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Weitere Kopfinformationen</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bestelldatum</p>
+        </td>
+        <td>
+          <p>PROD_ORDER_INFO/PROD_ORDER_DATE</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Produktionsdatum (Plandatum)</p>
+        </td>
+        <td>
+          <p>PROD_ORDER_INFO/DELIVERY_DATE/DELIVERY_START_DATE</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ###### Positionsinformationen
 

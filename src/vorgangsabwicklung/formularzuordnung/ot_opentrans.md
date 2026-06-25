@@ -48,11 +48,41 @@ begin
 end
 ```
 
-| Parameter |
-| --- |
-| in_menummer | Mengeneinheitsnummer aus A.eins |
-| UNME | UN-Mengeneinheit |
-| Faktor | Umrechnungsfaktor |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Parameter</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>in_menummer</p>
+        </td>
+        <td>
+          <p>Mengeneinheitsnummer aus A.eins</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>UNME</p>
+        </td>
+        <td>
+          <p>UN-Mengeneinheit</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Faktor</p>
+        </td>
+        <td>
+          <p>Umrechnungsfaktor</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="just-emphasize">XML-Codierung</p>
 
@@ -67,13 +97,57 @@ create procedure p_artiums(in in_herkunft char(8), in in_Artikelid integer, in i
 result ("type" varchar(50), value varchar(40) )
 ```
 
-| Parameter |
-| --- |
-| in_herkunft | Ist „SUPPLIER“ oder „BUYER“ je nachdem für welchen Ausgabetyp diese Prozedur aufgerufen wird |
-| in_ArtikelId | ArtikelId, die umgeschlüsselt werden soll |
-| in_Rechnungskunde | ID des Kunden, für den die Rechnung erstellt werden soll |
-| type | Typbezeichnung der ausgegebenen Artikelnummer |
-| value | Umgeschlüsselte Artikelnummer |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Parameter</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>in_herkunft</p>
+        </td>
+        <td>
+          <p>Ist „SUPPLIER“ oder „BUYER“ je nachdem für welchen Ausgabetyp diese Prozedur aufgerufen wird</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>in_ArtikelId</p>
+        </td>
+        <td>
+          <p>ArtikelId, die umgeschlüsselt werden soll</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>in_Rechnungskunde</p>
+        </td>
+        <td>
+          <p>ID des Kunden, für den die Rechnung erstellt werden soll</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>type</p>
+        </td>
+        <td>
+          <p>Typbezeichnung der ausgegebenen Artikelnummer</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>value</p>
+        </td>
+        <td>
+          <p>Umgeschlüsselte Artikelnummer</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="just-emphasize">Kundenumschlüsselung</p>
 
@@ -84,14 +158,65 @@ create procedure p_kundums(in in_kundnummer integer, in in_Rechnungskunde intege
 result ("type" varchar(50), value varchar(40) )
 ```
 
-| Parameter |
-| --- |
-| in_kundnummer | Kundennummer, die umgeschlüsselt werden soll |
-| in_Rechnungskunde | ID des Kunden, für den die Rechnung erstellt werden soll |
-| in_partyrole | Rolle des Kunden (openTRANS-Notation) |
-| in_adressid | AdressId der ermittelten Adresse |
-| type | Typbezeichnung der ausgegebenen Kundennummer |
-| value | Umgeschlüsselte Kundennummer |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Parameter</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>in_kundnummer</p>
+        </td>
+        <td>
+          <p>Kundennummer, die umgeschlüsselt werden soll</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>in_Rechnungskunde</p>
+        </td>
+        <td>
+          <p>ID des Kunden, für den die Rechnung erstellt werden soll</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>in_partyrole</p>
+        </td>
+        <td>
+          <p>Rolle des Kunden (openTRANS-Notation)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>in_adressid</p>
+        </td>
+        <td>
+          <p>AdressId der ermittelten Adresse</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>type</p>
+        </td>
+        <td>
+          <p>Typbezeichnung der ausgegebenen Kundennummer</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>value</p>
+        </td>
+        <td>
+          <p>Umgeschlüsselte Kundennummer</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="just-emphasize">Vorgang</p>
 
@@ -115,12 +240,51 @@ create procedure p_UDXProc (in in_v_id integer, in in_v_posizaehler integer, in 
 result (path varchar(50))
 ```
 
-| Parameter |
-| --- |
-| in_v_id | ID des Vorgangs, für den UDX-Felder angegeben werden sollen |
-| in_v_posizaehler | Zähler der Warenposition im Vorgang<br>Beim Aufruf für einen Header steht hier eine 0 |
-| in_otzaehler | Zähler der Position im openTRANS<br>Beim Aufruf für einen Header steht hier eine 0 |
-| Path | Ausgabe eines Pfades zur Ausgabe von UDX-Elementen |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Parameter</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>in_v_id</p>
+        </td>
+        <td>
+          <p>ID des Vorgangs, für den UDX-Felder angegeben werden sollen</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>in_v_posizaehler</p>
+        </td>
+        <td>
+          <p>Zähler der Warenposition im Vorgang</p>
+          <p>Beim Aufruf für einen Header steht hier eine 0</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>in_otzaehler</p>
+        </td>
+        <td>
+          <p>Zähler der Position im openTRANS</p>
+          <p>Beim Aufruf für einen Header steht hier eine 0</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Path</p>
+        </td>
+        <td>
+          <p>Ausgabe eines Pfades zur Ausgabe von UDX-Elementen</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Soll ein Wert in dem tag stehen, so ist diesem ein „#“ voranzustellen
 
@@ -163,12 +327,50 @@ create procedure p_FeatureProc (in in_v_id integer, in in_v_posizaehler integer)
 result (bezeichner varchar(1000), wert varchar(1000))
 ```
 
-| Parameter |
-| --- |
-| in_v_id | ID des Vorgangs, für den UDX-Felder angegeben werden sollen |
-| in_v_posizaehler | Zähler der Warenposition im Vorgang<br>Beim Aufruf für einen Header steht hier eine 0 |
-| bezeichner | Ausgabe des Names der Eigenschaft |
-| wert | Ausgabe des Wertes der Eigenschaft |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Parameter</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>in_v_id</p>
+        </td>
+        <td>
+          <p>ID des Vorgangs, für den UDX-Felder angegeben werden sollen</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>in_v_posizaehler</p>
+        </td>
+        <td>
+          <p>Zähler der Warenposition im Vorgang</p>
+          <p>Beim Aufruf für einen Header steht hier eine 0</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>bezeichner</p>
+        </td>
+        <td>
+          <p>Ausgabe des Names der Eigenschaft</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wert</p>
+        </td>
+        <td>
+          <p>Ausgabe des Wertes der Eigenschaft</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Das Ergebnis im XML sieht dann so aus:
 
@@ -198,11 +400,41 @@ create procedure p_PartieFeatureProc (in in_partieid integer)
 result (bezeichner varchar(1000), wert varchar(1000))
 ```
 
-| Parameter |
-| --- |
-| in_partieid | ID der Partie |
-| bezeichner | Ausgabe des Names der Eigenschaft |
-| wert | Ausgabe des Wertes der Eigenschaft |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Parameter</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>in_partieid</p>
+        </td>
+        <td>
+          <p>ID der Partie</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>bezeichner</p>
+        </td>
+        <td>
+          <p>Ausgabe des Names der Eigenschaft</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wert</p>
+        </td>
+        <td>
+          <p>Ausgabe des Wertes der Eigenschaft</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Das Ergebnis im XML sieht dann so aus:
 
@@ -234,13 +466,49 @@ create procedure p_MIMEProc (in in_v_id integer)
 result (filename varchar(1024), type varchar(1024), description varchar(1024), extension varchar(255))
 ```
 
-| Parameter |
-| --- |
-| in_v_id | ID des Vorgangs, für den die MIME-Info angegeben werden soll |
-| Filename | |
-| Type | |
-| decription | |
-| extension | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Parameter</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>in_v_id</p>
+        </td>
+        <td>
+          <p>ID des Vorgangs, für den die MIME-Info angegeben werden soll</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Filename</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Type</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>decription</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>extension</p>
+        </td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Das Ergebnis im XML sieht dann so aus:
 
@@ -277,16 +545,81 @@ result (
 )
 ```
 
-| Parameter |
-| --- |
-| in_v_id | ID des Vorgangs, für den UDX-Felder angegeben werden sollen |
-| order_id | Nummer des Auftrags aus Sicht des Bestellers |
-| alt_customer_id | Alternative Auftraggebernummer |
-| supplier_order_id | Auftragsnummer des Auftragnehmers (eigenes System) |
-| order_date | Auftragsdatum |
-| order_descr | Auftragsbeschreibung |
-| deliverynote_id | Nummer des Lieferscheins des Auftragnehmers (eigenes System) |
-| deliverynote_date | Lieferscheindatum |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Parameter</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>in_v_id</p>
+        </td>
+        <td>
+          <p>ID des Vorgangs, für den UDX-Felder angegeben werden sollen</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>order_id</p>
+        </td>
+        <td>
+          <p>Nummer des Auftrags aus Sicht des Bestellers</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>alt_customer_id</p>
+        </td>
+        <td>
+          <p>Alternative Auftraggebernummer</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>supplier_order_id</p>
+        </td>
+        <td>
+          <p>Auftragsnummer des Auftragnehmers (eigenes System)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>order_date</p>
+        </td>
+        <td>
+          <p>Auftragsdatum</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>order_descr</p>
+        </td>
+        <td>
+          <p>Auftragsbeschreibung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>deliverynote_id</p>
+        </td>
+        <td>
+          <p>Nummer des Lieferscheins des Auftragnehmers (eigenes System)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>deliverynote_date</p>
+        </td>
+        <td>
+          <p>Lieferscheindatum</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Das Ergebnis im XML sieht dann so aus:
 

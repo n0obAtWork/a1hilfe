@@ -28,12 +28,116 @@ Die Bestätigung soll also nicht voreilig gegeben werden! Wenn es doch passiert,
 
 5. Zahlungseingang EC Cash gegen das Differenzenkonto ausgleichen.
 
-| Einstellmöglichkeiten POS Kasse / Empfohlene Einstellungen |
-| --- |
-| | EC Cash Lastschrift mit Kartenleser ohne manuellen Eingriff \*\*\* | EC Cash Lastschrift mit Kartenleser oder wahlweise Eingabe der Daten \*\*\* | EC Cash Lastschrift ohne Kartenleser, nur Eingabe der Daten EC Cash Lastschrift ohne Kartenleser, nur Eingabe der Daten \*\*\* | EC Cash Pin über sep. Bankterminal<br>(nicht widerrufbar) | EC Cash Pin über sep. Bankterminal<br>(widerrufbar)<br> |
-| SPA Manuelle Erfassung von EC-Karten | unterbunden | Manuell | Manuell | Kennz. ZA | Kennz. ZA |
-| SPA Gekennzeichnete EC Zahlung stornierbar | \--- | \--- | \--- | Ja | Ja |
-| Kasseneinstellung EC-Karte manuell erfassen | Nein | Nein | Ja | Nein | Nein |
-| EPA Abschlussbestätigung beim Belegabschluss | Nur ZaMi | Nur ZaMi | Nur ZaMi | Nur ZaMi | Nur ZaMi |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="6">
+          <p><strong>Einstellmöglichkeiten POS Kasse / Empfohlene Einstellungen</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <p>EC Cash Lastschrift mit Kartenleser ohne manuellen Eingriff ***</p>
+        </td>
+        <td>
+          <p>EC Cash Lastschrift mit Kartenleser oder wahlweise Eingabe der Daten ***</p>
+        </td>
+        <td>
+          <p>EC Cash Lastschrift ohne Kartenleser, nur Eingabe der Daten EC Cash Lastschrift ohne Kartenleser, nur Eingabe der Daten ***</p>
+        </td>
+        <td>
+          <p>EC Cash Pin über sep. Bankterminal</p>
+          <p>(nicht widerrufbar)</p>
+        </td>
+        <td>
+          <p>EC Cash Pin über sep. Bankterminal</p>
+          <p>(widerrufbar)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>SPA Manuelle Erfassung von EC-Karten</p>
+        </td>
+        <td>
+          <p>unterbunden</p>
+        </td>
+        <td>
+          <p>Manuell</p>
+        </td>
+        <td>
+          <p>Manuell</p>
+        </td>
+        <td>
+          <p>Kennz. ZA</p>
+        </td>
+        <td>
+          <p>Kennz. ZA</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>SPA Gekennzeichnete EC Zahlung stornierbar</p>
+        </td>
+        <td>
+          <p>---</p>
+        </td>
+        <td>
+          <p>---</p>
+        </td>
+        <td>
+          <p>---</p>
+        </td>
+        <td>
+          <p>Ja</p>
+        </td>
+        <td>
+          <p>Ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kasseneinstellung EC-Karte manuell erfassen</p>
+        </td>
+        <td>
+          <p>Nein</p>
+        </td>
+        <td>
+          <p>Nein</p>
+        </td>
+        <td>
+          <p>Ja</p>
+        </td>
+        <td>
+          <p>Nein</p>
+        </td>
+        <td>
+          <p>Nein</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>EPA Abschlussbestätigung beim Belegabschluss</p>
+        </td>
+        <td>
+          <p>Nur ZaMi</p>
+        </td>
+        <td>
+          <p>Nur ZaMi</p>
+        </td>
+        <td>
+          <p>Nur ZaMi</p>
+        </td>
+        <td>
+          <p>Nur ZaMi</p>
+        </td>
+        <td>
+          <p>Nur ZaMi</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 \*\*\* Diese Vorgehensweise wird nicht mehr empfohlen – siehe [Lastschrift](./barcode_etiketten/index.md)

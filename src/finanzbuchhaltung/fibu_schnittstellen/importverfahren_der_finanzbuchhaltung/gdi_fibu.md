@@ -12,35 +12,263 @@ Beim Import aus der GDI-Fibu handelt es sich um echte Finanzbuchhaltungsbelege, 
 
 Es werden nur die mit [Bu] beginnenden Datensätze ausgewertet.
 
-| | Kennzeichen | Feldinhalt |
-| --- | --- | --- |
-| &lt;Art>= | Belegart | |
-| &lt;BNr>= | Belegnummer | |
-| &lt;Dat>= | Buchungsdatum | |
-| &lt;Txt>= | Buchungstext | |
-| &lt;Btr>= | Buchungsbetrag (incl. S/H falls vorgegeben) | |
-| &lt;StS>= | Steuerschlüssel (falls ein Steuerbetrag angegeben ist und der Steuerschlüssel nicht beim Sachkonto hinterlegt ist) | |
-| &lt;StB>= | Steuerbetrag (nur bei Sachkontenbuchungen) | |
-| &lt;ZBd>= | Zahlungsbedingung | |
-| &lt;RBt>= | Rechnungsbetrag | |
-| &lt;BDa>= | Belegdatum | |
-| &lt;BlL>= | Belegnummer Lieferant (Nur bei Kreditoren) | |
-| &lt;ZaV>= | Zahlvermerk (L/E/V) | |
-| &lt;VDa>= | Valutadatum (nur Debitoren) | |
-| &lt;SpV>= | Sperrvermerk | |
-| &lt;ZDa>= | Zahldatum (nur bei Kreditoren) | |
-| &lt;WKz>= | Währung Kennzeichen | |
-| &lt;WBt>= | Fremdwährungsbetrag | |
-| &lt;Kst>= | Kostenstelle | |
-| &lt;Ktr>= | Kostenträger | |
-| &lt;KtO>= | Kostenträger Originärbuchung | |
-| &lt;Skt>= | Skonto | |
-| &lt;ZAr>= | Zahlartnummer | |
-| &lt;ISO>= | ISO-Währungscode | |
-| &lt;SkW>= | Skonto in Fremdwährung | |
-| &lt;SKf>= | Skontofähiger Betrag | |
-| &lt;GKt>= | Gegenkonto | |
-| | | | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td></td>
+        <td>
+          <p><strong>Kennzeichen</strong></p>
+        </td>
+        <td colspan="2">
+          <p><strong>Feldinhalt</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>&lt;Art&gt;=</p>
+        </td>
+        <td>
+          <p>Belegart</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>&lt;BNr&gt;=</p>
+        </td>
+        <td>
+          <p>Belegnummer</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>&lt;Dat&gt;=</p>
+        </td>
+        <td>
+          <p>Buchungsdatum</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>&lt;Txt&gt;=</p>
+        </td>
+        <td>
+          <p>Buchungstext</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>&lt;Btr&gt;=</p>
+        </td>
+        <td>
+          <p>Buchungsbetrag (incl. S/H falls vorgegeben)</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>&lt;StS&gt;=</p>
+        </td>
+        <td>
+          <p>Steuerschlüssel (falls ein Steuerbetrag angegeben ist und der Steuerschlüssel nicht beim Sachkonto hinterlegt ist)</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>&lt;StB&gt;=</p>
+        </td>
+        <td>
+          <p>Steuerbetrag (nur bei Sachkontenbuchungen)</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>&lt;ZBd&gt;=</p>
+        </td>
+        <td>
+          <p>Zahlungsbedingung</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>&lt;RBt&gt;=</p>
+        </td>
+        <td>
+          <p>Rechnungsbetrag</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>&lt;BDa&gt;=</p>
+        </td>
+        <td>
+          <p>Belegdatum</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>&lt;BlL&gt;=</p>
+        </td>
+        <td>
+          <p>Belegnummer Lieferant (Nur bei Kreditoren)</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>&lt;ZaV&gt;=</p>
+        </td>
+        <td>
+          <p>Zahlvermerk (L/E/V)</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>&lt;VDa&gt;=</p>
+        </td>
+        <td>
+          <p>Valutadatum (nur Debitoren)</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>&lt;SpV&gt;=</p>
+        </td>
+        <td>
+          <p>Sperrvermerk</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>&lt;ZDa&gt;=</p>
+        </td>
+        <td>
+          <p>Zahldatum (nur bei Kreditoren)</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>&lt;WKz&gt;=</p>
+        </td>
+        <td>
+          <p>Währung Kennzeichen</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>&lt;WBt&gt;=</p>
+        </td>
+        <td>
+          <p>Fremdwährungsbetrag</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>&lt;Kst&gt;=</p>
+        </td>
+        <td>
+          <p>Kostenstelle</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>&lt;Ktr&gt;=</p>
+        </td>
+        <td>
+          <p>Kostenträger</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>&lt;KtO&gt;=</p>
+        </td>
+        <td>
+          <p>Kostenträger Originärbuchung</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>&lt;Skt&gt;=</p>
+        </td>
+        <td>
+          <p>Skonto</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>&lt;ZAr&gt;=</p>
+        </td>
+        <td>
+          <p>Zahlartnummer</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>&lt;ISO&gt;=</p>
+        </td>
+        <td>
+          <p>ISO-Währungscode</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>&lt;SkW&gt;=</p>
+        </td>
+        <td>
+          <p>Skonto in Fremdwährung</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>&lt;SKf&gt;=</p>
+        </td>
+        <td>
+          <p>Skontofähiger Betrag</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>&lt;GKt&gt;=</p>
+        </td>
+        <td>
+          <p>Gegenkonto</p>
+        </td>
+        <td></td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Die Gegenbuchungen werden jeweils mit ‘<strong>&lt;GKt>=’</strong> eingeleitet. Es muss mindestens eine Gegenbuchung angegeben werden. Die Mindestangaben hierbei sind die Kontonummer und der Buchungsbetrag. Das Buchungsdatum wird immer aus der Buchung herangezogen. Die Felder Belegart, Belegnummer und Buchungstext werden aus der Buchung übernommen, falls sie nicht für die Gegenbuchung angegeben wurden. Die Summe aus den Buchungsbeträgen ‘<strong>&lt;Btr>=’</strong> und den Steuerbeträgen ‘<strong>&lt;StB>=’</strong> der Buchung und aller Gegenbuchungen müssen 0.00 DM ergeben.  
 Alle in Buchungssätzen angegebenen Konten müssen in der Fibu angelegt sein bzw. vor der Buchung als Stammsatz übergeben worden sein. 

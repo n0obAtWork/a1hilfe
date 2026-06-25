@@ -68,23 +68,23 @@ begin
 
  when 1 then set retval = in_d1;
 
- when 2 then set retval = retval ||'|'|| in_d2;
+ when 2 then set retval = retval &#124;&#124;'&#124;'&#124;&#124; in_d2;
 
- when 3 then set retval = retval ||'|'|| in_d3;
+ when 3 then set retval = retval &#124;&#124;'&#124;'&#124;&#124; in_d3;
 
- when 4 then set retval = retval ||'|'|| in_d4;
+ when 4 then set retval = retval &#124;&#124;'&#124;'&#124;&#124; in_d4;
 
- when 5 then set retval = retval ||'|'|| in_d5;
+ when 5 then set retval = retval &#124;&#124;'&#124;'&#124;&#124; in_d5;
 
- when 6 then set retval = retval ||'|'|| in_d6;
+ when 6 then set retval = retval &#124;&#124;'&#124;'&#124;&#124; in_d6;
 
- when 7 then set retval = retval ||'|'|| in_d7;
+ when 7 then set retval = retval &#124;&#124;'&#124;'&#124;&#124; in_d7;
 
- when 8 then set retval = retval ||'|'|| in_d8;
+ when 8 then set retval = retval &#124;&#124;'&#124;'&#124;&#124; in_d8;
 
- when 9 then set retval = retval ||'|'|| in_d9;
+ when 9 then set retval = retval &#124;&#124;'&#124;'&#124;&#124; in_d9;
 
- when 10 then set retval = retval ||'|'|| in_d10; 
+ when 10 then set retval = retval &#124;&#124;'&#124;'&#124;&#124; in_d10; 
 
  end case;
 

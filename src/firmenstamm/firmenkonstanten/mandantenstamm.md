@@ -62,7 +62,7 @@ Hier werden für die Finanzbuchhaltung benötigen Informationen festgelegt.
 | Fehlerkostenstelle | Wurde in einem Beleg keine [Kostenstelle](../../finanzbuchhaltung/kostenrechnung/kostenstellen.md) angegeben, so wird bei GuV-Konten automatisch diese Kostenstelle verwendet. |
 | Fehlerkostenträger | Wurde in einem Beleg kein [Kostenträger](../../finanzbuchhaltung/kostenrechnung/kostentraeger.md) angegeben, so wird bei GuV-Konten automatisch dieser Kostenträger verwendet. |
 | Fehlerkostenobjekt | Wurde in einem Beleg kein [Kostenobjekt](../../finanzbuchhaltung/kostenrechnung/kostenobjekte/index.md) angegeben, so wird bei GuV-Konten automatisch dieses Kostenobjekt verwendet. |
-| Zinsbasis | Hier kann man angeben, wie bei der Zinsabrechnung gerechnet werden soll. Möglicher Werte sind:<br>• Monat / 365<br>• 30 / 360<br>• Monat / 360 |
+| Zinsbasis | Hier kann man angeben, wie bei der Zinsabrechnung gerechnet werden soll. Möglicher Werte sind:<br><ul><li>&nbsp;&nbsp;&nbsp; Monat / 365</li><li>&nbsp;&nbsp;&nbsp; 30 / 360</li><li>&nbsp;&nbsp;&nbsp; Monat / 360</li></ul> |
 | Bundesland | Das Bundesland wird für die Umsatzsteuervoranmeldung / Elster gebraucht. |
 | Nummer des Finanzamtes | Ist mit **F3** auswählbar. Wird für die Umsatzsteuervoranmeldung / Elster benötigt. |
 | Name | Wird für die Umsatzsteuervoranmeldung / Elster benötigt |
@@ -127,7 +127,7 @@ In der Registerkarte Zollausfuhr werden wichtige Informationen zur Abwicklung de
 | Mail Ablehnung | a@b.de | Mailadresse, an der mit Prozeduren automatisch empfangene Ablehnungen signalisiert werden |
 | Zugangsart | 1.) Testzugang<br>2.) Operativer Zugang | Operativer Zugang NUR mit Zugangsdaten von AEB! |
 | Webanbieter | 1.) Test: https://rz3.aeb.de/test2aae<br>2.) Operativ: https://rz3.aeb.de/prod2aae | Hier kann die Webadresse für den Zugriff über die vom Anbieter zur Verfügung gestellte Oberfläche eingegeben werden. Beim Betätigen des Buttons Anzeigen wird ein neues Fenster geöffnet, in dem ein Browser-Element enthalten ist, welches die Anzeige ermöglicht. |
-| Servicename | AUSFUHR||XPRESS plus | Default-Wert |
+| Servicename | AUSFUHR&#124;&#124;XPRESS plus | Default-Wert |
 | Zertifikat | C:\\AEBZertifikat.cer | Festplattenpfad, unter dem das Zertifikat des Webservice-Anbieters abgespeichert ist. Das Zertifikat muss immer auf dem gleichen Rechner abgelegt sein, auf dem auch die Datenbank läuft. |
 
 Zusätzlich finden Sie in der Optionbox eine Funktion „Zollanmelder Adresse“. Legen Sie hier die Adressdaten für die Zollanmeldung fest. Dieser Datensatz wird beim ersten Aufruf automatisch mit der Mandanten-Anschrift vorbelegt.
@@ -194,10 +194,33 @@ Auf der Registerkarte „Internet“ werden Informationen hinterlegt, die für e
 
 Auf der Registerkarte „Zugangsdaten“ werden Zugangsdaten hinterlegt, die für externe gebraucht werden.
 
-| e-Mailgruppen |
-| --- |
-| Bereich | Für welchen Bereich soll die Mailadresse gelten. Die Bereiche können mit F3 ausgewählt werden. Der F3-Auswahl liegt das Anwendungsformat **AF_MANDMAIL** zugrunde. Es können ab der Nummer 100 eigene Bereiche definiert werden.<br> |
-| Mailadresse | Hier kann eine Mailadresse bzw. mehrere durch Semikolon getrennte Mailadressen hinterlegt werden.<br> |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>e-Mailgruppen</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bereich</p>
+        </td>
+        <td>
+          <p>Für welchen Bereich soll die Mailadresse gelten. Die Bereiche können mit F3 ausgewählt werden. Der F3-Auswahl liegt das Anwendungsformat <b>AF_MANDMAIL </b>zugrunde. Es können ab der Nummer 100 eigene Bereiche definiert werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Mailadresse</p>
+        </td>
+        <td>
+          <p>Hier kann eine Mailadresse bzw. mehrere durch Semikolon getrennte Mailadressen hinterlegt werden.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Für den Zugriff auf die Mailgruppen existiert die Funktion MandMailAdresse(Bereich). Um also z.B. auf die Mailadresse unter „e-Mailgruppe 3“ zuzugreifen schreib man:
 
@@ -212,10 +235,33 @@ Select MandMailAdresse(3)
 
 Auf der Registerkarte „GeoDaten“ werden Einstellungen für Geodatendienste gemacht. Für die Verwendung benötigen Sie eine separate Lizenz.
 
-| GeoDaten |
-| --- |
-| Adressprozedur | Diese Prozedur liefert für eine regelmäßige Abfrage von Anschriften ohne GeoDaten die AdressId zurück. Als Beispiel wurde die Prozedur „AMIC_DEMO_GeoDataAnschriften“ ausgeliefert. |
-| Google API Key | Dies ist der API-Key für die Ermittlung von Entfernungen zwischen Wegpunkten sowie den Geodaten bei der MapsTourenplanung. [Zum Diensteanbieter.](../../zusatzprogramme/maps_tourenplanung/diensteanbieter/entfernungmatrix.md) |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>GeoDaten</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Adressprozedur</p>
+        </td>
+        <td>
+          <p>Diese Prozedur liefert für eine regelmäßige Abfrage von Anschriften ohne GeoDaten die AdressId zurück. Als Beispiel wurde die Prozedur „AMIC_DEMO_GeoDataAnschriften“ ausgeliefert.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Google API Key</p>
+        </td>
+        <td>
+          <p>Dies ist der API-Key für die Ermittlung von Entfernungen zwischen Wegpunkten sowie den Geodaten bei der MapsTourenplanung. <a href="../../zusatzprogramme/maps_tourenplanung/diensteanbieter/entfernungmatrix.md">Zum Diensteanbieter.</a></p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 </details>
 

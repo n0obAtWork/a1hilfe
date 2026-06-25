@@ -17,7 +17,7 @@
 - [LKW Vorbelegung an der Waage(SPA 916)](./lkw_vorbelegung_an_der_waage_spa_916.md)
 - [Waagenmasken mit dem Widget Navigator starten(SPA 918)](./waagenmasken_mit_dem_widget_navigator_starten_spa_918.md)
 - [Allgemeiner Steuerparameter für die Waage(SPA 925)](./allgemeiner_steuerparameter_fuer_die_waage_spa_925.md)
-- [Silokontraktanlage in der Waage(SPA 935)|](./silokontraktanlage_in_der_waage_spa_935.md)
+- [Silokontraktanlage in der Waage(SPA 935)&#124;](./silokontraktanlage_in_der_waage_spa_935.md)
 - [Herkunft der Qualitätswerte zur Berechnung von durchschnittlichen Siloqualitäten(SPA 940)](./herkunft_der_qualitaetswerte_zur_berechnung_von_durchschnitt.md)
 - [Doppelte Vorgänge aus der Waage führen zur Sperrung(SPA 964)](./doppelte_vorgaenge_aus_der_waage_fuehren_zur_sperrung_spa_96.md)
 - [Verhalten bei Fehlerhaften Rohwarengruppen Zuordnung im Kontrakt(SPA 977)](./verhalten_bei_fehlerhaften_rohwarengruppen_zuordnung_im_kont.md)

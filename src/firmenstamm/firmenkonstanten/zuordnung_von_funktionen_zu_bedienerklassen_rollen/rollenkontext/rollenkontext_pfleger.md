@@ -25,26 +25,129 @@ In Umgebungen in denen spezielle Bedienerklasse für die Abarbeitung und Überwa
 <details>
 <summary>Felder des Rollenkontext Pfleger</summary>
 
-| Felder |
-| --- |
-| Kontext | Zuordnung des Rollenkontextes zu dem Kontext. |
-| Funktion | Zuordnung des Rollenkontextes zu der Funktion. |
-| Rolle | Die zugeordnete [Rolle](../rollenstamm/index.md) des Rollenkontextes.<br>Rolle ist per **F3** aus den vorhandenen Rollen auswählbar. |
-| Neue Rolle | Zeigt an, ob die Rolle neu erstellt wird |
-| Ist | Status der Bedienerklasse innerhalb der zuordneten Rolle. |
-| Bedienerklasse | [Bedienerklasse](../../bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/bedienerstamm_pfleger.md) |
-| Soll | Der gewünschte neue Status der Bedienerklasse.<br>Geänderte Soll-Stati im Vergleich zum Ist-Status werden farblich zur besseren Übersicht abgegrenzt. |
-| Bedienerklassen-bezeichnung | Die Bezeichnung der Bedienerklassen.<br>Ein vorangestellter Stern (\*) bedeutet das die Bedienerklasse eine Controller-Klasse ist, somit die Bedienerklasse Mitglied der [Controller-Rolle](../rollenstamm/index.md#Controllerklasse) ist. |
-| Bediener | Informatorische auf max. 255 Zeichen begrenzte Liste der Bediener der Bedienerklasse. |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Felder</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kontext</p>
+        </td>
+        <td>
+          <p>Zuordnung des Rollenkontextes zu dem Kontext.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Funktion</p>
+        </td>
+        <td>
+          <p>Zuordnung des Rollenkontextes zu der Funktion.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Rolle</p>
+        </td>
+        <td>
+          <p>Die zugeordnete <a href="../rollenstamm/index.md">Rolle</a> des Rollenkontextes.</p>
+          <p>Rolle ist per <strong>F3</strong> aus den vorhandenen Rollen auswählbar.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Neue Rolle</p>
+        </td>
+        <td>
+          <p>Zeigt an, ob die Rolle neu erstellt wird</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Ist</p>
+        </td>
+        <td>
+          <p>Status der Bedienerklasse innerhalb der zuordneten Rolle.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bedienerklasse</p>
+        </td>
+        <td>
+          <p><a href="../../bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/bedienerstamm_pfleger.md">Bedienerklasse</a></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Soll</p>
+        </td>
+        <td>
+          <p>Der gewünschte neue Status der Bedienerklasse.</p>
+          <p>Geänderte Soll-Stati im Vergleich zum Ist-Status werden farblich zur besseren Übersicht abgegrenzt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bedienerklassen-bezeichnung</p>
+        </td>
+        <td>
+          <p>Die Bezeichnung der Bedienerklassen.</p>
+          <p>Ein vorangestellter Stern (*) bedeutet das die Bedienerklasse eine Controller-Klasse ist, somit die Bedienerklasse Mitglied der <a href="../rollenstamm/index.md#Controllerklasse">Controller-Rolle</a> ist.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bediener</p>
+        </td>
+        <td>
+          <p>Informatorische auf max. 255 Zeichen begrenzte Liste der Bediener der Bedienerklasse.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 </details>
 
 <details>
 <summary>Funktionen des Rollenkontext Pfleger</summary>
 
-| Funktionen |
-| --- |
-| ***Speichern*** (**F9)** | Speichert ggf. Änderungen. |
-| ***Rollenantrag stellen*** (**F10)** | Es wird nicht gespeichert!<br>Es wird ein Rollenantrag auf Änderung der Kontexte gestellt. Im Zuge der Abwicklung(\*) erfolgt eine Abfrage ob sofort eine Antragsmail verschickt werden soll oder nicht. Damit bietet sich über [Rollenantrag](./rollenantrag.md) u.a. die Möglichkeit mehrere Anträge in einer Mail zusammenzufassen.<br>Somit gibt es „Antrag stellen in beiden Modi“: Einmal Änderung der Rolle und zum anderen Neu-Anlage einer Rolle mit zugehöriger Rollenklasse zur späteren Freischaltung.<br>Dafür muss die Rolle aber existieren, deshalb wird eine solche Rolle dann auch hier gespeichert, aber an dieser Stelle nicht irgendwelchen Kontexten zugeordnet. Das geschieht erst im Rollenantrag.<br> <br>(\*) Der Einrichterparameter [Rollenantragsmailabfrage](../../../einrichterparameter/rollenantragsmailabfrage_epa_rollenantragsmailabfrage.md#UEB_EPA_ROLLEANTARGSMAIL_ABFRAGEN) bietet die Möglichkeit diese Abfrage abzuschalten.<br> <br>Sind bei Aufruf des Rollenkontext-Pflegers mehrere Kontexte ausgewählt so erfolgt bei Abarbeitung die Abfrage ob alle markierten mit der aktuellen Rolle beantragt werden sollen. |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Funktionen</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong><em>Speichern</em></strong> (<strong>F9)</strong></p>
+        </td>
+        <td>
+          <p>Speichert ggf. Änderungen.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong><em>Rollenantrag stellen</em></strong> (<strong>F10)</strong></p>
+        </td>
+        <td>
+          <p><u>Es wird nicht gespeichert!</u><u></u></p>
+          <p>Es wird ein Rollenantrag auf Änderung der Kontexte gestellt. Im Zuge der Abwicklung(*) erfolgt eine Abfrage ob sofort eine Antragsmail verschickt werden soll oder nicht. Damit bietet sich über <a href="./rollenantrag.md">Rollenantrag</a> u.a. die Möglichkeit <u>mehrere Anträge in einer Mail</u> zusammenzufassen.</p>
+          <p>Somit gibt es „Antrag stellen in beiden Modi“: Einmal Änderung der Rolle und zum anderen Neu-Anlage einer Rolle mit zugehöriger Rollenklasse zur späteren Freischaltung.</p>
+          <p><u>Dafür muss die Rolle aber existieren, deshalb wird eine solche Rolle dann auch hier gespeichert, aber an dieser Stelle nicht irgendwelchen Kontexten zugeordnet. Das geschieht erst im Rollenantrag.</u><u></u></p>
+          <p>(*) Der Einrichterparameter <a href="../../../einrichterparameter/rollenantragsmailabfrage_epa_rollenantragsmailabfrage.md#UEB_EPA_ROLLEANTARGSMAIL_ABFRAGEN">Rollenantragsmailabfrage</a> bietet die Möglichkeit diese Abfrage abzuschalten.</p>
+          <p>Sind bei Aufruf des Rollenkontext-Pflegers mehrere Kontexte ausgewählt so erfolgt bei Abarbeitung die Abfrage ob alle markierten mit der aktuellen Rolle beantragt werden sollen.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 </details>

@@ -4,38 +4,374 @@
 
 ###### Druckbereich 820 / Kassenkopf
 
-| **Variablenname** | **Druckposition** | **Bedeutung** |
-| --- | --- | --- |
-| Kasse | 4 ZahlVariable<br>6200 | Kassennummer |
-| Kassierer | 3 TextVariable<br>6207 | Userkürzel |
-| Kassierername | 3 TextVariable<br>6208 | Name des Bedieners lt. Bedienerstamm |
-| BelegArt | 3 TextVariable<br>6205 | Belegarttext |
-| BelegDatum | 5 DatumVariable<br>6203 | Das Belegdatum |
-| BelegNr | 4 ZahlVariable<br>6204 | Die Belegnummer |
-| BelegId | 4 ZahlVariable<br>6202 | Beleg ID |
-| Sitzung | 4 ZahlVariable<br>6206 | Kassensitzungsnummer |
-| Filialnummer | 4 ZahlVariable<br>6201 | Filialnummer |
-| FilialBezeich | 3 TextVariable<br>6209 | Die Bezeichnung der Filiale |
-| FilialStrasse | 3 TextVariable<br>6210 | Die Straße der Filiale |
-| FilialPLZ | 3 TextVariable<br>6212 | Die Postleitzahl der Filiale |
-| FilialOrt | 3 TextVariable<br>6211 | Der Ort der Filiale |
-| MandantBezeich | 3 TextVariable<br>6221 | Die Bezeichnung des Mandanten |
-| MandantStrasse | 3 TextVariable<br>6222 | Die Straße des Mandanten |
-| MandantPLZ | 3 TextVariable<br>6223 | Die Postleitzahl des Mandanten |
-| MandantOrt | 3 TextVariable<br>6224 | Der Ort des Mandanten |
-| Kopie | 3 TextVariable<br>6226 | Bei Wiederholungsdruck wird der Beleg als Kopie markiert |
-| Storno | 3 TextVariable<br>6225 | Bei Stornierung wird der Beleg als Storno markiert |
-| BelegName | 3 TextVariable<br>6217 | Der Name des Kunden bzw. Kontobezeichnung je nach Belegart |
-| BelegText | 3 TextVariable<br>6213 | Bemerkungstext |
-| BelegBetrag | 4 ZahlVariable<br>6215 | Die Belegsumme in Buchwährung |
-| BelegKWBetrag | <br> | Die Belegsumme in Kassenwährung (derzeit nicht unterstützt) |
-| BelegWaehrung | 3 TextVariable<br>6214 | Das Währungskürzel der Buchwährung |
-| BelegKW | <br> | Das Währungskürzel der Kassenwährung (derzeit nicht unterstützt) |
-| Konto | 4 ZahlVariable<br>6218 | Kontonummer Kunde/Konto je nach Belegart |
-| Ort | 3 TextVariable<br>6219 | Wohnort des Kunden lt. Anschriftstamm, falls kundenbezogener Beleg |
-| PLZ | 3 TextVariable<br>6220 | PLZ des Kunden lt. Anschriftstamm, falls kundenbezogener Beleg |
-| Gegenkasse | 4 ZahlVariable<br>6216 | Kassennummer der Gegenkasse, belegartabhängig |
-| | | | | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><b>Variablenname</b></p>
+        </td>
+        <td colspan="2">
+          <p><b>Druckposition</b></p>
+        </td>
+        <td>
+          <p><b>Bedeutung</b></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kasse</p>
+        </td>
+        <td colspan="2">
+          <p>4 ZahlVariable</p>
+          <p>6200</p>
+        </td>
+        <td colspan="2">
+          <p>Kassennummer</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kassierer</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6207</p>
+        </td>
+        <td colspan="2">
+          <p>Userkürzel</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kassierername</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6208</p>
+        </td>
+        <td colspan="2">
+          <p>Name des Bedieners lt. Bedienerstamm</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>BelegArt</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6205</p>
+        </td>
+        <td>
+          <p>Belegarttext</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>BelegDatum</p>
+        </td>
+        <td colspan="2">
+          <p>5 DatumVariable</p>
+          <p>6203</p>
+        </td>
+        <td>
+          <p>Das Belegdatum</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>BelegNr</p>
+        </td>
+        <td colspan="2">
+          <p>4 ZahlVariable</p>
+          <p>6204</p>
+        </td>
+        <td>
+          <p>Die Belegnummer</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>BelegId</p>
+        </td>
+        <td colspan="2">
+          <p>4 ZahlVariable</p>
+          <p>6202</p>
+        </td>
+        <td>
+          <p>Beleg ID</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Sitzung</p>
+        </td>
+        <td colspan="2">
+          <p>4 ZahlVariable</p>
+          <p>6206</p>
+        </td>
+        <td>
+          <p>Kassensitzungsnummer</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Filialnummer</p>
+        </td>
+        <td colspan="2">
+          <p>4 ZahlVariable</p>
+          <p>6201</p>
+        </td>
+        <td>
+          <p>Filialnummer</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>FilialBezeich</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6209</p>
+        </td>
+        <td>
+          <p>Die Bezeichnung der Filiale</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>FilialStrasse</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6210</p>
+        </td>
+        <td>
+          <p>Die Straße der Filiale</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>FilialPLZ</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6212</p>
+        </td>
+        <td>
+          <p>Die Postleitzahl der Filiale</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>FilialOrt</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6211</p>
+        </td>
+        <td>
+          <p>Der Ort der Filiale</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>MandantBezeich</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6221</p>
+        </td>
+        <td>
+          <p>Die Bezeichnung des Mandanten</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>MandantStrasse</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6222</p>
+        </td>
+        <td>
+          <p>Die Straße des Mandanten</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>MandantPLZ</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6223</p>
+        </td>
+        <td>
+          <p>Die Postleitzahl des Mandanten</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>MandantOrt</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6224</p>
+        </td>
+        <td>
+          <p>Der Ort des Mandanten</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Kopie</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6226</p>
+        </td>
+        <td>
+          <p>Bei Wiederholungsdruck wird der Beleg als Kopie markiert</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Storno</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6225</p>
+        </td>
+        <td>
+          <p>Bei Stornierung wird der Beleg als Storno markiert</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>BelegName</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6217</p>
+        </td>
+        <td>
+          <p>Der Name des Kunden bzw. Kontobezeichnung je nach Belegart</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>BelegText</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6213</p>
+        </td>
+        <td>
+          <p>Bemerkungstext</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>BelegBetrag</p>
+        </td>
+        <td colspan="2">
+          <p>4 ZahlVariable</p>
+          <p>6215</p>
+        </td>
+        <td>
+          <p>Die Belegsumme in Buchwährung</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>BelegKWBetrag</p>
+        </td>
+        <td colspan="2"></td>
+        <td>
+          <p>Die Belegsumme in Kassenwährung (derzeit nicht unterstützt)</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>BelegWaehrung</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6214</p>
+        </td>
+        <td>
+          <p>Das Währungskürzel der Buchwährung</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>BelegKW</p>
+        </td>
+        <td colspan="2"></td>
+        <td>
+          <p>Das Währungskürzel der Kassenwährung (derzeit nicht unterstützt)</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Konto</p>
+        </td>
+        <td colspan="2">
+          <p>4 ZahlVariable</p>
+          <p>6218</p>
+        </td>
+        <td>
+          <p>Kontonummer Kunde/Konto je nach Belegart</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Ort</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6219</p>
+        </td>
+        <td>
+          <p>Wohnort des Kunden lt. Anschriftstamm, falls kundenbezogener Beleg</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>PLZ</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6220</p>
+        </td>
+        <td>
+          <p>PLZ des Kunden lt. Anschriftstamm, falls kundenbezogener Beleg</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Gegenkasse</p>
+        </td>
+        <td colspan="2">
+          <p>4 ZahlVariable</p>
+          <p>6216</p>
+        </td>
+        <td>
+          <p>Kassennummer der Gegenkasse, belegartabhängig</p>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ###### Druckbereich 822 / Kasse Positionen
 
@@ -101,24 +437,147 @@ Derzeit keine besonderen Druckpositionen vorgesehen. Der Trennbereich kann zur o
 
 ###### Druckbereich 850 / Kassensturz - Stückelung
 
-| Variablenname | Druckposition | Bedeutung |
-| --- | --- | --- |
-| Einheit | 3 TextVariable<br>6400 | Währungseinheit |
-| Anzahl | 4 ZahlVariable<br>6401 | Anzahl der gezählten Einheiten |
-| Betrag | 4 ZahlVariable<br>6402 | Anzahl \* Einheit |
-| BelegWaehrung | 3 TextVariable<br>6214 | Währungseinit |
-| | | | | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p>Variablenname</p>
+        </td>
+        <td colspan="2">
+          <p>Druckposition</p>
+        </td>
+        <td>
+          <p>Bedeutung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Einheit</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6400</p>
+        </td>
+        <td colspan="2">
+          <p>Währungseinheit</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Anzahl</p>
+        </td>
+        <td colspan="2">
+          <p>4 ZahlVariable</p>
+          <p>6401</p>
+        </td>
+        <td colspan="2">
+          <p>Anzahl der gezählten Einheiten</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Betrag</p>
+        </td>
+        <td colspan="2">
+          <p>4 ZahlVariable</p>
+          <p>6402</p>
+        </td>
+        <td colspan="2">
+          <p>Anzahl * Einheit</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>BelegWaehrung</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6214</p>
+        </td>
+        <td>
+          <p>Währungseinit</p>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ###### Druckbereich 851 / Kassensturz - Bareingänge
 
 Bargeldeingänge verdichtet nach Zahlungsarten und Währungen
 
-| Variablenname | Druckposition | Bedeutung |
-| --- | --- | --- |
-| Zahlungsart | 3 TextVariable<br>6380 | Bar, Rückgeld, Fremdwährung |
-| Waehrung | 3 TextVariable<br>6214 | Währung des Satzes |
-| Betrag | 4 ZahlVariable<br>6420 | Betrag des Satzes |
-| | | | | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p>Variablenname</p>
+        </td>
+        <td colspan="2">
+          <p>Druckposition</p>
+        </td>
+        <td>
+          <p>Bedeutung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Zahlungsart</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6380</p>
+        </td>
+        <td colspan="2">
+          <p>Bar, Rückgeld, Fremdwährung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Waehrung</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6214</p>
+        </td>
+        <td colspan="2">
+          <p>Währung des Satzes</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Betrag</p>
+        </td>
+        <td colspan="2">
+          <p>4 ZahlVariable</p>
+          <p>6420</p>
+        </td>
+        <td colspan="2">
+          <p>Betrag des Satzes</p>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ###### Druckbereich 852 / Kassensturz - Zahlungsmitteleingänge
 
@@ -126,23 +585,135 @@ Unbare Eingänge verdichtet nach Zahlungsarten und Währungen
 
 Bereich 852 druckt je nach SPA-Einstellung (Kasse/Barverkauf: Druck der Zamis beim Kassenabschluss gruppiert nach Zahlungsart und Währung entsprechend oft; d.h. entweder werden alle eingegangenen Zahlungsmittel einzeln aufgelistet oder als Gesamtsumme innerhalb einer Währung
 
-| Variablenname | Druckposition | Bedeutung |
-| --- | --- | --- |
-| Zahlungsart | 3 TextVariable<br>6380 | Zahlungsart des eingegangenen unbaren Zahlungsmittels (Scheck, EC-Karte,...) |
-| Waehrung | 4 TextVariable<br>6214 | Währung des eingegangenen unbaren Zahlungsmittels (Scheck, EC-Karte,...) |
-| Betrag | 3 TextVariable<br>6420 | Betrag des eingegangenen unbaren Zahlungsmittels |
-| | | | | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p>Variablenname</p>
+        </td>
+        <td colspan="2">
+          <p>Druckposition</p>
+        </td>
+        <td>
+          <p>Bedeutung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Zahlungsart</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6380</p>
+        </td>
+        <td colspan="2">
+          <p>Zahlungsart des eingegangenen unbaren Zahlungsmittels (Scheck, EC-Karte,...)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Waehrung</p>
+        </td>
+        <td colspan="2">
+          <p>4 TextVariable</p>
+          <p>6214</p>
+        </td>
+        <td colspan="2">
+          <p>Währung des eingegangenen unbaren Zahlungsmittels (Scheck, EC-Karte,...)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Betrag</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6420</p>
+        </td>
+        <td colspan="2">
+          <p>Betrag des eingegangenen unbaren Zahlungsmittels</p>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ###### Druckbereich 853 / Kassensturz - Barausgänge
 
 Bargeldausgänge verdichtet nach Zahlungsarten und Währungen
 
-| Variablenname | Druckposition | Bedeutung |
-| --- | --- | --- |
-| Zahlungsart | 3 TextVariable<br>6380 | Bar, Rückgeld, Fremdwährung |
-| Waehrung | 3 TextVariable<br>6214 | Währung des Satzes |
-| Betrag | 4 ZahlVariable<br>6420 | Betrag des Satzes |
-| | | | | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p>Variablenname</p>
+        </td>
+        <td colspan="2">
+          <p>Druckposition</p>
+        </td>
+        <td>
+          <p>Bedeutung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Zahlungsart</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6380</p>
+        </td>
+        <td colspan="2">
+          <p>Bar, Rückgeld, Fremdwährung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Waehrung</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6214</p>
+        </td>
+        <td colspan="2">
+          <p>Währung des Satzes</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Betrag</p>
+        </td>
+        <td colspan="2">
+          <p>4 ZahlVariable</p>
+          <p>6420</p>
+        </td>
+        <td colspan="2">
+          <p>Betrag des Satzes</p>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ###### Druckbereich 854 / Kassensturz - Zahlungsmittelausgänge
 
@@ -150,46 +721,293 @@ Unbare Ausgänge verdichtet nach Zahlungsarten und Währungen
 
 Bereich 854 druckt je nach SPA-Einstellung (Kasse/Barverkauf: Druck der Zamis beim Kassenabschluss) gruppiert nach Zahlungsart und Währung entsprechend oft; d.h. entweder werden alle entnommenen Zahlungsmittel einzeln aufgelistet oder als Gesamtsumme innerhalb einer Währung.
 
-| Variablenname | Druckposition | Bedeutung |
-| --- | --- | --- |
-| Zahlungsart | 3 TextVariable<br>6380 | Zahlungsart des eingegangenen unbaren Zahlungsmittels (Scheck, EC-Karte,...) |
-| Waehrung | 4 TextVariable<br>6214 | Währung des eingegangenen unbaren Zahlungsmittels (Scheck, EC-Karte,...) |
-| Betrag | 3 TextVariable<br>6420 | Betrag des eingegangenen unbaren Zahlungsmittels |
-| | | | | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p>Variablenname</p>
+        </td>
+        <td colspan="2">
+          <p>Druckposition</p>
+        </td>
+        <td>
+          <p>Bedeutung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Zahlungsart</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6380</p>
+        </td>
+        <td colspan="2">
+          <p>Zahlungsart des eingegangenen unbaren Zahlungsmittels (Scheck, EC-Karte,...)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Waehrung</p>
+        </td>
+        <td colspan="2">
+          <p>4 TextVariable</p>
+          <p>6214</p>
+        </td>
+        <td colspan="2">
+          <p>Währung des eingegangenen unbaren Zahlungsmittels (Scheck, EC-Karte,...)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Betrag</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6420</p>
+        </td>
+        <td colspan="2">
+          <p>Betrag des eingegangenen unbaren Zahlungsmittels</p>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ###### Druckbereich 855 / Kassensturz - Stornobeträge
 
 Gesamtsummen von Stornobeträgen im Ein- und Ausgang
 
-| Variablenname | Druckposition | Bedeutung |
-| --- | --- | --- |
-| Waehrung | 3 TextVariable<br>6214 | Kurztext der Zentralwährung, da Stornierungssätze in dieser Währung abgelegt ist |
-| BetragEin | 4 ZahlVariable<br>6430 | Gesamtbetrag in Zentralwährung über alle Stornierungen von Finanzvorgängen, die in die Kasse gehen |
-| BetragAus | 4 ZahlVariable<br>6431 | Gesamtbetrag in Zentralwährung über alle Stornierungen von Finanzvorgängen, die aus der Kasse gehen. |
-| EingangAusgang | 3 TextVariable<br>6432 | Festtext Eingang oder Ausgang |
-| | | | | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p>Variablenname</p>
+        </td>
+        <td colspan="2">
+          <p>Druckposition</p>
+        </td>
+        <td>
+          <p>Bedeutung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Waehrung</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6214</p>
+        </td>
+        <td colspan="2">
+          <p>Kurztext der Zentralwährung, da Stornierungssätze in dieser Währung abgelegt ist</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>BetragEin</p>
+        </td>
+        <td colspan="2">
+          <p>4 ZahlVariable</p>
+          <p>6430</p>
+        </td>
+        <td colspan="2">
+          <p>Gesamtbetrag in Zentralwährung über alle Stornierungen von Finanzvorgängen, die in die Kasse gehen</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>BetragAus</p>
+        </td>
+        <td colspan="2">
+          <p>4 ZahlVariable</p>
+          <p>6431</p>
+        </td>
+        <td colspan="2">
+          <p>Gesamtbetrag in Zentralwährung über alle Stornierungen von Finanzvorgängen, die aus der Kasse gehen.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>EingangAusgang</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6432</p>
+        </td>
+        <td colspan="2">
+          <p>Festtext Eingang oder Ausgang</p>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ###### Druckbereich 856 / Kassensturz - Zählungssumme
 
-| Variablenname | Druckposition | Bedeutung |
-| --- | --- | --- |
-| Text | 3 TextVariable<br>6440 | Festtext: Überschuss / Manko / Pari |
-| Betrag | 4 ZahlVariable<br>6441 | Überschussbetrag / Manko-Betrag / 0 |
-| Waehrung | 3 TextVariable<br>6214 | Es wurde in Kassenwährung gezählt, also Kassenwährung-Kurztext |
-| | | | | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p>Variablenname</p>
+        </td>
+        <td colspan="2">
+          <p>Druckposition</p>
+        </td>
+        <td>
+          <p>Bedeutung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Text</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6440</p>
+        </td>
+        <td colspan="2">
+          <p>Festtext: Überschuss / Manko / Pari</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Betrag</p>
+        </td>
+        <td colspan="2">
+          <p>4 ZahlVariable</p>
+          <p>6441</p>
+        </td>
+        <td colspan="2">
+          <p>Überschussbetrag / Manko-Betrag / 0</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Waehrung</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6214</p>
+        </td>
+        <td colspan="2">
+          <p>Es wurde in Kassenwährung gezählt, also Kassenwährung-Kurztext</p>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ###### Druckbereich 859 / Kassensturz - Einleitung Unterbericht
 
 Jeder Unterbericht zum Zählbericht (etwa Auflistung der Zahlungsmittel) kann im Formular mit optisch durch einen Einleitungsbereich aufbereitet werden und mit einer Überschrift versehen werden.
 
-| Variablenname | Druckposition | Bedeutung |
-| --- | --- | --- |
-| UnterberichtTitel | 3 TextVariable<br>6410 | Überschrift zur Einleitung eines Unterberichts |
-| | | | | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p>Variablenname</p>
+        </td>
+        <td colspan="2">
+          <p>Druckposition</p>
+        </td>
+        <td>
+          <p>Bedeutung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>UnterberichtTitel</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6410</p>
+        </td>
+        <td colspan="2">
+          <p>Überschrift zur Einleitung eines Unterberichts</p>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ###### Druckbereich 860 / Kassenfuß
 
-| Variablenname | Druckposition | Bedeutung |
-| --- | --- | --- |
-| Kassierername | 3 TextVariable<br>6208 | Name des Bedieners lt. Bedienerstamm |
-| | | | | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p>Variablenname</p>
+        </td>
+        <td colspan="2">
+          <p>Druckposition</p>
+        </td>
+        <td>
+          <p>Bedeutung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kassierername</p>
+        </td>
+        <td colspan="2">
+          <p>3 TextVariable</p>
+          <p>6208</p>
+        </td>
+        <td colspan="2">
+          <p>Name des Bedieners lt. Bedienerstamm</p>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

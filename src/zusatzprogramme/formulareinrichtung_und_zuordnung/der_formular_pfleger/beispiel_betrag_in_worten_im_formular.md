@@ -81,29 +81,29 @@ declare local temporary table zt
  select zt into text from zt where z = in_ZiffernVorkomma ;  
  if text is NULL then  
  if length ( in_ZiffernVorkomma ) = 2 then  
- set zehner = substring( in_ZiffernVorkomma, 1, 1 )||'0';  
+ set zehner = substring( in_ZiffernVorkomma, 1, 1 )&#124;&#124;'0';  
  set einer = substring( in_ZiffernVorkomma, 2, 1 );  
- select zt||' '||  
+ select zt&#124;&#124;' '&#124;&#124;  
  (select zt from zt where z = einer) into text from zt where z = zehner ;  
  end if;  
  if length ( in_ZiffernVorkomma ) = 3 then  
- set hunderter = substring( in_ZiffernVorkomma, 1, 1 )||'00';  
- set zehner = substring( in_ZiffernVorkomma, 2, 1 )||'0';  
+ set hunderter = substring( in_ZiffernVorkomma, 1, 1 )&#124;&#124;'00';  
+ set zehner = substring( in_ZiffernVorkomma, 2, 1 )&#124;&#124;'0';  
  set einer = substring( in_ZiffernVorkomma, 3, 1 );  
- select zt||' '||  
- (select zt from zt where z = zehner)||' '||  
+ select zt&#124;&#124;' '&#124;&#124;  
+ (select zt from zt where z = zehner)&#124;&#124;' '&#124;&#124;  
  (select zt from zt where z = einer)  
  into text from zt where z = hunderter ;  
  end if;  
  if length ( in_ZiffernVorkomma ) = 4 then  
  set tausender = substring( in_ZiffernVorkomma, 1, 1 );  
- set hunderter = substring( in_ZiffernVorkomma, 2, 1 )||'00';  
- set zehner = substring( in_ZiffernVorkomma, 3, 1 )||'0';  
+ set hunderter = substring( in_ZiffernVorkomma, 2, 1 )&#124;&#124;'00';  
+ set zehner = substring( in_ZiffernVorkomma, 3, 1 )&#124;&#124;'0';  
  set einer = substring( in_ZiffernVorkomma, 4, 1 );  
  select  
- (select zt from zt where z = tausender)||' '||  
- zt||' '||  
- (select zt from zt where z = zehner)||' '||  
+ (select zt from zt where z = tausender)&#124;&#124;' '&#124;&#124;  
+ zt&#124;&#124;' '&#124;&#124;  
+ (select zt from zt where z = zehner)&#124;&#124;' '&#124;&#124;  
  (select zt from zt where z = einer)  
  into text from zt where z = 1000 ;  
  end if;  
@@ -111,68 +111,68 @@ declare local temporary table zt
  set hilf_text = NULL;  
  select zt into hilf_text from zt where z = substring(in_ZiffernVorkomma,1,2) ;  
  if ( hilf_text is NULL ) then  
- set zehner = substring( in_ZiffernVorkomma, 1, 1 )||'0';  
+ set zehner = substring( in_ZiffernVorkomma, 1, 1 )&#124;&#124;'0';  
  set einer = substring( in_ZiffernVorkomma, 2, 1 );  
- select zt||' '||  
+ select zt&#124;&#124;' '&#124;&#124;  
  (select zt from zt where z = einer) into hilf_text from zt where z = zehner ;  
  end if;  
- set hunderter = substring( in_ZiffernVorkomma, 3, 1 )||'00';  
- set zehner = substring( in_ZiffernVorkomma, 4, 1 )||'0';  
+ set hunderter = substring( in_ZiffernVorkomma, 3, 1 )&#124;&#124;'00';  
+ set zehner = substring( in_ZiffernVorkomma, 4, 1 )&#124;&#124;'0';  
  set einer = substring( in_ZiffernVorkomma, 5, 1 );  
- select zt||' '||  
- (select zt from zt where z = zehner)||' '||  
+ select zt&#124;&#124;' '&#124;&#124;  
+ (select zt from zt where z = zehner)&#124;&#124;' '&#124;&#124;  
  (select zt from zt where z = einer)  
  into text from zt where z = hunderter ;  
- select hilf_text||' '||zt||' '||text into text from zt where z = 1000;  
+ select hilf_text&#124;&#124;' '&#124;&#124;zt&#124;&#124;' '&#124;&#124;text into text from zt where z = 1000;  
  end if;  
  if length ( in_ZiffernVorkomma ) = 6 then  
  set hilf_text = NULL;  
- set hunderter = substring( in_ZiffernVorkomma, 1, 1 )||'00';  
- set zehner = substring( in_ZiffernVorkomma, 2, 1 )||'0';  
+ set hunderter = substring( in_ZiffernVorkomma, 1, 1 )&#124;&#124;'00';  
+ set zehner = substring( in_ZiffernVorkomma, 2, 1 )&#124;&#124;'0';  
  set einer = substring( in_ZiffernVorkomma, 3, 1 );  
- select zt||' '||  
- (select zt from zt where z = zehner)||' '||  
+ select zt&#124;&#124;' '&#124;&#124;  
+ (select zt from zt where z = zehner)&#124;&#124;' '&#124;&#124;  
  (select zt from zt where z = einer)  
  into hilf_text from zt where z = hunderter ;  
- set hunderter = substring( in_ZiffernVorkomma, 4, 1 )||'00';  
- set zehner = substring( in_ZiffernVorkomma, 5, 1 )||'0';  
+ set hunderter = substring( in_ZiffernVorkomma, 4, 1 )&#124;&#124;'00';  
+ set zehner = substring( in_ZiffernVorkomma, 5, 1 )&#124;&#124;'0';  
  set einer = substring( in_ZiffernVorkomma, 6, 1 );  
- select zt||' '||  
- (select zt from zt where z = zehner)||' '||  
+ select zt&#124;&#124;' '&#124;&#124;  
+ (select zt from zt where z = zehner)&#124;&#124;' '&#124;&#124;  
  (select zt from zt where z = einer)  
  into text from zt where z = hunderter ;  
- select hilf_text||' '||zt||' '||text into text from zt where z = 1000;  
+ select hilf_text&#124;&#124;' '&#124;&#124;zt&#124;&#124;' '&#124;&#124;text into text from zt where z = 1000;  
  end if;  
  if length ( in_ZiffernVorkomma ) = 7 then  
  set hilf_text = NULL;  
- set hunderter = substring( in_ZiffernVorkomma, 2, 1 )||'00';  
- set zehner = substring( in_ZiffernVorkomma, 3, 1 )||'0';  
+ set hunderter = substring( in_ZiffernVorkomma, 2, 1 )&#124;&#124;'00';  
+ set zehner = substring( in_ZiffernVorkomma, 3, 1 )&#124;&#124;'0';  
  set einer = substring( in_ZiffernVorkomma, 4, 1 );  
- select zt||' '||  
- (select zt from zt where z = zehner)||' '||  
+ select zt&#124;&#124;' '&#124;&#124;  
+ (select zt from zt where z = zehner)&#124;&#124;' '&#124;&#124;  
  (select zt from zt where z = einer)  
  into hilf_text from zt where z = hunderter ;  
- set hunderter = substring( in_ZiffernVorkomma, 5, 1 )||'00';  
- set zehner = substring( in_ZiffernVorkomma, 6, 1 )||'0';  
+ set hunderter = substring( in_ZiffernVorkomma, 5, 1 )&#124;&#124;'00';  
+ set zehner = substring( in_ZiffernVorkomma, 6, 1 )&#124;&#124;'0';  
  set einer = substring( in_ZiffernVorkomma, 7, 1 );  
- select zt||' '||  
- (select zt from zt where z = zehner)||' '||  
+ select zt&#124;&#124;' '&#124;&#124;  
+ (select zt from zt where z = zehner)&#124;&#124;' '&#124;&#124;  
  (select zt from zt where z = einer)  
  into text from zt where z = hunderter ;  
  select (if substring(in_ziffernvorkomma,1,1)=1 then  
  (select zt from zt where z=1000000) else  
- (select (select zt from zt where z=substring(in_ziffernvorkomma,1,1))||' '||zt from zt where z>1000000) endif  
- )||' '||  
- hilf_text||' '||zt||' '||text into text from zt where z = 1000;  
+ (select (select zt from zt where z=substring(in_ziffernvorkomma,1,1))&#124;&#124;' '&#124;&#124;zt from zt where z>1000000) endif  
+ )&#124;&#124;' '&#124;&#124;  
+ hilf_text&#124;&#124;' '&#124;&#124;zt&#124;&#124;' '&#124;&#124;text into text from zt where z = 1000;  
  end if;  
  end if;  
- set zehner = substring( in_ZiffernNachkomma, 1, 1 )||'0';  
+ set zehner = substring( in_ZiffernNachkomma, 1, 1 )&#124;&#124;'0';  
  set einer = substring( in_ZiffernNachkomma, 2, 1 );  
  set nachkomma = NULL;  
  select zt into nachkomma from zt where z = in_ZiffernNachkomma ;  
  if nachkomma is NULL then  
- select zt||' '|| (select zt from zt where z = einer) into nachkomma from zt where z = zehner ;  
+ select zt&#124;&#124;' '&#124;&#124; (select zt from zt where z = einer) into nachkomma from zt where z = zehner ;  
  end if;  
- set text = text || ' Zlotych ' || isnull(nachkomma,'zero') || ' Grosz';  
+ set text = text &#124;&#124; ' Zlotych ' &#124;&#124; isnull(nachkomma,'zero') &#124;&#124; ' Grosz';  
  RETURN text;  
 END

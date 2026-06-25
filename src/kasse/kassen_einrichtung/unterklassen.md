@@ -4,15 +4,73 @@
 
 In den folgenden Vorgangsklassen können Kasseneinrichtungen vorgenommen werden:
 
-| Vorgangsklassen |
-| --- |
-| Klasse | Beschreibung |
-| 700 | Verkaufsrechnung |
-| 790 | Verkaufsstornierung |
-| 800 | Verkaufsgutschrift |
-| 1700 | Einkaufsrechnung |
-| 1790 | Einkaufsstornierung |
-| 1800 | Einkaufsgutschrift |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Vorgangsklassen</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Klasse</strong></p>
+        </td>
+        <td>
+          <p><strong>Beschreibung</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>700</p>
+        </td>
+        <td>
+          <p>Verkaufsrechnung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>790</p>
+        </td>
+        <td>
+          <p>Verkaufsstornierung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>800</p>
+        </td>
+        <td>
+          <p>Verkaufsgutschrift</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>1700</p>
+        </td>
+        <td>
+          <p>Einkaufsrechnung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>1790</p>
+        </td>
+        <td>
+          <p>Einkaufsstornierung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>1800</p>
+        </td>
+        <td>
+          <p>Einkaufsgutschrift</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="just-emphasize">Definition der Unterklasse</p>
 

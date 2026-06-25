@@ -2,13 +2,78 @@
 
 <!-- source: https://amic.de/hilfe/zahlungsarten.htm -->
 
-| Zahlungsarten |
-| --- |
-| 1 | Bargeld in Kassenwährung |
-| 2 | Scheck |
-| 3 | Gutschein |
-| 4 | EC-Karte |
-| 5 | Bankeinzug |
-| 10 | Rückgeld |
-| 11 | Skonto |
-| 12 | Bargeld in Fremdwährung |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Zahlungsarten</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>1</p>
+        </td>
+        <td>
+          <p>Bargeld in Kassenwährung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>Scheck</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>Gutschein</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>EC-Karte</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>5</p>
+        </td>
+        <td>
+          <p>Bankeinzug</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>10</p>
+        </td>
+        <td>
+          <p>Rückgeld</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>11</p>
+        </td>
+        <td>
+          <p>Skonto</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>12</p>
+        </td>
+        <td>
+          <p>Bargeld in Fremdwährung</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

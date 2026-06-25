@@ -2,14 +2,79 @@
 
 <!-- source: https://amic.de/hilfe/maske_SetupFilialsystem.htm -->
 
-| **Felder** | | |
-| --- | --- | --- |
-| Betrieb | Nummer der Betriebsstätte, danach dessen Bezeichnung. |
-| | *Einrichtung Filialsystem* | *Aktiv unter SQL Remote* |
-| Publikationen | Eingerichtete Publikationen die für die unter der im Feld Betrieb angegebenen Betriebsstätte. | Publikationen, die unter SQL Remote aktiv / eingetragen sind.<br>( Diese Informationen findet man in **scview** unter Publikationen ). |
-| Remote User | Nummer und Bezeichnung der angeschlossenen Filialen, wie sie im Filialsystem von A.eins eingerichtet sind. | Zeigt die unter **scview** angegebenen SQL Remotebenutzer. |
-| Subscriptions | Nummer und Bezeichnung der im Filialsystem von A.eins eingerichteten Subskriptionen. | SQL-Remote Benutzername und Subskription unter **scview** |
-| Auswahl Betrieb | Zeigt die Liste der angeschlossenen Betriebsstätten nach Nummer für die im Feld Betrieb angegebene Betriebsstätte.<br>Sie wird für einige Funktionen aus der Funktionsbox benötigt. |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><b>Felder</b></p>
+        </td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Betrieb</p>
+        </td>
+        <td colspan="2">
+          <p>Nummer der Betriebsstätte, danach dessen Bezeichnung.</p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <p><i><u>Einrichtung Filialsystem</u><u></u></i></p>
+        </td>
+        <td>
+          <p><i><u>Aktiv unter SQL Remote</u><u></u></i></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Publikationen</p>
+        </td>
+        <td>
+          <p>Eingerichtete Publikationen die für die unter der im Feld Betrieb angegebenen Betriebsstätte.</p>
+        </td>
+        <td>
+          <p>Publikationen, die unter SQL Remote aktiv / eingetragen sind.</p>
+          <p>( Diese Informationen findet man in <b>scview</b> unter Publikationen ).</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Remote User</p>
+        </td>
+        <td>
+          <p>Nummer und Bezeichnung der angeschlossenen Filialen, wie sie im Filialsystem von A.eins eingerichtet sind.</p>
+        </td>
+        <td>
+          <p>Zeigt die unter <b>scview</b> angegebenen SQL Remotebenutzer.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Subscriptions</p>
+        </td>
+        <td>
+          <p>Nummer und Bezeichnung der im Filialsystem von A.eins eingerichteten Subskriptionen.</p>
+        </td>
+        <td>
+          <p>SQL-Remote Benutzername und Subskription unter <b>scview</b></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Auswahl Betrieb</p>
+        </td>
+        <td colspan="2">
+          <p>Zeigt die Liste der angeschlossenen Betriebsstätten nach Nummer für die im Feld Betrieb angegebene Betriebsstätte.</p>
+          <p>Sie wird für einige Funktionen aus der Funktionsbox benötigt.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 | **Funktionen** | |
 | --- | --- |

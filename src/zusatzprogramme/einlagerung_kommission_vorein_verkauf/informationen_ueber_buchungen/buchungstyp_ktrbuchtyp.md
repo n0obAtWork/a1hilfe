@@ -8,13 +8,72 @@ Um unterscheiden zu können, auf welche Bestände eine Buchung wirken soll, gibt
 
 Der Buchungstyp findet sich in der Tabelle Warenbewegung als Feld KtrBuchTyp.
 
-| Buchungstypen<br> |
-| --- |
-| 0 | Eigenwarebuchung | Diese Buchung verändert nur die Bestände der Eigenware |
-| 1 | Vorverkauf | Diese Buchung verändert Fremdware |
-| 2 | Voreinkauf | Diese Buchung verändert Fremdlager |
-| 3 | Einlagerung | Diese Buchung verändert Fremdware |
-| 4 | Kommission | Diese Buchung verändert Fremdlager |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="3">
+          <p><strong>Buchungstypen</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>0</p>
+        </td>
+        <td>
+          <p>Eigenwarebuchung</p>
+        </td>
+        <td>
+          <p>Diese Buchung verändert nur die Bestände der Eigenware</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>1</p>
+        </td>
+        <td>
+          <p>Vorverkauf</p>
+        </td>
+        <td>
+          <p>Diese Buchung verändert Fremdware</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>Voreinkauf</p>
+        </td>
+        <td>
+          <p>Diese Buchung verändert Fremdlager</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>Einlagerung</p>
+        </td>
+        <td>
+          <p>Diese Buchung verändert Fremdware</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>Kommission</p>
+        </td>
+        <td>
+          <p>Diese Buchung verändert Fremdlager</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="just-emphasize">Buchungstyp im Kontrakt</p>
 

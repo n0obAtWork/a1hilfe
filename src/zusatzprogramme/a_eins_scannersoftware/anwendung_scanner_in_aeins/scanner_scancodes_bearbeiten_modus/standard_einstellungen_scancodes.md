@@ -18,15 +18,75 @@ Die Standard System Scancodes sind für die Navigation in der Anzeige auf dem MD
 
 Es werden folgende Standard System Scancodes angelegt:
 
-| Scancode | Bedeutung |
-| --- | --- |
-| ZENTRAL | Verbindung mit der zentralen Datenbank |
-| KEYLEFT | Ermöglicht das Ansehen einer alternativen Itembox. Im Falle der Auftragsbearbeitung und Bestellung werden hier schon alle abgearbeiteten Positionen angezeigt. |
-| KEYRIGHT | Schaltet die eigentliche Itembox wieder in den Vordergrund |
-| KEYDOWN | Blättern in der Itembox nach unten wenn mehr als eine Position erfasst wurden |
-| KEYUP | Blättern in der Itembox nach oben wenn mehr als eine Position erfasst wurden |
-| STORNO | Mit diesem Befehl können rückwärts die letzten Positionen gelöscht werden. Beim ersten STORNO Scannen wird eine Itembox mit den zu stornierenden Befehlen angezeigt. Beim zweiten Scannen von STORNO wird die letzte Position gelöscht, mit jedem weiteren Scannen von STORNO wird eine Position gelöscht. Wurden alle falschen Positionen gelöscht so kann mit der Erfassung fortgefahren werden.<br>Soll erneut storniert werden so beginnt das Prozedere wieder von vorne. |
-| | | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Scancode</strong></p>
+        </td>
+        <td>
+          <p><strong>Bedeutung</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>ZENTRAL</p>
+        </td>
+        <td colspan="2">
+          <p>Verbindung mit der zentralen Datenbank</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>KEYLEFT</p>
+        </td>
+        <td colspan="2">
+          <p>Ermöglicht das Ansehen einer alternativen Itembox. Im Falle der Auftragsbearbeitung und Bestellung werden hier schon alle abgearbeiteten Positionen angezeigt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>KEYRIGHT</p>
+        </td>
+        <td colspan="2">
+          <p>Schaltet die eigentliche Itembox wieder in den Vordergrund</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>KEYDOWN</p>
+        </td>
+        <td colspan="2">
+          <p>Blättern in der Itembox nach unten wenn mehr als eine Position erfasst wurden</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>KEYUP</p>
+        </td>
+        <td colspan="2">
+          <p>Blättern in der Itembox nach oben wenn mehr als eine Position erfasst wurden</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>STORNO</p>
+        </td>
+        <td colspan="2">
+          <p>Mit diesem Befehl können rückwärts die letzten Positionen gelöscht werden. Beim ersten STORNO Scannen wird eine Itembox mit den zu stornierenden Befehlen angezeigt. Beim zweiten Scannen von STORNO wird die letzte Position gelöscht, mit jedem weiteren Scannen von STORNO wird eine Position gelöscht. Wurden alle falschen Positionen gelöscht so kann mit der Erfassung fortgefahren werden.<br>Soll erneut storniert werden so beginnt das Prozedere wieder von vorne.</p>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ###### Standard Einrichtung Inventur / Inventur LVS
 

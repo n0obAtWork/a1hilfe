@@ -8,17 +8,88 @@ Auf der Registerkarte ***Zusatz*** werden die weiteren Daten zum Kunden sowie zu
 
 Auf dem Register ***Zusatz*** sind folgende Felder zu sehen:
 
-| Ansprechpartner Kontaktdaten Default |
-| --- |
-| Telefon | Die Telefonnummer des Ansprechpartners, wenn nicht im Bediener hinterlegt. |
-| E-Mail-Adresse | Die E-Mail-Adresse des Ansprechpartners, wenn nicht im Bediener hinterlegt. |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Ansprechpartner Kontaktdaten Default</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Telefon</p>
+        </td>
+        <td>
+          <p>Die Telefonnummer des Ansprechpartners, wenn nicht im Bediener hinterlegt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>E-Mail-Adresse</p>
+        </td>
+        <td>
+          <p>Die E-Mail-Adresse des Ansprechpartners, wenn nicht im Bediener hinterlegt.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Der Ansprechpartner stellt eine Person im eigenen Unternehmen dar, welche Sie bei Fragen oder Problemen zu dieser Rechnung kontaktieren können.
 
-| Verarbeitung |
-| --- |
-| Dateipfad | Dort werden die erstellten XMLs hinterlegt. |
-| Dateipfad Test | Dort werden die XMLs hinterlegt, welche durch die Funktion ***Rechnung testen*** erstellt wurden. |
-| Webservice | Ob die eRechnung an einen Webservice zur Verifikation weitergeleitet wird, dabei gibt es folgende Möglichkeiten:<br>**0** - nicht durchführen: Das erzeugte Xml wird nicht zur Verifikation an den Webservice gesendet.<br>**1** - nur protokollieren: Das erzeugte Xml wird zur Verifikation an den Webservice gesendet, das Ergebnis wird aber lediglich protokolliert. <br>**2** - immer beachten: Das erzeugte Xml wird immer an den Webservice gesendet - schlägt die Verifikation fehlt, wird der Export sofort wieder gelöscht, nur archiviert. |
-| Versandprozedur | (! Nur im Exportformat UBL !)<br>Hier kann eine Versandprozedur angegeben werden. Diese muss zwei Eingabeparameter haben. Diese sind die **Fa_id** und die **Fa_MndNr** des Archiveintrags, der nach der Erstellung versendet werden soll. Die Ziel-Mailadresse wird hier drin ermittelt und der Versandprofilstammeintrag u. U. fest verdrahtet eingetragen. |
-| Dateinamensfkt. | Hier kann eine Datenbankfunktion zur Findung des Dateinamens eingetragen werden. Als Standard gilt „AMIC_STD_XRE_Filename“. |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Verarbeitung</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Dateipfad</p>
+        </td>
+        <td>
+          <p>Dort werden die erstellten XMLs hinterlegt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Dateipfad Test</p>
+        </td>
+        <td>
+          <p>Dort werden die XMLs hinterlegt, welche durch die Funktion <strong><em>Rechnung testen</em></strong> erstellt wurden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Webservice</p>
+        </td>
+        <td>
+          <p>Ob die eRechnung an einen Webservice zur Verifikation weitergeleitet wird, dabei gibt es folgende Möglichkeiten:</p>
+          <p><strong>0</strong> - nicht durchführen: Das erzeugte Xml wird nicht zur Verifikation an den Webservice gesendet.</p>
+          <p><strong>1</strong> - nur protokollieren: Das erzeugte Xml wird zur Verifikation an den Webservice gesendet, das Ergebnis wird aber lediglich protokolliert.&nbsp;</p>
+          <p><strong>2</strong> - immer beachten: Das erzeugte Xml wird immer an den Webservice gesendet - schlägt die Verifikation fehlt, wird der Export sofort wieder gelöscht, nur archiviert.&nbsp;</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Versandprozedur</p>
+        </td>
+        <td>
+          <p>(! Nur im Exportformat UBL !)</p>
+          <p>Hier kann eine Versandprozedur angegeben werden. Diese muss zwei Eingabeparameter haben. Diese sind die <strong>Fa_id</strong> und die <strong>Fa_MndNr</strong> des Archiveintrags, der nach der Erstellung versendet werden soll. Die Ziel-Mailadresse wird hier drin ermittelt und der Versandprofilstammeintrag u. U. fest verdrahtet eingetragen.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Dateinamensfkt.</p>
+        </td>
+        <td>
+          <p>Hier kann eine Datenbankfunktion zur Findung des Dateinamens eingetragen werden. Als Standard gilt „AMIC_STD_XRE_Filename“.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

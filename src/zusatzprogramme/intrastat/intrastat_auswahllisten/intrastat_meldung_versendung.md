@@ -18,7 +18,7 @@ oder Direktsprung **[INTRA]**
 | Beteiligtes Land | Staat des zugehörigen Mandanten (Iso-Code aus dem Staatstamm)<br>Siehe auch:<br>[Staatstamm](../../../firmenstamm/staatstamm/index.md) |
 | UStid Mandant | Umsatzsteuerid des zugehörigen Mandanten<br>Im Normal-Fall die im Vorgang hinterlegte UStid. Ist diese nicht angegeben wird die Default-UStid des Mandantstammes herangezogen.<br>Siehe auch:<br>[Finanzbuchhaltung Ust-IdNr.](../../../firmenstamm/firmenkonstanten/mandantenstamm.md#MND_FIBU) |
 | UStid Kunde | Umsatzsteuerid des Kunden |
-| Artikel-Intrastatnummer | Die im Artikelstamm hinterlegte Intrastatnummer des Artikels:<br>| X | = Intrastat-Artikel Nummer wurde nicht im Artikelstamm hinterlegt |
+| Artikel-Intrastatnummer | Die im Artikelstamm hinterlegte Intrastatnummer des Artikels:<br>&#124; X &#124; = Intrastat-Artikel Nummer wurde nicht im Artikelstamm hinterlegt |
 | Artikel | ID des Artikels |
 | Art des Geschäftes | Art des Geschäftes |
 | Verkehrszweig | Verkehrszweig |

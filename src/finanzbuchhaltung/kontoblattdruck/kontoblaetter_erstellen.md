@@ -8,14 +8,65 @@ Direktsprung **[KOD]**
 
 Innerhalb des Eingabebildschirms werden die Eingrenzungen vorgenommen, mit deren Hilfe die Kontoblätter erstellt werden.
 
-| | Beschreibung |
-| --- | --- |
-| **Kontoart**<br> | Sachkonto, Personenkonto, Debitoren, Kreditoren oder Kontokorrent<br> |
-| **bis Periode/Jahr**<br> | Eingabe Periode Jahr bis zu der/den Buchungen berücksichtigt werden<br> |
-| **bis Belegdatum**<br> | Eingabe des Datums bis zu den Buchungen berücksichtigt werden Bei der Erstellung von Kontoblättern für Forderungs-/Verbindlichkeitskonten für die Methode „Saldo Stichtag“ wird das Belegdatum nicht berücksichtig.<br> |
-| **Bemerkung**<br> | Eingabe Wahlfreier Text<br> |
-| **Kontobereich von ... bis ...**<br> | Eingrenzung der Konten<br> |
-| | | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2"></td>
+        <td>
+          <p><strong>Beschreibung</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Kontoart</strong></p>
+        </td>
+        <td colspan="2">
+          <p>Sachkonto, Personenkonto, Debitoren, Kreditoren oder Kontokorrent</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>bis Periode/Jahr</strong></p>
+        </td>
+        <td colspan="2">
+          <p>Eingabe Periode Jahr bis zu der/den Buchungen berücksichtigt werden</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>bis Belegdatum</strong></p>
+        </td>
+        <td colspan="2">
+          <p>Eingabe des Datums bis zu den Buchungen berücksichtigt werden Bei der Erstellung von Kontoblättern für Forderungs-/Verbindlichkeitskonten für die Methode „Saldo Stichtag“ wird das Belegdatum nicht berücksichtig.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Bemerkung</strong></p>
+        </td>
+        <td colspan="2">
+          <p>Eingabe Wahlfreier Text</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Kontobereich von ... bis ...</strong></p>
+        </td>
+        <td colspan="2">
+          <p>Eingrenzung der Konten</p>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Ist als Kontoart Personenkonto bzw. Debitor/Kreditor oder Kontokorrent angewählt, so kann man auch die auf der Abbildung deaktivierten Felder zur Eingrenzung verwenden.
 

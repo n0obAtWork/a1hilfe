@@ -131,31 +131,253 @@ Bei einer privaten Prozedur müssen immer diese drei Übergabeparameter angegebe
 
 Als Ergebnis erwarten wir folgende Paramater von der Prozedur zurück.
 
-| Name | Typ | Bedeutung |
-| --- | --- | --- |
-| IDENT | integer | Nummer des Satzes |
-| NumKreisNummer | integer | Nummernkreis für das Einspielen der Buchungssätze |
-| HauptKonto | integer | Hauptkonto |
-| HauptText | Char(100) | Text |
-| GegenKonto | Integer | Gegenkonto |
-| GegenText | Char(100) | Text |
-| FiBuVP_Betrag | Numeric(15,4) | |
-| FiBuVPW_Betrag | Numeric(15,4) | |
-| FiBuVP_SollHaben | integer | |
-| FiBuV_Datum | date | |
-| JahrNummer | integer | Jahrnummer |
-| PeriNummer | integer | Periodennummer |
-| KostStelNummer | integer | Kostenstelle |
-| KSTRNummer | integer | Kostenträger |
-| FiBuV_FremdNr | Char(20) | |
-| FiBuV_PaginierNr | Char(40) | |
-| FiBuVPW_Kurs | Numeric(15,6) | |
-| FiBuVPW_RechFormel | integer | |
-| FiBuVPW_Faktor | Numeric(15,4) | |
-| FiBuVPW_Typ | integer | |
-| Waehrnummer | integer | Währungsnummer |
-| Dateiname | Char(255) | Gibt den Namen der eingespielten Datei zurück. Wird benötigt, damit der Status eingespielt richtig gesetzt wird. |
-| | | | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p>Name</p>
+        </td>
+        <td colspan="2">
+          <p>Typ</p>
+        </td>
+        <td>
+          <p>&nbsp;Bedeutung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>IDENT</p>
+        </td>
+        <td>
+          <p>integer</p>
+        </td>
+        <td colspan="2">
+          <p>Nummer des Satzes</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>NumKreisNummer</p>
+        </td>
+        <td>
+          <p>integer</p>
+        </td>
+        <td colspan="2">
+          <p>Nummernkreis für das Einspielen der Buchungssätze</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>HauptKonto</p>
+        </td>
+        <td>
+          <p>integer</p>
+        </td>
+        <td colspan="2">
+          <p>Hauptkonto</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>HauptText</p>
+        </td>
+        <td>
+          <p>Char(100)</p>
+        </td>
+        <td colspan="2">
+          <p>Text</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>GegenKonto</p>
+        </td>
+        <td>
+          <p>Integer</p>
+        </td>
+        <td colspan="2">
+          <p>Gegenkonto</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>GegenText</p>
+        </td>
+        <td>
+          <p>Char(100)</p>
+        </td>
+        <td colspan="2">
+          <p>Text</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>FiBuVP_Betrag</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td colspan="2"></td>
+      </tr>
+      <tr>
+        <td>
+          <p>FiBuVPW_Betrag</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td colspan="2"></td>
+      </tr>
+      <tr>
+        <td>
+          <p>FiBuVP_SollHaben</p>
+        </td>
+        <td>
+          <p>integer</p>
+        </td>
+        <td colspan="2"></td>
+      </tr>
+      <tr>
+        <td>
+          <p>FiBuV_Datum</p>
+        </td>
+        <td>
+          <p>date</p>
+        </td>
+        <td colspan="2"></td>
+      </tr>
+      <tr>
+        <td>
+          <p>JahrNummer</p>
+        </td>
+        <td>
+          <p>integer</p>
+        </td>
+        <td colspan="2">
+          <p>Jahrnummer</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>PeriNummer</p>
+        </td>
+        <td>
+          <p>integer</p>
+        </td>
+        <td colspan="2">
+          <p>Periodennummer</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>KostStelNummer</p>
+        </td>
+        <td>
+          <p>integer</p>
+        </td>
+        <td colspan="2">
+          <p>Kostenstelle</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>KSTRNummer</p>
+        </td>
+        <td>
+          <p>integer</p>
+        </td>
+        <td colspan="2">
+          <p>Kostenträger</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>FiBuV_FremdNr</p>
+        </td>
+        <td>
+          <p>Char(20)</p>
+        </td>
+        <td colspan="2"></td>
+      </tr>
+      <tr>
+        <td>
+          <p>FiBuV_PaginierNr</p>
+        </td>
+        <td>
+          <p>Char(40)</p>
+        </td>
+        <td colspan="2"></td>
+      </tr>
+      <tr>
+        <td>
+          <p>FiBuVPW_Kurs</p>
+        </td>
+        <td>
+          <p>Numeric(15,6)</p>
+        </td>
+        <td colspan="2"></td>
+      </tr>
+      <tr>
+        <td>
+          <p>FiBuVPW_RechFormel</p>
+        </td>
+        <td>
+          <p>integer</p>
+        </td>
+        <td colspan="2"></td>
+      </tr>
+      <tr>
+        <td>
+          <p>FiBuVPW_Faktor</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td colspan="2"></td>
+      </tr>
+      <tr>
+        <td>
+          <p>FiBuVPW_Typ</p>
+        </td>
+        <td>
+          <p>integer</p>
+        </td>
+        <td colspan="2"></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Waehrnummer</p>
+        </td>
+        <td>
+          <p>integer</p>
+        </td>
+        <td colspan="2">
+          <p>Währungsnummer</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Dateiname</p>
+        </td>
+        <td>
+          <p>Char(255)</p>
+        </td>
+        <td colspan="2">
+          <p>Gibt den Namen der eingespielten Datei zurück. Wird benötigt, damit der Status eingespielt richtig gesetzt wird.</p>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ```sql
 CREATE PROCEDURE fibu_ledgerimport (

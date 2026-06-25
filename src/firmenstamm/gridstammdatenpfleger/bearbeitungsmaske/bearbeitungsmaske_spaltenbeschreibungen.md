@@ -55,21 +55,173 @@ Wird diese Angabe frei gelassen, ist das Format der Anzeige von der Datenbank ab
 
 Mit der Darstellung wird festgelegt, welchem Zweck dieser Eintrag dient. Es sind folgende Einträge möglich:
 
-| Nr | Bezeichnung | Beschreibung |
-| --- | --- | --- |
-| 0 | Unsichtbar | Dieser Wert wird nicht angezeigt. Diese Option kann verwendet werden, um Werte an eine Speicherprozedur zu übergeben, die für die Identifikation des Datensatzes, nicht aber für Anzeige benötigt werden. Dies ist zum Beispiel der Fall bei Einträgen, die einen Drag- oder Dropname enthalten. |
-| 1 | Sichtbar | Dieses Feld ist sichtbar, kann jedoch nicht editiert werden |
-| 2 | Eingebbar | Dieses Feld ist sichtbar und kann editiert werden |
-| 3 | betretbar | Dieses Feld kann betreten, jedoch der Inhalt nicht abgeändert werden. |
-| 4 | Knoten | Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.<br>Dieses Element wird als Knoten angezeigt. Es beinhaltet einen anzuzeigenden Inhalt wie einen Text oder eine Nummer |
-| 5 | Blatt | Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.<br>Dieses Element ist eine Information am Ende des Baumes. Deshalb wird sie Blatt genannt. Die Information wird auf der rechten Seite neben dem Blatt dargestellt, während die oben erwähnte Überschrift als Bezeichner im Baum steht. Diese Information kann nicht editiert werden. |
-| 6 | Tooltipp | Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.<br>Wird die Maus über ein Element bewegt, das den gleichen Level hat, wie dieser Eintrag, so wird ein Hinweistext im HTML-Format dargestellt, der in diesem Feld steht. So sind für jede Spalte auch zusätzliche Informationen anzeigbar, die erst beim Ansteuern des Knotens mit der Maus sichtbar werden. |
-| 7 | Blatt mit Darstellung | Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.<br>Hier handelt es sich um ein Blatt, dessen Anklicken auf den Zielframes eine Anzeige auslöst. Dies ist zum Beispiel verwendbar, wenn im Zielframe ein Dokument dargestellt werden soll. |
-| 8 | Unsichtbare ID | Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.<br>Hier handelt es sich um eine ID, die im Fall einer Aktion an eine Prozedur übergeben wird. Die ID wird nicht angezeigt. |
-| 9 | Blatt Abfrage | Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.<br>Im Prinzip wie ein Blatt in 5, jedoch lässt sich dieser Wert nachträglich mit einem Doppelklick editieren. |
-| 10 | MIME-Inhalt | Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.<br>Der Inhalt des Feldes, das hier benannt wird, soll in einem Browser statt in einem Baum dargestellt werden.<br>In der Beschreibungsstruktur ist außer diesem Eintrag nur EIN weiterer Eintrag mit dem MIME-Typ zulässig. |
-| 11 | MIME-Typ | Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.<br>Der Inhalt des Feldes, das hier benannt wird, gibt an, von welchem Typ der Inhalt ist, der in einem Browser dargestellt werden soll.<br>In der Beschreibungsstruktur ist außer diesem Eintrag nur EIN weiterer Eintrag mit dem MIME-Inhalt zulässig. |
-| | | | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Nr</strong></p>
+        </td>
+        <td colspan="2">
+          <p><strong>Bezeichnung</strong></p>
+        </td>
+        <td>
+          <p><strong>Beschreibung</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>0</p>
+        </td>
+        <td>
+          <p>Unsichtbar</p>
+        </td>
+        <td colspan="2">
+          <p>Dieser Wert wird nicht angezeigt. Diese Option kann verwendet werden, um Werte an eine Speicherprozedur zu übergeben, die für die Identifikation des Datensatzes, nicht aber für Anzeige benötigt werden. Dies ist zum Beispiel der Fall bei Einträgen, die einen Drag- oder Dropname enthalten.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>1</p>
+        </td>
+        <td>
+          <p>Sichtbar</p>
+        </td>
+        <td colspan="2">
+          <p>Dieses Feld ist sichtbar, kann jedoch nicht editiert werden</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>Eingebbar</p>
+        </td>
+        <td colspan="2">
+          <p>Dieses Feld ist sichtbar und kann editiert werden</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>betretbar</p>
+        </td>
+        <td colspan="2">
+          <p>Dieses Feld kann betreten, jedoch der Inhalt nicht abgeändert werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>Knoten</p>
+        </td>
+        <td colspan="2">
+          <p>Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.</p>
+          <p>Dieses Element wird als Knoten angezeigt. Es beinhaltet einen anzuzeigenden Inhalt wie einen Text oder eine Nummer</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>5</p>
+        </td>
+        <td>
+          <p>Blatt</p>
+        </td>
+        <td colspan="2">
+          <p>Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.</p>
+          <p>Dieses Element ist eine Information am Ende des Baumes. Deshalb wird sie Blatt genannt. Die Information wird auf der rechten Seite neben dem Blatt dargestellt, während die oben erwähnte Überschrift als Bezeichner im Baum steht. Diese Information kann nicht editiert werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>6</p>
+        </td>
+        <td>
+          <p>Tooltipp</p>
+        </td>
+        <td colspan="2">
+          <p>Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.</p>
+          <p>Wird die Maus über ein Element bewegt, das den gleichen Level hat, wie dieser Eintrag, so wird ein Hinweistext im HTML-Format dargestellt, der in diesem Feld steht. So sind für jede Spalte auch zusätzliche Informationen anzeigbar, die erst beim Ansteuern des Knotens mit der Maus sichtbar werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>7</p>
+        </td>
+        <td>
+          <p>Blatt mit Darstellung</p>
+        </td>
+        <td colspan="2">
+          <p>Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.</p>
+          <p>Hier handelt es sich um ein Blatt, dessen Anklicken auf den Zielframes eine Anzeige auslöst. Dies ist zum Beispiel verwendbar, wenn im Zielframe ein Dokument dargestellt werden soll.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>8</p>
+        </td>
+        <td>
+          <p>Unsichtbare ID</p>
+        </td>
+        <td colspan="2">
+          <p>Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.</p>
+          <p>Hier handelt es sich um eine ID, die im Fall einer Aktion an eine Prozedur übergeben wird. Die ID wird nicht angezeigt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>9</p>
+        </td>
+        <td>
+          <p>Blatt Abfrage</p>
+        </td>
+        <td colspan="2">
+          <p>Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.</p>
+          <p>Im Prinzip wie ein Blatt in 5, jedoch lässt sich dieser Wert nachträglich mit einem Doppelklick editieren.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>10</p>
+        </td>
+        <td>
+          <p>MIME-Inhalt</p>
+        </td>
+        <td colspan="2">
+          <p>Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.</p>
+          <p>Der Inhalt des Feldes, das hier benannt wird, soll in einem Browser statt in einem Baum dargestellt werden.</p>
+          <p>In der Beschreibungsstruktur ist außer diesem Eintrag nur EIN weiterer Eintrag mit dem MIME-Typ zulässig.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>11</p>
+        </td>
+        <td>
+          <p>MIME-Typ</p>
+        </td>
+        <td colspan="2">
+          <p>Dieser Wert wird nur im Zusammenhang mit Baumdarstellungen verwendet.</p>
+          <p>Der Inhalt des Feldes, das hier benannt wird, gibt an, von welchem Typ der Inhalt ist, der in einem Browser dargestellt werden soll.</p>
+          <p>In der Beschreibungsstruktur ist außer diesem Eintrag nur EIN weiterer Eintrag mit dem MIME-Inhalt zulässig.</p>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Die Darstellungsangabe ist ein Pflichtfeld. Eine andere Auswahl als die aus der obigen Liste führt dazu, dass dieses Feld nicht ausgewertet wird.
 

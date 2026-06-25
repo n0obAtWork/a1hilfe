@@ -22,19 +22,107 @@ Auf der Maske werden alle Bereiche einer Kontraktvariante dargestellt. Folgende 
 
 Im Variantenbereich werden alle allgemeinen Informationen zum Bereich hinterlegt.
 
-| Variantenbereich |
-| --- |
-| Lfd. Nummer in Variante | Die lfd. Nummer bestimmt die Reihenfolge (aufsteigend nach Nummer) im Ausdruck. |
-| Formularbereich | Hier wird der Bezug zum Formular (siehe “Formulareinrichter”) hergestellt.<br>Damit wird im Programmablauf sichergestellt, dass die hier gemachten Angaben sich (z.B.) auf die “Artikelposition” des Formulars beziehen. Welche Informationen aus der “Artikelposition” ausgedruckt werden, ist im Formular selbst hinterlegt. |
-| Bezeichnung | Dies ist wieder ein freier Text zur besseren Beschreibung eines Bereiches. |
-| Maximale Anzahl im Druck | Gibt an, wie oft der Bereich maximal gedruckt werden soll. Wenn eine 0 eingegeben wird, so wird der Bereich bis zu maximal 50 Zeilen gedruckt.<br>Wird eine Zahl größer als 0 eingegeben, so wird der Bereich genauso oft gedruckt, wie die eingegebene Anzahl vorgibt. |
-| Maximale Anzahl Folgezeilen | Maximale Anzahl von Folgezeilen, bei der Eingabe von 0 wird auch keine Folgezeile gedruckt. |
-| Bereichsüberschrift | Der auszudruckende Bereich kann eine Überschrift erhalten. |
-| Beschriftung 1. Zeile | Beschriftung für die erste Zeile des Bereiches. Sie ersetzt praktisch die Bereichsüberschrift, wenn die Bereichsbeschreibung (z.B. “Qualität”) in der ersten Spalte des Formulars erfolgt. |
-| Pflicht | Wird der Bereich als Pflicht gekennzeichnet, kann er im Kontraktstamm nicht abgeschaltet werden. |
-| Optimierung Bereichsende | Mit dieser Option kann die Optimierung am Bereichsende festgelegt werden. |
-| Bereich nicht drucken | Falls der Bereich nicht gedruckt werden soll, kann dies hier festgelegt werden. |
-| Textbaustein aktiv | Kennzeichnet, ob der Bereich im Kontraktstamm automatisch ausgewählt sein soll, oder nicht. |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Variantenbereich</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Lfd. Nummer in Variante</p>
+        </td>
+        <td>
+          <p>Die lfd. Nummer bestimmt die Reihenfolge (aufsteigend nach Nummer) im Ausdruck.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Formularbereich</p>
+        </td>
+        <td>
+          <p>Hier wird der Bezug zum Formular (siehe “Formulareinrichter”) hergestellt.</p>
+          <p>Damit wird im Programmablauf sichergestellt, dass die hier gemachten Angaben sich (z.B.) auf die “Artikelposition” des Formulars beziehen. Welche Informationen aus der “Artikelposition” ausgedruckt werden, ist im Formular selbst hinterlegt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bezeichnung</p>
+        </td>
+        <td>
+          <p>Dies ist wieder ein freier Text zur besseren Beschreibung eines Bereiches.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Maximale Anzahl im Druck</p>
+        </td>
+        <td>
+          <p>Gibt an, wie oft der Bereich maximal gedruckt werden soll. Wenn eine 0 eingegeben wird, so wird der Bereich bis zu maximal 50 Zeilen gedruckt.</p>
+          <p>Wird eine Zahl größer als 0 eingegeben, so wird der Bereich genauso oft gedruckt, wie die eingegebene Anzahl vorgibt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Maximale Anzahl Folgezeilen</p>
+        </td>
+        <td>
+          <p>Maximale Anzahl von Folgezeilen, bei der Eingabe von 0 wird auch keine Folgezeile gedruckt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bereichsüberschrift</p>
+        </td>
+        <td>
+          <p>Der auszudruckende Bereich kann eine Überschrift erhalten.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Beschriftung 1. Zeile</p>
+        </td>
+        <td>
+          <p>Beschriftung für die erste Zeile des Bereiches. Sie ersetzt praktisch die Bereichsüberschrift, wenn die Bereichsbeschreibung (z.B. “Qualität”) in der ersten Spalte des Formulars erfolgt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Pflicht</p>
+        </td>
+        <td>
+          <p>Wird der Bereich als Pflicht gekennzeichnet, kann er im Kontraktstamm nicht abgeschaltet werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Optimierung Bereichsende</p>
+        </td>
+        <td>
+          <p>Mit dieser Option kann die Optimierung am Bereichsende festgelegt werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bereich nicht drucken</p>
+        </td>
+        <td>
+          <p>Falls der Bereich nicht gedruckt werden soll, kann dies hier festgelegt werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Textbaustein aktiv</p>
+        </td>
+        <td>
+          <p>Kennzeichnet, ob der Bereich im Kontraktstamm automatisch ausgewählt sein soll, oder nicht.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="just-emphasize">Textbaustein [![](../../ImagesExt/image8_148.png)](./bereiche.md)</p>
 

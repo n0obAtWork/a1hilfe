@@ -10,35 +10,225 @@ Die Felder sind mittels ["Variante"](../../../archiv_import/archiv_dokumenten_im
 
 Die Felder in der Standard-Auslieferung der Archiv-Anzeige ohne Vorschau sind wie folgt:
 
-| **Felder** |
-| --- |
-| KndNr | Zugeordnete Kundennummer |
-| Beleg-Typ | Zugeordneter Textueller Beleg-Typ |
-| Beleg-Nr | Zugeordnete Belegnummer |
-| Beleg-Datum | Zugeordnetes Beleg-Datum |
-| Archiv/Druck-Datum | Zugeordnetes Archivierungsdatum bzw. Druck-Datum |
-| Beleg-Referenz | Zugeordnete Archiv-Referenz |
-| Mnd | Zugeordneter Mandant |
-| Herkunft | Zugeordnete Herkunft |
-| Betreff | Zugeordneter Betreff |
-| Autor | Zugeordneter Autor |
-| Barcode | Zugeordneter Barcode |
-| Bedienerklasse | Zugeordnete Bedienerklasse |
-| Formularid | Zugeordnete Formularid |
-| Fa-Id | Zugewiesene technische Formulararchiv-Id |
-| Dateiname | Zugewiesener Dateiname |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><b>Felder</b></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>KndNr</p>
+        </td>
+        <td>
+          <p>Zugeordnete Kundennummer</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Beleg-Typ</p>
+        </td>
+        <td>
+          <p>Zugeordneter Textueller Beleg-Typ</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Beleg-Nr</p>
+        </td>
+        <td>
+          <p>Zugeordnete Belegnummer</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Beleg-Datum</p>
+        </td>
+        <td>
+          <p>Zugeordnetes Beleg-Datum</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Archiv/Druck-Datum</p>
+        </td>
+        <td>
+          <p>Zugeordnetes Archivierungsdatum bzw. Druck-Datum</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Beleg-Referenz</p>
+        </td>
+        <td>
+          <p>Zugeordnete Archiv-Referenz</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Mnd</p>
+        </td>
+        <td>
+          <p>Zugeordneter Mandant</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Herkunft</p>
+        </td>
+        <td>
+          <p>Zugeordnete Herkunft</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Betreff</p>
+        </td>
+        <td>
+          <p>Zugeordneter Betreff</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Autor</p>
+        </td>
+        <td>
+          <p>Zugeordneter Autor</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Barcode</p>
+        </td>
+        <td>
+          <p>Zugeordneter Barcode</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bedienerklasse</p>
+        </td>
+        <td>
+          <p>Zugeordnete Bedienerklasse</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Formularid</p>
+        </td>
+        <td>
+          <p>Zugeordnete Formularid</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Fa-Id</p>
+        </td>
+        <td>
+          <p>Zugewiesene technische Formulararchiv-Id</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Dateiname</p>
+        </td>
+        <td>
+          <p>Zugewiesener Dateiname</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-| **Funktionen** |
-| --- |
-| Senden an … | Senden an |
-| Archiv anzeigen [**Strg F12**] | Archiv anzeigen |
-| Ändern | [Archiv-Stammdatenpfleger](../../../archiv_stammdatenpfleger.md) |
-| Ansehen | [Archiv-Stammdatenpfleger](../../../archiv_stammdatenpfleger.md) |
-| Hinzufügen | [Archiv – Dokumente hinzufügen](../../../archiv_dokumente_hinzufuegen.md) |
-| Barcode zuweisen … | [Archiv Barcode](../../../archiv_barcode.md) |
-| Drucken | Es wird ein Druck des Archiv-Inhaltes über das Windows-System eingeleitet.<br> <br>Technische Erläuterung:<br>Dabei wird von A.eins eine temporäre Datei im Temp-Verzeichnis erstellt und diese dem Windows-System zum Drucken über die Methode „print“ übergeben.<br>Über Systemsteuerung > Programme > Standardprogramme können Sie mittels ![](../../../../ImagesExt/image8_908.png) <br>auf Ihrem System nachverfolgen welche Applikation mit der Extension verbunden ist. |
-| Ansicht Information | Diese Funktion teilt in einem Dialog mit, welche [Archiv-Ansicht-Definition](../../archiv_ansicht_definition/index.md) zum Aufbau dieser Auswahlliste verwendet wurde. |
-| Archiv Eintrag löschen | [Archiveinträge löschen](../../../archiv_administration/index.md) |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><b>Funktionen</b></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Senden an …</p>
+        </td>
+        <td>
+          <p>Senden an</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Archiv anzeigen [<b>Strg F12</b>]</p>
+        </td>
+        <td>
+          <p>Archiv anzeigen</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Ändern</p>
+        </td>
+        <td>
+          <p><a href="../../../archiv_stammdatenpfleger.md">Archiv-Stammdatenpfleger</a></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Ansehen</p>
+        </td>
+        <td>
+          <p><a href="../../../archiv_stammdatenpfleger.md">Archiv-Stammdatenpfleger</a></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Hinzufügen</p>
+        </td>
+        <td>
+          <p><a href="../../../archiv_dokumente_hinzufuegen.md">Archiv – Dokumente hinzufügen</a></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Barcode zuweisen …</p>
+        </td>
+        <td>
+          <p><a href="../../../archiv_barcode.md">Archiv Barcode</a></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Drucken</p>
+        </td>
+        <td>
+          <p>Es wird ein Druck des Archiv-Inhaltes über das Windows-System eingeleitet.</p>
+          <p>Technische Erläuterung:</p>
+          <p>Dabei wird von A.eins eine temporäre Datei im Temp-Verzeichnis erstellt und diese dem Windows-System zum Drucken über die Methode „print“ übergeben.</p>
+          <p>Über Systemsteuerung &gt; Programme &gt; Standardprogramme können Sie mittels <img src="../../../../ImagesExt/image8_908.png" alt=""></p>
+          <p>auf Ihrem System nachverfolgen welche Applikation mit der Extension verbunden ist.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Ansicht Information</p>
+        </td>
+        <td>
+          <p>Diese Funktion teilt in einem Dialog mit, welche <a href="../../archiv_ansicht_definition/index.md">Archiv-Ansicht-Definition</a> zum Aufbau dieser Auswahlliste verwendet wurde.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Archiv Eintrag löschen</p>
+        </td>
+        <td>
+          <p><a href="../../../archiv_administration/index.md">Archiveinträge löschen</a></p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="just-emphasize">Neue Archiv-Anzeige mit Vorschau</p>
 
@@ -161,21 +351,163 @@ or ( fagcrw.fa_id=fa.fa_id and fagcrw.fa_mndnr=fa.fa_mndnr) )  ) and ((select fa
 | RowHeight | Bestimmt die Höhe der Archiv-Ansichtszeilen im Grid. | Standard sind 60 Pixel, ohne Grafiken wird 22 empfohlen. |
 | Version | Die A.eins-Version bei erstmaliger Erstellung der Ableitung. | Dokumentatorischer Charakter. |
 
-| Description- Nodes |
-| --- |
-| Field | Name | Name der Sql-Spalte | |
-| | Caption | Beschriftung der Sql-Spalte | |
-| | Bitmap | true oder false, Standard ist false | Gibt an, ob sich beim Inhalt der Sql-Spalte um eine Grafik handelt. |
-| | Format | Name des A.eins-Format | Ähnlich wie bei der A.eins-Auswahlliste und den A.eins-Itemboxen kann man hier eine „textuelle Entsprechung“ des Wertes der Sql-Spalte angegeben. |
-| | Visible | true oder false, Standard ist true | Nicht alle Felder will man in jedem Falle auch anzeigen, gleich wohl wird der Wert eines solchen Feldes vielleicht für weitere Verwendungen (Funktionen) benötigt. |
-| | Sql | Sql-Statement zur Gewinnung des Wertes der Sql-Spalte | |
-| With | | Sql-Statement für ein optionales With | Weitere Erläuterungen entnehmen Sie bitte der Sybase-Dokumentation. |
-| Limitation | | Sql-Anweisung für eine optionale Limitierung des Resultsets. | |
-| From | | Sql-Anweisung für From | |
-| Join | | Optionale Erweiterung des obigen „From“ | Bei der Erst-Initialisierung einer Ableitung belegt A.eins diese mit dem Resultat der Archiv-Ansicht vor! |
-| Where | | Where-Klausel des Sql-Statements | Bei der Erst-Initialisierung einer Ableitung belegt A.eins diese mit dem Resultat der Archiv-Ansicht vor!<br>Beachten Sie unbedingt das Sie bei Änderungen hinsichtlich **fa_progintern** und dem Sichtschutz-Konzept über **formulararchivbediener** alleinverantwortlich<br>handeln. |
-| GroupBy | | Optionale GroupBy-Klausel des Sql-Statements | |
-| OrderBy | | Optionale OrderBy-Klausel des Sql-Statements | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="4">
+          <p><strong>Description- Nodes</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Field</p>
+        </td>
+        <td>
+          <p>Name</p>
+        </td>
+        <td>
+          <p>Name der Sql-Spalte</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <p>Caption</p>
+        </td>
+        <td>
+          <p>Beschriftung der Sql-Spalte</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <p>Bitmap</p>
+        </td>
+        <td>
+          <p>true oder false, Standard ist false</p>
+        </td>
+        <td>
+          <p>Gibt an, ob sich beim Inhalt der Sql-Spalte um eine Grafik handelt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <p>Format</p>
+        </td>
+        <td>
+          <p>Name des A.eins-Format</p>
+        </td>
+        <td>
+          <p>Ähnlich wie bei der A.eins-Auswahlliste und den A.eins-Itemboxen kann man hier eine „textuelle Entsprechung“ des Wertes der Sql-Spalte angegeben.</p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <p>Visible</p>
+        </td>
+        <td>
+          <p>true oder false, Standard ist true</p>
+        </td>
+        <td>
+          <p>Nicht alle Felder will man in jedem Falle auch anzeigen, gleich wohl wird der Wert eines solchen Feldes vielleicht für weitere Verwendungen (Funktionen) benötigt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <p>Sql</p>
+        </td>
+        <td>
+          <p>Sql-Statement zur Gewinnung des Wertes der Sql-Spalte</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>With</p>
+        </td>
+        <td></td>
+        <td>
+          <p>Sql-Statement für ein optionales With</p>
+        </td>
+        <td>
+          <p>Weitere Erläuterungen entnehmen Sie bitte der Sybase-Dokumentation.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Limitation</p>
+        </td>
+        <td></td>
+        <td>
+          <p>Sql-Anweisung für eine optionale Limitierung des Resultsets.</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>From</p>
+        </td>
+        <td></td>
+        <td>
+          <p>Sql-Anweisung für From</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Join</p>
+        </td>
+        <td></td>
+        <td>
+          <p>Optionale Erweiterung des obigen „From“</p>
+        </td>
+        <td>
+          <p>Bei der Erst-Initialisierung einer Ableitung belegt A.eins diese mit dem Resultat der Archiv-Ansicht vor!</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Where</p>
+        </td>
+        <td></td>
+        <td>
+          <p>Where-Klausel des Sql-Statements</p>
+        </td>
+        <td>
+          <p>Bei der Erst-Initialisierung einer Ableitung belegt A.eins diese mit dem Resultat der Archiv-Ansicht vor!</p>
+          <p>Beachten Sie unbedingt das Sie bei Änderungen hinsichtlich <b>fa_progintern</b> und dem Sichtschutz-Konzept über <b>formulararchivbediener </b>alleinverantwortlich</p>
+          <p>handeln.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>GroupBy</p>
+        </td>
+        <td></td>
+        <td>
+          <p>Optionale GroupBy-Klausel des Sql-Statements</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>OrderBy</p>
+        </td>
+        <td></td>
+        <td>
+          <p>Optionale OrderBy-Klausel des Sql-Statements</p>
+        </td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Sie können eine Ableitung löschen, indem Sie sämtlichen Text im Editor löschen und dann Speichern.
 

@@ -2,129 +2,2074 @@
 
 <!-- source: https://amic.de/hilfe/_cescannerai.htm -->
 
-| Liste der Application Identifier |
-| --- |
-| AI | Beschreibung | Länge AI | Länge Daten | FNC1 |
-| 00 | Serial Shipping Container Code | 2 | numerisch 18-stellig | \- |
-| 01 | EAN Nummer der Handelseinheit | 2 | numerisch 14-stellig | \- |
-| 02 | EAN Nummer der in der Transporteinheit enthaltenen Waren | 2 | numerisch 14-stellig | \- |
-| 10 | Losnummer bzw. Chargennummer | 2 | alphanumerisch bis zu 20-stellig | ja |
-| 11 | Herstellungsdatum JJMMTT | 2 | numerisch 6-stellig | \- |
-| 12 | Fälligkeitsdatum JJMMTT | 2 | numerisch 6-stellig | \- |
-| 13 | Packdatum JJMMTT | 2 | numerisch 6-stellig | \- |
-| 15 | Mindesthaltbarkeitsdatum JJMMTT | 2 | numerisch 6-stellig | \- |
-| 17 | Verfalldatum JJMMTT | 2 | numerisch 6-stellig | \- |
-| 20 | Produktvariante | 2 | numerisch 2-stellig | \- |
-| 21 | Seriennummer | 2 | alphanumerisch bis zu 20-stellig | ja |
-| 22 | HIBCC Nummer | 2 | alphanumerisch bis zu 29-stellig | \- |
-| 23n | Chargennummer | 3 | numerisch bis zu 19-stellig | ja |
-| 240 | zus. Produktidentifikation vom Hersteller | 3 | alphanumerisch bis zu 30-stellig | ja |
-| 241 | Kundenteilenummer | 3 | alphanumerisch bis zu 30-stellig | ja |
-| 250 | Seriennummer eines integrierten Bauteils | 3 | alphanumerisch bis zu 30-stellig | ja |
-| 251 | Bezug auf die Grundeinheit | 3 | alphanumerisch bis zu 30-stellig | ja |
-| 252 | Global Identifier Serialised for Trade | 3 | numerisch 2-stellig | \- |
-| 30 | Menge in Stück | 2 | numerisch bis zu 8-stellig | ja |
-| 310d | Nettogewicht in Kilogramm | 4 | numerisch 6-stellig | \- |
-| 311d | Länge, Meter | 4 | numerisch 6-stellig | \- |
-| 312d | Breite, Meter | 4 | numerisch 6-stellig | \- |
-| 313d | Höhe, Meter | 4 | numerisch 6-stellig | \- |
-| 314d | Fläche, Quadratmeter | 4 | numerisch 6-stellig | \- |
-| 315d | Nettovolumen, Liter | 4 | numerisch 6-stellig | \- |
-| 316d | Nettovolumen, Kubikmeter | 4 | numerisch 6-stellig | \- |
-| 320d | Nettogewicht, Pounds | 4 | numerisch 6-stellig | \- |
-| 321d | Länge, Inches | 4 | numerisch 6-stellig | \- |
-| 322d | Länge, Feet | 4 | numerisch 6-stellig | \- |
-| 323d | Länge, Yards | 4 | numerisch 6-stellig | \- |
-| 324d | Breite oder Durchmesser, Inches | 4 | numerisch 6-stellig | \- |
-| 325d | Breite oder Durchmesser, Feet | 4 | numerisch 6-stellig | \- |
-| 326d | Breite oder Durchmesser, Yards | 4 | numerisch 6-stellig | \- |
-| 327d | Höhe, Inches | 4 | numerisch 6-stellig | \- |
-| 328d | Höhe, Feet | 4 | numerisch 6-stellig | \- |
-| 329d | Höhe, Yards | 4 | numerisch 6-stellig | \- |
-| 330d | Bruttogewicht Kilogramm | 4 | numerisch 6-stellig | \- |
-| 331d | Länge, Meter | 4 | numerisch 6-stellig | \- |
-| 332d | Breite, Meter | 4 | numerisch 6-stellig | \- |
-| 333d | Höhe, Meter | 4 | numerisch 6-stellig | \- |
-| 334d | Fläche, Quadratmeter | 4 | numerisch 6-stellig | \- |
-| 335d | Bruttovolumen, Liter | 4 | numerisch 6-stellig | \- |
-| 336d | Bruttovolumen, Kubikmeter | 4 | numerisch 6-stellig | \- |
-| 337d | Kilogramm pro Quadratmeter | 4 | numerisch 6-stellig | \- |
-| 340d | Bruttogewicht, Pounds | 4 | numerisch 6-stellig | \- |
-| 341d | Länge,Inches | 4 | numerisch 6-stellig | \- |
-| 342d | Länge, Feet | 4 | numerisch 6-stellig | \- |
-| 343d | Länge, Yards | 4 | numerisch 6-stellig | \- |
-| 344d | Breite oder Durchmesser, Inches | 4 | numerisch 6-stellig | \- |
-| 345d | Breite oder Durchmesser, Feet | 4 | numerisch 6-stellig | \- |
-| 346d | BreiteBreite oder Durchmesser, Yards | 4 | numerisch 6-stellig | \- |
-| 347d | Höhe, Inches | 4 | numerisch 6-stellig | \- |
-| 348d | Höhe, Feet | 4 | numerisch 6-stellig | \- |
-| 349d | Höhe, Yards | 4 | numerisch 6-stellig | \- |
-| 350d | Fläche, Quadrat-Inches | 4 | numerisch 6-stellig | \- |
-| 351d | Fläche, Quadrat-Feet | 4 | numerisch 6-stellig | \- |
-| 352d | Fläche, Quadrat-Yards | 4 | numerisch 6-stellig | \- |
-| 353d | Fläche, Quadrat-Inches | 4 | numerisch 6-stellig | \- |
-| 354d | Fläche, Quadrat-Feet | 4 | numerisch 6-stellig | \- |
-| 355d | Fläche, Quadrat-Yards | 4 | numerisch 6-stellig | \- |
-| 356d | Nettogewicht, Troy Ounces | 4 | numerisch 6-stellig | \- |
-| 357d | Nettovolumen, Ounces (US) | 4 | numerisch 6-stellig | \- |
-| 360d | Nettovolumen, Quarts | 4 | numerisch 6-stellig | \- |
-| 361d | Nettovolumen, Gallonen (US) | 4 | numerisch 6-stellig | \- |
-| 362d | Bruttovolumen, Quarts | 4 | numerisch 6-stellig | \- |
-| 363d | Bruttovolumen, Gallonen (US) | 4 | numerisch 6-stellig | \- |
-| 364d | Nettovolumen, Kubik-Inches | 4 | numerisch 6-stellig | \- |
-| 365d | Nettovolumen, Kubik-Feet | 4 | numerisch 6-stellig | \- |
-| 366d | Nettovolumen, Kubik-Yards | 4 | numerisch 6-stellig | \- |
-| 367d | Bruttovolumen, Kubik-Inches | 4 | numerisch 6-stellig | \- |
-| 368d | Bruttovolumen, Kubik-Feet | 4 | numerisch 6-stellig | \- |
-| 369d | Bruttovolumen, Kubik-Yards | 4 | numerisch 6-stellig | \- |
-| 37 | Menge in Stück | 2 | numerisch bis zu 8-stellig | ja |
-| 390d | Fälliger Betrag - festgelegter Währungsbereich | 4 | numerisch bis zu 15-stellig | ja |
-| 391d | Fälliger Betrag - mit ISO Währungscode | 4 | numerisch 4 bis 18 stellig | ja |
-| 392d | Zu zahlender Betrag - festgelegter Währungsbereich | 4 | numerisch bis zu 15-stellig | ja |
-| 393d | Zu zahlender Betrag - mit ISO Währungscode | 4 | numerisch 4 bis 18 stellig | ja |
-| 400 | Bestell- bzw. Auftragsnummer des Warenempfängers | 3 | alphanumerisch bis zu 30-stellig | ja |
-| 401 | Sendungsnummer | 3 | alphanumerisch bis zu 30-stellig | ja |
-| 402 | Lieferungsnummer | 3 | numerisch 17-stellig | \- |
-| 403 | Leitcode | 3 | alphanumerisch bis zu 30-stellig | ja |
-| 410 | EAN/UCC Global Location Number (GLN) des Warenempfängers | 3 | numerisch 13-stellig | \- |
-| 411 | EAN/UCC Global Location Number (GLN) des Rechnungsempfängers | 3 | numerisch 13-stellig | \- |
-| 412 | EAN/UCC Global Location Number (GLN) des Lieferanten | 3 | numerisch 13-stellig | \- |
-| 413 | EAN/UCC Global Location Number (GLN) des Endempfängers | 3 | numerisch 13-stellig | \- |
-| 414 | EAN/UCC Global Location Number (GLN) auf der physischen Lokation | 3 | numerisch 13-stellig | \- |
-| 415 | EAN/UCC Global Location Number (GLN) des fakturierenden Teilnehmers | 3 | numerisch 13-stellig | \- |
-| 420 | Postleitzahl des Empfängers (ohne Ländercode) | 3 | alphanumerisch bis zu 20-stellig | ja |
-| 421 | Postleitzahl des Empfängers mit 3 stelligem ISO Ländercode | 3 | numerisch 3 stellig + alphanumerisch bis zu 9 stellig | ja |
-| 422 | Ursprungsland der Ware im ISO 3166 Format | 3 | numerisch 3-stellig | \- |
-| 423 | Land der ersten Verarbeitungsstufe (Länder der Mast) | 3 | numerisch 4 bis 12-stellig | ja |
-| 424 | Land der Verarbeitung (Land der Schlachtung) | 3 | numerisch 3-stellig | \- |
-| 425 | Land der Zerlegung | 3 | numerisch 3-stellig | \- |
-| 426 | Land aller Verarbeitungsstufen | 3 | numerisch 3-stellig | \- |
-| 7001 | Nato Stock Number | 4 | numerisch 13-stellig | \- |
-| 7002 | UN/ECE Meat Carcasses and Cuts Classification | 4 | alphanumerisch bis zu 30-stellig | ja |
-| 703s | ISO Ländercode mit Zulassungsnummer Schlachthaus/Verarbeiter | 4 | numerisch 3-stellig + alphanumerisch bis zu 27-stellig | ja |
-| 8001 | Rollenprodukte - Breite, Länge, usw. | 4 | numerisch 14-stellig | \- |
-| 8002 | Seriennummer für Mobiltelefone | 4 | alphanumerisch bis zu 20-stellig | ja |
-| 8003 | Global Returnable Asset Identifier | 4 | numerisch 18-stellig + alphanumerisch bis zu 16-stellig | ja |
-| 8004 | Global Individual Asset Identifier | 4 | alphanumerisch bis zu 30-stellig | ja |
-| 8005 | Abgabepreis pro Maßeinheit | 4 | numerisch 6-stellig | \- |
-| 8006 | Identifikation einer Artikelkomponente | 4 | numerisch 18-stellig | \- |
-| 8007 | Internationale Bank Kontonummer (IBAN) | 4 | alphanumerisch bis zu 30-stellig | ja |
-| 8008 | Datum und Zeit der Herstellung | 4 | numerisch 9 bis 12-stellig | ja |
-| 8018 | Global Service Relation Number | 4 | numerisch 18-stellig | \- |
-| 8020 | Zahlscheinbezugsnummer | 4 | alphanumerisch 25-stellig | \- |
-| 8100 | Coupon extended code - NSC + offer code | 4 | numerisch 10-stellig | \- |
-| 8101 | Coupon extended code - NSC + offer code + End Of Offer Code | 4 | numerisch 14-stellig | \- |
-| 8102 | Coupon extended code - NSC | 4 | numerisch 6-stellig | \- |
-| 90 | Information für bilateral abgestimmte Anwendungen | 2 | alphanumerisch bis zu 30-stellig | ja |
-| 91 | Für firmeninterne Nutzung | 2 | alphanumerisch bis zu 30-stellig | ja |
-| 92 | Für firmeninterne Nutzung | 2 | alphanumerisch bis zu 30-stellig | ja |
-| 93 | Für firmeninterne Nutzung | 2 | alphanumerisch bis zu 30-stellig | ja |
-| 94 | Für firmeninterne Nutzung | 2 | alphanumerisch bis zu 30-stellig | ja |
-| 95 | Für firmeninterne Nutzung | 2 | alphanumerisch bis zu 30-stellig | ja |
-| 96 | Für firmeninterne Nutzung | 2 | alphanumerisch bis zu 30-stellig | ja |
-| 97 | Für firmeninterne Nutzung | 2 | alphanumerisch bis zu 30-stellig | ja |
-| 98 | Für firmeninterne Nutzung | 2 | alphanumerisch bis zu 30-stellig | ja |
-| 99 | Für firmeninterne Nutzung | 2 | alphanumerisch bis zu 30-stellig | ja |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="5">
+          <p>Liste der Application Identifier</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>AI</p>
+        </td>
+        <td>
+          <p>Beschreibung</p>
+        </td>
+        <td>
+          <p>Länge AI</p>
+        </td>
+        <td>
+          <p>Länge Daten</p>
+        </td>
+        <td>
+          <p>FNC1</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>00</p>
+        </td>
+        <td>
+          <p>Serial Shipping Container Code&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        </td>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>numerisch 18-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>01</p>
+        </td>
+        <td>
+          <p>EAN Nummer der Handelseinheit</p>
+        </td>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>numerisch 14-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>02</p>
+        </td>
+        <td>
+          <p>EAN Nummer der in der Transporteinheit enthaltenen Waren</p>
+        </td>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>numerisch 14-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>10</p>
+        </td>
+        <td>
+          <p>Losnummer bzw. Chargennummer</p>
+        </td>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>alphanumerisch bis zu 20-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>11</p>
+        </td>
+        <td>
+          <p>Herstellungsdatum JJMMTT</p>
+        </td>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>12</p>
+        </td>
+        <td>
+          <p>Fälligkeitsdatum JJMMTT</p>
+        </td>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>13</p>
+        </td>
+        <td>
+          <p>Packdatum JJMMTT</p>
+        </td>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>15</p>
+        </td>
+        <td>
+          <p>Mindesthaltbarkeitsdatum JJMMTT</p>
+        </td>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>17</p>
+        </td>
+        <td>
+          <p>Verfalldatum JJMMTT</p>
+        </td>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>20</p>
+        </td>
+        <td>
+          <p>Produktvariante</p>
+        </td>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>numerisch 2-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>21</p>
+        </td>
+        <td>
+          <p>Seriennummer</p>
+        </td>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>alphanumerisch bis zu 20-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>22</p>
+        </td>
+        <td>
+          <p>HIBCC Nummer</p>
+        </td>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>alphanumerisch bis zu 29-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>23n</p>
+        </td>
+        <td>
+          <p>Chargennummer</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>numerisch bis zu 19-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>240</p>
+        </td>
+        <td>
+          <p>zus. Produktidentifikation vom Hersteller</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>alphanumerisch bis zu 30-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>241</p>
+        </td>
+        <td>
+          <p>Kundenteilenummer</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>alphanumerisch bis zu 30-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>250</p>
+        </td>
+        <td>
+          <p>Seriennummer eines integrierten Bauteils</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>alphanumerisch bis zu 30-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>251</p>
+        </td>
+        <td>
+          <p>Bezug auf die Grundeinheit</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>alphanumerisch bis zu 30-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>252</p>
+        </td>
+        <td>
+          <p>Global Identifier Serialised for Trade</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>numerisch 2-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>30</p>
+        </td>
+        <td>
+          <p>Menge in Stück</p>
+        </td>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>numerisch bis zu 8-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>310d</p>
+        </td>
+        <td>
+          <p>Nettogewicht in Kilogramm</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>311d</p>
+        </td>
+        <td>
+          <p>Länge, Meter</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>312d</p>
+        </td>
+        <td>
+          <p>Breite, Meter</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>313d</p>
+        </td>
+        <td>
+          <p>Höhe, Meter</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>314d</p>
+        </td>
+        <td>
+          <p>Fläche, Quadratmeter</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>315d</p>
+        </td>
+        <td>
+          <p>Nettovolumen, Liter</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>316d</p>
+        </td>
+        <td>
+          <p>Nettovolumen, Kubikmeter</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>320d</p>
+        </td>
+        <td>
+          <p>Nettogewicht, Pounds</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>321d</p>
+        </td>
+        <td>
+          <p>Länge, Inches</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>322d</p>
+        </td>
+        <td>
+          <p>Länge, Feet</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>323d</p>
+        </td>
+        <td>
+          <p>Länge, Yards</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>324d</p>
+        </td>
+        <td>
+          <p>Breite oder Durchmesser, Inches</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>325d</p>
+        </td>
+        <td>
+          <p>Breite oder Durchmesser, Feet</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>326d</p>
+        </td>
+        <td>
+          <p>Breite oder Durchmesser, Yards</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>327d</p>
+        </td>
+        <td>
+          <p>Höhe, Inches</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>328d</p>
+        </td>
+        <td>
+          <p>Höhe, Feet</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>329d</p>
+        </td>
+        <td>
+          <p>Höhe, Yards</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>330d</p>
+        </td>
+        <td>
+          <p>Bruttogewicht Kilogramm</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>331d</p>
+        </td>
+        <td>
+          <p>Länge, Meter</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>332d</p>
+        </td>
+        <td>
+          <p>Breite, Meter</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>333d</p>
+        </td>
+        <td>
+          <p>Höhe, Meter</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>334d</p>
+        </td>
+        <td>
+          <p>Fläche, Quadratmeter</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>335d</p>
+        </td>
+        <td>
+          <p>Bruttovolumen, Liter</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>336d</p>
+        </td>
+        <td>
+          <p>Bruttovolumen, Kubikmeter</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>337d</p>
+        </td>
+        <td>
+          <p>Kilogramm pro Quadratmeter</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>340d</p>
+        </td>
+        <td>
+          <p>Bruttogewicht, Pounds</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>341d</p>
+        </td>
+        <td>
+          <p>Länge,Inches</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>342d</p>
+        </td>
+        <td>
+          <p>Länge, Feet</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>343d</p>
+        </td>
+        <td>
+          <p>Länge, Yards</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>344d</p>
+        </td>
+        <td>
+          <p>Breite oder Durchmesser, Inches</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>345d</p>
+        </td>
+        <td>
+          <p>Breite oder Durchmesser, Feet</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>346d</p>
+        </td>
+        <td>
+          <p>BreiteBreite oder Durchmesser, Yards</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>347d</p>
+        </td>
+        <td>
+          <p>Höhe, Inches</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>348d</p>
+        </td>
+        <td>
+          <p>Höhe, Feet</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>349d</p>
+        </td>
+        <td>
+          <p>Höhe, Yards</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>350d</p>
+        </td>
+        <td>
+          <p>Fläche, Quadrat-Inches</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>351d</p>
+        </td>
+        <td>
+          <p>Fläche, Quadrat-Feet</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>352d</p>
+        </td>
+        <td>
+          <p>Fläche, Quadrat-Yards</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>353d</p>
+        </td>
+        <td>
+          <p>Fläche, Quadrat-Inches</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>354d</p>
+        </td>
+        <td>
+          <p>Fläche, Quadrat-Feet</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>355d</p>
+        </td>
+        <td>
+          <p>Fläche, Quadrat-Yards</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>356d</p>
+        </td>
+        <td>
+          <p>Nettogewicht, Troy Ounces</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>357d</p>
+        </td>
+        <td>
+          <p>Nettovolumen, Ounces (US)</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>360d</p>
+        </td>
+        <td>
+          <p>Nettovolumen, Quarts</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>361d</p>
+        </td>
+        <td>
+          <p>Nettovolumen, Gallonen (US)</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>362d</p>
+        </td>
+        <td>
+          <p>Bruttovolumen, Quarts</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>363d</p>
+        </td>
+        <td>
+          <p>Bruttovolumen, Gallonen (US)</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>364d</p>
+        </td>
+        <td>
+          <p>Nettovolumen, Kubik-Inches</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>365d</p>
+        </td>
+        <td>
+          <p>Nettovolumen, Kubik-Feet</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>366d</p>
+        </td>
+        <td>
+          <p>Nettovolumen, Kubik-Yards</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>367d</p>
+        </td>
+        <td>
+          <p>Bruttovolumen, Kubik-Inches</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>368d</p>
+        </td>
+        <td>
+          <p>Bruttovolumen, Kubik-Feet</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>369d</p>
+        </td>
+        <td>
+          <p>Bruttovolumen, Kubik-Yards</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>37</p>
+        </td>
+        <td>
+          <p>Menge in Stück</p>
+        </td>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>numerisch bis zu 8-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>390d</p>
+        </td>
+        <td>
+          <p>Fälliger Betrag - festgelegter Währungsbereich</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch bis zu 15-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>391d</p>
+        </td>
+        <td>
+          <p>Fälliger Betrag - mit ISO Währungscode</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 4 bis 18 stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>392d</p>
+        </td>
+        <td>
+          <p>Zu zahlender Betrag - festgelegter Währungsbereich</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch bis zu 15-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>393d</p>
+        </td>
+        <td>
+          <p>Zu zahlender Betrag - mit ISO Währungscode</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 4 bis 18 stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>400</p>
+        </td>
+        <td>
+          <p>Bestell- bzw. Auftragsnummer des Warenempfängers</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>alphanumerisch bis zu 30-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>401</p>
+        </td>
+        <td>
+          <p>Sendungsnummer</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>alphanumerisch bis zu 30-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>402</p>
+        </td>
+        <td>
+          <p>Lieferungsnummer</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>numerisch 17-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>403</p>
+        </td>
+        <td>
+          <p>Leitcode</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>alphanumerisch bis zu 30-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>410</p>
+        </td>
+        <td>
+          <p>EAN/UCC Global Location Number (GLN) des Warenempfängers</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>numerisch 13-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>411</p>
+        </td>
+        <td>
+          <p>EAN/UCC Global Location Number (GLN) des Rechnungsempfängers</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>numerisch 13-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>412</p>
+        </td>
+        <td>
+          <p>EAN/UCC Global Location Number (GLN) des Lieferanten</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>numerisch 13-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>413</p>
+        </td>
+        <td>
+          <p>EAN/UCC Global Location Number (GLN) des Endempfängers</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>numerisch 13-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>414</p>
+        </td>
+        <td>
+          <p>EAN/UCC Global Location Number (GLN) auf der physischen Lokation</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>numerisch 13-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>415</p>
+        </td>
+        <td>
+          <p>EAN/UCC Global Location Number (GLN) des fakturierenden Teilnehmers</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>numerisch 13-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>420</p>
+        </td>
+        <td>
+          <p>Postleitzahl des Empfängers (ohne Ländercode)</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>alphanumerisch bis zu 20-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>421</p>
+        </td>
+        <td>
+          <p>Postleitzahl des Empfängers mit 3 stelligem ISO Ländercode</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>numerisch 3 stellig + alphanumerisch bis zu 9 stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>422</p>
+        </td>
+        <td>
+          <p>Ursprungsland der Ware im ISO 3166 Format</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>numerisch 3-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>423</p>
+        </td>
+        <td>
+          <p>Land der ersten Verarbeitungsstufe (Länder der Mast)</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>numerisch 4 bis 12-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>424</p>
+        </td>
+        <td>
+          <p>Land der Verarbeitung (Land der Schlachtung)</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>numerisch 3-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>425</p>
+        </td>
+        <td>
+          <p>Land der Zerlegung</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>numerisch 3-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>426</p>
+        </td>
+        <td>
+          <p>Land aller Verarbeitungsstufen</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>numerisch 3-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>7001</p>
+        </td>
+        <td>
+          <p>Nato Stock Number</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 13-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>7002</p>
+        </td>
+        <td>
+          <p>UN/ECE Meat Carcasses and Cuts Classification</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>alphanumerisch bis zu 30-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>703s</p>
+        </td>
+        <td>
+          <p>ISO Ländercode mit Zulassungsnummer Schlachthaus/Verarbeiter</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 3-stellig + alphanumerisch bis zu 27-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>8001</p>
+        </td>
+        <td>
+          <p>Rollenprodukte - Breite, Länge, usw.</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 14-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>8002</p>
+        </td>
+        <td>
+          <p>Seriennummer für Mobiltelefone</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>alphanumerisch bis zu 20-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>8003</p>
+        </td>
+        <td>
+          <p>Global Returnable Asset Identifier</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 18-stellig + alphanumerisch bis zu 16-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>8004</p>
+        </td>
+        <td>
+          <p>Global Individual Asset Identifier</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>alphanumerisch bis zu 30-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>8005</p>
+        </td>
+        <td>
+          <p>Abgabepreis pro Maßeinheit</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>8006</p>
+        </td>
+        <td>
+          <p>Identifikation einer Artikelkomponente</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 18-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>8007</p>
+        </td>
+        <td>
+          <p>Internationale Bank Kontonummer (IBAN)</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>alphanumerisch bis zu 30-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>8008</p>
+        </td>
+        <td>
+          <p>Datum und Zeit der Herstellung</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 9 bis 12-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>8018</p>
+        </td>
+        <td>
+          <p>Global Service Relation Number</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 18-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>8020</p>
+        </td>
+        <td>
+          <p>Zahlscheinbezugsnummer</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>alphanumerisch 25-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>8100</p>
+        </td>
+        <td>
+          <p>Coupon extended code - NSC + offer code</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 10-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>8101</p>
+        </td>
+        <td>
+          <p>Coupon extended code - NSC + offer code + End Of Offer Code</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 14-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>8102</p>
+        </td>
+        <td>
+          <p>Coupon extended code - NSC</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>numerisch 6-stellig</p>
+        </td>
+        <td>
+          <p>-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>90</p>
+        </td>
+        <td>
+          <p>Information für bilateral abgestimmte Anwendungen</p>
+        </td>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>alphanumerisch bis zu 30-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>91</p>
+        </td>
+        <td>
+          <p>Für firmeninterne Nutzung</p>
+        </td>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>alphanumerisch bis zu 30-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>92</p>
+        </td>
+        <td>
+          <p>Für firmeninterne Nutzung</p>
+        </td>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>alphanumerisch bis zu 30-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>93</p>
+        </td>
+        <td>
+          <p>Für firmeninterne Nutzung</p>
+        </td>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>alphanumerisch bis zu 30-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>94</p>
+        </td>
+        <td>
+          <p>Für firmeninterne Nutzung</p>
+        </td>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>alphanumerisch bis zu 30-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>95</p>
+        </td>
+        <td>
+          <p>Für firmeninterne Nutzung</p>
+        </td>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>alphanumerisch bis zu 30-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>96</p>
+        </td>
+        <td>
+          <p>Für firmeninterne Nutzung</p>
+        </td>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>alphanumerisch bis zu 30-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>97</p>
+        </td>
+        <td>
+          <p>Für firmeninterne Nutzung</p>
+        </td>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>alphanumerisch bis zu 30-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>98</p>
+        </td>
+        <td>
+          <p>Für firmeninterne Nutzung</p>
+        </td>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>alphanumerisch bis zu 30-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>99</p>
+        </td>
+        <td>
+          <p>Für firmeninterne Nutzung</p>
+        </td>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>alphanumerisch bis zu 30-stellig</p>
+        </td>
+        <td>
+          <p>ja</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Innerhalb des Aeins Systems ist festgelegt, welche AI’s zu welchen Erfassungsvorgängen gehören.
 

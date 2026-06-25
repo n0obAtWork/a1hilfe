@@ -11,18 +11,93 @@ Für die Anlage der (Grund -) Mengeneinheiten werden praktisch lediglich die Tex
 
 Folgende Felder stehen hier zu Erfassung.
 
-| Grundmengeneinheit – Felder |
-| --- |
-| Nummer | Nummer der zu definierenden Mengeneinheit. Die Eingabe der Nummern ist aus technischen Gründen auf 4 Stellen begrenzt |
-| Kurztext | Kurzbezeichnung der Mengeneinheit, wie sie ausgedruckt werden sollen; also z.B. kg, Stück, Ltr. etc. |
-| ISO Name | |
-| Langtext | Langtext, welcher anstelle des Kurztext ausgedruckt werden kann |
-| Bezeichnung | Ausführliche Bezeichnung der Mengeneinheit, z. B. für Auswahllisten |
-| DataNormKurz | Die Kurzbezeichnung des DataNorm Verfahrens. Erforderlich, wenn Datenaustausch mit anderen Unternehmen auf Grundlage dieses Verfahrens erfolgen soll. |
-| Statistikkennzeichen | |
-| Rundung bei Umrechnung | Erlaubt sind die Werte 0 bis 4. Bei allen Mengen, die auf diese Mengeneinheit referenzieren, wird dieser Rundungsfaktor angewendet. Bei schon aktiven Mengeneinheiten ist eine Abänderung dieses Wertes nur nach oben erlaubt, um ggf. schon geschriebene Belege nicht im Nachherein zu verändern. |
-| Mengeneinheit Preisbezug | Mengeneinheit für den Preisbezug |
-| UN-Mengeneinheit | Hier wird die internationale Mengeneinheitsbezeichnung aus der UN Recomendation No 20 eingetragen. Diese Mengeneinheiten werden u.a. bei openTRANS und eRechnung im Datenaustausch verwendet. |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Grundmengeneinheit – Felder</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Nummer</p>
+        </td>
+        <td>
+          <p>Nummer der zu definierenden Mengeneinheit. Die Eingabe der Nummern ist aus technischen Gründen auf 4 Stellen begrenzt</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kurztext</p>
+        </td>
+        <td>
+          <p>Kurzbezeichnung der Mengeneinheit, wie sie ausgedruckt werden sollen; also z.B. kg, Stück, Ltr. etc.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>ISO Name</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Langtext</p>
+        </td>
+        <td>
+          <p>Langtext, welcher anstelle des Kurztext ausgedruckt werden kann</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bezeichnung</p>
+        </td>
+        <td>
+          <p>Ausführliche Bezeichnung der Mengeneinheit, z. B. für Auswahllisten</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>DataNormKurz</p>
+        </td>
+        <td>
+          <p>Die Kurzbezeichnung des DataNorm Verfahrens. Erforderlich, wenn Datenaustausch mit anderen Unternehmen auf Grundlage dieses Verfahrens erfolgen soll.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Statistikkennzeichen</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Rundung bei Umrechnung</p>
+        </td>
+        <td>
+          <p>Erlaubt sind die Werte 0 bis 4. Bei allen Mengen, die auf diese Mengeneinheit referenzieren, wird dieser Rundungsfaktor angewendet. Bei schon aktiven Mengeneinheiten ist eine Abänderung dieses Wertes nur nach oben erlaubt, um ggf. schon geschriebene Belege nicht im Nachherein zu verändern.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Mengeneinheit Preisbezug</p>
+        </td>
+        <td>
+          <p>Mengeneinheit für den Preisbezug</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>UN-Mengeneinheit</p>
+        </td>
+        <td>
+          <p>Hier wird die internationale Mengeneinheitsbezeichnung aus der UN Recomendation No 20 eingetragen. Diese Mengeneinheiten werden u.a. bei openTRANS und eRechnung im Datenaustausch verwendet.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Wie oben angesprochen, genügt in vielen Fällen bereits diese einfache Form der Mengeneinheitsdefinition. Dies gilt häufig auch, wenn sich Preis- und Lagermengeneinheit unterscheiden.
 

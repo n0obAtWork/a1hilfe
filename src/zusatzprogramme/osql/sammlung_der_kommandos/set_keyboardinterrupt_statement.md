@@ -4,7 +4,7 @@
 
 <p class="just-emphasize">Syntax</p>
 
-SET KEYBOARDINTERRUPT [OFF] | [ON]
+SET KEYBOARDINTERRUPT [OFF] &#124; [ON]
 
 <p class="just-emphasize">Purpose</p>
 

@@ -55,12 +55,70 @@ Sind alle Kennzeichen korrekt eingerichtet, so wird beim ersten Druck des für V
 
 <p class="just-emphasize">Definition Parameter</p>
 
-| Definition Parameter<br> |
-| --- |
-| FA_ID | enthält die FormulararchivId des zu versendenden Belegs |
-| FA_MNDNR | enthält die Mandantennummer im Mehrmandantsystem in A.eins. |
-| FA_EMPFAENGER | enthält eine kommagetrennte Liste der Empfängernmailadressen |
-| FA_HTMLBODY | enthält den aus A.eins erzeugten HTML-Body. Dieser wird im Mailtext verwendet. |
-| SUBJECT | enthält den Betreff der Mail |
-| VPST | enthält die Nummer des heranzuziehenden Versandprofilstamms [VPST] |
-| ANHAENGE | enthält in XML-Notation eine Liste von FormulararchivIds, die als Anhänge mit gesendet werden sollen.<br>Hinweis: Hier ist ggf. auch die Liste der zugehörigen eRechnungen enthalten |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Definition Parameter</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>FA_ID</p>
+        </td>
+        <td>
+          <p>enthält die FormulararchivId des zu versendenden Belegs</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>FA_MNDNR</p>
+        </td>
+        <td>
+          <p>enthält die Mandantennummer im Mehrmandantsystem in A.eins.<b></b></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>FA_EMPFAENGER</p>
+        </td>
+        <td>
+          <p>enthält eine kommagetrennte Liste der Empfängernmailadressen</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>FA_HTMLBODY</p>
+        </td>
+        <td>
+          <p>enthält den aus A.eins erzeugten HTML-Body. Dieser wird im Mailtext verwendet.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>SUBJECT</p>
+        </td>
+        <td>
+          <p>enthält den Betreff der Mail</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>VPST</p>
+        </td>
+        <td>
+          <p>enthält die Nummer des heranzuziehenden Versandprofilstamms [VPST]</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>ANHAENGE</p>
+        </td>
+        <td>
+          <p>enthält in XML-Notation eine Liste von FormulararchivIds, die als Anhänge mit gesendet werden sollen.<br>Hinweis: Hier ist ggf. auch die Liste der zugehörigen eRechnungen enthalten</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

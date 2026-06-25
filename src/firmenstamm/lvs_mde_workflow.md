@@ -24,13 +24,133 @@ So kann z.B. in Status 0 eine NVE (erkennbar an der Länge 20, numerisch, beginn
 
 Der Folgestatus bestimmt, welcher Status nach dem Scannen dieses Typs gesetzt wird. So kann eine Reihenfolge der Eingabe festgelegt werden.
 
-| <br>Workflow Beispiel<br>WARENEINGANG – WARENBEWEGUNG – NVE + MENGE |
-| --- |
-| Status | Sort | Feldtyp | Feldname | Feldbezeichnung | Prüf-u. Anzeigepr. | Folgest. |
-| 0 | 1 | WARENEINGANG | &lt;null> | &lt;null> | P_WE | 100 |
-| 100 | 1 | WARENBEWEGUNG | Letzter_Wert | Position | P_WE | 100 |
-| 100 | 2 | NVE | Ladetraegernummer | Ladeträgernummer | P_WE | 100 |
-| 100 | 3 | MENGE | Gewicht1 | Menge | P_WE | 0 |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="7">
+          <p><strong>Workflow Beispiel</strong></p>
+          <p>WARENEINGANG – WARENBEWEGUNG – NVE + MENGE</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Status</p>
+        </td>
+        <td>
+          <p>Sort</p>
+        </td>
+        <td>
+          <p>Feldtyp</p>
+        </td>
+        <td>
+          <p>Feldname</p>
+        </td>
+        <td>
+          <p>Feldbezeichnung</p>
+        </td>
+        <td>
+          <p>Prüf-u. Anzeigepr.</p>
+        </td>
+        <td>
+          <p>Folgest.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>0</p>
+        </td>
+        <td>
+          <p>1</p>
+        </td>
+        <td>
+          <p>WARENEINGANG</p>
+        </td>
+        <td>
+          <p>&lt;null&gt;</p>
+        </td>
+        <td>
+          <p>&lt;null&gt;</p>
+        </td>
+        <td>
+          <p>P_WE</p>
+        </td>
+        <td>
+          <p>100</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>100</p>
+        </td>
+        <td>
+          <p>1</p>
+        </td>
+        <td>
+          <p>WARENBEWEGUNG</p>
+        </td>
+        <td>
+          <p>Letzter_Wert</p>
+        </td>
+        <td>
+          <p>Position</p>
+        </td>
+        <td>
+          <p>P_WE</p>
+        </td>
+        <td>
+          <p>100</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>100</p>
+        </td>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>NVE</p>
+        </td>
+        <td>
+          <p>Ladetraegernummer</p>
+        </td>
+        <td>
+          <p>Ladeträgernummer</p>
+        </td>
+        <td>
+          <p>P_WE</p>
+        </td>
+        <td>
+          <p>100</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>100</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>MENGE</p>
+        </td>
+        <td>
+          <p>Gewicht1</p>
+        </td>
+        <td>
+          <p>Menge</p>
+        </td>
+        <td>
+          <p>P_WE</p>
+        </td>
+        <td>
+          <p>0</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Der Status 0 ist der Initialstatus. Wird hier nun „WARENEINGANG“ gescannt, wo wird der Status auf 100 gesetzt.
 

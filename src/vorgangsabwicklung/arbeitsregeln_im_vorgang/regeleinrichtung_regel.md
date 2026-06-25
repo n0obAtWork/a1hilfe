@@ -58,11 +58,41 @@ Mit der globalen Datenbankvariablen DB_REGEL_INFO kann man einen Informationstex
 
 ![](../../ImagesExt/image8_257.jpg)
 
-| Nachfolgeregel | |
-| --- | --- |
-| Hier stellt man ein, dass es eine Vorschrift gibt wie die Regel automatisch verändert wird, wenn ein Beleg korrigiert oder die Regel neu gesetzt wird.<br><br>Im oberen großen Feld dieses Registers wird der Programmcode der ausgewählten Funktion als Vorschau angezeigt. Für ‚kein Nachfolger‘ bleibt das Feld leer. |
-| Typ | F3-Auswahl:<br>kein Nachfolger<br>Datenbank Funktion<br>Privater SQL |
-| SQL / Funktion | Hier wird der Name der Funktion angegeben die für die Nachfolgeregel wirken soll.<br>Gibt man hier einen Namen ein kann über die Funktion **Editieren/Neu F5** in den Pfleger gewechselt und die Funktion bearbeitet oder angelegt werden. |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Nachfolgeregel</strong></p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Hier stellt man ein, dass es eine Vorschrift gibt wie die Regel automatisch verändert wird, wenn ein Beleg korrigiert oder die Regel neu gesetzt wird.</p>
+          <p><br>Im oberen großen Feld dieses Registers wird der Programmcode der ausgewählten Funktion als Vorschau angezeigt. Für ‚kein Nachfolger‘ bleibt das Feld leer.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Typ</p>
+        </td>
+        <td>
+          <p>F3-Auswahl:<br>kein Nachfolger<br>Datenbank Funktion<br>Privater SQL</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>SQL / Funktion</p>
+        </td>
+        <td>
+          <p>Hier wird der Name der Funktion angegeben die für die Nachfolgeregel wirken soll.</p>
+          <p>Gibt man hier einen Namen ein kann über die Funktion <strong>Editieren/Neu F5</strong> in den Pfleger gewechselt und die Funktion bearbeitet oder angelegt werden.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Beispiel für eine Datenbankfunktion zur Ermittlung einer Nachfolgeregel:
 
@@ -70,12 +100,47 @@ Hier wird beim Speichern des Lieferscheins (der mit der Arbeitsregel 600 angeleg
 
 ![](../../ImagesExt/image8_258.jpg)
 
-| Gültigkeit | |
-| --- | --- |
-| Diese Regel darf nur durch eine andere Regel ersetzt werden, die in mindestens einer der hier aufgeführten Bereiche liegt.<br>Wird kein Bereich festgelegt, gibt es keine Einschränkung.<br>Bereiche mit leeren Einträgen werden nicht gespeichert! |
-| von Regel | Hier wird die Nummer der Arbeitsregel eingetragen mit der der Bereich beginnen soll. |
-| bis Regel | Hier wird die Nummer der Arbeitsregel eingetragen mit der der Bereich enden soll. |
-| nur größere Regel zulässig | Hier kann festgelegt werden, dass Arbeitsregeln nur in Regeln mit einer größeren Nummer geändert werden können. |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Gültigkeit</strong></p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Diese Regel darf nur durch eine andere Regel ersetzt werden, die in mindestens einer der hier aufgeführten Bereiche liegt.<br>Wird kein Bereich festgelegt, gibt es keine Einschränkung.<br>Bereiche mit leeren Einträgen werden nicht gespeichert!</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>von Regel</p>
+        </td>
+        <td>
+          <p>Hier wird die Nummer der Arbeitsregel eingetragen mit der der Bereich beginnen soll.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>bis Regel</p>
+        </td>
+        <td>
+          <p>Hier wird die Nummer der Arbeitsregel eingetragen mit der der Bereich enden soll.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>nur größere Regel zulässig</p>
+        </td>
+        <td>
+          <p>Hier kann festgelegt werden, dass Arbeitsregeln nur in Regeln mit einer größeren Nummer geändert werden können.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Wird versucht die Arbeitsregel eines Beleges in eine Regel außerhalb des angegebenen Bereichs zu ändern, bekommt man eine Fehlermeldung mit dem Hinweis Bereichsverletzung.
 

@@ -11,10 +11,33 @@ Diese Bedienerklassen werden von A.eins zur Abwicklung weiterführender Programm
 
 Momentan sind folgende Bedienerklassen technisch notwendig:
 
-| Technische Bedienerklassen |
-| --- |
-| \-1 | Defaultklasse Kunden |
-| \-9999 | Defaultklasse AMIC |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Technische Bedienerklassen</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>-1</p>
+        </td>
+        <td>
+          <p>Defaultklasse Kunden</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>-9999</p>
+        </td>
+        <td>
+          <p>Defaultklasse AMIC</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 </details>
 

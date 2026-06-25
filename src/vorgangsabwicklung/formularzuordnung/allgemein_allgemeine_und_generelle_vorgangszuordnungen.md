@@ -4,13 +4,13 @@
 
 | Feld | Beschreibung |
 | --- | --- |
-| Periodenbehandlung | F3 Funktion zur Periodenbehandlung<br>• Jahresgrenzen/Inventurgrenzen<br>• Lieferdatum nie in geschlossener Periode<br> |
+| Periodenbehandlung | F3 Funktion zur Periodenbehandlung<br><ul><li>&nbsp;&nbsp;&nbsp; Jahresgrenzen/Inventurgrenzen</li><li>&nbsp;&nbsp;&nbsp; Lieferdatum nie in geschlossener Periode<br>&nbsp;</li></ul> |
 | Lager / Strecke | F3 Funktion zur Auswahl Lager oder Strecke<br> |
 | Barabwicklung Vorgang (ohne Kassensystem) | F3 Auswahl Ja oder Nein<br> |
 | (Kassen)Konto für Barabwicklung | F3 Auswahl für Konto Barabwicklung<br> |
 | Eigener Nummernkreis bei Stornobelegen | Auswahl Nummernkreis bei Stornobelegen<br> |
 | Arbeitsregelnummer | Auswahl für Arbeitsregeln<br> |
-| Rohware Vorerfassung | Kennzeichen für Lieferscheine im Ein- und Verkauf:<br><ul><li>-&nbsp;&nbsp;&nbsp;&nbsp; ohne: Keine <a href="../vorgangsbearbeitung_allgemein/vorgangsklassen_in_a_eins/lieferschein/rohware_wandlung.md">Rohware-Wandlung</a> möglich</li><li>-&nbsp;&nbsp;&nbsp;&nbsp; möglich:&nbsp; <a href="../vorgangsbearbeitung_allgemein/vorgangsklassen_in_a_eins/lieferschein/rohware_wandlung.md">Rohware-Wandlung</a> möglich kann erfolgen, <br>wenn bestimmte Voraussetzungen vorhanden sind</li><li>-&nbsp;&nbsp;&nbsp;&nbsp; geprüft: Der Beleg wird bei Belegabschluss auf Einhaltung der Voraussetzung für die <a href="../vorgangsbearbeitung_allgemein/vorgangsklassen_in_a_eins/lieferschein/rohware_wandlung.md">Rohware-Wandlung</a> geprüft.<br>&nbsp;</li></ul> |
+| Rohware Vorerfassung | Kennzeichen für Lieferscheine im Ein- und Verkauf:<br><ul><li>ohne: Keine <a href="../vorgangsbearbeitung_allgemein/vorgangsklassen_in_a_eins/lieferschein/rohware_wandlung.md">Rohware-Wandlung</a> möglich</li><li>möglich:&nbsp; <a href="../vorgangsbearbeitung_allgemein/vorgangsklassen_in_a_eins/lieferschein/rohware_wandlung.md">Rohware-Wandlung</a> möglich kann erfolgen, <br>wenn bestimmte Voraussetzungen vorhanden sind</li><li>geprüft: Der Beleg wird bei Belegabschluss auf Einhaltung der Voraussetzung für die <a href="../vorgangsbearbeitung_allgemein/vorgangsklassen_in_a_eins/lieferschein/rohware_wandlung.md">Rohware-Wandlung</a> geprüft.<br>&nbsp;</li></ul> |
 | Kokore Druckverhalten | Kokore Druckverhalten<br> |
 | Artikel Itembox | Angabe einer alternativen Itembox<br> |
 | Kunden Itembox | Hier kann eine alternative Itembox angegeben werden, die in der Vorgangserfassung zur Verfügung stehen soll, um Kunden auszuwählen. So kann z.B. eingerichtet werden, dass bei Angeboten eine Interessenten-Auswahlliste, bei Rechnungen nur eine Liste der Kunden angezeigt wird, die Ware erhalten haben.<br> |

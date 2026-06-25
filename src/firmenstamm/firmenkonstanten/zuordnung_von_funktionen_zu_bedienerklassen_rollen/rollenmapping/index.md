@@ -15,16 +15,82 @@ Diese werden hier hinterlegt und auf Kundensystemen nach einem Programm-Update z
 <details>
 <summary>Felder des Rollenmapping</summary>
 
-| Felder |
-| --- |
-| Optionbox | Optionbox des [Rollenkontextes](../rollenkontext/index.md). |
-| Funktion | Funktion des Rollenkontextes. |
-| Rolle | Die aktuelle [Rolle](../rollenstamm/index.md) des Rollenkontextes. |
-| Done | Anpassung durchgeführt worden. |
-| Quelle Rolle | Ursprungsrolle die als Vorlage der Rolle für die Funktion gelten soll. |
-| Quelle Optionbox | Optionbox des Quellen-Rollenkontextes. |
-| Quelle Funktion | Funktion des Quellen-Rollenkontextes. |
-| Quelle sichtbar? | Bestimmt ob der Quell-Kontext „sichtbar“ bleibt.<br>Dies wird benötigt, wenn eine Funktion in der Quelle nicht mehr in der Quellen- Optionbox vom System angezeigt werden soll. |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Felder</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Optionbox</p>
+        </td>
+        <td>
+          <p>Optionbox des <a href="../rollenkontext/index.md">Rollenkontextes</a>.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Funktion</p>
+        </td>
+        <td>
+          <p>Funktion des Rollenkontextes.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Rolle</p>
+        </td>
+        <td>
+          <p>Die aktuelle <a href="../rollenstamm/index.md">Rolle</a> des Rollenkontextes.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Done</p>
+        </td>
+        <td>
+          <p>Anpassung durchgeführt worden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Quelle Rolle</p>
+        </td>
+        <td>
+          <p>Ursprungsrolle die als Vorlage der Rolle für die Funktion gelten soll.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Quelle Optionbox</p>
+        </td>
+        <td>
+          <p>Optionbox des Quellen-Rollenkontextes.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Quelle Funktion</p>
+        </td>
+        <td>
+          <p>Funktion des Quellen-Rollenkontextes.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Quelle sichtbar?</p>
+        </td>
+        <td>
+          <p>Bestimmt ob der Quell-Kontext „sichtbar“ bleibt.</p>
+          <p>Dies wird benötigt, wenn eine Funktion in der Quelle nicht mehr in der Quellen- Optionbox vom System angezeigt werden soll.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 </details>
 

@@ -172,44 +172,311 @@ Bei der Untersuchung Sortierung soll die Kalibrierung von pilliertem (mit einer 
 
 Die Untersuchung der Feuchte von Saatgut dient der Beurteilung der Lagerfähigkeit. Feuchtes Saatgut wird leicht von Schädlingen und Mikroorganismen angegriffen. Ebenso kommt es schneller zu physiologischen Abbauprozessen, daher ist Saatgut mit einem hohen Feuchtigkeitsgehalt nur sehr begrenzt haltbar.
 
-| Name | Bedeutung |
-| --- | --- |
-| TKM g | Prozentualer Wert der Triebkraft von ungebeizten Saatgut. Wiederholung 1 bis 8.<br> |
-| Prüfer | Der Prüfer dieser Untersuchung wird hier eingetragen.<br> |
-| Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste **F3 kann eine Auswahl aufgerufen werden**.<br> |
-| Anzahl Samen | Prozentualer Wert der Triebkraft von gebeizten Saatgut. Wiederholung 1 bis 8.<br> |
-| TKM g (TKM extern) | Tausend Korn Masse in Gramm.<br> |
-| Gew. r.S. | Das Gewicht der Reinen Samen kann hier eingetragen werden.<br> |
-| Status (TKM extern) | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste **F3 kann eine Auswahl aufgerufen werden**.<br> |
-| Sortiernorm | Nach welcher Norm die Sortierung durchgeführt wurde kann hier eingetragen werden.<br> |
-| Wert in % | Der prozentuale Wert kann hier eingetragen werden.<br> |
-| Beizgrad | Die Zusammensetzung und die Konzentration des Beizmittels kann hier eingetragen werden.<br> |
-| Status (Sortierung) | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste **F3 kann eine Auswahl aufgerufen werden**.<br> |
-| Feuchte |
-| Schroten | Folgende Ausprägungen sind möglich.<br>• Nein<br>• Grob<br>• Fein<br>Die Ausprägungen werden im Anwenderformat AF_FESCHROTE gespeichert<br> |
-| Dauer | In dem Feld Dauer wird die Anzahl der Stunden eingetragen. Diese sind in dem Anwenderformat „AF_FEDAUER“ hinterlegt.<br> |
-| Temperatur | In diesem Feld wird die Temperatur eingetragen. Folgende Ausprägungen sind möglich<br>• Niedrig (101-105°C)<br>• Hoch (130-133)<br>Die Daten werden im Anwenderformat „AF_FETEMP“ hinterlegt.<br> |
-| U-Datum | Das Untersuchungsdatum kann hier eingetragen werden. Mit Taste F3 kann hier eine Auswahl aufgerufen werden.<br> |
-| Uhrzeit | Die Uhrzeit der Untersuchung kann hier eingetragen werden.<br> |
-| Prüfer | Der Prüfer dieser Untersuchung wird hier eingetragen.<br> |
-| 1.Wied Cont | 1\. Wiederholung Cont<br> |
-| 1.Wied Tara | 1\. Wiederholung Tara-Gewicht<br> |
-| 1.Wied Brutto | 1\. Wiederholung Bruttogewicht<br> |
-| 1.Wied Trock | 1\. Wiederholung Trockengewicht<br> |
-| 1.Wied Erg. % | 1\. Wiederholung Ergebnis in Prozent.<br> |
-| 2.Wied Cont | 2\. Wiederholung Cont<br> |
-| 2.Wied Tara | 2\. Wiederholung Tara-Gewicht<br> |
-| 2.Wied Brutto | 2\. Wiederholung Bruttogewicht<br> |
-| 2.Wied Trock | 2\. Wiederholung Trockengewicht<br> |
-| 2.Wied Erg. % | 2\. Wiederholung Ergebnis in Prozent.<br> |
-| Feuchte % | Die Feuchte in Prozent kann hier eingetragen werden.<br> |
-| Bemerkung | Hier kann eine Bemerkung zur Untersuchung eingetragen werden.<br> |
-| Status (Feuchte) | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste **F3 kann eine Auswahl aufgerufen werden**.<br> |
-| TKMG Leguminosen |
-| WH 1 - 8 (1.Satz) | Wiederholung 1 bis 8 (1.Satz)<br> |
-| WH 1 – 8 (2.Satz) | Wiederholung 1 bis 8 (2.Satz)<br> |
-| TKM g | Tausend Korn Masse in Gramm von Leguminosen (Hülsenfrüchtlern).<br> |
-| Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste **F3 kann eine Auswahl aufgerufen werden**.<br> |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Name</strong></p>
+        </td>
+        <td>
+          <p><strong>Bedeutung</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>TKM g</p>
+        </td>
+        <td>
+          <p>Prozentualer Wert der Triebkraft von ungebeizten Saatgut. Wiederholung 1 bis 8.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Prüfer</p>
+        </td>
+        <td>
+          <p>Der Prüfer dieser Untersuchung wird hier eingetragen.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Status</p>
+        </td>
+        <td>
+          <p>Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste <strong>F3 kann eine Auswahl aufgerufen werden</strong>.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Anzahl Samen</p>
+        </td>
+        <td>
+          <p>Prozentualer Wert der Triebkraft von gebeizten Saatgut. Wiederholung 1 bis 8.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>TKM g (TKM extern)</p>
+        </td>
+        <td>
+          <p>Tausend Korn Masse in Gramm.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Gew. r.S.</p>
+        </td>
+        <td>
+          <p>Das Gewicht der Reinen Samen kann hier eingetragen werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Status (TKM extern)</p>
+        </td>
+        <td>
+          <p>Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste <strong>F3 kann eine Auswahl aufgerufen werden</strong>.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Sortiernorm</p>
+        </td>
+        <td>
+          <p>Nach welcher Norm die Sortierung durchgeführt wurde kann hier eingetragen werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Wert in %</p>
+        </td>
+        <td>
+          <p>Der prozentuale Wert kann hier eingetragen werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Beizgrad</p>
+        </td>
+        <td>
+          <p>Die Zusammensetzung und die Konzentration des Beizmittels kann hier eingetragen werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Status (Sortierung)</p>
+        </td>
+        <td>
+          <p>Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste <strong>F3 kann eine Auswahl aufgerufen werden</strong>.</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p><strong>Feuchte</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Schroten</p>
+        </td>
+        <td>
+          <p>Folgende Ausprägungen sind möglich.</p>
+          <ul>
+            <li>Nein</li>
+            <li>Grob</li>
+            <li>Fein<br>Die Ausprägungen werden im Anwenderformat AF_FESCHROTE gespeichert</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Dauer</p>
+        </td>
+        <td>
+          <p>In dem Feld Dauer wird die Anzahl der Stunden eingetragen. Diese sind in dem Anwenderformat „AF_FEDAUER“ hinterlegt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Temperatur</p>
+        </td>
+        <td>
+          <p>In diesem Feld wird die Temperatur eingetragen. Folgende Ausprägungen sind möglich</p>
+          <ul>
+            <li>Niedrig (101-105°C)</li>
+            <li>Hoch (130-133)<br>Die Daten werden im Anwenderformat „AF_FETEMP“ hinterlegt.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>U-Datum</p>
+        </td>
+        <td>
+          <p>Das Untersuchungsdatum kann hier eingetragen werden. Mit Taste F3 kann hier eine Auswahl aufgerufen werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Uhrzeit</p>
+        </td>
+        <td>
+          <p>Die Uhrzeit der Untersuchung kann hier eingetragen werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Prüfer</p>
+        </td>
+        <td>
+          <p>Der Prüfer dieser Untersuchung wird hier eingetragen.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>1.Wied Cont</p>
+        </td>
+        <td>
+          <p>1. Wiederholung Cont</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>1.Wied Tara</p>
+        </td>
+        <td>
+          <p>1. Wiederholung Tara-Gewicht</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>1.Wied Brutto</p>
+        </td>
+        <td>
+          <p>1. Wiederholung Bruttogewicht</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>1.Wied Trock</p>
+        </td>
+        <td>
+          <p>1. Wiederholung Trockengewicht</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>1.Wied Erg. %</p>
+        </td>
+        <td>
+          <p>1. Wiederholung Ergebnis in Prozent.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2.Wied Cont</p>
+        </td>
+        <td>
+          <p>2. Wiederholung Cont</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2.Wied Tara</p>
+        </td>
+        <td>
+          <p>2. Wiederholung Tara-Gewicht</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2.Wied Brutto</p>
+        </td>
+        <td>
+          <p>2. Wiederholung Bruttogewicht</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2.Wied Trock</p>
+        </td>
+        <td>
+          <p>2. Wiederholung Trockengewicht</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2.Wied Erg. %</p>
+        </td>
+        <td>
+          <p>2. Wiederholung Ergebnis in Prozent.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Feuchte %</p>
+        </td>
+        <td>
+          <p>Die Feuchte in Prozent kann hier eingetragen werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bemerkung</p>
+        </td>
+        <td>
+          <p>Hier kann eine Bemerkung zur Untersuchung eingetragen werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Status (Feuchte)</p>
+        </td>
+        <td>
+          <p>Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste <strong>F3 kann eine Auswahl aufgerufen werden</strong>.</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p><strong>TKMG Leguminosen</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>WH 1 - 8 (1.Satz)</p>
+        </td>
+        <td>
+          <p>Wiederholung 1 bis 8 (1.Satz)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>WH 1 – 8 (2.Satz)</p>
+        </td>
+        <td>
+          <p>Wiederholung 1 bis 8 (2.Satz)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>TKM g</p>
+        </td>
+        <td>
+          <p>Tausend Korn Masse in Gramm von Leguminosen (Hülsenfrüchtlern).</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Status</p>
+        </td>
+        <td>
+          <p>Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste <strong>F3 kann eine Auswahl aufgerufen werden</strong>.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="just-emphasize">Felder auf der Registerkarte Techn.Prüfung</p>
 
@@ -284,19 +551,117 @@ Die Untersuchung der Zusammensetzung wird zum Beispiel bei Saatgutmischungen mit
 
 Das Verfahren Kontrollanbau ermöglicht die Eingabe von Feldversuchsergebnissen.
 
-| Name | Bedeutung |
-| --- | --- |
-| Institut | Die Kundennummer des Versuchsansteller wird hier eingetragen.<br> |
-| AuftragNr. Int | Die interne Auftragsnummer wird hier eingetragen.<br> |
-| AuftragNr. Ext | Die externe Auftragsnummer wird hier eingetragen.<br> |
-| Versanddatum | Das Versanddatum der Probe kann hier eingetragen werden.<br> |
-| U-Datum | Das Untersuchungsdatum der Probe kann hier eingetragen werden.<br> |
-| Prüfer | Der Prüfer dieser Untersuchung wird hier eingetragen.<br> |
-| Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Eine Auswahl ist mit **F3** möglich. Hier wird das Anwenderformat „AF_KFDRUCK“ verwendet.<br> |
-| <br>In der Tabelle können die Merkmale gepflegt werden, die zur Feststellung der Sortenechtheit benötigt werden. |
-| Nr | Die Nummer des Qualitätsmerkmals. Eine Auswahl ist mit **F3** möglich. Hinter der Nummer wird die Bezeichnung des Qualitätsmerkmals angezeigt<br> |
-| Ist | Der ermittelte Wert des Qualitätsmerkmals kann hier eingetragen werden.<br> |
-| Ausprägung | Hier wird die Ausprägung des Qualitätsmerkmals angezeigt. In dem Steuerparameter „[Allgemeiner Steuerparameter für das Labor](../../../firmenstamm/steuerparameter/allgemeine_programmsteuerung/allgemeiner_steuerparameter_fuer_das_labor_spa_1043.md)“ kann über den Schlüssel „ProzedurKontrollanbauAuspraegung“ eine Prozedur hinterlegt werden, die die anzuzeigende Ausprägung zurückliefert. Diese Prozedur muss dieselben Eingangs- und Ausgangsparameter haben wie die Standardprozedur „KontrollanbauAusprägung“.<br> <br><pre><code>create function "admin"."KontrollanbauAuspraegung"&#10;(&#10; in in_MerkmalsNummer integer,&#10; in in_Ident integer&#10;)&#10;returns char(25)&#10;BEGIN&#10;…</code></pre><br> <br>In der Standardprozedur werden der Formatname oder - wenn kein Format angegeben ist - die Mengeneinheit aus den [Qualitätsmerkmalen](../qualitaetsmerkmale.md) verwendet, um die Ausprägung anzuzeigen<br>. |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Name</strong></p>
+        </td>
+        <td>
+          <p><strong>Bedeutung</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Institut</p>
+        </td>
+        <td>
+          <p>Die Kundennummer des Versuchsansteller wird hier eingetragen.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>AuftragNr. Int</p>
+        </td>
+        <td>
+          <p>Die interne Auftragsnummer wird hier eingetragen.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>AuftragNr. Ext</p>
+        </td>
+        <td>
+          <p>Die externe Auftragsnummer wird hier eingetragen.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Versanddatum</p>
+        </td>
+        <td>
+          <p>Das Versanddatum der Probe kann hier eingetragen werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>U-Datum</p>
+        </td>
+        <td>
+          <p>Das Untersuchungsdatum der Probe kann hier eingetragen werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Prüfer</p>
+        </td>
+        <td>
+          <p>Der Prüfer dieser Untersuchung wird hier eingetragen.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Status</p>
+        </td>
+        <td>
+          <p>Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Eine Auswahl ist mit <strong>F3</strong> möglich. Hier wird das Anwenderformat „AF_KFDRUCK“ verwendet.</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>In der Tabelle können die Merkmale gepflegt werden, die zur Feststellung der Sortenechtheit benötigt werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Nr</p>
+        </td>
+        <td>
+          <p>Die Nummer des Qualitätsmerkmals. Eine Auswahl ist mit <strong>F3</strong> möglich. Hinter der Nummer wird die Bezeichnung des Qualitätsmerkmals angezeigt</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Ist</p>
+        </td>
+        <td>
+          <p>Der ermittelte Wert des Qualitätsmerkmals kann hier eingetragen werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Ausprägung</p>
+        </td>
+        <td>
+          <p>Hier wird die Ausprägung des Qualitätsmerkmals angezeigt. In dem Steuerparameter „<a href="../../../firmenstamm/steuerparameter/allgemeine_programmsteuerung/allgemeiner_steuerparameter_fuer_das_labor_spa_1043.md">Allgemeiner Steuerparameter für das Labor</a>“ kann über den Schlüssel „ProzedurKontrollanbauAuspraegung“ eine Prozedur hinterlegt werden, die die anzuzeigende Ausprägung zurückliefert. Diese Prozedur muss dieselben Eingangs- und Ausgangsparameter haben wie die Standardprozedur „KontrollanbauAusprägung“.</p>
+          <div>
+            <pre><code>create function "admin"."KontrollanbauAuspraegung"
+(
+  in in_MerkmalsNummer integer,
+  in in_Ident integer
+)
+returns char(25)
+BEGIN
+…</code></pre>
+          </div>
+          <p>In der Standardprozedur werden der Formatname oder - wenn kein Format angegeben ist - die Mengeneinheit aus den <a href="../qualitaetsmerkmale.md">Qualitätsmerkmalen</a> verwendet, um die Ausprägung anzuzeigen</p>
+          <p>.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="just-emphasize">Felder auf der Registerkarte Marker</p>
 

@@ -6,11 +6,41 @@ Um eine Einzahlung vorzunehmen wird ein Gesellschafter in der Auswahlliste ausge
 
 Die Funktion ***Einzahlung*** **F8** öffnet folgende Eingabefelder:
 
-| Felder |
-| --- |
-| Wert der Einzahlung | In dieses Feld wird der Wert der Einzahlung eingetragen |
-| Einzahlungsdatum | Hier wird das Einzahlungsdatum hinterlegt. |
-| Bemerkung zum Vorgang | Hier kann eine Bemerkung zum Vorgang eingetragen werden. (60 Zeichen) |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Felder</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Wert der Einzahlung</p>
+        </td>
+        <td>
+          <p>In dieses Feld wird der Wert der Einzahlung eingetragen</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Einzahlungsdatum</p>
+        </td>
+        <td>
+          <p>Hier wird das Einzahlungsdatum hinterlegt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bemerkung zum Vorgang</p>
+        </td>
+        <td>
+          <p>Hier kann eine Bemerkung zum Vorgang eingetragen werden. (60 Zeichen)</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Werden diese Einträge gespeichert, erfolgt sofort der Eintrag der resultierenden Buchung in die Primanota **[PRIMA**]. Der erfolgreiche Eintrag wird mit dem Status &lt;gebucht> quittiert.
 

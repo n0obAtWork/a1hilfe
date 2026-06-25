@@ -29,8 +29,33 @@ Die hier gemachten Einstellungen gelten für den gesamten Mandanten.
 
 Die folgenden vier Einstellungsmöglichkeiten existieren nur für die Crystal-Report ab Version 13.0.2000.0
 
-| | Bedeutung |
-| --- | --- |
-| Nach dem Export mit Standardprogramm öffnen | In der Bereichsauswahl, die sich öffnet, bevor die Vorschau startet, existieren diverse Funktionen um die Daten direkt – ohne Umweg über die Vorschau – zu exportieren. Hier kann eingestellt werden, was nach dem Export geschehen soll. Diese Optionen gilt - wie alle anderen Optionen - für alle A.eins-Anwender. Wurde jedoch bei „Verhalten nach Report abfragen“ ein Haken gesetzt, so gilt die vom Anwender in der Abfragemaske gemachte Einstellung nur für ihn.<br> |
-| Nach dem Export den Explorer öffnen |
-| Verhalten "nach Export" abfragen |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td></td>
+        <td>
+          <p><strong>Bedeutung</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Nach dem Export mit Standardprogramm öffnen</p>
+        </td>
+        <td rowspan="3">
+          <p>In der Bereichsauswahl, die sich öffnet, bevor die Vorschau startet, existieren diverse Funktionen um die Daten direkt – ohne Umweg über die Vorschau – zu exportieren. Hier kann eingestellt werden, was nach dem Export geschehen soll. Diese Optionen gilt - wie alle anderen Optionen - für alle A.eins-Anwender. Wurde jedoch bei „Verhalten nach Report abfragen“ ein Haken gesetzt, so gilt die vom Anwender in der Abfragemaske gemachte Einstellung nur für ihn.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Nach dem Export den Explorer öffnen</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Verhalten "nach Export" abfragen</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

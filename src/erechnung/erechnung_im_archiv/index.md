@@ -8,18 +8,85 @@ In das Archiv kann [manuell importiert](./manueller_import.md) werden oder mit [
 
 In dieser Variante werden folgende Datentypen angezeigt:
 
-| Belegklassen XML |
-| --- |
-| Belegklasse 8040 | Dies ist das exportierte Xml. |
-| Belegklasse 8041 | Das ist die HTML-Visualisierung des exportierten Xml |
-| Belegklasse 8042 | Der eRechnungsexport ist fehlerhaft. |
-| Belegklasse 8049 | Das ist der eRechnungsexport mit ZUGFerD (***ab Herbstversion 2025***) |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Belegklassen XML</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Belegklasse 8040</p>
+        </td>
+        <td>
+          <p>Dies ist das exportierte Xml.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Belegklasse 8041</p>
+        </td>
+        <td>
+          <p>Das ist die HTML-Visualisierung des exportierten Xml</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Belegklasse 8042</p>
+        </td>
+        <td>
+          <p>Der eRechnungsexport ist fehlerhaft.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Belegklasse 8049</p>
+        </td>
+        <td>
+          <p>Das ist der eRechnungsexport mit ZUGFerD (<strong><em>ab Herbstversion 2025</em></strong>)</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-| Belegklassen Import |
-| --- |
-| Belegklasse 8044 | Dies ist ein ZUGFerD-Pdf mit eingebetteter Xml-Datei. (***ab Herbstversion 2025***) |
-| Belegklasse 8045 | Dies ist das importierte Xml. |
-| Belegklasse 8046 | Das ist die HTML-Visualisierung des Xml |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Belegklassen Import</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Belegklasse 8044</p>
+        </td>
+        <td>
+          <p>Dies ist ein ZUGFerD-Pdf mit eingebetteter Xml-Datei. (<b><i>ab Herbstversion 2025</i></b>)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Belegklasse 8045</p>
+        </td>
+        <td>
+          <p>Dies ist das importierte Xml.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Belegklasse 8046</p>
+        </td>
+        <td>
+          <p>Das ist die HTML-Visualisierung des Xml</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="siehe-auch">Siehe auch:</p>
 

@@ -10,12 +10,62 @@ oder Direktsprung [[LVLTT](../../firmenstamm/lagerverwaltungssystem/ladetraegert
 
 Es müssen Ladeträgertypen eingerichtet werden. Es empfiehlt sich folgende Einrichtung vorzunehmen bzw. zu ergänzen:
 
-| Ladeträgertypen |
-| --- |
-| Typ | Typ | Breite |
-| 2 | EUR1 | 2 – 80x120 (für EURO-Paletten) |
-| 3 | EUR3 | 3 – 120x120 (für BigBags) |
-| 99 | Linie<br>(siehe auch [Einrichtung SPA 1037](./einrichtung_lvs.md#LVS_Einrichtung_SPA)) | undefiniert |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="3">
+          <p><strong>Ladeträgertypen</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Typ</strong></p>
+        </td>
+        <td>
+          <p><strong>Typ</strong></p>
+        </td>
+        <td>
+          <p><strong>Breite</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>EUR1</p>
+        </td>
+        <td>
+          <p>2 – 80x120 (für EURO-Paletten)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>EUR3</p>
+        </td>
+        <td>
+          <p>3 – 120x120 (für BigBags)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>99</p>
+        </td>
+        <td>
+          <p>Linie</p>
+          <p>(siehe auch <a href="./einrichtung_lvs.md#LVS_Einrichtung_SPA">Einrichtung SPA 1037</a>)</p>
+        </td>
+        <td>
+          <p>undefiniert</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="just-emphasize">Lokalitäten</p>
 
@@ -31,26 +81,207 @@ Die Lokalitätsnummer 999.999 ist als Leerpaletten-Lokalität anzulegen!
 
 **Lokalitätstyp**
 
-| **Lokalitätstyp**<br>Bei der Anlage der Lokalitäten muss ein Typ angegeben werden.<br>Die folgende Enumeration ist dabei zu verwenden: |
-| --- |
-| **Nr** | **Bezeichnung** | **Bemerkung** |
-| 10 | Wareneingang | Ankommende Waren |
-| 20 | Warenausgang | Ausgehende Waren |
-| 30 | Kommissionierbereich | Angebrochene Paletten – Lokalität |
-| 40 | Produktionslager | Material, das an der Linie lagert |
-| 42 | Linie Bereitstellung | Bereitstellungsbereich für die Produktion |
-| 44 | Linie Fertigware | Bereich der fertiggestellten Waren |
-| 46 | Linie | |
-| 50 | Regalplatz | Regalplatz in einem (Hochregal)-Lager |
-| 52 | Blocklager-Bereich | Lagerfläche mit wahlfreiem Zugriff |
-| 54 | Gefahrstofflager | |
-| 70 | Pufferbereich | Zwischenlager / Abstellbereich |
-| 80 | Sperrlager | |
-| 90 | Außenlager | Lager ohne LVS-Kontrolle |
-| 96 | Scanner | |
-| 97 | Schwundlager | Buchungsplatz für nicht auffindbare Waren |
-| 98 | LKW/Trecker/In Transit | Waren, die derzeit transportiert werden |
-| 99 | Scanner | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="3">
+          <p><b>Lokalitätstyp</b></p>
+          <p>Bei der Anlage der Lokalitäten muss ein Typ angegeben werden.</p>
+          <p><strong>Die folgende Enumeration ist dabei zu verwenden:</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>Nr</b></p>
+        </td>
+        <td>
+          <p><b>Bezeichnung</b></p>
+        </td>
+        <td>
+          <p><b>Bemerkung</b></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>10</p>
+        </td>
+        <td>
+          <p>Wareneingang</p>
+        </td>
+        <td>
+          <p>Ankommende Waren</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>20</p>
+        </td>
+        <td>
+          <p>Warenausgang</p>
+        </td>
+        <td>
+          <p>Ausgehende Waren</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>30</p>
+        </td>
+        <td>
+          <p>Kommissionierbereich</p>
+        </td>
+        <td>
+          <p>Angebrochene Paletten – Lokalität</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>40</p>
+        </td>
+        <td>
+          <p>Produktionslager</p>
+        </td>
+        <td>
+          <p>Material, das an der Linie lagert</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>42</p>
+        </td>
+        <td>
+          <p>Linie Bereitstellung</p>
+        </td>
+        <td>
+          <p>Bereitstellungsbereich für die Produktion</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>44</p>
+        </td>
+        <td>
+          <p>Linie Fertigware</p>
+        </td>
+        <td>
+          <p>Bereich der fertiggestellten Waren</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>46</p>
+        </td>
+        <td>
+          <p>Linie</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>50</p>
+        </td>
+        <td>
+          <p>Regalplatz</p>
+        </td>
+        <td>
+          <p>Regalplatz in einem (Hochregal)-Lager</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>52</p>
+        </td>
+        <td>
+          <p>Blocklager-Bereich</p>
+        </td>
+        <td>
+          <p>Lagerfläche mit wahlfreiem Zugriff</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>54</p>
+        </td>
+        <td>
+          <p>Gefahrstofflager</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>70</p>
+        </td>
+        <td>
+          <p>Pufferbereich</p>
+        </td>
+        <td>
+          <p>Zwischenlager / Abstellbereich</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>80</p>
+        </td>
+        <td>
+          <p>Sperrlager</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>90</p>
+        </td>
+        <td>
+          <p>Außenlager</p>
+        </td>
+        <td>
+          <p>Lager ohne LVS-Kontrolle</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>96</p>
+        </td>
+        <td>
+          <p>Scanner</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>97</p>
+        </td>
+        <td>
+          <p>Schwundlager</p>
+        </td>
+        <td>
+          <p>Buchungsplatz für nicht auffindbare Waren</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>98</p>
+        </td>
+        <td>
+          <p>LKW/Trecker/In Transit</p>
+        </td>
+        <td>
+          <p>Waren, die derzeit transportiert werden</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>99</p>
+        </td>
+        <td>
+          <p>Scanner</p>
+        </td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Mit Ausnahme des Regal-Lagerplatzes sind alle Lokalitäten groß genug unendlich viele Ladeträger aufzunehmen. Die Größe wird nicht begrenzt. Nur ein Regal-Lagerplatz ist ausschließlich mit einem Ladeträger zu belegen.
 

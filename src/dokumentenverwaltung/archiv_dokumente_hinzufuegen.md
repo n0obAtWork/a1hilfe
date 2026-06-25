@@ -6,11 +6,49 @@ Aufruf über die Dokumentenverwaltung und die Stammdatenpfleger-Funktion.
 
 Beim Erststart wird ein Dateiauswahl-Dialog zum Auswählen des hinzuzufügenden Dokumentes geöffnet. Erfolgt keine Auswahl wird der „Dokument hinzufügen“-Dialog wieder geschlossen.
 
-| Folgende Felder stehen zusätzlich zur Eingabe zur Verfügung: |
-| --- |
-| Datei | Pflichtfeld | Wählen Sie per **F3** mit Hilfe des Dateiauswahldialoges das hinzuzufügende Dokument aus.<br> |
-| Datei löschen nach Import | | Bestimmt ob die importierte Datei gelöscht werden soll.<br> <br>Die Einstellung wird sich sitzungsübergreifend gemerkt. |
-| Dokument als Anlage hinzufügen | | Bestimmt ob beim Hinzufügen das Dokument als Anlage hinzugefügt wird. Damit verbunden ist eine Eingruppierung.<br> <br>Nach der Auswahl der Datei lässt sich die Einstellung noch vor dem Speichern ändern.<br> <br>Die Einstellung wird sich sitzungsübergreifend gemerkt. |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="3">
+          <p><strong>Folgende Felder stehen zusätzlich zur Eingabe zur Verfügung:</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Datei</p>
+        </td>
+        <td>
+          <p>Pflichtfeld</p>
+        </td>
+        <td>
+          <p>Wählen Sie per <strong>F3</strong> mit Hilfe des Dateiauswahldialoges das hinzuzufügende Dokument aus.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Datei löschen nach Import</p>
+        </td>
+        <td></td>
+        <td>
+          <p>Bestimmt ob die importierte Datei gelöscht werden soll.</p>
+          <p>Die Einstellung wird sich sitzungsübergreifend gemerkt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Dokument als Anlage hinzufügen</p>
+        </td>
+        <td></td>
+        <td>
+          <p>Bestimmt ob beim Hinzufügen das Dokument als Anlage hinzugefügt wird. Damit verbunden ist eine Eingruppierung.</p>
+          <p>Nach der Auswahl der Datei lässt sich die Einstellung noch vor dem Speichern ändern.</p>
+          <p>Die Einstellung wird sich sitzungsübergreifend gemerkt.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Die Funktion ***Speichern*** löst das Hinzufügen aus.
 

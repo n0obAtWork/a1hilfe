@@ -22,7 +22,7 @@ Hat man von benannter Bundesanstalt eine BAM-Listen Lizenz erworben, hat man mit
 | **Verpackungsgruppe** | Nummern der Verpackungsgruppe(n), die dem gefährlichen Stoff zugeordnet sind |
 | **Gefahrzettel** | Nummer des Musters der Gefahrzettel/Großzettel |
 | **Sondervorschriften** | Numerische Codes der einzuhaltenden Sondervorschriften |
-| **Begrenzte und freigestellte Mengen** | **Begrenzte Menge | freigestellte Menge**<br>Höchstmenge des Stoffes je Innenverpackung oder Gegenstand für die Beförderung gefährlicher Güter in begrenzten Mengen.<br>|<br>Alphanumerischer Code für die Freistellung von den Vorschriften des ADR |
+| **Begrenzte und freigestellte Mengen** | **Begrenzte Menge &#124; freigestellte Menge**<br>Höchstmenge des Stoffes je Innenverpackung oder Gegenstand für die Beförderung gefährlicher Güter in begrenzten Mengen.<br>&#124;<br>Alphanumerischer Code für die Freistellung von den Vorschriften des ADR |
 | **Verpackungen** | **Anweisung (Verpackungsanweisung):**<br>Alphanumerischer Code der anwendbaren Verpackungsanweisungen.<br>**Sondervorschrift:**<br>Alphanumerischer Code der anwendbaren Sondervorschriften für die Verpackung.<br>**Zusammenpackung:**<br>Mit den Buchstaben „MP“ beginnender alphanumerischer Code der anwendbaren Sondervorschriften für die Zusammenpackung. |
 | **Ortsbewegliche Tanks und Schüttgut-Container** | **Anweisung:**<br>Alphanummerischer Code, der einer Anweisung für ortsbewegliche Tanks zugeordnet ist.<br>**Sondervorschrift:**<br>Alphanumerischer Code für die zusätzlich einzuhaltenden Sondervorschriften für ortsbewegliche Tanks |
 | **ADR-Tank** | **Tankcodierung:**<br>Alphanummerischer Code, der einen Tanktyp beschreibt (für Gase der Klasse oder Stoffe der Klassen 3 bis 9).<br>**Sondervorschrift:**<br>Alphanumerischer Code für die zusätzlich einzuhaltenden Sondervorschriften für ADR-Tanks. |
@@ -36,7 +36,7 @@ Hat man von benannter Bundesanstalt eine BAM-Listen Lizenz erworben, hat man mit
 
 | Funktion | Funktionstaste | Beschreibung |
 | --- | --- | --- |
-| **Filter / Bereichsauswahl** | **F2** | Filtermöglichkeiten für die Auswahlliste.<br>è Suche<br><ul><li>-&nbsp;&nbsp;&nbsp;&nbsp; Sucht in einigen Feldern nach dem angegebenen Stichwort.</li></ul> |
+| **Filter / Bereichsauswahl** | **F2** | Filtermöglichkeiten für die Auswahlliste.<br><ul><li>Suche</li><li>Sucht in einigen Feldern nach dem angegebenen Stichwort.</li></ul> |
 | **Import aus ADR-Datei** | **F9** | Startet den Dialog zum Importieren der ADR-Listen-Datei. |
 | **Löschen der ADR-Daten** | **F7** | Löscht alle vorhandenen ADR-Daten aus der A.eins-Tabelle. |
 

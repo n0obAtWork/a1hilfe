@@ -29,9 +29,25 @@ In der Variante „Bedienerklasse“ werden folgende Felder behandelt:
 <details>
 <summary>Suchmöglichkeiten der Bedienerklasse:</summary>
 
-| Suchkriterien |
-| --- |
-| Bedienerklasse | von … bis … |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Suchkriterien</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bedienerklasse</p>
+        </td>
+        <td>
+          <p>von … bis …</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 </details>
 

@@ -4,9 +4,46 @@
 
 Diese Funktionssammlung ist noch in der Entwicklung und darf vom Anwender selbst eingestellt werden. Im Tabreiter System-Grid Eigenschaften sind jedoch Vorbelegungen als Vorschlag des Entwicklers eingetragen.
 
-| Felder |
-| --- |
-| Zeilen Trennstriche | Zeigt zwischen den Zeilen einen Strich. |
-| Spalten Trennstriche | Zeigt zwischen den Spalten einen Strich. |
-| Zeilen Nummer | Diese Funktion bewirkt die Anzeige einer extra-Spalte mit fortlaufender Nummer. |
-| Laufbalken anzeigen | Zeigt das Grid mit einem Laufbalken an. |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Felder</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Zeilen Trennstriche</p>
+        </td>
+        <td>
+          <p>Zeigt zwischen den Zeilen einen Strich.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Spalten Trennstriche</p>
+        </td>
+        <td>
+          <p>Zeigt zwischen den Spalten einen Strich.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Zeilen Nummer</p>
+        </td>
+        <td>
+          <p>Diese Funktion bewirkt die Anzeige einer extra-Spalte mit fortlaufender Nummer.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Laufbalken anzeigen</p>
+        </td>
+        <td>
+          <p>Zeigt das Grid mit einem Laufbalken an.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -26,24 +26,106 @@ Es ist möglich für jeden Kontext eine eigene Rolle anzulegen, da aber für den
 <details>
 <summary>Suchfunktionen des Rollenstamm</summary>
 
-| Suchkriterien |
-| --- |
-| Rolle | Suchbegriff |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Suchkriterien</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Rolle</p>
+        </td>
+        <td>
+          <p>Suchbegriff</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 </details>
 
 <details>
 <summary>Funktionen des Rollenstamm</summary>
 
-| Funktionen |
-| --- |
-| Neu (**F8**) | Anlage einer neuen Rolle.<br>Für Details siehe [Rollenpfleger](./rollenstamm_pfleger.md). |
-| Ändern (**F5**) | Ändern einer Rolle<br>Als Besonderheit beinhaltet diese Funktion auch das „Umbenennen einer Rolle, sowie über „Speichern unter“ das Erzeugen einer neuen Rolle mit Vorgabe der Bedienerklassenzuordnung der Vorlage.<br>Für Details siehe Rollenpfleger. |
-| Ansehen (**F6**) | Ansehen der Bedienerklassenzuordnung.<br>Für Details siehe [Rollenpfleger](./rollenstamm_pfleger.md). |
-| Löschen (**F7**) | Löscht eine Rolle.<br>Allerdings nicht die Controller-Rolle und ebenso keine Rolle die zugeordnete Rollenkontexte hat!<br>Für Details siehe [Rollenpfleger](./rollenstamm_pfleger.md). |
-| Rollen tauschen (**F9**) | Hiermit lassen sich von zwei Rollen die Bedienerklassenzuordnung und/oder die Rollenkontexte austauschen.<br>Für Details siehe „[Rollen tauschen](./rollen_tauschen.md)“. |
-| Rollen vereinigen (**Shift+F9**) | Vereinigt ausgewählte Rolle in einer Ziel-Rolle. Die Ziel-Rolle kann dabei entweder eine neue oder eine der beteiligten Rollen sein. Nach der Operation besitzt die Ziel-Rolle die Vereinigung aller Bedienerklassen der beteiligten Rollen und alle betroffenen Rollenkontexte der involvierten Rollen sind der Zielrolle zugeordnet.<br>Für Details siehe „[Rollen vereinigen](./rollen_vereinigen.md)“. |
-| Rollenkontexte (**F10**) | Ruft die Anwendung „Diese Funktionen“ auf, die eine Spezialisierung einer Variante der Rollenkontexte ist und nur die Mitglieder dieser Rolle anzeigt. |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Funktionen</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Neu (<strong>F8</strong>)</p>
+        </td>
+        <td>
+          <p>Anlage einer neuen Rolle.</p>
+          <p>Für Details siehe <a href="./rollenstamm_pfleger.md">Rollenpfleger</a>.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Ändern (<strong>F5</strong>)</p>
+        </td>
+        <td>
+          <p>Ändern einer Rolle</p>
+          <p>Als Besonderheit beinhaltet diese Funktion auch das „Umbenennen einer Rolle, sowie über „Speichern unter“ das Erzeugen einer neuen Rolle mit Vorgabe der Bedienerklassenzuordnung der Vorlage.</p>
+          <p>Für Details siehe Rollenpfleger.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Ansehen (<strong>F6</strong>)</p>
+        </td>
+        <td>
+          <p>Ansehen der Bedienerklassenzuordnung.</p>
+          <p>Für Details siehe <a href="./rollenstamm_pfleger.md">Rollenpfleger</a>.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Löschen (<strong>F7</strong>)</p>
+        </td>
+        <td>
+          <p>Löscht eine Rolle.</p>
+          <p>Allerdings nicht die Controller-Rolle und ebenso keine Rolle die zugeordnete Rollenkontexte hat!</p>
+          <p>Für Details siehe <a href="./rollenstamm_pfleger.md">Rollenpfleger</a>.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Rollen tauschen (<strong>F9</strong>)</p>
+        </td>
+        <td>
+          <p>Hiermit lassen sich von zwei Rollen die Bedienerklassenzuordnung und/oder die Rollenkontexte austauschen.</p>
+          <p>Für Details siehe „<a href="./rollen_tauschen.md">Rollen tauschen</a>“.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Rollen vereinigen (<strong>Shift+F9</strong>)</p>
+        </td>
+        <td>
+          <p>Vereinigt ausgewählte Rolle in einer Ziel-Rolle. Die Ziel-Rolle kann dabei entweder eine neue oder eine der beteiligten Rollen sein. Nach der Operation besitzt die Ziel-Rolle die Vereinigung aller Bedienerklassen der beteiligten Rollen und alle betroffenen Rollenkontexte der involvierten Rollen sind der Zielrolle zugeordnet.</p>
+          <p>Für Details siehe „<a href="./rollen_vereinigen.md">Rollen vereinigen</a>“.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Rollenkontexte (<strong>F10</strong>)</p>
+        </td>
+        <td>
+          <p>Ruft die Anwendung „Diese Funktionen“ auf, die eine Spezialisierung einer Variante der Rollenkontexte ist und nur die Mitglieder dieser Rolle anzeigt.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 </details>
 

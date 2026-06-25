@@ -28,9 +28,25 @@ Jedem Bediener müssen seine Erfasser explizit zugewiesen werden. Diese Zuordnun
 <details>
 <summary>Suchmöglichkeiten des Erfasserstamm</summary>
 
-| Suchkriterien |
-| --- |
-| Nummer | von … bis … |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Suchkriterien</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Nummer</p>
+        </td>
+        <td>
+          <p>von … bis …</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 </details>
 

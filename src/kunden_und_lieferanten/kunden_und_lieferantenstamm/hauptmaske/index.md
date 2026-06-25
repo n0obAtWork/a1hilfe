@@ -48,21 +48,203 @@ Der Kundentyp kann unter bestimmten Voraussetzungen nachträglich geändert werd
 
 2. Die Bedingungen der folgenden Tabelle sind erfüllt.
 
-| **Von** | **Nach** | **Bedingung** | **Nummernvergabe** |
-| --- | --- | --- | --- |
-| Interessent | Kunde | zulassen | Nummernkreis neu ziehen, existierende Vorgänge werden passend umgeändert |
-| Interessent | Lieferant | zulassen | Nummernkreis neu ziehen, existierende Vorgänge werden passend umgeändert |
-| Interessent | Kontokorrent | zulassen | Nummernkreis neu ziehen, existierende Vorgänge werden passend umgeändert |
-| Kontokorrent | Kunde | Die Kundennummer ändert sich nicht.<br>Es existieren keine Einkaufsbelege zu dieser Kundennummer. | keine Nummernänderung möglich |
-| Kontokorrent | Lieferant | Die Kundennummer ändert sich nicht.<br>Es existieren keine Verkaufsbelege zu dieser Kundennummer. | keine Nummernänderung möglich |
-| Kontokorrent | Interessent | Es sind keine Belge zu dieser Kundennummer vorhanden | Nummernkreis neu ziehen |
-| Lieferant | Kunde | Es sind keine Belge zu dieser Kundennummer vorhanden | Nummernkreis neu ziehen |
-| Lieferant | Kontokorrent | Die Kundennummer ändert sich nicht | Nummernkreis neu ziehen |
-| Lieferant | Interessent | Es sind keine Belge zu dieser Kundennummer vorhanden | Nummernkreis neu ziehen |
-| Kunde | Lieferant | Es sind keine Belge zu dieser Kundennummer vorhanden | Nummernkreis neu ziehen |
-| Kunde | Kontokorrent | Die Kundennummer ändert sich nicht | Nummernkreis neu ziehen |
-| Kunde | Interessent | Es sind keine Belge zu dieser Kundennummer vorhanden | Nummernkreis neu ziehen |
-| | | | | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><b>Von</b></p>
+        </td>
+        <td colspan="2">
+          <p><b>Nach</b></p>
+        </td>
+        <td>
+          <p><b>Bedingung</b></p>
+        </td>
+        <td>
+          <p><b>Nummernvergabe</b></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Interessent</p>
+        </td>
+        <td>
+          <p>Kunde</p>
+        </td>
+        <td colspan="2">
+          <p>zulassen</p>
+        </td>
+        <td>
+          <p>Nummernkreis neu ziehen, existierende Vorgänge werden passend umgeändert</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Interessent</p>
+        </td>
+        <td>
+          <p>Lieferant</p>
+        </td>
+        <td colspan="2">
+          <p>zulassen</p>
+        </td>
+        <td>
+          <p>Nummernkreis neu ziehen, existierende Vorgänge werden passend umgeändert</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Interessent</p>
+        </td>
+        <td>
+          <p>Kontokorrent</p>
+        </td>
+        <td colspan="2">
+          <p>zulassen</p>
+        </td>
+        <td>
+          <p>Nummernkreis neu ziehen, existierende Vorgänge werden passend umgeändert</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kontokorrent</p>
+        </td>
+        <td>
+          <p>Kunde</p>
+        </td>
+        <td colspan="2">
+          <p>Die Kundennummer ändert sich nicht.<br>Es existieren keine Einkaufsbelege zu dieser Kundennummer.</p>
+        </td>
+        <td>
+          <p>keine Nummernänderung möglich</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kontokorrent</p>
+        </td>
+        <td>
+          <p>Lieferant</p>
+        </td>
+        <td colspan="2">
+          <p>Die Kundennummer ändert sich nicht.<br>Es existieren keine Verkaufsbelege zu dieser Kundennummer.</p>
+        </td>
+        <td>
+          <p>keine Nummernänderung möglich</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kontokorrent</p>
+        </td>
+        <td>
+          <p>Interessent</p>
+        </td>
+        <td colspan="2">
+          <p>Es sind keine Belge zu dieser Kundennummer vorhanden</p>
+        </td>
+        <td>
+          <p>Nummernkreis neu ziehen</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Lieferant</p>
+        </td>
+        <td>
+          <p>Kunde</p>
+        </td>
+        <td colspan="2">
+          <p>Es sind keine Belge zu dieser Kundennummer vorhanden</p>
+        </td>
+        <td>
+          <p>Nummernkreis neu ziehen</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Lieferant</p>
+        </td>
+        <td>
+          <p>Kontokorrent</p>
+        </td>
+        <td colspan="2">
+          <p>Die Kundennummer ändert sich nicht</p>
+        </td>
+        <td>
+          <p>Nummernkreis neu ziehen</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Lieferant</p>
+        </td>
+        <td>
+          <p>Interessent</p>
+        </td>
+        <td colspan="2">
+          <p>Es sind keine Belge zu dieser Kundennummer vorhanden</p>
+        </td>
+        <td>
+          <p>Nummernkreis neu ziehen</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kunde</p>
+        </td>
+        <td>
+          <p>Lieferant</p>
+        </td>
+        <td colspan="2">
+          <p>Es sind keine Belge zu dieser Kundennummer vorhanden</p>
+        </td>
+        <td>
+          <p>Nummernkreis neu ziehen</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kunde</p>
+        </td>
+        <td>
+          <p>Kontokorrent</p>
+        </td>
+        <td colspan="2">
+          <p>Die Kundennummer ändert sich nicht</p>
+        </td>
+        <td>
+          <p>Nummernkreis neu ziehen</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kunde</p>
+        </td>
+        <td>
+          <p>Interessent</p>
+        </td>
+        <td colspan="2">
+          <p>Es sind keine Belge zu dieser Kundennummer vorhanden</p>
+        </td>
+        <td>
+          <p>Nummernkreis neu ziehen</p>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 **Anschrift**
 

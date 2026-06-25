@@ -6,67 +6,603 @@ Zuweilen wollen Sie sicher zusätzliche Informationen zu den Warenbewegungen bek
 
 Diese View kann mit dem Feld wabew_id an die Tabelle Warenbewegung oder andere Views gejoint werden, die die wabew_id enthalten.
 
-| AMIC_V_Warenbewegung_Info<br>Gibt zusätzliche Informationen zu Warenbewegungen |
-| --- |
-| Feld | Typ | Bezeichnung |
-| wabew_id | Integer | ID der Warenbewegung |
-| tmp_ist | Integer | temporäre Zwischenergebnise |
-| tmp_fremd | Numeric(15,4) | temporäre Zwischenergebnise |
-| tmp_ktrdiff | Numeric(15,4) | temporäre Zwischenergebnise |
-| tmp_wert | Numeric(15,4) | temporäre Zwischenergebnise |
-| wbc_Typ_EKVK | smallint | Einkauf/Verkaufskennzeichen (EK=1, VK=2) |
-| wbc_SigniEigenware | Numeric(15,4) | Vorzeichen Eigenware |
-| wbc_SigniEigenwareKtrDiff | Numeric(15,4) | Vorzeichen Eigenware Kontraktdifferenz |
-| wbc_SigniFremdware_VVK | Numeric(15,4) | Vorzeichen Fremdware Vorverkauf |
-| wbc_SigniFremdlager_VEK | Numeric(15,4) | Vorzeichen Eigenware Voreinkauf |
-| wbc_SigniFremdware_EINL | Numeric(15,4) | Vorzeichen Fremdware Einlagerung |
-| wbc_SigniFremdlager_KOM | Numeric(15,4) | Vorzeichen Fremdlager Kommission |
-| wbc_SigniEigenBestand | Numeric(15,4) | Vorzeichen Eigenbestand |
-| wbc_SigniLagerBestand | Numeric(15,4) | Vorzeichen Lagerbestand |
-| wbc_SigniEinkauf | Numeric(15,4) | Vorzeichen Einkauf |
-| wbc_SigniVerkauf | Numeric(15,4) | Vorzeichen Verkauf |
-| wbc_Eigenware | Numeric(15,4) | Menge Eigenware |
-| wbc_Fremdware_VVK | Numeric(15,4) | Menge Vorverkauf |
-| wbc_Fremdlager_VEK | Numeric(15,4) | Menge Voreinkauf |
-| wbc_Fremdware_EINL | Numeric(15,4) | Menge Einlagerung |
-| wbc_Fremdlager_KOM | Numeric(15,4) | Menge Kommission |
-| wbc_EigenBestand | Numeric(15,4) | Menge Eigenbestand |
-| wbc_LagerBestand | Numeric(15,4) | Menge Lagerbestand |
-| wbc_Einkauf | Numeric(15,4) | Menge Einkauf |
-| wbc_Verkauf | Numeric(15,4) | Menge Verkauf |
-| wbc_Eigenware_Wert | Numeric(15,4) | Wert Eigenware |
-| wbc_Fremdware_VVK_Wert | Numeric(15,4) | Wert Vorverkauf |
-| wbc_Fremdlager_VEK_Wert | Numeric(15,4) | Wert Voreinkauf |
-| wbc_Fremdware_EINL_Wert | Numeric(15,4) | Wert Einlagerung |
-| wbc_Fremdlager_KOM_Wert | Numeric(15,4) | Wert Kommission |
-| wbc_EigenBestand_Wert | Numeric(15,4) | Wert Eigenbestand |
-| wbc_LagerBestand_Wert | Numeric(15,4) | Wert Lagerbestand |
-| wbc_Einkauf_Wert | Numeric(15,4) | Wert Einkauf |
-| wbc_Verkauf_Wert | Numeric(15,4) | Wert Verkauf |
-| wbc_BewArt | smallint | Siehe unten |
-| wbc_BewCode | smallint | Siehe unten |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="3">
+          <p><strong>AMIC_V_Warenbewegung_Info</strong></p>
+          <p><strong>Gibt zusätzliche Informationen zu Warenbewegungen</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Feld</p>
+        </td>
+        <td>
+          <p>Typ</p>
+        </td>
+        <td>
+          <p>Bezeichnung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wabew_id</p>
+        </td>
+        <td>
+          <p>Integer</p>
+        </td>
+        <td>
+          <p>ID der Warenbewegung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>tmp_ist</p>
+        </td>
+        <td>
+          <p>Integer</p>
+        </td>
+        <td>
+          <p>temporäre Zwischenergebnise</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>tmp_fremd</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>temporäre Zwischenergebnise</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>tmp_ktrdiff</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>temporäre Zwischenergebnise</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>tmp_wert</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>temporäre Zwischenergebnise</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_Typ_EKVK</p>
+        </td>
+        <td>
+          <p>smallint</p>
+        </td>
+        <td>
+          <p>Einkauf/Verkaufskennzeichen (EK=1, VK=2)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_SigniEigenware</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>Vorzeichen Eigenware</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_SigniEigenwareKtrDiff</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>Vorzeichen Eigenware Kontraktdifferenz</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_SigniFremdware_VVK</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>Vorzeichen Fremdware Vorverkauf</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_SigniFremdlager_VEK</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>Vorzeichen Eigenware Voreinkauf</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_SigniFremdware_EINL</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>Vorzeichen Fremdware Einlagerung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_SigniFremdlager_KOM</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>Vorzeichen Fremdlager Kommission</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_SigniEigenBestand</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>Vorzeichen Eigenbestand</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_SigniLagerBestand</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>Vorzeichen Lagerbestand</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_SigniEinkauf</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>Vorzeichen Einkauf</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_SigniVerkauf</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>Vorzeichen Verkauf</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_Eigenware</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>Menge Eigenware</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_Fremdware_VVK</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>Menge Vorverkauf</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_Fremdlager_VEK</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>Menge Voreinkauf</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_Fremdware_EINL</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>Menge Einlagerung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_Fremdlager_KOM</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>Menge Kommission</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_EigenBestand</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>Menge Eigenbestand</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_LagerBestand</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>Menge Lagerbestand</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_Einkauf</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>Menge Einkauf</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_Verkauf</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>Menge Verkauf</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_Eigenware_Wert</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>Wert Eigenware</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_Fremdware_VVK_Wert</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>Wert Vorverkauf</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_Fremdlager_VEK_Wert</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>Wert Voreinkauf</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_Fremdware_EINL_Wert</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>Wert Einlagerung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_Fremdlager_KOM_Wert</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>Wert Kommission</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_EigenBestand_Wert</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>Wert Eigenbestand</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_LagerBestand_Wert</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>Wert Lagerbestand</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_Einkauf_Wert</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>Wert Einkauf</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_Verkauf_Wert</p>
+        </td>
+        <td>
+          <p>Numeric(15,4)</p>
+        </td>
+        <td>
+          <p>Wert Verkauf</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_BewArt</p>
+        </td>
+        <td>
+          <p>smallint</p>
+        </td>
+        <td>
+          <p>Siehe unten</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>wbc_BewCode</p>
+        </td>
+        <td>
+          <p>smallint</p>
+        </td>
+        <td>
+          <p>Siehe unten</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-| Bewegungsart<br>Ist wbc_BewArt gleich 0, so handelt es sich um eine reine buchhalterische Buchung, bei der keine Ware physisch bewegt wird (Ausnahme reiner Einkauf, reiner Verkauf). Dies kann das bisherige Kennzeichen WaBewBestTyp der Warenbewegung ersetzen. |
-| --- |
-| 0 | Alle Buchungen, die buchhalterisch relevante Bestände berühren (EK, VK, Vereinnahmung und Kommissionsverkauf)<br>Diese Bewegungsart wurde in früheren Versionen auch als Eigenbewegung bezeichnet. |
-| 1 | Buchung, die nur einen physikalischen Bestand berührt – Vorverkauf Abholung<br>Diese Bewegungsart wurde in früheren Versionen auch als FremdwareVerkauf bezeichnet |
-| 2 | Buchung, die nur einen physikalischen Bestand berührt – Voreinkauf Anlieferung<br>Diese Bewegungsart wurde in früheren Versionen auch als Fremdlager Einkauf bezeichnet |
-| 3 | Buchung, die nur einen physikalischen Bestand berührt – Einlagerung und Abholung |
-| 4 | Buchung, die nur einen physikalischen Bestand berührt – Kommission und Rücknahme |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Bewegungsart</strong></p>
+          <p>Ist wbc_BewArt gleich 0, so handelt es sich um eine reine buchhalterische Buchung, bei der keine Ware physisch bewegt wird (Ausnahme reiner Einkauf, reiner Verkauf). Dies kann das bisherige Kennzeichen WaBewBestTyp der Warenbewegung ersetzen.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>0</p>
+        </td>
+        <td>
+          <p>Alle Buchungen, die buchhalterisch relevante Bestände berühren (EK, VK, Vereinnahmung und Kommissionsverkauf)</p>
+          <p>Diese Bewegungsart wurde in früheren Versionen auch als Eigenbewegung bezeichnet.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>1</p>
+        </td>
+        <td>
+          <p>Buchung, die nur einen physikalischen Bestand berührt – Vorverkauf Abholung</p>
+          <p>Diese Bewegungsart wurde in früheren Versionen auch als FremdwareVerkauf bezeichnet</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>Buchung, die nur einen physikalischen Bestand berührt – Voreinkauf Anlieferung</p>
+          <p>Diese Bewegungsart wurde in früheren Versionen auch als Fremdlager Einkauf bezeichnet</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>Buchung, die nur einen physikalischen Bestand berührt – Einlagerung und Abholung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>Buchung, die nur einen physikalischen Bestand berührt – Kommission und Rücknahme</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-| Bewegungscode<br>Der wbc_BewCode beschreibt die Herkunft der Warenbewegung. Während Codes kleiner 10 die eigentliche Tätigkeit beschreiben, kennzeichnen Codes zwischen 11 und 19 die jeweiligen Folgeschritte. Die Codes zwischen 21 und 29 sind für die Rückabwicklungen reserviert. Die Codes 10 und 20 stehen für Einkauf bzw. Verkauf. |
-| --- |
-| 1 | Vorverkauf |
-| 2 | Voreinkauf |
-| 3 | Einlagerung |
-| 4 | Kommission |
-| 10 | Einkauf |
-| 11 | Vorverkauf Abholung |
-| 12 | Voreinkauf Anlieferung |
-| 13 | Einlagerung Vereinnahmung |
-| 14 | Kommission Verkauf |
-| 20 | Verkauf |
-| 21 | Vorverkauf Rücknahme |
-| 22 | Voreinkauf Rückgabe |
-| 23 | Einlagerung Abholung |
-| 24 | Kommission Rücknahme |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Bewegungscode</strong></p>
+          <p>Der wbc_BewCode beschreibt die Herkunft der Warenbewegung. Während Codes kleiner 10 die eigentliche Tätigkeit beschreiben, kennzeichnen Codes zwischen 11 und 19 die jeweiligen Folgeschritte. Die Codes zwischen 21 und 29 sind für die Rückabwicklungen reserviert. Die Codes 10 und 20 stehen für Einkauf bzw. Verkauf.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>1</p>
+        </td>
+        <td>
+          <p>Vorverkauf</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>Voreinkauf</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>Einlagerung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>Kommission</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>10</p>
+        </td>
+        <td>
+          <p>Einkauf</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>11</p>
+        </td>
+        <td>
+          <p>Vorverkauf Abholung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>12</p>
+        </td>
+        <td>
+          <p>Voreinkauf Anlieferung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>13</p>
+        </td>
+        <td>
+          <p>Einlagerung Vereinnahmung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>14</p>
+        </td>
+        <td>
+          <p>Kommission Verkauf</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>20</p>
+        </td>
+        <td>
+          <p>Verkauf</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>21</p>
+        </td>
+        <td>
+          <p>Vorverkauf Rücknahme</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>22</p>
+        </td>
+        <td>
+          <p>Voreinkauf Rückgabe</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>23</p>
+        </td>
+        <td>
+          <p>Einlagerung Abholung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>24</p>
+        </td>
+        <td>
+          <p>Kommission Rücknahme</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

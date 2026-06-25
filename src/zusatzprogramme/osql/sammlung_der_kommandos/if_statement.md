@@ -4,17 +4,17 @@
 
 <p class="just-emphasize">Syntax</p>
 
-If ( | DOMAIN(table-name,column-name[,[typ=nnn,len=nnn][,scale=nn]]) |
+If ( &#124; DOMAIN(table-name,column-name[,[typ=nnn,len=nnn][,scale=nn]]) &#124;
 
- | TAB(table-name) |
+ &#124; TAB(table-name) &#124;
 
- | ROWS |
+ &#124; ROWS &#124;
 
- | INDEX(index-name) |
+ &#124; INDEX(index-name) &#124;
 
- | DBERR |
+ &#124; DBERR &#124;
 
- | VAL(field-name) )
+ &#124; VAL(field-name) )
 
 {
 

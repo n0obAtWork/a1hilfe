@@ -4,4 +4,4 @@
 
 | Bezeichnung | Standardwert | Erklärung |
 | --- | --- | --- |
-| Beleg darf nicht geändert werden? | Änderbar | Bei der Übergabe in die Primanota können die Belege mit einer Bearbeitungssperre versehen werden. Mögliche Werte sind:<br>• Änderbar<br>• Eingeschränkt änderbar<br>• Nicht änderbar<br>• Nicht änder-/löschbar<br> |
+| Beleg darf nicht geändert werden? | Änderbar | Bei der Übergabe in die Primanota können die Belege mit einer Bearbeitungssperre versehen werden. Mögliche Werte sind:<br><ul><li>&nbsp;&nbsp;&nbsp; Änderbar</li><li>&nbsp;&nbsp;&nbsp; Eingeschränkt änderbar</li><li>&nbsp;&nbsp;&nbsp; Nicht änderbar</li><li>&nbsp;&nbsp;&nbsp; Nicht änder-/löschbar<br>&nbsp;</li></ul> |

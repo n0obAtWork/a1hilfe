@@ -10,15 +10,15 @@ In dieser Relation werden Daten der Vorgangswarenposition gespeichert.
 | SatzId | Ja | SatzId wie im Stammsatz( 1) |
 | PositionId | Ja | Positionszähler dieser muss manuell erhöht werden. |
 | Status | Ja | Der Status der Position muss auf zwei gesetzt werden, ansonsten wird der Beleg nicht verarbeitet. |
-| ArtikelNummer, ArtikelId, ArtiStammId<br> | Ja | Artikel des Umzubuchende Artikels, wenn die ArtikelId übergegeben wird, dann muss in der Abgangszeile der Artikel des Abganglagers stehen und in der Zugangszeile die ArtikelId des Zugangslagers.<br>Bei Lagerumbuchung gilt:<br>• In der Abgangszeile wird hier der Artikel des Abgangs eingetragen<br>• In der Zugangszeile wird hier der Artikel des Zugangs eingetragen |
-| LagerNummer | Wenn nicht Artikelid | Lagernummer der Position<br>Bei Lagerumbuchung gilt:<br>• In der Abgangszeile wird hier die Lagernummer des Abgangslagers eingetragen<br>• In der Zugangszeile wird hier die Lagernummer des ZugangsLagers eingetragen |
+| ArtikelNummer, ArtikelId, ArtiStammId<br> | Ja | Artikel des Umzubuchende Artikels, wenn die ArtikelId übergegeben wird, dann muss in der Abgangszeile der Artikel des Abganglagers stehen und in der Zugangszeile die ArtikelId des Zugangslagers.<br>Bei Lagerumbuchung gilt:<br><ul><li>&nbsp;&nbsp;&nbsp; In der Abgangszeile wird hier der Artikel des Abgangs eingetragen</li><li>&nbsp;&nbsp;&nbsp; In der Zugangszeile wird hier der Artikel des Zugangs eingetragen</li></ul> |
+| LagerNummer | Wenn nicht Artikelid | Lagernummer der Position<br>Bei Lagerumbuchung gilt:<br><ul><li>&nbsp;&nbsp;&nbsp; In der Abgangszeile wird hier die Lagernummer des Abgangslagers eingetragen</li><li>&nbsp;&nbsp;&nbsp; In der Zugangszeile wird hier die Lagernummer des ZugangsLagers eingetragen</li></ul> |
 | LagerplatzNummer | Nein | Lagerplatz der Position |
 | Menge | Ja | Hier wird die Menge eingetragen, bei einem Gebinde muss hier die Gebindeanzahl eingetragen werden |
 | ME | Ja | Mengeneinheit der Position |
 | ME_Preis | Nein | Mengeneinheit des Preises |
 | Preiseinheit | Nein | Einheit des Preise |
 | Preis | Nein | Preis der Position |
-| Preisgesamt | Nein | • 0 Der Preis wird als Preis genommen<br>• 1 Der Preis der Warenposition als Gesamtpreis gesetzt werden. |
+| Preisgesamt | Nein | <ul><li>&nbsp;&nbsp;&nbsp; 0 Der Preis wird als Preis genommen</li><li>&nbsp;&nbsp;&nbsp; 1 Der Preis der Warenposition als&nbsp;&nbsp; Gesamtpreis gesetzt werden.</li></ul> |
 | KontraktNummer | Nein | Nummer des Kontraktes |
 | ZusatzInfo | | Zusatzinfo begrenzt auf 40 Zeichen |
 | ZusatzInfo2 | | ZusatzInfo2 begrenzt auf 40 Zeichen |

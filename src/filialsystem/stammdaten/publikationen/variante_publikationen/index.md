@@ -5,7 +5,7 @@
 | **Felder** | |
 | --- | --- |
 | Publikation | Name der Publikationen |
-| Eigenschaft | Zeigt die Eigenschaft einer Publikation:<br><ul><li>-&nbsp;&nbsp;&nbsp;&nbsp; Amic-Standard</li><li>-&nbsp;&nbsp;&nbsp;&nbsp; benutzerdefiniert</li></ul> |
+| Eigenschaft | Zeigt die Eigenschaft einer Publikation:<br><ul><li>Amic-Standard</li><li>benutzerdefiniert</li></ul> |
 | Anzahl Artikel | Anzahl der in der Publikation enthaltenen Artikel |
 | Anzahl aktive Artikel | Anzahl der Artikel in einer Aktiven Publikation |
 
@@ -17,7 +17,7 @@
 | **Bereiche/Profile** | |
 | --- | --- |
 | Publikation wie | Ermöglicht Suche nach Publkationsnamen<br>**F3** ermöglicht die konkrete Auswahl und informiert über den Publikationstypen. |
-| Eigenschaft | Ermöglicht Suche nach Publikationseigenschaft<br><ul><li>-&nbsp;&nbsp;&nbsp;&nbsp; Amic-Standard</li><li>-&nbsp;&nbsp;&nbsp;&nbsp; benutzerdefiniert</li></ul> |
+| Eigenschaft | Ermöglicht Suche nach Publikationseigenschaft<br><ul><li>Amic-Standard</li><li>benutzerdefiniert</li></ul> |
 
 <p class="siehe-auch">Siehe auch:</p>
 

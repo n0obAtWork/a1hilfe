@@ -31,15 +31,79 @@ Wenn bei Veränderung des Feldes **Preis ab** die neuen Individualpreise nicht i
 
 Grundlegend können alle gelb markierten Felder gepflegt werden. Das Verhalten beim Import kann dabei aber variieren.
 
-| Feldname | Funktion |
-| --- | --- |
-| Mengeneinheitsnummer | Nummer der Mengeneinheit, die für das Feld **Ab Menge** benutzt wird. Diese kann hier gepflegt werden, muss aber eine Ableitung der Lagermengeneinheit des Artikels sein.<br> |
-| Preis<br>Mengeneinheitsnummer | Nummer der Mengeneinheit, für die der Individualpreis berechnet wird. Diese kann gepflegt werden, muss aber eine Ableitung der Lagermengeneinheit des Artikels sein.<br> |
-| Kundennummer,<br>Artikelnummer | Die Werte Können hier gepflegt werden: Es wird eine Kopie des Individualpreis für die neue Auswahl angelegt. Der Individualpreis, der in der Excel-Datei verändert wird, bleibt so bestehen.<br> |
-| Lagernummer | Der Wert kann hier gepflegt werden: Es wird eine Kopie des Individualpreis für die neue Auswahl angelegt.<br>**Wichtig**: Bei Preisveränderung wird der Preis für alle Lager immer einheitlich gesetzt.<br> |
-| Kennzeichen<br>(Brutto, …, Verpackung) | Diese Werte können hier gepflegt werden. |
-| Sperre | Dieser Wert kann hier gepflegt werden.<br> |
-| | | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p>Feldname</p>
+        </td>
+        <td colspan="2">
+          <p>Funktion</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Mengeneinheitsnummer</p>
+        </td>
+        <td>
+          <p>Nummer der Mengeneinheit, die für das Feld <b>Ab Menge</b> benutzt wird. Diese kann hier gepflegt werden, muss aber eine Ableitung der Lagermengeneinheit des Artikels sein.</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Preis</p>
+          <p>Mengeneinheitsnummer</p>
+        </td>
+        <td>
+          <p>Nummer der Mengeneinheit, für die der Individualpreis berechnet wird. Diese kann gepflegt werden, muss aber eine Ableitung der Lagermengeneinheit des Artikels sein.</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Kundennummer,</p>
+          <p>Artikelnummer</p>
+        </td>
+        <td>
+          <p>Die Werte Können hier gepflegt werden: Es wird eine Kopie des Individualpreis für die neue Auswahl angelegt. Der Individualpreis, der in der Excel-Datei verändert wird, bleibt so bestehen.</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Lagernummer</p>
+        </td>
+        <td>
+          <p>Der Wert kann hier gepflegt werden: Es wird eine Kopie des Individualpreis für die neue Auswahl angelegt.</p>
+          <p><b>Wichtig</b>: Bei Preisveränderung wird der Preis für alle Lager immer einheitlich gesetzt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Kennzeichen</p>
+          <p>(Brutto, …, Verpackung)</p>
+        </td>
+        <td>
+          <p>Diese Werte können hier gepflegt werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Sperre</p>
+        </td>
+        <td>
+          <p>Dieser Wert kann hier gepflegt werden.</p>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Zudem können Excel-spezifische Funktionen auf den Individualpreisen ausgeführt werden:
 

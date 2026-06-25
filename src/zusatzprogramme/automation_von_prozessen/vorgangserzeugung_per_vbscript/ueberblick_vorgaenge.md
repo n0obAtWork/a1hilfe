@@ -2,11 +2,107 @@
 
 <!-- source: https://amic.de/hilfe/berblickvorgnge.htm -->
 
-| Vorgang | bestellung.vbs | bestellung_start.vbs | autom_bestellung.xml |
-| --- | --- | --- | --- |
-| | Automat | Parameter | | |
-| Neuer Vorgang | X | X | X | X |
-| Neue Position | X | X | X | X |
-| Position zusammenführen | X | X | X | X |
-| Mengenänderung | | X | | |
-| Umverteilung | | X | | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Vorgang</strong></p>
+        </td>
+        <td colspan="2">
+          <p><strong>bestellung.vbs</strong></p>
+        </td>
+        <td>
+          <p><strong>bestellung_start.vbs</strong></p>
+        </td>
+        <td>
+          <p><strong>autom_bestellung.xml</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <p>Automat</p>
+        </td>
+        <td>
+          <p>Parameter</p>
+        </td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Neuer Vorgang</p>
+        </td>
+        <td>
+          <p>X</p>
+        </td>
+        <td>
+          <p>X</p>
+        </td>
+        <td>
+          <p>X</p>
+        </td>
+        <td>
+          <p>X</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Neue Position</p>
+        </td>
+        <td>
+          <p>X</p>
+        </td>
+        <td>
+          <p>X</p>
+        </td>
+        <td>
+          <p>X</p>
+        </td>
+        <td>
+          <p>X</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Position zusammenführen</p>
+        </td>
+        <td>
+          <p>X</p>
+        </td>
+        <td>
+          <p>X</p>
+        </td>
+        <td>
+          <p>X</p>
+        </td>
+        <td>
+          <p>X</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Mengenänderung</p>
+        </td>
+        <td></td>
+        <td>
+          <p>X</p>
+        </td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Umverteilung</p>
+        </td>
+        <td></td>
+        <td>
+          <p>X</p>
+        </td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

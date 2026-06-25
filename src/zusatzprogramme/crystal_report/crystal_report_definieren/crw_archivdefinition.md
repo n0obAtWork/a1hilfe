@@ -10,9 +10,9 @@ Wird ein Report gedruckt, so ist es möglich diesen auch zu archivieren. Wenn de
 
 | Feld | Bedeutung |
 | --- | --- |
-| Archivierungsmerkmal | Wie soll archiviert werden. Es lassen sich hier mit F3 folgende Einstellungen auswählen:<br>• nicht archivieren<br>• archivieren und Probleme immer melden<br>• archivieren und Probleme nur einmal melden<br>• archivieren und Nachricht im Fehler-/Ereignisprotokoll<br> |
+| Archivierungsmerkmal | Wie soll archiviert werden. Es lassen sich hier mit F3 folgende Einstellungen auswählen:<br><ul><li>&nbsp;&nbsp;&nbsp; nicht archivieren</li><li>&nbsp;&nbsp;&nbsp; archivieren und Probleme immer melden</li><li>&nbsp;&nbsp;&nbsp; archivieren und Probleme nur einmal melden</li><li>&nbsp;&nbsp;&nbsp; archivieren und Nachricht im Fehler-/Ereignisprotokoll<br>&nbsp;</li></ul> |
 | Archiv Belegklasse | Für Report ist die Belegklasse bisher immer nur CRW-Report(6000) gewesen. Jetzt kann hier bei privaten Reporten eine Belegklasse hinterlegt werden.<br> |
-| Archivierungsgruppe | Hier steht ein Anwenderformat zur Verfügung. Folgende Werte sind von AMIC vorgegeben:<br>• keine Gruppe<br>• Streckengeschäft<br>• Führender Beleg<br><br><br>Weitere Gruppen können individuell erfasst werden.<br><br> |
+| Archivierungsgruppe | Hier steht ein Anwenderformat zur Verfügung. Folgende Werte sind von AMIC vorgegeben:<br><ul><li>&nbsp;&nbsp;&nbsp; keine Gruppe</li><li>&nbsp;&nbsp;&nbsp; Streckengeschäft</li><li>&nbsp;&nbsp;&nbsp; Führender Beleg<br><br><br>Weitere Gruppen können individuell erfasst werden. <br><br></li></ul> |
 | Ausgabeformat | Im Normalfall werden die Reporte im PDF-Format archiviert. Es ist jedoch auch möglich, den Report im Word-Format zu archivieren<br><br> |
 
 Je nach Einstellung der Gruppe werden unterschiedliche Verweise auf Kunden im Archiv hinterlegt:  

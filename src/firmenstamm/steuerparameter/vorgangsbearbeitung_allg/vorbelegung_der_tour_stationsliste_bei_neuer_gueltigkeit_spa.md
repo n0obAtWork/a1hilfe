@@ -7,4 +7,4 @@ Mit diesem Steuerparameter kann eingestellt werden, ob beim Erstellen einer neue
 | Einstellung | Bedeutung |
 | --- | --- |
 | Nein | Die Tourenanlage funktioniert wie gewohnt. (Standard) |
-| Ja | Folgende Werte werden wie folgt vorbelegt:<br>• Die Nr. mit der 1<br>• Die Priorität mit der 1<br>• Die Sperre mit Nein |
+| Ja | Folgende Werte werden wie folgt vorbelegt:<br><ul><li>&nbsp;&nbsp;&nbsp; Die Nr. mit der 1</li><li>&nbsp;&nbsp;&nbsp; Die Priorität mit der 1</li><li>&nbsp;&nbsp;&nbsp; Die Sperre mit Nein</li></ul> |

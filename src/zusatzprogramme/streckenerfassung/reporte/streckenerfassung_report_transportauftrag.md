@@ -32,15 +32,73 @@ n Adresse des VK Kontraktes
 
  5. Adresse des VK Kontraktes
 
-| 1\. abweichende Ziel-Adresse |
-| --- |
-| | *Es gibt einen VK-Ladeschein zum EK-Ladeschein* |
-| | *VK Lagertyp ungleich Streckenlager* | *VK Lagertyp Streckenlager* |
-| 2\. Versandadresse des Ladescheins | 2\. Adresse des VK Lagers | 2\. Versandadresse des Ladescheins |
-| 3\. Versandanschrift des VK Kontraktes | | 3\. Versandanschrift des VK Kontraktes |
-| 4\. Adresse des VK Kontraktes | | 4\. Adresse des Kunden aus dem VK Ladeschein |
-| | | 5\. Adresse des VK Kontraktes |
-| | | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="3">
+          <p>1. abweichende Ziel-Adresse</p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td colspan="2">
+          <p><i>Es gibt einen VK-Ladeschein zum EK-Ladeschein</i></p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <p><i>VK Lagertyp ungleich Streckenlager</i></p>
+        </td>
+        <td>
+          <p><i>VK Lagertyp Streckenlager</i></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2. Versandadresse des Ladescheins</p>
+        </td>
+        <td>
+          <p>2. Adresse des VK Lagers</p>
+        </td>
+        <td>
+          <p>2. Versandadresse des Ladescheins</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>3. Versandanschrift des VK Kontraktes</p>
+        </td>
+        <td></td>
+        <td>
+          <p>3. Versandanschrift des VK Kontraktes</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>4. Adresse des VK Kontraktes</p>
+        </td>
+        <td></td>
+        <td>
+          <p>4. Adresse des Kunden aus dem VK Ladeschein</p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>
+          <p>5. Adresse des VK Kontraktes</p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 **Adressfolge Ladeadresse :**
 
@@ -62,16 +120,76 @@ n Adresse des EK Kontraktes
 
  5. Adresse des Lagers
 
-| 1\. abweichende Herkunfts-Adresse |
-| --- |
-| | *Es gibt einen EK-Ladeschein zum VK-Ladeschein* |
-| | *EK Lagertyp ungleich Streckenlager* | *EK Lagertyp Streckenlager* |
-| 2\. Versandanschrift des EK Kontraktes | 2\. Adresse des EK Lagers | 2\. Versandanschrift des EK Kontraktes |
-| 3\. Adresse des EK Kontraktes | | 3\. Adresse des Kunden aus dem EK Ladeschein |
-| 4\. Adresse des Lagers | | 4\. Adresse des EK Kontraktes |
-| | | |
-| | | |
-| | | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="3">
+          <p>1. abweichende Herkunfts-Adresse</p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td colspan="2">
+          <p><i>Es gibt einen EK-Ladeschein zum VK-Ladeschein</i></p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <p><i>EK Lagertyp ungleich Streckenlager</i></p>
+        </td>
+        <td>
+          <p><i>EK Lagertyp Streckenlager</i></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2. Versandanschrift des EK Kontraktes</p>
+        </td>
+        <td>
+          <p>2. Adresse des EK Lagers</p>
+        </td>
+        <td>
+          <p>2. Versandanschrift des EK Kontraktes</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>3. Adresse des EK Kontraktes</p>
+        </td>
+        <td></td>
+        <td>
+          <p>3. Adresse des Kunden aus dem EK Ladeschein</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>4. Adresse des Lagers</p>
+        </td>
+        <td></td>
+        <td>
+          <p>4. Adresse des EK Kontraktes</p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="just-emphasize">Sprachabhängigkeit</p>
 

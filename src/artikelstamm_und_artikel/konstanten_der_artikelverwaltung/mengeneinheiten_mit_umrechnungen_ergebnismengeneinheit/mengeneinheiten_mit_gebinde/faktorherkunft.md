@@ -6,9 +6,46 @@ Diese Festlegung gibt an, auf welcher Stufe mit der Suche nach Gebindefaktoren b
 
 **Achtung: Im Artikel können die Gebindefaktoren nur eingegeben werden, wenn in der Mengeneinheit der Eintrag vorgenommen wurde. Ansonsten wird die Option nicht angeboten.**
 
-| Faktorherkunft |
-| --- |
-| 1 | aus Mengeneinheit |
-| 2 | aus Artikelstamm |
-| 3 | aus dem Artikel |
-| 4 | aus Artikel- Ausprägung |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Faktorherkunft</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>1</p>
+        </td>
+        <td>
+          <p>aus Mengeneinheit</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>aus Artikelstamm</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>aus dem Artikel</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>aus Artikel- Ausprägung</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -16,10 +16,33 @@ An Versandanschriften sind keinerlei Informationen geknüpft, es handelt sich um
 
 Im linken Bereich des Eingabebildschirms wird die Kundenadresse angezeigt und im rechten die Versandanschrift. Zusätzlich wird die Anzahl der Versandanschriften pro Kunde angezeigt. Wird dieser Pfleger aus dem Kundenstamm heraus aufgerufen, so kann man mit den Pfeiltasten zwischen den Versandanschriften des aktuellen Kunden blättern.
 
-| Felder |
-| --- |
-| Gruppe (Intra) | Intrastatgruppe des zugehörigen Kunden. Dieses Feld ist nur private Zwecke nutzbar, die offizielle Intrastat - Meldung benutzt dieses Feld nicht. |
-| ILN-Nr | ILN Nummer dieser Adresse |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p>Felder</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Gruppe (Intra)</p>
+        </td>
+        <td>
+          <p>Intrastatgruppe des zugehörigen Kunden. Dieses Feld ist nur private Zwecke nutzbar, die offizielle Intrastat - Meldung benutzt dieses Feld nicht.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>ILN-Nr</p>
+        </td>
+        <td>
+          <p>ILN Nummer dieser Adresse</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Hat man zu einem Kunden sehr viele Versandanschriften, so kann über die Funktion ***Suchen*** **F6** nach Name, Straße und/oder Ort innerhalb der Versandanschriften dieses Kunden gesucht werden. Auf der sich öffnenden Suchmaske können entweder bis zu drei Kritieren direkt angegeben werden oder man sucht mit **F3** über die Itembox.
 

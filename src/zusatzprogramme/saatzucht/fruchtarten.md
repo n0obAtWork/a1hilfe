@@ -19,8 +19,8 @@ Es stehen folgende Eingabefelder und Eingabemöglichkeiten zur Verfügung.
 | BSS-Fruchtart | **Dieses Maskenfeld enthält die namentliche Bezeichnung für diese Fruchtart. Zu diesem Feld kann mit F3 die Bezeichnung in einer anderen Sprache erfasst werden.**<br> |
 | Art + Unterart botanisch | **Die botanische Art + Unterart Bezeichnung dieser Fruchtart kann hier eingetragen werden.**<br> |
 | Art / Familie botanisch | **Die botanische Art / Familie Bezeichnung dieser Fruchtart kann hier eingetragen werden.**<br> |
-| Lizenz-Abrechnungsart | Mit **F3** stehen folgende Auswahlmöglichkeiten zur Verfügung:<br><br><br>• sortenspezifisch<br>• Betrag pro Anzahl Mengeneinheiten<br>• % vom Nettobetrag<br> |
-| Basis-Zuschlag-Abrechnungsart | Mit **F3** stehen folgende Auswahlmöglichkeiten zur Verfügung:<br><br><br>• sortenspezifisch<br>• Betrag pro Anzahl Mengeneinheiten<br>• % vom Nettobetrag<br> |
+| Lizenz-Abrechnungsart | Mit **F3** stehen folgende Auswahlmöglichkeiten zur Verfügung:<br><br><br><ul><li>&nbsp;&nbsp;&nbsp; sortenspezifisch</li><li>&nbsp;&nbsp;&nbsp; Betrag pro Anzahl Mengeneinheiten</li><li>&nbsp;&nbsp;&nbsp; % vom Nettobetrag<br>&nbsp;</li></ul> |
+| Basis-Zuschlag-Abrechnungsart | Mit **F3** stehen folgende Auswahlmöglichkeiten zur Verfügung:<br><br><br><ul><li>&nbsp;&nbsp;&nbsp; sortenspezifisch</li><li>&nbsp;&nbsp;&nbsp; Betrag pro Anzahl Mengeneinheiten</li><li>&nbsp;&nbsp;&nbsp; % vom Nettobetrag<br>&nbsp;</li></ul> |
 | Gattung | **Die Gattung dieser Fruchtart kann hier eingetragen werden.**<br> |
 | Gewicht in kg/hl | **Das Gewicht in kg/hl dieser Fruchtart kann hier eingetragen werden.**<br> |
 | Sortiermerkmal | Hier kann die Sortierreihenfolge für diese Fruchtart innerhalb der Ausdrucke festgelegt werden.<br> |

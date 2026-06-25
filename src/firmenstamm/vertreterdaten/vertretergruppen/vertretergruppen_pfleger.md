@@ -2,11 +2,39 @@
 
 <!-- source: https://amic.de/hilfe/_vertretergruppenpfleger.htm -->
 
-| Kopfdaten |
-| --- |
-| Vertretergruppe | Schlüssel für die Zuordnung provisionsrelevanter Buchungen (z. B. Warenverkäufe) zu den Provisionsempfängern. Im Normalfall besteht eine Vertretergruppe nur aus einem Vertreter, der 100 Prozent der Provision erhält. |
-| Bezeichnung | Bezeichnung für die Vertretergruppe |
-| Matchcode | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Kopfdaten</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Vertretergruppe</p>
+        </td>
+        <td>
+          <p>Schlüssel für die Zuordnung provisionsrelevanter Buchungen (z. B. Warenverkäufe) zu den Provisionsempfängern. Im Normalfall besteht eine Vertretergruppe nur aus einem Vertreter, der 100 Prozent der Provision erhält.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bezeichnung</p>
+        </td>
+        <td>
+          <p>Bezeichnung für die Vertretergruppe</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Matchcode</p>
+        </td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <details>
 <summary>Register Allgemein</summary>

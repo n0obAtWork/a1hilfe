@@ -10,11 +10,64 @@ Mit Hilfe dieses Steuerparameters kann die Behandlung der Vorgangstexte bei Umwa
 
 Die gleiche Behandlung wird bei der Erstellung eines Vorgangs mit Makro durchgeführt, da auch hier keine Auflösung durch manuelle Eingabe erfolgen kann.
 
-| Einstellungen |
-| --- |
-| 0 – nichts ändern | Diese Einstellung ist die voreingestellte Behandlung wie bisher. Es findet keinerlei Aktion statt. |
-| 1 – nur warnen | Eine Warnung weist bei Umwandlung darauf hin, dass nicht aufgelöste Texte vorhanden sind. |
-| 2 – Auflösen und warnen | Platzhalter werden bei Umwandlung durch Leerzeichen ersetzt.<br>Eine Warnung weist darauf hin. |
-| 3 – Auflösen | Platzhalter werden durch Leerzeichen ersetzt. |
-| 4 – Löschen und warnen | Nicht aufgelöste Textzeilen werden bei Umwandlung entfernt.<br>Eine Warnung weist darauf hin. |
-| 5 – Löschen | Nicht aufgelöste Textzeilen werden entfernt. |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Einstellungen</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>0 – nichts ändern</p>
+        </td>
+        <td>
+          <p>Diese Einstellung ist die voreingestellte Behandlung wie bisher. Es findet keinerlei Aktion statt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>1 – nur warnen</p>
+        </td>
+        <td>
+          <p>Eine Warnung weist bei Umwandlung darauf hin, dass nicht aufgelöste Texte vorhanden sind.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2 – Auflösen und warnen</p>
+        </td>
+        <td>
+          <p>Platzhalter werden bei Umwandlung durch Leerzeichen ersetzt.</p>
+          <p>Eine Warnung weist darauf hin.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>3 – Auflösen</p>
+        </td>
+        <td>
+          <p>Platzhalter werden durch Leerzeichen ersetzt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>4 – Löschen und warnen</p>
+        </td>
+        <td>
+          <p>Nicht aufgelöste Textzeilen werden bei Umwandlung entfernt.</p>
+          <p>Eine Warnung weist darauf hin.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>5 – Löschen</p>
+        </td>
+        <td>
+          <p>Nicht aufgelöste Textzeilen werden entfernt.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

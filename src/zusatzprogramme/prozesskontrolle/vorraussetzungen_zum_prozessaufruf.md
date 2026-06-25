@@ -17,5 +17,5 @@ Weiterhin muss die Datei FileCompare.wsc aus dem Bin Verzeichnis mit dem Kontext
     
 
 Jetzt kann aus der Kommandobox im Windows Verzeichnis herraus der Prozessüberwachungsmonitor gestartet werden und zwar mit dem Befehl  
-webaccess.wsf /process=&lt;prozessname> /idleloops=&lt;wartezyklen> /wait=&lt;anfangswartesekunden> /forever=&lt;0|1> /sleeptime=&lt;schlaf_sekunden>  
+webaccess.wsf /process=&lt;prozessname> /idleloops=&lt;wartezyklen> /wait=&lt;anfangswartesekunden> /forever=&lt;0&#124;1> /sleeptime=&lt;schlaf_sekunden>  
 **ACHTUNG:** die Leerzeichen zwischen den Parametern sind zwingend vorgeschrieben!

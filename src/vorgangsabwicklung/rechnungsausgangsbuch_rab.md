@@ -46,15 +46,15 @@ Tabelle 1
 | !Fakturiergruppe | Ja | Ja | Ja | |
 | !Bediener Neu | Ja | Ja | Ja | wahlfreie Gruppierung über alle Bediener, die im Selektionsbereich Vorgänge ERSTELLT haben. |
 | !Bediener Korrektur | Ja | Ja | Ja | wahlfreie Gruppierung über alle Bediener, die im Selektionsbereich Vorgänge KORRIGIERT haben. |
-| !Vorgangsart | Ja | Ja | Ja | wahlfreie Gruppierung über den Verkauf betreffende Vorgänge (Rechnungen und Gutschriften, sowie deren Stornierungen).<br>Folgende Selektionen sind möglich:<br>• Rechnungen/Gutschriften VK<br>• \*Rechn./Gutschr. VK gerafft<br>• nur Rechnungen VK<br>• \*nur Rechn. VK gerafft<br>• nur \*nur Gutschr. VK gerafft <br>• nur Storno- Rechnungen VK<br>• \*nur Storno- Rechn. VK gerafft <br>• nur Storno- Gutschriften VK<br>• \*nur Storno- Gutschr VK geraff |
+| !Vorgangsart | Ja | Ja | Ja | wahlfreie Gruppierung über den Verkauf betreffende Vorgänge (Rechnungen und Gutschriften, sowie deren Stornierungen).<br>Folgende Selektionen sind möglich:<br><ul><li>&nbsp;&nbsp;&nbsp; Rechnungen/Gutschriften VK</li><li>&nbsp;&nbsp;&nbsp; *Rechn./Gutschr. VK gerafft</li><li>&nbsp;&nbsp;&nbsp; nur Rechnungen VK</li><li>&nbsp;&nbsp;&nbsp; *nur Rechn. VK gerafft</li><li>&nbsp;&nbsp;&nbsp; nur *nur Gutschr. VK gerafft&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><li>&nbsp;&nbsp;&nbsp; nur Storno- Rechnungen VK</li><li>&nbsp;&nbsp;&nbsp; *nur Storno- Rechn. VK gerafft&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><li>&nbsp;&nbsp;&nbsp; nur Storno- Gutschriften VK</li><li>&nbsp;&nbsp;&nbsp; *nur Storno- Gutschr VK geraff</li></ul> |
 | !Bank | Ja | Ja | Ja | wahlfreie Gruppierung über die im Beleg angesprochenen Kundenbanken. |
 | !Steuerschlüssel | Ja | Ja | Ja | wahlfreie Gruppierung über die im Beleg angesprochenen Steuerschlüssel. |
 | !Steuerklasse | Ja | Ja | Ja | wahlfreie Gruppierung über die im Beleg angesprochenen Steuerklassen. |
-| Sortierung nach | \- | \- | \- | Auswahl der Sortierung für den Datenrumpf der Liste:<br>• Belegnummer<br>• Belegdatum<br>• Valutadatum<br>• Betrag |
+| Sortierung nach | \- | \- | \- | Auswahl der Sortierung für den Datenrumpf der Liste:<br><ul><li>&nbsp;&nbsp;&nbsp; Belegnummer</li><li>&nbsp;&nbsp;&nbsp; Belegdatum</li><li>&nbsp;&nbsp;&nbsp; Valutadatum</li><li>&nbsp;&nbsp;&nbsp; Betrag</li></ul> |
 | Rangfolge | \- | \- | \- | Rangfolge der Sortierung im Datenrumpf:<br>z.Zt. nur Absteigend<br>Aufsteigend<br>Absteigend |
-| Kundenstammdaten | \- | \- | \- | Andruck ausführlicher Kundenstammdaten (Name, Anschrift, Telefon) bei Gruppierung nach Kunden im Gruppenkopf/-fuß:<br>• Nein<br>• Kundendaten kurz<br>• Kundendaten lang |
-| Kundenjahressummen | \- | \- | \- | Andruck der Kundenjahressummen Vorjahr/Lfd.Jahr im rechten Teil der Liste:<br>• Nur bei Gruppierung nach Kunden als Gruppe 1<br>• Ja<br>• Nein |
-| Skontobetrag | \- | \- | \- | Andruck der Spalte Skontobetrag<br>• Ja<br>• Nein<br>• Kopie (Bildschirm) |
+| Kundenstammdaten | \- | \- | \- | Andruck ausführlicher Kundenstammdaten (Name, Anschrift, Telefon) bei Gruppierung nach Kunden im Gruppenkopf/-fuß:<br><ul><li>&nbsp;&nbsp;&nbsp; Nein</li><li>&nbsp;&nbsp;&nbsp; Kundendaten kurz</li><li>&nbsp;&nbsp;&nbsp; Kundendaten lang</li></ul> |
+| Kundenjahressummen | \- | \- | \- | Andruck der Kundenjahressummen Vorjahr/Lfd.Jahr im rechten Teil der Liste:<br><ul><li>&nbsp;&nbsp;&nbsp; Nur bei Gruppierung nach Kunden als Gruppe 1</li><li>&nbsp;&nbsp;&nbsp; Ja</li><li>&nbsp;&nbsp;&nbsp; Nein</li></ul> |
+| Skontobetrag | \- | \- | \- | Andruck der Spalte Skontobetrag<br><ul><li>&nbsp;&nbsp;&nbsp; Ja</li><li>&nbsp;&nbsp;&nbsp; Nein</li><li>&nbsp;&nbsp;&nbsp; Kopie (Bildschirm)</li></ul> |
 
 Anklicken einer RAB Liste der Auswahlliste. Die Liste erscheint auf dem Bildschirm im Vorschau-Modus.
 

@@ -23,7 +23,7 @@ Die Auswahlliste enthält die folgenden Informationen:
 | Kunde | Kundennummer des zu prüfenden Kunden |
 | Vorgang | Vorgangsnummer, wenn Vorgangsanfrage |
 | Zeitstempel | Zeitstempel der letzten Änderung des Eintrags |
-| Status | • Neu – ein noch nicht verarbeiteter Auftrag<br>• Erledigt – ein bearbeiteter Auftrag |
+| Status | <ul><li>&nbsp;&nbsp;&nbsp; Neu – ein noch nicht verarbeiteter Auftrag</li><li>&nbsp;&nbsp;&nbsp; Erledigt – ein bearbeiteter Auftrag</li></ul> |
 | Name | Prüfergebnis zum Namen \*) |
 | Straße | Prüfergebnis zur Straße \*) |
 | PLZ | Prüfergebnis zur Postleitzahl \*) |

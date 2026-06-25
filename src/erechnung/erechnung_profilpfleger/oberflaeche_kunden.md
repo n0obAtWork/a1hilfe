@@ -12,7 +12,30 @@ Im Modus ***Neu*** ist die Registerkarte nicht vorhanden.
 
 Auf der Registerkarte ***Kunden*** sind folgende Felder zu sehen:
 
-| Felder |
-| --- |
-| Nummer | Die Kundennummer des Kunden |
-| Bezeichnung | Die Bezeichnung des hinterlegten Kunden |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Felder</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Nummer</p>
+        </td>
+        <td>
+          <p>Die Kundennummer des Kunden</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bezeichnung</p>
+        </td>
+        <td>
+          <p>Die Bezeichnung des hinterlegten Kunden</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

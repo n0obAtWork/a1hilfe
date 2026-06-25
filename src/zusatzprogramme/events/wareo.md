@@ -50,7 +50,7 @@ Unterstützte Funktionen für die Warenreorganisation:
 
 | Nummer | Reorganisation Funktion |
 | --- | --- |
-| 1 | Gesamte Reorganisation (Standard)<br>Es werden die wesentlichen Reorganisationen der Daten durchgeführt:<br>• **Korrekturfelder zurücksetzen**<br>• **Vorgangstapelpositionen bereinigen**<br>• **Bestandsreorganisation und Nachkalkulation**<br>• **Teildisposition reorganisieren**<br>• **Kontraktbestände reorganisieren**<br>• **Partiebestände reorganisieren**<br> |
+| 1 | Gesamte Reorganisation (Standard)<br>Es werden die wesentlichen Reorganisationen der Daten durchgeführt:<br><ul><li>&nbsp;&nbsp;&nbsp; <b>Korrekturfelder zurücksetzen</b></li><li>&nbsp;&nbsp;&nbsp; <b>Vorgangstapelpositionen bereinigen</b></li><li>&nbsp;&nbsp;&nbsp; <b>Bestandsreorganisation und Nachkalkulation</b></li><li>&nbsp;&nbsp;&nbsp; <b>Teildisposition reorganisieren</b></li><li>&nbsp;&nbsp;&nbsp; <b>Kontraktbestände reorganisieren</b></li><li>&nbsp;&nbsp;&nbsp; <b>Partiebestände reorganisieren</b><br>&nbsp; </li></ul> |
 | 2 | Bestandsreorganisation und Nachkalkulation |
 | 3 | Konsistenz Artikel |
 | 4 | Korrekturfelder zurücksetzen |

@@ -41,7 +41,7 @@ Durch den automatischen Suchalgorithmus muss auf den Clienten selbst das in „L
 | Admin-Pin | Wird von A.eins bei der ersten Initialisierung festgelegt. |
 | Admin-Puk | Wird von A.eins bei der ersten Initialisierung festgelegt. |
 | Tim-Admin-Pin | Wird von A.eins bei der ersten Initialisierung festgelegt. |
-| Erläuterungen zu nachfolgenden Infos | <ul><li>-&nbsp;&nbsp;&nbsp;&nbsp; <strong><em>HasPassedSelftest</em></strong>: Die TSE hat einen internen Selbsttest ausgeführt.</li><li>-&nbsp;&nbsp;&nbsp;&nbsp; <strong><em>IsErsInterfaceActive</em></strong>: Gibt an, ob die TSE-Transaktionen ausführen kann, oder nicht.</li><li>-&nbsp;&nbsp;&nbsp;&nbsp; <strong><em>HasValidTime</em></strong>: Gibt an, ob in der TSE ein Datum gesetzt ist.<br>(Das Datum wird immer in <i>Greenwich Mean Time (UTC)</i> angegeben)</li><li>-&nbsp;&nbsp;&nbsp;&nbsp; <strong><em>isDecommisioned</em></strong>: Zeigt an, ob die TSE stillgelegt wurde.</li></ul> |
+| Erläuterungen zu nachfolgenden Infos | <ul><li><strong><em>HasPassedSelftest</em></strong>: Die TSE hat einen internen Selbsttest ausgeführt.</li><li><strong><em>IsErsInterfaceActive</em></strong>: Gibt an, ob die TSE-Transaktionen ausführen kann, oder nicht.</li><li><strong><em>HasValidTime</em></strong>: Gibt an, ob in der TSE ein Datum gesetzt ist.<br>(Das Datum wird immer in <i>Greenwich Mean Time (UTC)</i> angegeben)</li><li><strong><em>isDecommisioned</em></strong>: Zeigt an, ob die TSE stillgelegt wurde.</li></ul> |
 | Infos… | Öffnet den Editor und zeigt Parameter der TSE an.<br>(Diese Informationen können der Entwicklung/Support ggf. Aufschlüsse über gewisse Zustände der TSE direkt vor Ort geben). |
 
 </details>

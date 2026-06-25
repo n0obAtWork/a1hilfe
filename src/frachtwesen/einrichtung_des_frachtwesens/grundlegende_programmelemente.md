@@ -82,17 +82,117 @@ In den **Frachttabellen** werden die entscheidenden Parameter der Frachtkosten­
 
 Verschiedene Frachtbezüge:
 
-| Übersicht Frachtbezug<br>Der Frachtbezug gibt an, welche Größe zum Suchen in den Frachtsätzen (Bezug) herangezogen wird. |
-| --- |
-| 1 | Warenwert | Ein Prozentsatz des Warenwertes wird als Fracht berechnet |
-| 2 | Positionsanzahl | Ein pauschaler Satz wird pro Lieferung berechnet |
-| 3 | Entfernung | Ein pauschaler Satz wird pro Position berechnet |
-| 4 | Liefermenge | Ein pauschaler Satz wird pro Kilometer berechnet |
-| 5 | Nettogewicht | Satz wird pro Mengeneinheit (z.B. Sack) berechnet |
-| 6 | Bruttogewicht | Satz wird pro Mengeneinheit und Kilometer berechnet |
-| 7 | Nettogewicht normiert | Satz wird pro Nettogewichtseinheit berechnet |
-| 8 | Bruttogewicht normiert | Satz wird pro Nettogewichtseinheit und Kilometer berechnet |
-| 9 | Verpackung | Satz wird pro Nettogewichtseinheit berechnet |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="3">
+          <p><strong>Übersicht Frachtbezug</strong></p>
+          <p>Der Frachtbezug gibt an, welche Größe zum Suchen in den Frachtsätzen (Bezug) herangezogen wird.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>1</p>
+        </td>
+        <td>
+          <p>Warenwert</p>
+        </td>
+        <td>
+          <p>Ein Prozentsatz des Warenwertes wird als Fracht berechnet</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>Positionsanzahl</p>
+        </td>
+        <td>
+          <p>Ein pauschaler Satz wird pro Lieferung berechnet</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>Entfernung</p>
+        </td>
+        <td>
+          <p>Ein pauschaler Satz wird pro Position berechnet</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>Liefermenge</p>
+        </td>
+        <td>
+          <p>Ein pauschaler Satz wird pro Kilometer berechnet</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>5</p>
+        </td>
+        <td>
+          <p>Nettogewicht</p>
+        </td>
+        <td>
+          <p>Satz wird pro Mengeneinheit (z.B. Sack) berechnet</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>6</p>
+        </td>
+        <td>
+          <p>Bruttogewicht</p>
+        </td>
+        <td>
+          <p>Satz wird pro Mengeneinheit und Kilometer berechnet</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>7</p>
+        </td>
+        <td>
+          <p>Nettogewicht normiert</p>
+        </td>
+        <td>
+          <p>Satz wird pro Nettogewichtseinheit berechnet</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>8</p>
+        </td>
+        <td>
+          <p>Bruttogewicht normiert</p>
+        </td>
+        <td>
+          <p>Satz wird pro Nettogewichtseinheit und Kilometer berechnet</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>9</p>
+        </td>
+        <td>
+          <p>Verpackung</p>
+        </td>
+        <td>
+          <p>Satz wird pro Nettogewichtseinheit berechnet</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Von oben dargestellten sind derzeit die entfernungsabhängigen nicht aktiv (4,16,26,36). Für das weitere Vorgehen wird „Satz pro Mengeneinheit“ ausgewählt.
 
@@ -110,24 +210,194 @@ Mit F5 werden die Frachtsätze eingegeben:
 
 ![](../../ImagesExt/image8_293.jpg)
 
-| Frachtformel<br>Die Frachtformel gibt an, wie die Fracht berechnet wird |
-| --- |
-| 1 | % vom Warenwert | Ein Prozentsatz des Warenwertes wird als Fracht berechnet |
-| 2 | Pausch. / Lieferung | Ein pauschaler Satz wird pro Lieferung berechnet |
-| 3 | Pausch. / Position | Ein pauschaler Satz wird pro Position berechnet |
-| 4 | Pausch. / km | Ein pauschaler Satz wird pro Kilometer berechnet |
-| 15 | Satz / Mengeneinheiten | Satz wird pro Mengeneinheit (z.B. Sack) berechnet |
-| 16 | Satz / ME + km | Satz wird pro Mengeneinheit und Kilometer berechnet |
-| 25 | Satz / Gewicht | Satz wird pro Nettogewichtseinheit berechnet |
-| 26 | Satz / Gewicht + km | Satz wird pro Nettogewichtseinheit und Kilometer berechnet |
-| 27 | Satz / Bruttogewicht | Satz wird pro Bruttogewichtseinheit berechnet |
-| 28 | Satz / Bruttogewicht + km | Satz wird pro Bruttogewichtseinheit und Kilometer berechnet |
-| 29 | Satz / normiertes Gewicht | Satz wird pro Bruttogewichtseinheit berechnet |
-| 30 | Satz / normiertes Gewicht + km | Satz wird pro Bruttogewichtseinheit und Kilometer berechnet |
-| 31 | Satz / normiertes Bruttogewicht | Satz wird pro Bruttogewichtseinheit berechnet |
-| 32 | Satz / norm. Bruttogewicht + km | Satz wird pro Bruttogewichtseinheit und Kilometer berechnet |
-| 35 | Satz / Verpackung | Satz wird pro Verpackungseinheit berechnet |
-| 36 | Satz / Verpackung + km | Satz wird pro Verpackungseinheit und Kilometer berechnet |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="3">
+          <p><strong>Frachtformel</strong></p>
+          <p>Die Frachtformel gibt an, wie die Fracht berechnet wird</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>1</p>
+        </td>
+        <td>
+          <p>% vom Warenwert</p>
+        </td>
+        <td>
+          <p>Ein Prozentsatz des Warenwertes wird als Fracht berechnet</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>Pausch. / Lieferung</p>
+        </td>
+        <td>
+          <p>Ein pauschaler Satz wird pro Lieferung berechnet</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>Pausch. / Position</p>
+        </td>
+        <td>
+          <p>Ein pauschaler Satz wird pro Position berechnet</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>Pausch. / km</p>
+        </td>
+        <td>
+          <p>Ein pauschaler Satz wird pro Kilometer berechnet</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>15</p>
+        </td>
+        <td>
+          <p>Satz / Mengeneinheiten</p>
+        </td>
+        <td>
+          <p>Satz wird pro Mengeneinheit (z.B. Sack) berechnet</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>16</p>
+        </td>
+        <td>
+          <p>Satz / ME + km</p>
+        </td>
+        <td>
+          <p>Satz wird pro Mengeneinheit und Kilometer berechnet</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>25</p>
+        </td>
+        <td>
+          <p>Satz / Gewicht</p>
+        </td>
+        <td>
+          <p>Satz wird pro Nettogewichtseinheit berechnet</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>26</p>
+        </td>
+        <td>
+          <p>Satz / Gewicht + km</p>
+        </td>
+        <td>
+          <p>Satz wird pro Nettogewichtseinheit und Kilometer berechnet</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>27</p>
+        </td>
+        <td>
+          <p>Satz / Bruttogewicht</p>
+        </td>
+        <td>
+          <p>Satz wird pro Bruttogewichtseinheit berechnet</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>28</p>
+        </td>
+        <td>
+          <p>Satz / Bruttogewicht + km</p>
+        </td>
+        <td>
+          <p>Satz wird pro Bruttogewichtseinheit und Kilometer berechnet</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>29</p>
+        </td>
+        <td>
+          <p>Satz / normiertes Gewicht</p>
+        </td>
+        <td>
+          <p>Satz wird pro Bruttogewichtseinheit berechnet</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>30</p>
+        </td>
+        <td>
+          <p>Satz / normiertes Gewicht + km</p>
+        </td>
+        <td>
+          <p>Satz wird pro Bruttogewichtseinheit und Kilometer berechnet</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>31</p>
+        </td>
+        <td>
+          <p>Satz / normiertes Bruttogewicht</p>
+        </td>
+        <td>
+          <p>Satz wird pro Bruttogewichtseinheit berechnet</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>32</p>
+        </td>
+        <td>
+          <p>Satz / norm. Bruttogewicht + km</p>
+        </td>
+        <td>
+          <p>Satz wird pro Bruttogewichtseinheit und Kilometer berechnet</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>35</p>
+        </td>
+        <td>
+          <p>Satz / Verpackung</p>
+        </td>
+        <td>
+          <p>Satz wird pro Verpackungseinheit berechnet</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>36</p>
+        </td>
+        <td>
+          <p>Satz / Verpackung + km</p>
+        </td>
+        <td>
+          <p>Satz wird pro Verpackungseinheit und Kilometer berechnet</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Je Frachtzone erfolgt die Eingabe des Satzes mit dem Beginn der Gültigkeit, der Menge, ab dem der Satz gültig ist: In obigem Beispiel gilt für Frachtzone 1 ab dem 31.7.2000 ab 1 Mengeneinheit ein Frachtsatz von –5,00 je 1000 Mengen­einheiten. In einer Tabelle können somit auch unterschiedliche Zeiträume und Men­genstaffeln mit unterschiedlichen Sätzen versehen werden.
 

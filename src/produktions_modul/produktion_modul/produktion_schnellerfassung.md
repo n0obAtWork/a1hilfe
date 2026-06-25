@@ -14,19 +14,94 @@ ACHTUNG: Die Schnellerfassung verfügt nicht über den vollen Leistungsumfang, w
 
 ![](../../ImagesExt/image8_280.jpg)
 
-| Felder Register Produktion |
-| --- |
-| Lager | |
-| Produktionsdatum | |
-| Umfuhr | |
-| MHD | |
-| Produktnummer | |
-| Lagerplatz | |
-| Rezeptur | Hier wählt man die Rezeptur an, die man verwenden möchte. |
-| Produktmenge | |
-| Preis | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Felder Register Produktion</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Lager</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Produktionsdatum</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Umfuhr</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>MHD</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Produktnummer</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Lagerplatz</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Rezeptur</p>
+        </td>
+        <td>
+          <p>Hier wählt man die Rezeptur an, die man verwenden möchte.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Produktmenge</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Preis</p>
+        </td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-| Felder Register Optionen |
-| --- |
-| Produktinformation | |
-| Komponenteninformation | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Felder Register Optionen</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Produktinformation</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Komponenteninformation</p>
+        </td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

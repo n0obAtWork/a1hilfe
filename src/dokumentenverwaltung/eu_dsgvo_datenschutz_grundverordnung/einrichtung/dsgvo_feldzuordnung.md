@@ -20,6 +20,6 @@ Der Bearbeitungsdialog zeigt im oberen Bereich die Objektdefinition. Die zugeord
 | Datenbankfeld | Name des Feldes in der Datenbank. Eine Auswahl ist mit F3 möglich. In dieser Auswahl werden nur die Felder angeboten, die noch nicht eingetragen sind. Sind die Felder von AMIC vorgegeben, so lässt sich diese Zelle nicht ändern.<br> |
 | Bezeichnung in der Liste | Die Bezeichnung, die vor dem Wert steht. Wird keine Bezeichnung angegeben, dann wird die Bezeichnung des Datenbankfeldes angedruckt.<br> |
 | Rechtsgrundlage<br> | Hier kann hinterlegt werden, aufgrund welcher Rechtsgrundlage die Anonymisierung erfolgt. |
-| Verarbeitung<br> | Hier existieren zwei Auswahlmöglichkeiten:<br>• Nur Auskunft: Das Feld wird in der Liste angedruckt, jedoch bei der Anonymisierung ignoriert,<br>• Anonymisieren: Das Feld wird sowohl in der Liste angedruckt, als auch bei der Anonymisierung verarbeitet.<br> |
+| Verarbeitung<br> | Hier existieren zwei Auswahlmöglichkeiten:<br><ul><li>&nbsp;&nbsp;&nbsp; Nur Auskunft: Das Feld wird in der Liste angedruckt, jedoch bei der Anonymisierung ignoriert,</li><li>&nbsp;&nbsp;&nbsp; Anonymisieren: Das Feld wird sowohl in der Liste angedruckt, als auch bei der Anonymisierung verarbeitet.<br>&nbsp;</li></ul> |
 
 Um Felder aus dieser Liste zu entfernen kann man Zeilen mit der Tastenkombination Strg+Umschalt+Entf entfernen, die Zeile wird dann grau hinterlegt. Die Löschung kann mit derselben Tastenkombination wieder aufgehoben werden.

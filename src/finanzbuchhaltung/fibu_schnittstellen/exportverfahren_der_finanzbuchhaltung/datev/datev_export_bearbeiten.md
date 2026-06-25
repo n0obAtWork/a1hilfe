@@ -35,9 +35,9 @@ Um es dem Steuerberater zu ermöglichen, bei diversen Kunden eine Unterscheidung
     
 
 Adressfelder für die Adressausgabe bei diversen Kunden  
-Wenn man die Adressausgabe bei diversen Kunden anders gestalten möchte, kann man hier Felder aus der Tabelle Anschriftstamm auswählen. Die verschiedenen Felder können mit || verknüpft werden. Beispiel:  
+Wenn man die Adressausgabe bei diversen Kunden anders gestalten möchte, kann man hier Felder aus der Tabelle Anschriftstamm auswählen. Die verschiedenen Felder können mit &#124;&#124; verknüpft werden. Beispiel:  
     
-AdressName||‘/‘||AdressOrt  
+AdressName&#124;&#124;‘/‘&#124;&#124;AdressOrt  
     
 **Achtung:**  
 *Von Seiten der Datev ist der Text auf 30 Zeichen beschränkt.  

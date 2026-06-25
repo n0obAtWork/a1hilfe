@@ -6,28 +6,210 @@ Diese Methode wird u.a. im Hinzufügen-Dialog als Basis-Methode des Archivs eing
 
 Diese Methode wird im Rahmen des Integrationstestes amic_test_jarchivexport_tofile verwendet.
 
-| Parameter: |
-| --- |
-| Owner | Pflichtfeld | Gibt den JVAR-Owner vor, in dem die folgenden dynamischen Parameter gesucht werden. |
-| $file | Pflichtfeld | Dateipfad |
-| $delete | Optional | Löschen der Datei nach Import<br>Standard 0 = Nein |
-| fa_mandant | Optional | |
-| fa_kundenummer | Optional | |
-| fa_belegtyptext | Optional | |
-| fa_belegnummer | Optional | |
-| fa_belegreferenz | Optional | |
-| fa_info_autor | Optional | |
-| fa_info_betreff | Optional | |
-| fa_info_kategorie | Optional | |
-| fa_info_stichwoerter | Optional | |
-| fa_info_kommentar | Optional | |
-| fa_info_titel | Optional | |
-| fa_belegdatum | Optional | |
-| fa_mndnr | Optional | |
-| fa_barcode | Optional | |
-| fa_klasse | Optional | Standard ist 0 |
-| fa_belegklasse | Optional | Standard ist 0 |
-| fa_bedienerklasse | Optional | Standard ist die Bedienerklasse des ausführenden Users |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="3">
+          <p><strong>Parameter:</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Owner</p>
+        </td>
+        <td>
+          <p>Pflichtfeld</p>
+        </td>
+        <td>
+          <p>Gibt den JVAR-Owner vor, in dem die folgenden dynamischen Parameter gesucht werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>$file</p>
+        </td>
+        <td>
+          <p>Pflichtfeld</p>
+        </td>
+        <td>
+          <p>Dateipfad</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>$delete</p>
+        </td>
+        <td>
+          <p>Optional</p>
+        </td>
+        <td>
+          <p>Löschen der Datei nach Import</p>
+          <p>Standard 0 = Nein</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>fa_mandant</p>
+        </td>
+        <td>
+          <p>Optional</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>fa_kundenummer</p>
+        </td>
+        <td>
+          <p>Optional</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>fa_belegtyptext</p>
+        </td>
+        <td>
+          <p>Optional</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>fa_belegnummer</p>
+        </td>
+        <td>
+          <p>Optional</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>fa_belegreferenz</p>
+        </td>
+        <td>
+          <p>Optional</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>fa_info_autor</p>
+        </td>
+        <td>
+          <p>Optional</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>fa_info_betreff</p>
+        </td>
+        <td>
+          <p>Optional</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>fa_info_kategorie</p>
+        </td>
+        <td>
+          <p>Optional</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>fa_info_stichwoerter</p>
+        </td>
+        <td>
+          <p>Optional</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>fa_info_kommentar</p>
+        </td>
+        <td>
+          <p>Optional</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>fa_info_titel</p>
+        </td>
+        <td>
+          <p>Optional</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>fa_belegdatum</p>
+        </td>
+        <td>
+          <p>Optional</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>fa_mndnr</p>
+        </td>
+        <td>
+          <p>Optional</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>fa_barcode</p>
+        </td>
+        <td>
+          <p>Optional</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>fa_klasse</p>
+        </td>
+        <td>
+          <p>Optional</p>
+        </td>
+        <td>
+          <p>Standard ist 0</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>fa_belegklasse</p>
+        </td>
+        <td>
+          <p>Optional</p>
+        </td>
+        <td>
+          <p>Standard ist 0</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>fa_bedienerklasse</p>
+        </td>
+        <td>
+          <p>Optional</p>
+        </td>
+        <td>
+          <p>Standard ist die Bedienerklasse des ausführenden Users</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Bei erfolgreicher Archivierung befindet sich systemüblich in
 

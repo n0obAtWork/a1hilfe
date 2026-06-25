@@ -199,7 +199,7 @@ Hierbei handelt es sich um die Grunddaten der Banken; sie sind Grundlage der Kun
 
 Die Funktion ***Banken aktualisieren*** dient dazu, Änderungen bei Banken (z.B. durch Zusammenschluss) nachzutragen. Als Grundlage dient eine periodisch von der Deutschen Bank herausgegebene Datei. Diese muss als erstes von der Internetseite der Deutschen Bundesbank heruntergeladen werden:
 
-[Download – Bankleitzahlen | Deutsche Bundesbank](https://www.bundesbank.de/de/aufgaben/unbarer-zahlungsverkehr/serviceangebot/bankleitzahlen/download-bankleitzahlen-602592)
+[Download – Bankleitzahlen &#124; Deutsche Bundesbank](https://www.bundesbank.de/de/aufgaben/unbarer-zahlungsverkehr/serviceangebot/bankleitzahlen/download-bankleitzahlen-602592)
 
 A.eins benötigt die Bankleitzahlendatei im ungepackten TXT-Format.
 

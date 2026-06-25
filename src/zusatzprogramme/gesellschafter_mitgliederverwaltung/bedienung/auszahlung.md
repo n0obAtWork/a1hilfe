@@ -12,8 +12,38 @@ Um Anteile zu kündigen wird ein Gesellschafter in der Auswahlliste ausgewählt 
 
 Die Funktion ***Auszahlung*** **F6** öffnet folgende Eingabefelder:
 
-| Felder |
-| --- |
-| Wert der Auszahlung | In dieses Feld wird der Wert der Auszahlung eingetragen |
-| Auszahlungsdatum | Hier wird das Auszahlungsdatum hinterlegt. |
-| Bemerkung zum Vorgang | Hier kann eine Bemerkung zum Vorgang eingetragen werden. (60 Zeichen) |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Felder</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Wert der Auszahlung</p>
+        </td>
+        <td>
+          <p>In dieses Feld wird der Wert der Auszahlung eingetragen</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Auszahlungsdatum</p>
+        </td>
+        <td>
+          <p>Hier wird das Auszahlungsdatum hinterlegt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bemerkung zum Vorgang</p>
+        </td>
+        <td>
+          <p>Hier kann eine Bemerkung zum Vorgang eingetragen werden. (60 Zeichen)</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -16,11 +16,39 @@ Die entstehenden Posten auf Q ( Haben ) und Z ( Soll ) sind über ein geeignetes
 
 Die Funktion ***Übertragen CF7*** öffnet folgende Eingabefelder:
 
-| Felder |
-| --- |
-| Zielmitgl. KndNr. | Hier wird die Kundennummer des Zielkunden angegeben. |
-| Zieldatum | |
-| Bemerkung zum Vorgang | Hier kann eine Bemerkung zum Vorgang eingetragen werden. (60 Zeichen) |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Felder</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Zielmitgl. KndNr.</p>
+        </td>
+        <td>
+          <p>Hier wird die Kundennummer des Zielkunden angegeben.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Zieldatum</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bemerkung zum Vorgang</p>
+        </td>
+        <td>
+          <p>Hier kann eine Bemerkung zum Vorgang eingetragen werden. (60 Zeichen)</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="just-emphasize">Achtung</p>
 

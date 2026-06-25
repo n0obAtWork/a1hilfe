@@ -64,17 +64,120 @@ Beispieldaten:
 
 Die Felder haben folgende Bedeutung:
 
-| Feld | Besonderheiten |
-| --- | --- |
-| Umsatz | Beinhaltet zwei nachkommastellen ohne Dezimalpunkt. Enthält S bzw. H also:<br>800 H ⇨ 8,00 Haben<br><br> | |
-| Frei | <br><br> | |
-| Gegenkonto | <br><br> | |
-| Belegfeld1 | Hier steht Jahr und Periode in der Form YYYYPP.<br>Die Jahrnummer wird ins Datum übernommen.<br>Beispiel: 200607<br><br> | |
-| Frei | <br><br> | |
-| Datum | Belegdatum in der Form TTMM. Beispiel: 3007<br><br> | |
-| Konto | Hauptkonto<br><br> | |
-| KostFeld1 | Kostenstelle. Muss in A.eins so existieren.<br><br> | |
-| KostFeld2 | Wird nicht ausgewertet<br><br> | |
-| KostMenge | Wird nicht ausgewertet<br><br> | |
-| Frei | <br><br> | |
-| Buchungstext | Buchungstext wird dem Gegenkonto zugeordnet<br><br> | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Feld</strong></p>
+        </td>
+        <td colspan="2">
+          <p><strong>Besonderheiten</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Umsatz</p>
+        </td>
+        <td>
+          <p>Beinhaltet zwei nachkommastellen ohne Dezimalpunkt. Enthält S bzw. H also:</p>
+          <p>800 H ⇨ 8,00 Haben<br><br></p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Frei</p>
+        </td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Gegenkonto</p>
+        </td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Belegfeld1</p>
+        </td>
+        <td>
+          <p>Hier steht Jahr und Periode in der Form YYYYPP.</p>
+          <p>Die Jahrnummer wird ins Datum übernommen.</p>
+          <p>Beispiel: 200607<br><br></p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Frei</p>
+        </td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Datum</p>
+        </td>
+        <td>
+          <p>Belegdatum in der Form TTMM. Beispiel: 3007<br><br></p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Konto</p>
+        </td>
+        <td>
+          <p>Hauptkonto<br><br></p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>KostFeld1</p>
+        </td>
+        <td>
+          <p>Kostenstelle. Muss in A.eins so existieren.<br><br></p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>KostFeld2</p>
+        </td>
+        <td>
+          <p>Wird nicht ausgewertet<br><br></p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>KostMenge</p>
+        </td>
+        <td>
+          <p>Wird nicht ausgewertet<br><br></p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Frei</p>
+        </td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Buchungstext</p>
+        </td>
+        <td>
+          <p>Buchungstext wird dem Gegenkonto zugeordnet<br><br></p>
+        </td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

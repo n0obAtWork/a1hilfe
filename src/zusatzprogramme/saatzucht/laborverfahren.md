@@ -38,7 +38,7 @@ Es stehen folgende Eingabefelder und Eingabemöglichkeiten zur Verfügung.
 | --- | --- |
 | Benutzte Felder | Hier werden die Felder angezeigt, die in den Labordaten verwendet werden sollen. Mithilfe der Pfeiltasten auf der Maske können sie zu den „vorhandenen“ Feldern verschoben werden.<br> |
 | Startfeld | Wird zurzeit nicht verwendet.<br> |
-| Restfeld Behandlung | Hier kann angegeben werden, was mit den nicht benutzen Feldern in der Spalte „Vorhandenen Felder“ geschehen soll.<br>• egal Es werden nach wie vor alle Felder angezeigt und sind auch änderbar.<br>• schützen Die Felder werden angezeigt, können jedoch nicht geändert werden.<br>• verstecken Die Felder werden ausgeblendet.<br> |
+| Restfeld Behandlung | Hier kann angegeben werden, was mit den nicht benutzen Feldern in der Spalte „Vorhandenen Felder“ geschehen soll.<br><ul><li>&nbsp;&nbsp;&nbsp; egal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Es werden nach wie vor alle Felder angezeigt und sind auch änderbar.</li><li>&nbsp;&nbsp;&nbsp; schützen &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Die Felder werden angezeigt, können jedoch nicht geändert werden.</li><li>&nbsp;&nbsp;&nbsp; verstecken&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Die Felder werden ausgeblendet.<br>&nbsp;</li></ul> |
 | Vorhandende Felder | Hier wird eine Auswahl an Feldern angezeigt, die in den Labordaten für das betreffende Verfahren verwendet werden können. Sollen die Felder in den Labordaten verwendet werden, können sie mithilfe der Pfeiltasten zu dem Feld „Benutzte Felder“ verschoben werden.<br><br> |
 
 <p class="just-emphasize">Felder auf der Registerkarte Keimfähigkeit</p>
@@ -62,9 +62,9 @@ Die Felder zu „Feuchte Grunddaten“ sind nur verfügbar, wenn der Einrichterp
 
 | Name | Bedeutung |
 | --- | --- |
-| Schroten | Folgende Ausprägungen sind möglich.<br>• Nein<br>• Grob<br>• Fein<br>Die Ausprägungen sind im Anwenderformat AF_FESCHROTE hinterlegt und können erweitert werden.<br> |
+| Schroten | Folgende Ausprägungen sind möglich.<br><ul><li>&nbsp;&nbsp;&nbsp; Nein</li><li>&nbsp;&nbsp;&nbsp; Grob</li><li>&nbsp;&nbsp;&nbsp; Fein<br>Die Ausprägungen sind im Anwenderformat AF_FESCHROTE hinterlegt und können erweitert werden.<br>&nbsp;</li></ul> |
 | Dauer | In dem Feld Dauer wird die Anzahl der Stunden eingetragen. Diese sind in dem Anwenderformat „AF_FEDAUER“ hinterlegt.<br> |
-| Temperatur | In diesem Feld wird die Temperatur eingetragen. Folgende Ausprägungen sind möglich<br>• Niedrig (101-105°C)<br>• Hoch (130-133)<br>Die Daten sind im Anwenderformat „AF_FETEMP“ hinterlegt und können erweitert werden.<br> |
+| Temperatur | In diesem Feld wird die Temperatur eingetragen. Folgende Ausprägungen sind möglich<br><ul><li>&nbsp;&nbsp;&nbsp; Niedrig (101-105°C)</li><li>&nbsp;&nbsp;&nbsp; Hoch (130-133)<br>Die Daten sind im Anwenderformat „AF_FETEMP“ hinterlegt und können erweitert werden.<br>&nbsp;</li></ul> |
 
 <p class="just-emphasize">Hohlmaß Grunddaten</p>
 
@@ -114,7 +114,7 @@ Die Registerkarte „Besatzarten“ ist nur verfügbar, wenn der Einrichterparam
 | Bezeichnung | Bezeichnung der Besatzart.<br> |
 | max. % | Hier kann der Grenzwert für die jeweilige Besatzart in Prozent eingetragen werden. Dieser Grenzwert dient als Vorgabe für die Labordaten.<br> |
 | max. Anzahl | Grenzwert für die Anzahl an Samen für die betreffende Besatzart. Dieser Grenzwert dient als Vorgabe für die Labordaten.<br> |
-| Grp. | Jede Besatzart kann zu einer Besatzartgruppe zugeordnet werden. Es kann zwischen<br>• Kultur (Kulturart)<br>• Unkraut (Wildart)<br>unterschieden werden. Die Vorbelegung erfolgt über das Anwenderformat „AF_BESATZART“.<br> |
+| Grp. | Jede Besatzart kann zu einer Besatzartgruppe zugeordnet werden. Es kann zwischen<br><ul><li>&nbsp;&nbsp;&nbsp; Kultur (Kulturart)</li><li>&nbsp;&nbsp;&nbsp; Unkraut (Wildart)<br>unterschieden werden. Die Vorbelegung erfolgt über das Anwenderformat „AF_BESATZART“.<br>&nbsp;</li></ul> |
 
 <p class="just-emphasize">Felder auf der Registerkarte Merkmale</p>
 
@@ -148,4 +148,4 @@ Die Refisterkarte TKM wird für die Detailprüfungen „TKM“, „TKM Extern“
 | Name | Bedeutung |
 | --- | --- |
 | Kartenbezeich. | Hier kann die Formel für die TKM-Berechnung angegeben werden.<br> |
-| Anzeige TKM g<br> | Bestimmt, wie der Wert des Feldes „TKM g“ dargestellt wird:<br><br><br>• Gerundet: Beispiel: Der Wert 3,6045 wird als 3,605 dargestellt.<br>• Abgeschnitten Beispiel: Der Wert 3,6045 wird als 3,604 dargestellt.<br> |
+| Anzeige TKM g<br> | Bestimmt, wie der Wert des Feldes „TKM g“ dargestellt wird:<br><br><br><ul><li>&nbsp;&nbsp;&nbsp; Gerundet:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Beispiel: Der Wert 3,6045 wird als 3,605 dargestellt.</li><li>&nbsp;&nbsp;&nbsp; Abgeschnitten&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Beispiel: Der Wert 3,6045 wird als 3,604 dargestellt.<br>&nbsp;</li></ul> |

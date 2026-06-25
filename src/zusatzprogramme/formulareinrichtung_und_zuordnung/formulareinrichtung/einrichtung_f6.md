@@ -77,20 +77,119 @@ Hier kann man weitere Einstellungen zur aktuell markierten Druckposition vornehm
 
 ![](../../../ImagesExt/image8_1119.png)
 
-| Einstellung Details einer Druckposition |
-| --- |
-| Feld | Beschreibung |
-| Zeile / mm und Spalte /mm | Hier wird die Position innerhalb eines Druckbereichs festgelegt. Die Angaben für Zeile und Spalte erfolgt in logischen Koordinaten. Das Raster dieser Koordinaten wird im ASCII-Druck aus der Darstellungsbreite eines Zeichens des Druckers ermittelt. Im Windowsdruck wird das Raster aus dem im Formular hinterlegten Basisfont ermittelt. Nur beim Windowsdruck kann die Platzierung der Druckposition optional in Millimeter spezifiziert werden. Diese Angabe übersteuert die logischen Koordinaten, wenn sie beide von Null verschieden sind. |
-| Länge | Wie lang erstreckt sich der Druck dieser Position, in logischen Einheiten |
-| Dezimalstellen | Diese Einstellung legt bei numerischen Angaben die Anzahl der Nachkommastellen fest. |
-| Blocklänge und Zeilenabstand mm | Für mehrzeilige Druckaufbereitungen (z.B. Adressen, Textblöcke etc.) wird hier die Zeilenanzahl festgelegt. Optional kann für den Druck im Windowsformat der Zeilenabstand in mm hinterlegt werden. |
-| Attribut | Der Schriftstil wird durch folgende Attribute verändert:<br>Normal: Standardeinstellung der Schrift<br>Compress: die Schrift wird kleiner und enger ausgegeben<br>Fett: die Zeichen werden fetter/kräftiger dargestellt<br>Unterstrichen: Alle Zeichen werden unterstrichen<br>Sperr: der Zeichenabstand wird deutlich erhöht |
-| Schriftfarbe | Nur bei Windowsdruck: die Farbe der Schrift wird in RGB (Rot / Grün/ Blau) Notation eingestellt. Per F3 –Taste kann der Farbton ermittelt werden |
-| Parameter | Viele Druckpositionen erfordern einen zusätzlichen numerischen Parameter zu Identifizierung des Inhalts. Häufig handelt es sich hierbei um mehrfach auftretende Informationen, wie etwa mehrere Steuersätze oder mehrere Gebindeinformationen. |
-| Festtext | Häufig werden Druckpositionen durch eine Textangabe parametrisiert, die hier eingegeben wird. |
-| Referenzzeile und Referenzspalte | Hier kann man optional die Koordinaten einer verknüpften Druckposition hinterlegen. Wird in der verknüpften Position kein signifikanter Wert gedruckt, so unterbleibt auch der eigene Druck.<br>Beispiel: Die verknüpfte Druckposition weist die Menge eines Artikels aus. Die eigene Druckposition ist die Beschriftung ‘Gelieferte Menge‘. Ist die Menge 0 wird auch der Text ‚Gelieferte Menge‘ nicht gedruckt. |
-| Archivgruppetest | Eine nicht allgemein gültige Spezialität! |
-| Sprachnr.Textums | Wenn ungleich 0 wird der Text in die hier hinterlegte Sprache umgesetzt |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Einstellung Details einer Druckposition</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Feld</strong></p>
+        </td>
+        <td>
+          <p><strong>Beschreibung</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Zeile / mm und Spalte /mm</p>
+        </td>
+        <td>
+          <p>Hier wird die Position innerhalb eines Druckbereichs festgelegt. Die Angaben für Zeile und Spalte erfolgt in logischen Koordinaten. Das Raster dieser Koordinaten wird im ASCII-Druck aus der Darstellungsbreite eines Zeichens des Druckers ermittelt. Im Windowsdruck wird das Raster aus dem im Formular hinterlegten Basisfont ermittelt. Nur beim Windowsdruck kann die Platzierung der Druckposition optional in Millimeter spezifiziert werden. Diese Angabe übersteuert die logischen Koordinaten, wenn sie beide von Null verschieden sind.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Länge</p>
+        </td>
+        <td>
+          <p>Wie lang erstreckt sich der Druck dieser Position, in logischen Einheiten</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Dezimalstellen</p>
+        </td>
+        <td>
+          <p>Diese Einstellung legt bei numerischen Angaben die Anzahl der Nachkommastellen fest.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Blocklänge und Zeilenabstand mm</p>
+        </td>
+        <td>
+          <p>Für mehrzeilige Druckaufbereitungen (z.B. Adressen, Textblöcke etc.) wird hier die Zeilenanzahl festgelegt. Optional kann für den Druck im Windowsformat der Zeilenabstand in mm hinterlegt werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Attribut</p>
+        </td>
+        <td>
+          <p>Der Schriftstil wird durch folgende Attribute verändert:</p>
+          <p>Normal: Standardeinstellung der Schrift</p>
+          <p>Compress: die Schrift wird kleiner und enger ausgegeben</p>
+          <p>Fett: die Zeichen werden fetter/kräftiger dargestellt</p>
+          <p>Unterstrichen: Alle Zeichen werden unterstrichen</p>
+          <p>Sperr: der Zeichenabstand wird deutlich erhöht</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Schriftfarbe</p>
+        </td>
+        <td>
+          <p>Nur bei Windowsdruck: die Farbe der Schrift wird in RGB (Rot / Grün/ Blau) Notation eingestellt. Per F3 –Taste kann der Farbton ermittelt werden</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Parameter</p>
+        </td>
+        <td>
+          <p>Viele Druckpositionen erfordern einen zusätzlichen numerischen Parameter zu Identifizierung des Inhalts. Häufig handelt es sich hierbei um mehrfach auftretende Informationen, wie etwa mehrere Steuersätze oder mehrere Gebindeinformationen.&nbsp;</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Festtext</p>
+        </td>
+        <td>
+          <p>Häufig werden Druckpositionen durch eine Textangabe parametrisiert, die hier eingegeben wird.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Referenzzeile und Referenzspalte</p>
+        </td>
+        <td>
+          <p>Hier kann man optional die Koordinaten einer verknüpften Druckposition hinterlegen. Wird in der verknüpften Position kein signifikanter Wert gedruckt, so unterbleibt auch der eigene Druck.</p>
+          <p>Beispiel: Die verknüpfte Druckposition weist die Menge eines Artikels aus. Die eigene Druckposition ist die Beschriftung ‘Gelieferte Menge‘. Ist die Menge 0 wird auch der Text ‚Gelieferte Menge‘ nicht gedruckt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Archivgruppetest</p>
+        </td>
+        <td>
+          <p>Eine nicht allgemein gültige Spezialität!</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Sprachnr.Textums</p>
+        </td>
+        <td>
+          <p>Wenn ungleich 0 wird der Text in die hier hinterlegte Sprache umgesetzt</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Spezielle Zahlen-/Textformatierung
 

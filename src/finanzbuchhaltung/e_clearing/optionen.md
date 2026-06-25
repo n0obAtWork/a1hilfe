@@ -59,14 +59,105 @@ Werden die folgenden Suchoptionen entfernt, wird zwar die Geschwindigkeit optimi
 
 Im unteren Teil der Maske können die Zahlungsdienstleister eingerichtet werden. Die vier Optionen unter dem Bereich „Zahlungsdienstleister-Optionen“ können für jeden Zahlungsdienstleister einzeln eingestellt werden. Dazu ist der entsprechende Zahlungsdienstleister in der Datentabelle auszuwählen.
 
-| Felder | Beschreibung |
-| --- | --- |
-| Zahlungsdienstleister | Mit der **F3**\-Taste kann hier ein Zahlungsdienstleister ausgewählt werden.<br>Standardmäßig ist nur der Zahlungsdienstleister PayPal verfügbar. Hierfür wird eine *PayPal-Lizenz* benötigt.<br>Des Weiteren besteht die Möglichkeit eigene Zahlungsdienstleister einzurichten (freier Datenimport). Zusätzliche Zahlungsdienstleister sind in dem Anwenderformat **AF_DTADISKTP** zu hinterlegen. Voraussetzung ist die Lizenz *Freier Datenimport.*<br>Wird ein neuer Zahlungsdienstleister für den freien Datenimport (z.B. Amazon) eingerichtet, so erscheint im Untermenü „Datei laden“ eine neue private Funktion, über die die entsprechenden Kontoauszüge eingespielt werden können.<br> <br>![](../../ImagesExt/image8_677.png)<br> |
-| Hausbank | Hier wird dem Zahlungsdienstleister eine Hausbank zugeordnet. Die Angabe einer Hausbank ist zwingend erforderlich.<br> |
-| Gebührenkonto | Erhebt der Zahlungsdienstleister für jede Transaktion Gebühren (wie z.B. PayPal), so kann hier ein Konto angegeben werden, auf dem die Gebühren gebucht werden sollen. Ist zum Zeitpunkt des Buchens kein Gebührenkonto für den Zahlungsdienstleister festgelegt worden, so werden die Gebühren nicht gebucht.<br> |
-| Dateityp | Hier wird der Dateityp des einzuspielenden Kontoauszugs angegeben. Beim Aufruf der Funktion „Datei laden“ werden die Dateien im Datei-Explorer nach dem hier angegeben Dateitypen eingrenzt.<br>Der Dateityp ist wie folgt anzugeben:<br>\*.Dateierweiterung<br> <br>Im Falle von PayPal wird immer eine Datei im CSV-Format (\*.csv) erwartet.<br> |
-| Datenbankprozedur | Für den freien Datenimport muss hier eine private Datenbankprozedur angegeben werden, die den Dateiinhalt ausliest und alle erforderlichen Daten zurückliefert. Dazu kann man entweder mit **F3** eine bestehende Datenbankprozedur auswählen oder einen neuen Namen eingeben. Diese neue Prozedur wird direkt angelegt und dann sofort zur Bearbeitung geöffnet. Sie enthält ein Grundgerüst mit dem erforderlichen Resultset.<br> <br>Bei PayPal ist die Datenbankprozedur fest vorgegeben und kann nicht geändert werden.<br> |
-| Gebühren des Zahlungsdienstleisters als Summe buchen<br> | Hier kann eingestellt werden, ob die Gebühren des Zahlungsdienstleisters als Summe gebucht werden sollen. Steht diese Option auf „Ja“, so werden die Gebühren aufsummiert und am Ende des Beleges als eine einzelne Position gebucht. Steht die Option auf „Nein“, so wird pro Gebühr eine Gebührenposition erzeugt.<br>Die Standardeinstellung ist „Ja“.<br> |
-| Saldo prüfen | Hier kann die Überprüfung des Endsaldos ein- und ausgeschaltet werden.<br>Steht die Option “Saldo prüfen“ auf „Ja“, so wird die Einspielung der Datei abgebrochen, wenn der Anfangssaldo plus aller Bewegungen nicht mit dem Endsaldo übereinstimmt.<br>Steht die Option auf „Nein“, so erfolgt keine Überprüfung des Endsaldos.<br> |
-| Kontonummer über Zahlungsreferenz bestimmen<br> | PayPal versieht jede Transaktion mit einem eindeutigen Transaktionscode (Zahlungsreferenz). Dieser Transaktionscode kann genutzt werden, damit eine Zuordnung zum offenen Posten erfolgen kann. Da die Suche über dieses Verfahren eindeutig ist, werden die Optionen „Kontonummer über Zahlungsreferenz bestimmen“ und „Zahlungsreferenz bei Auszifferung verwenden“ für PayPal dringend empfohlen.<br>Nutzen andere Zahlungsdienstleister (freier Datenimport) auch einen Transaktionscode, so können diese beiden Optionen auch für diese Zahlungsdienstleister aktiviert werden. Dabei ist zu beachten, dass der Transaktionscode von der privaten Datenbankprozedur geliefert werden muss.<br> <br>Hinweis zur Suche über die Zahlungsreferenz<br>Ist einer der beiden Optionen aktiv und es wird über die Zahlungsreferenz kein offener Posten gefunden, so wird die Suche abgebrochen und eine entsprechende Meldung ausgegeben.<br> <br>Hinweis zum Aufbau der Zahlungsreferenz<br>Bei der Zahlungsreferenz im Beleg ist zu beachten, dass der Transaktionscode mit einer Kennung versehen werden muss/kann. Für PayPal lautet diese Kennung #PP# und ist im Anwenderformat **AF_DTADISKTP** bereits eingetragen. Hat man für den "Freien Datenimport" die Möglichkeit für die Rechnungen einen Transaktionscode zu vergeben, so sollte man auch hier eine eigene eindeutige Kennung wählen. Ansonsten kann – wenn man mit verschiedenen Zahlungsdienstleistern zusammenarbeitet - eine eindeutige Zuordnung über die Zahlungsreferenz nicht sichergestellt werden. Die Kennung in der Rechnung muss sich sowohl vor als auch hinter dem Transaktionscode befinden.<br>Beispiel:<br>Wenn der Transaktionscode von PayPal „01234567890123456“ lautet, muss die Zahlungsreferenz im Beleg so aussehen:<br>#PP#01234567890123456#PP#<br> |
-| Zahlungsreferenz bei Auszifferung verwenden<br> |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Felder</strong></p>
+        </td>
+        <td>
+          <p><strong>Beschreibung</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Zahlungsdienstleister</p>
+        </td>
+        <td>
+          <p>Mit der <strong>F3</strong>-Taste kann hier ein Zahlungsdienstleister ausgewählt werden.</p>
+          <p>Standardmäßig ist nur der Zahlungsdienstleister PayPal verfügbar. Hierfür wird eine <i>PayPal-Lizenz</i> benötigt.</p>
+          <p>Des Weiteren besteht die Möglichkeit eigene Zahlungsdienstleister einzurichten (freier Datenimport). Zusätzliche Zahlungsdienstleister sind in dem Anwenderformat <b>AF_DTADISKTP</b> zu hinterlegen. Voraussetzung ist die Lizenz <i>Freier Datenimport.</i></p>
+          <p>Wird ein neuer Zahlungsdienstleister für den freien Datenimport (z.B. Amazon) eingerichtet, so erscheint im Untermenü „Datei laden“ eine neue private Funktion, über die die entsprechenden Kontoauszüge eingespielt werden können.</p>
+          <p><img src="../../ImagesExt/image8_677.png" alt=""></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Hausbank</p>
+        </td>
+        <td>
+          <p>Hier wird dem Zahlungsdienstleister eine Hausbank zugeordnet. Die Angabe einer Hausbank ist zwingend erforderlich.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Gebührenkonto</p>
+        </td>
+        <td>
+          <p>Erhebt der Zahlungsdienstleister für jede Transaktion Gebühren (wie z.B. PayPal), so kann hier ein Konto angegeben werden, auf dem die Gebühren gebucht werden sollen. Ist zum Zeitpunkt des Buchens kein Gebührenkonto für den Zahlungsdienstleister festgelegt worden, so werden die Gebühren nicht gebucht.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Dateityp</p>
+        </td>
+        <td>
+          <p>Hier wird der Dateityp des einzuspielenden Kontoauszugs angegeben. Beim Aufruf der Funktion „Datei laden“ werden die Dateien im Datei-Explorer nach dem hier angegeben Dateitypen eingrenzt.</p>
+          <p>Der Dateityp ist wie folgt anzugeben:</p>
+          <p>*.Dateierweiterung</p>
+          <p>Im Falle von PayPal wird immer eine Datei im CSV-Format (*.csv) erwartet.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Datenbankprozedur</p>
+        </td>
+        <td>
+          <p>Für den freien Datenimport muss hier eine private Datenbankprozedur angegeben werden, die den Dateiinhalt ausliest und alle erforderlichen Daten zurückliefert. Dazu kann man entweder mit <strong>F3</strong> eine bestehende Datenbankprozedur auswählen oder einen neuen Namen eingeben. Diese neue Prozedur wird direkt angelegt und dann sofort zur Bearbeitung geöffnet. Sie enthält ein Grundgerüst mit dem erforderlichen Resultset.</p>
+          <p>Bei PayPal ist die Datenbankprozedur fest vorgegeben und kann nicht geändert werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Gebühren des Zahlungsdienstleisters als Summe buchen</p>
+        </td>
+        <td>
+          <p>Hier kann eingestellt werden, ob die Gebühren des Zahlungsdienstleisters als Summe gebucht werden sollen. Steht diese Option auf „Ja“, so werden die Gebühren aufsummiert und am Ende des Beleges als eine einzelne Position gebucht. Steht die Option auf „Nein“, so wird pro Gebühr eine Gebührenposition erzeugt.</p>
+          <p>Die Standardeinstellung ist „Ja“.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Saldo prüfen</p>
+        </td>
+        <td>
+          <p>Hier kann die Überprüfung des Endsaldos ein- und ausgeschaltet werden.</p>
+          <p>Steht die Option “Saldo prüfen“ auf „Ja“, so wird die Einspielung der Datei abgebrochen, wenn der Anfangssaldo plus aller Bewegungen nicht mit dem Endsaldo übereinstimmt.</p>
+          <p>Steht die Option auf „Nein“, so erfolgt keine Überprüfung des Endsaldos.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kontonummer über Zahlungsreferenz bestimmen</p>
+        </td>
+        <td rowspan="2">
+          <p>PayPal versieht jede Transaktion mit einem eindeutigen Transaktionscode (Zahlungsreferenz). Dieser Transaktionscode kann genutzt werden, damit eine Zuordnung zum offenen Posten erfolgen kann. Da die Suche über dieses Verfahren eindeutig ist, werden die Optionen „Kontonummer über Zahlungsreferenz bestimmen“ und „Zahlungsreferenz bei Auszifferung verwenden“ für PayPal dringend empfohlen.</p>
+          <p>Nutzen andere Zahlungsdienstleister (freier Datenimport) auch einen Transaktionscode, so können diese beiden Optionen auch für diese Zahlungsdienstleister aktiviert werden. Dabei ist zu beachten, dass der Transaktionscode von der privaten Datenbankprozedur geliefert werden muss.</p>
+          <p><u>Hinweis zur Suche über die Zahlungsreferenz</u><u></u></p>
+          <p>Ist einer der beiden Optionen aktiv und es wird über die Zahlungsreferenz kein offener Posten gefunden, so wird die Suche abgebrochen und eine entsprechende Meldung ausgegeben.</p>
+          <p><u>Hinweis zum Aufbau der Zahlungsreferenz</u><u></u></p>
+          <p>Bei der Zahlungsreferenz im Beleg ist zu beachten, dass der Transaktionscode mit einer Kennung versehen werden muss/kann. Für PayPal lautet diese Kennung #PP# und ist im Anwenderformat <b>AF_DTADISKTP</b> bereits eingetragen. Hat man für den "Freien Datenimport" die Möglichkeit für die Rechnungen einen Transaktionscode zu vergeben, so sollte man auch hier eine eigene eindeutige Kennung wählen. Ansonsten kann – wenn man mit verschiedenen Zahlungsdienstleistern zusammenarbeitet - eine eindeutige Zuordnung über die Zahlungsreferenz nicht sichergestellt werden. Die Kennung in der Rechnung muss sich sowohl vor als auch hinter dem Transaktionscode befinden.</p>
+          <p>Beispiel:</p>
+          <p>Wenn der Transaktionscode von PayPal „01234567890123456“ lautet, muss die Zahlungsreferenz im Beleg so aussehen:</p>
+          <p>#PP#01234567890123456#PP#</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Zahlungsreferenz bei Auszifferung verwenden</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

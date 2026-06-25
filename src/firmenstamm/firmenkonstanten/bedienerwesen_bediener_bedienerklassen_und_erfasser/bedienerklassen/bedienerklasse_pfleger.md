@@ -64,16 +64,124 @@ Die Richtlinie **„Aktualisierung in Tagen“** wird nur beim Anmeldevorgang in
 
 Im Pfleger stehen folgende Funktionen zur Verfügung:
 
-| Funktionen |
-| --- |
-| Speichern F9 | Speichert die Daten |
-| Speichern unter … Shift+F9 | Übernimmt die Daten der ausgewählten Bedienerklasse.<br>Das System schlägt eine neue Bedienerklasse vor.<br>Die Einstellungen hinsichtlich des Formulararchivs sind in diesem Modus nicht zu beeinflussen, die Registerkarte „Formulararchiv“ wird ausgeblendet.<br>Bei Ausführung der Funktion <strong><em>Speichern</em></strong><em> </em><strong>F9</strong> wird die neue Bedienerklasse zur weiteren Verwendung im System vorbereitet (der Vorgang kann etwas dauern und sollte nicht abgebrochen werden):<br>**Es werden dabei u.a. sämtliche Schutzeinstellungen der Funktionen (**[Zugriffsrechte Funktionen](../../zugriffsrechte_funktionen.md)**) der Ursprungsbedienerklasse übernommen.**<br>Ferner werden dabei alle Einstellungen der Ursprungsbedienerklasse „geclont“.<br>Bei den Formulararchiv-Einstellungen sind die Belege der Ursprungsklasse erlaubt, in den Einstellungen der Ursprungsklasse sind die Einstellungen der neuen Bedienerklasse erlaubt. |
-| Löschen **F7** | Bedingung: Die Bedienerklasse darf keine Bediener mehr enthalten.<br>Alle Einstellungen der Bedienerklasse in den abhängigen Einstellungen ([Zugriffsrechte Funktionen](../../zugriffsrechte_funktionen.md), EPA, …) werden herausgenommen.<br>Zum jetzigen Zeitpunkt betrifft dies folgende Tabellen:<br>• NUMKREISBEDIENER<br>• KORRKLASSBEDLINK<br>• BEDIENERPROFIL<br>• ABTEILBEDIENLINK<br>• OWAAGENUMKREIS<br>• FIBUBELEGNUMKR<br>• BEDIENERGRUPLINK<br>• USERFELDER<br>• KONTRKLNUMKREIS<br>• FORMULARARCHIVBEDIENER<br>• AMIC_NEWS<br>• FA_IMPORT<br>• FA_IMPORT_REGEL<br>• FORMULARARCHIV_MANAGER<br>• AMIC_MENU_MESSAGES<br>• FA_VIEW_PROFIL<br>• FA_VIEW_PROFIL_DETAIL<br>• ANWENDFUNKKLASSE<br>• ANWENDOBKLASSE<br>• ANWENDVARKLASSE<br>• AMICINFOSYSMSKZUORD<br>• ROLLENKLASSE<br> |
-| Neu **F8** | Neue Bedienerklasse anlegen.<br>Siehe aber auch ["Speichern unter ... SF9"](./bedienerklasse_pfleger.md#Speichern_unter_SF9) für die Anlage einer neuen Bedienerklasse mit gleichzeitiger Übernahme der Bedienerklassen-relevanten Einstellungen! |
-| EPAs zeigen **F10** | Individuelle Steuerungen von Abläufen können in Anwendungen über Einrichterparameter (EPA) vorgenommen werden.<br>Diese Funktion ruft die entsprechende Anwendung zur Ansicht und Pflege der Einrichterparameter auf.<br>Hauptmenü > Administration > Steuerung > EPAs zeigen<br>Direktsprung **[EPAZ]** |
-| Zugriffsrechte übertragen… | |
-| NKZ-Zuordnung | Nummernkreiszuordnung der ausgewählten Bedienerklasse |
-| Betriebsstätte | Bei angeschlossenem Filialsystem Zuordnung der Bedienerklasse zur Betriebsstätte.<br>Standard: 0, ohne Filiale<br>Konflikte, die sich beim Wechsel der Betriebstätte bzgl. „Name Sicherheit“ ergeben könnten, werden erkannt und der Wechsel dann unterbunden. |
-| Bezeichnung Betriebsstätte | Bezeichnung der Betriebsstätte |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Funktionen</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Speichern F9</p>
+        </td>
+        <td>
+          <p>Speichert die Daten</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Speichern unter … Shift+F9</p>
+        </td>
+        <td>
+          <p>Übernimmt die Daten der ausgewählten Bedienerklasse.</p>
+          <p>Das System schlägt eine neue Bedienerklasse vor.</p>
+          <p>Die Einstellungen hinsichtlich des Formulararchivs sind in diesem Modus nicht zu beeinflussen, die Registerkarte „Formulararchiv“ wird ausgeblendet.</p>
+          <p>Bei Ausführung der Funktion <strong><em>Speichern</em></strong><i> </i><strong>F9</strong> wird die neue Bedienerklasse zur weiteren Verwendung im System vorbereitet (der Vorgang kann etwas dauern und sollte nicht abgebrochen werden):</p>
+          <p><b>Es werden dabei u.a. sämtliche Schutzeinstellungen der Funktionen (</b><a href="../../zugriffsrechte_funktionen.md">Zugriffsrechte Funktionen</a><b>) der Ursprungsbedienerklasse übernommen.</b><b></b></p>
+          <p>Ferner werden dabei alle Einstellungen der Ursprungsbedienerklasse „geclont“.</p>
+          <p>Bei den Formulararchiv-Einstellungen sind die Belege der Ursprungsklasse erlaubt, in den Einstellungen der Ursprungsklasse sind die Einstellungen der neuen Bedienerklasse erlaubt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Löschen <strong>F7</strong></p>
+        </td>
+        <td>
+          <p>Bedingung: Die Bedienerklasse darf keine Bediener mehr enthalten.</p>
+          <p>Alle Einstellungen der Bedienerklasse in den abhängigen Einstellungen (<a href="../../zugriffsrechte_funktionen.md">Zugriffsrechte Funktionen</a>, EPA, …) werden herausgenommen.</p>
+          <p>Zum jetzigen Zeitpunkt betrifft dies folgende Tabellen:</p>
+          <ul>
+            <li>NUMKREISBEDIENER</li>
+            <li>KORRKLASSBEDLINK</li>
+            <li>BEDIENERPROFIL</li>
+            <li>ABTEILBEDIENLINK</li>
+            <li>OWAAGENUMKREIS</li>
+            <li>FIBUBELEGNUMKR</li>
+            <li>BEDIENERGRUPLINK</li>
+            <li>USERFELDER</li>
+            <li>KONTRKLNUMKREIS</li>
+            <li>FORMULARARCHIVBEDIENER</li>
+            <li>AMIC_NEWS</li>
+            <li>FA_IMPORT</li>
+            <li>FA_IMPORT_REGEL</li>
+            <li>FORMULARARCHIV_MANAGER</li>
+            <li>AMIC_MENU_MESSAGES</li>
+            <li>FA_VIEW_PROFIL</li>
+            <li>FA_VIEW_PROFIL_DETAIL</li>
+            <li>ANWENDFUNKKLASSE</li>
+            <li>ANWENDOBKLASSE</li>
+            <li>ANWENDVARKLASSE</li>
+            <li>AMICINFOSYSMSKZUORD</li>
+            <li>ROLLENKLASSE</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Neu <strong>F8</strong></p>
+        </td>
+        <td>
+          <p>Neue Bedienerklasse anlegen.</p>
+          <p>Siehe aber auch <a href="./bedienerklasse_pfleger.md#Speichern_unter_SF9">"Speichern unter ... SF9"</a> für die Anlage einer neuen Bedienerklasse mit gleichzeitiger Übernahme der Bedienerklassen-relevanten Einstellungen!</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>EPAs zeigen <strong>F10</strong></p>
+        </td>
+        <td>
+          <p>Individuelle Steuerungen von Abläufen können in Anwendungen über Einrichterparameter (EPA) vorgenommen werden.</p>
+          <p>Diese Funktion ruft die entsprechende Anwendung zur Ansicht und Pflege der Einrichterparameter auf.</p>
+          <p>Hauptmenü &gt; &nbsp;Administration &gt; &nbsp;Steuerung &gt; &nbsp;EPAs zeigen</p>
+          <p>Direktsprung <strong>[EPAZ]</strong><b></b></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Zugriffsrechte übertragen…</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>NKZ-Zuordnung</p>
+        </td>
+        <td>
+          <p>Nummernkreiszuordnung der ausgewählten Bedienerklasse</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Betriebsstätte</p>
+        </td>
+        <td>
+          <p>Bei angeschlossenem Filialsystem Zuordnung der Bedienerklasse zur Betriebsstätte.</p>
+          <p>Standard: 0, ohne Filiale</p>
+          <p>Konflikte, die sich beim Wechsel der Betriebstätte bzgl. „Name Sicherheit“ ergeben könnten, werden erkannt und der Wechsel dann unterbunden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bezeichnung Betriebsstätte</p>
+        </td>
+        <td>
+          <p>Bezeichnung der Betriebsstätte</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 </details>

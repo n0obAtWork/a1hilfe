@@ -10,10 +10,54 @@ Hier können die Ergebnisse eingesehen werden, welche bei der Funktion ***Prozed
 
 Auf dem Register ***Test*** sind folgende Felder zu sehen:
 
-| Felder |
-| --- |
-| Feldname | Der Feldname, des in der Prozedur befüllten Feld |
-| Inhalt | Der Inhalt des entsprechenden Feldes |
-| Aktuelle Prozedur | Die getestete Prozedur |
-| Vorgangs Id | Die Id eines Vorgangs, auf welcher die Prozedur angewendet werden soll. |
-| Wabew Id | Die id einer Warenbewegung, auf welcher die Prozedur angewendet werden soll |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Felder</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Feldname</p>
+        </td>
+        <td>
+          <p>Der Feldname, des in der Prozedur befüllten Feld</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Inhalt</p>
+        </td>
+        <td>
+          <p>Der Inhalt des entsprechenden Feldes</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Aktuelle Prozedur</p>
+        </td>
+        <td>
+          <p>Die getestete Prozedur</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Vorgangs Id</p>
+        </td>
+        <td>
+          <p>Die Id eines Vorgangs, auf welcher die Prozedur angewendet werden soll.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Wabew Id</p>
+        </td>
+        <td>
+          <p>Die id einer Warenbewegung, auf welcher die Prozedur angewendet werden soll</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

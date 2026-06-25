@@ -10,14 +10,57 @@ Mit Hilfe des Lagerkopierers können Artikel auf neu angelegte Lagerorte kopiert
 
 Es können Artikel von einem auf ein oder mehrere Läger kopiert werden.
 
-| Einstellungen |
-| --- |
-| nur Artikelnummer wie | Es wird nur ein Artikel kopiert |
-| Artikelnummer von/bis: | |
-| nur Artikelanlage seit | Kopiert Artikel ab einem Anlagedatum |
-| nur Warengruppe von/bis | |
-| Bestätigung vor Start abfragen | |
-| Eintrag Fehlerprotokoll im Bereich ‘Lako’ | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Einstellungen</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>nur Artikelnummer wie</p>
+        </td>
+        <td>
+          <p>Es wird nur ein Artikel kopiert</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Artikelnummer von/bis:</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>nur Artikelanlage seit</p>
+        </td>
+        <td>
+          <p>Kopiert Artikel ab einem Anlagedatum</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>nur Warengruppe von/bis</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bestätigung vor Start abfragen</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Eintrag Fehlerprotokoll im Bereich ‘Lako’</p>
+        </td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Erklärung siehe Hinweise!
 

@@ -6,9 +6,46 @@ Der Steuerparameter bewirkt, dass die Referenznummer des Warenwirtschaftsbelegs 
 
 Im Fall von Sammelbelegen wird dies durch die Nummer des Sammelbelegs überschrieben.
 
-| Werte |
-| --- |
-| 0 – Nein | Keine Übernahme |
-| 1 - Ja | Übernahme erfolgt immer |
-| 2 - Einkauf | Übernahme erfolgt nur bei Einkaufsbelegen |
-| 3 - Verkauf | Übernahme erfolgt nur bei Verkaufsbelegen |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Werte</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>0 – Nein</p>
+        </td>
+        <td>
+          <p>Keine Übernahme</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>1 - Ja</p>
+        </td>
+        <td>
+          <p>Übernahme erfolgt immer</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2 - Einkauf</p>
+        </td>
+        <td>
+          <p>Übernahme erfolgt nur bei Einkaufsbelegen</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>3 - Verkauf</p>
+        </td>
+        <td>
+          <p>Übernahme erfolgt nur bei Verkaufsbelegen</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -24,12 +24,50 @@ Hauptmenü > Stammdaten > Konstanten Artikelstamm > Mengeneinheiten > Variante �
 
 In der Variante „[internationale Mengeneinheiten](../../../../artikelstamm_und_artikel/konstanten_der_artikelverwaltung/mengeneinheiten_mit_umrechnungen_ergebnismengeneinheit/internationale_mengeneinheit_un.md)“ werden die Zuordnungen von A.eins-eigenen Mengeneinheiten zu internationalen Mengeneinheiten gepflegt. Dabei kann ein Umrechnungsfaktor und eine Voreinstellung angegeben werden.
 
-| Internationale Mengeneinheiten |
-| --- |
-| UN-Mengeneinheit | Auswahl aus Mengeneinheitsangaben der vereinten Nationen gemäß [Recommendation N°. 20 - Codes for Units of Measure Used in International Trade](http://www.unece.org/cefact/recommendations/rec_index.htm) |
-| Mengeneinheit A.eins | Mengeneinheit in A.eins |
-| Faktor UN zu A.eins | Umrechnungsfaktor Beispiel: eine Tonne (A.eins zu Kilogramm/KGM international) = 1000 |
-| Voreinstellung | Wählen Sie Ja, wenn diese Zuordnung bevorzugt beim Export verwendet werden soll.<br>Andere Zuordnungen können beim Import verwendet werden |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Internationale Mengeneinheiten</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>UN-Mengeneinheit</p>
+        </td>
+        <td>
+          <p>Auswahl aus Mengeneinheitsangaben der vereinten Nationen gemäß <a href="http://www.unece.org/cefact/recommendations/rec_index.htm">Recommendation N°. 20 - Codes for Units of Measure Used in International Trade</a></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Mengeneinheit A.eins</p>
+        </td>
+        <td>
+          <p>Mengeneinheit in A.eins</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Faktor UN zu A.eins</p>
+        </td>
+        <td>
+          <p>Umrechnungsfaktor Beispiel: eine Tonne (A.eins zu Kilogramm/KGM international) = 1000</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Voreinstellung</p>
+        </td>
+        <td>
+          <p>Wählen Sie Ja, wenn diese Zuordnung bevorzugt beim Export verwendet werden soll.</p>
+          <p>Andere Zuordnungen können beim Import verwendet werden</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Eine erste Vorbelegung können Sie mit Hilfe der Funktion „Basiseinrichtung“ erstellen. Diese sucht nach gängigen Bezeichnern für Maßeinheiten wie z.B. „m“, „mtr“ oder „meter“ und erstellt daraus eine Zuordnung zur UN-Mengeneinheit – hier im Beispiel MTR mit den entsprechenden Faktoren.
 
@@ -37,11 +75,41 @@ Eine erste Vorbelegung können Sie mit Hilfe der Funktion „Basiseinrichtung“
 
 Im Sprachenpfleger finden Sie die Kundensprachen. Dort muss die ISO-Kennzeichnung der Sprache zugeordnet sein. Anderenfalls wird als Export-Sprache „ger“ für Deutsch angegeben und bei Verwendung der Sprache eine Warnung ins Fehlerprotokoll geschrieben.
 
-| Sprachstamm |
-| --- |
-| Nummer | A.eins-interne Nummer für die Sprache |
-| Bezeichnung | Bezeichnung für diese Sprache |
-| ISO 639-2 | Iso-Kennzeichnung für diese Sprache nach [ISO 639-2](http://www.loc.gov/standards/iso639-2/) |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Sprachstamm</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Nummer</p>
+        </td>
+        <td>
+          <p>A.eins-interne Nummer für die Sprache</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bezeichnung</p>
+        </td>
+        <td>
+          <p>Bezeichnung für diese Sprache</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>ISO 639-2</p>
+        </td>
+        <td>
+          <p>Iso-Kennzeichnung für diese Sprache nach <a href="http://www.loc.gov/standards/iso639-2/">ISO 639-2</a></p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="just-emphasize">Kunden</p>
 

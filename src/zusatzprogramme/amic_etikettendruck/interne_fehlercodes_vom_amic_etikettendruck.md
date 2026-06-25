@@ -8,7 +8,7 @@
 | \-3 | Einer Funktion, die den Objekttyp als Parameter benötigt, wurde ein ungültiger Typ übergeben. |
 | \-4 | Es wurde eine Druckfunktion aufgerufen, obwohl noch kein Druckjob gestartet wurde. |
 | \-5 | *LlPrintSetBoxText()* wurde aufgerufen, obwohl der Druckjob nicht mit <em>LlPrintWithBoxStart12()</em> geöffnet wurde. |
-| \-7 | *LlPrint[G|S]etOption[String](), LlPrintResetProjectState()*. Der Druckjob ist noch nicht gestartet |
+| \-7 | *LlPrint[G&#124;S]etOption[String](), LlPrintResetProjectState()*. Der Druckjob ist noch nicht gestartet |
 | \-10 | *LlPrint[WithBox]Start()*: Es existiert kein Objekt mit dem angegebenen Dateinamen. |
 | \-11 | *LlPrint[WithBox]Start()*: Druckerjob konnte nicht gestartet werden, da kein Drucker-Device geöffnet werden konnte. |
 | \-12 | Während des Druckens trat ein Fehler auf. Häufigste Ursache:<br>Druckspooler voll, bzw. der vom Druckspooler benötigte Platz ist auf dem Laufwerk auf das TEMP zeigt nicht mehr vorhanden (Pro Seite kann je nach Druckauflösung und verwendeter Grafik ein Platzbedarf von einigen MB entstehen. Abhilfe schafft meist auch die Einstellung des Direktdrucks ohne Spooler). Mögliche Ursache bei Direktdruck: allg. Druckerfehler, Papierstau, etc. |
@@ -41,7 +41,7 @@
 | \-41 | Die Storage-Datei enthält keine gültigen Seiten *NOTINHOSTPRINTERMODE* |
 | \-42 | Dieser Befehl kann nicht im *HOSTPRINTER*\-Modus aufgerufen werden (z.B. *LlSetPrinterInPrinterFile()*) |
 | \-43 | Ein oder mehrere Objekte sind noch nicht fertig gedruckt |
-| \-44 | *Ll[G|S]etOptionString(), LlPrint[G|S]etOptionString()*, ...: Ein übergebener Puffer ist nicht groß genug für die darin zu speichernden Daten. |
+| \-44 | *Ll[G&#124;S]etOptionString(), LlPrint[G&#124;S]etOptionString()*, ...: Ein übergebener Puffer ist nicht groß genug für die darin zu speichernden Daten. |
 | \-45 | *LL_OPTION_CODEPAGE*: Die Codepage ist nicht gültig (NLS nicht auf dem System installiert). |
 | \-46 | Eine Temporärdatei konnte nicht erzeugt werden (falscher Temp-Pfad!) |
 | \-47 | AMIC Etikettendruck hat kein gültiges Ausgabemedium beim Start des Drucks (siehe *LL_OPTIONSTRING_EXPORTS_ALLOWED*) |

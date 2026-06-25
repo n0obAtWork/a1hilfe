@@ -12,9 +12,46 @@ Besonderes Augenmerk ist hierbei auch auf die jeweilige Steuerpflicht im Hinblic
 
 In der Stammdatenmaske können folgende Daten eingegeben werden.
 
-| Felder |
-| --- |
-| Kunde | Nummer des Kunden, bei Neuanlage mit **F8** kann mit **F3** eine Kundenauswahl aus dem Kundenstamm mittels einem sich öffnenden Auswahlbildschirm getroffen und übernommen werden. |
-| Währung | Eingabe der Währungsnummer, mit **F3** kann wiederum eine Auswahl hier aus dem Währungsstamm getroffen werden |
-| DTA | Hier kann ein Format für den Datenträgeraustausch eingegeben und mit **F3** ausgewählt werden |
-| Zahlungsart | Hier können die Zahlungsarten eingegeben oder mit Hilfe der **F3** Taste ausgewählt werden. Die hier hinterlegte Zahlungsart wird als Vorbelegung für den Auslands-OP herangezogen. |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Felder</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kunde</p>
+        </td>
+        <td>
+          <p>Nummer des Kunden, bei Neuanlage mit<strong> F8</strong> kann mit <strong>F3</strong> eine Kundenauswahl aus dem Kundenstamm mittels einem sich öffnenden Auswahlbildschirm getroffen und übernommen werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Währung</p>
+        </td>
+        <td>
+          <p>Eingabe der Währungsnummer, mit <strong>F3</strong> kann wiederum eine Auswahl hier aus dem Währungsstamm getroffen werden</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>DTA</p>
+        </td>
+        <td>
+          <p>Hier kann ein Format für den Datenträgeraustausch eingegeben und mit <strong>F3</strong> ausgewählt werden</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Zahlungsart</p>
+        </td>
+        <td>
+          <p>Hier können die Zahlungsarten eingegeben oder mit Hilfe der <strong>F3</strong> Taste ausgewählt werden. Die hier hinterlegte Zahlungsart wird als Vorbelegung für den Auslands-OP herangezogen.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

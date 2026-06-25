@@ -20,57 +20,708 @@ Da Formulare nur gedruckt werden, muss mindestens ein Zeilentyp eingerichtet sei
 
 Folgende Variablen sind in allen Teilen (Kopf, Fuß und Zeilentyp) verfügbar. Formularbereiche, die nicht separat mit aufgeführt werden, enthalten nur Festtext oder diese Felder!
 
-| | **Bezeichnung** | **Typ** | **Nr.** | **Bedeutung** |
-| --- | --- | --- | --- | --- |
-| Zinslistnummer | Numerisch | 4 | Nummer der Zinsliste |
-| Kontonummer | Numerisch | 4 | Kontonummer des aktiven Kunden |
-| ZinsAbrDatum | Normal | 5 | Erstellungsdatum des Zinsabrechnung |
-| ZinsAbrVonDatum | Normal | 5 | Bereich von dieser Zinsabrechnung |
-| ZinsAbrBisDatum | Normal | 5 | Bereich bis dieser Zinsabrechnung |
-| ZinsAbrDruKennz | Numerisch | 4 | Wenn schon vorher einmal gedruckt dann 1 sonst 0 |
-| ZinsAbrSollZins | Numerisch | 4 | Sollzinsen |
-| ZinsAbrHabenZins | Numerisch | 4 | HabenZinsen |
-| ZinsAbrZinsSaldo | Numerisch | 4 | Saldo Soll - Haben |
-| ZinsAbrZinsSaldoSH | Normal | 3 | Sollhaben des Saldos |
-| ZinsAbrSollZinsOrig | Numerisch | 4 | Sollzinsen |
-| ZinsAbrHabenZinsOrig | Numerisch | 4 | HabenZinsen |
-| ZinsAbrZinsSaldoOrig | Numerisch | 4 | Saldo Soll - Haben |
-| ZinsAbrZinsSaldoOrigSH | Normal | 3 | Sollhaben des Saldos |
-| Druckdatum | Normal | 5 | Tagesdatum |
-| USER | Normal | 3 | Wer hat das gedruckt? |
-| MANDANT | Normal | 3 | Mandantenbezeichnung |
-| KontoBezeich | Normal | 3 | Bezeichnung des Kontos aus dem Kontostamm |
-| KontoTyp | Numerisch | 4 | Typ des Kontos im Kontostamm (1=Sachkonto 2=PersonenKonto9 |
-| Adresse | Block | 6 | Kundenadresse bzw. wie in Sachkontozins hinterlegt |
-| AdressAnrede | Normal | 3 | Anrede wie im Anschriftenstamm hinterlegt |
-| AdressName | Normal | 3 | Name wie im Anschriftenstamm hinterlegt |
-| AdressKurzName | Normal | 3 | Kurzname wie im Anschriftenstamm hinterlegt |
-| AdressBezeich | Normal | 3 | Bezeichnung wie im Anschriftenstamm hinterlegt |
-| AdressTelefon | Normal | 3 | Telefon wie im Anschriftenstamm hinterlegt |
-| AdressTelefax | Normal | 3 | Telefax wie im Anschriftenstamm hinterlegt |
-| KundNummer | Numerisch | 4 | Kundennummer ( nur bei Kontotyp=2) |
-| ZinsGrupNummer | Numerisch | 4 | Zinsgruppe dieses Kunden bzw. diese Sachkontos |
-| KundZinsBagSoll | Numerisch | 4 | Bagatellzinsen Soll |
-| KundZinsBagHaben | Numerisch | 4 | Bagatellzinsen Haben |
-| KundZinsSockel | Numerisch | 4 | Wie zum Zinskonto (kontotyp=1) eingetragen |
-| VertGrNummer | Numerisch | 4 | VertretterGruppenNummer |
-| VertGrBezeich | Normal | 3 | Bezeichnung der Vertretergruppe |
-| Ziabr_Belegnummer | Normal | 3 | Belegnummer dieses Beleges. !!Nur wenn Abrechnung bereits gebucht!! |
-| Ziabr_BelegnummerSOLL | Normal | 3 | Belegnummer der Abrechnung für Sollzinsen, wenn Soll und Haben nicht verrechnet wird. |
-| Ziabr_BelegnummerHaben | Normal | 3 | Belegnummer der Abrechnung für Habenzinsen, wenn Soll und Haben nicht verrechnet wird. |
-| MandSteuerNummer | Normal | 3 | Steuernummer aus dem Mandantenstamm |
-| MandUStStatKennz | Normal | 3 | USt-IdNr. aus dem Mandantenstamm |
-| MandBezeich | Normal | 3 | Name des Mandanten |
-| MandAdressKurzName | Normal | 3 | In der Anschrift des Mandanten hinterlegte Kurzbezeichnung |
-| MandAdressAnrede | Normal | 3 | In der Anschrift des Mandanten hinterlegte Anrede |
-| MandAdressVorName | Normal | 3 | In der Anschrift des Mandanten hinterlegter Vorname |
-| MandAdressName | Normal | 3 | In der Anschrift des Mandanten hinterlegter Name |
-| MandAdressOrt | Normal | 3 | In der Anschrift des Mandanten hinterlegter Ort |
-| MandAdressPLZ1 | Normal | 3 | In der Anschrift des Mandanten hinterlegte Postleitzahl |
-| MandAdressStrasse | Normal | 3 | In der Anschrift des Mandanten hinterlegte Straße |
-| MandAdressTelefon | Normal | 3 | In der Anschrift des Mandanten hinterlegte Telefonnummer |
-| MandAdressTelefax | Normal | 3 | In der Anschrift des Mandanten hinterlegte Faxnummer |
-| | | | | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td></td>
+        <td>
+          <p><b>Bezeichnung&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></p>
+        </td>
+        <td>
+          <p><b>Typ</b></p>
+        </td>
+        <td>
+          <p><b>Nr.</b></p>
+        </td>
+        <td>
+          <p><b>Bedeutung</b></p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Zinslistnummer</p>
+        </td>
+        <td>
+          <p>Numerisch</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>Nummer der Zinsliste</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Kontonummer</p>
+        </td>
+        <td>
+          <p>Numerisch</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>Kontonummer des aktiven Kunden</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>ZinsAbrDatum</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>5</p>
+        </td>
+        <td>
+          <p>Erstellungsdatum des Zinsabrechnung</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>ZinsAbrVonDatum</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>5</p>
+        </td>
+        <td>
+          <p>Bereich von dieser Zinsabrechnung</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>ZinsAbrBisDatum</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>5</p>
+        </td>
+        <td>
+          <p>Bereich bis dieser Zinsabrechnung</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>ZinsAbrDruKennz</p>
+        </td>
+        <td>
+          <p>Numerisch</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>Wenn schon vorher einmal gedruckt dann 1 sonst 0</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>ZinsAbrSollZins</p>
+        </td>
+        <td>
+          <p>Numerisch</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>Sollzinsen</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>ZinsAbrHabenZins</p>
+        </td>
+        <td>
+          <p>Numerisch</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>HabenZinsen</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>ZinsAbrZinsSaldo</p>
+        </td>
+        <td>
+          <p>Numerisch</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>Saldo Soll - Haben</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>ZinsAbrZinsSaldoSH</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>Sollhaben des Saldos</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>ZinsAbrSollZinsOrig</p>
+        </td>
+        <td>
+          <p>Numerisch</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>Sollzinsen</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>ZinsAbrHabenZinsOrig</p>
+        </td>
+        <td>
+          <p>Numerisch</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>HabenZinsen</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>ZinsAbrZinsSaldoOrig</p>
+        </td>
+        <td>
+          <p>Numerisch</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>Saldo Soll - Haben</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>ZinsAbrZinsSaldoOrigSH</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>Sollhaben des Saldos</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Druckdatum</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>5</p>
+        </td>
+        <td>
+          <p>Tagesdatum</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>USER</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>Wer hat das gedruckt?</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>MANDANT</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>Mandantenbezeichnung</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>KontoBezeich</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>Bezeichnung des Kontos aus dem Kontostamm</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>KontoTyp</p>
+        </td>
+        <td>
+          <p>Numerisch</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>Typ des Kontos im Kontostamm (1=Sachkonto 2=PersonenKonto9</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Adresse</p>
+        </td>
+        <td>
+          <p>Block</p>
+        </td>
+        <td>
+          <p>6</p>
+        </td>
+        <td>
+          <p>Kundenadresse bzw. wie in Sachkontozins hinterlegt</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>AdressAnrede</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>Anrede wie im Anschriftenstamm hinterlegt</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>AdressName</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>Name wie im Anschriftenstamm hinterlegt</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>AdressKurzName</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>Kurzname wie im Anschriftenstamm hinterlegt</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>AdressBezeich</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>Bezeichnung wie im Anschriftenstamm hinterlegt</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>AdressTelefon</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>Telefon wie im Anschriftenstamm hinterlegt</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>AdressTelefax</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>Telefax wie im Anschriftenstamm hinterlegt</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>KundNummer</p>
+        </td>
+        <td>
+          <p>Numerisch</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>Kundennummer ( nur bei Kontotyp=2)</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>ZinsGrupNummer</p>
+        </td>
+        <td>
+          <p>Numerisch</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>Zinsgruppe dieses Kunden bzw. diese Sachkontos</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>KundZinsBagSoll</p>
+        </td>
+        <td>
+          <p>Numerisch</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>Bagatellzinsen Soll</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>KundZinsBagHaben</p>
+        </td>
+        <td>
+          <p>Numerisch</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>Bagatellzinsen Haben</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>KundZinsSockel</p>
+        </td>
+        <td>
+          <p>Numerisch</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>Wie zum Zinskonto (kontotyp=1) eingetragen</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>VertGrNummer</p>
+        </td>
+        <td>
+          <p>Numerisch</p>
+        </td>
+        <td>
+          <p>4</p>
+        </td>
+        <td>
+          <p>VertretterGruppenNummer</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>VertGrBezeich</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>Bezeichnung der Vertretergruppe</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Ziabr_Belegnummer</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>Belegnummer dieses Beleges. !!Nur wenn Abrechnung bereits gebucht!!</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Ziabr_BelegnummerSOLL</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>Belegnummer der Abrechnung für Sollzinsen, wenn Soll und Haben nicht verrechnet wird.</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Ziabr_BelegnummerHaben</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>Belegnummer der Abrechnung für Habenzinsen, wenn Soll und Haben nicht verrechnet wird.</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>MandSteuerNummer</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>Steuernummer aus dem Mandantenstamm</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>MandUStStatKennz</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>USt-IdNr. aus dem Mandantenstamm</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>MandBezeich</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>Name des Mandanten</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>MandAdressKurzName</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>In der Anschrift des Mandanten hinterlegte Kurzbezeichnung</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>MandAdressAnrede</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>In der Anschrift des Mandanten hinterlegte Anrede</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>MandAdressVorName</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>In der Anschrift des Mandanten hinterlegter Vorname</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>MandAdressName</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>In der Anschrift des Mandanten hinterlegter Name</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>MandAdressOrt</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>In der Anschrift des Mandanten hinterlegter Ort</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>MandAdressPLZ1</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>In der Anschrift des Mandanten hinterlegte Postleitzahl</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>MandAdressStrasse</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>In der Anschrift des Mandanten hinterlegte Straße</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>MandAdressTelefon</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>In der Anschrift des Mandanten hinterlegte Telefonnummer</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>MandAdressTelefax</p>
+        </td>
+        <td>
+          <p>Normal</p>
+        </td>
+        <td>
+          <p>3</p>
+        </td>
+        <td>
+          <p>In der Anschrift des Mandanten hinterlegte Faxnummer</p>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="just-emphasize">314 Positionsteil Zinsabrechnung</p>
 

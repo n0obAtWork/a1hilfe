@@ -6,45 +6,249 @@ Dieser Pfleger dient zur Änderung und Erstellung von Bedienern
 
 <p class="just-emphasize">Kopfdaten:</p>
 
-| Kopfdaten |
-| --- |
-| Nummer | Bedienernummer. Diese wird händisch vergeben und muss eindeutig sein.<br> |
-| Kurzname | Eindeutiger Login–Name beim Programmstart.<br> |
-| Status | **Aktiv**: Bediener ist im Bedienerstamm und in der Datenbank angelegt. Mit diesem Bediener ist eine A.eins-Anmeldung möglich.<br>**Inaktiv**: Bediener ist im Bedienerstamm und in der Datenbank angelegt. Jedoch ist eine A.eins-Anmeldung nicht möglich.<br>**Gelöscht**: Bediener ist nur noch im Bedienerstamm aber nicht mehr in der Datenbank. Eine A.eins-Anmeldung ist nicht möglich.<br>**Neu**: Neuanlage des Bedieners. Nach dem Speichern wird dieser auf aktiv gesetzt.<br> |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Kopfdaten</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Nummer</p>
+        </td>
+        <td>
+          <p>Bedienernummer. Diese wird händisch vergeben und muss eindeutig sein.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kurzname</p>
+        </td>
+        <td>
+          <p>Eindeutiger Login–Name beim Programmstart.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Status</p>
+        </td>
+        <td>
+          <p><b>Aktiv</b>: Bediener ist im Bedienerstamm und in der Datenbank angelegt. Mit diesem Bediener ist&nbsp; eine A.eins-Anmeldung möglich.</p>
+          <p><b>Inaktiv</b>: Bediener ist im Bedienerstamm und in der Datenbank angelegt. Jedoch ist eine A.eins-Anmeldung nicht möglich.</p>
+          <p><b>Gelöscht</b>: Bediener ist nur noch im Bedienerstamm aber nicht mehr in der Datenbank. Eine A.eins-Anmeldung ist nicht möglich.</p>
+          <p><b>Neu</b>: Neuanlage des Bedieners. Nach dem Speichern wird dieser auf aktiv gesetzt.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="just-emphasize">Register:</p>
 
 <details>
 <summary>Allgemein</summary>
 
-| Allgemein |
-| --- |
-| Bedienerklasse | **F3** Zuordnung einer übergeordneten Abteilung; der Bediener erhält damit die Rechte der [Bedienerklasse](../bedienerklassen/bedienerklasse_pfleger.md).<br> |
-| Betriebsstätte | Betriebsstätte des Bedieners, so wie er auf Listen und Ausdrucken erscheint.<br> |
-| Name | Name des Bedieners.<br> |
-| Name extern | Für Listen, Ausdrucke, etc. |
-| Windows Login | Ein in einem Windows Umfeld gestartetes A.eins fragt bisher immer noch einmal Bedienername und Kennwort ab, obwohl ja schon bei der Windows Anmeldung alle notwendigen Sicherheitsüberprüfungen abgewickelt worden sind.<br>Durch das einfache Setzen der Feldes „Windows Login“ innerhalb des Bedienerstammes auf den Windows – Kontonamen (also den Windows Anmeldenamen) des entsprechenden Bedieners kann jetzt erreicht werden, dass dieser angemeldete Windows Bediener direkt auf den entsprechenden A.eins Bediener innerhalb von A.eins angemeldet wird, wenn A.eins gestartet wird. Es gibt nur eine 1 zu 1 Zuordnung zwischen einem Windows Benutzer und einem A.eins Bediener.<br> <br>Bei dieser Verwendung der Windows Authentifizierung wird A.eins sofort durchgestartet. Die A.eins Anmeldung müssen Sie in jedem Fall dann beibehalten, wenn unter ein und derselben Windows Anmeldung unterschiedliche Bediener tätig werden sollen.<br> <br>Ist der [SPA 769](../../../steuerparameter/optionen_global/name_sicherheit_login_aktivieren_spa_769.md) „Name Sicherheit Login aktivieren“ auf **Ja** dann gilt zusätzlich, dass A.eins nach Einrichtung eines Bedieners mit angegebenem „Windows Login“ nun auch keinem Bediener ohne eingetragenen Namen Zugang zum System gewährt.<br> <br>Die Bedienerklasse des Bedieners bestimmt die Filialzugehörigkeit, damit ist es möglich über den „Windows Login“ den gleichen Windows-Kontonamen verschiedenen Aeins-Benutzern in verschiedenen Filialen zuzuordnen.<br>Anwender in Nicht-Replikationsumgebungen oder Teil-Replikationen, die das Filialwesen anders als in Voll-Replikationen vorgesehen nutzen und trotzdem das über „Windows Login“ erreichbare AUTOLOGIN nutzen wollen, müssen den Aeins-Parameter FILIALLOGIN=FALSE setzen.<br> |
-| Systemadmin | Systemadministrator (Ja/Nein). Wird hier **Ja** eingetragen, erhält der Nutzer in entsprechenden Bereichen angepasste Rechte. |
-| Sperre | Bedienersperre (Ja/Nein). Wird hier **Ja** eingetragen, so bleibt der Benutzer zwar im System, kann sich aber nicht mehr an A.eins anmelden.<br> |
-| Protokollkontr. | Der Bediener ist für die Kontrolle der Fehlerprotokolle zuständig (Ja/Nein). Es erfolgt ein Hinweis beim Einloggen des Bedieners.<br> |
-| Newsvorlage | Gibt an, ob die [News](../../../../zusatzprogramme/newsticker.md) angezeigt werden oder nicht:<br> |
-| Ausw.Listenadmin | Steht hier ein „Ja“, so kann der Bediener die Anzeige in den Auswahllisten anpassen. Dazu gehört die Sortierung, Feldauswahl, Größe und Reihenfolge der Felder sowie die Farbdarstellung. Weiterhin werden diesen Bedienern auch Fehler in privaten Auswahllisten und der F3-Auswahl angezeigt.<br> |
-| Ausw.Strg fest | Dadurch, dass die Bedienung der Auswahlliste auf das unter Windows übliche Verfahren umgestellt wurde (z.B. mehrere Markieren durch Strg + Markieren) ist die einhändige Bedienung fast unmöglich. Wenn man hier ein **Ja** einträgt, so wird angenommen, dass die Steuerungstaste (Strg) immer gedrückt ist.<br> |
-| Klassenadministr. | <br> |
-| Ausw.Einstieg | Standard Vorbelegung des Einstiegsverhalten bei Auswahllisten. Diese Einstellung wird verwendet, wenn die Auswahlliste das erste mal ausgewählt wird.<br> |
-| Version F3-Auswahl | Hie kann pro Bediener eingestellt werden, welche Variante der F3-Auswahl verwendet werden soll. Es existieren drei Auswahlmöglichkeiten:<br>• Standard Programmvorgabe. Diese kann eine der beiden folgenden sein:<br>• Feste Fensterdefinition , neues Design. Diese Einstellung entspricht der dokumentierten F3-Auswahl.<br>• Verschiebbare F3-Auswahl, altes Design.<br>Mit dem A.eins-Startparameter ITEMBOX=FALSE wird die Standard-Programmvorgabe auf „Verscheibbare F3-Auswahl gesetzt. Ansonsten ist der Standard die neue Version der Itembox.<br><br> |
-| Großer Font | Ist unter Desktopeigenschaften ein großer Font eingestellt kann es passieren, dass die Auswahlliste nur zur Hälfte dargestellt wird. Wird hier ein **Ja** eingestellt, so wird eine spezielle Maske für die Auswahlliste verwendet, die die größere Schrift berücksichtigt.<br> |
-| Form. Kurzliste | wird hier kein Eintrag vorgenommen (0) wird standardmäßig das Formular 111 für den Ausdruck der Auswahllisten **F4** benutzt.<br>**Wichtig:** Je Bediener muss die korrekte Seitenlänge für den verwendeten Drucker eingestellt werden.<br> |
-| Sprache | Auswahl der [Sprache](../../../a_eins_sprache/index.md) in der A.eins für diesen Anwender erscheinen soll. Diese Sprache wird von AMIC gepflegt und man kann sie mit **F3** auswählen. Die Sprachen Englisch, Dänisch, Niederländisch und Französisch sind Lizenzpflichtig. Wenn eine dieser Sprachen das erste Mal ausgewählt wird, so muss man die Aktivierung bestätigen. Es wird erst dann die aktuelle Sprache eingespielt und der Benutzer kann ohne Lizenz für 60 Tage diese Sprache nutzen. Danach muss die Lizenz erworben werden.<br>Ohne Aktivierung wird die Spracheinstellung ignoriert.<br><br> |
-| Sprache der Dokumentation | Auswahl der Sprache in der die Hilfe für diesen Anwender erscheinen soll. Ist hier eine andere Sprache als Deutsch hinterlegt, so wird geprüft, ob die entsprechende Hilfedatei existiert. Ist dies nicht der Fall, so wird versucht, die englische Hilfe zu lesen, ansonsten die deutsche.<br> |
-| Mail Typ | Auswahl des Mail-Typs<br> |
-| Mail Adresse | Eingabe der Mail-Adresse<br> |
-| Mail Postfach | Eingabe des Mail Postfaches<br> |
-| Per.Kennzeichen | Eingabe des persönlichen Kennzeichens<br> |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Allgemein</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bedienerklasse</p>
+        </td>
+        <td>
+          <p><strong>F3</strong> Zuordnung einer übergeordneten Abteilung; der Bediener erhält damit die Rechte der <a href="../bedienerklassen/bedienerklasse_pfleger.md">Bedienerklasse</a>.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Betriebsstätte</p>
+        </td>
+        <td>
+          <p>Betriebsstätte des Bedieners, so wie er auf Listen und Ausdrucken erscheint.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Name</p>
+        </td>
+        <td>
+          <p>Name des Bedieners.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Name extern</p>
+        </td>
+        <td>
+          <p>Für Listen, Ausdrucke, etc.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Windows Login</p>
+        </td>
+        <td>
+          <p>Ein in einem Windows Umfeld gestartetes A.eins fragt bisher immer noch einmal Bedienername und Kennwort ab, obwohl ja schon bei der Windows Anmeldung alle notwendigen Sicherheitsüberprüfungen abgewickelt worden sind.</p>
+          <p>Durch das einfache Setzen der Feldes „Windows Login“ innerhalb des Bedienerstammes auf den Windows – Kontonamen (also den Windows Anmeldenamen) des entsprechenden Bedieners kann jetzt erreicht werden, dass dieser angemeldete Windows Bediener direkt auf den entsprechenden A.eins Bediener innerhalb von A.eins angemeldet wird, wenn A.eins gestartet wird. Es gibt nur eine 1 zu 1 Zuordnung zwischen einem Windows Benutzer und einem A.eins Bediener.</p>
+          <p>Bei dieser Verwendung der Windows Authentifizierung wird A.eins sofort durchgestartet. Die A.eins Anmeldung müssen Sie in jedem Fall dann beibehalten, wenn unter ein und derselben Windows Anmeldung unterschiedliche Bediener tätig werden sollen.</p>
+          <p>Ist der <a href="../../../steuerparameter/optionen_global/name_sicherheit_login_aktivieren_spa_769.md">SPA 769</a> „Name Sicherheit Login aktivieren“ auf <b>Ja</b> dann gilt zusätzlich, dass A.eins nach Einrichtung eines Bedieners mit angegebenem „Windows Login“ nun auch keinem Bediener ohne eingetragenen Namen Zugang zum System gewährt.</p>
+          <p>Die Bedienerklasse des Bedieners bestimmt die Filialzugehörigkeit, damit ist es möglich über den „Windows Login“ den gleichen Windows-Kontonamen verschiedenen Aeins-Benutzern in verschiedenen Filialen zuzuordnen.</p>
+          <p>Anwender in Nicht-Replikationsumgebungen oder Teil-Replikationen, die das Filialwesen anders als in Voll-Replikationen vorgesehen nutzen und trotzdem das über „Windows Login“ erreichbare AUTOLOGIN nutzen wollen, müssen den Aeins-Parameter FILIALLOGIN=FALSE setzen.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Systemadmin</p>
+        </td>
+        <td>
+          <p>Systemadministrator (Ja/Nein). Wird hier <b>Ja</b> eingetragen, erhält der Nutzer in entsprechenden Bereichen angepasste Rechte.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Sperre</p>
+        </td>
+        <td>
+          <p>Bedienersperre (Ja/Nein). Wird hier <b>Ja </b>eingetragen, so bleibt der Benutzer zwar im System, kann sich aber nicht mehr an A.eins anmelden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Protokollkontr.</p>
+        </td>
+        <td>
+          <p>Der Bediener ist für die Kontrolle der Fehlerprotokolle zuständig (Ja/Nein). Es erfolgt ein Hinweis beim Einloggen des Bedieners.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Newsvorlage</p>
+        </td>
+        <td>
+          <p>Gibt an, ob die <a href="../../../../zusatzprogramme/newsticker.md">News</a> angezeigt werden oder nicht:</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Ausw.Listenadmin</p>
+        </td>
+        <td>
+          <p>Steht hier ein „Ja“, so kann der Bediener die Anzeige in den Auswahllisten anpassen. Dazu gehört die Sortierung, Feldauswahl, Größe und Reihenfolge der Felder sowie die Farbdarstellung. Weiterhin werden diesen Bedienern auch Fehler in privaten Auswahllisten und der F3-Auswahl angezeigt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Ausw.Strg fest</p>
+        </td>
+        <td>
+          <p>Dadurch, dass die Bedienung der Auswahlliste auf das unter Windows übliche Verfahren umgestellt wurde (z.B. mehrere Markieren durch Strg + Markieren) ist die einhändige Bedienung fast unmöglich. Wenn man hier ein <b>Ja </b>einträgt, so wird angenommen, dass die Steuerungstaste (Strg) immer gedrückt ist.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Klassenadministr.</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Ausw.Einstieg</p>
+        </td>
+        <td>
+          <p>Standard Vorbelegung des Einstiegsverhalten bei Auswahllisten. Diese Einstellung wird verwendet, wenn die Auswahlliste das erste mal ausgewählt wird.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Version F3-Auswahl</p>
+        </td>
+        <td>
+          <p>Hie kann pro Bediener eingestellt werden, welche Variante der F3-Auswahl verwendet werden soll. Es existieren drei Auswahlmöglichkeiten:</p>
+          <ul>
+            <li>Standard Programmvorgabe. Diese kann eine der beiden folgenden sein:</li>
+            <li>Feste Fensterdefinition , neues Design. Diese Einstellung entspricht der dokumentierten F3-Auswahl.</li>
+            <li>Verschiebbare F3-Auswahl, altes Design.<br>Mit dem A.eins-Startparameter ITEMBOX=FALSE wird die Standard-Programmvorgabe auf „Verscheibbare F3-Auswahl gesetzt. Ansonsten ist der Standard die neue Version der Itembox.<br><br></li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Großer Font</p>
+        </td>
+        <td>
+          <p>Ist unter Desktopeigenschaften ein großer Font eingestellt kann es passieren, dass die Auswahlliste nur zur Hälfte dargestellt wird. Wird hier ein <b>Ja </b>eingestellt, so wird eine spezielle Maske für die Auswahlliste verwendet, die die größere Schrift berücksichtigt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Form. Kurzliste</p>
+        </td>
+        <td>
+          <p>wird hier kein Eintrag vorgenommen (0) wird standardmäßig das Formular 111 für den Ausdruck der Auswahllisten <strong>F4</strong> benutzt.</p>
+          <p><b>Wichtig:</b> Je Bediener muss die korrekte Seitenlänge für den verwendeten Drucker eingestellt werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Sprache</p>
+        </td>
+        <td>
+          <p>Auswahl der <a href="../../../a_eins_sprache/index.md">Sprache</a> in der A.eins für diesen Anwender erscheinen soll. Diese Sprache wird von AMIC gepflegt und man kann sie mit <strong>F3</strong> auswählen. Die Sprachen Englisch, Dänisch, Niederländisch und Französisch sind Lizenzpflichtig. Wenn eine dieser Sprachen das erste Mal ausgewählt wird, so muss man die Aktivierung bestätigen. Es wird erst dann die aktuelle Sprache eingespielt und der Benutzer kann ohne Lizenz für 60 Tage diese Sprache nutzen. Danach muss die Lizenz erworben werden.</p>
+          <p>Ohne Aktivierung wird die Spracheinstellung ignoriert.<br><br></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Sprache der Dokumentation</p>
+        </td>
+        <td>
+          <p>Auswahl der Sprache in der die Hilfe für diesen Anwender erscheinen soll. Ist hier eine andere Sprache als Deutsch hinterlegt, so wird geprüft, ob die entsprechende Hilfedatei existiert. Ist dies nicht der Fall, so wird versucht, die englische Hilfe zu lesen, ansonsten die deutsche.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Mail Typ</p>
+        </td>
+        <td>
+          <p>Auswahl des Mail-Typs</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Mail Adresse</p>
+        </td>
+        <td>
+          <p>Eingabe der Mail-Adresse</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Mail Postfach</p>
+        </td>
+        <td>
+          <p>Eingabe des Mail Postfaches</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Per.Kennzeichen</p>
+        </td>
+        <td>
+          <p>Eingabe des persönlichen Kennzeichens</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 </details>
-
- 
 
 <details>
 <summary>Portal</summary>
@@ -56,20 +260,115 @@ Diese Funktion wird in A.eins nicht mehr genutzt, sondern nur noch supportet. Be
 <details>
 <summary>Farben</summary>
 
-| Farben |
-| --- |
-| Hauptmenü Hintergrund | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit **F3**) |
-| Hauptmenü Schrift | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit **F3**) |
-| Auswahlmenü Hintergrund | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit **F3**) |
-| Auswahlmenü Schrift | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit **F3**) |
-| Titel Hintergrund | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit **F3**) |
-| Titel Schrift | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit **F3**) |
-| Statusleiste Hintergrund | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit **F3**) |
-| Statusleiste Schrift | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit **F3**) |
-| F3-Auswahl(Itembox) Hintergrund | Farbeinstellung (Eingabe RGB-Code oder Auswahl mit **F3**) |
-| Aktuelles Eingabefeld einfärben | Auswahl, ob das aktuelle Eingabefeld, dass den Focus hat, eingefärbt dargestellt wird (Ja/Nein). Standardfarbe ist gelb (250/255/177) kann jedoch individuell angepasst werden.<br>(Eingabe RGB-Code oder Auswahl mit **F3**) |
-| Auf AMIC Farben zurücksetzen | Standard Farben einstellen (Ja/Nein) |
-| Farben für alle Bediener übernehmen | Übernahme der Farbeinstellungen für alle Bediener (Ja/Nein)<br>Dieses Feld ist deaktiviert, wenn bisher noch keine Bediener für die aktuelle Betriebsstätte (Filialnummer im Mandantenstamm) eingerichtet wurden. Standardeinstellung ist „Nein“. |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Farben</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Hauptmenü Hintergrund</p>
+        </td>
+        <td>
+          <p>Farbeinstellung (Eingabe RGB-Code oder Auswahl mit <strong>F3</strong>)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Hauptmenü Schrift</p>
+        </td>
+        <td>
+          <p>Farbeinstellung (Eingabe RGB-Code oder Auswahl mit <strong>F3</strong>)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Auswahlmenü Hintergrund</p>
+        </td>
+        <td>
+          <p>Farbeinstellung (Eingabe RGB-Code oder Auswahl mit <strong>F3</strong>)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Auswahlmenü Schrift</p>
+        </td>
+        <td>
+          <p>Farbeinstellung (Eingabe RGB-Code oder Auswahl mit <strong>F3</strong>)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Titel Hintergrund</p>
+        </td>
+        <td>
+          <p>Farbeinstellung (Eingabe RGB-Code oder Auswahl mit <strong>F3</strong>)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Titel Schrift</p>
+        </td>
+        <td>
+          <p>Farbeinstellung (Eingabe RGB-Code oder Auswahl mit <strong>F3</strong>)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Statusleiste Hintergrund</p>
+        </td>
+        <td>
+          <p>Farbeinstellung (Eingabe RGB-Code oder Auswahl mit <strong>F3</strong>)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Statusleiste Schrift</p>
+        </td>
+        <td>
+          <p>Farbeinstellung (Eingabe RGB-Code oder Auswahl mit <strong>F3</strong>)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>F3-Auswahl(Itembox) Hintergrund</p>
+        </td>
+        <td>
+          <p>Farbeinstellung (Eingabe RGB-Code oder Auswahl mit <strong>F3</strong>)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Aktuelles Eingabefeld einfärben</p>
+        </td>
+        <td>
+          <p>Auswahl, ob das aktuelle Eingabefeld, dass den Focus hat, eingefärbt dargestellt wird (Ja/Nein).&nbsp; Standardfarbe ist gelb (250/255/177) kann jedoch individuell angepasst werden.</p>
+          <p>(Eingabe RGB-Code oder Auswahl mit <strong>F3</strong>)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Auf AMIC Farben zurücksetzen</p>
+        </td>
+        <td>
+          <p>Standard Farben einstellen (Ja/Nein)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Farben für alle Bediener übernehmen</p>
+        </td>
+        <td>
+          <p>Übernahme der Farbeinstellungen für alle Bediener (Ja/Nein)</p>
+          <p>Dieses Feld ist deaktiviert, wenn bisher noch keine Bediener für die aktuelle Betriebsstätte (Filialnummer im Mandantenstamm) eingerichtet wurden. Standardeinstellung ist „Nein“.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 </details>
 
@@ -186,11 +485,9 @@ In diesem Register können Ausnahmen für die Ansicht einer spezifischen Auswahl
 | Bediener aktivieren | Setzt den Status auf aktiv. Nur möglich, wenn der Status auf inaktiv steht.<br> |
 | Bediener deaktivieren | Setzt den Status auf inaktiv. Nur möglich, wenn der Status auf aktiv steht.<br> |
 | Passwort zurücksetzten | Setzt das Passwort für diesen Bediener zurück.<br> |
-| Auswahlliste zurücksetzen | Hier werden die Einstellungen des Anwenders wieder auf Standard zurückgesetzt. Dazu gehören folgende Einstellungen:<br>• Sortierung<br>• Ein oder ausgeblendete Spalten<br>• Spaltenbreit und Position<br>• Schriftart (nur AW 2.0)<br>• Design (nur AW 2.0)<br>• Excelaugabe (nur AW 2.0)<br>• Gruppieren und Filterzeile<br> |
+| Auswahlliste zurücksetzen | Hier werden die Einstellungen des Anwenders wieder auf Standard zurückgesetzt. Dazu gehören folgende Einstellungen:<br><ul><li>&nbsp;&nbsp;&nbsp; Sortierung</li><li>&nbsp;&nbsp;&nbsp; Ein oder ausgeblendete Spalten</li><li>&nbsp;&nbsp;&nbsp; Spaltenbreit und Position</li><li>&nbsp;&nbsp;&nbsp; Schriftart (nur AW 2.0)</li><li>&nbsp;&nbsp;&nbsp; Design (nur AW 2.0)</li><li>&nbsp;&nbsp;&nbsp; Excelaugabe (nur AW 2.0)</li><li>&nbsp;&nbsp;&nbsp; Gruppieren und Filterzeile<br>&nbsp;</li></ul> |
 
 </details>
-
- 
 
 ###### Kundenindividuelle SQL Anpassung
 

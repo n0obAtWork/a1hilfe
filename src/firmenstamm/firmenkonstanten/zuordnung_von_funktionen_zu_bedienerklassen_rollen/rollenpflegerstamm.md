@@ -19,14 +19,73 @@ Besteht keine Autorisierung durch den bestimmenden Rollenkontext wird das Laufze
 <details>
 <summary>Felder des Rollenpflegerstamm</summary>
 
-| Felder |
-| --- |
-| Pflegerstamm | [Pflegerstamm](../../../zusatzprogramme/pflegerstamm.md) |
-| Besitzer | Dieses Feld wird z.Z. nicht angezeigt.<br>Momentan sind keine anderen Besitzer von Pflegerstämmen als AMIC vorgesehen. |
-| Methode | Pflegerstamm-Methode<br>Mögliche Ausprägungen sind<br>• Neu<br>• Ändern<br>• Ansehen<br>• Löschen |
-| Optionbox | Die Optionbox des bestimmenden Kontextes |
-| Funktion | Die Funktion des bestimmenden Kontextes |
-| Rolle | Die Rolle des bestimmenden Kontextes |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Felder</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Pflegerstamm</p>
+        </td>
+        <td>
+          <p><a href="../../../zusatzprogramme/pflegerstamm.md">Pflegerstamm</a></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Besitzer</p>
+        </td>
+        <td>
+          <p>Dieses Feld wird z.Z. nicht angezeigt.</p>
+          <p>Momentan sind keine anderen Besitzer von Pflegerstämmen als AMIC vorgesehen.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Methode</p>
+        </td>
+        <td>
+          <p>Pflegerstamm-Methode</p>
+          <p>Mögliche Ausprägungen sind</p>
+          <ul>
+            <li>Neu</li>
+            <li>Ändern</li>
+            <li>Ansehen</li>
+            <li>Löschen</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Optionbox</p>
+        </td>
+        <td>
+          <p>Die Optionbox des bestimmenden Kontextes</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Funktion</p>
+        </td>
+        <td>
+          <p>Die Funktion des bestimmenden Kontextes</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Rolle</p>
+        </td>
+        <td>
+          <p>Die Rolle des bestimmenden Kontextes</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 </details>
 
@@ -35,7 +94,7 @@ Besteht keine Autorisierung durch den bestimmenden Rollenkontext wird das Laufze
 
 | Suchkriterien | |
 | --- | --- |
-| Suchen | Sucht in den Feldern<br>• Pflegerstamm<br>• Optionbox<br>• Funktion<br>• Rolle |
+| Suchen | Sucht in den Feldern<br><ul><li>&nbsp;&nbsp;&nbsp; Pflegerstamm</li><li>&nbsp;&nbsp;&nbsp; Optionbox</li><li>&nbsp;&nbsp;&nbsp; Funktion</li><li>&nbsp;&nbsp;&nbsp; Rolle</li></ul> |
 | Methode | Sucht im Feld „Methode“ |
 
 </details>
@@ -43,11 +102,46 @@ Besteht keine Autorisierung durch den bestimmenden Rollenkontext wird das Laufze
 <details>
 <summary>Funktionen:</summary>
 
-| Funktionen | |
-| --- | --- |
-| Funktion Informationen (**F9**) | Aufruf eines [Informationsdialoges zur Funktion](./rollenkontext/rollenkontext_pfleger.md). |
-| Funktion ansehen/bearbeiten (**F11**) | Aufruf des Anwendfunktions-Pflegers. |
-| Kontext … (**F10**) | Aufruf des Optionbox-Pflegers (steht ausschließlich der Entwicklung zur Verfügung) |
-| | | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Funktionen</strong></p>
+        </td>
+        <td colspan="2"></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Funktion Informationen (<b>F9</b>)<b></b></p>
+        </td>
+        <td>
+          <p>Aufruf eines <a href="./rollenkontext/rollenkontext_pfleger.md">Informationsdialoges zur Funktion</a>.</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Funktion ansehen/bearbeiten (<b>F11</b>)</p>
+        </td>
+        <td>
+          <p>Aufruf des Anwendfunktions-Pflegers.</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Kontext … (<b>F10</b>)</p>
+        </td>
+        <td>
+          <p>Aufruf des Optionbox-Pflegers (steht ausschließlich der Entwicklung zur Verfügung)</p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 </details>

@@ -8,15 +8,71 @@ Der Import von openTRANS ist vielfältig. Deshalb wird dieser durch Makros indiv
 
 Warenverkauf > openTRANS Import > Variante „Profile für den Importbereich“
 
-| Pfleger des openTRANS-Importprofils |
-| --- |
-| Profilname | Name des Profile |
-| Klasse | Vorgangsklasse |
-| Unterklasse | Vorgangsunterklasse |
-| Absendertyp | Welchen Typ hat der im Dokument beschriebene Absender |
-| Importlager | Lager auf das importiert wird |
-| Makro | Makro, das zum Import aufgerufen wird Das Makro wird von einer Funktion in der Variante „Dokumentenverarbeitung“ benutzt. (siehe [Import per Makro](./opentrans_import.md#EAI_OpenTRANS_Thebe_Import_Makro)) |
-| Gebinde nicht exportieren | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Pfleger des openTRANS-Importprofils</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Profilname</p>
+        </td>
+        <td>
+          <p>Name des Profile</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Klasse</p>
+        </td>
+        <td>
+          <p>Vorgangsklasse</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Unterklasse</p>
+        </td>
+        <td>
+          <p>Vorgangsunterklasse</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Absendertyp</p>
+        </td>
+        <td>
+          <p>Welchen Typ hat der im Dokument beschriebene Absender</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Importlager</p>
+        </td>
+        <td>
+          <p>Lager auf das importiert wird</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Makro</p>
+        </td>
+        <td>
+          <p>Makro, das zum Import aufgerufen wird Das Makro wird von einer Funktion in der Variante „Dokumentenverarbeitung“ benutzt. (siehe <a href="./opentrans_import.md#EAI_OpenTRANS_Thebe_Import_Makro">Import per Makro</a>)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Gebinde nicht exportieren</p>
+        </td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Beim Speichern eines neuen Profils wird eine Funktion in der Optionbox der Variante „Dokumentenverarbeitung“ angelegt, die den Import von Dokumenten mit Hilfe dieses Profils startet.
 
@@ -26,12 +82,53 @@ Beim Speichern eines neuen Profils wird eine Funktion in der Optionbox der Varia
 
 Die openTRANS-Dokumente können aus verschiedenen Quellen gewonnen werden. Je nach Typ können sie erst nach Extrakt oder sofort weiterverarbeitet werden. In jedem Fall werden die Dateien zunächst ins Formulararchiv importiert und mit einer entsprechenden Belegklasse versehen.
 
-| Belegklassen für openTRANS im Formulararchiv |
-| --- |
-| Typ | Belegklasse | Verarbeitung |
-| E-Mail mit Anhang | 8031 – openTRANS unbearbeitet<br> | Mit Extraktion |
-| PDF mit openTRANS-Anhang |
-| openTRANS-XML-Datei | 8032 – openTRANS extrahiert | |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="3">
+          <p><strong>Belegklassen für openTRANS im Formulararchiv</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Typ</strong></p>
+        </td>
+        <td>
+          <p><strong>Belegklasse</strong></p>
+        </td>
+        <td>
+          <p><strong>Verarbeitung</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>E-Mail mit Anhang</p>
+        </td>
+        <td rowspan="2">
+          <p>8031 – openTRANS unbearbeitet</p>
+        </td>
+        <td rowspan="2">
+          <p>Mit Extraktion</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>PDF mit openTRANS-Anhang</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>openTRANS-XML-Datei</p>
+        </td>
+        <td>
+          <p>8032 – openTRANS extrahiert</p>
+        </td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Warenverkauf > openTRANS Import > Variante „Dokumentenverarbeitung“
 

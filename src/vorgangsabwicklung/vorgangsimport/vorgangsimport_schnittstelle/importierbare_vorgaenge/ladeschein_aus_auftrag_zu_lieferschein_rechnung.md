@@ -12,12 +12,49 @@ Dafür sind einige Voraussetzungen notwendig:
 
 <p class="just-emphasize">ImportTyp</p>
 
-| Importtyp im ImportVorgStamm |
-| --- |
-| NULL | Beleg wird in einen Lieferschein umgewandelt |
-| 0 | Beleg wird in einen Lieferschein umgewandelt |
-| 1 | ACHTUNG !!! Ladeschein wird erstellt !!! |
-| 2 | Beleg wird in eine Rechnung umgewandelt \* |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Importtyp im ImportVorgStamm</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>NULL</p>
+        </td>
+        <td>
+          <p>Beleg wird in einen Lieferschein umgewandelt</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>0</p>
+        </td>
+        <td>
+          <p>Beleg wird in einen Lieferschein umgewandelt</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>1</p>
+        </td>
+        <td>
+          <p>ACHTUNG !!! Ladeschein wird erstellt !!!</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>Beleg wird in eine Rechnung umgewandelt *</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="just-emphasize">Wabewerfassid in der ImportVorgPosition</p>
 

@@ -6,9 +6,46 @@ Um neue Anteile zu zeichnen wird der Gesellschafter(Mitglied) in der Auswahllist
 
 Die Funktion ***Zeichnen*** **F5** aktiviert folgende Eingabefelder:
 
-| Felder |
-| --- |
-| Anzahl | Hier wird die Anzahl der Anteile eingetragen die gezeichnet werden soll. |
-| Anteilstyp | Hier wird der Anteilstyp ***F3*** freiwillig oder pflicht eingetragen. |
-| Zeichnungsdatum | Hier wird das Zeichnungsdatum hinterlegt. |
-| Bemerkung zum Vorgang | Hier kann eine Bemerkung zum Vorgang eingetragen werden. (60 Zeichen) |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Felder</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Anzahl</p>
+        </td>
+        <td>
+          <p>Hier wird die Anzahl der Anteile eingetragen die gezeichnet werden soll.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Anteilstyp</p>
+        </td>
+        <td>
+          <p>Hier wird der Anteilstyp <strong><em>F3</em></strong> freiwillig oder pflicht eingetragen.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Zeichnungsdatum</p>
+        </td>
+        <td>
+          <p>Hier wird das Zeichnungsdatum hinterlegt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bemerkung zum Vorgang</p>
+        </td>
+        <td>
+          <p>Hier kann eine Bemerkung zum Vorgang eingetragen werden. (60 Zeichen)</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
