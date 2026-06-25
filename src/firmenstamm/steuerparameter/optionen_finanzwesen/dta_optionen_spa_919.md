@@ -4,4 +4,49 @@
 
 Hier können Optionen für [DTA](../../../finanzbuchhaltung/zahlungsverkehr/zahlungen_bearbeiten/dta.md) gepflegt werden.
 
-<table class="AMIC-Tabelle" style="WIDTH: 100%; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="100%" border="0"><tbody><tr><td style="WIDTH: 11.18%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="11%"><p class="AMIC-Ueberschrift-Tabelle" style="TEXT-ALIGN: center" align="center"><span style="COLOR: white">Typ</span></p></td><td style="WIDTH: 88.82%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="88%"><p class="AMIC-Ueberschrift-Tabelle" style="TEXT-ALIGN: center" align="center"><span style="COLOR: white">Wert</span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 11.18%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="11%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">CSATZ Name Herkunft</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 88.82%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="88%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Hier kann eingestellt werden wie der CSATZ_NAME ermittelt wird.</span><span style="FONT-SIZE: 11pt"></span></p><table class="MsoNormalTable" style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 100%; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" cellspacing="0" cellpadding="0" width="100%" border="1"><tbody><tr><th style="BORDER-TOP: #548dd4 1pt solid; BORDER-RIGHT: medium none; WIDTH: 7.96%; BORDER-BOTTOM: #4f81bd 2.25pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #548dd4 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="7%">Wert</th><th style="BORDER-TOP: #548dd4 1pt solid; BORDER-RIGHT: #548dd4 1pt solid; WIDTH: 92.04%; BORDER-BOTTOM: #4f81bd 2.25pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="92%">Bedeutung</th></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 7.96%; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="7%"><span style="FONT-SIZE: 11pt"></span>&nbsp;</td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 92.04%; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="92%"><span style="COLOR: black">Standardmäßig wird der CSATZ_NAME wie folgt gebildet:</span><br><span style="COLOR: black"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="COLOR: black">Empfänger / Zahlungspflichtiger aus der Kundenbank</span><br><span style="COLOR: black"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="COLOR: black">Wenn in der Kundenbank kein Zahlungspflichtiger eingetragen ist, dann der Empfänger / Zahlungspflichtige aus dem Kundenstamm (Fibu-Merkmale)</span><br><span style="COLOR: black"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="COLOR: black">Wenn auch dieser Wert leer ist dann Kundenbezeichnung</span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 7.96%; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="7%">1</td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 92.04%; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="92%">Ermittlung des CSATZ_NAME <u>nur</u> aus dem Namen der Hauptanschrift.<br><br></td></tr></tbody></table></td></tr></tbody></table>
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Typ</strong></p>
+        </td>
+        <td>
+          <p><strong>Wert</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>CSATZ Name Herkunft</p>
+        </td>
+        <td>
+          <p>Hier kann eingestellt werden wie der CSATZ_NAME ermittelt wird.</p>
+          <table>
+            <tbody>
+              <tr>
+                <th><strong>Wert</strong></th>
+                <th><strong>Bedeutung</strong></th>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  Standardmäßig wird der CSATZ_NAME wie folgt gebildet:
+                  <br>
+                  <ul>
+                    <li>Empfänger / Zahlungspflichtiger aus der Kundenbank</li>
+                    <li>Wenn in der Kundenbank kein Zahlungspflichtiger eingetragen ist, dann der Empfänger / Zahlungspflichtige aus dem Kundenstamm (Fibu-Merkmale)</li>
+                    <li>Wenn auch dieser Wert leer ist dann Kundenbezeichnung</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Ermittlung des CSATZ_NAME <u>nur</u> aus dem Namen der Hauptanschrift.<br><br></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

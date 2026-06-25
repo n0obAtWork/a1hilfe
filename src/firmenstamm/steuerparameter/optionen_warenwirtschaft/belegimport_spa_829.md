@@ -6,10 +6,192 @@ In diesem Steuerparameter können Optionen für den Belegimport eingestellt werd
 
 Zur Einstellung stehen verschiedene Typen zur Verfügung.
 
-<table class="AMIC-Tabelle" style="WIDTH: 100%; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="100%" border="0"><tbody><tr><td style="WIDTH: 43.96%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="43%"><p class="AMIC-Ueberschrift-Tabelle" style="TEXT-ALIGN: center" align="center"><span style="COLOR: white">Typ</span></p></td><td style="WIDTH: 56.04%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="56%"><p class="AMIC-Ueberschrift-Tabelle" style="TEXT-ALIGN: center" align="center"><span style="COLOR: white">Wert</span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 43.96%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="43%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">IMPORTPFAD</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 56.04%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="56%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Standardpfad für den Import der XML-Daten. Der Pfad muss dabei auf einen gültigen Pfad auf dem Datenbankserver zeigen.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 43.96%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="43%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">IMPORTPROZEDUR</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 56.04%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="56%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Alternative Datenbankfunktion für den Import der XML-Daten.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 43.96%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="43%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">KUNDE</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 56.04%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="56%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Standardkundennummer für die Eingangsrechnungsbelege.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 43.96%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="43%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">MAKRO_KOPF_START</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 56.04%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="56%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Hier kann ein Makro eingetragen werden, welches vor der Funktion „StartVorgang“ aufgerufen wird.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 43.96%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="43%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">MAKRO_KOPF_ENDE</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 56.04%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="56%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Hier kann ein Makro eingetragen werden, welches nach der Funktion „StartVorgang“ aufgerufen wird.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 43.96%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="43%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">MAKRO_POSI_START</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 56.04%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="56%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Hier kann ein Makro eingetragen werden, welches vor der Funktion „PositionNeu“ aufgerufen wird.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 43.96%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="43%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">MAKRO_POSI_ZWISCHEN</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 56.04%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="56%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Hier kann ein Makro eingetragen werden, welches nach der Funktion „PositionNeu“ und vor „PositionAdd“ aufgerufen wird.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 43.96%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="43%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">MAKRO_POSI_ENDE</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 56.04%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="56%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Hier kann ein Makro eingetragen werden, welches nach der Funktion „PositionAdd“ aufgerufen wird.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 43.96%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="43%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">UNTERKLASSUMSCHLUESSEL</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 56.04%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="56%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Hier wird die Klasse des Umschlüsselwerks eingetragen, welche eine Zuordnung zwischen dem A.eins Lager und der Vorgangsunterklasse herstellt. Ist diese Ausprägung nicht gesetzt, so wird die Unterklasse 0 genommen.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 43.96%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="43%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">BELEGDATUMTODAY</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 56.04%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="56%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Mit diesem Steuerparameter kann eingestellt werden, ob die A.eins Eingangsrechnung das Belegdatum der Terresrechnung erhalten soll. Oder ob die A.eins Eingangsrechnung das Tagesdatum erhält.</span><span style="FONT-SIZE: 11pt"></span></p><table class="MsoNormalTable" style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" cellspacing="0" cellpadding="0" border="1"><tbody><tr><th style="BORDER-TOP: #548dd4 1pt solid; BORDER-RIGHT: medium none; WIDTH: 100.35pt; BORDER-BOTTOM: #4f81bd 2.25pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #548dd4 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="134">Wert</th><th style="BORDER-TOP: #548dd4 1pt solid; BORDER-RIGHT: #548dd4 1pt solid; WIDTH: 100.4pt; BORDER-BOTTOM: #4f81bd 2.25pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="134">Bedeutung</th></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 100.35pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="134"><span style="COLOR: black">0</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 100.4pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="134"><span style="COLOR: black">A.eins Eingangsrechnung erhält das Datum der Terres Rechnung.</span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 100.35pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="134">1</td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 100.4pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="134">Es wird das Tagesdatum verwendet.</td></tr></tbody></table></td></tr></tbody></table>
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Typ</strong></p>
+        </td>
+        <td>
+          <p><strong>Wert</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>IMPORTPFAD</p>
+        </td>
+        <td>
+          <p>Standardpfad für den Import der XML-Daten. Der Pfad muss dabei auf einen gültigen Pfad auf dem Datenbankserver zeigen.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>IMPORTPROZEDUR</p>
+        </td>
+        <td>
+          <p>Alternative Datenbankfunktion für den Import der XML-Daten.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>KUNDE</p>
+        </td>
+        <td>
+          <p>Standardkundennummer für die Eingangsrechnungsbelege.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>MAKRO_KOPF_START</p>
+        </td>
+        <td>
+          <p>Hier kann ein Makro eingetragen werden, welches vor der Funktion „StartVorgang“ aufgerufen wird.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>MAKRO_KOPF_ENDE</p>
+        </td>
+        <td>
+          <p>Hier kann ein Makro eingetragen werden, welches nach der Funktion „StartVorgang“ aufgerufen wird.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>MAKRO_POSI_START</p>
+        </td>
+        <td>
+          <p>Hier kann ein Makro eingetragen werden, welches vor der Funktion „PositionNeu“ aufgerufen wird.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>MAKRO_POSI_ZWISCHEN</p>
+        </td>
+        <td>
+          <p>Hier kann ein Makro eingetragen werden, welches nach der Funktion „PositionNeu“ und vor „PositionAdd“ aufgerufen wird.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>MAKRO_POSI_ENDE</p>
+        </td>
+        <td>
+          <p>Hier kann ein Makro eingetragen werden, welches nach der Funktion „PositionAdd“ aufgerufen wird.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>UNTERKLASSUMSCHLUESSEL</p>
+        </td>
+        <td>
+          <p>Hier wird die Klasse des Umschlüsselwerks eingetragen, welche eine Zuordnung zwischen dem A.eins Lager und der Vorgangsunterklasse herstellt. Ist diese Ausprägung nicht gesetzt, so wird die Unterklasse 0 genommen.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>BELEGDATUMTODAY</p>
+        </td>
+        <td>
+          <p>Mit diesem Steuerparameter kann eingestellt werden, ob die A.eins Eingangsrechnung das Belegdatum der Terresrechnung erhalten soll. Oder ob die A.eins Eingangsrechnung das Tagesdatum erhält.</p>
+          <table>
+            <tbody>
+              <tr>
+                <th><strong>Wert</strong></th>
+                <th><strong>Bedeutung</strong></th>
+              </tr>
+              <tr>
+                <td>0</td>
+                <td>A.eins Eingangsrechnung erhält das Datum der Terres Rechnung.</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Es wird das Tagesdatum verwendet.</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="just-emphasize">Info zu Makro</p>
 
 Beim Aufruf der „MAKRO_KOPF…“ und „MAKRO_POSI…“ werden folgende Parameter aufgerufen.
 
-<table class="AMIC-Tabelle" style="WIDTH: 100%; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="100%" border="0"><tbody><tr><td style="WIDTH: 16.96%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="16%"><p class="AMIC-Ueberschrift-Tabelle" style="TEXT-ALIGN: center" align="center"><span style="COLOR: white">Parameter</span></p></td><td style="WIDTH: 83.04%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="83%"><p class="AMIC-Ueberschrift-Tabelle" style="TEXT-ALIGN: center" align="center"><span style="COLOR: white">Beschreibung</span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 16.96%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="16%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">PARAM1</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 83.04%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="83%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Dieser Parameter enthält den Modus, durch welchen das Makro aufgerufen wurde. Mögliche Werte stehen in der folgenden Tabelle.</span><span style="FONT-SIZE: 11pt"></span></p><table class="MsoNormalTable" style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" cellspacing="0" cellpadding="0" border="1"><tbody><tr><th style="BORDER-TOP: #548dd4 1pt solid; BORDER-RIGHT: medium none; WIDTH: 143.05pt; BORDER-BOTTOM: #4f81bd 2.25pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #548dd4 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="191">Makrotyp</th><th style="BORDER-TOP: #548dd4 1pt solid; BORDER-RIGHT: #548dd4 1pt solid; WIDTH: 113.4pt; BORDER-BOTTOM: #4f81bd 2.25pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="151">Wert</th></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 143.05pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="191"><span style="COLOR: black">MAKRO_KOPF_START</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 113.4pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="151"><span style="COLOR: black">KOPFSTART</span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 143.05pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="191">MAKRO_KOPF_ENDE</td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 113.4pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="151">KOPFENDE</td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 143.05pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="191"><span style="COLOR: black">MAKRO_POSI_START</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 113.4pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="151"><span style="COLOR: black">POSISTART</span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 143.05pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="191">MAKRO_POSI_ZWISCHEN</td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 113.4pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="151">POSIZWISCHEN</td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 143.05pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="191"><span style="COLOR: black">MAKRO_POSI_ENDE</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 113.4pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="151"><span style="COLOR: black">POSIENDE</span></td></tr></tbody></table></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 16.96%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="16%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">PARAM2</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 83.04%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="83%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Dieser Parameter enthält den Namen des aktuellen „Vorgangshelper“ JPP-Objekts.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 16.96%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="16%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">PARAM3</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 83.04%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="83%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Dieser Parameter enthält den JVARS-Owner in dem die Vorgangskopfdaten liegen.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 16.96%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="16%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">PARAM4</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 83.04%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="83%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Dieser Parameter enthält den JVARS-Owner in dem die Positionsdaten der aktuellen Position liegen.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr></tbody></table>
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Parameter</strong></p>
+        </td>
+        <td>
+          <p><strong>Beschreibung</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>PARAM1</p>
+        </td>
+        <td>
+          <p>Dieser Parameter enthält den Modus, durch welchen das Makro aufgerufen wurde. Mögliche Werte stehen in der folgenden Tabelle.</p>
+          <table>
+            <tbody>
+              <tr>
+                <th><strong>Makrotyp</strong></th>
+                <th><strong>Wert</strong></th>
+              </tr>
+              <tr>
+                <td>MAKRO_KOPF_START</td>
+                <td>KOPFSTART</td>
+              </tr>
+              <tr>
+                <td>MAKRO_KOPF_ENDE</td>
+                <td>KOPFENDE</td>
+              </tr>
+              <tr>
+                <td>MAKRO_POSI_START</td>
+                <td>POSISTART</td>
+              </tr>
+              <tr>
+                <td>MAKRO_POSI_ZWISCHEN</td>
+                <td>POSIZWISCHEN</td>
+              </tr>
+              <tr>
+                <td>MAKRO_POSI_ENDE</td>
+                <td>POSIENDE</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>PARAM2</p>
+        </td>
+        <td>
+          <p>Dieser Parameter enthält den Namen des aktuellen „Vorgangshelper“ JPP-Objekts.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>PARAM3</p>
+        </td>
+        <td>
+          <p>Dieser Parameter enthält den JVARS-Owner in dem die Vorgangskopfdaten liegen.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>PARAM4</p>
+        </td>
+        <td>
+          <p>Dieser Parameter enthält den JVARS-Owner in dem die Positionsdaten der aktuellen Position liegen.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

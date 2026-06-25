@@ -50,4 +50,64 @@
 | „Was“ | Der Systemhinweistext<br> <br>Um das Kopieren von Systemhinweistexten in diesem Dialog zu unterstützen ist das Feld betretbar. Sie können in diesem Feld nichts eingeben. |
 | „Wo“ | Die Programm-Umgebung die zum Zeitpunkt des Auftretens des Systemhinweises. Da u.U. sehr viele Informationen angezeigt werden können, sind folgende Abkürzungen vereinbart:<br>A = Anwendung<br>V = Variante<br>B = Besitzer der Variante (0=AMIC, 1=Privat)<br>M = Maske<br>O = Optionbox<br>F = auslösende Funktion (Controlstring)<br>FI = Formularid<br>H = Hostname ( Name des Computers)<br>W = Windows-Username des Aeins-Bedieners<br>S = Scriptname des beteiligten Makros |
 
-<table class="AMIC-Tabelle" style="WIDTH: 100%; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="100%" border="0"><tbody><tr><td style="WIDTH: 23%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="23%"><p class="AMIC-Textkoerper" style="TEXT-ALIGN: center" align="center"><b><span style="FONT-SIZE: 11pt; COLOR: white">Masken-Funktionen</span></b></p></td><td style="WIDTH: 77%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="77%"><p class="AMIC-Textkoerper" style="TEXT-ALIGN: center" align="center"><b><span style="FONT-SIZE: 11pt; COLOR: white">Dialog „Fehlerprotokoll“ Registerkarte „Fehlerprotokoll“</span></b><span style="FONT-SIZE: 11pt; COLOR: white"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 23%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="23%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Speichern</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 77%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="77%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Dient zum Speichern von „Vermerk“ und „Erledigt“.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 23%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="23%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Löschen</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 77%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="77%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Ermöglicht das direkte Löschen des Systemhinweises.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 23%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="23%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Sende Systemhinweis</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 77%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="77%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Versendet Systemhinweis an die im <a class="topic-link" href="../../firmenstamm/firmenkonstanten/mandantenstamm.md">Mandantstamm</a> eingerichteten Empfänger. (siehe dort Empfänger, Empfängerprozedur, Selektionsprozedur )</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">In der Mail werden in tabellarischer Form folgende Zusatzinformationen beigefügt:</span><span style="FONT-SIZE: 11pt"></span></p><table class="MsoNormalTable" cellpadding="0" border="1"><tbody><tr><th style="BACKGROUND: #454545; PADDING-BOTTOM: 3.75pt; PADDING-TOP: 3.75pt; PADDING-LEFT: 3.75pt; PADDING-RIGHT: 3.75pt"><b><span style="FONT-SIZE: 8pt; COLOR: white">Anwendung</span><span style="FONT-SIZE: 8pt; FONT-FAMILY: &quot;Times New Roman&quot;,serif"></span></b></th><th style="BACKGROUND: #454545; PADDING-BOTTOM: 3.75pt; PADDING-TOP: 3.75pt; PADDING-LEFT: 3.75pt; PADDING-RIGHT: 3.75pt"><b><span style="FONT-SIZE: 8pt; COLOR: white">Variante</span><span style="FONT-SIZE: 8pt"></span></b></th><th style="BACKGROUND: #454545; PADDING-BOTTOM: 3.75pt; PADDING-TOP: 3.75pt; PADDING-LEFT: 3.75pt; PADDING-RIGHT: 3.75pt"><b><span style="FONT-SIZE: 8pt; COLOR: white">Maske</span><span style="FONT-SIZE: 8pt"></span></b></th><th style="BACKGROUND: #454545; PADDING-BOTTOM: 3.75pt; PADDING-TOP: 3.75pt; PADDING-LEFT: 3.75pt; PADDING-RIGHT: 3.75pt"><b><span style="FONT-SIZE: 8pt; COLOR: white">Optionbox</span><span style="FONT-SIZE: 8pt"></span></b></th><th style="BACKGROUND: #454545; PADDING-BOTTOM: 3.75pt; PADDING-TOP: 3.75pt; PADDING-LEFT: 3.75pt; PADDING-RIGHT: 3.75pt"><b><span style="FONT-SIZE: 8pt; COLOR: white">Hostname</span><span style="FONT-SIZE: 8pt"></span></b></th><th style="BACKGROUND: #454545; PADDING-BOTTOM: 3.75pt; PADDING-TOP: 3.75pt; PADDING-LEFT: 3.75pt; PADDING-RIGHT: 3.75pt"><b><span style="FONT-SIZE: 8pt; COLOR: white">Windowsuser</span><span style="FONT-SIZE: 8pt"></span></b></th><th style="BACKGROUND: #454545; PADDING-BOTTOM: 3.75pt; PADDING-TOP: 3.75pt; PADDING-LEFT: 3.75pt; PADDING-RIGHT: 3.75pt"><b><span style="FONT-SIZE: 8pt; COLOR: white">Makro</span><span style="FONT-SIZE: 8pt"></span></b></th></tr><tr><td style="BACKGROUND: #d4f4a0; PADDING-BOTTOM: 3.75pt; PADDING-TOP: 3.75pt; PADDING-LEFT: 3.75pt; PADDING-RIGHT: 3.75pt"></td><td style="BACKGROUND: #d4f4a0; PADDING-BOTTOM: 3.75pt; PADDING-TOP: 3.75pt; PADDING-LEFT: 3.75pt; PADDING-RIGHT: 3.75pt"></td><td style="BACKGROUND: #d4f4a0; PADDING-BOTTOM: 3.75pt; PADDING-TOP: 3.75pt; PADDING-LEFT: 3.75pt; PADDING-RIGHT: 3.75pt"></td><td style="BACKGROUND: #d4f4a0; PADDING-BOTTOM: 3.75pt; PADDING-TOP: 3.75pt; PADDING-LEFT: 3.75pt; PADDING-RIGHT: 3.75pt"></td><td style="BACKGROUND: #d4f4a0; PADDING-BOTTOM: 3.75pt; PADDING-TOP: 3.75pt; PADDING-LEFT: 3.75pt; PADDING-RIGHT: 3.75pt"></td><td style="BACKGROUND: #d4f4a0; PADDING-BOTTOM: 3.75pt; PADDING-TOP: 3.75pt; PADDING-LEFT: 3.75pt; PADDING-RIGHT: 3.75pt"></td><td style="BACKGROUND: #d4f4a0; PADDING-BOTTOM: 3.75pt; PADDING-TOP: 3.75pt; PADDING-LEFT: 3.75pt; PADDING-RIGHT: 3.75pt"></td></tr></tbody></table></td></tr></tbody></table>
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><b>Masken-Funktionen</b></p>
+        </td>
+        <td>
+          <p><b>Dialog „Fehlerprotokoll“ Registerkarte „Fehlerprotokoll“</b></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Speichern</p>
+        </td>
+        <td>
+          <p>Dient zum Speichern von „Vermerk“ und „Erledigt“.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Löschen</p>
+        </td>
+        <td>
+          <p>Ermöglicht das direkte Löschen des Systemhinweises.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Sende Systemhinweis</p>
+        </td>
+        <td>
+          <p>Versendet Systemhinweis an die im <a href="../../firmenstamm/firmenkonstanten/mandantenstamm.md">Mandantstamm</a> eingerichteten Empfänger. (siehe dort Empfänger, Empfängerprozedur, Selektionsprozedur )</p>
+          <p>In der Mail werden in tabellarischer Form folgende Zusatzinformationen beigefügt:</p>
+          <table>
+            <tbody>
+              <tr>
+                <th><b>Anwendung</b></th>
+                <th><b>Variante</b></th>
+                <th><b>Maske</b></th>
+                <th><b>Optionbox</b></th>
+                <th><b>Hostname</b></th>
+                <th><b>Windowsuser</b></th>
+                <th><b>Makro</b></th>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

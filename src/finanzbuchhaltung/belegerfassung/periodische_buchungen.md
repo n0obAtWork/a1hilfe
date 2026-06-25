@@ -18,7 +18,184 @@ Periodische Buchungen erfassen
 
 ![Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_551.jpg "Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung")
 
-<table class="AMIC-Tabelle" style="WIDTH: 100%; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="100%" border="0"><tbody><tr><td style="WIDTH: 15.16%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="15%"><p class="AMIC-Ueberschrift-Tabelle" style="TEXT-ALIGN: center" align="center"><span style="COLOR: white">Feld</span></p></td><td style="WIDTH: 84.84%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="84%"><p class="AMIC-Ueberschrift-Tabelle" style="TEXT-ALIGN: center" align="center"><span style="COLOR: white">Beschreibung</span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 15.16%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="15%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Bezeichnung</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 84.84%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="84%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Bezeichnung der periodischen Buchung zur einfacheren Identifikation. Hier kann z.B. ein Text wie „KFZ-Versicherung HUK KI DB-2100“ hinterlegt werden.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 15.16%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="15%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Gesperrt</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 84.84%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="84%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Wenn einmal Unklarheiten bei Buchungen existieren und man möchte nicht, dass versehentlich diese Buchungen in die Primanota gelangen, so kann man hier eine Sperre setzen. Beim Erstellen der Belege wird dann dieser Beleg nicht berücksichtigt.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 15.16%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="15%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Vorgangsklasse</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 84.84%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="84%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Die Klasse bestimmt, was für eine Belegart später erstellt wird und ggf. wie die Stellung des Sollhaben-Kennzeichens ist. Die Klasse entspricht der Klasse, wie man sie von der Belegerfassung kennt. Folgende Klassen stehen zur Verfügung:</span><span style="FONT-SIZE: 11pt"></span></p><table class="MsoNormalTable" style="WIDTH: 100%; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="100%" border="0"><tbody><tr><th style="WIDTH: 50.25pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="67"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>ZA</th><th style="WIDTH: 654.6pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="873">Zahlungseingang bzw. Zahlungsausgang. Einschränkend gilt hier analog zur Belegerfassung, dass im Hauptkonto nur Sachkonten erfasst werden können.</th></tr><tr><td style="WIDTH: 50.25pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="67"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>ER</td><td style="WIDTH: 654.6pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="873">Eingangsrechnung. Es sind im Hauptkonto nur Personenkonten und im Gegenkonto nur Sachkonten zugelassen. Das Sollhabenkennzeichen ist vorbelegt und kann nicht geändert werden.</td></tr><tr><td style="WIDTH: 50.25pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="67"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>EG</td><td style="WIDTH: 654.6pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="873">Eingangsgutschrift. Es sind im Hauptkonto nur Personenkonten und im Gegenkonto nur Sachkonten zugelassen. Das Sollhabenkennzeichen ist vorbelegt und kann nicht geändert werden.</td></tr><tr><td style="WIDTH: 50.25pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="67"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>AR</td><td style="WIDTH: 654.6pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="873">Ausgangsrechnung. Es sind im Hauptkonto nur Personenkonten und im Gegenkonto nur Sachkonten zugelassen. Das Sollhabenkennzeichen ist vorbelegt und kann nicht geändert werden.</td></tr><tr><td style="WIDTH: 50.25pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="67"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>AG</td><td style="WIDTH: 654.6pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="873">Ausgangsgutschrift. Es sind im Hauptkonto nur Personenkonten und im Gegenkonto nur Sachkonten zugelassen. Das Sollhabenkennzeichen ist vorbelegt und kann nicht geändert werden.</td></tr><tr><td style="WIDTH: 50.25pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="67"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>SO</td><td style="WIDTH: 654.6pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="873">Sonstige Buchung, bei dem das Hauptkonto im Soll oder im Haben stehen kann Für diese Klasse gilt, wenn das Hauptkonto ein Personenkonto ist, dann sind im Gegenkonto nur Sachkonten zugelassen.</td></tr></tbody></table></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 15.16%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="15%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Währung</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 84.84%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="84%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">In welcher Währung soll der Beleg erstellt werden. Bei allen Belegarten gilt die Währung für den gesamten Beleg.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 15.16%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="15%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Belegkreisnummer</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 84.84%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="84%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Für „Periodische Buchungen“ muss ein Belegkreis eingetragen werden. Dieser Belegkreis wird nicht aus der „Vorgangszuordnung Finanzbuchhaltung“ vorgeschlagen.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 15.16%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="15%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Referenz<br><br></span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 84.84%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="84%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Diese Referenz wird so wie sie ist ohne Prüfung beim Erstellen des Beleges übernommen.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 15.16%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="15%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Archivreferenz</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 84.84%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="84%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Referenznummer für das Archiv. Diese Referenz wird nicht an den Fibu-Beleg weitergereicht.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 15.16%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="15%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Kostenstelle</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 84.84%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="84%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black"><a class="topic-link" href="../kostenrechnung/kostenstellen.md">Kostenstellen</a> werden so vorgeschlagen, wie sie für das Hauptkonto im Sachkontenstamm hinterlegt sind. Ist die Kostenstelle im Sachkontenstamm gesperrt oder ist das Hauptkonto ein Personenkonto, ist hier keine Erfassung möglich.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 15.16%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="15%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Kostenträger</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 84.84%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="84%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black"><a class="topic-link" href="../kostenrechnung/kostentraeger.md">Kostenträger</a> werden so vorgeschlagen, wie sie für das Hauptkonto im Sachkontenstamm hinterlegt sind. Ist der Kostenträger im Sachkontenstamm gesperrt oder ist das Hauptkonto ein Personenkonto, ist hier keine Erfassung möglich.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 15.16%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="15%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Kostenobjekt</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 84.84%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="84%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black"><a class="topic-link" href="../kostenrechnung/kostenobjekte/index.md">Kostenobjekte</a> werden so vorgeschlagen, wie sie für das Hauptkonto im Sachkontenstamm hinterlegt sind. Ist das Kostenobjekt im Sachkontenstamm gesperrt oder ist das Hauptkonto ein Personenkonto, ist hier keine Erfassung möglich.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 15.16%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="15%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Text</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 84.84%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="84%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Belegtext, der beim Erstellen dem Hauptkonto zugeordnet wird.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 15.16%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="15%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Intervall</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 84.84%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="84%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Der Interwall legt fest, wann der nächste Ausführungstermin ist. Für das Intervall lässt sich Tag, Woche, Monat und Jahr als Einheit angeben.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 15.16%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="15%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Ab Datum</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 84.84%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="84%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Tag der ersten Ausführung.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 15.16%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="15%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Letzte Aktivität/Nächste Aktivität<br><br></span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 84.84%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="84%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Diese Werte werden nur angezeigt. An ihnen kann abgelesen werden, wann die letzte Buchung ausgelöst worden ist und wann die nächste Buchung ansteht. Bei Neuanlage einer „periodischen Buchung“ werden diese Daten immer auf das Ab-Datum gesetzt</span><span style="FONT-SIZE: 11pt"></span></p></td></tr></tbody></table>
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Feld</strong></p>
+        </td>
+        <td>
+          <p><strong>Beschreibung</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bezeichnung</p>
+        </td>
+        <td>
+          <p>Bezeichnung der periodischen Buchung zur einfacheren Identifikation. Hier kann z.B. ein Text wie „KFZ-Versicherung HUK KI DB-2100“ hinterlegt werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Gesperrt</p>
+        </td>
+        <td>
+          <p>Wenn einmal Unklarheiten bei Buchungen existieren und man möchte nicht, dass versehentlich diese Buchungen in die Primanota gelangen, so kann man hier eine Sperre setzen. Beim Erstellen der Belege wird dann dieser Beleg nicht berücksichtigt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Vorgangsklasse</p>
+        </td>
+        <td>
+          <p>Die Klasse bestimmt, was für eine Belegart später erstellt wird und ggf. wie die Stellung des Sollhaben-Kennzeichens ist. Die Klasse entspricht der Klasse, wie man sie von der Belegerfassung kennt. Folgende Klassen stehen zur Verfügung:</p>
+          <table>
+            <tbody>
+              <tr>
+                <th>
+                  <ul>
+                    <li>ZA</li>
+                  </ul>
+                </th>
+                <th>Zahlungseingang bzw. Zahlungsausgang. Einschränkend gilt hier analog zur Belegerfassung, dass im Hauptkonto nur Sachkonten erfasst werden können.</th>
+              </tr>
+              <tr>
+                <td>
+                  <ul>
+                    <li>ER</li>
+                  </ul>
+                </td>
+                <td>Eingangsrechnung. Es sind im Hauptkonto nur Personenkonten und im Gegenkonto nur Sachkonten zugelassen. Das Sollhabenkennzeichen ist vorbelegt und kann nicht geändert werden.</td>
+              </tr>
+              <tr>
+                <td>
+                  <ul>
+                    <li>EG</li>
+                  </ul>
+                </td>
+                <td>Eingangsgutschrift. Es sind im Hauptkonto nur Personenkonten und im Gegenkonto nur Sachkonten zugelassen. Das Sollhabenkennzeichen ist vorbelegt und kann nicht geändert werden.</td>
+              </tr>
+              <tr>
+                <td>
+                  <ul>
+                    <li>AR</li>
+                  </ul>
+                </td>
+                <td>Ausgangsrechnung. Es sind im Hauptkonto nur Personenkonten und im Gegenkonto nur Sachkonten zugelassen. Das Sollhabenkennzeichen ist vorbelegt und kann nicht geändert werden.</td>
+              </tr>
+              <tr>
+                <td>
+                  <ul>
+                    <li>AG</li>
+                  </ul>
+                </td>
+                <td>Ausgangsgutschrift. Es sind im Hauptkonto nur Personenkonten und im Gegenkonto nur Sachkonten zugelassen. Das Sollhabenkennzeichen ist vorbelegt und kann nicht geändert werden.</td>
+              </tr>
+              <tr>
+                <td>
+                  <ul>
+                    <li>SO</li>
+                  </ul>
+                </td>
+                <td>Sonstige Buchung, bei dem das Hauptkonto im Soll oder im Haben stehen kann Für diese Klasse gilt, wenn das Hauptkonto ein Personenkonto ist, dann sind im Gegenkonto nur Sachkonten zugelassen.</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Währung</p>
+        </td>
+        <td>
+          <p>In welcher Währung soll der Beleg erstellt werden. Bei allen Belegarten gilt die Währung für den gesamten Beleg.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Belegkreisnummer</p>
+        </td>
+        <td>
+          <p>Für „Periodische Buchungen“ muss ein Belegkreis eingetragen werden. Dieser Belegkreis wird nicht aus der „Vorgangszuordnung Finanzbuchhaltung“ vorgeschlagen.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Referenz<br><br></p>
+        </td>
+        <td>
+          <p>Diese Referenz wird so wie sie ist ohne Prüfung beim Erstellen des Beleges übernommen.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Archivreferenz</p>
+        </td>
+        <td>
+          <p>Referenznummer für das Archiv. Diese Referenz wird nicht an den Fibu-Beleg weitergereicht.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kostenstelle</p>
+        </td>
+        <td>
+          <p><a href="../kostenrechnung/kostenstellen.md">Kostenstellen</a> werden so vorgeschlagen, wie sie für das Hauptkonto im Sachkontenstamm hinterlegt sind. Ist die Kostenstelle im Sachkontenstamm gesperrt oder ist das Hauptkonto ein Personenkonto, ist hier keine Erfassung möglich.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kostenträger</p>
+        </td>
+        <td>
+          <p><a href="../kostenrechnung/kostentraeger.md">Kostenträger</a> werden so vorgeschlagen, wie sie für das Hauptkonto im Sachkontenstamm hinterlegt sind. Ist der Kostenträger im Sachkontenstamm gesperrt oder ist das Hauptkonto ein Personenkonto, ist hier keine Erfassung möglich.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kostenobjekt</p>
+        </td>
+        <td>
+          <p><a href="../kostenrechnung/kostenobjekte/index.md">Kostenobjekte</a> werden so vorgeschlagen, wie sie für das Hauptkonto im Sachkontenstamm hinterlegt sind. Ist das Kostenobjekt im Sachkontenstamm gesperrt oder ist das Hauptkonto ein Personenkonto, ist hier keine Erfassung möglich.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Text</p>
+        </td>
+        <td>
+          <p>Belegtext, der beim Erstellen dem Hauptkonto zugeordnet wird.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Intervall</p>
+        </td>
+        <td>
+          <p>Der Interwall legt fest, wann der nächste Ausführungstermin ist. Für das Intervall lässt sich Tag, Woche, Monat und Jahr als Einheit angeben.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Ab Datum</p>
+        </td>
+        <td>
+          <p>Tag der ersten Ausführung.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Letzte Aktivität/Nächste Aktivität<br><br></p>
+        </td>
+        <td>
+          <p>Diese Werte werden nur angezeigt. An ihnen kann abgelesen werden, wann die letzte Buchung ausgelöst worden ist und wann die nächste Buchung ansteht. Bei Neuanlage einer „periodischen Buchung“ werden diese Daten immer auf das Ab-Datum gesetzt</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Tabelle für Gegenpositionen:
 

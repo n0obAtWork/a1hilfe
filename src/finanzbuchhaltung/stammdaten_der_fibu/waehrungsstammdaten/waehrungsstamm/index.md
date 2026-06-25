@@ -8,7 +8,294 @@ Direktsprung **[WAE]**
 
 In diesem Eingabebildschirm können die nachfolgenden Felder bearbeitet werden:
 
-<table class="AMIC-Tabelle" style="WIDTH: 100%; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="100%" border="0"><tbody><tr><td style="WIDTH: 21.1%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="21%"></td><td style="WIDTH: 78.9%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="78%"><p class="AMIC-Ueberschrift-Tabelle" style="TEXT-ALIGN: center" align="center"><span style="COLOR: white">Beschreibung</span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 21.1%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="21%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Nummer</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 78.9%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="78%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Dies ist die Identifikation für die Währung in anderen Tabellen, der als Verweis auf die Währungstabelle zeigt.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 21.1%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="21%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Bezeichnung</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 78.9%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="78%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Ausführliche Bezeichnung der Währung, z. B. <strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal">"Norwegische Kronen"</span></strong>, <strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal">"Euro"</span></strong>.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 21.1%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="21%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Kurztext<br><br></span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 78.9%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="78%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Hier kann ein von der ISO-Währungsbezeichnung abweichender Text eingetragen werden wie z.B. € statt EUR oder $ statt USD.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 21.1%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="21%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">ISO-Währungscode (4217)<br><br></span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 78.9%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="78%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Hier muss die ISO-Währungsbezeichnung in standardisierter Form der ISO 4217 hinterlegt werden. Die ersten zwei Stellen stehen dabei nach ISO 3166 für das Land, die letzte Stelle für den Anfangsbuchstaben der Währung. So steht zum Beispiel:<br>USD für das ISO-Land United States = Kennzeichen US<br>und die Währung Dollar =Kennzeichen D<br>INFO: Die ISO-Währungsbezeichnung ist immer 3-stellig.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 21.1%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="21%"><p class="AMIC-Textkoerper"><strong><span style="FONT-SIZE: 11pt; FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal; COLOR: black">Hedgeteiler</span></strong><span style="FONT-SIZE: 11pt; COLOR: black"><br><br></span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 78.9%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="78%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Für die Arbeit mit Hedge ist für einige Währungen ein Teiler vorgesehen. Dieser ist bei Hedge-Währungen in der Regel 1000. Bei&nbsp; Isländischen Kronen (ISK) oder Indonesischen Rupien (IDR) wird der Teiler 100000 verwendet.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Ist der Hedgeteiler = 0, so werden für Kontrakte mit dieser Währung keine Hedge-Ordern geschrieben.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 21.1%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="21%"><p class="AMIC-Textkoerper"><strong><span style="FONT-SIZE: 11pt; FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal; COLOR: black">Hedgelocation</span><span style="FONT-SIZE: 11pt; FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal"></span></strong></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 78.9%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="78%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Die Hedgelocation bestimmt den Ort, an dem die Order dieser Gegenfinanzierung für ein Geschäft mit dieser Währung platziert wird.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 21.1%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="21%"><p class="AMIC-Textkoerper"><strong><span style="FONT-SIZE: 11pt; FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal; COLOR: black">Kurs</span></strong><span style="FONT-SIZE: 11pt; COLOR: black">faktor<br><br></span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 78.9%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="78%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Angabe der Wechselkurse je x Einheiten der Währung. Beispielsweise wurden Lire-Kurse üblicherweise in DM/1000 Lit, Dollar in DM/1$ und die meisten Währungen in DM/100 Einheiten angegeben.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 21.1%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="21%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Sperre</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 78.9%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="78%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Kennzeichen, dass eine Währung nicht mehr benutzt werden darf<br>(z. B. Im Falle einer Währungsreform hinfällig geworden, oder wenn der Euro alleinige Währung ist, kann hier die Währung <strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal">DEM</span></strong> gesperrt werden).</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 21.1%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="21%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Kurssperre<br><br></span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 78.9%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="78%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Für Länder, die zur <strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal">EWU</span></strong> gehören muss hier <b>Ja</b> eingetragen werden da diese Kurse ab dem <strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal">01.01.1999</span></strong> nicht mehr änderbar sein dürfen.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 21.1%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="21%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Kursdienst</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 78.9%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="78%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Nur die Währungen, bei denen hier ein <b>Ja</b> eingetragen ist, werden bei der automatischen Ermittlung der Währungskurs berücksichtigt. Sie dazu unter <a class="topic-link" href="../waehrungskurse/waehrungskurse_automatisch_einstellen.md"><span class="AMIC-Textkoerper-LinkZchn">Währungskurs automatisch einstellen</span></a></span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 21.1%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="21%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">NachkPreis</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 78.9%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="78%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Anzahl zu rundender Nachkommastellen für Einzelpreise. Eingabemöglichkeiten: 0 bis 4. Für Euro muss hier eine 2 eingetragen werden.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 21.1%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="21%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">NachkBetrag</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 78.9%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="78%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Anzahl zu rundender Nachkommastellen für Beträge / Werte. Eingabemöglichkeiten: 0 bis 4. Für Euro muss hier eine 2 eingetragen werden. Diese Einstellung wird in der Finanzbuchhaltung verwendet.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 21.1%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="21%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Rundung Preis</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 78.9%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="78%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Lässt sich die gewünschte Rundung für Einzelpreise nicht durch Nachkommastellen ausdrücken, so kann hier ein Faktor für die Rundung angegeben werden.<br>Beispiel:</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Rundung auf 5 Rappen: Faktor = 0,05.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal">(Rechenformel: x = Round(x / Faktor, 0) * Faktor</span></strong></span><strong><span style="FONT-SIZE: 11pt; FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal"></span></strong></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Für Euro muss hier 0.01 hinterlegt werden.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 21.1%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="21%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Rundung Betrag</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 78.9%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="78%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Lässt sich die gewünschte Rundung für Beträge nicht durch Nachkommastellen ausdrücken, so kann hier ein Faktor für die Rundung angegeben werden. Diese Einstellung wird in der Finanzbuchhaltung verwendet.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black"><br>Beispiel:</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Rundung auf 5 Rappen: Faktor = 0,05.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><strong><span style="FONT-SIZE: 11pt; FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal; COLOR: black">(Rechenformel: x = Round(x / Faktor, 0) * Faktor</span><span style="FONT-SIZE: 11pt; FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal"></span></strong></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Für Euro muss hier 0.01 hinterlegt werden.</span><strong><span style="FONT-SIZE: 11pt; FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal"></span></strong></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 21.1%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="21%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Kto.Kursgewinn</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 78.9%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="78%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Identifikation eines Kontos, das ggf. Kursgewinne aufnehmen soll. Bei der Umrechnung von Fremdwährung in Standardwährung fallen evtl. Gewinne aus Kursdifferenzen an.<br>Diese müssen auf einem bestimmten Konto verbucht werden. Bei der Standardwährung fällt kein Kursgewinn an. Man kann hier 0 eingetragen.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Weitere Information über die Verwendung dieses Kontos findet man im Abschnitt „<a class="topic-link" href="../../../waehrungsbehandlung_in_der_finanzbuchhaltung/op_fuehrung_in_fremdwaehrung.md"><span class="AMIC-Textkoerper-LinkZchn">Währungsbehandlung in der Finanzbuchhaltung</span></a>“</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 21.1%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="21%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Kto.Kursverlust<br><br></span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 78.9%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="78%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Identifikation eines Kontos, das ggf. Kursverluste aufnehmen soll. Bei der Umrechnung von Fremdwährung in Standardwährung fallen evtl. Verluste aus Kursdifferenzen an.<br>Diese müssen auf einem bestimmten Konto verbucht werden. Bei der Standardwährung fällt kein Kursgewinn an. Man kann hier 0 eingetragen.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Weitere Information über die Verwendung dieses Kontos findet man im Abschnitt „<a class="topic-link" href="../../../waehrungsbehandlung_in_der_finanzbuchhaltung/op_fuehrung_in_fremdwaehrung.md"><span class="AMIC-Textkoerper-LinkZchn">Währungsbehandlung in der Finanzbuchhaltung</span></a>“</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 21.1%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="21%"><p class="AMIC-Textkoerper"><strong><span style="FONT-SIZE: 11pt; FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal; COLOR: black">Ausgleichskonto</span></strong><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 78.9%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="78%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Dort muss die Kontonummer eingetragen werden, die bei Währungsrundungsdifferenzen herangezogen werden soll. Ist kein Konto angegeben, wird verfahren wie zuvor!</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><strong><span style="FONT-SIZE: 11pt; FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal; COLOR: black">Beispiel:</span><span style="FONT-SIZE: 11pt; FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal"></span></strong></p><table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0"><tbody><tr><th style="WIDTH: 113.4pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="151"><strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif">Fremdwährung</span></strong></th><th style="WIDTH: 73.6pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="98"><strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif">Kurs</span></strong></th><th style="WIDTH: 39.95pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="53"><strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif">Buchwährung</span></strong></th></tr><tr><td style="WIDTH: 113.4pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="151"><strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal">5,00</span></strong></td><td style="WIDTH: 73.6pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="98"><strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal">1,533</span></strong></td><td style="WIDTH: 39.95pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="53"><strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal">7,67</span></strong></td></tr><tr><td style="WIDTH: 113.4pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="151"><strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal">5,00</span></strong></td><td style="WIDTH: 73.6pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="98"><strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal">1,533</span></strong></td><td style="WIDTH: 39.95pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="53"><strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal">7,67</span></strong></td></tr><tr><td style="WIDTH: 113.4pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="151"><strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal">Ergibt als Summe</span></strong></td><td style="WIDTH: 73.6pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="98"><span style="FONT-SIZE: 12pt; FONT-FAMILY: &quot;Cambria&quot;,serif">⇨</span><strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal"></span></strong></td><td style="WIDTH: 39.95pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="53"><strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal">15,34</span></strong></td></tr><tr><td style="WIDTH: 113.4pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="151"><strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal">10,00</span></strong></td><td style="WIDTH: 73.6pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="98"><strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal">1,533</span></strong></td><td style="WIDTH: 39.95pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="53"><strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal">15,33</span></strong></td></tr><tr><td style="WIDTH: 113.4pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="151"><strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif">Differenz</span></strong></td><td style="WIDTH: 73.6pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="98"><span style="FONT-SIZE: 12pt; FONT-FAMILY: &quot;Cambria&quot;,serif">⇨</span><strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif"></span></strong></td><td style="WIDTH: 39.95pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="53"><strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif">0,01</span></strong></td></tr></tbody></table><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Diese Differenz wird dann in einer separaten Buchungszeile ausgewiesen.</span><span style="FONT-SIZE: 11pt"></span></p><table class="MsoNormalTable" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0"><tbody><tr><th style="WIDTH: 113.4pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="151"><b>Fremdwährung</b></th><th style="WIDTH: 73.6pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="98"><b>Kurs</b></th><th style="WIDTH: 39.95pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="53"><b>Buchwährung</b></th></tr><tr><td style="WIDTH: 113.4pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="151">5,00</td><td style="WIDTH: 73.6pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="98">1,533</td><td style="WIDTH: 39.95pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="53">7,67</td></tr><tr><td style="WIDTH: 113.4pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="151">5,00</td><td style="WIDTH: 73.6pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="98">1,533</td><td style="WIDTH: 39.95pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="53">7,67</td></tr><tr><td style="WIDTH: 113.4pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="151">Ausbuchung gegen das Rundungskonto</td><td style="WIDTH: 73.6pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="98"></td><td style="WIDTH: 39.95pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="53"><span data-rawid="0">list</span></td></tr><tr><td style="WIDTH: 113.4pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="151">Ergibt als Summe</td><td style="WIDTH: 73.6pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="98"><span style="FONT-SIZE: 12pt; FONT-FAMILY: &quot;Cambria&quot;,serif">⇨</span></td><td style="WIDTH: 39.95pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="53">15,33</td></tr><tr><td style="WIDTH: 113.4pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="151">10,00</td><td style="WIDTH: 73.6pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="98">1,533</td><td style="WIDTH: 39.95pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="53">15,33</td></tr><tr><td style="WIDTH: 113.4pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="151"><b>Differenz</b></td><td style="WIDTH: 73.6pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="98"><span style="FONT-SIZE: 12pt; FONT-FAMILY: &quot;Cambria&quot;,serif">⇨</span><b></b></td><td style="WIDTH: 39.95pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="53"><b>0,00</b></td></tr></tbody></table><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Weitere Information über die Verwendung dieses Kontos findet man im Abschnitt „<a class="topic-link" href="../../../waehrungsbehandlung_in_der_finanzbuchhaltung/automatische_umrechnung.md"><span class="AMIC-Textkoerper-LinkZchn">Währungsbehandlung in der Finanzbuchhaltung</span></a>“.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 21.1%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="21%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Euro</span><strong><span style="FONT-SIZE: 11pt; FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal"></span></strong></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 78.9%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="78%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Hier wird gekennzeichnet, welche Währung der Euro ist. Es kann nur bei einer Währung dieses Kennzeichen auf <b>Ja</b> gesetzt werden.</span><b><span style="FONT-SIZE: 11pt"></span></b></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 21.1%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="21%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">DTA-Methode</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 78.9%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="78%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">hier wird hinterlegt, ob zu diesen Währungen DTA möglich ist, bzw. welche Art des DTA's verwendet werden soll. Hier gibt es drei Möglichkeiten:</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-SIZE: 11pt; COLOR: black"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp; </span></span><span style="FONT-SIZE: 11pt; COLOR: black">Kein DTA</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-SIZE: 11pt; COLOR: black"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp; </span></span><span style="FONT-SIZE: 11pt; COLOR: black">Standart DTA</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-SIZE: 11pt; COLOR: black"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp; </span></span><span style="FONT-SIZE: 11pt; COLOR: black">Euro-DTA</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Standard DTA ist der vor der Einführung des Euros gültige DTA Methode. Für Euro und alle Fremdwährungen; die für die Bankbuchungen umgerechnet werden sollen, muss hier Euro DTA hinterlegt werden.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 21.1%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="21%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Lokale Bezeichnung</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 78.9%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="78%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Hier wird die lokale Bezeichnung (als Text) der Währung eingetragen. Diese Hinterlegung kann z.B. verwendet werden, wenn es darum geht, textuelle Darstellung von Währung auszugeben.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 21.1%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="21%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Restposten in Buchwährung umrechnen</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 78.9%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="78%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Restposten werden nicht in der Ursprungswährung, sondern in Euro dargestellt. Dies hat folgenden Hintergrund:</span><b><span style="FONT-SIZE: 11pt"></span></b></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Die OP-Verwaltung in A.eins kann nur die Verrechnung der Buchwährung mit einer Fremdwährung gleichzeitig. Nun kann es seit der Euroumstellung zu einem Problem kommen, wenn man zum Beispiel einen Kunden hatte, der bereits Rechnungen in Dollar hatte. Nach der Umstellung auf Buchwährung Euro sind alle DM-OPs sozusagen OPs in Fremdwährung. Um nun auch diese OPs mit OPs in der Währung Dollar verrechnen zu können, wurde dieser Schalter eingeführt. Man muss dann erst die DM-OPs zusammenfassen und kann dann den Restposten, der dann in Euro dargestellt wird, mit den Rechnungen in Dollar verrechnen.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 21.1%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="21%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Stärker als Buchwährung</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 78.9%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="78%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Hier kann eingestellt werden, ob die Buchwährung stärker ist als die Fremdwährung. Das Kennzeichen wird für die Erstellung einer Hedge Zeichenkette benötigt. Das Kennzeichen wird an die dritte Stelle des ISO-Währungscodes gesetzt. Alle nachfolgenden Buchstaben werden abgeschnitten.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Ist die Fremdwährung stärker als die Buchungswährung, so wird in der Hedge Zeichenkette das Buchungswährungskennzeichen der Fremdwährung auf D gesetzt und die Buchungswährung erhält das Buchungswährungskennzeichen Y.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Bei der Neuanlage einer Währung wird Standardmäßig angenommen, dass die Buchungswährung stärker ist als die Fremdwährung.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Beispiel:</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Buchwährung PL Fremdwährung EUR ergibt bei „Stärker als Buchwährung“ gleich <b>Ja</b> EUD und PLY in der Hedge Zeichenkette.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Buchwährung PL Fremdwährung CZ ergibt bei „Stärker als Buchwährung“ gleich <b>Nein</b> PLD und CZY in der Hedge Zeichenkette.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr></tbody></table>
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td></td>
+        <td>
+          <p><strong>Beschreibung</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Nummer</p>
+        </td>
+        <td>
+          <p>Dies ist die Identifikation für die Währung in anderen Tabellen, der als Verweis auf die Währungstabelle zeigt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bezeichnung</p>
+        </td>
+        <td>
+          <p>Ausführliche Bezeichnung der Währung, z. B. <strong>"Norwegische Kronen"</strong>, <strong>"Euro"</strong>.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kurztext<br><br></p>
+        </td>
+        <td>
+          <p>Hier kann ein von der ISO-Währungsbezeichnung abweichender Text eingetragen werden wie z.B. € statt EUR oder $ statt USD.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>ISO-Währungscode (4217)<br><br></p>
+        </td>
+        <td>
+          <p>Hier muss die ISO-Währungsbezeichnung in standardisierter Form der ISO 4217 hinterlegt werden. Die ersten zwei Stellen stehen dabei nach ISO 3166 für das Land, die letzte Stelle für den Anfangsbuchstaben der Währung. So steht zum Beispiel:<br>USD für das ISO-Land United States = Kennzeichen US<br>und die Währung Dollar =Kennzeichen D<br>INFO: Die ISO-Währungsbezeichnung ist immer 3-stellig.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Hedgeteiler</strong><br><br></p>
+        </td>
+        <td>
+          <p>Für die Arbeit mit Hedge ist für einige Währungen ein Teiler vorgesehen. Dieser ist bei Hedge-Währungen in der Regel 1000. Bei&nbsp; Isländischen Kronen (ISK) oder Indonesischen Rupien (IDR) wird der Teiler 100000 verwendet.</p>
+          <p>Ist der Hedgeteiler = 0, so werden für Kontrakte mit dieser Währung keine Hedge-Ordern geschrieben.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Hedgelocation</strong></p>
+        </td>
+        <td>
+          <p>Die Hedgelocation bestimmt den Ort, an dem die Order dieser Gegenfinanzierung für ein Geschäft mit dieser Währung platziert wird.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Kurs</strong>faktor<br><br></p>
+        </td>
+        <td>
+          <p>Angabe der Wechselkurse je x Einheiten der Währung. Beispielsweise wurden Lire-Kurse üblicherweise in DM/1000 Lit, Dollar in DM/1$ und die meisten Währungen in DM/100 Einheiten angegeben.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Sperre</p>
+        </td>
+        <td>
+          <p>Kennzeichen, dass eine Währung nicht mehr benutzt werden darf<br>(z. B. Im Falle einer Währungsreform hinfällig geworden, oder wenn der Euro alleinige Währung ist, kann hier die Währung <strong>DEM</strong> gesperrt werden).</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kurssperre<br><br></p>
+        </td>
+        <td>
+          <p>Für Länder, die zur <strong>EWU</strong> gehören muss hier <b>Ja</b> eingetragen werden da diese Kurse ab dem <strong>01.01.1999</strong> nicht mehr änderbar sein dürfen.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kursdienst</p>
+        </td>
+        <td>
+          <p>Nur die Währungen, bei denen hier ein <b>Ja</b> eingetragen ist, werden bei der automatischen Ermittlung der Währungskurs berücksichtigt. Sie dazu unter <a href="../waehrungskurse/waehrungskurse_automatisch_einstellen.md">Währungskurs automatisch einstellen</a></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>NachkPreis</p>
+        </td>
+        <td>
+          <p>Anzahl zu rundender Nachkommastellen für Einzelpreise. Eingabemöglichkeiten: 0 bis 4. Für Euro muss hier eine 2 eingetragen werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>NachkBetrag</p>
+        </td>
+        <td>
+          <p>Anzahl zu rundender Nachkommastellen für Beträge / Werte. Eingabemöglichkeiten: 0 bis 4. Für Euro muss hier eine 2 eingetragen werden. Diese Einstellung wird in der Finanzbuchhaltung verwendet.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Rundung Preis</p>
+        </td>
+        <td>
+          <p>Lässt sich die gewünschte Rundung für Einzelpreise nicht durch Nachkommastellen ausdrücken, so kann hier ein Faktor für die Rundung angegeben werden.<br>Beispiel:</p>
+          <p>Rundung auf 5 Rappen: Faktor = 0,05.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>(Rechenformel: x = Round(x / Faktor, 0) * Faktor</strong><strong></strong></p>
+          <p>Für Euro muss hier 0.01 hinterlegt werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Rundung Betrag</p>
+        </td>
+        <td>
+          <p>Lässt sich die gewünschte Rundung für Beträge nicht durch Nachkommastellen ausdrücken, so kann hier ein Faktor für die Rundung angegeben werden. Diese Einstellung wird in der Finanzbuchhaltung verwendet.</p>
+          <p><br>Beispiel:</p>
+          <p>Rundung auf 5 Rappen: Faktor = 0,05.</p>
+          <p><strong>(Rechenformel: x = Round(x / Faktor, 0) * Faktor</strong></p>
+          <p>Für Euro muss hier 0.01 hinterlegt werden.<strong></strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kto.Kursgewinn</p>
+        </td>
+        <td>
+          <p>Identifikation eines Kontos, das ggf. Kursgewinne aufnehmen soll. Bei der Umrechnung von Fremdwährung in Standardwährung fallen evtl. Gewinne aus Kursdifferenzen an.<br>Diese müssen auf einem bestimmten Konto verbucht werden. Bei der Standardwährung fällt kein Kursgewinn an. Man kann hier 0 eingetragen.</p>
+          <p>Weitere Information über die Verwendung dieses Kontos findet man im Abschnitt „<a href="../../../waehrungsbehandlung_in_der_finanzbuchhaltung/op_fuehrung_in_fremdwaehrung.md">Währungsbehandlung in der Finanzbuchhaltung</a>“</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kto.Kursverlust<br><br></p>
+        </td>
+        <td>
+          <p>Identifikation eines Kontos, das ggf. Kursverluste aufnehmen soll. Bei der Umrechnung von Fremdwährung in Standardwährung fallen evtl. Verluste aus Kursdifferenzen an.<br>Diese müssen auf einem bestimmten Konto verbucht werden. Bei der Standardwährung fällt kein Kursgewinn an. Man kann hier 0 eingetragen.</p>
+          <p>Weitere Information über die Verwendung dieses Kontos findet man im Abschnitt „<a href="../../../waehrungsbehandlung_in_der_finanzbuchhaltung/op_fuehrung_in_fremdwaehrung.md">Währungsbehandlung in der Finanzbuchhaltung</a>“</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Ausgleichskonto</strong></p>
+        </td>
+        <td>
+          <p>Dort muss die Kontonummer eingetragen werden, die bei Währungsrundungsdifferenzen herangezogen werden soll. Ist kein Konto angegeben, wird verfahren wie zuvor!</p>
+          <p><strong>Beispiel:</strong></p>
+          <table>
+            <tbody>
+              <tr>
+                <th><strong>Fremdwährung</strong></th>
+                <th><strong>Kurs</strong></th>
+                <th><strong>Buchwährung</strong></th>
+              </tr>
+              <tr>
+                <td><strong>5,00</strong></td>
+                <td><strong>1,533</strong></td>
+                <td><strong>7,67</strong></td>
+              </tr>
+              <tr>
+                <td><strong>5,00</strong></td>
+                <td><strong>1,533</strong></td>
+                <td><strong>7,67</strong></td>
+              </tr>
+              <tr>
+                <td><strong>Ergibt als Summe</strong></td>
+                <td>⇨<strong></strong></td>
+                <td><strong>15,34</strong></td>
+              </tr>
+              <tr>
+                <td><strong>10,00</strong></td>
+                <td><strong>1,533</strong></td>
+                <td><strong>15,33</strong></td>
+              </tr>
+              <tr>
+                <td><strong>Differenz</strong></td>
+                <td>⇨<strong></strong></td>
+                <td><strong>0,01</strong></td>
+              </tr>
+            </tbody>
+          </table>
+          <p>Diese Differenz wird dann in einer separaten Buchungszeile ausgewiesen.</p>
+          <table>
+            <tbody>
+              <tr>
+                <th><b>Fremdwährung</b></th>
+                <th><b>Kurs</b></th>
+                <th><b>Buchwährung</b></th>
+              </tr>
+              <tr>
+                <td>5,00</td>
+                <td>1,533</td>
+                <td>7,67</td>
+              </tr>
+              <tr>
+                <td>5,00</td>
+                <td>1,533</td>
+                <td>7,67</td>
+              </tr>
+              <tr>
+                <td>Ausbuchung gegen das Rundungskonto</td>
+                <td></td>
+                <td>
+                  <ul>
+                    <li>0,01</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Ergibt als Summe</td>
+                <td>⇨</td>
+                <td>15,33</td>
+              </tr>
+              <tr>
+                <td>10,00</td>
+                <td>1,533</td>
+                <td>15,33</td>
+              </tr>
+              <tr>
+                <td><b>Differenz</b></td>
+                <td>⇨<b></b></td>
+                <td><b>0,00</b></td>
+              </tr>
+            </tbody>
+          </table>
+          <p>Weitere Information über die Verwendung dieses Kontos findet man im Abschnitt „<a href="../../../waehrungsbehandlung_in_der_finanzbuchhaltung/automatische_umrechnung.md">Währungsbehandlung in der Finanzbuchhaltung</a>“.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Euro<strong></strong></p>
+        </td>
+        <td>
+          <p>Hier wird gekennzeichnet, welche Währung der Euro ist. Es kann nur bei einer Währung dieses Kennzeichen auf <b>Ja</b> gesetzt werden.<b></b></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>DTA-Methode</p>
+        </td>
+        <td>
+          <p>hier wird hinterlegt, ob zu diesen Währungen DTA möglich ist, bzw. welche Art des DTA's verwendet werden soll. Hier gibt es drei Möglichkeiten:</p>
+          <ul>
+            <li>Kein DTA</li>
+            <li>Standart DTA</li>
+            <li>Euro-DTA<br>Standard DTA ist der vor der Einführung des Euros gültige DTA Methode. Für Euro und alle Fremdwährungen; die für die Bankbuchungen umgerechnet werden sollen, muss hier Euro DTA hinterlegt werden.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Lokale Bezeichnung</p>
+        </td>
+        <td>
+          <p>Hier wird die lokale Bezeichnung (als Text) der Währung eingetragen. Diese Hinterlegung kann z.B. verwendet werden, wenn es darum geht, textuelle Darstellung von Währung auszugeben.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Restposten in Buchwährung umrechnen</p>
+        </td>
+        <td>
+          <p>Restposten werden nicht in der Ursprungswährung, sondern in Euro dargestellt. Dies hat folgenden Hintergrund:<b></b></p>
+          <p>Die OP-Verwaltung in A.eins kann nur die Verrechnung der Buchwährung mit einer Fremdwährung gleichzeitig. Nun kann es seit der Euroumstellung zu einem Problem kommen, wenn man zum Beispiel einen Kunden hatte, der bereits Rechnungen in Dollar hatte. Nach der Umstellung auf Buchwährung Euro sind alle DM-OPs sozusagen OPs in Fremdwährung. Um nun auch diese OPs mit OPs in der Währung Dollar verrechnen zu können, wurde dieser Schalter eingeführt. Man muss dann erst die DM-OPs zusammenfassen und kann dann den Restposten, der dann in Euro dargestellt wird, mit den Rechnungen in Dollar verrechnen.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Stärker als Buchwährung</p>
+        </td>
+        <td>
+          <p>Hier kann eingestellt werden, ob die Buchwährung stärker ist als die Fremdwährung. Das Kennzeichen wird für die Erstellung einer Hedge Zeichenkette benötigt. Das Kennzeichen wird an die dritte Stelle des ISO-Währungscodes gesetzt. Alle nachfolgenden Buchstaben werden abgeschnitten.</p>
+          <p>Ist die Fremdwährung stärker als die Buchungswährung, so wird in der Hedge Zeichenkette das Buchungswährungskennzeichen der Fremdwährung auf D gesetzt und die Buchungswährung erhält das Buchungswährungskennzeichen Y.</p>
+          <p>Bei der Neuanlage einer Währung wird Standardmäßig angenommen, dass die Buchungswährung stärker ist als die Fremdwährung.</p>
+          <p>Beispiel:</p>
+          <p>Buchwährung PL Fremdwährung EUR ergibt bei „Stärker als Buchwährung“ gleich <b>Ja</b> EUD und PLY in der Hedge Zeichenkette.</p>
+          <p>Buchwährung PL Fremdwährung CZ ergibt bei „Stärker als Buchwährung“ gleich <b>Nein</b> PLD und CZY in der Hedge Zeichenkette.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="siehe-auch">Siehe auch:</p>
 

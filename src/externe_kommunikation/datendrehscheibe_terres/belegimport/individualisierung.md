@@ -8,7 +8,86 @@ Zum individualisieren der Belegerzeugung können am Steuerparameter „[829](../
 
 Die Makros werden mit 4 Übergabeparametern aufgerufen.
 
-<table class="AMIC-Tabelle" style="WIDTH: 100%; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="100%" border="0"><tbody><tr><td style="WIDTH: 16.94%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="16%"><p class="AMIC-Ueberschrift-Tabelle" style="TEXT-ALIGN: center; MARGIN-LEFT: 53.4pt; TEXT-INDENT: -18pt; tab-stops: 53.4pt" align="center"><span style="COLOR: white"><img title="*" alt="*" src="../../../ImagesExt/image8_1558.jpg"></span><span style="FONT-WEIGHT: normal; COLOR: white">&nbsp; </span><span style="COLOR: white">Parameter</span></p></td><td style="WIDTH: 83.06%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="83%"><p class="AMIC-Ueberschrift-Tabelle" style="TEXT-ALIGN: center; MARGIN-LEFT: 53.4pt; TEXT-INDENT: -18pt; tab-stops: 53.4pt" align="center"><span style="COLOR: white"><img title="*" alt="*" src="../../../ImagesExt/image8_1558.jpg"></span><span style="FONT-WEIGHT: normal; COLOR: white">&nbsp; </span><span style="COLOR: white">Beschreibung</span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 16.94%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="16%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 53.4pt; TEXT-INDENT: -18pt; tab-stops: 53.4pt"><span style="FONT-SIZE: 11pt; COLOR: black"><img title="*" alt="*" src="../../../ImagesExt/image8_1556.jpg"></span><span style="FONT-SIZE: 11pt; COLOR: black">&nbsp;&nbsp; </span><span style="FONT-SIZE: 11pt; COLOR: black">PARAM1</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 83.06%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="83%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 53.4pt; TEXT-INDENT: -18pt; tab-stops: 53.4pt"><span style="FONT-SIZE: 11pt; COLOR: black"><img title="*" alt="*" src="../../../ImagesExt/image8_1556.jpg"></span><span style="FONT-SIZE: 11pt; COLOR: black">&nbsp;&nbsp; </span><span style="FONT-SIZE: 11pt; COLOR: black">Dieser Parameter enthält den Modus, durch welchen das Makro aufgerufen wurde. Mögliche Werte stehen in der folgenden Tabelle.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 53.4pt; TEXT-INDENT: -18pt; tab-stops: 53.4pt"><span style="FONT-SIZE: 11pt; COLOR: black"><img title="*" alt="*" src="../../../ImagesExt/image8_1556.jpg"></span><span style="FONT-SIZE: 11pt; COLOR: black">&nbsp;&nbsp;</span><span style="FONT-SIZE: 11pt"></span></p><table class="MsoNormalTable" style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" cellspacing="0" cellpadding="0" border="1"><tbody><tr><th style="BORDER-TOP: #548dd4 1pt solid; BORDER-RIGHT: medium none; WIDTH: 143.05pt; BORDER-BOTTOM: #4f81bd 2.25pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #548dd4 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="191">Makrotyp</th><th style="BORDER-TOP: #548dd4 1pt solid; BORDER-RIGHT: #548dd4 1pt solid; WIDTH: 113.4pt; BORDER-BOTTOM: #4f81bd 2.25pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="151">Wert</th></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 143.05pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="191"><span style="COLOR: black">MAKRO_KOPF_START</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 113.4pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="151"><span style="COLOR: black">KOPFSTART</span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 143.05pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="191">MAKRO_KOPF_ENDE</td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 113.4pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="151">KOPFENDE</td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 143.05pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="191"><span style="COLOR: black">MAKRO_POSI_START</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 113.4pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="151"><span style="COLOR: black">POSISTART</span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 143.05pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="191">MAKRO_POSI_ZWISCHEN</td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 113.4pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="151">POSIZWISCHEN</td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 143.05pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="191"><span style="COLOR: black">MAKRO_POSI_ENDE</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 113.4pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="151"><span style="COLOR: black">POSIENDE</span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 143.05pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="191"><span style="COLOR: black">MAKRO_BELEG_SPEICHERN</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 113.4pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="151"><span style="COLOR: black">BELEGSPEICHERN</span></td></tr></tbody></table><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 53.4pt; TEXT-INDENT: -18pt; tab-stops: 53.4pt"><span style="FONT-SIZE: 11pt; COLOR: black"><img title="*" alt="*" src="../../../ImagesExt/image8_1556.jpg"></span><span style="FONT-SIZE: 11pt; COLOR: black">&nbsp;&nbsp;</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 16.94%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="16%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 53.4pt; TEXT-INDENT: -18pt; tab-stops: 53.4pt"><span style="FONT-SIZE: 11pt; COLOR: black"><img title="*" alt="*" src="../../../ImagesExt/image8_1556.jpg"></span><span style="FONT-SIZE: 11pt; COLOR: black">&nbsp;&nbsp; </span><span style="FONT-SIZE: 11pt; COLOR: black">PARAM2</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 83.06%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="83%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 53.4pt; TEXT-INDENT: -18pt; tab-stops: 53.4pt"><span style="FONT-SIZE: 11pt; COLOR: black"><img title="*" alt="*" src="../../../ImagesExt/image8_1556.jpg"></span><span style="FONT-SIZE: 11pt; COLOR: black">&nbsp;&nbsp; </span><span style="FONT-SIZE: 11pt; COLOR: black">Dieser Parameter enthält den Namen des aktuellen „Vorgangshelper“ JPP-Objekts.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 16.94%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="16%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 53.4pt; TEXT-INDENT: -18pt; tab-stops: 53.4pt"><span style="FONT-SIZE: 11pt; COLOR: black"><img title="*" alt="*" src="../../../ImagesExt/image8_1556.jpg"></span><span style="FONT-SIZE: 11pt; COLOR: black">&nbsp;&nbsp; </span><span style="FONT-SIZE: 11pt; COLOR: black">PARAM3</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 83.06%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="83%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 53.4pt; TEXT-INDENT: -18pt; tab-stops: 53.4pt"><span style="FONT-SIZE: 11pt; COLOR: black"><img title="*" alt="*" src="../../../ImagesExt/image8_1556.jpg"></span><span style="FONT-SIZE: 11pt; COLOR: black">&nbsp;&nbsp; </span><span style="FONT-SIZE: 11pt; COLOR: black">Dieser Parameter enthält den JVARS-Owner in dem die Vorgangskopfdaten liegen.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 16.94%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="16%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 53.4pt; TEXT-INDENT: -18pt; tab-stops: 53.4pt"><span style="FONT-SIZE: 11pt; COLOR: black"><img title="*" alt="*" src="../../../ImagesExt/image8_1556.jpg"></span><span style="FONT-SIZE: 11pt; COLOR: black">&nbsp;&nbsp; </span><span style="FONT-SIZE: 11pt; COLOR: black">PARAM4</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 83.06%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="83%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 53.4pt; TEXT-INDENT: -18pt; tab-stops: 53.4pt"><span style="FONT-SIZE: 11pt; COLOR: black"><img title="*" alt="*" src="../../../ImagesExt/image8_1556.jpg"></span><span style="FONT-SIZE: 11pt; COLOR: black">&nbsp;&nbsp; </span><span style="FONT-SIZE: 11pt; COLOR: black">Dieser Parameter enthält den JVARS-Owner in dem die Positionsdaten der aktuellen Position liegen.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr></tbody></table>
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong><img alt="*" src="../../../ImagesExt/image8_1558.jpg">&nbsp; Parameter</strong></p>
+        </td>
+        <td>
+          <p><strong><img alt="*" src="../../../ImagesExt/image8_1558.jpg">&nbsp; Beschreibung</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><img alt="*" src="../../../ImagesExt/image8_1556.jpg">&nbsp;&nbsp; PARAM1</p>
+        </td>
+        <td>
+          <p><img alt="*" src="../../../ImagesExt/image8_1556.jpg">&nbsp;&nbsp; Dieser Parameter enthält den Modus, durch welchen das Makro aufgerufen wurde. Mögliche Werte stehen in der folgenden Tabelle.</p>
+          <p><img alt="*" src="../../../ImagesExt/image8_1556.jpg">&nbsp;&nbsp;</p>
+          <table>
+            <tbody>
+              <tr>
+                <th><strong>Makrotyp</strong></th>
+                <th><strong>Wert</strong></th>
+              </tr>
+              <tr>
+                <td>MAKRO_KOPF_START</td>
+                <td>KOPFSTART</td>
+              </tr>
+              <tr>
+                <td>MAKRO_KOPF_ENDE</td>
+                <td>KOPFENDE</td>
+              </tr>
+              <tr>
+                <td>MAKRO_POSI_START</td>
+                <td>POSISTART</td>
+              </tr>
+              <tr>
+                <td>MAKRO_POSI_ZWISCHEN</td>
+                <td>POSIZWISCHEN</td>
+              </tr>
+              <tr>
+                <td>MAKRO_POSI_ENDE</td>
+                <td>POSIENDE</td>
+              </tr>
+              <tr>
+                <td>MAKRO_BELEG_SPEICHERN</td>
+                <td>BELEGSPEICHERN</td>
+              </tr>
+            </tbody>
+          </table>
+          <p><img alt="*" src="../../../ImagesExt/image8_1556.jpg">&nbsp;&nbsp;</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><img alt="*" src="../../../ImagesExt/image8_1556.jpg">&nbsp;&nbsp; PARAM2</p>
+        </td>
+        <td>
+          <p><img alt="*" src="../../../ImagesExt/image8_1556.jpg">&nbsp;&nbsp; Dieser Parameter enthält den Namen des aktuellen „Vorgangshelper“ JPP-Objekts.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><img alt="*" src="../../../ImagesExt/image8_1556.jpg">&nbsp;&nbsp; PARAM3</p>
+        </td>
+        <td>
+          <p><img alt="*" src="../../../ImagesExt/image8_1556.jpg">&nbsp;&nbsp; Dieser Parameter enthält den JVARS-Owner in dem die Vorgangskopfdaten liegen.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><img alt="*" src="../../../ImagesExt/image8_1556.jpg">&nbsp;&nbsp; PARAM4</p>
+        </td>
+        <td>
+          <p><img alt="*" src="../../../ImagesExt/image8_1556.jpg">&nbsp;&nbsp; Dieser Parameter enthält den JVARS-Owner in dem die Positionsdaten der aktuellen Position liegen.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Die Daten für den Vorgang und die Positionen werden in JVARS zwischengespeichert. Diese können im Makro über den entsprechenden JVARS-Owner ausgelesen und geändert werden. Alternativ können über den Namen des Vorgangshelper-Objekts eigene JPP-Funktionen aufgerufen werden, um die Verarbeitung zu beeinflussen.
 

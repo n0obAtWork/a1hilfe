@@ -15,6 +15,198 @@ Dargestellt wird hier je eine Zeile pro Sammeldruck-Beleg. Sind Einzelbelege zu 
 Es werden in der Standard-Auswahlliste die folgenden Inhalte dargestellt:  
     
 
-<table class="AMIC-Tabelle" style="WIDTH: 100%; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="100%" border="0"><tbody><tr><td style="WIDTH: 100%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="100%" colspan="2"><p class="AMIC-Ueberschrift-Tabelle" style="TEXT-ALIGN: center; MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt" align="center"><span style="COLOR: white">Auswahlliste Fibu-Übertrag Sammeldruck</span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.94%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Klasse</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.06%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">ER für Eingangsrechnung<br>ERS für Stornoeingangsrechnung<br>AR für Ausgangsrechnung<br>ARS für Stornoausgangsrechnung</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.94%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">SBel.Datum</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.06%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Sammelbeleg-Datum = Druckdatum der zugehörigen Einzelbelege als Sammeldruck</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.94%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Drucknummer</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.06%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Sammeldruck-Nummer = Belegnummer des Sammeldruck-Belegs</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.94%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Druckkennzeichen</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.06%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Kennzeichen, ob der Belege bereits gedruckt wurde</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.94%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Fib</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.06%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><table class="MsoNormalTable" style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" cellspacing="0" cellpadding="0" border="1"><tbody><tr><th style="BORDER-TOP: #4f81bd 1pt solid; BORDER-RIGHT: medium none; WIDTH: 219.5pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="293" colspan="2"><b><span style="COLOR: #002060">Fibu-Übertrag-Kennzeichen</span></b></th></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 72.5pt; BACKGROUND: #d3dfee; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="97"><b><span style="COLOR: #002060">--</span></b></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 147pt; BACKGROUND: #d3dfee; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="196"><span style="COLOR: #002060">noch nicht übertragen</span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 72.5pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="97"><b><span style="COLOR: #002060">i.B.</span></b></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 147pt; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="196"><span style="COLOR: #002060">in Bearbeitung, Übertrag läuft gerade</span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 72.5pt; BACKGROUND: #d3dfee; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="97"><b><span style="COLOR: #002060">ja</span></b></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 147pt; BACKGROUND: #d3dfee; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="196"><span style="COLOR: #002060">Beleg ist schon übertragen</span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 72.5pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="97"><b><span style="COLOR: #002060">nn</span></b></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 147pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="196"><span style="COLOR: #002060">Beleg kann nicht übertragen werden (schon weiterverarbeitet, storniert oder Stornobeleg eines nicht übertragenen Belegs)</span></td></tr></tbody></table></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.94%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Kontonummer</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.06%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Kunden-/Lieferanten-Nummer</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.94%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Kunde/Lieferant</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.06%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Kunden-/Lieferantenname</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.94%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Filiale</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.06%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Filialnummer</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.94%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Status</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.06%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Abrechnungs-Stufe<br>(Abschlag, Folgeabschlag, Finale)</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.94%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Belege</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.06%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Anzahl der zugehörigen Einzelbelege</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.94%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Abrplan über Jahreswechsel</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.06%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Kennzeichen für Abrechnung mit ProForma-Beleg über Jahreswechsel</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.94%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Ist Proforma</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.06%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Kennzeichen für Proforma-Abrechnung</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.94%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">VFKtr</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.06%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Anzahl der Einzelbelege Beleg mit Vorfakturierungskontrakt</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.94%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Währung</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.06%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Bei Fremdwährungsbelegen die Nummer der Währung</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.94%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Valuta</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.06%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Berechnetes Zahlungsziel</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.94%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">StGrp</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.06%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Steuergruppe des Belegs</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.94%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Jahr</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.06%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Wirtschaftsjahr der Belege</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.94%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Erstbediener</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.06%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Kurzbezeichnung des 1. Bedieners, der den Fibu-Übertrag angefordert hat. (Nur bei Vier-Augen-Prinzip, siehe Steuerparameter <a class="topic-link" href="../../../firmenstamm/steuerparameter/fibu_uebertrag_warenwirtschaft/kein_fibuuebertrag_vieraugenprinzip_mit_mitarbeitern_aus_zwe.md">Kein Fibuübertrag (Vieraugenprinzip) mit Mitarbeitern aus zwei Abteilungen</a> )</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.94%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Zustimmungsbediener</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.06%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Kurzbezeichnung des Bedieners, der den angeforderten Fibu-Übertrag bestätigt hat. (Nur bei Vier-Augen-Prinzip, siehe Steuerparameter <a class="topic-link" href="../../../firmenstamm/steuerparameter/fibu_uebertrag_warenwirtschaft/kein_fibuuebertrag_vieraugenprinzip_mit_mitarbeitern_aus_zwe.md">Kein Fibuübertrag (Vieraugenprinzip) mit Mitarbeitern aus zwei Abteilungen</a> )</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.94%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Erfasser</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.06%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 35.4pt; TEXT-INDENT: -35.4pt"><span style="FONT-SIZE: 11pt; COLOR: black">Liste der Kurzbezeichnungen der Erfasser der Einzelbelege</span><span style="FONT-SIZE: 11pt"></span></p></td></tr></tbody></table>
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Auswahlliste Fibu-Übertrag Sammeldruck</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Klasse</p>
+        </td>
+        <td>
+          <p>ER für Eingangsrechnung<br>ERS für Stornoeingangsrechnung<br>AR für Ausgangsrechnung<br>ARS für Stornoausgangsrechnung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>SBel.Datum</p>
+        </td>
+        <td>
+          <p>Sammelbeleg-Datum = Druckdatum der zugehörigen Einzelbelege als Sammeldruck</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Drucknummer</p>
+        </td>
+        <td>
+          <p>Sammeldruck-Nummer = Belegnummer des Sammeldruck-Belegs</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Druckkennzeichen</p>
+        </td>
+        <td>
+          <p>Kennzeichen, ob der Belege bereits gedruckt wurde</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Fib</p>
+        </td>
+        <td>
+          <table>
+            <tbody>
+              <tr>
+                <th colspan="2"><b>Fibu-Übertrag-Kennzeichen</b></th>
+              </tr>
+              <tr>
+                <td><b>--</b></td>
+                <td>noch nicht übertragen</td>
+              </tr>
+              <tr>
+                <td><b>i.B.</b></td>
+                <td>in Bearbeitung, Übertrag läuft gerade</td>
+              </tr>
+              <tr>
+                <td><b>ja</b></td>
+                <td>Beleg ist schon übertragen</td>
+              </tr>
+              <tr>
+                <td><b>nn</b></td>
+                <td>Beleg kann nicht übertragen werden (schon weiterverarbeitet, storniert oder Stornobeleg eines nicht übertragenen Belegs)</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kontonummer</p>
+        </td>
+        <td>
+          <p>Kunden-/Lieferanten-Nummer</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kunde/Lieferant</p>
+        </td>
+        <td>
+          <p>Kunden-/Lieferantenname</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Filiale</p>
+        </td>
+        <td>
+          <p>Filialnummer</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Status</p>
+        </td>
+        <td>
+          <p>Abrechnungs-Stufe<br>(Abschlag, Folgeabschlag, Finale)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Belege</p>
+        </td>
+        <td>
+          <p>Anzahl der zugehörigen Einzelbelege</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Abrplan über Jahreswechsel</p>
+        </td>
+        <td>
+          <p>Kennzeichen für Abrechnung mit ProForma-Beleg über Jahreswechsel</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Ist Proforma</p>
+        </td>
+        <td>
+          <p>Kennzeichen für Proforma-Abrechnung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>VFKtr</p>
+        </td>
+        <td>
+          <p>Anzahl der Einzelbelege Beleg mit Vorfakturierungskontrakt</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Währung</p>
+        </td>
+        <td>
+          <p>Bei Fremdwährungsbelegen die Nummer der Währung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Valuta</p>
+        </td>
+        <td>
+          <p>Berechnetes Zahlungsziel</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>StGrp</p>
+        </td>
+        <td>
+          <p>Steuergruppe des Belegs</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Jahr</p>
+        </td>
+        <td>
+          <p>Wirtschaftsjahr der Belege</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Erstbediener</p>
+        </td>
+        <td>
+          <p>Kurzbezeichnung des 1. Bedieners, der den Fibu-Übertrag angefordert hat. (Nur bei Vier-Augen-Prinzip, siehe Steuerparameter <a href="../../../firmenstamm/steuerparameter/fibu_uebertrag_warenwirtschaft/kein_fibuuebertrag_vieraugenprinzip_mit_mitarbeitern_aus_zwe.md">Kein Fibuübertrag (Vieraugenprinzip) mit Mitarbeitern aus zwei Abteilungen</a> )</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Zustimmungsbediener</p>
+        </td>
+        <td>
+          <p>Kurzbezeichnung des Bedieners, der den angeforderten Fibu-Übertrag bestätigt hat. (Nur bei Vier-Augen-Prinzip, siehe Steuerparameter <a href="../../../firmenstamm/steuerparameter/fibu_uebertrag_warenwirtschaft/kein_fibuuebertrag_vieraugenprinzip_mit_mitarbeitern_aus_zwe.md">Kein Fibuübertrag (Vieraugenprinzip) mit Mitarbeitern aus zwei Abteilungen</a> )</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Erfasser</p>
+        </td>
+        <td>
+          <p>Liste der Kurzbezeichnungen der Erfasser der Einzelbelege</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Die Funktion ‚***Fibu-Übertrag***‘ überprüft jeden gewählten Beleg hinsichtlich der notwendigen Voraussetzungen für die Übertragung an die Finanzbuchhaltung und erzeugt, wenn diese nicht erfüllt sind, entsprechende Fehlermeldungen. Andernfalls wird der Beleg für den Fibu-Übertrag gekennzeichnet und der Mandanten-Server-Prozess angewiesen, die Übertragung vorzunehmen.

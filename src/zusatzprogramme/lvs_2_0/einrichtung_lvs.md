@@ -78,7 +78,203 @@ oder Direktsprung **[SPA]**
 
 Es gibt eine Reihe von Steuerparametern für LVS 2.0:
 
-<table class="AMIC-Tabelle" style="WIDTH: 100%; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="100%" border="0"><tbody><tr><td style="WIDTH: 100%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="100%" colspan="3"><p class="AMIC-Textkoerper" style="TEXT-ALIGN: center" align="center"><b><span style="FONT-SIZE: 12pt; COLOR: white">Steuerparameter</span><span style="COLOR: white"></span></b></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 16.18%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="16%"><p class="AMIC-Textkoerper"><b><span style="FONT-SIZE: 12pt; COLOR: black">Nr</span><span style="FONT-SIZE: 12pt"></span></b></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.26%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><b><span style="FONT-SIZE: 12pt; COLOR: black">Bezeichnung</span><span style="FONT-SIZE: 12pt"></span></b></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 39.56%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="39%"><p class="AMIC-Textkoerper"><b><span style="FONT-SIZE: 12pt; COLOR: black">Werte</span><span style="FONT-SIZE: 12pt"></span></b></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 16.18%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="16%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black"><a class="topic-link" href="../../firmenstamm/steuerparameter/optionen_global/lagerverwaltungssystem_spa_636.md">636</a></span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.26%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">LVS Aktiv</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 39.56%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="39%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">auf „Ja“</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 16.18%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="16%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black"><a class="topic-link" href="../../firmenstamm/steuerparameter/scanner/private_scannerprozedur_spa_801.md">801</a></span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.26%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Private Scannerprozedur</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 39.56%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="39%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Für JEDEN Scanner und seine IP-Adresse muss hier „AMIC_LVS_WORKFLOW“ eingerichtet werden.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 16.18%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="16%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black"><a class="topic-link" href="../../firmenstamm/steuerparameter/lizenzen/permanente_inventur_lizenz_spa_902.md">902</a></span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.26%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Lizenz Permanente Inventur</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 39.56%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="39%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">n/a</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 16.18%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="16%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black"><a class="topic-link" href="../../firmenstamm/steuerparameter/allgemeine_programmsteuerung/cs_makro_debugsession_fuer_bediener_erhalten_spa_941.md">941</a></span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.26%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">CSMakro DebugSession</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 39.56%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="39%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Für Bediener AMIC auf „Ja“</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 16.18%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="16%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black"><a class="topic-link" href="../../firmenstamm/steuerparameter/optionen_global/lvs_ladetraeger_umbuchung_aktiv_spa_946.md">946</a></span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.26%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">LVS Umbuchung aktiv</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 39.56%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="39%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Auf „Nein“</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 16.18%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="16%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black"><a class="topic-link" href="../../firmenstamm/steuerparameter/allgemeine_programmsteuerung/lvs_fahrauftrag_verwenden_spa_947.md">947</a></span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.26%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">LVS Fahraufträge verwenden</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 39.56%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="39%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Auf „Ja“</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 16.18%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="16%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black"><a class="topic-link" href="../../firmenstamm/steuerparameter/scanner/html_seite_als_vollbild_spa_953.md">953</a></span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.26%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">HTML-Seite als Vollbild darstellen</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 39.56%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="39%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Für JEDEN Scanner und seine IP-Adresse muss hier „Ja“ eingestellt werden.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 16.18%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="16%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black"><a class="topic-link" href="../../firmenstamm/steuerparameter/vorgangsbearbeitung_umwandlung/teildisposition_mit_vorlauf_aktiv_spa_986.md">986</a></span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.26%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Teildisposition mit Vorlauf aktiv</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 39.56%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="39%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Auf „Nein“</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 16.18%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="16%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black"><a class="topic-link" href="../../firmenstamm/steuerparameter/allgemeine_programmsteuerung/lvs_workflow_prozeduren_spa_1029.md">1029</a></span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.26%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">LVS Workflow-Prozeduren</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">LVS-Kommandos</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 39.56%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="39%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Hier kann für „LVS-Kommandos“ die private Scantyp-Prozedur eingetragen werden</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 16.18%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="16%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">1037</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.26%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Ladeträgertyp Produktionssilo</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 39.56%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="39%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black"><a class="topic-link" href="./einrichtung_lvs.md#LVS_Einrichtung_LTT">Gemäß Einrichtung Ladeträgertyp Linie</a></span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 16.18%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="16%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black"><a class="topic-link" href="../../firmenstamm/steuerparameter/vorgangsbearbeitung_allg/lvs_allokationsstrategie_spa_1038.md">1038</a></span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.26%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">LVS Allokationsstrategie</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 39.56%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="39%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-SIZE: 11pt; COLOR: black">1.&nbsp;&nbsp; Kommi zuerst</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-SIZE: 11pt; COLOR: black">2.&nbsp;&nbsp; Vollpaletten zuerst</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-SIZE: 11pt; COLOR: black">3.&nbsp;&nbsp; Alles zugleich</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 16.18%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="16%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black"><a class="topic-link" href="../../firmenstamm/steuerparameter/optionen_global/gln_spa_1042.md">1042</a></span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.26%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">GLN</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 39.56%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="39%"><table class="MsoNormalTable" style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" cellspacing="0" cellpadding="0" border="1"><tbody><tr><th style="BORDER-TOP: #4f81bd 1pt solid; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 72.75pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="97"><span style="COLOR: black">GLN</span></th><th style="BORDER-TOP: #4f81bd 1pt solid; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 95.9pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="128"><span style="COLOR: black">GLN des Unternehmens oder 000000000</span></th></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 72.75pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="97">Basisnummer</td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 95.9pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="128">Die ersten 7 Ziffern der GLN oder 0000000</td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 72.75pt; BACKGROUND: #bdd6ee; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="97"><span style="COLOR: black">NVE Reserveziffer</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 95.9pt; BACKGROUND: #bdd6ee; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="128"><span style="COLOR: black">Vorschlag: 1</span></td></tr></tbody></table></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 16.18%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="16%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black"><a class="topic-link" href="../../firmenstamm/steuerparameter/optionen_warenwirtschaft/permanente_inventur_mit_lvs_spa_1045.md">1045</a></span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.26%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Permanente Inventur</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 39.56%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="39%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-SIZE: 11pt; COLOR: black"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp; </span></span><span style="FONT-SIZE: 11pt; COLOR: black">Zählzeitraum in Tagen</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-SIZE: 11pt; COLOR: black"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp; </span></span><span style="FONT-SIZE: 11pt; COLOR: black">Anzahl Zeilen pro Inventurbeleg</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 16.18%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="16%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black"><a class="topic-link" href="../../firmenstamm/steuerparameter/mde_prozeduren_einzelhandel_spa_1059/lvs_meldungen_unterdruecken_spa_1060.md">1060</a></span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.26%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">LVS Meldungen unterdrücken</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 39.56%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="39%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Muss bei LVS 2.0 auf 1 stehen</span><span style="FONT-SIZE: 11pt"></span></p></td></tr></tbody></table>
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="3">
+          <p><b>Steuerparameter</b></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>Nr</b></p>
+        </td>
+        <td>
+          <p><b>Bezeichnung</b></p>
+        </td>
+        <td>
+          <p><b>Werte</b></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a href="../../firmenstamm/steuerparameter/optionen_global/lagerverwaltungssystem_spa_636.md">636</a></p>
+        </td>
+        <td>
+          <p>LVS Aktiv</p>
+        </td>
+        <td>
+          <p>auf „Ja“</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a href="../../firmenstamm/steuerparameter/scanner/private_scannerprozedur_spa_801.md">801</a></p>
+        </td>
+        <td>
+          <p>Private Scannerprozedur</p>
+        </td>
+        <td>
+          <p>Für JEDEN Scanner und seine IP-Adresse muss hier „AMIC_LVS_WORKFLOW“ eingerichtet werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a href="../../firmenstamm/steuerparameter/lizenzen/permanente_inventur_lizenz_spa_902.md">902</a></p>
+        </td>
+        <td>
+          <p>Lizenz Permanente Inventur</p>
+        </td>
+        <td>
+          <p>n/a</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a href="../../firmenstamm/steuerparameter/allgemeine_programmsteuerung/cs_makro_debugsession_fuer_bediener_erhalten_spa_941.md">941</a></p>
+        </td>
+        <td>
+          <p>CSMakro DebugSession</p>
+        </td>
+        <td>
+          <p>Für Bediener AMIC auf „Ja“</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a href="../../firmenstamm/steuerparameter/optionen_global/lvs_ladetraeger_umbuchung_aktiv_spa_946.md">946</a></p>
+        </td>
+        <td>
+          <p>LVS Umbuchung aktiv</p>
+        </td>
+        <td>
+          <p>Auf „Nein“</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a href="../../firmenstamm/steuerparameter/allgemeine_programmsteuerung/lvs_fahrauftrag_verwenden_spa_947.md">947</a></p>
+        </td>
+        <td>
+          <p>LVS Fahraufträge verwenden</p>
+        </td>
+        <td>
+          <p>Auf „Ja“</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a href="../../firmenstamm/steuerparameter/scanner/html_seite_als_vollbild_spa_953.md">953</a></p>
+        </td>
+        <td>
+          <p>HTML-Seite als Vollbild darstellen</p>
+        </td>
+        <td>
+          <p>Für JEDEN Scanner und seine IP-Adresse muss hier „Ja“ eingestellt werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a href="../../firmenstamm/steuerparameter/vorgangsbearbeitung_umwandlung/teildisposition_mit_vorlauf_aktiv_spa_986.md">986</a></p>
+        </td>
+        <td>
+          <p>Teildisposition mit Vorlauf aktiv</p>
+        </td>
+        <td>
+          <p>Auf „Nein“</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a href="../../firmenstamm/steuerparameter/allgemeine_programmsteuerung/lvs_workflow_prozeduren_spa_1029.md">1029</a></p>
+        </td>
+        <td>
+          <p>LVS Workflow-Prozeduren</p>
+          <p>LVS-Kommandos</p>
+        </td>
+        <td>
+          <p>Hier kann für „LVS-Kommandos“ die private Scantyp-Prozedur eingetragen werden</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>1037</p>
+        </td>
+        <td>
+          <p>Ladeträgertyp Produktionssilo</p>
+        </td>
+        <td>
+          <p><a href="./einrichtung_lvs.md#LVS_Einrichtung_LTT">Gemäß Einrichtung Ladeträgertyp Linie</a></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a href="../../firmenstamm/steuerparameter/vorgangsbearbeitung_allg/lvs_allokationsstrategie_spa_1038.md">1038</a></p>
+        </td>
+        <td>
+          <p>LVS Allokationsstrategie</p>
+        </td>
+        <td>
+          <p>1.&nbsp;&nbsp; Kommi zuerst</p>
+          <p>2.&nbsp;&nbsp; Vollpaletten zuerst</p>
+          <p>3.&nbsp;&nbsp; Alles zugleich</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a href="../../firmenstamm/steuerparameter/optionen_global/gln_spa_1042.md">1042</a></p>
+        </td>
+        <td>
+          <p>GLN</p>
+        </td>
+        <td>
+          <table>
+            <tbody>
+              <tr>
+                <th>GLN</th>
+                <th>GLN des Unternehmens oder 000000000</th>
+              </tr>
+              <tr>
+                <td>Basisnummer</td>
+                <td>Die ersten 7 Ziffern der GLN oder 0000000</td>
+              </tr>
+              <tr>
+                <td>NVE Reserveziffer</td>
+                <td>Vorschlag: 1</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a href="../../firmenstamm/steuerparameter/optionen_warenwirtschaft/permanente_inventur_mit_lvs_spa_1045.md">1045</a></p>
+        </td>
+        <td>
+          <p>Permanente Inventur</p>
+        </td>
+        <td>
+          <ul>
+            <li>Zählzeitraum in Tagen</li>
+            <li>Anzahl Zeilen pro Inventurbeleg</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a href="../../firmenstamm/steuerparameter/mde_prozeduren_einzelhandel_spa_1059/lvs_meldungen_unterdruecken_spa_1060.md">1060</a></p>
+        </td>
+        <td>
+          <p>LVS Meldungen unterdrücken</p>
+        </td>
+        <td>
+          <p>Muss bei LVS 2.0 auf 1 stehen</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 **Vorgangsunterklassen LVS**
 

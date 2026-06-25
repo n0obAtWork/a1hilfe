@@ -2,4 +2,140 @@
 
 <!-- source: https://amic.de/hilfe/_prozess_vorgang.htm -->
 
-<table class="AMIC-Tabelle" style="WIDTH: 100%; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="100%" border="0"><tbody><tr><td style="WIDTH: 49.6%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="49%"><p class="AMIC-Textkoerper" style="TEXT-ALIGN: center" align="center"><b><span style="FONT-SIZE: 11pt; COLOR: white">Bezeichnung</span></b></p></td><td style="WIDTH: 50.4%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="50%"><p class="AMIC-Textkoerper" style="TEXT-ALIGN: center" align="center"><b><span style="FONT-SIZE: 11pt; COLOR: white">Bedeutung</span></b></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.6%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Art der Vorgangserzeugung</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.4%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Hier kann festgelegt werden was bei der Funktion <strong><em>Vorgang erzeugen</em></strong> ausgeführt werden soll.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">0 = nicht aktiv / Einrichterparameter entscheidet</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">1 = Vorgangskopie</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">2 = Normalvorgang</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Wählt man „nicht aktiv“, dann wird die Einstellung des Einrichterparameters </span><span class="AMIC-Textkoerper-LinkZchn"><span style="FONT-SIZE: 11pt">„</span></span><span style="FONT-SIZE: 11pt; COLOR: black"><a class="topic-link" href="../funktionen_auf_der_waagenmaske/einrichterparameter_in_der_waage.md"><span class="AMIC-Textkoerper-LinkZchn">Teildisposition/Vorgangskopie aus Auftrag</span></a>“ überprüft. Diese kann Nein, Teildispo oder Vorgangskopie sein.<br><br>Für die <a class="topic-link" href="../vorgangskopie/index.md"><span class="AMIC-Textkoerper-LinkZchn">Vorgangskopie</span></a> muss auf dem Feld Kunde in der Waagenmaske über die <strong>F3</strong>-Auswahl ein Vorgang (z.B. ein Auftrag) ausgewählt worden sein, sonst tritt die normale Vorgangserzeugung in Kraft.<br><br></span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.6%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Druckkennzeichen bei Vorgangserzeugung setzen<br>wenn Archivierung aktiv</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.4%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Default ist Ja.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Mit Hilfe dieses Feldes kann man bei aktivierter Archivierung' entscheiden, ob bei der Vorgangserzeugung in der Waage ein Druckkennzeichen für den Vorgang gesetzt wird (wenn sich im Archiv ein Dokument befindet). Will man&nbsp;dies abschalten wählt man in der Vorlage für dieses Feld Nein aus.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.6%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Zielbeleg gleiche Belegnr</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.4%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Default ist Nein.<br>Hier kann man festlegen ob man für die Wiegung und den erzeugten Vorgang (z.B. Lieferschein) die gleiche Belegnummer verwenden möchte.<br>Beim Vorgang erzeugen und bei der Vorgangskopie wird dann die Belegnummer des Waagedatensatzes in den erzeugten Vorgang (z.B. Lieferschein) übertragen.<br>Wenn es die Belegnummer für den erzeugten Vorgang schon gibt, dann erscheint eine Fehlermeldung. Die Vorgangserzeugung wird abgebrochen.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.6%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Verhalten bei Vorgangstornierung</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.4%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.6%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Kontrakt überziehen</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.4%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Darf ein Kontrakt an der Waage überzogen werden.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.6%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Fremdkontrakt überziehen</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.4%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Darf ein Fremdkontrakt an der Waage überzogen werden.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.6%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Kontraktprüfung bei Auftrag / Bestellung</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.4%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Wird dieser Schalter auf „Ja“ gestellt, so wird die Kontraktprüfung ausgestellt. Der Kontrakt kann dann überzogen werden. Bei der Lieferschien / Eingangslieferschien Erstellung werden dann die Schalter Kontrakt überziehen und Fremdkontrakt überziehen ausgewertet.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.6%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Partiemaske unterdrücken</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.4%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Hier kann eingestellt werden, ob die Maske zur Anlage der Partie aufgehen soll oder ob die Partie im Hintergrund angelegt wird.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.6%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Typ der Vorgangserzeugungsroutine</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.4%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Es besteht die Möglichkeit, die Standard-Vorgangerzeugung an der Waage durch eine Private Vorgangerzeugung zu ersetzt. Es kann zwischen zwei Erzeugungsvarianten gewählt werden. Der Methode wird die Owaage-Id als Übergabe Parameter mitgegeben.</span><span style="FONT-SIZE: 11pt"></span></p><table class="MsoNormalTable" style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" cellspacing="0" cellpadding="0" border="1"><tbody><tr><th style="BORDER-TOP: #548dd4 1pt solid; BORDER-RIGHT: medium none; WIDTH: 238.2pt; BORDER-BOTTOM: #4f81bd 2.25pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #548dd4 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="318">Typ der Vorgangserzeugung</th><th style="BORDER-TOP: #548dd4 1pt solid; BORDER-RIGHT: #548dd4 1pt solid; WIDTH: 238.25pt; BORDER-BOTTOM: #4f81bd 2.25pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="318"><span style="FONT-SIZE: 11pt"></span>&nbsp;</th></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 238.2pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="318"><span style="COLOR: black">JPL</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 238.25pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="318"><span style="COLOR: black">Es wird eine JPL Methode / J Datei aufgerufen</span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 238.2pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="318">MAKRO</td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 238.25pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="318">Es wird ein Makro aufgerufen</td></tr></tbody></table></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.6%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Alternative Vorgangserzeugungsroutine</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.4%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Hier wird die Alternative Vorgangserzeugungsroutine hinterlegt. Als Übergabeparameter wird die Owaage_Id übergeben.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Diese Routine wird dann an Stelle der eigentlichen Vorgangserzeugung aufgerufen. Zu beachten ist dabei, dass danach die VorgangsId des Beleges in das Feld owaage_v_id geschrieben wird.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.6%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Exportdatensatz beim Abschließen erzeugen</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.4%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.6%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Kontraktverhalten beim Wiegen gegen einen Auftrag</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.4%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Hier kann eingestellt werden, ob das Kontraktfenster beim Wiegen gegen einen Auftrag gesperrt werden soll.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Das Standardverhalten ist Kontraktauswahl wählt den Auftrag ab.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.6%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Vorgang nach der Erzeugung drucken</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.4%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Mit dieser Einstellung wird der Normalwarenvorgang direkt nach der Erzeugung ausgestellt.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr></tbody></table>
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><b>Bezeichnung</b></p>
+        </td>
+        <td>
+          <p><b>Bedeutung</b></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Art der Vorgangserzeugung</p>
+        </td>
+        <td>
+          <p>Hier kann festgelegt werden was bei der Funktion <strong><em>Vorgang erzeugen</em></strong> ausgeführt werden soll.</p>
+          <p>0 = nicht aktiv / Einrichterparameter entscheidet</p>
+          <p>1 = Vorgangskopie</p>
+          <p>2 = Normalvorgang</p>
+          <p>Wählt man „nicht aktiv“, dann wird die Einstellung des Einrichterparameters „<a href="../funktionen_auf_der_waagenmaske/einrichterparameter_in_der_waage.md">Teildisposition/Vorgangskopie aus Auftrag</a>“ überprüft. Diese kann Nein, Teildispo oder Vorgangskopie sein.<br><br>Für die <a href="../vorgangskopie/index.md">Vorgangskopie</a> muss auf dem Feld Kunde in der Waagenmaske über die <strong>F3</strong>-Auswahl ein Vorgang (z.B. ein Auftrag) ausgewählt worden sein, sonst tritt die normale Vorgangserzeugung in Kraft.<br><br></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Druckkennzeichen bei Vorgangserzeugung setzen<br>wenn Archivierung aktiv</p>
+        </td>
+        <td>
+          <p>Default ist Ja.</p>
+          <p>Mit Hilfe dieses Feldes kann man bei aktivierter Archivierung' entscheiden, ob bei der Vorgangserzeugung in der Waage ein Druckkennzeichen für den Vorgang gesetzt wird (wenn sich im Archiv ein Dokument befindet). Will man&nbsp;dies abschalten wählt man in der Vorlage für dieses Feld Nein aus.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Zielbeleg gleiche Belegnr</p>
+        </td>
+        <td>
+          <p>Default ist Nein.<br>Hier kann man festlegen ob man für die Wiegung und den erzeugten Vorgang (z.B. Lieferschein) die gleiche Belegnummer verwenden möchte.<br>Beim Vorgang erzeugen und bei der Vorgangskopie wird dann die Belegnummer des Waagedatensatzes in den erzeugten Vorgang (z.B. Lieferschein) übertragen.<br>Wenn es die Belegnummer für den erzeugten Vorgang schon gibt, dann erscheint eine Fehlermeldung. Die Vorgangserzeugung wird abgebrochen.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Verhalten bei Vorgangstornierung</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kontrakt überziehen</p>
+        </td>
+        <td>
+          <p>Darf ein Kontrakt an der Waage überzogen werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Fremdkontrakt überziehen</p>
+        </td>
+        <td>
+          <p>Darf ein Fremdkontrakt an der Waage überzogen werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kontraktprüfung bei Auftrag / Bestellung</p>
+        </td>
+        <td>
+          <p>Wird dieser Schalter auf „Ja“ gestellt, so wird die Kontraktprüfung ausgestellt. Der Kontrakt kann dann überzogen werden. Bei der Lieferschien / Eingangslieferschien Erstellung werden dann die Schalter Kontrakt überziehen und Fremdkontrakt überziehen ausgewertet.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Partiemaske unterdrücken</p>
+        </td>
+        <td>
+          <p>Hier kann eingestellt werden, ob die Maske zur Anlage der Partie aufgehen soll oder ob die Partie im Hintergrund angelegt wird.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Typ der Vorgangserzeugungsroutine</p>
+        </td>
+        <td>
+          <p>Es besteht die Möglichkeit, die Standard-Vorgangerzeugung an der Waage durch eine Private Vorgangerzeugung zu ersetzt. Es kann zwischen zwei Erzeugungsvarianten gewählt werden. Der Methode wird die Owaage-Id als Übergabe Parameter mitgegeben.</p>
+          <table>
+            <tbody>
+              <tr>
+                <th><strong>Typ der Vorgangserzeugung</strong></th>
+                <th></th>
+              </tr>
+              <tr>
+                <td>JPL</td>
+                <td>Es wird eine JPL Methode / J Datei aufgerufen</td>
+              </tr>
+              <tr>
+                <td>MAKRO</td>
+                <td>Es wird ein Makro aufgerufen</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Alternative Vorgangserzeugungsroutine</p>
+        </td>
+        <td>
+          <p>Hier wird die Alternative Vorgangserzeugungsroutine hinterlegt. Als Übergabeparameter wird die Owaage_Id übergeben.</p>
+          <p>Diese Routine wird dann an Stelle der eigentlichen Vorgangserzeugung aufgerufen. Zu beachten ist dabei, dass danach die VorgangsId des Beleges in das Feld owaage_v_id geschrieben wird.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Exportdatensatz beim Abschließen erzeugen</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kontraktverhalten beim Wiegen gegen einen Auftrag</p>
+        </td>
+        <td>
+          <p>Hier kann eingestellt werden, ob das Kontraktfenster beim Wiegen gegen einen Auftrag gesperrt werden soll.</p>
+          <p>Das Standardverhalten ist Kontraktauswahl wählt den Auftrag ab.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Vorgang nach der Erzeugung drucken</p>
+        </td>
+        <td>
+          <p>Mit dieser Einstellung wird der Normalwarenvorgang direkt nach der Erzeugung ausgestellt.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

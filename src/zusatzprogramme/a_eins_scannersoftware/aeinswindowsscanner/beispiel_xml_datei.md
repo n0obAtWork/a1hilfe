@@ -20,4 +20,87 @@
 
 &lt;/Scans>
 
-<table class="AMIC-Tabelle" style="WIDTH: 100%; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="100%" border="0"><tbody><tr><td style="WIDTH: 39.06%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="39%"><p class="AMIC-Textkoerper" style="TEXT-ALIGN: center" align="center"><span style="COLOR: white">XML Elemente</span></p></td><td style="WIDTH: 60.94%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="60%"><p class="AMIC-Textkoerper" style="TEXT-ALIGN: center" align="center"><span style="COLOR: white">Bedeutung</span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 39.06%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="39%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">&lt;Scans&gt;</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 60.94%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="60%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Kann mehrere Scanlisten enthalten</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 39.06%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="39%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">&lt;ScanListe&gt;</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 60.94%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="60%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Die ScanListe enthält alle Scanns die für eine komplette Erfassung eines Scannvorgangs nötig sind.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 39.06%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="39%"><p class="AMIC-Textkoerper"><span class="m1"><span style="FONT-SIZE: 11pt; FONT-FAMILY: &quot;Verdana&quot;,sans-serif">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span class="m1"><span style="FONT-SIZE: 11pt; FONT-FAMILY: &quot;Verdana&quot;,sans-serif; COLOR: black">&lt;Scan&gt;</span></span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 60.94%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="60%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Enthält die einzelen Scannpositionen</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Attribute</span><span style="FONT-SIZE: 11pt"></span></p><table class="MsoNormalTable" style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" cellspacing="0" cellpadding="0" border="1"><tbody><tr><th style="BORDER-TOP: #548dd4 1pt solid; BORDER-RIGHT: medium none; WIDTH: 134.45pt; BORDER-BOTTOM: #4f81bd 2.25pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #548dd4 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="179"><span style="FONT-SIZE: 11pt">Attribut</span></th><th style="BORDER-TOP: #548dd4 1pt solid; BORDER-RIGHT: #548dd4 1pt solid; WIDTH: 134.45pt; BORDER-BOTTOM: #4f81bd 2.25pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="179"><span style="FONT-SIZE: 11pt">Bedeutung</span></th></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 134.45pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="179"><span style="COLOR: black">Code</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 134.45pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="179"><span style="COLOR: black">Hier wird der Scanncode angegeben.</span><br><span style="COLOR: black">Folegende Scanncodes sind offiziell möglich.</span><br><span style="COLOR: black">-1</span><br><span style="COLOR: black">Steht für nicht Identfizierten Code. Dieser wird für die Start und Endcodes eines Vorganges benutzt. Dieser kann auch verwendet werden, wenn ein ein EAN 128 Code erfasst werden und per Prozedur SPLIT AI ausgewertet werden soll</span><br><span style="COLOR: black">-4</span><br><span style="COLOR: black">Steht für ein EAN 13 Code</span><br><span style="COLOR: black">-8</span><br><span style="COLOR: black">Steht für ein EAN 8 Code</span><br><span style="COLOR: black">-30 Steht für die Mengeneingabe</span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 134.45pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="179">Stop<br><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>True<br><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>False</td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 134.45pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="179">Wird das Attribut auf true gesetzt, so wird der ScannCode nicht abgearbeitet</td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 134.45pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="179"><span style="COLOR: black">Close</span><br><span style="COLOR: black"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="COLOR: black">True</span><br><span style="COLOR: black"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="COLOR: black">False</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 134.45pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="179"><span style="COLOR: black">Wird das Attribut auf true gesetzt, so wird nach der Abarbeitung die Scannersoftware automatisch geschlossen.</span><br><span style="COLOR: black">Das Attribut muss nicht immer gesetzt werden, der Standardfall ist false.</span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 134.45pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="179"><span style="COLOR: black">WaitTime</span><br><span style="COLOR: black"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="COLOR: black">Zeit in Millisekunden</span><br><span style="COLOR: black"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="COLOR: black">Vorbelegung = 0</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 134.45pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="179"><span style="COLOR: black">Ist dieses Attribut größer als Null, entspricht die Wartezeit, die der Scanner nach einem Befehl wartet, &nbsp;dem angebenen Wert in Millisekunden. Ansonsten sind die Wartezeiten standardmäßig 1000(1s) für normale Befehle und 10000(10s) für Ende-Befehle.</span></td></tr></tbody></table></td></tr></tbody></table>
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p>XML Elemente</p>
+        </td>
+        <td>
+          <p>Bedeutung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>&lt;Scans&gt;</p>
+        </td>
+        <td>
+          <p>Kann mehrere Scanlisten enthalten</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>&lt;ScanListe&gt;</p>
+        </td>
+        <td>
+          <p>Die ScanListe enthält alle Scanns die für eine komplette Erfassung eines Scannvorgangs nötig sind.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp; &lt;Scan&gt;</p>
+        </td>
+        <td>
+          <p>Enthält die einzelen Scannpositionen</p>
+          <p>Attribute</p>
+          <table>
+            <tbody>
+              <tr>
+                <th>Attribut</th>
+                <th>Bedeutung</th>
+              </tr>
+              <tr>
+                <td>Code</td>
+                <td>Hier wird der Scanncode angegeben.<br>Folegende Scanncodes sind offiziell möglich.<br>-1<br>Steht für nicht Identfizierten Code. Dieser wird für die Start und Endcodes eines Vorganges benutzt. Dieser kann auch verwendet werden, wenn ein ein EAN 128 Code erfasst werden und per Prozedur SPLIT AI ausgewertet werden soll<br>-4<br>Steht für ein EAN 13 Code<br>-8<br>Steht für ein EAN 8 Code<br>-30 Steht für die Mengeneingabe</td>
+              </tr>
+              <tr>
+                <td>
+                  Stop
+                  <br>
+                  <ul>
+                    <li>True</li>
+                    <li>False</li>
+                  </ul>
+                </td>
+                <td>Wird das Attribut auf true gesetzt, so wird der ScannCode nicht abgearbeitet</td>
+              </tr>
+              <tr>
+                <td>
+                  Close
+                  <br>
+                  <ul>
+                    <li>True</li>
+                    <li>False</li>
+                  </ul>
+                </td>
+                <td>Wird das Attribut auf true gesetzt, so wird nach der Abarbeitung die Scannersoftware automatisch geschlossen.<br>Das Attribut muss nicht immer gesetzt werden, der Standardfall ist false.</td>
+              </tr>
+              <tr>
+                <td>
+                  WaitTime
+                  <br>
+                  <ul>
+                    <li>Zeit in Millisekunden</li>
+                    <li>Vorbelegung = 0</li>
+                  </ul>
+                </td>
+                <td>Ist dieses Attribut größer als Null, entspricht die Wartezeit, die der Scanner nach einem Befehl wartet, &nbsp;dem angebenen Wert in Millisekunden. Ansonsten sind die Wartezeiten standardmäßig 1000(1s) für normale Befehle und 10000(10s) für Ende-Befehle.</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

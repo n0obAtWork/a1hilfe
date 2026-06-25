@@ -4,7 +4,233 @@
 
 Verschiedene Funktionalitäten in **A.eins** werden über die Kundenkennzeichen gesteuert:
 
-<table class="AMIC-Tabelle" style="WIDTH: 100%; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="100%" border="0"><tbody><tr><td style="WIDTH: 24.76%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="24%"><p class="AMIC-Ueberschrift-Tabelle" style="TEXT-ALIGN: center" align="center"><span style="COLOR: white">Feld</span></p></td><td style="WIDTH: 75.24%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="75%"><p class="AMIC-Ueberschrift-Tabelle" style="TEXT-ALIGN: center" align="center"><span style="COLOR: white">Beschreibung</span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 24.76%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="24%"><p class="AMIC-Textkoerper"><b><span style="FONT-SIZE: 11pt; COLOR: black">Diverses Konto</span><span style="FONT-SIZE: 11pt"></span></b></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 75.24%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="75%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Das Konto steht für die Abwicklung von Kunden, für die kein eigenes Konto geführt werden soll, zur Verfügung. Beim Aufruf dieses Kunden zur Fakturierung wird automatisch die Adressmaske zur Eingabe der Anschriftdaten geöffnet.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Diese Funktion sollte allerdings, da sie unter Verzicht auf viele Informationsmöglichkeiten eingesetzt wird, sehr sparsam verwendet werden</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 24.76%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="24%"><p class="AMIC-Textkoerper"><b><span style="FONT-SIZE: 11pt; COLOR: black">Barverkauf Konto</span><span style="FONT-SIZE: 11pt"></span></b></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 75.24%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="75%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Z.Z. nicht aktiv.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 24.76%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="24%"><p class="AMIC-Textkoerper"><b><span style="FONT-SIZE: 11pt; COLOR: black">Sammelrechnung</span><span style="FONT-SIZE: 11pt"></span></b></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 75.24%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="75%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Es kann eingestellt werden, ob ausschließlich Sammel- oder Einzelrechnungen erstellt werden oder es fallabhängig ist.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 24.76%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="24%"><p class="AMIC-Textkoerper"><b><span style="FONT-SIZE: 11pt; COLOR: black">Bruttorechnung</span><span style="FONT-SIZE: 11pt"></span></b></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 75.24%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="75%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Bei </span><strong><span style="FONT-SIZE: 11pt; FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal; COLOR: black">"J"</span></strong><span style="FONT-SIZE: 11pt; COLOR: black"> erhält der Kunde Bruttorechnungen, d.h., alle Beträge — auch die Einzelpreise — werden brutto ausgewiesen</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 24.76%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="24%"><p class="AMIC-Textkoerper"><b><span style="FONT-SIZE: 11pt; COLOR: black">KoKoRe</span><span style="FONT-SIZE: 11pt"></span></b></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 75.24%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="75%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Dieses Kennzeichen wird gesetzt, wenn mit dem Kunden ein Kontokorrentverhältnis besteht.<br>Das bedeutet, der Kunde ist sowohl Lieferant/Hersteller als auch Kunde. Sehen Sie hierzu auch Kundentyp, im Vorgangsbereich </span><strong><span style="FONT-SIZE: 11pt; FONT-FAMILY: &quot;Arial&quot;,sans-serif; COLOR: black">"Kontokorrent" </span></strong><span style="FONT-SIZE: 11pt; COLOR: black">und in der Funktion </span><strong><span style="FONT-SIZE: 11pt; FONT-FAMILY: &quot;Arial&quot;,sans-serif; COLOR: black">"FIBU- Merkmale"</span></strong><span style="FONT-SIZE: 11pt; COLOR: black"> den Zinsbereich.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 24.76%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="24%"><p class="AMIC-Textkoerper"><b><span style="FONT-SIZE: 11pt; COLOR: black">Versandanschrift</span><span style="FONT-SIZE: 11pt"></span></b></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 75.24%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="75%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Dieses Feld hat keine steuernde Bedeutung in A.eins.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Es kann frei verwendet werden!</span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 24.76%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="24%"><p class="AMIC-Textkoerper"><b><span style="FONT-SIZE: 11pt; COLOR: black">Raffung</span><span style="FONT-SIZE: 11pt"></span></b></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 75.24%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="75%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Z.Z. nicht aktiv.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 24.76%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="24%"><p class="AMIC-Textkoerper"><b><span style="FONT-SIZE: 11pt; COLOR: black">Rabattsperre</span><span style="FONT-SIZE: 11pt"></span></b></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 75.24%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="75%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">ZZ. nicht aktiv.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 24.76%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="24%"><p class="AMIC-Textkoerper"><b><span style="FONT-SIZE: 11pt; COLOR: black">Liefersperre</span></b><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 75.24%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="75%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Bei einer weichen Liefersperre wird bei dem Versuch, den Kunden zu beliefern, eine Warnung angezeigt. Die Lieferung ist aber trotzdem möglich. </span><span style="FONT-SIZE: 11pt; COLOR: black">Bei einer harten Sperre dagegen ist der Kunde komplett für Lieferungen gesperrt.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Bei der Umwandlung von Belegen ist es jedoch möglich, auch Belege dieser Kunden weiterzuverarbeiten (z.B. in Rechnungen umwandeln), die eine Liefersperre haben. Das ist sinnvoll, damit alte Belege, die ohne Liefersperre erfasst wurden, auch noch umgewandelt werden können. Neue Belege können nicht mehr erzeugt werden. Das kann per SPA aktiviert werden. Im Normalfall </span><strong><span style="FONT-SIZE: 11pt; FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal; COLOR: black">(SPA "Umwandlung von Belegen auch bei Liefersperre" = Nein)</span></strong><span style="FONT-SIZE: 11pt; COLOR: black"> ist dieses </span><strong><span style="FONT-SIZE: 11pt; FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal; COLOR: black">nicht</span></strong><span style="FONT-SIZE: 11pt; COLOR: black"> möglich.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 24.76%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="24%"><p class="AMIC-Textkoerper"><b><span style="FONT-SIZE: 11pt; COLOR: black">Liefersperrengrund</span><span style="FONT-SIZE: 11pt"></span></b></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 75.24%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="75%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Wenn der Kunde für </span><span style="FONT-SIZE: 11pt; COLOR: black">Lieferungen </span><span style="FONT-SIZE: 11pt; COLOR: black">gesperrt ist, kann hier ein Grund für die Sperre angegeben werden, der zusätzlich zur normalen Fehlermeldung angezeigt wird. Siehe auch </span><span style="FONT-SIZE: 11pt; COLOR: black">Sperrbemerkungen.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 24.76%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="24%"><p class="AMIC-Textkoerper"><b><span style="FONT-SIZE: 11pt; COLOR: black">Zu-/Abschlagsperre</span><span style="FONT-SIZE: 11pt"></span></b></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 75.24%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="75%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Z.Z. nicht aktiv.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 24.76%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="24%"><p class="AMIC-Textkoerper"><b><span style="FONT-SIZE: 11pt; COLOR: black">Vorgang Erfassungssperre</span><span style="FONT-SIZE: 11pt"></span></b></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 75.24%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="75%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Bei </span><strong><span style="FONT-SIZE: 11pt; FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal; COLOR: black">"J" kann für den Kunden kein neuer Vorgang erfasst werden.</span><span style="FONT-SIZE: 11pt; FONT-FAMILY: &quot;Arial&quot;,sans-serif; FONT-WEIGHT: normal"></span></strong></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 24.76%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="24%"><p class="AMIC-Textkoerper"><b><span style="FONT-SIZE: 11pt; COLOR: black">Bonität</span><span style="FONT-SIZE: 11pt"></span></b></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 75.24%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="75%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Kennzeichen für die Beurteilung der Kreditwürdigkeit. Es wird manuell vergeben und kann z.B. bei der Vorgangserfassung angezeigt werden.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 24.76%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="24%"><p class="AMIC-Textkoerper"><b><span style="FONT-SIZE: 11pt; COLOR: black">Beladefaktor</span><span style="FONT-SIZE: 11pt"></span></b></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 75.24%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="75%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Wenn bei Beladungen besondere Erschwernisse auftauchen, die zu erhöhter Berechnung führen sollen, so kann hier der Faktor, um den sich der Preis erhöhen soll, eingetragen werden.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Der Preis wird dann um diesen Faktor erhöht/verringert.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 24.76%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="24%"><p class="AMIC-Textkoerper"><b><span style="FONT-SIZE: 11pt; COLOR: black">Entladefaktor</span><span style="FONT-SIZE: 11pt"></span></b></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 75.24%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="75%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Wie oben unter Beladefaktoren, nur werden die Erschwernisse der Entladung berücksichtigt.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 24.76%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="24%"><p class="AMIC-Textkoerper"><b><span style="FONT-SIZE: 11pt; COLOR: black">eindeutige Kundengruppe</span><span style="FONT-SIZE: 11pt"></span></b></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 75.24%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="75%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">------------ noch nicht dokumentiert --------------</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 24.76%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="24%"><p class="AMIC-Textkoerper"><b><span style="FONT-SIZE: 11pt; COLOR: black">Löschkennzeichen</span><span style="FONT-SIZE: 11pt"></span></b></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 75.24%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="75%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Gibt an, ob dieser Kunde gelöscht wurde (Eine endgültige Löschung aus den Datenbeständen hätte zur Folge, dass historische Daten nicht mehr einsehbar wären. Deshalb wird nur ein Löschkennzeichen gepflegt, um die Verwendung einzuschränken.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 24.76%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="24%"><p class="AMIC-Textkoerper"><b><span style="FONT-SIZE: 11pt; COLOR: black">Buchstellenstamm</span><span style="FONT-SIZE: 11pt"></span></b></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 75.24%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="75%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">------------- noch nicht dokumentiert --------------</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 24.76%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="24%"><p class="AMIC-Textkoerper"><b><span style="FONT-SIZE: 11pt; COLOR: black">Belegversand</span><span style="FONT-SIZE: 11pt"></span></b></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 75.24%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="75%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Gibt an, ob der Belegempfänger die Belege durch eine Versandmechanik erhalten möchte, sofern dies für die Belegklasse vorgesehen ist. Siehe hierzu <a class="topic-link" href="../../../zusatzprogramme/mailversand_allgemein/index.md">Belegversand</a></span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Die Einstellungsmöglichkeiten sind analog zum openTRANS:</span><span style="FONT-SIZE: 11pt"></span></p><table class="MsoNormalTable" style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" cellspacing="0" cellpadding="0" border="1"><tbody><tr><th style="BORDER-TOP: #548dd4 1pt solid; BORDER-RIGHT: medium none; WIDTH: 37.5pt; BACKGROUND: white; BORDER-BOTTOM: #4f81bd 2.25pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #548dd4 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="50"><span style="COLOR: black">Wert</span></th><th style="BORDER-TOP: #548dd4 1pt solid; BORDER-RIGHT: medium none; WIDTH: 152.2pt; BACKGROUND: white; BORDER-BOTTOM: #4f81bd 2.25pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="203"><span style="COLOR: black">Bezeichnung</span></th><th style="BORDER-TOP: #548dd4 1pt solid; BORDER-RIGHT: #548dd4 1pt solid; WIDTH: 274.7pt; BACKGROUND: white; BORDER-BOTTOM: #4f81bd 2.25pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="366"><span style="COLOR: black">Bedeutung</span></th></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 37.5pt; BACKGROUND: #bdd6ee; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="50"><span style="COLOR: black">0</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 152.2pt; BACKGROUND: #bdd6ee; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="203"><span style="COLOR: black">Nein</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 274.7pt; BACKGROUND: #bdd6ee; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="366"><span style="COLOR: black">Es wird kein Belegversand verwendet</span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 37.5pt; BACKGROUND: white; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="50"><span style="COLOR: black">1</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 152.2pt; BACKGROUND: white; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="203"><span style="COLOR: black">Mit Belegdruck</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 274.7pt; BACKGROUND: white; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="366"><span style="COLOR: black">Der Belegversand erfolgt analog zum Rechnungsdruck</span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 37.5pt; BACKGROUND: #bdd6ee; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="50"><span style="COLOR: black">2</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 152.2pt; BACKGROUND: #bdd6ee; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="203"><span style="COLOR: black">Statt Belegdruck</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 274.7pt; BACKGROUND: #bdd6ee; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="366"><span style="COLOR: black">Der Belegversand erfolgt anstelle des Rechnungsdrucks</span><br><span style="COLOR: black">Hinweis:</span><br><span style="COLOR: black">Bitte beachten Sie, dass diese Einstellung „Statt Rechnungsdruck“ unter Umständen die Einstellung „mit Rechnungsdruck“ im Bereich openTRANS überschreibt. Ist eine dieser Einstellungen auf „statt Rechnungsdruck“ gestellt, so entfällt der Druck!</span></td></tr></tbody></table></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 24.76%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="24%"><p class="AMIC-Textkoerper"><b><span style="FONT-SIZE: 11pt; COLOR: black">Marktstandsatz/<br>Klasse</span><span style="FONT-SIZE: 11pt"></span></b></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 75.24%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="75%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">------------ noch nicht dokumentiert --------------</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 24.76%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="24%"><p class="AMIC-Textkoerper"><b><span style="FONT-SIZE: 11pt; COLOR: black">MSA-Liste sofort<br>abzeigen</span><span style="FONT-SIZE: 11pt"></span></b></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 75.24%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="75%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">------------ noch nicht dokumentiert --------------</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 24.76%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="24%"><p class="AMIC-Textkoerper"><b><span style="FONT-SIZE: 11pt; COLOR: black">Nummernkreis<br>Paletten</span><span style="FONT-SIZE: 11pt"></span></b></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 75.24%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="75%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">------------ noch nicht dokumentiert --------------</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 24.76%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="24%"><p class="AMIC-Textkoerper"><b><span style="FONT-SIZE: 11pt; COLOR: black">Archiv-Referenz</span><span style="FONT-SIZE: 11pt"></span></b></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 75.24%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="75%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">------------ noch nicht dokumentiert --------------</span><span style="FONT-SIZE: 11pt"></span></p></td></tr></tbody></table>
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Feld</strong></p>
+        </td>
+        <td>
+          <p><strong>Beschreibung</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>Diverses Konto</b></p>
+        </td>
+        <td>
+          <p>Das Konto steht für die Abwicklung von Kunden, für die kein eigenes Konto geführt werden soll, zur Verfügung. Beim Aufruf dieses Kunden zur Fakturierung wird automatisch die Adressmaske zur Eingabe der Anschriftdaten geöffnet.</p>
+          <p>Diese Funktion sollte allerdings, da sie unter Verzicht auf viele Informationsmöglichkeiten eingesetzt wird, sehr sparsam verwendet werden</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>Barverkauf Konto</b></p>
+        </td>
+        <td>
+          <p>Z.Z. nicht aktiv.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>Sammelrechnung</b></p>
+        </td>
+        <td>
+          <p>Es kann eingestellt werden, ob ausschließlich Sammel- oder Einzelrechnungen erstellt werden oder es fallabhängig ist.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>Bruttorechnung</b></p>
+        </td>
+        <td>
+          <p>Bei <strong>"J"</strong> erhält der Kunde Bruttorechnungen, d.h., alle Beträge — auch die Einzelpreise — werden brutto ausgewiesen</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>KoKoRe</b></p>
+        </td>
+        <td>
+          <p>Dieses Kennzeichen wird gesetzt, wenn mit dem Kunden ein Kontokorrentverhältnis besteht.<br>Das bedeutet, der Kunde ist sowohl Lieferant/Hersteller als auch Kunde. Sehen Sie hierzu auch Kundentyp, im Vorgangsbereich <strong>"Kontokorrent" </strong>und in der Funktion <strong>"FIBU- Merkmale"</strong> den Zinsbereich.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>Versandanschrift</b></p>
+        </td>
+        <td>
+          <p>Dieses Feld hat keine steuernde Bedeutung in A.eins.</p>
+          <p>Es kann frei verwendet werden!</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>Raffung</b></p>
+        </td>
+        <td>
+          <p>Z.Z. nicht aktiv.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>Rabattsperre</b></p>
+        </td>
+        <td>
+          <p>ZZ. nicht aktiv.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>Liefersperre</b></p>
+        </td>
+        <td>
+          <p>Bei einer weichen Liefersperre wird bei dem Versuch, den Kunden zu beliefern, eine Warnung angezeigt. Die Lieferung ist aber trotzdem möglich. Bei einer harten Sperre dagegen ist der Kunde komplett für Lieferungen gesperrt.</p>
+          <p>Bei der Umwandlung von Belegen ist es jedoch möglich, auch Belege dieser Kunden weiterzuverarbeiten (z.B. in Rechnungen umwandeln), die eine Liefersperre haben. Das ist sinnvoll, damit alte Belege, die ohne Liefersperre erfasst wurden, auch noch umgewandelt werden können. Neue Belege können nicht mehr erzeugt werden. Das kann per SPA aktiviert werden. Im Normalfall <strong>(SPA "Umwandlung von Belegen auch bei Liefersperre" = Nein)</strong> ist dieses <strong>nicht</strong> möglich.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>Liefersperrengrund</b></p>
+        </td>
+        <td>
+          <p>Wenn der Kunde für Lieferungen gesperrt ist, kann hier ein Grund für die Sperre angegeben werden, der zusätzlich zur normalen Fehlermeldung angezeigt wird. Siehe auch Sperrbemerkungen.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>Zu-/Abschlagsperre</b></p>
+        </td>
+        <td>
+          <p>Z.Z. nicht aktiv.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>Vorgang Erfassungssperre</b></p>
+        </td>
+        <td>
+          <p>Bei <strong>"J" kann für den Kunden kein neuer Vorgang erfasst werden.</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>Bonität</b></p>
+        </td>
+        <td>
+          <p>Kennzeichen für die Beurteilung der Kreditwürdigkeit. Es wird manuell vergeben und kann z.B. bei der Vorgangserfassung angezeigt werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>Beladefaktor</b></p>
+        </td>
+        <td>
+          <p>Wenn bei Beladungen besondere Erschwernisse auftauchen, die zu erhöhter Berechnung führen sollen, so kann hier der Faktor, um den sich der Preis erhöhen soll, eingetragen werden.</p>
+          <p>Der Preis wird dann um diesen Faktor erhöht/verringert.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>Entladefaktor</b></p>
+        </td>
+        <td>
+          <p>Wie oben unter Beladefaktoren, nur werden die Erschwernisse der Entladung berücksichtigt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>eindeutige Kundengruppe</b></p>
+        </td>
+        <td>
+          <p>------------ noch nicht dokumentiert --------------</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>Löschkennzeichen</b></p>
+        </td>
+        <td>
+          <p>Gibt an, ob dieser Kunde gelöscht wurde (Eine endgültige Löschung aus den Datenbeständen hätte zur Folge, dass historische Daten nicht mehr einsehbar wären. Deshalb wird nur ein Löschkennzeichen gepflegt, um die Verwendung einzuschränken.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>Buchstellenstamm</b></p>
+        </td>
+        <td>
+          <p>------------- noch nicht dokumentiert --------------</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>Belegversand</b></p>
+        </td>
+        <td>
+          <p>Gibt an, ob der Belegempfänger die Belege durch eine Versandmechanik erhalten möchte, sofern dies für die Belegklasse vorgesehen ist. Siehe hierzu <a href="../../../zusatzprogramme/mailversand_allgemein/index.md">Belegversand</a></p>
+          <p>Die Einstellungsmöglichkeiten sind analog zum openTRANS:</p>
+          <table>
+            <tbody>
+              <tr>
+                <th><strong>Wert</strong></th>
+                <th><strong>Bezeichnung</strong></th>
+                <th><strong>Bedeutung</strong></th>
+              </tr>
+              <tr>
+                <td>0</td>
+                <td>Nein</td>
+                <td>Es wird kein Belegversand verwendet</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Mit Belegdruck</td>
+                <td>Der Belegversand erfolgt analog zum Rechnungsdruck</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Statt Belegdruck</td>
+                <td>Der Belegversand erfolgt anstelle des Rechnungsdrucks<br>Hinweis:<br>Bitte beachten Sie, dass diese Einstellung „Statt Rechnungsdruck“ unter Umständen die Einstellung „mit Rechnungsdruck“ im Bereich openTRANS überschreibt. Ist eine dieser Einstellungen auf „statt Rechnungsdruck“ gestellt, so entfällt der Druck!</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>Marktstandsatz/<br>Klasse</b></p>
+        </td>
+        <td>
+          <p>------------ noch nicht dokumentiert --------------</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>MSA-Liste sofort<br>abzeigen</b></p>
+        </td>
+        <td>
+          <p>------------ noch nicht dokumentiert --------------</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>Nummernkreis<br>Paletten</b></p>
+        </td>
+        <td>
+          <p>------------ noch nicht dokumentiert --------------</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>Archiv-Referenz</b></p>
+        </td>
+        <td>
+          <p>------------ noch nicht dokumentiert --------------</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="siehe-auch">Siehe auch:</p>
 

@@ -6,4 +6,90 @@ Auf dieser Maske lassen sich schnell Belege für Spedition, Befrachter, Makler, 
 
 Folgende Felder stehen auf der Maske zur Verfügung.
 
-<table class="AMIC-Tabelle" style="WIDTH: 100%; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="100%" border="0"><tbody><tr><td style="WIDTH: 20%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="20%"><p class="AMIC-Ueberschrift-Tabelle" style="TEXT-ALIGN: center" align="center"><span style="COLOR: white">Feld</span></p></td><td style="WIDTH: 80%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="80%"><p class="AMIC-Ueberschrift-Tabelle" style="TEXT-ALIGN: center" align="center"><span style="COLOR: white">Beschreibung</span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 20%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="20%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Kunde</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 80%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="80%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Die Vorbelegung des Kunden erfolgt je nach Typ unterschiedlich.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Ueberschrift"><span style="COLOR: black">Makler</span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Es wird versucht einen Kunden aus dem Vertreterstamm des ersten gefunden Kontrakts der Strecke zu ermitteln.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Ueberschrift"><span style="COLOR: black">Spedition / Befrachter, Einladekontrolleur, Löschkontrolleur</span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Je Typ wird hier versucht den Kunden aus dem Stammsatz oder Positionsstammsatz zu ermitteln.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 20%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="20%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Lager</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 80%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="80%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Die Vorbelegung des Lagers erfolgt aus dem Beleg.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 20%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="20%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Artikel</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 80%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="80%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Die Vorbelegung des Artikels erfolgt aus den <a class="topic-link" href="../../../artikelstamm_und_artikel/parameter_des_artikelstamms/sekundaerschluessel.md">Sekundärschlüsseln</a> des Artikelstamms. Dort kann beim Schlüsseltyp „Referenzartikel“ unterschiedliche Artikel hinterlegt werden:</span><span style="FONT-SIZE: 11pt"></span></p><table class="AMIC-Tabelle" style="WIDTH: 100%; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="100%" border="0"><tbody><tr><th style="WIDTH: 20%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="20%"><span style="COLOR: white">Position</span></th><th style="WIDTH: 80%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="80%"><span style="COLOR: white">Typ</span></th></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 20%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="20%"><span style="FONT-SIZE: 11pt; COLOR: black">1</span><span style="FONT-SIZE: 11pt"></span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 80%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="80%"><span style="FONT-SIZE: 11pt; COLOR: black">Spedition / Befrachter</span><span style="FONT-SIZE: 11pt"></span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 20%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="20%"><span style="FONT-SIZE: 11pt; COLOR: black">2</span><span style="FONT-SIZE: 11pt"></span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 80%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="80%"><span style="FONT-SIZE: 11pt; COLOR: black">Einladekontrolleur</span><span style="FONT-SIZE: 11pt"></span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 20%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="20%"><span style="FONT-SIZE: 11pt; COLOR: black">3</span><span style="FONT-SIZE: 11pt"></span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 80%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="80%"><span style="FONT-SIZE: 11pt; COLOR: black">Löschkontrolleur</span><span style="FONT-SIZE: 11pt"></span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 20%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="20%"><span style="FONT-SIZE: 11pt; COLOR: black">4</span><span style="FONT-SIZE: 11pt"></span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 80%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="80%"><span style="FONT-SIZE: 11pt; COLOR: black">Makler</span><span style="FONT-SIZE: 11pt"></span></td></tr></tbody></table><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Wenn am Artikelstamm <u>kein</u> passender Artikel gefunden wird, gilt der übergebene Artikel.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 20%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="20%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Menge</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 80%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="80%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Die Vorbelegung der Menge erfolgt aus dem Beleg</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 20%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="20%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Preis</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 80%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="80%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Die Vorbelegung des Preises erfolgt je nach Typ unterschiedlich.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Ueberschrift"><span style="COLOR: black">Makler</span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Es wird versucht den Preis aus der Vertreterprovision des ersten gefundenen Kontrakts der Strecke zu ermitteln.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Ueberschrift"><span style="COLOR: black">Spedition / Befrachter, Einladekontrolleur, Löschkontrolleur</span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Es wird versucht den Preis aus der Fracht des ersten gefundenen Kontrakts der Strecke zu ermitteln.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr></tbody></table>
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Feld</strong></p>
+        </td>
+        <td>
+          <p><strong>Beschreibung</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kunde</p>
+        </td>
+        <td>
+          <p>Die Vorbelegung des Kunden erfolgt je nach Typ unterschiedlich.</p>
+          <p><strong>Makler</strong></p>
+          <p>Es wird versucht einen Kunden aus dem Vertreterstamm des ersten gefunden Kontrakts der Strecke zu ermitteln.</p>
+          <p><strong>Spedition / Befrachter, Einladekontrolleur, Löschkontrolleur</strong></p>
+          <p>Je Typ wird hier versucht den Kunden aus dem Stammsatz oder Positionsstammsatz zu ermitteln.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Lager</p>
+        </td>
+        <td>
+          <p>Die Vorbelegung des Lagers erfolgt aus dem Beleg.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Artikel</p>
+        </td>
+        <td>
+          <p>Die Vorbelegung des Artikels erfolgt aus den <a href="../../../artikelstamm_und_artikel/parameter_des_artikelstamms/sekundaerschluessel.md">Sekundärschlüsseln</a> des Artikelstamms. Dort kann beim Schlüsseltyp „Referenzartikel“ unterschiedliche Artikel hinterlegt werden:</p>
+          <table>
+            <tbody>
+              <tr>
+                <th><strong>Position</strong></th>
+                <th><strong>Typ</strong></th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Spedition / Befrachter</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Einladekontrolleur</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Löschkontrolleur</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Makler</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>Wenn am Artikelstamm <u>kein</u> passender Artikel gefunden wird, gilt der übergebene Artikel.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Menge</p>
+        </td>
+        <td>
+          <p>Die Vorbelegung der Menge erfolgt aus dem Beleg</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Preis</p>
+        </td>
+        <td>
+          <p>Die Vorbelegung des Preises erfolgt je nach Typ unterschiedlich.</p>
+          <p><strong>Makler</strong></p>
+          <p>Es wird versucht den Preis aus der Vertreterprovision des ersten gefundenen Kontrakts der Strecke zu ermitteln.</p>
+          <p><strong>Spedition / Befrachter, Einladekontrolleur, Löschkontrolleur</strong></p>
+          <p>Es wird versucht den Preis aus der Fracht des ersten gefundenen Kontrakts der Strecke zu ermitteln.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

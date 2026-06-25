@@ -86,7 +86,87 @@ oder Direktsprung **[NKZ]**
 
 <p class="just-emphasize">Register „Einrichtungstexte“</p>
 
-<table class="AMIC-Tabelle" style="WIDTH: 100%; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="100%" border="0"><tbody><tr><td style="WIDTH: 20.98%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="20%"><p class="AMIC-Textkoerper" style="TEXT-ALIGN: center" align="center"><b><span style="COLOR: white">Feld</span></b></p></td><td style="WIDTH: 79.02%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="79%"><p class="AMIC-Textkoerper" style="TEXT-ALIGN: center" align="center"><b><span style="COLOR: white">Beschreibung</span></b></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 20.98%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="20%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Ware</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 79.02%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="79%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Hier kann eine alphanumerische Belegnummer für die Warenwirtschaft eingerichtet werden (siehe Syntax).</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 20.98%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="20%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">FiBu</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 79.02%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="79%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Hier kann eine alphanumerische Belegnummer für die Finanzbuchhaltung eingerichtet werden (siehe Syntax).</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 20.98%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="20%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Syntax</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 79.02%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="79%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">[{Nr,Länge}][Festtext]</span><span style="FONT-SIZE: 11pt"></span></p><table class="AMIC-Tabelle" style="BORDER-COLLAPSE: collapse; MARGIN-LEFT: 15.9pt" cellspacing="0" cellpadding="0" border="0"><tbody><tr><th style="WIDTH: 23.05pt; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="31"><b><span style="COLOR: white">Nr</span></b><span style="COLOR: white">.</span></th><th style="WIDTH: 721.15pt; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="962"><b><span style="COLOR: white">Bedeutung</span></b></th></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 23.05pt; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="31"><span style="FONT-SIZE: 11pt; COLOR: black">1</span><span style="FONT-SIZE: 11pt"></span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 721.15pt; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="962"><span style="FONT-SIZE: 11pt; COLOR: black">Belegnummer ohne führende Nullen</span><span style="FONT-SIZE: 11pt"></span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 23.05pt; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="31"><span style="FONT-SIZE: 11pt; COLOR: black">2</span><span style="FONT-SIZE: 11pt"></span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 721.15pt; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="962"><span style="FONT-SIZE: 11pt; COLOR: black">Belegnummer mit führenden Nullen</span><span style="FONT-SIZE: 11pt"></span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 23.05pt; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="31"><span style="FONT-SIZE: 11pt; COLOR: black">3</span><span style="FONT-SIZE: 11pt"></span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 721.15pt; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="962"><span style="FONT-SIZE: 11pt; COLOR: black">Nummernkreis ohne führende Nullen</span><span style="FONT-SIZE: 11pt"></span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 23.05pt; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="31"><span style="FONT-SIZE: 11pt; COLOR: black">4</span><span style="FONT-SIZE: 11pt"></span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 721.15pt; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="962"><span style="FONT-SIZE: 11pt; COLOR: black">Nummernkreis mit führenden Nullen</span><span style="FONT-SIZE: 11pt"></span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 23.05pt; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="31"><span style="FONT-SIZE: 11pt; COLOR: black">5</span><span style="FONT-SIZE: 11pt"></span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 721.15pt; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="962"><span style="FONT-SIZE: 11pt; COLOR: black">Rechter Nummernanteil ohne führende Nullen</span><span style="FONT-SIZE: 11pt"></span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 23.05pt; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="31"><span style="FONT-SIZE: 11pt; COLOR: black">6</span><span style="FONT-SIZE: 11pt"></span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 721.15pt; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="962"><span style="FONT-SIZE: 11pt; COLOR: black">Rechter Nummernanteil mit führenden Nullen</span><span style="FONT-SIZE: 11pt"></span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 23.05pt; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="31"><span style="FONT-SIZE: 11pt; COLOR: black">11</span><span style="FONT-SIZE: 11pt"></span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 721.15pt; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="962"><span style="FONT-SIZE: 11pt; COLOR: black">Bediener Identifikation</span><span style="FONT-SIZE: 11pt"></span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 23.05pt; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="31"><span style="FONT-SIZE: 11pt; COLOR: black">12</span><span style="FONT-SIZE: 11pt"></span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 721.15pt; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="962"><span style="FONT-SIZE: 11pt; COLOR: black">Bediener Kurzbezeichnung</span><span style="FONT-SIZE: 11pt"></span></td></tr></tbody></table><p class="AMIC-Textkoerper"><u><span style="FONT-SIZE: 11pt; COLOR: black">Beispiel:</span></u><span style="FONT-SIZE: 11pt; COLOR: black"></span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Beleg-Nummer 97/000100 Einrichtungstext = 97/{2,6}</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><b><span style="FONT-SIZE: 11pt; COLOR: black">Achtung:</span></b><span style="FONT-SIZE: 11pt; COLOR: black"> Obiges Beispiel kann zu Problemen bei der Anzeige in Listen, Auswertungen wegen der Länge führen!</span><span style="FONT-SIZE: 11pt"></span></p></td></tr></tbody></table>
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><b>Feld</b></p>
+        </td>
+        <td>
+          <p><b>Beschreibung</b></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Ware</p>
+        </td>
+        <td>
+          <p>Hier kann eine alphanumerische Belegnummer für die Warenwirtschaft eingerichtet werden (siehe Syntax).</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>FiBu</p>
+        </td>
+        <td>
+          <p>Hier kann eine alphanumerische Belegnummer für die Finanzbuchhaltung eingerichtet werden (siehe Syntax).</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Syntax</p>
+        </td>
+        <td>
+          <p>[{Nr,Länge}][Festtext]</p>
+          <table>
+            <tbody>
+              <tr>
+                <th><b>Nr</b>.</th>
+                <th><b>Bedeutung</b></th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Belegnummer ohne führende Nullen</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Belegnummer mit führenden Nullen</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Nummernkreis ohne führende Nullen</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Nummernkreis mit führenden Nullen</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Rechter Nummernanteil ohne führende Nullen</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Rechter Nummernanteil mit führenden Nullen</td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>Bediener Identifikation</td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td>Bediener Kurzbezeichnung</td>
+              </tr>
+            </tbody>
+          </table>
+          <p><u>Beispiel:</u></p>
+          <p>Beleg-Nummer 97/000100 Einrichtungstext = 97/{2,6}</p>
+          <p><b>Achtung:</b> Obiges Beispiel kann zu Problemen bei der Anzeige in Listen, Auswertungen wegen der Länge führen!</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ![](../../ImagesExt/image8_28.png)
 

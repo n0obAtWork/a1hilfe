@@ -10,7 +10,137 @@ Im Silobuch werden alle Änderungen auf dem ausgewählten Silo dargestellt. Dies
 
 Bedeutung von ausgewählten Felder im Silobuch
 
-<table class="AMIC-Tabelle" style="WIDTH: 100%; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="100%" border="0"><tbody><tr><td style="WIDTH: 49.64%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="49%"><p class="AMIC-Textkoerper" style="TEXT-ALIGN: center; tab-stops: 102.0pt" align="center"><span style="COLOR: white">Feld</span></p></td><td style="WIDTH: 50.36%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="50%"><p class="AMIC-Textkoerper" style="TEXT-ALIGN: center; tab-stops: 102.0pt" align="center"><span style="COLOR: white">Bedeutung</span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.64%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper" style="tab-stops: 102.0pt"><span style="FONT-SIZE: 11pt; COLOR: black">Bemerkung</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.36%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper" style="tab-stops: 102.0pt"><span style="FONT-SIZE: 11pt; COLOR: black">Dieses Feld kann bislang folgende Ausprägung annehmen</span><span style="FONT-SIZE: 11pt"></span></p><table class="MsoNormalTable" style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" cellspacing="0" cellpadding="0" border="1"><tbody><tr><th style="BORDER-TOP: #548dd4 1pt solid; BORDER-RIGHT: medium none; WIDTH: 109.2pt; BORDER-BOTTOM: #4f81bd 2.25pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #548dd4 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="146"><span style="FONT-SIZE: 11pt">Ausprägung</span></th><th style="BORDER-TOP: #548dd4 1pt solid; BORDER-RIGHT: #548dd4 1pt solid; WIDTH: 109.3pt; BORDER-BOTTOM: #4f81bd 2.25pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="146"><span style="FONT-SIZE: 11pt">Bedeutung</span></th></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 109.2pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="146"><span style="COLOR: black">Silobuchung</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 109.3pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="146"><span style="COLOR: black">Summierte Menge einer Bestandsmeldung</span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 109.2pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="146">Leermeldung</td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 109.3pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="146">Das Silo wurde Leer gemeldet.</td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 109.2pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="146"><span style="COLOR: black">Qualitätswerte manuell gesetzt</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 109.3pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="146"><span style="COLOR: black">Die Qualitätswerte des Silos wurden gesetzt</span></td></tr></tbody></table><p class="AMIC-Textkoerper" style="tab-stops: 102.0pt"><span style="FONT-SIZE: 11pt; COLOR: black">Des Weiteren werden in diesem Feld Behandlungsmethoden für das Silo angezeigt.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.64%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper" style="tab-stops: 102.0pt"><span style="FONT-SIZE: 11pt; COLOR: black">Ausbuchungsmenge</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.36%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper" style="tab-stops: 102.0pt"><span style="FONT-SIZE: 11pt; COLOR: black">Wird ein Silo Leergemeldet, und es existiert einen Mengen Differenz zwischen Eingang und Ausgang so wird diese Menge hier angezeigt. (Dies betrifft nur die Leermeldungen in dem eine Bestandsmeldung gemacht wurde)</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.64%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper" style="tab-stops: 102.0pt"><span style="FONT-SIZE: 11pt; COLOR: black">Aktivität</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.36%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper" style="tab-stops: 102.0pt"><span style="FONT-SIZE: 11pt; COLOR: black">In diesem Feld wird die Aktivität der Silobuchung angezeigt. Diese kann im Waagenprozess hinterlegt werden. Des Weiteren können in dem Anwenderformat AF_LVSAKTTYP eigene Aktivitäten hinterlegt werden. Die ersten 100 Einträge werden seitens des Systems gepflegt.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.64%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper" style="tab-stops: 102.0pt"><span style="FONT-SIZE: 11pt; COLOR: black">Gegen Silo</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.36%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper" style="tab-stops: 102.0pt"><span style="FONT-SIZE: 11pt; COLOR: black">Existiert zu einer Aktivität / Silobuchung ein Gegensilo, so wird dies hier angezeigt.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="tab-stops: 102.0pt"><span style="FONT-SIZE: 11pt; COLOR: black">Folgenden Aktivitäten können ein gegen Silo haben.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt 102.0pt"><span style="FONT-SIZE: 11pt; COLOR: black">1.&nbsp;&nbsp; Bestandsübertragung</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt 102.0pt"><span style="FONT-SIZE: 11pt; COLOR: black">2.&nbsp;&nbsp; Position verschieben</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt 102.0pt"><span style="FONT-SIZE: 11pt; COLOR: black">3.&nbsp;&nbsp; Position kopieren</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt 102.0pt"><span style="FONT-SIZE: 11pt; COLOR: black">4.&nbsp;&nbsp; Menge umbuchen</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.64%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper" style="tab-stops: 102.0pt"><span style="FONT-SIZE: 11pt; COLOR: black">Waagen Belegnummer</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.36%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper" style="tab-stops: 102.0pt"><span style="FONT-SIZE: 11pt; COLOR: black">Nummer der Wiegung in der Hofliste(Waage)</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.64%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper" style="tab-stops: 102.0pt"><span style="FONT-SIZE: 11pt; COLOR: black">Art</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.36%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper" style="tab-stops: 102.0pt"><span style="FONT-SIZE: 11pt; COLOR: black">Art der Wiegung</span><span style="FONT-SIZE: 11pt"></span></p><table class="MsoNormalTable" style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" cellspacing="0" cellpadding="0" border="1"><tbody><tr><th style="BORDER-TOP: #548dd4 1pt solid; BORDER-RIGHT: medium none; WIDTH: 109.35pt; BORDER-BOTTOM: #4f81bd 2.25pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #548dd4 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="146"><span style="FONT-SIZE: 11pt">Art</span></th><th style="BORDER-TOP: #548dd4 1pt solid; BORDER-RIGHT: #548dd4 1pt solid; WIDTH: 109.4pt; BORDER-BOTTOM: #4f81bd 2.25pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="146"><span style="FONT-SIZE: 11pt">Bedeutung</span></th></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 109.35pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="146"><span style="COLOR: black">WE</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 109.4pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="146"><span style="COLOR: black">Wareneingang</span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 109.35pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="146">WA</td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 109.4pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="146">Warenausgang</td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 109.35pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="146"><span style="COLOR: black">RWE</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 109.4pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="146"><span style="COLOR: black">Rohwareneingang</span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 109.35pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="146">RWA</td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 109.4pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="146">Rohwarenausgang</td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 109.35pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="146"><span style="COLOR: black">LGU</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 109.4pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="146"><span style="COLOR: black">Lagerumbuchung</span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 109.35pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="146">LW</td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 109.4pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="146">Lohnwiegung</td></tr></tbody></table></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 49.64%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="49%"><p class="AMIC-Textkoerper" style="tab-stops: 102.0pt"><span style="FONT-SIZE: 11pt; COLOR: black">Bewegungstatus</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 50.36%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="50%"><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt 102.0pt"><span style="FONT-SIZE: 11pt; COLOR: black">1.&nbsp;&nbsp; Inventur Austrag</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt 102.0pt"><span style="FONT-SIZE: 11pt; COLOR: black">2.&nbsp;&nbsp; Inventur Vortrag</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt 102.0pt"><span style="FONT-SIZE: 11pt; COLOR: black">3.&nbsp;&nbsp; Inventur Austrag gelöscht</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt 102.0pt"><span style="FONT-SIZE: 11pt; COLOR: black">4.&nbsp;&nbsp; Inventur Vortrag gelöscht</span><span style="FONT-SIZE: 11pt"></span></p></td></tr></tbody></table>
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p>Feld</p>
+        </td>
+        <td>
+          <p>Bedeutung</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bemerkung</p>
+        </td>
+        <td>
+          <p>Dieses Feld kann bislang folgende Ausprägung annehmen</p>
+          <table>
+            <tbody>
+              <tr>
+                <th>Ausprägung</th>
+                <th>Bedeutung</th>
+              </tr>
+              <tr>
+                <td>Silobuchung</td>
+                <td>Summierte Menge einer Bestandsmeldung</td>
+              </tr>
+              <tr>
+                <td>Leermeldung</td>
+                <td>Das Silo wurde Leer gemeldet.</td>
+              </tr>
+              <tr>
+                <td>Qualitätswerte manuell gesetzt</td>
+                <td>Die Qualitätswerte des Silos wurden gesetzt</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>Des Weiteren werden in diesem Feld Behandlungsmethoden für das Silo angezeigt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Ausbuchungsmenge</p>
+        </td>
+        <td>
+          <p>Wird ein Silo Leergemeldet, und es existiert einen Mengen Differenz zwischen Eingang und Ausgang so wird diese Menge hier angezeigt. (Dies betrifft nur die Leermeldungen in dem eine Bestandsmeldung gemacht wurde)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Aktivität</p>
+        </td>
+        <td>
+          <p>In diesem Feld wird die Aktivität der Silobuchung angezeigt. Diese kann im Waagenprozess hinterlegt werden. Des Weiteren können in dem Anwenderformat AF_LVSAKTTYP eigene Aktivitäten hinterlegt werden. Die ersten 100 Einträge werden seitens des Systems gepflegt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Gegen Silo</p>
+        </td>
+        <td>
+          <p>Existiert zu einer Aktivität / Silobuchung ein Gegensilo, so wird dies hier angezeigt.</p>
+          <p>Folgenden Aktivitäten können ein gegen Silo haben.</p>
+          <p>1.&nbsp;&nbsp; Bestandsübertragung</p>
+          <p>2.&nbsp;&nbsp; Position verschieben</p>
+          <p>3.&nbsp;&nbsp; Position kopieren</p>
+          <p>4.&nbsp;&nbsp; Menge umbuchen</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Waagen Belegnummer</p>
+        </td>
+        <td>
+          <p>Nummer der Wiegung in der Hofliste(Waage)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Art</p>
+        </td>
+        <td>
+          <p>Art der Wiegung</p>
+          <table>
+            <tbody>
+              <tr>
+                <th>Art</th>
+                <th>Bedeutung</th>
+              </tr>
+              <tr>
+                <td>WE</td>
+                <td>Wareneingang</td>
+              </tr>
+              <tr>
+                <td>WA</td>
+                <td>Warenausgang</td>
+              </tr>
+              <tr>
+                <td>RWE</td>
+                <td>Rohwareneingang</td>
+              </tr>
+              <tr>
+                <td>RWA</td>
+                <td>Rohwarenausgang</td>
+              </tr>
+              <tr>
+                <td>LGU</td>
+                <td>Lagerumbuchung</td>
+              </tr>
+              <tr>
+                <td>LW</td>
+                <td>Lohnwiegung</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bewegungstatus</p>
+        </td>
+        <td>
+          <p>1.&nbsp;&nbsp; Inventur Austrag</p>
+          <p>2.&nbsp;&nbsp; Inventur Vortrag</p>
+          <p>3.&nbsp;&nbsp; Inventur Austrag gelöscht</p>
+          <p>4.&nbsp;&nbsp; Inventur Vortrag gelöscht</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="just-emphasize">Besonderheit</p>
 

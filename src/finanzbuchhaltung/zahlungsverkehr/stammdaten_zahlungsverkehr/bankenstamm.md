@@ -8,7 +8,192 @@ Direktsprung **[BNK]**.
 
 Hierbei handelt es sich um die Grunddaten der Banken; sie sind Grundlage der Kunden- und Hausbanken. Folgende Felder werden im Bankenstamm geführt:
 
-<table class="AMIC-Tabelle" style="WIDTH: 100%; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="100%" border="0"><tbody><tr><td style="WIDTH: 11.88%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="11%"></td><td style="WIDTH: 88.12%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="88%"><p class="AMIC-Ueberschrift-Tabelle" style="TEXT-ALIGN: center" align="center"><span style="COLOR: white">Beschreibung</span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 11.88%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="11%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Nummer</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 88.12%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="88%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Vergabe einer - laufenden - Nummer für die Bank. Sie dient als verweis in anderen Tabellen auf diese Bank.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 11.88%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="11%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Swift / BIC</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 88.12%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="88%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Hier werden der BIC (Bank Identifier Code) der Bank hinterlegt.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 11.88%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="11%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Bezeichnung</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 88.12%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="88%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Bezeichnung der Bank, z.B. Postbank Hamburg</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 11.88%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="11%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Matchcode</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 88.12%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="88%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Kurzsuchbegriff nach freier Wahl, z.B. PB HH.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 11.88%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="11%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Staat</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 88.12%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="88%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Kennzeichen für den Staat bei Auslandsbanken. Für Banken, bei denen nicht Deutschland als Staat eingetragen ist – der Staat Deutschland wird am ISO-Code DE erkannt -, wird die Bankleitzahl zwar auf Eindeutigkeit geprüft und eine Hinweis wird ausgegeben, aber sie werden trotzdem gespeichert. Bei Banken in Deutschland ist das Speichern dieser neuen Bank dann nicht möglich.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 11.88%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="11%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">PLZ/ORT</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 88.12%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="88%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Postleitzahl und Ort, an dem diese Bank ihren Sitz hat.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 11.88%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="11%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Bankleitzahl</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 88.12%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="88%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Als Voraussetzung für die Automatisierung des bargeldlosen Zahlungsverkehrs sind die Spitzenverbände des Kreditgewerbes und die Deutsche Bundesbank mit Wirkung vom 1.Oktober 1970 überein gekommen, im Girogeschäft tätige Kreditinstitute im Bundesgebiet durch Bankleitzahlen zu kennzeichnen, die nach einem einheitlichen System aufgebaut sind. Die Bankleitzahl ist numerisch und umfasst acht Stellen.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">&nbsp;In A.eins dient sie unter anderem als Suchkriterium und steht für Ausdrucke, Datenträgeraustausch etc. zur Verfügung. Aus der Bankleitzahl werden die Bankregion (Bankplatz/Ortsnummer) und die Bankgruppe (Netznummer) ermittelt.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 11.88%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="11%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Bankgruppe</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 88.12%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="88%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Die Bankengruppe (Netznummer) soll dazu dienen, Banken zu kennzeichnen, die zu einem Verbund (z. B. die Volks- und Raiffeisenbanken) gehören, weil es oft der Valutierung zuträglich ist, Überweisungen innerhalb einer Bankengruppe durchzuführen, wo es möglich ist. Es gelten z.Zt. folgende Einteilungen:</span><span style="FONT-SIZE: 11pt"></span></p><table class="MsoNormalTable" style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 379.2pt; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; MARGIN-LEFT: 3.5pt; BORDER-LEFT: medium none" cellspacing="0" cellpadding="0" width="506" border="1"><tbody><tr><th style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 44.4pt; BACKGROUND: black; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 3.5pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 3.5pt" valign="top" width="59"><span style="COLOR: white">Nr.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></th><th style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 334.8pt; BACKGROUND: black; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 3.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 3.5pt" valign="top" width="446"><span style="COLOR: white">Institut</span></th></tr><tr style="HEIGHT: 13.65pt"><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 44.4pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="59">0</td><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 334.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="446">Deutsche Bundesbank</td></tr><tr style="HEIGHT: 13.65pt"><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 44.4pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="59">1-3</td><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 334.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="446">Kreditinstitute, soweit nicht in einer der anderen Gruppen erfasst</td></tr><tr style="HEIGHT: 13.65pt"><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 44.4pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="59">4</td><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 334.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="446">Commerzbank</td></tr><tr style="HEIGHT: 13.65pt"><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 44.4pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="59">5</td><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 334.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="446">Girozentralen und Sparkassen</td></tr><tr style="HEIGHT: 13.65pt"><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 44.4pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="59">6+9</td><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 334.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="446">Genossenschaftliche Zentralbanken, Kreditgenossenschaften sowie ehemalige Genossenschaften.</td></tr><tr style="HEIGHT: 13.65pt"><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 44.4pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="59">7</td><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 334.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="446">Deutsche Bank</td></tr><tr style="HEIGHT: 13.65pt"><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 44.4pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="59">8</td><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 334.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="446">Deutsche Bank</td></tr></tbody></table></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 11.88%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="11%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Bank Region</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 88.12%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="88%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Auch die Regionalgruppe kann Valutatage einsparen, wenn Banken am gleichen Ort bevorzugt bedient werden. Üblicherweise ergibt sich das in Deutschland aus den ersten drei Stellen der Bankleitzahl dem sogenannten Bankplatz bzw. Ortsnummer. Die erste Stelle ist dabei das sogenannte Clearing-Gebiet. Für das Clearing-Gebiet gilt z.Zt. folgende Einteilung:</span><span style="FONT-SIZE: 11pt"></span></p><table class="MsoNormalTable" style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 379.2pt; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; MARGIN-LEFT: 3.5pt; BORDER-LEFT: medium none" cellspacing="0" cellpadding="0" width="506" border="1"><tbody><tr><th style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 44.4pt; BACKGROUND: black; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 3.5pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 3.5pt" valign="top" width="59"><b><span style="COLOR: white">Nr.</span></b></th><th style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 334.8pt; BACKGROUND: black; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 3.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 3.5pt" valign="top" width="446"><b><span style="COLOR: white">Land/Landesteil</span></b></th></tr><tr style="HEIGHT: 13.65pt"><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 44.4pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="59">1</td><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 334.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="446">Berlin, Brandenburg, Mecklenburg-Vorpommern</td></tr><tr style="HEIGHT: 13.65pt"><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 44.4pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="59">2</td><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 334.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="446">Bremen, Hamburg, Niedersachsen, Schleswig-Holstein</td></tr><tr style="HEIGHT: 13.65pt"><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 44.4pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="59">3</td><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 334.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="446">Rheinland( Regierungsbezirke Düsseldorf, Köln)</td></tr><tr style="HEIGHT: 13.65pt"><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 44.4pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="59">4</td><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 334.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="446">Westfalen</td></tr><tr style="HEIGHT: 13.65pt"><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 44.4pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="59">5</td><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 334.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="446">Hessen, Rheinland-Pfalz, Saarland</td></tr><tr style="HEIGHT: 13.65pt"><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 44.4pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="59">6</td><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 334.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="446">Baden-Württemberg</td></tr><tr style="HEIGHT: 13.65pt"><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 44.4pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="59">7</td><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 334.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="446">Bayern</td></tr><tr style="HEIGHT: 13.65pt"><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 44.4pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="59">8</td><td style="BORDER-TOP: medium none; HEIGHT: 13.65pt; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 334.8pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="446">Sachsen, Sachsen-Anhalt, Thüringen</td></tr></tbody></table></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 11.88%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="11%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">IBAN Prüfung</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 88.12%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="88%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Die IBAN wird für Hausbanken und Kundenbanken nach dem Standard-Prüfziffernverfahren getestet. Da einige Banken ein abweichendes Verfahren verwenden kann der Test hier für diese Banken abgestellt werden.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Die Prüfung kann auch global per <a class="topic-link" href="../../../firmenstamm/steuerparameter/optionen_finanzwesen/iban_test_nach_standard_pruefziffernverfahren_spa_897.md"><span class="AMIC-Textkoerper-LinkZchn">Steuerparameter</span></a> abgeschaltet werden.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 11.88%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="11%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">EDIFACT-Kennung</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 88.12%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="88%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Dieses Feld steht nur dann zur Verfügung, wenn man den Steuerungsparameter „DTA Format“ auf „Österreich“ gesetzt hat. In Österreich wird der Datenträgeraustausch über EDIFACT-Transaktionen vorgenommen. Die Banken haben eine EDIFACT-Kennung, die in diesem Verfahren zur Identifikation verwendet wird.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 11.88%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="11%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Bemerkungen</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 88.12%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="88%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Freier Text für Notizen</span><span style="FONT-SIZE: 11pt"></span></p></td></tr></tbody></table>
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td></td>
+        <td>
+          <p><strong>Beschreibung</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Nummer</p>
+        </td>
+        <td>
+          <p>Vergabe einer - laufenden - Nummer für die Bank. Sie dient als verweis in anderen Tabellen auf diese Bank.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Swift / BIC</p>
+        </td>
+        <td>
+          <p>Hier werden der BIC (Bank Identifier Code) der Bank hinterlegt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bezeichnung</p>
+        </td>
+        <td>
+          <p>Bezeichnung der Bank, z.B. Postbank Hamburg</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Matchcode</p>
+        </td>
+        <td>
+          <p>Kurzsuchbegriff nach freier Wahl, z.B. PB HH.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Staat</p>
+        </td>
+        <td>
+          <p>Kennzeichen für den Staat bei Auslandsbanken. Für Banken, bei denen nicht Deutschland als Staat eingetragen ist – der Staat Deutschland wird am ISO-Code DE erkannt -, wird die Bankleitzahl zwar auf Eindeutigkeit geprüft und eine Hinweis wird ausgegeben, aber sie werden trotzdem gespeichert. Bei Banken in Deutschland ist das Speichern dieser neuen Bank dann nicht möglich.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>PLZ/ORT</p>
+        </td>
+        <td>
+          <p>Postleitzahl und Ort, an dem diese Bank ihren Sitz hat.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bankleitzahl</p>
+        </td>
+        <td>
+          <p>Als Voraussetzung für die Automatisierung des bargeldlosen Zahlungsverkehrs sind die Spitzenverbände des Kreditgewerbes und die Deutsche Bundesbank mit Wirkung vom 1.Oktober 1970 überein gekommen, im Girogeschäft tätige Kreditinstitute im Bundesgebiet durch Bankleitzahlen zu kennzeichnen, die nach einem einheitlichen System aufgebaut sind. Die Bankleitzahl ist numerisch und umfasst acht Stellen.</p>
+          <p>&nbsp;In A.eins dient sie unter anderem als Suchkriterium und steht für Ausdrucke, Datenträgeraustausch etc. zur Verfügung. Aus der Bankleitzahl werden die Bankregion (Bankplatz/Ortsnummer) und die Bankgruppe (Netznummer) ermittelt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bankgruppe</p>
+        </td>
+        <td>
+          <p>Die Bankengruppe (Netznummer) soll dazu dienen, Banken zu kennzeichnen, die zu einem Verbund (z. B. die Volks- und Raiffeisenbanken) gehören, weil es oft der Valutierung zuträglich ist, Überweisungen innerhalb einer Bankengruppe durchzuführen, wo es möglich ist. Es gelten z.Zt. folgende Einteilungen:</p>
+          <table>
+            <tbody>
+              <tr>
+                <th>Nr.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th>Institut</th>
+              </tr>
+              <tr>
+                <td>0</td>
+                <td>Deutsche Bundesbank</td>
+              </tr>
+              <tr>
+                <td>1-3</td>
+                <td>Kreditinstitute, soweit nicht in einer der anderen Gruppen erfasst</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Commerzbank</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Girozentralen und Sparkassen</td>
+              </tr>
+              <tr>
+                <td>6+9</td>
+                <td>Genossenschaftliche Zentralbanken, Kreditgenossenschaften sowie ehemalige Genossenschaften.</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Deutsche Bank</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>Deutsche Bank</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bank Region</p>
+        </td>
+        <td>
+          <p>Auch die Regionalgruppe kann Valutatage einsparen, wenn Banken am gleichen Ort bevorzugt bedient werden. Üblicherweise ergibt sich das in Deutschland aus den ersten drei Stellen der Bankleitzahl dem sogenannten Bankplatz bzw. Ortsnummer. Die erste Stelle ist dabei das sogenannte Clearing-Gebiet. Für das Clearing-Gebiet gilt z.Zt. folgende Einteilung:</p>
+          <table>
+            <tbody>
+              <tr>
+                <th><b>Nr.</b></th>
+                <th><b>Land/Landesteil</b></th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Berlin, Brandenburg, Mecklenburg-Vorpommern</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Bremen, Hamburg, Niedersachsen, Schleswig-Holstein</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Rheinland( Regierungsbezirke Düsseldorf, Köln)</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Westfalen</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Hessen, Rheinland-Pfalz, Saarland</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Baden-Württemberg</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Bayern</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>Sachsen, Sachsen-Anhalt, Thüringen</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>IBAN Prüfung</p>
+        </td>
+        <td>
+          <p>Die IBAN wird für Hausbanken und Kundenbanken nach dem Standard-Prüfziffernverfahren getestet. Da einige Banken ein abweichendes Verfahren verwenden kann der Test hier für diese Banken abgestellt werden.</p>
+          <p>Die Prüfung kann auch global per <a href="../../../firmenstamm/steuerparameter/optionen_finanzwesen/iban_test_nach_standard_pruefziffernverfahren_spa_897.md">Steuerparameter</a> abgeschaltet werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>EDIFACT-Kennung</p>
+        </td>
+        <td>
+          <p>Dieses Feld steht nur dann zur Verfügung, wenn man den Steuerungsparameter „DTA Format“ auf „Österreich“ gesetzt hat. In Österreich wird der Datenträgeraustausch über EDIFACT-Transaktionen vorgenommen. Die Banken haben eine EDIFACT-Kennung, die in diesem Verfahren zur Identifikation verwendet wird.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Bemerkungen</p>
+        </td>
+        <td>
+          <p>Freier Text für Notizen</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="just-emphasize">Banken aktualisieren</p>
 

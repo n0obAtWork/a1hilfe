@@ -2,7 +2,243 @@
 
 <!-- source: https://amic.de/hilfe/_prozess_bildschirm.htm -->
 
-<table class="AMIC-Tabelle" style="WIDTH: 100%; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="100%" border="0"><tbody><tr><td style="WIDTH: 44.04%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="44%"><p class="AMIC-Ueberschrift-Tabelle" style="TEXT-ALIGN: center" align="center"><span style="COLOR: white">Feld</span></p></td><td style="WIDTH: 55.96%; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="55%"><p class="AMIC-Ueberschrift-Tabelle" style="TEXT-ALIGN: center" align="center"><span style="COLOR: white">Bedeutung</span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.04%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Vorbelegung des Klammertyps</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.96%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="55%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Belegt den Klammertyp in der Waage mit dem hier hinterlegten Klammertyp</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.04%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Spedition und LKW als Textfelder</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.96%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="55%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Mit diesem Schalter kann eingestellt werden, ob das LKW-Feld als Textfeld behandelt werden soll.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.04%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Den letzten LKW vorbelegen</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.96%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="55%"></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.04%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Die letzte Schlagbezeichnung vorbelegen</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.96%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="55%"></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.04%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">TAB Deck Einstellungen deaktivieren</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.96%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="55%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Mit dieser Einstellung kann die Registerkarte Einstellungen ausgeblendet werden.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.04%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Länge der Bemerkungsfelder</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.96%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="55%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Hier kann die Textlänge der Bemerkungsfelder hinterlegt werden</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.04%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Dispomengenfeld deaktivieren</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.96%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="55%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Blendet die Dispomengenfelder auf der Waagenmaske aus, wenn der Schalter auf Ja steht.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.04%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Lagerplatzfelder deaktivieren</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.96%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="55%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Wenn diese Einstellung auf Ja gestellt wird, so werden die Lagerfelder auf Waagenmaske aus geblendet-</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.04%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Kunden-Ort mit anzeigen</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.96%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="55%"></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.04%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Rohwarenschema mit abfragen</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.96%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="55%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Mit dieser Einstellung wir das Rohwarenschema ausgeblendet.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.04%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Artikelbezeichnung nicht aktiv abfragen</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.96%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="55%"><p class="AMIC-Textkoerper" style="tab-stops: 25.3pt"><span style="FONT-SIZE: 11pt; COLOR: black">Wird der Schalter auf Nein gestellt, so kann die Artikelbezeichnung geändert werden.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.04%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Sonderqualitäten deaktivieren</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.96%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="55%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Hiermit können die Felder der Sonderqualitäten deaktiviert werden. (Felder: Feuchteprozent, Fremdfeuchte, Frachtkennzeichen)</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr style="HEIGHT: 21.85pt"><td style="BORDER-TOP: medium none; HEIGHT: 21.85pt; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.04%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Ladungszeiten aktivieren</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; HEIGHT: 21.85pt; BORDER-RIGHT: medium none; WIDTH: 55.96%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="55%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Wird dieses Feld auf „Nein“ gestellt, so werden die Felder für die Ladungszeiten deaktiviert.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.04%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Schlag/Sorte/Gebiet aktiv</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.96%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="55%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Wird dieses Feld auf „Nein“ gestellt, so werden die Felder für den Schlag, die Sorte und das Gebiet deaktiviert.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.04%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Vorfracht aktiv</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.96%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="55%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Noch nicht implementiert</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.04%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Breite der Waagenmaske in Pixel</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.96%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="55%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Hiermit kann die Breite der Waagenmaske verändert werden. Sobald die Waagenmaske breit genug ist werden die Qualitätstabellen, so wie der Abstufungsrtikel und die Infratec Datentabelle auf die Registerkarte Allgemein geschoben.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Sobald eine Qualitätstabelle auf der Registerkarte Allgemein angezeigt wird und es noch keine Feldreihenfolge existiert, wird Standartmäßig eine neue angelegt.</span><span style="FONT-SIZE: 11pt"></span></p><table class="MsoNormalTable" style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" cellspacing="0" cellpadding="0" border="1"><tbody><tr><th style="BORDER-TOP: #548dd4 1pt solid; BORDER-RIGHT: medium none; WIDTH: 93.65pt; BORDER-BOTTOM: #4f81bd 2.25pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #548dd4 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="125"><span style="FONT-SIZE: 11pt">Aktuelles Feld</span></th><th style="BORDER-TOP: #548dd4 1pt solid; BORDER-RIGHT: medium none; WIDTH: 79.65pt; BORDER-BOTTOM: #4f81bd 2.25pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="106"><span style="FONT-SIZE: 11pt">Vorheriges Feld</span></th><th style="BORDER-TOP: #548dd4 1pt solid; BORDER-RIGHT: #548dd4 1pt solid; WIDTH: 90.45pt; BORDER-BOTTOM: #4f81bd 2.25pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="121"><span style="FONT-SIZE: 11pt">Nachfolgendes Feld</span></th></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 93.65pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="125"><span style="COLOR: black">Kontrakt</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 79.65pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="106"><span style="COLOR: black">-</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 90.45pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="121"><span style="COLOR: black">Kunde</span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 93.65pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="125">Kunde</td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 79.65pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="106">Kontrakt</td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 90.45pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="121">Fahrer</td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 93.65pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="125"><span style="COLOR: black">Fahrer</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 79.65pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="106"><span style="COLOR: black">Kunde</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 90.45pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="121"><span style="COLOR: black">Lager</span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 93.65pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="125">Lager</td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 79.65pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="106">Fahrer</td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 90.45pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="121">Artikel</td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 93.65pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="125"><span style="COLOR: black">Artikel</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 79.65pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="106"><span style="COLOR: black">Fahrer</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 90.45pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="121"><span style="COLOR: black">Bemerkung</span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 93.65pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="125">Bemerkung</td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 79.65pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="106">Artikel</td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 90.45pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="121">Bemerkung2</td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 93.65pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="125"><span style="COLOR: black">Bemerkung2</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 79.65pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="106"><span style="COLOR: black">Bemerkung</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 90.45pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="121"><span style="COLOR: black">Bemerkung3</span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 93.65pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="125">Bemerkung3</td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 79.65pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="106">Bemerkung2</td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 90.45pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="121">Silo/Ladeträger</td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 93.65pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="125"><span style="COLOR: black">Silo/Ladeträger</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 79.65pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="106"><span style="COLOR: black">Bemerkung3</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 90.45pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="121"><span style="COLOR: black">Qualitätstabelle 1</span></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 93.65pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="125">Qualitätstabelle 1</td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 79.65pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="106">Silo/Ladeträger</td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 90.45pt; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="121">Qualitätstabelle 2 wenn dieses auf der Registerkarte Allgemein vorhanden ist ansonsten wird in das Feld Kontrakt gesprungen.</td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 93.65pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #4f81bd 1pt solid; PADDING-RIGHT: 5.4pt" valign="top" width="125"><span style="COLOR: black">Qualitätstabelle 2 wenn dieses auf der Registerkarte Allgemein vorhanden ist.</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 79.65pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="106"><span style="COLOR: black">Qualitätstabelle 1</span></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: #4f81bd 1pt solid; WIDTH: 90.45pt; BACKGROUND: #c6d9f1; BORDER-BOTTOM: #4f81bd 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="121"><span style="COLOR: black">Kontrakt</span></td></tr></tbody></table></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.04%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Höhe der Waagenmaske in Pixel</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.96%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="55%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Hiermit kann die Höhe der Waagenmaske verändert wird. Ist die Waagenmaske hoch genug, so wird die Kontraktverteilungs Datentabelle angezeigt.</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.04%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Prozessverhalten</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.96%; BACKGROUND: #eff7f7; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="55%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Hier kann das Verhalten für das Prozessfeld auf der Waagenmaske eingestellt werden.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Folgende Auswahl ist möglich:</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-SIZE: 11pt; COLOR: black"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp; </span></span><span style="FONT-SIZE: 11pt; COLOR: black">Nicht Änderbar</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-SIZE: 11pt; COLOR: black"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp; </span></span><span style="FONT-SIZE: 11pt; COLOR: black">Änderbar</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-SIZE: 11pt; COLOR: black"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp; </span></span><span style="FONT-SIZE: 11pt; COLOR: black">Verstecken</span><span style="FONT-SIZE: 11pt"></span></p></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 44.04%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="44%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Terminalverhalten</span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 55.96%; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="55%"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Hier kann das Verhalten für das Terminalfeld auf der Waagenmaske eingestellt werden.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Folgende Auswahl ist möglich:</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-SIZE: 11pt; COLOR: black"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp; </span></span><span style="FONT-SIZE: 11pt; COLOR: black">Nicht Änderbar</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-SIZE: 11pt; COLOR: black"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp; </span></span><span style="FONT-SIZE: 11pt; COLOR: black">Änderbar</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-SIZE: 11pt; COLOR: black"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp; </span></span><span style="FONT-SIZE: 11pt; COLOR: black">Verstecken</span><span style="FONT-SIZE: 11pt"></span></p></td></tr></tbody></table>
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Feld</strong></p>
+        </td>
+        <td>
+          <p><strong>Bedeutung</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Vorbelegung des Klammertyps</p>
+        </td>
+        <td>
+          <p>Belegt den Klammertyp in der Waage mit dem hier hinterlegten Klammertyp</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Spedition und LKW als Textfelder</p>
+        </td>
+        <td>
+          <p>Mit diesem Schalter kann eingestellt werden, ob das LKW-Feld als Textfeld behandelt werden soll.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Den letzten LKW vorbelegen</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Die letzte Schlagbezeichnung vorbelegen</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>TAB Deck Einstellungen deaktivieren</p>
+        </td>
+        <td>
+          <p>Mit dieser Einstellung kann die Registerkarte Einstellungen ausgeblendet werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Länge der Bemerkungsfelder</p>
+        </td>
+        <td>
+          <p>Hier kann die Textlänge der Bemerkungsfelder hinterlegt werden</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Dispomengenfeld deaktivieren</p>
+        </td>
+        <td>
+          <p>Blendet die Dispomengenfelder auf der Waagenmaske aus, wenn der Schalter auf Ja steht.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Lagerplatzfelder deaktivieren</p>
+        </td>
+        <td>
+          <p>Wenn diese Einstellung auf Ja gestellt wird, so werden die Lagerfelder auf Waagenmaske aus geblendet-</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kunden-Ort mit anzeigen</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Rohwarenschema mit abfragen</p>
+        </td>
+        <td>
+          <p>Mit dieser Einstellung wir das Rohwarenschema ausgeblendet.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Artikelbezeichnung nicht aktiv abfragen</p>
+        </td>
+        <td>
+          <p>Wird der Schalter auf Nein gestellt, so kann die Artikelbezeichnung geändert werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Sonderqualitäten deaktivieren</p>
+        </td>
+        <td>
+          <p>Hiermit können die Felder der Sonderqualitäten deaktiviert werden. (Felder: Feuchteprozent, Fremdfeuchte, Frachtkennzeichen)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Ladungszeiten aktivieren</p>
+        </td>
+        <td>
+          <p>Wird dieses Feld auf „Nein“ gestellt, so werden die Felder für die Ladungszeiten deaktiviert.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Schlag/Sorte/Gebiet aktiv</p>
+        </td>
+        <td>
+          <p>Wird dieses Feld auf „Nein“ gestellt, so werden die Felder für den Schlag, die Sorte und das Gebiet deaktiviert.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Vorfracht aktiv</p>
+        </td>
+        <td>
+          <p>Noch nicht implementiert</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Breite der Waagenmaske in Pixel</p>
+        </td>
+        <td>
+          <p>Hiermit kann die Breite der Waagenmaske verändert werden. Sobald die Waagenmaske breit genug ist werden die Qualitätstabellen, so wie der Abstufungsrtikel und die Infratec Datentabelle auf die Registerkarte Allgemein geschoben.</p>
+          <p>Sobald eine Qualitätstabelle auf der Registerkarte Allgemein angezeigt wird und es noch keine Feldreihenfolge existiert, wird Standartmäßig eine neue angelegt.</p>
+          <table>
+            <tbody>
+              <tr>
+                <th>Aktuelles Feld</th>
+                <th>Vorheriges Feld</th>
+                <th>Nachfolgendes Feld</th>
+              </tr>
+              <tr>
+                <td>Kontrakt</td>
+                <td>-</td>
+                <td>Kunde</td>
+              </tr>
+              <tr>
+                <td>Kunde</td>
+                <td>Kontrakt</td>
+                <td>Fahrer</td>
+              </tr>
+              <tr>
+                <td>Fahrer</td>
+                <td>Kunde</td>
+                <td>Lager</td>
+              </tr>
+              <tr>
+                <td>Lager</td>
+                <td>Fahrer</td>
+                <td>Artikel</td>
+              </tr>
+              <tr>
+                <td>Artikel</td>
+                <td>Fahrer</td>
+                <td>Bemerkung</td>
+              </tr>
+              <tr>
+                <td>Bemerkung</td>
+                <td>Artikel</td>
+                <td>Bemerkung2</td>
+              </tr>
+              <tr>
+                <td>Bemerkung2</td>
+                <td>Bemerkung</td>
+                <td>Bemerkung3</td>
+              </tr>
+              <tr>
+                <td>Bemerkung3</td>
+                <td>Bemerkung2</td>
+                <td>Silo/Ladeträger</td>
+              </tr>
+              <tr>
+                <td>Silo/Ladeträger</td>
+                <td>Bemerkung3</td>
+                <td>Qualitätstabelle 1</td>
+              </tr>
+              <tr>
+                <td>Qualitätstabelle 1</td>
+                <td>Silo/Ladeträger</td>
+                <td>Qualitätstabelle 2 wenn dieses auf der Registerkarte Allgemein vorhanden ist ansonsten wird in das Feld Kontrakt gesprungen.</td>
+              </tr>
+              <tr>
+                <td>Qualitätstabelle 2 wenn dieses auf der Registerkarte Allgemein vorhanden ist.</td>
+                <td>Qualitätstabelle 1</td>
+                <td>Kontrakt</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Höhe der Waagenmaske in Pixel</p>
+        </td>
+        <td>
+          <p>Hiermit kann die Höhe der Waagenmaske verändert wird. Ist die Waagenmaske hoch genug, so wird die Kontraktverteilungs Datentabelle angezeigt.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Prozessverhalten</p>
+        </td>
+        <td>
+          <p>Hier kann das Verhalten für das Prozessfeld auf der Waagenmaske eingestellt werden.</p>
+          <p>Folgende Auswahl ist möglich:</p>
+          <ul>
+            <li>Nicht Änderbar</li>
+            <li>Änderbar</li>
+            <li>Verstecken</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Terminalverhalten</p>
+        </td>
+        <td>
+          <p>Hier kann das Verhalten für das Terminalfeld auf der Waagenmaske eingestellt werden.</p>
+          <p>Folgende Auswahl ist möglich:</p>
+          <ul>
+            <li>Nicht Änderbar</li>
+            <li>Änderbar</li>
+            <li>Verstecken</li>
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="just-emphasize">Pflichtfelder Gruppen</p>
 
