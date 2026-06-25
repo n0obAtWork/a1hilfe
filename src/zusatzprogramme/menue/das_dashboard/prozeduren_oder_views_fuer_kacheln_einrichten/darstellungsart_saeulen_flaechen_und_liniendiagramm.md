@@ -10,4 +10,130 @@ Direktsprung **[DASH]** \> Variante Kachel
 
 Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Basisdesign](./basisdesign.md) zur Verfügung.
 
-<table class="AMIC-Tabelle" style="WIDTH: 102.92%; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="102%" border="0"><tbody><tr><td style="WIDTH: 347.3pt; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="463"></td><td style="WIDTH: 1236.7pt; BACKGROUND: #005d5b; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" width="1649"></td></tr><tr><td style="BORDER-TOP: medium none; BORDER-RIGHT: white 1.5pt solid; WIDTH: 347.3pt; BACKGROUND: #bad9d9; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="463"><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black"><img title="Ein Bild, das Diagramm enthält. Automatisch generierte Beschreibung" alt="Ein Bild, das Diagramm enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1500.png"></span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black"><img title="Ein Bild, das Diagramm enthält. Automatisch generierte Beschreibung" alt="Ein Bild, das Diagramm enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1501.png"></span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black"><img title="Ein Bild, das Diagramm enthält. Automatisch generierte Beschreibung" alt="Ein Bild, das Diagramm enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1502.png"></span><span style="FONT-SIZE: 11pt"></span></p></td><td style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 1236.7pt; BACKGROUND: #bad9d9; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt" valign="top" width="1649"><p class="just-emphasize">Säulen-, Flächen und Liniendiagramm</p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">In einem Säulen-, Flächen und Liniendiagramm können jeweils bis zu <u>zehn</u> Serien (Datenreihen) angezeigt werden. Dabei wird jede Serie in einer eigenen Farbe dargestellt. Jede Serie besteht aus ein oder mehreren Datenpunkten. Die Datenpunkte werden mit <b><span style="BACKGROUND: yellow">X</span></b> (Werte der horizontalen Achse) und <b><span style="BACKGROUND: yellow">Y</span></b> (Werte der vertikalen Achse) angegeben.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><u><span style="FONT-SIZE: 11pt; COLOR: black">Achsen</span></u><u><span style="FONT-SIZE: 11pt"></span></u></p><p class="AMIC-Textkoerper" style="MARGIN-BOTTOM: 0pt"><span style="FONT-SIZE: 11pt; COLOR: black">Die Diagramme bestehen aus einer horizontalen X- und einer vertikalen Y-Achse. Auf der Y-Achse werden ausschließlich numerische Werte angezeigt, während auf der X-Achse sowohl Text als auch numerische Werte angeben werden können.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN-BOTTOM: 0pt"><span style="FONT-SIZE: 11pt; COLOR: black">Bei der X-Achse ist zu beachten, dass die Werte sequenziell - so wie sie von der Prozedur geliefert werden - und <u>nicht</u> sortiert nach ihren Werten, angeordnet werden. Ausnahme: Für Datumsangaben auf der X-Achse kann in der View/Prozedur das Feld <b>XAxisType</b> mit dem Wert „date“ angegeben werden. Dann werden die Werte auf der X-Achse automatisch nach dem Datum sortiert.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN-BOTTOM: 0pt"><span style="FONT-SIZE: 11pt; COLOR: black">Mit den Feldern <b>XAxisTitle</b> und <b>YAxisTitle </b>kann ein Titel für die Achsen vergeben werden. Außerdem kann für die Y-Achse optional ein Minimal- und Maximalwert (<b>YAxisMinValue </b>und <b>YAxisMaxValue</b>) festgelegt werden.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN: 0pt"><span style="FONT-SIZE: 11pt; COLOR: black">Über die Felder <b>XAxisInterval</b> und <b>YAxisInterval</b> kann das Intervall für die Beschriftung der X- bzw. Y-Achse vorgegeben werden. Gleichzeitig wird hiermit auch der Abstand zwischen den Gitternetzlinien festgelegt. Wird ein Wert von „0“ oder kein Wert für das Intervall angegeben, so wird das Intervall automatisch bestimmt.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN-TOP: 0pt"><span style="FONT-SIZE: 11pt; COLOR: black">Handelt es sich bei X-Achse um eine Datumsachse (XAxisType „date“), so wird das Intervall in Form von Anzahl in Tagen festgelegt.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><u><span style="FONT-SIZE: 11pt; COLOR: black">Darstellung mehrerer Datenreihen</span></u><u><span style="FONT-SIZE: 11pt"></span></u></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Um mehrere Serien in einem Diagramm darzustellen, ist in dem Feld „Serie“ für jede Datenreihe jeweils ein Wert (0 bis 9) anzugeben. Für jede Serie kann außerdem mithilfe des Feldes <b>SeriesTitle</b> ein Titel vergeben werden. Der Titel wird u.a. in der Legende und ggf. im Tooltip angezeigt. Sind mehrere Serien in einem Diagramm vorhanden, können über dem Knopf mit dem „Pfeil“ Serien ein- und ausgeblendet werden:</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black"><img title="Ein Bild, das Diagramm enthält. Automatisch generierte Beschreibung" alt="Ein Bild, das Diagramm enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1503.png"></span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><u><span style="FONT-SIZE: 11pt; COLOR: black">Balken und Säulen überlagern</span></u><u><span style="FONT-SIZE: 11pt"></span></u></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Mit dem Feld <b>OverlapValue</b> kann für Säulen- und Balkendiagramme der Abstand zwischen den Säulen bzw. Balken verringert werden. Der Wert kann zwischen 0 und 1 reichen, wobei der Standardwert 0 ist. Für andere Diagrammarten hat das Feld keine Auswirkung.</span><span style="FONT-SIZE: 11pt"></span></p><table class="MsoTableGridLight" style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 33.12%; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" cellspacing="0" cellpadding="0" width="33%" border="0"><tbody><tr><th style="WIDTH: 135.35pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="180">OverlapValue: 0</th><th style="WIDTH: 136.75pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="182">OverlapValue: 1</th></tr><tr><td style="WIDTH: 135.35pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="180"><img src="../../../../ImagesExt/image8_1504.png" alt=""></td><td style="WIDTH: 136.75pt; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; PADDING-RIGHT: 5.4pt" valign="top" width="182"><img src="../../../../ImagesExt/image8_1505.png" alt=""></td></tr></tbody></table><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Beim Setzen des OverlapValues auf 1 ist zu beachten, dass Serien mit einer kleineren Nummer von Serien mit einer größeren Nummer verdeckt werden können.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><u><span style="FONT-SIZE: 11pt; COLOR: black">Legende</span></u><u><span style="FONT-SIZE: 11pt"></span></u></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Mithilfe des Feldes <b>LegendVisible</b> kann eingestellt werden, ob die Legende standardmäßig ein- oder ausgeblendet ist. Unabhängig von dieser Option kann die Legende über die Funktion <strong><em>Legende ein-/ausblenden</em></strong> (rechte Maustaste auf der Kachel) aktiviert bzw. deaktiviert werden. Des Weiteren ist die Position (<b>LegendPosition</b>) und die Ausrichtung (<b>LegendOrientation</b>) der Legende über die View/Prozedur einstellbar. Mögliche Werte sind:</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">LegendPosition</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-SIZE: 11pt; COLOR: black"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp; </span></span><span style="FONT-SIZE: 11pt; COLOR: black">Right</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-SIZE: 11pt; COLOR: black"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp; </span></span><span style="FONT-SIZE: 11pt; COLOR: black">Left</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-SIZE: 11pt; COLOR: black"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp; </span></span><span style="FONT-SIZE: 11pt; COLOR: black">Bottom</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-SIZE: 11pt; COLOR: black"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp; </span></span><span style="FONT-SIZE: 11pt; COLOR: black">Top</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">LegendOrientation</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-SIZE: 11pt; COLOR: black"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp; </span></span><span style="FONT-SIZE: 11pt; COLOR: black">Vertical</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt"><span style="FONT-SIZE: 11pt; COLOR: black"><span style="FONT-FAMILY: Verdana">•</span><span style="FONT-FAMILY: Symbol; VISIBILITY: hidden">&nbsp;&nbsp;&nbsp; </span></span><span style="FONT-SIZE: 11pt; COLOR: black">Horizontal</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black"><img title="Ein Bild, das Text enthält. Automatisch generierte Beschreibung" alt="Ein Bild, das Text enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1506.png"></span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><u><span style="FONT-SIZE: 11pt; COLOR: black">Tooltipp</span></u><u><span style="FONT-SIZE: 11pt"></span></u></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Mit dem Feld <b>SeriesTooltip</b> kann der Tooltip über HTML formatiert werden. Der Tooltip erscheint, wenn der Mauszeiger über einen Datenpunkt des Diagramms bewegt wird. Existiert das Feld <b>SeriesTooltip</b> nicht in der View/Prozedur, so wird der Tooltipp nicht angezeigt.</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="COLOR: black"><img src="../../../../ImagesExt/image8_1507.png" alt=""></span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><u><span style="FONT-SIZE: 11pt; COLOR: black">Datenbeschriftung</span></u><u><span style="FONT-SIZE: 11pt"></span></u></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Mit dem Feld <b>ValueLabelVisible</b> kann eine Datenbeschriftung im Diagramm aktiviert bzw. deaktiviert werden. Der Standardwert ist 0 (deaktiviert).</span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black"><img src="../../../../ImagesExt/image8_1508.png" alt=""></span><span style="FONT-SIZE: 11pt"></span></p><p class="AMIC-Textkoerper"><span style="FONT-SIZE: 11pt; COLOR: black">Beispielview:</span><span style="FONT-SIZE: 11pt"></span></p><div style="MARGIN-BOTTOM: 0pt; BORDER-TOP: #548dd4 1pt dashed; BORDER-RIGHT: #548dd4 1pt dashed; MARGIN-TOP: 0pt; BORDER-BOTTOM: #548dd4 1pt dashed; PADDING-BOTTOM: 3pt; PADDING-TOP: 3pt; PADDING-LEFT: 4pt; BORDER-LEFT: #548dd4 1pt dashed; PADDING-RIGHT: 4pt"><p class="AMIC-Sourcecode" style="MARGIN-TOP: 0pt"><span style="COLOR: black">CREATE VIEW p_dash_saeule AS</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp; With daten as (</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;&nbsp;&nbsp; select</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;&nbsp;&nbsp; 0 as serie,</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;&nbsp; 'Serie 0' as seriesTitle,</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;&nbsp; count(*) as Y,</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;&nbsp; AMIC_FORMLST_GETBEZEICH('kundtyp', kundtyp) as X</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;&nbsp; from kundenstamm</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;&nbsp; group by kundtyp</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;&nbsp; union all</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;&nbsp; select</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;&nbsp; 1 as serie,</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;&nbsp; 'Serie 1' as seriesTitle,</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;&nbsp; count(*) / 2 as Y,</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;&nbsp; AMIC_FORMLST_GETBEZEICH('kundtyp', kundtyp) as X</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;&nbsp; from kundenstamm</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;&nbsp; group by kundtyp</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp; </span><span style="COLOR: black">)</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;select</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;&nbsp; 'Kundentyp nach Anzahl' as header,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -- Wird kein header angegeben, steht der Platz dem Mittelteil zur Verfügung.</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;&nbsp; 'center'&nbsp;&nbsp;&nbsp; as headeralign,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -- Horizontale Positionierung. Mögliche Werte sind &gt;left&lt;, &gt;center&lt; und &gt;right&lt;.</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;&nbsp; 'solid' as borderstyle,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -- Mögliche Wert sind: &gt;none&lt;(standard), &gt;solid&lt;, &gt;raised&lt;, &gt;inset&lt;</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;&nbsp; '68/68/68' as bordercolor,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -- Bei Borderstyle = Solid muss man noch die bordercolor festlegen</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;-- In dem Diagramm können bis zu 10 Datenreihen (Serie 0 bis 9) angezeigt werden. Jede Datenreihe (Serie) wird</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;-- in einer eigenen Farbe dargestellt. Zu jeder Serie und zu jeder Achse kann ein Titel vergeben werden.</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;&nbsp;&nbsp; </span><span style="COLOR: black">'Kundentyp' as XAxisTitle,</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;&nbsp;&nbsp; 'Anzahl' as YAxisTitle,</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;</span><span style="COLOR: black">-- Die Angaben eines Minimal- bzw. Maximalwertes für die Achsen ist optional.</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;-- Die Minimal- und Maximalwerte der X-Achse werden nur bei Datumsangaben ausgewertet.</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;--&nbsp;&nbsp; 0 as YAxisMinValue,</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;--&nbsp;&nbsp; 500 as YAxisMaxValue,</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;&nbsp;&nbsp;&nbsp; '&lt;u&gt;' || seriesTitle || '&lt;/u&gt;&lt;br&gt;' || XAxisTitle || ':: ' || X || '&lt;/br&gt;&lt;br&gt;' || YAxisTitle || ':: ' || Y || '&lt;/br&gt;' as SeriesTooltip,</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;&nbsp;&nbsp; </span><span style="COLOR: black">'bottom' as LegendPosition,</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;&nbsp;&nbsp; 'horizontal' as LegendOrientation,</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;&nbsp;&nbsp; </span><span style="COLOR: black">0 as LegendVisible,</span></p><p class="AMIC-Sourcecode"><span style="COLOR: black">&nbsp;&nbsp;&nbsp; *</span></p><p class="AMIC-Sourcecode" style="MARGIN-BOTTOM: 0pt"><span style="COLOR: black">&nbsp;&nbsp;&nbsp; from daten</span></p></div></td></tr></tbody></table>
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p><img alt="Ein Bild, das Diagramm enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1500.png"></p>
+          <p><img alt="Ein Bild, das Diagramm enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1501.png"></p>
+          <p><img alt="Ein Bild, das Diagramm enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1502.png"></p>
+        </td>
+        <td>
+          <p><strong>Säulen-, Flächen und Liniendiagramm</strong></p>
+          <p>In einem Säulen-, Flächen und Liniendiagramm können jeweils bis zu <u>zehn</u> Serien (Datenreihen) angezeigt werden. Dabei wird jede Serie in einer eigenen Farbe dargestellt. Jede Serie besteht aus ein oder mehreren Datenpunkten. Die Datenpunkte werden mit <b>X</b> (Werte der horizontalen Achse) und <b>Y</b> (Werte der vertikalen Achse) angegeben.</p>
+          <p><u>Achsen</u><u></u></p>
+          <p>Die Diagramme bestehen aus einer horizontalen X- und einer vertikalen Y-Achse. Auf der Y-Achse werden ausschließlich numerische Werte angezeigt, während auf der X-Achse sowohl Text als auch numerische Werte angeben werden können.</p>
+          <p>Bei der X-Achse ist zu beachten, dass die Werte sequenziell - so wie sie von der Prozedur geliefert werden - und <u>nicht</u> sortiert nach ihren Werten, angeordnet werden. Ausnahme: Für Datumsangaben auf der X-Achse kann in der View/Prozedur das Feld <b>XAxisType</b> mit dem Wert „date“ angegeben werden. Dann werden die Werte auf der X-Achse automatisch nach dem Datum sortiert.</p>
+          <p>Mit den Feldern <b>XAxisTitle</b> und <b>YAxisTitle </b>kann ein Titel für die Achsen vergeben werden. Außerdem kann für die Y-Achse optional ein Minimal- und Maximalwert (<b>YAxisMinValue </b>und <b>YAxisMaxValue</b>) festgelegt werden.</p>
+          <p>Über die Felder <b>XAxisInterval</b> und <b>YAxisInterval</b> kann das Intervall für die Beschriftung der X- bzw. Y-Achse vorgegeben werden. Gleichzeitig wird hiermit auch der Abstand zwischen den Gitternetzlinien festgelegt. Wird ein Wert von „0“ oder kein Wert für das Intervall angegeben, so wird das Intervall automatisch bestimmt.</p>
+          <p>Handelt es sich bei X-Achse um eine Datumsachse (XAxisType „date“), so wird das Intervall in Form von Anzahl in Tagen festgelegt.</p>
+          <p><u>Darstellung mehrerer Datenreihen</u><u></u></p>
+          <p>Um mehrere Serien in einem Diagramm darzustellen, ist in dem Feld „Serie“ für jede Datenreihe jeweils ein Wert (0 bis 9) anzugeben. Für jede Serie kann außerdem mithilfe des Feldes <b>SeriesTitle</b> ein Titel vergeben werden. Der Titel wird u.a. in der Legende und ggf. im Tooltip angezeigt. Sind mehrere Serien in einem Diagramm vorhanden, können über dem Knopf mit dem „Pfeil“ Serien ein- und ausgeblendet werden:</p>
+          <p><img alt="Ein Bild, das Diagramm enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1503.png"></p>
+          <p><u>Balken und Säulen überlagern</u><u></u></p>
+          <p>Mit dem Feld <b>OverlapValue</b> kann für Säulen- und Balkendiagramme der Abstand zwischen den Säulen bzw. Balken verringert werden. Der Wert kann zwischen 0 und 1 reichen, wobei der Standardwert 0 ist. Für andere Diagrammarten hat das Feld keine Auswirkung.</p>
+          <table>
+            <tbody>
+              <tr>
+                <th>OverlapValue: 0</th>
+                <th>OverlapValue: 1</th>
+              </tr>
+              <tr>
+                <td><img src="../../../../ImagesExt/image8_1504.png" alt=""></td>
+                <td><img src="../../../../ImagesExt/image8_1505.png" alt=""></td>
+              </tr>
+            </tbody>
+          </table>
+          <p>Beim Setzen des OverlapValues auf 1 ist zu beachten, dass Serien mit einer kleineren Nummer von Serien mit einer größeren Nummer verdeckt werden können.</p>
+          <p><u>Legende</u><u></u></p>
+          <p>Mithilfe des Feldes <b>LegendVisible</b> kann eingestellt werden, ob die Legende standardmäßig ein- oder ausgeblendet ist. Unabhängig von dieser Option kann die Legende über die Funktion <strong><em>Legende ein-/ausblenden</em></strong> (rechte Maustaste auf der Kachel) aktiviert bzw. deaktiviert werden. Des Weiteren ist die Position (<b>LegendPosition</b>) und die Ausrichtung (<b>LegendOrientation</b>) der Legende über die View/Prozedur einstellbar. Mögliche Werte sind:</p>
+          <p>LegendPosition</p>
+          <ul>
+            <li>Right</li>
+            <li>Left</li>
+            <li>Bottom</li>
+            <li>Top<br>LegendOrientation</li>
+            <li>Vertical</li>
+            <li>Horizontal<br><img alt="Ein Bild, das Text enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1506.png"><br><u>Tooltipp</u><u></u><br>Mit dem Feld <b>SeriesTooltip</b> kann der Tooltip über HTML formatiert werden. Der Tooltip erscheint, wenn der Mauszeiger über einen Datenpunkt des Diagramms bewegt wird. Existiert das Feld <b>SeriesTooltip</b> nicht in der View/Prozedur, so wird der Tooltipp nicht angezeigt.<br><img src="../../../../ImagesExt/image8_1507.png" alt=""><br><u></u>&nbsp;<br><u>Datenbeschriftung</u><u></u><br>Mit dem Feld <b>ValueLabelVisible</b> kann eine Datenbeschriftung im Diagramm aktiviert bzw. deaktiviert werden. Der Standardwert ist 0 (deaktiviert).<br><img src="../../../../ImagesExt/image8_1508.png" alt=""><br><u></u>&nbsp;<br><u></u>&nbsp;<br>Beispielview:<br><u></u>&nbsp;</li>
+          </ul>
+          <div>
+            <pre><code>CREATE VIEW p_dash_saeule AS
+  With daten as
+      (
+      select
+    0
+      as serie,
+   'Serie 0'
+      as seriesTitle,
+   count(*)
+      as Y,
+      AMIC_FORMLST_GETBEZEICH('kundtyp', kundtyp) as X
+   from
+      kundenstamm
+   group by
+      kundtyp
+   union
+      all
+   select
+   1 as
+      serie,
+   'Serie 1'
+      as seriesTitle,
+   count(*)
+      / 2 as Y,
+      AMIC_FORMLST_GETBEZEICH('kundtyp', kundtyp) as X
+   from
+      kundenstamm
+   group by
+      kundtyp
+  )
+ select
+      'Kundentyp nach Anzahl' as
+      header,         -- Wird kein
+      header angegeben, steht der Platz dem Mittelteil zur Verfügung.
+      'center'    as
+      headeralign,        -- Horizontale
+      Positionierung. Mögliche Werte sind &gt;left&lt;, &gt;center&lt; und
+      &gt;right&lt;.
+   'solid'
+      as borderstyle,          --
+      Mögliche Wert sind: &gt;none&lt;(standard), &gt;solid&lt;, &gt;raised&lt;,
+      &gt;inset&lt;
+      '68/68/68' as bordercolor,       -- Bei
+      Borderstyle = Solid muss man noch die bordercolor festlegen
+ -- In dem
+      Diagramm können bis zu 10 Datenreihen (Serie 0 bis 9) angezeigt werden.
+      Jede Datenreihe (Serie) wird
+ -- in einer
+      eigenen Farbe dargestellt. Zu jeder Serie und zu jeder Achse kann ein
+      Titel vergeben werden.
+      'Kundentyp' as XAxisTitle,
+      'Anzahl' as YAxisTitle,
+ -- Die Angaben eines Minimal- bzw. Maximalwertes für
+      die Achsen ist optional.
+ -- Die Minimal-
+      und Maximalwerte der X-Achse werden nur bei Datumsangaben ausgewertet.
+ --   0
+      as YAxisMinValue,
+ --
+      500 as YAxisMaxValue,
+     '&lt;u&gt;' || seriesTitle
+      || '&lt;/u&gt;&lt;br&gt;' || XAxisTitle || ':: ' || X ||
+      '&lt;/br&gt;&lt;br&gt;' || YAxisTitle || ':: ' || Y || '&lt;/br&gt;' as
+      SeriesTooltip,
+      'bottom' as LegendPosition,
+      'horizontal' as LegendOrientation,
+      0 as LegendVisible,
+      *
+    from daten</code></pre>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -72,7 +72,7 @@ Folgende Variablen sind in allen Teilen (Kopf, Fuß und Zeilentyp) verfügbar. F
 | MandAdressTelefax | Normal | 3 | In der Anschrift des Mandanten hinterlegte Faxnummer |
 | | | | | |
 
-•314 Positionsteil Zinsabrechnung
+<p class="just-emphasize">314 Positionsteil Zinsabrechnung</p>
 
 | Bezeichnung | Typ | Nr. | Bedeutung |
 | --- | --- | --- | --- |
@@ -154,12 +154,12 @@ Folgende Variablen sind in allen Teilen (Kopf, Fuß und Zeilentyp) verfügbar. F
 | ZinsAbrPosBetragSH | Normal | 3 | Welches Sollhabenkennzeichen |
 | ZinsAbrValdatum | Normal | 5 | Berechnungsdatum der Zinsposition |
 
-•605 Textzeile
+<p class="just-emphasize">605 Textzeile</p>
 
 | Bezeichnung | Typ | Nr. | Bedeutung |
 | --- | --- | --- | --- |
 | FiBuVP_Text | Normal | 3 | Text wie in den Folgezeilen hinterlegt |
 
-<p class="just-emphasize">• 315 Zinsabrechnung Betreffzeile</p>
+<p class="just-emphasize">315 Zinsabrechnung Betreffzeile</p>
 
 Mit diesem Formularbereich kann für den Mailversand eine Betreffzeile definiert werden. Es stehen hier die Positionen zur Verfügung, die mit F3 ausgewählt werden können. Beim normalen Druck erscheint diese Zeile nicht.

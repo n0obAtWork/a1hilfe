@@ -85,7 +85,7 @@ Folgende Variablen sind in allen Teilen (Kopf, Fuß und Zeilentyp) verfügbar. F
 
 **Achtung:** Mahntexte können auch unter Formularbereich 302 separat ausgegeben werden!
 
-- 302 Mahntexte
+<p class="just-emphasize">302 Mahntexte</p>
 
 Fall 1 ( Bemerkid im Mahntext (Mahnstamm) ist 0 oder nicht eingetragen )
 
@@ -113,7 +113,7 @@ Beispiel:
 
 Bitte zahlen Sie bis zum :Zahlfristdatum$ den angegebenen Betrag.
 
-<p class="just-emphasize">• 304 Mahnposition</p>
+<p class="just-emphasize">304 Mahnposition</p>
 
 | Bezeichnung | Typ | Nr. | Beschreibung |
 | --- | --- | --- | --- |
@@ -185,7 +185,7 @@ Bitte zahlen Sie bis zum :Zahlfristdatum$ den angegebenen Betrag.
 | BelegMahnSperre | Numerisch | 4 | Eventuell in der OP-Verwaltung gesetzte Mahnsperre |
 | OPMahnSperre | | | S.o. |
 
-<p class="just-emphasize">• 307 MahnSummenZeile</p>
+<p class="just-emphasize">307 MahnSummenZeile</p>
 
 | Bezeichnung | Typ | Nr. | Beschreibung |
 | --- | --- | --- | --- |
@@ -198,7 +198,7 @@ Bitte zahlen Sie bis zum :Zahlfristdatum$ den angegebenen Betrag.
 | FiBuVP_Betrag | Numerisch | 4 | Summe aller Beträge dieser Mahnstufe |
 | FiBuVPW_Betrag | Numerisch | 4 | Summe aller Beträge dieser Mahnstufe in Fremdwährung |
 
-<p class="just-emphasize">• 309 MahnSummenFuß</p>
+<p class="just-emphasize">309 MahnSummenFuß</p>
 
 | Bezeichnung | Typ | Nr. | Beschreibung |
 | --- | --- | --- | --- |
@@ -209,6 +209,6 @@ Bitte zahlen Sie bis zum :Zahlfristdatum$ den angegebenen Betrag.
 | FiBuVP_Betrag | Numerisch | 4 | Summe aller Beträge |
 | FiBuVPW_Betrag | Numerisch | 4 | Summe aller Beträge in Fremdwährung |
 
-<p class="just-emphasize">• 310 Mahnung Betreffzeile</p>
+<p class="just-emphasize">310 Mahnung Betreffzeile</p>
 
 Mit diesem Formularbereich kann für den Mailversand eine Betreffzeile definiert werden. Es stehen hier die Positionen zur Verfügung, die mit F3 ausgewählt werden können. Beim normalen Druck erscheint diese Zeile nicht.

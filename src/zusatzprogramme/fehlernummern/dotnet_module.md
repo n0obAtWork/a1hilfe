@@ -144,8 +144,6 @@ Die Daten konnten nicht geladen werden. Dafür kann es mehrere Ursachen geben:
 - Die Datenbankverbindung mittels ODBC kann nicht verwendet werden
 - Die Datengrundlage hat sich verändert, so dass das Abfrage-SQL nicht mehr gültig ist
 
-• 
-
 <p class="just-emphasize">\-100705</p>
 
 Fehler beim Löschen der Daten vor dem Import
