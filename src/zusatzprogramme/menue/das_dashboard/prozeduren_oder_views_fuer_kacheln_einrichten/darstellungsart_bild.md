@@ -27,36 +27,23 @@ Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Bas
           <div>
             <pre><code>CREATE VIEW p_dash_warnung AS
  select
-   (select
-      count(*) from fehlerprotokoll where FehlProtDB_USER = USER)
-      Anzahl,
-   if Anzahl
-      &gt; 0 then 'Fehlerprotokoll' else '' endif as footer,
-   'center'
-      footeralign,
-   '#FFFFFF'
-      as color,
+   (select count(*) from fehlerprotokoll where FehlProtDB_USER = USER) Anzahl,
+   if Anzahl &gt; 0 then 'Fehlerprotokoll' else '' endif as footer,
+   'center' footeralign,
+   '#FFFFFF' as color,
    '#333333' as bordercolor,
-   'solid'
-      as borderstyle,
-      'Demo-Dashboard' as toolTipHeader,
-      if Anzahl &gt; 0
+   'solid' as borderstyle,
+   'Demo-Dashboard' as toolTipHeader,
+   if Anzahl &gt; 0
    then
-      'Es sind ' || Anzahl
-      || ' Einträge im Fehlerprotokoll enthalten. &lt;br&gt;Bitte
-      überprüfen.'
-      else
-     'Keine
-      Fehlerprotokoll-Einträge vorhanden.'
-   endif as
-      toolTipText,
+      'Es sind ' || Anzahl || ' Einträge im Fehlerprotokoll enthalten. &lt;br&gt;Bitte überprüfen.'
+   else
+     'Keine Fehlerprotokoll-Einträge vorhanden.'
+   endif as toolTipText,
  --
- -- Bilder können
-      aus dem Archiv geladen werden. Dazu benötigt man die FA_ID.
+ -- Bilder können aus dem Archiv geladen werden. Dazu benötigt man die FA_ID.
  --
-      AMICBLOB as picture from
-      amic_fa_get_from_key(if Anzahl = 0 then 48045 else if Anzahl&gt;10 then
-      48044 else 48043 endif endif) as picture</code></pre>
+   AMICBLOB as picture from amic_fa_get_from_key(if Anzahl = 0 then 48045 else if Anzahl&gt;10 then 48044 else 48043 endif endif) as picture</code></pre>
           </div>
         </td>
       </tr>

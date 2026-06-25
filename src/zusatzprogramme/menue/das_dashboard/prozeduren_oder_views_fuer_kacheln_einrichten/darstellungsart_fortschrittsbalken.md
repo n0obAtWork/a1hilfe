@@ -32,27 +32,19 @@ Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Bas
           <div>
             <pre><code>CREATE VIEW p_dash_fortschritt AS
 select
-      'Auftragseingang' as header,
-   'von
-      01.01.' || year(Today(*)) ||' bis heute' as footer,
-   'Text' as
-      text,
-      '255/255/255' as Backcolor,
-      '63/63/63' as bordercolor,
-      'solid' as borderstyle,
- -- Der Fortschrittsbalken benötigt folgende
-      Felder
-      0   as progressdBarMinimum,
-      (select count() from amic_v_vorgaenge vs
-      where vs.v_klassnummer=400 and vs.V_Datum=today())
+   'Auftragseingang' as header,
+   'von 01.01.' || year(Today(*)) ||' bis heute' as footer,
+   'Text' as text,
+   '255/255/255' as Backcolor,
+   '63/63/63' as bordercolor,
+   'solid' as borderstyle,
+ -- Der Fortschrittsbalken benötigt folgende Felder
+   0   as progressdBarMinimum,
+   (select count() from amic_v_vorgaenge vs where vs.v_klassnummer=400 and vs.V_Datum=today())
        as progressdBarMaximum,
-      (select count() from amic_v_vorgaenge vs
-      where vs.v_klassnummer=400 and vs.V_Datum=today() and v_statusUmwand &gt;=
-      5)
-       as
-      progressdBarValue,
-   ' ' as
-      progressdBarText</code></pre>
+   (select count() from amic_v_vorgaenge vs where vs.v_klassnummer=400 and vs.V_Datum=today() and v_statusUmwand &gt;= 5)
+       as progressdBarValue,
+   ' ' as progressdBarText</code></pre>
           </div>
         </td>
       </tr>

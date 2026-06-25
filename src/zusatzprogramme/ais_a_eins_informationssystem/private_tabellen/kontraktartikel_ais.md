@@ -9,16 +9,13 @@ Aus diesem Grund muss die private Tabelle mit einem „Fremdschlüssel“ verseh
 Beispiel:
 
 ```sql
-create table
-admin.kontraktartikelAddon
+create table admin.kontraktartikelAddon
 ( ktrid integer
   ,ktrartiPosit integer
   ,primary key (ktrid, ktrartiPosit)
   ,foreign Key (ktrid, ktrartiposit)
-       References
-kontraktartikel ( ktrid, ktrartiposit )
-       ON DELETE CASCADE
-CHECK ON COMMIT
+       References kontraktartikel ( ktrid, ktrartiposit )
+       ON DELETE CASCADE CHECK ON COMMIT
 )
 ```
 

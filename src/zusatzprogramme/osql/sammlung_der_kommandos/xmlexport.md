@@ -57,56 +57,47 @@ Mit INTO gefolgt vom Dateinamen kann das Exportverzeichnis angegeben werden. Wir
 Die XML-Datei hat folgendes Aussehen:
 
 ```xml
-<?xml version="1.0"
-encoding="UTF-8" ?>
-- <OSQLXML App="OSQL"
-dbf="d:\AEINS\daten\entwahoi.db" User="OD" Version="1.0"
->
+<?xml version="1.0" encoding="UTF-8" ?>
+- <OSQLXML App="OSQL" dbf="d:\AEINS\daten\entwahoi.db" User="OD" Version="1.0" >
 - <table>
-<table-name>fibuvorgklasse</table-name>
-   <insert-option>ON EXISTING
-SKIP</insert-option>
-   <delete-option>WHERE
-FIBUV_KLASSE<8</delete-option>
+   <table-name>fibuvorgklasse</table-name>
+   <insert-option>ON EXISTING SKIP</insert-option>
+   <delete-option>WHERE FIBUV_KLASSE<8</delete-option>
  - <column-definitions>
   - <column-definition>
-<column-name>FiBuV_Klasse</column-name>
-<data-type>INTEGER</data-type>
-     <null-value>NOT
-NULL</null-value>
+     <column-name>FiBuV_Klasse</column-name>
+     <data-type>INTEGER</data-type>
+     <null-value>NOT NULL</null-value>
     </column-definition>
   - <column-definition>
-<column-name>FiBuV_KlBeaKennz</column-name>
-<data-type>SMALLINT</data-type>
+     <column-name>FiBuV_KlBeaKennz</column-name>
+     <data-type>SMALLINT</data-type>
     </column-definition>
   - <column-definition>
-<column-name>FiBuV_KlBezeich</column-name>
-     <data-type>CHAR(
-40)</data-type>
+     <column-name>FiBuV_KlBezeich</column-name>
+     <data-type>CHAR( 40)</data-type>
     </column-definition>
   - <column-definition>
-<column-name>fibuv_klKurzBez</column-name>
-     <data-type>CHAR(
-2)</data-type>
+     <column-name>fibuv_klKurzBez</column-name>
+     <data-type>CHAR( 2)</data-type>
     </column-definition>
   </column-definitions>
 - <table-constraints>
   - <primary-key>FiBuV_Klasse</primary-key>
-  - <index>create unique index i0_fiklkube on Fibuvorgklasse
-(FiBuV_klKuzrBez)</index>
+  - <index>create unique index i0_fiklkube on Fibuvorgklasse (FiBuV_klKuzrBez)</index>
   </table-constraints>
 - <column-datas>
   - <column-data>
-<FiBuV_Klasse>1</FiBuV_Klasse>
-<FiBuV_KlBeaKennz>0</FiBuV_KlBeaKennz>
-<FiBuV_KlBezeich>Zahlungsverkehr Banken</FiBuV_KlBezeich>
-<fibuv_klKurzBez>ZA</fibuv_klKurzBez>
+     <FiBuV_Klasse>1</FiBuV_Klasse>
+     <FiBuV_KlBeaKennz>0</FiBuV_KlBeaKennz>
+     <FiBuV_KlBezeich>Zahlungsverkehr Banken</FiBuV_KlBezeich>
+     <fibuv_klKurzBez>ZA</fibuv_klKurzBez>
     </column-data>
   - <column-data>
-<FiBuV_Klasse>2</FiBuV_Klasse>
-<FiBuV_KlBeaKennz>0</FiBuV_KlBeaKennz>
-<FiBuV_KlBezeich>Ausgangsrechnung </FiBuV_KlBezeich>
-<fibuv_klKurzBez>AR</fibuv_klKurzBez>
+     <FiBuV_Klasse>2</FiBuV_Klasse>
+     <FiBuV_KlBeaKennz>0</FiBuV_KlBeaKennz>
+     <FiBuV_KlBezeich>Ausgangsrechnung </FiBuV_KlBezeich>
+     <fibuv_klKurzBez>AR</fibuv_klKurzBez>
     </column-data>
   </column-datas>
  </table>
@@ -116,6 +107,5 @@ NULL</null-value>
 <p class="just-emphasize">Beispiel</p>
 
 ```text
-XMLExport Fibuvorgklasse ON EXISTING SKIP Where
-fibuv_klasse>1 INTO c:\fibukl.xml
+XMLExport Fibuvorgklasse ON EXISTING SKIP Where fibuv_klasse>1 INTO c:\fibukl.xml
 ```

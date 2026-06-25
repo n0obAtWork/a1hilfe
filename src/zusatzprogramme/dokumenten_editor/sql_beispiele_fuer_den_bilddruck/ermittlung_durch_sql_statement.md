@@ -20,10 +20,8 @@ Wird ein unterstützter Mimeytp in "codetyp" übermittelt dann wird der Wert in 
 procedure p_beispiel_mime()
 result (code long varchar, codetype long varchar)
 begin
-  select 'select i_image from bitimages where
-imageid=117' as code,
-  (select i_mime from bitimages where imageid=117)
-as codetype
+  select 'select i_image from bitimages where imageid=117' as code,
+  (select i_mime from bitimages where imageid=117) as codetype
 end
 ```
 

@@ -9,8 +9,6 @@ Um AIS Felder auf dem Wiegeschein anzudrucken, verwendet man im [Formulareinrich
 ```sql
 select
  Kundnummer from OWaage as ow
- join Kundenstamm as ks on (ks.KundId =
-ow.OWaage_Kundeid)
- where ow.OWaage_id =
-:ID_OWAAGE_ID
+ join Kundenstamm as ks on (ks.KundId = ow.OWaage_Kundeid)
+ where ow.OWaage_id = :ID_OWAAGE_ID
 ```

@@ -15,7 +15,7 @@ Der Anlagenspiegel liefert anschließend den aktuellen Stand.
 | | Bedeutung |
 | --- | --- |
 | Name der Importdatei | Dort muss der Name der zu importierenden Datei angegeben werden.<br> |
-| Name der Importprozedur | hier steht der Name der verwendeten Prozedur. Die Prozedur AMIC_ANKA_QUADRIGA_IMPORT wird von AMIC zur Verfügung gestellt. Sie kann jedoch durch eine Private Prozedur ersetzt werden. Dieser Prozedur werden zwei Parameter übergeben, das Konto und das Datum der letzten AfA:<br><pre><code>create procedure AMIC_ANKA_QUADRIGA_IMPORT(&#10; &#10; in in_AfaKonto integer,&#10; &#10; in in_AfaDatum date&#10; &#10; )&#10;begin&#10; &#10; .&#10; &#10; .&#10; &#10; .</code></pre><br> |
+| Name der Importprozedur | hier steht der Name der verwendeten Prozedur. Die Prozedur AMIC_ANKA_QUADRIGA_IMPORT wird von AMIC zur Verfügung gestellt. Sie kann jedoch durch eine Private Prozedur ersetzt werden. Dieser Prozedur werden zwei Parameter übergeben, das Konto und das Datum der letzten AfA:<br><pre><code>create procedure AMIC_ANKA_QUADRIGA_IMPORT(&#10; in in_AfaKonto integer,&#10; in in_AfaDatum date&#10; )&#10;begin&#10; .&#10; .&#10; .</code></pre><br> |
 | AfA-Konto<br><br> | Dieses Konto wird als AfA-Konto in den Stammsatz eingetragen. |
 | Datum letzte AfA | Die kumulierte AfA sowie Zugänge und Abgänge werden diesem Datum und der sich daraus ergebenden Periode zugeordnet.<br> |
 | Arbeitsschritt | Hier werden die Arbeitsschritte, die gerade durchgeführt werden, angezeigt.<br> |

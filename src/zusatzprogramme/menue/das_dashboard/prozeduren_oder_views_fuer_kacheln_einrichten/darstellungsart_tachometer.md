@@ -80,38 +80,16 @@ Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Bas
           <div>
             <pre><code>CREATE VIEW p_dash_tacho AS
  select
-      0   as Minimum,
-                -- Wenn nicht
-      angegeben, dann 0
-   100 as
-      Maximum,
-               -- Wenn nicht
-      angegeben, dann 100
-   50
-      as Value,
-                -- muss
-      zwischen minimum und maximum liegen.
-   -- 20
-      majorinterval,
-            -- Optional. Wenn nicht gesetzt dann
-      (maximun-minimum)/10
-   -- 5
-      minorinterval,
-            -- Optional. Wenn nicht gesetzt dann
-      majorinterval/5
-   '#ff3333'
-      LowerFillingColor ,  -- Linker Farbwert
-   '#ffff66'
-      FillingColor ,       -- mittlerer
-      Farbwert
-   '#33ff33'
-      UpperFillingColor ,  -- rechter Farbwert
-   30
-      LowerFillingTo,
-      -- Grenze zwischen linkem und mittlerem Farbwert
-   60
-      UpperFillingFrom
-      -- Grenze zwischen mittlerem und rechtem Farbwert</code></pre>
+   0   as Minimum,                -- Wenn nicht angegeben, dann 0
+   100 as Maximum,                -- Wenn nicht angegeben, dann 100
+   50  as Value,                  -- muss zwischen minimum und maximum liegen.
+   -- 20 majorinterval,           -- Optional. Wenn nicht gesetzt dann (maximun-minimum)/10
+   -- 5 minorinterval,            -- Optional. Wenn nicht gesetzt dann majorinterval/5
+   '#ff3333' LowerFillingColor ,  -- Linker Farbwert
+   '#ffff66' FillingColor ,       -- mittlerer Farbwert
+   '#33ff33' UpperFillingColor ,  -- rechter Farbwert
+   30 LowerFillingTo,             -- Grenze zwischen linkem und mittlerem Farbwert
+   60 UpperFillingFrom            -- Grenze zwischen mittlerem und rechtem Farbwert</code></pre>
           </div>
         </td>
       </tr>

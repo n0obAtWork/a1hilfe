@@ -45,8 +45,7 @@ Der Name muss dazu in der RETURN-Klausel angelistet sein.
 Also im Beispiel der Kundenauswahlliste
 
 ```text
-ORDER BY :AUSW_9
-S.KundNummer
+ORDER BY :AUSW_9 S.KundNummer
 RETURN S.KundId, S.KundNummer
 IDENT S.KundId
 ```

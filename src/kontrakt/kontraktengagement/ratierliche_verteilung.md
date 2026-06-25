@@ -11,15 +11,13 @@ Die Verteilung erfolgt nicht für „Verkaufskontrakte Fremdware“ und „Einka
 Zum Aktivieren der ratierlichen Aufteilung muss der [Steuerparameter „701“](../../firmenstamm/steuerparameter/kontraktwesen/berechnung_fuer_ratierliche_kontraktmengen_aktiv_spa_701.md) auf „Ja“ gesetzt werden. Über folgenden Aufruf wird der Event zur Aufteilung der Mengen angelegt.
 
 ```text
-call
-amic_evt_amic_kontraktratierlich(1)
+call amic_evt_amic_kontraktratierlich(1)
 ```
 
 Soll zusätzlich das tägliche Protokoll mitgeschrieben werden, kann der Event über folgenden Aufruf angelegt werden.
 
 ```text
-call
-amic_evt_amic_kontraktratierlich_protokoll(1)
+call amic_evt_amic_kontraktratierlich_protokoll(1)
 ```
 
 Wir eine zusätzliche Berechnung der Kontraktposition gewünscht, so ist diese im Event einzutragen:  

@@ -12,15 +12,13 @@ Baud: 9600, Parity: N, Data: 8, Stop: 1, Buffer In/Out: 1024
 Sollten diese Werte abweichen, müssen die Einstellungen angepasst werden. Auch in Windows selbst können diese Einstellungen getätigt werden. Dazu „Windowstaste + R“, in das Feld „cmd“ eingeben und die Windows Konsole starten. In der Konsole nun folgenden Befehl eintragen:
 
 ```text
-MODE COM1
-BAUD=9600 DATA=8 PARITY=N STOP=1
+MODE COM1 BAUD=9600 DATA=8 PARITY=N STOP=1
 ```
 
 (Im Fall, dass LPT genutzt wird auch folgenden Befehl ausführen)
 
 ```text
-MODE
-LPT1=COM1
+MODE LPT1=COM1
 ```
 
 Für den Druckertyp wählt man nun (Ab Windows 7) spziell aus. Mit F3 auf dem ID Feld wählt man den eingerichteten Drucker aus, an dem die Schublade angschlossen ist. Als letztes trägt man die Steuersequenz ein. Diese kann ebenfalls der Bedienungsanleitung entnommen werden.

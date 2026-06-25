@@ -16,20 +16,18 @@ Das A.eins Programmstart.vbs Skript kopiert die Aeins.exe und benennt diese dann
 
 ```sql
 begin
-  call
-fireo_automatisch(
-in_systempfad   = 'c:\\aeins\\bin\\aeins_programmstart.vbs',
-            in_section
-= 'entw',
-in_schema       = '',
-in_schemadatei  = '',
-in_user         = '<User>',
-in_passwort     = '<Password>',
-in_kill         = '',
-in_exe          = 'A1entw',
-in_dsn          = 'entw',
-in_dauer        = 0,
-in_fireo_aufruf = '')
+  call fireo_automatisch(
+               in_systempfad   = 'c:\\aeins\\bin\\aeins_programmstart.vbs',
+               in_section      = 'entw',
+               in_schema       = '',
+               in_schemadatei  = '',
+               in_user         = '<User>',
+               in_passwort     = '<Password>',
+               in_kill         = '',
+               in_exe          = 'A1entw',
+               in_dsn          = 'entw',
+               in_dauer        = 0,
+               in_fireo_aufruf = '')
 end
 ```
 

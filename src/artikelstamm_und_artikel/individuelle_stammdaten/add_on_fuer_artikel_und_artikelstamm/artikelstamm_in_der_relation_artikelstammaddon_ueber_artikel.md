@@ -39,38 +39,29 @@ Die hier abgespeicherten Werte können natürlich ausgewertet werden:
 Grundlage des obigen Reports ist nachfolgendes SQL – Statement, das aus der Standardvariante „nach Nummern“ abgeleitet wurde. Die entscheidenden Zeilen wurden hervorgehoben:
 
 ```sql
-// Auswahllistenfunktion :
-ARTIKELSTAMM
+// Auswahllistenfunktion : ARTIKELSTAMM
 TITLE Artikelstammauswahl
 INFO Artikelstammauswahl
 MASK AW_MASK
 FIELD Artikelstammnummer,ArtiStamNummer,char,15
 FIELD Bezeichnung,ArtiStamBezeich,char,40
-FIELD
-WKZ,Werbekosten,n2,10
-⇦
-FIELD
-Beschaffung,Beschaffung,I4,8
-⇦
+FIELD WKZ,Werbekosten,n2,10                      ⇦
+FIELD Beschaffung,Beschaffung,I4,8                       ⇦
 SQL select ars.ArtiStamNummer,ars.ArtiStamBezeich,
 SQL ars.ArtiStammId,ao.werbekosten, ao.beschaffung
-SQL from artikelstamm ars, artikelstammaddon
-ao    ⇦
+SQL from artikelstamm ars, artikelstammaddon ao    ⇦
 SQL where ars.artistammid > 0
 SQL and ars.ArtiStamNummer between ':VON[1]' and
 SQL ':BIS[1]'
 SQL and ars.ArtiStamLoeKennz = 0
-SQL and ars.artistammid =
-ao.artistammid
-⇦
+SQL and ars.artistammid = ao.artistammid                 ⇦
 SQL order by ars.ArtiStamNummer
 RETURN ars.artistammid
 DELPROC DHARTF7,ARTIKELSTAMM,DHDELMSK
 IDENT ars.artistammid
 IDSQL select *
 IDSQL from ars.artikelstamm
-IDSQL where ars.artistammid
-= :ID1
+IDSQL where ars.artistammid = :ID1
 ```
 
 Natürlich kann obiges Beispiel jetzt um Selektionsbereiche etc. erweitert werden.

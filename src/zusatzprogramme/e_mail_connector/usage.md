@@ -5,10 +5,7 @@
 Der Import wird über den Aufruf der Anwendung EmailConnector.exe aus dem bin-Verzeichnis gestartet. Übergabeparameter sind ein Connection-String und die Id des Profils.
 
 ```text
-Bsp.:
-A.eins.EmailConnector.exe
-connectionstring="eng=test;dbn=test;links=tcpip;uid=test;pwd=test"
-id=2
+Bsp.: A.eins.EmailConnector.exe connectionstring="eng=test;dbn=test;links=tcpip;uid=test;pwd=test" id=2
 ```
 
 Der Aufruf kann über die Windows-Aufgabenplanung in regelmäßigen Abständen erfolgen.

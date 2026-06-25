@@ -5,10 +5,7 @@
 Beispielsweise durch das Absetzen eines Controlstrings als Anweisung für den mandantenserver kann folgendes JPL abgesetzt werden:
 
 ```text
-^jpl
-vimperzeugebelege <VorgangsKlasse> <VorgangsArt> <Automatik>
-<UebernahmeId> <SatzId> <Test> <Status> <Drucken>
-<CallBackToken>
+^jpl vimperzeugebelege <VorgangsKlasse> <VorgangsArt> <Automatik> <UebernahmeId> <SatzId> <Test> <Status> <Drucken> <CallBackToken>
 ```
 
 | Parameter | Typ | Bemerkung |
@@ -26,6 +23,5 @@ vimperzeugebelege <VorgangsKlasse> <VorgangsArt> <Automatik>
 Beispielaufruf:
 
 ```text
-^jpl
-vimperzeugebelege ^400 0 1 123456 1 0 2
+^jpl vimperzeugebelege ^400 0 1 123456 1 0 2
 ```

@@ -7,32 +7,25 @@ In dieses Feld kann eine private Prozedur eingetragen werden, welche Einfluss au
 Soll für die Bestimmung von Herkunft Ziel Land und Herkunft Ziel Region eine private Datenbankprozedur benutzt werden, so müssen einigen Richtlinien eingehalten werden.
 
 ```sql
-create procedure
-p_landregion (  in
-in_ufld_land integer default 0,
-in in_ufld_region integer default
-null,
-in in_wabew_land integer default 0,
-in in_wabew_region integer default
-null,
-in in_ArtikelID integer,
-in in_PartieID integer,
-in in_KontraktID integer,
-in in_Menge Numeric(15,4),
-in in_KundID integer,
-in in_LagerNummer integer
-)
-RESULT(
-"HerkunftZielLand" integer,
-"HerkunftZielRegion" integer
-)
+create procedure p_landregion (  in in_ufld_land integer default 0,
+                                 in in_ufld_region integer default null,
+                                 in in_wabew_land integer default 0,
+                                 in in_wabew_region integer default null,
+                                 in in_ArtikelID integer,
+                                 in in_PartieID integer,
+                                 in in_KontraktID integer,
+                                 in in_Menge Numeric(15,4),
+                                 in in_KundID integer,
+                                 in in_LagerNummer integer
+                               )
+                         RESULT(
+                                 "HerkunftZielLand" integer,
+                                 "HerkunftZielRegion" integer
+                                )
 Begin
- declare dc_HerkunftZieLand
-integer;
+ declare dc_HerkunftZieLand integer;
  declare dc_HerkunftZielRegion integer;
---Bestimmung des
-HerkunftZielLand und HerkunftZielRegion
-  select
-dc_HerkunftZieLand as HerkunftZielLand, dc_HerkunftZielRegion as    HerkunftZielRegion from dummy;
+--Bestimmung des HerkunftZielLand und HerkunftZielRegion
+  select dc_HerkunftZieLand as HerkunftZielLand, dc_HerkunftZielRegion as    HerkunftZielRegion from dummy;
 END
 ```

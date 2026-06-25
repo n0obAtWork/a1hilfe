@@ -41,9 +41,7 @@ Soll ein UNC-Pfad hinterlegt werden wie z.B. **\\\\rechner\\dokumente\\test.htm*
 Beispiel Prozedur mit einem Rückgabewert:
 
 ```sql
-create procedure
-HINWEIS_SPRACHTEXT
-( )
+create procedure HINWEIS_SPRACHTEXT ( )
 result ( result integer )
 begin
   declare erg integer;
@@ -55,34 +53,25 @@ end
 Beispiel Prozedur mit zwei Rückgabewerten:
 
 ```sql
-create procedure HINWEIS_SPRACHTEXT(
-)
+create procedure HINWEIS_SPRACHTEXT( )
 result ( result integer,
          result_text char(255) )
 begin
   declare erg integer;
   declare dc_bezeich char(255);
   declare dc_eintrag char(255);
-  set erg
-= 0;
--- kein Hinweitext
-  for loop_presentation as
-presentation_curs insensitive cursor
-for
+  set erg             = 0;                                  -- kein Hinweitext
+  for loop_presentation as presentation_curs insensitive cursor for
   select eintrag
-     from arbeitsschritte
-where bedienerid=db_bedienerid
+     from arbeitsschritte where bedienerid=db_bedienerid
   do
-    set
-erg = erg + 1;
-set dc_eintrag = eintrag;
+    set erg = erg + 1;
+    set dc_eintrag = eintrag;
   end for ;
   if ( erg > 1) then
-      set dc_bezeich = AMIC_FUNC_SPRACHTEXTE('OD', 'OD', 'Es sind noch %s
-Arbeitsschritte offen.', -1, erg);
+      set dc_bezeich = AMIC_FUNC_SPRACHTEXTE('OD', 'OD', 'Es sind noch %s Arbeitsschritte offen.', -1, erg);
     else
-      set dc_bezeich = AMIC_FUNC_SPRACHTEXTE('OD', 'OD', 'Der Arbeitsschritt %s
-muss noch abgearbeitet werden.', -1, dc_eintrag );
+      set dc_bezeich = AMIC_FUNC_SPRACHTEXTE('OD', 'OD', 'Der Arbeitsschritt %s muss noch abgearbeitet werden.', -1, dc_eintrag );
     endif;
   select erg, dc_bezeich;
 end

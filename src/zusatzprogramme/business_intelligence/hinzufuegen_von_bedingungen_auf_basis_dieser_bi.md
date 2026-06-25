@@ -9,12 +9,9 @@ Hierzu wird einfach der Befehlstext in den Verbindungseigenschaften um die Bedin
 
 ```sql
 SELECT *
-from
-admin.bi_SV_UEBERSICHT_Status_0
-where v_klassnummer in
-(400,490,600,690,700,790,800,890)
-order by
-Jahrnummer, Perinummer
+from admin.bi_SV_UEBERSICHT_Status_0
+where v_klassnummer in (400,490,600,690,700,790,800,890)
+order by Jahrnummer, Perinummer
 ```
 
 ![](../../ImagesExt/image8_1093.png)

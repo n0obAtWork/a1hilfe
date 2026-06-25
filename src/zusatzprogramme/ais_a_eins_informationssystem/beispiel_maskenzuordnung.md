@@ -48,21 +48,17 @@ Die Funktion „***Verbinden***“ legt in diesem Fall zwei Funktionen an: ***Ä
 Der Aufbau der Maske ist ähnlich. Man baut die Auswahlliste so auf, dass sie auf die Relation zugreift, die den Primärschlüssel bildet. Beispiel : Zugriff auf Kundenstamm mit angehängter Relation KundeMaskeDaten.
 
 ```sql
-// Auswahllistenfunktion :
-A.eins Zusatzinformationen
+// Auswahllistenfunktion : A.eins Zusatzinformationen
 FIELD KundId,KundId,I4,10
 FIELD KontoNummer,KontoNummer,I4,10
 FIELD Radio,Radio,char,20
 SQL
   Select :FIELDS
-  from Kundenstamm k left outer join
-KundeMaskeDaten m  on k.kundid=m.Kundid
-  where KontoNummer between :VON[1] and
-:BIS[1]
+  from Kundenstamm k left outer join KundeMaskeDaten m  on k.kundid=m.Kundid
+  where KontoNummer between :VON[1] and :BIS[1]
   order by KontoNummer
 IDENT KundId
-IDSQL select * from
-KundenStamm where KundId = :ID1
+IDSQL select * from KundenStamm where KundId = :ID1
 ```
 
 Das **Ident-Feld** ist hier die KundId. Bei Einrichtung des Funktionsmenüs zu dieser Anwendung **muss** dann die Funktion ***Neu*** weggelassen werden. Es würde sonst eine neue Ident gebildet werden, zu der kein Kunde existiert.

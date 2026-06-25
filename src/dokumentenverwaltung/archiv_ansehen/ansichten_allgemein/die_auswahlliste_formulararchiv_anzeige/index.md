@@ -107,54 +107,30 @@ Sie definieren eine Ableitung über die Pflege eines XML-Dokumentes im Editor.
 Ist noch keine Ableitung gespeichert stellt sich das zum Beispiel für „AMIC_KUNDEN“ so dar:
 
 ```xml
-<?xml version="1.0"
-encoding="utf-8"?>
-<Description Name="AMIC_KUNDE" RowHeight="60"
-Version="7.8.5.157">
-  <Field Name="fa.fa_kundennummer"
-Caption="Knd.Nr." />
-  <Field Name="fa.fa_belegtyptext"
-Caption="Beleg-Typ" />
-  <Field Name="fa.fa_belegnummer"
-Caption="Beleg-Nr" />
-  <Field Name="fa.fa_belegdatum"
-Caption="Beleg-Datum" />
-  <Field Name="fa.fa_druckdatum"
-Caption="Archiv/Druck-Datum" />
-  <Field Name="fa.fa_belegreferenz"
-Caption="Beleg-Referenz" />
-  <Field Name="fa.fa_neuanlagebediener"
-Caption="Anleger" />
-  <Field Name="fa.fa_bedienerklasse"
-Caption="Bedienerklasse" />
-  <Field Name="fa.fa_info_kommentar"
-Caption="Kommentar" />
-  <Field Name="aeinspic.i_image"
-Caption="Containerinhalt" Bitmap="true" />
-  <Field Name="fa.fa_info_titel"
-Caption="Titel" />
-  <Field Name="fa.fa_belegklasse"
-Caption="Beleg-Klasse" Format="faklasse" />
-  <Field Name="fa.fa_herkunft"
-Caption="Herkunft" Format="faherkunft" />
-  <Field Name="fa.fa_info_betreff"
-Caption="Betreff" />
-  <Field Name="fa.fa_info_autor"
-Caption="Autor" />
-  <Field Name="fa.fa_barcode" Caption="Barcode"
-/>
-  <Field Name="fa.fa_formularid"
-Caption="Formularid" />
-  <Field Name="fa.fa_id" Caption="FA-Id"
-/>
-  <Field Name="fa.fa_guid" Caption="FA Guid"
-Visible="false" />
-  <Field Name="fa.fa_mndnr" Caption="MndNr"
-Visible="false" />
-  <Field Name="fa.fa_mandant" Caption="Mandant"
-Visible="false" />
-  <Field Name="fa.fa_dateiname"
-Caption="Dateiname" />
+<?xml version="1.0" encoding="utf-8"?>
+<Description Name="AMIC_KUNDE" RowHeight="60" Version="7.8.5.157">
+  <Field Name="fa.fa_kundennummer" Caption="Knd.Nr." />
+  <Field Name="fa.fa_belegtyptext" Caption="Beleg-Typ" />
+  <Field Name="fa.fa_belegnummer" Caption="Beleg-Nr" />
+  <Field Name="fa.fa_belegdatum" Caption="Beleg-Datum" />
+  <Field Name="fa.fa_druckdatum" Caption="Archiv/Druck-Datum" />
+  <Field Name="fa.fa_belegreferenz" Caption="Beleg-Referenz" />
+  <Field Name="fa.fa_neuanlagebediener" Caption="Anleger" />
+  <Field Name="fa.fa_bedienerklasse" Caption="Bedienerklasse" />
+  <Field Name="fa.fa_info_kommentar" Caption="Kommentar" />
+  <Field Name="aeinspic.i_image" Caption="Containerinhalt" Bitmap="true" />
+  <Field Name="fa.fa_info_titel" Caption="Titel" />
+  <Field Name="fa.fa_belegklasse" Caption="Beleg-Klasse" Format="faklasse" />
+  <Field Name="fa.fa_herkunft" Caption="Herkunft" Format="faherkunft" />
+  <Field Name="fa.fa_info_betreff" Caption="Betreff" />
+  <Field Name="fa.fa_info_autor" Caption="Autor" />
+  <Field Name="fa.fa_barcode" Caption="Barcode" />
+  <Field Name="fa.fa_formularid" Caption="Formularid" />
+  <Field Name="fa.fa_id" Caption="FA-Id" />
+  <Field Name="fa.fa_guid" Caption="FA Guid" Visible="false" />
+  <Field Name="fa.fa_mndnr" Caption="MndNr" Visible="false" />
+  <Field Name="fa.fa_mandant" Caption="Mandant" Visible="false" />
+  <Field Name="fa.fa_dateiname" Caption="Dateiname" />
   <!-- With-Statement -->
   <With />
   <!-- Limitation Statement -->
@@ -162,33 +138,20 @@ Caption="Dateiname" />
   <!-- From-Statement -->
   <From>
     from formulararchiv fa
-    left outer join amic_v_images
-aeinspic on (aeinspic.i_mime=fa.fa_mime)
+    left outer join amic_v_images aeinspic on (aeinspic.i_mime=fa.fa_mime)
   </From>
   <!-- Join Statement -->
-  <Join>left outer join
-amic_fa_fibu(:!jvars_5001_ZW1) aff on ( fa.fa_id=aff.fa_id and
-fa.fa_mndnr=aff.fa_mndnr)
-left outer join amic_fa_crw(:!jvars_5001_ZW1) fagcrw on
-(fagcrw.fa_id=fa.fa_id and fagcrw.fa_mndnr=fa.fa_mndnr )</Join>
+  <Join>left outer join amic_fa_fibu(:!jvars_5001_ZW1) aff on ( fa.fa_id=aff.fa_id and fa.fa_mndnr=aff.fa_mndnr)
+left outer join amic_fa_crw(:!jvars_5001_ZW1) fagcrw on (fagcrw.fa_id=fa.fa_id and fagcrw.fa_mndnr=fa.fa_mndnr )</Join>
   <!-- Where Statement -->
-  <Where>where (1=1)  and isnull(
-fa.fa_progintern , 0 ) in ( -1 , 0 ) and ( ( ( (isnull(fa.fa_kundennummer,0) =
-:!jvars_5001_ZW1
-or isnull(fa.fa_belegreferenz,'') =
-':!jvars_5001_ZW2')
-or (aff.fa_id=fa.fa_id and
-aff.fa_mndnr=fa.fa_mndnr)
-or ( fagcrw.fa_id=fa.fa_id and
-fagcrw.fa_mndnr=fa.fa_mndnr) )  ) and ((select fab_wer from
-formulararchivbediener where
-fab_wer=:!jvars_3561_jvar_system_status_bedienerklasse and
-fab_darf=fa.fa_bedienerklasse) is not null) or ( 1 = 0 ) )</Where>
+  <Where>where (1=1)  and isnull( fa.fa_progintern , 0 ) in ( -1 , 0 ) and ( ( ( (isnull(fa.fa_kundennummer,0) = :!jvars_5001_ZW1
+or isnull(fa.fa_belegreferenz,'') = ':!jvars_5001_ZW2')
+or (aff.fa_id=fa.fa_id and aff.fa_mndnr=fa.fa_mndnr)
+or ( fagcrw.fa_id=fa.fa_id and fagcrw.fa_mndnr=fa.fa_mndnr) )  ) and ((select fab_wer from formulararchivbediener where  fab_wer=:!jvars_3561_jvar_system_status_bedienerklasse and fab_darf=fa.fa_bedienerklasse) is not null) or ( 1 = 0 ) )</Where>
   <!-- group by-Statement -->
   <GroupBy />
   <!-- order by-Statement -->
-  <OrderBy>order by fa.FA_Druckdatum
-desc</OrderBy>
+  <OrderBy>order by fa.FA_Druckdatum desc</OrderBy>
 </Description>
 ```
 

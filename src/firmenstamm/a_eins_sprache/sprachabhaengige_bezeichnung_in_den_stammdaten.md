@@ -13,8 +13,8 @@ Die hier gepflegten Texte werden dann in allen Auswahllisten und F3-Auswahlen f√
 ```sql
 select Kontonummer,
   AMIC_FUNC_SPRACHBEZEICH('SachKontStamm',
-trim(cast(KontoNummer as char(10))),
-SachKontBezeich ) as SachKontBezeich,
+                           trim(cast(KontoNummer as char(10))),
+                           SachKontBezeich ) as SachKontBezeich,
 from SachKontstamm
 ```
 

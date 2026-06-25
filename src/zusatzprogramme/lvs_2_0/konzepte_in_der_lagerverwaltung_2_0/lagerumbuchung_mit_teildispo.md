@@ -15,35 +15,25 @@ Um dennoch die Lagerumbuchung mit Teildisposition im LVS zu vollziehen, wendet m
 3. In der Vorgangsunterklasse der Bestellung wird in Kontrollmakro folgender Code eingetragen:
 
 ```sql
-//INCLUDEMAKRO
-AMIC_LVS_Lagerumbuchung
+//INCLUDEMAKRO AMIC_LVS_Lagerumbuchung
 public void Vorgang_Nach_Speichern(IVorgang vorg, int modus)
 {
-  int v_id =
-0;
+  int v_id = 0;
   vorg.GetValue(VORGANG.ID_V_ID, out v_id);
-  int techBeleg =
-0;
-  vorg.GetValue(VORGANG.ID_TECHNISCHERBESTAND,
-out techBeleg);
-  if (techBeleg
-== 1)
+  int techBeleg = 0;
+  vorg.GetValue(VORGANG.ID_TECHNISCHERBESTAND, out techBeleg);
+  if (techBeleg == 1)
   {
     return;
   }
-  int cnt =
-D.GetExecuteScalar(0, @"select count(*)
-from amic_v_vorgaenge vs
-join lagerstamm lgs on lgs.KundIdGegenBeleg = kundidzuord
-where vs.v_id = ?", v_id);
-  if (cnt >
-0)
+  int cnt = D.GetExecuteScalar(0, @"select count(*)
+                                    from amic_v_vorgaenge vs
+                                    join lagerstamm lgs on lgs.KundIdGegenBeleg = kundidzuord
+                                    where vs.v_id = ?", v_id);
+  if (cnt > 0)
   {
-    AMIC_LVS_Lagerumbuchung.AMIC_LVS_LGU
-lgu = new
-AMIC_LVS_Lagerumbuchung.AMIC_LVS_LGU();
-    lgu.Gegenbeleg_erstellen(v_id,
-10);
+    AMIC_LVS_Lagerumbuchung.AMIC_LVS_LGU lgu = new AMIC_LVS_Lagerumbuchung.AMIC_LVS_LGU();
+    lgu.Gegenbeleg_erstellen(v_id, 10);
   }
 }
 ```

@@ -35,8 +35,7 @@ RETURN VersArtId, VersArtBezeich
 SQL select :FIELDS,
   ':~LagerNummerAusIBMSK' as Wert
   from amic_v_VersandArt
-  where (VersArtId >=':ITEMWAHL')
-:LOOKUP
+  where (VersArtId >=':ITEMWAHL') :LOOKUP
   order by VersArtId
 LOOKUP and (VersArtId = ':ITEMWAHL')
 OPTIONBOX OB_IB_VERSANDART

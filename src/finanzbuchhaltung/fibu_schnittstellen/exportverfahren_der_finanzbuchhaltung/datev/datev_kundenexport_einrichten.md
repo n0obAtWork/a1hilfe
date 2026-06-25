@@ -15,8 +15,7 @@ In diesem Pfleger kann man den Kennzahlen der DATEV die Werte aus A.eins zuordne
 Bei der Zuweisung der Felder kann man auch mehrere Felder miteinander verbinden (siehe Kennziffer 103 „Name1“) oder Datenbankfunktionen einbinden. Auch Subselects wie unter Kennziffer 731 „Vertreter“ sind möglich. Die komplette Zeile lautet in diesem Beispiel:
 
 ```sql
-select VertGrBezeich from VertGruppe where
-vertGruppe.vertgrnummer=DATEVSTAMMDATEN.VertGrNummer
+select VertGrBezeich from VertGruppe where vertGruppe.vertgrnummer=DATEVSTAMMDATEN.VertGrNummer
 ```
 
 Der Syntax entspricht dem SQL-Syntax. Um sicher zu stellen, dass nicht erst beim Export ein Syntax-Fehler gemeldet wird, wird im Rechte-Maustaste-Menü die Funktion „***Syntax-Test***“ **F6** angeboten. Diese baut das Statement zusammen und führt es einmal aus. Es erscheint ggf. ein Fehlermeldung oder ein Hinweis, dass der Syntax korrekt ist.

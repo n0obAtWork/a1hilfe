@@ -11,11 +11,9 @@ Per Funktion kann dieser Import per „^jpl fa_exec externerimport“ ausgelöst
 Es handelt sich dabei dann um eine JPP-Methode
 
 ```text
-call JPP_NEW( "FAI" ,
-"JFA_Import"  )
+call JPP_NEW( "FAI" , "JFA_Import"  )
 call JPP_EX ( "FAI" , "Auto_Import" )
-call JPP_DELETE( "FAI"
-)
+call JPP_DELETE( "FAI" )
 ```
 
 Diese steht somit also auch „extern“ zur Verfügung.

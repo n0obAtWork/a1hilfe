@@ -35,16 +35,13 @@ Sie hat einen String-Parameter, über den die Daten identifiziert werden können
 Dabei ist LILA_KONTOBLATT der Parameter. In der View selber muss man dann die Tabelle Crystaldaten mit den anderen Tabellen joinen:
 
 ```sql
-Create view p_kontoblatt as
-select
+Create view p_kontoblatt as select
  …
 from KontoBlattStamm ks
-join CRYSTALDATEN cd on cd.crw_datstring1 = cast (ks.JahrNummer as
-char)
-and cd.crw_datstring2 =
-ks.KontoBlDruckId
-and cd.crw_datanwendung = 'LILA_KONTOBLATT'
-and cd.loginid = db_loginid
+join CRYSTALDATEN cd on cd.crw_datstring1 = cast (ks.JahrNummer as char)
+                    and cd.crw_datstring2 = ks.KontoBlDruckId
+                    and cd.crw_datanwendung = 'LILA_KONTOBLATT'
+                    and cd.loginid = db_loginid
 ```
 
 Da Crystaldaten eine Tabelle ist, die von verschiedenen Programmteilen verwendet wird, muss sichergestellt werden, dass man die Daten eindeutig zuweisen kann. Dazu dient das Feld crw_datanwendung, welches den String-Parameter enthält, und die loginid.
@@ -54,15 +51,13 @@ Da Crystaldaten eine Tabelle ist, die von verschiedenen Programmteilen verwendet
 Etiketten selber haben keine Möglichkeit Tabellen, so wie es sie bei dem Format Listen darzustellen. Aber man kann das [Spezialfeld HTML](./spezialfelder.md#HTML) verwenden um eigene Tabellen an den AMIC Etikettendruck zu übergeben. Folgendes kleines Beispiel erstellt eine einfache Tabelle:
 
 ```sql
-select XMLELEMENT( Name
-html,
-XMLELEMENT( Name body,
-XMLELEMENT( Name "table",
-xmlagg(cast('<tr><td
-width=200>'||Bezeichnung||'</td><td>'||trim(amic_fstr(Wert,15,2))||'</td></tr>'  as xml) )
-)
-)
-)
+select XMLELEMENT( Name html,
+         XMLELEMENT( Name body,
+           XMLELEMENT( Name "table",
+xmlagg(cast('<tr><td width=200>'||Bezeichnung||'</td><td>'||trim(amic_fstr(Wert,15,2))||'</td></tr>'  as xml) )
+                     )
+                   )
+                 )
 from Daten
 ```
 
@@ -70,21 +65,21 @@ Ergebnis:
 
 ```xml
 <html>
-<head>
+  <head>
     <table>
-<tr>
-<td width=200>Eiweiß</td>
-<td>0,10</td>
-</tr>
-<tr>
-<td width=200>Fett</td>
-<td>0,10</td>
-</tr>
-<tr>
-<td width=200>Kohlenhydrate</td>
-<td>5,30</td>
-</tr>
+      <tr>
+        <td width=200>Eiweiß</td>
+        <td>0,10</td>
+      </tr>
+      <tr>
+        <td width=200>Fett</td>
+        <td>0,10</td>
+      </tr>
+      <tr>
+        <td width=200>Kohlenhydrate</td>
+        <td>5,30</td>
+      </tr>
     </table>
-</head>
+  </head>
 </html>
 ```

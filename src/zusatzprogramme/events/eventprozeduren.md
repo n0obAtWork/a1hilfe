@@ -10,16 +10,12 @@ Der Code in der Prozedur sollte in etwa so aussehen:
 
 ```sql
 DECLARE NOGO char(255);
-    --Pruefen
-ob diese Prozedur laufen darf –
-    --wenn
-dieser Prozedurname nicht in der AMIC_EVT_STOP-Tabelle steht
-    select
-Eventprocedurename INTO NOGO from AMIC_EVT_STOP
+    --Pruefen ob diese Prozedur laufen darf –
+    --wenn dieser Prozedurname nicht in der AMIC_EVT_STOP-Tabelle steht
+    select Eventprocedurename INTO NOGO from AMIC_EVT_STOP
       where Eventprocedurename= 'AMIC_EVT_Backup_Database' ;
-    if
-(SQLSTATE = err_notfound) THEN
---eigentliche Bearbeitung
+    if (SQLSTATE = err_notfound) THEN
+    --eigentliche Bearbeitung
     END IF;
 ```
 

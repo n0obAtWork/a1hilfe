@@ -14,63 +14,44 @@ Aeins.exe welcome ServerInstall=true
 
 ```vbnet
 Public Sub Aeins_Export()
-  Dim Aeins_Verbindung As String: Aeins_Verbindung
-= "section=ah"
-  Dim Aeins_ImportPfad As String: Aeins_ImportPfad
-= "c:\temp\outlook"
-  Dim Aeins_ImportProfil As Integer:
-Aeins_ImportProfil = 24
-  Dim myOlApp As Object: Set myOlApp =
-CreateObject("Outlook.Application")
-  Dim myItem As Outlook.Inspector: Set myItem =
-myOlApp.ActiveInspector
+  Dim Aeins_Verbindung As String: Aeins_Verbindung = "section=ah"
+  Dim Aeins_ImportPfad As String: Aeins_ImportPfad = "c:\temp\outlook"
+  Dim Aeins_ImportProfil As Integer: Aeins_ImportProfil = 24
+  Dim myOlApp As Object: Set myOlApp = CreateObject("Outlook.Application")
+  Dim myItem As Outlook.Inspector: Set myItem = myOlApp.ActiveInspector
   If TypeName(myItem) = "Nothing" Then
-    MsgBox "Kein aktives
-Mailfenster!"
+    MsgBox "Kein aktives Mailfenster!"
     GoTo raus
   End If
-  Dim objItem As Object: Set objItem =
-myItem.CurrentItem
+  Dim objItem As Object: Set objItem = myItem.CurrentItem
   Dim SenderEmailAddress As String
   If objItem.SenderEmailType = "SMTP" Then
-    SenderEmailAddress =
-objItem.SenderEmailAddress
+    SenderEmailAddress = objItem.SenderEmailAddress
   Else
-    SenderEmailAddress =
-objItem.SenderName
+    SenderEmailAddress = objItem.SenderName
   End If
   ' ersetze @ durch .
-  SenderEmailAddress = Replace(SenderEmailAddress,
-"@", ".")
-  Dim Aeins As Object: Set Aeins =
-CreateObject("AMIC.Aeins")
+  SenderEmailAddress = Replace(SenderEmailAddress, "@", ".")
+  Dim Aeins As Object: Set Aeins = CreateObject("AMIC.Aeins")
   If Aeins Is Nothing Then
-    MsgBox "Es besteht keine
-Aeins-Verbindung!"
+    MsgBox "Es besteht keine Aeins-Verbindung!"
     GoTo raus
   End If
-  Dim Connect As Boolean: Connect =
-Aeins.Connect(Aeins_Verbindung)
+  Dim Connect As Boolean: Connect = Aeins.Connect(Aeins_Verbindung)
   If Connect = False Then
-    MsgBox "Connect zur Datenbank
-fehlgeschlagen!"
+    MsgBox "Connect zur Datenbank fehlgeschlagen!"
     GoTo ende
   End If
-  Dim hdl As String: hdl = "outlook is
-calling"
+  Dim hdl As String: hdl = "outlook is calling"
   Aeins.jpp_new hdl, "JFileSystem"
   Aeins.jpp_in hdl, "DIR", Aeins_ImportPfad
   Aeins.jpp_do hdl, "DirectoryCreate"
   Aeins.jpp_delete hdl
-  objItem.SaveAs Aeins_ImportPfad & "\" &
-SenderEmailAddress & ".msg", olMSG
+  objItem.SaveAs Aeins_ImportPfad & "\" & SenderEmailAddress & ".msg", olMSG
   Aeins.jpp_new hdl, "JFA_Import"
-  Aeins.jpp_in hdl, "fai_id",
-Aeins_ImportProfil
-  Aeins.jpp_in hdl, "fai_pfad",
-Aeins_ImportPfad
-  Aeins.jpp_in hdl, "receiver",
-objItem.ReceivedByName
+  Aeins.jpp_in hdl, "fai_id", Aeins_ImportProfil
+  Aeins.jpp_in hdl, "fai_pfad", Aeins_ImportPfad
+  Aeins.jpp_in hdl, "receiver", objItem.ReceivedByName
   Aeins.jpp_do hdl, "Free_Import"
   Aeins.jpp_delete hdl
 ende:
@@ -113,21 +94,13 @@ Amic_fa_kundnummer_mail ist so gestrickt:
 
 ```sql
 CREATE FUNCTION AMIC_FA_KUNDNUMMER_MAIL
-( IN
- in_MailAdresse varchar(200) )
-returns integer
+( IN  in_MailAdresse varchar(200) ) returns integer
 BEGIN
-  DECLARE
-fetch_kundnummer integer;
-  select first
-k.kundnummer into fetch_kundnummer
-  from
-kundenstamm k join anschriftstamm a
-on k.kundid = a.adressnummer
-  where
-a.adressmailadress = in_MailAdresse;
-  return
-fetch_kundnummer;
+  DECLARE fetch_kundnummer integer;
+  select first k.kundnummer into fetch_kundnummer
+  from kundenstamm k join anschriftstamm a on k.kundid = a.adressnummer
+  where a.adressmailadress = in_MailAdresse;
+  return fetch_kundnummer;
  END
 ```
 

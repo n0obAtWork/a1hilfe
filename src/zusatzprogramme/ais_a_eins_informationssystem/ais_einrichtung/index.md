@@ -23,11 +23,9 @@ Die Methoden ergeben sich aus dem AISMakro-Interface
 Die hier angegebene Funktion wird im Ändern-Modus immer dann aufgerufen, nachdem der nächste Datensatz auf dem Bildschirm dargestellt wurde. Man kann dann diese Funktion nutzen, um z.B. um eigenständige Werte zu errechnen. Die Funktion muss folgenden Aufbau haben. Der übergebene Parameter ist der Maskenname:
 
 ```text
-function OnUpdateEntry
-(Maskenname:string ):integer;
+function OnUpdateEntry (Maskenname:string ):integer;
 begin
- MessageBox ( "Nach dem laden der Daten", "Ändern
-Vorlauf", 1 );
+ MessageBox ( "Nach dem laden der Daten", "Ändern Vorlauf", 1 );
  OnUpdateEntry:=0;
 end;
 ```
@@ -41,11 +39,9 @@ Diese Funktion wird immer im Neu-Modus vor jedem neuen Datensatz einmal aufgeruf
 Die Funktion muss folgenden Aufbau haben. Der übergebene Parameter ist der Maskenname:
 
 ```text
-function OnInsertEntry
-(Maskenname:string, ):integer;
+function OnInsertEntry (Maskenname:string, ):integer;
 begin
- MessageBox ( "Nach dem laden der Daten",
-"Einfügen Vorlauf", 1 );
+ MessageBox ( "Nach dem laden der Daten", "Einfügen Vorlauf", 1 );
  OnInsertEntry:=0;
 end;
 ```
@@ -63,17 +59,14 @@ Die Funktion unterscheidet sich im Aufbau von den Funktionen für ***Ändern Vor
 Der Aufbau der Funktion sieht dann wie folgt aus:
 
 ```text
-function OnSaveValid
-(Maskenname:string; Editmodus:string ):integer;
+function OnSaveValid (Maskenname:string; Editmodus:string ):integer;
 begin
   …
   GetLDB("MaskenFeld", buffer);
-  if (
-StrCmp(buffer, "Erwarteter Wert") !=0 ) then begin
-    MessageBox("Falsche Eingabe",
-"Prüfung vor Speichern", 1)
+  if ( StrCmp(buffer, "Erwarteter Wert") !=0 ) then begin
+    MessageBox("Falsche Eingabe", "Prüfung vor Speichern", 1)
     OnSaveValid:=1;
-end
+  end
   OnSaveValid:=0;
 end;
 ```

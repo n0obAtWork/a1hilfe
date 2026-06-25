@@ -26,8 +26,7 @@
 procedure p_beispiel_file()
 result (code long varchar, codetype long varchar)
 begin
-  select 'C::\Users\ah\Pictures\butterfly.bmp' as
-code, 'file' as codetype
+  select 'C::\Users\ah\Pictures\butterfly.bmp' as code, 'file' as codetype
 end
 ```
 

@@ -118,37 +118,27 @@ Im Pfleger für Zinsgruppen lassen sich alle weiteren Einstellungen für die Zin
             <tbody>
               <tr>
                 <th></th>
-                <th></th>
                 <th>OP-Saldo</th>
-                <th></th>
                 <th>Zinssaldo</th>
               </tr>
               <tr>
                 <td>AR</td>
-                <td></td>
                 <td>1.000,00 S</td>
-                <td></td>
                 <td>1.000,00 S</td>
               </tr>
               <tr>
                 <td>Zinsen (nicht zu verzinsen)</td>
-                <td></td>
                 <td>15,00 S</td>
-                <td></td>
                 <td>0,00 S</td>
               </tr>
               <tr>
                 <td>Zahlung hier rauf</td>
-                <td></td>
                 <td>1.015,00 H</td>
-                <td></td>
                 <td>1.015,00 H</td>
               </tr>
               <tr>
                 <td>Ergibt einen offenen Saldo von:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                <td></td>
                 <td>0,00 H</td>
-                <td></td>
                 <td>15,00 H</td>
               </tr>
             </tbody>
@@ -158,37 +148,27 @@ Im Pfleger für Zinsgruppen lassen sich alle weiteren Einstellungen für die Zin
             <tbody>
               <tr>
                 <th></th>
-                <th></th>
                 <th>OP-Saldo</th>
-                <th></th>
                 <th>Zinssaldo</th>
               </tr>
               <tr>
                 <td>Ergibt einen offenen Saldo von:</td>
-                <td></td>
                 <td>0.00€</td>
-                <td></td>
                 <td>15,00 H</td>
               </tr>
               <tr>
                 <td>Zinsumbuchung (nicht zu verzinsen)</td>
-                <td></td>
                 <td>-15,00 S</td>
-                <td></td>
                 <td>0,00 S</td>
               </tr>
               <tr>
                 <td>Zinsumbuchung</td>
-                <td></td>
                 <td>15,00 S</td>
-                <td></td>
                 <td>15,00 S</td>
               </tr>
               <tr>
                 <td>Ergibt einen offenen Saldo von:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                <td></td>
                 <td>0,00 H</td>
-                <td></td>
                 <td>0,00 H</td>
               </tr>
             </tbody>
@@ -301,48 +281,29 @@ Im Pfleger für Zinsgruppen lassen sich alle weiteren Einstellungen für die Zin
           <p>Beispiel:</p>
           <div>
             <pre><code>--
--- Funktion zum
-      Erzeugen der MailbBodys für Mailversand Zinsabrechnung
+-- Funktion zum Erzeugen der MailbBodys für Mailversand Zinsabrechnung
 --
- CREATE FUNCTION
-      p_Zinsabrechnung_htmlbody(in in_zinslistnummer integer, in in_kontonummer
-      integer, in in_adressid integer, in in_Wertstellung date)
- returns long
-      varchar
+ CREATE FUNCTION p_Zinsabrechnung_htmlbody(in in_zinslistnummer integer, in in_kontonummer integer, in in_adressid integer, in in_Wertstellung date)
+ returns long varchar
  BEGIN
-   declare
-      dc_return long varchar;
-   declare
-      dc_statustext long varchar;
-   declare
-      dc_fa_id integer;
- -- hier
-      dc_return mit Inhalt füllen. Auslesen des Mailbodys aus dem
-      Formulararchiv
-   set
-      dc_fa_id = (select VersandBodyFaId from zinsabrechnung b
-      join zinsgruppe a on a.zinsgrupnummer=b.ZinsGrupNummer
-      where b.zinslistnummer = in_zinslistnummer
-      and b.KontoNummer = in_kontoNummer);
-   if
-      (dc_fa_id !=0) then
-     set dc_return = (select
-      cast(AMICBLOB as long varchar) from
-      amic_fa_get_from_key(dc_fa_id));
-      endif;
- -- hier ggf.
-      Platzhalter ersetzen
-   return
-      dc_return;
- exception when
-      others then
-   set
-      dc_statustext = errormsg()||' '||traceback();
-   call
-      fehlerprotokoll(in_text = 'p_zig1' || dc_statustext);
- -- WICHTIG: Dem
-      System mitteilen, dass ein Fehler aufgereten ist;
-      resignal;
+   declare dc_return long varchar;
+   declare dc_statustext long varchar;
+   declare dc_fa_id integer;
+ -- hier dc_return mit Inhalt füllen. Auslesen des Mailbodys aus dem Formulararchiv
+   set dc_fa_id = (select VersandBodyFaId from zinsabrechnung b
+                   join zinsgruppe a on a.zinsgrupnummer=b.ZinsGrupNummer
+                   where b.zinslistnummer = in_zinslistnummer
+                   and b.KontoNummer = in_kontoNummer);
+   if (dc_fa_id !=0) then
+     set dc_return = (select cast(AMICBLOB as long varchar) from amic_fa_get_from_key(dc_fa_id));
+   endif;
+ -- hier ggf. Platzhalter ersetzen
+   return dc_return;
+ exception when others then
+   set dc_statustext = errormsg()||' '||traceback();
+   call fehlerprotokoll(in_text = 'p_zig1' || dc_statustext);
+ -- WICHTIG: Dem System mitteilen, dass ein Fehler aufgereten ist;
+   resignal;
  END</code></pre>
           </div>
           <p><b><u>Wichtig:</u></b> Wenn die Funktion für den Mailbody einen Fehler liefert, wird kein Maildokument versendet. Bei Verwendung des Formulars für den Mailbody wurde bei Fehlern ein Standard-Body „&lt;h1&gt;Zinsabrechnung&lt;/h1&gt;“ verwendet.</p>
@@ -358,40 +319,24 @@ Im Pfleger für Zinsgruppen lassen sich alle weiteren Einstellungen für die Zin
           <p>Beispiel:</p>
           <div>
             <pre><code>--
--- Funktion zum
-      Erzeugen der Betreffzeile für Mailversand Zinsabrechnung.
+-- Funktion zum Erzeugen der Betreffzeile für Mailversand Zinsabrechnung.
 --
- CREATE FUNCTION
-      p_Zinsabrechnung_betreff(in in_zinslistnummer integer, in in_kontonummer
-      integer, in in_AdressId integer, in in_Wertstellung date)
- returns long
-      varchar
+ CREATE FUNCTION p_Zinsabrechnung_betreff(in in_zinslistnummer integer, in in_kontonummer integer, in in_AdressId integer, in in_Wertstellung date)
+ returns long varchar
  BEGIN
-   declare
-      dc_return long varchar;
-   declare
-      dc_statustext long varchar;
-   declare
-      dc_fa_id integer;
- -- hier
-      dc_return mit Inhalt füllen.
-   set
-      dc_return = (select 'Zinsabrechnung vom ' || dateformat(in_Wertstellung,
-      'dd.mm.yyyy') || ' für ' || kundbezeich || ' Konto ' || b.Kontonummer from
-      zinsabrechnung b
-      join kundenstamm k on k.kontonummer=b.kontonummer
-      where b.zinslistnummer = in_zinslistnummer
-      and b.KontoNummer = in_kontoNummer);
-   return
-      dc_return;
- exception when
-      others then
-   set
-      dc_statustext = errormsg()||' '||traceback();
-   call
-      fehlerprotokoll(in_text = 'p_zig2' || dc_statustext);
-   return
-      dc_return;
+   declare dc_return long varchar;
+   declare dc_statustext long varchar;
+   declare dc_fa_id integer;
+ -- hier dc_return mit Inhalt füllen.
+   set dc_return = (select 'Zinsabrechnung vom ' || dateformat(in_Wertstellung, 'dd.mm.yyyy') || ' für ' || kundbezeich || ' Konto ' || b.Kontonummer from zinsabrechnung b
+                    join kundenstamm k on k.kontonummer=b.kontonummer
+                    where b.zinslistnummer = in_zinslistnummer
+                      and b.KontoNummer = in_kontoNummer);
+   return dc_return;
+ exception when others then
+   set dc_statustext = errormsg()||' '||traceback();
+   call fehlerprotokoll(in_text = 'p_zig2' || dc_statustext);
+   return dc_return;
  END</code></pre>
           </div>
           <p>Fehler in der Datenbankfunktion für die Betreffzeile führen <u>nicht</u> dazu, dass kein Mailversand stattfindet.</p>

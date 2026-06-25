@@ -29,6 +29,5 @@ Es kann vorkommen, dass für bestimmte Anwendungen bzw. Varianten keine Stapelve
 - In der Anwendung /Variante wurde mit der Option „NOSTAPEL“ die Stapelverarbeitung deaktiviert.
 
 ```text
-OPTIONS
-NOSTAPEL
+OPTIONS NOSTAPEL
 ```

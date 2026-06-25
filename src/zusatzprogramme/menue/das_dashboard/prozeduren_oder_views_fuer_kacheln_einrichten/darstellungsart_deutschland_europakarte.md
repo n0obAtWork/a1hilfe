@@ -77,40 +77,27 @@ Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Bas
           <div>
             <pre><code>CREATE VIEW p_dash_geographicMap AS
  select
-   'solid'
-      as borderstyle,
-   '#333333'
-      as bordercolor,
--- Pro Angezeigter
-      Position muss ein Datensatz mit dem
--- &gt;label&lt; und
-      den Google-Maps Koordinaten zurückgeliefert werden
-      if Adresstyp = 11 then 0
-   else if
-      Adresstyp = 12 then 1
-   else if
-      Adresstyp = 15 then 2
-   else
-      3
-   endif
-      endif endif as Serie,
-   if Adresstyp in (11,12,15)
-      then
+   'solid' as borderstyle,
+   '#333333' as bordercolor,
+-- Pro Angezeigter Position muss ein Datensatz mit dem
+-- &gt;label&lt; und den Google-Maps Koordinaten zurückgeliefert werden
+   if Adresstyp = 11 then 0
+   else if Adresstyp = 12 then 1
+   else if Adresstyp = 15 then 2
+   else 3
+   endif endif endif as Serie,
+   if Adresstyp in (11,12,15) then
      AMIC_FORMLST_GETBEZEICH('ADRESSTYP',Adresstyp)
-      else
+   else
      'Sonstige'
-   endif as
-      SeriesTitle,
+   endif as SeriesTitle,
    ans.Adressid as ID1,
-      '&lt;u&gt;&lt;b&gt;' || ans.adressname ||
-      '&lt;/b&gt;&lt;/u&gt;&lt;br&gt;'
-      || ans.adressStrasse || '&lt;br&gt;'
-      || ans.adressPLZ1 || ' ' || ans.adressOrt || '&lt;br&gt;' as label,
-      cast(posi.ST_LAT() as numeric(15,6))  as X,
-      cast(posi.ST_LONG() as numeric(15,6))  as Y
-    from anschriftgeodata geo join anschriftstamm ans on
-      ans.adressid=geo.adressid where ans.adressnummer &gt;=
-      0</code></pre>
+    '&lt;u&gt;&lt;b&gt;' || ans.adressname || '&lt;/b&gt;&lt;/u&gt;&lt;br&gt;'
+             || ans.adressStrasse || '&lt;br&gt;'
+              || ans.adressPLZ1 || ' ' || ans.adressOrt || '&lt;br&gt;' as label,
+    cast(posi.ST_LAT() as numeric(15,6))  as X,
+    cast(posi.ST_LONG() as numeric(15,6))  as Y
+    from anschriftgeodata geo join anschriftstamm ans on ans.adressid=geo.adressid where ans.adressnummer &gt;= 0</code></pre>
           </div>
         </td>
       </tr>

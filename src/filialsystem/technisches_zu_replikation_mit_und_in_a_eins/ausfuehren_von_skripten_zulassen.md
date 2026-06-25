@@ -7,8 +7,7 @@ Die Steuerung des Replikationssystems erfolgt teilweise über Powershell-Skripte
 Dazu rufen Sie bitte eine Powershell mit Administrator-Rechten auf und geben folgenden Befehl ein:
 
 ```powershell
-Set-ExecutionPolicy
-unrestricted
+Set-ExecutionPolicy unrestricted
 ```
 
 Hiermit wird das Ausführen von Skripten erlaubt.

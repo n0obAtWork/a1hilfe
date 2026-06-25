@@ -14,39 +14,24 @@ Am Beispiel der amic_fa_ref_vorg wird das folgende erklärt.
 
 ```sql
 CREATE FUNCTION AMIC_FA_REF_VORG
-( IN
- v_KlassNummer  integer,
-  IN
- v_NumNummer    integer,
-  IN
-in_uklassnummer integer default 0,
-  IN
-in_jahrnummer   integer default
-0,
-  IN
-in_unternummer  integer default
-0
+( IN  v_KlassNummer  integer,
+  IN  v_NumNummer    integer,
+  IN in_uklassnummer integer default 0,
+  IN in_jahrnummer   integer default 0,
+  IN in_unternummer  integer default 0
    ) returns char(20)
 BEGIN
-  DECLARE
-fetch_fa_belegreferenz char(20);
-  select
-right('00'||mandnummer,2)
+  DECLARE fetch_fa_belegreferenz char(20);
+  select right('00'||mandnummer,2)
          ||
-         (
-select left(formlstbezeich,2) from formatlist where
-formlstkennung='af_vorgang' and
-formlstwert = v_KlassNummer )
+         ( select left(formlstbezeich,2) from formatlist where formlstkennung='af_vorgang' and formlstwert = v_KlassNummer )
          ||
          right('00000000'|| v_NumNummer,8)
          ||
-         right('0000'||
-in_jahrnummer,4)
+         right('0000'|| in_jahrnummer,4)
          into fetch_fa_belegreferenz
-  from
-mandantstamm;
-  return
-fetch_fa_belegreferenz;
+  from mandantstamm;
+  return fetch_fa_belegreferenz;
  END
 ```
 

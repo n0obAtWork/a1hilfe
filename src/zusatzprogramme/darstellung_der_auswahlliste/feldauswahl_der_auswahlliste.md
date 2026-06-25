@@ -11,8 +11,7 @@ Auf dem Register **Feldauswahl** findet man links alle zur Verfügung stehenden 
 Im SQL-Text kann man Spalten bereits im Vorwege ausblenden. Dazu dient das Schlüsselwort HIDDEN.
 
 ```text
-FIELD
-Text,fibuvp_text,char,20,HIDDEN
+FIELD Text,fibuvp_text,char,20,HIDDEN
 ```
 
 Dieses Feld erscheint dann nur in der linken Anzeige des Registers **Feldauswahl** und kann dann vom Anwender eingeblendet werden.
@@ -31,8 +30,7 @@ Es stehen zwei verscheiden Filtertypen zur Verfügung:
 Im SQL-Text kann man Spalten bereits im Vorwege so einstellen, dass der Filtertyp ***Mehrfachauswahl*** verwendet wird. Dazu dient das Schlüsselwort EXTENDEDFILTER.
 
 ```text
-FIELD
-Mahndatum,Mahndatum,d4,20,EXTENDEDFILTER
+FIELD Mahndatum,Mahndatum,d4,20,EXTENDEDFILTER
 ```
 
 ***Alle Spalten mit einem FS-Format haben automatisch immer den Filtertypen Mehrfachauswahl.***

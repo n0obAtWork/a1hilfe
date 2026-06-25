@@ -106,8 +106,7 @@ Die Auswahlliste stellt Felder je nach Feldtyp dar. Dabei kann sich der Feldtyp 
         <td>
           <p>Spezielles Format für die Finanzbuchhaltung. Hierbei bestimmt das Sollhabenkennzeichen und der Betrag die Darstellung. Mit diesem Format können auch negative Soll bzw Haben Beträge dargestellt werden.</p>
           <div>
-            <pre><code>FIELD Betrag,FiBuVP_SaldoBetrag,SS
-      FiBuVP_SaldoSH,16</code></pre>
+            <code>FIELD Betrag,FiBuVP_SaldoBetrag,SS FiBuVP_SaldoSH,16</code>
           </div>
         </td>
       </tr>
@@ -134,8 +133,7 @@ Die Auswahlliste stellt Felder je nach Feldtyp dar. Dabei kann sich der Feldtyp 
         <td>
           <p>In der Anwendung „Formatliste“ (Direktsprung „FORMA“) können Texte zu Zahlen hinterlegt werden. Das einfachste Beiepiel ist das FS-Formt JANEIN. Mithilfe dieses Formats lassen sich die Zahlen 0 als <b>Ja</b> und 1 als <b>Nein </b>darstellen.</p>
           <div>
-            <pre><code>FIELD ,fs.FormLstKeineSprache,FS
-      JaNein,4</code></pre>
+            <code>FIELD ,fs.FormLstKeineSprache,FS JaNein,4</code>
           </div>
         </td>
       </tr>
@@ -195,16 +193,13 @@ Die Auswahlliste stellt Felder je nach Feldtyp dar. Dabei kann sich der Feldtyp 
           </table>
           <p>In FIELD</p>
           <div>
-            <pre><code>FIELD ,StapelICON,ICON,2,TIPTEXT="Zeigt an, ob
-      der Vorgang in einem Stapel ist."</code></pre>
+            <code>FIELD ,StapelICON,ICON,2,TIPTEXT="Zeigt an, ob der Vorgang in einem Stapel ist."</code>
           </div>
           <p><b>Hinweis: </b>Bei Icons kann man die Breite während des Arbeitens in der Auswahlliste zwar größer ziehen, jedoch wird sie beim nächsten Betreten wieder auf die Breite gesetzt, die in FIELDS steht..<b></b></p>
           <p>Im SQL</p>
           <div>
             <pre><code>Select
-  if isnull(stapel_id,0) &gt; 0 then
-      'stapel' endif as
-      stapelIcon
+  if isnull(stapel_id,0) &gt; 0 then 'stapel' endif as stapelIcon
 …</code></pre>
           </div>
           <p><b><u>ACHTUNG:</u> Die Bezeichnung muss immer klein geschrieben werden.</b></p>

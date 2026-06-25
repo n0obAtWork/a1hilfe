@@ -17,8 +17,7 @@ Der Export löscht keine Dateien.
 Exportierte Dateien folgen der Namenskonvention
 
 ```text
-{Tabelle}_{Pk_Wert}_{Name der
-Spalte}.{Extension}
+{Tabelle}_{Pk_Wert}_{Name der Spalte}.{Extension}
 ```
 
 wobei "Name der Spalte" entweder der Inhalt "Winword-Spalte" oder "Rtf-Spalte" ist und "Extension" jeweils analog entweder "doc" oder "rtf".

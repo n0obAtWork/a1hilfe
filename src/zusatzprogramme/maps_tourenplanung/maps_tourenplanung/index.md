@@ -9,8 +9,7 @@ Beispielhaft ist die Funktion in Kunden **[KU]** und Anschriften **[ANSCH]** ein
 Der Controlstring lautet
 
 ```text
-^jpl
-MapsTouren <ProfilId>
+^jpl MapsTouren <ProfilId>
 ```
 
 Die ProfilId bestimmt sich aus dem eingestellten Profil in **[MTPP]**

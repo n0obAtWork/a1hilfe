@@ -49,15 +49,11 @@ Zum Anlegen der SQL Remote Benutzer können Sie auch direkt durch Anklicken des 
 Werte in den Klammern ersetzen!
 
 ```sql
-CREATE USER
-"<BST(Zähler)>" IDENTIFIED BY '***';
-GRANT DBA, RESOURCE, REMOTE DBA TO
-"<BST(Zähler)>";
-grant
-membership in group "admin" to "<BST(Zähler)>";
+CREATE USER "<BST(Zähler)>" IDENTIFIED BY '***';
+GRANT DBA, RESOURCE, REMOTE DBA TO "<BST(Zähler)>";
+grant membership in group "admin" to "<BST(Zähler)>";
 GRANT PUBLISH TO "<BST(Zähler)>";
-ALTER REMOTE MESSAGE TYPE
-file ADDRESS '<Pfad zum Nachrichtenverzeichnis>';
+ALTER REMOTE MESSAGE TYPE file ADDRESS '<Pfad zum Nachrichtenverzeichnis>';
 ```
 
 <p class="just-emphasize">SQL Remote Benutzer anlegen via ISQL</p>
@@ -65,15 +61,10 @@ file ADDRESS '<Pfad zum Nachrichtenverzeichnis>';
 Werte in den Klammern ersetzen!
 
 ```sql
-CREATE USER
-"<BST(Zähler)>" IDENTIFIED BY '***';
-GRANT DBA, RESOURCE, REMOTE DBA TO
-"<BST(Zähler)>";
-grant
-membership in group "admin" to "<BST(Zähler)>";
-GRANT REMOTE TO
-"<BST(Zähler)>" TYPE "FILE" ADDRESS '<Pfad zum
-Nachrichtenverzeichnis>' SEND EVERY '01:00';
+CREATE USER "<BST(Zähler)>" IDENTIFIED BY '***';
+GRANT DBA, RESOURCE, REMOTE DBA TO "<BST(Zähler)>";
+grant membership in group "admin" to "<BST(Zähler)>";
+GRANT REMOTE TO "<BST(Zähler)>" TYPE "FILE" ADDRESS '<Pfad zum Nachrichtenverzeichnis>' SEND EVERY '01:00';
 ```
 
 Jede entfernte Datenbank muss die konsolidierte Datenbank angeben, von der sie Nachrichten empfängt. Um eine konsolidierte Datenbank auf der entfernten Datenbank anzugeben, erteilen Sie dem Publikationseigentümer der konsolidierten Datenbank die CONSOLIDATE-Berechtigung. Eine entfernte Datenbank kann nur von einer einzigen konsolidierten Datenbank Nachrichten erhalten. Die CONSOLIDATE-Berechtigung identifiziert die Datenbank, die Nachrichten an diese entfernte Datenbank sendet.
@@ -85,13 +76,8 @@ Jede entfernte Datenbank muss die konsolidierte Datenbank angeben, von der sie N
 Werte in den Klammern ersetzen!
 
 ```sql
-CREATE USER
-"<BST(Zähler)>" IDENTIFIED BY '***';
-GRANT DBA, RESOURCE, REMOTE DBA TO
-"<BST(Zähler)>";
-grant
-membership in group "admin" to "<BST(Zähler)>";
-GRANT CONSOLIDATE TO
-"<BST(Zähler)>" TYPE "FILE" ADDRESS '<Pfad zum
-Nachrichtenverzeichnis>' SEND EVERY '01:00';
+CREATE USER "<BST(Zähler)>" IDENTIFIED BY '***';
+GRANT DBA, RESOURCE, REMOTE DBA TO "<BST(Zähler)>";
+grant membership in group "admin" to "<BST(Zähler)>";
+GRANT CONSOLIDATE TO "<BST(Zähler)>" TYPE "FILE" ADDRESS '<Pfad zum Nachrichtenverzeichnis>' SEND EVERY '01:00';
 ```

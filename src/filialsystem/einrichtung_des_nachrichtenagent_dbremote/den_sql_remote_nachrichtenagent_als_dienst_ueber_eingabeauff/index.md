@@ -7,15 +7,11 @@
 2. Geben Sie nun folgende Befehlszeilen ein:
 
 ```dos
-dbsvc -as
--s auto -t network -w <Anzeigename> "<Pfad zur dbsrv12.exe>"
-@<Pfad zur KonfigDateiDBsrv12>
+dbsvc -as -s auto -t network -w <Anzeigename> "<Pfad zur dbsrv12.exe>" @<Pfad zur KonfigDateiDBsrv12>
 ```
 
 ```dos
-dbsvc -as
--s auto -t DBRemote -rs <AnzeigenameAbhängigkeit> -w <Anzeigename>
-"<Pfad zur dbremote.exe>" @<Pfad zur KonfigDateiDBRemote>
+dbsvc -as -s auto -t DBRemote -rs <AnzeigenameAbhängigkeit> -w <Anzeigename> "<Pfad zur dbremote.exe>" @<Pfad zur KonfigDateiDBRemote>
 ```
 
 Werte in den spitzen Klammern bitte entsprechend ersetzen!

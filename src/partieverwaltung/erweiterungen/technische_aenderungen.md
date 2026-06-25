@@ -13,30 +13,19 @@ Die Partiebestände werden jetzt in der Relation PARTIEBESTANDPUR geführt. ACHT
 Für die Ermittlung des Partiebestandes ist folgen Datenbankfunktion geschaffen worden:
 
 ```text
-// Ermittele den Partiebestand
-aus
+// Ermittele den Partiebestand aus
 // Relation PartiebestandPur
 // Korrekturmengen fließen mit ein!
-// bei Lagerplatz_in = -1 wird nicht
-lagerplatzspezifisch ermittelt
-// bei artikelid_ist_stammid = 1 werden Summen über
-alle Artikel des gleichen Stamms gemacht
-// bei mit_dispo = 1 werden Bestellungen und Aufträge
-mitgezählt
+// bei Lagerplatz_in = -1 wird nicht lagerplatzspezifisch ermittelt
+// bei artikelid_ist_stammid = 1 werden Summen über alle Artikel des gleichen Stamms gemacht
+// bei mit_dispo = 1 werden Bestellungen und Aufträge mitgezählt
 //---------------------------------------------------------------------
-create function
-AMIC_FUNC_PARTIEBESTAND
+create function AMIC_FUNC_PARTIEBESTAND
  (
- in partieid_in
-integer,
- in artikelid_in
-integer,
- in lagerplatz_in
-integer default -1,
- in
-artikelid_ist_stammid integer default
-0,
- in mit_dispo
-integer default 0)
+ in partieid_in integer,
+ in artikelid_in integer,
+ in lagerplatz_in integer default -1,
+ in artikelid_ist_stammid integer default 0,
+ in mit_dispo integer default 0)
 returns decimal(20,8)
 ```

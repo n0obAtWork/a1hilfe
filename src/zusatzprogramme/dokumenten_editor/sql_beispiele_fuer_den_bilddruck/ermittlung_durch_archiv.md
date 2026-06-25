@@ -15,8 +15,7 @@ Bei diesen Codetypen ermittelt das Programm die zugehörigen Mimetypen automatis
 procedure p_beispiel_file()
 result (code long varchar, codetype long varchar)
 begin
-  select '17494,1' as code, 'archiv' as
-codetype
+  select '17494,1' as code, 'archiv' as codetype
 end
 ```
 

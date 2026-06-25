@@ -49,29 +49,17 @@ Alle in Buchungssätzen angegebenen Konten müssen in der Fibu angelegt sein bzw
 
 ```text
 [GDI-Fibu]:[GDI-FACTUR]:[GDI-Business-Line]
-[Version]=GDI-Business-Line
-- Daten vom 23.03.2003 10:07:16
-[VersExe]=2.0.3.4 vom 16.09.2003
-15:57:22
+[Version]=GDI-Business-Line - Daten vom 23.03.2003 10:07:16
+[VersExe]=2.0.3.4 vom 16.09.2003 15:57:22
 [VersBDE]=5.2.0.2 vom 10.05.2001 10:00:00
-[Mandant]=MPBS RADIUS
-DEMO -
-C:\Agentur\GDI\DEMO\Radius20\
+[Mandant]=MPBS RADIUS DEMO - C:\Agentur\GDI\DEMO\Radius20\
 [WAEHRUNG]=2
 [ETW]=99,1.955830
 [ETW]=1,1.000000
-[Pk]=11101<SuN>=ABENHAUS<Nam>=Josef
-Abenhaus<Bra>=Marmor- u. Natursteine<Str>=Oderstr.
-36<Ort>=48145 Mnster /
-Westf.<LKz>=I<MKz>=1<WKz>=1<NTg>=30<S1T>=8<S1%>=
-2.00
-[Bu]=11101<Art>=R<BNr>=980086<Dat>=230303<Txt>=Josef
-Abenhaus<Btr>=58<RBt>=58<BDa>=230303<ZaV>=<NTg>=30<S1T>=8<S1%>=
-2.00<WBt>=58<WKz>=1
-<GKt>=8400.0<Txt>=Josef
-Abenhaus<Btr>=-40<StB>=-6.4
-<GKt>=8410.0<Txt>=Josef
-Abenhaus<Btr>=-10<StB>=-1.6
+[Pk]=11101<SuN>=ABENHAUS<Nam>=Josef Abenhaus<Bra>=Marmor- u. Natursteine<Str>=Oderstr. 36<Ort>=48145 Mnster / Westf.<LKz>=I<MKz>=1<WKz>=1<NTg>=30<S1T>=8<S1%>= 2.00
+[Bu]=11101<Art>=R<BNr>=980086<Dat>=230303<Txt>=Josef Abenhaus<Btr>=58<RBt>=58<BDa>=230303<ZaV>=<NTg>=30<S1T>=8<S1%>= 2.00<WBt>=58<WKz>=1
+<GKt>=8400.0<Txt>=Josef Abenhaus<Btr>=-40<StB>=-6.4
+<GKt>=8410.0<Txt>=Josef Abenhaus<Btr>=-10<StB>=-1.6
 [Pk]=10000<SuN>=BAR<Nam>=BARVERKAUF<LKz>=I<WKz>=1
 [Bu]=10000<Art>=R<BNr>=980087<Dat>=230303<Txt>=BARVERKAUF<Btr>=58<RBt>=58<BDa>=230303<ZaV>=<WBt>=58<WKz>=1
 <GKt>=8400<Txt>=BARVERKAUF<Btr>=-40<StB>=-6.4

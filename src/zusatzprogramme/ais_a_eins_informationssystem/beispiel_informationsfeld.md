@@ -52,7 +52,7 @@ Da es sich um einen Festtext handeln soll, wird der Herkunftstyp auf „keine“
 | | Beschreibung |
 | --- | --- |
 | Herkunftstyp<br> | Die Daten werden über ein hier formuliertes Statement zusammengesucht, also **SQL**.<br> |
-| SQL-Text<br> | Wir wollen aus der Kundenbank die Anzahl der Datensätze bestimmen, die die Bank verwenden, die gerade im Pfleger angezeigt wird:<br> <br><pre><code>Select count(*) as&#10; Anzahl from Kundenbank where Banknummer = :IDENT</code></pre><br> <br>IDENT enthält den Wert des Feldes, das in der Maskenzuordnung als Ident-Feldname festgelegt wird.<br> |
+| SQL-Text<br> | Wir wollen aus der Kundenbank die Anzahl der Datensätze bestimmen, die die Bank verwenden, die gerade im Pfleger angezeigt wird:<br> <br><code>Select count(*) as Anzahl from Kundenbank where Banknummer = :IDENT</code><br> <br>IDENT enthält den Wert des Feldes, das in der Maskenzuordnung als Ident-Feldname festgelegt wird.<br> |
 
 <p class="just-emphasize">Maskenzuordnung</p>
 

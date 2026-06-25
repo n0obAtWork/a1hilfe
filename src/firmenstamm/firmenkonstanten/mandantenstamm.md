@@ -202,8 +202,7 @@ Auf der Registerkarte „Zugangsdaten“ werden Zugangsdaten hinterlegt, die fü
 Für den Zugriff auf die Mailgruppen existiert die Funktion MandMailAdresse(Bereich). Um also z.B. auf die Mailadresse unter „e-Mailgruppe 3“ zuzugreifen schreib man:
 
 ```sql
-Select
-MandMailAdresse(3)
+Select MandMailAdresse(3)
 ```
 
 </details>

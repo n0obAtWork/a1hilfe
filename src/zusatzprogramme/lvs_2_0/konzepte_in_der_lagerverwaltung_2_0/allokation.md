@@ -7,29 +7,20 @@ In der Vorgangsunterklasse des Auftrags & Ladescheins muss eine Auslagerstrategi
 Dies ist eine Prozedur der folgenden Signatur:
 
 ```sql
----<summary>Gibt
-Auslagerstrategien aus</summary>
----<returns>Auslagerstrategie und Mindest oder
-Maximalliefermengen</returns>
----<param name="in_listennr">ListNr aus der
-MatrialOrder</param>
----<param name="in_listenpos">ListenPosition aus
-der MatrialOrder</param>
+---<summary>Gibt Auslagerstrategien aus</summary>
+---<returns>Auslagerstrategie und Mindest oder Maximalliefermengen</returns>
+---<param name="in_listennr">ListNr aus der MatrialOrder</param>
+---<param name="in_listenpos">ListenPosition aus der MatrialOrder</param>
 create procedure P_BUK_Auslagerstrategie_Warenausgang
 (
-  in in_listennr
-integer,
-  in in_listenpos
-integer
+  in in_listennr  integer,
+  in in_listenpos integer
 )
 result
 (
-  AuslagerStrategie
-integer,
-  ueberlieferung
-numeric(15,4),
-  unterlieferung
-numeric(15,4)
+  AuslagerStrategie integer,
+  ueberlieferung numeric(15,4),
+  unterlieferung numeric(15,4)
 )
 ```
 

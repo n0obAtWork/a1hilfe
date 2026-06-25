@@ -53,8 +53,7 @@ Es ist möglich ein manuelles Anbauland anzugeben. Dadurch wird die Anbaulandher
 Die Berechnung des „CO2 eq (kg/t)“ ist abhängig davon ob mit massebezogenem Werten für Zwischenprodukte gerechnet wird oder nicht (Einstellung [Steuerparameter 844](../../../firmenstamm/steuerparameter/optionen_warenwirtschaft/nachhaltigkeitseinstellungen_spa_844.md)). Wenn nicht mit den Zwischenprodukten gerechnet wird, erfolgt die Berechnung über folgende Formel:
 
 ```text
-Thg-Wert /
-(Allokationsfaktor * Konversionsfaktor)
+Thg-Wert / (Allokationsfaktor * Konversionsfaktor)
 ```
 
 Sollte einer der Werte „0“ haben, kann keine Berechnung erfolgen, dann müssen die Stammdaten ([Artikelstamm](../../../artikelstamm_und_artikel/parameter_des_artikelstamms/registerkarte_zertifiakte.md#ars_nachhaltigkeit) -> [THG – Wert](../stammdaten/faktor_thg_wert_anbauland.md)) oder die THG – Werte angepasst werden.

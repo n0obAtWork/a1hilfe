@@ -23,16 +23,10 @@ result
   kundid   integer
 )
 BEGIN
-  select distinct
-ks.kundid from Kundenstamm ks
-  join
-AnschriftStamm ansch on
-ansch.adressnummer = ks.kundid
-  where
-replace(replace(replace(trim(AdressTelefon)  , '
-',''),'/',''),'-','') = in_Telefonnummer or
-replace(replace(replace(trim(AdressTeleMobil), ' ',''),'/',''),'-','') =
-in_Telefonnummer;
+  select distinct ks.kundid from Kundenstamm ks
+  join AnschriftStamm ansch on ansch.adressnummer = ks.kundid
+  where replace(replace(replace(trim(AdressTelefon)  , ' ',''),'/',''),'-','') = in_Telefonnummer or
+        replace(replace(replace(trim(AdressTeleMobil), ' ',''),'/',''),'-','') = in_Telefonnummer;
 END
 ```
 
@@ -61,16 +55,13 @@ Sind die Optionen nicht eingerichtet, so werden die AMIC-Standard-Funktionen „
 So lässt sich exemplarisch durch
 
 ```sql
-CREATE PROCEDURE
-AMIC_TAPI_NUMMER( IN in_Kundid integer )
+CREATE PROCEDURE AMIC_TAPI_NUMMER( IN in_Kundid integer )
 result
 (
-  telnummer varchar(64), telherkunft
-varchar(64)
+  telnummer varchar(64), telherkunft varchar(64)
 )
 BEGIN
-  select AdressTelefon , 'Telefon' from
-Anschriftstamm an, kundenstamm ks
+  select AdressTelefon , 'Telefon' from Anschriftstamm an, kundenstamm ks
   where ks.AdressIdHauptAdr = an.AdressID
   and   ks.KundId = in_Kundid
   union select 4711, 'Handy'

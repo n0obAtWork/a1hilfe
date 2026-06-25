@@ -23,31 +23,22 @@ dim referenz
 owner = Aeins.ScriptParam( "owner" )
 p_status = Aeins.ScriptParam( "p_status" )
 if p_status = 2 then
-  ' das A.eins-System stellt die Aufbereitung der
-Referenznummer per Datenbank-Funktion zur Verfügung
-  ' Der A.eins-Anwender hat im Archiv-Mananger die
-Möglichkeit eine eigene Datenbank-Funktion einzurichten,
-  ' deshalb muss hier nun diese Datenbank-Funktion
-zunächst ermittelt werden
+  ' das A.eins-System stellt die Aufbereitung der Referenznummer per Datenbank-Funktion zur Verfügung
+  ' Der A.eins-Anwender hat im Archiv-Mananger die Möglichkeit eine eigene Datenbank-Funktion einzurichten,
+  ' deshalb muss hier nun diese Datenbank-Funktion zunächst ermittelt werden
   p_referenz = Aeins.ScriptParam( "p_ref" )
   Aeins.jpp_new "x1" , "JFA_Manager"
   Aeins.jpp_in "x1", "Merkmal" , p_referenz
-  fam_ref_vorg = Aeins.jpp_do( "x1" , "GetMerkmal"
-)
+  fam_ref_vorg = Aeins.jpp_do( "x1" , "GetMerkmal" )
   Aeins.jpp_delete "x1"
-  ' Aufbereitet wird nun die Belegreferenz mittels
-dieser Datenbank-Funktion. Die Funktion erwartet als
-  ' Parameter die Belegnummer und die
-Klassennummer
-  ' Die Belegnummer steht in der JVARS-Variable
-"2", die Klassennummer in der JVARS-Variable "1" bereit
+  ' Aufbereitet wird nun die Belegreferenz mittels dieser Datenbank-Funktion. Die Funktion erwartet als
+  ' Parameter die Belegnummer und die Klassennummer
+  ' Die Belegnummer steht in der JVARS-Variable "2", die Klassennummer in der JVARS-Variable "1" bereit
   belegnummer = Aeins.JVARS_GET(owner , "2")
   klassnummer = Aeins.JVARS_GET(owner , "1")
   Aeins.jpp_new "x2", "JDBX"
-  Aeins.jpp_in "x2",  "sql"  , "select "
-& fam
-_ref_vorg  & "(" & klassnummer & ","
-& belegnummer & ") as Referenz"
+  Aeins.jpp_in "x2",  "sql"  , "select " & fam
+_ref_vorg  & "(" & klassnummer & "," & belegnummer & ") as Referenz"
   Aeins.jpp_do "x2" , "exec"
   Aeins.jpp_in "x2", "col", "Referenz"
   Aeins.jpp_in "x2", "fld", "LDB_TRANSFER$VC"

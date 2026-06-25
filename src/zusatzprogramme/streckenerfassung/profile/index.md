@@ -119,8 +119,7 @@ In der Prozedur kann auf die Nummern der erzeugten Klammern über ein SQL zugegr
 ```sql
 Select ident1, ident2
 from gtt_amic_ident
-where typ =
-'5FE183B7-308D-4D66-BB14-A6333799D006'
+where typ = '5FE183B7-308D-4D66-BB14-A6333799D006'
 ```
 
 <p class="just-emphasize">Vorbelegung</p>
@@ -355,8 +354,7 @@ Zudem gibt es hier die Möglichkeit für die Kalkulation Daten zu hinterlegen.
 Des Weiteren kann eine private Funktion angelegt werden, in der Anwendung / Variante / Profil angegeben werden können. Der Controlstring muss dabei wie folgt aussehen.
 
 ```text
-^jpl
-call_streckenkalkulation AnwendungID Variantenname Profilname
+^jpl call_streckenkalkulation AnwendungID Variantenname Profilname
 ```
 
 Diese Funktion wird dann mit in die Menüs der Streckenerfassung eingetragen.

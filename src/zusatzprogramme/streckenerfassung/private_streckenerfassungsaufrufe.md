@@ -5,9 +5,7 @@
 Um die Streckenerfassung aufzurufen kann eine private Funktion eingerichtet werden. Dabei hat der Controlstring folgende Form:
 
 ```text
-jpl
-streckenerfassung_auftragaufruf ":pEinkaufVerkauf" ":h.klammernr$"
-":pProfil"
+jpl streckenerfassung_auftragaufruf ":pEinkaufVerkauf" ":h.klammernr$" ":pProfil"
 ```
 
 Diese jpl-Funktion hat 3 Parameter:

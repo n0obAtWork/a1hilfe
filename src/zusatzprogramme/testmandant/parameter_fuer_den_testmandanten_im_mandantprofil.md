@@ -22,9 +22,7 @@ Sie wollen in einer Prozedur eine Mailadresse verwenden, die „live@me.xy“ he
 Tragen Sie in der Tabelle Mandantprofil die folgenden Werte ein:
 
 ```sql
-INSERT INTO
-MandantProfil (MandantProfilId, MandantParName, MandantParWert)
-VALUES(1,'P_MAILADRESSE','test@me.xy')
+INSERT INTO MandantProfil (MandantProfilId, MandantParName, MandantParWert) VALUES(1,'P_MAILADRESSE','test@me.xy')
 ```
 
 **Diese Werte können Sie bequem mit dem** [**Mandantenprofil-Pfleger**](./pfleger_fuer_das_mandantenprofil.md) **eintragen!**
@@ -32,9 +30,7 @@ VALUES(1,'P_MAILADRESSE','test@me.xy')
 Verwenden Sie die Prozedur „AMIC_MandantProfilParameter“ wie folgt:
 
 ```text
-Set
-mailadresse = AMIC_MandantProfilParameter('P_MAILADRESSE',
-'live@me.xy');
+Set mailadresse = AMIC_MandantProfilParameter('P_MAILADRESSE', 'live@me.xy');
 ```
 
 Mit dieser Einrichtung stellen Sie sicher, dass Sie im Testsystem andere Parameter verwenden, als im Livesystem und dennoch nicht auf Funktionalitäten verzichten müssen.

@@ -11,9 +11,9 @@
 | Publikation | |
 | Teilmenge | |
 
-| **Funktionen** | |
-| --- | --- |
-| keine | |
+| **Funktionen** |
+| --- |
+| keine |
 
 | **Bereiche/Profile** | |
 | --- | --- |

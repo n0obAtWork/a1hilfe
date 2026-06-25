@@ -6,7 +6,7 @@
 
 ```text
 SHOW TRIGGER | ON RELATION |
-| TRIGGERNAME |
+             | TRIGGERNAME |
 ```
 
 <p class="just-emphasize">Purpose</p>
@@ -38,19 +38,11 @@ Verwendet man das Schlüsselwort ON mit einem Relationsname, werden nur die Trig
 ```text
 SHOW TRIGGER ON FiBuVorgPosition
 // ERGEBNIS
-Name
-Relation
-Event
-FiBuVorgPosition_aftdel
-fibuvorgposition       DELETE
-fibuvorgposition_aftins
-fibuvorgposition       INSERT
-FiBuVorgPosition_aftupd_akz
-fibuvorgposition       UPDATE
-FiBuVorgPosition_aftupd_Konto
-fibuvorgposition       UPDATE
-FiBuVorgPosition_aftupd_opk
-fibuvorgposition       UPDATE
-FiBuVorgPosition_aftupd_VAL
-fibuvorgposition       UPDATE
+Name                                              Relation                               Event
+FiBuVorgPosition_aftdel          fibuvorgposition       DELETE
+fibuvorgposition_aftins          fibuvorgposition       INSERT
+FiBuVorgPosition_aftupd_akz      fibuvorgposition       UPDATE
+FiBuVorgPosition_aftupd_Konto    fibuvorgposition       UPDATE
+FiBuVorgPosition_aftupd_opk      fibuvorgposition       UPDATE
+FiBuVorgPosition_aftupd_VAL      fibuvorgposition       UPDATE
 ```

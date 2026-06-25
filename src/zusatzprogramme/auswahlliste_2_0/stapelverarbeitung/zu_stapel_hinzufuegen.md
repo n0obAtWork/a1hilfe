@@ -15,9 +15,7 @@ Sind Vorgänge der Warenwirtschaft in einem Stapel zusammengefast, so werden bei
 Zusätzlich sind Varianten zur Vorgangsbearbeitung so eingerichtet, dass Vorgänge, die einem Stapel zugeordnet sind, mit einem Icon **![](../../../ImagesExt/image8_1305.png)**gekennzeichnet werden. Dies wir über FIELD mit dem Name **Stapelicon** und dem [Feldtyp](../../private_varianten_und_sql_texte/feldtyp_im_sql_text.md) **ICON** gesteuert. Dabei erkennt die Auswahlliste an dem Name **Stapelicon**, dass es sofort das Icon darstellen soll, und zwar ohne die Daten komplett neu zu laden.
 
 ```text
-FIELD
-,StapelICON,ICON,2,TIPTEXT="Zeigt an, ob der Vorgang in einem
-Stapel ist."
+FIELD ,StapelICON,ICON,2,TIPTEXT="Zeigt an, ob der Vorgang in einem Stapel ist."
 ```
 
 Diese Kennzeichnung kann mit dem Steuerparameter 1175 „Stapel in Anwendungen anzeigen“ deaktiviert werden.

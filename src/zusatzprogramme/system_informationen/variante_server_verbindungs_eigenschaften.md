@@ -26,6 +26,6 @@ Weitere Erläuterungen siehe [Zugreifen auf Werte von Verbindungseigenschaften](
 | Nummer | Hiermit kann über die Verbindungsnummer gesucht werden. Diese lässt sich über die Verbindungseigenschaft mit dem Namen „AppInfo“ ermitteln. |
 | Eigenschaft | Hiermit kann man entweder nach „Verbindung“ oder „Server“ gesucht werden. |
 
-| Funktionen | |
-| --- | --- |
-| keine | |
+| Funktionen |
+| --- |
+| keine |

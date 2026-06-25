@@ -15,6 +15,5 @@ Alte, umbenannte Datenbanklogdateien befinden sich im Verzeichnis der Datenbank.
 Mit der Datenbank-Replikationsoption „delete_old_logs“ werden alte, umbenannte Transaktionslogdateien behandelt. Der Standardwert ist „**Off**“. Setzen Sie den Wert der Option auf „**On**“.
 
 ```sql
-SET OPTION
-public.delete_old_logs = 'ON';
+SET OPTION public.delete_old_logs = 'ON';
 ```

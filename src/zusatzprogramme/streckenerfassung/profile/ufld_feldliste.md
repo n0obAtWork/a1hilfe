@@ -9,8 +9,7 @@ Sollen weitere UFLD-Felder in der Streckenerfassung angezeigt werden, so kann di
 z.B. für das Feld 1101
 
 ```text
-vs.FahrerNummer as
-ufld_1101
+vs.FahrerNummer as ufld_1101
 ```
 
 In diesem Fall hat das Feld 1101 auch eine Itembox, aus diesem Grund wird noch ein weiteres Feld auf der Streckenerfassungsmaske angelegt. Um dieses beim Laden der Daten auch zu befüllen muss die Ladeprozedur ein weiteres Feld zurückgeben, welches folgendermaßen aufgebaut ist „ufld_“ + Nummer des UFLD-Feldes + „_“ + Name des Returnfeldes.
@@ -18,8 +17,7 @@ In diesem Fall hat das Feld 1101 auch eine Itembox, aus diesem Grund wird noch e
 z.B. für das Feld 1101
 
 ```text
-fahrer.fahrerbezeich as
-ufld_1101_fahrerbezeich
+fahrer.fahrerbezeich as ufld_1101_fahrerbezeich
 ```
 
 <p class="just-emphasize">Verwendbare UFLD-Felder</p>

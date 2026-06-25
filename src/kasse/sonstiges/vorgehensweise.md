@@ -33,6 +33,5 @@ Bem.: Alle diejenigen, die diese Sonderfunktionalität nicht nutzen wollen, kön
 PS: Dieses Feature kann auch bei der Umstellung auf EURO benutzt werden, indem man vorab einen Satz von Kasseneinstellungen erzeugt, der nach der EURO-Umstellung gelten soll (z.B. Kassenwährung ist jetzt EURO, bei der Zählung muss die Stückelung angepasst werden).
 
 ```sql
-Update
-AcashStmdKsse set VorlageNummer=???
+Update AcashStmdKsse set VorlageNummer=???
 ```

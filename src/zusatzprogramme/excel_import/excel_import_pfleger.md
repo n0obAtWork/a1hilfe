@@ -107,17 +107,12 @@ oder Direktsprung [**EXCELI**]
           </table>
           <p>In dem Feld „Datenbankprozedur“ kann mithilfe von <strong>F3 </strong>eine bereits bestehende Prozedur ausgewählt werden oder es kann ein neuer Name eingetragen werden. Diese neue Prozedur wird sofort zur Bearbeitung geöffnet und hat folgenden Aufbau:</p>
           <div>
-            <pre><code>CREATE PROCEDURE p_exceli_test (in in_xlsident
-      integer, in in_tablename char(128))
+            <pre><code>CREATE PROCEDURE p_exceli_test (in in_xlsident integer, in in_tablename char(128))
  BEGIN
- --todo:
-      Aktion(en)
+ --todo: Aktion(en)
 EXCEPTION
-   when
-      others then
-     call amic_exception(
-      ERRORMSG() || CHAR(10) || CHAR(13) || TRACEBACK(), SQLCODE , SQLSTATE ,
-      'p_exceli_test' , -1 );
+   when others then
+     call amic_exception( ERRORMSG() || CHAR(10) || CHAR(13) || TRACEBACK(), SQLCODE , SQLSTATE , 'p_exceli_test' , -1 );
  END</code></pre>
           </div>
         </td>

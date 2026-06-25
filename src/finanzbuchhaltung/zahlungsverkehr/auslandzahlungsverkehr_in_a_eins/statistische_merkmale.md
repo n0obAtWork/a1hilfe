@@ -36,24 +36,17 @@ Sind die Zahlungen erstellt, müssen mit der Funktion ***Statistische Merkmale**
           <p>Man kann diesen Verwendungszweck (4 Zeilen a 35 Zeichen) auch individuell gestalten. Dazu muss eine private Datenbankfunktion mit dem Namen &gt;p_opausland_Verwendungszweck&lt; existieren. Sie hat als Übergabeparameter die Zahlungsid und muss einen char(140) zurückliefern. Liefert die Funktion null zurück, dann wird</p>
           <p>Beispiel:</p>
           <div>
-            <pre><code>CREATE FUNCTION p_opausland_Verwendungszweck (in
-      in_zahlungid integer)
-returns
-      char(140)
+            <pre><code>CREATE FUNCTION p_opausland_Verwendungszweck (in in_zahlungid integer)
+returns char(140)
 --
 BEGIN
-  declare
-      dc_ergebnis long varchar;
-  set dc_ergebnis
-      = ……
-  return
-      substring(dc_ergebnis,1,140);
+  declare dc_ergebnis long varchar;
+  set dc_ergebnis = ……
+  return substring(dc_ergebnis,1,140);
 --
 EXCEPTION
-  when others
-      then
-      call amic_exception( ERRORMSG() || CHAR(10) || CHAR(13) || TRACEBACK(),
-      SQLCODE , SQLSTATE , 'p_opausland_Verwendungszweck' , -1 );
+  when others then
+    call amic_exception( ERRORMSG() || CHAR(10) || CHAR(13) || TRACEBACK(), SQLCODE , SQLSTATE , 'p_opausland_Verwendungszweck' , -1 );
 END</code></pre>
           </div>
         </td>

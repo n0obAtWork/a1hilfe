@@ -23,8 +23,7 @@ Die Parameter, die zur Laufzeit versorgt werden sind:
 Beispiel einer privaten Datenbankprozedur, die für Bediener, die der Bedienerklasse 15 oder 20 angehören, die Sicht- und Pflegbarkeit der Preise mit den Preislistennummern 21 und 22 im Verkauf unterbinden ( Voraussetzung ist der Eintrag ‚p_listenpreisfilter‘ in der globalen Option ‚ Listenpreispflegefilterprozedur‘ ) :
 
 ```sql
-CREATE procedure
-p_listenpreisfilter (
+CREATE procedure p_listenpreisfilter (
  in PAR_BEDIENERKLASSE integer DEFAULT -1,
  in PAR_EKVK integer DEFAULT -1,
  in PAR_PREISNUMMER integer DEFAULT -1
@@ -35,11 +34,9 @@ BEGIN
  set erlaubt = 1;
  if ( PAR_EKVK = 2 )
  then
- if ( PAR_BEDIENERKLASSE = 15 or
-PAR_BEDIENERKLASSE = 20 )
+ if ( PAR_BEDIENERKLASSE = 15 or PAR_BEDIENERKLASSE = 20 )
  then
- if ( PAR_PREISNUMMER = 21 or PAR_PREISNUMMER = 22
-)
+ if ( PAR_PREISNUMMER = 21 or PAR_PREISNUMMER = 22 )
  then
  set erlaubt = 0;
  end if;

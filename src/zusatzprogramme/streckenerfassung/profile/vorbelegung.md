@@ -41,13 +41,11 @@ Die verwendete Tabelle für die Übergabeparameter nennt sich „GTT_AMIC_IDENT�
 Zum Auslesen aus der Tabelle kann dann folgendes Statement verwendet werden.
 
 ```sql
-Select cast(text2 as
-char(255))
+Select cast(text2 as char(255))
 Into dc_ArtikelNummer
 from gtt_amic_ident
 where typ = 'STRECKENERFASSUNG_VORBELEGUNGSPARAMETER'
-and text1 =
-'Artikelnummer'
+and text1 = 'Artikelnummer'
 ```
 
 Dabei sollte nicht vergessen werden, den Wert in den richtigen Datentypen umzuwandeln (CAST).
@@ -69,25 +67,20 @@ Da es sich um eine RESULT-Klausel handelt, können mehrere Spalten zur gleichen 
 In diesem Beispiel kann man erkennen, wie der Kopf und die Rückgabewerte der privaten Prozedur aussehen müssen.
 
 ```sql
-CREATE PROCEDURE
-p_VorbelegungStreckenerfassung
+CREATE PROCEDURE p_VorbelegungStreckenerfassung
 (
   in_KlammerNr   integer
-  ,in_Grid
-integer
-,in_Occ        integer
+  ,in_Grid       integer
+  ,in_Occ        integer
   ,in_Profil     char(255)
   ,in_Spalte     char(255)
-  ,in_Wert
-char(255)
+  ,in_Wert       char(255)
   ,in_OccChange  integer
 )
 result
 (
-Spalte
-char(255)
-,Wert
-char(255)
+  Spalte            char(255)
+  ,Wert             char(255)
   ,Ueberschreiben   integer
 )
 BEGIN

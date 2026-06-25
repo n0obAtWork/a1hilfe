@@ -15,8 +15,7 @@ Create table admin.P_Bestand
   Bestand numeric ( 30,4 ) default 0.00,
   Bemerkung char(64),
   Bediener char(16) default current user,
-  Zeitstempel timestamp default current
-timestamp,
+  Zeitstempel timestamp default current timestamp,
   primary key ( Ident ) ) ;
 ```
 
@@ -32,8 +31,7 @@ Zusätzlich ist es notwendig, einen Eintrag in der Tabelle Ident vorzunehmen. Au
 
 ```sql
 insert into ident
- ( IdentTableName, IdentColumnName, IdentIdent,
-IdentAktivKont, IdentAngefKont)
+ ( IdentTableName, IdentColumnName, IdentIdent, IdentAktivKont, IdentAngefKont)
   Values
  ( 'p_bestand', 'Ident', 0, 1, 0)
 ```
@@ -63,9 +61,7 @@ Der Menüpunkt „***Manuelle Bestandsmeldung***“ wurde wie üblich als Privat
 Der vollständige Controlstring lautet hier:
 
 ```text
-^jpl
-aw_vert Private_Anwendungen Private_Anwendungen Private_Anwendungen
-466085_21
+^jpl aw_vert Private_Anwendungen Private_Anwendungen Private_Anwendungen 466085_21
 ```
 
 In der Variante 1 zu AIS muss zunächst mindestens ein Feld der Gruppe angelegt werden. Wir bauen hier z.B. eine bunte, große Überschrift.

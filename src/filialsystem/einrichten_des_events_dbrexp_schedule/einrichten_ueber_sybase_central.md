@@ -41,8 +41,7 @@ begin
   call amic_remote_schedule()
 exception
   when others then
-    call amic_exception(ERRORMSG() ||
-'\\x0A' || TRACEBACK(),sqlcode,sqlstate,'EVENT dbrexp_schedule',-19004)
+    call amic_exception(ERRORMSG() || '\\x0A' || TRACEBACK(),sqlcode,sqlstate,'EVENT dbrexp_schedule',-19004)
 end
 ```
 

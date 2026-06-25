@@ -10,13 +10,11 @@ Grundsätzlich muss man hier unterscheiden, ob es sich um strukturverändernde B
 2) Wenn der Steuerungsparameter auf **Nein** steht, werden strukturverändernde Befehle nicht mehr direkt ausgeführt und zwar auch nicht auf der initiierenden Datenbank. Soll ein Befehl trotzdem weitergeleitet werden, so kann man in A.eins (z.B. unter OSQL) dem Befehl ein Sternchen **\*** voranstellen. Dann wird dieser Befehl so verarbeitet, als ob der Steuerungsparameter auf **Ja** steht. Beispiel:
 
 ```sql
-*create table admin.MusterTabelle
-(Musterspalte1 integer not null default autoincrement primary key)
+*create table admin.MusterTabelle (Musterspalte1 integer not null default autoincrement primary key)
 ```
 
 Datenverändernden Statements werden dann automatisch weitergereicht, wenn die angesprochenen Tabellen in den Publikationen entsprechend eingerichtet sind. Dies geschieht unabhängig von dem Steuerungsparameter 851 „Passthrough aktivieren“. **Aber** es können auch Daten für Tabellen, die nicht in den Publikationen stehen an alle Datenbanken des Replikationssystems weitergeleitet werden! Dazu muss dem Statement ein Sternchen **\*** vorangestellt werden.
 
 ```sql
-*insert into admin.MusterTabelle
-(Musterspalte1) values (4711)
+*insert into admin.MusterTabelle (Musterspalte1) values (4711)
 ```

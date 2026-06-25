@@ -15,23 +15,19 @@ Als nächstes ist per INSERT (Einfügen) eine neue Klasse zu bilden. Diese Klass
 ```vbnet
 Option Explicit
 Public WithEvents MyQuery As QueryTable
-Private Sub MyQuery_AfterRefresh(ByVal Success As
-Boolean)
+Private Sub MyQuery_AfterRefresh(ByVal Success As Boolean)
   If Success Then Call RefreshAllPivotTables
 End Sub
-Private Sub MyQuery_BeforeRefresh(Cancel As
-Boolean)
+Private Sub MyQuery_BeforeRefresh(Cancel As Boolean)
 End Sub
 Sub RefreshAllPivotTables()
 Dim PT As PivotTable
 Dim WS As Worksheet
 On Error Resume Next
-    For Each WS In
-ThisWorkbook.Worksheets
-        For Each PT
-In WS.PivotTables
-PT.RefreshTable
-PT.Update
+    For Each WS In ThisWorkbook.Worksheets
+        For Each PT In WS.PivotTables
+          PT.RefreshTable
+          PT.Update
         Next PT
     Next WS
     Range("A1").Select

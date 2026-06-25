@@ -28,9 +28,7 @@ Eine optionale Eingabe in der Spalte **‚Validierung: zugeh. Textquelle’** be
   Beispiel:
 
 ```sql
-select
-SpediNummer,SpediBezeich
+select SpediNummer,SpediBezeich
  from SpediStamm
- where
-SpediNummer = ':ErgWert'
+ where SpediNummer = ':ErgWert'
 ```

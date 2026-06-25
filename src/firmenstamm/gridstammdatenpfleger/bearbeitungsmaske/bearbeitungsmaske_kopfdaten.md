@@ -30,19 +30,14 @@ Dieses SQL ist vom Anwender nicht editierbar.
 **Beispiel:**
 
 ```sql
-// SQLK TEXT für Griddefinition
-wohnung_jdb
-select w.*,k.kundnummer, a.AdressVorname || ' ' ||
-a.Adressname as Name
+// SQLK TEXT für Griddefinition wohnung_jdb
+select w.*,k.kundnummer, a.AdressVorname || ' ' || a.Adressname as Name
 :USER_FIELDS
 from wohnungjdb as w
-left outer join kundenstamm k on (k.kundid = w.kundid
-)
-left outer join AnschriftStamm a on (k.AdressIdHauptAdr
-= a.AdressId)
+left outer join kundenstamm k on (k.kundid = w.kundid )
+left outer join AnschriftStamm a on (k.AdressIdHauptAdr = a.AdressId)
 :USER_JOINS
-where w.Hausident =
-:HAUSIDENT
+where w.Hausident = :HAUSIDENT
 ```
 
 <p class="just-emphasize">UserSQL</p>

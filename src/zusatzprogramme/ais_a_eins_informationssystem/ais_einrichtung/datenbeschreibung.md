@@ -27,18 +27,14 @@ Da Tabellen von A.eins unter Umständen mehr als einen Schlüssel zur Identifika
 Das **Ident Feld** ist der Name des Datenbankfeldes, das den Primärschlüssel zur eindeutigen Identifikation des Datensatzes darstellt. Intern wird bei der späteren Verarbeitung ein SQL-Statement in folgender Form abgesetzt:
 
 ```sql
-select *
-from Relation where IdentFeld = :IDENT [and IdentFeld2 = :IDENT2
-[and IdentFeld3 = :IDENT3 [and IdentFeld4 = :IDENT4 ] ]
-]
+select * from Relation where IdentFeld = :IDENT [and IdentFeld2 = :IDENT2 [and IdentFeld3 = :IDENT3 [and IdentFeld4 = :IDENT4 ] ] ]
 ```
 
     
 Im obigen Beispiel also:
 
 ```sql
-select *
-from Sachkontstammaddon where Kontonummer = :IDENT
+select * from Sachkontstammaddon where Kontonummer = :IDENT
 ```
 
 Der **Handle** wird intern verwendet. Für alle Felder einer Relation wird nur einmal ein Select ausgeführt (s.o.). Danach werden alle Datenbankfelder den Bildschirmfeldern zugeordnet, die diesen Handel haben. Pro Gruppe und Relation darf es nur einen Handel geben; daher wird er auch vorbelegt. Groß und Kleinschreibung muss beachtet werden. Wird kein Handel angegeben, so generiert sich das System automatisch einen Handel.
@@ -53,8 +49,7 @@ Es werden die Daten mit einer Prozedur zusammengesucht. Voraussetzung ist, dass 
     
 
 ```sql
-select *
-from Relation (':IDENT' [ ‚‘:IDENT2‘ [ ‚‘:IDENT3‘ [ ‚ ‘:IDENT4‘ ] ] ])
+select * from Relation (':IDENT' [ ‚‘:IDENT2‘ [ ‚‘:IDENT3‘ [ ‚ ‘:IDENT4‘ ] ] ])
 ```
 
 <p class="just-emphasize">2\. SQL</p>
@@ -64,8 +59,7 @@ Es wird das angegebene SQL-Statement so ausgeführt, wie es in dem dafür vorges
 Beispiel:
 
 ```sql
-Select *
-from Sachkontstamm where KontoNummer=@jvars(7100,’AIS_KONTONUMMER’)
+Select * from Sachkontstamm where KontoNummer=@jvars(7100,’AIS_KONTONUMMER’)
 ```
 
 Diese JVAR hat den Owner 7100 - also eine in AIS definierte JVAR – und den Namen AIS_KONTONUMMER.
@@ -84,15 +78,13 @@ Intern wird ein SQL Befehl mit folgender Form ausgeführt:
 Für Kundenstamm:
 
 ```sql
-Select *
-from Kundenstamm where KundId = @jvars(7000,’KundId’)
+Select * from Kundenstamm where KundId = @jvars(7000,’KundId’)
 ```
 
 Für Artikel:
 
 ```sql
-Select *
-from Artikel where KundId = @jvars(7000,’ArtikelId’)
+Select * from Artikel where KundId = @jvars(7000,’ArtikelId’)
 ```
 
 Die angesprochenen JVars mit dem Besitzer 7000 werden vom Programm versorgt und enthalten den Wert des zuletzt aufgerufenen Kunden bzw. Artikels aus der Vorgangserfassung.

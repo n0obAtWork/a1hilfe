@@ -83,20 +83,17 @@ BEGIN
     lBuf2 := alloc(BUFLEN);
     lAus  := alloc(BUFLEN);
     bagget("UFLDID", lBuf1, BUFLEN);
-    bagget("VORGANGHANDLE", lBuf2,
-BUFLEN);
+    bagget("VORGANGHANDLE", lBuf2, BUFLEN);
     lVHandle := strtoint(lBuf2);
-    lUFLDID  :=
-strtoint(lBuf1);
+    lUFLDID  := strtoint(lBuf1);
     GetValue(lVHandle, lUFLDID, lAus,0);
     if (lUFLDID = 1772 ) then
     Begin
-      dbx_io
-("AISREFRESH","Zeit$", "", "") ;
+      dbx_io ("AISREFRESH","Zeit$", "", "") ;
     End;
     if (lUFLDID = 1034 ) then
     Begin
-bagset("GLOBALREFRESH","0");
+      bagset("GLOBALREFRESH","0");
     End;
     free(lAus);
     free(lBuf);

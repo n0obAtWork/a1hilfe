@@ -6,10 +6,7 @@ Die erzeugte Datenbank-Tracedatei ist als OSQL-Einspielscript formuliert.
 
 ```sql
 LOADTUETTEL;
-insert into amic_tracefile
-(TraceZeit,TraceCursorNo,TraceMaske,TraceVerbrauch,
-TraceError,TraceCursor,TracePlan,TraceSelect,TraceUser,TraceStatus,TraceTrace)
-values (%s)
+insert into amic_tracefile (TraceZeit,TraceCursorNo,TraceMaske,TraceVerbrauch,     TraceError,TraceCursor,TracePlan,TraceSelect,TraceUser,TraceStatus,TraceTrace) values (%s)
 ```
 
 | Felder der Datenbank-Tracedatei |

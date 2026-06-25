@@ -41,8 +41,7 @@ SQL
  :!JVARS_5001_FAA_JOIN
  where ( 1=1 )
  :!JVARS_5001_FAA_AUSWAHL
- order by
-fa.FA_Druckdatum desc
+ order by fa.FA_Druckdatum desc
 ```
 
 Somit werden mit Hilfe der [Archiv-Ansichts-Definition](../archiv_ansehen/archiv_ansicht_definition/index.md) die Inhalte der obigen JVARS ermittelt.

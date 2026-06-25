@@ -64,8 +64,7 @@ getldb("PARTIENUMMER$",par_abg);
 wird der Wert aus dem Feld mit der Partienummer in die Variable par_abg gespeichert.
 
 ```text
-PROGRAM TM_ARUPARUUMBU(
-v_unterklasse; partieid; partienummer );
+PROGRAM TM_ARUPARUUMBU( v_unterklasse; partieid; partienummer );
   const
   BUFLEN = 256;
   ID_LAGERNUMMER_ABG  = 1801;
@@ -91,8 +90,8 @@ v_unterklasse; partieid; partienummer );
   p,
   ok,
   lg_abg_i,
-lg_zug_i        : integer;
-menge_r         : real;
+  lg_zug_i        : integer;
+  menge_r         : real;
 procedure init();
 begin
   waitcursor(true);
@@ -107,8 +106,7 @@ begin
   me_num   := alloc(128);
   partiebezeich := alloc(1000);
   menge    := alloc(128);
-  buf      :=
-alloc(BUFLEN);
+  buf      := alloc(BUFLEN);
 end;
 procedure aufraeumen();
 begin
@@ -146,42 +144,30 @@ begin
   menge_r:=strtoreal(menge);
   SetKlassNum ( 5120 );
   SetUKlassNum (v_unterklasse );
-  v := StartVorgang( 0, 0 );   // neuer
-leerer Vorgang
+  v := StartVorgang( 0, 0 );   // neuer leerer Vorgang
   if v <> 0 then
   {
-    SetValue(v, ID_LAGERNUMMER_ABG,
-lg_abg, 0);
-    SetValue(v, ID_LAGERNUMMER_ZUG,
-lg_zug, 0);
+    SetValue(v, ID_LAGERNUMMER_ABG, lg_abg, 0);
+    SetValue(v, ID_LAGERNUMMER_ZUG, lg_zug, 0);
     p := Umbuchung (
-v,
-// Vorgangsreferenz
-art_abg,          // ArtikelNr
-Abgang
-lg_abg_i,         // LagerNr
-art_zug,          // ArtikelNr
-Zugang
-lg_zug_i,         // LagerNr
-menge_r,          // Menge
+      v,                // Vorgangsreferenz
+      art_abg,          // ArtikelNr Abgang
+      lg_abg_i,         // LagerNr
+      art_zug,          // ArtikelNr Zugang
+      lg_zug_i,         // LagerNr
+      menge_r,          // Menge
       0
     );
     if p <> 0 then
     {
-      SetValpos ( p ,
-ID_LAGERPLATZ_ABG, lgpl_abg, 0 );
-      SetValpos ( p ,
-ID_LAGERPLATZ_ZUG, lgpl_zug, 0 );
-      SetValPos ( p ,
-ID_PARTIENUMMER_ABG, par_abg, 0 );
-      SetValPos ( p ,
-ID_PARTIENUMMER_ZUG, partienummer, 0 );
+      SetValpos ( p , ID_LAGERPLATZ_ABG, lgpl_abg, 0 );
+      SetValpos ( p , ID_LAGERPLATZ_ZUG, lgpl_zug, 0 );
+      SetValPos ( p , ID_PARTIENUMMER_ABG, par_abg, 0 );
+      SetValPos ( p , ID_PARTIENUMMER_ZUG, partienummer, 0 );
       PositionAdd(v);
     }
   }
-  ok :=
-BeendeVorgang(v,1,1);      // zum Schluß
-abspeichern
+  ok := BeendeVorgang(v,1,1);      // zum Schluß abspeichern
   aufraeumen();
 end.
 ```

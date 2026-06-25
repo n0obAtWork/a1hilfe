@@ -21,12 +21,9 @@ Um nun einen Datensatz in den Belegfluss zu importieren benutzt man den Direktsp
 Hier ist zu beachten, dass ein Name vergeben muss und der Pfad „..\\import“ mit einem Testpfad ausgetauscht werden muss (in diesem Pfad sollte sich eine Testdatei befinden). Ebenfalls muss man die Funktion Sql-Ereignis nach Einfügung aufrufen und folgende Prozedur einfügen:
 
 ```sql
-create procedure
-"admin"."p_sqlAfterInsert" ( in in_fa_id integer , in in_fa_mndnr integer )
+create procedure "admin"."p_sqlAfterInsert" ( in in_fa_id integer , in in_fa_mndnr integer )
 begin
-       insert into
-formulararchivbelegfluss (fa_id, fa_mndnr, angefordert) values (in_fa_id,
-in_fa_mndnr, 1)
+       insert into formulararchivbelegfluss (fa_id, fa_mndnr, angefordert) values (in_fa_id, in_fa_mndnr, 1)
 end
 ```
 

@@ -38,24 +38,16 @@ Der **Buchungstext** des so erzeugten Beleges wird je nach Einstellung bzw. Date
 Beispiel:
 
 ```sql
-create function
-p_Buchungstext( in in_ZahlungId integer, in in_SammelPosition integer)
+create function p_Buchungstext( in in_ZahlungId integer, in in_SammelPosition integer)
 returns char(100)
 BEGIN
-  declare
-out_character     char(100);
-  if
-in_SammelPosition = 1 then
-    set
-out_character     = 'Automatische Zahlung vom '||TODAY(*);
+  declare out_character     char(100);
+  if in_SammelPosition = 1 then
+    set out_character     = 'Automatische Zahlung vom '||TODAY(*);
   else
-    set
-out_character     = 'Automatische Zahlung aus
-Zahlungslauf '|| (select ZahlLaufId
-from Zahlungsbeleg where ZahlungId=in_ZahlungId);
+    set out_character     = 'Automatische Zahlung aus Zahlungslauf '|| (select ZahlLaufId from Zahlungsbeleg where ZahlungId=in_ZahlungId);
   endif;
-  return
-out_character;
+  return out_character;
 END
 ```
 

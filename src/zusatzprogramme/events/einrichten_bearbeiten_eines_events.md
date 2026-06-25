@@ -67,7 +67,7 @@ Wählen Sie Auslösen Nach, wenn das Event an bestimmten Wochentagen oder bestim
 
 ```text
 Begin
---Verarbeitungsroutine
+  --Verarbeitungsroutine
 End
 ```
 

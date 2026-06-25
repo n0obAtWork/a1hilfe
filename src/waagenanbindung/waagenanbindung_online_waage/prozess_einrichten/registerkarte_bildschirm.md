@@ -277,26 +277,19 @@ Es findet keine Verprobung zwischen den Felder der privaten Prozedur und den Sta
 <p class="just-emphasize">Beispiel</p>
 
 ```sql
-CREATE PROCEDURE
-p_Waage_PflichtFelder ( in in_om_id integer )
-result ( FeldName char(255), verstecken integer )
+CREATE PROCEDURE p_Waage_PflichtFelder ( in in_om_id integer )
+            result ( FeldName char(255), verstecken integer )
 --
 BEGIN
-  declare local temporary table
-ltt_fields(feldname char(255), verstecken integer) on commit delete rows;
+  declare local temporary table ltt_fields(feldname char(255), verstecken integer) on commit delete rows;
 case in_om_id
   when 14 then
-    insert into ltt_fields( feldname,
-verstecken ) values( 'Bemerkung$', 0);
-    insert into ltt_fields( feldname,
-verstecken ) values( 'Einlagerung$', 0);
+    insert into ltt_fields( feldname, verstecken ) values( 'Bemerkung$', 0);
+    insert into ltt_fields( feldname, verstecken ) values( 'Einlagerung$', 0);
   when 23 then
-    insert into ltt_fields( feldname,
-verstecken ) values( 'Bemerkung2$', 0);
-    insert into ltt_fields( feldname,
-verstecken ) values( 'FremdFeuchte$', 0);
-    insert into ltt_fields( feldname,
-verstecken ) values( 'QWERT1$', 0);
+    insert into ltt_fields( feldname, verstecken ) values( 'Bemerkung2$', 0);
+    insert into ltt_fields( feldname, verstecken ) values( 'FremdFeuchte$', 0);
+    insert into ltt_fields( feldname, verstecken ) values( 'QWERT1$', 0);
 end;
   select feldname, verstecken from ltt_fields;
 END

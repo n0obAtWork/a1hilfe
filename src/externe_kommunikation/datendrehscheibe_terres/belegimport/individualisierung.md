@@ -124,8 +124,7 @@ Der normale Belegimport importiert die Daten aus dem im Steuerparameter „[829]
 Mit der folgenden Prozedur kann man eine Datei direkt ins Formulararchiv und die entsprechenden Tabellen laden. Die Datei wird dabei nicht umbenannt, das muss die private Prozedur selber machen.
 
 ```sql
-Select
-terresImportBeleg('\\\\NetzwerkPfad\\temp\\test.xml')
+Select terresImportBeleg('\\\\NetzwerkPfad\\temp\\test.xml')
 ```
 
 <p class="just-emphasize">Kontrollmakro</p>

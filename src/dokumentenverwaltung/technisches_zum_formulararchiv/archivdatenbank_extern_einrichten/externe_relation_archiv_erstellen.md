@@ -19,13 +19,11 @@ Schritt 3:
 Damit befindet sich die Relation Archiv schon in der Zieldatenbank und kann somit abgebaut werden.
 
 ```sql
-Drop table
-archiv
+Drop table archiv
 ```
 
 ```sql
-Create
-existing table admin.archiv at ‘archiv;;admin;Archiv’
+Create existing table admin.archiv at ‘archiv;;admin;Archiv’
 ```
 
 Schritt4:

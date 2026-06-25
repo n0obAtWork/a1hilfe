@@ -95,8 +95,7 @@ Die XML Struktur muss genauso wie in diesem Beispiel aufgebaut sein. Bei den XML
 <HauptKonto>047A11</HauptKonto>
 <HauptText>FOREIGNEXCHANGE</HauptText>
 <GegenKonto>123456</GegenKonto>
-<GegenText>FX
-IDT Clearing</GegenText>
+<GegenText>FX IDT Clearing</GegenText>
 <Betrag>0128053.00</Betrag>
 <WBetrag>033000.00</WBetrag>
 <SollHaben>2</SollHaben>
@@ -111,8 +110,7 @@ IDT Clearing</GegenText>
 <FiBuVPW_RechFormel>0</FiBuVPW_RechFormel>
 <FiBuVPW_Faktor>1</FiBuVPW_Faktor>
 <FiBuVPW_Typ>2</FiBuVPW_Typ>
-<WaehrISOCode>
-EUR </WaehrISOCode>
+<WaehrISOCode> EUR </WaehrISOCode>
 </Account>
 </LedgerImport>
 ```
@@ -160,300 +158,207 @@ Als Ergebnis erwarten wir folgende Paramater von der Prozedur zurück.
 | | | | |
 
 ```sql
-CREATE PROCEDURE
-fibu_ledgerimport (
-in in_GUID char(256)
-,in in_NumkreisNummer integer
-,in in_ImportSchluessel integer
-)
+CREATE PROCEDURE fibu_ledgerimport (
+                                      in in_GUID char(256)
+                                     ,in in_NumkreisNummer integer
+                                     ,in in_ImportSchluessel integer
+                                   )
 BEGIN
-  declare
-dc_Fehler integer;
-  declare
-dc_Ident integer;
-  declare
-dc_HauptKontoNumeric integer;
-  declare
-dc_HauptKonto char(30);
-  declare
-dc_ListFehlerKonto char(255);
-  declare
-dc_KostStelNummer integer;
-  declare
-dc_KostStelNummerUm integer;
-  declare
-dc_Dateiname char(255);
-  declare
-dc_err_notfound exception for sqlstate value
-'02000';
-  DECLARE
-dc_ErrorMsg         LONG VARCHAR;
-  DECLARE
-dc_SQLCODE          INTEGER;
-  DECLARE
-dc_SQLSTATE         CHAR(10);
+  declare dc_Fehler integer;
+  declare dc_Ident integer;
+  declare dc_HauptKontoNumeric integer;
+  declare dc_HauptKonto char(30);
+  declare dc_ListFehlerKonto char(255);
+  declare dc_KostStelNummer integer;
+  declare dc_KostStelNummerUm integer;
+  declare dc_Dateiname char(255);
+  declare dc_err_notfound exception for sqlstate value '02000';
+  DECLARE dc_ErrorMsg         LONG VARCHAR;
+  DECLARE dc_SQLCODE          INTEGER;
+  DECLARE dc_SQLSTATE         CHAR(10);
   declare local temporary table lttBuchungssatzImport(
-Ident
-integer not
-null default
-autoincrement
-,FibuV_Klasse
-integer
-,HauptKonto
-char(30)
-,HauptText
-char(100)
-,GegenKonto
-integer
-,GegenText
-char(100)
-,FiBuVP_Betrag
-numeric(15,4)
-,FiBuVPW_Betrag     numeric(15,4)
-,FiBuVP_SollHaben   integer
-,FiBuV_Datum
-date
-,JahrNummer
-char(10)
-,PeriNummer
-char(10)
-,KostStelNummer     char(10)
-,KSTRNummer
-char(10)
-,FiBuV_FremdNr     char(20)
-,FiBuV_PaginierNr   char(40)
-,FiBuVPW_Kurs
-numeric(15,6)
-,FiBuVPW_RechFormel integer
-,FiBuVPW_Faktor     numeric(15,4)
-,FiBuVPW_Typ
-integer
-,WaehrISOCode
-char(34)
-,Belegmappe
-char(255)
+                                                        Ident              integer not null default autoincrement
+                                                       ,FibuV_Klasse       integer
+                                                       ,HauptKonto         char(30)
+                                                       ,HauptText          char(100)
+                                                       ,GegenKonto         integer
+                                                       ,GegenText          char(100)
+                                                       ,FiBuVP_Betrag      numeric(15,4)
+                                                       ,FiBuVPW_Betrag     numeric(15,4)
+                                                       ,FiBuVP_SollHaben   integer
+                                                       ,FiBuV_Datum        date
+                                                       ,JahrNummer         char(10)
+                                                       ,PeriNummer         char(10)
+                                                       ,KostStelNummer     char(10)
+                                                       ,KSTRNummer         char(10)
+                                                       ,FiBuV_FremdNr     char(20)
+                                                       ,FiBuV_PaginierNr   char(40)
+                                                       ,FiBuVPW_Kurs       numeric(15,6)
+                                                       ,FiBuVPW_RechFormel integer
+                                                       ,FiBuVPW_Faktor     numeric(15,4)
+                                                       ,FiBuVPW_Typ        integer
+                                                       ,WaehrISOCode       char(34)
+                                                       ,Belegmappe         char(255)
   ) on commit delete rows ;
-  if
-VAREXISTS( 'ledgerimport_xml' )
-<> 0 then
+  if VAREXISTS( 'ledgerimport_xml' ) <> 0 then
     drop VARIABLE ledgerimport_xml;
   end if;
-  CREATE VARIABLE
-ledgerimport_xml XML;
+  CREATE VARIABLE ledgerimport_xml XML;
   Begin
-    declare LeseDaten dynamic scroll cursor for select Datei,
-Dateiname
-      from BuchungssatzImport where Id = in_GUID
-and eingespielt = 0;
+    declare LeseDaten dynamic scroll cursor for select Datei, Dateiname
+      from BuchungssatzImport where Id = in_GUID and eingespielt = 0;
      open LeseDaten;
      LeseDatenloop:
-     loop fetch next LeseDaten into
-ledgerimport_xml, dc_Dateiname;
+     loop fetch next LeseDaten into ledgerimport_xml, dc_Dateiname;
        if sqlstate<>dc_err_notfound then
-         insert into
-GTT_AMic_Ident (typ, ident1, text1) values(in_GUID, 1,
-dc_Dateiname);
-         insert into
-lttBuchungssatzImport with auto name
-(select
-FibuV_Klasse
-,if isnumeric(HauptKonto) = 1 then
-umsetzer(in_ImportSchluessel,cast(cast(HauptKonto as integer) as char(255)))
-else
-umsetzer(in_ImportSchluessel, HauptKonto)
-endif as
-HauptKonto
-,HauptText
-,if isnumeric(GegenKonto) = 1 then
-umsetzer(in_ImportSchluessel, cast(cast(GegenKonto as integer)as char(255)))
-else
-umsetzer(in_ImportSchluessel, GegenKonto)
-endif as
-GegenKonto
-,GegenText
-,FiBuVP_Betrag
-,FiBuVPW_Betrag
-,FiBuVP_SollHaben
-,FiBuV_Datum
-,if isnumeric(Jahrnummer)=1 then
-cast(Jahrnummer as integer )
-else
-isnull((select Jahrnummer
-from GeschJahrStamm where FiBuV_Datum
-between JahrBeginn and JahrEnde ),-1)
-endif as JahrNummer
-,if isnumeric(Perinummer)=1 then
-cast(Perinummer as integer )
-else
-isnull((select Perinummer
-from PeriStamm
-where FiBuV_Datum between PeriBeginn and PeriEnde and
-perityp=1
-and peribereich =1 and peristatus
-in ( 1, 2 ) ),-1)
-endif as
-Perinummer
-,umsetzer(in_ImportSchluessel, isnull(KostStelNummer,'0')) as
-KostStelNummer
-,umsetzer(in_ImportSchluessel, isnull(KSTRNummer,'0')) as
-KSTRNummer
-,FiBuV_FremdNr
-,FiBuV_PaginierNr
-,FiBuVPW_Kurs
-,FiBuVPW_RechFormel
-,FiBuVPW_Faktor
-,FiBuVPW_Typ
-,if isnumeric(WaehrISOCode)=1
-then
-cast ( WaehrISOCode as
-integer )
-else
-if isnull(trim(WaehrISOCode),'')='' then
-DB_ZENTRALWAEHRUNG
-else
-isnull( (select (Waehrnummer) from waehrungsstamm
-where waehrungsstamm.WaehrISOBezeich=Trim(WaehrISOCode)),-1)
-endif
-endif as WaehrISOCode
-,isnull(dc_Dateiname,'') as Belegmappe
-from openXML(ledgerimport_xml,'LedgerImport/Account'
-)
-WITH
-(
-FibuV_Klasse       integer       'FiBuV_Klasse'
-,HauptKonto
-char(255)     'HauptKonto'
-,HauptText
-char(100)     'HauptText'
-,GegenKonto
-integer
-'GegenKonto'
-,GegenText
-char(100)     'GegenText'
-,FiBuVP_Betrag
-numeric(15,4) 'Betrag'
-,FiBuVPW_Betrag     numeric(15,4) 'WBetrag'
-,FiBuVP_SollHaben   integer       'SollHaben'
-,FiBuV_Datum
-date
-'BelDatum'
-,JahrNummer
-char(10)      'JahrNummer'
-,PeriNummer
-char(10)      'PeriNummer'
-,KostStelNummer     char(10)      'KostStelNummer'
-,KSTRNummer
-char(10)      'KSTRNummer'
-,FiBuV_FremdNr     char(20)       'FiBuV_FremdNr'
-,FiBuV_PaginierNr   char(40)      'PaginierNr'
-,FiBuVPW_Kurs
-numeric(15,6) 'FiBuVPW_Kurs'
-,FiBuVPW_RechFormel integer       'FiBuVPW_RechFormel'
-,FiBuVPW_Faktor     numeric(15,4) 'FiBuVPW_Faktor'
-,FiBuVPW_Typ
-integer
-'FiBuVPW_Typ'
-,WaehrISOCode
-char(34)      'WaehrISOCode'
-));
+         insert into GTT_AMic_Ident (typ, ident1, text1) values(in_GUID, 1, dc_Dateiname);
+         insert into lttBuchungssatzImport with auto name  (select
+                                                           FibuV_Klasse
+                                                          ,if isnumeric(HauptKonto) = 1 then
+                                                              umsetzer(in_ImportSchluessel,cast(cast(HauptKonto as integer) as char(255)))
+                                                           else
+                                                             umsetzer(in_ImportSchluessel, HauptKonto)
+                                                           endif as HauptKonto
+                                                          ,HauptText
+                                                          ,if isnumeric(GegenKonto) = 1 then
+                                                             umsetzer(in_ImportSchluessel, cast(cast(GegenKonto as integer)as char(255)))
+                                                           else
+                                                              umsetzer(in_ImportSchluessel, GegenKonto)
+                                                           endif as GegenKonto
+                                                          ,GegenText
+                                                          ,FiBuVP_Betrag
+                                                          ,FiBuVPW_Betrag
+                                                          ,FiBuVP_SollHaben
+                                                          ,FiBuV_Datum
+                                                          ,if isnumeric(Jahrnummer)=1 then
+                                                             cast(Jahrnummer as integer )
+                                                           else
+                                                             isnull((select Jahrnummer from GeschJahrStamm where FiBuV_Datum
+                                                              between JahrBeginn and JahrEnde ),-1)
+                                                           endif as JahrNummer
+                                                          ,if isnumeric(Perinummer)=1 then
+                                                            cast(Perinummer as integer )
+                                                           else
+                                                            isnull((select Perinummer from PeriStamm
+                                                                where FiBuV_Datum between PeriBeginn and PeriEnde and perityp=1
+                                                                and peribereich =1 and peristatus in ( 1, 2 ) ),-1)
+                                                           endif as Perinummer
+                                                          ,umsetzer(in_ImportSchluessel, isnull(KostStelNummer,'0')) as
+                                                            KostStelNummer
+                                                          ,umsetzer(in_ImportSchluessel, isnull(KSTRNummer,'0')) as KSTRNummer
+                                                          ,FiBuV_FremdNr
+                                                          ,FiBuV_PaginierNr
+                                                          ,FiBuVPW_Kurs
+                                                          ,FiBuVPW_RechFormel
+                                                          ,FiBuVPW_Faktor
+                                                          ,FiBuVPW_Typ
+                                                          ,if isnumeric(WaehrISOCode)=1 then
+                                                             cast ( WaehrISOCode as integer )
+                                                           else
+                                                             if isnull(trim(WaehrISOCode),'')='' then
+                                                               DB_ZENTRALWAEHRUNG
+                                                             else
+                                                                isnull( (select (Waehrnummer) from waehrungsstamm
+                                                                 where waehrungsstamm.WaehrISOBezeich=Trim(WaehrISOCode)),-1)
+                                                             endif
+                                                           endif as WaehrISOCode
+                                                          ,isnull(dc_Dateiname,'') as Belegmappe
+                                                          from openXML(ledgerimport_xml,'LedgerImport/Account'
+                                                      )
+                                                      WITH
+                                                      (
+                                                         FibuV_Klasse       integer       'FiBuV_Klasse'
+                                                        ,HauptKonto         char(255)     'HauptKonto'
+                                                        ,HauptText          char(100)     'HauptText'
+                                                        ,GegenKonto         integer       'GegenKonto'
+                                                        ,GegenText          char(100)     'GegenText'
+                                                        ,FiBuVP_Betrag      numeric(15,4) 'Betrag'
+                                                        ,FiBuVPW_Betrag     numeric(15,4) 'WBetrag'
+                                                        ,FiBuVP_SollHaben   integer       'SollHaben'
+                                                        ,FiBuV_Datum        date          'BelDatum'
+                                                        ,JahrNummer         char(10)      'JahrNummer'
+                                                        ,PeriNummer         char(10)      'PeriNummer'
+                                                        ,KostStelNummer     char(10)      'KostStelNummer'
+                                                        ,KSTRNummer         char(10)      'KSTRNummer'
+                                                        ,FiBuV_FremdNr     char(20)       'FiBuV_FremdNr'
+                                                        ,FiBuV_PaginierNr   char(40)      'PaginierNr'
+                                                        ,FiBuVPW_Kurs       numeric(15,6) 'FiBuVPW_Kurs'
+                                                        ,FiBuVPW_RechFormel integer       'FiBuVPW_RechFormel'
+                                                        ,FiBuVPW_Faktor     numeric(15,4) 'FiBuVPW_Faktor'
+                                                        ,FiBuVPW_Typ        integer       'FiBuVPW_Typ'
+                                                        ,WaehrISOCode       char(34)      'WaehrISOCode'
+                                                     ));
       else
-        leave
-LeseDatenloop;
+        leave LeseDatenloop;
       end if;
-    end
-loop LeseDatenloop;
-  close
-LeseDaten;
-    set
-dc_Fehler = 0;
+    end loop LeseDatenloop;
+  close LeseDaten;
+    set dc_Fehler = 0;
   End;
-  insert into FibuImport with
-auto name
-(select
-IDENT
+  insert into FibuImport with auto name (select
+          IDENT
          ,FibuV_Klasse  as BELKLASSE
          ,if dc_Fehler > 0 then 0 else cast(HauptKonto as integer) endif as HauptKonto
          ,HauptText
          ,GegenKonto
-         ,HauptText as
-GegenText
-         ,FiBuVP_Betrag as
-Betrag
+         ,HauptText as GegenText
+         ,FiBuVP_Betrag as Betrag
          ,FiBuVPW_Betrag  as WBetrag
-         ,FiBuVP_SollHaben as
-SOLLHABEN
-         ,FiBuV_Datum as
-VALDATUM
+         ,FiBuVP_SollHaben as SOLLHABEN
+         ,FiBuV_Datum as VALDATUM
          ,FiBuV_Datum as  BELDatum
          ,JahrNummer
          ,PeriNummer
-         ,KostStelNummer as
-KOSTSTEL
+         ,KostStelNummer as KOSTSTEL
          ,KSTRNummer
-         ,FiBuV_FremdNr as
-REFNUMMER
-         ,FiBuV_PaginierNr as
-PaginierNr
-         ,FiBuVPW_Kurs as
-WKurs
+         ,FiBuV_FremdNr as REFNUMMER
+         ,FiBuV_PaginierNr as PaginierNr
+         ,FiBuVPW_Kurs as WKurs
          ,FiBuVPW_RechFormel as WRechFormel
-         ,FiBuVPW_Faktor as
-WFaktor
-         ,FiBuVPW_Typ as
-WTyp
-         ,cast(WaehrISOCode as
-integer) as Waehrnummer
+         ,FiBuVPW_Faktor as WFaktor
+         ,FiBuVPW_Typ as WTyp
+         ,cast(WaehrISOCode as integer) as Waehrnummer
          ,Belegmappe  from lttBuchungssatzImport);
-  update
-GTT_AMic_Ident set ident1 = 0 where typ = in_GUID;
+  update GTT_AMic_Ident set ident1 = 0 where typ = in_GUID;
   EXCEPTION
-  WHEN OTHERS
-THEN
+  WHEN OTHERS THEN
     SELECT  ERRORMSG()
-,SQLCODE
-,SQLSTATE
+            ,SQLCODE
+            ,SQLSTATE
     INTO    dc_ErrorMsg
-,dc_SQLCODE
-,dc_SQLSTATE;
+           ,dc_SQLCODE
+           ,dc_SQLSTATE;
     CALL AMIC_FEHLERPROT( 20
-,amic_func_sprachtexte('a', 'b', 'FiBuImport28', -1)
-,amic_func_sprachtexte
-('a'
-,'b'
-,'Beim Ausführen der
-Prozedur "%s" ist ein Fehler aufgetreten.', -1, 'FIBU_LedgerImport'
-)
-|| '\n'
-|| amic_func_sprachtexte
-('a'
-,'b'
-,'Parameter (%s):
-%s', -1, 'in_GUID',
-in_GUID
-)
-|| '\n'
-|| amic_func_sprachtexte
-('a'
-,'b'
-,'Parameter (%s):
-%s', -1, 'in_NumkreisNummer',
-in_NumkreisNummer
-)
-|| '\n'
-|| amic_func_sprachtexte
-('a'
-,'b'
-,'Parameter (%s):
-%s', -1, 'in_ImportSchluessel', in_ImportSchluessel
-)
-|| '\n'
-|| 'SQLCODE: '
-|| dc_SQLCODE
-|| ' [' || dc_SQLSTATE ||
-']'
-|| '\n'
-|| dc_ErrorMsg
-,-10171
-);
+                          ,amic_func_sprachtexte('a', 'b', 'FiBuImport28', -1)
+                          ,amic_func_sprachtexte
+                                  ('a'
+                                  ,'b'
+                                  ,'Beim Ausführen der Prozedur "%s" ist ein Fehler aufgetreten.', -1, 'FIBU_LedgerImport'
+                                  )
+                          || '\n'
+                          || amic_func_sprachtexte
+                                  ('a'
+                                  ,'b'
+                                  ,'Parameter (%s): %s', -1, 'in_GUID', in_GUID
+                                  )
+                          || '\n'
+                          || amic_func_sprachtexte
+                                  ('a'
+                                  ,'b'
+                                  ,'Parameter (%s): %s', -1, 'in_NumkreisNummer', in_NumkreisNummer
+                                  )
+                          || '\n'
+                          || amic_func_sprachtexte
+                                  ('a'
+                                  ,'b'
+                                  ,'Parameter (%s): %s', -1, 'in_ImportSchluessel', in_ImportSchluessel
+                                  )
+                          || '\n'
+                          || 'SQLCODE: ' || dc_SQLCODE
+                          || ' [' || dc_SQLSTATE || ']'
+                          || '\n'
+                          || dc_ErrorMsg
+                          ,-10171
+                           );
 END
 ```

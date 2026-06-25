@@ -19,35 +19,23 @@ Ein fertiger Block würde dann wie folgt aussehen
 
 ```sql
 EXCEPTION
-  when others
-then
+  when others then
     Select  ERRORMSG(),SQLCODE,SQLSTATE
     into    dc_ErrorMsg,dc_SQLCODE,dc_SQLSTATE;
-call
-AMIC_FEHLERPROT( 20
-,amic_func_sprachtexte('a', 'b', 'Prozedur', -1)
-,amic_func_sprachtexte('a','b','Beim Ausführen der Prozedur "%s" ist ein Fehler
-aufgetreten.', -1, 'p_TestProzedur')
+call AMIC_FEHLERPROT( 20
+  ,amic_func_sprachtexte('a', 'b', 'Prozedur', -1)
+  ,amic_func_sprachtexte('a','b','Beim Ausführen der Prozedur "%s" ist ein Fehler aufgetreten.', -1, 'p_TestProzedur')
   || '\n\n'
-  ||
-amic_func_sprachtexte('a','b','Parameter (%s): %s',
--1, 'in_Param1', in_Param1)
+  || amic_func_sprachtexte('a','b','Parameter (%s): %s', -1, 'in_Param1', in_Param1)
   || '\n'
-  ||
-amic_func_sprachtexte ('a','b','Parameter (%s):
-%s', -1, 'in_ Param2', in_Param2)
+  || amic_func_sprachtexte ('a','b','Parameter (%s): %s', -1, 'in_ Param2', in_Param2)
   || '\n'
-  ||
-amic_func_sprachtexte('a','b','Parameter (%s): %s',
--1, 'in_ Param3', in_Param3)
+  || amic_func_sprachtexte('a','b','Parameter (%s): %s', -1, 'in_ Param3', in_Param3)
   || '\n'
-  || 'SQLCODE: ' ||
-dc_SQLCODE
-  || ' [' || dc_SQLSTATE
-|| ']'
+  || 'SQLCODE: ' || dc_SQLCODE
+  || ' [' || dc_SQLSTATE || ']'
   || '\n'
-  ||
-dc_ErrorMsg
+  || dc_ErrorMsg
   ,-10171);
 End;
 ```

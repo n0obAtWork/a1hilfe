@@ -51,58 +51,41 @@ CONST
   ID_PARTIENUMMER = 1473;
 PROCEDURE TesteSVWARE();
   var
-lAus          :string;
+    lAus          :string;
     lsVorHandle   :string;
     lsWaposHandle :string;
-    lParameter
-:string;
-    lFeldName
-:string;
-lBuf          :string;
-    lVorgHandle
-:integer;
+    lParameter    :string;
+    lFeldName     :string;
+    lBuf          :string;
+    lVorgHandle   :integer;
     lWaposHandle  :integer;
-lStrId        :integer;
-lFeldId       :integer;
+    lStrId        :integer;
+    lFeldId       :integer;
 BEGIN
-lAus          := alloc(BUFLEN);
-lBuf          := alloc(BUFLEN);
-    lsVorHandle   :=
-alloc(BUFLEN);
+    lAus          := alloc(BUFLEN);
+    lBuf          := alloc(BUFLEN);
+    lsVorHandle   := alloc(BUFLEN);
     lsWaposHandle := alloc(BUFLEN);
-    lParameter    :=
-alloc(BUFLEN);
-    lFeldName     :=
-alloc(BUFLEN);
+    lParameter    := alloc(BUFLEN);
+    lFeldName     := alloc(BUFLEN);
     strcpy(lAus, "");
     strcpy(lsVorHandle, "");
     strcpy(lsWaposHandle, "");
-    bagget("VORGANGHANDLE", lsVorHandle,
-BUFLEN);
-    bagget("WAPOSITIONHANDLE",
-lsWaposHandle, BUFLEN);
-    bagget("ID", lParameter,
-BUFLEN);
-    bagget("FELDNAME", lFeldName,
-BUFLEN);
+    bagget("VORGANGHANDLE", lsVorHandle, BUFLEN);
+    bagget("WAPOSITIONHANDLE", lsWaposHandle, BUFLEN);
+    bagget("ID", lParameter, BUFLEN);
+    bagget("FELDNAME", lFeldName, BUFLEN);
     StrRTrim(lFeldName);
-    lWaposHandle :=
-strtoint(lsWaposHandle);
-lFeldId      := strtoint(lParameter);
-    lStrId  :=
-StrCmp(lFeldName,  "PartieGrid" );
+    lWaposHandle := strtoint(lsWaposHandle);
+    lFeldId      := strtoint(lParameter);
+    lStrId  := StrCmp(lFeldName,  "PartieGrid" );
     if ( lStrId = 0 ) then
     Begin
       strcpy(lAus, "");
-      GetValPos(lWaposHandle,
-ID_PARTIENUMMER, lBuf,0);
-      sprintf(lAus,"Hier kommt
-meine UNIT TesteSVWARE Feldname <%s> Wert der Partienummer <%s>",
-lFeldName, lBuf);
-      MessageBox( lAus , "Unit
-Test" , 1 );
-      dbx_io
-("AISREFRESH","Zeit$", "", "") ;
+      GetValPos(lWaposHandle, ID_PARTIENUMMER, lBuf,0);
+      sprintf(lAus,"Hier kommt meine UNIT TesteSVWARE Feldname <%s> Wert der Partienummer <%s>", lFeldName, lBuf);
+      MessageBox( lAus , "Unit Test" , 1 );
+      dbx_io ("AISREFRESH","Zeit$", "", "") ;
     End;
     free(lAus);
     free(lBuf);
@@ -118,8 +101,6 @@ In diesem Beispiel wird geprüft, ob das auslösende Feld, welches das Makro auf
 Bei einem Vergleich des Feldnamen mit einem string (wie in obigen Beispiel), muss dies über die StrCmp Funktion passieren. Wenn der Feldname gleich dem zu vergleichendem Text ist, so liefert die Funktion eine 0 zurück.
 
 ```text
-lStrId  :=
-StrCmp(lFeldName,  "PartieGrid" );
-if ( lStrId = 0 )
-then
+lStrId  := StrCmp(lFeldName,  "PartieGrid" );
+if ( lStrId = 0 ) then
 ```

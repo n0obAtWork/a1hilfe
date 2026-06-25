@@ -5,9 +5,7 @@
 Man kann einen auf einer Prozedur basierenden AMIC Etikettendruck Report auch von der Kommandozeile aus starten. Der Aufruf muss dann wie folgt aussehen:
 
 ```text
-aeins
-welcome entw pda=lila ID1=LILAID ID2=1 ProcedureCall="...(...)"
-[Printerprofil=...]
+aeins welcome entw pda=lila ID1=LILAID ID2=1 ProcedureCall="...(...)" [Printerprofil=...]
 ```
 
 | Parameter | Beschreibung |
@@ -23,9 +21,7 @@ welcome entw pda=lila ID1=LILAID ID2=1 ProcedureCall="...(...)"
 Beispiel:
 
 ```text
-Aeins
-welcome entw PDA=LILA ID1=FUNCTEST ID2 =1 PrinterProfil=KyoseraSchacht2
-Procedurecall=“DBProc(451)“
+Aeins welcome entw PDA=LILA ID1=FUNCTEST ID2 =1 PrinterProfil=KyoseraSchacht2 Procedurecall=“DBProc(451)“
 ```
 
 Treten hierbei Fehler auf, so werden diese in Fehlerprotokoll (Direktsprung [FEHLP]) geschrieben.

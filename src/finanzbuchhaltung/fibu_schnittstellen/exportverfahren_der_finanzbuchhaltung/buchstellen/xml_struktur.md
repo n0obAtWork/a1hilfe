@@ -5,77 +5,76 @@
 Beispiel einer Rechnungsverbuchung:
 
 ```xml
-<?xml version="1.0"
-encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <EDILD01>
     <Header>
-<Empfaengername>Buchungsstelle</Empfaengername>
-<Erstellungsdatum>18.09.07</Erstellungsdatum>
-<Erstellungszeit>15:12</Erstellungszeit>
-<Nachrichtentyp>accounting</Nachrichtentyp>
-<Testuebertragung>1</Testuebertragung>
-<externe-Referenz>AMIC-13652314315</externe-Referenz>
-<AnzahlBelege>1</AnzahlBelege>
-<LaufendeNr>1</LaufendeNr>
-<Belegdaten>
-<Belegart>Rechnung</Belegart>
-<Rechnungsnummer>4426</Rechnungsnummer>
-<GWS-Nr>461456141</GWS-Nr>
-<Mandant>Musterfirma</Mandant>
-<Verk-an-Deb-Nr>27754</Verk-an-Deb-Nr>
-<Verk-an-Adresse>A-Strasse</Verk-an-Adresse>
-<Verk-an-PLZ-Code>24011</Verk-an-PLZ-Code>
-<Verk-an-Ort>Kiel</Verk-an-Ort>
-<Verk-an-Name>Martin Steyer</Verk-an-Name>
-<Faelligkeitsdatum>18.09.07</Faelligkeitsdatum>
-<Soll-Haben>Soll</Soll-Haben>
-<Rechnungssumme>1562,00</Rechnungssumme>
-<Rechnungssumme-inkl-mwst>1858,78</Rechnungssumme-inkl-mwst>
-<MWST-Summe>296,78</MWST-Summe>
-<VST-Summe>0,00</VST-Summe>
-<Belegdatum>18.09.07</Belegdatum>
-<Buchungsdatum>18.09.07</Buchungsdatum>
-<Erstdruckinformation>18.09.07</Erstdruckinformation>
-<Storno-Beleg>0</Storno-Beleg>
-<Belegsteuer>
-<Soll-Haben-Steuer>Haben</Soll-Haben-Steuer>
-<Steuertyp>Ust</Steuertyp>
-<MWST-p>19,00</MWST-p>
-<MWSTBetrag>296,78</MWSTBetrag>
-</Belegsteuer>
-<Positionsdaten>
-<Zeilennr>2</Zeilennr>
-<Art>Artikel</Art>
-<Nr>Fleischwurst</Nr>
-<Beschreibung>kleine Fleischwurst</Beschreibung>
-<Beschreibung-2>Wurstfleisch</Beschreibung-2>
-<Lieferungsnr>4426</Lieferungsnr>
-<Lieferdatum>18.09.07</Lieferdatum>
-<Lagerortcode>Saatlager</Lagerortcode>
-<Menge-Basis>100,00</Menge-Basis>
-<Menge-Verkaufseinheit>100,00</Menge-Verkaufseinheit>
-<Verkaufseinheitencode>Stck</Verkaufseinheitencode>
-<Basiseinheitencode>Stck</Basiseinheitencode>
-<Soll-Haben-Position>Haben</Soll-Haben-Position>
-<Steuertyp-Position>Ust</Steuertyp-Position>
-<MWST-p>19,00</MWST-p>
-<Betrag>1562,00</Betrag>
-<Betrag-inkl-MWST>1858,78</Betrag-inkl-MWST>
-<MWST-Betrag>296,78</ MWST-Betrag >
-<Preis>15,62</Preis>
-<LieferscheinNr>4426</LieferscheinNr>
-<Artikeluntergruppencode>0</Artikeluntergruppencode>
-<Artikeluntergruppe>ohne Warengruppe</Artikeluntergruppe>
-<Artikelgruppencode>0</Artikelgruppencode>
-<Artikelgruppe>ohne Oberwarengruppe</Artikelgruppe>
-<Artikelobergruppencode>0</Artikelobergruppencode>
-<Artikelobergruppe>ohne Hauptwarengruppe</Artikelobergruppe>
-<Positionstexte>
-<Zeilennr>1</Zeilennr>
-<Beschreibung>aus reinstem Fleisch</Beschreibung>
-</Positionstexte>
-</Positionsdaten>
-</Belegdaten>
+        <Empfaengername>Buchungsstelle</Empfaengername>
+        <Erstellungsdatum>18.09.07</Erstellungsdatum>
+        <Erstellungszeit>15:12</Erstellungszeit>
+        <Nachrichtentyp>accounting</Nachrichtentyp>
+        <Testuebertragung>1</Testuebertragung>
+        <externe-Referenz>AMIC-13652314315</externe-Referenz>
+        <AnzahlBelege>1</AnzahlBelege>
+        <LaufendeNr>1</LaufendeNr>
+        <Belegdaten>
+            <Belegart>Rechnung</Belegart>
+            <Rechnungsnummer>4426</Rechnungsnummer>
+            <GWS-Nr>461456141</GWS-Nr>
+            <Mandant>Musterfirma</Mandant>
+            <Verk-an-Deb-Nr>27754</Verk-an-Deb-Nr>
+            <Verk-an-Adresse>A-Strasse</Verk-an-Adresse>
+            <Verk-an-PLZ-Code>24011</Verk-an-PLZ-Code>
+            <Verk-an-Ort>Kiel</Verk-an-Ort>
+            <Verk-an-Name>Martin Steyer</Verk-an-Name>
+            <Faelligkeitsdatum>18.09.07</Faelligkeitsdatum>
+            <Soll-Haben>Soll</Soll-Haben>
+            <Rechnungssumme>1562,00</Rechnungssumme>
+            <Rechnungssumme-inkl-mwst>1858,78</Rechnungssumme-inkl-mwst>
+            <MWST-Summe>296,78</MWST-Summe>
+            <VST-Summe>0,00</VST-Summe>
+            <Belegdatum>18.09.07</Belegdatum>
+            <Buchungsdatum>18.09.07</Buchungsdatum>
+            <Erstdruckinformation>18.09.07</Erstdruckinformation>
+            <Storno-Beleg>0</Storno-Beleg>
+            <Belegsteuer>
+                <Soll-Haben-Steuer>Haben</Soll-Haben-Steuer>
+                <Steuertyp>Ust</Steuertyp>
+                <MWST-p>19,00</MWST-p>
+                <MWSTBetrag>296,78</MWSTBetrag>
+            </Belegsteuer>
+            <Positionsdaten>
+                <Zeilennr>2</Zeilennr>
+                <Art>Artikel</Art>
+                <Nr>Fleischwurst</Nr>
+                <Beschreibung>kleine Fleischwurst</Beschreibung>
+                <Beschreibung-2>Wurstfleisch</Beschreibung-2>
+                <Lieferungsnr>4426</Lieferungsnr>
+                <Lieferdatum>18.09.07</Lieferdatum>
+                <Lagerortcode>Saatlager</Lagerortcode>
+                <Menge-Basis>100,00</Menge-Basis>
+                <Menge-Verkaufseinheit>100,00</Menge-Verkaufseinheit>
+                <Verkaufseinheitencode>Stck</Verkaufseinheitencode>
+                <Basiseinheitencode>Stck</Basiseinheitencode>
+                <Soll-Haben-Position>Haben</Soll-Haben-Position>
+                <Steuertyp-Position>Ust</Steuertyp-Position>
+                <MWST-p>19,00</MWST-p>
+                <Betrag>1562,00</Betrag>
+                <Betrag-inkl-MWST>1858,78</Betrag-inkl-MWST>
+                <MWST-Betrag>296,78</ MWST-Betrag >
+                <Preis>15,62</Preis>
+                <LieferscheinNr>4426</LieferscheinNr>
+                <Artikeluntergruppencode>0</Artikeluntergruppencode>
+                <Artikeluntergruppe>ohne Warengruppe</Artikeluntergruppe>
+                <Artikelgruppencode>0</Artikelgruppencode>
+                <Artikelgruppe>ohne Oberwarengruppe</Artikelgruppe>
+                <Artikelobergruppencode>0</Artikelobergruppencode>
+                <Artikelobergruppe>ohne Hauptwarengruppe</Artikelobergruppe>
+                <Positionstexte>
+                    <Zeilennr>1</Zeilennr>
+                    <Beschreibung>aus reinstem Fleisch</Beschreibung>
+                </Positionstexte>
+            </Positionsdaten>
+        </Belegdaten>
     </Header>
 </EDILD01>
 ```

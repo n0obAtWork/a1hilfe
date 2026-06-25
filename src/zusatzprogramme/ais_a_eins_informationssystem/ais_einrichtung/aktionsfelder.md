@@ -17,8 +17,7 @@ Als Aktion sind folgende Möglichkeiten vorgesehen:
 Es wird eine unter ANWF bzw. PF (Private Funktion) hinterlegte Funktion aufgerufen. Es sind hier nur Menüfunktionen möglich. Der Controlstring, der ausgeführt wird, lautet:
 
 ```text
-^jpl
-aw_funk :ANWFUNKID
+^jpl aw_funk :ANWFUNKID
 ```
 
     
@@ -29,8 +28,7 @@ Die ANWFUNKID kann mit **F3** ausgewählt werden.
 Es wird eine Anwendung aufgerufen. Anzugeben ist hier die ANWID. Diese kann per F3 ausgewählt werden. Der Controlstring, der ausgeführt wird, lautet:
 
 ```text
-^jpl
-aw_vert :ANWID
+^jpl aw_vert :ANWID
 ```
 
 <p class="just-emphasize">3\. Anwendungsvariante aufrufen</p>
@@ -38,16 +36,14 @@ aw_vert :ANWID
 Es wird eine vorgegebene Variante einer Anwendung aufgerufen. Im obigen Beispiel ist es die Variante „STANDARD“ der Anwendung „KUNDEN“. Der Controlstring sieht also im Beispiel folgendermaßen aus:
 
 ```text
-^jpl
-ais_vert KUNDEN STANDARD Feldname
+^jpl ais_vert KUNDEN STANDARD Feldname
 ```
 
     
 Bei Varianten lassen sich die Werte aus dem Auswahlbereich (**F2**) vorbelegen. Welche Felder als VON bzw. BIS-Vorbelegung herangezogen werden können, lässt sich mit **F3** auswählen. Bei Push-Buttons kann man in den Spalten „Vorbelegung Von“ und „Vorbelegung Bis“ einen Festen Wert oder ein Maskenfeld eintragen. Beim Anwendungsgrid sind zusätzlich die Felder aus der Fieldsanweisung als Parameter möglich. Wenn in der Fieldsanweisung also
 
 ```text
-FIELD
-Konto,k.KontoNummer,I4,8
+FIELD Konto,k.KontoNummer,I4,8
 ```
 
 steht, so muss in der/ Vorbelegungsspalten „k.KontoNummer“ stehen. Es wird dann der Wert aus der Zeile an den Auswahlbereich übergeben.  
@@ -66,8 +62,7 @@ Ein Report, der über die ANWRPTID identifiziert wir, die über **F3** ausgewäh
 zu Verfügung. Der Controlstring lautet
 
 ```text
-^jpl
-ais_list ANWRPTID FeldName (Feldname ist der Name dieses Feldes)
+^jpl ais_list ANWRPTID FeldName (Feldname ist der Name dieses Feldes)
 ```
 
 Wie bei den Anwendvarianten kann der Auswahlbereich vorbelegt werden.  
@@ -78,8 +73,7 @@ Wie bei den Anwendvarianten kann der Auswahlbereich vorbelegt werden.
 Es kann ein Makro aufgerufen werden. Anzugeben ist hier der Name des Scripts. Der Controlstring lautet:
 
 ```text
-^jpl pascal
-ScriptName
+^jpl pascal ScriptName
 ```
 
 <p class="just-emphasize">6\. Controlstring</p>
@@ -87,9 +81,7 @@ ScriptName
 Man kann einen freien Controlstring eingeben. Zum Aufruf einer weiteren selbstdefinierten Maske mit Übergabe des Wertes des Identfeldes dient die Prozedur:
 
 ```text
-^jpl
-aisload KUI2 Aendern [Ident] [Seite] [Maske IDFeld] [IDFeld2] [Ident2] [IDFeld3]
-[Ident3] [IDFeld4] [Ident4]
+^jpl aisload KUI2 Aendern [Ident] [Seite] [Maske IDFeld] [IDFeld2] [Ident2] [IDFeld3] [Ident3] [IDFeld4] [Ident4]
 ```
 
 | Parameter | Beschreibung |

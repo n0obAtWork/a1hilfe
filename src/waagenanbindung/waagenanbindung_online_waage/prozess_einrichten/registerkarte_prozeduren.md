@@ -54,44 +54,39 @@ Wird ein Bewertungspreis > 0 zurückgegeben so wird dieser Bewertungspreis genom
 <p class="just-emphasize">Beispielprozedur</p>
 
 ```sql
-CREATE PROCEDURE p_liefer_lagerumbuch
-(
-in in_owaage_id  integer
-)
-Result (
-Klasse
-integer
-,Unterklasse     integer
-,Ursprungslager  integer
-,BuchungsTyp     integer
-,Planlieferdatum date
-,BewertungsPreis numeric(15,4)
-)
+CREATE PROCEDURE p_liefer_lagerumbuch (
+                                        in in_owaage_id  integer
+                                      )
+                               Result (
+                                         Klasse          integer
+                                        ,Unterklasse     integer
+                                        ,Ursprungslager  integer
+                                        ,BuchungsTyp     integer
+                                        ,Planlieferdatum date
+                                        ,BewertungsPreis numeric(15,4)
+                                      )
 //
 BEGIN
 // Kommentar
 // -------------------------
 //
-if in_owaage_id >
-0then
-    select 5110  as
-Klasse
-,0
-as Unterklasse
-,666     as Ursprungslager
-,1       as BuchungsTyp
-,today() as Planlieferdatum
-,3.5     as BewertungsPreis
-from dummy;
-else
+  if in_owaage_id > 0then
+    select 5110  as Klasse
+      ,0       as Unterklasse
+      ,666     as Ursprungslager
+      ,1       as BuchungsTyp
+      ,today() as Planlieferdatum
+      ,3.5     as BewertungsPreis
+    from dummy;
+  else
     select 0   as Klasse
-,0       as Unterklasse
-,0       as Ursprungslager
-,1       as BuchungsTyp
-,today() as Planlieferdatum
-,3.5     as BewertungsPreis
- from dummy;
-end if;
+      ,0       as Unterklasse
+      ,0       as Ursprungslager
+      ,1       as BuchungsTyp
+      ,today() as Planlieferdatum
+      ,3.5     as BewertungsPreis
+    from dummy;
+  end if;
 end
 ```
 
@@ -122,68 +117,51 @@ Die Prozedur muss folgende Parameter zurückliefern.
 Beispiel für eine Private Prozedur:
 
 ```sql
-REATE PROCEDURE
-p_owaage_private ( in in_owaage_id integer )
-Result
-(
-fehler integer
-,fehlertext char(255)
-)
+REATE PROCEDURE p_owaage_private ( in in_owaage_id integer )
+Result                            (
+                                     fehler integer
+                                    ,fehlertext char(255)
+                                  )
 BEGIN
-  declare
-dc_Fehler
-integer;
-  declare
-dc_FehlerText       char(255);
-  declare
-dc_kunde
-integer;
-  declare ECX_ERR_NOTFOUND
-EXCEPTION FOR SQLSTATE '02000';
-  declare
-dc_ErrorMsg         LONG VARCHAR;
-  declare
-dc_SQLCODE          integer;
-  declare
-dc_SQLSTATE         CHAR(10);
+  declare dc_Fehler           integer;
+  declare dc_FehlerText       char(255);
+  declare dc_kunde            integer;
+  declare ECX_ERR_NOTFOUND    EXCEPTION FOR SQLSTATE '02000';
+  declare dc_ErrorMsg         LONG VARCHAR;
+  declare dc_SQLCODE          integer;
+  declare dc_SQLSTATE         CHAR(10);
 --
 --
   if in_owaage_id = 13321 then
     set dc_Fehler = 1;
-    set dc_FehlerText = 'Es ist ein
-Fehler ist aufgetreten';
+    set dc_FehlerText = 'Es ist ein Fehler ist aufgetreten';
   else
     set dc_Fehler = 0;
   end if;
   set dc_kunde = 1;
-  select dc_Fehler as Fehler, dc_FehlerText as
-fehlertext from dummy;
+  select dc_Fehler as Fehler, dc_FehlerText as fehlertext from dummy;
 EXCEPTION
   when others then
     Select  ERRORMSG()
-,SQLCODE
-,SQLSTATE
-    into
-dc_ErrorMsg
-,dc_SQLCODE
-,dc_SQLSTATE;
+            ,SQLCODE
+            ,SQLSTATE
+    into    dc_ErrorMsg
+            ,dc_SQLCODE
+            ,dc_SQLSTATE;
 --
     call AMIC_FEHLERPROT( 20
-,amic_func_sprachtexte ('a', 'b', 'Prozedur', -1)
-,amic_func_sprachtexte ('a','b','Beim Ausführen der Prozedur %s ist ein Fehler
-aufgetreten.', -1, 'p_owaage_private')
-|| '\n'
-|| amic_func_sprachtexte('a','b','Parameter (%s):: %s', -1, 'in_owaage_id',
-in_owaage_id )
-|| '\n\n'
-|| 'SQLCODE:: ' || dc_SQLCODE
-|| ' [' || dc_SQLSTATE || ']'
-|| '\n'
-|| dc_ErrorMsg
-,null
-);
-    select 2 as fehler, dc_ErrorMsg ||'
-' || dc_SQLCODE || ' ' || dc_SQLSTATE as fehlertext from dummy;
+                          ,amic_func_sprachtexte ('a', 'b', 'Prozedur', -1)
+                          ,amic_func_sprachtexte ('a','b','Beim Ausführen der Prozedur %s ist ein Fehler aufgetreten.', -1, 'p_owaage_private')
+                          || '\n'
+                          || amic_func_sprachtexte('a','b','Parameter (%s):: %s', -1, 'in_owaage_id', in_owaage_id )
+                          || '\n\n'
+                          || 'SQLCODE:: ' || dc_SQLCODE
+                          || ' [' || dc_SQLSTATE || ']'
+                          || '\n'
+                          || dc_ErrorMsg
+                          ,null
+                        );
+    select 2 as fehler, dc_ErrorMsg ||' ' || dc_SQLCODE || ' ' || dc_SQLSTATE as fehlertext from dummy;
 END
 ```
 
@@ -212,21 +190,18 @@ Die Parameter müssen genauso heißen wie die Parameter in der nachfolgenden Tab
 <p class="just-emphasize">Beispiel Einer privaten Prozedur, diese gibt immer ein TRUE zurück.</p>
 
 ```sql
-CREATE procedure
-p_silo_prozedure (  in in_ArtikelId integer
-,in in_OwaageID integer
-,in in_Ladetraegernr integer
-,in in_PartieID integer
-)
-result (   retval integer
-,retvaltext char(255)
-)
+CREATE procedure p_silo_prozedure (  in in_ArtikelId integer
+                                    ,in in_OwaageID integer
+                                    ,in in_Ladetraegernr integer
+                                    ,in in_PartieID integer
+                                  )
+                                  result (   retval integer
+                                            ,retvaltext char(255)
+                                         )
 --
 BEGIN
---Sollten stehen gelassen werden, Variablen werden im
-WHEN OTHERS verwendet
-  declare ECX_ERR_NOTFOUND EXCEPTION FOR SQLSTATE
-'02000';
+--Sollten stehen gelassen werden, Variablen werden im WHEN OTHERS verwendet
+  declare ECX_ERR_NOTFOUND EXCEPTION FOR SQLSTATE '02000';
   declare dc_ErrorMsg LONG VARCHAR;
   declare dc_SQLCODE integer;
   declare dc_SQLSTATE CHAR(10);
@@ -234,26 +209,19 @@ WHEN OTHERS verwendet
   declare dc_retvaltext char(255);
   set dc_retval  = 1;
   if in_Ladetraegernr = 501 then
-    set dc_RetvalText = 'Fehler
-Juhu';
+    set dc_RetvalText = 'Fehler Juhu';
     set dc_retval  = 0;
   end if;
-  select dc_retval  as retval, dc_RetvalText
-as retvaltext
+  select dc_retval  as retval, dc_RetvalText as retvaltext
 EXCEPTION
 ```
 
 <p class="just-emphasize">when others then</p>
 
 ```sql
-Select
-ERRORMSG(), SQLCODE, SQLSTATE into dc_ErrorMsg, dc_SQLCODE, dc_SQLSTATE;
-    call AMIC_FEHLERPROT( 20,
-amic_func_sprachtexte('a', 'b', 'Prozedur', -1) ,
-amic_func_sprachtexte('a','b','Beim Ausführen der Prozedur %s ist ein Fehler
-aufgetreten.', -1, 'p_silo_prozedure')
-    || '\n\n'|| 'SQLCODE:: ' ||
-dc_SQLCODE|| ' [' || dc_SQLSTATE || ']'|| '\n'|| dc_ErrorMsg, null);
+Select  ERRORMSG(), SQLCODE, SQLSTATE into dc_ErrorMsg, dc_SQLCODE, dc_SQLSTATE;
+    call AMIC_FEHLERPROT( 20, amic_func_sprachtexte('a', 'b', 'Prozedur', -1) , amic_func_sprachtexte('a','b','Beim Ausführen der Prozedur %s ist ein Fehler aufgetreten.', -1, 'p_silo_prozedure')
+    || '\n\n'|| 'SQLCODE:: ' || dc_SQLCODE|| ' [' || dc_SQLSTATE || ']'|| '\n'|| dc_ErrorMsg, null);
 END
 ```
 

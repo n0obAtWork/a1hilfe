@@ -5,8 +5,7 @@
 Hat man einen Report zu einer Auswahlliste erstellt, so kann man diesen nicht nur drucken, sondern auch in vielfacher Form exportieren. Dieser Export lässt sich auch automatisieren um ggf. nachts die Daten zur Analyse vorzubereiten. Die geschieht mit folgendem Controlstring:
 
 ```text
-^jpl AWEport (Anwendung, Variante, Profil, Ansicht,
-Reportbezeichnung, Ausgabeformat, Ausgabedatei)
+^jpl AWEport (Anwendung, Variante, Profil, Ansicht, Reportbezeichnung, Ausgabeformat, Ausgabedatei)
 ```
 
 | | **Bedeutung** |

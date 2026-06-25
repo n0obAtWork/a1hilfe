@@ -85,43 +85,18 @@ Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Bas
           <div>
             <pre><code>create view p_dash_skala
 select
-      0   as Minimum ,
-               -- Wenn nicht
-      angegeben, dann 0
-   100 as
-      Maximum,
-               -- Wenn nicht
-      angegeben, dann 100
-   32
-      as Value,
-               -- muss sollte
-      zwischen minimum und maximum liegen.
-  -- 20
-      majorinterval,
-             -- Optional. Wenn nicht gesetzt
-      dann (maximun-minimum)/5
-  -- 6
-      minorinterval,
-               -- Optional. Wenn
-      nicht gesetzt dann majorinterval/5
-   '#ff3333'
-      LowerFillingColor ,  -- Linker Farbwert
-   '#ffff66'
-      FillingColor ,       -- mittlerer
-      Farbwert
-   '#33ff33'
-      UpperFillingColor ,  -- rechter Farbwert
-   30
-      LowerFillingTo,
-      -- Grenze zwischen linkem und mittlerem Farbwert
-   60
-      UpperFillingFrom,
-      -- Grenze zwischen mittlerem und rechtem Farbwert
-      'horizontal' as orientation,   -- Ausrichtung der Skala. Kann
-      &gt;vertical&lt; oder &gt;horizontal&lt; sein(default).
-   0 as
-      Overlap
-      -- Bei 1 liegt die Farbe hinter der Skala</code></pre>
+   0   as Minimum ,               -- Wenn nicht angegeben, dann 0
+   100 as Maximum,                -- Wenn nicht angegeben, dann 100
+   32  as Value,                  -- muss sollte zwischen minimum und maximum liegen.
+  -- 20 majorinterval,            -- Optional. Wenn nicht gesetzt dann (maximun-minimum)/5
+  -- 6 minorinterval,             -- Optional. Wenn nicht gesetzt dann majorinterval/5
+   '#ff3333' LowerFillingColor ,  -- Linker Farbwert
+   '#ffff66' FillingColor ,       -- mittlerer Farbwert
+   '#33ff33' UpperFillingColor ,  -- rechter Farbwert
+   30 LowerFillingTo,             -- Grenze zwischen linkem und mittlerem Farbwert
+   60 UpperFillingFrom,           -- Grenze zwischen mittlerem und rechtem Farbwert
+   'horizontal' as orientation,   -- Ausrichtung der Skala. Kann &gt;vertical&lt; oder &gt;horizontal&lt; sein(default).
+   0 as Overlap                   -- Bei 1 liegt die Farbe hinter der Skala</code></pre>
           </div>
         </td>
       </tr>

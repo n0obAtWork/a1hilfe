@@ -37,12 +37,10 @@ PROCEDURE TesteSVPOSI();
     lBuf : string;
     lsVorHandle :string;
     lsWaposHandle :string;
-    lParameter
-:string;
+    lParameter    :string;
     lVorgHandle :integer;
     lPosHandle : integer;
-    lPosTyp    :
-integer;
+    lPosTyp    : integer;
 BEGIN
     lAus  := alloc(BUFLEN);
     lBuf  := alloc(BUFLEN);
@@ -54,19 +52,14 @@ BEGIN
     strcpy(lsWaposHandle, "");
     strcpy(lParameter, "");
     strcpy(lBuf, "");
-    bagget("VORGANGHANDLE", lsVorHandle,
-BUFLEN);
-    bagget("POSITIONHANDLE",
-lsPosHandle, BUFLEN);
-    bagget("PARAMETER", lParameter,
-BUFLEN );
-    lPosHandle :=
-strtoint(lsPosHandle);
+    bagget("VORGANGHANDLE", lsVorHandle, BUFLEN);
+    bagget("POSITIONHANDLE", lsPosHandle, BUFLEN);
+    bagget("PARAMETER", lParameter, BUFLEN );
+    lPosHandle := strtoint(lsPosHandle);
     lPosTyp := GetPosType(lPosHandle);
     if ( lPosTyp  = 101 ) then
     Begin
-      dbx_io
-("AISREFRESH","Zeit$", "", "");
+      dbx_io ("AISREFRESH","Zeit$", "", "");
     End;
     free(lsVorHandle);
     free(lsWaposHandle);

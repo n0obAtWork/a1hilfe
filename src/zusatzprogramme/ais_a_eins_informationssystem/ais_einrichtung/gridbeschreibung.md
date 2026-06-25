@@ -56,8 +56,7 @@ Das Maskenfeld LKWTEXT muss natürlich auch angelegt werden bzw. auf der Maske e
 Man könnte auch noch mehr Informationen aus der Itembox herauslesen. Dazu kann man, mit Komma getrennt, weitere Felder in der obigen Syntax angeben. Also:
 
 ```text
-LKW_Bezeich>
-LKWGrid.LKWTEXT$,LKW_MATCH> LKWGrid.MATCH$,....
+LKW_Bezeich> LKWGrid.LKWTEXT$,LKW_MATCH> LKWGrid.MATCH$,....
 ```
 
 Alle Felder, die aus der Relation gelesen werden, müssen in der Returnliste der Itembox stehen. Siehe dazu Dokumentation Itembox.
@@ -77,9 +76,7 @@ Diese drei Funktionen dienen zur Steuerung bzw. zur Eingabeprüfung des Feldes. 
 Wenn innerhalb des Makros Funktionen mit diesem Aufbau existieren, so ist es möglich diese mit **F3** auszuwählen.
 
 ```text
-function
-EineEntryFunktion(aa:string ; bb : integer;a:string ; b,c : integer
-):integer;
+function EineEntryFunktion(aa:string ; bb : integer;a:string ; b,c : integer ):integer;
 begin
  EineEntryFunktion:=0;
 end;

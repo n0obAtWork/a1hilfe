@@ -31,13 +31,11 @@ Das Aktualisieren einer Kachel oder eines Dashboards kann nicht nur über eine M
 Aktualisieren eines Dashboards:
 
 ```text
-^dbx_io("AISREFRESH_DASHBOARD",
-"Dashboardfeldname")
+^dbx_io("AISREFRESH_DASHBOARD", "Dashboardfeldname")
 ```
 
 Aktualisieren einer Kachel:
 
 ```text
-^dbx_io("AISREFRESH_KACHEL",
-"Dashboardfeldname", "KachelId")
+^dbx_io("AISREFRESH_KACHEL", "Dashboardfeldname", "KachelId")
 ```

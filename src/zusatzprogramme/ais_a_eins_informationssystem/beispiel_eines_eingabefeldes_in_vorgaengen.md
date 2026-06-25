@@ -13,8 +13,7 @@ Das Erstellen eines Eingabefeldes in Vorgängen ist in vielen Belangen analog zu
 Hier wird eine private Tabelle erstellt, die eine zusätzliche Bemerkung zu dem Vorgang speichern soll:
 
 ```sql
-create table
-VorgangBemerkungAddon
+create table VorgangBemerkungAddon
 (
 V_Id integer,
 Bemerkung char(255),
@@ -45,9 +44,7 @@ Um auf der Maske mehr Platz für die AIS-Felder zu haben, kann man hier zusätzl
 Um die Daten in der oben erstellten Beispielrelation VorgangBemerkungAddon aktuell zu halten und sie wieder zu löschen, wenn der dazugehörige Vorgang gelöscht wird, muss die Relation noch in die Relation VorgangBackpatch eingetragen werden:
 
 ```sql
-insert into
-VorgangBackpatch(VB_Relation,VB_Attribut,VB_Del) values
-('VorgangBemerkungAddon', 'V_Id', 1)
+insert into VorgangBackpatch(VB_Relation,VB_Attribut,VB_Del) values ('VorgangBemerkungAddon', 'V_Id', 1)
 ```
 
 In dem Feld VB_Relation muss der Name der Relation stehen, in VB_Attribut der Primary Key der Relation und in VB_Del eine 1, damit verwaiste Daten in VorgangBemerkungAddon sofort gelöscht werden.

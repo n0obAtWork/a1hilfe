@@ -15,8 +15,7 @@ Sie hat einen String-Parameter, über den die Daten identifiziert werden können
 Dabei ist hier TourSpeditionen der Parameter. In der View selber muss man dann die Tabelle Crystaldaten mit den anderen Tabellen joinen:
 
 ```sql
-Create view p_TourSpedition as
-select
+Create view p_TourSpedition as select
  …
   From VorgStamm vs
   join Crystaldaten cr

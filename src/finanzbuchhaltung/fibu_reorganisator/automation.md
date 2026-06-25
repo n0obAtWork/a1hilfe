@@ -7,9 +7,7 @@ Um sicher zu stellen, dass man sofort auf eventuell aufgetretene Fehler hingewie
 A.eins muss mit folgender Syntax gestartet werden:
 
 ```text
-Aeins
-welcome section DIR=FIREO USER=????
-PASSWORT=????
+Aeins welcome section DIR=FIREO USER=???? PASSWORT=????
 ```
 
 A.eins wird gestartet und der Direktsprung FIREO wird direkt ausgeführt. Es werden dann der „***Test Stammdaten***“ und der „***Test Bewegungsdaten***“ ausgeführt. Anschließend wird A.eins verlassen. Das Ergebnis der Tests befindet sich in der Datei, die unter OPT unter der globalen Option FIREO_EVENT_DATEINAME eingetragen ist.
@@ -21,10 +19,7 @@ Ist diese Option nicht gesetzt dann wird der Dateiname verwendet, der unter [Opt
 Man kann A.eins auch mit einem weiteren Parameter anweisen, spezielle Test auszuführen:
 
 ```text
-Aeins
-welcome section DIR=FIREO USER=????
-PASSWORT=????
-FIREO=“STAMMDATEN,BEWEGUNGSDATEN,JAHRESWECHSEL BK, …“
+Aeins welcome section DIR=FIREO USER=???? PASSWORT=???? FIREO=“STAMMDATEN,BEWEGUNGSDATEN,JAHRESWECHSEL BK, …“
 ```
 
 Es sind folgende Schlüsselwörter vergeben:

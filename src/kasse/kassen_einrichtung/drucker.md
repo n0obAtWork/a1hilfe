@@ -22,11 +22,9 @@ Wenn auch der Bonschacht für Scheckdruck,... genutzt werden soll, empfiehlt sic
 Um den Scheckdruck bzw. den Lastschriftdruck nutzen zu können, können Formulare über scheck.sql bzw. lastschrift.sql eingespielt werden. Für die Umwandlung des Scheckbetrages in Worten muss folgendes eingerichtet sein:
 
 ```sql
-//eine private
-Datenbankprozedur    P_BETRAGTEXT_SQLK:
+//eine private Datenbankprozedur    P_BETRAGTEXT_SQLK:
 // Private FUNKTION P_BETRAGTEXT_SQLK
-CREATE FUNCTION P_BETRAGTEXT_SQLK (betrag char(20) )
-RETURNS varchar(256)
+CREATE FUNCTION P_BETRAGTEXT_SQLK (betrag char(20) ) RETURNS varchar(256)
 //
 BEGIN
 //
@@ -54,8 +52,7 @@ BEGIN
     SET no_digit = 0;
     CASE SUBSTR(zwtext,l_pos,1)
      when '0' then
-       SET ziffer =
-'null'
+       SET ziffer = 'null'
      when '1' then
       SET ziffer = 'eins'
      when '2' then
@@ -69,30 +66,24 @@ BEGIN
      when '6' then
       SET ziffer = 'sechs'
      when '7' then
-      SET ziffer =
-'sieben'
+      SET ziffer = 'sieben'
      when '8' then
       SET ziffer = 'acht'
      when '9' then
       SET ziffer = 'neun'
      when ',' then
-      SET ziffer =
-'Komma';
+      SET ziffer = 'Komma';
      ELSE
       SET no_digit = 1;
     END CASE;
 // Ende feststellen
     IF (no_digit = 0 ) THEN
-       if ( erste_ziffer
-= 1 ) then
-         SET
-ergebnis = STRING( ergebnis,'-' );
+       if ( erste_ziffer = 1 ) then
+         SET ergebnis = STRING( ergebnis,'-' );
        ELSE
-         SET
-erste_ziffer = 1;
+         SET erste_ziffer = 1;
        END IF;
-       SET ergebnis =
-STRING( ergebnis,ziffer);
+       SET ergebnis = STRING( ergebnis,ziffer);
     END IF;
     IF (l_pos >= lg ) THEN
        LEAVE arbeit;
@@ -100,20 +91,16 @@ STRING( ergebnis,ziffer);
      SET l_pos = l_pos + 1;
     END IF;
    END LOOP;
-   SET ergebnis = STRING( ergebnis,'***'
-);
+   SET ergebnis = STRING( ergebnis,'***' );
   RETURN ergebnis;
 //
 END
 ```
 
 ```sql
-//ein privater
-SQL-Text    sqlk_BelegBetrag:
-// Privater SQL Text
-sqlk_BelegBetrag     ---
-select
-P_BETRAGTEXT_SQLK(':BelegBetrag') Wortbetrag
+//ein privater SQL-Text    sqlk_BelegBetrag:
+// Privater SQL Text sqlk_BelegBetrag     ---
+select P_BETRAGTEXT_SQLK(':BelegBetrag') Wortbetrag
 ```
 
 Auf der Basisdatenbank existieren diese privaten Einstellungen

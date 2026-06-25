@@ -217,8 +217,7 @@ Wo diese Variablen aktuell eingesetzt werden, kann man z.B. mit Hilfe von OSQL Ã
 (gesucht Ã¼ber OSQL und einem Befehl wie diesem):
 
 ```sql
-select *
-from sql_text where sql_texttext like '%WWW_IB_KUNDEN%'
+select * from sql_text where sql_texttext like '%WWW_IB_KUNDEN%'
 ```
 
 <details>

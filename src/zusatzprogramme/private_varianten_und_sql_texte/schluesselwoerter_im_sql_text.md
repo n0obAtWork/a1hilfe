@@ -24,20 +24,14 @@ Die hier aufgeführten Schüsselwörter gelten für die Auswahlliste im alten De
         <td>
           <p>Mithilfe von VAR können zusammengesetzte Inhalte oder Formeln für das SQL-Statement vordefiniert werden.<br><br></p>
           <div>
-            <pre><code>VAR Name
-      A.AdressName+', '+A.AdressVorname
-FIELD
-      Nummer,S.KundNummer,I4,8
+            <pre><code>VAR Name A.AdressName+', '+A.AdressVorname
+FIELD Nummer,S.KundNummer,I4,8
 FIELD Name,Name,char,20
-SQL select :FIELDS from
-      Kundenstamm s join Anschriftstamm a on
-      a.adressid=s.adressidhauptadr</code></pre>
+SQL select :FIELDS from Kundenstamm s join Anschriftstamm a on a.adressid=s.adressidhauptadr</code></pre>
           </div>
           <p><br>Das SQL wird erweitert auf:</p>
           <div>
-            <pre><code>Select S.KUNDNUMMER,A.AdressName+', '+A.AdressVorname
-      NAME, from Kundenstamm s join
-      Anschriftstamm a on a.adressid=s.adressidhauptadr</code></pre>
+            <code>Select S.KUNDNUMMER,A.AdressName+', '+A.AdressVorname NAME, from Kundenstamm s join Anschriftstamm a on a.adressid=s.adressidhauptadr</code>
           </div>
         </td>
       </tr>
@@ -54,14 +48,10 @@ SQL select :FIELDS from
           <p>4)&nbsp;&nbsp; Breite der Spalte in Zeichen. Für die F3-Auswahl 2.0 gibt diese Zahl die maximale Breite an, in der die Spalte dargestellt wird, da hier die Breite der Spalte aus dem Feldinhalt errechnet wird.</p>
           <div>
             <pre><code>…
-FIELD
-      Name,name,char,20
-FIELD Typ,KundTyp,FS
-      KundTyp,10
-FIELD
-      Matchcode,MA,char,15
-FIELD
-      Kunden-&lt;br&gt;bezeichnung,Kundbezeich,char,30
+FIELD Name,name,char,20
+FIELD Typ,KundTyp,FS KundTyp,10
+FIELD Matchcode,MA,char,15
+FIELD Kunden-&lt;br&gt;bezeichnung,Kundbezeich,char,30
 …</code></pre>
           </div>
           <p>Zusätzlich existieren noch weitere Parameter, die wiederrum über ein Schlüsselwort verfügen. Sie können in beliebiger Kombination verwendet werden.</p>
@@ -139,8 +129,7 @@ FIELD
                     <li><b>enthält</b></li>
                     <li><b>enthält nicht</b><br>Die Werte können mit oder ohne Leerzeichen angegeben werden, also „endet nicht mit“ oder „endetnichtmit“. Groß- und Kleinschreibung muss nicht beachtet werden.<br>Beispiel:</li>
                   </ul>
-                  <pre><code>FIELD
-            Bezeichnung,sachkontbez,char,53,FILTERCOMPARISION=BeginntMit</code></pre>
+                  <code>FIELD Bezeichnung,sachkontbez,char,53,FILTERCOMPARISION=BeginntMit</code>
                 </td>
               </tr>
               <tr>
@@ -154,25 +143,17 @@ FIELD
                   <br>
                   Dieses Beispiel sorgt dafür, dass die entsprechenden Spalten ausgeblendet werden, wenn keine Daten nach Handelsrecht geführt werden.
                   <br>
-                  <pre><code>create function "admin"."anka_ueberschrift"( in
-            in_alt char(255) )
-returns
-            char(255)
+                  <pre><code>create function "admin"."anka_ueberschrift"( in in_alt char(255) )
+returns char(255)
 begin
-  declare
-            dc_Ergebnis char(255);
-  Set
-            dc_Ergebnis=(select FIRST(AnKaNachSteuerrecht) from anlagenkartei
-            where AnKaNachSteuerrecht=1 order by ankainventarNummer
-);
-            if dc_Ergebnis is NULL then
+  declare dc_Ergebnis char(255);
+  Set dc_Ergebnis=(select FIRST(AnKaNachSteuerrecht) from anlagenkartei where AnKaNachSteuerrecht=1 order by ankainventarNummer );
+  if dc_Ergebnis is NULL then
     set dc_Ergebnis ='-DONOTSHOW-';
-            else
-    set dc_ergebnis =
-            in_alt;
-            endif;
-  return
-            dc_Ergebnis;
+  else
+    set dc_ergebnis = in_alt;
+  endif;
+  return dc_Ergebnis;
 end;</code></pre>
                 </td>
               </tr>
@@ -188,8 +169,7 @@ end;</code></pre>
                   Beispiel:
                   <br>
                   <pre><code>.
-FIELD
-            Bezeichnung,AnkaGrupBezeich,char,40,MINWIDTH=30
+FIELD Bezeichnung,AnkaGrupBezeich,char,40,MINWIDTH=30
 .</code></pre>
                   <br>
                   <table>
@@ -220,22 +200,7 @@ FIELD
               </tr>
               <tr>
                 <td>JVARS(owner,Feldname)<br>oder<br>JAVARS_OWNER_FELDNAME</td>
-                <td>
-                  Nur Auswahlliste 2.0.
-                  <br>
-                  Ist hinter einer FIELD – Zeile dieses Schlüsselwort angegeben, so wird immer dann, wenn genau ein Datensatz markiert ist, der Wert aus der Datentabelle in die JVar mit dem angegebenen Owner und Feldnamen geschrieben. Diese JVars werden nicht automatisch gelöscht.
-                  <br>
-                  <br>
-                  Beispiel:
-                  <br>
-                  <pre><code>FIELD Konto,KontoNummer,I4,10,
-            JVARS(10001,Kontonummer)</code></pre>
-                  <br>
-                  oder
-                  <br>
-                  <pre><code>FIELD Konto,KontoNummer,I4,10,
-            JVARS_10001_Kontonummer)</code></pre>
-                </td>
+                <td>Nur Auswahlliste 2.0.<br>Ist hinter einer FIELD – Zeile dieses Schlüsselwort angegeben, so wird immer dann, wenn genau ein Datensatz markiert ist, der Wert aus der Datentabelle in die JVar mit dem angegebenen Owner und Feldnamen geschrieben. Diese JVars werden nicht automatisch gelöscht.<br><br>Beispiel:<br><code>FIELD Konto,KontoNummer,I4,10, JVARS(10001,Kontonummer)</code><br>oder<br><code>FIELD Konto,KontoNummer,I4,10, JVARS_10001_Kontonummer)</code></td>
               </tr>
             </tbody>
           </table>
@@ -250,13 +215,10 @@ FIELD
           <p>Enthält das SQL-Statement, welches die darzustellenden Daten liefert.</p>
           <div>
             <pre><code>SQL select :FIELDS
- from
-      AnKaGruppe
- where
-      (1=1
+ from AnKaGruppe
+ where (1=1
    :AUSW_ANKAGRUPPE
- order by
-      AnKaGrupNummer</code></pre>
+ order by AnKaGrupNummer</code></pre>
           </div>
           <p>FIELDS fast alle mit FIELD und VAR angegebenen Spalten zusammen (siehe oben).<br>AUSW_ANKAGRUPPE ist der für die F2-Bereichsauswahl verwendete Variablenname.</p>
         </td>
@@ -284,12 +246,9 @@ FIELD
           <div>
             <pre><code>…
 IDENT s.KundId
-IDSQL select
-      *
-      from KUNDENSTAMM
-      s
-      where s.kundid =
-      :ID1
+IDSQL select *
+      from KUNDENSTAMM s
+      where s.kundid = :ID1
 …</code></pre>
           </div>
         </td>
@@ -354,14 +313,7 @@ IDSQL select
               <tr>
                 <td>STAPELMODUS</td>
                 <td>AW 2.0</td>
-                <td>
-                  Die Variante ist immer im Stapel-Bearbeitungsmodus. Im StapelModus muss ein Feld STAPEL_ID aus der Tabelle STAPEL_CONTENT in der Fieldanweisung existieren, es kann auch auf HIDDEN gestellt sein.
-                  <br>
-                  <pre><code>FIELD Stapel
-            ID,stapel_id,I4,10,HIDDEN</code></pre>
-                  <br>
-                  Beispiel siehe Vorgangstapel (Direksprung [VRS])
-                </td>
+                <td>Die Variante ist immer im Stapel-Bearbeitungsmodus. Im StapelModus muss ein Feld STAPEL_ID aus der Tabelle STAPEL_CONTENT in der Fieldanweisung existieren, es kann auch auf HIDDEN gestellt sein.<br><code>FIELD Stapel ID,stapel_id,I4,10,HIDDEN</code><br>Beispiel siehe Vorgangstapel (Direksprung [VRS])</td>
               </tr>
               <tr>
                 <td>INFOBOX</td>
@@ -443,13 +395,11 @@ IDSQL select
           <p>3 = Fehler</p>
           <p>Syntax-Beispiel</p>
           <div>
-            <pre><code>WARNINGFUNCTION p_namederdatenbankfuntion()
-      //ACHTUNG: Vollständig mit Klammern</code></pre>
+            <code>WARNINGFUNCTION p_namederdatenbankfuntion() //ACHTUNG: Vollständig mit Klammern</code>
           </div>
           <p>oder</p>
           <div>
-            <pre><code>WARNINGFUNCTION if db_bedienerid=-1 then 3 else 0
-      endif</code></pre>
+            <code>WARNINGFUNCTION if db_bedienerid=-1 then 3 else 0 endif</code>
           </div>
         </td>
       </tr>
@@ -546,18 +496,15 @@ IDSQL select
         <td>
           <p>Im SQL-TEXT für die neue Auswahlliste existiert ein neues Schlüsselwort DEFAULT:</p>
           <div>
-            <pre><code>DEFAULT fa_kundnummer=:GETVALUE (IDENT,Kundnummer),fa_belegreferenz=:GETVALUE
-      (IDENT,belegreferenz)</code></pre>
+            <code>DEFAULT fa_kundnummer=:GETVALUE (IDENT,Kundnummer),fa_belegreferenz=:GETVALUE (IDENT,belegreferenz)</code>
           </div>
           <p>Oder</p>
           <div>
-            <pre><code>DEFAULT fa_kundnummer=":GETVALUE (IDENT,Kundnummer)",fa_belegreferenz=":GETVALUE
-      (IDENT,belegreferenz)"</code></pre>
+            <code>DEFAULT fa_kundnummer=":GETVALUE (IDENT,Kundnummer)",fa_belegreferenz=":GETVALUE (IDENT,belegreferenz)"</code>
           </div>
           <p>Liefert beides mal dasselbe Ergebnis, die Hochkomma werden entfernt. Hochkamma sind dann notwendig, wenn das, was zurückgeliefert wird, ein Komma enthält. Komma sind ansonsten Trennzeichen:</p>
           <div>
-            <pre><code>DEFAULT  KundSQL="select kundnummer
-      ,  Kundbezeich from kundenstamm where Kundid=:GETVALUE(IDENT,KUNDID)"</code></pre>
+            <code>DEFAULT  KundSQL="select kundnummer  ,  Kundbezeich from kundenstamm where Kundid=:GETVALUE(IDENT,KUNDID)"</code>
           </div>
           <table>
             <tbody>
@@ -641,8 +588,7 @@ IDSQL select
         <td>
           <p>Titelzeile der F3-Auswahl im alten Design.</p>
           <div>
-            <pre><code>TITLE Gesamtverzeichnis
-Direktsprünge</code></pre>
+            <code>TITLE Gesamtverzeichnis Direktsprünge</code>
           </div>
           <p><img src="../../ImagesExt/image8_1338.png" alt=""></p>
         </td>
@@ -701,17 +647,14 @@ Direktsprünge</code></pre>
         <td>
           <p>Die PARAMS-Anweisung dient dazu, vom Programm übermittelte Parameter mit einem Standardwert zu versorgen. Diese werden nur angenommen, wenn die entsprechenden Parameter nicht versorgt worden sind. Dies Standardwerte werden auch verwendet, um die F3-Auswahl zu testen. Wie bei allen Kommandos kann das PARAMS -Statement auch mehrere durch Komma getrennte Parameter enthalten</p>
           <div>
-            <pre><code>PARAMS  KONTO = 70000,JAHR = 2012, PERI =
-      12</code></pre>
+            <code>PARAMS  KONTO = 70000,JAHR = 2012, PERI = 12</code>
           </div>
           <p>Im SQL können dann KONTO, JAHR, PERI wie folgt verwendet werden:</p>
           <div>
             <pre><code>…
 where a.kontonummer = :KONTO
-   and
-      c.Jahrnummer = :JAHR
-   and c.Perinummer =
-      :PERI
+   and c.Jahrnummer = :JAHR
+   and c.Perinummer = :PERI
 …</code></pre>
           </div>
         </td>
@@ -767,12 +710,9 @@ LPARAMS EKVK=EK</code></pre>
           <p>2)&nbsp;&nbsp; Verwendet man ITEMWAHL mit vorangestelltem Doppelpunkt im SQL-Text, dann wird dort vor dem Ausführen des Statements der Wert aus dem Eingabefeld eingesetzt<br><br></p>
           <div>
             <pre><code>SQL select
- SachKontBezeich,KontoNummer,
-      SachKontOPKennz,SachKontSteuKenn,SachKontZinsKenn,SachKontErfSperr,SachKontJWKKennz
- from
-      SachKontstamm
- where
-      isnull(sachkontloekennz,0)=0 and kontonummer &gt;= ':ITEMWAHL'</code></pre>
+ SachKontBezeich,KontoNummer, SachKontOPKennz,SachKontSteuKenn,SachKontZinsKenn,SachKontErfSperr,SachKontJWKKennz
+ from SachKontstamm
+ where isnull(sachkontloekennz,0)=0 and kontonummer &gt;= ':ITEMWAHL'</code></pre>
           </div>
         </td>
       </tr>
@@ -789,17 +729,11 @@ LPARAMS EKVK=EK</code></pre>
           <p>Im Folgendem Beispiel wird nach der Bezeichnung und dem Vornamen gesucht:</p>
           <div>
             <pre><code>SQL
- select
-      :FIELDS
- from KundenStamm
-      kus, AnschriftStamm
- where
-      (AdressIdHauptAdr = AdressId)
- and (KundBezeich
-      like ':ITEM1%')
- and
-      (AdressVorname like ':ITEM2%') and
-      (KundLoeKennz = 0)</code></pre>
+ select :FIELDS
+ from KundenStamm kus, AnschriftStamm
+ where (AdressIdHauptAdr = AdressId)
+ and (KundBezeich like ':ITEM1%')
+ and (AdressVorname like ':ITEM2%') and (KundLoeKennz = 0)</code></pre>
           </div>
         </td>
       </tr>
@@ -817,8 +751,7 @@ LPARAMS EKVK=EK</code></pre>
           <p>Dieses Kennzeichen kann - ohne private Ableitung zu bilden - über die Funktion „Mindesteingabe“ zentral pro F3-Auswahl gesetzt werden. Das ermöglicht es private Ableitungen zu vermeiden.</p>
           <p>Vom Entwickler kann mit der Funktion FLD_ITEM_OPTION ein Wert gesetzt werden.</p>
           <div>
-            <pre><code>FLD_ITEM_OPTION("IB_Artikel_nu","MUSTENTER
-      4")</code></pre>
+            <code>FLD_ITEM_OPTION("IB_Artikel_nu","MUSTENTER 4")</code>
           </div>
         </td>
       </tr>
@@ -832,29 +765,21 @@ LPARAMS EKVK=EK</code></pre>
         <td>
           <p>LOOKUP dient dazu, einen Datensatz eindeutig zu Identifizieren und muss im SQL-Befehl angegeben werden, wenn die F3-Auswahl dazu dient, zu prüfen, ob ein Datensatz existiert.</p>
           <div>
-            <pre><code>SQL select kontobezeich kundbezeich,
-      :FIELDS
- from kontostamm
-      k
+            <pre><code>SQL select kontobezeich kundbezeich, :FIELDS
+ from kontostamm k
  where k.KontoNummer &gt;=':ITEMWAHL'
-  and ( KontoTyp
-      in (1,2) )
+  and ( KontoTyp in (1,2) )
   :LOOKUP
- order by
-      k.KontoNummer
-LOOKUP and k.Kontonummer =
-      ':ITEMWAHL'</code></pre>
+ order by k.KontoNummer
+LOOKUP and k.Kontonummer = ':ITEMWAHL'</code></pre>
           </div>
           <p>Bei der Auflistung wird LOOKUP im SQL weggelassen, bei der Prüfung jedoch eingesetzt. Es ergibt sich dann folgendes Statement wenn als Konto 10000 ausgewählt.wurde:</p>
           <div>
             <pre><code>select kontobezeich kundbezeich, :FIELDS
- from kontostamm
-      k
+ from kontostamm k
  where k.KontoNummer &gt;='10000'
-  and ( KontoTyp
-      in (1,2) )
-  and
-      k.Kontonummer = '10000'
+  and ( KontoTyp in (1,2) )
+  and k.Kontonummer = '10000'
  order by k.KontoNummer</code></pre>
           </div>
         </td>
@@ -891,10 +816,8 @@ LOOKUP and k.Kontonummer =
         <td>
           <p>Wenn eine F3-Auswahl eine Ergebnismenge liefert, die ggf. nicht gültig sind, kann hier eine F3-Auswahl angegeben werden, mit deren Hilfe die Gültigkeit noch einmal geprüft werden kann. Durch Komma getrennt gibt man den Feldnamen an, der für ITEMWAHL - also als Eingabe - verwendet werden soll. Das Schlüsselwort VERIFY_INFO enthält den Text, der ausgegeben wird, wenn die Prüfung fehlschlägt.</p>
           <div>
-            <pre><code>VERIFY
-      IB_VERIFY_BAUSTELLE_ARTIKEL,ArtikelId
-VERIFY_INFO Artikel gehört nicht zur
-      Baustelle</code></pre>
+            <pre><code>VERIFY IB_VERIFY_BAUSTELLE_ARTIKEL,ArtikelId
+VERIFY_INFO Artikel gehört nicht zur Baustelle</code></pre>
           </div>
         </td>
       </tr>
@@ -929,8 +852,7 @@ VERIFY_INFO Artikel gehört nicht zur
           </div>
           <p>Die Größe lässt sich auch Programgesteuert festlegen. Dies geschieht über FLD_ITEM_OPTION und der Syntax ist ein klein wenig anders, da die Breite und Höhe hier in Klammern und ohne Leerzeichen stehen muss.</p>
           <div>
-            <pre><code>FLD_ITEM_OPTION(itemBox, "FIXEDSIZE(1152,512)"
-      )</code></pre>
+            <code>FLD_ITEM_OPTION(itemBox, "FIXEDSIZE(1152,512)" )</code>
           </div>
           <p>Ist vom Programm eine feste Größe vorgegeben, kann diese in der Itembox mit</p>
           <div>

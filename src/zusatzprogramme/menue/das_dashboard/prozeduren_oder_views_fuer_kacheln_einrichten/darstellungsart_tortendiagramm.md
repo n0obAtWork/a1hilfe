@@ -42,42 +42,24 @@ Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Bas
           <div>
             <pre><code>CREATE VIEW p_dash_torte AS
 select
-  top 10
-      sum(wabewWert) as wert,
-  'Top 10 Kunden' as
-      header,         -- Wird kein
-      header angegeben, steht der Platz dem Mittelteil zur Verfügung.
-  'solid' as
-      borderstyle,          --
-      Mögliche Wert sind: &gt;none&lt;(standard), &gt;solid&lt;, &gt;raised&lt;,
-      &gt;inset&lt;
-  '68/68/68' as
-      bordercolor,       -- Bei Borderstyle =
-      Solid muss man noch die bordercolor festlegen
- -- Pro
-      Tortenstück muss ein Datensatz mit dem
- -- &gt;wert&lt;
-      des Kuchenstücks und dem
- -- &gt;label&lt;
-      des Kuchenstücks zurückgeliefert werden
+  top 10 sum(wabewWert) as wert,
+  'Top 10 Kunden' as header,         -- Wird kein header angegeben, steht der Platz dem Mittelteil zur Verfügung.
+  'solid' as borderstyle,          -- Mögliche Wert sind: &gt;none&lt;(standard), &gt;solid&lt;, &gt;raised&lt;, &gt;inset&lt;
+  '68/68/68' as bordercolor,       -- Bei Borderstyle = Solid muss man noch die bordercolor festlegen
+ -- Pro Tortenstück muss ein Datensatz mit dem
+ -- &gt;wert&lt; des Kuchenstücks und dem
+ -- &gt;label&lt; des Kuchenstücks zurückgeliefert werden
   'bottom' as LegendPosition,
-  '0' as
-      LegendVisible,
-  'horizontal' as
-      LegendOrientation,
-  ks.kundBezeich
-      as label,
-  ks.KundId as
-      Id1
+  '0' as LegendVisible,
+  'horizontal' as LegendOrientation,
+  ks.kundBezeich as label,
+  ks.KundId as Id1
   from warenbewegung wb
   join v_posiWare vp on vp.wabewId = wb.wabewId
   join vorgangstamm vs on vs.V_Id = vp.V_Id
-  join
-      Kundenstamm ks on ks.KundId = vs.KundIdZuord
-  where
-      vs.V_Klassnummer = 700 and ks.KundNummer
-  group by
-      ks.kundId, ks.kundNummer, ks.kundBezeich
+  join Kundenstamm ks on ks.KundId = vs.KundIdZuord
+  where vs.V_Klassnummer = 700 and ks.KundNummer
+  group by ks.kundId, ks.kundNummer, ks.kundBezeich
   order by wert desc</code></pre>
           </div>
         </td>

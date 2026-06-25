@@ -28,18 +28,13 @@ Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Bas
           <div>
             <pre><code>CREATE VIEW p_dash_button_oder_text AS
   select
-      'Auftragsvolumen' as Header,
-      trim(AMIC_FSTR(sum(WaBewWert), 20, 2))
-      as Text,
-    'center' as
-      Textalign
-      'vom 01.01.'|| year(today(*)) || ' bis heute'  as
-      Footer,
-    '255/255/255' as
-      color,
-      'solid' as borderstyle,
-    '#333333' as
-      bordercolor
+    'Auftragsvolumen' as Header,
+    trim(AMIC_FSTR(sum(WaBewWert), 20, 2)) as Text,
+    'center' as Textalign
+    'vom 01.01.'|| year(today(*)) || ' bis heute'  as Footer,
+    '255/255/255' as color,
+    'solid' as borderstyle,
+    '#333333' as bordercolor
    from
   . . .</code></pre>
           </div>

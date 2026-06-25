@@ -51,11 +51,9 @@ Diese Warnungsfunktion wird in der [Ansichtsverwaltung](./ansichten_verwalten.md
 Im SQL-Text gibt man die Funktion mithilfe des Schlüsselwortes **WARNINGFUNCTION** an. Es müssen die Klammern mit angegeben werden:
 
 ```text
-WARNINGFUNCTION
-p_prueffunktion()
+WARNINGFUNCTION p_prueffunktion()
 Oder
-WARNINGFUNCTION if db_bedienerid=-1 then 3
-else 0 endif
+WARNINGFUNCTION if db_bedienerid=-1 then 3 else 0 endif
 ```
 
 [Hier](../a_eins_hinweis/warningfunction.md) findet sich beispielhaft eine mögliche Einrichtung.

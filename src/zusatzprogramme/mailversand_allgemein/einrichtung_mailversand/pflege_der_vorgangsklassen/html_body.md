@@ -11,18 +11,13 @@ Das „ROH“-HTML wird als Eintrag ins Archiv gestellt und seine Eintrags-ID wi
 Als Beispiel verwenden Sie dazu die Datenbankfunktion AMIC_DEMO_HTMLBODY
 
 ```text
----<class
-name="AMIC_DEMO_HTMLBODY"/>
+---<class name="AMIC_DEMO_HTMLBODY"/>
 ---<summary>AMIC_DEMO_HTMLBODY</summary>
 ---<returns>HTMLBody</returns>
----<param name="in_fa_id">fa_id des zu
-versendenden Ware-Beleges</param>
----<param name="in_fa_mndNr">Mandantnummer des zu
-versendenden Ware-Beleges</param>
-CREATE FUNCTION AMIC_DEMO_HTMLBODY(in_fa_id integer,
-in_fa_mndNr integer)
-returns long
-varchar
+---<param name="in_fa_id">fa_id des zu versendenden Ware-Beleges</param>
+---<param name="in_fa_mndNr">Mandantnummer des zu versendenden Ware-Beleges</param>
+CREATE FUNCTION AMIC_DEMO_HTMLBODY(in_fa_id integer, in_fa_mndNr integer)
+returns long varchar
 ```
 
 1. Schritt – Erstellen einer HTML-Body-Datei

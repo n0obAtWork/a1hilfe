@@ -13,8 +13,7 @@ Die Auswertung dieser Prüfung muss wegen der Vielfältigkeit der daraus abzulei
 Dazu kann zum einen aus dem Vorgang ermittelt werden, ob eine Prüfung vorgesehen war:
 
 ```sql
-select amic_func_bit_test(
-V_VorgBits1, 4)
+select amic_func_bit_test( V_VorgBits1, 4)
 from amic_v_vorgaenge
 where v_id = ???;
 ```
@@ -24,7 +23,6 @@ Anschließend kann, sofern eine Prüfung vorgesehen war (Ergebnis 1) das Ergebni
 ```sql
 select *
 from UmsatzSteuerIdPruefAuftrag PA
-join amic_v_vorgaenge vs on vs.v_guid = PA.v_guid and
-vs.UstId_Kunde = PA.UstId
+join amic_v_vorgaenge vs on vs.v_guid = PA.v_guid and vs.UstId_Kunde = PA.UstId
 where v_id = ???;
 ```

@@ -11,43 +11,33 @@ Produktion prod = null;
 Encoding enc = Encoding.GetEncoding("ISO-8859-1");
 try
 {
-  reader = new
-StreamReader(filename);
-  ser = new
-XmlSerializerFactory().CreateSerializer(typeof(Produktion));
-  prod  =
-(Produktion)ser.Deserialize(reader);
+  reader = new StreamReader(filename);
+  ser = new XmlSerializerFactory().CreateSerializer(typeof(Produktion));
+  prod  = (Produktion)ser.Deserialize(reader);
   reader.Close();
 }
 finally
 {
-  if (reader !=
-null)
+  if (reader != null)
   {
     reader.Close();
   }
 }
-//Nur weiter, wenn eine
-Produktionsänderung erkannt wurde
+//Nur weiter, wenn eine Produktionsänderung erkannt wurde
 if (prod == null)
 {
   return;
 }
-int bedienerMand =
-D.GetExecuteScalar<int>(-1, "select bedienerid from bedienerstamm where BedienerKurz
-= 'MAND'");
+int bedienerMand = D.GetExecuteScalar<int>(-1, "select bedienerid from bedienerstamm where BedienerKurz = 'MAND'");
 ProduktionsAenderung pa = new ProduktionsAenderung();
-pa.VerarbeiteRueckMeldung(prod,
-bedienerMand);
+pa.VerarbeiteRueckMeldung(prod, bedienerMand);
 ```
 
 Zu Exportierende Daten werden zunächst serialisiert und dann in eine Datei geschrieben
 
 ```csharp
-ProduktionsExport pe = new
-ProduktionsExport();
-Produktion prod = pe.ExportData(v_id,
-ProdStatus.Rezept);
+ProduktionsExport pe = new ProduktionsExport();
+Produktion prod = pe.ExportData(v_id, ProdStatus.Rezept);
 XmlSerializer ser;
 XmlTextWriter xmlTextWriter = null;
 string XML = "";
@@ -57,8 +47,7 @@ try
 {
   ms = new MemoryStream();
   xmlTextWriter = new XmlTextWriter(ms, enc);
-  ser = new
-XmlSerializerFactory().CreateSerializer(typeof(Produktion));
+  ser = new XmlSerializerFactory().CreateSerializer(typeof(Produktion));
   ser.Serialize(xmlTextWriter, prod);
   //Memorystream füllen
   ms = (MemoryStream)xmlTextWriter.BaseStream;
@@ -82,9 +71,7 @@ if (string.IsNullOrEmpty(XML))
 StreamWriter sw = null;
 try
 {
-  sw = new StreamWriter(Path.Combine(exportPfad,
-"parts_"+v_id.ToString()+".xml"), false,
-Encoding.GetEncoding("ISO-8859-1"));
+  sw = new StreamWriter(Path.Combine(exportPfad, "parts_"+v_id.ToString()+".xml"), false, Encoding.GetEncoding("ISO-8859-1"));
   sw.Write(XML);
   sw.Flush();
 }

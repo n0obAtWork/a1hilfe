@@ -15,16 +15,11 @@ Ein Beispiel für die Prozedur kann sein:
 ```sql
 create procedure mas_test_proc(V_ID integer, V_POSIZAEHLER integer)
 BEGIN
-  select 'MEINLager' as
-Ladezusatz,
-  'MeineStrasse 1'
-as AdressStrasse,
-  '12345'
-as AdressPLZ,
-  'Meinestadt'
-as AdressOrt,
-  'DE002101'
-as AusfuhrZollstelle
+  select 'MEINLager' as Ladezusatz,
+  'MeineStrasse 1' as AdressStrasse,
+  '12345' as AdressPLZ,
+  'Meinestadt' as AdressOrt,
+  'DE002101' as AusfuhrZollstelle
   from DUMMY
 END
 ```

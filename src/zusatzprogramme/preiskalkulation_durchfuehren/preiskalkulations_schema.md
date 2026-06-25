@@ -66,8 +66,7 @@ Ksnr Die Nummer des aktuellen Kalkulationsschemas
 Gibt es im Makro eine Prozedur
 
 ```text
-Prozedure
-Init();
+Prozedure Init();
 ```
 
 so wird diese noch vor PreisKalkInit aufgerufen. Hier können z.B. global makrointerne Variablen angelegt und initialisiert werden, die dann in PreisKalkInit versorgt wird.

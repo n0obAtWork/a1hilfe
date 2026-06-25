@@ -117,44 +117,28 @@ Um einer Relation eine Prozedur oder View hinzuzufügen wählen Sie bitte die Re
 <p class="just-emphasize">Beispiel für eine Private Prozedur</p>
 
 ```sql
-create procedure
-p_Erloeskennziffernichtueberschreiben (
-in in_tabelle char(255) default
-'',
-in in_parentid integer default 0 )
+create procedure p_Erloeskennziffernichtueberschreiben (
+in in_tabelle char(255) default '',
+            in in_parentid integer default 0 )
 begin
-  declare
-dc_ekz_nummer integer;
-  declare
-dc_ekz_nummer_orginal integer;
-  -- Ekznummerneintrag
-mit übernehmen, wenn nicht vorhanden.
+  declare dc_ekz_nummer integer;
+  declare dc_ekz_nummer_orginal integer;
+  -- Ekznummerneintrag mit übernehmen, wenn nicht vorhanden.
   --
-  set
-dc_ekz_nummer = 0;
-  select first
-wert into dc_ekz_nummer from tabellenstruktur where
-feldname='ekz_nummer' and TabellenName = 'Artikel';
-  if (
-dc_ekz_nummer = 0 ) then
-    select
-first wert into dc_ekz_nummer from tabellenstruktur where
-      feldname='ekz_nummer' and
-TabellenName = 'ArtikelStamm';
+  set dc_ekz_nummer = 0;
+  select first wert into dc_ekz_nummer from tabellenstruktur where
+     feldname='ekz_nummer' and TabellenName = 'Artikel';
+  if ( dc_ekz_nummer = 0 ) then
+    select first wert into dc_ekz_nummer from tabellenstruktur where
+      feldname='ekz_nummer' and TabellenName = 'ArtikelStamm';
   end if;
-  set
-dc_ekz_nummer_orginal = 0;
-  select first
-ekz_nummer into dc_ekz_nummer_orginal
-from Erloeskennziffer
+  set dc_ekz_nummer_orginal = 0;
+  select first ekz_nummer into dc_ekz_nummer_orginal from Erloeskennziffer
      where ekz_nummer = dc_ekz_nummer;
-  if (
-dc_ekz_nummer_orginal  = 0  ) then
-    select
-0 as retval;
+  if ( dc_ekz_nummer_orginal  = 0  ) then
+    select 0 as retval;
   else
-    select
-1 as retval;
+    select 1 as retval;
   end if;
 end
 ```
@@ -173,13 +157,10 @@ delete from tabellenstruktur where parentid = in_parentid;
 <p class="just-emphasize">Beispiel für eine Private View</p>
 
 ```sql
-create view  p_mmsxml_view_
-warengruppe as
-select warengruppe.*,ars.artistammid as view_artistammid
-from warengruppe warengruppe
-     join artikelstamm ars
-on warengruppe.wagrunummer =
-ars.wagrunummer
+create view  p_mmsxml_view_ warengruppe as
+     select warengruppe.*,ars.artistammid as view_artistammid
+     from warengruppe warengruppe
+     join artikelstamm ars  on warengruppe.wagrunummer = ars.wagrunummer
 ```
 
 <p class="just-emphasize">Achtung:</p>
@@ -189,9 +170,6 @@ ars.wagrunummer
 <p class="just-emphasize">Aufruf aus dem „ArtikelExportXML“</p>
 
 ```sql
-select warengruppe.* from
-p_mmsxml_view_warengruppe warengruppe where
-   view_artistammid  =
-dc_artikelstammid for xml auto,
-elements
+select warengruppe.* from p_mmsxml_view_warengruppe warengruppe where
+   view_artistammid  = dc_artikelstammid for xml auto, elements
 ```

@@ -43,8 +43,7 @@ Die als Festtext definierten Bereiche werden später bei der [Kontrakterfassung]
 Bei Festtexten ist es möglich Platzhalter einzubinden. Diese werden später in der Kontrakterfassung abgefragt. Zum definieren eines Platzhalters kann folgender Text an der Position eingegeben werden.
 
 ```text
-Hier
-befindet sich ein Platzhalter: #0$$$$$$$$$$$$$$$
+Hier befindet sich ein Platzhalter: #0$$$$$$$$$$$$$$$
 ```
 
 Der Start eines Platzhalters wird mit „#0“ definiert. Die Länge wird dann mit der Anzahl „$“ festgelegt, die Startposition zählt dabei dazu.

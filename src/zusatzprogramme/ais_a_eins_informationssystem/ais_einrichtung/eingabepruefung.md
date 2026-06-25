@@ -102,8 +102,7 @@ Direktsprung **[AIS]**
           </table>
           <p>Wenn innerhalb des Makros Funktionen mit diesem Aufbau existieren, so ist es möglich diese mit <b>F3</b> auszuwählen.</p>
           <div>
-            <pre><code>function EineEntryFunktion(aa:string ; bb :
-      integer;a:string ; b,c : integer ):integer;
+            <pre><code>function EineEntryFunktion(aa:string ; bb : integer;a:string ; b,c : integer ):integer;
 begin
  EineEntryFunktion:=0;
 end;</code></pre>

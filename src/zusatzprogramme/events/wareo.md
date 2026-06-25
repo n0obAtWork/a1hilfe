@@ -17,19 +17,18 @@ Das A.eins Programmstart.vbs Script kopiert die Aeins.exe und benennt diese dann
 
 ```sql
 begin
-  call
-wareo_automatisch(
-in_systempfad   = 'c:\\aeins\\bin\\aeins_programmstart.vbs',
-in_section      = 'entw',
-in_schema       = '',
-in_schemadatei  = '',
-in_user         = '<User>',
-in_passwort     = '<Password>',
-in_kill         = '',
-in_exe          = 'A1entw',
-in_dsn          = 'entw',
-in_dauer        = 0,
-in_wareo_aufruf = 1)
+  call wareo_automatisch(
+               in_systempfad   = 'c:\\aeins\\bin\\aeins_programmstart.vbs',
+         in_section      = 'entw',
+               in_schema       = '',
+               in_schemadatei  = '',
+               in_user         = '<User>',
+               in_passwort     = '<Password>',
+               in_kill         = '',
+               in_exe          = 'A1entw',
+               in_dsn          = 'entw',
+               in_dauer        = 0,
+               in_wareo_aufruf = 1)
 end
 ```
 

@@ -389,28 +389,18 @@ Es öffnet sich folgende Maske:
           <p>Der SQL-Text sieht dann wie folgt aus:</p>
           <div>
             <pre><code>…
-SQL select
-      :FIELDS,
- (Select
-      list(v.VertragsNummer||'('||f.erntejahr||')')
+SQL select :FIELDS,
+ (Select list(v.VertragsNummer||'('||f.erntejahr||')')
   from Feldanerkennung f
-  join
-      Vermehrungsvertrag v on (f.vertragsid=v.vertragsid) where
-      f.Schlagid=a.schlagid  ) as Vertraege,
- ans.AdressName||' '||ans.AdressVorname||'
-      '||ans.AdressOrt as NameOrt
- from
-      AckerschlagKartei a
-      left outer join
-      KundenStamm k on (k.kundid=a.VermehrerKundId)
-      left outer join
-      anschriftstamm ans on (k.AdressIdHauptAdr=ans.AdressId)
- where
-      1=1
+  join Vermehrungsvertrag v on (f.vertragsid=v.vertragsid) where f.Schlagid=a.schlagid  ) as Vertraege,
+ ans.AdressName||' '||ans.AdressVorname||' '||ans.AdressOrt as NameOrt
+ from AckerschlagKartei a
+      left outer join KundenStamm k on (k.kundid=a.VermehrerKundId)
+      left outer join anschriftstamm ans on (k.AdressIdHauptAdr=ans.AdressId)
+ where 1=1
  :AUSW_KUNDE
  :AUSW_SCHLAGNAME
- order by
-      a.SchlagNummer
+ order by a.SchlagNummer
 …</code></pre>
           </div>
         </td>

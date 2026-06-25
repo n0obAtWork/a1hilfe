@@ -29,8 +29,7 @@ Werden die Dialoge die den Datenbankfehler anzeigen unterdrückt, kann man mit d
 <p class="just-emphasize">Beispiel</p>
 
 ```sql
-// Statusline ist die Zeile unterhalb der
-Eingabezeile
+// Statusline ist die Zeile unterhalb der Eingabezeile
 SET ERROR NODISPLAY;
 SET ERROR CONTINUE;
 Select * From fibuvorgstamm where FIID=10002;

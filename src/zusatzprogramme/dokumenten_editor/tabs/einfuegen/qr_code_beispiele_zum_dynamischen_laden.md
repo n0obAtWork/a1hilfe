@@ -16,11 +16,8 @@ Zu beachten ist die Konvention das eine solche Routine den Prefix „p_“ hat, 
 <p class="just-emphasize">Beispiel für eine solche Strichcode-Datenbank-Routine:</p>
 
 ```sql
----<summary>Ermittelt aus
-der WabewId den zugehörigen Artikel-Code und gibt den Code-Typen
-bekannt</summary>
----<param
-name="in_wabewid">wabewid</param>
+---<summary>Ermittelt aus der WabewId den zugehörigen Artikel-Code und gibt den Code-Typen bekannt</summary>
+---<param name="in_wabewid">wabewid</param>
 ---<returns>
 ---code    : der zugeordnete Code
 ---codetyp : der zugeordnete Codetyp
@@ -28,15 +25,11 @@ name="in_wabewid">wabewid</param>
 Create Procedure p_Barcode( in in_wabewid integer )
 Result
 (
-    code long
-varchar,
-    codetype
-char(32)
+    code long varchar,
+    codetype char(32)
 )
 Begin
   select 'Democode für QrCode-Beispiel' || ', wabewid=' || in_wabewid as code,
-'QrCode'
-as
-codetype
+         'QrCode' as codetype
 End
 ```

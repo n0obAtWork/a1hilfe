@@ -6,15 +6,11 @@ Mit diesem Event kann der Statistikexport automatisiert werden, dazu wird auf de
 
 ```sql
 begin
-  call Fehlerprotokoll(in_text = 'Start Statistik
-Export');
+  call Fehlerprotokoll(in_text = 'Start Statistik Export');
   call amic_evt_StatistikExport(0,0);
-  call Fehlerprotokoll(in_text = 'Ende Statistik
-Export')
+  call Fehlerprotokoll(in_text = 'Ende Statistik Export')
 exception
-  when others
-then call fehlerprotokoll(in_text = 'FEHLER Statistik
-Export!')
+  when others then call fehlerprotokoll(in_text = 'FEHLER Statistik Export!')
 end
 ```
 

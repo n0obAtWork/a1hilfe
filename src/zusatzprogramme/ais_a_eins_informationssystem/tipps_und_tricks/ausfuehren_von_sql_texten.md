@@ -5,8 +5,7 @@
 Wenn man auf einem Aktionsfeld lediglich ein unter **[SQLK]** gespeichertes Statement ausführen will, so kann man dies mit folgendem Controlstring erreichen:
 
 ```text
-^dbx_select
-( "SQLK", "#(sqlk_test,1)", "TMP" )
+^dbx_select ( "SQLK", "#(sqlk_test,1)", "TMP" )
 ```
 
 Die Funktion hat folgende Parameter

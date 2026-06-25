@@ -37,8 +37,7 @@ Da das Mustermakro keinen erneuten Druck erlaubt, kann dies mit Hilfe des [Liebl
 Bei individuellem Makro kann das Kennzeichen für den Lieblingsdruckerdruck mithilfe der JVARS abgerufen werden.
 
 ```text
-jvarsget(3567 , "IstLieblingsdrucker",
-vIstLieblingsdruckerBuffer, 256);
+jvarsget(3567 , "IstLieblingsdrucker", vIstLieblingsdruckerBuffer, 256);
 ```
 
 <p class="just-emphasize">Bearbeitung der Gelangensbestätigung</p>

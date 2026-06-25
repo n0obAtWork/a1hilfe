@@ -5,31 +5,24 @@
 Der Zugriff auf den Inhalt von Radio-Button und Check-Boxen funktioniert nicht so, wie bei einfachen Eingabefeldern. Um von einem Makro aus auf den Inhalt von Radio-Buttons bzw. von Check-Boxen zugreifen zu können, muss man mit den Funktionen SM_PROP_ID und SM_PROP_GET_X_INT arbeiten. Es folgen zwei Hilfsfunktionen zum Abfragen und Setzen der Haken:
 
 ```text
-function BoxStatus(NameBox : String; Zeile :
-integer):integer;
+function BoxStatus(NameBox : String; Zeile : integer):integer;
 var
-  CheckBox_ObjId:
-integer;
+  CheckBox_ObjId: integer;
 begin
-  CheckBox_ObjId
-:= sm_prop_id(NameBox );
-BoxStatus      := sm_prop_get_x_int(CheckBox_ObjId,
-zeile, 125);
+  CheckBox_ObjId := sm_prop_id(NameBox );
+  BoxStatus      := sm_prop_get_x_int(CheckBox_ObjId, zeile, 125);
 end;
 ```
 
 Die Hilfsfunktionen „BoxStatus“ – gültig für Check-Box und Radio-Button – liefert für den Name und die Zeile 0 für nicht ausgewählt und 1 für ausgewählt zurück. 
 
 ```text
-Procedure SetBoxStatus(NameBox : String; Zeile :
-integer; Status : integer);
+Procedure SetBoxStatus(NameBox : String; Zeile : integer; Status : integer);
 var
-  CheckBox_ObjId:
-integer;
+  CheckBox_ObjId: integer;
 begin
-  CheckBox_ObjId
-:= sm_prop_id(NameBox );
-sm_prop_set_x_int(CheckBox_ObjId, zeile, 125, Status);
+  CheckBox_ObjId := sm_prop_id(NameBox );
+  sm_prop_set_x_int(CheckBox_ObjId, zeile, 125, Status);
 end;
 ```
 

@@ -19,6 +19,6 @@
 | Suche Artikel | Übergibt die Eingabe an OSQL. Das dort angezeigte Statement einfach mit F9 ausführen und das Ergebnis betrachten. |
 | Suche Feldnamen | Übergibt die Eingabe an OSQL. Das dort angezeigte Statement einfach mit F9 ausführen und das Ergebnis betrachten. |
 
-| **Funktionen** | |
-| --- | --- |
-| keine | |
+| **Funktionen** |
+| --- |
+| keine |

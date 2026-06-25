@@ -21,6 +21,5 @@ Dies veranlasst das System die Verbindung zu refreshen.
 Wie stellt man die externen Server eines Systems fest?
 
 ```sql
-select
-srvid from sys.sysservers
+select srvid from sys.sysservers
 ```

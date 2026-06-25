@@ -11,8 +11,7 @@ Im SQL-Text kann pro FIELD – Zeile die Farbe angeben. Dabei gibt es verscheide
 **Die gesamte Spalte wird in Fettschrift dargestellt. Soll eine Spalte sowohl Fett als auch Kursiv dargestellt werden, so muss man die FIELD - Zeile wie folgt darstellen:
 
 ```text
-FIELD
-ZahlBankZEmpf,ZahlBankZEmpf,char,20,STYLE=BOLD,STYLE=ITALIC
+FIELD ZahlBankZEmpf,ZahlBankZEmpf,char,20,STYLE=BOLD,STYLE=ITALIC
 ```
 
 **FGCOLOR=RED  
@@ -54,8 +53,7 @@ Im SQL-Text kann **bankcolor** so aussehen:
 ```text
 .
 .
-SQL select if Saldo < Kreditlimit then 1 else 0
-endif as bankcolor, …
+SQL select if Saldo < Kreditlimit then 1 else 0 endif as bankcolor, …
 .
 .
 ```

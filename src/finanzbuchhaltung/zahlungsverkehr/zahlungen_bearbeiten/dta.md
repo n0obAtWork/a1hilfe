@@ -84,15 +84,12 @@ Der Dateiname im *DTA-Verfahren zwischen Kunde und Bank* lautet laut Konvention 
 Es steht eine Funktion AMIC_FIBUF_DTAUS zur Verfügung, die einen neuen Dateiname generiert. Die Funktion muss zwei Parameter haben (ZahllaufId und Dateinamen), und einen Wert vom Typen Character zurückliefern. Der generierte Dateiname wir in der Tabelle AMIC_DTAUS_ASATZ im Feld DTAFileName abgespeichert. Auch bei Wiederholung der Dateiausgabe aus dem DTA-Archiv wird dieser Dateiname verwendet.
 
 ```sql
-create FUNCTION AMIC_FIBUF_DTAUS( in ZahlLaufId
-integer,
-in OldFile char(255) )
+create FUNCTION AMIC_FIBUF_DTAUS( in ZahlLaufId  integer,
+                                  in OldFile char(255) )
 returns char(255)
 begin
   declare retval char(255);
-  select LEFT(OldFile,locate( OldFile, '\', -1 ) )
-|| 'DTAUS_' || (select Mandantname from mandantstamm) || '_'  || USER ||
-'_'  || ZahlLaufId || '.txt'
+  select LEFT(OldFile,locate( OldFile, '\', -1 ) ) || 'DTAUS_' || (select Mandantname from mandantstamm) || '_'  || USER || '_'  || ZahlLaufId || '.txt'
     into retval;
   return retval;
 end
@@ -141,19 +138,15 @@ Um der immer mehr zum Tragen kommenden Vielfalt der DTA-Verfahren in Europa entg
 Beispielaufbau :
 
 ```sql
-create FUNCTION AMIC_DTA( in asatz_id  integer
-)
-returns long
-varchar
+create FUNCTION AMIC_DTA( in asatz_id  integer )
+returns long varchar
 begin
-  declare retval
-long varchar;
+  declare retval long varchar;
   set retval = ‘001………’;
    .
    .
    .
-  return
-retval;
+  return retval;
 end
 ```
 

@@ -7,10 +7,8 @@ Die JVAR mit dem Owner 1977 kann mit einer Liste kommaseparierter Adressid gefü
 Mit diesem JPL-Code
 
 ```text
-call JVARS_SET(1977,
-"AdressIds", "1478,1480,1482,1484,1486")
-call CS
-("GoogleMapsPoints")
+call JVARS_SET(1977, "AdressIds", "1478,1480,1482,1484,1486")
+call CS ("GoogleMapsPoints")
 ```
 
 wird der Browser mit den markierten Adressen geöffnet.
@@ -25,9 +23,7 @@ JVarsSet( 1977, "AdressIds", Adress );
 if( JPPNEW ( "PFF" , "JExec" ) = 1 ) then
   begin
   sprintf(buf,"^CS GoogleMapsPoints" );
-  JPPIN ( "PFF"
-,"ctrl"       ,
-buf       );
+  JPPIN ( "PFF" ,"ctrl"       , buf       );
   JPPDO ( "PFF", "CtrlString" , " " ,2048 );
   JPPDELETE ( "PFF" )
 End

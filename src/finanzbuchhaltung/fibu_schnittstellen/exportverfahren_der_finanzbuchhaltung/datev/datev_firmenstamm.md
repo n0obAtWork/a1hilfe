@@ -95,18 +95,12 @@ Hier werden einmalig Daten erfasst, die für die Erkennung der Datei erforderlic
         <td>
           <p>Diese Datenbankfunktion dient dazu, zu bestimmen, welcher Beleg zu welchem Mandanten gehört. Ist keine Funktion hinterlegt, wird keine Mandantentrennung vorgenommen. Dies ist die Standardeinstellung. Die Funktion bekommt als Parameter die FiBuV_Id übergeben und muss die Nummer des Mandanten (siehe unten) zurückliefern. Die Funktion könnte wie folgt aussehen:</p>
           <div>
-            <pre><code>CREATE Function
-      AMIC_FIBU_DATEVMEHRMANDANT( in
-      in_FiBuV_Id       integer )
-returns
-      integer
+            <pre><code>CREATE Function AMIC_FIBU_DATEVMEHRMANDANT( in in_FiBuV_Id       integer )
+returns integer
 BEGIN
-  declare
-      Ergebnis integer;
-  set Ergebnis =
-      (select MandNummer from MandantenZuordnung);
-  return
-      Ergebnis;
+  declare Ergebnis integer;
+  set Ergebnis = (select MandNummer from MandantenZuordnung);
+  return Ergebnis;
 END</code></pre>
           </div>
         </td>
@@ -120,20 +114,16 @@ END</code></pre>
           <div>
             <pre><code>CREATE PROCEDURE p_DATEVEXPORT_ZUSATZDATEN
   (
-    in
-      in_Fibuv_id integer,
-    in
-      in_Fibuv_poszaehler integer,
-    in
-      in_Fibuvp_buchtyp integer
+    in in_Fibuv_id integer,
+    in in_Fibuv_poszaehler integer,
+    in in_Fibuvp_buchtyp integer
   )
 RESULT (
-      fieldNumber       integer,
-      StringValue  char(255),
-      IntValue     integer,
-      DateValue    date,
-  NumericValue
-      numeric(15,6)
+  fieldNumber       integer,
+  StringValue  char(255),
+  IntValue     integer,
+  DateValue    date,
+  NumericValue numeric(15,6)
 )
 BEGIN
  .
@@ -147,32 +137,24 @@ END</code></pre>
           <div>
             <pre><code>CREATE PROCEDURE p_DATEVEXPORT_ZUSATZDATEN
   (
-    in
-      in_Fibuv_id integer,
-    in
-      in_Fibuv_poszaehler integer,
-    in
-      in_Fibuvp_buchtyp integer
+    in in_Fibuv_id integer,
+    in in_Fibuv_poszaehler integer,
+    in in_Fibuvp_buchtyp integer
   )
 RESULT (
-      fieldNumber       integer,
-      StringValue  char(255),
-      IntValue     integer,
-      DateValue    date,
-  NumericValue
-      numeric(15,6)
+  fieldNumber       integer,
+  StringValue  char(255),
+  IntValue     integer,
+  DateValue    date,
+  NumericValue numeric(15,6)
 )
 BEGIN
-  select 19,
-      null, KundZinssperr, null, null
+  select 19, null, KundZinssperr, null, null
     from kundenstamm k
-    join fibuvorgposition p on
-      p.kontonummer=k.kontonummer
-    Where p.fibuv_id =
-      in_Fibuv_id and fibuv_poszaehler=1
-      union
-  select 104, null, null, today(*), null from
-      dummy
+    join fibuvorgposition p on p.kontonummer=k.kontonummer
+    Where p.fibuv_id = in_Fibuv_id and fibuv_poszaehler=1
+  union
+  select 104, null, null, today(*), null from dummy
 END</code></pre>
           </div>
           <p>Hinweis: Der Parameter in_fibuv_poszaehler ist immer der Zaehler der Zeile mit dem Erlöskonto</p>

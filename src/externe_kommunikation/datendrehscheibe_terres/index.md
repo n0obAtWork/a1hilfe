@@ -42,17 +42,11 @@ Sollen die Daten komplett eingespielt werden, so müssten alle Umschlüsselungen
 
 ```sql
 begin
-  call
-Fehlerprotokoll(in_text = 'Start
-Drehscheibe');
-  call
-amic_evt_datendrehscheibe(in_ArtikelImport = 0);
-  call
-Fehlerprotokoll(in_text = 'End
-Datendrehscheibe')
+  call Fehlerprotokoll(in_text = 'Start Drehscheibe');
+  call amic_evt_datendrehscheibe(in_ArtikelImport = 0);
+  call Fehlerprotokoll(in_text = 'End Datendrehscheibe')
   exception
-    when
-others then
+    when others then
       call Fehlerprotokoll(in_text = 'Abbruch Datendrehscheibe')
 end
 ```

@@ -52,17 +52,13 @@ Hier kann eine Prozedur eingefügt werden, welche die Standardbehandlung überst
 Wenn die Meldung leer ist, wird der Vorgang durchgelassen. Steht in der Meldung ein Text, so wird dieser angezeigt und der Vorgang wird nicht abgeschlossen.
 
 ```sql
-CREATE PROCEDURE
-p_verkaufsbeschraenkungMitMeldung ( in in_typ integer)
+CREATE PROCEDURE p_verkaufsbeschraenkungMitMeldung ( in in_typ integer)
 --
 BEGIN
-   select 'Achtung! Verkaufsbeschränkung' as
-meldung;
+   select 'Achtung! Verkaufsbeschränkung' as meldung;
 EXCEPTION
   when others then
-    call amic_exception( ERRORMSG() ||
-CHAR(10) || CHAR(13) || TRACEBACK(), SQLCODE , SQLSTATE ,
-'p_verkaufsbeschraenkungMitMeldung' , -1 );
+    call amic_exception( ERRORMSG() || CHAR(10) || CHAR(13) || TRACEBACK(), SQLCODE , SQLSTATE , 'p_verkaufsbeschraenkungMitMeldung' , -1 );
 END
 ```
 

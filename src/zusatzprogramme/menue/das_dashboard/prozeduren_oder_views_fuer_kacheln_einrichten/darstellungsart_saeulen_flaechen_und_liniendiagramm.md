@@ -63,73 +63,41 @@ Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Bas
           </ul>
           <div>
             <pre><code>CREATE VIEW p_dash_saeule AS
-  With daten as
-      (
-      select
-    0
-      as serie,
-   'Serie 0'
-      as seriesTitle,
-   count(*)
-      as Y,
-      AMIC_FORMLST_GETBEZEICH('kundtyp', kundtyp) as X
-   from
-      kundenstamm
-   group by
-      kundtyp
-   union
-      all
+  With daten as (
+    select
+    0 as serie,
+   'Serie 0' as seriesTitle,
+   count(*) as Y,
+   AMIC_FORMLST_GETBEZEICH('kundtyp', kundtyp) as X
+   from kundenstamm
+   group by kundtyp
+   union all
    select
-   1 as
-      serie,
-   'Serie 1'
-      as seriesTitle,
-   count(*)
-      / 2 as Y,
-      AMIC_FORMLST_GETBEZEICH('kundtyp', kundtyp) as X
-   from
-      kundenstamm
-   group by
-      kundtyp
+   1 as serie,
+   'Serie 1' as seriesTitle,
+   count(*) / 2 as Y,
+   AMIC_FORMLST_GETBEZEICH('kundtyp', kundtyp) as X
+   from kundenstamm
+   group by kundtyp
   )
  select
-      'Kundentyp nach Anzahl' as
-      header,         -- Wird kein
-      header angegeben, steht der Platz dem Mittelteil zur Verfügung.
-      'center'    as
-      headeralign,        -- Horizontale
-      Positionierung. Mögliche Werte sind &gt;left&lt;, &gt;center&lt; und
-      &gt;right&lt;.
-   'solid'
-      as borderstyle,          --
-      Mögliche Wert sind: &gt;none&lt;(standard), &gt;solid&lt;, &gt;raised&lt;,
-      &gt;inset&lt;
-      '68/68/68' as bordercolor,       -- Bei
-      Borderstyle = Solid muss man noch die bordercolor festlegen
- -- In dem
-      Diagramm können bis zu 10 Datenreihen (Serie 0 bis 9) angezeigt werden.
-      Jede Datenreihe (Serie) wird
- -- in einer
-      eigenen Farbe dargestellt. Zu jeder Serie und zu jeder Achse kann ein
-      Titel vergeben werden.
-      'Kundentyp' as XAxisTitle,
-      'Anzahl' as YAxisTitle,
- -- Die Angaben eines Minimal- bzw. Maximalwertes für
-      die Achsen ist optional.
- -- Die Minimal-
-      und Maximalwerte der X-Achse werden nur bei Datumsangaben ausgewertet.
- --   0
-      as YAxisMinValue,
- --
-      500 as YAxisMaxValue,
-     '&lt;u&gt;' || seriesTitle
-      || '&lt;/u&gt;&lt;br&gt;' || XAxisTitle || ':: ' || X ||
-      '&lt;/br&gt;&lt;br&gt;' || YAxisTitle || ':: ' || Y || '&lt;/br&gt;' as
-      SeriesTooltip,
-      'bottom' as LegendPosition,
-      'horizontal' as LegendOrientation,
-      0 as LegendVisible,
-      *
+   'Kundentyp nach Anzahl' as header,         -- Wird kein header angegeben, steht der Platz dem Mittelteil zur Verfügung.
+   'center'    as headeralign,        -- Horizontale Positionierung. Mögliche Werte sind &gt;left&lt;, &gt;center&lt; und &gt;right&lt;.
+   'solid' as borderstyle,          -- Mögliche Wert sind: &gt;none&lt;(standard), &gt;solid&lt;, &gt;raised&lt;, &gt;inset&lt;
+   '68/68/68' as bordercolor,       -- Bei Borderstyle = Solid muss man noch die bordercolor festlegen
+ -- In dem Diagramm können bis zu 10 Datenreihen (Serie 0 bis 9) angezeigt werden. Jede Datenreihe (Serie) wird
+ -- in einer eigenen Farbe dargestellt. Zu jeder Serie und zu jeder Achse kann ein Titel vergeben werden.
+    'Kundentyp' as XAxisTitle,
+    'Anzahl' as YAxisTitle,
+ -- Die Angaben eines Minimal- bzw. Maximalwertes für die Achsen ist optional.
+ -- Die Minimal- und Maximalwerte der X-Achse werden nur bei Datumsangaben ausgewertet.
+ --   0 as YAxisMinValue,
+ --   500 as YAxisMaxValue,
+     '&lt;u&gt;' || seriesTitle || '&lt;/u&gt;&lt;br&gt;' || XAxisTitle || ':: ' || X || '&lt;/br&gt;&lt;br&gt;' || YAxisTitle || ':: ' || Y || '&lt;/br&gt;' as SeriesTooltip,
+    'bottom' as LegendPosition,
+    'horizontal' as LegendOrientation,
+    0 as LegendVisible,
+    *
     from daten</code></pre>
           </div>
         </td>

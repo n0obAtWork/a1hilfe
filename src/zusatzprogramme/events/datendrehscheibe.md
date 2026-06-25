@@ -6,15 +6,11 @@ Will man den Artikelimport für die Datendrehscheibe automatisieren, kann man au
 
 ```sql
 begin
-  call Fehlerprotokoll(in_text = 'Start
-Datendrehscheibe');
+  call Fehlerprotokoll(in_text = 'Start Datendrehscheibe');
   call amic_evt_datendrehscheibe(in_Artikelimport=0);
-  call Fehlerprotokoll(in_text = 'Ende
-Datendrehscheibe');
+  call Fehlerprotokoll(in_text = 'Ende Datendrehscheibe');
 exception
-  when others
-then call fehlerprotokoll(in_text = 'FEHLER
-DatenDrehscheibe!')
+  when others then call fehlerprotokoll(in_text = 'FEHLER DatenDrehscheibe!')
 end
 ```
 

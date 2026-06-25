@@ -40,8 +40,7 @@ mms_untermandant_loesche_saatgut.sql
 oder „per Hand“ durch den SQL-Befehl
 
 ```sql
-DELETE FROM
-SAATFRUCHTART
+DELETE FROM SAATFRUCHTART
 ```
 
 In den der Tabelle SaatFruchtArt untergeordneten Tabellen (siehe Auflistung oben) werden, durch die in diesem A.eins Update zum Datenmodell hinzugefügten Fremdschlüsselbeziehungen („Foreign Keys“), automatisch alle Datenbestände aus den oben aufgelisteten Tabellen gelöscht.
@@ -61,6 +60,5 @@ Die Zeitdauer dieses Vorganges hängt von Ihrem Datenbestand in den beteiligten 
 Beispielsweise durch das Vergleichen, der Anzahl der Einträge in allen beteiligten Tabellen auf dem Hauptmandant und Untermandanten via SQL-Befehl. Hier am Beispiel der Tabelle SaatFruchtSorte beschrieben.
 
 ```sql
-SELECT
-COUNT(*) FROM SaatFruchtSorte
+SELECT COUNT(*) FROM SaatFruchtSorte
 ```

@@ -15,16 +15,12 @@ sub xyz
   dim sql
   dim hdl
   hdl = “xyz”
-  sql = “SELECT irgendwas FROM
-irgendwo”
+  sql = “SELECT irgendwas FROM irgendwo”
   if aeins.jpp_new (hdl, "JDBX") then
-    aeins.jpp_in hdl, "sql"  ,
-sql
+    aeins.jpp_in hdl, "sql"  , sql
     aeins.jpp_do hdl , "exec"
-    if aeins.jpp_do (hdl, "DBERR") = 0
-then
-      tu was
-…
+    if aeins.jpp_do (hdl, "DBERR") = 0 then
+      tu was …
     End if
     aeins.jpp_delete hdl
   end if

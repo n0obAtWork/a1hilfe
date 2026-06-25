@@ -9,8 +9,7 @@ Zusätzlich zu dem A.eins System müssen noch zwei selbstregistrierende Objekte 
 Das „\\aeins\\bin\\amic.ocx“ Objekt muss mit dem Kommando
 
 ```text
-regsvr32
-amic.ocx
+regsvr32 amic.ocx
 ```
 
     

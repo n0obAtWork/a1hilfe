@@ -123,11 +123,11 @@ Die Volltextrecherche steht in der **Dokumentenverwaltung** ([**ODRNER**], **Str
 
 Sie folgt den durch die [Sybase-Volltextreche-Regeln](http://dcx.sybase.com/index.html#1201/de/dbusage/ug-queries-s-5898110.html), siehe auch [hier](http://dcx.sybase.com/index.html#1201/de/dbreference/contains-search-condition.html):
 
-| Einige ausgewählte Beispiele | | |
-| --- | --- | --- |
-| Beispiel | Sucht nach „Beispiel“ | |
-| Beispiel1 | Beispiel2 | Sucht nach „Beispiel1“ oder „Bespiel2“ | |
-| Beispiel1 –Beispiel2 | Sucht nach Zeilen die den „Bespiel1“ enthalten, aber nicht „Beispiel2“ | |
-| Bei\* | Sucht nach allen Begriffen die mit Bei beginnen | |
+| Einige ausgewählte Beispiele | |
+| --- | --- |
+| Beispiel | Sucht nach „Beispiel“ |
+| Beispiel1 | Beispiel2 | Sucht nach „Beispiel1“ oder „Bespiel2“ |
+| Beispiel1 –Beispiel2 | Sucht nach Zeilen die den „Bespiel1“ enthalten, aber nicht „Beispiel2“ |
+| Bei\* | Sucht nach allen Begriffen die mit Bei beginnen |
 
 Die angebenen Links geben sehr viele weitere – teils hochkomplexe – Abfrage-Beispiele an bzw. vor.

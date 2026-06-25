@@ -9,7 +9,5 @@ Private Auswertung die die **ktrbewmenge** und **wabewsignimengen** berücksicht
 Beispiel aus der Prozedur amic_func_ktr_calc_all_ratierlich
 
 ```text
-sum((isnull(kb.ktrbewmenge,0) - isnull(kb.ktrbewdispmenge,0)) * wb.wabewVorzeichen *
-if isnull(wb.WabewKtrBuchkorr,0) = 1 then 1 else
-wb.wabewSigniMengen endif )
+sum((isnull(kb.ktrbewmenge,0) - isnull(kb.ktrbewdispmenge,0)) * wb.wabewVorzeichen * if isnull(wb.WabewKtrBuchkorr,0) = 1 then 1 else wb.wabewSigniMengen endif )
 ```

@@ -45,8 +45,7 @@ p_barcode_druckparam_beispiel('{druckparam}')
 <summary>Beispiel für “Druckparam”</summary>
 
 ```sql
-CREATE PROCEDURE
-p_barcode_druckparam_beispiel( in in_druckparam long varchar )
+CREATE PROCEDURE p_barcode_druckparam_beispiel( in in_druckparam long varchar )
 Result
 (
   code long varchar,
@@ -55,12 +54,10 @@ Result
 Begin
   declare dc_code long varchar;
   declare dc_codetype long varchar;
-  CALL sp_parse_json( 'dc_druckparam',
-in_druckparam );
+  CALL sp_parse_json( 'dc_druckparam', in_druckparam );
   set dc_codetype = 'qrcode';
   set dc_code = dc_druckparam.DruckerQueue;
-  select dc_code as code, dc_codetype as
-codetype;
+  select dc_code as code, dc_codetype as codetype;
 End
 ```
 

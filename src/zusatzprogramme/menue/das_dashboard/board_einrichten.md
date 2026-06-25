@@ -79,12 +79,7 @@ Bei bereits eingerichtetem Dashboard erreicht man die Bearbeitungsmaske des Dash
               </tr>
               <tr>
                 <td>Backcolor2,</td>
-                <td>
-                  Optional. Wird Backcolor2 mit angegeben und unterscheidet sich von Backcolor, dann wird die Hintergrundfarbe der Kachel als Farbverlauf dargestellt:
-                  <br>
-                  <pre><code>Select '255/128/0' as headercolor, '255/254/0'
-            as headercolor2</code></pre>
-                </td>
+                <td>Optional. Wird Backcolor2 mit angegeben und unterscheidet sich von Backcolor, dann wird die Hintergrundfarbe der Kachel als Farbverlauf dargestellt:<br><code>Select '255/128/0' as headercolor, '255/254/0' as headercolor2</code></td>
               </tr>
               <tr>
                 <td>Borderstyle,</td>

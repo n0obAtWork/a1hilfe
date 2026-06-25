@@ -30,9 +30,7 @@ Folgende Beispiel-Vorbelegung in einem Makro-Auszug sei gegeben:
 
 ```text
 // …
-  jvarsset( 3568 , "JVars Variablen
-Key" , "JVars Variablen
-Wert" );
+  jvarsset( 3568 , "JVars Variablen Key" , "JVars Variablen Wert" );
 // …
 ```
 
@@ -46,8 +44,7 @@ p_barcode_specials_beispiel('{specials}')
 <summary>Beispiel für “Specials”</summary>
 
 ```sql
-CREATE PROCEDURE
-p_barcode_specials_beispiel ( IN in_specials long varchar )
+CREATE PROCEDURE p_barcode_specials_beispiel ( IN in_specials long varchar )
 Result
 (
   code long varchar,
@@ -55,17 +52,12 @@ Result
 )
 Begin
   declare dc_code long varchar;
-  CALL sp_parse_json( 'dc_specials', in_specials
-);
-  set dc_code = dc_specials ."JVars Variablen
-Key"[[1]];
+  CALL sp_parse_json( 'dc_specials', in_specials );
+  set dc_code = dc_specials ."JVars Variablen Key"[[1]];
   IF dc_code != 'JVars Variablen Wert' THEN
-    CALL amic_exception( 'Übergabe
-Dokument-Specials nicht geklappt!' , SQLCODE , SQLSTATE ,
-'p_barcode_specials_beispiel', -999999 );
+    CALL amic_exception( 'Übergabe Dokument-Specials nicht geklappt!' , SQLCODE , SQLSTATE , 'p_barcode_specials_beispiel', -999999 );
   END IF;
-  select dc_code as code, 'QrCode' as
-codetype;
+  select dc_code as code, 'QrCode' as codetype;
 End
 ```
 

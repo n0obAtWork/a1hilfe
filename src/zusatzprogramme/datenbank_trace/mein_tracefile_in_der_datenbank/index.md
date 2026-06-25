@@ -21,12 +21,12 @@ Zum jetzigen Zeitpunkt muss dazu über [OSQL] das entsprechende Tracefile eingel
 | Status | Technischer Aeins-Status |
 | Id | Technischer Schlüssel |
 
-| Auswahlbedingungen | |
-| --- | --- |
-| SQL Textschnipsel wie | |
-| Nur Verbrauch > … ms | |
-| Nur Fehlercode &lt; … | |
-| Nur Maske wie | |
+| Auswahlbedingungen |
+| --- |
+| SQL Textschnipsel wie |
+| Nur Verbrauch > … ms |
+| Nur Fehlercode &lt; … |
+| Nur Maske wie |
 
 | Funktionen | |
 | --- | --- |

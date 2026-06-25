@@ -62,19 +62,13 @@ Nach dem Hinzufügen der using Anweisung und der Verweise sollte es in dem Proje
 
 ```csharp
 using System;
-using
-System.Collections.Generic;
+using System.Collections.Generic;
 using System.Text;
-using
-System.Windows.Forms;
-using
-ScannerHardware;
-using
-datalogic.wireless;
-using
-datalogic.device;
-using
-datalogic.datacapture;
+using System.Windows.Forms;
+using ScannerHardware;
+using datalogic.wireless;
+using datalogic.device;
+using datalogic.datacapture;
 using datalogic.pdc;
 ```
 
@@ -87,42 +81,32 @@ using datalogic.pdc;
 ```csharp
 public class Datalogic : IScannerHardware
   {
-#region IScannerHardware Member
-    public void
-Dispose()
+    #region IScannerHardware Member
+    public void Dispose()
     {
-      throw new
-NotImplementedException();
+      throw new NotImplementedException();
     }
-    public void
-DoBeep(int hertz, int laenge)
+    public void DoBeep(int hertz, int laenge)
     {
-      throw new
-NotImplementedException();
+      throw new NotImplementedException();
     }
-    public event
-EventHandler OnRead;
-    public bool
-ScannerEnabled
+    public event EventHandler OnRead;
+    public bool ScannerEnabled
     {
       get
       {
-        throw new
-NotImplementedException();
+        throw new NotImplementedException();
       }
       set
       {
-        throw new
-NotImplementedException();
+        throw new NotImplementedException();
       }
     }
-    public bool
-isVerbunden()
+    public bool isVerbunden()
     {
-      throw new
-NotImplementedException();
+      throw new NotImplementedException();
     }
-#endregion
+    #endregion
   }
 ```
 
@@ -132,163 +116,124 @@ NotImplementedException();
 | DoBeep | Falls der Scanner einen eigenen Beeper hat und nicht auf den beep aus dem Compact Framework anspricht kann dieser hier eingebunden werden. Der Methode wird Hertz Frequenz und die Länge in ms übergeben |
 | ScannerEnabled | Mit der Methode wird abgefragt ob das Scannermodul aktiv oder nicht aktiv ist.<br>Des Weiteren muss die Funktionalität Implementiert sein, dass das Scannermodul von der Software aus zu deaktiviert oder aktiviert werden kann. |
 | isVerbunden | Gibt einen boolschen Wert zurück.<br>1. True wenn WLAN verbunden ist<br>2. False wenn WLAN nicht verbunden ist. |
-| Das Event OnRead | <pre><code>Dieses Event wird ausgelöst, wenn ein Barcode&#10; erfolgreich gelesen worden ist.&#10;public event EventHandler&#10; OnReadEvent;&#10;event EventHandler&#10; IScannerHardware.OnRead&#10; &#10; {&#10; add&#10; {&#10; &#10; if&#10; (OnReadEvent != null)&#10; &#10; {&#10; &#10; lock&#10; (OnReadEvent)&#10; &#10; {&#10; &#10; OnReadEvent += value;&#10; &#10; }&#10; &#10; }&#10; &#10; else&#10; &#10; {&#10; &#10; OnReadEvent = new EventHandler(value);&#10; &#10; }&#10; }&#10; remove&#10; {&#10; &#10; if&#10; (OnReadEvent != null)&#10; &#10; {&#10; &#10; lock&#10; (OnReadEvent)&#10; &#10; {&#10; &#10; OnReadEvent -= value;&#10; &#10; }&#10; &#10; }&#10; }&#10; }</code></pre> |
+| Das Event OnRead | <pre><code>Dieses Event wird ausgelöst, wenn ein Barcode erfolgreich gelesen worden ist.&#10;public event EventHandler OnReadEvent;&#10;event EventHandler IScannerHardware.OnRead&#10; {&#10; add&#10; {&#10; if (OnReadEvent != null)&#10; {&#10; lock (OnReadEvent)&#10; {&#10; OnReadEvent += value;&#10; }&#10; }&#10; else&#10; {&#10; OnReadEvent = new EventHandler(value);&#10; }&#10; }&#10; remove&#10; {&#10; if (OnReadEvent != null)&#10; {&#10; lock (OnReadEvent)&#10; {&#10; OnReadEvent -= value;&#10; }&#10; }&#10; }&#10; }</code></pre> |
 | | |
 
 **Diese Methoden müssen jetzt mit Leben gefüllt werden:**
 
 ```csharp
 using System;
-using
-System.Collections.Generic;
+using System.Collections.Generic;
 using System.Text;
-using
-System.Windows.Forms;
+using System.Windows.Forms;
 using A.eins.CE;
-using
-datalogic.wireless;
-using
-datalogic.device;
-using
-datalogic.datacapture;
-using
-datalogic.pdc;
-namespace
-HWDLLDatalogic
+using datalogic.wireless;
+using datalogic.device;
+using datalogic.datacapture;
+using datalogic.pdc;
+namespace HWDLLDatalogic
 {
   /// <summary>
-  /// Klasse Datalogic diese wird von dem Interfacs
-IScannerHardware abgeleitet
+  /// Klasse Datalogic diese wird von dem Interfacs IScannerHardware abgeleitet
   /// </summary>
-  public class Datalogic :
-IScannerHardware
+  public class Datalogic : IScannerHardware
   {
     /// <summary>
-    /// Objekt dür das WLAN
-Modul
+    /// Objekt dür das WLAN Modul
     /// </summary>
     private RadioSignal _RadioSignal = new RadioSignal();
     /// <summary>
-    /// Objekt des
-Scanners
+    /// Objekt des Scanners
     /// </summary>
-    private Imager
-_Imager = new Imager();
+    private Imager _Imager = new Imager();
     /// <summary>
-    /// Konstruktor der
-Klasse. In diesem Konstruktor wird das event Scanner registriet.
-    /// Diese Event wird immer
-dann gefeuert, wenn der Scanner einen Barcode gelsesen hat.
+    /// Konstruktor der Klasse. In diesem Konstruktor wird das event Scanner registriet.
+    /// Diese Event wird immer dann gefeuert, wenn der Scanner einen Barcode gelsesen hat.
     /// </summary>
     public Datalogic()
     {
-      _Imager.GoodReadEvent +=
-new ScannerEngine.LaserEventHandler(_Imager_GoodReadEvent);
+      _Imager.GoodReadEvent += new ScannerEngine.LaserEventHandler(_Imager_GoodReadEvent);
     }
     /// <summary>
-    /// In diesem Event werden
-die Daten aufbereitet
+    /// In diesem Event werden die Daten aufbereitet
     /// </summary>
     /// <param name="sender"></param>
     void _Imager_GoodReadEvent(ScannerEngine sender)
     {
-      //Erstellen eines neuen Objekt vom Typ
-EventHandler.
-      //Das Event wird am Ende der Methode geworfen und in der
-Software aufgefangen
+      //Erstellen eines neuen Objekt vom Typ EventHandler.
+      //Das Event wird am Ende der Methode geworfen und in der Software aufgefangen
       EventHandler vHandler = OnReadEvent;
       if (vHandler != null)
       {
-        // Erstellen eines Objektes für das Argument des
-Events
+        // Erstellen eines Objektes für das Argument des Events
         HardwareEventArgs vArgs = new HardwareEventArgs();
-        //  Vorbelegung des Sccancode der Übergeben
-wrid.
+        //  Vorbelegung des Sccancode der Übergeben wrid.
         string scancode = "-1";
-        //Die Barcodes EAN13, EAN8, UPCA, DATAMTRIX haben Intern
-eine bestimmten Code dieser muss
+        //Die Barcodes EAN13, EAN8, UPCA, DATAMTRIX haben Intern eine bestimmten Code dieser muss
         //hier weiter gegeben werden.
         switch (sender.BarcodeTypeAsIdentifier)
         {
-case BARCODE_Identifier.BARCODE_ID_EAN_13:
-scancode = "-4";
-break;
-case BARCODE_Identifier.BARCODE_ID_EAN_8:
-scancode = "-5";
-break;
-case BARCODE_Identifier.BARCODE_ID_UPC_A:
-scancode = "-6";
-break;
-case BARCODE_Identifier.BARCODE_ID_DATAMATRIX:
-scancode = "-8";
-break;
-default:
-scancode = "-1";
-break;
+          case BARCODE_Identifier.BARCODE_ID_EAN_13:
+            scancode = "-4";
+            break;
+          case BARCODE_Identifier.BARCODE_ID_EAN_8:
+            scancode = "-5";
+            break;
+          case BARCODE_Identifier.BARCODE_ID_UPC_A:
+            scancode = "-6";
+            break;
+          case BARCODE_Identifier.BARCODE_ID_DATAMATRIX:
+            scancode = "-8";
+            break;
+          default:
+            scancode = "-1";
+            break;
         }
         //Zuordnen des Scancodes zu den Event Argumenten
-        vArgs.AICode
-= scancode;
-        //Zuordnen des gescannten Barcode als Text zu den Event
-Argumenten
-vArgs.BarcodeasText = sender.BarcodeDataAsText;
+        vArgs.AICode = scancode;
+        //Zuordnen des gescannten Barcode als Text zu den Event Argumenten
+        vArgs.BarcodeasText = sender.BarcodeDataAsText;
         //Werfen des Events
-vHandler.Invoke(this, vArgs);
+        vHandler.Invoke(this, vArgs);
       }
     }
-#region IScannerHardware Member
+    #region IScannerHardware Member
     /// <summary>
-    /// Die Methode gibt
-zurück ob das WLAN verbunden.
+    /// Die Methode gibt zurück ob das WLAN verbunden.
     /// </summary>
     /// <returns>Bool</returns>
-    public bool
-isVerbunden()
+    public bool isVerbunden()
     {
       return _RadioSignal.IsAssociated();
     }
     /// <summary>
-    /// In dieser Methode
-können bestimmte Objekte wieder geschlossen werden,
-    /// wenn die Software
-geschlossen wird. In diesem Fall gibt die Software das Scannermodul
-    /// wieder
-frei.
+    /// In dieser Methode können bestimmte Objekte wieder geschlossen werden,
+    /// wenn die Software geschlossen wird. In diesem Fall gibt die Software das Scannermodul
+    /// wieder frei.
     /// </summary>
-    public void
-Dispose()
+    public void Dispose()
     {
       _Imager.Dispose();
     }
     /// <summary>
-    /// Mit diesem Get /Setter
-kann der Status des Scanner abgefragt oder gesetzt werden.
-    /// Das An und Auschalten
-des Scannermoduls von aussen muss Möglich sein. Da im Fall von keiner WLAN
-Verbindung
-    /// noch irgendwelche
-Daten erfasst werden dürfen.
+    /// Mit diesem Get /Setter kann der Status des Scanner abgefragt oder gesetzt werden.
+    /// Das An und Auschalten des Scannermoduls von aussen muss Möglich sein. Da im Fall von keiner WLAN Verbindung
+    /// noch irgendwelche Daten erfasst werden dürfen.
     /// </summary>
-    public bool
-ScannerEnabled
+    public bool ScannerEnabled
     {
-      get{ return
-_Imager.ScannerEnabled;}
+      get{ return _Imager.ScannerEnabled;}
       set{ _Imager.ScannerEnabled = value;}
     }
-#endregion
+    #endregion
     /// <summary>
-    ///  Event
-OnReadEvent welches geworfen werden soll
+    ///  Event OnReadEvent welches geworfen werden soll
     /// </summary>
     public event EventHandler OnReadEvent;
     /// <summary>
-    /// Hinzufügen ud löschen
-des Events aus der ScannerSoftware.
-    /// Mit ADD wir das Event
-regestiret
-    /// Mit Remove wird das
-Event wieder gelöscht.
+    /// Hinzufügen ud löschen des Events aus der ScannerSoftware.
+    /// Mit ADD wir das Event regestiret
+    /// Mit Remove wird das Event wieder gelöscht.
     /// </summary>
     event EventHandler IScannerHardware.OnRead
     {
@@ -296,39 +241,36 @@ Event wieder gelöscht.
       {
         if (OnReadEvent != null)
         {
-lock (OnReadEvent)
-{
-OnReadEvent += value;
-}
+          lock (OnReadEvent)
+          {
+            OnReadEvent += value;
+          }
         }
         else
         {
-OnReadEvent = new EventHandler(value);
+          OnReadEvent = new EventHandler(value);
         }
       }
       remove
       {
         if (OnReadEvent != null)
         {
-lock (OnReadEvent)
-{
-OnReadEvent -= value;
-}
+          lock (OnReadEvent)
+          {
+            OnReadEvent -= value;
+          }
         }
       }
     }
     /// <summary>
-    /// Beepe für den
-Datalogic Scanner
+    /// Beepe für den Datalogic Scanner
     /// </summary>
     /// <param name="herz">höhe des Tons</param>
     /// <param name="laenge">länge des Tons</param>
-    public void
-DoBeep(int hertz, int laenge)
+    public void DoBeep(int hertz, int laenge)
     {
       Beeper beeper2 = new Beeper();
-      beeper2.Beep(hertz / 10,
-laenge);
+      beeper2.Beep(hertz / 10, laenge);
     }
   }
 }

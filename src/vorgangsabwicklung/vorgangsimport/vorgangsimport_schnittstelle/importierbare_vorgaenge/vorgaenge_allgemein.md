@@ -40,8 +40,8 @@ Beispielkopf der privaten Prozedur.
 
 ```text
 create function NameDerFunktion (
-in in_UebernahmeId integer,
-in in_SatzId integer
-)
+                                  in in_UebernahmeId integer,
+                                  in in_SatzId integer
+                                )
 returns integer
 ```

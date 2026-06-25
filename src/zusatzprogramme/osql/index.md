@@ -11,15 +11,13 @@ In dem Eingabefenster links oben können SQL-Befehle eingegeben und mit **F9** a
 Eine weitere hilfreiche Taste ist **Tab** bzw. **Shift+Tab**. Mit ihr kann zwischen den Tabellen, Views, Prozeduren und Triggern – dies wird je nach Kommando bestimmt – weitergeblättert werden. Bei **Tab** wird das in alphabetischer Reihenfolge nächste Datenbankobjekt angezeigt, bei **Shift+Tab** das vorherige. Gibt man als z.B.
 
 ```text
-show view
-AMIC_V_D
+show view AMIC_V_D
 ```
 
 und drückt **Tab**, dann wird das Kommando automatisch auf
 
 ```text
-show view
-AMIC_V_DATEVSTAMM
+show view AMIC_V_DATEVSTAMM
 ```
 
 erweitert.
@@ -27,8 +25,7 @@ erweitert.
 Will man ein Datenbankobjekt eines bestimmten Anwenders sehen, so kann man dessen Kürzel vorwegstellen (In diesem Fall Test Bediener: TB). Dies wird auch von **Tab** und **Shift+Tab** berücksichtigt:
 
 ```text
-show VIEW
-TB.MandantBitmap
+show VIEW TB.MandantBitmap
 ```
 
 <p class="siehe-auch">Siehe auch:</p>

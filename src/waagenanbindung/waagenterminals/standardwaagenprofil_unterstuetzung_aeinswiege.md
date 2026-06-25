@@ -19,9 +19,7 @@ Vom WAM her dürfte schon die Möglichkeit bekannt sein die Prüfsumme für ausg
 Beispiel:
 
 ```xml
-<Sequence Send="[SOH]Ap[ENQ]"
-Expect="[SOH]A[STX]([DATA][ETX])[BCC]"
-Result="1"/>
+<Sequence Send="[SOH]Ap[ENQ]" Expect="[SOH]A[STX]([DATA][ETX])[BCC]" Result="1"/>
 ```
 
 Hinweis: Ausgehend - also im Send - ist die %BCC%-Syntax, eingehend - also im Expect - ist die [BCC]-Syntax.
@@ -40,8 +38,7 @@ Beispiel:
 
 ```xml
 <Sequence
-Send="[SOH]A[STX](ZSD{ddMMyyyyHHmm}%DATE%[ETX])%BCC%[ENQ]"
-Expect="[ACK]" Wait="1000" />
+Send="[SOH]A[STX](ZSD{ddMMyyyyHHmm}%DATE%[ETX])%BCC%[ENQ]" Expect="[ACK]" Wait="1000" />
 ```
 
 Innerhalb der geschweiften Klammern steht der Format-String für die C#-Funktion ToString von DateTime-Objekt.
@@ -91,7 +88,7 @@ XML-Sequence-Beschreibung
 
 | Kommandozeilen-parameter | |
 | --- | --- |
-| 0 | 0: Normalmodus<br>1: Gui-Modus (dieser Modus ist noch Entwicklung und wird bei Anschluss neuer<br>Waagensysteme über dieses Programm entsprechend weiterentwicklet)<br>Beispiel für Start im Analyse-Modus: Aeinswiege 1<br>Beispiel für Start im Aeins-Modus:<br><pre><code>' funktionsfähiges Standard-Script für das&#10; Standardwaagenprofil AMIC STANDARDWAAGE.&#10;Der Zubringer erzeugt&#10; zufällige Wiegeergebnisse&#10; &#10;' das Kundenergebnis&#10; wird standardmäßig im A.eins-Import-Verzeichnis erwartet und heisst&#10;&#10;standardmäßig&#10; AMIC_STANDARDWAAGE.TXT&#10;' Erzeugt wird das&#10; Kundenergebnis durch ein Script/ einen Programmaufruf der die Wiegung&#10; initiert und standardmäßig das Ergebnis in der Form&#10;' Gewicht;Wiegnummer&#10; zurückliefert.&#10;' Für das&#10; AMIC_STANDARDWAAGE - Profil wird eine kleine Demo-Applikation (&#10; amic_standardwaage.exe ) im Bin-Verzeichnis mit ausgeliefert&#10; &#10;' Schritt1 :&#10; Waageinitiierung&#10;'&#10; --------------------------------------------------------------------&#10;' Bestimmung der Lage&#10; des Kundenergebnisses&#10;'&#10; --------------------------------------------------------------------&#10;dim&#10; kundenergebnis&#10; &#10;dim&#10; aeinsrootverz&#10;aeinsrootverz =&#10; Aeins.param( "ahoiroot" )&#10;kundenergebnis =&#10; aeinsrootverz &amp; "\import" &amp; "\" &amp;&#10; "AMIC_STANDARDWAAGE.TXT"&#10;kundenergebnis =&#10; "C:\Users\ah\Documents\Entwicklung\Kairo\Aeins\A.eins.Net&#10;\Support\ComportTester\ComportTester\bin\Debug\aeinswiege.txt"&#10; &#10;dim&#10; xmlsteuerdatei&#10;xmlsteuerdatei =&#10; "C:\Users\ah\Documents\Entwicklung\Kairo\Aeins\A.eins.Net&#10;\Support\ComportTester\ComportTester\bin\Debug\aeinswiege.xml"&#10; &#10;'msgbox&#10; kundenergebnis&#10; &#10;'&#10; --------------------------------------------------------------------&#10;' Löschen eines evtl.&#10; vorherigen Kundenergebnisses&#10;'&#10; --------------------------------------------------------------------&#10;dim hdl&#10;hdl = "fso"&#10;Aeins.jpp_new hdl ,&#10; "JFileSystem"&#10;Aeins.jpp_in hdl&#10; , "file" , kundenergebnis&#10;Aeins.jpp_ex hdl&#10; , "DeleteFile"&#10;Aeins.jpp_delete&#10; hdl&#10; &#10;'&#10; --------------------------------------------------------------------&#10;' Veranlassen des&#10; neuen Kundenergebnisses&#10;'&#10; --------------------------------------------------------------------&#10;dim fso:set fso =&#10; CreateObject("Scripting.FileSystemObject")&#10;dim&#10; wiege_client&#10;dim&#10; aeinsverz&#10;aeinsverz =&#10; Aeins.param( "exepath" )&#10;wiege_client =&#10; "C:\Users\ah\Documents\Entwicklung\Kairo\Aeins\A.eins.Net&#10;\Support\ComportTester\ComportTester\bin\Debug" &amp;&#10; "\aeinswiege.exe 0 " &amp; xmlsteuerdatei &amp; " " &amp;&#10; kundenergebnis&#10; &#10;ExecuteDOS wiege_client , 0 ,&#10;1</code></pre> |
+| 0 | 0: Normalmodus<br>1: Gui-Modus (dieser Modus ist noch Entwicklung und wird bei Anschluss neuer<br>Waagensysteme über dieses Programm entsprechend weiterentwicklet)<br>Beispiel für Start im Analyse-Modus: Aeinswiege 1<br>Beispiel für Start im Aeins-Modus:<br><pre><code>' funktionsfähiges Standard-Script für das Standardwaagenprofil AMIC STANDARDWAAGE.&#10;Der Zubringer erzeugt zufällige Wiegeergebnisse&#10; &#10;' das Kundenergebnis wird standardmäßig im A.eins-Import-Verzeichnis erwartet und heisst&#10;standardmäßig AMIC_STANDARDWAAGE.TXT&#10;' Erzeugt wird das Kundenergebnis durch ein Script/ einen Programmaufruf der die Wiegung initiert und standardmäßig das Ergebnis in der Form&#10;' Gewicht;Wiegnummer zurückliefert.&#10;' Für das AMIC_STANDARDWAAGE - Profil wird eine kleine Demo-Applikation ( amic_standardwaage.exe ) im Bin-Verzeichnis mit ausgeliefert&#10; &#10;' Schritt1 : Waageinitiierung&#10;' --------------------------------------------------------------------&#10;' Bestimmung der Lage des Kundenergebnisses&#10;' --------------------------------------------------------------------&#10;dim kundenergebnis&#10; &#10;dim aeinsrootverz&#10;aeinsrootverz = Aeins.param( "ahoiroot" )&#10;kundenergebnis = aeinsrootverz &amp; "\import" &amp; "\" &amp; "AMIC_STANDARDWAAGE.TXT"&#10;kundenergebnis = "C:\Users\ah\Documents\Entwicklung\Kairo\Aeins\A.eins.Net&#10;\Support\ComportTester\ComportTester\bin\Debug\aeinswiege.txt"&#10; &#10;dim xmlsteuerdatei&#10;xmlsteuerdatei = "C:\Users\ah\Documents\Entwicklung\Kairo\Aeins\A.eins.Net&#10;\Support\ComportTester\ComportTester\bin\Debug\aeinswiege.xml"&#10; &#10;'msgbox kundenergebnis&#10; &#10;' --------------------------------------------------------------------&#10;' Löschen eines evtl. vorherigen Kundenergebnisses&#10;' --------------------------------------------------------------------&#10;dim hdl&#10;hdl = "fso"&#10;Aeins.jpp_new hdl , "JFileSystem"&#10;Aeins.jpp_in hdl , "file" , kundenergebnis&#10;Aeins.jpp_ex hdl , "DeleteFile"&#10;Aeins.jpp_delete hdl&#10; &#10;' --------------------------------------------------------------------&#10;' Veranlassen des neuen Kundenergebnisses&#10;' --------------------------------------------------------------------&#10;dim fso:set fso = CreateObject("Scripting.FileSystemObject")&#10;dim wiege_client&#10;dim aeinsverz&#10;aeinsverz = Aeins.param( "exepath" )&#10;wiege_client = "C:\Users\ah\Documents\Entwicklung\Kairo\Aeins\A.eins.Net&#10;\Support\ComportTester\ComportTester\bin\Debug" &amp; "\aeinswiege.exe 0 " &amp; xmlsteuerdatei &amp; " " &amp; kundenergebnis&#10; &#10;ExecuteDOS wiege_client , 0 , 1</code></pre> |
 | 1 | Location der Aeinswiege.xml. Ist keine angegeben, dann ist es standardmäßig Aeinswiege.xml |
 | 2 | Location der Aeinswiege.txt. Ist keine angegeben, dann ist es standardmäßig<br>Aeinswiege.txt |
 
@@ -112,105 +109,59 @@ Beispiel-Sitzung:
         </td>
         <td>
           <div>
-            <pre><code>&lt;?xml version="1.0" encoding="utf-8"
-      ?&gt;
+            <pre><code>&lt;?xml version="1.0" encoding="utf-8" ?&gt;
 &lt;!--
-  PR
-      1613
+  PR 1613
 --&gt;
-&lt;Session
-      ServerIP="192.168.241.93"
-      ServerPort="950"
-      Technik="tcpip"
-      PortName="COM8"
-      BaudRate="4800"
-      DataBits="7"
-      StopBits="1"
-      Parity="2"
-      Logging="log.txt"
+&lt;Session ServerIP="192.168.241.93"
+         ServerPort="950"
+         Technik="tcpip"
+         PortName="COM8"
+         BaudRate="4800"
+         DataBits="7"
+         StopBits="1"
+         Parity="2"
+         Logging="log.txt"
 &gt;
-      &lt;Sequences&gt;
-    &lt;!-- Pollen bis EOT kommt
-      --&gt;
-    &lt;Sequence Send="[SOH]Ap[ENQ]"
-      Expect="[EOT]" Retry="[ACK]" /&gt;
-    &lt;Sequence Send="[EOT]"
-      /&gt;
-    &lt;!-- Gewichtsanforderung
-      --&gt;
-    &lt;Sequence
-      Send="[SOH]A[STX]WGA[ETX]R[ENQ]" Expect="[ACK]" /&gt;
-    &lt;Sequence Send="[EOT]"
-      /&gt;
-    &lt;Sequence Send="[SOH]Ap[ENQ]"
-      Expect="[SOH]A[STX]([DATA][ETX])[BCC]" Wait="10000"
-      Result="1"/&gt;
-    &lt;Sequence Send="[ACK]"
-      /&gt;
-    &lt;Sequence Send="[SOH]Ap[ENQ]"
-      Expect="[EOT]" Retry="[ACK]" /&gt;
-    &lt;!-- ZSD
---&gt;
-    &lt;Sequence
-      Send="[SOH]A[STX](ZSD{ddMMyyyyHHmm}%DATE%[ETX])%BCC%[ENQ]" Expect="[ACK]"
-      /&gt;
-    &lt;Sequence Send="[SOH]Ap[ENQ]"
-      Expect="[SOH]A[STX](QZSD[ETX])[BCC]" /&gt;
-    &lt;Sequence Send="[ACK]"
-      /&gt;
-    &lt;Sequence Send="[SOH]Ap[ENQ]"
-      Expect="[EOT]" Retry="[ACK]" /&gt;
-    &lt;!-- ZVWA
-      --&gt;
-    &lt;Sequence
-      Send="[SOH]A[STX](ZVWA    0000011[ETX])%BCC%[ENQ]"
-      Expect="[ACK]" /&gt;
-    &lt;Sequence Send="[SOH]Ap[ENQ]"
-      Expect="[SOH]A[STX](Q[ETX])[BCC]" /&gt;
-    &lt;Sequence Send="[ACK]"
-      /&gt;
-    &lt;Sequence Send="[SOH]Ap[ENQ]"
-      Expect="[EOT]" Retry="[ACK]" /&gt;
-    &lt;!-- ZVSEQ
-      --&gt;
-    &lt;Sequence
-      Send="[SOH]A[STX](ZVSEQ   [ETX])%BCC%[ENQ]" Expect="[ACK]"
-      /&gt;
-    &lt;Sequence Send="[SOH]Ap[ENQ]"
-      Expect="[SOH]A[STX](QVSEQ[DATA][ETX])[BCC]" Result="1"/&gt;
-    &lt;Sequence Send="[ACK]"
-      /&gt;
-    &lt;Sequence Send="[SOH]Ap[ENQ]"
-      Expect="[EOT]" Retry="[ACK]" /&gt;
-    &lt;!-- BSPRINT
-      --&gt;
-    &lt;Sequence
-      Send="[SOH]A[STX](BSPRINT [ETX])%BCC%[ENQ]" Expect="[ACK]"
-      /&gt;
-    &lt;Sequence Send="[SOH]Ap[ENQ]"
-      Expect="[SOH]A[STX](Q[ETX])[BCC]" /&gt;
-    &lt;Sequence Send="[ACK]"
-      /&gt;
-    &lt;Sequence Send="[SOH]Ap[ENQ]"
-      Expect="[EOT]" Retry="[ACK]" /&gt;
-    &lt;!-- ZVFA
-      --&gt;
-    &lt;Sequence
-      Send="[SOH]A[STX](ZVFA    [ETX])%BCC%[ENQ]" Expect="[ACK]"
-      /&gt;
-    &lt;Sequence Send="[SOH]Ap[ENQ]"
-      Expect="[SOH]A[STX](QVFA[DATA][ETX])[BCC]" /&gt;
-    &lt;Sequence Send="[ACK]"
-      /&gt;
-    &lt;Sequence Send="[SOH]Ap[ENQ]"
-      Expect="[EOT]" Retry="[ACK]" /&gt;
-    &lt;!-- AZM
---&gt;
-    &lt;Sequence Send="[SOH]AZM"
-      Expect="[EOT]" /&gt;
-    &lt;Sequence Send="[SOH]Ap[ENQ]"
-      Expect="[EOT]" Retry="[ACK]" /&gt;
-      &lt;/Sequences&gt;
+  &lt;Sequences&gt;
+    &lt;!-- Pollen bis EOT kommt --&gt;
+    &lt;Sequence Send="[SOH]Ap[ENQ]" Expect="[EOT]" Retry="[ACK]" /&gt;
+    &lt;Sequence Send="[EOT]" /&gt;
+    &lt;!-- Gewichtsanforderung --&gt;
+    &lt;Sequence Send="[SOH]A[STX]WGA[ETX]R[ENQ]" Expect="[ACK]" /&gt;
+    &lt;Sequence Send="[EOT]" /&gt;
+    &lt;Sequence Send="[SOH]Ap[ENQ]" Expect="[SOH]A[STX]([DATA][ETX])[BCC]" Wait="10000" Result="1"/&gt;
+    &lt;Sequence Send="[ACK]" /&gt;
+    &lt;Sequence Send="[SOH]Ap[ENQ]" Expect="[EOT]" Retry="[ACK]" /&gt;
+    &lt;!-- ZSD --&gt;
+    &lt;Sequence Send="[SOH]A[STX](ZSD{ddMMyyyyHHmm}%DATE%[ETX])%BCC%[ENQ]" Expect="[ACK]" /&gt;
+    &lt;Sequence Send="[SOH]Ap[ENQ]" Expect="[SOH]A[STX](QZSD[ETX])[BCC]" /&gt;
+    &lt;Sequence Send="[ACK]" /&gt;
+    &lt;Sequence Send="[SOH]Ap[ENQ]" Expect="[EOT]" Retry="[ACK]" /&gt;
+    &lt;!-- ZVWA --&gt;
+    &lt;Sequence Send="[SOH]A[STX](ZVWA    0000011[ETX])%BCC%[ENQ]" Expect="[ACK]" /&gt;
+    &lt;Sequence Send="[SOH]Ap[ENQ]" Expect="[SOH]A[STX](Q[ETX])[BCC]" /&gt;
+    &lt;Sequence Send="[ACK]" /&gt;
+    &lt;Sequence Send="[SOH]Ap[ENQ]" Expect="[EOT]" Retry="[ACK]" /&gt;
+    &lt;!-- ZVSEQ --&gt;
+    &lt;Sequence Send="[SOH]A[STX](ZVSEQ   [ETX])%BCC%[ENQ]" Expect="[ACK]" /&gt;
+    &lt;Sequence Send="[SOH]Ap[ENQ]" Expect="[SOH]A[STX](QVSEQ[DATA][ETX])[BCC]" Result="1"/&gt;
+    &lt;Sequence Send="[ACK]" /&gt;
+    &lt;Sequence Send="[SOH]Ap[ENQ]" Expect="[EOT]" Retry="[ACK]" /&gt;
+    &lt;!-- BSPRINT --&gt;
+    &lt;Sequence Send="[SOH]A[STX](BSPRINT [ETX])%BCC%[ENQ]" Expect="[ACK]" /&gt;
+    &lt;Sequence Send="[SOH]Ap[ENQ]" Expect="[SOH]A[STX](Q[ETX])[BCC]" /&gt;
+    &lt;Sequence Send="[ACK]" /&gt;
+    &lt;Sequence Send="[SOH]Ap[ENQ]" Expect="[EOT]" Retry="[ACK]" /&gt;
+    &lt;!-- ZVFA --&gt;
+    &lt;Sequence Send="[SOH]A[STX](ZVFA    [ETX])%BCC%[ENQ]" Expect="[ACK]" /&gt;
+    &lt;Sequence Send="[SOH]Ap[ENQ]" Expect="[SOH]A[STX](QVFA[DATA][ETX])[BCC]" /&gt;
+    &lt;Sequence Send="[ACK]" /&gt;
+    &lt;Sequence Send="[SOH]Ap[ENQ]" Expect="[EOT]" Retry="[ACK]" /&gt;
+    &lt;!-- AZM --&gt;
+    &lt;Sequence Send="[SOH]AZM" Expect="[EOT]" /&gt;
+    &lt;Sequence Send="[SOH]Ap[ENQ]" Expect="[EOT]" Retry="[ACK]" /&gt;
+  &lt;/Sequences&gt;
 &lt;/Session&gt;</code></pre>
           </div>
         </td>
@@ -221,126 +172,36 @@ Beispiel-Sitzung:
         </td>
         <td>
           <div>
-            <pre><code>Timestamp
-      |Sended
-      |Readed
-      |Status   |Expected
-27.03.14
-      09:21:15.859|[SOH]Ap[ENQ]
-      |[EOT]
-      |Exakt    |[EOT]
-27.03.14
-      09:21:17.073|[EOT]
-      |
-      |Exakt    |
-27.03.14
-      09:21:17.576|[SOH]A[STX]WGA[ETX]R[ENQ]
-      |[ACK]
-      |Exakt    |[ACK]
-27.03.14
-      09:21:18.078|[EOT]
-      |
-      |Exakt    |
-27.03.14
-      09:21:19.348|[SOH]Ap[ENQ]
-      |[SOH]A[STX]QGA[SP]00772610[ETX]q
-      |Exakt    |[SOH]A[STX]([DATA][ETX])[BCC]
-27.03.14
-      09:21:19.852|[ACK]
-      |
-      |Exakt    |
-27.03.14
-      09:21:20.354|[SOH]Ap[ENQ]
-      |[EOT]
-      |Exakt    |[EOT]
-27.03.14
-      09:21:20.857|[SOH]A[STX]ZSD270320140921[ETX]E[ENQ]
-      |[ACK]
-      |Exakt    |[ACK]
-27.03.14
-      09:21:21.364|[SOH]Ap[ENQ]
-      |[SOH]A[STX]QZSD[ETX][US]
-      |Exakt    |[SOH]A[STX](QZSD[ETX])[BCC]
-27.03.14
-      09:21:21.866|[ACK]
-      |
-      |Exakt    |
-27.03.14
-      09:21:22.369|[SOH]Ap[ENQ]
-      |[EOT]
-      |Exakt    |[EOT]
-27.03.14
-      09:21:22.870|[SOH]A[STX]ZVWA[SP][SP][SP][SP]0000011[ETX])[ENQ]
-      |[ACK]
-      |Exakt    |[ACK]
-27.03.14
-      09:21:23.377|[SOH]Ap[ENQ]
-      |[SOH]A[STX]Q[ETX]R
-      |Exakt    |[SOH]A[STX](Q[ETX])[BCC]
-27.03.14
-      09:21:23.879|[ACK]
-      |
-      |Exakt    |
-27.03.14
-      09:21:24.381|[SOH]Ap[ENQ]
-      |[EOT]
-      |Exakt    |[EOT]
-27.03.14
-      09:21:24.884|[SOH]A[STX]ZVSEQ[SP][SP][SP][ETX]h[ENQ]
-      |[ACK]
-      |Exakt    |[ACK]
-27.03.14
-      09:21:25.394|[SOH]Ap[ENQ]
-      |[SOH]A[STX]QVSEQ[SP][SP][SP][SP]0000000057[ETX]A
-      |Exakt    |[SOH]A[STX](QVSEQ[DATA][ETX])[BCC]
-27.03.14
-      09:21:25.897|[ACK]
-      |
-      |Exakt    |
-27.03.14
-      09:21:26.399|[SOH]Ap[ENQ]
-      |[EOT]
-      |Exakt    |[EOT]
-27.03.14
-      09:21:26.901|[SOH]A[STX]BSPRINT[SP][ETX]c[ENQ]
-      |[ACK]
-      |Exakt    |[ACK]
-27.03.14
-      09:21:27.407|[SOH]Ap[ENQ]
-      |[SOH]A[STX]Q[ETX]R
-      |Exakt    |[SOH]A[STX](Q[ETX])[BCC]
-27.03.14
-      09:21:27.909|[ACK]
-      |
-      |Exakt    |
-27.03.14
-      09:21:28.412|[SOH]Ap[ENQ]
-      |[EOT]
-      |Exakt    |[EOT]
-27.03.14
-      09:21:28.914|[SOH]A[STX]ZVFA[SP][SP][SP][SP][ETX][BS][ENQ]
-      |[ACK]
-      |Exakt    |[ACK]
-27.03.14
-      09:21:29.423|[SOH]Ap[ENQ]
-      |[SOH]A[STX]QVFA[SP][SP][SP][SP]0[ETX]3
-      |Exakt    |[SOH]A[STX](QVFA[DATA][ETX])[BCC]
-27.03.14
-      09:21:29.925|[ACK]
-      |
-      |Exakt    |
-27.03.14
-      09:21:30.427|[SOH]Ap[ENQ]
-      |[EOT]
-      |Exakt    |[EOT]
-27.03.14
-      09:21:30.929|[SOH]AZM
-      |[EOT]
-      |Exakt    |[EOT]
-27.03.14
-      09:21:31.431|[SOH]Ap[ENQ]
-      |[EOT]
-      |Exakt    |[EOT]</code></pre>
+            <pre><code>Timestamp            |Sended                                            |Readed                                              |Status   |Expected
+27.03.14 09:21:15.859|[SOH]Ap[ENQ]                                      |[EOT]                                               |Exakt    |[EOT]
+27.03.14 09:21:17.073|[EOT]                                             |                                                    |Exakt    |
+27.03.14 09:21:17.576|[SOH]A[STX]WGA[ETX]R[ENQ]                         |[ACK]                                               |Exakt    |[ACK]
+27.03.14 09:21:18.078|[EOT]                                             |                                                    |Exakt    |
+27.03.14 09:21:19.348|[SOH]Ap[ENQ]                                      |[SOH]A[STX]QGA[SP]00772610[ETX]q                    |Exakt    |[SOH]A[STX]([DATA][ETX])[BCC]
+27.03.14 09:21:19.852|[ACK]                                             |                                                    |Exakt    |
+27.03.14 09:21:20.354|[SOH]Ap[ENQ]                                      |[EOT]                                               |Exakt    |[EOT]
+27.03.14 09:21:20.857|[SOH]A[STX]ZSD270320140921[ETX]E[ENQ]             |[ACK]                                               |Exakt    |[ACK]
+27.03.14 09:21:21.364|[SOH]Ap[ENQ]                                      |[SOH]A[STX]QZSD[ETX][US]                            |Exakt    |[SOH]A[STX](QZSD[ETX])[BCC]
+27.03.14 09:21:21.866|[ACK]                                             |                                                    |Exakt    |
+27.03.14 09:21:22.369|[SOH]Ap[ENQ]                                      |[EOT]                                               |Exakt    |[EOT]
+27.03.14 09:21:22.870|[SOH]A[STX]ZVWA[SP][SP][SP][SP]0000011[ETX])[ENQ] |[ACK]                                               |Exakt    |[ACK]
+27.03.14 09:21:23.377|[SOH]Ap[ENQ]                                      |[SOH]A[STX]Q[ETX]R                                  |Exakt    |[SOH]A[STX](Q[ETX])[BCC]
+27.03.14 09:21:23.879|[ACK]                                             |                                                    |Exakt    |
+27.03.14 09:21:24.381|[SOH]Ap[ENQ]                                      |[EOT]                                               |Exakt    |[EOT]
+27.03.14 09:21:24.884|[SOH]A[STX]ZVSEQ[SP][SP][SP][ETX]h[ENQ]           |[ACK]                                               |Exakt    |[ACK]
+27.03.14 09:21:25.394|[SOH]Ap[ENQ]                                      |[SOH]A[STX]QVSEQ[SP][SP][SP][SP]0000000057[ETX]A    |Exakt    |[SOH]A[STX](QVSEQ[DATA][ETX])[BCC]
+27.03.14 09:21:25.897|[ACK]                                             |                                                    |Exakt    |
+27.03.14 09:21:26.399|[SOH]Ap[ENQ]                                      |[EOT]                                               |Exakt    |[EOT]
+27.03.14 09:21:26.901|[SOH]A[STX]BSPRINT[SP][ETX]c[ENQ]                 |[ACK]                                               |Exakt    |[ACK]
+27.03.14 09:21:27.407|[SOH]Ap[ENQ]                                      |[SOH]A[STX]Q[ETX]R                                  |Exakt    |[SOH]A[STX](Q[ETX])[BCC]
+27.03.14 09:21:27.909|[ACK]                                             |                                                    |Exakt    |
+27.03.14 09:21:28.412|[SOH]Ap[ENQ]                                      |[EOT]                                               |Exakt    |[EOT]
+27.03.14 09:21:28.914|[SOH]A[STX]ZVFA[SP][SP][SP][SP][ETX][BS][ENQ]     |[ACK]                                               |Exakt    |[ACK]
+27.03.14 09:21:29.423|[SOH]Ap[ENQ]                                      |[SOH]A[STX]QVFA[SP][SP][SP][SP]0[ETX]3              |Exakt    |[SOH]A[STX](QVFA[DATA][ETX])[BCC]
+27.03.14 09:21:29.925|[ACK]                                             |                                                    |Exakt    |
+27.03.14 09:21:30.427|[SOH]Ap[ENQ]                                      |[EOT]                                               |Exakt    |[EOT]
+27.03.14 09:21:30.929|[SOH]AZM                                          |[EOT]                                               |Exakt    |[EOT]
+27.03.14 09:21:31.431|[SOH]Ap[ENQ]                                      |[EOT]                                               |Exakt    |[EOT]</code></pre>
           </div>
         </td>
       </tr>

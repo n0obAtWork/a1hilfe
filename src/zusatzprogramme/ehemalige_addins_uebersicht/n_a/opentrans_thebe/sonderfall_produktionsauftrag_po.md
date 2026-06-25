@@ -149,20 +149,17 @@ Werden in den Komponenten Chargennummern angegeben, die den gleichen Artikel bet
 ```xml
 <PRODUCT_COMPONENTS>
   <PRODUCT_COMPONENT>
-<PRODUCT_ID><bmecat:SUPPLIER_PID
-type="supplier_specific">9101</bmecat:SUPPLIER_PID>
-<LOT_NUMBER>1021005-0</LOT_NUMBER>
-<bmecat:DESCRIPTION_SHORT>Produktionskomponente
-9101</bmecat:DESCRIPTION_SHORT>
-<bmecat:DESCRIPTION_LONG>Produktionskomponente
-9101</bmecat:DESCRIPTION_LONG>
+    <PRODUCT_ID><bmecat:SUPPLIER_PID type="supplier_specific">9101</bmecat:SUPPLIER_PID>
+      <LOT_NUMBER>1021005-0</LOT_NUMBER>
+      <bmecat:DESCRIPTION_SHORT>Produktionskomponente 9101</bmecat:DESCRIPTION_SHORT>
+      <bmecat:DESCRIPTION_LONG>Produktionskomponente 9101</bmecat:DESCRIPTION_LONG>
     </PRODUCT_ID>
     <PRODUCT_FEATURES>
-<FEATURE><bmecat:FNAME>CHARGEN_NUMMER</bmecat:FNAME><bmecat:FVALUE>0815</bmecat:FVALUE>
+      <FEATURE><bmecat:FNAME>CHARGEN_NUMMER</bmecat:FNAME><bmecat:FVALUE>0815</bmecat:FVALUE>
       </FEATURE>
     </PRODUCT_FEATURES>
-<QUANTITY>5.0000</QUANTITY>
-<bmecat:ORDER_UNIT>C62</bmecat:ORDER_UNIT>
+    <QUANTITY>5.0000</QUANTITY>
+    <bmecat:ORDER_UNIT>C62</bmecat:ORDER_UNIT>
   </PRODUCT_COMPONENT>
 (…)
 </PRODUCT_COMPONENTS>

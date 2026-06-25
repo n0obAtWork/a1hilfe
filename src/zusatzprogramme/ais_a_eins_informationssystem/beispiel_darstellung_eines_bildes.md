@@ -35,8 +35,7 @@ Um ein Bild des Artikels darzustellen, sind einige Einträge Notwendig. Der Name
 Zum lesen des Daten wird aus diesen Informationen folgendes Statement gebildet:
 
 ```sql
-Select
-Artikelimage from Artikel where Artikelid=???
+Select Artikelimage from Artikel where Artikelid=???
 ```
 
 Um jetzt noch die Fragezeichen mit einem Wert zu füllen, muss man in der Maskenzuordnung unter „**Ident Masken-Feldname/Wert**“ das Feld angeben, dass den Wert liefert.

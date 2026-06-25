@@ -43,34 +43,26 @@ Die Prozedur „P_WE“ kann hier Berechnungen anstellen, Ausgaben machen oder B
 Beispiel-Signatur:
 
 ```sql
----<summary>LVS
-Scannerei</summary>
+---<summary>LVS Scannerei</summary>
 ---<returns>default scanner</returns>
----<param name="in_Tcpip_Adresse">Adresse des
-Scanners</param>
----<param name="in_AktionsWert">gescannter
-Wert</param>
----<param name="in_scantype">Scantyp aus der
-Typ-Prozedur</param>
----<param
-name="in_status">Status</param>
+---<param name="in_Tcpip_Adresse">Adresse des Scanners</param>
+---<param name="in_AktionsWert">gescannter Wert</param>
+---<param name="in_scantype">Scantyp aus der Typ-Prozedur</param>
+---<param name="in_status">Status</param>
 create PROCEDURE P_BUK_INFO
 (
-  in in_Tcpip_Adresse
-char(40) default '',
-  in in_AktionsWert
-char(1024) default '',
-  in in_scantype
-char(20) default '',
+  in in_Tcpip_Adresse char(40) default '',
+  in in_AktionsWert char(1024) default '',
+  in in_scantype char(20) default '',
   in in_status integer default 0
 )
 --
 --
 --
   RESULT( okay integer,
-"statustext" long varchar,
-"StatusMelodie" char( 100),
-"Aktionstext" char(1024),
-"Kopftext1" char( 100),
-"Kopftext2" char( 100) )
+          "statustext" long varchar,
+          "StatusMelodie" char( 100),
+          "Aktionstext" char(1024),
+          "Kopftext1" char( 100),
+          "Kopftext2" char( 100) )
 ```

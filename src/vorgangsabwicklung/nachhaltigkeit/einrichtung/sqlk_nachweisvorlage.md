@@ -24,57 +24,35 @@ Das Label wird zur Darstellung in der Auswahlliste „Bewegungsübersicht“ ver
 Je nach Eingangsparametrisierung kann, die ist nachhaltig-Methode benutzt werden, um Nachhaltigkeitsinformation für verschiedene Zwecke zu erhalten.
 
 ```sql
-create procedure
-ist_nachhaltig
+create procedure ist_nachhaltig
 (
-  in
-in_wabewid        integer default 0
-  ,in   in_wabewgruppe
-integer default 90
-  ,in
-in_ArtikelId      integer default null
-  ,in
-in_KundId         integer default
-null
-  ,in
-in_KtrId          integer default
-null
-  ,in   in_KtrArtiPosit
-integer default null
-  ,in
-in_Klasse         integer default 0
-  ,in
-in_Date
-date    default today()
+  in    in_wabewid        integer default 0
+  ,in   in_wabewgruppe    integer default 90
+  ,in   in_ArtikelId      integer default null
+  ,in   in_KundId         integer default null
+  ,in   in_KtrId          integer default null
+  ,in   in_KtrArtiPosit   integer default null
+  ,in   in_Klasse         integer default 0
+  ,in   in_Date           date    default today()
 )
 RESULT (
-zustand
-integer
-,farbe
-integer
-,label
-char(255)
-,text1
-char(100)
-,text2
-char(100)
-,text3
-char(100)
-,text4
-char(100)
-,text5
-char(100)
-,zertifizierungsmethode char(100)
-,zertifikatsbemerkung   char(255)
-,Zertifikat_BLE         char(255)
-,ThgWert
-numeric(15,4)
-,ThgWertHerkunft        integer
+        zustand                 integer
+        ,farbe                  integer
+        ,label                  char(255)
+        ,text1                  char(100)
+        ,text2                  char(100)
+        ,text3                  char(100)
+        ,text4                  char(100)
+        ,text5                  char(100)
+        ,zertifizierungsmethode char(100)
+        ,zertifikatsbemerkung   char(255)
+        ,Zertifikat_BLE         char(255)
+        ,ThgWert                numeric(15,4)
+        ,ThgWertHerkunft        integer
       )
 --
 -- zustand über Format nachhstat
--- 0 = vererbt aus Stammsatz
-(Kunde<->Artikel)
+-- 0 = vererbt aus Stammsatz (Kunde<->Artikel)
 -- 1 = Ware ist nachhaltig (individuell gesetzt)
 -- 2 = nicht nachhaltig (individuell gesetzt)
 -- 3 = vererbt nicht nachhaltig
@@ -95,6 +73,5 @@ Nicht alle Kombinationen von Eingabeparametern sind sinnvoll. Anwendungsbereiche
 Verwendungsbeispiel als SQLK:
 
 ```sql
-select *
-from ist_nachhaltig(:ID_WABEWID)
+select * from ist_nachhaltig(:ID_WABEWID)
 ```

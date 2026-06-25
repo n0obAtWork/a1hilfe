@@ -2,12 +2,12 @@
 
 <!-- source: https://amic.de/hilfe/_SFS_SetupFilialsystem.htm -->
 
-| **Felder** | |
-| --- | --- |
-| Publikation | |
-| Artikel | |
-| Subskribent | |
-| Subskription gestartet | |
+| **Felder** |
+| --- |
+| Publikation |
+| Artikel |
+| Subskribent |
+| Subskription gestartet |
 
 | **Funktionen** | |
 | --- | --- |

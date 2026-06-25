@@ -29,7 +29,6 @@ Wenn es sich weder um SHOW BUFFER, SHOW CURSOR oder SHOW TABLE handelt, wird ver
 <p class="just-emphasize">Beispiel</p>
 
 ```text
-// Statusline ist die Zeile unterhalb der
-Eingabezeile
+// Statusline ist die Zeile unterhalb der Eingabezeile
 SHOW STATUSLINE Ende des Skripts;
 ```

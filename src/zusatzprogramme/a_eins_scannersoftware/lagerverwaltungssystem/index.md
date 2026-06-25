@@ -11,10 +11,7 @@ Nach dem die Scancodes eingerichtet worden sind müssen noch folgenden Einrichtu
 Da die Abarbeitung der Lagerverwaltungsbefehle direkt nach dem Erfassen muss, muss für jeden Scanner ein Worker gestartet werden. Der Worker ist ein A.eins welches aus dem Bin Verzeichnis des A.eins gestartet werden muss. Am besten wird sich zum Starten des Prozesses eine Batch Datei angelegt. Der Aufbau der Batch Datei sieht wie folgt aus:
 
 ```text
-start aeins
-welcome „sectionname“ -c eng=“Name des DB Servers“;dbn=“Name der
-Datenbank“;uid=SCANNER1;pwd=AMIC;links=tcpip pda=lvs_verarbeitungsmodul
-ScannerNummer=192.168.241.50
+start aeins welcome „sectionname“ -c eng=“Name des DB Servers“;dbn=“Name der Datenbank“;uid=SCANNER1;pwd=AMIC;links=tcpip pda=lvs_verarbeitungsmodul ScannerNummer=192.168.241.50
 ```
 
 Wichtig dabei ist, das die Parameter pda auf lvs_verarbeitungsmodul steht und der Parameter Scannernummer hat den Wert der IP-Adresse des Scanners der mit diesem Prozess kommunizieren soll. Bei n Scanner müssen auch n Prozesse gestartet werden.
