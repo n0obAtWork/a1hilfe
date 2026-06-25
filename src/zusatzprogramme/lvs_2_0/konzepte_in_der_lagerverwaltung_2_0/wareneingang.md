@@ -44,42 +44,30 @@ modus, int wabewId_SRC = 0, int wabewid_LD = 0, bool teilUmwandlung = false)
 Partien nachpflegen
     DataTable dt = D.GetSql(@"select distinct ivp.PartieId,isnull(vp.PartieArtiPosit,
 pa.PartieArtiPosit) as PartieArtiPosit, vp.V_PosiParMenge
-
 from WARENBEWEGUNG wb
-
 join V_POSIWARE vw on wb.wabewid = vw.wabewid
-
 join artikel a on a.artikelid = wb.artikelid
-
 left outer join V_POSIPARTIE vp on vw.v_id = vp.v_id and vw.v_posizaehler =
 vp.v_posiZaehler
-
 join ImportVorgPosition ivp on ivp.internereferenz = wb.wabew_guid and
 ivp.satzid = 2
-
 join partiestamm ps on ps.partieid = ivp.partieid
-
 join partieartikel pa on pa.artikelid = a.artistammid and pa.partieid =
 ivp.partieid
-
 where wb.wabewid = ?", wabewid_LD);
-
     if
 (dt.Rows != null && dt.Rows.Count >
 0)
     {
       vorg.StartPartie();
       float ergebnisMenge = 0;
-
 vorg.GetValPos(WARENPOSITION.ID_MENGE, out
 ergebnisMenge);
-
       foreach (DataRow zeile in dt.Rows)
       {
         float menge = (float)D.Get<decimal>(zeile["V_PosiParMenge"], (decimal)ergebnisMenge);
         int partieid = D.Get<Int32>(zeile["PartieId"], 0);
         int partieArtiPosit = D.Get<Int32>(zeile["PartieArtiPosit"], 0);
-
 vorg.AddPartieMenge(partieid: partieid, partieartiposit: partieArtiPosit, menge:
 menge);
       }

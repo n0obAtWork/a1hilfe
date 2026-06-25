@@ -68,14 +68,9 @@ char(20) default '',
 --
 --
   RESULT( okay integer,
-
 "statustext" long varchar,
-
 "StatusMelodie" char( 100),
-
 "Aktionstext" char(1024),
-
 "Kopftext1" char( 100),
-
 "Kopftext2" char( 100) )
 ```

@@ -155,11 +155,8 @@ Das Ergebnis im XML sieht dann so aus:
     <UDX.HTML
 xmlns="http://www.amic.de/openTRANS/UDX/2013">
       <UDX.TEST>
-
 <UDX.MASTEST h4="45"/>
-
 <UDX.G4/>
-
 <UDX.F3>huhu</UDX.F3>
       </UDX.TEST>
     </UDX.HTML>
@@ -196,9 +193,7 @@ Das Ergebnis im XML sieht dann so aus:
  (…)
   <PRODUCT_FEATURES>
     <FEATURE>
-
 <bmecat:FNAME>Farbe</bmecat:FNAME>
-
 <bmecat:FVALUE>Grau</bmecat:FVALUE>
     </FEATURE>
   </PRODUCT_FEATURES>
@@ -235,9 +230,7 @@ Das Ergebnis im XML sieht dann so aus:
  (…)
   <PRODUCT_FEATURES>
     <FEATURE>
-
 <bmecat:FNAME>Farbe</bmecat:FNAME>
-
 <bmecat:FVALUE>Grau</bmecat:FVALUE>
     </FEATURE>
   </PRODUCT_FEATURES>
@@ -275,11 +268,8 @@ Das Ergebnis im XML sieht dann so aus:
 ```xml
 <MIME_INFO>
    <MIME>
-
 <bmecat:MIME_TYPE>application/pdf</bmecat:MIME_TYPE>
-
 <bmecat:MIME_SOURCE>_6213841.pdf</bmecat:MIME_SOURCE>
-
 <bmecat:MIME_DESCR>Beleg</bmecat:MIME_DESCR>
    </MIME>
  </MIME_INFO>
@@ -299,7 +289,6 @@ Hier wird eine Prozedur angegeben, die Features-Felder für das openTRANS füllt
 create procedure
 p_OT_OrdHistProc (in in_v_id integer)
 result (
-
 order_id varchar(250),
   alt_customer_id  varchar(250),
   supplier_order_id varchar(250),
@@ -326,7 +315,6 @@ Das Ergebnis im XML sieht dann so aus:
 ```text
 <ORDER_HISTORY>
   <ORDER_ID>40136667</ORDER_ID>
-
 <SUPPLIER_ORDER_ID>74413</SUPPLIER_ORDER_ID>
   <ORDER_DESCRIPTION>n/a</ORDER_
 DESCRIPTION >

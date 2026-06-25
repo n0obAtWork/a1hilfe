@@ -76,7 +76,6 @@ Warenposition)
    RestMenge_VK numeric(15,4
 )          -- Benennung dieses
 Feldes ist historisch gewachsen. Es gibt sowohl bei Einkauf als auch
-
 -- bei Verkauf die zugeordnete Menge dieser Partiezeile an !!!
 )
 BEGIN
@@ -145,14 +144,12 @@ or in_NurDiesePartie_Id  = s.PartieId)
 and ( (s.PartieKunLiKennz = 0)     //:OR_IS_LGU_ARU
         or
 (in_KundId in ( select KundId from PartieKundListe l
-
 where (l.PartieId = s.PartieId) ) ) ) )
       or (
 (in_EKVK_kennzeichen != 2) and ( (s.PartieLieLiKennz = 0)    //
 :OR_IS_LGU_ARU
         or
 (in_KundId in ( select KundId from PartieLiefListe l
-
 where (l.PartieId = s.PartieId) ) ) ) ) )
     and ( (s.PartieWagrKennz = 0) )
     group by s.partieid, a.artikelid
@@ -160,7 +157,6 @@ where (l.PartieId = s.PartieId) ) ) ) ) )
    -- Zusammenstellen der Ergebnisse im
 eigentlichen Select
   select
-
 s.PartieId,s.PartieNummer,s.PartieBezeich,s.PartieAbdatum,s.PartieEKP_Kennz,s.PartieVKP_Kennz,
   s.WaehrNummer,s.ME_Nummer as
 Me_NummerPartie,a.PartieArtiPosit,pbp.LagerplatzNummer,
@@ -171,7 +167,6 @@ Me_NummerPartie,a.PartieArtiPosit,pbp.LagerplatzNummer,
   endif as sort_lagerplatz,   -- bewirkt
 in der Itembox Sortierung: zunächst Partien passend zum vorgegebenen
 LAgerplatz
-
 AMIC_FUNC_PARTIEBESTAND(ps.PartieId,in_ArtikelId,pbp.lagerplatznummer,0,1)
     as  RestMenge_VK
   from preselect ps
@@ -261,27 +256,16 @@ values
       (
         dc_PartieId
 ,
-
 dc_PartieNummer,
-
 dc_PartieBezeich ,
-
 dc_PartieAbdatum ,
-
 dc_PartieEKP_Kennz ,
-
 dc_PartieVKP_Kennz ,
-
 dc_WaehrNummer ,
-
 dc_Me_NummerPartie ,
-
 dc_PartieArtiPosit,
-
 dc_LagerplatzNummer ,
-
 dc_sort_lagerplatz ,
-
 dc_buchmenge
       );
       // den noch zu
@@ -315,17 +299,14 @@ Lagerplatznummer INTEGER,
   IN Menge DECIMAL(15,4))
   RETURNS DECIMAL(15,4)
 BEGIN
-
   DECLARE
 anzahl_partien INTEGER;
   DECLARE
 ergebnis DECIMAL(15,4);
-
   set
 anzahl_partien = (select count(*) from Temp_Partie_Uebergabe);
   if
  anzahl_partien > 0 THEN
-
    // für 'mit Partien' temporäre Tabelle
 Temp_Partie_Uebergabe nutzen
    // für jeden einzelnen Datensatz die Menge
@@ -343,7 +324,6 @@ Temp_Partie_Uebergabe);
     set
 ergebnis = round (menge * 1.5,2);
   END IF ;
-
   return
 ergebnis;
 END

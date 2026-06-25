@@ -6,11 +6,52 @@ Administration > Formulars / Abläufe > Formularzuordnung / Vorgangsunterklassen
 
 Sind alle Kennzeichen korrekt eingerichtet, so wird beim ersten Druck des für Versand gekennzeichneten Beleges, die in der Formularzuordnung [FRZ] definierte Versandprozedur aufgerufen. Diese übernimmt den Versand.
 
-| | **Sofortiger Versand** | **Späterer Versand** |
-| --- | --- | --- |
-| | Die E-Mail wird umgehend beim Druck an das Versandsystem übergeben und zum Versand freigegeben | Die E-Mail wird erst einmal vorgesehen, kann noch einmal gelöscht und erst später zum Versand freigegeben werden. |
-| **Ware** | AMIC_BELEGVERSAND_WARE_SOFORT | AMIC_BELEGVERSAND_WARE_SPAETER |
-| **Rohware** | AMIC_BELEGVERSAND_ROHWARE_SPAETER | AMIC_BELEGVERSAND_ROHWARE_SPAETER |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td></td>
+        <td>
+          <p><b>Sofortiger Versand</b></p>
+        </td>
+        <td>
+          <p><b>Späterer Versand</b></p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <p>Die E-Mail wird umgehend beim Druck an das Versandsystem übergeben und zum Versand freigegeben</p>
+        </td>
+        <td>
+          <p>Die E-Mail wird erst einmal vorgesehen, kann noch einmal gelöscht und erst später zum Versand freigegeben werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>Ware</b></p>
+        </td>
+        <td>
+          <p>AMIC_BELEGVERSAND_WARE_SOFORT<b></b></p>
+        </td>
+        <td>
+          <p>AMIC_BELEGVERSAND_WARE_SPAETER<b></b></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><b>Rohware</b></p>
+        </td>
+        <td>
+          <p>AMIC_BELEGVERSAND_ROHWARE_SPAETER<b></b></p>
+        </td>
+        <td>
+          <p>AMIC_BELEGVERSAND_ROHWARE_SPAETER<b></b></p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="just-emphasize">Definition Parameter</p>
 

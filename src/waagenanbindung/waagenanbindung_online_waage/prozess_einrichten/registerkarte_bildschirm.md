@@ -279,7 +279,6 @@ Es findet keine Verprobung zwischen den Felder der privaten Prozedur und den Sta
 ```sql
 CREATE PROCEDURE
 p_Waage_PflichtFelder ( in in_om_id integer )
-
 result ( FeldName char(255), verstecken integer )
 --
 BEGIN

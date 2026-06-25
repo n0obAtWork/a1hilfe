@@ -51,7 +51,6 @@ Caption="Dateiname" />
   <Field Name="Versand" Caption="Versand"
 Sql="(Select list(fv.Empfaenger||' '||fv.datum order by datum desc) from
 fa_versandhistorie fv
-
 where fv.fa_id=fa.fa_id and fv.fa_mndnr=fa.fa_mndnr)" />
   <Field Name="fa.fa_barcode" Caption="Barcode"
 />

@@ -97,8 +97,263 @@ XML-Sequence-Beschreibung
 
 Beispiel-Sitzung:
 
-| | |
-| --- | --- |
-| XML-Steuerdatei | <pre><code>&lt;?xml version="1.0" encoding="utf-8"&#10; ?&gt;&#10;&lt;!--&#10;&#10; PR&#10; 1613&#10;--&gt;&#10;&lt;Session&#10; ServerIP="192.168.241.93"&#10; &#10; ServerPort="950"&#10; &#10;&#10; &#10; Technik="tcpip"&#10; &#10;&#10; &#10; PortName="COM8"&#10; &#10; BaudRate="4800"&#10; &#10; DataBits="7"&#10; &#10; StopBits="1"&#10; &#10; Parity="2"&#10; &#10; &#10; Logging="log.txt"&#10;&gt; &#10; &#10; &lt;Sequences&gt;&#10; &lt;!-- Pollen bis EOT kommt&#10; --&gt;&#10; &lt;Sequence Send="[SOH]Ap[ENQ]"&#10; Expect="[EOT]" Retry="[ACK]" /&gt;&#10; &lt;Sequence Send="[EOT]"&#10; /&gt;&#10; &#10; &lt;!-- Gewichtsanforderung&#10; --&gt;&#10; &lt;Sequence&#10; Send="[SOH]A[STX]WGA[ETX]R[ENQ]" Expect="[ACK]" /&gt;&#10; &lt;Sequence Send="[EOT]"&#10; /&gt;&#10; &lt;Sequence Send="[SOH]Ap[ENQ]"&#10; Expect="[SOH]A[STX]([DATA][ETX])[BCC]" Wait="10000"&#10; Result="1"/&gt;&#10; &lt;Sequence Send="[ACK]"&#10; /&gt;&#10; &lt;Sequence Send="[SOH]Ap[ENQ]"&#10; Expect="[EOT]" Retry="[ACK]" /&gt;&#10; &#10; &lt;!-- ZSD&#10;--&gt;&#10; &lt;Sequence&#10; Send="[SOH]A[STX](ZSD{ddMMyyyyHHmm}%DATE%[ETX])%BCC%[ENQ]" Expect="[ACK]"&#10; /&gt;&#10; &lt;Sequence Send="[SOH]Ap[ENQ]"&#10; Expect="[SOH]A[STX](QZSD[ETX])[BCC]" /&gt;&#10; &lt;Sequence Send="[ACK]"&#10; /&gt;&#10; &lt;Sequence Send="[SOH]Ap[ENQ]"&#10; Expect="[EOT]" Retry="[ACK]" /&gt;&#10; &#10; &lt;!-- ZVWA&#10; --&gt;&#10; &lt;Sequence&#10; Send="[SOH]A[STX](ZVWA 0000011[ETX])%BCC%[ENQ]"&#10; Expect="[ACK]" /&gt;&#10; &lt;Sequence Send="[SOH]Ap[ENQ]"&#10; Expect="[SOH]A[STX](Q[ETX])[BCC]" /&gt;&#10; &lt;Sequence Send="[ACK]"&#10; /&gt;&#10; &lt;Sequence Send="[SOH]Ap[ENQ]"&#10; Expect="[EOT]" Retry="[ACK]" /&gt;&#10; &#10; &lt;!-- ZVSEQ&#10; --&gt;&#10; &lt;Sequence&#10; Send="[SOH]A[STX](ZVSEQ [ETX])%BCC%[ENQ]" Expect="[ACK]"&#10; /&gt;&#10; &lt;Sequence Send="[SOH]Ap[ENQ]"&#10; Expect="[SOH]A[STX](QVSEQ[DATA][ETX])[BCC]" Result="1"/&gt;&#10; &lt;Sequence Send="[ACK]"&#10; /&gt;&#10; &lt;Sequence Send="[SOH]Ap[ENQ]"&#10; Expect="[EOT]" Retry="[ACK]" /&gt;&#10; &#10; &lt;!-- BSPRINT&#10; --&gt;&#10; &lt;Sequence&#10; Send="[SOH]A[STX](BSPRINT [ETX])%BCC%[ENQ]" Expect="[ACK]"&#10; /&gt;&#10; &lt;Sequence Send="[SOH]Ap[ENQ]"&#10; Expect="[SOH]A[STX](Q[ETX])[BCC]" /&gt;&#10; &lt;Sequence Send="[ACK]"&#10; /&gt;&#10; &lt;Sequence Send="[SOH]Ap[ENQ]"&#10; Expect="[EOT]" Retry="[ACK]" /&gt;&#10; &#10; &lt;!-- ZVFA&#10; --&gt;&#10; &lt;Sequence&#10; Send="[SOH]A[STX](ZVFA [ETX])%BCC%[ENQ]" Expect="[ACK]"&#10; /&gt;&#10; &lt;Sequence Send="[SOH]Ap[ENQ]"&#10; Expect="[SOH]A[STX](QVFA[DATA][ETX])[BCC]" /&gt;&#10; &lt;Sequence Send="[ACK]"&#10; /&gt;&#10; &lt;Sequence Send="[SOH]Ap[ENQ]"&#10; Expect="[EOT]" Retry="[ACK]" /&gt;&#10; &#10; &lt;!-- AZM&#10;--&gt;&#10; &lt;Sequence Send="[SOH]AZM"&#10; Expect="[EOT]" /&gt;&#10; &lt;Sequence Send="[SOH]Ap[ENQ]"&#10; Expect="[EOT]" Retry="[ACK]" /&gt;&#10; &#10; &#10; &lt;/Sequences&gt;&#10;&lt;/Session&gt;</code></pre> |
-| Beispiel-LOG | <pre><code>Timestamp &#10; &#124;Sended &#10; &#124;Readed &#10; &#124;Status &#124;Expected&#10;27.03.14&#10; 09:21:15.859&#124;[SOH]Ap[ENQ] &#10; &#124;[EOT] &#10; &#124;Exakt &#124;[EOT]&#10;27.03.14&#10; 09:21:17.073&#124;[EOT] &#10; &#124; &#10; &#124;Exakt &#124;&#10;27.03.14&#10; 09:21:17.576&#124;[SOH]A[STX]WGA[ETX]R[ENQ] &#10; &#124;[ACK] &#10; &#124;Exakt &#124;[ACK]&#10;27.03.14&#10; 09:21:18.078&#124;[EOT] &#10; &#124; &#10; &#124;Exakt &#124;&#10;27.03.14&#10; 09:21:19.348&#124;[SOH]Ap[ENQ] &#10; &#124;[SOH]A[STX]QGA[SP]00772610[ETX]q &#10; &#124;Exakt &#124;[SOH]A[STX]([DATA][ETX])[BCC]&#10;27.03.14&#10; 09:21:19.852&#124;[ACK] &#10; &#124; &#10; &#124;Exakt &#124;&#10;27.03.14&#10; 09:21:20.354&#124;[SOH]Ap[ENQ] &#10; &#124;[EOT] &#10; &#124;Exakt &#124;[EOT]&#10;27.03.14&#10; 09:21:20.857&#124;[SOH]A[STX]ZSD270320140921[ETX]E[ENQ] &#10; &#124;[ACK] &#10; &#124;Exakt &#124;[ACK]&#10;27.03.14&#10; 09:21:21.364&#124;[SOH]Ap[ENQ] &#10; &#124;[SOH]A[STX]QZSD[ETX][US] &#10; &#124;Exakt &#124;[SOH]A[STX](QZSD[ETX])[BCC]&#10;27.03.14&#10; 09:21:21.866&#124;[ACK] &#10; &#124; &#10; &#124;Exakt &#124;&#10;27.03.14&#10; 09:21:22.369&#124;[SOH]Ap[ENQ] &#10; &#124;[EOT] &#10; &#124;Exakt &#124;[EOT]&#10;27.03.14&#10; 09:21:22.870&#124;[SOH]A[STX]ZVWA[SP][SP][SP][SP]0000011[ETX])[ENQ]&#10; &#124;[ACK] &#10; &#124;Exakt &#124;[ACK]&#10;27.03.14&#10; 09:21:23.377&#124;[SOH]Ap[ENQ] &#10; &#124;[SOH]A[STX]Q[ETX]R &#10; &#124;Exakt &#124;[SOH]A[STX](Q[ETX])[BCC]&#10;27.03.14&#10; 09:21:23.879&#124;[ACK] &#10; &#124; &#10; &#124;Exakt &#124;&#10;27.03.14&#10; 09:21:24.381&#124;[SOH]Ap[ENQ] &#10; &#124;[EOT] &#10; &#124;Exakt &#124;[EOT]&#10;27.03.14&#10; 09:21:24.884&#124;[SOH]A[STX]ZVSEQ[SP][SP][SP][ETX]h[ENQ] &#10; &#124;[ACK] &#10; &#124;Exakt &#124;[ACK]&#10;27.03.14&#10; 09:21:25.394&#124;[SOH]Ap[ENQ] &#10; &#124;[SOH]A[STX]QVSEQ[SP][SP][SP][SP]0000000057[ETX]A &#10; &#124;Exakt &#124;[SOH]A[STX](QVSEQ[DATA][ETX])[BCC]&#10;27.03.14&#10; 09:21:25.897&#124;[ACK] &#10; &#124; &#10; &#124;Exakt &#124;&#10;27.03.14&#10; 09:21:26.399&#124;[SOH]Ap[ENQ] &#10; &#124;[EOT] &#10; &#124;Exakt &#124;[EOT]&#10;27.03.14&#10; 09:21:26.901&#124;[SOH]A[STX]BSPRINT[SP][ETX]c[ENQ] &#10; &#124;[ACK] &#10; &#124;Exakt &#124;[ACK]&#10;27.03.14&#10; 09:21:27.407&#124;[SOH]Ap[ENQ] &#10; &#124;[SOH]A[STX]Q[ETX]R &#10; &#124;Exakt &#124;[SOH]A[STX](Q[ETX])[BCC]&#10;27.03.14&#10; 09:21:27.909&#124;[ACK] &#10; &#124; &#10; &#124;Exakt &#124;&#10;27.03.14&#10; 09:21:28.412&#124;[SOH]Ap[ENQ] &#10; &#124;[EOT] &#10; &#124;Exakt &#124;[EOT]&#10;27.03.14&#10; 09:21:28.914&#124;[SOH]A[STX]ZVFA[SP][SP][SP][SP][ETX][BS][ENQ] &#10; &#124;[ACK] &#10; &#124;Exakt &#124;[ACK]&#10;27.03.14&#10; 09:21:29.423&#124;[SOH]Ap[ENQ] &#10; &#124;[SOH]A[STX]QVFA[SP][SP][SP][SP]0[ETX]3 &#10; &#124;Exakt &#124;[SOH]A[STX](QVFA[DATA][ETX])[BCC]&#10;27.03.14&#10; 09:21:29.925&#124;[ACK] &#10; &#124; &#10; &#124;Exakt &#124;&#10;27.03.14&#10; 09:21:30.427&#124;[SOH]Ap[ENQ] &#10; &#124;[EOT] &#10; &#124;Exakt &#124;[EOT]&#10;27.03.14&#10; 09:21:30.929&#124;[SOH]AZM &#10; &#124;[EOT] &#10; &#124;Exakt &#124;[EOT]&#10;27.03.14&#10; 09:21:31.431&#124;[SOH]Ap[ENQ] &#10; &#124;[EOT] &#10; &#124;Exakt &#124;[EOT]</code></pre> |
-| Beispiel-Ergebnis | <code>&lt;SOH&gt;A&lt;STX&gt;QGA&lt;SP&gt;00772610&lt;ETX&gt;q&lt;SOH&gt;A&lt;STX&gt;QVSEQ&lt;SP&gt;&lt;SP&gt;&lt;SP&gt;&lt;SP&gt;0000000057&lt;ETX&gt;A</code> |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td></td>
+        <td>
+          <div></div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>XML-Steuerdatei</p>
+        </td>
+        <td>
+          <div>
+            <pre><code>&lt;?xml version="1.0" encoding="utf-8"
+      ?&gt;
+&lt;!--
+  PR
+      1613
+--&gt;
+&lt;Session
+      ServerIP="192.168.241.93"
+      ServerPort="950"
+      Technik="tcpip"
+      PortName="COM8"
+      BaudRate="4800"
+      DataBits="7"
+      StopBits="1"
+      Parity="2"
+      Logging="log.txt"
+&gt;
+      &lt;Sequences&gt;
+    &lt;!-- Pollen bis EOT kommt
+      --&gt;
+    &lt;Sequence Send="[SOH]Ap[ENQ]"
+      Expect="[EOT]" Retry="[ACK]" /&gt;
+    &lt;Sequence Send="[EOT]"
+      /&gt;
+    &lt;!-- Gewichtsanforderung
+      --&gt;
+    &lt;Sequence
+      Send="[SOH]A[STX]WGA[ETX]R[ENQ]" Expect="[ACK]" /&gt;
+    &lt;Sequence Send="[EOT]"
+      /&gt;
+    &lt;Sequence Send="[SOH]Ap[ENQ]"
+      Expect="[SOH]A[STX]([DATA][ETX])[BCC]" Wait="10000"
+      Result="1"/&gt;
+    &lt;Sequence Send="[ACK]"
+      /&gt;
+    &lt;Sequence Send="[SOH]Ap[ENQ]"
+      Expect="[EOT]" Retry="[ACK]" /&gt;
+    &lt;!-- ZSD
+--&gt;
+    &lt;Sequence
+      Send="[SOH]A[STX](ZSD{ddMMyyyyHHmm}%DATE%[ETX])%BCC%[ENQ]" Expect="[ACK]"
+      /&gt;
+    &lt;Sequence Send="[SOH]Ap[ENQ]"
+      Expect="[SOH]A[STX](QZSD[ETX])[BCC]" /&gt;
+    &lt;Sequence Send="[ACK]"
+      /&gt;
+    &lt;Sequence Send="[SOH]Ap[ENQ]"
+      Expect="[EOT]" Retry="[ACK]" /&gt;
+    &lt;!-- ZVWA
+      --&gt;
+    &lt;Sequence
+      Send="[SOH]A[STX](ZVWA    0000011[ETX])%BCC%[ENQ]"
+      Expect="[ACK]" /&gt;
+    &lt;Sequence Send="[SOH]Ap[ENQ]"
+      Expect="[SOH]A[STX](Q[ETX])[BCC]" /&gt;
+    &lt;Sequence Send="[ACK]"
+      /&gt;
+    &lt;Sequence Send="[SOH]Ap[ENQ]"
+      Expect="[EOT]" Retry="[ACK]" /&gt;
+    &lt;!-- ZVSEQ
+      --&gt;
+    &lt;Sequence
+      Send="[SOH]A[STX](ZVSEQ   [ETX])%BCC%[ENQ]" Expect="[ACK]"
+      /&gt;
+    &lt;Sequence Send="[SOH]Ap[ENQ]"
+      Expect="[SOH]A[STX](QVSEQ[DATA][ETX])[BCC]" Result="1"/&gt;
+    &lt;Sequence Send="[ACK]"
+      /&gt;
+    &lt;Sequence Send="[SOH]Ap[ENQ]"
+      Expect="[EOT]" Retry="[ACK]" /&gt;
+    &lt;!-- BSPRINT
+      --&gt;
+    &lt;Sequence
+      Send="[SOH]A[STX](BSPRINT [ETX])%BCC%[ENQ]" Expect="[ACK]"
+      /&gt;
+    &lt;Sequence Send="[SOH]Ap[ENQ]"
+      Expect="[SOH]A[STX](Q[ETX])[BCC]" /&gt;
+    &lt;Sequence Send="[ACK]"
+      /&gt;
+    &lt;Sequence Send="[SOH]Ap[ENQ]"
+      Expect="[EOT]" Retry="[ACK]" /&gt;
+    &lt;!-- ZVFA
+      --&gt;
+    &lt;Sequence
+      Send="[SOH]A[STX](ZVFA    [ETX])%BCC%[ENQ]" Expect="[ACK]"
+      /&gt;
+    &lt;Sequence Send="[SOH]Ap[ENQ]"
+      Expect="[SOH]A[STX](QVFA[DATA][ETX])[BCC]" /&gt;
+    &lt;Sequence Send="[ACK]"
+      /&gt;
+    &lt;Sequence Send="[SOH]Ap[ENQ]"
+      Expect="[EOT]" Retry="[ACK]" /&gt;
+    &lt;!-- AZM
+--&gt;
+    &lt;Sequence Send="[SOH]AZM"
+      Expect="[EOT]" /&gt;
+    &lt;Sequence Send="[SOH]Ap[ENQ]"
+      Expect="[EOT]" Retry="[ACK]" /&gt;
+      &lt;/Sequences&gt;
+&lt;/Session&gt;</code></pre>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Beispiel-LOG</p>
+        </td>
+        <td>
+          <div>
+            <pre><code>Timestamp
+      |Sended
+      |Readed
+      |Status   |Expected
+27.03.14
+      09:21:15.859|[SOH]Ap[ENQ]
+      |[EOT]
+      |Exakt    |[EOT]
+27.03.14
+      09:21:17.073|[EOT]
+      |
+      |Exakt    |
+27.03.14
+      09:21:17.576|[SOH]A[STX]WGA[ETX]R[ENQ]
+      |[ACK]
+      |Exakt    |[ACK]
+27.03.14
+      09:21:18.078|[EOT]
+      |
+      |Exakt    |
+27.03.14
+      09:21:19.348|[SOH]Ap[ENQ]
+      |[SOH]A[STX]QGA[SP]00772610[ETX]q
+      |Exakt    |[SOH]A[STX]([DATA][ETX])[BCC]
+27.03.14
+      09:21:19.852|[ACK]
+      |
+      |Exakt    |
+27.03.14
+      09:21:20.354|[SOH]Ap[ENQ]
+      |[EOT]
+      |Exakt    |[EOT]
+27.03.14
+      09:21:20.857|[SOH]A[STX]ZSD270320140921[ETX]E[ENQ]
+      |[ACK]
+      |Exakt    |[ACK]
+27.03.14
+      09:21:21.364|[SOH]Ap[ENQ]
+      |[SOH]A[STX]QZSD[ETX][US]
+      |Exakt    |[SOH]A[STX](QZSD[ETX])[BCC]
+27.03.14
+      09:21:21.866|[ACK]
+      |
+      |Exakt    |
+27.03.14
+      09:21:22.369|[SOH]Ap[ENQ]
+      |[EOT]
+      |Exakt    |[EOT]
+27.03.14
+      09:21:22.870|[SOH]A[STX]ZVWA[SP][SP][SP][SP]0000011[ETX])[ENQ]
+      |[ACK]
+      |Exakt    |[ACK]
+27.03.14
+      09:21:23.377|[SOH]Ap[ENQ]
+      |[SOH]A[STX]Q[ETX]R
+      |Exakt    |[SOH]A[STX](Q[ETX])[BCC]
+27.03.14
+      09:21:23.879|[ACK]
+      |
+      |Exakt    |
+27.03.14
+      09:21:24.381|[SOH]Ap[ENQ]
+      |[EOT]
+      |Exakt    |[EOT]
+27.03.14
+      09:21:24.884|[SOH]A[STX]ZVSEQ[SP][SP][SP][ETX]h[ENQ]
+      |[ACK]
+      |Exakt    |[ACK]
+27.03.14
+      09:21:25.394|[SOH]Ap[ENQ]
+      |[SOH]A[STX]QVSEQ[SP][SP][SP][SP]0000000057[ETX]A
+      |Exakt    |[SOH]A[STX](QVSEQ[DATA][ETX])[BCC]
+27.03.14
+      09:21:25.897|[ACK]
+      |
+      |Exakt    |
+27.03.14
+      09:21:26.399|[SOH]Ap[ENQ]
+      |[EOT]
+      |Exakt    |[EOT]
+27.03.14
+      09:21:26.901|[SOH]A[STX]BSPRINT[SP][ETX]c[ENQ]
+      |[ACK]
+      |Exakt    |[ACK]
+27.03.14
+      09:21:27.407|[SOH]Ap[ENQ]
+      |[SOH]A[STX]Q[ETX]R
+      |Exakt    |[SOH]A[STX](Q[ETX])[BCC]
+27.03.14
+      09:21:27.909|[ACK]
+      |
+      |Exakt    |
+27.03.14
+      09:21:28.412|[SOH]Ap[ENQ]
+      |[EOT]
+      |Exakt    |[EOT]
+27.03.14
+      09:21:28.914|[SOH]A[STX]ZVFA[SP][SP][SP][SP][ETX][BS][ENQ]
+      |[ACK]
+      |Exakt    |[ACK]
+27.03.14
+      09:21:29.423|[SOH]Ap[ENQ]
+      |[SOH]A[STX]QVFA[SP][SP][SP][SP]0[ETX]3
+      |Exakt    |[SOH]A[STX](QVFA[DATA][ETX])[BCC]
+27.03.14
+      09:21:29.925|[ACK]
+      |
+      |Exakt    |
+27.03.14
+      09:21:30.427|[SOH]Ap[ENQ]
+      |[EOT]
+      |Exakt    |[EOT]
+27.03.14
+      09:21:30.929|[SOH]AZM
+      |[EOT]
+      |Exakt    |[EOT]
+27.03.14
+      09:21:31.431|[SOH]Ap[ENQ]
+      |[EOT]
+      |Exakt    |[EOT]</code></pre>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Beispiel-Ergebnis</p>
+        </td>
+        <td>
+          <div>
+            <code>&lt;SOH&gt;A&lt;STX&gt;QGA&lt;SP&gt;00772610&lt;ETX&gt;q&lt;SOH&gt;A&lt;STX&gt;QVSEQ&lt;SP&gt;&lt;SP&gt;&lt;SP&gt;&lt;SP&gt;0000000057&lt;ETX&gt;A</code>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

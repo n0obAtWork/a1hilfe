@@ -119,39 +119,22 @@ p_pruefe_bank_staat --- TM 18.06.2012
 --
 --
 CREATE PROCEDURE p_pruefe_bank_staat (
-
 in in_kundid integer
-
 ,in in_BankIBAN char(30)
-
 ,in in_BankNummer integer default 0
-
 ,in in_modus integer
-
 ,in in_ADMVendor smallint
-
 ,in in_OceanFVendor smallint
-
 ,in in_BankCtryisGoodsCtry smallint
-
 ,in in_Beneficialownership smallint
-
 ,in in_StaatNummer integer
-
 ,in in_zusatz_parameter1 smallint default 0
-
 ,in in_zusatz_parameter2 smallint default 0
-
 ,in in_zusatz_parameter3 smallint default 0
-
 )
-
 Result(
-
 Fehler integer
-
 ,Fehlertext char(255)
-
 )
 --
 BEGIN
@@ -204,21 +187,16 @@ then
         select
 bs.BankStaat, sts.StaatISOBezeichnung, bs.Banknummer || ' ' || bs.BankBezeich,
 bs.BankSwift into
-
 dc_BankStaatNummer, dc_BankStaatISOBezeich, dc_Bank, dc_BankSwift from
 Bankenstamm bs
          join
 StaatStamm sts on (sts.StaatNummer = bs.BankStaat)
-
 where BankNummer = in_BankNummer;
         if
 dc_BankStaatNummer != dc_StaatNummer then
-
 set dc_Fehler = 1;
-
 set dc_Fehlertext = amic_func_sprachtexte('a','b','Die ISO Bezeichnung des
 Staates %s passt nicht zum Landkennzeichen der Bank %s',-1,
-
 dc_StaatISOBezeich, dc_Bank);
         end if;
       end if;
@@ -230,21 +208,14 @@ dc_LandCodeIBAN = substring(in_BankIBAN,1,2);
 dc_LandCodeSwift = substring(dc_BankSwift,5,2);
         if
 dc_LandCodeIBAN != dc_LandCodeSwift then
-
 select first 1 into dc_vorhanden from aeinszusatz2
-
 where IBANCountryCode = dc_LandCodeIBAN and SwiftCountryCode  =
 dc_LandCodeSwift;
-
 if isnull(dc_vorhanden,0) = 0 then
-
 set dc_Fehler = 1;
-
 set dc_FehlerText2 = amic_func_sprachtexte('a','b','Der IBAN Country Code %s
 unterscheidet sich vom Swift Country Code %s.',-1,
-
 dc_LandCodeIBAN, dc_LandCodeSwift);
-
 end if;
         end if;
       end if;
@@ -254,47 +225,28 @@ Kundenstamm
       Begin
         declare
 StaatCr cursor for
-
 select sts.StaatISOBezeichnung, sts.StaatNummer, bs.BankNummer || ' ' ||
 bs.BankBezeich  from StaatStamm sts
-
 join BankenStamm bs on ( bs.BankStaat = sts.StaatNummer )
-
 join KundenBank kb  on ( kb.BankNummer = bs.BankNummer)
-
 join KundenStamm ku on ( ku.kundid = kb.kundid)
-
 where ku.KundId = in_kundid;
         open
 StaatCr;
-
 Crsr:: loop
-
 fetch next StaatCr into dc_BankStaatISOBezeich, dc_BankStaatNummer, dc_Bank;
-
 if sqlstate <> ECX_ERR_NOTFOUND then
-
 if (dc_StaatNummer != dc_BankStaatNummer) then
-
 set dc_Fehler = 1;
-
 set dc_FehlerText = '-';
-
 call AMIC_FEHLERPROT( 20, amic_func_sprachtexte('a', 'b', 'Prozedur', -1)
-
 ,amic_func_sprachtexte('a','b','Beim Kunden %s ist das Landkennzeichen des
 Staates %s unterschiedlich zum Landkenzzeichen der Bank %s',-1
-
 ,dc_KundNummer ,dc_StaatISOBezeich, dc_Bank ));
-
 end if;
-
 else
-
 leave Crsr;
-
 end if;
-
 end loop Crsr;
         close
 StaatCr;
@@ -302,56 +254,33 @@ StaatCr;
       Begin
         declare
 BankCrs cursor for
-
 select kb.BankIBAN, BankSwift, bs.BankNummer || ' ' || bs.BankBezeich from
 BankenStamm bs
-
 join KundenBank kb on ( kb.BankNummer = bs.BankNummer)
-
 where KundId = in_KundId;
         open
 BankCrs;
-
 Crsr1:: loop
-
 fetch next BankCrs into dc_IBAN, dc_SWIFT, dc_Bank;
-
 if sqlstate <> ECX_ERR_NOTFOUND then
-
 set dc_vorhanden = null;
-
 set dc_LandCodeIBAN = substring(dc_IBAN,1,2);
-
 set dc_LandCodeSwift = substring(dc_SWIFT,5,2);
-
 if dc_LandCodeIBAN != dc_LandCodeSwift then
-
 select first 1 into dc_vorhanden from aeinszusatz2
-
 where IBANCountryCode = dc_LandCodeIBAN and SwiftCountryCode  =
 dc_LandCodeSwift;
-
 if isnull(dc_vorhanden,0) = 0 then
-
 set dc_Fehler = 1;
-
 set dc_FehlerText2 = '-';
-
 call AMIC_FEHLERPROT( 20, amic_func_sprachtexte('a', 'b', 'Prozedur', -1)
-
 ,amic_func_sprachtexte('a','b','Der IBAN Country Code %s unterscheidet sich vom
 Swift Country Code %s.',-1, dc_LandCodeIBAN, dc_LandCodeSwift));
-
 end if;
-
 end if;
-
 else
-
 leave Crsr1;
-
 end if;
-
 end loop Crsr1;
         close
 BankCrs;
@@ -365,7 +294,6 @@ and isnull(dc_FehlerText2,'') = '' then
 amic_func_sprachtexte('a','b', 'Daten können nicht gespeichert werden, da das
 Landkennzeichen des Staates nicht mit dem Landkenzzeichen der Bank
 übereinstimmt.'||
-
 'Für eine genau Fehleranlayse schauen Sie bitte in das Fehlerprotokoll',-1);
     end if;
     if isnull(dc_FehlerText,'') = ''
@@ -373,7 +301,6 @@ and  isnull(dc_FehlerText2,'') != '' then
       set dc_Fehlertemp =
 amic_func_sprachtexte('a','b', 'Daten können nicht gespeichert werden, da der
 Country Code der IBAN nicht mit dem Country Code des Swift übereinstimmt.'||
-
 'Für eine genau Fehleranlayse schauen Sie bitte in das Fehlerprotokoll',-1);
     end if;
     if isnull(dc_FehlerText,'') != ''
@@ -381,7 +308,6 @@ and  isnull(dc_FehlerText2,'') != '' then
       set dc_Fehlertemp =
 amic_func_sprachtexte('a','b', 'Daten können nicht gespeichert werden, da der
 Country Code der IBAN nicht mit dem Country Code des Swift übereinstimmt,'||
-
 'und das Landkennzeichen des Staates nicht mit dem Landkenzzeichen der Bank
 übereinstimmt.',-1);
     end if;

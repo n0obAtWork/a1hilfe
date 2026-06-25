@@ -13,7 +13,6 @@ integer;
 begin
   CheckBox_ObjId
 := sm_prop_id(NameBox );
-
 BoxStatus      := sm_prop_get_x_int(CheckBox_ObjId,
 zeile, 125);
 end;
@@ -30,7 +29,6 @@ integer;
 begin
   CheckBox_ObjId
 := sm_prop_id(NameBox );
-
 sm_prop_set_x_int(CheckBox_ObjId, zeile, 125, Status);
 end;
 ```

@@ -99,7 +99,6 @@ from vorgangstamm where v_id=:!jvars_5001_ZW1 and isnull(fa_belegreferenz,'') !=
       select
 ktr.fa_belegreferenz from v_posikontrakt vpktr join kontraktstamm ktr on
 ktr.ktrid = vpktr.ktrid
-
 where vpktr.v_id=:!jvars_5001_ZW1 and isnull(ktr.fa_belegreferenz,'') != ''
       union
       select

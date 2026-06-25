@@ -46,7 +46,6 @@ char(255))
 Into dc_ArtikelNummer
 from gtt_amic_ident
 where typ = 'STRECKENERFASSUNG_VORBELEGUNGSPARAMETER'
-
 and text1 =
 'Artikelnummer'
 ```
@@ -76,7 +75,6 @@ p_VorbelegungStreckenerfassung
   in_KlammerNr   integer
   ,in_Grid
 integer
-
 ,in_Occ        integer
   ,in_Profil     char(255)
   ,in_Spalte     char(255)
@@ -86,10 +84,8 @@ char(255)
 )
 result
 (
-
 Spalte
 char(255)
-
 ,Wert
 char(255)
   ,Ueberschreiben   integer

@@ -23,38 +23,23 @@ Hier finden Sie die Beispiel Prozedur für die Partie Sperre. Die Prozedur beste
 ```sql
 CREATE PROCEDURE
 p_partie_sperre (  in in_vklasse   integer,
-
        in in_vuklasse
 integer,
-
 in in_menge   numeric (15,6),
-
 in in_me   integer,
-
 in in_ArtikelId    integer,
-
        in in_KundId   integer,
-
 in in_LagerNummer   integer,
-
 in in_varengruppe    integer,
-
            in
 in_EKVK   integer,
-
 in in_PeriodisDato   date,
-
         in in_ArtiStammId
 integer,
-
 in in_partie   integer,
-
 in in_KontraktId   integer,
-
 in in_lagerplatz   integer,
-
 in in_Belegnummer   integer,
-
  out dc_out integer)
 BEGIN
    declare dc_partiesperrkenz integer;

@@ -18,52 +18,35 @@ type="Produktion" />
 mixed="false">
       <xs:extension
 base="ClassExtender">
-
 <xs:sequence>
-
 <xs:element minOccurs="0" maxOccurs="1" name="Produkte" type="ArrayOfProdukt"
 />
-
 <xs:element minOccurs="0" maxOccurs="1" name="Komponenten"
 type="ArrayOfKomponente" />
-
 <xs:element minOccurs="1" maxOccurs="1" name="ProduktionsNummer"
 type="xs:int" />
-
 <xs:element minOccurs="1" maxOccurs="1" name="Jahrnummer" type="xs:int"
 />
-
 <xs:element minOccurs="1" maxOccurs="1" name="VorgangsKlasse" type="xs:int"
 />
-
 <xs:element minOccurs="1" maxOccurs="1" name="VorgangsUnterKlasse"
 type="xs:int" />
-
 <xs:element minOccurs="1" maxOccurs="1" name="VorgangsGuid"
 xmlns:q1="http://microsoft.com/wsdl/types/" type="q1:guid" />
-
 <xs:element minOccurs="1" maxOccurs="1" name="PositionsGuid"
 xmlns:q2="http://microsoft.com/wsdl/types/" type="q2:guid" />
-
 <xs:element minOccurs="1" maxOccurs="1" name="Status" type="xs:int" />
-
 <xs:element minOccurs="0" maxOccurs="1" name="Command" type="xs:string"
 />
-
 <xs:element minOccurs="0" maxOccurs="1" name="Linie" type="xs:string"
 />
-
 <xs:element minOccurs="0" maxOccurs="1" name="Produktionstyp"
 type="xs:string" />
-
 <xs:element minOccurs="0" maxOccurs="1" name="Kundenauftragsnummer"
 type="xs:string" />
-
 <xs:element minOccurs="0" maxOccurs="1" name="Ladetraeger"
 type="ArrayOfLadetraeger" />
-
 </xs:sequence>
-
 </xs:extension>
     </xs:complexContent>
   </xs:complexType>
@@ -74,39 +57,26 @@ type="ArrayOfLadetraeger" />
 mixed="false">
       <xs:extension
 base="ClassExtender">
-
 <xs:sequence>
-
 <xs:element minOccurs="0" maxOccurs="1" name="NVE" type="xs:string" />
-
 <xs:element minOccurs="1" maxOccurs="1" name="LadetraegerNummer"
 type="xs:int" />
-
 <xs:element minOccurs="1" maxOccurs="1" name="SollMenge" type="xs:decimal"
 />
-
 <xs:element minOccurs="1" maxOccurs="1" name="IstMenge" type="xs:decimal"
 />
-
 <xs:element minOccurs="1" maxOccurs="1" name="Tara" type="xs:decimal"
 />
-
 <xs:element minOccurs="0" maxOccurs="1" name="MengenEinheit" type="xs:string"
 />
-
 <xs:element minOccurs="0" maxOccurs="1" name="LadetraegerTyp"
 type="xs:string" />
-
 <xs:element minOccurs="1" maxOccurs="1" name="ReturnTyp" type="ReturnType"
 />
-
 <xs:element minOccurs="0" maxOccurs="1" name="Artikel"
 type="ArrayOfArtikelInfo" />
-
 <xs:element minOccurs="1" maxOccurs="1" name="Hoehe" type="xs:int" />
-
 </xs:sequence>
-
 </xs:extension>
     </xs:complexContent>
   </xs:complexType>
@@ -138,38 +108,26 @@ type="ArtikelInfo" />
 mixed="false">
       <xs:extension
 base="ClassExtender">
-
 <xs:sequence>
-
 <xs:element minOccurs="1" maxOccurs="1" name="Guid" nillable="true"
 type="xs:string" />
-
 <xs:element minOccurs="0" maxOccurs="1" name="ArtikelNummer" type="xs:string"
 />
-
 <xs:element minOccurs="1" maxOccurs="1" name="LagerNummer" nillable="true"
 type="xs:int" />
-
 <xs:element minOccurs="0" maxOccurs="1" name="ArtikelBezeichnung"
 type="xs:string" />
-
 <xs:element minOccurs="1" maxOccurs="1" name="Menge" type="xs:decimal"
 />
-
 <xs:element minOccurs="0" maxOccurs="1" name="GebindeAnzahl" nillable="true"
 type="xs:decimal" />
-
 <xs:element minOccurs="0" maxOccurs="1" name="MengenEinheit" type="xs:string"
 />
-
 <xs:element minOccurs="0" maxOccurs="1" name="Partien" type="ArrayOfPartie"
 />
-
 <xs:element minOccurs="0" maxOccurs="1" name="OriginalArtikelNummer"
 type="xs:string" />
-
 </xs:sequence>
-
 </xs:extension>
     </xs:complexContent>
   </xs:complexType>
@@ -185,23 +143,16 @@ minOccurs="0" maxOccurs="unbounded" name="Partie" nillable="true" type="Partie"
 mixed="false">
       <xs:extension
 base="ClassExtender">
-
 <xs:sequence>
-
 <xs:element minOccurs="0" maxOccurs="1" name="Partiebezeichnung"
 type="xs:string" />
-
 <xs:element minOccurs="1" maxOccurs="1" name="Partienummer" type="xs:int"
 />
-
 <xs:element minOccurs="1" maxOccurs="1" name="PartieMenge" type="xs:decimal"
 />
-
 <xs:element minOccurs="0" maxOccurs="1" name="MengenEinheit" type="xs:string"
 />
-
 </xs:sequence>
-
 </xs:extension>
     </xs:complexContent>
   </xs:complexType>
@@ -210,16 +161,11 @@ type="xs:string" />
 mixed="false">
       <xs:extension
 base="ArtikelInfo">
-
 <xs:sequence>
-
 <xs:element minOccurs="0" maxOccurs="1" name="Typ" type="xs:string" />
-
 <xs:element minOccurs="0" maxOccurs="1" name="Spareparts"
 type="ArrayOfArtikelInfo" />
-
 </xs:sequence>
-
 </xs:extension>
     </xs:complexContent>
   </xs:complexType>
@@ -228,19 +174,13 @@ type="ArrayOfArtikelInfo" />
 mixed="false">
       <xs:extension
 base="ArtikelInfo">
-
 <xs:sequence>
-
 <xs:element minOccurs="0" maxOccurs="1" name="Typ" type="xs:string" />
-
 <xs:element minOccurs="1" maxOccurs="1" name="RezepturGruppe" type="xs:int"
 />
-
 <xs:element minOccurs="1" maxOccurs="1" name="RezepturVariante" type="xs:int"
 />
-
 </xs:sequence>
-
 </xs:extension>
     </xs:complexContent>
   </xs:complexType>

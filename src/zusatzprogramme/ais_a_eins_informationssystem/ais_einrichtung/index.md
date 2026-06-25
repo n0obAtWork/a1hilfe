@@ -66,16 +66,13 @@ Der Aufbau der Funktion sieht dann wie folgt aus:
 function OnSaveValid
 (Maskenname:string; Editmodus:string ):integer;
 begin
-
   …
-
   GetLDB("MaskenFeld", buffer);
   if (
 StrCmp(buffer, "Erwarteter Wert") !=0 ) then begin
     MessageBox("Falsche Eingabe",
 "Prüfung vor Speichern", 1)
     OnSaveValid:=1;
-
 end
   OnSaveValid:=0;
 end;

@@ -62,15 +62,10 @@ Verarbeitung:
 ```sql
 CREATE PROCEDURE
 "ADMIN"."p_BelegflussGenehmigung_1" ( in in_GenehmigungsStufe integer,
-
 in in_fa_id integer,
-
 in in_fa_mndNr integer,
-
 in in_angefordert integer,
-
 in in_neueHaken char(255),
-
 in in_entfernteHaken char(255))
 result (status char(255))
 begin
@@ -184,7 +179,6 @@ begin
 bezeich
     from FormatList
     where FormLstKennung='af_genehmi'
-
       and formlstwert in
 (0,1,2,3,4)
 EXCEPTION
@@ -199,15 +193,10 @@ Verarbeitung
 ```sql
 CREATE PROCEDURE
 "ADMIN"."p_BelegflussGenehmigung_2" ( in in_GenehmigungsStufe integer,
-
 in in_fa_id integer,
-
 in in_fa_mndNr integer,
-
 in in_angefordert integer,
-
 in in_neueHaken char(255),
-
 in in_entfernteHaken char(255))
 result (status char(255))
 begin
@@ -322,7 +311,6 @@ begin
 bezeich
     from FormatList
     where FormLstKennung='af_genehmi'
-
 --      and formlstwert in
 (0,1,2,3,4)
 EXCEPTION
@@ -337,19 +325,13 @@ Verarbeitung
 ```sql
 CREATE PROCEDURE
 "ADMIN"."p_BelegflussGenehmigung_3" ( in in_GenehmigungsStufe integer,
-
 in in_fa_id integer,
-
 in in_fa_mndNr integer,
-
 in in_angefordert integer,
-
 in in_neueHaken char(255),
-
 in in_entfernteHaken char(255))
 result (status char(255))
 begin
-
 -- Setze GenehmigungsStufe
   if in_GenehmigungsStufe is not null then
     update formulararchivBelegfluss set
@@ -357,7 +339,6 @@ genehmigt=in_GenehmigungsStufe, GenehmigtWann=now(), GenehmigtUser='::USER'
 where fa_id = in_fa_id and fa_mndNr=in_fa_mndNr and angefordert =
 in_angefordert;
   end if;
-
 -- Nachbehandlung
   case in_GenehmigungsStufe
     --wiedervorlage
@@ -442,7 +423,6 @@ begin
 bezeich
     from FormatList
     where FormLstKennung='af_genehmi'
-
       and formlstwert in
 (0,1,2,3)
 EXCEPTION
@@ -457,15 +437,10 @@ Verarbeitung
 ```sql
 CREATE PROCEDURE
 "ADMIN"."p_BelegflussGenehmigung_4" ( in in_GenehmigungsStufe integer,
-
 in in_fa_id integer,
-
 in in_fa_mndNr integer,
-
 in in_angefordert integer,
-
 in in_neueHaken char(255),
-
 in in_entfernteHaken char(255))
 result (status char(255))
 begin
@@ -488,7 +463,6 @@ Falls Nein muss ein Wert != '' zurückgegeben werden.
 genehmigt=in_GenehmigungsStufe, GenehmigtWann=now(), GenehmigtUser=user where
 fa_id = in_fa_id and fa_mndNr=in_fa_mndNr and angefordert = in_angefordert;
   end if;
-
 -- Nachbehandlung
   case in_GenehmigungsStufe
     --wiedervorlage

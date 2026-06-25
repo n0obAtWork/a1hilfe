@@ -27,33 +27,23 @@ Der Kern des Scriptes sieht so aus:
 '
 --------------------------------------------------------------------
 dim aufrufparameter
-
 dim
 linename
-
 dim
 linename2
-
 dim
 linenumber
-
 dim automodus
-
 linename = "ProCall"
 linename2 = "TapiServer"
 linenumber = Aeins.JVARS_Get( 9001 , "JVAR_TAPI_CALL"
 )
 automodus = 1
-
 aufrufparameter = "linename=" & linename
 &  " " & _
-
 "linename2=" & linename2 & " " & _
-
 "number=" & linenumber & " " & _
-
 "automodus=" & automodus
-
 '
 --------------------------------------------------------------------
 ' Veranlassen der Wahl
@@ -64,7 +54,6 @@ dim aeinsverz
 aeinsverz = Aeins.param( "exepath" )
 tapi_client = aeinsverz & "\amic_tapi.exe" & "
 " & aufrufparameter
-
 ExecuteDOS tapi_client , 0 ,
 1
 ```

@@ -27,18 +27,15 @@ null)
     reader.Close();
   }
 }
-
 //Nur weiter, wenn eine
 Produktionsänderung erkannt wurde
 if (prod == null)
 {
   return;
 }
-
 int bedienerMand =
 D.GetExecuteScalar<int>(-1, "select bedienerid from bedienerstamm where BedienerKurz
 = 'MAND'");
-
 ProduktionsAenderung pa = new ProduktionsAenderung();
 pa.VerarbeiteRueckMeldung(prod,
 bedienerMand);
@@ -51,7 +48,6 @@ ProduktionsExport pe = new
 ProduktionsExport();
 Produktion prod = pe.ExportData(v_id,
 ProdStatus.Rezept);
-
 XmlSerializer ser;
 XmlTextWriter xmlTextWriter = null;
 string XML = "";
@@ -64,7 +60,6 @@ try
   ser = new
 XmlSerializerFactory().CreateSerializer(typeof(Produktion));
   ser.Serialize(xmlTextWriter, prod);
-
   //Memorystream füllen
   ms = (MemoryStream)xmlTextWriter.BaseStream;
   //XML als String ermitteln
@@ -78,13 +73,11 @@ finally
     ms.Close();
   }
 }
-
 ///Es muss ein XML geschrieben worden sein
 if (string.IsNullOrEmpty(XML))
 {
   return;
 }
-
 //String wegschreiben.
 StreamWriter sw = null;
 try

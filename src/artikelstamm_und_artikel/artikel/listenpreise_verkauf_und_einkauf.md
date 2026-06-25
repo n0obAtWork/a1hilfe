@@ -33,7 +33,6 @@ RESULT ("ergval" integer)
 BEGIN
  declare erlaubt integer;
  set erlaubt = 1;
-
  if ( PAR_EKVK = 2 )
  then
  if ( PAR_BEDIENERKLASSE = 15 or

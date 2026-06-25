@@ -86,7 +86,6 @@ Es steht eine Funktion AMIC_FIBUF_DTAUS zur Verfügung, die einen neuen Dateinam
 ```sql
 create FUNCTION AMIC_FIBUF_DTAUS( in ZahlLaufId
 integer,
-
 in OldFile char(255) )
 returns char(255)
 begin

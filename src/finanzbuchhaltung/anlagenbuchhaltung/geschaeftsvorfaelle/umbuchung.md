@@ -34,21 +34,123 @@ Verwendet man die Variante „Fibubeleg ohne Anlageneintrag“ zur Erstellung de
 Anschaffung 01.01.2005 für 10.000,00. Am 15.04.2006 wird das Anlagegut einer anderen Kostenstelle zugewiesen, die Lebensdauer soll unverändert bleiben.  
     
 
-| Wertstellung | 01.01.2005 | |
-| --- | --- | --- |
-| Lebensdauer | 5 Jahre | |
-| AHK | 01.01.2005 | 10.000,00 |
-| AfA | 31.12.2005 | 2.000,00 |
-| AfA | 15.04.2006 | 500,00 |
-| Umb | 15.04.2006 | 7.500,00 |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p>Wertstellung</p>
+        </td>
+        <td>
+          <p>01.01.2005</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Lebensdauer</p>
+        </td>
+        <td>
+          <p>5 Jahre</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>AHK</p>
+        </td>
+        <td>
+          <p>01.01.2005</p>
+        </td>
+        <td>
+          <p>10.000,00</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>AfA</p>
+        </td>
+        <td>
+          <p>31.12.2005</p>
+        </td>
+        <td>
+          <p>2.000,00</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>AfA</p>
+        </td>
+        <td>
+          <p>15.04.2006</p>
+        </td>
+        <td>
+          <p>500,00</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Umb</p>
+        </td>
+        <td>
+          <p>15.04.2006</p>
+        </td>
+        <td>
+          <p>7.500,00</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Neues Anlagengut:
 
-| Wertstellung | 01.01.2005 | |
-| --- | --- | --- |
-| Lebensdauer | 5 Jahre | |
-| AHK-Umbuchung | 15.04.2006 | 10.000,00 |
-| AfA-Umbuchung | 15.04.2006 | 2.500,00 |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p>Wertstellung</p>
+        </td>
+        <td>
+          <p>01.01.2005</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Lebensdauer</p>
+        </td>
+        <td>
+          <p>5 Jahre</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>AHK-Umbuchung</p>
+        </td>
+        <td>
+          <p>15.04.2006</p>
+        </td>
+        <td>
+          <p>10.000,00</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>AfA-Umbuchung</p>
+        </td>
+        <td>
+          <p>15.04.2006</p>
+        </td>
+        <td>
+          <p>2.500,00</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Die nächste AfA errechnet sich dann wie folgt: Aus Wertstellung und Datum der Umbuchung ergibt sich die Zeit, die das Anlagegut bereits abgeschrieben wurde, nämlich 15 Monate. Der Restbuchwert von 7.500,00 Euro muss demnach noch 45 Monate Abgeschrieben werden, davon 9 im Jahr 2006. Es ergibt sich also der abzuschreibende Betrag als
 
@@ -62,19 +164,101 @@ Eine im Bau befindliche Anlage wird am 12.05.2005 fertiggestellt. Die Lebensdaue
 
 Anlage im Bau
 
-| Wertstellung | 01.07.2004 | |
-| --- | --- | --- |
-| Lebensdauer | 0 Jahre | |
-| AHK | 01.01.2005 | 10.000,00 |
-| Zug | 01.02.2005 | 2.000,00 |
-| Umb | 12.05.2005 | 12.000,00 |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p>Wertstellung</p>
+        </td>
+        <td>
+          <p>01.07.2004</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Lebensdauer</p>
+        </td>
+        <td>
+          <p>0 Jahre</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>AHK</p>
+        </td>
+        <td>
+          <p>01.01.2005</p>
+        </td>
+        <td>
+          <p>10.000,00</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Zug</p>
+        </td>
+        <td>
+          <p>01.02.2005</p>
+        </td>
+        <td>
+          <p>2.000,00</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Umb</p>
+        </td>
+        <td>
+          <p>12.05.2005</p>
+        </td>
+        <td>
+          <p>12.000,00</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Neues Anlagengut:
 
-| Wertstellung | 12.05.2005 | |
-| --- | --- | --- |
-| Lebensdauer | 20 Jahre | |
-| AHK-Umbuchung | 12.05.2005 | 12.000,00 |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p>Wertstellung</p>
+        </td>
+        <td>
+          <p>12.05.2005</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Lebensdauer</p>
+        </td>
+        <td>
+          <p>20 Jahre</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>AHK-Umbuchung</p>
+        </td>
+        <td>
+          <p>12.05.2005</p>
+        </td>
+        <td>
+          <p>12.000,00</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Dadurch, dass die Anlage im Bau eine Lebensdauer von 0 Jahren hat, wird sie nicht mit im AfA –Vorschlag berücksichtigt. Man kann dies auch dadurch erreichen, indem man die AfA-Methode der Anlage im Bau auf „manuelle AfA“ setzt und nach der Umbuchung auf Linear.
 

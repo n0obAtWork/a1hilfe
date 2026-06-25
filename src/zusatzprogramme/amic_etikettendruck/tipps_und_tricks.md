@@ -41,12 +41,9 @@ select
 from KontoBlattStamm ks
 join CRYSTALDATEN cd on cd.crw_datstring1 = cast (ks.JahrNummer as
 char)
-
 and cd.crw_datstring2 =
 ks.KontoBlDruckId
-
 and cd.crw_datanwendung = 'LILA_KONTOBLATT'
-
 and cd.loginid = db_loginid
 ```
 
@@ -59,17 +56,12 @@ Etiketten selber haben keine Möglichkeit Tabellen, so wie es sie bei dem Format
 ```sql
 select XMLELEMENT( Name
 html,
-
 XMLELEMENT( Name body,
-
 XMLELEMENT( Name "table",
 xmlagg(cast('<tr><td
 width=200>'||Bezeichnung||'</td><td>'||trim(amic_fstr(Wert,15,2))||'</td></tr>'  as xml) )
-
 )
-
 )
-
 )
 from Daten
 ```
@@ -78,35 +70,21 @@ Ergebnis:
 
 ```xml
 <html>
-
 <head>
     <table>
-
 <tr>
-
 <td width=200>Eiweiß</td>
-
 <td>0,10</td>
-
 </tr>
-
 <tr>
-
 <td width=200>Fett</td>
-
 <td>0,10</td>
-
 </tr>
-
 <tr>
-
 <td width=200>Kohlenhydrate</td>
-
 <td>5,30</td>
-
 </tr>
     </table>
-
 </head>
 </html>
 ```

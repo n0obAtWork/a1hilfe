@@ -34,7 +34,6 @@ Wird ein spezielles View angegeben, so wird die Definition in eine Datei ausgege
 
 ```text
 SHOW VIEW PS.AMIC_CRW_VERKAUSAUSWERTUNG_VR
-
 SHOW
 VIEWS ON Fibuvorgposition
 ```

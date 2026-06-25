@@ -6,7 +6,6 @@
 
 ```text
 SHOW TRIGGER | ON RELATION |
-
 | TRIGGERNAME |
 ```
 
@@ -38,10 +37,8 @@ Verwendet man das Schlüsselwort ON mit einem Relationsname, werden nur die Trig
 
 ```text
 SHOW TRIGGER ON FiBuVorgPosition
-
 // ERGEBNIS
 Name
-
 Relation
 Event
 FiBuVorgPosition_aftdel

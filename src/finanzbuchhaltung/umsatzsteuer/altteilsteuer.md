@@ -12,13 +12,70 @@ Die Umsätze beim Austauschverfahren in der Kraftfahrzeugwirtschaft sind in der 
 
 Bei einem PKW wird die Lichtmaschine ausgetauscht. Diese hat einen Nettowert von 350,00 Euro. In der Rechnung über die Lieferung des Austauschteils braucht der Wert des Altteils nicht in den Rechnungsbetrag einbezogen werden. Es genügt, dass der Unternehmer den auf den Wert des Altteils entfallenden Steuerbetrag angibt.
 
-| Austauschlichtmaschine | 350,00 | € |
-| --- | --- | --- |
-| \+ Ust (19%) | 66,50 | € |
-| \+ Ust (19%) auf den Wert des Altteils von 100,00 € | | |
-| (10% von 350,-- €) | 6,65 | € |
-| | \--------- | \-- |
-| | 423,15 | € |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p>Austauschlichtmaschine</p>
+        </td>
+        <td>
+          <p>350,00</p>
+        </td>
+        <td>
+          <p>€</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>+ Ust (19%)</p>
+        </td>
+        <td>
+          <p>66,50</p>
+        </td>
+        <td>
+          <p>€</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>+ Ust (19%) auf den Wert des Altteils von 100,00 €</p>
+        </td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>(10% von 350,-- €)</p>
+        </td>
+        <td>
+          <p>6,65</p>
+        </td>
+        <td>
+          <p>€</p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <p>---------</p>
+        </td>
+        <td>
+          <p>--</p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <p>423,15</p>
+        </td>
+        <td>
+          <p>€</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Altteile in A.eins
 

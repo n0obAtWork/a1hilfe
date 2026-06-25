@@ -26,9 +26,7 @@ Der SQL-Text der dazugehörigen F3-Auswahk kann dann folgendermaßen aussehen:
 ```sql
 TITLE Versandarten
 INFO alle Versandarten
-
 IB_LABEL Nummer ab
-
 MASK ITEM60
 FIELD   Nummer,VersArtId,I4,8
 FIELD Bezeichnung,VersArtBezeich,char,40

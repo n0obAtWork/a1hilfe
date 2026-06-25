@@ -121,7 +121,6 @@ create procedure
 p_Erloeskennziffernichtueberschreiben (
 in in_tabelle char(255) default
 '',
-
 in in_parentid integer default 0 )
 begin
   declare
@@ -135,13 +134,11 @@ mit übernehmen, wenn nicht vorhanden.
 dc_ekz_nummer = 0;
   select first
 wert into dc_ekz_nummer from tabellenstruktur where
-
 feldname='ekz_nummer' and TabellenName = 'Artikel';
   if (
 dc_ekz_nummer = 0 ) then
     select
 first wert into dc_ekz_nummer from tabellenstruktur where
-
       feldname='ekz_nummer' and
 TabellenName = 'ArtikelStamm';
   end if;
@@ -178,11 +175,8 @@ delete from tabellenstruktur where parentid = in_parentid;
 ```sql
 create view  p_mmsxml_view_
 warengruppe as
-
 select warengruppe.*,ars.artistammid as view_artistammid
-
 from warengruppe warengruppe
-
      join artikelstamm ars
 on warengruppe.wagrunummer =
 ars.wagrunummer
@@ -197,7 +191,6 @@ ars.wagrunummer
 ```sql
 select warengruppe.* from
 p_mmsxml_view_warengruppe warengruppe where
-
    view_artistammid  =
 dc_artikelstammid for xml auto,
 elements

@@ -31,7 +31,6 @@ ansch.adressnummer = ks.kundid
   where
 replace(replace(replace(trim(AdressTelefon)  , '
 ',''),'/',''),'-','') = in_Telefonnummer or
-
 replace(replace(replace(trim(AdressTeleMobil), ' ',''),'/',''),'-','') =
 in_Telefonnummer;
 END

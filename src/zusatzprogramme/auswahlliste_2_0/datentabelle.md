@@ -53,9 +53,7 @@ Im SQL-Text gibt man die Funktion mithilfe des Schlüsselwortes **WARNINGFUNCTIO
 ```text
 WARNINGFUNCTION
 p_prueffunktion()
-
 Oder
-
 WARNINGFUNCTION if db_bedienerid=-1 then 3
 else 0 endif
 ```

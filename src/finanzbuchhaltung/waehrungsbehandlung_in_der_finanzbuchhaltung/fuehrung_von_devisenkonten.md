@@ -44,9 +44,30 @@ Um diese Kursdifferenzen automatisch zu buchen findet man unter der Rubrik „Ab
 Alle dort markierten Positionen können mit der Funktion „Übernahme Primanota“ als Kursdifferenzbuchung in die Primanota übernommen werden. Es werden nur Buchungen erstellt, für Konten, bei denen die Differenz ungleich Null ist. Die Kursgewinn- und Kursverlustkonten werden aus dem Währungsstamm gezogen. Die so entstanden Buchung lautet dann:  
     
 
-| 2150 | 4.897,43 | |
-| --- | --- | --- |
-| an 1011 | | 4.897,43 |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p>2150</p>
+        </td>
+        <td>
+          <p>4.897,43</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>an 1011</p>
+        </td>
+        <td></td>
+        <td>
+          <p>4.897,43</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Schaut man sich anschließend die Auswahlliste wieder an, so ist jetzt die Differenz 0,00.
 
@@ -57,8 +78,29 @@ Bei der Währungsabgrenzung gibt es zwei Besonderheiten:
 1. Bei der Übernahme in die Primanota wird eine Belegmappe abgefragt. Hier kann man einen Text angeben, über den man dann alle Belege einfach wiederfinden kann. In der zweiten Variante dieser Auswahlliste wird diese Bezeichnung verwendet, um alle Belege eines Arbeitsganges wieder zu finden. Wenn man wie in dem Beispiel oben, am Ende einer Periode die Abgrenzung vorgenommen hat, so muss zum Anfang der nächsten Periode diese Abgrenzung wieder aufgelöst werden. Bei der Auflösung wird dann ein weiterer Beleg erstellt. Belegdatum und Periode werden mit dem Folgetag bzw. Folgeperiode vorbelegt. Es entsteht folgende Kursdifferenzbuchung :  
     
 
-| 1011 | 4.897,43 | |
-| --- | --- | --- |
-| an 2150 | | 4.897,43 |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p>1011</p>
+        </td>
+        <td>
+          <p>4.897,43</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>an 2150</p>
+        </td>
+        <td></td>
+        <td>
+          <p>4.897,43</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 2. Forderungskonten dürfen grundsätzlich nicht direkt bebucht werden. Um nun auch für Forderungskonten eine periodengerechte Abgrenzung vorzunehmen, kann man diesen Konten Ersatzkonten zuordnen. Den Pfleger erreicht man aus dieser Auswahlliste heraus über die Funktion „Kontozuordnung Währungsabgrenzung“. Es wird bei den Buchungen dann das Ersatzkonto anstelle des Forderungskontos verwendet. Diese Konten müssen dann immer bei der Währungsabgrenzung zusammen betrachtet werden.

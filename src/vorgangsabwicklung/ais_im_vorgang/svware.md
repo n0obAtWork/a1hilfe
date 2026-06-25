@@ -51,7 +51,6 @@ CONST
   ID_PARTIENUMMER = 1473;
 PROCEDURE TesteSVWARE();
   var
-
 lAus          :string;
     lsVorHandle   :string;
     lsWaposHandle :string;
@@ -59,19 +58,14 @@ lAus          :string;
 :string;
     lFeldName
 :string;
-
 lBuf          :string;
     lVorgHandle
 :integer;
     lWaposHandle  :integer;
-
 lStrId        :integer;
-
 lFeldId       :integer;
 BEGIN
-
 lAus          := alloc(BUFLEN);
-
 lBuf          := alloc(BUFLEN);
     lsVorHandle   :=
 alloc(BUFLEN);
@@ -94,7 +88,6 @@ BUFLEN);
     StrRTrim(lFeldName);
     lWaposHandle :=
 strtoint(lsWaposHandle);
-
 lFeldId      := strtoint(lParameter);
     lStrId  :=
 StrCmp(lFeldName,  "PartieGrid" );

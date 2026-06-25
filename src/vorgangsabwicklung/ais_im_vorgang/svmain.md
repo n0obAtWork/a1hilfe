@@ -89,7 +89,6 @@ BUFLEN);
     lUFLDID  :=
 strtoint(lBuf1);
     GetValue(lVHandle, lUFLDID, lAus,0);
-
     if (lUFLDID = 1772 ) then
     Begin
       dbx_io
@@ -97,10 +96,8 @@ strtoint(lBuf1);
     End;
     if (lUFLDID = 1034 ) then
     Begin
-
 bagset("GLOBALREFRESH","0");
     End;
-
     free(lAus);
     free(lBuf);
     free(lBuf1);

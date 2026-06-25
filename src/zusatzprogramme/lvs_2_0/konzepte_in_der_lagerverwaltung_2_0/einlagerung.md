@@ -14,12 +14,10 @@ After_Import(ImportVorgStamm ivs)
 {
   ImportVorgPosition ivp =
 ivs._ImportVorgPosition[0];
-
   int lokTyp =
 D.GetExecuteScalar(0, "select lokalitaetstyp from
 lvs_lokalitaeten lk where lokalitaetsnr = ? ",
 ivp._ImportVorgPositionLVS[0].LokalitaetsNr);
-
   if (lokTyp ==
 44) // Produktion Fertigware
   {

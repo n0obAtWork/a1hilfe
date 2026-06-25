@@ -17,7 +17,6 @@ Um dennoch die Lagerumbuchung mit Teildisposition im LVS zu vollziehen, wendet m
 ```sql
 //INCLUDEMAKRO
 AMIC_LVS_Lagerumbuchung
-
 public void Vorgang_Nach_Speichern(IVorgang vorg, int modus)
 {
   int v_id =
@@ -32,14 +31,10 @@ out techBeleg);
   {
     return;
   }
-
   int cnt =
 D.GetExecuteScalar(0, @"select count(*)
-
 from amic_v_vorgaenge vs
-
 join lagerstamm lgs on lgs.KundIdGegenBeleg = kundidzuord
-
 where vs.v_id = ?", v_id);
   if (cnt >
 0)

@@ -8,11 +8,41 @@ oder Direktsprung <strong>[ARV]</strong> oder <strong>[REGEL]</strong>
 
 Der Einrichtungsbildschirm einer Regel gliedert sich in folgende Bereiche:
 
-| | |
-| --- | --- |
-| Arbeitsregel | Hier wird die Nummer der Arbeitsregel angegeben.<br>Nummer 0 darf nicht vergeben oder verändert werden.<br>Diese Nummer der Arbeitsregel wird beim Anlegen eines Vorgangs im Vorgangstamm gespeichert und ist unter [FRZ] für die entsprechende Vorgangsklasse einzurichten. |
-| Name | Hier kann der Name für die Arbeitsregel festgelegt werden. |
-| Kurzbezeichnung | Kurzname für die Arbeitsregel |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Arbeitsregel</p>
+        </td>
+        <td>
+          <p>Hier wird die Nummer der Arbeitsregel angegeben.<br>Nummer 0 darf nicht vergeben oder verändert werden.</p>
+          <p>Diese Nummer der Arbeitsregel wird beim Anlegen eines Vorgangs im Vorgangstamm gespeichert und ist unter [FRZ] für die entsprechende Vorgangsklasse einzurichten.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Name</p>
+        </td>
+        <td>
+          <p>Hier kann der Name für die Arbeitsregel festgelegt werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kurzbezeichnung</p>
+        </td>
+        <td>
+          <p>Kurzname für die Arbeitsregel</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 | Sperren | |
 | --- | --- |

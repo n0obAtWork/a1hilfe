@@ -30,11 +30,9 @@ in_unternummer  integer default
 BEGIN
   DECLARE
 fetch_fa_belegreferenz char(20);
-
   select
 right('00'||mandnummer,2)
          ||
-
          (
 select left(formlstbezeich,2) from formatlist where
 formlstkennung='af_vorgang' and
@@ -47,10 +45,8 @@ in_jahrnummer,4)
          into fetch_fa_belegreferenz
   from
 mandantstamm;
-
   return
 fetch_fa_belegreferenz;
-
  END
 ```
 

@@ -56,66 +56,41 @@ Wird ein Bewertungspreis > 0 zurückgegeben so wird dieser Bewertungspreis genom
 ```sql
 CREATE PROCEDURE p_liefer_lagerumbuch
 (
-
 in in_owaage_id  integer
-
 )
-
 Result (
-
 Klasse
 integer
-
 ,Unterklasse     integer
-
 ,Ursprungslager  integer
-
 ,BuchungsTyp     integer
-
 ,Planlieferdatum date
-
 ,BewertungsPreis numeric(15,4)
-
 )
 //
 BEGIN
 // Kommentar
 // -------------------------
 //
-
 if in_owaage_id >
 0then
     select 5110  as
 Klasse
-
 ,0
 as Unterklasse
-
 ,666     as Ursprungslager
-
 ,1       as BuchungsTyp
-
 ,today() as Planlieferdatum
-
 ,3.5     as BewertungsPreis
-
 from dummy;
-
 else
     select 0   as Klasse
-
 ,0       as Unterklasse
-
 ,0       as Ursprungslager
-
 ,1       as BuchungsTyp
-
 ,today() as Planlieferdatum
-
 ,3.5     as BewertungsPreis
-
  from dummy;
-
 end if;
 end
 ```
@@ -151,11 +126,8 @@ REATE PROCEDURE
 p_owaage_private ( in in_owaage_id integer )
 Result
 (
-
 fehler integer
-
 ,fehlertext char(255)
-
 )
 BEGIN
   declare
@@ -189,41 +161,26 @@ fehlertext from dummy;
 EXCEPTION
   when others then
     Select  ERRORMSG()
-
 ,SQLCODE
-
 ,SQLSTATE
     into
 dc_ErrorMsg
-
 ,dc_SQLCODE
-
 ,dc_SQLSTATE;
 --
     call AMIC_FEHLERPROT( 20
-
 ,amic_func_sprachtexte ('a', 'b', 'Prozedur', -1)
-
 ,amic_func_sprachtexte ('a','b','Beim Ausführen der Prozedur %s ist ein Fehler
 aufgetreten.', -1, 'p_owaage_private')
-
 || '\n'
-
 || amic_func_sprachtexte('a','b','Parameter (%s):: %s', -1, 'in_owaage_id',
 in_owaage_id )
-
 || '\n\n'
-
 || 'SQLCODE:: ' || dc_SQLCODE
-
 || ' [' || dc_SQLSTATE || ']'
-
 || '\n'
-
 || dc_ErrorMsg
-
 ,null
-
 );
     select 2 as fehler, dc_ErrorMsg ||'
 ' || dc_SQLCODE || ' ' || dc_SQLSTATE as fehlertext from dummy;
@@ -257,19 +214,12 @@ Die Parameter müssen genauso heißen wie die Parameter in der nachfolgenden Tab
 ```sql
 CREATE procedure
 p_silo_prozedure (  in in_ArtikelId integer
-
 ,in in_OwaageID integer
-
 ,in in_Ladetraegernr integer
-
 ,in in_PartieID integer
-
 )
-
 result (   retval integer
-
 ,retvaltext char(255)
-
 )
 --
 BEGIN

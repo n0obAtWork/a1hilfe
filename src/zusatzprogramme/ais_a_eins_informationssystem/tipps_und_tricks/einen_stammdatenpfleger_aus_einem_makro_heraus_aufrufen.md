@@ -14,26 +14,21 @@ Aufruf Bebericht für einen neuen Besuchsbericht:
 SetLDB("TRANSFERS[1]",cKundId);
 // Die KUNDID muss im Einfügemodus über
 TRANSFERS[1] übergeben warden. Spezialität bei Besuchsberichten.
-
                if(
 JPPNEW ( "PFF" , "JPfleger" ) = 1 ) then
                {
-
                  JPPIN
 ( "PFF", "PST_STAMM", "Besuchsberichte" ) // Zu
 finden in der Anwendung „Pflegerstamm“ Direktsprung
 [PST]
-
                  JPPEX
 ( "PFF", "Einfuegen"
 )
 // „Einfuegen“ legt einen neuen Datensatz
 an
-
                  JPPDELETE
 ( "PFF"
 )
-
                }
 ```
 
@@ -43,32 +38,25 @@ Aufruf Bebericht für einen bestehenden Besuchsbericht:
 if(
 JPPNEW ( "PFF" , "JPfleger" ) = 1 ) then
                {
-
                  JPPIN
 ( "PFF", "PST_STAMM", "Besuchsberichte" ) // Zu
 finden in der Anwendung „Pflegerstamm“ Direktsprung [PST]
-
 JPPIN ( "PFF", "KundId",     cKundId
 )          // Siehe Idents im Pflegerstamm
-
 JPPIN ( "PFF", "BeBerichtId", cBEbeId
 )         // Siehe Idents im Pflegerstamm
-
                  JPPEX
 ( "PFF", "Aendern"
 )
 // „Aendern“ Ruft einen bestehenden Besuchsberich
 ab. Für
-
 // bestehende Besuchsberichte müssen alle Idents,
 also KundID und
 Beberichtid
-
 // angeben werden
                  JPPDELETE
 ( "PFF"
 )
-
                }
 ```
 

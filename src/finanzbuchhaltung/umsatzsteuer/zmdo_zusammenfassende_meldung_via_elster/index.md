@@ -12,10 +12,42 @@ Seit Mai 2012 bietet Elster die Möglichkeit die ZMDO (Zusammenfassende Meldung 
 
 Diese Anforderungen werden von dem Programm-Modul der bayerischen Steuerverwaltung gestellt und können von AMIC nicht beeinflusst werden.
 
-| • Betriebssystem | Windows 8 oder Windows 10 |
-| --- | --- |
-| • Internetzugang | Via Modem, ISDN, DSL etc. |
-| • Software | PDF-Reader mind. Adobe Acrobat Reader 5.x oder vergleichbar für verschlüsselte PDFs |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <ul>
+            <li>Betriebssystem</li>
+          </ul>
+        </td>
+        <td>
+          <p>Windows 8 oder Windows 10</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            <li>Internetzugang</li>
+          </ul>
+        </td>
+        <td>
+          <p>Via Modem, ISDN, DSL etc.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            <li>Software</li>
+          </ul>
+        </td>
+        <td>
+          <p>PDF-Reader mind. Adobe Acrobat Reader 5.x oder vergleichbar für verschlüsselte PDFs</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="siehe-auch">Siehe auch:</p>
 

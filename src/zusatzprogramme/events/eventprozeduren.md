@@ -19,7 +19,6 @@ Eventprocedurename INTO NOGO from AMIC_EVT_STOP
       where Eventprocedurename= 'AMIC_EVT_Backup_Database' ;
     if
 (SQLSTATE = err_notfound) THEN
-
 --eigentliche Bearbeitung
     END IF;
 ```

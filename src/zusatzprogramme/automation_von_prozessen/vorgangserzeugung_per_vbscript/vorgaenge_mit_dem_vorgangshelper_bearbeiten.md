@@ -9,7 +9,6 @@ aeins.jpp_new(hdl,
 "CVorgangsHelper")
     aeins.jpp_in hdl , "KundNummer",
 ZielKundenNummer
-
     aeins.jpp_in hdl , "Klasse",
 ZielKlassennummer
     aeins.jpp_in hdl , "Unterklasse",

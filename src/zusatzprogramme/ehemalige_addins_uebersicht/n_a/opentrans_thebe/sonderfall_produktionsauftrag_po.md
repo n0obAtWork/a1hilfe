@@ -63,14 +63,65 @@ Positionsinformationen eines Produktionsauftrages werden in der PO-Item-List ein
 
 Komponenten und Produktionsprodukte werden in dieser Itemliste gleichrangig behandelt und nur durch ein Kennzeichen unterschieden.
 
-| |
-| --- |
-| Artikelnummer | PRODUCT_ID/SUPPLIER_PID bzw. BUYER_PID |
-| Artikeltext | PRODUCT_ID/DESCRIPTION_LONG |
-| Kennzeichen Komp./Prod. | PRODUCT_ID/ITEM_UDX/UDX.ITEM_TYPE<br>Werte „PRODUCT“ oder „COMPONENT“ möglich. |
-| Menge | PRODUCT_ID/QUANTITY |
-| Mengeneinheit (KGM/UN/C62) | PRODUCT_ID/ORDER_UNIT |
-| Qualitätsdaten oder weitere Individuelle Positionsinformationen\*\*\* | PRODUCT_FEATURES/FEATURE/FNAME<br>PRODUCT_FEATURES/FEATURE/FVALUE |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2"></td>
+      </tr>
+      <tr>
+        <td>
+          <p>Artikelnummer</p>
+        </td>
+        <td>
+          <p>PRODUCT_ID/SUPPLIER_PID bzw. BUYER_PID</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Artikeltext</p>
+        </td>
+        <td>
+          <p>PRODUCT_ID/DESCRIPTION_LONG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Kennzeichen Komp./Prod.</p>
+        </td>
+        <td>
+          <p>PRODUCT_ID/ITEM_UDX/UDX.ITEM_TYPE</p>
+          <p>Werte „PRODUCT“ oder „COMPONENT“ möglich.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Menge</p>
+        </td>
+        <td>
+          <p>PRODUCT_ID/QUANTITY</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Mengeneinheit (KGM/UN/C62)</p>
+        </td>
+        <td>
+          <p>PRODUCT_ID/ORDER_UNIT</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Qualitätsdaten oder weitere Individuelle Positionsinformationen***</p>
+        </td>
+        <td>
+          <p>PRODUCT_FEATURES/FEATURE/FNAME</p>
+          <p>PRODUCT_FEATURES/FEATURE/FVALUE</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 \*\*\* Eine Feature-Definition
 
@@ -98,26 +149,19 @@ Werden in den Komponenten Chargennummern angegeben, die den gleichen Artikel bet
 ```xml
 <PRODUCT_COMPONENTS>
   <PRODUCT_COMPONENT>
-
 <PRODUCT_ID><bmecat:SUPPLIER_PID
 type="supplier_specific">9101</bmecat:SUPPLIER_PID>
-
 <LOT_NUMBER>1021005-0</LOT_NUMBER>
-
 <bmecat:DESCRIPTION_SHORT>Produktionskomponente
 9101</bmecat:DESCRIPTION_SHORT>
-
 <bmecat:DESCRIPTION_LONG>Produktionskomponente
 9101</bmecat:DESCRIPTION_LONG>
     </PRODUCT_ID>
     <PRODUCT_FEATURES>
-
 <FEATURE><bmecat:FNAME>CHARGEN_NUMMER</bmecat:FNAME><bmecat:FVALUE>0815</bmecat:FVALUE>
       </FEATURE>
     </PRODUCT_FEATURES>
-
 <QUANTITY>5.0000</QUANTITY>
-
 <bmecat:ORDER_UNIT>C62</bmecat:ORDER_UNIT>
   </PRODUCT_COMPONENT>
 (…)

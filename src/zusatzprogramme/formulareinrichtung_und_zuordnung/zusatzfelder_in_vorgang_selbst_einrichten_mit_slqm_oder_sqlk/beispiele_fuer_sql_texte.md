@@ -13,7 +13,6 @@ from    kontosummen
 where   kontonummer =
         (select
 kontonummer from kundenstamm where kundid =:KUNDID)
-
 // lädt die Bemerkungszeile 1
 //
 SELECT BemerkPosition.BemerkText
@@ -25,7 +24,6 @@ BemerkPosition.BemerkId)
 BemerkStamm.BemerkId
 WHERE BemerkZeile=1
 AND   Kundid=:KUNDID
-
 // Privater SQL Text
 SQLK_Text_Gu_Re     ---
 SELECT (V_WertNetto + V_WertSteuer) AS
@@ -36,7 +34,6 @@ Bruttobetrag,
 'GUTSCHRIFT' ENDIF) AS Belegtext
 FROM   Vorgangstamm
 WHERE V_Id=:V_Id
-
 // Privater SQL Text
 sqlk_Saldo_erfasst     ---
 select sum(kontosumerfsoll) - sum(kontosumerfhaben) as
@@ -45,7 +42,6 @@ from    kontosummen
 where   kontonummer =
         (select
 kontonummer from kundenstamm where kundid = :KUNDID)
-
 // effektiver Artikel Bestand
 //
 SELECT

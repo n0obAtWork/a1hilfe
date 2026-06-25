@@ -87,26 +87,21 @@ using datalogic.pdc;
 ```csharp
 public class Datalogic : IScannerHardware
   {
-
 #region IScannerHardware Member
-
     public void
 Dispose()
     {
       throw new
 NotImplementedException();
     }
-
     public void
 DoBeep(int hertz, int laenge)
     {
       throw new
 NotImplementedException();
     }
-
     public event
 EventHandler OnRead;
-
     public bool
 ScannerEnabled
     {
@@ -121,14 +116,12 @@ NotImplementedException();
 NotImplementedException();
       }
     }
-
     public bool
 isVerbunden()
     {
       throw new
 NotImplementedException();
     }
-
 #endregion
   }
 ```
@@ -181,7 +174,6 @@ Scanners
     /// </summary>
     private Imager
 _Imager = new Imager();
-
     /// <summary>
     /// Konstruktor der
 Klasse. In diesem Konstruktor wird das event Scanner registriet.
@@ -210,45 +202,28 @@ Software aufgefangen
         // Erstellen eines Objektes für das Argument des
 Events
         HardwareEventArgs vArgs = new HardwareEventArgs();
-
         //  Vorbelegung des Sccancode der Übergeben
 wrid.
         string scancode = "-1";
-
         //Die Barcodes EAN13, EAN8, UPCA, DATAMTRIX haben Intern
 eine bestimmten Code dieser muss
         //hier weiter gegeben werden.
         switch (sender.BarcodeTypeAsIdentifier)
         {
-
 case BARCODE_Identifier.BARCODE_ID_EAN_13:
-
 scancode = "-4";
-
 break;
-
 case BARCODE_Identifier.BARCODE_ID_EAN_8:
-
 scancode = "-5";
-
 break;
-
 case BARCODE_Identifier.BARCODE_ID_UPC_A:
-
 scancode = "-6";
-
 break;
-
 case BARCODE_Identifier.BARCODE_ID_DATAMATRIX:
-
 scancode = "-8";
-
 break;
-
 default:
-
 scancode = "-1";
-
 break;
         }
         //Zuordnen des Scancodes zu den Event Argumenten
@@ -256,14 +231,11 @@ break;
 = scancode;
         //Zuordnen des gescannten Barcode als Text zu den Event
 Argumenten
-
 vArgs.BarcodeasText = sender.BarcodeDataAsText;
         //Werfen des Events
-
 vHandler.Invoke(this, vArgs);
       }
     }
-
 #region IScannerHardware Member
     /// <summary>
     /// Die Methode gibt
@@ -304,7 +276,6 @@ ScannerEnabled
 _Imager.ScannerEnabled;}
       set{ _Imager.ScannerEnabled = value;}
     }
-
 #endregion
     /// <summary>
     ///  Event
@@ -325,18 +296,13 @@ Event wieder gelöscht.
       {
         if (OnReadEvent != null)
         {
-
 lock (OnReadEvent)
-
 {
-
 OnReadEvent += value;
-
 }
         }
         else
         {
-
 OnReadEvent = new EventHandler(value);
         }
       }
@@ -344,13 +310,9 @@ OnReadEvent = new EventHandler(value);
       {
         if (OnReadEvent != null)
         {
-
 lock (OnReadEvent)
-
 {
-
 OnReadEvent -= value;
-
 }
         }
       }

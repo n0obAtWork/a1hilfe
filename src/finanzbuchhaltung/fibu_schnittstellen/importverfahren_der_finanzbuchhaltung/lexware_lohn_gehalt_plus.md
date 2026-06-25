@@ -20,9 +20,40 @@ Beispiel:
 
 Für das Konto 1755 ist die Steuerklasse 2 hinterlegt. In der Importdatei steht der Betrag 14,06 €. Es wird folgender Buchungssatz gebildet:
 
-| 4100 | An | 1755 | 14,06 | 12,12 |
-| --- | --- | --- | --- | --- |
-| | | 1775 | | 1.94 |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p>4100</p>
+        </td>
+        <td>
+          <p>An</p>
+        </td>
+        <td>
+          <p>1755</p>
+        </td>
+        <td>
+          <p>14,06</p>
+        </td>
+        <td>
+          <p>12,12</p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>
+          <p>1775</p>
+        </td>
+        <td></td>
+        <td>
+          <p>1.94</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="just-emphasize">Satzaufbau</p>
 

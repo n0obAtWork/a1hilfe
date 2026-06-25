@@ -35,7 +35,6 @@ char(32)
 )
 Begin
   select 'Democode für QrCode-Beispiel' || ', wabewid=' || in_wabewid as code,
-
 'QrCode'
 as
 codetype

@@ -110,12 +110,26 @@ Auf dieser Maske können die Standardwerte für einzelne Platzhalterfelder festg
 
 Das farblich markierte Feld zeigt immer den aktuellen Platzhalter an. Zum Ändern eines anderen Platzhalters wird ein Doppelklick auf den entsprechenden Platzhalter gemacht. Dieser wird dann mit folgender Farbe gekennzeichnet.
 
-| |
-| --- |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="just-emphasize">Textbausteinwerte [![](../../ImagesExt/image8_148.png)](./bereiche.md)</p>
 
 Auf dieser Maske können die gelernten Texte der Textbausteine korrigiert werden. Angezeigt werden immer die Texte des aktuell farblich markierten Platzhalters. Zum Wechseln des Platzhalters wird ein Doppelklick auf den entsprechenden Platzhalter gemacht. Dieser wird dann mit folgender Farbe gekennzeichnet.
 
-| |
-| --- |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

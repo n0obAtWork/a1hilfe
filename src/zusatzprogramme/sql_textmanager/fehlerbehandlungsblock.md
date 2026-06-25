@@ -23,12 +23,9 @@ EXCEPTION
 then
     Select  ERRORMSG(),SQLCODE,SQLSTATE
     into    dc_ErrorMsg,dc_SQLCODE,dc_SQLSTATE;
-
 call
 AMIC_FEHLERPROT( 20
-
 ,amic_func_sprachtexte('a', 'b', 'Prozedur', -1)
-
 ,amic_func_sprachtexte('a','b','Beim Ausführen der Prozedur "%s" ist ein Fehler
 aufgetreten.', -1, 'p_TestProzedur')
   || '\n\n'
@@ -52,6 +49,5 @@ dc_SQLCODE
   ||
 dc_ErrorMsg
   ,-10171);
-
 End;
 ```

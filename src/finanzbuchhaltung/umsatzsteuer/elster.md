@@ -174,10 +174,42 @@ Mindestsystemanforderungen
 
 Diese Anforderungen werden von dem Programm-Modul der bayerischen Steuerverwaltung gestellt und können von AMIC nicht beeinflusst werden.
 
-| • Betriebssystem | Windows 8.1 oder Windows 10 |
-| --- | --- |
-| • Internetzugang | Via ISDN oder DSL ist notwendig, ein Breitbandzugang wird empfohlen. |
-| • Software | PDF-Reader mind. Adobe Acrobat Reader 9.x oder vergleichbar für verschlüsselte PDFs |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <ul>
+            <li>Betriebssystem</li>
+          </ul>
+        </td>
+        <td>
+          <p>Windows 8.1 oder Windows 10</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            <li>Internetzugang</li>
+          </ul>
+        </td>
+        <td>
+          <p>Via ISDN oder DSL ist notwendig, ein Breitbandzugang wird empfohlen.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            <li>Software</li>
+          </ul>
+        </td>
+        <td>
+          <p>PDF-Reader mind. Adobe Acrobat Reader 9.x oder vergleichbar für verschlüsselte PDFs</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Die WinRT API wird nicht unterstützt.  
 Terminalserver-Lösungen werden zum derzeitigen Zeitpunkt nicht offiziell unterstützt.

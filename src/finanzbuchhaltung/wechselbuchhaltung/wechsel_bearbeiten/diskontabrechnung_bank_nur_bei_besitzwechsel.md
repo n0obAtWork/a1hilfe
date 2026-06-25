@@ -17,9 +17,49 @@ Und fehlt dieses auch, dann wird das Konto aus dem Wechsel selbst herangezogen!
 
 Die Diskontabrechnung mit der Bank läuft dann analog:
 
-| Nnnn Diskontertrag 5% | 125,00 |
-| --- | --- |
-| Nnnn Spesen 30 DM | 30,00 |
-| Nnnn Provision 0,25% | 25,00 |
-| Nnnn Vorsteuer 15% | 27,00 |
-| an 1200 Bank | 207,00 |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p>Nnnn Diskontertrag 5%</p>
+        </td>
+        <td>
+          <p>125,00</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Nnnn Spesen 30 DM</p>
+        </td>
+        <td>
+          <p>&nbsp; 30,00</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Nnnn Provision 0,25%</p>
+        </td>
+        <td>
+          <p>&nbsp; 25,00</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Nnnn Vorsteuer 15%</p>
+        </td>
+        <td>
+          <p>&nbsp; 27,00</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>an 1200 Bank</p>
+        </td>
+        <td>
+          <p>207,00</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

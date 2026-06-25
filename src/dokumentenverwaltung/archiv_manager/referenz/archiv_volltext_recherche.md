@@ -32,7 +32,6 @@ volltextrecherche_progress( IN in_anzahl INTEGER DEFAULT 1 , IN in_zeitschranke
 INTEGER DEFAULT 1 )
 RESULT
 (
-
 fa_id    INTEGER,
   fa_mndnr
 INTEGER,
@@ -41,10 +40,8 @@ INTEGER,
 BEGIN
   DECLARE DC_HOUR
 INTEGER;
-
   SET DC_HOUR =
 DATEPART( HOUR , NOW() );
-
   IF ( DC_HOUR
 < 5 OR DC_HOUR > 19 ) OR ( in_zeitschranke != 1 ) THEN
     IF (
@@ -52,22 +49,16 @@ NOT EXISTS( select * FROM amic_status_relation( 'archiv' ) WHERE status IN ( 0 ,
 THEN
       SELECT -1 AS fa_ID , -1
 AS fa_mndnr , 1 AS problem;
-
 ELSE
       BEGIN
         DECLARE
 LOCAL TEMPORARY TABLE TMP_DATEN
-
 (
-
 fa_id    INTEGER ,
-
 fa_mndnr INTEGER ,
-
 problem  INTEGER
         ) ON COMMIT
 PRESERVE ROWS;
-
 INSERT INTO TMP_DATEN( fa_id , fa_mndnr , problem )
         SELECT TOP
 in_anzahl
@@ -82,9 +73,7 @@ JOIN archivtext at ON ( at.archiv_guid = fa.fa_guid )
 JOIN archivtextbad atb ON ( atb.archiv_guid = fa.fa_guid )
         WHERE
 at.archiv_guid IS NULL
-
 AND atb.archiv_guid IS NULL
-
 AND fa.fa_guid IS NOT NULL;
         SELECT
 fa_id , fa_mndnr , problem FROM TMP_DATEN
@@ -97,12 +86,10 @@ EXCEPTION
    WHEN
 OTHERS THEN
    BEGIN
-
      CALL amic_exception(
 ERRORMSG() || '\n' || TRACEBACK() , SQLCODE ,
 SQLSTATE , 'volltextrecherche_progress' , -30000
 );
-
 END;
    SELECT -1
 AS fa_id , -1 AS fa_mndnr , 1 AS problem;

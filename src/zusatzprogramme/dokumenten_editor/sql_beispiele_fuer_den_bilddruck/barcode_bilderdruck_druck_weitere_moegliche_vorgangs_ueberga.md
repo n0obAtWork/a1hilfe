@@ -55,19 +55,15 @@ Result
 )
 Begin
   declare dc_code long varchar;
-
   CALL sp_parse_json( 'dc_specials', in_specials
 );
-
   set dc_code = dc_specials ."JVars Variablen
 Key"[[1]];
-
   IF dc_code != 'JVars Variablen Wert' THEN
     CALL amic_exception( 'Übergabe
 Dokument-Specials nicht geklappt!' , SQLCODE , SQLSTATE ,
 'p_barcode_specials_beispiel', -999999 );
   END IF;
-
   select dc_code as code, 'QrCode' as
 codetype;
 End

@@ -48,40 +48,27 @@ in_Date
 date    default today()
 )
 RESULT (
-
 zustand
 integer
-
 ,farbe
 integer
-
 ,label
 char(255)
-
 ,text1
 char(100)
-
 ,text2
 char(100)
-
 ,text3
 char(100)
-
 ,text4
 char(100)
-
 ,text5
 char(100)
-
 ,zertifizierungsmethode char(100)
-
 ,zertifikatsbemerkung   char(255)
-
 ,Zertifikat_BLE         char(255)
-
 ,ThgWert
 numeric(15,4)
-
 ,ThgWertHerkunft        integer
       )
 --

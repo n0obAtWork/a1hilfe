@@ -17,11 +17,43 @@ Dazu stehen folgende Varianten zur Verfügung:
 
 Neben den üblichen Pflege-Funktionen stehen folgende Spezial-Funktionen bereit:
 
-| |
-| --- |
-| ***Details …*** **F5** | Wechselt in die Archiv-Ansichten-Details.<br>[Ansichten Details](./archiv_ansichten_details.md) |
-| Duplizieren | Dupliziert eine Archiv-Ansichts-Definition samt ihrer Details.<br>Dabei wird vorher eine Bedienerklasse abgefragt, die dem Duplikat dann zugewiesen wird.<br>Die Bedienerklasse -1 bedeutet „alle Bedienerklassen“.<br>*Das Duplikat ist in jedem Fall eine Archiv-Ansichts-Definition die Besitzer „Privat“ hat.* |
-| Export | Exportiert eine Archiv-Ansichten-Definition. |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2"></td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong><em>Details …</em></strong> <strong>F5</strong></p>
+        </td>
+        <td>
+          <p>Wechselt in die Archiv-Ansichten-Details.</p>
+          <p><a href="./archiv_ansichten_details.md">Ansichten Details</a></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Duplizieren</p>
+        </td>
+        <td>
+          <p>Dupliziert eine Archiv-Ansichts-Definition samt ihrer Details.</p>
+          <p>Dabei wird vorher eine Bedienerklasse abgefragt, die dem Duplikat dann zugewiesen wird.</p>
+          <p>Die Bedienerklasse -1 bedeutet „alle Bedienerklassen“.</p>
+          <p><i>Das Duplikat ist in jedem Fall eine Archiv-Ansichts-Definition die Besitzer „Privat“ hat.</i></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Export</p>
+        </td>
+        <td>
+          <p>Exportiert eine Archiv-Ansichten-Definition.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p class="siehe-auch">Siehe auch:</p>
 

@@ -44,79 +44,64 @@ Beispiel (JPL-Syntax):
 ```text
 call JPP_NEW( "CRW", "JAnwendReport" )
   call JPP_IN ( "CRW", "m_AnwRptId", "ANKASTAMMBLATT"  )
-
 // Reportdefinition
 laden
-
   if ( JPP_EX (
 "CRW", "Read"  )== TRUE )
   {
-
 //
 // Report ist da und wurde
 erfolgreich geladen
 // Den Bereich eingrenzen.
 Dazu mit SetVon und SetBis die von und Biswerte überschreiben
 //
-
     call JPP_IN ("CRW", "VON",
 ":h.AnKaInventarNummer$" )
     call JPP_IN ("CRW", "IDX",
 "1" )
     call JPP_EX ("CRW", "SetVon" )
-
     call JPP_IN ("CRW", "VON",
 "0" )
     call JPP_IN ("CRW", "IDX",
 "2" )
     call JPP_EX ("CRW", "SetVon" )
-
     call JPP_IN ("CRW", "VON",
 "0" )
     call JPP_IN ("CRW", "IDX",
 "3" )
     call JPP_EX ("CRW", "SetVon" )
-
     call JPP_IN ("CRW", "VON",
 "0" )
     call JPP_IN ("CRW", "IDX",
 "4" )
     call JPP_EX ("CRW", "SetVon" )
-
     call JPP_IN ("CRW", "VON",
 "0" )
     call JPP_IN ("CRW", "IDX",
 "5" )
     call JPP_EX ("CRW", "SetVon" )
-
     call JPP_IN ("CRW", "BIS",
 "99999999" )
     call JPP_IN ("CRW", "IDX",
 "5" )
     call JPP_EX ("CRW", "SetBis" )
-
     call JPP_IN ("CRW", "VON",
 "0" )
     call JPP_IN ("CRW", "IDX",
 "6" )
     call JPP_EX ("CRW", "SetVon" )
-
     call JPP_IN ("CRW", "BIS",
 "99999999" )
     call JPP_IN ("CRW", "IDX",
 "6" )
     call JPP_EX ("CRW", "SetBis" )
-
 // Alle Formelfelder wurden
 an den Report übergeben
-
     call JPP_EX ( "CRW", "FeldFormat" ) //
 Initialisierung aller Variablen VON[...] usw. laut Anwendcondition...
-
 // Ausgabemedium setzen.
 Pflichtangabe!
     call JPP_IN ("CRW", "Device", "WINDOW" )
-
 // Und den Report
 starten
     call JPP_EX ("CRW", "ListenStart")

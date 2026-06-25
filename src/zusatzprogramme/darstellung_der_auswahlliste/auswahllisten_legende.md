@@ -24,7 +24,6 @@ Befindet sich das Tag unter diesem Tag, handelt es sich um die Beschreibung der 
 <auswahllistenbeschreibung>
     <beschreibung>Daten der
 Variante</beschreibung>
-
 </auswahllistenbeschreibung>
 ```
 
@@ -37,11 +36,9 @@ Befindet sich das Tag unter diesem Tag, handelt es sich um die Beschreibung des 
     <beschreibung>Daten der
 Variante</beschreibung>
     <field name="Feldname">
-
   <beschreibung>Beschreibung des
 Feldes</beschreibung>
     </field>
-
 </auswahllistenbeschreibung>
 ```
 
@@ -63,10 +60,8 @@ Nummer,b.KtrNummer,I4,8,COLOR=(colorKontraktstatus,1=GELB/GRÜN,2=SCHWARZ/GELB,3
     <beschreibung>Daten der
 Variante</beschreibung>
     <field name="b.KtrNummer">
-
   <beschreibung>Beschreibung des Feldes</beschreibung>
     </field>
-
 </auswahllistenbeschreibung>
 ```
 
@@ -86,7 +81,6 @@ Nummer,b.KtrNummer,I4,8,COLOR=(colorKontraktstatus,1=GELB/GRÜN,2=SCHWARZ/GELB,3
     <beschreibung>Beschreibung der
 Variante</beschreibung>
     <field name="b.KtrNummer">
-
   <beschreibung>Beschreibung des Felds</beschreibung>
       <color nr="1">Beschreibung zur Farbe
 1</color>
@@ -95,7 +89,6 @@ Variante</beschreibung>
       <color nr="3">Beschreibung zur Farbe
 3</color>
     </field>
-
 </auswahllistenbeschreibung>
 ```
 
@@ -115,7 +108,6 @@ Kontraktstamms</beschreibung>
 Kontrakts</beschreibung>
    </field>
    <field name="s.KtrUnterklasse">
-
 <beschreibung>Unterklasse des Kontrakts</beschreibung>
    </field>
    <field name="minArtikelnummer">
@@ -151,7 +143,6 @@ aktiv.</color>
 Kontrakt ist aktiv, da die vorherigen Punkte nicht zutreffen</color>
    </field>
    <field name="b.KtrBezeich">
-
 <beschreibung>Bezeichnung des Kontrakts</beschreibung>
      <color nr="1">Es handelt
 sich um einen Musterkotrakt.</color>

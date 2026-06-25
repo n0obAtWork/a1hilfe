@@ -43,12 +43,61 @@ Die **Farbformel** dient dazu einzelne Zellen im Crytsal Report farblich hervorz
 
 Beispiele (**ACHTUNG**: *die Hochkomma beachten!*):
 
-| If KZA_GET(1) &lt; 0 then ‘BG(255/0/0),FETT’ endif |
-| --- |
-| ⇨ | Ist der Wert der ersten Zelle kleiner als 0 dann soll die Hintergrundfarbe rot sein und die Schrift fett dargestellt werden |
-| If KZA_GET(2)>KZA_GET(1) then ‘FG(255/0/0)’ else if KZA_GET(2)=0 then ‘FETT,KURSIV’ endif endif |
-| ⇨ | Ist der Wert der zweiten Zelle größer als der der ersten, dann soll die Vordergrundfarbe rot sein. Sonst soll geprüft werden ob die zweite Zelle gleich 0 ist und die Schrift fett und kursiv dargestellt werden. |
-| If MeineBerechnungsfunktion()>0 then ‘FG(255/255/255),BG(0,0,0),FETT‘ endif |
-| ⇨ | Ist die Berechnung >0 dann wird der Vordergrund weiß und der Hintergrund schwarz dargestellt. Die Schrift ist fett. |
-| Farbstaffel(KZA_GET(1)) |
-| ⇨ | Die Funktion Farbstaffel kann je nach Wert einen Farbwert in der obigen Syntax zurück liefern. |
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p>If KZA_GET(1) &lt; 0 then ‘BG(255/0/0),FETT’ endif</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>⇨</p>
+        </td>
+        <td>
+          <p>Ist der Wert der ersten Zelle kleiner als 0 dann soll die Hintergrundfarbe rot sein und die Schrift fett dargestellt werden</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>If KZA_GET(2)&gt;KZA_GET(1) then ‘FG(255/0/0)’ else if KZA_GET(2)=0 then ‘FETT,KURSIV’ endif endif</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>⇨</p>
+        </td>
+        <td>
+          <p>Ist der Wert der zweiten Zelle größer als der der ersten, dann soll die Vordergrundfarbe rot sein. Sonst soll geprüft werden ob die zweite Zelle gleich 0 ist und die Schrift fett und kursiv dargestellt werden.</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>If MeineBerechnungsfunktion()&gt;0 then ‘FG(255/255/255),BG(0,0,0),FETT‘ endif</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>⇨</p>
+        </td>
+        <td>
+          <p>Ist die Berechnung &gt;0 dann wird der Vordergrund weiß und der Hintergrund schwarz dargestellt. Die Schrift ist fett.</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Farbstaffel(KZA_GET(1))</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>⇨</p>
+        </td>
+        <td>
+          <p>Die Funktion Farbstaffel kann je nach Wert einen Farbwert in der obigen Syntax zurück liefern.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -60,13 +60,10 @@ Result
 Begin
   declare dc_code long varchar;
   declare dc_codetype long varchar;
-
   CALL sp_parse_json( 'dc_datenquelle',
 in_datenquelle );
-
   set dc_codetype = 'qrcode';
   set dc_code = dc_datenquelle.DQBelegId;
-
   select dc_code as code, dc_codetype as
 codetype;
 End

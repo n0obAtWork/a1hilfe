@@ -11,7 +11,6 @@ Option Explicit
 dim aeins
 set aeins = createobject("AMIC.Aeins")
 aeins.connect(...
-
 sub xyz
   dim sql
   dim hdl

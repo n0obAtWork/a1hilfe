@@ -10,35 +10,21 @@ Soll für die Bestimmung von Herkunft Ziel Land und Herkunft Ziel Region eine pr
 create procedure
 p_landregion (  in
 in_ufld_land integer default 0,
-
 in in_ufld_region integer default
 null,
-
 in in_wabew_land integer default 0,
-
 in in_wabew_region integer default
 null,
-
 in in_ArtikelID integer,
-
 in in_PartieID integer,
-
 in in_KontraktID integer,
-
 in in_Menge Numeric(15,4),
-
 in in_KundID integer,
-
 in in_LagerNummer integer
-
 )
-
 RESULT(
-
 "HerkunftZielLand" integer,
-
 "HerkunftZielRegion" integer
-
 )
 Begin
  declare dc_HerkunftZieLand

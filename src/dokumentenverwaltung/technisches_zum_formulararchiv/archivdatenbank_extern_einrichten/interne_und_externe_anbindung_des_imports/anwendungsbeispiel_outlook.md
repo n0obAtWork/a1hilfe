@@ -20,18 +20,15 @@ Public Sub Aeins_Export()
 = "c:\temp\outlook"
   Dim Aeins_ImportProfil As Integer:
 Aeins_ImportProfil = 24
-
   Dim myOlApp As Object: Set myOlApp =
 CreateObject("Outlook.Application")
   Dim myItem As Outlook.Inspector: Set myItem =
 myOlApp.ActiveInspector
-
   If TypeName(myItem) = "Nothing" Then
     MsgBox "Kein aktives
 Mailfenster!"
     GoTo raus
   End If
-
   Dim objItem As Object: Set objItem =
 myItem.CurrentItem
   Dim SenderEmailAddress As String
@@ -45,7 +42,6 @@ objItem.SenderName
   ' ersetze @ durch .
   SenderEmailAddress = Replace(SenderEmailAddress,
 "@", ".")
-
   Dim Aeins As Object: Set Aeins =
 CreateObject("AMIC.Aeins")
   If Aeins Is Nothing Then
@@ -53,7 +49,6 @@ CreateObject("AMIC.Aeins")
 Aeins-Verbindung!"
     GoTo raus
   End If
-
   Dim Connect As Boolean: Connect =
 Aeins.Connect(Aeins_Verbindung)
   If Connect = False Then
@@ -61,17 +56,14 @@ Aeins.Connect(Aeins_Verbindung)
 fehlgeschlagen!"
     GoTo ende
   End If
-
   Dim hdl As String: hdl = "outlook is
 calling"
   Aeins.jpp_new hdl, "JFileSystem"
   Aeins.jpp_in hdl, "DIR", Aeins_ImportPfad
   Aeins.jpp_do hdl, "DirectoryCreate"
   Aeins.jpp_delete hdl
-
   objItem.SaveAs Aeins_ImportPfad & "\" &
 SenderEmailAddress & ".msg", olMSG
-
   Aeins.jpp_new hdl, "JFA_Import"
   Aeins.jpp_in hdl, "fai_id",
 Aeins_ImportProfil
@@ -127,7 +119,6 @@ returns integer
 BEGIN
   DECLARE
 fetch_kundnummer integer;
-
   select first
 k.kundnummer into fetch_kundnummer
   from
@@ -135,10 +126,8 @@ kundenstamm k join anschriftstamm a
 on k.kundid = a.adressnummer
   where
 a.adressmailadress = in_MailAdresse;
-
   return
 fetch_kundnummer;
-
  END
 ```
 

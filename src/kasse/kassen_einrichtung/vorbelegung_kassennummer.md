@@ -19,7 +19,6 @@ Diese Vorgehensweise kann bei der A.eins-Installation auf einem Terminalserver v
 
 ```text
 Windows Registry Editor Version 5.00
-
 [HKEY_CURRENT_USER\Software\AMIC\A.eins\ACASH2]
 "Kassensystem"="3"
 ```

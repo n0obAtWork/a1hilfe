@@ -6,22 +6,17 @@
 <?xml version="1.0"
 ?>
 <vorgang nummer="11677" art="1">
-
 <kontrakt-nummer>1105366</kontrakt-nummer>
   <kontrakt-referenz-nummer />
   <spediteur-adresse-nummer />
-
 <kunden-adresse-nummer>1513520</kunden-adresse-nummer>
-
 <kunden-adresse-name>GmbH</kunden-adresse-name>
   <liefer-herkunftsort-adresse-nummer />
-
 <artikel-nummer>11400</artikel-nummer>
   <artikel-name>Raps Saat EU
 zertifiziert</artikel-name>
   <fahrzeug-kennung />
   <fahrzeug-typ>0</fahrzeug-typ>
-
 <fahrzeug-zuladung>0,0</fahrzeug-zuladung>
   <kfz-kennzeichen>PZ947
 FS</kfz-kennzeichen>
@@ -64,7 +59,6 @@ FS</kfz-kennzeichen>
 <zusatz>
   <vorgangstyp-kennzeichen />
   <proben-nummer />
-
 <dispo-nummer>105366001</dispo-nummer>
   <verkehrszweig />
   <beleg-nummer />
@@ -72,7 +66,6 @@ FS</kfz-kennzeichen>
 <lager>
   <nummer>100</nummer>
   <name1>Aktiengesellschaft</name1>
-
   <name2>Silo </name2>
   <name3 />
   <strasse>
@@ -113,7 +106,6 @@ zertifiziert</name1>
   </liefer-herkunftsort>
 <waegung art="1">
   <waagennummer>1</waagennummer>
-
 <laufende-nummer>4823</laufende-nummer>
 <gewicht handeingabe="0">
   <einheit>kg</einheit>
@@ -126,7 +118,6 @@ zertifiziert</name1>
   </waegung>
 <waegung art="2">
   <waagennummer>1</waagennummer>
-
 <laufende-nummer>4824</laufende-nummer>
 <gewicht handeingabe="0">
   <einheit>kg</einheit>
@@ -139,35 +130,28 @@ zertifiziert</name1>
   </waegung>
 <qualitaet nummer="11">
   <bezeichnung>Feuchte</bezeichnung>
-
   <wert>5.8</wert>
   </qualitaet>
 <qualitaet nummer="12">
   <bezeichnung>Ölgeh.</bezeichnung>
-
   <wert>44.6</wert>
   </qualitaet>
 <qualitaet nummer="13">
   <bezeichnung>Besatz</bezeichnung>
-
   <wert>2.32</wert>
   </qualitaet>
 <qualitaet nummer="14">
   <bezeichnung>FFA-Geh.</bezeichnung>
-
   </qualitaet>
 <qualitaet nummer="15">
   <bezeichnung>Eruca</bezeichnung>
-
   </qualitaet>
 <silo name="Box 8">
-
 <artikel-nummer>11400</artikel-nummer>
   <artikel-name>Raps Saat EU
 zertifiziert</artikel-name>
   <einheit>kg</einheit>
   <menge>26980</menge>
   </silo>
-
 </vorgang>
 ```

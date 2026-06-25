@@ -22,73 +22,47 @@ encoding="iso-8859-1" ?>
   <Felder>
     <Field id="KtrId"
 label="Ident">
-
 <alt>473543</alt>
-
 <neu>473543</neu>
     </Field>
-
     <Field id="KtrAbDatum" label="Ab
 Datum">
-
 <alt>12-04-2010</alt>
-
 <neu>12-04-2010</neu>
     </Field>
-
     <Field id="KtrBisDatum"
 label="Bis Datum">
-
 <alt>22-04-2010</alt>
-
 <neu>22-04-2010</neu>
     </Field>
-
     <Field id="KtrBisDatumFix"
 label="Bis Datum (max)">
-
 <alt>22-04-2010</alt>
-
 <neu>22-04-2010</neu>
     </Field>
-
     <Field id="KtrDatum"
 label="Datum">
-
 <alt>12-04-2010</alt>
-
 <neu>12-04-2010</neu>
     </Field>
-
     <Field id="KtrErlediStatus"
 label="Erledigungsstatus">
-
 <alt>0</alt>
-
 <neu>0</neu>
     </Field>
-
     <Field id="KtrNummer"
 label="Nummer">
-
 <alt>24332</alt>
-
 <neu>24332</neu>
     </Field>
-
     <Field id="KtrStornoStatus"
 label="Stornostatus">
-
 <alt>0</alt>
-
 <neu>0</neu>
     </Field>
-
     <Field id="WaehrNummer"
 label="Währungsnummer">
-
 <alt>20</alt>
-
 <neu>20</neu>
     </Field>
   </Felder>
@@ -112,27 +86,21 @@ Die Variable „dc_XML_Protokoll“ würde dabei die XML-Struktur enthalten. Nac
 
 ```sql
 SELECT  TriggerType
-
 ,FeldName
-
 ,FeldBezeichnung
         ,WertAlt
         ,WertNeu
 FROM OPENXML(dc_XML_Protokoll, '/root/Felder/Field'
 )
 WITH  (
-
 WertAlt          LONG
 VARCHAR    'alt'
-
 ,WertNeu         LONG
 VARCHAR    'neu'
-
 ,FeldName
 CHAR(255)       '@id'
       ,FeldBezeichnung
 char(255)       '@label'
-
 ,TriggerType
 char(255)       '../../mode'
       )

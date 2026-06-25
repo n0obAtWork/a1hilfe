@@ -123,32 +123,22 @@ Das SQLK könnte folgendermaßen aussehen:
 ```sql
 select IBMNummer,
        KundBezeich,
-       (select
-first(KundMatch)
-
-from   KundenMatchCode
-
-where KundId = k.kundid) as KundMatch,
-
-KundUstStatKennz,
-       '???' ZBED,
-
-'????????????????????' LiefNummer,
-       '??????????'
-KontoArt,
-       '???'
-MahnungTyp,
-       if KundMahnSperr=1
-then 'J' else 'N' endif MahnSperre,
+       (select first(KundMatch)
+        from   KundenMatchCode
+        where  KundId = k.kundid) as KundMatch,
+       KundUstStatKennz,
+       '???'                  ZBED,
+       '????????????????????' LiefNummer,
+       '??????????'           KontoArt,
+       '???'                  MahnungTyp,
+       if KundMahnSperr = 1 then 'J' else 'N' endif MahnSperre,
        KundKredit,
-       (select
-WaehrIsoBezeich
-
-from Waehrungsstamm
-
-where Waehrnummer = k.Waehrnummer) Waehrung
-from temp_IBMDebitor i,
-Kundenstamm k where i.kundid=k.kundid
+       (select WaehrIsoBezeich
+        from   Waehrungsstamm
+        where  Waehrnummer = k.Waehrnummer) Waehrung
+from   temp_IBMDebitor i,
+       Kundenstamm k
+where  i.kundid = k.kundid
 ```
 
 temp_IBMDebitor enthält alle in den Belegen vorkommenden Kunden exakt einmal. Die IBMNummer kommt aus der Auswahlliste.
@@ -177,31 +167,21 @@ Im SQLK heißen alle Felder wie der Name: Das SQLK könnte folgendermaßen ausse
 
 ```sql
 select IBMNummer,
-       '' AdressArt,
-       AdressAnrede
-Anrede,
-       AdressName
-Name1,
-       AdressVorName
-Name2,
-       '' Name3,
-       AdressStrasse
-Strasse,
-       '' Land,
-       AdressPLZ1
-PLZ,
-       AdressOrt Ort,
-       AdressZeile1
-Zusatz,
-       AdressTelefon
-Telefon,
-       AdressTelefax
-Telefax
-from temp_IBMDebitor i, Kundenstamm k, Anschriftstamm
-a
-where i.kundid   = k.kundid
-  and a.AdressId =
-k.AdressIdHauptAdr
+       ''            AdressArt,
+       AdressAnrede  Anrede,
+       AdressName    Name1,
+       AdressVorName Name2,
+       ''            Name3,
+       AdressStrasse Strasse,
+       ''            Land,
+       AdressPLZ1    PLZ,
+       AdressOrt     Ort,
+       AdressZeile1  Zusatz,
+       AdressTelefon Telefon,
+       AdressTelefax Telefax
+from   temp_IBMDebitor i, Kundenstamm k, Anschriftstamm a
+where  i.kundid   = k.kundid
+  and  a.AdressId = k.AdressIdHauptAdr
 ```
 
 temp_IBMDebitor enthält alle in den Belegen vorkommenden Kunden exakt einmal. Die IBMNummer kommt aus der Auswahlliste.
@@ -250,32 +230,22 @@ Das SQLK könnte folgendermaßen aussehen:
 ```sql
 select IBMNummer,
        KundBezeich,
-       (select
-first(KundMatch)
-
-from  KundenMatchCode
-
-where KundId = k.kundid) as KundMatch,
-
-KundUstStatKennz,
-       '???' ZBED,
-
-'????????????????????' FremdNummer,
-       '??????????'
-KontoArt,
-       '???'
-ZahlungTyp,
-       if KundZahlSperr=1
-then 'J' else 'N' endif ZahlSperre,
+       (select first(KundMatch)
+        from   KundenMatchCode
+        where  KundId = k.kundid) as KundMatch,
+       KundUstStatKennz,
+       '???'                  ZBED,
+       '????????????????????' FremdNummer,
+       '??????????'           KontoArt,
+       '???'                  ZahlungTyp,
+       if KundZahlSperr = 1 then 'J' else 'N' endif ZahlSperre,
        KundKredit,
-       (select
-WaehrIsoBezeich
-
-from Waehrungsstamm
-
-where Waehrnummer = k.Waehrnummer) Waehrung
-from temp_IBMKreditor i,
-Kundenstamm k where i.kundid=k.kundid
+       (select WaehrIsoBezeich
+        from   Waehrungsstamm
+        where  Waehrnummer = k.Waehrnummer) Waehrung
+from   temp_IBMKreditor i,
+       Kundenstamm k
+where  i.kundid = k.kundid
 ```
 
 temp_IBMKreditor enthält alle in den Belegen vorkommenden Lieferanten exakt einmal. Die IBMNummer kommt aus der Auswahlliste.
@@ -304,31 +274,21 @@ Im **[SQLK]** heißen alle Felder wie der Name: Das **[SQLK]** könnte folgender
 
 ```sql
 select IBMNummer,
-       '' AdressArt,
-       AdressAnrede
-Anrede,
-       AdressName
-Name1,
-       AdressVorName
-Name2,
-       '' Name3,
-       AdressStrasse
-Strasse,
-       '' Land,
-       AdressPLZ1
-PLZ,
-       AdressOrt Ort,
-       AdressZeile1
-Zusatz,
-       AdressTelefon
-Telefon,
-       AdressTelefax
-Telefax
-from temp_IBMKreditor i, Kundenstamm k, Anschriftstamm
-a
-where i.kundid   = k.kundid
-  and a.AdressId =
-k.AdressIdHauptAdr
+       ''            AdressArt,
+       AdressAnrede  Anrede,
+       AdressName    Name1,
+       AdressVorName Name2,
+       ''            Name3,
+       AdressStrasse Strasse,
+       ''            Land,
+       AdressPLZ1    PLZ,
+       AdressOrt     Ort,
+       AdressZeile1  Zusatz,
+       AdressTelefon Telefon,
+       AdressTelefax Telefax
+from   temp_IBMKreditor i, Kundenstamm k, Anschriftstamm a
+where  i.kundid   = k.kundid
+  and  a.AdressId = k.AdressIdHauptAdr
 ```
 
 temp_IBMKreditor enthält alle in den Belegen vorkommenden Kunden exakt einmal. Die IBMNummer kommt aus der Auswahlliste.

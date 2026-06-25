@@ -25,10 +25,8 @@ BEGIN
 select left(formlstbezeich,2) from formatlist where formlstkennung='af_vorgang'
 and formlstwert = v_KlassNummer )
          ||
-
 right('00000000'|| v_NumNummer,8)
          ||
-
 right('0000'|| in_jahrnummer,4)
          into
 fetch_fa_belegreferenz

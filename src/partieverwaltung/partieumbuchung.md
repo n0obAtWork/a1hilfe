@@ -70,13 +70,10 @@ v_unterklasse; partieid; partienummer );
   BUFLEN = 256;
   ID_LAGERNUMMER_ABG  = 1801;
   ID_LAGERNUMMER_ZUG  = 1804;
-
   ID_LAGERPLATZ_ABG   = 1802;
   ID_LAGERPLATZ_ZUG   = 1805;
-
   ID_PARTIENUMMER_ABG = 1910;
   ID_PARTIENUMMER_ZUG = 1911;
-
   var
   buf,
   lg_abg,
@@ -90,16 +87,12 @@ v_unterklasse; partieid; partienummer );
   menge,
   me_num,
   partiebezeich   : string;
-
   v,
   p,
   ok,
   lg_abg_i,
-
 lg_zug_i        : integer;
-
 menge_r         : real;
-
 procedure init();
 begin
   waitcursor(true);
@@ -116,9 +109,7 @@ begin
   menge    := alloc(128);
   buf      :=
 alloc(BUFLEN);
-
 end;
-
 procedure aufraeumen();
 begin
   free(buf);
@@ -136,7 +127,6 @@ begin
   free ( partiebezeich );
   waitcursor(false);
 end;
-
 begin
   init();
   waitcursor(true);
@@ -152,7 +142,6 @@ begin
   getldb("ZIELLGP$",lgpl_zug);
   getldb("PARTIEBEZEICH$", partiebezeich );
   getldb("MENGE$",menge)
-
   waitcursor(true);
   menge_r:=strtoreal(menge);
   SetKlassNum ( 5120 );
@@ -166,20 +155,14 @@ lg_abg, 0);
     SetValue(v, ID_LAGERNUMMER_ZUG,
 lg_zug, 0);
     p := Umbuchung (
-
 v,
 // Vorgangsreferenz
-
 art_abg,          // ArtikelNr
 Abgang
-
 lg_abg_i,         // LagerNr
-
 art_zug,          // ArtikelNr
 Zugang
-
 lg_zug_i,         // LagerNr
-
 menge_r,          // Menge
       0
     );

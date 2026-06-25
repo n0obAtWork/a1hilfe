@@ -30,9 +30,7 @@ On Error Resume Next
 ThisWorkbook.Worksheets
         For Each PT
 In WS.PivotTables
-
 PT.RefreshTable
-
 PT.Update
         Next PT
     Next WS
@@ -67,7 +65,6 @@ Und zum Schluss muss nun dieses Modul in die Startphase der Excel Mappe eingebun
 
 ```vbnet
 Option Explicit
-
 Private Sub Workbook_Open()
   Call InitializeQueries
 End Sub
