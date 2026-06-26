@@ -16,22 +16,22 @@ Wenn ein OP über den automatischen Zahlungsverkehr beglichen wird so kann man h
 ![](../../ImagesExt/image8_600.png)  
 Mögliche Stati sind:
 
-- \*\*Zahlsperre gesetzt\*\*  
+   - \*\*Zahlsperre gesetzt\*\*  
 Die Zahlsperre kann hier über die Funktion OP-Info oder direkt in der OP-Verwaltung gesetzt werden. Wird die Zahlsperre gesetzt, wird der OP ggf. aus den Zahlungsvorschlägen entfernt.
 
-- in Zahlungsvorschlag
-- zur Zahlung freigegeben
-- Scheckdruck / DTA ausgeführt
-- \*\*Scheckdruck / DTA abgewiesen\*\*  
+   - in Zahlungsvorschlag
+   - zur Zahlung freigegeben
+   - Scheckdruck / DTA ausgeführt
+   - \*\*Scheckdruck / DTA abgewiesen\*\*  
 Dieser Status besagt, dass versucht wurde einen Scheck zu drucken oder einen DTA auszuführen, jedoch die Informationen in den Stammdaten nicht ausreichend waren (z.B. fehlende Bankverbindung). Die genaue Fehlerursache wurde beim, Scheckdruck bzw. beim DTA ausgegeben. Nach Behebung des Problems kann der Scheckdruck / DTA wiederholt werden.
 
-- \*\*Zahlung unvollständig\*\*  
+   - \*\*Zahlung unvollständig\*\*  
 Dieser Status besagt, dass zwar der Scheck gedruckt wurde bzw. der DTA ausgeführt wurde, aber der Zahlungsbeleg gelöscht wurde, bevor er in die Primanota geschrieben worden ist. Dadurch bleibt der Beleg als OP stehen, darf aber nicht ohne weiteres wieder im automatischen Zahlungsverkehr einfließen. Belege, die nicht vollständig den Zahlungslauf durchlaufen haben findet man in der Anwendung „Zahlungen bearbeiten“ (Direktsprung **[ZHB]**) in der Variante „Gesperrte OP’s“.
 
-- Rücklastschrift  
+   - Rücklastschrift  
 Bei Rücklastschriften handelt es sich meist um Bankeinzüge, die von der Bank nicht eingelöst wurden. In A.eins stellt sich das wie folgt dar: Die Belege sind bereits durch den automatischen Zahlungsverkehr gegangen und per Scheckdruck / DTA ausgeglichen und der so entstandene Zahlungsbeleg in die Primanota übertragen worden. Aufgrund der Nichteinlösung wurde die Auszifferung wieder zurückgesetzt und der Zahlungsbeleg als Rücklastschrift markiert. So markierte Belege werden beim nächsten automatischen Zahlungsverkehr wieder mit herangezogen.
 
-- Gesperrte Rücklastschrift  
+   - Gesperrte Rücklastschrift  
 Bei gesperrten Rücklastschriften handelt es sich um Belege, die genau wie eine Rücklastschrift behandelt wurden, nur wurde der Zahlungsbeleg nicht als Rücklastschrift markiert. Dadurch werden diese Belege beim automatischen Zahlungsverkehr **nicht** erneut herangezogen. Um sie trotzdem erneut einzuziehen, kann man entweder die Belege manuell zu einem Zahlungsvorschlag hinzufügen oder den Zahlungsbeleg nachträglich als Rücklastschrift markieren.  
     
 

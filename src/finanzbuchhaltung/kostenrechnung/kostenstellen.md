@@ -12,8 +12,8 @@ Um mit Kostenstellen zu arbeiten, gibt es folgende Vorbedingungen bzw. Einstellu
 
 2. Die Kostenstellen müssen eingerichtet sein. Hierzu gibt es zwei Stammdatenpfleger
 
-- Kostenstellen (ohne Verteilung)
-- Verteilkostenstellen (mit Verteilung)
+   - Kostenstellen (ohne Verteilung)
+   - Verteilkostenstellen (mit Verteilung)
 
   3. Im [Sachkontenrahmen](../stammdaten_der_fibu/sachkonten.md) Direktsprung **[SKS]** muss bei den in Frage kommenden Aufwandskonten im Feld „Sperre Kostenstelle“ aus folgenden Möglichkeiten gewählt werden
 

@@ -21,9 +21,9 @@
 9. Verbindungs-Information für Datenbank-Verbindung erzeugen: „driver=sql anywhere 12;  
 eng=xxx;dbf=Pfad\\DB.db; dbn=yyy;links=tcpip“ und Schaltfläche „Next >“ drücken.
 
-- Die Information „xxx“ und „yyy“ sind in den Systeminformationen [SYSIN] im Feld „Verbindungsparameter“ zu finden.
-- Die Angabe „Pfad“ entspricht dem Verzeichnis aus Schritt 2.
-- Die Angabe „DB“ entspricht der Datenbankdatei aus Schritt 2.
+   - Die Information „xxx“ und „yyy“ sind in den Systeminformationen [SYSIN] im Feld „Verbindungsparameter“ zu finden.
+   - Die Angabe „Pfad“ entspricht dem Verzeichnis aus Schritt 2.
+   - Die Angabe „DB“ entspricht der Datenbankdatei aus Schritt 2.
 
   10. Den im letzten Schritt erzeugte Verbindungsinformation in das Feld „Connection Information“ eingeben und Schaltfläche „Next >“ drücken.
 

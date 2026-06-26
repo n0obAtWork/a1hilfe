@@ -12,8 +12,8 @@ Um mit Kostenträgern zu arbeiten, gibt es folgende Vorbedingungen bzw. Einstell
 
 2. Die Kostenträger müssen eingerichtet sein. Hierzu gibt es zwei Stammdatenpfleger
 
-- Kostenträger (ohne Verteilung)
-- Verteilkostenträger (mit Verteilung)
+   - Kostenträger (ohne Verteilung)
+   - Verteilkostenträger (mit Verteilung)
 
   3. Im [Sachkontenrahmen](../stammdaten_der_fibu/sachkonten.md) Direktsprung **[SKS]** muss bei den in Frage kommenden Aufwandskonten im Feld Sperre Kostenträger aus folgenden Eintragsmöglichkeiten gewählt werden
 

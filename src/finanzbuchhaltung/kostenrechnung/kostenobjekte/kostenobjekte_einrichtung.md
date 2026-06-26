@@ -12,10 +12,10 @@
 
 4. Im [Sachkontenstamm](../../stammdaten_der_fibu/sachkonten.md) **[SKS]** kann in den jeweiligen GuV-Konten im Feld „Sperre Kostenobjekt“ aus folgenden Möglichkeiten gewählt werden:
 
-- <strong>Gesperrt:</strong> Es wird kein Kostenobjekt abgefragt.
-- <strong>Kann:</strong> Es kann ein Kostenobjekt eingeben werden.
-- <strong>Muss:</strong> Es muss ein Kostenobjekt eingegeben werden.
-- **Fest** Es wird nur das im Sachkontenstamm festgelegte Kostenobjekt verwendet.
+   - <strong>Gesperrt:</strong> Es wird kein Kostenobjekt abgefragt.
+   - <strong>Kann:</strong> Es kann ein Kostenobjekt eingeben werden.
+   - <strong>Muss:</strong> Es muss ein Kostenobjekt eingegeben werden.
+   - **Fest** Es wird nur das im Sachkontenstamm festgelegte Kostenobjekt verwendet.
 
   Im Feld „Kostenobjekt“ kann hier die Nummer eines Kostenobjektes eingegeben werden, das bei der Belegerfassung automatisch vorgeschlagen wird.
 

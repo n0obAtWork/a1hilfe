@@ -84,11 +84,11 @@ Für die Inventurperiode selber (z.B. 12 / 99) muss ein Buchungsschluss gesetzt 
 
 3. Einstellen der Optionen:
 
-- Nur Probelauf (Periode wird nicht als geschlossen gekennzeichnet)
-- Vorperioden automatisch abschließen (falls Vorperioden noch nicht abgeschlossen wurden, können mit dieser Automatik alle Perioden geschlossen werden)
-- Lieferscheine prüfen (werden LS nicht umgewandelt, besteht die Gefahr, dass sie in eine falsche Periode laufen)
-- Ausgangsbelege mit Nullsummen und Fibusperre nicht prüfen
-- Produktions-/Umbuchungsbelege mit Nullsummen und Fibusperre nicht prüfen
+   - Nur Probelauf (Periode wird nicht als geschlossen gekennzeichnet)
+   - Vorperioden automatisch abschließen (falls Vorperioden noch nicht abgeschlossen wurden, können mit dieser Automatik alle Perioden geschlossen werden)
+   - Lieferscheine prüfen (werden LS nicht umgewandelt, besteht die Gefahr, dass sie in eine falsche Periode laufen)
+   - Ausgangsbelege mit Nullsummen und Fibusperre nicht prüfen
+   - Produktions-/Umbuchungsbelege mit Nullsummen und Fibusperre nicht prüfen
 
   4. Statusmeldung nach dem Probelauf beachten!
 

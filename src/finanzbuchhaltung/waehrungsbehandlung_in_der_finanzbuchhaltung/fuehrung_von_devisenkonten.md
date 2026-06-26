@@ -12,9 +12,9 @@ Devisenkonten sind Bankkonten, die in einer anderen als der Buchwährung geführ
 3. In der Konteninformation wird im Informationsbereich der Saldo zusätzlich in dieser Währung angezeigt. Das Standardformular ( -99 ) ist darauf angepasst. In privaten Formularen können folgende Druckpositionen verwendet werden:  
     
 
-- Saldotext Fremdwährung (2478)
-- Saldo erfasst Fremdwährung (2481)
-- SaldoSH erfasst in Fremdwährung (2482)
+   - Saldotext Fremdwährung (2478)
+   - Saldo erfasst Fremdwährung (2481)
+   - SaldoSH erfasst in Fremdwährung (2482)
 
 Diese Felder werden nur angezeigt, wenn die oben beschriebenen Bedingungen erfüllt sind, ansonsten werden diese Felder automatisch ausgeblendet.
 
