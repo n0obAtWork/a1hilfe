@@ -313,7 +313,7 @@ Die Prozedur wird an folgende Stellen aufgerufen.
 | Hinweis | Char(1000) | Auszugebender Text |
 | Farbe | Char(20) | Hintergrundfarbe |
 | Schriftfarbe | Char(40) | Farbe der Schrift |
-| Bitmap | integer | <ul><li>&nbsp;&nbsp;&nbsp; 0 zeigt das Ampelbild nicht an</li><li>&nbsp;&nbsp;&nbsp; 1 zeigt das Ampelbild an</li></ul> |
+| Bitmap | integer | <ul><li>0 zeigt das Ampelbild nicht an</li><li>1 zeigt das Ampelbild an</li></ul> |
 
 <p class="just-emphasize">Private Prozedur Verkaufsbeschränkung</p>
 

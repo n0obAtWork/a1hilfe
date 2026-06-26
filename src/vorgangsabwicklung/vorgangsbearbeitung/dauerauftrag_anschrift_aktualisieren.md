@@ -17,11 +17,11 @@ In dem Dialog „Dauerauftrag: Anschriften aktualisieren“ kann die Hauptanschr
 | Kundennummer | Der Kunde des Dauerauftrags.<br> |
 | Belegnummer | Die Belegnummer des Dauerauftrags.<br> |
 | AdressId des Vorgangs | Die ID der Hauptanschrift, die im Dauerauftrag hinterlegt ist.<br> |
-| Manuell | Kennzeichen, ob es sich bei der Hauptanschrift des Dauerauftrags um eine manuelle Vorgangsanschrift handelt.<br><ul><li>&nbsp;&nbsp;&nbsp; „Ja“: Hauptanschrift des Vorgangs ist eine manuelle Vorgangsanschrift.</li><li>&nbsp;&nbsp;&nbsp; „Nein“: Hauptanschrift des Vorgangs ist keine manuelle Vorgangsanschrift.<br>&nbsp;</li></ul> |
+| Manuell | Kennzeichen, ob es sich bei der Hauptanschrift des Dauerauftrags um eine manuelle Vorgangsanschrift handelt.<br><ul><li>„Ja“: Hauptanschrift des Vorgangs ist eine manuelle Vorgangsanschrift.</li><li>„Nein“: Hauptanschrift des Vorgangs ist keine manuelle Vorgangsanschrift.<br>&nbsp;</li></ul> |
 | Name | Name und Vorname, die in der Hauptanschrift des Dauerauftrags angegeben sind.<br> |
 | AdressId des Kunden | Die ID der Kundenhauptanschrift.<br> |
 | Name | Name und Vorname, die in der Kundenhauptanschrift angegeben sind.<br> |
-| Aktualisieren? | Hier kann mithilfe der **F3**\-Taste bestimmt werden, ob die Anschrift des jeweiligen Dauerauftrags beim Aufruf der Funktion ***Anschriften aktualisieren*** aktualisiert werden soll:<br><ul><li>&nbsp;&nbsp;&nbsp; „Ja“: Die Anschrift des Dauerauftrags soll aktualisiert werden.</li><li>&nbsp;&nbsp;&nbsp; „Nein“: Die Anschrift des Dauerauftrags soll nicht geändert werden.<br>Die Vorbelegung ist „Nein“.<br>&nbsp;</li></ul> |
+| Aktualisieren? | Hier kann mithilfe der **F3**\-Taste bestimmt werden, ob die Anschrift des jeweiligen Dauerauftrags beim Aufruf der Funktion ***Anschriften aktualisieren*** aktualisiert werden soll:<br><ul><li>„Ja“: Die Anschrift des Dauerauftrags soll aktualisiert werden.</li><li>„Nein“: Die Anschrift des Dauerauftrags soll nicht geändert werden.<br>Die Vorbelegung ist „Nein“.<br>&nbsp;</li></ul> |
 
 | Funktion | Bedeutung |
 | --- | --- |

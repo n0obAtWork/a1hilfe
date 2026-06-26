@@ -62,7 +62,7 @@ Hier werden für die Finanzbuchhaltung benötigen Informationen festgelegt.
 | Fehlerkostenstelle | Wurde in einem Beleg keine [Kostenstelle](../../finanzbuchhaltung/kostenrechnung/kostenstellen.md) angegeben, so wird bei GuV-Konten automatisch diese Kostenstelle verwendet. |
 | Fehlerkostenträger | Wurde in einem Beleg kein [Kostenträger](../../finanzbuchhaltung/kostenrechnung/kostentraeger.md) angegeben, so wird bei GuV-Konten automatisch dieser Kostenträger verwendet. |
 | Fehlerkostenobjekt | Wurde in einem Beleg kein [Kostenobjekt](../../finanzbuchhaltung/kostenrechnung/kostenobjekte/index.md) angegeben, so wird bei GuV-Konten automatisch dieses Kostenobjekt verwendet. |
-| Zinsbasis | Hier kann man angeben, wie bei der Zinsabrechnung gerechnet werden soll. Möglicher Werte sind:<br><ul><li>&nbsp;&nbsp;&nbsp; Monat / 365</li><li>&nbsp;&nbsp;&nbsp; 30 / 360</li><li>&nbsp;&nbsp;&nbsp; Monat / 360</li></ul> |
+| Zinsbasis | Hier kann man angeben, wie bei der Zinsabrechnung gerechnet werden soll. Möglicher Werte sind:<br><ul><li>Monat / 365</li><li>30 / 360</li><li>Monat / 360</li></ul> |
 | Bundesland | Das Bundesland wird für die Umsatzsteuervoranmeldung / Elster gebraucht. |
 | Nummer des Finanzamtes | Ist mit **F3** auswählbar. Wird für die Umsatzsteuervoranmeldung / Elster benötigt. |
 | Name | Wird für die Umsatzsteuervoranmeldung / Elster benötigt |

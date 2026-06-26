@@ -13,7 +13,7 @@ In dieser Relation werden Kopfdaten des Vorgangs hinterlegt.
 | V_UKlassNummer | Ja | Unterklasse des Vorgangs |
 | V_Unternummer | Ja – sonst 0 | 0 |
 | Jahrnummer | Ja | Jahr des Beleges |
-| ImportTyp | Ja | Dies wird nur bislang beim Ladeschein und Produktion ausgewertet.<br><ul><li>&nbsp;&nbsp;&nbsp; <a href="../importierbare_vorgaenge/ladeschein_aus_auftrag_zu_lieferschein_rechnung.md">0 Ist Auftrag -&gt; Ladeschein -&gt; Lieferschein / Rechnung</a></li><li>&nbsp;&nbsp;&nbsp; 1 Normaler Ladeschein</li><li>&nbsp;&nbsp;&nbsp; <a href="../importierbare_vorgaenge/produktion.md">10 Ändern einer Produktion</a></li><li><a href="../importierbare_vorgaenge/produktion.md">•&nbsp;&nbsp;&nbsp; 11 Explizite Änderung einer Produktion</a></li></ul> |
+| ImportTyp | Ja | Dies wird nur bislang beim Ladeschein und Produktion ausgewertet.<br><ul><li><a href="../importierbare_vorgaenge/ladeschein_aus_auftrag_zu_lieferschein_rechnung.md">0 Ist Auftrag -&gt; Ladeschein -&gt; Lieferschein / Rechnung</a></li><li>1 Normaler Ladeschein</li><li><a href="../importierbare_vorgaenge/produktion.md">10 Ändern einer Produktion</a></li><li><a href="../importierbare_vorgaenge/produktion.md">•&nbsp;&nbsp;&nbsp; 11 Explizite Änderung einer Produktion</a></li></ul> |
 | Belegdatum | Ja – sonst aktuelles Datum | Wird das Datum des Beleges |
 | Bedieneridneu | Ja | Erfasser des Beleges |
 | IVS_GUID | Auto | Wird automatisch pro Satz erzeugt wird als Primary Key für abhängige Relation vom Stammsatz benötigt wie z.B. bei der Relation ImportVorgStammUFLD. Dies bedeutet, dass beim Einspielen der Daten das Feld ausgelesen werden muss. |

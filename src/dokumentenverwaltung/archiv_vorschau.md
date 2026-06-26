@@ -10,7 +10,7 @@ Das A.eins-System unterstützt folgende Typen der Vorschau, diese sind mit Konte
 
 | Vorschau-Typ | Anmerkung |
 | --- | --- |
-| Bild-Anzeige | Die Bild-Anzeige bietet im Kontext-Menü folgende Darstellungsarten. Diese werden sich sitzungsübergreifend für den jeweiligen A.eins-Benutzer gemerkt.<br> <br><ul><li>&nbsp;&nbsp;&nbsp; Dehnen<br>Das Bild wird gestreckt oder verkleinert, damit es der Größe der Bild-Anzeige entspricht.</li><li>&nbsp;&nbsp;&nbsp; Originalgröße<br>Das Bild wird in Original-Größe dargestellt. Ist das Bild größer als die Bild-Anzeige, dann wird die Bild-Anzeige mit Rollbalken ausgestattet.</li><li>&nbsp;&nbsp;&nbsp; Skalieren<br>Das Bild wird unter Beibehaltung der Größenverhältnisse vergrößert oder verkleinert.<br>&nbsp;</li></ul> |
+| Bild-Anzeige | Die Bild-Anzeige bietet im Kontext-Menü folgende Darstellungsarten. Diese werden sich sitzungsübergreifend für den jeweiligen A.eins-Benutzer gemerkt.<br> <br><ul><li>Dehnen<br>Das Bild wird gestreckt oder verkleinert, damit es der Größe der Bild-Anzeige entspricht.</li><li>Originalgröße<br>Das Bild wird in Original-Größe dargestellt. Ist das Bild größer als die Bild-Anzeige, dann wird die Bild-Anzeige mit Rollbalken ausgestattet.</li><li>Skalieren<br>Das Bild wird unter Beibehaltung der Größenverhältnisse vergrößert oder verkleinert.<br>&nbsp;</li></ul> |
 | PDF-Anzeige | Bietet diverse Anzeige- und Recherche-Funktionen für das betreffende PDF-Dokument. |
 | Text-Anzeige | Keine besonderen aktive Funktionen. |
 | E-Mail-Anzeige | Bietet neben der Vorschau der E-Mail noch Anzeige von weiteren E-Mail-Informationen (z.B. Absender, Anhangs-Übersicht, usw.) |

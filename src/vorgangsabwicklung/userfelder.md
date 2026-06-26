@@ -34,7 +34,7 @@ Das Verhalten beim Löschen eines Feldes kann mit einem Einrichterparameter best
 | Bezeichnung | In diesem Feld steht die Bezeichnung des UFLD Feldes |
 | Feld | ID Nummer des UFLD Feldes |
 | Schnellerfassung | Zur Auswahl stehen<br>1. Ja<br>2. Nein |
-| Erfassungslevel | Hier kann angeben werden, wann UFLD Feld auf der Maske nagezeigt werden soll.<br>Zur Auswahl stehen<br><ul><li>&nbsp;&nbsp;&nbsp; Ersterfassung</li><li>&nbsp;&nbsp;&nbsp; Neuerfassung mit Positionsteil</li><li>&nbsp;&nbsp;&nbsp; Belegkorrektur</li><li>&nbsp;&nbsp;&nbsp; Keine Änderung</li></ul> |
+| Erfassungslevel | Hier kann angeben werden, wann UFLD Feld auf der Maske nagezeigt werden soll.<br>Zur Auswahl stehen<br><ul><li>Ersterfassung</li><li>Neuerfassung mit Positionsteil</li><li>Belegkorrektur</li><li>Keine Änderung</li></ul> |
 | Folgetaste | Hier kann eine Folgetaste hinterlegt werden, die nach der Eingabe des UFLD Feldes ausgeführt werden soll.<br>z.B. F5 in der SVMAIN für den Positionsteil |
 | Reihenfolge | Für die Sortierung im Grid |
 | Zeile-Bezeichnung. | In welcher Zeile soll die Bezeichnung stehen |

@@ -29,7 +29,7 @@ Bei der Verwendung der Standardimportschnittstelle muss die Relation Fibuimport 
 | HAUPTKSTRNUMMER | [Kostenträger](../../kostenrechnung/kostentraeger.md), der dem Hauptkonto zugeordnet werden soll. Freigestellt, ist jedoch ein Wert ungleich 0 eingetragen, so muss dieser Kostenträger in den Stammdaten von A.eins existieren.<br><br> |
 | HAUPTKSOBJNUMMER | [Kostenobjekt](../../kostenrechnung/kostenobjekte/index.md), das dem Hauptkonto zugeordnet werden soll. Freigestellt, ist jedoch ein Wert ungleich 0 eingetragen, so muss dieses Kostenobjekt in den Stammdaten von A.eins existieren.<br><br> |
 | GEGENKONTO<br><br> | Kontonummer des Gegenkontos. Muss in A.eins existieren. Bei BELKLASSE=1 als Personenkonto, bei Belegklasse=6 als Sach- oder Personenkonto, sonst nur als Sachkonto. Bereits wieder in A.eins gelöschte Personenkonten werden nicht als Fehler ausgewiesen, wenn es unter [Optionen](../../fibu_reorganisator/optionen_des_fibu_reorganisators.md) so eingestellt ist.<br><br> |
-| GEGENTEXT | <ul><li>&nbsp;&nbsp;&nbsp; Textzeile zum Gegenkonto. Freigestellt.<br><br></li></ul> |
+| GEGENTEXT | <ul><li>Textzeile zum Gegenkonto. Freigestellt.<br><br></li></ul> |
 | KOSTSTEL<br><br> | Nummer [Kostenstelle](../../kostenrechnung/kostenstellen.md). Freigestellt, ist jedoch eine Kostenstelle angegeben, muss sie in A.eins existieren.<br><br> |
 | KSTRNUMMER<br><br> | Nummer des [Kostenträgers](../../kostenrechnung/kostentraeger.md). Freigestellt, ist jedoch ein Kostenträger angegeben, muss sie in A.eins existieren.<br><br> |
 | KSOBJNUMMER | Nummer des [Kostenobjekts](../../kostenrechnung/kostenobjekte/index.md). Freigestellt, ist jedoch ein Kostenobjekt angegeben, muss es in A.eins existieren.<br><br> |

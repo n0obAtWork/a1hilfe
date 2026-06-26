@@ -13,7 +13,7 @@ Im Pfleger, in dem man die Schnittstelle für die Datenübernahme definiert, exi
 | **Feld** | **Bedeutung** |
 | --- | --- |
 | Name der Datenübernahme | Der Name der Aufgabe ist die Bezeichnung der Datenübernahme-Schnittstelle. Dieser Name erscheint in Aufgabenplanung von Windows im Ordner A.eins. Damit dieser Name auf jeden Fall eindeutig ist, wird noch „Task 123“ an den Text angerhängt, wobei die Nummer der Datenübernahme ist (die DuebId). |
-| Planungsintervall | <ul><li>&nbsp;&nbsp;&nbsp; einmalig</li><li>&nbsp;&nbsp;&nbsp; täglich</li><li>&nbsp;&nbsp;&nbsp; wöchentlich</li><li>&nbsp;&nbsp;&nbsp; monatlich</li><li>&nbsp;&nbsp;&nbsp; stündlich</li><li>&nbsp;&nbsp;&nbsp; alle 5 Minuten</li><li>&nbsp;&nbsp;&nbsp; alle 10 Minuten</li><li>&nbsp;&nbsp;&nbsp; alle 15 Minuten</li><li>&nbsp;&nbsp;&nbsp; alle 30 Minuten<br>&nbsp;</li></ul> |
+| Planungsintervall | <ul><li>einmalig</li><li>täglich</li><li>wöchentlich</li><li>monatlich</li><li>stündlich</li><li>alle 5 Minuten</li><li>alle 10 Minuten</li><li>alle 15 Minuten</li><li>alle 30 Minuten<br>&nbsp;</li></ul> |
 | Startzeit | Hier wird angegeben, an welchem Tag und um wieviel Uhr diese Aufgabe ausgeführt werden soll.<br> |
 | Erweiterte Optionen | Unter den erweiterten Optionen kann noch der Wochentag ausgewählt werden, an dem die Aufgabe laufen soll. Diese Option steht nur zur Verfügung, wenn als Planungsintervall „wöchentlich“ oder „monatlich“ ausgewählt wurde.<br> |
 

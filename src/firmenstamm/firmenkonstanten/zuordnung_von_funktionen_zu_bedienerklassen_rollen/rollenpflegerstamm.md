@@ -94,7 +94,7 @@ Besteht keine Autorisierung durch den bestimmenden Rollenkontext wird das Laufze
 
 | Suchkriterien | |
 | --- | --- |
-| Suchen | Sucht in den Feldern<br><ul><li>&nbsp;&nbsp;&nbsp; Pflegerstamm</li><li>&nbsp;&nbsp;&nbsp; Optionbox</li><li>&nbsp;&nbsp;&nbsp; Funktion</li><li>&nbsp;&nbsp;&nbsp; Rolle</li></ul> |
+| Suchen | Sucht in den Feldern<br><ul><li>Pflegerstamm</li><li>Optionbox</li><li>Funktion</li><li>Rolle</li></ul> |
 | Methode | Sucht im Feld „Methode“ |
 
 </details>

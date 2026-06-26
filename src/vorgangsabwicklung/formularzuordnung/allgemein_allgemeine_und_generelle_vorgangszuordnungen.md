@@ -4,7 +4,7 @@
 
 | Feld | Beschreibung |
 | --- | --- |
-| Periodenbehandlung | F3 Funktion zur Periodenbehandlung<br><ul><li>&nbsp;&nbsp;&nbsp; Jahresgrenzen/Inventurgrenzen</li><li>&nbsp;&nbsp;&nbsp; Lieferdatum nie in geschlossener Periode<br>&nbsp;</li></ul> |
+| Periodenbehandlung | F3 Funktion zur Periodenbehandlung<br><ul><li>Jahresgrenzen/Inventurgrenzen</li><li>Lieferdatum nie in geschlossener Periode<br>&nbsp;</li></ul> |
 | Lager / Strecke | F3 Funktion zur Auswahl Lager oder Strecke<br> |
 | Barabwicklung Vorgang (ohne Kassensystem) | F3 Auswahl Ja oder Nein<br> |
 | (Kassen)Konto für Barabwicklung | F3 Auswahl für Konto Barabwicklung<br> |

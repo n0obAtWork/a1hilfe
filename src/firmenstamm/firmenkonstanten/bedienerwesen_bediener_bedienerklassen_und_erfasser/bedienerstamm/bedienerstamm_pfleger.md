@@ -485,7 +485,7 @@ In diesem Register können Ausnahmen für die Ansicht einer spezifischen Auswahl
 | Bediener aktivieren | Setzt den Status auf aktiv. Nur möglich, wenn der Status auf inaktiv steht.<br> |
 | Bediener deaktivieren | Setzt den Status auf inaktiv. Nur möglich, wenn der Status auf aktiv steht.<br> |
 | Passwort zurücksetzten | Setzt das Passwort für diesen Bediener zurück.<br> |
-| Auswahlliste zurücksetzen | Hier werden die Einstellungen des Anwenders wieder auf Standard zurückgesetzt. Dazu gehören folgende Einstellungen:<br><ul><li>&nbsp;&nbsp;&nbsp; Sortierung</li><li>&nbsp;&nbsp;&nbsp; Ein oder ausgeblendete Spalten</li><li>&nbsp;&nbsp;&nbsp; Spaltenbreit und Position</li><li>&nbsp;&nbsp;&nbsp; Schriftart (nur AW 2.0)</li><li>&nbsp;&nbsp;&nbsp; Design (nur AW 2.0)</li><li>&nbsp;&nbsp;&nbsp; Excelaugabe (nur AW 2.0)</li><li>&nbsp;&nbsp;&nbsp; Gruppieren und Filterzeile<br>&nbsp;</li></ul> |
+| Auswahlliste zurücksetzen | Hier werden die Einstellungen des Anwenders wieder auf Standard zurückgesetzt. Dazu gehören folgende Einstellungen:<br><ul><li>Sortierung</li><li>Ein oder ausgeblendete Spalten</li><li>Spaltenbreit und Position</li><li>Schriftart (nur AW 2.0)</li><li>Design (nur AW 2.0)</li><li>Excelaugabe (nur AW 2.0)</li><li>Gruppieren und Filterzeile<br>&nbsp;</li></ul> |
 
 </details>
 

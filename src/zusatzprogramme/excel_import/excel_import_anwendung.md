@@ -26,4 +26,4 @@ oder Direktsprung [**EXCELI**]
 
 | **F2-Bereichsauswahl** | |
 | --- | --- |
-| Suchen | Sucht in den Feldern<br><ul><li>&nbsp;&nbsp;&nbsp; Name</li><li>&nbsp;&nbsp;&nbsp; Speicherort</li><li>&nbsp;&nbsp;&nbsp; Blatt-Name</li><li>&nbsp;&nbsp;&nbsp; Anwendung<br>&nbsp;</li></ul> |
+| Suchen | Sucht in den Feldern<br><ul><li>Name</li><li>Speicherort</li><li>Blatt-Name</li><li>Anwendung<br>&nbsp;</li></ul> |

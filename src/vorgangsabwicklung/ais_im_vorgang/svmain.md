@@ -25,7 +25,7 @@ Des Weiteren kann das AIS nach der Eingabe einer manuellen Adresse oder einer ma
 | --- | --- | --- |
 | UFLDID | Lesend | Mit dieser JAVR wird die UFLD ID des Feldes übergeben, welches geändert worden ist. Dieses Feld ist leer, wenn eine Aktualisierung der manuellen Versandadresse vorgenommen wird. |
 | VORGANGHANDLE | Lesend | Mit dieser JVAR wird der Vorgangshandel des aktiven Vorgangs übergeben. |
-| GLOBALREFRESH | Schreibend<br> | Diese JAVR kann aus dem Makro gesetzt werden, damit die Globale AIS Aktualisierung ausgeschaltet werden kann, wenn das UFLD-Feld den Wert „Update Mask“ auf ja stehen hat. Im Standard steht der Wert dieser JAVR auf 0<br><ul><li>&nbsp;&nbsp;&nbsp; 0 bedeutet Global Refresh</li><li>&nbsp;&nbsp;&nbsp; 1 bedeutet Eigenes Refresh</li></ul> |
+| GLOBALREFRESH | Schreibend<br> | Diese JAVR kann aus dem Makro gesetzt werden, damit die Globale AIS Aktualisierung ausgeschaltet werden kann, wenn das UFLD-Feld den Wert „Update Mask“ auf ja stehen hat. Im Standard steht der Wert dieser JAVR auf 0<br><ul><li>0 bedeutet Global Refresh</li><li>1 bedeutet Eigenes Refresh</li></ul> |
 | ID | Lesend | Ist der Wert der JVAR größer als 0, enthält die JVAR eine ID des Vorgangs, wie z.B. Die ID_VERSANDADRESSID |
 
 <p class="just-emphasize">Folgende User Felder lösen ein Globales Aktualisieren des AIS aus</p>

@@ -61,7 +61,7 @@ Zudem können sich in dieser Variante Funktionen - die über [Archiv Import](../
 | Belegnummer | |
 | Belegdatum | |
 | Beleg-Referenznr. | |
-| Herkunft | <ul><li>&nbsp;&nbsp;&nbsp; Intern</li><li>&nbsp;&nbsp;&nbsp; Extern</li><li>&nbsp;&nbsp;&nbsp; Manuell</li></ul> |
+| Herkunft | <ul><li>Intern</li><li>Extern</li><li>Manuell</li></ul> |
 | Anleger | |
 | Belegklasse | |
 | Mandant | |
