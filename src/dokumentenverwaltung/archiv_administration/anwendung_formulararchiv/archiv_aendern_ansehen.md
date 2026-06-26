@@ -109,15 +109,15 @@ Eine Möglichkeit ist die Integration der Aktualisierung im Mandantenserver mit 
 
 Hinweise bzgl. Möglicher Privatisierungen der Datenbank-Funktion die den nächsten zu bearbeitenden Kandidaten für die Aktualisierung heraussucht erhält man unter [Archiv Volltext-Recherche](../../archiv_manager/referenz/archiv_volltext_recherche.md)
 
-[Was ist eine Volltextsuche?](http://dcx.sybase.com/index.html#1201/de/dbusage/full-text-search-what-is-it.html)
+Was ist eine Volltextsuche?
 
-Die Volltextsuche stellt eine erweiterte Methode zum Durchsuchen einer Datenbank dar. Die Volltextsuche findet schnell alle Instanzen eines Begriffs (Worts) in einer Tabelle, ohne die Zeilen durchsuchen zu müssen und ohne wissen zu müssen, in welcher Spalte ein Begriff gespeichert ist. Bei der Volltextsuche werden **Textindizes** verwendet. Ein Textindex speichert Positionsinformationen für alle in den Spalten, für die Sie den Textindex erstellt haben, gefundenen Begriffe. Die Verwendung eines Textindexes kann bei der Suche nach Zeilen, die einen bestimmten Wert enthalten, gegenüber der Verwendung eines normalen Indexes schneller sein.
+: Die Volltextsuche stellt eine erweiterte Methode zum Durchsuchen einer Datenbank dar. Die Volltextsuche findet schnell alle Instanzen eines Begriffs (Worts) in einer Tabelle, ohne die Zeilen durchsuchen zu müssen und ohne wissen zu müssen, in welcher Spalte ein Begriff gespeichert ist. Bei der Volltextsuche werden **Textindizes** verwendet. Ein Textindex speichert Positionsinformationen für alle in den Spalten, für die Sie den Textindex erstellt haben, gefundenen Begriffe. Die Verwendung eines Textindexes kann bei der Suche nach Zeilen, die einen bestimmten Wert enthalten, gegenüber der Verwendung eines normalen Indexes schneller sein.
 
-Die Funktion der Volltextsuche in SQL Anywhere unterscheidet sich von einer Suche mit Prädikaten wie LIKE, REGEXP und SIMILAR TO, weil die Übereinstimmung begriffsbasiert und nicht musterbasiert ist.
+  Die Funktion der Volltextsuche in SQL Anywhere unterscheidet sich von einer Suche mit Prädikaten wie LIKE, REGEXP und SIMILAR TO, weil die Übereinstimmung begriffsbasiert und nicht musterbasiert ist.
 
-Zeichenfolgenvergleiche in der Volltextsuche verwenden alle üblichen Kollatierungseinstellungen für die Datenbank. Wenn die Datenbank beispielsweise dahingehend konfiguriert ist, die Groß-/Kleinschreibung nicht zu berücksichtigen, wird sie auch von der Volltextsuche nicht berücksichtigt.
+  Zeichenfolgenvergleiche in der Volltextsuche verwenden alle üblichen Kollatierungseinstellungen für die Datenbank. Wenn die Datenbank beispielsweise dahingehend konfiguriert ist, die Groß-/Kleinschreibung nicht zu berücksichtigen, wird sie auch von der Volltextsuche nicht berücksichtigt.
 
-Abgesehen von den angeführten Ausnahmen nutzt eine Volltextsuche alle internationalen Funktionen, die von SQL Anywhere unterstützt werden.
+  Abgesehen von den angeführten Ausnahmen nutzt eine Volltextsuche alle internationalen Funktionen, die von SQL Anywhere unterstützt werden.
 
 Die Volltextrecherche steht in der **Dokumentenverwaltung** ([**ODRNER**], **Strg-F12** und [**MYAR**]) und den Anwendungen „**Formulararchiv**“ [**FA**] und „**Formularchiv Administration**“ [**FAAD**] zur Verfügung.
 
