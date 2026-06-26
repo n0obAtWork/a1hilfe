@@ -18,9 +18,7 @@ Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Bas
         <td></td>
       </tr>
       <tr>
-        <td>
-          <p><img src="../../../../ImagesExt/image8_1524.png" alt=""></p>
-        </td>
+        <td><img src="../../../../ImagesExt/image8_1524.png" alt=""></td>
         <td>
           <p><strong>Tabelle</strong></p>
           <p>In dieser Tabelle lassen sich ausgewählte Daten darstellen. Die Tabelle ist <u>nicht</u> für Massendaten vorgesehen und bietet <u>nicht</u> die Möglichkeiten der Auswahlliste. Die angegebene Klick-Funktion reagiert beim Klick auf die Zeile. Aus der zugrundeliegenden View werden alle Spalten, die mit „col(“ beginnen, angezeigt. Dabei steht in Klammern die Überschrift. Die Breite richtet sich nach der Breite der Datenfelder, numerische Werte werden immer mit zwei Nachkommastellen ausgegeben.</p>

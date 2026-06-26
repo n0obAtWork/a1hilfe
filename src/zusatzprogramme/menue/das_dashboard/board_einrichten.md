@@ -90,8 +90,10 @@ Bei bereits eingerichtetem Dashboard erreicht man die Bearbeitungsmaske des Dash
                     <li>'none' as borderstyle</li>
                     <li>'solid' as borderstyle</li>
                     <li>'raised' as borderstyle</li>
-                    <li>'inset‘ as borderstyle<br>Standardeinstellung ist 'none'</li>
+                    <li>'inset‘ as borderstyle</li>
                   </ul>
+                  <br>
+                  Standardeinstellung ist 'none'
                 </td>
               </tr>
               <tr>

@@ -79,7 +79,7 @@ Im unteren Teil der Maske können die Zahlungsdienstleister eingerichtet werden.
           <p>Standardmäßig ist nur der Zahlungsdienstleister PayPal verfügbar. Hierfür wird eine <i>PayPal-Lizenz</i> benötigt.</p>
           <p>Des Weiteren besteht die Möglichkeit eigene Zahlungsdienstleister einzurichten (freier Datenimport). Zusätzliche Zahlungsdienstleister sind in dem Anwenderformat <b>AF_DTADISKTP</b> zu hinterlegen. Voraussetzung ist die Lizenz <i>Freier Datenimport.</i></p>
           <p>Wird ein neuer Zahlungsdienstleister für den freien Datenimport (z.B. Amazon) eingerichtet, so erscheint im Untermenü „Datei laden“ eine neue private Funktion, über die die entsprechenden Kontoauszüge eingespielt werden können.</p>
-          <p><img src="../../ImagesExt/image8_677.png" alt=""></p>
+          <img src="../../ImagesExt/image8_677.png" alt="">
         </td>
       </tr>
       <tr>

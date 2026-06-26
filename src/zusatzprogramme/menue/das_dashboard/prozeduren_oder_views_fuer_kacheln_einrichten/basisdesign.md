@@ -74,8 +74,9 @@ Jede Prozedur bzw. jede View kann zur Gestaltung die folgenden Felder verwenden.
             <li>'none' as borderstyle</li>
             <li>'solid' as borderstyle</li>
             <li>'raised' as borderstyle</li>
-            <li>'inset‘ as borderstyle<br>Standardeinstellung ist 'none'</li>
+            <li>'inset‘ as borderstyle</li>
           </ul>
+          <p>Standardeinstellung ist 'none'</p>
         </td>
       </tr>
       <tr>
@@ -141,7 +142,7 @@ Jede Prozedur bzw. jede View kann zur Gestaltung die folgenden Felder verwenden.
         </td>
         <td>
           <p>Zusätzlich besteht die Möglichkeit der Kachel einen Tooltip zuzuordnen. Dafür kann man in der View diese Felder verwenden. Diese Texte lassen sich <b><u>nicht</u></b> mit HTML formatieren. Nur ein Zeilenumbruch kann mit &lt;br&gt; erzwungen werden.</p>
-          <p><img src="../../../../ImagesExt/image8_1491.png" alt=""></p>
+          <img src="../../../../ImagesExt/image8_1491.png" alt="">
         </td>
       </tr>
       <tr>

@@ -127,8 +127,13 @@ FIELD Kunden-&lt;br&gt;bezeichnung,Kundbezeich,char,30
                     <li><b>endet mit</b></li>
                     <li><b>endet nicht mit</b></li>
                     <li><b>enthält</b></li>
-                    <li><b>enthält nicht</b><br>Die Werte können mit oder ohne Leerzeichen angegeben werden, also „endet nicht mit“ oder „endetnichtmit“. Groß- und Kleinschreibung muss nicht beachtet werden.<br>Beispiel:</li>
+                    <li><b>enthält nicht</b></li>
                   </ul>
+                  <br>
+                  Die Werte können mit oder ohne Leerzeichen angegeben werden, also „endet nicht mit“ oder „endetnichtmit“. Groß- und Kleinschreibung muss nicht beachtet werden.
+                  <br>
+                  Beispiel:
+                  <br>
                   <code>FIELD Bezeichnung,sachkontbez,char,53,FILTERCOMPARISION=BeginntMit</code>
                 </td>
               </tr>
@@ -184,12 +189,8 @@ FIELD Bezeichnung,AnkaGrupBezeich,char,40,MINWIDTH=30
                         </th>
                       </tr>
                       <tr>
-                        <td>
-                          <p><img src="../../ImagesExt/image8_1335.png" alt=""></p>
-                        </td>
-                        <td>
-                          <p><img src="../../ImagesExt/image8_1336.png" alt=""></p>
-                        </td>
+                        <td><img src="../../ImagesExt/image8_1335.png" alt=""></td>
+                        <td><img src="../../ImagesExt/image8_1336.png" alt=""></td>
                       </tr>
                     </tbody>
                   </table>
@@ -562,7 +563,7 @@ IDSQL select *
           <div>
             <code>INFO nach Bezeichnung</code>
           </div>
-          <p><img src="../../ImagesExt/image8_1337.png" alt=""></p>
+          <img src="../../ImagesExt/image8_1337.png" alt="">
         </td>
       </tr>
       <tr>
@@ -591,7 +592,7 @@ IDSQL select *
           <div>
             <code>TITLE Gesamtverzeichnis Direktsprünge</code>
           </div>
-          <p><img src="../../ImagesExt/image8_1338.png" alt=""></p>
+          <img src="../../ImagesExt/image8_1338.png" alt="">
         </td>
       </tr>
       <tr>
@@ -606,7 +607,7 @@ IDSQL select *
           <div>
             <code>IB_LABEL Bezeichnung wie</code>
           </div>
-          <p><img src="../../ImagesExt/image8_1339.png" alt=""></p>
+          <img src="../../ImagesExt/image8_1339.png" alt="">
         </td>
       </tr>
       <tr>

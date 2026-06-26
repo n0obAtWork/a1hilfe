@@ -70,8 +70,9 @@ END</code></pre>
             <li>30 Scheckziehung an Auftraggeber, Versandform freigestellt</li>
             <li>31 Scheckziehung an Auftraggeber, Versandform Einschreiben</li>
             <li>32 Scheckziehung an Auftraggeber, Versandform Eilboten</li>
-            <li>33 Scheckziehung an Auftraggeber, Versandform Einschreiben/Eilboten<br>Zahlungsart 11 und 13 sind nur zugelassen, wenn die Auftragswährung EURO ist<br>Bei der EU-Standardüberweisung (13) wird geprüft, ob das Land der Kundenbank zu den für EU-Standardüberweisungen zulässigen Ländern gehört. Zulässige Länder für die EU Standardüberweisung sind zurzeit:</li>
+            <li>33 Scheckziehung an Auftraggeber, Versandform Einschreiben/Eilboten</li>
           </ul>
+          <p>Zahlungsart 11 und 13 sind nur zugelassen, wenn die Auftragswährung EURO ist<br>Bei der EU-Standardüberweisung (13) wird geprüft, ob das Land der Kundenbank zu den für EU-Standardüberweisungen zulässigen Ländern gehört. Zulässige Länder für die EU Standardüberweisung sind zurzeit:</p>
           <table>
             <tbody>
               <tr>
@@ -225,8 +226,9 @@ END</code></pre>
             <li>9 Begünstigten per Telefon avisieren</li>
             <li>10 Begünstigten per Telekommunikation avisieren</li>
             <li>11 Deckung z.b. für Devisen- oder Wertpapier-Geschäft</li>
-            <li>12 Konzern-interne Zahlung<br>Weisungsschlüssel 4 kann noch 91 "Euro – Gegenwertzahlung" sein.</li>
+            <li>12 Konzern-interne Zahlung</li>
           </ul>
+          <p>Weisungsschlüssel 4 kann noch 91 "Euro – Gegenwertzahlung" sein.</p>
         </td>
       </tr>
       <tr>

@@ -285,8 +285,9 @@ Die Untersuchung der Feuchte von Saatgut dient der Beurteilung der Lagerfähigke
           <ul>
             <li>Nein</li>
             <li>Grob</li>
-            <li>Fein<br>Die Ausprägungen werden im Anwenderformat AF_FESCHROTE gespeichert</li>
+            <li>Fein</li>
           </ul>
+          <p>Die Ausprägungen werden im Anwenderformat AF_FESCHROTE gespeichert</p>
         </td>
       </tr>
       <tr>
@@ -305,8 +306,9 @@ Die Untersuchung der Feuchte von Saatgut dient der Beurteilung der Lagerfähigke
           <p>In diesem Feld wird die Temperatur eingetragen. Folgende Ausprägungen sind möglich</p>
           <ul>
             <li>Niedrig (101-105°C)</li>
-            <li>Hoch (130-133)<br>Die Daten werden im Anwenderformat „AF_FETEMP“ hinterlegt.</li>
+            <li>Hoch (130-133)</li>
           </ul>
+          <p>Die Daten werden im Anwenderformat „AF_FETEMP“ hinterlegt.</p>
         </td>
       </tr>
       <tr>

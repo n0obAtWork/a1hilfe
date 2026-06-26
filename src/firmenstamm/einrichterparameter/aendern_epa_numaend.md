@@ -30,8 +30,9 @@
             <li>Test und Warnung</li>
             <li>Test und Fehler</li>
             <li>Teste Jahr mit Warnung</li>
-            <li>Teste Jahr und Fehler<br>Beim Test Jahr muss das Belegdatum nur im aktuellen Jahr liegen. Bei Warnung wird nur ein Hinweis auf das inkorrekte Datum gegeben und man kann weiter erfassen.</li>
+            <li>Teste Jahr und Fehler</li>
           </ul>
+          <p>Beim Test Jahr muss das Belegdatum nur im aktuellen Jahr liegen. Bei Warnung wird nur ein Hinweis auf das inkorrekte Datum gegeben und man kann weiter erfassen.</p>
         </td>
       </tr>
     </tbody>

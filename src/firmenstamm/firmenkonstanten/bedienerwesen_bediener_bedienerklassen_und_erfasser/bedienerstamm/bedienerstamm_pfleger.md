@@ -174,8 +174,9 @@ Dieser Pfleger dient zur Änderung und Erstellung von Bedienern
           <ul>
             <li>Standard Programmvorgabe. Diese kann eine der beiden folgenden sein:</li>
             <li>Feste Fensterdefinition , neues Design. Diese Einstellung entspricht der dokumentierten F3-Auswahl.</li>
-            <li>Verschiebbare F3-Auswahl, altes Design.<br>Mit dem A.eins-Startparameter ITEMBOX=FALSE wird die Standard-Programmvorgabe auf „Verscheibbare F3-Auswahl gesetzt. Ansonsten ist der Standard die neue Version der Itembox.<br><br></li>
+            <li>Verschiebbare F3-Auswahl, altes Design.</li>
           </ul>
+          <p>Mit dem A.eins-Startparameter ITEMBOX=FALSE wird die Standard-Programmvorgabe auf „Verscheibbare F3-Auswahl gesetzt. Ansonsten ist der Standard die neue Version der Itembox.<br><br></p>
         </td>
       </tr>
       <tr>

@@ -18,9 +18,7 @@ Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Bas
         <td></td>
       </tr>
       <tr>
-        <td>
-          <p><img alt="Ein Bild, das Text enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1493.png"></p>
-        </td>
+        <td><img alt="Ein Bild, das Text enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1493.png"></td>
         <td>
           <p><strong>Text</strong></p>
           <p>Für die Darstellungsart Text benötigt die View zusätzlich zu den Standardfeldern nur das Feld <b>Text</b>. Optional kann noch Textalign verwendet werden, um anzugeben, wo der Text dargestellt wird. Mögliche Werte sind 'left', 'center' und 'right'. Wird Textalig nicht angegeben, so wird der Text zentriert dargestellt.</p>

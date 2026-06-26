@@ -173,8 +173,10 @@ Hier ist eine Auflistung der einzelnen Felder auf den Tabreitern der Maske.
           <p>F3 Auswahl</p>
           <ul>
             <li>Ja</li>
-            <li>Nein<br>JA = Preis pro Gebindeanzahl<br>NEIN = Preis pro Ergebnismenge</li>
+            <li>Nein</li>
           </ul>
+          <p>JA = Preis pro Gebindeanzahl</p>
+          <p>NEIN = Preis pro Ergebnismenge</p>
         </td>
       </tr>
       <tr>
@@ -185,8 +187,9 @@ Hier ist eine Auflistung der einzelnen Felder auf den Tabreitern der Maske.
           <p>F3 Auswahl</p>
           <ul>
             <li>Ja</li>
-            <li>Nein<br>Bei der Angabe von „Ja“ wird nach der Ergebnismengeneingabe der Faktor 1 neu bestimmt.</li>
+            <li>Nein</li>
           </ul>
+          <p>Bei der Angabe von „Ja“ wird nach der Ergebnismengeneingabe der Faktor 1 neu bestimmt.</p>
         </td>
       </tr>
       <tr>
@@ -198,8 +201,9 @@ Hier ist eine Auflistung der einzelnen Felder auf den Tabreitern der Maske.
           <p>F3 Auswahl</p>
           <ul>
             <li>Ja</li>
-            <li>Nein<br>Bei der Angabe von „Ja“ wird der Faktor 3 bei der Ergebnismengeneingabe ignoriert.</li>
+            <li>Nein</li>
           </ul>
+          <p>Bei der Angabe von „Ja“ wird der Faktor 3 bei der Ergebnismengeneingabe ignoriert.</p>
         </td>
       </tr>
       <tr>
@@ -211,8 +215,9 @@ Hier ist eine Auflistung der einzelnen Felder auf den Tabreitern der Maske.
           <ul>
             <li>Nein</li>
             <li>Anzeigen</li>
-            <li>Eingebbar<br>Steuert die Anzeige / Eingabe von Zwischenergebnissen auf der Gebinde-Maske.</li>
+            <li>Eingebbar</li>
           </ul>
+          <p>Steuert die Anzeige / Eingabe von Zwischenergebnissen auf der Gebinde-Maske.</p>
         </td>
       </tr>
       <tr>
@@ -231,8 +236,9 @@ Hier ist eine Auflistung der einzelnen Felder auf den Tabreitern der Maske.
           <p>F3 Auswahl</p>
           <ul>
             <li>Ja</li>
-            <li>Nein<br>Steuert die Anzeige des Automatikfensters in der Vorgangsverarbeitung.</li>
+            <li>Nein</li>
           </ul>
+          <p>Steuert die Anzeige des Automatikfensters in der Vorgangsverarbeitung.</p>
         </td>
       </tr>
       <tr>

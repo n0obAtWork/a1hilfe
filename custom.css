@@ -122,6 +122,13 @@ td p:last-of-type {
     margin-left: -2.5rem;
 }
 
+/* Bild-only-Zellen in (rohen) Tabellen: Eigenbreite erlauben. Sonst kollabiert bei
+   .table-wrapper table{width:100%} + Auto-Layout die Bildspalte neben einer "gierigen"
+   Textspalte auf 0 -> Bild unsichtbar (z.B. kachelkarte image8_1512.png). */
+.table-wrapper td>img:only-child {
+    max-width: none;
+}
+
 .space-above {
     margin-top: 3rem;
 }

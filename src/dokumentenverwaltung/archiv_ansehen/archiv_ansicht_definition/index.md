@@ -77,7 +77,7 @@ Tabelle 5 Wichtige Archiv-Ansicht-Definitions-Begriffe
           <p>JA/NEIN</p>
           <p>Bestimmt ob „persönliche Dokumente“ beim Öffnen/Ausführen der Ansicht über <strong>CF12</strong> dem Kontext der entsprechenden A.eins-Lokalität zugewiesen werden sollen – oder nicht.</p>
           <p>A.eins bietet die Möglichkeit „persönliche/private“ Dokumente, die sogenannten „freien Dokumente“ (Belegklasse 9000) ins System zu importieren. Diese haben die Eigenschaft, dass, wenn man an geeigneter Stelle eine Formulararchiv-Ansicht aufruft, sie eben diesen aufgerufenen Kontext zugeordnet werden. Weitere Erläuterungen/Konfigurierungen bei der Behandlung der „Details“ .</p>
-          <p><img src="../../../ImagesExt/image8_919.png" alt=""></p>
+          <img src="../../../ImagesExt/image8_919.png" alt="">
           <p>„Geeignete Stellen“ sind somit Profile/Ansicht – Umgebungen, in denen man eben hier diese Möglichkeit vorsieht.</p>
           <p>So bietet es die Möglichkeit, 9000er-Zuweisungen auf bestimmte Bereiche einzugrenzen. Eben weil man u. U. viel mit <strong>SF4</strong> arbeitet und ansonsten eine „Fehlzuweisung“ passieren könnte.</p>
         </td>

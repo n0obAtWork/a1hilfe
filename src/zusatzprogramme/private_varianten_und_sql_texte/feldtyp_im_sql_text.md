@@ -155,8 +155,10 @@ Die Auswahlliste stellt Felder je nach Feldtyp dar. Dabei kann sich der Feldtyp 
             <li>JJJJ =&gt; Jahr (z. B. 2026)</li>
             <li>HH =&gt; Stunde im 24-Stunden-Format (00–23)</li>
             <li>mm =&gt; Minuten (00–59)</li>
-            <li>ss =&gt; Sekunden (00–59)<br><u>Beispiel</u>:<br>09.05.2026 11.37.58<br>Dieser Zeitstempel stellt Datum und Uhrzeit dar und wird typischerweise für präzise Protokollierung oder eindeutige Zeitangaben verwendet. Wird ein Timestamp anstelle von Char zur Darstellung in der Auswahlliste verwendet, so kann die Sortierung über die Titel-Zeile korrekte erfolgen.</li>
+            <li>ss =&gt; Sekunden (00–59)</li>
           </ul>
+          <p><u>Beispiel</u>:<br>09.05.2026 11.37.58</p>
+          <p>Dieser Zeitstempel stellt Datum und Uhrzeit dar und wird typischerweise für präzise Protokollierung oder eindeutige Zeitangaben verwendet. Wird ein Timestamp anstelle von Char zur Darstellung in der Auswahlliste verwendet, so kann die Sortierung über die Titel-Zeile korrekte erfolgen.</p>
         </td>
       </tr>
       <tr>
@@ -222,7 +224,7 @@ Die Auswahlliste stellt Felder je nach Feldtyp dar. Dabei kann sich der Feldtyp 
             <li>text/html =&gt; HTML-Seite</li>
             <li>image/png =&gt; PNG-Bild</li>
             <li>application/pdf =&gt; PDF-Dokument</li>
-            <li>…<br><b></b>&nbsp;</li>
+            <li>…</li>
           </ul>
         </td>
       </tr>

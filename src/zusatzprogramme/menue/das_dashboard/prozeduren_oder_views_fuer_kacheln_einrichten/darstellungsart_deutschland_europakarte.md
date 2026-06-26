@@ -18,9 +18,7 @@ Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Bas
         <td></td>
       </tr>
       <tr>
-        <td>
-          <p><img alt="Ein Bild, das Karte enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1512.png"></p>
-        </td>
+        <td><img alt="Ein Bild, das Karte enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1512.png"></td>
         <td>
           <p><strong>Deutschland- und Europakarte</strong></p>
           <p>Es steht eine Karte von Deutschland und Europa zur Verfügung, in der man sich Google-Maps Koordinaten anzeigen kann. Zusätzlich zu den Standardfeldern müssen die Felder <b>Label, X, Y</b> angegeben werden.</p>
@@ -66,7 +64,7 @@ Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Bas
             </tbody>
           </table>
           <p>Zu einer Serie kann man einen <b>SeriesTitle</b> angeben, der erscheint, wenn man auf den Knopf rechts oben klickt. Dieser Knopf ist nur dann sichtbar, wenn man mehrere Serien verwendet. Hierüber können dann einzelne Serien ein- und ausgeblendet werden.:</p>
-          <p><img alt="Ein Bild, das Text, Brief enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1523.png"></p>
+          <img alt="Ein Bild, das Text, Brief enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1523.png">
           <p>Mit dem mittleren Mausrad oder den Tasten Bild▼ und Bild▲ lässt sich ein Ausschnitt vergrößern oder verkleinern.</p>
           <p>Mit Strg+Maus lässt sich ein Bereich auswählen.</p>
           <p>Mit den Pfeiltasten lässt sich der Bereich verschieben.</p>

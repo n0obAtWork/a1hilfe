@@ -18,9 +18,7 @@ Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Bas
         <td></td>
       </tr>
       <tr>
-        <td>
-          <p><img alt="Ein Bild, das Diagramm enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1509.png"></p>
-        </td>
+        <td><img alt="Ein Bild, das Diagramm enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1509.png"></td>
         <td>
           <p><strong>Kombinationsdiagramm</strong></p>
           <p>Das Kombinationsdiagramm unterscheidet sich vom <a href="./darstellungsart_saeulen_flaechen_und_liniendiagramm.md">Säulen-, Flächen- und Liniendiagramm</a> dadurch, dass im Kombinationsdiagramm für jede Serie eine Darstellungsart ausgewählt wird. Die Darstellungsart wird in der View/Prozedur mit dem Feld <b>SeriesType</b> angegeben.</p>

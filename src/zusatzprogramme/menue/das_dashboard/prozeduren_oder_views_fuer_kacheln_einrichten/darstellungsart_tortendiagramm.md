@@ -18,9 +18,7 @@ Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Bas
         <td></td>
       </tr>
       <tr>
-        <td>
-          <p><img alt="Ein Bild, das Diagramm, Tortendiagramm enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1499.png"></p>
-        </td>
+        <td><img alt="Ein Bild, das Diagramm, Tortendiagramm enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1499.png"></td>
         <td>
           <p><strong>Tortendiagramm</strong></p>
           <p>In einem Tortendiagramm können bis zu zehn Datensätze („Tortenstücke“) angezeigt werden. Der Wert und die Bezeichnung des Datensatzes werden in der View/Prozedur mit den Feldern <b>Wert</b> und <b>Label</b> angegeben.</p>
@@ -37,8 +35,13 @@ Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Bas
             <li>Bottom</li>
             <li>Top<br>LegendOrientation</li>
             <li>Vertical</li>
-            <li>Horizontal<br>Hinweis:<br><i>Im Tortendiagramm besteht die Möglichkeit die Klick-Funktion über die Legende auszuführen.</i><br><u>Tooltipp</u><u></u><br>Mit dem Feld <b>SliceTooltip</b> kann der Tooltip über HTML formatiert werden. Der Tooltip erscheint, wenn der Mauszeiger über einen Datenpunkt des Diagramms bewegt wird. Existiert das Feld <b>SliceTooltip</b> nicht in der View/Prozedur, so wird der Tooltip nicht angezeigt.<br>Beispielview:</li>
+            <li>Horizontal</li>
           </ul>
+          <p>Hinweis:</p>
+          <p><i>Im Tortendiagramm besteht die Möglichkeit die Klick-Funktion über die Legende auszuführen.</i></p>
+          <p><u>Tooltipp</u><u></u></p>
+          <p>Mit dem Feld <b>SliceTooltip</b> kann der Tooltip über HTML formatiert werden. Der Tooltip erscheint, wenn der Mauszeiger über einen Datenpunkt des Diagramms bewegt wird. Existiert das Feld <b>SliceTooltip</b> nicht in der View/Prozedur, so wird der Tooltip nicht angezeigt.</p>
+          <p>Beispielview:</p>
           <div>
             <pre><code>CREATE VIEW p_dash_torte AS
 select

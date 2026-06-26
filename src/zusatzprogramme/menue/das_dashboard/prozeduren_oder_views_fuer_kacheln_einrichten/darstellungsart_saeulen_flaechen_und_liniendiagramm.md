@@ -18,11 +18,7 @@ Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Bas
         <td></td>
       </tr>
       <tr>
-        <td>
-          <p><img alt="Ein Bild, das Diagramm enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1500.png"></p>
-          <p><img alt="Ein Bild, das Diagramm enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1501.png"></p>
-          <p><img alt="Ein Bild, das Diagramm enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1502.png"></p>
-        </td>
+        <td><img alt="Ein Bild, das Diagramm enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1500.png"> <img alt="Ein Bild, das Diagramm enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1501.png"> <img alt="Ein Bild, das Diagramm enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1502.png"></td>
         <td>
           <p><strong>Säulen-, Flächen und Liniendiagramm</strong></p>
           <p>In einem Säulen-, Flächen und Liniendiagramm können jeweils bis zu <u>zehn</u> Serien (Datenreihen) angezeigt werden. Dabei wird jede Serie in einer eigenen Farbe dargestellt. Jede Serie besteht aus ein oder mehreren Datenpunkten. Die Datenpunkte werden mit <b>X</b> (Werte der horizontalen Achse) und <b>Y</b> (Werte der vertikalen Achse) angegeben.</p>
@@ -34,7 +30,7 @@ Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Bas
           <p>Handelt es sich bei X-Achse um eine Datumsachse (XAxisType „date“), so wird das Intervall in Form von Anzahl in Tagen festgelegt.</p>
           <p><u>Darstellung mehrerer Datenreihen</u><u></u></p>
           <p>Um mehrere Serien in einem Diagramm darzustellen, ist in dem Feld „Serie“ für jede Datenreihe jeweils ein Wert (0 bis 9) anzugeben. Für jede Serie kann außerdem mithilfe des Feldes <b>SeriesTitle</b> ein Titel vergeben werden. Der Titel wird u.a. in der Legende und ggf. im Tooltip angezeigt. Sind mehrere Serien in einem Diagramm vorhanden, können über dem Knopf mit dem „Pfeil“ Serien ein- und ausgeblendet werden:</p>
-          <p><img alt="Ein Bild, das Diagramm enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1503.png"></p>
+          <img alt="Ein Bild, das Diagramm enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1503.png">
           <p><u>Balken und Säulen überlagern</u><u></u></p>
           <p>Mit dem Feld <b>OverlapValue</b> kann für Säulen- und Balkendiagramme der Abstand zwischen den Säulen bzw. Balken verringert werden. Der Wert kann zwischen 0 und 1 reichen, wobei der Standardwert 0 ist. Für andere Diagrammarten hat das Feld keine Auswirkung.</p>
           <table>
@@ -59,8 +55,16 @@ Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Bas
             <li>Bottom</li>
             <li>Top<br>LegendOrientation</li>
             <li>Vertical</li>
-            <li>Horizontal<br><img alt="Ein Bild, das Text enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1506.png"><br><u>Tooltipp</u><u></u><br>Mit dem Feld <b>SeriesTooltip</b> kann der Tooltip über HTML formatiert werden. Der Tooltip erscheint, wenn der Mauszeiger über einen Datenpunkt des Diagramms bewegt wird. Existiert das Feld <b>SeriesTooltip</b> nicht in der View/Prozedur, so wird der Tooltipp nicht angezeigt.<br><img src="../../../../ImagesExt/image8_1507.png" alt=""><br><u></u>&nbsp;<br><u>Datenbeschriftung</u><u></u><br>Mit dem Feld <b>ValueLabelVisible</b> kann eine Datenbeschriftung im Diagramm aktiviert bzw. deaktiviert werden. Der Standardwert ist 0 (deaktiviert).<br><img src="../../../../ImagesExt/image8_1508.png" alt=""><br><u></u>&nbsp;<br><u></u>&nbsp;<br>Beispielview:<br><u></u>&nbsp;</li>
+            <li>Horizontal</li>
           </ul>
+          <img alt="Ein Bild, das Text enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1506.png">
+          <p><u>Tooltipp</u><u></u></p>
+          <p>Mit dem Feld <b>SeriesTooltip</b> kann der Tooltip über HTML formatiert werden. Der Tooltip erscheint, wenn der Mauszeiger über einen Datenpunkt des Diagramms bewegt wird. Existiert das Feld <b>SeriesTooltip</b> nicht in der View/Prozedur, so wird der Tooltipp nicht angezeigt.</p>
+          <img src="../../../../ImagesExt/image8_1507.png" alt="">
+          <p><u>Datenbeschriftung</u><u></u></p>
+          <p>Mit dem Feld <b>ValueLabelVisible</b> kann eine Datenbeschriftung im Diagramm aktiviert bzw. deaktiviert werden. Der Standardwert ist 0 (deaktiviert).</p>
+          <img src="../../../../ImagesExt/image8_1508.png" alt="">
+          <p>Beispielview:</p>
           <div>
             <pre><code>CREATE VIEW p_dash_saeule AS
   With daten as (

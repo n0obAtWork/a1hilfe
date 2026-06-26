@@ -56,7 +56,7 @@ oder Direktsprung [**EXCELI**]
           <p>Der Standardwert ist „0“.</p>
           <p>Beispiel:</p>
           <p>Befinden sich die Spaltenüberschriften in Zeile „3“, so ist hier ein Offset von „2“ einzutragen. Die ersten zwei Zeilen werden übersprungen.</p>
-          <p><img src="../../ImagesExt/image8_1528.png" alt=""></p>
+          <img src="../../ImagesExt/image8_1528.png" alt="">
         </td>
       </tr>
       <tr>
@@ -68,7 +68,7 @@ oder Direktsprung [**EXCELI**]
           <p>Der Standardwert ist „0“.</p>
           <p>Beispiel:</p>
           <p>Beginnen die Daten in Spalte „3“ („C“), so ist hier ein Offset von „2“ anzugeben. Damit werden die ersten beiden Spalten übersprungen.</p>
-          <p><img src="../../ImagesExt/image8_1529.png" alt=""></p>
+          <img src="../../ImagesExt/image8_1529.png" alt="">
         </td>
       </tr>
       <tr>

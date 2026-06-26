@@ -259,8 +259,9 @@ In diesem Eingabebildschirm können die nachfolgenden Felder bearbeitet werden:
           <ul>
             <li>Kein DTA</li>
             <li>Standart DTA</li>
-            <li>Euro-DTA<br>Standard DTA ist der vor der Einführung des Euros gültige DTA Methode. Für Euro und alle Fremdwährungen; die für die Bankbuchungen umgerechnet werden sollen, muss hier Euro DTA hinterlegt werden.</li>
+            <li>Euro-DTA</li>
           </ul>
+          <p>Standard DTA ist der vor der Einführung des Euros gültige DTA Methode. Für Euro und alle Fremdwährungen; die für die Bankbuchungen umgerechnet werden sollen, muss hier Euro DTA hinterlegt werden.</p>
         </td>
       </tr>
       <tr>

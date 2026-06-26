@@ -26,7 +26,7 @@ Nach Auswahl von Dokumenten werden die PDF-Dokumente gefiltert und zum Druck ang
         <td>
           <p>Angabe des Windows-Druckers</p>
           <p>Die Online-Verfügbarkeit wird geprüft und optisch durch einen grünen Haken belegt.</p>
-          <p><img src="../../../ImagesExt/image8_848.png" alt=""></p>
+          <img src="../../../ImagesExt/image8_848.png" alt="">
           <p>Mausklick auf dieses Sysmbol oder betätigen der F3-Taste ruft den „Windows-Drucker-Auswahl-Dialog“ auf.</p>
           <p>Die Angabe des Druckers wird sich für den erneuten Aufruf gemerkt und ist bei Ersteintritt der Windows-Standard-Drucker.</p>
         </td>

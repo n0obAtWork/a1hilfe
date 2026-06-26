@@ -144,8 +144,9 @@ Wenn man auf ein Eingabefeld klickt, so öffnet sich eine Maske mit folgenden Fe
             <li>5 für Ändern</li>
             <li>7 für Löschen</li>
             <li>8 für Neu</li>
-            <li>77 für Undelete<br><br>Die Funktion OnsSaveValid wird aufgerufen, nachdem die programmeigene Funktion ausgeführt wurde und nur dann, wenn die programmeigene Funktion Ok signalisierte. OnSaveValid muss 0 zurückliefern, wenn Speichern erlaubt sein soll ansonsten einen beliebigen Wert größer 0, wenn nicht gespeichert oder gelöscht werden soll:<br>Die anderen Funktionen werden aufgerufen, nachdem gespeichert wurde, oder Speichern mit Nein oder mit Abbruch verlassen wurde.<br>Wenn man ein User-JPL – nicht bei Verwendung eines Makros - &nbsp;angebunden hat, dann werden die Funktionen sofort angelegt. Beispiel für OnSaveJa:<br><br><br><b></b>&nbsp;<br><b>Hinweis</b>: Der Modus 7 (Löschen) wird extra im Template separat behandelt, damit nicht vergessen wird, dass diese Funktion auch bei Löschen aufgerufen wird!</li>
+            <li>77 für Undelete</li>
           </ul>
+          <p><br>Die Funktion OnsSaveValid wird aufgerufen, nachdem die programmeigene Funktion ausgeführt wurde und nur dann, wenn die programmeigene Funktion Ok signalisierte. OnSaveValid muss 0 zurückliefern, wenn Speichern erlaubt sein soll ansonsten einen beliebigen Wert größer 0, wenn nicht gespeichert oder gelöscht werden soll:</p>
           <div>
             <pre><code>proc UserSaveValid(modus)
 {
@@ -157,6 +158,8 @@ Wenn man auf ein Eingabefeld klickt, so öffnet sich eine Maske mit folgenden Fe
   Return 0
 }</code></pre>
           </div>
+          <p>Die anderen Funktionen werden aufgerufen, nachdem gespeichert wurde, oder Speichern mit Nein oder mit Abbruch verlassen wurde.</p>
+          <p>Wenn man ein User-JPL – nicht bei Verwendung eines Makros - &nbsp;angebunden hat, dann werden die Funktionen sofort angelegt. Beispiel für OnSaveJa:<br><br></p>
           <div>
             <pre><code>proc UserSaveJa(modus)
 {
@@ -167,6 +170,7 @@ Wenn man auf ein Eingabefeld klickt, so öffnet sich eine Maske mit folgenden Fe
   return
 }</code></pre>
           </div>
+          <p><b>Hinweis</b>: Der Modus 7 (Löschen) wird extra im Template separat behandelt, damit nicht vergessen wird, dass diese Funktion auch bei Löschen aufgerufen wird!</p>
         </td>
       </tr>
       <tr>

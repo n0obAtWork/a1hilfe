@@ -18,11 +18,7 @@ Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Bas
         <td></td>
       </tr>
       <tr>
-        <td>
-          <p><img alt="Ein Bild, das Text, Uhr, Screenshot enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1495.png"></p>
-          <p><img alt="Ein Bild, das Text, Uhr enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1496.png"></p>
-          <p><img alt="Ein Bild, das Diagramm enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1497.png"></p>
-        </td>
+        <td><img alt="Ein Bild, das Text, Uhr, Screenshot enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1495.png"> <img alt="Ein Bild, das Text, Uhr enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1496.png"> <img alt="Ein Bild, das Diagramm enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1497.png"></td>
         <td>
           <p><strong>Skala</strong></p>
           <p>Die Skala ähnelt sehr dem Fortschrittsbalken, hat jedoch ein paar mehr Einstellmöglichkeiten:</p>

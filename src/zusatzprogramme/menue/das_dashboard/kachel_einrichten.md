@@ -66,7 +66,7 @@ Auf einem bereits eingerichteten Dashboard erreicht man die Bearbeitungsmaske de
             <pre><code>Create procedure p_dash_kachel(in integer bedienerid)
 .</code></pre>
           </div>
-          <p><img src="../../../ImagesExt/image8_1490.png" alt=""></p>
+          <img src="../../../ImagesExt/image8_1490.png" alt="">
         </td>
       </tr>
       <tr>

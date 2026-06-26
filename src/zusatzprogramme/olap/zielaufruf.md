@@ -21,8 +21,9 @@ An die JPL namens OLAP.j werden folgende Parameter übergeben:
         <td>
           <p>Anzeigekommando</p>
           <ul>
-            <li>Sollen die Daten nur angezeigt werden ohne Designer, dann wird hier „SHOW“ angegeben<br>Soll die Auswertung automatisiert gedruckt werden wird hier „PRINT“ angegeben</li>
+            <li>Sollen die Daten nur angezeigt werden ohne Designer, dann wird hier „SHOW“ angegeben</li>
           </ul>
+          <p>Soll die Auswertung automatisiert gedruckt werden wird hier „PRINT“ angegeben</p>
         </td>
       </tr>
       <tr>

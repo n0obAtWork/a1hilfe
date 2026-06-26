@@ -25,11 +25,9 @@ Beispiel für einen Barcode, der eine vierstellige Artikelnummer, einen vierstel
   <table>
     <tbody>
       <tr>
+        <td><img src="../../../ImagesExt/image8_432.jpg" alt=""></td>
         <td>
-          <p><img src="../../../ImagesExt/image8_432.jpg" alt=""></p>
-        </td>
-        <td>
-          <p><img src="../../../ImagesExt/image8_433.jpg" alt=""></p>
+          <img src="../../../ImagesExt/image8_433.jpg" alt="">
           <table>
             <tbody>
               <tr>

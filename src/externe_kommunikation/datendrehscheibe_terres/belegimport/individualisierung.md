@@ -25,7 +25,7 @@ Die Makros werden mit 4 Übergabeparametern aufgerufen.
         </td>
         <td>
           <p><img alt="*" src="../../../ImagesExt/image8_1556.jpg">&nbsp;&nbsp; Dieser Parameter enthält den Modus, durch welchen das Makro aufgerufen wurde. Mögliche Werte stehen in der folgenden Tabelle.</p>
-          <p><img alt="*" src="../../../ImagesExt/image8_1556.jpg">&nbsp;&nbsp;</p>
+          <img alt="*" src="../../../ImagesExt/image8_1556.jpg">
           <table>
             <tbody>
               <tr>
@@ -58,7 +58,7 @@ Die Makros werden mit 4 Übergabeparametern aufgerufen.
               </tr>
             </tbody>
           </table>
-          <p><img alt="*" src="../../../ImagesExt/image8_1556.jpg">&nbsp;&nbsp;</p>
+          <img alt="*" src="../../../ImagesExt/image8_1556.jpg">
         </td>
       </tr>
       <tr>

@@ -85,8 +85,19 @@ Die Schlüsselfelder Steuerschlüssel, Erlösklasse und Steuergruppe links sind 
           <p>&nbsp;Hierunter laufen folgende Warenpositionsmechanismen:</p>
           <ul>
             <li>sämtliche Zu- / Abschläge</li>
-            <li>sämtliche Rabatte<br>3. Frachten<br>5. Gutschriften<br>Hierunter fallen die Vorgangsklassen 800 und 1800.<br>&nbsp;Gutschriften lassen sich somit buchungstechnisch anders<br>&nbsp;behandeln als Storno-Belege.<br>Die Buchungsmaschine arbeitet bzgl. der Buchungsklasse nach folgender Logik:<br>5 -&gt; 1 -&gt; 0<br>3 -&gt; 1 -&gt; 0<br>2 -&gt; 1 -&gt; 0<br>1 -&gt; 0<br>0<br>Beispiel:<br>Ist für die Buchklasse 5 (Gutschrift) eine explizite Kontenzuordnung definiert, so wird diese verwendet. Falls nicht, wird eine solche in Buchklasse 1 gesucht. Endet auch dort die Suche ohne Erfolg, so findet die Fehlwerteinstellung 0 Anwendung.</li>
+            <li>sämtliche Rabatte</li>
           </ul>
+          <p>&nbsp;3. Frachten</p>
+          <p>&nbsp;5. Gutschriften</p>
+          <p>&nbsp;Hierunter fallen die Vorgangsklassen 800 und 1800.<br>&nbsp;Gutschriften lassen sich somit buchungstechnisch anders<br>&nbsp;behandeln als Storno-Belege.</p>
+          <p>Die Buchungsmaschine arbeitet bzgl. der Buchungsklasse nach folgender Logik:</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5 -&gt; 1 -&gt; 0</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3 -&gt; 1 -&gt; 0</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2 -&gt; 1 -&gt; 0</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 -&gt; 0</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0</p>
+          <p>Beispiel:</p>
+          <p>Ist für die Buchklasse 5 (Gutschrift) eine explizite Kontenzuordnung definiert, so wird diese verwendet. Falls nicht, wird eine solche in Buchklasse 1 gesucht. Endet auch dort die Suche ohne Erfolg, so findet die Fehlwerteinstellung 0 Anwendung.</p>
         </td>
       </tr>
       <tr>

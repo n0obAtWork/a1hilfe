@@ -18,9 +18,7 @@ Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Bas
         <td></td>
       </tr>
       <tr>
-        <td>
-          <p><img src="../../../../ImagesExt/image8_1498.png" alt=""></p>
-        </td>
+        <td><img src="../../../../ImagesExt/image8_1498.png" alt=""></td>
         <td>
           <p><strong>Tachometer</strong></p>
           <p>Für das Tachometer können in der View/Prozedur folgende Felder eingerichtet werden:</p>

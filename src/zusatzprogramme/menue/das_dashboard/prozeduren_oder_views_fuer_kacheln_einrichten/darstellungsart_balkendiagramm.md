@@ -18,9 +18,7 @@ Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Bas
         <td></td>
       </tr>
       <tr>
-        <td>
-          <p><img alt="Ein Bild, das Diagramm enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1510.png"></p>
-        </td>
+        <td><img alt="Ein Bild, das Diagramm enthält. Automatisch generierte Beschreibung" src="../../../../ImagesExt/image8_1510.png"></td>
         <td>
           <p><strong>Balkendiagramm</strong></p>
           <p>Das Balkendiagramm unterscheidet sich vom den anderen Diagrammarten dadurch, dass im Balkendiagramm die Typen der Achsen „vertauscht“ sind. So werden im Balkendiagramm für die X-Achse (horizontale Achse) numerische Werte erwartet. Die Minimal- und Maximalwerte der X-Achse können mit den Feldern <b>XAxisMinValue </b>und <b>XAxisMaxValue </b>festgelegt werden.</p>

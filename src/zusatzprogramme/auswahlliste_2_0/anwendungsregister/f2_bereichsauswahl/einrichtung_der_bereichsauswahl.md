@@ -201,7 +201,7 @@ Es öffnet sich folgende Maske:
           <p>Um das ItemPar einzurichten, ist in dem Feld ItemPar-Variable der Name des Parameters anzugeben. Dieser muss sich im SQL-Text der F3-Auswahl (Itembox) wiederfinden. Anschließend wird in dem Feld ItemPar-Wert der entsprechende SQL-Ausdruck eingetragen (siehe ItemPar-Wert).</p>
           <p>Beispiel:</p>
           <p>In diesem Beispiel soll in der F2-Bereichsauswahl<strong> </strong>eine Artikelnummer ausgewählt werden. In der Bereichsauswahl wird bereits nach der Lagernummer „1“ gefiltert. Daher sollen in der F3-Auswahl zu der Artikelnummer nur alle Artikel zu dem Lager „1“ angezeigt werden.</p>
-          <p><img src="../../../../ImagesExt/image8_1273.png" alt=""></p>
+          <img src="../../../../ImagesExt/image8_1273.png" alt="">
           <p>Dazu werden in dem Feld „ItemPar-Variable“ der Name des Parameters (hier: AND_LAGERNUMMER) und dem Feld „ItemPar-Wert“ der entsprechende SQL-Schnipsel eingetragen:</p>
           <p><img src="../../../../ImagesExt/image8_1274.png" alt=""><strong></strong></p>
           <p><b><u>Hinweis</u><u></u></b></p>
@@ -281,8 +281,10 @@ Es öffnet sich folgende Maske:
                     <li>PERIFBEG, PERIBEG</li>
                     <li>PERIWBEG</li>
                     <li>PERIFEND, PERIEND</li>
-                    <li>PERIWEND<br>Mit diesen Eingaben kann auch gerechnet werden. Beispiel: HEUTE+1</li>
+                    <li>PERIWEND</li>
                   </ul>
+                  <br>
+                  Mit diesen Eingaben kann auch gerechnet werden. Beispiel: HEUTE+1
                 </td>
               </tr>
               <tr>
@@ -302,8 +304,9 @@ Es öffnet sich folgende Maske:
           <ul>
             <li>KUNDNUMMER</li>
             <li>ARTIKELNUMMER</li>
-            <li>LAGERNUMMER<br>Diese werden in der Belegerfassung der Warenwirtschaft vorbelegt. Ruft man also z.B. aus der Lieferscheinerfassung heraus den Kundenstamm auf, so ist die Vorbelegung die im Lieferschein verwendete Kontonummer.</li>
+            <li>LAGERNUMMER</li>
           </ul>
+          <p>Diese werden in der Belegerfassung der Warenwirtschaft vorbelegt. Ruft man also z.B. aus der Lieferscheinerfassung heraus den Kundenstamm auf, so ist die Vorbelegung die im Lieferschein verwendete Kontonummer.</p>
         </td>
       </tr>
       <tr>

@@ -18,9 +18,7 @@ Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Bas
         <td></td>
       </tr>
       <tr>
-        <td>
-          <p><img src="../../../../ImagesExt/image8_1511.png" alt=""></p>
-        </td>
+        <td><img src="../../../../ImagesExt/image8_1511.png" alt=""></td>
         <td>
           <p><strong>Bild</strong></p>
           <p>Neben den bekannten Feldern muss die View zusätzlich ein Feld <b>Picture</b> mit dem Bildinhalt zurückliefern. Dafür bietet sich das Formulararchiv an. Erlaubte Formate sind Bitmap, Icon, JPEG, GIF und PNG.<br><br>Beispielview:</p>

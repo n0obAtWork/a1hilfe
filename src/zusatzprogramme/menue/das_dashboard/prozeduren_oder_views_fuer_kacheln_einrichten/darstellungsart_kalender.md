@@ -18,9 +18,7 @@ Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Bas
         <td></td>
       </tr>
       <tr>
-        <td>
-          <p><img src="../../../../ImagesExt/image8_1525.jpg" alt=""></p>
-        </td>
+        <td><img src="../../../../ImagesExt/image8_1525.jpg" alt=""></td>
         <td>
           <p><strong>Kalender</strong></p>
           <p>Der Kalender ist ein Control, welches zur Auswahl eines Stichtages verwendet werden kann. Das Design ist über folgende Felder in der View/Prozedur zu steuern:</p>
@@ -32,8 +30,9 @@ Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Bas
             <li><b>TitleForeColor</b>: Vordergrundfarbe der Überschrift mit Monat und Jahr.</li>
             <li><b>TrailingForeColor:</b> Die Farbe für die Tage, die nicht zum Monat gehören. Standard ist Transparent.</li>
             <li><b>DimensionX</b> und</li>
-            <li><b>DimensionY: </b>Es besteht die Möglichkeit mehrere Monate nebeneinander und/oder untereinander darzustellen. Standardeinstellung ist 1 für X und 1 für Y. Setzt man z.B. für DimensionX auf 4 und DimensionY auf 3 sieht das Ergebnis folgendermaßen aus:<br><img src="../../../../ImagesExt/image8_1526.jpg" alt=""><br>Beispielview:<br>Um eine Datenbankvariable mit dem Stichtag setzen zu können, muss diese dann in der Refresh-Prozedur gesetzt werden. In dem Feld in_Ident1 wird der ausgewählte Tag übergeben.<br>Beispiel Refresh-Prozedur:</li>
+            <li><b>DimensionY: </b>Es besteht die Möglichkeit mehrere Monate nebeneinander und/oder untereinander darzustellen. Standardeinstellung ist 1 für X und 1 für Y. Setzt man z.B. für DimensionX auf 4 und DimensionY auf 3 sieht das Ergebnis folgendermaßen aus:<br><img src="../../../../ImagesExt/image8_1526.jpg" alt=""></li>
           </ul>
+          <p>Beispielview:</p>
           <div>
             <pre><code>CREATE VIEW p_dash_v_kalender AS
  select
@@ -45,6 +44,8 @@ Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Bas
    4         as DimensionX,
    3         as DimensionY</code></pre>
           </div>
+          <p>Um eine Datenbankvariable mit dem Stichtag setzen zu können, muss diese dann in der Refresh-Prozedur gesetzt werden. In dem Feld in_Ident1 wird der ausgewählte Tag übergeben.</p>
+          <p>Beispiel Refresh-Prozedur:</p>
           <div>
             <pre><code>CREATE PROCEDURE p_dash_refresh_kalender
   (in in_board integer,

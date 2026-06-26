@@ -18,9 +18,7 @@ Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Bas
         <td></td>
       </tr>
       <tr>
-        <td>
-          <p><img src="../../../../ImagesExt/image8_1494.png" alt=""></p>
-        </td>
+        <td><img src="../../../../ImagesExt/image8_1494.png" alt=""></td>
         <td>
           <p><strong>Fortschrittsbalken</strong></p>
           <p>Der Fortschrittsbalken benötigt zusätzlich zu den Feldern, die auch die Darstellungsart Text haben, noch die Felder, die den ihn beschreiben:</p>

@@ -276,8 +276,10 @@ Im „Startmenü“ die Anwendung „Dienste“ aufrufen. Dort den A.eins.Mailse
             <li>BMP</li>
             <li>JPEG</li>
             <li>PNG</li>
-            <li>GIF<br>Sollte keine passende Datei angezeigt werden, kann hier z. Bsp. über Drag&amp;Drop ein entsprechendes Format eingefügt werden.<br>Nachdem die Datei im Archiv ausgewählt wurde (Zeile markieren) werden die benötigten Daten mit ESC vom Versandprofilstammpfleger aufgenommen. Im Feld erscheint dann die Belegreferenz der ausgewählten Datei.</li>
+            <li>GIF</li>
           </ul>
+          <p>Sollte keine passende Datei angezeigt werden, kann hier z. Bsp. über Drag&amp;Drop ein entsprechendes Format eingefügt werden.</p>
+          <p>Nachdem die Datei im Archiv ausgewählt wurde (Zeile markieren) werden die benötigten Daten mit ESC vom Versandprofilstammpfleger aufgenommen. Im Feld erscheint dann die Belegreferenz der ausgewählten Datei.</p>
         </td>
       </tr>
       <tr>
