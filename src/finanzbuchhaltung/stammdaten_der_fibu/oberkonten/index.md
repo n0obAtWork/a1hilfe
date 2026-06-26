@@ -31,7 +31,7 @@ In dem Erfassungsbildschirm können die nachfolgenden Felder bearbeitet werden:
 **Anmerkung:**  
 *Hier soll noch einmal ausdrücklich darauf hingewiesen werden, dass nicht umgebucht wird. Es werden lediglich zu Auswertungszwecken Daten **"verteilt"**. Die Buchhaltung wird also nicht beeinflusst. Um jedoch in den Auswertungen einen logischen Datenfluss sicherzustellen, sollte der Umgang mit dem Instrument **"Verteilung"** sorgfältig geplant werden.*
 
-ADDON
+**ADDON**
 
 Für Oberkonten können eigene Felder und somit eigene Daten erfasst werden. Die Definition geschieht über das [A.eins Informationssystem](../../../zusatzprogramme/ais_a_eins_informationssystem/index.md) (Direktsprung **[AIS]**). Hier kann man z.B. für die vordefinierte Tabelle OBERSACHKONTOADDON oder eigenen privaten Tabellen zusätzliche Felder definieren, die dann auf den definierten Registern erscheinen.
 

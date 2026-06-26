@@ -4,7 +4,7 @@
 
 In der Auswahlliste der Anwendungsvariante 'Stoffstrom Positionen' der Anwendung 'Vorgangsübersicht' [VRUE] werden die Stoffstrom-Mengen für Gutschriften sowie Stornobelegen zu Aufträgen, Bestellungen, Lieferscheinen und Rechnungen analog zur Darstellung der zugehörigen Positionsmenge negativ dargestellt. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 716861[33203]
 
@@ -20,6 +20,6 @@ Funktion/Report: Auswahlliste
 
 [Weitere Informationen](http://www.amic.de/hilfe/_stoffstromeditor.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2306.9, 33203, 716861

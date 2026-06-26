@@ -8,19 +8,19 @@ Diese erledigt verschiedene Aufgaben:
 
 6. Übertragung der Produktionsdaten an das Produktionssystem
 
-Hier wird die Komponentenliste mit den Mengen an die Produktion übertragen.
+   Hier wird die Komponentenliste mit den Mengen an die Produktion übertragen.
 
 7. Empfang von Materialbedarf
 
-In A.eins wird eine Materialorder erstellt.
+   In A.eins wird eine Materialorder erstellt.
 
 8. Empfang von Ware-Fertig-Meldungen
 
-Hier werden in A.eins Ladeträger an der Fertigstellungslokalität der Linie erstellt und beladen. (siehe auch [[PRODL]](../../firmenstamm/produktionslinien.md))
+   Hier werden in A.eins Ladeträger an der Fertigstellungslokalität der Linie erstellt und beladen. (siehe auch [[PRODL]](../../firmenstamm/produktionslinien.md))
 
 9. Empfang von Verbrauchsmeldungen
 
-Hier wird die verbrauchte Menge vom Ladeträger in der Bereitstellungszone abgebucht. (siehe auch [PRODL])
+   Hier wird die verbrauchte Menge vom Ladeträger in der Bereitstellungszone abgebucht. (siehe auch [PRODL])
 
 10. Empfang von Fertigmeldung einer Produktion. Hier werden die Verbräuche und die Produktmenge in der Produktion korrigiert.
 

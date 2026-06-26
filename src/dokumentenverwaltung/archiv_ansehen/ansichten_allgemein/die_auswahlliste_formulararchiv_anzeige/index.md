@@ -4,7 +4,7 @@
 
 Diese Auswahlliste wird nach Auslösen der Aktion ["Archiv anzeigen"](../index.md#aktion_archiv_anzeigen) geöffnet.
 
-<p class="just-emphasize">Archiv-Anzeige ohne Vorschau</p>
+#### Archiv-Anzeige ohne Vorschau
 
 Die Felder sind mittels ["Variante"](../../../archiv_import/archiv_dokumenten_import.md#archiv_ansichts_definition_variante) in den [Archiv-Ansicht-Definitionen](../../archiv_ansicht_definition/index.md) gegebenen Möglichkeiten einzurichten.
 
@@ -230,7 +230,7 @@ Die Felder in der Standard-Auslieferung der Archiv-Anzeige ohne Vorschau sind wi
   </table>
 </div>
 
-<p class="just-emphasize">Neue Archiv-Anzeige mit Vorschau</p>
+#### Neue Archiv-Anzeige mit Vorschau
 
 Ist für die Ansicht der „Vorschau“-Modus aktiviert, dann gestaltet sich die „Archiv-Anzeige“ als Dialog in neuer Optik mit neuen Möglichkeiten:
 
@@ -242,31 +242,31 @@ Ist für die Ansicht der „Vorschau“-Modus aktiviert, dann gestaltet sich die
 
 3) Im oberen Bereich befindet sich eine „Multifunktionsleiste“ (Ribboncontrol) das „Office-like“ neben dem Kontext-Menü (rechte Maustaste) ausgewählte Funktionalitäten zur Verfügung stellt. In der jetzigen Auslieferung ist das vorerst die Funktionalität ***Ansicht***.
 
-Über ![](../../../../ImagesExt/image8_910.png) lässt sich die „Multifunktionsliste“ dauerhaft aufklappen, ansonsten muss mit der Maus der Punkt „Ansicht“ selektiert werden. Damit erhält man folgende Ansicht
+   Über ![](../../../../ImagesExt/image8_910.png) lässt sich die „Multifunktionsliste“ dauerhaft aufklappen, ansonsten muss mit der Maus der Punkt „Ansicht“ selektiert werden. Damit erhält man folgende Ansicht
 
-![](../../../../ImagesExt/image8_911.jpg)
+   ![](../../../../ImagesExt/image8_911.jpg)
 
-Mit der Funktion ***Unter der Multifunktionsleiste anzeigen*** lässt sich festlegen, wo die „Multifunktionsleisten-Steuerung“ angezeigt werden soll.
+   Mit der Funktion ***Unter der Multifunktionsleiste anzeigen*** lässt sich festlegen, wo die „Multifunktionsleisten-Steuerung“ angezeigt werden soll.
 
 4) Im unteren Bereich findet sich die Information, um welche Ansicht es sich handelt (in diesem Beispiel um die Archiv-Ansicht „AMIC_KUNDE“ mit der Ansichts-ID 421. Des Weiteren hat das System 291 Archiv-Einträge komplett geladen.
 
-Mit Hilfe der Funktion ***Aktualisieren*** werden die Daten neu ermittelt und geladen.
+   Mit Hilfe der Funktion ***Aktualisieren*** werden die Daten neu ermittelt und geladen.
 
 5) In den Spalten-Köpfen können Sie Sortierungen vornehmen und via Drag&Drop Spaltenreihenfolgen bestimmen.
 
-![](../../../../ImagesExt/image8_912.jpg)
+   ![](../../../../ImagesExt/image8_912.jpg)
 
-Hier wurde z.B. aufsteigend nach „Beleg-Datum“ sortiert und die „Beleg-Nr“-Spalte per Maus hinter die „Beleg-Datum“ positioniert.
+   Hier wurde z.B. aufsteigend nach „Beleg-Datum“ sortiert und die „Beleg-Nr“-Spalte per Maus hinter die „Beleg-Datum“ positioniert.
 
-Außerdem lassen sich die Breiten der Spalten per Maus festlegen. Spaltenreihenfolgen und Spaltenbreiten werden sich übergreifend gemerkt, Sortierungen nicht.
+   Außerdem lassen sich die Breiten der Spalten per Maus festlegen. Spaltenreihenfolgen und Spaltenbreiten werden sich übergreifend gemerkt, Sortierungen nicht.
 
 6) Positionieren Sie die Maus z.B. auf die „Beleg-Datum“-Spalte und betätigen Sie das kleine Dreieck ![](../../../../ImagesExt/image8_913.png), dann können Sie eine Auswahl der angezeigten Daten bestimmen:
 
-![](../../../../ImagesExt/image8_914.png)
+   ![](../../../../ImagesExt/image8_914.png)
 
-Mit Hilfe von „Text Filter“ können Sie weitere Spezialisierungen vornehmen.
+   Mit Hilfe von „Text Filter“ können Sie weitere Spezialisierungen vornehmen.
 
-Diese Eingrenzungsmöglichkeiten sind spaltenübergreifend nutzbar und damit können vielfältigste Recherchen durchgeführt werden.
+   Diese Eingrenzungsmöglichkeiten sind spaltenübergreifend nutzbar und damit können vielfältigste Recherchen durchgeführt werden.
 
 7) Gibt es eine Spalte „Container-Inhalt“ die den Archiv-Eintrag icon-mäßig visualisiert.
 
@@ -274,27 +274,27 @@ Diese Eingrenzungsmöglichkeiten sind spaltenübergreifend nutzbar und damit kö
 
 8) Hinzufügen via Drop&Drag
 
-Sie können aus Outlook heraus Mails in diesen Dialog ziehen und diese so dem Aeins-Archiv-kontext hinzufügen.
+   Sie können aus Outlook heraus Mails in diesen Dialog ziehen und diese so dem Aeins-Archiv-kontext hinzufügen.
 
-Wenn Sie das getan haben, fragt Aeins, ob Sie noch eine nachträgliche Katalogisierung vornehmen möchten:
+   Wenn Sie das getan haben, fragt Aeins, ob Sie noch eine nachträgliche Katalogisierung vornehmen möchten:
 
-![](../../../../ImagesExt/image8_916.png)
+   ![](../../../../ImagesExt/image8_916.png)
 
-Bejahen Sie dies, haben Sie die Gelegenheit, die neu hinzugefügten Archiv-Einträge archiv-technisch nachzubearbeiten:
+   Bejahen Sie dies, haben Sie die Gelegenheit, die neu hinzugefügten Archiv-Einträge archiv-technisch nachzubearbeiten:
 
-![](../../../../ImagesExt/image8_917.png)
+   ![](../../../../ImagesExt/image8_917.png)
 
-Diesem Beispiel entnehmen Sie bitte, das das Betreff-Feld schon automatisch mit dem Betreff der Mail initialisiert und gespeichert wurde.
+   Diesem Beispiel entnehmen Sie bitte, das das Betreff-Feld schon automatisch mit dem Betreff der Mail initialisiert und gespeichert wurde.
 
 **9) Archiv-Ableitung**
 
-Die Praxis hat gezeigt, dass in einigen Fällen eine volle Kontrolle über das Datengewinnungs-Sql verfügbar sein muss. Mit Hilfe der Funktion ***Ableitung*** **[SF2]** erhält man individuelle Zugriffsmöglichkeiten auf eine gesamte Archiv-Ansicht, also Auslierung und Privatisierungen über alle Bedienerklassen.
+   Die Praxis hat gezeigt, dass in einigen Fällen eine volle Kontrolle über das Datengewinnungs-Sql verfügbar sein muss. Mit Hilfe der Funktion ***Ableitung*** **[SF2]** erhält man individuelle Zugriffsmöglichkeiten auf eine gesamte Archiv-Ansicht, also Auslierung und Privatisierungen über alle Bedienerklassen.
 
-Man hat also die Möglichkeit eine private „Ableitung“ zu definieren. Diese Ableitung bleibt über Updates hinaus bestehen.
+   Man hat also die Möglichkeit eine private „Ableitung“ zu definieren. Diese Ableitung bleibt über Updates hinaus bestehen.
 
-Sie definieren eine Ableitung über die Pflege eines XML-Dokumentes im Editor.
+   Sie definieren eine Ableitung über die Pflege eines XML-Dokumentes im Editor.
 
-Ist noch keine Ableitung gespeichert stellt sich das zum Beispiel für „AMIC_KUNDEN“ so dar:
+   Ist noch keine Ableitung gespeichert stellt sich das zum Beispiel für „AMIC_KUNDEN“ so dar:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>

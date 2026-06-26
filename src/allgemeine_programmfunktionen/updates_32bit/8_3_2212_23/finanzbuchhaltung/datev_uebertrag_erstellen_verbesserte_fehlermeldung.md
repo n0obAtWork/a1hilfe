@@ -4,7 +4,7 @@
 
 Beim Erstellen eines DATEV-Übertrages werden die Kontonummern auf die korrekte Länge getestet. Wird ein DATEV-Ersatzkonto verwendet, bei dem die Kontonummer nicht der geforderten Länge entspricht, wird jetzt zusätzlich das Originalkonto im Fehlerhinweis ausgegeben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 716776[33209]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/datevexporterstellen.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2212.23, 33209, 716776

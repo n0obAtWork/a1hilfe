@@ -22,7 +22,7 @@ Für den Import wird dazu das folgende Format unterstützt: 
 
 - **ZUGFeRD** Zentraler User Guide des Forums elektronische Rechnung Deutschland, das gemäß der Richtlinie EU/2014/55 und des Standards EN16931 UN/CEFACT-**XML** in **PDF**/A-3-Dateien einbettet.
 
-<p class="just-emphasize">Überblick eRechnung-Modulpakete</p>
+### Überblick eRechnung-Modulpakete
 
 Die folgenden Modulpaketen der eRechnung stehen Ihnen bei Lizenzierung zur Verfügung:
 

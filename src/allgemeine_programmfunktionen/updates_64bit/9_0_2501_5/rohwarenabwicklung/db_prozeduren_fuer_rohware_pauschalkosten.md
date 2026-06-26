@@ -4,7 +4,7 @@
 
 Die Verwendung von Datenbankprozeduren zur Bestimmung von Pauschalbeträgen für Rohware-Kosten-/-Vergütungen führte zuletzt nicht zu dem gewünschten Ergebnis. Es wurde statt des ermittelten Pauschalbetrags unter Umständen der Betrag 0,00 in der Warenbewegung eingetragen. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 743449[36313]
 
@@ -20,6 +20,6 @@ Funktion/Report: Neu, Ändern
 
 [Weitere Informationen](http://www.amic.de/hilfe/qualittsundkostenmerkmalwertep.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 36313, 743449

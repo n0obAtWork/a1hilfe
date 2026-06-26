@@ -12,4 +12,4 @@ Im Zuge der SEPA-Einführung wurden die DTA-Typen Einzugsermächtigung und Abbuc
 
 2) Echtzeitüberweisung
 
-Bei Zahlungsarten mit Formularklasse **Zahlungsausgang** kann man Echtzeitüberweisung auf Ja stellen. Es werden dann im automatischen Zahlungsverkehr beim Erstellen der Zahlungsvorschläge (Direktsprung [ZHVE]) alle Belege gezogen, deren Fälligkeit vor dem **nächsten Stichtag** liegt und als Ausführungsdatum wird der **Stichtag** verwendet.
+   Bei Zahlungsarten mit Formularklasse **Zahlungsausgang** kann man Echtzeitüberweisung auf Ja stellen. Es werden dann im automatischen Zahlungsverkehr beim Erstellen der Zahlungsvorschläge (Direktsprung [ZHVE]) alle Belege gezogen, deren Fälligkeit vor dem **nächsten Stichtag** liegt und als Ausführungsdatum wird der **Stichtag** verwendet.

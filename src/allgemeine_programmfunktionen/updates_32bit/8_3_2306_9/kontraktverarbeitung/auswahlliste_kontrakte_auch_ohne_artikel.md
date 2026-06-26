@@ -4,7 +4,7 @@
 
 In der Auswahlliste 'Kontrakte auch ohne Artikel' der Anwendung 'Kontrakt Stammdaten' [KTR] wurde ein Filterkriterium zur Anzeige von Musterkontrakten hinzugefügt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 723233[33807]
 
@@ -20,6 +20,6 @@ Funktion/Report: alle
 
 [Weitere Informationen](http://www.amic.de/hilfe/_kontrakt_auswahl_ktr.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2306.9, 33807, 723233

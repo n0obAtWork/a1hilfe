@@ -2,27 +2,27 @@
 
 <!-- source: https://amic.de/hilfe/zoom.htm -->
 
-<p class="just-emphasize">Syntax</p>
+#### Syntax
 
 ZOOMb
 
-<p class="just-emphasize">Purpose</p>
+#### Purpose
 
 Vergrößert oder verkleinert die OSQL-Fenster
 
-<p class="just-emphasize">Anwendung</p>
+#### Anwendung
 
 Befehlszeile, Optionen
 
-<p class="just-emphasize">Berechtigung</p>
+#### Berechtigung
 
 Alle Anwender
 
-<p class="just-emphasize">Siehe auch</p>
+#### Siehe auch
 
 \---
 
-<p class="just-emphasize">Bschreibung</p>
+#### Bschreibung
 
 Im Standardfall ist OSQL eine Dialogmaske mit fest eingestellter Größe, die nur einen Teil des Bildschirms nutzt.
 
@@ -34,6 +34,6 @@ OSQL startet immer wieder als kleine Dialogmaske. Will man OSQL immer im Vollbid
 
 die Einstellung "Vollbild" auf TRUE ändern.
 
-<p class="just-emphasize">Beispiel</p>
+#### Beispiel
 
 ZOOM

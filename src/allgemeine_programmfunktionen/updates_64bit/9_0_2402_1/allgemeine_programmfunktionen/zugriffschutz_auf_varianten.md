@@ -4,7 +4,7 @@
 
 Unter [ZUGV], in der Variante "geschützte Varianten" wurde durch ein fehlerhaftes IDENTSQL auf die falsche Tabelle zugegriffen und dadurch die bereits eingetragenen Bedienerklassen nicht geladen.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 737530[35571]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_zugriffsrechtefunkti.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.1, 35571, 737530

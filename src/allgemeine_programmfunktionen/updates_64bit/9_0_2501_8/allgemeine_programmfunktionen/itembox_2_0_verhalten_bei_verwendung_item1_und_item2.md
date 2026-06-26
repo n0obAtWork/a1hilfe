@@ -4,7 +4,7 @@
 
 Wurde in der F3-Auswahl mit ITEM1 und ITEM2 gearbeitet und ITEM2 blieb leer, dann wurde ITEM2 mit ITEM1 vorbelegt. Da dieses Verhalten dazu führte, dass ungewollt Daten nicht gefunden wurden, bleibt ITEM2 in diesem Fall jetzt leer.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 748145[37460]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/SchluesselwoerterImSQLText.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.8, 37460, 748145

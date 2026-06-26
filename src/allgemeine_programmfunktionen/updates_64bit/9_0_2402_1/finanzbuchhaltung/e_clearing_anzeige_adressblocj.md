@@ -4,7 +4,7 @@
 
 Bei der Bearbeitung von e-Clearing kam es im Adressblock zu einer geringfügigen Verschiebung einiger Texte. Das Anzeigeproblem wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 734884[35246]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/anzeigenbearbeiten.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.1, 35246, 734884

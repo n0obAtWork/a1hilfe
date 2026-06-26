@@ -35,39 +35,39 @@ Bei Rücklastschriften handelt es sich meist um Bankeinzüge, die von der Bank n
 Bei gesperrten Rücklastschriften handelt es sich um Belege, die genau wie eine Rücklastschrift behandelt wurden, nur wurde der Zahlungsbeleg nicht als Rücklastschrift markiert. Dadurch werden diese Belege beim automatischen Zahlungsverkehr **nicht** erneut herangezogen. Um sie trotzdem erneut einzuziehen, kann man entweder die Belege manuell zu einem Zahlungsvorschlag hinzufügen oder den Zahlungsbeleg nachträglich als Rücklastschrift markieren.  
     
 
-  2. Der Status der Mahnung  
+2. Der Status der Mahnung  
 Wird oder wurde ein OP gemahnt, so wird der aktuelle Status direkt angezeigt.
 
-![Ein Bild, das Text enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_601.png "Ein Bild, das Text enthält. Automatisch generierte Beschreibung")  
+   ![Ein Bild, das Text enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_601.png "Ein Bild, das Text enthält. Automatisch generierte Beschreibung")  
     
 
-  Mögliche Stati sind:
+   Mögliche Stati sind:
 
-- \*\*Mahnsperre gesetzt\*\*
-- in Mahnvorschlagsliste
-- Mahnung freigegeben
-- Mahnung gedruckt
-- In Mahnung verrechnet
+   - \*\*Mahnsperre gesetzt\*\*
+   - in Mahnvorschlagsliste
+   - Mahnung freigegeben
+   - Mahnung gedruckt
+   - In Mahnung verrechnet
 
-  3. Die Buchungssperre  
+3. Die Buchungssperre  
 Die Buchungssperre kann bei ungebuchten Belegen über die Funktion „Buchsperre setzen/löschen“ gesetzt bzw. aufgehoben werden. Der Status wird angezeigt.  
 ![Ein Bild, das Text, Tisch enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_602.png "Ein Bild, das Text, Tisch enthält. Automatisch generierte Beschreibung")  
     
 Über den Einrichterparameter 971 „Buchsperre setzen für Bedienerklasse“ kann man Bedienerklassen hinterlegen, für die die Buchungssperre automatisch bei der Erfassung gesetzt werden soll. Die Buchungssperre wird dann bei diesen Bedienerklassen sowohl bei der manuellen Erfassung, beim Fibuübertrag aus der Warenwirtschaft und auch beim Import innerhalb von A.eins gesetzt. Sie kann hier in der Einzelbeleganzeige aufgehoben werden oder in der Primanota (Direktsprung **[PRIMA]**) in der Variante „Primanota mit Buchungssperre“ mit der Funktion „Buchungssperre aufheben“.
 
-  4. Die Bearbeitungssperre  
+4. Die Bearbeitungssperre  
 Es können Belege so gekennzeichnet werden, dass sie nicht manuell änderbar sind.  
 ![Ein Bild, das Tisch enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_603.png "Ein Bild, das Tisch enthält. Automatisch generierte Beschreibung")  
     
 Es existieren dabei vier Ausprägungen:  
     
 
-- Normal änderbar: Man kann diesen Beleg in der Belegerfassung wie gewohnt ändern. 
-- Eingeschränkt änderbar: Man kann nur Konto, [Kostenstelle](../kostenrechnung/kostenstellen.md), [Kostenträger](../kostenrechnung/kostentraeger.md), [Kostenobjekt](../kostenrechnung/kostenobjekte/index.md) und den Text ändern.
-- Nicht änderbar: In der Belegerfassung lässt sich dieser Beleg nicht mehr ändern. Nach wie vor ist jedoch die Änderung des Skontos in der OP-Verwaltung möglich.
-- Nicht änder-/löschbar: Wie nicht „Nicht änderbar“, nur dass der Beleg auch gegen Löschen gesperrt ist.
+   - Normal änderbar: Man kann diesen Beleg in der Belegerfassung wie gewohnt ändern. 
+   - Eingeschränkt änderbar: Man kann nur Konto, [Kostenstelle](../kostenrechnung/kostenstellen.md), [Kostenträger](../kostenrechnung/kostentraeger.md), [Kostenobjekt](../kostenrechnung/kostenobjekte/index.md) und den Text ändern.
+   - Nicht änderbar: In der Belegerfassung lässt sich dieser Beleg nicht mehr ändern. Nach wie vor ist jedoch die Änderung des Skontos in der OP-Verwaltung möglich.
+   - Nicht änder-/löschbar: Wie nicht „Nicht änderbar“, nur dass der Beleg auch gegen Löschen gesperrt ist.
 
-  Diese Sperre lässt sich in folgenden Programmbereichen per Einrichterparameter automatisch setzen:
+Diese Sperre lässt sich in folgenden Programmbereichen per Einrichterparameter automatisch setzen:
 
 - Zinsen: [Übernahme in die Primanota.](../zahlungsverkehr/zahlungen_bearbeiten/zahlungsverkehr_uebernahme_in_die_primanota.md)
 - Automatischer Zahlungsverkehr [Übernahme in die Primanota](../zahlungsverkehr/zahlungen_bearbeiten/zahlungsverkehr_uebernahme_in_die_primanota.md).
@@ -76,17 +76,17 @@ Es existieren dabei vier Ausprägungen:
   Des Weiteren kann eine Bearbeitungssperre für Belege im [Sachkonto](../stammdaten_der_fibu/sachkonten.md#BelegBearbeitungskennz) festgelegt werden.  
     
 
-  5. Der Exportstatus
+5. Der Exportstatus
 
-  Wenn Belege exportiert werden, so ist nicht immer sichergestellt, ob diese auch im Fremdsystem eingelesen werden können. Wenn das Fremdsystem die Datensätze zurückmeldet, die nicht eingelesen werden können, kann dieses Kennzeichen programmtechnisch gesetzt werden. Zum manuellen Setzen bzw. Zurücksetzen, steht die Funktion „Exportstatus setzen/löschen“ zur Verfügung.
+   Wenn Belege exportiert werden, so ist nicht immer sichergestellt, ob diese auch im Fremdsystem eingelesen werden können. Wenn das Fremdsystem die Datensätze zurückmeldet, die nicht eingelesen werden können, kann dieses Kennzeichen programmtechnisch gesetzt werden. Zum manuellen Setzen bzw. Zurücksetzen, steht die Funktion „Exportstatus setzen/löschen“ zur Verfügung.
 
-![Ein Bild, das Text, Tisch enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_604.png "Ein Bild, das Text, Tisch enthält. Automatisch generierte Beschreibung")
+   ![Ein Bild, das Text, Tisch enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_604.png "Ein Bild, das Text, Tisch enthält. Automatisch generierte Beschreibung")
 
-  6. Storniert
+6. Storniert
 
-  Neben den Sperren wird zusätzlich noch angezeigt, ob dieser Beleg ggf. in der Fibu bereits Storniert wurde. [Stornieren](../belegerfassung/stornieren_gebuchter_belege.md) eines Beleges in der Fibu bewirkt bei Warenwirtschaftsbelegen, dass das Übertrags-Kennzeichen wieder zurückgesetzt wird.
+   Neben den Sperren wird zusätzlich noch angezeigt, ob dieser Beleg ggf. in der Fibu bereits Storniert wurde. [Stornieren](../belegerfassung/stornieren_gebuchter_belege.md) eines Beleges in der Fibu bewirkt bei Warenwirtschaftsbelegen, dass das Übertrags-Kennzeichen wieder zurückgesetzt wird.
 
-<p class="just-emphasize">Zusätzlich stehen dann folgende Funktionen zur Verfügung:</p>
+#### Zusätzlich stehen dann folgende Funktionen zur Verfügung:
 
 - ***Texte ändern*:** Es können die Texte der einzelnen Belegzeilen geändert werden. Dies ist unabhängig davon, ob ein Beleg bereits gebucht wurde oder nicht, möglich.
 - ***Bemerkungstexte*:** Es können zu Belegen Bemerkungen erfasst werden, die auf allen OP-Listen und auf der Mahnvorschlagsliste angezeigt werden können (per **F2**\-Auswahl einzustellen). Sind zu einem Beleg Bemerkungstexte erfasst erscheinen sie auch auf der Einzelbeleganzeige. Für den Beleg oben wurde „Diese Gutschrift nicht verrechnen.“ erfasst.

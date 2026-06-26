@@ -4,7 +4,7 @@
 
 Bei der Version 8.3.2211.30 wurde das Weiterverarbeitungskennzeichen eines Vorgangs von "teildipsoniert" auf "erledigt" gesetzt, wenn man diesen im Änderungmodus geöffnet hat. Dies wurde behoben. Für Version 8.3.2211.30 können Sie einen Patch anfordern.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 718718[33324]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/-)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2212.23, 33324, 718718

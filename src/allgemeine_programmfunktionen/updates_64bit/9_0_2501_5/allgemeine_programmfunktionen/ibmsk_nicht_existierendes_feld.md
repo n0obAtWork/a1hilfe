@@ -4,7 +4,7 @@
 
 Es werden keine Fehlermeldungen mehr angezeigt, wenn das in IBMSK angesprochene Feld nicht existiert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 745034[36522]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/f3auswahl.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 36522, 745034

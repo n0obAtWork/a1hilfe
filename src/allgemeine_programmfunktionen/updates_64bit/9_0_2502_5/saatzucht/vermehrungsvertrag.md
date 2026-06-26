@@ -4,7 +4,7 @@
 
 In den Feldern Vermehrer, VO-Firma, UVO-Firma und Aufbereiter kann jetzt nebens der Nummer auch die Bezeichnung des Vermehrers, VO-Firma, UVO-Firma und Aufbereiter eingegeben werden. Das Feld Erntejahr ist jetzt immer Pflegbar
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 748412[37673]
 
@@ -20,6 +20,6 @@ Funktion/Report: Neu
 
 [Weitere Informationen](http://www.amic.de/hilfe/_vermerhrungsvertrag.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 37673, 748412

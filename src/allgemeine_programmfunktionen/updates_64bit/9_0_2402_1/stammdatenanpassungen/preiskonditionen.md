@@ -4,7 +4,7 @@
 
 Wurde in den Individuellen Preisen versucht die letzte Zeile zu löschen, wurde diese Änderungen nicht gespeichert. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 736791[35485]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_PFLMODUL_IPRRAB.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.1, 35485, 736791

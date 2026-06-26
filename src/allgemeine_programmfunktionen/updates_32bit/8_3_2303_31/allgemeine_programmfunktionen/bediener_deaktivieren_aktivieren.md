@@ -4,7 +4,7 @@
 
 Bediener, der Kurzname einem SQL-Schlüsselwort entspricht (Z.B. "AS", "ASC", ...), können jetzt auch aktiviert und deaktiviert werden.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 720319[33475]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_kundenindividuellesq.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2303.31, 33475, 720319

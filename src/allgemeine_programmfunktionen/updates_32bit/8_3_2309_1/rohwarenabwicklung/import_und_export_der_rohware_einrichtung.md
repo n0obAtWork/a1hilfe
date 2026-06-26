@@ -4,7 +4,7 @@
 
 Das mit dem Direktsprung [ROHIE] erreichbare Programm-Modul zum Import bzw. Export der gesamten Rohwaren-Einrichtung wurde nun entfernt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 712422[32610]
 
@@ -20,6 +20,6 @@ Funktion/Report: alle
 
 [Weitere Informationen](http://www.amic.de/hilfe/konstantenundtabellenfrdieeinr.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 32610, 712422

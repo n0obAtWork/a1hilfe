@@ -10,13 +10,13 @@ Alle LVS-Buchungen werden als Vorgangsimport mit der Vorgangsklasse 5150 geschri
 
 Regelmäßige Buchungen können über [Mandantenserverprozesse](../../systempflege/mandantenserver/mandantenserver_prozesse.md) erreicht werden.
 
-<p class="just-emphasize">Mandantenserver LVS Buchungsprozess</p>
+#### Mandantenserver LVS Buchungsprozess
 
 Der Mandantenserver kann LVS-Buchungen in kurzen Zeitabständen für alle LVS-Buchungen vornehmen. Dazu ist es notwendig, ein Makro 2.0 auszuführen, das alle LVS-Vorgangsimporte im Status 2 abarbeitet.
 
 Nachteil des synchronen Mandantenserverprozesses: Läuft eine andere Buchung des Mandantenservers längere Zeit, so werden erst danach die LVS-Buchungssätze abgearbeitet.
 
-<p class="just-emphasize">Asynchroner Mandantenserverprozess</p>
+#### Asynchroner Mandantenserverprozess
 
 Der Asynchrone Mandantenserverprozess (Typ 2 – Asynchron (Managed)) prüft in regelmäßigen Abständen, ob ein asynchroner Prozess läuft, der LVS-Buchungen vollzieht. Dazu ist im Controlstring
 

@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/importvorgzuabdef.htm -->
 
-<p class="just-emphasize">Definition Zu-Abschläge</p>
+#### Definition Zu-Abschläge
 
 In dieser Relation werden Zu- und definiert
 

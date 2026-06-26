@@ -22,7 +22,7 @@ Um eine Kostenstelle als Verteilkostenstelle einzurichten, müssen folgende Eing
 | Periode<br><br> | Periode, in der die Kostenstelleneinstellungen gelten. Es gibt eine Standard-Einstellung, die solange gilt, wie keine extra Perioden eingerichtet sind. Man kann hier also z.B. für Saisongeschäfte andere Verteilungen angeben.<br> |
 | Gültigkeitsbereich | Datum, ab dem die Kostenstelleneinstellungen gelten sollen.<br> |
 
-Löschen der Verteilkostenstellen
+**Löschen der Verteilkostenstellen**
 
 Wenn Verteilkostenstellen gelöscht werden, werden sie nicht sofort physikalisch gelöscht, sondern so wie bereits bei den Kostenstellen erwähnt, als gelöscht gekennzeichnet. Diese gelöschten Kostenstellen sind dann für die Belegerfassung gesperrt, erscheinen aber trotzdem – soweit sie bebucht sind – auf den Auswertungen.
 

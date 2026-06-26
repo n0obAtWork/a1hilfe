@@ -4,7 +4,7 @@
 
 Bei der Preispflege in der Maske Individuelle Preise [PRI] [PRIE] ist es möglich durch Angabe einer anderen Artikelnummer ohne Verlassen der Maske einen weiteren Artikel zu bearbeiten. Leider wurde nach Eingabe der neuen Artikelnummer die Daten nicht aktualisiert. In der Maske blieben die Daten des zuvor bearbeiteten Artikels stehen. Dieser Fehler wurde behoben. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 745257[36645]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_PFLMODUL_IPRRAB.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 36645, 745257

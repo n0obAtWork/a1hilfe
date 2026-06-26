@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/eudsgvodatenschutzgrundverordn.htm -->
 
-<p class="just-emphasize">Was sind die Datenschutz-Grundverordnung (DSGVO) und das Bundesdatenschutzgesetz (BDSG)?</p>
+### Was sind die Datenschutz-Grundverordnung (DSGVO) und das Bundesdatenschutzgesetz (BDSG)?
 
 Seit dem 25 Mai 2018 gelten die Datenschutz-Grundverordnung (DSGVO) und das neue Bundesdatenschutzgesetz (BDSG). Die DSGVO soll natürlichen Personen mehr Kontrolle über die Speicherung, Übermittlung und Verwendung ihrer persönlichen Daten geben. Sie soll dabei gleichzeitig die Einheitliche europäische Regelung des Datenschutzrechts vereinfachen.
 
@@ -16,7 +16,7 @@ DSGVO - [https://eu-datenschutz.org/](https://eu-datenschutz.org/)
 
 BDSG - [https://www.gesetze-im-internet.de/bdsg_2018/](https://www.gesetze-im-internet.de/bdsg_2018/)
 
-<p class="just-emphasize">DSGVO und A.eins</p>
+### DSGVO und A.eins
 
 Mit dem Modul „DSGVO“ stellen wir in A.eins Werkzeuge als Unterstützung zur Umsetzung der gesetzlichen Vorgaben zur Verfügung.
 

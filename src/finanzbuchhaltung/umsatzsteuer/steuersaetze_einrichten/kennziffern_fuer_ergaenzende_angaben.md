@@ -24,13 +24,13 @@ eingetragen werden
 
 - Anschließend die Daten mit **F9** oder ***„Speichern“*** übernehmen.
 
-<p class="just-emphasize">Kennziffer 50</p>
+### Kennziffer 50
 
 ![Ein Bild, das Text, Screenshot, Display, Software enthält. Automatisch generierte Beschreibung](../../../ImagesExt/image8_566.png "Ein Bild, das Text, Screenshot, Display, Software enthält. Automatisch generierte Beschreibung")
 
 Da nur die Minderung der Bemessungsgrundlage relevant ist, muss das Feld hinter Steuer leer bleiben.
 
-<p class="just-emphasize">Kennziffer 37</p>
+### Kennziffer 37
 
 ![Ein Bild, das Text, Screenshot, Display, Software enthält. Automatisch generierte Beschreibung](../../../ImagesExt/image8_567.png "Ein Bild, das Text, Screenshot, Display, Software enthält. Automatisch generierte Beschreibung")
 

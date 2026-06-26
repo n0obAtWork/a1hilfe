@@ -12,6 +12,6 @@ Die Menge des Leergutartikels wird aus der Menge des fakturierten Artikels und d
 
 Der Button „Verwerfen“ ermöglicht es die offenen Leerguteingaben zu ignorieren. Dadurch ist es möglich die Zahlung auszulösen, ohne vorher offenen Leerguteingabe zu bestätigen.
 
-<p class="just-emphasize">Hinweis:</p>
+**Hinweis:**
 
 Es ist notwendig, Leergutabweichungen am Ende der Erfassung einzugeben, da bei jedem Aufruf des Leergutdialogs, dieser mit den Grundberechnungen gefüllt wird und bisherige Eingaben gelöscht werden. Es werden ebenfalls alle über den Leergutdialog erfassten Leergutartikel gelöscht. Vor Beginn der Zahlung werden offene Leerguteingaben ohnehin eingefordert.

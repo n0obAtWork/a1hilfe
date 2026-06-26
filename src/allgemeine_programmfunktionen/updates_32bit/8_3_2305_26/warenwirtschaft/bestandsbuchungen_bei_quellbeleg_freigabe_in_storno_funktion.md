@@ -4,7 +4,7 @@
 
 Bei der Quellbeleg-Freigabe der Funktion Storno/Löschen sowie der Erstellung von Stornobelegen mit Quellbeleg-Freigabe konnte es vorkommen, dass der Quellbeleg (z.B. Lieferschein) in der Bestandsführung zum Beispiel im zugehörigen Kontrakt doppelt berücksichtigt wurde. Dieses wurde bisher durch WAREO automatisch korrigiert. Die Ursache für die doppelte Berücksichtigung wurde nun behoben. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 723007[33805]
 
@@ -20,6 +20,6 @@ Funktion/Report: Stornieren/Löschen, Stornobeleg-Erstellung
 
 [Weitere Informationen](http://www.amic.de/hilfe/_SPA_987.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2305.26, 33805, 723007

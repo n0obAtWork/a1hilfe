@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/wertbestimmung.htm -->
 
-<p class="just-emphasize">Manueller EK</p>
+### Manueller EK
 
 Diese Funktion unterstützt bei der Kalkulation von Preisen:
 
@@ -14,7 +14,7 @@ Für Artikel, die immer kalkuliert werden müssen (Projekte), wird im Artikel un
 
 Im Einrichterparameter kann hinterlegt werden, dass beim Einstieg in die Maske das Kontrollfeld „EK-Preis festhalten“ markiert ist.
 
-<p class="just-emphasize">Brutto/Netto-Preis</p>
+### Brutto/Netto-Preis
 
 Diese Funktion ist eine Rechenhilfe für die Eingabe.
 

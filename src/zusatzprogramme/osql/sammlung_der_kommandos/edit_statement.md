@@ -2,27 +2,27 @@
 
 <!-- source: https://amic.de/hilfe/editstatement.htm -->
 
-<p class="just-emphasize">Syntax</p>
+#### Syntax
 
 EDIT [Dateiname];
 
-<p class="just-emphasize">Purpose</p>
+#### Purpose
 
 Öffnet mit notepad die angegebene Datei
 
-<p class="just-emphasize">Anwendung</p>
+#### Anwendung
 
 Befehlszeile
 
-<p class="just-emphasize">Berechtigung</p>
+#### Berechtigung
 
 Alle Anwender
 
-<p class="just-emphasize">Beschreibung</p>
+#### Beschreibung
 
 Unter Osql werden desöfteren Daten oder Strukturen in Dateien geschrieben. Das EDIT Statement bietet eine einfache und praktikable Möglichkeit diese Daten direkt zu prüfen bzw. zu bearbeiten.
 
-<p class="just-emphasize">Beispiel</p>
+#### Beispiel
 
 Create Struct Kontosummen into c:\\Kontosummen.sql;
 

@@ -53,13 +53,13 @@ Quellen:
 - [https://www-idev.destatis.de/idev/doc/intra/hilfe6_1.html](https://www-idev.destatis.de/idev/doc/intra/hilfe6_1.html) (ASCII)
 - [https://www-idev.destatis.de/idev/doc/intra/hilfe6_2.html](https://www-idev.destatis.de/idev/doc/intra/hilfe6_2.html) (XML)
 
-<p class="just-emphasize">ASC-Format:</p>
+### ASC-Format:
 
 ![](../../../ImagesExt/image8_1140.png)
 
 Der ASCII Export wird nur noch bis zum 30.06.2021 unterstützt. Die Empfehlung ist daher das Ausgabeformat auf XML umzustellen!
 
-<p class="just-emphasize">XML Format:</p>
+### XML Format:
 
 Registrierung (Testdaten):
 

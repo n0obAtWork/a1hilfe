@@ -4,7 +4,7 @@
 
 Bei Nutzung von individuellen Frachten, konnte es vorkommen, dass für jede neue Warenposition eine eigene Frachtzeile erstellt wurde, anstatt korrekterweise die vorhandene Frachtenzeile zu aktualisieren um die neue Warenposition. Dieser Fehler wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 735264[35352]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/positionsteilanzeigeunderfassu.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.4, 35352, 735264

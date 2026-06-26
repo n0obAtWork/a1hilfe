@@ -4,7 +4,7 @@
 
 Es wurden Fehler im C#-Makro, Direktsprung [CSM] unter 64bit gefunden. Diese wurden behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 731529[34770]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/-)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.1, 34770, 731529

@@ -14,11 +14,11 @@
 
   Die Konsistenz-Funktion ***Belege mit abweichenden Perioden*** erstellt hierfür eine Übersicht. Sollten Periodenunstimmigkeiten auftreten, so können Sie mit der WAREO-Funktion, ***Perioden angleichen*** eine Periodenstimmigkeit erzeugen. Dabei wird folgendermaßen vorgegangen:
 
-  1. Belege, die schon an die FIBU übertragen wurden, werden periodenmäßig an die FIBU angeglichen (d.h. die FIBU-Periode wird nicht verändert, jedoch die Periodenzugehörigkeit in der Ware!).
+1. Belege, die schon an die FIBU übertragen wurden, werden periodenmäßig an die FIBU angeglichen (d.h. die FIBU-Periode wird nicht verändert, jedoch die Periodenzugehörigkeit in der Ware!).
 
-  2. Unstimmigkeiten der Perioden der Warenpositionen innerhalb eines Beleges werden durch Anpassung an die Periode des Gesamtbeleges aufgelöst.
+2. Unstimmigkeiten der Perioden der Warenpositionen innerhalb eines Beleges werden durch Anpassung an die Periode des Gesamtbeleges aufgelöst.
 
-  **ACHTUNG:** Nach diesem Lauf ist auf jeden Fall auch wieder eine Gesamtreorganisation fällig, da die internen Periodenstatistiken angepasst werden müssen.
+**ACHTUNG:** Nach diesem Lauf ist auf jeden Fall auch wieder eine Gesamtreorganisation fällig, da die internen Periodenstatistiken angepasst werden müssen.
 
 - Fehlerhafte Einträge im Mandantenserver
 
@@ -49,7 +49,7 @@
 | Fehler | Fehlermöglichkeiten | Lösungsmöglichkeiten |
 | --- | --- | --- |
 | Die Summe Erlöse /Aufwand ist in der Ware höher als in der Fibu | Fehler im Fehlerprotokoll Fibu-Übertrag (falsche EKZZ)<br>Fibu-Übertrag nicht gestartet<br>nicht alle Belege übertragen<br>Mandantenserver nicht gelaufen | Fehlerprotokoll prüfen<br>Mandantenserver starten<br>Auswahlbereiche überprüfen<br> |
-| Unterschiedliche Periodenführung in der Ware und der Fibu | SPA-Einstellung: Variante Periodenermittlung für FIBU = Datum<br>SPA-Einstellung: Rechnungstrennung durch Periode = NEIN<br>Abweichende Einrichtung Fibu- / Warenperioden | Konsistenzprüfung: Belege mit abweichenden Perioden<br>Wenn Unstimmigkeit, dann in **[WAREO]:**<br>Perioden angleichen<br>Gesamtreorganisation<br> |
+| Unterschiedliche Periodenführung in der Ware und der Fibu | SPA-Einstellung: Variante Periodenermittlung für FIBU = Datum<br>SPA-Einstellung: Rechnungstrennung durch Periode = NEIN<br>Abweichende Einrichtung Fibu- / Warenperioden | Konsistenzprüfung: Belege mit abweichenden Perioden<br>Wenn Unstimmigkeit, dann in **[WAREO]:**<br>***Perioden angleichen***<br>***Gesamtreorganisation***<br> |
 | Fehlerhafte Einträge im Mandanten | Absturz, während der Mandantenserver lief<br>Kaputter Eintrag vom AMIC-Support zurückgestellt (DS_STATUS = 2)<br> | Konsistenzprüfung: ***Zurückgestellte Mandantenservereinträge***<br>Konsistenzprüfung: ***Redundante Mandantenservereinträge löschen***<br>Konsistenzprüfung: ***Mandantenserver Status 3 freigeben***<br>alle Prüfungen mit Mandantenserver checken |
 | Warenbelegsumme und Artikelsummen stimmen nicht überein | Stammdateneinrichtung (Mengeneinheiten / Gebinde / etc.) | Stammdaten korrigieren<br>AMIC-Support |
 | Es fehlen Belege in der Ware, die aber in der Fibu vorhanden sind | Programmfehler<br>Fehler durch AMIC-Support oder Anwender (gelöscht mit OSQL) | Storno-Buchung in der Fibu erzeugen (AR - Betrag)<br>Beleg in der Ware neu erfassen und dann Fibu-Übertrag<br>Fibu-Beleg per OSQL löschen (Nur durch den AMIC-SUPPORT!!) |

@@ -4,7 +4,7 @@
 
 Im Archiv wurde der letzte Pfad für das Hinzufügen neuer Dokumente (F8) nach dem Schließen der Maske nicht gespeichert. Der Pfleger wurde so angepasst, dass der Pfad nun auch nach Verlassen der Maske gespeichert bleibt und beim nächsten Hinzufügen eines Dokumentes über (F8) Neu vorgeschlagen wird. Beim Speichern des Datensatzes wird die Maske nun wieder geschlossen.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 750167[38271]
 
@@ -20,6 +20,6 @@ Funktion/Report: Neu
 
 [Weitere Informationen](http://www.amic.de/hilfe/_archivstammdatenpfle.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.7, 38271, 750167

@@ -4,7 +4,7 @@
 
 In der Anwendung Nachhaltigkeit-Kundenübersicht [NAKUE] wurde in der Zertifikatsübersicht die Archivfunktion angebunden. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 743207[37122]
 
@@ -20,6 +20,6 @@ Funktion/Report: Archiv anzeigen
 
 [Weitere Informationen](http://www.amic.de/hilfe/_zertifikate.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.6, 37122, 743207

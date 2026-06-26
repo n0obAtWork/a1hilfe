@@ -135,17 +135,17 @@ Hinweis
 
 Es ist bei der Rezeptureingabe im Mehrlagerbetrieb auf die korrekte Lagerzuordnung zu achten. Es könnte erwünscht oder aber unerwünscht sein, dass Produkt und Komponenten von verschiedenen Lagern zugeordnet werden.
 
-###### Details F5
+### Details F5
 
 Diese Funktion ist nur sichtbar und aufrufbar, wenn eine Zeile in der Tabelle angewählt wurde.  
 Hier kann man den Schwund in Prozent und die Mengeneinheit Anteil angeben.
 
-###### Preise F11
+### Preise F11
 
 Diese Funktion ist nur aufrufbar, wenn in der Spalte Fixpreis für eine Komponente „Ja“ eingetragen wurde.
 
 Hier ist die Preispflege für die einzelnen Komponenten möglich.
 
-###### Rezept auflösen F6
+### Rezept auflösen F6
 
 Ist in der Zusammensetzung der Rezeptur ein Unterrezept enthalten kann man sich die Komponenten des Unterrezeptes mit anzeigen lassen.

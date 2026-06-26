@@ -39,7 +39,7 @@ Durch die Einrichtung der Waage nach untenstehenden Vorgaben wird kann die Stand
 | Steuerschlüssel | 11 | 1 |
 | Wiegenummer | 12 | 8 |
 
-Wichtiger Hinweis
+**Wichtiger Hinweis**
 
 Bei Aeins-Versionen bis 4.2.2.181 (21.06.1999) ist nach Beendigung der Konfigurationen das SQL-Script WAAGKORR.SQL per Direktsprung [OSQL] F3 einzuspielen. Es enthält folgendes Statement:
 

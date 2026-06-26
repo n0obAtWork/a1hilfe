@@ -8,19 +8,19 @@ Das RAB besteht aus fortlaufend durchnummerierten Drucklisten (s. Nummernkreis).
 
 Nach dem Erstdruck erscheint die RAB-Liste in der Auswahlliste Rechnungsausgangsbuch. Dort sind wichtige Grunddaten des Listeninhalts, wie z.B. Anzahl der enthaltenen Belege, jüngstes/ältestes Belegdatum, sowie Umsatzwerte (Summe).
 
-<p class="just-emphasize">Funktionen</p>
+### Funktionen
 
-Nummernkreis setzen
+***Nummernkreis setzen***
 
 Vor Eröffnung des Rechnungsausgangsbuches sollte unter NUK ein eigener Nummernkreis eingerichtet werden. Der Nummernkreis kann unter ***Nummernkreis setzten*** **F8** per **F3** ausgewählt werden. Die nächste Nummer lässt sich hier setzen, sowie Text und Ober-/Untergrenze.
 
 ACHTUNG! Wird die nächste Nummer geändert, wenn schon RAB-Listen erstellt wurden, werden u.U. die vorhandenen Listennummern automatisch angepasst!
 
-Löschen RAB
+***Löschen RAB***
 
 Löschen der RAB- Listen für das in der Auswahlliste unter Bereich eingetragene Jahr.
 
-Erstdruck RAB
+***Erstdruck RAB***
 
 Erstellung einer RAB-Liste nach Selektionskriterien. Vor der Erstellung wird zunächst geprüft, ob alle Belege im Selektionsbereich freigegeben sind. Falls noch Belege bearbeitet werden, erscheint eine Abfrage:
 
@@ -32,7 +32,7 @@ Während der Erstellung stehen ALLE Belege des Selektionsbereiches der Vorgangsb
 
 Alle im RAB befindlichen Belege sind ebenfalls von weiterer Vorgangsbearbeitung ausgeschlossen.
 
-<p class="just-emphasize">Beschreibung der Auswahlmaske und Selektionskriterien</p>
+### Beschreibung der Auswahlmaske und Selektionskriterien
 
 Tabelle 1
 
@@ -60,11 +60,11 @@ Anklicken einer RAB Liste der Auswahlliste. Die Liste erscheint auf dem Bildschi
 
 Sie ist eine Kopie des Erstdrucks. Ein Zähler in der Liste weist die Anzahl der Ausdrucke auf. Die Liste wird deutlich als Kopiedruck mit der Listennummer und der Drucknummer des Kopienzählers ausgewiesen.
 
-<p class="just-emphasize">Kopie (Drucker)</p>
+### Kopie (Drucker)
 
 Wie oben; jedoch direkt auf den Standard-Drucker.
 
-<p class="just-emphasize">Kopie mit Auswahl</p>
+### Kopie mit Auswahl
 
 Die gewählte RAB-Liste kann vor dem Ausdruck in ihren Selektionskriterien noch verändert werden.
 

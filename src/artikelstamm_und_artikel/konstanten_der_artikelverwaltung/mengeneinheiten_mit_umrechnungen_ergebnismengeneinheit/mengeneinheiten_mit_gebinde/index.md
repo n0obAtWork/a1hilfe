@@ -99,7 +99,7 @@ Tabreiter – Zusatz
   </table>
 </div>
 
-<p class="just-emphasize">Tabreiter</p>
+### Tabreiter
 
 Hier ist eine Auflistung der einzelnen Felder auf den Tabreitern der Maske.
 

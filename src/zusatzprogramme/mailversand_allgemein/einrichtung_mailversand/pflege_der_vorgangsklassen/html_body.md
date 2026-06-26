@@ -22,26 +22,26 @@ returns long varchar
 
 1. Schritt – Erstellen einer HTML-Body-Datei
 
-Erstellen Sie eine HTML-Datei, die den Inhalt des Mailtextes darstellen soll. Verwenden Sie dazu die HTML-Tags in spitzen Klammern.
+   Erstellen Sie eine HTML-Datei, die den Inhalt des Mailtextes darstellen soll. Verwenden Sie dazu die HTML-Tags in spitzen Klammern.
 
-Wollen Sie im Text Inhalte aus dem zu versendenden Beleg Informationen einsetzen, so müssen Sie dafür einen Platzhalter zu definieren. In unserem Beispiel wird ein Wort in geschweiften Klammern verwendet. Das ist aber nicht zwingend so.
+   Wollen Sie im Text Inhalte aus dem zu versendenden Beleg Informationen einsetzen, so müssen Sie dafür einen Platzhalter zu definieren. In unserem Beispiel wird ein Wort in geschweiften Klammern verwendet. Das ist aber nicht zwingend so.
 
-Verboten für die Kennzeichnung von Platzhaltern sind wegen der Verwechslungsgefahr mit HTML-Tags die spitze Klammer.
+   Verboten für die Kennzeichnung von Platzhaltern sind wegen der Verwechslungsgefahr mit HTML-Tags die spitze Klammer.
 
-Siehe auch Service einrichten für den A.eins Mailversand
+   Siehe auch Service einrichten für den A.eins Mailversand
 
 2. Schritt – Importieren der HTML-Body-Datei
 
-Importieren Sie ins Formulararchiv diese Datei unter Angabe der Belegklasse 8039 – HTMLBODY. Bitte geben Sie einen Betreff an, den Sie später im FRZ wieder finden.
+   Importieren Sie ins Formulararchiv diese Datei unter Angabe der Belegklasse 8039 – HTMLBODY. Bitte geben Sie einen Betreff an, den Sie später im FRZ wieder finden.
 
-Merken Sie sich die FA_ID dieses Eintrags.
+   Merken Sie sich die FA_ID dieses Eintrags.
 
 3. Schritt – Definieren einer HTML-Body-Funktion
 
-Damit die Platzhalter für die Inhalte nun gegen Inhalte ausgetauscht werden können, wird eine Datenbankfunktion verwendet. In dieser wird der Text der in Schritt 1 erstellten Datei aus der Datenbank geladen. Zusätzlich werden Daten aus den Angaben des zu vermailenden Belegs ermittelt und die können dann die Platzhalter ersetzen.
+   Damit die Platzhalter für die Inhalte nun gegen Inhalte ausgetauscht werden können, wird eine Datenbankfunktion verwendet. In dieser wird der Text der in Schritt 1 erstellten Datei aus der Datenbank geladen. Zusätzlich werden Daten aus den Angaben des zu vermailenden Belegs ermittelt und die können dann die Platzhalter ersetzen.
 
 4. Schritt – Eintrag in die Formularzuordnung
 
-Tragen Sie in der Formularzuordnung die FA_ID der HTML-Body-Datei und die HTML-Body-Funktion ein.
+   Tragen Sie in der Formularzuordnung die FA_ID der HTML-Body-Datei und die HTML-Body-Funktion ein.
 
-Siehe auch [Formularzuordnung **[FRZ]**](../../../../vorgangsabwicklung/formularzuordnung/abwicklung.md#Abwicklung_Versand)**.**
+   Siehe auch [Formularzuordnung **[FRZ]**](../../../../vorgangsabwicklung/formularzuordnung/abwicklung.md#Abwicklung_Versand)**.**

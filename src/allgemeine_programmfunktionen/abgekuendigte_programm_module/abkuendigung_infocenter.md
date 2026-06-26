@@ -4,6 +4,6 @@
 
 Die Möglichkeiten des Archivs und des Dashboards machen eine weitere notwendige Software-Pflege des "Info-Center" im Haupt-Menü obsolet. Dieser Programmteil wurde entfernt.
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Abkündigung

@@ -14,11 +14,11 @@ Direktsprung **[PKX]**.
 
 3. Wählen Sie unter ***Preis gültig am*** ein Datum über den Kalender und bestätigen Sie dies per Doppelklick.
 
-ODER:
+   ODER:
 
-Tragen Sie ein **Gültigkeitsdatum** ein oder den Wert **heute**.
+   Tragen Sie ein **Gültigkeitsdatum** ein oder den Wert **heute**.
 
-<p class="just-emphasize">Hinweis!</p>
+#### Hinweis!
 
 Wenn sich in der Preisliste auch Artikel befinden, die keinen Preis für den Tag hinterlegt haben, werden auch diese in die Exceldatei exportiert.
 
@@ -32,9 +32,9 @@ Beachten Sie dies Verhalten bei der Einstellung Ihrer Filterkriterien.
 
 7. Speichern Sie die Einstellungen, indem Sie ***F9*** drücken oder ***Speichern und zurück*** in Optionsbox auswählen.
 
-Die Auswahlliste wird angezeigt Ihnen in Gruppierung der Preislistengruppe der gefilterten Artikel an.
+   Die Auswahlliste wird angezeigt Ihnen in Gruppierung der Preislistengruppe der gefilterten Artikel an.
 
-<p class="just-emphasize">Hinweis!</p>
+#### Hinweis!
 
 ***Liste zeigt Gruppierung einer Preisliste***
 

@@ -4,7 +4,7 @@
 
 Bei einer Rohwareeinrichtung, bei der die Mengeneinheit einer Kosteneinrichtung von der Mengeneinheit der Ware abweicht, wurde fälschlicherweise die Mengeneinheit der Ware für die Kosten benutzt. Dieses wurde korrigiert. Belege mit falschen Preisen können korrigiert werden durch manuelle Eingabe des Betrags. Dadurch wird der falsche Preis neu und korrekt berechnet und der eigens bestimmte manuelle Betrag bleibt bestehen.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 724088[33885]
 
@@ -20,6 +20,6 @@ Funktion/Report: F8, F5
 
 [Weitere Informationen](http://www.amic.de/hilfe/rohwarebelegeerfassen.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2306.9, 33885, 724088

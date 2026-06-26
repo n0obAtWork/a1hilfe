@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/bestellwesen.htm -->
 
-<p class="just-emphasize">Mehr Transparenz im Unternehmen.</p>
+#### Mehr Transparenz im Unternehmen.
 
 Optimieren Sie Ihre täglichen Abläufe im Bestellwesen und sparen Sie dadurch wertvolle Zeit und Geld.
 

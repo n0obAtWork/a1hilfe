@@ -4,7 +4,7 @@
 
 Wenn man über die Filterzeile eine Eingrenzung vornimmt und ohne die Filterzeile zu verlassen, in die Bearbeitung springt, erscheint nach der Bearbeitung eine Fehlermeldung.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 747767[37321]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/datentabelle.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.6, 37321, 747767

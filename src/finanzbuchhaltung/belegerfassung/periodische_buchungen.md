@@ -14,7 +14,7 @@ Hier werden alle erfassten Daten angezeigt und können bearbeitet werden.
 2. Fällig Belege  
 Es werden die zum eingegebenen Stichtag anliegenden Buchungen angezeigt.
 
-Periodische Buchungen erfassen
+**Periodische Buchungen erfassen**
 
 ![Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_551.jpg "Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch generierte Beschreibung")
 
@@ -209,7 +209,7 @@ Tabelle für Gegenpositionen:
 | Klasse/Schlüssel | Steuerklasse und Steuerschlüssel werden so vorgeschlagen, wie sie für das Gegenkonto im Sachkontenstamm hinterlegt sind. Sind Steuerklasse und Steuerschlüssel im Sachkontenstamm gesperrt oder handelt es sich beim Gegenkonto um ein Personenkonto, ist auch hier keine Erfassung möglich.<br> |
 | Text | Belegtext, der beim Erstellen dem jeweiligen Gegenkonto zugeordnet wird<br> |
 
-<p class="just-emphasize">Beleg erstellen</p>
+#### Beleg erstellen
 
 ![Ein Bild, das Text, Screenshot, Display, Software enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_552.jpg "Ein Bild, das Text, Screenshot, Display, Software enthält. Automatisch generierte Beschreibung")
 

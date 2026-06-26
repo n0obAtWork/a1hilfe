@@ -4,7 +4,7 @@
 
 In der Anwendung [MAIL] kann eine E-Mail erneut versendet werden. Wenn nun ein Versandprofil gelöscht wurde, konnten keine Emails mehr über dieses Profil erneut versendet werden. Stattdessen wird man beim Aufruf einer solchen Mail nun darauf hingewiesen und man kann ein vorhandenes Profil auswählen.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 719644[34062]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/--)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 34062, 719644

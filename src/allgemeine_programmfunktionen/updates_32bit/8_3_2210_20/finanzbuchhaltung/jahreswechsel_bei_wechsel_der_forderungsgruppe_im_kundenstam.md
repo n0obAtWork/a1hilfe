@@ -4,7 +4,7 @@
 
 Beim Jahreswechsel wurden bei Forderungs- und Verbindlichkeitskonten immer die Jahresverkehrszahlen vorgetragen und daraus der Saldo gebildet. Dies führte zu unübersichtlichen Zahlen. Jetzt wird der Saldo übertragen. Wird im Kunden-/Lieferantenstamm die Forderungsgruppe geändert, erfolgt beim Jahreswechsel eine Umbuchung der betroffenen Forderungs- und Verbindlichkeitskonten. Diese Umbuchung wird jetzt immer vor dem Jahreswechsel für Personenkonten durchgeführt (vorher beim Jahreswechsel Bilanzkonten).
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 712049[32898]
 
@@ -20,6 +20,6 @@ Funktion/Report: JAHRW
 
 [Weitere Informationen](http://www.amic.de/hilfe/umbuchungenbeiwechselderforder.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2210.20, 32898, 712049

@@ -4,7 +4,7 @@
 
 Wenn ein Oberkunde (abweichender Rechnungsempfänger) vorhanden ist, wird nun die korrekte Adresse in das xRechnungs-Attribut (XML) für die "postaladress" übernommen.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 743700[36409]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/!erechnung1.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 36409, 743700

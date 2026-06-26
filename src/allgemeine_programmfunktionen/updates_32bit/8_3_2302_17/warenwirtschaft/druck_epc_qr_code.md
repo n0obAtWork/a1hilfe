@@ -4,7 +4,7 @@
 
 Der EPC-QR-Code wurde nicht gedruckt wenn die TSE-Lizenz fehlte. Dieses wurde nun behoben. Der EPC-QR-Code wird jetzt auch ohne TSE-Lizenz gedruckt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 717262[33367]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_frmpepcqrcode.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2302.17, 33367, 717262

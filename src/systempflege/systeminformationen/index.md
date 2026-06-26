@@ -10,7 +10,7 @@ oder das Fragezeichen (?) in der oberen Leiste anklicken und dann Systeminformat
 
 Hier findet man alle notwendigen Informationen zum System z.B. wer mit der Datenbank verbunden ist, welche Lizenz und welche Versionen verwendet werden, die Größe der Datenbank und vieles weiteres.
 
-<p class="just-emphasize">Kopfdaten</p>
+### Kopfdaten
 
 | Feldname | Beschreibung |
 | --- | --- |
@@ -18,7 +18,7 @@ Hier findet man alle notwendigen Informationen zum System z.B. wer mit der Daten
 | Bediener | Hier werden das Kürzel und der Name des aktuellen Bedieners angezeigt.<br>Entspricht den Feldern Kurzname und Bedienername aus dem [Bedienerstamm](../../firmenstamm/firmenkonstanten/bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/index.md) (Direktsprung **[BD]**)<br> |
 | Mandant | Hier sieht man welcher Mandant ausgewählt wurde<br>Entspricht dem Feld Kurztext aus dem [Mandantenstamm](../../firmenstamm/firmenkonstanten/mandantenstamm.md)<br>(Direktsprung **[MND]**)<br> |
 
-<p class="just-emphasize">Register</p>
+### Register
 
 <details>
 <summary>Allgemein</summary>
@@ -77,7 +77,7 @@ Konsistenzprüfung der Datenbank
 | Letzte Prüfung | Zeitpunkt der letzten Prüfung für die entsprechende Tabelle<br> |
 | Status | Status der letzten Prüfung<br> |
 
-<p class="just-emphasize">Option</p>
+### Option
 
 Hier kann man die Datenbankoptionen und ihren Status einsehen.  
 Aufgrund der Anzahl der Optionen wird hier nicht jede einzelne erläutert.
@@ -87,7 +87,7 @@ Aufgrund der Anzahl der Optionen wird hier nicht jede einzelne erläutert.
 | Option | Hier kann man den Namen der Datenbankoption sehen<br> |
 | Status | Hier wird der Status der Option angezeigt<br> |
 
-<p class="just-emphasize">DB-Eigenschaften</p>
+### DB-Eigenschaften
 
 Hier kann man die Datenbank-Eigenschaften und ihren Status einsehen.
 
@@ -101,7 +101,7 @@ Hier kann man die Datenbank-Eigenschaften und ihren Status einsehen.
 
  
 
-<p class="just-emphasize">Funktionen</p>
+### Funktionen
 
 <details>
 <summary>Funktionen der Systeminformationen</summary>

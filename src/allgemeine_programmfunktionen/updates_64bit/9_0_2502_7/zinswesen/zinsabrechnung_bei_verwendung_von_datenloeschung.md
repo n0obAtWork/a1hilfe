@@ -4,7 +4,7 @@
 
 Die Verprobung der Zinsabrechnung erfolgt nur noch für nicht abgeschlossene Perioden.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 748882[38303]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/fibureorganisator.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.7, 38303, 748882

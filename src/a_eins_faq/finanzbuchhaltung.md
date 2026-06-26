@@ -5,7 +5,7 @@
 <details>
 <summary>Frage: Der Steuersatz hat sich geändert, was muss ich berücksichtigen/einstellen?</summary>
 
-<p class="just-emphasize">Antwort:</p>
+#### Antwort:
 
 Bei einer Steuersatzänderung müssen mehrere Faktoren berücksichtigt werden. Dazu stehen 2 Anleitungen bereit:
 
@@ -16,7 +16,7 @@ Information für alle A.eins-Nutzer, die ihre Daten über die Datevschnittstelle
 
 Nach den Änderungen der Steuersätze muss der Mandantenserver neugestartet werden. Dafür mit dem Direktsprung **[MSI]** in die Maske des Mandantenservers. Hier die Funktion ***Stop Mandantenserver*** und danach die Funktion ***Normale Bearbeitung*** ausführen.
 
-<p class="just-emphasize">Eine grobe Übersicht der wichtigsten Konten:</p>
+### Eine grobe Übersicht der wichtigsten Konten:
 
 SKR04
 
@@ -79,7 +79,7 @@ SKR03
 <details>
 <summary>Frage: Das Programm meldet „ungebuchte Belege“. Wo kann ich die finden?</summary>
 
-<p class="just-emphasize">Antwort:</p>
+#### Antwort:
 
 Eine Möglichkeit der Anzeige ist im Menü unter „Finanzbuchhaltung“ – „Standardvorgänge Fibu“ [FISV] in der Variante „ungebuchte Belege“. Hier kann man über den F2-Filter auch auf die Vorjahre abgrenzen.
 
@@ -90,7 +90,7 @@ Hintergrund: An verschiedenen Stellen in A.eins wird beim Zusammenstellen der Da
 <details>
 <summary>Frage: In der Saldenliste Debitoren steht ein anderer Saldo als auf dem Kontoblatt des Kontos Forderungen. Woran liegt das?</summary>
 
-<p class="just-emphasize">Antwort:</p>
+#### Antwort:
 
 Die Saldenlisten und die Kontoinformation [KOI] zeigen die Salden in Bezug auf die Buchungsperioden an. An anderen Stellen ist das Buchungsdatum zusätzlich anzugeben wie bspw.bei der Erstellung des DATEV-Exports oder der Kontenblätter. In besonderen Fällen kann das Buchungsdatum nicht in der Buchungsperiode liegen, wodurch z. B. ein Beleg vom 15.07.17 mit Periode 6/17 in der Saldenliste bis 6/17 auftaucht, nicht aber auf dem Kontoblatt, wenn man hier als Eingrenzung neben der Periode auch das Datum auf 30.06.17 gesetzt hat.
 
@@ -99,7 +99,7 @@ Die Saldenlisten und die Kontoinformation [KOI] zeigen die Salden in Bezug auf d
 <details>
 <summary>Frage: In der OP-Liste historisch steht zum Stichtag ein anderer Saldo als auf dem Personenkonto in der OPV. Warum?</summary>
 
-<p class="just-emphasize">Antwort:</p>
+#### Antwort:
 
 Bei der Abgrenzung von Offenen Posten zu einem Stichtag ist im Zusammenhang mit der Verrechnung von Belegen das Datum der Auszifferung maßgeblich.
 
@@ -110,7 +110,7 @@ In der OP-Liste wird das OP-Kennzeichen zum Stichtag ausgewertet. Wurde auf ein 
 <details>
 <summary>Frage: Eine Eingangsrechnung / Ausgangsrechnung geht nicht in die Fibu. Nach dem Fibu-Übertrag arbeitet das Programm erst und es steht „i. B.“ in der Spalte „Fib“, wenn ich die Auswahlliste neu aufrufe sind dort wieder Striche. Warum klappt die Übertragung nicht?</summary>
 
-<p class="just-emphasize">Antwort:</p>
+#### Antwort:
 
 Der Grund für die fehlende Übernahme in die Fibu ist nachzulesen unter „Finanzbuchhaltung“ – „Protokoll Fibuübertrag“ [FIBF].
 
@@ -121,7 +121,7 @@ Hintergrund: Meistens ist die Erlöskennziffern-Zuordnung [EKZZ] unvollständig.
 <details>
 <summary>Frage: Wie buche ich einen Eigenverbrauch?</summary>
 
-<p class="just-emphasize">Antwort:</p>
+#### Antwort:
 
 Ware, die man vom Lager nimmt für den Eigenverbrauch, kann über eine Eingangsrechnung mit negativer Menge erfasst werden. Als Lieferant setzt man den eigenen Betrieb ein bzw. legt ihn unter Lieferanten zuvor an.
 
@@ -132,7 +132,7 @@ Dieser Lieferant sollte einer Steuergruppe „Eigenverbrauch“ (STS „normale 
 <details>
 <summary>Frage: Wir haben einen Vorsteuerbetrag, der überwiesen wurde und zu 100% direkt auf Vorsteuer gebucht werden muss. In der Belegerfassung der Fibu gibt es aber eine Meldung: „Dieses Konto ist für die Direkterfassung gesperrt”</summary>
 
-<p class="just-emphasize">Antwort:</p>
+#### Antwort:
 
 Als Steuerkonten definierte Konten sind für die Direkterfassung in A.eins gesperrt, damit Sie die zusätzlichen Auswertungsanforderungen erfüllen. https://www.amic.de/hilfe/#!_fibu_stammdaten_sachkonten.htm
 

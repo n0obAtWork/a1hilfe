@@ -6,11 +6,11 @@ Hauptmenü > Inventur > Inventurende
 
 Direktsprung **[IVE]**
 
-<p class="just-emphasize">Inventur prüfen F6</p>
+### Inventur prüfen F6
 
 Hier wird die Inventur auf Einspielfähigkeit geprüft:
 
-<p class="just-emphasize">Vortrag permanente Inventur</p>
+### Vortrag permanente Inventur
 
 Wird permanente Inventur verwendet, so muss vor dem Abschluss der Inventur ein Bestandsvortrag gemacht werden. Dies kann aber nur am Ende des oder nach dem Erhebungstag des Inventurstammsatzes erfolgen.
 
@@ -24,7 +24,7 @@ Alle Artikel, die zum Inventurstichtag Bestand haben, müssen aufgenommen sein. 
 
 Alle Aufnahmen müssen bewertet sein. Insbesondere durch den Inventurvortrag oder durch obige Funktion erzeugte Inventurbestände können als nicht bewertet gelten. Mit der entsprechenden Sonderfunktion definieren Sie alle **Aufnahmen als bewertet**.
 
-<p class="just-emphasize">Inventur abschließen F5</p>
+### Inventur abschließen F5
 
 Mit dem Inventurabschluss ist eine umfassende Prüfung verbunden:
 
@@ -44,11 +44,11 @@ Mit der Funktion ***Inventur abschließen*** **F5** wird die Inventuraufnahme ab
 
 Bitte wählen Sie die Option „Permanente Inventurprüfung unterdrücken“ nur aus, wenn Sie sicher sind, dass an der Inventur keine Artikel mit permanenter Inventur beteiligt sind. Das wird in der Regel nur der Fall sein, wenn alte Inventuren abgeschlossen werden müssen, die Artikel enthalten, die inzwischen der permanenten Inventur unterliegen.
 
-<p class="just-emphasize">Einspielen</p>
+### Einspielen
 
 Das Inventurergebnis wird auf das Artikelkonto (Warenbuch Periode 01 neues Jahr bzw. in die nächstfolgende Periode) eingespielt. Hiermit ist die Inventur endgültig abgeschlossen.
 
-<p class="just-emphasize">Inventurbestand und Inv.Best.EKZ</p>
+### Inventurbestand und Inv.Best.EKZ
 
 Hier können die Inventurwerte wahlweise nach Artikelnummern oder verdichtet nach Erlöskonten ermittelt und gedruckt werden. Diese Listen dienen dann als Buchungsunterlage für die Fibu.
 
@@ -64,7 +64,7 @@ Die Auswahllisten zum Bereich Inventurabschluss können bei “breit“ angelegt
 
 Die Vollständigkeitsprüfungen werden wie bisher durchgeführt. Die Prüfung kann separat zur Vorbereitung des Inventurabschlusses durchgeführt werden. Der Abschluss beinhaltet stets einen kompletten Prüflauf.
 
-<p class="just-emphasize">Vorläufig einspielen / Vorl. Einsp. entfernen</p>
+### Vorläufig einspielen / Vorl. Einsp. entfernen
 
 Die Durchführung dieser Funktion ist optional und nur **vor** dem Inventurabschluss möglich. Es ist **kein** endgültiger Periodenabschluss erforderlich.
 
@@ -91,7 +91,7 @@ Beispiel:
 
 Die körperliche Aufnahme der Mengen ist erfolgt und erfasst. Die Bewertung steht jedoch noch aus. Aber man möchte die Mengenkorrekturen bereits wertstellen, sodass zumindest mengenmäßig mit den richtigen Vorträgen gearbeitet wird. Zur Bewertung wird, wenn nicht anders angegeben, die Buchbewertung zum Zeitpunkt der vorläufigen Einspielung herangezogen.
 
-<p class="just-emphasize">Löschen</p>
+### Löschen
 
 Der letzte Schritt nach der Inventureinspielung und dem Drucken ist das Löschen der Inventur.
 

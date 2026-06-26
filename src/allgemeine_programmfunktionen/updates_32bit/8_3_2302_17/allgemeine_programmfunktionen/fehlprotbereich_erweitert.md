@@ -4,7 +4,7 @@
 
 Die Tabelle Fehlerprotokoll und die zuliefernden Prozeduren lassen jetzt einen Fehlerprotokollbereich von 255 statt 30 Zeichen zu
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 719179[33334]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/!fehlerprotokollneu.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2302.17, 33334, 719179

@@ -10,7 +10,7 @@ Bei der Verwendung der Standardimportschnittstelle muss die Relation Fibuimport 
 
 ![](../../../ImagesExt/image8_772.png)
 
-<p class="just-emphasize">Feldbeschreibung</p>
+#### Feldbeschreibung
 
 | Feld | Beschreibung |
 | --- | --- |
@@ -59,7 +59,7 @@ Bei der Verwendung der Standardimportschnittstelle muss die Relation Fibuimport 
 | FIBUV_NUMMER | Wird in diesem Feld ein Wert eingetragen, so wird dieser als die FiBuV_Nummer übernommen. Dieses Feld wird nur bei der [Standardmethode](./index.md#TAB_FIIMPART) ausgewertet. Wird in das Feld Null eingetragen, so wird die FiBuV_Nummer automatisch bestimmt.<br><br> |
 | FIBUV_NUMNUMMER | Wird in diesem Feld ein Wert eingetragen, so wird dieser als die FiBuV_NumNummer übernommen. Dieses Feld wird nur bei der [Standardmethode](./index.md#TAB_FIIMPART) ausgewertet. Wird in das Feld Null eingetragen, so wird die FiBuV_NumNummer automatisch bestimmt.<br><br> |
 
-<p class="just-emphasize">Optionen</p>
+#### Optionen
 
 Hier lassen sich einige Optionen zur Steuerung des Imports einstellen.
 
@@ -86,13 +86,13 @@ Nach dem Ändern der Optionen werden ggf. bereits durchgeführte Tests wieder vo
 | Nummernkreis für Import | Beim Import wird den Belegen eine Belegnummer aus A.eins heraus neu generiert. Dies geschieht über das übliche Nummernkreisverfahren. Hier wird der zu verwendende Nummernkreis angegeben.<br>**Anmerkung**: *Eine Übernahme der Belegnummer wird deswegen nicht vorgenommen, weil es ansonsten nicht möglich ist, eine Eindeutigkeit der Belegnummern in A.eins zu gewährleisten.*<br> |
 | Perioden vorbelegen<br> | Man kann hier bestimmen, ob man eine feste Periode für den Import vorgeben will. Dies kann bei einmaligem OP-Import für Eröffnungsbuchungen sinnvoll sein. Dann werden in JAHRNUMMER und PERINUMMER stehenden Werte ignoriert und die hier eingetragenen Werte verwendet.<br> |
 
-<p class="just-emphasize">Daten einlesen über vordefinierte Importverfahren</p>
+#### Daten einlesen über vordefinierte Importverfahren
 
 ![](../../../ImagesExt/image8_775.png)
 
 Wird im Menü die Funktion ***Importdatei lesen* F4** ausgewählt, dann erscheint dieser Dialog, in dem man eines der vordefinierten Verfahren auswählen kann. Eine genauere Beschreibung dieser Verfahren findet man in den entsprechenden Kapiteln weiter unten.
 
-<p class="just-emphasize">Testlauf</p>
+#### Testlauf
 
 Bevor die eigentliche Einspielung erfolgen kann, muss erst ein ***Testlauf*** **F9** erfolgen. Bei diesem Test werden folgende Felder je nach Einstellung in den Optionen automatisch vom Programm gesetzt:
 
@@ -140,17 +140,17 @@ Hauptkonto ungleich Gegenkonto?
 
 Stimmt die Steuergruppe mit der des Personenkontos überein)
 
-<p class="just-emphasize">Echtlauf</p>
+#### Echtlauf
 
 Nur wenn bei diesem Testlauf keine Fehler auftreten, kann die eigentliche Einspielung erfolgen. Dazu muss für alle Datensätze in der Tabelle Fibuimport der Status auf "Test Ok" stehen. Man kann unter Optionen eine Einstellung vornehmen, so dass nach erfolgreichem Testlauf die Belegverarbeitung automatisch startet. Die Einspielung startet man mit der Funktion ***Echtlauf* F8** 
 
-<p class="just-emphasize">Löschen</p>
+#### Löschen
 
 ![](../../../ImagesExt/image8_776.png)
 
 Die Funktion ***Löschen* F7** lässt zu, diese Daten mit einem bestimmten Status zu löschen. Einige vordefinierte Exportverfahren lassen eine erneute Einspielung nur zu, wenn die Tabelle Fibuimport leer ist.
 
-<p class="just-emphasize">Eigene Importverfahren einbinden</p>
+#### Eigene Importverfahren einbinden
 
 Wenn man sich ein Makro oder eine JPL-Prozedur zum Befüllen der Relation Fibuimport erstellt hat, so kann man es so einbinden, dass die Optionen für das Umbenennen der Datei, die Umlautkonvertierung und die Aktualisierung der Auswahlliste automatisch wie unter Optionen eingestellt vorgenommen werden. Dazu geht man wie folgt vor:  
 Man wählt den Direktsprung **[PF]** für "***Private Funktionen***" an und erstellt sich eine Funktion in folgender Art.

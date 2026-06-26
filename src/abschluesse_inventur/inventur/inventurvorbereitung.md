@@ -8,13 +8,13 @@ Direktsprung **[IVV]**
 
 Die Inventurvorbereitung besteht aus zwei wesentlichen Punkten.
 
-<p class="just-emphasize">Inventureröffnung:</p>
+### Inventureröffnung:
 
 Der Eröffnungsvortrag kennzeichnet alle Artikel, die zum Eröffnungszeitpunkt einen Buchbestand und die entsprechende Inventurgruppe haben. Die Inventureröffnung (**F5**) kann aus der Auswahl gestartet werden, wenn der entsprechende Inventur-Stichtag eingegeben wird.
 
 Optional können alle Artikel mit Erhebungsmenge 0 (Null) in den Inventurbestand vorgetragen werden, die zum Zeitpunkt der Inventureröffnung Bestand haben. Auf diese Weise hat man schon während der Inventuraufnahme eine gewisse Kontrolle über die Vollständigkeit der Aufnahmen. Vorläufige Differenzlisten weisen dann auch Inventurdifferenzen für noch nicht aufgenommene Artikel aus. Die endgültige Vollständigkeitskontrolle kann natürlich erst beim Inventurabschluss erfolgen.
 
-<p class="just-emphasize">Druck der Zähllisten:</p>
+### Druck der Zähllisten:
 
 Die Zähllisten können ebenfalls aus der Auswahlliste heraus gestartet werden und dienen lediglich zur Unterstützung der Zählung.
 

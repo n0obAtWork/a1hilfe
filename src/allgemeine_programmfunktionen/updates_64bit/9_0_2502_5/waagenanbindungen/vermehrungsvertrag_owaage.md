@@ -4,7 +4,7 @@
 
 Wenn in der Online-Waage ein Artikel per Vermehrungsvertrag bestimmt und gesucht wurde, so wurde bislang das Löschkennzeichen des Artikelstamm nicht berücksichtigt. Dies Verhalten ist nun abgeändert worden. Des Weiteren ist die Itembox IB_KU_Vertrag_Nu um die ArtikelId und Anerkid in der Returnliste erweitert worden.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 739549[36878]
 
@@ -20,6 +20,6 @@ Funktion/Report: Vermehrungsvertrag Auswahl
 
 [Weitere Informationen](http://www.amic.de/hilfe/_EPA_OWAAGE.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 36878, 739549

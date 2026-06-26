@@ -23,7 +23,7 @@ Nach ausführen der Funktion „Private Ableitung“ öffnet sich ein weiterer D
 | Markieren erlaubt | Wenn hier ein **Nein** eingetragen wird, dann ist das Markieren einzelner Zeilen nicht mehr möglich und es gilt für alle Funktionen immer die Gesamtauswahl.<br> |
 | Option Box | Sollen in dieser Variante andere Funktionen angeboten werden, so kann man eine eigen Optionbox hinterlegen, in der man die Funktionen zur Verfügung stellen kann. |
 
-<p class="just-emphasize">Funktionen:</p>
+#### Funktionen:
 
 | | **Beschreibung** |
 | --- | --- |

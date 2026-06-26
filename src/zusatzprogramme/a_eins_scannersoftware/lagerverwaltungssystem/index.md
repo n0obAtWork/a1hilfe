@@ -40,9 +40,9 @@ Folgende Scancodes sind auf jeden Fall zu erschaffen.
 
 2. Ein Scancode für die Lokalität. Für die Lokalität wird der AI-Code 99 aus dem Code 128 genommen. Beispiel 99001 99 ist der Identifier. 001 ist die Lokalität
 
-<p class="just-emphasize">LVS Scanner Module</p>
+#### LVS Scanner Module
 
-<p class="just-emphasize">LPL Ladeträger leeren</p>
+#### LPL Ladeträger leeren
 
 Mit diesem Modul werden Volle Ladeträger geleert. Diese können dann Alternativ noch auf eine Lokalität verschoben werden.
 
@@ -53,7 +53,7 @@ Mit diesem Modul werden Volle Ladeträger geleert. Diese können dann Alternativ
 | Optional kann noch eine Lokalität erfasst werden. |
 | Scannen von LPLENDE |
 
-<p class="just-emphasize">Leeren von Ladeträgern</p>
+#### Leeren von Ladeträgern
 
 Das Leeren von Ladeträgern kann nur durchgeführt werden, wenn ein darüber gelagerter Prozess gestartet worden ist. Der darüber gelagert Prozess startet eine Abarbeitungsmaschine. Die Daten werden dann in die Relationen tcpip_scanner_maschine und produktionleerenfuellen geschrieben. Diese werden dann bei der Bearbeitung des Übergelagert Prozess benutzt.
 
@@ -71,7 +71,7 @@ Wird beim Leeren Prozess die Menge und der Befehl AUSWIEGEN erfasste, so wird di
 | Optional Erfassen des Scancodes AUSWIEGEN |
 | Scannen von LEERENENDE |
 
-<p class="just-emphasize">Füllen von Ladeträgern</p>
+#### Füllen von Ladeträgern
 
 Das Füllen von Ladeträgern kann nur durchgeführt werden, wenn ein darüber gelagerter Prozess gestartet worden ist. Der darüber gelagert Prozess startet eine Abarbeitungsmaschine. Die Daten werden dann in die Relationen tcpip_scanner_maschine und produktionleerenfuellen geschrieben. Diese werden dann bei der Bearbeitung des Übergelagert Prozess benutzt.
 
@@ -91,7 +91,7 @@ Wenn keine Menge erfasste worden ist, kann dem Ladeträger mit dem Wiegekommando
 | Optional Erfassen einer Partie |
 | Scannen von FUELLENENDE |
 
-<p class="just-emphasize">Wiegen von Ladeträgern</p>
+#### Wiegen von Ladeträgern
 
 Das Wiegen von Ladeträgern kann nur durchgeführt werden, wenn ein darüber gelagerter Prozess gestartet worden ist. Wenn mehrere Ladeträger erfasst werden, so wird die Menge auf die Ladträger aufgeteilt
 
@@ -102,7 +102,7 @@ Das Wiegen von Ladeträgern kann nur durchgeführt werden, wenn ein darüber gel
 | Eingabe der Menge |
 | Scannen von WIEGENENDE |
 
-<p class="just-emphasize">Maschineninfo</p>
+#### Maschineninfo
 
 Beim Scannen der Maschineninformation wird der Zustand der Maschine(Produktion) angezeigt.
 
@@ -111,7 +111,7 @@ Beim Scannen der Maschineninformation wird der Zustand der Maschine(Produktion) 
 | Scannen von MAI |
 | Scannen der Lokalität |
 
-<p class="just-emphasize">Ladeträgerinfo</p>
+#### Ladeträgerinfo
 
 Beim Scanner der Boxinformation wird angezeigt Welcher Artikel mit welcher Partie und welcher Menge sich auf dem Ladeträger befindet.
 
@@ -120,7 +120,7 @@ Beim Scanner der Boxinformation wird angezeigt Welcher Artikel mit welcher Parti
 | Scannen von BOI |
 | Scannen des Ladeträgers |
 
-<p class="just-emphasize">Partieinfo</p>
+#### Partieinfo
 
 Beim Scanner einer Box werden alle Ladeträger angezeigt, die zu der Partie im Ladeträger gehören.
 
@@ -129,7 +129,7 @@ Beim Scanner einer Box werden alle Ladeträger angezeigt, die zu der Partie im L
 | Scannen von PA |
 | Scannen des Ladeträgers |
 
-<p class="just-emphasize">Lokalitätsinfo</p>
+#### Lokalitätsinfo
 
 Beim Scanner der Lokalität werden alle Ladeträger angezeigt, dies sich auf dieser Lokalität befinden.
 

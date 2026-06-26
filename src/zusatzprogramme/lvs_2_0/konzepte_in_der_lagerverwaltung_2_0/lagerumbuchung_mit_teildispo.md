@@ -6,7 +6,7 @@ Eine klassische Lagerumbuchung in A.eins ist ein „Ganz oder gar nicht“-Proze
 
 Um dennoch die Lagerumbuchung mit Teildisposition im LVS zu vollziehen, wendet man die folgende Strategie an:
 
-<p class="just-emphasize">Einrichtung</p>
+#### Einrichtung
 
 1. Jedes Lager bekommt einen Kontokorrentkunden, der als steuerfreier Kunde eingerichtet sein muss.
 
@@ -38,7 +38,7 @@ public void Vorgang_Nach_Speichern(IVorgang vorg, int modus)
 }
 ```
 
-<p class="just-emphasize">Ausführung</p>
+#### Ausführung
 
 1. Es wird eine Bestellung erfasst mit dem Kunden des Quell-Lagers und den Artikeln des Ziel-Lagers. Dieser beleg bekommt das Kennzeichen technischer Bestand und wird alle Preise aus dem Bewertungspreis des Quell-Artikels vorschlagen.
 

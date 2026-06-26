@@ -4,7 +4,7 @@
 
 Die Anzahl der markierten Belege wird nun angegeben, um sicherzustellen, dass man die korrekte Anzahl an Belegen mit der Massebilanzänderung verändert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 0[34541]
 
@@ -20,6 +20,6 @@ Funktion/Report: Massebilanz ändern.
 
 [Weitere Informationen](http://www.amic.de/hilfe/_nachhaltigkeit_ausw_bewegungsueber.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2312.22, 34541, 0

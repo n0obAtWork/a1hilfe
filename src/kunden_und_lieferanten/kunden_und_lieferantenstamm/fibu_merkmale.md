@@ -6,7 +6,7 @@ Hier werden die erforderlichen Parameter zur Behandlung des Kunden in der Finanz
 
 ![Ein Bild, das Text, Screenshot, Software, Zahl enthält. KI-generierte Inhalte können fehlerhaft sein.](../../ImagesExt/image8_79.png "Ein Bild, das Text, Screenshot, Software, Zahl enthält. KI-generierte Inhalte können fehlerhaft sein.")
 
-<p class="just-emphasize">Verbuchungsmerkmale</p>
+#### Verbuchungsmerkmale
 
 | | Beschreibung |
 | --- | --- |
@@ -14,14 +14,14 @@ Hier werden die erforderlichen Parameter zur Behandlung des Kunden in der Finanz
 | Erlösklasse<br> | Es besteht die Möglichkeit, die Erlöse einer bestimmten Klasse von Kunden auf speziellen Erlöskonten zu buchen (z.B. Erlöse Inland auf 8100, Erlöse Ausland auf 8200). Hier ist die Erlösklasse einzutragen. In der Erlöskennziffer Kontozuordnung **[EKZZ]** wird dann die Erlösklasse den Erlöskennziffern und Konten zugeordnet.<br> |
 | Erfassungssperre<br> | Man kann in der Belegerfassung der Finanzbuchhaltung nicht mehr auf diesen Kunden/Lieferanten zugreifen. In der Konteninformation, dem Fibuübertrag, der OP-Verwaltung und in sonstigen Anwendungen kann jedoch weiterhin auf den Kunden zugegriffen werden. Eine Weiterverarbeitung – z.B. Auszifferung oder Jahreswechsel – ist nach wie vor möglich.<br> |
 
-<p class="just-emphasize">Merkmale des Mahnwesens</p>
+#### Merkmale des Mahnwesens
 
 | | Beschreibung |
 | --- | --- |
 | Mahnsperre<br> | Mit **Ja** ist der Kunde für Mahnungen gesperrt. Er wird dann nicht zu den Mahnvorschlägen herangezogen, Mahnvorschläge, in denen er evtl. bereits vorhanden war, werden nicht mehr freigegeben und bereits freigegebene Mahnungen können dann nicht mehr gedruckt werden.<br> |
 | Mahngruppe<br> | Die Steuerung des automatischen Mahnwesens **(Mahnabstand, Mahntexte, etc.)** kann sich für unterschiedliche Kundengruppen unterscheiden. Man trägt hier die [Mahngruppe](../../finanzbuchhaltung/mahnwesen/mahngruppen.md) ein, die in den Stammdaten der Finanzbuchhaltung gepflegt wird.<br> |
 
-<p class="just-emphasize">Merkmale des Zahlungsverkehrs</p>
+#### Merkmale des Zahlungsverkehrs
 
 | | Beschreibung |
 | --- | --- |
@@ -32,11 +32,11 @@ Hier werden die erforderlichen Parameter zur Behandlung des Kunden in der Finanz
 | Zahlungsart Ausgang (Kreditor)<br> | Die Standardzahlungsart, wenn an den Kreditor bezahlt wird:<br><ul><li>Scheck</li><li>Datenträgeraustausch<br><br>Die Zahlungsart kann bei der Vorgangserfassung für den konkreten Vorgang überschrieben werden.<br>&nbsp;</li></ul> |
 | OP-Typ | Der OP-Typ hat drei Ausprägungen<br><ul><li>Standard hat keine Besonderheiten.</li><li>OP-Raffung bei Kokoreerstellung:&nbsp; Bei der Erstellung des Kokores werden alle offenen Posten, die in dem Kokore aufgelistet werden, zu einem Restposten zusammengefasst. Als Auszifferungsdatum wird das Kontoblattdatum und als Belegdatum das Datum, welches bei „Bis Belegdatum“ eingegeben wurde, verwendet.</li><li>Automatik bei DTA-Import gesperrt: Im Modul e-Clearing wird dieser Kunde nicht automatisch ausgeziffert.<br>&nbsp;</li></ul> |
 
-<p class="just-emphasize">Merkmale Zinsabwicklung</p>
+#### Merkmale Zinsabwicklung
 
 A.eins stellt ein Verfahren zur banküblichen [Verzinsung der Personenkonten](../../finanzbuchhaltung/zinswesen/stammdaten_zinswesen/zinsmerkmale_im_kundenstamm.md) zur Verfügung.
 
-<p class="just-emphasize">Weitere Merkmale</p>
+#### Weitere Merkmale
 
 | | Beschreibung |
 | --- | --- |

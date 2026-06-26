@@ -5,7 +5,7 @@
 Es ist möglich, über **SF8** Vorlagen einzurichten, die man dann über **F3** auf dem Feld Vorlage in der Waagenmaske auswählen kann.  
 In der Vorlage können wichtige Voreinstellungen gemacht werden, die einem das Arbeiten an der Waage erleichtern.
 
-<p class="just-emphasize">Einstellungen</p>
+### Einstellungen
 
 <div class="table-wrapper">
   <table>

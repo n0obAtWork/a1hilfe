@@ -12,7 +12,7 @@ In Variante 1 (Belegerzeugung) werden die importierten Datensätze (z.B. aus dem
 
 ![](../../ImagesExt/image8_539.jpg)  
 
-Belege erzeugen
+**Belege erzeugen**
 
 Mit Hilfe des Pascal-Scriptes „VorgangEinspielung“ werden die Vorgänge aus der Zwischentabelle in das Vorgangswesen von Aeins importiert. Fehlerhafte Sätze werden entsprechend markiert. Treten Fehler auf, so enthält das Fehlerprotokoll die zugehörigen Angaben.
 
@@ -20,7 +20,7 @@ Falls nacheinanderfolgende Roh-Belege in den erforderlichen Details übereinstim
 
 Die Belegnummer des erzeugten Beleges wird in die Roh-Daten zurückgeschrieben und kann unter Variante 2 angesehen werden.
 
-FEHLERCODES, die im Fehlerprotokoll ausgegeben werden
+**FEHLERCODES, die im Fehlerprotokoll ausgegeben werden**
 
 #1 Das V_DATUM konnte nicht korrekt ermittelt werden.
 
@@ -66,11 +66,11 @@ Variante 2 - Vorgang-Übergabe
 
 In Variante 2 (Vorgang-Übergabe) werden die importierten Datensätze (z.B. aus der Waage), die in die Vorgänge importiert werden sollen, angezeigt. Ferner sind auch alle Datensätze mit Fehlerstatus oder Erledigtstatus sichtbar.
 
-FEHL: Belerz Rücksetzen SF8
+**FEHL: Belerz Rücksetzen SF8**
 
 Ermöglicht es, in der Belegerzeugung fehlerhafte Sätze zurückzusetzen.
 
-Ändern / Ansehen
+**Ändern / Ansehen**
 
 Bestimmte Daten eines Übernahmesatzes können geändert bzw. angesehen werden. Bei Auswahl dieser Funktion erscheint die folgende Bildschirmmaske:
 

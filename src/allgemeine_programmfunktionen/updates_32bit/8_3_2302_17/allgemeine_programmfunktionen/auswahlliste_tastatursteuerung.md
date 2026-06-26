@@ -4,7 +4,7 @@
 
 Wenn der Fokus auf der Filterzeile steht und man geht mit Pfeiltaste nach unten in den Auswahlbereich wird die erste Zeile nun nicht mehr automatisch markiert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 719706[33426]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/!!darstellungderauswahlliste.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2302.17, 33426, 719706

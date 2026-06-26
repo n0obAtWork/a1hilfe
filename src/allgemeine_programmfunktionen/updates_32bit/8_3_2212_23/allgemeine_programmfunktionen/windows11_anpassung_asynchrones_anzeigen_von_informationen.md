@@ -4,7 +4,7 @@
 
 Laufzeitfehler im Zusammenspiel zwischen A.eins/Editor und Windows 11 wurden behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 716156[33155]
 
@@ -20,6 +20,6 @@ Funktion/Report: AsyncNotepad
 
 [Weitere Informationen](http://www.amic.de/hilfe/-)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2212.23, 33155, 716156

@@ -4,7 +4,7 @@
 
 Die Verteilkostenträgerauswertung zeigte auch in der Spalte für die kumulativen Werte die Periodenwerte an. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 748317[37599]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/crystalreport.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 37599, 748317

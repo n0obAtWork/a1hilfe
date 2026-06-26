@@ -4,7 +4,7 @@
 
 Man kann unter [FRZ] auf der Vorgangsunterklassenmaske auf dem Tabreiter AIS AIS-Einrichtungen eintragen.Ab einer gewissen Anzahl/Länge konnten diese nicht mehr geladen werden.Dies ist aufgefallen, wenn man beim Unterklassenwechsel eine Unterklasse auswählt für diese viele AIS-Einrichtungen existieren.Dies wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 732524[34996]
 
@@ -20,6 +20,6 @@ Funktion/Report: Ander Unterklasse
 
 [Weitere Informationen](http://www.amic.de/hilfe/!_aisrefreshvorgang.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.9, 34996, 732524

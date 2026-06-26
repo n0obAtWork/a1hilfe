@@ -14,7 +14,7 @@ Hier finden Sie die Formate und dazugehörigen Beschreibungen, welche in der Zah
 
 [Valutabestimmung](./formate_der_zahlungsbedingungen.md#zabed_format_valutabestimmung)
 
-<p class="just-emphasize">Typ</p>
+### Typ
 
 Mit diesem Format wird der Typ einer Zahlungsbedingung festgelegt. *(Formatname „ZBEDTYP“)*
 
@@ -33,7 +33,7 @@ Mit diesem Format wird der Typ einer Zahlungsbedingung festgelegt. *(Formatname 
 | 11 | Fällig zum nächstmöglichen Tag X (Skto auf Fälligkeit) | Wenn das Bezugsdatum der Fälligkeit **vor** dem Tag **X** des Monats liegt, wird der Betrag fällig am Tag **X** des **laufenden Monats**.<br>Wenn das Bezugsdatum der Fälligkeit **nach** dem Tag **X** liegt, wird der Betrag fällig am Tag **X** des **nächsten Monats**.<br>Skonto berechnet sich in Tagen vor dem Fälligkeitsdatum |
 | 12 | Fällig am Tag X der nächsten Woche (Skto auf Fälligkeit) | Fälligkeit der Zahlung am Wochentag X in der nächsten Kalenderwoche<br>Als Wochentag wird hier Sonntag= 1, Montag = 2 usw. gerechnet<br>Skonto berechnet sich in Tagen vor dem Fälligkeitsdatum |
 
-<p class="just-emphasize">Bezug</p>
+### Bezug
 
 Mit diesem Format wird der Bezugstyp einer Zahlungsbedingung festgelegt. *(Formatname „ZBEDBEZUG“)*
 
@@ -44,7 +44,7 @@ Mit diesem Format wird der Bezugstyp einer Zahlungsbedingung festgelegt. *(Forma
 | 3 | Druckdatum | Variable Zeitangaben beziehen sich auf das Druckdatum |
 | 4 | Manuelles Bezugsdatum | Variable Zeitangaben beziehen sich auf ein manuell festgelegtes Datum |
 
-<p class="just-emphasize">Automatisch aufblenden</p>
+### Automatisch aufblenden
 
 Mit diesem Format wird festgelegt, wann die Maske automatisch aufblendet. *(Formatname „ZBEDAUTO“)*
 
@@ -54,7 +54,7 @@ Mit diesem Format wird festgelegt, wann die Maske automatisch aufblendet. *(Form
 | 1 | Neuerfassung | Maske soll nur bei Neuerfassung automatisch geöffnet werden. |
 | 2 | Korrektur + Neuerfassung | Maske wird bei Korrektur und Neuerfassung automatisch angezeigt. |
 
-<p class="just-emphasize">Formel</p>
+### Formel
 
 Mit diesem Format wird die Formel der Zahlungsbedingung festgelegt. *(Formatname „ZBEDFORMEL“)*
 
@@ -65,7 +65,7 @@ Mit diesem Format wird die Formel der Zahlungsbedingung festgelegt. *(Formatname
 
 Der erste Fall ist die übliche Form. Für 2 gilt, dass maximal 2 Zahlungsbedingungen miteinander verknüpft sein können (unabhängig davon, ob 100 % erreicht sind) und dass die Berechnung abgebrochen wird, wenn eine Zahlungsbedingung auf sich selber verweist.
 
-<p class="just-emphasize">Valutabestimmung</p>
+### Valutabestimmung
 
 Mit diesem Format wird die Valutabestimmung der Zahlungsbedingung festgelegt. *(Formatname „ZBEDKOVAL“)*
 

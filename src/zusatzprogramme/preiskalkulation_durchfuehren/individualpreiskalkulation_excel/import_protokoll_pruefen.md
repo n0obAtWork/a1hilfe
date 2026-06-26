@@ -22,11 +22,11 @@ In der Variante **Individualpreise Protokoll** werden alle durchgeführten Impor
 
 <strong>5.</strong> Pro Zeile wird eine Auswahl an Werten aus der Excel-Datei aufgelistet. Wichtig sind vor allem die Felder **Fehler** und **Info.**
 
-<strong>a. Fehler:</strong> Sollte ein Fehler beim Import der Zeile aufgetreten sein, steht hier als Ausprägung „Ja“. Ohne Fehler hält das Feld den Wert „Nein“.
+   <strong>a. Fehler:</strong> Sollte ein Fehler beim Import der Zeile aufgetreten sein, steht hier als Ausprägung „Ja“. Ohne Fehler hält das Feld den Wert „Nein“.
 
-<strong>b. Info:</strong> Bei einem Fehler beim Import der Zeile sind hier mehr Informationen über den Fehler zu finden. Ansonsten meldet das Feld, dass die Zeile erfolgreich verarbeitet, übersprungen oder gelöscht wurde.
+   <strong>b. Info:</strong> Bei einem Fehler beim Import der Zeile sind hier mehr Informationen über den Fehler zu finden. Ansonsten meldet das Feld, dass die Zeile erfolgreich verarbeitet, übersprungen oder gelöscht wurde.
 
-<p class="just-emphasize">Dokument anzeigen</p>
+### Dokument anzeigen
 
 Neben der Überprüfung des Imports auf Fehler bietet sich Ihnen im Protokoll auch die Möglichkeit, die importierte Excel-Datei erneut zu öffnen.
 

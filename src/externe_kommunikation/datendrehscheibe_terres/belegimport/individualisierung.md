@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_terres_belegimport_indivi.htm -->
 
-<p class="just-emphasize">Belege erzeugen</p>
+#### Belege erzeugen
 
 Zum individualisieren der Belegerzeugung können am Steuerparameter „[829](../../../firmenstamm/steuerparameter/optionen_warenwirtschaft/belegimport_spa_829.md)“ Makros hinterlegt werden. Diese werden zu den angegebenen Zeiten aufgerufen.
 
@@ -91,7 +91,7 @@ Die Makros werden mit 4 Übergabeparametern aufgerufen.
 
 Die Daten für den Vorgang und die Positionen werden in JVARS zwischengespeichert. Diese können im Makro über den entsprechenden JVARS-Owner ausgelesen und geändert werden. Alternativ können über den Namen des Vorgangshelper-Objekts eigene JPP-Funktionen aufgerufen werden, um die Verarbeitung zu beeinflussen.
 
-<p class="just-emphasize">Vorgangskopf JVARS</p>
+### Vorgangskopf JVARS
 
 | ![\*](../../../ImagesExt/image8_1557.jpg "*") JVAR Name | ![\*](../../../ImagesExt/image8_1557.jpg "*") Beschreibung |
 | --- | --- |
@@ -107,7 +107,7 @@ Die Daten für den Vorgang und die Positionen werden in JVARS zwischengespeicher
 | ![\*](../../../ImagesExt/image8_1556.jpg "*") VALUE_Jahr | ![\*](../../../ImagesExt/image8_1556.jpg "*") Jahr des Belegs |
 | ![\*](../../../ImagesExt/image8_1556.jpg "*") VALUE_ValutaDatum | ![\*](../../../ImagesExt/image8_1556.jpg "*") Valutatdatum des Belegs |
 
-<p class="just-emphasize">Position JVARS</p>
+### Position JVARS
 
 | ![\*](../../../ImagesExt/image8_1555.jpg "*") JVAR Name | ![\*](../../../ImagesExt/image8_1555.jpg "*") Beschreibung |
 | --- | --- |
@@ -117,7 +117,7 @@ Die Daten für den Vorgang und die Positionen werden in JVARS zwischengespeicher
 | ![\*](../../../ImagesExt/image8_1556.jpg "*") VALUE_ArtikelNr | ![\*](../../../ImagesExt/image8_1556.jpg "*") Artikelnummer der Position |
 | ![\*](../../../ImagesExt/image8_1556.jpg "*") VALUE_PosAnlegen | ![\*](../../../ImagesExt/image8_1556.jpg "*") Diese JVAR steht im Standard immer auf 1. Soll die folgende Position in dem Beleg nicht angelegt werden, so muss die JVAR auf 0 gesetzt werden. |
 
-<p class="just-emphasize">Belegimport</p>
+#### Belegimport
 
 Der normale Belegimport importiert die Daten aus dem im Steuerparameter „[829](../../../firmenstamm/steuerparameter/optionen_warenwirtschaft/belegimport_spa_829.md)“ hinterlegten Pfad. Dort kann jedoch auch eine individuelle Prozedur hinterlegt werden, in der man einen eigenen Import starten kann.
 
@@ -127,7 +127,7 @@ Mit der folgenden Prozedur kann man eine Datei direkt ins Formulararchiv und die
 Select terresImportBeleg('\\\\NetzwerkPfad\\temp\\test.xml')
 ```
 
-<p class="just-emphasize">Kontrollmakro</p>
+#### Kontrollmakro
 
 Für den Belegimport wurde ein Kontrollmakro „TERRES_ER_Kontrollmakro“ hinterlegt welches das Fibu Sperrkennzeichen setzt, wenn die Summe des Terresbeleges sich von der Summer des A.eins Beleges unterscheidet. In dem Beispiel wird das Makro nach dem Speichern des A.eins Beleges aufgerufen. In dem Beispiel darf es nur eine Rundungsdiffernz von 0.05 Euro geben.
 

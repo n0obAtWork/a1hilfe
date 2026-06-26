@@ -4,7 +4,7 @@
 
 Unter [MAIL] wurde die Funktion "Email ändern" umbenannt in "Email erneut versenden"
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 719301[33468]
 
@@ -20,6 +20,6 @@ Funktion/Report: Email erneut versenden
 
 [Weitere Informationen](http://www.amic.de/hilfe/_vpstmailversandallgemein.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2303.31, 33468, 719301

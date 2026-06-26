@@ -4,7 +4,7 @@
 
 Beim Zurücksetzen von Auszifferungen werden für einige Belegarten (z.B. Restposten, Skonto) automatisch Stornobelege erstellt. Steht die Periode auf Buchungsschluss oder ist sie bereits abgeschlossen, dann wird die Periode abgefragt, in die der Stornobeleg gebucht werden soll. Dieser SPA steuert, wie bei Perioden mit Buchungsschluss behandelt werden sollen.
 
-Hinweis: Da [Buchungsadministratoren](../../wirtschaftsjahre_und_perioden/buchungsadministratoren/index.md) in Perioden mit Buchungsschluss buchen dürfen, hat dieser SPA für sie keine Auswirkung.
+***Hinweis: Da [Buchungsadministratoren](../../wirtschaftsjahre_und_perioden/buchungsadministratoren/index.md) in Perioden mit Buchungsschluss buchen dürfen, hat dieser SPA für sie keine Auswirkung.***
 
 <div class="table-wrapper">
   <table>

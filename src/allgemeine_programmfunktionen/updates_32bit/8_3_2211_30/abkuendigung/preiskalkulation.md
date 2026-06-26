@@ -4,7 +4,7 @@
 
 Aus der Anwendung Artikel wurde die Funktion "VK Preise kalkulieren" entfernt. Zur Preiskalkulation empfehlen wir weiterhin den bekannten Weg unter "Preise/Kondition->Preiskalkulation Excel (Auswahlliste)".
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 0[33065]
 
@@ -20,6 +20,6 @@ Funktion/Report: VK Preise kalkulieren
 
 [Weitere Informationen](http://www.amic.de/hilfe/-)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2211.30, 33065, 0

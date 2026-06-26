@@ -4,7 +4,7 @@
 
 Auf der Registerkarte Zertifikate werden jetzt die Nachhaltigkeitszertifikate, sowie die Angabe, ob ein Artikel EUDR Pflichtig ist hinterlegt.
 
-<p class="just-emphasize">Nachhaltigkeit</p>
+#### Nachhaltigkeit
 
 Um einen Artikelstamm als [Nachhaltig](../../vorgangsabwicklung/nachhaltigkeit/index.md) zu markieren, gibt es auf dem Pfleger den Bereich Nachhaltigkeit.
 
@@ -27,7 +27,7 @@ Des Weiteren ist es wichtig, dass das Artikelgewicht pro Grundmengeneinheit gepf
 
 Bei Einkauf und Verkauf können „Nicht Nachhaltig“ oder „Nachhaltig“ eingetragen werden. Es wird aber nur „Nicht Nachhaltig“ beachtet, da man nicht nachhaltige Ware nicht als nachhaltig künstlich verkaufen darf.
 
-<p class="just-emphasize">EUDR-Pflichtig</p>
+#### EUDR-Pflichtig
 
 EUDR-pflichtig bedeutet, dass ein Produkt unter die EU-Verordnung gegen Entwaldung fällt. Unternehmen müssen dafür entwaldungsfreie Lieferketten nachweisen, Herkunftsdaten dokumentieren und eine Sorgfaltserklärung im EU-System abgeben.
 

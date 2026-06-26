@@ -4,7 +4,7 @@
 
 Das Anzeigen von Barvorgängen mit [F6] ist jetzt möglich.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 734403[33584]
 
@@ -20,6 +20,6 @@ Funktion/Report: F6 Ansehen
 
 [Weitere Informationen](http://www.amic.de/hilfe/vorgangsbearbeitungallgemein.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.1, 33584, 734403

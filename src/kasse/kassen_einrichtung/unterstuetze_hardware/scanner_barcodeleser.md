@@ -6,8 +6,8 @@ Ein Scanner wird vor die Tastatur geschaltet. Eine Implementation von seriellen 
 
 Scanner:
 
-<p class="just-emphasize">Scanner DL 910-61 von DATALOGIC</p>
+#### Scanner DL 910-61 von DATALOGIC
 
 Barcodeleser:
 
-<p class="just-emphasize">Jeder USB-Barcodeleser</p>
+#### Jeder USB-Barcodeleser

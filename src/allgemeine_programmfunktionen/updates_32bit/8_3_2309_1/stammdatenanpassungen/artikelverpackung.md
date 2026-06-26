@@ -4,7 +4,7 @@
 
 Bisher wurde beim Löschen eines Artikelverpackung-Stammdatensatzes [AVP] nur ein Löschkennzeichen gesetzt. Jetzt wird kein Löschkennzeichen mehr gesetzt, sondern der Datensatz wird direkt aus der Datenbank entfernt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 0[34095]
 
@@ -20,6 +20,6 @@ Funktion/Report: F7 - Löschen
 
 [Weitere Informationen](http://www.amic.de/hilfe/_artikelverpackung.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 34095, 0

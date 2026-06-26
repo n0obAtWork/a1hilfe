@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_prozess_prozeduren.htm -->
 
-<p class="just-emphasize">Lagerumbuchung / Rohwarenlieferschein</p>
+#### Lagerumbuchung / Rohwarenlieferschein
 
 In diesem Feld kann eine private Prozedur hinterlegt werden, die steuert, ob eine Lagerumbuchung anstelle eines Rohwarenlieferscheins erzeugt werden soll. Diese Funktion wird benötigt, wenn die Ware eigentlich auf Lager 99 angeliefert werden sollte, diese aber stattdessen auf Lager 7 angeliefert worden ist.
 
@@ -23,19 +23,19 @@ Die Prozedur muss folgende Parameter zurückliefern.
 | Planlieferdatum | date |
 | BewertungsPreis | numeric(15,4) |
 
-<p class="just-emphasize">Klasse</p>
+### Klasse
 
 Wird die Klasse mit einer 0 zurückgegeben so wird ein Lieferschein erstellt, wird die Klasse mit 5110 zurückgegeben, so wird die Lagerumbuchung erstellt.
 
-<p class="just-emphasize">Unterklasse</p>
+### Unterklasse
 
 Hier wird die Unterklasse der Lagerumbuchung zurückgegeben.
 
-<p class="just-emphasize">Ursprungslager</p>
+### Ursprungslager
 
 Das Ursprungslager ist das Lager, auf dem eigentlich die Ware angeliefert werden sollte. Das Ziel Lager ist das Lager aus dem Waagen Satz.
 
-<p class="just-emphasize">Buchungstyp</p>
+### Buchungstyp
 
 Der Buchungstyp für die Lagerumbuchung.
 
@@ -43,15 +43,15 @@ Der Buchungstyp für die Lagerumbuchung.
 - 1 für Auftrag
 - 2 für Rechnung
 
-<p class="just-emphasize">Planlieferdatum</p>
+### Planlieferdatum
 
 Hier kann ein spezielles Planungslieferdatum angegeben werden bleibt dieser Parameter leer so wird das Tagesdatum genommen.
 
-<p class="just-emphasize">Bewertungspreis</p>
+### Bewertungspreis
 
 Wird ein Bewertungspreis > 0 zurückgegeben so wird dieser Bewertungspreis genommen. Ansonsten startet die normale Preisfindung des Beleges.
 
-<p class="just-emphasize">Beispielprozedur</p>
+### Beispielprozedur
 
 ```sql
 CREATE PROCEDURE p_liefer_lagerumbuch (
@@ -90,7 +90,7 @@ BEGIN
 end
 ```
 
-<p class="just-emphasize">Private Prüfprozedur</p>
+#### Private Prüfprozedur
 
 Hier kann eine private Prozedur hinterlegt werden, die das Abschließen einer Wiegung aktiv verhindert. Die Prozedur liefert zwei Werte zurück einmal das Feld Fehler und den Fehlertext.
 
@@ -165,11 +165,11 @@ EXCEPTION
 END
 ```
 
-<p class="just-emphasize">Private Prüfprozedur Siloverwaltung</p>
+#### Private Prüfprozedur Siloverwaltung
 
 In diesem Feld kann eine Private Prozedur hinterlegt werden, die in der Validierungsfunktion des Ladeträgers / Silo wirkt. Liefert die Prozedur ein 0 (FALSE) zurück, so wird das Feld nicht validiert, bei dem Rückgabewert 1 (True) wird das Feld validiert.
 
-<p class="just-emphasize">Übergabeparameter an die Prozedur</p>
+#### Übergabeparameter an die Prozedur
 
 Die Parameter müssen genauso heißen wie die Parameter in der nachfolgenden Tabelle.
 
@@ -180,14 +180,14 @@ Die Parameter müssen genauso heißen wie die Parameter in der nachfolgenden Tab
 | In_Ladeträger | Aktueller Ladeträger / Silo |
 | In_PartieId | Die Partie-Id der aktuellen Wiegung. Ist keine Partie vorhanden, wird eine 0 übermittelt |
 
-<p class="just-emphasize">Rückgabewerte der Prozedur</p>
+#### Rückgabewerte der Prozedur
 
 | Parameter | Bedeutung |
 | --- | --- |
 | retval | Gibt an, ob das Feld validiert werden darf<br>1. 0 False<br>2. 1 True |
 | retvaltext | Hier kann noch ein Fehlertext angegeben werden, der im False-Fall mit ausgegeben werden soll. |
 
-<p class="just-emphasize">Beispiel Einer privaten Prozedur, diese gibt immer ein TRUE zurück.</p>
+#### Beispiel Einer privaten Prozedur, diese gibt immer ein TRUE zurück.
 
 ```sql
 CREATE procedure p_silo_prozedure (  in in_ArtikelId integer
@@ -216,7 +216,7 @@ BEGIN
 EXCEPTION
 ```
 
-<p class="just-emphasize">when others then</p>
+#### when others then
 
 ```sql
 Select  ERRORMSG(), SQLCODE, SQLSTATE into dc_ErrorMsg, dc_SQLCODE, dc_SQLSTATE;
@@ -225,7 +225,7 @@ Select  ERRORMSG(), SQLCODE, SQLSTATE into dc_ErrorMsg, dc_SQLCODE, dc_SQLSTATE;
 END
 ```
 
-<p class="just-emphasize">Mengenbestimmungsprozedur für die Rohwarenbelege</p>
+#### Mengenbestimmungsprozedur für die Rohwarenbelege
 
 In diesem Feld ist es möglich, eine Funktion zu hinterlegen, welche eine alternative Menge zurückgibt. Die Prozedur wird nach dem Eintragen der Wiegedaten in die Relationen Rohwarehauptsatz_Waage und RohwareZusatzQualität_Waage aufgerufen. Gibt diese Funktion eine Menge größer als 0 zurück, wird die Menge in der Relation Rohwarehauptsatz_Waage überschrieben. In das Feld WaagenOriMenge wird das Originalgewicht der Waage eingetragen. Sollte die Menge in Abhängigkeit von schon erfassten Qualitätswerten stehen, so müssen diese Qualitäten in der Relation Rohwarehauptsatz_Waage auf 0 gesetzt werden, da diese ansonsten bei der Rohwarenbelegerzeugung wieder abgerechnet werden.
 
@@ -238,17 +238,17 @@ Folgende Übergabeparameter muss die Funktion haben
 
 Als Rückgabewert wird ein Wert des Typs Numeric(15,4) erwartet.
 
-<p class="just-emphasize">Eigene Qualitätsanzeige</p>
+#### Eigene Qualitätsanzeige
 
 Hier kann eine Prozedur hinterlegt werden, welche die Qualitätstabellen mit Wert füllt. Die Standartprozedur ist **OWaageArtikelDaten.**
 
-<p class="just-emphasize">Folgende Übergabe Parameter muss die Funktion haben</p>
+#### Folgende Übergabe Parameter muss die Funktion haben
 
 | Parameter | Bedeutung |
 | --- | --- |
 | In_OwaageId | OwaageId der aktuellen Wiegung |
 
-<p class="just-emphasize">Rückgabewerte der Prozedur</p>
+#### Rückgabewerte der Prozedur
 
 | Parameter | Datentyp | Bedeutung |
 | --- | --- | --- |
@@ -265,17 +265,17 @@ Hier kann eine Prozedur hinterlegt werden, welche die Qualitätstabellen mit Wer
 | Sortierung | Numeric(15,4) | |
 | Bestandteilnutzung | integer | |
 
-<p class="just-emphasize">Eigene Speicherprozedur</p>
+#### Eigene Speicherprozedur
 
 In diesem Feld kann eine Prozedur hinterlegt werden, die nach dem Speichern des Waagensatzes aufgerufen wird. Nach dem Aufruf der Prozedur wird die Waagenmaske neu geladen.
 
-<p class="just-emphasize">Folgende Übergabe Parameter muss die Funktion haben</p>
+#### Folgende Übergabe Parameter muss die Funktion haben
 
 | Parameter | Bedeutung |
 | --- | --- |
 | In_OwaageId | OwaageId der aktuellen Wiegung |
 
-<p class="just-emphasize">Hinweisfeld</p>
+#### Hinweisfeld
 
 In diesem Feld kann eine Prozedur hinterlegt werden, welche das Hinweisfeld auf der Waagenmaske befüllt. Die Beispielprozedur ist **OwaageHinweis.**
 
@@ -297,7 +297,7 @@ Die Prozedur wird an folgende Stellen aufgerufen.
 
 7. Nach dem Öffnen der Maske im Bearbeiten Modus
 
-<p class="just-emphasize">Folgende Übergabe Parameter muss die Funktion haben</p>
+#### Folgende Übergabe Parameter muss die Funktion haben
 
 | Parameter | Bedeutung |
 | --- | --- |
@@ -306,7 +306,7 @@ Die Prozedur wird an folgende Stellen aufgerufen.
 | In_Kundeid | Kundid des Waagensatzes |
 | in_ArtikelId | Artikelid des Waagensatzes |
 
-<p class="just-emphasize">Rückgabewerte der Prozedur</p>
+#### Rückgabewerte der Prozedur
 
 | Parameter | Datentyp | Bedeutung |
 | --- | --- | --- |
@@ -315,7 +315,7 @@ Die Prozedur wird an folgende Stellen aufgerufen.
 | Schriftfarbe | Char(40) | Farbe der Schrift |
 | Bitmap | integer | <ul><li>0 zeigt das Ampelbild nicht an</li><li>1 zeigt das Ampelbild an</li></ul> |
 
-<p class="just-emphasize">Private Prozedur Verkaufsbeschränkung</p>
+#### Private Prozedur Verkaufsbeschränkung
 
 In diesem Feld kann eine private Prozedur hinterlegt werden, die in der Validierungsfunktion des Artikels wirkt. Ermittelt wird der Status und die Meldung für die Verkaufsbeschränkung.
 

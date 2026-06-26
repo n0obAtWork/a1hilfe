@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/stammdatenjahreswechsel.htm -->
 
-<p class="just-emphasize">Steuerparameter</p>
+#### Steuerparameter
 
 Hauptmenü > Administration > Steuerung > Steuerparameter zeigen
 
@@ -15,7 +15,7 @@ Mit dem Steuerparameter 1143 „Jahreswechsel: Abschluss und Eröffnung immer ge
 
 Beim Jahreswechsel werden standardmäßig [Umbuchungen](./umbuchungen_bei_wechsel_der_forderungsgruppe.md) durchgeführt, wenn im Kundenstamm Forderungsgruppen geändert wurden. Mit dem Steuerparameter 968 „Forderungskonten umbuchen“ kann man diese Buchungen deaktivieren, indem man ihn auf **Nein** stellt.
 
-<p class="just-emphasize">Mandantenstamm</p>
+#### Mandantenstamm
 
 Hauptmenü > Administration > Firmenkonstanten > Mandantenstamm > Register Finanzbuchhaltung
 
@@ -25,7 +25,7 @@ Im Mandantenstamm können die Konten, die für den Jahreswechsel verwendet werde
 
 ![](../../ImagesExt/image8_737.png)
 
-Sachkontenstamm
+**Sachkontenstamm**
 
 Hauptmenü \> Finanzbuchhaltung \> Stammdaten \> Sachkonten
 
@@ -37,7 +37,7 @@ Die Konten, die als Eröffnungs- bzw. als Abschlussbilanzkonto verwendet werden,
 
 Zu den Abschlussarbeiten gehört unter anderem der Abschluss der Unterkonten über die entsprechenden Hauptkonten. Als Beispiel wäre hier der Abschluss der Privatkonten auf das Eigenkapitalkonto zu nennen. Man würde dann bei dem Privatkonto in dem Feld „**Ist Unterkonto von**“ das Eigenkapitalkonto eintragen. Beim Jahreswechsel wird dann in die letzte Normalperiode ein SO-Beleg erzeugt, in dem die entsprechenden Umbuchungen vorgenommen werden.
 
-<p class="just-emphasize">Nummernkreiszuordnung</p>
+#### Nummernkreiszuordnung
 
 Hauptmenü > Administration > Nummernkreise \> Fibu-Vorgangszuordnung
 

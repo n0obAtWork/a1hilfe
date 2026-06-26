@@ -30,7 +30,7 @@ Erläuterung speziellerer Selektionskriterien.
 | Ohne Nachhaltigkeitsbewegung | Einstellung ob nur Warenbewegungen angezeigt werden sollen, die keine Nachhaltigkeitsinformationen enthalten. (*gelöschte Positionen*) |
 | Schwellenwertprobleme | Hiermit kann man einstellen, ob Positionen mit oder ohne Schwellenwertprobleme angezeigt werden sollen. |
 
-<p class="just-emphasize">THG / Massebilanz ändern</p>
+#### THG / Massebilanz ändern
 
 Auf dieser Maske lassen sich für die Warenbewegungen die Nachhaltigkeitswerte pflegen. Einzelne Werte lassen sich dadurch einfach ändern, wenn diese nicht bereits einer Massebilanz zugeordnet sind. Falls eine Massebilanz schon zugeordnet wurde, kann nur noch die Massebilanzzuordnung geändert/entfernt werden.
 
@@ -50,7 +50,7 @@ Möchte man die normalerweise nicht mehr änderbaren Werte ändern, dann muss ma
 | Alle Positionen löschen | Die Werte aller Zeilen werden gelöscht. (*siehe Funktion „Position löschen“*) |
 | Feldwert für alle übernehmen | Der Wert des aktuellen Feldes wird in alle anderen Zeilen der Spalte übernommen. |
 
-<p class="just-emphasize">Massebilanz ändern</p>
+#### Massebilanz ändern
 
 Auf dieser Maske lässt sich die Massebilanz für die aktuell markierten Datensätze ändern. Dafür stehen die folgenden Funktionen zur Verfügung.
 

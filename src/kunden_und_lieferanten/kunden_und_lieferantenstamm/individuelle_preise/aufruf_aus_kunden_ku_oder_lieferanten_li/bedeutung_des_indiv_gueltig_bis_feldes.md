@@ -6,7 +6,7 @@ Ausgangssituation: Anwender arbeitet mit zwei Preispunkten 01.10.2025 und 01.11.
 
 ![Ein Bild, das Text, Zahl, Reihe, Schrift enthält. KI-generierte Inhalte können fehlerhaft sein.](../../../../ImagesExt/image8_82.png "Ein Bild, das Text, Zahl, Reihe, Schrift enthält. KI-generierte Inhalte können fehlerhaft sein.")
 
-Nun wird über das Profil (Funktionstaste F6) ein weiterer Preispunkt aktiviert: 01.12.2025. ACHTUNG: der eben gezeigte Artikel 005 FEHLT nun in der Ergebnismenge, es gibt keine Preisbänder die an ALLEN Preispunkten gültig sind à Einträge mit gültig-bis 30.11.2025 fehlen, da sie zum 01.12.2025 nicht mehr gültig sind, wir diesen Preispunkt aber zusätzlich aktiviert haben!
+Nun wird über das Profil (Funktionstaste F6) ein weiterer Preispunkt aktiviert: 01.12.2025. ACHTUNG: der eben gezeigte Artikel 005 FEHLT nun in der Ergebnismenge, es gibt keine Preisbänder die an ALLEN Preispunkten gültig sind → Einträge mit gültig-bis 30.11.2025 fehlen, da sie zum 01.12.2025 nicht mehr gültig sind, wir diesen Preispunkt aber zusätzlich aktiviert haben!
 
 ![Ein Bild, das Text, Zahl, Reihe, Screenshot enthält. KI-generierte Inhalte können fehlerhaft sein.](../../../../ImagesExt/image8_83.png "Ein Bild, das Text, Zahl, Reihe, Screenshot enthält. KI-generierte Inhalte können fehlerhaft sein.")
 

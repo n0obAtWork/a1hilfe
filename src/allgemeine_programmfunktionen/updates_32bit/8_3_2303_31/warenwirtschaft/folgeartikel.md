@@ -4,7 +4,7 @@
 
 Ein Folgeartikel wurde unter Umständen nicht korrekt gezogen. Dies wurde behoben
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 720339[33461]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_folgeartikelverwalte.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2303.31, 33461, 720339

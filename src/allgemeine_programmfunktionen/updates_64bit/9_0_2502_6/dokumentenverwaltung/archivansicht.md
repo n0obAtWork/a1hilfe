@@ -4,7 +4,7 @@
 
 Bei privaten Auswahllisten mir Archiv-Ansicht kam eine Fehlermeldung wenn hinter einem Eintrag kein Archivdokument hinterlegt war, beispielsweise bei einem noch nicht gedruckten Vorgang. Dies wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 750223[38208]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/erechnungimarchiv.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.6, 38208, 750223

@@ -6,7 +6,7 @@ In der Marktkasse im Rahmen der Funktion ***Speichern unter*** und unter Umstän
 
 Diese Funktion ist mit Vorsicht zu verwenden, denn es findet nicht immer eine verlustfreie Umrechnung der Beträge in Brutto oder Netto statt.
 
-<p class="just-emphasize">Rundungsdifferenzen</p>
+#### Rundungsdifferenzen
 
 Ist ein Beleg als Bruttobeleg erfasst worden, und soll nachträglich als Nettobeleg gespeichert werden, so werden alle Beträge von Brutto auf Netto unter Abzug des jeweils für die Position gültigen Steuersatz umgerechnet. Das Ergebnis einer Umwandlung in einen Brutto-Beleg kann hier zu Rundungsdifferenzen führen.
 
@@ -16,7 +16,7 @@ Betrag Brutto sei 13€ - nach Umrechnung auf Netto bei 19% Steuer ⇨ 10,92€ 
 
 Bei Rückrechnung mit 19% Steuer ergibt die Summe 11,99€
 
-<p class="just-emphasize">Absolute Rabatte/Zuschläge</p>
+#### Absolute Rabatte/Zuschläge
 
 Vorsicht ist auch geboten bei der Verwendung von absoluten Rabatten. Diese werden nicht von Brutto in Netto gewandelt!
 

@@ -24,7 +24,7 @@ Maskenfelder
 | Datei mit Verbindungsparameter | In diesem Feld kann per F3 Auswahl eine xml Datei ausgewählt werden, welche Verbindungsparameter für das Verbinden von der Scanner-Software zu einer A.eins System enthält. Wird per eine Datei ausgewählt, so werden die darin enthaltenen Verbindungsdaten in die Datentabelle geladen. |
 | Standard mit Permanenten Inventur einspielen | Wird dieses Feld vorm Einspielen des Standards auf „Ja“ gestellt, so wird die Permanente Inventur für den Scanner mit eingespielt. Kann dieses Feld nicht betreten werden, dann wurde die Permanente Inventur schon eingerichtet. |
 
-<p class="just-emphasize">Datentabelle mit den Verbindungsparametern</p>
+#### Datentabelle mit den Verbindungsparametern
 
 | Feld | Bedeutung |
 | --- | --- |

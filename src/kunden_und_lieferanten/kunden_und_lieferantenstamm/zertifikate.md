@@ -14,7 +14,7 @@ Dadurch lassen sich die Nachhaltigkeiten nach Jahren trennen. Für jedes Jahr we
 
 Zudem ist es möglich mehr als ein Zertifikat pro Jahr zu haben. Dadurch hat man die Möglichkeit zwei Zertifikate für unterschiedliche Artikel anzulegen oder zwei Zertifikate (z.B. eins für DE und eins für EU) mit demselben Artikel.
 
-<p class="just-emphasize">Zertifikate</p>
+#### Zertifikate
 
 Für die Verwaltung der Zertifikate eines Kunden steht eine Datentabelle zur Verfügung. Dabei können folgende Felder gepflegt werden.
 
@@ -35,7 +35,7 @@ Für die Verwaltung der Zertifikate eines Kunden steht eine Datentabelle zur Ver
 
 Für Nachhaltigkeitszertifikate müssen Zertifikate vom Typ 4 und 5 eingerichtet werden. Immer Typ 4 außer beim Systemkunden, den man in den Mandantstamm unter [MND] einträgt.
 
-<p class="just-emphasize">Nachhaltigkeit</p>
+#### Nachhaltigkeit
 
 Im Zusammenhang mit der [Nachhaltigkeit](../../vorgangsabwicklung/nachhaltigkeit/index.md) können in dieser Datentabelle unterschiedliche Status für diesen Kunden eingetragen werden. Dabei sind die Einträge dem aktuell ausgewählten Zertifikat zugeordnet. Je Zertifikat darf ein Artikelstamm in Kombination mit Anbauland nur einmal vorkommen, ansonsten wird eine Warnung ausgegeben.
 

@@ -4,7 +4,7 @@
 
 Bei der Neuanlage von Artikelstammdaten gab es einen SQL-Fehler, wenn keine Mengeneinheitsgruppe mit der Nummer 1 eingerichtet war. Dieser Fehler wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 717422[33292]
 
@@ -20,6 +20,6 @@ Funktion/Report: Neu
 
 [Weitere Informationen](http://www.amic.de/hilfe/!_artikelstammundartik.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2212.23, 33292, 717422

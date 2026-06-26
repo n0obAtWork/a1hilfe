@@ -51,7 +51,7 @@ Für das Konto 1755 ist die Steuerklasse 2 hinterlegt. In der Importdatei steht 
   </table>
 </div>
 
-<p class="just-emphasize">Satzaufbau</p>
+#### Satzaufbau
 
 Jede Zeile enthält einen Datensatz und die einzelnen Werte sind durch Semikolon getrennt. Abgeschlossen werden die Zeilen mit CR/LF:  
     

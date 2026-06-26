@@ -186,9 +186,9 @@ Max. Vorkomma Prozente (0=ohne Prüfung)
 
 Filiale in Vor.Konstanten anpassen
 
-<p class="just-emphasize">![](../../ImagesExt/image8_199.jpg)</p>
+### ![](../../ImagesExt/image8_199.jpg)
 
-<p class="just-emphasize">Druck Quellinformationen einstufig</p>
+### Druck Quellinformationen einstufig
 
 **Wirkungsweise:**  
 Der Steuerungsparameter bewirkt bei umgewandelten Belegen, dass nur die Quellinformationen von unmittelbaren Vorgängern (also bei Rechnung nur Lieferscheininformationen, nicht aber Auftragsinformationen) gedruckt werden. Dieser SPA wird bei der Sammelumwandlung und auch Einzelumwandlung ausgewertet.  
@@ -235,9 +235,9 @@ Trennung Gefahrgutsummen durch UN-Nummer
 
 Artikelumbuchung mit abweichendem Lager
 
-<p class="just-emphasize">![](../../ImagesExt/image8_200.jpg)</p>
+### ![](../../ImagesExt/image8_200.jpg)
 
-<p class="just-emphasize">Bei Artikel-Auswahl Lagernummer prüfen</p>
+### Bei Artikel-Auswahl Lagernummer prüfen
 
 Lagernummer auf der Bearbeitungs-Maske eingebbar
 
@@ -256,8 +256,7 @@ Mit diesem Steuerparameter wird gesteuert, ob auch negative Warenmengen erfasst 
 **Wertemöglichkeiten:**  
 Bei "Nein" können keine negativen Mengen erfasst werden.
 
-<p class="just-emphasize">Negative Werte durch Rabatte zulässig  
-Wirkungsweise:</p>
+### Negative Werte durch Rabatte zulässig Wirkungsweise:
 
 Mit diesem Steuerparameter wird gesteuert, ob es durch die Eingabe von Rabatten zu negativen Beträgen kommen darf.  
 **Wertemöglichkeiten:**
@@ -345,7 +344,7 @@ Bei "Ja" wird auch bei manueller Preiseingabe ein automatischer Zu-/Abschlag gez
 
 Rabatte auch bei manuellem Preis
 
-<p class="just-emphasize">Vorgangserfassung am Beispiel Rechnung</p>
+### Vorgangserfassung am Beispiel Rechnung
 
 Generell wird eine Rechnung in drei Schritten erfasst:
 

@@ -4,7 +4,7 @@
 
 Beim CAMT-Import wurde bisher die ID (Referenz des erstellenden Instituts, die diesen Informationen-Sammler eindeutig kennzeichnet) als Auszugsnummer übernommen. Diese wird jetzt, falls im CAMT-Dokument vorhanden, von der papierhaften Auszugsnummer (Element LglSeqNb) oder der laufende elektronische Auszugsnummer des Auszugs (Element ElctmSeqNb) abgelöst. Die Eindeutigkeitsprüfung, also ob der Auszug bereits eingelesen wurde, erfolgt jedoch weiter über die ID.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 744446[36659]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/dateienladen.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 36659, 744446

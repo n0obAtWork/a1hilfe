@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_RepliEinrichtung.htm -->
 
-<p class="just-emphasize">Vorbereitendende Schritte</p>
+### Vorbereitendende Schritte
 
 Identifikationskonzept
 

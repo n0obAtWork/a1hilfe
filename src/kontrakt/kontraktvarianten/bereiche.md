@@ -18,7 +18,7 @@ Auf der Maske werden alle Bereiche einer Kontraktvariante dargestellt. Folgende 
 
 [Textbausteinwerte](./bereiche.md#ktr_vari_textbausteinwerte)
 
-<p class="just-emphasize">Variantenbereich [![](../../ImagesExt/image8_148.png)](./bereiche.md)</p>
+### Variantenbereich [![](../../ImagesExt/image8_148.png)](./bereiche.md)
 
 Im Variantenbereich werden alle allgemeinen Informationen zum Bereich hinterlegt.
 
@@ -124,7 +124,7 @@ Im Variantenbereich werden alle allgemeinen Informationen zum Bereich hinterlegt
   </table>
 </div>
 
-<p class="just-emphasize">Textbaustein [![](../../ImagesExt/image8_148.png)](./bereiche.md)</p>
+### Textbaustein [![](../../ImagesExt/image8_148.png)](./bereiche.md)
 
 Die als Festtext definierten Bereiche werden später bei der [Kontrakterfassung](../kontraktstammdaten/index.md) unter ***Textbausteine*** zur Korrektur und Ergänzung angeboten. Hier wird also der Text soweit erfasst, dass er weitgehend in den individuellen Kontrakt übernommen werden kann, dort können dann Ergänzungen vorgenommen werden. Siehe dazu auch den Abschnitt “[Kontraktstammdaten](../kontraktstammdaten/index.md)”.
 
@@ -146,7 +146,7 @@ Desweiteren ist es möglich einen Platzhalter als Pflichtfeld zu kennzeichnen. D
 | 3..n | $ | Fest |
 | 3..n | § | Variable |
 
-<p class="just-emphasize">Private Itembox [![](../../ImagesExt/image8_148.png)](./bereiche.md)</p>
+### Private Itembox [![](../../ImagesExt/image8_148.png)](./bereiche.md)
 
 Für die Festtextbereiche lassen sich private Itemboxes hinterlegen. Die Maske zum bearbeiten der Itemboxes lässt sich über die Funktion ***Private Itembox*** aufrufen.
 
@@ -191,7 +191,7 @@ Hierbei gilt folgendes:
 | Nur ein Zielfeld |
 | Mehr als ein Zielfeld |
 
-<p class="just-emphasize">Standardwerte [![](../../ImagesExt/image8_148.png)](./bereiche.md)</p>
+### Standardwerte [![](../../ImagesExt/image8_148.png)](./bereiche.md)
 
 Auf dieser Maske können die Standardwerte für einzelne Platzhalterfelder festgelegt und geändert werden. Für jede Klasse kann der Standardwert unterschiedlich definiert sein.
 
@@ -207,7 +207,7 @@ Das farblich markierte Feld zeigt immer den aktuellen Platzhalter an. Zum Änder
   </table>
 </div>
 
-<p class="just-emphasize">Textbausteinwerte [![](../../ImagesExt/image8_148.png)](./bereiche.md)</p>
+### Textbausteinwerte [![](../../ImagesExt/image8_148.png)](./bereiche.md)
 
 Auf dieser Maske können die gelernten Texte der Textbausteine korrigiert werden. Angezeigt werden immer die Texte des aktuell farblich markierten Platzhalters. Zum Wechseln des Platzhalters wird ein Doppelklick auf den entsprechenden Platzhalter gemacht. Dieser wird dann mit folgender Farbe gekennzeichnet.
 

@@ -4,7 +4,7 @@
 
 Im Modul Belegmailversand wird für die Setzung des Betreffs unter anderem das Anwendungsformat 'MAILVERSAND' verwendet. Hier wurde nun der Formattext zur Vorgangsklasse 1400 (Bestellung) von 'Ihre Bestellung' in 'Unsere Bestellung' geändert. Es gibt über den Steuerparameter 890 'Belegversand Betreff' für den Bereich 'Standard' die Möglichkeit eine abweichende privatisierte Prozedur anzugeben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 723416[33839]
 
@@ -20,6 +20,6 @@ Funktion/Report: Druck
 
 [Weitere Informationen](http://www.amic.de/hilfe/_mailversandspa.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 33839, 723416

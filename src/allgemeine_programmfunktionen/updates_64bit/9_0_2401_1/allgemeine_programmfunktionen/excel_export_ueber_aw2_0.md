@@ -4,7 +4,7 @@
 
 Werden Daten aus der Auswahlliste nach Excel exportiert (Excel aus Datentabelle), existiert nun die Möglichkeit auszuwählen, ob alle Daten oder nur die markierten Daten exportiert werden sollen. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 0[34445]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/anwendungsregister.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.1, 34445, 0

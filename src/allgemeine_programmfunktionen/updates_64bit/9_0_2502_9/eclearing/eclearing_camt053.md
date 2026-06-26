@@ -4,7 +4,7 @@
 
 Es kann bei Kontoauszügen Im CAMT053-Format dazu kommen, dass Bewegungen ohne Detailbereich übermittelt werden. Diese Bewegungen werden jetzt auch in A.eins eingespielt. Zusätzlich wird noch das Element AddtlNtryInf mit übernommen. Dies enthält Zusätzliche Informationen zum Umsatz wie zum Beispiel "SB-Einzahlung", "Bargeldauszahlung" oder "Überweisungsgutschr."
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 751396[38799]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/dateienladen.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.9, 38799, 751396

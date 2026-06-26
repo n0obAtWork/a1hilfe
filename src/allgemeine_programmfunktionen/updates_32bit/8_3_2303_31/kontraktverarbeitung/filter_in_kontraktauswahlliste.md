@@ -4,7 +4,7 @@
 
 Der Filterbereich der Kontrakte wurde angepasst. Statt des Standardlagers, das ohnehin per SPA eingerichtet wird, wird nun der Filter des Artikellagers angeboten.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 717055[33215]
 
@@ -20,6 +20,6 @@ Funktion/Report: Bereich
 
 [Weitere Informationen](http://www.amic.de/hilfe/_stammdatenKontrakt.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2303.31, 33215, 717055

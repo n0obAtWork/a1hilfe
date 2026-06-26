@@ -20,7 +20,7 @@ Soll bei einem Beleg z.B. bei einem bereits teilumgewandelten Auftrag die Menge 
 
 Mit den folgenden Funktionen lassen sich die teilumgewandelten Vorgänge verändern bzw. ausbuchen bei den aus der Teilumwandlung entstandenen Belegen z.B. Lieferscheinen mit den bekannten Möglichkeiten wie Korrektur in der Positionszeile des Belegs, oder der Stornierung des Beleges Änderungen vorzunehmen.
 
-<p class="just-emphasize">Rückauftrag erfassen</p>
+### Rückauftrag erfassen
 
 Mit der Funktion Rückauftrag erfassen kann auf der Ebene des Auftrages entweder die Menge des Auftrages nach einer Teildisposition geändert oder ganz ausgebucht werden.
 
@@ -38,7 +38,7 @@ Der Ablauf folgt hier folgendem Schema:
 
 ![ruecka4](../../ImagesExt/image8_228.jpg "ruecka4")
 
-<p class="just-emphasize">Rücklieferung erfassen</p>
+### Rücklieferung erfassen
 
 Da in einigen Betrieben aus organisatorischen o.a. Gründen auf die Ebene des Auftrages verzichtet wird, gibt es diese Ebene der Teilumwandlung, die analog zur Teilumwandlung innerhalb der Aufträge erfolgt, wobei die Belegstufen hier Lieferschein und Rechnung sind.
 
@@ -58,7 +58,7 @@ Der Ablauf folgt hier folgendem Schema:
 
 ![rueckl3](../../ImagesExt/image8_229.jpg "rueckl3")
 
-<p class="just-emphasize">Rückbestellung erfassen</p>
+### Rückbestellung erfassen
 
 Mit der Funktion ***Rückbestellung erfassen*** kann auf der Ebene der Bestellung entweder die Menge der Bestellung nach einer Teildisposition geändert, oder komplett ausgebucht werden.
 
@@ -76,7 +76,7 @@ Der Ablauf folgt hier folgendem Schema:
 
 ![rueckb5](../../ImagesExt/image8_230.jpg "rueckb5")
 
-<p class="just-emphasize">Rückeinkauflieferschein erfassen</p>
+### Rückeinkauflieferschein erfassen
 
 Mit der Funktion ***RückEingangsLieferschein erfassen*** kann auf der Ebene des Lieferscheins entweder die Menge des Lieferscheins nach einer Teildisposition geändert oder komplett ausgebucht werden.
 

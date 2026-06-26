@@ -195,7 +195,7 @@ Hierbei handelt es sich um die Grunddaten der Banken; sie sind Grundlage der Kun
   </table>
 </div>
 
-<p class="just-emphasize">Banken aktualisieren</p>
+### Banken aktualisieren
 
 Die Funktion ***Banken aktualisieren*** dient dazu, Änderungen bei Banken (z.B. durch Zusammenschluss) nachzutragen. Als Grundlage dient eine periodisch von der Deutschen Bank herausgegebene Datei. Diese muss als erstes von der Internetseite der Deutschen Bundesbank heruntergeladen werden:
 

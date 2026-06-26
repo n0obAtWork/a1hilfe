@@ -4,7 +4,7 @@
 
 Im Rahmen der einrichtbaren Archiv-Vorschau in Auswahllisten kam es bei Aufruf von z.B. Vorgangs-Pflegern dazu das der Splitter rückgesetzt wurde. Das Verhalten ist geändert, der Splitter bleibt nun erwartungsgemäß bestehen.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 740504[36246]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/archivmitderauswahlliste20.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.10, 36246, 740504

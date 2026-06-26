@@ -4,7 +4,7 @@
 
 Der Datenübernahme [DUEB] wurde die Option "Fehlerhafte Daten überschreiben?" hinzugefügt. Hierüber kann eingestellt werden, ob der Import von fehlerhaften Daten wiederholt werden darf. Diese Option ist nur für den FiBu-XML-Import verfügbar.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 715354[32965]
 
@@ -20,6 +20,6 @@ Funktion/Report: Starten
 
 [Weitere Informationen](http://www.amic.de/hilfe/datenbernahmeschnittstelle.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2211.9, 32965, 715354

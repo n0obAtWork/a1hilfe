@@ -4,7 +4,7 @@
 
 Die Stellenanzahl bei Postleitzahlen (PLZ) wurden auf 11 Stellen erweitert. Sie kann aus Zahlen, Buchstaben und Sonderzeichen bestehen und angezeigt werden. Diese Änderungen betreffen unter anderem den Bankenstamm, den Anschriftstamm, Versandanschriften, Ansprechpartner sowie den Kundenstamm.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 730594[34716]
 
@@ -20,6 +20,6 @@ Funktion/Report: Neuanlage (F8), Ändern (F5)
 
 [Weitere Informationen](http://www.amic.de/hilfe/_anschriften.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.1, 34716, 730594

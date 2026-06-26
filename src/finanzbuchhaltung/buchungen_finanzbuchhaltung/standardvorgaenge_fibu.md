@@ -14,7 +14,7 @@ Nach $ 147 Abs.6 AO ist es der Finanzverwaltung möglich, die Daten von elektron
 
 Für das Erstellen der Datei index.xml beim ASCII-Export werden Dokumenttyp-Definitionen benötigt. Diese befinden sich in den Dateien „gdpdu-01-09-2004.dtd“ oder „gdpdu-01-08-2002.dtd“, die sich auf dem BIN-Verzeichnis von A.eins befinden müssen. Wenn diese Dateien nicht vorhanden waren, erschien lediglich die Meldung: „Die XML-Indexdatei %s lässt sich nicht erstellen. Setzen Sie sich bitte mit Ihrem Systemadministrator in Verbindung.“ Jetzt wird vor der Erstellung der Datei geprüft, ob die Dateien vorhanden sind. Es erscheint dann ggf. diese Meldung: „Auf dem Arbeitsverzeichnis von A.eins fehlt die Dokumenttyp-Definitionsdatei gdpdu-01-09-2004.dtd oder gdpdu-01-08-2002.dtd Die Datei .\\index.xml kann nicht erstellt werden! Bitte setzen Sie sich mit Ihrem Systemadministrator in Verbindung.“
 
-<p class="just-emphasize">IDEA Export</p>
+#### IDEA Export
 
 <strong>Hinweis: </strong><em><span style="BACKGROUND: yellow">Es ist nicht notwendig, die Daten vor dem Export komplett in die Datentabelle zu laden, da beim Export die Daten immer direkt aus der Datenbank gelesen werden.</span></em><strong></strong>
 

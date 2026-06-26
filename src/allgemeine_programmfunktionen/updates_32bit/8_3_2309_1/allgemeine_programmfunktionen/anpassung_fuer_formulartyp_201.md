@@ -4,7 +4,7 @@
 
 Bei der Einrichtung des Formulartyps 201 ("BankScheckSparkasse"), ist der Formularbereich 508 ("Zwischenabschluss Scheck") nun optional.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 723599[33923]
 
@@ -20,6 +20,6 @@ Funktion/Report: Listendruck
 
 [Weitere Informationen](http://www.amic.de/hilfe/schecksberformulartyp201drucke.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 33923, 723599

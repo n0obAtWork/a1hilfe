@@ -4,7 +4,7 @@
 
 Bei der Korrektur von Vorgängen mit einer zugeordneten Arbeitsregel, die eine Mengenkorrektur-Sperre enthält, konnten Gebinde-Angaben der Warenpositionen geändert werden. Dieses wurde nun derart überarbeitet, dass eine Änderung in diesem Fall nicht mehr möglich ist. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 723393[33840]
 
@@ -20,6 +20,6 @@ Funktion/Report: Korrektur
 
 [Weitere Informationen](http://www.amic.de/hilfe/regeleinrichtungregel.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 33840, 723393

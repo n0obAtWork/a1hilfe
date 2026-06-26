@@ -4,7 +4,7 @@
 
 Die Datumsfelder für die Kontraktgültigkeit waren nach einer Änderung der Maske zu hoch auf der Registerkarte Konditionen dargestellt worden (falls dies im EPA so eingerichtet ist). Dies wurde korrigiert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 717055[33217]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_kontraktstammdaten.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2302.17, 33217, 717055

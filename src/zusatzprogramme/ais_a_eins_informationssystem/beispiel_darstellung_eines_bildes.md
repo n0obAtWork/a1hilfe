@@ -13,7 +13,7 @@ Im A.eins Informationssystem in der Variante Informationssystem legt man sich ei
 
 Um ein Bild des Artikels darzustellen, sind einige Einträge Notwendig. Der Name der Gruppe soll **Artikelbild** lauten.
 
-<p class="just-emphasize">Register Feldbeschreibung:</p>
+### Register Feldbeschreibung:
 
 | | Beschreibung |
 | --- | --- |
@@ -24,7 +24,7 @@ Um ein Bild des Artikels darzustellen, sind einige Einträge Notwendig. Der Name
 | Länge<br> | Wie viel Zeichen darf der Label lang sein. Die Länge ist relativ unwichtig, da das Bild immer so groß dargestellt wird, wie es ist. |
 | Tipptext<br> | Ist ein Hinweistext, der erscheint, wenn der Mauszeiger über diesem Feld steht. Wenn er leer gelassen wird, so wird der Text<br>„Mit Doppelklick zum Bild bearbeiten…“<br>eingeblendet. |
 
-<p class="just-emphasize">Register Datenbeschreibung:</p>
+### Register Datenbeschreibung:
 
 | | Beschreibung |
 | --- | --- |
@@ -40,7 +40,7 @@ Select Artikelimage from Artikel where Artikelid=???
 
 Um jetzt noch die Fragezeichen mit einem Wert zu füllen, muss man in der Maskenzuordnung unter „**Ident Masken-Feldname/Wert**“ das Feld angeben, dass den Wert liefert.
 
-<p class="just-emphasize">Maskenzuordnung:</p>
+### Maskenzuordnung:
 
 Nun fehlt noch die Zuweisung der Gruppe zur Maske. Dazu wechselt man in die Variante Maskenzuordnung und legt eine neue Maskenzuordnung an:
 

@@ -8,6 +8,6 @@ Dabei werden auch jene Partien angezeigt, die einen Bestand von 0 haben, jedoch 
 
 Ob bei der Auswahl auch bereits erledigte Partien berücksichtigt werden sollen kann separat gewählt werden.
 
-<p class="just-emphasize">Hinweis</p>
+**Hinweis**
 
 Um diese Auswahl aussagekräftig zu machen, ist Voraussetzung, dass hier stets gesamte Partiemengen (ggf. pro Lagerplatz) inventarisiert werden.

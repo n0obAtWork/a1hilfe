@@ -4,7 +4,7 @@
 
 Es gab einen Hintergrundprozess namens "CALLBACKDIALOG". Dieser wurde durch den neuen "A.eins.Worker" abgelöst. Bestehende Einrichtungen müssen umgestellt werden.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 0[36624]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/-)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 36624, 0

@@ -4,7 +4,7 @@
 
 Im Tortendiagramm besteht jetzt die Möglichkeit die Klick-Funktion über die Legende auszuführen.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 716438[33662]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/kacheltortendiagramm.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2304.28, 33662, 716438

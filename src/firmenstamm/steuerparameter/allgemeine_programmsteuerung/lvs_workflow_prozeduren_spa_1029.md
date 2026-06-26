@@ -6,11 +6,11 @@ In diesem Steuerparameter können zweierlei Werte festgelegt werden:
 
 1. LVS-Lokalitäten
 
-Diese Funktion ermittelt aus einem eingegebenen Scanwert eine LVS-Lokalität. Das kann hilfreich sein,. Wenn die Lokalitäten im Barcode lesbar geschlüsselt sind, also z.B. H1-R2-S3-E4 für Halle 1 Regal 2 Stellplatz 3 Ebene 4 und dieser Wert in eine Lokalitätsnummer übersetzt werden soll.
+   Diese Funktion ermittelt aus einem eingegebenen Scanwert eine LVS-Lokalität. Das kann hilfreich sein,. Wenn die Lokalitäten im Barcode lesbar geschlüsselt sind, also z.B. H1-R2-S3-E4 für Halle 1 Regal 2 Stellplatz 3 Ebene 4 und dieser Wert in eine Lokalitätsnummer übersetzt werden soll.
 
 2. LVS-Kommandos
 
-Diese Funktion wird in der Standard-Funktion „AMIC_LVS_GETSCANTYPE“ ausgewertet. Die hier gesetzte Funktion wird zusätzlich zum Standard einen Scantyp ermitteln.
+   Diese Funktion wird in der Standard-Funktion „AMIC_LVS_GETSCANTYPE“ ausgewertet. Die hier gesetzte Funktion wird zusätzlich zum Standard einen Scantyp ermitteln.
 
 Diese Funktion hat die folgende Signatur:
 

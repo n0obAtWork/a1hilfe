@@ -4,7 +4,7 @@
 
 Sind in einer eingehenden eRechnung digitale Dokumente enthalten, so werden diese nun beim Import ebenfalls extrahiert und in einer Gruppe mit der eRechnung ins Formulararchiv gespeichert. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 744828[36649]
 
@@ -20,6 +20,6 @@ Funktion/Report: eRechnung verarbeiten
 
 [Weitere Informationen](http://www.amic.de/hilfe/erechnungimport.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 36649, 744828

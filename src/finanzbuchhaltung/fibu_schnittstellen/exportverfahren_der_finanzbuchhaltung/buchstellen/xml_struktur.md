@@ -79,7 +79,7 @@ Beispiel einer Rechnungsverbuchung:
 </EDILD01>
 ```
 
-<p class="just-emphasize">Feldbeschreibung</p>
+#### Feldbeschreibung
 
 | &lt;Header> | Start TAG Header |
 | --- | --- |

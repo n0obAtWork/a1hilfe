@@ -4,7 +4,7 @@
 
 Bei der Generierung von Testmandanten [TMD] werden nun Kassenseriennummern und TSEs aus dem System entfernt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 740040[36104]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_Testmandant.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 36104, 740040

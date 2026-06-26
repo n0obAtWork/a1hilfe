@@ -13,7 +13,7 @@ Folgende Steuerparameter Einstellungen müssen für das Modul Webservice eingeri
 | Webservice Exchange Version | | Bezeichnung der Exchange Version, aktuell stehen folgende Versionen zur Verfügung.<br><ul><li>Exchange2007_SP1</li><li>Exchange2010</li><li>Exchange2010_SP1</li><li>Exchange2010_SP2<br>Für SP3 wird auch diese Einstellung verwendet.</li><li>Exchange2013</li><li>Exchange2013_SP1</li></ul> |
 | Webservice Autosicover Url | | E-Mailadresse des Benutzers |
 
-<p class="just-emphasize">Beispiel</p>
+#### Beispiel
 
 | Text | Wert |
 | --- | --- |

@@ -38,7 +38,7 @@ insert into ident
 
 A.eins muss einmal verlassen und neu gestartet werden, damit dieser neue Eintrag zur Verfügung steht.
 
-<p class="just-emphasize">Einbinden in A.eins</p>
+#### Einbinden in A.eins
 
 Private Variante unter Private Anwendung **[PRANW]**
 
@@ -50,7 +50,7 @@ Mit Privater Option Box (P_OB )
 
 In die Option Box fügt man üblicherweise die private Funktion für Selektion (**F2**) ein.
 
-<p class="just-emphasize">Menüpunkt einrichten</p>
+#### Menüpunkt einrichten
 
 ![](../../ImagesExt/image8_1055.jpg)
 

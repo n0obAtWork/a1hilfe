@@ -99,7 +99,7 @@ end
 Als Parameter werden der Funktion die verwendeten Dimensionen übergeben. Wenn man also z.B. drei Dimensionen definiert hat, so werden die Parameter in_d1, in_d2 und in_d3 versorgt. Wenn eine eigene Funktion geschrieben wird, so muss der Funktionskopf dem aus dem oben gezeigten Beispiel entsprechen und einen Wert vom Typ Character muss zurückgeliefert werden.  
     
 
-Arbeiten mit Kostenstellendimensionen
+**Arbeiten mit Kostenstellendimensionen**
 
 Hat man die Kostenstellendimensionen definiert, so ändert sich die Erfassungsmaske der Kostenstellen. Es wird nicht mehr die Kostenstellennummer abgefragt, sondern die Werte der eingegebenen Dimensionen. Jede Kombination darf nur einmal existieren. Dies wird bei der Erfassung vom Programm überprüft.
 

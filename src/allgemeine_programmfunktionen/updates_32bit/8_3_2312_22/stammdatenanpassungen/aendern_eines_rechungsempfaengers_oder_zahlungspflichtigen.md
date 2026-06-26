@@ -4,7 +4,7 @@
 
 Beim Ändern des Rechnungsempfängers oder Zahlungspflichtigen über den Kundenstamm [KU] kam es unter Umständen dazu, dass der Datensatz nicht gespeichert werden konnte. Dies wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 729392[34573]
 
@@ -20,6 +20,6 @@ Funktion/Report: [KU]
 
 [Weitere Informationen](http://www.amic.de/hilfe/_konstantenbearbeitun.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2312.22, 34573, 729392

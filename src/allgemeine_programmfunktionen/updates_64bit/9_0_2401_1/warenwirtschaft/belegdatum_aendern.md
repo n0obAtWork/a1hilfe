@@ -4,7 +4,7 @@
 
 Beim Ändern des Belegdatums wurde automatisch auch das Lieferdatum auf Vorgangs- und Positionsebene geändert. Nun ist es möglich das Lieferdatum ebenfalls auf der Maske festzulegen.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 727344[34290]
 
@@ -20,6 +20,6 @@ Funktion/Report: Belegdatum ändern
 
 [Weitere Informationen](http://www.amic.de/hilfe/_belegdatumaendern.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.1, 34290, 727344

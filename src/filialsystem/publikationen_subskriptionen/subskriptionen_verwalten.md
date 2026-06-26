@@ -14,7 +14,7 @@ Eine neue Subskription anlegen:
 
 1. Wählen Sie in der Ordnerliste SQL Remote-Subskriptionen
 
-2. Klicken Sie auf einer freien Stelle der Registerkarte „SQL Remote-Subskriptionen“ mit der RECHTEN Maustaste und wählen Neu à SQL Remote-Subskriptionen
+2. Klicken Sie auf einer freien Stelle der Registerkarte „SQL Remote-Subskriptionen“ mit der RECHTEN Maustaste und wählen Neu → SQL Remote-Subskriptionen
 
 3. Folgen Sie den Anweisungen des Assistenten zum Erstellen von SQL Remote-Subskriptionen
 

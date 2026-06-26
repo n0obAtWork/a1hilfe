@@ -16,7 +16,7 @@ Es gibt vier Möglichkeiten – Relation / Prozedur / SQL / Favoriten - die Feld
 
 *Wird auf der Maske als Datenherkunft Favoriten verwendet, so wird das Feld IDENT von der entsprechenden Ident aus den Favoriten versorgt. Der Wert in der Maskenzuordnung wird ignoriert.*
 
-<p class="just-emphasize">0\. Relation</p>
+### 0\. Relation
 
 Das Feld wird mit dem Wert aus der angegeben Relation gefüllt. Existiert das Feld, dass unter Feldbeschreibung angegeben wurde, nicht in der Relation, so wird es angelegt. Existiert die Relation noch nicht, so wird diese angelegt. Dabei wird das unter Identfeld angegebene Feld als Primärschlüssel angelegt.
 
@@ -42,7 +42,7 @@ Der **Handle** wird intern verwendet. Für alle Felder einer Relation wird nur e
 Hinweis: Wenn beim Feldtyp Grid die Datenherkunft Relation gewählt wird, so ist es möglich im Grid Daten zu erfassen.  
  
 
-<p class="just-emphasize">1\. Prozedur</p>
+### 1\. Prozedur
 
 Es werden die Daten mit einer Prozedur zusammengesucht. Voraussetzung ist, dass der auf dem Register „[Feldbeschreibung](./feldbeschreibung.md)“ angegebene Feldname in der Ergebnismenge der Prozedur vorhanden ist. Diese Prozedur muss eine Ergebnismenge zurückliefern. Das SQL-Statement hat folgende Form:  
     
@@ -52,7 +52,7 @@ Es werden die Daten mit einer Prozedur zusammengesucht. Voraussetzung ist, dass 
 select * from Relation (':IDENT' [ ‚‘:IDENT2‘ [ ‚‘:IDENT3‘ [ ‚ ‘:IDENT4‘ ] ] ])
 ```
 
-<p class="just-emphasize">2\. SQL</p>
+### 2\. SQL
 
 Es wird das angegebene SQL-Statement so ausgeführt, wie es in dem dafür vorgesehenen Textfeld erfasst wurde. Für die Zuordnung einer Id stehen die Felder **IDENT, IDENT2, IDENT3** und **IDENT4** sowie jedes andere auf der Erfassungsmaske vorhandene Feld zur Verfügung. In dem SQL Statement ist möglich auf Jvars zuzugreifen. Dazu muss man den owner und den Namen der Jvar kennen.
 
@@ -66,7 +66,7 @@ Diese JVAR hat den Owner 7100 - also eine in AIS definierte JVAR – und den Nam
 
 Bei diesem Datentyp wird zusätzlich ein Feld **Refresh** abgefragt. Wird hier **Ja** eingetragen so werden die Daten erneut gelesen, wenn die Maske erneut von einer drüber gelagerten Maske betreten wird. Zusätzlich steht eine Funktion ***dbx_io ("AISREFRESH")*** zur Verfügung, die das Aktualisieren dieser Felder auslöst. Diese kann z.B. auf Pusch-Button als Controlstring eingetragen werden oder in einem Makro verwendet werden.
 
-<p class="just-emphasize">3\. Favoriten</p>
+### 3\. Favoriten
 
 Das System unterstützt z.Zt. zwei Favoritenbereiche, und zwar Kunden und Artikel. Die Vorbelegung der Favoriteninhalte erfolgt im Stammpfleger und im Vorgangsbereich. Der zuletzt in diesem Bereich angewählte Kunde oder Artikel wird an die oberste Stelle der Favoriten gesetzt und steht somit als Datengrundlage für den nächsten Anzeigevorgang zur Verfügung.
 
@@ -126,6 +126,6 @@ Beispiele:
 | Feld1$ / Feld2$ | Feld1$ = 123<br>Feld2$ = 0 | ![](../../../ImagesExt/image8_1025.png) |
 | Feld1$ \* FELD2$ | FELD2$ ist falsch geschrieben und existiert nicht auf der Maske. | Im Testmodus wird eine Fehlermeldung mit Bezeichnung des falsch geschriebenen Feldes ausgegeben. Das Ergebnisfeld sieht wie folgt aus:<br>![](../../../ImagesExt/image8_1026.png) |
 
-<p class="just-emphasize">99\. keine</p>
+### 99\. keine
 
 Der Inhalt des Feldes wird nicht aus der Datenbank gelesen sondern steht als Festtext im Feld Beschriftung des Registers „**Feldbeschreibung**“.

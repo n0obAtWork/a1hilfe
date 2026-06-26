@@ -4,7 +4,7 @@
 
 Bei der Kasseneröffnung kam es zur Tse-Fehlermeldung 4180. Dies wurde nun behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 719423[33410]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/kasse1.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2302.17, 33410, 719423

@@ -4,7 +4,7 @@
 
 Der Crystal Report "Stoffstrom Kundenreport" wurde angepasst und kann nun größere Zahlen anzeigen.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 717579[33282]
 
@@ -20,6 +20,6 @@ Funktion/Report: Stoffstrom Kundenreport
 
 [Weitere Informationen](http://www.amic.de/hilfe/-)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2212.23, 33282, 717579

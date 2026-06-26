@@ -202,7 +202,7 @@ Diese Konten werden für Buchungen von Werten aus der [permanenten Inventur](../
   </table>
 </div>
 
-<p class="just-emphasize">Einrichterparameter</p>
+#### Einrichterparameter
 
 | Einrichterparameter | Beschreibung | Vorbelegung |
 | --- | --- | --- |

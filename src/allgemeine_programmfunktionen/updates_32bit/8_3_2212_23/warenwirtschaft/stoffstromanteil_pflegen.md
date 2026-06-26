@@ -4,7 +4,7 @@
 
 Im Pfleger für individuelle Artikelnummern wird jetzt nur bei Anteilen mit Stoffstrom der Tabreiter zur Stoffstrompflege dargestellt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 715405[33004]
 
@@ -20,6 +20,6 @@ Funktion/Report: Ändern
 
 [Weitere Informationen](http://www.amic.de/hilfe/_artiindivnummer.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2212.23, 33004, 715405

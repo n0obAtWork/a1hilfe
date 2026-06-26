@@ -32,7 +32,7 @@ Direktsprung **[VBA]**
 | ***Duplizieren***<br>**Shift + F10** | Bietet die Möglichkeit ein Duplikat des Scriptes anzulegen. |
 | ***Export*** | Exportiert ein Script |
 | ***Ändern, Ansehen, Löschen, Neu*** | Standard-Pflege-Operationen |
-| Ausführen<br>**F9** | Führt das VBA-Script aus. |
+| ***Ausführen***<br>**F9** | Führt das VBA-Script aus. |
 
 VBA bedient folgende interne Schnittstelle:
 

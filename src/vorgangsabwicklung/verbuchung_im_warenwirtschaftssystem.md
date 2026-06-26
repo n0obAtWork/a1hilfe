@@ -4,7 +4,7 @@
 
 In Abhängigkeit von der Vorgangsklasse erfolgen die Verbuchungen im Warenwirtschaftssystem:
 
-<p class="just-emphasize">Warenverkauf</p>
+### Warenverkauf
 
 | Angebot | keine Buchung |
 | --- | --- |
@@ -14,7 +14,7 @@ In Abhängigkeit von der Vorgangsklasse erfolgen die Verbuchungen im Warenwirtsc
 | Gutschrift | IstBestand, gelieferte Menge, fakturierte Menge, Umsatz, Rohertrag |
 | Sonstige | Bei der Abbuchung aus Vorgängen, Kontrakten, Partien und anderen<br>Nebenbuchhaltungen erfolgen auch dort entsprechende Buchungen |
 
-<p class="just-emphasize">Wareneinkauf</p>
+### Wareneinkauf
 
 | Bestellanfrage | keine Buchung |
 | --- | --- |
@@ -24,11 +24,11 @@ In Abhängigkeit von der Vorgangsklasse erfolgen die Verbuchungen im Warenwirtsc
 | E-Gutschrift | IstBestand, gelieferte Menge, fakturierte Menge, Einkaufsumsatz, Rohertrag |
 | Sonstige | Bei der Abbuchung aus Vorgängen, Kontrakten, Partien und anderen Nebenbuchhaltungen erfolgen auch dort entsprechende Buchungen |
 
-<p class="just-emphasize">Interne Buchungen</p>
+### Interne Buchungen
 
 Je nach Typ mengen- und wertmäßige Buchungen. Hierbei handelt es sich um Warenumbuchungen, Stücklistenauflösungen etc.
 
-<p class="just-emphasize">Zeitpunkt der Aktualisierung</p>
+### Zeitpunkt der Aktualisierung
 
 Die Buchungen werden zentral vom Mandantenserver durchgeführt. Vom Arbeitsplatz werden diesem Server abgeschlossene Vorgänge, z.B. fertig gestellte Rechnungen, übermittelt. Mit der weiteren Verbuchung hat der Arbeitsplatz also nichts zu tun. In sehr zeitkritischen Umgebungen, so z.B. beim Telefonverkauf, wo die verfügbaren Mengen immer aktuell sein müssen, können aus folgenden Gründen Verzögerungen bei der Bestandsaktualisierung auftreten:
 

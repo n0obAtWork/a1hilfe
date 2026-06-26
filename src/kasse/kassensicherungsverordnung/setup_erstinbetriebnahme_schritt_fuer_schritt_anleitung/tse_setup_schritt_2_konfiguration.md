@@ -13,7 +13,6 @@ Hier wird eingestellt, ab wann die Prozedur aktiv werden soll.
 
 2. Im Datumsfeld das passende Datum auswählen.
 
-    
 ![](../../../ImagesExt/image8_481.jpg)
 
 </details>
@@ -34,10 +33,10 @@ Um die TSE in A.eins einzupflegen, wie folgt vorgehen:
 
 2. Um die TSE hinzuzufügen, entweder auf ***Neu*** oder **F8** klicken.
 
-Der Pfleger öffnet sich.  
+   Der Pfleger öffnet sich.  
 Der große Vorteil an der TSE-Implementierung in A.eins ist, dass die TSE (wenn sie in Windows richtig eingebunden wurde) direkt erkannt wird.
 
-Für den Fall, dass Sie mehrere TSE im Betrieb haben und nicht die Richtige erkannt wird, wechseln auf ein anderes Laufwerk.
+   Für den Fall, dass Sie mehrere TSE im Betrieb haben und nicht die Richtige erkannt wird, wechseln auf ein anderes Laufwerk.
 
 3. Eine Bezeichnung für die TSE eintragen.
 
@@ -45,7 +44,7 @@ Für den Fall, dass Sie mehrere TSE im Betrieb haben und nicht die Richtige erka
 
 5. Ein paar Sekunden warten.
 
-Der Pfleger schließt sich mit einer Meldung, dass die TSE erfolgreich eingerichtet wurde.  
+   Der Pfleger schließt sich mit einer Meldung, dass die TSE erfolgreich eingerichtet wurde.  
 ![](../../../ImagesExt/image8_483.jpg)
 
 </details>

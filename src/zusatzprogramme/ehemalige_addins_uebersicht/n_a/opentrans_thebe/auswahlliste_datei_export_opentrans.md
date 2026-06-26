@@ -8,7 +8,7 @@ Mit Hilfe der Variante Datei-Export erhalten Sie eine Übersicht über im Dateis
 
 Sie haben mit Hilfe der Funktion „Löschen“ die Möglichkeit, gezielt Exporte aus dem Dateisystem zu entfernen.
 
-###### Einrichtung
+### Einrichtung
 
 Aktivieren Sie die nachfolgenden Funktionen, um die Auswahlliste zur Anzeige von exportierten Dateien zu aktualisieren bzw. einzurichten.
 

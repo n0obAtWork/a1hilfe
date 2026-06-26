@@ -4,7 +4,7 @@
 
 Die Verwendung der Vorgangsnachverfolgung [VNV] funktionierte nur dann korrekt, wenn das Einstiegsverhalten der Variante im Bereichsfilter auf "Daten sofort anzeigen" stand. Das Problem wurde behoben. Bis zur Installation der neuen Version bitte das zentrale Einstiegsverhalten auf "Daten sofort anzeigen" stellen.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 723328[33862]
 
@@ -20,6 +20,6 @@ Funktion/Report: VNV
 
 [Weitere Informationen](http://www.amic.de/hilfe/_vorgang_nachverfolgung.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2303.31, 33862, 723328

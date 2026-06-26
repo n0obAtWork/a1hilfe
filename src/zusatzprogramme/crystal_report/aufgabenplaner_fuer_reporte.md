@@ -31,7 +31,7 @@ Diese Aufgabe findet man jetzt in der **Aufgabenplanung** von Windows in der Pla
 
 ![](../../ImagesExt/image8_1164.png)
 
-<p class="just-emphasize">Zusatzfunktionen</p>
+#### Zusatzfunktionen
 
 ***Aufgabenplaner aufrufen* F6:** Diese Funktion steht dann zur Verfügung, wenn der Anwender eigene Aufgaben aus A.eins heraus erstellt hat.
 

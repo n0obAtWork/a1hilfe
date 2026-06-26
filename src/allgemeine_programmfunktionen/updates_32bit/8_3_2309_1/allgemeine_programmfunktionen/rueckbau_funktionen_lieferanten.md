@@ -4,7 +4,7 @@
 
 Die Funktionen "InfoKu" und "Lieferanten bewerten" in der Anwendung Lieferanten [LF] wurden entfernt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 725940[34176]
 
@@ -20,6 +20,6 @@ Funktion/Report: InfoKu + Lieferanten bewerten
 
 [Weitere Informationen](http://www.amic.de/hilfe/_lieferantenherstelle.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 34176, 725940

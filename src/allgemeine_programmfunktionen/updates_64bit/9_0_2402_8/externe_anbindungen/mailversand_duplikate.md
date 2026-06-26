@@ -4,7 +4,7 @@
 
 In der Anwendung [MAIL] werden Datensätze je Anhang (.pdf, .xml, etc) angezeigt. Das begründet sich in der Vorschau-Funktion dieser Anwendung. Leider führte dies jedoch beim Versenden dazu, dass pro Datensatz eine E-Mail mit allen Anhängen versendet wurde. Dieses Verhalten wurde angepasst. Es werden weiterhin Datensätze je Anhang angezeigt, jedoch führt die Versand-Funktion jeweils nur noch einen Versand mit allen Anhängen aus.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 741775[36096]
 
@@ -20,6 +20,6 @@ Funktion/Report: Freigeben/Versenden
 
 [Weitere Informationen](http://www.amic.de/hilfe/_mailversandfunktioneninmail.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.8, 36096, 741775

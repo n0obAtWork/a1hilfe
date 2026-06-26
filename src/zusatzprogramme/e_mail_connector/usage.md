@@ -10,7 +10,7 @@ Bsp.: A.eins.EmailConnector.exe connectionstring="eng=test;dbn=test;links=tcpip;
 
 Der Aufruf kann über die Windows-Aufgabenplanung in regelmäßigen Abständen erfolgen.
 
-<p class="just-emphasize">Formulararchivgruppe</p>
+### Formulararchivgruppe
 
 Die Mail und alle Anhänge werden im Formulararchiv in einer Gruppe zusammengefasst. Anhand dieser kann man die Dokumente zusammengehörenden Dokumente identifizieren.
 

@@ -85,7 +85,7 @@ Die Parameter der Waage haben folgende Funktion (Die Liste ist nach Typ und Scri
 | WGN_SA1 .. WGN_SA4 | Für jede von 4 Satzarten kann unabhängig eingestellt werden:<br>Position der Wiegenummer, Anzahl der Stellen. Wert1 füllt die Variable WGN_SAx; Wert2 die Variable WGNLEN_SAx. | Belegt | Belegt | Unbenutzt | 2 |
 | ZI_SA1 .. ZI_SA4 | Für jede von 4 Satzarten kann unabhängig eingestellt werden:<br>Position (Wert1) und Anzahl der Stellen (Wert2) der Zielansprache. Füllt die Variablen ZI_SAx und ZILEN_SAx. | Belegt<br> | Belegt | Unbenutzt | 2 |
 
-Wichtiger Hinweis
+**Wichtiger Hinweis**
 
 Bis Aeins-Version 4.2.2.181 (22.6.99) werden inaktive ScriptParameter nicht zuverlässig erkannt. Daher kann es erforderlich sein, nach Beendigung der Parametrisierungen das SQL-Skript WAAGKORR.SQL aufzurufen. Besser ist es, vorläufig keine Parameter als inaktiv zu markieren. Das SQL-Skript hat folgenden Inhalt:
 

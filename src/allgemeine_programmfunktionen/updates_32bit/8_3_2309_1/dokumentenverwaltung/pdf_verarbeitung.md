@@ -4,7 +4,7 @@
 
 Die Bibliothek, die u.a. zur Erzeugung von PDF-Dokumenten eingesetzt wird, ist auf Version DynaForms 4.0.74.217 Professional angehoben worden. Diese Version erzeugt u.a. nicht länger interne Links auf die Hersteller-URL, da diese u.U. zu Problemen mit Viren-Scanner führen konnten.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 724275[33909]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/systeminformation.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 33909, 724275

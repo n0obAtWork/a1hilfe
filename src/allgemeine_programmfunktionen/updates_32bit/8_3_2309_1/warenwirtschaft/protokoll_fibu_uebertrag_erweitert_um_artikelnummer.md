@@ -4,7 +4,7 @@
 
 Beim Protokoll Fibuübertrag [FIBF] in der Variante "Protokoll Fibuübertrag" werden, sofern sinnvoll, die Artikelnummern mit angezeigt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 724205[33973]
 
@@ -20,6 +20,6 @@ Funktion/Report: [FIBF]
 
 [Weitere Informationen](http://www.amic.de/hilfe/journalereignisprotokoll.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 33973, 724205

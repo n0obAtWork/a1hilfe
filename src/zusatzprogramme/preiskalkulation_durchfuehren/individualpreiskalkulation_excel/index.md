@@ -12,7 +12,7 @@ Voraussetzung für die Nutzung der Funktionen ist eine Excel-Individualpreiskalk
 
 Initial werden dazu die Individualpreisdaten in eine Excel-Datei exportiert und können dann mit Excel oder einer alternativen Anwendung gepflegt werden. Der anschließende Import der Excel-Datei geschieht über den Excel-Archivimport, der die Preise dem Archiv hinzufügt und als XML in A.eins importiert. Die neuen Individualpreise gelangen so direkt via Datenbankprozedur in die A.eins Stammdaten. Über eine Protokollfunktion in der Variante **Individualpreise Protokoll** können die kalkulierten Preise jederzeit wieder aufgerufen und erneut importiert werden.
 
-<p class="just-emphasize">Neue Individualpreise in A.eins®</p>
+### Neue Individualpreise in A.eins®
 
 Voraussetzungen:
 
@@ -29,7 +29,7 @@ Der Import über die Anwendung **Individualpreiskalkulation Excel** setzt sich a
 - [Excel-Datei importieren](./excel_datei_importieren.md)
 - [Import-Protokoll prüfen](./import_protokoll_pruefen.md)
 
-<p class="just-emphasize">Weitere Funktionen in der Individualpreiskalkulation</p>
+### Weitere Funktionen in der Individualpreiskalkulation
 
 Zudem kann die Individualpreiskalkulation gedruckt oder weitergeleitet werden.
 

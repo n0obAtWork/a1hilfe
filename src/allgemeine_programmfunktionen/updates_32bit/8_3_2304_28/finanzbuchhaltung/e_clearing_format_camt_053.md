@@ -4,7 +4,7 @@
 
 In e-Clearing kann unter anderem das Format SEPA CAMT.053 importiert werden. Diese Dateien müssen im so genannten Zip SEPA Containern vorliegen und werden automatisch von A.eins entpackt. Beim Entpacken wurde nicht erkannt, ob dabei ein Fehler auftrat. Es wird auf den Fehler hingewiesen und die Fehlermeldungen werden ins Fehlerprotokoll geschrieben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 720598[33655]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/dateienladen.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2304.28, 33655, 720598

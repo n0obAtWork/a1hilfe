@@ -4,7 +4,7 @@
 
 Bei einem Inventurstammsatz vom Typ "Erhebung und Stichtag versetzt" war es möglich das Feld Erhebungstag leer zu lassen. Dies wurde unterbunden. Und rückliegende Inventuren werden korrekt behandelt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 717267[33277]
 
@@ -20,6 +20,6 @@ Funktion/Report: F8,F5
 
 [Weitere Informationen](http://www.amic.de/hilfe/_inventurstamm.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 33277, 717267

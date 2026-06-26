@@ -4,7 +4,7 @@
 
 In der Auswahlliste von Eingangsgutschriften [EGB] und Verkaufsgutschriften [GUB] steht jetzt die Funktion Belegdatum ändern, analog zur Rechnungsbearbeitung, zur Verfügung.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 745347[36648]
 
@@ -20,6 +20,6 @@ Funktion/Report: [GUB][EGB]
 
 [Weitere Informationen](http://www.amic.de/hilfe/!vorgangsklasseninaeins.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 36648, 745347

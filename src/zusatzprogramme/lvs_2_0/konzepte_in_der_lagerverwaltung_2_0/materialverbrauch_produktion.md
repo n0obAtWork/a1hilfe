@@ -4,7 +4,7 @@
 
 Wenn Material aus der Bereitstellungszone im LVS für die Produktion entnommen wird, so muss die Menge in der Bereitstellungszone reduziert werden. Dazu gibt es verschiedene Strategien. Die Auswahl hängt von der Frage ab, ob Restmaterialien (teilentleerte Kisten/Paletten) evtl. wieder ins Lager zurückgebracht werden sollen.
 
-<p class="just-emphasize">Szenario1: Restmaterialien ins Lager</p>
+#### Szenario1: Restmaterialien ins Lager
 
 Sobald die Produktion beendet ist, wird in der Schnittstelle der Verbrauch des Materials und der entsprechende Ladeträger angegeben. So kann gerechnet werden: Menge auf dem Ladeträger Minus Verbrauch = neuer Bestand Ladeträger.
 
@@ -12,7 +12,7 @@ Eine Anzeige muss alle Ladeträger mit Material darauf anzeigen, die in der Bere
 
 Diese Lösung stellt die Anforderung ans Produktionssystem, die entnommene Menge pro Ladeträger(Palette) zurückzumelden.
 
-<p class="just-emphasize">Szenario2: Material verbleibt in der Bereitstellungszone</p>
+#### Szenario2: Material verbleibt in der Bereitstellungszone
 
 Sobald das Material in der Bereitstellungszone ankommt wird in einem Makro das Material vom ankommenden Ladeträger auf einen Sammelladeträger in der Produktion gebucht.
 

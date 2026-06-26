@@ -4,7 +4,7 @@
 
 Steuerparameter "DTA Ausgabeformat" [521] angepasst, veraltete Einstellungen (Österreich, Deutschland & Dänemark) wurden entfernt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 732070[34919]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_SPA_521.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.2, 34919, 732070

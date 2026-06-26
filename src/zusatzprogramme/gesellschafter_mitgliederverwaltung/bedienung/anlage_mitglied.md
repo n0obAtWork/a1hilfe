@@ -22,7 +22,7 @@ Erst bei vergebener Mitgliedsnummer und gezeichneten Anteilen ist ein Personenko
 
 In das Feld Belegdatum wird das Eingangsdatum des Antrages auf Mitgliedschaft eingetragen.
 
-<p class="just-emphasize">Mitgliedsanlage ohne Anteile</p>
+### Mitgliedsanlage ohne Anteile
 
 In der Variante „Mitglieder ohne Anteile“ werden alle Mitglieder ohne Anteile angezeigt.  
 Dort gibt es eine Funktion ***„Mitglieder ohne Anteile löschen“ F7*** mit der Datensätze aus dieser Variante entfernt werden können.

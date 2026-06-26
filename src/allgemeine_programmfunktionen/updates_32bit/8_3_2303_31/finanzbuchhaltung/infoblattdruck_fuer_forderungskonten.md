@@ -4,7 +4,7 @@
 
 Das Infoblatt für Forderungs- und Verbindlichkeitskonten wurde um die Umbuchungen, die bei Wechsel der Forderungsgruppe erstellt werden, erweitert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 721386[33650]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/funktionenderkonteninformation.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2303.31, 33650, 721386

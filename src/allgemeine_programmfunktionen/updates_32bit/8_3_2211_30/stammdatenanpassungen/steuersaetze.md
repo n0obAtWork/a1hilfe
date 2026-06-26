@@ -4,7 +4,7 @@
 
 Nach dem Ändern von Steuersätzen kann es vorkommen, dass beim Import von Vorgängen in die Finanzbuchhaltung, nicht die neuen sondern die alten Steuersätze gezogen werden. Um sicherzustellen, dass die aktuellsten Steuersatz-Daten genommen werden, ist der Mandantenserver nach dem Ändern der Steuersätze neu zu starten. Hierzu erscheint jetzt im Steuersatz-Pfleger ein entsprechender Hinweis.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 715611[33020]
 
@@ -20,6 +20,6 @@ Funktion/Report: Steuersätze F8
 
 [Weitere Informationen](http://www.amic.de/hilfe/stammdatensteuerstze.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2211.30, 33020, 715611

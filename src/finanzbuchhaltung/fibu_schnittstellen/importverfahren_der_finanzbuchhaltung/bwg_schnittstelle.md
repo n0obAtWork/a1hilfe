@@ -51,7 +51,7 @@ Für das Konto 1755 ist die Steuerklasse 2 hinterlegt. In der Importdatei steht 
   </table>
 </div>
 
-<p class="just-emphasize">Satzaufbau der Datei</p>
+#### Satzaufbau der Datei
 
 Jede Zeile ist 128 Bytes lang und endet mit CR/LF. Die Daten stehen mit einer festen Länge hintereinander.
 

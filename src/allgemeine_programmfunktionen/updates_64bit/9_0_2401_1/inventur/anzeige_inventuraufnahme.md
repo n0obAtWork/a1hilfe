@@ -4,7 +4,7 @@
 
 In der Anwendung Inventur-Aufnahme [IVA] wurde in der Variante "Inventuraufnahme Artikel/Partie/LVS" die Darstellung der Bewertung bei Gebindeartikeln berichtigt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 726126[34131]
 
@@ -20,6 +20,6 @@ Funktion/Report: Auswahlliste
 
 [Weitere Informationen](http://www.amic.de/hilfe/inventuraufnahme.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.1, 34131, 726126

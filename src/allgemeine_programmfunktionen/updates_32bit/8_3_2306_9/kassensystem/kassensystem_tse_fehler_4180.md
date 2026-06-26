@@ -4,7 +4,7 @@
 
 Während der Kasseneröffnung kam es zur Fehlermeldung 4180 der TSE. Dieses wurde nun behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 723247[33845]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/kasse1.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2306.9, 33845, 723247

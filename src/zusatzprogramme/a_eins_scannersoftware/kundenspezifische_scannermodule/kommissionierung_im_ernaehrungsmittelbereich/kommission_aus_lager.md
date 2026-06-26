@@ -18,7 +18,7 @@ Hinzu kommt dann noch die Liste der Fehlmengen des Benutzers:
 
 Die Fehlmengenliste wird regelmäßig geleert.
 
-###### Auftragsfreigabe zum Lieferschein
+### Auftragsfreigabe zum Lieferschein
 
 Sind alle Artikel im Auftrag vollständig kommisioniert (richtige Partie und vollständige Menge), so kann eine Lieferscheinfreigabe erfolgen (siehe Bild).
 

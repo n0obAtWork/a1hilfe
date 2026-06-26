@@ -6,16 +6,16 @@ Das Design und der Funktionsumfang der F3-Auswahl wurden für die 64Bit-Version 
 
 ![](../../ImagesExt/image8_1328.png)
 
-<p class="just-emphasize">Aufruf:</p>
+#### Aufruf:
 
 1) Bei F3-Auswahlen auf Stammdaten:  
 In den Feldern, bei denen der Informationstext „Eine Auswahlliste kann mit F3 aufgerufen werden“, kann man die Auswahl direkt mit F3 starten. Man kann jedoch auch vorher eine Eingrenzung eingeben, die dann in der F3-Auswahl sofort angewendet wird. Stellt man der Auswahl eine Zahl gefolgt von einem Punkt (Z.B. „<strong>2.</strong>Meyer“) vorweg, wird sofort die entsprechende Variante aufgerufen und der zusätzliche Wert wird sofort verwendet.
 
-Es gibt zwei Möglichkeiten die Daten einzugrenzen. Einmal über die Filterzeile, dabei wird in den eingelesenen Daten gesucht. Oder über die SQL-Eingrenzung (öffnen mit F2 oder Strg+Y oder Mausklick auf den Splitter) . Dabei werden nur die Daten eingelesen, die diesem Kriterium entsprechen. Bei großen Datenmengen ist die SQL-Eingrenzung schneller, da nur ein Teil der Daten in die Anzeige übernommen wird. Die Filterzeile sucht dann auch nur in diesen Daten.
+   Es gibt zwei Möglichkeiten die Daten einzugrenzen. Einmal über die Filterzeile, dabei wird in den eingelesenen Daten gesucht. Oder über die SQL-Eingrenzung (öffnen mit F2 oder Strg+Y oder Mausklick auf den Splitter) . Dabei werden nur die Daten eingelesen, die diesem Kriterium entsprechen. Bei großen Datenmengen ist die SQL-Eingrenzung schneller, da nur ein Teil der Daten in die Anzeige übernommen wird. Die Filterzeile sucht dann auch nur in diesen Daten.
 
-Wir im SQL-Text das Schlüsselwort [MUSTENTER](../private_varianten_und_sql_texte/schluesselwoerter_im_sql_text.md#Mustenter) verwendet, so ist die SQL-Eingrenzung gleich beim Öffnen der F3-Auswahl aktiv und man muss erst einen Wert eingeben, mit dem die eingelesenen Daten eingeschränkt werden.
+   Wir im SQL-Text das Schlüsselwort [MUSTENTER](../private_varianten_und_sql_texte/schluesselwoerter_im_sql_text.md#Mustenter) verwendet, so ist die SQL-Eingrenzung gleich beim Öffnen der F3-Auswahl aktiv und man muss erst einen Wert eingeben, mit dem die eingelesenen Daten eingeschränkt werden.
 
-Bei Verwendung von [OPTIONS NOITEMWAHL](../private_varianten_und_sql_texte/schluesselwoerter_im_sql_text.md#Options) wird der Splitter und damit die SQL-Eingrenzung komplett ausgeblendet.  
+   Bei Verwendung von [OPTIONS NOITEMWAHL](../private_varianten_und_sql_texte/schluesselwoerter_im_sql_text.md#Options) wird der Splitter und damit die SQL-Eingrenzung komplett ausgeblendet.  
     
 Der Label „Ab“ vor der SQL-Eingrenzung sollte mit dem Schlüsselwort [IB_LABEL](../private_varianten_und_sql_texte/schluesselwoerter_im_sql_text.md#IB_LABEL) genauer angegeben werden. Z.B.:
 
@@ -26,7 +26,7 @@ IB_LABEL Klasse ab
 2) Bei F3-Auswahlen auf FS-Formate:  
 Bei FS-Formaten werden immer alle Daten geladen und angezeigt, unabhängig davon, was man im Feld vorher angegeben hat. Die aktive Zeile ist die Zeile mit dem Wert, der in dem Feld steht, aus dem man kommt. Splitter und **F2** oder **Strg-Y** stehen nicht zu Verfügung.
 
-<p class="just-emphasize">Filter:</p>
+#### Filter:
 
 Die Filterzeile direkt unter der Überschrift dient dazu, schnell bestimmte Datensätze zu finden. Es wird bei dieser Methode nicht erneut auf die Datenbank zugegriffen, sondern nur in den Daten der Datentabelle gesucht.
 
@@ -38,7 +38,7 @@ Das Symbol ![](../../ImagesExt/image8_1277.png) dient zum zurücksetzen der Fil
 
 Das Symbol links unter der Überschrift bestimmt, wie gesucht wird, wobei hier zwischen numerischen und alphanumerischen Daten unterschieden wird. Wie dabei gesucht wird – größer als, kleiner, … - wird versucht anhand der WHERE Bedingung im SQL zu bestimmen. Möchte man hier eine andere Suchstrategie vorgeben, kann dies über das Schlüsselwort [FILTERCOMPARISION](../private_varianten_und_sql_texte/schluesselwoerter_im_sql_text.md#FILTERCOMPARISION) festgelegt werden.
 
-<p class="just-emphasize">Varianten:</p>
+#### Varianten:
 
 Die zur Verfügung stehenden Varianten erhält man über das rechte Maustastenmenü oder die Menü-Taste auf der Tastatur.
 
@@ -46,11 +46,11 @@ Die zur Verfügung stehenden Varianten erhält man über das rechte Maustastenme
 
 Wenn das Menü geöffnet ist, kann man entweder mit der Maus oder durch Drücken der Zahl die Variante auswählen. Hat man die Nummern der Varianten im Kopf, so kann man mit **Strg+Zahl** die Varianten Umschalten. In der SQL-Eingrenzung kann man durch Voranstellen der Zahl gefolgt von einem Punkt auch direkt in eine andere Variante springen.
 
-<p class="just-emphasize">Beenden:</p>
+#### Beenden:
 
 Die F3-Auswahl kann mit Escape oder durch Klicken mit der Maus auf eine Position außerhalb des Fensters geschlossen werden. Dann wird kein Wert übernommen. Ein Wert kann durch Drücken der Enter-Taste oder mit einem einfachen Klick auf die entsprechende Zeile ausgewählt werden.
 
-<p class="just-emphasize">Funktionen:</p>
+#### Funktionen:
 
 | | **Beschreibung** |
 | --- | --- |

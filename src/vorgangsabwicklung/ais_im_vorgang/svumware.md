@@ -30,7 +30,7 @@ Auf der SVWARE Maske wird nach jeder Eingabe eines Wertes das zu aktualisieren A
 | Netto_Z$ | ID_NETTO | 1003 | Maskenfeld |
 | V_LGUBuchTyp$ | ID_LGU_BUCHTYP | 4500 | Maskenfeld |
 
-<p class="just-emphasize">Benötigte JVARS</p>
+#### Benötigte JVARS
 
 | JAVR | Funktion | Bedeutung |
 | --- | --- | --- |

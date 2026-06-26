@@ -37,7 +37,7 @@ Um eine Lagerumbuchung mit dem Scanner durchzuführen wird wie folgt vorgegangen
 
 3. Die Lagerumbuchung wird mit dem Befehl LGUENDE beendet.
 
-<p class="just-emphasize">Ablauf</p>
+### Ablauf
 
 - Als erstes wird der Startscancode erfasst wie z.B. LGU 4711. Beim Startscancode muss immer zwischen dem LGU und der Vorgangsnummer ein Leerzeichen stehen. Nach dem der Startscancode erfasst worden ist, werden im unteren Teil des Scanner Bildschirmes alle Position der Lagerumbuchung angezeigt. Enthält die Lagerumbuchung mehr als neun Positionen so kann mit den Pfeil hoch und Pfeil runter Tasten geblättert werden.
 - Jetzt kann eine Position aus der Lagerumbuchung eingescannt werden. Die Suche, der Position in der Lagerumbuchung funktioniert wie folgt.
@@ -50,6 +50,6 @@ Um eine Lagerumbuchung mit dem Scanner durchzuführen wird wie folgt vorgegangen
 - Der Scanner unterstützt beim Erfassen keine Partieverteilung. Dies bedeutet, wenn mehrere Partien eines Artikels umgebucht werden sollen, muss in der Lagerumbuchung pro Partie eine Position angelegt werden.
 - Nach dem abarbeiten der Positionen wird LGUENDE eingescannt.
 
-<p class="just-emphasize">Gebinde</p>
+### Gebinde
 
 Für das Erfassen des Gebindes gibt es mehrere Einstellungsmöglichkeiten. In dem Standardfall kann nur die Ergebnismengeneinheit angegeben werden. Wird der Schalter Gebindefaktor aus Vorgang auf ja gestellt, so wird die eingegebene Menge als Anzahl genommen und der Gebindefaktor aus dem Auftrag gelesen. Des Weiteren kann an der Mengeneinheit selbst noch einmal hinterlegt werden, ob die Mengenangabe als Gesamt Menge oder als Gebinde Anzahl gewertet werden soll.

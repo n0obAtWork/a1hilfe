@@ -10,7 +10,7 @@ Hier werden die Daten der Hersteller der Waren, die sich im Artikelstamm befinde
 
 Zu jedem Lieferanten kann es natürlich mehrere Hersteller geben, oder aber der Hersteller kann auch der Lieferant sein.
 
-<p class="just-emphasize">Erfassungsmaske</p>
+### Erfassungsmaske
 
 Es stehen folgende Eingabefelder und Eingabemöglichkeiten zur Verfügung.
 

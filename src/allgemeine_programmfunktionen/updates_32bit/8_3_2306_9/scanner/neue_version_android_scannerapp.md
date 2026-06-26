@@ -4,7 +4,7 @@
 
 Es wurde eine neue Version der Android-Scannerapp bereitgestellt. Bitte vereinbaren Sie einen Update-Termin.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 0[33865]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/-)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2306.9, 33865, 0

@@ -4,7 +4,7 @@
 
 Bei Umwandlung von Belegen unter Angabe einer abweichenden Belegnummer wurden die Informationen über den vorherigen Beleg u.U. nicht korrekt mitgezogen. Dies ist nun behoben. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 720096[33460]
 
@@ -20,6 +20,6 @@ Funktion/Report: Umwandlung
 
 [Weitere Informationen](http://www.amic.de/hilfe/umwandelnundkopieren.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2303.31, 33460, 720096

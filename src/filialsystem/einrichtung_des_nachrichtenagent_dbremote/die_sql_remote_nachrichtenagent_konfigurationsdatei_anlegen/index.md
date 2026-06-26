@@ -4,7 +4,7 @@
 
 1. Starten Sie den Editor
 
-2. Klicken Sie nun auf Datei à Speichern unter
+2. Klicken Sie nun auf Datei → Speichern unter
 
 3. Bewegen Sie sich im Dateiexplorer in das Verzeichnis „..\\Aeins\\config\\“
 
@@ -34,7 +34,7 @@ c:\\aeins\\daten\\&lt;DatenbankName>
 
 6. Ändern Sie die Werte in den Spitzen Klammern entsprechend!
 
-7. Speichern Sie die Konfigurationsdatei unter Datei à Speichern
+7. Speichern Sie die Konfigurationsdatei unter Datei → Speichern
 
 <p class="siehe-auch">Siehe auch:</p>
 

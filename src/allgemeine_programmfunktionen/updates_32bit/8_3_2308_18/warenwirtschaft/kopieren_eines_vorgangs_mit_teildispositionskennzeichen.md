@@ -4,7 +4,7 @@
 
 Bei der Erzeugung einer Kopie eines Vorgangs mittels der Funktion 'Kopieren' wurde das Teildispositionskennzeichen 'V_KennzTeilV' mit in die Kopie übernommen. Dieses wurde nun unterbunden.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 724602[34094]
 
@@ -20,6 +20,6 @@ Funktion/Report: Kopieren
 
 [Weitere Informationen](http://www.amic.de/hilfe/besonderheitenbeimkopieren.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2308.18, 34094, 724602

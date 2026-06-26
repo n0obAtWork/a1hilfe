@@ -4,7 +4,7 @@
 
 Ein Kundentyp kann nur geändert werden, solange keine Belege vorhanden sind, wenn die Kundentypänderung eine Änderung der Kundennummer durch Wechsel des Nummernkreises bedingen würde. Hintergrund ist, dass die bestehenden Belege durch eine Änderung der Kundennummer verwaist würden. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 732061[34999]
 
@@ -20,6 +20,6 @@ Funktion/Report: Ändern
 
 [Weitere Informationen](http://www.amic.de/hilfe/_hauptmaske.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.2, 34999, 732061

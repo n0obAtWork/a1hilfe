@@ -26,7 +26,7 @@ An diese unterschiedlichen Varianten sind unterschiedliche Funktionalitäten gek
 
 3. ist eine reine Übersichtsfunktion
 
-<p class="just-emphasize">Kalkulation von Bewertungspreisen F9</p>
+### Kalkulation von Bewertungspreisen F9
 
 Die Kalkulation erfolgt auf Basis der maschinell verfügbaren Preise:
 

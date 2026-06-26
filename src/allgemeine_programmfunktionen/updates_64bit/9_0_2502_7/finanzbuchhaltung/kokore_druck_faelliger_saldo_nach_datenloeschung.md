@@ -4,7 +4,7 @@
 
 Der fällige Saldo auf dem Kokore wurde nach Verwendung des Moduls Datenlöschung falsch ausgewiesen. Das Problem wurde beseitigt,
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 748651[38055]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/kontobltterdrucken.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.7, 38055, 748651

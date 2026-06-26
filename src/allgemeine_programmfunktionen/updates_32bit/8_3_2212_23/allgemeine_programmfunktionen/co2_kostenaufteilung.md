@@ -4,7 +4,7 @@
 
 Das neue Modul zur CO2-Kostenaufteilung wurde fertiggestellt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 717732[33255]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_CO2Kostenaufteilung.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2212.23, 33255, 717732

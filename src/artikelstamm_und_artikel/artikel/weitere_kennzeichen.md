@@ -54,7 +54,7 @@ Kennzeichnet, ob der Artikel bei Ein-, bzw. Verkauf Skontierfähig ist.
 | Immer Abholschein | Es wird **immer** ein Abholschein für diesen Artikel gedruckt. |
 | Nie Abholschein | Es wird **niemals** ein Abholschein für diesen Artikel gedruckt. |
 
-Gruppenzuordnung:
+**Gruppenzuordnung:**
 
 Hier wird der Artikel den verschiedenen Gruppen zugeordnet.
 
@@ -86,7 +86,7 @@ Bei der Vorgangserfassung wird das Kalkulationsfenster zur Preisbestimmung autom
 
 Sinnvoll einsetzbar ist das Verfahren z.B. bei „Diversen Artikeln“ oder „Projektgeschäften“.
 
-Einkauf / Verkauf gesperrt:
+**Einkauf / Verkauf gesperrt:**
 
 | Ausprägung | Bedeutung |
 | --- | --- |

@@ -8,7 +8,7 @@ Direktsprung **[SKS]**
 
 Für jedes Sachkonto können Plandaten je Periode angelegt werden. Diese werden in der Tabelle Kontosummen mit den Periodenwerten abgespeichert und stehen so für Auswertungen zur Verfügung.
 
-Manuelle Übernahme pro Konto
+**Manuelle Übernahme pro Konto**
 
 Diese Funktionalität erreicht man über die Funktion ***Plandaten*** **F10**:
 
@@ -17,7 +17,7 @@ Diese Funktionalität erreicht man über die Funktion ***Plandaten*** **F10**:
 Die Periodeneinteilung entspricht der Vorgabe im Firmenstamm. Je Periode werden die Planwerte eingegeben. Bei gleichen Werten genügt die Eintragung in der ersten Periode und Auslösung der Funktion ***Periodenwerte aus 1. Periode***.  
 Die Plandaten des Vorjahres können mittels ***Vorjahreswerte übernehmen*** übernommen werden.
 
-Automatische Übernahme für alle Konten
+**Automatische Übernahme für alle Konten**
 
 Diese Funktionalität erreicht man über die Funktion ***Plandaten übernehmen*** **SH+F10**.
 

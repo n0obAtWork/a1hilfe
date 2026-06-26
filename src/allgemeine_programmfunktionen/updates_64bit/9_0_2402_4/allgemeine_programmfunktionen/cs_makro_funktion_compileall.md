@@ -4,7 +4,7 @@
 
 In der CS-Makro Anwendung [CSM] wurde in der Funktion "CompileAll" ein Fehler gefunden, der die korrekte Ausführung dieser Funktion verhinderte. Dieser Fehler wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 739946[35831]
 
@@ -20,6 +20,6 @@ Funktion/Report: CompileAll
 
 [Weitere Informationen](http://www.amic.de/hilfe/!_allgemeineprogrammfu.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.4, 35831, 739946

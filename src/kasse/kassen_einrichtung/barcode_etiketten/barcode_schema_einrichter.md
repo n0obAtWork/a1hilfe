@@ -60,7 +60,7 @@ Beispiel für einen Barcode, der eine vierstellige Artikelnummer, einen vierstel
   </table>
 </div>
 
-<p class="just-emphasize">Kommandos in Barcodes</p>
+#### Kommandos in Barcodes
 
 Barcodes mit Kommandos können nur in der Marktkasse ausgewertet werden!
 

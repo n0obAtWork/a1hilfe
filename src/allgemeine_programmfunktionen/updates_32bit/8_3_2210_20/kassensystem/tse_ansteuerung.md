@@ -4,7 +4,7 @@
 
 Die Ansteuerung der TSE zur Zeit-Setzung und des inaktiven CTSS-Interface wurde überarbeitet. (Code: 4098, 4180) 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 714192[32886]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_tseauswahllistepfleger.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2210.20, 32886, 714192

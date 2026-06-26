@@ -4,7 +4,7 @@
 
 Sollten zu einer IBAN mehrere Hausbanken existieren, so ist es nicht möglich, die Hausbank automatisch zuzuordnen. Damit e-Clearing-Auszüge trotzdem als buchbar erkannt werden, existiert jetzt eine Funktion "Hausbank zuordnen".
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 720614[33537]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/kontenerkennungundautomatische.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2303.31, 33537, 720614

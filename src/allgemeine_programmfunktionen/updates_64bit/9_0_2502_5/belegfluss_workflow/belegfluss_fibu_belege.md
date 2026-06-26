@@ -4,7 +4,7 @@
 
 Im Belegfluss [BF] steht für das Erzeugen von Finanzbuchhaltungsbelegen nur noch die Fibu-Direktverbuchung zur Verfügung.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 748306[37651]
 
@@ -20,6 +20,6 @@ Funktion/Report: Fibu-Beleg erzeugen
 
 [Weitere Informationen](http://www.amic.de/hilfe/#!belegflusspfleger.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 37651, 748306

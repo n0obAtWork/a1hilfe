@@ -6,13 +6,13 @@ Mit dem Direktsprung [USTID] erreicht man die Historie der Umsatzsteuer-Id-Prüf
 
 Hier kann nach Umsatzsteuer-Id, Vorgang oder Kunde gefiltert werden.
 
-<p class="just-emphasize">Aufruf aus anderen Auswahllisten</p>
+#### Aufruf aus anderen Auswahllisten
 
 Ein Aufruf des Direktsprungs aus der Kundenauswahlliste belegt die Auswahl mit dem markierten Kunden vor.
 
 Ein Aufruf des Direktsprungs aus einer Vorgangsauswahlliste belegt die Auswahl mit dem markierten Vorgang vor.
 
-<p class="just-emphasize">Informationen</p>
+#### Informationen
 
 Die Auswahlliste enthält die folgenden Informationen:
 

@@ -4,7 +4,7 @@
 
 Der Pfleger "Objektstamm" [BAU]/[OBJ] hatte die hinterlegte Zahlungsbedingung immer wieder mit der Zahlungsbedingung des hinterlegten Kunden überschrieben. Das Verhalten wurde korrigiert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 745693[36691]
 
@@ -20,6 +20,6 @@ Funktion/Report: [OBJ] - Ändern
 
 [Weitere Informationen](http://www.amic.de/hilfe/!_baustelle.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 36691, 745693

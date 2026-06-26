@@ -4,7 +4,7 @@
 
 Der Belegfluss wurde um ein Feld für die Belegart (nur Finanzbuchhaltung) erweitert. Für die Belegart SO-Belege wird das Soll/Haben-Kennzeichen ausgewertet. Achtung: Der Datenbanktyp des Feldes "SollHaben" wurde von "CHAR" auf "integer" geändert. Private Funktionen, die das Feld "SollHaben" bereits verwenden, müssen angepasst werden.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 715736[33022]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_archivbelegfluss.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2211.30, 33022, 715736

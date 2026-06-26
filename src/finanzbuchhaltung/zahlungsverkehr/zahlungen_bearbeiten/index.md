@@ -8,11 +8,11 @@ Direktsprung **[ZHB]**
 
 Hier erfolgt die endgültige Verarbeitung der Zahlungsbelege. Es stehen hierfür diverse Funktionen zur Verfügung.
 
-<p class="just-emphasize">**Zahlungsliste (Druck)**</p>
+#### **Zahlungsliste (Druck)**
 
 Ein Report kann als Protokoll gedruckt werden:
 
-<p class="just-emphasize">**Formularänderung (F5)**</p>
+#### **Formularänderung (F5)**
 
 **Hier kann für die einzelnen Zahlungsbelege die Hausbank, (bei nicht verarbeiteten Zahlungsbelegen) der Empfänger oder das Formular, mit dem der Scheck gedruckt wird, geändert werden. Handelt es sich um SEPA-Zahlungen, so kann auch das Ausführungsdatum hier geändert werden.**
 
@@ -22,7 +22,7 @@ Ein Report kann als Protokoll gedruckt werden:
 
 ![Ein Bild, das Text, Screenshot, Display, Software enthält. KI-generierte Inhalte können fehlerhaft sein.](../../../ImagesExt/image8_653.jpg "Ein Bild, das Text, Screenshot, Display, Software enthält. KI-generierte Inhalte können fehlerhaft sein.")
 
-<p class="just-emphasize">**Anzeige der Zahlungen (F6)**</p>
+#### **Anzeige der Zahlungen (F6)**
 
 Die Zahlungen werden mit den wichtigsten Informationen angezeigt:
 
@@ -30,32 +30,32 @@ Mit &lt; > kann zwischen den Konten geblättert werden.
 
 ![Ein Bild, das Tisch enthält. Automatisch generierte Beschreibung](../../../ImagesExt/image8_654.jpg "Ein Bild, das Tisch enthält. Automatisch generierte Beschreibung")
 
-<p class="just-emphasize">**Drucken** (Strg F9)</p>
+#### **Drucken** (Strg F9)
 
 Über diese Funktion könne Schecks oder Lastschriftformulare ausgedruckt werden.
 
-<p class="just-emphasize">Avise drucken</p>
+#### Avise drucken
 
 Eine Avise kann jederzeit für Zahlungsbelege nachträglich bzw. einzeln gedruckt werden.
 
-<p class="just-emphasize">Zahlungen löschen</p>
+#### Zahlungen löschen
 
 Zahlungen können gelöscht werden. Löscht man sie, bevor sie gedruckt, gebucht oder per DTA weiterverarbeitet wurden, werden die OP's wieder freigeben und die Zahlung gelöscht. Sind sie jedoch schon weiterverarbeitet, so bleibt der offene Posten als gezahlt markiert. Dies ist auch richtig so, da ja der Scheck gedruckt bzw. das DTA durchgeführt wurde und sie somit nicht ein zweites Mal zur Zahlung herangezogen werden sollen. Diese "gesperrten" OPs kann man sich über die Variante **Gesperrte OP's** ansehen und dort gegebenenfalls wieder freigeben. Wenn man diese verarbeiteten Zahlungen so löschen möchte, dass sie sofort wieder zur nächsten Zahlung mit herangezogen werden können geschieht dies durch:
 
-<p class="just-emphasize">Zahlungen zurücksetzen</p>
+#### Zahlungen zurücksetzen
 
 Hier werden Zahlungen gelöscht und die offenen Posten wieder freigegeben, selbst wenn die Zahlung bereits gedruckt bzw. per DTA weiterverarbeitet wurde. Bei bereits gebuchten Zahlungen wird nur die Zahlung gelöscht. Die durch die Übernahme in die Primanota erstellten Zahlungsbelege werden nicht gelöscht. Dies ist nur in der Belegerfassung möglich und dies auch nur so lange, wie der Zahlungsbeleg nicht gebucht ist.
 
-<p class="just-emphasize">Übernahme in die Primanota</p>
+#### Übernahme in die Primanota
 
 bei der [Übernahme in die Primanota](./zahlungsverkehr_uebernahme_in_die_primanota.md) werden aus Zahlungsbelegen Buchungssätze erstellt. Ist der [Steuerparameter 716](../../../firmenstamm/steuerparameter/optionen_finanzwesen/vieraugenprinzip_zahlungen_spa_716.md) „Vieraugenprinzip beim DTA-Verfahren“ gesetzt, steht diese Funktion nur in der Variante „[Zahlungen nach DTA-Laufnr. Vieraugen](./vieraugenprinzip_beim_dta_verfahren.md)“ zur Verfügung.
 
-<p class="just-emphasize">Druckkennzeichen zurücksetzen</p>
+#### Druckkennzeichen zurücksetzen
 
 Bereits gedruckte bzw. per DTA übertragene Zahlungen können nicht ein zweites Mal übertragen werden. Ist man gezwungen dies trotzdem zu tun, kann man die Zahlungen durch zurücksetzen des Druckkennzeichens wieder freigeben, so dass ein erneutes Drucken bzw. Übertragen der Zahlung möglich wird. Dazu wählt man die Funktion ***Duckkennzeichen zurücksetzen*** **F10.**  
     
 
-<p class="just-emphasize">Rücklastschriften</p>
+#### Rücklastschriften
 
 Es kann dazu kommen, dass Lastschriften von der Bank nicht eingelöst werden. Die ursprüngliche Lastschrift muss also mit der Rücklastschrift der Bank verrechnet und die Rechnungen müssen wieder zu OP‘s werden. Es existieren zwei Verfahren, wie man Rücklastschriften behandeln kann:  
     

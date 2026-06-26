@@ -38,7 +38,7 @@ Wenn Sie auf die Seriendruckfelder zugreifen wollen, müssen sie diese Frage mit
 
 <strong><u>ACHTUNG:</u> </strong><em>Alle Änderungen werden erst gespeichert, wenn man beim Beenden des „Serienbrief verwalten“- Dialogs die Frage, ob man die Änderungen speichern will mit <strong>Ja</strong> bestätigt.<strong></strong></em>
 
-<p class="just-emphasize">Importieren:</p>
+#### Importieren:
 
 Wenn man in der Vorgängerversion bereits Word-Dokumente für diese Variante erstellt hatte, so kann man diese in die neue Version übernehmen. Die Funktion „importieren“ erscheint nur in dem Fall, wenn schon Dokumente existierten.
 

@@ -4,7 +4,7 @@
 
 Bei der 64-Bit Version kam es zur vollständigen Auslastung des virtuellen Arbeitsspeichers, was zu Programmabstürzen führte. Dieses wurde nun behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 722269[33823]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/Kasse1.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2306.9, 33823, 722269

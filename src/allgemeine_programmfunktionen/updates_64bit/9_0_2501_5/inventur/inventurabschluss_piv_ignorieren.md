@@ -4,7 +4,7 @@
 
 Beim Inventurende [IVE] kann die Prüfung auf permanente Inventur unterdrückt werden. Das ist allerdings nur sinnvoll, wenn in dem Jahr tatsächlich keine Artikel der permanenten Inventur unterlagen. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 734378[36542]
 
@@ -20,6 +20,6 @@ Funktion/Report: Inventur abschließen
 
 [Weitere Informationen](http://www.amic.de/hilfe/inventurende.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 36542, 734378

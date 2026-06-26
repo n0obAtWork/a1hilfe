@@ -4,7 +4,7 @@
 
 In der Vorgangsbearbeitung wird bei Verwendung der Standard-Teildisposition der OK-Button auf der Maske bei fehlenden Rechten ausgeblendet.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 719006[33327]
 
@@ -20,6 +20,6 @@ Funktion/Report: Teildisposition
 
 [Weitere Informationen](http://www.amic.de/hilfe/!weitereerfassungsmgl.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2302.17, 33327, 719006

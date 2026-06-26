@@ -4,7 +4,7 @@
 
 Für die eRechnung werden nun auch manuelle Artikeltexte aus einem Vorgang übermittelt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 751361[38545]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/!erechnung1.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.8, 38545, 751361

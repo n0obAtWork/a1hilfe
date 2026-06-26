@@ -2,13 +2,13 @@
 
 <!-- source: https://amic.de/hilfe/_endkontrolle_einspielung_kunden.htm -->
 
-<p class="just-emphasize">Neuanlage eines Imports</p>
+### Neuanlage eines Imports
 
 Mit **F8** kann ein neuer Kundenimport angelegt werden.
 
 Mit **F5** können Datensätze, die über den Stammdatenimport ins System gekommen sind, bearbeitet und korrigiert werden.
 
-<p class="just-emphasize">Tabreiter übergreifende Felder</p>
+### Tabreiter übergreifende Felder
 
 | Eingabefelder | Bedeutung |
 | --- | --- |
@@ -29,7 +29,7 @@ Musterkunden werden in **[KU] der Variante Musterkunde angelegt.**
 
 **Der Musterkunde ist ein Pflichtfeld. Aus dem Musterkunden werden sehr viel Daten für den Import genommen.**
 
-<p class="just-emphasize">Tabreiter Adresse</p>
+### Tabreiter Adresse
 
 | Eingabefelder | Bedeutung |
 | --- | --- |
@@ -44,7 +44,7 @@ Musterkunden werden in **[KU] der Variante Musterkunde angelegt.**
 | Telefon | Telefonnummer des Kunden<br> |
 | Telefax | Telefaxnummer des Kunden<br> |
 
-<p class="just-emphasize">Tabreiter Zusatzinfo/Bank</p>
+### Tabreiter Zusatzinfo/Bank
 
 | Eingabefelder | Bedeutung |
 | --- | --- |
@@ -57,7 +57,7 @@ Musterkunden werden in **[KU] der Variante Musterkunde angelegt.**
 | Bankname | Mittels F3 kann der Bankname des Kunden ausgewählt werden.<br> |
 | Bankkonto | Bankkonto des Kunden<br> |
 
-<p class="just-emphasize">Tabreiter FiBu-Daten</p>
+### Tabreiter FiBu-Daten
 
 | Eingabefelder | Bedeutung |
 | --- | --- |
@@ -77,7 +77,7 @@ Musterkunden werden in **[KU] der Variante Musterkunde angelegt.**
 
 Die Forderungsgruppe ist ein Pflichtfeld beim Kunden und muss ausgefüllt sein, damit der Import funktioniert. Ansonsten gibt es beim Import den Fehler, dass die Daten nicht plausibel sind.
 
-<p class="just-emphasize">Tabreiter Vorgangs-Daten</p>
+### Tabreiter Vorgangs-Daten
 
 | Eingabefelder | Bedeutung |
 | --- | --- |
@@ -93,7 +93,7 @@ Die Steuergruppe ist ein Pflichtfeld beim Kunden und muss ausgefüllt sein, dami
 
 Wenn man mit den Daten aller zu importierenden Kunden einverstanden ist, dann wählt man im Rechtemaustastenmenü die Funktion *\-> A.eins Kunden* aus und startet den Import.
 
-<p class="just-emphasize">Importprozeduren</p>
+### Importprozeduren
 
 Für den Import sind die Prozeduren *amic_kunden_insupd* und *amic_muster_kunden_abgleich* verantwortlich.
 

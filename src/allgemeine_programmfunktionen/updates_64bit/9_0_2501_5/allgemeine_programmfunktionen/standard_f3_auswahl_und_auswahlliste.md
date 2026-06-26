@@ -4,7 +4,7 @@
 
 Die neue F3-Auswahl mit fester Fensterposition wurde als Standard festgelegt, wenn sie beim Bediener "Standard Programmvorgabe" unter "Version F3-Auswahl"eingetragen ist. Bei der Neuanlage von Bedienern wird die neue Auswahlliste als Standard eingestellt. Die Vorbelegung des Suchkriteriums kann jetzt auch über die Schlüsselwörter ITEM1 und ITEM2 geschehen.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 739402[35977]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_kundenindividuellesq.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 35977, 739402

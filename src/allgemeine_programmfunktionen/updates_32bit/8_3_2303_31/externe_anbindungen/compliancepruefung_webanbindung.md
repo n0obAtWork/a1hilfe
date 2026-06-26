@@ -4,7 +4,7 @@
 
 Das von uns ausgelieferte Modul "Sanktionsliste" wurde ergänzt, da die Complianceprüfung ab dem 01.02.2023 ein anderes Sicherheitsprotokoll erwartet.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 720381[33486]
 
@@ -20,6 +20,6 @@ Funktion/Report: n/a
 
 [Weitere Informationen](http://www.amic.de/hilfe/_compliancesfs1.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2303.31, 33486, 720381

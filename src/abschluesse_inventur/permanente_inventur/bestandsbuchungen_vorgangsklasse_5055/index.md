@@ -4,7 +4,7 @@
 
 Es ist sicherzustellen, dass nach dem Zeitpunkt der Erstellung dieses Beleges keine weiteren Zu- oder Abgangsbuchungen an dem aktuellen Tag erstellt werden.
 
-<p class="just-emphasize">Hinweis:</p>
+**Hinweis:**
 
 Voraussetzung für die Anwendung dieser Differenzkorrektur ist, dass alle offenen Belege zum Zeitpunkt der Inventur gebucht wurden. Eine spätere Erfassung oder Veränderung von Lieferungen vor dem Inventurzeitpunkt ist nicht erlaubt.
 
@@ -18,27 +18,27 @@ Ausnahmen bedeuten eine definierte Handlungsanweisung:
 
 4. Es muss ein Beleg nach der Zählung erfasst werden – Die zum erfassten Beleg gehörenden Artikel müssen in der Inventurzählung entsprechend korrigiert oder erneut gezählt werden.
 
-<p class="just-emphasize">Hinweis:</p>
+**Hinweis:**
 
 Es ist dringend empfohlen, dass Artikel nur mit Partie oder komplett ohne Partie geführt werden. Differenzmengenerfassungen für Artikel ohne Partieangabe werden zu Fehlinterpretationen des Systems führen, wenn es zu dem Artikel parallel Partiebestände gibt!
 
 Nähere Informationen zum technischen Ablauf von Buchungen von Artikeln und Partien entnehmen Sie dem Abschnitt [techn. Informationen Buchungen](./techn_informationen_buchungen.md)
 
-<p class="just-emphasize">Mengenbuchung</p>
+### Mengenbuchung
 
 Die erfasste Menge wird dem zum Zeitpunkt der Erfassung festgestellten Soll-Bestand gegenübergestellt.
 
-<p class="just-emphasize">Wertbuchung</p>
+### Wertbuchung
 
 In Abhängigkeit des [SPA 1072 – Bewertungsverhalten permanente Inventur](../../../firmenstamm/steuerparameter/mde_prozeduren_einzelhandel_spa_1059/permanente_inventur_bewertungsverhalten_spa_1072.md) wird die Inventur an dieser Stelle bewertet (**0**) oder die Bewertung wird erst am Jahresende (**1**) vorgenommen werden.
 
 Die Ware wird hier mit dem aktuellen Bewertungspreis ausgebucht und mit dem eingegebenen (**0**) bzw. aktuellen Bewertungspreis (**1**) eingebucht.
 
-<p class="just-emphasize">FiBu-Buchung</p>
+### FiBu-Buchung
 
 Vor der Einstellung in die FiBu muss sichergestellt sein, dass ein gültiger Einbuchpreis angegeben wurde. Ein Preis **0** muss, wenn er gewollt ist als NULLPREIS gekennzeichnet sein.
 
-<p class="just-emphasize">Buchung nach Buchungsschluss</p>
+### Buchung nach Buchungsschluss
 
 Es kann vorkommen, dass am Ende des Geschäftsjahres die Buchungsperiode zur Sicherheit abgeschlossen wird, um versehentliche weitere Buchungen in dieser Periode zu vermeiden. In diesem Fall würde auch der Bestandsbuchungsbeleg nicht vom LVS aus erzeugt werden können.
 

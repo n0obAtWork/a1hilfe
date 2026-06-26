@@ -10,7 +10,7 @@ In diesem Stammdatenpfleger werden Besatzarten gepflegt, diese werden in Fruchta
 
 Im Labormodul werden Besatzarten bei einigen Labor-Verfahren angewandt.
 
-<p class="just-emphasize">Erfassungsmaske</p>
+#### Erfassungsmaske
 
 Es stehen folgende Eingabefelder und Eingabemöglichkeiten zur Verfügung.
 

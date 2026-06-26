@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/dieerfassungsmaske.htm -->
 
-<p class="just-emphasize">Kopfdaten</p>
+### Kopfdaten
 
 Im Kopf wird Ihnen die Partienummer und die Datensatznummer angezeigt.
 
@@ -20,7 +20,7 @@ Ist ein Belegtyp abgerechnet, so kann dafür zwar ein Wert eingetragen werden, e
 
 Existiert ein Datensatz für eine höhere Stufe (z.B. Finale) beim Erstellen eines Labordatensatzes (z.B. für Abschlag), so erhalten Sie eine Warnung, denn die Laborergebnisse werden dann beim Beleg der niedrigeren Stufe berücksichtigt, werden jedoch bei der Erstellung des höheren Beleges (hier Finale) durch andere Werte ersetzt.
 
-<p class="just-emphasize">Labordaten</p>
+### Labordaten
 
 In einer Liste werden Ihnen die Labordaten mit ihrer Qualitätsnummer, der Bezeichnung und einem Analysewertefeld angezeigt. In letzteres können Sie bei Änderung und Neuerfassung Daten eingeben.
 

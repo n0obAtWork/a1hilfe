@@ -70,6 +70,6 @@ In der Maske lassen sich folgende Werte eintragen
   </table>
 </div>
 
-<p class="just-emphasize">Steuergruppennummer</p>
+### Steuergruppennummer
 
 Eine USt-IdNr kann mehrere Steuergruppen haben. Ist das der Fall, können sie in der unteren Tabelle eingegeben werden.

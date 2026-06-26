@@ -14,7 +14,7 @@ Die Unterscheidung wird hier getroffen zwischen:
 
 [Zahlung](../zahlung_in_den_verschiedenen_kassensystemen/zahlungen_mit_der_klassischen_zahlungsmaske/index.md)
 
-<p class="just-emphasize">Achtung:</p>
+#### Achtung:
 
 Ein Wechsel des Barverkaufs in eine Rechnung ist nur sinnvoll, wenn vor der Erfassung des Positionsteiles die Kundennummer angegeben wurde.
 

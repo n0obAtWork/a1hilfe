@@ -31,7 +31,7 @@ Mit dieser Anwendung können Importe für Kunde, Artikel und Artikelpreise durch
 
  
 
-<p class="just-emphasize">Neuanlage eines Imports</p>
+### Neuanlage eines Imports
 
 Mit ***Neu*** oder **F8** kann ein neuer Import angelegt werden.
 
@@ -52,7 +52,7 @@ Es gibt drei Arten des Imports
 | Scripttyp | Hier wird der Scripttyp eingetragen zur Auswahl stehen.<br>1. SQL Script<br>2. A.eins Makro<br> |
 | Importdatei löschen | Soll die Importdatei nach dem erfolgreichen Import gelöscht werden.<br> |
 
-<p class="just-emphasize">Endkontrolle für den Stammdatenimport</p>
+### Endkontrolle für den Stammdatenimport
 
 Hauptmenü > Externe Kommunikation > Stammdatenimport > Endkontrolle/Einspielung Artikel
 

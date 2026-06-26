@@ -4,7 +4,7 @@
 
 Mit der Anwendung Menü [MENU] ist es möglich Systemmeldungen im Hauptmenü auszugeben. Darüber hinaus wurde die Möglichkeit geschaffen, diese Meldungen auch als Popup unten rechts am Bildschirm auszugeben. Hierzu muss man bei der Einrichtung im Feld Desktop "Ja" auswählen. Dies hat den Vorteil, dass diese Meldungen sichtbar sind, ohne dass man sich im Hauptmenü befindet. Unter gewissen Konstellation konnte es vorkommen, dass die Meldungen ohne ersichtlichen Grund aufpoppten. Das Verhalten wurde korrigiert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 726067[34136]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/hauptmensystemmeldebereich.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.1, 34136, 726067

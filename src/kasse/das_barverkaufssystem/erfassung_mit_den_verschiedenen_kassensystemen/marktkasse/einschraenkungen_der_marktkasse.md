@@ -6,35 +6,35 @@ Die Marktkasse ist ein Barverkaufssystem, das auf die Verwendung von Berührungs
 
 Aus diesem Grund fehlen der Marktkasse einige Funktionen, die im Bereich der Belegerfassung möglich sind.
 
-<p class="just-emphasize">Gebindebehandlung</p>
+#### Gebindebehandlung
 
 Gebindeartikel sorgen in der allgemeinen Belegerfassung dafür, dass ein Gebindedialog geöffnet wird, der die Gebindefaktoren erfasst und daraus eine Menge errechnet.
 
 In der Marktkasse sind hier die Endmengen anzugeben. Also statt 6 Kanister à 10 Liter müssen hier 60 Liter angegeben werden.
 
-<p class="just-emphasize">Merkmal-Leiste</p>
+#### Merkmal-Leiste
 
 Die Merkmalleiste aus der allgemeinen Belegerfassung ist hier nicht verfügbar
 
-<p class="just-emphasize">AddOn</p>
+#### AddOn
 
 AddOn-Felder, die zur Erfassung weiterer Informationen zur Warenbewegung in VorgangAddOn oder WarenbewegungAddOn dienen werden hier nicht unterstützt. Als Workaround siehe auch AIS.
 
-<p class="just-emphasize">AIS</p>
+#### AIS
 
 AIS-Felder, die der Erfassung eigener Daten dienen, werden hier ebenfalls nicht unterstützt. AIS wird als Werkzeug zur dynamischen Erzeugung der Erfassungsmaske verwendet. Sie können an drei Stellen während der Erfassung einen selbst definierten Dialog öffnen, um Daten zu erfassen. Hier können Eingabefelder, jedoch keine Tabellen (Grids) verwendet werden.
 
-<p class="just-emphasize">Mengenstaffeln</p>
+#### Mengenstaffeln
 
 Mengenstaffeln dienen in der allgemeinen Belegerfassung dazu, Preise für unterschiedliche Mengen in Staffeln festzulegen. Diese sind in der Marktkasse derzeit nicht möglich.
 
-<p class="just-emphasize">Partien</p>
+#### Partien
 
 Partien werden in der Standardeinstellung in der Marktkasse im Gegensatz zur allgemeinen Belegererfassung nicht zugeordnet.
 
 - Partien können gemäß Behandlungsschema bei einem Kundenwechsel zugeordnet werden, jedoch wird nach einem Kundenwechsel für nachfolgend erfasste Positionen keine Partiezuordnung vorgenommen.
 
-<p class="just-emphasize">Kontrakte</p>
+#### Kontrakte
 
 Kontrakte sind an Kunden gebundene Vereinbarungen über Artikelmengen und deren Preise. Während der Erfassung in der Marktkasse werden Kontrakte in der Standard-Einstellung nicht berücksichtigt.
 

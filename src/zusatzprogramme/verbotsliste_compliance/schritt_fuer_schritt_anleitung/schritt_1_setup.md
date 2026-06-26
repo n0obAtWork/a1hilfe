@@ -16,11 +16,11 @@ Mit dem Direktsprung **[SPA]** gelangt man in die Übersicht der Steuerparameter
 
 ![](../../../ImagesExt/image8_1388.jpg)
 
-<p class="just-emphasize">SPA 707:</p>
+### SPA 707:
 
 Dieser Steuerparameter ist die Lizenz für dieses Modul und nach dem Erwerb zu aktivieren.
 
-<p class="just-emphasize">SPA 1063:</p>
+### SPA 1063:
 
 Der Steuerparameter 1063 für das Compliancemodul beinhalten Prozeduren, welche die Abfragen der Adress/Personendaten beeinflussen. Da diese in der Komplexität recht anspruchsvoll werden können, muss dies von unserem Amic Support angepasst werden.
 
@@ -44,7 +44,7 @@ Als Standardbeispiel wird hier die Prozedur „AMIC_DEMO_COMPLIANCE_CYCLE_CHECK�
 
 ![Ein Bild, das Tisch enthält. Automatisch generierte Beschreibung](../../../ImagesExt/image8_1389.jpg "Ein Bild, das Tisch enthält. Automatisch generierte Beschreibung")
 
-<p class="just-emphasize">SPA 824:</p>
+### SPA 824:
 
 Der Steuerparameter 824 gibt an, wie viele Tage A.eins die Adress/Personendaten nicht erneut prüft, wenn diese bereits positiv waren.
 

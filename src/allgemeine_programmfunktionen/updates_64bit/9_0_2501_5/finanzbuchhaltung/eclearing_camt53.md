@@ -4,7 +4,7 @@
 
 Im CAMT63 - Format können mehrere Zeilen Verwendungszweck vorhanden sein. Dies wird jetzt beim Import berücksichtigt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 737152[35637]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_eclearing.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 35637, 737152

@@ -4,7 +4,7 @@
 
 Die Felder BT-14, BT-17 und BT-18 werden nun auch im eRechnungs-Export ausgegeben
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 740922[36257]
 
@@ -20,6 +20,6 @@ Funktion/Report: eRechnung exportieren
 
 [Weitere Informationen](http://www.amic.de/hilfe/erechnungexport.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.10, 36257, 740922

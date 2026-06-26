@@ -12,7 +12,7 @@ Anhand des Scancodes weiß der Scanner welchen Erfassungsmodus er starten soll.
 
 Die Scancodes werden als EAN 128 Code verschlüsselt eingescannt.
 
-###### Standard System Scancodes
+### Standard System Scancodes
 
 Die Standard System Scancodes sind für die Navigation in der Anzeige auf dem MDE (**M**obile **D**aten**e**rfassung) Gerät.
 
@@ -88,7 +88,7 @@ Es werden folgende Standard System Scancodes angelegt:
   </table>
 </div>
 
-###### Standard Einrichtung Inventur / Inventur LVS
+### Standard Einrichtung Inventur / Inventur LVS
 
 Bei Standard Einrichtung für die Inventur / Inventur LVS werden die unten genannten Scancodes angelegt.
 
@@ -104,7 +104,7 @@ Die Standard AI-Zuordnung ist in beiden Erfassungsvorgängen gleich.
 | LVSIV |
 | LVSIVENDE |
 
-<p class="just-emphasize">AI-Zuordnung für die Inventur / Inventur LVS</p>
+### AI-Zuordnung für die Inventur / Inventur LVS
 
 | AI-Nr. | Application Identifier | Gruppe | Typ | Optional |
 | --- | --- | --- | --- | --- |
@@ -122,7 +122,7 @@ Die Standard AI-Zuordnung ist in beiden Erfassungsvorgängen gleich.
 | 3103 | Nettogewicht in Kilogramm (EAN128) | 2 | Inventur-Start / LVS Inventur | Nein |
 | 3104 | Nettogewicht in Kilogramm (EAN128) | 2 | Inventur-Start / LVS Inventur | Nein |
 
-###### Standard Einrichtung Eingangslieferscheine / Bestellungserfassung
+### Standard Einrichtung Eingangslieferscheine / Bestellungserfassung
 
 Bei der Standard Einrichtung für die Eingangslieferscheine / Bestellungserfassung werden die unten genannten Scancodes angelegt. Die Standard AI-Zuordnung ist in beiden Erfassungsvorgängen gleich.
 
@@ -141,7 +141,7 @@ Bei der Standard Einrichtung für die Eingangslieferscheine / Bestellungserfassu
 | LI |
 | LIENDE |
 
-###### Standard Einrichtung Auftrag / Bestellung / Teildisponierung / Retoure / Lagerumbuchung
+### Standard Einrichtung Auftrag / Bestellung / Teildisponierung / Retoure / Lagerumbuchung
 
 Bei der Standard Einrichtung für Auftrag / Bestellung / Teildisponierung / Lagerumbuchung werden die unten genannten Scancodes angelegt.
 
@@ -178,7 +178,7 @@ Die Standard AI-Zuordnung ist in allen Erfassungsvorgängen gleich.
 | AUR |
 | AURENDE |
 
-<p class="just-emphasize">AI-Zuordnung Auftrag / Bestellung / Teildisponierung / Lagerumbuchung</p>
+### AI-Zuordnung Auftrag / Bestellung / Teildisponierung / Lagerumbuchung
 
 | AI-Nr. | Application Identifier | Gruppe | Typ | Optional |
 | --- | --- | --- | --- | --- |
@@ -196,7 +196,7 @@ Die Standard AI-Zuordnung ist in allen Erfassungsvorgängen gleich.
 | 3103 | Menge in Kg(EAN128) | 2 | Kommission-Start/ Bestellung Start/ Strecke/Teildispo Start/ Lagerumbuchung Start | Nein |
 | 3104 | Menge in Kg(EAN128) | 2 | Kommission-Start/ Bestellung Start/ Strecke/Teildispo Start/ Lagerumbuchung Start | Nein |
 
-###### Standard Einstellung Produktion
+### Standard Einstellung Produktion
 
 Bei der Standard Einrichtung für die Produktion werden die unten genannten Scancodes angelegt.
 
@@ -214,7 +214,7 @@ Bei der Produktion gibt es keine AI-Zuordnung.
 | PRODENDE |
 | STOP |
 
-###### Standard Einrichtung Lagerverwaltungssystem
+### Standard Einrichtung Lagerverwaltungssystem
 
 Bei der Standard Einrichtung für das Lagerverwaltungssystem werden die unten genannten Scancodes angelegt.
 
@@ -246,7 +246,7 @@ Bei dem Lagerverwaltungssystem gibt es keine AI-Zuordnung.
 | MAIP |
 | AUSWIEGEN |
 
-###### Standard Einrichtung Labor
+### Standard Einrichtung Labor
 
 Bei der Standard Einrichtung für das Labor werden die unten genannten Scancodes angelegt. 
 
@@ -263,7 +263,7 @@ Bei dem Labor gibt es keine AI-Zuordnung.
 | PTKM |
 | PRE |
 
-###### Standard Einrichtung Ladescheinbearbeitung
+### Standard Einrichtung Ladescheinbearbeitung
 
 Bei der Standard Einrichtung für Ladeschein wird der unten genannten Scancode angelegt.
 
@@ -278,7 +278,7 @@ Die Standard AI-Zuordnung ist in allen Erfassungsvorgängen gleich.
 | LAB |
 | LABENDE |
 
-<p class="just-emphasize">AI-Zuordnung Auftrag / Bestellung / Teildisponierung / Lagerumbuchung</p>
+### AI-Zuordnung Auftrag / Bestellung / Teildisponierung / Lagerumbuchung
 
 | AI-Nr. | Application Identifier | Gruppe | Typ | Optional |
 | --- | --- | --- | --- | --- |

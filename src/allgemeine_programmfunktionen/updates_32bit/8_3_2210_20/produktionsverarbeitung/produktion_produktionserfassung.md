@@ -4,7 +4,7 @@
 
 Bei der Produktionserfassung war es möglich die Felder für Menge und Preis vor der Eingabe des Rezeptes zu pflegen. Dies führte zu falschen Anteilen bei den Komponenten. Die Eingabe von der Menge oder dem Preis vor Eingabe der Rezeptnummer ist jetzt nicht mehr möglich.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 714134[32788]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_erfassungproduktion.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2210.20, 32788, 714134

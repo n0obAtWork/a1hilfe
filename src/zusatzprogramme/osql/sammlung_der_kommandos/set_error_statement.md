@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/seterrorstatement.htm -->
 
-<p class="just-emphasize">Syntax</p>
+#### Syntax
 
 SET ERROR &#124; CONTINUE &#124;
 
@@ -12,23 +12,23 @@ SET ERROR &#124; CONTINUE &#124;
 
  &#124; NODISPLAY &#124;
 
-<p class="just-emphasize">Purpose</p>
+#### Purpose
 
 Beeinflussung des Verhaltens bei Fehlern.
 
-<p class="just-emphasize">Anwendung</p>
+#### Anwendung
 
 Kommandodatei, Befehlszeile
 
-<p class="just-emphasize">Berechtigung</p>
+#### Berechtigung
 
 Alle Anwender
 
-<p class="just-emphasize">Siehe auch</p>
+#### Siehe auch
 
 [CONTINUE](./continue_statement.md), [SET OUTERR](./set_outerr_statement.md)
 
-<p class="just-emphasize">Beschreibung</p>
+#### Beschreibung
 
 Mit SET ERROR kann das allgemeine Verhalten bei SQL – Fehlern eingestellt werden.
 
@@ -42,7 +42,7 @@ SET ERROR DISPLAY ==> Fehlerbildschirm wird angezeigt. Dies ist
 
 SET ERROR NODISPLAY ==> Keine Anzeige von Fehlermeldungen.
 
-<p class="just-emphasize">Beispiel</p>
+#### Beispiel
 
 SET ERROR CONTINUE;
 

@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_inventurstammpfleger.htm -->
 
-<p class="just-emphasize">Hinweis</p>
+**Hinweis**
 
 Folgende Angaben sind wichtig:
 
@@ -21,7 +21,7 @@ Erhebung am: Erhebungsdatum
 <details>
 <summary>Felder des Inventurstamm-Pflegers</summary>
 
-<p class="just-emphasize">Identifikation</p>
+### Identifikation
 
 | Feld | Beschreibung |
 | --- | --- |

@@ -4,7 +4,7 @@
 
 Neben den allgemeinen Stammdaten des Zahlungsverkehrs sind für den Auslandszahlungsverkehr folgende Stammdaten zu pflegen bzw. zu überprüfen.
 
-<p class="just-emphasize">Bankenstamm</p>
+### Bankenstamm
 
 Hauptmenü > Finanzbuchhaltung > Stammdaten > [Bankenstamm](../stammdaten_zahlungsverkehr/bankenstamm.md)
 
@@ -19,7 +19,7 @@ Im Bankenstamm müssen die Felder **Staat** und **Swift/BIC** gepflegt werden. D
 
 Die im Bankenstamm existierende Funktion "**Banken aktualisieren**" trägt den BIC nach. Sollte der BIC für Auslandsbanken nicht bekannt sein, erfragen Sie diese beim Zahlungsempfänger. Bei Auslandsbanken existiert für gewöhnlich keine Bankleitzahl. Da die Bankleitzahl jedoch als Schlüssel dient, muss hier ein erdachter Wert eingetragen werden.
 
-<p class="just-emphasize">Währungsstamm</p>
+### Währungsstamm
 
 Hauptmenü > Finanzbuchhaltung > Stammdaten > [Währungsstamm](../../stammdaten_der_fibu/waehrungsstammdaten/waehrungsstamm/index.md)
 
@@ -28,7 +28,7 @@ Direktsprung **[WAE]**
 Die dreistellige ISO-Währungsbezeichnung muss eingetragen sein. Von der "International Standardization Organisation" wird eine aus drei Buchstaben bestehende Kennung für die verschiedenen internationalen Währungen festgesetzt.  
 Die beiden ersten Buchstaben stehen für das Länderkürzel (beispielsweise DE für Deutschland, NL für Niederlande, IT für Italien, etc.) und der dritte Buchstabe für die Landeswährung (M für Mark, G für Gulden, L für Lira, etc.), woraus sich z. B. für Deutschland DEM, für Holland NLG und für Italien ITL zusammensetzt. 
 
-<p class="just-emphasize">Staatstamm</p>
+### Staatstamm
 
 Hauptmenü > Stammdatenpflege > Allgemeine Stammdaten > Staatstamm
 
@@ -36,7 +36,7 @@ Direktsprung **[STAAT]**
 
 Der zweistellige ISO-CODE sowie die Kurzbezeichnung laut Länderverzeichnis für Zahlungsbilanzstatistik müssen gepflegt werden. Hat man den ISO-CODE bereits gepflegt, kann man die Daten der neu hinzugekommenen Kurzbezeichnung nachtragen lassen .
 
-<p class="just-emphasize">Hausbankenstamm</p>
+### Hausbankenstamm
 
 Hauptmenü > Finanzbuchhaltung > Stammdaten > [Hausbanken](../stammdaten_zahlungsverkehr/hausbanken.md)
 
@@ -44,7 +44,7 @@ Direktsprung **[BNKH]**
 
 In **Währung** muss jetzt die Währung in der das Konto geführt wird, eingetragen werden. Die Felder **Auftraggeber DTA, AuslandsDTA Name, AuslandsDTA Str., AuslandsDTA Ort** und **Ansprechpartner** müssen gepflegt werde. Mit der Angabe einer Telefonnummer beim Ansprechpartner ermöglicht man der Deutschen Bundesbank, Rückfragen schnell zu klären
 
-<p class="just-emphasize">Kennzahlen für DTAZV</p>
+### Kennzahlen für DTAZV
 
 Hauptmenü > Mahn-,Zahl-, Zinswesen > Stammdaten > Kennzahlen für DTAZV
 
@@ -60,7 +60,7 @@ Hinweise finden Sie in der Homepage der Deutschen Bundesbank (www.Bundesbank.DE 
 
 Die Kennzahlen werden nach **Belegart** ( Dienstleistung oder Kapitaltransaktion ) unterschieden. **Beschreibung** ist eine textliche Erläuterung der Bedeutung. Unter **Zu übernehmende Angaben für DTAZV** kann man eine Vorbelegung für die in den Meldedatensätzen anzugebenden näheren Angaben machen.
 
-<p class="just-emphasize">Auslandskunden</p>
+### Auslandskunden
 
 Hauptmenü > Stammdaten > Konstanten Kundenstamm > [Auslandskunden](../../../kunden_und_lieferanten/konstanten_bearbeitung/auslandskunden.md)
 
@@ -72,7 +72,7 @@ Hier werden die Kunden erfasst, bei denen die OP's sofort als Auslands-OP gekenn
 
 Die hier hinterlegte Zahlungsart wird als Vorbelegung für den Auslands-OP herangezogen.
 
-<p class="just-emphasize">Kundenbank</p>
+### Kundenbank
 
 Hauptmenü > Stammdaten > Kunden-/Lieferanten > Kundenstamm bzw. Lieferantenstamm
 

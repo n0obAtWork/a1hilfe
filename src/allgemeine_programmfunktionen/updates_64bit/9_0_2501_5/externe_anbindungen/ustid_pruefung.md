@@ -4,7 +4,7 @@
 
 Die Prüfung aller UST-IDs im Kundenstamm führte zu einer Fehlermeldung. Dies wurde berichtigt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 744146[36384]
 
@@ -20,6 +20,6 @@ Funktion/Report: USt-IdNr alle prüfen
 
 [Weitere Informationen](http://www.amic.de/hilfe/_umsatzsteueridprfung.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 36384, 744146

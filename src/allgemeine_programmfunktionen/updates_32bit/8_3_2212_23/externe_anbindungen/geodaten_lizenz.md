@@ -4,7 +4,7 @@
 
 Das Lizenzpflichtige Modul "Geodaten" wird ab nun vollumfänglich auf das Vorhandensein einer gültigen Lizenz geprüft. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 717752[33280]
 
@@ -20,6 +20,6 @@ Funktion/Report: diverse Funktionen wie Google Maps und Karte
 
 [Weitere Informationen](http://www.amic.de/hilfe/_SPA_856.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2212.23, 33280, 717752

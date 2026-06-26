@@ -26,7 +26,7 @@ Die Besonderheit der Devisenkonten sind die entstehenden Kursdifferenzen und das
 | Zahlung einer Rechnung | 47.939,79 | 4,1719 | 200.000,00 |
 | Zahlung einer Rechnung | 36.035,17 | 4,1626 | 150.000,00 |
 | Differenz | 16.025,04 | | 46.460,00 |
-| Bewertung Perioden | 11.127,61 | ç 4,1752 | 46.460,00 |
+| Bewertung Perioden | 11.127,61 | 4,1752 | 46.460,00 |
 | Kursdifferenz | 4.897,43 | | 0,00 |
 
 Am Ende der Periode befinden sich also noch 46.460,00 PLN auf dem Devisenkonto. Diese werden dann mit dem Tageskurs laut den in A.eins eingetragenen Währungskursen bewertet. Im obigen Beispiel also mit einem Kurs von 4,1752 was somit 11.127,61 Euro ergibt. Laut Eurokontoführung hätten jedoch noch 16.025,05 Euro auf dem Konto sein müssen. Die Differenz aus diesen beiden Werten ist dann die auszubuchende Kursdifferenz.

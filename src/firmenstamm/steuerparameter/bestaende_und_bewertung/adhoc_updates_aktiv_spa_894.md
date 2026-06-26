@@ -12,6 +12,6 @@ Hier kann für verschiedene Bereiche in A.eins festgelegt werden, ob AdHoc-Updat
 | Partie | Partiebestände |
 | Produktion | AdHoc-Updates durch Komponenten oder Produkte der Produktion |
 
-<p class="just-emphasize">Hinweis:</p>
+**Hinweis:**
 
 Bitte beachten Sie, dass diese Steuerungsparameter NUR verändert werden dürfen, wenn der Mandantenserver alle Belege abgearbeitet hat und während der Änderung keine neuen Belege entstehen (Betriebsruhe), da sonst erstellte AdHoc-Updates nicht zurückgesetzt werden und Bestandsangaben falsch dargestellt werden.

@@ -4,7 +4,7 @@
 
 Dieser Beleg dient dazu einen Teil der im Kontrakt vereinbarten Gesamtmenge beim Lieferanten anzufordern. Er gibt dem Lieferanten sozusagen grünes Licht für die Lieferung und enthält genaue Mengen und Terminangaben.
 
-<p class="just-emphasize">Sprachabhängigkeit</p>
+### Sprachabhängigkeit
 
 Welche Felder gepflegt werden müssen, um die Sprachabhängigkeit nutzen zu können liest man unter  
 [Sprache der Reporte](./sprache_der_reporte.md).

@@ -6,7 +6,7 @@ Ein Lieferavis ist die Ankündigung eines [Lager](http://de.wikipedia.org/wiki/L
 
 Mitteilung über die voraussichtliche Ankunft der Ware beim Empfänger. Das Lieferavis enthält den voraussichtlichen Ankunftstermin, die Mengen und die Materialien bzw. Dienstleistungen.
 
-<p class="just-emphasize">Sprachabhängigkeit</p>
+### Sprachabhängigkeit
 
 Welche Felder gepflegt werden müssen, um die Sprachabhängigkeit nutzen zu können liest man unter  
 [Sprache der Reporte](./sprache_der_reporte.md).

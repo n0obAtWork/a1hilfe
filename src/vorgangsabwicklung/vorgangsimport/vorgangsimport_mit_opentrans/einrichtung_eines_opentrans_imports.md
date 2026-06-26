@@ -4,7 +4,7 @@
 
 Externe Kommunikation > openTRANS > openTRANS
 
-Direktsprung [OT]
+**Direktsprung [OT]**
 
 In der Variante Importprofile finden Sie die Einstellungsmöglichkeiten für die Importe.
 

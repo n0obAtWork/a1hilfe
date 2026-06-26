@@ -9,11 +9,11 @@ Bei der Lagerplatzkennzeichnung kann es folgende Warenauszeichnungen geben:
 - Partiekennung am Karton / Ware
 - Artikelnummer
 
-###### Zuordnung von Lagerplätzen
+### Zuordnung von Lagerplätzen
 
 Das Addon-Feld „Lagerplatz“ wird beim Scannen des Artikels und des Regals automatisch aufgefüllt, wenn dieser unterschiedlich ist.
 
-###### Artikeleingabe
+### Artikeleingabe
 
 Im folgenden Beispiel gehen wir davon aus, dass die Artikelnummer in einer Länge von 5 bis 8 Stellen vorliegt. Die Kennzeichnung einer Partie wird über die Partieidentifikation als Code128 Barcode dargestellt (als Precode den Textkürzel PID), die Karton als GS1-Code128 oder Warenkennzeichnung als EAN 13.
 
@@ -45,11 +45,11 @@ Gibt es einen weiteren Artikel der gleichen Art z.B.02866**T** kann man mit den 
 
 **![](../../../../ImagesExt/image8_1414.png)**
 
-###### Karton scannen
+### Karton scannen
 
 Wird der GS1- Code128 am Karton gescannt, wird der Artikel und die Partie ermittelt. Wird die Partienummer erkannt, wird diese grün markiert. Bei Nichterkennen der Partienummer wird die erste Partie markiert.
 
-###### Regal scannen
+### Regal scannen
 
 Mit der Regalscannung kann man ermitteln, welche einzelnen Partien in einem Regalfach vorhanden sind.
 
@@ -59,7 +59,7 @@ Wird ein Kommissionier-Regal gescannt, wie der zugehörige Auftrag angezeigt:
 
 ![](../../../../ImagesExt/image8_1414.png)
 
-###### Hinweis
+**Hinweis**
 
 Die als Kommissionierplätze gekennzeichneten Regale (siehe auch Regaltyp) sind genauso per Inventur bebuchbar, wie all die anderen Regalplätze. Hier gilt aber folgende Regel:
 

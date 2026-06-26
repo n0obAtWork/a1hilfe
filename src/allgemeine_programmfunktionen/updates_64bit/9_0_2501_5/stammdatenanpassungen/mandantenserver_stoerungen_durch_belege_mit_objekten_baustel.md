@@ -4,7 +4,7 @@
 
 Bei der Bearbeitung von Belegen mit Objekt(Baustelle) konnte der Mandantenserver abstürzen. Dieser Fehler wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 741654[36410]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_baustelle.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 36410, 741654

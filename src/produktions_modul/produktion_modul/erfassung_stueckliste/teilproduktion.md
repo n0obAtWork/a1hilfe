@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_teilprod.htm -->
 
-<p class="just-emphasize">Startbedingungen</p>
+#### Startbedingungen
 
 Die Funktionalität der Teilproduktion ist sowohl von einem Produktionsauftrag, wie auch von einem Produktionsangebot aus möglich. Der Auftrag (bzw. das Angebot) muss folgende Kriterien erfüllen:
 
@@ -11,7 +11,7 @@ Die Funktionalität der Teilproduktion ist sowohl von einem Produktionsauftrag, 
 - Es darf nur ein Element ausgewählt sein um es umzuwandeln.
 - Die Mengenkontrolle wird **dringend empfohlen**. Ansonsten werden die Komponenten nicht mitkalkuliert.
 
-<p class="just-emphasize">Funktionalität</p>
+#### Funktionalität
 
 Ausgehend von einem Produktionsauftrag/-angebot gibt es den Schalter Teilproduktion melden. Es wird die folgende Maske geöffnet.
 
@@ -26,11 +26,11 @@ Hier können nun folgende Felder gepflegt werden:
 
 Zum Abschließen mit [F9] speichern.
 
-<p class="just-emphasize">Storno</p>
+#### Storno
 
 Wird eine per Teilproduktion erzeugte Produktion storniert, so wird diese standardmäßig auf den Auftrag beziehungsweise das Angebot zurückgebucht. Die Rückbuchung geht jedoch nur solange, wie die Ausgangsproduktion (Angebot/Auftrag) noch nicht selbst in eine Produktion umgewandelt wurde.
 
-<p class="just-emphasize">UFLD</p>
+#### UFLD
 
 Es gibt die Möglichkeit beim Angebot/Auftrag das Buchverhalten einzurichten. Die Optionen sind:
 

@@ -32,13 +32,13 @@ Bekanntermaßen ändert sich der Aufbau der Umsatzsteuervoranmeldung fast jährl
 
 Für die Anwender ist es notwendig, am Ende eines Kalenderjahres bzw. vor der ersten Voranmeldung im neuen Kalenderjahr eine aktuelle A.eins-Version zu installieren.
 
-Stammdaten für ELSTER
+**Stammdaten für ELSTER**
 
 Die Ermittlung der Werte für die Umsatzsteuervoranmeldung mit ELSTER erfolgt wie bereits für das Umsatzsteuervoranmeldungsformular über die im Steuersatz eingerichteten [Auswertungspositionen](./steuersaetze_einrichten/stammdaten_auswertungspositionen.md).
 
 Zusätzlich sind Stammdaten im Mandantenstamm zu beachten. Dort gibt es ein neues Feld „Finanzamt-Nummer“. Hier ist die Nummer ihres Finanzamtes einzutragen. Eine aktuelle Liste der Finanzämter und ihrer zugehörigen Nummern kann über **F3** abgerufen werden. In dem übermittelten Datensatz kann ein Berater mit angegeben werden. Dieser wir im Mandantenstamm unter der Adresse „***Ansprechpartner ZM/UVA***“ gepflegt.
 
-ELSTER-Optionen
+**ELSTER-Optionen**
 
 ![](../../ImagesExt/image8_584.png)
 
@@ -104,7 +104,7 @@ Zur Unterstützung der Einrichtung von Elster stehen zwei PDF-Dateien auf dem Do
 Die hier vorgenommenen Einstellungen für den Proxy-Server gelten auch für das Elster Modul zur Übertragung der Zusammenfassenden Meldung.  
     
 
-<p class="just-emphasize">Aufruf des ELSTER - Moduls</p>
+#### Aufruf des ELSTER - Moduls
 
 Hauptmenü > Abschlussarbeiten > Umsatzsteuer > Umsatzsteuerwerte
 
@@ -148,11 +148,11 @@ Die Daten werden über ein Dokument im XML-Format versendet. Dies kann mit diese
 
 Wählt man diesen Punkt an, so werden die Log-Datei sowie die XML-Dateien in die ZIP-Datei „Elstersupport.zip“ geschrieben. Diese Datei kann dann bei Problemfällen zusammen mit der Datei Eric.log und einer kurzen Problembeschreibung an die AMIC-Hotline gesendet werden.
 
-<p class="just-emphasize">Anmeldung zur Sondervorauszahlung</p>
+#### Anmeldung zur Sondervorauszahlung
 
 Die Anmeldung zur Sondervorauszahlung sucht für den Bereich alle Steuerdaten zusammen, bei denen im Steuersatz die Auswertungsposition mit der Kennzahl **39** (wegen der doppelten Verwendung für die Anmeldung zur Sondervorauszahlung und für die USTVA) für Steuer hinterlegt ist. Die Anmeldung zur Sondervorauszahlung beinhaltet automatisch den Antrag auf Dauerfristverlängerung.
 
-<p class="just-emphasize">Sonder-/Problemfälle</p>
+#### Sonder-/Problemfälle
 
 **Wie korrigiere ich eine bereits gesendete Voranmeldung?**
 
@@ -170,7 +170,7 @@ Die Anmeldung zur Sondervorauszahlung sucht für den Bereich alle Steuerdaten zu
 
 **Antwort:** Jeder Steuerpflichtige muss zu Beginn des Verfahrens einmalig eine Teilnahmeerklärung bei dem örtlich zuständigen Finanzamt abgeben. Ab diesem Zeitpunkt kann er die Daten per ELSTER an die Finanzverwaltung übermitteln. Für jede Steuernummer ist eine eigene Teilnahmeerklärung abzugeben. Ab diesem Zeitpunkt kann beliebig zwischen elektronischer Übermittlung und Abgabe auf Papier gewechselt werden.
 
-Mindestsystemanforderungen
+**Mindestsystemanforderungen**
 
 Diese Anforderungen werden von dem Programm-Modul der bayerischen Steuerverwaltung gestellt und können von AMIC nicht beeinflusst werden.
 

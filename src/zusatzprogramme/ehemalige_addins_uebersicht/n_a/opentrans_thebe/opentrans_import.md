@@ -4,7 +4,7 @@
 
 Der Import von openTRANS ist vielfältig. Deshalb wird dieser durch Makros individuell gestaltet. Das AddIn Thebe bereitet lediglich die Bearbeitung vor. Im Folgenden ist die Einrichtung und die Verarbeitung beschrieben.
 
-###### Einrichtung
+### Einrichtung
 
 Warenverkauf > openTRANS Import > Variante „Profile für den Importbereich“
 
@@ -76,9 +76,9 @@ Warenverkauf > openTRANS Import > Variante „Profile für den Importbereich“
 
 Beim Speichern eines neuen Profils wird eine Funktion in der Optionbox der Variante „Dokumentenverarbeitung“ angelegt, die den Import von Dokumenten mit Hilfe dieses Profils startet.
 
-###### Verarbeitung
+### Verarbeitung
 
-<p class="just-emphasize">Quellen</p>
+#### Quellen
 
 Die openTRANS-Dokumente können aus verschiedenen Quellen gewonnen werden. Je nach Typ können sie erst nach Extrakt oder sofort weiterverarbeitet werden. In jedem Fall werden die Dateien zunächst ins Formulararchiv importiert und mit einer entsprechenden Belegklasse versehen.
 
@@ -132,7 +132,7 @@ Die openTRANS-Dokumente können aus verschiedenen Quellen gewonnen werden. Je na
 
 Warenverkauf > openTRANS Import > Variante „Dokumentenverarbeitung“
 
-<p class="just-emphasize">Schritt 1 : Extraktion</p>
+#### Schritt 1 : Extraktion
 
 Beginnen Sie zunächst mit dem Status „extrahierbare“ Dokumente.
 
@@ -140,7 +140,7 @@ Hier sehen Sie im Formulararchiv abgelegte (importierte Dokumente) mit der Vorga
 
 Verwenden Sie die Funktion „Extrahieren“, um die markierten Einträge zu entpacken.
 
-<p class="just-emphasize">Schritt 2 : Import per Makro</p>
+#### Schritt 2 : Import per Makro
 
 Wechseln Sie nun in den Status „zur Verarbeitung“ anstehende Dokumente
 
@@ -156,7 +156,7 @@ Hinweis:
 
 Es werden alle Dokumente der gleichen Belegreferenz importiert !
 
-<p class="just-emphasize">Ansicht verarbeiteter Dokumente</p>
+#### Ansicht verarbeiteter Dokumente
 
 Wechseln Sie nun in den Status „verarbeitet“ .
 

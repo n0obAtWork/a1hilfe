@@ -4,7 +4,7 @@
 
 Das UDP-Protokoll wurde darauf hin erweitert, dass es nun am Ende auf eine Send-Anweisung ohne eine leere Expect-Anweisung geben kann.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 0[35328]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/standardwaagenprofiluntersttzu.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.1, 35328, 0

@@ -4,7 +4,7 @@
 
 Die Reporte Verkaufsauswertung nach Kunde/Vertreter "verausw.rpt" Warenbuchsummen über Warengruppen "wbulg2.rpt" wurden überarbeitet Der Report Artikel-Umsatzliste "verkart.rpt" wird nicht mehr ausgeliefert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 739676[35973]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/crystalreport.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 35973, 739676

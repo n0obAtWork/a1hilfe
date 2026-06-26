@@ -4,7 +4,7 @@
 
 Das Fälligkeitsdatum des Rechnungsbetrages wird nun korrekt aus dem Vorgang (V_DatumValuta) belegt. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 742113[36084]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/!erechnung1.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.8, 36084, 742113

@@ -4,7 +4,7 @@
 
 Beim Einspielen der Daten im CAMT053 Format wurde der Anfangs- bzw. Abschlusssaldo aus Sicht der Bank importiert. Dies kann man nun unter Optionen einstellen. Standard ist jetzt "Saldo aus Sicht des Kunden"
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 744003[36711]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/optionen.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 36711, 744003

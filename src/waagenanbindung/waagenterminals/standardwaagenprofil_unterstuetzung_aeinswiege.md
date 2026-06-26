@@ -14,9 +14,9 @@ Interessant sind u.a. 3 neue "Direktiven":
 
 1. BCC
 
-Vom WAM her dürfte schon die Möglichkeit bekannt sein die Prüfsumme für ausgehende Kommandos zu berechnen. AeinsWiege kann das auch für eingehende Waagendaten. Das ist wichtig, da manche Protokolle nach Sendung der Wiegedaten ( die mit BCC von der Waage aus gesendet werden ) noch eine positive Quittierung brauchen. Es ist einfach viel geschickter, wenn AeinsWiege diese BCC auch geprüft hat und dann entsprechend verfährt!
+   Vom WAM her dürfte schon die Möglichkeit bekannt sein die Prüfsumme für ausgehende Kommandos zu berechnen. AeinsWiege kann das auch für eingehende Waagendaten. Das ist wichtig, da manche Protokolle nach Sendung der Wiegedaten ( die mit BCC von der Waage aus gesendet werden ) noch eine positive Quittierung brauchen. Es ist einfach viel geschickter, wenn AeinsWiege diese BCC auch geprüft hat und dann entsprechend verfährt!
 
-Beispiel:
+   Beispiel:
 
 ```xml
 <Sequence Send="[SOH]Ap[ENQ]" Expect="[SOH]A[STX]([DATA][ETX])[BCC]" Result="1"/>
@@ -26,15 +26,15 @@ Hinweis: Ausgehend - also im Send - ist die %BCC%-Syntax, eingehend - also im Ex
 
 2. DATA
 
-Steht für eine beliebige Anzahl von unbekannten Zeichen.
+   Steht für eine beliebige Anzahl von unbekannten Zeichen.
 
-Beispiel hierfür ist die obige Sequenz. AeinsWiege schickt an die Waage "[SOH]Ap[ENQ]", die Waage sendet daraufhin "[SOH]A[STX]QA[SP]0016060000000025140206144407[ETX]6" zurück. Der gesamte Anteil zwischen [STX]…[ETX] entspricht dabei ohne dass STX und ETX eben DATA, wobei die Prüfsumme von der Waage über [DATA] incl. [ETX] gebildet wurde und in diesem Falle 6 ist.
+   Beispiel hierfür ist die obige Sequenz. AeinsWiege schickt an die Waage "[SOH]Ap[ENQ]", die Waage sendet daraufhin "[SOH]A[STX]QA[SP]0016060000000025140206144407[ETX]6" zurück. Der gesamte Anteil zwischen [STX]…[ETX] entspricht dabei ohne dass STX und ETX eben DATA, wobei die Prüfsumme von der Waage über [DATA] incl. [ETX] gebildet wurde und in diesem Falle 6 ist.
 
 3. DATE
 
-Mit Hilfe dieser Konstruktion lassen sich formatierte Zeitwerte innerhalb eines Send-Strings definieren.
+   Mit Hilfe dieser Konstruktion lassen sich formatierte Zeitwerte innerhalb eines Send-Strings definieren.
 
-Beispiel:
+   Beispiel:
 
 ```xml
 <Sequence

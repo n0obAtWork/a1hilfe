@@ -9,19 +9,19 @@
 | Überwachen? | Hier kann entschieden werden, ob das Feld überwacht werden soll oder nicht.<br> |
 | Hinweisfeld (unten links) | Es wird geprüft ob Tabellen aktuell für eine Bearbeitung durch einen Mitarbeiter gesperrt sind. Ist dies der Fall, so wird hier ein Hinweis mit der gesperrten Tabelle, sowie dem Benutzer, der die Sperre verursacht angezeigt.<br> |
 
-<p class="just-emphasize">Hilfe F1</p>
+### Hilfe F1
 
 Ruft diese Hilfe auf.
 
-<p class="just-emphasize">Alle Felder überwachen F5</p>
+### Alle Felder überwachen F5
 
 Hiermit werden in alle Felder der Spalte „*überwachen?*“ eine **JA** eingetragen.
 
-<p class="just-emphasize">Überwachung löschen F7</p>
+### Überwachung löschen F7
 
 Hiermit werden in alle Felder der Spalte „*überwachen?*“ eine **NEIN** eingetragen.
 
-<p class="just-emphasize">Speichern F9</p>
+### Speichern F9
 
 Um die gewünschten Änderungen zu übernehmen, ist die Funktion „Speichern“ im Funktionsmenü zu verwenden. Hierbei werden intern private Trigger erstellt, welche eine Überwachung der gewählten Daten gewährleisten sollen.
 
@@ -29,6 +29,6 @@ Sind hierfür benötigte Tabellen aktuell gesperrt, so können keine Trigger ang
 
 Sollte es einmal nötig sein diese privaten Trigger neu zu erstellen (z.B.: nah Änderungen am System oder den überwachten Tabellen), so können Sie alle überwachten Felder einer Tabelle auf „Nein“ stellen und diese Änderungen speichern. Die privaten Trigger dieser Tabelle werden entfernt. Nun können Sie die Feldüberwachung für die gewünschten Felder wieder aktivieren und speichern.
 
-<p class="just-emphasize">Mail an Blocker F4</p>
+### Mail an Blocker F4
 
 Geblockte oder gesperrte Tabellen werden auf der Maske im Feld Tabellenname rot gekennzeichnet. Weiterhin wird im Hinweisfenster unten Links ein entsprechender Hinweis zu sehen sein. Über die Funktion „Mail an Blocker“ wird eine E-Mail an den Benutzer gesendet, welche diesen darauf hinweist die Tabelle freizugeben.

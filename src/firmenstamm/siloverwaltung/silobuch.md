@@ -142,6 +142,6 @@ Bedeutung von ausgewählten Felder im Silobuch
   </table>
 </div>
 
-<p class="just-emphasize">Besonderheit</p>
+#### Besonderheit
 
 Wird eine Position von einem Silo auf ein anderes Silo kopiert wird die Information der Waage mit kopiert aber nicht im Silobuch angezeigt. Da der Wiegeschein sich auf das Quell Silo bezieht.

@@ -60,8 +60,8 @@ Hinweise:
 
 1) Das A.eins-System belegt je nach zugrundeliegenden Kontext folgende Felder automatisch vor:
 
-**Referenz, Kundennummer, Belegklasse, Belegnummer**
+   **Referenz, Kundennummer, Belegklasse, Belegnummer**
 
-Falls der zugrundeliegende selektierte Eintrag eine Gruppenzuordnung besitzt wird diese automatisch vorbelegt (siehe Registerkarte „**Gruppe**“)
+   Falls der zugrundeliegende selektierte Eintrag eine Gruppenzuordnung besitzt wird diese automatisch vorbelegt (siehe Registerkarte „**Gruppe**“)
 
 2) Das Feld „Dateiname“ im Archiv wird automatisch mit dem Dokumentennamen versorgt. Der Dokumentenname ist der Dateiname des Dokumentes ohne die Extension.

@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/abwicklung1.htm -->
 
-<p class="just-emphasize">Prozess Abwicklung</p>
+#### Prozess Abwicklung
 
 | Feld | Beschreibung |
 | --- | --- |
@@ -14,34 +14,34 @@
 | Alternative Abarbeitung | Für die Abwicklung kann bei Bedarf ein alternatives Script ausgewählt werden das die Vorgangsbearbeitung übernimmt. Wird hier „Ja“ gewählt so kann im Feld Scriptname der Name des Skriptes eingegeben oder mit &lt;F3> ausgewählt werden. |
 | Scriptname | Eingabe Namens oder Auswahl eines alternativen Skriptes. Zu beachten ist die korrekte Pfadangabe (absolut) |
 
-<p class="just-emphasize">X-Rechnung</p>
+#### X-Rechnung
 
 | Feld | Beschreibung |
 | --- | --- |
 | Default Exportprofil | (nur Rechnungen und Gutschrift) Wird im Kunden kein X-rechnung-Exportprofil festgelegt, so wird das hier in der Unterklasse voreingestellte Formular beim X-rechnung-Export verwendet. |
 
-<p class="just-emphasize">Prozess Klammer</p>
+#### Prozess Klammer
 
 | Feld | Beschreibung |
 | --- | --- |
 | Klammervorbelegung | Hiermit kann eingestellt werden, das beim setzten der Vorgangsnummer die Klammernummer mit der Belegnummer und der Klammertyp mit dem Klammertyp der Unterklasse vorbelegt wird. |
 | Klammertyp | Vorbelegung des Klammertyps, wenn die Klammervorbelegung auf „aus Belegnummer“ steht. |
 
-<p class="just-emphasize">Lagerverwaltungssystem</p>
+#### Lagerverwaltungssystem
 
 | Feld | Beschreibung |
 | --- | --- |
 | Transfer relevanter Position | Für das Lagerverwaltungssystem kann hier eingestellt werden, ob relevante Daten in eine Transfertabelle („LVS_ARTIKELTRANSFER_WABEW“) geschrieben werden sollen.<br> |
 | Auslagerstrategie | Hier wird festgelegt, welche Prozedur den Typ der Auslagerstrategie entscheidet.<br>Muster: AMIC_DEMO_LVS_AUSLAGERSTRATEGIE |
 
-<p class="just-emphasize">Nachhaltigkeit</p>
+#### Nachhaltigkeit
 
 | Feld | Beschreibung |
 | --- | --- |
 | Kunde ungültige Nachhaltigkeit | Hier kann eingestellt werden, was passieren soll, wenn die Nachhaltigkeit des Kunden bei der Warenpositionserfassung ungültig ist. Diese Einstellung überschreibt die Einstellung des [SPA 1157](../../firmenstamm/steuerparameter/optionen_warenwirtschaft/nachhaltigkeitspruefung_spa_1157.md). Einrichtung verhalten sich analog zur SPA-Einrichtung. |
 | Kontraktabwahl | Hier kann eingestellt werden, was passieren soll, wenn die Nachhaltigkeit des Kunden bei der Kontraktauswahl ungültig ist. Diese Einstellung überschreibt die Einstellung des [SPA 1158](../../firmenstamm/steuerparameter/optionen_warenwirtschaft/kontraktabwahl_bei_nachhaltigkeitsfehler_spa_1158.md). Einrichtung verhalten sich analog zur SPA-Einrichtung. |
 
-<p class="just-emphasize">Versand</p>
+#### Versand
 
 | Feld | Beschreibung |
 | --- | --- |
@@ -55,7 +55,7 @@
 
 Hinweis: Bei Rohwaresammelbelegen können mittels eines Belegversandmakros eRechnungen erzeugt werden. Das privatisierbare Standardmakro dafür ist AMIC_Generiere_XRechnung_FRZ.
 
-<p class="just-emphasize">Behandlungsschema</p>
+#### Behandlungsschema
 
 | Feld | Beschreibung |
 | --- | --- |
@@ -64,7 +64,7 @@ Hinweis: Bei Rohwaresammelbelegen können mittels eines Belegversandmakros eRech
 | Lagernummernänderung | Das angegebene Behandlungsschema wird im Fall von Lagernummernänderungen in einem Vorgang dieser Vorgangsklasse/Unterklasse verwendet bzw. als Vorgabe in Auswahlen eingetragen. |
 | Lageränderung bei Teildisposition automatisch aus VKONS | Vorbelegt mit Nein<br>Setzt man dieses Feld für einen Zielvorgang auf Ja, dann wir bei der Standard-Teildisposition automatisch eine Lageränderung vorgenommen, wenn das Ziellager nicht dem Lager in VKONS / Lagernummerfehl entspricht. |
 
-<p class="just-emphasize">Gefahrgut</p>
+#### Gefahrgut
 
 | Feld | Beschreibung |
 | --- | --- |

@@ -4,7 +4,7 @@
 
 Beim Stornieren/Löschen (F7) bzw. beim Stornieren mit Stornobeleg konnte es zu Problemen mit der Quellbeleg-Freigabe kommen. Dies wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 720685[33713]
 
@@ -20,6 +20,6 @@ Funktion/Report: Stornieren/Löschen, Erstellen von Stornobelegen
 
 [Weitere Informationen](http://www.amic.de/hilfe/_SPA_987.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2305.26, 33713, 720685

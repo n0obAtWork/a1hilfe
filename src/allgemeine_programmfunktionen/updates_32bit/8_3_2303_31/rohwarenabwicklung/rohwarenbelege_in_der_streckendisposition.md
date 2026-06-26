@@ -4,7 +4,7 @@
 
 In der Streckendisposition [DISPV] war es möglich, einen Rohwarenvorgang, der sich bereits in einem Sammelbeleg befand, zu bearbeiten. Dies ist nicht zulässig und wird künftig verhindert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 721020[33579]
 
@@ -20,6 +20,6 @@ Funktion/Report: Korrektur per Rohware-Vorgangshelper
 
 [Weitere Informationen](http://www.amic.de/hilfe/_vorgangsmappe_auswahllisten.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2303.31, 33579, 721020

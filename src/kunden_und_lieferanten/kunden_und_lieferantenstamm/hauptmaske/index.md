@@ -8,7 +8,7 @@ Der Aufbau der Kunden und Lieferanten Stammdaten soll exemplarisch am Beispiel d
 
 **Nummer**
 
-<p class="just-emphasize">Achtung:</p>
+#### Achtung:
 
 Eine Kontonummer kann nur einmal vergeben werden!
 
@@ -320,7 +320,7 @@ Nummer des Eintrags im Handelsregister.
 
 **Aktiv**
 
-<p class="just-emphasize">Achtung!!!</p>
+### Achtung!!!
 
 *Die ehemalige Variante unter **[ZMDO]** die dieses Kennzeichen auswertet (Zusammenfassende Meldung) ist veraltet. Das Kennzeichen wird nicht weiter unterstützt.  
 Die aktuell gültige Variante in **[ZMDO]** ist „Zusammenfassende Meldung n. AWPosition“. Diese benutzt das Aktiv-Kennzeichen nicht.*

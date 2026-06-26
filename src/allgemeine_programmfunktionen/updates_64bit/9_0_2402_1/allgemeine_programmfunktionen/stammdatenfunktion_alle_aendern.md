@@ -4,7 +4,7 @@
 
 Zum ändern von Stammdaten existiert eine Funktion "Alle Ändern". Diese zeigt jetzt die Anzahl der Felder an, die von der Änderung betroffen sind:"Sollen die 12 eingefärbten Felder für alle ausgewählten Daten übernommen werden?"
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 734584[35469]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_generelleprogrammbed.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.1, 35469, 734584

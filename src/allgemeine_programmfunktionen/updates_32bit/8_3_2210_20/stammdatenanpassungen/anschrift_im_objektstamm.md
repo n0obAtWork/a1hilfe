@@ -4,7 +4,7 @@
 
 Die Erfassung der Objektanschrift ist nun auch im "Neu"-Fall möglich.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 714385[32840]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/baustelle.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2210.20, 32840, 714385

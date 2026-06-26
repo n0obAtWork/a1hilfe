@@ -21,9 +21,9 @@ Siehe: [Einrichtung der AIS-Felder für die Marktkasse aus dem AMIC Muster](./ei
 | Zusatzfeld Kassenfeldname | Hier stehen alle Felder, die zusätzlich angezeigt werden können. |
 | Zusatzfeld AIS-Feldname | Die Zuordnung eines AIS-Feldnamens ist für Zusatzfelder freigestellt. |
 
-<p class="just-emphasize">Zusatzangaben</p>
+### Zusatzangaben
 
-<p class="just-emphasize">Leergutverarbeitung</p>
+#### Leergutverarbeitung
 
 Gibt an, wie Leergut in der Kasse verarbeitet werden soll.
 
@@ -33,19 +33,19 @@ Gibt an, wie Leergut in der Kasse verarbeitet werden soll.
 | Leergut nur für fakturierte Artikel | Es wird nur Leergut für zu fakturierende Artikel im Leergutdialog angezeigt. Leergut als Folgeartikel wird bei der normale Artikelerfassung übersprungen. |
 | Alle Leergutartikel anzeigen | Es werden alle zu fakturierende Leergutartikel im Leergutdialog angezeigt. Leergut als Folgeartikel wird bei der normale Artikelerfassung übersprungen. |
 
-<p class="just-emphasize">Kassenbelegdruck sofort</p>
+#### Kassenbelegdruck sofort
 
 Gibt an, on der Druck des Kassenbelegs sofort bei der Erfassung oder beim Abschluss der Zahlung erfolgen soll.
 
-<p class="just-emphasize">Externes Kassendisplay</p>
+#### Externes Kassendisplay
 
 Wird in einem externen Kassendisplay ein BON eingerichtet, so wird dieses Formular dazu verwendet, diesen Bon darzustellen. Wird kein Formular eingetragen, so wird das Druck-Formular verwendet.
 
-<p class="just-emphasize">Unterklasse Lieferschein und Unterklasse Rechnung</p>
+#### Unterklasse Lieferschein und Unterklasse Rechnung
 
 Diese beiden Felder werden herangezogen, wenn man bei der Marktkasse die Dialogmaske ‚Speichern unter‘ zum Wechsel in eine Rechnung oder in einen Lieferschein aufgefordert wird. 
 
-<p class="just-emphasize">Prozedur Verkaufsbeschränkung</p>
+#### Prozedur Verkaufsbeschränkung
 
 Hier kann eine Prozedur eingefügt werden, welche die Standardbehandlung übersteuert. Als Übergabeparameter benötigt die Prozedur die „Vekaufsbeschränkungsnummer“. Der Rückgabeparameter heißt „meldung“.
 

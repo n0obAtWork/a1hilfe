@@ -4,7 +4,7 @@
 
 Falls unter [FAREF] beim Archiv-Fakt eine private Prozedur zur Erstellung der Belegreferenz von Vorgängen verwendet wurde, dann hat die Verbindung zum Archiv nicht funktioniert.Das bedeutet, dass nach dem Erstellen eines Beleges und danach einen eRechnungsexport durchgeführt hat, per Strg + F12 den eRechnungsexport nicht im Archiv angezeigt bekommen hat.Dies wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 740061[35788]
 
@@ -20,6 +20,6 @@ Funktion/Report: F5, F8
 
 [Weitere Informationen](http://www.amic.de/hilfe/_archivfakte.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.4, 35788, 740061

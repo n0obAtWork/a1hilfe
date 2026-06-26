@@ -4,7 +4,7 @@
 
 Das Modul Tammo (Trusted A.eins Mail Message Operation) dient der Verarbeitung und Archivierung ankommender Mails in Zusammenarbeit mit A.eins.
 
-<p class="just-emphasize">Einrichtung</p>
+### Einrichtung
 
 Die Einrichtung wird über den [Steuerparameter 933](../../firmenstamm/steuerparameter/optionen_global/tammo_einstellungen_spa_933.md) gesteuert. Da die Einstellungen jedoch vom Modul abhängig sind, werden sie hier genauer beschrieben.
 
@@ -14,7 +14,7 @@ Die Einrichtung wird über den [Steuerparameter 933](../../firmenstamm/steuerpar
 
 [Anhang Umwandlung](./anhang_umwandlung.md)
 
-<p class="just-emphasize">Fehlerbehandlung</p>
+### Fehlerbehandlung
 
 Für die Fehleranalyse wird im „BIN“-Verzeichnis von A.eins die Log-Datei „Tammo.log“ angelegt, wenn ein interner Fehler aufgetreten ist.
 

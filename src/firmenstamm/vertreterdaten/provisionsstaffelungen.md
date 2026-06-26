@@ -12,15 +12,15 @@ Der Vertreter hat nun die Möglichkeit, von dieser Preisliste nach **oben** bzw.
 
 Dies ist für die Bereiche Einkauf **(EK)** und Verkauf **(VK)** realisiert.
 
-<p class="just-emphasize">Gruppe</p>
+### Gruppe
 
 Gruppennummer der Vertreter
 
-<p class="just-emphasize">Bezeichnung</p>
+### Bezeichnung
 
 Ausführliche Bezeichnung.
 
-<p class="just-emphasize">Rechenart</p>
+### Rechenart
 
 1 = prozentuale Provision bei prozentualen Abschlägen
 
@@ -30,7 +30,7 @@ Ausführliche Bezeichnung.
 
 4 = DM/EUR Provision bei DM/EUR Abschlägen
 
-<p class="just-emphasize">Stufen 1 – 100</p>
+### Stufen 1 – 100
 
 Hier können je nach Differenzwert zu der Referenzpreisliste in % oder DM/EUR (je nach Rechenart) die zur Berechnung kommenden Provisionswerte eingegeben werden.  
 Hierbei ist zu beachten, dass ein Wert bei Wertdifferenz 0 oder, wenn zulässig bei einem höheren Preis als in der Referenzpreisliste angegeben ein Höchstwert mit - Vorzeichen eingegeben werden muss (hier -1.000). Ansonsten würde keine Provision berechnet werden.

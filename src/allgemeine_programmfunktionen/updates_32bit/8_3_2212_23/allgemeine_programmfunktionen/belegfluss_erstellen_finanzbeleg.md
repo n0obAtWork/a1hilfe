@@ -4,7 +4,7 @@
 
 Wurde vom Belegfluss aus ein Beleg erstellt, der sowohl Netto als auch Brutto Beträge enthält, wurde der Wechsel von Netto auf Brutto nicht erkannt. Dieses Problem wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 714269[33157]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_archivbelegfluss.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2212.23, 33157, 714269

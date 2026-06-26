@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_lvs20_einr.htm -->
 
-<p class="just-emphasize">Ladeträgertypen</p>
+#### Ladeträgertypen
 
 Hauptmenü > Stammdatenpflege > Lagerverwaltungssystem > Ladeträgertypen
 
@@ -67,7 +67,7 @@ Es müssen Ladeträgertypen eingerichtet werden. Es empfiehlt sich folgende Einr
   </table>
 </div>
 
-<p class="just-emphasize">Lokalitäten</p>
+#### Lokalitäten
 
 Hauptmenü > Stammdatenpflege > Lagerverwaltungssystem > Regale (Lokalitäten)
 

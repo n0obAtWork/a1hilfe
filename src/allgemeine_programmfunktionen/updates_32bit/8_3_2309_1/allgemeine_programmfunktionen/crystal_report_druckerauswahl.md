@@ -4,7 +4,7 @@
 
 Bei der Druckerauswahl des Crystal Reports Version 13 werden die Einstellungen des Standard-Windows-Druckers jetzt korrekt übernommen.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 726333[34171]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/crystalreport.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 34171, 726333

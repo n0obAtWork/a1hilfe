@@ -10,19 +10,19 @@ Es besteht die Möglichkeit einen Scanner an den Rechner anzuschließen, um mit 
 
 Des Weiteren müssen auf jeden Fall die Steuerparameter [727](../../../firmenstamm/steuerparameter/scanner/ean8_code_wird_als_solcher_erkannt_auch_wenn_dieser_nicht_gu.md) und [728](../../../firmenstamm/steuerparameter/scanner/ean13_code_wird_als_solcher_erkannt_auch_wenn_dieser_nicht_g.md) auf ja gestellt werden, da es keine Scaneinheit gibt welche mir den erkannten Scancode mitteilt.
 
-<p class="just-emphasize">Starten der Software aus dem Bin Verzeichniss</p>
+#### Starten der Software aus dem Bin Verzeichniss
 
 Wird die Scanner Software zum ersten Mal aus dem Bin Verzeichnis gestartet, so müssen dem Scanner die [Verbindungsparameter](../private_prozeduren/index.md) mitgeteilt werden.
 
-<p class="just-emphasize">Starten der Software aus dem Hauptmenü</p>
+#### Starten der Software aus dem Hauptmenü
 
 Hauptmenü > Externe Kommunikation > Scanner Lösungen > Scannerprogramm öffnen
 
-<p class="just-emphasize">Besonderheit</p>
+#### Besonderheit
 
 Beim starten des Scanners aus dem Hauptmenü wird als logische IP-Adresse des Scanners der aktuelle Bediener aus dem A.eins System genommen, damit wird die Möglichkeit geschaffen mehrere Scanner gleichzeitig auf einem Rechner zu starten.
 
-<p class="just-emphasize">XML Datei</p>
+#### XML Datei
 
 Da diese Abarbeitung sehr langwierig sein kann, haben wir eine Technologie bereitgestellt, mit dem Sie die Möglichkeit haben einen Auftrag, Inventur etc. in eine XML Struktur zu verpacken. Diese XML Struktur kann dann der Scanner einlesen und verarbeiten.
 

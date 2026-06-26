@@ -23,7 +23,7 @@ Folgende Relationen müssen für das Importieren von Vorgängen befüllt werden.
 | [ImportVorgPositionZuAb](../vorgangsimport_anwendung/funktionen_des_vimp_pflegers.md#Tab_ImpoprtVorgPositionZuAb) | Link zwischen ImportVorgPosition und ImportVorgZuAbDef |
 | [ImportVorgZuAbDef](./importvorgzuabdef.md) | Definition eines Zu/Abschlags, eines Rabattes oder einer Fracht |
 
-<p class="just-emphasize">Referentielle Integrität</p>
+#### Referentielle Integrität
 
 ImportVorgStamm
 

@@ -4,7 +4,7 @@
 
 In der Version 8.3.2310.27 und 9.0.2305.2 konnte es dazu kommen, dass der Mailversand nicht ordnungsgemäß durchgeführt wurde. Dieses Problem wurde jetzt behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 728666[34499]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_vpstmailversandallgemein.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2311.10, 34499, 728666

@@ -24,7 +24,7 @@ c) Es ist möglich, verschiedenen Kassen eine unterschiedliche Kassenwährung zu
 
 d) Man kann Kassen unterteilen in Kassen, an denen ein Lesegerät angeschlossen ist bzw. nicht (OptiGruppe Allgemein).
 
-<p class="just-emphasize">ACHTUNG!!!</p>
+#### ACHTUNG!!!
 
 Die Vorlagenummer sollte nur bei abgeschlossenen Kassen geändert werden.
 

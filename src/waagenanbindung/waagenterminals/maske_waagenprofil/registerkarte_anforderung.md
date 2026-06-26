@@ -13,7 +13,7 @@
 | Wartezeit | Vorgabe einer Zeit in Millisekunden, nach dessen Ablauf die Übertragung der Anforderungszeichenkette als gescheitert gelten darf. Es sind in aller Regel kurze Zeiten zu erwarten (>= 100 Millisekunden); man sollte mit kleineren Zeiten vorsichtig umgehen, und sich diese durch die Praxis bestätigen lassen … |
 | Pos | Sortierungskriterium für die Reigenfolge der VL.<br>Da es höchstens eine GA geben darf, wird diese wenn auch immer erst am Ende der VL verschickt. Sollte es in Zukunft Waagensysteme geben, die noch einen „Nachlauf“ benötigen, muss das noch implementiert werden! |
 
-<p class="just-emphasize">Art</p>
+### Art
 
 ![](../../../ImagesExt/image8_495.png)
 
@@ -59,7 +59,7 @@ Im obigen Bespiel wird also vor der GA eine VL gesendet. Man erkennt die Nicht-D
 
 An Y2 erkennt man das sich nach den Wäge-Systemen zu richten hat, und nicht nach irgendwelchen Jahr2000-Problematiken …
 
-<p class="just-emphasize">Wandlung</p>
+#### Wandlung
 
 Beeinflusst mögliche Transformationen der Anforderungszeichenketten.
 

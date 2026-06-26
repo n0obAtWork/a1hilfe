@@ -4,7 +4,7 @@
 
 Der Tse-QR-Code wurde nicht in der gewünschten Größe ausgedruckt. Die Größe des QR-Codes kann jetzt im Formular über das Feld Länge skaliert werden.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 715707[33463]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_faq_vorgang.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2302.17, 33463, 715707

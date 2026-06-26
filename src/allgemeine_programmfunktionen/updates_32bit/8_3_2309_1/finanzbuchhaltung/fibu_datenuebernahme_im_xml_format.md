@@ -4,7 +4,7 @@
 
 Bei der Datenübernahme [DUEB] wurde beim XML-Import immer dann, wenn die Steuergruppe mit übergeben wurde, diese mit der Steuergruppe aus dem Kundenstamm geprüft und ggf. der betroffene Beleg nicht mit importiert. Diese Prüfung findet nicht mehr statt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 726945[34214]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/fibuxmlimport.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 34214, 726945

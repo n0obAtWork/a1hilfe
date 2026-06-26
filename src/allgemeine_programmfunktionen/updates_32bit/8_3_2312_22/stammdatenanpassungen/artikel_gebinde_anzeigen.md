@@ -4,7 +4,7 @@
 
 Hatte man sich im Artikelpfleger [AR] die Gebinde angesehen (Funktionstaste F6), wurden diese bei folgenden Aufrufen nicht mehr angezeigt, obwohl sie weiterhin korrekt vorhanden waren. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 729311[34571]
 
@@ -20,6 +20,6 @@ Funktion/Report: [AR] -F6 Ansehen
 
 [Weitere Informationen](http://www.amic.de/hilfe/_artikelar.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2312.22, 34571, 729311

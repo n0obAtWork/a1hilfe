@@ -4,7 +4,7 @@
 
 Die Funktion "Vorgang Senden an" wurde für die 64-Bit Version reaktiviert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 723846[33899]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/vorgangsenden.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2306.23, 33899, 723846

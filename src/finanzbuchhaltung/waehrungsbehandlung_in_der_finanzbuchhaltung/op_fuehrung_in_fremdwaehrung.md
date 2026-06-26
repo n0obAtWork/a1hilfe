@@ -22,7 +22,7 @@ Um Sachkonten in Fremdwährung zu führen, muss das Kennzeichen „Währung füh
 
 Im Gegensatz zu den Personenkonten können bei Sachkonten nur OP’s verrechnet werden, die in der gleichen Währung erfasst wurden, d.h. es findet keine automatische Umrechnung von der Buchwährung in die Fremdwährung statt.
 
-<p class="just-emphasize">Auszifferung geht in Fremdwährung auf:</p>
+### Auszifferung geht in Fremdwährung auf:
 
 Beim Ausziffern kann es durch Kursdifferenzen dazu kommen, dass zwar der Betrag in Fremdwährung aufgeht, die Buchwährung jedoch eine Differenz aufweist:
 
@@ -34,7 +34,7 @@ Beim Ausziffern kann es durch Kursdifferenzen dazu kommen, dass zwar der Betrag 
 
 Diese Differenz wird automatisch auf das im Währungsstamm eingetragene Kursgewinn- oder Kursverlustkonto gebucht. Es wird dabei eine Kursdifferenzbuchung - Belegart KD – erstellt. Diese Belege haben die Besonderheit, dass sie nur den Betrag in Buchwährung enthalten und der Betrag in Fremdwährung immer null ist.
 
-<p class="just-emphasize">Auszifferung geht in Buchwährung auf:</p>
+### Auszifferung geht in Buchwährung auf:
 
 Es kann jetzt auch vorkommen, dass vereinbart war, dass der Betrag in Buchwährung gezahlt werden sollte, obwohl die Rechnung in Fremdwährung gestellt wurde. Dann kommt es zu folgender Auszifferung:
 

@@ -50,7 +50,7 @@ Die Funktion ***Übertragen CF7*** öffnet folgende Eingabefelder:
   </table>
 </div>
 
-<p class="just-emphasize">Achtung</p>
+### Achtung
 
 Es sind hier nur solche Konten zugelassen, die einer Mitgliedsnummer zugeordnet sind.  
 Ggfs. ist also zunächst eine Mitgliedsnummer auf dem Zielkonto zuzuordnen.

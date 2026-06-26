@@ -4,7 +4,7 @@
 
 Die Reihenfolge von Angaben in eRechnungs-Anschriften wurde optimiert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 742981[36222]
 
@@ -20,6 +20,6 @@ Funktion/Report: eRechnung exportieren
 
 [Weitere Informationen](http://www.amic.de/hilfe/erechnung1.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.8, 36222, 742981

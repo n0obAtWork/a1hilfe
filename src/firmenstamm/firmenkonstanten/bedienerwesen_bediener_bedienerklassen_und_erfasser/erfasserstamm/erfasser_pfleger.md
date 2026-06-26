@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_erfasserpfleger.htm -->
 
-<p class="just-emphasize">Felder:</p>
+### Felder:
 
 | Felder | Beschreibung |
 | --- | --- |
@@ -12,7 +12,7 @@
 | Passwort | Hier wird das Passwort des Erfassers gesetzt. |
 | Bediener | Gibt an, an welchen Bediener der Erfasser gebunden ist. |
 
-<p class="just-emphasize">Funktionen:</p>
+### Funktionen:
 
 | Funktionen | Beschreibung |
 | --- | --- |

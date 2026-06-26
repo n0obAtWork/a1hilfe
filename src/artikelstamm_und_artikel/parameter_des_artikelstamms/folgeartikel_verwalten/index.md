@@ -9,7 +9,7 @@ Die Möglichkeiten sollen an zwei Beispielen beschrieben werden.
 - Verkauf zusammenhängender Artikel
 - [Leergutverwaltung](./leergutverwaltung/index.md)
 
-<p class="just-emphasize">Verkauf zusammenhängender Artikel</p>
+### Verkauf zusammenhängender Artikel
 
 Häufig hängen an einem Produkt Folgeprodukte, die mit verkauft oder angeboten werden. (z.B. Regenrinne mit zwei Halterungen und Schrauben)
 

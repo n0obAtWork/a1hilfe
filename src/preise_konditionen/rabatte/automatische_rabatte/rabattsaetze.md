@@ -8,27 +8,27 @@ Oder Direktsprung **[RAS]**
 
 Es gibt für Rabatte bestimmte Rabattsätze, die in bestimmten Zeiträumen gültig sind und in einer zu definierenden Formel zu berechnen sind.
 
-<p class="just-emphasize">Rabattbezeichnung</p>
+#### Rabattbezeichnung
 
 Bezeichnung für den Rabatt
 
-<p class="just-emphasize">Steuerschlüssel</p>
+#### Steuerschlüssel
 
 Steuerschlüssel für diesen Rabatt
 
-<p class="just-emphasize">Zu/Abschlagstyp (nur für [openTRANS](../../../firmenstamm/steuerparameter/lizenzen/opentrans_lizenz_spa_721.md))</p>
+#### Zu/Abschlagstyp (nur für [openTRANS](../../../firmenstamm/steuerparameter/lizenzen/opentrans_lizenz_spa_721.md))
 
 Hier wird die Art des Rabatts für openTRANS eingestellt. Dieser sollte als „Rabatt“ eingestellt werden. Andere Werte machen hier kaum Sinn.
 
-<p class="just-emphasize">Ab Datum</p>
+#### Ab Datum
 
 Beginn der Gültigkeit des Rabattsatzes
 
-<p class="just-emphasize">Bis Datum</p>
+#### Bis Datum
 
 Letzter Tag der Gültigkeit dieses Rabattsatzes
 
-<p class="just-emphasize">Zu-/Abschlagsformel</p>
+#### Zu-/Abschlagsformel
 
 | Formel | Bedeutung |
 | --- | --- |
@@ -42,6 +42,6 @@ Letzter Tag der Gültigkeit dieses Rabattsatzes
 | Satz je Gewichtseinheit | Es wird ein fester Rabattbetrag pro Gewichtseinheit gegeben. Der Artikel wird in einer Mengeneinheit fakturiert, die nicht unbedingt das Gewicht beinhalten muss. Im Artikel kann jedoch ein Artikelgewicht hinterlegt werden.<br>So kann z.B. ein Einkauf von 10 Säcken (à 50kg) |
 | Betrag manuell | Hier kann ein fester Betrag für einen Einkauf eingetragen werden. So kann z.B. stets 10€ für den Kauf mindestens eines bestimmten Artikels gegeben werden.<br>Die Einstellung „manuell“ bedeutet nicht, dass eine Rabattbetragseingabe in Verbindung mit der Warenposition erfolgen muss oder erzwungen wird oder werden kann. Sie ist vielmehr ein Kennzeichen, dass dieser Betrag nicht berechnet wurde. |
 
-<p class="just-emphasize">Prozent/Preis</p>
+#### Prozent/Preis
 
 Hier wird nun der Rabattbetrag (Satz) oder der Prozentwert (Prozent) eingetragen für den dieser Rabatt gelten soll.

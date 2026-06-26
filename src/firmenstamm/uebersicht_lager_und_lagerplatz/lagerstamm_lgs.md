@@ -8,7 +8,7 @@ Direktsprung **[LGS]**
 
 Folgende Informationen können im Lagerstamm auf dem hinterlegt werden.
 
-<p class="just-emphasize">Registerkarten</p>
+### Registerkarten
 
 <div class="table-wrapper">
   <table>

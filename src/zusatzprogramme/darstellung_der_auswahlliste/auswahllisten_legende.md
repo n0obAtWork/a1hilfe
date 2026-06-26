@@ -4,7 +4,7 @@
 
 Bei der Auswahllisten-Legende handelt es sich um einen Dialog, welcher die einzelnen Felder und Farben einer Auswahlliste beschreibt. Die Funktion ist auf den Auswahllisten vorhanden, die Informationen für die Legende bereitstellen. Diese Informationen für die Auswahlliste werden in jedem SQL-Text der Auswahllistenvariante gepflegt. Dort werden diese per XML-Struktur zur Verfügung gestellt. Die Tags und Attribute werden immer klein geschrieben.
 
-<p class="just-emphasize">XML-Tag &lt;auswahllistenbeschreibung></p>
+#### XML-Tag &lt;auswahllistenbeschreibung>
 
 Dieses Tag ist das Haupt-Tag der XML-Struktur. Unter diesem kann sich ein Tag für die Beschreibung befinden und mehrere Tags für die Felder.
 
@@ -12,7 +12,7 @@ Dieses Tag ist das Haupt-Tag der XML-Struktur. Unter diesem kann sich ein Tag f�
 <auswahllistenbeschreibung></auswahllistenbeschreibung>
 ```
 
-<p class="just-emphasize">XML-Tag &lt;beschreibung></p>
+#### XML-Tag &lt;beschreibung>
 
 Dieses Tag kann sich unter folgenden übergeordneten Tags befinden.
 
@@ -39,7 +39,7 @@ Befindet sich das Tag unter diesem Tag, handelt es sich um die Beschreibung des 
   </auswahllistenbeschreibung>
 ```
 
-<p class="just-emphasize">XML-Tag &lt;field></p>
+#### XML-Tag &lt;field>
 
 Ein oder mehrere dieser Tags befinden sich unter dem Haupt-Tag (&lt;auswahllistenbeschreibung>). Dieser dient der Beschreibung der einzelnen Spalten. Unter diesem befinden sich auch die Tags für die Beschreibungen der Farben
 
@@ -60,7 +60,7 @@ FIELD Nummer,b.KtrNummer,I4,8,COLOR=(colorKontraktstatus,1=GELB/GRÜN,2=SCHWARZ/
   </auswahllistenbeschreibung>
 ```
 
-<p class="just-emphasize">XML-Tag &lt;color></p>
+#### XML-Tag &lt;color>
 
 Ein oder mehrere dieser Tags können sich unter einem &lt;field> - Tag befinden. Das Tag dient der Beschreibung einer Farbe. Bei der Beschreibung wird nicht die Farbe angegeben, sondern die Nummer wird als Attribut („nr“) aus dem SQL-Text FIELD verwendet.
 
@@ -82,7 +82,7 @@ FIELD Nummer,b.KtrNummer,I4,8,COLOR=(colorKontraktstatus,1=GELB/GRÜN,2=SCHWARZ/
   </auswahllistenbeschreibung>
 ```
 
-<p class="just-emphasize">Vollständiges Beispiel</p>
+#### Vollständiges Beispiel
 
 Im SQL-Text müssen die Informationen mit einem XML anfangen. Die XML-Struktur selber muss als erstes Zeichen einer Zeile immer ein Leerzeichen enthalten.
 

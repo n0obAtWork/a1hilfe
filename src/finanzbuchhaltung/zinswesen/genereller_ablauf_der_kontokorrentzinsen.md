@@ -15,7 +15,7 @@ Die Abwicklung der Zinsen findet in zwei Stufen statt.
 - Errechnen der Zinsen als Zinsvorschläge
 - Weiterbearbeitung dieser Vorschläge (Übernahme in die Primanota, Drucken, ...)
 
-Zinsvorschläge erstellen
+**Zinsvorschläge erstellen**
 
 Hauptmenü \> Mahn-/Zahl-/Zinswesen \> Zinswesen \> Zinsvorschläge erstellen
 
@@ -41,11 +41,11 @@ Unter Einrichterparameter gibt es drei Optionen
 - **Zinssaldo vor Neuerstellung testen**  
 Man hat hier drei Einstellungsmöglichkeiten:
 
-  1. Ignorieren: Es findet kein Test stat.
+1. Ignorieren: Es findet kein Test stat.
 
-  2. Fehler: Wenn sich der „Zinssaldo laut Belegen“ von dem „Zinssaldo laut letzter Abrechnung“ unterscheidet, ist eine Erstellung einer neuen Abrechnung nicht möglich.
+2. Fehler: Wenn sich der „Zinssaldo laut Belegen“ von dem „Zinssaldo laut letzter Abrechnung“ unterscheidet, ist eine Erstellung einer neuen Abrechnung nicht möglich.
 
-  3. Warnung: Es wird gegebenenfalls auf eine Abweichung des Saldos hingewiesen. Der Anwender kann sich dann noch entscheiden, ob er die Zinsen berechnen lassen möchte oder nicht. Dies ist die neue Standardeinstellung.
+3. Warnung: Es wird gegebenenfalls auf eine Abweichung des Saldos hingewiesen. Der Anwender kann sich dann noch entscheiden, ob er die Zinsen berechnen lassen möchte oder nicht. Dies ist die neue Standardeinstellung.
 
 - **Alte Zinsrechnung überprüfen**  
 Diese Option wird nur ausgewertet, wenn „Version zurückstellen“ auf „Nein“ steht. Steht diese Option auf „Ja“, so werden beim Zinslauf automatisch alle alten Zinsabrechnungen dieses Kalenderjahres, die der Auswahl entsprechen nachgerechnet. Dabei wird der Eröffnungssaldo der ersten Zinsabrechnung inklusive aller Nachbuchungen als Eröffnung herangezogen und anschließend alle Zinsabrechnungen nachgerechnet. Nachträgliche Buchungen, die bisher nur in der folgenden Zinsabrechnung berücksichtigt wurden, werden beim „Nachrechnen“ der korrekten Periode zugewiesen. Das Ergebnis wird in den Feldern ZINSABRSOLLZRECALC, ZINSABRHABENZRECALC, ZINSABRSTARTSALDORECALC, ZINSABRSALDORECALC festgehalten.  
@@ -74,7 +74,7 @@ Es wurde für die im Konto ???? eingetragene Zinsgruppe kein gültiger Zinssatz 
 Für dieses Konto existiert bereits eine Zinsabrechnung, deren Stichtag größer ist als der hier angegebene.  
     
 
-Zinsvorschläge (DRUCK)
+**Zinsvorschläge (DRUCK)**
 
 Hauptmenü \> Mahn-/Zahl-/Zinswesen \> Zinswesen \> Zinsvorschlagsliste
 
@@ -90,7 +90,7 @@ Bagatellzinsen ausblenden bedeutet, dass die Konten, deren Zinssaldo unterhalb d
 
 Zur Einrichtung des Formulars siehe „[Zinsabrechnung über Zinsformulare drucken](./zinsabrechnung_ueber_zinsformulare_formulartyp_203_drucken.md)“.
 
-Zinsabrechnung bearbeiten
+**Zinsabrechnung bearbeiten**
 
 Hauptmenü \> Mahn-/Zahl-/Zinswesen \> Zinswesen \> Zinsabrechnung bearbeiten
 

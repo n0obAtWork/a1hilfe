@@ -18,7 +18,7 @@ Auf dem Register ***Zusatz*** sind folgende Felder zu sehen:
       </tr>
       <tr>
         <td>
-          <p>Telefon</p>
+          <p><strong>Telefon</strong></p>
         </td>
         <td>
           <p>Die Telefonnummer des Ansprechpartners, wenn nicht im Bediener hinterlegt.</p>
@@ -26,7 +26,7 @@ Auf dem Register ***Zusatz*** sind folgende Felder zu sehen:
       </tr>
       <tr>
         <td>
-          <p>E-Mail-Adresse</p>
+          <p><strong>E-Mail-Adresse</strong></p>
         </td>
         <td>
           <p>Die E-Mail-Adresse des Ansprechpartners, wenn nicht im Bediener hinterlegt.</p>
@@ -48,7 +48,7 @@ Der Ansprechpartner stellt eine Person im eigenen Unternehmen dar, welche Sie be
       </tr>
       <tr>
         <td>
-          <p>Dateipfad</p>
+          <p><strong>Dateipfad</strong></p>
         </td>
         <td>
           <p>Dort werden die erstellten XMLs hinterlegt.</p>
@@ -56,7 +56,7 @@ Der Ansprechpartner stellt eine Person im eigenen Unternehmen dar, welche Sie be
       </tr>
       <tr>
         <td>
-          <p>Dateipfad Test</p>
+          <p><strong>Dateipfad Test</strong></p>
         </td>
         <td>
           <p>Dort werden die XMLs hinterlegt, welche durch die Funktion <strong><em>Rechnung testen</em></strong> erstellt wurden.</p>
@@ -64,7 +64,7 @@ Der Ansprechpartner stellt eine Person im eigenen Unternehmen dar, welche Sie be
       </tr>
       <tr>
         <td>
-          <p>Webservice</p>
+          <p><strong>Webservice</strong></p>
         </td>
         <td>
           <p>Ob die eRechnung an einen Webservice zur Verifikation weitergeleitet wird, dabei gibt es folgende Möglichkeiten:</p>
@@ -75,7 +75,7 @@ Der Ansprechpartner stellt eine Person im eigenen Unternehmen dar, welche Sie be
       </tr>
       <tr>
         <td>
-          <p>Versandprozedur</p>
+          <p><strong>Versandprozedur</strong></p>
         </td>
         <td>
           <p>(! Nur im Exportformat UBL !)</p>
@@ -84,7 +84,7 @@ Der Ansprechpartner stellt eine Person im eigenen Unternehmen dar, welche Sie be
       </tr>
       <tr>
         <td>
-          <p>Dateinamensfkt.</p>
+          <p><strong>Dateinamensfkt.</strong></p>
         </td>
         <td>
           <p>Hier kann eine Datenbankfunktion zur Findung des Dateinamens eingetragen werden. Als Standard gilt „AMIC_STD_XRE_Filename“.</p>

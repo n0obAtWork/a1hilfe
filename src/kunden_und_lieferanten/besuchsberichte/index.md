@@ -106,7 +106,7 @@ Direktsprung **[BB]**
   </table>
 </div>
 
-<p class="just-emphasize">Einrichterparameter für Besuchsberichte</p>
+### Einrichterparameter für Besuchsberichte
 
 <div class="table-wrapper">
   <table>
@@ -420,7 +420,7 @@ Direktsprung **[BB]**
   </table>
 </div>
 
-<p class="just-emphasize">Anlagen</p>
+### Anlagen
 
     
 Die Anlagenverwaltung in den Besuchsberichten ist veraltet. Bitte das Archiv verwenden.

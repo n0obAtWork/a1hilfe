@@ -4,7 +4,7 @@
 
 PDF-Erzeugung wurde auf Version Dynaforms 4.0.70.198 aktualisiert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 0[32879]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/systeminformation.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2210.20, 32879, 0

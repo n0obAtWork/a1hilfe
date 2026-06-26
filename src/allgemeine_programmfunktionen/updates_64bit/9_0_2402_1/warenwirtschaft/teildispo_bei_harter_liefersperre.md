@@ -4,7 +4,7 @@
 
 Bei eingestellter harter Liefersperre im Kunden wurde die Meldung dazu im Rahmen der Teildisposition nicht korrekt angezeigt. Dies wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 731498[34897]
 
@@ -20,6 +20,6 @@ Funktion/Report: Teildisposition Lieferschein
 
 [Weitere Informationen](http://www.amic.de/hilfe/auftrag.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.1, 34897, 731498

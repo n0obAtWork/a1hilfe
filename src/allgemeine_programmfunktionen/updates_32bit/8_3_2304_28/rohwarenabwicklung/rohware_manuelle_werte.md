@@ -4,7 +4,7 @@
 
 Es gibt zwei neue Rohwareparameter in [RWPA]: "Qualitätsergebnis bearbeitbar" mit der Nummer 192 und "Kostenergebnis bearbeitbar" mit der Nummer 193. Diese Rohwareparameter können global, für Rohwaregruppen und Abrechnungsschemata mit dem Wert Ja eingestellt werden, wenn Abrechnungswerte einzelner Qualitäts- oder Kostenzeilen manuell geändert werden dürfen. Der Standardwert ist Nein. Die Rohwarebearbeitungsmaske wurde diesbezüglich um 3 weitere Spalten ergänzt. Manueller Wert in einem Feld kann zurückgesetzt werden, indem das entsprechende Eingabefeld geleert wird und mit Return bestätigt wird. Eine Änderung von Analysewert oder Basiswerten bewirkt auch eine Neuberechnung und damit ein Zurücksetzung auf den ursprünglichen, nicht manuellen Wert. Dieses gilt auch für die Rohwarestapelkorrektur. Nähere Informationen sind der Hilfe zu entnehmen.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 714243[33525]
 
@@ -20,6 +20,6 @@ Funktion/Report: F8, F5
 
 [Weitere Informationen](http://www.amic.de/hilfe/rohwarebelegeerfassen.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2304.28, 33525, 714243

@@ -4,7 +4,7 @@
 
 Paralleles Bearbeiten des Rosi-Exports ist nicht mehr möglich und die Fehlerprotokoll-Prüfung wird auf die Datenbank-Verbindung beschränkt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 718777[33940]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/ausgehendenachrichtenbatch.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 33940, 718777

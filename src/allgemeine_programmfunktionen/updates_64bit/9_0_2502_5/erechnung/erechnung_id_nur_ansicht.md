@@ -4,7 +4,7 @@
 
 Bei der direkten Erfassung von Eingangs-Rechnungen und -Gutschriften aus [FIBE] kann die eRechnungs-ID nicht mehr gepflegt werden. Dies geschieht über das Modul Belegfluss.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 748264[37640]
 
@@ -20,6 +20,6 @@ Funktion/Report: Fibu Beleg Erfassen (ER / EG)
 
 [Weitere Informationen](http://www.amic.de/hilfe/!belegerfassung.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 37640, 748264

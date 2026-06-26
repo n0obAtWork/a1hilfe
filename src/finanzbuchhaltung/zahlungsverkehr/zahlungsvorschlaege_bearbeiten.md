@@ -17,17 +17,17 @@ In der Spalte Verfahren können folgende Werte stehen:
 Folgende Funktionen stehen für die Bearbeitung zur Verfügung:  
     
 
-<p class="just-emphasize">Zahlungsvorschlagsliste</p>
+#### Zahlungsvorschlagsliste
 
 Es kann ein Crystal-Report der Zahlungsvorschläge gedruckt werden. Dieser Report lässt sich nach Listennummer und nach Kontonummer eingrenzen.
 
-<p class="just-emphasize">Liste über Formular – F8</p>
+#### Liste über Formular – F8
 
 Es lässt sich auch ein Formular einrichten, das dann die Zahlungsvorschläge auflistet. Innerhalb dieses Formulars, das die aktuell angewählte Liste druckt, lässt sich die Sortierung wählen.
 
 ![](../../ImagesExt/image8_650.png)
 
-<p class="just-emphasize">Zahlungsvorschläge ändern – F5</p>
+#### Zahlungsvorschläge ändern – F5
 
 Es erscheinen die Positionen des Zahlungsvorschlags in einer weiteren Auswahlliste. Dort stehen dann einige Funktionen zur Bearbeitung zur Verfügung:
 
@@ -36,9 +36,9 @@ Es erscheinen die Positionen des Zahlungsvorschlags in einer weiteren Auswahllis
 - ***Skonto bearbeiten* F5** ist die Möglichkeit, Skonto zu ändern.
 - ***Kundenbank ändern* Shift+F9** ermöglicht es, die Bank des Kunden zu ändern oder auch neu zu erfassen. Eine Bankverbindung muss hier hinterlegt sein, wenn man Zahlungen per Datenträgeraustausch (DTA) abwickeln möchte. Hier existieren zwei Einrichterparameter:
 
-  1. Im autom. Zahlungsverkehr Sperre und Ablaufdatum bei manueller Auswahl ignorieren: Es kann eingestellt werden, dass Inaktive Bankverbindungen mit herangezogen werden können.
+1. Im autom. Zahlungsverkehr Sperre und Ablaufdatum bei manueller Auswahl ignorieren: Es kann eingestellt werden, dass Inaktive Bankverbindungen mit herangezogen werden können.
 
-  2. Im autom. Zahlungsverkehr bei diversen Kunden die Bankverbindung nicht speichern: Es wird die Bankverbindung nur im Zahlungsvorschlag hinterlegt und nicht für eine spätere erneute Verwendung in den Kundenbanken hinterlegt. Für das SEPA-Lastschriftverfahren ist dies wegen des Mandats nicht möglich.
+2. Im autom. Zahlungsverkehr bei diversen Kunden die Bankverbindung nicht speichern: Es wird die Bankverbindung nur im Zahlungsvorschlag hinterlegt und nicht für eine spätere erneute Verwendung in den Kundenbanken hinterlegt. Für das SEPA-Lastschriftverfahren ist dies wegen des Mandats nicht möglich.
 
 - ***DTA-Texte* Strg+F8** (Muss über SPA frei geschaltet werden) hier lassen sich für den DTA einige Einstellungen vornehmen.
 
@@ -48,11 +48,11 @@ Es erscheinen die Positionen des Zahlungsvorschlags in einer weiteren Auswahllis
 
 - Mit &lt; **>** bzw. mit **Strg** und den **Pfeiltasten** kann zwischen den Konten geblättert werden.
 
-<p class="just-emphasize">Löschen – F7</p>
+#### Löschen – F7
 
 Der komplette Zahlungsvorschlag kann gelöscht werden. Die OP’s werden wieder in den Status versetzt, den sie vor dem Erstellen der Zahlungsvorschläge hatten. Es kann anschließend also das Erstellen wiederholt werden.
 
-<p class="just-emphasize">Freigabe - F6</p>
+#### Freigabe - F6
 
 Wenn die Zahlungsvorschläge kontrolliert worden sind, werden sie über diese Funktion zur Zahlung freigegeben. Vor der Freigabe übernimmt das Programm noch einige Tests um den ordnungsgemäßen Ablauf der Zahlung zu gewährleisten. Da bei freigegebenen Zahlungen die Bankverbindung nicht mehr änderbar ist, muss bereits hier festgelegt werden, ob und in welcher Form sie benötigt wird. Daher wird zuerst abgefragt, wofür die Zahlungsvorschläge freigegeben werden sollen:
 

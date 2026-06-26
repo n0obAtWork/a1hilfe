@@ -4,7 +4,7 @@
 
 Alternativ zum Formular für den Mailbody kann in den Zinsgruppen auch ein Datenbankfunktion hinterlegt werden
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 735345[35789]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/zinsgruppen.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 35789, 735345

@@ -4,7 +4,7 @@
 
 Im Artikelstamm [ARS] werden Artikel nun auch als Gefahrgut gekennzeichnet, wenn in der Zusammensetzung, in der Gefahrgutmaske, andere Artikel hinterlegt wurden.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 742052[36541]
 
@@ -20,6 +20,6 @@ Funktion/Report: [ARS]
 
 [Weitere Informationen](http://www.amic.de/hilfe/_artikelstammundartik.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 36541, 742052

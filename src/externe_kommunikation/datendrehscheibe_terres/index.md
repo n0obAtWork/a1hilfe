@@ -4,17 +4,17 @@
 
 Hauptmenü > Externe Kommunikation > Datendrehscheibe [**TERRE**]
 
-<p class="just-emphasize">Informationen</p>
+#### Informationen
 
 Aus dem Terres System können Artikel, Preise, Lieferanten und Buchungsdaten in A.eins eingespielt werden. Die von Terres bereitgestellten Daten werden auf einem Download Server bereitgestellt. Der Datenaustausch findet bei Terres über XML statt. Die Struktur der Dateien ist anhand dieser XML Datei ersichtlich.
 
 Bei der Ersteinrichtung eines Marktes werden ca. 300000 Artikel nebst Preisen und Lieferanten in XML bereitgestellt und in das A.eins System eingespielt.
 
-<p class="just-emphasize">Importieren der Daten in das A.eins System</p>
+#### Importieren der Daten in das A.eins System
 
 Sind alle von Terres stammende XML Dateien mit den Artikeln und Preisen von dem Download Server kopiert worden, können diese in das A.eins System eingespielt werden. Es gibt zwei Wege wie die Terres Dateien in das System A.eins eingespielt werden können. Durch einen [Automatisch](./index.md#Nachtlauf)en Nachtlauf welcher per Event gesteuert wird, oder durch einen manuellen Lauf der per Hand ausgelöst wird.
 
-<p class="just-emphasize">Bevor die XML Datei in das A.eins System eingespielt werden, müssen noch einige Einstellungen berücksichtig werden.</p>
+#### Bevor die XML Datei in das A.eins System eingespielt werden, müssen noch einige Einstellungen berücksichtig werden.
 
 Hauptmenü > Externe Kommunikation \> Datendrehschreibe > Artikelimportverfahren Direktsprung **[TERRE]**
 
@@ -34,7 +34,7 @@ Wenn die Daten korrekt eingelesen werden konnten, werden die Dateien in „\*.XM
 
 Die eigentliche Verarbeitung der XML-Dateien erfolgt durch eine Funktion mit dem Namen „TERRES_IMPORT“. Diese hat keine Parameter und liefert als Ergebnis die Anzahl der eingelesenen Datensätze oder eine Zahl kleiner 0, wenn ein Fehler aufgetreten ist.
 
-<p class="just-emphasize">Soll der Nachtlauf per Event passieren, sollte das Event folgenden Struktur besitzen.</p>
+#### Soll der Nachtlauf per Event passieren, sollte das Event folgenden Struktur besitzen.
 
 Der Artikelimport wurde so entwickelt, dass er auch automatisiert über ein Event gesteuert werden kann. Sind die entsprechenden Optionen - Datei-Verzeichnis, privatisierbare Funktionen, Lagerzuordnung sowie die Importumsetzer Schlüsselklassen – eingerichtet, kann man sich ein Event einrichten, dass die Daten täglich aktualisiert. Dazu richtet man sich einen neues [Event](../../zusatzprogramme/client_cache/index.md) (Direktsprung [**EVT]**) ein. Auf dem Register Vorlagen kann man für die Datendrehscheibe eine Vorlage aktivieren, die den Dateiimport und den Artikelimport übernimmt Der Parameter „in_ArtikelImport“ in der Prozedur „amic_evt_datendrehscheibe“ kann die Ausprägung 0 oder 1 annehmen. Bei 0 werden die Artikel nicht in das A.eins System übernommen, die Daten werden nur in ArtikelStammTerres eingespielt. Bei 1 werden die Daten auch gleich in das A.eins System komplett eingespielt.
 
@@ -51,15 +51,15 @@ begin
 end
 ```
 
-<p class="just-emphasize">Auswahlliste und Bedeutung einzelner Felder</p>
+#### Auswahlliste und Bedeutung einzelner Felder
 
 Nachdem die Dateien eingespielt worden sind, kennzeichnet die zugehörige Auswahlliste die Situation der Gesamtübernahme. Hierbei werden die noch nicht übernommenen Datensätze (Terres Artikel in das A.eins System) in Gelb gekennzeichnet. Alle noch nicht korrekt zugeordneten Umschlüsselwerke werden in rot markiert. Des Weiteren werden ausgelistete Artikel rot markiert. Ablaufende Artikel werden gelb markiert. Es existiert eine Filter Möglichkeit auf der Auswahlliste.
 
-<p class="just-emphasize">Querverweis zu Terresspezifische Ausprägungen des Terres-Artikels wäre schön</p>
+#### Querverweis zu Terresspezifische Ausprägungen des Terres-Artikels wäre schön
 
 Bevor die eigentliche Artikeldatenübernahme angestoßen wird (auch automatisch möglich), müssen aus dieser Auswahlliste heraus die rot markierten Datensätze im Umschlüsselwerk [bearbeitet](../importumsetzer.md) werden. Die gelb markierten Datensätze zeigen an, dass noch nicht das [Importverfahren](./index.md#ueb_bereich_importumsetzer) in die A.eins Stammsätzen durchgelaufen ist.
 
-<p class="just-emphasize">Funktionen in der Auswahlliste</p>
+#### Funktionen in der Auswahlliste
 
 | ![\*](../../ImagesExt/image8_1555.jpg "*") Funktion | ![\*](../../ImagesExt/image8_1555.jpg "*") Funktionstaste | ![\*](../../ImagesExt/image8_1555.jpg "*") Bedeutung |
 | --- | --- | --- |
@@ -75,7 +75,7 @@ Bevor die eigentliche Artikeldatenübernahme angestoßen wird (auch automatisch 
 | ![\*](../../ImagesExt/image8_1556.jpg "*") Fehlerprotokoll | ![\*](../../ImagesExt/image8_1556.jpg "*") CF9 | ![\*](../../ImagesExt/image8_1556.jpg "*") Diese Funktion ruft das Fehlerprotokoll auf. |
 | ![\*](../../ImagesExt/image8_1556.jpg "*") Event Manager | ![\*](../../ImagesExt/image8_1556.jpg "*") SCF9 | ![\*](../../ImagesExt/image8_1556.jpg "*") Diese Funktion ruft den Event Manager auf. |
 
-<p class="just-emphasize">Beschreibung einzelner Felder der Auswahlliste</p>
+#### Beschreibung einzelner Felder der Auswahlliste
 
 Es werden nur einzelne Felder beschrieben. Die Auswahlliste zeigt die wichtigen Informationen aus dem Terres System und den A.eins Kennzeichen an. Die Kennzeichen, die aus dem Terres System stammen, fangen immer mit einem „T-“ an. Die umgeschlüsselten Werte aus dem A.eins System fangen immer mit „A-“ an.
 
@@ -85,7 +85,7 @@ Es werden nur einzelne Felder beschrieben. Die Auswahlliste zeigt die wichtigen 
 | ![\*](../../ImagesExt/image8_1556.jpg "*") Preisstatus | ![\*](../../ImagesExt/image8_1556.jpg "*") Das Kennzeichen wird auf 1 gesetzt, wenn Preisänderungen zu diesem Artikel existieren. |
 | ![\*](../../ImagesExt/image8_1556.jpg "*") Etikett | ![\*](../../ImagesExt/image8_1556.jpg "*") Das Kennzeichen wird auf 1 gesetzt, wenn neue Etiketten gedruckt werden sollen. Nach erfolgreichem Etikettendruck muss das Feld auf 0 zurückgesetzt werden. |
 
-<p class="just-emphasize">Funktion Artikelimport F9</p>
+#### Funktion Artikelimport F9
 
 Tatsächliche Übernahme der Daten in den A.einsArtikelstamm.
 
@@ -97,7 +97,7 @@ Die Prozeduren können privatisiert werden um spezifische Anforderungen eines Ma
 
 Mit der Einstellung „Neue Preise gültig in … Tagen“, kann eingerichtet werden, in wie viel Tagen die neuen Preise gelten sollen. Somit besteht die Möglichkeit neue Etiketten rechtzeitig zu drucken und die Artikel im Markt auszuzeichnen.
 
-<p class="just-emphasize">Lagerzuordnung</p>
+#### Lagerzuordnung
 
 In der Lagerzuordnung können mehrere Läger eingetragen werden. Dies bedeutet jedes Lager kann eine andere Einstellung haben.
 
@@ -113,7 +113,7 @@ In der Lagerzuordnung können mehrere Läger eingetragen werden. Dies bedeutet j
 | ![\*](../../ImagesExt/image8_1556.jpg "*") Musterartikel | ![\*](../../ImagesExt/image8_1556.jpg "*") Musterartikel welcher bei der Einspielung berücksichtig werden soll. Dieser muss eingerichtet werden, da vor dem Übernehmen des Artikels ein Musterabgleich durchgeführt wird.<br>![\*](../../ImagesExt/image8_1556.jpg "*") Es ist auf jeden Fall darauf zu achten, dass im Musterartikel die richtige Preismatrix zu der jeweiligen Preisliste eingetragen worden ist. Ansonsten können die Preise den Artikeln nicht ordnungsgemäß zugeordnet werden. |
 | ![\*](../../ImagesExt/image8_1556.jpg "*") Artikel-Bezeichnung | ![\*](../../ImagesExt/image8_1556.jpg "*") Bezeichnung des Musterartikels |
 
-<p class="just-emphasize">Bereich Importumsetzer</p>
+#### Bereich Importumsetzer
 
 Der Bereich Importumsetzer ist eigentlich das Herzstück der Terres Schnittstelle.In diesem Umschlüsselwerkwerden den Terres spezifischen Kennzeichen wie z.B. Warengruppe der Warengruppe in A.eins zugeordnet.
 
@@ -135,15 +135,15 @@ Es existieren bislang sechs Kennzeichen die Umgeschlüsselt werden.
 
 Bevor die Artikel übernommen werden können, müssen die Umschlüsselungen vorgenommen werden. Bei der ersten Einrichtung des Marktes empfehlen wir die Tabellarischeansicht zu verwenden. Dazu werden auf der Ansichtsmaske die einzelnen Punkte aufgerufen. Sie können aber auch im Importumsetzer [**IMPUM**] in der Variante „Import-Umsetzer“ „***Ändern(Tabellarisch)***“ [**F5**] aufrufen. Es ist dabei zu beachten, dass bei der Ersteinrichtung das Aufrufen der tabellarischen Ansicht etwas länger dauert. Bei nachträglichen Einspielungen, die neue Kennzeichen enthalten, lassen sich im Importumsetzer die neuen Kennzeichen einfach nachpflegen.
 
-<p class="just-emphasize">Was muss noch beachtet werden vor dem Artikelimport</p>
+#### Was muss noch beachtet werden vor dem Artikelimport
 
 Im Artikelstamm auf der Registerkarte [Markt](../../artikelstamm_und_artikel/parameter_des_artikelstamms/registerkarte_markt.md) existiert die Möglichkeit Einstellungen vorzunehmen, dass ein vorhandener Artikel oder Ausprägungen des Artikels nicht von Terres abgeändert werden darf.
 
 Nach dem die Ümschlüsselung abgeschlossen ist, die Musterartikel eingerichtet und eventuell die Kennzeichen im Artikelstamm gesetzt worden sind, können die Terres Daten mit „***Artikelimport***“ [**F9**] nun in das A.eins System übernommen werden.
 
-<p class="just-emphasize">Terresspezifische Ausprägungen des Terres-Artikels</p>
+#### Terresspezifische Ausprägungen des Terres-Artikels
 
-<p class="just-emphasize">Preise</p>
+#### Preise
 
 Der Preise steuert, ob ein Artikel ausläuft oder abgekündigt wird.
 
@@ -151,7 +151,7 @@ Der Preise steuert, ob ein Artikel ausläuft oder abgekündigt wird.
 
 2. Wenn ein Artikel den Preis 9999 bekommen hat, ist dieser abgekündigt worden. Des Weiteren wird der Preis von 9999 nicht mehr in das A.eins System übernommen, und das Kennzeichen „Preispflege durch Datendrehscheibe“ wird auf der Registerkarte [Markt](../../artikelstamm_und_artikel/parameter_des_artikelstamms/registerkarte_markt.md) im Artikelstamm auf „unterdrücken“ gesetzt.
 
-<p class="just-emphasize">Preiseinheiten</p>
+#### Preiseinheiten
 
 Die Preiseinheit und der Preiseinheitscode eines Artikels werden beim Artikelimport in den A.eins Artikelstamm eingetragen. Diese werden auf der Registerkarte Markt im Artikelstamm angezeigt. Die Preiseinheit hat zwölf stellen. Der Preiseinheitscode wird als Text gespeichert z.B. Kg
 
@@ -161,7 +161,7 @@ Preiseinheit \* Preis des Artikels
 
 Diese Informationen können auf dem Etikett mit angedruckt werden.
 
-<p class="just-emphasize">„Gebinde“</p>
+#### „Gebinde“
 
 Ein Gebinde Artikel hat in dem Verkauf-Einheitencode der XML Struktur das Kennzeichen GBD. Ist dieses Kennzeichen gesetzt, so wird in die Preiseinheit des Artikels die „Menge-pro-Einheit“ aus dem Knoten „Std-Artikeleinheit“ mit dem „Code“ GBD übernommen. Die Grundpreiseinheit wird als Mengeneinheit des Artikelpreises genommen.
 

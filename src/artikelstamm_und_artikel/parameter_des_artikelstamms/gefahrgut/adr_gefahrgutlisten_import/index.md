@@ -32,7 +32,7 @@ Hat man von benannter Bundesanstalt eine BAM-Listen Lizenz erworben, hat man mit
 | **Nummer zur Kennzeichnung der Gefahr** | Enthält eine Nummer, die für Stoffe und Gegenstände der Klassen 2 bis 9 aus zwei oder drei Ziffern (in bestimmten Fällen mit vorangestelltem Buchstaben „X“) und für Stoffe und Gegenstände der Klasse 1 aus dem Klassifizierungscode besteht. |
 | **UN-Nummer** | Kennnummer, für alle gefährlichen Stoffe, die gleichzeitig als gefährliche Güter gelten. Als Ziffer |
 
-<p class="just-emphasize">Funktionen</p>
+### Funktionen
 
 | Funktion | Funktionstaste | Beschreibung |
 | --- | --- | --- |

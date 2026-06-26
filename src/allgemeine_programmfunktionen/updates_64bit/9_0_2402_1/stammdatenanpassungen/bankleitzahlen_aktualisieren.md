@@ -4,7 +4,7 @@
 
 Für die Funktion Banken aktualisieren stehen die Daten der Deutschen Bundesbank gültig vom 03.06.2024 bis 08.09.2024 zur Verfügung. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 733825[35218]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/bankenstamm.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.1, 35218, 733825

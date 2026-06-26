@@ -4,7 +4,7 @@
 
 A.eins schreibt seine temporären Daten jetzt gesammelt in das Unterverzeichnis "A.eins" im Temp-Verzeichnis.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 716156[33257]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/-)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2212.23, 33257, 716156

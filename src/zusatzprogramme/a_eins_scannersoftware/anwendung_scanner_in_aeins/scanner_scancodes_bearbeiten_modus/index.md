@@ -10,7 +10,7 @@ In der ersten Variante in [SCTCP] können die Standard Einstellungen der Scancod
 | Scantyp | Inventur-Start | Dies ist das FS Format SCANAITYP. Dieses beschreibt um was für einen Scantyp es sich handelt. |
 | Scancode Numerisch | \-106 | Die numerische Funktion die hinter dem Scancode 106 steht. |
 
-<p class="just-emphasize">Registerkarte Allgemein</p>
+#### Registerkarte Allgemein
 
 | Maskenfelder | Inhalt | Bedeutung |
 | --- | --- | --- |
@@ -28,7 +28,7 @@ In der ersten Variante in [SCTCP] können die Standard Einstellungen der Scancod
 | Privates Makro | | Möglichkeit einer privaten Prüffunktion die bei jedem Scannen aufgerufen wird. |
 | Scancode Script | | |
 
-<p class="just-emphasize">Registerkarte AI Zuordnung</p>
+#### Registerkarte AI Zuordnung
 
 | **AI-Nr.** | **Application Identifier** | **Gruppennr.** | **Typ** | **Optional** |
 | --- | --- | --- | --- | --- |
@@ -54,7 +54,7 @@ Die Gruppennummer 1 wird für AI-Codes verwendet bei denen es sich um EAN-Codes 
 Handelt es sich beim AI-Code um eine/ein Menge/Gewicht, dann wird die Gruppennr. 2 eingetragen.  
 Gruppennr. 3 gilt für Charge/Partie.
 
-<p class="just-emphasize">Registerkarte Zugelassene Scancodes</p>
+#### Registerkarte Zugelassene Scancodes
 
 ![](../../../../ImagesExt/image8_1397.jpg)
 

@@ -4,7 +4,7 @@
 
 Die Performance im Aufbau der Auswahllisten in der Anwendung eRechnung [XRE] wurde durch Überarbeitung des Datenbankschemas (Indizes) optimiert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 747987[37471]
 
@@ -20,6 +20,6 @@ Funktion/Report: Auswahllistengenerierung
 
 [Weitere Informationen](http://www.amic.de/hilfe/importiertevorgnge.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 37471, 747987

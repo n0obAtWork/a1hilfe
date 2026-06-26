@@ -2,31 +2,31 @@
 
 <!-- source: https://amic.de/hilfe/setdelimiterstatement.htm -->
 
-<p class="just-emphasize">Syntax</p>
+#### Syntax
 
 SET DELIMITER [?]
 
-<p class="just-emphasize">Purpose</p>
+#### Purpose
 
 Legt das Trennzeichen in Ausgabedateien fest;
 
-<p class="just-emphasize">Anwendung</p>
+#### Anwendung
 
 Kommandodatei, Befehlszeile
 
-<p class="just-emphasize">Berechtigung</p>
+#### Berechtigung
 
 Alle Anwender
 
-<p class="just-emphasize">Siehe auch</p>
+#### Siehe auch
 
 [SET COMMAND_DELIMITER](./set_command_delimiter_statement.md)
 
-<p class="just-emphasize">Beschreibung</p>
+#### Beschreibung
 
 Im Normalfall ist das Trennsymbol zwischen den Datenspalten das Leerzeichen> &lt;. Will man dies umdefinieren so geschieht dies durch diesen Befehl. Es wird erst durch erneutes setzen zurückdefiniert;
 
-<p class="just-emphasize">Beispiel</p>
+#### Beispiel
 
 SET DELIMITER ,;
 

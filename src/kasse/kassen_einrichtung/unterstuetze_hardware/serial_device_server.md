@@ -8,6 +8,6 @@ Die Daten selbst werden vom Treiber oder von einer Software an eine Netzwerkadre
 
 In A.eins sind beide Verwendungsmöglichkeiten (virtueller COM-Port und Netzwerk-Port) möglich. Siehe [Kassensystemeinstellung Displayeinstellungen](../kassensystemverwaltung_hardware/index.md#Kassensystem_Display)
 
-<p class="just-emphasize">MOXA NPort 5110/EU V2.0</p>
+#### MOXA NPort 5110/EU V2.0
 
 Ist bei uns für die Entwicklung der Ansteuerung per IP verwendet worden. Netzwerkport ist 950.

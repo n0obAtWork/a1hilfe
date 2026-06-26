@@ -28,12 +28,11 @@ Bereits erfasste oder aus der Warenwirtschaft übertragene Belege können wieder
 
 2. Bestimmte automatisch erstellte Belege dürfen nicht gelöscht werden. Zu diesen Belegen gehören Skontobuchungen und Kursdifferenzen. Es erscheint dann die Meldung:
 
-    
 **„Kursdifferenzbuchung &lt;Belegnummer> kann nicht gelöscht werden!“**  
 bzw.  
 **„Skontobuchung &lt; Belegnummer> kann nicht gelöscht werden!“**
 
-Wenn diese Belege falsch sind, so muss die Auszifferung zurückgesetzt werden. Die Belege werden dann automatisch gelöscht bzw. wenn sie schon gebucht waren, werden automatisch Stornobelege erstellt.
+   Wenn diese Belege falsch sind, so muss die Auszifferung zurückgesetzt werden. Die Belege werden dann automatisch gelöscht bzw. wenn sie schon gebucht waren, werden automatisch Stornobelege erstellt.
 
 3. Ist der Beleg bereits gebucht bzw. schon für das Buchen vorgesehen, kann er nicht mehr gelöscht werden. Man muss diesen Beleg dann Stornieren. Es erscheint in diesem Fall die Meldung  
 **„Beleg &lt; Belegnummer > kann nicht gelöscht werden, da bereits gebucht bzw. in Vorbereitung!“**
@@ -43,7 +42,7 @@ Um ein versehentliches doppeltes Bezahlen zu vermeiden, wird das Löschen mit de
 Bei Belegen, die nicht gebucht werden konnten, weil sie Fehlerhaft sind, erscheint an Stelle der Meldung eine Abfrage:  
     
 
-**„ACHTUNG! Dieser Beleg ist schon durch den automatischen Zahlungsverkehr beglichen worden.  
+   **„ACHTUNG! Dieser Beleg ist schon durch den automatischen Zahlungsverkehr beglichen worden.  
 Wollen sie ihn trotzdem löschen?“**
 
 5. Zinsbelege, die durch OpenTrans verarbeitet wurden, werden können hier nicht gelöscht werden. Sie müssen in der Zinsabrechnung storniert werden. Es erscheint eine entsprechende Meldung
@@ -59,7 +58,7 @@ Wollen sie ihn trotzdem löschen?“**
 
 Sind alle Tests ohne Probleme durchgeführt worden, wird der Beleg gelöscht. Dabei werden alle eventuell vorhandenen Auszifferungen automatisch zurückgesetzt und der Beleg aus eventuell vorhandenen Mahnungen, Zahlungsbelegen und Zahl- bzw. Mahnvorschlagslisten gelöscht. Belege, die aus der Warenwirtschaft übertragen wurden, werden in der Warenwirtschaft zurückgesetzt, so dass sie dort wieder in dem Zustand sind, als wären sie nicht übertragen worden.
 
-<p class="just-emphasize">Löschen im Batchmode</p>
+#### Löschen im Batchmode
 
 In den Standardvorgängen Finanzbuchhaltung – Direktsprung **[FISV]** – ist die Funktion zum Löschen von Belegen in der Variante „ungebuchte Belege“ integriert. Hier kann man mehrere Belege gleichzeitig markieren und dann löschen. Die Abfrage, ob gelöscht werden soll erscheint nur einmal zu Beginn. Danach werden die Belege nacheinander abgearbeitet. Belege die nicht verarbeitet werden können, werden am Ende aufgelistet. Hier kann es vorkommen, dass Belege, die in der Einzelanwahl gelöscht werden können, abgewiesen werden. Dabei handelt es sich immer um die Sonderfälle, bei denen noch eine Nachfrage nötig gewesen wäre. Zum Beispiel erscheint statt der Abfrage für in der Anlagenbuchhaltung zugewiesene Belege (s.o.) dann am Ende folgende Meldung:
 

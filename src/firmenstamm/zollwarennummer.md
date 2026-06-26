@@ -4,7 +4,7 @@
 
 Hauptmenü > Warenverkauf > Ausfuhrbearbeitung > Zollwarennummern
 
-[ZWN]
+**[ZWN]**
 
 Zollwarennummern sind Nummern, die eine Ware im internationalen Warenverkehr kennzeichnen. Sie sind jeweils für die Dauer von einem Jahr gültig und werden vom [Bundesamt für Statistik in Wiesbaden](http://www.destatis.de/) in Wiesbaden als Liste herausgegeben.
 

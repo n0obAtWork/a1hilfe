@@ -246,7 +246,7 @@ oder Direktsprung **[SAATE]**
   </table>
 </div>
 
-<p class="just-emphasize">Folgende Funktionen stehen in der Auswahlliste zur Verfügung</p>
+#### Folgende Funktionen stehen in der Auswahlliste zur Verfügung
 
 | Funktion | Taste | Bedeutung |
 | --- | --- | --- |
@@ -254,7 +254,7 @@ oder Direktsprung **[SAATE]**
 | Ansehen | F6 | Ruft die Maske Etikettendruck im Ansehen Modus auf.<br> |
 | Wiederhohldruck | STRG+F9 | Mit dieser Funktion können die Etiketten der ausgewählten Datensätze erneut ausgedruckt werden. Es können nur Etiketten mit einer Zuweisung zu einem Probensatz ausgedruckt werden.<br> |
 
-<p class="just-emphasize">Maske Etikettendruck</p>
+#### Maske Etikettendruck
 
 Mit der Funktion Ändern F5 wird der Pfleger Etikettendruck aufgerufen. Auf diesem Pfleger ist es möglich die Textfelder 1-3 zu befüllen.
 
@@ -275,7 +275,7 @@ Mit der Funktion Ändern F5 wird der Pfleger Etikettendruck aufgerufen. Auf dies
 | Text 3 | Frei zu vergebender Text von der Länge 40 |
 | Abweichender Drucker | Hier besteht die Möglichkeit, einen anderen Drucker aus dem [Profil](../amic_etikettendruck/definition_in_a_eins.md#Druckerprofile) des [Etikettes](../amic_etikettendruck/index.md#Amic_Etikettendruck) auszuwählen. Dieses Feld wird nicht gespeichert. |
 
-<p class="just-emphasize">Funktionen</p>
+#### Funktionen
 
 | Funktion | Taste | Bedeutung |
 | --- | --- | --- |

@@ -4,7 +4,7 @@
 
 Bei Rohwareeingangs- und Rohwareausgangslieferscheinen, die einer nicht festgeschriebenen Massebilanz zugeordnet sind, wurde bei der Lieferscheinstornoerstellung (Lie. Stornobeleg) ohne Belegkopie der Lieferschein bisher nicht aus der Massebilanz entfernt. Dies wurde korrigiert. Der Lieferschein und der dazugehörige Lieferscheinstorno werden auch nicht in der Variante Bewegungsübersicht unter [NABEW] angezeigt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 745790[36728]
 
@@ -20,6 +20,6 @@ Funktion/Report: Lie. Stornobeleg
 
 [Weitere Informationen](http://www.amic.de/hilfe/stornoabrechnung.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 36728, 745790

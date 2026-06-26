@@ -4,7 +4,7 @@
 
 Im Formulararchiv [FA] in der Variante "Formulararchiv eRechnung" trat unter bestimmten Filterbedingungen ein Problem auf, das jetzt behoben ist.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 745684[36675]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/erechnungimarchiv.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 36675, 745684

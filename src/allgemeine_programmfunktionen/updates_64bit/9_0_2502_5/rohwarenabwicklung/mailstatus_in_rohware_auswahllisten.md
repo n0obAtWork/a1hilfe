@@ -4,7 +4,7 @@
 
 In den passenden Auswahlvarianten der Anwendungen Rohwarebearbeitung Einkauf und Verkauf wurden die Auswahllisten um die Spalten 'Mail versendet' und 'Versand' zur Darstellung des Mailstatus und ggf. des Zeitpunktes des Versandereignisses erweitert. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 747508[37195]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/rohwarenbearbeitung.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 37195, 747508

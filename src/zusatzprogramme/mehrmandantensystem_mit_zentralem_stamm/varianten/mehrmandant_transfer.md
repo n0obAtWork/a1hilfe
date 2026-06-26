@@ -2,11 +2,11 @@
 
 <!-- source: https://amic.de/hilfe/mehrmandanttransfer.htm -->
 
-<p class="just-emphasize">Zentralmandant</p>
+### Zentralmandant
 
 In der zweiten Variante “Mehrmandant Transfer“ werden alle Datenbanktabellen angezeigt die von dem Mehrmandanten System unterstützt werden. An dieser Stelle kann Einfluss auf die zu Exportierenden Daten genommen werden. Durch die Erstellung einer Privaten View kann Einfluss darauf genommen werden, welche Daten an den Untermandant weitergegeben werden soll. Durch das Auswählen der Funktion mms_transfer_stop wird die Relation aus der Export Bedingung entfernt.
 
-<p class="just-emphasize">Achtung:</p>
+### Achtung:
 
 ***Beim Erstellen einer Privaten View ist auf jedem Fall darauf zu achten, dass nur die Daten der Hauptrelation zurückgegeben werden. Die Privaten Views haben eine vom System her festgeschriebene Namensgebung.***
 
@@ -14,15 +14,15 @@ In der zweiten Variante “Mehrmandant Transfer“ werden alle Datenbanktabellen
 
 ***Für die Relation Artikel z.B.: „p_mmsxml_view_Artikel“***
 
-<p class="just-emphasize">Untermandant</p>
+### Untermandant
 
 Auf der Untermandant Seite stehen nur Prozeduren zur Verfügung. Sollen übermittelte Daten nicht in eine Relation eingespielt werden, so wählen Sie bitte die Funktion mms_transfer_stop aus.
 
-<p class="just-emphasize">Auswählen einer Privaten Prozedur oder View</p>
+### Auswählen einer Privaten Prozedur oder View
 
 Um einer Relation eine Prozedur oder View hinzuzufügen wählen Sie bitte die Relation in der Auswahlliste aus und drücken dann die Taste F5. Je nach dem auf welchen Mandanten sich kann dort eine Prozedur oder ein View ausgewählt und bearbeitet werden. Mit der Taste F8 kann eine neue Relation hinzugefügt werden ist nur für den Zentralmandanten wichtig. Dies ist für den Fall besonders wichtig, wenn für Bestimmte Untermandanten nur bestimmte Artikel transportiert werden dürfen. Das bedeutet, es kann auf der Senderseite mehrere Views für eine Relation definieren und anlegen werden. Beim Export wird für jedem Untermandaten die dementsprechende View aufgerufen.
 
-<p class="just-emphasize">Achtung:</p>
+### Achtung:
 
 **Wenn ich über F8 eine neue Relation hinzufügen möchte so ist darauf zu achten, dass der Tabellenname mit dem Alias Name für den Untermandaten betitelt wird.**
 
@@ -42,7 +42,7 @@ Um einer Relation eine Prozedur oder View hinzuzufügen wählen Sie bitte die Re
 | Trigger | Trigger die auf die Relation wirken |
 | Nicht Übernehmen | Dieser Haken bewirkt, dass die Relation nicht exportiert oder importiert wird |
 
-<p class="just-emphasize">Die Liste der von A.eins bislang unterstützten Relationen und ihrer IDs:</p>
+### Die Liste der von A.eins bislang unterstützten Relationen und ihrer IDs:
 
 | Relationsname | Abhängige ID/Nummern |
 | --- | --- |
@@ -114,7 +114,7 @@ Um einer Relation eine Prozedur oder View hinzuzufügen wählen Sie bitte die Re
 | VerpackGruppe | VerpackGruppe |
 | WarenGuppe | ArtistammId |
 
-<p class="just-emphasize">Beispiel für eine Private Prozedur</p>
+### Beispiel für eine Private Prozedur
 
 ```sql
 create procedure p_Erloeskennziffernichtueberschreiben (
@@ -154,7 +154,7 @@ Soll ein Datensatz komplett gelöscht werden, bevor dieser in das Ziel System ei
 delete from tabellenstruktur where parentid = in_parentid;
 ```
 
-<p class="just-emphasize">Beispiel für eine Private View</p>
+### Beispiel für eine Private View
 
 ```sql
 create view  p_mmsxml_view_ warengruppe as
@@ -163,11 +163,11 @@ create view  p_mmsxml_view_ warengruppe as
      join artikelstamm ars  on warengruppe.wagrunummer = ars.wagrunummer
 ```
 
-<p class="just-emphasize">Achtung:</p>
+### Achtung:
 
 **Der Aliasname der Relation muss immer so heißen, wie die Relation selbst. Es ist auch darauf zu achten, dass der Aliasname klein geschrieben wird. Des Weiteren ist darauf zu achten, das der Aliasname des Artikelstamm immer “ars“ heißt und der Aliasname des Artikels “ar“. Die Artikelid oder die Artistammid werden immer als view_ArtiStammid oder view_ArtikelId mitgegeben. Diese werden später wieder ausgefiltert.**
 
-<p class="just-emphasize">Aufruf aus dem „ArtikelExportXML“</p>
+### Aufruf aus dem „ArtikelExportXML“
 
 ```sql
 select warengruppe.* from p_mmsxml_view_warengruppe warengruppe where

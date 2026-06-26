@@ -4,7 +4,7 @@
 
 Es gab einige eRechnungen wo der Businesstermin 14( BG-14 - Invoicing Period) in der XML leer war. Beim Import wurde damit nicht korrekt umgegangen und es wurde dann die eRechnung nicht korrekt importiert und dann nicht in eine HTML-Datei umgewandelt. Dies wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 748040[37470]
 
@@ -20,6 +20,6 @@ Funktion/Report: eRechnung verarbeiten
 
 [Weitere Informationen](http://www.amic.de/hilfe/erechnungimarchiv)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 37470, 748040

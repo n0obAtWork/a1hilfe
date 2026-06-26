@@ -4,7 +4,7 @@
 
 Der Steuerparameter 347 (Rabatte auch bei manuellem Preis) kann nun Vorgangsunterklassenabhängig in [FRZ] überschrieben werden. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 721024[33578]
 
@@ -20,6 +20,6 @@ Funktion/Report: Registerkarte SPA
 
 [Weitere Informationen](http://www.amic.de/hilfe/spa.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2303.31, 33578, 721024

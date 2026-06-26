@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/xmlexport.htm -->
 
-<p class="just-emphasize">Syntax</p>
+#### Syntax
 
 XMLEXPORT Relationsname [ **ON EXISTING** { **ERROR &#124; SKIP &#124; UPDATE** } ]  
 [ REPLACING ColumnName=Value ]  
@@ -11,23 +11,23 @@ XMLEXPORT Relationsname [ **ON EXISTING** { **ERROR &#124; SKIP &#124; U
 [ WITH FOREIGNKEY]  
 [ INTO Filename ]
 
-<p class="just-emphasize">Purpose</p>
+#### Purpose
 
 Schreibt die Werte dieser Relation in eine Datei im XML-Format
 
-<p class="just-emphasize">Anwendung</p>
+#### Anwendung
 
 Befehlszeile, Kommandodatei
 
-<p class="just-emphasize">Berechtigung</p>
+#### Berechtigung
 
 Alle Anwender
 
-<p class="just-emphasize">Siehe auch</p>
+#### Siehe auch
 
 [DBFLOAD](./dbfload_statement.md), [DBFCREATE](./dbfcreate_statement_ab_version_5_0.md), [LOAD](./load.md), [READ](./read.md), [IDENTLOAD](./identload_statement.md), [CREATE STRUCT](./create_struct_statement.md), [ALTER STRUCT](./alter_struct_statement.md), [XMLIMPORT](./xmlimport.md)
 
-<p class="just-emphasize">Beschreibung</p>
+#### Beschreibung
 
 Hier werden die Daten der Relation „Relationsname“ und **alle über Foreign Keys verbundene Relationen** in eine Datei im XML-Format ausgegeben. Gibt man optional ON EXISTING an wird diese Option in die Datei geschrieben:  
 &lt;insert-option>ON EXISTING SKIP&lt;/insert-option>  
@@ -104,7 +104,7 @@ Die XML-Datei hat folgendes Aussehen:
 </OSQLXML>
 ```
 
-<p class="just-emphasize">Beispiel</p>
+#### Beispiel
 
 ```text
 XMLExport Fibuvorgklasse ON EXISTING SKIP Where fibuv_klasse>1 INTO c:\fibukl.xml

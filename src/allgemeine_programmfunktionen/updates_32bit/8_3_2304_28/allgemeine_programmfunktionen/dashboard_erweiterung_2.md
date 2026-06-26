@@ -4,7 +4,7 @@
 
 Im Balken- und Säulendiagramm besteht jetzt die Möglichkeit, die einzelnen Serien zu überlagern.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 716438[33659]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/kacheldiagramm.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2304.28, 33659, 716438

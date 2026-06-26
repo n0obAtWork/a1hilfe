@@ -23,7 +23,7 @@ Ist der Steuerparameter „komplex“, so ist auch die Darstellung entsprechend:
 | Schlüssel / individuell | Der Schlüssel der Gültigkeit zum gewählten Gültigkeitsdatum |
 | Option / individuell | Der Wert, der zum ggf. verwendeten Schlüssel und dem gewählten Gültigkeitsdatum gültig ist |
 
-<p class="just-emphasize">Neu</p>
+### Neu
 
 Um einen neuen Steuerparameter einzurichten, verwendet man in der Auswahlliste entweder die Funktion „SPA Ändern“ oder das Tastenkürzel „Shift+F5“.
 
@@ -48,7 +48,7 @@ Um einen neuen Steuerparameter einzurichten, verwendet man in der Auswahlliste e
 | Abfrageformat für Wert | F3 Auswahl zur Wahl eines Abfrageformates (z.B. JANEIN) |
 | Anfangswert ab | Zunächst ist das Standard Gültigkeitsdatum 01.01.1901 angegeben. Anschließend kann der Startwert angegeben werden |
 
-<p class="just-emphasize">Gültigkeiten</p>
+### Gültigkeiten
 
 Zeigt den Steuerparameter. Wurde der Steuerparameter einfach (ohne Schlüssel) eingerichtet so erscheint ein einfaches Dialogfenster mit folgender Beschreibung:
 
@@ -68,7 +68,7 @@ Wurde komplex (mit Schlüssel) verwendet, so öffnet sich ein Dialogfenster mit 
 | Zweite Spalte | Überschrift individuell.<br>Enthält den Schlüssel des eingerichteten Steuerparameters und ist optional eingerichtet. Wird die Spalte nicht benötigt, so ist diese geschützt. |
 | Dritte Spalte | Überschrift individuell.<br>Enthält die Option des eingerichteten Steuerparameters und ist optional eingerichtet. Wird die Spalte nicht benötigt, so ist diese geschützt. |
 
-<p class="just-emphasize">Gültigkeiten ansehen</p>
+### Gültigkeiten ansehen
 
 Wie unter Gültigkeiten beschrieben, allerdings im „Ansehen-Modus“.
 

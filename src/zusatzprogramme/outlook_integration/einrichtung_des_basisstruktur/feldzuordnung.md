@@ -12,7 +12,7 @@ Das Feld View kann freigelassen werden.
 
 Jetzt sind nacheinander die Felder Datenbankname, Label und Sortierung einzugeben.
 
-Datenbankname
+**Datenbankname**
 
 In diesem Feld ist der Orginalname des Outlook Kontakt Ordners anzugeben. Dieser Orginalname ist per Outlook Objektmodell leicht abfragbar, dazu ist im Outlook der bereich Makro anzuwählen, und hier die Visual Basic Editor Variante. Innerhalb dieses Bereiches kann dann das Outlook Objekt Modell geöffnet werden, und in diesem Bereich ist der Contact Bereich anwählbar, der eine Auflistung aller Orginalnamen der Outlook Kontaktordners enthält.
 
@@ -20,11 +20,11 @@ Die zugehörige Hilfedatei liefert auch eine genaue Liste aller Feldnamen mit de
 
 ![](../../../ImagesExt/image8_1179.jpg)
 
-Label
+**Label**
 
 Das Feld Label ist nun in diesem Falle mit dem A.eins Datenbanknamen zu versehen, mit dem der entsprechende Kontaktwert aufgefüllt werden soll.
 
-Sortierung
+**Sortierung**
 
 Wichtig ist jetzt das Sortierungsfeld, eine Sortierung bis 10 gibt an, dass dieses Feld als eindeutiger Schlüssel zur Festlegung der Datensatzeindeutigkeit innerhalb von Outlook herangezogen werden soll, sind mehrer Felder angegeben, so werden diese später im Outlook per Komma Leertaste getrennt.
 

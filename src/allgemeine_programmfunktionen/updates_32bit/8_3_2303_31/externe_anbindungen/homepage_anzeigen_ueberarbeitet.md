@@ -4,7 +4,7 @@
 
 In Anschriften wurde der Reiter "Homepage entfernt". Stattdessen gibt es unter "Zusätze" ein neues Feld, welches Homepage heißt. Eine dort angegebene Webadresse öffnet den Browser mit dieser, wenn die Funktion "Homepage anzeigen" aufgerufen wird.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 708457[32085]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_anschriften.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2303.31, 32085, 708457

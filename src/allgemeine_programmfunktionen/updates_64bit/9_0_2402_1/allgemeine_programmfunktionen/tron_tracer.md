@@ -4,7 +4,7 @@
 
 Es wurde ein neues Tool zum verbesserten Analysieren der Datenbank-Trace Datei erstellt. Die Anwendung kann über den Direktsprung [TRON] in A.eins aufgerufen werden.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 0[35067]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/trontracerprogrammzumauslesend.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.1, 35067, 0

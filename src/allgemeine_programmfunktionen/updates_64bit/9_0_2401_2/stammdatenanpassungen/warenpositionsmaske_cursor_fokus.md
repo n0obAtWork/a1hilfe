@@ -4,7 +4,7 @@
 
 Bei der Korrektur der Warenposition war beim Betreten der Maske der Fokus auf der Tab-Reiter Auswahl und nicht auf dem ersten freigeschalteten Feld im Tab-Reiter Allgemein. Dies wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 734222[35147]
 
@@ -20,6 +20,6 @@ Funktion/Report: F5
 
 [Weitere Informationen](http://www.amic.de/hilfe/artikelerfassungf4.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.2, 35147, 734222

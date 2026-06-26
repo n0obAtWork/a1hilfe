@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_kostenobjekte_pfleger.htm -->
 
-<p class="just-emphasize">Felder des Kostenobjekt-Pflegers</p>
+### Felder des Kostenobjekt-Pflegers
 
 | **Feld** | |
 | --- | --- |

@@ -4,7 +4,7 @@
 
 Der Bruttowert der Fremdwährung wurde in der Auswahlliste Rechnungsbearbeitung mit falschem Vorzeichen angezeigt. Dieser Fehler wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 716315[33117]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/-)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2211.30, 33117, 716315

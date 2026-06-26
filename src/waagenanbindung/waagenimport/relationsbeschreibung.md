@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/relationsbeschreibung.htm -->
 
-Relation ScriptParam
+**Relation ScriptParam**
 
 Attribut Typ Länge, ...Defaultwert NULL PKey
 
@@ -16,7 +16,7 @@ ScriptPId char 20 0 .................... N Y 
 
 ScriptSystem smallint 2 0 .................... N N 
 
-Relation ScriptParamPar
+**Relation ScriptParamPar**
 
 Attribut Typ Länge, ...Defaultwert NULL PKey
 

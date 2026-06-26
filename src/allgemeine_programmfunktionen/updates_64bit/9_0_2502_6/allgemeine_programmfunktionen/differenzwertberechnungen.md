@@ -4,7 +4,7 @@
 
 Unter bestimmten Umständen konnte es auf einigen Masken bei Differenzwertberechnungen um eine Abweichung von 0,01 kommen. Dieses Verhalten wurde korrigiert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 749245[37881]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_allgemeineprogrammfu.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.6, 37881, 749245

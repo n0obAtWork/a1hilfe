@@ -4,7 +4,7 @@
 
 Der Pfleger "Paginiernummer" [FISV] wurde entfernt. Stattdessen kann die Paginiernummer (Archivreferenz) in der Einzelbeleganzeige (Funktion: "Ansehen Beleg") über die Funktion "Archivreferenz ändern" angepasst werden.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 0[32997]
 
@@ -20,6 +20,6 @@ Funktion/Report: Archivreferenz ändern
 
 [Weitere Informationen](http://www.amic.de/hilfe/einzelbeleganzeige.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2211.9, 32997, 0

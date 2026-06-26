@@ -4,7 +4,7 @@
 
 Die Möglichkeiten des Archivs und des Dashboards machen eine weitere notwendige Software-Pflege des "Info-Center" im Haupt-Menü obsolet. Dieser Programmteil wurde entfernt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 0[36368]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/hauptmenarbeitsbereich.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 36368, 0

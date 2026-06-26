@@ -4,7 +4,7 @@
 
 Der Steuerparameter 703 "Umsatzsteuer-Identifikationsnummern auf Mandanten und Belegebene" sorgt dafür, dass die USTId Kunde und Mandant im Beleg erfasst werden kann. Hier wurde die Feldreihenfolge korrigiert. Steht der SPA auf "mit Vorbelegung", so öffnet sich sofort die F3-Auswahl, wenn man die Felder betritt. Hier wurde das Verhalten so geändert, dass im Feld mit dem Label "UStIdNrKunde" die F3-Auswahl nur dann geöffnet, wenn Daten für den Kunden existieren und im Feld "Ust-IdNr Mnd" nur dann geöffnet wird, wenn auch zum Kunden eine Nummer eingetragen wurde. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 720286[33476]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_SPA_703.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2303.31, 33476, 720286

@@ -10,7 +10,7 @@ Dabei besteht die Möglichkeit des Stornieren, Umwandeln und Drucken (bei Zahlun
 
 Diese Bearbeitung ist in den Varianten ...Überblick des entsprechenden Zahlungsmittel sowie in der Variante Zahlungsmittelsätze möglich.
 
-<p class="just-emphasize">1\. Stornieren:</p>
+#### 1\. Stornieren:
 
 Ein Stornieren eines Zahlungsmittels mit dem Status ‚inKasse’ (d.h. das Zahlungsmittel ist physikalisch noch in der Kasse) bewirkt:
 
@@ -24,7 +24,7 @@ d) Wenn der SPA 51 "Automatische Buchung der Zahlungsmittel in FiBu" gesetzt ist
 
 e) Über diesen Vorgang wird ein Beleg gedruckt. Hierbei besteht die Möglichkeit, durch EPA-Umstellung "Soll auf den Schacht gedruckt werden", sich selbst ein Formular zu definieren (s.u.). Ansonsten wird ein festes Formular auf dem Bon ausgedruckt.
 
-<p class="just-emphasize">2\. Nachstornieren:</p>
+#### 2\. Nachstornieren:
 
 Ein Stornieren eines Zahlungsmittels mit dem Status ‚entnommen’ (d.h. das Zahlungsmittel ist physikalisch schon entnommen) bewirkt:
 
@@ -38,7 +38,7 @@ d) Wenn der SPA 51 "Automatische Buchung der Zahlungsmittel in FiBu" gesetzt ist
 
 e) Über diesen Vorgang wird ein Beleg gedruckt.
 
-<p class="just-emphasize">3\. Drucken:</p>
+#### 3\. Drucken:
 
 Es besteht die Möglichkeit, für obige Vorgänge ein entsprechendes Formular zu entwickeln, das dann gedruckt wird, wenn auf der Maske der EPA "Soll auf den Schacht gedruckt werden" auf ja gesetzt ist. Hierzu ist ein Formular mit der Nummer 55 vorgesehen, wo folgende Felder versorgt werden:
 

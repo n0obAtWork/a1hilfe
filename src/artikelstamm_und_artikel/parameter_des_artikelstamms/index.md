@@ -26,7 +26,7 @@ Folgende Felder stehen zur Verfügung:
 | Matchcode | Kurzbegriff für die Artikelsuche. Hier wird der Hauptbegriff erfasst, bis zu 90 weitere können unter<br>"Sekundärschlüssel" eingegeben werden. |
 | EAN-Nummer | Hier kann die EAN-Nummer für die Artikelsuche eingegeben werden. |
 
-<p class="just-emphasize">Registerkarte „Allgemein“</p>
+### Registerkarte „Allgemein“
 
 | Feld | Bedeutung |
 | --- | --- |

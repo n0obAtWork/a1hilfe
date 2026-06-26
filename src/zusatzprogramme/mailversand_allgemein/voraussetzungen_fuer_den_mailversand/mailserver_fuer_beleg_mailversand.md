@@ -10,11 +10,11 @@ Für den Belegversand via E-Mail ist ein SMTP-Server nötig. Dieser kann auf unt
 
 3. Öffentlicher E-Mail Provider
 
-<p class="just-emphasize">SMTP-Server über Exchange</p>
+### SMTP-Server über Exchange
 
 Einrichtung eines SMTP-Servers über die Microsoft Exchange-Software und entsprechender Hardware mit eigener Domain. Diese Art der Einrichtung kann optimal für viele Versand-, sowie Empfangsaufgaben konfiguriert werden.
 
-<p class="just-emphasize">mx-Record über Kerio</p>
+### mx-Record über Kerio
 
 Voraussetzungen:
 
@@ -27,7 +27,7 @@ Voraussetzungen:
 
 Die Erledigung von Massenversand kann mit dieser Art der Einrichtung erreicht werden.
 
-<p class="just-emphasize">Öffentlicher E-Mail Provider</p>
+### Öffentlicher E-Mail Provider
 
 Bei öffentlichen Providern kann man sich einfach registrieren und den angebotenen SMTP-Server des Providers nutzen.
 

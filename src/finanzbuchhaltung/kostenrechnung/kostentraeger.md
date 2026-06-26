@@ -15,7 +15,7 @@ Um mit Kostenträgern zu arbeiten, gibt es folgende Vorbedingungen bzw. Einstell
    - Kostenträger (ohne Verteilung)
    - Verteilkostenträger (mit Verteilung)
 
-  3. Im [Sachkontenrahmen](../stammdaten_der_fibu/sachkonten.md) Direktsprung **[SKS]** muss bei den in Frage kommenden Aufwandskonten im Feld Sperre Kostenträger aus folgenden Eintragsmöglichkeiten gewählt werden
+3. Im [Sachkontenrahmen](../stammdaten_der_fibu/sachkonten.md) Direktsprung **[SKS]** muss bei den in Frage kommenden Aufwandskonten im Feld Sperre Kostenträger aus folgenden Eintragsmöglichkeiten gewählt werden
 
 - **Gesperrt** Es wird kein Kostenträger abgefragt
 - **Kann** Es kann ein Kostenträger eingeben werden, muss aber nicht
@@ -24,13 +24,13 @@ Um mit Kostenträgern zu arbeiten, gibt es folgende Vorbedingungen bzw. Einstell
 
   Im Feld Kostenträger kann hier die Nummer eines Kostenträgers eingegeben werden, der dann bei der Belegerfassung automatisch vorgeschlagen wird.
 
-  4. Damit auch Rechnungen aus der Warenwirtschaft beim Fibu -Übertrag automatisch in die Kostenträgerrechnung eingetragen werden können, ist es nötig, Kostenträgergruppen zu definieren, in denen die Kostenträger des Artikels für Einkauf und Verkauf angegeben werden können.  
+4. Damit auch Rechnungen aus der Warenwirtschaft beim Fibu -Übertrag automatisch in die Kostenträgerrechnung eingetragen werden können, ist es nötig, Kostenträgergruppen zu definieren, in denen die Kostenträger des Artikels für Einkauf und Verkauf angegeben werden können.  
 Diese werden dann im Artikel über die Funktion ***Kostenst./Statistik/Abteil*** gepflegt, und wenn dann der Artikel im Vorgang angesprochen wird, wird der jeweilige Kostenträger bebucht.  
     
 
-  5. Im Mandantenstamm sollte ein Fehlerkostenträger eingerichtet werden. Dieser Kostenträger wird herangezogen, wenn zu GuV-Konten versehentlich kein Kostenträger hinterlegt ist und die „Sperre Kostenträger“ des angesprochenen Kontos nicht auf **Gesperrt** oder **Fest** seht.
+5. Im Mandantenstamm sollte ein Fehlerkostenträger eingerichtet werden. Dieser Kostenträger wird herangezogen, wenn zu GuV-Konten versehentlich kein Kostenträger hinterlegt ist und die „Sperre Kostenträger“ des angesprochenen Kontos nicht auf **Gesperrt** oder **Fest** seht.
 
-Erfassung der Kostenträger
+**Erfassung der Kostenträger**
 
 Folgende Felder können in dem folgenden Eingabebildschirm erfasst werden
 
@@ -44,7 +44,7 @@ Folgende Felder können in dem folgenden Eingabebildschirm erfasst werden
 | Externe Aw. Pos.<br><br> | Hier können für eigene Auswertungen Druckpositionen hinterlegt werden. A.eins verwendet diese Felder nicht. Es ist jedoch möglich, eigene F3-Auswahlen/Itemboxen zu hinterlegen. Dafür muss man die Einrichterparameter „Itembox für externe Auswertungsposition 1-3“ und (optional) „Bezeichnungsfeld für ext. Auswertungsposition 1-3“ hinterlegen. Beispielsweise könnte man als Itembox für ext.Auswertungsposition 1 „IB_LAGERSTAMM“ und (auch optional) „Label für externe Auswertungsposition 1-3“ hinterlegen. Um dann hinter der externen Auswertungsposition die Bezeichnung zu sehen, muss man das Bezeichnungsfeld aus der Itembox in „Bezeichnungsfeld für ext. Auswertungsposition 1“ angeben. Dies wäre dann in diesem Fall „Lagerbezeich“.<br> |
 | Bemerkungen<br><br> | Hier kann ein wahlfreier Text zu dem jeweiligen Kostenträger erfasst werden.<br> |
 
-<p class="just-emphasize">Erfassung der Planzahlen</p>
+#### Erfassung der Planzahlen
 
 Die Erfassung der Planzahlen für Kostenträger erreicht man über:
 

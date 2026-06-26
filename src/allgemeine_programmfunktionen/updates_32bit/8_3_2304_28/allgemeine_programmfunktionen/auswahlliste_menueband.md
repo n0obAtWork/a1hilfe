@@ -4,7 +4,7 @@
 
 Auf dem Menüband werden jetzt die Funktionstasten mit angezeigt. Auf dem Darstellungsregister kann man mit dem Button "Funktionstasten An/Aus" die Anzeige der Tasten aktivieren und deaktivieren. Bei einem Rechtsklick mit der Maus (Kontextmenü) werden nun die Funktionen ausgegraut angezeigt, welche nicht ausführbar sind, aber dem Anwender grundsätzlich zur Verfügung stehen.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 0[33652]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/darstellungsregister.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2304.28, 33652, 0

@@ -4,7 +4,7 @@
 
 UVA: Die neuen Kennzeichen 87 und 90 werden nur für die Jahre ab 2023 übertragen.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 721151[33595]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/umsatzsteuer.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2303.31, 33595, 721151

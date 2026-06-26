@@ -4,7 +4,7 @@
 
 Die Umsatzsteuer-Id des Lieferanten wurde fälschlicher Weise beim Kunden gespeichert. Dadurch schlug die Lieferantensuche fehl. Dies wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 745812[36729]
 
@@ -20,6 +20,6 @@ Funktion/Report: [XRE]
 
 [Weitere Informationen](http://www.amic.de/hilfe/!_!erechnung1.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 36729, 745812

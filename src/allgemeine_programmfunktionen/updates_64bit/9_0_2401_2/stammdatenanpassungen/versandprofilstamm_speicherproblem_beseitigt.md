@@ -4,7 +4,7 @@
 
 In der Bearbeitungsmaske des Versandprofilstamms [VPST] wurde der Button "Sendeeinstellungen testen" entfernt. Zudem wurden Probleme beim Speichern behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 731528[34788]
 
@@ -20,6 +20,6 @@ Funktion/Report: Ändern
 
 [Weitere Informationen](http://www.amic.de/hilfe/_versandprofilstamm.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.2, 34788, 731528

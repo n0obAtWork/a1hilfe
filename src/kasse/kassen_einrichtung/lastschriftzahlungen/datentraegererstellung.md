@@ -12,6 +12,6 @@ Während die erste Datei die DTAUS-Datei ist, handelt es sich bei der zweiten um
 
 Von dort können die erzeugten Dateien auf Datenträger kopiert und an die Bank verschickt werden.
 
-<p class="just-emphasize">ACHTUNG:</p>
+#### ACHTUNG:
 
 Zurzeit werden diese Dateien bei Erstellung neuerer Dateien überschrieben!

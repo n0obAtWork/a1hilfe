@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_dokumenthilfe_sfs.htm -->
 
-<p class="just-emphasize">Einrichten eines dynamischen QR-Codes / laden eines Bildes:</p>
+#### Einrichten eines dynamischen QR-Codes / laden eines Bildes:
 
 <details>
 <summary>Schritt 1: Private Prozedur</summary>

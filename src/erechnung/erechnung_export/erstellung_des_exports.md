@@ -4,7 +4,7 @@
 
 Diese Funktion sorgt dafür, dass aus dem Kunden der Rechnung das zugehörige Profil ermittelt und die eRechnung in drei Stufen aus den Rechnungsdaten erstellt wird.
 
-<p class="just-emphasize">1. Daten extrahieren</p>
+#### 1. Daten extrahieren
 
 1. Die im [Exportprofil eingetragenen Prozeduren](../erechnung_profilpfleger/oberflaeche_startseite.md) lesen Daten aus den Rechnungsdaten der Datenbank und speichern diese in einen Tabellensatz zwischen.
 
@@ -14,7 +14,7 @@ Die Datenbankprozeduren stellen die einzige Möglichkeit dar, Individualisierung
 
 Als Orientierung für die Herkunft von Daten haben wir Standard-Prozeduren mit dem Namenspräfix „AMIC_STD_XRE_“ zur Verfügung gestellt.
 
-<p class="just-emphasize">2. Xml formulieren</p>
+#### 2. Xml formulieren
 
 1. Die ermittelten Daten werden nun in das Datenaustauschformat UBL ([Universal Business Language](https://de.wikipedia.org/wiki/Universal_Business_Language)), einem XML-Format, gelesen, erstellt und in eine Datei im vorgegebenen Verzeichnis gespeichert.
 
@@ -22,11 +22,11 @@ Als Orientierung für die Herkunft von Daten haben wir Standard-Prozeduren mit d
 
 Das Mapping ist vom Standard vorgegeben und es können keine Änderungen an der Zuordnung vorgenommen werden.
 
-<p class="just-emphasize">3. Archivieren</p>
+#### 3. Archivieren
 
 Zusätzlich wird das erstellte XML auch noch im Archiv als eRechnung-Export (Belegklasse ***8040*** – eRechnung Xml) gespeichert.
 
-<p class="just-emphasize">Hinweis:</p>
+**Hinweis:**
 
 Eine Erweiterung des eRechnung-Standards um kundenspezifische Felder ist **NICHT** vorgesehen. Es können also außerhalb des Standards keine weiteren Informationen in diesem Format exportiert werden.
 

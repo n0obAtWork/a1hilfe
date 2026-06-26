@@ -2,25 +2,25 @@
 
 <!-- source: https://amic.de/hilfe/kasseundwhrungen.htm -->
 
-<p class="just-emphasize">Begriffsklärung:</p>
+### Begriffsklärung:
 
-<p class="just-emphasize">Kassenwährung:</p>
+#### Kassenwährung:
 
 In den Kasseneinstellungen kann in der Gruppe Kasse eine Kassenwährung hinterlegt werden. Diese Einstellung bewirkt, dass der Bargeldzahlungssatz mit dieser Währung vorbelegt wird und man bei Bezahlung in einer anderen Währung über die Taste F12 explizit eine andere Währung auswählen muss. Diese Vorbelegung gilt auch für die Währung des Rückgeldsatzes. Wenn die Kassenwährung in den Kasseneinstellungen geändert wird, wird automatisch auch die Belegwährung der Standardkunden auf die Kassenwährung gesetzt. (Die Umkehrung gilt nicht!)
 
-<p class="just-emphasize">Belegwährung:</p>
+#### Belegwährung:
 
 In dieser Währung wird der Beleg erfasst (diese Währung kommt aus dem Kundenstamm und kann bei Vorgängen über UFLD-Felder bzw. an der POS-Kasse über eine Funktion zu Beginn des Vorgangs auf eine beliebige Währung gesetzt werden), d.h. auch die gefundenen Preise, ... verstehen sich in Belegwährung.
 
-<p class="just-emphasize">Buchwährung:</p>
+#### Buchwährung:
 
 Hierbei handelt es sich um die aktuell gültige Buchwährung. Diese wird in der Regel EURO sein.
 
-<p class="just-emphasize">Bezahlwährung:</p>
+#### Bezahlwährung:
 
 Hier handelt es sich um die Währung, in der man den zu zahlenden Betrag bezahlt. Vorbelegt ist diese Währung während der Erfassung mit der Kassenwährung, jedoch hat man über eine entsprechende Funktionstaste die Möglichkeit, sich eine beliebige Währung (gemäß Währungsstamm) auszusuchen.
 
-<p class="just-emphasize">Weitere Informationen</p>
+### Weitere Informationen
 
 Es ist möglich, auch Zahlungsmittel in unterschiedlichen Währungen zu erfassen. Hierzu ist dann zunächst die passende Währung über den Fremdwährungsbutton auszuwählen. Danach kann man die Währung des Zahlungsmittels auswählen.
 

@@ -4,7 +4,7 @@
 
 Das Feld des Empfängers/Zahlungspflichtigen in den Kundenbanken wurde auf 70 Zeichen erweitert und im Kunden/Lieferantenstamm wurde ein weiteres Feld Zahlungsempfängers/Zahlungspflichtiger hinzugefügt. Ist in der Kundenbank kein Wert eingetragen, dann wird das neue Feld aus dem Kundenstamm verwendet, ist dies nicht gepflegt, dann wird wie bisher die Kundenbezeichnung verwendet.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 749003[37833]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/zahlungsverkehr1.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 37833, 749003

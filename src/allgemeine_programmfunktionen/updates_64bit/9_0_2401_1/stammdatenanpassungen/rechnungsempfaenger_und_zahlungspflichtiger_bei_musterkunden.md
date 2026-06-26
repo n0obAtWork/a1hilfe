@@ -4,7 +4,7 @@
 
 Das Anlegen von Rechnungsempfängern und Zahlungspflichtigen bei Musterkunden ist wieder möglich.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 730341[34672]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_konstantenbearbeitun.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.1, 34672, 730341

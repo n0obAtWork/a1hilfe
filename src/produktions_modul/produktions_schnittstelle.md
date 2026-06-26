@@ -4,7 +4,7 @@
 
 A.eins verfügt über eine XML-Schnittstelle für Produktionsmaschinen. Darüber lassen sich verschiedene Daten von A.eins an die Maschine und zurück übermitteln. Dabei ist das Austauschformat über Makros sogar erweiterbar.
 
-<p class="just-emphasize">In Richtung Maschine:</p>
+#### In Richtung Maschine:
 
 - Export eines Rezepts für die Produktion
   - Komponenten
@@ -46,7 +46,7 @@ A.eins verfügt über eine XML-Schnittstelle für Produktionsmaschinen. Darüber
 - Partien
   - Mengen
 
-<p class="just-emphasize">Sonderfall Rohwarenannahme</p>
+#### Sonderfall Rohwarenannahme
 
 Eine Rohwarenannahme ich keine Produktion im eigentlichen Sinne, aber es können Daten im analogen Format empfangen werden, wenn eine Annahme, Schüttgut in Kisten, Säcke o.ä. Ladeträger verbringt.
 

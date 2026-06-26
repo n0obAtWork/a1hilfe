@@ -4,7 +4,7 @@
 
 Beim Einspielen der eRechnung unter [XRE] wird die Kontonummer jetzt auch bei den Finanzbuchhaltungsbelegen ermittelt und versorgt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 749761[38074]
 
@@ -20,6 +20,6 @@ Funktion/Report: Fibu-Erfassung
 
 [Weitere Informationen](http://www.amic.de/hilfe/!importiertevorgnge.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.6, 38074, 749761

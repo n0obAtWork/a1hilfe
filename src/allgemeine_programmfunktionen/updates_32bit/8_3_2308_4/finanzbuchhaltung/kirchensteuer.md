@@ -4,7 +4,7 @@
 
 Bei Blättern in den Kirchensteuersätzen wird das Grid vor dem befüllen mit Daten einmal gelöscht.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 725650[34034]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/kirchensteuer.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2308.4, 34034, 725650

@@ -4,7 +4,7 @@
 
 Es kam bei einigen Artikeln zu fehlerhaften Ermittlungen der Werte in der Perioden-Erfolgsauswertung. Das Problem wurde nun korrigiert. Wichtig: Eine Korrektur der fehlerhaften Einträge erfolgt erst durch eine Gesamtreorganisation mit [WAREO].
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 729146[34520]
 
@@ -20,6 +20,6 @@ Funktion/Report: Perioden-Erfolgsauswertung
 
 [Weitere Informationen](http://www.amic.de/hilfe/periodenerfolgsauswertung.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2312.8, 34520, 729146

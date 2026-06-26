@@ -17,16 +17,16 @@ Danach scanne den Kommissionierplatz. Damit ist die Verknüpfung vom Auftrag zum
 | Menge | Partie | Regal | Artikel | Bedeutung |
 | --- | --- | --- | --- | --- |
 | rot | | leer | | Nicht im Lager |
-| rot | | Ø 0 | | Für den Auftrag nicht genügend vorhanden |
+| rot | | 0 | | Für den Auftrag nicht genügend vorhanden |
 | weiß | weiß | | | Kann aus dem Regal geholt werden |
 | weiß | gelb | | | Andere Partie als im Auftrag |
 | magenta | | | | Nichts von diesem Artikel im Lager |
 
-###### Verknüpfung von Auftrag und Lagerplatz aufheben
+### Verknüpfung von Auftrag und Lagerplatz aufheben
 
 Durch Scannen eines Regalplatzes und anschließender Eingabe von „9999“ kann die Verbindung von Regalplatz und Auftrag aufgehoben werden.
 
-###### Automatische Zuordnung von Auftrag und Regalplatz
+### Automatische Zuordnung von Auftrag und Regalplatz
 
 Durch Scannen eines Auftrages und anschließendem Betätigen der Taste „F2“ wird dem Auftrag der höchste noch freie Regalplatz zugeordnet.
 

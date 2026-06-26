@@ -4,7 +4,7 @@
 
 Die Tasten + und - auf dem Nummernblock werden in der Auswahlliste zum auf- und zuklappen der Gruppen verwendet. Das führte dazu, dass in der Filterzeile die Zeichen nicht über den Nummernblock eingebbar waren. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 722484[33689]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/datentabelle.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2304.28, 33689, 722484

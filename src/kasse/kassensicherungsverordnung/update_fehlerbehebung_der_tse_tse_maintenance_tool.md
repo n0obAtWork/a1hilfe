@@ -15,7 +15,7 @@
 
 1. Das Maintenance-Tool unter: [https://www.swissbit.com/tse/maintenanceTool/setup.exe](https://www.swissbit.com/tse/maintenanceTool/setup.exe) herunterladen.
 
-<p class="just-emphasize">Tipp!</p>
+#### Tipp!
 
 Im TSE-Maintenance-Tool gibt es unter der Funktion ***Help -> Documentation*** eine Anleitung zum Update der TSE.
 
@@ -43,13 +43,13 @@ Nach der Bestätigung fragt das Tool nach der Admin Pin.
 
 5. Die Pin in das Feld eintragen und mit **Weiter** bestätigen. (Dieser Vorgang kann mehrere Minuten dauern!)
 
-Nachdem der Vorgang abgeschlossen ist, erscheint folgende Meldung:
+   Nachdem der Vorgang abgeschlossen ist, erscheint folgende Meldung:
 
 ![](../../ImagesExt/image8_490.png)
 
 - Damit ist die TSE erfolgreich geupdatet.
 
-  6. TSE Maintenance Tool nach dem Update beenden!
+6. TSE Maintenance Tool nach dem Update beenden!
 
 <details>
 <summary>TSE-Fehlercodes:</summary>

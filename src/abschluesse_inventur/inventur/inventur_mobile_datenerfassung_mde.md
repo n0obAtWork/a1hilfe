@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/inventurmobiledatenerfassungmd.htm -->
 
-<p class="just-emphasize">Übersicht</p>
+### Übersicht
 
 ![](../../ImagesExt/image8_808.png)
 
@@ -14,13 +14,13 @@ Ansicht MDE-Datei
 
 ![](../../ImagesExt/image8_810.png)
 
-<p class="just-emphasize">Inventuraufnahmen per mobiler Datenerfassung</p>
+### Inventuraufnahmen per mobiler Datenerfassung
 
 Bei der mobilen Datenerfassung wird der Inventur-Stichtag zu einer Aufnahme nicht mitgeliefert. Es wird die älteste offene Inventur als Inventurstichtag vorbelegt, jedoch kann alternativ auch ein anderer Stichtag gewählt werden.
 
 Falls aus der MDE ein Bewertungspreis übergeben wird, so gilt die Aufnahme als manuell bewertet.
 
-<p class="just-emphasize">Löschen von Belegen der Mobilen Datenerfassung</p>
+### Löschen von Belegen der Mobilen Datenerfassung
 
 Unverarbeitete Belege lassen sich nur über die Einzellöschung entfernen. Eine Sammel-Löschfunktion kann auf alle fehlerhaften bzw. verarbeiteten MDE Belege angewandt werden.
 
@@ -32,7 +32,7 @@ Die erforderlichen Optionen für die MDE Übernahme müssen eingerichtet sein.
 
 Die MDE Übergabe erfolgt nicht nach Inventurgruppen getrennt. Die Inventurgruppen für die einzuspielenden Artikel müssen angelegt und eröffnet sein, ansonsten laufen diese Artikel ins Fehlerprotokoll.
 
-<p class="just-emphasize">Inventuraufnahme in Filialen</p>
+### Inventuraufnahme in Filialen
 
 Wenn nicht AMIC-Standards benutzt werden:
 
@@ -44,7 +44,7 @@ Filialen haben nur Zugriff auf die Anwendung „Inventuraufnahme **[IVA]**“.
 
 Alternativ: Inventurbeleg nicht replizieren. Nach Fertigstellung der Aufnahme in den Filialen Tabelle entladen und in Zentrale beladen.
 
-<p class="just-emphasize">Inventurbewertung</p>
+### Inventurbewertung
 
 Die Bewertung der Inventur kann auf unterschiedlichen Ebenen erfolgen:
 

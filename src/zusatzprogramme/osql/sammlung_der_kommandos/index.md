@@ -2,27 +2,27 @@
 
 <!-- source: https://amic.de/hilfe/sammlungderkommandos.htm -->
 
-<p class="just-emphasize">Syntax</p>
+#### Syntax
 
 @Dateiname [PARAMETER]
 
-<p class="just-emphasize">Purpose</p>
+#### Purpose
 
 Ausführung einer Kommandodatei, Import einer XML-Datei
 
-<p class="just-emphasize">Anwendung</p>
+#### Anwendung
 
 Befehlszeile, Kommandodatei
 
-<p class="just-emphasize">Berechtigung</p>
+#### Berechtigung
 
 Alle Anwender
 
-<p class="just-emphasize">Siehe auch</p>
+#### Siehe auch
 
 [Parameter](./parameter_beim_dateiaufruf_osql.md)
 
-<p class="just-emphasize">Beschreibung</p>
+#### Beschreibung
 
 Um Dateien von OSQL auszuführen, stellt man dem Dateinamen ein @ voran.
 
@@ -30,7 +30,7 @@ Ob die Datei als Kommandodatei ausgeführt oder als XML-Import ausgeführt wird,
 
 Kommandodateien werden geöffnet und es wird versucht alle dort mit Semikolon getrennten Befehle (siehe [COMMAND_DELIMITER](./set_command_delimiter_statement.md)) sequentiell (siehe [GOTO](./goto_und_label_statement.md)) abzuarbeiten. Dateien können ineinander verschachtelt werden, das heißt eine Datei kann auch eine andere Datei aufrufen. Unter OSQL können diese Dateien auch per **F3** ausgeführt werden (Abfrage Dateiname und Parameter per Dialogmaske).
 
-<p class="just-emphasize">Beispiel</p>
+#### Beispiel
 
 @infile.sql
 

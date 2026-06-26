@@ -4,7 +4,7 @@
 
 Beim Hinzufügen von Outlookelementen per Drag&Drop kam es bei Zustellungs- bzw. Fehlerberichten zu Problemen. Die Ursache hierfür war, dass Outlook diese Elemente nicht als Mail sondern als Report Items behandelt. Nun ist es auch möglich, diese Elemente per Drag&Drop zu archivieren.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 720944[33590]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_anwendungformulararc.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2304.28, 33590, 720944

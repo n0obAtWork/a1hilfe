@@ -6,7 +6,7 @@ Um das WLAN mit der integrierten Installations-Software SCU einzurichten gehen S
 
 Windowssymbol unten links auf der Taskleiste > Settings > Control Panel > SCU (Wi-Fi)
 
-<p class="just-emphasize">Automatische Anlage eines WLAN Profils</p>
+#### Automatische Anlage eines WLAN Profils
 
 1. Als erstes wird die Registerkarte Profile ausgewählt. Mit dem Button Scan werden alle verfügbaren WLAN Verbindungen angezeigt. Jetzt sollte das WLAN Netz angezeigt werden mit dem sich der Scanner verbinden soll. Wird das WLAN nicht angezeigt, ist das WLAN Netz nicht verfügbar oder die SSID ist versteckt worden.
 
@@ -16,7 +16,7 @@ Windowssymbol unten links auf der Taskleiste > Settings > Control Panel > SCU (W
 
 4. Danach wird auf der Registerkarte Main, das neu angelegte Profil ausgewählt. Mit dem OK Button oben rechts, wird diese Einstellung gespeichert und die Maske wird verlassen. Mit einem erneuten öffnen der des Programmes, kann auf der Registerkarte Status überprüft werden, ob sich der Scanner in das WLAN Netz verbinden konnte. Neben dem Text IP sollte nun eine IP Adresse angezeigt werden.
 
-<p class="just-emphasize">Manuelle Anlage eines WLAN Profils</p>
+#### Manuelle Anlage eines WLAN Profils
 
 1. Auswählen der Registerkarte Profil
 
@@ -32,7 +32,7 @@ Windowssymbol unten links auf der Taskleiste > Settings > Control Panel > SCU (W
 
 7. Danach wird auf der Registerkarte Main, das neu angelegte Profil ausgewählt. Mit dem OK Button oben rechts, wird diese Einstellung gespeichert und die Maske wird verlassen. Mit einem erneuten öffnen der des Programmes, kann auf der Registerkarte Status überprüft werden, ob sich der Scanner in das WLAN Netz verbinden konnte. Neben dem Text IP sollte nun eine IP Adresse angezeigt werden.
 
-<p class="just-emphasize">Editieren eines WLAN Profils</p>
+#### Editieren eines WLAN Profils
 
 1. Auf der Registerkarte Profile wird das zu bearbeitende Profil ausgewählt
 
@@ -40,6 +40,6 @@ Windowssymbol unten links auf der Taskleiste > Settings > Control Panel > SCU (W
 
 3. Mit Commit werden die Änderungen übernommen.
 
-<p class="just-emphasize">Testen der WLAN Verbindung</p>
+#### Testen der WLAN Verbindung
 
 Auf der Registerkarte DIAGS kann in das Eingabefeld hinter Start Ping eine IP-Adresse z.B. die des Datenbankservers angegeben werden. Durch Drücken der Taste „Start Ping“ wird der Ping durchgeführt. Ist der Ping erfolgreich, so ist der Datenbankserver vom Scanner aus erreichbar.

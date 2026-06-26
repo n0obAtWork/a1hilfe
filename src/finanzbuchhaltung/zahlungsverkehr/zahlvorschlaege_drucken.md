@@ -35,7 +35,7 @@ Folgende Variablen sind in allen Teilen (Kopf, Fuß und Zeilentyp) verfügbar. F
 | Bedienerkurz | Text | 3 | Kurzbezeichnung -“- |
 | Bedienername | Text | 3 | Name -“- |
 
-<p class="just-emphasize">503 Positionszeile</p>
+#### 503 Positionszeile
 
 | Bezeichnung | Typ | Nr. | Bedeutung |
 | --- | --- | --- | --- |
@@ -69,7 +69,7 @@ Folgende Variablen sind in allen Teilen (Kopf, Fuß und Zeilentyp) verfügbar. F
 | FIBuVP_AuszKennz | Numerisch | | Auszifferungskennzeichen |
 | FiBuVP_AuszDatum | Text | | Datum der Auszifferung |
 
-<p class="just-emphasize">511 Gruppenkopf</p>
+#### 511 Gruppenkopf
 
 | Bezeichnung | Typ | Nr. | Bedeutung |
 | --- | --- | --- | --- |
@@ -91,7 +91,7 @@ Folgende Variablen sind in allen Teilen (Kopf, Fuß und Zeilentyp) verfügbar. F
 | Saldo | Numerisch | | Gesamtsaldo zum Zeitpunkt des Druckes |
 | SaldoSH | Text | | Sollhabenkennzeichen zum Zeitpunkt des Druckes |
 
-<p class="just-emphasize">512 Gruppenende (Summen)</p>
+#### 512 Gruppenende (Summen)
 
 | Bezeichnung | Typ | Nr. | Bedeutung |
 | --- | --- | --- | --- |

@@ -6,7 +6,7 @@ Menü: Administration > Werkzeuge > Testmandant (Direktsprung: [TMD])
 
 Dieses Werkzeug bietet die Möglichkeit, einen Testmandanten zu erstellen. Dies ist eine Kopie des aktuellen Mandanten mit sämtlichen Einrichtungen, die nötig sind, um A.eins auf einem Testmandanten zu starten.
 
-<p class="just-emphasize">Voraussetzungen</p>
+#### Voraussetzungen
 
 Es müssen ausreichend Rechte und Speicherplatz auf dem Server und dem Zielordner vorhanden sein.
 
@@ -16,7 +16,7 @@ Eine weitere Voraussetzung ist, dass die Einstellung der „Serverlog.txt“ auf
 
 Beim Erzeugen des Backups wird vorher versucht die Testdatenbank runterzufahren, auch wenn noch Bediener angemeldet sind. Dabei wird angenommen, dass sich die Testdatenbank auf dem gleichen Server befindet und den Namen des Profils hat.
 
-<p class="just-emphasize">Erstellung</p>
+#### Erstellung
 
 Für die Erstellung des Testmandanten stehen folgende Felder zur Verfügung. Nachdem diese ausgefüllt wurden, kann über die Funktion „Erstelle Testmandant“ die Erstellung begonnen werden.
 
@@ -30,13 +30,13 @@ Für die Erstellung des Testmandanten stehen folgende Felder zur Verfügung. Nac
 | Nachlaufprozedur | Hier kann eine Nachlaufprozedur eingetragen werden, mit der bestimmte Einstellungen geändert werden könnten. Standardmäßig wird die Prozedur „*createTestmandantVorlage*“ aufgerufen, in der die unter „Wichtiger Hinweis“ eingetragenen Einstellungen durchgeführt werden.<br>**WICHTIG:** *Wenn man eine eigene Nachlaufprozedur angibt, sollte die Prozedur „createTestmandantVorlage“ als Vorlage verwendet werden, da sonst die unter „Wichtiger Hinweis“ aufgelisteten Arbeitsschritte nicht gemacht werden*<br> |
 | Lokales A.eins | Hier kann eingestellt werden, dass die Nachlaufprozedur mit einem lokalen A.eins gestartet wird. Dafür muss die Section richtig eingerichtet sein.<br>Verwenden sollte man diese Einstellung, wenn der Aufruf der Nachlaufprozedur auf dem Server nicht gestartet werden kann.<br> |
 
-<p class="just-emphasize">Profil / Profil löschen</p>
+#### Profil / Profil löschen
 
 Es existiert die Möglichkeit Profile zu speichern, zu laden oder zu löschen. Beim Erstellen des Testmandanten wird gefragt, ob das Profil gespeichert werden soll.
 
 Mit der Funktion „Profil löschen“ lässt sich das aktuell ausgewählte Profil entfernen
 
-<p class="just-emphasize">Wichtiger Hinweis</p>
+#### Wichtiger Hinweis
 
 Damit es nicht zu Datenverlust kommt, ist vor Erstellung des Testmandanten sicher zu stellen, dass keine privaten Makros, Trigger, Funktionen, Events oder Statements mit absoluten Dateipfaden existieren.
 

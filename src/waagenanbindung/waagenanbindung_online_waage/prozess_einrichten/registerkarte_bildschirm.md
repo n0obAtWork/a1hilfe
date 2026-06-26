@@ -240,20 +240,20 @@
   </table>
 </div>
 
-<p class="just-emphasize">Pflichtfelder Gruppen</p>
+#### Pflichtfelder Gruppen
 
 Auf dieser Registerkarte können Felder als Pflichtfelder für den aktuellen Prozess definiert werden. Die Auszuwählenden Felder werden durch das System gepflegt und können nicht hinzugefügt werden. Die Pflichtfeldeingabe kann z.B.(Silo/Lagerverwaltungssystem) mehrere Eingabefelder auf der Erfassungsmaske betreffen.
 
 Es wurde jedoch eine Möglichkeit geschaffen, dass mittels einer privaten Prozedur, Felder als Pflichtfelder zu deklarieren. Dazu muss im Steuerparameter [925](../../../firmenstamm/steuerparameter/waagensteuerung/allgemeiner_steuerparameter_fuer_die_waage_spa_925.md) die Option „PFLICHTFELDERWAAGENPROZESS“ gesetzt werden. Im Feld Wert kann dann eine Private Prozedur hinterlegt werden, die den Feldnamen des Waagenmaskenfeldes zurückgibt, welches als Pflichtfeld eingerichtet werden soll. Sollen mehrere Felder als Pflichtfelder eingerichtet werden, so muss die Prozedur alle Felder bei dem Aufruf zurückgeben.
 
-<p class="just-emphasize">Folgende Pflichtfelder werden zurzeit unterstützt.</p>
+#### Folgende Pflichtfelder werden zurzeit unterstützt.
 
 | Bezeichnung | Betroffene Felder |
 | --- | --- |
 | Private Prozedur | Selbst bestimmbar |
 | Silo Lagerverwaltungssystem | 1. Silo/Träger<br>2. Lokalität/Standort<br>3. Datentabelle Ladeträger/Silo |
 
-<p class="just-emphasize">Private Prozedur</p>
+#### Private Prozedur
 
 Der im Steuerparameter [925](../../../firmenstamm/steuerparameter/waagensteuerung/allgemeiner_steuerparameter_fuer_die_waage_spa_925.md) hinterlegten privaten Prozedur wird die ProzessId(VorlagenId) als Parameter übergeben. Der Eingangsparameter muss **in_om_id** heißen. Die Ausgangsparameter müssen **FeldName** und **verstecken** heißen.
 
@@ -261,20 +261,20 @@ Wird ein Feld zurückgegeben, welches sich nicht auf der Waagenmaske befindet, s
 
 Es findet keine Verprobung zwischen den Felder der privaten Prozedur und den Standardpflichtfelder statt, wenn diese eingerichtet worden sind.
 
-<p class="just-emphasize">Eingang</p>
+#### Eingang
 
 | Parameter | Bedeutung |
 | --- | --- |
 | in_om_id | Id des Prozesses |
 
-<p class="just-emphasize">Ausgang</p>
+#### Ausgang
 
 | Parameter | Bedeutung |
 | --- | --- |
 | FeldName | Dieser Parameter gibt den Feldnamen auf der Maske an welcher als Pflichtfeld gekennzeichnet werden soll. |
 | verstecken | Dieser Parameter wird noch nicht ausgewertet. Hier kann erstmal im Standard eine 0 zurückgegeben werden. |
 
-<p class="just-emphasize">Beispiel</p>
+#### Beispiel
 
 ```sql
 CREATE PROCEDURE p_Waage_PflichtFelder ( in in_om_id integer )

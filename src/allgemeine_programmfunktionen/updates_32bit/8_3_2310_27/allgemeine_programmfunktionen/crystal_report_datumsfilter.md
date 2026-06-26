@@ -4,7 +4,7 @@
 
 In Crystal-Reports ist es nun wie in Anwendungsvarianten möglich, Datumsfelder mit dem Schlüsselwort "heute" zu hinterlegen.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 727539[34298]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/-)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2310.27, 34298, 727539

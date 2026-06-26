@@ -4,7 +4,7 @@
 
 Beim Umwandeln eines Interessenten in einen Kunden oder Kontokorrent-Kunden wird die nächste Nummer aus dem zugeordneten Nummernkreis vor belegt. Jetzt findet vor dem Umwandeln noch eine zusätzliche Prüfung statt, ob diese Nummer ggf. schon vergeben ist und es wird die nächste freie Nummer vorgeschlagen.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 714300[32845]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_kunden_interessenten.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2210.20, 32845, 714300

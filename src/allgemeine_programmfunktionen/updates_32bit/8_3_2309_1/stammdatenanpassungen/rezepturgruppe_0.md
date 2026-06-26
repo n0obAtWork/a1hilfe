@@ -4,7 +4,7 @@
 
 Es wurde eine Standard-Rezepturgruppe 0 hinzugefügt. Diese kann ausgewählt werden und wird wie "keine Rezepturgruppe" behandelt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 723257[34134]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/!_rezepturenrez.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 34134, 723257

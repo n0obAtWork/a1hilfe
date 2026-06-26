@@ -4,7 +4,7 @@
 
 Die SEPA-Versionen 3.7 (gültig ab 17.März 2024) und 3.8 (gültig ab 17. November 2024) wurden in A.eins Implementiert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 732383[35219]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/sepa.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.1, 35219, 732383

@@ -4,7 +4,7 @@
 
 Wenn man unter OSQL die Funktion ***Optionen*** **F10** auswählt, so öffnet sich folgender Dialog mit zwei Reitern:
 
-<p class="just-emphasize">Anwendung:</p>
+#### Anwendung:
 
  ![](../../ImagesExt/image8_1456.png)
 
@@ -137,7 +137,7 @@ Wenn man unter OSQL die Funktion ***Optionen*** **F10** auswählt, so öffnet si
   </table>
 </div>
 
-<p class="just-emphasize">Datenbank:</p>
+#### Datenbank:
 
 Hier werden die Optionen der Datenbank angezeigt. Ein Ändern der Werte ist nicht möglich. Lesen sie dazu die Sybase Dokumentation zu „Database Options“
 

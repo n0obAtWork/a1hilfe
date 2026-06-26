@@ -4,7 +4,7 @@
 
 Hier werden die grundlegenden Einstellungen für die Verwendung von Rosi vorgenommen.
 
-<p class="just-emphasize">Steuerparameter anpassen</p>
+#### Steuerparameter anpassen
 
 Mit dem Steuerparameter 1016 wird festgelegt, mit welchen Vorgangsklassen Rosi benutzt werden soll.
 
@@ -24,7 +24,7 @@ Mit dem Steuerparameter 1016 wird festgelegt, mit welchen Vorgangsklassen Rosi b
 7. Die Eingaben mit der Taste „F9“ speichern. Die erscheinende Frage „Sollen die Daten übernommen werden?“ mit „Ja“ bestätigen.  
 \=> Die Maske zum Ändern des Steuerparameters wird geschlossen.
 
-<p class="just-emphasize">Allgemeine Rosi-Einrichtungen</p>
+#### Allgemeine Rosi-Einrichtungen
 
 Es werden die Ordner für die Archivierung von fehlerbehaften und korrekten ausgehenden EDI-Nachrichten eingerichtet.
 
@@ -52,7 +52,7 @@ Es werden die Ordner für die Archivierung von fehlerbehaften und korrekten ausg
 
 11. Die Eingaben mit der Taste „F9“ speichern. Anschließend die Maske mit der Taste „ESC“ schließen.
 
-<p class="just-emphasize">Nummernkreis einrichten</p>
+#### Nummernkreis einrichten
 
 Für die EDI-Nachrichten und Dateien werden eindeutige Zahlen benötigt. Diese werden mit Hilfe eines eigenen Nummerkreises erzeugt. Für dieses Beispiel wird nur ein Nummernkreis verwendet.
 

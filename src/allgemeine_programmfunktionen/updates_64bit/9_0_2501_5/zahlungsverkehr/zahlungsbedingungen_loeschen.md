@@ -4,7 +4,7 @@
 
 Zahlungsbedingungen [ZB] können nun auch gelöscht werden. Zu diesem Zweck wird ein Löschkennzeichen gesetzt. Die so gelöschten Zahlungsbedingungen können über die Funktion "Wiederherstellen" reaktiviert werden. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 736601[36495]
 
@@ -20,6 +20,6 @@ Funktion/Report: Löschen
 
 [Weitere Informationen](http://www.amic.de/hilfe/_zahlungsbedingungen.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 36495, 736601

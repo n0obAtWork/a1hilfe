@@ -8,11 +8,11 @@ Direktspring **[BSFS]**
 
 Bevor die XML-Daten erzeugt und versendet werden, bedarf es noch einiger Einstellungen im A.eins.
 
-<p class="just-emphasize">Buchstelle Firmenstamm</p>
+#### Buchstelle Firmenstamm
 
 Bevor die Daten übermittelt werden können, bedarf es einiger Einstellungen im „Buchstellen Firmenstamm“ (BSFS). Dort kann die XML-Kopfstruktur und die Sendeeinstellungen hinterlegt werden.
 
-<p class="just-emphasize">Allgemein</p>
+### Allgemein
 
 | Feldname | Beschreibung |
 | --- | --- |
@@ -21,13 +21,13 @@ Bevor die Daten übermittelt werden können, bedarf es einiger Einstellungen im 
 | Nummernkreis | Hier muss ein Nummernkreis eingetragen werden, der **nur** von diesem Buchstellenstamm aus verwendet wird.<br>Der Grund dafür ist, dass beim Versenden der Daten eine fortlaufende Nummer gesendet wird. Anhand dieser kann erkannt werden, ob beim übertragen Daten verloren gegangen sind. |
 | Verschlüsselungscode | Der Verschlüsselungscode wird zum verschlüsseln der Daten verwendet. Dieser Code muss bei AMIC bekannt sein, damit die Daten wieder entschlüsselt werden. |
 
-<p class="just-emphasize">Sendeeinstellungen</p>
+### Sendeeinstellungen
 
 | Feldname | Beschreibung |
 | --- | --- |
 | Ausgabepfad | In diesem Feld muss ein Pfad hinterlegt werden, in den die Dateien exportiert werden. Von dort aus müssen die exportierten Daten an die Buchstelle z.B. per FTP übermittelt werden. (siehe „[Export der Daten](./export_und_verarbeitung.md#bsfs_exportderdaten)“) |
 
-<p class="just-emphasize">XML-Struktur</p>
+### XML-Struktur
 
 Im Bereich XML-Struktur lassen sich XML – spezifische Daten eintragen, welche später im XML – Dokument verwendet werden.
 
@@ -54,7 +54,7 @@ Die Kopfstruktur einer XML-Datei könnte wie folgt aussehen:
 <LaufendeNr>36</LaufendeNr>
 ```
 
-<p class="just-emphasize">Personenkonten</p>
+#### Personenkonten
 
 Die Erstellung von XML-Daten erfolgt nicht automatisch für jedes Personenkonto. Damit die Daten für ein Personenkonto erstellt werden, hinterlegen Sie in diesem den Buchstellenstamm.
 

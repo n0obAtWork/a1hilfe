@@ -4,7 +4,7 @@
 
 Bisher war es so, dass im Modul e-Clearing nach der Übernahme in die Primanota die Auszifferungsinformationen nicht mehr angezeigt wurden. Für Belege, die mit dieser Version erstellt werden, kann sich die Auszifferung jetzt weiter in e-Clearing angesehen werden.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 723115[33768]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/anzeigenbearbeiten.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 33768, 723115

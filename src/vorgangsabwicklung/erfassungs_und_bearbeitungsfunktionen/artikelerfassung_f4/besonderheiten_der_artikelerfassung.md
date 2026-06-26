@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/besonderheitenderartikelerfass.htm -->
 
-<p class="just-emphasize">Lager, Lagerplatz, Zusatzinformation, Rabatt</p>
+### Lager, Lagerplatz, Zusatzinformation, Rabatt
 
 Bei Einschaltung weiterer Optionen kann sich der Erfassungsbildschirm folgender­maßen darstellen:
 
@@ -10,11 +10,11 @@ Durch Steuerungsparameter (im Bereich “Vorgangsbearbeitung Warenpos.”) kann 
 
 Die Eingabe der Zusatzinfo wie auch die Skontieingabe wird über die EPA- Steuerung ermöglicht; die Rabattabfrage steuert der Parameter “manuelle Rabatte zu­lässig” im Artikel.
 
-<p class="just-emphasize">Kontrakte, Partien</p>
+### Kontrakte, Partien
 
 Artikel mit Partiezwang oder vorliegende Kontrakte für den Kunden und Artikel erfordern manuelle bzw. automatische Zuordnungen. Auf die Abläufe wird im Abschnitt Kontrakte bzw. Partien eingegangen.
 
-<p class="just-emphasize">Anlegen nicht vorhandener Artikel in Standard-Vorgängen</p>
+### Anlegen nicht vorhandener Artikel in Standard-Vorgängen
 
 Analog zur Umbuchung kann man auch während der normalen Standardvorgänge (insbesondere wohl sinnvoll im Einkauf und bei Lagerumbuchungen) Artikel in einem Lager anlegen, in dem sie bisher fehlen.
 

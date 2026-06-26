@@ -4,7 +4,7 @@
 
 Bei der Erfassung von individuellen Preiskonditionen (z.B. Direktsprung [PRI] oder [PRIE]) konnte nicht mit der Tab-Taste oder den Cursor-Tasten vom Register zurück in den Eingabereich für Artikel- bzw. Kundennummer gesprungen werden. Dieses Problem wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 713901[32734]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_PFLMODUL_IPRRAB.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2210.20, 32734, 713901

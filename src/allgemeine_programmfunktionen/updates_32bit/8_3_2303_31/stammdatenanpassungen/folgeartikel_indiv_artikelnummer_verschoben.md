@@ -4,7 +4,7 @@
 
 Die Varianten für Folgeartikel und individuelle Artikelnummern wurden in eigene Anwendungen verschoben. Sie sind über die Direktsprünge [ARSF] bzw. [ARSI] aufrufbar
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 720569[33470]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_artikelstammundartik.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2303.31, 33470, 720569

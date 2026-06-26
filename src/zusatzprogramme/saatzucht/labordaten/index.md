@@ -6,7 +6,7 @@ Hauptmenü > Saatzucht > Saatenlabor > Labordaten
 
 oder Direktsprung **[LABOR]**
 
-<p class="just-emphasize">Funktionen der Anwendung Labor</p>
+#### Funktionen der Anwendung Labor
 
 | Funktion | Bedeutung |
 | --- | --- |
@@ -28,7 +28,7 @@ oder Direktsprung **[LABOR]**
 
 Folgende Einrichterparameter gibt es auf diesem Pfleger: [Einrichterparameter Labordaten](../../../firmenstamm/einrichterparameter/qualitaetslabor_nach_ista_epa_labordaten.md)
 
-<p class="just-emphasize">Funktionen auf der Maske</p>
+#### Funktionen auf der Maske
 
 Die Funktionen zu dieser Maske erreicht man nur über das Kontextmenü durch Drücken der rechten Maustaste. Folgende Funktionen können aus der Maske aufgerufen werden.
 
@@ -83,7 +83,7 @@ Im Kopfteil der Maske befindliche Felder:
 Sind alle notwendigen Kopfdaten angegeben, so wird die Erfassung dieses Teils der Daten mit der Taste **F9** (Speichern der Kopfdaten) abgeschlossen. Nun können die Daten zu den ausgewählten Verfahren in den jeweiligen Registerkarten bearbeitet werden.  
 Dabei ist **zu beachten**, dass, für jedes Verfahren getrennt, nach jeder Eingabe auf der Verfahrensregisterkarte die zum Verfahren gehörenden Daten unmittelbar gespeichert und wieder eingelesen und angezeigt werden. Dadurch ist es möglich, individuelle Berechnungen zum Verfahren mittels privater Update-Trigger auf den zum Verfahren gehörenden Relationen durchführen zu lassen und die resultierenden Ergebnisse sofort auf der Maske sichtbar zu machen. Diese Realisierung der Implementation von Berechnungen ermöglicht unter anderem auch die Berechnungen bei der Erzeugung der Datensätze außerhalb der Bearbeitung per Labordaten-Maske (zum Beispiel durch Scanner-Datenübernahme).
 
-<p class="just-emphasize">Felder auf der Registerkarte KF ung. (Keimfähigkeit ungebeizt), KF geb. (Keimfähigkeit gebeizt) und Derm(Keimfähigkeit)</p>
+#### Felder auf der Registerkarte KF ung. (Keimfähigkeit ungebeizt), KF geb. (Keimfähigkeit gebeizt) und Derm(Keimfähigkeit)
 
 Bei der Keimfähigkeitsuntersuchung werden eine bestimmte Anzahl Reine Samen eingekeimt und nach einer festgelegten Anzahl an Tagen (Keimdauer) ausgewertet. Die Samen und Keimlinge werden in folgende Kategorien eingeteilt: Normale und anomale Keimlinge; frische, harte und tote Samen. Der Prozentsatz der normalen Keimlinge bildet die Keimfähigkeit. Man spricht von gebeizten Saatgut, wenn es mit Pflanzenschutzmitteln gegen bspw. Pilzbefall oder Schädlinge behandelt wurde.
 
@@ -121,7 +121,7 @@ Die Kombination aus Feldnamen, Hintergrundfarbe, Vordergrundfarbe wird mit Komma
 | Bemerkung | Hier kann eine Bemerkung für die Untersuchung eingetragen.<br> |
 | Bemerkung intern | Hier kann eine interne Bemerkung für die Untersuchung eingetragen.<br> |
 
-<p class="just-emphasize">Felder auf der Registerkarte Lufa</p>
+#### Felder auf der Registerkarte Lufa
 
 Untersuchungen, die bei der Lufa (Landwirtschaftliche Untersuchungs- und Forschungsanstalt) in Auftrag gegeben wurden, werden hier eingetragen.
 
@@ -139,7 +139,7 @@ Untersuchungen, die bei der Lufa (Landwirtschaftliche Untersuchungs- und Forschu
 | Inhaltsstoffe (Tabelle) | |
 | Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste **F3 kann eine Auswahl aufgerufen werden**. |
 
-<p class="just-emphasize">Felder auf der Registerkarte Reinheit/Besatz</p>
+#### Felder auf der Registerkarte Reinheit/Besatz
 
 Bei der Reinheitsuntersuchung wird durch mechanische Auftrennung der Untersuchungsprobe in Reine Samen (Samen, die augenscheinlich zu derselben, angegebenen Fruchtart gehören), Samen anderer Arten (Unkrautsamen, Samen anderer Kulturarten) und Unschädliche Verunreinigungen unterschieden.
 
@@ -166,7 +166,7 @@ Bei der Besatzuntersuchung wird eine vorgegebene Menge Saatgut auf Samen anderer
 | Reinheit (Tabelle) | In der Tabelle „Reinheit“ können in der Spalte „g“ das Gewicht in Gramm eingegeben werden. Die Spalte „%“ dient der prozentualen Eingabe. Die Anzahl kann in der Spalte „Anz“ angegeben werden. In der Spalte „Besatz“ wird die Besatzbezeichnung eingetragen. Die Spalte „T“ wird zur Pflege der Besatzarten-Gruppierung genutzt und ist an das Format „AF_BESATZART“ angeschlossen via Taste **F3 kann hier eine Auswahl aufgerufen werden.**<br> |
 | Besatz (Tabelle) | In der Tabelle „Besatz“ können in der Spalte „%“ prozentualen Eingaben vorgenommen werden. Die Anzahl kann in der Spalte „Anz“ angegeben werden. In der Spalte „Besatz“ kann die Besatzbezeichnung eingetragen werden.<br> |
 
-<p class="just-emphasize">Felder auf der Registerkarte Sonstiges</p>
+#### Felder auf der Registerkarte Sonstiges
 
 Bei der Untersuchung Sortierung soll die Kalibrierung von pilliertem (mit einer Hülle aus neutraler Masse ummantelt, die Alternative hierzu wäre das Beizen) oder unbehandeltem Saatgut geprüft werden. Diese Art der Untersuchung soll mit zwei Wiederholungen durchgeführt werden.
 
@@ -478,7 +478,7 @@ Die Untersuchung der Feuchte von Saatgut dient der Beurteilung der Lagerfähigke
   </table>
 </div>
 
-<p class="just-emphasize">Felder auf der Registerkarte Techn.Prüfung</p>
+#### Felder auf der Registerkarte Techn.Prüfung
 
 | Name | Bedeutung |
 | --- | --- |
@@ -489,7 +489,7 @@ Die Untersuchung der Feuchte von Saatgut dient der Beurteilung der Lagerfähigke
 | Prüfer | Der Prüfer dieser Untersuchung wird hier eingetragen.<br> |
 | Status | Das Druckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste **F3 kann eine Auswahl aufgerufen werden**. |
 
-<p class="just-emphasize">Felder auf der Registerkarte Triebkraft</p>
+#### Felder auf der Registerkarte Triebkraft
 
 Die Triebkraftuntersuchung wird durchgeführt, wenn die gebeizte Keimfähigkeit über einem festgelegten Schwellwert gegenüber der ungebeizten Keimfähigkeit liegt. Sie ist ein wichtiger zusätzlicher Indikator für die Gesundheit des Saatgutes.
 
@@ -504,7 +504,7 @@ Die Triebkraftuntersuchung wird durchgeführt, wenn die gebeizte Keimfähigkeit 
 | ges. | <br> |
 | Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste **F3 kann eine Auswahl aufgerufen werden**.<br> |
 
-<p class="just-emphasize">Felder auf der Registerkarte Silo</p>
+#### Felder auf der Registerkarte Silo
 
 | Name | Bedeutung |
 | --- | --- |
@@ -516,7 +516,7 @@ Die Triebkraftuntersuchung wird durchgeführt, wenn die gebeizte Keimfähigkeit 
 | Gesamtmenge | Hier kann die Gesamtmenge in Dezitonnen und Kilogramm eingetragen werden.<br> |
 | Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste **F3 kann eine Auswahl aufgerufen werden**.<br> |
 
-<p class="just-emphasize">Felder auf der Registerkarte Tetra (Tetrazolium)</p>
+#### Felder auf der Registerkarte Tetra (Tetrazolium)
 
 Biochemische Prüfung von Samen auf Lebensfähigkeit nach dem topographischen Tetrazolium-Verfahren gemäß den ISTA-Vorschriften. Es finden hierbei bis zu vier Wiederholungen statt, wobei die Samen hierfür präpariert sein können (dies erleichtert das Eindringen der Färbelösung).
 
@@ -531,7 +531,7 @@ Biochemische Prüfung von Samen auf Lebensfähigkeit nach dem topographischen Te
 | Status | Das Keimfähigkeitsdruckkennzeichen kann hier angegeben werden. Auswählbar über das Format „AF_KFDRUCK“ via Taste **F3 kann eine Auswahl aufgerufen werden**.<br> |
 | Bemerkung | Bemerkungsfeld, hier können Bemerkungen zur Untersuchung eingetragen werden.<br> |
 
-<p class="just-emphasize">Felder auf der Registerkarte Zusammensetzung</p>
+#### Felder auf der Registerkarte Zusammensetzung
 
 Die Untersuchung der Zusammensetzung wird zum Beispiel bei Saatgutmischungen mit vorhandenen Soll-Werten für die einzelnen in der Mischung enthaltenen Bestandteile genutzt. Neben der Angabe der Untersuchungsmenge, eines abweichenden Untersuchungsdatums und des Prüfers werden die ermittelten Bestandteile per F3-Auswahl in der Spalte ‚Zusammensetzung‘ aufgenommen sowie der zugehörige Soll-Wert und der ermittelte Ist-Wert als Gewicht (gemäß den ISTA-Vorschriften) oder prozentual erfasst. Im Bemerkungsfeld kann zum Beispiel das Untersuchungsergebnis kommentiert werden.
 
@@ -547,7 +547,7 @@ Die Untersuchung der Zusammensetzung wird zum Beispiel bei Saatgutmischungen mit
 | Bemerkung | Bemerkungsfeld, hier können Bemerkungen zur Untersuchung eingetragen werden.<br> |
 | Status | Der Status der Zusammensetzungsuntersuchung kann hier angegeben werden. Auswählbar über das Anwender-Format „AF_KFDRUCK“ per Taste **F3.**<br> |
 
-<p class="just-emphasize">Felder auf der Registerkarte Kotrollanbau</p>
+#### Felder auf der Registerkarte Kotrollanbau
 
 Das Verfahren Kontrollanbau ermöglicht die Eingabe von Feldversuchsergebnissen.
 
@@ -663,7 +663,7 @@ BEGIN
   </table>
 </div>
 
-<p class="just-emphasize">Felder auf der Registerkarte Marker</p>
+#### Felder auf der Registerkarte Marker
 
 Das Verfahren Marker ermöglicht die Eingabe von genotypischen Untersuchungen.
 
@@ -685,7 +685,7 @@ Das Verfahren Marker ermöglicht die Eingabe von genotypischen Untersuchungen.
 | NON | Der Analysewert der Ausprägung Negativ kann hier eingetragen werden.<br> |
 | Ergebnis % | Das Ergebnis in % kann hier eingetragen werden.<br> |
 
-<p class="just-emphasize">AIS – Erweiterung</p>
+#### AIS – Erweiterung
 
 Der Laborpfleger lässt sich mit AIS erweitern. Das zu verwendende Ident-Maskenfeld lautet **h.QualitaetsId$**
 

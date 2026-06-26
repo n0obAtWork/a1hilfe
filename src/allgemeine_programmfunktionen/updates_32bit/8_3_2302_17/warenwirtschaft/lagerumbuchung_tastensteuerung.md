@@ -4,7 +4,7 @@
 
 In der Lagerumbuchung konnten die Felder für den Abgang nicht mit der Tastatur angesteuert werden. Die Tab-Reihenfolge wurde angepasst, sodass dies nun möglich ist.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 718700[33382]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/!lagerumbuchung.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2302.17, 33382, 718700

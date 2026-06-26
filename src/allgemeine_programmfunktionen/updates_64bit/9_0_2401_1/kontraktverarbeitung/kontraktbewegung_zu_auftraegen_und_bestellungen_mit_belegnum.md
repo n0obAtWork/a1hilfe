@@ -4,7 +4,7 @@
 
 In den Kontraktbewegungen werden ab jetzt bei Aufträgen und Bestellungen die Auftragsnummer und Bestellnummer angezeigt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 714314[32861]
 
@@ -20,6 +20,6 @@ Funktion/Report: Bewegungen, Ändern->Bewegungen
 
 [Weitere Informationen](http://www.amic.de/hilfe/_kontraktstammdaten.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.1, 32861, 714314

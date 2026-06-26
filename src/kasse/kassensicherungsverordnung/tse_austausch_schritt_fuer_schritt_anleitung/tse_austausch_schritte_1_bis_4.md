@@ -26,7 +26,7 @@ Hauptmenü > Barvorgänge > Kassensicherungsverordnung
 
 Direktsprung **[KSVO]**
 
-<p class="just-emphasize">Hinweis!</p>
+#### Hinweis!
 
 Die Datensicherung ist wichtig für Ihre Betriebsprüfung und die erstellten Dateien müssen gut aufbewahrt werden.
 
@@ -75,7 +75,7 @@ Dazu wie folgt vorgehen:
 
 ***1.*** Im Ordner ***Aeins\\Config*** die aktive **ahoi2.xml** umbenennen z. B. in ***ahoi2_OLD***
 
-So ist sichergestellt, dass sie im Notfall reaktiviert werden kann.
+   So ist sichergestellt, dass sie im Notfall reaktiviert werden kann.
 
 2. Lizenzdatei aus der E-Mail unter den genau folgender gekürzten Bezeichnung: **ahoi2.xml** auf allen Servern und Clients ins Verzeichnis ***Aeins\\Config*** speichern.
 
@@ -97,7 +97,7 @@ Um die TSE-Sticks zu tauschen, wie folgt vorgehen:
 
 3. Am Kassenarbeitsplatz A.eins starten
 
-<p class="just-emphasize">Hinweis!</p>
+#### Hinweis!
 
 Für die Kassen- und Betriebsprüfung ist der alte TSE-Stick gut aufzubewahren!
 

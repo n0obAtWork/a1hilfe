@@ -4,7 +4,7 @@
 
 Der Steuerparameter 503 "Alle Kredite als Summe übernehmen?" wurde um neue Optionen erweitert. Für eine detaillierte Auflistung der verschiedenen Werte und Bedeutungen schauen Sie bitte unter dem angegebenen Link in die Kundenhilfe.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 724433[34076]
 
@@ -20,6 +20,6 @@ Funktion/Report: amic_func_KundKredit, amic_func_Update_KundKredit, AMIC_Kreditl
 
 [Weitere Informationen](http://www.amic.de/hilfe/_SPA_503.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 34076, 724433

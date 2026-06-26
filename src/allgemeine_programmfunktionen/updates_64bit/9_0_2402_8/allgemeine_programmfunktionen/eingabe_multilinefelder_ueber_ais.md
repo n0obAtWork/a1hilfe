@@ -4,7 +4,7 @@
 
 Die Eingabe bei Multiline-Textfeldern, die über AIS angelegt wurden, wurde überarbeitet. Damit ist die Problematik, dass man eigenständig Zeilen einfügen musste behoben. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 740200[36168]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/feldbeschreibung.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.8, 36168, 740200

@@ -18,7 +18,7 @@ In dieser Variante werden folgende Datentypen angezeigt:
       </tr>
       <tr>
         <td>
-          <p>Belegklasse 8040</p>
+          <p><strong>Belegklasse 8040</strong></p>
         </td>
         <td>
           <p>Dies ist das exportierte Xml.</p>
@@ -26,7 +26,7 @@ In dieser Variante werden folgende Datentypen angezeigt:
       </tr>
       <tr>
         <td>
-          <p>Belegklasse 8041</p>
+          <p><strong>Belegklasse 8041</strong></p>
         </td>
         <td>
           <p>Das ist die HTML-Visualisierung des exportierten Xml</p>
@@ -34,7 +34,7 @@ In dieser Variante werden folgende Datentypen angezeigt:
       </tr>
       <tr>
         <td>
-          <p>Belegklasse 8042</p>
+          <p><strong>Belegklasse 8042</strong></p>
         </td>
         <td>
           <p>Der eRechnungsexport ist fehlerhaft.</p>
@@ -42,7 +42,7 @@ In dieser Variante werden folgende Datentypen angezeigt:
       </tr>
       <tr>
         <td>
-          <p>Belegklasse 8049</p>
+          <p><strong>Belegklasse 8049</strong></p>
         </td>
         <td>
           <p>Das ist der eRechnungsexport mit ZUGFerD (<strong><em>ab Herbstversion 2025</em></strong>)</p>
@@ -62,7 +62,7 @@ In dieser Variante werden folgende Datentypen angezeigt:
       </tr>
       <tr>
         <td>
-          <p>Belegklasse 8044</p>
+          <p><strong>Belegklasse 8044</strong></p>
         </td>
         <td>
           <p>Dies ist ein ZUGFerD-Pdf mit eingebetteter Xml-Datei. (<b><i>ab Herbstversion 2025</i></b>)</p>
@@ -70,7 +70,7 @@ In dieser Variante werden folgende Datentypen angezeigt:
       </tr>
       <tr>
         <td>
-          <p>Belegklasse 8045</p>
+          <p><strong>Belegklasse 8045</strong></p>
         </td>
         <td>
           <p>Dies ist das importierte Xml.</p>
@@ -78,7 +78,7 @@ In dieser Variante werden folgende Datentypen angezeigt:
       </tr>
       <tr>
         <td>
-          <p>Belegklasse 8046</p>
+          <p><strong>Belegklasse 8046</strong></p>
         </td>
         <td>
           <p>Das ist die HTML-Visualisierung des Xml</p>

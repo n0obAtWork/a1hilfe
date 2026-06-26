@@ -4,7 +4,7 @@
 
 Hier gibt es die Möglichkeit der Übermittlung von Bestellungen an die Terres Zentrale. Eine entsprechende Umschlüsselung gemäß Umschlüsselwerk (Querverweis Bereich Importumsetzer) wird vorgenommen
 
-<p class="just-emphasize">Vorgehensweise</p>
+#### Vorgehensweise
 
 Um eine Bestellung für Terres auszulösen, wird wie folgt vorgegangen:
 
@@ -20,13 +20,13 @@ Die erstellte Bestellung aus der [OpenTrans](../../zusatzprogramme/ehemalige_add
 4. Die erfassten Bestellungen können unter dem Terres Bestellexport angesehen werden.  
 Hauptmenü > Externe Kommunikation > Datendrehscheibe > Bestellexport [**TERRX**]
 
-<p class="just-emphasize">Besonderheiten</p>
+#### Besonderheiten
 
 Wird eine Bestellung erfasst, und diese ist noch nicht an Terres übermittelt worden, und in der zwischenzeit erhält ein Artikel das Kennzeichen „Bestellung-zulassen“ 0 so wird in den Standard Varianten der Anwendung Bestellexport [**TERRX**] die Bestellung rot markiert.
 
 Vorher müssen einige Einstellungen im A.eins System vorgenommen sein.
 
-<p class="just-emphasize">Einrichtungen</p>
+#### Einrichtungen
 
 1. Die [Dokumentenverwaltung](../../dokumentenverwaltung/archiv_manager/index.md) muss aktiviert sein. Eventuell muss eine Lizenz für die Dokumentenverwaltung erworben werden.  
     
@@ -51,15 +51,15 @@ Vorher müssen einige Einstellungen im A.eins System vorgenommen sein.
 
 10. Der [Belegversand](../../zusatzprogramme/mailversand_allgemein/index.md) muss eingerichtet werden.(Lizenz erforderlich)
 
-<p class="just-emphasize">Konverterprozedur</p>
+#### Konverterprozedur
 
 In der Konverterprozedur, welche aus dem OpenTrans Dokument ein Terres Dokument macht, müssen einige Stellen umkonvertiert werden.
 
-<p class="just-emphasize">Felder für die Bestellung</p>
+#### Felder für die Bestellung
 
 Erklärung der Einzelnen Felder in der Bestellung
 
-<p class="just-emphasize">Header OpenTrans Pfad '/ORDER/ORDER_HEADER/ORDER_INFO/PARTIES/PARTY/.'</p>
+#### Header OpenTrans Pfad '/ORDER/ORDER_HEADER/ORDER_INFO/PARTIES/PARTY/.'
 
 | ![\*](../../ImagesExt/image8_1558.jpg "*") XML Element | ![\*](../../ImagesExt/image8_1558.jpg "*") Konstante | ![\*](../../ImagesExt/image8_1558.jpg "*") Wert /Herkunft | ![\*](../../ImagesExt/image8_1558.jpg "*") XML Pfad OpenTrans |
 | --- | --- | --- | --- |
@@ -72,7 +72,7 @@ Erklärung der Einzelnen Felder in der Bestellung
 | ![\*](../../ImagesExt/image8_1556.jpg "*") Externe-Referenz | ![\*](../../ImagesExt/image8_1556.jpg "*") Ja/Nein | ![\*](../../ImagesExt/image8_1556.jpg "*") Kann mit einem eigenen Wert gefüllt werden | ![\*](../../ImagesExt/image8_1556.jpg "*") |
 | ![\*](../../ImagesExt/image8_1556.jpg "*") Testuebertragung | ![\*](../../ImagesExt/image8_1556.jpg "*") Nein | ![\*](../../ImagesExt/image8_1557.jpg "*") 0 Echte Bestellung<br>![\*](../../ImagesExt/image8_1558.jpg "*") 1 Test Bestellung | ![\*](../../ImagesExt/image8_1556.jpg "*") |
 
-<p class="just-emphasize">Kopfdaten OpenTrans Pfad '/ORDER/ORDER_HEADER/ORDER_INFO/PARTIES/PARTY/.'</p>
+#### Kopfdaten OpenTrans Pfad '/ORDER/ORDER_HEADER/ORDER_INFO/PARTIES/PARTY/.'
 
 | ![\*](../../ImagesExt/image8_1558.jpg "*") XML Element | ![\*](../../ImagesExt/image8_1558.jpg "*") Konstante | ![\*](../../ImagesExt/image8_1558.jpg "*") Wert /Herkunft | ![\*](../../ImagesExt/image8_1558.jpg "*") XML Pfad OpenTrans |
 | --- | --- | --- | --- |
@@ -101,7 +101,7 @@ Erklärung der Einzelnen Felder in der Bestellung
 | ![\*](../../ImagesExt/image8_1556.jpg "*") EDI-Anwendungscode | ![\*](../../ImagesExt/image8_1556.jpg "*") Ja | ![\*](../../ImagesExt/image8_1556.jpg "*") A.eins | ![\*](../../ImagesExt/image8_1556.jpg "*") |
 | ![\*](../../ImagesExt/image8_1556.jpg "*") EDI-Referenznummer | ![\*](../../ImagesExt/image8_1556.jpg "*") Ja/Nein | ![\*](../../ImagesExt/image8_1556.jpg "*") Kann mit einem eigenen Wert gefüllt werden | ![\*](../../ImagesExt/image8_1556.jpg "*") |
 
-<p class="just-emphasize">Positionsdaten OpenTrans Pfad '/ORDER/ORDER_ITEM_LIST/ORDER_ITEM/.'</p>
+#### Positionsdaten OpenTrans Pfad '/ORDER/ORDER_ITEM_LIST/ORDER_ITEM/.'
 
 Die Positionsdaten können n mal vorkommen.
 

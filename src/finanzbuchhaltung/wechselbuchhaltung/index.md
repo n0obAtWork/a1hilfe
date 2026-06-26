@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/wechselbuchhaltung.htm -->
 
-Zielsetzung
+**Zielsetzung**
 
 Ein großer Teil aller Warengeschäfte wird durch Wechsel finanziert. Der Wechsel ist ein Wertpapier, in dem sich der Schuldner (Bezogener) verpflichtet, einen bestimmten Betrag an einem festgelegten Termin (Verfalltag) an den auf dem Wechsel angegebenen Empfänger (Remittent) zu bezahlen.
 

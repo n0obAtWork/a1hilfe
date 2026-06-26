@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_cescannerinventur.htm -->
 
-<p class="just-emphasize">Vorbereitungsschritte</p>
+#### Vorbereitungsschritte
 
 - Als erstes müssen die Scancodes für die Inventur mit dem Lagerverwaltungssystem eingerichtet werden. Dies sind IV [-106] für Inventur Start undIVENDE[-107] für Inventur Ende. Des Weiteren sind die AI-Zuordnungen für den Scancode einzutragen. (Beispiel mit Partie) Soll die Inventur ohne Partie erfasst werden, so kann die Zeile mit dem AI-Code 10 weggelassen werden. Mit dem Feld „Optional“ kann gesteuert werden, ob die AI in einem Erfassungsblock erfasst werden muss.
 - Eine [Inventur](../../../../abschluesse_inventur/inventur/index.md) muss eröffnet worden sein.
@@ -23,7 +23,7 @@
 | 3102 | Nettogewicht in Kilogramm (EAN128) | 2 | | Nein |
 | 3103 | Nettogewicht in Kilogramm (EAN128) | 2 | | Nein |
 
-<p class="just-emphasize">Abarbeitung der Inventur</p>
+#### Abarbeitung der Inventur
 
 Nachdem die Scancodes für die Inventur angelegt und die AI-Zuordnung eigerichtet worden sind kann jetzt die Erfassung mit dem Scanner erfolgen.
 

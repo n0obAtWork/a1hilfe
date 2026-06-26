@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/spezielletastenschlssel.htm -->
 
-<p class="just-emphasize">Remarks</p>
+#### Remarks
 
 Use the **SendKeys** method to send keystrokes to applications that have no automation interface. Most keyboard characters are represented by a single keystroke. Some keyboard characters are made up of combinations of keystrokes (CTRL+SHIFT+HOME, for example). To send a single keyboard character, send the character itself as the string argument. For example, to send the letter x, send the string argument "x".
 

@@ -28,11 +28,11 @@ Nach erfolgreichem Export erscheint folgende Meldung:
 
 ![](../../../ImagesExt/image8_790.png)
 
-<p class="just-emphasize">Satzaufbau</p>
+#### Satzaufbau
 
 Die Daten sind durch Komma getrennt und stehen in Hochkomma. Die Daten bestehen aus einem Vorsatz gefolgt von den eigentlichen Daten. Sie haben zurzeit folgende Struktur:
 
-<p class="just-emphasize">Vorsatz:</p>
+### Vorsatz:
 
 | Nr. | Name | Typ | Max. Länge | NK | Hinweis |
 | --- | --- | --- | --- | --- | --- |
@@ -46,7 +46,7 @@ Die Daten sind durch Komma getrennt und stehen in Hochkomma. Die Daten bestehen 
 | 7 | Textzeile 3 | A | 30 | | Leer |
 | 8 | Textzeile 4 | A | 30 | | Leer |
 
-<p class="just-emphasize">Buchungen:</p>
+### Buchungen:
 
 | Nr. | Name | Typ | Max. Länge | NK | Hinweis |
 | --- | --- | --- | --- | --- | --- |
@@ -79,7 +79,7 @@ Die Daten sind durch Komma getrennt und stehen in Hochkomma. Die Daten bestehen 
 | 26 | Betrag | N | 13 | 2 | |
 | 27 | Währung | A | 3 | | |
 
-<p class="just-emphasize">Kundenkennzeichen ( SQLK DumpKundData ):</p>
+### Kundenkennzeichen ( SQLK DumpKundData ):
 
 | Nr. | Name | Typ | Max. Länge | NK | Hinweis |
 | --- | --- | --- | --- | --- | --- |
@@ -143,7 +143,7 @@ where  i.kundid = k.kundid
 
 temp_IBMDebitor enthält alle in den Belegen vorkommenden Kunden exakt einmal. Die IBMNummer kommt aus der Auswahlliste.
 
-<p class="just-emphasize">Kundenadressdaten (SQLK DumpKundAdrData):</p>
+### Kundenadressdaten (SQLK DumpKundAdrData):
 
 | Nr. | Name | Typ | Max. Länge | NK | Hinweis |
 | --- | --- | --- | --- | --- | --- |
@@ -186,7 +186,7 @@ where  i.kundid   = k.kundid
 
 temp_IBMDebitor enthält alle in den Belegen vorkommenden Kunden exakt einmal. Die IBMNummer kommt aus der Auswahlliste.
 
-<p class="just-emphasize">Lieferantendaten ( SQLK DumpLiefData):</p>
+### Lieferantendaten ( SQLK DumpLiefData):
 
 | Nr. | Name | Typ | Max. Länge | NK | Hinweis |
 | --- | --- | --- | --- | --- | --- |
@@ -250,7 +250,7 @@ where  i.kundid = k.kundid
 
 temp_IBMKreditor enthält alle in den Belegen vorkommenden Lieferanten exakt einmal. Die IBMNummer kommt aus der Auswahlliste.
 
-<p class="just-emphasize">Lieferantenadressdaten (SQLK DumpLiefAdrData):</p>
+### Lieferantenadressdaten (SQLK DumpLiefAdrData):
 
 | Nr. | Name | Typ | Max. Länge | NK | Hinweis |
 | --- | --- | --- | --- | --- | --- |
@@ -293,7 +293,7 @@ where  i.kundid   = k.kundid
 
 temp_IBMKreditor enthält alle in den Belegen vorkommenden Kunden exakt einmal. Die IBMNummer kommt aus der Auswahlliste.
 
-<p class="just-emphasize">Umsetzen Zahlungsbedingung und Steuer</p>
+#### Umsetzen Zahlungsbedingung und Steuer
 
 Die Werte für Steuer (8) und Zahlungsbedingung (15) müssen umgeschlüsselt werden, damit das IBM-Finanzwesen die korrekten Daten bekommt. Dabei werden die Werte für die Zahlungsbedingung in der schon aus dem Importverfahren bekannten Umsetzungstabelle (Direktsprung IMPUM) gepflegt. Hier ist die Schlüsselklasse 900 für vorgesehen.
 

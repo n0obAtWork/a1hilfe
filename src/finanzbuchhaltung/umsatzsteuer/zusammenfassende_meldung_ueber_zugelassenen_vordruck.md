@@ -14,7 +14,7 @@ Dieses Formular bezieht die Daten über die Steuersätze und die dort eingerich
 
 Bevor dieses Formular gedruckt wird, werden vom System einige Prüfungen durchgeführt, ob bestimmte Zuordnungen und Einrichtungen fehlerfrei sind. Diese Prüfungen können Sie auch schon bei der Einrichtung der Stammdaten durchführen. Sie finden diese Tests unter dem Direktsprung FIREO und dort ist es der Menüpunkt "Test Stammdaten".
 
-Wo findet man den Vordruck?
+**Wo findet man den Vordruck?**
 
 Unter dem Menü Umsatzsteuer gibt es die Anwendung "Zusammenfassende Meldung". Dort kann man zur Variante "**Zusammenfassende Meldung nach AWPosition"** eine Funktion <strong>"Zugelassener Vordruck"</strong> finden<strong>.</strong> Hier werden die Daten analog dieser Variante zusammengesucht und dem Vordruck bereitgestellt. Bevor man den Vordruck drucken kann, wird geprüft, ob alle nötigen Stammdaten erfasst wurden.
 

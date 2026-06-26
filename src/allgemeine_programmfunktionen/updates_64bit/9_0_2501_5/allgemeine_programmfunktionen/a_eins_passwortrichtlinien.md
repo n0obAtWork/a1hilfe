@@ -4,7 +4,7 @@
 
 Passwort-Richtlinien können nun hinterlegt werden. Die Einstellung erfolgt über die Bedienerklassen [BDKL]. Unter dem Reiter Passwortrichtlinien können Sie nun individuelle Passwortrichtlinien auf Ihre Unternehmensrichtlinien angepasst eintragen.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 737928[36573]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_einrichtungbedienerk.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 36573, 737928

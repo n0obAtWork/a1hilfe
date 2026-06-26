@@ -4,7 +4,7 @@
 
 Wurde die Auswahlliste im Dialogmodus aufgerufen, so wurde die Breite immer auf die Gesamtbreite des Bildschirms festgelegt. Jetzt wird sie auf die A.eins Standard-Breite begrenzt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 0[33156]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/auswahlliste20.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2212.23, 33156, 0

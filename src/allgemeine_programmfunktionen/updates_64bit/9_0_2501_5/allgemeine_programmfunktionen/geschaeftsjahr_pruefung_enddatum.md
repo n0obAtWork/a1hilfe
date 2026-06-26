@@ -4,7 +4,7 @@
 
 Das Geschäftsjahr besitzt ein Anfangsdatum und ein Enddatum. Es wird jetzt geprüft, ob das Enddatum größer ist als das Anfangsdatum
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 740628[35966]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_wirtschaftsjahreundp.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 35966, 740628

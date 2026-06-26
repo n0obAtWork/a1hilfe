@@ -5,7 +5,7 @@
 <details>
 <summary>Frage: Was passiert, wenn man einen Bediener löscht? Erhält er lediglich ein Kennzeichen?</summary>
 
-<p class="just-emphasize">Antwort:</p>
+#### Antwort:
 
 Mit der Funktion **„Bediener löschen“** werden die Einträge des Bedieners irreversibel aus verschiedenen Tabellen in A.eins gelöscht! Im Bedienerstamm bleibt der Bediener bestehen und wird als inaktiv gekennzeichnet. Eine Wiederstellung des Bedieners ist nicht möglich! Auch eine „Speichern unter“-Funktion steht in diesem Fall nicht zur Verfügung.
 
@@ -16,7 +16,7 @@ Möchte man lediglich erreichen, dass sich der Bediener nicht mehr in A.eins anm
 <details>
 <summary>Frage: Ein Mitarbeiter sieht keine oder nicht alle archivierten Belege.</summary>
 
-<p class="just-emphasize">Antwort:</p>
+#### Antwort:
 
 Hierbei handelt es sich i.d.R. um eine Frage von Berechtigungen. Diese werden je Bedienerklasse vergeben. In den archivierten Dokumenten ist die Bedienerklasse desjenigen Mitarbeiters eingetragen, der das Dokument archiviert hat. Die Anzeige des Dokuments im Archiv ist nur für Bediener freigeschaltet, die einer mit dieser Berechtigung ausgestatteten Bedienerklasse angehören. Die Erteilung dieser Berechtigungen wird unter dem Direktsprung BDKL eingestellt. Dort markiert man die betreffende Bedienerklasse, der Ansichtsrechte erteilt werden sollen, und fügt mit “Ändern” (F5) auf dem Reiter “Formulararchiv” die Bedienerklassen hinzu. 
 

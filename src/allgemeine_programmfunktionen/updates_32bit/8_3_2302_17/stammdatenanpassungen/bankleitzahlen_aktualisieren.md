@@ -4,7 +4,7 @@
 
 Für die Funktion Banken aktualisieren stehen die Daten der Deutschen Bundesbank gültig vom 05.12.2022 bis 04.03.2023 zur Verfügung.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 719823[33425]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/bankenstamm.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2302.17, 33425, 719823

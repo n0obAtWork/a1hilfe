@@ -4,6 +4,6 @@
 
 \-\* ========================================================================== Hier Startet die Test Nachlaufroutine
 
-artietest
+**artietest**
 
 Anlage einer neuen Partie wird in diesem Bereich getestet.

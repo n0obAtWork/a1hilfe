@@ -4,7 +4,7 @@
 
 Nach dem Wechsel innerhalb einer Anwendung von einer Variante mit Archiv-Vorschau zu einer Variante die keine Archiv-Vorschau hat bleibt die Archiv-Vorschau nicht länger sichtbar.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 740504[36274]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/archivmitderauswahlliste20.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.10, 36274, 740504

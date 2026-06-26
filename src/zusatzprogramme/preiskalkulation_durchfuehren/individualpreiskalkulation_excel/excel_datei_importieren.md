@@ -16,13 +16,13 @@ Um die neuen Individualpreise in A.eins zu importieren, müssen folgende Schritt
 
 5. Die Datei auswählen und auf „Öffnen“ klicken. Der Import wird nun durchgeführt. Je nach Größe der Preisliste kann dies einige Minuten dauern. Sobald die folgende Meldung nicht mehr am unteren linken Rand vom A.eins-Fenster zu sehen ist, ist der Import abgeschlossen. Die Datei wird abschließend gelöscht, kann aber im [Import-Protokoll](./import_protokoll_pruefen.md) erneut aufgerufen werden.
 
-![](../../../ImagesExt/image8_1221.png)
+   ![](../../../ImagesExt/image8_1221.png)
 
 6. Sollte beim Import ein Fehler aufgetreten sein, erscheint eine Nachrichtenbox mit einer Fehlermeldung. Ist dies der Fall, sollte direkt der Schritt [Import-Protokoll prüfen](./import_protokoll_pruefen.md) ausgeführt werden, um Näheres über den Fehler zu erfahren. Erscheint keine Nachricht, so verlief der Import fehlerfrei.
 
 7. Als Letztes sollten die neuen Preise einmal überprüft werden. Dafür mit **Strg+R** die Auswahlliste aktualisieren und kontrollieren, ob die neuen Individualpreise korrekt importiert wurden.
 
-<p class="just-emphasize">Hinweis!</p>
+#### Hinweis!
 
 Um den neuen Wert für **Preis** zu überprüfen, ist das Feld **Preis alt** zu beachten. Dort steht der aktuelle Preis aus der Datenbank. Wenn der Import erfolgreich war, steht hier also der importierte Preis.
 

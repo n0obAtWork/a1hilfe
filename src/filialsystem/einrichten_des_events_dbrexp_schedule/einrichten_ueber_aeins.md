@@ -4,7 +4,7 @@
 
 1. Starten Sie Aeins mit der gewünschten Datenbank
 
-2. Gehen Sie über den Direktsprung [SFS] zur Anwendung Setup Filialsystem, alternativ gehen Sie über „Hauptmenü à Filialsystem à Stammdaten à Setup Filialsystem“
+2. Gehen Sie über den Direktsprung [SFS] zur Anwendung Setup Filialsystem, alternativ gehen Sie über „Hauptmenü → Filialsystem → Stammdaten → Setup Filialsystem“
 
 3. Wählen Sie in der Funktionsbox der Variante „Setup Filialsystem“ die Funktion „Event anlegen“
 

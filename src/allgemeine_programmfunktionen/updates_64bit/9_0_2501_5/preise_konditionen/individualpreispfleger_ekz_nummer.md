@@ -4,7 +4,7 @@
 
 Im Individualpreispfleger [PRI],[PRIE] auf dem Tab "Allgemein" wurde unter Umständen die EKZ-Nummer in den Tabellenzeilen fälschlicherweise mit 0 anstelle des in der Datenbank korrekt gespeicherten Werts belegt. Dies wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 746104[36859]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_PFLMODUL_IPRRAB.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 36859, 746104

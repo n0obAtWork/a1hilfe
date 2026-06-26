@@ -4,7 +4,7 @@
 
 Für Saatsorten und Feldbearbeitung wurde ein Feld für die Ertragsschätzung (Datenbankfeldname "Ernteschaetzung") angelegt. Der Wert aus den Saatsorten wird bei der Auswahl der Saatsorte in der Feldbearbeitung als Vorbelegung herangezogen.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 724716[34050]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/!_pflegersaatsorten.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 34050, 724716

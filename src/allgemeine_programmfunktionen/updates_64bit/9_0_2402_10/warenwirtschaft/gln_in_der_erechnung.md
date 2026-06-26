@@ -4,7 +4,7 @@
 
 Das Feld BT-71 GLN in der eRechnung wird nun korrekt ausgegeben. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 743108[36286]
 
@@ -20,6 +20,6 @@ Funktion/Report: eRechnung exportieren
 
 [Weitere Informationen](http://www.amic.de/hilfe/erechnungexport.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.10, 36286, 743108

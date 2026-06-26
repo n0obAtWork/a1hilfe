@@ -4,7 +4,7 @@
 
 Bei angeschlossener Kontraktverwaltung werden die Kontraktbedingungen bei der Vorgangserfassung automatisch berücksichtigt. Mit Eingabe des Kunden, des Artikels und der Menge sind alle Informationen für die Preisfindung über den Kontrakt vorhanden.
 
-<p class="just-emphasize">Erfassung</p>
+### Erfassung
 
 Der Rechnungserfassungsbildschirm (wie auch alle anderen Vorgänge) hat dann zum Beispiel folgenden Aufbau:
 

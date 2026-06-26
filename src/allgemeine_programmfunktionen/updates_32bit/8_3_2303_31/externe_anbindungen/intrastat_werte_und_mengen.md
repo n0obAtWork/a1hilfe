@@ -4,7 +4,7 @@
 
 Bei der Intrastatmeldung konnte es zu falschen Mengen und Werten kommen, wenn eine Lagerplatzumbuchung beteilig war. Dies wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 722036[33645]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/intrastatvariante2.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2303.31, 33645, 722036

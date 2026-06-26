@@ -18,11 +18,11 @@ Folgende Punkte können am Kunden nach der AIS Einrichtung ausgewählt werden.
 
 Des Weiteren kann es vorkommen, dass der Swift Code der Bank ein anderes Landkennzeichen enthält als das Landkennzeichen in der IBAN z.B. der IBAN Country Code ist GB und der Swift Country Code ist IM für die Isle of Man. Diese Liste ist im AEZ zu pflegen. Diese Liste wird beim Speichern mit den zu speichernden Daten verglichen. Wurden unterschiedlich Länderkennung in der IBAN und in dem Swift angegeben und diese Kombination steht in der Ausnahme Liste so wird der Datensatz gespeichert andernfalls nicht
 
-<p class="just-emphasize">Einrichtung</p>
+### Einrichtung
 
 Es müssen folgende Punkte eingerichtete werden.
 
-<p class="just-emphasize">Optionen</p>
+### Optionen
 
 Hauptmenü > Administration > Steuerung > Optionen
 
@@ -30,7 +30,7 @@ oder Direktsprung **[OPT]** 
 
 Um diese Option anzulegen wird mit **F8** oder ***Neu*** der Pfleger geöffnet. Als Option Name wird dann „***Pruefe_Bankstaat***“ ausgewählt. Unter Bediener wird eingetragen für welchen Bediener diese Option zur Verfügung steht. Als Wert wird der Name z.B. ***p_pruefe_bank_staat*** der Prüf Prozedur eingetragen. 
 
-<p class="just-emphasize">AIS</p>
+### AIS
 
 Hauptmenü > Administration > Werkzeuge > Informationssystem
 
@@ -59,7 +59,7 @@ Dann muss in der dritten Variante eine Zuordnung zwischen der Gruppe und der Mas
 | Ident Masken-Feldname/Wert | h.KundId$ |
 | Darstellung | Register |
 
-<p class="just-emphasize">AEZ</p>
+### AEZ
 
 Als erste muss überlegt werden, welches AEZ benutzt werden soll. In diesem Beispiel ist es aez2.
 
@@ -104,7 +104,7 @@ IDSQL from AeinsZusatz2
 IDSQL where Ident=:ID1
 ```
 
-<p class="just-emphasize">Private Prüfprozedur</p>
+### Private Prüfprozedur
 
 ```sql
 -- Priv. Prozedur p_pruefe_bank_staat --- TM 18.06.2012

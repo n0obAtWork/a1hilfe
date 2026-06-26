@@ -20,7 +20,7 @@ Beim Einspielen müssen folgende Punkte beachtet werden:
    - Forderungsgruppen
    - Steuern
 
-  3. Überprüfen Sie die Zählkreise.  
+3. Überprüfen Sie die Zählkreise.  
 Der Oberkontenzählkreis liegt nach der Einspielung im Bereich 900.000 - 999.999, der Sachkonten-Zählkreis im Bereich 1 - 9999.
 
 Neben dem Kontenrahmen können auch zusätzliche Stammdaten übernommen bzw. angepasst werden.

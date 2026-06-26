@@ -6,7 +6,7 @@ Hauptmenü > Informationen > Sonstiges > Compliance Statistik
 
 Diese Auswahlliste dient lediglich zur Übersicht und hat keine Suchfunktion oder Funktionen. Hier werden die Statistiken im Bezug auf Compliance angezeigt.
 
-<p class="just-emphasize">Felder</p>
+### Felder
 
 | Felder | Beschreibung |
 | --- | --- |

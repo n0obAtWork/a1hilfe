@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_buchungsadmin_pfleger.htm -->
 
-<p class="just-emphasize">Kopfdaten</p>
+### Kopfdaten
 
 Im Kopfbereich findet man alle Daten vor, um die Buchungsadministratoren einer eindeutigen Periode zuzuordnen.
 
@@ -14,7 +14,7 @@ Um bei der Neuanlage eine Periode auszuwählen, wird zuvor den Periodenbereich u
 | Wirtschaftsjahr | In diesem Feld wird das Wirtschaftsjahr eingetragen, auf das sich die Periode bezieht.<br>Via **F3** - Taste kann hier eine Auswahl über alle Wirtschaftsjahre getroffen werden.<br>Im ***Neu***\-Fall wird das Feld mit dem aktuellen Wirtschaftsjahr vorbelegt. |
 | Periode | Hier wird die Periode eingetragen.<br>Mit der Taste **F3** werden alle geöffneten und gesperrten Perioden angezeigt, die zu dem gewählten Periodenbereich und dem Wirtschaftsjahr gehören. |
 
-<p class="just-emphasize">Datentabelle</p>
+### Datentabelle
 
 In der Datentabelle können der Periode ein oder mehrere Buchungsadministratoren zugeordnet werden.
 

@@ -10,11 +10,11 @@ Durch die Produktion werden unterschiedliche Komponenten zu einem Produkt verarb
 
 Bei der Erfassung des Produktionszuganges stehen für diese Verbuchung nachfolgende Funktionen bereit:
 
-Produkt Partieverteilung
+***Produkt Partieverteilung***
 
-Komponenten Partieverteilung
+***Komponenten Partieverteilung***
 
-Akt. Komponente Partieverteilung
+***Akt. Komponente Partieverteilung***
 
 ![](../../../ImagesExt/image8_172.jpg)
 

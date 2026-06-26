@@ -10,7 +10,7 @@ Die „Kontraktbewertung zum Marktpreis“ Informationen befinden sich in den Va
 
 Über die Importe lassen sich die Marktpreise und die Paritätssätze einlesen. Die Importdateien müssen sich dafür im Ordner „Aeins\\User“ befinden.
 
-<p class="just-emphasize">Aufbau Importdatei „Marktpreise“</p>
+#### Aufbau Importdatei „Marktpreise“
 
 Name der Datei ist „Marktpreise.xlsx“
 
@@ -28,7 +28,7 @@ Name der Datei ist „Marktpreise.xlsx“
 | 10 | Profit | |
 | 11 | Preistyp | Beim Import kann hier der Preistyp angegeben werden. Standardmäßig wird dieser Wert auf „0“ gesetzt. Bei dem Wert „1“ handelt es sich um einen nachhaltigen Preis. |
 
-<p class="just-emphasize">Aufbau Importdatei „Paritätssätze“</p>
+#### Aufbau Importdatei „Paritätssätze“
 
 Name der Datei ist „ParitaetImport.xls“
 

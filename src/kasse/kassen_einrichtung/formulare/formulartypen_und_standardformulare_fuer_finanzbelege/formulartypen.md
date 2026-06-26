@@ -2,11 +2,11 @@
 
 <!-- source: https://amic.de/hilfe/formulartypen.htm -->
 
-###### Typ 10 (EC Lastschrift)
+### Typ 10 (EC Lastschrift)
 
 Lastschriftbestätigung
 
-Formular 30 (Druck der EC-Lastschrift auf dem Schacht des Bondruckers)
+<p class="just-emphasize">Formular 30 (Druck der EC-Lastschrift auf dem Schacht des Bondruckers)</p>
 
 (Bem.: die Nummer des Lastschriftformulars ist flexibel und wird in den Kasseneinstellungen in der Gruppe „Formulare“, Nummer 2 zugeordnet)
 
@@ -27,9 +27,9 @@ Formular 30 (Druck der EC-Lastschrift auf dem Schacht des Bondruckers)
 | EC_BonNr | 4 ZahlVariable<br>6259 | 950 Hauptteil EC_Lastschrift | Laufende Ident-Nummer des Zahlungsmittelsatzes |
 | EC_Kasse | 4 ZahlVariable<br>6260 | 950 Hauptteil EC_Lastschrift | Nummer der Kasse, an der mit dieser Karte gezahlt wurde |
 
-###### Typ 49 (Scheckdruck)
+### Typ 49 (Scheckdruck)
 
-Formular -50 / Scheckdruck
+<p class="just-emphasize">Formular -50 / Scheckdruck</p>
 
 (Bem.: die Nummer des Scheckformulars ist flexibel und wird in den Kasseneinstellungen in der Gruppe „Formulare“, Nummer 1 zugeordnet)
 
@@ -41,7 +41,7 @@ Formular -50 / Scheckdruck
 | BelegKunde | 3 TextVariable<br>6370 | 822 Kasse Positionen | Der eingegebene Kundenname |
 | SQLK_BELEGBETRAG,Wortbetrag | 9 SQLVariable | 822 Kasse Positionen | Der Belegbetrag in Worten |
 
-###### Typ 51 (Kassenformular Finanzbeleg)
+### Typ 51 (Kassenformular Finanzbeleg)
 
 Das Kassenformular verfügt über folgende Druckbereiche:
 
@@ -69,7 +69,7 @@ Iteriert über alle Zahlungen 823 Zahlungen und optional 824 Zahlungsmittel als 
 
 860 Fuß
 
-Formular -51 / Geldeinzahlung/Geldauszahlung/Geldentnahme
+<p class="just-emphasize">Formular -51 / Geldeinzahlung/Geldauszahlung/Geldentnahme</p>
 
 Siehe Einrichtung der Druckbereiche 820, 822, 823, 824, 828,829, 860. Zusätzlich können für Entnahmen die folgenden Positionen eingerichtet werden:
 
@@ -82,7 +82,7 @@ Siehe Einrichtung der Druckbereiche 820, 822, 823, 824, 828,829, 860. Zusätzlic
 | Nettosumme | 4 ZahlVariable<br>6304 | 822 Kasse Positionen | Optional bei Entnahmen wird die Nettosumme gedruckt |
 | Nettosummetext | 3 TextVariable<br>6305 | 822 Kasse Positionen | Optional bei Entnahmen wird der Festtext „Nettosumme:“ gedruckt |
 
-Formular -52 / Einreichung
+<p class="just-emphasize">Formular -52 / Einreichung</p>
 
 Siehe Einrichtung der Druckbereiche 820, 822, 823, 824, 828, 829, 860.
 
@@ -97,7 +97,7 @@ Im Positionsteil 822 können die folgenden Positionen zusätzlich eingerichtet w
 | BankKonto | 3 TextVariable<br>6313 | 822 Kasse Positionen | Nummer des Kontos bei der Bank, auf das eingereicht wird |
 | BankIBAN | 3 TextVariable<br>6314 | 822 Kasse Positionen | IBAN des Kontos bei der Bank, auf das eingereicht wird |
 
-Formular -53 / Sortenwechsel
+<p class="just-emphasize">Formular -53 / Sortenwechsel</p>
 
 Siehe Einrichtung der Druckbereiche 820, 822, 860.
 
@@ -120,7 +120,7 @@ Im Positionsteil 822 können die folgenden Positionen zusätzlich eingerichtet w
 | BetragZurueck | 4 ZahlVariable<br>6331 | 822 Kasse Positionen | Betrag der Wechselsumme in Rückgabewährung |
 | WaehrungZurueck | 3 TextVariable<br>6330 | 822 Kasse Positionen | Rückgabewährung |
 
-Formular -54 / Zahlungsmeldungen
+<p class="just-emphasize">Formular -54 / Zahlungsmeldungen</p>
 
 Siehe Einrichtung der Druckbereiche 820, 822, 823, 824, 828, 829, 860.
 
@@ -132,11 +132,11 @@ Im Positionsteil 822 können die folgenden Positionen zusätzlich eingerichtet w
 | ZameWaehrung | 3 TextVariable<br>6341 | 822 Kasse Positionen | Währungskürzel der Buchwährung |
 | ZameBetrag | 4 ZahlVariable<br>6342 | 822 Kasse Positionen | Einzelbetrag der jeweiligen Zahlungsmeldung |
 
-Formular -57 / Geldübergabe / Geldübernahme
+<p class="just-emphasize">Formular -57 / Geldübergabe / Geldübernahme</p>
 
 Siehe Einrichtung der Druckbereiche 820, 823, 824, 829, 860.
 
-Formular -55 / Zahlungsmittel storniert /umgewandelt
+<p class="just-emphasize">Formular -55 / Zahlungsmittel storniert /umgewandelt</p>
 
 Siehe Einrichtung der Druckbereiche 820, 822, 828, 860.
 
@@ -159,9 +159,9 @@ Im Positionsteil 822 können die folgenden Positionen zusätzlich eingerichtet w
 | Zahlbetrag | 4 ZahlVariable<br>6354 | 822 Kasse Positionen | Betrag des geänderten Zahlungsweges |
 | ZahlWaehrung | 3 TextVariable<br>6355 | [822 Kasse Positionen](./druckbereiche.md) | Währungskürzel des geänderten Zahlungsweges |
 
-###### Typ 50 (Kassensturzformular)
+### Typ 50 (Kassensturzformular)
 
-Basisformular -56 / Kassensturz
+<p class="just-emphasize">Basisformular -56 / Kassensturz</p>
 
 Das Kassenformular verfügt über folgende Druckbereiche:
 

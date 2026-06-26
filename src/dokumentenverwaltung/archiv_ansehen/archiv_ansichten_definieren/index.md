@@ -34,7 +34,7 @@ Neben den üblichen Pflege-Funktionen stehen folgende Spezial-Funktionen bereit:
       </tr>
       <tr>
         <td>
-          <p>Duplizieren</p>
+          <p><strong><em>Duplizieren</em></strong></p>
         </td>
         <td>
           <p>Dupliziert eine Archiv-Ansichts-Definition samt ihrer Details.</p>
@@ -45,7 +45,7 @@ Neben den üblichen Pflege-Funktionen stehen folgende Spezial-Funktionen bereit:
       </tr>
       <tr>
         <td>
-          <p>Export</p>
+          <p><strong><em>Export</em></strong></p>
         </td>
         <td>
           <p>Exportiert eine Archiv-Ansichten-Definition.</p>

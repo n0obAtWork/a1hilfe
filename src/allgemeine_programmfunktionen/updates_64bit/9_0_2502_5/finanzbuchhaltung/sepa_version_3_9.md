@@ -4,7 +4,7 @@
 
 Sepa-Version 3.9, die ab dem 05.10.2025 verwendet werden kann, wurde in A.eins integriert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 747669[37421]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/sepakennzeichenimhausbankensta.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 37421, 747669

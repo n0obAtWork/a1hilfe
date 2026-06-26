@@ -4,7 +4,7 @@
 
 An diesem Steuerparameter werden Optionen für die Waage eingetragen.
 
-<p class="just-emphasize">Folgende Optionen sind verfügbar:</p>
+#### Folgende Optionen sind verfügbar:
 
 | Option | Wert |
 | --- | --- |

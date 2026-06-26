@@ -6,7 +6,7 @@ In vielen Anwendungen ist mit der Erfassung des Kunden die Kopfinformation abgeÂ
 
 A.eins bietet jedoch zahlreiche weitere ErfassungsmÃ¶glichkeiten an, die nachfolgend beschrieben werden.
 
-<p class="just-emphasize">Zusatzangaben</p>
+### Zusatzangaben
 
 Unterhalb des Feldes Kundennummer werden wichtige Steuerungsinformationen angezeigt und abgefragt, wie z.B. Vertreter, Versandart, Lieferanschrift. Hier stellen die Vorgangsklassen unterschiedliche Anforderungen.
 

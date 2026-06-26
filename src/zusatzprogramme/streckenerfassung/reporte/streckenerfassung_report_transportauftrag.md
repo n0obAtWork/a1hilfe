@@ -16,15 +16,15 @@ Die Anzeige dieser Adressen erfolgt in einer bestimmten Reihenfolge je nachdem w
 2. Adresse des VK Lagers, wenn man den Transportauftrag für den EK Ladeschein drucken will und auch ein VK Ladeschein existiert. (VK Lagertyp ungleich Streckenlager)  
     
 
-Lagertyp Streckenlager:
+   Lagertyp Streckenlager:
 
-n Versandadresse des Ladescheins
+   n Versandadresse des Ladescheins
 
-n Versandanschrift des VK Kontraktes
+   n Versandanschrift des VK Kontraktes
 
-n Adresse des Kunden aus dem VK Ladeschein
+   n Adresse des Kunden aus dem VK Ladeschein
 
-n Adresse des VK Kontraktes
+   n Adresse des VK Kontraktes
 
  3. Versandadresse des Ladescheins
 
@@ -108,11 +108,11 @@ n Adresse des VK Kontraktes
     
 Lagertyp Streckenlager:
 
-n Versandanschrift des EK Kontraktes
+   n Versandanschrift des EK Kontraktes
 
-n Adresse des Kunden aus dem EK Ladeschein
+   n Adresse des Kunden aus dem EK Ladeschein
 
-n Adresse des EK Kontraktes
+   n Adresse des EK Kontraktes
 
  3. Versandanschrift des EK Kontraktes
 
@@ -191,7 +191,7 @@ n Adresse des EK Kontraktes
   </table>
 </div>
 
-<p class="just-emphasize">Sprachabhängigkeit</p>
+### Sprachabhängigkeit
 
 Welche Felder gepflegt werden müssen, um die Sprachabhängigkeit nutzen zu können liest man unter  
 [Sprache der Reporte](./sprache_der_reporte.md).

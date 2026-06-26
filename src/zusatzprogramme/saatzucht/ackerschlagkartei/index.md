@@ -10,7 +10,7 @@ In diesem Stammdatenpfleger werden die Daten für Felder/Schläge gepflegt.
 
 Die Dokumentation von schlagbezogenen Maßnahmen ist zur Pflicht gemacht worden. Unter anderen durch die EU-Verordnung 178/2002 ist in der gesamten EU die Rückverfolgbarkeit von Lebens- und Futtermitteln sicher zu stellen, dies wird auch entsprechend kontrolliert.
 
-<p class="just-emphasize">Erfassungsmaske</p>
+### Erfassungsmaske
 
 Es stehen folgende Eingabefelder und Eingabemöglichkeiten zur Verfügung.
 

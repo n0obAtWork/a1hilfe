@@ -10,7 +10,7 @@ Es muss der Artikel stets mit all seinen Partien erfasst werden, damit die Best�
 
 Dar체ber hinaus muss sichergestellt werden, dass zwischen Beginn der Z채hlung und Buchung des Beleges keine weiteren Bestandsver채nderungen stattfinden, die von der Z채hlung nicht erfasst werden.
 
-<p class="just-emphasize">Hinweis:</p>
+**Hinweis:**
 
 Auf dem Lager stehen unter Umst채nden drei Arten von Ware:
 

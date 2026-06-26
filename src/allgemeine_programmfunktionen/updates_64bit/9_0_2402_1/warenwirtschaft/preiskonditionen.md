@@ -4,7 +4,7 @@
 
 In der Anwendung Preiskonditionen [PRI] wird auf dem Tabreiter "Allgemein", in der Tabelle "individuelle Preise", das Feld "Brutto" mit dem im Kundenstamm hinterlegtem Kennzeichen für Bruttorechnung vorbelegt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 736546[35452]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_PFLMODUL_IPRRAB)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.1, 35452, 736546

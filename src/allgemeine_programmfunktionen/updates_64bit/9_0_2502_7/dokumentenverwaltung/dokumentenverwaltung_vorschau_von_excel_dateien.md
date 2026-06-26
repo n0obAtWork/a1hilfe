@@ -4,7 +4,7 @@
 
 Im Archiv werden Excel-Dokumente in HTML-Dateien konvertiert und dann zur Ansicht gebracht. Da der Vorgang bei großen \*.xslx - Dateien sehr lange dauert, wird die Aufbereitung auf 30 Zeilen und 20 Spalten beschränkt. Das wird in der Vorschau visuell mitgeteilt. Werden Informationen über eine solche "Preview" hinaus benötigt, ist die Ansicht über die Funktion "Dokument anzeigen (CF12)" zu verwenden.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 0[38284]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/!dokumentenverwaltungvorschau.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.7, 38284, 0

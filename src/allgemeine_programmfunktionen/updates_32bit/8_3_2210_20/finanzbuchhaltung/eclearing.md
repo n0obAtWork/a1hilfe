@@ -4,7 +4,7 @@
 
 In der Anwendung [ECL] wird das Feld "eClearing" aus der Variante "Zahlung per Datenträger" jetzt auch in der Variante "Einzelpositionen" angezeigt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 712891[32686]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/eclearing.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2210.20, 32686, 712891

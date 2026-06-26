@@ -31,7 +31,7 @@ Vor der automatischen Erstellung der Stornobelege werden vom Programm einige Tes
 
 Sind alle Tests erfolgreich durchgeführt worden, so wird ein Beleg erstellt, der bis auf das Vorzeichen des Betrags dem Originalbeleg entspricht.
 
-<p class="just-emphasize">Stornieren im Batchmode</p>
+#### Stornieren im Batchmode
 
 In den Standardvorgängen Finanzbuchhaltung – Direktsprung **[FISV]** – ist die Funktion zum Stornieren von Belegen in der Variante „gebuchte Belege“ integriert. Hier kann man mehrere Belege gleichzeitig markieren und dann in einem Rutsch stornieren. Die Abfrage, ob die markierten Belege storniert werden sollen, erscheint nur einmal zu Beginn und zwar mit folgendem Hinweis:
 

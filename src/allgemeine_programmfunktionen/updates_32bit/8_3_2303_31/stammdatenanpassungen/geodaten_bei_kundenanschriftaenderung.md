@@ -4,7 +4,7 @@
 
 Bei der Änderung von Anschriftdaten auf der Kundenstamm-Maske gingen Geodaten der Anschrift verloren. Dies wurde behoben
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 0[33563]
 
@@ -20,6 +20,6 @@ Funktion/Report: Ändern
 
 [Weitere Informationen](http://www.amic.de/hilfe/_hauptmaske.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2303.31, 33563, 0

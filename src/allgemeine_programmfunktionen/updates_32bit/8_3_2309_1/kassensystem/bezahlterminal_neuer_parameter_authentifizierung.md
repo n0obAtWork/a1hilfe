@@ -4,7 +4,7 @@
 
 Das Makro "AMIC_BZT_Muster.PAS" wurde um den Parameter "AUTHENTIFIZIERUNG" erweitert. Damit wurde der Parameter "TERMINALNAME" ersetzt. Eingabemöglichkeiten für den Parameter "AUTHENTIFIZIERUNG" sind: TRUE / FALSE Standard: TRUE.Darüber wird gesteuert, ob das Bezahlterminal beim Start eine Authentifizierung benötigt oder nicht. Bestehende Privatisierungen müssen nicht angepasst werden.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 710833[34054]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/technischeinformationzurkonfig1.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 34054, 710833

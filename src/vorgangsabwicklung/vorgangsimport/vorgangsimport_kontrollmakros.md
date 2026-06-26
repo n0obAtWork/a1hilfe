@@ -10,45 +10,45 @@ In der Vorgangsunterklassendefinition der zu importierenden Vorgangs(unter)klass
 
 Es gibt folgende Einsprungpunkte im C# Makro:
 
-<p class="just-emphasize">Vorgangs-Methoden:</p>
+### Vorgangs-Methoden:
 
-<p class="just-emphasize">vimp_Vorgang_vor_Neu</p>
+#### vimp_Vorgang_vor_Neu
 
 Wird vor der Erstellung eines neuen Vorgangs aufgerufen. Als Parameter wird hier nur die IVS_GUID aus der Tabelle ImportVorgStamm gegeben.
 
-<p class="just-emphasize">vimp_Vorgang_vor_Speichern</p>
+#### vimp_Vorgang_vor_Speichern
 
 Wird direkt vor dem Speichern des Vorgangs aufgerufen. Als Parameter wird die ivs_guid aus der Tabelle Importvorgstamm und das Handle des instanziierten Vorgangs gegeben.
 
 Zusätzlich wird angegeben, ob es sich um eine Neuanlage oder eine Änderung handelt.
 
-<p class="just-emphasize">vimp_Vorgang_nach_Speichern</p>
+#### vimp_Vorgang_nach_Speichern
 
 Wird direkt vor dem Speichern des Vorgangs aufgerufen. Als Parameter wird die ivs_guid aus der Tabelle Importvorgstamm gegeben.
 
-<p class="just-emphasize">Positions-Methoden:</p>
+### Positions-Methoden:
 
-<p class="just-emphasize">vimp_Position_vor_Neu</p>
+#### vimp_Position_vor_Neu
 
 Wird direkt vor der Erzeugung einer Position aufgerufen. Als Parameter werden die IVS_GUID aus der Tabelle ImportVorgStamm und die IVP_GUID aus der Tabelle ImportVorgPosition sowie das Handle auf den instanziierten Vorgang und der Modus (Neuanlage/Änderung) angegeben.
 
-<p class="just-emphasize">vimp_Position_erstellt</p>
+#### vimp_Position_erstellt
 
 Wird direkt nach der Erzeugung einer Position aufgerufen. Als Parameter werden die IVS_GUID aus der Tabelle ImportVorgStamm und die IVP_GUID aus der Tabelle ImportVorgPosition sowie das Handle auf den instanziierten Vorgang, das Handle der erzeugten (aber noch nicht eingefügten) Position und der Modus (Neuanlage/Änderung) angegeben.
 
-<p class="just-emphasize">vimp_Position_vor_Speichern</p>
+#### vimp_Position_vor_Speichern
 
 Wird nach der Erzeugung und Zuweisung von Eigenschaften und vor dem Speichern einer Position aufgerufen. Als Parameter werden die IVS_GUID aus der Tabelle ImportVorgStamm und die IVP_GUID aus der Tabelle ImportVorgPosition sowie das Handle auf den instanziierten Vorgang, das Handle der erzeugten (aber noch nicht eingefügten) Position und der Modus (Neuanlage/Änderung) angegeben.
 
-<p class="just-emphasize">vimp_Position_nach_Speichern</p>
+#### vimp_Position_nach_Speichern
 
 Wird nach dem Speichern einer Position aufgerufen. Als Parameter werden die IVS_GUID aus der Tabelle ImportVorgStamm und die IVP_GUID aus der Tabelle ImportVorgPosition sowie das Handle auf den instanziierten Vorgang, das Handle der eingefügten Position und der Modus (Neuanlage/Änderung) angegeben.
 
-<p class="just-emphasize">Pascal Makro:</p>
+#### Pascal Makro:
 
 Im Pascal Makro gibt es die gleichen Einsprungspunkte wie im C# Makro, diese müssen aber anders angesprochen werden. Die Einstiegspunkte werden mittels JVAR aus dem Vorgangsimport übergeben. Als Beispiel Pascal Makro dient das Makro „**VIMP_BeispielMakro**“. In diesem Makro sind die Übergabeparameter und der Inhalt der JAVRS erklärt.
 
-<p class="just-emphasize">LVS-Methoden:</p>
+### LVS-Methoden:
 
 Beim Vorgangsimport der LVS-Klasse (5150) werden andere Makroeinsprungpunkte genutzt.
 

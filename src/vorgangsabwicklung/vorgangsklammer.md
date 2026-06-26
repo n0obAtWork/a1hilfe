@@ -6,7 +6,7 @@ Die Vorgangsklammer gilt als Stammsatz für die Vorgangsmappe.
 
 Das Löschverhalten einer Vorgangsklammer kann über den Steuerparameter „Löschverhalten bei Vorgangsmappen“ ([SPA 796](../firmenstamm/steuerparameter/optionen_warenwirtschaft/loeschverhalten_bei_vorgangsmappen_spa_796.md)) beeinflusst werden.
 
-<p class="just-emphasize">Kopffelder</p>
+#### Kopffelder
 
 | Feld | Beschreibung |
 | --- | --- |
@@ -15,7 +15,7 @@ Das Löschverhalten einer Vorgangsklammer kann über den Steuerparameter „Lös
 | Container | Hier kann eine Containernummer hinterlegt werden.<br>Zusätzlich kann hier auch eine Itembox zur Verfügung stehen. Diese wird im [Streckenerfassungsprofil](../zusatzprogramme/streckenerfassung/profile/index.md#ProfileStreckenerfassung) unter „Itembox für Container“ eingetragen. Bei mehreren Profilen wird die erste gefundene Itembox verwendet.<br>Wenn in der Itembox ein Rückgabefeld mit dem Namen „retBezeichnung“ zurückgegeben wird, so erscheint dieser Wert in dem Anzeigefeld hinter dem Containerfeld. |
 | Abw. Adresse | Hier kann eine Abweichende Adresse angegeben werden.<br>Siehe [unten](./vorgangsklammer.md#Adresszuordnung) für weitere Adressenpflege und Zuordnung. |
 
-<p class="just-emphasize">Registerkarte „Vorgänge“</p>
+#### Registerkarte „Vorgänge“
 
 | Feld | Beschreibung |
 | --- | --- |
@@ -31,7 +31,7 @@ Das Löschverhalten einer Vorgangsklammer kann über den Steuerparameter „Lös
 | Kontrolleur | Über den zugehörigen Button mit dem Fragezeichen kann man eine Kontrolleuradresse aus dem Anschriftstamm auswählen.<br>Wählt man den Button mit dem Stift kann man die Kontrolleuradresse neu eingeben oder ändern. |
 | Löschkontrolleur | Über den zugehörigen Button mit dem Fragezeichen kann man eine Löschkontrolleuradresse aus dem Anschriftstamm auswählen.<br>Wählt man den Button mit dem Stift kann man die Löschkontrolleuradresse neu eingeben oder ändern. |
 
-<p class="just-emphasize">Registerkarte „Tour“</p>
+#### Registerkarte „Tour“
 
 | Feld | Beschreibung |
 | --- | --- |
@@ -42,7 +42,7 @@ Das Löschverhalten einer Vorgangsklammer kann über den Steuerparameter „Lös
 | Element 2 | Frei eingebbarer Text |
 | Element 3 | Frei eingebbarer Text |
 
-<p class="just-emphasize">Registerkarte „Ladetermine“</p>
+#### Registerkarte „Ladetermine“
 
 Auf dieser Registerkarte steht eine Liste zur Verfügung, in der man Termine eintragen kann.
 
@@ -55,7 +55,7 @@ Auf dieser Registerkarte steht eine Liste zur Verfügung, in der man Termine ein
 | Ladenummer | Frei eingebbarer Text für eine Ladenummer |
 | Termin / Uhrzeit | Frei eingebbarer Text für einen Termin / Uhrzeit |
 
-<p class="just-emphasize">Registerkarte „Drucktexte“</p>
+#### Registerkarte „Drucktexte“
 
 | Feld | Beschreibung |
 | --- | --- |
@@ -80,7 +80,7 @@ Auf dieser Registerkarte steht eine Liste zur Verfügung, in der man Termine ein
 | Menge Kontrolle | ca. / min. / max. |
 | Kontrollsatz | € / mt ; € / Stunde; € / 8Stunden |
 
-<p class="just-emphasize">Registerkarte „Bemerkungen“</p>
+#### Registerkarte „Bemerkungen“
 
 | Feld | Beschreibung |
 | --- | --- |
@@ -101,7 +101,7 @@ Auf dieser Registerkarte steht eine Liste zur Verfügung, in der man Termine ein
 | Kontrolle | |
 | Ansprechpartner Kontrolle | |
 
-<p class="just-emphasize">Adresszuordnungen</p>
+#### Adresszuordnungen
 
 Zusätzlich zu der abweichenden Adresse innerhalb der Streckenverarbeitung können auf der ersten Streckenseite noch eine Adresse des zugehörigen Spediteurs und eine Adresse des zugehörigen Kontrolleurs zugeordnet und gepflegt werden.
 

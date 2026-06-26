@@ -4,7 +4,7 @@
 
 Bei der Änderung einer Anschrift wurden bislang die zugewiesenen E-Mail Adressen beim Speichern nicht korrekt übernommen.Dieses Verhalten wurde behoben: Ab sofort werden beim Ändern und anschließenden Speichern eines Anschriftensatzes alle zugehörigen E-Mail Adressen korrekt übernommen.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 752917[39211]
 
@@ -20,6 +20,6 @@ Funktion/Report: Ändern
 
 [Weitere Informationen](http://www.amic.de/hilfe/_anschallgemein.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.9, 39211, 752917

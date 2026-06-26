@@ -4,7 +4,7 @@
 
 Die Variante "Mahnungen bearbeiten" wurde erweitert. Es werden zusätzlich die Spalten "Mailempfänger", "Sendetatus", "OPSaldo" und "Mahnsaldo ohne verrechnung" angezeigt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 738373[35665]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/mahnungenbearbeiten.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 35665, 738373

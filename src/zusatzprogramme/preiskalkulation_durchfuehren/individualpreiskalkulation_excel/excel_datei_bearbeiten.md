@@ -8,7 +8,7 @@ Direktsprung **[PKXI]**
 
 Die Excel-Datei mit den Individualpreisen kann nun bearbeitet werden. Da es eine größere Auswahl an Feldern gibt, die bearbeitet werden können, werden diese im Folgenden aufgeschlüsselt.
 
-<p class="just-emphasize">Grundfunktionen</p>
+### Grundfunktionen
 
 Diese Felder können editiert werden:
 
@@ -21,13 +21,13 @@ Diese Felder können editiert werden:
 | Preis bis | Definiert das Ende des Gültigkeitszeitraums für den Individualpreis. Dieses gilt für alle Mengen des Preises. Es kann hier oder als Teil der Vorbelegung ([Exportprofil einrichten](./exportprofil_einrichten.md)) gepflegt werden.<br> |
 | Löschen | Ein Individualpreis kann gelöscht werden. Hierfür muss dieses Feld auf „Ja“ gesetzt werden.<br>**Wichtig**: wenn die Menge 0 gelöscht wird, werden auch alle anderen Mengen im selben Gültigkeitszeitraum gelöscht.<br> |
 
-<p class="just-emphasize">Hinweis!</p>
+#### Hinweis!
 
 Das Feld **Preis** wird in der Auswahlliste sowie beim Export in die Excel-Datei per Standard auf 0 gesetzt. Dies zeigt lediglich, dass das Feld gepflegt werden kann. Beim Import der Individualpreise werden die Zeilen, die den Preis 0 haben, einfach ignoriert.
 
 Wenn bei Veränderung des Feldes **Preis ab** die neuen Individualpreise nicht in der Auswahlliste angezeigt werden, muss das Filterkriterium **Preisauswahl** (siehe [Exportprofil einrichten](./exportprofil_einrichten.md)) angepasst werden, um nicht ausschließlich gültige Individualpreise anzuzeigen.
 
-<p class="just-emphasize">Weitere Funktionen</p>
+### Weitere Funktionen
 
 Grundlegend können alle gelb markierten Felder gepflegt werden. Das Verhalten beim Import kann dabei aber variieren.
 

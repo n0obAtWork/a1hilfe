@@ -4,7 +4,7 @@
 
 Im automatischen Zahlungsverkehr wurden beim SEPA-Bankeinzug die Bankarbeitstage nicht korrekt berücksichtigt, wenn Skonto gewährt wurde. Beim automatischen Erstellen der Zahlungsvorschläge wird nun der nächste Stichtag mit dem nächsten Bankarbeitstag vor belegt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 714375[32842]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/nderungenimablaufdeszahlungsve.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2210.20, 32842, 714375

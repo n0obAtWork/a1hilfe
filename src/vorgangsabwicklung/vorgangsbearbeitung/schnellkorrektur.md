@@ -4,13 +4,13 @@
 
 Die Schnellkorrektur ermöglicht die Positionen ausgewählter Belege mengenmäßig zu korrigieren, Restbelege zu erstellen und Partien zuzuordnen. Nach Auswahl der Belege werden die Positionen in einem Bearbeitungsfenster dargestellt. In diesem Fenster können die Mengenangaben durch Überschreiben im Vorgang verändert werden.
 
-<p class="just-emphasize">Funktionen</p>
+#### Funktionen
 
-Restbeleg bilden **[F8]**
+***Restbeleg bilden [F8]***
 
 Ein Eintrag in der Spalte „Rest“ zusammen mit der Funktion ***Restbeleg bilden*** führt zu einem zusätzlichen (Rest-)Beleg mit dieser Position und Menge. Die Belege sind anschließend nicht miteinander verknüpft; der (Rest-)Beleg entspricht einem neu erfassten.
 
-Geb.Anzahl wechseln **[F9]**
+***Geb.Anzahl wechseln [F9]***
 
 Bei einer Gebindeposition kann zwischen der Gebindeanzahl und der Ergebnismenge gewechselt und der Mengeneintrag vorgenommen werden. Nach der Änderung der Gebindeanzahl / Ergebnismenge kann diese Funktion nicht erneut ausgeführt werden.
 
@@ -20,7 +20,7 @@ Einer Position können eine oder mehrere Partien durch Eingabe von Menge und Par
 
 Hierbei ist zu beachten, dass die Partieaufteilung bei einer Gebindeposition nur dann richtig funktioniert, wenn von der Gebindeanzahl in die Ergebnismenge gewechselt wird.
 
-<p class="just-emphasize">Besonderheiten</p>
+#### Besonderheiten
 
 Wenn die Partieverteilung einmal durchgeführt wurde, kann die Menge der Position nicht mehr geändert werden. Es erscheint die Meldung, dass die Partiemenge nicht richtig aufgeteilt worden ist.
 

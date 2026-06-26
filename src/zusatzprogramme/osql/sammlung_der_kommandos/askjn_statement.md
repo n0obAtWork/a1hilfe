@@ -2,31 +2,31 @@
 
 <!-- source: https://amic.de/hilfe/askjnstatement.htm -->
 
-<p class="just-emphasize">Syntax</p>
+#### Syntax
 
 ASKJN Beschreibungstext;
 
-<p class="just-emphasize">Purpose</p>
+#### Purpose
 
 Interaktive Ja/Nein Abfrage.
 
-<p class="just-emphasize">Anwendung</p>
+#### Anwendung
 
 Befehlszeile, Kommandodatei
 
-<p class="just-emphasize">Berechtigung</p>
+#### Berechtigung
 
 Alle Anwender
 
-<p class="just-emphasize">Siehe auch</p>
+#### Siehe auch
 
 [ASK](./alter_struct_statement.md)
 
-<p class="just-emphasize">Beschreibung</p>
+#### Beschreibung
 
 Mit dem ASKJN Statement kann die Standartdialogbox aufgerufen werden, um eine Benutzerabfrage durchzuführen. Die Variable LDB_JN enthält je nach Auswahl den Wert 1 für JA oder 2 für NEIN. Drück man den Abbruchbutton beim ASKJN-Statement innerhalb einer Kommandodatei, wird diese beendet.
 
-<p class="just-emphasize">Beispiel</p>
+#### Beispiel
 
 ASKJN Drück aufs Knöpfchen, Max;
 

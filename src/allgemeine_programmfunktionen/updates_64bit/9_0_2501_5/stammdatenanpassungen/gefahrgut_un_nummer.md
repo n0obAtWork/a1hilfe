@@ -4,7 +4,7 @@
 
 Das Feld UN-Nummer ist nun frei pflegbar ohne einen Eintrag in der Itembox auswählen zu müssen.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 742117[36158]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_gefahrgut.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 36158, 742117

@@ -4,7 +4,7 @@
 
 Zusätzlich zu den normalen Auswahllisten existieren noch spezielle Auswahllisten, welche spezielle Selektionskriterien beinhalten.
 
-<p class="just-emphasize">Kontraktübersicht</p>
+#### Kontraktübersicht
 
 Hauptmenü > Wareneinkauf > Nachhaltigkeit > Kontraktstammdaten
 
@@ -16,7 +16,7 @@ Dies ist die normale Auswahlliste der Kontrakte. Es gibt dort spezielle Selektio
 | --- | --- |
 | Nachhaltigkeitstatus | Prüft, ob der Kontrakt nachhaltig ist oder nicht. |
 
-<p class="just-emphasize">Kundenübersicht</p>
+#### Kundenübersicht
 
 Hauptmenü > Wareneinkauf > Nachhaltigkeit > Kundenübersicht
 
@@ -29,7 +29,7 @@ In der Auswahlliste für Kunden gibt es spezielle Selektionskriterien, um die Ku
 | Nachhaltigkeit ohne Zertifikat | Zeigt die Kunden an, die Nachhaltigkeitseinträge haben, die keinem Zertifikat zugeordnet sind. Diese können in der Kundenmaske über das Feld Auswahl einem Zertifikat zugeordnet werden. |
 | Zertifikat ohne Nachhaltigkeit | Zeigt die Kunden an, die Zertifikate ohne Nachhaltigkeitseintrag haben. |
 
-<p class="just-emphasize">Artikelübersicht</p>
+#### Artikelübersicht
 
 Hauptmenü > Wareneinkauf > Nachhaltigkeit > Artikelstammübersicht
 

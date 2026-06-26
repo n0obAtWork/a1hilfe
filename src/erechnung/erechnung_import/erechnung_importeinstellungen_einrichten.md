@@ -16,7 +16,7 @@ Hier richten Sie die Importeinstellungen der eRechnung ein.
       </tr>
       <tr>
         <td>
-          <p>Fehlerbehandlung HTML</p>
+          <p><strong>Fehlerbehandlung HTML</strong></p>
         </td>
         <td>
           <p>Gibt an, ob eine nicht erfolgreiche Erstellung einer HTML-Visualisierung als Fehler gelten soll (Default <strong>Ja</strong>)</p>
@@ -24,7 +24,7 @@ Hier richten Sie die Importeinstellungen der eRechnung ein.
       </tr>
       <tr>
         <td>
-          <p>Fehlerbehandlung Kunde</p>
+          <p><strong>Fehlerbehandlung Kunde</strong></p>
         </td>
         <td>
           <p>Gibt an, ob eine nicht erfolgreiche Findung eines Kunden/Lieferanten als Fehler gelten soll (Default <strong>Nein</strong>)</p>
@@ -32,7 +32,7 @@ Hier richten Sie die Importeinstellungen der eRechnung ein.
       </tr>
       <tr>
         <td>
-          <p>Fehlerbehandlung Validierung</p>
+          <p><strong>Fehlerbehandlung Validierung</strong></p>
         </td>
         <td>
           <p>Gibt an, ob eine nicht erfolgreiche Validierung eines Imports als Fehler gelten soll (Default <strong>Ja</strong>)</p>
@@ -40,7 +40,7 @@ Hier richten Sie die Importeinstellungen der eRechnung ein.
       </tr>
       <tr>
         <td>
-          <p>Fehlerfunktion</p>
+          <p><strong>Fehlerfunktion</strong></p>
         </td>
         <td>
           <p>Gibt eine Datenbankfunktion an, die die Fehlermeldungen eines Imports aufnehmen und z. B. per E-Mail weiterleiten soll.</p>
@@ -50,7 +50,7 @@ Hier richten Sie die Importeinstellungen der eRechnung ein.
       </tr>
       <tr>
         <td>
-          <p>Kundenfindungsfunktion</p>
+          <p><strong>Kundenfindungsfunktion</strong></p>
         </td>
         <td>
           <p>Gibt eine Datenbankfunktion an, die aus den importierten Daten einen Kunden/Lieferanten ermitteln soll.</p>
@@ -60,7 +60,7 @@ Hier richten Sie die Importeinstellungen der eRechnung ein.
       </tr>
       <tr>
         <td>
-          <p>Belegflusspostfach Warenwirtschaft</p>
+          <p><strong>Belegflusspostfach Warenwirtschaft</strong></p>
         </td>
         <td>
           <p>Standardbelegflusspostfach für eRechnungsimporte im Bereich Warenwirtschaft</p>
@@ -68,7 +68,7 @@ Hier richten Sie die Importeinstellungen der eRechnung ein.
       </tr>
       <tr>
         <td>
-          <p>Belegflusspostfach Finanzbuchhaltung</p>
+          <p><strong>Belegflusspostfach Finanzbuchhaltung</strong></p>
         </td>
         <td>
           <p>Standardbelegflusspostfach für eRechnungsimporte im Bereich Finanzbuchhaltung</p>

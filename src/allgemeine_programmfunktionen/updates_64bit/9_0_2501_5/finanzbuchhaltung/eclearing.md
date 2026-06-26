@@ -4,7 +4,7 @@
 
 Der Zinsstatus für das Hauptkonto (Konto der Hausbank) wurde beim Erstellen des Zahlungsbeleges ohne Zinsstatus gespeichert. Dies ist behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 739712[35969]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/zahlungsbelegerstellenbuchen.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 35969, 739712

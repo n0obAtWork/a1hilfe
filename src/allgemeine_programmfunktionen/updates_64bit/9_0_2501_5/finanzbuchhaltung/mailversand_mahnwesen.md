@@ -4,7 +4,7 @@
 
 Beim Mailversand im Mahnwesen wurde der Mailbody und die Betreffzeile bisher über ein Formular bestimmt. Jetzt ist es alternativ möglich diese über eine Datenbankfunktion zu bestimmen. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 735345[35790]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/mahnstamm.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 35790, 735345

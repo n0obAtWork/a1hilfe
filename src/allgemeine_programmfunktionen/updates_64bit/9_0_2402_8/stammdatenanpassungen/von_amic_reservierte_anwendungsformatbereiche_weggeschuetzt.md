@@ -4,7 +4,7 @@
 
 Es war möglich in Anwendungsformaten unter [FORMA] Variante Anwendungsformate, von uns reservierte Anwendungsformate zu nutzen.Dies wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 741244[36001]
 
@@ -20,6 +20,6 @@ Funktion/Report: F5, F8
 
 [Weitere Informationen](http://www.amic.de/hilfe/_fsformate.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.8, 36001, 741244

@@ -4,7 +4,7 @@
 
 Bei Warenbewegung-Addonfeldern, die bei der Artikelerfassung im Vorgang unterhalb des Tab Reiters "Allgemein" angeordnet waren, gab es Probleme bei der Tastatursteuerung. Dies wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 728753[34509]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/rechnung.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2311.10, 34509, 728753

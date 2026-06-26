@@ -4,7 +4,7 @@
 
 Beim Erfassen von Vermehrungsverträgen im Saatgutmodul wurde die Vertragsnummer nicht korrekt gezogen. Dies wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 722654[33694]
 
@@ -20,6 +20,6 @@ Funktion/Report: [SAATV]
 
 [Weitere Informationen](http://www.amic.de/hilfe/_allgemeineprogrammfu.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2304.28, 33694, 722654

@@ -4,7 +4,7 @@
 
 Es war nicht mehr möglich eine neue TSE in das System zu integrieren. Das Problem wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 723397[33824]
 
@@ -20,6 +20,6 @@ Funktion/Report: F8
 
 [Weitere Informationen](http://www.amic.de/hilfe/kassenSichVsfs2.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2305.26, 33824, 723397

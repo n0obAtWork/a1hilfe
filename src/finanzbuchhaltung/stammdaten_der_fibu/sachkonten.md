@@ -9,12 +9,17 @@ Direktsprung **[SKS]**
 Die Sachkonten sind die eigentlich zu bebuchenden Konten. Nach Anwahl der Auswahlliste werden die erfassten Konten angezeigt. Es bestehen folgende Bearbeitungsmöglichkeiten:  
     
 
-- Neu erfassen
-- Ändern / Ansehen
-- Löschen
-- Plandaten erfassen
-- Drucken
-- Sachkonten Importieren
+***• Neu erfassen***
+
+***• Ändern / Ansehen***
+
+***• Löschen***
+
+***• Plandaten erfassen***
+
+***• Drucken***
+
+***• Sachkonten Importieren***
 
 Bei Anwahl der Funktionen „***Neu***“, „***Ändern***“ oder „***Ansehen***“ öffnet sich die Erfassungsmaske. Unterhalb des Kopfbereichs, in dem die Kontonummer, der Kontotyp und die Bezeichnung abgefragt werden, befinden sich drei Register, auf denen dann detailliertere Informationen erfasst werden können.
 
@@ -25,7 +30,7 @@ Bei Anwahl der Funktionen „***Neu***“, „***Ändern***“ oder „***Ansehe
 | **Matchcode**<br> | Alphanumerischer Suchbegriff.<br> |
 | **Bezeichnung**<br> | Freier Text für das Konto. Dieser Text erscheint in den Listen und **F3**\-Auswahlboxen.<br>Ist der Steuerungsparameter 34 "Mehrsprachigkeit aktiv“ in A.eins gesetzt, so hat man auf diesem Feld die Möglichkeit mit F3 [sprachabhängige Bezeichnungen](../../firmenstamm/a_eins_sprache/sprachabhaengige_bezeichnung_in_den_stammdaten.md) zu pflegen.<br> |
 
-<p class="just-emphasize">Register „Auswertungskennzeichen/Druckpositionen“</p>
+#### Register „Auswertungskennzeichen/Druckpositionen“
 
 | | Bedeutung |
 | --- | --- |
@@ -42,7 +47,7 @@ Bei Anwahl der Funktionen „***Neu***“, „***Ändern***“ oder „***Ansehe
 | ROI-Kennzahlen<br> | Die ROI-Kennzahlen (Return of Investment) dienen dazu, Sachkonten einem ROI-Baum zuzuordnen. Siehe dazu Chefcockpit.<br> |
 | **Liquiditätsgruppen**<br> | **Die Liquiditätsgruppen dienen zur Strukturierung der Sachkonten nach Liquiditätsgesichtspunkten. Der Pfleger für diese Gruppen ist unter dem Direktsprung [LIQ] zu erreichen.**<br> |
 
-<p class="just-emphasize">Register „Vorbelegung Belegerfassung“</p>
+#### Register „Vorbelegung Belegerfassung“
 
 <div class="table-wrapper">
   <table>
@@ -337,7 +342,7 @@ Bei Anwahl der Funktionen „***Neu***“, „***Ändern***“ oder „***Ansehe
   </table>
 </div>
 
-<p class="just-emphasize">Register „Weitere Optionen“</p>
+#### Register „Weitere Optionen“
 
 | | Bedeutung |
 | --- | --- |
@@ -358,7 +363,7 @@ Bei Anwahl der Funktionen „***Neu***“, „***Ändern***“ oder „***Ansehe
 | **Zugehöriges Statistikkonto** | **Hier kann einem Sachkonto ein festes Statistikkonto zugewiesen werden. Wird hier ein Konto eingetragen, dann wird - bei gesetztem** [Steuerparameter 720](../../firmenstamm/steuerparameter/optionen_warenwirtschaft/mengenbuchung_bei_fibu_uebertrag_spa_720.md) „Mengenbuchung bei dem Übertrag in die Finanzbuchhaltung“ - **beim Speichern des Datensatzes gleichzeitig für alle Erlöskennziffer-Kontozuordnungen, die dieses Sachkonto als Erlös- oder Aufwandskonto haben, das zugehörige Bestandskonto auf das hier eingetragene Statistikkonto gesetzt. Im Pfleger der Erlöskennziffer- Kontozuordnungen kann gleichzeitig dieses Bestandskonto nicht mehr manuell geändert werden.**<br> |
 | **Artikelnummer**<br> | Wird die Zinsabrechnung **per** [OpenTRANS](../../zusatzprogramme/ehemalige_addins_uebersicht/n_a/opentrans_thebe/index.md) **übermittelt, so müssen den Konten, auf die die Zinsen gebucht werden fiktive Artikelnummern zugeordnet werden.<br><br>** |
 
-<p class="just-emphasize">Register „Taxonomien“</p>
+#### Register „Taxonomien“
 
 *Dieses Register wird nur angezeigt, wenn der Steuerparameter 949 „e-Bilanz aktiv“ in der Gruppe „Optionen Finanzbuchhaltung“ auf **JA** steht.*
 
@@ -367,10 +372,10 @@ Bei Anwahl der Funktionen „***Neu***“, „***Ändern***“ oder „***Ansehe
 | Version | Die Taxonomien liegen bisher in zwei Version vor: Version 5.0 für alle Wirtschaftsjahre die nach dem 31.12.2011 beginnen und Version 5.1 für alle Wirtschaftsjahre, die mach dem 31.12.2012 beginnen. Ist zu der höheren Version bereits ein Datensatz erfasst worden, wird diese Version vorgeschlagen. Sie kann jedoch jederzeit geändert werden. Die Version wird nicht im Sachkonto gespeichert, sondern bestimmt zu welcher Version die Konzepte gehören.<br><br> |
 | Konzept | Hier werden alle [Konzepte](../ebilanz_online/index.md) aufgelistet, die diesem Konto und dieser Version zugeordnet sind. Es können hier weitere Zuordnungen erfolgen.<br><br> |
 
-ADDON
+**ADDON**
 
 Für Sachkonten können eigene Felder und somit eigene Daten erfasst werden. Die Definition geschieht über das [A.eins Informationssystem](../../zusatzprogramme/ais_a_eins_informationssystem/index.md) (AIS). Hier kann man für die Tabellen SACHKONTSTAMMADDON oder andere private Tabellen zusätzliche Felder definieren, die dann auf den selbst definierten Registern erscheinen.
 
-<p class="just-emphasize">**Löschen von Sachkonten**</p>
+#### **Löschen von Sachkonten**
 
 Sachkonten können nur gelöscht wenn sie nicht verwendet werden. Es wird vom Programm also vorher geprüft, wo sie verwendet werden und ggf. eine Meldung ausgegeben.

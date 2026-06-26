@@ -4,7 +4,7 @@
 
 Unter Umständen konnten Zollwarennummern nicht mehr eingespielt werden. Dies ist nun behoben. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 719735[33459]
 
@@ -20,6 +20,6 @@ Funktion/Report: Zollwarennummern einspielen
 
 [Weitere Informationen](http://www.amic.de/hilfe/_zollwarennummer.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2303.31, 33459, 719735

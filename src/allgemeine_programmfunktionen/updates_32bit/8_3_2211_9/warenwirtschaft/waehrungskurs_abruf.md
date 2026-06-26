@@ -4,7 +4,7 @@
 
 Die Umstellung der Transportverschlüsselung beim Abruf von Währungskursen machte unter Umständen Probleme. Dies wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 715321[32969]
 
@@ -20,6 +20,6 @@ Funktion/Report: Währungskurse abrufen
 
 [Weitere Informationen](http://www.amic.de/hilfe/whrungskurseautomatischeinstel.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2211.9, 32969, 715321

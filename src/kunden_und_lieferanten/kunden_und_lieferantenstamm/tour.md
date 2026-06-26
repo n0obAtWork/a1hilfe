@@ -10,7 +10,7 @@ Auf der Registerkarte „Tour“ befinden sich folgende Bereiche, die auch über
 
 [Komplexe Tourzuordnung](./tour.md#Tour_komplexeTour)
 
-<p class="just-emphasize">Einfache Tourzuordnung</p>
+#### Einfache Tourzuordnung
 
 Ein Kunde kann einer festen Tour/Station zugeordnet werden. Dieses Kennzeichen kann in Listen etc. ausgewertet werden. Es handelt sich also um ein reines Auswertungskennzeichen.
 
@@ -19,7 +19,7 @@ Ein Kunde kann einer festen Tour/Station zugeordnet werden. Dieses Kennzeichen k
 | **Tour** | Nummer der Tour |
 | **Station** | Nummer der Station |
 
-<p class="just-emphasize">Anrufliste</p>
+#### Anrufliste
 
 | Feld | Beschreibung |
 | --- | --- |
@@ -28,7 +28,7 @@ Ein Kunde kann einer festen Tour/Station zugeordnet werden. Dieses Kennzeichen k
 | **Tag** | Wochentag |
 | **Uhr** | Hier kann die Uhrzeit angegeben werden. |
 
-<p class="just-emphasize">Komplexe Tourzuordnung</p>
+#### Komplexe Tourzuordnung
 
 | Feld | Beschreibung |
 | --- | --- |

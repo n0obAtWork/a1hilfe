@@ -6,15 +6,15 @@ Einstellungen für die Verarbeitung für openTRAN.
 
 openTRANS ist ein Datenformat, das es erlaubt Informationen zu einem Vorgang in einem technischen Standardformat (xml) zu speichern.
 
-<p class="just-emphasize">openTRANS aktiv</p>
+### openTRANS aktiv
 
 Gibt an, ob openTRANS-Export aktiv ist. Ist der Kunde dieses Vorgangs ein openTRANS-Kunde, so wird beim Druck des Dokuments ein Export gemacht.
 
-<p class="just-emphasize">Pfad für Dateiablage</p>
+### Pfad für Dateiablage
 
 Pfad für die Ablage eines openTRANS-Exports als Datei. Bei jedem Export wird eine Datei erstellt, die in diesem Pfad abgelegt wird. Der Dateiname kann von A.eins oder über eine optionale Prozedur erstellt werden.
 
-<p class="just-emphasize">Prozedur für Dateinamen</p>
+### Prozedur für Dateinamen
 
 Hier kann der Name einer Prozedur angegeben werden, die den Dateinamen für den openTRANS-Export eines Vorgangs bestimmt. Wird kein Name angegeben, so wird der Dateiname des Exports von A.eins bestimmt.
 
@@ -23,11 +23,11 @@ create procedure p_otdateiname(in in_v_id integer)
 result ("V_UKlassOTPath" varchar(1000) )
 ```
 
-<p class="just-emphasize">Profil für Export</p>
+### Profil für Export
 
 Hier wird das Profil angegeben das beim openTRANS-Export verwendet wird. Das Profil können Sie unter dem Direktsprung [OT] definieren.
 
-<p class="just-emphasize">OT->EDI-Konverter</p>
+### OT->EDI-Konverter
 
 Hier kann der Name einer Funktion angegeben werden, die als Eingabeparameter die Vorgangs-ID und ein XML vom Typ long varchar bekommt und dieses verändert im gleichen Typ long varchar wieder zurückgibt. Diese Funktion kann verwendet werden, um nachträglich Informationen in das XML einzubetten, zu verändern oder zu entfernen, die für den Empfänger über den Standard hinaus notwendig oder nützlich oder nicht relevant sind.
 
@@ -36,7 +36,7 @@ create function p_otediconvert(in in_v_id integer, in in_otxml long varchar)
 returns  long varchar
 ```
 
-<p class="just-emphasize">ME-Umschlüsselungsprozedur</p>
+### ME-Umschlüsselungsprozedur
 
 Hier kann der Name einer privaten Prozedur angegeben werden, die eine Mengeneinheitsnummer aus A.eins übergeben bekommt und eigenständig die dazu gehörige UN-Mengeneinheit und den Umrechnungsfaktor ermittelt. Der Faktor gibt an, in welchem Verhältnis die A.eins-Mengeneinheit zu der UM-Mengeneinheit steht. Werden beispielsweise A.eins-Tonnen (t) in KGM angegeben, so ist der Faktor 1000.
 
@@ -84,11 +84,11 @@ end
   </table>
 </div>
 
-<p class="just-emphasize">XML-Codierung</p>
+### XML-Codierung
 
 Hier wird die Codierung des openTRANS-XML festgelegt. Standardeinstellung ist UTF-16. Diese Einstellung kann jedoch auch gegen andere Codierungen wie z.B. „UTF-8“ oder „ISO-8859-1“ ausgetauscht werden.
 
-<p class="just-emphasize">Artikelumschlüsselung</p>
+### Artikelumschlüsselung
 
 Hier wird eine Prozedur angegeben, die die Umschlüsselung von Artikelnummern zu denen des Rechnungsempfängers übernimmt.
 
@@ -149,7 +149,7 @@ result ("type" varchar(50), value varchar(40) )
   </table>
 </div>
 
-<p class="just-emphasize">Kundenumschlüsselung</p>
+### Kundenumschlüsselung
 
 Hier wird eine Prozedur angegeben, die die Umschlüsselung von Kundennummern zu denen des Rechnungsempfängers übernimmt. 
 
@@ -218,7 +218,7 @@ result ("type" varchar(50), value varchar(40) )
   </table>
 </div>
 
-<p class="just-emphasize">Vorgang</p>
+### Vorgang
 
 Hier wird der openTRANS-Vorgangs-Typ angegeben, der beim Export dieses Vorgangs erstellt werden soll.
 
@@ -229,7 +229,7 @@ Zur Verfügung stehen derzeit:
 - Lieferschein
 - Rechnung
 
-<p class="just-emphasize">Prozedur für UDX-Felder</p>
+### Prozedur für UDX-Felder
 
 Es ist in openTRANS möglich, Userdefinierte Felder einzufügen. Gemöß dem openTRANS-Standard finden sich diese im UDX-Header bzw. im UDX-Item. Alle Feldnamen beginnen mit „UDX“.
 
@@ -314,7 +314,7 @@ Das Ergebnis im XML sieht dann so aus:
 </HEADER_UDX>
 ```
 
-<p class="just-emphasize">Prozedur für Item-Features</p>
+### Prozedur für Item-Features
 
 In openTRANS® gibt es in den Items der Itemliste der Vorgänge Features, also Eigenschaften, die das Produkt genauer beschreiben sollen.
 
@@ -387,7 +387,7 @@ Das Ergebnis im XML sieht dann so aus:
 </PROD_ORDER_ITEM>
 ```
 
-<p class="just-emphasize">Prozedur für Partie-Details</p>
+### Prozedur für Partie-Details
 
 In openTRANS® gibt es in den Komponenten der Positionen der Vorgänge Features, also Eigenschaften, die das Komponenten-Produkt genauer beschreiben sollen.
 
@@ -451,11 +451,11 @@ Das Ergebnis im XML sieht dann so aus:
 </PRODUCT_COMPONENT>
 ```
 
-<p class="just-emphasize">Transformation Stylesheet</p>
+### Transformation Stylesheet
 
 Hier kann ein Stylesheet angegeben werden, dass beim openTRANS-Export verwendet wird, um das ausgehende openTRANS in ein anderes XML-Format zu konvertieren.
 
-<p class="just-emphasize">Prozedur für MIME-Info</p>
+### Prozedur für MIME-Info
 
 In openTRANS® gibt es in den
 
@@ -522,7 +522,7 @@ Das Ergebnis im XML sieht dann so aus:
  </MIME_INFO>
 ```
 
-<p class="just-emphasize">Prozedur für Order_History</p>
+### Prozedur für Order_History
 
 In openTRANS® gibt es in nur in den Rechnungen (Invoice) die Kopfinformation ORDER_HISTORY. Diese enthält Informationen über den zugrunde liegenden Auftrag und Lieferschein.
 

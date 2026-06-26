@@ -12,7 +12,7 @@ Die folgenden Arbeitsschritte halten die LVS-Bestände mit denen der Warenwirtsc
 
 4. Produktion – Die Ende-Meldung ergibt eine Korrektur der Produktion mit den gegebenen Mengen
 
-<p class="just-emphasize">Gründe für Abweichungen</p>
+#### Gründe für Abweichungen
 
 Somit sollten die Bestände in LVS und Warenwirtschaft stets analog sein. Es gibt jedoch Gründe für Abweichungen:
 
@@ -20,7 +20,7 @@ Somit sollten die Bestände in LVS und Warenwirtschaft stets analog sein. Es gib
 - Bruch/Verderb
 - Schwund
 
-<p class="just-emphasize">Begriffe Inventur</p>
+#### Begriffe Inventur
 
 Für eine Bestandskorrektur gibt es zwei Anlässe:
 

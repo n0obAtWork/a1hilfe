@@ -14,7 +14,7 @@ Mögliche Problemquellen:
 
 Derzeit kann nicht verhindert werden, dass Detailsätze mit ScriptSystem=1 eingespielt werden, deren Kopfsatz mit ScriptSystem=0 nicht auf der Kundendatenbank existiert.
 
-Wichtiger Hinweis
+**Wichtiger Hinweis**
 
 Bis Aeins-Version 4.2.2.181 (22.6.99) werden inaktive ScriptParameter nicht zuverlässig erkannt. Daher kann es erforderlich sein, nach Beendigung der Parametrisierungen das SQL-Skript WAAGKORR.SQL aufzurufen. Besser ist es, vorläufig keine Parameter als inaktiv zu markieren. Das SQL-Skript hat folgenden Inhalt:
 

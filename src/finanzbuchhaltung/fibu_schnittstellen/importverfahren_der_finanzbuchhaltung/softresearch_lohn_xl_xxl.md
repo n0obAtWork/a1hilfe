@@ -8,7 +8,7 @@ Direktsprung **[FIIM]**
 
 Bei dieser Schnittstelle handelt es sich um den Import der Lohndaten aus der Software Lohn-XL/XXL. Es handelt sich bei diesen Buchungen um reine Sachkontenbuchungen. Die Lohnsoftware bietet diverse Exportschnittstellen an. In A.eins sind die Schnittstellen F_SR11 und F_SR13 Implementiert.
 
-<p class="just-emphasize">Satzaufbau F_SR11</p>
+#### Satzaufbau F_SR11
 
 | Stelle | Länge | Format | Bedeutung |
 | --- | --- | --- | --- |
@@ -28,7 +28,7 @@ Bei dieser Schnittstelle handelt es sich um den Import der Lohndaten aus der Sof
 | 108 | 19 | | Leer |
 | 127 | 2 | | CR/LF |
 
-<p class="just-emphasize">Satzaufbau F_SR13</p>
+#### Satzaufbau F_SR13
 
 | Stelle | Länge | Format | Bedeutung |
 | --- | --- | --- | --- |

@@ -4,7 +4,7 @@
 
 Die Module E-Beleg, Tammo und Email-Connector wurde auf das moderne Authentifizierungsverfahren Online-Exchange umgestellt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 716145[33235]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_versandprofilstamm.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2212.23, 33235, 716145

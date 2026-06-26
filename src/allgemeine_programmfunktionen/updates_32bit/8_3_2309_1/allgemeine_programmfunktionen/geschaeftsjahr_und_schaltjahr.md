@@ -4,7 +4,7 @@
 
 Bei Neuanlage eines Geschäftsjahres mit Verwendung von "Periodeneinteilung Vorjahr verwenden" werden jetzt Schaltjahre berücksichtigt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 726032[34127]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_geschftsjahrebuchung.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 34127, 726032

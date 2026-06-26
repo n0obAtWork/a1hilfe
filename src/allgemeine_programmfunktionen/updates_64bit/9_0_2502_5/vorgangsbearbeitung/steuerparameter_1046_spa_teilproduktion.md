@@ -4,7 +4,7 @@
 
 Der Steuerparameter 1046 SPA_TEILPRODUKTION ist in die Gruppe deaktiviert verschoben worden.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 747423[37192]
 
@@ -20,6 +20,6 @@ Funktion/Report: Gültigkeiten
 
 [Weitere Informationen](http://www.amic.de/hilfe/_SPA_1046.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 37192, 747423

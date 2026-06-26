@@ -4,7 +4,7 @@
 
 Die "TSE-Description" (BSI-K-TR-nnnn) wird nun auf der TSE-Einrichtungs Makse und in der AWL Kassenverwaltung - Variante: Stamminfo angezeigt. Feld in der Tabelle SteupaStammTSE hinzugefügt. Bei bestehenden TSE-Einrichtungen wird das Datenbankfeld beim eröffnen der Kassensitzung gefüllt. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 743581[36342]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_tseauswahllistepfleger.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 36342, 743581

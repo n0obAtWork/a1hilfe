@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/kommentar.htm -->
 
-<p class="just-emphasize">Syntax</p>
+#### Syntax
 
 // Einzeiliger kommentar
 
@@ -12,23 +12,23 @@
 
 \*/
 
-<p class="just-emphasize">Purpose</p>
+#### Purpose
 
 Nicht benötigte Statements auskommentieren / Befehlsfolgen Dokumentieren.
 
-<p class="just-emphasize">Anwendung</p>
+#### Anwendung
 
 Kommandodatei
 
-<p class="just-emphasize">Berechtigung</p>
+#### Berechtigung
 
 Alle Anwender
 
-<p class="just-emphasize">Beschreibung</p>
+#### Beschreibung
 
 Um Kommandodateien auch später noch zu verstehen ist es Sinnvoll entsprechende Kommentare einzufügen. Einzeilige Kommentare können mit mehrzeiligen geschachtelt vorkommen. Ineinander verschachtelte mehrzeilige Kommentare sind nicht möglich.
 
-<p class="just-emphasize">Beispiel</p>
+#### Beispiel
 
 /\* Entwickler OH 
 

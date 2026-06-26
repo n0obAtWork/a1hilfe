@@ -4,7 +4,7 @@
 
 Neue Funktion in der Android-Scannerkonfiguration Ab sofort ist es möglich, in der Scannerkonfiguration individuelle Einstellungen pro Scanner und basierend auf dessen Status vorzunehmen. Folgende Optionen können dabei festgelegt werden: Verwendung der Hardwaretastatur Automatischer Fokus auf das Eingabefeld Einblenden der On-Screen-Tastatur Diese Erweiterung ermöglicht eine noch gezieltere Anpassung des Scannerverhaltens an unterschiedliche Nutzungsszenarien.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 744182[36639]
 
@@ -20,6 +20,6 @@ Funktion/Report: Scanner
 
 [Weitere Informationen](http://www.amic.de/hilfe/_scanner_konfiguration.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 36639, 744182

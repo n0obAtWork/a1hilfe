@@ -4,7 +4,7 @@
 
 Bei der Produktionserfassung/-änderung kam es beim Einfügen von Leerzeilen zwischen den Komponenten zu langen Wartezeiten. Bei variablen Rezepten können Komponenten nur noch hinter bestehenden Komponenten hinzugefügt werden. Bestehende Komponenten können nur noch bei variablen Rezepten entfernt werden.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 714820[32918]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_erfassungproduktion.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2211.9, 32918, 714820

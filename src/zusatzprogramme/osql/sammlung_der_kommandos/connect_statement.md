@@ -2,31 +2,31 @@
 
 <!-- source: https://amic.de/hilfe/connectstatement.htm -->
 
-<p class="just-emphasize">Syntax</p>
+#### Syntax
 
 CONNECT userid IDENTIFIED BY password
 
-<p class="just-emphasize">Purpose</p>
+#### Purpose
 
 Verbindung zur aktiven Datenbank mit einem anderen Benutzer herstellen.
 
-<p class="just-emphasize">Anwendung</p>
+#### Anwendung
 
 Kommandodatei
 
-<p class="just-emphasize">Berechtigung</p>
+#### Berechtigung
 
 AMIC
 
-<p class="just-emphasize">Siehe auch</p>
+#### Siehe auch
 
 [DISCONNECT](./disconnect_statement.md)
 
-<p class="just-emphasize">Beschreibung</p>
+#### Beschreibung
 
 Mit dem CONNECT Statement können sie sich unter einem anderen Benutzer an die Datenbank anmelden. Ist die Kommandodatei beendet, wird automatisch ein Connect auf den ursprünglichen Benutzer durchgeführt. Verwendung findet dieses Statement vor allem beim anlegen von Views, Triggern, Funktionen oder anderen Objekten, die einzelnen Benutzern zugeordnet werden sollen. Im folgenden Beispiel wird die VIEW unter der Hoheit von Admin angelegt und ist somit allgemein gültig. Ohne das vorangegangene CONNECT wäre es in diesem Beispiel nur für den Benutzer zugänglich, der es angelegt hat.
 
-<p class="just-emphasize">Beispiel</p>
+#### Beispiel
 
 CONNECT admin IDENTIFIED BY \*\*\*\*\*\*\*;
 

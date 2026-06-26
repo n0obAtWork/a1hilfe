@@ -30,15 +30,15 @@ Die Erstellung des FTP-Skriptes wird durch die Datenbank Prozedur „***amic_rem
 
 10. Passen Sie die hier zu findenden Parameter an:
 
-b. –bstpath Pfad zum lokalen dbrexp-Verzeichnis (z.B. c:\\aeins\\dbrexp)
+   b. –bstpath Pfad zum lokalen dbrexp-Verzeichnis (z.B. c:\\aeins\\dbrexp)
 
-c. –bst Remoteusername für den die Verbindung aufgebaut wird (z.B. BST2)
+   c. –bst Remoteusername für den die Verbindung aufgebaut wird (z.B. BST2)
 
-d. –bstip IP des FTP-Servers
+   d. –bstip IP des FTP-Servers
 
-e. –bstuser Benutzername zur Anmeldung am FTP-Server
+   e. –bstuser Benutzername zur Anmeldung am FTP-Server
 
-f. –bstpwd Kennwort zur Anmeldung am FTP-Server
+   f. –bstpwd Kennwort zur Anmeldung am FTP-Server
 
 11. Speichern Sie die Änderungen und schließen den Editor / Notepad
 

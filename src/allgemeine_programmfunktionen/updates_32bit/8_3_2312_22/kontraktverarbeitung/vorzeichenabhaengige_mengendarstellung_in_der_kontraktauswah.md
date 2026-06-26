@@ -4,7 +4,7 @@
 
 In der Auswahllistenvariante 'Kontrakte' der Anwendung Kontrakte [KTR] wurde bei der Darstellung der ratierlichen Werte von Mengen, Restmengen und kumulierten Restmengen die Einstellung des Kriteriums 'Menge mit Vorzeichen' = 'Ja' der Bereichsauswahl nicht korrekt berücksichtigt. Dieser Umstand wurde nun behoben. Zudem kam es bei Kontrakten mit einer anderen Standardkontraktvariante als "Monatl. lin. Abnahme" zu Unstimmigkeiten bei der Zuordnung von Liefermengen zu den einzelnen ratierlichen Monaten, da in allen Fällen der Beginn des Kontraktzeitraums zur Monatszuordnung verwendet wurde. Dieses Verfahren wird jetzt nur noch bei vorliegen der Standardkontraktvariante "Monatl. lin. Abnahme" genutzt. In allen anderen Fällen wird das Bewegungsdatum der Lieferung verwendet. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 716987[33201]
 
@@ -20,6 +20,6 @@ Funktion/Report: Auswahlliste
 
 [Weitere Informationen](http://www.amic.de/hilfe/_kontrakt_auswahllist_felder.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2312.22, 33201, 716987

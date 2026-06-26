@@ -4,7 +4,7 @@
 
 Die Einstellungen für den Rohwaresammeldruck-Mailversand können nun unter [VRGD] in jeder beliebigen Zeile vorgenommen werden. Vorher war dies nur in der ersten Zeile möglich. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 747598[35856]
 
@@ -20,6 +20,6 @@ Funktion/Report: Sammel-Erstdruck
 
 [Weitere Informationen](http://www.amic.de/hilfe/_rwsammelAbrechnung.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 35856, 747598

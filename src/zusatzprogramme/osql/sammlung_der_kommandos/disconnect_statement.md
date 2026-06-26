@@ -2,31 +2,31 @@
 
 <!-- source: https://amic.de/hilfe/disconnectstatement.htm -->
 
-<p class="just-emphasize">Syntax</p>
+#### Syntax
 
 DISCONNECT;
 
-<p class="just-emphasize">Purpose</p>
+#### Purpose
 
 Stellt die ursprüngliche Verbindung zur Datenbank wieder her.
 
-<p class="just-emphasize">Anwendung</p>
+#### Anwendung
 
 Kommandodatei
 
-<p class="just-emphasize">Berechtigung</p>
+#### Berechtigung
 
 AMIC
 
-<p class="just-emphasize">Siehe auch</p>
+#### Siehe auch
 
 [CONNECT](./connect_statement.md)
 
-<p class="just-emphasize">Beschreibung</p>
+#### Beschreibung
 
 Hat man sich per CONNECT als anderer Benutzer an die Datenbank angemeldet, hebt DISCONNECT diese Verbindung wieder auf und meldet den ursprünglichen Benutzer wieder an.
 
-<p class="just-emphasize">Beispiel</p>
+#### Beispiel
 
 CONNECT admin IDENTIFIED BY \*\*\*\*\*\*\*;
 

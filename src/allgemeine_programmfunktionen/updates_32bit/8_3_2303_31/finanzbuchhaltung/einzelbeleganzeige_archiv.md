@@ -4,7 +4,7 @@
 
 In dem Archiv der Einzelbeleganzeige wurden seit der Version 8.3.2211.30 die archivierten Warenwirtschaftsbelege beim Zahlungspflichtigen nicht mehr angezeigt. Dies wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 719393[33473]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/einzelbeleganzeige.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2303.31, 33473, 719393

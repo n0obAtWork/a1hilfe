@@ -4,7 +4,7 @@
 
 Bei der Neuanlage eines Geschäftsjahres [JAHR], in dem mehr als 12 Normalperioden verwendet werden, wird der Datumsbereich für die zusätzlichen Perioden mit dem Jahresenddatum und der Text mit "man.Abschluss" vorbelegt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 717508[33291]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_anlegeneinesneuenwir.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2302.17, 33291, 717508

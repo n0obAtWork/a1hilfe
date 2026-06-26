@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_frmpepcqrcode.htm -->
 
-<p class="just-emphasize">Allgemeines</p>
+#### Allgemeines
 
 Im Formularfuß (Bereich 902: Abschluss und Fuß letzte Seite) von Standardformularen kann die Druckposition ‚EPC-QR-CODE‘ (Position 45) eingerichtet werden, die aber nur bei Vorgängen der Vorgangsklasse 700 (Rechnung) beim Druck berücksichtigt wird.
 
@@ -36,7 +36,7 @@ generiert.
 
 Bei Vorhandensein mehrerer Hausbanken kann mit dem Steuerparameter **Hausbanknummer für EPC-QRCODE (SPA1079)** durch Angabe der Hausbanknummer die heranzuziehende Hausbank festgelegt werden. Ist der Wert des Steuerparameters 0 oder mit der dort angegebenen Nummer keine (nicht gelöschte) Hausbank gefunden, so wird die (nicht gelöschte) Hausbank mit der niedrigsten Nummer herangezogen.
 
-<p class="just-emphasize">Einrichtungsdetails</p>
+#### Einrichtungsdetails
 
 Die [Einrichtung der Position](./formulareinrichtung/einrichtung_f6.md) erfolgt durch Angabe von Zeile und Spalte für die linke obere Ecke des QR-CODEs im Formularbereich Bereich 902 für die Position ‚EPC-QR-CODE‘ (45) und die Angabe des **Namens der Etikettendruck-Definition** ( im Standard: <strong><em>AMIC_EPC_QRCODE </em></strong><em>)</em> in der Spalte **Text**.
 

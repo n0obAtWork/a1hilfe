@@ -4,7 +4,7 @@
 
 Wurde im privaten Crystal Report die Vorschau mit Daten gespeichert, dann hat dieser sich immer auf die gespeicherten Daten bezogen und nicht die tatsächlich eingegrenzten Daten berücksichtigt. Dieser Fehler wurde jetzt behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 739632[35815]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_allgemeineprogrammfu.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.4, 35815, 739632

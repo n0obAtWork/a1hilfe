@@ -4,7 +4,7 @@
 
 Bei der Kalkulation werden nun auch Artikel berücksichtigt wenn keine Zählmenge in der Inventur vorhanden ist.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 722455[34004]
 
@@ -20,6 +20,6 @@ Funktion/Report: Auswahlliste
 
 [Weitere Informationen](http://www.amic.de/hilfe/inventurbestand.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2311.10, 34004, 722455

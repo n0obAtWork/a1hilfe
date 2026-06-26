@@ -15,7 +15,7 @@ In der Statuszeile werden folgende Informationen angezeigt:
 
 5) Wenn der Steuerparameter „Auswahllisten-Refesh“ für die Anwendung aktiv ist, so erscheint nach dem ersten Refresh eine kleine Timer-Grafik, die diesen Zustand anzeigt.
 
-![](../../ImagesExt/image8_1285.png)
+   ![](../../ImagesExt/image8_1285.png)
 
 6) Welcher Standarddrucker wird verwendet. Hier „OKI-C610-Vorne“
 

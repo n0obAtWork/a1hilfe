@@ -13,7 +13,7 @@ Letzter Hilfebau : 12.06.2026 17:11:31
 
 Die vollständigen Systemvoraussetzungen und Empfehlungen für Sie entnehmen Sie dem Dokument Systemvoraussetzungen: [Systemvoraussetzungen](https://amic.de/wp-content/uploads/2025/07/A.eins_Systemvoraussetzungen.pdf)
 
-<p class="just-emphasize">Hinweis:</p>
+**Hinweis:**
 
 Windows Server 2012 mit einer Extended Security Updates (ESU) Lizenzierung wird nicht mehr unterstützt.
 

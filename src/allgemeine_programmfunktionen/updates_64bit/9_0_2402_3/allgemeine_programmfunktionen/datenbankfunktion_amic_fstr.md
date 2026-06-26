@@ -4,7 +4,7 @@
 
 Der erste Parameter der Funktion AMIC_FSTR wurde von Numeric(15,4) auf Numeric(20,4) und der Rückgabewert wurde auf Varchar(30) geändert .
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 731210[34809]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_allgemeineprogrammfu.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.3, 34809, 731210

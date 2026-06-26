@@ -4,7 +4,7 @@
 
 Zeichen wie '&', '^' und weitere werden innerhalb einer Emailadresse korrekt verarbeitet.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 744563[36732]
 
@@ -20,6 +20,6 @@ Funktion/Report: Email
 
 [Weitere Informationen](http://www.amic.de/hilfe/kundenundlieferanten1.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 36732, 744563

@@ -4,7 +4,7 @@
 
 In der Streckenerfassung werden nun im jeweiligen Grid beim Ausführen der Funktion "Position kopieren" nicht nur die Standardfelder, sondern zusätzlich die UFLD- und ADDON-Felder kopiert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 726427[34180]
 
@@ -20,6 +20,6 @@ Funktion/Report: Ändern/Neu
 
 [Weitere Informationen](http://www.amic.de/hilfe/!_vorgangsmappe.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.1, 34180, 726427

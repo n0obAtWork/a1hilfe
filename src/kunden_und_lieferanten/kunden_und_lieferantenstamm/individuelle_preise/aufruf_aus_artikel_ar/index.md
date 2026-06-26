@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/aufrufausartikelar.htm -->
 
-Nach Auswahl eines Artikels kann der Preisstapelpfleger über das Kontextmenü, Menüpunkt „Preise à individuelle Preispflege“, oder mit der Tastenkombination Umschalt F5 gestartet werden:
+Nach Auswahl eines Artikels kann der Preisstapelpfleger über das Kontextmenü, Menüpunkt „Preise → individuelle Preispflege“, oder mit der Tastenkombination Umschalt F5 gestartet werden:
 
 ![Ein Bild, das Text, Screenshot, Software, Computersymbol enthält. KI-generierte Inhalte können fehlerhaft sein.](../../../../ImagesExt/image8_88.png "Ein Bild, das Text, Screenshot, Software, Computersymbol enthält. KI-generierte Inhalte können fehlerhaft sein.")
 

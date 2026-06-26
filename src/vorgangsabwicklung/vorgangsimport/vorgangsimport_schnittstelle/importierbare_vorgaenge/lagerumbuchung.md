@@ -4,7 +4,7 @@
 
 Um einen Lagerumbuchung / Lagerplatzumbuchung mit dem Vorgangsimport in das A.eins System einzuspielen müssen folgende Regeln beachtet werden und mindestens folgende Felder gefüllt werden.
 
-<p class="just-emphasize">Besonderheiten</p>
+#### Besonderheiten
 
 Für eine Positionszeile in der Lagerumbuchung müssen zwei Zeilen in der Relation ImportVorgPosition angelegt werden. Damit das System weiß, welches die Abgangs- und welches die Zugangszeile ist, werden die Zeilen per Positionsklammer und „TypAbgangZugang“ geklammert.
 
@@ -14,11 +14,11 @@ Die Positionsklammer beschreibt die Stelle der Warenposition in der Lagerumbuchu
 
 2 ist die ZugangsZeile
 
-<p class="just-emphasize">Gebinde</p>
+#### Gebinde
 
 Um eine Gebinde Position anzulegen muss die Gebindemengeneinheit in dem Feld „ME“ und die Gebindeanzahl muss im Feld „Menge“ in der Relation ImportVorgPosition gespeichert werden.
 
-<p class="just-emphasize">Partie</p>
+#### Partie
 
 Existiert zu einer Warenposition nur eine Partie so kann diese direkt mit in der Relation ImportVorgPosition gespeichert werden.
 

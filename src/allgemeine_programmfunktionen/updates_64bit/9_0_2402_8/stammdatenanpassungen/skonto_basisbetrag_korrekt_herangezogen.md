@@ -4,7 +4,7 @@
 
 Es wurde als Basisbetrag für Skonto der Bruttobetrag anstelle des skontier fähigen Betrags hinterlegt. Dies wurde angepasst.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 742134[36121]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/!erechnung1.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.8, 36121, 742134

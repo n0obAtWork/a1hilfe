@@ -30,9 +30,9 @@ Führen Sie zunächst ein Extrakt auf Seiten der korrekten Datenbank durch:
 
 7. Um Fehler beim Einspielen zu vermeiden muss:
 
-7.1 die Pfadangaben im reload.sql entsprechend den örtlichen Strukturen angepasst werden
+   7.1 die Pfadangaben im reload.sql entsprechend den örtlichen Strukturen angepasst werden
 
-7.2 Die Tabellen, welche durch das reload.sql Skript erstellt werden sollen, müssen entfernt werden
+   7.2 Die Tabellen, welche durch das reload.sql Skript erstellt werden sollen, müssen entfernt werden
 
 8. Nach dem Start des Skripts verfolgen Sie die Arbeitsschritte und bewerten und reagieren Sie entsprechend auf die gezeigten Meldungen
 
@@ -40,12 +40,12 @@ Führen Sie zunächst ein Extrakt auf Seiten der korrekten Datenbank durch:
 
 10. Achten Sie hierbei darauf, ob der Adressen des Publishers und der Remote-User korrekt sind
 
-  - Ob die Remote-User stimmig sind
-  - Subskriptionen gestartet sind
-  - Event gestartet ist
+   - Ob die Remote-User stimmig sind
+   - Subskriptionen gestartet sind
+   - Event gestartet ist
 
-    11. Führen Sie folgenden Befehl auf beiden Seiten aus:
+11. Führen Sie folgenden Befehl auf beiden Seiten aus:
 
-  - „REMOTE RESET &lt;Remote-User>; COMMIT;“
+   - „REMOTE RESET &lt;Remote-User>; COMMIT;“
 
-    Wichtig hierbei ist, dass die DBRemote-Nachrichtenagenten NICHT vorher gestartet wurden!
+Wichtig hierbei ist, dass die DBRemote-Nachrichtenagenten NICHT vorher gestartet wurden!

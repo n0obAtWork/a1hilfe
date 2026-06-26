@@ -6,13 +6,13 @@ Der Standard openTRANS ist für den Austausch von Handelsvorgängen vorgesehen. 
 
 Da A.eins diesen Prozess jedoch abbilden sollte, ist ein Protokoll zum Austausch von Produktionsaufträgen und Status erschaffen worden, der sich im Wesentlichen an dem bestehenden der openTRANS®-Struktur ORDER orientiert, jedoch zur Unterscheidung „PROD_ORDER“ (kurz PO) genannt wird.
 
-###### Einrichtung Produktionsauftrag
+### Einrichtung Produktionsauftrag
 
-<p class="just-emphasize">SPA 850 und die Formularzuordnung</p>
+#### SPA 850 und die Formularzuordnung
 
 Da mit Steuerparameter [Steuerparameter 850 – Belegänderungssperre durch Beteiligung von openTRANS](../../../../firmenstamm/steuerparameter/optionen_warenwirtschaft/belegaenderungssperre_durch_beteiligung_von_opentrans_spa_85.md) die Einstellungsmöglichkeit besteht, Belege gegen Bearbeitung zu sperren, für die bereits ein openTRANS erstellt worden ist, kann in der [Formularzuordnung auf der Registerkarte SPA](../../../../vorgangsabwicklung/formularzuordnung/spa.md) diese Sperre abgeschaltet werden. Dies wird für die Vorgangsklasse 5220 (Produktion) empfohlen.
 
-<p class="just-emphasize">Prozeduren</p>
+#### Prozeduren
 
 Auf der [Registerkarte openTRANS (OT) in der Formularzuordnung](../../../../vorgangsabwicklung/formularzuordnung/ot_opentrans.md) sind eine Reihe spezifischer Einstellungen für die Vorgangsklasse 5220 (Produktion) einzurichten.
 
@@ -20,7 +20,7 @@ OpenTRANS ist zu aktivieren und es sind diverse Prozeduren zur Ermittlung Produk
 
 Als Beispiel seien jedoch UDX, Partie-Details, Item-Features, Umschlüsselungen und Dateinamen genannt.
 
-###### Kopfinformationen
+### Kopfinformationen
 
 Kopfinformationen eines Produktionsauftrages werden im PO-Header eingetragen.
 
@@ -90,7 +90,7 @@ Einige der Informationen lassen sich in das PO-Format einfügen, andere werden i
   </table>
 </div>
 
-<p class="just-emphasize">Beispiel:</p>
+#### Beispiel:
 
 Eine vom Auftraggeber an den Auftragnehmer eingehende Nachricht im PO-Format wird mit dem Status „PROD_NEW“ gesendet.
 
@@ -179,7 +179,7 @@ Mögliche Status sind :
   </table>
 </div>
 
-###### Positionsinformationen
+### Positionsinformationen
 
 Positionsinformationen eines Produktionsauftrages werden in der PO-Item-List eingetragen.
 
@@ -260,7 +260,7 @@ Komponenten und Produktionsprodukte werden in dieser Itemliste gleichrangig beha
 </PRODUCT_FEATURES>
 ```
 
-###### Chargeninformationen
+### Chargeninformationen
 
 Werden in den Komponenten Chargennummern angegeben, die den gleichen Artikel betreffen, so können diese auf zweierlei Weise mitgeteilt werden:
 

@@ -2,18 +2,18 @@
 
 <!-- source: https://amic.de/hilfe/_bestellung_scancodes.htm -->
 
-<p class="just-emphasize">Bestellung Start BSE</p>
+#### Bestellung Start BSE
 
 ![](../../../../ImagesExt/image8_1438.jpg)
 
-<p class="just-emphasize">Bestellung Ende BSE</p>
+#### Bestellung Ende BSE
 
 ![](../../../../ImagesExt/image8_1439.jpg)
 
-<p class="just-emphasize">Storno</p>
+#### Storno
 
 ![](../../../../ImagesExt/image8_1440.jpg)
 
-<p class="just-emphasize">ILN Nummer Beispiel</p>
+#### ILN Nummer Beispiel
 
 ![](../../../../ImagesExt/image8_1441.jpg)

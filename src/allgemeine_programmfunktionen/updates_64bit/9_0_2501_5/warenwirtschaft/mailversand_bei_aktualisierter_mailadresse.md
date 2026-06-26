@@ -4,7 +4,7 @@
 
 Während der Vorgangserfassung speichert sich A.eins die aktuellen Anschriften. In den Anschriften werden auch die Mailadressen gespeichert. Stellte man nach Erfassung eines Vorganges fest, dass die Mailadresse nicht korrekt war, war es mit hohem Aufwand verbunden, die korrekte Mailadresse in dem Vorgang zu hinterlegen. Wird nun der SPA 1161 auf "Ja" gestellt, so werden beim Mailversand immer die aktuellen Mailadressen aus dem jeweiligen Kunden gezogen, ohne das weitere Maßnahmen notwendig sind. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 742206[36224]
 
@@ -20,6 +20,6 @@ Funktion/Report: Belegversand
 
 [Weitere Informationen](http://www.amic.de/hilfe/warebelegversand.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 36224, 742206

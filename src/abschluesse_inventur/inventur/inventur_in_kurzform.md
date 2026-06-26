@@ -66,21 +66,21 @@ folgende Optionen bestehen:
 
 ***Erfassungsprotokoll*** (Druck)
 
-Mobile Datenerfassung
+***Mobile Datenerfassung***
 
 folgende Prüf - Auswahllisten können aufgerufen werden:
 
-Artikel ohne Inventureröffnung
+***Artikel ohne Inventureröffnung***
 
-Bestand ohne Aufnahme
+***Bestand ohne Aufnahme***
 
 Bewertung **[IVP]**
 
-einzeln manuell erfassen
+***einzeln manuell erfassen***
 
-Kalkulation
+***Kalkulation***
 
-Übernahme
+***Übernahme***
 
 Inventurbestand **[IVB]**
 
@@ -100,15 +100,15 @@ nur markierte Artikel
 
 Bemerkung: die autom. Bewertung überschreibt die manuelle Einzelbewertung!
 
-Inventurbestandsliste
+***Inventurbestandsliste***
 
-Inventurbestand pro EKZ
+***Inventurbestand pro EKZ***
 
 Variante „2. Differenzen je Lagerort“ mit der Funktion:
 
 ***Differenzenliste / Diff.-Liste*** (Druck)
 
-<p class="just-emphasize">Abschlussarbeiten</p>
+### Abschlussarbeiten
 
 Bevor die Inventur abgeschlossen werden kann sind folgende Punkte zu beachten:
 
@@ -165,7 +165,7 @@ Die Abschlussanalyse nimmt folgende Prüfungen vor:
 17\. Partien mit Bestand erfasst? (SPA!)  
     
 
-<p class="just-emphasize">Einspielen</p>
+### Einspielen
 
 Nur möglich, wenn vorher die Inventur abgeschlossen wurde.
 
@@ -177,7 +177,7 @@ Drucken der „Inventurliste nach EKZ“ 
 
 (Hilfsliste für die Einbuchung der Bestandswerte in die Fibu.)
 
-<p class="just-emphasize">Inventur löschen</p>
+### Inventur löschen
 
 (Danach kein Ausdruck der Differenzenliste mehr möglich!)
 

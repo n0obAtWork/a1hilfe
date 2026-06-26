@@ -4,7 +4,7 @@
 
 Bei Mailversand der Avise wurde der Mailbody und die Betreffzeile bisher über ein Formular bestimmt. Jetzt ist es alternativ möglich diese über eine Datenbankfunktion zu bestimmen. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 735345[35377]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/zahlungsart.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 35377, 735345

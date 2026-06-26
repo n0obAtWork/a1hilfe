@@ -4,7 +4,7 @@
 
 Für den Fibu-Übertrag von Barverkaufsbelegen mit Gruppenrabatten konnte es vorkommen, dass Einträge nicht übertragen werden konnten. Dies wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 752268[39519]
 
@@ -20,6 +20,6 @@ Funktion/Report: Fibu Übertrag (F5)
 
 [Weitere Informationen](http://www.amic.de/hilfe/_steupa_fibuuebertragWarenwirtschaft.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.9, 39519, 752268

@@ -4,7 +4,7 @@
 
 Bei Neuanlage eines Kunden/Lieferanten/Kontokorrentkunden unter Verwendung eines Musterkunden, wurde fälschlicherweise dessen Bemerkungs-Id übernommen. Somit hatten alle Kunden, die gleiche Bemerkung und es konnten keine eigenen Bemerkung für einen einzelnen Kunden gepflegt werden.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 713518[32724]
 
@@ -20,6 +20,6 @@ Funktion/Report: F8
 
 [Weitere Informationen](http://www.amic.de/hilfe/!_kundenundlieferanten.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2210.20, 32724, 713518

@@ -4,7 +4,7 @@
 
 Die Geodaten sind für die Abfrage von geografischen Koordinaten zu einer Anschrift notwendig. A.eins unterstützt hier den Anbieter Google:
 
-<p class="just-emphasize">Google</p>
+#### Google
 
 Google bietet (Stand Juli 2023) einen Account mit 200$ monatlichem Grundguthaben an, wobei dieses durch Anfragen an den Webservice bis zu 1000 Stück 5$ kosten.
 

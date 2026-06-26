@@ -14,7 +14,7 @@ Hier können sie die Definitionen hinterlegen, die Reporte mit Anwendungen von A
 2. Vorlagen AMIC Etikettendruck Reporte  
 Hier stehen einige von AMIC erstellte Vorlagen, die in den privaten Bereich übernommen werden können.
 
-Definition neu erstellen
+**Definition neu erstellen**
 
 In der Variante “Private AMIC Etikettendruck Reporte“ kann man mit der Funktion „***Neu* F8**“ die Informationen hinterlegen, die das Programm zur Einbindung und Darstellung benötigt. Es erscheint folgender Bildschirm:
 
@@ -42,7 +42,7 @@ Karteikarten: Wie Etiketten, nur dass nach jeder Karteikartei ein Seitenwechsel 
 Listen: Es stehen Variablen für den Kopf und Fußbereich und Felder für die Tabelle zur Verfügung.  
     
 
-<p class="just-emphasize">Register Allgemein</p>
+### Register Allgemein
 
 | Feld | Bedeutung |
 | --- | --- |
@@ -55,7 +55,7 @@ Listen: Es stehen Variablen für den Kopf und Fußbereich und Felder für die Ta
 | Archivieren:<br> | Hier besteht die Möglichkeit, anzugeben, ob der Report archiviert werden soll. Bei <strong>„Ja“</strong> wird bei Datenherkunft View und Prozedur das Register „Archiv“ eingeblendet.<br>Dieses Kennzeichen wird nur bei privaten Reporten exportiert.<br> |
 | Druckerprofile<br> | Hier können Druckereinstellungen vorgenommen werden, die gespeichert werden und später über den Kommandozeilenparameter [PrinterProfil](./kommandozeile.md) oder über den dritten Parameter des [Controlstrings](./index.md#Controlstring) wieder verwendet werden können. Dabei ist das **Profil** die eindeutige Bezeichnung. Neben der **Beschreibung**, der ***Druckereinstellung*** **F11** können hier auch noch die Anzahl der Kopien für den Druck festgelegt werden. Ist hier eine Zahl ungleich 0 angegeben, so erscheint dann diese Zahl als Vorschlag im Druckabfragefenster. Sie übersteuert dann ggf. die über [LILAANZAHLKOPIEN](./spezialfelder.md#LILAANZAHLKOPIEN) bzw. [LILAANZAHLVARKOPIEN](./spezialfelder.md#LILAANZAHLVARKOPIEN) angegebenen Werte.<br> |
 
-<p class="just-emphasize">Register Archiv</p>
+### Register Archiv
 
 Die hier vorzunehmenden Einstellungen dienen dazu, einen fortlaufenden Druck in Portionen zu unterteilen oder zusätzliche Informationen an das Archiv zu übergeben. Man kann so dem Archivsystem die zu archivierenden Dokumente so übergeben, dass dort auch Kontonummer, Belegnummer, Belegdatum, Belegreferenz und weitere Informationsfelder übergeben und als Suchkriterien verwendet werden können.
 
@@ -88,7 +88,7 @@ Select kontonummer,kontobldruckid,kontoblbisdatum from :*ProcedureCall group by 
     
 :\*Procedurecall wird dann entweder mit dem Wert auf dem ersten Register oder durch den in der Kommandozeile angegebenen Wert ersetzt.
 
-<p class="just-emphasize">Definition ändern</p>
+#### Definition ändern
 
 Ruf man eine Definition erneut zum Ändern auf, so stehen dann weitere Funktionen zur Verfügung:
 

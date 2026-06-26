@@ -4,7 +4,7 @@
 
 In der Tresenkasse ist ein Fehler beim Barverkauf aufgetreten: Wenn der EPA "Im Barverkauf sofort in Positionsteil" auf "Ja" gesetzt ist, kam es bei jedem zweiten Barverkauf zu einem Fehler bei der Zahlung mit anschließendem Belegabbruch. Dieser Fehler wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 739144[35732]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/tresenkasse.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.4, 35732, 739144

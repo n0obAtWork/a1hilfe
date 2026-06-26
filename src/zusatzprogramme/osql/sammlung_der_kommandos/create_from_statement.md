@@ -2,31 +2,31 @@
 
 <!-- source: https://amic.de/hilfe/createfromstatement.htm -->
 
-<p class="just-emphasize">Syntax</p>
+#### Syntax
 
 CREATE FROM Dateiname;
 
-<p class="just-emphasize">Purpose</p>
+#### Purpose
 
 Löscht und legt Prozeduren, Views, Trigger und Funktionen an.
 
-<p class="just-emphasize">Anwendung</p>
+#### Anwendung
 
 Befehlszeile, Kommandodatei
 
-<p class="just-emphasize">Berechtigung</p>
+#### Berechtigung
 
 Alle Anwender
 
-<p class="just-emphasize">Siehe auch</p>
+#### Siehe auch
 
 [COMMAND_DELIMITER](./set_command_delimiter_statement.md)
 
-<p class="just-emphasize">Beschreibung</p>
+#### Beschreibung
 
 In Prozeduren, Funktionen und Triggern kann man davon ausgehen, dass als Standard COMMAND_DELIMITER das Semikolon >;&lt; gesetzt ist. Dies führt beim Abarbeiten von Kommandodateien zu Problemen, da standardmäßig auch hier jedes Statement mit >;&lt; endet. Daher ist es Sinnvoll in diesem Fall einen anderen COMMAND_DELIMTER zu setzen. Dies übernimmt diese Funktion, und man vermeidet dadurch unnötige Fehler, weil man vergisst diesen wieder zurückzusetzen. Sie übernimmt zusätzlich auch das löschen, falls diese Prozedur... schon vorhanden war.
 
-<p class="just-emphasize">Beispiel</p>
+#### Beispiel
 
 // Datei C: \\FIBUVORGSTAMM_AFTDEL.SQL;
 

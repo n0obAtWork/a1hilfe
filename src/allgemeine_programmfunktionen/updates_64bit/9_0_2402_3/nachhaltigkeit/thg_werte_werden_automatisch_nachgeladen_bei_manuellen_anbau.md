@@ -4,7 +4,7 @@
 
 Bei Kunden mit sehr vielen Artikeln hat das automatische Nachladen nach dem Ändern vom Anbauland während der Belegerfassung nicht funktioniert. Dies wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 738636[35721]
 
@@ -20,6 +20,6 @@ Funktion/Report: n/a
 
 [Weitere Informationen](http://www.amic.de/hilfe/_svware_Nachhaltigkeit.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.3, 35721, 738636

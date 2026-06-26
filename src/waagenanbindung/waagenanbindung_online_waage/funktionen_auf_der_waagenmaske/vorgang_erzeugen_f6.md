@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_waage_vorgangerzeugen.htm -->
 
-<p class="just-emphasize">Normalware</p>
+#### Normalware
 
 Vorgänge können nur erzeugt werden, wenn es sich nicht um Rohwarewiegungen handelt.
 
@@ -12,7 +12,7 @@ Es wurde jetzt die Möglichkeit geschaffen, eine alternative Vorgangserzeugung a
 
 Bei der Vorgangserzeugung kann jetzt der Vorgang direkt mit ausgedruckt werden. Dazu muss im Waagenprofil auf der [Registerkarte Vorgang](../prozess_einrichten/registerkarte_vorgang.md) der Schalter „Vorgang nach der Erzeugung drucken“ auf Ja gestellt werden. Bei der Funktion Vorgang erzeugen editieren wird der Schalter nicht ausgewertet.
 
-<p class="just-emphasize">Rohware</p>
+#### Rohware
 
 Für abgeschlossene Wiegungen mit dem Wiegetyp Rohwareneingang, Rohwarenausgang oder Lohnwägung kann man in der Auswahlliste für mehrere Wiegungen und in der Maske für die aktuelle Wiegung Rohwarenbelege erzeugen.
 

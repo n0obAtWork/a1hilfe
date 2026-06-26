@@ -4,7 +4,7 @@
 
 In der Anwendung Partiestamm [PAR] wurde die Funktion "Qualitäten" fälschlicherweise über eine Lizenz geschützt. Dies wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 728667[34533]
 
@@ -20,6 +20,6 @@ Funktion/Report: Qualitäten (F9)
 
 [Weitere Informationen](http://www.amic.de/hilfe/_partiestammpar.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2312.8, 34533, 728667

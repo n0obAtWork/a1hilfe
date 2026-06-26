@@ -8,7 +8,7 @@
 
 Seit Mai 2012 bietet Elster die Möglichkeit die ZMDO (Zusammenfassende Meldung Daten Online) auf elektronischen Weg ohne den Umweg über das ELSTER-ONLINE Portal zu machen. Diese Möglichkeit ist ab Version 8.1 auch in A.eins integriert.
 
-<p class="just-emphasize">Mindestsystemanforderungen</p>
+#### Mindestsystemanforderungen
 
 Diese Anforderungen werden von dem Programm-Modul der bayerischen Steuerverwaltung gestellt und können von AMIC nicht beeinflusst werden.
 

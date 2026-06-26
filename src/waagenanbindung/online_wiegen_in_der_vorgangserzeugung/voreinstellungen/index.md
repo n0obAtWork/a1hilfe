@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_wiegenimvorgang_einstellungen.htm -->
 
-<p class="just-emphasize">Steuerparameter</p>
+### Steuerparameter
 
 [Steuerparameter 267](../../../firmenstamm/steuerparameter/partiewesen/zwangs_partie_bei_saatgut_lieferungen_spa_267.md)
 

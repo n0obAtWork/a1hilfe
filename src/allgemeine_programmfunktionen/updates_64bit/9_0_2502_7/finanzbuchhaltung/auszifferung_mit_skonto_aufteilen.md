@@ -4,7 +4,7 @@
 
 Wurde in der Finanzbuchhaltung bei Buchung einer Zahlung ein Beleg zur Auszifferung ausgewählt und Skonto automatisch aufgeteilt, dann kam es bei Zeilen mit Betrag 0.00 zu einem Nullteilungsfehler. Dies ist behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 750891[38403]
 
@@ -20,6 +20,6 @@ Funktion/Report: Zahlungsverkehr Kasse/Bank
 
 [Weitere Informationen](http://www.amic.de/hilfe/belegerfassung.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.7, 38403, 750891

@@ -4,7 +4,7 @@
 
 Auf dieser Registerkarte werden die Einstellungen für die Rabatt-, Fracht- und Zu-Abschlagsgruppen vorgenommen. Hier kann eingestellt werden, ob die Gruppen des Artikels oder die des Kontraktes verwendet werden sollen. Des Weiteren besteht die Möglichkeit auch das Verhalten zu steuern, ob individuelle Gruppen gezogen werden dürfen.
 
-<p class="just-emphasize">Kontrakt-Zu-Abschlagsgruppen</p>
+#### Kontrakt-Zu-Abschlagsgruppen
 
 Hier kann eingestellt werden, ob Zu-Abschlagsgruppen bei diesem Kontrakt gezogen werden dürfen.
 
@@ -76,7 +76,7 @@ Wird eine Zu-/Abschlagsgruppe am Kontrakt eingestellt, so besteht die Möglichke
   </table>
 </div>
 
-<p class="just-emphasize">Kontrakt-Frachtgruppen</p>
+#### Kontrakt-Frachtgruppen
 
 Hier kann eingestellt werden, ob Frachtgruppen beim Kontrakt gezogen werden dürfen.
 
@@ -148,7 +148,7 @@ Wird eine Frachtgruppe ausgewählt, so kann das Verhalten für individuelle Frac
   </table>
 </div>
 
-<p class="just-emphasize">Kontrakt-Rabattgruppe</p>
+#### Kontrakt-Rabattgruppe
 
 Hier kann eingestellt werden, ob Rabattgruppen beim Kontrakt gezogen werden dürfen.
 

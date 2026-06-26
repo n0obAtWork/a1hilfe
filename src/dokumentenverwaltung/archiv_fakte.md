@@ -178,7 +178,7 @@ Bestimmte Objekte in A.eins (z.B. Vorgänge, Kunden, Artikel, u.a.) haben feste 
       </tr>
       <tr>
         <td>
-          <p>Nachreferenzieren …</p>
+          <p><strong><em>Nachreferenzieren …</em></strong></p>
         </td>
         <td>
           <p>Mit Hilfe dieser Funktion ist es möglich, selektierte Archiv-Fakte so zu bearbeiten, dass die Archiv-Referenz-Nummer nachreferenziert wird, falls keine angegeben ist.</p>

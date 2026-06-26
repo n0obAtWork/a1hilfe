@@ -18,7 +18,7 @@ Folgende Steuerparameter müssen eingerichtet werden
 
 Folgende [Scancodes](./beispiel_scancodes_fuer_die_inventur.md) müssen ausgedruckt auswerden.
 
-<p class="just-emphasize">Ablauf der Inventur</p>
+#### Ablauf der Inventur
 
 Um die Daten für die Inventur aufzunehmen muss als erstes der Scancode IV mit dem Scanner erfasst werden. Der Scancode IV startet nicht die Inventur, sondern nur den Erfassungsblock. Es ist zu empfehlen, pro Regal ein Erfassungsblock zu starten. Wird der Scancode IV während eines offenen Blockes ein zweites Mal gescannt, so kommt die Meldung, dass es noch eine offene Inventurerfassung gibt. Jetzt hat man zwei Möglichkeiten, entweder es werden weitere Inventurdaten erfasst, oder mit nochmaligen Scannen des Scancodes werden alle erfassten Daten im [Vorgangsimport](../../../../vorgangsabwicklung/vorgangsimport/vorgangsimport_mit_opentrans/zeitgesteuerter_importprozess.md) auf gelöscht gesetzt, und ein neuer Inventurblock wird gestartet.
 
@@ -34,7 +34,7 @@ Um eine Erfassungsblock für die Inventur abzuschließen, muss dieser mit dem Sc
 
 Jeweils ein Erfassungsblock bekommt in der Vorgangsimport Schnittstelle eine eigenständige ÜbernahmeId, diese hat nach der Erfassung den Status 2 (Bereit).
 
-<p class="just-emphasize">Einspielen der Inventur</p>
+#### Einspielen der Inventur
 
 Wurden alle Inventurdaten mit den Scannern erfasst, so können diese jetzt in die offene Inventur eingespielt werden. Bevor die Daten eingespielt werden, muss die [Inventur](../../../../abschluesse_inventur/inventur/index.md) eingerichtet und eröffnet sein.
 

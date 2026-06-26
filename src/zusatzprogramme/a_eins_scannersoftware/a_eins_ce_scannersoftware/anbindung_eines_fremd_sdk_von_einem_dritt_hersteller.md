@@ -6,7 +6,7 @@ Es wurde die Möglichkeit geschaffen, einen anderen Scannerhersteller mit der So
 
 Hierbei muss nur beachtet werden, dass für das Betriebssystem Windows CE die Version A.eins.CE benutzt wird und für die Windows Mobile Version die Software A.eins.WM.
 
-<p class="just-emphasize">Erstellen einer DLL zur Anbindung eines Scanners</p>
+### Erstellen einer DLL zur Anbindung eines Scanners
 
 Voraussetzungen
 
@@ -44,9 +44,9 @@ Vorgangsweise:
 
 2. Rechte Maustaste auf „Verweise“ und „Verweis hinzufügen“ auswählen
 
-2.1. Jetzt kann auf der Registerkarte „Durchsuchen“ nach der IScannerHardware gesucht werden. Mit OK wird der Verweis hinzugefügt
+   2.1. Jetzt kann auf der Registerkarte „Durchsuchen“ nach der IScannerHardware gesucht werden. Mit OK wird der Verweis hinzugefügt
 
-2.2. Die DLLs des SDK sollten sich nach der Installation im Global Assembly Cache befinden. Der Global Assembly Cache kann auf der Registerkarte .Net durchsuchen werden. Sind dort die DLLs des Gerätherstellers nicht zu finden kann auf der Registerkarte Durchsuchen nach den DLLs gesucht werden. Meistens befinden sich die benötigten DLLs sich im Installationsverzeichnis des Gerätherstellers. Nach dem auch dieser Verweis hinzugefügt worden ist müssen jetzt using Anweisung in der Source angepasst werden.
+   2.2. Die DLLs des SDK sollten sich nach der Installation im Global Assembly Cache befinden. Der Global Assembly Cache kann auf der Registerkarte .Net durchsuchen werden. Sind dort die DLLs des Gerätherstellers nicht zu finden kann auf der Registerkarte Durchsuchen nach den DLLs gesucht werden. Meistens befinden sich die benötigten DLLs sich im Installationsverzeichnis des Gerätherstellers. Nach dem auch dieser Verweis hinzugefügt worden ist müssen jetzt using Anweisung in der Source angepasst werden.
 
 ![](../../../ImagesExt/image8_1405.jpg)
 
@@ -292,4 +292,4 @@ Die kann mehrere Ursachen haben.
 
 3. Wenn der Ordner Hardwaredll existiert und die DLL befindet sich in diesem Ordner befindet, ist wahrscheinlich eine falsche DLL in der Scannerconfig.xml hinterlegt.
 
-Lösung: Löschen Sie die scannerconfig.xml aus dem Verzeichnis in dem das A.eins.CE / WM liegt. Diese Datei wird neu geschrieben sobald diese nicht in dem Verzeichnis liegt. Das Programm sucht sich die Passende DLL aus dem Ordner Hardwaredll. Sind in dem Ordner mehr als eine DLL Hinterlegt, so kann die richtige per Auswahl ausgewählt werden.
+   Lösung: Löschen Sie die scannerconfig.xml aus dem Verzeichnis in dem das A.eins.CE / WM liegt. Diese Datei wird neu geschrieben sobald diese nicht in dem Verzeichnis liegt. Das Programm sucht sich die Passende DLL aus dem Ordner Hardwaredll. Sind in dem Ordner mehr als eine DLL Hinterlegt, so kann die richtige per Auswahl ausgewählt werden.

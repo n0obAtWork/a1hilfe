@@ -6,7 +6,7 @@ Diese Kapitel beschreibt die Einrichtung des Signature Pads an einer Workstation
 
 Voraussetzungen und benötigte Software siehe Kapitel [Signature Pad einrichten](./index.md).
 
-<p class="just-emphasize">Einrichtung der Treiber auf der Workstation:</p>
+#### Einrichtung der Treiber auf der Workstation:
 
 1. Signature Pad an einen freien USB-Steckplatz anschließen.
 
@@ -16,7 +16,7 @@ Voraussetzungen und benötigte Software siehe Kapitel [Signature Pad einrichten]
 
 4. Nach Abschluss der Installation erscheint das Logo von Signotec auf dem Display des Signatur Pads.
 
-<p class="just-emphasize">Einrichten der Remotedesktopverbindung:</p>
+#### Einrichten der Remotedesktopverbindung:
 
 1. Dialog für „Remotedesktopverbindung“ öffnen.
 
@@ -38,7 +38,7 @@ Voraussetzungen und benötigte Software siehe Kapitel [Signature Pad einrichten]
 
 10\. Am Remoterechner anmelden.
 
-<p class="just-emphasize">Einrichtung der Werkzeug-Software auf dem Remoteserver:</p>
+#### Einrichtung der Werkzeug-Software auf dem Remoteserver:
 
 1. Setup-Datei der Werkzeug-Software ausführen.
 
@@ -54,7 +54,7 @@ Voraussetzungen und benötigte Software siehe Kapitel [Signature Pad einrichten]
 
 7. Treiber „Signotec_WinUSB_64Bit“ + „Signotec_HID_64Bit“ nicht installieren.
 
-<p class="just-emphasize">Einrichtung der Software „SignoSign/2“ auf dem Remoteserver:</p>
+#### Einrichtung der Software „SignoSign/2“ auf dem Remoteserver:
 
 1. Setup-Datei der Software „SignoSign/2“ ausführen.
 
@@ -104,7 +104,7 @@ Voraussetzungen und benötigte Software siehe Kapitel [Signature Pad einrichten]
 
 24. Das Programm „SignoSign/2“ beenden.
 
-<p class="just-emphasize">Erstellung der allgemeinen Dokumententypvorlage auf dem Remoteserver:</p>
+#### Erstellung der allgemeinen Dokumententypvorlage auf dem Remoteserver:
 
 1. Das Programm „SignoSign/2“ starten.
 
@@ -154,7 +154,7 @@ Alternativ können auch die Werte im Abschnitt „Absolute Positionierung“ ge�
 
 23. Das Programm „SignoSign/2“ beenden.
 
-<p class="just-emphasize">Signiertes Dokument automatisch drucken (Optional)</p>
+#### Signiertes Dokument automatisch drucken (Optional)
 
 1. Das Programm „SignoSign/2“ starten.
 
@@ -190,7 +190,7 @@ Alternativ können auch die Werte im Abschnitt „Absolute Positionierung“ ge�
 
 17. Das Programm „SignoSign/2“ beenden.
 
-<p class="just-emphasize">Allgemeine Einrichtung auf dem Remoteserver:</p>
+#### Allgemeine Einrichtung auf dem Remoteserver:
 
 1. Aeins starten.
 

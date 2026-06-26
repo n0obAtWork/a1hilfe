@@ -4,7 +4,7 @@
 
 Es wurde das Problem behoben das beim Merge von PDF-Dateien im Archiv leere Seiten generiert wurden.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 740832[36109]
 
@@ -20,6 +20,6 @@ Funktion/Report: JPP JFA_PdfMerge
 
 [Weitere Informationen](http://www.amic.de/hilfe/http:/www.amic.de/hilfe)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.8, 36109, 740832

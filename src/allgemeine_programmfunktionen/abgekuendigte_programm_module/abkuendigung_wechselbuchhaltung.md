@@ -4,6 +4,6 @@
 
 Schon vor vielen Jahren verloren mit Wegfall der Refinanzierungsmöglichkeit bei Banken Wechsel ihre Bedeutung. Mit der 64-Bit Version wird die Wechselbuchhaltung ersatzlos gestrichen.
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Abkündigung

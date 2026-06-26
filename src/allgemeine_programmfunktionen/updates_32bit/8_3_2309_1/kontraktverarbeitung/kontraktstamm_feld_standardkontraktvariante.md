@@ -4,7 +4,7 @@
 
 Bei einzeln oder mehrfach markierten Kontrakten ist das Feld Standardkontraktvariante immer gegen Änderung geschützt. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 724465[34005]
 
@@ -20,6 +20,6 @@ Funktion/Report: F5
 
 [Weitere Informationen](http://www.amic.de/hilfe/_stammdatenKontrakt.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 34005, 724465

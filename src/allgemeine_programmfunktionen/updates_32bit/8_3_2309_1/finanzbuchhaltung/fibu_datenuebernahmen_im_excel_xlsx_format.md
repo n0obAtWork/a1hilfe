@@ -4,7 +4,7 @@
 
 Für die Datenübernahme [DUEB] wurde eine Möglichkeit geschaffen Daten im Excel XLSX-Format (\*.xslx) in die Finanzbuchhaltung zu importieren.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 726193[34139]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/fibuxlsximport.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 34139, 726193

@@ -4,7 +4,7 @@
 
 Wird der Kundentyp gewechselt (z.B. von Debitor zu Kontokorrent, so ist dafür erforderlich, dass die gleichen Zählkreise für diese Kundentypen eingerichtet sind, oder noch keine Belege für den Kunden erfasst worden sind. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 737497[35813]
 
@@ -20,6 +20,6 @@ Funktion/Report: Editieren
 
 [Weitere Informationen](http://www.amic.de/hilfe/_hauptmaske.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 35813, 737497

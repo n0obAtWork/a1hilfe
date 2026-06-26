@@ -4,7 +4,7 @@
 
 Mit „Warningfunction“ ist ein individuell designbares System entstanden, welches es ermöglicht auf der [neuen Auswahlliste](../auswahlliste_2_0/datentabelle.md#Warnung) ein Symbol im Hintergrund einzublenden, wenn gewisse Bedingungen erfüllt sind. Hier soll eine Beispieleinrichtung dargestellt werden.
 
-<p class="just-emphasize">Einstufige-Version</p>
+### Einstufige-Version
 
 Man kann eine Prüffunktion direkt an eine Auswahlliste hängen. Dies ermöglicht das direkte Abprüfen eines Kriteriums.
 
@@ -23,7 +23,7 @@ Beispiel:
 
 In der Anwendung „Fehlerprotokoll“ Variante „Benutzerhinweis“ ist die Funktion „AuswahllisteWarnung“ hinterlegt. Diese prüft ab, ob ein Fehlerprotokolleintrag existiert. Es wird empfohlen diese als Vorlage zu nutzen.
 
-<p class="just-emphasize">Zweistufige-Version</p>
+### Zweistufige-Version
 
 Im Gegensatz zu der einstufigen Version hat man hier die Möglichkeit ein Verhalten bzw. einen Zustand zu fest definierten Zeitpunkten zu überprüfen. Schlägt die Überprüfung fehl, so wird der Benutzer durch den Hinweis bei der entsprechenden Auswahlliste aufmerksam gemacht. Dabei wird außerdem wird eine Meldung im Fehlerprotokoll erzeugt, welche genauere Informationen über die Art des Hinweises enthält.
 

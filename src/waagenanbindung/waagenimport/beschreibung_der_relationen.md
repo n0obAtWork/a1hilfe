@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/beschreibungderrelationen.htm -->
 
-Relation ScriptParam
+**Relation ScriptParam**
 
 ScriptParam ist die Kopfrelation, die eine ganze Gruppe von Parameter unter einer Id zusammenhält. In der Relation ScriptParamPar sind die Details, also die einzelnen Parameter selbst abgelegt.
 
@@ -34,7 +34,7 @@ ScriptSystem
 
 System-Flag. 0: nicht gesetzt, 1: gesetzt: Die Bearbeitungshoheit für derartige Parametersätze liegt allein im Hause AMIC. Bei einem Update werden alle Datensätze mit ScriptSystem =1 gelöscht und neu angelegt.
 
-Relation ScriptParamPar
+**Relation ScriptParamPar**
 
 ScriptParamPar ist die Detailrelation, die durch das Attribut ScriptPId per FOREIGN KEY an die Relation ScriptParam gebunden ist.
 

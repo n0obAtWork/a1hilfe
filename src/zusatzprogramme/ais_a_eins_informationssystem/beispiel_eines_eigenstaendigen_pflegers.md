@@ -10,7 +10,7 @@ Es soll diese einfache Maske zur Erfassung von Beladeort, Container und Menge er
 
 ![](../../ImagesExt/image8_1047.jpg)
 
-<p class="just-emphasize">Anlegen des Labels</p>
+#### Anlegen des Labels
 
 Im A.eins Informationssystem legt man sich einen neuen Eintrag (**F8**) an. Zuerst muss die Gruppe angegeben werden, in diesem Beispiel soll sie „Aeinszusatz3“ heißen. Hat man bereits ein oder mehrere Felder zu einer Gruppe erfasst, kann man die Gruppe hier mit **F3** auswählen. Die Felder „***Makro***“, „***Ändern Vorlauf***“ und „***Einfügen Vorlauf***“ werden dann vorbelegt. Sie können in diesem Fall leer bleiben.
 
@@ -42,7 +42,7 @@ Hier eine kurze Aufstellung der variablen Werte für die anderen Label .
 | Lbl.Container | 8 | 1 | 16 | Container/Kessel |
 | Lbl.Menge | 10 | 1 | 15 | Menge |
 
-<p class="just-emphasize">Anlegen von Eingabefeldern (Singelline Text) vom Typ Datum</p>
+#### Anlegen von Eingabefeldern (Singelline Text) vom Typ Datum
 
 **Register Feldbeschreibung:**
 
@@ -75,7 +75,7 @@ In diesem Beispiel sind nur zwei Felder wichtig:
 | Ident Feld<br> | Hier muss der Name des eindeutigen Schlüssels der Relation hinterlegt werden. Bei den Relationen Aeinszusatz1 bis Aeinszusatz5 heißt dieses Feld Ident.<br> |
 | Refresh | Bei Herkunftstyp **SQL** kann man einstellen, dass beim Wiedereinstieg in die Maske aus einer überlagernden Maske die Daten erneut geladen werden. Diese Funktion kann auch direkt z.B. vom Makro aus angestoßen werden. Der Aufruf lautet: dbx_io („AISREFRESH“) und es werden dann alle Daten zu den Feldern, die mit Refresh = **Ja** belegt sind neu geladen. Wird ein Refresh ausgeführt, so wird auch die Pascalfunktion, die nach dem Laden der Daten aufgerufen wird, erneut ausgeführt.<br> |
 
-<p class="just-emphasize">Anlegen von Eingabefeldern (Singelline Text) mit Itembox</p>
+#### Anlegen von Eingabefeldern (Singelline Text) mit Itembox
 
 Das Feld **LKW** soll nur mit den Daten aus der Relation LKW_STAMM gefüllt werden dürfen. Dafür sind dann auf dem Register „Eingabeprüfung“ einige Einstellungen vorzunehmen.
 
@@ -121,7 +121,7 @@ Hier eine kurze Aufstellung der variablen Werte für die anderen Singelline-Text
 | Container | Character | 8 | 21 | 30 | Ja | Relation AeinsZusatz3 Identfeld Ident |
 | Menge | Numeric (2 Nachkomma) | 10 | 21 | 15 | Ja | Relation AeinsZusatz3 Identfeld Ident |
 
-<p class="just-emphasize">Zugriff auf die Notizbücher aus KUI</p>
+#### Zugriff auf die Notizbücher aus KUI
 
 Bei den Notizbüchern aus KUI handelt es sich um Textseiten, die gepflegt werden konnten. AIS bietet natürlich auch die Möglichkeit, auf diese Daten weiterhin zuzugreifen.
 

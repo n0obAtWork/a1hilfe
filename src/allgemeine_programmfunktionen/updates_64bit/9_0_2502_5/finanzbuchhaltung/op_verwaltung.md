@@ -4,7 +4,7 @@
 
 In der OP-Verwaltung [OPV] existiert ein Bereich, in dem Kundeninformation angezeigt wurde. Wenn aus Versehen in der untersten Zeile dieses Bereichs ein Doppelklick ausgeführt wurde, wurden alle Zeilen nach oben verschoben. Das geschieht nun nicht mehr.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 742742[36710]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/formularfibuinfofenster.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 36710, 742742

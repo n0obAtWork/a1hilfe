@@ -4,7 +4,7 @@
 
 Dieser Pfleger dient zur Änderung und Erstellung von Bedienern
 
-<p class="just-emphasize">Kopfdaten:</p>
+### Kopfdaten:
 
 <div class="table-wrapper">
   <table>
@@ -45,7 +45,7 @@ Dieser Pfleger dient zur Änderung und Erstellung von Bedienern
   </table>
 </div>
 
-<p class="just-emphasize">Register:</p>
+### Register:
 
 <details>
 <summary>Allgemein</summary>
@@ -472,7 +472,7 @@ In diesem Register können Ausnahmen für die Ansicht einer spezifischen Auswahl
 
  
 
-<p class="just-emphasize">Funktion:</p>
+### Funktion:
 
 <details>
 <summary>Bedienerstamm Pfleger Funktionen</summary>
@@ -489,7 +489,7 @@ In diesem Register können Ausnahmen für die Ansicht einer spezifischen Auswahl
 
 </details>
 
-###### Kundenindividuelle SQL Anpassung
+### Kundenindividuelle SQL Anpassung
 
 Hauptmenü > Administration > Firmenkonstanten > Bediener
 
@@ -507,7 +507,7 @@ Beim Bestätigen des Löschens wird man immer gefragt, ob man die Variable auch 
 
 Die Vorbelegung dieser Variablen für einen Bediener bewirkt eine Eingrenzung von SQL Texten wie z.B. Itemboxen oder Auswahllisten oder eine Vorbelegung bei der Neuanlage eines Vorganges.
 
-<p class="just-emphasize">Die bisher möglichen Variablen:</p>
+### Die bisher möglichen Variablen:
 
 Wo diese Variablen aktuell eingesetzt werden, kann man z.B. mit Hilfe von OSQL überprüfen. Es ist möglich, dass sich der Einsatz der Variablen im Laufe der Zeit erweitert. Hier wird der zurzeit aktuelle Stand dargestellt.
 

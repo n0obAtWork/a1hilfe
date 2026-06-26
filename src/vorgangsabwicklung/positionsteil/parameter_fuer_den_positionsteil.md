@@ -6,7 +6,7 @@ Auch die Abläufe der Erfassung werden entscheidend durch die Einstellung der Er
 
 ![](../../ImagesExt/image8_207.jpg)
 
-<p class="just-emphasize">Sortierreihenfolge beim Sortieren</p>
+### Sortierreihenfolge beim Sortieren
 
 Hier kann eingestellt werden, ob und wie die Positionen eines Vorganges beim Abschluss automatisch neu sortiert werden sollen. Folgende Möglichkeiten bestehen:
 
@@ -14,10 +14,10 @@ Hier kann eingestellt werden, ob und wie die Positionen eines Vorganges beim Abs
 
 Ein entsprechend sortierter Lieferschein kann z.B. für die Lagerentnahme hilfreich sein.
 
-<p class="just-emphasize">Ordersatzauswahl auch bei einem Ordersatz</p>
+### Ordersatzauswahl auch bei einem Ordersatz
 
 Wenn für den Kunden nur ein Ordersatz vorliegt, kann die Auswahl über eine Liste nur sinnvoll sein, wenn man auf die Liste anderer Kunden oder einen Standardordersatz zugreifen will. Ist dies nicht der Fall, entfällt dieser Schritt und der eine Ordersatz wird direkt gezogen.
 
-<p class="just-emphasize">Zeilenanzahl der Positionsanzeige</p>
+### Zeilenanzahl der Positionsanzeige
 
 Hier kann eingestellt werden, wie viele erfasste Positionszeilen angezeigt werden sollen.

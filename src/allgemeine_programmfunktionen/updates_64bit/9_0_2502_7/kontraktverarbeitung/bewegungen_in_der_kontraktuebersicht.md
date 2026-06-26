@@ -4,7 +4,7 @@
 
 Ein Fehler in der Bewegungsübersicht (aufrufbar über die Kontaktmaske), bei dem die Summen der Lieferwerte und Liefermengen nicht korrekt dargestellt wurden, wurde behoben. Die Anzeige erfolgt nun wieder korrekt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 751148[38497]
 
@@ -20,6 +20,6 @@ Funktion/Report: Ändern
 
 [Weitere Informationen](http://www.amic.de/hilfe/_kontraktstammdaten.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.7, 38497, 751148

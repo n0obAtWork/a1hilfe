@@ -4,7 +4,7 @@
 
 Zur Sicherstellung der Eindeutigkeit der automatisch generierten Paginiernummer bei der Erfassung eines FiBu-Vorgangs wird diese nun um die FibuV_ID ergänzt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 746311[37672]
 
@@ -20,6 +20,6 @@ Funktion/Report: Eingangsrechnung
 
 [Weitere Informationen](http://www.amic.de/hilfe/belegerfassung.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 37672, 746311

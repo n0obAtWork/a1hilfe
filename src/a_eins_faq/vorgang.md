@@ -5,7 +5,7 @@
 <details>
 <summary>Frage: In der Rechnungsbearbeitung [REB] fehlt eine Belegnummer. Was ist mit dieser Rechnung?</summary>
 
-<p class="just-emphasize">Antwort:</p>
+#### Antwort:
 
 Wenn in einer Auswahlliste ein Beleg nicht wie erwartet angezeigt wird, kann es mehrere Gründe geben. Prüfen Sie als erstes die Auswahlbedingungen im F2-Filter. Vielleicht wurde hier eine unzutreffende Eingrenzung vorgenommen.  
 Eine andere Möglichkeit ist, dass der Beleg über die Funktion „Stornieren“ (F7) aus dem System entfernt worden ist. Unter dem Direktsprung STOPO (Stornoprotokoll) sind die Belegnummern und weitere Eckdaten aufgeführt. Der Beleg ist dann nicht mehr existent und aufrufbar. Die Einstellung des Steuerparameters [SPA] Nr. 490 „Storno-Belegnummern wieder reaktivieren“ auf den Wert „Nein“ verhindert die erneute Vergabe der Belegnummer.
@@ -15,7 +15,7 @@ Eine andere Möglichkeit ist, dass der Beleg über die Funktion „Stornieren“
 <details>
 <summary>Frage: Beim Erfassen von Eingangsrechnungen ist bei uns für den Administrator „Zeilen-Zu-/Abschlag“ freigeschaltet. Der normale Bediener sieht diese Zeile in der Option Box unten links nicht. Wo kann ich für Normalbediener alle Funktionen in der Option Box freischalten?</summary>
 
-<p class="just-emphasize">Antwort:</p>
+#### Antwort:
 
 Die Berechtigungen für Funktionen in Option Boxes kann man ändern, wenn man als Administrator in der betreffenden Option Box auf den untersten Eintrag navigiert: „Dieses Menü“.
 
@@ -36,7 +36,7 @@ Weitere Informationen: [Rollenstamm](../firmenstamm/firmenkonstanten/zuordnung_v
 <details>
 <summary>Frage: Was passiert mit dem Lieferschein, wenn man eine Rechnung storniert (bzw. löscht) mit F7?</summary>
 
-<p class="just-emphasize">Antwort:</p>
+#### Antwort:
 
 Nach dem Löschen einer Rechnung in der Rechnungsbearbeitung mit der Funktion „Stornieren“ F7 kann sich der zugehörige Lieferschein unterschiedlich verhalten in Abhängigkeit davon, ob es sich um eine Teilumwandlung oder eine (komplette) Umwandlung handelt und bei letzterer je nach Einstellung im Steuerparameter 987.
 
@@ -57,7 +57,7 @@ Ergänzung: Wie hier für Rechnung und Lieferschein beschrieben, verhält es sic
 <details>
 <summary>Frage: Wie richte ich einen TSE-QRCode ein?</summary>
 
-<p class="just-emphasize">Antwort:</p>
+#### Antwort:
 
 Voraussetzungen:
 
@@ -81,7 +81,7 @@ Als letztes muss das Formular lediglich hinzugefügt werden:
 <details>
 <summary>Frage: Wie richte ich einen EPC-QRCode ein?</summary>
 
-<p class="just-emphasize">Antwort:</p>
+#### Antwort:
 
 Voraussetzungen:
 
@@ -103,7 +103,7 @@ Als letztes muss das Formular lediglich hinzugefügt werden:
 <details>
 <summary>Frage: In der Rechnungsbearbeitung [REB] wird für einen Beleg „Datenvorbereitung fehlerhaft“ angezeigt. Was ist der Fehler?</summary>
 
-<p class="just-emphasize">Antwort:</p>
+#### Antwort:
 
 Die Meldung „Datenvorbereitung fehlerhaft“ weist darauf hin, dass das System keine Mailadresse ermitteln kann. Die Mailadresse wird aus der im Vorgang gespeicherten AdressID gezogen. Wenn Sie den SPA 574 auf „Hauptanschrift archivieren“ stehen haben, wie dies üblicherweise der Fall ist, dann wird bei Änderungen an der Hauptanschrift diese nicht einfach überschrieben, sondern die alte erhalten und eine neue AdressID vergeben. Im Vorgang können Sie über „Hauptanschrift aktualisieren“ die alten Daten mit den neuen Daten aus dem Anschriftenstamm überspeichern.
 
@@ -112,7 +112,7 @@ Die Meldung „Datenvorbereitung fehlerhaft“ weist darauf hin, dass das System
 <details>
 <summary>Frage: Wie verändere ich das Verhalten von Sammelumwandlungen von Bestellungen zu Eingangslieferscheinen und Eingangsrechnungen?</summary>
 
-<p class="just-emphasize">Antwort:</p>
+#### Antwort:
 
 Man muss bei **[SPA]** mindestens einen Trennungssteuerparameter (90-96) auf „Trennen“ setzen. Falls das betroffenen Feld bei **[BSB]** Bestellungen fehlt, muss man dieses unter **[UFLD]** einrichten. Je nach Sammelumwandlung muss der Steuerparameter 1137 oder 1138 auf „Mit Trennung“ gesetzt werden. Die Funktion ***Sammel-EL aus Best.*** läuft über den SPA 1137 und ***Sammel-EK aus Best.*** über den SPA 1138. Durch das Setzen auf „Mit Trennung“ werden aus mehreren Bestellungen ein Zieldokument(Eingangslieferschein, Eingangsrechnung) erstellt.
 

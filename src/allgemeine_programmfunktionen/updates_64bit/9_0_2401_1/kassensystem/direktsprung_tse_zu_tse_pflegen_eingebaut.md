@@ -4,7 +4,7 @@
 
 Direktsprung [TSE] zu der Auswahlliste "TSE Pflegen" unter dem Menüpunkt "Barvorgänge" eingebaut. Dokumentation bei Kassensicherungsverordnung -> Schritt für Schritt Anleitung -> 2.2 und bei TSE-Auswahlliste entsprechend erweitert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 732642[34949]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_tseauswhalliste.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.1, 34949, 732642

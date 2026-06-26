@@ -4,7 +4,7 @@
 
 Für die Datenübernahme [DUEB] wurde eine Möglichkeit geschaffen Daten im Excel CSV-Format (\*.csv) in die Finanzbuchhaltung zu importieren.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 0[34140]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/fibucsvimport.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 34140, 0

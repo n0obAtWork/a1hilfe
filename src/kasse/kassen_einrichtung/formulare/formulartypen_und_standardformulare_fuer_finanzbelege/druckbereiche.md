@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/druckbereiche.htm -->
 
-###### Druckbereich 820 / Kassenkopf
+### Druckbereich 820 / Kassenkopf
 
 <div class="table-wrapper">
   <table>
@@ -373,7 +373,7 @@
   </table>
 </div>
 
-###### Druckbereich 822 / Kasse Positionen
+### Druckbereich 822 / Kasse Positionen
 
 | Variablenname | Druckposition | Bedeutung |
 | --- | --- | --- |
@@ -391,7 +391,7 @@ Hinweis: die oben aufgeführten Druckpositionen können wahlweise im Kopf oder i
 
 Alle weiteren Druckpositionen dieses Bereiches sind Belegart-spezifisch und in der Beschreibung der jeweiligen Basisformulare aufgelistet.
 
-###### Druckbereich 823 / Kasse Zahlungen
+### Druckbereich 823 / Kasse Zahlungen
 
 | Variablenname | Druckposition | Bedeutung |
 | --- | --- | --- |
@@ -408,7 +408,7 @@ Alle weiteren Druckpositionen dieses Bereiches sind Belegart-spezifisch und in d
 | ZamiSitzung | 4 ZahlVariable<br>6389 | Zugehörige Sitzung, in deren Verlauf des Zahlungsmittel vereinnahmt wurde |
 | ZamiBelegNr | 4 ZahlVariable<br>6387 | Nummer des Belegs, der mit diesem Zahlungsmittel beglichen wurde |
 
-###### Druckbereich 824 / Kasse Zahlungsmittel
+### Druckbereich 824 / Kasse Zahlungsmittel
 
 Mittels des Druckbereichs 824 wird die Möglichkeit gegeben, eine Zusatzzeile zu 823 zu drucken. Wird z.B. in 823 der Zahlungsweg EC ausgewiesen, so kann speziell zu diesem Zahlungsweg auch die Bankverbindung gedruckt werden. 824 wird unterdrückt, wenn BLZ, Kontonummer und ZamiNummer alle leer sind (also z.B. bei Barzahlungen oder EC Zahlungen am Bezahlterminal).
 
@@ -427,15 +427,15 @@ Mittels des Druckbereichs 824 wird die Möglichkeit gegeben, eine Zusatzzeile zu
 | ZamiSitzung | 4 ZahlVariable<br>6389 | Zugehörige Sitzung, in deren Verlauf des Zahlungsmittel vereinnahmt wurde |
 | ZamiBelegNr | 4 ZahlVariable<br>6387 | Nummer des Belegs, der mit diesem Zahlungsmittel beglichen wurde |
 
-###### Druckbereich 828 / Trennbereich zwischen Kopf und Positionsteil
+### Druckbereich 828 / Trennbereich zwischen Kopf und Positionsteil
 
 Derzeit keine besonderen Druckpositionen vorgesehen. Der Trennbereich kann zur optischen Abgrenzung des Kopfes gegen den Positionsteil verwendet werden.
 
-###### Druckbereich 829 / Trennbereich zwischen Positionsteil und Zahlungswegen
+### Druckbereich 829 / Trennbereich zwischen Positionsteil und Zahlungswegen
 
 Derzeit keine besonderen Druckpositionen vorgesehen. Der Trennbereich kann zur optischen Abgrenzung des Positionsteils gegen die anschließend zu druckenden Zahlungswege eingesetzt werden.
 
-###### Druckbereich 850 / Kassensturz - Stückelung
+### Druckbereich 850 / Kassensturz - Stückelung
 
 <div class="table-wrapper">
   <table>
@@ -512,7 +512,7 @@ Derzeit keine besonderen Druckpositionen vorgesehen. Der Trennbereich kann zur o
   </table>
 </div>
 
-###### Druckbereich 851 / Kassensturz - Bareingänge
+### Druckbereich 851 / Kassensturz - Bareingänge
 
 Bargeldeingänge verdichtet nach Zahlungsarten und Währungen
 
@@ -579,7 +579,7 @@ Bargeldeingänge verdichtet nach Zahlungsarten und Währungen
   </table>
 </div>
 
-###### Druckbereich 852 / Kassensturz - Zahlungsmitteleingänge
+### Druckbereich 852 / Kassensturz - Zahlungsmitteleingänge
 
 Unbare Eingänge verdichtet nach Zahlungsarten und Währungen
 
@@ -648,7 +648,7 @@ Bereich 852 druckt je nach SPA-Einstellung (Kasse/Barverkauf: Druck der Zamis be
   </table>
 </div>
 
-###### Druckbereich 853 / Kassensturz - Barausgänge
+### Druckbereich 853 / Kassensturz - Barausgänge
 
 Bargeldausgänge verdichtet nach Zahlungsarten und Währungen
 
@@ -715,7 +715,7 @@ Bargeldausgänge verdichtet nach Zahlungsarten und Währungen
   </table>
 </div>
 
-###### Druckbereich 854 / Kassensturz - Zahlungsmittelausgänge
+### Druckbereich 854 / Kassensturz - Zahlungsmittelausgänge
 
 Unbare Ausgänge verdichtet nach Zahlungsarten und Währungen
 
@@ -784,7 +784,7 @@ Bereich 854 druckt je nach SPA-Einstellung (Kasse/Barverkauf: Druck der Zamis be
   </table>
 </div>
 
-###### Druckbereich 855 / Kassensturz - Stornobeträge
+### Druckbereich 855 / Kassensturz - Stornobeträge
 
 Gesamtsummen von Stornobeträgen im Ein- und Ausgang
 
@@ -863,7 +863,7 @@ Gesamtsummen von Stornobeträgen im Ein- und Ausgang
   </table>
 </div>
 
-###### Druckbereich 856 / Kassensturz - Zählungssumme
+### Druckbereich 856 / Kassensturz - Zählungssumme
 
 <div class="table-wrapper">
   <table>
@@ -928,7 +928,7 @@ Gesamtsummen von Stornobeträgen im Ein- und Ausgang
   </table>
 </div>
 
-###### Druckbereich 859 / Kassensturz - Einleitung Unterbericht
+### Druckbereich 859 / Kassensturz - Einleitung Unterbericht
 
 Jeder Unterbericht zum Zählbericht (etwa Auflistung der Zahlungsmittel) kann im Formular mit optisch durch einen Einleitungsbereich aufbereitet werden und mit einer Überschrift versehen werden.
 
@@ -971,7 +971,7 @@ Jeder Unterbericht zum Zählbericht (etwa Auflistung der Zahlungsmittel) kann im
   </table>
 </div>
 
-###### Druckbereich 860 / Kassenfuß
+### Druckbereich 860 / Kassenfuß
 
 <div class="table-wrapper">
   <table>

@@ -4,7 +4,7 @@
 
 Bei den Hausbanken [BNKH] gibt es einen neuen Bereich namens "eRechnung", in welchem ausgewählt werden kann, ob diese Hausbank in eRechnungen verwendet werden soll.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 741942[36085]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/hausbanken.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 36085, 741942

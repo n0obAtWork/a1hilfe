@@ -57,7 +57,7 @@ Um die TSE als Netzwerklaufwerk einzurichten, muss man dies in Windows zuerst ko
 
 <strong>3.</strong> Auf **Netzwerklaufwerk verbinden klicken.**
 
-Das Einrichtungsfenster öffnet sich.  
+   Das Einrichtungsfenster öffnet sich.  
 ![](../../../ImagesExt/image8_476.png)  
     
 

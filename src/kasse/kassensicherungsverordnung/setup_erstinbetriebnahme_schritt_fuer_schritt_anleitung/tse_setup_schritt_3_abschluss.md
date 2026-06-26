@@ -24,7 +24,7 @@ Zu Hauptmenü > Barvorgänge > Stammdaten > Kassenverwaltung navigieren.
 
 Die Kasse kann jetzt wie gewohnt eröffnet werden.
 
-<p class="just-emphasize">Hinweis:</p>
+**Hinweis:**
 
 Beachten Sie, dass wir bis jetzt keine parallele Nutzung, von mehreren Clients auf einer TSE, supporten.
 

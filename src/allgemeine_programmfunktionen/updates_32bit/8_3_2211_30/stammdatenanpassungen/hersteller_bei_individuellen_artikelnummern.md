@@ -4,7 +4,7 @@
 
 In der Anwendung Artikelstamm Variante "Individuelle Artikelnummern" werden jetzt die Hersteller korrekt angezeigt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 715634[33083]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_artiindivnummer.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2211.30, 33083, 715634

@@ -4,7 +4,7 @@
 
 Die Funktion "Verpostung per Outlook" stand in der Rechnungsbearbeitung [REB] zur Verfügung. Diese Funktion wurde abgekündigt und in diesem Release aus A.eins entfernt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 724679[33976]
 
@@ -20,6 +20,6 @@ Funktion/Report: Verpostung per Outlook
 
 [Weitere Informationen](http://www.amic.de/hilfe/-)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 33976, 724679

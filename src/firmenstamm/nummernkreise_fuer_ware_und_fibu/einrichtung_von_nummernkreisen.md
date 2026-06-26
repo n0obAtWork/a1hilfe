@@ -19,7 +19,7 @@ Hauptmenü > Administration > Nummernkreise > Nummernkreise
 
 oder Direktsprung **[NKS]**
 
-<p class="just-emphasize">Kopfdaten</p>
+#### Kopfdaten
 
 | **Feld** | **Beschreibung** |
 | --- | --- |
@@ -28,7 +28,7 @@ oder Direktsprung **[NKS]**
 | Nur für Journal | Kennzeichen, ob es sich um ein Nummernkreis handelt, der nur für das Journal verwendet werden soll.<br>Der Standardwert ist „Nein“.<br> |
 | Nur für FiBu | Kennzeichen, ob es sich um ein Nummernkreis handelt, der nur für die FiBu verwendet werden soll.<br>Der Standardwert ist „Nein“.<br> |
 
-<p class="just-emphasize">Datentabelle</p>
+#### Datentabelle
 
 Über die Datentabelle können Zählkreise zu einen Nummernkreis zugeordnet werden. Des Weiteren besteht die Möglichkeit hier direkt neue Zählkreise anzulegen.
 
@@ -66,7 +66,7 @@ oder Direktsprung **[NKZ]**
 | --- | --- |
 | Zählkreis | Hier wird eine eindeutige Nummer für den Zählkreis festgelegt. Neben der Nummer kann hier eine Bezeichnung für den Zählkreis vergeben werden.<br> |
 
-<p class="just-emphasize">Register „Zählerstände“</p>
+#### Register „Zählerstände“
 
 | **Feld** | **Beschreibung** |
 | --- | --- |
@@ -78,13 +78,13 @@ oder Direktsprung **[NKZ]**
 | Zählkreissperre | Steht die Zählkreissperre auf „Ja“, so wird der Zählkreis gesperrt. Dadurch können keine weiteren Nummern aus dem Zählkreis gezogen werden.<br>Der Standardwert ist „Nein“.<br> <br>**Hinweis**<br>Beim Setzen der Zählkreissperre ist zu beachten, dass alle Nummernkreise, die diesen Zählkreis aktiv verwenden, blockiert werden können. Das kann dazu führen, dass aus diesen Nummernkreisen keine Nummer bereitgestellt werden kann!<br> |
 | Reservenummern | Nicht (mehr) genutzte Nummern können in eine Reserveliste geschrieben und damit wieder freigegeben werden. Wird eine Nummer aus dem Zählkreis gezogen, so werden zuerst die Nummern aus der Reserveliste genommen.<br>Beim Ziehen einer Nummer aus der Reserveliste, wird der Zählerstand nicht hochgezählt.<br> |
 
-<p class="just-emphasize">Register „Verwendung“</p>
+#### Register „Verwendung“
 
 | **Feld** | **Beschreibung** |
 | --- | --- |
 | Verwendung | Hier werden alle Nummernkreise aufgelistet, in denen der Zählkreis verwendet wird.<br> |
 
-<p class="just-emphasize">Register „Einrichtungstexte“</p>
+#### Register „Einrichtungstexte“
 
 <div class="table-wrapper">
   <table>

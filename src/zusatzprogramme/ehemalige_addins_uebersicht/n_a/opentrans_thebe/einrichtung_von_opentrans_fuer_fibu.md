@@ -6,7 +6,7 @@ Zinsabrechnungen in der Finanzbuchhaltung können für Kunden, bei denen das ope
 
 Die Einrichtung setzt die Einrichtung von openTRANS für Vorgänge voraus.
 
-<p class="just-emphasize">Steuerparameter</p>
+### Steuerparameter
 
 Administration > Steuerung > Steuerparameter anzeigen
 
@@ -14,7 +14,7 @@ Administration > Steuerung > Steuerparameter anzeigen
 - Der Steuerparameter [840 - FiBu Zinsbelege mit openTRANS drucken](../../../../firmenstamm/steuerparameter/optionen_finanzwesen/fibu_zinsbelege_mit_opentrans_drucken_spa_840.md) muss aktiviert sein, um diese Option zu nutzen.
 - Der Steuerparameter [841 - FRZ-Unterklasse für FiBu-Zinsbelege](../../../../firmenstamm/steuerparameter/optionen_finanzwesen/frz_unterklasse_fuer_fibu_zinsbelege_spa_841.md) (Default ist 0) muss festlegen, aus welcher Unterklasse der Rechnung (Vorgangsklasse700) der Export seine Einstellungen übernehmen soll. 
 
-<p class="just-emphasize">Sachkontenstamm</p>
+### Sachkontenstamm
 
 Finanzbuchhaltung > Stammdaten > Sachkonten
 
@@ -29,7 +29,7 @@ In der Finanzbuchhaltung gibt es verschiedene Sachkonten, auf die Teile der Abre
 
 Im [Sachkontenstamm](../../../../finanzbuchhaltung/stammdaten_der_fibu/sachkonten.md) können Sie auf der Registerkarte weitere Optionen eine Artikelnummer festlegen. Dieser „künstliche“ Artikel beschreibt die Art der Buchung in der Zinsabrechnung. Der Artikel darf keine Steuern, Zu-/Abschläge o.ä. haben.
 
-<p class="just-emphasize">FiBu-openTRANS-Optionen</p>
+### FiBu-openTRANS-Optionen
 
 In der Formularzuordnung für die Vorgangsklassen werden openTRANS-Export-Optionen eingegeben. Der Steuerparameter [841 - FRZ-Unterklasse für FiBu-Zinsbelege](../../../../firmenstamm/steuerparameter/optionen_finanzwesen/frz_unterklasse_fuer_fibu_zinsbelege_spa_841.md) legt fest, welche Unterklasse der Vorgangsklasse 700 (Rechnung) diese Einstellungen enthalten soll.
 

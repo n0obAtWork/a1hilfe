@@ -4,7 +4,7 @@
 
 VorgangsAddons werden nun auch in den neuen Beleg kopiert, wenn aus der Auswahlliste die Funktion "Teildisposition ..." aufgerufen wird und in der Quellvorgangs(Unter-)klasse das Kennzeichen "AddOns kopieren" aktiv ist.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 730400[35189]
 
@@ -20,6 +20,6 @@ Funktion/Report: n/a
 
 [Weitere Informationen](http://www.amic.de/hilfe/allgemeinallgemeineundgenerell.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.3, 35189, 730400

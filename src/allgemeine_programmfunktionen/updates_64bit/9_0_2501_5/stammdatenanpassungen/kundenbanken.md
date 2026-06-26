@@ -4,7 +4,7 @@
 
 Existiert eine Bankleitzahl im Bankenstamm mehrfach, dann konnte anhand der IBAN keine eindeutige Bank bestimmt werden und die Felder blieben leer. Das wurde so geändert, dass die F3-Auswahl der Bank sofort geöffnet wird und nur die Banken mit dieser Bankleitzahl aufgelistet werden.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 740047[35968]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/kundenbankenfrdenzahlungsverke.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 35968, 740047

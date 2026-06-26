@@ -4,7 +4,7 @@
 
 Im Intrastatstammdaten-Pfleger ("Intrastat einrichten") kann nun eine private View für den Export angegeben werden.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 713532[32748]
 
@@ -20,6 +20,6 @@ Funktion/Report: Stammdaten (F10)
 
 [Weitere Informationen](http://www.amic.de/hilfe/_intrastatauswahllisten.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2210.20, 32748, 713532

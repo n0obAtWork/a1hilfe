@@ -40,15 +40,15 @@ Im Gegensatz zu [Formulararchiv-Administration](../formulararchiv_administration
 | Funktionen | |
 | --- | --- |
 | ***Archiv anzeigen*** **CF12** | Das Dokument des selektierten Archiv-Eintrages anzeigen |
-| Referenzen anzeigen | [Referenzen anzeigen](../formulararchiv_administration/recherche_nach_referenznummern.md) |
+| ***Referenzen anzeigen*** | [Referenzen anzeigen](../formulararchiv_administration/recherche_nach_referenznummern.md) |
 | ***Ändern*** **F5** | [Archiv ändern (Ansehen)](./archiv_aendern_ansehen.md) |
 | ***Ansehen*** **F6** | [Archiv ändern (Ansehen)](./archiv_aendern_ansehen.md) |
-| E-Mail senden | [Archiv Mail Versand](../../archiv_manager/archiv_mail_versand/index.md) |
+| ***E-Mail senden*** | [Archiv Mail Versand](../../archiv_manager/archiv_mail_versand/index.md) |
 | ***Hinzufügen …*** **F8** | [Archiv – Dokumente hinzufügen](../../archiv_dokumente_hinzufuegen.md) |
 | ***Barcode zuweisen …*** **SF8** | [Archiv Barcode](../../archiv_barcode.md) |
-| Referenzieren | [Referenzieren](../formulararchiv_administration/referenzieren.md) |
-| Drucken | Druckt Archiv-Einträge – insoweit das möglich ist. |
-| Pdf-Drucken … | Druckt Pdf-Dokumente (siehe [PDF-Drucken](../../dokumentenverwaltung_archiv_anzeigen/dokumentenverwaltung_multifunktionsleiste/pdf_drucken.md)) |
+| ***Referenzieren*** | [Referenzieren](../formulararchiv_administration/referenzieren.md) |
+| ***Drucken*** | Druckt Archiv-Einträge – insoweit das möglich ist. |
+| ***Pdf-Drucken …*** | Druckt Pdf-Dokumente (siehe [PDF-Drucken](../../dokumentenverwaltung_archiv_anzeigen/dokumentenverwaltung_multifunktionsleiste/pdf_drucken.md)) |
 
 Zudem können sich in dieser Variante Funktionen - die über [Archiv Import](../../archiv_import/index.md) integriert werden können -befinden.
 

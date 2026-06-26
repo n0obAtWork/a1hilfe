@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/beispielefrdatenbankfunktionen.htm -->
 
-<p class="just-emphasize">Beispiel für eine Datenbankfunktion für die Partieverteilung:</p>
+### Beispiel für eine Datenbankfunktion für die Partieverteilung:
 
 ```sql
 CREATE PROCEDURE "admin"."p_PartieAutoSuche"
@@ -193,7 +193,7 @@ declare local temporary table p_result
 END
 ```
 
-<p class="just-emphasize">Beispiel für eine Datenbankfunktion für Gebindeparameter:</p>
+### Beispiel für eine Datenbankfunktion für Gebindeparameter:
 
 ```sql
 // FUNCTION AMIC_V_UKlassGebFak1Proc

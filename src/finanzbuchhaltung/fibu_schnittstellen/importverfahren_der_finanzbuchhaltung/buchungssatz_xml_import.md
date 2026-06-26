@@ -4,7 +4,7 @@
 
 Über diese Schnittstelle können Buchungssätze, die in einer [XML Datei](./buchungssatz_xml_import.md#BSXI_XMLSTRUKTUR) enthalten sind, importiert werden. Die Daten werden in die Tabelle [FIBUIMPORT](./index.md) geschrieben.
 
-<p class="just-emphasize">Auswahlliste</p>
+### Auswahlliste
 
 Die einzuspielenden und eingespielten Dateien werden in der Tabelle Buchungssatzimport gespeichert, diese Dateien können unter [BSSIX] oder Finanzbuchhaltung -> Abschlussarbeiten -> *DATEV/Import/Export* -> Buchungssatz XML Import angezeigt werden.
 
@@ -14,7 +14,7 @@ Des Weiteren wird angezeigt, ob eine Datei erfolgreich in den FIBUIMPORT eingesp
 
 Um einen Import durchzuführen, klicken Sie bitte auf ***Buchungssatz Import XML* F9**.
 
-<p class="just-emphasize">Bereitstellung der XML Datei</p>
+### Bereitstellung der XML Datei
 
 Die zu importierende Datei mit den Buchungsätzen muss auf dem Rechner vorhanden sein, damit diese in die Tabelle Buchungssatzimport gespeichert werden können.
 
@@ -22,7 +22,7 @@ Ist die Datei nicht auf dem Rechner vorhanden, so kann diese per VBA, VBS Skript
 
 Den Namen des VBA oder VBS Skriptes wird in den [Einrichterparameter](../../../firmenstamm/einrichterparameter/buchungssatz_import_xml_epa_ledgerimport.md) der Maske hinterlegt.
 
-<p class="just-emphasize">Privates VBS oder VBA</p>
+### Privates VBS oder VBA
 
 Ein Beispiel für das Laden und Speichern einer Datei von einem FTP Server finden Sie unter dem Direktsprung [VBA]. Der Name des VBA Skriptes lautet AMIC_FTP_LEDGERIMPORT. Als Parameter werden folgende Werte übergeben:
 
@@ -30,19 +30,19 @@ Ein Beispiel für das Laden und Speichern einer Datei von einem FTP Server finde
 
 2\. /File=Der Dateiname oder Dateipfad. Bei Pfadangabe werden alle nicht eingespielten XML-Dateien Importiert.
 
-<p class="just-emphasize">Fehlerbehandlung im Skript:</p>
+### Fehlerbehandlung im Skript:
 
 Um der Import Schnittstelle mitzuteilen, dass in dem Skript ein Fehler aufgetreten ist wird die JVAR JVAR_TEMPWERT_2 mit Besitzer 3551 gesetzt. Der Wert 1 bedeutet, dass kein Fehler aufgetreten ist. Desweitern sollte in dem Skript ein Eintrag in das Fehlerprotokoll mit dem Bereich FiBuImport28 gemacht werden, da die Importschnittstelle nach dem ausführen des Skriptes alle Fehler aus diesem Bereich auf einer speziellen Maske angezeigt wird.
 
 Das Setzten der JVAR mit 0 im Script bewirkt, dass der Import für diese Datei nicht gestartet werden kann. Existieren mehrerer Dateien in der Tabelle Buchungssatzimport, wird versucht die nächste einzuspielen.
 
-<p class="just-emphasize">Datenaufbereitung</p>
+### Datenaufbereitung
 
 Die XML Datei mit den Buchungssätzen wird in einer Datenbankprozedur([fibu_ledgerimport](./buchungssatz_xml_import.md#BSXI_BEISPIELPROZEDUR)) so aufgearbeitet, dass die Daten eingelesen und importiert werden können.
 
 Anstelle der Standardprozedur kann die Prozedur auf der Maske durch eine private Prozedur ersetzt werde (Auswahl mit F3).
 
-<p class="just-emphasize">Wichtig</p>
+### Wichtig
 
 Das Hauptkonto und das Gegenkonto müssen immer numerisch sein. In der Beispiel [XML Struktur](./buchungssatz_xml_import.md#BSXI_XMLSTRUKTUR) ist das Hauptkonto alphanumerisch. Um die Datei trotzdem erfolgreich zu importieren, wird eine Zuweisung von dem alphanumerischen zu dem numerischen Konto benötigt. Um eine Zuweisung zwischen dem alphanumerischen und numerischen Konto herzustellen rufen Sie bitte den Importumsetzer auf (Direktsprung [IMPUM]) auf.
 
@@ -73,7 +73,7 @@ In den [Einrichterparametern](../../../firmenstamm/einrichterparameter/buchungss
 
 Werden mehrere Dateien mit einem Skript geladen, so muss in den [Einrichterparametern](../../../firmenstamm/einrichterparameter/buchungssatz_import_xml_epa_ledgerimport.md) der Parameter „Dateiprüfung und Einspielung passiert im privaten VBA oder VBS Script“ auf **Ja** gestellt werden. Dann reicht es aus in der Maske Buchungssatz XML Import nur den Pfad anzugeben, wo die Dateien zwischengespeichert werden sollen. Dafür muss dann die Dateinamensbehandlung im Skript stattfinden.
 
-<p class="just-emphasize">Maskenfelder</p>
+### Maskenfelder
 
 | Name | Bedeutung |
 | --- | --- |
@@ -84,7 +84,7 @@ Werden mehrere Dateien mit einem Skript geladen, so muss in den [Einrichterparam
 
 Um einen Import zu starten klicken Sie bitte in der Optionbox auf „Import Starten“ oder drücken Sie die Taste F9.
 
-<p class="just-emphasize">XML Struktur</p>
+### XML Struktur
 
 Die XML Struktur muss genauso wie in diesem Beispiel aufgebaut sein. Bei den XML Tags muss auf Groß und Klein Schreibung geachtet werden.
 
@@ -115,7 +115,7 @@ Die XML Struktur muss genauso wie in diesem Beispiel aufgebaut sein. Bei den XML
 </LedgerImport>
 ```
 
-<p class="just-emphasize">Beispielprozedur</p>
+### Beispielprozedur
 
 Die Beispielprozedur „fibu_ledgerimport“ entpackt die XML Struktur und speichert diese in einer lokalen temporären Tabelle zwischen. Sobald sich die Daten in der Tabelle befinden, können diese dann dort abgeändert werden. 
 

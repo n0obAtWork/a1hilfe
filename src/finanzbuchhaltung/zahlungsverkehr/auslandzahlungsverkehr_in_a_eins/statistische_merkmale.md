@@ -282,11 +282,11 @@ END</code></pre>
   </table>
 </div>
 
-<p class="just-emphasize">Zahlungen für Wareneinfuhren</p>
+#### Zahlungen für Wareneinfuhren
 
 Zahlungen, die nur Wareneinfuhren betreffen, sind nicht meldepflichtig. Sofern Zahlungen außer Wareneinfuhren jedoch auch meldepflichtige Sachverhalte betreffen, sind entsprechend zu melden. Zu beachten ist, dass Nebenleistungen im Warenverkehr, wie z.B. Rabatte bei Exporten, Kennzahl 600, auch weiterhin meldepflichtig sind.
 
-<p class="just-emphasize">Meldedatensatz für Transithandel</p>
+#### Meldedatensatz für Transithandel
 
 Zahlungen im Transithandel sollen gesammelt mit Vordruck Z4 bzw. mit entsprechenden Datensätzen gemeldet werden. Sie können auch einzeln mit dem **Meldetatensatz Transithandel** in diesem Datenträgeraustausch oder dieser Datenfernübertragung gemeldet werden.
 
@@ -306,7 +306,7 @@ Zahlungen im Transithandel sollen gesammelt mit Vordruck Z4 bzw. mit entsprechen
 | Verkaufspreis<br> | ohne Nachkommastellen. Angabe in Auftragswährung, bei Euro- Gegenwertzahlung in Euro.<br> |
 | Name und Sitz des Nachkäufers<br> | ist nur bei gebrochenem Transithandel (Verkauf an Gebietsfremde) anzugeben.<br> |
 
-<p class="just-emphasize">Meldedatensatz für Dienstleistung/Kapitaltransaktion</p>
+#### Meldedatensatz für Dienstleistung/Kapitaltransaktion
 
 Bei meldepflichtigen Zahlungen für Dienstleistungen, Übertragungen, Kapitalverkehrstransaktionen sind grundsätzlich sowohl bei Datenträgeraustausch als auch bei Datenfernübertragung die Meldedatensätze zu belegen und zusammen mit dem Zahlungsauftrag beim beauftragten Kreditinstitut einzureichen.
 

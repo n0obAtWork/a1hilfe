@@ -39,7 +39,7 @@ Es existieren zu diesem Typ folgende Formularbereiche:
 - 622 Finanzbewegung EK-Warebeleg
 - 623 Finanzbewegung VK-Warebeleg
 
-Variablen in Kopf und Fußzeile
+**Variablen in Kopf und Fußzeile**
 
 Folgende Variablen sind in allen Teilen (Kopf, Folgekopf, Fuß und Abschluss) verfügbar. Formularbereiche, die nicht separat mit aufgeführt werden, enthalten nur Festtext oder diese Felder!
 
@@ -123,7 +123,7 @@ Folgende Variablen sind in allen Teilen (Kopf, Folgekopf, Fuß und Abschluss) ve
 | ID_KKD_EINKOMMENSTEUERNUMMER | EinkommenSteuerNummer | Text | 4 | Einkommensteuernummer des Kunden /Lieferanten / Kontokorrenten |
 | ID_KKD_USTKENNZEICHEN | USTKENNZEICHEN | Text | 4 | Umsatzsteuerkennzeichen |
 
-<p class="just-emphasize">Formular Bereich Kopfversorgung(616, 617, 618)</p>
+### Formular Bereich Kopfversorgung(616, 617, 618)
 
 | ID | Bezeichnung | Typ | Nummer | Bedeutung |
 | --- | --- | --- | --- | --- |
@@ -133,7 +133,7 @@ Folgende Variablen sind in allen Teilen (Kopf, Folgekopf, Fuß und Abschluss) ve
 | ID_KKD_SOLLVJPER | | Numerisch | 4 | Soll des Vorjahres in Abhängigkeit der Periode |
 | ID_KKD_VONPERIODE | vonPeriode | Text | 3 | Von Periode |
 
-<p class="just-emphasize">Formular Bereiche 602/603/197/619</p>
+### Formular Bereiche 602/603/197/619
 
 (Beleginformationen Finanzbuchhaltung)
 
@@ -232,7 +232,7 @@ Folgende Variablen sind in allen Teilen (Kopf, Folgekopf, Fuß und Abschluss) ve
 | --- | --- | --- | --- | --- |
 | ID_KKD_FIBUVP_TEXT | FiBuVP_Text | Text | 3 | Folgetext wie in der FiBu erfasst. |
 
-<p class="just-emphasize">Formularbereich 197.</p>
+### Formularbereich 197.
 
 Siehe auch oben (Beleginformationen Finanzbuchhaltung) 
 
@@ -274,13 +274,13 @@ Siehe auch oben (Beleginformationen Finanzbuchhaltung) 
 | ID_KKD_VALUTADATUM | Valutadatum | Datum | 5 | Valuta Datum |
 | ID_KKD_STEUERSCHLUESSELGR | STEUERSCHLUESSEL | Text | 3 | Der Steuerschlüssel. Diese gehört zur Klasse, Gruppe, Schlüssel, Abdatum-kombination, aus der der verwendete Steuersatz bestimmt wird |
 
-<p class="just-emphasize">Formularbereich 619 . Folgetexte aus der Ware</p>
+### Formularbereich 619 . Folgetexte aus der Ware
 
 | ID | Bezeichnung | Typ | Nummer | Bedeutung |
 | --- | --- | --- | --- | --- |
 | ID_KKD_ARTTEXT | ARTText | Text | 3 | Folgetext wie in der Ware erfasst. |
 
-<p class="just-emphasize">Formularbereich 620, 198. Bereichsummenzeilen</p>
+### Formularbereich 620, 198. Bereichsummenzeilen
 
 | ID | Bezeichnung | Typ | Nummer | Bedeutung |
 | --- | --- | --- | --- | --- |
@@ -294,13 +294,13 @@ Siehe auch oben (Beleginformationen Finanzbuchhaltung) 
 | ID_KKD_BRUTTOHABEN | Bruttohaben | Numerisch | 4 | Brutto Haben |
 | ID_KKD_MENGE | Menge | Numerisch | 4 | Die Menge |
 
-<p class="just-emphasize">Formularbereich 612. Gesamtsumme</p>
+### Formularbereich 612. Gesamtsumme
 
 | ID | Bezeichnung | Typ | Nummer | Bedeutung |
 | --- | --- | --- | --- | --- |
 | ID_KKD_SOLLSUMME | Sollsumme | Numerisch | 4 | Sollsumme |
 
-<p class="just-emphasize">Formularbereich 606. Summen nach Belegart</p>
+### Formularbereich 606. Summen nach Belegart
 
 (Überschrift hierzu ist Bereich 616 )
 
@@ -314,7 +314,7 @@ Siehe auch oben (Beleginformationen Finanzbuchhaltung) 
 | ID_KKD_FIBUV_KLBEZEICH | FiBuV_KlBezeich | Text | 3 | Vorgangsklassenbezeichnung der Fibu |
 | ID_KKD_FIBUV_KLKURZBEZ | FiBuV_KLKurzBez | Text | 3 | Kurzbezeichnung der Vorgangsklasse in der Fibu |
 
-<p class="just-emphasize">Formularbereich 607 Buchungsjournal Ford/Verb.-Summen Zeilentyp</p>
+### Formularbereich 607 Buchungsjournal Ford/Verb.-Summen Zeilentyp
 
 (Überschrift hierzu ist Bereich 617)
 
@@ -327,7 +327,7 @@ Siehe auch oben (Beleginformationen Finanzbuchhaltung) 
 | ID_KKD_KONTONUMMER<br> | KontoNummer<br> | Text | 3 | Kontonummer |
 | ID_KKD_KONTOBEZEICH<br> | KontoBezeich<br> | Text | 3 | Die Kontobezeichnung |
 
-<p class="just-emphasize">Formularbereich 608. Summen nach Forderungsgruppen</p>
+### Formularbereich 608. Summen nach Forderungsgruppen
 
 (Überschrift hierzu ist Bereich 618)
 
@@ -348,7 +348,7 @@ Siehe auch oben (Beleginformationen Finanzbuchhaltung) 
 | ID_KKD_STEUERWERTERWERB | SteuerWertErwerb | Numerisch | 4 | Steuerbetrag bei innergemeinschaftlichem Erwerb |
 | ID_KKD_STEUERSATZERWERB | SteuerWertErwerb | Numerisch | 4 | Steuersatz bei Innergemeinschaftlichem Erwerb |
 
-<p class="just-emphasize">Formularbereich 195. Kontraktinfos</p>
+### Formularbereich 195. Kontraktinfos
 
 (Überschrift hierzu ist Bereich 196)
 
@@ -374,7 +374,7 @@ Siehe auch oben (Beleginformationen Finanzbuchhaltung) 
 | ID_KKD_KTRRESTMENGETOTAL | KTRRESTMENGETOTAL | Numerisch | 4 | Die Totale Restmenge des Kontraktes |
 | ID_KKD_KTRRESTWERTTOTAL | KTRRESTWERTTOTAL | Numerisch | 4 | Der Totale Restwert des Kontraktes |
 
-<p class="just-emphasize">Formularbereich zu 600 Kopf und Fuss</p>
+### Formularbereich zu 600 Kopf und Fuss
 
 | **ID** | **Bezeichnung** | **Typ** | **Nummer** | **Bedeutung** |
 | --- | --- | --- | --- | --- |
@@ -400,7 +400,7 @@ Siehe auch oben (Beleginformationen Finanzbuchhaltung) 
 | ID_KKD_SKONTOGEZOGEN | SkontoGezogen | Numerisch | 4 | Gezogene Skonti wärmend dieser Kontoblattperiode |
 | ID_KKD_SKONTOGEZOGENNEU | SkontoGezogenNeu | Numerisch | 4 | Gezogene Skonti Summe SkontoGezogenAlt + SkontoGezogen |
 
-<p class="just-emphasize">Steuersummen für Einkauf und Verkauf Druckbereiche 183/186</p>
+### Steuersummen für Einkauf und Verkauf Druckbereiche 183/186
 
 | ID | Bezeichnung | Typ | Nummer | Bedeutung |
 | --- | --- | --- | --- | --- |
@@ -410,7 +410,7 @@ Siehe auch oben (Beleginformationen Finanzbuchhaltung) 
 | ID_KKD_ST_SKONTO_F | ST_SKONTO_F | Numerisch | 4 | Skontofähig |
 | ID_KKD_ST_SKONTO | ST_SKONTO | Numerisch | 4 | Steuerskonto |
 
-<p class="just-emphasize">Formularbereich 622 /623 (Finanzbewegung EK/VK Warebeleg)</p>
+### Formularbereich 622 /623 (Finanzbewegung EK/VK Warebeleg)
 
 | ID | Bezeichnung | Typ | Nummer | Bedeutung |
 | --- | --- | --- | --- | --- |
@@ -422,7 +422,7 @@ Siehe auch oben (Beleginformationen Finanzbuchhaltung) 
 | ID_KKD_ROHWARESORTE | RohWareSorte | Numerisch | 4 | Rohwarensorte |
 | ID_KKD_ROHWAREWIEGENUMMER | RohWareWiegeNummer | Numerisch | 4 | Die Wiegenummer eines Rohwarenbeleges |
 
-<p class="just-emphasize">Bereichsüberschrift 199,621</p>
+### Bereichsüberschrift 199,621
 
 | ID | Bezeichnung | Typ | Nummer | Bedeutung |
 | --- | --- | --- | --- | --- |

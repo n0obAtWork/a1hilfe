@@ -4,7 +4,7 @@
 
 Im Rahmen der Pflege- und Wartung wurde die Dokument-Engine auf den Stand 4.0.102.290 aktualisiert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 0[36702]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/systeminformation.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 36702, 0

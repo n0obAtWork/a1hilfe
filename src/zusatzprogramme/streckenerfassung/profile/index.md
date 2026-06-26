@@ -28,7 +28,7 @@ Folgende Registerkarten stehen für die Einstellungen zur Verfügung.
 
 [Buttons](./index.md#registerButtons)
 
-<p class="just-emphasize">Registerkarte Allgemein ![](../../../ImagesExt/image8_1357.png)</p>
+### Registerkarte Allgemein ![](../../../ImagesExt/image8_1357.png)
 
 Hier können allgemeine Einstellungen der Streckenerfassung definiert werden.
 
@@ -74,11 +74,11 @@ Hier können allgemeine Einstellungen der Streckenerfassung definiert werden.
 | Umbuchung anzeigen | Hiermit kann eingestellt werden, ob Umbuchungen angezeigt werden sollen. |
 | [Positionsbeziehungsübersicht](../positionsbeziehungsuebersicht.md) | Hiermit kann eingestellt werden, ob die Positionsbeziehungsübersicht aktiviert ist. |
 
-<p class="just-emphasize">Registerkarte Allgemein 2 ![](../../../ImagesExt/image8_1357.png)</p>
+### Registerkarte Allgemein 2 ![](../../../ImagesExt/image8_1357.png)
 
 Hier können weitere allgemeine Einstellungen vorgenommen werden.
 
-<p class="just-emphasize">Gültigkeit</p>
+#### Gültigkeit
 
 In der Datentabelle der Gültigkeit lassen sich Vorschriften für das Anlegen und bearbeiten von Vorgängen innerhalb der Streckenerfassung festlegen.
 
@@ -98,7 +98,7 @@ Dabei sollte beachtet werden, dass sobald eine Gültigkeit eingetragen wurde, al
 
 Einige Beispiele zur Gültigkeit können [hier](./beispiele.md#beispiele_gueltigkeit) gefunden werden.
 
-<p class="just-emphasize">Container</p>
+#### Container
 
 | Feld | Beschreibung |
 | --- | --- |
@@ -107,7 +107,7 @@ Einige Beispiele zur Gültigkeit können [hier](./beispiele.md#beispiele_gueltig
 
 Die Itembox „IB_DISPO_KONTRAKTSTAMM“ / „IB_DISPO_KONTRAKTSTAMM_BEZ“ kann als Standarditembox für Kontrakte verwendet werden. (siehe dazu auch „[Itemboxparameter](./allgemeine_informationen.md#allgemein_info_Itembox_Parameter)“)
 
-<p class="just-emphasize">Kopieren</p>
+#### Kopieren
 
 | Feld | Beschreibung |
 | --- | --- |
@@ -122,7 +122,7 @@ from gtt_amic_ident
 where typ = '5FE183B7-308D-4D66-BB14-A6333799D006'
 ```
 
-<p class="just-emphasize">Vorbelegung</p>
+#### Vorbelegung
 
 In diesem Bereich lässt sich die Vorbelegung innerhalb der Streckenerfassung festlegen. Dafür stehen folgende Felder und Datentabellen zur Verfügung.
 
@@ -136,7 +136,7 @@ Neben den „Ausführungsfeldern“ wird die Prozedur auch beim ersten Betreten 
 
 Weitere Informationen und Beispiele befinden sich im Kapitel „[Vorbelegung](./vorbelegung.md)“.
 
-<p class="just-emphasize">Registerkarte Griddefinition ![](../../../ImagesExt/image8_1357.png)</p>
+### Registerkarte Griddefinition ![](../../../ImagesExt/image8_1357.png)
 
 Auf dieser Registerkarte können Einstellungen für die Grids in der Streckenerfassungsmaske vorgenommen werden. Dadurch kann z.B. die Zeilenanzahl, die Vorbelegung und weitere Einstellungen für die einzelnen Grids definiert werden.
 
@@ -359,7 +359,7 @@ Des Weiteren kann eine private Funktion angelegt werden, in der Anwendung / Vari
 
 Diese Funktion wird dann mit in die Menüs der Streckenerfassung eingetragen.
 
-<p class="just-emphasize">Registerkarte Auswertungen ![](../../../ImagesExt/image8_1357.png)</p>
+### Registerkarte Auswertungen ![](../../../ImagesExt/image8_1357.png)
 
 Die Registerkarten für den AMIC Etikettendruck und „Crystal Reports“ sind der Registerkarte „Auswertungen“ gewichen. Statt wie bisher eine feste Anzahl von Auswertungen zu haben, können nun unterschiedlich viele Reports für die einzelnen Bereiche hinterlegt werden.
 
@@ -384,7 +384,7 @@ Beim Anlegen einer neuen Auswertung, wird die neue Funktion automatisch dem Unte
 | Druckerbezeichnung | |
 | Anzahl | |
 
-<p class="just-emphasize">Registerkarte Kontrakte ![](../../../ImagesExt/image8_1357.png)</p>
+### Registerkarte Kontrakte ![](../../../ImagesExt/image8_1357.png)
 
 Auf dieser Registerkarte können die Voreinstellungen für Kontrakte vorgenommen werden.
 
@@ -402,7 +402,7 @@ Auf dieser Registerkarte können die Voreinstellungen für Kontrakte vorgenommen
 | Kontraktwährung übernehmen | Wird bei der Belegerfassung ein Kontraktausgewählt, kann hiermit festgelegt werden, dass die Kontraktwährung übernommen wird.<br>Dafür muss das „[UFLD-Feld](./index.md#registerbenutzerfelder)“ für die [Währung (1453)](./ufld_feldliste.md#verwendbareUFLDFelder) angezeigt werden. |
 | Immer vor Laufzeit buchen | Hier kann eingestellt werden, dass ein Kontrakt auch vor der Laufzeit gebucht werden kann, unabhängig vom Steuerparameter [150](../../../firmenstamm/steuerparameter/kontraktwesen/vor_anfang_der_laufzeit_bebuchbar_spa_150.md). |
 
-<p class="just-emphasize">Registerkarte Kopiervorlagen ![](../../../ImagesExt/image8_1357.png)</p>
+### Registerkarte Kopiervorlagen ![](../../../ImagesExt/image8_1357.png)
 
 Auf der Registerkarte „Kopiervorlagen“ lassen sich Vorlagen zum Kopieren einzelner oder mehrerer Spalten definieren. Dabei können Spalten von einer Datentabelle in eine andere oder in die gleiche Datentabelle kopiert werden.
 
@@ -419,7 +419,7 @@ Drei weitere Grids geben die Möglichkeit zur Eingabe von
 - Zu kopierende UFLD-Felder, die in beiden Grids zur Verfügung stehen
 - Zu kopierende AddOn-Felder, die in beiden Grids zur Verfügung stehen
 
-<p class="just-emphasize">Registerkarte Benutzerfelder ![](../../../ImagesExt/image8_1357.png)</p>
+### Registerkarte Benutzerfelder ![](../../../ImagesExt/image8_1357.png)
 
 Auf dieser Registerkarte stehen drei Grids zur Verfügung um für jedes der drei Grids dynamisch UFLD-Felder anzulegen. Für die UFLD-Felder mit einer Itembox werden in der Streckenerfassungsmaske Bezeichnerfelder hinzugefügt.
 
@@ -433,7 +433,7 @@ Hierfür stehen auf jedem der Grids folgende Felder zur Verfügung.
 
 Damit die Daten auch in der Streckenerfassungsmaske geladen werden muss die Ladeprozedur des Profils angepasst werden. Die bisher verwendbaren UFDL-Felder stehen in der Liste „[Streckenerfassung UFLD-Feldliste](./ufld_feldliste.md)“.
 
-<p class="just-emphasize">Registerkarte Addonfelder ![](../../../ImagesExt/image8_1357.png)</p>
+### Registerkarte Addonfelder ![](../../../ImagesExt/image8_1357.png)
 
 | Feld | Beschreibung |
 | --- | --- |
@@ -442,7 +442,7 @@ Damit die Daten auch in der Streckenerfassungsmaske geladen werden muss die Lade
 | Herkunftsdaten-View (Grid 2) | Siehe „Herkunftsdaten-View (Grid 1)“ |
 | Herkunftsdaten-View (Grid 3) | Siehe „Herkunftsdaten-View (Grid 1)“ |
 
-<p class="just-emphasize">Registerkarte Buttons ![](../../../ImagesExt/image8_1357.png)</p>
+### Registerkarte Buttons ![](../../../ImagesExt/image8_1357.png)
 
 Auf dieser Registerkarte kann eingestellt werden, welche Buttons ausgeblendet werden soll.
 

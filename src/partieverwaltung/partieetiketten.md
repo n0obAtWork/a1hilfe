@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_partieetiketten.htm -->
 
-<p class="just-emphasize">Auswahlliste</p>
+#### Auswahlliste
 
 <div class="table-wrapper">
   <table>
@@ -110,7 +110,7 @@
   </table>
 </div>
 
-<p class="just-emphasize">Dialog „Etiketten erstellen“</p>
+#### Dialog „Etiketten erstellen“
 
 <div class="table-wrapper">
   <table>

@@ -4,7 +4,7 @@
 
 Es wurde die Elster-Version 39.2.4 (gültig für das Jahr 2024) in A.eins integriert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 729124[34547]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/elster.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.1, 34547, 729124

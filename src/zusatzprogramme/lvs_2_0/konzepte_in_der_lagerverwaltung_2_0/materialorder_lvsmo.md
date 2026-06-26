@@ -6,11 +6,11 @@ Es gibt zwei Arten der Materialorder.
 
 1. Vorgangsgebundene Materialordern
 
-Diese Materialordern bilden 1:1 einen Vorgang und dessen Materialbedarf ab. Artikel und Partien befinden sich nebst den Referenzen zu den Vorgangspositionen in dieser Materialorder.
+   Diese Materialordern bilden 1:1 einen Vorgang und dessen Materialbedarf ab. Artikel und Partien befinden sich nebst den Referenzen zu den Vorgangspositionen in dieser Materialorder.
 
 2. Ungebundene Materialordern
 
-Diese Materialordern werden manuell oder über die Produktionsschnittstellle erstellt und enthalten in der Regel keine Referenzen auf Vorgangspositionen. Sie lassen sich mit dem Materialorder-Pfleger [LVSMO] erstellen.
+   Diese Materialordern werden manuell oder über die Produktionsschnittstellle erstellt und enthalten in der Regel keine Referenzen auf Vorgangspositionen. Sie lassen sich mit dem Materialorder-Pfleger [LVSMO] erstellen.
 
 <div class="table-wrapper">
   <table>

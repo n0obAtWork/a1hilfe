@@ -4,7 +4,7 @@
 
 Die Artikelstammtexte können für andere Sprachen oder andere Varianten angelegt werden. Unter Umständen wurde nach Änderung der Variante/Sprache der falsche Artikeltext angezeigt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 726842[34202]
 
@@ -20,6 +20,6 @@ Funktion/Report: F5
 
 [Weitere Informationen](http://www.amic.de/hilfe/_konstantenderartikel.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 34202, 726842

@@ -4,7 +4,7 @@
 
 Die Vorgangsauswahllisten [AGB], [ELB], [GUB] und [REB] haben die Funktionen "Neu drucken und neu versenden" und "Beleg erneut versenden" unter dem Menüpunkt Merkmale erhalten.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 734596[35207]
 
@@ -20,6 +20,6 @@ Funktion/Report: Neu drucken und neu versenden, Beleg erneut versenden
 
 [Weitere Informationen](http://www.amic.de/hilfe/!vorgangsbearbeitungallgemein.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.1, 35207, 734596

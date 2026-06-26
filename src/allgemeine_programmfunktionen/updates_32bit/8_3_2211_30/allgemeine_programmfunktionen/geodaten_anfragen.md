@@ -4,7 +4,7 @@
 
 Die Ermittlung von Geodaten wurde wiederhergestellt, nachdem der Webservice seine Abfragestrukturen geändert hat. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 716215[33091]
 
@@ -20,6 +20,6 @@ Funktion/Report: Geodaten ermitteln
 
 [Weitere Informationen](http://www.amic.de/hilfe/_geodaten_provider.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2211.30, 33091, 716215

@@ -8,7 +8,7 @@ oder Direktsprung **[LABVE]**
 
 In diesem Stammdatenpfleger werden die Daten über Laborverfahren gepflegt. Der Einrichterparameter „[Erweiterte Einstellungen](../../firmenstamm/einrichterparameter/laborverfahren_epa_laborverfahren.md)“ erlaubt weitere Eingabemöglichkeiten auf der Maske.
 
-<p class="just-emphasize">Erfassungsmaske</p>
+### Erfassungsmaske
 
 Es stehen folgende Eingabefelder und Eingabemöglichkeiten zur Verfügung.
 
@@ -18,7 +18,7 @@ Es stehen folgende Eingabefelder und Eingabemöglichkeiten zur Verfügung.
 | Detailprüfung | Art des Verfahrens. Eine Auswahl der möglichen Verfahren ist mit F3 möglich. Bei Eingabe des Verfahrens wird die Karteikarte (Registerkarte des Pflegers für Labordaten) gleich korrekt vorbelegt.<br> |
 | Bezeichnung | Bezeichnung des Verfahrens. Dies wird als Überschrift der Box auf dem Pfleger der Labordaten verwendet.<br> |
 
-<p class="just-emphasize">Felder auf der Registerkarte Allgemein</p>
+#### Felder auf der Registerkarte Allgemein
 
 | Name | Erweitere Einstellung | Bedeutung |
 | --- | --- | --- |
@@ -32,7 +32,7 @@ Es stehen folgende Eingabefelder und Eingabemöglichkeiten zur Verfügung.
 | Firma | Ja | Die Firma kann mit F3 ausgewählt werden.<br> |
 | Waageterminal | | Ermöglicht die Zuordnung einer [Waage](../../waagenanbindung/waagenterminals/maske_waagenprofil/index.md) zu den Verfahren „Reinheit“ und „Besatz“. Bei anderen Verfahren wird dieses Feld ausgeblendet.<br> |
 
-<p class="just-emphasize">Felder auf der Registerkarte „Felder“</p>
+#### Felder auf der Registerkarte „Felder“
 
 | Name | Bedeutung |
 | --- | --- |
@@ -41,7 +41,7 @@ Es stehen folgende Eingabefelder und Eingabemöglichkeiten zur Verfügung.
 | Restfeld Behandlung | Hier kann angegeben werden, was mit den nicht benutzen Feldern in der Spalte „Vorhandenen Felder“ geschehen soll.<br><ul><li>egal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Es werden nach wie vor alle Felder angezeigt und sind auch änderbar.</li><li>schützen &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Die Felder werden angezeigt, können jedoch nicht geändert werden.</li><li>verstecken&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Die Felder werden ausgeblendet.<br>&nbsp;</li></ul> |
 | Vorhandende Felder | Hier wird eine Auswahl an Feldern angezeigt, die in den Labordaten für das betreffende Verfahren verwendet werden können. Sollen die Felder in den Labordaten verwendet werden, können sie mithilfe der Pfeiltasten zu dem Feld „Benutzte Felder“ verschoben werden.<br><br> |
 
-<p class="just-emphasize">Felder auf der Registerkarte Keimfähigkeit</p>
+#### Felder auf der Registerkarte Keimfähigkeit
 
 Das Register **Keimfähigkeit** wird für die Detailprüfungen „Keimfähigkeit“, „Keimfähigkeit gebeizt“, „Keimfähigkeit ungebeizt“, „Triebkraft gebeizt“, „Triebkraft ungebeizt“, „Lufa“, „HLG“ und „Feuchte“ eingeblendet.
 
@@ -56,7 +56,7 @@ Das Register **Keimfähigkeit** wird für die Detailprüfungen „Keimfähigkeit
 | Temperatur | Hier wird die Keimtemperatur eingetragen. Vorbelegung über Anwenderformat „AF_KEIMTEMP“.<br> |
 | Abfragen | Hiermit wird gesteuert, ob die oben vorbelegten Daten im Pfleger der Labordaten noch geändert werden können.<br> |
 
-<p class="just-emphasize">Feuchte Grunddaten</p>
+### Feuchte Grunddaten
 
 Die Felder zu „Feuchte Grunddaten“ sind nur verfügbar, wenn der Einrichterparameter „Erweiterte Einstellungen“ auf „Ja“ steht.
 
@@ -66,7 +66,7 @@ Die Felder zu „Feuchte Grunddaten“ sind nur verfügbar, wenn der Einrichterp
 | Dauer | In dem Feld Dauer wird die Anzahl der Stunden eingetragen. Diese sind in dem Anwenderformat „AF_FEDAUER“ hinterlegt.<br> |
 | Temperatur | In diesem Feld wird die Temperatur eingetragen. Folgende Ausprägungen sind möglich<br><ul><li>Niedrig (101-105°C)</li><li>Hoch (130-133)<br>Die Daten sind im Anwenderformat „AF_FETEMP“ hinterlegt und können erweitert werden.<br>&nbsp;</li></ul> |
 
-<p class="just-emphasize">Hohlmaß Grunddaten</p>
+### Hohlmaß Grunddaten
 
 Die Eingabemöglichkeiten für Hohlmaß sind nur verfügbar, wenn der Einrichterparameter „Erweiterte Einstellungen“ auf „Ja“ steht.
 
@@ -74,7 +74,7 @@ Die Eingabemöglichkeiten für Hohlmaß sind nur verfügbar, wenn der Einrichter
 | --- | --- |
 | Hohlmaß | In diesem Feld kann das Hohlmaß hinterlegt werden. Das Hohlmaß wird im Anwenderformat „AF_LABHOHLM“ gespeichert.<br> |
 
-<p class="just-emphasize">Lufa Grunddaten</p>
+### Lufa Grunddaten
 
 Die Eingabemöglichkeiten für Lufa Grunddaten sind nur verfügbar, wenn der Einrichterparameter „Erweiterte Einstellungen“ auf „Ja“ steht
 
@@ -87,14 +87,14 @@ Die Eingabemöglichkeiten für Lufa Grunddaten sind nur verfügbar, wenn der Ein
 | Standartwert | Hier werden die Standardgrenzwerte der Inhaltsstoffe eingetragen. Vorbelegt aus Artikelbestandteile.<br> |
 | ME | Mengeneinheit der Inhaltsstoffe. Vorbelegt aus Artikelbestandteile. Auswählbar über das Format „AF_LUFAME“<br> |
 
-<p class="just-emphasize">E-Mail Laborleitung</p>
+### E-Mail Laborleitung
 
 | Name | Bedeutung |
 | --- | --- |
 | Laborleitung | Hier kann eine Liste von E-Mail Adressen eingetragen werden. Dieses Feld wird im Standard nicht ausgewertet<br> |
 | E-Mail Text | Hier kann ein vorgefertigter Text eingetragen werden. Dieses Feld wird im Standard nicht ausgewertet.<br> |
 
-<p class="just-emphasize">Felder auf der Registerkarte Vermehrung</p>
+#### Felder auf der Registerkarte Vermehrung
 
 Diese Registerkarte wird für die Detailprüfung „Vermehrungen“ eingeblendet.
 
@@ -103,7 +103,7 @@ Diese Registerkarte wird für die Detailprüfung „Vermehrungen“ eingeblendet
 | Prozedur Schläge | Hier wird die Prozedur für „Schläge“ eingetragen.<br> |
 | Prozedur Vermehrer | Hier wird die Prozedur für „Vermehrer“ eingetragen.<br> |
 
-<p class="just-emphasize">Felder auf der Registerkarte Besatzarten</p>
+#### Felder auf der Registerkarte Besatzarten
 
 Die Registerkarte „Besatzarten“ ist nur verfügbar, wenn der Einrichterparameter „Erweiterte Einstellungen“ auf „Ja“ steht und die Detailprüfung auf „Besatz“ oder „Reinheit“ steht.
 
@@ -116,11 +116,11 @@ Die Registerkarte „Besatzarten“ ist nur verfügbar, wenn der Einrichterparam
 | max. Anzahl | Grenzwert für die Anzahl an Samen für die betreffende Besatzart. Dieser Grenzwert dient als Vorgabe für die Labordaten.<br> |
 | Grp. | Jede Besatzart kann zu einer Besatzartgruppe zugeordnet werden. Es kann zwischen<br><ul><li>Kultur (Kulturart)</li><li>Unkraut (Wildart)<br>unterschieden werden. Die Vorbelegung erfolgt über das Anwenderformat „AF_BESATZART“.<br>&nbsp;</li></ul> |
 
-<p class="just-emphasize">Felder auf der Registerkarte Merkmale</p>
+#### Felder auf der Registerkarte Merkmale
 
 Die Registerkarte „Merkmale“ wird nur angezeigt, wenn der Einrichterparameter „Erweiterte Einstellungen“ den Wert „Ja“ hat und die Detailprüfung auf „Kontrollanbau“ oder „Markeranalyse“ steht
 
-<p class="just-emphasize">Feldversuch</p>
+### Feldversuch
 
 | Name | Bedeutung |
 | --- | --- |
@@ -130,7 +130,7 @@ Die Registerkarte „Merkmale“ wird nur angezeigt, wenn der Einrichterparamete
 | Merkmal | Merkmale für die phänotypische Untersuchung. Mit der Taste **F3** kann eine Auswahl über die [Qualitätsmerkmale](./qualitaetsmerkmale.md) (Direktspring **[SAATR]**)abgerufen werden, die in dem betreffenden Verfahren untersucht werden soll. Hier können nur Qualitätsmerkmale ausgewählt werden, die den Merkmalstyp „Phänotyp“ haben.<br> |
 | Bezeichnung | Bezeichnung des Merkmals.<br> |
 
-<p class="just-emphasize">Markeranalyse</p>
+### Markeranalyse
 
 | Name | Bedeutung |
 | --- | --- |
@@ -141,7 +141,7 @@ Die Registerkarte „Merkmale“ wird nur angezeigt, wenn der Einrichterparamete
 | Bezeichnung | Bezeichnung des Merkmals.<br> |
 | Marker | Hier können die Marker angegeben werden, die für die Untersuchung eines Merkmals eingesetzt werden soll. Die Marker werden im Anwenderformat „AF_ANMARKER“ hinterlegt.<br> |
 
-<p class="just-emphasize">Felder auf der Registerkarte TKM</p>
+#### Felder auf der Registerkarte TKM
 
 Die Refisterkarte TKM wird für die Detailprüfungen „TKM“, „TKM Extern“ und „TKM Leguminosen“ eingeblendet.
 

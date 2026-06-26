@@ -11,7 +11,7 @@ In den Stammdaten hinterlegt sind verschiedene Suchkriterien, anhand derer ein A
 - Strichcodenummer(n)
 - Artikelbezeichnung
 
-<p class="just-emphasize">Am Beispiel der Artikelnummer ergibt sich folgender Ablauf:</p>
+### Am Beispiel der Artikelnummer ergibt sich folgender Ablauf:
 
 Wenn die Artikelnummer korrekt eingegeben wird, erscheint rechts davon die erste Artikeltextzeile. Als nächstes Eingabefeld wird das Mengenfeld abgefragt. Falls es sich nicht um den gewünschten Artikel handelt, kann mit der Pfeil-Taste wieder in das Feld “Artikelnummer” zurückpositioniert und die Eingabe wiederholt werden.
 
@@ -25,19 +25,19 @@ Auch ist es möglich, eine Auswahlvariante direkt im Feld “Artikelnr.” aufzu
 
 Eine Suchvariante kann auch als Standardvariante gesetzt werden; dann wird immer im Eingabefeld „Artikel“ die Suche nach dem gesetzten Kriterium gestartet. Die „Setzung“ wird durch Markierung der Suchvariante und Betätigung der Funktion „Einstiegsvariante“ ausgelöst. Eine gesetzte Variante kann mit Betätigung von „Einstiegsvariante“ gelöscht werden. Dann ist automatisch die Standardsuche aktiv. Sie ermöglicht sowohl die Suche nach „Artikelnummer“ und „Bezeichnung“.
 
-<p class="just-emphasize">Diverse Artikel</p>
+### Diverse Artikel
 
 Auch wenn es Ziel eines Unternehmens ist, eine artikelgenaue Bestands- und Erfolgsrechnung zu organisieren, wird es in vielen Fällen erforderlich sein, Sammelkonten zu führen. Hiermit ist jedoch nicht gemeint, Artikel von Fall zu Fall manuell zu buchen. Vielmehr wird man spezielle Artikelkonten anlegen, über die dann Geschäftsvorfälle, die diese Artikel berühren, abgewickelt werden. Hierdurch ist gewährleistet, dass alle Vorfälle im System ordnungsgemäß erfasst wurden und dass die interne Steuerung, z.B. Verbuchung auf den Steuerkonten, vom System verwaltet wird. Natürlich will man in diesen Fällen einen individuellen Artikeltext vergeben. Die Betä­ti­gung von “F6” Artikeltext ändern ermöglicht hier dann die Korrektur des vorge­ge­be­nen Textes. Zusätzlich kann dieses Verfahren automatisiert werden, indem im Artikel unter „weitere Kennzeichen“ auf „Diverse Artikel“ geschaltet wird. Das Fenster öffnet dann automatisch.
 
-<p class="just-emphasize">Menge</p>
+### Menge
 
 An dieser Stelle erfolgt die Mengeneingabe. Bitte beachten Sie, dass die Eingabe der Nachkommastellen zur Formulareinrichtung passen muss.
 
-<p class="just-emphasize">Eingabe der Gesamtmenge</p>
+### Eingabe der Gesamtmenge
 
 In den meisten Fällen erfolgt eine Gesamtmengeneingabe im Mengenfeld, gesteuert über die Mengeneinheiten. Weitere Fälle sind dann nicht zu beachten.
 
-<p class="just-emphasize">Mengeneingabe mit Gebinde</p>
+### Mengeneingabe mit Gebinde
 
 Wenn die Verkaufsmengeneinheit eines Artikels als Gebinde definiert wurde, dann öffnet sich nach Aufruf des Artikels ein Erfassungsfenster zur Gebindeerfassung:
 
@@ -49,7 +49,7 @@ Das Ergebnis der Gebindeberechnung wird nach Verlassen des Fensters in das Menge
 
 Häufig ist es sinnvoll, die Auflösung des Gebindes mit anzudrucken, so z.B. auf dem Lieferschein, um dem Lageristen die Aufgabe zu erleichtern. Hierzu muss das Formular entsprechend eingerichtet werden.
 
-<p class="just-emphasize">Preis</p>
+### Preis
 
 Hier erfolgt die Preiseingabe. Der Preis wird entweder automatisch vorgeschlagen (aus der Preismatrix, aus individuellen Vereinbarungen, etc.) und hier bestätigt oder manuell erfasst. Der Grundpreis (Liste oder individuell) wird bereits mit dem Artikelaufruf angezeigt. Der Kontraktpreis jedoch erst nach Eingabe der Menge, da geprüft werden muss, ob und welcher Preis überhaupt gezogen werden soll.
 
@@ -63,23 +63,23 @@ Es ist möglich, dort auf die Standardpreise zurückzuschalten.
 
 Bei der automatischen Preisfindung kann durch Anwahl der Funktion “Preisfindung Information” angezeigt werden, wie dieser Preis zustande gekommen ist. Die Preisherkunft (manuell, Liste, Kontrakt,...) wird rechts neben dem Gesamtpreisfeld angezeigt.
 
-<p class="just-emphasize">Preiseinheit / Mengeneinheit</p>
+### Preiseinheit / Mengeneinheit
 
 Der Preis bezieht sich auf “n” “Mengeneinheiten”, z.B. “1 Stück”. Diese Felder sind vorbelegt mit den Angaben des Artikelstamms, können hier jedoch bei Bedarf über­schrieben werden (wenn durch das Parametersystem gestattet). Wenn also ein anderer Preisbezug gewünscht ist, dann werden zuerst die Anzahl der Mengeneinheiten und danach die Mengeneinheit erfasst. A.eins lässt nur Mengeneinheiten zu, die sich auf die gleiche Grundeinheit, wie im Artikelstamm in den Mengeneinheiten definiert, zurückführen lassen, um die Datenkonsistenz zu gewährleisten.
 
-<p class="just-emphasize">Skontierfähigkeit</p>
+### Skontierfähigkeit
 
 Eingabe, ob auf die Position prinzipiell Skonto gewährt wird. Vorbelegt aus den Angaben des Artikelstamms. Erst die Bestimmung der Zahlungsbedingung zum Abschluss entscheidet jedoch darüber, ob tatsächlich Skonto gewährt wird.
 
-<p class="just-emphasize">Rabatt</p>
+### Rabatt
 
 Gesteuert über den Artikel (manueller Rabatt zulässig) wird ein Rabatt abgefragt.
 
-<p class="just-emphasize">Informationen</p>
+### Informationen
 
 Rechts im Erfassungsbildschirm befindet sich ein Informationsfenster, das Informationen zum Artikel bereitstellen kann (Gewicht, Preis, etc.). Auch dieser Bildschirm kann frei im Formulareinrichter gestaltet werden.
 
-<p class="just-emphasize">Erfassung Vorverkauf, Voreinkauf, Einlagerung und Kommission</p>
+### Erfassung Vorverkauf, Voreinkauf, Einlagerung und Kommission
 
 Die Geschäftsvorfälle Voreinkauf und Kommission sind dem Verkaufsbereich zugeordnet während der Voreinkauf und die Einlagerung dem Bereich Einkauf angesiedelt sind. Sie bestehen in der Regel immer aus den Phasen Geschäftseinleitung und Geschäftsabwicklung:
 

@@ -4,7 +4,7 @@
 
 Es wurde ein neuer Report "G u V mit Vorvorjahreswerten" erstellt. Dieser ist wie die G u V aufgebaut, nur dass er zwei weitere Spalten für ein weiteres Vergleichsjahr hat.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 737359[35636]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/finanzbuchhaltung22.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 35636, 737359

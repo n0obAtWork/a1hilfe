@@ -4,7 +4,7 @@
 
 Unter FRZ ist nun im Allgemeinen Tabreiter das PIV Warnungsverhalten zu steuern. Standartmäßig mit Einstellung 0 = Warnung auf dem Bildschirm. (wie vorher) Neue Einstellungen: 1 = Warnung nur im Fehlerprotokoll 2 = Warnung Ignorieren
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 741129[37121]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_formularzuordnung.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 37121, 741129

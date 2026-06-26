@@ -4,7 +4,7 @@
 
 Hauptmenü > Inventur
 
-<p class="just-emphasize">Allgemeines</p>
+### Allgemeines
 
 A.eins bietet vielfältige Möglichkeiten, die Inventur organisatorisch zu unterstützen. Von der Gesamtinventur zu einem festen Stichtag über abschnittsweise Teilinventuren reicht die Vielfalt dieses Systems.
 

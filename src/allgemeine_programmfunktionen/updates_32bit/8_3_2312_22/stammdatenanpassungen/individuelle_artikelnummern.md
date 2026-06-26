@@ -4,7 +4,7 @@
 
 In der Anwendung Individuelle Artikelnummern [ARSI] können jetzt unterschiedliche Datensätze von mehreren Bedienern gleichzeitig bearbeitet werden. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 729122[34570]
 
@@ -20,6 +20,6 @@ Funktion/Report: [ARSI]
 
 [Weitere Informationen](http://www.amic.de/hilfe/_artiindivnummer.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2312.22, 34570, 729122

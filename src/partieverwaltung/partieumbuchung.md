@@ -6,11 +6,11 @@ Hauptmenü > Partieverwaltung > Partie-Stammdaten > Partiegruppen
 
 oder Direktsprung **[PAR]**
 
-<p class="just-emphasize">Allgemein</p>
+#### Allgemein
 
 In der Variante „Partiebestand Details“ kann die Partieumbuchung durchgeführt werden. Dabei wird eine Partie in der Auswahlliste ausgewählt und mit der Funktion „***Partie Umbuchung***“ öffnet sich dann die Maske für die Partieumbuchung.
 
-<p class="just-emphasize">Maskenfelder</p>
+#### Maskenfelder
 
 Die meisten Maskenfelder zeigen nur die Partieinformationen der Original Partie an.
 
@@ -21,7 +21,7 @@ Folgende Felder sind veränderbar:
 | Partiebezeichnung | In diesem Feld wird die neue Partiebezeichnung eingetragen. Wird das Feld nicht geändert und er Einrichterparameter „“ steht auf „Nein“, so kann keine neue Partie mit der gleichen Bezeichnung angelegt werden. |
 | Menge | In das Feld wird die Menge eingetragen, die Umgebucht werden soll. |
 
-<p class="just-emphasize">Ablauf</p>
+#### Ablauf
 
 **Neue Partie mit gleicher Partiebezeichnung**
 
@@ -45,7 +45,7 @@ Es ist aber auch Möglich eine eigene Partieumbuchung(Artikelumbuchung) im Makro
 
 3. Die Partienummer der neuen Partie
 
-<p class="just-emphasize">Addon</p>
+#### Addon
 
 Um AIS auf der Maske anzuzeigen gibt es zwei Felder für die Partieid auf der Maske
 
@@ -53,7 +53,7 @@ Um AIS auf der Maske anzuzeigen gibt es zwei Felder für die Partieid auf der Ma
 
 2. n.PartieId$
 
-<p class="just-emphasize">Makrobeispiel</p>
+#### Makrobeispiel
 
 In diesem Beispiel wird eine Artikelumbuchung auf den gleichen Artikel mit unterschiedlicher Partie durchgeführt. Über die Funktion
 

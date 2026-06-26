@@ -20,7 +20,7 @@ Auf dem Register ***Test*** sind folgende Felder zu sehen:
       </tr>
       <tr>
         <td>
-          <p>Feldname</p>
+          <p><strong><em>Feldname</em></strong></p>
         </td>
         <td>
           <p>Der Feldname, des in der Prozedur befüllten Feld</p>
@@ -28,7 +28,7 @@ Auf dem Register ***Test*** sind folgende Felder zu sehen:
       </tr>
       <tr>
         <td>
-          <p>Inhalt</p>
+          <p><strong><em>Inhalt</em></strong></p>
         </td>
         <td>
           <p>Der Inhalt des entsprechenden Feldes</p>
@@ -36,7 +36,7 @@ Auf dem Register ***Test*** sind folgende Felder zu sehen:
       </tr>
       <tr>
         <td>
-          <p>Aktuelle Prozedur</p>
+          <p><strong><em>Aktuelle Prozedur</em></strong></p>
         </td>
         <td>
           <p>Die getestete Prozedur</p>
@@ -44,7 +44,7 @@ Auf dem Register ***Test*** sind folgende Felder zu sehen:
       </tr>
       <tr>
         <td>
-          <p>Vorgangs Id</p>
+          <p><strong><em>Vorgangs Id</em></strong></p>
         </td>
         <td>
           <p>Die Id eines Vorgangs, auf welcher die Prozedur angewendet werden soll.</p>
@@ -52,7 +52,7 @@ Auf dem Register ***Test*** sind folgende Felder zu sehen:
       </tr>
       <tr>
         <td>
-          <p>Wabew Id</p>
+          <p><strong><em>Wabew Id</em></strong></p>
         </td>
         <td>
           <p>Die id einer Warenbewegung, auf welcher die Prozedur angewendet werden soll</p>

@@ -4,7 +4,7 @@
 
 Es kann eine parameterlose private Prozedur im Mandantstamm [MND] in Registerkarte "Allgemein" im Feld "Nachlaufprozedur" hinterlegt werden. Diese Prozedur wird im Zuge des A.eins-Programm-Updates am Ende aufgerufen.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 731447[34806]
 
@@ -20,6 +20,6 @@ Funktion/Report: Update/Nachlaufprozedur
 
 [Weitere Informationen](http://www.amic.de/hilfe/mandantenstammmnd.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.1, 34806, 731447

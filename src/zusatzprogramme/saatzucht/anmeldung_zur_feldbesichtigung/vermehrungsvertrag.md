@@ -53,7 +53,7 @@ Im Vermehrungsvertrag ist die Vertragsnummer frei wählbar. Das Feld Aussaat bei
 Die Vermehrernummer kommt aus dem Kundenstamm, z. B. 30300 für PHP. Hier ist auch die VO-Firma hinterlegt. Sollte wider Erwarten eine andere VO-Firma eingetragen werden, so kann das Feld VO-Firma durchaus geändert werden. Gleiches gilt für die Felder Aufbereiter, VMKz (Vermehrerkennzeichen) und LWK offiziell.  
     
 
-<p class="just-emphasize">ACHTUNG:</p>
+### ACHTUNG:
 
 Die Vermehrerkennziffer der Landwirtschaftskammer muss 9-stellig sein. Die ersten beiden Stellen sind die der Landwirtschaftskammer, die für den Landwirt zuständig ist (21 = Schleswig Holstein #######). Die Kammern geben in der Regel nur die Endnummern an – Leerstellen sind mit „0“ aufzufüllen, z. B. 210000011. Wenn die Kammernummer mit „0“ beginnt, dann lediglich 8 Stellen erfassen; die führende „0“ wird vom Programm automatisch zugefügt, wenn die Daten für den Ausdruck aufbereitet werden.
 
@@ -61,7 +61,7 @@ Vertragsart, Registriernummer und Auftragsnr. sind z. Zt. noch nicht belegt, kö
 
 Vorstufe, Basis, ZS und Z2. Zuchtgartengemisch ist KEINE offizielle Kategorie. D. h. bei Vermehrungen von ZG zu VS ist als Kategorie VS anzugeben; der Status ZG ergibt sich aus der Anerkennungsnummer!!!
 
-<p class="just-emphasize">Schlagzuordnung F5.</p>
+#### Schlagzuordnung F5.
 
 In der sich hier öffnenden Auswahlliste können bereits erfasst Schläge ausgewählt mit der Funktion ***Übernehmen*** **F9 übernommen werden** oder neu erfasst werde(***Neu*** **F8**).
 
@@ -82,7 +82,7 @@ Um die Vorfrüchte zuordnen zu können, muss der Schlag markiert und per Doppelk
 Vorfrüchte und Basispartie bitte lt. Aufstellung (SZ oder RGR) erfassen.  
 Die Ertragsschätzung wird aus der Saatsorte vorbelegt.
 
-<p class="just-emphasize">Funktionen</p>
+#### Funktionen
 
 | Funktion | Taste | Bedeutung |
 | --- | --- | --- |

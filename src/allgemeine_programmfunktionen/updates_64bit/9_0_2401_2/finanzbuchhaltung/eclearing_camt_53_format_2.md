@@ -4,7 +4,7 @@
 
 In der Anwendung eClearing [ECL] kann die Funktion "Datei laden" aufgerufen werden. CAMT-Dateien werden in einem komprimierten Zip-Archiv geliefert und können mehrere Dateien enthalten. Beim Import wurde fälschlicherweise nur die erste dieser Dateien verarbeitet. Dies wurde nun korrigiert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 733664[35082]
 
@@ -20,6 +20,6 @@ Funktion/Report: Datei laden
 
 [Weitere Informationen](http://www.amic.de/hilfe/dateienladen.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.2, 35082, 733664

@@ -29,7 +29,7 @@ Bei Erfassung über Historie ist es möglich einen abweichenden Betrag einzugebe
 Verwendet man die Variante „Fibubeleg ohne Anlageneintrag“ zur Erstellung der Umbuchung wird der Betrag des SO-Beleges als Umbuchungsbetrag verwendet, solange er kleiner oder gleich dem Restwert des Anlagengutes ist.  
     
 
-<p class="just-emphasize">Beispiel 1:</p>
+#### Beispiel 1:
 
 Anschaffung 01.01.2005 für 10.000,00. Am 15.04.2006 wird das Anlagegut einer anderen Kostenstelle zugewiesen, die Lebensdauer soll unverändert bleiben.  
     
@@ -158,7 +158,7 @@ RESTBUCHWERT / RESTLEBENSDAUER \* ABSCHREIBUNGSDAUER bzw.
 
 7500,00 / 45 \* 9 = 1500,00
 
-<p class="just-emphasize">Beispiel 2:</p>
+#### Beispiel 2:
 
 Eine im Bau befindliche Anlage wird am 12.05.2005 fertiggestellt. Die Lebensdauer der neuen Anlage beträgt 20 Jahre. Abschreibung Linear
 

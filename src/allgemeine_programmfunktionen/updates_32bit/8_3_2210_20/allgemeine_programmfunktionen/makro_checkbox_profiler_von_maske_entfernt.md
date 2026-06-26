@@ -4,7 +4,7 @@
 
 In der Anwendung [MAKRO] wurde die Checkbox "Profiler" auf der Pascal-Script Maske entfernt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 715125[32787]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/makroodermakrofstatement.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2210.20, 32787, 715125

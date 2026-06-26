@@ -11,7 +11,7 @@ Dieses Addin ist für die Ansteuerung eines Bezahlterminals mit ZVT700-Standard-
 
 Die Aufgabe dieses AddIns ist es, dem Terminal die Anforderung eines definierten Betrages zwischen 0,01 und 9999,99 € zu übergeben und dafür zu sorgen, dass der Bediener zur Zahlung des Betrages mit Karte aufgefordert wird. Am Ende der Zahlung gibt das AddIn die Information aus, ob die Bezahlung erfolgreich war oder nicht.
 
-<p class="just-emphasize">Hinweise zu Fragen:</p>
+#### Hinweise zu Fragen:
 
 Eine gute Webseite für Fragen rund um den Zahlungsverkehr findet sich unter [http://www.zahlungsverkehrsfragen.de](http://www.zahlungsverkehrsfragen.de) (Stand November 2012)
 

@@ -12,11 +12,11 @@ Die Änderungsverfolgung von Kundendaten ist ein Überwachungssystem, um Änderu
 
 Sollte die Änderungsverfolgung für Anschiften eingerichtet werden, so achten Sie bitte darauf auch die Änderungsverfolgung im Kundenstamm - hier speziell für das Feld „*AdressIdHauptAdr*“ - einzurichten.
 
-<p class="just-emphasize">Änderungen übernehmen</p>
+### Änderungen übernehmen
 
 Übernimmt die in der Auswahlliste markierte/n Zeile/n.
 
-<p class="just-emphasize">Änderungen verwerfen</p>
+### Änderungen verwerfen
 
 Verwirft die in der Auswahlliste markierte/n Zeile/n.
 

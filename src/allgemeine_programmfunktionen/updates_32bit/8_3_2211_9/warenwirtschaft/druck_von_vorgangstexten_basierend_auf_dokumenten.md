@@ -4,7 +4,7 @@
 
 Der Druck von Textzeilen erfolgt nun seitengerecht.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 712500[32927]
 
@@ -20,6 +20,6 @@ Funktion/Report: Vorgangsdruck
 
 [Weitere Informationen](http://www.amic.de/hilfe/textzeilen.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2211.9, 32927, 712500

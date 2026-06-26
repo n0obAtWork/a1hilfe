@@ -4,7 +4,7 @@
 
 Numerisches Eingabefeld akzeptiert jetzt auch Fließkommazahlen. Es wird jeweils das regionsspezifische Trennzeichen betrachtet - deutsch: Komma, englisch: Punkt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 0[35007]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/-)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.2, 35007, 0

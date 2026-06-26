@@ -16,9 +16,9 @@ In der Optionbox der Masken und der Auswahlliste existieren folgende Funktionen:
 
 Für die Funktion Status zurücksetzen gibt es einen Sonderfall. Vorgangsimport mit Vorgangsklasse 500(Ladeschein) und 1500(Eingangsladschein) werden mit der Funktion immer auf Status 5 gesetzt.
 
-###### Standardvorgang erzeugen
+### Standardvorgang erzeugen
 
-<p class="just-emphasize">Allgemein</p>
+#### Allgemein
 
 Mit dieser Funktion kann ein Vorgang aus den Importieren Daten erzeugt werden. Es müssen die Positionen in der Auswahlliste markiert werden, aus denen dann ein Vorgang erzeugt werden soll und diese dürfen keine rotmarkierten Felder mehr in der Auswahlliste besitzen. 
 
@@ -26,9 +26,9 @@ Kann ein Vorgang bei der Vorgangserzeugung nicht angelegt werden, so wird der St
 
 Kann eine Position bei der Vorgangserzeugung im Vorgang nicht angelegt werden, so wird der Status für diese Position auf Fehlerhaft gesetzt. Ansonsten wird nach erfolgreicher Erstellung des Vorgangs der Status für beide Kennzeichen auf „Erledigt“ gesetzt. Des Weiteren wird die Vorgangsnummer und die Vorgangsid in des Stammsatz geschrieben, so hat man den Überblick darüber, welcher Vorgang aus diesem Satz erzeugt worden ist.
 
-<p class="just-emphasize">Folgende Felder werden in den Vorgang übernommen.</p>
+#### Folgende Felder werden in den Vorgang übernommen.
 
-<p class="just-emphasize">Relation [ImportVorgStamm](http://www.amic.de/ihilfe/XMLDocuments/iAeins/html/T_Datenmodell_ImportVorgstamm.htm)</p>
+#### Relation [ImportVorgStamm](http://www.amic.de/ihilfe/XMLDocuments/iAeins/html/T_Datenmodell_ImportVorgstamm.htm)
 
 In dieser Relation werden Kopfdaten des Vorgangs hinterlegt.
 
@@ -39,7 +39,7 @@ In dieser Relation werden Kopfdaten des Vorgangs hinterlegt.
 | Vorgangsklasse | Klasse wird bei der Vorgangsanlegung gesetzt | V_KlassNummer |
 | Vorgangsunterklasse | UnterKlasse wird bei der Vorgangsanlegung gesetzt | V_UKlassNUmmer |
 
-<p class="just-emphasize">Relation [ImportVorgPosition](http://www.amic.de/ihilfe/XMLDocuments/iAeins/html/T_Datenmodell_ImportVorgPosition.htm)</p>
+#### Relation [ImportVorgPosition](http://www.amic.de/ihilfe/XMLDocuments/iAeins/html/T_Datenmodell_ImportVorgPosition.htm)
 
 In dieser Relation werden Daten der Vorgangswarenposition gespeichert.
 
@@ -244,7 +244,7 @@ In dieser Relation werden Daten der Vorgangswarenposition gespeichert.
   </table>
 </div>
 
-<p class="just-emphasize">Relation ImportVorgPositionLVS</p>
+#### Relation ImportVorgPositionLVS
 
 Diese Relation beherbergt Informationen zu LVS-Ladeträgern, die zu dieser Position gehören.
 
@@ -264,7 +264,7 @@ Diese Relation beherbergt Informationen zu LVS-Ladeträgern, die zu dieser Posit
 | ME_Nummer | Mengeneinheit der Menge auf dem Ladeträger | ME_Nummer |
 | IVP_GUID | Guid der dazugehörigen Position der Relation<br>ImportVorgPosition | IVP_GUID |
 
-<p class="just-emphasize">Relation ImportVorgPositionPartie</p>
+#### Relation ImportVorgPositionPartie
 
 In dieser Relation werden Informationen der Partie(n) einer Position abgelegt. Eine Partie, die hier eingetragen ist, jedoch im System noch nicht existiert, wird angelegt werden.
 
@@ -280,7 +280,7 @@ In dieser Relation werden Informationen der Partie(n) einer Position abgelegt. E
 | Menge | Menge der Partie | |
 | ME | Mengeneinheit der Partie | |
 
-<p class="just-emphasize">Relation ImportVorgScannung</p>
+#### Relation ImportVorgScannung
 
 | Felder | ID’s / Infos | Datenbankfeld |
 | --- | --- | --- |
@@ -293,7 +293,7 @@ In dieser Relation werden Informationen der Partie(n) einer Position abgelegt. E
 | Scannung | | |
 | MarkierIdent | | |
 
-<p class="just-emphasize">Relation ImportVorgStammAddOn</p>
+#### Relation ImportVorgStammAddOn
 
 Aus dieser Relation werden Vorgangsaddon-Felder des Vorgangs befüllt. Der AddOnName muss dem des Feldes in der Tabelle VorgangAddOn entsprechen.
 
@@ -303,7 +303,7 @@ Aus dieser Relation werden Vorgangsaddon-Felder des Vorgangs befüllt. Der AddOn
 | AddonName | Name des AddOnFeldes | |
 | AddonWert | Wert des AddOnFeldes | |
 
-<p class="just-emphasize">Relation ImportVorgStammUFLD</p>
+#### Relation ImportVorgStammUFLD
 
 In dieser Relation werden die Setzungen von UFLD-Feldern für den Vorgang vorgenommen. Bitte beachten Sie, dass nur UFLD-Felder gesetzt werden können, die vom importierenden Bediener für den jeweiligen Vorgang gesetzt werden dürfen.
 
@@ -313,7 +313,7 @@ In dieser Relation werden die Setzungen von UFLD-Feldern für den Vorgang vorgen
 | UFLDId | ID des UFLD-Feldes | |
 | UFLDWert | Wert des UFLD-Feldes | |
 
-<p class="just-emphasize">Relation ImportVorgTextPosition</p>
+#### Relation ImportVorgTextPosition
 
 In dieser Relation werden Textpositionen hinterlegt, die entweder vor oder nach einer Position in den Beleg eingefügt werden können.
 
@@ -328,7 +328,7 @@ In dieser Relation werden Textpositionen hinterlegt, die entweder vor oder nach 
 | VorgText | Text der Positionszeile | VorgText |
 | IVP_GUID | Guid der dazugehörigen Position der Relation<br>ImportVorgPosition | IVP_GUID |
 
-<p class="just-emphasize">Relation ImportVorgStammZusatzTexte</p>
+#### Relation ImportVorgStammZusatzTexte
 
 | Felder | ID’s / Infos | Datenbankfeld |
 | --- | --- | --- |
@@ -337,7 +337,7 @@ In dieser Relation werden Textpositionen hinterlegt, die entweder vor oder nach 
 | LineNo | Zeilennummer | |
 | TextZeile | Text dieser Zeile | |
 
-<p class="just-emphasize">Relation ImportVorgStammZuAb</p>
+#### Relation ImportVorgStammZuAb
 
 Diese Relation beinhaltet einen Verweis auf die zu diesem Beleg anzuwendenden Zu-Abschläge/Frachten oder Rabatte. Da im Vorgangsimport keine Gruppen definiert werden können, wird dieser Zu/Abschlag stets auf die Gruppe 0 angewendet.
 
@@ -347,7 +347,7 @@ Diese Relation beinhaltet einen Verweis auf die zu diesem Beleg anzuwendenden Zu
 | IVZ_Zaehler | Laufender Zähler des Zu/Abschlags | |
 | IVZ_GUID | Guid der Definition | |
 
-<p class="just-emphasize">Relation ImportVorgPositionZuAb</p>
+#### Relation ImportVorgPositionZuAb
 
 Diese Relation beinhaltet einen Verweis auf die zu dieser Position anzuwendenden Zu-Abschläge/Frachten oder Rabatte
 
@@ -357,15 +357,15 @@ Diese Relation beinhaltet einen Verweis auf die zu dieser Position anzuwendenden
 | IVZ_Zaehler | Laufender Zähler des Zu/Abschlags | |
 | IVZ_GUID | Guid der Definition | |
 
-<p class="just-emphasize">Relation [ImportVorgZuAbDef](../tabellen_des_vorgangsimports/importvorgzuabdef.md)</p>
+#### Relation [ImportVorgZuAbDef](../tabellen_des_vorgangsimports/importvorgzuabdef.md)
 
 Diese Relation beinhaltet die Definition eines Zu/Abschlags, eines Rabattes oder einer Fracht.
 
 Bitte beachten Sie, dass das Setzen einiger Werte abhängig von der verwendeten Berechnungsformel ist. Das Setzen eines nicht relevanten Wertes kann ggf. zum Abbruch und wird in jedem Fall jedoch zu einem Eintrag ins Fehlerprotokoll führen.
 
-###### Positionen bearbeiten
+### Positionen bearbeiten
 
-<p class="just-emphasize">Allgemein</p>
+#### Allgemein
 
 In dieser Maske können Änderungen an einer vorhandenen Position durchgeführt werden.
 
@@ -375,15 +375,15 @@ Hierbei ist zu beachten, dass wenn mehrere Positionen markiert wurden und beim B
 
 Bei allen anderen Änderungen werden die Daten an der aktuellen Position abgeändert.
 
-<p class="just-emphasize">Partie-Neuanlage</p>
+#### Partie-Neuanlage
 
 Mit dieser Funktion kann eine neue Partie für den Artikel in dieser Position angelegt werden. Diese Partie wird dann Automatisch in das Partiefeld übernommen.
 
-<p class="just-emphasize">Positionstext</p>
+#### Positionstext
 
 Auf dieser Registerkarte kann ein Positionstext eingetragen werden, welcher am Ende der Positionszeile eingefügt wird. Der Text darf nur 100 Zeichen pro Textzeile haben. Es sind aber mehrere Textzeilen möglich.
 
-###### Plausbibilitätsprüfung des Vorgangsimportes
+### Plausbibilitätsprüfung des Vorgangsimportes
 
 Um die Plausibilität von einem Vorgangsimport zu überprüfen, muss man auf die Variante Vorgangimport wechseln.
 

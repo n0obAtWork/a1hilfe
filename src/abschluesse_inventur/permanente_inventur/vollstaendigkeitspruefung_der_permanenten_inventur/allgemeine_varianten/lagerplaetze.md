@@ -6,6 +6,6 @@ Für jene Benutzer, die „Lagerplatz“ als physikalischen und zudem überschau
 
 Die Variante enthält eine Funktion, die es erlaubt, die markierten Lagerplätze mit einem definierten Datum als besucht zu kennzeichnen.
 
-<p class="just-emphasize">Hinweis</p>
+**Hinweis**
 
 Um diese Auswahl aussagekräftig zu machen, ist Voraussetzung, dass hier stets alle Artikel bzw. Partien des Lagerplatzes aufgenommen werden.

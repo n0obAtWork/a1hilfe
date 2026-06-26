@@ -4,7 +4,7 @@
 
 Die von AMIC ausgelieferte Einstellung zur Anonymisierung laut DSGVO wurde in zwei Punkten angepasst:Die Kundenbezeichnung wird mit anonymisiert. Die Kundenbanken werden gelöscht .
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 716012[33294]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/eudsgvodatenschutzgrundverordn.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2302.17, 33294, 716012

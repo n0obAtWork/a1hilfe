@@ -4,7 +4,7 @@
 
 In der Auswahlliste 2.0 können Spalten mithilfe des kleinen Pins in der Titelzeile fixiert werden. Diese Einstellung wird jetzt gespeichert und beim erneuten Aufruf der Variante in der Auswahlliste 2.0 wieder verwendet. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 717376[34197]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/datentabelle.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.1, 34197, 717376

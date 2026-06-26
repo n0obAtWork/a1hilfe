@@ -4,7 +4,7 @@
 
 Im Belegfluss wurde bei der direkten Erstellung des Finanzbelegs statt des Valutadatums Falscherweise das Skontodatum verwendet.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 737462[35635]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/belegflusspfleger.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.2, 35635, 737462

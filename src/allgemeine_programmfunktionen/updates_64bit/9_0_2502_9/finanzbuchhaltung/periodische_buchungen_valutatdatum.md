@@ -4,7 +4,7 @@
 
 Bei Periodischen Buchungen wurde das Valutadatum falscherweise auf das Belegdatum gesetzt. Dies wurde korrigiert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 753606[39717]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/periodischebuchungen.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.9, 39717, 753606

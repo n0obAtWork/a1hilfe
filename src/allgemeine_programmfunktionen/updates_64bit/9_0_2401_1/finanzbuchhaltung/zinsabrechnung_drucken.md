@@ -4,7 +4,7 @@
 
 Um auch Zinsabrechnungen ohne Positionen ausdrucken zu können, reicht es jetzt nur den Bereich 605 (Zeilentyp) mit mindestens einem Feld einzurichten.Außerdem wurde das Vorlageformular "-1016 Zinsabrechnung" angepasst.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 730163[34652]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/zinsabrechnungberzinsformulare.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.1, 34652, 730163

@@ -14,18 +14,18 @@ Die Signatur wird verschlüsselt im Journal gespeichert.
 
 Wenn Transaktionen im Journal manipuliert werden, ist die Kette der Signaturen nicht mehr konsistent. Es kann mit einer Prüfsoftware auf Knopfdruck herausgefunden werden, an welcher Stelle die Manipulation stattgefunden hat.
 
-<p class="just-emphasize">**Voraussetzungen:**</p>
+#### **Voraussetzungen:**
 
 - Der neue TSE-Stick liegt vor.
 - Die Lizenzdatei liegt vor.
 
-<p class="just-emphasize">Tipp!</p>
+#### Tipp!
 
 Um zu jederzeit sicherzustellen, dass der Betrieb gewährleistet ist, empfiehlt es sich mehr als einen TSE-Stick vorrätig zu haben.
 
 Wenn es zu Ausfällen kommen sollte, können Sie so schnell agieren. Dies schafft insbesondere beim Betrieb von mehreren Kassen Sicherheit.
 
-<p class="just-emphasize">Hinweis!</p>
+#### Hinweis!
 
 Voraussetzung für die Installation über das Netzwerk ist, dass der TSE-Stick von Ihrem IT-Betreuer im Netzwerk freigegeben wird sowie einem Laufwerk zugeordnet wird.
 

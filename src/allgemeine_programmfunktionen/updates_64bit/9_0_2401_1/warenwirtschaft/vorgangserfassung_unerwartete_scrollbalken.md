@@ -4,7 +4,7 @@
 
 Unter bestimmten Voraussetzungen wurde in der Vorgangserfassung die Bildschirmabmessung falsch berechnet, sodass der Bildschirm mit Scrollbalken versehen wurde. Dies wurde jetzt behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 723084[34073]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/vorgangsbearbeitungallgemein.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.1, 34073, 723084

@@ -8,7 +8,7 @@ Direktsprung **[AIS]**
 
 Grundsätzlich lassen sich nur Mustervorlagen exportieren und importieren. Diese Mustervorlagen können dann anschließend als Gruppe übernommen werden bzw. die zu exportierenden Daten mussten vorher als Mustervorlage vorliegen.
 
-<p class="just-emphasize">Export</p>
+#### Export
 
 ![](../../ImagesExt/image8_1069.png)
 
@@ -20,7 +20,7 @@ Hat eine Mustervorlage Untergruppen werden diese automatisch mit exportiert.
 
 Der Export erfolgt im XML-FORMAT (siehe OSQL XMLExport / XMLImport).
 
-<p class="just-emphasize">Import</p>
+#### Import
 
 ![](../../ImagesExt/image8_1070.png)
 

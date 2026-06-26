@@ -4,7 +4,7 @@
 
 Beim Hinzufügen von E-Mail-Anhängen aus Outlook zum Archiv per Drag and Drop wurden bei mehreren geöffneten Outlook Fenstern die falschen Dateien importiert. Dies wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 0[38119]
 
@@ -20,6 +20,6 @@ Funktion/Report: Drag and Drop
 
 [Weitere Informationen](http://www.amic.de/hilfe/!archivdokumentehinzufgendragun1.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.6, 38119, 0

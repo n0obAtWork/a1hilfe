@@ -4,7 +4,7 @@
 
 Die Kalkulation der Bewertungspreise funktioniert jetzt auch, wenn keine der Optionen für die Kalkulation angehakt sind.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 741773[34222]
 
@@ -20,6 +20,6 @@ Funktion/Report: F9 Kalkulation
 
 [Weitere Informationen](http://www.amic.de/hilfe/_bewertungspreise.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.1, 34222, 741773

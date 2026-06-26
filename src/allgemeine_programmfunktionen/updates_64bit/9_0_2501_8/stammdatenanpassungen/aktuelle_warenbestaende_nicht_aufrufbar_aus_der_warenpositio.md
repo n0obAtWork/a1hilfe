@@ -4,7 +4,7 @@
 
 Die Maske, die Bestände und Mengen aus der Warenpositonsmaske anzeigt, konnte nicht korrekt geöffnet werden.Dies wurde korrigiert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 748438[37605]
 
@@ -20,6 +20,6 @@ Funktion/Report: aktuelle Warenbestände
 
 [Weitere Informationen](http://www.amic.de/hilfe/weiterefunktionenbeiderartikel.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.8, 37605, 748438

@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/weiteremodule.htm -->
 
-<p class="just-emphasize">Bisher Unterstützte Module</p>
+#### Bisher Unterstützte Module
 
 | Modul |
 | --- |
@@ -13,7 +13,7 @@
 | Lagerplatzumbuchung |
 | Eingangslieferschein |
 
-<p class="just-emphasize">Profiltypen für den Aufruf einer privaten Prozedur</p>
+#### Profiltypen für den Aufruf einer privaten Prozedur
 
 | Typ | Bedeutung |
 | --- | --- |

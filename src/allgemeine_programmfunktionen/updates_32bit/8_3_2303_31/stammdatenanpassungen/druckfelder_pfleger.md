@@ -4,7 +4,7 @@
 
 Bei der Funktion "Speichern unter" kam es vor, dass der Wert nicht gespeichert wurde. Dies wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 720536[33591]
 
@@ -20,6 +20,6 @@ Funktion/Report: Speichern unter
 
 [Weitere Informationen](http://www.amic.de/hilfe/druckfelder.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2303.31, 33591, 720536

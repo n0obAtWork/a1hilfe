@@ -4,7 +4,7 @@
 
 Es wurde das Modul "Dashboard" in A.eins integriert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 716438[33598]
 
@@ -20,6 +20,6 @@ Funktion/Report: [DASH]
 
 [Weitere Informationen](http://www.amic.de/hilfe/dasdashboard.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2303.31, 33598, 716438

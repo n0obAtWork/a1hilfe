@@ -4,7 +4,7 @@
 
 Die Funktion Kontrakt abwählen ist jetzt im jeden Fall verfügbar, wenn ein Kontrakt ausgewählt wurde.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 712846[32813]
 
@@ -20,6 +20,6 @@ Funktion/Report: .
 
 [Weitere Informationen](http://www.amic.de/hilfe/!rohwarenbearbeitung.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2210.20, 32813, 712846

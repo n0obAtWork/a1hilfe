@@ -4,7 +4,7 @@
 
 Beim Einspielen der CAMT.053 Dateien wurden Sammelbuchungen nicht korrekt ausgewertet.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 734905[35286]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/dateienladen.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.1, 35286, 734905

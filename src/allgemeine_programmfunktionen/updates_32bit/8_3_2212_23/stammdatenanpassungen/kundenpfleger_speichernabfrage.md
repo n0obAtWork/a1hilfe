@@ -4,7 +4,7 @@
 
 Nachdem ein neuer Kunde abgespeichert worden war, wurde beim Schließen der Maske erneut nachgefragt, ob die geänderten Daten gespeichert werden sollen. Dies geschieht nun nicht mehr.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 717205[33223]
 
@@ -20,6 +20,6 @@ Funktion/Report: Neu
 
 [Weitere Informationen](http://www.amic.de/hilfe/_kundenundlieferanten1.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2212.23, 33223, 717205

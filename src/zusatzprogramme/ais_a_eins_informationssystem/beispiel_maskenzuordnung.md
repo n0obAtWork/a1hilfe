@@ -18,11 +18,11 @@ Man kann den Gruppen prinzipiell auf fünf verschiedene Arten Masken zuweisen.
 
 5. Als eigenständiges Informationsblatt.
 
-<p class="just-emphasize">Zuordnung einer Gruppe als Informationsbereich.</p>
+#### Zuordnung einer Gruppe als Informationsbereich.
 
 Bei der Einrichtung eines einfachen Informationsbereiches ist eigentlich nichts weiter zu beachten, als dass die Daten nicht pflegbar sind. Ansonsten kann man zu jeder Maske in A.eins Felder zur Ansicht von Daten hinzudefinieren.
 
-<p class="just-emphasize">Zuordnung einer Gruppe zu einem bestehenden Pfleger</p>
+#### Zuordnung einer Gruppe zu einem bestehenden Pfleger
 
 ![](../../ImagesExt/image8_1041.png)
 
@@ -31,7 +31,7 @@ Dies ist ein Beispiel für die Zuordnung der Gruppe „SachKontStammaddonSach000
 Es wird hier nicht die Funktion verbinden angezeigt, da es bei bestehenden Pflegern nicht notwendig ist.  
     
 
-<p class="just-emphasize">Zuordnung einer Gruppe als eigenständiger Pfleger</p>
+#### Zuordnung einer Gruppe als eigenständiger Pfleger
 
 Zu beachten ist hier, dass die Masken AEZADDON bzw. AEZADDOND sowie die Masken AEZADDONT1 bis AEZADDONT22 als eigenständige Pflegemaske für das A.eins Informationssystem entwickelt wurden. Voraussetzungen sind:
 
@@ -43,7 +43,7 @@ Zu beachten ist hier, dass die Masken AEZADDON bzw. AEZADDOND sowie die Masken A
 
 Die Funktion „***Verbinden***“ legt in diesem Fall zwei Funktionen an: ***Ändern*** und ***Ansehen***.
 
-<p class="just-emphasize">Zuordnung einer Gruppe als Pfleger mit Verweis auf eine bestehende Ident</p>
+#### Zuordnung einer Gruppe als Pfleger mit Verweis auf eine bestehende Ident
 
 Der Aufbau der Maske ist ähnlich. Man baut die Auswahlliste so auf, dass sie auf die Relation zugreift, die den Primärschlüssel bildet. Beispiel : Zugriff auf Kundenstamm mit angehängter Relation KundeMaskeDaten.
 
@@ -69,7 +69,7 @@ Das **Ident-Feld** ist hier die KundId. Bei Einrichtung des Funktionsmenüs zu d
 
 Die Funktion „**Verbinden**“ legt in diesem Fall zwei Funktionen an: **Ändern** und **Ansehen**.
 
-<p class="just-emphasize">Einrichtung einer Gruppe als Informationsblatt/Cockpit</p>
+#### Einrichtung einer Gruppe als Informationsblatt/Cockpit
 
 Wenn man eine Infoblatt einrichten möchte, in dem man zuerst einen Wert – z.B. die Kontonummer – abfragt und erst anschließend die Daten zu diesem Konto laden möchte, kann man die Zuordnung so definieren, dass kein Datenzugriff, also werde Laden noch speichern, automatisch geschieht.
 

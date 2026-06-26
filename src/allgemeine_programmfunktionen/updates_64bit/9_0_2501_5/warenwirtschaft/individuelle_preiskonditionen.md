@@ -4,7 +4,7 @@
 
 Es wurden fälschlicher Weise auch gelöschte Artikel angezeigt, was insbesondere wenn die Artikelnummer neu vergeben wurde, zu Irritationen führte. Gelöschte Artikel werden nun nicht mehr berücksichtigt. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 734329[35499]
 
@@ -20,6 +20,6 @@ Funktion/Report: [PIB]
 
 [Weitere Informationen](http://www.amic.de/hilfe/-)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 35499, 734329

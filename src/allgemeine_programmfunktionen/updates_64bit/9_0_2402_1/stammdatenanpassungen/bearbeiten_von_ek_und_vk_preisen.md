@@ -4,7 +4,7 @@
 
 In der Anwendung 'Artikel' [AR] wurden bei mehreren markierten Einträgen in der Auswahlliste in den Funktionen 'VK-Preise bearbeiten' und 'EK-Preise bearbeiten' beim Blättern auf den nächsten oder vorhergehenden Artikel die Preise des ersten vorhandenen Preiszeitraums des Artikels dargestellt. Dieses Verhalten wurde nun geändert. Soweit vorhanden, wird nun zunächst immer der Preiszeitraum zum aktuellen Tagesdatum dargestellt. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 732390[35531]
 
@@ -20,6 +20,6 @@ Funktion/Report: VK-Preise bearbeiten, EL-Preise bearbeiten
 
 [Weitere Informationen](http://www.amic.de/hilfe/_listenpreiseverkaufu.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.1, 35531, 732390

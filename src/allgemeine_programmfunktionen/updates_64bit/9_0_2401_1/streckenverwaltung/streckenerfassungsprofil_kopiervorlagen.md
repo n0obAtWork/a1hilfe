@@ -4,7 +4,7 @@
 
 In den Streckenerfassungsprofilen können nun neben Vorgangsfeldern auch Warenbewegungsaddon- und UFLD-Felder in der Kopiervorlage definiert werden.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 726427[34181]
 
@@ -20,6 +20,6 @@ Funktion/Report: n/a
 
 [Weitere Informationen](http://www.amic.de/hilfe/_vorgangsmappe.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.1, 34181, 726427

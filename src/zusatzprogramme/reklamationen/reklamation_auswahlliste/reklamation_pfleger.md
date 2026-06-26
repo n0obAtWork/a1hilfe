@@ -61,14 +61,14 @@
 
 </details>
 
-<p class="just-emphasize">Funktionen</p>
+### Funktionen
 
 | Funktion | Beschreibung |
 | --- | --- |
 | Archiv | Zeigt die Reporte an, welche gedruckt wurden. (Muss möglicherweise unter **[ANWR]** eingerichtet werden)<br>Außerdem können hier sonstige Dateien der Reklamation zugeordnet werden wie beispielsweise Bilder (Lizenz für das Formulararchiv ist notwendig). |
 | Maßnahmen (F5) | Maßnahmen für die Reklamation, welche für den Report Druck nötig sind. |
 
-###### Maßnahmen (Report Druck)
+### Maßnahmen (Report Druck)
 
 Die hier angegeben Felder sind die Standard Einstellungen und können im [Steuerparameter 1040](../../../firmenstamm/steuerparameter/allgemeine_programmsteuerung/reklamationsmassnahme_spa_1040.md) vollständig individualisiert werden.
 
@@ -130,7 +130,7 @@ Die hier angegeben Felder sind die Standard Einstellungen und können im [Steuer
 
  
 
-<p class="just-emphasize">Funktionen</p>
+### Funktionen
 
 | Funktion | Beschreibung |
 | --- | --- |

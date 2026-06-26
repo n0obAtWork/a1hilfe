@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_kostenobjekte_einrichtung.htm -->
 
-<p class="just-emphasize">Einrichtungsschritte</p>
+### Einrichtungsschritte
 
 1. Um das Kostenobjekt verwenden zu können, ist die [Kostenobjekt-Lizenz](../../../firmenstamm/steuerparameter/lizenzen/kostenobjekt_lizenz_spa_1064.md) notwendig.
 
@@ -17,14 +17,14 @@
    - <strong>Muss:</strong> Es muss ein Kostenobjekt eingegeben werden.
    - **Fest** Es wird nur das im Sachkontenstamm festgelegte Kostenobjekt verwendet.
 
-  Im Feld „Kostenobjekt“ kann hier die Nummer eines Kostenobjektes eingegeben werden, das bei der Belegerfassung automatisch vorgeschlagen wird.
+Im Feld „Kostenobjekt“ kann hier die Nummer eines Kostenobjektes eingegeben werden, das bei der Belegerfassung automatisch vorgeschlagen wird.
 
-  5. Damit auch Rechnungen aus der Warenwirtschaft beim Fibu -Übertrag automatisch in die Kostenobjektrechnung eingetragen werden können, ist es nötig, [Kostenobjektgruppen](../kostenobjektgruppe.md) **[KSOBG]** zu definieren, in denen die Kostenobjekte des Artikels für Einkauf und Verkauf angegeben werden können.  
+5. Damit auch Rechnungen aus der Warenwirtschaft beim Fibu -Übertrag automatisch in die Kostenobjektrechnung eingetragen werden können, ist es nötig, [Kostenobjektgruppen](../kostenobjektgruppe.md) **[KSOBG]** zu definieren, in denen die Kostenobjekte des Artikels für Einkauf und Verkauf angegeben werden können.  
 Diese werden dann im [Artikel](../../../artikelstamm_und_artikel/artikel/index.md) **[AR]** über die Funktion ***Kostenst./Statistik/Abteil*** gepflegt. Wird der Artikel im Vorgang angesprochen, so wird das entsprechende Kostenobjekt bebucht.
 
-  6. Im [Mandantenstamm](../../../firmenstamm/firmenkonstanten/mandantenstamm.md#MND_FIBU) **[MND]** sollte ein Fehlerkostenobjekt eingerichtet werden. Dieses Kostenobjekt wird herangezogen, wenn zu einem GuV-Konto versehentlich kein Kostenobjekt hinterlegt ist und die „Sperre Kostenobjekt“ des angesprochenen Kontos nicht auf **Gesperrt** oder **Fest** steht.
+6. Im [Mandantenstamm](../../../firmenstamm/firmenkonstanten/mandantenstamm.md#MND_FIBU) **[MND]** sollte ein Fehlerkostenobjekt eingerichtet werden. Dieses Kostenobjekt wird herangezogen, wenn zu einem GuV-Konto versehentlich kein Kostenobjekt hinterlegt ist und die „Sperre Kostenobjekt“ des angesprochenen Kontos nicht auf **Gesperrt** oder **Fest** steht.
 
-<p class="just-emphasize">Alternatives Label</p>
+### Alternatives Label
 
 In dem optionalen Parameter „Kostenobjekt_Label“ <strong>[OPT]</strong> kann ein alternatives Label für das Kostenobjekt eingetragen werden. Wird hier ein alternatives Label erfasst, so wird in den Labeln der Masken anstelle „Kostenobjekt“ der in den Optionen eingetragene Wert angezeigt. Das gleiche gilt für die Spaltenüberschriften in den Auswahllisten. Hiervon ausgenommen sind die Bezeichnungen der Auswahllisten und ihrer Varianten sowie die Bezeichnungen bzw. Beschriftungen von Funktionen im Hauptmenü, sie bleiben unverändert.
 

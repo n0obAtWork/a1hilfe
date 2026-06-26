@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/erstellungdesrosiprofilsausgeh.htm -->
 
-<p class="just-emphasize">Profil für EDI-Partner anlegen</p>
+#### Profil für EDI-Partner anlegen
 
 In dem Profil EDI-Partner werden die Teilnehmer-ILN, das Kommunikationsprofil, der EDI-Nachrichtentyp und die Nummernkreise hinterlegt.
 
@@ -17,48 +17,48 @@ In dem Profil EDI-Partner werden die Teilnehmer-ILN, das Kommunikationsprofil, d
 
 5. Im Feld „Teilnehmer“ den Teilnehmer mit „F3“ auswählen. Sollte der Partner noch nicht in der Liste stehen kann er im Anwenderformat „af_RosiTeiln“ eingepflegt werden.
 
-a. Die Funktion „Itembox/Daten pflegen“ (oder Tastenkürzel „Shift + F2“) auswählen.  
+   a. Die Funktion „Itembox/Daten pflegen“ (oder Tastenkürzel „Shift + F2“) auswählen.  
 \=> Der Pfleger für den EDI-Partner wird geöffnet.
 
-b. Im Feld „Nr.“ eine Zahl eintragen.
+   b. Im Feld „Nr.“ eine Zahl eintragen.
 
-c. Im Feld „Textersetzung“ die Bezeichnung „Rosi INVOICE Test“ eingeben.
+   c. Im Feld „Textersetzung“ die Bezeichnung „Rosi INVOICE Test“ eingeben.
 
-d. Im Feld „Kommentar, Schnipsel“ muss nichts mehr eingetragen werden. Dies geschieht automatisiert.
+   d. Im Feld „Kommentar, Schnipsel“ muss nichts mehr eingetragen werden. Dies geschieht automatisiert.
 
-e. Im Feld „Aktiv“ die Taste „F3“ betätigen und den Eintrag „aktiv“ auswählen.
+   e. Im Feld „Aktiv“ die Taste „F3“ betätigen und den Eintrag „aktiv“ auswählen.
 
-f. Die Eingaben mit der Taste „F9“ speichern. Die Eingabemaske wird geschlossen.
+   f. Die Eingaben mit der Taste „F9“ speichern. Die Eingabemaske wird geschlossen.
 
-g. Die Funktion „Liste aktualisieren“ (oder Taste „F2“) auswählen. Die Auswahl wird aktualisiert.
+   g. Die Funktion „Liste aktualisieren“ (oder Taste „F2“) auswählen. Die Auswahl wird aktualisiert.
 
 6. Im Feld „Teilnehmer ILN“ die ILN des Kunden eintragen. Diese Angabe steht im Feld „GLN-Nr.“ im Kundenstamm für den betreffenden Kunden.
 
 7. Die Funktion „Nachrichtenprofil“ (Optionbox) ermöglicht es nun ein neues Nachrichtenprofil anzulegen oder ein bereits bestehendes zu editieren (Hängt davon ab ob im Feld „Nachrichten Profil ID“ ein Profil ausgewählt wurde). Wir legen ein neues Nachrichtenprofil an.
 
-a. Die Zahl im Feld „ID“ wird vom Programm automatisch vergeben.
+   a. Die Zahl im Feld „ID“ wird vom Programm automatisch vergeben.
 
-b. Im Feld „Bezeichnung“ die Bezeichnung „Rosi INVOIC Test“ eingeben.
+   b. Im Feld „Bezeichnung“ die Bezeichnung „Rosi INVOIC Test“ eingeben.
 
-c. Im Feld „feste Implemenntation“ die Taste „F3“ drücken und „Invoic D01B“ auswählen.
+   c. Im Feld „feste Implemenntation“ die Taste „F3“ drücken und „Invoic D01B“ auswählen.
 
-d. Die Eingaben mit der Taste „F9“ speichern. Anschließend die Maske mit der Taste „ESC“ schließen.
+   d. Die Eingaben mit der Taste „F9“ speichern. Anschließend die Maske mit der Taste „ESC“ schließen.
 
 8. Im Feld „Nachrichten Profil ID“ sollte nun das eben erstellte EDI-Nachrichtenprofil eingetragen sein. 
 
 9. Die Funktion „Batchprofil“ (Optionbox) ermöglicht es nun ein neues Batchprofil anzulegen oder ein bereits bestehendes zu editieren (Hängt davon ab ob im Feld „ID des Kommunikationsprofils“ ein Batch-Profil ausgewählt wurde). Wir legen ein neues Batchprofil an. (Analog würde auch mit einem FTPS-Profil verfahren.)
 
-a. Die Zahl im Feld „ID“ wird vom Programm automatisch vergeben.
+   a. Die Zahl im Feld „ID“ wird vom Programm automatisch vergeben.
 
-b. Im Feld „Bezeichnung“ die Bezeichnung „Rosi Komm. Batch Test“ eingeben.
+   b. Im Feld „Bezeichnung“ die Bezeichnung „Rosi Komm. Batch Test“ eingeben.
 
-c. Im Feld „Ordner Lokal“ den Pfad „..\\Export\\Rosi-Test“ eingeben.
+   c. Im Feld „Ordner Lokal“ den Pfad „..\\Export\\Rosi-Test“ eingeben.
 
-d. Im Feld „Richtung“ die Taste „F3“ drücken und die Richtung „ausgehend“ auswählen.
+   d. Im Feld „Richtung“ die Taste „F3“ drücken und die Richtung „ausgehend“ auswählen.
 
-e. Die Felder „Programm“ und „Programm-Parameter“ bleiben leer.
+   e. Die Felder „Programm“ und „Programm-Parameter“ bleiben leer.
 
-f. Die Eingaben mit der Taste „F9“ speichern. Anschließend die Maske mit der Taste „ESC“ schließen.
+   f. Die Eingaben mit der Taste „F9“ speichern. Anschließend die Maske mit der Taste „ESC“ schließen.
 
 10. Im Feld „ID des Kommunikationsprofils“ sollte nun das eben erstellte Batchprofil eingetragen sein.
 
@@ -72,7 +72,7 @@ f. Die Eingaben mit der Taste „F9“ speichern. Anschließend die Maske mit de
 
 15. Die Eingaben mit der Taste „F9“ speichern. Anschließend die Maske mit der Taste „ESC“ schließen.
 
-<p class="just-emphasize">Abschnitt-Prozeduren im EDI-Profil eintragen</p>
+#### Abschnitt-Prozeduren im EDI-Profil eintragen
 
 ![](../../../ImagesExt/image8_1113.jpg)
 
@@ -90,7 +90,7 @@ Auf dem zweiten Tabreiter („Prozeduren“) des EDI-Profils sind nun die Prozed
 | Rechnungsliste | edi_rechnungsliste | Im Profil muss Rechnungsliste unterdrücken auf „Nein“ gesetzt sein. | Datei_Id |
 | Rechnungsliste-Steuer | edi_rechnungsliste_tax | Hier wird per Schleife jeder Steuersatz angegeben. | Datei_Id |
 
-<p class="just-emphasize">Funktionalität der Maske</p>
+#### Funktionalität der Maske
 
 | Funktion | Ansteuerung | Funktionalität |
 | --- | --- | --- |
@@ -99,13 +99,13 @@ Auf dem zweiten Tabreiter („Prozeduren“) des EDI-Profils sind nun die Prozed
 | View bearbeiten | Button (ausgewählte Zeile)<br>Doppelklick auf View | Analog zu „Prozedur bearbeiten“. |
 | View testen | Button (ausgewählte Zeile) | Im unteren Grid werden die Daten angezeigt, welche die View zurück gibt. Als Parameter dient die jeweils eingetragene Test-Id. |
 
-<p class="just-emphasize">Segment-Prozeduren im EDI-Profil eintragen</p>
+#### Segment-Prozeduren im EDI-Profil eintragen
 
 ![](../../../ImagesExt/image8_1114.jpg)
 
 Auf dem Tabreiter „Segmente“ können die Prozeduren hinterlegt werden, welche die Gestaltung der Einzelzeilen einer EDI-Nachricht steuern. Diese werden beim Testen der Abschnittprozeduren mit einer Standardprozedur vorbelegt, falls noch keine Prozedur hinterlegt ist.
 
-<p class="just-emphasize">Funktionalität der Maske</p>
+#### Funktionalität der Maske
 
 | Funktion | Ansteuerung | Funktionalität |
 | --- | --- | --- |

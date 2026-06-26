@@ -4,7 +4,7 @@
 
 Beim Pflegen der E-Mail-Adresse im Kundenstamm konnte es vorkommen, dass die Mailadresse nicht korrekt gespeichert wurde. Das Verfahren wurde überarbeitet.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 743580[36433]
 
@@ -20,6 +20,6 @@ Funktion/Report: F5
 
 [Weitere Informationen](http://www.amic.de/hilfe/_kundenundlieferanten1.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 36433, 743580

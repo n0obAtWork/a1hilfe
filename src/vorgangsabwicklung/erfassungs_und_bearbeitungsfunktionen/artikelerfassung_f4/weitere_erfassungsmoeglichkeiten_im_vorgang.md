@@ -4,11 +4,11 @@
 
 Zur Erfassung und Gestaltung der Rechnung stehen weitere Funktionen zur Verfü­gung:
 
-<p class="just-emphasize">Wertartikel (F11)</p>
+### Wertartikel (F11)
 
 Alle Möglichkeiten der Artikelerfassung bestehen auch beim Wertartikel. Im Gegensatz zur Artikelerfassung werden hier jedoch ausschließlich wertmäßige Buchungen durchgeführt. Die Mengeneingabe dient lediglich als Rechenhilfe. Mit WA ist es somit möglich, ein Artikelkonto wertmäßig (Boni, Frachten, etc.) zu be- und entlasten, ohne dass Bestandsbuchungen durchgeführt werden.
 
-<p class="just-emphasize">Texteingabe (F8)</p>
+### Texteingabe (F8)
 
 Die Eingabe von Texteingabe erlaubt die Eingabe von Texten. Es öffnet sich ein Erfassungsbildschirm mit maximal 10 Zeilen. Der Text wird direkt erfasst.
 
@@ -20,27 +20,27 @@ Die Übernahme in den Positionsteil erfolgt durch Eingabe von **ESC** und anschl
 
 In der Position “Übernahme bis” wird angegeben, ob bei Umwandlung eines Vorgangs der Text “immer übernommen” werden soll oder ob er nur bei einem bestimmten Vorgangstyp (Angebot, Auftrag, etc.) wirksam werden soll.
 
-<p class="just-emphasize">Textbaustein</p>
+### Textbaustein
 
 Hiermit kann auf fertig eingerichtete Textbausteine zugegriffen werden. Die zu­lässigen werden nach Aufruf der Funktion angezeigt, von wo sie abgerufen werden können:
 
 In den Textbausteinen ist ebenfalls hinterlegt, wie bei Umwandlungen verfahren werden soll. Wenn in den Textbausteinen Stopppositionen bestimmt wurden, müssen sie bei der Übernahme ausgefüllt (“aufgelöst”) werden.
 
-<p class="just-emphasize">Zeilen Zu-/Abschlag (F9)</p>
+### Zeilen Zu-/Abschlag (F9)
 
 Bei dieser Funktion handelt es sich um manuell ausgelöste Zu- und Abschläge, die entweder als separate Zeile ausgedruckt oder in die letzte Artikelposition eingearbeitet werden. Es bestehen zwei Möglichkeiten, Zu- und Abschläge einzusetzen:
 
-<p class="just-emphasize">Fest definierte Zu-/Abschläge</p>
+### Fest definierte Zu-/Abschläge
 
 Hier sind die erforderlichen Daten (siehe freie Eingabe) in einer Tabelle hinterlegt. Nach Aufruf der Funktion “Zeilen Zu-/Abschlag” wird die Tabellennummer und ggf. der Zu-/Abschlagsatz (Abschläge mit - Betrag/Prozent) eingegeben. Die Erfassung ist damit erfolgt.
 
-<p class="just-emphasize">Freie Eingabe</p>
+### Freie Eingabe
 
 Hier werden alle Eingaben manuell durchgeführt, also keine Daten aus Vorbelegungen der “generellen Zu-/Abschläge” übernommen. Mit dieser Erfassungsform besteht große Flexibilität. Wegen des Bedienaufwandes sollte sie jedoch nur in Ausnahmefällen eingesetzt werden. Ausgelöst wird die Funktion, indem im Feld “Nr.” keine Eingabe erfolgt. Folgende Maske erscheint:
 
 ![](../../../ImagesExt/image8_218.jpg)
 
-<p class="just-emphasize">Es sind folgende Eingaben erforderlich:</p>
+### Es sind folgende Eingaben erforderlich:
 
 ***Nr. / Text:*** Aus den eingerichteten generellen Zu-/Abschlägen kann ausgewählt werden. Die Einrichtung belegt die nachfolgenden Felder vor
 
@@ -64,7 +64,7 @@ Eingabe des ***Preis/Satz***es, wenn eine entsprechende Formel gewählt wurde
 
 ***Skontierfähig***: Hier wird festgelegt, ob auf einen Zuschlag Skonto gewährt werden soll
 
-<p class="just-emphasize">Einrichtung einer Vorbelegung</p>
+### Einrichtung einer Vorbelegung
 
 Für die Zu-/Abschlagserfassung kann mit Hilfe der Einrichterparameterfunktion innerhalb der Option Box eine individuelle Vorbelegung vorgenommen werden:
 
@@ -80,17 +80,17 @@ Für die Zu-/Abschlagserfassung kann mit Hilfe der Einrichterparameterfunktion i
 
 ***nach Nummerneingabe sofort abschließen:*** Bei “Ja” wird mit Eingabe der Tabellennummer die Eingabe beendet, die übrigen Felder werden, da bereits aus der Tabelle vorbelegt, also nicht abgefragt
 
-<p class="just-emphasize">Mehrere Zu- und Abschläge</p>
+### Mehrere Zu- und Abschläge
 
-<p class="just-emphasize">Zeilenrabatt</p>
+### Zeilenrabatt
 
 Bedienung und Funktionsweise des Zeilenrabattes entsprechen dem “Zeilenzu- und -abschlag”. Es handelt sich jedoch von vornherein um einen negativen Betrag, also einen Abzug vom Warenwert. Die Eingabe eines negativen Betrages oder Prozentsatzes ergibt dann folgerichtig einen Zuschlag.
 
-<p class="just-emphasize">Zeilen Fracht</p>
+### Zeilen Fracht
 
-<p class="just-emphasize">Gruppen</p>
+### Gruppen
 
-<p class="just-emphasize">Gruppen anlegen (CF2)</p>
+### Gruppen anlegen (CF2)
 
 Hierdurch wird es erlaubt, innerhalb eines Vorganges voneinander getrennte Gruppen zu bilden, auf die sich z.B. ein spezieller Rabatt beziehen soll.
 
@@ -104,45 +104,45 @@ Innerhalb einer Gruppe können wiederum Gruppen-Rabatte und Gruppen-Zu-/Abschlä
 
 Mit ***Gruppe verlassen*** **SF2** gelangt man aus der Gruppenerfassung heraus.
 
-<p class="just-emphasize">Gruppen Frachten / Rabatte / Zu-/Abschläge</p>
+### Gruppen Frachten / Rabatte / Zu-/Abschläge
 
-<p class="just-emphasize">Blöcke</p>
+### Blöcke
 
-<p class="just-emphasize">Zwischensumme (CF7)</p>
+### Zwischensumme (CF7)
 
 Hiermit kann eine Zwischensumme gebildet werden. Auf dem Formular erscheinen (in Abhängigkeit von der Einrichtung) der Text “Zwischensumme” sowie der aufgelaufene Betrag.
 
-<p class="just-emphasize">Wechsel Seite</p>
+### Wechsel Seite
 
 Der Wechsel einer Formularseite wird automatisch eingeleitet, wenn die vorgesehene Positionszahl erreicht wurde. Unabhängig hiervon kann ein Wechsel der Seite auch manuell mit der Funktion “Wechsel Seite“ ausgelöst werden. Dies wird immer dann sinnvoll sein, wenn z.B. aus optischen Gründen eine neue Seite gewünscht wird. Es erscheinen der Text “Seitenwechsel” und die Zwischensumme.
 
-<p class="just-emphasize">Status</p>
+### Status
 
 Der aktuelle Status der Vorgangserfassung wird angezeigt. Dies sind der Nettobetrag, Warenwert, Verpackungskosten, Fracht, Mehrwertsteuer, Skontobeträge, Gesamtbetrag, aufgelaufene Mengeneinheiten, Gewichte und Verpackungseinheiten.
 
 **Wichtig:** Es handelt sich um die aufgelaufenen Werte oberhalb der aktiven Positionszeile im Anzeigebereich. Dahinterliegende Positionen und die aktive Zeile werden nicht berücksichtigt. Den Gesamtstatus erhält man am Ende des Anzeigebereiches. Die aufsummierten Mengen- und Verpackungseinheiten enthalten ggf. nicht vergleichbare (Äpfel und Birnen -) Größeneinheiten. Für die Bildung von Kontrollsummen sind sie aber dennoch gut geeignet.
 
-<p class="just-emphasize">Korrektur Zeile (F5)</p>
+### Korrektur Zeile (F5)
 
 Hiermit wird die Korrektur einer bereits erfassten Position (Artikel, Text, Rabatt, etc.) ermöglicht. Um dies durchführen zu können muss zuerst mittels Mausklick, “+/-” - Taste die gewünschte Zeile im Anzeigebereich aktiviert werden. Es öffnet sich dann automatisch das entsprechende Bearbeitungsfenster, wo die Erfassungsfelder mit den Ursprungswerten vorbelegt sind. Korrekte Werte werden bestätigt, falsche überschrieben.
 
 Die Funktion “Korrektur” wird auch durch “Doppelklick” auf eine Position im Anzeigeteil aktiviert.
 
-<p class="just-emphasize">Löschen (F7)</p>
+### Löschen (F7)
 
 Nach Auswahl der zu löschenden Zeile (siehe Korrektur) löst die Eingabe von **F7** die Funktion aus. Gelöscht werden auch die mit der Zeile direkt zusammenhängenden Folgezeilen, so z.B. die weiteren Artikeltextzeilen oder ein ganzer Textblock.
 
-<p class="just-emphasize">Null - oder Leerzeile</p>
+### Null - oder Leerzeile
 
 Mit **CF8** kann an beliebiger Stelle im Vorgang eine Leerzeile eingefügt werden. Sie wird vor der Zeile eingefügt, die im Anzeigebereich ausgewählt wurde. Textblöcke oder Artikel mit mehreren Textzeilen werden als eine Einheit betrachtet.
 
-<p class="just-emphasize">Positionieren</p>
+### Positionieren
 
-<p class="just-emphasize">ESC</p>
+### ESC
 
 Beendigung der Erfassung.
 
-<p class="just-emphasize">+/-</p>
+### +/-
 
 Zeilenweise vor und zurück
 
@@ -156,27 +156,27 @@ Beginn und Ende des Positionsteils
 
 Die aktive Position wird an den Anfang bzw. das Ende verschoben.
 
-<p class="just-emphasize">*Wichtig:*</p>
+### *Wichtig:*
 
 Bei “+/-” und “B/E” kann sich die aktive Position außerhalb des Anzeigebereiches befinden. Es empfiehlt sich, in diesem Fall den Bildschirm mittels der Bildlaufleiste oder “Strg…, “Strg… zu justieren oder auch für die Aktivierung direkt mit der Maus zu arbeiten.
 
-<p class="just-emphasize">Blocksummen</p>
+### Blocksummen
 
 Für Blöcke in einer Rechnung, z.B. Gruppen, kann der Status angezeigt werden.
 
-<p class="just-emphasize">Objekt</p>
+### Objekt
 
 Näheres findet sich unter Objektverwaltung.
 
-<p class="just-emphasize">Ordersätze</p>
+### Ordersätze
 
 Ordersätze gib es im Verkauf und im Einkauf.
 
 Ordersätze sind Unterklassen der Vorgangsklassen
 
-Angebot è Ordersatz-Verkauf
+Angebot → Ordersatz-Verkauf
 
-Bestellanfrage è Ordersatz-Einkauf
+Bestellanfrage → Ordersatz-Einkauf
 
 Mit Hilfe von Ordersätzen kann eine festgeschriebene Artikelpalette kunden- und lieferantenbezogen im Verkauf sowie im Einkauf erfasst werden. Bei der Vorgangserfassung ist dann ein Rückgriff auf diese Palette für alle Kunden bzw. auf den in Bearbeitung befindlichen Kunden möglich.
 
@@ -212,7 +212,7 @@ Automatisch oder manuell eingerichtete Rabatte, Zu-/Abschläge, oder Frachten im
 
 ![](../../../ImagesExt/image8_219.jpg)
 
-<p class="just-emphasize">Artikelstapel</p>
+### Artikelstapel
 
 Auch hierbei handelt es sich um eine Erfassungshilfe, ähnlich dem Ordersatz, jedoch nicht kundenindividuell.
 
@@ -226,7 +226,7 @@ Aus der Artikelliste wird nicht abgebucht, es handelt sich also lediglich um ein
 
 ![](../../../ImagesExt/image8_220.jpg)
 
-<p class="just-emphasize">Preisstapel</p>
+### Preisstapel
 
 Die Funktion Preisstapel innerhalb der Vorgangsbearbeitung ermöglicht eine Massenpreispflege in Vorgängen. Dies ist dann hilfreich, wenn ein Vorgang aus vielen Positionen besteht, oder die Trennung von Mengen – und Preispflege erreicht werden soll.
 
@@ -234,7 +234,7 @@ Pflegbar sind an dieser Position nur die Einzelpreise, Folgezeilen werden nicht 
 
 Die Anwahl des Menüpunktes "Preisstapel" führt dazu, dass alle Artikel des aktuellen Vorgangs in der aktuellen Gruppe mit Preis 0, sowie den zugehörigen Preismengeneinheiten in einer Preispflegemaske angezeigt werden. Sollten sich im aktuellen Vorgang auch Positionen befinden, bei denen ein Preis ungleich 0 vorhanden ist, erfolgt eine Sicherheitsabfrage, ob auch diese Preise durch die Massenpreisänderung korrigiert werden sollen.
 
-<p class="just-emphasize">Beispiel: Rechnung mit folgenden Artikeln, Preismengeneinheiten und Preisen (die Mengen und Mengeneinheiten sind für das Beispiel nicht relevant)</p>
+### Beispiel: Rechnung mit folgenden Artikeln, Preismengeneinheiten und Preisen (die Mengen und Mengeneinheiten sind für das Beispiel nicht relevant)
 
 Ein Aufruf des Preisstapels führt dazu, dass die Frage erscheint: "Sollen auch Artikel mit Preis ungleich 0 in den Preisstapel übernommen werden?"
 
@@ -244,15 +244,15 @@ Wenn nun die Preise wie folgt geändert werden, sehen nach Verlassen und Bestät
 
 Wäre die Frage "Sollen auch Artikel mit Preis ungleich 0 in den Preisstapel übernommen werden?" mit NEIN beantwortet worden, dann hätten die Einträge dieses Beispiels in der Preisstapelmaske genau gleich ausgesehen, nach Verlassen des Preisstapels wäre die Ursprungsrechnung aber wie folgt verändert worden:
 
-<p class="just-emphasize">Vorverkauf</p>
+### Vorverkauf
 
 Dieser Vorgang löst die Problematik, Ware bereits vor der Lieferung zu fakturieren. Die Vorverkaufserfassung entspricht dem normalen Ablauf. Mit Ende der Position wird jedoch automatisch ein Vorverkaufskontrakt eröffnet, gegen den später das Liefergeschäft abzuwickeln ist. Vorverkäufe werden wert- aber nicht mengenmäßig verbucht.
 
-<p class="just-emphasize">Sortiere</p>
+### Sortiere
 
 Hiermit wird die manuelle Sortierung der Belegpositionen ausgelöst.
 
-<p class="just-emphasize">Teilumwandlung</p>
+### Teilumwandlung
 
 Diese Funktion ermöglicht es, Artikelpositionen aus anderen Vorgängen zu über­nehmen. So kann man z.B. einzelne Positionen aus verschiedenen vorgelagerten Vorgängen, z.B. aus verschiedenen Lieferscheinen, manuell in eine Rechnung übernehmen. Bei Anwahl der Funktion werden die offenen Vorgänge mit den Positionen angezeigt.
 
@@ -278,7 +278,7 @@ Für den Vorgang “Auftrag” besteht die Möglichkeit der Korrektur von “Res
 
 Teilumwandlung (Disposition einzelner Positionen von einem Vorgang in einen Folgevorgang) ist nur von Vorgängen in Standardwährung möglich. Andernfalls würden plötzlich Lire-Beträge zu DM, was natürlich als unerwünscht anzusehen ist. Teilumwandlung innerhalb einer Fremdwährung ist zunächst ebenfalls NICHT möglich.
 
-<p class="just-emphasize">Einstellungsmöglichkeiten über die Steuerungsparameter:</p>
+### Einstellungsmöglichkeiten über die Steuerungsparameter:
 
 Teilumwandlung aktiv: muss auf Ja stehen
 
@@ -290,7 +290,7 @@ Die Teildisposition kann auf das aktive Lager beschränkt werden.
 
 ![](../../../ImagesExt/image8_223.jpg)
 
-<p class="just-emphasize">Mehrfachdisposition:</p>
+### Mehrfachdisposition:
 
 Eine andere Form der Teilumwandlung ist die Mehrfachdisposition:
 
@@ -302,11 +302,11 @@ Durch Eingabe der Mengen kann aus den Vorvorgängen wie z.B. Aufträge, Liefersc
 
 Mit ***Daten übernehmen*** **F9** werden die Mengen in Vorgangspositionen gewandelt.
 
-<p class="just-emphasize">Scannerdaten lesen</p>
+### Scannerdaten lesen
 
 Bei der Erfassung mit mobilen Geräten ist es möglich, die Daten über eine Bearbeitungsmaske entsprechend der Artikelstapelerfassung zu bearbeiten. Alle Funktionen entsprechen den oben beschriebenen.
 
-<p class="just-emphasize">Baudatenbank</p>
+### Baudatenbank
 
 Zugriff auf die Baudatenbank, die hierzu natürlich vorhanden sein muss.
 

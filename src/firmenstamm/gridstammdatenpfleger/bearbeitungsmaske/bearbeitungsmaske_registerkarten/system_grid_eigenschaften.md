@@ -74,6 +74,6 @@ In den System-Grid-Eigenschaften werden Eigenschaften der Griddefinition vom Ent
   </table>
 </div>
 
-<p class="just-emphasize">Vorbelegung Anwender Eigenschaften</p>
+### Vorbelegung Anwender Eigenschaften
 
 Dies sind Vorbelegungen von Eigenschaften, die der Anwender selbst ändern kann. Die Bedeutung dazu siehe Tabreiter Eigenschaften.

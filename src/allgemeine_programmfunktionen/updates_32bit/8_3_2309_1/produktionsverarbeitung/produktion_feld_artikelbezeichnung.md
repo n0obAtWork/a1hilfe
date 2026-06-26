@@ -4,7 +4,7 @@
 
 Das Feld Artikelbezeichnung hat jetzt im Standard eine Länge von 40 Zeichen.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 720576[33898]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_produktionmodul.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 33898, 720576

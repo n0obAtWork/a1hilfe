@@ -12,6 +12,6 @@ Folgende Menüfunktionen stehen zur Verfügung:
 
 3. Ausgewählte Daten löschen.
 
-Mit dieser Funktion können markierte Datensätze gelöscht werden
+   Mit dieser Funktion können markierte Datensätze gelöscht werden
 
 4. Mit dieser Funktion können erfasste Inventurdaten nachgespielt werden.

@@ -2,30 +2,30 @@
 
 <!-- source: https://amic.de/hilfe/update.htm -->
 
-<p class="just-emphasize">\-11000</p>
+#### \-11000
 
 Fehler beim Login
 
-<p class="just-emphasize">\-11001</p>
+#### \-11001
 
 Fehler beim Insert der Ergebnisse
 
-<p class="just-emphasize">\-11002</p>
+#### \-11002
 
 Fehler beim Parsen Ergebnisse
 
-<p class="just-emphasize">\-11003</p>
+#### \-11003
 
 Fehler beim Abruf eines Pakets
 
-<p class="just-emphasize">\-11004</p>
+#### \-11004
 
 Fehler beim Erstellen der Login-Informationen
 
-<p class="just-emphasize">\-11006</p>
+#### \-11006
 
 Fehler beim Abruf der Information aus dem Webservice
 
-<p class="just-emphasize">\-11007</p>
+#### \-11007
 
 Fehler beim Select der Mandantenversion

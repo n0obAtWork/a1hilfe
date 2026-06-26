@@ -4,7 +4,7 @@
 
 Es wurde die Variante "Rollenkontext" in der Anwendung "Rollen" ([ROLLET]) erstellt, welche die freigegebenen Funktionen pro Bediener ausweist.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 720205[33614]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_rollenkontext.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2303.31, 33614, 720205

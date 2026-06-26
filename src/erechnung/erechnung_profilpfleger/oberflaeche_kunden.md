@@ -22,7 +22,7 @@ Auf der Registerkarte ***Kunden*** sind folgende Felder zu sehen:
       </tr>
       <tr>
         <td>
-          <p>Nummer</p>
+          <p><strong><em>Nummer</em></strong></p>
         </td>
         <td>
           <p>Die Kundennummer des Kunden</p>
@@ -30,7 +30,7 @@ Auf der Registerkarte ***Kunden*** sind folgende Felder zu sehen:
       </tr>
       <tr>
         <td>
-          <p>Bezeichnung</p>
+          <p><strong><em>Bezeichnung</em></strong></p>
         </td>
         <td>
           <p>Die Bezeichnung des hinterlegten Kunden</p>

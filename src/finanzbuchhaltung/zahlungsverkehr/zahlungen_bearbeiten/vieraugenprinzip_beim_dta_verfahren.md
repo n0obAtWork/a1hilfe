@@ -12,19 +12,19 @@ Gerade im Zahlungsverkehr kann es wünschenswert sein, dass es eine Trennung zwi
 
 2) Der [Steuerparameter 716](../../../firmenstamm/steuerparameter/optionen_finanzwesen/vieraugenprinzip_zahlungen_spa_716.md) „Vieraugenprinzip beim DTA Verfahren“ muss angeschaltet werden. Dieser Steuerparameter sorgt dafür, dass die Variante „Zahlungen nach DTA-Laufnr. Vieraugen“ aktiviert wird, und beim Erstellen des Datenträgeraustausch die Ausgabedatei nicht geschrieben wird und auch der Explorer – unabhängig von den Einstellungen in den Einrichterparametern – nicht geöffnet wird.
 
-Die Funktion „Übernahme in die Primanota“ steht bei gesetztem Steuerparameter nur in der Variante „Zahlungen nach DTA-Laufnr. Vieraugen“ zur Verfügung. Dort werden nur Zahlungen an die Primanota übertragen, deren Status „Übertragen“ ist.
+   Die Funktion „Übernahme in die Primanota“ steht bei gesetztem Steuerparameter nur in der Variante „Zahlungen nach DTA-Laufnr. Vieraugen“ zur Verfügung. Dort werden nur Zahlungen an die Primanota übertragen, deren Status „Übertragen“ ist.
 
 3) Der Druck der Banksammelliste, des Diskettenbegleitzettels und der Avisen werden weiterhin beim Erstellen abgefragt.
 
 4) Folgende Nachlauffunktionen, die in den Einrichterparametern der Erstellungsmaske eingestellt werden können, werden beim Zusammenstellen der Daten weiterhin ausgeführt und können z.B. dazu genutzt werden, um die Anwender aus der Kontroll-Bedienerklasse per Mail automatisch zu informieren. Zu beachten ist, dass die Datei, die mit /FILE= an das Skript übergeben wird, nicht existiert:
 
-a. VBS-Skript ausführen.
+   a. VBS-Skript ausführen.
 
-b. VBA-Skript ausführen.
+   b. VBA-Skript ausführen.
 
-c. SQL-Prozedur ausführen.
+   c. SQL-Prozedur ausführen.
 
-d. Crystal Report ausführen.
+   d. Crystal Report ausführen.
 
 5) Mithilfe des Schutzsystems „Zugriffsrechte Varianten“ (Direktsprung **[ZUGV]**) muss die Variante „Zahlungen nach DTA-Laufnr. Vieraugen“ für die Kontroll-Bedienerklasse erlaubt sein, alle anderen Varianten müssen für diese Bedienerklasse gesperrt sein.
 

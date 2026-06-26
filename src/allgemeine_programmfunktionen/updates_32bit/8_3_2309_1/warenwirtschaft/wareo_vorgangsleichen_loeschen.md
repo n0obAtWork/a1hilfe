@@ -4,7 +4,7 @@
 
 In der Anwendung Warenreorganisation [WAREO] wurde die Funktion "Vorgangsleichen entfernen mit Nummernfreigabe" entfernt. Die Funktion "Leichen in der Ware beseitigen" wurde umbenannt in "Fehlerhafte Vorgänge aus der Ware entf.". Das Löschen von fehlerhaften Vorgängen wird jetzt in der Tabelle WareoProtokoll protokolliert. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 717902[33722]
 
@@ -20,6 +20,6 @@ Funktion/Report: Problemfälle VorgReservierung, Fehlerhafte Vorgänge aus der W
 
 [Weitere Informationen](http://www.amic.de/hilfe/_WareoVorgReservierung.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 33722, 717902

@@ -6,7 +6,7 @@ Das Authentifizierungsverfahren (Unterschrift oder PIN) ist zunächst einmal von
 
 Der technische Trend zu mehr Sicherheit hat zur Folge, dass die neueren Karten mit Chips ausgerüstet werden, die die Authentifizierung mit PIN sichern.
 
-<p class="just-emphasize">Bezahlen mit EC-Karte oder Kreditkarte</p>
+#### Bezahlen mit EC-Karte oder Kreditkarte
 
 Hier kann mittels der EC-Karte oder Kreditkarte bezahlt werden. Der Betrag wird an das Terminal übertragen und die Zahlung wird vom Terminal abgewickelt.
 

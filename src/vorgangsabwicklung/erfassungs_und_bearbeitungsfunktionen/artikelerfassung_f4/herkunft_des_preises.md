@@ -10,7 +10,7 @@ Auch andere Änderungen des Preises z.B. über ein Makro oder eine Einspielschni
 
 Dieses Kennzeichen wird von der Einspielschnittstelle nach der Preissetzung gesetzt und wird dann in der Erfassungsmaske statt der Bezeichnung „manuelle Eingabe“ angezeigt.
 
-<p class="just-emphasize">Technische Beschreibung:</p>
+#### Technische Beschreibung:
 
 Das Feld WaBewPreisWoherText ergänzt die bekannte Enumeration des Feldes WaBewPreisWoher durch flexible Beschreibung. Ist das nummerische Kennzeichen auf manuell (99) gesetzt, so kann hier eine zusätzliche Information hinterlegt werden. Diese überschreibt, wenn vorhanden auch auf der Erfassungsmaske die Bezeichnung „manuelle Eingabe“.
 

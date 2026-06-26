@@ -4,7 +4,7 @@
 
 Bei den Pascal-Makro-Funktionen JVarsGet und JVarsSet gab es eine Beschränkung auf maximal 255 Zeichen beim Austausch mit den System A.eins-JVars. Diese Beschränkung ist aufgehoben. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 745906[36915]
 
@@ -20,6 +20,6 @@ Funktion/Report: Makro-Programme
 
 [Weitere Informationen](http://www.amic.de/hilfe/makroprogramme.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 36915, 745906

@@ -4,7 +4,7 @@
 
 Der Abruf der terrorgefährdeten Personen über den Compliance-Automat wurde verbessert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 727888[34423]
 
@@ -20,6 +20,6 @@ Funktion/Report: Verbotslistenprüfung
 
 [Weitere Informationen](http://www.amic.de/hilfe/_ansch_verbotsliste.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.1, 34423, 727888

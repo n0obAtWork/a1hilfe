@@ -4,7 +4,7 @@
 
 Die Funktion "Alle Ändern", die bei einigen Stammdatenpflegern angeboten wird, hat bisher nur mit Singelline-Texten gearbeitet. Jetzt werden auch Multilinetexte, die als Wordwrap-Array gekennzeichnet sind, verarbeitet.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 725889[34088]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_allgemeineprogrammfu.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 34088, 725889

@@ -49,7 +49,7 @@ Folgende Variablen sind in allen Teilen (Kopf, Fuß und Zeilentyp) verfügbar. F
 | VWZREFNUMMER1 | Text | 4 | Nur im Bereich 500 bzw. 510. Textliche Ausgabe aller Referenznummern und Belegdaten in einer Zeile |
 | VWZREFNUMMER2 | Text | 4. | Nur im Bereich 500 bzw. 510. Fortführung der textliche Ausgabe aller Referenznummern und Belegdaten in einer Zeile |
 
-<p class="just-emphasize">503 Positionszeile Scheck</p>
+#### 503 Positionszeile Scheck
 
 | Bezeichnung | Typ | Nr. | Bedeutung |
 | --- | --- | --- | --- |
@@ -63,7 +63,7 @@ Folgende Variablen sind in allen Teilen (Kopf, Fuß und Zeilentyp) verfügbar. F
 | BelegPosSaldo | | | Beleg Betrag - Beleg Skonto |
 | ABS_BelegPosSaldo | | | abs (Beleg Betrag - Beleg Skonto), jedoch immer mit positivem Betrag |
 | ZahlPosSH | | | Sollhabenkennzeichen dargestellt als ‘-‘ für Haben und ‘ ‘ für Soll,<br>kann jedoch per Einrichtungsparameter eingestellt werden. Mögliche Formate wären: MINUSPLUS, SH, SOLLHABEN |
-| ABS_ZahlPosSH | | | Sollhabenkennzeichen dargestellt als ‘-‘ für Haben und ‘ ‘ für Soll,<br>kann jedoch per Einrichtungsparameter einstellbar. Bei negativen Beträgen (S.o.) werden diese Kennzeichen gedreht. Also:<br>\-1.000,00 S è 1.000,00 H bzw.<br>\-1.000,00 H è 1.000,00 S |
+| ABS_ZahlPosSH | | | Sollhabenkennzeichen dargestellt als ‘-‘ für Haben und ‘ ‘ für Soll,<br>kann jedoch per Einrichtungsparameter einstellbar. Bei negativen Beträgen (S.o.) werden diese Kennzeichen gedreht. Also:<br>\-1.000,00 S → 1.000,00 H bzw.<br>\-1.000,00 H → 1.000,00 S |
 | FiBuV_Nummer | | | Interne Belegnummer |
 | FiBuV_FremdNr | | | Externe Belegnummer ( Belegnummer des Lieferanten) |
 | FiBuV_Datum | | | Belegdatum |
@@ -83,6 +83,6 @@ Folgende Variablen sind in allen Teilen (Kopf, Fuß und Zeilentyp) verfügbar. F
 | FibuV_KLKurzBez | | | Kurzform der Vorgangsklasse (z.B.: ZA ER AR.....) |
 | FiBuV_KlBezeich | | | Bezeichnung der Vorgangsklasse ( z.B. Zahlung ....) |
 
-<p class="just-emphasize">504 Alternativteil Scheckdruck</p>
+#### 504 Alternativteil Scheckdruck
 
 Dieser Bereich wird nur gedruckt, wenn kein Folgekopf eingerichtet ist und die Anzahl der zu druckenden Zeilen kleiner ist als der vorhandene Platz. In diesem Bereich kann dann z.B. ein Festtext eingerichtet werden, in dem ein Hinweis auf die Avise, die dann gedruckt werden kann, steht. Die Avise wird nur dann erstellt, wenn dieser Bereich eingerichtet ist. Ist dieser Bereich nicht eingerichtet, wird dieser Scheck nicht gedruckt.

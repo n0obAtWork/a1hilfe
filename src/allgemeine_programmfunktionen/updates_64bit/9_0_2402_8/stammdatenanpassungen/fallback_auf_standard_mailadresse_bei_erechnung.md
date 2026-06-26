@@ -4,7 +4,7 @@
 
 Emailadresse aus dem Anschriftenstamm wird als Rückfall gezogen, sollte das Email Feld "KundElectronicAdress" des XRE Reiters im Kunden nicht gefüllt sein.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 740566[36059]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/!erechnung1.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.8, 36059, 740566

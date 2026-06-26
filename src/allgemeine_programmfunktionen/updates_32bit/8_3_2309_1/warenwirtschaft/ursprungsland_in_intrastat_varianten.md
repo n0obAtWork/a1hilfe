@@ -4,7 +4,7 @@
 
 Die Varianten in der Anwendung Intrastat [INTRA] wurden um das Ursprungsland erweitert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 723766[33914]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_intrastatauswahllisten.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 33914, 723766

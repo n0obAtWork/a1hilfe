@@ -4,7 +4,7 @@
 
 In den Hausbanken kann man jetzt pro Hausbank festlegen, ob der einfache oder der erweiterte Zeichensatz (mit Umlauten und den Sonderzeichen &$%\*) verwendet werden soll. Vorbelegung ist der erweiterte Zeichensatz.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 749003[37862]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/hausbanken.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 37862, 749003

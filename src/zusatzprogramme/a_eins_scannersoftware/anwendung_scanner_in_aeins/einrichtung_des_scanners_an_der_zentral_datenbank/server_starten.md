@@ -4,7 +4,7 @@
 
 Hier finden Sie die Erklärung der einzelnen Maskenfelder
 
-<p class="just-emphasize">Registerkarte Server</p>
+### Registerkarte Server
 
 | Eingabefelder | Bedeutung |
 | --- | --- |
@@ -18,7 +18,7 @@ Hier finden Sie die Erklärung der einzelnen Maskenfelder
 | Testvorgang | |
 | Belegdruckernummer | Verwendet den Drucker der standardmäßig unter Windows für den Scannerbenutzer eingetragen worden ist. Wird in dem Feld Ja ausgewählt so wird nach der Erstellung des Vorgangs der Beleg automatisch ausgedruckt. Steht ein Nein in diesem Feld so wird der Beleg manuell gedruckt.<br> |
 
-<p class="just-emphasize">Registerkarte Allgemein</p>
+### Registerkarte Allgemein
 
 Auf der Registerkarte Allgemein finden Sie noch weitere Einstellungen, die für den Betrieb der Scanner von Bedeutung sind.
 
@@ -38,7 +38,7 @@ Auf der Registerkarte Allgemein finden Sie noch weitere Einstellungen, die für 
 | Scanner Scrollbar | Mit dieser Einstellung kann entschieden werden, ob in die Scanneranzeige alle gescannten Positionen oder nur ein Teil geladen werden. Wird die Einstellung auf „Ja“ gestellt so werden in der AeinsCE Maske nur neun Positionen angezeigt. Mit den Pfeiltasten kann dann hoch und runter geblättert werden. Dies bedeutet es werden immer die nächsten neun Positionen nachgeladen. Wird „Nein“ ausgewählt so werden alle Daten angezeigt und man kann mit dem Scrollbalken nach unten Scrollen. |
 | Unterdrückung von AI Start | Mit dieser Einstellung kann entschieden werden, wenn der Scanner sich noch in einem Vorgangserfassungmodus befindet, der nicht beendet worden ist, ob ein Wechsel auf ein anderen Vorgang möglich ist (z.B. von Auftrag zur Inventur) |
 
-<p class="just-emphasize">Registerkarte Vorgangseinstellungen</p>
+### Registerkarte Vorgangseinstellungen
 
 | Eingabefelder | Bedeutung |
 | --- | --- |
@@ -56,7 +56,7 @@ Auf der Registerkarte Allgemein finden Sie noch weitere Einstellungen, die für 
 | Bestellung/Auftrag zum Lieferschein | Hier kann eingestellt werden, ob ein Auftrag, Bestellung gleich in ein Lieferschein umgewandelt werden soll |
 | Gebindefaktor aus Vorgang | Hier kann eingestellt werden, ob der Gebinde Faktor aus dem Vorgang gelesen werden soll. |
 
-<p class="just-emphasize">Registerkarte LVS</p>
+### Registerkarte LVS
 
 | Eingabefelder | Bedeutung |
 | --- | --- |
@@ -69,6 +69,6 @@ Auf der Registerkarte Allgemein finden Sie noch weitere Einstellungen, die für 
 | Private Mengenbehandlung Umpacken | Hier kann eine Private Prozedur hinterlegt werden, die beim Kommando Umpacken anstelle der Standard Mengenbehandlung aufgerufen wird. |
 | Abweichung in Prozent beim Umpacken | Hier kann hinterlegt werden, wie viel % Verlust beim Umpacken auftreten darf. Diese Einstellung gilt nur für den Standard Fall. |
 
-<p class="just-emphasize">Registrierkarte Warenbewegung Addon</p>
+### Registrierkarte Warenbewegung Addon
 
 Auf dieser Registrierkarte kann eingestellt werden welcher AI Code 91,92,93,94,95,96,98 in einem Warenbewegung Addon Feld gespeichert werden kann.

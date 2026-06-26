@@ -2,31 +2,31 @@
 
 <!-- source: https://amic.de/hilfe/setouterrstatement.htm -->
 
-<p class="just-emphasize">Syntax</p>
+#### Syntax
 
 SET OUTERR [Dateiname]
 
-<p class="just-emphasize">Purpose</p>
+#### Purpose
 
 Fehlermeldungen umlenken in Datei (append)
 
-<p class="just-emphasize">Anwendung</p>
+#### Anwendung
 
 Kommandodatei, Befehlszeile
 
-<p class="just-emphasize">Berechtigung</p>
+#### Berechtigung
 
 Alle Anwender
 
-<p class="just-emphasize">Siehe auch</p>
+#### Siehe auch
 
 [CONTINUE](./continue_statement.md), [SET ERROR](./set_error_statement.md)
 
-<p class="just-emphasize">Beschreibung</p>
+#### Beschreibung
 
 Fehlermeldungen, die während des Laufes einer Kommandodatei entstehen können in eine Datei umgelenkt werden, um sie Anschließend zu kontrollieren. Dies ist umso wichtiger, wenn man die Fehlermeldung auf dem Bildschirm ausgeschaltet hat. Geschlossen wird die Fehlerdatei wieder, wenn SET OUTERR ohne Dateinamen angegeben wird.
 
-<p class="just-emphasize">Beispiel</p>
+#### Beispiel
 
 SET ERROR NODISPLAY;
 

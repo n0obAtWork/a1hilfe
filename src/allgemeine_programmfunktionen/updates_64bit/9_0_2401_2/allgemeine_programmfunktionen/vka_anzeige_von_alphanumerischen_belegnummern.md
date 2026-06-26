@@ -4,7 +4,7 @@
 
 In der Anwendung Kunden-Verkaufsauswertung [VKA] in der Variante "Basis für QuickReport (VKA)" werden jetzt auch alphanumerische Belegnummern angezeigt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 733649[35113]
 
@@ -20,6 +20,6 @@ Funktion/Report: Auswahlliste
 
 [Weitere Informationen](http://www.amic.de/hilfe/_kundensummen.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.2, 35113, 733649

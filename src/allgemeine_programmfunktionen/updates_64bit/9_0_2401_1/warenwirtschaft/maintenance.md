@@ -4,7 +4,7 @@
 
 In der Belegerfassung kann zum Hauptkunden ein Rechnungsempfänger und ein Zahlungspflichtiger in den Beleg eingetragen werden. Ob dies nur in Einkauf oder Verkauf oder in beiden Fällen möglich ist regeln die Steuerparameter 151 und 166. Bisher wurde bei einem Kundenwechsel der Rechnungsempfänger/Zahlungspflichtiger nicht korrekt eingetragen. Dies wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 727117[34263]
 
@@ -20,6 +20,6 @@ Funktion/Report: Erfassung
 
 [Weitere Informationen](http://www.amic.de/hilfe/erfassungdeskunden.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.1, 34263, 727117

@@ -4,7 +4,7 @@
 
 Die ausgelieferte Relation "Rollenpflegerstamm" wurde aktualisiert. Dadurch sind Fehlermeldungen hinsichtlich einer leeren Rolle in Pfleger-Kontexten nicht länger zu erwarten.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 739219[35848]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/rollenpflegerstamm.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.4, 35848, 739219

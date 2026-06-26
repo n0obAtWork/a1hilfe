@@ -18,7 +18,7 @@
 | | |
 | Übernahme von Terminal | Hier können Einstellungen von anderen Terminals via F3-Auswahl übernommen werden. |
 
-<p class="just-emphasize">Beispiel</p>
+#### Beispiel
 
 ![](../../../ImagesExt/image8_499.jpg)
 
@@ -28,9 +28,9 @@ Obiger Inhalt möge vorerst als „Beispiel“ dienen. Man erkennt bei näherem 
 
 Im Falle der Waagenprofile geschieht das mit regulären Ausdrücken. Dieses System wurde gewählt, um größtmöglichste Einfachheit und zugleich Flexibilität bei der Formulierung der Abhängigkeiten zu erreichen.
 
-<p class="just-emphasize">Regulärer Ausdruck</p>
+#### Regulärer Ausdruck
 
-<p class="just-emphasize">Was ist ein „Regulärer Ausdruck“?</p>
+### Was ist ein „Regulärer Ausdruck“?
 
 Reguläre Ausdrücke sind Ausdrücke, die nach bestimmten Regeln (die man im Falle der Waagenprofile nicht alle kennen muss!) zusammengesetzt sind und die durch Ihre Interpretation Muster abdecken.
 
@@ -70,7 +70,7 @@ Nun gilt es noch, den Begriff der „Gruppe“ zu überwinden: Eine „Gruppe“
 
 Schaut man sich zum Beispiel die 5.te Zeile an, speziell den regulären Ausdruck \\d{7}kg, und weiß man, dass Aeins tunlichst darauf aus ist, nur die Gewichtszahl zu bekommen, dann hätte man ohne Möglichkeit der Gruppierung nun ein Problem.
 
-<p class="just-emphasize">G</p>
+#### G
 
 Bezeichnet die Nummer der Gruppe, die zur weiteren Auswertung in Aeins herangezogen werden soll.
 
@@ -92,7 +92,7 @@ In der letzten Zeile wird demonstriert, wie man Gruppierung auch zur optischen A
 
 Beachten Sie bitte ferner, dass der Punkt „.“ in regulären Ausdrücken ein Metazeichen ist und ein beliebiges Zeichen bedeutet. In einer IP handelt es sich aber um Punkte, also schreibt man auch „Punkt“ \\., wenn man einen Punkt „.“ meint.
 
-<p class="just-emphasize">Rückgabe als</p>
+#### Rückgabe als
 
 Diese Spalte hat zum Zeitpunkt der Dokumentationserstellung dokumentatorischen Charakter, erfährt aber im Laufe der Weiterentwicklung des Waagenprofil-Modules noch eine wichtige Bedeutung. Es wird eine Anbindung zum Warenbewegungs-Addon geben.
 
@@ -102,7 +102,7 @@ Dient somit vorerst nur zur eigenen schnellen Orientierung.
 
 Mit einer kleinen aber feinen Ausnahme: Zeilen, die die Bezeichnung „Datum“ oder „Zeit“ tragen, werden in die der Hofliste zu Grunde liegenden Relation „OWaage“ in den Spalten „OWaage_1teWZeit“ resp. „OWaage-2teWZeit“ hinterlegt. Dieses Verfahren ist notwendig geworden, weil diese Daten bei bestimmten Wiegesystemen dazu verwendet werden, die Alibi-Zuordnung zu treffen.
 
-<p class="just-emphasize">Zuordnung</p>
+#### Zuordnung
 
 Die in „Ergebnis“ erhaltenen Daten müssen nun noch in Aeins fest hinterlegten Kriterien zugeordnet werden. Diese Kriterien sind
 
@@ -116,7 +116,7 @@ Nach der erfolgten Zuordnung stellt sich das Beispiel mittlerweile so dar:
 
 ![](../../../ImagesExt/image8_508.jpg)
 
-<p class="just-emphasize">NBV/NBZ</p>
+#### NBV/NBZ
 
 Würde jedes Wiegesystem in einer „fachgerechten“ Form abliefern, wäre man jetzt fertig.
 

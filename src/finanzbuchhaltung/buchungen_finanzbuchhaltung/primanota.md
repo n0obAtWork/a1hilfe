@@ -11,13 +11,13 @@ Dieser *vorläufige* Status bedeutet:
 - Eine Primanota kann gedruckt werden. Dazu stehen vier fest definierte Crystal-Reporte zur Verfügung.  
     
 
-  1. Primanota nach Belegart: In der A.eins-Finanzbuchhaltung werden die Belege in Belegarten unterteilt (ER, EG, AR, AG, ZA, EB, ...). In diesem Report werden die Belege nach dieser Belegart gruppiert und sortiert nach Belegart und Belegnummer aufgelistet
+1. Primanota nach Belegart: In der A.eins-Finanzbuchhaltung werden die Belege in Belegarten unterteilt (ER, EG, AR, AG, ZA, EB, ...). In diesem Report werden die Belege nach dieser Belegart gruppiert und sortiert nach Belegart und Belegnummer aufgelistet
 
-  2. Primanota chronologisch: Die Belege werden in der Reihenfolge ausgegeben, wie sie ins System gekommen sind.
+2. Primanota chronologisch: Die Belege werden in der Reihenfolge ausgegeben, wie sie ins System gekommen sind.
 
-  3. Primanota EURO/Fremdwährung: Die Sortierung erfolgt wie im Report Primanota nach Belegart, jedoch werden die Beträge sowohl in Buchwährung als auch in Fremdwährung ausgegeben.
+3. Primanota EURO/Fremdwährung: Die Sortierung erfolgt wie im Report Primanota nach Belegart, jedoch werden die Beträge sowohl in Buchwährung als auch in Fremdwährung ausgegeben.
 
-  4. Primanota Hauptbuch: Die erfassten Daten werden nicht Belegweise wie in den anderen Primanoten ausgegeben, sondern gruppiert und sortiert nach den Konten.
+4. Primanota Hauptbuch: Die erfassten Daten werden nicht Belegweise wie in den anderen Primanoten ausgegeben, sondern gruppiert und sortiert nach den Konten.
 
 - Zudem steht noch eine Auswahlliste **Primanota** zur Verfügung. Dort können die Daten über die üblichen Mechaniken (z.B. Excelexport, Kurzliste, Quickreport, AMIC Etikettendruck) ausgegeben werden.
 - Ungebuchte Belege werden bereits beim automatischen Zahlungsverkehr und beim Mahnwesen herangezogen. Zu beachten ist hier unbedingt, dass die Zahlungs- / Mahnvorschläge sich ändern, wenn die ungebuchten Belege geändert/gelöscht werden.  

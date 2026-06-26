@@ -4,7 +4,7 @@
 
 TAR-Export ist nun auch nach Ablauf des TSE-Zertifikates möglich.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 752960[39397]
 
@@ -20,6 +20,6 @@ Funktion/Report: TAR-Export, Löschen / Wiederherstellen
 
 [Weitere Informationen](http://www.amic.de/hilfe/_tseauswhalliste.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.9, 39397, 752960

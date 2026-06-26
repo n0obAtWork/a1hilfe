@@ -4,7 +4,7 @@
 
 In [PKX] EK und VK fürte die F2-Suche über die Lieferantennummer ohne Lieferentenbezeichnung zu einem Fehler in der Auswahlliste. Dieser wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 741007[36020]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/#!_PreiskalkulationExcel.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.8, 36020, 741007

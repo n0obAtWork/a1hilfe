@@ -4,7 +4,7 @@
 
 Es gab ein Problem mit größeren HTML-Body-Dateien im eBeleg. Diese wurden ab einer Länge von 5kB abgeschnitten. Dieses Problem wurde behoben
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 714785[32856]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/htmlbody.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2211.9, 32856, 714785

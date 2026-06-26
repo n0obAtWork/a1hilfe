@@ -8,7 +8,7 @@ Direktsprung **[DUEB]**
 
 Diese Schnittstelle ist eine allgemeine technische Lösung um Dateien gesichert einzulesen. In dieser Auswahlliste kann man die Schnittstelle definieren und ausführen.
 
-<p class="just-emphasize">Einrichtung</p>
+#### Einrichtung
 
 ![Ein Bild, das Text, Screenshot, Software, Computersymbol enthält. Automatisch generierte Beschreibung](../../../../ImagesExt/image8_780.png "Ein Bild, das Text, Screenshot, Software, Computersymbol enthält. Automatisch generierte Beschreibung")
 
@@ -164,7 +164,7 @@ Diese Schnittstelle ist eine allgemeine technische Lösung um Dateien gesichert 
   </table>
 </div>
 
-<p class="just-emphasize">Verarbeitung</p>
+#### Verarbeitung
 
 Hat man in der Auswahlliste ein definiertes Verfahren ausgewählt, kann man mit der Funktion ***Starten*** **F9** die Datenübernahme starten.
 

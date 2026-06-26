@@ -4,7 +4,7 @@
 
 Der Bedienerstamm wurde um ein Feld mit dem Neuanlagedatum erweitert. Dieses Feld wird bei bereits bestehenden Bedienern mit dem Datum des Updates befüllt, da die Information der ursprünglichen Bedieneranlage nicht vorliegt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 721532[33644]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_bedienerstamm.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2303.31, 33644, 721532

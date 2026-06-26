@@ -117,7 +117,7 @@ Zur Einstellung stehen verschiedene Typen zur Verfügung.
   </table>
 </div>
 
-<p class="just-emphasize">Info zu Makro</p>
+#### Info zu Makro
 
 Beim Aufruf der „MAKRO_KOPF…“ und „MAKRO_POSI…“ werden folgende Parameter aufgerufen.
 

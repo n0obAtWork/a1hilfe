@@ -12,7 +12,7 @@ In der Auswahlliste werden die Daten der Lokalitäten angezeigt. Zusätzlich wer
 
 Die Bearbeitungsmaske ist in folgende Bereiche aufgeteilt.
 
-<p class="just-emphasize">Kopfdaten</p>
+### Kopfdaten
 
 | Feldname | Bedeutung |
 | --- | --- |
@@ -21,7 +21,7 @@ Die Bearbeitungsmaske ist in folgende Bereiche aufgeteilt.
 | [Lokalitätstyp](./lokalitaetstyp.md) | Typ der Lokalität |
 | Lager | Lagernummer der Lokalität |
 
-<p class="just-emphasize">Registerkarte Dimension</p>
+### Registerkarte Dimension
 
 Die Dimensionsfelder können per Einrichterparameter vorbelegt werden. Sollte für eine/mehrere Dimensionen eine Vorbelegung vorhanden sein, so kann diese auf der Maske nicht geändert werden.
 
@@ -42,7 +42,7 @@ Die Dimensionsfelder können per Einrichterparameter vorbelegt werden. Sollte f�
 | Breite / Mengeneinheit | |
 | Höhe / Mengeneinheit | |
 
-<p class="just-emphasize">Registerkarte Definition</p>
+### Registerkarte Definition
 
 Die Einstellungen auf dieser Registerkarte sind nur für Spezialanwendungen im Lagerverwaltungssystem und werden im Standard nicht ausgewertet.
 
@@ -55,7 +55,7 @@ Die Einstellungen auf dieser Registerkarte sind nur für Spezialanwendungen im L
 | Automatische Boxenanlage | Hier kann eingestellt werden, ob an der Lokalität Ladeträger automatisch angelegt werden dürfen. |
 | Waagenvorlage | Hier kann die Waagenvorlage hinterlegt werden, die beim Erzeugen des Rohwarenbeleges verwendet werden soll. |
 
-<p class="just-emphasize">Registerkarte Maschine</p>
+### Registerkarte Maschine
 
 Die Einstellungen auf dieser Registerkarte sind nur für Spezialanwendungen im Lagerverwaltungssystem und werden im Standard nicht ausgewertet.
 

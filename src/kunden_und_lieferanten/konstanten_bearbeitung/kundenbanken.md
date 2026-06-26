@@ -137,6 +137,6 @@ In der Stammdatenmaske können folgende Daten eingegeben werden.
 
 Zu den Kundenbanken existieren [Einrichterparameter](../../firmenstamm/einrichterparameter/kundenbanken_epa_tbkuba.md), die die Erfassungsmöglichkeiten steuern.
 
-<p class="just-emphasize">Kontraktabtretungskonto</p>
+#### Kontraktabtretungskonto
 
 Unter Umständen kann es dazu kommen, dass die Banknummer und Kontonummer nicht mehr geändert oder das Konto gelöscht werden darf. Dieser Fall liegt vor, wenn in einem Kontrakt ein Abtretungskonto eingetragen, der Kunde in der Kontraktgruppe des Kontrakts ist und die Banknummer und Kontonummer dieselben sind.

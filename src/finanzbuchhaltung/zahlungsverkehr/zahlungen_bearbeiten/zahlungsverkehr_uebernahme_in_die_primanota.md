@@ -35,7 +35,7 @@ Der **Buchungstext** des so erzeugten Beleges wird je nach Einstellung bzw. Date
 
 2. Ist in den Einrichterparameter eine „Datenbankfunktion zur Bestimmung des Belegtextes“ eingetragen, so wird der hier generierte Text verwendet. Die Datenbankfunktion hat als Übergabeparameter die Zahlungsid und eine Kennzeichen das besagt, ob es die erste Position des Zahlungsbeleges ist (Kennzeichen = 1) – also die Position mit dem Kassen/Bankkonto - oder ob es eine Folgeposition (Kennzeichen = 0) ist – also eine Position mit Debitoren/Kreditoren. Die Funktion muss einen Text Typ Character zurückliefern. Ist dieser Text leer oder ist die Datenbankfunktion nicht eingerichtet, ziehen die weiter unten folgenden Bedingungen.
 
-Beispiel:
+   Beispiel:
 
 ```sql
 create function p_Buchungstext( in in_ZahlungId integer, in in_SammelPosition integer)

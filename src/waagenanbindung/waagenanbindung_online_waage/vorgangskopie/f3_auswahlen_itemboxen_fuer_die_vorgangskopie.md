@@ -6,19 +6,19 @@ Für die Vorgangskopie kann man in den [Wiegeprozessen](../prozess_einrichten/in
 
 Folgenden Standard Itemboxen stehen zur Auswahl:
 
-<p class="just-emphasize">Verkauf</p>
+#### Verkauf
 
 1. IB_KU_MIT_AUFTRAG_WAAGE
 
 2. IB_KU_MIT_AUFTRAG_nam_waage
 
-<p class="just-emphasize">Einkauf</p>
+#### Einkauf
 
 1 IB_KU_MIT_BESTELLUNG_WAAGE
 
 2 IB_KU_MIT_BESTELLUNG_nam_waage
 
-<p class="just-emphasize">Lohn</p>
+#### Lohn
 
 1. IB_KU_MIT_AUFTRAG_BESTELLUNG_WAAGE
 
@@ -27,13 +27,13 @@ Folgenden Standard Itemboxen stehen zur Auswahl:
 Weitere Wahlmöglichkeiten:  
 Diese Itemboxen sollen als Beispiel/Vorlage dienen, wenn man z.B. verhindern möchte, dass Vorgänge in der Waage mehrfach auswählbar sind.
 
-<p class="just-emphasize">Verkauf</p>
+#### Verkauf
 
 1. IB_KU_MIT_AUFTRAG_OFFEN_WAAGE
 
 2. IB_KU_MIT_AUFTRAG_OFFEN_nam_WAAGE
 
-<p class="just-emphasize">Einkauf</p>
+#### Einkauf
 
 1. IB_KU_MIT_BESTELLUNG_OFFEN_WAAGE
 

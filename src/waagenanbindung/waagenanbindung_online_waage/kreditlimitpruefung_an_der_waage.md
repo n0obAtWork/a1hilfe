@@ -26,13 +26,13 @@ Die Überprüfung des Kreditlimits passiert nach den folgenden Eingaben.
 
 6. Nach Eingabe des Disponiertenmenge
 
-<p class="just-emphasize">Privatisierung der Kreditlimit Funktion</p>
+#### Privatisierung der Kreditlimit Funktion
 
 An dem [Steuerparameter 925(Allgemeiner Steuerparameter Waage)](../../firmenstamm/steuerparameter/waagensteuerung/allgemeiner_steuerparameter_fuer_die_waage_spa_925.md) kann eine private Kreditlimit Prozedur hinterlegt werden. Diese Prozedur wird dann anstelle der Standard-Kreditlimitberechnung an der Waage aufgerufen. Die Eingangsparameter der Prozedur müssen genauso heißen wie an dieser [Stelle](./kreditlimitpruefung_an_der_waage.md#Parameternamen) beschrieben.
 
 Gibt die Prozedur als Fehler eine eins zurück, so wird der Fehlertext auf dem Bildschirm angezeigt. Die Erfassung wird dann in Abhängigkeit des [Steuerparameters 233 (Kreditlimit-Prüfung)](../../firmenstamm/steuerparameter/vorgangsbearbeitung_allg/kreditlimit_pruefung_spa_233.md) gesperrt, oder es erscheint eine Warnmeldung auf dem Bildschirm.
 
-<p class="just-emphasize">Folgende Parameter werden der Prozedur übergeben</p>
+#### Folgende Parameter werden der Prozedur übergeben
 
 | Parameter | Bedeutung |
 | --- | --- |
@@ -41,7 +41,7 @@ Gibt die Prozedur als Fehler eine eins zurück, so wird der Fehlertext auf dem B
 | in_ArtikelId | ArtikelId des aktuellen Wagensatzes |
 | in_KtrId | KontraktId des aktuellen Waagensatzes |
 
-<p class="just-emphasize">Folgende Parameter werden erwartet.</p>
+#### Folgende Parameter werden erwartet.
 
 | Parameter | Bedeutung des Rückgabewertes |
 | --- | --- |

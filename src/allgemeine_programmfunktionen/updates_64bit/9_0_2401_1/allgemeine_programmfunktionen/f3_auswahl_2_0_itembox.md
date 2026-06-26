@@ -4,7 +4,7 @@
 
 In der F3-Auswahl 2.0 (Itembox) wird der Vergleichsoperator der Filterzeile für das Abfragefeld anhand der Zeichen vor dem Schlüsselwort :ITEMWAHL bestimmt. Dies lässt sich mit Hilfe des Schlüsselwortes FilterComparision innerhalb der Itembox-Definition übersteuern.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 730794[34741]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/SchluesselwoerterImSQLText.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.1, 34741, 730794

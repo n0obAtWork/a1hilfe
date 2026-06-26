@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/einrichtungderposkasse.htm -->
 
-<p class="just-emphasize">Bitte beachten Sie:</p>
+#### Bitte beachten Sie:
 
 Die POS-Kasse wird von AMIC nicht mehr unterstützt. Die nachfolgenden Texte sind lediglich als historisch zu verstehen.
 

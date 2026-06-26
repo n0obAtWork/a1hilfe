@@ -4,7 +4,7 @@
 
 Beim Kundenwechsel von einem nachhaltigen Kunden zu einem nicht nachhaltigen Kunden bzw. umgekehrt, ist im Behandlungsschema einstellbar, wie mit dieser Situation verfahren werden soll. Hier sind Abbruch oder Fortsetzung mit und ohne Warnung möglich. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 727582[34422]
 
@@ -20,6 +20,6 @@ Funktion/Report: Kundenwechsel
 
 [Weitere Informationen](http://www.amic.de/hilfe/_behandlungsschemata.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.1, 34422, 727582

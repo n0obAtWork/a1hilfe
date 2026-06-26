@@ -53,7 +53,7 @@ Sind alle Kennzeichen korrekt eingerichtet, so wird beim ersten Druck des für V
   </table>
 </div>
 
-<p class="just-emphasize">Definition Parameter</p>
+#### Definition Parameter
 
 <div class="table-wrapper">
   <table>

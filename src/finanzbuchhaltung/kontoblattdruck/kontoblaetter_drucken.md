@@ -8,11 +8,11 @@ Direktsprung <strong>[KOD]</strong> oder <strong>[KOK]</strong>
 
 Für den Druck des Kontoblattes stehen verschiedene Möglichkeiten zur Verfügung, die sich letztlich nur durch die Möglichkeit der Eingrenzung unterscheiden:
 
-<p class="just-emphasize">Kontoblätter drucken:</p>
+### Kontoblätter drucken:
 
 Man kann hier die Konten eingrenzen, die zu diesem Kontoblatt gehören.
 
-<p class="just-emphasize">Kontoblätter Einzelkonten:</p>
+### Kontoblätter Einzelkonten:
 
 Im Gegensatz zum Druck über "Kontenblätter drucken" werden hier zu einem Konto aus allen Kontoblattläufen die Daten herausgesucht. Eine zusätzliche Eingrenzungsmöglichkeit ist hier die Seite des Kontoblattes.
 

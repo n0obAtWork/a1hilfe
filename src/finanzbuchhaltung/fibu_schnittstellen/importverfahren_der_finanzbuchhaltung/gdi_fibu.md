@@ -8,7 +8,7 @@ Direktsprung **[FIIM]**
 
 Beim Import aus der GDI-Fibu handelt es sich um echte Finanzbuchhaltungsbelege, also um Eingangsrechnungen, Ausgangsrechnung sowie Zahlungsbelege. Der Satzaufbau der zu importierenden Datei hat wie folgt auszusehen:
 
-<p class="just-emphasize">Satzaufbau</p>
+#### Satzaufbau
 
 Es werden nur die mit [Bu] beginnenden Datensätze ausgewertet.
 
@@ -273,7 +273,7 @@ Es werden nur die mit [Bu] beginnenden Datensätze ausgewertet.
 Die Gegenbuchungen werden jeweils mit ‘<strong>&lt;GKt>=’</strong> eingeleitet. Es muss mindestens eine Gegenbuchung angegeben werden. Die Mindestangaben hierbei sind die Kontonummer und der Buchungsbetrag. Das Buchungsdatum wird immer aus der Buchung herangezogen. Die Felder Belegart, Belegnummer und Buchungstext werden aus der Buchung übernommen, falls sie nicht für die Gegenbuchung angegeben wurden. Die Summe aus den Buchungsbeträgen ‘<strong>&lt;Btr>=’</strong> und den Steuerbeträgen ‘<strong>&lt;StB>=’</strong> der Buchung und aller Gegenbuchungen müssen 0.00 DM ergeben.  
 Alle in Buchungssätzen angegebenen Konten müssen in der Fibu angelegt sein bzw. vor der Buchung als Stammsatz übergeben worden sein. 
 
-<p class="just-emphasize">Beispieldaten</p>
+#### Beispieldaten
 
 ```text
 [GDI-Fibu]:[GDI-FACTUR]:[GDI-Business-Line]

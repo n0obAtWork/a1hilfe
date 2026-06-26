@@ -4,7 +4,7 @@
 
 In der Frachttabellenzuordnung ist das Feld "Frachtgruppe AR" dahingehend erweitert worden, dass auch Werte > 32.768 eingegeben werden können.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 722181[33343]
 
@@ -20,6 +20,6 @@ Funktion/Report: Ändern >> Fachttabellenzuordnung
 
 [Weitere Informationen](http://www.amic.de/hilfe/!frachttabellenzuordnungen.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2302.17, 33343, 722181

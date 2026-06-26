@@ -4,7 +4,7 @@
 
 Es gab ein Problem bei der Vorschau und dem Vorgangsdruck bezüglich der mm-Angaben im Formular zum oberen und linken Rand. Dies wurde nun behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 726910[34410]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_frmdialog.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2312.8, 34410, 726910

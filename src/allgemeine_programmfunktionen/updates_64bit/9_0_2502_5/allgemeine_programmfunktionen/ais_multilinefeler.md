@@ -4,7 +4,7 @@
 
 Bei Multilinefelder in AIS kann mit F3 oder per Doppelklick der Text in einem Editor bearbeitet werden.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 0[36695]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/feldbeschreibung.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 36695, 0

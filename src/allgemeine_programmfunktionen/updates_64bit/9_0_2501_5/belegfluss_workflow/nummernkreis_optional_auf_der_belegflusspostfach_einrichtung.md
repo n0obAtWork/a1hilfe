@@ -4,7 +4,7 @@
 
 In der Anwendung "Archiv-Belegfluss" [BF] in der Variante "Postfach-Einrichtung" auf der Maske "Postfach-Einrichtung" gibt es das Feld "Nummernkreis". Ist das Feld gefüllt wird dieser Nummernkreis zum erstellen der Finanzbuchhaltungsbelege herangezogen. Anderenfalls wird der Standardnummernkreis der Finanzbuchhaltung genutzt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 746963[37091]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/!belegflusspostfacheinrichtungs.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 37091, 746963

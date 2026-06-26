@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/importvorgstammaddon.htm -->
 
-<p class="just-emphasize">Vorgangs Addon</p>
+#### Vorgangs Addon
 
 Aus dieser Relation werden Vorgangsaddon-Felder des Vorgangs befüllt.
 

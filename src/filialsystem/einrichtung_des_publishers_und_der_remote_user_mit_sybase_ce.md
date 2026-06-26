@@ -8,7 +8,7 @@ Die Einrichtung des Publishers und der Remote-User lässt sich auch in Sybase Ce
 
 2. Verbinden Sie sich mit der gewünschten Datenbank
 
-3. Klicken Sie in der Ordneransicht mit der RECHTEN Maustaste auf Benutzer à Neu
+3. Klicken Sie in der Ordneransicht mit der RECHTEN Maustaste auf Benutzer → Neu
 
 4. Im Assistenten zum Erstellen von Benutzern geben Sie zunächst den Namen des anzulegenden Benutzers ein. Der erste Name ist BST1. Bei weiteren anzulegenden Benutzern wird die Zahl jeweils um Eins erhöht (BST2). Klicken Sie anschließend auf „Weiter“
 
@@ -18,17 +18,17 @@ Die Einrichtung des Publishers und der Remote-User lässt sich auch in Sybase Ce
 
 7. Vergeben Sie die benötigten Rechte des Benutzers und klicken Sie anschließend auf „Weiter“. Mindestens:
 
-a. DBA
+   a. DBA
 
-b. Ressource
+   b. Ressource
 
-c. Entfernter DBA
+   c. Entfernter DBA
 
-d. Alle anderen schaden jedenfalls nicht…
+   d. Alle anderen schaden jedenfalls nicht…
 
 8. Geben Sie einen Kommentar ein (optional) und klicken Sie anschließend auf „Fertig stellen“
 
-9. Suchen Sie nun den Benutzer den Sie gerade angelegt haben in der Ordneransicht aus der Liste der Benutzer heraus und klicken Sie diesen mit der RECHTEN Maustaste an und klicken anschließend auf Neu à Mitgliedschaft
+9. Suchen Sie nun den Benutzer den Sie gerade angelegt haben in der Ordneransicht aus der Liste der Benutzer heraus und klicken Sie diesen mit der RECHTEN Maustaste an und klicken anschließend auf Neu → Mitgliedschaft
 
 10. Markieren Sie die Gruppe ADMIN und bestätigen Sie mit OK
 
@@ -42,9 +42,9 @@ d. Alle anderen schaden jedenfalls nicht…
 
 15. Bestätigen Sie die Änderung mit OK
 
-Zum Anlegen der SQL Remote Benutzer können Sie auch direkt durch Anklicken des Menüpunktes SQL Remote Benutzer in der Ordneransicht mit der RECHTEN Maustaste, dann auf Neu àSQL Remote Benutzer, den Assistenten zum Erstellen von SQL Remote Benutzern öffnen. Hier haben Sie den Vorteil die für die Replikation nötigen Benutzerinfos direkt anzugeben.
+Zum Anlegen der SQL Remote Benutzer können Sie auch direkt durch Anklicken des Menüpunktes SQL Remote Benutzer in der Ordneransicht mit der RECHTEN Maustaste, dann auf Neu →SQL Remote Benutzer, den Assistenten zum Erstellen von SQL Remote Benutzern öffnen. Hier haben Sie den Vorteil die für die Replikation nötigen Benutzerinfos direkt anzugeben.
 
-<p class="just-emphasize">Publisher anlegen via ISQL</p>
+### Publisher anlegen via ISQL
 
 Werte in den Klammern ersetzen!
 
@@ -56,7 +56,7 @@ GRANT PUBLISH TO "<BST(Zähler)>";
 ALTER REMOTE MESSAGE TYPE file ADDRESS '<Pfad zum Nachrichtenverzeichnis>';
 ```
 
-<p class="just-emphasize">SQL Remote Benutzer anlegen via ISQL</p>
+### SQL Remote Benutzer anlegen via ISQL
 
 Werte in den Klammern ersetzen!
 

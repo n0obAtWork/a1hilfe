@@ -10,7 +10,7 @@ Hierzu führe man in OSQL folgendes auf der **Nicht-Archiv-Datenbank** aus:
 
 1. select remote_location from sys.systable where table_name = 'formulararchiv'
 
-Man merke sich den Wert der unter remote_location angegeben ist!
+   Man merke sich den Wert der unter remote_location angegeben ist!
 
 2. Drop table formulararchiv
 

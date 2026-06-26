@@ -30,7 +30,7 @@ Stornokonto lt. Kasseneinstellung
 
 Verrechnungskonten der Hausbanken (Einreichungen)
 
-<p class="just-emphasize">Bisheriges Verfahren Kassenabschluss Unterkasse mit Abschöpfung an Hauptkasse:</p>
+#### Bisheriges Verfahren Kassenabschluss Unterkasse mit Abschöpfung an Hauptkasse:
 
 Bargeld:
 
@@ -40,13 +40,13 @@ Bargeld:
 
 3. Falls automatische Umbuchung von Zahlungsmitteln eingestellt ist, so werden bis zu 4 Fibu-Belege erstellt:
 
-a. Bargeldeingang (Kasse an Bargeldkonto)
+   a. Bargeldeingang (Kasse an Bargeldkonto)
 
-b. Bargeldausgang (Kasse an Bargeld)
+   b. Bargeldausgang (Kasse an Bargeld)
 
-c. Zähldifferenz (Differenzenkonto an Bargeld)
+   c. Zähldifferenz (Differenzenkonto an Bargeld)
 
-d. BV Storno Saldo (Kasse an Storno)
+   d. BV Storno Saldo (Kasse an Storno)
 
 4. Falls keine automatische Umbuchung von Zahlungsmitteln vorgesehen ist, so erfolgt eine Umbuchung des Bargeldsaldo (Unterkasse an Hauptkasse).
 
@@ -64,21 +64,21 @@ d. BV Storno Saldo (Kasse an Storno)
 
 2. Falls automatische Umbuchungen von Zahlungsmitteln vorgesehen sind,
 
-a. so wird je Zahlungsart ein Fibubeleg über den einzureichenden Betrag gebildet (Kasse an Scheck/Gutschein/EC-Cash/Bankeinzug).
+   a. so wird je Zahlungsart ein Fibubeleg über den einzureichenden Betrag gebildet (Kasse an Scheck/Gutschein/EC-Cash/Bankeinzug).
 
-b. An der Kasse wird unter der Belegart „aut. Einreichung“ wahlweise (EPA) ein Sammelbeleg über die einzureichenden Zahlungsmittel oder Einzelbelege je Zahlungsmittel erzeugt.
+   b. An der Kasse wird unter der Belegart „aut. Einreichung“ wahlweise (EPA) ein Sammelbeleg über die einzureichenden Zahlungsmittel oder Einzelbelege je Zahlungsmittel erzeugt.
 
-c. Das Soll der jeweiligen Unterkasse je Zahlungsart wird gemindert.
+   c. Das Soll der jeweiligen Unterkasse je Zahlungsart wird gemindert.
 
 3. Falls keine automatische Umbuchung von Zahlungsmitteln vorgesehen ist, so müssen entweder
 
-a. die Zahlungsmittel manuell an die Hauptkasse abgeschöpft werden, oder
+   a. die Zahlungsmittel manuell an die Hauptkasse abgeschöpft werden, oder
 
-b. es wird per SPA dafür gesorgt, dass der Vortrag der Zahlungsmittel in der folgenden Sitzung auf 0 gestellt wird. Die Zahlungsmittel lösen sich allem Anschein nach in Luft auf.
+   b. es wird per SPA dafür gesorgt, dass der Vortrag der Zahlungsmittel in der folgenden Sitzung auf 0 gestellt wird. Die Zahlungsmittel lösen sich allem Anschein nach in Luft auf.
 
 4. In jedem Fall werden die Zahlungsmittel der Kasse entnommen.
 
-<p class="just-emphasize">Bisheriges Verfahren Kassenabschluss Unterkasse ohne Abschöpfung oder Hauptkasse:</p>
+#### Bisheriges Verfahren Kassenabschluss Unterkasse ohne Abschöpfung oder Hauptkasse:
 
 Bargeld:
 
@@ -86,13 +86,13 @@ Bargeld:
 
 2. Falls automatische Umbuchung von Zahlungsmitteln eingestellt ist, so werden bis zu 4 Fibu-Belege erstellt:
 
-a. Bargeldeingang (Kasse an Bargeldkonto), ohne evtl. Einreichungen von Unterkassen (dieser Betrag wurde bereits beim Abschluss der Unterkasse auf das zugehörige Bargeldkonto umgebucht).
+   a. Bargeldeingang (Kasse an Bargeldkonto), ohne evtl. Einreichungen von Unterkassen (dieser Betrag wurde bereits beim Abschluss der Unterkasse auf das zugehörige Bargeldkonto umgebucht).
 
-b. Bargeldausgang (Kasse an Bargeld)
+   b. Bargeldausgang (Kasse an Bargeld)
 
-c. Zähldifferenz (Differenzenkonto an Bargeld)
+   c. Zähldifferenz (Differenzenkonto an Bargeld)
 
-d. BV Storno Saldo (Kasse an Storno)
+   d. BV Storno Saldo (Kasse an Storno)
 
 3. Durch die automatische Umbuchung des Bargeldes mindert sich das Kassensoll nicht. Dieses erfolgt erst bei der Einreichung an die Bank. Fibu-seitig ist die Kasse aber bereits entlastet, das Kassensoll ist bereits auf dem Bargeldkonto.
 
@@ -102,10 +102,10 @@ d. BV Storno Saldo (Kasse an Storno)
 
 1. Falls automatische Umbuchungen von Zahlungsmitteln vorgesehen sind,
 
-a. so wird je Zahlungsart ein Fibubeleg über den einzureichenden Betrag gebildet (Kasse an Scheck/Gutschein/EC-Cash/Bankeinzug).
+   a. so wird je Zahlungsart ein Fibubeleg über den einzureichenden Betrag gebildet (Kasse an Scheck/Gutschein/EC-Cash/Bankeinzug).
 
-b. An der Kasse wird unter der Belegart „aut. Einreichung“ wahlweise (EPA) ein Sammelbeleg über die einzureichenden Zahlungsmittel oder Einzelbelege je Zahlungsmittel erzeugt.
+   b. An der Kasse wird unter der Belegart „aut. Einreichung“ wahlweise (EPA) ein Sammelbeleg über die einzureichenden Zahlungsmittel oder Einzelbelege je Zahlungsmittel erzeugt.
 
-c. Das Soll der jeweiligen Unterkasse je Zahlungsart wird gemindert.
+   c. Das Soll der jeweiligen Unterkasse je Zahlungsart wird gemindert.
 
 2. Falls keine automatische Umbuchung von Zahlungsmitteln vorgesehen ist, so müssen die Zahlungsmittel manuell an die Bank werden.

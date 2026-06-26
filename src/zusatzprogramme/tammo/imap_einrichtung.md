@@ -13,7 +13,7 @@ Folgende Steuerparameter Einstellungen müssen für das Modul IMAP eingerichtet 
 | Port | | Die Nummer des Ports. |
 | SSL verwenden | | Soll kein SSL verwendet werden, kann hier der Wert „FALSE“ eingetragen werden. |
 
-<p class="just-emphasize">Beispiel GMX</p>
+#### Beispiel GMX
 
 Hier eine beispielhafte Einrichtung beim Anbieter GMX.de
 
@@ -26,7 +26,7 @@ Hier eine beispielhafte Einrichtung beim Anbieter GMX.de
 | Port | 993 |
 | SSL verwenden | TRUE |
 
-<p class="just-emphasize">Beispiel GMAIL</p>
+#### Beispiel GMAIL
 
 Hier eine beispielhafte Einrichtung beim Anbieter GMAIL.com
 
@@ -46,7 +46,7 @@ Für GMAIL sind eventuell noch folgende Kontoeinstellungen nötig.
 | IMAP-Zugriff | *Gmail -> Einstellungen -> Weiterleitung und POP/IMAP*<br>Der Haken muss bei „IMAP aktivieren“ gesetzt sein. |
 | Weniger sichere Apps zulassen | *Mein Konto -> Verbundene Apps und Webseiten*<br>Dort muss die Option „Weniger sichere Apps zulassen“ auf „An“ stehen. |
 
-<p class="just-emphasize">Beispiel KERIO</p>
+#### Beispiel KERIO
 
 Hier eine beispielhafte Einrichtung für einen KERIO Server
 

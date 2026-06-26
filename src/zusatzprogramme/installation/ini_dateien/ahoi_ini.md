@@ -13,7 +13,7 @@ Die im Windows Verzeichnis hinterlegte Datei kann verschiedenste Abschnitte enth
 | User | Hier kann die Vorbelegung des Usernamens eingetragen sein |
 | Passwort | Hier kann die Vorbelegung des Kennwortes eingetragen sein |
 
-<p class="just-emphasize">Mandantenabschnitt :</p>
+### Mandantenabschnitt :
 
 | [mandant] | |
 | --- | --- |

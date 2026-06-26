@@ -4,7 +4,7 @@
 
 Die Anzeige der aktuellen Zeile und Spalte in der Artikeltexterfassung wurde überarbeitet und wieder aktiviert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 728919[34553]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_textzeilen.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2312.8, 34553, 728919

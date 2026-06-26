@@ -4,7 +4,7 @@
 
 Artikelstamm-Pfleger doppelte Tastenbelegung entfernt. Textzeilen haben nun den Tastaturshortcut Strg+F5
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 748785[37815]
 
@@ -20,6 +20,6 @@ Funktion/Report: Ändern F5
 
 [Weitere Informationen](http://www.amic.de/hilfe/_parameterdesartikels.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 37815, 748785

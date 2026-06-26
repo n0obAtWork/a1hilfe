@@ -6,7 +6,7 @@ Wenn bei der Artikelerfassung noch kein Artikel ausgewählt wurde, besteht die M
 
 Wie gewohnt kann jetzt eine Warenposition erfasst werden. Die umgewandelte Menge wird erst bei Abschluss des Beleges von der Menge im Quellbeleg abgezogen. Durch eine normale Artikelauswahl wird der Teildispositionsmodus wieder verlassen. Weitere Einstellungen wie „Stornoprozentsatz“, „disponierbare Quellbelegklasse“ oder „lagerübergreifende Teildisposition“ können in der [Formularzuordnung](../../formularzuordnung/index.md) **[FRZ]** auf dem Register [Schnelle Teildisposition](../../formularzuordnung/schnelle_teildisposition.md) vorgenommen werden.
 
-<p class="just-emphasize">Einschränkungen</p>
+#### Einschränkungen
 
 Im Gegensatz zur [Standard-Teildisposition](../../standard_teildisposition_mehrfachteildisposition/index.md#StandardTeildisposition) und [Mehrfachteildisposition](../../standard_teildisposition_mehrfachteildisposition/mehrfachteildisposition.md) sind bei der „Schnellen Teildisposition“ die erzeugten Belege, sobald sie abgeschlossen wurden, losgelöst von ihren Quellbelegen. Das heißt zum Beispiel, dass nachträgliche Korrekturen von Quellbelegen nicht in dem erzeugten Beleg berücksichtigt werden und dass bei der Stornierung von durch die „Schnelle Teildisposition“ erzeugten Belegen die Quellbelege nicht zurückgerechnet werden.
 
@@ -16,7 +16,7 @@ Bei lagerübergreifender Teilumwandlung (einzustellen im [Register Schnelle Teil
 
 Bei der Artikelauswahl für die Schnelle Teildisposition wird ein Feld „Ursprungsmenge“ angezeigt. In diesem Feld steht die ursprüngliche Menge des Quellbeleges. Da aber die Schnelle Teildisposition die Mengen in den Quellbelegen direkt abändert, werden anders korrigierte Mengen nur solange angezeigt, bis der Quellbeleg mit der Schnellen Teildisposition behandelt wurde. Sobald der Quellbeleg einmal mit der Schnellen Teildisposition behandelt wird, wird die Menge intern in einem extra Feld gespeichert, das dann angezeigt wird und auf das sich Korrekturen nicht auswirken.
 
-<p class="just-emphasize">Ausbuchen</p>
+#### Ausbuchen
 
 Mit der Funktion „Schnelle Teildisposition ausbuchen“ kann festgelegt werden, dass die disponierte Position beim Abschluss des Beleges ausgebucht wird. Sollte die Position mehrfach disponiert und mindestens einmal als ausgebucht gekennzeichnet werden, wird die Position auch ausgebucht.
 

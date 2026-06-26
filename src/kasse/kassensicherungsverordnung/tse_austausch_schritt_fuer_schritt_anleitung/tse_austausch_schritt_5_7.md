@@ -17,13 +17,13 @@ Um die TSE hinzufügen, wie folgt vorgehen:
 
 2. Mit ***Neu* F8** neue ***TSE*** mit Bezeichnung anlegen.
 
-![Ein Bild, das Text, Elektronik, Screenshot, Display enthält. KI-generierte Inhalte können fehlerhaft sein.](../../../ImagesExt/image8_486.jpg "Ein Bild, das Text, Elektronik, Screenshot, Display enthält. KI-generierte Inhalte können fehlerhaft sein.")  
+   ![Ein Bild, das Text, Elektronik, Screenshot, Display enthält. KI-generierte Inhalte können fehlerhaft sein.](../../../ImagesExt/image8_486.jpg "Ein Bild, das Text, Elektronik, Screenshot, Display enthält. KI-generierte Inhalte können fehlerhaft sein.")  
 
 3. Eine Bezeichnung für die TSE eintragen.
 
 4. Laufwerkbuchstaben für den neuen Stick eintragen bzw. kontrollieren.
 
-<p class="just-emphasize">Hinweis!</p>
+#### Hinweis!
 
 Der große Vorteil an der TSE-Implementierung in A.eins ist, dass die TSE (wenn sie in Windows richtig eingebunden wurde) direkt erkannt wird.
 
@@ -31,7 +31,7 @@ Für den Fall, dass Sie mehrere TSE im Betrieb haben und nicht die Richtige erka
 
 5. ***Auf Aktivieren!*** klicken.
 
-\-> Der TSE-Stick wurde aktiviert.
+   -> Der TSE-Stick wurde aktiviert.
 
 </details>
 

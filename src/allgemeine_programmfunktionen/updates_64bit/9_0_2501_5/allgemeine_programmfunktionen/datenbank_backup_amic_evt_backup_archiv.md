@@ -4,7 +4,7 @@
 
 AMIC_EVT_Backup_ARCHIV: Die Prozedure erkennt nun, wenn es sich um ein Replikationssystem handelt, und führt dann weder TRUNCATE noch RENAME mit dem LOG aus.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 738252[35868]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/backupevents.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 35868, 738252

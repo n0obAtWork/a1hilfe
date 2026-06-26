@@ -4,7 +4,7 @@
 
 Es kam vor, dass E-Mail Anhänge nicht korrekt erkannt wurden. Die Erkennung des Dateityps wurde jetzt überarbeitet.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 719172[33719]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_vpstmailversandallgemein.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2304.28, 33719, 719172

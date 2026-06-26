@@ -4,7 +4,7 @@
 
 Beim Aufruf der Konteninformation aus der OP-Verwaltung heraus wurde die Jahrnummer nicht korrekt übergeben. Dies ist behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 751075[38462]
 
@@ -20,6 +20,6 @@ Funktion/Report: Konteninformation
 
 [Weitere Informationen](http://www.amic.de/hilfe/!funktioneninderopverwaltung.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.7, 38462, 751075

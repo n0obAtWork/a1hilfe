@@ -10,7 +10,7 @@ Diese Felder stehen in eigenen Relationen (Artikeladdon, etc.) s.o. und sind üb
 
 Am Beispiel des Artikelstamms wird nachfolgend die Einrichtung eigener Felder behandelt. Das Verfahren kann natürlich auf den Artikel übertragen werden.
 
-<p class="just-emphasize">Erweiterung des Artikelstamms</p>
+### Erweiterung des Artikelstamms
 
 Der Artikelstamm soll um zwei Felder erweitert werden: Werbekostenzuschuss und Wiederbeschaffungszeit. Im Pfleger für AddOn-Daten (AO) werden die Eintragungen vorgenommen:
 

@@ -56,6 +56,6 @@ Folgende Ansichten stehen dem Benutzer zur Verfügung:
 
 Des Weiteren stehen dem Anwender natürlich die gewohnten Standardfunktionen zur Verfügung wie zum Beispiel ***Druck/Kurzliste***, ***Word/Serienbrief*** oder ***Excel Export (Ole)***.
 
-<p class="just-emphasize">Verwendete Steuerparameter</p>
+### Verwendete Steuerparameter
 
 Folgender Steuerparameter 607 sollte vor der Verwendung der Aktionärsverwaltung eingestellt werden

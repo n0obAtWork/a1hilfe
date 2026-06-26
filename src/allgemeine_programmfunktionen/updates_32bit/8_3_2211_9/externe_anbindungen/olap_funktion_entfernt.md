@@ -4,7 +4,7 @@
 
 In OLAP wurde die Funktion "Titel exportieren" entfernt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 715120[32979]
 
@@ -20,6 +20,6 @@ Funktion/Report: OLAP
 
 [Weitere Informationen](http://www.amic.de/hilfe/_info_olap_ophelia.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2211.9, 32979, 715120

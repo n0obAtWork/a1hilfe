@@ -4,7 +4,7 @@
 
 Der Formulardruck für die Zinsabrechnung wurde um den Druckbereich Seitenfuß erweitert. Insbesondere bei mehrseitigen Zinsabrechnungen sollte dieser Fuß eingerichtet werden, um die Druckseite optimal auszunutzen.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 731867[34861]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/zinsabrechnungberzinsformulare.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.1, 34861, 731867

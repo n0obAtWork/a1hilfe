@@ -4,7 +4,7 @@
 
 Im Zuge von notwendigen internen Pflege-/ Wartungsmaßnahmen wurde bedauernswerterweise die Verwendung von Drucker-Schächten generell abgeschaltet. Ein Work-Around bestand darin in der Windows-Druckersteuerung selber die Schächte einzustellen. Kunden, die das gemacht haben, brauchen keine erneute Änderung machen. Die Verwendung der Drucker-Schächte funktioniert nun wieder wie in der Vergangenheit.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 727976[34430]
 
@@ -20,6 +20,6 @@ Funktion/Report: DIverse Druckszenarien in denen die Verwendung von Schächten b
 
 [Weitere Informationen](http://www.amic.de/hilfe/druckerstammdrst_pfleger.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2311.10, 34430, 727976

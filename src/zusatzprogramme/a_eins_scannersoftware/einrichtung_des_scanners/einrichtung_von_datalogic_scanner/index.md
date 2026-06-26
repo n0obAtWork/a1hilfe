@@ -2,9 +2,9 @@
 
 <!-- source: https://amic.de/hilfe/_datalogic.htm -->
 
-<p class="just-emphasize">Tastatur</p>
+#### Tastatur
 
-<p class="just-emphasize">Öffnen</p>
+#### Öffnen
 
 Um die Tastatur zu öffnen wird wie folgt Vorgegangen.
 
@@ -12,7 +12,7 @@ Um die Tastatur zu öffnen wird wie folgt Vorgegangen.
 
 2. Auf den Text Keyboard klicken. Jetzt öffnet sich das Input Panel
 
-<p class="just-emphasize">Schließen</p>
+#### Schließen
 
 Um die Tastatur zu schließen wird wie folgt Vorgegangen.
 

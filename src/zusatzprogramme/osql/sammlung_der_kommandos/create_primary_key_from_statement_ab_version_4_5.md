@@ -2,27 +2,27 @@
 
 <!-- source: https://amic.de/hilfe/createprimarykeyfromstatementa.htm -->
 
-<p class="just-emphasize">Syntax</p>
+#### Syntax
 
 CREATE PRIMARY KEY FROM Indexname;
 
-<p class="just-emphasize">Purpose</p>
+#### Purpose
 
 Legt einen Primary key an.
 
-<p class="just-emphasize">Anwendung</p>
+#### Anwendung
 
 Befehlszeile, Kommandodatei
 
-<p class="just-emphasize">Berechtigung</p>
+#### Berechtigung
 
 AMIC
 
-<p class="just-emphasize">Siehe auch</p>
+#### Siehe auch
 
 [CREATE STRUCT](./create_struct_statement.md), [DBFCREATE](./dbfcreate_statement_ab_version_5_0.md), [ALTER STRUCT](./alter_struct_statement.md)
 
-<p class="just-emphasize">Beschreibung</p>
+#### Beschreibung
 
 Beim erstmaligen anlegen der Datenbank wurden anstatt PRIMARY KEYS zu verwenden Unique Indexe verwendet. PRIMARY KEYS werden jedoch benötigt um die referenzielle Integrität hinzubekommen ( FOREIGN-KEYS ). Um nun nachträglich die PRIMARY KEYS verwenden zu können, sind mehrere Schritte nötig. Die diese Funktion übernimmt:
 
@@ -34,6 +34,6 @@ Es wird der PRIMARY KEY angelegt.
 
 Der Index wird gedropt.
 
-<p class="just-emphasize">Beispiel</p>
+#### Beispiel
 
 CREATE PRIMARY KEY FROM u0__Fibuv_id_offenerposten

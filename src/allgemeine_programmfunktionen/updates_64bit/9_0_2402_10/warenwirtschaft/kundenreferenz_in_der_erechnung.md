@@ -4,7 +4,7 @@
 
 Im Feld BT-46 wird für gewöhnlich die Gegennummer eingetragen, die im Kundenstamm hinterlegt ist. Sollte diese leer sein, so wird die Kundennummer des Kunden ausgegeben. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 743259[36285]
 
@@ -20,6 +20,6 @@ Funktion/Report: eRechnung exportieren
 
 [Weitere Informationen](http://www.amic.de/hilfe/erechnungexport.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.10, 36285, 743259

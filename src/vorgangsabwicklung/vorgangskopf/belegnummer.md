@@ -22,7 +22,7 @@ Sowohl die vorgeschlagene Rechnungsnummer als auch das Rechnungsdatum und die Pe
 
 Bitte beachten Sie, dass der Rechnungsnummer (neben Kundennummer und Rech­nungsdatum) eine zentrale Bedeutung in der Organisation zukommt. Innerhalb des Programms dient die Rechnungsnummer als Auswahl- und Sortierkriterium.
 
-<p class="just-emphasize">Beispiele:</p>
+### Beispiele:
 
 Der Ausdruck des Rechnungsausgangsbuches kann nach Rechnungsnummern erfolgen.
 
@@ -34,11 +34,11 @@ Rechts neben der Rechnungsnummer wird angezeigt, welcher Belegnummernkreis zugru
 
 Die Belegnummern werden lückenlos vergeben. Werden Nummern, z.B. durch Stor­nierung des Beleges, wieder frei, so werden sie in einer Reserveliste vermerkt, und bei Bedarf wieder verwendet.
 
-<p class="just-emphasize">Periode/Jahr</p>
+### Periode/Jahr
 
 Dies ist die aktuelle Buchungsperiode. Sie wird entsprechend der Systemeinstellung vorgeschlagen. Wenn jedoch eine andere Buchungsperiode gewünscht wird, so muss sie hier eingegeben werden.
 
-<p class="just-emphasize">Datum</p>
+### Datum
 
 Im Feld Datum wird das Rechnungsdatum erfragt. Es ist vorbelegt mit dem Tagesdatum. Werden Rechnungen mit zeitlicher Verzögerung erfasst, muss hier das ei­gentliche Rechnungsdatum eingegeben werden.  
 Neben dem Datumsfeld kann der Wochentag angezeigt werden. Das Format der Darstellung kann unter dem EPA „Wochentagsformat“ eingestellt werden.

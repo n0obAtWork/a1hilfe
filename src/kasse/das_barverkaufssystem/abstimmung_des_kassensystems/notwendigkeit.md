@@ -15,6 +15,6 @@ Die Abstimmung verfolgt 2 Ziele:
 - Unstimmigkeiten aufzuspüren
 - Sie möglichst automatisch (Reorganisationsprogramm) zu bereinigen. Wenn dieses nicht möglich ist, so sollen wenigstens Hilfestellungen zur Diagnose des Fehlers und zu seiner manuellen Beseitigung gegeben werden.
 
-<p class="just-emphasize">Hinweis</p>
+**Hinweis**
 
 Die Kassenabstimmung als technisch bedingte Notwendigkeit sollte immer einem versierten und geschulten Mitarbeiter der SoftwareCompany AMIC überlassen werden.

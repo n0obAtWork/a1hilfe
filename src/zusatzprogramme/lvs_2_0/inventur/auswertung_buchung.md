@@ -4,7 +4,7 @@
 
 Hauptmenü > Inventur > Permanente Inventur > Permanente Inventur Prüfungen
 
-<p class="just-emphasize">Geplante Inventur</p>
+#### Geplante Inventur
 
 Unabhängig davon, ob eine Bestandskorrektur notwendig war, wird im Bewegungsprotokoll des Ladeträgers festgehalten, dass eine Inventur stattgefunden hat.
 
@@ -23,7 +23,7 @@ Hauptmenü > Inventur > Permanente Inventur > Permanente Inventur Prüfungen
 
 Es liegt in der Natur der Sache, dass man Bestände mit einem Bestand von 0 nicht aufzufinden vermag. Sollte nach intensiver Prüfung der Bestand tatsächlich nicht vorhanden sein, so kann dieser Null-Bestand mit der Funktion „Nullzählung LVS erzeugen“ bestätigt werden. Es wird dann die Null-Zählung ins Protokoll eingetragen und in den nächsten Beleg übernommen.
 
-<p class="just-emphasize">Funktionen</p>
+### Funktionen
 
 **Report erzeugen**
 
@@ -41,13 +41,13 @@ Zählung = Z
 
 Z = W - D
 
-<p class="just-emphasize">Bewertung</p>
+### Bewertung
 
 Hauptmenü > Inventur > Permanente Inventur > Laufende Inventur
 
 Dieser Belegmuss dann im Nachgang in der Variante Vorgänge bewertet werden.
 
-<p class="just-emphasize">Ungeplante Inventur</p>
+#### Ungeplante Inventur
 
 Im Bewegungsprotokoll des Ladeträgers wird festgehalten, dass eine Bestandskorrektur stattgefunden hat.
 

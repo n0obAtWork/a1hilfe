@@ -4,7 +4,7 @@
 
 Es besteht jetzt die Möglichkeit Dashboards [DASH] auf AEZADDON-Masken [AIS] einzurichten.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 727526[34299]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/aisdashboard.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.1, 34299, 727526

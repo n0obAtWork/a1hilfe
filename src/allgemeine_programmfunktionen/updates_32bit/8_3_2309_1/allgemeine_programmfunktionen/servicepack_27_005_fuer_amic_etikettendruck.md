@@ -4,7 +4,7 @@
 
 Für den AMIC-Etikettendruck wurde das Servicepack 27.005 eingespielt, womit Probleme mit dem Druck behoben wurden.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 725355[34132]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/amicetikettendruck.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 34132, 725355

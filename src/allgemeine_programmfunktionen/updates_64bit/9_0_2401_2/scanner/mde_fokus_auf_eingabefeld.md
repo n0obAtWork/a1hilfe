@@ -4,7 +4,7 @@
 
 Es ist nun möglich Rückmeldungen von A.eins so zu gestalten, dass der Fokus direkt in dem Eingabefeld steht.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 0[35008]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/-)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.2, 35008, 0

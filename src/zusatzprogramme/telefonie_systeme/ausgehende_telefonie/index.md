@@ -92,7 +92,7 @@ Automodus steuert wie amic_tapi.exe sich erhalten soll. Sicherlich soll das Prog
 
 Die Fälle steuert man nun bequem über „Automodus“ :
 
-| 0 | Amic_tapi.exe verhält sich wie ein ganz normales Programm J |
+| 0 | Amic_tapi.exe verhält sich wie ein ganz normales Programm ☺ |
 | --- | --- |
 | 1 | Das Programm wählt automatisch die Nummer über die übergebende Line |
 | 2 | Das Programm startet stark verkleinert, wählt automatisch die Nummer über die übergebende Line und beendet sich nach Wahl wieder automatisch. Der Anruf wird nicht aufgelegt. |

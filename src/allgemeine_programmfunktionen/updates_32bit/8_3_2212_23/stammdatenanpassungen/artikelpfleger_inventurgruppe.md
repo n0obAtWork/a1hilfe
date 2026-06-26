@@ -4,7 +4,7 @@
 
 Mit der Umstellung auf den neuen Artikelpfleger wurde die Inventurgruppe unter Umständen nicht richtig übernommen. Dies wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 717098[33181]
 
@@ -20,6 +20,6 @@ Funktion/Report: Ändern
 
 [Weitere Informationen](http://www.amic.de/hilfe/_artikelstammundartik.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2212.23, 33181, 717098

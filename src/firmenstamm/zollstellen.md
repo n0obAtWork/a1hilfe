@@ -16,6 +16,6 @@ In A.eins ist der dazugehörige Einspieler unter Warenverkauf / Atlas Ausfuhrbea
 
 Die Liste der Zollstellen ändert sich ungefähr alle 4-6 Wochen. In der Regel ändern sich die Nummern der Zollstellen nicht. Ein regelmäßiges Update ist hier nur für aktive Nutzer der Zollausfuhr zu empfehlen. Da die Zollstellennummer z.B. im Lagerstamm gespeichert wird, ist nicht auszuschließen, dass dort nach dem Update und Erlöschen einer Zollstelle eine ungültige Zahl stehen bleibt. Das fällt spätestens bei der Zollausfuhr auf.
 
-Hinweis zum Dateinamen:
+**Hinweis zum Dateinamen:**
 
 *Der Pfad zur XML-Datei, der im Einspieler angegeben wird, ist ein relativer Pfad des Datenbankservers! So wird entweder die heruntergeladene XML-Datei auf dem Datenbankserver oder auf einer für den Datenbankserver zugreifbaren Netzwerkfreigabe abgelegt und als Pfad angegeben.*

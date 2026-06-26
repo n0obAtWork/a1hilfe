@@ -6,7 +6,7 @@ Hauptmenü > Externe Kommunikation > Webservice > Verbotsliste
 
 Diese Auswahlliste dient zur Anzeige der Prüfaufträge, die aus Anschriften, Kunden und Vorgängen entstehen können.
 
-<p class="just-emphasize">Felder</p>
+### Felder
 
 | Felder | Beschreibung |
 | --- | --- |

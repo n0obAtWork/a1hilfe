@@ -90,7 +90,7 @@ Für die Inventurperiode selber (z.B. 12 / 99) muss ein Buchungsschluss gesetzt 
    - Ausgangsbelege mit Nullsummen und Fibusperre nicht prüfen
    - Produktions-/Umbuchungsbelege mit Nullsummen und Fibusperre nicht prüfen
 
-  4. Statusmeldung nach dem Probelauf beachten!
+4. Statusmeldung nach dem Probelauf beachten!
 
 **Hinweis:** alle Belege wie Lieferscheine, Rechnungen, E-Lieferscheine, E-Rechnungen, Lagerumbuchungen, Artikelumbuchungen usw. müssen erledigt sein, d.h. gedruckt und es muss ein Fibu-Übertrag erfolgt sein.
 

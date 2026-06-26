@@ -4,7 +4,7 @@
 
 In der Anwendung Artikel steht die Funktion "Preiskalkulation mit Excel" nicht mehr zur Verfügung. Das Standardverfahren läuft über die Anwendung "Preiskalkulation mit Excel" Menüpunkt: Preiskalkulation mit Excel(Auswahlliste) Direktsprung: [PKX]
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 717577[33283]
 
@@ -20,6 +20,6 @@ Funktion/Report: Preiskalkulation Excel
 
 [Weitere Informationen](http://www.amic.de/hilfe/_info_preiskalkulationexcel_rhea.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2212.23, 33283, 717577

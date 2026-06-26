@@ -8,7 +8,7 @@ Direktsprung **[PRODL]**
 
 Im Produktionslinien-Pfleger können Sie Produktionslinien definieren, die im Lagerverwaltungssystem (LVS) mit Material versorgt werden sollen bzw. wo produzierte Materialien abgeholt werden sollen.
 
-<p class="just-emphasize">Pfleger:</p>
+### Pfleger:
 
 | Bezeichnung | Inhalt |
 | --- | --- |

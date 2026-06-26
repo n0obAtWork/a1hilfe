@@ -4,7 +4,7 @@
 
 Es wurde der Steuerparameter 1143 "Jahreswechsel: Abschluss und Eröffnung immer gemeinsam löschen/buchen" eingeführt. Dieser steht standardmäßig auf "Ja", und sorgt für eine Verhaltensänderung beim Löschen/Buchen von Finanzbuchhaltungsbelegen. Sobald ein Jahreswechsel gelöscht/gebucht wird, wird der dazugehörige Jahreswechselbeleg auch gelöscht bzw. gebucht. Bei der Einstellung "Nein" können die Jahreswechselbelege wie bisher einzeln gelöscht oder gebucht werden. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 720619[33538]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_SPA_1143.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2303.31, 33538, 720619

@@ -35,7 +35,7 @@ Nach Bestätigen eines ausreichenden Zahlungsbetrages besteht keine Möglichkeit
 
 In Sonderfällen (z.B. Scheck, Währung) müssen mehr Tasten bedient werden.
 
-<p class="just-emphasize">Bemerkungen:</p>
+### Bemerkungen:
 
 Das System ist bisher überwiegend in einer Hardwarekonstellation getestet worden, in der das EPSON-Display an einer COM-Schnittstelle angeschlossen wurde, der EPSON-Bondrucker an einer LPT-Schnittstelle und die Schublade am Drucker.
 

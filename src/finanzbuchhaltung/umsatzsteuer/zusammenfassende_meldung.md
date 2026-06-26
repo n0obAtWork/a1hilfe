@@ -10,11 +10,11 @@ Zum 1. Januar 2010 ergibt sich eine erweiterte Erklärungspflicht für die Zusam
 
 Innergemeinschaftliche Lieferungen (Zeile 21, Kennziffer 41 der Umsatzsteuervoranmeldung) sind z.Zt. je Quartal in Form der Zusammenfassenden Meldung aufzuführen.
 
-<p class="just-emphasize">Wer muss eine Zusammenfassende Meldung abgeben?</p>
+#### Wer muss eine Zusammenfassende Meldung abgeben?
 
 Meldepflichtig sind alle Unternehmer, die Steuerfreie innergemeinschaftliche Warenlieferungen oder innergemeinschaftliche Warenbewegungen durchgeführt haben. Führen pauschalierende Land- bzw. Forstwirte innergemeinschaftliche Warenlieferungen aus, so müssen sie ebenfalls eine Zusammenfassende Meldung abgeben, obwohl diese Umsätze nicht steuerfrei sind.
 
-<p class="just-emphasize">Was ist zu melden?</p>
+#### Was ist zu melden?
 
 ***Innergemeinschaftliche Warenlieferungen(§18a Abs. 4 Satz 1 Nr. 1 und 2 UStG)*  
 a )** Innergemeinschaftliche Lieferungen im Sinne §6a Abs. 1UStG mit Ausnahme neuer Fahrzeuge an Abnehmer ohne USt-IdNr.  
@@ -29,11 +29,11 @@ Innergemeinschaftliche sonstige Leistungen sind nach § 3a Abs. 2 UStG im übrig
 
 Ein innergemeinschaftliches Dreiecksgeschäft liegt vor, wenn drei in verschiedenen EU-Mitgliedstaaten für Zwecke der Umsatzsteuer erfasste Unternehmer (erster Lieferer, erster Abnehmer, letzter Abnehmer) über einen Gegenstand Umsatzgeschäfte abschließen, dieser Gegenstand unmittelbar vom Ort der Lieferung des ersten Lieferers an den letzten Abnehmer befördert oder versendet wird, der Liefergegenstand von dem Gebiet eines EU-Mitgliedstaates in das Gebiet eines anderen EU-Mitgliedstaates gelangt und der Liefergegenstand durch den ersten Lieferer oder den ersten Abnehmer befördert oder versendet wird.
 
-<p class="just-emphasize">Wann ist zu melden?</p>
+#### Wann ist zu melden?
 
 Die zusammenfassende Meldung ist grundsätzlich bis zum 10. Tag nach Ablauf jedes Kalendervierteljahres abzugeben, in dem der Unternehmer innergemeinschaftliche Warenlieferungen / Bewegungen ausgeführt hat. Ist vom Finanzamt eine einmonatige Dauerfristverlängerung eingeräumt worden, gilt dies auch für die zusammenfassende Meldung. Die Zusammenfassende Meldung ist nur abzugeben, wenn innerhalb des Meldezeitraums Warenlieferungen / Bewegungen erfolgt sind. => "Nullmeldungen" sind nicht abzugeben.
 
-<p class="just-emphasize">Wie wird die Zusammenfassende Meldung in A.eins gesteuert?</p>
+#### Wie wird die Zusammenfassende Meldung in A.eins gesteuert?
 
 Es existiert eine Auswahlliste, in der die Daten für die Zusammenfassende Meldung zusammengesammelt werden. Diese ist im Menü „Abschlussarbeiten“ oder über den Direktsprung UVZM zu erreichen.
 

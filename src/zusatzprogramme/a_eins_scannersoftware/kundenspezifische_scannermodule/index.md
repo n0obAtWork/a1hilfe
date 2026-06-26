@@ -8,7 +8,7 @@ Hauptmenü > Externe Kommunikation > Stammdatenimport > Vorgangsimport
 
 können dann die Daten nachträglich bearbeitet werden. Dort besteht dann auch die Möglich aus den erfassten Daten ein A.eins Beleg zu erzeugen.
 
-<p class="just-emphasize">Einrichtung eines Kundenspezifisches Scanner Moduls</p>
+#### Einrichtung eines Kundenspezifisches Scanner Moduls
 
 Um ein spezifisches Scannermodul aufzurufen muss der [Steuerparameter 801](../../../firmenstamm/steuerparameter/scanner/private_scannerprozedur_spa_801.md) auf Private Prozedur eingestellt werden. In dem Feld „IP-Adresse“ wird die IP-Adresse oder die [Alibi](../a_eins_ce_scannersoftware/index.md#AlibiIPAdresse) IP-Adresse des Scanners hinterlegt. In dem Feld „private Prozedur“ muss dann Prozedur „CallScannerModul“ eingetragen werden. Es kann aber auch eine private Prozedur hinterlegt werden, die ein privates Modul aufruft.
 
@@ -16,7 +16,7 @@ Mit dem setzten des [Steuerparameters 885](../../../firmenstamm/steuerparameter/
 
 Mit dem [Steuerparameter 880](../../../firmenstamm/steuerparameter/scanner/html_style_sheet_spa_880.md) kann ein eigens Style-Sheet für die HTML Anzeige auf dem Scanner hinterlegt werden.
 
-<p class="just-emphasize">Lagernummer setzen</p>
+#### Lagernummer setzen
 
 Bei der Ersteinrichtung eines Scannerbedieners muss die Lagernummer in den **Vorgangskonstanten** Direktsprung <strong>[VKONS]</strong> gesetzt werden. Dies hat den Grund, weil die Lagernummer aus den **Vorgangskonstanten** des [Bedieners](../../../firmenstamm/firmenkonstanten/bedienerwesen_bediener_bedienerklassen_und_erfasser/bedienerstamm/index.md) bestimmt, auf welchem Lager der Scanner operiert. Anhand der Lagernummer und dem EAN Code oder der Artikelnummer werden dann die erfassten Artikel gesucht. Dies gilt auch, wenn im A.eins System nur das Lager 0 vorhanden ist.
 

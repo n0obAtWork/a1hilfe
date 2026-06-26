@@ -4,7 +4,7 @@
 
 Ein neues UFLD-Feld "Gültig bis" wurde erstellt. Es kann z.B. für Angebote eingerichtet werden.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 745194[37120]
 
@@ -20,6 +20,6 @@ Funktion/Report: Bearbeiten
 
 [Weitere Informationen](http://www.amic.de/hilfe/_userfelder.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 37120, 745194

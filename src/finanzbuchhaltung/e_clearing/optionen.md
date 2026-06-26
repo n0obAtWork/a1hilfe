@@ -8,7 +8,7 @@ Direktsprung **[ECL]**
 
 ![Ein Bild, das Text, Screenshot, Schrift, Zahl enthält. KI-generierte Inhalte können fehlerhaft sein.](../../ImagesExt/image8_675.png "Ein Bild, das Text, Screenshot, Schrift, Zahl enthält. KI-generierte Inhalte können fehlerhaft sein.")
 
-<p class="just-emphasize">Allgemein</p>
+### Allgemein
 
 Hier lassen sich bestimmte Einstellungen vornehmen:
 
@@ -30,7 +30,7 @@ Hier lassen sich bestimmte Einstellungen vornehmen:
 | Nummernkreis für Import | Es kann ein spezieller Nummernkreis hinterlegt werden. Dieser übersteuert den unter <strong>[NKF]</strong> hinterlegten [Nummernkreis](../stammdaten_der_fibu/nummernkreise/index.md). Ist kein Nummernkreis eingetragen wird als Nummer die für “Zahlungsverkehr“ unter automatisch eingetragene gezogen, und kann gegebenenfalls vor dem Buchen manuell geändert werden.<br> |
 | Toleranztage bei Skonto | Bei der Bestimmung des Skontos ist es möglich trotz Überschreitung des Skontodatums Skonto zu gewähren, wenn eine bestimmte Anzahl von Tagen noch nicht überschritten wurde. Diese Anzahl Tage, die aus Toleranzgründen gewährt werden sollen, ist hier zu hinterlegen.<br> |
 
-<p class="just-emphasize">Suchoptionen</p>
+### Suchoptionen
 
 Werden die folgenden Suchoptionen entfernt, wird zwar die Geschwindigkeit optimiert, aber gleichzeitig wird auch die Trefferrate nach unten gehen.
 
@@ -44,7 +44,7 @@ Werden die folgenden Suchoptionen entfernt, wird zwar die Geschwindigkeit optimi
 | Kontonummer über Belegnummer bestimmen | Die Möglichkeit, dass die Kontonummer anhand einer eindeutigen Belegnummer bestimmt wird, muss hier erst durch Setzen des Hakens zugeschaltet werden.<br> |
 | Kontonummer über Zahlungsreferenz bestimmen | Aus der Warenwirtschaft wird das Feld FIBUV_ZAHLUNGSREFERENZ versorgt. Dieses kann als eindeutiges Suchkriterium für das Konto herangezogen werden.<br> <br>Hinweis:<br>Diese Option gilt nicht für die Zahlungsdienstleister! Stattdessen ist die gleichnamige [Option](./optionen.md#Zahldienstl_KontonummerZahlref) unter den Zahlungsdienstleistern-Optionen zu verwenden.<br> |
 
-<p class="just-emphasize">Auszifferungsoptionen</p>
+### Auszifferungsoptionen
 
 | Suchoption | Beschreibung |
 | --- | --- |
@@ -53,7 +53,7 @@ Werden die folgenden Suchoptionen entfernt, wird zwar die Geschwindigkeit optimi
 | „Diverse“ Kunden nur mit eindeutiger Referenz ausziffern | Für Kunde bzw. Lieferanten, die in den Stammdaten als bei „Diverses Konto“ **Ja** (Reiter Kennzeichen) eingestellt haben, wird die Auszifferung nur vorgenommen, wenn im Verwendungszweck eine eindeutige Referenznummer gefunden wird. Die Suche nur nach passenden Beträgen entfällt.<br> |
 | Melden, wenn Auszifferung nicht möglich. | Diese Option ist standardmäßig ausgewählt, wenn „Auszifferung vorschlagen“ auf Ja steht. Will man in der Kontrollliste nicht sehen, ob zu einem Konto eine Auszifferung nicht vorgeschlagen werden konnte, so kann man hier den Haken herausnehmen.<br> |
 
-<p class="just-emphasize">Zahlungsdienstleister</p>
+### Zahlungsdienstleister
 
 ![Ein Bild, das Text, Reihe, Schrift, Software enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_676.png "Ein Bild, das Text, Reihe, Schrift, Software enthält. Automatisch generierte Beschreibung")
 

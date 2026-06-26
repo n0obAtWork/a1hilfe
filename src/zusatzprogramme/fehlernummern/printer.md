@@ -2,14 +2,14 @@
 
 <!-- source: https://amic.de/hilfe/printer.htm -->
 
-<p class="just-emphasize">\-500001</p>
+#### \-500001
 
 keine Details verfügbar
 
-<p class="just-emphasize">\-500002</p>
+#### \-500002
 
 keine Details verfügbar
 
-<p class="just-emphasize">\-500003</p>
+#### \-500003
 
 keine Details verfügbar

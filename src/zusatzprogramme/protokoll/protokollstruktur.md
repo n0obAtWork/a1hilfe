@@ -8,7 +8,7 @@ Die Protokollstruktur ist abhängig von der Art wie sie gespeichert wird. Zurzei
 
 [Keine XML-Struktur](./protokollstruktur.md#uebson_xml_keine_struktur)
 
-<p class="just-emphasize">XML-Struktur</p>
+#### XML-Struktur
 
 Bei der XML-Struktur werden die protokollierten Daten in einer XML-Struktur gespeichert. Dadurch kann man später gezielter auf die Daten zugreifen.
 
@@ -98,7 +98,7 @@ Beispielergebnis:
 | UPDATE | KtrErlediStatus | Erledigungsstatus | 0 | 2 |
 | UPDATE | WaehrNummer | Währungsnummer | 20 | 1 |
 
-<p class="just-emphasize">Keine XML-Struktur</p>
+#### Keine XML-Struktur
 
 Werden die Daten nicht in einer XML-Struktur mitprotokolliert, so werden diese als fortlaufender Text gespeichert. Das weiterverarbeiten der Daten ist hierbei nicht so einfach wie bei der XML-Struktur.
 

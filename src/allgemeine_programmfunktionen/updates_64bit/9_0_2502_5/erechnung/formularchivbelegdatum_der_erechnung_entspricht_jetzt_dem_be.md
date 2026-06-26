@@ -4,7 +4,7 @@
 
 Das Belegdatum des eRechnung-Xml im Formulararchiv entspricht nun dem Datum des Vorgangs.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 746506[36956]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/erechnungimarchiv.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 36956, 746506

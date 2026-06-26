@@ -14,6 +14,6 @@ Diese werden aus der Unterklasse 0 gezogen, wenn der SPA aktiviert wurde (Ja). D
 
 Ist der SPA deaktiviert (Nein), so können und müssen die Werte auf der Vorgangsunterklasse einzeln festgelegt werden.
 
-<p class="just-emphasize">Achtung:</p>
+#### Achtung:
 
 Wird der Steuerparameter auf „**Nein**“ gestellt, so müssen die Einstellungen für die Teildisposition auch in die richtige Unterklasse eingetragen werden, sonst kann es passieren, dass die Teildisposition sich nicht mehr so verhält wie vor der Umstellung des Steuerparameters.

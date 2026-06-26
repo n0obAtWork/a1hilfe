@@ -4,7 +4,7 @@
 
 In der Vorgangserfassung können bei Verwendung eines Objektes Fremdartikel wieder eingefügt werden, sofern der Parameter "Fremdartikel Zulässig" im Objektstamm auf "Ja" gesetzt wurde.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 735165[35275]
 
@@ -20,6 +20,6 @@ Funktion/Report: F8, F5
 
 [Weitere Informationen](http://www.amic.de/hilfe/_baustelle.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.3, 35275, 735165

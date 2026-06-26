@@ -4,7 +4,7 @@
 
 Eine neue Variante im Archiv zeigt eRechnungen an. Hier lässt sich eine eRechnung importieren und manuell weiterverarbeiten. Entsprechende Filter spezialisieren diese Auswahlliste für eRechnungen.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 728333[35742]
 
@@ -20,6 +20,6 @@ Funktion/Report: n/a
 
 [Weitere Informationen](http://www.amic.de/hilfe/_anwendungformulararc.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.4, 35742, 728333

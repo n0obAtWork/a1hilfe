@@ -4,7 +4,7 @@
 
 Es wurde ein vereinfachtes Verfahren bereitgestellt, um Rücklastenschriften bei Nichteinlösung einer Zahlung von der Bank zu erstellen. Dazu ruft man den Zahlungsbeleg in der Einzelbeleganzeige in der Anwendung Kontoinformationen [KOI] auf, markiert die betreffende Position und führt für die Funktion Rücklastschrift aus.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 723015[33741]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/zahlungenbearbeiten.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2306.9, 33741, 723015

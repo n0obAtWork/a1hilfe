@@ -4,7 +4,7 @@
 
 Die Pfleger für den Artikel und den Artikelstamm wurden überarbeitet. Dies dient der Vorbereitung auf die 64bit Version.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 0[32795]
 
@@ -20,6 +20,6 @@ Funktion/Report: SDI (F5,F6,F7,F8)
 
 [Weitere Informationen](http://www.amic.de/hilfe/_artikelar.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2210.20, 32795, 0

@@ -6,7 +6,7 @@
 
 Die interne Verwaltung von Archiv-Darstellungskomponenten wurde verbessert. Das gelegentlich aufgetretene Problem mit der Meldung "Retriever.Worker" wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 720072[33465]
 
@@ -22,6 +22,6 @@ Funktion/Report: Archiv anzeigen
 
 [Weitere Informationen](http://www.amic.de/hilfe/anwendungformulararc.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2304.28, 33465, 720072

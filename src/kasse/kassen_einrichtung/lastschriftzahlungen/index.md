@@ -2,13 +2,13 @@
 
 <!-- source: https://amic.de/hilfe/lastschriftzahlungen.htm -->
 
-<p class="just-emphasize">Empfohlene Vorgehensweise</p>
+#### Empfohlene Vorgehensweise
 
 Ab 2014 werden lediglich SEPA-Lastschriften im Zahlungsverkehr unterstützt. Bis 2016 gibt es für innerdeutsche Überweisungen eine Übergangsfrist.
 
 Aus diesem Grund empfehlen wir dringend, die Lastschriften über ein [Bezahlterminal](../../../zusatzprogramme/ehemalige_addins_uebersicht/n_a/bezahlterminal_metis/index.md) durchzuführen oder besser hier das Bezahlverfahren mit PIN zu verwenden. In diesem Fall werden die Bankeinzüge durch den Betreiber des Terminals durchgeführt.
 
-<p class="just-emphasize">Veraltete Vorgehensweise</p>
+#### Veraltete Vorgehensweise
 
 Für die Lastschriftzahlungen wurden zuvor Kontonummer und Bankleitzahl mit der Tastatur oder einem Kartenleser aus dem Magnetstreifen einer EC-Karte erfasst.
 

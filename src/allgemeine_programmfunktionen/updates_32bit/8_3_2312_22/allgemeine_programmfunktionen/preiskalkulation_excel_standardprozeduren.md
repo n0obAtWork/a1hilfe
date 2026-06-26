@@ -4,7 +4,7 @@
 
 In den Optionen für die Preiskalkulation Excel [PKX] können jetzt auch die Standardprozeduren "AMIC_Excel_Preisimport_EK" (Einkauf) und "AMIC_Excel_Preisimport_VK" (Verkauf) ausgewählt werden. Diese beiden Prozeduren sind nur mit den Standardvarianten unter [PKX] kompatibel. Wurde noch keine Prozedur in den Optionen hinterlegt, so wird das Feld "Datenbankprozedur" mit der jeweiligen Standardprozedur vorbelegt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 0[34620]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_PreiskalkulationExcelOptionen.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2312.22, 34620, 0

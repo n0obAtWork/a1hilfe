@@ -4,7 +4,7 @@
 
 Beim FiBu-XML-Import über [DUEB] werden jetzt UNC-Pfade (\\\\Servername\\..) korrekt ausgewertet.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 0[33032]
 
@@ -20,6 +20,6 @@ Funktion/Report: Starten...
 
 [Weitere Informationen](http://www.amic.de/hilfe/fibuxmlimport.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2211.9, 33032, 0

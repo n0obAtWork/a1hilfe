@@ -4,7 +4,7 @@
 
 Die Standardvarianten und Prozeduren wurden überarbeitet und es wurde eine Protokollvariante ergänzt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 727894[34488]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_PreiskalkulationExcel.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2312.8, 34488, 727894

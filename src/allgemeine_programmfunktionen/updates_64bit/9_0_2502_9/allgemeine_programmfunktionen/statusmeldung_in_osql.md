@@ -4,7 +4,7 @@
 
 Unter [OSQL] werden die Anzahl der verarbeiteten Daten wieder in der Statuszeile angezeigt,
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 751529[38591]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/osql.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.9, 38591, 751529

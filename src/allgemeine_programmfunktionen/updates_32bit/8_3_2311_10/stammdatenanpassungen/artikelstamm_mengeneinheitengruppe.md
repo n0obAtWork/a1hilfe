@@ -4,7 +4,7 @@
 
 Beim Artikelstammpfleger war es möglich eine Mengeneinheitsgruppe auszuwählen, die nicht kompatibel zur aktuellen Mengeneinheitsgruppe war. Dies wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 728095[34447]
 
@@ -20,6 +20,6 @@ Funktion/Report: F5 Ändern
 
 [Weitere Informationen](http://www.amic.de/hilfe/_artikelstammundartik.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2311.10, 34447, 728095

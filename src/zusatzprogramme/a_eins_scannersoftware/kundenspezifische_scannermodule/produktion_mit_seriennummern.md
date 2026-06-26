@@ -16,10 +16,10 @@ Die erfasste Produktion wird in der [Vorgangsimport](../../../vorgangsabwicklung
 
 gespeichert. Von dort aus kann mit der Funktion „***Standardvorgang erzeugen***“ eine Produktion aus den erfassten Daten erstellt werden.
 
-<p class="just-emphasize">Stornierung einer Position</p>
+#### Stornierung einer Position
 
 Eine erfasste Position kann wie folgt storniert werden. Dazu wird der Stornobefehl gescannt. Danach kann entweder per Scannung des Artikels oder der Seriennummer die letzte erfasste Position des Artikels gelöscht werden. Des Weiteren gibt es die Möglichkeit die zu löschende Positionsnummer manuell über die Tastatur einzugeben. Es wird immer die komplette Position gelöscht.
 
-<p class="just-emphasize">Folgende Itembox Stellt die Daten für die Anzeige auf dem Scanner zusammen.</p>
+#### Folgende Itembox Stellt die Daten für die Anzeige auf dem Scanner zusammen.
 
 IB_CE_PRODUKTION

@@ -15,21 +15,21 @@ Um mit Kostenstellen zu arbeiten, gibt es folgende Vorbedingungen bzw. Einstellu
    - Kostenstellen (ohne Verteilung)
    - Verteilkostenstellen (mit Verteilung)
 
-  3. Im [Sachkontenrahmen](../stammdaten_der_fibu/sachkonten.md) Direktsprung **[SKS]** muss bei den in Frage kommenden Aufwandskonten im Feld „Sperre Kostenstelle“ aus folgenden Möglichkeiten gewählt werden
+3. Im [Sachkontenrahmen](../stammdaten_der_fibu/sachkonten.md) Direktsprung **[SKS]** muss bei den in Frage kommenden Aufwandskonten im Feld „Sperre Kostenstelle“ aus folgenden Möglichkeiten gewählt werden
 
-- **Gesperrt**: Es wird keine Kostenstelle abgefragt
-- **Kann**: Es kann eine Kostenstelle eingeben werden, muss aber nicht
-- **Muss**: Es muss eine Kostenstelle eingegeben werden
-- **Fest**: Es muss die im Sachkontenstamm festgelegte Kostenstelle verwendet werden
+   - **Gesperrt**: Es wird keine Kostenstelle abgefragt
+   - **Kann**: Es kann eine Kostenstelle eingeben werden, muss aber nicht
+   - **Muss**: Es muss eine Kostenstelle eingegeben werden
+   - **Fest**: Es muss die im Sachkontenstamm festgelegte Kostenstelle verwendet werden
 
-  Im Feld Kostenstelle kann hier die Nummer einer Kostenstelle eingegeben werden, die dann bei der Belegerfassung automatisch vorgeschlagen wird.
+Im Feld Kostenstelle kann hier die Nummer einer Kostenstelle eingegeben werden, die dann bei der Belegerfassung automatisch vorgeschlagen wird.
 
-  4. Damit auch Rechnungen aus der Warenwirtschaft beim Fibu-Übertrag automatisch in die Kostenstellenrechnung eingetragen werden können ist es nötig, [Kostenstellengruppen](./kostenstellengruppe.md) zu definieren, in denen die Kostenstellen des Artikels für Einkauf und Verkauf angegeben werden können.  
+4. Damit auch Rechnungen aus der Warenwirtschaft beim Fibu-Übertrag automatisch in die Kostenstellenrechnung eingetragen werden können ist es nötig, [Kostenstellengruppen](./kostenstellengruppe.md) zu definieren, in denen die Kostenstellen des Artikels für Einkauf und Verkauf angegeben werden können.  
 Diese werden dann im Artikel über die Funktion ***Kostenst./Statistik/Abteil*** gepflegt, und wenn dann der Artikel im Vorgang angesprochen wird, wird die jeweilige Kostenstelle bebucht.
 
-  5. Im Mandantenstamm sollte eine Fehlerkostenstelle eingerichtet werden. Diese Kostenstelle wird herangezogen, wenn zu GuV-Konten keine Kostenstelle hinterlegt ist und die „Sperre Kostenstelle“ des angesprochenen Kontos nicht auf Gesperrt oder Fest seht.
+5. Im Mandantenstamm sollte eine Fehlerkostenstelle eingerichtet werden. Diese Kostenstelle wird herangezogen, wenn zu GuV-Konten keine Kostenstelle hinterlegt ist und die „Sperre Kostenstelle“ des angesprochenen Kontos nicht auf Gesperrt oder Fest seht.
 
-<p class="just-emphasize">Erfassung der Kostenstellen</p>
+#### Erfassung der Kostenstellen
 
 Folgende Felder können in dem folgenden Eingabebildschirm erfasst werden
 
@@ -43,7 +43,7 @@ Folgende Felder können in dem folgenden Eingabebildschirm erfasst werden
 | Externe Aw. Positionen<br><br> | Hier können für eigene Auswertungen Druckpositionen hinterlegt werden. Es ist jedoch möglich, eigene Itemboxen zu hinterlegen. Dafür muss man die Einrichterparameter „Itembox für externe Auswertungsposition 1-5“ und (optional) „Bezeichnungsfeld für ext. Auswertungsposition 1-5“ und (auch optional) „Label für externe Auswertungsposition 1-5“ hinterlegen. Beispielsweise könnte man als Itembox für ext. Auswertungsposition 1 „IB_LAGERSTAMM“ hinterlegen. Um dann hinter der externen Auswertungsposition die Bezeichnung zu sehen, muss man das Bezeichnungsfeld aus der Itembox in „Bezeichnungsfeld für ext. Auswertungsposition 1“ angeben. Dies wäre dann in diesem Fall „Lagerbezeich“.<br> <br>In der GuV nach Kostenstellen werden die externen Auswertungspositionen dann mit abgefragt, wenn man in den Einrichterparametern beim Label Einträge vorgenommen hat.<br> |
 | Bemerkungen | Hier kann ein wahlfreier Text zu der jeweiligen Kostenstelle erfasst werden.<br> |
 
-<p class="just-emphasize">Löschen der Kostenstellen</p>
+#### Löschen der Kostenstellen
 
 Wenn Kostenstellen gelöscht werden, werden sie nicht sofort physikalisch gelöscht, sondern als gelöscht gekennzeichnet. Diese gelöschten Kostenstellen sind dann für die Belegerfassung gesperrt, erscheinen aber trotzdem – soweit sie bebucht sind – auf den Auswertungen.
 
@@ -69,7 +69,7 @@ Hier öffnet sich dann die Maske mit den Daten der Kostenstelle und nach erneute
 - ***endgültig löschen***  
 Die Kostenstelle wird ohne weitere Prüfung physikalisch gelöscht. Bei bereits bebuchten Kostenstellen führt dies auch dazu, dass sie nicht mehr auf Auswertungen erscheinen.
 
-<p class="just-emphasize">Erfassung der Planzahlen</p>
+#### Erfassung der Planzahlen
 
 Die Erfassung der Planzahlen für Kostenstellen erreicht man über:
 

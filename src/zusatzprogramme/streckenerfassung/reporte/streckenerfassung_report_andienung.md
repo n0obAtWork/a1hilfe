@@ -6,7 +6,7 @@
 
 (Die Andienung ist die physische Lieferung der [Ware](http://www.umweltdatenbank.de/cms/lexikon/lexikon-w/ware.html) aus einem Warentermingeschäft.)
 
-<p class="just-emphasize">Sprachabhängigkeit</p>
+### Sprachabhängigkeit
 
 Welche Felder gepflegt werden müssen, um die Sprachabhängigkeit nutzen zu können liest man unter  
 [Sprache der Reporte](./sprache_der_reporte.md).

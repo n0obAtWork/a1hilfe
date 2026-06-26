@@ -4,7 +4,7 @@
 
 Die Restmengenkorrektur in den Anwendungen "Auftrag-Mengenkorrektur" [AUK], "Bestellbearbeitung" [BSB], "Auftragsbearbeitung" [AUB] ist in den Mengenfeldern von 2 auf 4 Nachkommerstellen angehoben worden.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 737482[35616]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_auftrag_restmengenkorrektur.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 35616, 737482

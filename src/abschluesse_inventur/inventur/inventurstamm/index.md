@@ -6,7 +6,7 @@ Hauptmenü > Inventur > Inventurstamm
 
 Direktsprung **[IVS]**
 
-<p class="just-emphasize">Beschreibung</p>
+#### Beschreibung
 
 Im Inventurstamm wird die Inventur im Detail definiert.
 

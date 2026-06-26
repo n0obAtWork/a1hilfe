@@ -134,6 +134,6 @@
   </table>
 </div>
 
-<p class="just-emphasize">Hinweis:</p>
+**Hinweis:**
 
 Die Belegarten zwischen 10 und 20 werden auch als Finanzvorgänge bezeichnet.

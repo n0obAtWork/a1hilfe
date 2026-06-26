@@ -17,11 +17,11 @@ Im Archiv-Manager werden alle Einstellungen, Optionen, Parameter bezüglich des 
 
 | Funktionen | | |
 | --- | --- | --- |
-| Archiv-Fakte | SF9 | Siehe [Archiv2.docx#ueb_Archivfakte](../archiv_fakte.md) |
-| Ansichten | F6 | Siehe [Archiv Anichten](../archiv_ansehen/archiv_ansichten_variante_ansichten/index.md) |
-| Recherche-Funktionen … | F5 | Erlaubt das direkte Pflegen der Datenbank-Recherche-Funktion (Datenbank-Recherche) |
-| ODBC-Administrator … | SF10 | Ruft den [ODBC-Datenquellen-Administrator](http://technet.microsoft.com/de-de/library/ms188691.aspx) Ihres Systems auf. |
-| Externes Archiv abkoppeln | | Diese Funktion ist nur dann erreichbar, wenn das Archiv extern angebunden wurde.<br>Sie können mit dieser Funktion die Relation „Archiv“ wieder intern herstellen. **Die Relation Archiv ist dann leer**, so dass ein bestehendes Formulararchiv keine Dokumente auf diesem Wege erreichen kann. |
+| ***Archiv-Fakte*** | **SF9** | Siehe [Archiv2.docx#ueb_Archivfakte](../archiv_fakte.md) |
+| ***Ansichten*** | **F6** | Siehe [Archiv Anichten](../archiv_ansehen/archiv_ansichten_variante_ansichten/index.md) |
+| ***Recherche-Funktionen …*** | **F5** | Erlaubt das direkte Pflegen der Datenbank-Recherche-Funktion (Datenbank-Recherche) |
+| ***ODBC-Administrator …*** | **SF10** | Ruft den [ODBC-Datenquellen-Administrator](http://technet.microsoft.com/de-de/library/ms188691.aspx) Ihres Systems auf. |
+| ***Externes Archiv abkoppeln*** | | Diese Funktion ist nur dann erreichbar, wenn das Archiv extern angebunden wurde.<br>Sie können mit dieser Funktion die Relation „Archiv“ wieder intern herstellen. **Die Relation Archiv ist dann leer**, so dass ein bestehendes Formulararchiv keine Dokumente auf diesem Wege erreichen kann. |
 
 | Registerkarten | |
 | --- | --- |

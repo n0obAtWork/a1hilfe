@@ -4,7 +4,7 @@
 
 In der Warenabstimmung nach Perioden [WABST] wurden die Anzeigefelder für Beträge vergrößert
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 732033[35379]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_wareabstimmen.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.5, 35379, 732033

@@ -4,7 +4,7 @@
 
 Für Warenbelege gibt es jetzt zwei Funktionen, um einen Beleg erneut zu versenden. 1) Neu drucken und neu versenden 2) Beleg erneut versenden (Letzte E-Mail wird aus dem Archiv heraus erneut versendet. Hier ist eine Anpassung der Mailadresse möglich)
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 715711[32988]
 
@@ -20,6 +20,6 @@ Funktion/Report: AGB, LIB,AUB, REB, GUB ... etc.
 
 [Weitere Informationen](http://www.amic.de/hilfe/_mailversandAWLWareFunktionen.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2211.30, 32988, 715711

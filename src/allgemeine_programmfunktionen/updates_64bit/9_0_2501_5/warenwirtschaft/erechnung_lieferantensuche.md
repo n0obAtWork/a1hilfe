@@ -4,7 +4,7 @@
 
 Die Importstatus von eRechnungsimport wurde um "Kundensuche durchlaufen" und "Kundensuche erfolgreich" bzw. "Kundensuche fehlgeschlagen" ergänzt. Wird im Profil eingestellt, dass eine Kundensuche nicht zum Abbruch führt, so endet der Import bei fehlgeschlagener Kundensuche mit "Import erfolgreich" 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 745812[36724]
 
@@ -20,6 +20,6 @@ Funktion/Report: [XRE]
 
 [Weitere Informationen](http://www.amic.de/hilfe/!importiertevorgnge.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 36724, 745812

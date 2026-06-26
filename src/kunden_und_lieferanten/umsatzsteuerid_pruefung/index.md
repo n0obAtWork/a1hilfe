@@ -6,7 +6,7 @@
 
 Diese Funktion prüft mit Hilfe eines Internetdienstes die Gültigkeit einer Umsatzsteuer-ID.
 
-<p class="just-emphasize">Hinweise:</p>
+#### Hinweise:
 
 - Diese Funktion ist abhängig von einem externen Internetdienst des Bundeszentralsamts für Steuern. Dieser ist kostenlos und liegt außerhalb der Verantwortung von AMIC. Auf der Webseite [https://evatr.bff-online.de/eVatR/](https://evatr.bff-online.de/eVatR/) erfahren Sie mehr über die Verfügbarkeit, über aktuelle Ausfälle und die Funktion des Webdienstes.
 - Für die Nutzung dieses Dienstes muss der ausführende Rechner über eine Internetverbindung verfügen.

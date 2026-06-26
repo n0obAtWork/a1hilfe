@@ -4,7 +4,7 @@
 
 Bei Warenbezug aus dem EU-Ausland tritt an Stelle der Einfuhrumsatzsteuer der Tatbestand des innergemeinschaftlichen Erwerbs (§ 1 Abs. 1 Nr. 5 UStG, § 1 a UStG). Das bedeutet, dass Unternehmer und andere Erwerbssteuerpflichtige für „Importe“ aus anderen EU-Ländern keine Einfuhrumsatzsteuer an den Zoll bezahlen müssen, sondern ihre Erwerbe in der Umsatzsteuer-Voranmeldung beim zuständigen Finanzamt anzumelden haben. In A.eins sind die Steuerklasse 101 und 102 davon betroffen. Um Lieferanten zu kennzeichnen, dass sie dem innergemeinschaftlichen Wahrenverkehr unterliegen, richtet man eine gesonderte Steuergruppe für EU-Kunden/Lieferanten ein. Diese ist dann im Kundenstamm zu hinterlegen.
 
-Einrichtung
+**Einrichtung**
 
 Um die Steuer für den Innergemeinschaftlichen Erwerb auf dem USTVA-Formular ausweisen zu können, sind im [Steuersatzpfleger](./steuersaetze_einrichten/stammdaten_steuersaetze.md) alle relevanten Kombinationen dieser Steuergruppe einzutragen. Dabei existieren zwei Möglichkeiten der Einrichtung.
 

@@ -4,7 +4,7 @@
 
 In der Anwendung "Formulararchiv" [FA], Variante "Formulararchiv eRechnung" wurde die Funktion "Dokument speichern" hinzugefügt. Mit der Funktion wird der Eintrag aus dem Archiv auf einen Datenträger gespeichert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 746170[36913]
 
@@ -20,6 +20,6 @@ Funktion/Report: Dokument speichern
 
 [Weitere Informationen](http://www.amic.de/hilfe/erechnungimarchiv.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 36913, 746170

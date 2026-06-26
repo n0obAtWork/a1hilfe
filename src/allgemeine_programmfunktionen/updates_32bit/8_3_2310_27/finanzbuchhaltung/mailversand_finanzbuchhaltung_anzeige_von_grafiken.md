@@ -4,7 +4,7 @@
 
 Beim Mailversand einer Avise, Mahnung oder Zinsabrechnung wird die im Formular über HTML eingebundene Grafik in der Mail wieder angezeigt. Die Grafik wurde bisher beim Versandtyp "Vermailung" nicht berücksichtigt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 727271[34278]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/avisalsmailversenden.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2310.27, 34278, 727271

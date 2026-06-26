@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_bedienerklassepflege.htm -->
 
-<p class="just-emphasize">Register:</p>
+### Register:
 
 <details>
 <summary>Allgemein</summary>
@@ -55,7 +55,7 @@ Wird ein Wert auf **0** gesetzt oder das Kontrollkästchen deaktiviert, so wird 
 
 Die Richtlinie **„Aktualisierung in Tagen“** wird nur beim Anmeldevorgang in **A.eins** überprüft.
 
-<p class="just-emphasize">Funktion:</p>
+### Funktion:
 
 </details>
 
@@ -74,7 +74,7 @@ Im Pfleger stehen folgende Funktionen zur Verfügung:
       </tr>
       <tr>
         <td>
-          <p>Speichern F9</p>
+          <p><strong>Speichern F9</strong></p>
         </td>
         <td>
           <p>Speichert die Daten</p>
@@ -82,7 +82,7 @@ Im Pfleger stehen folgende Funktionen zur Verfügung:
       </tr>
       <tr>
         <td>
-          <p>Speichern unter … Shift+F9</p>
+          <p><strong>Speichern unter … Shift+F9</strong></p>
         </td>
         <td>
           <p>Übernimmt die Daten der ausgewählten Bedienerklasse.</p>

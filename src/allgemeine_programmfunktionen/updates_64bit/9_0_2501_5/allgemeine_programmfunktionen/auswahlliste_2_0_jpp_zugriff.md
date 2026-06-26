@@ -4,7 +4,7 @@
 
 Die JPP-Methode Clickzeile aus CHelper wird jetzt auch von der Auswahlliste 2.0 unterstützt
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 740529[35948]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/auswahlliste20.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 35948, 740529

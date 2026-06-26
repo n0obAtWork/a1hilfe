@@ -12,7 +12,7 @@ So wäre es z.B. möglich, je Monat jeweils 1/12 des Lagerbestandes zu zählen.
 
 Eine permanente Inventur setzt die „ordentliche Bestandsfortschreibung mit elektronischen Mitteln“ ab dem Zeitpunkt der Zählung bis zum Geschäftsjahresende voraus. Aus diesem Grunde ist eine permanente Inventur abseits eines Lagerverwaltungssystems kaum denkbar.
 
-<p class="just-emphasize">Hinweis</p>
+**Hinweis**
 
 Das Gesetz sieht jedoch auch Einschränkungen für Waren vor, die einem erheblichen Schwund z.B. durch Verderb, Zerbrechlichkeit oder Gewichtsverlust unterliegen oder von besonderem Wert sind.
 

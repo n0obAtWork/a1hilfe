@@ -4,7 +4,7 @@
 
 Beim Löschen im Druckerstamm wurde das Ergebnis der Abfrage nicht korrekt ausgewertet. Dieses Problem wurde beseitigt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 752756[39135]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_druckerstammdrst_pfleger.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.9, 39135, 752756

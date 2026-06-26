@@ -4,7 +4,7 @@
 
 Die Produktionsmaske wurde für eine Auflösung von 1920 x 1080 Bildpunkte optimiert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 716016[33122]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_produktionmodul.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 33122, 716016

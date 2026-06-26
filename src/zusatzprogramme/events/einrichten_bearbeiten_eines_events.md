@@ -22,7 +22,7 @@ Die Einrichtungsmaske enthält folgende Registerkarten:
 
 [Vorlagen](./einrichten_bearbeiten_eines_events.md#amic_ueb_rk_vorlagen)
 
-<p class="just-emphasize">Registerkarte Allgemein</p>
+### Registerkarte Allgemein
 
 | Felder | |
 | --- | --- |
@@ -31,7 +31,7 @@ Die Einrichtungsmaske enthält folgende Registerkarten:
 | **Ersteller** | Hier wird vom System automatisch der Username des Erstellers eingetragen und angezeigt. |
 | **Kommentar** | Schreiben Sie hier eine kurze Information, zu welchem Zweck das Event dient. So können Sie Informationen hinterlegen, die später sonst in Vergessenheit geraten. |
 
-<p class="just-emphasize">Registerkarte Sonstiges</p>
+### Registerkarte Sonstiges
 
 <div class="table-wrapper">
   <table>
@@ -72,7 +72,7 @@ Die Einrichtungsmaske enthält folgende Registerkarten:
   </table>
 </div>
 
-<p class="just-emphasize">Registerkarte Bedingungen</p>
+### Registerkarte Bedingungen
 
 Hier legen Sie fest, wann oder unter welchen Umständen der Event ausgelöst werden soll.
 
@@ -96,7 +96,7 @@ Wählen Sie ggf. die Zeit der Wiederholung, wenn der Event zum Beispiel stündli
 
 Wählen Sie Auslösen Nach, wenn das Event an bestimmten Wochentagen oder bestimmten Tagen des Monats (zum Beispiel an jedem 1. Des Monats) ausgeführt werden soll.
 
-<p class="just-emphasize">Registerkarte Verarbeitungsroutine</p>
+### Registerkarte Verarbeitungsroutine
 
 ```text
 Begin
@@ -106,6 +106,6 @@ End
 
 Hier schreiben Sie zwischen „Begin“ und „End“ Ihre Verarbeitungsroutine, also das, was abgearbeitet werden soll. Wir empfehlen dringend, hier Eventprozeduren zu verwenden, also Prozeduren, die sich ggf. abrechen lassen.
 
-<p class="just-emphasize">Registerkarte Vorlagen</p>
+### Registerkarte Vorlagen
 
 Wenn Sie ein Mandantenserver- bzw. ein Wareo-Event anlegen wollen, so können Sie durch Auswahl von „JA“ in dem jeweiligen Feld ein Template benutzen, das Ihnen einen solchen Event konstruiert.

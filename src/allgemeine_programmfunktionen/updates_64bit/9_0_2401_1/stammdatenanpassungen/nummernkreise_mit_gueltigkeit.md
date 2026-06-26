@@ -4,7 +4,7 @@
 
 In der Anwendung Nummernkreise [NKS] wurde eine zweite Variante "Nummernkreise mit Gültigkeit" implementiert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 727631[34535]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_einrichtungvonnummer.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.1, 34535, 727631

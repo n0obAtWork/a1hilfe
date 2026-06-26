@@ -4,7 +4,7 @@
 
 Excelimport von .xls-Dateien ausgebaut. Dies war nur noch in der 32Bit-Version möglich. Beim Excelimport über dbx_import kommt jetzt ein Fehlerprotokoll-Eintrag mit einem Hinweis, dass stattdessen die Funktion ^excelimport_execute verwendet werden soll.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 0[34636]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_EXCLEI_EXCEL_IMPORT.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.1, 34636, 0

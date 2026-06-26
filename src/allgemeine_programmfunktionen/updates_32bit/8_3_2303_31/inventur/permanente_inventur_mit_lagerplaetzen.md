@@ -4,7 +4,7 @@
 
 Bei der Nutzung der permanenten Inventur im Zusammenspiel mit Lagerplätzen wurden die Bestände auf den Lagerplätzen nicht korrekt aktualisiert. Bei einem späteren WAREO wurden dann wieder die korrekten Stände auf den Lagerplätzen hergestellt. Die Behandlung wurde nun korrigiert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 716368[33574]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/-)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2303.31, 33574, 716368

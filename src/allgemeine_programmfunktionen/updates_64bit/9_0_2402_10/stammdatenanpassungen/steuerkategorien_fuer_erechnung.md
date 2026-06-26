@@ -4,7 +4,7 @@
 
 Steuerkategorien für die eRechnung können nun bei den Steuersätzen gepflegt werden. Als Default ist "S" - Standard Rate eingepflegt worden. Die abweichenden Steuerkategorien (Bei Befreiungen auch die Ausnahmebegründungen) werden dann vom Steuersatz in das eRechnungs-Dokument übernommen. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 742137[36122]
 
@@ -20,6 +20,6 @@ Funktion/Report: Neu/Ändern
 
 [Weitere Informationen](http://www.amic.de/hilfe/stammdatensteuerstze.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.10, 36122, 742137

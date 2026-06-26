@@ -16,7 +16,7 @@ In der Eingabemaske Zahlungsbedingungen bestehen folgende Eingabemöglichkeiten.
 
 [Textdarstellung](./index.md#zabed_maske_textdarstellung)
 
-<p class="just-emphasize">Kopfdaten</p>
+#### Kopfdaten
 
 | Feldname | Beschreibung |
 | --- | --- |
@@ -26,7 +26,7 @@ In der Eingabemaske Zahlungsbedingungen bestehen folgende Eingabemöglichkeiten.
 | Maske Gutschrift | Nummer der Aufbereitungsmaske für den Fall der Gutschrift. |
 | Bezeichnung | Beschreibung der Zahlungsbedingung. |
 
-<p class="just-emphasize">Einstellungen</p>
+#### Einstellungen
 
 **Die Änderung des Typs einer Zahlungsbedingung ist nicht unkritisch. Sofern diese Zahlungsbedingung bereits verwendet wurde, können sich daraus falsche Datumsangaben entwickeln.**
 
@@ -45,7 +45,7 @@ In der Eingabemaske Zahlungsbedingungen bestehen folgende Eingabemöglichkeiten.
 | Automatisch aufblenden | Bei der Vorgangserfassung kann die Zahlungsbedingungsmaske automatisch aufgeblendet werden. (Format „[Automatisch aufblenden](./formate_der_zahlungsbedingungen.md#zabed_format_auto_aufblenden)“) |
 | Eingabe sperren | Die Zahlungsbedingung kann gegen Eingaben bei der Vorgangserfassung gesperrt werden. |
 
-<p class="just-emphasize">Textdarstellung</p>
+#### Textdarstellung
 
 Hier wird die Einrichtung der optischen Aufbereitung für den Ausdruck der Zahlungsbedingung vorgenommen. Sie besteht aus Texten und Platzhaltern für Parameter und errechnete Werte. Der Ausgabetext kann für Rechnung und Gutschrift unterschiedlich gestaltet werden.
 

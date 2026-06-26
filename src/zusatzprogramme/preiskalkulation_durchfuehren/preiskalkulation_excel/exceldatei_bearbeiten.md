@@ -6,7 +6,7 @@ Die Kalkulation in Excel oder in einem anderen Programm kann beginnen.
 
 Beachten Sie nur die folgenden Hinweise dazu:
 
-<p class="just-emphasize">Hinweise!</p>
+#### Hinweise!
 
 **1 Mit jeder Bearbeitung wird eine Exceldatei angelegt**
 

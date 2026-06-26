@@ -4,7 +4,7 @@
 
 Entrichtete Einfuhrumsatzsteuer (§15 Abs. 1 Nr. 2 UStG), die z.B. durch den Lieferanten oder Spediteur uns in Rechnung gestellt wird, wird in A.eins durch das direkte Bebuchen von Steuerkonten realisiert (siehe Steuerkonten bebuchen).
 
-<p class="just-emphasize">Einrichtung</p>
+#### Einrichtung
 
 Um die Einfuhrumsatzsteuer auf dem USTVA-Formular ausweisen zu können, sind im Steuersatzpfleger alle relevanten Kombinationen dieser Steuergruppe einzutragen. Dabei sind folgende Besonderheiten zu beachten.
 

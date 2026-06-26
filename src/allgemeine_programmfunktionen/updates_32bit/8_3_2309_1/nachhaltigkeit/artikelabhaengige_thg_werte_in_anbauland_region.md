@@ -4,7 +4,7 @@
 
 In der Anwendung Nachhaltigkeit - THG WERTE, in der Variante Anbauland / Region wurde die Spalte Gültig-ab-Datum bei den artikelabhängigen THG-Werten hinzugefügt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 724070[33887]
 
@@ -20,6 +20,6 @@ Funktion/Report: F5, F8
 
 [Weitere Informationen](http://www.amic.de/hilfe/_nachhaltigkeit_stamm_faktorthg.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 33887, 724070

@@ -18,11 +18,11 @@ Hier die Hinweise zu dem von uns getesteten Terminal Thales Artema Hybrid und si
 
 - Die Voreinstellung des Konfigurationspassworts des getesteten Terminals Thales Artemis Hybrid ist 111111.
 
-###### Einstellung der Verbindung zum Netzanbieter
+### Einstellung der Verbindung zum Netzanbieter
 
 Verwaltung > Service > Service-Funktionen > DFÜ-AUSWAHL > LAN (für LAN)
 
-###### Einstellung der Kommunikation mit der A.eins-Schnittstelle
+### Einstellung der Kommunikation mit der A.eins-Schnittstelle
 
 - Verwaltung > Service > Service-Funktionen > Kassenprotokoll > ZVT > aktiv
 - Verwaltung > Service > Service-Funktionen > Kassenprotokoll > Schnittstelle > LAN *(Für LAN-Betrieb)*

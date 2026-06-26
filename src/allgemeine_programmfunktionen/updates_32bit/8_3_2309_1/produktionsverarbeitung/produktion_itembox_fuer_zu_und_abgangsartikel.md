@@ -4,7 +4,7 @@
 
 Auf dem Tab - Reiter Produktion wurden in der Anwendung [FRZ] Formularzuordnung 2 neue Felder hinzugefügt. Diese Felder dienen zur Erfassung einer Itembox für Artikel im Produktionszugang und Produktionsabgang. Ist hier keine Itembox hinterlegt wird weiterhin der Standard verwendet. Die Erfassungsreihenfolge auf der Produktionsmaske wurde angepasst auf Zu-/Abgangsposition, Lagernummer, Artikel.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 734771[33017]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_FRZ_Produktion.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 33017, 734771

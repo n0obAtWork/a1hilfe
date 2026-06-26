@@ -4,7 +4,7 @@
 
 **A.eins kann nur XML im openTRANS-Standard 2.1 importieren.**
 
-<p class="just-emphasize">Ausgangsdaten im XML-Format</p>
+#### Ausgangsdaten im XML-Format
 
 Ausgangsdaten liegen unter Umständen im XML-Format vor. XML allein ist jedoch nur die Anweisung, Daten strukturiert darzustellen. Eine Definition, welche Daten wo zu finden ist, ist damit jedoch nicht getroffen. Ein XML-Dokument allein ist noch nicht geeignet, Daten daraus zu importieren.
 
@@ -12,7 +12,7 @@ Andere XML-Dateien können mit sog. Stylesheets zu openTRANS-Dateien konvertiert
 
 So können z.B. SAP-IDOCs oder andere XML zu openTRANS konvertiert werden. Diese Stylesheets können naturgemäß keine Konverter „von der Stange“ sein, da es in jedem Quell-System Individualitäten und verschiedene Versionen gibt.
 
-<p class="just-emphasize">Interpretation der Daten</p>
+#### Interpretation der Daten
 
 Die Daten stammen aus einer definierten Quelle. Sie enthalten Informationen, die vom Absender übertragen werden sollen. Jedoch sind die verwendeten Artikel- Partie- und Kundennummern die des Absenders und nicht unbedingt die des eigenen Systems. Auch Mengeneinheiten werden in den beiden Systemen unterschiedlich interpretiert. Aus diesem Grund ist es notwendig ein C#-Makro zur Interpretation der Daten zu schreiben.
 
@@ -26,7 +26,7 @@ Die erwähnten Datenobjekte, die als Ergebnis des Makros erstellt werden, ähnel
 
 ![](../../../ImagesExt/image8_263.jpg)
 
-<p class="just-emphasize">Geplantes Beispiel !</p>
+#### Geplantes Beispiel !
 
 Ein Beispielmakro finden Sie in der Datenbank unter dem Namen AMIC_VIMP_DEMO. In diesem wird beispielhaft ein Vorgangsimport erklärt. Alle auftretenden Fragestellungen können jedoch auch hier nicht beantwortet werden.
 

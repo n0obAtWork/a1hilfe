@@ -4,7 +4,7 @@
 
 Hier können zu den Standardvorgangsfeldern noch weitere Felder in Abhängigkeit der Bedienerklasse, Vorgangsklasse und der Vorgangsunterklasse angezeigt werden.
 
-<p class="just-emphasize">Positionierung</p>
+#### Positionierung
 
 Die Felder können dabei frei auf der Maske positioniert werden. Um die Einrichtung zu erleichtern, werden die Koordinaten beim Erstellen eines neuen Feldes automatisch vorgegeben.
 
@@ -18,7 +18,7 @@ Das Verhalten beim Löschen eines Feldes kann mit einem Einrichterparameter best
 - Die nachfolgenden Felder bleiben an ihrer alten Position
 - Bei jedem Löschen wird nachgefragt, ob die Felder nachrücken sollen
 
-<p class="just-emphasize">Maskenfelder</p>
+#### Maskenfelder
 
 | Feld | Bedeutung |
 | --- | --- |
@@ -27,7 +27,7 @@ Das Verhalten beim Löschen eines Feldes kann mit einem Einrichterparameter best
 | Vorg.Klasse | Folgende UFLD Felder werden bei dieser Vorgangsklasse angezeigt |
 | Unterklasse | Folgende UFLD Felder werden bei dieser Vorgangsunterklasse angezeigt |
 
-<p class="just-emphasize">Gridbeschreibung</p>
+#### Gridbeschreibung
 
 | Bezeichnung | Bedeutung |
 | --- | --- |
@@ -51,7 +51,7 @@ Das Verhalten beim Löschen eines Feldes kann mit einem Einrichterparameter best
 | Länge-Beschriftung | Die Länge des Feldes für die Beschriftung |
 | Aktualisiere Maske | Wenn der Wert auf Ja steht wird nach Eingabe eines Wertes in dem Feld das AIS auf der Maske aktualisiert. |
 
-<p class="just-emphasize">Vorgang</p>
+#### Vorgang
 
 | Nr. | ID | Name | Select-Statement für ein SQLK | Itembox auf dem Feld | Selected Text | Selected Variable |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -153,7 +153,7 @@ Das Verhalten beim Löschen eines Feldes kann mit einem Einrichterparameter best
 | 8268 | ID_V_DATUMEINGANG | Eingangsdatum | | | | |
 | 8269 | ID_ZAHLUNGSREFERENZ | Zahlungsreferenz | | | | |
 
-<p class="just-emphasize">Umbuchung</p>
+#### Umbuchung
 
 | Nr | ID | Name | Select-Statement für ein SQLK | Itembox auf dem Feld | Selected Text | Selected Variable |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -191,19 +191,19 @@ Das Verhalten beim Löschen eines Feldes kann mit einem Einrichterparameter best
 | 1993 | ID_LADEORTNUMMER | Ladeort | <pre><code>select LagerNummerLade from VorgTRansAuftrag vta&#10;join amic_v_vorgaenge vs on ( vta.V_TransId = vs.V_TransId )&#10;where vs.v_id = :ID_V_ID</code></pre> | IB_LagerStamm | cssc_lagerstamm | lagerbezeich |
 | 4501 | ID_LGU_BUCHTYP_KZ | Umbuch.Typ | <code>select vsu.v_LGUBuchTyp from VorgStammUmbuch vsu where vsu.v_id = :ID_V_ID</code> | | | |
 
-<p class="just-emphasize">Strecke</p>
+#### Strecke
 
 | Nr | ID | Name | Select-Statement für ein SQLK | Itembox auf dem Feld | Selected Text | Selected Variable |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1034 | ID_VERSANDARTID | Versandart | <code>select vs.VersArtId from amic_v_vorgaenge vs where v_id = :ID_V_ID</code> | IB_VERSANDART | CSSC_VERSANDART | VersArtBezeich |
 
-<p class="just-emphasize">Text1</p>
+#### Text1
 
 | Nr | ID | Name | Select-Statement für ein SQLK | Itembox auf dem Feld | Selected Text | Selected Variable |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1771 | ID_VERSANDARTID | Bemerktext1 | <pre><code>select vb.V_BemText1 from VorgBemerkung vb&#10;join amic_v_vorgaenge vs on (vb.V_BemId = vs.V_BemId)&#10;where vs.v_id = :ID_V_ID</code></pre> | IB_VERSANDART | CSSC_VERSANDART | VersArtBezeich |
 
-<p class="just-emphasize">Produktion</p>
+#### Produktion
 
 | Nr. | ID | Name | Select-Statement für ein SQLK | Itembox auf dem Feld | Selected Text | Selected Variable |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -238,7 +238,7 @@ Das Verhalten beim Löschen eines Feldes kann mit einem Einrichterparameter best
 | 4200 | ID_PROD_KUNDNUMMER | Prod.KuNr. | <code>select pv.V_ProdKundNummer from V_ProdVorgang pv where v_id = :ID_V_ID</code> | | | |
 | 4204 | ID_PROD_BUCHTYP | Prod.Buchtyp | <code>select pv.V_ProdBuchTyp from V_ProdVorgang pv where v_id = :ID_V_ID</code> | | | |
 
-<p class="just-emphasize">Felder des Vorgangs mit Weiterreichung an Unterblöcke/Warenpositionen</p>
+#### Felder des Vorgangs mit Weiterreichung an Unterblöcke/Warenpositionen
 
 Folgende Abfragefelder des Vorgangs werden sowohl im Kopfteil als auch in den Warenpositionen gespeichert:
 

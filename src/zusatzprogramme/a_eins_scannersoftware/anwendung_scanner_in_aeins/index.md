@@ -6,7 +6,7 @@ Hauptmenü > Externe Kommunikation > Scanner Lösungen
 
 Direktsprung **[SCTCP]**
 
-<p class="just-emphasize">Varianten</p>
+#### Varianten
 
 1. [Scanner Detailübersicht](./scanner_detailuebersicht.md)
 

@@ -4,7 +4,7 @@
 
 Ein Beleg, der als eRechnung exportiert wurde kann nun zu einer Gutschrift umgewandelt werden.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 741662[36082]
 
@@ -20,6 +20,6 @@ Funktion/Report: Gutschrift aus Rechnung
 
 [Weitere Informationen](http://www.amic.de/hilfe/gutschriftausrechnungsammelgua.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.8, 36082, 741662

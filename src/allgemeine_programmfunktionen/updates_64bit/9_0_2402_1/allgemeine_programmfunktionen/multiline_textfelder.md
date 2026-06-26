@@ -4,7 +4,7 @@
 
 Die Problematik, dass in Multiline-Feldern unter bestimmten Voraussetzungen die Eingabe von Zeichen nicht mehr möglich war, wurde beseitigt.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 734265[35166]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/_generelleprogrammbed.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.1, 35166, 734265

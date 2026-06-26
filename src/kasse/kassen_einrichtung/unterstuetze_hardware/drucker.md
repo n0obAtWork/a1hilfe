@@ -4,18 +4,18 @@
 
 Drucker wurden traditionell an den parallelen Port (LPT) angeschlossen. Die Ansteuerung bedient diesen Post auch heute noch, auch wenn dieser faktisch kaum noch hardwareseitig implementiert ist. Ein Drucker kann jedoch an eine virtuelle LPT-Schnittstelle angeschlossen werden, die dann die Daten weiterleitet.
 
-<p class="just-emphasize">TM 950 von EPSON mit Kassenschublade von MOGLER</p>
+#### TM 950 von EPSON mit Kassenschublade von MOGLER
 
 (wenn nicht vorhanden, Drucker über epson_bon.sql bzw. epson_schacht.sql einspielbar)
 
-<p class="just-emphasize">OKIPOS90 Bondrucker</p>
+#### OKIPOS90 Bondrucker
 
 (wenn nicht vorhanden, Drucker über oki_bon.sql bzw. oki_schacht.sql einspielbar)
 
-<p class="just-emphasize">STAR Bondrucker</p>
+#### STAR Bondrucker
 
 (wenn nicht vorhanden, Drucker über star.sql einspielbar)
 
-<p class="just-emphasize">Epson Thermodirekt-Bonducker</p>
+#### Epson Thermodirekt-Bonducker
 
-<p class="just-emphasize">Bixolon SRP-350plusIII</p>
+#### Bixolon SRP-350plusIII

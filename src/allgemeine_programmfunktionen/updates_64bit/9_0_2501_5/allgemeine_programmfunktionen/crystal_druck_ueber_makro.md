@@ -4,7 +4,7 @@
 
 Man kann Crystal Report über Makro aufrufen und mit Parameter versorgen. Dabei wurde der Parameter für die Anzahl der Kopien nicht korrekt ausgewertet.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 743010[36231]
 
@@ -20,6 +20,6 @@ Funktion/Report: --
 
 [Weitere Informationen](http://www.amic.de/hilfe/crystalreportberjppaufrufen.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 36231, 743010

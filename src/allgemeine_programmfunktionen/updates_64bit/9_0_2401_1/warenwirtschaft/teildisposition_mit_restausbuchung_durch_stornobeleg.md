@@ -4,7 +4,7 @@
 
 Mit Hilfe des Steuerparameters "Schnelle Teildispo mit Stornobeleg" (1147) ist es nun möglich bei der "Teildisposition aus Auftrag in Lieferschein" die Restausbuchung mittels Stornoauftrag zu erstellen.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 725304[34201]
 
@@ -20,6 +20,6 @@ Funktion/Report: F8 Lieferschein erfassen
 
 [Weitere Informationen](http://www.amic.de/hilfe/standardteildisposition.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.1, 34201, 725304

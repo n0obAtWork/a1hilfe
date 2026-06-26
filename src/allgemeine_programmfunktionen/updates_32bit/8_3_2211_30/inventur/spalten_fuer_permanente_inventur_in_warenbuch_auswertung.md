@@ -4,7 +4,7 @@
 
 Bei [WBAD] in der Variante ¨Warenbuchdetails für Artikel¨ und in der Variante ¨Warenbuchauswertung¨ in [WBA] sind jeweils Spalten für Inventurmengen Plus und Minus für Mengen und Werte eingetragen worden, die nur bei permanenten Inventur allgemein sichtbar und nur bei PIV-Belegen gefüllt werden. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 716520[33099]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_SPA_902.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2211.30, 33099, 716520

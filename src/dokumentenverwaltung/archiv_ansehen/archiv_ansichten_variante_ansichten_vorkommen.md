@@ -34,5 +34,5 @@ Sie verschafft eine Übersicht darüber, in welcher Optionbox (der dazugehörige
 | ***Ansicht ansehen*** **F6** | Archiv-Ansichtsdefinition ansehen |
 | ***Ansicht bearbeiten*** **F5** | Archiv-Ansichtsdefinition bearbeiten |
 | ***Funktion Informationen*** **F9** | Funktionsinformationen |
-| Kontext … | Optionbox-Pfleger<br>(nur für Entwicklung) |
-| Starte Anwendung … | Startet die Anwendung<br>(nur für Entwicklung) |
+| ***Kontext …*** | Optionbox-Pfleger<br>(nur für Entwicklung) |
+| ***Starte Anwendung …*** | Startet die Anwendung<br>(nur für Entwicklung) |

@@ -4,7 +4,7 @@
 
 In der Anwendung eRechnung [XRE], Variante Import Vorgänge, kann jetzt über die Funktion "Importeinstellungen bearbeiten" je ein Belegflusspostfach für die Warenwirtschaft und die Finanzbuchhaltung eingerichtet werden. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 746729[36960]
 
@@ -20,6 +20,6 @@ Funktion/Report: Importeinstellungen bearbeiten
 
 [Weitere Informationen](http://www.amic.de/hilfe/erechnungimporteinstellungenei.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 36960, 746729

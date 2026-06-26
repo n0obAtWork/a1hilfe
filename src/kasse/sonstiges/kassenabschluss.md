@@ -8,9 +8,9 @@
 
 3. Nur bei SPA_ABSCHOEPFUNG_AUTOMATISCH:
 
-a. Wechselgeld entnehmen
+   a. Wechselgeld entnehmen
 
-b. Ggf. Zählung durchführen, bei Unterkasse mit automatischer Abschöpfung wird so getan, als wäre eine Zählung erfolgt.
+   b. Ggf. Zählung durchführen, bei Unterkasse mit automatischer Abschöpfung wird so getan, als wäre eine Zählung erfolgt.
 
 Nur bei Abschluss mit Zählung bzw. Zählung nn passiert all dieses
 

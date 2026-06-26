@@ -13,15 +13,15 @@ Es stehen mehrere DTA-Verfahren zur Verfügung.
 
 - DTA-Verfahren zwischen Kunde und Bank. Hier wird je nach Einstellung des Steuerparameters (SPA) „DTA-Ausgabeformat“ unterschieden, welches Format für die Dateiausgabe verwendet wird. Zurzeit werden folgende Formate unterstützt:
 
-  1. Deutschland: Datenträgeraustausch zwischen Kunde und Bank.
+1. Deutschland: Datenträgeraustausch zwischen Kunde und Bank.
 
-  2. Österreich: EDIFACT-TRANSAKTION für den Inlandszahlungsverkehr
+2. Österreich: EDIFACT-TRANSAKTION für den Inlandszahlungsverkehr
 
-  3. Dänemark: Unitel for PC Format.
+3. Dänemark: Unitel for PC Format.
 
-  4. SEPA
+4. SEPA
 
-  5. Datenbankfunktion: Offenes Format, bei dem eine Datenbankfunktion die Ausgabedaten als long varchar liefert. Diese private Datenbankfunktion wird unter der Option (Direktsprung [OPT]) DTA_PROZEDUR eingetragen. Als Parameter erhält diese Prozedur die ASATZ_ID über die die Aufbereiteten Datensätze identifiziert werden können  
+5. Datenbankfunktion: Offenes Format, bei dem eine Datenbankfunktion die Ausgabedaten als long varchar liefert. Diese private Datenbankfunktion wird unter der Option (Direktsprung [OPT]) DTA_PROZEDUR eingetragen. Als Parameter erhält diese Prozedur die ASATZ_ID über die die Aufbereiteten Datensätze identifiziert werden können  
 <strong>Achtung:</strong> Wird die Prozedur im Vieraugenprinzip-Zahlung verwendet, so wird die ZahllaufId zur Identifizierung übergeben.  
     
 
@@ -150,7 +150,7 @@ begin
 end
 ```
 
-<p class="just-emphasize">Inhalt des Begleitzettels im Inlandszahlungsverkehr</p>
+#### Inhalt des Begleitzettels im Inlandszahlungsverkehr
 
 Der einem Datenträger beizufügende Begleitzettel muss nachfolgende Mindestangaben enthalten: Dabei ist die Reihenfolge der Mindestangaben unbedingt einzuhalten; zusätzliche Angaben sind ober- oder unterhalb der geforderten Mindestangaben anzuordnen. Bei Datenträgern mit mehreren logischen Dateien ist für jede Datei ein Begleitzettel auszuschreiben.
 
@@ -168,7 +168,7 @@ Der einem Datenträger beizufügende Begleitzettel muss nachfolgende Mindestanga
 - Ort, Datum
 - Firma, Unterschrift(en) des Absenders
 
-<p class="just-emphasize">Kennzeichnung des Datenträgers im Inlandszahlungsverkehr</p>
+#### Kennzeichnung des Datenträgers im Inlandszahlungsverkehr
 
 Der Datenträger ist durch Aufkleber mit folgenden Angaben zu kennzeichnen:
 

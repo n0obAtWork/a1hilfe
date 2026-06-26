@@ -4,7 +4,7 @@
 
 Mit einer passenden Einstellung im [FRZ] (Tabreiter: Sperren - Teildisponierte Position editierbar) ist es nun möglich, teildisponierte Positionen im Quellbeleg nachträglich zu ändern. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 708903[32077]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/frz_sperren.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2211.30, 32077, 708903

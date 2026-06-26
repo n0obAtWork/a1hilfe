@@ -2,10 +2,10 @@
 
 <!-- source: https://amic.de/hilfe/continueonerror.htm -->
 
-<p class="just-emphasize">Purpose</p>
+#### Purpose
 
 Veraltet. Siehe: [SET ERROR CONTINUE](./set_error_statement.md)
 
-<p class="just-emphasize">Siehe auch</p>
+#### Siehe auch
 
 CONTINUE, SET ERROR

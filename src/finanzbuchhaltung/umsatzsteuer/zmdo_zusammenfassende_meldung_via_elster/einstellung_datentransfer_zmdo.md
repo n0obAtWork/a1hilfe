@@ -12,7 +12,7 @@ Direktsprung **[ZMDOO]**
 
 Bei der Bearbeitung der Daten müssen Dateien zwischengespeichert werden. Dies geschieht auf dem hier eingetragenen Arbeitsverzeichnis. Dort finden sich auch alle LOG-Dateien, falls es zu Problemen bei der Übertragung kommt.
 
-<p class="just-emphasize">Zertifikat für den authentifizierten Versand</p>
+### Zertifikat für den authentifizierten Versand
 
 Die ZMDO kann nur mit Authentifizierung übertragen werden. Informationen zur Authentifizierung findet man unter [www.elster.de](http://www.elster.de/).
 

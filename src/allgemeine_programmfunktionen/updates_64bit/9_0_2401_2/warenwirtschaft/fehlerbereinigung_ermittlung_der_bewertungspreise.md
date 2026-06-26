@@ -4,7 +4,7 @@
 
 In der Prozedur zur Ermittlung der Bewertungspreise hat sich im Rahmen der Einführung der permanenten Inventur ein Fehler eingeschlichen. Dieser wurde behoben.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 730019[35015]
 
@@ -20,6 +20,6 @@ Funktion/Report: Ermittlung der Bewertungspreise
 
 [Weitere Informationen](http://www.amic.de/hilfe/_bewertungspreise.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.2, 35015, 730019

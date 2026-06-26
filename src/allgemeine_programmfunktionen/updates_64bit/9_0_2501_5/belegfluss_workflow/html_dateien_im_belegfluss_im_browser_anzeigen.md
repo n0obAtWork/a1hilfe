@@ -4,7 +4,7 @@
 
 Wenn in der Anwendung Belegfluss der Formulararchiveintrag eine HTML-Datei ist, öffnet sich nun der unter Windows eingestellte Standardbrowser. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 746694[36957]
 
@@ -20,6 +20,6 @@ Funktion/Report: Archiv Belegfluss
 
 [Weitere Informationen](http://www.amic.de/hilfe/!belegflussvariante1meinepostfc.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2501.5, 36957, 746694

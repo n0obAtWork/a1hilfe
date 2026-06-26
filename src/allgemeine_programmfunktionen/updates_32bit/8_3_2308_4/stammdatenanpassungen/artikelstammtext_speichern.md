@@ -4,7 +4,7 @@
 
 Bei längeren Artikeltexten (mehr als 10 Zeilen) konnte es beim Speichern zu einem Fehlverhalten kommen. Der Artikelstammtext wird nun in jedem Fall beim ersten Speicherversuch korrekt gespeichert.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 725583[34019]
 
@@ -20,6 +20,6 @@ Funktion/Report: Textzeilen(F5)
 
 [Weitere Informationen](http://www.amic.de/hilfe/_textzeilen.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2308.4, 34019, 725583

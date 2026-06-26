@@ -4,7 +4,7 @@
 
 Bei der Verwendung einer HTML-Body-Funktion im Belegversand ist die Angabe eines Formulararchiveintrags als Basis Veränderung zu einem HTML-Body nicht mehr zwingend notwendig. Das HTML kann auch vollständig in der Body-Funktion entstehen. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 735345[34908]
 
@@ -20,6 +20,6 @@ Funktion/Report: Belegversand
 
 [Weitere Informationen](http://www.amic.de/hilfe/abwicklung1.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2402.1, 34908, 735345

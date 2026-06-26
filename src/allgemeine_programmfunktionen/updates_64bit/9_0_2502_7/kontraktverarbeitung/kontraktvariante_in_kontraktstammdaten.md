@@ -4,7 +4,7 @@
 
 Im Kontraktstamm [KTR] wurde die F3-Auswahl für Kontraktvarianten (Bezeichner: Variante Kontraktdruck) dahingehend überarbeitet, dass nun nur noch Eingaben erlaubt sind, die in der F3-Auswahl vorkommen. Alte bestehende Einträge, welche nicht in der F3-Auswahl enthalten sind, verhindern das Speichern nicht. Erst bei wiederholter Eingabe im Feld Kontraktvariante wird die Prüfung (und das Verhindern des Speicherns) angestoßen. Beim öffnen eines Kontraktes wird ggf. darauf hingewiesen, dass eine Kontraktvariante nicht in der F3-Auswahl zu finden ist.
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 748421[37674]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/_kontraktstammdaten.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.7, 37674, 748421

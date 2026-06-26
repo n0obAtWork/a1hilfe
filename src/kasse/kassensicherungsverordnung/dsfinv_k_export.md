@@ -47,7 +47,7 @@ DSFinV-K
 | Kassenabschluss | Der Kassenabschluss-Zeitpunkt der Kassensitzungsnummer. |
 | Export-Verzeichnis | Das Verzeichnis in den die amtlichen Daten des DSFin-V_K hinterlegt werden. |
 
-<p class="just-emphasize">Hinweis:</p>
+**Hinweis:**
 
 Zurzeit ist die Kassennummer das Kriterium, dass die TSE vorgibt.
 
@@ -71,7 +71,7 @@ Jede einzelne der Standard-Auslieferungsprozeduren kann privatisiert werden.
 | CSV-Dateiname | Nach DSFin-V_K sind die CSV-Dateinamen vorgegeben. |
 | Aufbereitungsprozedure | Der Name der zugehörigen Aufbereitungsprozedure. Diese Prozeduren können jeweils privatisiert werden. Der Name der Privatisierung ist auch fest vorgegeben. |
 
-<p class="just-emphasize">Hinweis:</p>
+**Hinweis:**
 
 Die ***Privatisierung*** ist für eine Übergangszeit (der Produkteinführung) hauptsächlich für den AMIC-Support und – Entwicklung ein Mittel vor Ort bei bestimmten Datenzusammenstellungen schnell und direkt reagieren zu können.
 

@@ -6,7 +6,7 @@ Direktsprung **[ERFW]**
 
 Hier wird der Erfasserwechsel durchgeführt. Beim Öffnen der Maske wird entweder erst der angemeldete Erfasser angezeigt oder es kann – wenn kein Erfasser angemeldet ist – sofort ein neuer Erfasser angewählt werden. Um einen Erfasser zu wechseln muss, der aktuell angemeldete Erfasser, erst abgemeldet werden.
 
-<p class="just-emphasize">Schneller Erfasserwechsel</p>
+#### Schneller Erfasserwechsel
 
 Direktsprung **[SERFW]**
 

@@ -8,7 +8,7 @@ oder Direktsprung **[MND]**
 
 Hier erfolgen die Benennung des Mandanten (Bezeichnung der Firma), seine datenbanktechnische Anbindung sowie die Zuordnung von Nummernkreisen zu wesentlichen Datenbereichen.
 
-<p class="just-emphasize">Felder:</p>
+### Felder:
 
 | Feld | Bedeutung |
 | --- | --- |
@@ -19,7 +19,7 @@ Hier erfolgen die Benennung des Mandanten (Bezeichnung der Firma), seine datenba
 | Buchwährung | Zeigt die aktive Buchwährung des Mandanten an. Solange noch keine Belege erfasst wurden, wird im Menü eine Funktion zum Setzen der Buchwährung angeboten. |
 | Testmandant | Zeigt an, ob der aktuelle Datensatz ein Testmandant ist. |
 
-<p class="just-emphasize">Register:</p>
+### Register:
 
 <details>
 <summary>Registerkarte Allgemein</summary>
@@ -153,7 +153,7 @@ In der Registerkarte Verbotsliste werden wichtige Informationen zur Datenverbind
 
 Auf der Registerkarte „Internet“ werden Informationen hinterlegt, die für externe Systeme im Internet oder Intranet gebraucht werden.
 
-<p class="just-emphasize">Proxyeinstellungen</p>
+#### Proxyeinstellungen
 
 | Feld | Bedeutung |
 | --- | --- |
@@ -162,7 +162,7 @@ Auf der Registerkarte „Internet“ werden Informationen hinterlegt, die für e
 | User | Username für den Zugriff von A.eins aufs Internet via Proxy |
 | Passwort | Passwort für den Zugriff von A.eins aufs Internet via Proxy |
 
-<p class="just-emphasize">Standard SMTP Informationen</p>
+#### Standard SMTP Informationen
 
 | Feld | Bedeutung |
 | --- | --- |
@@ -174,13 +174,13 @@ Auf der Registerkarte „Internet“ werden Informationen hinterlegt, die für e
 | Benutzer | Benutzername für den Zugriff auf den SMTP-Server (falls erforderlich) |
 | Passwort | Passwort für den Zugriff auf den SMTP-Server (falls erforderlich) |
 
-<p class="just-emphasize">Signierung</p>
+#### Signierung
 
 | Feld | Bedeutung |
 | --- | --- |
 | Signatur-Datei | Dateiname der Datei mit einem PK12-Schlüssel zur Signierung von PDF-Dateien. |
 
-<p class="just-emphasize">Fax-Einstellungen</p>
+#### Fax-Einstellungen
 
 | Feld | Bedeutung |
 | --- | --- |
@@ -289,7 +289,7 @@ Das Logo kann in den Finanzbuchhaltungs-Reporten angezeigt werden. Es wird exakt
 
 </details>
 
-<p class="just-emphasize">Funktionen:</p>
+### Funktionen:
 
 <details>
 <summary>Funktionen Mandantenstamm</summary>

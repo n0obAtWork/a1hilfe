@@ -6,7 +6,7 @@ Hauptmenü > Inventur > Inventuraufnahme
 
 Direktsprung **[IVA]**
 
-<p class="just-emphasize">Erfassung</p>
+### Erfassung
 
 Zunächst wird per Stichtag und Inventurgruppe der zugehörige Inventurstamm bestimmt.
 
@@ -40,13 +40,13 @@ Ist die Aufnahme eines Beleges beendet, kann entweder ein neuer Beleg begonnen w
 
 Die zuletzt erfassten 8 Positionen eines Beleges werden nach Speicherung der Position im oberen Maskenteil zur Kontrolle angezeigt. 
 
-<p class="just-emphasize">Silo / Ladeträgerzuordnung bei der Inventuraufnahme</p>
+#### Silo / Ladeträgerzuordnung bei der Inventuraufnahme
 
 Es besteht die Möglichkeit einem Inventurbeleg ein Silo / Ladeträger zuzuordnen. Dazu müssen die Steuerparameter [Lagerverwaltungssystem(SPA 636)](../../firmenstamm/steuerparameter/optionen_global/lagerverwaltungssystem_spa_636.md) und [Anzeige des Silo trotz aktivem SPA 636 bei der Inventuraufnahme](../../firmenstamm/steuerparameter/optionen_warenwirtschaft/anzeige_des_silo_trotz_aktivem_steuerparameter_lagerverwaltu.md) auf „Ja“ gestellt werden.
 
 **Die Erfassung des Silo / Ladeträgers ist nur informativ, bewirkt keine Änderungen an den Silobeständen und wird nicht im Standard ausgewertet**.
 
-<p class="just-emphasize">Erfassungsprotokoll (F9)</p>
+### Erfassungsprotokoll (F9)
 
 Über den Stand der Erfassung kann ein Erfassungsprotokoll ausgedruckt werden:
 
@@ -54,7 +54,7 @@ Es besteht die Möglichkeit einem Inventurbeleg ein Silo / Ladeträger zuzuordne
 
 ![](../../ImagesExt/image8_807.jpg)
 
-<p class="just-emphasize">Einzelkorrektur</p>
+### Einzelkorrektur
 
 Die in der Auswahlliste markierten Positionen (bzw. alle, wenn keine markiert sind) können im Korrekturmodus bearbeitet werden. Durch Blättern wird dabei von Position zu Position gewechselt.
 

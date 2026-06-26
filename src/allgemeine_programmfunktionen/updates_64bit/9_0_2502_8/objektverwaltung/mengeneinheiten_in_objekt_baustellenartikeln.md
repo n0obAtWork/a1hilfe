@@ -4,7 +4,7 @@
 
 Der Objekt-/Baustellen-Artikelpreispfleger ist nur für Artikel aufrufbar. Pflegt man einen neuen Preis, so wird dieer nun mit den korrekten Mengeneinheiten aus dem Artikel vorbelegt und die Mengeneinheitsbezeichnungen für Preise & Mengen werden je Einkauf und Verkauf zusätzlich angezeigt. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 751485[38548]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/!_baustelle.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2502.8, 38548, 751485

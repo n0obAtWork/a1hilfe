@@ -12,6 +12,6 @@ Je Bediener ist die Zuordnung eines Standarddruckers für den Ausdruck im ASCII-
 
 Mit **F3** kann aus den eingerichteten Druckern ausgewählt werden.
 
-<p class="just-emphasize">Wichtig:</p>
+### Wichtig:
 
 Soll mit dem Laserdrucker gearbeitet werden, ist darauf zu achten, dass in den Formularen **[FRM]** mit ***Ändern*** **F5** die Länge von 72 auf 64 geändert wird. Sollen Auswahllisten (**F4**) gedruckt werden, ist pro Bediener **[BD]** das Formular 112 unter Form. Kurzliste einzutragen!

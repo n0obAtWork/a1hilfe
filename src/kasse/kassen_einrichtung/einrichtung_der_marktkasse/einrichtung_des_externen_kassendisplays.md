@@ -10,7 +10,7 @@ Auf der Registerkarte „Anzeige“ findet sich eine Tabelle mit Feldern, die zu
 
 Diese Tabelle mit Anzeigefeldern ist einem Anzeigeschema zugeordnet, dass Sie in dem Feld „Schema“ auswählen müssen. Sie können auch mit der Funktion „Neues Anzeigeschema“ ein neues Schema erstellen.
 
-<p class="just-emphasize">Hinweis:</p>
+**Hinweis:**
 
 Bitte beachten Sie, dass die Angaben des Schemas stets für alle Anzeigen gelten, die das gleiche Schema verwenden!!!
 

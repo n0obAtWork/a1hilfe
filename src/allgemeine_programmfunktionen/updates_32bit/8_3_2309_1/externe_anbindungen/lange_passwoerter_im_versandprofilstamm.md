@@ -4,7 +4,7 @@
 
 Im Versandprofilstamm [VPST] konnten längere Passwörter nicht gespeichert werden. Dies wurde behoben. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 725795[34156]
 
@@ -20,6 +20,6 @@ Funktion/Report: n/a
 
 [Weitere Informationen](http://www.amic.de/hilfe/_versandprofilstamm.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 8.3.2309.1, 34156, 725795

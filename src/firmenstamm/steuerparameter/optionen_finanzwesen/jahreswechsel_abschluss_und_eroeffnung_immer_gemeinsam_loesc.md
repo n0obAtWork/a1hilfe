@@ -9,7 +9,7 @@ Wenn ein Jahreswechsel durchgeführt wird, wird in der Abschlussperiode und in d
     <tbody>
       <tr>
         <td>
-          <p>Nein</p>
+          <p><strong>Nein</strong></p>
         </td>
         <td>
           <p>Es ist möglich die Belege einzeln zu betrachten. Beim Löschen erscheint die Meldung:<b></b></p>
@@ -21,7 +21,7 @@ Wenn ein Jahreswechsel durchgeführt wird, wird in der Abschlussperiode und in d
       </tr>
       <tr>
         <td>
-          <p>Ja</p>
+          <p><strong>Ja</strong></p>
         </td>
         <td>
           <p><b>Neue Standardeinstellung:</b></p>

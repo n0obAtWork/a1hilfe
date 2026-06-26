@@ -28,11 +28,11 @@ Folgende Felder werden zusätzlich angezeigt, sobald der Einrichterparameter „
 | Behandlung | Hier wird die Laborbehandlung angezeigt. Aus dem Format „AF_BEHANDLUN“ **kann** mit **F3 eine Auswahl aufgerufen werden**.<br>Ist hier ein Eintrag vorhanden, so wird die Methodenauswahl im Labor-Modul bei der Erstellung eines Probensatzes nach dem dort eingetragenen Wert für die Behandlung eingeschränkt, wenn dieser größer als 0 ist.<br> <br>In der Tabelle „Zusätzliche Behandlung“ können weitere Behandlungen erfasst werden, damit diese Methode auch bei diesen Behandlungen im Labor-Modul herangezogen wird.<br> |
 | Gültig ab | Hier kann ein Gültigkeitsabdatum eingetragen werden. Dies Datum wird benötigt, wann die Labormethode im Prüfauftrag oder im Labormodul automatisch gesucht wird.<br> |
 
-<p class="just-emphasize">Prüfbericht</p>
+#### Prüfbericht
 
 In diesem Grid werden die Prüfberichte hinterlegt, die aus dem Labormodul gedruckt werden können. Das Drucken eines Prüfberichtes ist erst dann möglich, wenn die Kopfdaten komplett erfasst wurden. Es können nur Berichte / Etiketten aus dem Bereich des [AMIC Etikettendrucks](../amic_etikettendruck/index.md#Amic_Etikettendruck) ausgewählt werden. Jeder Prüfbericht, der in diesem Grid eingetragen ist, wird beim Drucken gedruckt.
 
-<p class="just-emphasize">Technischer Anschluss</p>
+#### Technischer Anschluss
 
 Im A.eins System existiert keine Standardvorlage für ein Prüfbericht. Dieser muss vor Ort entwickelt werden. Die Variable „LDB_TRANSFER$I4“ wird mit der „QualitaetsId“ vor dem Aufrufen des Prüfberichtes befüllt.  
 Beispiel(siehe Procedure Name):
@@ -41,11 +41,11 @@ Beispiel(siehe Procedure Name):
 
 Die Prüfberichte werden in der Tabelle „LaborMethodeEtiketten“ unter Etikettentyp 2 gespeichert.
 
-<p class="just-emphasize">Etikett Teilproben</p>
+#### Etikett Teilproben
 
 In diesem Grid werden die Etiketten für die Teilproben hinterlegt, die aus dem Labormodul gedruckt werden können. Das Drucken der Teilprobenetiketten ist erst dann möglich, wenn die Kopfdaten komplett erfasst wurden. Es können nur Berichte / Etiketten aus dem Bereich des [AMIC Etikettendrucks](../amic_etikettendruck/index.md#Amic_Etikettendruck) ausgewählt werden. Jedes Teilprobenetikett, welches in diesem Grid eingetragen ist, wird beim Drucken gedruckt. In dem Feld Häufigkeit kann die Ausgabehäufigkeit in Prozent angegeben werden. Das Feld wird mit einem Zufallswert vorbelegt. Das Feld Häufigkeit wird nicht im A.eins System standardmäßig ausgewertet.
 
-<p class="just-emphasize">Technischer Anschluss</p>
+#### Technischer Anschluss
 
 Siehe Oben bei Technischer Anschluss Prüfbericht.  
     

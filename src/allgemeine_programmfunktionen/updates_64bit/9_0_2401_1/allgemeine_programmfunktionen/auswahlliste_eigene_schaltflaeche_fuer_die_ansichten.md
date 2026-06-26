@@ -4,7 +4,7 @@
 
 In der Auswahlliste gibt es jetzt eine eigene Schaltfläche für die Ansichten. So können die Profile und Ansichten getrennt voneinander ausgewählt werden. Die Schaltfläche für die Ansichten ist nur dann sichtbar, wenn für den Bediener neben der Standardansicht noch weitere Ansichten existieren. 
 
-<p class="just-emphasize">Releasenote Kategorie:</p>
+### Releasenote Kategorie:
 
 Ticket: 731003[34740]
 
@@ -20,6 +20,6 @@ Funktion/Report: -
 
 [Weitere Informationen](http://www.amic.de/hilfe/anwendungsregister.htm)
 
-<p class="just-emphasize">Tags:</p>
+#### Tags:
 
 Releasenote, 9.0.2401.1, 34740, 731003
