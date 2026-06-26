@@ -28,13 +28,13 @@ Direktsprung **[FIBM]**
 
 In der Anwendung „Belegmappen“ existieren einige Bearbeitungsfunktionen:
 
-- **Buchungen auflösen.  
-**Dort werden automatisch Belege erstellt, die bis auf das Sollhabenkennzeichen, Belegnummer, Belegdatum und Periode dem Originalbeleg entsprechen. Dies dient dazu, Auflösung von Abgrenzungsbuchungen zu automatisieren. Der Status der Belege (neu, aufgelöst, gelöscht, storniert) wird in der Belegmappe festgehalten. Es können nur Auflösungen für Belege vorgenommen werden, die laut Belegmappe weder aufgelöst, gelöscht noch storniert wurden.  
+- **Buchungen auflösen.**  
+Dort werden automatisch Belege erstellt, die bis auf das Sollhabenkennzeichen, Belegnummer, Belegdatum und Periode dem Originalbeleg entsprechen. Dies dient dazu, Auflösung von Abgrenzungsbuchungen zu automatisieren. Der Status der Belege (neu, aufgelöst, gelöscht, storniert) wird in der Belegmappe festgehalten. Es können nur Auflösungen für Belege vorgenommen werden, die laut Belegmappe weder aufgelöst, gelöscht noch storniert wurden.  
     
 
-- **Ansehen Beleg.  
-**Es wird der Beleg, soweit er nicht den Status gelöscht hat, in der [Einzelbeleganzeige](../op_verwaltung/einzelbeleganzeige.md) angezeigt.  
+- **Ansehen Beleg.**  
+Es wird der Beleg, soweit er nicht den Status gelöscht hat, in der [Einzelbeleganzeige](../op_verwaltung/einzelbeleganzeige.md) angezeigt.  
     
 
-- **Belegmappe entfernen.  
-**Die Belegmappe wird gelöscht. Dabei werden die eigentlichen Belege nicht gelöscht, sondern nur der Verweis zur Belegmappe. Gelöschte Belegmappen können nicht wiederhergestellt werden.
+- **Belegmappe entfernen.**  
+Die Belegmappe wird gelöscht. Dabei werden die eigentlichen Belege nicht gelöscht, sondern nur der Verweis zur Belegmappe. Gelöschte Belegmappen können nicht wiederhergestellt werden.

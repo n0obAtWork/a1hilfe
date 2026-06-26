@@ -132,18 +132,17 @@ Gelegentlich kann es vorkommen, dass Zinsabrechnungen erneut erstellt werden sol
 | Periode / Jahr | Welcher Periode soll der Stornobeleg zugeordnet werden?<br> |
 | Beleg nach Erstellung sofort drucken? | Hier kann eingestellt werden, dass der Stornobeleg sofort im Anschluss gedruckt wird. Es existiert ein gleichnamiger Einrichterparamter. Setzt man diesen auf **Ja**, so ist der Haken automatisch gesetzt und kann nicht geändert werden.<br><br> |
 
-- ***Löschen bzw. zurücksetzen  
-***Zinsvorschläge bzw. Zinsabrechnungen können gelöscht und/oder zurückgesetzt werden. Es ist dabei streng darauf zu achten, was man erreichen möchte. In beiden Fällen wird die Zinsliste gelöscht, aber nur in dem Fall „Zurücksetzen“ werden die in der Zinsliste verarbeiteten Belege wieder freigegeben, um erneut verarbeitet werden zu können. Bereits verbuchte Belege können nicht zurückgesetzt werden (siehe Zinsbuchung stornieren). Es erscheint beim Menüpunkt „Löschen“ folgende Sicherheitsabfrage.  
+- ***Löschen bzw. zurücksetzen***  
+Zinsvorschläge bzw. Zinsabrechnungen können gelöscht und/oder zurückgesetzt werden. Es ist dabei streng darauf zu achten, was man erreichen möchte. In beiden Fällen wird die Zinsliste gelöscht, aber nur in dem Fall „Zurücksetzen“ werden die in der Zinsliste verarbeiteten Belege wieder freigegeben, um erneut verarbeitet werden zu können. Bereits verbuchte Belege können nicht zurückgesetzt werden (siehe Zinsbuchung stornieren). Es erscheint beim Menüpunkt „Löschen“ folgende Sicherheitsabfrage.  
     
 ![Ein Bild, das Text, Elektronik, Screenshot, Display enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_701.png "Ein Bild, das Text, Elektronik, Screenshot, Display enthält. Automatisch generierte Beschreibung")  
 **  
 Achtung:**  
 *Es kann immer nur die letzte Zinsabrechnung eines Kunden gelöscht oder zurückgesetzt werden, da der Zinssaldo im anderen Fall bereits fortgeschrieben wurde.  
-    
-*
+*  
 
-- ***Wiederherstellen  
-***Sollte es vorgekommen sein, dass man Zinsabrechnungen gelöscht hat, anstatt sie zurückzusetzen, gibt es hier den Punkt „***Wiederherstellen***“. Er stellt die Zinsabrechnung nicht wieder her, sondern setzt die betroffenen Belege auf den Status „nicht verzinst“, so dass sie bei der nächsten Zinsabrechnung wieder herangezogen werden. Es ist dann so, als ob man gleich „***Zurücksetzen***“ gewählt hätte.  
+- ***Wiederherstellen***  
+Sollte es vorgekommen sein, dass man Zinsabrechnungen gelöscht hat, anstatt sie zurückzusetzen, gibt es hier den Punkt „***Wiederherstellen***“. Er stellt die Zinsabrechnung nicht wieder her, sondern setzt die betroffenen Belege auf den Status „nicht verzinst“, so dass sie bei der nächsten Zinsabrechnung wieder herangezogen werden. Es ist dann so, als ob man gleich „***Zurücksetzen***“ gewählt hätte.  
 Man kann den Status ganzer Zinslisten bzw. den eines einzelnen Kontos ändern. Es erscheint dazu ein Bildschirm, in dem eine Kontonummer abgefragt wird. Wird keine Kontonummer angegeben, erscheint folgende Abfrage:
 
     
@@ -176,8 +175,8 @@ Mit diesem Programmteil können kalkulatorische Zinsen am Bildschirm ermittelt w
 Nach Eingabe des Datums und der Kontonummer kann die Berechnung mit **F9** gestartet werden. Es werden dann die zum Abrechnungsdatum fälligen Zinsen angezeigt.  
     
 
-- ***Abrechnung drucken  
-***Die Abrechnung kann über Formulare des Typs „203 Zinsabrechnung“ gedruckt werden.  
+- ***Abrechnung drucken***  
+Die Abrechnung kann über Formulare des Typs „203 Zinsabrechnung“ gedruckt werden.  
     
 ![Ein Bild, das Text, Screenshot, Display, Software enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_705.png "Ein Bild, das Text, Screenshot, Display, Software enthält. Automatisch generierte Beschreibung")  
     
@@ -190,8 +189,8 @@ Nach Eingabe des Datums und der Kontonummer kann die Berechnung mit **F9** gesta
 
 Die Zinsabrechnung kann auch als Mailanhang verschickt werden.
 
-- ***Zinssaldo ändern  
-***Im Normalfall ist es nicht nötig ist, den Zinssaldo zu ändern.  
+- ***Zinssaldo ändern***  
+Im Normalfall ist es nicht nötig ist, den Zinssaldo zu ändern.  
     
 ![Ein Bild, das Text, Screenshot, Display, Software enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_706.jpg "Ein Bild, das Text, Screenshot, Display, Software enthält. Automatisch generierte Beschreibung")  
     

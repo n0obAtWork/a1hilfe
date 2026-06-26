@@ -193,56 +193,56 @@ Hier kann man weitere Einstellungen zur aktuell markierten Druckposition vornehm
 
 Spezielle Zahlen-/Textformatierung
 
-**Triadendruck  
-**Druckpositionen, die als Wert Zahlen mit Nachkommastellen beinhalten können, werden bei aktiviertem Kennzeichen in Triadenform dargestellt.
+**Triadendruck**  
+Druckpositionen, die als Wert Zahlen mit Nachkommastellen beinhalten können, werden bei aktiviertem Kennzeichen in Triadenform dargestellt.
 
-**Nullwert nicht darstellen  
-**Druckpositionen, die als Wert Zahlen beinhalten, werden bei aktiviertem Kennzeichen nicht gedruckt, wenn der Zahlenwert=0 ist.
+**Nullwert nicht darstellen**  
+Druckpositionen, die als Wert Zahlen beinhalten, werden bei aktiviertem Kennzeichen nicht gedruckt, wenn der Zahlenwert=0 ist.
 
-**umgekehrtes Vorzeichen  
-**Druckpositionen, die als Wert Zahlen beinhalten, werden bei aktiviertem Kennzeichen mit umgekehrtem Vorzeichen dargestellt.
+**umgekehrtes Vorzeichen**  
+Druckpositionen, die als Wert Zahlen beinhalten, werden bei aktiviertem Kennzeichen mit umgekehrtem Vorzeichen dargestellt.
 
-**Betrag mit führenden Sternchen  
-**Druckpositionen, die als Wert Zahlen mit Nachkommastellen beinhalten können, werden bei aktiviertem Kennzeichen entsprechend der eingerichteten Läge mit führenden Sternchen dargestellt.
+**Betrag mit führenden Sternchen**  
+Druckpositionen, die als Wert Zahlen mit Nachkommastellen beinhalten können, werden bei aktiviertem Kennzeichen entsprechend der eingerichteten Läge mit führenden Sternchen dargestellt.
 
-**in Worten darstellen  
-**Druckpositionen, die als Wert Zahlen mit Nachkommastellen beinhalten können, werden bei aktiviertem Kennzeichen in Textform mit Auflösung der einzelnen Ziffern in Worte dargestellt.
+**in Worten darstellen**  
+Druckpositionen, die als Wert Zahlen mit Nachkommastellen beinhalten können, werden bei aktiviertem Kennzeichen in Textform mit Auflösung der einzelnen Ziffern in Worte dargestellt.
 
-**Wert in Euro, oder Festtext, wenn Beleg nicht in Euro  
-**Ist dieses Kennzeichen aktiviert und die Belegwährung des zu druckenden Vorgangs eine andere Währung als Euro, so wird ein der Druckposition zugewiesener Zahl-Wert als in Belegwährung vorliegend interpretiert und vor der Ausgabe in die Währung Euro umgerechnet. Ist der der Druckposition zugewiesene Wert ein Text, so wird dieser im Falle einer von Euro abweichenden Belegwährung unverändert ausgegeben.  
+**Wert in Euro, oder Festtext, wenn Beleg nicht in Euro**  
+Ist dieses Kennzeichen aktiviert und die Belegwährung des zu druckenden Vorgangs eine andere Währung als Euro, so wird ein der Druckposition zugewiesener Zahl-Wert als in Belegwährung vorliegend interpretiert und vor der Ausgabe in die Währung Euro umgerechnet. Ist der der Druckposition zugewiesene Wert ein Text, so wird dieser im Falle einer von Euro abweichenden Belegwährung unverändert ausgegeben.  
 Ist die Belegwährung jedoch Euro, so wird die Druckposition unterdrückt.
 
-**Wert in Buchwährung, oder Festtext, wenn Beleg nicht in Buchwährung  
-**Ist dieses Kennzeichen aktiviert und die Belegwährung des zu druckenden Vorgangs eine andere Währung als die A.eins-Buchwährung, so wird ein der Druckposition zugewiesener Zahl-Wert als in Belegwährung vorliegend interpretiert und vor der Ausgabe in die Buchwährung umgerechnet. Ist der der Druckposition zugewiesene Wert ein Text, so wird dieser im Falle einer von der Buchwährung abweichenden Belegwährung unverändert ausgegeben.  
+**Wert in Buchwährung, oder Festtext, wenn Beleg nicht in Buchwährung**  
+Ist dieses Kennzeichen aktiviert und die Belegwährung des zu druckenden Vorgangs eine andere Währung als die A.eins-Buchwährung, so wird ein der Druckposition zugewiesener Zahl-Wert als in Belegwährung vorliegend interpretiert und vor der Ausgabe in die Buchwährung umgerechnet. Ist der der Druckposition zugewiesene Wert ein Text, so wird dieser im Falle einer von der Buchwährung abweichenden Belegwährung unverändert ausgegeben.  
 Ist die Belegwährung jedoch die A.eins-Buchwährung, so wird die Druckposition unterdrückt.
 
-**FaxNummer aus Adresse in Zwischenablage  
-**Ist dieses Kennzeichen aktiviert und die Druckposition repräsentiert einen Adress-Block, so wird die in der Adresse (Anschrift) eingetragene Fax-Nummer in die Zwischenablage kopiert.  
+**FaxNummer aus Adresse in Zwischenablage**  
+Ist dieses Kennzeichen aktiviert und die Druckposition repräsentiert einen Adress-Block, so wird die in der Adresse (Anschrift) eingetragene Fax-Nummer in die Zwischenablage kopiert.  
 Dieses ist zum Beispiel dann notwendig, wenn der Druck als Fax mittels angeschlossener Fax-Software ausgeführt wird.
 
-**Nicht drucken, wenn Preise unterdrückt  
-**Ist dieses Kennzeichen aktiviert, so wird die Ausgabe der Druckposition unterdrückt, wenn in der zum aktuellen Formularbereich aktiven Positionszeile des Vorgangs das Preis-Unterdrückungskennzeichen gesetzt ist. Dieses kann zum Beispiel im Formularbereich 101 (Warenposition) der Fall sein, wenn es sich um eine Komponentenposition einer Handelsstückliste handelt, für die in der zugehörigen Rezeptur die Option ‚Preis-Unterdrückungskennzeichen setzen‘ gewählt wurde.
+**Nicht drucken, wenn Preise unterdrückt**  
+Ist dieses Kennzeichen aktiviert, so wird die Ausgabe der Druckposition unterdrückt, wenn in der zum aktuellen Formularbereich aktiven Positionszeile des Vorgangs das Preis-Unterdrückungskennzeichen gesetzt ist. Dieses kann zum Beispiel im Formularbereich 101 (Warenposition) der Fall sein, wenn es sich um eine Komponentenposition einer Handelsstückliste handelt, für die in der zugehörigen Rezeptur die Option ‚Preis-Unterdrückungskennzeichen setzen‘ gewählt wurde.
 
-**Nicht drucken, wenn Netto/Bruttowerte unterdrückt  
-**Ist dieses Kennzeichen aktiviert, so wird die Ausgabe der Druckposition unterdrückt, wenn in der zum aktuellen Formularbereich aktiven Positionszeile des Vorgangs das Netto-/Bruttowert-Unterdrückungskennzeichen gesetzt ist. Dieses kann zum Beispiel im Formularbereich 101 (Warenposition) der Fall sein, wenn es sich um eine Komponentenposition einer Handelsstückliste handelt, für die in der zugehörigen Rezeptur die Option ‚Netto-/Bruttowert-Unterdrückungskennzeichen setzen‘ gewählt wurde.
+**Nicht drucken, wenn Netto/Bruttowerte unterdrückt**  
+Ist dieses Kennzeichen aktiviert, so wird die Ausgabe der Druckposition unterdrückt, wenn in der zum aktuellen Formularbereich aktiven Positionszeile des Vorgangs das Netto-/Bruttowert-Unterdrückungskennzeichen gesetzt ist. Dieses kann zum Beispiel im Formularbereich 101 (Warenposition) der Fall sein, wenn es sich um eine Komponentenposition einer Handelsstückliste handelt, für die in der zugehörigen Rezeptur die Option ‚Netto-/Bruttowert-Unterdrückungskennzeichen setzen‘ gewählt wurde.
 
-**Bei LeerzeilenOptimierung berücksichtigen  
-**Ist dieses Kennzeichen aktiviert, so gilt die Druckposition dann als ‚leer‘, wenn der zugewiesene Wert, den dem datentypspezifischen Initialisierungswert entspricht, zum Beispiel ‚0‘ für Zahlentypen, Leerzeichen für Texte, ‚01.01.1901‘ für den Datumstyp.
+**Bei LeerzeilenOptimierung berücksichtigen**  
+Ist dieses Kennzeichen aktiviert, so gilt die Druckposition dann als ‚leer‘, wenn der zugewiesene Wert, den dem datentypspezifischen Initialisierungswert entspricht, zum Beispiel ‚0‘ für Zahlentypen, Leerzeichen für Texte, ‚01.01.1901‘ für den Datumstyp.
 
-**Werte in SH-Darstellung  
-**Ist dieses Kennzeichen aktiviert, so wird eine der Druckposition zugewiesene Zahl in Soll/Haben-Darstellung ausgegeben.
+**Werte in SH-Darstellung**  
+Ist dieses Kennzeichen aktiviert, so wird eine der Druckposition zugewiesene Zahl in Soll/Haben-Darstellung ausgegeben.
 
-**rechtsbündig drucken  
-**Ist dieses Kennzeichen aktiviert, so wird der der Druckposition zugeordnete Wert im eingerichteten Bereich rechtsbündig ausgegeben.
+**rechtsbündig drucken**  
+Ist dieses Kennzeichen aktiviert, so wird der der Druckposition zugeordnete Wert im eingerichteten Bereich rechtsbündig ausgegeben.
 
-**Druckposition nur ins Archiv  
-**Ist dieses Kennzeichen bei einer Druckposition aktiviert, so wird die Druckposition zwar mit archiviert, jedoch nicht physikalisch gedruckt.
+**Druckposition nur ins Archiv**  
+Ist dieses Kennzeichen bei einer Druckposition aktiviert, so wird die Druckposition zwar mit archiviert, jedoch nicht physikalisch gedruckt.
 
-**Positionsangabe ist rechts  
-**Ist dieses Kennzeichen aktiviert, so gibt die Spaltenangabe der Druckposition die letzte (am weitesten rechtsstehende) Spalte der Druckposition an. 
+**Positionsangabe ist rechts**  
+Ist dieses Kennzeichen aktiviert, so gibt die Spaltenangabe der Druckposition die letzte (am weitesten rechtsstehende) Spalte der Druckposition an. 
 
-**leeres Feld = Druckzeile löschen  
-**Ist dieses Kennzeichen aktiviert, so führt ein ‚leerer‘ Wert (siehe oben: <strong>Bei LeerzeilenOptimierung berücksichtigen)</strong> für die Druckposition dazu, dass die komplette Zeile nicht gedruckt wird. Diese Einstellung ist nur bei Druckbereichen wirksam, die im Positionsteil geduckt werden. Druckzeilen aus Kopf- oder Abschlussbereichen können nicht entfernt werden.
+**leeres Feld = Druckzeile löschen**  
+Ist dieses Kennzeichen aktiviert, so führt ein ‚leerer‘ Wert (siehe oben: <strong>Bei LeerzeilenOptimierung berücksichtigen)</strong> für die Druckposition dazu, dass die komplette Zeile nicht gedruckt wird. Diese Einstellung ist nur bei Druckbereichen wirksam, die im Positionsteil geduckt werden. Druckzeilen aus Kopf- oder Abschlussbereichen können nicht entfernt werden.
 
 HTML-Formatierung anwenden
 

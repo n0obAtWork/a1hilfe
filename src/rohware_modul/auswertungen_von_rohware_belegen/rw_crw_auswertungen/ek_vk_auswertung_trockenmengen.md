@@ -6,35 +6,37 @@ Direktsprung <strong>[LST]</strong> Variante <em>Rohwarenauswertungen</em><stron
 
 Der Report listet summarisch
 
-- **Anlieferungsmenge (Bruttomenge)  
-**Dieses ist die erfasste Liefermenge der Hauptwarenposition (Referenznummer 1) des Belegs 
+- **Anlieferungsmenge (Bruttomenge)**  
+Dieses ist die erfasste Liefermenge der Hauptwarenposition (Referenznummer 1) des Belegs 
 
-- **Getrocknete Menge  
-**Dieses ist die verbleibende Menge der Hauptwarenposition (Referenznummer 1) nach Anwendung der angegebenen Qualität zur Abrechnung der Feuchte, die durch eine der im Selektionsbereich angegebenen Qualitätstextnummern identifiziert wird
+- **Getrocknete Menge**  
+Dieses ist die verbleibende Menge der Hauptwarenposition (Referenznummer 1) nach Anwendung der angegebenen Qualität zur Abrechnung der Feuchte, die durch eine der im Selektionsbereich angegebenen Qualitätstextnummern identifiziert wird
 
-- **FINAL- Menge  
-**Dieses ist die bereits finalisierte Nettomenge der Hauptwarenposition (Referenznummer 1) nach Anwendung aller Qualitätsabrechnungen
+- **FINAL- Menge**  
+Dieses ist die bereits finalisierte Nettomenge der Hauptwarenposition (Referenznummer 1) nach Anwendung aller Qualitätsabrechnungen
 
-- **Trocknungskosten  
-**Dieses ist der Kostenbetrag der Kostenposition, die durch eine der im Selektionsbereich angegebenen Kostentextnummern identifiziert wird
+- **Trocknungskosten**  
+Dieses ist der Kostenbetrag der Kostenposition, die durch eine der im Selektionsbereich angegebenen Kostentextnummern identifiziert wird
 
 Die Sortierung und damit die Untersummenbildung ist im zugehörigen Selektionsbereich wählbar
 
-- **Artikelnummer-Lagernummer**Es wird für die selektierten Artikelnummern pro Lagernummer im selektierten Bereich eine Summenzeile und eine Summenzeile pro Artikel erzeugt
-- **Artikelnummer-Lagernummer-Vertretergruppe  
-**Zusätzlich zur vorhergehenden Variante wird je Vertretergruppe innerhalb der Artikel-Lager-Kombinationen eine Summenzeile erzeugt
+- **Artikelnummer-Lagernummer**  
+Es wird für die selektierten Artikelnummern pro Lagernummer im selektierten Bereich eine Summenzeile und eine Summenzeile pro Artikel erzeugt
 
-- **Lagernummer-Artikelnummer  
-**Es wird für die selektierten Lagernummern pro Artikelnummern im selektierten Bereich eine Summenzeile und eine Summenzeile pro Lagernummer erzeugt
+- **Artikelnummer-Lagernummer-Vertretergruppe**  
+Zusätzlich zur vorhergehenden Variante wird je Vertretergruppe innerhalb der Artikel-Lager-Kombinationen eine Summenzeile erzeugt
 
-- **Lagernummer-Artikelnummer-Vertretergruppe  
-**Zusätzlich zur vorhergehenden Variante wird je Vertretergruppe innerhalb der Lager-Artikel-Kombinationen eine Summenzeile erzeugt
+- **Lagernummer-Artikelnummer**  
+Es wird für die selektierten Lagernummern pro Artikelnummern im selektierten Bereich eine Summenzeile und eine Summenzeile pro Lagernummer erzeugt
 
-- **Vertretergruppe-Artikelnummer-Lagernummer  
-**Es wird für die selektierten Vertretergruppen jeweils für die selektierten Artikelnummern pro Lagernummer im selektierten Bereich eine Summenzeile sowie eine Summenzeile pro Artikel und letztendlich eine Summenzeile für die jeweilige Vertretergruppe erzeugt
+- **Lagernummer-Artikelnummer-Vertretergruppe**  
+Zusätzlich zur vorhergehenden Variante wird je Vertretergruppe innerhalb der Lager-Artikel-Kombinationen eine Summenzeile erzeugt
 
-- **Vertretergruppe-Lagernummer-Artikelnummer  
-**Es wird für die selektierten Vertretergruppen jeweils für die selektierten Lagernummern pro Artikelnummer im selektierten Bereich eine Summenzeile sowie eine Summenzeile pro Lager und letztendlich eine Summenzeile für die jeweilige Vertretergruppe erzeugt
+- **Vertretergruppe-Artikelnummer-Lagernummer**  
+Es wird für die selektierten Vertretergruppen jeweils für die selektierten Artikelnummern pro Lagernummer im selektierten Bereich eine Summenzeile sowie eine Summenzeile pro Artikel und letztendlich eine Summenzeile für die jeweilige Vertretergruppe erzeugt
+
+- **Vertretergruppe-Lagernummer-Artikelnummer**  
+Es wird für die selektierten Vertretergruppen jeweils für die selektierten Lagernummern pro Artikelnummer im selektierten Bereich eine Summenzeile sowie eine Summenzeile pro Lager und letztendlich eine Summenzeile für die jeweilige Vertretergruppe erzeugt
 
 Neben den üblichen Selektionskriterien kann der Auswertungsbereich durch die Angabe der kleinsten zu berücksichtigenden Abrechnungsstufe
 

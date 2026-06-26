@@ -18,11 +18,11 @@ Wird eine Belegnummer übergeben, wird diese in der Referenznummer (FiBuV_FremdN
     
 Im Feld **Name der Importdatei** muss der Dateiname der DATEV-Datei angegeben werden. Es wird davon ausgegangen, dass nicht die Steuerungsdatei, sondern die Datei mit den Buchungsdaten angegeben wird (zur Info: die Daten der DATEV bestehen jeweils aus einer Steuerdatei und einer bzw. mehreren Dateien mit Daten). Die Datei kann mit F3 ausgewählt werden. Pfad und Dateiname werden sich gemerkt und beim nächsten Aufruf erneut vorgeschlagen. Über den Dateinamen wird gleichzeitig das Format erkannt. Mögliche Formate/Dateinamen sind:
 
-- **DATEV-Format 3.0  
-**hierbei handelt es sich um eine Datei im CSV.Format. Die Standardreinrichtung für das DATEV-Format 3.0 ist vorgegeben, kann jedoch mit der Funktion „***Format 3.0 einrichten***“ **F10** individuell angepasst werden.
+- **DATEV-Format 3.0**  
+hierbei handelt es sich um eine Datei im CSV.Format. Die Standardreinrichtung für das DATEV-Format 3.0 ist vorgegeben, kann jedoch mit der Funktion „***Format 3.0 einrichten***“ **F10** individuell angepasst werden.
 
-**DATEV-Format mit Ordnungsbegriffserweiterung (OBE)  
-**Dateiformat DV01 – hierbei handelt es sich um die Steuerungsdatei, die Informationen zum Einlesen der Dateien DE001 bis DE0\*\* enthält. Jede dieser Datei kann Stammdaten oder Bewegungsdaten enthalten. Zum Import sind sowohl Steuerungs- als auch Datendateien notwendig.
+**DATEV-Format mit Ordnungsbegriffserweiterung (OBE)**  
+Dateiformat DV01 – hierbei handelt es sich um die Steuerungsdatei, die Informationen zum Einlesen der Dateien DE001 bis DE0\*\* enthält. Jede dieser Datei kann Stammdaten oder Bewegungsdaten enthalten. Zum Import sind sowohl Steuerungs- als auch Datendateien notwendig.
 
 **DATEV-Format mit Kontonummernerweiterung (KNE)**  
 Dateiformat EV01 – hierbei handelt es sich um die Steuerungsdatei, die Informationen zum Einlesen der Dateien ED00001 bis ED000\*\* enthält. Jede dieser Datei kann Stammdaten oder Bewegungsdaten enthalten. Zum Import sind sowohl Steuerungs- als auch Datendateien notwendig.

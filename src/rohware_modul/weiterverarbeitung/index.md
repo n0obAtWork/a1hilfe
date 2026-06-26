@@ -41,11 +41,11 @@ dieses erlaubt:
 **ohne** (gibt es nicht bei **Status Finale**):  
 Abschlag bzw. Folgeabschlag ist nicht vorgesehen, es kann zur Lieferung nur ein Finalbeleg erzeugt werden.
 
-**gesperrt:  
-**Der Beleg wird für diese Stufe erzeugt, kann aber erst abgerechnet werden, wenn er dafür per Korrektur freigegeben wird.
+**gesperrt:**  
+Der Beleg wird für diese Stufe erzeugt, kann aber erst abgerechnet werden, wenn er dafür per Korrektur freigegeben wird.
 
-**freigegeben:  
-** Der Beleg wird für diese Stufe erzeugt und kann auch ohne Korrektur abgerechnet werden.
+**freigegeben:**  
+ Der Beleg wird für diese Stufe erzeugt und kann auch ohne Korrektur abgerechnet werden.
 
 Es wird dabei immer sichergestellt, dass keine vorgesehene Abrechnungsstufe ausgelassen wird.  
 Soll zu einer Lieferung direkt ein Finalbeleg erstellt werden, so muss das Kennzeichen **Status Abschlag** mit dem Wert **ohne** belegt sein. Entsprechend muss das Kennzeichen **Status Folgeabschlag** mit dem Wert **ohne** belegt sein, wenn der Folgebeleg zur Abschlagabrechnung der Finalbeleg sein soll. Folgeabschlag-Belege können nur aus Abschlagbelegen erzeugt werden.

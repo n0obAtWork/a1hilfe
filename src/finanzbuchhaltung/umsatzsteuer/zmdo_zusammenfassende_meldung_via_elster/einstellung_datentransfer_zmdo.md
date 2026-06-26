@@ -41,7 +41,8 @@ Diese Möglichkeit erscheint dann, wenn eine Archiv-Lizenz vorliegt. Die Standar
 
 **Konfiguration des Proxy-Servers für die Datenübermittlung:**
 
-Sollte die Verbindung zum Internet über einen Proxyserver laufen, so können hier die Einstellungen vorgenommen werden. <strong>ACHTUNG: </strong><em>Die FIREWALL muss die Verbindung zulassen.<br></em>  
+Sollte die Verbindung zum Internet über einen Proxyserver laufen, so können hier die Einstellungen vorgenommen werden. <strong>ACHTUNG: </strong><em>Die FIREWALL muss die Verbindung zulassen.</em>  
+    
 Zur Unterstützung der Einrichtung von Elster stehen zwei PDF-Dateien auf dem Verzeichnis Dokumentation von A.eins:
 
 - KonfigurationProxy.pdf
@@ -50,5 +51,5 @@ Zur Unterstützung der Einrichtung von Elster stehen zwei PDF-Dateien auf dem Ve
 Die hier vorgenommenen Einstellungen für den Proxy-Server gelten auch für das Elster Modul zur Übertragung der Umsatzsteuervoranmeldung.  
     
 
-**Steuerparameter  
-**Es existiert ein [Steuerparameter](../../../firmenstamm/steuerparameter/optionen_finanzwesen/zmdo_mehrere_kunden_mit_gleicher_ustid_akzeptieren_spa_934.md) „ZMDO mehrere Kunden mit gleicher USTID akzeptieren“ (Nummer 934)
+**Steuerparameter**  
+Es existiert ein [Steuerparameter](../../../firmenstamm/steuerparameter/optionen_finanzwesen/zmdo_mehrere_kunden_mit_gleicher_ustid_akzeptieren_spa_934.md) „ZMDO mehrere Kunden mit gleicher USTID akzeptieren“ (Nummer 934)

@@ -24,13 +24,14 @@ Soll eine Rohwarengruppe oder ein Abrechnungsschema aus der Liste mit speziellen
 
 Die Änderbarkeit der Parameterwerte auf der Maske wird durch den Erfassungsparameter (EPA) ‚***Parameterwerte auf Hauptmaske***‘ mit folgenden Einstellungen festgelegt:
 
-- **Nur per Gültigkeitsaufruf erlaubt  
-**Der Parameterwerte können nur durch Aufruf der Funktion ‚***Gültigkeiten***‘ zum aktuell fokussierten Maskenfeld vorgenommen werden. Hier wird eine Liste mit allen Gültigkeiten und zugehörigen Werten dargestellt und kann bearbeitet werden.
+- **Nur per Gültigkeitsaufruf erlaubt**  
+Der Parameterwerte können nur durch Aufruf der Funktion ‚***Gültigkeiten***‘ zum aktuell fokussierten Maskenfeld vorgenommen werden. Hier wird eine Liste mit allen Gültigkeiten und zugehörigen Werten dargestellt und kann bearbeitet werden.
 
-- **Mit Tagesdatum als Gültigkeitsbeginn  
-**Bei dieser Einstellung können die Werte des Parameters direkt auf der Maske geändert werden, es wird jedoch, sofern die Gültigkeit des zu ändernden Wertes nicht mit dem aktuellen Tagesdatum beginnt, ein neuer Gültigkeitssatz zum aktuellen Datum mit dem neuen Wert erzeugt.
+- **Mit Tagesdatum als Gültigkeitsbeginn**  
+Bei dieser Einstellung können die Werte des Parameters direkt auf der Maske geändert werden, es wird jedoch, sofern die Gültigkeit des zu ändernden Wertes nicht mit dem aktuellen Tagesdatum beginnt, ein neuer Gültigkeitssatz zum aktuellen Datum mit dem neuen Wert erzeugt.
 
-- **immer erlaubt**Diese Einstellung bewirkt, dass ein Ändern eines Wertes auf der Hauptmaske die Gültigkeit des ursprünglichen Wertes erhält.
+- **immer erlaubt**  
+Diese Einstellung bewirkt, dass ein Ändern eines Wertes auf der Hauptmaske die Gültigkeit des ursprünglichen Wertes erhält.
 
   Werte mit Gültigkeitsbeginn ‚01.01.1901‘ können grundsätzlich nicht geändert werden, da diese die Grundeinstellungen des A.eins-Systems beinhalten.
 

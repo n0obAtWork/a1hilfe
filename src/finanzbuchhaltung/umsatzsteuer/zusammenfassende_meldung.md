@@ -16,8 +16,8 @@ Meldepflichtig sind alle Unternehmer, die Steuerfreie innergemeinschaftliche War
 
 <p class="just-emphasize">Was ist zu melden?</p>
 
-***Innergemeinschaftliche Warenlieferungen(§18a Abs. 4 Satz 1 Nr. 1 und 2 UStG)  
-*a )** Innergemeinschaftliche Lieferungen im Sinne §6a Abs. 1UStG mit Ausnahme neuer Fahrzeuge an Abnehmer ohne USt-IdNr.  
+***Innergemeinschaftliche Warenlieferungen(§18a Abs. 4 Satz 1 Nr. 1 und 2 UStG)*  
+a )** Innergemeinschaftliche Lieferungen im Sinne §6a Abs. 1UStG mit Ausnahme neuer Fahrzeuge an Abnehmer ohne USt-IdNr.  
 <strong>b )</strong> Innergemeinschaftliche Lieferungen gleichgestellter Verbringungen i.S.d. § 3 Abs. 1a i.V.m. § 6a Abs. 2 UStG..  
 Maßgeblich ist stets die umsatzsteuerliche Beurteilung des Vorgangs.
 

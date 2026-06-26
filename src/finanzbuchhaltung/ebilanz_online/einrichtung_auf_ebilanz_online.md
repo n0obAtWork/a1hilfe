@@ -13,8 +13,8 @@ Die Registrierung findet man oben rechts auf der Internetseite von eBilanz-Onlin
 
   Benutzer und Passwort werden später von A.eins abgefragt, wenn die Kontensalden übertragen werden sollen.
 
-  **2) Anlage eines Vorgangs  
-**Bei der Anlage des Vorgangs handelt es sich um die ersten Angaben, die für die eBilanz notwendig sind. Hierbei sind folgende Daten besonders Wichtig:
+  **2) Anlage eines Vorgangs**  
+Bei der Anlage des Vorgangs handelt es sich um die ersten Angaben, die für die eBilanz notwendig sind. Hierbei sind folgende Daten besonders Wichtig:
 
 - **Name** des Mandanten. Er wird später in A.eins bei der Übertragung der Kontosalden abgefragt. **Achtung:** *Groß- und Kleinschreibung beachten.*
 - <strong>Beginn und Ende.</strong> Dies ist der Zeitraum der an die Finanzverwaltung übertragen/offengelegt wird. In A.eins wird später die Periode abgefragt, bis zu der die Salden ermittelt werden sollen. Es muss daher Beginn mit dem Beginn des in A.eins eingerichteten Wirtschaftsjahres und Ende mit dem Periodenende der in A.eins ausgewählten Periode übereinstimmen.

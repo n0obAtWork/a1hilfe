@@ -4,11 +4,11 @@
 
 Es existieren folgende Finanzvorgänge (hier zieht der Steuerparameter Aut. Buchungen von Finanzvorgängen):
 
-a) **Einzahlung,  
-**d.h. es wird eingegeben, wie viel von welcher Zahlungsart in die Kasse gegeben wird; außerdem wird ein Eintrag in den Datenstrom (und über MS dann in die FiBu) erzeugt. In der vorgeschalteten Maske wird die Art der Einzahlung abgefragt: entweder sie kommt von einer Bank (Haben: Verrechnungskonto der zugehörigen Hausbank, Soll: Kassenkonto) oder von einem Kunden (Haben: Kundenkonto, Soll: Kassenkonto).
+a) **Einzahlung,**  
+d.h. es wird eingegeben, wie viel von welcher Zahlungsart in die Kasse gegeben wird; außerdem wird ein Eintrag in den Datenstrom (und über MS dann in die FiBu) erzeugt. In der vorgeschalteten Maske wird die Art der Einzahlung abgefragt: entweder sie kommt von einer Bank (Haben: Verrechnungskonto der zugehörigen Hausbank, Soll: Kassenkonto) oder von einem Kunden (Haben: Kundenkonto, Soll: Kassenkonto).
 
-b) **Auszahlung an Kunden,  
-**d.h. es wird eingegeben, wie viel von welcher Zahlungsart aus der Kasse genommen wird. Dabei muss sich das bargeldlose Zahlungsmittel auch in der Kasse befinden (Identifikation z.B. über Gutscheinnummer o.ä.). Ebenso muss auch genug Bargeld vorhanden sein, außerdem wird ein Eintrag in den Datenstrom (und über MS dann in die FiBu) erzeugt, wobei vorher der Kunde ausgewählt werden muss, an den ausgezahlt werden soll (Haben: Kassenkonto, Soll: Kundenkonto).
+b) **Auszahlung an Kunden,**  
+d.h. es wird eingegeben, wie viel von welcher Zahlungsart aus der Kasse genommen wird. Dabei muss sich das bargeldlose Zahlungsmittel auch in der Kasse befinden (Identifikation z.B. über Gutscheinnummer o.ä.). Ebenso muss auch genug Bargeld vorhanden sein, außerdem wird ein Eintrag in den Datenstrom (und über MS dann in die FiBu) erzeugt, wobei vorher der Kunde ausgewählt werden muss, an den ausgezahlt werden soll (Haben: Kassenkonto, Soll: Kundenkonto).
 
 c) **Entnahme mit Zuordnung Kostenkonto**  
 gemäß FIBU-Eintrag in AcashStmdKsse. Dabei ist das mit Werten aus AcashStmdKsse vorbelegte Verrechnungskonto auf diesem Fenster änderbar. (Haben: Kassenkonto, Soll: gewähltes Verrechnungskonto).  
@@ -23,14 +23,14 @@ Ausgewählte Kunden werden in anderen Kassen für Zahlungsmeldung gesperrt. Dies
 e) **Abschöpfung an Bank / Hauptkasse**  
 Dabei wird bei Nichthauptkassen von der zugehörigen Hauptkasse abgeschöpft (hier werden die an die Hauptkasse eingereichten Zahlungssätze und Zahlungsmittelsätze automatisch in AcashBelgKsiz – der Verwaltung der Kassenbestände – umgebucht; hierfür existiert eine Automatik beim Kassenabschluss, wenn ein zugehöriger SPA eingeschaltet ist); bei Hauptkassen wird an die Bank eingereicht, die in der Finanzvorgangsauswahlmaske angegeben worden ist. Dabei sollte man das entsprechende FIBU-Konto der entsprechenden Hausbank auswählen. Wenn die Kasse Hauptkasse ist, wird an die Bank eingereicht (Haben: Kassenkonto, Soll: Verrechnungskonto der Bank). Ist diese Kasse Unterkasse, wird an die zugehörige Hauptkasse eingereicht (Haben: Kassenkonto der Unterkasse, Soll: Kassenkonto der Hauptkasse). Zur Durchführung der Einreichung wurde ein eigener Dialog erstellt. Die [Eingabemaske Einreichung](../abschoepfung_einreichung_an_bank_zugehoerige_hauptkasse.md).
 
-f) **Wechseln von Bargeld  
-**Dabei muss der Bediener zuerst die Einzahlungsart (F11 für Kassenwährung Bargeldwechsel, F2 für Barauszahlung eines Scheck, F6 für Barauszahlung eines Gutscheines, F12 für KW-Ausgabe eines Fremdwährungsbetrages) eingeben. Dann wird automatisch verrechnet und der in KW zurückzuerstattende Bargeldbetrag steht unter Rückgeld. (Soll: Kassenkonto, Haben: Kassenkonto)
+f) **Wechseln von Bargeld**  
+Dabei muss der Bediener zuerst die Einzahlungsart (F11 für Kassenwährung Bargeldwechsel, F2 für Barauszahlung eines Scheck, F6 für Barauszahlung eines Gutscheines, F12 für KW-Ausgabe eines Fremdwährungsbetrages) eingeben. Dann wird automatisch verrechnet und der in KW zurückzuerstattende Bargeldbetrag steht unter Rückgeld. (Soll: Kassenkonto, Haben: Kassenkonto)
 
 g) **Geldübergabe an andere Kasse**  
 auf der Finanzvorgangsauswahlmaske wird die Zielkasse angegeben; die Bestände werden gleichzeitig gegengerechnet. Diese Funktionalität ist wichtig, wenn eine Kasse nicht genug Bargeld besitzt. Um den Bestand zu erhöhen, ohne dass etwaige erfasste Artikel storniert werden müssen, führt eine Kasse eine Geldübergabe an diejenige Kasse durch, die zu wenig Bargeld besitzt. Es wird ein Eintrag in den Datenstrom (und über MS dann in die FiBu) erzeugt und wie folgt gebucht. (Haben: Kassenkonto, Soll: Kassenkonto der Gegenkasse)
 
-h) **Geldübernahme von Kasse  
-**auf der Finanzvorgangsauswahlmaske wird die Entnahmekasse angegeben, die Bestände werden gleichzeitig gegengerechnet. Es wird ein Eintrag in den Datenstrom (und über MS dann in die FiBu) erzeugt und wie folgt gebucht. (Haben: Kassenkonto der Gegenkasse, Soll: Kassenkonto)
+h) **Geldübernahme von Kasse**  
+auf der Finanzvorgangsauswahlmaske wird die Entnahmekasse angegeben, die Bestände werden gleichzeitig gegengerechnet. Es wird ein Eintrag in den Datenstrom (und über MS dann in die FiBu) erzeugt und wie folgt gebucht. (Haben: Kassenkonto der Gegenkasse, Soll: Kassenkonto)
 
 i) **Kassensturz (ohne Abschluss)**  
 Man kann eine Geldzählung durchführen, ohne dass die Kasse abgeschlossen werden muss

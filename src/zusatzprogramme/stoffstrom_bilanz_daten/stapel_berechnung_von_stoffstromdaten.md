@@ -7,5 +7,5 @@ Die Auswahllistenvariante <em>‚Stoffstrom-Positionen‘</em> des Moduls <em>�
     
 ![](../../ImagesExt/image8_1249.jpg)  
     
-Das Berechnungsverfahren entspricht dem des im [Stoffstromdaten-Editor](./editieren_von_stoffstromdaten.md) genutzten Berechnungsverfahrens, insbesondere unter Berücksichtigung der jeweiligen Einstellung des Merkmals *‚Herkunft der Werte‘.  
-*Bei Auslösen der Funktion durch Betätigen des Buttons **Stoffstrom-Daten neu berechnen** wird die Berechnungsfunktion für alle ausgewählten Vorgangspositionen durchgeführt. Wurden in den zugehörigen Artikelstamm-Zusammensetzungen Stoffstrom-Bestandteile hinzugefügt, die in einer betroffenen Vorgangsposition noch nicht enthalten ist, so werden diese mit dieser Funktion automatisch nachgetragen und berechnet.
+Das Berechnungsverfahren entspricht dem des im [Stoffstromdaten-Editor](./editieren_von_stoffstromdaten.md) genutzten Berechnungsverfahrens, insbesondere unter Berücksichtigung der jeweiligen Einstellung des Merkmals *‚Herkunft der Werte‘.*  
+Bei Auslösen der Funktion durch Betätigen des Buttons **Stoffstrom-Daten neu berechnen** wird die Berechnungsfunktion für alle ausgewählten Vorgangspositionen durchgeführt. Wurden in den zugehörigen Artikelstamm-Zusammensetzungen Stoffstrom-Bestandteile hinzugefügt, die in einer betroffenen Vorgangsposition noch nicht enthalten ist, so werden diese mit dieser Funktion automatisch nachgetragen und berechnet.

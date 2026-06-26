@@ -162,7 +162,8 @@ end;</code></pre>
                 <td>
                   <b>Nur für die</b>
                   <a href="../f3_auswahl_2_0_itembox/index.md"><b>F3-Auswahl 2.0</b></a>
-                  <b>.<br></b>
+                  <b>.</b>
+                  <br>
                   Dort wird die Spaltenbreite dynamisch berechnet, und zwar anhand der Breite der Überschrift, der maximal Anzahl Zeichen der Sichtbaren Zeilen und der unter 4) angegebene Breite der Spalte(s.o.). Die Breite ist dabei die maximal angezeigte Breite und MINWIDTH ist die Breite in Zeichen, die nicht unterschritten werden soll.
                   <br>
                   <br>

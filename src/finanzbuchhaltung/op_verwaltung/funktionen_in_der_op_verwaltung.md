@@ -28,8 +28,8 @@ Die Skonto- und Valutadaten eines OP können verändert werden. Nach Auswahl des
 
 Die Eingabe von Skontobetrag oder -satz löst eine Berechnung des Skontosatzes bzw. Skontobetrages aus. Die Zahlungsbedingung kann eingetragen werden und Skonto- sowie Valutadatum überschrieben werden.
 
-**HINWEIS:** *Das Valutadatum ist nicht änderbar, wenn der Beleg bereits zur Zinsberechnung herangezogen wurde. Es erscheint dann ein Hinweis auf der Maske:  
-*![Ein Bild, das Text enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_596.png "Ein Bild, das Text enthält. Automatisch generierte Beschreibung")
+**HINWEIS:** *Das Valutadatum ist nicht änderbar, wenn der Beleg bereits zur Zinsberechnung herangezogen wurde. Es erscheint dann ein Hinweis auf der Maske:*  
+![Ein Bild, das Text enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_596.png "Ein Bild, das Text enthält. Automatisch generierte Beschreibung")
 
 Dann wird noch ggf. bei Änderung des Valutadatums geprüft, ob der Beleg sich bereits in einer Mahnliste befindet. Wie reagiert werden soll kann per Einrichterparameter eingestellt werden. Es stehen folgende Einstellungen zur Auswahl:
 

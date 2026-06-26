@@ -34,7 +34,7 @@ Der Betriebsprüfer könnte bei der Prüfung nach den Dateien fragen.
 
 Weitere Informationen zum DSFinV-K Export finden Sie unter: [DSFinVK_Export](../../DSFinVK_Export)
 
-DSFinV-K Export erzeugen
+<p class="just-emphasize">DSFinV-K Export erzeugen</p>
 
 1. Zum Direktsprung **[KSVO]** navigieren.
 
@@ -42,7 +42,7 @@ DSFinV-K Export erzeugen
 
 3. Dateien speichern/ablegen.
 
-TAR-Export erzeugen
+<p class="just-emphasize">TAR-Export erzeugen</p>
 
 1. Zum Direktsprung **[KSVO]** navigieren.
 
@@ -60,7 +60,7 @@ TAR-Export erzeugen
 
 4. Mit der Funktion ***Export TAR*** die Dateien exportieren.
 
-A.Eins beenden
+<p class="just-emphasize">A.Eins beenden</p>
 
 1. A.Eins Client beenden.
 

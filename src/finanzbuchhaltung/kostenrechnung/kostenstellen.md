@@ -63,11 +63,11 @@ tatsächlich gelöscht werden soll. Bei Verwendung in nicht gelöschten Verteilk
 
 Wurden diese Tests durchlaufen, wird die Kostenstelle als gelöschte Kostenstelle gekennzeichnet. Alle so gekennzeichneten Kostenstellen finden sich in der Variante „Gelöschte...“ wieder. Dort stehen dann – nachdem man eine Kostenstelle markiert hat – zwei Funktionen zur Verfügung.
 
-- ***Wiederherstellen*  
-**Hier öffnet sich dann die Maske mit den Daten der Kostenstelle und nach erneutem **F7** wird die Kostenstelle wieder als nicht gelöscht gekennzeichnet.
+- ***Wiederherstellen***  
+Hier öffnet sich dann die Maske mit den Daten der Kostenstelle und nach erneutem **F7** wird die Kostenstelle wieder als nicht gelöscht gekennzeichnet.
 
-- ***endgültig löschen*  
-**Die Kostenstelle wird ohne weitere Prüfung physikalisch gelöscht. Bei bereits bebuchten Kostenstellen führt dies auch dazu, dass sie nicht mehr auf Auswertungen erscheinen.
+- ***endgültig löschen***  
+Die Kostenstelle wird ohne weitere Prüfung physikalisch gelöscht. Bei bereits bebuchten Kostenstellen führt dies auch dazu, dass sie nicht mehr auf Auswertungen erscheinen.
 
 <p class="just-emphasize">Erfassung der Planzahlen</p>
 

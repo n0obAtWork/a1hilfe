@@ -29,8 +29,8 @@ Bereits erfasste oder aus der Warenwirtschaft übertragene Belege können wieder
 2. Bestimmte automatisch erstellte Belege dürfen nicht gelöscht werden. Zu diesen Belegen gehören Skontobuchungen und Kursdifferenzen. Es erscheint dann die Meldung:
 
     
-**„Kursdifferenzbuchung &lt;Belegnummer> kann nicht gelöscht werden!“  
-**bzw.  
+**„Kursdifferenzbuchung &lt;Belegnummer> kann nicht gelöscht werden!“**  
+bzw.  
 **„Skontobuchung &lt; Belegnummer> kann nicht gelöscht werden!“**
 
 Wenn diese Belege falsch sind, so muss die Auszifferung zurückgesetzt werden. Die Belege werden dann automatisch gelöscht bzw. wenn sie schon gebucht waren, werden automatisch Stornobelege erstellt.

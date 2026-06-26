@@ -2,7 +2,7 @@
 
 <!-- source: https://amic.de/hilfe/_mailserviceeinrichten.htm -->
 
-Service einrichten für den A.eins Mailversand
+<p class="just-emphasize">Service einrichten für den A.eins Mailversand</p>
 
 Mit Hilfe des Steuerparameters „SPA 1019 Mailversand per“ kann der Mailversand über „Datenbank“ oder „Dienst oder Exe“ ausgewählt werden. Zum Versenden der Emails per Service ist hier „Dienst oder Exe“ auszuwählen.
 

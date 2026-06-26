@@ -29,7 +29,7 @@ Im [Mahnformular](./mahnungen_ueber_mahnformulare_drucken.md) stehen in den Bere
 
 <strong>HINWEIS: </strong><em>Steht in der Mahngruppe<strong> </strong>die Option „Zinsgutschrift zulassen“ auf <strong>Nein </strong>und<strong> </strong>ist der<strong> </strong>Zinssaldo negativ - also eine Gutschrift – werden alle folgenden Felder mit 0 ausgewiesen.</em>
 
-Die Bereiche 301,303,305,306
+<p class="just-emphasize">Die Bereiche 301,303,305,306</p>
 
 | Bezeichnung | Typ | Nr | Beschreibung |
 | --- | --- | --- | --- |
@@ -43,7 +43,7 @@ Die Bereiche 301,303,305,306
 | GesamtMahnZinsen | Numerisch | 4 | Zinsen |
 | GesamtMahnSumme | Numerisch | 4 | GesamtMahnBetrag+Zinsen+Gebühr |
 
-Bereich 304 Mahnposition
+<p class="just-emphasize">Bereich 304 Mahnposition</p>
 
 | Bezeichnung | Typ | Nr | Beschreibung |
 | --- | --- | --- | --- |
@@ -52,13 +52,13 @@ Bereich 304 Mahnposition
 | MahnPosZinsSatz | Numerisch | 4 | Mit welchem Satz wurden die Zinsen berechnet |
 | MahnPosZinsTage | Numerisch | 4 | Mit wie viel Tagen wurden gerechnet |
 
-Bereich 307 Mahnsummenzeile
+<p class="just-emphasize">Bereich 307 Mahnsummenzeile</p>
 
 | Bezeichnung | Typ | Nr | Beschreibung |
 | --- | --- | --- | --- |
 | MahnPosZinsen | Numerisch | 4 | Summe aller mahnbare Zinsen dieser Mahnstufe |
 
-Bereich 309 Mahnsummenfuß
+<p class="just-emphasize">Bereich 309 Mahnsummenfuß</p>
 
 | Bezeichnung | Typ | Nr | Beschreibung |
 | --- | --- | --- | --- |

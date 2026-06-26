@@ -78,8 +78,8 @@ Wobei nnn eine beliebige Zahl ist. DBERR ist der von SYBASE zurückgelieferte Fe
 **INDEX(index-name)**  
 Wenn der Index mit diesem Namen existiert ==> TRUE.
 
-**VAL(maskenfeld)==Wert  
-**Wenn ein Maskenfeld oder LDB-Feld einen bestimmten Wert annimmt==> TRUE. Mögliche Vergleichsoperatoren sind : ==, >=, &lt;=, &lt;> oder !=, >, &lt;.
+**VAL(maskenfeld)==Wert**  
+Wenn ein Maskenfeld oder LDB-Feld einen bestimmten Wert annimmt==> TRUE. Mögliche Vergleichsoperatoren sind : ==, >=, &lt;=, &lt;> oder !=, >, &lt;.
 
 <p class="just-emphasize">Beispiel</p>
 

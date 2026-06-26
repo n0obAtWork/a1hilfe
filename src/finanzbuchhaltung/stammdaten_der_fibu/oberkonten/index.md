@@ -28,7 +28,8 @@ In dem Erfassungsbildschirm können die nachfolgenden Felder bearbeitet werden:
 | Auswertungsposition A-C | In den drei Feldern **"Auswertungsposition"** können frei vorgebbare Selektionsmerkmale eingetragen werden. Auf sie kann für Auswertungszwecke zugegriffen werden. Über **F3** kann die Liste der (vom Anwender) voreingestellten Auswertungspositionen abgerufen werden.<br><br> |
 | Kennzahl für externe Auswertungen | Weitere frei definierbare Kennzahl bzw. Auswertungsposition. Sie wird von A.eins nicht verwendet. Über **F3** kann auf die die Liste der (vom Anwender) voreingestellten Auswertungspositionen zugegriffen werden.<br><br> |
 
-<strong>Anmerkung:<br></strong><em>Hier soll noch einmal ausdrücklich darauf hingewiesen werden, dass nicht umgebucht wird. Es werden lediglich zu Auswertungszwecken Daten <strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif">"verteilt"</span></strong>. Die Buchhaltung wird also nicht beeinflusst. Um jedoch in den Auswertungen einen logischen Datenfluss sicherzustellen, sollte der Umgang mit dem Instrument <strong><span style="FONT-FAMILY: &quot;Arial&quot;,sans-serif">"Verteilung"</span></strong> sorgfältig geplant werden.</em>
+**Anmerkung:**  
+*Hier soll noch einmal ausdrücklich darauf hingewiesen werden, dass nicht umgebucht wird. Es werden lediglich zu Auswertungszwecken Daten **"verteilt"**. Die Buchhaltung wird also nicht beeinflusst. Um jedoch in den Auswertungen einen logischen Datenfluss sicherzustellen, sollte der Umgang mit dem Instrument **"Verteilung"** sorgfältig geplant werden.*
 
 ADDON
 

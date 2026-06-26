@@ -9,7 +9,7 @@ Hauptmenü > Barvorgänge > TSE Pflegen
 
 Direktsprung **[TSE]**
 
-TSE-Stick aktivieren
+<p class="just-emphasize">TSE-Stick aktivieren</p>
 
 Um die TSE hinzufügen, wie folgt vorgehen:
 
@@ -42,7 +42,7 @@ Hauptmenü > Barvorgänge > Kassenverwaltung
 
 Direktsprung: **[KA]**
 
-TSE einer Kasse ändern
+<p class="just-emphasize">TSE einer Kasse ändern</p>
 
 ![Ein Bild, das Text, Screenshot, Display, Software enthält. KI-generierte Inhalte können fehlerhaft sein.](../../../ImagesExt/image8_484.jpg "Ein Bild, das Text, Screenshot, Display, Software enthält. KI-generierte Inhalte können fehlerhaft sein.")
 

@@ -30,7 +30,7 @@ Neben den hier beschriebenen Feldern stehen zusätzlich alle Felder aus dem [Bas
   select
     'Auftragsvolumen' as Header,
     trim(AMIC_FSTR(sum(WaBewWert), 20, 2)) as Text,
-    'center' as Textalign
+'center' as Textalign
     'vom 01.01.'|| year(today(*)) || ' bis heute'  as Footer,
     '255/255/255' as color,
     'solid' as borderstyle,

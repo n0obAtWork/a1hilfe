@@ -15,44 +15,44 @@ Dieser Report listet für die spezifizierten Selektionsbereiche für eine Rohwar
 - **Bruttomenge 1**  
 Liefermenge der Hauptwarenposition
 
-- **Trockenmenge  
-**verbleibende Menge nach Anwendung der angegebenen Qualität zur Abrechnung der Feuchte
+- **Trockenmenge**  
+verbleibende Menge nach Anwendung der angegebenen Qualität zur Abrechnung der Feuchte
 
-- **Nettomenge 1  
-**Nettomenge der Hauptwarenposition
+- **Nettomenge 1**  
+Nettomenge der Hauptwarenposition
 
-- **Anfangspreis 1  
-**Preis der Hauptwarenposition ohne berechnete Qualitätszu-/-abschläge
+- **Anfangspreis 1**  
+Preis der Hauptwarenposition ohne berechnete Qualitätszu-/-abschläge
 
-- **Endpreis 1  
-**Preis der Hauptwarenposition nach Qualitätsabrechnung
+- **Endpreis 1**  
+Preis der Hauptwarenposition nach Qualitätsabrechnung
 
 - **Bruttomenge 2**  
 Liefermenge der per Referenznummer angegeben Sekundärwarenposition
 
-- **Nettomenge 2  
-**Nettomenge der per Referenznummer angegeben Sekundärwarenposition
+- **Nettomenge 2**  
+Nettomenge der per Referenznummer angegeben Sekundärwarenposition
 
-- **Anfangspreis 2  
-**Preis der per Referenznummer angegeben Sekundärwarenposition ohne berechnete Qualitätszu-/-abschläge
+- **Anfangspreis 2**  
+Preis der per Referenznummer angegeben Sekundärwarenposition ohne berechnete Qualitätszu-/-abschläge
 
-- **Endpreis 2  
-**Preis der per Referenznummer angegeben Sekundärwarenposition nach Qualitätsabrechnung
+- **Endpreis 2**  
+Preis der per Referenznummer angegeben Sekundärwarenposition nach Qualitätsabrechnung
 
-- **Feucht %  
-**Analysewert der per Referenznummer angegeben Qualität zur Feuchtigkeitsabrechnung
+- **Feucht %**  
+Analysewert der per Referenznummer angegeben Qualität zur Feuchtigkeitsabrechnung
 
-- **[Q2-Text]  
-**Analysewert der per Referenznummer angegeben 2. Qualität, überschrieben mit dem unter Q2-Text des Auswahlbereichs angegebenen Text
+- **[Q2-Text]**  
+Analysewert der per Referenznummer angegeben 2. Qualität, überschrieben mit dem unter Q2-Text des Auswahlbereichs angegebenen Text
 
-- **Abs-Betrag  
-**Brutto-Abschlagbetrag des Belegs
+- **Abs-Betrag**  
+Brutto-Abschlagbetrag des Belegs
 
-- **End-Betrag  
-**rechnerischer Brutto-Endbetrag des Belegs
+- **End-Betrag**  
+rechnerischer Brutto-Endbetrag des Belegs
 
-- **Rest  
-**rechnerischer Brutto-Restbetrag des Belegs
+- **Rest**  
+rechnerischer Brutto-Restbetrag des Belegs
 
 Sortiert sind die Belege nach Artikelnummer, Kunde/Lieferant, Kontrakt, Liefernummer mit Untersummen für Kunden/Lieferanten und Kontrakten.
 

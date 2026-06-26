@@ -226,7 +226,7 @@ Folgende Variablen sind in allen Teilen (Kopf, Folgekopf, Fuß und Abschluss) ve
 | ID_KKD_SOLLVJPER | SollVjPer | Numerisch | 4 | Soll des Vorjahres in Abhängigkeit der Periode |
 | ID_KKD_VONPERIODE | vonPeriode | Numerisch | 4 | Von Periode |
 
-Formularbereich 605 . Folgetexte
+<p class="just-emphasize">Formularbereich 605 . Folgetexte</p>
 
 | ID | Bezeichnung | Typ | Nummer | Bedeutung |
 | --- | --- | --- | --- | --- |

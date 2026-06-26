@@ -11,7 +11,7 @@ Es können mehrere Listenpreisdefinitionen angegeben werden und jeder Preisdefin
 Zur jeweils aktuellen Listenpreisdefinitionszeile in der oberen Tabelle wird die Zuordnung der Preisklassen in der unteren Tabelle vorgenommen.  
 Die Reihenfolge der [Listenpreisdefinitionen](./definition_von_listenpreisen.md) einer Preismatrix bestimmt auch deren Reihenfolge im [Listenpreispfleger](../../artikelstamm_und_artikel/artikel/listenpreise_verkauf_und_einkauf.md). Diese Reihenfolge kann zu jeder Zeit durch Änderung der Sortierungsnummer angepasst werden.
 
-Tabelle Listenpreise
+<p class="just-emphasize">Tabelle Listenpreise</p>
 
 | Spaltenname | Bedeutung |
 | --- | --- |
@@ -23,7 +23,7 @@ Tabelle Listenpreise
 | Abweichende Steuergruppe | Nummer und Name der abweichenden Steuergruppe der Listenpreisdefinition |
 | Klasse | Auflistung der zugeordneten Preisklassen der Listenpreisdefinition |
 
-Tabelle zugeordnete Preisklassen zur aktiven Listenpreisdefinition
+<p class="just-emphasize">Tabelle zugeordnete Preisklassen zur aktiven Listenpreisdefinition</p>
 
 | Spaltenname | Spaltenname |
 | --- | --- |

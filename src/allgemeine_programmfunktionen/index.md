@@ -4,7 +4,7 @@
 
 Letzter Hilfebau : 12.06.2026 17:11:31
 
-Systemvoraussetzungen für A.eins:
+<p class="just-emphasize">Systemvoraussetzungen für A.eins:</p>
 
 - Client: Alle von Microsoft supporteten Betriebssysteme.
   - Windows **11 Pro / Enterprise** (23H2 und 24H2) ist freigegeben.

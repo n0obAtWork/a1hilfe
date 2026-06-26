@@ -92,7 +92,8 @@ Es existieren dabei vier Ausprägungen:
 - ***Bemerkungstexte*:** Es können zu Belegen Bemerkungen erfasst werden, die auf allen OP-Listen und auf der Mahnvorschlagsliste angezeigt werden können (per **F2**\-Auswahl einzustellen). Sind zu einem Beleg Bemerkungstexte erfasst erscheinen sie auch auf der Einzelbeleganzeige. Für den Beleg oben wurde „Diese Gutschrift nicht verrechnen.“ erfasst.
 - ***Referenznummer ändern:*** Mithilfe dieser Funktion kann die Referenznummer geändert werden. Nach dem Ändern der Referenznummer erscheint beim Betätigen der **ESC**\-Taste oder beim Verlassen des Feldes eine Speicherabfrage.
 - <strong>Archivreferenz ändern:</strong> Mithilfe dieser Funktion kann die Archivreferenz (Paginiernummer) geändert werden. Nach dem Ändern der Archivreferenz erscheint beim Betätigen der **ESC**\-Taste oder beim Verlassen des Feldes eine Speicherabfrage.
-- ***OP Info*:** Zu der Belegzeile werden die OP-Informationen - soweit vorhanden – angezeigt und können geändert werden. Diese Funktion erscheint nur, wenn es sich bei der Position des Beleges auch um einen offenen Posten handelt.![Ein Bild, das Text enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_605.png "Ein Bild, das Text enthält. Automatisch generierte Beschreibung")
+- ***OP Info*:** Zu der Belegzeile werden die OP-Informationen - soweit vorhanden – angezeigt und können geändert werden. Diese Funktion erscheint nur, wenn es sich bei der Position des Beleges auch um einen offenen Posten handelt.  
+![Ein Bild, das Text enthält. Automatisch generierte Beschreibung](../../ImagesExt/image8_605.png "Ein Bild, das Text enthält. Automatisch generierte Beschreibung")
 
   Hier lassen sich auch einige Werte ändert:
 

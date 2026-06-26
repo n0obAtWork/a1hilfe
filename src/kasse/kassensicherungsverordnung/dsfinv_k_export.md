@@ -4,7 +4,7 @@
 
 Hauptmenü > Barvorgänge > Stammdaten > DSFinV-K Export
 
-Allgemein
+<p class="just-emphasize">Allgemein</p>
 
 DSFinV-K ist die Digitale Schnittstelle der Finanzverwaltung für Kassensysteme.
 
@@ -12,7 +12,7 @@ Dies ist die Taxonomie, nach der die Transaktionsdaten der Kassen und Aufzeichnu
 
 Der Steuerpflichtige muss einen DSFinV-K Export jederzeit für eine Prüfung durch die Finanzbehörde zur Verfügung stellen. Der DSFinV-K Export knüpft an den GoBD-Export an, ist jedoch einheitlich strukturiert und deutlich umfangreicher. Der GoBD-Export reicht also ab dem 1.1.2020 nicht mehr aus, um die steuerlichen Anforderungen zu erfüllen.
 
-Ziele der DSFinV-K
+<p class="just-emphasize">Ziele der DSFinV-K</p>
 
 Ziel der Standardisierung ist die Definition einer Struktur für Daten aus Kassensystemen, für die ab dem 01.01.2020 die Nutzung der gesetzlich geforderten einheitlichen digitalen Schnittstelle (§ 146a Abs. 1 S. 4 AO) gilt. Durch die Standardisierung sollen folgende Ziele abgedeckt werden:
 

@@ -20,7 +20,7 @@ Je nach Einstellung der Gruppe werden unterschiedliche Verweise auf Kunden im Ar
 
 <p class="just-emphasize">Keine Gruppe</p>
 
-Wird in den Feldern nichts angegeben wird der Report ohne einen Bezug zu einem Kunden bzw. Datum im Archiv gespeichert. Will man die Zuordnung zu Kontonummer, Belegnummer und Belegdatum im Archiv herstellen, so müssen die folgenden Felder belegt werden.
+Wird in den Feldern nichts angegeben wird der Report ohne einen Bezug zu einem Kunden bzw. Datum im Archiv gespeichert. Will man die Zuordnung zu Kontonummer, Belegnummer und Belegdatum im Archiv herstellen, so müssen die folgenden Felder belegt werden.  
 
 Um einen Report zu archivieren, der eigentlich die Daten mehrerer Konten enthält, muss er für das Archiv getrennt werden. Intern wird der Report dann noch einmal, jedoch diesmal pro angesprochenem Konto bzw. Beleg erzeugt. Das Feld „Select für Archivtrennung“ ist dann für die äußere Schleife zuständig.
 

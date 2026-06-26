@@ -479,7 +479,7 @@ In diesem Register können Ausnahmen für die Ansicht einer spezifischen Auswahl
 
 | Funktionen | Beschreibung |
 | --- | --- |
-| Speichern **(F9)**,<br>Neu **(F8)**,<br>Speichern unter **(shift + F9)<br><br>** | |
+| Speichern **(F9)**,<br>Neu **(F8)**,<br>Speichern unter **(shift + F9)<br>**<br> | |
 | Kundenindiv. SQL Anpassung | [Kundenindiviuelle SQL Anpassung](./bedienerstamm_pfleger.md#KundenindiSQL)<br><br> |
 | Anschrift | Ruft den Anschriftenpfleger für diesen Bediener auf.<br> |
 | Bediener aktivieren | Setzt den Status auf aktiv. Nur möglich, wenn der Status auf inaktiv steht.<br> |

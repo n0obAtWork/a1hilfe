@@ -4,8 +4,8 @@
 
 Das Duale System ist eine privatwirtschaftliche Initiative, welche die Produktverantwortung im Bereich der Verkaufsverpackungen wahrnimmt. Der Begriff "dual" steht für ein zweites, zur kommunalen Abfallentsorgung hinzukommendes System. Denn die Verpackungsverordnung fordert, dass die Verwertung von Verkaufsverpackungen über ein flächendeckendes "duales" System organisiert werden soll. Das Kreislaufwirtschaftsgesetz von 1994 überträgt auch in anderen Wirtschaftsbereichen der privaten Entsorgungswirtschaft die Verantwortung für "Abfälle zur Verwertung", während die kommunalwirtschaftliche Restmüllentsorgung für "Abfälle zur Beseitigung" durch Deponieren und Verbrennen verantwortlich ist.
 
-**Grüner Punkt  
-**Der Grüne Punkt ist das Lizenzzeichen der Gesellschaft Duales System Deutschland (DSD). Das Zeichen dokumentiert, dass die Verpackung, auf der es abgebildet ist, laut Hersteller wieder verwertbar ist. Der Grüne Punkt sagt nichts über die Umweltfreundlichkeit der Verpackung aus.
+**Grüner Punkt**  
+Der Grüne Punkt ist das Lizenzzeichen der Gesellschaft Duales System Deutschland (DSD). Das Zeichen dokumentiert, dass die Verpackung, auf der es abgebildet ist, laut Hersteller wieder verwertbar ist. Der Grüne Punkt sagt nichts über die Umweltfreundlichkeit der Verpackung aus.
 
 Um nun mit Hilfe von A.eins die Anforderungen zu erfüllen, die an ein Wirtschaftsunternehmen gestellt werden sind in den folgenden Bereichen Eintragungen notwendig:
 

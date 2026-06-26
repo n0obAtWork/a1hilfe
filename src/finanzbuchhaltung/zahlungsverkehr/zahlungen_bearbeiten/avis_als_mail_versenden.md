@@ -17,8 +17,7 @@ Um die Avise direkt per Mail zu versenden müssen folgen Voraussetzungen gegeben
 - Zur Steuerung des Mailbodys für die eigentliche Mail kann entweder ein HTML-Formular oder eine [Datenbankfunktion](../stammdaten_zahlungsverkehr/zahlungsart.md#ZahlArtMailVersand), die den HTML-Aufbau übernimmt, verwendet werden. In dem Formular müssen HTML-Tags für die Formatierung verwendet werden. Hier existiert ein Formular mit der Nummer -1100, das so wie es ist verwendet werden kann oder als Vorlage benutzt werden kann. In diesem Formular stehen alle Felder und Bereiche der Standard Avis zur Verfügung. Zusätzlich existiert ein Bereich „AVIS Betreffzeile“, in dem man die Betreff-Zeile der Mail einrichten kann. Ist kein Formular und keine Datenbankfunktion hinterlegt, so erscheint als Betreff und als Mailinhalt lediglich der Text „Avis“.  
     
 **HINWEIS:** *Um Grafiken in das Formular mit einzubinden, kann man den bekannten HTML-Syntax &lt;img src="cid:XXXXXX" alt="mein bild" /> verwenden. Für XXXXXX muss die GUID aus dem Formulararchiv, in dem die Grafik hinterlegt sein muss, angegeben werden.  
-    
-*
+*  
 
 - Ist das Versandprofil nicht eingerichtet, wird für alle Personenkonten mit dieser Zahlungsart kein Mailversand durchgeführt.  
     

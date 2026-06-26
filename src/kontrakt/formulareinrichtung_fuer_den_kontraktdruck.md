@@ -155,7 +155,7 @@ Da der Kontraktdruck eine sehr viel allgemeinere Formularverwaltung verwendet al
 
 Zusätzlich lassen sich hier auch die [Rohwarepreise](./formulareinrichtung_fuer_den_kontraktdruck.md#formular_rohwarepreise) einrichten.
 
-In der Artikel-Zeitraummenge derzeit verwendbare Daten
+<p class="just-emphasize">In der Artikel-Zeitraummenge derzeit verwendbare Daten</p>
 
 | Feld | Kürzel | Typ |
 | --- | --- | --- |

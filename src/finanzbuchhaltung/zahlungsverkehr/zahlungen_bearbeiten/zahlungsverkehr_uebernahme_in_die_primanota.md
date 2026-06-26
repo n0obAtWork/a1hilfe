@@ -15,11 +15,11 @@ Wenn nicht in der Systemeinstellung (Direktsprung **[NKF]**) vorgesehen und vorg
 
 Das **Belegdatum** und das **Valutadatum** für den Zahlungsbeleg werden hier als erstes abgefragt. Sie werden mit dem Datum der zuerst in der Auswahl markierten Zahlung vorbelegt. Mit dem Einrichterparameter „Vorbelegung des Belegdatums mit dem Tagesdatum?“ kann das Verhalten so geändert werden, dass diese Felder mit dem Tagesdatum vorbelegt werden wird. Anschließend kann man noch einige Einstellungen vornehmen.
 
-**Sammelbuchung:  
-**Es wird pro Zahlung ein Zahlungsbeleg erstellt oder, wenn der Haken gesetzt ist, pro im Hausbankenstamm hinterlegtem Konto ein Zahlungsbeleg.
+**Sammelbuchung:**  
+Es wird pro Zahlung ein Zahlungsbeleg erstellt oder, wenn der Haken gesetzt ist, pro im Hausbankenstamm hinterlegtem Konto ein Zahlungsbeleg.
 
-**Buchen ungedruckter Zahlungen:  
-**Normalerweise sollten Zahlungen erst dann in die Primanota übernommen werden, wenn sie auch verarbeitet worden sind. Ist es aus betrieblichen Gründen nun nötig, unverarbeitete Zahlungen bereits in die Primanota zu übernehmen, so lässt sich dies hier einstellen.
+**Buchen ungedruckter Zahlungen:**  
+Normalerweise sollten Zahlungen erst dann in die Primanota übernommen werden, wenn sie auch verarbeitet worden sind. Ist es aus betrieblichen Gründen nun nötig, unverarbeitete Zahlungen bereits in die Primanota zu übernehmen, so lässt sich dies hier einstellen.
 
 **Listennummer als Referenznummer übernehmen:**
 

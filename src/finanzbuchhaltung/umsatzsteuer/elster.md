@@ -93,8 +93,8 @@ Um sich zu gehen, dass man die richtigen Daten überträgt, sollte man diese ein
 
 **Konfiguration des Proxy-Servers für die Datenübermittlung:**
 
-Sollte die Verbindung zum Internet über einen Proxyserver laufen, so können hier die Einstellungen vorgenommen werden. **ACHTUNG: Der FIREWALL muss die Verbindung zulassen.  
-**  
+Sollte die Verbindung zum Internet über einen Proxyserver laufen, so können hier die Einstellungen vorgenommen werden. **ACHTUNG: Der FIREWALL muss die Verbindung zulassen.**  
+    
 Zur Unterstützung der Einrichtung von Elster stehen zwei PDF-Dateien auf dem Dokumentation-Verzeichnis von A.eins:
 
 - KonfigurationProxy.pdf

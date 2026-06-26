@@ -13,7 +13,7 @@ Wenn ein Jahreswechsel durchgeführt wird, wird in der Abschlussperiode und in d
         </td>
         <td>
           <p>Es ist möglich die Belege einzeln zu betrachten. Beim Löschen erscheint die Meldung:<b></b></p>
-          <p><b><br></b><i>Sie wollen einen Jahreswechselbeleg löschen!</i></p>
+          <p><b></b><br><i>Sie wollen einen Jahreswechselbeleg löschen!</i></p>
           <p><i>Beachten sie unbedingt, dass zu diesem Beleg</i></p>
           <p><i>ein weiterer Beleg in der Abschluss-/Eröffnungsperiode existiert!</i></p>
           <p><i>Wollen Sie den Beleg wirklich löschen?<b></b></i></p>

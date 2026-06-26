@@ -28,7 +28,8 @@ Periode 1 in der WAWI des neuen Wirtschaftsjahres muss eröffnet werden **[PERER
 
 Der Inventur-Belegnummern - Zählkreis muss eingerichtet sein **[NKS]** **[NKZ]**.
 
-Unterschiedliche Inventuren müssen in Gruppen eingeteilt werden **[IVG]**,z.B. Hauptinventur mit JW (1), Zwischeninventuren unterschiedlicher Warengruppen (2).
+Unterschiedliche Inventuren müssen in Gruppen eingeteilt werden **[IVG]**,  
+z.B. Hauptinventur mit JW (1), Zwischeninventuren unterschiedlicher Warengruppen (2).
 
 Über die **Artikelstapelkorrektur** muss die entsprechende Inventurgruppe  
 (z.B. 1 = Hauptinventur JW) in die Artikel eingetragen werden.  

@@ -4,18 +4,18 @@
 
 Im SQL-Text kann pro FIELD – Zeile die Farbe angeben. Dabei gibt es verscheiden Schlüsselwörter, die alle gleichzeitig in einer FIELD - Zeile stehen können
 
-**STYLE=ITALIC  
-**Die gesamte Spalte wird kursive dargestellt.
+**STYLE=ITALIC**  
+Die gesamte Spalte wird kursive dargestellt.
 
-**STYLE=BOLD  
-**Die gesamte Spalte wird in Fettschrift dargestellt. Soll eine Spalte sowohl Fett als auch Kursiv dargestellt werden, so muss man die FIELD - Zeile wie folgt darstellen:
+**STYLE=BOLD**  
+Die gesamte Spalte wird in Fettschrift dargestellt. Soll eine Spalte sowohl Fett als auch Kursiv dargestellt werden, so muss man die FIELD - Zeile wie folgt darstellen:
 
 ```text
 FIELD ZahlBankZEmpf,ZahlBankZEmpf,char,20,STYLE=BOLD,STYLE=ITALIC
 ```
 
-**FGCOLOR=RED  
-**Die Vordergrundfarbe der Spalte wird rot. Man kann folgende Farben verwenden:
+**FGCOLOR=RED**  
+Die Vordergrundfarbe der Spalte wird rot. Man kann folgende Farben verwenden:
 
 BLAU
 
@@ -41,8 +41,8 @@ Ist der Name der Farbe nicht bekannt, so erscheint diese Farbe nicht.
 
 Die Hintergrundfarbe wird mit diesem Schlüsselwort gesetzt. Die möglichen Farben sind dieselben wie für die Vordergrundfarben.
 
-**COLOR=(bankcolor,1=ROT/WEISS,2=GELB/SCHWARZ,...,9=BLAU/TÜRKIS)  
-**Dies ist das Schlüsselwort, dass dafür sorgt, dass einzelne Zellen farblich unterschieden werden können. Ein Anwendungsbeispiel ist z.B., dass man bei Kunden, die ihr Kreditlimit überschritten haben, den Saldo Rot darstellt. Mit diesem Schlüsselwort sollte sparsam umgegangen werden, da es sich auf die Performance der Darstellung auswirkt. Man sollte auch nur einzelne Spalten einfärben und nicht für jede FIELD – Anweisung die Farbgestaltung wiederholen um die gesamte Zeile einzufärben.
+**COLOR=(bankcolor,1=ROT/WEISS,2=GELB/SCHWARZ,...,9=BLAU/TÜRKIS)**  
+Dies ist das Schlüsselwort, dass dafür sorgt, dass einzelne Zellen farblich unterschieden werden können. Ein Anwendungsbeispiel ist z.B., dass man bei Kunden, die ihr Kreditlimit überschritten haben, den Saldo Rot darstellt. Mit diesem Schlüsselwort sollte sparsam umgegangen werden, da es sich auf die Performance der Darstellung auswirkt. Man sollte auch nur einzelne Spalten einfärben und nicht für jede FIELD – Anweisung die Farbgestaltung wiederholen um die gesamte Zeile einzufärben.
 
 Hinter dem Schlüsselwort COLOR folgt eine Variable Anzahl von Parametern, die in Klammer stehen müssen.
 

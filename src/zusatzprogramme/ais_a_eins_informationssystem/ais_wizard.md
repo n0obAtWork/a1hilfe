@@ -50,9 +50,9 @@ Diese Formate lassen sich mit **F3** auswählen.
 
 <p class="just-emphasize">Länge / max. Länge</p>
 
-Viele Felder benötigen keine Längenangabe, z.B. wird bei Texten die Länge des Textes berechnet und dann ein entsprechend großer Bereich reserviert. In so einem Fall kann dieses Feld leer gelassen werden. Bei anderen Elementen steuert diese Zahl die Anzahl der Spalten in einem oder mehrerer Felder.
+Viele Felder benötigen keine Längenangabe, z.B. wird bei Texten die Länge des Textes berechnet und dann ein entsprechend großer Bereich reserviert. In so einem Fall kann dieses Feld leer gelassen werden. Bei anderen Elementen steuert diese Zahl die Anzahl der Spalten in einem oder mehrerer Felder.  
 
-Bei einigen Feldern reicht der Platz auf der Maske evtl. nicht aus, um den gesamten Inhalt darzustellen. Mit der **maximalen Länge** lässt sich angeben, wie viel Zeichen maximal erfasst werden können.
+Bei einigen Feldern reicht der Platz auf der Maske evtl. nicht aus, um den gesamten Inhalt darzustellen. Mit der **maximalen Länge** lässt sich angeben, wie viel Zeichen maximal erfasst werden können.  
 
 <p class="just-emphasize">Eingabefeld</p>
 

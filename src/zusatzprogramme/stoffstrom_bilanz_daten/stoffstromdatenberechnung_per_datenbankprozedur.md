@@ -23,20 +23,20 @@ Bedeutung der Werte:
 - **Aktion**  
 Nur wenn der Wert dieses Attribut = **1** ist werden die zurückgegebenen Daten berücksichtigt. Andernfalls wird das vor Prozeduraufruf ermittelte Ergebnis beibehalten.
 
-- **Anteil  
-**Ist der Wert des Attributs **Aktion = 1**, so ersetzt der im Attribut **Anteil** zurückgegebene Wert den vor Prozeduraufruf ermittelten Wert des Stoffstrom-Anteils.
+- **Anteil**  
+Ist der Wert des Attributs **Aktion = 1**, so ersetzt der im Attribut **Anteil** zurückgegebene Wert den vor Prozeduraufruf ermittelten Wert des Stoffstrom-Anteils.
 
-- **MEAnteil  
-**Ist der Wert des Attributs **Aktion = 1**, so ersetzt der im Attribut **MEAnteil** zurückgegebene Wert den vor Prozeduraufruf ermittelten Wert des Anteiltyps (0 für % oder Mengeneinheitsnummer) für den Stoffstrom-Anteil.
+- **MEAnteil**  
+Ist der Wert des Attributs **Aktion = 1**, so ersetzt der im Attribut **MEAnteil** zurückgegebene Wert den vor Prozeduraufruf ermittelten Wert des Anteiltyps (0 für % oder Mengeneinheitsnummer) für den Stoffstrom-Anteil.
 
-- **Menge  
-**Ist der Wert des Attributs **Aktion = 1**, so ersetzt der im Attribut **Menge** zurückgegebene Wert den vor Prozeduraufruf ermittelten Wert der Stoffstrom-Menge.
+- **Menge**  
+Ist der Wert des Attributs **Aktion = 1**, so ersetzt der im Attribut **Menge** zurückgegebene Wert den vor Prozeduraufruf ermittelten Wert der Stoffstrom-Menge.
 
-- **BerechneMenge  
-**Ist der Wert des Attributs **Aktion = 1** und der Wert des Attributs **BerechneMenge = 1**, so wird anschließend die Mengenberechnung mit dem gegebenenfalls durch die Prozedur geänderten Rückgabewerten für Anteil und Anteiltyp erneut durchgeführt.
+- **BerechneMenge**  
+Ist der Wert des Attributs **Aktion = 1** und der Wert des Attributs **BerechneMenge = 1**, so wird anschließend die Mengenberechnung mit dem gegebenenfalls durch die Prozedur geänderten Rückgabewerten für Anteil und Anteiltyp erneut durchgeführt.
 
-- **SetHerkunft  
-**Ist der Wert des Attributs **Aktion = 1** und der Wert des Attributs **SetHerkunft = 0, 10 oder 20,** so wird der Herkunftsschalter der Position auf den entsprechenden Wert gesetzt  
+- **SetHerkunft**  
+Ist der Wert des Attributs **Aktion = 1** und der Wert des Attributs **SetHerkunft = 0, 10 oder 20,** so wird der Herkunftsschalter der Position auf den entsprechenden Wert gesetzt  
 - **0:** aus Artikelstamm  
 - **10:** Anteil manuell  
 - **20:** Menge manuell  

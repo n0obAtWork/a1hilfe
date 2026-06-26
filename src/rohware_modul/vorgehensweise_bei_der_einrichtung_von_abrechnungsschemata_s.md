@@ -438,37 +438,37 @@ Die Typen ‚Zuschlagstabelle‘ bzw. ‚Abschlagstabelle‘ sind dann zu wähle
 
   Dabei bedeuten:
 
-  **MindPr, MindPr[r]  
-**Mindestpreis zur Warenposition mit der Referenznummer **r** der Rohwarengruppendefinition.  
+  **MindPr, MindPr[r]**  
+Mindestpreis zur Warenposition mit der Referenznummer **r** der Rohwarengruppendefinition.  
 Dabei ist **MindPr** eine Kurzschreibweise für **MindPr[1]**.
 
-  **VZlMg, VZlMg[r]  
-**Vorzeilenmenge (=aktuell berechnete Menge) der Warenposition mit der Referenznummer **r** der Rohwarengruppendefinition. Dabei ist **VZlMg** eine Kurzschreibweise für **VZlMg[1]**.
+  **VZlMg, VZlMg[r]**  
+Vorzeilenmenge (=aktuell berechnete Menge) der Warenposition mit der Referenznummer **r** der Rohwarengruppendefinition. Dabei ist **VZlMg** eine Kurzschreibweise für **VZlMg[1]**.
 
-  **VZlPr, VZlPr[r]  
-**Vorzeilenpreis (=aktuell berechneter Preis) der Warenposition mit der Referenznummer **r** der Rohwarengruppendefinition. Dabei ist **VZlPr** eine Kurzschreibweise für **VZlPr[1]**.
+  **VZlPr, VZlPr[r]**  
+Vorzeilenpreis (=aktuell berechneter Preis) der Warenposition mit der Referenznummer **r** der Rohwarengruppendefinition. Dabei ist **VZlPr** eine Kurzschreibweise für **VZlPr[1]**.
 
-  **WareMg, WareMg[r]  
-**Warenmenge (= Einstands- oder auch Bruttomenge) der Warenposition mit der Referenznummer **r** der Rohwarengruppendefinition. Dabei ist **WareMg** eine Kurzschreibweise für **WareMg[1]**.
+  **WareMg, WareMg[r]**  
+Warenmenge (= Einstands- oder auch Bruttomenge) der Warenposition mit der Referenznummer **r** der Rohwarengruppendefinition. Dabei ist **WareMg** eine Kurzschreibweise für **WareMg[1]**.
 
-  **WarePr, WarePr[r]  
-**Warenpreis (= Anfangspreis) der Warenposition mit der Referenznummer **r** der Rohwarengruppendefinition. Dabei ist **WarePr** eine Kurzschreibweise für **WarePr[1]**.
+  **WarePr, WarePr[r]**  
+Warenpreis (= Anfangspreis) der Warenposition mit der Referenznummer **r** der Rohwarengruppendefinition. Dabei ist **WarePr** eine Kurzschreibweise für **WarePr[1]**.
 
-  **WeltPr, WeltPr[r]  
-**Weltmarktpreis der Warenposition mit der Referenznummer **r** der Rohwarengruppendefinition. Dabei ist **WeltPr** eine Kurzschreibweise für **WeltPr[1]**.
+  **WeltPr, WeltPr[r]**  
+Weltmarktpreis der Warenposition mit der Referenznummer **r** der Rohwarengruppendefinition. Dabei ist **WeltPr** eine Kurzschreibweise für **WeltPr[1]**.
 
-  **ZwiSpMg, ZwiSpMg[i]  
-**Zwischenspeichermenge mit der Nummer **i.** Dabei ist **ZwiSpMg** eine Kurzschreibweise für **ZwiSpMg[1]**.
+  **ZwiSpMg, ZwiSpMg[i]**  
+Zwischenspeichermenge mit der Nummer **i.** Dabei ist **ZwiSpMg** eine Kurzschreibweise für **ZwiSpMg[1]**.
 
-  **ZwSpPr, ZwSpPr[i]  
-**Zwischenspeicherpreis mit der Nummer **i.** Dabei ist **ZwSpPr** eine Kurzschreibweise für **ZwSpPr[1]**.
+  **ZwSpPr, ZwSpPr[i]**  
+Zwischenspeicherpreis mit der Nummer **i.** Dabei ist **ZwSpPr** eine Kurzschreibweise für **ZwSpPr[1]**.
 
-  **ZwSuMg, ZwSuMg[r]  
-**Zwischensummenmenge der Warenposition mit der Referenznummer **r** der Rohwarengruppendefinition. Dabei ist **ZwSuMg** eine Kurzschreibweise für **ZwSuMg[1]**.  
+  **ZwSuMg, ZwSuMg[r]**  
+Zwischensummenmenge der Warenposition mit der Referenznummer **r** der Rohwarengruppendefinition. Dabei ist **ZwSuMg** eine Kurzschreibweise für **ZwSuMg[1]**.  
 Hier wird auf die zuletzt vor dieser Qualität ausgewiesene Zwischensummenzeile zur referenzierten Warenposition verwiesen.
 
-  **ZwSuPr, ZwSuPr[r]  
-**Zwischensummenpreis der Warenposition mit der Referenznummer **r** der Rohwarengruppendefinition. Dabei ist **ZwSuPr** eine Kurzschreibweise für **ZwSuPr[1]**.  
+  **ZwSuPr, ZwSuPr[r]**  
+Zwischensummenpreis der Warenposition mit der Referenznummer **r** der Rohwarengruppendefinition. Dabei ist **ZwSuPr** eine Kurzschreibweise für **ZwSuPr[1]**.  
 Hier wird auf die zuletzt vor dieser Qualität ausgewiesene Zwischensummenzeile zur referenzierten Warenposition verwiesen.
 
   Mit **Ausnahme** des Berechnungstyps **Steuerkorrektur**‚ können für die Auslösung einer Berechnungsmethode Bedingungen in abhängigkeit andere Qualitäten formuliert werden. Ist dieses gewünscht, so wird dieses durch den Wert **‚Ja‘** im Feld **‚Bedingung‘** eingestellt.  
@@ -571,41 +571,49 @@ Grundsätzlich kann eine Kosten-/Vergütungsposition nur gedruckt werden, wenn d
 
   Die unterschiedlichen Operanden haben nach Ergänzung um eine Referenznummer in eckigen Klammern dabei folgende Bedeutung:
 
-- **KoMg[r]  
-**(Kostenmenge)  
+- **KoMg[r]**  
+(Kostenmenge)  
 Mit dieser Einstellung wird auf die Menge der Kosten-/Vergütungsposition mit der Referenznummer r zurückgegriffen.
 
-- **KoNb[r]  
-**(Kostennettobetrag)  
+- **KoNb[r]**  
+(Kostennettobetrag)  
 Der Nettobetrag der Kosten-/Vergütungsposition mit der Referenznummer r wird als Menge der aktuellen Position interpretiert, um z.B. per Kostensatz prozentuale Beträge vom Netto (z.B. CMA) berechnen zu können.
 
-- **KoVZlMg  
-**(Kostenvorzeilenmenge)  
+- **KoVZlMg**  
+(Kostenvorzeilenmenge)  
 Die Menge der vorhergehenden Kosten-/Vergütungsposition wird auch zur Menge der aktuellen Position.
 
-- **KoVZlNB  
-**(Kostenvorzeilennettobetrag)Der Nettobetrag der vorhergehenden Kosten-/Vergütungsposition wird als Menge der aktuellen Position interpretiert.
+- **KoVZlNB**  
+(Kostenvorzeilennettobetrag)  
+Der Nettobetrag der vorhergehenden Kosten-/Vergütungsposition wird als Menge der aktuellen Position interpretiert.
 
-- **KoZwSumme  
-**(Kostenzwischensumme)Der Nettobetrag der zuletzt erzeugten Kosten-/Vergütungs-Zwischensumme wird als Menge der aktuellen Position interpretiert.
+- **KoZwSumme**  
+(Kostenzwischensumme)  
+Der Nettobetrag der zuletzt erzeugten Kosten-/Vergütungs-Zwischensumme wird als Menge der aktuellen Position interpretiert.
 
-- **VZlMg, VZlMg[r]  
-**(Vorzeilenmenge Ware = aktuelle Menge der Warenposition)Mit dieser Einstellung wird auf die Endmenge der Warenposition mit der Referenznummer r zurückgegriffen. Dabei ist VZlMg gleichbedeutend mit VZlMg[1].
+- **VZlMg, VZlMg[r]**  
+(Vorzeilenmenge Ware = aktuelle Menge der Warenposition)  
+Mit dieser Einstellung wird auf die Endmenge der Warenposition mit der Referenznummer r zurückgegriffen. Dabei ist VZlMg gleichbedeutend mit VZlMg[1].
 
-- **WareMg, WareMg[r]  
-**(Warenmenge = Einstandsmenge der Warenposition)Mit dieser Einstellung wird auf die Anfangsmenge der Warenposition mit der Referenznummer r zurückgegriffen. Dabei ist WareMg gleichbedeutend mit WareMg[1].
+- **WareMg, WareMg[r]**  
+(Warenmenge = Einstandsmenge der Warenposition)  
+Mit dieser Einstellung wird auf die Anfangsmenge der Warenposition mit der Referenznummer r zurückgegriffen. Dabei ist WareMg gleichbedeutend mit WareMg[1].
 
-- **WareNB, WareNB[r]  
-**(Warennettobetrag)Mit dieser Einstellung wird auf den Endnettobetrag der Warenposition mit der Referenznummer r als Menge der aktuelle Position zurückgegriffen. Dabei ist WareNB gleichbedeutend mit WareNB[1].
+- **WareNB, WareNB[r]**  
+(Warennettobetrag)  
+Mit dieser Einstellung wird auf den Endnettobetrag der Warenposition mit der Referenznummer r als Menge der aktuelle Position zurückgegriffen. Dabei ist WareNB gleichbedeutend mit WareNB[1].
 
-- **ZwiSpMg, ZwiSpMg[i]  
-**(Zwischenspeichermenge)Der Wert des per Qualitätspositionen versorgten Mengenzwischenspeichers mit dem Index i wir übernommen. Dabei ist ZwiSpMg gleichbedeutend mit ZwiSpMg[1].
+- **ZwiSpMg, ZwiSpMg[i]**  
+(Zwischenspeichermenge)  
+Der Wert des per Qualitätspositionen versorgten Mengenzwischenspeichers mit dem Index i wir übernommen. Dabei ist ZwiSpMg gleichbedeutend mit ZwiSpMg[1].
 
-- **ZwSuMg, ZwSuMg[r]  
-**(Zwischensummenmenge Ware)Die Menge der letzten erzeugten Warenzwischensumme zur Warenposition mit der Referenznummer r wird herangezogen. Dabei ist ZwSuMg gleichbedeutend mit ZwSuMg[1].
+- **ZwSuMg, ZwSuMg[r]**  
+(Zwischensummenmenge Ware)  
+Die Menge der letzten erzeugten Warenzwischensumme zur Warenposition mit der Referenznummer r wird herangezogen. Dabei ist ZwSuMg gleichbedeutend mit ZwSuMg[1].
 
-- **ZwSuNB, ZwSuNB[r]  
-**(Zwischensummennettobetrag Ware)Der Nettobetrag der letzten erzeugten Warenzwischensumme zur Warenposition mit der Referenznummer r wird als Menge herangezogen. Dabei ist ZwSuNB gleichbedeutend mit ZwSuNB[1].
+- **ZwSuNB, ZwSuNB[r]**  
+(Zwischensummennettobetrag Ware)  
+Der Nettobetrag der letzten erzeugten Warenzwischensumme zur Warenposition mit der Referenznummer r wird als Menge herangezogen. Dabei ist ZwSuNB gleichbedeutend mit ZwSuNB[1].
 
   Ist durch die Definition des Kostenmerkmals einer der Werte  
     
@@ -613,8 +621,7 @@ Die Menge der vorhergehenden Kosten-/Vergütungsposition wird auch zur Menge der
 - **Kosten-/Vergütungssatz**
 - **Kosten-/Vergütungspauschale**
 - **Menge  
-    
-**
+**  
 
   in Belegen manuell zu erfassen, so bestimmt das Attribut **‚Übernahme manueller Werte in Folgebeleg bei Kontraktmengenüberschreitung‘,** ob die manuell zu erfassenden Werte bei der [Erzeugung von Zusatzbelegen wegen Kontraktmengenüberschreitung](./rohwarenbearbeitung/rohware_erfassung_mit_belegsplitting_bei_kontraktmengenueber/index.md) bei der Belegerfassung in die Zusatzbelege zu übernehmen sind.  
 Dieses gilt auch bei manuell geänderten Kosten-/Vergütungssätzen und -Beträgen.

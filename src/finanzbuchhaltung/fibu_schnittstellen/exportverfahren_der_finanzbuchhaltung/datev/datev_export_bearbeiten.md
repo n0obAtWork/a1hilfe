@@ -41,13 +41,13 @@ AdressName&#124;&#124;‘/‘&#124;&#124;AdressOrt
     
 **Achtung:**  
 *Von Seiten der Datev ist der Text auf 30 Zeichen beschränkt.  
-    
-*
+*  
 
 Auszifferungsinformation mit übertragen?  
 Es gibt die Möglichkeit Auszifferungsinformationen an die DATEV-Anwendung OPOS mit zu übergeben. Dabei werden bei Zahlungsbelegen (Belegarten ZA, ZB und SE) als Rechnungsnummer die Rechnungsnummer der bezahlten Rechnungen übergeben und im Belegfeld2 die Belegnummer des Zahlungsbeleges. Da die DATEV nicht für alle in A.eins möglichen Verrechnungsarten (z.B. Bildung von Restposten) Strukturen anbietet, kann die Information nicht in jedem Fall vollständig sein.  
     
-<strong>Achtung:<br></strong><em>Wenn man im DATEV-Firmenstamm angegeben hat, dass man für Personenkonten mit </em>[*Ersatzkontonummern aus der Forderungsgruppe*](./datev_firmenstamm.md#DatevErsatzkontonummer) *arbeiten will, so werden diese Informationen **nicht** mit übertragen.*
+**Achtung:**  
+*Wenn man im DATEV-Firmenstamm angegeben hat, dass man für Personenkonten mit* [*Ersatzkontonummern aus der Forderungsgruppe*](./datev_firmenstamm.md#DatevErsatzkontonummer) *arbeiten will, so werden diese Informationen **nicht** mit übertragen.*  
 
 Automatikaufhebung unterdrücken?  
 Bei der DATEV existieren so genannte „[Automatikkonten](./besonderheiten.md#Datevautomatik)“, für die die Steuer nicht in die Schnittstelle mit übergeben werden darf, sondern selbstständig vom DATEV-Programm errechnet wird. Für den Fall, dass in einem Beleg als Steuerbetrag 0,00 eingetragen ist, wird diese Automatik von A.eins unterdrückt. Diese Aufhebung der Automatik lässt sich mit diesem Einrichterparameter abschalten.  
@@ -55,8 +55,7 @@ Bei der DATEV existieren so genannte „[Automatikkonten](./besonderheiten.md#Da
 
 Ab diesem Jahr Sachkontennummer \* 10 (nur KNE)  
 **Sonderentwicklung:** *NICHT VERWENDEN!  
-    
-*
+*  
 
 Text immer aus der Position des Personenkontos.  
 Der an die DATEV übergebene Text wird im Normalfall aus der Position des Erlösskontos gezogen. Setzt man diesen Parameter auf **Ja**, so wird, soweit ein Personenkonto in diesem Beleg existiert der Text aus dieser Position übertragen. Dies kann hilfreich sein, falls vom Steuerberater auch die Mahnungen erstellt werden.  

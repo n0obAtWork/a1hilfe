@@ -260,14 +260,14 @@ Wird kein Zeilendisplay und kein Feld mit dem Namen LINEDISPLAY verwendet, so k�
   </table>
 </div>
 
-Font
+<p class="just-emphasize">Font</p>
 
 Geben Sie hier den Namen der zu verwendenden Schriftart an. Bitte bedenken Sie, dass Sie für den optischen Eindruck eines Zeilendisplays oder eines ASCII-Bons eine nicht-proportionale Schriftart wählen sollten, bei der alle Zeichen die gleiche Breite haben. Anderenfalls könnte die Anzeige ungewohnt ungeordnet aussehen.
 
-Fontsize
+<p class="just-emphasize">Fontsize</p>
 
 Geben Sie hier die Schriftgröße ein
 
-Text
+<p class="just-emphasize">Text</p>
 
 Hier können Sie einen Text für einen Test bzw. die Initialisierung des Displays eingeben

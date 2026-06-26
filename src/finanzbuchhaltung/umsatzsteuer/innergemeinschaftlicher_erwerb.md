@@ -24,8 +24,7 @@ Um die Steuer für den Innergemeinschaftlichen Erwerb auf dem USTVA-Formular aus
 <em>2.</em> Es werden zwei weitere Steuerzeilen an den Belegen angehängt, die die Steuer auf den Konten ausweisen. Um dies zu erreichen, sind folgende Einstellungen notwendig.  
     
 **ACHTUNG**: *Die Steuerzeilen werden erst zum Zeitpunkt des Buchens erzeugt.  
-    
-*
+*  
 
 | **Feld** | **Beschreibung** |
 | --- | --- |

@@ -17,31 +17,31 @@ Erzeugt wird pro Beleg zu Warenpositionen der Typen Haupt- und Sekundärwarenpos
 - **Feuchtmenge**  
 Liefermenge der Hauptwarenposition/Sekundärwarenposition
 
-- **Trockenmenge  
-**verbleibende Menge nach Anwendung der angegebenen Qualität zur Abrechnung der Feuchte
+- **Trockenmenge**  
+verbleibende Menge nach Anwendung der angegebenen Qualität zur Abrechnung der Feuchte
 
-- **Nettomenge  
-**Nettomenge der Hauptwarenposition/Sekundärwarenposition
+- **Nettomenge**  
+Nettomenge der Hauptwarenposition/Sekundärwarenposition
 
-- **Anfangspreis  
-**Preis der Hauptwarenposition/Sekundärwarenposition ohne berechnete Qualitätszu-/-abschläge
+- **Anfangspreis**  
+Preis der Hauptwarenposition/Sekundärwarenposition ohne berechnete Qualitätszu-/-abschläge
 
-- **Endpreis  
-**Preis der Hauptwarenposition/Sekundärwarenposition nach Qualitätsabrechnung
+- **Endpreis**  
+Preis der Hauptwarenposition/Sekundärwarenposition nach Qualitätsabrechnung
 
-- **Warenwert  
-**Nettobetrag der Hauptwarenposition/Sekundärwarenposition
+- **Warenwert**  
+Nettobetrag der Hauptwarenposition/Sekundärwarenposition
 
-- **Feucht %  
-**Analysewert der per Referenznummer angegeben Qualität zur Feuchtigkeitsabrechnung
+- **Feucht %**  
+Analysewert der per Referenznummer angegeben Qualität zur Feuchtigkeitsabrechnung
 
-- **[Ref 2.Qualität]  
-**Analysewert der per Referenznummer angegeben 2. Qualität, überschrieben mit dem unter **Text 2.Qualität** des Auswahlbereichs angegebenen Text
+- **[Ref 2.Qualität]**  
+Analysewert der per Referenznummer angegeben 2. Qualität, überschrieben mit dem unter **Text 2.Qualität** des Auswahlbereichs angegebenen Text
 
-- **[Ref 3.Qualität]  
-**Analysewert der per Referenznummer angegeben 3. Qualität, überschrieben mit dem unter **Text 3.Qualität** des Auswahlbereichs angegebenen Text
+- **[Ref 3.Qualität]**  
+Analysewert der per Referenznummer angegeben 3. Qualität, überschrieben mit dem unter **Text 3.Qualität** des Auswahlbereichs angegebenen Text
 
-- **Filiale  
-**Filialnummer des Belegs
+- **Filiale**  
+Filialnummer des Belegs
 
 Die Sortierreihenfolge der Belege und damit die Untersummierungen können im Auswahllbereich angegeben werden.

@@ -61,8 +61,8 @@ Es würden also, obwohl der Lieferant/Kontokorrentkunde einen ausgeglichenen Sal
 
 Diese Interne Umbuchung, die im Saldo für den Kunden neutral bleibt, sorgt dafür, dass die Forderungs- und Verbindlichkeitskonten ausgeglichen werden. Interne Umbuchungen sind **NIE** offene Posten. Wird eine Auszifferung zurückgesetzt, werden diese Internen Umbuchungen gelöscht. Sind diese bereits gebucht, so werden automatisch Stornobelege erstellt und gegen die Interne Umbuchung ausgeziffert.
 
-**Saldo Stichtag  
-**Bei der Methode „Saldo Stichtag“ bestimmt der Saldo des Kunden in der aktuellen Periode, welcher Seite der Betrag zugeordnet wird. Hat der Kunde einen Sollsaldo, dann wird der Betrag dem Forderungskonto zugeordnet, hat er einen Habensaldo, dann dem Verbindlichkeitskonto. Diese Methode bringt ein paar Einschränkungen mit sich:  
+**Saldo Stichtag**  
+Bei der Methode „Saldo Stichtag“ bestimmt der Saldo des Kunden in der aktuellen Periode, welcher Seite der Betrag zugeordnet wird. Hat der Kunde einen Sollsaldo, dann wird der Betrag dem Forderungskonto zugeordnet, hat er einen Habensaldo, dann dem Verbindlichkeitskonto. Diese Methode bringt ein paar Einschränkungen mit sich:  
     
 a) Die Forderungsgruppen müssen so eingerichtet sein, dass Forderungs- und Verbindlichkeitskonto unterschiedlich sind.  
     

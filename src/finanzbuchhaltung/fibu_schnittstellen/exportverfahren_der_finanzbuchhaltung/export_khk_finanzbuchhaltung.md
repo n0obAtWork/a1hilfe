@@ -38,14 +38,14 @@ Wenn man im Feld Stammdatenexport ein **Ja** eingetragen hat, werden alle neuen 
 
 Es werden vier Prozeduren verwendet:
 
-**AMIC_FIBU_KHKEXPORT  
-**Diese stellt die Daten für Rechnungsausgang mit Kontonummernerweiterung (Satzkennung „RAD31“ oder „RAD40“) und Rechnungseingang mit Kontonummernerweiterung (Satzkennung „REK31“ oder „REK40“) zur Verfügung. Hier werden auch die Kriterien für die Eingrenzung festgelegt. Einzusehen ist die Prozedur unter „SQLP“
+**AMIC_FIBU_KHKEXPORT**  
+Diese stellt die Daten für Rechnungsausgang mit Kontonummernerweiterung (Satzkennung „RAD31“ oder „RAD40“) und Rechnungseingang mit Kontonummernerweiterung (Satzkennung „REK31“ oder „REK40“) zur Verfügung. Hier werden auch die Kriterien für die Eingrenzung festgelegt. Einzusehen ist die Prozedur unter „SQLP“
 
-**AMIC_FIBU_KHKEXPORTPOSITION  
-**Hier werden die Daten für die Erlöse mit Kontonummernerweiterungen (Satzkennung „RAE31“ oder „RAE40“) und Aufwendungen mit Kontonummernerweiterungen (Satzkennung „REE31“ oder „REE40“) bereitgestellt.
+**AMIC_FIBU_KHKEXPORTPOSITION**  
+Hier werden die Daten für die Erlöse mit Kontonummernerweiterungen (Satzkennung „RAE31“ oder „RAE40“) und Aufwendungen mit Kontonummernerweiterungen (Satzkennung „REE31“ oder „REE40“) bereitgestellt.
 
-**AMIC_FIBU_KHKEXPORTDEBITOR  
-**Es werden hier die Daten für Debitoren und Kontokorrentkunden zusammengesucht.
+**AMIC_FIBU_KHKEXPORTDEBITOR**  
+Es werden hier die Daten für Debitoren und Kontokorrentkunden zusammengesucht.
 
-**AMIC_FIBU_KHKEXPORTKREDITOR  
-**Es werden hier die Daten für Kreditoren und Kontokorrentkunden zusammengesucht.
+**AMIC_FIBU_KHKEXPORTKREDITOR**  
+Es werden hier die Daten für Kreditoren und Kontokorrentkunden zusammengesucht.
