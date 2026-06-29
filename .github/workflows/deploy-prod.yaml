@@ -37,13 +37,15 @@ jobs:
         run: |
           cp book/pdf/output.pdf book/pdf/Aeins-$CID.pdf
           mv book/pdf/output.pdf book/pdf/Aeins.pdf
-      - name: Upload PDF
-        uses: actions/upload-artifact@v7
-        with:
-          name: Aeins.pdf
-          path: book/pdf/Aeins.pdf
-          archive: false
-          overwrite: true
+      - name: Copy PDF to LFB
+        run: sshpass -p ${{ secrets.SCP_PW }} scp book/pdf/Aeins-$CID.pdf ssh ${{ secrets.SCP_USER }}@${{ vars.SCP_HOST }}:${{ vars.SCP_DIR }}
+      # - name: Upload Aeins.pdf
+      #   uses: actions/upload-artifact@v7
+      #   with:
+      #     name: Aeins.pdf
+      #     path: book/pdf/Aeins.pdf
+      #     archive: false
+      #     overwrite: true
       - name: Handle old container
         run: |
           chmod +x ./handle-old-container.sh

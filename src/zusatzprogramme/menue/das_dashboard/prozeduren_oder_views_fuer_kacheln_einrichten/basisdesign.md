@@ -61,6 +61,7 @@ Jede Prozedur bzw. jede View kann zur Gestaltung die folgenden Felder verwenden.
           <p>Optional. Wird HeaderBackcolor2 mit angegeben und unterscheidet sich von Backcolor, dann wird die Hintergrundfarbe der Kachel als Farbverlauf dargestellt:</p>
           <div>
             <code>Select '255/128/0' as headercolor, '255/254/0' as headercolor2</code>
+            <p><br><img src="../../../../ImagesExt/image8_1488.png" alt=""></p>
           </div>
         </td>
       </tr>
