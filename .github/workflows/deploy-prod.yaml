@@ -21,7 +21,7 @@ jobs:
       - name: playing around
         run: |
           echo '${{ vars.SCP_HOST }}:${{ vars.SCP_DIR }}'
-          sshpass -p '${{ secrets.SCP_PW }}' scp book.toml ssh ${{ secrets.SCP_USER }}@${{ vars.SCP_HOST }}:${{ vars.SCP_DIR }}
+          sshpass -p '${{ secrets.SCP_PW }}' scp book.toml ssh ${{ secrets.USER_DOMAIN }}\\${{ secrets.SCP_USER }}@${{ vars.SCP_HOST }}:${{ vars.SCP_DIR }}
       # - name: Setup Chrome
       #   uses: browser-actions/setup-chrome@v2
       # - name: Add mdbook and extensions to path
