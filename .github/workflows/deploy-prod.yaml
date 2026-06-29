@@ -18,46 +18,45 @@ jobs:
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
-      - name: Setup Chrome
-        uses: browser-actions/setup-chrome@v2
-      - name: Add mdbook and extensions to path
-        run: echo "/opt/cargo/bin" >> $GITHUB_PATH
-      - name: Prepare correct book.toml for build
-        run: mv book.orig.toml book.toml
-      - name: Run tests
-        run: mdbook test
-      - name: Build Hilfe
-        run: mdbook build
-      - name: Testing some SHA stuff
-        run: | 
-          echo $GITHUB_SHA
-          echo "CID=$(git log -1 --format=%h)" >> $GITHUB_ENV
-          echo book/pdf/Aeins-$CID.pdf
-      - name: Rename PDF file - doing some filename-test too
-        run: |
-          cp book/pdf/output.pdf book/pdf/Aeins-$CID.pdf
-          mv book/pdf/output.pdf book/pdf/Aeins.pdf
-      - name: Copy PDF to LFB
-        run: sshpass -p ${{ secrets.SCP_PW }} scp book/pdf/Aeins-$CID.pdf ssh ${{ secrets.SCP_USER }}@${{ vars.SCP_HOST }}:${{ vars.SCP_DIR }}
-      # - name: Upload Aeins.pdf
-      #   uses: actions/upload-artifact@v7
-      #   with:
-      #     name: Aeins.pdf
-      #     path: book/pdf/Aeins.pdf
-      #     archive: false
-      #     overwrite: true
-      - name: Handle old container
-        run: |
-          chmod +x ./handle-old-container.sh
-          ./handle-old-container.sh spike-a1hilfe-mdbook      
-      - name: Build Docker image
-        run: docker build -t spike-a1hilfe-mdbook:latest .
-      - name: Deploy Onlinehilfe
-        run: >
-          docker run -d
-          --restart always
-          --name spike-a1hilfe-mdbook
-          --network dev
-          -p 8181:80
-          spike-a1hilfe-mdbook:latest
+      - name: playing around
+        run: echo '${{ vars.SCP_HOST }}:${{ vars.SCP_DIR }}'
+      # - name: Setup Chrome
+      #   uses: browser-actions/setup-chrome@v2
+      # - name: Add mdbook and extensions to path
+      #   run: echo "/opt/cargo/bin" >> $GITHUB_PATH
+      # - name: Prepare correct book.toml for build
+      #   run: mv book.orig.toml book.toml
+      # - name: Run tests
+      #   run: mdbook test
+      # - name: Build Hilfe
+      #   run: mdbook build
+      # - name: Get short commit SHA and store it
+      #   run: echo "CID=$(git log -1 --format=%h)" >> $GITHUB_ENV
+      # - name: Rename PDF file
+      #   run: |
+      #     cp book/pdf/output.pdf book/pdf/Aeins-$CID.pdf
+      #     mv book/pdf/output.pdf book/pdf/Aeins.pdf
+      # - name: Copy PDF to LFB
+      #   run: sshpass -p ${{ secrets.SCP_PW }} scp book/pdf/Aeins-$CID.pdf ssh ${{ secrets.SCP_USER }}@${{ vars.SCP_HOST }}:${{ vars.SCP_DIR }}
+      # # - name: Upload Aeins.pdf
+      # #   uses: actions/upload-artifact@v7
+      # #   with:
+      # #     name: Aeins.pdf
+      # #     path: book/pdf/Aeins.pdf
+      # #     archive: false
+      # #     overwrite: true
+      # - name: Handle old container
+      #   run: |
+      #     chmod +x ./handle-old-container.sh
+      #     ./handle-old-container.sh spike-a1hilfe-mdbook      
+      # - name: Build Docker image
+      #   run: docker build -t spike-a1hilfe-mdbook:latest .
+      # - name: Deploy Onlinehilfe
+      #   run: >
+      #     docker run -d
+      #     --restart always
+      #     --name spike-a1hilfe-mdbook
+      #     --network dev
+      #     -p 8181:80
+      #     spike-a1hilfe-mdbook:latest
         
