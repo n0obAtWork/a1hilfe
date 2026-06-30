@@ -24,11 +24,6 @@ jobs:
       #     sshpass -p '${{ secrets.SCP_PW }}' scp book.toml '${{ secrets.SCP_USER }}@${{ vars.SCP_HOST }}:${{ vars.SCP_DIR }}'
       - name: Setup Chrome
         uses: browser-actions/setup-chrome@v2
-      # this is for a workaround
-      - name: Setup Node.js
-        uses: actions/setup-node@v6
-        with:
-          node-version: v24
       - name: Add mdbook and extensions to path
         run: echo "/opt/cargo/bin" >> $GITHUB_PATH
       - name: Prepare correct book.toml for build
@@ -37,21 +32,26 @@ jobs:
       #   run: mdbook test
       - name: Build Hilfe
         run: mdbook build
+      # this is for a workaround
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: v24
       # since Chrome / Chromium's printToPdf is the limiting factor
       # because the size of the print.hmtl ist just too big to convert in one run 
-      # - name: Custom PDF generation!
-      #   run: |
-      #     cd pdf_pipeline
-      #     npm i
-      #     npm run build
-      # - name: Get short commit SHA and store it
-      #   run: echo "CID=$(git log -1 --format=%h)" >> $GITHUB_ENV
-      # - name: Rename PDF file
-      #   run: |
-      #     cp book/pdf/output.pdf book/pdf/Aeins-$CID.pdf
-      #     mv book/pdf/output.pdf book/pdf/Aeins.pdf
-      # - name: Copy PDF to LFB
-      #   run: sshpass -p '${{ secrets.SCP_PW }}' scp book/pdf/Aeins-$CID.pdf '${{ secrets.SCP_USER }}@${{ vars.SCP_HOST }}:${{ vars.SCP_DIR }}'
+      - name: Custom PDF generation!
+        run: |
+          cd pdf_pipeline
+          npm i
+          npm run build
+      - name: Get short commit SHA and store it
+        run: echo "CID=$(git log -1 --format=%h)" >> $GITHUB_ENV
+      - name: Rename PDF file
+        run: |
+          cp book/pdf/output.pdf book/pdf/Aeins-$CID.pdf
+          mv book/pdf/output.pdf book/pdf/Aeins.pdf
+      - name: Copy PDF to LFB
+        run: sshpass -p '${{ secrets.SCP_PW }}' scp book/pdf/Aeins-$CID.pdf '${{ secrets.SCP_USER }}@${{ vars.SCP_HOST }}:${{ vars.SCP_DIR }}'
       # - name: Upload Aeins.pdf
       #   uses: actions/upload-artifact@v7
       #   with:
