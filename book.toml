@@ -15,26 +15,33 @@ level = 0
 enable = false
 # enable = true
 
-# # using mdbook-pdf
-# [output.pdf]
+# # using mdbook-pandoc
+# [output.pandoc.profile.pdf]
+# output-file = "output.pdf"
+# # to = "latex"
+# to = "wkhtmltopdf"
+# number-sections = false
 
-# [preprocessor.gitinfo]
-# enable = true
+# using mdbook-pdf
+[output.pdf]
 
-# # choose placement(s)
-# header = false # default: false
-# footer = true  # default: true
+[preprocessor.gitinfo]
+enable = true
 
-# # common formatting
-# font-size = "0.9em"
-# separator = " • "
-# date-format = "%Y-%m-%d"
-# time-format = "%H:%M:%S"
-# branch = "main"
-# hyperlink = false        # make hash/branch clickable when possible
+# choose placement(s)
+header = false # default: false
+footer = true  # default: true
 
-# # optional timezone handling
-# timezone = "local" # "local" (default) | "utc" | "source" | "fixed:+02:00"
+# common formatting
+font-size = "0.9em"
+separator = " • "
+date-format = "%Y-%m-%d"
+time-format = "%H:%M:%S"
+branch = "main"
+hyperlink = false        # make hash/branch clickable when possible
 
-# [preprocessor.gitinfo.message]
-# footer = "Stand {{date}}{{sep}}commit: {{hash}}"
+# optional timezone handling
+timezone = "local" # "local" (default) | "utc" | "source" | "fixed:+02:00"
+
+[preprocessor.gitinfo.message]
+footer = "Stand {{date}}{{sep}}commit: {{hash}}"
