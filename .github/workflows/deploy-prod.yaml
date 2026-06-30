@@ -39,12 +39,11 @@ jobs:
         run: mdbook build
       # since Chrome / Chromium's printToPdf is the limiting factor
       # because the size of the print.hmtl ist just too big to convert in one run 
-      # - name: Custom PDF generation - Install dependencies!
+      # - name: Custom PDF generation!
       #   run: |
       #     cd pdf_pipeline
       #     npm i
-      # - name: Custom PDF generation!
-      #   run: node pdf_pipeline/build_pdf.js
+      #     npm run build
       # - name: Get short commit SHA and store it
       #   run: echo "CID=$(git log -1 --format=%h)" >> $GITHUB_ENV
       # - name: Rename PDF file
