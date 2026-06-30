@@ -29,6 +29,9 @@ OUT=...               # Ziel-PDF (Default: <BOOK>/pdf/output.pdf)
 PDF_PER=600           # Kapitel pro Chunk (Default 600; bei schwacher Maschine kleiner)
 PDF_MAX_CHUNKS=2      # nur n Chunks (Schnelltest)
 PDF_FORMAT=A4         # Seitenformat (Default A4; z. B. Letter, Legal, A3)
+PDF_BREAKS=0          # Seitenumbrüche: 0=nur Top-Level neue Seite (Default), N=bis Ebene N,
+                      #   all=vor jedem Kapitel (mdbook-Default), none=fortlaufend
+SUMMARY=...           # SUMMARY.md für die Kapitel-Ebenen (Default: ../src/SUMMARY.md)
 
 # Beispiel Schnelltest:
 PDF_MAX_CHUNKS=2 PDF_PER=40 node pdf_pipeline/build_pdf.js
@@ -55,6 +58,25 @@ Robuster (unabhängig vom PATH) ist es, den Action-Output zu setzen:
 An **mdbook-pdf 0.1.13** Defaults angelehnt (da `book.toml` → `[output.pdf]` leer): Ränder je 1",
 `printBackground=false`, `scale=1`, kein Header/Footer, `preferCSSPageSize=false`.
 Seitenformat: **A4** (Default; mdbook-pdf-Default wäre Letter 8.5×11") — via `PDF_FORMAT` änderbar.
+
+**Überbreite Tabellen:** mdbook setzt `.table-wrapper { overflow-x: auto }` → im PDF würde der
+weggescrollte Teil abgeschnitten. `build_pdf.js` injiziert deshalb pro Chunk eine Print-Override
+(`overflow: visible` + Tabellen auf Seitenbreite umbrechen statt clippen). `custom.css` / die HTML-Site
+bleiben unverändert.
+
+## Seitenumbrüche (`PDF_BREAKS`)
+mdbook setzt vor JEDEM Kapitel einen Seitenumbruch → jede `.md` beginnt auf neuer Seite (sehr viele
+Seiten). Steuerbar:
+- **`0`** (Default): nur **Top-Level-Kapitel** (Ebene 0, die Hauptsektionen) beginnen auf neuer Seite,
+  Unterkapitel laufen fortlaufend weiter → kompaktes PDF.
+- **`N`**: Umbruch vor Kapiteln bis Ebene N (z. B. `1` = Sektionen + deren direkte Unterkapitel).
+- **`all`**: vor jedem Kapitel (altes mdbook-Verhalten).
+- **`none`**: keine erzwungenen Umbrüche.
+
+Die Ebenen stammen aus der Einrücktiefe in `SUMMARY.md` (1:1 zur Kapitelreihenfolge in `print.html`).
+Fehlt `SUMMARY.md` oder passt die Anzahl nicht, fällt das Skript mit Warnung auf `all` zurück.
+Kleiner Nebeneffekt: An Chunk-Grenzen (alle `PDF_PER` Kapitel) beginnt ohnehin eine neue Seite — das
+sind ein paar wenige zusätzliche Umbrüche, in einem mehrtausendseitigen PDF vernachlässigbar.
 
 ## Lesezeichen / Outline
 Der `pdf-lib`-Merge in `build_pdf.js` überträgt die pro-Chunk-Outline **nicht** → das Gesamt-PDF hat

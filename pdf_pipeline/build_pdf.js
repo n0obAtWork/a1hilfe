@@ -19,6 +19,9 @@
 //   PDF_PER=<kapitel/chunk>       (Default 600)
 //   PDF_MAX_CHUNKS=<n>            (nur n Chunks rendern; für Tests)
 //   PDF_FORMAT=<A4|Letter|...>    (Seitenformat, Default A4)
+//   PDF_BREAKS=<0|N|all|none>     (Seitenumbrüche: 0=nur Top-Level neue Seite [Default], N=bis Ebene N,
+//                                  all=vor jedem Kapitel, none=fortlaufend. Ebenen aus SUMMARY.md)
+//   SUMMARY=<pfad>                (SUMMARY.md für die Ebenen; Default ../src/SUMMARY.md)
 //
 // Render-Optionen an mdbook-pdf 0.1.13 angelehnt (book.toml [output.pdf] leer): Ränder je 1",
 // print_background=false, scale=1, kein Header/Footer, prefer_css_page_size=false, tagged+outline=true.
@@ -43,6 +46,23 @@ const BREAK = '<div style="break-before: page; page-break-before: always;"></div
 const PER = parseInt(process.env.PDF_PER || process.argv[2] || "600", 10);
 const MAX = parseInt(process.env.PDF_MAX_CHUNKS || "0", 10) || Infinity;
 const FORMAT = process.env.PDF_FORMAT || "A4"; // A4 (Default) | Letter | Legal | A3 | …
+// Seitenumbruch-Modus: "0" = nur Top-Level-Kapitel beginnen auf neuer Seite (Default), Unterkapitel
+// fortlaufend. "<N>" = Umbruch vor Kapiteln bis Ebene N. "all" = vor JEDEM Kapitel (mdbook-Default).
+// "none" = keine erzwungenen Umbrüche. Ebenen kommen aus SUMMARY.md (Einrücktiefe).
+const BREAKS = process.env.PDF_BREAKS || "0";
+const SUMMARY = process.env.SUMMARY || path.resolve(__dirname, "..", "src", "SUMMARY.md");
+
+// SUMMARY.md -> Ebene je Kapitel (Reihenfolge = print.html-Kapitelreihenfolge, 1:1).
+function readLevels() {
+  if (!fs.existsSync(SUMMARY)) return null;
+  const re = /^(\s*)[-*]\s+\[[^\]]*\]\(([^)]*)\)/;
+  const levels = [];
+  for (const l of fs.readFileSync(SUMMARY, "utf8").split(/\r?\n/)) {
+    const m = l.match(re);
+    if (m) levels.push(Math.round(m[1].replace(/\t/g, "  ").length / 2));
+  }
+  return levels;
+}
 
 // Chrome-Binary finden: 1) explizite ENV, 2) PATH (so legt es browser-actions/setup-chrome@v2 ab),
 // 3) übliche Installationspfade je OS. In CI genügt damit Chrome-im-PATH; alternativ
@@ -83,16 +103,46 @@ const PDF_OPTS = {
   tagged: true, outline: true,
 };
 
+// Print-Override (nur für die PDF-Generierung, wird in jedes Chunk-HTML injiziert): mdbook setzt
+// `.table-wrapper { overflow-x: auto }` -> im PDF wird der weggescrollte Teil überbreiter Tabellen
+// ABGESCHNITTEN. Hier: Scroll-Container auflösen + Tabellen auf Seitenbreite umbrechen statt clippen.
+const PRINT_CSS = `<style id="pdf-pipeline-print">
+@media print {
+  .table-wrapper { overflow: visible !important; }
+  .table-wrapper > table { max-width: 100% !important; table-layout: auto; }
+  .table-wrapper th, .table-wrapper td { overflow-wrap: anywhere; word-break: break-word; }
+}
+</style>`;
+
 async function main() {
   if (!fs.existsSync(PRINT)) { console.error(`print.html fehlt unter ${PRINT} — erst HTML bauen (oder BOOK= setzen).`); process.exit(1); }
   if (!CHROME) { console.error("Chrome nicht gefunden (weder ENV CHROME/CHROME_PATH/PUPPETEER_EXECUTABLE_PATH, noch im PATH, noch an üblichen Pfaden). In CI z. B. CHROME=${{ steps.setup-chrome.outputs.chrome-path }} setzen."); process.exit(1); }
   const h = fs.readFileSync(PRINT, "utf8");
   const mo = h.match(/<main\b[^>]*>/); const start = mo.index + mo[0].length;
   const end = h.lastIndexOf("</main>");
-  const prefix = h.slice(0, start), suffix = h.slice(end);
+  const prefix = h.slice(0, start).replace("</head>", PRINT_CSS + "\n</head>"), suffix = h.slice(end);
   const chapters = h.slice(start, end).split(BREAK);
   const nChunks = Math.min(MAX, Math.ceil(chapters.length / PER));
-  console.log(`HTML: ${HTML_DIR}\nOutput: ${OUT}\nKapitel: ${chapters.length} | ${PER}/Chunk | ${nChunks} Chunk(s) | Chrome: ${CHROME}`);
+
+  // Umbruch-Entscheidung je Kapitelgrenze festlegen.
+  let mode = BREAKS, levels = null;
+  if (BREAKS !== "all" && BREAKS !== "none") {
+    const lvl = parseInt(BREAKS, 10);
+    if (isNaN(lvl)) { console.warn(`PDF_BREAKS="${BREAKS}" ungültig -> 'all'.`); mode = "all"; }
+    else {
+      levels = readLevels();
+      if (!levels || levels.length !== chapters.length) {
+        console.warn(`PDF_BREAKS=${BREAKS}: SUMMARY-Ebenen nicht verfügbar/passend (${levels ? levels.length : "keine"} vs ${chapters.length}) -> Fallback 'all'.`);
+        mode = "all";
+      } else { mode = lvl; } // numerische Ebene
+    }
+  }
+  // break VOR Kapitel-Index i? (i=0 nie; Chunk-Erste sowieso neue Seite, daher nur i>chunkStart relevant)
+  const breakBefore = (i) =>
+    i === 0 ? false : mode === "all" ? true : mode === "none" ? false : levels[i] <= mode;
+
+  const modeStr = mode === "all" ? "jedes Kapitel" : mode === "none" ? "keine" : `Top-Level..Ebene ${mode}`;
+  console.log(`HTML: ${HTML_DIR}\nOutput: ${OUT}\nKapitel: ${chapters.length} | ${PER}/Chunk | ${nChunks} Chunk(s) | Umbruch: ${modeStr} | Chrome: ${CHROME}`);
 
   fs.mkdirSync(PARTS, { recursive: true });
   fs.mkdirSync(path.dirname(OUT), { recursive: true });
@@ -110,7 +160,10 @@ async function main() {
       // Chunk-HTML MUSS im HTML-Verzeichnis liegen, damit relative CSS-/Font-/Bild-Pfade auflösen.
       const htmlFile = path.join(HTML_DIR, `_chunk_${id}.html`);
       const pdfFile = path.join(PARTS, `part${id}.pdf`);
-      fs.writeFileSync(htmlFile, prefix + chapters.slice(i * PER, (i + 1) * PER).join(BREAK) + suffix);
+      const s = i * PER, e = Math.min((i + 1) * PER, chapters.length);
+      let body = "";
+      for (let g = s; g < e; g++) { if (g > s && breakBefore(g)) body += BREAK; body += chapters[g]; }
+      fs.writeFileSync(htmlFile, prefix + body + suffix);
       chunkHtmls.push(htmlFile);
       process.stdout.write(`  Chunk ${id}: rendern… `);
       const page = await browser.newPage();
