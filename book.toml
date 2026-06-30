@@ -23,7 +23,7 @@ enable = false
 # number-sections = false
 
 # using mdbook-pdf
-[output.pdf]
+# [output.pdf]
 
 [preprocessor.gitinfo]
 enable = true

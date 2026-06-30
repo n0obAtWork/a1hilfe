@@ -5,7 +5,6 @@ A.eins Onlinehilfe with [mdBook](https://rust-lang.github.io/mdBook/)
 ## TODO
 
 - Incorporate `<kbd>` - e.g. <kbd>Shift</kbd> instead of **Shift**
-- Check PDF if all contents are included
 
 ## Dev machine
 
