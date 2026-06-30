@@ -9,7 +9,9 @@ Self-contained: dieser Ordner enthält die Dependencies in `node_modules` (Einch
 einmal `npm install` in diesem Ordner).
 
 ## Voraussetzungen
-- `book/` ist gebaut (enthält `print.html`) — d. h. der mdbook-**HTML**-Output liegt vor.
+- Der mdbook-**HTML**-Output liegt vor (enthält `print.html`). Layout wird automatisch erkannt:
+  `book/html/print.html` (Mehr-Renderer-Layout, z. B. `[output.html]` + `[output.pdf]`) **oder**
+  `book/print.html` (nur `[output.html]`). Sonst per `HTML_DIR=` setzen.
 - Chrome/Chromium installiert.
 - Node.
 
@@ -20,8 +22,10 @@ einmal `npm install` in diesem Ordner).
 node pdf_pipeline/build_pdf.js
 
 # Optionen (ENV):
-CHROME="C:/Program Files/Google/Chrome/Application/chrome.exe"   # Chrome-Pfad (Default gesetzt)
-BOOK="../book"        # mdbook-Output (Default: ../book relativ zum Skript)
+CHROME=...            # Chrome-Pfad (sonst Auto-Suche, s. u.)
+BOOK="../book"        # mdbook-Output-Basis (Default: ../book relativ zum Skript)
+HTML_DIR=...          # wo print.html + Assets liegen (Default: Auto — book/html falls vorhanden, sonst book)
+OUT=...               # Ziel-PDF (Default: <BOOK>/pdf/output.pdf)
 PDF_PER=600           # Kapitel pro Chunk (Default 600; bei schwacher Maschine kleiner)
 PDF_MAX_CHUNKS=2      # nur n Chunks (Schnelltest)
 PDF_FORMAT=A4         # Seitenformat (Default A4; z. B. Letter, Legal, A3)

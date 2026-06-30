@@ -13,6 +13,9 @@
 //                                  -> PATH -> übliche OS-Pfade. CI: Chrome-im-PATH reicht, oder
 //                                  CHROME=${{ steps.setup-chrome.outputs.chrome-path }})
 //   BOOK=<pfad zum mdbook-Output> (Default: ../book relativ zu diesem Skript)
+//   HTML_DIR=<pfad mit print.html> (Default: Auto — book/html falls vorhanden [Mehr-Renderer-Layout],
+//                                   sonst book/. Hier liegen print.html + Assets css/ImagesExt/fonts)
+//   OUT=<ziel-pdf>               (Default: <BOOK>/pdf/output.pdf)
 //   PDF_PER=<kapitel/chunk>       (Default 600)
 //   PDF_MAX_CHUNKS=<n>            (nur n Chunks rendern; für Tests)
 //   PDF_FORMAT=<A4|Letter|...>    (Seitenformat, Default A4)
@@ -28,9 +31,14 @@ const puppeteer = require("puppeteer-core");
 const { PDFDocument } = require("pdf-lib");
 
 const BOOK = process.env.BOOK ? path.resolve(process.env.BOOK) : path.resolve(__dirname, "..", "book");
-const PRINT = path.join(BOOK, "print.html");
+// HTML-Verzeichnis = wo print.html + Assets (css/ImagesExt/fonts) liegen. Bei MEHREREN mdbook-
+// Renderern (z. B. [output.html] + [output.pdf]) packt mdbook den HTML-Output nach book/html/, bei
+// nur [output.html] direkt nach book/. Auto-Erkennung (per ENV HTML_DIR überschreibbar):
+const HTML_DIR = process.env.HTML_DIR ? path.resolve(process.env.HTML_DIR)
+  : fs.existsSync(path.join(BOOK, "html", "print.html")) ? path.join(BOOK, "html") : BOOK;
+const PRINT = path.join(HTML_DIR, "print.html");
 const PARTS = path.join(BOOK, "_parts");
-const OUT = path.join(BOOK, "pdf", "output.pdf");
+const OUT = process.env.OUT ? path.resolve(process.env.OUT) : path.join(BOOK, "pdf", "output.pdf");
 const BREAK = '<div style="break-before: page; page-break-before: always;"></div>';
 const PER = parseInt(process.env.PDF_PER || process.argv[2] || "600", 10);
 const MAX = parseInt(process.env.PDF_MAX_CHUNKS || "0", 10) || Infinity;
@@ -84,7 +92,7 @@ async function main() {
   const prefix = h.slice(0, start), suffix = h.slice(end);
   const chapters = h.slice(start, end).split(BREAK);
   const nChunks = Math.min(MAX, Math.ceil(chapters.length / PER));
-  console.log(`Kapitel: ${chapters.length} | ${PER}/Chunk | ${nChunks} Chunk(s) | Chrome: ${CHROME}`);
+  console.log(`HTML: ${HTML_DIR}\nOutput: ${OUT}\nKapitel: ${chapters.length} | ${PER}/Chunk | ${nChunks} Chunk(s) | Chrome: ${CHROME}`);
 
   fs.mkdirSync(PARTS, { recursive: true });
   fs.mkdirSync(path.dirname(OUT), { recursive: true });
@@ -99,8 +107,8 @@ async function main() {
   try {
     for (let i = 0; i < nChunks; i++) {
       const id = String(i + 1).padStart(pad, "0");
-      // Chunk-HTML MUSS im book/-Root liegen, damit relative CSS-/Font-/Bild-Pfade auflösen.
-      const htmlFile = path.join(BOOK, `_chunk_${id}.html`);
+      // Chunk-HTML MUSS im HTML-Verzeichnis liegen, damit relative CSS-/Font-/Bild-Pfade auflösen.
+      const htmlFile = path.join(HTML_DIR, `_chunk_${id}.html`);
       const pdfFile = path.join(PARTS, `part${id}.pdf`);
       fs.writeFileSync(htmlFile, prefix + chapters.slice(i * PER, (i + 1) * PER).join(BREAK) + suffix);
       chunkHtmls.push(htmlFile);

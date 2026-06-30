@@ -5,7 +5,7 @@ on:
     branches: [main]
     paths-ignore:
       - 'README.md'
-      - '.gitignre'
+      - '.gitignore'
       - '.prettierignore'
 
   workflow_dispatch:
@@ -38,20 +38,20 @@ jobs:
         run: mdbook test
       - name: Build Hilfe
         run: mdbook build
-      - name: Custom PDF generation - Install dependencies!
-        run: |
-          cd pdf_pipeline
-          npm i
-      - name: Custom PDF generation!
-        run: node pdf_pipeline/build_pdf.js
-      - name: Get short commit SHA and store it
-        run: echo "CID=$(git log -1 --format=%h)" >> $GITHUB_ENV
-      - name: Rename PDF file
-        run: |
-          cp book/pdf/output.pdf book/pdf/Aeins-$CID.pdf
-          mv book/pdf/output.pdf book/pdf/Aeins.pdf
-      - name: Copy PDF to LFB
-        run: sshpass -p '${{ secrets.SCP_PW }}' scp book/pdf/Aeins-$CID.pdf '${{ secrets.SCP_USER }}@${{ vars.SCP_HOST }}:${{ vars.SCP_DIR }}'
+      # - name: Custom PDF generation - Install dependencies!
+      #   run: |
+      #     cd pdf_pipeline
+      #     npm i
+      # - name: Custom PDF generation!
+      #   run: node pdf_pipeline/build_pdf.js
+      # - name: Get short commit SHA and store it
+      #   run: echo "CID=$(git log -1 --format=%h)" >> $GITHUB_ENV
+      # - name: Rename PDF file
+      #   run: |
+      #     cp book/pdf/output.pdf book/pdf/Aeins-$CID.pdf
+      #     mv book/pdf/output.pdf book/pdf/Aeins.pdf
+      # - name: Copy PDF to LFB
+      #   run: sshpass -p '${{ secrets.SCP_PW }}' scp book/pdf/Aeins-$CID.pdf '${{ secrets.SCP_USER }}@${{ vars.SCP_HOST }}:${{ vars.SCP_DIR }}'
       # - name: Upload Aeins.pdf
       #   uses: actions/upload-artifact@v7
       #   with:
