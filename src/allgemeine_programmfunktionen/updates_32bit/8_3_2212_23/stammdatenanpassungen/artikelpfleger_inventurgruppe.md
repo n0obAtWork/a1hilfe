@@ -18,8 +18,6 @@ Variante: -
 
 Funktion/Report: Ändern
 
-[Weitere Informationen](http://www.amic.de/hilfe/_artikelstammundartik.htm)
-
 #### Tags:
 
 Releasenote, 8.3.2212.23, 33181, 717098

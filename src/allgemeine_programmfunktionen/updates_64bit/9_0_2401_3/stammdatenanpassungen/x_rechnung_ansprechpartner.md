@@ -18,7 +18,7 @@ Variante: Profile
 
 Funktion/Report: n/a
 
-[Weitere Informationen](http://www.amic.de/hilfe/xrechnungprofilpfleger.htm)
+[Weitere Informationen](../../../../erechnung/erechnung_profilpfleger/oberflaeche_zusatz.md)
 
 #### Tags:
 

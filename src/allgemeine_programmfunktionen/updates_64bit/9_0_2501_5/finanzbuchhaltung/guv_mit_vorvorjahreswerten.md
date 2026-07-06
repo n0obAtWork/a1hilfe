@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/finanzbuchhaltung22.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/index.md)
 
 #### Tags:
 

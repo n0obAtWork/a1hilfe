@@ -18,7 +18,7 @@ Variante: Artikel mit Lager
 
 Funktion/Report: Preiskalkulation Excel
 
-[Weitere Informationen](http://www.amic.de/hilfe/_info_preiskalkulationexcel_rhea.htm)
+[Weitere Informationen](../../../../zusatzprogramme/preiskalkulation_durchfuehren/preiskalkulation_excel/index.md)
 
 #### Tags:
 

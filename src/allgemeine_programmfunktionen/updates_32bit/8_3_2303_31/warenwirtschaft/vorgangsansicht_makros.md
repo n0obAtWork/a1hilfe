@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: Ansehen
 
-[Weitere Informationen](http://www.amic.de/hilfe/_SPA862.htm)
+[Weitere Informationen](../../../../firmenstamm/steuerparameter/vorgangsbearbeitung_allg/makros_bei_ansicht_eines_vorgangs_ausfuehren_spa_862.md)
 
 #### Tags:
 

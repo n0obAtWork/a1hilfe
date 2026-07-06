@@ -18,8 +18,6 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/_CO2Kostenaufteilung.htm)
-
 #### Tags:
 
 Releasenote, 8.3.2212.23, 33255, 717732

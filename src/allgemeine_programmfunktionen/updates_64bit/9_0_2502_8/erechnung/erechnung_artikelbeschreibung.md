@@ -18,8 +18,6 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/!erechnung1.htm)
-
 #### Tags:
 
 Releasenote, 9.0.2502.8, 38545, 751361

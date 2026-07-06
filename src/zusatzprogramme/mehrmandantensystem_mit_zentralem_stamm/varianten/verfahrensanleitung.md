@@ -10,7 +10,7 @@
 
 Ein bestehendes lauffähiges Mehrmandantensystem.
 
-Informationen zur Einrichtung eines Mehrmandantensystems finden Sie gegebenenfalls in unserer A.eins Online-Hilfe unter dem Punkt „[Mehrmandantensystem mit zentralem Stamm](http://www.amic.de/hilfe/#!mehrmandantensystemmitzentralemstamm.htm)“.
+Informationen zur Einrichtung eines Mehrmandantensystems finden Sie gegebenenfalls in unserer A.eins Online-Hilfe unter dem Punkt „[Mehrmandantensystem mit zentralem Stamm](../index.md)“.
 
 Wir weisen Sie hier nochmal darauf hin, dass nur im Hauptmandant eine Stammdatenpflege durchgeführt werden darf! Sämtliche Datenbestände der Untermandanten werden vom Hauptmandanten überschrieben und sind nicht wiederherstellbar! Um hier Probleme zu vermeiden sollten Sie in den Stammdatenpflegern der Untermandaten, die entsprechenden Funktionalitäten („Löschen“, „Ändern“ und „Neu“) deaktivieren.
 

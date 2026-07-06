@@ -18,7 +18,7 @@ Variante: Kontrakte auch ohne Artikel
 
 Funktion/Report: alle
 
-[Weitere Informationen](http://www.amic.de/hilfe/_kontrakt_auswahl_ktr.htm)
+[Weitere Informationen](../../../../kontrakt/index.md)
 
 #### Tags:
 

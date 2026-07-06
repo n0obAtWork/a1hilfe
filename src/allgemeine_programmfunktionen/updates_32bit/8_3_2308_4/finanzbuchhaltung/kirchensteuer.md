@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/kirchensteuer.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/zinswesen/stammdaten_zinswesen/kirchensteuer.md)
 
 #### Tags:
 

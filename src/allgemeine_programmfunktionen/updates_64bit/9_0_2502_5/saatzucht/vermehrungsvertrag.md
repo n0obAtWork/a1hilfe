@@ -18,7 +18,7 @@ Variante: Vermehrungsvertrag
 
 Funktion/Report: Neu
 
-[Weitere Informationen](http://www.amic.de/hilfe/_vermerhrungsvertrag.htm)
+[Weitere Informationen](../../../../zusatzprogramme/saatzucht/anmeldung_zur_feldbesichtigung/vermehrungsvertrag.md)
 
 #### Tags:
 

@@ -18,8 +18,6 @@ Variante: Folgeartikel/indiv. Artikelnummer
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/_artikelstammundartik.htm)
-
 #### Tags:
 
 Releasenote, 8.3.2303.31, 33470, 720569

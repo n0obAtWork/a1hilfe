@@ -18,7 +18,7 @@ Variante: Kunden
 
 Funktion/Report: F8
 
-[Weitere Informationen](http://www.amic.de/hilfe/!_kundenundlieferanten.htm)
+[Weitere Informationen](../../../../kunden_und_lieferanten/kunden_und_lieferantenstamm/index.md)
 
 #### Tags:
 
