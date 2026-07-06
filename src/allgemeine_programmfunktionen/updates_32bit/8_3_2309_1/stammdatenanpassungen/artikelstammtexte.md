@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: F5
 
-[Weitere Informationen](http://www.amic.de/hilfe/_konstantenderartikel.htm)
+[Weitere Informationen](../../../../artikelstamm_und_artikel/konstanten_der_artikelverwaltung/index.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: Ansichten verwalten
 
-[Weitere Informationen](http://www.amic.de/hilfe/ansichtenverwalten.htm)
+[Weitere Informationen](../../../../zusatzprogramme/auswahlliste_2_0/ansichten_verwalten.md)
 
 #### Tags:
 

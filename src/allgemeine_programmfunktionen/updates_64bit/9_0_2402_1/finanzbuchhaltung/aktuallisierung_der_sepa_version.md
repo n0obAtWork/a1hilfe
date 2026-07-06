@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/sepa.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/zahlungsverkehr/sepa/index.md)
 
 #### Tags:
 

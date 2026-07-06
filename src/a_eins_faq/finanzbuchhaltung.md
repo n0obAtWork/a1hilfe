@@ -134,7 +134,7 @@ Dieser Lieferant sollte einer Steuergruppe „Eigenverbrauch“ (STS „normale 
 
 #### Antwort:
 
-Als Steuerkonten definierte Konten sind für die Direkterfassung in A.eins gesperrt, damit Sie die zusätzlichen Auswertungsanforderungen erfüllen. https://www.amic.de/hilfe/#!_fibu_stammdaten_sachkonten.htm
+Als Steuerkonten definierte Konten sind für die Direkterfassung in A.eins gesperrt, damit Sie die zusätzlichen Auswertungsanforderungen erfüllen. [Sachkonten](../finanzbuchhaltung/stammdaten_der_fibu/sachkonten.md)
 
 Muss Steuer tatsächlich direkt erfasst werden, z. B. Einfuhrumsatzsteuer oder im Zusammenhang mit einem Versicherungsfall, dann ist ein spezieller Steuerschlüssel für die Buchung zu verwenden.
 

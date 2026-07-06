@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: CompileAll
 
-[Weitere Informationen](http://www.amic.de/hilfe/!_allgemeineprogrammfu.htm)
+[Weitere Informationen](../../../index.md)
 
 #### Tags:
 

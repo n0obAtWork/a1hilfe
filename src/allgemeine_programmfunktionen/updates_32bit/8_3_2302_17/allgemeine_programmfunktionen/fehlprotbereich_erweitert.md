@@ -18,7 +18,7 @@ Variante: Systemhinweise
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/!fehlerprotokollneu.htm)
+[Weitere Informationen](../../../../zusatzprogramme/fehlerprotokoll_systemhinweise/index.md)
 
 #### Tags:
 

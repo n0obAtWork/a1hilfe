@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/standardwaagenprofiluntersttzu.htm)
+[Weitere Informationen](../../../../waagenanbindung/waagenterminals/standardwaagenprofil_unterstuetzung_aeinswiege.md)
 
 #### Tags:
 

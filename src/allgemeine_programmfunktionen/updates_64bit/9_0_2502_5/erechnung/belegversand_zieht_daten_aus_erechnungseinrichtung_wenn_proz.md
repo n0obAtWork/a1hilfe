@@ -20,7 +20,7 @@ Variante: Alle Varianten wo man Vorgänge drucken kann.
 
 Funktion/Report: Formulardruck(F10)
 
-[Weitere Informationen](http://www.amic.de/hilfe/!abwicklung1)
+[Weitere Informationen](../../../../vorgangsabwicklung/formularzuordnung/abwicklung.md)
 
 #### Tags:
 

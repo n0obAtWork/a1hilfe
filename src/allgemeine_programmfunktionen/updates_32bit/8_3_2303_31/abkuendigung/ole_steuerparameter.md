@@ -18,7 +18,7 @@ Variante: Steuerparameter
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/_steuerparameter.htm)
+[Weitere Informationen](../../../../firmenstamm/steuerparameter/index.md)
 
 #### Tags:
 

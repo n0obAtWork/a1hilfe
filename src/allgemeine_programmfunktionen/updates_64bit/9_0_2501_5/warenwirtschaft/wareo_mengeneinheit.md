@@ -18,7 +18,7 @@ Variante: Wareo
 
 Funktion/Report: Partiebestände reorganisieren
 
-[Weitere Informationen](http://www.amic.de/hilfe/wareo.htm)
+[Weitere Informationen](../../../../zusatzprogramme/events/wareo.md)
 
 #### Tags:
 

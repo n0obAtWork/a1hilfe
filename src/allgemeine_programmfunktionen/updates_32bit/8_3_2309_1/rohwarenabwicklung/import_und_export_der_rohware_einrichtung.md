@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: alle
 
-[Weitere Informationen](http://www.amic.de/hilfe/konstantenundtabellenfrdieeinr.htm)
+[Weitere Informationen](../../../../rohware_modul/konstanten_und_tabellen_fuer_die_einrichtung_von_abrechnungs/index.md)
 
 #### Tags:
 

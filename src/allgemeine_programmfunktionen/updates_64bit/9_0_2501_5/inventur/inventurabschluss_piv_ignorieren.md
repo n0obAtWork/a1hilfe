@@ -18,7 +18,7 @@ Variante: Inventurende Abschlussarbeiten
 
 Funktion/Report: Inventur abschließen
 
-[Weitere Informationen](http://www.amic.de/hilfe/inventurende.htm)
+[Weitere Informationen](../../../../abschluesse_inventur/inventur/inventurende.md)
 
 #### Tags:
 

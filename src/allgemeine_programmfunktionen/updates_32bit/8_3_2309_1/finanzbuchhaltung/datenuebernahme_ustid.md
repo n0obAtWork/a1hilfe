@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/resultsetderfibudatenbernahme.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/fibu_schnittstellen/importverfahren_der_finanzbuchhaltung/datenuebernahme_schnittstelle/resultset_der_fibu_datenuebernahme.md)
 
 #### Tags:
 

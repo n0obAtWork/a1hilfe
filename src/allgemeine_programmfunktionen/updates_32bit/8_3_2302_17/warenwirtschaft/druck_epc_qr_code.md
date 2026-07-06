@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/_frmpepcqrcode.htm)
+[Weitere Informationen](../../../../zusatzprogramme/formulareinrichtung_und_zuordnung/epc_qr_code_im_formularfuss.md)
 
 #### Tags:
 

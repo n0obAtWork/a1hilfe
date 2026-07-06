@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: Update/Nachlaufprozedur
 
-[Weitere Informationen](http://www.amic.de/hilfe/mandantenstammmnd.htm)
+[Weitere Informationen](../../../../firmenstamm/firmenkonstanten/mandantenstamm.md)
 
 #### Tags:
 

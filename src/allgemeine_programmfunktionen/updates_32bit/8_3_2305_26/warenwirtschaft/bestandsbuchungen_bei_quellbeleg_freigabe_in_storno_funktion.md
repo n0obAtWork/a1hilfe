@@ -18,7 +18,7 @@ Variante: alle
 
 Funktion/Report: Stornieren/Löschen, Stornobeleg-Erstellung
 
-[Weitere Informationen](http://www.amic.de/hilfe/_SPA_987.htm)
+[Weitere Informationen](../../../../firmenstamm/steuerparameter/vorgangsbearbeitung_umwandlung/quellbelegreaktivierung_bei_stornieren_loeschen_von_warebele.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/ausgehendenachrichtenbatch.htm)
+[Weitere Informationen](../../../../zusatzprogramme/edi_nachrichtentransfer/ausgehende_nachrichten_batch/index.md)
 
 #### Tags:
 

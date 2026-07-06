@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: Textbaustein
 
-[Weitere Informationen](http://www.amic.de/hilfe/!_kontraktvarianten.htm)
+[Weitere Informationen](../../../../kontrakt/kontraktvarianten/index.md)
 
 #### Tags:
 

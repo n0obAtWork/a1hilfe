@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/zahlungsverkehr1.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/zahlungsverkehr/index.md)
 
 #### Tags:
 

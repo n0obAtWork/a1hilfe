@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: F3-Auswahl
 
-[Weitere Informationen](http://www.amic.de/hilfe/_EPA_SVWARE.htm)
+[Weitere Informationen](../../../../firmenstamm/einrichterparameter/maskentitel_epa_svware.md)
 
 #### Tags:
 

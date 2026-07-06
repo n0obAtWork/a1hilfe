@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/!_inventur.htm)
+[Weitere Informationen](../../../../abschluesse_inventur/inventur/index.md)
 
 #### Tags:
 

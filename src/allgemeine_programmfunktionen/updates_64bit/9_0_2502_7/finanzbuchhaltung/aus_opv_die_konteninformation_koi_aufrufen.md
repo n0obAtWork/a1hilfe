@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: Konteninformation
 
-[Weitere Informationen](http://www.amic.de/hilfe/!funktioneninderopverwaltung.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/op_verwaltung/funktionen_in_der_op_verwaltung.md)
 
 #### Tags:
 

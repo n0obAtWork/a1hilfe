@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/archivmitderauswahlliste20.htm)
+[Weitere Informationen](../../../../zusatzprogramme/auswahlliste_2_0/archiv_mit_der_auswahlliste_2_0.md)
 
 #### Tags:
 

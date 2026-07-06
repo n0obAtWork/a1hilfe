@@ -18,7 +18,7 @@ Variante: Individuelle Artikelnummern
 
 Funktion/Report: Ändern
 
-[Weitere Informationen](http://www.amic.de/hilfe/_artiindivnummer.htm)
+[Weitere Informationen](../../../../artikelstamm_und_artikel/individuelle_artikelnummern.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/_PFLMODUL_IPRRAB.htm)
+[Weitere Informationen](../../../../preise_konditionen/pflegefunktion_fuer_rabatte_zu_abschlaege_individuelle_preis/index.md)
 
 #### Tags:
 

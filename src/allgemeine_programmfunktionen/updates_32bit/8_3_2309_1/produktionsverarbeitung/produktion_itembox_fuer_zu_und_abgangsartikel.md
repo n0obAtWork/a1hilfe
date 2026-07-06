@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/_FRZ_Produktion.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/formularzuordnung/produktion.md)
 
 #### Tags:
 

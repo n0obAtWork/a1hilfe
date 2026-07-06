@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/!lagerumbuchung.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/vorgangsbearbeitung_allgemein/vorgangsklassen_in_a_eins/lagerumbuchung.md)
 
 #### Tags:
 

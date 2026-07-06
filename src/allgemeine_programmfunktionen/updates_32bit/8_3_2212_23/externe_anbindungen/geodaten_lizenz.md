@@ -18,7 +18,7 @@ Variante: Kunden
 
 Funktion/Report: diverse Funktionen wie Google Maps und Karte
 
-[Weitere Informationen](http://www.amic.de/hilfe/_SPA_856.htm)
+[Weitere Informationen](../../../../firmenstamm/steuerparameter/lizenzen/geodaten_lizenz_spa_856.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: Bewegungsübersicht
 
 Funktion/Report: Massebilanz zuordnen, Massebilanz entfernen, STRG + R
 
-[Weitere Informationen](http://www.amic.de/hilfe/!_nachhaltigkeit_ausw_bewegungsueber.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/nachhaltigkeit/auswertungen/bewegungsuebersicht.md)
 
 #### Tags:
 

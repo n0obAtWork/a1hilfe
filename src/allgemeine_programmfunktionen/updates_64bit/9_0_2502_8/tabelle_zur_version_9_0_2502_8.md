@@ -4,7 +4,7 @@
 
 | **ID** | **Releasenote - Titel** | **Geprüft** |
 | --- | --- | --- |
-| [38544](http://www.amic.de/hilfe/_90_38544.htm) | eRechnung | |
-| [38545](http://www.amic.de/hilfe/_90_38545.htm) | eRechnung Artikelbeschreibung | |
-| [38548](http://www.amic.de/hilfe/_90_38548.htm) | Mengeneinheiten in Objekt-/Baustellenartikeln | |
-| [38495](http://www.amic.de/hilfe/_90_38495.htm) | AnyBill Mengeneinheiten | |
+| [38544](./erechnung/erechnung.md) | eRechnung | |
+| [38545](./erechnung/erechnung_artikelbeschreibung.md) | eRechnung Artikelbeschreibung | |
+| [38548](./objektverwaltung/mengeneinheiten_in_objekt_baustellenartikeln.md) | Mengeneinheiten in Objekt-/Baustellenartikeln | |
+| [38495](./stammdatenanpassungen/anybill_mengeneinheiten.md) | AnyBill Mengeneinheiten | |

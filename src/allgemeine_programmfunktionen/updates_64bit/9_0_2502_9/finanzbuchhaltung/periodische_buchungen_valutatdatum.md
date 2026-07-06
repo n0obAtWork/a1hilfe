@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/periodischebuchungen.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/belegerfassung/periodische_buchungen.md)
 
 #### Tags:
 

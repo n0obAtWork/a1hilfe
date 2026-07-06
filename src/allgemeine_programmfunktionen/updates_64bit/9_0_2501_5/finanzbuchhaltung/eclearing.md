@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/zahlungsbelegerstellenbuchen.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/e_clearing/zahlungsbeleg_erstellen_buchen.md)
 
 #### Tags:
 

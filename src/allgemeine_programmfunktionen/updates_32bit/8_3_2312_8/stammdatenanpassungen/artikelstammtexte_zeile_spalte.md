@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/_textzeilen.htm)
+[Weitere Informationen](../../../../artikelstamm_und_artikel/parameter_des_artikelstamms/textzeilen.md)
 
 #### Tags:
 

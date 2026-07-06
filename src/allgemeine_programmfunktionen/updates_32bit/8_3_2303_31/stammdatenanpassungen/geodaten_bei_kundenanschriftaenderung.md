@@ -18,7 +18,7 @@ Variante: Standard
 
 Funktion/Report: Ändern
 
-[Weitere Informationen](http://www.amic.de/hilfe/_hauptmaske.htm)
+[Weitere Informationen](../../../../kunden_und_lieferanten/kunden_und_lieferantenstamm/hauptmaske/index.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: Hofliste
 
 Funktion/Report: Vermehrungsvertrag Auswahl
 
-[Weitere Informationen](http://www.amic.de/hilfe/_EPA_OWAAGE.htm)
+[Weitere Informationen](../../../../firmenstamm/einrichterparameter/online_waage_epa_owaage.md)
 
 #### Tags:
 

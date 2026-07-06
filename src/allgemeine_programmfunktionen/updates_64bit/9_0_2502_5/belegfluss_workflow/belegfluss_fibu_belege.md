@@ -18,7 +18,7 @@ Variante: meine Postfächer
 
 Funktion/Report: Fibu-Beleg erzeugen
 
-[Weitere Informationen](http://www.amic.de/hilfe/#!belegflusspfleger.htm)
+[Weitere Informationen](../../../../dokumentenverwaltung/belegfluss/belegfluss_modul/belegfluss_variante_1_meine_postfaecher/belegfluss_pfleger.md)
 
 #### Tags:
 

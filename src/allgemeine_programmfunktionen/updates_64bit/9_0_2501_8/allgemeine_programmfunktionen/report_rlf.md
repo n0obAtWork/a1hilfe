@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/reportdateien.htm)
+[Weitere Informationen](../../../../zusatzprogramme/crystal_report/crystal_report_definieren/reportdateien.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: Formulararchiv
 
 Funktion/Report: E-Mail Senden An
 
-[Weitere Informationen](http://www.amic.de/hilfe/_EPA_FA_MAIL)
+[Weitere Informationen](../../../../firmenstamm/einrichterparameter/archiv_mail_versand_epa_fa_mail.md)
 
 #### Tags:
 

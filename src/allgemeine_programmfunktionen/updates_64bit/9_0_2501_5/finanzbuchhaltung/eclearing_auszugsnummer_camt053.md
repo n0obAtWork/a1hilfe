@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/dateienladen.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/e_clearing/dateien_laden.md)
 
 #### Tags:
 

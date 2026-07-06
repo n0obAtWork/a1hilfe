@@ -18,7 +18,7 @@ Variante: Protokoll FIBU-Übertrag
 
 Funktion/Report: [FIBF]
 
-[Weitere Informationen](http://www.amic.de/hilfe/journalereignisprotokoll.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/buchungen_finanzbuchhaltung/journal_ereignisprotokoll.md)
 
 #### Tags:
 

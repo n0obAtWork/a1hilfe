@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: VNV
 
-[Weitere Informationen](http://www.amic.de/hilfe/_vorgang_nachverfolgung.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/vorgangsbearbeitung/vorgang_nachverfolgung.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/artikelerfassungf4.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/erfassungs_und_bearbeitungsfunktionen/artikelerfassung_f4/index.md)
 
 #### Tags:
 

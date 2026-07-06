@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: [OBJ] - Ändern
 
-[Weitere Informationen](http://www.amic.de/hilfe/!_baustelle.htm)
+[Weitere Informationen](../../../../zusatzprogramme/objekt_stamm.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: STD
 
 Funktion/Report: Email
 
-[Weitere Informationen](http://www.amic.de/hilfe/kundenundlieferanten1.htm)
+[Weitere Informationen](../../../../kunden_und_lieferanten/kunden_und_lieferantenstamm/index.md)
 
 #### Tags:
 

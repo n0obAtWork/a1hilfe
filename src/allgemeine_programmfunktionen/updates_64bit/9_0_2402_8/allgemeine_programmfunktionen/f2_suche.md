@@ -18,7 +18,7 @@ Variante: Einkauf / Verkauf
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/#!_PreiskalkulationExcel.htm)
+[Weitere Informationen](../../../../zusatzprogramme/preiskalkulation_durchfuehren/preiskalkulation_excel/index.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: Benutzerfelder
 
 Funktion/Report: Bearbeiten
 
-[Weitere Informationen](http://www.amic.de/hilfe/_userfelder.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/userfelder.md)
 
 #### Tags:
 

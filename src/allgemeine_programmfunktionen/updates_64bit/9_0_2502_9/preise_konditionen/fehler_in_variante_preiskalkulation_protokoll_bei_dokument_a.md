@@ -18,7 +18,7 @@ Variante: Preiskalkulation Protokoll
 
 Funktion/Report: Dokument anzeigen (F11)
 
-[Weitere Informationen](http://www.amic.de/hilfe/_PreiskalkulationExcel.htm)
+[Weitere Informationen](../../../../zusatzprogramme/preiskalkulation_durchfuehren/preiskalkulation_excel/index.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: Problemfälle VorgReservierung, Fehlerhafte Vorgänge aus der Ware entf.
 
-[Weitere Informationen](http://www.amic.de/hilfe/_WareoVorgReservierung.htm)
+[Weitere Informationen](../../../../abschluesse_inventur/reorganisation/problemfaelle_vorgreservierung.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/kontobltterdrucken.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/kontoblattdruck/kontoblaetter_drucken.md)
 
 #### Tags:
 

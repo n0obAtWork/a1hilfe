@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/datevexporterstellen.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/fibu_schnittstellen/exportverfahren_der_finanzbuchhaltung/datev/datev_export_erstellen.md)
 
 #### Tags:
 

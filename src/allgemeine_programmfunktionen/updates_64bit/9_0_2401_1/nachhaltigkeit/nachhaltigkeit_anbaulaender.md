@@ -18,7 +18,7 @@ Variante: Anschriften, Kundenversandanschrift, Läger
 
 Funktion/Report: F5, F8
 
-[Weitere Informationen](http://www.amic.de/hilfe/_nachhaltigkeit_ermittlung_der_werte.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/nachhaltigkeit/abwicklung/ermittlung_des_nachhaltigkeitsstatus_und_der_thg_werte.md)
 
 #### Tags:
 

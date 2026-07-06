@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: F8
 
-[Weitere Informationen](http://www.amic.de/hilfe/kassenSichVsfs2.htm)
+[Weitere Informationen](../../../../kasse/kassensicherungsverordnung/setup_erstinbetriebnahme_schritt_fuer_schritt_anleitung/tse_setup_schritt_2_konfiguration.md)
 
 #### Tags:
 

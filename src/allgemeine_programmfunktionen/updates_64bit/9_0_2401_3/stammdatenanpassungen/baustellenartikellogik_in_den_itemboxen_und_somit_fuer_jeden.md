@@ -18,7 +18,7 @@ Variante: Objektstamm nach Nummer
 
 Funktion/Report: F8, F5
 
-[Weitere Informationen](http://www.amic.de/hilfe/_baustelle.htm)
+[Weitere Informationen](../../../../zusatzprogramme/objekt_stamm.md)
 
 #### Tags:
 

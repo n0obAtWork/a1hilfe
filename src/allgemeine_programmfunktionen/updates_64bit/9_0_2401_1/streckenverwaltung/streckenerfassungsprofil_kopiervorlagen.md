@@ -18,7 +18,7 @@ Variante: Erfassung / Profile
 
 Funktion/Report: n/a
 
-[Weitere Informationen](http://www.amic.de/hilfe/_vorgangsmappe.htm)
+[Weitere Informationen](../../../../zusatzprogramme/streckenerfassung/index.md)
 
 #### Tags:
 

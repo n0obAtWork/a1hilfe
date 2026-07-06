@@ -18,7 +18,7 @@ Variante: Standard
 
 Funktion/Report: n/a
 
-[Weitere Informationen](http://www.amic.de/hilfe/allgemeinallgemeineundgenerell.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/formularzuordnung/allgemein_allgemeine_und_generelle_vorgangszuordnungen.md)
 
 #### Tags:
 

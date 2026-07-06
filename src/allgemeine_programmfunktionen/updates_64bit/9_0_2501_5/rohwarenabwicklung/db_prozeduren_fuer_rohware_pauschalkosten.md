@@ -18,7 +18,7 @@ Variante: alle
 
 Funktion/Report: Neu, Ändern
 
-[Weitere Informationen](http://www.amic.de/hilfe/qualittsundkostenmerkmalwertep.htm)
+[Weitere Informationen](../../../../rohware_modul/rohwarequalitaets_und_kostenpositionen_datenbankprozedur_und/qualitaets_und_kostenmerkmalwerte_per_datenbankprozedur_best.md)
 
 #### Tags:
 

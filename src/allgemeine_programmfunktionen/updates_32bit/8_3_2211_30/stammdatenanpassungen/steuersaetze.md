@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: Steuersätze F8
 
-[Weitere Informationen](http://www.amic.de/hilfe/stammdatensteuerstze.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/umsatzsteuer/steuersaetze_einrichten/stammdaten_steuersaetze.md)
 
 #### Tags:
 

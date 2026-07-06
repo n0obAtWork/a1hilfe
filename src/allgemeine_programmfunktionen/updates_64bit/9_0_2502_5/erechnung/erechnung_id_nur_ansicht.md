@@ -18,7 +18,7 @@ Variante: STD
 
 Funktion/Report: Fibu Beleg Erfassen (ER / EG)
 
-[Weitere Informationen](http://www.amic.de/hilfe/!belegerfassung.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/belegerfassung/index.md)
 
 #### Tags:
 

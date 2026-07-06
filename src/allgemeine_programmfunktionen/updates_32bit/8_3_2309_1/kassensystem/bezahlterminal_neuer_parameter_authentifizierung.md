@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/technischeinformationzurkonfig1.htm)
+[Weitere Informationen](../../../../zusatzprogramme/ehemalige_addins_uebersicht/n_a/bezahlterminal_metis/technische_information_zur_konfiguration_des_kassenmakros.md)
 
 #### Tags:
 

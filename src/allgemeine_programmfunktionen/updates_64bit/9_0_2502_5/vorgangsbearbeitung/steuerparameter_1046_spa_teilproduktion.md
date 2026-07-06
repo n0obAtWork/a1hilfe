@@ -18,7 +18,7 @@ Variante: Steuerparameter
 
 Funktion/Report: Gültigkeiten
 
-[Weitere Informationen](http://www.amic.de/hilfe/_SPA_1046.htm)
+[Weitere Informationen](../../../../firmenstamm/steuerparameter/teilproduktion_spa_1046.md)
 
 #### Tags:
 

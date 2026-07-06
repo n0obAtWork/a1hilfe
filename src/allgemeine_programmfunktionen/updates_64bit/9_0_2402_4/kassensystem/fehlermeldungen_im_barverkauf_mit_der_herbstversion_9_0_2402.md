@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/tresenkasse.htm)
+[Weitere Informationen](../../../../kasse/das_barverkaufssystem/erfassung_mit_den_verschiedenen_kassensystemen/tresenkasse/index.md)
 
 #### Tags:
 

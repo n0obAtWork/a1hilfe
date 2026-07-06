@@ -18,7 +18,7 @@ Variante: Inventuraufnahme / Zählbestand
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/inventur.htm)
+[Weitere Informationen](../../../../abschluesse_inventur/inventur/index.md)
 
 #### Tags:
 

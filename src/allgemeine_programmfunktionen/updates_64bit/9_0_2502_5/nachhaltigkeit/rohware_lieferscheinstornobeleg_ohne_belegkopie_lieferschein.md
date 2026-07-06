@@ -18,7 +18,7 @@ Variante: Rohware Anlieferung Einkauf, Rohwareanlieferung Verkauf, Massebilanz, 
 
 Funktion/Report: Lie. Stornobeleg
 
-[Weitere Informationen](http://www.amic.de/hilfe/stornoabrechnung.htm)
+[Weitere Informationen](../../../../rohware_modul/storno/stornoabrechnung.md)
 
 #### Tags:
 

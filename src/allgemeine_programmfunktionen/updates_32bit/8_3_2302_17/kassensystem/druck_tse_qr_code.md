@@ -18,7 +18,7 @@ Variante: BVVE
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/_faq_vorgang.htm)
+[Weitere Informationen](../../../../a_eins_faq/vorgang.md)
 
 #### Tags:
 

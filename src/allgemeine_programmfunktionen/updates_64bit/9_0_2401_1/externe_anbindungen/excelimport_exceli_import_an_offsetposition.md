@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: Import an Offsetposition
 
-[Weitere Informationen](http://www.amic.de/hilfe/excelimportpfleger.htm)
+[Weitere Informationen](../../../../zusatzprogramme/excel_import/excel_import_pfleger.md)
 
 #### Tags:
 

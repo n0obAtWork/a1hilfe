@@ -18,7 +18,7 @@ Variante: Formulararchiv eRechnung
 
 Funktion/Report: eRechnung verarbeiten
 
-[Weitere Informationen](http://www.amic.de/hilfe/erechnungimarchiv)
+[Weitere Informationen](../../../../erechnung/erechnung_im_archiv/index.md)
 
 #### Tags:
 

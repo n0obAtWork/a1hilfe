@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/funktionenderkonteninformation.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/konteninformationen/funktionen_der_konteninformation.md)
 
 #### Tags:
 

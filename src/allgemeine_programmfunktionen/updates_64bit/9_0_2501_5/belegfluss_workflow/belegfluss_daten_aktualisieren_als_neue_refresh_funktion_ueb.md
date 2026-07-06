@@ -18,7 +18,7 @@ Variante: Meine Postfächer, Postfach-Einrichtung
 
 Funktion/Report: Daten aktualisieren
 
-[Weitere Informationen](http://www.amic.de/hilfe/!belegflusspostfacheinrichtungs.htm)
+[Weitere Informationen](../../../../dokumentenverwaltung/belegfluss/belegfluss_modul/belegfluss_variante_4_postfacheinrichtung/belegfluss_postfacheinrichtungspfleger.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: Kundenwechsel
 
-[Weitere Informationen](http://www.amic.de/hilfe/_behandlungsschemata.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/vorgangsbearbeitung/aenderung_der_kundennummer/behandlungsschema.md)
 
 #### Tags:
 

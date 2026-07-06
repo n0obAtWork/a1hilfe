@@ -18,7 +18,7 @@ Variante: n/a
 
 Funktion/Report: Neu/Ändern
 
-[Weitere Informationen](http://www.amic.de/hilfe/stammdatensteuerstze.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/umsatzsteuer/steuersaetze_einrichten/stammdaten_steuersaetze.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: Basis für QuickReport (VKA)
 
 Funktion/Report: Auswahlliste
 
-[Weitere Informationen](http://www.amic.de/hilfe/_kundensummen.htm)
+[Weitere Informationen](../../../../kunden_und_lieferanten/kunden_und_lieferantenstamm/kundensummen.md)
 
 #### Tags:
 

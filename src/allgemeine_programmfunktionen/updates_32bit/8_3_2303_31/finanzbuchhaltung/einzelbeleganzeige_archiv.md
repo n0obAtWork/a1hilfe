@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/einzelbeleganzeige.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/op_verwaltung/einzelbeleganzeige.md)
 
 #### Tags:
 

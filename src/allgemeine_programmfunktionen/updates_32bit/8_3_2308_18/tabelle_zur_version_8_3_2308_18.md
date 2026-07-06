@@ -4,4 +4,4 @@
 
 | **ID** | **Releasenote - Titel** | **Geprüft** |
 | --- | --- | --- |
-| [34094](http://www.amic.de/hilfe/_83_34094.htm) | Kopieren eines Vorgangs mit Teildispositionskennzeichen | |
+| [34094](./warenwirtschaft/kopieren_eines_vorgangs_mit_teildispositionskennzeichen.md) | Kopieren eines Vorgangs mit Teildispositionskennzeichen | |

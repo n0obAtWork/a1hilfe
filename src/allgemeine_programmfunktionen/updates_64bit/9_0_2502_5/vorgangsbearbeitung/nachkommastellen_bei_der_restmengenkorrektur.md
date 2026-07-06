@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/_auftrag_restmengenkorrektur.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/vorgangsbearbeitung/auftrag_restmengenkorrektur.md)
 
 #### Tags:
 

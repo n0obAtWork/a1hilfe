@@ -4,10 +4,10 @@
 
 | **ID** | **Releasenote - Titel** | **Geprüft** |
 | --- | --- | --- |
-| [34413](http://www.amic.de/hilfe/_83_34413.htm) | Auswahlliste Vermailung | |
-| [34430](http://www.amic.de/hilfe/_83_34430.htm) | Drucker-Schachtsteuerung | |
-| [34499](http://www.amic.de/hilfe/_83_34499.htm) | Mailversand | |
-| [34307](http://www.amic.de/hilfe/_83_34307.htm) | PDF-Engine (PDF-Erzeugung-Bibliotheken) erneuert. | |
-| [34004](http://www.amic.de/hilfe/_83_34004.htm) | Zählmenge wird auch vor der Bewertung angezeigt | |
-| [34447](http://www.amic.de/hilfe/_83_34447.htm) | Artikelstamm: Mengeneinheitengruppe | |
-| [34509](http://www.amic.de/hilfe/_83_34509.htm) | Tastatursteuerung: Warenbewegung-Addon | |
+| [34413](./allgemeine_programmfunktionen/auswahlliste_vermailung.md) | Auswahlliste Vermailung | |
+| [34430](./allgemeine_programmfunktionen/drucker_schachtsteuerung.md) | Drucker-Schachtsteuerung | |
+| [34499](./allgemeine_programmfunktionen/mailversand.md) | Mailversand | |
+| [34307](./externe_anbindungen/pdf_engine_pdf_erzeugung_bibliotheken_erneuert.md) | PDF-Engine (PDF-Erzeugung-Bibliotheken) erneuert. | |
+| [34004](./inventur/zaehlmenge_wird_auch_vor_der_bewertung_angezeigt.md) | Zählmenge wird auch vor der Bewertung angezeigt | |
+| [34447](./stammdatenanpassungen/artikelstamm_mengeneinheitengruppe.md) | Artikelstamm: Mengeneinheitengruppe | |
+| [34509](./warenwirtschaft/tastatursteuerung_warenbewegung_addon.md) | Tastatursteuerung: Warenbewegung-Addon | |

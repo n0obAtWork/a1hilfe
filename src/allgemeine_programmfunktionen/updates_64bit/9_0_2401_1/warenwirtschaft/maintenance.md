@@ -18,7 +18,7 @@ Variante: Erfassung
 
 Funktion/Report: Erfassung
 
-[Weitere Informationen](http://www.amic.de/hilfe/erfassungdeskunden.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/vorgangskopf/erfassung_des_kunden.md)
 
 #### Tags:
 

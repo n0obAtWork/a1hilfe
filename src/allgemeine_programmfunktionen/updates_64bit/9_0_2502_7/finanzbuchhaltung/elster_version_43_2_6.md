@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/elster.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/umsatzsteuer/elster.md)
 
 #### Tags:
 

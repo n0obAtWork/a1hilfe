@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: Create
 
-[Weitere Informationen](http://www.amic.de/hilfe/allgemeineprogrammfu.htm)
+[Weitere Informationen](../../../index.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: alle
 
 Funktion/Report: [KU]
 
-[Weitere Informationen](http://www.amic.de/hilfe/_konstantenbearbeitun.htm)
+[Weitere Informationen](../../../../kunden_und_lieferanten/konstanten_bearbeitung/index.md)
 
 #### Tags:
 

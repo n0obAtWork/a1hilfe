@@ -4,15 +4,15 @@
 
 | **ID** | **Releasenote - Titel** | **Geprüft** |
 | --- | --- | --- |
-| [33065](http://www.amic.de/hilfe/_83_33065.htm) | Preiskalkulation | |
-| [33016](http://www.amic.de/hilfe/_83_33016.htm) | Windows 11 /Windows Server 2022 | |
-| [33086](http://www.amic.de/hilfe/_83_33086.htm) | A.eins.Libary-Viewer | |
-| [33091](http://www.amic.de/hilfe/_83_33091.htm) | Geodaten anfragen | |
-| [33022](http://www.amic.de/hilfe/_83_33022.htm) | Belegfluss | |
-| [32988](http://www.amic.de/hilfe/_83_32988.htm) | Mail-Funktionen in der Ware | |
-| [33099](http://www.amic.de/hilfe/_83_33099.htm) | Spalten für permanente Inventur in Warenbuch/Auswertung | |
-| [33020](http://www.amic.de/hilfe/_83_33020.htm) | Steuersätze | |
-| [33083](http://www.amic.de/hilfe/_83_33083.htm) | Hersteller bei individuellen Artikelnummern | |
-| [32077](http://www.amic.de/hilfe/_83_32077.htm) | Editieren teildisponierter Positionen | |
-| [33031](http://www.amic.de/hilfe/_83_33031.htm) | Teildisposition Erledigung bei Übererfüllung | |
-| [33117](http://www.amic.de/hilfe/_83_33117.htm) | Vorzeichen bei rechnungebearbeitung | |
+| [33065](./abkuendigung/preiskalkulation.md) | Preiskalkulation | |
+| [33016](./allgemeine_programmfunktionen/windows_11_windows_server_2022.md) | Windows 11 /Windows Server 2022 | |
+| [33086](./allgemeine_programmfunktionen/a_eins_libary_viewer.md) | A.eins.Libary-Viewer | |
+| [33091](./allgemeine_programmfunktionen/geodaten_anfragen.md) | Geodaten anfragen | |
+| [33022](./dokumentenverwaltung/belegfluss.md) | Belegfluss | |
+| [32988](./externe_anbindungen/mail_funktionen_in_der_ware.md) | Mail-Funktionen in der Ware | |
+| [33099](./inventur/spalten_fuer_permanente_inventur_in_warenbuch_auswertung.md) | Spalten für permanente Inventur in Warenbuch/Auswertung | |
+| [33020](./stammdatenanpassungen/steuersaetze.md) | Steuersätze | |
+| [33083](./stammdatenanpassungen/hersteller_bei_individuellen_artikelnummern.md) | Hersteller bei individuellen Artikelnummern | |
+| [32077](./warenwirtschaft/editieren_teildisponierter_positionen.md) | Editieren teildisponierter Positionen | |
+| [33031](./warenwirtschaft/teildisposition_erledigung_bei_uebererfuellung.md) | Teildisposition Erledigung bei Übererfüllung | |
+| [33117](./warenwirtschaft/vorzeichen_bei_rechnungebearbeitung.md) | Vorzeichen bei rechnungebearbeitung | |

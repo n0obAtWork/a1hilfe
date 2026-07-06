@@ -4,8 +4,8 @@
 
 | **ID** | **Releasenote - Titel** | **Geprüft** |
 | --- | --- | --- |
-| [35249](http://www.amic.de/hilfe/_90_35249.htm) | Geodatendienst Mandantenstamm | |
-| [35635](http://www.amic.de/hilfe/_90_35635.htm) | Belegfluss | |
-| [35627](http://www.amic.de/hilfe/_90_35627.htm) | Kontraktstamm Länge des Eingabefeldes Hauptkunde | |
-| [35447](http://www.amic.de/hilfe/_90_35447.htm) | Belegdatum bei der Erzeugung von Rohware-Stornobelegen | |
-| [35519](http://www.amic.de/hilfe/_90_35519.htm) | Onlinewaage Versandanschrift | |
+| [35249](./externe_anbindungen/geodatendienst_mandantenstamm.md) | Geodatendienst Mandantenstamm | |
+| [35635](./finanzbuchhaltung/belegfluss.md) | Belegfluss | |
+| [35627](./kontraktverarbeitung/kontraktstamm_laenge_des_eingabefeldes_hauptkunde.md) | Kontraktstamm Länge des Eingabefeldes Hauptkunde | |
+| [35447](./rohwarenabwicklung/belegdatum_bei_der_erzeugung_von_rohware_stornobelegen.md) | Belegdatum bei der Erzeugung von Rohware-Stornobelegen | |
+| [35519](./waagenanbindungen/onlinewaage_versandanschrift.md) | Onlinewaage Versandanschrift | |

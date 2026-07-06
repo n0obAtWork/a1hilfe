@@ -18,7 +18,7 @@ Variante: Alle
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/anwendungsregister.htm)
+[Weitere Informationen](../../../../zusatzprogramme/auswahlliste_2_0/anwendungsregister/index.md)
 
 #### Tags:
 

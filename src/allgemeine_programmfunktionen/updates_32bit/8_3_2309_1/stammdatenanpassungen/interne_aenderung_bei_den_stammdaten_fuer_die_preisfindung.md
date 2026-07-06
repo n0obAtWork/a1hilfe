@@ -18,7 +18,7 @@ Variante: Individualpreisklasse
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/_indivPreisKlasse.htm)
+[Weitere Informationen](../../../../preise_konditionen/individuelle_preise/individuelle_preisklasse.md)
 
 #### Tags:
 

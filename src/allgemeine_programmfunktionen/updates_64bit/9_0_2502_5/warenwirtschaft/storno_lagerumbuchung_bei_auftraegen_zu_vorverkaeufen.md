@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: Storno Auftrag bei Vorverkauf
 
-[Weitere Informationen](http://www.amic.de/hilfe/auftrag.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/vorgangsbearbeitung_allgemein/vorgangsklassen_in_a_eins/auftrag/index.md)
 
 #### Tags:
 

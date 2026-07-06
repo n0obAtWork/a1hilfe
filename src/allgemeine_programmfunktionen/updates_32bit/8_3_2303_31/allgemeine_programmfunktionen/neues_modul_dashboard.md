@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: [DASH]
 
-[Weitere Informationen](http://www.amic.de/hilfe/dasdashboard.htm)
+[Weitere Informationen](../../../../zusatzprogramme/menue/das_dashboard/index.md)
 
 #### Tags:
 

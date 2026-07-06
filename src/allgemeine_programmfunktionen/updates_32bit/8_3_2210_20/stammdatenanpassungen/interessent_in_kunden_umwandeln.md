@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/_kunden_interessenten.htm)
+[Weitere Informationen](../../../../kunden_und_lieferanten/interessenten.md)
 
 #### Tags:
 

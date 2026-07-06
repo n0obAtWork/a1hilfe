@@ -18,7 +18,7 @@ Variante: Vorgangsunterklassen
 
 Funktion/Report: Registerkarte SPA
 
-[Weitere Informationen](http://www.amic.de/hilfe/spa.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/formularzuordnung/spa.md)
 
 #### Tags:
 

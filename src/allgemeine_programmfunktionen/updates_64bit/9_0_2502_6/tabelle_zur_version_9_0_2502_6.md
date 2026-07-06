@@ -4,8 +4,8 @@
 
 | **ID** | **Releasenote - Titel** | **Geprüft** |
 | --- | --- | --- |
-| [37881](http://www.amic.de/hilfe/_90_37881.htm) | Differenzwertberechnungen | |
-| [38119](http://www.amic.de/hilfe/_90_38119.htm) | Outlook Drag and Drop | |
-| [38208](http://www.amic.de/hilfe/_90_38208.htm) | Archivansicht | |
-| [38257](http://www.amic.de/hilfe/_90_38257.htm) | Archiv-Vorschau "großer" Pdf-Inhalte | |
-| [38074](http://www.amic.de/hilfe/_90_38074.htm) | XRE - Fibuerfassung - Kontonummer nun korrekt | |
+| [37881](./allgemeine_programmfunktionen/differenzwertberechnungen.md) | Differenzwertberechnungen | |
+| [38119](./dokumentenverwaltung/outlook_drag_and_drop.md) | Outlook Drag and Drop | |
+| [38208](./dokumentenverwaltung/archivansicht.md) | Archivansicht | |
+| [38257](./dokumentenverwaltung/archiv_vorschau_grosser_pdf_inhalte.md) | Archiv-Vorschau "großer" Pdf-Inhalte | |
+| [38074](./erechnung/xre_fibuerfassung_kontonummer_nun_korrekt.md) | XRE - Fibuerfassung - Kontonummer nun korrekt | |

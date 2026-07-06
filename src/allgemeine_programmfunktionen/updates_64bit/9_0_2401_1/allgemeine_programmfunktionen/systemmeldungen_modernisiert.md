@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/hauptmensystemmeldebereich.htm)
+[Weitere Informationen](../../../../zusatzprogramme/menue/das_hauptauswahlmenue/hauptmenue_systemmeldebereich.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/crystalreportberjppaufrufen.htm)
+[Weitere Informationen](../../../../zusatzprogramme/crystal_report/crystal_report_ueber_jpp_aufrufen.md)
 
 #### Tags:
 

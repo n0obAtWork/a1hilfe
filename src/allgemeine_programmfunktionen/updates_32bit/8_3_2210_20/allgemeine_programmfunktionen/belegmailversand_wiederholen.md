@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: Beleg erneut versenden
 
-[Weitere Informationen](http://www.amic.de/hilfe/_vpstmailversandallgemein.htm)
+[Weitere Informationen](../../../../zusatzprogramme/mailversand_allgemein/index.md)
 
 #### Tags:
 

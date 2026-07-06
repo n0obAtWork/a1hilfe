@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: Archiv anzeigen
 
-[Weitere Informationen](http://www.amic.de/hilfe/_zertifikate.htm)
+[Weitere Informationen](../../../../kunden_und_lieferanten/kunden_und_lieferantenstamm/zertifikate.md)
 
 #### Tags:
 

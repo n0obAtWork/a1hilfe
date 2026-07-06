@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/bankenstamm.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/zahlungsverkehr/stammdaten_zahlungsverkehr/bankenstamm.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/_PreiskalkulationExcelOptionen.htm)
+[Weitere Informationen](../../../../zusatzprogramme/preiskalkulation_durchfuehren/preiskalkulation_excel/preisdatenexport_einrichten_f10.md)
 
 #### Tags:
 

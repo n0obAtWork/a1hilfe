@@ -18,7 +18,7 @@ Variante: Export-Profile
 
 Funktion/Report: Anlegen / Ändern
 
-[Weitere Informationen](http://www.amic.de/hilfe/oberflchestartseite.htm)
+[Weitere Informationen](../../../../erechnung/erechnung_profilpfleger/oberflaeche_startseite.md)
 
 #### Tags:
 

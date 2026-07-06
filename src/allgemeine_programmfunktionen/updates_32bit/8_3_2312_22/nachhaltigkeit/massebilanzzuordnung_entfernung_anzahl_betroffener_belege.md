@@ -18,7 +18,7 @@ Variante: Bewegungsübersicht
 
 Funktion/Report: Massebilanz ändern.
 
-[Weitere Informationen](http://www.amic.de/hilfe/_nachhaltigkeit_ausw_bewegungsueber.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/nachhaltigkeit/auswertungen/bewegungsuebersicht.md)
 
 #### Tags:
 

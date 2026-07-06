@@ -18,7 +18,7 @@ Variante: Zollwarennummer
 
 Funktion/Report: Zollwarennummern einspielen
 
-[Weitere Informationen](http://www.amic.de/hilfe/_zollwarennummer.htm)
+[Weitere Informationen](../../../../firmenstamm/zollwarennummer.md)
 
 #### Tags:
 

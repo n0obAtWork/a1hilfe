@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/datentabelle.htm)
+[Weitere Informationen](../../../../zusatzprogramme/auswahlliste_2_0/datentabelle.md)
 
 #### Tags:
 

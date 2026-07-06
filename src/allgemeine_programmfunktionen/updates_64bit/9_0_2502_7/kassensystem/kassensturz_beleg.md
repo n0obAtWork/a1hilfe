@@ -18,7 +18,7 @@ Variante: Kasseneröffnung
 
 Funktion/Report: Abschluss
 
-[Weitere Informationen](http://www.amic.de/hilfe/_kass_sturz_abschluss.htm)
+[Weitere Informationen](../../../../kasse/das_barverkaufssystem/kassensturz_und_kassenabschluss.md)
 
 #### Tags:
 

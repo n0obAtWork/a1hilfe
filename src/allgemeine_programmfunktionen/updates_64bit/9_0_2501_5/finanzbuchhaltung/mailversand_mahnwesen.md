@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/mahnstamm.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/mahnwesen/mahnstamm.md)
 
 #### Tags:
 

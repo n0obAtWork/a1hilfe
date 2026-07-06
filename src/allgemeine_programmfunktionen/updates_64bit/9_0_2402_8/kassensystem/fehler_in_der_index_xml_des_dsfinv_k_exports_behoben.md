@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: Export erzeugen (F10)
 
-[Weitere Informationen](http://www.amic.de/hilfe/_dsfinvkexport.htm)
+[Weitere Informationen](../../../../kasse/kassensicherungsverordnung/dsfinv_k_export.md)
 
 #### Tags:
 

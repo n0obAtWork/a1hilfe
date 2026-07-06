@@ -18,7 +18,7 @@ Variante: Artikelbestände mit FremdwareDispo
 
 Funktion/Report: Auswahlliste
 
-[Weitere Informationen](http://www.amic.de/hilfe/begriffsdefinitionen1.htm)
+[Weitere Informationen](../../../../abschluesse_inventur/waren_lager_und_eigentumsbegriffe/begriffsdefinitionen.md)
 
 #### Tags:
 

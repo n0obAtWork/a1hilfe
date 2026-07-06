@@ -18,7 +18,7 @@ Variante: Standard
 
 Funktion/Report: eRechnung exportieren
 
-[Weitere Informationen](http://www.amic.de/hilfe/erechnungexport.htm)
+[Weitere Informationen](../../../../erechnung/erechnung_export/index.md)
 
 #### Tags:
 

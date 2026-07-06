@@ -18,7 +18,7 @@ Variante: Staatstamm
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/staatstamm.htm)
+[Weitere Informationen](../../../../firmenstamm/staatstamm/index.md)
 
 #### Tags:
 

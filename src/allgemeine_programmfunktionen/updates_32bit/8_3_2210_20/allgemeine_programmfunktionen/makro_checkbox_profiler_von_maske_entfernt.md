@@ -18,7 +18,7 @@ Variante: Makroprogramme
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/makroodermakrofstatement.htm)
+[Weitere Informationen](../../../../zusatzprogramme/osql/sammlung_der_kommandos/makro_oder_makrof_statement.md)
 
 #### Tags:
 

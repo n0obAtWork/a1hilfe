@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/vorgangsenden.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/vorgangsbearbeitung/vorgang_senden.md)
 
 #### Tags:
 

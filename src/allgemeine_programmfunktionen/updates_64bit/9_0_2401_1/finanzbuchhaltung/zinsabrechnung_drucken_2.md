@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/zinsabrechnungberzinsformulare.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/zinswesen/zinsabrechnung_ueber_zinsformulare_formulartyp_203_drucken.md)
 
 #### Tags:
 

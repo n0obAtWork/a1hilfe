@@ -18,7 +18,7 @@ Variante: Stoffstrom Positionen
 
 Funktion/Report: Auswahlliste
 
-[Weitere Informationen](http://www.amic.de/hilfe/_stoffstromeditor.htm)
+[Weitere Informationen](../../../../zusatzprogramme/stoffstrom_bilanz_daten/editieren_von_stoffstromdaten.md)
 
 #### Tags:
 

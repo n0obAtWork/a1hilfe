@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: Kopieren
 
-[Weitere Informationen](http://www.amic.de/hilfe/umwandelnundkopieren.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/umwandeln_und_kopieren/index.md)
 
 #### Tags:
 

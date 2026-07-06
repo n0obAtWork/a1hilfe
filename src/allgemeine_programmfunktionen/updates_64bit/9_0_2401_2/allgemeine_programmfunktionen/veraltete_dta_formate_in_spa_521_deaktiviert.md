@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/_SPA_521.htm)
+[Weitere Informationen](../../../../firmenstamm/steuerparameter/optionen_finanzwesen/dta_ausgabeformat_spa_521.md)
 
 #### Tags:
 

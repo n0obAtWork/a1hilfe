@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/kacheltortendiagramm.htm)
+[Weitere Informationen](../../../../zusatzprogramme/menue/das_dashboard/prozeduren_oder_views_fuer_kacheln_einrichten/darstellungsart_tortendiagramm.md)
 
 #### Tags:
 

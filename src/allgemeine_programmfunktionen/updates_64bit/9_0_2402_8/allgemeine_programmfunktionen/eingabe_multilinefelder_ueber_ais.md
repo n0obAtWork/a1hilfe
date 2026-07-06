@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/feldbeschreibung.htm)
+[Weitere Informationen](../../../../zusatzprogramme/ais_a_eins_informationssystem/ais_einrichtung/feldbeschreibung.md)
 
 #### Tags:
 

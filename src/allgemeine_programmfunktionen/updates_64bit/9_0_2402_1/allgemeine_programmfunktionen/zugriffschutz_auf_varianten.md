@@ -18,7 +18,7 @@ Variante: Geschützte Varianten
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/_zugriffsrechtefunkti.htm)
+[Weitere Informationen](../../../../firmenstamm/firmenkonstanten/zugriffsrechte_funktionen.md)
 
 #### Tags:
 

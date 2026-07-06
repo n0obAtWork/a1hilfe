@@ -18,7 +18,7 @@ Variante: Inventurstamm
 
 Funktion/Report: F8,F5
 
-[Weitere Informationen](http://www.amic.de/hilfe/_inventurstamm.htm)
+[Weitere Informationen](../../../../abschluesse_inventur/inventur/inventurstamm/index.md)
 
 #### Tags:
 

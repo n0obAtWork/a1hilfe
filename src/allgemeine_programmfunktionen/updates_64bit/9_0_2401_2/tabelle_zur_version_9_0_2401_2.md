@@ -4,16 +4,16 @@
 
 | **ID** | **Releasenote - Titel** | **Geprüft** |
 | --- | --- | --- |
-| [34919](http://www.amic.de/hilfe/_90_34919.htm) | Veraltete DTA-Formate IN SPA [521] deaktiviert | |
-| [35039](http://www.amic.de/hilfe/_90_35039.htm) | SQL-Meldung bei individuellem Kreditlimit | |
-| [35113](http://www.amic.de/hilfe/_90_35113.htm) | VKA Anzeige von alphanumerischen Belegnummern | |
-| [35013](http://www.amic.de/hilfe/_90_35013.htm) | eClearing CAMT 53 Format | |
-| [35082](http://www.amic.de/hilfe/_90_35082.htm) | eClearing CAMT 53 Format | |
-| [34733](http://www.amic.de/hilfe/_90_34733.htm) | Maintenance | |
-| [35007](http://www.amic.de/hilfe/_90_35007.htm) | MDE: Nachkommazahlen | |
-| [35008](http://www.amic.de/hilfe/_90_35008.htm) | MDE: Fokus auf Eingabefeld | |
-| [34788](http://www.amic.de/hilfe/_90_34788.htm) | Versandprofilstamm Speicherproblem beseitigt | |
-| [34999](http://www.amic.de/hilfe/_90_34999.htm) | Kundentypänderung | |
-| [35000](http://www.amic.de/hilfe/_90_35000.htm) | Artikel F3-Auswahl auf Warenposition optimiert | |
-| [35147](http://www.amic.de/hilfe/_90_35147.htm) | Warenpositionsmaske Cursor Fokus | |
-| [35015](http://www.amic.de/hilfe/_90_35015.htm) | Fehlerbereinigung Ermittlung der Bewertungspreise | |
+| [34919](./allgemeine_programmfunktionen/veraltete_dta_formate_in_spa_521_deaktiviert.md) | Veraltete DTA-Formate IN SPA [521] deaktiviert | |
+| [35039](./allgemeine_programmfunktionen/sql_meldung_bei_individuellem_kreditlimit.md) | SQL-Meldung bei individuellem Kreditlimit | |
+| [35113](./allgemeine_programmfunktionen/vka_anzeige_von_alphanumerischen_belegnummern.md) | VKA Anzeige von alphanumerischen Belegnummern | |
+| [35013](./finanzbuchhaltung/eclearing_camt_53_format.md) | eClearing CAMT 53 Format | |
+| [35082](./finanzbuchhaltung/eclearing_camt_53_format_2.md) | eClearing CAMT 53 Format | |
+| [34733](./kontraktverarbeitung/maintenance.md) | Maintenance | |
+| [35007](./scanner/mde_nachkommazahlen.md) | MDE: Nachkommazahlen | |
+| [35008](./scanner/mde_fokus_auf_eingabefeld.md) | MDE: Fokus auf Eingabefeld | |
+| [34788](./stammdatenanpassungen/versandprofilstamm_speicherproblem_beseitigt.md) | Versandprofilstamm Speicherproblem beseitigt | |
+| [34999](./stammdatenanpassungen/kundentypaenderung.md) | Kundentypänderung | |
+| [35000](./stammdatenanpassungen/artikel_f3_auswahl_auf_warenposition_optimiert.md) | Artikel F3-Auswahl auf Warenposition optimiert | |
+| [35147](./stammdatenanpassungen/warenpositionsmaske_cursor_fokus.md) | Warenpositionsmaske Cursor Fokus | |
+| [35015](./warenwirtschaft/fehlerbereinigung_ermittlung_der_bewertungspreise.md) | Fehlerbereinigung Ermittlung der Bewertungspreise | |

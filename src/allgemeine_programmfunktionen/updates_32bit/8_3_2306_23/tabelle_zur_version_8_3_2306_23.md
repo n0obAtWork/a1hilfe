@@ -4,4 +4,4 @@
 
 | **ID** | **Releasenote - Titel** | **Geprüft** |
 | --- | --- | --- |
-| [33899](http://www.amic.de/hilfe/_83_33899.htm) | Vorgang senden an | |
+| [33899](./warenwirtschaft/vorgang_senden_an.md) | Vorgang senden an | |

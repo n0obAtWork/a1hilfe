@@ -18,7 +18,7 @@ Variante: Standard
 
 Funktion/Report: Belegversand
 
-[Weitere Informationen](http://www.amic.de/hilfe/abwicklung1.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/formularzuordnung/abwicklung.md)
 
 #### Tags:
 

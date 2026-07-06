@@ -18,7 +18,7 @@ Variante: Standard
 
 Funktion/Report: Währungskurse abrufen
 
-[Weitere Informationen](http://www.amic.de/hilfe/whrungskurseautomatischeinstel.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/stammdaten_der_fibu/waehrungsstammdaten/waehrungskurse/waehrungskurse_automatisch_einstellen.md)
 
 #### Tags:
 

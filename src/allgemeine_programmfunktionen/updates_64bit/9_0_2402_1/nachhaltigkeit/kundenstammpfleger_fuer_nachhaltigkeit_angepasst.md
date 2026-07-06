@@ -18,7 +18,7 @@ Variante: Kunden
 
 Funktion/Report: F8,F5
 
-[Weitere Informationen](http://www.amic.de/hilfe/_zertifikate.htm,%20_mandantenstammmnd.htm)
+[Weitere Informationen](../../../../kunden_und_lieferanten/kunden_und_lieferantenstamm/zertifikate.md)
 
 #### Tags:
 

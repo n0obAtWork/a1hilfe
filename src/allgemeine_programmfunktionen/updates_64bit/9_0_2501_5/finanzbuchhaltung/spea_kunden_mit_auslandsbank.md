@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/sepakennzeichenimhausbankensta.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/zahlungsverkehr/sepa/sepa_kennzeichen_im_hausbankenstamm.md)
 
 #### Tags:
 

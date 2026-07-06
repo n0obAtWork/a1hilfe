@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/_frmdialog.htm)
+[Weitere Informationen](../../../../zusatzprogramme/formulareinrichtung_und_zuordnung/der_formular_pfleger/index.md)
 
 #### Tags:
 

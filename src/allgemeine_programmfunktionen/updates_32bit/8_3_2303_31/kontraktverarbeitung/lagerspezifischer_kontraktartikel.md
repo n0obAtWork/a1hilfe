@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: Artikel
 
-[Weitere Informationen](http://www.amic.de/hilfe/_ktrartikelmaske.htm)
+[Weitere Informationen](../../../../kontrakt/kontraktstammdaten/kontraktartikel/artikelmaske.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: Erzeugen
 
-[Weitere Informationen](http://www.amic.de/hilfe/#!_!erechnung1.htm)
+[Weitere Informationen](../../../../erechnung/index.md)
 
 #### Tags:
 

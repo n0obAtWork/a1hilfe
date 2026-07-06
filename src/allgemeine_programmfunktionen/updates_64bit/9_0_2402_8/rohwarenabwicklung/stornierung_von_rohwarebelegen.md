@@ -18,7 +18,7 @@ Variante: alle
 
 Funktion/Report: Erstellen von Stornobelegen
 
-[Weitere Informationen](http://www.amic.de/hilfe/stornoabrechnung.htm)
+[Weitere Informationen](../../../../rohware_modul/storno/stornoabrechnung.md)
 
 #### Tags:
 

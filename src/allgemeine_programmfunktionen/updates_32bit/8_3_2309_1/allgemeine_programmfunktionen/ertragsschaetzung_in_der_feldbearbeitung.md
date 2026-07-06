@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/!_pflegersaatsorten.htm)
+[Weitere Informationen](../../../../zusatzprogramme/saatzucht/saatsorten.md)
 
 #### Tags:
 

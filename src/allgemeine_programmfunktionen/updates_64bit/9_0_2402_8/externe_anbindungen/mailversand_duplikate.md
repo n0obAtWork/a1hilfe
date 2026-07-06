@@ -18,7 +18,7 @@ Variante: alle
 
 Funktion/Report: Freigeben/Versenden
 
-[Weitere Informationen](http://www.amic.de/hilfe/_mailversandfunktioneninmail.htm)
+[Weitere Informationen](../../../../zusatzprogramme/verwendung_des_mailversands/warteschleife_und_historie/funktionen.md)
 
 #### Tags:
 

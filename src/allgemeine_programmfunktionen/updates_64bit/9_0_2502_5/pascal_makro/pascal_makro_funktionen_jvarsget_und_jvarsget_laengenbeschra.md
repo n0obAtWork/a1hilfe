@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: Makro-Programme
 
-[Weitere Informationen](http://www.amic.de/hilfe/makroprogramme.htm)
+[Weitere Informationen](../../../../zusatzprogramme/makroprogramme/index.md)
 
 #### Tags:
 

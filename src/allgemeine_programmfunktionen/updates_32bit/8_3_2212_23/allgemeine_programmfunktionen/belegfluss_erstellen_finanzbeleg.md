@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/_archivbelegfluss.htm)
+[Weitere Informationen](../../../../dokumentenverwaltung/belegfluss/index.md)
 
 #### Tags:
 

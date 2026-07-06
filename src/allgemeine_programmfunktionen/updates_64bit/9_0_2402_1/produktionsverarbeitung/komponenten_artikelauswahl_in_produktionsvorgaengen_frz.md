@@ -18,7 +18,7 @@ Variante: ALle
 
 Funktion/Report: Erfassung, Bearbeitung
 
-[Weitere Informationen](http://www.amic.de/hilfe/_erfassungproduktion.htm)
+[Weitere Informationen](../../../../produktions_modul/produktion_modul/erfassung_produktion/index.md)
 
 #### Tags:
 

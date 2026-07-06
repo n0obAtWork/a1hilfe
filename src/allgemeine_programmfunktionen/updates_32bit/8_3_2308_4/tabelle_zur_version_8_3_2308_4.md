@@ -4,6 +4,6 @@
 
 | **ID** | **Releasenote - Titel** | **Geprüft** |
 | --- | --- | --- |
-| [34034](http://www.amic.de/hilfe/_83_34034.htm) | Kirchensteuer | |
-| [34019](http://www.amic.de/hilfe/_83_34019.htm) | Artikelstammtext speichern. | |
-| [34006](http://www.amic.de/hilfe/_83_34006.htm) | Auftragserfassung trotz harter Liefersperre | |
+| [34034](./finanzbuchhaltung/kirchensteuer.md) | Kirchensteuer | |
+| [34019](./stammdatenanpassungen/artikelstammtext_speichern.md) | Artikelstammtext speichern. | |
+| [34006](./warenwirtschaft/auftragserfassung_trotz_harter_liefersperre.md) | Auftragserfassung trotz harter Liefersperre | |

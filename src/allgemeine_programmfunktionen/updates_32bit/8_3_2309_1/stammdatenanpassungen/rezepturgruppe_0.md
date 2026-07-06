@@ -18,7 +18,7 @@ Variante: Rezepturen
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/!_rezepturenrez.htm)
+[Weitere Informationen](../../../../produktions_modul/produktion_modul/einrichtungen/rezepturen/index.md)
 
 #### Tags:
 

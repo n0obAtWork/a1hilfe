@@ -18,7 +18,7 @@ Variante: Standard
 
 Funktion/Report: FiBu Übertrag
 
-[Weitere Informationen](http://www.amic.de/hilfe/fibubertrag.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/vorgangsbearbeitung/fibu_uebertrag.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: OLAP
 
-[Weitere Informationen](http://www.amic.de/hilfe/_info_olap_ophelia.htm)
+[Weitere Informationen](../../../../zusatzprogramme/olap/index.md)
 
 #### Tags:
 

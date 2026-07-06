@@ -18,7 +18,7 @@ Variante: Belege erfassen
 
 Funktion/Report: Eingangsrechnung
 
-[Weitere Informationen](http://www.amic.de/hilfe/belegerfassung.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/belegerfassung/index.md)
 
 #### Tags:
 

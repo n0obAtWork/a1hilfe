@@ -18,7 +18,7 @@ Variante: Kontrakte
 
 Funktion/Report: Auswahlliste
 
-[Weitere Informationen](http://www.amic.de/hilfe/_kontrakt_auswahllist_felder.htm)
+[Weitere Informationen](../../../../kontrakt/kontraktstammdaten/felder_der_standard_kontrakt_auswahlliste_kontrakte.md)
 
 #### Tags:
 

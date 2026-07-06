@@ -4,16 +4,16 @@
 
 | **ID** | **Releasenote - Titel** | **Geprüft** |
 | --- | --- | --- |
-| [38271](http://www.amic.de/hilfe/_90_38271.htm) | Dokumentenverwaltung - Hinzufügen von Dokumenten über [F8] Neu | |
-| [38282](http://www.amic.de/hilfe/_90_38282.htm) | Dokumentenverwaltung: Vorschau von Word-Dokumenten | |
-| [38284](http://www.amic.de/hilfe/_90_38284.htm) | Dokumentenverwaltung: Vorschau von Excel-Dateien | |
-| [38449](http://www.amic.de/hilfe/_90_38449.htm) | eClearing Fremdwährung | |
-| [38055](http://www.amic.de/hilfe/_90_38055.htm) | KOKORE-Druck - fälliger Saldo nach Datenlöschung | |
-| [38331](http://www.amic.de/hilfe/_90_38331.htm) | Elster Version 43.2.6 | |
-| [38403](http://www.amic.de/hilfe/_90_38403.htm) | Auszifferung mit Skonto aufteilen | |
-| [38462](http://www.amic.de/hilfe/_90_38462.htm) | Aus [OPV] die Konteninformation [KOI] aufrufen | |
-| [38345](http://www.amic.de/hilfe/_90_38345.htm) | Kassensturz-Beleg | |
-| [37674](http://www.amic.de/hilfe/_90_37674.htm) | Kontraktvariante in Kontraktstammdaten | |
-| [38497](http://www.amic.de/hilfe/_90_38497.htm) | Bewegungen in der Kontraktübersicht | |
-| [38225](http://www.amic.de/hilfe/_90_38225.htm) | Versandanschriften über Anschrift [ANSCH] löschen | |
-| [38303](http://www.amic.de/hilfe/_90_38303.htm) | Zinsabrechnung bei Verwendung von Datenlöschung | |
+| [38271](./dokumentenverwaltung/dokumentenverwaltung_hinzufuegen_von_dokumenten_ueber_f8_neu.md) | Dokumentenverwaltung - Hinzufügen von Dokumenten über [F8] Neu | |
+| [38282](./dokumentenverwaltung/dokumentenverwaltung_vorschau_von_word_dokumenten.md) | Dokumentenverwaltung: Vorschau von Word-Dokumenten | |
+| [38284](./dokumentenverwaltung/dokumentenverwaltung_vorschau_von_excel_dateien.md) | Dokumentenverwaltung: Vorschau von Excel-Dateien | |
+| [38449](./eclearing/eclearing_fremdwaehrung.md) | eClearing Fremdwährung | |
+| [38055](./finanzbuchhaltung/kokore_druck_faelliger_saldo_nach_datenloeschung.md) | KOKORE-Druck - fälliger Saldo nach Datenlöschung | |
+| [38331](./finanzbuchhaltung/elster_version_43_2_6.md) | Elster Version 43.2.6 | |
+| [38403](./finanzbuchhaltung/auszifferung_mit_skonto_aufteilen.md) | Auszifferung mit Skonto aufteilen | |
+| [38462](./finanzbuchhaltung/aus_opv_die_konteninformation_koi_aufrufen.md) | Aus [OPV] die Konteninformation [KOI] aufrufen | |
+| [38345](./kassensystem/kassensturz_beleg.md) | Kassensturz-Beleg | |
+| [37674](./kontraktverarbeitung/kontraktvariante_in_kontraktstammdaten.md) | Kontraktvariante in Kontraktstammdaten | |
+| [38497](./kontraktverarbeitung/bewegungen_in_der_kontraktuebersicht.md) | Bewegungen in der Kontraktübersicht | |
+| [38225](./stammdatenanpassungen/versandanschriften_ueber_anschrift_ansch_loeschen.md) | Versandanschriften über Anschrift [ANSCH] löschen | |
+| [38303](./zinswesen/zinsabrechnung_bei_verwendung_von_datenloeschung.md) | Zinsabrechnung bei Verwendung von Datenlöschung | |

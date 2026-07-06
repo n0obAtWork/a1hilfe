@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: Teildisposition
 
-[Weitere Informationen](http://www.amic.de/hilfe/!weitereerfassungsmgl.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/erfassungs_und_bearbeitungsfunktionen/artikelerfassung_f4/weitere_erfassungsmoeglichkeiten_im_vorgang.md)
 
 #### Tags:
 

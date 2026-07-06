@@ -18,7 +18,7 @@ Variante: Alle
 
 Funktion/Report: SDI (F5,F6,F7,F8)
 
-[Weitere Informationen](http://www.amic.de/hilfe/_artikelar.htm)
+[Weitere Informationen](../../../../artikelstamm_und_artikel/artikel/index.md)
 
 #### Tags:
 

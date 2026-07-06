@@ -18,7 +18,7 @@ Variante: Vorgangsunterklassen
 
 Funktion/Report: Storno mit Beleg
 
-[Weitere Informationen](http://www.amic.de/hilfe/allgemeinallgemeineundgenerell.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/formularzuordnung/allgemein_allgemeine_und_generelle_vorgangszuordnungen.md)
 
 #### Tags:
 

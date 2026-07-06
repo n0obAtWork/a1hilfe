@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/_SPA_791.htm)
+[Weitere Informationen](../../../../firmenstamm/steuerparameter/artikel_und_artikelstammdaten/sperr_kennzeichnung_fuer_einkauf_verkauf_aus_dem_artikel_aus.md)
 
 #### Tags:
 

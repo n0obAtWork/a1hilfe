@@ -18,7 +18,7 @@ Variante: Mandantenstamm
 
 Funktion/Report: Geodaten
 
-[Weitere Informationen](http://www.amic.de/hilfe/MapsTourenplanung.htm)
+[Weitere Informationen](../../../../zusatzprogramme/maps_tourenplanung/index.md)
 
 #### Tags:
 

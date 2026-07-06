@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/amicetikettendruck.htm)
+[Weitere Informationen](../../../../zusatzprogramme/amic_etikettendruck/index.md)
 
 #### Tags:
 

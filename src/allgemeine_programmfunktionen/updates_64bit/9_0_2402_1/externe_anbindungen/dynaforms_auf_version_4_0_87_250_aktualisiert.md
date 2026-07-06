@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/systeminformation.htm)
+[Weitere Informationen](../../../../systempflege/systeminformationen/index.md)
 
 #### Tags:
 

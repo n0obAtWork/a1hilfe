@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/!_intrastat1.htm)
+[Weitere Informationen](../../../../zusatzprogramme/intrastat/intrastat_auswahllisten/intrastat_positionen/index.md)
 
 #### Tags:
 

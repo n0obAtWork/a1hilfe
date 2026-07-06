@@ -18,7 +18,7 @@ Variante: alle
 
 Funktion/Report: Korrektur
 
-[Weitere Informationen](http://www.amic.de/hilfe/regeleinrichtungregel.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/arbeitsregeln_im_vorgang/regeleinrichtung_regel.md)
 
 #### Tags:
 

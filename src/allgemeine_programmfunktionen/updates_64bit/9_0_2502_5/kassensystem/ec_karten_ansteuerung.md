@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/zahlungenmitkarte.htm)
+[Weitere Informationen](../../../../kasse/kassen_einrichtung/zahlungen_mit_karte.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: Variante Rohwarenanlieferung Einkauf und Variante Rohwarenanlieferung 
 
 Funktion/Report: .
 
-[Weitere Informationen](http://www.amic.de/hilfe/!rohwarenbearbeitung.htm)
+[Weitere Informationen](../../../../rohware_modul/rohwarenbearbeitung/index.md)
 
 #### Tags:
 

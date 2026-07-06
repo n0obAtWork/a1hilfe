@@ -18,7 +18,7 @@ Variante: alle
 
 Funktion/Report: Druck
 
-[Weitere Informationen](http://www.amic.de/hilfe/_mailversandspa.htm)
+[Weitere Informationen](../../../../zusatzprogramme/mailversand_allgemein/einrichtung_mailversand/steuerparameter.md)
 
 #### Tags:
 

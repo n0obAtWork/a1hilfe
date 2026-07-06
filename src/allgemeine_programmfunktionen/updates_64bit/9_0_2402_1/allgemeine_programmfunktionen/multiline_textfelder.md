@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/_generelleprogrammbed.htm)
+[Weitere Informationen](../../../generelle_programmbedienung/index.md)
 
 #### Tags:
 

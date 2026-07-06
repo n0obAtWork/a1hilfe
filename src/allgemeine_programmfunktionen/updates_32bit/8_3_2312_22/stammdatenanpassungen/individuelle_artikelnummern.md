@@ -18,7 +18,7 @@ Variante: alle
 
 Funktion/Report: [ARSI]
 
-[Weitere Informationen](http://www.amic.de/hilfe/_artiindivnummer.htm)
+[Weitere Informationen](../../../../artikelstamm_und_artikel/individuelle_artikelnummern.md)
 
 #### Tags:
 

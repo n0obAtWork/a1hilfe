@@ -18,7 +18,7 @@ Variante: Hofliste
 
 Funktion/Report: Vorgänge erzeugen
 
-[Weitere Informationen](http://www.amic.de/hilfe/_waage_auftragsauswahl.htm)
+[Weitere Informationen](../../../../waagenanbindung/waagenanbindung_online_waage/auftragsauswahl.md)
 
 #### Tags:
 

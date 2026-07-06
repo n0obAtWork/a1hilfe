@@ -18,7 +18,7 @@ Variante: alle
 
 Funktion/Report: Belegdatum ändern
 
-[Weitere Informationen](http://www.amic.de/hilfe/_belegdatumaendern.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/vorgangsbearbeitung/belegdatum_aendern.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/avisalsmailversenden.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/zahlungsverkehr/zahlungen_bearbeiten/avis_als_mail_versenden.md)
 
 #### Tags:
 

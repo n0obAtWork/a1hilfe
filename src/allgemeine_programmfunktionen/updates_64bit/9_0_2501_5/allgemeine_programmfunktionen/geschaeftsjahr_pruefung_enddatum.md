@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/_wirtschaftsjahreundp.htm)
+[Weitere Informationen](../../../../firmenstamm/wirtschaftsjahre_und_perioden/index.md)
 
 #### Tags:
 

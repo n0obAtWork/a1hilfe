@@ -18,7 +18,7 @@ Variante: Massebilanz
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/_nachhaltigkeit_stamm_massebilanz.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/nachhaltigkeit/stammdaten/massebilanz.md)
 
 #### Tags:
 

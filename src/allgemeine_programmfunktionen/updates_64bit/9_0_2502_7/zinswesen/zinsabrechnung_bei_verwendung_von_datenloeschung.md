@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/fibureorganisator.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/fibu_reorganisator/index.md)
 
 #### Tags:
 

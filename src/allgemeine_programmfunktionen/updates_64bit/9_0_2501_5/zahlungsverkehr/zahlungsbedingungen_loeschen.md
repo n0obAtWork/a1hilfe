@@ -18,7 +18,7 @@ Variante: [ZB]
 
 Funktion/Report: Löschen
 
-[Weitere Informationen](http://www.amic.de/hilfe/_zahlungsbedingungen.htm)
+[Weitere Informationen](../../../../kunden_und_lieferanten/konstanten_bearbeitung/zahlungsbedingungen/index.md)
 
 #### Tags:
 

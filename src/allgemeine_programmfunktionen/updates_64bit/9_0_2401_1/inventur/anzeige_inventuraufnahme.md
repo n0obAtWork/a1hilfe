@@ -18,7 +18,7 @@ Variante: Inventuraufnahme Artikel/Partie/LVS
 
 Funktion/Report: Auswahlliste
 
-[Weitere Informationen](http://www.amic.de/hilfe/inventuraufnahme.htm)
+[Weitere Informationen](../../../../abschluesse_inventur/inventur/inventuraufnahme.md)
 
 #### Tags:
 

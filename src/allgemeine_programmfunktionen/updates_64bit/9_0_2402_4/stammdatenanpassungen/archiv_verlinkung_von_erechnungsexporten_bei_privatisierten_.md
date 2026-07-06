@@ -18,7 +18,7 @@ Variante: Archiv-Fakte
 
 Funktion/Report: F5, F8
 
-[Weitere Informationen](http://www.amic.de/hilfe/_archivfakte.htm)
+[Weitere Informationen](../../../../dokumentenverwaltung/archiv_fakte.md)
 
 #### Tags:
 

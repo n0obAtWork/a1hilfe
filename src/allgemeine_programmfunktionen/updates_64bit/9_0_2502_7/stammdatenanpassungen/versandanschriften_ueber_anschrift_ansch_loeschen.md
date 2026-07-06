@@ -18,7 +18,7 @@ Variante: Versandanschriften
 
 Funktion/Report: löschen
 
-[Weitere Informationen](http://www.amic.de/hilfe/_anschriften.htm)
+[Weitere Informationen](../../../../kunden_und_lieferanten/kunden_und_lieferantenstamm/anschriften/index.md)
 
 #### Tags:
 

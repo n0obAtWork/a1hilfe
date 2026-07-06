@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: F5, F8
 
-[Weitere Informationen](http://www.amic.de/hilfe/_svware_Nachhaltigkeit.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/erfassungs_und_bearbeitungsfunktionen/artikelerfassung_f4/nachhaltigkeit.md)
 
 #### Tags:
 

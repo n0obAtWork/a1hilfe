@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/zahlungsart.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/zahlungsverkehr/stammdaten_zahlungsverkehr/zahlungsart.md)
 
 #### Tags:
 

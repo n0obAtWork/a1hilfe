@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: AGB, LIB,AUB, REB, GUB ... etc.
 
-[Weitere Informationen](http://www.amic.de/hilfe/_mailversandAWLWareFunktionen.htm)
+[Weitere Informationen](../../../../zusatzprogramme/verwendung_des_mailversands/funktionen_in_den_ware_auswahllisten.md)
 
 #### Tags:
 

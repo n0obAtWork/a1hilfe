@@ -18,7 +18,7 @@ Variante: THG-Werte
 
 Funktion/Report: F5, F8
 
-[Weitere Informationen](http://www.amic.de/hilfe/_nachhaltigkeit_stamm_faktorthg)
+[Weitere Informationen](../../../../vorgangsabwicklung/nachhaltigkeit/stammdaten/faktor_thg_wert_anbauland.md)
 
 #### Tags:
 

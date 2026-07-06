@@ -18,7 +18,7 @@ Variante: Rohwaren Anlieferung Einkauf, Rohwarenlieferungen Verkauf, Warenbuch-D
 
 Funktion/Report: F8, F5
 
-[Weitere Informationen](http://www.amic.de/hilfe/rohwarebelegeerfassen.htm)
+[Weitere Informationen](../../../../rohware_modul/rohwarenbearbeitung/rohwarebelege_erfassen.md)
 
 #### Tags:
 

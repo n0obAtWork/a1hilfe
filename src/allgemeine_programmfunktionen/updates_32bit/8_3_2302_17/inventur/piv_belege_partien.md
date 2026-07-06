@@ -18,7 +18,7 @@ Variante: LVS ungezählte Artikel
 
 Funktion/Report: Inventurbelege LVS erzeugen
 
-[Weitere Informationen](http://www.amic.de/hilfe/permanenteinventurmithilfedesl.htm)
+[Weitere Informationen](../../../../abschluesse_inventur/permanente_inventur/erfassung_der_permanenten_inventur/permanente_inventur_mit_hilfe_des_lagerverwaltungssystems.md)
 
 #### Tags:
 

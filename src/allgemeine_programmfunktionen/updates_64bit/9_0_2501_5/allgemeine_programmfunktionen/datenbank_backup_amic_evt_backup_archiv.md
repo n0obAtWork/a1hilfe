@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/backupevents.htm)
+[Weitere Informationen](../../../../zusatzprogramme/events/backupevents.md)
 
 #### Tags:
 

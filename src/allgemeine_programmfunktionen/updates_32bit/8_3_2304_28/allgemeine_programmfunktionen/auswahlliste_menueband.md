@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/darstellungsregister.htm)
+[Weitere Informationen](../../../../zusatzprogramme/auswahlliste_2_0/darstellungsregister.md)
 
 #### Tags:
 

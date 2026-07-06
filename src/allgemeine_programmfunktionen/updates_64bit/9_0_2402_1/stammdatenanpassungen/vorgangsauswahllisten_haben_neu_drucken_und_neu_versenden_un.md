@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: Neu drucken und neu versenden, Beleg erneut versenden
 
-[Weitere Informationen](http://www.amic.de/hilfe/!vorgangsbearbeitungallgemein.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/vorgangsbearbeitung_allgemein/index.md)
 
 #### Tags:
 

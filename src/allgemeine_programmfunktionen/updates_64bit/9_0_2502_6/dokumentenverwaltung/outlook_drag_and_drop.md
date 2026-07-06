@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: Drag and Drop
 
-[Weitere Informationen](http://www.amic.de/hilfe/!archivdokumentehinzufgendragun1.htm)
+[Weitere Informationen](../../../../dokumentenverwaltung/archiv_dokumente_hinzufuegen_drag_und_drop/archiv_dokumente_hinzufuegen_drag_und_drop_aus_outlook.md)
 
 #### Tags:
 

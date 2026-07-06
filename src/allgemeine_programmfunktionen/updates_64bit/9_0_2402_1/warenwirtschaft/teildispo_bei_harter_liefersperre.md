@@ -18,7 +18,7 @@ Variante: Standard
 
 Funktion/Report: Teildisposition Lieferschein
 
-[Weitere Informationen](http://www.amic.de/hilfe/auftrag.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/vorgangsbearbeitung_allgemein/vorgangsklassen_in_a_eins/auftrag/index.md)
 
 #### Tags:
 

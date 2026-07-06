@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/_geschftsjahrebuchung.htm)
+[Weitere Informationen](../../../../firmenstamm/wirtschaftsjahre_und_perioden/geschaeftsjahre_buchungsperioden.md)
 
 #### Tags:
 

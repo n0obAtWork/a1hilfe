@@ -4,6 +4,6 @@
 
 | **ID** | **Releasenote - Titel** | **Geprüft** |
 | --- | --- | --- |
-| [34298](http://www.amic.de/hilfe/_83_34298.htm) | Crystal Report: Datumsfilter | |
-| [34278](http://www.amic.de/hilfe/_83_34278.htm) | Mailversand Finanzbuchhaltung: Anzeige von Grafiken | |
-| [34337](http://www.amic.de/hilfe/_83_34337.htm) | OPVerwaltung Teilzahlung | |
+| [34298](./allgemeine_programmfunktionen/crystal_report_datumsfilter.md) | Crystal Report: Datumsfilter | |
+| [34278](./finanzbuchhaltung/mailversand_finanzbuchhaltung_anzeige_von_grafiken.md) | Mailversand Finanzbuchhaltung: Anzeige von Grafiken | |
+| [34337](./finanzbuchhaltung/opverwaltung_teilzahlung.md) | OPVerwaltung Teilzahlung | |

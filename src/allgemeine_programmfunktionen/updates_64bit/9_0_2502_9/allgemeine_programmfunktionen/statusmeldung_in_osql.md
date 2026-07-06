@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/osql.htm)
+[Weitere Informationen](../../../../zusatzprogramme/osql/index.md)
 
 #### Tags:
 

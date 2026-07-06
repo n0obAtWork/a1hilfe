@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/_SPA_594.htm)
+[Weitere Informationen](../../../../firmenstamm/steuerparameter/vorgangsbearbeitung_allg/erm_kreditlimit_mit_p_indivkreditlimit_spa_594.md)
 
 #### Tags:
 

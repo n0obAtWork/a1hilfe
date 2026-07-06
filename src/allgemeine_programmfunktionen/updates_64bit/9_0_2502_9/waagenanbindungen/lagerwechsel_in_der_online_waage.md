@@ -18,7 +18,7 @@ Variante: Hofliste
 
 Funktion/Report: Wiegung abschließen
 
-[Weitere Informationen](http://www.amic.de/hilfe/_waage_wiegungabschliessen.htm)
+[Weitere Informationen](../../../../waagenanbindung/waagenanbindung_online_waage/funktionen_auf_der_waagenmaske/wiegungen_abschliessen.md)
 
 #### Tags:
 

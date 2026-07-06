@@ -18,7 +18,7 @@ Variante: Anschriften
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/_anschallgemein.htm)
+[Weitere Informationen](../../../../kunden_und_lieferanten/kunden_und_lieferantenstamm/anschriften/registerkarten_in_anschriften/allgemein.md)
 
 #### Tags:
 

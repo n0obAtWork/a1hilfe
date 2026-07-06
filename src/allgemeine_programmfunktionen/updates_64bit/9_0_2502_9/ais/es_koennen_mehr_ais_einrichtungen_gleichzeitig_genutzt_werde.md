@@ -18,7 +18,7 @@ Variante: Die erste Maske bei der Belegerfassung
 
 Funktion/Report: Ander Unterklasse
 
-[Weitere Informationen](http://www.amic.de/hilfe/!_aisrefreshvorgang.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/ais_im_vorgang/index.md)
 
 #### Tags:
 

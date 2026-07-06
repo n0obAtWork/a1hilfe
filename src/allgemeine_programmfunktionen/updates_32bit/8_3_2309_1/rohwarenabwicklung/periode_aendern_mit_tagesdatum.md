@@ -18,7 +18,7 @@ Variante: Fibu Übertrag Standard
 
 Funktion/Report: Periode ändern
 
-[Weitere Informationen](http://www.amic.de/hilfe/_periode_bearbeiten)
+[Weitere Informationen](../../../../rohware_modul/fibu_uebertrag_rohware/periode_bearbeiten.md)
 
 #### Tags:
 

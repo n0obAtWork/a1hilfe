@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: DIverse Druckszenarien in denen die Verwendung von Schächten benötigt wird.
 
-[Weitere Informationen](http://www.amic.de/hilfe/druckerstammdrst_pfleger.htm)
+[Weitere Informationen](../../../../firmenstamm/druckereinrichtung/druckerstamm/druckerstamm_pfleger.md)
 
 #### Tags:
 

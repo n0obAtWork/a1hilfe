@@ -18,7 +18,7 @@ Variante: Druckfelder
 
 Funktion/Report: Speichern unter
 
-[Weitere Informationen](http://www.amic.de/hilfe/druckfelder.htm)
+[Weitere Informationen](../../../../zusatzprogramme/formulareinrichtung_und_zuordnung/druckfelder.md)
 
 #### Tags:
 

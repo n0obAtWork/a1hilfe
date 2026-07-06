@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: JAHRW
 
-[Weitere Informationen](http://www.amic.de/hilfe/umbuchungenbeiwechselderforder.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/jahreswechsel/umbuchungen_bei_wechsel_der_forderungsgruppe.md)
 
 #### Tags:
 

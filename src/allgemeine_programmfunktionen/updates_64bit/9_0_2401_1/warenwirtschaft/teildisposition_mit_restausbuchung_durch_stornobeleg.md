@@ -18,7 +18,7 @@ Variante: Standard
 
 Funktion/Report: F8 Lieferschein erfassen
 
-[Weitere Informationen](http://www.amic.de/hilfe/standardteildisposition.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/standard_teildisposition_mehrfachteildisposition/standard_teildisposition.md)
 
 #### Tags:
 

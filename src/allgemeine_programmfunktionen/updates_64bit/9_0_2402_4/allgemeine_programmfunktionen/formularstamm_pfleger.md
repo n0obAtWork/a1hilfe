@@ -18,7 +18,7 @@ Variante: STD
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/formulareinrichtungundzuordnun.htm)
+[Weitere Informationen](../../../../zusatzprogramme/formulareinrichtung_und_zuordnung/index.md)
 
 #### Tags:
 

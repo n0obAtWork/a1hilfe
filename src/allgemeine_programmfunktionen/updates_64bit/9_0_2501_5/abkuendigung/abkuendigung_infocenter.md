@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/hauptmenarbeitsbereich.htm)
+[Weitere Informationen](../../../../zusatzprogramme/menue/das_hauptauswahlmenue/hauptmenue_arbeitsbereich.md)
 
 #### Tags:
 

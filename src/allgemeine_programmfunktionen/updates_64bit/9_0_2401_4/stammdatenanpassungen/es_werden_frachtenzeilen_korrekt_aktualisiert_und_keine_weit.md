@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/positionsteilanzeigeunderfassu.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/positionsteil/positionsteil_anzeige_und_erfassung.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: n/a
 
 Funktion/Report: n/a
 
-[Weitere Informationen](http://www.amic.de/hilfe/_compliancesfs1.htm)
+[Weitere Informationen](../../../../zusatzprogramme/verbotsliste_compliance/schritt_fuer_schritt_anleitung/schritt_1_setup.md)
 
 #### Tags:
 

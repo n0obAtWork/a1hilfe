@@ -18,7 +18,7 @@ Variante: n/a
 
 Funktion/Report: Lagernummernwechsel
 
-[Weitere Informationen](http://www.amic.de/hilfe/_behandlungsschema.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/vorgangsbearbeitung/aenderung_der_lagernummer/behandlungsschema_lagernummernaenderung.md)
 
 #### Tags:
 

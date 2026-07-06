@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: amic_func_KundKredit, amic_func_Update_KundKredit, AMIC_Kreditlimit
 
-[Weitere Informationen](http://www.amic.de/hilfe/_SPA_503.htm)
+[Weitere Informationen](../../../../firmenstamm/steuerparameter/kundenstammdaten/alle_kredite_als_summe_uebernehmen_spa_503.md)
 
 #### Tags:
 

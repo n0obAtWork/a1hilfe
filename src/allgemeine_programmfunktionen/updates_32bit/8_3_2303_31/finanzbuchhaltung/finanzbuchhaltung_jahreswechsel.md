@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/_SPA_1143.htm)
+[Weitere Informationen](../../../../firmenstamm/steuerparameter/optionen_finanzwesen/jahreswechsel_abschluss_und_eroeffnung_immer_gemeinsam_loesc.md)
 
 #### Tags:
 

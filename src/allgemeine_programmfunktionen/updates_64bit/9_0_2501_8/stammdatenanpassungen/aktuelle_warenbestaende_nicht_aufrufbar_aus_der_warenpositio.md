@@ -18,7 +18,7 @@ Variante: Alle Belegerfassungsvarianten
 
 Funktion/Report: aktuelle Warenbestände
 
-[Weitere Informationen](http://www.amic.de/hilfe/weiterefunktionenbeiderartikel.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/erfassungs_und_bearbeitungsfunktionen/artikelerfassung_f4/weitere_funktionen_bei_der_artikelerfassung.md)
 
 #### Tags:
 

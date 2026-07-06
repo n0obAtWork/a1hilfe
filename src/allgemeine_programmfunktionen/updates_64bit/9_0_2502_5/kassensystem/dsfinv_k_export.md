@@ -18,7 +18,7 @@ Variante: DSFinV-K Export
 
 Funktion/Report: Export erzeugen
 
-[Weitere Informationen](http://www.amic.de/hilfe/_dsfinvkexport.htm)
+[Weitere Informationen](../../../../kasse/kassensicherungsverordnung/dsfinv_k_export.md)
 
 #### Tags:
 

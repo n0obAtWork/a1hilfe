@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/archivstammdatenpfle.htm)
+[Weitere Informationen](../../../../dokumentenverwaltung/archiv_stammdatenpfleger.md)
 
 #### Tags:
 

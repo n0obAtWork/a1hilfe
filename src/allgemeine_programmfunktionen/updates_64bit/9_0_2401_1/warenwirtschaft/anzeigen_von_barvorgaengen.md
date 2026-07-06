@@ -18,7 +18,7 @@ Variante: Standard
 
 Funktion/Report: F6 Ansehen
 
-[Weitere Informationen](http://www.amic.de/hilfe/vorgangsbearbeitungallgemein.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/vorgangsbearbeitung_allgemein/index.md)
 
 #### Tags:
 

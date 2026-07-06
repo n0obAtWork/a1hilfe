@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: Vorgangsdruck
 
-[Weitere Informationen](http://www.amic.de/hilfe/textzeilen.htm)
+[Weitere Informationen](../../../../artikelstamm_und_artikel/parameter_des_artikelstamms/textzeilen.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/SchluesselwoerterImSQLText.htm)
+[Weitere Informationen](../../../../zusatzprogramme/private_varianten_und_sql_texte/schluesselwoerter_im_sql_text.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/kundenbankenfrdenzahlungsverke.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/zahlungsverkehr/stammdaten_zahlungsverkehr/kundenbanken_fuer_den_zahlungsverkehr.md)
 
 #### Tags:
 

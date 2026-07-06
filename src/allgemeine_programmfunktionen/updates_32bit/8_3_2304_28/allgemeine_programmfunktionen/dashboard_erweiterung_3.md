@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/kacheltachometer.htm)
+[Weitere Informationen](../../../../zusatzprogramme/menue/das_dashboard/prozeduren_oder_views_fuer_kacheln_einrichten/darstellungsart_tachometer.md)
 
 #### Tags:
 

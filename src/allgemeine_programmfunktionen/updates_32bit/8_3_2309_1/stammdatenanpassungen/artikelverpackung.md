@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: F7 - Löschen
 
-[Weitere Informationen](http://www.amic.de/hilfe/_artikelverpackung.htm)
+[Weitere Informationen](../../../../artikelstamm_und_artikel/artikelverpackung/index.md)
 
 #### Tags:
 

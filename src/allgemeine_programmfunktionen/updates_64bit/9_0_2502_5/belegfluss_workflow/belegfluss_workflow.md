@@ -18,7 +18,7 @@ Variante: Meine Postfächer
 
 Funktion/Report: Belegfluss
 
-[Weitere Informationen](http://www.amic.de/hilfe/_sfsbelegfluss3)
+[Weitere Informationen](../../../../dokumentenverwaltung/belegfluss/schritt_fuer_schritt/schritt_3_einrichtung_fallbeispiel.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/_druckerstammdrst_pfleger.htm)
+[Weitere Informationen](../../../../firmenstamm/druckereinrichtung/druckerstamm/druckerstamm_pfleger.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: Formulararchiv eRechnung
 
 Funktion/Report: Dokument speichern
 
-[Weitere Informationen](http://www.amic.de/hilfe/erechnungimarchiv.htm)
+[Weitere Informationen](../../../../erechnung/erechnung_im_archiv/index.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/_vertreterprovisionsgpfleger.htm)
+[Weitere Informationen](../../../../firmenstamm/vertreterdaten/vertreterprovisionsgruppen_provisionstypen/vertreterprovisionsgruppen_pfleger.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: alle
 
 Funktion/Report: Kopieren
 
-[Weitere Informationen](http://www.amic.de/hilfe/besonderheitenbeimkopieren.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/umwandeln_und_kopieren/besonderheiten_beim_kopieren.md)
 
 #### Tags:
 

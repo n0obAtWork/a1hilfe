@@ -4,25 +4,25 @@
 
 | **ID** | **Releasenote - Titel** | **Geprüft** |
 | --- | --- | --- |
-| [32748](http://www.amic.de/hilfe/_83_32748.htm) | Intrastat Export Anpassung | |
-| [32752](http://www.amic.de/hilfe/_83_32752.htm) | Nummernkreise/Zählkreise | |
-| [32786](http://www.amic.de/hilfe/_83_32786.htm) | Staatstamm "Staaten einspielen" entfernt | |
-| [32787](http://www.amic.de/hilfe/_83_32787.htm) | Makro: Checkbox "Profiler" von Maske entfernt | |
-| [32798](http://www.amic.de/hilfe/_83_32798.htm) | AMIC-Etikettendruck Versionserhöhung | |
-| [32865](http://www.amic.de/hilfe/_83_32865.htm) | Belegmailversand wiederholen | |
-| [32891](http://www.amic.de/hilfe/_83_32891.htm) | Excelimport [EXCELI] | |
-| [32797](http://www.amic.de/hilfe/_83_32797.htm) | PDF-Engine (PDF-Erzeugung-Bibliotheken) erneuert. | |
-| [32879](http://www.amic.de/hilfe/_83_32879.htm) | PDF-Engine (PDF-Erzeugung-Bibliotheken) erneuert. | |
-| [32686](http://www.amic.de/hilfe/_83_32686.htm) | eClearing | |
-| [32842](http://www.amic.de/hilfe/_83_32842.htm) | SEPA Lastschrifteinzug und Skonto | |
-| [32898](http://www.amic.de/hilfe/_83_32898.htm) | Jahreswechsel bei Wechsel der Forderungsgruppe im Kundenstamm | |
-| [32886](http://www.amic.de/hilfe/_83_32886.htm) | TSE-Ansteuerung | |
-| [32729](http://www.amic.de/hilfe/_83_32729.htm) | Produktionserfassung: Eingabe Komponentenmenge | |
-| [32788](http://www.amic.de/hilfe/_83_32788.htm) | Produktion: Produktionserfassung | |
-| [32813](http://www.amic.de/hilfe/_83_32813.htm) | Kontraktabwahl in der Rohware | |
-| [32724](http://www.amic.de/hilfe/_83_32724.htm) | Bemerkung für Musterkunden einzeln pflegbar | |
-| [32795](http://www.amic.de/hilfe/_83_32795.htm) | Pfleger: Artikel & Artikelstamm | |
-| [32840](http://www.amic.de/hilfe/_83_32840.htm) | Anschrift im Objektstamm | |
-| [32844](http://www.amic.de/hilfe/_83_32844.htm) | Bemerkung für Musterkunden einzeln pflegbar | |
-| [32845](http://www.amic.de/hilfe/_83_32845.htm) | Interessent in Kunden umwandeln | |
-| [32734](http://www.amic.de/hilfe/_83_32734.htm) | Individuelle Preiskonditionen | |
+| [32748](./allgemeine_programmfunktionen/intrastat_export_anpassung.md) | Intrastat Export Anpassung | |
+| [32752](./allgemeine_programmfunktionen/nummernkreise_zaehlkreise.md) | Nummernkreise/Zählkreise | |
+| [32786](./allgemeine_programmfunktionen/staatstamm_staaten_einspielen_entfernt.md) | Staatstamm "Staaten einspielen" entfernt | |
+| [32787](./allgemeine_programmfunktionen/makro_checkbox_profiler_von_maske_entfernt.md) | Makro: Checkbox "Profiler" von Maske entfernt | |
+| [32798](./allgemeine_programmfunktionen/amic_etikettendruck_versionserhoehung.md) | AMIC-Etikettendruck Versionserhöhung | |
+| [32865](./allgemeine_programmfunktionen/belegmailversand_wiederholen.md) | Belegmailversand wiederholen | |
+| [32891](./allgemeine_programmfunktionen/excelimport_exceli.md) | Excelimport [EXCELI] | |
+| [32797](./externe_anbindungen/pdf_engine_pdf_erzeugung_bibliotheken_erneuert.md) | PDF-Engine (PDF-Erzeugung-Bibliotheken) erneuert. | |
+| [32879](./externe_anbindungen/pdf_engine_pdf_erzeugung_bibliotheken_erneuert_2.md) | PDF-Engine (PDF-Erzeugung-Bibliotheken) erneuert. | |
+| [32686](./finanzbuchhaltung/eclearing.md) | eClearing | |
+| [32842](./finanzbuchhaltung/sepa_lastschrifteinzug_und_skonto.md) | SEPA Lastschrifteinzug und Skonto | |
+| [32898](./finanzbuchhaltung/jahreswechsel_bei_wechsel_der_forderungsgruppe_im_kundenstam.md) | Jahreswechsel bei Wechsel der Forderungsgruppe im Kundenstamm | |
+| [32886](./kassensystem/tse_ansteuerung.md) | TSE-Ansteuerung | |
+| [32729](./produktionsverarbeitung/produktionserfassung_eingabe_komponentenmenge.md) | Produktionserfassung: Eingabe Komponentenmenge | |
+| [32788](./produktionsverarbeitung/produktion_produktionserfassung.md) | Produktion: Produktionserfassung | |
+| [32813](./rohwarenabwicklung/kontraktabwahl_in_der_rohware.md) | Kontraktabwahl in der Rohware | |
+| [32724](./stammdatenanpassungen/bemerkung_fuer_musterkunden_einzeln_pflegbar.md) | Bemerkung für Musterkunden einzeln pflegbar | |
+| [32795](./stammdatenanpassungen/pfleger_artikel_artikelstamm.md) | Pfleger: Artikel & Artikelstamm | |
+| [32840](./stammdatenanpassungen/anschrift_im_objektstamm.md) | Anschrift im Objektstamm | |
+| [32844](./stammdatenanpassungen/bemerkung_fuer_musterkunden_einzeln_pflegbar_2.md) | Bemerkung für Musterkunden einzeln pflegbar | |
+| [32845](./stammdatenanpassungen/interessent_in_kunden_umwandeln.md) | Interessent in Kunden umwandeln | |
+| [32734](./warenwirtschaft/individuelle_preiskonditionen.md) | Individuelle Preiskonditionen | |

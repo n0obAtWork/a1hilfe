@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/nderungenimablaufdeszahlungsve.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/zahlungsverkehr/sepa/aenderungen_im_ablauf_des_zahlungsverkehrs.md)
 
 #### Tags:
 

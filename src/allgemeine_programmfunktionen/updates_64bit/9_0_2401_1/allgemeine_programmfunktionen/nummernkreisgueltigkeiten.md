@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/_einrichtungvonnummer.htm)
+[Weitere Informationen](../../../../firmenstamm/nummernkreise_fuer_ware_und_fibu/einrichtung_von_nummernkreisen.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/umsatzsteuer.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/umsatzsteuer/index.md)
 
 #### Tags:
 

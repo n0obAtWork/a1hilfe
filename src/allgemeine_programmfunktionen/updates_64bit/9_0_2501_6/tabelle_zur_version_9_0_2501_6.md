@@ -4,8 +4,8 @@
 
 | **ID** | **Releasenote - Titel** | **Geprüft** |
 | --- | --- | --- |
-| [37151](http://www.amic.de/hilfe/_90_37151.htm) | Auswahlliste 2.0, Abbruch des Ladevorgangs | |
-| [37321](http://www.amic.de/hilfe/_90_37321.htm) | Auswahlliste 2.0 Filterzeile | |
-| [37138](http://www.amic.de/hilfe/_90_37138.htm) | Anzeige von erfassten Permanenten Inventur Belege | |
-| [37122](http://www.amic.de/hilfe/_90_37122.htm) | Zertifikatsübersicht: Archivanzeige in Nachhaltigkeitskundenübersicht | |
-| [37117](http://www.amic.de/hilfe/_90_37117.htm) | Tourauswahl in der Vorgangserfassung | |
+| [37151](./allgemeine_programmfunktionen/auswahlliste_2_0_abbruch_des_ladevorgangs.md) | Auswahlliste 2.0, Abbruch des Ladevorgangs | |
+| [37321](./allgemeine_programmfunktionen/auswahlliste_2_0_filterzeile.md) | Auswahlliste 2.0 Filterzeile | |
+| [37138](./inventur/anzeige_von_erfassten_permanenten_inventur_belege.md) | Anzeige von erfassten Permanenten Inventur Belege | |
+| [37122](./nachhaltigkeit/zertifikatsuebersicht_archivanzeige_in_nachhaltigkeitskunden.md) | Zertifikatsübersicht: Archivanzeige in Nachhaltigkeitskundenübersicht | |
+| [37117](./vorgangsbearbeitung/tourauswahl_in_der_vorgangserfassung.md) | Tourauswahl in der Vorgangserfassung | |

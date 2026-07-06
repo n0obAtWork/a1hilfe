@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/_SPA_1160.htm)
+[Weitere Informationen](../../../../firmenstamm/steuerparameter/kontraktwesen/individuelle_zu_abschlaege_bei_kontrakten_beruecksichtigen_s.md)
 
 #### Tags:
 

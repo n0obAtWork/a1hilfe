@@ -18,7 +18,7 @@ Variante: Standard
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/htmlbody.htm)
+[Weitere Informationen](../../../../zusatzprogramme/mailversand_allgemein/einrichtung_mailversand/pflege_der_vorgangsklassen/html_body.md)
 
 #### Tags:
 

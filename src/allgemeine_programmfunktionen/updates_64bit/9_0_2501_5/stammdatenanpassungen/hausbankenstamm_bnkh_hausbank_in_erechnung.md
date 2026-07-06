@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/hausbanken.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/zahlungsverkehr/stammdaten_zahlungsverkehr/hausbanken.md)
 
 #### Tags:
 

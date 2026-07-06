@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: Listendruck
 
-[Weitere Informationen](http://www.amic.de/hilfe/schecksberformulartyp201drucke.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/zahlungsverkehr/schecks_ueber_formulartyp_201_drucken.md)
 
 #### Tags:
 

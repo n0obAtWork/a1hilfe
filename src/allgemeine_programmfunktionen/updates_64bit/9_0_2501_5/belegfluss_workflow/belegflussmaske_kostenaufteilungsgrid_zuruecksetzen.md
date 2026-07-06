@@ -18,7 +18,7 @@ Variante: Meine Postfächer
 
 Funktion/Report: Kostenaufteilungsgrid zurücksetzen
 
-[Weitere Informationen](http://www.amic.de/hilfe/!belegflussvariante1meinepostfc.htm)
+[Weitere Informationen](../../../../dokumentenverwaltung/belegfluss/belegfluss_modul/belegfluss_variante_1_meine_postfaecher/index.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/_formularzuordnung.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/formularzuordnung/index.md)
 
 #### Tags:
 

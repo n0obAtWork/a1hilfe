@@ -18,7 +18,7 @@ Variante: Standard
 
 Funktion/Report: Fibu Übertrag (F5)
 
-[Weitere Informationen](http://www.amic.de/hilfe/_steupa_fibuuebertragWarenwirtschaft.htm)
+[Weitere Informationen](../../../../firmenstamm/steuerparameter/fibu_uebertrag_warenwirtschaft/index.md)
 
 #### Tags:
 

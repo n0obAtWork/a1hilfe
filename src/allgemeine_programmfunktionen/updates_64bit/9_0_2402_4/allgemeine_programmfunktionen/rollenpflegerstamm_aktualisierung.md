@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/rollenpflegerstamm.htm)
+[Weitere Informationen](../../../../firmenstamm/firmenkonstanten/zuordnung_von_funktionen_zu_bedienerklassen_rollen/rollenpflegerstamm.md)
 
 #### Tags:
 

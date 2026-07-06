@@ -18,7 +18,7 @@ Variante: Kontrakte
 
 Funktion/Report: Bereich
 
-[Weitere Informationen](http://www.amic.de/hilfe/_stammdatenKontrakt.htm)
+[Weitere Informationen](../../../../kontrakt/kontraktstammdaten/stammdaten_1_kontrakt/index.md)
 
 #### Tags:
 

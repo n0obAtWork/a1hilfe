@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/zahlungenbearbeiten.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/zahlungsverkehr/zahlungen_bearbeiten/index.md)
 
 #### Tags:
 

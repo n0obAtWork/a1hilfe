@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/_anlegeneinesneuenwir.htm)
+[Weitere Informationen](../../../../firmenstamm/wirtschaftsjahre_und_perioden/anlegen_eines_neuen_wirtschaftsjahres_wj_am_beispiel_2012.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: Formularwesen
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/!einrichtungf6.htm)
+[Weitere Informationen](../../../../zusatzprogramme/formulareinrichtung_und_zuordnung/formulareinrichtung/einrichtung_f6.md)
 
 #### Tags:
 

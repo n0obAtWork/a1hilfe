@@ -18,7 +18,7 @@ Variante: Endkontrolle/Einspielung Kunden
 
 Funktion/Report: -> A.eins Kunden
 
-[Weitere Informationen](http://www.amic.de/hilfe/!_endkontrolle_einspielung_kunden.htm)
+[Weitere Informationen](../../../../systempflege/endkontrolle_einspielung_kunden.md)
 
 #### Tags:
 

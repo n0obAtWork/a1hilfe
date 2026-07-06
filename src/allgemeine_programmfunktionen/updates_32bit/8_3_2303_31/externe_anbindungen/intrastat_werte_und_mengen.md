@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/intrastatvariante2.htm)
+[Weitere Informationen](../../../../zusatzprogramme/intrastat/intrastat_auswahllisten/intrastat_meldung_versendung.md)
 
 #### Tags:
 

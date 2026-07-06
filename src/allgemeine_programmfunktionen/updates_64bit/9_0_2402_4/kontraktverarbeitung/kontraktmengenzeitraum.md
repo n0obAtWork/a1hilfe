@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: F5 Ändern -- Mengenzeiträume
 
-[Weitere Informationen](http://www.amic.de/hilfe/!_zeitrumefestlegen.htm)
+[Weitere Informationen](../../../../kontrakt/kontraktstammdaten/zeitraeume_festlegen.md)
 
 #### Tags:
 

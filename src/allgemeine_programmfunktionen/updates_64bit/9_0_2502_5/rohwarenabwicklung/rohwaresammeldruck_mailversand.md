@@ -18,7 +18,7 @@ Variante: Sammelerstdruck Einkauf, Sammelerstdruck Verkauf
 
 Funktion/Report: Sammel-Erstdruck
 
-[Weitere Informationen](http://www.amic.de/hilfe/_rwsammelAbrechnung.htm)
+[Weitere Informationen](../../../../rohware_modul/sammelabrechnung/index.md)
 
 #### Tags:
 

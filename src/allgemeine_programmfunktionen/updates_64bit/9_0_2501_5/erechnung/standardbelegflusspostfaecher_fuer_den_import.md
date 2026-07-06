@@ -18,7 +18,7 @@ Variante: Import-Vorgänge
 
 Funktion/Report: Importeinstellungen bearbeiten
 
-[Weitere Informationen](http://www.amic.de/hilfe/erechnungimporteinstellungenei.htm)
+[Weitere Informationen](../../../../erechnung/erechnung_import/erechnung_importeinstellungen_einrichten.md)
 
 #### Tags:
 

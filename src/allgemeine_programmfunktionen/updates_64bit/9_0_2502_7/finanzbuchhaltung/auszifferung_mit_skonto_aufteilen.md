@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: Zahlungsverkehr Kasse/Bank
 
-[Weitere Informationen](http://www.amic.de/hilfe/belegerfassung.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/belegerfassung/index.md)
 
 #### Tags:
 

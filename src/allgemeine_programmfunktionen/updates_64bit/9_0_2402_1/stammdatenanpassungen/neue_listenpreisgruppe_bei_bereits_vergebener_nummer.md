@@ -18,7 +18,7 @@ Variante: alle
 
 Funktion/Report: Neu [F8]
 
-[Weitere Informationen](http://www.amic.de/hilfe/_listenPreisGruppe.htm)
+[Weitere Informationen](../../../../preise_konditionen/listenpreise/preisgruppe_fuer_listenpreise.md)
 
 #### Tags:
 

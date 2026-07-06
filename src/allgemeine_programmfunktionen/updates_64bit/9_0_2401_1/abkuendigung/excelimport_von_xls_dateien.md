@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/_EXCLEI_EXCEL_IMPORT.htm)
+[Weitere Informationen](../../../../zusatzprogramme/excel_import/index.md)
 
 #### Tags:
 

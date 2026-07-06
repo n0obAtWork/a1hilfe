@@ -18,7 +18,7 @@ Variante: alle Archivvarianten
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/dokumentenverwaltungvorschau.htm)
+[Weitere Informationen](../../../../dokumentenverwaltung/dokumentenverwaltung_archiv_anzeigen/dokumentenverwaltung_ordner_und_filter/dokumentenverwaltung_vorschau.md)
 
 #### Tags:
 

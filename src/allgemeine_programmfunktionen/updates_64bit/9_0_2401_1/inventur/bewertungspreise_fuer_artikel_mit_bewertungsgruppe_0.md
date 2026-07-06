@@ -18,7 +18,7 @@ Variante: Bewertungspreise kalkulieren
 
 Funktion/Report: F9 Kalkulation
 
-[Weitere Informationen](http://www.amic.de/hilfe/_bewertungspreise.htm)
+[Weitere Informationen](../../../../abschluesse_inventur/inventur/bewertungspreise.md)
 
 #### Tags:
 

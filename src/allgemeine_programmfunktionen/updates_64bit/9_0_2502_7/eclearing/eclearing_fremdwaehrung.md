@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/anzeigenbearbeiten.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/e_clearing/anzeigen_bearbeiten.md)
 
 #### Tags:
 

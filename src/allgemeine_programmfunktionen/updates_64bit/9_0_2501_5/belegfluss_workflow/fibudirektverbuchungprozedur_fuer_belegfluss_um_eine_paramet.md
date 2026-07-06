@@ -18,7 +18,7 @@ Variante: Postfach-Einrichtung, Meine Postfächer
 
 Funktion/Report: Direkt-Finanzbelegerfassung, Direkt-Finanzbelegerfassung komprimiert
 
-[Weitere Informationen](http://www.amic.de/hilfe/!belegflusspostfacheinrichtungs.htm)
+[Weitere Informationen](../../../../dokumentenverwaltung/belegfluss/belegfluss_modul/belegfluss_variante_4_postfacheinrichtung/belegfluss_postfacheinrichtungspfleger.md)
 
 #### Tags:
 

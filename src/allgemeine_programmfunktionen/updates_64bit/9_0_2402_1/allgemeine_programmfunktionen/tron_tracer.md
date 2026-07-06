@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/trontracerprogrammzumauslesend.htm)
+[Weitere Informationen](../../../../zusatzprogramme/datenbank_trace/tron_tracer_programm_zum_auslesen_der_trace_datei/index.md)
 
 #### Tags:
 

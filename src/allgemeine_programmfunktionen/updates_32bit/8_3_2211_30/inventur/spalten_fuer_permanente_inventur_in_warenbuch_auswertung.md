@@ -18,7 +18,7 @@ Variante: Warenbuchdetails für Artikel
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/_SPA_902.htm)
+[Weitere Informationen](../../../../firmenstamm/steuerparameter/lizenzen/permanente_inventur_lizenz_spa_902.md)
 
 #### Tags:
 

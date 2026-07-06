@@ -18,7 +18,7 @@ Variante: Lieferanten
 
 Funktion/Report: InfoKu + Lieferanten bewerten
 
-[Weitere Informationen](http://www.amic.de/hilfe/_lieferantenherstelle.htm)
+[Weitere Informationen](../../../../artikelstamm_und_artikel/parameter_des_artikelstamms/lieferanten_hersteller.md)
 
 #### Tags:
 

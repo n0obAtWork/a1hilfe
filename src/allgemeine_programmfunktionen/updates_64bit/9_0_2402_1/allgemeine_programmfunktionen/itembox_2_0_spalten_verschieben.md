@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/f3auswahl)
+[Weitere Informationen](../../../../zusatzprogramme/f3_auswahl_2_0_itembox/index.md)
 
 #### Tags:
 

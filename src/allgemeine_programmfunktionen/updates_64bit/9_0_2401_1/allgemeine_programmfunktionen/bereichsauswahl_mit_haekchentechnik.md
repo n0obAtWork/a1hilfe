@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/_einrichtungderbereichsauswahl.htm)
+[Weitere Informationen](../../../../zusatzprogramme/auswahlliste_2_0/anwendungsregister/f2_bereichsauswahl/einrichtung_der_bereichsauswahl.md)
 
 #### Tags:
 

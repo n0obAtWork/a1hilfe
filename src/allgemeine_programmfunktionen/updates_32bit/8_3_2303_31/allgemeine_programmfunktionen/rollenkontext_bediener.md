@@ -18,7 +18,7 @@ Variante: Rollenkontext (Bediener)
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/_rollenkontext.htm)
+[Weitere Informationen](../../../../firmenstamm/firmenkonstanten/zuordnung_von_funktionen_zu_bedienerklassen_rollen/rollenkontext/index.md)
 
 #### Tags:
 

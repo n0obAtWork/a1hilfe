@@ -18,7 +18,7 @@ Variante: alle
 
 Funktion/Report: VK-Preise bearbeiten, EL-Preise bearbeiten
 
-[Weitere Informationen](http://www.amic.de/hilfe/_listenpreiseverkaufu.htm)
+[Weitere Informationen](../../../../artikelstamm_und_artikel/artikel/listenpreise_verkauf_und_einkauf.md)
 
 #### Tags:
 

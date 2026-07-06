@@ -18,7 +18,7 @@ Variante: Mahnungen bearbeitenh
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/mahnungenbearbeiten.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/mahnwesen/mahnungen_bearbeiten.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/fibuxlsximport.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/fibu_schnittstellen/importverfahren_der_finanzbuchhaltung/datenuebernahme_schnittstelle/fibu_xlsx_import.md)
 
 #### Tags:
 

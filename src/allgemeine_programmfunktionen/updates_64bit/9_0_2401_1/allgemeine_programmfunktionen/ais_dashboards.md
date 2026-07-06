@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/aisdashboard.htm)
+[Weitere Informationen](../../../../zusatzprogramme/ais_a_eins_informationssystem/dashboard.md)
 
 #### Tags:
 

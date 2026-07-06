@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/_tseauswahllistepfleger.htm)
+[Weitere Informationen](../../../../kasse/kassensicherungsverordnung/kassensicherungsverordnung_einrichtung/tse_auswahlliste/tse_pfleger.md)
 
 #### Tags:
 

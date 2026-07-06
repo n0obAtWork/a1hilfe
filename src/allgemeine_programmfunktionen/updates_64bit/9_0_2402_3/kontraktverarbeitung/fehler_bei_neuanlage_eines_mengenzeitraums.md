@@ -18,7 +18,7 @@ Variante: Kontrakte
 
 Funktion/Report: Mengenzeiträume
 
-[Weitere Informationen](http://www.amic.de/hilfe/_zeitrumefestlegen.htm)
+[Weitere Informationen](../../../../kontrakt/kontraktstammdaten/zeitraeume_festlegen.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: n/a
 
 Funktion/Report: Gutschrift aus Rechnung
 
-[Weitere Informationen](http://www.amic.de/hilfe/gutschriftausrechnungsammelgua.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/vorgangsbearbeitung/gutschrift_aus_rechnung_sammel_gu_aus_rechnung.md)
 
 #### Tags:
 

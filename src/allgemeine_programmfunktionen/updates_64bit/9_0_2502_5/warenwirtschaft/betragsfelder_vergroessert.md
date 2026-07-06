@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/_wareabstimmen.htm)
+[Weitere Informationen](../../../../abschluesse_inventur/reorganisation/ware_abstimmen.md)
 
 #### Tags:
 

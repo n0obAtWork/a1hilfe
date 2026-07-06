@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/zinsgruppen.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/zinswesen/stammdaten_zinswesen/zinsgruppen.md)
 
 #### Tags:
 

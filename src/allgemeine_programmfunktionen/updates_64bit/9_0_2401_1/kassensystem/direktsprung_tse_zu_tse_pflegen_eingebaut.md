@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/_tseauswhalliste.htm)
+[Weitere Informationen](../../../../kasse/kassensicherungsverordnung/kassensicherungsverordnung_einrichtung/tse_auswahlliste/index.md)
 
 #### Tags:
 

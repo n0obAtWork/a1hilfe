@@ -18,7 +18,7 @@ Variante: alle
 
 Funktion/Report: Korrektur per Rohware-Vorgangshelper
 
-[Weitere Informationen](http://www.amic.de/hilfe/_vorgangsmappe_auswahllisten.htm)
+[Weitere Informationen](../../../../zusatzprogramme/streckenerfassung/auswahllisten.md)
 
 #### Tags:
 

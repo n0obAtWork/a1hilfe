@@ -18,7 +18,7 @@ Variante: Artikelstamm
 
 Funktion/Report: Ändern F5
 
-[Weitere Informationen](http://www.amic.de/hilfe/_parameterdesartikels.htm)
+[Weitere Informationen](../../../../artikelstamm_und_artikel/parameter_des_artikelstamms/index.md)
 
 #### Tags:
 

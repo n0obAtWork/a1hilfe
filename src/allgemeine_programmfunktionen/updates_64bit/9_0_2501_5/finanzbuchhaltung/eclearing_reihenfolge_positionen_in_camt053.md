@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/_eClearing.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/e_clearing/index.md)
 
 #### Tags:
 

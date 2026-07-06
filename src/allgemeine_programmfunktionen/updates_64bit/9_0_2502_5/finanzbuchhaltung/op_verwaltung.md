@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/formularfibuinfofenster.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/op_verwaltung/formular_fibu_infofenster.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/frz_sperren.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/formularzuordnung/sperren.md)
 
 #### Tags:
 

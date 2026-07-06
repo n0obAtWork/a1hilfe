@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/_produktionmodul.htm)
+[Weitere Informationen](../../../../produktions_modul/produktion_modul/index.md)
 
 #### Tags:
 

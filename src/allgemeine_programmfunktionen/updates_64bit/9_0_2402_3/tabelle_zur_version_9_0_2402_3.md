@@ -4,7 +4,7 @@
 
 | **ID** | **Releasenote - Titel** | **Geprüft** |
 | --- | --- | --- |
-| [34809](http://www.amic.de/hilfe/_90_34809.htm) | Datenbankfunktion AMIC_FSTR | |
-| [35687](http://www.amic.de/hilfe/_90_35687.htm) | neue Auswahllistenvariante im Archiv | |
-| [35655](http://www.amic.de/hilfe/_90_35655.htm) | Fehler bei Neuanlage eines Mengenzeitraums | |
-| [35721](http://www.amic.de/hilfe/_90_35721.htm) | THG-Werte werden automatisch nachgeladen bei manuellen Anbauland | |
+| [34809](./allgemeine_programmfunktionen/datenbankfunktion_amic_fstr.md) | Datenbankfunktion AMIC_FSTR | |
+| [35687](./dokumentenverwaltung/neue_auswahllistenvariante_im_archiv.md) | neue Auswahllistenvariante im Archiv | |
+| [35655](./kontraktverarbeitung/fehler_bei_neuanlage_eines_mengenzeitraums.md) | Fehler bei Neuanlage eines Mengenzeitraums | |
+| [35721](./nachhaltigkeit/thg_werte_werden_automatisch_nachgeladen_bei_manuellen_anbau.md) | THG-Werte werden automatisch nachgeladen bei manuellen Anbauland | |

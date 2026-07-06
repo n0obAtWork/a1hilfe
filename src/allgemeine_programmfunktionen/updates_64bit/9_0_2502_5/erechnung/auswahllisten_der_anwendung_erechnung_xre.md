@@ -18,7 +18,7 @@ Variante: alle
 
 Funktion/Report: Auswahllistengenerierung
 
-[Weitere Informationen](http://www.amic.de/hilfe/importiertevorgnge.htm)
+[Weitere Informationen](../../../../erechnung/erechnung_import/importierte_vorgaenge.md)
 
 #### Tags:
 

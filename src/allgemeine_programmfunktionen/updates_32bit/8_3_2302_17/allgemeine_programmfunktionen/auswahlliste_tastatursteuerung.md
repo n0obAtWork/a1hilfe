@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/!!darstellungderauswahlliste.htm)
+[Weitere Informationen](../../../../zusatzprogramme/darstellung_der_auswahlliste/index.md)
 
 #### Tags:
 

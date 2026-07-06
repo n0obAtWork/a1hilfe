@@ -18,7 +18,7 @@ Variante: alle
 
 Funktion/Report: [AR] -F6 Ansehen
 
-[Weitere Informationen](http://www.amic.de/hilfe/_artikelar.htm)
+[Weitere Informationen](../../../../artikelstamm_und_artikel/artikel/index.md)
 
 #### Tags:
 

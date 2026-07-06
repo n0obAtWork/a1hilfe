@@ -18,7 +18,7 @@ Variante: Alle
 
 Funktion/Report: Perioden-Erfolgsauswertung
 
-[Weitere Informationen](http://www.amic.de/hilfe/periodenerfolgsauswertung.htm)
+[Weitere Informationen](../../../../abschluesse_inventur/bestandsbuchfuehrung_und_bestandsbewertung/periodenerfolgsauswertung.md)
 
 #### Tags:
 

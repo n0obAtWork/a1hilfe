@@ -18,7 +18,7 @@ Variante: Rohwareguppen nach Bezeichnung, Rohwaregruppen nach Nummern
 
 Funktion/Report: F2
 
-[Weitere Informationen](http://www.amic.de/hilfe/!vorgehensweisebeidereinrichtun.htm)
+[Weitere Informationen](../../../../rohware_modul/vorgehensweise_bei_der_einrichtung_von_abrechnungsschemata_s.md)
 
 #### Tags:
 

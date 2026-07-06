@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/!_mengeneinheiten.htm)
+[Weitere Informationen](../../../../artikelstamm_und_artikel/konstanten_der_artikelverwaltung/mengeneinheiten_uebersicht.md)
 
 #### Tags:
 

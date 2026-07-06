@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/tabulatorreihenfolge.htm)
+[Weitere Informationen](../../../../zusatzprogramme/maskensteuerung_durch_die_anwender/tabulatorreihenfolge.md)
 
 #### Tags:
 

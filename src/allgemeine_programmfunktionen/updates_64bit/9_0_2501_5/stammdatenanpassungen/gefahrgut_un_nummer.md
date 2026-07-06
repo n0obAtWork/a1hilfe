@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/_gefahrgut.htm)
+[Weitere Informationen](../../../../artikelstamm_und_artikel/parameter_des_artikelstamms/gefahrgut/index.md)
 
 #### Tags:
 

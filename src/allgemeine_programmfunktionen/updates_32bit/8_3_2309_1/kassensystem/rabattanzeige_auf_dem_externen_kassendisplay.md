@@ -18,7 +18,7 @@ Variante: Stamminfo logischer kassen
 
 Funktion/Report: Ändern
 
-[Weitere Informationen](http://www.amic.de/hilfe/einrichtungdesexternenkassendi.htm)
+[Weitere Informationen](../../../../kasse/kassen_einrichtung/einrichtung_der_marktkasse/einrichtung_des_externen_kassendisplays.md)
 
 #### Tags:
 

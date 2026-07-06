@@ -18,7 +18,7 @@ Variante: Rohware Anlieferung Einkauf, Bearbeiten Sammeldruck Einkauf, Rohwarenl
 
 Funktion/Report: Sammelstorno erstellen, Abr. Stornobeleg., Lie. Stornobeleg
 
-[Weitere Informationen](http://www.amic.de/hilfe/!stornoabrechnung.htm,%20!_rwsammelbearbeiten.htm)
+[Weitere Informationen](../../../../rohware_modul/storno/stornoabrechnung.md)
 
 #### Tags:
 

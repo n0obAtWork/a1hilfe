@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/eudsgvodatenschutzgrundverordn.htm)
+[Weitere Informationen](../../../../dokumentenverwaltung/eu_dsgvo_datenschutz_grundverordnung/index.md)
 
 #### Tags:
 

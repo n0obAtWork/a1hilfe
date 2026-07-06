@@ -18,7 +18,7 @@ Variante: Scanner Konfiguration
 
 Funktion/Report: Scanner
 
-[Weitere Informationen](http://www.amic.de/hilfe/_scanner_konfiguration.htm)
+[Weitere Informationen](../../../../zusatzprogramme/a_eins_scannersoftware/anwendung_scanner_in_aeins/scanner_konfiguration.md)
 
 #### Tags:
 

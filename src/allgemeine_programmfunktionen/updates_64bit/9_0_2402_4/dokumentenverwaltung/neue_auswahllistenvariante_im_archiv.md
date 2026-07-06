@@ -18,7 +18,7 @@ Variante: Formulararchiv eRechnung
 
 Funktion/Report: n/a
 
-[Weitere Informationen](http://www.amic.de/hilfe/_anwendungformulararc.htm)
+[Weitere Informationen](../../../../dokumentenverwaltung/archiv_administration/anwendung_formulararchiv/index.md)
 
 #### Tags:
 

@@ -20,7 +20,7 @@ Variante: -
 
 Funktion/Report: Archiv anzeigen
 
-[Weitere Informationen](http://www.amic.de/hilfe/anwendungformulararc.htm)
+[Weitere Informationen](../../../../dokumentenverwaltung/archiv_administration/anwendung_formulararchiv/index.md)
 
 #### Tags:
 

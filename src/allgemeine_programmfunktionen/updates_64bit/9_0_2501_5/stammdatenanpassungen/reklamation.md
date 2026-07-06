@@ -18,7 +18,7 @@ Variante: Maßnahmen
 
 Funktion/Report: [REKLAM]
 
-[Weitere Informationen](http://www.amic.de/hilfe/_switchboard_reklamation.htm)
+[Weitere Informationen](../../../../zusatzprogramme/reklamationen/index.md)
 
 #### Tags:
 

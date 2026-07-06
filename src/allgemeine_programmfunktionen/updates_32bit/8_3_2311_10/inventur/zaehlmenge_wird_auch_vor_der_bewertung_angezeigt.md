@@ -18,7 +18,7 @@ Variante: Zählbestand
 
 Funktion/Report: Auswahlliste
 
-[Weitere Informationen](http://www.amic.de/hilfe/inventurbestand.htm)
+[Weitere Informationen](../../../../abschluesse_inventur/inventur/inventurbestand.md)
 
 #### Tags:
 

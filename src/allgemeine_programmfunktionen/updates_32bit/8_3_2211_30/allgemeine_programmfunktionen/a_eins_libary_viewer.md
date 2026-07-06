@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: [PATCH]
 
-[Weitere Informationen](http://www.amic.de/hilfe/_patcheinspielen.htm)
+[Weitere Informationen](../../../../zusatzprogramme/patch_einspielen.md)
 
 #### Tags:
 

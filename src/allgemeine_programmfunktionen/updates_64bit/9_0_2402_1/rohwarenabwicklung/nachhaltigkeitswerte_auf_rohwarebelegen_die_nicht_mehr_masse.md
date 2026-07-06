@@ -18,7 +18,7 @@ Variante: Rohwaren Anlieferung Einkauf, Rohwarenanlieferung Verkauf
 
 Funktion/Report: Abr. Stornobeleg, F5
 
-[Weitere Informationen](http://www.amic.de/hilfe/rohwarebelegekorrigieren.htm)
+[Weitere Informationen](../../../../rohware_modul/rohwarenbearbeitung/rohwarebelege_korrigieren.md)
 
 #### Tags:
 

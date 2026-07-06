@@ -18,7 +18,7 @@ Variante: [KU]
 
 Funktion/Report: USt-IdNr alle prüfen
 
-[Weitere Informationen](http://www.amic.de/hilfe/_umsatzsteueridprfung.htm)
+[Weitere Informationen](../../../../kunden_und_lieferanten/kunden_und_lieferantenstamm/umsatzsteuer_id_pruefung/index.md)
 
 #### Tags:
 

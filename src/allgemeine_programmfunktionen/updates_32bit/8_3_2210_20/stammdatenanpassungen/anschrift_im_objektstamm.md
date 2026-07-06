@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/baustelle.htm)
+[Weitere Informationen](../../../../zusatzprogramme/objekt_stamm.md)
 
 #### Tags:
 

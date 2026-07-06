@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: Standartfunktionen (F5, F6, F7, F8...)
 
-[Weitere Informationen](http://www.amic.de/hilfe/_weiterekennzeichen.htm)
+[Weitere Informationen](../../../../artikelstamm_und_artikel/artikel/weitere_kennzeichen.md)
 
 #### Tags:
 

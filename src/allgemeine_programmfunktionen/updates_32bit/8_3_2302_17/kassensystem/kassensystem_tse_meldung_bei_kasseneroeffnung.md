@@ -18,7 +18,7 @@ Variante: Marktkasse
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/kasse1.htm)
+[Weitere Informationen](../../../../kasse/index.md)
 
 #### Tags:
 

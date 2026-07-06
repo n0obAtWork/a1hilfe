@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/_SPA_703.htm)
+[Weitere Informationen](../../../../firmenstamm/steuerparameter/optionen_global/umsatzsteuer_identifikationsnummern_auf_mandanten_und_belege.md)
 
 #### Tags:
 

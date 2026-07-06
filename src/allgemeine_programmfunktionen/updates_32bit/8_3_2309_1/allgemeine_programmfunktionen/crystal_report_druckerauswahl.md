@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/crystalreport.htm)
+[Weitere Informationen](../../../../zusatzprogramme/crystal_report/index.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/_archivbasis.htm)
+[Weitere Informationen](../../../../dokumentenverwaltung/archiv_import/archiv_dokumenten_import.md)
 
 #### Tags:
 

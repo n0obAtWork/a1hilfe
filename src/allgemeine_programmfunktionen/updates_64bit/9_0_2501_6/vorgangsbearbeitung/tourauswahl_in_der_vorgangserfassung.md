@@ -18,7 +18,7 @@ Variante: Lieferscheinbearbeitung
 
 Funktion/Report: Lieferschein erfassen
 
-[Weitere Informationen](http://www.amic.de/hilfe/lieferschein.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/vorgangsbearbeitung_allgemein/vorgangsklassen_in_a_eins/lieferschein/index.md)
 
 #### Tags:
 

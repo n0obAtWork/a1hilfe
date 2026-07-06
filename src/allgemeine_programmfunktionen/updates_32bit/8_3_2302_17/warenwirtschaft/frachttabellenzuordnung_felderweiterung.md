@@ -18,7 +18,7 @@ Variante: Frachttabellen
 
 Funktion/Report: Ändern >> Fachttabellenzuordnung
 
-[Weitere Informationen](http://www.amic.de/hilfe/!frachttabellenzuordnungen.htm)
+[Weitere Informationen](../../../../preise_konditionen/frachten/automatische_frachten/frachttabellen/frachttabellenzuordnungen.md)
 
 #### Tags:
 

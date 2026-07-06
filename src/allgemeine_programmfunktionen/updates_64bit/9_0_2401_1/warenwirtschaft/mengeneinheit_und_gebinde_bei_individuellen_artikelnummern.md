@@ -18,7 +18,7 @@ Variante: alle
 
 Funktion/Report: F5 Ändern
 
-[Weitere Informationen](http://www.amic.de/hilfe/_formularzuordnung_tabeingabefelder.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/formularzuordnung/eingabe_eingabefelder.md)
 
 #### Tags:
 

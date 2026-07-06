@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/_Testmandant.htm)
+[Weitere Informationen](../../../../zusatzprogramme/testmandant/index.md)
 
 #### Tags:
 

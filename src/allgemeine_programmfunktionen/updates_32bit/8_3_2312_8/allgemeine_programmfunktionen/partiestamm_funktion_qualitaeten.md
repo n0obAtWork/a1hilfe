@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: Qualitäten (F9)
 
-[Weitere Informationen](http://www.amic.de/hilfe/_partiestammpar.htm)
+[Weitere Informationen](../../../../partieverwaltung/partiestamm/index.md)
 
 #### Tags:
 

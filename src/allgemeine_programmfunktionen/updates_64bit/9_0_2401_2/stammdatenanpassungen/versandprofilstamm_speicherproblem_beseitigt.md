@@ -18,7 +18,7 @@ Variante: Verpostungstamm
 
 Funktion/Report: Ändern
 
-[Weitere Informationen](http://www.amic.de/hilfe/_versandprofilstamm.htm)
+[Weitere Informationen](../../../../zusatzprogramme/mailversand_allgemein/einrichtung_mailversand/versandprofilstamm.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/platzhalterfrzahlungsbedingung.htm)
+[Weitere Informationen](../../../../kunden_und_lieferanten/konstanten_bearbeitung/platzhalter_fuer_zahlungsbedingungen.md)
 
 #### Tags:
 

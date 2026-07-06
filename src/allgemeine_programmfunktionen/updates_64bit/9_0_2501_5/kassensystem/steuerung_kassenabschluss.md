@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: [GBV]
 
-[Weitere Informationen](http://www.amic.de/hilfe/gesamtbarverkauf.htm)
+[Weitere Informationen](../../../../kasse/auswertungsanwendung_gesamtbarverkauf.md)
 
 #### Tags:
 

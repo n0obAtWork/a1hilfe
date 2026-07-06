@@ -18,7 +18,7 @@ Variante: Bewegungsübersicht, Massebilanz, Massebilanzbewegungen
 
 Funktion/Report: Massebilanz ändern, Massebilanz THG Änderung, Massebilanz Kompakt Report, Massebilanz Detail Report
 
-[Weitere Informationen](http://www.amic.de/hilfe/nachhaltigkeit.htm)
+[Weitere Informationen](../../../../vorgangsabwicklung/nachhaltigkeit/index.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: n/a
 
 Funktion/Report: Hilfe
 
-[Weitere Informationen](http://www.amic.de/hilfe/_verbotslisten.htm)
+[Weitere Informationen](../../../../kunden_und_lieferanten/kunden_und_lieferantenstamm/verbotslisten/index.md)
 
 #### Tags:
 

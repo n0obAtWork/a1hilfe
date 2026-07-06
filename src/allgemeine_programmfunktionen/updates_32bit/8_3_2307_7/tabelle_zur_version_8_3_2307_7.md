@@ -4,4 +4,4 @@
 
 | **ID** | **Releasenote - Titel** | **Geprüft** |
 | --- | --- | --- |
-| [33960](http://www.amic.de/hilfe/_83_33960.htm) | AMIC-Etikettendruck Profile | |
+| [33960](./allgemeine_programmfunktionen/amic_etikettendruck_profile.md) | AMIC-Etikettendruck Profile | |

@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: -
 
-[Weitere Informationen](http://www.amic.de/hilfe/_Permanente_Inventur.htm)
+[Weitere Informationen](../../../../abschluesse_inventur/permanente_inventur/index.md)
 
 #### Tags:
 

@@ -18,7 +18,7 @@ Variante: --
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/_kontraktstammdaten.htm)
+[Weitere Informationen](../../../../kontrakt/kontraktstammdaten/index.md)
 
 #### Tags:
 

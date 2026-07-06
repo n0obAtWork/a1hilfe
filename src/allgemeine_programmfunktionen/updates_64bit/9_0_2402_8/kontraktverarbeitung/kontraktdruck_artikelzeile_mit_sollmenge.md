@@ -18,7 +18,7 @@ Variante: Kontrakte
 
 Funktion/Report: Kontraktdruck F10
 
-[Weitere Informationen](http://www.amic.de/hilfe/_kontrakt.htm)
+[Weitere Informationen](../../../../kontrakt/index.md)
 
 #### Tags:
 

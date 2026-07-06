@@ -18,7 +18,7 @@ Variante: alle
 
 Funktion/Report: Abr.Stornobeleg, Sammel-Storno erstellen
 
-[Weitere Informationen](http://www.amic.de/hilfe/_rwsammelbearbeiten.htm)
+[Weitere Informationen](../../../../rohware_modul/sammelabrechnung/bearbeiten_sammeldruck.md)
 
 #### Tags:
 

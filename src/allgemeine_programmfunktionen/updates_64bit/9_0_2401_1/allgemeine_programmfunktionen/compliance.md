@@ -18,7 +18,7 @@ Variante: -
 
 Funktion/Report: Verbotslistenprüfung
 
-[Weitere Informationen](http://www.amic.de/hilfe/_ansch_verbotsliste.htm)
+[Weitere Informationen](../../../../kunden_und_lieferanten/kunden_und_lieferantenstamm/anschriften/funktionen_in_anschriften/verbotsliste.md)
 
 #### Tags:
 

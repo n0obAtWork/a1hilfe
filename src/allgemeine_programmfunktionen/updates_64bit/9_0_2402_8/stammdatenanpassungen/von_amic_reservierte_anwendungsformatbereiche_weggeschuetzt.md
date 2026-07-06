@@ -18,7 +18,7 @@ Variante: Anwendungsformate
 
 Funktion/Report: F5, F8
 
-[Weitere Informationen](http://www.amic.de/hilfe/_fsformate.htm)
+[Weitere Informationen](../../../../firmenstamm/formate.md)
 
 #### Tags:
 

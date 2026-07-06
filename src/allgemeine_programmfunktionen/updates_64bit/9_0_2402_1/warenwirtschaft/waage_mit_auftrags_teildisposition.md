@@ -18,7 +18,7 @@ Variante: Hofliste
 
 Funktion/Report: Wiegen
 
-[Weitere Informationen](http://www.amic.de/hilfe/_onlinewaage.htm)
+[Weitere Informationen](../../../../waagenanbindung/waagenanbindung_online_waage/index.md)
 
 #### Tags:
 

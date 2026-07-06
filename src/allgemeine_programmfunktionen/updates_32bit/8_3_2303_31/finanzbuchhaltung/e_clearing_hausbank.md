@@ -18,7 +18,7 @@ Variante: Zahlung per Datenträger
 
 Funktion/Report: --
 
-[Weitere Informationen](http://www.amic.de/hilfe/kontenerkennungundautomatische.htm)
+[Weitere Informationen](../../../../finanzbuchhaltung/e_clearing/kontenerkennung_und_automatische_auszifferung.md)
 
 #### Tags:
 

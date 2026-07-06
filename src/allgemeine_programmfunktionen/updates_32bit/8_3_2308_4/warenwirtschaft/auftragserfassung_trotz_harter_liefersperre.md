@@ -18,7 +18,7 @@ Variante: alle
 
 Funktion/Report: Auftrag erfassen
 
-[Weitere Informationen](http://www.amic.de/hilfe/_SPA_488.htm)
+[Weitere Informationen](../../../../firmenstamm/steuerparameter/vorgangsbearbeitung_spezialitaeten/auftrag_trotz_liefersperre_schreiben_spa_488.md)
 
 #### Tags:
 
