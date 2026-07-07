@@ -45,14 +45,3 @@ enable = false
 
 # [preprocessor.gitinfo.message]
 # footer = "Stand {{date}}{{sep}}commit: {{hash}}"
-
-# Fix: mdBook dupliziert das erste Kapitel nach /index.html, passt aber dessen
-# relative Content-Links ("Siehe auch") nicht an die Root-Ebene an -> sie zeigen z.B. auf
-# /updates_64bit/... statt /allgemeine_programmfunktionen/updates_64bit/... . Redirect-Stubs
-# an den Kurzpfaden fangen das ab. (Bei Struktur-Änderung der Landing-Page nachziehen.)
-[output.html.redirect]
-"/updates_64bit/index.html" = "../allgemeine_programmfunktionen/updates_64bit/index.html"
-"/updates_32bit/index.html" = "../allgemeine_programmfunktionen/updates_32bit/index.html"
-"/abgekuendigte_programm_module/index.html" = "../allgemeine_programmfunktionen/abgekuendigte_programm_module/index.html"
-"/generelle_programmbedienung/index.html" = "../allgemeine_programmfunktionen/generelle_programmbedienung/index.html"
-"/hinweis_auswahlliste.html" = "../allgemeine_programmfunktionen/hinweis_auswahlliste.html"

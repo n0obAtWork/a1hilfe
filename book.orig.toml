@@ -37,10 +37,3 @@ timezone = "local" # "local" (default) | "utc" | "source" | "fixed:+02:00"
 
 [preprocessor.gitinfo.message]
 footer = "Stand {{date}}{{sep}}commit: {{hash}}"
-
-[output.html.redirect]
-"/updates_64bit/index.html" = "../allgemeine_programmfunktionen/updates_64bit/index.html"
-"/updates_32bit/index.html" = "../allgemeine_programmfunktionen/updates_32bit/index.html"
-"/abgekuendigte_programm_module/index.html" = "../allgemeine_programmfunktionen/abgekuendigte_programm_module/index.html"
-"/generelle_programmbedienung/index.html" = "../allgemeine_programmfunktionen/generelle_programmbedienung/index.html"
-"/hinweis_auswahlliste.html" = "../allgemeine_programmfunktionen/hinweis_auswahlliste.html"
