@@ -13,7 +13,7 @@ on:
 jobs:
   build:
     runs-on: spike-a1hilfe-mdbook
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -25,8 +25,8 @@ jobs:
         run: echo "/opt/cargo/bin" >> $GITHUB_PATH
       - name: Prepare correct book.toml for build
         run: mv book.prod.toml book.toml
-      # - name: Run tests
-      #   run: mdbook test
+      - name: Run tests
+        run: mdbook test
       - name: Build Hilfe
         run: mdbook build
       # # this is for a workaround
@@ -34,53 +34,39 @@ jobs:
         uses: actions/setup-node@v6
         with:
           node-version: v24
-      # # Chrome / Chromium's printToPdf is the limiting factor
-      # # because the size of the print.html is just too big to convert to in one run 
-      # - name: Custom PDF generation!
-      #   run: |
-      #     cd pdf_pipeline
-      #     npm i
-      #     npm run build
-      # - name: Get short commit SHA and store it
-      #   run: echo "CID=$(git log -1 --format=%h)" >> $GITHUB_ENV
-      # - name: Rename PDF file
-      #   run: |
-      #     cp book/pdf/output.pdf book/pdf/Aeins-$CID.pdf
-      #     mv book/pdf/output.pdf book/pdf/Aeins.pdf
-      # - name: Copy PDF to LFB
-      #   run: sshpass -p '${{ secrets.SCP_PW }}' scp book/pdf/Aeins-$CID.pdf '${{ secrets.SCP_USER }}@${{ vars.SCP_HOST }}:${{ vars.SCP_DIR }}'
-      # - name: Remove pdf and _parts folder
-      #   run: |
-      #     rm -r book/pdf
-      #     rm -r book/_parts
-      # - name: Handle old container
-      #   run: |
-      #     chmod +x ./handle-old-container.sh
-      #     ./handle-old-container.sh spike-a1hilfe-mdbook      
-      # - name: Build Docker image
-      #   run: docker build -t spike-a1hilfe-mdbook:latest .
-      # - name: Deploy internal Onlinehilfe
-      #   run: >
-      #     docker run -d
-      #     --restart always
-      #     --name spike-a1hilfe-mdbook
-      #     --network dev
-      #     -p 8181:80
-      #     spike-a1hilfe-mdbook:latest
-      # - name: Setup Go
-      #   uses: actions/setup-go@v6
-      #   with:
-      #     go-version: '1.26'
-      
-      # - name: Upload to amic.de/hilfe
-      #   uses: willfurstenau/ftp-dir-upload@v1
-      #   with:
-      #     host: ${{ vars.FTP_HOST }}
-      #     user: ${{ secrets.FTP_USER }}
-      #     password: ${{ secrets.FTP_PW }}
-      #     local-dir: ./book
-      #     remote-dir: /wordpress_2025/hilfe/book
-
+      # Chrome / Chromium's printToPdf is the limiting factor
+      # because the size of the print.html is just too big to convert to in one run 
+      - name: Custom PDF generation!
+        run: |
+          cd pdf_pipeline
+          npm i
+          npm run build
+      - name: Get short commit SHA and store it
+        run: echo "CID=$(git log -1 --format=%h)" >> $GITHUB_ENV
+      - name: Rename PDF file
+        run: |
+          cp book/pdf/output.pdf book/pdf/Aeins-$CID.pdf
+          mv book/pdf/output.pdf book/pdf/Aeins.pdf
+      - name: Copy PDF to LFB
+        run: sshpass -p '${{ secrets.SCP_PW }}' scp book/pdf/Aeins-$CID.pdf '${{ secrets.SCP_USER }}@${{ vars.SCP_HOST }}:${{ vars.SCP_DIR }}'
+      - name: Remove pdf and _parts folder
+        run: |
+          rm -r book/pdf
+          rm -r book/_parts
+      - name: Handle old container
+        run: |
+          chmod +x ./handle-old-container.sh
+          ./handle-old-container.sh spike-a1hilfe-mdbook      
+      - name: Build Docker image
+        run: docker build -t spike-a1hilfe-mdbook:latest .
+      - name: Deploy internal Onlinehilfe
+        run: >
+          docker run -d
+          --restart always
+          --name spike-a1hilfe-mdbook
+          --network dev
+          -p 8181:80
+          spike-a1hilfe-mdbook:latest
       - name: Upload to amic.de/hilfe
         uses: pontago/lftp-deploy-action@master
         with:
@@ -89,8 +75,6 @@ jobs:
           port: ${{ vars.FTP_PORT }}
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PW }}
-          # local_dir: ./book/
-          # remote_dir: /wordpress_2025/hilfe/book
           script: |
-            mirror -R ./book/ /wordpress_2025/hilfe/book --delete --verbose
+            mirror -R ./book/ /wordpress_2025/hilfe/bookworm --delete --verbose
        
