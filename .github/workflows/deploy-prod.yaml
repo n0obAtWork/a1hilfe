@@ -66,27 +66,14 @@ jobs:
       #     --network dev
       #     -p 8181:80
       #     spike-a1hilfe-mdbook:latest
-      # - name: Upload to amic.de/hilfe
-      #   uses: joutvhu/ftp-transfer@v1
-      #   with:
-      #     host: ${{ vars.FTP_HOST }}
-      #     port: ${{ vars.FTP_PORT }}
-      #     username: ${{ secrets.FTP_USER }}
-      #     password: ${{ secrets.FTP_PW }}
-      #     commands: |
-      #       delete /wordpress_2025/hilfe/book
-      #       put ./book /wordpress_2025/hilfe/book
       - name: Upload to amic.de/hilfe
-        uses: sebastianpopp/ftp-action@releases/v2
+        uses: joutvhu/ftp-transfer@v1
         with:
-          host: ${{ secrets.FTP_HOST }}
-          user: ${{ secrets.FTP_USER }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          localDir: './book/'
-          remoteDir: '/wordpress_2025/hilfe/book/'
-          forceSSL: false
-          options: "--delete --verbose"
-    
-
-
-        
+          host: ${{ vars.FTP_HOST }}
+          port: ${{ vars.FTP_PORT }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PW }}
+          commands: |
+            delete /wordpress_2025/hilfe/book
+            put ./book /wordpress_2025/hilfe/book
+       
