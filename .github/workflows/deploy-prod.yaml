@@ -66,14 +66,17 @@ jobs:
       #     --network dev
       #     -p 8181:80
       #     spike-a1hilfe-mdbook:latest
+      - name: Setup Go
+        uses: actions/setup-go@v6
+        with:
+          go-version: '1.26'
+      
       - name: Upload to amic.de/hilfe
-        uses: joutvhu/ftp-transfer@v1
+        uses: willfurstenau/ftp-dir-upload@v1
         with:
           host: ${{ vars.FTP_HOST }}
-          port: ${{ vars.FTP_PORT }}
-          username: ${{ secrets.FTP_USER }}
+          user: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PW }}
-          commands: |
-            delete /wordpress_2025/hilfe/book
-            put ./book /wordpress_2025/hilfe/book
+          local-dir: ./book
+          remote-dir: /wordpress_2025/hilfe/book
        
