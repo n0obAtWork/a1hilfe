@@ -7,6 +7,7 @@ on:
       - 'README.md'
       - '.gitignore'
       - '.prettierignore'
+      - '.book.toml'
 
   workflow_dispatch:
 
@@ -67,14 +68,14 @@ jobs:
           --network dev
           -p 8181:80
           spike-a1hilfe-mdbook:latest
-      - name: Upload to amic.de/hilfe
-        uses: pontago/lftp-deploy-action@master
-        with:
-          protocol: sftp
-          host: ${{ vars.FTP_HOST }}
-          port: ${{ vars.FTP_PORT }}
-          username: ${{ secrets.FTP_USER }}
-          password: ${{ secrets.FTP_PW }}
-          script: |
-            mirror -R ./book/ /wordpress_2025/hilfe/bookworm --delete --verbose
+      # - name: Upload to amic.de/hilfe
+      #   uses: pontago/lftp-deploy-action@master
+      #   with:
+      #     protocol: sftp
+      #     host: ${{ vars.FTP_HOST }}
+      #     port: ${{ vars.FTP_PORT }}
+      #     username: ${{ secrets.FTP_USER }}
+      #     password: ${{ secrets.FTP_PW }}
+      #     script: |
+      #       mirror -R ./book/ /wordpress_2025/hilfe/bookworm --delete --verbose
        
