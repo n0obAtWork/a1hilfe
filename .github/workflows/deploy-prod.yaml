@@ -77,14 +77,15 @@ jobs:
       #       delete /wordpress_2025/hilfe/book
       #       put ./book /wordpress_2025/hilfe/book
       - name: Upload to amic.de/hilfe
-        uses: airvzxf/ftp-deployment-action@v2
+        uses: ercindedeoglu/ftp-transfer-action@v2
         with:
-          server: ftp://${{ vars.FTP_HOST }}:${{ vars.FTP_PORT }}
+          host: ${{ secrets.FTP_HOST }}
           user: ${{ secrets.FTP_USER }}
-          password: ${{ secrets.FTP_PW }}
-          local_dir: "./book"
-          remote_dir: "/wordpress_2025/hilfe/book"
-          delete: true
+          password: ${{ secrets.FTP_PASSWORD }}
+          source: './book/'
+          destination: '/wordpress_2025/hilfe/book/'
+          forceSSL: false
+          options: "--delete --verbose"
     
 
 
