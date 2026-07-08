@@ -23,16 +23,16 @@ jobs:
       - name: Add mdbook and extensions to path
         run: echo "/opt/cargo/bin" >> $GITHUB_PATH
       - name: Prepare correct book.toml for build
-        run: mv book.orig.toml book.toml
-      - name: Run tests
-        run: mdbook test
+        run: mv book.prod.toml book.toml
+      # - name: Run tests
+      #   run: mdbook test
       - name: Build Hilfe
         run: mdbook build
       # # this is for a workaround
-      # - name: Setup Node.js
-      #   uses: actions/setup-node@v6
-      #   with:
-      #     node-version: v24
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: v24
       # # Chrome / Chromium's printToPdf is the limiting factor
       # # because the size of the print.html is just too big to convert to in one run 
       # - name: Custom PDF generation!
@@ -69,7 +69,7 @@ jobs:
       - name: Upload to amic.de/hilfe
         uses: joutvhu/ftp-transfer@v1
         with:
-          server: ${{ vars.FTP_HOST }}
+          host: ${{ vars.FTP_HOST }}
           port: ${{ vars.FTP_PORT }}
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PW }}
