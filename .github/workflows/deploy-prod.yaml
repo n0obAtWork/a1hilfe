@@ -50,10 +50,6 @@ jobs:
           mv book/pdf/output.pdf book/pdf/Aeins.pdf
       - name: Copy PDF to LFB
         run: sshpass -p '${{ secrets.SCP_PW }}' scp book/pdf/Aeins-$CID.pdf '${{ secrets.SCP_USER }}@${{ vars.SCP_HOST }}:${{ vars.SCP_DIR }}'
-      - name: Remove pdf and _parts folder
-        run: |
-          rm -r book/pdf
-          rm -r book/_parts
       - name: Handle old container
         run: |
           chmod +x ./handle-old-container.sh
