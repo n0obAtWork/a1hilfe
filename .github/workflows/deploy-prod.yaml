@@ -74,8 +74,8 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PW }}
           commands: |
-            delete /wordpress_2025/hilfe/teaser
-            mkdir /wordpress_2025/hilfe/book
+            delete /wordpress_2025/hilfe/book
+            put ./book /wordpress_2025/hilfe/book
 
 
         
