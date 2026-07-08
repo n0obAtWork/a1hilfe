@@ -77,13 +77,13 @@ jobs:
       #       delete /wordpress_2025/hilfe/book
       #       put ./book /wordpress_2025/hilfe/book
       - name: Upload to amic.de/hilfe
-        uses: ercindedeoglu/ftp-transfer-action@v2
+        uses: sebastianpopp/ftp-action@releases/v2
         with:
           host: ${{ secrets.FTP_HOST }}
           user: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
-          source: './book/'
-          destination: '/wordpress_2025/hilfe/book/'
+          localDir: './book/'
+          remoteDir: '/wordpress_2025/hilfe/book/'
           forceSSL: false
           options: "--delete --verbose"
     
