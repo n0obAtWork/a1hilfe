@@ -15,7 +15,7 @@ level = 0
 enable = true
 
 # using mdbook-pdf
-# [output.pdf]
+[output.pdf]
 
 [preprocessor.gitinfo]
 enable = true
