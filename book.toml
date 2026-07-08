@@ -12,8 +12,8 @@ enable = true
 level = 0
 
 [output.html.search]
-enable = false
-# enable = true
+# enable = false
+enable = true
 
 # # using mdbook-pandoc
 # [output.pandoc.profile.pdf]
@@ -22,7 +22,10 @@ enable = false
 # to = "wkhtmltopdf"
 # number-sections = false
 
-# # using mdbook-pdf
+# mdbook-pdf bewusst AUS: läuft in Kapazitätslimits (Blank-Tail) UND scheitert an den
+# Meta-Refresh-Redirects in print.html. PDF wird stattdessen über pdf_pipeline/build_pdf.js
+# erzeugt (chunked + Meta-Refresh-Strip). Aktiv würde zudem HTML nach book/html/ verschachteln,
+# was die Deployment-Kopie (COPY book …) bräche.
 # [output.pdf]
 
 # [preprocessor.gitinfo]

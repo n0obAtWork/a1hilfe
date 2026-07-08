@@ -14,8 +14,8 @@ level = 0
 [output.html.search]
 enable = true
 
-# using mdbook-pdf
-[output.pdf]
+# # using mdbook-pdf
+# [output.pdf]
 
 [preprocessor.gitinfo]
 enable = true

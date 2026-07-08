@@ -31,7 +31,7 @@
 
 const fs = require("fs"), path = require("path");
 const puppeteer = require("puppeteer-core");
-const { PDFDocument } = require("pdf-lib");
+const { PDFDocument, PDFName, PDFDict, PDFArray, PDFNumber, PDFNull, PDFRef, PDFString, PDFHexString } = require("pdf-lib");
 
 const BOOK = process.env.BOOK ? path.resolve(process.env.BOOK) : path.resolve(__dirname, "..", "book");
 // HTML-Verzeichnis = wo print.html + Assets (css/ImagesExt/fonts) liegen. Bei MEHREREN mdbook-
@@ -56,12 +56,88 @@ const SUMMARY = process.env.SUMMARY || path.resolve(__dirname, "..", "src", "SUM
 function readLevels() {
   if (!fs.existsSync(SUMMARY)) return null;
   const re = /^(\s*)[-*]\s+\[[^\]]*\]\(([^)]*)\)/;
+  const rePrefix = /^\[[^\]]*\]\(([^)]*)\)\s*$/; // Prefix-Kapitel (kein Bullet) = Ebene 0
   const levels = [];
   for (const l of fs.readFileSync(SUMMARY, "utf8").split(/\r?\n/)) {
     const m = l.match(re);
-    if (m) levels.push(Math.round(m[1].replace(/\t/g, "  ").length / 2));
+    if (m) { levels.push(Math.round(m[1].replace(/\t/g, "  ").length / 2)); continue; }
+    if (rePrefix.test(l)) levels.push(0);
   }
   return levels;
+}
+
+// SUMMARY.md -> [{level,title}] je Kapitel (inkl. Prefix-Kapitel), Reihenfolge = print.html.
+function readSummaryEntries() {
+  if (!fs.existsSync(SUMMARY)) return null;
+  const reList = /^(\s*)[-*]\s+\[([^\]]*)\]\(([^)]*)\)/;
+  const rePrefix = /^\[([^\]]*)\]\(([^)]*)\)\s*$/;
+  const out = [];
+  for (const l of fs.readFileSync(SUMMARY, "utf8").split(/\r?\n/)) {
+    let m = l.match(reList);
+    if (m) { out.push({ level: Math.round(m[1].replace(/\t/g, "  ").length / 2), title: m[2] }); continue; }
+    m = l.match(rePrefix);
+    if (m) out.push({ level: 0, title: m[1] });
+  }
+  return out;
+}
+
+// erster Überschriften-Anker (id) eines Kapitels aus print.html (roher Slug, unkodiert).
+function slugFromChapter(html) {
+  const m = html.match(/<h[1-6][^>]*\sid="([^"]+)"/i);
+  return m ? m[1] : null;
+}
+
+// Chrome-Dest-Name (PDF-Name, #XX-escaped + %XX) -> roher Slug (wie print.html-id).
+function decodeChromeName(nameStr) {
+  let s = nameStr.replace(/^\//, "").replace(/#([0-9A-Fa-f]{2})/g, (_, h) => String.fromCharCode(parseInt(h, 16)));
+  try { return decodeURIComponent(s); } catch { return s; }
+}
+
+// Lesezeichen-Baum aus SUMMARY-Hierarchie bauen, Ziele über die (gemergten) Named-Dests.
+// slugToName: roher Slug -> PDFName (Schlüssel in katalog /Dests). Alle Items initial zugeklappt.
+function buildOutline(merged, entries, chapters, slugToName) {
+  const ctx = merged.context;
+  const n = Math.min(entries.length, chapters.length);
+  const items = [];
+  let withDest = 0;
+  for (let i = 0; i < n; i++) {
+    const dict = ctx.obj({});
+    dict.set(PDFName.of("Title"), PDFHexString.fromText(entries[i].title || ""));
+    const slug = slugFromChapter(chapters[i]);
+    const destName = slug != null ? slugToName.get(slug) : undefined;
+    if (destName) { dict.set(PDFName.of("Dest"), destName); withDest++; }
+    items.push({ level: entries[i].level, dict, ref: ctx.register(dict), children: [] });
+  }
+  // Hierarchie per Ebenen-Stack
+  const roots = [], stack = [];
+  for (const it of items) {
+    while (stack.length && stack[stack.length - 1].level >= it.level) stack.pop();
+    if (stack.length) stack[stack.length - 1].children.push(it); else roots.push(it);
+    stack.push(it);
+  }
+  const outlines = ctx.obj({}); outlines.set(PDFName.of("Type"), PDFName.of("Outlines"));
+  const outlinesRef = ctx.register(outlines);
+  (function wire(children, parentRef) {
+    for (let i = 0; i < children.length; i++) {
+      const it = children[i];
+      it.dict.set(PDFName.of("Parent"), parentRef);
+      if (i > 0) it.dict.set(PDFName.of("Prev"), children[i - 1].ref);
+      if (i < children.length - 1) it.dict.set(PDFName.of("Next"), children[i + 1].ref);
+      if (it.children.length) {
+        it.dict.set(PDFName.of("First"), it.children[0].ref);
+        it.dict.set(PDFName.of("Last"), it.children[it.children.length - 1].ref);
+        it.dict.set(PDFName.of("Count"), ctx.obj(-it.children.length)); // zugeklappt
+        wire(it.children, it.ref);
+      }
+    }
+  })(roots, outlinesRef);
+  if (roots.length) {
+    outlines.set(PDFName.of("First"), roots[0].ref);
+    outlines.set(PDFName.of("Last"), roots[roots.length - 1].ref);
+    outlines.set(PDFName.of("Count"), ctx.obj(roots.length)); // sichtbar: Top-Level (alle zu)
+  }
+  merged.catalog.set(PDFName.of("Outlines"), outlinesRef);
+  return { total: n, withDest };
 }
 
 // Chrome-Binary finden: 1) explizite ENV, 2) PATH (so legt es browser-actions/setup-chrome@v2 ab),
@@ -117,7 +193,12 @@ const PRINT_CSS = `<style id="pdf-pipeline-print">
 async function main() {
   if (!fs.existsSync(PRINT)) { console.error(`print.html fehlt unter ${PRINT} — erst HTML bauen (oder BOOK= setzen).`); process.exit(1); }
   if (!CHROME) { console.error("Chrome nicht gefunden (weder ENV CHROME/CHROME_PATH/PUPPETEER_EXECUTABLE_PATH, noch im PATH, noch an üblichen Pfaden). In CI z. B. CHROME=${{ steps.setup-chrome.outputs.chrome-path }} setzen."); process.exit(1); }
-  const h = fs.readFileSync(PRINT, "utf8");
+  // Meta-Refresh-Weiterleitungen der Redirect-Seiten (z. B. src/index.md "Startseite" und die
+  // Leer-Index-Knoten) aus dem PDF-Rendering entfernen: sonst navigiert Chrome beim Laden eines
+  // Chunks weg -> page.pdf() erfasst die Zielseite statt der Chunk-Kapitel. Im linearen PDF sind
+  // Redirects ohnehin sinnlos; der sichtbare "Weiter zu …"-Fallback-Link bleibt erhalten.
+  const h = fs.readFileSync(PRINT, "utf8")
+    .replace(/<meta\b[^>]*http-equiv\s*=\s*["']?refresh["']?[^>]*>/gi, "");
   const mo = h.match(/<main\b[^>]*>/); const start = mo.index + mo[0].length;
   const end = h.lastIndexOf("</main>");
   const prefix = h.slice(0, start).replace("</head>", PRINT_CSS + "\n</head>"), suffix = h.slice(end);
@@ -177,15 +258,60 @@ async function main() {
 
   process.stdout.write("Merge (pdf-lib)… ");
   const merged = await PDFDocument.create();
-  let total = 0;
+  const mergedDests = merged.context.obj({}); // katalog-weite /Dests-Tabelle (Name -> Ziel)
+  const slugToName = new Map();               // roher Slug -> PDFName-Key (für die Outline)
+  let total = 0, destCount = 0, destCollision = 0;
   for (const pf of partPdfs) {
     const doc = await PDFDocument.load(fs.readFileSync(pf));
-    const pages = await merged.copyPages(doc, doc.getPageIndices());
-    pages.forEach(p => merged.addPage(p));
-    total += doc.getPageCount();
+    const srcPages = doc.getPages();
+    const tagToIdx = new Map(srcPages.map((p, i) => [p.ref.tag, i]));
+    const copied = await merged.copyPages(doc, doc.getPageIndices());
+    copied.forEach(p => merged.addPage(p));
+    total += copied.length;
+    // Benannte Ziele (Katalog /Dests) übernehmen: Chrome legt interne Sprungziele hier ab
+    // (Name = Überschriften-Slug). copyPages kopiert diese Tabelle NICHT -> sonst zeigen alle
+    // internen GoTo-Links ins Leere. Seiten-Referenz auf die kopierte Seite umbiegen.
+    const dRef = doc.catalog.get(PDFName.of("Dests"));
+    if (dRef) {
+      const dDict = doc.context.lookup(dRef, PDFDict);
+      for (const [nameKey, val] of dDict.dict) {
+        let arr = doc.context.lookup(val);
+        if (arr instanceof PDFDict) arr = doc.context.lookup(arr.get(PDFName.of("D")));
+        if (!(arr instanceof PDFArray)) continue;
+        const first = arr.get(0);
+        const idx = first instanceof PDFRef ? tagToIdx.get(first.tag) : undefined;
+        if (idx === undefined) continue;
+        if (mergedDests.has(nameKey)) { destCollision++; continue; }
+        const rest = [];
+        for (let k = 1; k < arr.size(); k++) {
+          const el = arr.get(k);
+          if (el instanceof PDFName) rest.push(el);                       // /XYZ, /Fit …
+          else if (el instanceof PDFNumber) rest.push(merged.context.obj(el.asNumber()));
+          else rest.push(PDFNull);                                        // null-Koordinaten
+        }
+        mergedDests.set(nameKey, merged.context.obj([copied[idx].ref, ...rest]));
+        const slug = decodeChromeName(nameKey.asString());
+        if (!slugToName.has(slug)) slugToName.set(slug, nameKey);
+        destCount++;
+      }
+    }
   }
+  if (destCount) merged.catalog.set(PDFName.of("Dests"), mergedDests);
+
+  // Outline/Lesezeichen aus SUMMARY-Hierarchie rekonstruieren (pdf-lib überträgt die pro-Chunk-
+  // Outline nicht). Ziele über die eben gemergten Named-Dests.
+  let outlineInfo = null;
+  const entries = readSummaryEntries();
+  if (entries && entries.length) {
+    if (entries.length !== chapters.length)
+      console.warn(`\n  Outline: SUMMARY-Einträge (${entries.length}) != Kapitel (${chapters.length}) -> baue min(${Math.min(entries.length, chapters.length)}).`);
+    outlineInfo = buildOutline(merged, entries, chapters, slugToName);
+  }
+
   fs.writeFileSync(OUT, await merged.save());
-  console.log(`fertig.\n=> ${OUT}\nSeiten gesamt: ${total} | ${(fs.statSync(OUT).size / 1024 / 1024).toFixed(1)} MB`);
+  console.log(`fertig.\n=> ${OUT}\nSeiten gesamt: ${total} | benannte Ziele: ${destCount}${destCollision ? ` (Kollisionen: ${destCollision})` : ""}` +
+    (outlineInfo ? ` | Lesezeichen: ${outlineInfo.total} (mit Ziel: ${outlineInfo.withDest})` : "") +
+    ` | ${(fs.statSync(OUT).size / 1024 / 1024).toFixed(1)} MB`);
 
   for (const f of chunkHtmls) fs.unlinkSync(f); // book/_parts/part*.pdf bleiben (Kontrolle / externer Merge)
 }

@@ -12,7 +12,10 @@ const PER = Math.max(1, parseInt(process.argv[2] || "600", 10));
 const BREAK = '<div style="break-before: page; page-break-before: always;"></div>';
 
 if (!fs.existsSync(PRINT)) { console.error(`print.html fehlt unter ${PRINT}.`); process.exit(1); }
-const h = fs.readFileSync(PRINT, "utf8");
+// Meta-Refresh-Weiterleitungen der Redirect-Seiten entfernen — sonst navigiert Chrome beim
+// Rendern eines Chunks weg (siehe build_pdf.js). Im linearen PDF ohnehin sinnlos.
+const h = fs.readFileSync(PRINT, "utf8")
+  .replace(/<meta\b[^>]*http-equiv\s*=\s*["']?refresh["']?[^>]*>/gi, "");
 const mo = h.match(/<main\b[^>]*>/); const start = mo.index + mo[0].length;
 const end = h.lastIndexOf("</main>");
 const prefix = h.slice(0, start), suffix = h.slice(end);
