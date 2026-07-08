@@ -79,12 +79,13 @@ jobs:
       - name: Upload to amic.de/hilfe
         uses: airvzxf/ftp-deployment-action@v2
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          user: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
+          server: ftp://${{ vars.FTP_HOST }}:${{ vars.FTP_PORT }}
+          user: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PW }}
           local_dir: "./book"
           remote_dir: "/wordpress_2025/hilfe/book"
           delete: true
+    
 
 
         
