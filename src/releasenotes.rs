@@ -840,10 +840,18 @@ mod tests {
     // und prüft persist_release + version_published gegen eine echte DB.
     #[tokio::test]
     async fn persist_release_writes_version_and_abkuendigungen() {
+        use testcontainers::ImageExt;
         use testcontainers::runners::AsyncRunner;
         use testcontainers_modules::postgres::Postgres;
 
-        let node = Postgres::default().start().await.expect("Container-Start");
+        // Postgres-Image-Tag konfigurierbar (Env TEST_POSTGRES_TAG), Default = Dev/Prod-Version.
+        // (Crate-Default wäre sonst postgres:11-alpine.)
+        let pg_tag = std::env::var("TEST_POSTGRES_TAG").unwrap_or_else(|_| "18.4-trixie".to_string());
+        let node = Postgres::default()
+            .with_tag(pg_tag)
+            .start()
+            .await
+            .expect("Container-Start");
         let host = node.get_host().await.expect("host");
         let port = node.get_host_port_ipv4(5432).await.expect("port");
         let url = format!("postgres://postgres:postgres@{host}:{port}/postgres");

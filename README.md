@@ -83,7 +83,9 @@ cargo test
 
 Die meisten Tests laufen netzwerk- und DB-frei. Der Integrationstest
 `persist_release_writes_version_and_abkuendigungen` startet via **Testcontainers**
-einen Wegwerf-Postgres und benötigt daher eine **laufende Docker-Engine**.
+einen Wegwerf-Postgres und benötigt daher eine **laufende Docker-Engine**. Die
+Postgres-Version entspricht standardmäßig der Prod-Version und lässt sich über die
+Umgebungsvariable `TEST_POSTGRES_TAG` überschreiben.
 
 ## Endpoints
 

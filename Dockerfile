@@ -40,6 +40,6 @@ ENV TZ=Europe/Berlin
 
 RUN ln -sf /usr/share/zoneinfo/${TZ} /etc/localtime && echo ${TZ} > /etc/timezone
 
-EXPOSE 18080
+EXPOSE 8080
 
 CMD [ "releasenotes" ]
