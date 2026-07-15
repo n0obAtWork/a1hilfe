@@ -18,6 +18,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v6
+      - name: Run tests
+        run: cargo test
       - name: Build Docker image
         run: docker build -t releasenotes:latest .
       - name: Handle old container
