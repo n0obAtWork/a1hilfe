@@ -34,6 +34,7 @@ jobs:
           --restart always
           --name releasenotes
           --network infra
+          -p ${{ vars.HOST_PORT }}:${{ vars.SERVER_PORT }}
           -v /opt/auxiliary:/certs:ro
           -e ROOT_CA="/certs/Root Certificate Authority (ad.amic.services).cer"
           -e TFS_CERT="/certs/devops.amic.services.pfx"

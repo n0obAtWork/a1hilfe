@@ -36,7 +36,7 @@ async fn main() {
     let port: u16 = std::env::var("SERVER_PORT")
         .ok()
         .and_then(|s| s.parse().ok())
-        .unwrap_or(18080);
+        .unwrap_or(8080);
 
     // Reines HTTP (kein TLS): der Server lauscht auf der konfigurierten Adresse.
     let acceptor = TcpListener::new(format!("{host}:{port}")).bind().await;
