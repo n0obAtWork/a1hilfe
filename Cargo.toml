@@ -1,0 +1,22 @@
+[package]
+name = "releasenotes"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+salvo = { version = "0.94.0", features = ["affix-state"] }
+tokio = { version = "1.52.3", features = ["macros", "rt-multi-thread"] }
+tracing = "0.1.44"
+tracing-subscriber = "0.3.23"
+reqwest = { version = "0.12", features = ["json", "native-tls"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+dotenvy = "0.15"
+zip = { version = "2", default-features = false, features = ["deflate"] }
+async-trait = "0.1"
+sqlx = { version = "0.8", default-features = false, features = ["runtime-tokio", "postgres", "macros", "migrate"] }
+
+[dev-dependencies]
+salvo = { version = "0.94.0", features = ["test"] }
+testcontainers = "0.27.3"
+testcontainers-modules = { version = "0.15.0", features = ["postgres"] }
