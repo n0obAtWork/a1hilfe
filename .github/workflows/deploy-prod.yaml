@@ -1,4 +1,4 @@
-name: Deploy Releasenotes to Production
+name: Deploy Releasenotes Service to Production
 
 on:
   push:
