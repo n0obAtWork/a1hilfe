@@ -1,0 +1,36 @@
+# Vertreterstamm Variante 1
+
+<!-- source: https://amic.de/hilfe/_vertreterstammv1.htm -->
+
+Hier werden alle erfassten Vertreter aufgelistet.
+
+<details>
+<summary>Felder:</summary>
+
+| Feld | Bedeutung |
+| --- | --- |
+| Nummer | Nummer des Vertreters |
+| Name | Name des Vertreters |
+| Matchcode | |
+| Klasse | Zeigt an, welche [Vertreterklasse](./vertreterstamm_pfleger/vertreterprovisionstabellen.md) hinterlegt ist, anhand der Nummer |
+
+</details>
+
+<details>
+<summary>Suchmöglichkeiten des Vertreterstamm</summary>
+
+| Feld | Bedeutung |
+| --- | --- |
+| Vertreter | Von… Bis… |
+
+</details>
+
+<details>
+<summary>Funktionen: des Vertreterstamm</summary>
+
+| Feld | Bedeutung |
+| --- | --- |
+| Ändern (F5), Ansicht (F6), Löschen (F7), Neu (F8) | Ruft den Pfleger des Vertreterstamm auf. |
+| Vertreterabrechnung (F9) | Öffnet die [Vertreterabrechnung](../vertreterabrechnung/index.md). |
+
+</details>

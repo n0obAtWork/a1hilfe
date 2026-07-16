@@ -1,0 +1,148 @@
+:root {
+    --amic-color-yellow: #f39200;
+    --amic-color-green: #007674;
+}
+
+.menu-title {
+    font-weight: bolder;
+    color: var(--amic-color-green);
+}
+
+/* .sub-header-1 {
+    font-size: 1.8rem;
+} */
+
+summary {
+    font-weight: bold;
+    color: white;
+    background-color: var(--amic-color-green);
+    border-radius: 8px;
+    padding: 0.7rem 0.5rem;
+}
+
+/* summary::marker {
+    content: "";
+} */
+
+details {
+    margin-bottom: 1.2rem;
+    border-radius: 10px;
+    border: 1px solid var(--amic-color-green);
+}
+
+details[open]>summary {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+details[open]>summary:has(+ div.table-wrapper) {
+    margin-bottom: 1.2rem;
+}
+
+details>*:not(summary) {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+details>p.answer {
+    color: var(--amic-color-yellow);
+    font-weight: bold;
+}
+
+details>ul,
+details>ol {
+    margin-left: 0.5rem;
+}
+
+details>ul>li {
+    margin-left: 1.3rem;
+}
+
+details>ol>li {
+    margin-left: 1.3rem;
+}
+
+.chapter li a.active {
+    color: var(--amic-color-yellow)
+}
+
+a:hover {
+    color: var(--amic-color-yellow);
+}
+
+li.chapter-item a:not(.active):hover {
+    color: var(--amic-color-yellow);
+}
+
+.chapter a.current-header {
+    color: var(--amic-color-yellow);
+}
+
+.system-req,
+.siehe-auch,
+.just-emphasize {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.bottom-closer-together {
+    margin-bottom: 0;
+}
+
+.bottom-closer-together+* {
+    margin-top: 0;
+}
+
+.siehe-auch+ul {
+    list-style-type: none;
+}
+
+.table-wrapper:last-of-type {
+    margin-bottom: 5px;
+}
+
+.table-wrapper table {
+    width: 100%;
+}
+
+td {
+    vertical-align: top;
+}
+
+td p:first-of-type {
+    margin-top: 0;
+}
+
+td p:last-of-type {
+    margin-bottom: 0;
+}
+
+.table-wrapper td>ul,
+.table-wrapper td>ol {
+    margin-left: -2.5rem;
+}
+
+/* Bild-only-Zellen in (rohen) Tabellen: Eigenbreite erlauben. Sonst kollabiert bei
+   .table-wrapper table{width:100%} + Auto-Layout die Bildspalte neben einer "gierigen"
+   Textspalte auf 0 -> Bild unsichtbar (z.B. kachelkarte image8_1512.png). */
+.table-wrapper td>img:only-child {
+    max-width: none;
+}
+
+.space-above {
+    margin-top: 3rem;
+}
+
+.space-left {
+    margin-left: 2rem;
+}
+
+.pseudo-header {
+    margin-bottom: 0;
+}
+
+.pseudo-header+p,
+div.table-wrapper,
+table {
+    margin-top: 0;
+}

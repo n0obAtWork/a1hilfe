@@ -1,0 +1,25 @@
+# A.eins.Libary-Viewer
+
+<!-- source: https://amic.de/hilfe/_83_33086.htm -->
+
+Patches können ab dieser Version über den A.eins.Libary-Viewer eingespielt werden. Eine Anleitung befindet sich in der verlinkten Hilfe.
+
+### Releasenote Kategorie:
+
+Ticket: 716363[33086]
+
+Version: 8.3.2211.30
+
+Datum: 25.11.2022
+
+Anwendung: -
+
+Variante: -
+
+Funktion/Report: [PATCH]
+
+[Weitere Informationen](../../../../zusatzprogramme/patch_einspielen.md)
+
+#### Tags:
+
+Releasenote, 8.3.2211.30, 33086, 716363

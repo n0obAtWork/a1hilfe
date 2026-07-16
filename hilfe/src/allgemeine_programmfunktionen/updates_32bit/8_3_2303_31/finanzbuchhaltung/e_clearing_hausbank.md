@@ -1,0 +1,25 @@
+# e-Clearing Hausbank
+
+<!-- source: https://amic.de/hilfe/_83_33537.htm -->
+
+Sollten zu einer IBAN mehrere Hausbanken existieren, so ist es nicht möglich, die Hausbank automatisch zuzuordnen. Damit e-Clearing-Auszüge trotzdem als buchbar erkannt werden, existiert jetzt eine Funktion "Hausbank zuordnen".
+
+### Releasenote Kategorie:
+
+Ticket: 720614[33537]
+
+Version: 8.3.2303.31
+
+Datum: 31.03.2023
+
+Anwendung: [ECL]
+
+Variante: Zahlung per Datenträger
+
+Funktion/Report: --
+
+[Weitere Informationen](../../../../finanzbuchhaltung/e_clearing/kontenerkennung_und_automatische_auszifferung.md)
+
+#### Tags:
+
+Releasenote, 8.3.2303.31, 33537, 720614

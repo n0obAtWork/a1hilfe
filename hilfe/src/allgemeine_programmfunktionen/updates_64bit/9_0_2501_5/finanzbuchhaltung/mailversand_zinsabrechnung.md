@@ -1,0 +1,25 @@
+# Mailversand Zinsabrechnung
+
+<!-- source: https://amic.de/hilfe/_90_35789.htm -->
+
+Alternativ zum Formular für den Mailbody kann in den Zinsgruppen auch ein Datenbankfunktion hinterlegt werden
+
+### Releasenote Kategorie:
+
+Ticket: 735345[35789]
+
+Version: 9.0.2501.5
+
+Datum:
+
+Anwendung: ZIG
+
+Variante: --
+
+Funktion/Report: --
+
+[Weitere Informationen](../../../../finanzbuchhaltung/zinswesen/stammdaten_zinswesen/zinsgruppen.md)
+
+#### Tags:
+
+Releasenote, 9.0.2501.5, 35789, 735345

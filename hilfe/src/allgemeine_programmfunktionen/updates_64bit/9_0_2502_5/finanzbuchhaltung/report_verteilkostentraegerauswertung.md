@@ -1,0 +1,25 @@
+# Report Verteilkostenträgerauswertung
+
+<!-- source: https://amic.de/hilfe/_90_37599.htm -->
+
+Die Verteilkostenträgerauswertung zeigte auch in der Spalte für die kumulativen Werte die Periodenwerte an. 
+
+### Releasenote Kategorie:
+
+Ticket: 748317[37599]
+
+Version: 9.0.2502.5
+
+Datum: 15.10.2025
+
+Anwendung: --
+
+Variante: --
+
+Funktion/Report: --
+
+[Weitere Informationen](../../../../zusatzprogramme/crystal_report/index.md)
+
+#### Tags:
+
+Releasenote, 9.0.2502.5, 37599, 748317

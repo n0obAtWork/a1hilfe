@@ -1,0 +1,25 @@
+# Aktuelle Warenbestände nicht aufrufbar aus der Warenpositionsmaske in einem Beleg
+
+<!-- source: https://amic.de/hilfe/_90_37605.htm -->
+
+Die Maske, die Bestände und Mengen aus der Warenpositonsmaske anzeigt, konnte nicht korrekt geöffnet werden.Dies wurde korrigiert.
+
+### Releasenote Kategorie:
+
+Ticket: 748438[37605]
+
+Version: 9.0.2501.8
+
+Datum:
+
+Anwendung: Alle Belegerfassungsanwendung
+
+Variante: Alle Belegerfassungsvarianten
+
+Funktion/Report: aktuelle Warenbestände
+
+[Weitere Informationen](../../../../vorgangsabwicklung/erfassungs_und_bearbeitungsfunktionen/artikelerfassung_f4/weitere_funktionen_bei_der_artikelerfassung.md)
+
+#### Tags:
+
+Releasenote, 9.0.2501.8, 37605, 748438

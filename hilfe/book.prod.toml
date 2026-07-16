@@ -1,0 +1,39 @@
+[book]
+title = "A.eins"
+authors = []
+language = "de"
+
+[output.html]
+additional-css = ["custom.css"]
+no-section-label = true
+
+[output.html.fold]
+enable = true
+level = 0
+
+[output.html.search]
+enable = true
+
+# # using mdbook-pdf
+# [output.pdf]
+
+[preprocessor.gitinfo]
+enable = true
+
+# choose placement(s)
+header = false # default: false
+footer = true  # default: true
+
+# common formatting
+font-size = "0.9em"
+separator = " • "
+date-format = "%Y-%m-%d"
+time-format = "%H:%M:%S"
+branch = "main"
+hyperlink = false        # make hash/branch clickable when possible
+
+# optional timezone handling
+timezone = "local" # "local" (default) | "utc" | "source" | "fixed:+02:00"
+
+[preprocessor.gitinfo.message]
+footer = "Stand {{date}}{{sep}}commit: {{hash}}"

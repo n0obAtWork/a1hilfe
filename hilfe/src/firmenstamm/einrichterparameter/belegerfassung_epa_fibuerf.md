@@ -1,0 +1,55 @@
+# Belegerfassung (EPA FIBUERF)
+
+<!-- source: https://amic.de/hilfe/_EPA_FIBUERF.htm -->
+
+| Bezeichnung | Standardwert | Erklärung |
+| --- | --- | --- |
+| Belegmappe abfragen | Nicht aktiv | Es existieren drei Ausprägungen:<br><ul><li><u>Nicht aktiv</u>. Belegmappe wird nicht abgefragt bzw. angezeigt</li><li><u>Belegmappe einmal zentral abfragen</u>. Die Belegmappe wird nur einmal im Periodenabfragefenster abgefragt.</li><li><u>Belegmappe in der Belegerfassung abfragen</u>. Man hat in der Belegerfassungsmaske zusätzlich die Möglichkeit die Belegmappe zu ändern.<br>•&nbsp;&nbsp;&nbsp; </li></ul> |
+| Saldo nur aus den letzten zwei Geschäftsjahren ermitteln | Ja | Zur Performancesteigerung existiert die Möglichkeit, den Saldo eines Kontos nur aus den letzten zwei Jahren bestimmen. Dies setzt jedoch voraus, dass der Jahreswechsel ordentlich durchgeführt worden ist.<br> |
+| Bei Eingangsrechnungen Anlagenstamm automatisch aufrufen | Ja | Bei Erfassung von Eingangsrechnungen, die als Gegenkonto ein als Anlagekonto gekennzeichnetes Konto verwenden, kann direkt in die Anlagenbuchhaltung verzweigt werden. Dazu muss hier ein „Ja“ eingetragen werden<br> |
+| Bei Zahlungen automatisch F6 ? | Nein | Es ist möglich bei der Erfassung von Zahlungsbelegen direkt in die OP-Verwaltung zu springen um die Zahlung sofort zu verrechnen/auszuziffern. Dazu muss hier ein „Ja“ eingetragen werden.<br> |
+| Bei Zahlungsverkehr Bank (ZB) Verrechnungskonto aus Hausbank vorbelegen? | Ja | Folgende Einstellmöglichkeiten existieren:<br><ul><li>Ja: Es wird das Verrechnungskonto verwendet</li><li>Nein: Es wird das Finanzbuchhaltungskonto verwendet<br>&nbsp;</li></ul> |
+| Belegdatum mit Periode prüfen? | Test und Warnung | Folgende Einstellmöglichkeiten existieren:<br><ul><li>Kein Test</li><li>Test und Warnung</li><li>Test und Fehler</li><li>Teste Jahr mit Warnung</li><li>Teste Jahr und Fehler<br>Beim Test Jahr muss das Belegdatum nur im aktuellen Jahr liegen. Bei Warnung wird nur ein Hinweis auf das inkorrekte Datum gegeben und man kann weiter erfassen.<br>&nbsp;</li></ul> |
+| Vorbelegung Belegdatum: 0=Tagesdatum, 1-…=Tage zurück, -1=leer | 0 | Bei Erfassung eines neuen Belegs wird das Belegdatum laut Einstellung vorbelegt. |
+| Druckabfrage bei Belegabschluss | Nein | Belege können über ein Formular des Typs 600 „Belegdruck Finanzbuchhaltung“ direkt nach der Erfassung gedruckt werden. Dazu muss hier ein „Ja“ eingetragen werden.<br> |
+| Fehler beim Bereichstest Nummernkreis? | Nein | Liegt die eingegebene Nummer nicht im Bereich der im Nummernkreis hinterlegten Werte, so kann man hier einstellen, dass eine Fehlermeldung ausgegeben wird.<br> |
+| Erlaubter Kundentyp Ausgangsgutschrift | Alle | Der Kundentyp für diese Belegart kann eingeschränkt werde.<br> |
+| Erlaubter Kundentyp Ausgangsrechnungen | Alle | s.o.<br> |
+| Erlaubter Kundentyp Eröffnungsbuchung | Alle | s.o.<br> |
+| Erlaubter Kundentyp Eingangsgutschrift | Alle | s.o.<br> |
+| Erlaubter Kundentyp Eingangsrechnung | Alle | s.o.<br> |
+| Erlaubter Kundentyp Sonstige Belege | Alle | s.o.<br> |
+| Erlaubter Kundentyp Zahlungen | Alle | s.o.<br> |
+| Steuergruppe abfragbar? | Ja | Es gibt drei Ausprägungen:<br><ul><li><b>Nein</b>: Die vorbelegte Nummer ist nicht änderbar.</li><li><b>Ja:</b> Die Vorbelegte Nummer ist immer änderbar</li><li><b>Freischaltbar:</b> Das Feld mit der Steuergruppe kann per Funktion <strong><em>Steuergruppe freischalten</em></strong> <strong>CF5</strong> freigeschaltet werden.<br>&nbsp;</li></ul> |
+| Gegenkonto nach jeder Zeile auf 0 setzen? | Ja | Stellt man diesen Parameter auf nein, bleibt das Gegenkonto mit der letzten eingegebenen Nummer vorbelegt.<br> |
+| Verteilung nur entweder Kostenträger oder Kostenstelle zulassen. | Nein | Mit diesem Parameter lässt sich das gleichzeitige Verteilen eines Betrags auf Kostenstellen und auf Kostenträger Verbieten. Damit kann dann auch nicht gleichzeitig für Verteilkostenträger und Verteilkostenstellen erfasst werden.<br> |
+| Belegdatum und Text löschen | Ja | Stellt man diesen Parameter auf nein, so werden nach **F9** das Belegdatum und der Belegtext nicht gelöscht.<br> |
+| Bei Aufruf der OP-Verwaltung den Obligokunden abfragen? | Nein | Wenn man von der Erfassung einer Zahlung heraus direkt in die OP-Verwaltung springt, kann man hier die Abfrage des Obligokunden erzwingen.<br> |
+| Paginiernummer bei ER+EG+EB mit abfragen? | Nein | Die Paginiernummer kann für diese Belegarten manuell geändert werden.<br> |
+| Paginiernummer bei allen Belegarten mit abfragen? | Nein | Die Paginiernummer kann für alle Belegarten geändert werden.<br> |
+| Paginiernummer muss Daten enthalten? | Nein | Steht hier ein Nein, so ist die Angabe einer Nummer nicht Pflicht.<br> |
+| Konto zur Paginiernummer im Archiv mit anpassen. | Nein | Wenn man einem Finanzbuchhaltungs-Beleg eine Paginiernummer zuordnet, zu der bereits ein Beleg mit dieser Belegreferenz (Paginiernummer = FA_BELEGREFERENZ) im Archiv existiert, hat man oft das Problem, dass dort noch kein Konto zugeordnet wurde. Oder man muss die Kontonummer ändern und im Archiv steht dann eine andere Kontonummer als im Beleg.<br>Setzt man diesen Einrichterparameter auf **Ja**, so wird geprüft, ob der Archiveintrag ohne Konto oder mit dem alten Konto vor Änderung existiert. Nur in diesem Fall wird das Personenkonto nachgetragen.<br> |
+| Periodenwechsel erlaubt? | Nein | Beim Einstieg in die Belegerfassung wird die Periode abgefragt und dann bei jedem Beleg neu Vorbelegt. Trägt man hier ein „Ja“ ein, so kann man die Periode bei der Erfassung ändern.<br> |
+| Referenznummer bei AR+AG mit abfragen? | Nein | Referenznummern werden gewöhnlich nur bei Eingangsrechnungen und Gutschriften abgefragt. Hier kann man auch für Ausgangsrechnungen die Abfrage aktivieren.<br> |
+| Referenznummer muss Daten enthalten! | Nein | Stellt man diesen Parameter auf „Ja“, so wird geprüft, ob die Referenznummer eingegeben wurde.<br> |
+| Referenznummer muss eindeutig sein! | Warnung | Hier können folgende Werte vorkommen:<br><ul><li>Ignorieren<br>Es wird keine Prüfung vorgenommen</li><li>„Warnung innerhalb der Periode“ und „Fehler innerhalb der Periode“.<br>Es wird geprüft, ob diese Referenznummer bereits für diesen Kunden in der aktuellen Periode existiert. Es erscheint dann ein entsprechender Hinweis. </li><li>„Warnung innerhalb des Geschäftsjahres“ und „Fehler innerhalb des Geschäftsjahres“<br>Der Zeitraum, in dem die Referenznummer eindeutig sein muss bezieht sich auf das aktuelle Geschäftsjahr. </li><li>„Warnung innerhalb zurückliegender Monate“ und „Fehler innerhalb zurückliegender Monate“<br>Hier wird geprüft, ob zwischen Tagesdatum und soundso vielen Vormonaten bereits diese Nummer vergeben wurde. Die Anzahl der Vormonate wird mit dem Einrichterparameter „Anzahl zurückliegender Monate für Eindeutigkeitsprüfung“ eingestellt. Bei dieser Prüfung wird anstelle der Perioden das Erfassungsdatum als Bezugszeitpunkt herangezogen.<br><br>Hat man „Fehler“ eingestellt, so springt der Cursor ins Feld der Referenznummer und man kann das Feld erst verlassen, wenn eine eindeutige Nummer erfasst wurde.<br>Bei dem Test werden auch die Einträge in der Eingangsmappe berücksichtigt.<br>&nbsp;</li></ul> |
+| Anzahl zurückliegender Monate für Eindeutigkeitsprüfung | 12 | Für den Einrichterparameter „Referenznummer muss eindeutig sein!“ kann man für die Einstellung „Warnung innerhalb zurückliegender Monate“ und „Fehler innerhalb zurückliegender Monate“ hier die Anzahl der zu prüfenden Monate einstellen.<br> |
+| Saldo bei Zahlungsverkehr Kasse/Bank für das Hauptkonto drehen | Nein | \-- |
+| Bei Neuerfassung ändern der Kopfinformationen nicht zulassen? | Nein | Bei Erfassung eines neuen Beleges kann man alle Informationen ändern. |
+| Steuerfenster automatisch? | Nein | Bei Erfassung von Eingangsrechnungen kann es auf Grund unterschiedlicher Rundungsmechanismen zu Abweichungen der Steuerbeträge kommen. Man kann Belege daher „mit Steueränderung“ abschließen. Hier kann eingestellt werden, dass das Steueränderungsfenster automatisch erscheint.<br> |
+| Steuergruppe 0 auch bei Personenkonten erlaubt? | Nein | Steuergruppe 0 ist normalerweise für Sachkonten vorgesehen. Dieser Schalter ist daher eingebaut worden, da auch Personenkonten mit Steuergruppe 0 eingerichtet wurden.<br> |
+| Test der Steuerklasse mit der Vorbelegung im Sachkontenstamm | Warnung | Hier kann eingestellt werden, dass die Steuerklasse mit der im Sachkontenstamm getestet wird: Ausprägungen sind „Ignorieren“, „Warnung“ und „Fehler“.<br> |
+| Belegdatum + nnn Tage = Valutadatum | 0 | Für Belegarten ohne Zahlungsbedingung (ZA, SO, ZB, SE, KB) kann die Vorbelegung des Valutadatums hier eingerichtet werden.<br> |
+| Valutadatum gegenüber Belegdatum prüfen | Ignorieren | Stellt man hier etwas anderes als Ignorieren ein, so wird geprüft, ob auch das Valutadatum innerhalb der Periode liegt.<br> |
+| Ankauf, Verkauf o. Mittelkurs bei Ausgangsgutschriften | Verkauf | In den Währungskursen kann man Kurse für Ankauf, Verkauf und Mittel Pflegen. Welcher Kurs bei Fremdwährungsbelegen herangezogen wird, wird hier hinterlegt.<br> |
+| Ankauf, Verkauf o. Mittelkurs bei Ausgangsrechnungen | Verkauf | s.o.<br> |
+| Ankauf, Verkauf o. Mittelkurs bei Eröffnungsbuchungen | Mittel | s.o.<br> |
+| Ankauf, Verkauf o. Mittelkurs bei Eingangsgutschriften | Ankauf | s.o.<br> |
+| Ankauf, Verkauf o. Mittelkurs bei Eingangsrechnungen | Ankauf | s.o.<br> |
+| Ankauf, Verkauf o. Mittelkurs bei sonstigen Belegen | Mittel | s.o.<br> |
+| Ankauf, Verkauf o. Mittelkurs bei Zahlungen | Mittel | s.o.<br> |
+| Zahlsperre berücksichtigen? | Warnung | Hier kann hinterlegt werden, dass die Zahlsperre auch bei der Manuellen Erfassung geprüft wird. Für den automatischen Zahlungsverkehr hat dieser Schalter keine Auswirkungen.<br> |
+| Bei Zahlungen ins Wertstellungsdatum springen? | Nein | Bei der Belegart ZA wird nach Abschluss einer Position in das Feld Gegenkonto gesprungen. Kommt es im täglichen Betrieb häufiger vor, dass das Wertstellungsdatum pro Position abweicht, ist es sinnvoll hier „Ja“ einzutragen.<br> |
+| Bei Zahlungen kein GuV-Konto als Hauptkonto zulassen? | Ja | Hier kann die Sicherheitsprüfung (Bank- und Kasse-Konten müssen Bilanzkonten sein) abgeschaltet werden.<br> |
+| Zahlungsbedingung nur mit Bezug Rechnungsdatum zulassen? | Warnung | Zahlungsbedingungen in der Finanzbuchhaltung können nur aufs Rechnungsdatum bezogen sein. Wenn man hier Ignorieren oder Warnung einträgt, so rechnet das System auch bei anderer Einstellung in den Zahlungsbedingungs-Stammdaten mit dem Belegdatum. Bei Warnung wird jedoch noch darauf hingewiesen, dass diese Zahlungsbedingung eine andere Einstellung hat.<br> |
+| Steuersatz mit den Kennziffern 37 oder 50 nur für Minderungen erlauben? | Fehler | Hier kann eingestellt werden, ob ein Steuersatz mit den Kennziffern 37 oder 50 nur für Minderungen ausgewählt werden kann.<br> |

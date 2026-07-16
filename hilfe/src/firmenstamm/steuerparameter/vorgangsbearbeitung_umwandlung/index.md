@@ -1,0 +1,38 @@
+# Vorgangsbearbeitung Umwandlung
+
+<!-- source: https://amic.de/hilfe/_steupa_VorgangsbearbeitungUmwandlung.htm -->
+
+<p class="siehe-auch">Siehe auch:</p>
+
+- [Teildisposition aktiv(SPA 65)](./teildisposition_aktiv_spa_65.md)
+- [Umwandlungssperre für MS Einträge bei Vollreplikation(SPA 895)](./umwandlungssperre_fuer_ms_eintraege_bei_vollreplikation_spa_.md)
+- [Preisfindung bei Umwandlung zur Rechnung(SPA 147)](./preisfindung_bei_umwandlung_zur_rechnung_spa_147.md)
+- [Negative Restmengen übern. b. Umwandlung(SPA 156)](./negative_restmengen_uebern_b_umwandlung_spa_156.md)
+- [Teildisposition mit Zu-/Abschlägen zulässig(SPA 165)](./teildisposition_mit_zu_abschlaegen_zulaessig_spa_165.md)
+- [Umwandlung trotz Liefersperre(SPA 167)](./umwandlung_trotz_liefersperre_spa_167.md)
+- [Lagerplatz-Automatik (ab Lieferschein)(SPA 196)](./lagerplatz_automatik_ab_lieferschein_spa_196.md)
+- [Vorbelegung Periodenauswahl Warenwirtschaft(SPA 235)](./vorbelegung_periodenauswahl_warenwirtschaft_spa_235.md)
+- [Vorbelegung Periodenauswahl Finanzbuchhaltung(SPA 236)](./vorbelegung_periodenauswahl_finanzbuchhaltung_spa_236.md)
+- [Erhalten der Unterklasse bei Umwandlung(SPA 256)](./erhalten_der_unterklasse_bei_umwandlung_spa_256.md)
+- [Nullmengen bei Umwandlung übernehmen(SPA 268)](./nullmengen_bei_umwandlung_uebernehmen_spa_268.md)
+- [Währungskurs bei Einzelumwandlung übern.(SPA 297)](./waehrungskurs_bei_einzelumwandlung_uebern_spa_297.md)
+- [Teildisposition nur aus aktivem Lager(SPA 316)](./teildisposition_nur_aus_aktivem_lager_spa_316.md)
+- [Restmengen b. Teildisposition ausbuchbar(SPA 320)](./restmengen_b_teildisposition_ausbuchbar_spa_320.md)
+- [Teildisposition nur bei positiver Restmenge(SPA 334)](./teildisposition_nur_bei_positiver_restmenge_spa_334.md)
+- [Gutschrift aus Rechnung wie Stornorechnung(SPA 348)](./gutschrift_aus_rechnung_wie_stornorechnung_spa_348.md)
+- [Vererbung AbteilungsId bei Umwandlung(SPA 378)](./vererbung_abteilungsid_bei_umwandlung_spa_378.md)
+- [Kopfinformationen 1:1 bei Teildisp.Auftr(SPA 407)](./kopfinformationen_1_1_bei_teildisp_auftr_spa_407.md)
+- [Auswerten des KundSammel-Kennzeichens(SPA 516)](./auswerten_des_kundsammel_kennzeichens_spa_516.md)
+- [Gutschrift wechselt Zahlungsbedingung(SPA 531)](./gutschrift_wechselt_zahlungsbedingung_spa_531.md)
+- [Rohwarestorno mit Quellbeleg- Kopie(SPA 654)](./rohwarestorno_mit_quellbeleg_kopie_spa_654.md)
+- [Rohwarestorno mit Alternat. bez. Fibstatus(SPA 655)](./rohwarestorno_mit_alternat_bez_fibstatus_spa_655.md)
+- [Ware-Storno mit Quellbeleg-Kopie(SPA 656)](./ware_storno_mit_quellbeleg_kopie_spa_656.md)
+- [Quellbelegreaktivierung bei Stornieren/Löschen von Warebelegen (BA,AG,BS,AU,LI,RE) (SPA 987)](./quellbelegreaktivierung_bei_stornieren_loeschen_von_warebele.md)
+- [Warestorno mit Alternative bez Fibstatus(SPA 657)](./warestorno_mit_alternative_bez_fibstatus_spa_657.md)
+- [Vorverkauf Fremdkontrakt (SPA 710)](./vorverkauf_fremdkontrakt_spa_710.md)
+- [Voreinkauf Fremdkontrakt (SPA 711)](./voreinkauf_fremdkontrakt_spa_711.md)
+- [Kommission Fremdkontrakt (SPA 713)](./kommission_fremdkontrakt_spa_713.md)
+- [Kontrakterledigung automatisch aufheben (SPA 714)](./kontrakterledigung_automatisch_aufheben_spa_714.md)
+- [Kopie der Versandanschrift bei Vorgangskopie (SPA 774)](./kopie_der_versandanschrift_bei_vorgangskopie_spa_774.md)
+- [„Teildisposition mit Vorlauf“ aktiv (SPA 986)](./teildisposition_mit_vorlauf_aktiv_spa_986.md)
+- [Schnelle Teildispo mit Stornobeleg (SPA 1147)](./schnelle_teildispo_mit_stornobeleg_spa_1147.md)

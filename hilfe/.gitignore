@@ -1,0 +1,4 @@
+book
+migration/*
+_original/*
+**node_modules/

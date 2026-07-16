@@ -1,0 +1,13 @@
+{
+  "name": "a1hilfe-pdf-pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gechunktes Rendern + Merge von book/print.html zu output.pdf (Workaround fuer das Chrome-printToPDF-Kapazitaetslimit von mdbook-pdf).",
+  "scripts": {
+    "build": "node build_pdf.js"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "puppeteer-core": "^25.2.1"
+  }
+}

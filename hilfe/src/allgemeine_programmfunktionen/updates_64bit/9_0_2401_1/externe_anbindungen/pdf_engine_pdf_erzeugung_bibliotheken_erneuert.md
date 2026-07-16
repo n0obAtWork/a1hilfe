@@ -1,0 +1,25 @@
+# PDF-Engine (PDF-Erzeugung-Bibliotheken) erneuert.
+
+<!-- source: https://amic.de/hilfe/_90_34187.htm -->
+
+PDF-Erzeugung wurde auf Version Dynaforms 4.0.77.288 aktualisiert.
+
+### Releasenote Kategorie:
+
+Ticket: 0[34187]
+
+Version: 9.0.2401.1
+
+Datum: 28.03.2024
+
+Anwendung: --
+
+Variante: --
+
+Funktion/Report: --
+
+[Weitere Informationen](../../../../systempflege/systeminformationen/index.md)
+
+#### Tags:
+
+Releasenote, 9.0.2401.1, 34187, 0

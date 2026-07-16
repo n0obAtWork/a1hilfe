@@ -1,0 +1,17 @@
+# Jahresübergreifende Abrechnung
+
+<!-- source: https://amic.de/hilfe/jahresbergreifendeabrechnung.htm -->
+
+Hauptmenü > Rohwarenabrechnung > Rohwarenabrechnung > EK-Rohwarenbearbeitung
+
+Direktsprung **[RWB]**
+
+Hauptmenü > Rohwarenabrechnung > Rohwarenabrechnung > VK-Rohwarenbearbeitung
+
+Direktsprung **[RWBV]**
+
+Sofern für das Geschäftsjahr, in dem die Rohwarelieferung erfasst wurde, mindestens eine Abrechnung erstellt wurde, kann eine Folgeabrechnung auch im darauf folgenden Geschäftsjahr erstellt werden. Hierfür bietet A.eins zwei mögliche Vorgehensweisen. Zum einen kann auf der Grundlage einer existierenden Abschlag- oder Folgeabschlagabrechnung die Erstellung des Folgebelegs durch Eingabe von Datum und Buchungsperioden des neuen Geschäftsjahres auf der vor der Ausführung der Umwandlungsfunktion erscheinenden Vorbereitungs-Maske im neuen Jahr erfolgen. Dabei ist jedoch zu beachten, dass auch bestands- und wertrelevante Buchungen dem neuen Jahr zugeordnet werden.
+
+Eine andere Möglichkeit der Realisierung von jahresübergreifenden Abrechnungen ist die Erstellung von Pro-Forma-Finalabrechnungen zum Jahresende, die dann mittels der Erstellung einer Stornoabrechnung mit Kopie der ursprünglichen Finalabrechnungen ins neue Jahr übertragen werden.  
+Zur Unterstützung bei der Abwicklung jahresübergreifender Rohwareabrechnungen existieren im Vorgangstamm im Vorgangstamm der Belege zwei Attribute. Das Feld ‚**V_KennzJWmitKopie**‘ mit Standardwert = 0 (**Nein**) wird in Quellbelegen auf 1 (**Ja**) gesetzt, wenn diese per Stornobeleg mit Kopie in einem anderen Wirtschaftsjahr umgewandelt werden. Es wird in den relevanten Standard-Auswahlvarianten dargestellt. Das zweite Attribut ‚**V_KennzJWAbrPlan**‘, das ebenfalls in den relevanten Standard-Auswahlvarianten ausgewiesen wird, ist ein pflegbares Kennzeichen mit Standardeinstellung = 0, dass folgende Werte annehmen kann: 0 (**Nein**), 1 (**Ja**) und 2(**Ja, ohne Fibu-Übertrag**). Das Setzen dieses Attributs kann bei der Erfassung/Korrektur von Rohwarenbelegen wie auch per Rohware-Stapel-Korrektur und Rohware -Status-Stapel-Korrektur erfolgen. Dieses Kennzeichen ist, mit einer Ausnahme, rein informell. Lediglich die Einstellung 2 (**Ja, ohne Fibu-Übertrag**) wirkt als Sperre beim evtl. angewählten Fibu-Übertrag. Bei der Beleg-Umwandlung wird dieses Kennzeichen mit übernommen, solange der Zielbeleg weder ein Stornobeleg noch eine per ‚**Stornobeleg-mit-Kopie**‘ erzeugte Kopie mit neuem Wirtschaftsjahr ist. Insofern kann dieses Kennzeichen bereits ab Lieferschein gesetzt werden, wenn bereits bekannt ist, dass die Finalabrechnung jahresübergreifend erfolgen soll.  
+Die geschäftsjahresübergreifende Erstellung eines Rohware-Stornobeleges mit Kopie im neuen Geschäftsjahr kann auch erfolgen, wenn der Originalbeleg nicht an die Finanzbuchhaltung übergeben wurde. Dieses ist z.B. sinnvoll, wenn sich der aktuelle Finalbeleg bzgl. des Betrags zwar vom zuvor generierten Abschlag unterscheidet, der Saldo des Kunden-/Lieferanten aber wegen der erst später erstellbaren vollständigen Endabrechnung zum Jahresende nicht beeinflusst werden soll (Saldenabstimmung). In diesem Fall erhalten sowohl der stornierte wie auch der erzeugte Stornobeleg den FiBu-Status 4 (NN). Eine evtl. anderslautende Einstellung der Rohwareparameter [*Sammel-Storno nur nach Fibuübertrag*](../rohwareparameter_einrichten/rohwareparameter_uebersicht.md#RWPA_145) bzw. [*Stornobeleg nur nach Fibuübertrag*](../rohwareparameter_einrichten/rohwareparameter_uebersicht.md#RWPA_114) wird in diesem Fall ignoriert.

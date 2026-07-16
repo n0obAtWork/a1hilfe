@@ -1,0 +1,11 @@
+# Alles vom Build-Context ausschließen …
+*
+
+# … außer dem Ordner book (inkl. Inhalt)
+!book
+
+# … aber diese book-Unterordner doch ausschließen
+book/html
+book/pdf
+book/pandoc
+book/_parts
