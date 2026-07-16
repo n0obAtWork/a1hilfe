@@ -1,0 +1,7 @@
+*
+
+!.dockerignore
+!Cargo.toml
+!Cargo.lock
+!src/
+!migrations/

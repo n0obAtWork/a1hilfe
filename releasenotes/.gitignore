@@ -1,0 +1,7 @@
+/target
+/certs
+.claude
+
+**.env
+**.cer
+**.pfx

@@ -1,0 +1,61 @@
+# get workitem by id - example with id 41252
+GET {{$dotenv TFS_AEINS}}/_apis/wit/workitems/38591?api-version=7.1
+# GET {{$dotenv TFS_AEINS}}/_apis/wit/workitems/38559?api-version=7.1
+Authorization: Basic {{$dotenv TFS_TOKEN}}
+
+###
+
+# get workitems by wiql query for a given 'Funktion' id
+@funkId = 38940
+@query = SELECT [Target].[System.Id] FROM WorkItemLinks WHERE [Source].[System.Id] = {{funkId}} AND [Target].[AMIC.UseCase.HilfeKategorie] <> 'Maintenance' ORDER BY [Target].[AMIC.UseCase.HilfeKategorie]
+POST {{$dotenv TFS_AEINS}}/_apis/wit/wiql?api-version=7.1
+Authorization: Basic {{$dotenv TFS_TOKEN}}
+Content-Type: application/json
+Accept: application/json
+
+{
+    "query": "{{query}}"
+}
+
+###
+
+# get 'Funktionen' by query id
+@queryId = 3b140d66-73c9-4236-8234-449fc482cf61
+GET {{$dotenv TFS_AEINS}}/_apis/wit/wiql/{{queryId}}?api-version=7.1
+Authorization: Basic {{$dotenv TFS_TOKEN}}
+
+###
+
+# get current unreleased version
+POST {{$dotenv TFS_AEINS}}/_apis/wit/wiql?api-version=7.1
+Authorization: Basic {{$dotenv TFS_TOKEN}}
+Content-Type: application/json
+Accept: application/json
+
+{
+    "query": "SELECT [System.Title] FROM WorkItems WHERE [System.WorkItemType] = 'Funktion' AND [System.State] = 'Aktiv' AND [System.Title] contains '9.0.' Order By [System.Title], [Microsoft.VSTS.Scheduling.TargetDate] DESC"
+}
+
+###
+
+# abkündigungen
+POST {{$dotenv TFS_AEINS}}/_apis/wit/wiql?api-version=7.1
+Authorization: Basic {{$dotenv TFS_TOKEN}}
+Content-Type: application/json
+Accept: application/json
+
+{
+    "query": "SELECT [System.Id] FROM WorkItems WHERE [System.WorkItemType] = 'Aufgabe' and [AMIC.UseCase.RelnoTitel] <> '' and [AMIC.UseCase.HilfeKategorie] == 'Abkündigung' and [System.State] = 'Geschlossen'"
+}
+
+###
+
+# get all version numbers
+POST {{$dotenv TFS_AEINS}}/_apis/wit/wiql?api-version=7.1
+Authorization: Basic {{$dotenv TFS_TOKEN}}
+Content-Type: application/json
+Accept: application/json
+
+{
+    "query": "SELECT [System.Title] FROM WorkItems WHERE [System.WorkItemType] = 'Funktion' AND [System.State] != 'Geschlossen' AND [System.State] != 'Vorgeschlagen' AND [System.State] != 'Aktiv'  Order By [System.Title], [Microsoft.VSTS.Scheduling.TargetDate] DESC"
+}

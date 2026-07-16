@@ -1,0 +1,52 @@
+name: Deploy Releasenotes Service to Production
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'README.md'
+      - '.env.example'
+      - '.gitignore'
+
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: releasenotes
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+      - name: Run tests
+        run: TEST_POSTGRES_TAG="18.4-trixie" cargo test
+      - name: Build Docker image
+        run: docker build -t releasenotes:latest .
+      - name: Handle old container
+        run: |
+          chmod +x handle-old-container.sh
+          ./handle-old-container.sh releasenotes
+      - name: Deploy service
+        env:
+          TFS_TOKEN: ${{ secrets.TFS_TOKEN }}
+          CERT_PW: ${{ secrets.CERT_PW }}
+          DB_PW: ${{ secrets.DB_PW }}
+        run: >
+          docker run -d
+          --restart always
+          --name releasenotes
+          --network infra
+          -p ${{ vars.HOST_PORT }}:${{ vars.SERVER_PORT }}
+          -v /opt/auxiliary:/certs:ro
+          -e ROOT_CA="/certs/Root Certificate Authority (ad.amic.services).cer"
+          -e TFS_CERT="/certs/devops.amic.services.pfx"
+          -e TFS_TOKEN="$TFS_TOKEN"
+          -e CERT_PW="$CERT_PW"
+          -e TFS_AMIC="${{ vars.TFS_AMIC }}"
+          -e TFS_AEINS="${{ vars.TFS_AEINS }}"
+          -e DB_USER="${{ vars.DB_USER }}"
+          -e DB_PW="$DB_PW"
+          -e DB_HOST="${{ vars.DB_HOST }}"
+          -e DB_PORT="${{ vars.DB_PORT }}"
+          -e DB_NAME="${{ vars.DB_NAME }}"
+          releasenotes:latest
