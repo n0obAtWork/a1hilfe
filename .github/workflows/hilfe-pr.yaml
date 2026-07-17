@@ -1,10 +1,10 @@
 name: PR Check A.eins Hilfe
 
-# Validiert PRs gegen 'dev': baut + testet nur, KEIN Deploy/PDF/SCP.
+# Validiert PRs gegen 'main': baut + testet nur, KEIN Deploy/PDF/SCP.
 # Fängt "baut nicht durch" (kaputte Links/Markdown, fehlende Ziele) vor dem Merge ab.
 on:
   pull_request:
-    branches: [main, dev]
+    branches: [main]
 
 defaults:
   run:
