@@ -471,6 +471,7 @@
       - [Warenwirtschaft](allgemeine_programmfunktionen/updates_64bit/9_0_2502_9/warenwirtschaft/index.md)
         - [Änderung einer Anschrift](allgemeine_programmfunktionen/updates_64bit/9_0_2502_9/warenwirtschaft/aenderung_einer_anschrift.md)
       - [Tabelle zur Version: 9.0.2502.9](allgemeine_programmfunktionen/updates_64bit/9_0_2502_9/tabelle_zur_version_9_0_2502_9.md)
+    - [9.0.2502.9-Preview](allgemeine_programmfunktionen/updates_64bit/9.0.2502.9-preview.md)
   - [Programmupdates und Releaseänderungen Versionen 32bit](allgemeine_programmfunktionen/updates_32bit/index.md)
     - [8.3.2210.20](allgemeine_programmfunktionen/updates_32bit/8_3_2210_20/index.md)
       - [Allgemeine Programmfunktionen](allgemeine_programmfunktionen/updates_32bit/8_3_2210_20/allgemeine_programmfunktionen/index.md)
