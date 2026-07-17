@@ -18,7 +18,7 @@ defaults:
 
 jobs:
   build-and-deploy:
-    runs-on: releasenotes
+    runs-on: a1hilfe
     steps:
       - name: Checkout code
         uses: actions/checkout@v6
