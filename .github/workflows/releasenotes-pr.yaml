@@ -1,0 +1,22 @@
+name: PR Check Releasenotes
+
+# Validiert PRs gegen 'main': kompiliert + testet (cargo test), KEIN Docker/Deploy.
+# Fängt "kompiliert nicht" vor dem Merge ab.
+on:
+  pull_request:
+    branches: [main]
+
+defaults:
+  run:
+    working-directory: releasenotes
+
+jobs:
+  test:
+    name: Test Releasenotes (PR)
+    runs-on: releasenotes
+    timeout-minutes: 30
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+      - name: Build & test
+        run: TEST_POSTGRES_TAG="18.4-trixie" cargo test

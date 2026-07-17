@@ -1,25 +1,39 @@
-name: Deploy A.eins Hilfe
+name: Deploy A.eins Hilfe (Production)
 
+# Production-Build: läuft NUR bei Push eines Versions-Tags (z.B. 1.2.3).
+# Der Tag ist die Version und kennzeichnet das Docker-Image. Gilt nur für hilfe.
+# (Bei Tag-Pushes ignoriert GitHub 'paths' — ein Versions-Tag ist ein bewusster Release.)
 on:
   push:
-    branches: [main]
-    paths-ignore:
-      - 'README.md'
-      - '.gitignore'
-      - '.prettierignore'
-      - '.book.toml'
-
+    tags:
+      - '[0-9]+.[0-9]+.[0-9]+'
   workflow_dispatch:
+
+defaults:
+  run:
+    working-directory: hilfe
 
 jobs:
   build:
-    runs-on: spike-a1hilfe-mdbook
+    runs-on: hilfe
     timeout-minutes: 45
     steps:
       - name: Checkout
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
+      # Prod nur, wenn der getaggte Commit in 'main' enthalten ist (Tags sind branch-
+      # unabhängig; GitHub kann das nicht am Trigger filtern -> Guard hier, fail-fast).
+      - name: Tag muss auf main liegen
+        working-directory: .
+        run: |
+          git fetch --no-tags --quiet origin main
+          if git merge-base --is-ancestor "$GITHUB_SHA" origin/main; then
+            echo "OK: Tag-Commit ist in main enthalten."
+          else
+            echo "::error::Tag $GITHUB_REF_NAME liegt nicht auf main — Abbruch."
+            exit 1
+          fi
       - name: Setup Chrome
         uses: browser-actions/setup-chrome@v2
       - name: Add mdbook and extensions to path
@@ -30,13 +44,11 @@ jobs:
         run: mdbook test
       - name: Build Hilfe
         run: mdbook build
-      # # this is for a workaround
+      # Chrome/Chromium printToPdf ist der limitierende Faktor -> gechunkte PDF-Pipeline
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
           node-version: v24
-      # Chrome / Chromium's printToPdf is the limiting factor
-      # because the size of the print.html is just too big to convert to in one run 
       - name: Custom PDF generation!
         run: |
           cd pdf_pipeline
@@ -52,26 +64,16 @@ jobs:
         run: sshpass -p '${{ secrets.SCP_PW }}' scp book/pdf/Aeins-$CID.pdf '${{ secrets.SCP_USER }}@${{ vars.SCP_HOST }}:${{ vars.SCP_DIR }}'
       - name: Handle old container
         run: |
-          chmod +x ./handle-old-container.sh
-          ./handle-old-container.sh spike-a1hilfe-mdbook      
+          chmod +x ../handle-old-container.sh
+          ../handle-old-container.sh hilfe
+      # Image wird ausschließlich mit der Version (= Tag-Name) getaggt, kein :latest
       - name: Build Docker image
-        run: docker build -t spike-a1hilfe-mdbook:latest .
+        run: docker build -t hilfe:${{ github.ref_name }} .
       - name: Deploy internal Onlinehilfe
         run: >
           docker run -d
           --restart always
-          --name spike-a1hilfe-mdbook
-          --network dev
-          -p 8181:80
-          spike-a1hilfe-mdbook:latest
-      # - name: Upload to amic.de/hilfe
-      #   uses: pontago/lftp-deploy-action@master
-      #   with:
-      #     protocol: sftp
-      #     host: ${{ vars.FTP_HOST }}
-      #     port: ${{ vars.FTP_PORT }}
-      #     username: ${{ secrets.FTP_USER }}
-      #     password: ${{ secrets.FTP_PW }}
-      #     script: |
-      #       mirror -R ./book/ /wordpress_2025/hilfe/bookworm --delete --verbose
-       
+          --name hilfe
+          --network infra
+          -p 8180:80
+          hilfe:${{ github.ref_name }}

@@ -1,0 +1,69 @@
+name: Deploy A.eins Hilfe (Dev)
+
+# Dev-Build: läuft bei Push auf 'dev', wenn sich etwas unter hilfe/ geändert hat.
+on:
+  push:
+    branches: [dev]
+    paths:
+      - 'hilfe/**'
+      - '!hilfe/README.md'
+      - '!hilfe/.gitignore'
+      - '!hilfe/.prettierignore'
+      - '!hilfe/book.toml'
+  workflow_dispatch:
+
+defaults:
+  run:
+    working-directory: hilfe
+
+jobs:
+  build:
+    runs-on: hilfe
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - name: Setup Chrome
+        uses: browser-actions/setup-chrome@v2
+      - name: Add mdbook and extensions to path
+        run: echo "/opt/cargo/bin" >> $GITHUB_PATH
+      - name: Prepare correct book.toml for build
+        run: mv book.prod.toml book.toml
+      - name: Run tests
+        run: mdbook test
+      - name: Build Hilfe
+        run: mdbook build
+      # Chrome/Chromium printToPdf ist der limitierende Faktor -> gechunkte PDF-Pipeline
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: v24
+      - name: Custom PDF generation!
+        run: |
+          cd pdf_pipeline
+          npm i
+          npm run build
+      - name: Get short commit SHA and store it
+        run: echo "CID=$(git log -1 --format=%h)" >> $GITHUB_ENV
+      - name: Rename PDF file
+        run: |
+          cp book/pdf/output.pdf book/pdf/Aeins-$CID.pdf
+          mv book/pdf/output.pdf book/pdf/Aeins.pdf
+      - name: Copy PDF to LFB
+        run: sshpass -p '${{ secrets.SCP_PW }}' scp book/pdf/Aeins-$CID.pdf '${{ secrets.SCP_USER }}@${{ vars.SCP_HOST }}:${{ vars.SCP_DIR }}'
+      - name: Handle old container
+        run: |
+          chmod +x ../handle-old-container.sh
+          ../handle-old-container.sh hilfe-dev
+      - name: Build Docker image
+        run: docker build -t hilfe:dev .
+      - name: Deploy internal Onlinehilfe
+        run: >
+          docker run -d
+          --restart always
+          --name hilfe-dev
+          --network infra
+          -p 8281:80
+          hilfe:dev
